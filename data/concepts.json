@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1",
+  "concepts": [
+    {
+      "id": "concept-figur-recognizable-form",
+      "concept": "a recognizable form",
+      "chinese": "一个可被辨认的形态",
+      "core_image": "一个清晰可见的轮廓——远处看到一个人的身影，能认出是谁",
+      "root_ids": ["figur"],
+      "word_ids": ["figure", "configure", "figurative", "disfigure"]
+    },
+    {
+      "id": "concept-press-push-down",
+      "concept": "to push down or against with force",
+      "chinese": "施加压力、按压",
+      "core_image": "手掌向下按压，把东西压紧、压出痕迹",
+      "root_ids": ["press"],
+      "word_ids": ["pressure", "impress", "express", "suppress", "compress"]
+    },
+    {
+      "id": "concept-form-give-shape",
+      "concept": "to give or take a shape",
+      "chinese": "形成、塑造",
+      "core_image": "黏土在手中被捏成某个形状；事物从无形变成有形",
+      "root_ids": ["form"],
+      "word_ids": ["formal", "inform", "transform", "perform", "reform"]
+    },
+    {
+      "id": "concept-tract-pull",
+      "concept": "to pull or draw",
+      "chinese": "拉、拖、牵引",
+      "core_image": "一根绳子把物体朝自己方向拉过来",
+      "root_ids": ["tract"],
+      "word_ids": ["attract", "extract", "contract", "distract", "tractor"]
+    },
+    {
+      "id": "concept-pose-place",
+      "concept": "to place or put",
+      "chinese": "放置、摆放",
+      "core_image": "把东西摆放到某个位置，摆放出一个姿态",
+      "root_ids": ["pose"],
+      "word_ids": ["position", "compose", "expose", "propose", "oppose"]
+    },
+    {
+      "id": "concept-mit-send",
+      "concept": "to send",
+      "chinese": "送、派遣、发出",
+      "core_image": "一只手把东西送出去，送到对方那里",
+      "root_ids": ["mit-miss"],
+      "word_ids": ["admit", "commit", "permit", "transmit", "mission"]
+    },
+    {
+      "id": "concept-spect-look",
+      "concept": "to look, to see",
+      "chinese": "看、观察",
+      "core_image": "目光看向某个方向，仔细地注视",
+      "root_ids": ["spect"],
+      "word_ids": ["inspect", "respect", "prospect", "spectator", "expect"]
+    },
+    {
+      "id": "concept-scrib-write",
+      "concept": "to write",
+      "chinese": "写、刻画",
+      "core_image": "笔尖在纸上划过，留下字迹和记号",
+      "root_ids": ["scrib-script"],
+      "word_ids": ["describe", "prescribe", "transcript", "manuscript", "subscribe"]
+    },
+    {
+      "id": "concept-duct-lead",
+      "concept": "to lead, to guide",
+      "chinese": "引导、带领",
+      "core_image": "一只手牵着人沿着道路往前走，让事物沿着路径流动",
+      "root_ids": ["duc-duct"],
+      "word_ids": ["conduct", "produce", "introduce", "educate", "reduce"]
+    },
+    {
+      "id": "concept-port-carry",
+      "concept": "to carry",
+      "chinese": "运送、携带",
+      "core_image": "搬运工把货物从一个地方运到另一个地方",
+      "root_ids": ["port"],
+      "word_ids": ["import", "export", "transport", "portable", "report"]
+    }
+  ]
+}

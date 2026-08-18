@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Semantic Graph — 英语概念图谱</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>English Semantic Graph <span class="badge">v0.1</span></h1>
+    <p class="subtitle">不是背单词软件，而是一个概念认知系统 —— 点击节点探索词族</p>
+  </header>
+
+  <main>
+    <div id="graph-container">
+      <svg id="graph"></svg>
+      <div id="legend">
+        <div class="legend-item"><span class="dot root"></span>词根 Root</div>
+        <div class="legend-item"><span class="dot concept"></span>核心概念 Concept</div>
+        <div class="legend-item"><span class="dot word"></span>单词 Word</div>
+        <div class="legend-item"><span class="dot derived"></span>派生/词根关系</div>
+        <div class="legend-item"><span class="dot antonym"></span>反义关系</div>
+      </div>
+    </div>
+
+    <aside id="detail-panel">
+      <div id="detail-empty">
+        <p>👈 点击图中的节点</p>
+        <p>查看概念、画面与词族</p>
+      </div>
+      <div id="detail-content" class="hidden"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>数据驱动：<code>data/roots.json</code> · <code>data/concepts.json</code> · <code>data/words.json</code> · <code>data/relations.json</code></p>
+  </footer>
+
+  <script src="graph.js"></script>
+</body>
+</html>

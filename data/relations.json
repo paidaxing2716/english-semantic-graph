@@ -1,0 +1,425 @@
+{
+  "schema_version": "0.1",
+  "relations": [
+    {
+      "from": "figur",
+      "to": "figure",
+      "type": "root",
+      "note": "figure 直接来自 figur"
+    },
+    {
+      "from": "figur",
+      "to": "configure",
+      "type": "root",
+      "note": "con- + figur"
+    },
+    {
+      "from": "figur",
+      "to": "figurative",
+      "type": "root",
+      "note": "figur + -ative"
+    },
+    {
+      "from": "figur",
+      "to": "disfigure",
+      "type": "root",
+      "note": "dis- + figur"
+    },
+    {
+      "from": "figur",
+      "to": "configuration",
+      "type": "root",
+      "note": "con- + figur + -ation"
+    },
+    {
+      "from": "figure",
+      "to": "configure",
+      "type": "derived",
+      "note": "从形状概念扩展：组合成目标形状"
+    },
+    {
+      "from": "figure",
+      "to": "figurative",
+      "type": "derived",
+      "note": "形象的→比喻的"
+    },
+    {
+      "from": "figure",
+      "to": "disfigure",
+      "type": "derived",
+      "note": "破坏形状"
+    },
+    {
+      "from": "configure",
+      "to": "configuration",
+      "type": "derived",
+      "note": "配置的动作→配置的结果"
+    },
+    {
+      "from": "press",
+      "to": "pressure",
+      "type": "root",
+      "note": "press + -ure"
+    },
+    {
+      "from": "press",
+      "to": "impress",
+      "type": "root",
+      "note": "im- + press"
+    },
+    {
+      "from": "press",
+      "to": "express",
+      "type": "root",
+      "note": "ex- + press"
+    },
+    {
+      "from": "press",
+      "to": "suppress",
+      "type": "root",
+      "note": "sup- + press"
+    },
+    {
+      "from": "press",
+      "to": "compress",
+      "type": "root",
+      "note": "com- + press"
+    },
+    {
+      "from": "impress",
+      "to": "express",
+      "type": "antonym",
+      "note": "往里压 vs 往外压"
+    },
+    {
+      "from": "suppress",
+      "to": "express",
+      "type": "antonym",
+      "note": "压下去 vs 表达出来"
+    },
+    {
+      "from": "pressure",
+      "to": "impress",
+      "type": "derived",
+      "note": "同一词根家族"
+    },
+    {
+      "from": "form",
+      "to": "formal",
+      "type": "root",
+      "note": "form + -al"
+    },
+    {
+      "from": "form",
+      "to": "inform",
+      "type": "root",
+      "note": "in- + form"
+    },
+    {
+      "from": "form",
+      "to": "transform",
+      "type": "root",
+      "note": "trans- + form"
+    },
+    {
+      "from": "form",
+      "to": "perform",
+      "type": "root",
+      "note": "per- + form"
+    },
+    {
+      "from": "form",
+      "to": "reform",
+      "type": "root",
+      "note": "re- + form"
+    },
+    {
+      "from": "transform",
+      "to": "reform",
+      "type": "derived",
+      "note": "改变形态"
+    },
+    {
+      "from": "tract",
+      "to": "attract",
+      "type": "root",
+      "note": "at- + tract"
+    },
+    {
+      "from": "tract",
+      "to": "extract",
+      "type": "root",
+      "note": "ex- + tract"
+    },
+    {
+      "from": "tract",
+      "to": "contract",
+      "type": "root",
+      "note": "con- + tract"
+    },
+    {
+      "from": "tract",
+      "to": "distract",
+      "type": "root",
+      "note": "dis- + tract"
+    },
+    {
+      "from": "tract",
+      "to": "tractor",
+      "type": "root",
+      "note": "tract + -or"
+    },
+    {
+      "from": "attract",
+      "to": "distract",
+      "type": "antonym",
+      "note": "拉来 vs 拉开"
+    },
+    {
+      "from": "attract",
+      "to": "extract",
+      "type": "derived",
+      "note": "同词根"
+    },
+    {
+      "from": "pose",
+      "to": "position",
+      "type": "root",
+      "note": "pos + -ition"
+    },
+    {
+      "from": "pose",
+      "to": "compose",
+      "type": "root",
+      "note": "com- + pose"
+    },
+    {
+      "from": "pose",
+      "to": "expose",
+      "type": "root",
+      "note": "ex- + pose"
+    },
+    {
+      "from": "pose",
+      "to": "propose",
+      "type": "root",
+      "note": "pro- + pose"
+    },
+    {
+      "from": "pose",
+      "to": "oppose",
+      "type": "root",
+      "note": "op- + pose"
+    },
+    {
+      "from": "propose",
+      "to": "oppose",
+      "type": "antonym",
+      "note": "提出 vs 反对"
+    },
+    {
+      "from": "expose",
+      "to": "compose",
+      "type": "derived",
+      "note": "同词根"
+    },
+    {
+      "from": "mit-miss",
+      "to": "admit",
+      "type": "root",
+      "note": "ad- + mit"
+    },
+    {
+      "from": "mit-miss",
+      "to": "commit",
+      "type": "root",
+      "note": "com- + mit"
+    },
+    {
+      "from": "mit-miss",
+      "to": "permit",
+      "type": "root",
+      "note": "per- + mit"
+    },
+    {
+      "from": "mit-miss",
+      "to": "transmit",
+      "type": "root",
+      "note": "trans- + mit"
+    },
+    {
+      "from": "mit-miss",
+      "to": "mission",
+      "type": "root",
+      "note": "miss + -ion"
+    },
+    {
+      "from": "commit",
+      "to": "permit",
+      "type": "derived",
+      "note": "同词根"
+    },
+    {
+      "from": "spect",
+      "to": "inspect",
+      "type": "root",
+      "note": "in- + spect"
+    },
+    {
+      "from": "spect",
+      "to": "respect",
+      "type": "root",
+      "note": "re- + spect"
+    },
+    {
+      "from": "spect",
+      "to": "prospect",
+      "type": "root",
+      "note": "pro- + spect"
+    },
+    {
+      "from": "spect",
+      "to": "spectator",
+      "type": "root",
+      "note": "spect + -ator"
+    },
+    {
+      "from": "spect",
+      "to": "expect",
+      "type": "root",
+      "note": "ex- + spect"
+    },
+    {
+      "from": "inspect",
+      "to": "respect",
+      "type": "derived",
+      "note": "同词根"
+    },
+    {
+      "from": "prospect",
+      "to": "expect",
+      "type": "semantic_extension",
+      "note": "向前看 vs 向外看未来"
+    },
+    {
+      "from": "scrib-script",
+      "to": "describe",
+      "type": "root",
+      "note": "de- + scrib"
+    },
+    {
+      "from": "scrib-script",
+      "to": "prescribe",
+      "type": "root",
+      "note": "pre- + scrib"
+    },
+    {
+      "from": "scrib-script",
+      "to": "transcript",
+      "type": "root",
+      "note": "trans- + script"
+    },
+    {
+      "from": "scrib-script",
+      "to": "manuscript",
+      "type": "root",
+      "note": "manu- + script"
+    },
+    {
+      "from": "scrib-script",
+      "to": "subscribe",
+      "type": "root",
+      "note": "sub- + scrib"
+    },
+    {
+      "from": "describe",
+      "to": "prescribe",
+      "type": "derived",
+      "note": "同词根"
+    },
+    {
+      "from": "duc-duct",
+      "to": "conduct",
+      "type": "root",
+      "note": "con- + duct"
+    },
+    {
+      "from": "duc-duct",
+      "to": "produce",
+      "type": "root",
+      "note": "pro- + duct"
+    },
+    {
+      "from": "duc-duct",
+      "to": "introduce",
+      "type": "root",
+      "note": "intro- + duct"
+    },
+    {
+      "from": "duc-duct",
+      "to": "educate",
+      "type": "root",
+      "note": "e- + duc"
+    },
+    {
+      "from": "duc-duct",
+      "to": "reduce",
+      "type": "root",
+      "note": "re- + duct"
+    },
+    {
+      "from": "produce",
+      "to": "reduce",
+      "type": "antonym",
+      "note": "产出 vs 减少"
+    },
+    {
+      "from": "educate",
+      "to": "conduct",
+      "type": "derived",
+      "note": "同词根"
+    },
+    {
+      "from": "port",
+      "to": "import",
+      "type": "root",
+      "note": "im- + port"
+    },
+    {
+      "from": "port",
+      "to": "export",
+      "type": "root",
+      "note": "ex- + port"
+    },
+    {
+      "from": "port",
+      "to": "transport",
+      "type": "root",
+      "note": "trans- + port"
+    },
+    {
+      "from": "port",
+      "to": "portable",
+      "type": "root",
+      "note": "port + -able"
+    },
+    {
+      "from": "port",
+      "to": "report",
+      "type": "root",
+      "note": "re- + port"
+    },
+    {
+      "from": "import",
+      "to": "export",
+      "type": "antonym",
+      "note": "运进来 vs 运出去"
+    },
+    {
+      "from": "import",
+      "to": "transport",
+      "type": "derived",
+      "note": "同词根"
+    }
+  ]
+}
