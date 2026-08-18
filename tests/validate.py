@@ -20,7 +20,7 @@ VALID_RELATION_TYPES = {
     "root", "derived", "semantic_extension", "synonym", "antonym", "context"
 }
 
-REQUIRED_WORD_FIELDS = ["id", "word", "pos", "root_ids", "root_logic", "origin", "native_definition", "core_concept", "core_image", "chinese", "examples"]
+REQUIRED_WORD_FIELDS = ["id", "word", "pos", "phonetic", "root_ids", "root_logic", "origin", "native_definition", "core_concept", "core_image", "chinese", "examples"]
 REQUIRED_ROOT_FIELDS = ["id", "root", "origin", "core_concept", "core_image", "word_ids"]
 REQUIRED_CONCEPT_FIELDS = ["id", "concept", "chinese", "core_image", "root_ids", "word_ids"]
 REQUIRED_CLUSTER_FIELDS = ["id", "type", "concept", "chinese", "core_image", "word_ids"]
@@ -78,6 +78,9 @@ def main():
                 ok = False
             elif f == "examples" and not isinstance(w[f], list):
                 print(f"[FAIL] words.{w['id']}.examples 必须是数组")
+                ok = False
+            elif f == "phonetic" and not w[f].strip().startswith("/"):
+                print(f"[FAIL] words.{w['id']}.phonetic 必须以 / 开头（IPA 格式）")
                 ok = False
     for r in roots:
         for f in REQUIRED_ROOT_FIELDS:

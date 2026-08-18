@@ -107,6 +107,7 @@
         label: w.word,
         type: "word",
         pos: w.pos,
+        phonetic: w.phonetic,
         origin: w.origin,
         rootLogic: w.root_logic,
         definition: w.native_definition,
@@ -431,6 +432,8 @@
     let html = `
       <div class="detail-title">${escapeHtml(d.label)}
         <span class="detail-type ${d.type}">${typeLabel}</span>
+        ${d.phonetic ? `<span class="detail-phonetic">${escapeHtml(d.phonetic)}</span>` : ""}
+        ${d.type === "word" ? `<button class="speak-btn" data-word="${escapeHtml(d.label)}" title="点击发音">🔊</button>` : ""}
       </div>`;
 
     if (d.pos) {
@@ -540,6 +543,42 @@
     div.textContent = str == null ? "" : String(str);
     return div.innerHTML;
   }
+
+  // ---------- 发音（Web Speech API） ----------
+  function speakWord(word) {
+    if (!("speechSynthesis" in window)) {
+      alert("当前浏览器不支持语音合成");
+      return;
+    }
+    // 取消正在播报的（防止连续点击堆积）
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(word);
+    utter.lang = "en-US";
+    utter.rate = 0.85; // 稍慢，便于学习
+    // 优先选英语语音
+    const voices = window.speechSynthesis.getVoices();
+    const enVoice = voices.find((v) => v.lang.startsWith("en-US")) || voices.find((v) => v.lang.startsWith("en"));
+    if (enVoice) utter.voice = enVoice;
+    window.speechSynthesis.speak(utter);
+  }
+
+  // 详情面板：点击 🔊 发音
+  detailContent.on("click", (event) => {
+    const btn = event.target.closest(".speak-btn");
+    if (btn && btn.dataset.word) {
+      speakWord(btn.dataset.word);
+      return;
+    }
+    const chip = event.target.closest(".chip");
+    if (!chip) return;
+    const id = chip.textContent.trim();
+    const node = nodes.find((n) => n.label === id && n.type === "word");
+    if (node) {
+      revealNode(node);
+      focusNode(node);
+      showDetail(node);
+    }
+  });
 
   // ---------- 启动 ----------
   async function init() {

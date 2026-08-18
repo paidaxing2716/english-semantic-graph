@@ -274,6 +274,32 @@ main {
   gap: 10px;
 }
 
+.detail-phonetic {
+  font-family: "Segoe UI", "Arial Unicode MS", sans-serif;
+  font-size: 14px;
+  color: var(--text-dim);
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.speak-btn {
+  background: none;
+  border: 1px solid #2a3344;
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 3px 8px;
+  margin-left: auto;
+  transition: all .2s;
+}
+
+.speak-btn:hover {
+  border-color: var(--accent);
+  background: rgba(79, 140, 255, .12);
+  transform: scale(1.08);
+}
+
 .detail-type {
   font-size: 11px;
   padding: 2px 8px;
