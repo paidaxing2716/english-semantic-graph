@@ -9,8 +9,12 @@
 </head>
 <body>
   <header>
-    <h1>English Semantic Graph <span class="badge">v0.1</span></h1>
-    <p class="subtitle">不是背单词软件，而是一个概念认知系统 —— 点击节点探索词族</p>
+    <h1>English Semantic Graph <span class="badge">v0.1.1</span></h1>
+    <p class="subtitle">不是背单词软件，而是一个概念认知系统 —— 搜索单词、点击词根展开词族</p>
+    <div id="search-box">
+      <input type="text" id="search-input" placeholder="🔍 搜索单词 / 词根 / 中文…" autocomplete="off">
+      <div id="search-results" class="hidden"></div>
+    </div>
   </header>
 
   <main>
@@ -23,6 +27,7 @@
         <div class="legend-item"><span class="dot derived"></span>派生/词根关系</div>
         <div class="legend-item"><span class="dot antonym"></span>反义关系</div>
       </div>
+      <div id="hint">💡 点击词根展开/收起词族 · 双击空白重新布局</div>
     </div>
 
     <aside id="detail-panel">

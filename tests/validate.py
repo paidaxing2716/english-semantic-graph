@@ -23,6 +23,7 @@ VALID_RELATION_TYPES = {
 REQUIRED_WORD_FIELDS = ["id", "word", "pos", "root_ids", "root_logic", "origin", "native_definition", "core_concept", "core_image", "chinese", "examples"]
 REQUIRED_ROOT_FIELDS = ["id", "root", "origin", "core_concept", "core_image", "word_ids"]
 REQUIRED_CONCEPT_FIELDS = ["id", "concept", "chinese", "core_image", "root_ids", "word_ids"]
+REQUIRED_CLUSTER_FIELDS = ["id", "type", "concept", "chinese", "core_image", "word_ids"]
 
 
 def load(name):
@@ -69,8 +70,14 @@ def main():
     # --- 必填字段 ---
     for w in words:
         for f in REQUIRED_WORD_FIELDS:
-            if f not in w or w[f] in (None, "", []):
+            if f not in w or w[f] in (None, ""):
                 print(f"[FAIL] words 缺少必填字段 {f}: {w.get('id', '?')}")
+                ok = False
+            elif f == "root_ids" and not isinstance(w[f], list):
+                print(f"[FAIL] words.{w['id']}.root_ids 必须是数组")
+                ok = False
+            elif f == "examples" and not isinstance(w[f], list):
+                print(f"[FAIL] words.{w['id']}.examples 必须是数组")
                 ok = False
     for r in roots:
         for f in REQUIRED_ROOT_FIELDS:
@@ -78,10 +85,36 @@ def main():
                 print(f"[FAIL] roots 缺少必填字段 {f}: {r.get('id', '?')}")
                 ok = False
     for c in concepts:
-        for f in REQUIRED_CONCEPT_FIELDS:
-            if f not in c or c[f] in (None, "", []):
-                print(f"[FAIL] concepts 缺少必填字段 {f}: {c.get('id', '?')}")
+        if c.get("type") == "cluster":
+            for f in REQUIRED_CLUSTER_FIELDS:
+                if f not in c or c[f] in (None, "", []):
+                    print(f"[FAIL] cluster 概念缺少必填字段 {f}: {c.get('id', '?')}")
+                    ok = False
+            if not c.get("word_ids"):
+                print(f"[FAIL] cluster 概念必须有组成员 (word_ids): {c.get('id', '?')}")
                 ok = False
+        else:
+            for f in REQUIRED_CONCEPT_FIELDS:
+                if f not in c or c[f] in (None, "", []):
+                    print(f"[FAIL] concepts 缺少必填字段 {f}: {c.get('id', '?')}")
+                    ok = False
+
+    # --- synonym_group 引用校验（近义词组必须引用存在的 cluster 概念）---
+    cluster_ids = {c["id"] for c in concepts if c.get("type") == "cluster"}
+    for w in words:
+        sg = w.get("synonym_group")
+        if sg:
+            if sg not in cluster_ids:
+                print(f"[FAIL] words.{w['id']}.synonym_group 引用不存在的 cluster 概念: {sg}")
+                ok = False
+            # 反向：该 cluster 的 word_ids 应包含这个词
+            cluster = next((c for c in concepts if c["id"] == sg), None)
+            if cluster and w["id"] not in cluster.get("word_ids", []):
+                print(f"[WARN] words.{w['id']} 声明 synonym_group={sg} 但 cluster 未收录它")
+        # 反向检查：cluster 里的词应声明 synonym_group
+        for c in concepts:
+            if c.get("type") == "cluster" and w["id"] in c.get("word_ids", []) and not sg:
+                print(f"[WARN] cluster {c['id']} 收录了 {w['id']} 但该词未声明 synonym_group")
 
     # --- 外键引用 ---
     # words.root_ids 引用 roots

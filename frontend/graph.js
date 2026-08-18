@@ -1,4 +1,6 @@
-/* English Semantic Graph v0.1 — D3 force-directed graph */
+/* English Semantic Graph v0.1.1 — D3 force-directed graph
+ * 功能：分层钻取（默认词根+概念，点击展开词族）+ 搜索直达 + 详情面板
+ */
 (function () {
   "use strict";
 
@@ -21,10 +23,13 @@
   let nodes = [];
   let links = [];
   let simulation = null;
+  let highlightedId = null; // 当前高亮节点 id
 
   const svg = d3.select("#graph");
   const detailEmpty = d3.select("#detail-empty");
   const detailContent = d3.select("#detail-content");
+  const searchInput = d3.select("#search-input");
+  const searchResults = d3.select("#search-results");
 
   // ---------- 数据加载 ----------
   async function loadData() {
@@ -50,7 +55,7 @@
   function buildGraph(data) {
     const idMap = new Map();
 
-    // 词根节点
+    // 词根节点（默认可见）
     data.roots.roots.forEach((r) => {
       const node = {
         id: r.id,
@@ -60,11 +65,13 @@
         concept: r.core_concept,
         image: r.core_image,
         definition: r.english_definition,
+        vizVisible: true,
+        expanded: false,
       };
       idMap.set(node.id, node);
     });
 
-    // 概念节点
+    // 概念节点（默认可见，含 cluster 聚合概念）
     data.concepts.concepts.forEach((c) => {
       const node = {
         id: c.id,
@@ -74,11 +81,14 @@
         chinese: c.chinese,
         image: c.core_image,
         roots: c.root_ids,
+        words: c.word_ids,
+        isCluster: c.type === "cluster",
+        vizVisible: true,
       };
       idMap.set(node.id, node);
     });
 
-    // 单词节点
+    // 单词节点（默认隐藏，展开词根时显示）
     data.words.words.forEach((w) => {
       const node = {
         id: w.id,
@@ -97,6 +107,9 @@
         related: w.related,
         expansions: w.semantic_expansions,
         roots: w.root_ids,
+        synonymGroup: w.synonym_group,
+        synonymNote: w.synonym_note,
+        vizVisible: false,
       };
       idMap.set(node.id, node);
     });
@@ -108,28 +121,167 @@
       .filter((r) => idMap.has(r.from) && idMap.has(r.to))
       .map((r) => ({ source: r.from, target: r.to, type: r.type, note: r.note }));
 
-    // 边：词根 → 概念 / 概念 → 单词 的桥接关系
-    // 概念节点与其词根相连
+    // 边：概念节点与其词根相连
     nodes.filter((n) => n.type === "concept" && n.roots).forEach((c) => {
       c.roots.forEach((rid) => {
         links.push({ source: rid, target: c.id, type: "root", note: "词根→概念" });
       });
     });
 
-    // 单词与其所属词根相连（如果关系数据里没有，则补上）
+    // 边：单词与其所属词根相连
     nodes.filter((n) => n.type === "word" && n.roots).forEach((w) => {
       w.roots.forEach((rid) => {
         const exists = links.some(
-          (l) => l.source === rid && l.target === w.id
+          (l) => (l.source === rid || l.source === rid.id) && (l.target === w.id || l.target === w.id)
         );
         if (!exists) {
           links.push({ source: rid, target: w.id, type: "root", note: "词根→单词" });
         }
       });
     });
+
+    // 边：cluster 聚合概念 → 组内单词（近义词组，不画词对词连线）
+    nodes.filter((n) => n.type === "concept" && n.isCluster && n.words).forEach((c) => {
+      c.words.forEach((wid) => {
+        links.push({ source: c.id, target: wid, type: "context", note: "近义词组" });
+      });
+    });
+  }
+
+  // ---------- 分层钻取 ----------
+  function visibleNodeIds() {
+    return new Set(nodes.filter((n) => n.vizVisible).map((n) => n.id));
+  }
+
+  function toggleRoot(d) {
+    d.expanded = !d.expanded;
+    // 展开/收起该词根的词族
+    nodes.forEach((n) => {
+      if (n.type === "word" && n.roots && n.roots.includes(d.id)) {
+        n.vizVisible = d.expanded;
+      }
+    });
+    applyVisibility();
+    restartSimulation();
+  }
+
+  // 强制显示某节点（用于搜索直达）
+  function revealNode(node) {
+    if (node.vizVisible) return;
+    // 单词：展开其所属词根
+    if (node.type === "word" && node.roots) {
+      node.roots.forEach((rid) => {
+        const root = nodes.find((n) => n.id === rid);
+        if (root) {
+          root.expanded = true;
+          nodes.forEach((n) => {
+            if (n.type === "word" && n.roots && n.roots.includes(rid)) n.vizVisible = true;
+          });
+        }
+      });
+    }
+    node.vizVisible = true;
+    applyVisibility();
+    restartSimulation();
+  }
+
+  function applyVisibility() {
+    const vis = visibleNodeIds();
+    nodeSel.attr("opacity", (d) => (d.vizVisible ? 1 : 0))
+      .attr("pointer-events", (d) => (d.vizVisible ? "auto" : "none"));
+    linkSel.attr("opacity", (d) => {
+      const s = d.source.id || d.source;
+      const t = d.target.id || d.target;
+      return vis.has(s) && vis.has(t) ? 0.5 : 0;
+    }).attr("pointer-events", (d) => {
+      const s = d.source.id || d.source;
+      const t = d.target.id || d.target;
+      return vis.has(s) && vis.has(t) ? "auto" : "none";
+    });
+  }
+
+  // ---------- 搜索 ----------
+  function onSearchInput() {
+    const q = searchInput.node().value.trim().toLowerCase();
+    if (!q) {
+      searchResults.classed("hidden", true).html("");
+      return;
+    }
+    const results = [];
+    nodes.forEach((n) => {
+      // 只搜三类内容：单词、词根、中文
+      const haystacks = [n.label, n.type === "word" ? n.word : null, n.type === "word" ? (n.chinese || []).join(" ") : null, n.concept];
+      const hay = haystacks.filter(Boolean).join(" ").toLowerCase();
+      if (n.type === "word" && n.label.toLowerCase().startsWith(q)) {
+        results.push({ node: n, score: 0 });
+      } else if (n.label.toLowerCase().startsWith(q)) {
+        results.push({ node: n, score: 1 });
+      } else if (hay.includes(q)) {
+        results.push({ node: n, score: 2 });
+      }
+    });
+    results.sort((a, b) => a.score - b.score || a.node.label.localeCompare(b.node.label));
+
+    if (!results.length) {
+      searchResults.classed("hidden", false).html(`<div class="search-item search-empty">未收录「${escapeHtml(q)}」</div>`);
+      return;
+    }
+    searchResults.classed("hidden", false).html(
+      results.slice(0, 10).map((r) => {
+        const n = r.node;
+        const typeLabel = { root: "词根", concept: "概念", word: "单词" }[n.type];
+        return `<div class="search-item" data-id="${escapeHtml(n.id)}">
+          <span class="search-type ${n.type}">${typeLabel}</span>
+          <b>${escapeHtml(n.label)}</b>
+          ${n.type === "word" ? `<span class="search-meta">${escapeHtml((n.chinese || []).slice(0, 3).join(" / "))}</span>` : ""}
+        </div>`;
+      }).join("")
+    );
+  }
+
+  function onSearchSelect(id) {
+    const node = nodes.find((n) => n.id === id);
+    if (!node) return;
+    revealNode(node);
+    focusNode(node);
+    showDetail(node);
+    searchResults.classed("hidden", true).html("");
+    searchInput.node().value = "";
+  }
+
+  // 定位并高亮节点
+  function focusNode(node) {
+    highlightedId = node.id;
+    node.fx = node.x;
+    node.fy = node.y;
+
+    // 高亮样式
+    nodeSel.classed("highlighted", (d) => d.id === node.id);
+
+    // 缩放平移到中心
+    const container = svg.node().parentElement;
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    const transform = d3.zoomTransform(svg.node());
+    const k = Math.max(transform.k, 1.2);
+    const tx = width / 2 - node.x * k;
+    const ty = height / 2 - node.y * k;
+    svg.transition().duration(500).call(
+      d3.zoom().transform,
+      d3.zoomIdentity.translate(tx, ty).scale(k)
+    );
+
+    // 3 秒后取消高亮
+    setTimeout(() => {
+      nodeSel.classed("highlighted", false);
+      highlightedId = null;
+    }, 3000);
   }
 
   // ---------- 渲染 ----------
+  let nodeSel = null;
+  let linkSel = null;
+
   function render() {
     const width = svg.node().parentElement.clientWidth;
     const height = svg.node().parentElement.clientHeight;
@@ -143,8 +295,8 @@
         .on("zoom", (event) => g.attr("transform", event.transform))
     );
 
-    // 双击空白处重新布局
-    svg.on("dblclick.zoom", null); // 禁用缩放的双击放大
+    // 双击空白处重新布局 + 重置视图
+    svg.on("dblclick.zoom", null);
     svg.on("dblclick", (event) => {
       if (event.target === svg.node()) {
         restartSimulation();
@@ -152,20 +304,20 @@
     });
 
     // 连线
-    const link = g
+    linkSel = g
       .append("g")
       .attr("class", "links")
       .selectAll("line")
       .data(links)
       .join("line")
-      .attr("class", (d) => "link" + (d.type === "antonym" ? " antonym" : "") + (d.type === "semantic_extension" ? " semantic_extension" : ""));
+      .attr("class", (d) => "link" + (d.type === "antonym" ? " antonym" : "") + (d.type === "semantic_extension" ? " semantic_extension" : "") + (d.type === "context" ? " context" : ""));
 
     // 连线标签（关系类型）
     const linkLabel = g
       .append("g")
       .attr("class", "link-labels")
       .selectAll("text")
-      .data(links.filter((d) => d.type !== "root"))
+      .data(links.filter((d) => d.type !== "root" && d.type !== "context"))
       .join("text")
       .attr("class", "link-label")
       .text((d) => EDGE_TYPE_LABEL[d.type] || d.type)
@@ -174,7 +326,7 @@
       .attr("text-anchor", "middle");
 
     // 节点
-    const node = g
+    nodeSel = g
       .append("g")
       .attr("class", "nodes")
       .selectAll("g")
@@ -183,17 +335,22 @@
       .attr("class", (d) => "node " + d.type)
       .call(drag());
 
-    node
+    nodeSel
       .append("circle")
-      .attr("r", (d) => (d.type === "root" ? 26 : d.type === "concept" ? 18 : 14))
+      .attr("r", (d) => (d.type === "root" ? 26 : d.type === "concept" ? (d.isCluster ? 16 : 18) : 14))
       .attr("class", (d) => d.type);
 
-    node
+    nodeSel
       .append("text")
       .text((d) => d.label)
       .attr("dy", (d) => (d.type === "word" ? 32 : 0));
 
-    node.on("click", (event, d) => showDetail(d));
+    nodeSel.on("click", (event, d) => {
+      if (d.type === "root") {
+        toggleRoot(d);
+      }
+      showDetail(d);
+    });
 
     // 力导向
     simulation = d3
@@ -203,7 +360,13 @@
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("collide", d3.forceCollide().radius(40))
       .on("tick", () => {
-        link
+        // 隐藏节点固定位置，避免污染布局
+        nodes.forEach((n) => {
+          if (!n.vizVisible && n.fx == null) {
+            // 隐藏节点跟随其第一个可见邻居或原地不动
+          }
+        });
+        linkSel
           .attr("x1", (d) => d.source.x)
           .attr("y1", (d) => d.source.y)
           .attr("x2", (d) => d.target.x)
@@ -211,8 +374,10 @@
         linkLabel
           .attr("x", (d) => (d.source.x + d.target.x) / 2)
           .attr("y", (d) => (d.source.y + d.target.y) / 2 - 4);
-        node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+        nodeSel.attr("transform", (d) => `translate(${d.x},${d.y})`);
       });
+
+    applyVisibility();
   }
 
   function restartSimulation() {
@@ -247,7 +412,7 @@
     detailEmpty.classed("hidden", true).style("display", "none");
     detailContent.classed("hidden", false).style("display", "block");
 
-    const typeLabel = { root: "词根", concept: "核心概念", word: "单词" }[d.type];
+    const typeLabel = { root: "词根", concept: "核心概念" + (d.isCluster ? "（聚合）" : ""), word: "单词" }[d.type];
 
     let html = `
       <div class="detail-title">${escapeHtml(d.label)}
@@ -290,6 +455,25 @@
         html += `<div class="detail-block"><h3>语义扩展</h3><ul>${expansions}</ul></div>`;
       }
 
+      // 近义词组（概念层中转）
+      if (d.synonymGroup) {
+        const cluster = nodes.find((n) => n.id === d.synonymGroup);
+        if (cluster) {
+          const groupWords = (cluster.words || [])
+            .filter((wid) => wid !== d.id)
+            .map((wid) => {
+              const wn = nodes.find((n) => n.id === wid);
+              return wn ? `<span class="chip related">${escapeHtml(wn.label)}</span>` : "";
+            })
+            .join("");
+          html += `<div class="detail-block" style="border-left-color:#06d6a0"><h3>🔄 近义词组（共享概念）</h3>
+            <p><b>${escapeHtml(cluster.concept)}</b></p>
+            <p>${groupWords}</p>
+            ${d.synonymNote ? `<p style="font-size:12px;color:var(--text-dim)">💬 ${escapeHtml(d.synonymNote)}</p>` : ""}
+          </div>`;
+        }
+      }
+
       if (d.synonyms && d.synonyms.length) {
         html += `<div class="detail-block"><h3>近义词</h3><p>${d.synonyms.map((s) => `<span class="chip related">${escapeHtml(s)}</span>`).join("")}</p></div>`;
       }
@@ -308,12 +492,34 @@
     if (d.type === "root") {
       const family = nodes.filter((n) => n.type === "word" && n.roots && n.roots.includes(d.id));
       if (family.length) {
-        html += `<div class="detail-block"><h3>词族（${family.length}）</h3><ul>${family.map((w) => `<li><b>${escapeHtml(w.label)}</b> — ${escapeHtml(w.concept)}</li>`).join("")}</ul></div>`;
+        html += `<div class="detail-block"><h3>词族（${family.length}）${d.expanded ? " · 已展开" : " · 点击节点展开"}</h3><ul>${family.map((w) => `<li><b>${escapeHtml(w.label)}</b> — ${escapeHtml(w.concept)}</li>`).join("")}</ul></div>`;
       }
+    }
+
+    // cluster 概念显示组内词
+    if (d.type === "concept" && d.isCluster) {
+      const members = (d.words || []).map((wid) => {
+        const wn = nodes.find((n) => n.id === wid);
+        return wn ? `<li><b>${escapeHtml(wn.label)}</b> — ${escapeHtml(wn.concept)}</li>` : "";
+      }).join("");
+      html += `<div class="detail-block"><h3>近义词组成员（${(d.words || []).length}）</h3><ul>${members}</ul></div>`;
     }
 
     detailContent.html(html);
   }
+
+  // 点击详情面板中的近义词 chip → 定位到该词
+  detailContent.on("click", (event) => {
+    const chip = event.target.closest(".chip");
+    if (!chip) return;
+    const id = chip.textContent.trim();
+    const node = nodes.find((n) => n.label === id && n.type === "word");
+    if (node) {
+      revealNode(node);
+      focusNode(node);
+      showDetail(node);
+    }
+  });
 
   function escapeHtml(str) {
     const div = document.createElement("div");
@@ -327,6 +533,23 @@
       const data = await loadData();
       buildGraph(data);
       render();
+
+      // 搜索事件
+      searchInput.on("input", onSearchInput);
+      searchInput.on("keydown", (event) => {
+        if (event.key === "Enter") {
+          const first = searchResults.select(".search-item:not(.search-empty)").node();
+          if (first) onSearchSelect(first.dataset.id);
+        }
+        if (event.key === "Escape") {
+          searchResults.classed("hidden", true).html("");
+          searchInput.node().value = "";
+        }
+      });
+      searchResults.on("click", (event) => {
+        const item = event.target.closest(".search-item");
+        if (item && item.dataset.id) onSearchSelect(item.dataset.id);
+      });
     } catch (e) {
       detailContent.classed("hidden", false).style("display", "block");
       detailEmpty.style("display", "none");

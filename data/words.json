@@ -299,7 +299,9 @@
         "快递：express mail 原义'以专门加急的方式发送'（express = 专门的），与'压'无关，独立引申"
       ],
       "pos": "verb",
-      "root_logic": "ex-（向外）+ press（压）→ 把内心的话压出来 → 表达；'快递/明确的'义为独立引申，与'压'无关（见语义扩展）"
+      "root_logic": "ex-（向外）+ press（压）→ 把内心的话压出来 → 表达；'快递/明确的'义为独立引申，与'压'无关（见语义扩展）",
+      "synonym_group": "concept-make-clear",
+      "synonym_note": "express 表达感情/想法；describe 描述细节；state 正式陈述"
     },
     {
       "id": "suppress",
@@ -1344,7 +1346,9 @@
         "描述/形容：de- 完全 + scrib 写 → 把所见'完整写下来'；形容=用语言描绘形状"
       ],
       "pos": "verb",
-      "root_logic": "de-（完全）+ scrib（写）→ 完整写下来 → 描述"
+      "root_logic": "de-（完全）+ scrib（写）→ 完整写下来 → 描述",
+      "synonym_group": "concept-make-clear",
+      "synonym_note": "describe 描述细节；express 表达感情/想法；state 正式陈述"
     },
     {
       "id": "prescribe",
@@ -1864,6 +1868,136 @@
       ],
       "pos": "verb / noun",
       "root_logic": "re-（返回）+ port（运送）→ 把消息带回去 → 报告"
+    },
+    {
+      "id": "choose",
+      "word": "choose",
+      "pos": "verb",
+      "root_ids": [],
+      "root_logic": "无词根（基础词）——从多个选项中取其一",
+      "origin": "古英语 ceosan（选择、挑选），与拉丁语 gustare（尝）同源",
+      "native_definition": "to decide which one of several things you want",
+      "core_concept": "deciding among options – 从多个候选中选定一个",
+      "core_image": "自助餐台上摆满菜品，你伸手端走最想吃的那一盘",
+      "chinese": [
+        "选择",
+        "挑选",
+        "决定"
+      ],
+      "examples": [
+        "You can choose any course you like."
+      ],
+      "synonyms": [
+        "select",
+        "pick"
+      ],
+      "antonyms": [
+        "reject"
+      ],
+      "related": [],
+      "semantic_expansions": [
+        "choose：最通用的'选择'，强调主观决定（choose to do）",
+        "引申：选定（choose a career）、愿意（do as you choose）"
+      ],
+      "synonym_group": "concept-make-a-choice",
+      "synonym_note": "choose 最通用；select 强调按标准精心挑选；pick 口语化、随手挑"
+    },
+    {
+      "id": "select",
+      "word": "select",
+      "pos": "verb",
+      "root_ids": [],
+      "root_logic": "无词根（基础词）——从一组中按标准挑出",
+      "origin": "拉丁语 seligere（挑选）：se-（分开）+ legere（收集、选择）",
+      "native_definition": "to choose someone or something by thinking carefully about which is best",
+      "core_concept": "choosing by careful standard – 按标准精心挑选",
+      "core_image": "评委在众多作品中仔细比较，挑出最优秀的那一件",
+      "chinese": [
+        "挑选",
+        "精选",
+        "选拔"
+      ],
+      "examples": [
+        "They selected him to lead the team."
+      ],
+      "synonyms": [
+        "choose",
+        "pick"
+      ],
+      "antonyms": [
+        "reject"
+      ],
+      "related": [],
+      "semantic_expansions": [
+        "se-（分开）+ legere（收集）→ 从收拢的一堆里分开挑出 → 挑选",
+        "形容词义'精选的'：selected works（精选作品）"
+      ],
+      "synonym_group": "concept-make-a-choice",
+      "synonym_note": "select 强调按标准精心挑选；choose 更通用；pick 口语化"
+    },
+    {
+      "id": "pick",
+      "word": "pick",
+      "pos": "verb",
+      "root_ids": [],
+      "root_logic": "无词根（基础词）——伸手取下一个",
+      "origin": "中古英语 piken（啄、摘取），拟声词源",
+      "native_definition": "to choose something or someone from a group; to take something with your fingers",
+      "core_concept": "taking one out by hand – 随手取出一个",
+      "core_image": "从果篮里随手拿起一个苹果",
+      "chinese": [
+        "挑选",
+        "捡起",
+        "采摘"
+      ],
+      "examples": [
+        "Pick a card, any card."
+      ],
+      "synonyms": [
+        "choose",
+        "select"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "核心动作'用手取' → 挑一个（pick a card）、捡起（pick up）、采摘（pick apples）"
+      ],
+      "synonym_group": "concept-make-a-choice",
+      "synonym_note": "pick 最口语化、随意；choose 通用；select 精心"
+    },
+    {
+      "id": "state",
+      "word": "state",
+      "pos": "verb / noun",
+      "root_ids": [],
+      "root_logic": "无词根（基础词）——把话说出来摆在那里",
+      "origin": "拉丁语 status（站立的状态、状况）",
+      "native_definition": "to say or write something clearly and formally",
+      "core_concept": "putting something into words clearly – 把意思明确说出来",
+      "core_image": "在正式的场合，一字一句把立场说清楚",
+      "chinese": [
+        "陈述",
+        "声明",
+        "状态"
+      ],
+      "examples": [
+        "Please state your name and address."
+      ],
+      "synonyms": [
+        "express",
+        "declare",
+        "say"
+      ],
+      "antonyms": [],
+      "related": [
+        "express",
+        "describe"
+      ],
+      "semantic_expansions": [
+        "动词义：明确说出（state the facts）；名词义'状态/国家'来自'站立的状态'（status）"
+      ],
+      "synonym_group": "concept-make-clear",
+      "synonym_note": "state 正式、明确地陈述事实；express 表达感情/想法；describe 描述细节"
     }
   ]
 }
