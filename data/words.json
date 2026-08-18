@@ -37,7 +37,9 @@
       ],
       "semantic_expansions": [
         "figure out：把模糊的信息整理成清晰的轮廓 → 弄明白"
-      ]
+      ],
+      "pos": "noun / verb",
+      "root_logic": "figur（形状）→ 一个可辨认的形态 → 身影/数字/人物"
     },
     {
       "id": "configure",
@@ -71,7 +73,9 @@
         "configur",
         "figurative"
       ],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "pos": "verb",
+      "root_logic": "con-（一起）+ figur（形状）→ 把零件组合成目标形状 → 配置"
     },
     {
       "id": "figurative",
@@ -100,7 +104,9 @@
       "related": [
         "figure"
       ],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "pos": "adjective",
+      "root_logic": "figur（形象）+ -ative（…的）→ 借形象表达 → 比喻的"
     },
     {
       "id": "disfigure",
@@ -131,7 +137,9 @@
       "related": [
         "figure"
       ],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "pos": "verb",
+      "root_logic": "dis-（去除）+ figur（形状）→ 毁掉形状 → 损毁外形"
     },
     {
       "id": "configuration",
@@ -161,7 +169,9 @@
         "configure",
         "figure"
       ],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "pos": "noun",
+      "root_logic": "con-（一起）+ figur（形状）+ -ation（名词）→ 组合后的形态 → 配置/结构"
     },
     {
       "id": "pressure",
@@ -198,7 +208,9 @@
       ],
       "semantic_expansions": [
         "心理压力 = 无形的力压在心上"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "press（压）+ -ure（名词）→ 压下来的力 → 压力"
     },
     {
       "id": "impress",
@@ -233,7 +245,9 @@
       ],
       "semantic_expansions": [
         "im- 往里压 → 把记号压进心里 → 留下深刻印象"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "im-（往里）+ press（压）→ 把印记压进心里 → 印象深刻"
     },
     {
       "id": "express",
@@ -271,7 +285,9 @@
       "semantic_expansions": [
         "ex- 向外压 → 把感情'压'出来 → 表达",
         "快递 express = 快速'送出'（送=向外压出）"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "ex-（向外）+ press（压）→ 把内心的话压出来 → 表达"
     },
     {
       "id": "suppress",
@@ -305,7 +321,9 @@
         "pressure",
         "express"
       ],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "pos": "verb",
+      "root_logic": "sup-（在下）+ press（压）→ 压下去不让冒出来 → 压制/抑制"
     },
     {
       "id": "compress",
@@ -339,7 +357,9 @@
       ],
       "semantic_expansions": [
         "com- 一起压 → 压在一起 → 压缩"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "com-（一起）+ press（压）→ 压到一起 → 压缩"
     },
     {
       "id": "formal",
@@ -371,7 +391,9 @@
         "transform",
         "perform"
       ],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "pos": "adjective",
+      "root_logic": "form（形状）+ -al（…的）→ 有固定形式的 → 正式的"
     },
     {
       "id": "inform",
@@ -405,7 +427,9 @@
       ],
       "semantic_expansions": [
         "in- 进入 + form 成形 → 让信息在脑子里成形 → 告知"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "in-（进入）+ form（成形）→ 让信息在脑中成形 → 告知"
     },
     {
       "id": "transform",
@@ -441,7 +465,9 @@
       ],
       "semantic_expansions": [
         "trans- 跨越 + form 形态 → 跨越形态边界 → 彻底改变"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "trans-（跨越）+ form（形状）→ 跨越形态界限 → 转变"
     },
     {
       "id": "perform",
@@ -476,7 +502,9 @@
       ],
       "semantic_expansions": [
         "per- 完全 + form 成形 → 完整地做成形 → 执行/表演"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "per-（完全）+ form（成形）→ 完整做成形 → 执行/表演"
     },
     {
       "id": "reform",
@@ -510,7 +538,9 @@
       ],
       "semantic_expansions": [
         "re- 重新 + form 成形 → 重新成形 → 改革"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "re-（重新）+ form（成形）→ 重新成形 → 改革"
     },
     {
       "id": "attract",
@@ -545,7 +575,9 @@
       ],
       "semantic_expansions": [
         "at- 朝向 + tract 拉 → 把对方朝自己拉 → 吸引"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "at-（朝向）+ tract（拉）→ 朝自己拉 → 吸引"
     },
     {
       "id": "extract",
@@ -582,7 +614,9 @@
       ],
       "semantic_expansions": [
         "ex- 向外 + tract 拉 → 往外拉 → 提取"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "ex-（向外）+ tract（拉）→ 往外拉出 → 提取"
     },
     {
       "id": "contract",
@@ -619,7 +653,9 @@
       ],
       "semantic_expansions": [
         "con- 一起拉 → 拉在一起 → 合同（把双方拉到一起）/ 收缩（拉到一起变小）"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "con-（一起）+ tract（拉）→ 拉到一起 → 合同/收缩"
     },
     {
       "id": "distract",
@@ -652,7 +688,9 @@
       ],
       "semantic_expansions": [
         "dis- 分开 + tract 拉 → 把注意力拉走 → 分心"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "dis-（分开）+ tract（拉）→ 把注意力拉开 → 分心"
     },
     {
       "id": "tractor",
@@ -678,7 +716,9 @@
       ],
       "semantic_expansions": [
         "-or 表示'东西' → 拉东西的机器 → 拖拉机"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "tract（拉）+ -or（东西）→ 拉东西的机器 → 拖拉机"
     },
     {
       "id": "position",
@@ -713,7 +753,9 @@
       ],
       "semantic_expansions": [
         "放置的位置 → 职位（人在组织中的位置）/ 立场（观点所处的位置）"
-      ]
+      ],
+      "pos": "noun / verb",
+      "root_logic": "pos（放置）+ -ition（名词）→ 被放置之处 → 位置/职位"
     },
     {
       "id": "compose",
@@ -747,7 +789,9 @@
       ],
       "semantic_expansions": [
         "com- 一起放置 → 把部分放到一起 → 组成 / 创作"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "com-（一起）+ pose（放置）→ 把部分放到一起 → 组成/创作"
     },
     {
       "id": "expose",
@@ -785,7 +829,9 @@
       ],
       "semantic_expansions": [
         "ex- 向外放置 → 放到外面 → 暴露/揭露"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "ex-（向外）+ pose（放置）→ 放到外面 → 暴露/揭露"
     },
     {
       "id": "propose",
@@ -822,7 +868,9 @@
       ],
       "semantic_expansions": [
         "pro- 向前放置 → 把建议放到前面 → 提议（求婚=把心意放往前）"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "pro-（向前）+ pose（放置）→ 把想法放到前面 → 提议"
     },
     {
       "id": "oppose",
@@ -856,7 +904,9 @@
       ],
       "semantic_expansions": [
         "ob- 对着放置 → 放到对面 → 反对"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "op-（对着）+ pose（放置）→ 放到对立面 → 反对"
     },
     {
       "id": "admit",
@@ -894,7 +944,9 @@
       ],
       "semantic_expansions": [
         "ad- 朝向送 → 送进 → 准入/承认"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "ad-（朝向）+ mit（送）→ 送进来 → 承认/准入"
     },
     {
       "id": "commit",
@@ -931,7 +983,9 @@
       ],
       "semantic_expansions": [
         "com- 完全送 → 把自己完全送出去 → 承诺/投入（犯事=把行为完全'送'出去）"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "com-（完全）+ mit（送）→ 把自己完全送出去 → 承诺/投入"
     },
     {
       "id": "permit",
@@ -969,7 +1023,9 @@
       ],
       "semantic_expansions": [
         "per- 通过 + mit 送 → 放行送过去 → 允许"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "per-（通过）+ mit（送）→ 放行送过去 → 允许"
     },
     {
       "id": "transmit",
@@ -1005,7 +1061,9 @@
       ],
       "semantic_expansions": [
         "trans- 跨越送 → 送过距离 → 传输"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "trans-（跨越）+ mit（送）→ 送过距离 → 传输"
     },
     {
       "id": "mission",
@@ -1038,7 +1096,9 @@
       ],
       "semantic_expansions": [
         "-sion 名词后缀 → 被'送出去'的事 → 使命/任务"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "miss（送）+ -ion（名词）→ 被送出去的任务 → 使命"
     },
     {
       "id": "inspect",
@@ -1075,7 +1135,9 @@
       ],
       "semantic_expansions": [
         "in- 往里看 → 仔细看内部 → 检查"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "in-（往里）+ spect（看）→ 往里仔细看 → 检查"
     },
     {
       "id": "respect",
@@ -1112,7 +1174,9 @@
       ],
       "semantic_expansions": [
         "re- 反复看 → 因反复注视而产生敬意 → 尊重"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "re-（反复）+ spect（看）→ 反复注视 → 尊敬"
     },
     {
       "id": "prospect",
@@ -1145,7 +1209,9 @@
       ],
       "semantic_expansions": [
         "pro- 向前看 → 向前看的景象 → 前景"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "pro-（向前）+ spect（看）→ 向前看的景象 → 前景"
     },
     {
       "id": "spectator",
@@ -1179,7 +1245,9 @@
       ],
       "semantic_expansions": [
         "-ator 表'人' → 看的人 → 观众"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "spect（看）+ -ator（人）→ 看的人 → 观众"
     },
     {
       "id": "expect",
@@ -1212,7 +1280,9 @@
       ],
       "semantic_expansions": [
         "ex- 向外看 → 向外看向未来 → 期待"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "ex-（向外）+ spect（看）→ 向外看向未来 → 期待"
     },
     {
       "id": "describe",
@@ -1245,7 +1315,9 @@
       ],
       "semantic_expansions": [
         "de- 完全 + scrib 写 → 完整地写下来 → 描述"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "de-（完全）+ scrib（写）→ 完整写下来 → 描述"
     },
     {
       "id": "prescribe",
@@ -1278,7 +1350,9 @@
       ],
       "semantic_expansions": [
         "pre- 预先写 → 预先写下的要求 → 处方/规定"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "pre-（预先）+ scrib（写）→ 预先写下的规定 → 处方/规定"
     },
     {
       "id": "transcript",
@@ -1312,7 +1386,9 @@
       ],
       "semantic_expansions": [
         "trans- 跨越 + script 写下的 → 从原声跨越到纸面 → 记录/抄本"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "trans-（跨越）+ script（写下的）→ 从原声抄写过来 → 记录/抄本"
     },
     {
       "id": "manuscript",
@@ -1343,7 +1419,9 @@
       ],
       "semantic_expansions": [
         "manu- 手 + script 写 → 手写的 → 手稿"
-      ]
+      ],
+      "pos": "noun",
+      "root_logic": "manu-（手）+ script（写下的）→ 手写的 → 手稿"
     },
     {
       "id": "subscribe",
@@ -1380,7 +1458,9 @@
       ],
       "semantic_expansions": [
         "sub- 在下面写 → 在文件下方签名 → 订阅/赞同"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "sub-（在下面）+ scrib（写）→ 在下方签名 → 订阅/赞同"
     },
     {
       "id": "conduct",
@@ -1416,7 +1496,9 @@
       ],
       "semantic_expansions": [
         "con- 一起引导 → 引导整个流程 → 进行/指挥"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "con-（一起）+ duct（引导）→ 带领整个流程 → 进行/指挥"
     },
     {
       "id": "produce",
@@ -1453,7 +1535,9 @@
       ],
       "semantic_expansions": [
         "pro- 向前引导 → 引导出来 → 生产"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "pro-（向前）+ duct（引导）→ 引导出来 → 生产"
     },
     {
       "id": "introduce",
@@ -1487,7 +1571,9 @@
       ],
       "semantic_expansions": [
         "intro- 向内引导 → 引进来 → 介绍/引进"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "intro-（向内）+ duct（引导）→ 引导进来 → 介绍/引进"
     },
     {
       "id": "educate",
@@ -1519,7 +1605,9 @@
       ],
       "semantic_expansions": [
         "e- 向外引导 → 引导出来（走出无知）→ 教育"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "e-（向外）+ duc（引导）→ 带出无知 → 教育"
     },
     {
       "id": "reduce",
@@ -1556,7 +1644,9 @@
       ],
       "semantic_expansions": [
         "re- 往回引导 → 引导回去变小 → 减少"
-      ]
+      ],
+      "pos": "verb",
+      "root_logic": "re-（往回）+ duct（引导）→ 引导回更小 → 减少"
     },
     {
       "id": "import",
@@ -1591,7 +1681,9 @@
       ],
       "semantic_expansions": [
         "im- 向内运 → 运进来 → 进口"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "im-（向内）+ port（运送）→ 运进来 → 进口"
     },
     {
       "id": "export",
@@ -1624,7 +1716,9 @@
       ],
       "semantic_expansions": [
         "ex- 向外运 → 运出去 → 出口"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "ex-（向外）+ port（运送）→ 运出去 → 出口"
     },
     {
       "id": "transport",
@@ -1657,7 +1751,9 @@
       ],
       "semantic_expansions": [
         "trans- 跨越运 → 运过距离 → 运输"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "trans-（跨越）+ port（运送）→ 运过距离 → 运输"
     },
     {
       "id": "portable",
@@ -1692,7 +1788,9 @@
       ],
       "semantic_expansions": [
         "port 运 + -able 能 → 能运的 → 便携的"
-      ]
+      ],
+      "pos": "adjective",
+      "root_logic": "port（运送）+ -able（能…的）→ 能带走的 → 便携的"
     },
     {
       "id": "report",
@@ -1726,7 +1824,9 @@
       ],
       "semantic_expansions": [
         "re- 往回运 → 把消息运回去 → 报告"
-      ]
+      ],
+      "pos": "verb / noun",
+      "root_logic": "re-（返回）+ port（运送）→ 把消息带回去 → 报告"
     }
   ]
 }

@@ -84,7 +84,9 @@
         id: w.id,
         label: w.word,
         type: "word",
+        pos: w.pos,
         origin: w.origin,
+        rootLogic: w.root_logic,
         definition: w.native_definition,
         concept: w.core_concept,
         image: w.core_image,
@@ -141,6 +143,14 @@
         .on("zoom", (event) => g.attr("transform", event.transform))
     );
 
+    // 双击空白处重新布局
+    svg.on("dblclick.zoom", null); // 禁用缩放的双击放大
+    svg.on("dblclick", (event) => {
+      if (event.target === svg.node()) {
+        restartSimulation();
+      }
+    });
+
     // 连线
     const link = g
       .append("g")
@@ -171,7 +181,7 @@
       .data(nodes)
       .join("g")
       .attr("class", (d) => "node " + d.type)
-      .call(drag(simulation));
+      .call(drag());
 
     node
       .append("circle")
@@ -205,7 +215,12 @@
       });
   }
 
-  function drag(simulation) {
+  function restartSimulation() {
+    if (!simulation) return;
+    simulation.alpha(0.6).alphaTarget(0).restart();
+  }
+
+  function drag() {
     function dragstarted(event, d) {
       if (!event.active) simulation.alphaTarget(0.3).restart();
       d.fx = d.x;
@@ -239,8 +254,16 @@
         <span class="detail-type ${d.type}">${typeLabel}</span>
       </div>`;
 
+    if (d.pos) {
+      html += `<div class="detail-block origin-src">词性 POS：${escapeHtml(d.pos)}</div>`;
+    }
+
     if (d.origin) {
       html += `<div class="detail-block origin-src">📜 词源：${escapeHtml(d.origin)}</div>`;
+    }
+
+    if (d.rootLogic) {
+      html += `<div class="detail-block" style="border-left-color:#ffd166"><h3>🧩 词根推导</h3><p>${escapeHtml(d.rootLogic)}</p></div>`;
     }
 
     if (d.concept) {

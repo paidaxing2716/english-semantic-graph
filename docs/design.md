@@ -64,11 +64,15 @@ Web / Obsidian Vault /（未来）App
 
 ### 2.3 words.json — 单词
 
+> 每个词条携带的信息分三层：**核心层**（必须，支撑理解概念）、**语境层**（必须至少 1 条例句）、**关系层**（推荐，构成图谱的边）。
+
 ```json
 {
   "id": "configure",
   "word": "configure",
-  "root_ids": ["con", "figur"],
+  "pos": "verb",
+  "root_ids": ["figur"],
+  "root_logic": "con-（一起）+ figur（形状）→ 把零件组合成目标形状",
   "origin": "拉丁语 configurare：con-（一起）+ figura（形状）",
   "native_definition": "to arrange parts into a particular structure",
   "core_concept": "arranging components into a desired form",
@@ -83,6 +87,35 @@ Web / Obsidian Vault /（未来）App
   "semantic_expansions": []
 }
 ```
+
+#### 字段定义（单词词条标准 Schema v0.1）
+
+| 字段 | 必填 | 层级 | 说明 | 示例 |
+|------|------|------|------|------|
+| `id` | ✅ | 核心 | 全局唯一标识 | `configure` |
+| `word` | ✅ | 核心 | 单词本身 | `configure` |
+| `pos` | ✅ | 核心 | 词性 (noun/verb/adj/adv) | `verb` |
+| `root_ids` | ✅ | 核心 | 关联词根 id 数组 | `["figur"]` |
+| `root_logic` | ✅ | 核心 | 词根→词义的推导逻辑（为什么是这个词义） | `con-+figur → 组合成形状` |
+| `origin` | ✅ | 核心 | 词源（拉丁语/希腊语） | `拉丁语 configurare` |
+| `native_definition` | ✅ | 核心 | **英文**释义（先英文后中文） | `to arrange parts...` |
+| `core_concept` | ✅ | 核心 | 核心概念——一个概念解释所有义项 | `arranging components into a desired form` |
+| `core_image` | ✅ | 核心 | 核心画面/场景（画面记忆） | `工程师排列电路模块` |
+| `chinese` | ✅ | 核心 | 中文表达数组（输出层，非入口） | `["配置","设置"]` |
+| `examples` | ✅ | 语境 | 例句数组（真实语境，至少 1 条） | `[...]` |
+| `synonyms` | ⬜ | 关系 | 近义词数组 | `["arrange"]` |
+| `antonyms` | ⬜ | 关系 | 反义词数组 | `[]` |
+| `related` | ⬜ | 关系 | 关联词（同词族/概念相关） | `["figure"]` |
+| `semantic_expansions` | ⬜ | 关系 | 语义扩展（一词多义的底层规律） | `["figure out：把模糊变清晰"]` |
+
+#### 可选扩展字段（v0.2+ 按需引入）
+
+| 字段 | 说明 |
+|------|------|
+| `collocations` | 常见搭配（`make a decision`） |
+| `level` | 考研频率星级 1-5 |
+| `phrasal_verbs` | 动词短语 |
+| `patterns` | 句型模式（`configure sth. to do`） |
 
 ### 2.4 relations.json — 关系网络
 

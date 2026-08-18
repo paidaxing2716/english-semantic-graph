@@ -20,7 +20,7 @@ VALID_RELATION_TYPES = {
     "root", "derived", "semantic_extension", "synonym", "antonym", "context"
 }
 
-REQUIRED_WORD_FIELDS = ["id", "word", "root_ids", "native_definition", "core_concept"]
+REQUIRED_WORD_FIELDS = ["id", "word", "pos", "root_ids", "root_logic", "origin", "native_definition", "core_concept", "core_image", "chinese", "examples"]
 REQUIRED_ROOT_FIELDS = ["id", "root", "origin", "core_concept", "core_image", "word_ids"]
 REQUIRED_CONCEPT_FIELDS = ["id", "concept", "chinese", "core_image", "root_ids", "word_ids"]
 
