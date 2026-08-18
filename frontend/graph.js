@@ -26,10 +26,22 @@
   let highlightedId = null; // 当前高亮节点 id
 
   const svg = d3.select("#graph");
+  const detailPanel = d3.select("#detail-panel");
   const detailEmpty = d3.select("#detail-empty");
   const detailContent = d3.select("#detail-content");
   const searchInput = d3.select("#search-input");
   const searchResults = d3.select("#search-results");
+
+  // 移动端检测（<768px 与 CSS 断点一致）
+  const mqMobile = window.matchMedia("(max-width: 768px)");
+  function isMobile() { return mqMobile.matches; }
+
+  function openDrawer() {
+    if (isMobile()) detailPanel.classed("drawer-open", true);
+  }
+  function closeDrawer() {
+    detailPanel.classed("drawer-open", false);
+  }
 
   // ---------- 数据加载 ----------
   async function loadData() {
@@ -291,6 +303,7 @@
     const g = svg.append("g");
     svg.call(
       d3.zoom()
+        .touchable(2) // 触屏：双指捏合缩放
         .scaleExtent([0.2, 5])
         .on("zoom", (event) => g.attr("transform", event.transform))
     );
@@ -409,6 +422,7 @@
 
   // ---------- 详情面板 ----------
   function showDetail(d) {
+    openDrawer(); // 手机端打开底部抽屉
     detailEmpty.classed("hidden", true).style("display", "none");
     detailContent.classed("hidden", false).style("display", "block");
 
@@ -550,6 +564,9 @@
         const item = event.target.closest(".search-item");
         if (item && item.dataset.id) onSearchSelect(item.dataset.id);
       });
+
+      // 抽屉关闭按钮（手机端）
+      d3.select("#drawer-close").on("click", closeDrawer);
     } catch (e) {
       detailContent.classed("hidden", false).style("display", "block");
       detailEmpty.style("display", "none");
@@ -564,8 +581,10 @@
 
   window.addEventListener("resize", () => {
     if (simulation) {
-      const width = svg.node().parentElement.clientWidth;
-      const height = svg.node().parentElement.clientHeight;
+      const container = svg.node().parentElement;
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+      svg.attr("viewBox", [0, 0, width, height]);
       simulation.force("center", d3.forceCenter(width / 2, height / 2));
     }
   });
