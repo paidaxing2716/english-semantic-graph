@@ -128,6 +128,57 @@ def main():
             print(f"[FAIL] examples.{ex['id']}.word_id 引用不存在的单词: {ex['word_id']}")
             ok = False
 
+    # --- 质量门 Q1：多义词解释覆盖 ---
+    # 规则：
+    # 1) 硬门槛：多义词（chinese ≥ 2）必须至少有 1 条 semantic_expansions，
+    #    防止"只列义项不解释"的空心词条。
+    # 2) 真实多义词（词义分叉，见 TRUE_POLYSEMY 名单）必须提供足够解释（≥ 2 条），
+    #    确保"方面/感染/快递"这类独立引申义被解释。
+    TRUE_POLYSEMY = {
+        "figure", "express", "contract", "respect", "import",
+        "mission", "prospect", "transcript", "produce", "transport",
+        "subscribe", "expose", "position", "commit", "conduct",
+    }
+    no_exp = []
+    weak_poly = []
+    for w in words:
+        n_meanings = len(w["chinese"])
+        n_exps = len(w.get("semantic_expansions") or [])
+        if n_meanings >= 2 and n_exps < 1:
+            no_exp.append(w["word"])
+        elif w["word"] in TRUE_POLYSEMY and n_exps < 2:
+            weak_poly.append(w["word"])
+    if no_exp:
+        print(f"[FAIL] 多义词缺少语义解释 (Q1): {', '.join(no_exp)}")
+        ok = False
+    if weak_poly:
+        print(f"[FAIL] 真实多义词解释不足 (Q1): {', '.join(weak_poly)}")
+        ok = False
+    if not no_exp and not weak_poly:
+        print("[INFO] Q1 多义词覆盖通过")
+
+    # --- 质量门 Q2：词源诚实性抽查 ---
+    # root_logic 不得包含想当然的"XX 就是 XX"句式（简单化推导警示）
+    suspicious = []
+    for w in words:
+        logic = w.get("root_logic") or ""
+        if "就是" in logic and "间接" not in logic and "独立" not in logic:
+            suspicious.append(w["word"])
+    if suspicious:
+        print(f"[WARN] root_logic 含'就是'式简单推导，请人工复核 (Q2): {', '.join(suspicious)}")
+    else:
+        print("[INFO] Q2 词源抽查通过")
+
+    # --- 质量门 Q4：core_image 有效性 ---
+    weak_images = []
+    for w in words:
+        img = w.get("core_image") or ""
+        # 画面过短或纯概念复述判为弱
+        if len(img) < 8 or img == w.get("core_concept", "")[:10]:
+            weak_images.append(w["word"])
+    if weak_images:
+        print(f"[WARN] core_image 可能过弱 (Q4): {', '.join(weak_images)}")
+
     # --- 汇总 ---
     print(f"\n词根: {len(roots)} | 概念: {len(concepts)} | 单词: {len(words)} | 关系: {len(relations)} | 例句: {len(examples)}")
     if ok:
