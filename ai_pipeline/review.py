@@ -124,6 +124,11 @@ def check(candidates, decl=None):
 
         if wid in existing:
             errors.append(f"{wid}: 词条已存在，不能重复入库")
+        # 词根与词条共用同一 id 命名空间（关系图的端点都从这里取），
+        # 同名会让"词根→该词"这条边变成自环。词根应改用拉丁词形。
+        if wid in root_ids:
+            errors.append(f"{wid}: 与词根同名，会产生自环边——"
+                          f"把词根 id 改成拉丁词形（如 part → pars）")
         if wid in seen:
             errors.append(f"{wid}: 候选批次内 id 重复")
         seen.add(wid)

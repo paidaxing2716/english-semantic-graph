@@ -412,6 +412,49 @@
         "expensive",
         "suspend"
       ]
+    },
+    {
+      "id": "pars",
+      "root": "pars",
+      "variants": [
+        "pars",
+        "part",
+        "parti"
+      ],
+      "origin": "拉丁语 pars / partire（部分、分开）",
+      "core_concept": "a part, to divide / 一部分，或把整体分开",
+      "core_image": "一块饼被切开，分成几份摊在桌上",
+      "english_definition": "a part, to divide",
+      "word_ids": [
+        "depart",
+        "department",
+        "departure",
+        "impart",
+        "part",
+        "partial",
+        "partly"
+      ]
+    },
+    {
+      "id": "fin",
+      "root": "fin",
+      "variants": [
+        "fin",
+        "fini"
+      ],
+      "origin": "拉丁语 finis（界限、终点）",
+      "core_concept": "boundary, end / 界限、尽头",
+      "core_image": "地上划出一条线，线那边不再属于这块地",
+      "english_definition": "boundary, limit, end",
+      "word_ids": [
+        "definite",
+        "definition",
+        "final",
+        "finally",
+        "finish",
+        "finite",
+        "infinite"
+      ]
     }
   ]
 }

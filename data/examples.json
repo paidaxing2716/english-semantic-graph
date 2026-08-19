@@ -1848,6 +1848,209 @@
       "text": "The job offers generous compensation.",
       "source": "AI 生成 · 人工审核",
       "scene": "理赔单上那笔款项，正好填上损失的那个缺口"
+    },
+    {
+      "id": "ex-part-1",
+      "word_id": "part",
+      "text": "This is only part of the story.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块饼切成四份，手里拿着其中一份"
+    },
+    {
+      "id": "ex-part-2",
+      "word_id": "part",
+      "text": "Spare parts are hard to find.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块饼切成四份，手里拿着其中一份"
+    },
+    {
+      "id": "ex-part-3",
+      "word_id": "part",
+      "text": "They parted at the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块饼切成四份，手里拿着其中一份"
+    },
+    {
+      "id": "ex-partial-1",
+      "word_id": "partial",
+      "text": "The plan was only a partial success.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上只有一角被涂了色，其余仍是空白"
+    },
+    {
+      "id": "ex-partial-2",
+      "word_id": "partial",
+      "text": "A judge must not be partial.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上只有一角被涂了色，其余仍是空白"
+    },
+    {
+      "id": "ex-partly-1",
+      "word_id": "partly",
+      "text": "The delay was partly my fault.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯里的水只到一半刻度，再往上是空的"
+    },
+    {
+      "id": "ex-partly-2",
+      "word_id": "partly",
+      "text": "The report is partly based on old data.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯里的水只到一半刻度，再往上是空的"
+    },
+    {
+      "id": "ex-depart-1",
+      "word_id": "depart",
+      "text": "The flight departs at seven.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "列车缓缓移动，站台和车厢之间的缝隙越来越宽"
+    },
+    {
+      "id": "ex-depart-2",
+      "word_id": "depart",
+      "text": "He departed from the usual procedure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "列车缓缓移动，站台和车厢之间的缝隙越来越宽"
+    },
+    {
+      "id": "ex-departure-1",
+      "word_id": "departure",
+      "text": "Departures are listed on the left screen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机场大屏上一整列时刻，每一行都是一趟即将驶离的班次"
+    },
+    {
+      "id": "ex-departure-2",
+      "word_id": "departure",
+      "text": "This marks a departure from tradition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机场大屏上一整列时刻，每一行都是一趟即将驶离的班次"
+    },
+    {
+      "id": "ex-department-1",
+      "word_id": "department",
+      "text": "She works in the sales department.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼层平面图上一格一格的区域，每格挂着不同牌子"
+    },
+    {
+      "id": "ex-department-2",
+      "word_id": "department",
+      "text": "He chairs the history department.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼层平面图上一格一格的区域，每格挂着不同牌子"
+    },
+    {
+      "id": "ex-impart-1",
+      "word_id": "impart",
+      "text": "She imparted her skills to the new staff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师傅把手艺一点点分给徒弟，自己并没有因此少掉"
+    },
+    {
+      "id": "ex-impart-2",
+      "word_id": "impart",
+      "text": "Herbs impart a subtle flavour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师傅把手艺一点点分给徒弟，自己并没有因此少掉"
+    },
+    {
+      "id": "ex-final-1",
+      "word_id": "final",
+      "text": "This is my final offer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道尽头那条白线，越过它比赛就结束"
+    },
+    {
+      "id": "ex-final-2",
+      "word_id": "final",
+      "text": "They lost in the final.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道尽头那条白线，越过它比赛就结束"
+    },
+    {
+      "id": "ex-finally-1",
+      "word_id": "finally",
+      "text": "The train finally arrived at midnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "排了三小时队，窗口这才轮到自己"
+    },
+    {
+      "id": "ex-finally-2",
+      "word_id": "finally",
+      "text": "Finally, I would like to thank the team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "排了三小时队，窗口这才轮到自己"
+    },
+    {
+      "id": "ex-finish-1",
+      "word_id": "finish",
+      "text": "I finished the report last night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "最后一笔画完，笔从纸上抬起来"
+    },
+    {
+      "id": "ex-finish-2",
+      "word_id": "finish",
+      "text": "The milk is finished.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "最后一笔画完，笔从纸上抬起来"
+    },
+    {
+      "id": "ex-finite-1",
+      "word_id": "finite",
+      "text": "Fossil fuels are a finite resource.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "围墙圈起一块地，沿墙走一圈能回到起点"
+    },
+    {
+      "id": "ex-finite-2",
+      "word_id": "finite",
+      "text": "The set contains a finite number of items.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "围墙圈起一块地，沿墙走一圈能回到起点"
+    },
+    {
+      "id": "ex-infinite-1",
+      "word_id": "infinite",
+      "text": "Space appears infinite from Earth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走了很久也没见到围墙，前方始终是空地"
+    },
+    {
+      "id": "ex-infinite-2",
+      "word_id": "infinite",
+      "text": "She showed infinite patience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走了很久也没见到围墙，前方始终是空地"
+    },
+    {
+      "id": "ex-definite-1",
+      "word_id": "definite",
+      "text": "We need a definite answer by Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地界用石桩标了一圈，哪边归谁一目了然"
+    },
+    {
+      "id": "ex-definite-2",
+      "word_id": "definite",
+      "text": "There is a definite improvement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地界用石桩标了一圈，哪边归谁一目了然"
+    },
+    {
+      "id": "ex-definition-1",
+      "word_id": "definition",
+      "text": "Look up the definition of the term.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "词典里那一行字，圈定了这个词管到哪儿为止"
+    },
+    {
+      "id": "ex-definition-2",
+      "word_id": "definition",
+      "text": "The screen offers high definition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "词典里那一行字，圈定了这个词管到哪儿为止"
     }
   ]
 }

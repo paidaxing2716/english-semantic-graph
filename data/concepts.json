@@ -374,6 +374,42 @@
         "expensive",
         "suspend"
       ]
+    },
+    {
+      "id": "concept-pars-divide",
+      "concept": "a part, to divide",
+      "chinese": "部分、分开",
+      "core_image": "一块饼被切开，分成几份摊在桌上",
+      "root_ids": [
+        "pars"
+      ],
+      "word_ids": [
+        "depart",
+        "department",
+        "departure",
+        "impart",
+        "part",
+        "partial",
+        "partly"
+      ]
+    },
+    {
+      "id": "concept-fin-limit",
+      "concept": "boundary, end",
+      "chinese": "界限、尽头",
+      "core_image": "地上划出一条线，线那边不再算在内",
+      "root_ids": [
+        "fin"
+      ],
+      "word_ids": [
+        "definite",
+        "definition",
+        "final",
+        "finally",
+        "finish",
+        "finite",
+        "infinite"
+      ]
     }
   ]
 }

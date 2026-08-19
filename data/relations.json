@@ -1014,6 +1014,90 @@
       "to": "compensation",
       "type": "root",
       "note": "compensate（称平）+ -ation（名词）→ 用来把两边称平的那笔东西 → 补偿金"
+    },
+    {
+      "from": "pars",
+      "to": "part",
+      "type": "root",
+      "note": "pars 本身即词根，无词缀 → 从整体切下来的那一块，或使双方分开"
+    },
+    {
+      "from": "pars",
+      "to": "partial",
+      "type": "root",
+      "note": "part（部分）+ -ial（…的）→ 只涉及一部分的 → 部分的；只偏向一部分人的 → 偏心的"
+    },
+    {
+      "from": "pars",
+      "to": "partly",
+      "type": "root",
+      "note": "part（部分）+ -ly（副词）→ 只在一部分程度上 → 部分地"
+    },
+    {
+      "from": "pars",
+      "to": "depart",
+      "type": "root",
+      "note": "de-（离开）+ part（分开）→ 与此地分开 → 离开"
+    },
+    {
+      "from": "pars",
+      "to": "departure",
+      "type": "root",
+      "note": "depart（分离而去）+ -ure（名词）→ 分离而去这件事 → 启程"
+    },
+    {
+      "from": "pars",
+      "to": "department",
+      "type": "root",
+      "note": "de-（分开）+ part（部分）+ -ment（结果）→ 从整体里划分出来的那一块 → 部门"
+    },
+    {
+      "from": "pars",
+      "to": "impart",
+      "type": "root",
+      "note": "im-（进入）+ part（分出一份）→ 分一份给对方 → 传授"
+    },
+    {
+      "from": "fin",
+      "to": "final",
+      "type": "root",
+      "note": "fin（界限、尽头）+ -al（…的）→ 处在尽头的 → 最后的"
+    },
+    {
+      "from": "fin",
+      "to": "finally",
+      "type": "root",
+      "note": "final（处在尽头的）+ -ly（副词）→ 到了尽头才 → 最终"
+    },
+    {
+      "from": "fin",
+      "to": "finish",
+      "type": "root",
+      "note": "fin（尽头）+ -ish（动词后缀）→ 使到达尽头 → 完成"
+    },
+    {
+      "from": "fin",
+      "to": "finite",
+      "type": "root",
+      "note": "fin（界限）+ -ite（…的）→ 有界限的 → 有限的"
+    },
+    {
+      "from": "fin",
+      "to": "infinite",
+      "type": "root",
+      "note": "in-（否定）+ fin（界限）+ -ite → 没有界限的 → 无限的"
+    },
+    {
+      "from": "fin",
+      "to": "definite",
+      "type": "root",
+      "note": "de-（彻底）+ fin（划界）+ -ite → 界线已彻底划清的 → 明确的"
+    },
+    {
+      "from": "fin",
+      "to": "definition",
+      "type": "root",
+      "note": "de-（彻底）+ fin（划界）+ -ition（名词）→ 把界线划清这件事 → 定义"
     }
   ]
 }

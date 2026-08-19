@@ -1,0 +1,613 @@
+{
+  "roots": [
+    {
+      "id": "pars",
+      "root": "pars",
+      "variants": [
+        "pars",
+        "part",
+        "parti"
+      ],
+      "origin": "拉丁语 pars / partire（部分、分开）",
+      "core_concept": "a part, to divide / 一部分，或把整体分开",
+      "core_image": "一块饼被切开，分成几份摊在桌上",
+      "english_definition": "a part, to divide",
+      "word_ids": []
+    },
+    {
+      "id": "fin",
+      "root": "fin",
+      "variants": [
+        "fin",
+        "fini"
+      ],
+      "origin": "拉丁语 finis（界限、终点）",
+      "core_concept": "boundary, end / 界限、尽头",
+      "core_image": "地上划出一条线，线那边不再属于这块地",
+      "english_definition": "boundary, limit, end",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-pars-divide",
+      "concept": "a part, to divide",
+      "chinese": "部分、分开",
+      "core_image": "一块饼被切开，分成几份摊在桌上",
+      "root_ids": [
+        "pars"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-fin-limit",
+      "concept": "boundary, end",
+      "chinese": "界限、尽头",
+      "core_image": "地上划出一条线，线那边不再算在内",
+      "root_ids": [
+        "fin"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-shape": [
+      "pars",
+      "fin"
+    ]
+  },
+  "words": [
+    {
+      "id": "part",
+      "word": "part",
+      "pos": "noun",
+      "phonetic": "/pɑːrt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "pars 本身即词根，无词缀 → 从整体切下来的那一块，或使双方分开",
+      "origin": "拉丁语 pars（部分）",
+      "native_definition": "a piece of a whole; also to separate from someone",
+      "core_concept": "a piece cut from a whole – 从整体上切下来的那一块",
+      "core_image": "一块饼切成四份，手里拿着其中一份",
+      "chinese": [
+        "部分",
+        "零件",
+        "分开"
+      ],
+      "examples": [
+        "This is only part of the story.",
+        "Spare parts are hard to find.",
+        "They parted at the station."
+      ],
+      "synonyms": [
+        "piece",
+        "separate"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "related": [
+        "partial",
+        "partly",
+        "depart",
+        "department",
+        "impart"
+      ],
+      "semantic_expansions": [
+        "部分/零件：从整体上分下来的那一块",
+        "分开（动词）：使两者成为各自独立的部分。同一个'分'，一个看结果一个看动作"
+      ]
+    },
+    {
+      "id": "partial",
+      "word": "partial",
+      "pos": "adjective",
+      "phonetic": "/ˈpɑːrʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "part（部分）+ -ial（…的）→ 只涉及一部分的 → 部分的；只偏向一部分人的 → 偏心的",
+      "recall_hint": "part（部分）+ -ial → 只涉及其中一块，而非全部；用在人身上则是只偏向其中一边",
+      "origin": "拉丁语 partialis：pars（部分）",
+      "native_definition": "not complete; also unfairly favouring one side",
+      "core_concept": "covering only a portion, not the whole – 只占其中一块，不是全部",
+      "core_image": "地图上只有一角被涂了色，其余仍是空白",
+      "chinese": [
+        "部分的",
+        "不完全的",
+        "偏心的"
+      ],
+      "examples": [
+        "The plan was only a partial success.",
+        "A judge must not be partial."
+      ],
+      "synonyms": [
+        "incomplete",
+        "biased"
+      ],
+      "antonyms": [
+        "complete",
+        "impartial"
+      ],
+      "related": [
+        "part",
+        "partly",
+        "department",
+        "impart"
+      ],
+      "semantic_expansions": [
+        "部分的/不完全的：只覆盖其中一块",
+        "偏心的：只站在其中一边。同一个'只占一部分'，一个说范围一个说立场"
+      ]
+    },
+    {
+      "id": "partly",
+      "word": "partly",
+      "pos": "adverb",
+      "phonetic": "/ˈpɑːrtli/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "part（部分）+ -ly（副词）→ 只在一部分程度上 → 部分地",
+      "origin": "拉丁语 pars（部分）+ 英语副词后缀 -ly",
+      "native_definition": "to some extent but not completely",
+      "core_concept": "to a degree that is not the whole – 只到某个程度，没有全部",
+      "core_image": "杯里的水只到一半刻度，再往上是空的",
+      "chinese": [
+        "部分地",
+        "在一定程度上"
+      ],
+      "examples": [
+        "The delay was partly my fault.",
+        "The report is partly based on old data."
+      ],
+      "synonyms": [
+        "somewhat"
+      ],
+      "antonyms": [
+        "completely"
+      ],
+      "related": [
+        "part",
+        "partial",
+        "department"
+      ],
+      "semantic_expansions": [
+        "部分地与在一定程度上：都是'只到某个程度、没有全部'，中文两种说法对应同一个界限感"
+      ]
+    },
+    {
+      "id": "depart",
+      "word": "depart",
+      "pos": "verb",
+      "phonetic": "/dɪˈpɑːrt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "de-（离开）+ part（分开）→ 与此地分开 → 离开",
+      "origin": "拉丁语 departire：de-（离开）+ partire（分开）",
+      "native_definition": "to leave a place, especially to start a journey",
+      "core_concept": "separating oneself from where one was – 把自己与原处分开",
+      "core_image": "列车缓缓移动，站台和车厢之间的缝隙越来越宽",
+      "chinese": [
+        "离开",
+        "启程",
+        "背离"
+      ],
+      "examples": [
+        "The flight departs at seven.",
+        "He departed from the usual procedure."
+      ],
+      "synonyms": [
+        "leave",
+        "exit"
+      ],
+      "antonyms": [
+        "arrive"
+      ],
+      "related": [
+        "part",
+        "departure",
+        "department",
+        "partial"
+      ],
+      "semantic_expansions": [
+        "离开/启程：身体与原处分开",
+        "背离（做法）：做法与惯例分开。同一个'与原本的分离'，一个是空间一个是规矩"
+      ]
+    },
+    {
+      "id": "departure",
+      "word": "departure",
+      "pos": "noun",
+      "phonetic": "/dɪˈpɑːrtʃər/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "depart（分离而去）+ -ure（名词）→ 分离而去这件事 → 启程",
+      "origin": "拉丁语 departire：de-（离开）+ partire（分开）",
+      "native_definition": "the act of leaving, or a change from what is usual",
+      "core_concept": "the act of separating away – 与原处分开这件事本身",
+      "core_image": "机场大屏上一整列时刻，每一行都是一趟即将驶离的班次",
+      "chinese": [
+        "启程",
+        "出发",
+        "背离"
+      ],
+      "examples": [
+        "Departures are listed on the left screen.",
+        "This marks a departure from tradition."
+      ],
+      "synonyms": [
+        "exit"
+      ],
+      "antonyms": [
+        "arrival"
+      ],
+      "related": [
+        "depart",
+        "part",
+        "department"
+      ],
+      "semantic_expansions": [
+        "启程/出发：离去这个动作本身",
+        "背离（传统）：与既有做法分开。与 depart 同一个内核，只是名词形式"
+      ]
+    },
+    {
+      "id": "department",
+      "word": "department",
+      "pos": "noun",
+      "phonetic": "/dɪˈpɑːrtmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "de-（分开）+ part（部分）+ -ment（结果）→ 从整体里划分出来的那一块 → 部门",
+      "origin": "拉丁语 departire：de-（分开）+ partire（分开）",
+      "native_definition": "a separate section of a large organization",
+      "core_concept": "a section divided off from the whole – 从整体里划出来、各管一段的那一块",
+      "core_image": "楼层平面图上一格一格的区域，每格挂着不同牌子",
+      "chinese": [
+        "部门",
+        "系",
+        "科"
+      ],
+      "examples": [
+        "She works in the sales department.",
+        "He chairs the history department."
+      ],
+      "synonyms": [
+        "division",
+        "section"
+      ],
+      "antonyms": [],
+      "related": [
+        "depart",
+        "part",
+        "partial",
+        "departure"
+      ],
+      "semantic_expansions": [
+        "部门/系/科：都是从整体里划出来各管一段的那一块，中文按机构类型分了三个词"
+      ]
+    },
+    {
+      "id": "impart",
+      "word": "impart",
+      "pos": "verb",
+      "phonetic": "/ɪmˈpɑːrt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "im-（进入）+ part（分出一份）→ 分一份给对方 → 传授",
+      "origin": "拉丁语 impartire：in-（进入）+ partire（分开）",
+      "native_definition": "to pass on knowledge or a quality to someone",
+      "core_concept": "giving away a share of what one has – 把自己有的分出一份给别人",
+      "core_image": "老师傅把手艺一点点分给徒弟，自己并没有因此少掉",
+      "chinese": [
+        "传授",
+        "赋予",
+        "透露"
+      ],
+      "examples": [
+        "She imparted her skills to the new staff.",
+        "Herbs impart a subtle flavour."
+      ],
+      "synonyms": [
+        "convey",
+        "grant"
+      ],
+      "antonyms": [
+        "withhold"
+      ],
+      "related": [
+        "part",
+        "partial",
+        "department"
+      ],
+      "semantic_expansions": [
+        "传授（技艺）与赋予（性质）：都是把自己有的分出一份给对方",
+        "透露（消息）：把知道的分一份出去。三者共享'分一份给别人'这个动作"
+      ]
+    },
+    {
+      "id": "final",
+      "word": "final",
+      "pos": "adjective",
+      "phonetic": "/ˈfaɪnl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "fin（界限、尽头）+ -al（…的）→ 处在尽头的 → 最后的",
+      "origin": "拉丁语 finalis：finis（终点）",
+      "native_definition": "coming at the end, with nothing after it",
+      "core_concept": "standing at the end with nothing beyond – 站在尽头，后面没有了",
+      "core_image": "跑道尽头那条白线，越过它比赛就结束",
+      "chinese": [
+        "最后的",
+        "最终的",
+        "决赛"
+      ],
+      "examples": [
+        "This is my final offer.",
+        "They lost in the final."
+      ],
+      "synonyms": [
+        "last",
+        "ultimate"
+      ],
+      "antonyms": [
+        "initial"
+      ],
+      "related": [
+        "finally",
+        "finish",
+        "finite",
+        "definite"
+      ],
+      "semantic_expansions": [
+        "最后的/最终的：处在尽头，之后没有别的",
+        "决赛（名词）：赛程尽头那一场。同一个'尽头'，一个说位置一个指那件事"
+      ]
+    },
+    {
+      "id": "finally",
+      "word": "finally",
+      "pos": "adverb",
+      "phonetic": "/ˈfaɪnəli/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "final（处在尽头的）+ -ly（副词）→ 到了尽头才 → 最终",
+      "origin": "拉丁语 finalis：finis（终点）",
+      "native_definition": "after a long time or as the last point",
+      "core_concept": "at the end of a long stretch – 走到那一长段的尽头时",
+      "core_image": "排了三小时队，窗口这才轮到自己",
+      "chinese": [
+        "最终",
+        "终于",
+        "最后"
+      ],
+      "examples": [
+        "The train finally arrived at midnight.",
+        "Finally, I would like to thank the team."
+      ],
+      "synonyms": [
+        "eventually",
+        "lastly"
+      ],
+      "antonyms": [],
+      "related": [
+        "final",
+        "finish",
+        "finite"
+      ],
+      "semantic_expansions": [
+        "最终/最后：位置上处在尽头",
+        "终于：强调走到尽头前经历了漫长过程。同一个'尽头'，一个说位置一个带情绪"
+      ]
+    },
+    {
+      "id": "finish",
+      "word": "finish",
+      "pos": "verb",
+      "phonetic": "/ˈfɪnɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "fin（尽头）+ -ish（动词后缀）→ 使到达尽头 → 完成",
+      "origin": "拉丁语 finire（结束）← finis（终点），经古法语 finir 进入英语",
+      "native_definition": "to bring something to its end, or to come to an end",
+      "core_concept": "bringing something to its end point – 把事情带到尽头那条线",
+      "core_image": "最后一笔画完，笔从纸上抬起来",
+      "chinese": [
+        "完成",
+        "结束",
+        "用完"
+      ],
+      "examples": [
+        "I finished the report last night.",
+        "The milk is finished."
+      ],
+      "synonyms": [
+        "complete",
+        "conclude"
+      ],
+      "antonyms": [
+        "begin",
+        "start"
+      ],
+      "related": [
+        "final",
+        "finally",
+        "finite",
+        "definite"
+      ],
+      "semantic_expansions": [
+        "完成/结束：把事情带到尽头",
+        "用完（东西）：把存量消到尽头。同一个'到尽头'，一个是过程一个是数量"
+      ]
+    },
+    {
+      "id": "finite",
+      "word": "finite",
+      "pos": "adjective",
+      "phonetic": "/ˈfaɪnaɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "fin（界限）+ -ite（…的）→ 有界限的 → 有限的",
+      "origin": "拉丁语 finitus：finire（限定）← finis（界限）",
+      "native_definition": "having a limit that can be counted or measured",
+      "core_concept": "enclosed by a boundary that can be reached – 有一条能走到的界线围着",
+      "core_image": "围墙圈起一块地，沿墙走一圈能回到起点",
+      "chinese": [
+        "有限的"
+      ],
+      "examples": [
+        "Fossil fuels are a finite resource.",
+        "The set contains a finite number of items."
+      ],
+      "synonyms": [
+        "limited",
+        "measurable"
+      ],
+      "antonyms": [
+        "infinite"
+      ],
+      "related": [
+        "infinite",
+        "final",
+        "finish",
+        "definite"
+      ]
+    },
+    {
+      "id": "infinite",
+      "word": "infinite",
+      "pos": "adjective",
+      "phonetic": "/ˈɪnfɪnət/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "in-（否定）+ fin（界限）+ -ite → 没有界限的 → 无限的",
+      "origin": "拉丁语 infinitus：in-（不）+ finitus（有界的）",
+      "native_definition": "having no limit or end",
+      "core_concept": "having no boundary to reach – 没有一条走得到的界线",
+      "core_image": "走了很久也没见到围墙，前方始终是空地",
+      "chinese": [
+        "无限的",
+        "无穷的"
+      ],
+      "examples": [
+        "Space appears infinite from Earth.",
+        "She showed infinite patience."
+      ],
+      "synonyms": [
+        "endless",
+        "boundless"
+      ],
+      "antonyms": [
+        "finite",
+        "limited"
+      ],
+      "related": [
+        "finite",
+        "final",
+        "definite"
+      ],
+      "semantic_expansions": [
+        "无限的与无穷的：都是'没有界线可走到'——与 finite 只差一个否定前缀，是词根拆解最见效的一类对子"
+      ]
+    },
+    {
+      "id": "definite",
+      "word": "definite",
+      "pos": "adjective",
+      "phonetic": "/ˈdefɪnət/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "de-（彻底）+ fin（划界）+ -ite → 界线已彻底划清的 → 明确的",
+      "origin": "拉丁语 definitus：de-（彻底）+ finire（划定界限）",
+      "native_definition": "clear and certain, with no room for doubt",
+      "core_concept": "with its boundary drawn clearly – 界线已经划得很清楚",
+      "core_image": "地界用石桩标了一圈，哪边归谁一目了然",
+      "chinese": [
+        "明确的",
+        "确定的"
+      ],
+      "examples": [
+        "We need a definite answer by Friday.",
+        "There is a definite improvement."
+      ],
+      "synonyms": [
+        "clear",
+        "certain"
+      ],
+      "antonyms": [
+        "vague"
+      ],
+      "related": [
+        "definition",
+        "finite",
+        "final",
+        "finish"
+      ],
+      "semantic_expansions": [
+        "明确的与确定的：都是'界线已划清、没有模糊余地'，中文按侧重分了两个词"
+      ]
+    },
+    {
+      "id": "definition",
+      "word": "definition",
+      "pos": "noun",
+      "phonetic": "/ˌdefɪˈnɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "de-（彻底）+ fin（划界）+ -ition（名词）→ 把界线划清这件事 → 定义",
+      "origin": "拉丁语 definitio：de-（彻底）+ finire（划定界限）",
+      "native_definition": "a statement of exactly what a word or thing means; also how clear an image is",
+      "core_concept": "drawing the boundary of what something is – 把某物是什么、不是什么划清界线",
+      "core_image": "词典里那一行字，圈定了这个词管到哪儿为止",
+      "chinese": [
+        "定义",
+        "清晰度"
+      ],
+      "examples": [
+        "Look up the definition of the term.",
+        "The screen offers high definition."
+      ],
+      "synonyms": [
+        "meaning",
+        "clarity"
+      ],
+      "antonyms": [],
+      "related": [
+        "definite",
+        "finite",
+        "final"
+      ],
+      "semantic_expansions": [
+        "定义：把某物的界线划清",
+        "清晰度（画面）：图像边缘划得多清楚。同一个'界线是否分明'，一个用于概念一个用于图像"
+      ]
+    }
+  ]
+}
