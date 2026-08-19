@@ -1,0 +1,241 @@
+{
+  "words": [
+    {
+      "id": "depress",
+      "word": "depress",
+      "pos": "verb",
+      "phonetic": "/dɪˈpres/",
+      "root_ids": ["press"],
+      "root_logic": "de-（向下）+ press（压）→ 把某物或某人的状态往下压 → 压低 / 使低落",
+      "origin": "拉丁语 deprimere：de-（向下）+ premere（压）",
+      "native_definition": "to push something down, or to make someone feel low in spirits",
+      "core_concept": "forcing something to a lower level – 把某物压到更低的位置或状态",
+      "core_image": "一只手把弹起的琴键按到底，声音和高度一起沉下去",
+      "chinese": ["使沮丧", "按下", "压低"],
+      "examples": [
+        "Rainy weeks always depress him.",
+        "Depress the clutch before shifting gears.",
+        "The trade war depressed steel prices."
+      ],
+      "synonyms": ["sadden", "lower", "dishearten"],
+      "antonyms": ["cheer", "raise"],
+      "related": ["pressure", "impress", "suppress"],
+      "semantic_expansions": [
+        "按下（琴键/离合器）：物理上把东西压到低位，最直白的一层",
+        "压低（价格/产量）：把数值往下压，从物理位移引申到数量高低",
+        "使沮丧：把人的情绪压到低位——中文分成三个词，英文始终是同一个'往下压'的动作"
+      ]
+    },
+    {
+      "id": "impose",
+      "word": "impose",
+      "pos": "verb",
+      "phonetic": "/ɪmˈpoʊz/",
+      "root_ids": ["pose"],
+      "root_logic": "im-（上、之上）+ pose（放置）→ 把东西放到别人身上 → 强加",
+      "origin": "拉丁语 imponere：in-（在上）+ ponere（放置）",
+      "native_definition": "to place something on someone by authority, often without their consent",
+      "core_concept": "placing a burden onto someone from above – 自上而下把负担放到他人身上",
+      "core_image": "官员把一份沉重的文件压在对方桌上，对方没有推开的余地",
+      "chinese": ["强加", "征收", "打扰"],
+      "examples": [
+        "The government imposed a new tax on imports.",
+        "I don't want to impose on your weekend."
+      ],
+      "synonyms": ["levy", "inflict", "enforce"],
+      "antonyms": ["withdraw", "remove"],
+      "related": ["position", "compose", "oppose", "propose"],
+      "semantic_expansions": [
+        "强加/征收：把规则或税负放到对方身上，对方无从拒绝",
+        "打扰：把自己的需求放到别人的时间上——同样是'未经同意就放上去'，只是放的东西变成了麻烦"
+      ]
+    },
+    {
+      "id": "detract",
+      "word": "detract",
+      "pos": "verb",
+      "phonetic": "/dɪˈtrækt/",
+      "root_ids": ["tract"],
+      "root_logic": "de-（离开）+ tract（拉）→ 从整体里拉走一部分 → 减损价值",
+      "origin": "拉丁语 detrahere：de-（拿走）+ trahere（拉）",
+      "native_definition": "to take away from the value or quality of something",
+      "core_concept": "pulling value away from something – 把价值从整体中拉走一部分",
+      "core_image": "一幅好画配了廉价画框，画框像在把画的档次往下拽",
+      "chinese": ["贬低", "减损"],
+      "examples": [
+        "One weak chapter does not detract from the book's overall value.",
+        "Cheap packaging detracts from the product's image."
+      ],
+      "synonyms": ["diminish", "belittle"],
+      "antonyms": ["enhance", "add"],
+      "related": ["attract", "extract", "distract", "contract"],
+      "semantic_expansions": [
+        "贬低/减损：都是把已有的价值往外拉走，区别只在拉的是名誉还是质量"
+      ]
+    },
+    {
+      "id": "conform",
+      "word": "conform",
+      "pos": "verb",
+      "phonetic": "/kənˈfɔːrm/",
+      "root_ids": ["form"],
+      "root_logic": "con-（一起、共同）+ form（形状）→ 让自己的形状与外部一致 → 遵从",
+      "origin": "拉丁语 conformare：con-（一起）+ formare（塑形）",
+      "native_definition": "to behave according to a rule, standard, or the expectations of a group",
+      "core_concept": "shaping oneself to match an external form – 把自己塑造成与外部标准相同的形状",
+      "core_image": "液体倒进模具，冷却后完全长成模具的形状",
+      "chinese": ["遵从", "符合", "顺应"],
+      "examples": [
+        "All buildings must conform to the safety code.",
+        "He refused to conform to the group's expectations."
+      ],
+      "synonyms": ["comply", "obey", "adapt"],
+      "antonyms": ["rebel", "differ"],
+      "related": ["formal", "inform", "transform", "reform", "perform"],
+      "semantic_expansions": [
+        "符合（规范）：产品的形状与标准的形状重合",
+        "遵从/顺应（群体）：把自己的行为塑造成群体期待的形状——从物理同形引申到社会同形"
+      ]
+    },
+    {
+      "id": "retract",
+      "word": "retract",
+      "pos": "verb",
+      "phonetic": "/rɪˈtrækt/",
+      "root_ids": ["tract"],
+      "root_logic": "re-（往回）+ tract（拉）→ 把已经伸出去的东西拉回来 → 收回",
+      "origin": "拉丁语 retrahere：re-（往回）+ trahere（拉）",
+      "native_definition": "to pull something back in, or to take back a statement",
+      "core_concept": "pulling back something already extended – 把已经伸出去的东西拉回原处",
+      "core_image": "猫把伸出的爪子缩回肉垫，痕迹留着但爪子不见了",
+      "chinese": ["收回", "撤回", "缩回"],
+      "examples": [
+        "The landing gear retracts after takeoff.",
+        "The newspaper retracted the false claim."
+      ],
+      "synonyms": ["withdraw", "recall"],
+      "antonyms": ["extend", "assert"],
+      "related": ["attract", "extract", "contract", "detract"],
+      "semantic_expansions": [
+        "缩回（起落架/爪子）：物理上把伸出的部件拉回",
+        "撤回（声明/指控）：把已经说出口的话拉回来——说出去的话被当作伸出去的东西"
+      ]
+    },
+    {
+      "id": "omit",
+      "word": "omit",
+      "pos": "verb",
+      "phonetic": "/oʊˈmɪt/",
+      "root_ids": ["mit-miss"],
+      "root_logic": "o-（ob- 的变体，表'离开'）+ mit（送）→ 把某项送出集合之外 → 遗漏",
+      "origin": "拉丁语 omittere：ob-（离开）+ mittere（送）",
+      "native_definition": "to leave something out, either by choice or by mistake",
+      "core_concept": "sending an item out of the set – 把某一项排到集合之外",
+      "core_image": "校对时用红笔把名单里的一行划掉，那一行从此不在名单上",
+      "chinese": ["省略", "遗漏"],
+      "examples": [
+        "You can omit the second step if the file already exists.",
+        "She omitted her last job from the résumé."
+      ],
+      "synonyms": ["skip", "exclude", "leave out"],
+      "antonyms": ["include", "add"],
+      "related": ["admit", "commit", "permit", "transmit"],
+      "semantic_expansions": [
+        "省略（有意）与遗漏（无意）：中文分两个词，英文是同一个动作——把它送出集合，区别只在是否故意"
+      ]
+    },
+    {
+      "id": "suspect",
+      "word": "suspect",
+      "pos": "verb",
+      "phonetic": "/səˈspekt/",
+      "root_ids": ["spect"],
+      "root_logic": "sus-（sub- 的变体，表'从下面'）+ spect（看）→ 从下往上偷偷打量 → 怀疑",
+      "origin": "拉丁语 suspicere：sub-（从下）+ specere（看）",
+      "native_definition": "to believe something is likely, especially something bad, without proof",
+      "core_concept": "looking at something from below with doubt – 从底下打量，觉得事情不对但没有证据",
+      "core_image": "海关人员低着头从下方斜眼打量旅客的行李，什么都没说",
+      "chinese": ["怀疑", "嫌疑人", "猜想"],
+      "examples": [
+        "Police suspect the fire was deliberate.",
+        "I suspect she already knows."
+      ],
+      "synonyms": ["doubt", "presume", "surmise"],
+      "antonyms": ["trust", "verify"],
+      "related": ["inspect", "respect", "prospect", "spectator", "expect"],
+      "semantic_expansions": [
+        "怀疑（动词）：从下往上打量，看出可疑但拿不出证据",
+        "嫌疑人（名词）：被这样打量的那个人——同一个'被审视'的画面，只是视角从看的人转到被看的人"
+      ]
+    },
+    {
+      "id": "deduce",
+      "word": "deduce",
+      "pos": "verb",
+      "phonetic": "/dɪˈduːs/",
+      "root_ids": ["duc-duct"],
+      "root_logic": "de-（从…向下）+ duc（引导）→ 从已知前提一路引下来 → 推断出结论",
+      "origin": "拉丁语 deducere：de-（从…下来）+ ducere（引导）",
+      "native_definition": "to reach a conclusion by reasoning from known facts",
+      "core_concept": "leading a conclusion down from known premises – 从已知前提把结论一路引出来",
+      "core_image": "侦探把桌上的线索用红线一根根牵到墙上同一个名字",
+      "chinese": ["推断", "演绎"],
+      "examples": [
+        "From the muddy footprints we can deduce he came through the garden.",
+        "She deduced the password from his birthday."
+      ],
+      "synonyms": ["infer", "conclude", "reason"],
+      "antonyms": ["guess"],
+      "related": ["conduct", "produce", "introduce", "educate", "reduce"],
+      "semantic_expansions": [
+        "推断与演绎：同一个动作的两种说法——顺着已知的线往下牵，牵到终点就是结论"
+      ]
+    },
+    {
+      "id": "deport",
+      "word": "deport",
+      "pos": "verb",
+      "phonetic": "/dɪˈpɔːrt/",
+      "root_ids": ["port"],
+      "root_logic": "de-（离开）+ port（运送）→ 把人运离这个国家 → 驱逐出境",
+      "origin": "拉丁语 deportare：de-（离开）+ portare（运送）",
+      "native_definition": "to force a person to leave a country, usually to their country of origin",
+      "core_concept": "carrying a person out of the country – 把人从这个国家运出去",
+      "core_image": "两名警员押着一个人走上舷梯，登机口在身后关上",
+      "chinese": ["驱逐出境", "遣送"],
+      "examples": [
+        "He was deported after his visa expired.",
+        "The court ordered her to be deported."
+      ],
+      "synonyms": ["expel", "banish"],
+      "antonyms": ["admit"],
+      "related": ["import", "export", "transport", "portable", "report"],
+      "semantic_expansions": [
+        "驱逐出境与遣送：都是把人当作要运走的对象送出边界，区别只在语气轻重"
+      ]
+    },
+    {
+      "id": "ascribe",
+      "word": "ascribe",
+      "pos": "verb",
+      "phonetic": "/əˈskraɪb/",
+      "root_ids": ["scrib-script"],
+      "root_logic": "a-（ad- 的变体，表'朝向'）+ scrib（写）→ 把某事写到某人名下 → 归因于",
+      "origin": "拉丁语 ascribere：ad-（朝向）+ scribere（写）",
+      "native_definition": "to say that something was caused by or belongs to a particular person or thing",
+      "core_concept": "writing something into someone's account – 把某件事记到某人名下",
+      "core_image": "会计把一笔支出写进某个人的账目那一栏",
+      "chinese": ["归因于", "归于"],
+      "examples": [
+        "Historians ascribe the collapse to poor harvests.",
+        "The poem is usually ascribed to an anonymous monk."
+      ],
+      "synonyms": ["attribute", "credit", "assign"],
+      "antonyms": [],
+      "related": ["describe", "prescribe", "transcript", "manuscript", "subscribe"],
+      "semantic_expansions": [
+        "归因于（原因）与归于（作者）：都是把某样东西写进某人的账，只是记的是责任还是署名"
+      ]
+    }
+  ]
+}

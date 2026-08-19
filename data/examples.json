@@ -1,59 +1,530 @@
 {
   "schema_version": "0.1",
   "examples": [
-    { "id": "ex-figure-1", "word_id": "figure", "text": "I saw a figure standing in the dark.", "source": "自编", "scene": "夜里看到一个人影" },
-    { "id": "ex-figure-2", "word_id": "figure", "text": "Sales figures increased by 10% this quarter.", "source": "自编", "scene": "财报里的数字" },
-    { "id": "ex-configure-1", "word_id": "configure", "text": "Please configure the network settings before starting.", "source": "自编", "scene": "配置服务器网络" },
-    { "id": "ex-configure-2", "word_id": "configure", "text": "The software can be configured to run in different modes.", "source": "自编", "scene": "软件运行模式配置" },
-    { "id": "ex-figurative-1", "word_id": "figurative", "text": "'He has a heart of stone' is a figurative expression.", "source": "自编", "scene": "比喻性表达" },
-    { "id": "ex-disfigure-1", "word_id": "disfigure", "text": "The building was disfigured by graffiti.", "source": "自编", "scene": "建筑被涂鸦破坏外观" },
-    { "id": "ex-configuration-1", "word_id": "configuration", "text": "The configuration of the new system takes time.", "source": "自编", "scene": "新系统的配置" },
-    { "id": "ex-pressure-1", "word_id": "pressure", "text": "The pressure of work is increasing.", "source": "自编", "scene": "工作压力" },
-    { "id": "ex-pressure-2", "word_id": "pressure", "text": "Blood pressure should be checked regularly.", "source": "自编", "scene": "血压" },
-    { "id": "ex-impress-1", "word_id": "impress", "text": "Her performance impressed the judges.", "source": "自编", "scene": "表演令评委印象深刻" },
-    { "id": "ex-express-1", "word_id": "express", "text": "She expressed her gratitude in a letter.", "source": "自编", "scene": "写信表达感谢" },
-    { "id": "ex-suppress-1", "word_id": "suppress", "text": "He suppressed a laugh.", "source": "自编", "scene": "忍住笑" },
-    { "id": "ex-compress-1", "word_id": "compress", "text": "The file was compressed to save space.", "source": "自编", "scene": "压缩文件" },
-    { "id": "ex-formal-1", "word_id": "formal", "text": "You need formal approval to proceed.", "source": "自编", "scene": "正式批准" },
-    { "id": "ex-inform-1", "word_id": "inform", "text": "Please inform us of any changes.", "source": "自编", "scene": "告知变更" },
-    { "id": "ex-transform-1", "word_id": "transform", "text": "The city has been transformed in ten years.", "source": "自编", "scene": "城市巨变" },
-    { "id": "ex-perform-1", "word_id": "perform", "text": "The doctor performed the surgery successfully.", "source": "自编", "scene": "成功实施手术" },
-    { "id": "ex-reform-1", "word_id": "reform", "text": "The government promised to reform the education system.", "source": "自编", "scene": "教育改革" },
-    { "id": "ex-attract-1", "word_id": "attract", "text": "The new shop attracts many customers.", "source": "自编", "scene": "新店吸引顾客" },
-    { "id": "ex-extract-1", "word_id": "extract", "text": "The dentist extracted the tooth.", "source": "自编", "scene": "拔牙" },
-    { "id": "ex-contract-1", "word_id": "contract", "text": "Metal contracts when it cools.", "source": "自编", "scene": "金属遇冷收缩" },
-    { "id": "ex-contract-2", "word_id": "contract", "text": "They signed a contract for the project.", "source": "自编", "scene": "签署合同" },
-    { "id": "ex-distract-1", "word_id": "distract", "text": "The noise distracted me from my work.", "source": "自编", "scene": "噪音让人分心" },
-    { "id": "ex-tractor-1", "word_id": "tractor", "text": "The farmer drove the tractor across the field.", "source": "自编", "scene": "开拖拉机耕地" },
-    { "id": "ex-position-1", "word_id": "position", "text": "Please find the position marked on the map.", "source": "自编", "scene": "地图上找位置" },
-    { "id": "ex-compose-1", "word_id": "compose", "text": "Water is composed of hydrogen and oxygen.", "source": "自编", "scene": "水的组成" },
-    { "id": "ex-expose-1", "word_id": "expose", "text": "The report exposed the scandal.", "source": "自编", "scene": "报告揭露丑闻" },
-    { "id": "ex-propose-1", "word_id": "propose", "text": "I propose we start early tomorrow.", "source": "自编", "scene": "提议早点出发" },
-    { "id": "ex-oppose-1", "word_id": "oppose", "text": "Many residents oppose the new plan.", "source": "自编", "scene": "居民反对新计划" },
-    { "id": "ex-admit-1", "word_id": "admit", "text": "He admitted his mistake.", "source": "自编", "scene": "承认错误" },
-    { "id": "ex-commit-1", "word_id": "commit", "text": "She committed herself to the project.", "source": "自编", "scene": "全身心投入项目" },
-    { "id": "ex-permit-1", "word_id": "permit", "text": "Smoking is not permitted here.", "source": "自编", "scene": "禁止吸烟" },
-    { "id": "ex-transmit-1", "word_id": "transmit", "text": "The disease is transmitted through water.", "source": "自编", "scene": "疾病经水传播" },
-    { "id": "ex-mission-1", "word_id": "mission", "text": "The team completed its mission successfully.", "source": "自编", "scene": "完成任务" },
-    { "id": "ex-inspect-1", "word_id": "inspect", "text": "Officials inspected the factory for safety.", "source": "自编", "scene": "安全检查" },
-    { "id": "ex-respect-1", "word_id": "respect", "text": "I respect her for her honesty.", "source": "自编", "scene": "因诚实而尊重" },
-    { "id": "ex-prospect-1", "word_id": "prospect", "text": "The prospects for growth are good.", "source": "自编", "scene": "增长前景" },
-    { "id": "ex-spectator-1", "word_id": "spectator", "text": "Thousands of spectators watched the match.", "source": "自编", "scene": "观众看比赛" },
-    { "id": "ex-expect-1", "word_id": "expect", "text": "We expect the results tomorrow.", "source": "自编", "scene": "期待明天出结果" },
-    { "id": "ex-describe-1", "word_id": "describe", "text": "Can you describe the man you saw?", "source": "自编", "scene": "描述目击者" },
-    { "id": "ex-prescribe-1", "word_id": "prescribe", "text": "The doctor prescribed antibiotics.", "source": "自编", "scene": "开抗生素处方" },
-    { "id": "ex-transcript-1", "word_id": "transcript", "text": "The court transcript was released.", "source": "自编", "scene": "法庭记录公布" },
-    { "id": "ex-manuscript-1", "word_id": "manuscript", "text": "The author sent her manuscript to the publisher.", "source": "自编", "scene": "投稿手稿" },
-    { "id": "ex-subscribe-1", "word_id": "subscribe", "text": "I subscribed to the channel.", "source": "自编", "scene": "订阅频道" },
-    { "id": "ex-conduct-1", "word_id": "conduct", "text": "The experiment was conducted carefully.", "source": "自编", "scene": "认真进行实验" },
-    { "id": "ex-produce-1", "word_id": "produce", "text": "The factory produces cars.", "source": "自编", "scene": "工厂生产汽车" },
-    { "id": "ex-introduce-1", "word_id": "introduce", "text": "Let me introduce my colleague.", "source": "自编", "scene": "介绍同事" },
-    { "id": "ex-educate-1", "word_id": "educate", "text": "Schools educate children for the future.", "source": "自编", "scene": "学校教育孩子" },
-    { "id": "ex-reduce-1", "word_id": "reduce", "text": "We must reduce our expenses.", "source": "自编", "scene": "缩减开支" },
-    { "id": "ex-import-1", "word_id": "import", "text": "The country imports most of its oil.", "source": "自编", "scene": "进口石油" },
-    { "id": "ex-export-1", "word_id": "export", "text": "They export rice to many countries.", "source": "自编", "scene": "出口大米" },
-    { "id": "ex-transport-1", "word_id": "transport", "text": "The goods were transported by rail.", "source": "自编", "scene": "铁路运输" },
-    { "id": "ex-portable-1", "word_id": "portable", "text": "This is a portable speaker.", "source": "自编", "scene": "便携音箱" },
-    { "id": "ex-report-1", "word_id": "report", "text": "Please report any problems to us.", "source": "自编", "scene": "汇报问题" }
+    {
+      "id": "ex-figure-1",
+      "word_id": "figure",
+      "text": "I saw a figure standing in the dark.",
+      "source": "自编",
+      "scene": "夜里看到一个人影"
+    },
+    {
+      "id": "ex-figure-2",
+      "word_id": "figure",
+      "text": "Sales figures increased by 10% this quarter.",
+      "source": "自编",
+      "scene": "财报里的数字"
+    },
+    {
+      "id": "ex-configure-1",
+      "word_id": "configure",
+      "text": "Please configure the network settings before starting.",
+      "source": "自编",
+      "scene": "配置服务器网络"
+    },
+    {
+      "id": "ex-configure-2",
+      "word_id": "configure",
+      "text": "The software can be configured to run in different modes.",
+      "source": "自编",
+      "scene": "软件运行模式配置"
+    },
+    {
+      "id": "ex-figurative-1",
+      "word_id": "figurative",
+      "text": "'He has a heart of stone' is a figurative expression.",
+      "source": "自编",
+      "scene": "比喻性表达"
+    },
+    {
+      "id": "ex-disfigure-1",
+      "word_id": "disfigure",
+      "text": "The building was disfigured by graffiti.",
+      "source": "自编",
+      "scene": "建筑被涂鸦破坏外观"
+    },
+    {
+      "id": "ex-configuration-1",
+      "word_id": "configuration",
+      "text": "The configuration of the new system takes time.",
+      "source": "自编",
+      "scene": "新系统的配置"
+    },
+    {
+      "id": "ex-pressure-1",
+      "word_id": "pressure",
+      "text": "The pressure of work is increasing.",
+      "source": "自编",
+      "scene": "工作压力"
+    },
+    {
+      "id": "ex-pressure-2",
+      "word_id": "pressure",
+      "text": "Blood pressure should be checked regularly.",
+      "source": "自编",
+      "scene": "血压"
+    },
+    {
+      "id": "ex-impress-1",
+      "word_id": "impress",
+      "text": "Her performance impressed the judges.",
+      "source": "自编",
+      "scene": "表演令评委印象深刻"
+    },
+    {
+      "id": "ex-express-1",
+      "word_id": "express",
+      "text": "She expressed her gratitude in a letter.",
+      "source": "自编",
+      "scene": "写信表达感谢"
+    },
+    {
+      "id": "ex-suppress-1",
+      "word_id": "suppress",
+      "text": "He suppressed a laugh.",
+      "source": "自编",
+      "scene": "忍住笑"
+    },
+    {
+      "id": "ex-compress-1",
+      "word_id": "compress",
+      "text": "The file was compressed to save space.",
+      "source": "自编",
+      "scene": "压缩文件"
+    },
+    {
+      "id": "ex-formal-1",
+      "word_id": "formal",
+      "text": "You need formal approval to proceed.",
+      "source": "自编",
+      "scene": "正式批准"
+    },
+    {
+      "id": "ex-inform-1",
+      "word_id": "inform",
+      "text": "Please inform us of any changes.",
+      "source": "自编",
+      "scene": "告知变更"
+    },
+    {
+      "id": "ex-transform-1",
+      "word_id": "transform",
+      "text": "The city has been transformed in ten years.",
+      "source": "自编",
+      "scene": "城市巨变"
+    },
+    {
+      "id": "ex-perform-1",
+      "word_id": "perform",
+      "text": "The doctor performed the surgery successfully.",
+      "source": "自编",
+      "scene": "成功实施手术"
+    },
+    {
+      "id": "ex-reform-1",
+      "word_id": "reform",
+      "text": "The government promised to reform the education system.",
+      "source": "自编",
+      "scene": "教育改革"
+    },
+    {
+      "id": "ex-attract-1",
+      "word_id": "attract",
+      "text": "The new shop attracts many customers.",
+      "source": "自编",
+      "scene": "新店吸引顾客"
+    },
+    {
+      "id": "ex-extract-1",
+      "word_id": "extract",
+      "text": "The dentist extracted the tooth.",
+      "source": "自编",
+      "scene": "拔牙"
+    },
+    {
+      "id": "ex-contract-1",
+      "word_id": "contract",
+      "text": "Metal contracts when it cools.",
+      "source": "自编",
+      "scene": "金属遇冷收缩"
+    },
+    {
+      "id": "ex-contract-2",
+      "word_id": "contract",
+      "text": "They signed a contract for the project.",
+      "source": "自编",
+      "scene": "签署合同"
+    },
+    {
+      "id": "ex-distract-1",
+      "word_id": "distract",
+      "text": "The noise distracted me from my work.",
+      "source": "自编",
+      "scene": "噪音让人分心"
+    },
+    {
+      "id": "ex-tractor-1",
+      "word_id": "tractor",
+      "text": "The farmer drove the tractor across the field.",
+      "source": "自编",
+      "scene": "开拖拉机耕地"
+    },
+    {
+      "id": "ex-position-1",
+      "word_id": "position",
+      "text": "Please find the position marked on the map.",
+      "source": "自编",
+      "scene": "地图上找位置"
+    },
+    {
+      "id": "ex-compose-1",
+      "word_id": "compose",
+      "text": "Water is composed of hydrogen and oxygen.",
+      "source": "自编",
+      "scene": "水的组成"
+    },
+    {
+      "id": "ex-expose-1",
+      "word_id": "expose",
+      "text": "The report exposed the scandal.",
+      "source": "自编",
+      "scene": "报告揭露丑闻"
+    },
+    {
+      "id": "ex-propose-1",
+      "word_id": "propose",
+      "text": "I propose we start early tomorrow.",
+      "source": "自编",
+      "scene": "提议早点出发"
+    },
+    {
+      "id": "ex-oppose-1",
+      "word_id": "oppose",
+      "text": "Many residents oppose the new plan.",
+      "source": "自编",
+      "scene": "居民反对新计划"
+    },
+    {
+      "id": "ex-admit-1",
+      "word_id": "admit",
+      "text": "He admitted his mistake.",
+      "source": "自编",
+      "scene": "承认错误"
+    },
+    {
+      "id": "ex-commit-1",
+      "word_id": "commit",
+      "text": "She committed herself to the project.",
+      "source": "自编",
+      "scene": "全身心投入项目"
+    },
+    {
+      "id": "ex-permit-1",
+      "word_id": "permit",
+      "text": "Smoking is not permitted here.",
+      "source": "自编",
+      "scene": "禁止吸烟"
+    },
+    {
+      "id": "ex-transmit-1",
+      "word_id": "transmit",
+      "text": "The disease is transmitted through water.",
+      "source": "自编",
+      "scene": "疾病经水传播"
+    },
+    {
+      "id": "ex-mission-1",
+      "word_id": "mission",
+      "text": "The team completed its mission successfully.",
+      "source": "自编",
+      "scene": "完成任务"
+    },
+    {
+      "id": "ex-inspect-1",
+      "word_id": "inspect",
+      "text": "Officials inspected the factory for safety.",
+      "source": "自编",
+      "scene": "安全检查"
+    },
+    {
+      "id": "ex-respect-1",
+      "word_id": "respect",
+      "text": "I respect her for her honesty.",
+      "source": "自编",
+      "scene": "因诚实而尊重"
+    },
+    {
+      "id": "ex-prospect-1",
+      "word_id": "prospect",
+      "text": "The prospects for growth are good.",
+      "source": "自编",
+      "scene": "增长前景"
+    },
+    {
+      "id": "ex-spectator-1",
+      "word_id": "spectator",
+      "text": "Thousands of spectators watched the match.",
+      "source": "自编",
+      "scene": "观众看比赛"
+    },
+    {
+      "id": "ex-expect-1",
+      "word_id": "expect",
+      "text": "We expect the results tomorrow.",
+      "source": "自编",
+      "scene": "期待明天出结果"
+    },
+    {
+      "id": "ex-describe-1",
+      "word_id": "describe",
+      "text": "Can you describe the man you saw?",
+      "source": "自编",
+      "scene": "描述目击者"
+    },
+    {
+      "id": "ex-prescribe-1",
+      "word_id": "prescribe",
+      "text": "The doctor prescribed antibiotics.",
+      "source": "自编",
+      "scene": "开抗生素处方"
+    },
+    {
+      "id": "ex-transcript-1",
+      "word_id": "transcript",
+      "text": "The court transcript was released.",
+      "source": "自编",
+      "scene": "法庭记录公布"
+    },
+    {
+      "id": "ex-manuscript-1",
+      "word_id": "manuscript",
+      "text": "The author sent her manuscript to the publisher.",
+      "source": "自编",
+      "scene": "投稿手稿"
+    },
+    {
+      "id": "ex-subscribe-1",
+      "word_id": "subscribe",
+      "text": "I subscribed to the channel.",
+      "source": "自编",
+      "scene": "订阅频道"
+    },
+    {
+      "id": "ex-conduct-1",
+      "word_id": "conduct",
+      "text": "The experiment was conducted carefully.",
+      "source": "自编",
+      "scene": "认真进行实验"
+    },
+    {
+      "id": "ex-produce-1",
+      "word_id": "produce",
+      "text": "The factory produces cars.",
+      "source": "自编",
+      "scene": "工厂生产汽车"
+    },
+    {
+      "id": "ex-introduce-1",
+      "word_id": "introduce",
+      "text": "Let me introduce my colleague.",
+      "source": "自编",
+      "scene": "介绍同事"
+    },
+    {
+      "id": "ex-educate-1",
+      "word_id": "educate",
+      "text": "Schools educate children for the future.",
+      "source": "自编",
+      "scene": "学校教育孩子"
+    },
+    {
+      "id": "ex-reduce-1",
+      "word_id": "reduce",
+      "text": "We must reduce our expenses.",
+      "source": "自编",
+      "scene": "缩减开支"
+    },
+    {
+      "id": "ex-import-1",
+      "word_id": "import",
+      "text": "The country imports most of its oil.",
+      "source": "自编",
+      "scene": "进口石油"
+    },
+    {
+      "id": "ex-export-1",
+      "word_id": "export",
+      "text": "They export rice to many countries.",
+      "source": "自编",
+      "scene": "出口大米"
+    },
+    {
+      "id": "ex-transport-1",
+      "word_id": "transport",
+      "text": "The goods were transported by rail.",
+      "source": "自编",
+      "scene": "铁路运输"
+    },
+    {
+      "id": "ex-portable-1",
+      "word_id": "portable",
+      "text": "This is a portable speaker.",
+      "source": "自编",
+      "scene": "便携音箱"
+    },
+    {
+      "id": "ex-report-1",
+      "word_id": "report",
+      "text": "Please report any problems to us.",
+      "source": "自编",
+      "scene": "汇报问题"
+    },
+    {
+      "id": "ex-depress-1",
+      "word_id": "depress",
+      "text": "Rainy weeks always depress him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手把弹起的琴键按到底，声音和高度一起沉下去"
+    },
+    {
+      "id": "ex-depress-2",
+      "word_id": "depress",
+      "text": "Depress the clutch before shifting gears.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手把弹起的琴键按到底，声音和高度一起沉下去"
+    },
+    {
+      "id": "ex-depress-3",
+      "word_id": "depress",
+      "text": "The trade war depressed steel prices.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手把弹起的琴键按到底，声音和高度一起沉下去"
+    },
+    {
+      "id": "ex-impose-1",
+      "word_id": "impose",
+      "text": "The government imposed a new tax on imports.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "官员把一份沉重的文件压在对方桌上，对方没有推开的余地"
+    },
+    {
+      "id": "ex-impose-2",
+      "word_id": "impose",
+      "text": "I don't want to impose on your weekend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "官员把一份沉重的文件压在对方桌上，对方没有推开的余地"
+    },
+    {
+      "id": "ex-detract-1",
+      "word_id": "detract",
+      "text": "One weak chapter does not detract from the book's overall value.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一幅好画配了廉价画框，画框像在把画的档次往下拽"
+    },
+    {
+      "id": "ex-detract-2",
+      "word_id": "detract",
+      "text": "Cheap packaging detracts from the product's image.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一幅好画配了廉价画框，画框像在把画的档次往下拽"
+    },
+    {
+      "id": "ex-conform-1",
+      "word_id": "conform",
+      "text": "All buildings must conform to the safety code.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "液体倒进模具，冷却后完全长成模具的形状"
+    },
+    {
+      "id": "ex-conform-2",
+      "word_id": "conform",
+      "text": "He refused to conform to the group's expectations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "液体倒进模具，冷却后完全长成模具的形状"
+    },
+    {
+      "id": "ex-retract-1",
+      "word_id": "retract",
+      "text": "The landing gear retracts after takeoff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "猫把伸出的爪子缩回肉垫，痕迹留着但爪子不见了"
+    },
+    {
+      "id": "ex-retract-2",
+      "word_id": "retract",
+      "text": "The newspaper retracted the false claim.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "猫把伸出的爪子缩回肉垫，痕迹留着但爪子不见了"
+    },
+    {
+      "id": "ex-omit-1",
+      "word_id": "omit",
+      "text": "You can omit the second step if the file already exists.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校对时用红笔把名单里的一行划掉，那一行从此不在名单上"
+    },
+    {
+      "id": "ex-omit-2",
+      "word_id": "omit",
+      "text": "She omitted her last job from the résumé.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校对时用红笔把名单里的一行划掉，那一行从此不在名单上"
+    },
+    {
+      "id": "ex-suspect-1",
+      "word_id": "suspect",
+      "text": "Police suspect the fire was deliberate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "海关人员低着头从下方斜眼打量旅客的行李，什么都没说"
+    },
+    {
+      "id": "ex-suspect-2",
+      "word_id": "suspect",
+      "text": "I suspect she already knows.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "海关人员低着头从下方斜眼打量旅客的行李，什么都没说"
+    },
+    {
+      "id": "ex-deduce-1",
+      "word_id": "deduce",
+      "text": "From the muddy footprints we can deduce he came through the garden.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侦探把桌上的线索用红线一根根牵到墙上同一个名字"
+    },
+    {
+      "id": "ex-deduce-2",
+      "word_id": "deduce",
+      "text": "She deduced the password from his birthday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侦探把桌上的线索用红线一根根牵到墙上同一个名字"
+    },
+    {
+      "id": "ex-deport-1",
+      "word_id": "deport",
+      "text": "He was deported after his visa expired.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两名警员押着一个人走上舷梯，登机口在身后关上"
+    },
+    {
+      "id": "ex-deport-2",
+      "word_id": "deport",
+      "text": "The court ordered her to be deported.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两名警员押着一个人走上舷梯，登机口在身后关上"
+    },
+    {
+      "id": "ex-ascribe-1",
+      "word_id": "ascribe",
+      "text": "Historians ascribe the collapse to poor harvests.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会计把一笔支出写进某个人的账目那一栏"
+    },
+    {
+      "id": "ex-ascribe-2",
+      "word_id": "ascribe",
+      "text": "The poem is usually ascribed to an anonymous monk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会计把一笔支出写进某个人的账目那一栏"
+    }
   ]
 }

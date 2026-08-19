@@ -183,6 +183,26 @@ def main():
     else:
         print(f"[INFO] Q8 近/反义词全部已核验（白名单 {len(lexicon)} 词）")
 
+    # --- Q9：词根概念必须收录该词根下的所有单词 ---
+    # 漏收的词不会挂到概念节点下，图谱和概念详情里都看不到它。
+    missing_in_concept = []
+    for c in concepts:
+        if c.get("type") == "cluster":
+            continue
+        c_roots = set(c.get("root_ids") or [])
+        if not c_roots:
+            continue
+        for w in words:
+            if c_roots & set(w["root_ids"]) and w["id"] not in c["word_ids"]:
+                missing_in_concept.append(f"{c['id']} 缺 {w['id']}")
+    if missing_in_concept:
+        print(f"[FAIL] 词根概念漏收单词 (Q9): {len(missing_in_concept)} 处")
+        for m in missing_in_concept:
+            print(f"        {m}")
+        ok = False
+    else:
+        print("[INFO] Q9 概念反向引用完整")
+
     # --- 关系类型 & 端点 ---
     for rel in relations:
         if rel["type"] not in VALID_RELATION_TYPES:

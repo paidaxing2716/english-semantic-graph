@@ -420,6 +420,66 @@
       "to": "transport",
       "type": "derived",
       "note": "同词根"
+    },
+    {
+      "from": "press",
+      "to": "depress",
+      "type": "root",
+      "note": "de-（向下）+ press（压）→ 把某物或某人的状态往下压 → 压低 / 使低落"
+    },
+    {
+      "from": "pose",
+      "to": "impose",
+      "type": "root",
+      "note": "im-（上、之上）+ pose（放置）→ 把东西放到别人身上 → 强加"
+    },
+    {
+      "from": "tract",
+      "to": "detract",
+      "type": "root",
+      "note": "de-（离开）+ tract（拉）→ 从整体里拉走一部分 → 减损价值"
+    },
+    {
+      "from": "form",
+      "to": "conform",
+      "type": "root",
+      "note": "con-（一起、共同）+ form（形状）→ 让自己的形状与外部一致 → 遵从"
+    },
+    {
+      "from": "tract",
+      "to": "retract",
+      "type": "root",
+      "note": "re-（往回）+ tract（拉）→ 把已经伸出去的东西拉回来 → 收回"
+    },
+    {
+      "from": "mit-miss",
+      "to": "omit",
+      "type": "root",
+      "note": "o-（ob- 的变体，表'离开'）+ mit（送）→ 把某项送出集合之外 → 遗漏"
+    },
+    {
+      "from": "spect",
+      "to": "suspect",
+      "type": "root",
+      "note": "sus-（sub- 的变体，表'从下面'）+ spect（看）→ 从下往上偷偷打量 → 怀疑"
+    },
+    {
+      "from": "duc-duct",
+      "to": "deduce",
+      "type": "root",
+      "note": "de-（从…向下）+ duc（引导）→ 从已知前提一路引下来 → 推断出结论"
+    },
+    {
+      "from": "port",
+      "to": "deport",
+      "type": "root",
+      "note": "de-（离开）+ port（运送）→ 把人运离这个国家 → 驱逐出境"
+    },
+    {
+      "from": "scrib-script",
+      "to": "ascribe",
+      "type": "root",
+      "note": "a-（ad- 的变体，表'朝向'）+ scrib（写）→ 把某事写到某人名下 → 归因于"
     }
   ]
 }

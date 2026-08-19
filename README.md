@@ -58,7 +58,10 @@ english-semantic-graph/
 │   ├── index.html
 │   ├── graph.js
 │   └── style.css
-├── ai_pipeline/              # AI 生成工具（v0.3 起）
+├── ai_pipeline/              # AI 生成管线
+│   ├── prompt_builder.py     # 构建 few-shot 提示词
+│   ├── word_analyzer.py      # 调模型生成候选
+│   └── review.py             # 审核 + 合并入库
 └── tests/
     ├── validate.py           # 数据校验（含质量门 Q1-Q8）
     └── visual_audit.py       # 前端视觉质量门（对比度/重叠/越界）
