@@ -50,14 +50,16 @@ english-semantic-graph/
 │   ├── words.json            # 单词
 │   ├── relations.json        # 关系网络
 │   ├── examples.json         # 例句
-│   └── lexicon.json          # 外部词白名单（近/反义词防造词）
+│   ├── lexicon.json          # 外部词白名单（近/反义词防造词）
+│   └── english_reference.json # 真实词参考表（自动核验用）
 ├── docs/
 │   ├── PROJECT_CHARTER.md    # 项目宪章
 │   ├── design.md             # 系统设计
 │   └── roadmap.md            # 开发路线
-├── frontend/                 # 图谱展示层
+├── frontend/                 # 展示层
 │   ├── index.html
-│   ├── graph.js
+│   ├── graph.js              # D3 图谱（三级钻取）
+│   ├── study.js              # 学习模式（回想 / 词族）
 │   └── style.css
 ├── ai_pipeline/              # AI 生成管线
 │   ├── prompt_builder.py     # 构建 few-shot 提示词

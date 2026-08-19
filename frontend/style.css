@@ -199,6 +199,233 @@ header h1 {
 
 #theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
 
+/* ============ 模式切换 ============ */
+#mode-switch {
+  display: flex;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.mode-btn {
+  font-family: Georgia, "Microsoft YaHei", serif;
+  font-size: 13px;
+  background: var(--paper);
+  border: none;
+  border-right: 1px solid var(--rule);
+  color: var(--ink-soft);
+  padding: 7px 15px;
+  cursor: pointer;
+  transition: background-color .18s, color .18s;
+}
+
+.mode-btn:last-child { border-right: none; }
+.mode-btn:hover { color: var(--ink); }
+
+.mode-btn.active {
+  background: var(--accent);
+  color: var(--panel);
+  font-weight: 700;
+}
+
+/* ============ 学习模式面板 ============ */
+#study {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  background: var(--canvas);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#study.hidden { display: none; }
+main.hidden { display: none; }
+
+#study-inner {
+  width: 100%;
+  max-width: 660px;
+  padding: 30px 26px 44px;
+}
+
+#study-progress {
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 11px;
+  letter-spacing: .4px;
+  color: var(--ink-faint);
+  text-align: center;
+  margin-bottom: 18px;
+  min-height: 14px;
+}
+
+#study-card {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  padding: 30px 32px 26px;
+  box-shadow: var(--shadow-panel);
+}
+
+.card-label {
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 14px;
+}
+
+/* 核心画面：这一模式的主角，字号最大 */
+.card-image {
+  font-size: 21px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin-bottom: 18px;
+}
+
+.card-meta {
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule-soft);
+  margin-bottom: 14px;
+}
+
+.card-logic {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+
+.card-hint {
+  font-size: 12px;
+  color: var(--ink-faint);
+  margin-top: 14px;
+}
+
+/* 答案区 */
+.card-answer {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 2px solid var(--accent);
+}
+
+.answer-word {
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  line-height: 1.2;
+}
+
+.answer-ipa {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+.answer-def {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.answer-zh { margin-top: 10px; }
+
+.answer-ex {
+  margin-top: 12px;
+  padding-left: 18px;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* 词族模式表格 */
+.card-root {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card-root-concept {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--concept-color);
+}
+
+.fam-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 6px;
+}
+
+.fam-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--rule-soft);
+  font-size: 14px;
+  line-height: 1.6;
+  vertical-align: top;
+}
+
+.fam-word {
+  font-weight: 700;
+  white-space: nowrap;
+  width: 1%;
+  color: var(--word-color);
+}
+
+.fam-logic { color: var(--ink-soft); font-size: 13px; }
+
+.fam-zh {
+  white-space: nowrap;
+  width: 1%;
+  color: var(--ink-faint);
+  font-size: 13px;
+}
+
+/* 操作按钮 */
+#study-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.act {
+  font-family: Georgia, "Microsoft YaHei", serif;
+  font-size: 14px;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--ink-soft);
+  padding: 9px 22px;
+  cursor: pointer;
+  transition: border-color .18s, color .18s, background-color .18s;
+}
+
+.act:hover { border-color: var(--accent); color: var(--ink); }
+
+.act.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--panel);
+  font-weight: 700;
+}
+
+.act.primary:hover { color: var(--panel); opacity: .9; }
+
 /* ============ 主区域 ============ */
 main { flex: 1; display: flex; min-height: 0; }
 
@@ -522,6 +749,22 @@ footer code {
 
   #search-box { flex: 1; width: auto; }
   #theme-toggle { width: 32px; height: 32px; flex-shrink: 0; }
+
+  /* 模式切换移到标题行，搜索框独占一行 */
+  #mode-switch { order: 2; margin-left: auto; }
+  .mode-btn { padding: 6px 11px; font-size: 12px; }
+
+  /* 学习模式在手机上是整屏，不受图谱高度约束 */
+  body.study-active { overflow: auto; }
+  #study-inner { padding: 20px 15px 36px; }
+  #study-card { padding: 22px 18px 20px; }
+  .card-image { font-size: 18px; }
+  .answer-word { font-size: 25px; }
+  .card-root { font-size: 22px; }
+  .fam-table td { padding: 8px 5px; font-size: 13px; }
+  .fam-logic { font-size: 12px; }
+  .fam-zh { white-space: normal; }
+  .act { padding: 10px 18px; }
 
   main { flex-direction: column; }
 

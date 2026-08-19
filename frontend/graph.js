@@ -903,6 +903,13 @@
     try {
       const data = await loadData();
       buildGraph(data);
+
+      // 学习模式复用同一份已加载数据，不重复请求
+      window.ESG = window.ESG || {};
+      window.ESG.speak = speakWord;
+      if (typeof window.ESG.initStudy === "function") {
+        window.ESG.initStudy(data);
+      }
       render();
 
       // 主题切换

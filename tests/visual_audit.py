@@ -186,6 +186,86 @@ def open_sample_word(page):
     page.wait_for_timeout(700)
 
 
+def audit_study(page, samples=25):
+    """学习模式：查答案是否泄露，以及卡片有无溢出。
+
+    泄露检查是这里最有价值的一项——遮罩逻辑一旦回退，
+    人工每题核对不现实，但机器可以逐题扫。
+    """
+    ok = True
+    leaks = []
+    page.click('.mode-btn[data-mode="recall"]')
+    page.wait_for_timeout(1100)
+
+    for _ in range(samples):
+        r = page.evaluate("""() => {
+          const card = document.querySelector('#study-card');
+          if (!card) return null;
+          // 未揭晓时，卡片文本里不应出现目标词或其中文义项
+          const prog = document.querySelector('#study-progress').textContent;
+          return {text: card.innerText, prog: prog};
+        }""")
+        if not r:
+            break
+        # 揭晓后读答案，回头比对揭晓前的文本
+        page.click('[data-act="reveal"]')
+        page.wait_for_timeout(150)
+        ans = page.evaluate("""() => {
+          const w = document.querySelector('.answer-word');
+          const zh = [...document.querySelectorAll('.answer-zh .chip')].map(e => e.textContent);
+          return w ? {word: w.textContent.trim().split(/\\s+/)[0], zh: zh} : null;
+        }""")
+        if ans:
+            pre = r["text"]
+            if ans["word"].lower() in pre.lower():
+                leaks.append(f"{ans['word']}：揭晓前卡片已含该词")
+            for z in ans["zh"]:
+                if len(z) >= 2 and z in pre:
+                    leaks.append(f"{ans['word']}：揭晓前已含中文义项「{z}」")
+        page.click('[data-act="skip"]') if False else page.click('[data-act="ok"]')
+        page.wait_for_timeout(120)
+
+    if leaks:
+        ok = False
+        print(f"[FAIL] 回想模式答案泄露 {len(leaks)} 处：")
+        for l in leaks[:6]:
+            print(f"        {l}")
+    else:
+        print(f"[PASS] 回想模式抽查 {samples} 题无答案泄露")
+
+    # 词族模式：未揭晓时单词列必须全为遮罩
+    page.click('.mode-btn[data-mode="family"]')
+    page.wait_for_timeout(1100)
+    fam = page.evaluate("""() => {
+      const cells = [...document.querySelectorAll('.fam-word')].map(e => e.textContent.trim());
+      return {n: cells.length, unmasked: cells.filter(t => !/^▢+$/.test(t))};
+    }""")
+    if fam["unmasked"]:
+        ok = False
+        print(f"[FAIL] 词族模式未揭晓即显示单词：{fam['unmasked'][:5]}")
+    else:
+        print(f"[PASS] 词族模式 {fam['n']} 词全部遮罩")
+
+    # 卡片溢出
+    over = page.evaluate("""() => {
+      const s = document.querySelector('#study');
+      const bad = [...document.querySelectorAll('#study *')].filter(e => {
+        const b = e.getBoundingClientRect();
+        return b.width > 0 && b.right > window.innerWidth + 2;
+      });
+      return {h: s.scrollWidth > s.clientWidth + 2, n: bad.length};
+    }""")
+    if over["h"] or over["n"]:
+        ok = False
+        print(f"[FAIL] 学习面板溢出：横向={over['h']} 越界元素={over['n']}")
+    else:
+        print("[PASS] 学习面板无溢出")
+
+    page.click('.mode-btn[data-mode="explore"]')
+    page.wait_for_timeout(700)
+    return ok
+
+
 def audit(name, page):
     """返回 (是否通过, 问题列表)。"""
     print(f"\n===== {name} =====")
@@ -329,6 +409,9 @@ def main():
             open_sample_word(desktop)
             results.append(audit("桌面 1440px · 白天", desktop))
 
+            print("\n===== 学习模式 · 桌面 =====")
+            results.append(audit_study(desktop))
+
             desktop.click("#theme-toggle")
             desktop.wait_for_timeout(700)
             if desktop.get_attribute("html", "data-theme") != "night":
@@ -349,6 +432,9 @@ def main():
                 "localStorage.setItem('esg-theme','day'); } catch (e) {}")
             mobile.goto(url, wait_until="networkidle")
             mobile.wait_for_timeout(2400)
+            print("\n===== 学习模式 · 手机 390px =====")
+            results.append(audit_study(mobile, samples=8))
+
             open_sample_word(mobile)
             if not mobile.evaluate("() => document.querySelector('#detail-panel')"
                                    ".classList.contains('drawer-open')"):
