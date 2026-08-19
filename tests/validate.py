@@ -183,6 +183,39 @@ def main():
     else:
         print(f"[INFO] Q8 近/反义词全部已核验（白名单 {len(lexicon)} 词）")
 
+    # --- Q10：语义域必须恰好覆盖所有词根一次 ---
+    # 漏掉的词根在三级钻取里点不到；重复归属会让同一词根出现在两个域下。
+    domains = load("domains.json")["domains"]
+    domain_ids = [d["id"] for d in domains]
+    ok &= check_unique(domain_ids, "domains")
+
+    for d in domains:
+        for f in ("id", "name", "chinese", "core_image", "root_ids"):
+            if f not in d or d[f] in (None, "", []):
+                print(f"[FAIL] domains 缺少必填字段 {f}: {d.get('id', '?')}")
+                ok = False
+
+    assigned = []
+    for d in domains:
+        for rid in d.get("root_ids") or []:
+            if rid not in root_ids:
+                print(f"[FAIL] domains.{d['id']}.root_ids 引用不存在的词根: {rid}")
+                ok = False
+            assigned.append(rid)
+
+    dupe_roots = [r for r in set(assigned) if assigned.count(r) > 1]
+    if dupe_roots:
+        print(f"[FAIL] 词根被归入多个语义域 (Q10): {dupe_roots}")
+        ok = False
+
+    orphan_roots = [r for r in root_ids if r not in assigned]
+    if orphan_roots:
+        print(f"[FAIL] 词根未归入任何语义域 (Q10): {orphan_roots}")
+        ok = False
+
+    if not dupe_roots and not orphan_roots:
+        print(f"[INFO] Q10 语义域覆盖完整（{len(domains)} 域 / {len(root_ids)} 词根）")
+
     # --- Q9：词根概念必须收录该词根下的所有单词 ---
     # 漏收的词不会挂到概念节点下，图谱和概念详情里都看不到它。
     missing_in_concept = []

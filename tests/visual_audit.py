@@ -164,13 +164,20 @@ class QuietHandler(SimpleHTTPRequestHandler):
 
 
 def open_sample_word(page):
-    """展开 figur 词根并打开 configure，让详情栏各层级都渲染出来。"""
+    """穿透三级钻取：语义域 → figur 词根 → configure，让详情栏各层级都渲染出来。"""
+    # 先展开含 figur 的语义域（形态与安放）
+    page.evaluate("""() => {
+      const d = [...document.querySelectorAll('.node.domain')]
+        .find(n => n.textContent.includes('形态'));
+      if (d) d.dispatchEvent(new MouseEvent('click', {bubbles:true}));
+    }""")
+    page.wait_for_timeout(1800)
     page.evaluate("""() => {
       const t = [...document.querySelectorAll('.node.root')]
         .find(n => n.textContent.trim().startsWith('figur'));
       if (t) t.dispatchEvent(new MouseEvent('click', {bubbles:true}));
     }""")
-    page.wait_for_timeout(1300)
+    page.wait_for_timeout(1500)
     page.evaluate("""() => {
       const w = [...document.querySelectorAll('.node.word')]
         .find(n => n.textContent.trim() === 'configure');
@@ -183,6 +190,45 @@ def audit(name, page):
     """返回 (是否通过, 问题列表)。"""
     print(f"\n===== {name} =====")
     ok = True
+
+    # 语义域标签用独立颜色变量，单独查一次——它只在选中语义域时存在，
+    # 放进主清单会因样本流程最后选中单词而误报未渲染
+    page.evaluate("""() => {
+      const d = document.querySelector('.node.domain');
+      if (d) d.dispatchEvent(new MouseEvent('click', {bubbles: true}));
+    }""")
+    page.wait_for_timeout(900)
+    dm = [r for r in page.evaluate(CONTRAST_JS)
+          if r.get("sel") == ".detail-type.word" and not r.get("missing")]
+    dom_ratio = page.evaluate("""() => {
+      const el = document.querySelector('.detail-type.domain');
+      if (!el) return null;
+      const cs = getComputedStyle(el);
+      const p = s => { const m = s.match(/[\\d.]+/g); return m ? m.slice(0,3).map(Number) : null; };
+      const lum = c => { const [r,g,b] = c.map(v => { v/=255;
+        return v<=0.03928 ? v/12.92 : Math.pow((v+0.055)/1.055,2.4); });
+        return 0.2126*r + 0.7152*g + 0.0722*b; };
+      let n = el, bg = null;
+      while (n && n !== document.documentElement) {
+        const c = getComputedStyle(n).backgroundColor;
+        const q = p(c);
+        if (q && !c.includes('rgba(0, 0, 0, 0)')) { bg = q; break; }
+        n = n.parentElement;
+      }
+      bg = bg || [255,255,255];
+      const fg = p(cs.color);
+      const a = lum(fg), b2 = lum(bg);
+      return +(((Math.max(a,b2)+0.05)/(Math.min(a,b2)+0.05)).toFixed(2));
+    }""")
+    if dom_ratio is None:
+        print("[WARN] 语义域标签未渲染，跳过其对比度检查")
+    elif dom_ratio < 4.5:
+        print(f"[FAIL] .detail-type.domain 对比度 {dom_ratio}:1（需 4.5）")
+        ok = False
+    else:
+        print(f"[PASS] 语义域标签对比度 {dom_ratio}:1")
+
+    open_sample_word(page)
 
     rows = page.evaluate(CONTRAST_JS)
     fails = [r for r in rows if not r.get("missing") and r["ratio"] < r["min"]]
@@ -206,12 +252,20 @@ def audit(name, page):
     else:
         print("[PASS] 无重叠 / 无溢出 / 无裁切")
 
-    # 展开全部词根后再查一次密度
+    # 全展开三层后再查密度：先所有语义域，再所有词根
     page.evaluate("""() => {
-      document.querySelectorAll('.node.root').forEach(
+      document.querySelectorAll('.node.domain').forEach(
         n => n.dispatchEvent(new MouseEvent('click', {bubbles: true})));
     }""")
-    page.wait_for_timeout(3800)
+    page.wait_for_timeout(3000)
+    page.evaluate("""() => {
+      document.querySelectorAll('.node.root').forEach(n => {
+        if (parseFloat(n.getAttribute('opacity') ?? '1') > 0) {
+          n.dispatchEvent(new MouseEvent('click', {bubbles: true}));
+        }
+      });
+    }""")
+    page.wait_for_timeout(4200)
     d = page.evaluate(DENSITY_JS)
     if d["overlap"]:
         ok = False

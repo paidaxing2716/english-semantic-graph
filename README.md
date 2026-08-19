@@ -9,11 +9,11 @@
 It aims to build an English semantic graph where words are connected through:
 
 ```
-Concept
-  → Core Image
-  → Root
-  → Word Family
-  → Context
+Domain（语义域）
+  → Root（词根）
+  → Concept + Core Image（核心概念与画面）
+  → Word Family（词族）
+  → Context（语境）
 ```
 
 The goal is to help learners understand English concepts the way native speakers do — instead of memorizing Chinese translations.
@@ -44,6 +44,7 @@ english-semantic-graph/
 ├── README.md                 # 项目理念
 ├── LICENSE                   # MIT
 ├── data/                     # 核心知识库（数据驱动）
+│   ├── domains.json          # 语义域（词根之上的分组层）
 │   ├── roots.json            # 词根
 │   ├── concepts.json         # 核心概念
 │   ├── words.json            # 单词
@@ -61,7 +62,9 @@ english-semantic-graph/
 ├── ai_pipeline/              # AI 生成管线
 │   ├── prompt_builder.py     # 构建 few-shot 提示词
 │   ├── word_analyzer.py      # 调模型生成候选
-│   └── review.py             # 审核 + 合并入库
+│   ├── review.py             # 审核 + 合并入库
+│   ├── classify_wordlist.py  # 词表可拆性分析
+│   └── density_probe.py      # 图谱密度压力探测
 └── tests/
     ├── validate.py           # 数据校验（含质量门 Q1-Q8）
     └── visual_audit.py       # 前端视觉质量门（对比度/重叠/越界）

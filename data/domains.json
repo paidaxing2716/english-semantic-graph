@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1",
+  "note": "语义域：词根之上的分组层。图谱默认只显示语义域，点开才看到其下的词根。词量增长时默认层节点数由语义域数量决定，不随词根数增长。",
+  "domains": [
+    {
+      "id": "domain-force",
+      "name": "force",
+      "chinese": "施力",
+      "core_image": "一双手对物体施加方向明确的力：往下压，或往外拉",
+      "description": "以施加力量为核心的词根。力的方向决定词义分化——向下、向内、向外、往回。",
+      "root_ids": [
+        "press",
+        "tract"
+      ]
+    },
+    {
+      "id": "domain-shape",
+      "name": "shape & place",
+      "chinese": "形态与安放",
+      "core_image": "把材料捏成一个可辨认的形状，再把它摆到该在的位置",
+      "description": "关于形状、轮廓与位置安排的词根。前缀决定'塑成什么形状'或'放到哪里'。",
+      "root_ids": [
+        "figur",
+        "form",
+        "pose"
+      ]
+    },
+    {
+      "id": "domain-transfer",
+      "name": "transfer",
+      "chinese": "位移与传递",
+      "core_image": "东西被搬起、送出、引着走，从一处到另一处",
+      "description": "把人或物从一处移到另一处的词根。前缀标出方向：进、出、穿过、往回。",
+      "root_ids": [
+        "port",
+        "mit-miss",
+        "duc-duct"
+      ]
+    },
+    {
+      "id": "domain-perceive",
+      "name": "perceive & record",
+      "chinese": "感知与记录",
+      "core_image": "先用眼睛看清，再用笔把看到的刻写下来",
+      "description": "关于观看与书写的词根——获取信息，以及把信息固定下来。",
+      "root_ids": [
+        "spect",
+        "scrib-script"
+      ]
+    }
+  ]
+}

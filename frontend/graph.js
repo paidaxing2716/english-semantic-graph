@@ -1,10 +1,11 @@
-/* English Semantic Graph v0.1.1 — D3 force-directed graph
- * 功能：分层钻取（默认词根+概念，点击展开词族）+ 搜索直达 + 详情面板
+/* English Semantic Graph — D3 force-directed graph
+ * 三级钻取：语义域 → 词根 → 单词。搜索可直达任意层。
  */
 (function () {
   "use strict";
 
   const DATA_FILES = [
+    { key: "domains", path: "../data/domains.json" },
     { key: "roots", path: "../data/roots.json" },
     { key: "concepts", path: "../data/concepts.json" },
     { key: "words", path: "../data/words.json" },
@@ -58,7 +59,30 @@
   function buildGraph(data) {
     const idMap = new Map();
 
-    // 词根节点（默认可见）
+    // 语义域节点（唯一默认可见的一层）
+    // 三级钻取：语义域 → 词根 → 单词。默认层节点数由语义域数量决定，
+    // 不随词根数增长——这是词表扩大后图谱仍可用的前提。
+    const domainOfRoot = new Map();
+    (data.domains?.domains || []).forEach((dm) => {
+      idMap.set(dm.id, {
+        id: dm.id,
+        label: dm.chinese,
+        type: "domain",
+        name: dm.name,
+        concept: dm.name,
+        chinese: dm.chinese,
+        image: dm.core_image,
+        description: dm.description,
+        roots: dm.root_ids || [],
+        vizVisible: true,
+        expanded: false,
+      });
+      (dm.root_ids || []).forEach((rid) => domainOfRoot.set(rid, dm.id));
+    });
+
+    const hasDomains = idMap.size > 0;
+
+    // 词根节点（有语义域时默认隐藏，展开域后出现）
     data.roots.roots.forEach((r) => {
       const node = {
         id: r.id,
@@ -68,14 +92,16 @@
         concept: r.core_concept,
         image: r.core_image,
         definition: r.english_definition,
-        vizVisible: true,
+        domain: domainOfRoot.get(r.id) || null,
+        vizVisible: !hasDomains,
         expanded: false,
       };
       idMap.set(node.id, node);
     });
 
-    // 概念节点（默认可见，含 cluster 聚合概念）
+    // 概念节点（跟随其词根的可见性；cluster 聚合概念始终可见）
     data.concepts.concepts.forEach((c) => {
+      const isCluster = c.type === "cluster";
       const node = {
         id: c.id,
         label: c.chinese,
@@ -85,8 +111,8 @@
         image: c.core_image,
         roots: c.root_ids,
         words: c.word_ids,
-        isCluster: c.type === "cluster",
-        vizVisible: true,
+        isCluster: isCluster,
+        vizVisible: isCluster || !hasDomains,
       };
       idMap.set(node.id, node);
     });
@@ -125,6 +151,15 @@
       .filter((r) => idMap.has(r.from) && idMap.has(r.to))
       .map((r) => ({ source: r.from, target: r.to, type: r.type, note: r.note }));
 
+    // 边：语义域 → 其下词根
+    nodes.filter((n) => n.type === "domain").forEach((dm) => {
+      (dm.roots || []).forEach((rid) => {
+        if (idMap.has(rid)) {
+          links.push({ source: dm.id, target: rid, type: "root", note: "语义域→词根" });
+        }
+      });
+    });
+
     // 边：概念节点与其词根相连
     nodes.filter((n) => n.type === "concept" && n.roots).forEach((c) => {
       c.roots.forEach((rid) => {
@@ -155,6 +190,50 @@
   // ---------- 分层钻取 ----------
   function visibleNodeIds() {
     return new Set(nodes.filter((n) => n.vizVisible).map((n) => n.id));
+  }
+
+  // 展开/收起语义域：显示其下词根与对应概念。
+  // 收起时连带收掉该域下已展开的词族，避免留下悬空的单词节点。
+  function toggleDomain(d) {
+    d.expanded = !d.expanded;
+    const rootIds = new Set(d.roots || []);
+    const revealed = [];
+
+    nodes.forEach((n) => {
+      if (n.type === "root" && rootIds.has(n.id)) {
+        n.vizVisible = d.expanded;
+        if (d.expanded) {
+          revealed.push(n);
+        } else {
+          // 收起域：该词根下的单词一并隐藏
+          n.expanded = false;
+          nodes.forEach((m) => {
+            if (m.type === "word" && m.roots && m.roots.includes(n.id)) {
+              m.vizVisible = false;
+            }
+          });
+        }
+      }
+      if (n.type === "concept" && !n.isCluster && n.roots) {
+        if (n.roots.some((r) => rootIds.has(r))) {
+          n.vizVisible = d.expanded;
+          if (d.expanded) revealed.push(n);
+        }
+      }
+    });
+
+    if (d.expanded) {
+      revealed.forEach((n, i) => {
+        n.fx = null;
+        n.fy = null;
+        const a = (i / Math.max(revealed.length, 1)) * Math.PI * 2;
+        n.x = d.x + Math.cos(a) * 95;
+        n.y = d.y + Math.sin(a) * 95;
+      });
+    }
+
+    applyVisibility();
+    settleLocally();
   }
 
   function toggleRoot(d) {
@@ -197,20 +276,55 @@
     settleLocally();
   }
 
-  // 局部收敛：低能量跑一小段，结束后重新钉住全部节点
+  // 展开某层后重新收敛。
+  // 必须先松开所有可见节点：若沿用 pinAll 的钉死状态，新出现的节点
+  // 四周全是不可移动的邻居，碰撞永远解不开（实测词与词根圆心仅 20px，
+  // 需要 34px）。可见节点数量已由语义域分层限住，整体重排代价很小。
   function settleLocally() {
     if (!simulation) return;
-    simulation.alpha(0.35).alphaTarget(0).restart();
+    nodes.forEach((n) => {
+      if (n.vizVisible) { n.fx = null; n.fy = null; }
+    });
+    simulation.alpha(0.9).alphaTarget(0).restart();
+  }
+
+  // 展开某词根所属的语义域（搜索直达要穿透三层）
+  function revealDomainOf(rootNode) {
+    if (!rootNode || !rootNode.domain) return;
+    const dm = nodes.find((n) => n.id === rootNode.domain);
+    if (!dm || dm.expanded) return;
+    dm.expanded = true;
+    const rootIds = new Set(dm.roots || []);
+    nodes.forEach((n) => {
+      if (n.type === "root" && rootIds.has(n.id)) n.vizVisible = true;
+      if (n.type === "concept" && !n.isCluster && n.roots
+          && n.roots.some((r) => rootIds.has(r))) {
+        n.vizVisible = true;
+      }
+      if ((n.type === "root" || n.type === "concept") && n.vizVisible
+          && n.x == null) {
+        n.x = dm.x;
+        n.y = dm.y;
+      }
+    });
   }
 
   // 强制显示某节点（用于搜索直达）
   function revealNode(node) {
     if (node.vizVisible) return;
-    // 单词：展开其所属词根
+
+    // 词根：先展开它所属的语义域
+    if (node.type === "root") {
+      revealDomainOf(node);
+    }
+
+    // 单词：展开其所属词根，以及词根所在的语义域
     if (node.type === "word" && node.roots) {
       node.roots.forEach((rid) => {
         const root = nodes.find((n) => n.id === rid);
         if (root) {
+          revealDomainOf(root);
+          root.vizVisible = true;
           root.expanded = true;
           const family = nodes.filter(
             (n) => n.type === "word" && n.roots && n.roots.includes(rid)
@@ -245,6 +359,24 @@
       const t = d.target.id || d.target;
       return vis.has(s) && vis.has(t) ? "auto" : "none";
     });
+    syncSimulationScope(vis);
+  }
+
+  // 只把可见节点交给力导向。
+  // 否则隐藏节点同样受碰撞力并被夹在画布内，会从背后把可见节点挤开
+  // （实测 5500 词规模下，仅 16 个可见节点也能被挤出 37 对重叠），
+  // 且白白模拟数千个节点。
+  function syncSimulationScope(vis) {
+    if (!simulation) return;
+    const activeNodes = nodes.filter((n) => n.vizVisible);
+    const activeLinks = links.filter((l) => {
+      const s = l.source.id || l.source;
+      const t = l.target.id || l.target;
+      return vis.has(s) && vis.has(t);
+    });
+    simulation.nodes(activeNodes);
+    const lf = simulation.force("link");
+    if (lf) lf.links(activeLinks);
   }
 
   // 取消选中：清空详情栏
@@ -284,7 +416,7 @@
     searchResults.classed("hidden", false).html(
       results.slice(0, 10).map((r) => {
         const n = r.node;
-        const typeLabel = { root: "词根", concept: "概念", word: "单词" }[n.type];
+        const typeLabel = { domain: "语义域", root: "词根", concept: "概念", word: "单词" }[n.type];
         return `<div class="search-item" data-id="${escapeHtml(n.id)}">
           <span class="search-type ${n.type}">${typeLabel}</span>
           <b>${escapeHtml(n.label)}</b>
@@ -342,8 +474,10 @@
   let viewMargin = 34;
 
   // 把节点夹在画布内（按标签实测尺寸，中文长标签也不会探出去）
+  // 只处理可见节点：隐藏节点的位置无意义，大规模下夹紧它们纯属浪费
   function clampNodes(width, height, margin) {
     nodes.forEach((n) => {
+      if (!n.vizVisible) return;
       const px = Math.min(n.padX || margin, width / 2 - 2);
       const top = Math.min(n.padTop || margin, height / 2 - 2);
       const bottom = Math.min(n.padBottom || margin, height / 2 - 2);
@@ -380,8 +514,14 @@
     // 节点尺寸随画布缩放：手机画布只有桌面的 1/9 面积，
     // 沿用桌面半径会导致节点挤在一起（实测重叠十几对）。
     const scale = Math.min(1, Math.max(0.62, Math.sqrt(width * height) / 900));
+    const BASE_R = { domain: 34, root: 27, concept: 20, cluster: 18, word: 13 };
     const radiusOf = (d) =>
-      Math.round((d.type === "root" ? 27 : d.type === "concept" ? (d.isCluster ? 18 : 20) : 13) * scale);
+      Math.round((d.type === "domain" ? BASE_R.domain
+        : d.type === "root" ? BASE_R.root
+        : d.type === "concept" ? (d.isCluster ? BASE_R.cluster : BASE_R.concept)
+        : BASE_R.word) * scale);
+    // 碰撞半径 = 节点半径 + 标签留白，随画布缩放
+    const collideR = (d) => radiusOf(d) + 14 * scale;
 
     // 缩放
     const g = svg.append("g");
@@ -449,7 +589,9 @@
     });
 
     nodeSel.on("click", (event, d) => {
-      if (d.type === "root") {
+      if (d.type === "domain") {
+        toggleDomain(d);
+      } else if (d.type === "root") {
         toggleRoot(d);
       }
       showDetail(d);
@@ -464,14 +606,19 @@
     viewMargin = margin;
     simulation = d3
       .forceSimulation(nodes)
+      // 连线距离必须 >= 两端碰撞半径之和，否则连线会把节点拽进碰撞禁区，
+      // 两个力互相矛盾且连线通常获胜（实测表现为「语义域+词根」贴在一起）。
       .force("link", d3.forceLink(links).id((d) => d.id)
-        .distance((d) => (d.type === "root" ? 70 : 110) * scale))
+        .distance((l) => {
+          const want = (l.type === "root" ? 70 : 110) * scale;
+          const need = collideR(l.source) + collideR(l.target) + 6;
+          return Math.max(want, need);
+        }))
       .force("charge", d3.forceManyBody().strength(-300 * scale * scale).distanceMax(320 * scale))
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("x", d3.forceX(width / 2).strength(0.06))
       .force("y", d3.forceY(height / 2).strength(0.09))
-      // 碰撞半径按节点实际半径 + 标签留白，并随画布缩放
-      .force("collide", d3.forceCollide().radius((d) => radiusOf(d) + 14 * scale))
+      .force("collide", d3.forceCollide().radius(collideR))
       .on("tick", () => {
         clampNodes(width, height, margin);
         redraw();
@@ -526,7 +673,10 @@
     detailEmpty.classed("hidden", true).style("display", "none");
     detailContent.classed("hidden", false).style("display", "block");
 
-    const typeLabel = { root: "词根", concept: "核心概念" + (d.isCluster ? "（聚合）" : ""), word: "单词" }[d.type];
+    const typeLabel = {
+      domain: "语义域", root: "词根", word: "单词",
+      concept: "核心概念" + (d.isCluster ? "（聚合）" : ""),
+    }[d.type];
 
     let html = `
       <div class="detail-title">${escapeHtml(d.label)}
@@ -559,8 +709,12 @@
       html += `<div class="detail-block"><h3>词源 Origin</h3><p class="origin-src">${escapeHtml(d.origin)}</p></div>`;
     }
 
-    if (d.chinese && d.chinese.length) {
-      html += `<div class="detail-block"><h3>中文表达（输出层）</h3><p>${d.chinese.map((c) => `<span class="chip zh">${escapeHtml(c)}</span>`).join("")}</p></div>`;
+    // 单词的 chinese 是数组，语义域/概念的是字符串——统一成数组再渲染，
+    // 否则点概念或语义域节点会抛 "d.chinese.map is not a function"
+    const zh = Array.isArray(d.chinese) ? d.chinese
+      : (typeof d.chinese === "string" && d.chinese ? [d.chinese] : []);
+    if (zh.length && d.type === "word") {
+      html += `<div class="detail-block"><h3>中文表达（输出层）</h3><p>${zh.map((c) => `<span class="chip zh">${escapeHtml(c)}</span>`).join("")}</p></div>`;
     }
 
     if (d.type === "word") {
@@ -601,6 +755,27 @@
       }
       if (d.examples && d.examples.length) {
         html += `<div class="detail-block detail-examples"><h3>例句 Context</h3><ul>${d.examples.map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul></div>`;
+      }
+    }
+
+    // 语义域：列出其下词根，以及各自的词族规模
+    if (d.type === "domain") {
+      if (d.description) {
+        html += `<div class="detail-block"><h3>说明</h3><p>${escapeHtml(d.description)}</p></div>`;
+      }
+      const rootNodes = (d.roots || [])
+        .map((rid) => nodes.find((n) => n.id === rid))
+        .filter(Boolean);
+      if (rootNodes.length) {
+        const items = rootNodes.map((r) => {
+          const n = nodes.filter(
+            (w) => w.type === "word" && w.roots && w.roots.includes(r.id)
+          ).length;
+          return `<li><b>${escapeHtml(r.label)}</b> — ${escapeHtml(r.concept)}`
+            + `<span class="origin-src"> · ${n} 词</span></li>`;
+        }).join("");
+        html += `<div class="detail-block"><h3>词根（${rootNodes.length}）`
+          + `${d.expanded ? " · 已展开" : " · 点击节点展开"}</h3><ul>${items}</ul></div>`;
       }
     }
 

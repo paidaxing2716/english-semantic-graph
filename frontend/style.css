@@ -5,6 +5,7 @@
 
 /* ===== 白天：纸张地图 ===== */
 :root {
+  --domain-color: #8a5a3b;   /* 语义域 · 深棕 */
   --paper: #f4f1ea;          /* 页面底色（纸） */
   --paper-raised: #faf7f0;   /* 画布高光 */
   --panel: #fffaf2;          /* 详情栏 */
@@ -30,6 +31,7 @@
 
 /* ===== 夜间：夜读档案 ===== */
 [data-theme="night"] {
+  --domain-color: #c08a5e;
   --paper: #14171d;
   --paper-raised: #1b2028;
   --panel: #191d25;
@@ -170,6 +172,7 @@ header h1 {
   flex-shrink: 0;
 }
 
+.search-type.domain { color: var(--domain-color); border: 1px solid color-mix(in srgb, var(--domain-color) 42%, transparent); }
 .search-type.root { color: var(--root-color); border: 1px solid color-mix(in srgb, var(--root-color) 42%, transparent); }
 .search-type.concept { color: var(--concept-color); border: 1px solid color-mix(in srgb, var(--concept-color) 42%, transparent); }
 .search-type.word { color: var(--word-color); border: 1px solid color-mix(in srgb, var(--word-color) 42%, transparent); }
@@ -219,6 +222,7 @@ main { flex: 1; display: flex; min-height: 0; }
 .legend-item { display: flex; align-items: center; gap: 8px; }
 
 .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+.dot.domain { background: var(--domain-color); }
 .dot.root { background: var(--root-color); }
 .dot.concept { background: var(--concept-color); }
 .dot.word { background: var(--word-color); }
@@ -243,6 +247,10 @@ main { flex: 1; display: flex; min-height: 0; }
   stroke: var(--paper);
   stroke-width: 3.5px;
 }
+
+.node.domain circle { fill: var(--domain-color); }
+.node.domain text { font-weight: 700; font-size: 13px; }
+.node.domain.expanded circle { fill-opacity: .32; stroke: var(--domain-color); stroke-width: 2.5px; }
 
 .node.root circle { fill: var(--root-color); }
 .node.concept circle { fill: none; stroke: var(--concept-color); stroke-width: 1.6px; }
@@ -393,6 +401,7 @@ main { flex: 1; display: flex; min-height: 0; }
   border-radius: 3px;
 }
 
+.detail-type.domain { color: var(--domain-color); border: 1px solid color-mix(in srgb, var(--domain-color) 42%, transparent); }
 .detail-type.root { color: var(--root-color); border: 1px solid color-mix(in srgb, var(--root-color) 42%, transparent); }
 .detail-type.concept { color: var(--concept-color); border: 1px solid color-mix(in srgb, var(--concept-color) 42%, transparent); }
 .detail-type.word { color: var(--word-color); border: 1px solid color-mix(in srgb, var(--word-color) 42%, transparent); }
