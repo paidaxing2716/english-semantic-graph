@@ -5526,6 +5526,585 @@
         "超过与超出：都是'走过了那条界线'，中文两种译法对应同一个动作"
       ],
       "recall_hint": "ex-（出、越过）+ ced（行走）→ 走到划定的那条线之外"
+    },
+    {
+      "id": "object",
+      "word": "object",
+      "pos": "noun",
+      "phonetic": "/ˈɑːbdʒekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "ob-（对着、挡在前面）+ ject（扔）→ 被扔到面前挡着的那个东西 → 物体；作动词时是把话扔到对方面前 → 反对",
+      "recall_hint": "ob-（挡在前面）+ ject（扔）→ 被扔到你面前、挡在那里的那个东西；作动词是把话扔到对方跟前",
+      "origin": "拉丁语 objectum：ob-（对着）+ jacere（投）",
+      "native_definition": "a thing that can be seen or touched; also to state opposition",
+      "core_concept": "something thrown in front of you – 被扔到面前、挡在那里的东西",
+      "core_image": "有人把一块石头丢在路中央，你不得不停下来看它",
+      "chinese": [
+        "物体",
+        "目标",
+        "反对"
+      ],
+      "examples": [
+        "A metal object lay on the table.",
+        "Several members objected to the plan."
+      ],
+      "synonyms": [
+        "thing",
+        "oppose"
+      ],
+      "antonyms": [
+        "agree"
+      ],
+      "related": [
+        "subject",
+        "project",
+        "reject",
+        "inject",
+        "objective"
+      ],
+      "semantic_expansions": [
+        "物体：被扔到你面前、看得见摸得着的那个东西",
+        "目标：被摆在前面要去对付的那个",
+        "反对（动词）：把异议扔到对方跟前。三个中文词共享'扔到面前挡着'这一个画面"
+      ]
+    },
+    {
+      "id": "subject",
+      "word": "subject",
+      "pos": "noun",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "sub-（在下）+ ject（扔）→ 被扔到下面、受人摆布的那个 → 臣民；被摊在下面供研究的那个 → 主题",
+      "recall_hint": "sub-（在下）+ ject（扔）→ 被扔到下面的那个：或受人管辖，或被摊开来供人研究",
+      "origin": "拉丁语 subjectum：sub-（在下）+ jacere（投）",
+      "native_definition": "the thing being discussed or studied, or a person under a ruler's authority",
+      "core_concept": "what is thrown under, to be governed or examined – 被置于下方，受管辖或被审视的那个",
+      "core_image": "标本被摊在显微镜下，任人从上方细看",
+      "chinese": [
+        "主题",
+        "科目",
+        "臣民",
+        "使遭受"
+      ],
+      "examples": [
+        "The subject of the lecture was climate change.",
+        "Prisoners were subjected to harsh conditions."
+      ],
+      "synonyms": [
+        "topic",
+        "citizen"
+      ],
+      "antonyms": [],
+      "related": [
+        "object",
+        "project",
+        "reject",
+        "subjective"
+      ],
+      "semantic_expansions": [
+        "主题/科目：被摊在下面供人研究的那个东西",
+        "臣民：被置于统治之下的人",
+        "使遭受：把人扔到某种处境之下。都是'置于下方、由上方支配'"
+      ]
+    },
+    {
+      "id": "project",
+      "word": "project",
+      "pos": "noun",
+      "phonetic": "/ˈprɑːdʒekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "pro-（向前）+ ject（扔）→ 往前扔出去的那件事 → 计划；把光往前扔到幕布上 → 投影",
+      "recall_hint": "pro-（向前）+ ject（扔）→ 往前抛出去的东西：可以是要推进的事，也可以是投到幕上的光",
+      "origin": "拉丁语 projectum：pro-（向前）+ jacere（投）",
+      "native_definition": "a planned piece of work, or to cast an image or one's voice forward",
+      "core_concept": "something thrown forward – 被往前抛出去的东西",
+      "core_image": "放映机把一束光往前打到白墙上，画面出现在远处",
+      "chinese": [
+        "项目",
+        "计划",
+        "投射"
+      ],
+      "examples": [
+        "The construction project starts in June.",
+        "Slides were projected onto the wall."
+      ],
+      "synonyms": [
+        "plan",
+        "scheme"
+      ],
+      "antonyms": [],
+      "related": [
+        "object",
+        "subject",
+        "reject",
+        "projector",
+        "inject"
+      ],
+      "semantic_expansions": [
+        "项目/计划：把一件事往前抛出去推进",
+        "投射：把光或声音往前抛出去。同一个'向前抛'，抛的东西不同"
+      ]
+    },
+    {
+      "id": "projector",
+      "word": "projector",
+      "pos": "noun",
+      "phonetic": "/prəˈdʒektər/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "project（往前抛）+ -or（施动器）→ 负责把光往前抛的那个装置 → 投影仪",
+      "origin": "拉丁语 projicere：pro-（向前）+ jacere（投）",
+      "native_definition": "a device that casts an image onto a surface",
+      "core_concept": "the device that throws light forward – 负责把光往前抛出去的那个器械",
+      "core_image": "会议室天花板上垂下的黑盒子，光柱从它射向前方墙面",
+      "chinese": [
+        "投影仪"
+      ],
+      "examples": [
+        "Connect your laptop to the projector.",
+        "The projector bulb needs replacing."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        "project",
+        "object",
+        "subject",
+        "inject"
+      ]
+    },
+    {
+      "id": "reject",
+      "word": "reject",
+      "pos": "verb",
+      "phonetic": "/rɪˈdʒekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "re-（往回）+ ject（扔）→ 把送来的东西扔回去 → 拒绝",
+      "origin": "拉丁语 rejicere：re-（往回）+ jacere（投）",
+      "native_definition": "to refuse to accept or agree to something",
+      "core_concept": "throwing something back at the sender – 把递来的东西原路扔回",
+      "core_image": "递过去的表格被从窗口推了出来，退回到手上",
+      "chinese": [
+        "拒绝",
+        "驳回",
+        "剔除"
+      ],
+      "examples": [
+        "The committee rejected her application.",
+        "Faulty parts are rejected at inspection."
+      ],
+      "synonyms": [
+        "refuse",
+        "decline"
+      ],
+      "antonyms": [
+        "accept",
+        "admit"
+      ],
+      "related": [
+        "object",
+        "subject",
+        "project",
+        "inject"
+      ],
+      "semantic_expansions": [
+        "拒绝/驳回：把对方递来的东西扔回去",
+        "剔除：把不合格的从流程里扔出去。都是'不留下，扔回或扔出'"
+      ]
+    },
+    {
+      "id": "inject",
+      "word": "inject",
+      "pos": "verb",
+      "phonetic": "/ɪnˈdʒekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "in-（进入）+ ject（扔）→ 把东西扔进内部 → 注入",
+      "origin": "拉丁语 injicere：in-（进入）+ jacere（投）",
+      "native_definition": "to force liquid into something with a needle, or to add something new into a situation",
+      "core_concept": "throwing something into the inside – 把某物送进内部去",
+      "core_image": "针头推下去，液体进入血管，外面看不出痕迹",
+      "chinese": [
+        "注射",
+        "注入",
+        "投入"
+      ],
+      "examples": [
+        "The nurse injected the vaccine into his arm.",
+        "The government injected funds into the industry."
+      ],
+      "synonyms": [
+        "insert",
+        "introduce"
+      ],
+      "antonyms": [
+        "extract"
+      ],
+      "related": [
+        "object",
+        "project",
+        "reject",
+        "subject"
+      ],
+      "semantic_expansions": [
+        "注射：把液体送进体内",
+        "注入/投入（资金）：把资源送进某个系统。同一个'扔进内部'，送的东西不同"
+      ]
+    },
+    {
+      "id": "objective",
+      "word": "objective",
+      "pos": "adjective",
+      "phonetic": "/əbˈdʒektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "object（摆在面前的东西）+ -ive（…的）→ 只看摆在面前那个东西本身的 → 客观的；作名词是摆在前面要达成的那个 → 目标",
+      "recall_hint": "object（摆在面前的物）+ -ive → 只依据面前那个东西本身，不掺自己的想法；作名词是摆在前方待达成的那个",
+      "origin": "拉丁语 objectivus：ob-（对着）+ jacere（投）",
+      "native_definition": "based on facts rather than feelings; also a goal to be achieved",
+      "core_concept": "judged by the thing itself, not by the viewer – 只按面前那个东西本身来判断",
+      "core_image": "两台仪器测同一段长度，读数一样，与谁在看无关",
+      "chinese": [
+        "客观的",
+        "目标"
+      ],
+      "examples": [
+        "We need an objective assessment of the damage.",
+        "Our main objective is to cut costs."
+      ],
+      "synonyms": [
+        "impartial",
+        "goal"
+      ],
+      "antonyms": [
+        "subjective"
+      ],
+      "related": [
+        "object",
+        "subjective",
+        "subject",
+        "project"
+      ],
+      "semantic_expansions": [
+        "客观的：只看事物本身，不受观者影响——与 subjective（从观者出发）构成一对",
+        "目标（名词）：被摆在前方要去对付的那个。同一个词根，一个说判断依据一个说所指之物"
+      ]
+    },
+    {
+      "id": "subjective",
+      "word": "subjective",
+      "pos": "adjective",
+      "phonetic": "/səbˈdʒektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "subject（被置于下方的那个，引申为'感受的主体'）+ -ive → 从主体自身感受出发的 → 主观的",
+      "origin": "拉丁语 subjectivus：sub-（在下）+ jacere（投）",
+      "native_definition": "based on personal feelings or opinions rather than facts",
+      "core_concept": "judged from the viewer's own side – 从看的人自己那一侧来判断",
+      "core_image": "同一杯水，刚跑完步的人说凉，刚出被窝的人说冷",
+      "chinese": [
+        "主观的"
+      ],
+      "examples": [
+        "Beauty is largely subjective.",
+        "The judging was criticised as too subjective."
+      ],
+      "synonyms": [
+        "personal",
+        "biased"
+      ],
+      "antonyms": [
+        "objective"
+      ],
+      "related": [
+        "subject",
+        "objective",
+        "object"
+      ]
+    },
+    {
+      "id": "depend",
+      "word": "depend",
+      "pos": "verb",
+      "phonetic": "/dɪˈpend/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "de-（向下）+ pend（挂）→ 从上面挂下来，全靠那根绳 → 依赖",
+      "origin": "拉丁语 dependere：de-（向下）+ pendere（悬挂）",
+      "native_definition": "to need something in order to continue, or to be decided by it",
+      "core_concept": "hanging from something that holds you up – 挂在某物上，它撒手你就掉",
+      "core_image": "吊灯全靠那根线吊着，线一断整盏就落地",
+      "chinese": [
+        "依赖",
+        "取决于"
+      ],
+      "examples": [
+        "Newborns depend entirely on their parents.",
+        "Whether we go depends on the weather."
+      ],
+      "synonyms": [
+        "rely"
+      ],
+      "antonyms": [],
+      "related": [
+        "dependent",
+        "suspend",
+        "expend",
+        "compensate"
+      ],
+      "semantic_expansions": [
+        "依赖与取决于：都是'挂在某物上，由它决定能不能成立'，一个说关系一个说结果"
+      ]
+    },
+    {
+      "id": "dependent",
+      "word": "dependent",
+      "pos": "adjective",
+      "phonetic": "/dɪˈpendənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "depend（挂着）+ -ent（…的）→ 挂在别处才立得住的 → 依赖的",
+      "origin": "拉丁语 dependens：de-（向下）+ pendere（悬挂）",
+      "native_definition": "needing someone or something else in order to survive or succeed",
+      "core_concept": "held up only by something else – 靠别的东西吊着才不掉",
+      "core_image": "藤蔓缠在树干上向上长，树一倒它就塌在地上",
+      "chinese": [
+        "依赖的",
+        "取决于…的"
+      ],
+      "examples": [
+        "Small firms are dependent on bank credit.",
+        "The result is dependent on turnout."
+      ],
+      "synonyms": [
+        "reliant"
+      ],
+      "antonyms": [
+        "independent"
+      ],
+      "related": [
+        "depend",
+        "suspend",
+        "expensive"
+      ],
+      "semantic_expansions": [
+        "依赖的与取决于…的：都是'靠别的东西吊着才立得住'，一个说主体状态一个说条件关系"
+      ]
+    },
+    {
+      "id": "suspend",
+      "word": "suspend",
+      "pos": "verb",
+      "phonetic": "/səˈspend/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "sus-（sub- 的变体，在下）+ pend（挂）→ 挂在下面不着地 → 悬挂；引申为让事情停在半空 → 暂停",
+      "recall_hint": "sus-（在下）+ pend（挂）→ 吊在半空、既不落地也不前进；可以是物，也可以是一件事",
+      "origin": "拉丁语 suspendere：sub-（在下）+ pendere（悬挂）",
+      "native_definition": "to hang something up, or to stop something for a period",
+      "core_concept": "left hanging, neither landed nor moving on – 吊在半空，既没落地也没继续",
+      "core_image": "杂技演员停在半空的绳子上，上不去也下不来",
+      "chinese": [
+        "悬挂",
+        "暂停",
+        "停职"
+      ],
+      "examples": [
+        "A lamp was suspended from the ceiling.",
+        "The service was suspended after the storm."
+      ],
+      "synonyms": [
+        "hang",
+        "halt"
+      ],
+      "antonyms": [
+        "resume"
+      ],
+      "related": [
+        "depend",
+        "dependent",
+        "expend",
+        "compensate"
+      ],
+      "semantic_expansions": [
+        "悬挂：物体吊在半空",
+        "暂停/停职：让一件事或一个人停在半空，不推进也不终结。同一个'吊住不动'"
+      ]
+    },
+    {
+      "id": "expend",
+      "word": "expend",
+      "pos": "verb",
+      "phonetic": "/ɪkˈspend/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "ex-（向外）+ pend（称量）→ 把钱称出来付出去 → 花费",
+      "origin": "拉丁语 expendere：ex-（向外）+ pendere（称量）——古时付钱要称银子的重量",
+      "native_definition": "to use up money, time, or energy on something",
+      "core_concept": "weighing something out and handing it over – 称出分量交出去",
+      "core_image": "天平上称出一份银子，推给对面的人",
+      "chinese": [
+        "花费",
+        "消耗"
+      ],
+      "examples": [
+        "They expended vast sums on advertising.",
+        "Do not expend energy on trivia."
+      ],
+      "synonyms": [
+        "spend",
+        "consume"
+      ],
+      "antonyms": [
+        "save"
+      ],
+      "related": [
+        "expensive",
+        "depend",
+        "suspend",
+        "compensate"
+      ],
+      "semantic_expansions": [
+        "花费与消耗：都是'称出分量交出去'，一个偏钱财一个偏精力"
+      ]
+    },
+    {
+      "id": "expensive",
+      "word": "expensive",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈspensɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "expend（称出去付）+ -ive（…的）→ 要称出很多才付得起的 → 昂贵的",
+      "origin": "拉丁语 expensa：ex-（向外）+ pendere（称量）",
+      "native_definition": "costing a lot of money",
+      "core_concept": "requiring a heavy amount weighed out – 得称出很重的分量才够付",
+      "core_image": "秤盘一头压得很低，才勉强够换到那件东西",
+      "chinese": [
+        "昂贵的"
+      ],
+      "examples": [
+        "Rent here is extremely expensive.",
+        "It is an expensive mistake to make."
+      ],
+      "synonyms": [
+        "costly",
+        "dear"
+      ],
+      "antonyms": [
+        "cheap"
+      ],
+      "related": [
+        "expend",
+        "depend",
+        "compensation"
+      ]
+    },
+    {
+      "id": "compensate",
+      "word": "compensate",
+      "pos": "verb",
+      "phonetic": "/ˈkɑːmpenseɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "com-（一起、相对）+ pens（称量）+ -ate → 两边一起称，把轻的那头补平 → 补偿",
+      "origin": "拉丁语 compensare：com-（一起）+ pendere（称量）",
+      "native_definition": "to give something to make up for loss or damage",
+      "core_concept": "adding weight to balance the two sides – 往轻的一头加，使两边称平",
+      "core_image": "天平一头低了，往另一头添砝码直到两边齐平",
+      "chinese": [
+        "补偿",
+        "弥补",
+        "抵消"
+      ],
+      "examples": [
+        "The airline compensated passengers for the delay.",
+        "Extra practice compensated for his late start."
+      ],
+      "synonyms": [
+        "repay",
+        "offset"
+      ],
+      "antonyms": [],
+      "related": [
+        "compensation",
+        "expend",
+        "depend",
+        "suspend"
+      ],
+      "semantic_expansions": [
+        "补偿/弥补/抵消：都是'往轻的那头加，使两边平衡'，中文按场合分了三个词"
+      ]
+    },
+    {
+      "id": "compensation",
+      "word": "compensation",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːmpenˈseɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "compensate（称平）+ -ation（名词）→ 用来把两边称平的那笔东西 → 补偿金",
+      "origin": "拉丁语 compensatio：com-（一起）+ pendere（称量）",
+      "native_definition": "money or other things given to make up for loss or injury",
+      "core_concept": "what is added to make the two sides balance – 用来把两边配平的那份东西",
+      "core_image": "理赔单上那笔款项，正好填上损失的那个缺口",
+      "chinese": [
+        "补偿金",
+        "赔偿",
+        "报酬"
+      ],
+      "examples": [
+        "She received compensation for the injury.",
+        "The job offers generous compensation."
+      ],
+      "synonyms": [
+        "payment",
+        "reward"
+      ],
+      "antonyms": [],
+      "related": [
+        "compensate",
+        "expend",
+        "expensive"
+      ],
+      "semantic_expansions": [
+        "补偿金/赔偿：填补损失的那笔钱",
+        "报酬：填补你付出劳动的那笔钱。同一个'配平缺口'，缺口来自损失还是付出而已"
+      ]
     }
   ]
 }

@@ -1638,6 +1638,216 @@
       "text": "Costs exceeded our estimate by a third.",
       "source": "AI 生成 · 人工审核",
       "scene": "水位漫过警戒线上的刻度"
+    },
+    {
+      "id": "ex-object-1",
+      "word_id": "object",
+      "text": "A metal object lay on the table.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "有人把一块石头丢在路中央，你不得不停下来看它"
+    },
+    {
+      "id": "ex-object-2",
+      "word_id": "object",
+      "text": "Several members objected to the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "有人把一块石头丢在路中央，你不得不停下来看它"
+    },
+    {
+      "id": "ex-subject-1",
+      "word_id": "subject",
+      "text": "The subject of the lecture was climate change.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标本被摊在显微镜下，任人从上方细看"
+    },
+    {
+      "id": "ex-subject-2",
+      "word_id": "subject",
+      "text": "Prisoners were subjected to harsh conditions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标本被摊在显微镜下，任人从上方细看"
+    },
+    {
+      "id": "ex-project-1",
+      "word_id": "project",
+      "text": "The construction project starts in June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "放映机把一束光往前打到白墙上，画面出现在远处"
+    },
+    {
+      "id": "ex-project-2",
+      "word_id": "project",
+      "text": "Slides were projected onto the wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "放映机把一束光往前打到白墙上，画面出现在远处"
+    },
+    {
+      "id": "ex-projector-1",
+      "word_id": "projector",
+      "text": "Connect your laptop to the projector.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议室天花板上垂下的黑盒子，光柱从它射向前方墙面"
+    },
+    {
+      "id": "ex-projector-2",
+      "word_id": "projector",
+      "text": "The projector bulb needs replacing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议室天花板上垂下的黑盒子，光柱从它射向前方墙面"
+    },
+    {
+      "id": "ex-reject-1",
+      "word_id": "reject",
+      "text": "The committee rejected her application.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "递过去的表格被从窗口推了出来，退回到手上"
+    },
+    {
+      "id": "ex-reject-2",
+      "word_id": "reject",
+      "text": "Faulty parts are rejected at inspection.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "递过去的表格被从窗口推了出来，退回到手上"
+    },
+    {
+      "id": "ex-inject-1",
+      "word_id": "inject",
+      "text": "The nurse injected the vaccine into his arm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "针头推下去，液体进入血管，外面看不出痕迹"
+    },
+    {
+      "id": "ex-inject-2",
+      "word_id": "inject",
+      "text": "The government injected funds into the industry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "针头推下去，液体进入血管，外面看不出痕迹"
+    },
+    {
+      "id": "ex-objective-1",
+      "word_id": "objective",
+      "text": "We need an objective assessment of the damage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两台仪器测同一段长度，读数一样，与谁在看无关"
+    },
+    {
+      "id": "ex-objective-2",
+      "word_id": "objective",
+      "text": "Our main objective is to cut costs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两台仪器测同一段长度，读数一样，与谁在看无关"
+    },
+    {
+      "id": "ex-subjective-1",
+      "word_id": "subjective",
+      "text": "Beauty is largely subjective.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一杯水，刚跑完步的人说凉，刚出被窝的人说冷"
+    },
+    {
+      "id": "ex-subjective-2",
+      "word_id": "subjective",
+      "text": "The judging was criticised as too subjective.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一杯水，刚跑完步的人说凉，刚出被窝的人说冷"
+    },
+    {
+      "id": "ex-depend-1",
+      "word_id": "depend",
+      "text": "Newborns depend entirely on their parents.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "吊灯全靠那根线吊着，线一断整盏就落地"
+    },
+    {
+      "id": "ex-depend-2",
+      "word_id": "depend",
+      "text": "Whether we go depends on the weather.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "吊灯全靠那根线吊着，线一断整盏就落地"
+    },
+    {
+      "id": "ex-dependent-1",
+      "word_id": "dependent",
+      "text": "Small firms are dependent on bank credit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "藤蔓缠在树干上向上长，树一倒它就塌在地上"
+    },
+    {
+      "id": "ex-dependent-2",
+      "word_id": "dependent",
+      "text": "The result is dependent on turnout.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "藤蔓缠在树干上向上长，树一倒它就塌在地上"
+    },
+    {
+      "id": "ex-suspend-1",
+      "word_id": "suspend",
+      "text": "A lamp was suspended from the ceiling.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杂技演员停在半空的绳子上，上不去也下不来"
+    },
+    {
+      "id": "ex-suspend-2",
+      "word_id": "suspend",
+      "text": "The service was suspended after the storm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杂技演员停在半空的绳子上，上不去也下不来"
+    },
+    {
+      "id": "ex-expend-1",
+      "word_id": "expend",
+      "text": "They expended vast sums on advertising.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平上称出一份银子，推给对面的人"
+    },
+    {
+      "id": "ex-expend-2",
+      "word_id": "expend",
+      "text": "Do not expend energy on trivia.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平上称出一份银子，推给对面的人"
+    },
+    {
+      "id": "ex-expensive-1",
+      "word_id": "expensive",
+      "text": "Rent here is extremely expensive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤盘一头压得很低，才勉强够换到那件东西"
+    },
+    {
+      "id": "ex-expensive-2",
+      "word_id": "expensive",
+      "text": "It is an expensive mistake to make.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤盘一头压得很低，才勉强够换到那件东西"
+    },
+    {
+      "id": "ex-compensate-1",
+      "word_id": "compensate",
+      "text": "The airline compensated passengers for the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平一头低了，往另一头添砝码直到两边齐平"
+    },
+    {
+      "id": "ex-compensate-2",
+      "word_id": "compensate",
+      "text": "Extra practice compensated for his late start.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平一头低了，往另一头添砝码直到两边齐平"
+    },
+    {
+      "id": "ex-compensation-1",
+      "word_id": "compensation",
+      "text": "She received compensation for the injury.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "理赔单上那笔款项，正好填上损失的那个缺口"
+    },
+    {
+      "id": "ex-compensation-2",
+      "word_id": "compensation",
+      "text": "The job offers generous compensation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "理赔单上那笔款项，正好填上损失的那个缺口"
     }
   ]
 }

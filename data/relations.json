@@ -924,6 +924,96 @@
       "to": "exceed",
       "type": "root",
       "note": "ex-（出、越过）+ ceed（行走）→ 走出界线之外 → 超过"
+    },
+    {
+      "from": "jac",
+      "to": "object",
+      "type": "root",
+      "note": "ob-（对着、挡在前面）+ ject（扔）→ 被扔到面前挡着的那个东西 → 物体；作动词时是把话扔到对方面前 → 反对"
+    },
+    {
+      "from": "jac",
+      "to": "subject",
+      "type": "root",
+      "note": "sub-（在下）+ ject（扔）→ 被扔到下面、受人摆布的那个 → 臣民；被摊在下面供研究的那个 → 主题"
+    },
+    {
+      "from": "jac",
+      "to": "project",
+      "type": "root",
+      "note": "pro-（向前）+ ject（扔）→ 往前扔出去的那件事 → 计划；把光往前扔到幕布上 → 投影"
+    },
+    {
+      "from": "jac",
+      "to": "projector",
+      "type": "root",
+      "note": "project（往前抛）+ -or（施动器）→ 负责把光往前抛的那个装置 → 投影仪"
+    },
+    {
+      "from": "jac",
+      "to": "reject",
+      "type": "root",
+      "note": "re-（往回）+ ject（扔）→ 把送来的东西扔回去 → 拒绝"
+    },
+    {
+      "from": "jac",
+      "to": "inject",
+      "type": "root",
+      "note": "in-（进入）+ ject（扔）→ 把东西扔进内部 → 注入"
+    },
+    {
+      "from": "jac",
+      "to": "objective",
+      "type": "root",
+      "note": "object（摆在面前的东西）+ -ive（…的）→ 只看摆在面前那个东西本身的 → 客观的；作名词是摆在前面要达成的那"
+    },
+    {
+      "from": "jac",
+      "to": "subjective",
+      "type": "root",
+      "note": "subject（被置于下方的那个，引申为'感受的主体'）+ -ive → 从主体自身感受出发的 → 主观的"
+    },
+    {
+      "from": "pend",
+      "to": "depend",
+      "type": "root",
+      "note": "de-（向下）+ pend（挂）→ 从上面挂下来，全靠那根绳 → 依赖"
+    },
+    {
+      "from": "pend",
+      "to": "dependent",
+      "type": "root",
+      "note": "depend（挂着）+ -ent（…的）→ 挂在别处才立得住的 → 依赖的"
+    },
+    {
+      "from": "pend",
+      "to": "suspend",
+      "type": "root",
+      "note": "sus-（sub- 的变体，在下）+ pend（挂）→ 挂在下面不着地 → 悬挂；引申为让事情停在半空 → 暂停"
+    },
+    {
+      "from": "pend",
+      "to": "expend",
+      "type": "root",
+      "note": "ex-（向外）+ pend（称量）→ 把钱称出来付出去 → 花费"
+    },
+    {
+      "from": "pend",
+      "to": "expensive",
+      "type": "root",
+      "note": "expend（称出去付）+ -ive（…的）→ 要称出很多才付得起的 → 昂贵的"
+    },
+    {
+      "from": "pend",
+      "to": "compensate",
+      "type": "root",
+      "note": "com-（一起、相对）+ pens（称量）+ -ate → 两边一起称，把轻的那头补平 → 补偿"
+    },
+    {
+      "from": "pend",
+      "to": "compensation",
+      "type": "root",
+      "note": "compensate（称平）+ -ation（名词）→ 用来把两边称平的那笔东西 → 补偿金"
     }
   ]
 }

@@ -337,6 +337,43 @@
         "success",
         "successor"
       ]
+    },
+    {
+      "id": "concept-jac-throw",
+      "concept": "to throw",
+      "chinese": "投、扔",
+      "core_image": "手一扬把石子扔出去，按方向飞走",
+      "root_ids": [
+        "jac"
+      ],
+      "word_ids": [
+        "inject",
+        "object",
+        "objective",
+        "project",
+        "projector",
+        "reject",
+        "subject",
+        "subjective"
+      ]
+    },
+    {
+      "id": "concept-pend-hang",
+      "concept": "to hang, to weigh",
+      "chinese": "悬挂、称量",
+      "core_image": "秤钩上挂着东西，托盘随重量摆动",
+      "root_ids": [
+        "pend"
+      ],
+      "word_ids": [
+        "compensate",
+        "compensation",
+        "depend",
+        "dependent",
+        "expend",
+        "expensive",
+        "suspend"
+      ]
     }
   ]
 }

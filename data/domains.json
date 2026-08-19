@@ -36,7 +36,8 @@
         "port",
         "mit-miss",
         "duc-duct",
-        "ced"
+        "ced",
+        "jac"
       ]
     },
     {
@@ -59,7 +60,8 @@
       "root_ids": [
         "sta",
         "tain",
-        "clud"
+        "clud",
+        "pend"
       ]
     },
     {

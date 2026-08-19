@@ -369,6 +369,49 @@
         "success",
         "successor"
       ]
+    },
+    {
+      "id": "jac",
+      "root": "jac",
+      "variants": [
+        "jac",
+        "ject"
+      ],
+      "origin": "拉丁语 jacere（投、扔）",
+      "core_concept": "to throw / 投、扔出去",
+      "core_image": "手一扬把石子扔出去，石子按扔的方向飞走",
+      "english_definition": "to throw, to cast",
+      "word_ids": [
+        "inject",
+        "object",
+        "objective",
+        "project",
+        "projector",
+        "reject",
+        "subject",
+        "subjective"
+      ]
+    },
+    {
+      "id": "pend",
+      "root": "pend",
+      "variants": [
+        "pend",
+        "pens"
+      ],
+      "origin": "拉丁语 pendere（悬挂、称量）",
+      "core_concept": "to hang, to weigh / 挂着、称量",
+      "core_image": "秤钩上挂着东西，托盘随重量上下摆动",
+      "english_definition": "to hang, to weigh",
+      "word_ids": [
+        "compensate",
+        "compensation",
+        "depend",
+        "dependent",
+        "expend",
+        "expensive",
+        "suspend"
+      ]
     }
   ]
 }
