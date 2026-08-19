@@ -250,12 +250,14 @@ def main():
         print("\n[OK] 检查完毕（未合并）。确认无误后运行 merge。")
         return 0
 
-    # 合并前先确认现有数据是干净的，否则分不清是谁引入的问题
-    code, out = run_validate()
-    if code != 0:
-        print("\n[ABORT] 合并前 data/ 本身校验不通过，先修好再合并：")
-        print(out[-600:])
-        return 1
+    # 记录合并前的状态，便于判断问题是谁引入的。
+    # 但不据此阻止合并——新增词根/概念必须与词条同批落地，
+    # 中间状态必然"不干净"（词根的 word_ids 指向尚未入库的词）。
+    pre_code, _ = run_validate()
+    if pre_code != 0:
+        print("\n[NOTE] 合并前 data/ 校验未通过。"
+              "若本批含新增词根/概念，这是预期的中间状态；"
+              "否则说明合并前就已有问题。")
 
     merge(candidates)
     print(f"\n已合并 {len(candidates)} 条，重新校验：")

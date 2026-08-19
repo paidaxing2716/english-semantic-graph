@@ -1,0 +1,153 @@
+{
+  "words": [
+    {
+      "id": "obtain",
+      "word": "obtain",
+      "pos": "verb",
+      "phonetic": "/əbˈteɪn/",
+      "decomposable": "root",
+      "root_ids": ["tain"],
+      "root_logic": "ob-（朝向、对着）+ tain（握住）→ 伸手够到并握住 → 获得",
+      "origin": "拉丁语 obtinere：ob-（朝向）+ tenere（握住）",
+      "native_definition": "to get something, especially by effort or by asking",
+      "core_concept": "reaching out and getting hold of something – 伸手过去把东西握到手里",
+      "core_image": "隔着柜台把证件递过来，手一合就攥住了",
+      "chinese": ["获得", "取得"],
+      "examples": [
+        "You must obtain written permission first.",
+        "The data was obtained from public records."
+      ],
+      "synonyms": ["acquire", "gain"],
+      "antonyms": ["lose"],
+      "related": ["contain", "retain", "detain", "sustain"],
+      "semantic_expansions": [
+        "获得与取得：都是伸手把东西握到手里，中文两种译法对应同一个动作"
+      ]
+    },
+    {
+      "id": "retain",
+      "word": "retain",
+      "pos": "verb",
+      "phonetic": "/rɪˈteɪn/",
+      "decomposable": "root",
+      "root_ids": ["tain"],
+      "root_logic": "re-（往回、持续）+ tain（握住）→ 一直握着不放 → 保留",
+      "origin": "拉丁语 retinere：re-（往回）+ tenere（握住）",
+      "native_definition": "to keep something and not lose or give it up",
+      "core_concept": "continuing to hold what one already has – 已经握着的继续不放",
+      "core_image": "水从指缝流走，手却仍攥着最后那一把",
+      "chinese": ["保留", "保持", "记住"],
+      "examples": [
+        "The company retained all its staff through the downturn.",
+        "Sandy soil does not retain water.",
+        "She retains a clear memory of that night."
+      ],
+      "synonyms": ["keep", "preserve"],
+      "antonyms": ["lose", "release"],
+      "related": ["contain", "obtain", "detain", "sustain"],
+      "semantic_expansions": [
+        "保留/保持：握着的不松手",
+        "记住：把信息握在脑中不让它流走。同一个'不松手'，握的东西从实物变成记忆"
+      ]
+    },
+    {
+      "id": "detain",
+      "word": "detain",
+      "pos": "verb",
+      "phonetic": "/dɪˈteɪn/",
+      "decomposable": "root",
+      "root_ids": ["tain"],
+      "root_logic": "de-（离开原路）+ tain（握住）→ 把人从原本要去的路上握住 → 扣留、耽误",
+      "origin": "拉丁语 detinere：de-（离开）+ tenere（握住）",
+      "native_definition": "to keep someone from leaving, officially or by delay",
+      "core_concept": "holding someone back from going on – 把要走的人握住不让走",
+      "core_image": "机场安检把人拦下带进小房间，航班还在等",
+      "chinese": ["扣留", "拘留", "耽误"],
+      "examples": [
+        "Two suspects were detained for questioning.",
+        "Sorry to detain you — this will only take a minute."
+      ],
+      "synonyms": ["hold", "delay"],
+      "antonyms": ["release"],
+      "related": ["contain", "obtain", "retain", "sustain"],
+      "semantic_expansions": [
+        "拘留（警方）：正式把人握住不放走",
+        "耽误（日常）：把人留住让他走不了。同一个'握住不让走'，区别只在有无强制力"
+      ]
+    },
+    {
+      "id": "sustain",
+      "word": "sustain",
+      "pos": "verb",
+      "phonetic": "/səˈsteɪn/",
+      "decomposable": "root",
+      "root_ids": ["tain"],
+      "root_logic": "sus-（sub- 的变体，从下面）+ tain（握住）→ 从底下托住不让塌 → 维持",
+      "origin": "拉丁语 sustinere：sub-（从下）+ tenere（握住）",
+      "native_definition": "to keep something going over time, or to bear the weight of it",
+      "core_concept": "holding something up from below so it lasts – 从下面托住，使它持续不塌",
+      "core_image": "一只手在下面托住摇摇欲坠的书堆，手不撤书就不倒",
+      "chinese": ["维持", "承受", "支撑"],
+      "examples": [
+        "The economy cannot sustain this rate of growth.",
+        "The roof sustained heavy snow all winter."
+      ],
+      "synonyms": ["support", "maintain"],
+      "antonyms": ["abandon"],
+      "related": ["contain", "obtain", "retain", "detain", "support"],
+      "semantic_expansions": [
+        "支撑/承受：从底下托住重量",
+        "维持（增长/生命）：从底下托住让它继续。同一个'托住不让塌'，一个是物理重量一个是过程"
+      ]
+    },
+    {
+      "id": "preclude",
+      "word": "preclude",
+      "pos": "verb",
+      "phonetic": "/prɪˈkluːd/",
+      "decomposable": "root",
+      "root_ids": ["clud"],
+      "root_logic": "pre-（在…之前）+ clud（关闭）→ 事情发生前先把门关上 → 预先排除",
+      "origin": "拉丁语 praecludere：prae-（在前）+ claudere（关闭）",
+      "native_definition": "to make something impossible in advance",
+      "core_concept": "shutting the door before something can happen – 在事情发生前先把路关掉",
+      "core_image": "闸门在洪水到来之前就已落下，水根本进不来",
+      "chinese": ["排除", "阻止", "使不可能"],
+      "examples": [
+        "His injury precludes any chance of competing.",
+        "The contract precludes further claims."
+      ],
+      "synonyms": ["prevent", "prohibit"],
+      "antonyms": ["allow", "permit"],
+      "related": ["conclude", "exclude", "include", "seclude"],
+      "semantic_expansions": [
+        "排除与阻止：都是提前把门关上让事情无从发生，区别只在语气强弱"
+      ]
+    },
+    {
+      "id": "inclusive",
+      "word": "inclusive",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈkluːsɪv/",
+      "decomposable": "root",
+      "root_ids": ["clud"],
+      "root_logic": "include（关在内）+ -ive（倾向于…的）→ 惯于把人一起关在内的 → 包容的、含…在内的",
+      "origin": "拉丁语 inclusivus：in-（内）+ claudere（关闭）",
+      "native_definition": "containing everything mentioned, or open to everyone",
+      "core_concept": "keeping everyone and everything inside the boundary – 把所有人和项都关在范围之内",
+      "core_image": "圈子画得很大，所有人都被圈在里面，没人留在外头",
+      "chinese": ["包含在内的", "包容的", "总括的"],
+      "examples": [
+        "The price is inclusive of tax.",
+        "The school has an inclusive admissions policy."
+      ],
+      "synonyms": ["comprehensive", "open"],
+      "antonyms": ["exclusive"],
+      "related": ["include", "exclude", "exclusive", "conclude"],
+      "semantic_expansions": [
+        "包含在内的（价格）：项目被关在范围之内",
+        "包容的（政策）：人被关在圈子之内。同一个'都圈在里面'，一个对物一个对人"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "words": [
+    {
+      "id": "statement",
+      "word": "statement",
+      "pos": "noun",
+      "phonetic": "/ˈsteɪtmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "sta（立）+ -ment（结果）→ 被立在那里、供人查看的一份东西 → 陈述、报表",
+      "origin": "拉丁语 stare（站立）经古法语 estat 进入英语",
+      "native_definition": "something said or written clearly and officially, or a record of accounts",
+      "core_concept": "something set down and left standing for others to check – 把话或账立在那里供人核对",
+      "core_image": "银行把一张对账单摊在柜台上，数字一行行立在纸面",
+      "chinese": [
+        "陈述",
+        "声明",
+        "报表"
+      ],
+      "examples": [
+        "The minister issued a short statement.",
+        "Check your bank statement each month."
+      ],
+      "synonyms": [
+        "declare",
+        "account"
+      ],
+      "antonyms": [],
+      "related": [
+        "state",
+        "station",
+        "static"
+      ],
+      "semantic_expansions": [
+        "陈述/声明：把话立在众人面前，立了就不能随口改",
+        "报表：把账目立成一份可核对的记录。中文分两个词，英文是同一个'立在那里供查'"
+      ]
+    },
+    {
+      "id": "station",
+      "word": "station",
+      "pos": "noun",
+      "phonetic": "/ˈsteɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "sta（立）+ -tion（名词）→ 固定站住的那个点 → 站、台、岗位",
+      "origin": "拉丁语 statio：stare（站立）的名词形式",
+      "native_definition": "a fixed place where something stops or where someone is posted",
+      "core_concept": "a fixed point where things come to a stop – 一个固定不动、供人物停靠的点",
+      "core_image": "月台立在原地，列车来了又走，它始终没动",
+      "chinese": [
+        "车站",
+        "电台",
+        "岗位"
+      ],
+      "examples": [
+        "The train pulls into the station at noon.",
+        "He was posted to a remote station."
+      ],
+      "synonyms": [
+        "post",
+        "stop"
+      ],
+      "antonyms": [],
+      "related": [
+        "state",
+        "statement",
+        "static",
+        "stationary"
+      ],
+      "semantic_expansions": [
+        "车站：车流动而站不动，这是最直白的一层",
+        "电台/岗位：同样是固定不动的据点，只是停靠的是信号或人"
+      ]
+    },
+    {
+      "id": "static",
+      "word": "static",
+      "pos": "adjective",
+      "phonetic": "/ˈstætɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "sta（立）+ -ic（形容词）→ 立着不动的 → 静止的",
+      "origin": "希腊语 statikos ← 与拉丁语 stare 同源的印欧词根",
+      "native_definition": "not moving or changing; also unwanted noise in a signal",
+      "core_concept": "staying in place without change – 停在原处不动、不变",
+      "core_image": "收音机指针一动不动，喇叭里只剩沙沙的杂音",
+      "chinese": [
+        "静止的",
+        "静电",
+        "杂音"
+      ],
+      "examples": [
+        "House prices remained static all year.",
+        "The radio gave off nothing but static."
+      ],
+      "synonyms": [
+        "fixed",
+        "stationary"
+      ],
+      "antonyms": [
+        "dynamic"
+      ],
+      "related": [
+        "state",
+        "station",
+        "stationary",
+        "statement"
+      ],
+      "semantic_expansions": [
+        "静止的：立着不动，最本义的一层",
+        "静电：电荷停在物体表面不流动",
+        "杂音：信号里不流动的那层底噪。三个中文词共享'不流动'这一个画面"
+      ]
+    },
+    {
+      "id": "stationary",
+      "word": "stationary",
+      "pos": "adjective",
+      "phonetic": "/ˈsteɪʃəneri/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "station（固定的点）+ -ary（属于…的）→ 属于那个固定点的 → 不动的",
+      "origin": "拉丁语 stationarius：statio（站立处）的形容词形式",
+      "native_definition": "not moving from one place",
+      "core_concept": "held at one point, not travelling – 停在一个点上不移动",
+      "core_image": "堵车时整排车停着不走，发动机还响着",
+      "chinese": [
+        "不动的",
+        "静止的"
+      ],
+      "examples": [
+        "The traffic was stationary for an hour.",
+        "Keep the camera stationary while filming."
+      ],
+      "synonyms": [
+        "fixed",
+        "still"
+      ],
+      "antonyms": [
+        "mobile",
+        "movable"
+      ],
+      "related": [
+        "station",
+        "static",
+        "state"
+      ],
+      "semantic_expansions": [
+        "不动的与静止的：中文两种译法，英文都是'钉在那个点上没走'"
+      ]
+    },
+    {
+      "id": "institution",
+      "word": "institution",
+      "pos": "noun",
+      "phonetic": "/ˌɪnstɪˈtuːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "in-（进入）+ stit（sta 的变体，立）+ -ution → 在社会里立起来的东西 → 机构、制度",
+      "origin": "拉丁语 institutio：in-（进入）+ statuere（使立起，源自 stare）",
+      "native_definition": "an established organization, or an established custom or law",
+      "core_concept": "something set up and left standing in society – 在社会中立起来并延续下去的东西",
+      "core_image": "一栋石砌大楼立在城中，几代人换了它还在",
+      "chinese": [
+        "机构",
+        "制度",
+        "惯例"
+      ],
+      "examples": [
+        "The bank is one of the country's oldest institutions.",
+        "Marriage is a social institution."
+      ],
+      "synonyms": [
+        "organization",
+        "establish"
+      ],
+      "antonyms": [],
+      "related": [
+        "constitution",
+        "state",
+        "station"
+      ],
+      "semantic_expansions": [
+        "机构：立在社会里的那个实体组织",
+        "制度/惯例：立起来并被延续的做法。同一个'立起来就留着'，一个是实体一个是规则"
+      ]
+    },
+    {
+      "id": "constitution",
+      "word": "constitution",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːnstɪˈtuːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "con-（一起）+ stit（立）+ -ution → 把各部分一起立成一个整体 → 构成、宪法、体质",
+      "origin": "拉丁语 constitutio：con-（一起）+ statuere（使立起）",
+      "native_definition": "the way something is made up, or the fundamental law by which a state is governed",
+      "core_concept": "how the parts are set up to stand together – 各部分被一起立成整体的方式",
+      "core_image": "一部法典摊在桌上，国家的骨架就照它立起来",
+      "chinese": [
+        "宪法",
+        "构成",
+        "体质"
+      ],
+      "examples": [
+        "The constitution guarantees freedom of speech.",
+        "He has a strong constitution and rarely falls ill."
+      ],
+      "synonyms": [
+        "structure",
+        "composition"
+      ],
+      "antonyms": [],
+      "related": [
+        "institution",
+        "state",
+        "statement"
+      ],
+      "semantic_expansions": [
+        "宪法：国家骨架据以立起来的那份根本法",
+        "构成：各部分立成整体的方式",
+        "体质：人这副身体被立起来的底子。三个中文词都指'立成整体的构造'"
+      ]
+    },
+    {
+      "id": "conclude",
+      "word": "conclude",
+      "pos": "verb",
+      "phonetic": "/kənˈkluːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "con-（一起、完全）+ clud（关闭）→ 把事情完全关上 → 结束、下结论",
+      "origin": "拉丁语 concludere：con-（一起）+ claudere（关闭）",
+      "native_definition": "to bring something to an end, or to decide after considering the facts",
+      "core_concept": "shutting a matter for good – 把一件事关上，不再敞着",
+      "core_image": "法官合上卷宗，庭审到此为止",
+      "chinese": [
+        "结束",
+        "得出结论",
+        "缔结"
+      ],
+      "examples": [
+        "The meeting concluded at five.",
+        "Police concluded that the fire was accidental.",
+        "The two sides concluded a trade deal."
+      ],
+      "synonyms": [
+        "finish",
+        "infer"
+      ],
+      "antonyms": [
+        "begin"
+      ],
+      "related": [
+        "exclude",
+        "include",
+        "exclusive",
+        "preclude"
+      ],
+      "semantic_expansions": [
+        "结束：把事情关上不再敞着",
+        "得出结论：把思考关上，落定一个说法",
+        "缔结（条约）：把谈判关上并定案。三层都是'合上、不再开着'"
+      ]
+    },
+    {
+      "id": "exclude",
+      "word": "exclude",
+      "pos": "verb",
+      "phonetic": "/ɪkˈskluːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "ex-（在外）+ clud（关闭）→ 把某物关在门外 → 排除",
+      "origin": "拉丁语 excludere：ex-（外）+ claudere（关闭）",
+      "native_definition": "to keep someone or something out, or to leave it out of a group",
+      "core_concept": "shutting something outside the boundary – 把某物关在界线之外",
+      "core_image": "门在来人面前合上，他被留在门外",
+      "chinese": [
+        "排除",
+        "不包括",
+        "把…排斥在外"
+      ],
+      "examples": [
+        "The price excludes delivery.",
+        "She felt excluded from the group."
+      ],
+      "synonyms": [
+        "omit",
+        "reject"
+      ],
+      "antonyms": [
+        "include",
+        "admit"
+      ],
+      "related": [
+        "include",
+        "conclude",
+        "exclusive",
+        "preclude"
+      ],
+      "semantic_expansions": [
+        "不包括（价格）：把这一项关在范围之外",
+        "排斥在外（人）：把人关在圈子之外。同一个'关在外面'，区别只在被关的是项目还是人"
+      ]
+    },
+    {
+      "id": "include",
+      "word": "include",
+      "pos": "verb",
+      "phonetic": "/ɪnˈkluːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "in-（在内）+ clud（关闭）→ 把某物关进范围之内 → 包含",
+      "origin": "拉丁语 includere：in-（内）+ claudere（关闭）",
+      "native_definition": "to have something as part of a whole",
+      "core_concept": "shutting something inside the boundary – 把某物关进界线之内",
+      "core_image": "把一件东西放进箱子再合盖，它从此算箱内之物",
+      "chinese": [
+        "包括",
+        "包含"
+      ],
+      "examples": [
+        "The price includes breakfast.",
+        "The team includes two new players."
+      ],
+      "synonyms": [
+        "contain"
+      ],
+      "antonyms": [
+        "exclude",
+        "omit"
+      ],
+      "related": [
+        "exclude",
+        "conclude",
+        "inclusive",
+        "preclude"
+      ],
+      "semantic_expansions": [
+        "包括与包含：都是把某物关在范围之内，中文两种译法对应同一个动作"
+      ]
+    },
+    {
+      "id": "exclusive",
+      "word": "exclusive",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈskluːsɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "exclude（关在外）+ -ive（倾向于…的）→ 惯于把别人关在外面的 → 独家的、排他的",
+      "origin": "拉丁语 exclusivus：ex-（外）+ claudere（关闭）",
+      "native_definition": "limited to one person or group and shut off from others",
+      "core_concept": "keeping others shut out – 把其他人一律关在门外",
+      "core_image": "会所门口只放持卡人进去，其余人一律拦在外面",
+      "chinese": [
+        "独家的",
+        "排他的",
+        "高档的"
+      ],
+      "examples": [
+        "The magazine ran an exclusive interview.",
+        "It is an exclusive club with a long waiting list."
+      ],
+      "synonyms": [
+        "sole",
+        "select"
+      ],
+      "antonyms": [
+        "inclusive",
+        "shared"
+      ],
+      "related": [
+        "exclude",
+        "include",
+        "inclusive",
+        "conclude"
+      ],
+      "semantic_expansions": [
+        "独家的：其他媒体被关在外面，只有我有",
+        "高档的：普通人被关在外面，因而显得贵。同一个'把别人关在外面'落到不同场合"
+      ]
+    },
+    {
+      "id": "seclude",
+      "word": "seclude",
+      "pos": "verb",
+      "phonetic": "/sɪˈkluːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "se-（分开）+ clud（关闭）→ 单独关起来 → 隔离、隐居",
+      "origin": "拉丁语 secludere：se-（分开）+ claudere（关闭）",
+      "native_definition": "to keep someone or something away from other people",
+      "core_concept": "shutting someone apart from others – 把人单独关开，断了往来",
+      "core_image": "山间独院，门一关就与外界断了往来",
+      "chinese": [
+        "隔离",
+        "隐居"
+      ],
+      "examples": [
+        "She secluded herself in a mountain cabin to write.",
+        "The monastery secludes its novices for a year."
+      ],
+      "synonyms": [
+        "isolate",
+        "separate"
+      ],
+      "antonyms": [
+        "mingle"
+      ],
+      "related": [
+        "exclude",
+        "include",
+        "conclude",
+        "preclude"
+      ],
+      "semantic_expansions": [
+        "隔离与隐居：都是单独关开、断绝往来，区别只在是否出于自愿"
+      ]
+    },
+    {
+      "id": "contain",
+      "word": "contain",
+      "pos": "verb",
+      "phonetic": "/kənˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（一起）+ tain（握住）→ 把东西一起握在里面 → 容纳、控制住",
+      "origin": "拉丁语 continere：con-（一起）+ tenere（握住）",
+      "native_definition": "to hold something inside, or to keep something under control",
+      "core_concept": "holding contents together within bounds – 把内容一起握在界限之内",
+      "core_image": "双手捧住一堆沙，手一松就散",
+      "chinese": [
+        "包含",
+        "容纳",
+        "控制"
+      ],
+      "examples": [
+        "This bottle contains two litres.",
+        "Firefighters contained the blaze by dawn."
+      ],
+      "synonyms": [
+        "hold",
+        "include"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "related": [
+        "obtain",
+        "retain",
+        "detain",
+        "sustain"
+      ],
+      "semantic_expansions": [
+        "包含/容纳：把内容握在里面不让它散出去",
+        "控制（火势/疫情）：把它握在界限内不让扩散。同一个'握住不放它出去'"
+      ]
+    },
+    {
+      "id": "obtain",
+      "word": "obtain",
+      "pos": "verb",
+      "phonetic": "/əbˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "ob-（朝向、对着）+ tain（握住）→ 伸手够到并握住 → 获得",
+      "origin": "拉丁语 obtinere：ob-（朝向）+ tenere（握住）",
+      "native_definition": "to get something, especially by effort or by asking",
+      "core_concept": "reaching out and getting hold of something – 伸手过去把东西握到手里",
+      "core_image": "隔着柜台把证件递过来，手一合就攥住了",
+      "chinese": [
+        "获得",
+        "取得"
+      ],
+      "examples": [
+        "You must obtain written permission first.",
+        "The data was obtained from public records."
+      ],
+      "synonyms": [
+        "acquire",
+        "gain"
+      ],
+      "antonyms": [
+        "lose"
+      ],
+      "related": [
+        "contain",
+        "retain",
+        "detain",
+        "sustain"
+      ],
+      "semantic_expansions": [
+        "获得与取得：都是伸手把东西握到手里，中文两种译法对应同一个动作"
+      ]
+    },
+    {
+      "id": "retain",
+      "word": "retain",
+      "pos": "verb",
+      "phonetic": "/rɪˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "re-（往回、持续）+ tain（握住）→ 一直握着不放 → 保留",
+      "origin": "拉丁语 retinere：re-（往回）+ tenere（握住）",
+      "native_definition": "to keep something and not lose or give it up",
+      "core_concept": "continuing to hold what one already has – 已经握着的继续不放",
+      "core_image": "水从指缝流走，手却仍攥着最后那一把",
+      "chinese": [
+        "保留",
+        "保持",
+        "记住"
+      ],
+      "examples": [
+        "The company retained all its staff through the downturn.",
+        "Sandy soil does not retain water.",
+        "She retains a clear memory of that night."
+      ],
+      "synonyms": [
+        "keep",
+        "preserve"
+      ],
+      "antonyms": [
+        "lose",
+        "release"
+      ],
+      "related": [
+        "contain",
+        "obtain",
+        "detain",
+        "sustain"
+      ],
+      "semantic_expansions": [
+        "保留/保持：握着的不松手",
+        "记住：把信息握在脑中不让它流走。同一个'不松手'，握的东西从实物变成记忆"
+      ]
+    },
+    {
+      "id": "detain",
+      "word": "detain",
+      "pos": "verb",
+      "phonetic": "/dɪˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "de-（离开原路）+ tain（握住）→ 把人从原本要去的路上握住 → 扣留、耽误",
+      "origin": "拉丁语 detinere：de-（离开）+ tenere（握住）",
+      "native_definition": "to keep someone from leaving, officially or by delay",
+      "core_concept": "holding someone back from going on – 把要走的人握住不让走",
+      "core_image": "机场安检把人拦下带进小房间，航班还在等",
+      "chinese": [
+        "扣留",
+        "拘留",
+        "耽误"
+      ],
+      "examples": [
+        "Two suspects were detained for questioning.",
+        "Sorry to detain you — this will only take a minute."
+      ],
+      "synonyms": [
+        "hold",
+        "delay"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "related": [
+        "contain",
+        "obtain",
+        "retain",
+        "sustain"
+      ],
+      "semantic_expansions": [
+        "拘留（警方）：正式把人握住不放走",
+        "耽误（日常）：把人留住让他走不了。同一个'握住不让走'，区别只在有无强制力"
+      ]
+    },
+    {
+      "id": "sustain",
+      "word": "sustain",
+      "pos": "verb",
+      "phonetic": "/səˈsteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "sus-（sub- 的变体，从下面）+ tain（握住）→ 从底下托住不让塌 → 维持",
+      "origin": "拉丁语 sustinere：sub-（从下）+ tenere（握住）",
+      "native_definition": "to keep something going over time, or to bear the weight of it",
+      "core_concept": "holding something up from below so it lasts – 从下面托住，使它持续不塌",
+      "core_image": "一只手在下面托住摇摇欲坠的书堆，手不撤书就不倒",
+      "chinese": [
+        "维持",
+        "承受",
+        "支撑"
+      ],
+      "examples": [
+        "The economy cannot sustain this rate of growth.",
+        "The roof sustained heavy snow all winter."
+      ],
+      "synonyms": [
+        "support",
+        "maintain"
+      ],
+      "antonyms": [
+        "abandon"
+      ],
+      "related": [
+        "contain",
+        "obtain",
+        "retain",
+        "detain",
+        "support"
+      ],
+      "semantic_expansions": [
+        "支撑/承受：从底下托住重量",
+        "维持（增长/生命）：从底下托住让它继续。同一个'托住不让塌'，一个是物理重量一个是过程"
+      ]
+    },
+    {
+      "id": "preclude",
+      "word": "preclude",
+      "pos": "verb",
+      "phonetic": "/prɪˈkluːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "pre-（在…之前）+ clud（关闭）→ 事情发生前先把门关上 → 预先排除",
+      "origin": "拉丁语 praecludere：prae-（在前）+ claudere（关闭）",
+      "native_definition": "to make something impossible in advance",
+      "core_concept": "shutting the door before something can happen – 在事情发生前先把路关掉",
+      "core_image": "闸门在洪水到来之前就已落下，水根本进不来",
+      "chinese": [
+        "排除",
+        "阻止",
+        "使不可能"
+      ],
+      "examples": [
+        "His injury precludes any chance of competing.",
+        "The contract precludes further claims."
+      ],
+      "synonyms": [
+        "prevent",
+        "prohibit"
+      ],
+      "antonyms": [
+        "allow",
+        "permit"
+      ],
+      "related": [
+        "conclude",
+        "exclude",
+        "include",
+        "seclude"
+      ],
+      "semantic_expansions": [
+        "排除与阻止：都是提前把门关上让事情无从发生，区别只在语气强弱"
+      ]
+    },
+    {
+      "id": "inclusive",
+      "word": "inclusive",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈkluːsɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "include（关在内）+ -ive（倾向于…的）→ 惯于把人一起关在内的 → 包容的、含…在内的",
+      "origin": "拉丁语 inclusivus：in-（内）+ claudere（关闭）",
+      "native_definition": "containing everything mentioned, or open to everyone",
+      "core_concept": "keeping everyone and everything inside the boundary – 把所有人和项都关在范围之内",
+      "core_image": "圈子画得很大，所有人都被圈在里面，没人留在外头",
+      "chinese": [
+        "包含在内的",
+        "包容的",
+        "总括的"
+      ],
+      "examples": [
+        "The price is inclusive of tax.",
+        "The school has an inclusive admissions policy."
+      ],
+      "synonyms": [
+        "comprehensive",
+        "open"
+      ],
+      "antonyms": [
+        "exclusive"
+      ],
+      "related": [
+        "include",
+        "exclude",
+        "exclusive",
+        "conclude"
+      ],
+      "semantic_expansions": [
+        "包含在内的（价格）：项目被关在范围之内",
+        "包容的（政策）：人被关在圈子之内。同一个'都圈在里面'，一个对物一个对人"
+      ]
+    }
+  ]
+}

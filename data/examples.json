@@ -1078,6 +1078,272 @@
       "text": "She was abducted near the station.",
       "source": "AI 生成 · 人工审核",
       "scene": "面包车停下，人被拽上车后车门关上"
+    },
+    {
+      "id": "ex-statement-1",
+      "word_id": "statement",
+      "text": "The minister issued a short statement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银行把一张对账单摊在柜台上，数字一行行立在纸面"
+    },
+    {
+      "id": "ex-statement-2",
+      "word_id": "statement",
+      "text": "Check your bank statement each month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银行把一张对账单摊在柜台上，数字一行行立在纸面"
+    },
+    {
+      "id": "ex-station-1",
+      "word_id": "station",
+      "text": "The train pulls into the station at noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "月台立在原地，列车来了又走，它始终没动"
+    },
+    {
+      "id": "ex-station-2",
+      "word_id": "station",
+      "text": "He was posted to a remote station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "月台立在原地，列车来了又走，它始终没动"
+    },
+    {
+      "id": "ex-static-1",
+      "word_id": "static",
+      "text": "House prices remained static all year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "收音机指针一动不动，喇叭里只剩沙沙的杂音"
+    },
+    {
+      "id": "ex-static-2",
+      "word_id": "static",
+      "text": "The radio gave off nothing but static.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "收音机指针一动不动，喇叭里只剩沙沙的杂音"
+    },
+    {
+      "id": "ex-stationary-1",
+      "word_id": "stationary",
+      "text": "The traffic was stationary for an hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "堵车时整排车停着不走，发动机还响着"
+    },
+    {
+      "id": "ex-stationary-2",
+      "word_id": "stationary",
+      "text": "Keep the camera stationary while filming.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "堵车时整排车停着不走，发动机还响着"
+    },
+    {
+      "id": "ex-institution-1",
+      "word_id": "institution",
+      "text": "The bank is one of the country's oldest institutions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋石砌大楼立在城中，几代人换了它还在"
+    },
+    {
+      "id": "ex-institution-2",
+      "word_id": "institution",
+      "text": "Marriage is a social institution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋石砌大楼立在城中，几代人换了它还在"
+    },
+    {
+      "id": "ex-constitution-1",
+      "word_id": "constitution",
+      "text": "The constitution guarantees freedom of speech.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一部法典摊在桌上，国家的骨架就照它立起来"
+    },
+    {
+      "id": "ex-constitution-2",
+      "word_id": "constitution",
+      "text": "He has a strong constitution and rarely falls ill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一部法典摊在桌上，国家的骨架就照它立起来"
+    },
+    {
+      "id": "ex-conclude-1",
+      "word_id": "conclude",
+      "text": "The meeting concluded at five.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法官合上卷宗，庭审到此为止"
+    },
+    {
+      "id": "ex-conclude-2",
+      "word_id": "conclude",
+      "text": "Police concluded that the fire was accidental.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法官合上卷宗，庭审到此为止"
+    },
+    {
+      "id": "ex-conclude-3",
+      "word_id": "conclude",
+      "text": "The two sides concluded a trade deal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法官合上卷宗，庭审到此为止"
+    },
+    {
+      "id": "ex-exclude-1",
+      "word_id": "exclude",
+      "text": "The price excludes delivery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门在来人面前合上，他被留在门外"
+    },
+    {
+      "id": "ex-exclude-2",
+      "word_id": "exclude",
+      "text": "She felt excluded from the group.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门在来人面前合上，他被留在门外"
+    },
+    {
+      "id": "ex-include-1",
+      "word_id": "include",
+      "text": "The price includes breakfast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把一件东西放进箱子再合盖，它从此算箱内之物"
+    },
+    {
+      "id": "ex-include-2",
+      "word_id": "include",
+      "text": "The team includes two new players.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把一件东西放进箱子再合盖，它从此算箱内之物"
+    },
+    {
+      "id": "ex-exclusive-1",
+      "word_id": "exclusive",
+      "text": "The magazine ran an exclusive interview.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会所门口只放持卡人进去，其余人一律拦在外面"
+    },
+    {
+      "id": "ex-exclusive-2",
+      "word_id": "exclusive",
+      "text": "It is an exclusive club with a long waiting list.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会所门口只放持卡人进去，其余人一律拦在外面"
+    },
+    {
+      "id": "ex-seclude-1",
+      "word_id": "seclude",
+      "text": "She secluded herself in a mountain cabin to write.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山间独院，门一关就与外界断了往来"
+    },
+    {
+      "id": "ex-seclude-2",
+      "word_id": "seclude",
+      "text": "The monastery secludes its novices for a year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山间独院，门一关就与外界断了往来"
+    },
+    {
+      "id": "ex-contain-1",
+      "word_id": "contain",
+      "text": "This bottle contains two litres.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "双手捧住一堆沙，手一松就散"
+    },
+    {
+      "id": "ex-contain-2",
+      "word_id": "contain",
+      "text": "Firefighters contained the blaze by dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "双手捧住一堆沙，手一松就散"
+    },
+    {
+      "id": "ex-obtain-1",
+      "word_id": "obtain",
+      "text": "You must obtain written permission first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "隔着柜台把证件递过来，手一合就攥住了"
+    },
+    {
+      "id": "ex-obtain-2",
+      "word_id": "obtain",
+      "text": "The data was obtained from public records.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "隔着柜台把证件递过来，手一合就攥住了"
+    },
+    {
+      "id": "ex-retain-1",
+      "word_id": "retain",
+      "text": "The company retained all its staff through the downturn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从指缝流走，手却仍攥着最后那一把"
+    },
+    {
+      "id": "ex-retain-2",
+      "word_id": "retain",
+      "text": "Sandy soil does not retain water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从指缝流走，手却仍攥着最后那一把"
+    },
+    {
+      "id": "ex-retain-3",
+      "word_id": "retain",
+      "text": "She retains a clear memory of that night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从指缝流走，手却仍攥着最后那一把"
+    },
+    {
+      "id": "ex-detain-1",
+      "word_id": "detain",
+      "text": "Two suspects were detained for questioning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机场安检把人拦下带进小房间，航班还在等"
+    },
+    {
+      "id": "ex-detain-2",
+      "word_id": "detain",
+      "text": "Sorry to detain you — this will only take a minute.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机场安检把人拦下带进小房间，航班还在等"
+    },
+    {
+      "id": "ex-sustain-1",
+      "word_id": "sustain",
+      "text": "The economy cannot sustain this rate of growth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手在下面托住摇摇欲坠的书堆，手不撤书就不倒"
+    },
+    {
+      "id": "ex-sustain-2",
+      "word_id": "sustain",
+      "text": "The roof sustained heavy snow all winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手在下面托住摇摇欲坠的书堆，手不撤书就不倒"
+    },
+    {
+      "id": "ex-preclude-1",
+      "word_id": "preclude",
+      "text": "His injury precludes any chance of competing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸门在洪水到来之前就已落下，水根本进不来"
+    },
+    {
+      "id": "ex-preclude-2",
+      "word_id": "preclude",
+      "text": "The contract precludes further claims.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸门在洪水到来之前就已落下，水根本进不来"
+    },
+    {
+      "id": "ex-inclusive-1",
+      "word_id": "inclusive",
+      "text": "The price is inclusive of tax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圈子画得很大，所有人都被圈在里面，没人留在外头"
+    },
+    {
+      "id": "ex-inclusive-2",
+      "word_id": "inclusive",
+      "text": "The school has an inclusive admissions policy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圈子画得很大，所有人都被圈在里面，没人留在外头"
     }
   ]
 }

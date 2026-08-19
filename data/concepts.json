@@ -232,6 +232,58 @@
         "describe",
         "state"
       ]
+    },
+    {
+      "id": "concept-sta-stand",
+      "concept": "to stand firm",
+      "chinese": "站定、立住",
+      "core_image": "一根柱子稳稳立在地上不被推动",
+      "root_ids": [
+        "sta"
+      ],
+      "word_ids": [
+        "statement",
+        "station",
+        "static",
+        "stationary",
+        "institution",
+        "constitution",
+        "state"
+      ]
+    },
+    {
+      "id": "concept-clud-shut",
+      "concept": "to shut off",
+      "chinese": "关闭、封住",
+      "core_image": "门被推上落锁，内外从此分开",
+      "root_ids": [
+        "clud"
+      ],
+      "word_ids": [
+        "conclude",
+        "exclude",
+        "include",
+        "exclusive",
+        "seclude",
+        "preclude",
+        "inclusive"
+      ]
+    },
+    {
+      "id": "concept-tain-hold",
+      "concept": "to hold",
+      "chinese": "握住、持有",
+      "core_image": "手掌合拢握住东西不松开",
+      "root_ids": [
+        "tain"
+      ],
+      "word_ids": [
+        "contain",
+        "obtain",
+        "retain",
+        "detain",
+        "sustain"
+      ]
     }
   ]
 }

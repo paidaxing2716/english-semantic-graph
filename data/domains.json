@@ -47,6 +47,18 @@
         "spect",
         "scrib-script"
       ]
+    },
+    {
+      "id": "domain-hold",
+      "name": "hold & enclose",
+      "chinese": "持存与围合",
+      "core_image": "东西被立住、被握住、被关进某个范围里，从此不再移动或流失",
+      "description": "关于'让某物停在原处'的词根：立定、握住、封闭。前缀决定停的方式——立在哪、握多久、关在内还是关在外。",
+      "root_ids": [
+        "sta",
+        "tain",
+        "clud"
+      ]
     }
   ]
 }

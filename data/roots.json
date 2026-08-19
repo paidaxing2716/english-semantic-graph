@@ -240,6 +240,70 @@
         "transportation",
         "reporter"
       ]
+    },
+    {
+      "id": "sta",
+      "root": "sta",
+      "variants": [
+        "sta",
+        "stat",
+        "stit"
+      ],
+      "origin": "拉丁语 stare（站立、立定）",
+      "core_concept": "to stand, to be set in place / 站定、立住不动",
+      "core_image": "一根柱子稳稳立在地上，人绕着它走它也不动",
+      "english_definition": "to stand, to stay in place",
+      "word_ids": [
+        "statement",
+        "station",
+        "static",
+        "stationary",
+        "institution",
+        "constitution",
+        "state"
+      ]
+    },
+    {
+      "id": "clud",
+      "root": "clud",
+      "variants": [
+        "clud",
+        "clus",
+        "claus"
+      ],
+      "origin": "拉丁语 claudere（关闭、封住）",
+      "core_concept": "to shut, to close off / 关上、封住通路",
+      "core_image": "一扇门被推上并落锁，门内门外从此分开",
+      "english_definition": "to shut, to close",
+      "word_ids": [
+        "conclude",
+        "exclude",
+        "include",
+        "exclusive",
+        "seclude",
+        "preclude",
+        "inclusive"
+      ]
+    },
+    {
+      "id": "tain",
+      "root": "tain",
+      "variants": [
+        "tain",
+        "ten",
+        "tin"
+      ],
+      "origin": "拉丁语 tenere（握住、持有）",
+      "core_concept": "to hold, to keep in grasp / 握住不放",
+      "core_image": "手掌合拢握住一件东西，不松开",
+      "english_definition": "to hold, to keep",
+      "word_ids": [
+        "contain",
+        "obtain",
+        "retain",
+        "detain",
+        "sustain"
+      ]
     }
   ]
 }

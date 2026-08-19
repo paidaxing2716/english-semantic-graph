@@ -696,6 +696,114 @@
       "to": "abduct",
       "type": "root",
       "note": "ab-（离开）+ duct（引导、带走）→ 强行把人带离原处 → 绑架"
+    },
+    {
+      "from": "sta",
+      "to": "statement",
+      "type": "root",
+      "note": "sta（立）+ -ment（结果）→ 被立在那里、供人查看的一份东西 → 陈述、报表"
+    },
+    {
+      "from": "sta",
+      "to": "station",
+      "type": "root",
+      "note": "sta（立）+ -tion（名词）→ 固定站住的那个点 → 站、台、岗位"
+    },
+    {
+      "from": "sta",
+      "to": "static",
+      "type": "root",
+      "note": "sta（立）+ -ic（形容词）→ 立着不动的 → 静止的"
+    },
+    {
+      "from": "sta",
+      "to": "stationary",
+      "type": "root",
+      "note": "station（固定的点）+ -ary（属于…的）→ 属于那个固定点的 → 不动的"
+    },
+    {
+      "from": "sta",
+      "to": "institution",
+      "type": "root",
+      "note": "in-（进入）+ stit（sta 的变体，立）+ -ution → 在社会里立起来的东西 → 机构、制度"
+    },
+    {
+      "from": "sta",
+      "to": "constitution",
+      "type": "root",
+      "note": "con-（一起）+ stit（立）+ -ution → 把各部分一起立成一个整体 → 构成、宪法、体质"
+    },
+    {
+      "from": "clud",
+      "to": "conclude",
+      "type": "root",
+      "note": "con-（一起、完全）+ clud（关闭）→ 把事情完全关上 → 结束、下结论"
+    },
+    {
+      "from": "clud",
+      "to": "exclude",
+      "type": "root",
+      "note": "ex-（在外）+ clud（关闭）→ 把某物关在门外 → 排除"
+    },
+    {
+      "from": "clud",
+      "to": "include",
+      "type": "root",
+      "note": "in-（在内）+ clud（关闭）→ 把某物关进范围之内 → 包含"
+    },
+    {
+      "from": "clud",
+      "to": "exclusive",
+      "type": "root",
+      "note": "exclude（关在外）+ -ive（倾向于…的）→ 惯于把别人关在外面的 → 独家的、排他的"
+    },
+    {
+      "from": "clud",
+      "to": "seclude",
+      "type": "root",
+      "note": "se-（分开）+ clud（关闭）→ 单独关起来 → 隔离、隐居"
+    },
+    {
+      "from": "tain",
+      "to": "contain",
+      "type": "root",
+      "note": "con-（一起）+ tain（握住）→ 把东西一起握在里面 → 容纳、控制住"
+    },
+    {
+      "from": "tain",
+      "to": "obtain",
+      "type": "root",
+      "note": "ob-（朝向、对着）+ tain（握住）→ 伸手够到并握住 → 获得"
+    },
+    {
+      "from": "tain",
+      "to": "retain",
+      "type": "root",
+      "note": "re-（往回、持续）+ tain（握住）→ 一直握着不放 → 保留"
+    },
+    {
+      "from": "tain",
+      "to": "detain",
+      "type": "root",
+      "note": "de-（离开原路）+ tain（握住）→ 把人从原本要去的路上握住 → 扣留、耽误"
+    },
+    {
+      "from": "tain",
+      "to": "sustain",
+      "type": "root",
+      "note": "sus-（sub- 的变体，从下面）+ tain（握住）→ 从底下托住不让塌 → 维持"
+    },
+    {
+      "from": "clud",
+      "to": "preclude",
+      "type": "root",
+      "note": "pre-（在…之前）+ clud（关闭）→ 事情发生前先把门关上 → 预先排除"
+    },
+    {
+      "from": "clud",
+      "to": "inclusive",
+      "type": "root",
+      "note": "include（关在内）+ -ive（倾向于…的）→ 惯于把人一起关在内的 → 包容的、含…在内的"
     }
   ]
 }
