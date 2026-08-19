@@ -2744,6 +2744,223 @@
       "text": "Steps were taken to rectify the imbalance.",
       "source": "AI 生成 · 人工审核",
       "scene": "弯了的钢条被压回一条直线"
+    },
+    {
+      "id": "ex-movement-1",
+      "word_id": "movement",
+      "text": "She noticed a movement behind the curtain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "监控画面里草丛动了一下，别处都静着"
+    },
+    {
+      "id": "ex-movement-2",
+      "word_id": "movement",
+      "text": "The civil rights movement changed the law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "监控画面里草丛动了一下，别处都静着"
+    },
+    {
+      "id": "ex-motion-1",
+      "word_id": "motion",
+      "text": "The laws of motion were set out by Newton.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钟摆一直左右晃，从没停在中间"
+    },
+    {
+      "id": "ex-motion-2",
+      "word_id": "motion",
+      "text": "The motion was carried by a wide margin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钟摆一直左右晃，从没停在中间"
+    },
+    {
+      "id": "ex-motive-1",
+      "word_id": "motive",
+      "text": "Police could find no motive for the attack.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "查案时找的不是脚印，而是他为什么要走这一趟"
+    },
+    {
+      "id": "ex-motive-2",
+      "word_id": "motive",
+      "text": "Profit was not her only motive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "查案时找的不是脚印，而是他为什么要走这一趟"
+    },
+    {
+      "id": "ex-motor-1",
+      "word_id": "motor",
+      "text": "The motor burned out after ten years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "接通电源，铁芯里的轴开始转，带着皮带一起走"
+    },
+    {
+      "id": "ex-motor-2",
+      "word_id": "motor",
+      "text": "Motor vehicles are banned in the old town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "接通电源，铁芯里的轴开始转，带着皮带一起走"
+    },
+    {
+      "id": "ex-removal-1",
+      "word_id": "removal",
+      "text": "Removal of the tumour took four hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上取下画之后，留下一块颜色更深的方形"
+    },
+    {
+      "id": "ex-removal-2",
+      "word_id": "removal",
+      "text": "The removal van arrives at eight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上取下画之后，留下一块颜色更深的方形"
+    },
+    {
+      "id": "ex-convert-1",
+      "word_id": "convert",
+      "text": "The mill was converted into flats.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "阁楼加了窗和地板，从堆杂物的地方变成能住的房间"
+    },
+    {
+      "id": "ex-convert-2",
+      "word_id": "convert",
+      "text": "He converted to Buddhism in his forties.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "阁楼加了窗和地板，从堆杂物的地方变成能住的房间"
+    },
+    {
+      "id": "ex-divert-1",
+      "word_id": "divert",
+      "text": "Traffic was diverted around the accident.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路障立起来，车流被引向旁边那条巷子"
+    },
+    {
+      "id": "ex-divert-2",
+      "word_id": "divert",
+      "text": "He tried to divert attention from the real issue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路障立起来，车流被引向旁边那条巷子"
+    },
+    {
+      "id": "ex-invert-1",
+      "word_id": "invert",
+      "text": "Invert the tin to release the cake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯子倒扣在桌上，杯口朝下水流不出来"
+    },
+    {
+      "id": "ex-invert-2",
+      "word_id": "invert",
+      "text": "The usual order is inverted here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯子倒扣在桌上，杯口朝下水流不出来"
+    },
+    {
+      "id": "ex-conversation-1",
+      "word_id": "conversation",
+      "text": "We had a long conversation about it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人隔桌坐着，话一句来一句去，谁都没独占"
+    },
+    {
+      "id": "ex-conversation-2",
+      "word_id": "conversation",
+      "text": "She struck up a conversation with the driver.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人隔桌坐着，话一句来一句去，谁都没独占"
+    },
+    {
+      "id": "ex-advertise-1",
+      "word_id": "advertise",
+      "text": "They advertised the post in two papers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街边竖起大牌子，路过的人一个个抬头看过来"
+    },
+    {
+      "id": "ex-advertise-2",
+      "word_id": "advertise",
+      "text": "The company advertises heavily online.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街边竖起大牌子，路过的人一个个抬头看过来"
+    },
+    {
+      "id": "ex-expel-1",
+      "word_id": "expel",
+      "text": "He was expelled from school at sixteen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两名管理员架着人往大门外走，门在身后合上"
+    },
+    {
+      "id": "ex-expel-2",
+      "word_id": "expel",
+      "text": "The engine expels hot gas.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两名管理员架着人往大门外走，门在身后合上"
+    },
+    {
+      "id": "ex-compel-1",
+      "word_id": "compel",
+      "text": "Illness compelled him to retire early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "背后有人一直推，前面只有一条路可走"
+    },
+    {
+      "id": "ex-compel-2",
+      "word_id": "compel",
+      "text": "Nothing can compel me to sign.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "背后有人一直推，前面只有一条路可走"
+    },
+    {
+      "id": "ex-compulsory-1",
+      "word_id": "compulsory",
+      "text": "Attendance is compulsory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校门口的名单上每一项都打了勾，没有留空的余地"
+    },
+    {
+      "id": "ex-compulsory-2",
+      "word_id": "compulsory",
+      "text": "Maths is a compulsory subject here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校门口的名单上每一项都打了勾，没有留空的余地"
+    },
+    {
+      "id": "ex-propel-1",
+      "word_id": "propel",
+      "text": "Jets are propelled by burning fuel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "螺旋桨在水里搅动，把整条船往前顶"
+    },
+    {
+      "id": "ex-propel-2",
+      "word_id": "propel",
+      "text": "The scandal propelled her into politics.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "螺旋桨在水里搅动，把整条船往前顶"
+    },
+    {
+      "id": "ex-repel-1",
+      "word_id": "repel",
+      "text": "This coating repels water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块磁铁同极相对，一靠近就被弹开"
+    },
+    {
+      "id": "ex-repel-2",
+      "word_id": "repel",
+      "text": "The garrison repelled the attack.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块磁铁同极相对，一靠近就被弹开"
+    },
+    {
+      "id": "ex-repel-3",
+      "word_id": "repel",
+      "text": "His manner repelled her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块磁铁同极相对，一靠近就被弹开"
     }
   ]
 }

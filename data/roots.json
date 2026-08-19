@@ -616,6 +616,63 @@
         "director",
         "rectify"
       ]
+    },
+    {
+      "id": "mov",
+      "root": "mov",
+      "variants": [
+        "mov",
+        "mot"
+      ],
+      "origin": "拉丁语 movere（移动、推动）",
+      "core_concept": "to move, to set going / 使动起来、挪位置",
+      "core_image": "推一把停着的推车，它开始滚动",
+      "english_definition": "to move, to stir",
+      "word_ids": [
+        "motion",
+        "motive",
+        "motor",
+        "movement",
+        "removal"
+      ]
+    },
+    {
+      "id": "vert",
+      "root": "vert",
+      "variants": [
+        "vert",
+        "vers"
+      ],
+      "origin": "拉丁语 vertere（转、翻）",
+      "core_concept": "to turn / 转向、翻过来",
+      "core_image": "把手里的牌翻个面，朝向变了牌还是那张",
+      "english_definition": "to turn",
+      "word_ids": [
+        "advertise",
+        "conversation",
+        "convert",
+        "divert",
+        "invert"
+      ]
+    },
+    {
+      "id": "pel",
+      "root": "pel",
+      "variants": [
+        "pel",
+        "puls"
+      ],
+      "origin": "拉丁语 pellere（推、驱赶）",
+      "core_concept": "to push, to drive away / 推、赶走",
+      "core_image": "一掌推在背上，人被推得往前走",
+      "english_definition": "to push, to drive",
+      "word_ids": [
+        "compel",
+        "compulsory",
+        "expel",
+        "propel",
+        "repel"
+      ]
     }
   ]
 }

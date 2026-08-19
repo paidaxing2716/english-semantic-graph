@@ -11,7 +11,8 @@
       "root_ids": [
         "press",
         "tract",
-        "tend"
+        "tend",
+        "pel"
       ]
     },
     {
@@ -40,7 +41,9 @@
         "duc-duct",
         "ced",
         "jac",
-        "rect"
+        "rect",
+        "mov",
+        "vert"
       ]
     },
     {

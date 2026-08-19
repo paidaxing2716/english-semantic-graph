@@ -1,0 +1,438 @@
+{
+  "roots": [
+    {
+      "id": "mov",
+      "root": "mov",
+      "variants": ["mov", "mot"],
+      "origin": "拉丁语 movere（移动、推动）",
+      "core_concept": "to move, to set going / 使动起来、挪位置",
+      "core_image": "推一把停着的推车，它开始滚动",
+      "english_definition": "to move, to stir",
+      "word_ids": []
+    },
+    {
+      "id": "vert",
+      "root": "vert",
+      "variants": ["vert", "vers"],
+      "origin": "拉丁语 vertere（转、翻）",
+      "core_concept": "to turn / 转向、翻过来",
+      "core_image": "把手里的牌翻个面，朝向变了牌还是那张",
+      "english_definition": "to turn",
+      "word_ids": []
+    },
+    {
+      "id": "pel",
+      "root": "pel",
+      "variants": ["pel", "puls"],
+      "origin": "拉丁语 pellere（推、驱赶）",
+      "core_concept": "to push, to drive away / 推、赶走",
+      "core_image": "一掌推在背上，人被推得往前走",
+      "english_definition": "to push, to drive",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-mov-move",
+      "concept": "to move, to set going",
+      "chinese": "移动、推动",
+      "core_image": "推一把停着的推车，它开始滚动",
+      "root_ids": ["mov"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-vert-turn",
+      "concept": "to turn",
+      "chinese": "转向、翻转",
+      "core_image": "把牌翻个面，朝向变了牌还是那张",
+      "root_ids": ["vert"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-pel-push",
+      "concept": "to push, to drive away",
+      "chinese": "推、驱赶",
+      "core_image": "一掌推在背上，人被推得往前走",
+      "root_ids": ["pel"],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-transfer": ["mov", "vert"],
+    "domain-force": ["pel"]
+  },
+  "words": [
+    {
+      "id": "movement",
+      "word": "movement",
+      "pos": "noun",
+      "phonetic": "/ˈmuːvmənt/",
+      "decomposable": "root",
+      "root_ids": ["mov"],
+      "root_logic": "mov（移动）+ -ment（结果）→ 动这件事本身，或一群人一起动起来 → 运动",
+      "recall_hint": "mov（移动）+ -ment → 动这件事本身；也指一群人朝同一方向动起来",
+      "origin": "拉丁语 movere（移动）",
+      "native_definition": "a change of position, or a group of people working toward a shared goal",
+      "core_concept": "the fact of something changing position – 位置发生改变这件事",
+      "core_image": "监控画面里草丛动了一下，别处都静着",
+      "chinese": ["运动", "移动", "运动（社会）"],
+      "examples": [
+        "She noticed a movement behind the curtain.",
+        "The civil rights movement changed the law."
+      ],
+      "synonyms": ["motion", "campaign"],
+      "antonyms": [],
+      "related": ["motion", "motive", "motor", "removal"],
+      "semantic_expansions": [
+        "移动：位置改变这件事",
+        "社会运动：一群人朝同一方向动起来。同一个'动'，一个是物理位移一个是集体行动"
+      ]
+    },
+    {
+      "id": "motion",
+      "word": "motion",
+      "pos": "noun",
+      "phonetic": "/ˈmoʊʃn/",
+      "decomposable": "root",
+      "root_ids": ["mov"],
+      "root_logic": "mot（mov 的变体，动）+ -ion（名词）→ 动的状态；会议上被推出来待表决的那一项 → 动议",
+      "recall_hint": "mot（动）+ -ion → 处在动的状态；也指会上被推出来等表决的那一项",
+      "origin": "拉丁语 motio：movere（移动）",
+      "native_definition": "the state of moving, or a formal proposal put to a meeting",
+      "core_concept": "being in the state of moving – 处在动着的状态",
+      "core_image": "钟摆一直左右晃，从没停在中间",
+      "chinese": ["运动", "动作", "动议"],
+      "examples": [
+        "The laws of motion were set out by Newton.",
+        "The motion was carried by a wide margin."
+      ],
+      "synonyms": ["movement", "proposal"],
+      "antonyms": ["rest"],
+      "related": ["movement", "motive", "motor", "removal"],
+      "semantic_expansions": [
+        "运动/动作：处在动着的状态",
+        "动议：在会上被推动起来的那一项提案。同一个'动'，一个是物理一个是程序"
+      ]
+    },
+    {
+      "id": "motive",
+      "word": "motive",
+      "pos": "noun",
+      "phonetic": "/ˈmoʊtɪv/",
+      "decomposable": "root",
+      "root_ids": ["mov"],
+      "root_logic": "mot（动）+ -ive（使…的）→ 使人动起来的那个东西 → 动机",
+      "origin": "拉丁语 motivus：movere（推动）",
+      "native_definition": "the reason that makes someone act",
+      "core_concept": "what sets a person in motion – 推着人动起来的那个缘由",
+      "core_image": "查案时找的不是脚印，而是他为什么要走这一趟",
+      "chinese": ["动机", "目的"],
+      "examples": [
+        "Police could find no motive for the attack.",
+        "Profit was not her only motive."
+      ],
+      "synonyms": ["reason", "purpose"],
+      "antonyms": [],
+      "related": ["motion", "movement", "motor", "removal"],
+      "semantic_expansions": [
+        "动机与目的：都是'推着人动起来的那个缘由'，一个偏内因一个偏所指"
+      ]
+    },
+    {
+      "id": "motor",
+      "word": "motor",
+      "pos": "noun",
+      "phonetic": "/ˈmoʊtər/",
+      "decomposable": "root",
+      "root_ids": ["mov"],
+      "root_logic": "mot（动）+ -or（施动器）→ 负责使东西动起来的那件装置 → 马达",
+      "origin": "拉丁语 motor：movere（推动）",
+      "native_definition": "a machine that makes something move, especially using electricity",
+      "core_concept": "the device that produces motion – 专门制造运动的那个器械",
+      "core_image": "接通电源，铁芯里的轴开始转，带着皮带一起走",
+      "chinese": ["马达", "发动机", "机动的"],
+      "examples": [
+        "The motor burned out after ten years.",
+        "Motor vehicles are banned in the old town."
+      ],
+      "synonyms": ["engine"],
+      "antonyms": [],
+      "related": ["motion", "motive", "movement"],
+      "semantic_expansions": [
+        "马达/发动机：制造运动的那个装置",
+        "机动的（形容词）：靠这种装置驱动的。同一个'使动之物'，一个是物一个是属性"
+      ]
+    },
+    {
+      "id": "removal",
+      "word": "removal",
+      "pos": "noun",
+      "phonetic": "/rɪˈmuːvl/",
+      "decomposable": "root",
+      "root_ids": ["mov"],
+      "root_logic": "re-（离开）+ mov（移动）+ -al（名词）→ 把某物移走这件事 → 移除",
+      "origin": "拉丁语 re-（离开）+ movere（移动）",
+      "native_definition": "the act of taking something away from a place",
+      "core_concept": "the act of moving something out of place – 把某物从原处移走这件事",
+      "core_image": "墙上取下画之后，留下一块颜色更深的方形",
+      "chinese": ["移除", "拆除", "搬迁"],
+      "examples": [
+        "Removal of the tumour took four hours.",
+        "The removal van arrives at eight."
+      ],
+      "synonyms": ["extraction"],
+      "antonyms": [],
+      "related": ["movement", "motion", "motive"],
+      "semantic_expansions": [
+        "移除/拆除：把某物从原处移走",
+        "搬迁：把整份家当移到别处。同一个'移开'，区别只在移的是一件还是全部"
+      ]
+    },
+    {
+      "id": "convert",
+      "word": "convert",
+      "pos": "verb",
+      "phonetic": "/kənˈvɜːrt/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "con-（完全）+ vert（转）→ 整个翻转成另一种 → 转变",
+      "origin": "拉丁语 convertere：com-（完全）+ vertere（转）",
+      "native_definition": "to change something into a different form, or to change one's belief",
+      "core_concept": "turning something entirely into another form – 整个转成另一种形态",
+      "core_image": "阁楼加了窗和地板，从堆杂物的地方变成能住的房间",
+      "chinese": ["转变", "改装", "皈依"],
+      "examples": [
+        "The mill was converted into flats.",
+        "He converted to Buddhism in his forties."
+      ],
+      "synonyms": ["change", "transform"],
+      "antonyms": [],
+      "related": ["divert", "invert", "conversation", "advertise"],
+      "semantic_expansions": [
+        "转变/改装：整体翻成另一种形态",
+        "皈依：把信仰整个翻过来。同一个'完全转过去'，转的是物还是立场"
+      ]
+    },
+    {
+      "id": "divert",
+      "word": "divert",
+      "pos": "verb",
+      "phonetic": "/daɪˈvɜːrt/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "di-（dis- 的变体，偏离）+ vert（转）→ 转到别的方向去 → 使转向",
+      "origin": "拉丁语 divertere：dis-（分开）+ vertere（转）",
+      "native_definition": "to change the direction of something, or to draw attention elsewhere",
+      "core_concept": "turning something onto a different path – 让某物转上另一条路",
+      "core_image": "路障立起来，车流被引向旁边那条巷子",
+      "chinese": ["使转向", "改道", "转移注意"],
+      "examples": [
+        "Traffic was diverted around the accident.",
+        "He tried to divert attention from the real issue."
+      ],
+      "synonyms": ["redirect", "distract"],
+      "antonyms": [],
+      "related": ["convert", "invert", "conversation", "advertise"],
+      "semantic_expansions": [
+        "使转向/改道：让物流或车流转上别的路",
+        "转移注意：让注意力转向别处。同一个'转到别的方向'，转的是车还是心"
+      ]
+    },
+    {
+      "id": "invert",
+      "word": "invert",
+      "pos": "verb",
+      "phonetic": "/ɪnˈvɜːrt/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "in-（向内、反过来）+ vert（转）→ 上下翻过来 → 倒置",
+      "origin": "拉丁语 invertere：in-（反）+ vertere（转）",
+      "native_definition": "to turn something upside down or reverse its order",
+      "core_concept": "turning something to its opposite orientation – 把某物翻到相反的朝向",
+      "core_image": "杯子倒扣在桌上，杯口朝下水流不出来",
+      "chinese": ["倒置", "颠倒", "反转"],
+      "examples": [
+        "Invert the tin to release the cake.",
+        "The usual order is inverted here."
+      ],
+      "synonyms": ["reverse", "overturn"],
+      "antonyms": [],
+      "related": ["convert", "divert", "conversation"],
+      "semantic_expansions": [
+        "倒置/颠倒/反转：都是'翻到相反的朝向'，中文按对象是物、次序还是关系分了三个词"
+      ]
+    },
+    {
+      "id": "conversation",
+      "word": "conversation",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːnvərˈseɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "con-（一起）+ vers（转）+ -ation → 话头在双方之间来回转 → 交谈",
+      "origin": "拉丁语 conversatio：com-（一起）+ vertere（转）——原意'与人来往周旋'",
+      "native_definition": "an informal talk between people",
+      "core_concept": "talk turning back and forth between people – 话头在人与人之间来回转",
+      "core_image": "两人隔桌坐着，话一句来一句去，谁都没独占",
+      "chinese": ["交谈", "对话"],
+      "examples": [
+        "We had a long conversation about it.",
+        "She struck up a conversation with the driver."
+      ],
+      "synonyms": ["talk", "discussion"],
+      "antonyms": [],
+      "related": ["convert", "divert", "invert"],
+      "semantic_expansions": [
+        "交谈与对话：都是'话头在双方之间来回转'，中文两种说法同一个画面"
+      ]
+    },
+    {
+      "id": "advertise",
+      "word": "advertise",
+      "pos": "verb",
+      "phonetic": "/ˈædvərtaɪz/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "ad-（朝向）+ vert（转）+ -ise → 把众人的注意转过来 → 做广告",
+      "origin": "拉丁语 advertere：ad-（朝向）+ vertere（转）——'使转向注意'",
+      "native_definition": "to make something publicly known in order to sell it or attract people",
+      "core_concept": "turning public attention toward something – 把众人的注意转到某物上",
+      "core_image": "街边竖起大牌子，路过的人一个个抬头看过来",
+      "chinese": ["做广告", "宣传", "登招聘"],
+      "examples": [
+        "They advertised the post in two papers.",
+        "The company advertises heavily online."
+      ],
+      "synonyms": ["promote", "publicize"],
+      "antonyms": [],
+      "related": ["convert", "divert", "invert", "conversation"],
+      "semantic_expansions": [
+        "做广告/宣传：把众人注意转到自己这边",
+        "登招聘：把求职者的注意转过来。同一个'使注意转向'，转来的人目的不同"
+      ]
+    },
+    {
+      "id": "expel",
+      "word": "expel",
+      "pos": "verb",
+      "phonetic": "/ɪkˈspel/",
+      "decomposable": "root",
+      "root_ids": ["pel"],
+      "root_logic": "ex-（向外）+ pel（推）→ 把人推出门外 → 驱逐、开除",
+      "origin": "拉丁语 expellere：ex-（向外）+ pellere（推）",
+      "native_definition": "to force someone to leave a place or an organization",
+      "core_concept": "pushing someone out of the boundary – 把人推到界线之外",
+      "core_image": "两名管理员架着人往大门外走，门在身后合上",
+      "chinese": ["驱逐", "开除", "排出"],
+      "examples": [
+        "He was expelled from school at sixteen.",
+        "The engine expels hot gas."
+      ],
+      "synonyms": ["banish", "eject"],
+      "antonyms": ["admit"],
+      "related": ["compel", "propel", "repel", "compulsory"],
+      "semantic_expansions": [
+        "驱逐/开除（人）：把人推出这个范围",
+        "排出（气体）：把物质推出体外。同一个'往外推'，推的是人还是物"
+      ]
+    },
+    {
+      "id": "compel",
+      "word": "compel",
+      "pos": "verb",
+      "phonetic": "/kəmˈpel/",
+      "decomposable": "root",
+      "root_ids": ["pel"],
+      "root_logic": "com-（一起、彻底）+ pel（推）→ 一路推着对方走，没有余地 → 强迫",
+      "origin": "拉丁语 compellere：com-（一起）+ pellere（推）",
+      "native_definition": "to force someone to do something",
+      "core_concept": "pushing someone until there is no other option – 一直推着，直到对方无从选择",
+      "core_image": "背后有人一直推，前面只有一条路可走",
+      "chinese": ["强迫", "迫使"],
+      "examples": [
+        "Illness compelled him to retire early.",
+        "Nothing can compel me to sign."
+      ],
+      "synonyms": ["force", "oblige"],
+      "antonyms": [],
+      "related": ["compulsory", "expel", "propel", "repel"],
+      "semantic_expansions": [
+        "强迫与迫使：都是'一路推到对方无从选择'，中文按主动被动分了两个词"
+      ]
+    },
+    {
+      "id": "compulsory",
+      "word": "compulsory",
+      "pos": "adjective",
+      "phonetic": "/kəmˈpʌlsəri/",
+      "decomposable": "root",
+      "root_ids": ["pel"],
+      "root_logic": "com-（彻底）+ puls（pel 的变体，推）+ -ory（…的）→ 被推着非做不可的 → 强制的",
+      "origin": "拉丁语 compulsorius：compellere（强迫）",
+      "native_definition": "required by rule or law, not optional",
+      "core_concept": "pushed on everyone with no opting out – 一律被推着做，不能选择不做",
+      "core_image": "校门口的名单上每一项都打了勾，没有留空的余地",
+      "chinese": ["强制的", "必修的"],
+      "examples": [
+        "Attendance is compulsory.",
+        "Maths is a compulsory subject here."
+      ],
+      "synonyms": ["mandatory", "obligatory"],
+      "antonyms": ["optional"],
+      "related": ["compel", "expel", "propel", "repel"],
+      "semantic_expansions": [
+        "强制的与必修的：都是'被推着非做不可'，中文按场合分了两个词"
+      ]
+    },
+    {
+      "id": "propel",
+      "word": "propel",
+      "pos": "verb",
+      "phonetic": "/prəˈpel/",
+      "decomposable": "root",
+      "root_ids": ["pel"],
+      "root_logic": "pro-（向前）+ pel（推）→ 往前推 → 推进",
+      "origin": "拉丁语 propellere：pro-（向前）+ pellere（推）",
+      "native_definition": "to push something forward, or to drive someone into a situation",
+      "core_concept": "pushing something forward – 把某物往前推动",
+      "core_image": "螺旋桨在水里搅动，把整条船往前顶",
+      "chinese": ["推进", "驱动"],
+      "examples": [
+        "Jets are propelled by burning fuel.",
+        "The scandal propelled her into politics."
+      ],
+      "synonyms": ["drive", "thrust"],
+      "antonyms": [],
+      "related": ["expel", "compel", "repel", "compulsory"],
+      "semantic_expansions": [
+        "推进与驱动：都是'把某物往前推'，一个偏物理一个可指处境"
+      ]
+    },
+    {
+      "id": "repel",
+      "word": "repel",
+      "pos": "verb",
+      "phonetic": "/rɪˈpel/",
+      "decomposable": "root",
+      "root_ids": ["pel"],
+      "root_logic": "re-（往回）+ pel（推）→ 把靠近的东西推回去 → 排斥",
+      "origin": "拉丁语 repellere：re-（往回）+ pellere（推）",
+      "native_definition": "to push something back or away, or to cause strong dislike",
+      "core_concept": "pushing back what comes near – 把靠近的东西推回去",
+      "core_image": "两块磁铁同极相对，一靠近就被弹开",
+      "chinese": ["排斥", "击退", "使厌恶"],
+      "examples": [
+        "This coating repels water.",
+        "The garrison repelled the attack.",
+        "His manner repelled her."
+      ],
+      "synonyms": ["reject", "disgust"],
+      "antonyms": ["attract"],
+      "related": ["expel", "compel", "propel", "attract"],
+      "semantic_expansions": [
+        "排斥/击退：把靠近的推回去",
+        "使厌恶：把人的好感推回去。同一个'往回推'——与 attract（拉过来）正好构成一对"
+      ]
+    }
+  ]
+}

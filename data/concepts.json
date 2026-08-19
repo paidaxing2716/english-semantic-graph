@@ -545,6 +545,54 @@
         "director",
         "rectify"
       ]
+    },
+    {
+      "id": "concept-mov-move",
+      "concept": "to move, to set going",
+      "chinese": "移动、推动",
+      "core_image": "推一把停着的推车，它开始滚动",
+      "root_ids": [
+        "mov"
+      ],
+      "word_ids": [
+        "motion",
+        "motive",
+        "motor",
+        "movement",
+        "removal"
+      ]
+    },
+    {
+      "id": "concept-vert-turn",
+      "concept": "to turn",
+      "chinese": "转向、翻转",
+      "core_image": "把牌翻个面，朝向变了牌还是那张",
+      "root_ids": [
+        "vert"
+      ],
+      "word_ids": [
+        "advertise",
+        "conversation",
+        "convert",
+        "divert",
+        "invert"
+      ]
+    },
+    {
+      "id": "concept-pel-push",
+      "concept": "to push, to drive away",
+      "chinese": "推、驱赶",
+      "core_image": "一掌推在背上，人被推得往前走",
+      "root_ids": [
+        "pel"
+      ],
+      "word_ids": [
+        "compel",
+        "compulsory",
+        "expel",
+        "propel",
+        "repel"
+      ]
     }
   ]
 }

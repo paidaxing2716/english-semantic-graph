@@ -1380,6 +1380,96 @@
       "to": "rectify",
       "type": "root",
       "note": "rect（使直）+ -ify（使成为）→ 使之变直 → 矫正"
+    },
+    {
+      "from": "mov",
+      "to": "movement",
+      "type": "root",
+      "note": "mov（移动）+ -ment（结果）→ 动这件事本身，或一群人一起动起来 → 运动"
+    },
+    {
+      "from": "mov",
+      "to": "motion",
+      "type": "root",
+      "note": "mot（mov 的变体，动）+ -ion（名词）→ 动的状态；会议上被推出来待表决的那一项 → 动议"
+    },
+    {
+      "from": "mov",
+      "to": "motive",
+      "type": "root",
+      "note": "mot（动）+ -ive（使…的）→ 使人动起来的那个东西 → 动机"
+    },
+    {
+      "from": "mov",
+      "to": "motor",
+      "type": "root",
+      "note": "mot（动）+ -or（施动器）→ 负责使东西动起来的那件装置 → 马达"
+    },
+    {
+      "from": "mov",
+      "to": "removal",
+      "type": "root",
+      "note": "re-（离开）+ mov（移动）+ -al（名词）→ 把某物移走这件事 → 移除"
+    },
+    {
+      "from": "vert",
+      "to": "convert",
+      "type": "root",
+      "note": "con-（完全）+ vert（转）→ 整个翻转成另一种 → 转变"
+    },
+    {
+      "from": "vert",
+      "to": "divert",
+      "type": "root",
+      "note": "di-（dis- 的变体，偏离）+ vert（转）→ 转到别的方向去 → 使转向"
+    },
+    {
+      "from": "vert",
+      "to": "invert",
+      "type": "root",
+      "note": "in-（向内、反过来）+ vert（转）→ 上下翻过来 → 倒置"
+    },
+    {
+      "from": "vert",
+      "to": "conversation",
+      "type": "root",
+      "note": "con-（一起）+ vers（转）+ -ation → 话头在双方之间来回转 → 交谈"
+    },
+    {
+      "from": "vert",
+      "to": "advertise",
+      "type": "root",
+      "note": "ad-（朝向）+ vert（转）+ -ise → 把众人的注意转过来 → 做广告"
+    },
+    {
+      "from": "pel",
+      "to": "expel",
+      "type": "root",
+      "note": "ex-（向外）+ pel（推）→ 把人推出门外 → 驱逐、开除"
+    },
+    {
+      "from": "pel",
+      "to": "compel",
+      "type": "root",
+      "note": "com-（一起、彻底）+ pel（推）→ 一路推着对方走，没有余地 → 强迫"
+    },
+    {
+      "from": "pel",
+      "to": "compulsory",
+      "type": "root",
+      "note": "com-（彻底）+ puls（pel 的变体，推）+ -ory（…的）→ 被推着非做不可的 → 强制的"
+    },
+    {
+      "from": "pel",
+      "to": "propel",
+      "type": "root",
+      "note": "pro-（向前）+ pel（推）→ 往前推 → 推进"
+    },
+    {
+      "from": "pel",
+      "to": "repel",
+      "type": "root",
+      "note": "re-（往回）+ pel（推）→ 把靠近的东西推回去 → 排斥"
     }
   ]
 }
