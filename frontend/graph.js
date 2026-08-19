@@ -11,20 +11,10 @@
     { key: "relations", path: "../data/relations.json" },
   ];
 
-  const EDGE_TYPE_LABEL = {
-    root: "词根关系",
-    derived: "派生关系",
-    semantic_extension: "语义扩展",
-    synonym: "近义关系",
-    antonym: "反义关系",
-    context: "场景关系",
-  };
-
   let nodes = [];
   let links = [];
   let simulation = null;
   let highlightedId = null; // 搜索定位的临时高亮（3 秒后消失）
-  let selectedId = null;    // 当前选中节点：决定哪几条边显示关系名
 
   const svg = d3.select("#graph");
   const detailPanel = d3.select("#detail-panel");
@@ -169,14 +159,33 @@
 
   function toggleRoot(d) {
     d.expanded = !d.expanded;
-    // 展开/收起该词根的词族
+    // 展开/收起该词族。只放开这一簇单词去找位置，
+    // 其余节点保持钉住，整张图不会跟着重排。
+    const family = [];
     nodes.forEach((n) => {
       if (n.type === "word" && n.roots && n.roots.includes(d.id)) {
         n.vizVisible = d.expanded;
+        family.push(n);
       }
     });
+    if (d.expanded) {
+      family.forEach((n, i) => {
+        n.fx = null;
+        n.fy = null;
+        // 以词根为圆心撒开，避免全部挤在同一点起步
+        const a = (i / Math.max(family.length, 1)) * Math.PI * 2;
+        n.x = d.x + Math.cos(a) * 70;
+        n.y = d.y + Math.sin(a) * 70;
+      });
+    }
     applyVisibility();
-    restartSimulation();
+    settleLocally();
+  }
+
+  // 局部收敛：低能量跑一小段，结束后重新钉住全部节点
+  function settleLocally() {
+    if (!simulation) return;
+    simulation.alpha(0.35).alphaTarget(0).restart();
   }
 
   // 强制显示某节点（用于搜索直达）
@@ -188,15 +197,24 @@
         const root = nodes.find((n) => n.id === rid);
         if (root) {
           root.expanded = true;
-          nodes.forEach((n) => {
-            if (n.type === "word" && n.roots && n.roots.includes(rid)) n.vizVisible = true;
+          const family = nodes.filter(
+            (n) => n.type === "word" && n.roots && n.roots.includes(rid)
+          );
+          family.forEach((n, i) => {
+            n.vizVisible = true;
+            if (n.fx != null && n.x === root.x && n.y === root.y) return;
+            n.fx = null;
+            n.fy = null;
+            const a = (i / Math.max(family.length, 1)) * Math.PI * 2;
+            n.x = root.x + Math.cos(a) * 70;
+            n.y = root.y + Math.sin(a) * 70;
           });
         }
       });
     }
     node.vizVisible = true;
     applyVisibility();
-    restartSimulation();
+    settleLocally();
   }
 
   function applyVisibility() {
@@ -212,29 +230,14 @@
       const t = d.target.id || d.target;
       return vis.has(s) && vis.has(t) ? "auto" : "none";
     });
-    applyLinkLabels();
   }
 
-  // 取消选中：收起关系名并清空详情栏
+  // 取消选中：清空详情栏
   function clearSelection() {
-    selectedId = null;
-    applyLinkLabels();
     nodeSel?.classed("selected", false);
     detailContent.classed("hidden", true).style("display", "none").html("");
     detailEmpty.classed("hidden", false).style("display", "block");
     closeDrawer();
-  }
-
-  // 关系名只在"选中节点的边"上显示，且两端都可见
-  function applyLinkLabels() {
-    if (!linkLabelSel) return;
-    const vis = visibleNodeIds();
-    linkLabelSel.attr("opacity", (d) => {
-      const s = d.source.id || d.source;
-      const t = d.target.id || d.target;
-      if (!vis.has(s) || !vis.has(t)) return 0;
-      return selectedId && (s === selectedId || t === selectedId) ? 1 : 0;
-    });
   }
 
   // ---------- 搜索 ----------
@@ -318,7 +321,41 @@
   // ---------- 渲染 ----------
   let nodeSel = null;
   let linkSel = null;
-  let linkLabelSel = null;
+  // 画布尺寸与边距：拖拽和 resize 都要用，故提到模块级
+  let viewW = 0;
+  let viewH = 0;
+  let viewMargin = 34;
+
+  // 把节点夹在画布内（按标签实测尺寸，中文长标签也不会探出去）
+  function clampNodes(width, height, margin) {
+    nodes.forEach((n) => {
+      const px = Math.min(n.padX || margin, width / 2 - 2);
+      const top = Math.min(n.padTop || margin, height / 2 - 2);
+      const bottom = Math.min(n.padBottom || margin, height / 2 - 2);
+      n.x = Math.max(px, Math.min(width - px, n.x));
+      n.y = Math.max(top, Math.min(height - bottom, n.y));
+    });
+  }
+
+  // 重绘：从 tick 里抽出来，拖拽时直接调用，无需重启力导向
+  function redraw() {
+    if (!linkSel || !nodeSel) return;
+    linkSel
+      .attr("x1", (d) => d.source.x)
+      .attr("y1", (d) => d.source.y)
+      .attr("x2", (d) => d.target.x)
+      .attr("y2", (d) => d.target.y);
+    nodeSel.attr("transform", (d) => `translate(${d.x},${d.y})`);
+  }
+
+  // 钉住 / 释放：钉住后图谱静止，是"拖一个不动其它"的关键
+  function pinAll() {
+    nodes.forEach((n) => { n.fx = n.x; n.fy = n.y; });
+  }
+
+  function unpinAll() {
+    nodes.forEach((n) => { n.fx = null; n.fy = null; });
+  }
 
   function render() {
     const width = svg.node().parentElement.clientWidth;
@@ -355,17 +392,6 @@
       .data(links)
       .join("line")
       .attr("class", (d) => "link" + (d.type === "antonym" ? " antonym" : "") + (d.type === "semantic_extension" ? " semantic_extension" : "") + (d.type === "context" ? " context" : ""));
-
-    // 连线标签（关系类型）：默认不显示，避免几十段文字堆在画布上。
-    // 关系类型已由线的颜色/虚实编码（见图例），只在选中节点时显示它自己的那几条边。
-    linkLabelSel = g
-      .append("g")
-      .attr("class", "link-labels")
-      .selectAll("text")
-      .data(links.filter((d) => d.type !== "root" && d.type !== "context"))
-      .join("text")
-      .attr("class", "link-label")
-      .text((d) => EDGE_TYPE_LABEL[d.type] || d.type);
 
     // 节点
     nodeSel = g
@@ -411,6 +437,9 @@
     // 10 个词根簇互不相连，仅靠 charge + center 会互相排斥飘出画布，
     // 因此加 forceX/forceY 向心约束，并在 tick 中把节点夹在画布内。
     const margin = Math.min(34, Math.max(20, Math.min(width, height) * 0.08));
+    viewW = width;
+    viewH = height;
+    viewMargin = margin;
     simulation = d3
       .forceSimulation(nodes)
       .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => (d.type === "root" ? 70 : 110)))
@@ -420,47 +449,44 @@
       .force("y", d3.forceY(height / 2).strength(0.09))
       .force("collide", d3.forceCollide().radius(38))
       .on("tick", () => {
-        // 硬边界：按标签实际尺寸夹住，保证圆和文字都留在画布内
-        nodes.forEach((n) => {
-          const px = Math.min(n.padX || margin, width / 2 - 2);
-          const top = Math.min(n.padTop || margin, height / 2 - 2);
-          const bottom = Math.min(n.padBottom || margin, height / 2 - 2);
-          n.x = Math.max(px, Math.min(width - px, n.x));
-          n.y = Math.max(top, Math.min(height - bottom, n.y));
-        });
-        linkSel
-          .attr("x1", (d) => d.source.x)
-          .attr("y1", (d) => d.source.y)
-          .attr("x2", (d) => d.target.x)
-          .attr("y2", (d) => d.target.y);
-        linkLabelSel
-          .attr("x", (d) => (d.source.x + d.target.x) / 2)
-          .attr("y", (d) => (d.source.y + d.target.y) / 2 - 4);
-        nodeSel.attr("transform", (d) => `translate(${d.x},${d.y})`);
-      });
+        clampNodes(width, height, margin);
+        redraw();
+      })
+      // 布局稳定后把所有节点钉住，图谱从此静止：
+      // 之后拖动单个节点不会再牵动其它节点。
+      .on("end", pinAll);
 
     applyVisibility();
   }
 
+  // 全量重排：唯一会让所有节点重新排布的入口（双击空白处触发）
   function restartSimulation() {
     if (!simulation) return;
-    simulation.alpha(0.6).alphaTarget(0).restart();
+    unpinAll();
+    simulation.alpha(0.9).alphaTarget(0).restart();
   }
 
   function drag() {
+    // 关键：拖拽不再 restart 力导向。旧实现用 alphaTarget(0.3).restart()
+    // 重新激活整个模拟，导致"拖一个球，其它全在动"。
+    // 现在只移动被拖的节点并重绘，其余节点保持钉住不动。
     function dragstarted(event, d) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
+      pinAll();          // 确保其它节点都被钉死
       d.fx = d.x;
       d.fy = d.y;
     }
     function dragged(event, d) {
       d.fx = event.x;
       d.fy = event.y;
+      d.x = event.x;
+      d.y = event.y;
+      clampNodes(viewW, viewH, viewMargin);
+      redraw();
     }
     function dragended(event, d) {
-      if (!event.active) simulation.alphaTarget(0);
-      d.fx = null;
-      d.fy = null;
+      // 停在松手的位置（不再回弹）
+      d.fx = d.x;
+      d.fy = d.y;
     }
     return d3
       .drag()
@@ -471,9 +497,7 @@
 
   // ---------- 详情面板 ----------
   function showDetail(d) {
-    selectedId = d.id;
-    applyLinkLabels();
-    nodeSel?.classed("selected", (n) => n.id === selectedId);
+    nodeSel?.classed("selected", (n) => n.id === d.id);
     openDrawer(); // 手机端打开底部抽屉
     detailEmpty.classed("hidden", true).style("display", "none");
     detailContent.classed("hidden", false).style("display", "block");
@@ -707,10 +731,17 @@
       const width = container.clientWidth;
       const height = container.clientHeight;
       svg.attr("viewBox", [0, 0, width, height]);
+      viewW = width;
+      viewH = height;
+      viewMargin = Math.min(34, Math.max(20, Math.min(width, height) * 0.08));
       simulation.force("center", d3.forceCenter(width / 2, height / 2));
       simulation.force("x", d3.forceX(width / 2).strength(0.06));
       simulation.force("y", d3.forceY(height / 2).strength(0.09));
-      simulation.alpha(.25).restart();
+      // 视口变了：把节点夹回新边界并重绘，但不重排布局
+      nodes.forEach((n) => { n.fx = null; n.fy = null; });
+      clampNodes(viewW, viewH, viewMargin);
+      pinAll();
+      redraw();
     }
   });
 
