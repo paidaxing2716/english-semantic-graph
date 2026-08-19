@@ -9038,6 +9038,589 @@
         "排斥/击退：把靠近的推回去",
         "使厌恶：把人的好感推回去。同一个'往回推'——与 attract（拉过来）正好构成一对"
       ]
+    },
+    {
+      "id": "preserve",
+      "word": "preserve",
+      "pos": "verb",
+      "phonetic": "/prɪˈzɜːrv/",
+      "decomposable": "root",
+      "root_ids": [
+        "serv"
+      ],
+      "root_logic": "pre-（预先）+ serv（守住）→ 提前动手守住，不让它坏 → 保存",
+      "origin": "拉丁语 praeservare：prae-（预先）+ servare（守护）",
+      "native_definition": "to keep something in its original state, or to keep food from spoiling",
+      "core_concept": "acting in advance to keep it from being lost – 提前动手，使它不至于失去",
+      "core_image": "果子趁新鲜就下了糖封罐，冬天开罐还是那个样子",
+      "chinese": [
+        "保存",
+        "保护",
+        "腌制"
+      ],
+      "examples": [
+        "The treaty preserved peace for a decade.",
+        "Salt was used to preserve meat."
+      ],
+      "synonyms": [
+        "maintain",
+        "conserve"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "related": [
+        "reserve",
+        "reservation",
+        "conservation"
+      ],
+      "semantic_expansions": [
+        "保存/保护：提前动手使其不失去",
+        "腌制：用手段让食物不坏。同一个'预先守住'，守的是状态还是食物"
+      ]
+    },
+    {
+      "id": "reserve",
+      "word": "reserve",
+      "pos": "verb",
+      "phonetic": "/rɪˈzɜːrv/",
+      "decomposable": "root",
+      "root_ids": [
+        "serv"
+      ],
+      "root_logic": "re-（往回、留着）+ serv（守住）→ 留着不动，专等某人某时 → 预留",
+      "recall_hint": "re-（留着）+ serv（守住）→ 先扣下来不动，专等某人某时；也指人把话留着不说",
+      "origin": "拉丁语 reservare：re-（往回）+ servare（守护）",
+      "native_definition": "to keep something for a particular person or purpose; also a store kept for later",
+      "core_concept": "holding something back for later use – 扣下来不用，留给以后",
+      "core_image": "桌上立着一张小牌子，这一桌今晚谁都不能坐",
+      "chinese": [
+        "预留",
+        "储备",
+        "拘谨"
+      ],
+      "examples": [
+        "I reserved a table for four.",
+        "The bank holds large cash reserves.",
+        "She spoke with characteristic reserve."
+      ],
+      "synonyms": [
+        "book",
+        "store"
+      ],
+      "antonyms": [],
+      "related": [
+        "preserve",
+        "reservation",
+        "conservation"
+      ],
+      "semantic_expansions": [
+        "预留/储备：扣下来留给以后",
+        "拘谨（名词）：把自己的话和情绪留着不放出来。同一个'留着不动'，留的是位子还是自己"
+      ]
+    },
+    {
+      "id": "reservation",
+      "word": "reservation",
+      "pos": "noun",
+      "phonetic": "/ˌrezərˈveɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "serv"
+      ],
+      "root_logic": "reserve（留着）+ -ation（名词）→ 留下来的那一份，或心里留着没说的那点 → 预订、保留意见",
+      "recall_hint": "reserve（扣下来留着）+ -ation → 被留下的那一份；也指心里留着没说出来的那一点",
+      "origin": "拉丁语 reservatio：re-（往回）+ servare（守护）",
+      "native_definition": "an arrangement to keep something for you, or a doubt you keep to yourself",
+      "core_concept": "what has been held back – 被留下、扣着没动的那一份",
+      "core_image": "订单页上你的名字后面跟着日期，那一格别人订不了",
+      "chinese": [
+        "预订",
+        "保留意见",
+        "保护区"
+      ],
+      "examples": [
+        "I have a reservation under Chen.",
+        "She agreed, but with reservations."
+      ],
+      "synonyms": [
+        "booking",
+        "doubt"
+      ],
+      "antonyms": [],
+      "related": [
+        "reserve",
+        "preserve",
+        "conservation"
+      ],
+      "semantic_expansions": [
+        "预订：为你留下的那一份",
+        "保留意见：心里留着没说出的那点疑虑",
+        "保护区：被划出来留着不开发的那块地。三义都是'扣着不动的那一份'"
+      ]
+    },
+    {
+      "id": "conservation",
+      "word": "conservation",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːnsərˈveɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "serv"
+      ],
+      "root_logic": "con-（一起、彻底）+ serv（守住）+ -ation → 把整体守住不使流失 → 保护",
+      "origin": "拉丁语 conservatio：com-（一起）+ servare（守护）",
+      "native_definition": "the protection of natural things, or the prevention of loss of energy or matter",
+      "core_concept": "keeping the whole from being lost – 把整体守住，不让它流失",
+      "core_image": "围栏把整片林子圈起来，斧头进不去",
+      "chinese": [
+        "保护",
+        "守恒",
+        "节约"
+      ],
+      "examples": [
+        "Wildlife conservation needs funding.",
+        "The law of conservation of energy holds here."
+      ],
+      "synonyms": [
+        "protection"
+      ],
+      "antonyms": [],
+      "related": [
+        "preserve",
+        "reserve",
+        "reservation"
+      ],
+      "semantic_expansions": [
+        "保护（自然）：把整片守住不使受损",
+        "守恒（物理）：总量守着不增不减",
+        "节约（能源）：守着不浪费。三义共享'守住整体不使流失'"
+      ]
+    },
+    {
+      "id": "cover",
+      "word": "cover",
+      "pos": "verb",
+      "phonetic": "/ˈkʌvər/",
+      "decomposable": "root",
+      "root_ids": [
+        "cov"
+      ],
+      "root_logic": "cov（盖住）本身即词根，无前缀 → 在表面铺上一层，把下面挡住",
+      "origin": "拉丁语 cooperire：com-（完全）+ operire（盖）",
+      "native_definition": "to put something over another thing, or to deal with a range of matters",
+      "core_concept": "laying a layer over something – 在某物上铺一层，把它挡住",
+      "core_image": "一块布铺开落在家具上，轮廓还在但表面看不见了",
+      "chinese": [
+        "覆盖",
+        "掩盖",
+        "涉及"
+      ],
+      "examples": [
+        "Snow covered the road by morning.",
+        "The course covers three centuries.",
+        "He tried to cover his mistake."
+      ],
+      "synonyms": [
+        "conceal",
+        "include"
+      ],
+      "antonyms": [
+        "uncover",
+        "expose"
+      ],
+      "related": [
+        "discover",
+        "discovery",
+        "recover",
+        "uncover"
+      ],
+      "semantic_expansions": [
+        "覆盖：在表面铺上一层",
+        "掩盖：铺一层把不想被看见的挡住",
+        "涉及（范围）：像布一样铺满这一片。三义都是'铺一层盖住'"
+      ]
+    },
+    {
+      "id": "discover",
+      "word": "discover",
+      "pos": "verb",
+      "phonetic": "/dɪˈskʌvər/",
+      "decomposable": "root",
+      "root_ids": [
+        "cov"
+      ],
+      "root_logic": "dis-（去除）+ cov（盖）→ 把盖着的那层揭掉 → 发现",
+      "origin": "拉丁语 discooperire：dis-（去除）+ cooperire（盖住）",
+      "native_definition": "to find something that was hidden or not known before",
+      "core_concept": "removing the cover so it can be seen – 把盖着的那层拿掉，让它露出来",
+      "core_image": "掀开压了多年的一块石板，底下的字第一次见光",
+      "chinese": [
+        "发现",
+        "查明"
+      ],
+      "examples": [
+        "Penicillin was discovered by accident.",
+        "We discovered that the account was empty."
+      ],
+      "synonyms": [
+        "find",
+        "detect"
+      ],
+      "antonyms": [
+        "conceal"
+      ],
+      "related": [
+        "cover",
+        "discovery",
+        "recover",
+        "uncover"
+      ],
+      "semantic_expansions": [
+        "发现与查明：都是'把盖着的那层揭开使其露出'，一个偏偶然一个偏刻意"
+      ]
+    },
+    {
+      "id": "discovery",
+      "word": "discovery",
+      "pos": "noun",
+      "phonetic": "/dɪˈskʌvəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "cov"
+      ],
+      "root_logic": "discover（揭开）+ -y（名词）→ 揭开这件事，或揭开后见到的那个东西 → 发现",
+      "origin": "拉丁语 discooperire：dis-（去除）+ cooperire（盖住）",
+      "native_definition": "the act of finding something, or the thing found",
+      "core_concept": "the uncovering, or what was uncovered – 揭开这件事，或揭开后露出的那个",
+      "core_image": "考古坑边的牌子写着出土日期与器物名称",
+      "chinese": [
+        "发现",
+        "发现物"
+      ],
+      "examples": [
+        "The discovery changed the field.",
+        "Her discovery was published last year."
+      ],
+      "synonyms": [
+        "finding"
+      ],
+      "antonyms": [],
+      "related": [
+        "discover",
+        "cover",
+        "recover",
+        "uncover"
+      ],
+      "semantic_expansions": [
+        "发现（行为）与发现物：一个是揭开这件事，一个是揭开后露出的那个东西"
+      ]
+    },
+    {
+      "id": "recover",
+      "word": "recover",
+      "pos": "verb",
+      "phonetic": "/rɪˈkʌvər/",
+      "decomposable": "root",
+      "root_ids": [
+        "cov"
+      ],
+      "root_logic": "re-（重新）+ cov（盖）→ 重新把缺口盖上、补回原样 → 恢复、取回",
+      "recall_hint": "re-（重新）+ cov（盖）→ 把破掉的地方重新盖起来、补回原样；也指把失去的拿回手里",
+      "origin": "拉丁语 recuperare / re-（重新）+ cooperire（盖）",
+      "native_definition": "to return to a normal state, or to get something back",
+      "core_concept": "closing back up what was opened or lost – 把破开或失去的重新补回原样",
+      "core_image": "伤口结痂后新皮长上，那一块又连成整片",
+      "chinese": [
+        "恢复",
+        "康复",
+        "取回"
+      ],
+      "examples": [
+        "She recovered fully within a month.",
+        "Police recovered the stolen paintings."
+      ],
+      "synonyms": [
+        "regain",
+        "heal"
+      ],
+      "antonyms": [],
+      "related": [
+        "cover",
+        "recovery",
+        "discover",
+        "uncover"
+      ],
+      "semantic_expansions": [
+        "恢复/康复：把破开的重新盖合、回到原样",
+        "取回：把失去的重新收回手里。同一个'重新补回原状'"
+      ]
+    },
+    {
+      "id": "recovery",
+      "word": "recovery",
+      "pos": "noun",
+      "phonetic": "/rɪˈkʌvəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "cov"
+      ],
+      "root_logic": "recover（补回原样）+ -y（名词）→ 补回原样这件事 → 恢复",
+      "origin": "拉丁语 recuperare：re-（重新）+ capere / cooperire",
+      "native_definition": "the process of returning to normal, or of getting something back",
+      "core_concept": "the process of being restored to normal – 回到原样这个过程",
+      "core_image": "折线图从谷底一格格往上抬，慢慢回到原来那条水平线",
+      "chinese": [
+        "恢复",
+        "康复",
+        "回收"
+      ],
+      "examples": [
+        "Economic recovery has been slow.",
+        "He made a full recovery after surgery."
+      ],
+      "synonyms": [
+        "healing"
+      ],
+      "antonyms": [],
+      "related": [
+        "recover",
+        "cover",
+        "discovery"
+      ],
+      "semantic_expansions": [
+        "恢复/康复：回到原样的那个过程",
+        "回收（资源）：把散失的收回来。同一个'补回原状'，一个说状态一个说物"
+      ]
+    },
+    {
+      "id": "uncover",
+      "word": "uncover",
+      "pos": "verb",
+      "phonetic": "/ʌnˈkʌvər/",
+      "decomposable": "root",
+      "root_ids": [
+        "cov"
+      ],
+      "root_logic": "un-（去除）+ cov（盖）→ 把盖的那层拿开 → 揭开",
+      "origin": "英语 un-（否定/去除）+ cover（盖住），词根仍是拉丁语 cooperire",
+      "native_definition": "to remove a covering, or to reveal something hidden",
+      "core_concept": "taking the covering off – 把盖着的那层拿开",
+      "core_image": "掀掉盖布，下面的机器露在灯光里",
+      "chinese": [
+        "揭开",
+        "揭露"
+      ],
+      "examples": [
+        "Workers uncovered a mosaic floor.",
+        "Journalists uncovered the fraud."
+      ],
+      "synonyms": [
+        "reveal",
+        "expose"
+      ],
+      "antonyms": [
+        "cover",
+        "conceal"
+      ],
+      "related": [
+        "cover",
+        "discover",
+        "recover",
+        "discovery"
+      ],
+      "semantic_expansions": [
+        "揭开（物）与揭露（事）：都是'把盖的那层拿开'，一个揭布一个揭内情"
+      ]
+    },
+    {
+      "id": "fluent",
+      "word": "fluent",
+      "pos": "adjective",
+      "phonetic": "/ˈfluːənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "flu"
+      ],
+      "root_logic": "flu（流）+ -ent（…的）→ 像水那样流出来不打结的 → 流利的",
+      "origin": "拉丁语 fluens：fluere（流动）",
+      "native_definition": "able to speak or write easily and smoothly",
+      "core_concept": "coming out in an unbroken stream – 出来时像水流一样不断不卡",
+      "core_image": "话从嘴里连成一条线出来，中间没有停顿去找词",
+      "chinese": [
+        "流利的",
+        "流畅的"
+      ],
+      "examples": [
+        "She is fluent in three languages.",
+        "His writing is clear and fluent."
+      ],
+      "synonyms": [
+        "smooth",
+        "articulate"
+      ],
+      "antonyms": [],
+      "related": [
+        "influence",
+        "influential",
+        "affluent",
+        "superfluous"
+      ],
+      "semantic_expansions": [
+        "流利的与流畅的：都是'出来时不断不卡'，中文按对象是口语还是文字分了两个词"
+      ]
+    },
+    {
+      "id": "influence",
+      "word": "influence",
+      "pos": "noun",
+      "phonetic": "/ˈɪnfluəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "flu"
+      ],
+      "root_logic": "in-（进入）+ flu（流）+ -ence → 悄悄流进去起作用的那股力 → 影响",
+      "origin": "拉丁语 influentia：in-（进入）+ fluere（流动）——原指星体流泻下来的力",
+      "native_definition": "the power to affect how someone or something develops",
+      "core_concept": "something flowing in and shaping from within – 流进去、从内部起作用的那股力",
+      "core_image": "染料滴进水里，没有搅动但整杯颜色慢慢变了",
+      "chinese": [
+        "影响",
+        "影响力",
+        "势力"
+      ],
+      "examples": [
+        "Her teacher had a lasting influence on her.",
+        "He used his influence to get the meeting."
+      ],
+      "synonyms": [
+        "effect",
+        "sway"
+      ],
+      "antonyms": [],
+      "related": [
+        "influential",
+        "fluent",
+        "affluent",
+        "superfluous"
+      ],
+      "semantic_expansions": [
+        "影响：流进去从内部改变了什么",
+        "影响力/势力：拥有这种能流进去的力量。同一个'流入而起作用'，一个说结果一个说能力"
+      ]
+    },
+    {
+      "id": "influential",
+      "word": "influential",
+      "pos": "adjective",
+      "phonetic": "/ˌɪnfluˈenʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "flu"
+      ],
+      "root_logic": "influence（流入起作用）+ -ial（…的）→ 能流进去起作用的 → 有影响力的",
+      "origin": "拉丁语 influentia：in-（进入）+ fluere（流动）",
+      "native_definition": "having the power to affect people or events",
+      "core_concept": "able to flow in and shape things – 有能力流进去并改变什么",
+      "core_image": "他一句话说出去，几个部门的做法跟着变",
+      "chinese": [
+        "有影响力的",
+        "有势力的"
+      ],
+      "examples": [
+        "She is one of the most influential economists today.",
+        "The paper was highly influential."
+      ],
+      "synonyms": [
+        "powerful",
+        "significant"
+      ],
+      "antonyms": [],
+      "related": [
+        "influence",
+        "fluent",
+        "affluent"
+      ],
+      "semantic_expansions": [
+        "有影响力的与有势力的：都是'能流进去并改变什么'，一个偏思想一个偏权力"
+      ]
+    },
+    {
+      "id": "affluent",
+      "word": "affluent",
+      "pos": "adjective",
+      "phonetic": "/ˈæfluənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "flu"
+      ],
+      "root_logic": "af-（ad- 的变体，朝向）+ flu（流）+ -ent → 财货朝这边源源流来的 → 富裕的",
+      "origin": "拉丁语 affluens：ad-（朝向）+ fluere（流动）——'流向此处而来'",
+      "native_definition": "having plenty of money",
+      "core_concept": "with wealth flowing steadily toward one – 财货源源不断流到这一侧",
+      "core_image": "几条水渠都朝同一个池子汇，池子始终是满的",
+      "chinese": [
+        "富裕的",
+        "丰富的"
+      ],
+      "examples": [
+        "They live in an affluent suburb.",
+        "The country grew affluent after the reforms."
+      ],
+      "synonyms": [
+        "wealthy",
+        "prosperous"
+      ],
+      "antonyms": [
+        "poor"
+      ],
+      "related": [
+        "influence",
+        "fluent",
+        "superfluous",
+        "influential"
+      ],
+      "semantic_expansions": [
+        "富裕的与丰富的：都是'源源流来、始终不缺'，一个说钱财一个说资源"
+      ]
+    },
+    {
+      "id": "superfluous",
+      "word": "superfluous",
+      "pos": "adjective",
+      "phonetic": "/suːˈpɜːrfluəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "flu"
+      ],
+      "root_logic": "super-（在上、超出）+ flu（流）+ -ous → 满到从边上溢出去的 → 多余的",
+      "origin": "拉丁语 superfluus：super-（在上）+ fluere（流动）——'漫过边沿而流'",
+      "native_definition": "more than is needed, and therefore unnecessary",
+      "core_concept": "flowing over the brim, beyond what is needed – 已经漫过边沿，超出所需",
+      "core_image": "水已经满到杯口还在倒，多的顺着桌面淌走",
+      "chinese": [
+        "多余的",
+        "过剩的"
+      ],
+      "examples": [
+        "Cut any superfluous detail from the report.",
+        "A second warning would be superfluous."
+      ],
+      "synonyms": [
+        "unnecessary",
+        "excessive"
+      ],
+      "antonyms": [
+        "necessary"
+      ],
+      "related": [
+        "affluent",
+        "influence",
+        "fluent"
+      ],
+      "semantic_expansions": [
+        "多余的与过剩的：都是'漫过边沿、超出所需'，中文按语境分了两个词"
+      ]
     }
   ]
 }

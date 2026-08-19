@@ -43,7 +43,8 @@
         "jac",
         "rect",
         "mov",
-        "vert"
+        "vert",
+        "flu"
       ]
     },
     {
@@ -71,7 +72,9 @@
         "sta",
         "tain",
         "clud",
-        "pend"
+        "pend",
+        "serv",
+        "cov"
       ]
     },
     {

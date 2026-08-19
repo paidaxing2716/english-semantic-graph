@@ -673,6 +673,62 @@
         "propel",
         "repel"
       ]
+    },
+    {
+      "id": "serv",
+      "root": "serv",
+      "variants": [
+        "serv"
+      ],
+      "origin": "拉丁语 servare（保存、守护）",
+      "core_concept": "to keep safe, to guard / 守住、留着不让失去",
+      "core_image": "把东西收进罐子封好，放到架子最里侧",
+      "english_definition": "to keep, to guard, to preserve",
+      "word_ids": [
+        "conservation",
+        "preserve",
+        "reservation",
+        "reserve"
+      ]
+    },
+    {
+      "id": "cov",
+      "root": "cov",
+      "variants": [
+        "cov",
+        "coop"
+      ],
+      "origin": "拉丁语 cooperire（盖住、覆盖）",
+      "core_concept": "to cover over / 盖住、遮起来",
+      "core_image": "一块布盖在东西上，形状还在但看不见了",
+      "english_definition": "to cover, to hide from view",
+      "word_ids": [
+        "cover",
+        "discover",
+        "discovery",
+        "recover",
+        "recovery",
+        "uncover"
+      ]
+    },
+    {
+      "id": "flu",
+      "root": "flu",
+      "variants": [
+        "flu",
+        "fluc"
+      ],
+      "origin": "拉丁语 fluere（流动）",
+      "core_concept": "to flow / 流、不停地淌",
+      "core_image": "水从高处一路淌下来，中间没有断口",
+      "english_definition": "to flow",
+      "word_ids": [
+        "affluent",
+        "fluent",
+        "influence",
+        "influential",
+        "superfluous"
+      ]
     }
   ]
 }

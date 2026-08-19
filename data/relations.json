@@ -1470,6 +1470,96 @@
       "to": "repel",
       "type": "root",
       "note": "re-（往回）+ pel（推）→ 把靠近的东西推回去 → 排斥"
+    },
+    {
+      "from": "serv",
+      "to": "preserve",
+      "type": "root",
+      "note": "pre-（预先）+ serv（守住）→ 提前动手守住，不让它坏 → 保存"
+    },
+    {
+      "from": "serv",
+      "to": "reserve",
+      "type": "root",
+      "note": "re-（往回、留着）+ serv（守住）→ 留着不动，专等某人某时 → 预留"
+    },
+    {
+      "from": "serv",
+      "to": "reservation",
+      "type": "root",
+      "note": "reserve（留着）+ -ation（名词）→ 留下来的那一份，或心里留着没说的那点 → 预订、保留意见"
+    },
+    {
+      "from": "serv",
+      "to": "conservation",
+      "type": "root",
+      "note": "con-（一起、彻底）+ serv（守住）+ -ation → 把整体守住不使流失 → 保护"
+    },
+    {
+      "from": "cov",
+      "to": "cover",
+      "type": "root",
+      "note": "cov（盖住）本身即词根，无前缀 → 在表面铺上一层，把下面挡住"
+    },
+    {
+      "from": "cov",
+      "to": "discover",
+      "type": "root",
+      "note": "dis-（去除）+ cov（盖）→ 把盖着的那层揭掉 → 发现"
+    },
+    {
+      "from": "cov",
+      "to": "discovery",
+      "type": "root",
+      "note": "discover（揭开）+ -y（名词）→ 揭开这件事，或揭开后见到的那个东西 → 发现"
+    },
+    {
+      "from": "cov",
+      "to": "recover",
+      "type": "root",
+      "note": "re-（重新）+ cov（盖）→ 重新把缺口盖上、补回原样 → 恢复、取回"
+    },
+    {
+      "from": "cov",
+      "to": "recovery",
+      "type": "root",
+      "note": "recover（补回原样）+ -y（名词）→ 补回原样这件事 → 恢复"
+    },
+    {
+      "from": "cov",
+      "to": "uncover",
+      "type": "root",
+      "note": "un-（去除）+ cov（盖）→ 把盖的那层拿开 → 揭开"
+    },
+    {
+      "from": "flu",
+      "to": "fluent",
+      "type": "root",
+      "note": "flu（流）+ -ent（…的）→ 像水那样流出来不打结的 → 流利的"
+    },
+    {
+      "from": "flu",
+      "to": "influence",
+      "type": "root",
+      "note": "in-（进入）+ flu（流）+ -ence → 悄悄流进去起作用的那股力 → 影响"
+    },
+    {
+      "from": "flu",
+      "to": "influential",
+      "type": "root",
+      "note": "influence（流入起作用）+ -ial（…的）→ 能流进去起作用的 → 有影响力的"
+    },
+    {
+      "from": "flu",
+      "to": "affluent",
+      "type": "root",
+      "note": "af-（ad- 的变体，朝向）+ flu（流）+ -ent → 财货朝这边源源流来的 → 富裕的"
+    },
+    {
+      "from": "flu",
+      "to": "superfluous",
+      "type": "root",
+      "note": "super-（在上、超出）+ flu（流）+ -ous → 满到从边上溢出去的 → 多余的"
     }
   ]
 }

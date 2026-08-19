@@ -593,6 +593,54 @@
         "propel",
         "repel"
       ]
+    },
+    {
+      "id": "concept-serv-keep",
+      "concept": "to keep safe, to guard",
+      "chinese": "守住、保存",
+      "core_image": "东西收进罐子封好，放到架子最里侧",
+      "root_ids": [
+        "serv"
+      ],
+      "word_ids": [
+        "conservation",
+        "preserve",
+        "reservation",
+        "reserve"
+      ]
+    },
+    {
+      "id": "concept-cov-cover",
+      "concept": "to cover over",
+      "chinese": "盖住、遮蔽",
+      "core_image": "一块布盖在东西上，形状还在但看不见",
+      "root_ids": [
+        "cov"
+      ],
+      "word_ids": [
+        "cover",
+        "discover",
+        "discovery",
+        "recover",
+        "recovery",
+        "uncover"
+      ]
+    },
+    {
+      "id": "concept-flu-flow",
+      "concept": "to flow",
+      "chinese": "流动",
+      "core_image": "水从高处一路淌下来，中间没有断口",
+      "root_ids": [
+        "flu"
+      ],
+      "word_ids": [
+        "affluent",
+        "fluent",
+        "influence",
+        "influential",
+        "superfluous"
+      ]
     }
   ]
 }

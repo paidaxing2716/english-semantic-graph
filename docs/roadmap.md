@@ -14,7 +14,7 @@ v0.2.0  纸张词源地图改版 + 昼夜模式 + 视觉质量门  ✅ 已完成
 v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
-v1.0    考研词表中可结构化的部分（229/869 词，26%）← 当前
+v1.0    考研词表中可结构化的部分（244/869 词，28%）← 当前
 ```
 
 ---
@@ -203,6 +203,9 @@ python ai_pipeline/review.py merge candidates.json
         214 词 · 28 词根。sign/design/assign/resign/designate 五词共享"记号"
   - [x] 第九批：mov（移动）+ vert（转）+ pel（推），229 词 · 31 词根
         repel 与 attract 构成"推回/拉来"一对；compel/compulsory 同族异形
+  - [x] 第十批：serv（守住）+ cov（盖住）+ flu（流动），244 词 · 34 词根
+        cover/discover/uncover/recover 四词只靠前缀分工；
+        affluent（流向此处）与 superfluous（漫过边沿）同根反义
   - [ ] 剩余高价值词族（>=5 词，共 141 词）优先，之后是
         47 个四词族（188 词）与 107 个三词族（321 词）
 - [ ] 学习模式：探索 / 复习 / 测试
