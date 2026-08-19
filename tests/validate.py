@@ -7,6 +7,8 @@
 - 外键引用存在（root_ids / word_ids）
 - 关系类型合法
 - 必填字段非空
+- Q7：related 指向词库内已存在词条（防死链）
+- Q8：synonyms/antonyms 为词库词或白名单已核验真词（防 AI 造词）
 """
 
 import json
@@ -142,6 +144,44 @@ def main():
             if wid not in word_ids:
                 print(f"[FAIL] concepts.{c['id']}.word_ids 引用不存在的单词: {wid}")
                 ok = False
+
+    # --- Q7：related 必须指向词库内已存在的词条 ---
+    # related 是图谱的边：指向不存在的词条会让详情面板出现点不开的死链。
+    word_id_set = set(word_ids)
+    dangling = []
+    for w in words:
+        for t in w.get("related") or []:
+            if t not in word_id_set:
+                dangling.append(f"{w['id']}.related -> {t}")
+        if w["id"] in (w.get("related") or []):
+            print(f"[FAIL] words.{w['id']}.related 自引用")
+            ok = False
+    if dangling:
+        print(f"[FAIL] related 悬空引用 (Q7)，必须指向已存在词条: {len(dangling)} 条")
+        for d in dangling:
+            print(f"        {d}")
+        ok = False
+    else:
+        print("[INFO] Q7 related 引用完整")
+
+    # --- Q8：synonyms/antonyms 必须是词库内词条或白名单已核验的真词 ---
+    # 防 AI 造词（如 configure 的反义写成不存在的 disconfigure）。
+    lexicon = load("lexicon.json").get("external_words") or []
+    allowed = word_id_set | set(lexicon)
+    unvetted = []
+    for w in words:
+        for f in ("synonyms", "antonyms"):
+            for t in w.get(f) or []:
+                if t not in allowed:
+                    unvetted.append(f"{w['id']}.{f} -> {t}")
+    if unvetted:
+        print(f"[FAIL] synonyms/antonyms 含未核验词 (Q8): {len(unvetted)} 条")
+        for u in unvetted:
+            print(f"        {u}")
+        print("        → 人工确认该词真实存在后，加入 data/lexicon.json 的 external_words")
+        ok = False
+    else:
+        print(f"[INFO] Q8 近/反义词全部已核验（白名单 {len(lexicon)} 词）")
 
     # --- 关系类型 & 端点 ---
     for rel in relations:

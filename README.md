@@ -48,7 +48,8 @@ english-semantic-graph/
 │   ├── concepts.json         # 核心概念
 │   ├── words.json            # 单词
 │   ├── relations.json        # 关系网络
-│   └── examples.json         # 例句
+│   ├── examples.json         # 例句
+│   └── lexicon.json          # 外部词白名单（近/反义词防造词）
 ├── docs/
 │   ├── PROJECT_CHARTER.md    # 项目宪章
 │   ├── design.md             # 系统设计
