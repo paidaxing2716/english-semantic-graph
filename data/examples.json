@@ -2471,6 +2471,279 @@
       "text": "Applicants must meet three criteria.",
       "source": "AI 生成 · 人工审核",
       "scene": "桌上摆着一把量规，每个零件都要贴着它比一遍"
+    },
+    {
+      "id": "ex-sign-1",
+      "word_id": "sign",
+      "text": "A road sign warned of falling rocks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口立着一块牌子，牌子本身不是路，但告诉你路怎么走"
+    },
+    {
+      "id": "ex-sign-2",
+      "word_id": "sign",
+      "text": "Please sign at the bottom of the page.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口立着一块牌子，牌子本身不是路，但告诉你路怎么走"
+    },
+    {
+      "id": "ex-sign-3",
+      "word_id": "sign",
+      "text": "There is no sign of improvement yet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口立着一块牌子，牌子本身不是路，但告诉你路怎么走"
+    },
+    {
+      "id": "ex-signal-1",
+      "word_id": "signal",
+      "text": "The signal is weak in this valley.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灯塔一明一暗，远处船上的人照着节奏读出意思"
+    },
+    {
+      "id": "ex-signal-2",
+      "word_id": "signal",
+      "text": "She signalled for us to stop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灯塔一明一暗，远处船上的人照着节奏读出意思"
+    },
+    {
+      "id": "ex-signify-1",
+      "word_id": "signify",
+      "text": "A red light signifies danger.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旗子降到半杆，这个高度本身就在说一件事"
+    },
+    {
+      "id": "ex-signify-2",
+      "word_id": "signify",
+      "text": "He nodded to signify agreement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旗子降到半杆，这个高度本身就在说一件事"
+    },
+    {
+      "id": "ex-assign-1",
+      "word_id": "assign",
+      "text": "Each student was assigned a topic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每个座位贴上一张写好名字的标签"
+    },
+    {
+      "id": "ex-assign-2",
+      "word_id": "assign",
+      "text": "The case was assigned to a new judge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每个座位贴上一张写好名字的标签"
+    },
+    {
+      "id": "ex-assignment-1",
+      "word_id": "assignment",
+      "text": "The assignment is due on Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上你那一行后面写着要交的东西和日期"
+    },
+    {
+      "id": "ex-assignment-2",
+      "word_id": "assignment",
+      "text": "She took an overseas assignment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上你那一行后面写着要交的东西和日期"
+    },
+    {
+      "id": "ex-design-1",
+      "word_id": "design",
+      "text": "The design won an award.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上先画好每一道线，工人照着线施工"
+    },
+    {
+      "id": "ex-design-2",
+      "word_id": "design",
+      "text": "She designs bridges.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上先画好每一道线，工人照着线施工"
+    },
+    {
+      "id": "ex-design-3",
+      "word_id": "design",
+      "text": "It happened by design, not by chance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上先画好每一道线，工人照着线施工"
+    },
+    {
+      "id": "ex-designate-1",
+      "word_id": "designate",
+      "text": "The area was designated a nature reserve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上被圈起来涂色的那块地，牌子写着用途"
+    },
+    {
+      "id": "ex-designate-2",
+      "word_id": "designate",
+      "text": "He designated her as his successor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上被圈起来涂色的那块地，牌子写着用途"
+    },
+    {
+      "id": "ex-resign-1",
+      "word_id": "resign",
+      "text": "She resigned after eight years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把工牌和钥匙推回桌面那一侧，签下最后一份文件"
+    },
+    {
+      "id": "ex-resign-2",
+      "word_id": "resign",
+      "text": "He resigned himself to a long wait.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把工牌和钥匙推回桌面那一侧，签下最后一份文件"
+    },
+    {
+      "id": "ex-require-1",
+      "word_id": "require",
+      "text": "This job requires patience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报名窗口一遍遍问你要那张证明，没有就办不下去"
+    },
+    {
+      "id": "ex-require-2",
+      "word_id": "require",
+      "text": "All visitors are required to sign in.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报名窗口一遍遍问你要那张证明，没有就办不下去"
+    },
+    {
+      "id": "ex-requirement-1",
+      "word_id": "requirement",
+      "text": "Meeting the entry requirements is essential.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "申请页上那几行打勾框，每一格不勾就提交不了"
+    },
+    {
+      "id": "ex-requirement-2",
+      "word_id": "requirement",
+      "text": "Sleep is a basic requirement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "申请页上那几行打勾框，每一格不勾就提交不了"
+    },
+    {
+      "id": "ex-request-1",
+      "word_id": "request",
+      "text": "Your request has been approved.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "递过去一张写着所需事项的条子，等对方点头"
+    },
+    {
+      "id": "ex-request-2",
+      "word_id": "request",
+      "text": "She requested extra time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "递过去一张写着所需事项的条子，等对方点头"
+    },
+    {
+      "id": "ex-inquiry-1",
+      "word_id": "inquiry",
+      "text": "We received several inquiries about the job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一间屋子里逐个叫人进来问话，笔录越积越厚"
+    },
+    {
+      "id": "ex-inquiry-2",
+      "word_id": "inquiry",
+      "text": "A public inquiry was opened into the accident.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一间屋子里逐个叫人进来问话，笔录越积越厚"
+    },
+    {
+      "id": "ex-quest-1",
+      "word_id": "quest",
+      "text": "Their quest for clean water took years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "背包上路，为找一样东西走了很远还没到头"
+    },
+    {
+      "id": "ex-quest-2",
+      "word_id": "quest",
+      "text": "He set out on a quest for the truth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "背包上路，为找一样东西走了很远还没到头"
+    },
+    {
+      "id": "ex-correct-1",
+      "word_id": "correct",
+      "text": "That is the correct answer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "歪掉的画框被扶正，与墙边线对齐了"
+    },
+    {
+      "id": "ex-correct-2",
+      "word_id": "correct",
+      "text": "Please correct any spelling errors.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "歪掉的画框被扶正，与墙边线对齐了"
+    },
+    {
+      "id": "ex-direct-1",
+      "word_id": "direct",
+      "text": "There is a direct flight to Osaka.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两点之间拉一条直线，中间不经过别处"
+    },
+    {
+      "id": "ex-direct-2",
+      "word_id": "direct",
+      "text": "She directed the project for two years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两点之间拉一条直线，中间不经过别处"
+    },
+    {
+      "id": "ex-direct-3",
+      "word_id": "direct",
+      "text": "He directed us to the exit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两点之间拉一条直线，中间不经过别处"
+    },
+    {
+      "id": "ex-directly-1",
+      "word_id": "directly",
+      "text": "Report directly to the manager.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话从这个人口中传到那个人耳里，中间没有第三人"
+    },
+    {
+      "id": "ex-directly-2",
+      "word_id": "directly",
+      "text": "I will be there directly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话从这个人口中传到那个人耳里，中间没有第三人"
+    },
+    {
+      "id": "ex-director-1",
+      "word_id": "director",
+      "text": "She was appointed finance director.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "片场上有人喊停，所有人等他说下一步怎么走"
+    },
+    {
+      "id": "ex-director-2",
+      "word_id": "director",
+      "text": "The director asked for another take.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "片场上有人喊停，所有人等他说下一步怎么走"
+    },
+    {
+      "id": "ex-rectify-1",
+      "word_id": "rectify",
+      "text": "The error was rectified the next day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "弯了的钢条被压回一条直线"
+    },
+    {
+      "id": "ex-rectify-2",
+      "word_id": "rectify",
+      "text": "Steps were taken to rectify the imbalance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "弯了的钢条被压回一条直线"
     }
   ]
 }

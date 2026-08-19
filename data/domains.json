@@ -39,7 +39,8 @@
         "mit-miss",
         "duc-duct",
         "ced",
-        "jac"
+        "jac",
+        "rect"
       ]
     },
     {
@@ -53,7 +54,8 @@
         "scrib-script",
         "dict",
         "sci",
-        "crit"
+        "crit",
+        "signum"
       ]
     },
     {
@@ -78,7 +80,8 @@
       "root_ids": [
         "fac",
         "ag",
-        "stru"
+        "stru",
+        "quir"
       ]
     }
   ]

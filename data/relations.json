@@ -1272,6 +1272,114 @@
       "to": "criterion",
       "type": "root",
       "note": "crit（判别）+ -erion（工具、依据）→ 用来判别的那把尺 → 标准"
+    },
+    {
+      "from": "signum",
+      "to": "sign",
+      "type": "root",
+      "note": "signum 本身即词根，无词缀 → 一个代表某物的记号；作动词是留下自己的记号"
+    },
+    {
+      "from": "signum",
+      "to": "signal",
+      "type": "root",
+      "note": "sign（记号）+ -al（…的东西）→ 被发出来传递意思的记号 → 信号"
+    },
+    {
+      "from": "signum",
+      "to": "signify",
+      "type": "root",
+      "note": "sign（记号）+ -ify（使成为）→ 使某物成为某意思的记号 → 表示"
+    },
+    {
+      "from": "signum",
+      "to": "assign",
+      "type": "root",
+      "note": "as-（ad- 的变体，朝向）+ sign（记号）→ 在某物上标记归谁 → 分配"
+    },
+    {
+      "from": "signum",
+      "to": "assignment",
+      "type": "root",
+      "note": "assign（标明归谁）+ -ment（结果）→ 被标到你名下的那件事 → 任务"
+    },
+    {
+      "from": "signum",
+      "to": "design",
+      "type": "root",
+      "note": "de-（往下）+ sign（记号）→ 先把记号画下来再动手 → 设计"
+    },
+    {
+      "from": "signum",
+      "to": "designate",
+      "type": "root",
+      "note": "de-（往下）+ sign（记号）+ -ate（动词）→ 明确标出是哪一个 → 指定"
+    },
+    {
+      "from": "signum",
+      "to": "resign",
+      "type": "root",
+      "note": "re-（往回）+ sign（签署）→ 把签过的东西反签交回 → 辞职"
+    },
+    {
+      "from": "quir",
+      "to": "require",
+      "type": "root",
+      "note": "re-（反复、坚决）+ quir（寻求）→ 反复索要，非有不可 → 需要"
+    },
+    {
+      "from": "quir",
+      "to": "requirement",
+      "type": "root",
+      "note": "require（非有不可地索要）+ -ment（结果）→ 被列出来非满足不可的那一条 → 要求"
+    },
+    {
+      "from": "quir",
+      "to": "request",
+      "type": "root",
+      "note": "re-（反复）+ quest（寻求）→ 开口去求的那件事 → 请求"
+    },
+    {
+      "from": "quir",
+      "to": "inquiry",
+      "type": "root",
+      "note": "in-（进入）+ quir（探求）+ -y（名词）→ 往里追问下去 → 询问、调查"
+    },
+    {
+      "from": "quir",
+      "to": "quest",
+      "type": "root",
+      "note": "quest 是 quir 的变体，无前缀 → 长途去找一样东西这件事 → 探寻"
+    },
+    {
+      "from": "rect",
+      "to": "correct",
+      "type": "root",
+      "note": "cor-（com- 的变体，完全）+ rect（使直）→ 已经被理直了的 → 正确的；作动词是把歪的理直 → 改正"
+    },
+    {
+      "from": "rect",
+      "to": "direct",
+      "type": "root",
+      "note": "di-（dis- 的变体，分开、朝某处）+ rect（使直）→ 一条直线通过去 → 直接的；作动词是把人引上直路 → 指"
+    },
+    {
+      "from": "rect",
+      "to": "directly",
+      "type": "root",
+      "note": "direct（直线的）+ -ly（副词）→ 以直线方式 → 直接地"
+    },
+    {
+      "from": "rect",
+      "to": "director",
+      "type": "root",
+      "note": "direct（引导）+ -or（人）→ 负责带路的人 → 主管、导演"
+    },
+    {
+      "from": "rect",
+      "to": "rectify",
+      "type": "root",
+      "note": "rect（使直）+ -ify（使成为）→ 使之变直 → 矫正"
     }
   ]
 }

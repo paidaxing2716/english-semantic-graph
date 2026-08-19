@@ -555,6 +555,67 @@
         "criticism",
         "criticize"
       ]
+    },
+    {
+      "id": "signum",
+      "root": "signum",
+      "variants": [
+        "sign",
+        "signi"
+      ],
+      "origin": "拉丁语 signum（记号、标志）",
+      "core_concept": "a mark that stands for something / 一个代表某物的记号",
+      "core_image": "在树干上刻一道口子，从此这棵树跟别的树不一样了",
+      "english_definition": "a mark, a sign",
+      "word_ids": [
+        "assign",
+        "assignment",
+        "design",
+        "designate",
+        "resign",
+        "sign",
+        "signal",
+        "signify"
+      ]
+    },
+    {
+      "id": "quir",
+      "root": "quir",
+      "variants": [
+        "quir",
+        "quisit",
+        "quest"
+      ],
+      "origin": "拉丁语 quaerere（寻找、探求）",
+      "core_concept": "to seek, to ask after / 找、追问",
+      "core_image": "翻遍抽屉找一件东西，边找边问它会在哪儿",
+      "english_definition": "to seek, to ask",
+      "word_ids": [
+        "inquiry",
+        "quest",
+        "request",
+        "require",
+        "requirement"
+      ]
+    },
+    {
+      "id": "rect",
+      "root": "rect",
+      "variants": [
+        "rect",
+        "reg"
+      ],
+      "origin": "拉丁语 regere / rectus（引导、使直）",
+      "core_concept": "to guide straight / 引成直线、导正",
+      "core_image": "沿着拉紧的墨线砌砖，砌出来的墙是直的",
+      "english_definition": "straight, to guide",
+      "word_ids": [
+        "correct",
+        "direct",
+        "directly",
+        "director",
+        "rectify"
+      ]
     }
   ]
 }

@@ -494,6 +494,57 @@
         "criticism",
         "criticize"
       ]
+    },
+    {
+      "id": "concept-signum-mark",
+      "concept": "a mark that stands for something",
+      "chinese": "记号、标志",
+      "core_image": "树干上刻一道口子，这棵树从此与别的不同",
+      "root_ids": [
+        "signum"
+      ],
+      "word_ids": [
+        "assign",
+        "assignment",
+        "design",
+        "designate",
+        "resign",
+        "sign",
+        "signal",
+        "signify"
+      ]
+    },
+    {
+      "id": "concept-quir-seek",
+      "concept": "to seek, to ask after",
+      "chinese": "寻找、追问",
+      "core_image": "翻遍抽屉找东西，边找边问会在哪儿",
+      "root_ids": [
+        "quir"
+      ],
+      "word_ids": [
+        "inquiry",
+        "quest",
+        "request",
+        "require",
+        "requirement"
+      ]
+    },
+    {
+      "id": "concept-rect-straight",
+      "concept": "to guide straight",
+      "chinese": "导正、使直",
+      "core_image": "沿着拉紧的墨线砌砖，墙砌得是直的",
+      "root_ids": [
+        "rect"
+      ],
+      "word_ids": [
+        "correct",
+        "direct",
+        "directly",
+        "director",
+        "rectify"
+      ]
     }
   ]
 }

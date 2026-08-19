@@ -7766,6 +7766,699 @@
       "semantic_expansions": [
         "标准与准则：都是'判别所依据的那把尺'，中文按适用范围分了两个词"
       ]
+    },
+    {
+      "id": "sign",
+      "word": "sign",
+      "pos": "noun",
+      "phonetic": "/saɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "signum 本身即词根，无词缀 → 一个代表某物的记号；作动词是留下自己的记号",
+      "origin": "拉丁语 signum（记号、标志）",
+      "native_definition": "a mark or object that stands for something; also to write one's name on something",
+      "core_concept": "a mark that stands for something else – 一个替某物出面的记号",
+      "core_image": "路口立着一块牌子，牌子本身不是路，但告诉你路怎么走",
+      "chinese": [
+        "标志",
+        "迹象",
+        "签名"
+      ],
+      "examples": [
+        "A road sign warned of falling rocks.",
+        "Please sign at the bottom of the page.",
+        "There is no sign of improvement yet."
+      ],
+      "synonyms": [
+        "mark",
+        "indicate"
+      ],
+      "antonyms": [],
+      "related": [
+        "signal",
+        "signify",
+        "assign",
+        "design",
+        "resign"
+      ],
+      "semantic_expansions": [
+        "标志/迹象：替某物出面、让你知道它存在的那个记号",
+        "签名（动词）：把自己的记号留在纸上。同一个'记号'，一个是读它一个是留它"
+      ]
+    },
+    {
+      "id": "signal",
+      "word": "signal",
+      "pos": "noun",
+      "phonetic": "/ˈsɪɡnəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "sign（记号）+ -al（…的东西）→ 被发出来传递意思的记号 → 信号",
+      "origin": "拉丁语 signalis：signum（记号）",
+      "native_definition": "a sound, movement, or transmission that carries information",
+      "core_concept": "a mark sent out to be picked up – 被发送出去、供人接收的记号",
+      "core_image": "灯塔一明一暗，远处船上的人照着节奏读出意思",
+      "chinese": [
+        "信号",
+        "示意",
+        "标志性的"
+      ],
+      "examples": [
+        "The signal is weak in this valley.",
+        "She signalled for us to stop."
+      ],
+      "synonyms": [
+        "sign",
+        "gesture"
+      ],
+      "antonyms": [],
+      "related": [
+        "sign",
+        "signify",
+        "design",
+        "assign"
+      ],
+      "semantic_expansions": [
+        "信号：被发出去供人接收的记号",
+        "示意（动词）：用动作发出记号。同一个'发出记号'，一个是物一个是动作"
+      ]
+    },
+    {
+      "id": "signify",
+      "word": "signify",
+      "pos": "verb",
+      "phonetic": "/ˈsɪɡnɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "sign（记号）+ -ify（使成为）→ 使某物成为某意思的记号 → 表示",
+      "origin": "拉丁语 significare：signum（记号）+ facere（做）",
+      "native_definition": "to be a sign of something, or to make one's intention known",
+      "core_concept": "serving as the mark for a meaning – 充当某个意思的记号",
+      "core_image": "旗子降到半杆，这个高度本身就在说一件事",
+      "chinese": [
+        "表示",
+        "意味着"
+      ],
+      "examples": [
+        "A red light signifies danger.",
+        "He nodded to signify agreement."
+      ],
+      "synonyms": [
+        "mean",
+        "indicate"
+      ],
+      "antonyms": [],
+      "related": [
+        "sign",
+        "signal",
+        "designate"
+      ],
+      "semantic_expansions": [
+        "表示与意味着：都是'充当某个意思的记号'，一个偏主动一个偏客观"
+      ]
+    },
+    {
+      "id": "assign",
+      "word": "assign",
+      "pos": "verb",
+      "phonetic": "/əˈsaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "as-（ad- 的变体，朝向）+ sign（记号）→ 在某物上标记归谁 → 分配",
+      "origin": "拉丁语 assignare：ad-（朝向）+ signare（做记号）",
+      "native_definition": "to give a task or thing to a particular person",
+      "core_concept": "marking something as belonging to someone – 标明这份归谁",
+      "core_image": "每个座位贴上一张写好名字的标签",
+      "chinese": [
+        "分配",
+        "指派",
+        "布置"
+      ],
+      "examples": [
+        "Each student was assigned a topic.",
+        "The case was assigned to a new judge."
+      ],
+      "synonyms": [
+        "allocate",
+        "appoint"
+      ],
+      "antonyms": [],
+      "related": [
+        "assignment",
+        "sign",
+        "designate",
+        "resign"
+      ],
+      "semantic_expansions": [
+        "分配/指派/布置：都是'标明这一份归谁'，中文按对象分了三个词"
+      ]
+    },
+    {
+      "id": "assignment",
+      "word": "assignment",
+      "pos": "noun",
+      "phonetic": "/əˈsaɪnmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "assign（标明归谁）+ -ment（结果）→ 被标到你名下的那件事 → 任务",
+      "origin": "拉丁语 assignare：ad-（朝向）+ signare（做记号）",
+      "native_definition": "a task given to someone, or the act of giving it",
+      "core_concept": "the piece marked as yours to do – 被标到你名下要做的那一份",
+      "core_image": "名单上你那一行后面写着要交的东西和日期",
+      "chinese": [
+        "任务",
+        "作业",
+        "分配"
+      ],
+      "examples": [
+        "The assignment is due on Monday.",
+        "She took an overseas assignment."
+      ],
+      "synonyms": [
+        "task",
+        "duty"
+      ],
+      "antonyms": [],
+      "related": [
+        "assign",
+        "sign",
+        "designate"
+      ],
+      "semantic_expansions": [
+        "任务/作业：被标到你名下要做的那一份",
+        "分配（行为）：做这个标记的动作本身"
+      ]
+    },
+    {
+      "id": "design",
+      "word": "design",
+      "pos": "noun",
+      "phonetic": "/dɪˈzaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "de-（往下）+ sign（记号）→ 先把记号画下来再动手 → 设计",
+      "origin": "拉丁语 designare：de-（往下）+ signare（做记号）",
+      "native_definition": "a plan or drawing showing how something will be made, or to create such a plan",
+      "core_concept": "marking it out on paper before making it – 动手之前先在纸上把记号画下来",
+      "core_image": "图纸上先画好每一道线，工人照着线施工",
+      "chinese": [
+        "设计",
+        "图样",
+        "意图"
+      ],
+      "examples": [
+        "The design won an award.",
+        "She designs bridges.",
+        "It happened by design, not by chance."
+      ],
+      "synonyms": [
+        "plan",
+        "scheme"
+      ],
+      "antonyms": [],
+      "related": [
+        "designate",
+        "sign",
+        "signal",
+        "assign"
+      ],
+      "semantic_expansions": [
+        "设计/图样：动手前画下的那套记号",
+        "意图（by design）：事先画好的那个打算。同一个'先标记好再做'，一个是图一个是心里的图"
+      ]
+    },
+    {
+      "id": "designate",
+      "word": "designate",
+      "pos": "verb",
+      "phonetic": "/ˈdezɪɡneɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "de-（往下）+ sign（记号）+ -ate（动词）→ 明确标出是哪一个 → 指定",
+      "origin": "拉丁语 designare：de-（往下）+ signare（做记号）",
+      "native_definition": "to name or mark something officially for a purpose",
+      "core_concept": "putting the official mark on which one it is – 正式标出就是这一个",
+      "core_image": "地图上被圈起来涂色的那块地，牌子写着用途",
+      "chinese": [
+        "指定",
+        "划定",
+        "命名"
+      ],
+      "examples": [
+        "The area was designated a nature reserve.",
+        "He designated her as his successor."
+      ],
+      "synonyms": [
+        "appoint",
+        "specify"
+      ],
+      "antonyms": [],
+      "related": [
+        "design",
+        "sign",
+        "assign",
+        "signify"
+      ],
+      "semantic_expansions": [
+        "指定/划定/命名：都是'正式标出就是这一个'，中文按对象是人、地还是名分了三个词"
+      ]
+    },
+    {
+      "id": "resign",
+      "word": "resign",
+      "pos": "verb",
+      "phonetic": "/rɪˈzaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "re-（往回）+ sign（签署）→ 把签过的东西反签交回 → 辞职",
+      "origin": "拉丁语 resignare：re-（往回）+ signare（签署）——原意'解除签署'",
+      "native_definition": "to give up a job or position formally, or to accept something unwelcome",
+      "core_concept": "signing the position back over – 把签下的位置反手签还回去",
+      "core_image": "把工牌和钥匙推回桌面那一侧，签下最后一份文件",
+      "chinese": [
+        "辞职",
+        "放弃",
+        "顺从"
+      ],
+      "examples": [
+        "She resigned after eight years.",
+        "He resigned himself to a long wait."
+      ],
+      "synonyms": [
+        "quit",
+        "surrender"
+      ],
+      "antonyms": [],
+      "related": [
+        "sign",
+        "assign",
+        "design",
+        "designate"
+      ],
+      "semantic_expansions": [
+        "辞职：把职位反签交回",
+        "顺从/放弃（resign oneself）：把自己交出去、不再抗。同一个'反手交还'，交的是职位还是自己"
+      ]
+    },
+    {
+      "id": "require",
+      "word": "require",
+      "pos": "verb",
+      "phonetic": "/rɪˈkwaɪər/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "re-（反复、坚决）+ quir（寻求）→ 反复索要，非有不可 → 需要",
+      "origin": "拉丁语 requirere：re-（反复）+ quaerere（寻求）",
+      "native_definition": "to need something, or to demand it officially",
+      "core_concept": "seeking something insistently, as a must – 反复索要，缺了不行",
+      "core_image": "报名窗口一遍遍问你要那张证明，没有就办不下去",
+      "chinese": [
+        "需要",
+        "要求",
+        "规定"
+      ],
+      "examples": [
+        "This job requires patience.",
+        "All visitors are required to sign in."
+      ],
+      "synonyms": [
+        "need",
+        "demand"
+      ],
+      "antonyms": [],
+      "related": [
+        "requirement",
+        "inquiry",
+        "request",
+        "quest"
+      ],
+      "semantic_expansions": [
+        "需要：缺了不行，非有不可",
+        "要求/规定：正式反复索要。同一个'非要不可地索取'，一个说状态一个说行为"
+      ]
+    },
+    {
+      "id": "requirement",
+      "word": "requirement",
+      "pos": "noun",
+      "phonetic": "/rɪˈkwaɪərmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "require（非有不可地索要）+ -ment（结果）→ 被列出来非满足不可的那一条 → 要求",
+      "origin": "拉丁语 requirere：re-（反复）+ quaerere（寻求）",
+      "native_definition": "something that is needed or demanded as a condition",
+      "core_concept": "a condition that must be met – 一条必须满足的条件",
+      "core_image": "申请页上那几行打勾框，每一格不勾就提交不了",
+      "chinese": [
+        "要求",
+        "必要条件"
+      ],
+      "examples": [
+        "Meeting the entry requirements is essential.",
+        "Sleep is a basic requirement."
+      ],
+      "synonyms": [
+        "condition",
+        "need"
+      ],
+      "antonyms": [],
+      "related": [
+        "require",
+        "request",
+        "inquiry",
+        "quest"
+      ],
+      "semantic_expansions": [
+        "要求与必要条件：都是'非满足不可的那一条'，中文按语境分了两个词"
+      ]
+    },
+    {
+      "id": "request",
+      "word": "request",
+      "pos": "noun",
+      "phonetic": "/rɪˈkwest/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "re-（反复）+ quest（寻求）→ 开口去求的那件事 → 请求",
+      "origin": "拉丁语 requirere → 古法语 requeste：re-（反复）+ quaerere（寻求）",
+      "native_definition": "the act of politely asking for something, or the thing asked for",
+      "core_concept": "an asking put to someone – 向对方提出的一次索求",
+      "core_image": "递过去一张写着所需事项的条子，等对方点头",
+      "chinese": [
+        "请求",
+        "要求"
+      ],
+      "examples": [
+        "Your request has been approved.",
+        "She requested extra time."
+      ],
+      "synonyms": [
+        "ask",
+        "appeal"
+      ],
+      "antonyms": [],
+      "related": [
+        "require",
+        "requirement",
+        "quest",
+        "inquiry"
+      ],
+      "semantic_expansions": [
+        "请求与要求：都是'向对方提出索求'，区别只在语气强弱——request 比 require 客气"
+      ]
+    },
+    {
+      "id": "inquiry",
+      "word": "inquiry",
+      "pos": "noun",
+      "phonetic": "/ˈɪnkwəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "in-（进入）+ quir（探求）+ -y（名词）→ 往里追问下去 → 询问、调查",
+      "origin": "拉丁语 inquirere：in-（进入）+ quaerere（寻求）",
+      "native_definition": "an act of asking for information, or an official investigation",
+      "core_concept": "seeking into something to find out – 往里追问，把情况问出来",
+      "core_image": "一间屋子里逐个叫人进来问话，笔录越积越厚",
+      "chinese": [
+        "询问",
+        "调查",
+        "探究"
+      ],
+      "examples": [
+        "We received several inquiries about the job.",
+        "A public inquiry was opened into the accident."
+      ],
+      "synonyms": [
+        "question",
+        "investigation"
+      ],
+      "antonyms": [],
+      "related": [
+        "require",
+        "request",
+        "quest",
+        "requirement"
+      ],
+      "semantic_expansions": [
+        "询问：随口往里问一句",
+        "调查/探究：系统地往里追问到底。同一个'向内追问'，区别在规模与正式程度"
+      ]
+    },
+    {
+      "id": "quest",
+      "word": "quest",
+      "pos": "noun",
+      "phonetic": "/kwest/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "quest 是 quir 的变体，无前缀 → 长途去找一样东西这件事 → 探寻",
+      "origin": "拉丁语 quaesita：quaerere（寻求）的分词形",
+      "native_definition": "a long search for something important",
+      "core_concept": "a long search undertaken on purpose – 特意展开的一场长时间寻找",
+      "core_image": "背包上路，为找一样东西走了很远还没到头",
+      "chinese": [
+        "探寻",
+        "追求"
+      ],
+      "examples": [
+        "Their quest for clean water took years.",
+        "He set out on a quest for the truth."
+      ],
+      "synonyms": [
+        "search",
+        "pursuit"
+      ],
+      "antonyms": [],
+      "related": [
+        "require",
+        "request",
+        "inquiry",
+        "requirement"
+      ],
+      "semantic_expansions": [
+        "探寻与追求：都是'特意展开的长时间寻找'，一个偏具体目标一个偏抽象目标"
+      ]
+    },
+    {
+      "id": "correct",
+      "word": "correct",
+      "pos": "adjective",
+      "phonetic": "/kəˈrekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "cor-（com- 的变体，完全）+ rect（使直）→ 已经被理直了的 → 正确的；作动词是把歪的理直 → 改正",
+      "recall_hint": "cor-（完全）+ rect（使直）→ 已经被彻底理直了；作动词则是把歪的理回直",
+      "origin": "拉丁语 corrigere：com-（完全）+ regere（引导、使直）",
+      "native_definition": "free from error; also to make something right",
+      "core_concept": "brought into line with no deviation left – 被理到直，没有偏差留下",
+      "core_image": "歪掉的画框被扶正，与墙边线对齐了",
+      "chinese": [
+        "正确的",
+        "改正",
+        "端正的"
+      ],
+      "examples": [
+        "That is the correct answer.",
+        "Please correct any spelling errors."
+      ],
+      "synonyms": [
+        "right",
+        "accurate"
+      ],
+      "antonyms": [
+        "wrong"
+      ],
+      "related": [
+        "direct",
+        "director",
+        "rectify",
+        "directly"
+      ],
+      "semantic_expansions": [
+        "正确的：已经理直、无偏差",
+        "改正（动词）：把歪的理回直。同一个'理直'，一个是结果一个是动作"
+      ]
+    },
+    {
+      "id": "direct",
+      "word": "direct",
+      "pos": "adjective",
+      "phonetic": "/dəˈrekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "di-（dis- 的变体，分开、朝某处）+ rect（使直）→ 一条直线通过去 → 直接的；作动词是把人引上直路 → 指导",
+      "recall_hint": "di-（朝某处）+ rect（使直）→ 一条直线过去，不绕；作动词则是把人引上那条直路",
+      "origin": "拉丁语 dirigere：dis-（分开）+ regere（引导）",
+      "native_definition": "going straight without detour; also to guide or manage",
+      "core_concept": "along a straight line, without turning aside – 沿直线过去，不拐弯",
+      "core_image": "两点之间拉一条直线，中间不经过别处",
+      "chinese": [
+        "直接的",
+        "指导",
+        "导演"
+      ],
+      "examples": [
+        "There is a direct flight to Osaka.",
+        "She directed the project for two years.",
+        "He directed us to the exit."
+      ],
+      "synonyms": [
+        "straight",
+        "guide"
+      ],
+      "antonyms": [
+        "indirect"
+      ],
+      "related": [
+        "directly",
+        "director",
+        "correct",
+        "rectify"
+      ],
+      "semantic_expansions": [
+        "直接的：走直线不绕",
+        "指导/导演：把人引上那条直路。同一个'使成直线'，一个说路径一个说带路"
+      ]
+    },
+    {
+      "id": "directly",
+      "word": "directly",
+      "pos": "adverb",
+      "phonetic": "/dəˈrektli/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "direct（直线的）+ -ly（副词）→ 以直线方式 → 直接地",
+      "origin": "拉丁语 directus：dis-（分开）+ regere（引导）",
+      "native_definition": "in a straight line or manner, without anything in between",
+      "core_concept": "with nothing placed in between – 中间不隔任何东西",
+      "core_image": "话从这个人口中传到那个人耳里，中间没有第三人",
+      "chinese": [
+        "直接地",
+        "立即"
+      ],
+      "examples": [
+        "Report directly to the manager.",
+        "I will be there directly."
+      ],
+      "synonyms": [
+        "straight",
+        "immediately"
+      ],
+      "antonyms": [],
+      "related": [
+        "direct",
+        "director",
+        "correct"
+      ],
+      "semantic_expansions": [
+        "直接地：中间不经过别人别物",
+        "立即：中间不隔时间。同一个'中间不隔'，一个隔的是空间一个是时间"
+      ]
+    },
+    {
+      "id": "director",
+      "word": "director",
+      "pos": "noun",
+      "phonetic": "/dəˈrektər/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "direct（引导）+ -or（人）→ 负责带路的人 → 主管、导演",
+      "origin": "拉丁语 director：dirigere（引导）",
+      "native_definition": "a person who manages an organization or guides a film or play",
+      "core_concept": "the one who keeps others on the line – 负责让众人走在那条线上的人",
+      "core_image": "片场上有人喊停，所有人等他说下一步怎么走",
+      "chinese": [
+        "主管",
+        "董事",
+        "导演"
+      ],
+      "examples": [
+        "She was appointed finance director.",
+        "The director asked for another take."
+      ],
+      "synonyms": [
+        "manager",
+        "head"
+      ],
+      "antonyms": [],
+      "related": [
+        "direct",
+        "directly",
+        "correct"
+      ],
+      "semantic_expansions": [
+        "主管/董事/导演：都是'负责让众人走在那条线上的人'，中文按场合分了三个词"
+      ]
+    },
+    {
+      "id": "rectify",
+      "word": "rectify",
+      "pos": "verb",
+      "phonetic": "/ˈrektɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "rect（使直）+ -ify（使成为）→ 使之变直 → 矫正",
+      "origin": "拉丁语 rectificare：rectus（直的）+ facere（做）",
+      "native_definition": "to put something right that was wrong",
+      "core_concept": "making the crooked straight again – 把歪掉的重新弄直",
+      "core_image": "弯了的钢条被压回一条直线",
+      "chinese": [
+        "矫正",
+        "纠正"
+      ],
+      "examples": [
+        "The error was rectified the next day.",
+        "Steps were taken to rectify the imbalance."
+      ],
+      "synonyms": [
+        "correct",
+        "amend"
+      ],
+      "antonyms": [],
+      "related": [
+        "correct",
+        "direct",
+        "director"
+      ],
+      "semantic_expansions": [
+        "矫正与纠正：都是'把歪掉的弄直'，中文按对象是物还是事分了两个词"
+      ]
     }
   ]
 }
