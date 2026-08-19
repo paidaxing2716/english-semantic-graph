@@ -5036,6 +5036,469 @@
       "semantic_expansions": [
         "足够的与充分的：都是'量够把事做成'，中文按语体分了两个词"
       ]
+    },
+    {
+      "id": "extend",
+      "word": "extend",
+      "pos": "verb",
+      "phonetic": "/ɪkˈstend/",
+      "decomposable": "root",
+      "root_ids": [
+        "tend"
+      ],
+      "root_logic": "ex-（向外）+ tend（伸）→ 往外伸出去 → 延长、扩展",
+      "origin": "拉丁语 extendere：ex-（向外）+ tendere（伸展）",
+      "native_definition": "to make something longer or larger, or to offer it to someone",
+      "core_concept": "stretching something further out – 把某物往外伸得更远",
+      "core_image": "卷尺被抽出来，尺条一节节伸向远处",
+      "chinese": [
+        "延长",
+        "扩展",
+        "伸出"
+      ],
+      "examples": [
+        "They extended the deadline by a week.",
+        "He extended a hand in greeting."
+      ],
+      "synonyms": [
+        "lengthen",
+        "expand"
+      ],
+      "antonyms": [
+        "shorten",
+        "retract"
+      ],
+      "related": [
+        "intend",
+        "pretend",
+        "extensive",
+        "tendency"
+      ],
+      "semantic_expansions": [
+        "延长/扩展：把范围往外伸",
+        "伸出（手）：把肢体往外伸。同一个'往外伸'，一个是抽象范围一个是具体动作"
+      ]
+    },
+    {
+      "id": "intend",
+      "word": "intend",
+      "pos": "verb",
+      "phonetic": "/ɪnˈtend/",
+      "decomposable": "root",
+      "root_ids": [
+        "tend"
+      ],
+      "root_logic": "in-（朝向）+ tend（伸）→ 心思朝某个方向伸过去 → 打算",
+      "origin": "拉丁语 intendere：in-（朝向）+ tendere（伸展）",
+      "native_definition": "to have something as a plan or purpose",
+      "core_concept": "stretching one's mind toward a goal – 把心思朝某个目标伸过去",
+      "core_image": "弓拉满，箭尖已经指定了靶心",
+      "chinese": [
+        "打算",
+        "意图",
+        "旨在"
+      ],
+      "examples": [
+        "I intend to finish this today.",
+        "The law was intended to protect tenants."
+      ],
+      "synonyms": [
+        "plan",
+        "aim"
+      ],
+      "antonyms": [],
+      "related": [
+        "extend",
+        "pretend",
+        "tendency",
+        "intensive"
+      ],
+      "semantic_expansions": [
+        "打算/意图：心思朝某方向伸出去，还没落地",
+        "旨在（被动）：设计时就朝那个方向伸。同一个'心思的指向'"
+      ]
+    },
+    {
+      "id": "pretend",
+      "word": "pretend",
+      "pos": "verb",
+      "phonetic": "/prɪˈtend/",
+      "decomposable": "root",
+      "root_ids": [
+        "tend"
+      ],
+      "root_logic": "pre-（在前）+ tend（伸）→ 在真相前面先伸出一层幌子 → 假装",
+      "origin": "拉丁语 praetendere：prae-（在前）+ tendere（伸展）",
+      "native_definition": "to behave as if something is true when it is not",
+      "core_concept": "stretching a screen out in front of the truth – 在真实情况前面撑开一层遮挡",
+      "core_image": "在自己面前撑起一块布，别人看到的是布不是人",
+      "chinese": [
+        "假装",
+        "伪称"
+      ],
+      "examples": [
+        "He pretended not to hear me.",
+        "She pretended to be asleep."
+      ],
+      "synonyms": [
+        "feign",
+        "affect"
+      ],
+      "antonyms": [],
+      "related": [
+        "extend",
+        "intend",
+        "tendency"
+      ],
+      "semantic_expansions": [
+        "假装与伪称：都是在真相前撑开一层挡人视线的东西，中文按语体分了两个词"
+      ]
+    },
+    {
+      "id": "extensive",
+      "word": "extensive",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈstensɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "tend"
+      ],
+      "root_logic": "extend（往外伸）+ -ive（…的）→ 伸得很开的 → 广泛的",
+      "origin": "拉丁语 extensivus：ex-（向外）+ tendere（伸展）",
+      "native_definition": "covering a large area or including a lot",
+      "core_concept": "stretched out over a wide range – 伸展开来覆盖很大范围",
+      "core_image": "一张网被四角拉开，铺满整个院子",
+      "chinese": [
+        "广泛的",
+        "大范围的",
+        "详尽的"
+      ],
+      "examples": [
+        "The fire caused extensive damage.",
+        "She has extensive experience in teaching."
+      ],
+      "synonyms": [
+        "broad",
+        "wide"
+      ],
+      "antonyms": [
+        "limited"
+      ],
+      "related": [
+        "extend",
+        "intensive",
+        "intend",
+        "tendency"
+      ],
+      "semantic_expansions": [
+        "广泛的/大范围的：横向伸得很开",
+        "详尽的：内容铺得很开。同一个'伸展得广'，与 intensive（往一点上使劲）正好构成一对"
+      ]
+    },
+    {
+      "id": "intensive",
+      "word": "intensive",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈtensɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "tend"
+      ],
+      "root_logic": "in-（朝内、朝一点）+ tens（伸、绷）+ -ive → 力气全绷向一点的 → 密集的",
+      "origin": "拉丁语 intensivus：in-（朝向）+ tendere（伸展、绷紧）",
+      "native_definition": "concentrated on one thing, with great effort in a short time",
+      "core_concept": "all effort strained toward a single point – 力气全绷在一处，不铺开",
+      "core_image": "所有绳子朝同一个点收紧，那一点绷得最狠",
+      "chinese": [
+        "密集的",
+        "强化的",
+        "集中的"
+      ],
+      "examples": [
+        "She took an intensive course in Japanese.",
+        "The patient is in intensive care."
+      ],
+      "synonyms": [
+        "concentrated",
+        "thorough"
+      ],
+      "antonyms": [
+        "extensive"
+      ],
+      "related": [
+        "extensive",
+        "intend",
+        "extend"
+      ],
+      "semantic_expansions": [
+        "密集的/强化的：力气绷在一点上而不铺开——与 extensive（铺得广）是一对反义，词根相同，方向相反"
+      ]
+    },
+    {
+      "id": "tendency",
+      "word": "tendency",
+      "pos": "noun",
+      "phonetic": "/ˈtendənsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "tend"
+      ],
+      "root_logic": "tend（伸）+ -ency（名词）→ 总往某个方向伸的那个劲头 → 倾向",
+      "origin": "拉丁语 tendentia：tendere（伸展）",
+      "native_definition": "a way of behaving or developing that is likely to continue",
+      "core_concept": "a persistent leaning in one direction – 总是朝同一方向伸的那股劲",
+      "core_image": "树在常年偏风下长歪，枝干都朝一边伸",
+      "chinese": [
+        "倾向",
+        "趋势"
+      ],
+      "examples": [
+        "He has a tendency to interrupt.",
+        "There is a tendency for prices to rise in spring."
+      ],
+      "synonyms": [
+        "trend",
+        "inclination"
+      ],
+      "antonyms": [],
+      "related": [
+        "extend",
+        "intend",
+        "extensive",
+        "intensive"
+      ],
+      "semantic_expansions": [
+        "倾向（人）与趋势（事）：都是'总朝同一方向伸'，区别只在主体是人还是事态"
+      ]
+    },
+    {
+      "id": "proceed",
+      "word": "proceed",
+      "pos": "verb",
+      "phonetic": "/prəˈsiːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "pro-（向前）+ ceed（ced 的变体，行走）→ 继续往前走 → 进行",
+      "origin": "拉丁语 procedere：pro-（向前）+ cedere（行走）",
+      "native_definition": "to continue doing something, or to move forward",
+      "core_concept": "going forward from where one stands – 从当前位置继续往前走",
+      "core_image": "队伍在路口停了一下，然后继续往前挪",
+      "chinese": [
+        "继续进行",
+        "着手",
+        "前进"
+      ],
+      "examples": [
+        "Please proceed to gate 12.",
+        "We may now proceed with the vote."
+      ],
+      "synonyms": [
+        "continue",
+        "advance"
+      ],
+      "antonyms": [
+        "stop"
+      ],
+      "related": [
+        "process",
+        "procedure",
+        "success",
+        "exceed"
+      ],
+      "semantic_expansions": [
+        "前进：物理上往前走",
+        "继续进行/着手：把事往前推。同一个'往前走'，一个走的是路一个走的是流程"
+      ]
+    },
+    {
+      "id": "process",
+      "word": "process",
+      "pos": "noun",
+      "phonetic": "/ˈprɑːses/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "pro-（向前）+ cess（ced 的变体，行走）→ 一路往前走过的那串步骤 → 过程",
+      "origin": "拉丁语 processus：pro-（向前）+ cedere（行走）",
+      "native_definition": "a series of steps taken to reach a result, or to put something through such steps",
+      "core_concept": "the forward path made of successive steps – 一步接一步往前走出来的那条路径",
+      "core_image": "流水线上零件从这头进去，一站一站往前挪到那头",
+      "chinese": [
+        "过程",
+        "工序",
+        "处理"
+      ],
+      "examples": [
+        "Learning a language is a slow process.",
+        "The factory processes ten tons a day."
+      ],
+      "synonyms": [
+        "procedure",
+        "handle"
+      ],
+      "antonyms": [],
+      "related": [
+        "proceed",
+        "procedure",
+        "success",
+        "exceed"
+      ],
+      "semantic_expansions": [
+        "过程/工序：一步步往前走出来的那条路",
+        "处理（动词）：把东西送上这条路走一遍。同一个'依次往前走'，一个看路径一个看动作"
+      ]
+    },
+    {
+      "id": "procedure",
+      "word": "procedure",
+      "pos": "noun",
+      "phonetic": "/prəˈsiːdʒər/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "proceed（往前走）+ -ure（名词）→ 规定该怎么往前走的那套步骤 → 程序",
+      "origin": "拉丁语 procedere：pro-（向前）+ cedere（行走）",
+      "native_definition": "an established way of doing something, step by step",
+      "core_concept": "the prescribed order of steps to move forward – 规定好的前进步骤",
+      "core_image": "墙上贴着操作流程图，第一步到第五步标得清清楚楚",
+      "chinese": [
+        "程序",
+        "手续",
+        "步骤"
+      ],
+      "examples": [
+        "Follow the standard safety procedure.",
+        "The visa procedure takes six weeks."
+      ],
+      "synonyms": [
+        "process",
+        "method"
+      ],
+      "antonyms": [],
+      "related": [
+        "proceed",
+        "process",
+        "success"
+      ],
+      "semantic_expansions": [
+        "程序/手续/步骤：都是'规定好该怎么往前走'，中文按场合分了三个词"
+      ]
+    },
+    {
+      "id": "success",
+      "word": "success",
+      "pos": "noun",
+      "phonetic": "/səkˈses/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "suc-（sub- 的变体，紧接着）+ cess（行走）→ 一步紧接一步走到了终点 → 成功",
+      "origin": "拉丁语 successus：sub-（紧接）+ cedere（行走）",
+      "native_definition": "the achieving of what was aimed at",
+      "core_concept": "arriving at the goal by going step after step – 一步接一步走到了目标",
+      "core_image": "登山者最后一步踏上顶峰，回头是走过的整条路",
+      "chinese": [
+        "成功",
+        "成就"
+      ],
+      "examples": [
+        "The launch was a complete success.",
+        "Her success came after years of work."
+      ],
+      "synonyms": [
+        "achievement",
+        "triumph"
+      ],
+      "antonyms": [
+        "failure"
+      ],
+      "related": [
+        "successor",
+        "proceed",
+        "process",
+        "exceed"
+      ],
+      "semantic_expansions": [
+        "成功与成就：都是'一步步走到了目标'，区别在前者说结果后者说所得"
+      ]
+    },
+    {
+      "id": "successor",
+      "word": "successor",
+      "pos": "noun",
+      "phonetic": "/səkˈsesər/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "suc-（紧接着）+ cess（行走）+ -or（人）→ 紧接着上一个走上来的人 → 继任者",
+      "origin": "拉丁语 successor：sub-（紧接）+ cedere（行走）",
+      "native_definition": "the person or thing that comes next in a position or series",
+      "core_concept": "the one who steps up right after another – 紧接着前一个走上来的那个",
+      "core_image": "前任把钥匙交出来，下一个人接着走进这间办公室",
+      "chinese": [
+        "继任者",
+        "后继者"
+      ],
+      "examples": [
+        "She named her successor before retiring.",
+        "The new model is a worthy successor."
+      ],
+      "synonyms": [
+        "heir",
+        "replacement"
+      ],
+      "antonyms": [],
+      "related": [
+        "success",
+        "proceed",
+        "process"
+      ],
+      "semantic_expansions": [
+        "继任者与后继者：都是'紧接着上一个走上来的那个'，一个指人一个可指物"
+      ]
+    },
+    {
+      "id": "exceed",
+      "word": "exceed",
+      "pos": "verb",
+      "phonetic": "/ɪkˈsiːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "ex-（出、越过）+ ceed（行走）→ 走出界线之外 → 超过",
+      "origin": "拉丁语 excedere：ex-（出）+ cedere（行走）",
+      "native_definition": "to go beyond a limit or an expected amount",
+      "core_concept": "walking past the marked limit – 走过了划定的那条线",
+      "core_image": "水位漫过警戒线上的刻度",
+      "chinese": [
+        "超过",
+        "超出"
+      ],
+      "examples": [
+        "Do not exceed the stated dose.",
+        "Costs exceeded our estimate by a third."
+      ],
+      "synonyms": [
+        "surpass",
+        "outnumber"
+      ],
+      "antonyms": [],
+      "related": [
+        "proceed",
+        "process",
+        "success",
+        "successor"
+      ],
+      "semantic_expansions": [
+        "超过与超出：都是'走过了那条界线'，中文两种译法对应同一个动作"
+      ]
     }
   ]
 }

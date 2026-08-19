@@ -2,7 +2,17 @@
 """审核候选词条：先查再并。
 
 流程：候选 JSON → 结构与语言检查 → 人工确认 → 合并进 data/
-合并前后都跑 tests/validate.py，任何一步不过就拒绝落库。
+合并后跑 tests/validate.py，不过就拒绝落库。
+
+批次文件可以同时声明新的词根 / 概念 / 语义域，与词条一起原子落地：
+
+    {
+      "roots":    [{"id":"tend", "root":"tend", ...}],      // word_ids 自动填
+      "concepts": [{"id":"concept-tend-stretch", ...}],     // word_ids 自动填
+      "domains":  [{"id":"domain-x", ..., "root_ids":[...]}],
+      "domain_add": {"domain-force": ["tend"]},             // 往现有域追加词根
+      "words":    [ ... ]
+    }
 
 用法：
     python ai_pipeline/review.py check  candidates.json     # 只查不并
@@ -43,14 +53,43 @@ def load(name):
         return json.load(f)
 
 
-def check(candidates):
-    """返回 (错误列表, 待人工确认列表)。错误必须修，确认项由人判断。"""
+def _today():
+    from datetime import date
+    return date.today().isoformat()
+
+
+def load_reference():
+    """参考词表：词形出现在其中即可自动认定为真实英语词。
+
+    目的是免掉"逐个确认常见词"的重复劳动——每批原本有十几项都是
+    enough / result / fault 这类明显真词，只有表外的才值得人工过目。
+    文件缺失时退化为全部人工确认，不报错。
+    """
+    p = DATA / "english_reference.json"
+    if not p.exists():
+        return set()
+    try:
+        with open(p, encoding="utf-8") as f:
+            return {w.lower() for w in json.load(f).get("words") or []}
+    except (json.JSONDecodeError, OSError):
+        print("[WARN] english_reference.json 读取失败，本次全部转人工确认")
+        return set()
+
+
+def check(candidates, decl=None):
+    """返回 (错误列表, 待人工确认列表)。错误必须修，确认项由人判断。
+
+    decl 是批次里声明的新词根/概念/域；它们尚未入库但本批可以引用。
+    """
+    decl = decl or {}
     words = load("words.json")["words"]
     roots = load("roots.json")["roots"]
     lexicon = set(load("lexicon.json").get("external_words") or [])
+    reference = load_reference()
 
     existing = {w["id"] for w in words}
-    root_ids = {r["id"] for r in roots}
+    # 本批声明的新词根视为"将存在"，否则每次新建词根都要先手写脚本插进去
+    root_ids = {r["id"] for r in roots} | {r["id"] for r in decl.get("roots") or []}
     # 造词检测的比对基准要含本批次：AI 常在同一批里同时产出
     # 一个词和它不存在的反义词（disconfigure 模式）
     existing_words = {w["word"].lower() for w in words}
@@ -58,6 +97,7 @@ def check(candidates):
 
     errors = []
     review = []
+    auto_ok = set()      # 由参考词表自动核验通过的外部词
     seen = set()
     # 候选之间也可能互相引用，一并视为"将存在"
     incoming = {c.get("id") for c in candidates if c.get("id")}
@@ -130,16 +170,21 @@ def check(candidates):
             if t not in known:
                 errors.append(f"{wid}: related 指向词库中不存在的 {t!r}（会产生死链）")
 
-        # synonyms/antonyms：不在词库也不在白名单的一律拦下人工核
+        # synonyms/antonyms：不在词库、白名单、参考词表里的才转人工
         for f in ("synonyms", "antonyms"):
             for t in c.get(f) or []:
+                low = t.lower()
                 if t in existing or t in incoming or t in lexicon:
                     continue
-                low = t.lower()
                 fabricated = any(
                     low.startswith(p) and low[len(p):] in existing_words
                     for p in SUSPECT_PREFIXES
                 )
+                # 参考词表能证明它是真词就自动过；但疑似造词仍要人看，
+                # 因为"前缀+真词"也可能恰好撞进词表（如 inform vs *infirm）
+                if low in reference and not fabricated:
+                    auto_ok.add(t)
+                    continue
                 tag = "疑似造词" if fabricated else "未核验"
                 review.append(
                     f"{wid}.{f}: {t!r} {tag}——确认是真实英语词后加入 data/lexicon.json"
@@ -164,7 +209,7 @@ def check(candidates):
         if not re.search(r"[A-Za-z]", " ".join(c.get("examples") or [])):
             errors.append(f"{wid}: examples 不含英文句子")
 
-    return errors, review
+    return errors, review, sorted(auto_ok)
 
 
 def run_validate():
@@ -173,13 +218,60 @@ def run_validate():
     return r.returncode, r.stdout + r.stderr
 
 
-def merge(candidates):
-    """合并进 data/：words.json + examples.json + relations.json + 词根反向引用。"""
+def merge(candidates, decl=None):
+    """合并进 data/：words + examples + relations + 词根/概念/域的反向引用。
+
+    decl 里声明的新词根、概念、语义域与词条一起落地，word_ids 自动按
+    本批词条填好——避免"先建空词根导致校验不过"的中间状态。
+    """
+    decl = decl or {}
     wf = load("words.json")
     ef = load("examples.json")
     rf = load("relations.json")
     rootf = load("roots.json")
     cf = load("concepts.json")
+    dmf = load("domains.json")
+
+    # 本批每个词根收了哪些词
+    by_root = {}
+    for c in candidates:
+        for rid in c.get("root_ids") or []:
+            by_root.setdefault(rid, []).append(c["id"])
+
+    # 新词根：创建时即带 word_ids
+    have_roots = {r["id"] for r in rootf["roots"]}
+    for r in decl.get("roots") or []:
+        if r["id"] in have_roots:
+            continue
+        r = dict(r)
+        r["word_ids"] = sorted(set(r.get("word_ids") or []) | set(by_root.get(r["id"], [])))
+        rootf["roots"].append(r)
+
+    # 新概念：同样带 word_ids
+    have_con = {x["id"] for x in cf["concepts"]}
+    for c2 in decl.get("concepts") or []:
+        if c2["id"] in have_con:
+            continue
+        c2 = dict(c2)
+        seed = set(c2.get("word_ids") or [])
+        for rid in c2.get("root_ids") or []:
+            seed |= set(by_root.get(rid, []))
+        c2["word_ids"] = sorted(seed)
+        cf["concepts"].append(c2)
+
+    # 新语义域
+    have_dm = {x["id"] for x in dmf["domains"]}
+    for d2 in decl.get("domains") or []:
+        if d2["id"] not in have_dm:
+            dmf["domains"].append(dict(d2))
+
+    # 往现有语义域追加词根
+    for did, rids in (decl.get("domain_add") or {}).items():
+        for d2 in dmf["domains"]:
+            if d2["id"] == did:
+                for rid in rids:
+                    if rid not in d2["root_ids"]:
+                        d2["root_ids"].append(rid)
 
     for c in candidates:
         wf["words"].append(c)
@@ -210,7 +302,7 @@ def merge(candidates):
 
     for name, obj in (("words.json", wf), ("examples.json", ef),
                       ("relations.json", rf), ("roots.json", rootf),
-                      ("concepts.json", cf)):
+                      ("concepts.json", cf), ("domains.json", dmf)):
         with open(DATA / name, "w", encoding="utf-8") as f:
             json.dump(obj, f, ensure_ascii=False, indent=2)
             f.write("\n")
@@ -224,9 +316,20 @@ def main():
 
     raw = json.loads(path.read_text(encoding="utf-8"))
     candidates = raw["words"] if isinstance(raw, dict) else raw
-    print(f"候选词条 {len(candidates)} 条：{', '.join(c.get('id', '?') for c in candidates)}\n")
+    decl = {k: raw.get(k) for k in ("roots", "concepts", "domains", "domain_add")} \
+        if isinstance(raw, dict) else {}
 
-    errors, review = check(candidates)
+    print(f"候选词条 {len(candidates)} 条：{', '.join(c.get('id', '?') for c in candidates)}")
+    for key, label in (("roots", "新词根"), ("concepts", "新概念"), ("domains", "新语义域")):
+        if decl.get(key):
+            print(f"{label} {len(decl[key])} 个："
+                  f"{', '.join(x['id'] for x in decl[key])}")
+    if decl.get("domain_add"):
+        print("追加到现有语义域：" + "; ".join(
+            f"{k} += {v}" for k, v in decl["domain_add"].items()))
+    print()
+
+    errors, review, auto_ok = check(candidates, decl)
 
     if errors:
         print(f"[FAIL] 结构错误 {len(errors)} 处，必须修正：")
@@ -234,6 +337,10 @@ def main():
             print(f"        {e}")
     else:
         print("[PASS] 结构检查通过")
+
+    if auto_ok:
+        print(f"[AUTO] {len(auto_ok)} 个外部词由参考词表自动核验："
+              f"{', '.join(auto_ok[:12])}{' …' if len(auto_ok) > 12 else ''}")
 
     if review:
         print(f"\n[REVIEW] {len(review)} 项需人工确认：")
@@ -259,7 +366,18 @@ def main():
               "若本批含新增词根/概念，这是预期的中间状态；"
               "否则说明合并前就已有问题。")
 
-    merge(candidates)
+    # 自动核验通过的词要登记进白名单，否则 validate.py 的 Q8 仍会拦下
+    if auto_ok:
+        lf = load("lexicon.json")
+        before = len(lf["external_words"])
+        lf["external_words"] = sorted(set(lf["external_words"]) | set(auto_ok))
+        lf["reviewed_at"] = _today()
+        with open(DATA / "lexicon.json", "w", encoding="utf-8") as f:
+            json.dump(lf, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print(f"白名单 {before} → {len(lf['external_words'])}（自动核验部分已登记）")
+
+    merge(candidates, decl)
     print(f"\n已合并 {len(candidates)} 条，重新校验：")
     code, out = run_validate()
     print(out[-700:])

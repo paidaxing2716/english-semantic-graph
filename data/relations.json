@@ -852,6 +852,78 @@
       "to": "sufficient",
       "type": "root",
       "note": "suf-（sub- 的变体，从下面）+ fic（做）+ -ient → 在底下垫够了、够用来做成事的 → 足够的"
+    },
+    {
+      "from": "tend",
+      "to": "extend",
+      "type": "root",
+      "note": "ex-（向外）+ tend（伸）→ 往外伸出去 → 延长、扩展"
+    },
+    {
+      "from": "tend",
+      "to": "intend",
+      "type": "root",
+      "note": "in-（朝向）+ tend（伸）→ 心思朝某个方向伸过去 → 打算"
+    },
+    {
+      "from": "tend",
+      "to": "pretend",
+      "type": "root",
+      "note": "pre-（在前）+ tend（伸）→ 在真相前面先伸出一层幌子 → 假装"
+    },
+    {
+      "from": "tend",
+      "to": "extensive",
+      "type": "root",
+      "note": "extend（往外伸）+ -ive（…的）→ 伸得很开的 → 广泛的"
+    },
+    {
+      "from": "tend",
+      "to": "intensive",
+      "type": "root",
+      "note": "in-（朝内、朝一点）+ tens（伸、绷）+ -ive → 力气全绷向一点的 → 密集的"
+    },
+    {
+      "from": "tend",
+      "to": "tendency",
+      "type": "root",
+      "note": "tend（伸）+ -ency（名词）→ 总往某个方向伸的那个劲头 → 倾向"
+    },
+    {
+      "from": "ced",
+      "to": "proceed",
+      "type": "root",
+      "note": "pro-（向前）+ ceed（ced 的变体，行走）→ 继续往前走 → 进行"
+    },
+    {
+      "from": "ced",
+      "to": "process",
+      "type": "root",
+      "note": "pro-（向前）+ cess（ced 的变体，行走）→ 一路往前走过的那串步骤 → 过程"
+    },
+    {
+      "from": "ced",
+      "to": "procedure",
+      "type": "root",
+      "note": "proceed（往前走）+ -ure（名词）→ 规定该怎么往前走的那套步骤 → 程序"
+    },
+    {
+      "from": "ced",
+      "to": "success",
+      "type": "root",
+      "note": "suc-（sub- 的变体，紧接着）+ cess（行走）→ 一步紧接一步走到了终点 → 成功"
+    },
+    {
+      "from": "ced",
+      "to": "successor",
+      "type": "root",
+      "note": "suc-（紧接着）+ cess（行走）+ -or（人）→ 紧接着上一个走上来的人 → 继任者"
+    },
+    {
+      "from": "ced",
+      "to": "exceed",
+      "type": "root",
+      "note": "ex-（出、越过）+ ceed（行走）→ 走出界线之外 → 超过"
     }
   ]
 }

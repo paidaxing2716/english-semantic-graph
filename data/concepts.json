@@ -303,6 +303,40 @@
         "efficient",
         "sufficient"
       ]
+    },
+    {
+      "id": "concept-tend-stretch",
+      "concept": "to stretch out",
+      "chinese": "伸展、绷向",
+      "core_image": "皮筋被拉开，绷紧却没断",
+      "root_ids": [
+        "tend"
+      ],
+      "word_ids": [
+        "extend",
+        "extensive",
+        "intend",
+        "intensive",
+        "pretend",
+        "tendency"
+      ]
+    },
+    {
+      "id": "concept-ced-go",
+      "concept": "to go, to yield",
+      "chinese": "行进、让出",
+      "core_image": "队伍往前挪一步，前面让出位置",
+      "root_ids": [
+        "ced"
+      ],
+      "word_ids": [
+        "exceed",
+        "procedure",
+        "proceed",
+        "process",
+        "success",
+        "successor"
+      ]
     }
   ]
 }

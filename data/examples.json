@@ -1470,6 +1470,174 @@
       "text": "Two hours should be sufficient.",
       "source": "AI 生成 · 人工审核",
       "scene": "垫脚的砖刚好够高，手一伸就摸到了架子顶层"
+    },
+    {
+      "id": "ex-extend-1",
+      "word_id": "extend",
+      "text": "They extended the deadline by a week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "卷尺被抽出来，尺条一节节伸向远处"
+    },
+    {
+      "id": "ex-extend-2",
+      "word_id": "extend",
+      "text": "He extended a hand in greeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "卷尺被抽出来，尺条一节节伸向远处"
+    },
+    {
+      "id": "ex-intend-1",
+      "word_id": "intend",
+      "text": "I intend to finish this today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "弓拉满，箭尖已经指定了靶心"
+    },
+    {
+      "id": "ex-intend-2",
+      "word_id": "intend",
+      "text": "The law was intended to protect tenants.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "弓拉满，箭尖已经指定了靶心"
+    },
+    {
+      "id": "ex-pretend-1",
+      "word_id": "pretend",
+      "text": "He pretended not to hear me.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在自己面前撑起一块布，别人看到的是布不是人"
+    },
+    {
+      "id": "ex-pretend-2",
+      "word_id": "pretend",
+      "text": "She pretended to be asleep.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在自己面前撑起一块布，别人看到的是布不是人"
+    },
+    {
+      "id": "ex-extensive-1",
+      "word_id": "extensive",
+      "text": "The fire caused extensive damage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张网被四角拉开，铺满整个院子"
+    },
+    {
+      "id": "ex-extensive-2",
+      "word_id": "extensive",
+      "text": "She has extensive experience in teaching.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张网被四角拉开，铺满整个院子"
+    },
+    {
+      "id": "ex-intensive-1",
+      "word_id": "intensive",
+      "text": "She took an intensive course in Japanese.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "所有绳子朝同一个点收紧，那一点绷得最狠"
+    },
+    {
+      "id": "ex-intensive-2",
+      "word_id": "intensive",
+      "text": "The patient is in intensive care.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "所有绳子朝同一个点收紧，那一点绷得最狠"
+    },
+    {
+      "id": "ex-tendency-1",
+      "word_id": "tendency",
+      "text": "He has a tendency to interrupt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树在常年偏风下长歪，枝干都朝一边伸"
+    },
+    {
+      "id": "ex-tendency-2",
+      "word_id": "tendency",
+      "text": "There is a tendency for prices to rise in spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树在常年偏风下长歪，枝干都朝一边伸"
+    },
+    {
+      "id": "ex-proceed-1",
+      "word_id": "proceed",
+      "text": "Please proceed to gate 12.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍在路口停了一下，然后继续往前挪"
+    },
+    {
+      "id": "ex-proceed-2",
+      "word_id": "proceed",
+      "text": "We may now proceed with the vote.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍在路口停了一下，然后继续往前挪"
+    },
+    {
+      "id": "ex-process-1",
+      "word_id": "process",
+      "text": "Learning a language is a slow process.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线上零件从这头进去，一站一站往前挪到那头"
+    },
+    {
+      "id": "ex-process-2",
+      "word_id": "process",
+      "text": "The factory processes ten tons a day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线上零件从这头进去，一站一站往前挪到那头"
+    },
+    {
+      "id": "ex-procedure-1",
+      "word_id": "procedure",
+      "text": "Follow the standard safety procedure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上贴着操作流程图，第一步到第五步标得清清楚楚"
+    },
+    {
+      "id": "ex-procedure-2",
+      "word_id": "procedure",
+      "text": "The visa procedure takes six weeks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上贴着操作流程图，第一步到第五步标得清清楚楚"
+    },
+    {
+      "id": "ex-success-1",
+      "word_id": "success",
+      "text": "The launch was a complete success.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "登山者最后一步踏上顶峰，回头是走过的整条路"
+    },
+    {
+      "id": "ex-success-2",
+      "word_id": "success",
+      "text": "Her success came after years of work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "登山者最后一步踏上顶峰，回头是走过的整条路"
+    },
+    {
+      "id": "ex-successor-1",
+      "word_id": "successor",
+      "text": "She named her successor before retiring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前任把钥匙交出来，下一个人接着走进这间办公室"
+    },
+    {
+      "id": "ex-successor-2",
+      "word_id": "successor",
+      "text": "The new model is a worthy successor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前任把钥匙交出来，下一个人接着走进这间办公室"
+    },
+    {
+      "id": "ex-exceed-1",
+      "word_id": "exceed",
+      "text": "Do not exceed the stated dose.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位漫过警戒线上的刻度"
+    },
+    {
+      "id": "ex-exceed-2",
+      "word_id": "exceed",
+      "text": "Costs exceeded our estimate by a third.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位漫过警戒线上的刻度"
     }
   ]
 }

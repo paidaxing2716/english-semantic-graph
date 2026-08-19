@@ -327,6 +327,48 @@
         "efficient",
         "sufficient"
       ]
+    },
+    {
+      "id": "tend",
+      "root": "tend",
+      "variants": [
+        "tend",
+        "tens",
+        "tent"
+      ],
+      "origin": "拉丁语 tendere（伸展、拉伸）",
+      "core_concept": "to stretch, to reach out / 伸展、把自己伸向某处",
+      "core_image": "一根皮筋被两头拉开，绷紧但没断",
+      "english_definition": "to stretch, to extend",
+      "word_ids": [
+        "extend",
+        "extensive",
+        "intend",
+        "intensive",
+        "pretend",
+        "tendency"
+      ]
+    },
+    {
+      "id": "ced",
+      "root": "ced",
+      "variants": [
+        "ced",
+        "cess",
+        "ceed"
+      ],
+      "origin": "拉丁语 cedere（行走、让出）",
+      "core_concept": "to go, to yield / 往前走，或让出位置",
+      "core_image": "队伍往前挪一步，前面的人让出了位置",
+      "english_definition": "to go, to yield",
+      "word_ids": [
+        "exceed",
+        "procedure",
+        "proceed",
+        "process",
+        "success",
+        "successor"
+      ]
     }
   ]
 }
