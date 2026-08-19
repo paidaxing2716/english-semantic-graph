@@ -34,7 +34,8 @@ REQUIRED = ["id", "word", "pos", "phonetic", "origin",
 ROOT_ONLY = ["root_ids", "root_logic"]
 OPTIONAL = ["synonyms", "antonyms", "related", "semantic_expansions",
             "synonym_group", "synonym_note", "collocations", "level",
-            "phrasal_verbs", "patterns", "decomposable", "decomposable_note"]
+            "phrasal_verbs", "patterns", "decomposable", "decomposable_note",
+            "recall_hint"]
 ALLOWED_FIELDS = set(REQUIRED) | set(OPTIONAL) | set(ROOT_ONLY)
 
 VALID_DECOMP = {"root", "root_pending", "germanic", "loanword", "phrasal", "opaque"}

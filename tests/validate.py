@@ -190,6 +190,41 @@ def main():
     else:
         print(f"[INFO] Q8 近/反义词全部已核验（白名单 {len(lexicon)} 词）")
 
+    # --- Q12：回想模式可用性 ---
+    # 回想模式遮住单词与中文义项后，剩下的画面和推导必须还能提示出这个词。
+    # 两类写法会让它失效：
+    #   a) core_image 里点名了中文义项 → 遮完剩不下画面，且等于中译英
+    #   b) 推导以"→ 中文义项"收尾且义项多 → 遮完只剩一串方块
+    # 后者用 recall_hint 补救：专为本模式写的推导，不点名义项。
+    img_leak = []
+    hint_needed = []
+    for w in words:
+        if w.get("decomposable") != "root":
+            continue
+        img = w.get("core_image") or ""
+        for zh in w.get("chinese") or []:
+            if len(zh) >= 2 and zh in img:
+                img_leak.append(f"{w['id']}: core_image 点名义项「{zh}」")
+        # 估算遮罩后剩余信息：被遮的中文义项出现次数
+        text = w.get("recall_hint") or w.get("root_logic") or ""
+        blanks = sum(text.count(zh) for zh in (w.get("chinese") or []) if len(zh) >= 2)
+        if blanks >= 3 and not w.get("recall_hint"):
+            hint_needed.append(f"{w['id']}: 推导含 {blanks} 处义项，遮罩后提示不足，需加 recall_hint")
+
+    if img_leak:
+        print(f"[FAIL] core_image 点名中文义项 (Q12): {len(img_leak)} 处")
+        for m in img_leak[:8]:
+            print(f"        {m}")
+        ok = False
+    if hint_needed:
+        print(f"[FAIL] 缺 recall_hint (Q12): {len(hint_needed)} 处")
+        for m in hint_needed[:8]:
+            print(f"        {m}")
+        ok = False
+    if not img_leak and not hint_needed:
+        n_hint = sum(1 for w in words if w.get("recall_hint"))
+        print(f"[INFO] Q12 回想模式可用（{n_hint} 词条带 recall_hint）")
+
     # --- Q11：不可拆的词不得硬编词根 ---
     # 考研词表里只有约两成词能靠拉丁词根拆解（见 ai_pipeline/classify_wordlist.py）。
     # 给日耳曼核心词、借词、短语动词硬安一个词根，等于教给学习者错的词源。

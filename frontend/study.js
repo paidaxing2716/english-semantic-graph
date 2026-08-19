@@ -78,7 +78,9 @@
     html += `<div class="card-meta">词性 ${esc(w.pos)}`;
     if (rootNames) html += ` · 词根 <b>${esc(rootNames)}</b>`;
     html += `</div>`;
-    html += `<div class="card-logic">${esc(maskAnswer(w.root_logic, w))}</div>`;
+    // recall_hint 是专为本模式写的推导：不点名中文义项，遮罩后仍完整。
+    // root_logic 通常以"→ 中文义项"收尾，遮完只剩一串方块，提示不足。
+    html += `<div class="card-logic">${esc(maskAnswer(w.recall_hint || w.root_logic, w))}</div>`;
 
     if (revealed) {
       html += `<div class="card-answer">
@@ -132,7 +134,7 @@
       const zh = (w.chinese || []).slice(0, 3).join(" / ");
       html += `<tr>
         <td class="fam-word">${revealed ? esc(w.word) : MASK}</td>
-        <td class="fam-logic">${esc(maskAnswer(w.root_logic, w))}</td>
+        <td class="fam-logic">${esc(maskAnswer(w.recall_hint || w.root_logic, w))}</td>
         <td class="fam-zh">${revealed ? esc(zh) : ""}</td>
       </tr>`;
     }
