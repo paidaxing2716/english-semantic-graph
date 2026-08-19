@@ -1,0 +1,124 @@
+{
+  "schema_version": "0.1",
+  "reviewed_at": "2026-08-19",
+  "note": "3-4 词小词族的词源审核。这批噪声比大词族高得多——很多是纯拼写巧合，或整族本身是日耳曼语（不适用拉丁词根拆解法）。按判断类型分组，避免逐条重复同一理由。",
+  "dissolve_germanic": {
+    "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法",
+    "stems": ["out", "ward", "draw", "gre", "hard", "lad", "lead", "mark", "mean", "own",
+              "read", "skil", "slip", "ste", "hap", "cloth", "like"]
+  },
+  "dissolve_coincidence": {
+    "why": "拼写巧合：同一串字母下混了互不相关的多个来源，不构成词族",
+    "stems": {
+      "com": "comedy/comic 来自希腊 komos，commence 来自 initiare，comment 来自 mens",
+      "cord": "cord 来自 chorda（弦），cordial/record 来自 cor（心）",
+      "end": "end/ending 日耳曼语，endure 来自 durare，offend 来自 fendere",
+      "fair": "affair 来自 facere，fair/fairly 日耳曼语，fairy 来自 fata",
+      "fit": "fit 日耳曼语，profit 来自 facere",
+      "mat": "mat 日耳曼语，material/matter 来自 materia，mature 来自 maturus",
+      "pen": "pen 来自 penna，penalty 来自 poena，penny 日耳曼语，pension 来自 pendere",
+      "rub": "rub/rubbish 日耳曼语，ruby 来自 rubeus",
+      "sol": "desolate 来自 solus，resolution/solution 来自 solvere，solar 来自 sol",
+      "ach": "coach 来自匈牙利语 kocsi，preach 来自 praedicare，reach 日耳曼语",
+      "care": "care 日耳曼语 caru，career 来自 carrus",
+      "cond": "condition 来自 dicere，second/secondary 来自 sequi",
+      "conv": "convention 来自 venire，conversion 来自 vertere，conviction 来自 vincere",
+      "dec": "decent 来自 decere，decorate 来自 decor，predecessor 来自 cedere",
+      "def": "defence/defy 来自 fendere/fidare，define 来自 finis",
+      "ent": "agent 来自 agere，enter 来自 intra，entity 来自 esse",
+      "fun": "fun 日耳曼语，funeral 来自 funus",
+      "ham": "ashamed 日耳曼语，ham/hammer 日耳曼语，三者互不相关",
+      "ide": "abide 日耳曼语，aside 日耳曼语，ideal 来自希腊 idea",
+      "past": "past 来自 passer，paste 来自 pasta，pasture 来自 pascere",
+      "pat": "compatible 来自 pati，pat 日耳曼语，patent 来自 patere",
+      "rec": "direction 来自 regere，recent 来自 recens，recite 来自 citare",
+      "set": "asset 来自 satis，offset/setting 日耳曼语",
+      "sir": "desirable 来自 desiderare，sir 来自 senior，siren 来自希腊 Seiren",
+      "sup": "super 来自 super，supper 日耳曼语，supply 来自 plere",
+      "til": "distill 来自 stilla，till/until 日耳曼语",
+      "ton": "astonish 来自 tonare，monotonous 来自希腊 tonos，ton 日耳曼语",
+      "trad": "contradiction 来自 dicere，trade 日耳曼语，tradition 来自 tradere",
+      "bel": "bell/belly 日耳曼语，rebel/rebellion 来自 bellum（战争）",
+      "conf": "confer 来自 ferre，confess 来自 fateri，confine 来自 finis",
+      "est": "estate 来自 stare，interest 来自 esse，三者词根不同",
+      "put": "computer/input 的 put 是日耳曼语，reputation 来自 putare（思量）",
+      "rest": "arrest/rest 来自 stare，restless 的 rest 是日耳曼语"
+    }
+  },
+  "split": {
+    "why": "同一拼写下有两个真词根，各自成族",
+    "stems": {
+      "cel": { "cella 小室": ["cell", "cellar"], "excellere 超出": ["excel", "excellent"] },
+      "gard": { "日耳曼语 garden": ["garden"], "guarder 看护": ["regard", "regarding", "regardless"] },
+      "res": { "sentire 感觉": ["resent"], "sistere 站立/抵抗": ["resist", "resistance", "resistant"] },
+      "rot": { "日耳曼语 腐烂": ["rot", "rotten"], "rota 轮": ["rotary", "rotate"] },
+      "ason": { "ratio 理性": ["reason", "reasonable"], "satio 播种季": ["season"] },
+      "cit": { "civitas 城": ["city"], "citare 唤起": ["excitement", "exciting"] },
+      "cons": { "sentire 感觉": ["consent"], "sistere 站立": ["consist", "consistent"] },
+      "cret": { "crescere 生长": ["concrete"], "cernere 分辨": ["secret", "secretary"] },
+      "desp": { "sperare 希望": ["desperate"], "specere 看": ["despise", "despite"] },
+      "exc": { "cedere 行进": ["excess", "excessive"], "citare 唤起": ["excite"] },
+      "main": { "日耳曼语 main": ["main"], "manere 停留": ["remain", "remains"] },
+      "med": { "metallum 金属": ["medal"], "medicus 医者": ["medical", "medicine"] },
+      "mpl": { "plere 填满": ["complement"], "plicare 折叠": ["complicate", "complication"] },
+      "nec": { "nectere 连接": ["connection"], "necesse 必需": ["necessary", "necessity"] },
+      "perc": { "capere 抓取": ["perceive"], "centum 百": ["percent", "percentage"] },
+      "plain": { "plangere 悲叹": ["complain"], "planus 平": ["explain", "plain"] },
+      "tire": { "integer 完整": ["entire"], "法语 tirer 拉": ["retire", "tire"] },
+      "volt": { "volvere 转": ["revolt"], "人名 Volta": ["volt", "voltage"] },
+      "stor": { "instaurare 重建": ["restore", "store", "storage"], "日耳曼语 层": ["storey"] },
+      "arm": { "arma 武器": ["alarm", "army"], "日耳曼语 手臂": ["arm"] }
+    }
+  },
+  "drop": {
+    "why": "单个混入词，其余成族",
+    "words": {
+      "tol": { "toll": "日耳曼语，通行费，与 tolerare 无关" },
+      "bas": { "embassy": "来自高卢语 ambactus，与 basis 无关" },
+      "bat": { "bat": "日耳曼语，棒/蝙蝠，与 battuere 无关" },
+      "car": { "caress": "来自 carus（亲爱），与 carrus（车）无关" },
+      "cas": { "cassette": "法语小盒，与 casus（落下/偶然）无关" },
+      "cup": { "cup": "来自 cuppa，与 capere（抓取）无关" },
+      "eng": { "engage": "来自 gage（抵押），与 ingenium 无关" },
+      "liv": { "living": "日耳曼语 live，与 liberare（释放）无关" },
+      "log": { "log": "日耳曼语，木头，与希腊 logos 无关" },
+      "path": { "path": "日耳曼语，小路，与希腊 pathos（感受）无关" },
+      "pire": { "empire": "来自 imperium，与 spirare（呼吸）无关" },
+      "sil": { "silly": "日耳曼语，与 silere（安静）无关" },
+      "soc": { "soccer": "association football 的截短，与 socius 无关" },
+      "tang": { "tactic": "希腊 taktikos，与拉丁 tangere 无关" },
+      "und": { "under": "日耳曼语，与 undare（涌）无关" },
+      "post": { "poster": "此处 post 为日耳曼语'柱'义，与 ponere 无关" },
+      "par": { "party": "来自 pars（部分），与 parere（生育）无关" }
+    }
+  },
+  "note_second_pass": "修正词干提取 bug（-ess 啃穿 press 类词根）后新出现的词族，一并审完",
+  "split_second_pass": {
+    "stems": {
+      "stant": { "stare 站立": ["constant", "instant", "instantaneous"], "substantia 实体": ["substantial"] }
+    }
+  },
+  "keep_second_pass": {
+    "why": "全族同源",
+    "stems": ["ply", "ple", "electric", "plant"]
+  },
+  "keep": {
+    "why": "全族同源，无需改动",
+    "stems": ["vert", "appe", "centr", "cept", "certain", "civil", "claim", "clos", "dif",
+              "dur", "econom", "electr", "equ", "face", "fuse", "grac", "hist", "host",
+              "ident", "inv", "lib", "mun", "norm", "not", "pect", "phys", "plac", "pract",
+              "prec", "respond", "sci", "soci", "spir", "spons", "sume", "tect", "telleg",
+              "tempt", "tern", "test", "vers", "accept", "accord", "ampl", "auth", "cad",
+              "cede", "cep", "cern", "clar", "comp", "conc", "cour", "creas", "custom",
+              "cycl", "dign", "domin", "dustr", "edi", "edit", "exc", "fact", "fav", "feat",
+              "fid", "firm", "fort", "fortun", "fresh", "gest", "govern", "grad", "graph",
+              "grav", "gul", "habit", "hero", "hibit", "hum", "impr", "inst", "journ",
+              "larg", "lev", "limit", "maj", "mechan", "mem", "metr", "mod", "mus", "nounc",
+              "num", "olog", "oper", "ord", "ordin", "origin", "pact", "paint", "pair",
+              "pati", "peri", "plan", "pleas", "point", "polit", "pref", "prev", "prob",
+              "prof", "prop", "prosp", "qual", "quart", "ref", "rump", "sembl", "sent",
+              "sert", "simpl", "solid", "solv", "spac", "stitut", "strain", "struc", "suit",
+              "sum", "tegr", "temp", "ter", "teri", "thesi", "tort", "tribut", "turb",
+              "vid", "voc"]
+  }
+}

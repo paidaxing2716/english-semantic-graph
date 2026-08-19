@@ -127,10 +127,17 @@ def strip_affixes(w):
         for s in SUFFIXES:
             if len(s) == 1 and round_i > 0:
                 continue
-            if stem.endswith(s) and len(stem) - len(s) >= 3:
-                stem = stem[: -len(s)]
-                affixed = True
-                break
+            if not stem.endswith(s) or len(stem) - len(s) < 3:
+                continue
+            cut = stem[: -len(s)]
+            # 剥完后词干末尾三字母必须含元音，否则这次剥离啃穿了词根。
+            # 典型受害者：express 被 -ess 剥成 expr、compress 剥成 mpr，
+            # 于是 premere（压）这一高产词族整体散成"孤立词"。
+            if not any(ch in "aeiouy" for ch in cut[-3:]):
+                continue
+            stem = cut
+            affixed = True
+            break
         else:
             break
 

@@ -64,6 +64,8 @@ english-semantic-graph/
 │   ├── word_analyzer.py      # 调模型生成候选
 │   ├── review.py             # 审核 + 合并入库
 │   ├── classify_wordlist.py  # 词表可拆性分析
+│   ├── etymology_verdicts.json      # 词族词源审核结论
+│   ├── build_root_families.py       # 应用审核结论，产出可用词族
 │   └── density_probe.py      # 图谱密度压力探测
 └── tests/
     ├── validate.py           # 数据校验（含质量门 Q1-Q8）

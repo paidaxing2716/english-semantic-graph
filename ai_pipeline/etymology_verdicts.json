@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1",
+  "reviewed_at": "2026-08-19",
+  "note": "对 classify_wordlist.py 自动发现的词族逐个审词源。自动匹配靠拼写，必然把同形异源的词根混成一族，也会把同一词根拆成两族。此文件记录判断依据，供 build_root_families.py 应用。",
+  "legend": {
+    "drop": "该词与本族词根无关，移出",
+    "split": "本族混了多个词根，按 into 拆开",
+    "merge_into": "本族与目标族同源，合并",
+    "dissolve": "该词干是拼写巧合，不构成真词族，整族作废"
+  },
+  "verdicts": {
+    "pon": { "root": "ponere 放置", "drop": { "pound": "pondus 重量 / 或畜栏义，与'放置'无关" } },
+    "pose": { "merge_into": "pon", "why": "法语 poser 与拉丁 ponere 在派生上同族" },
+    "tend": { "root": "tendere 伸展", "drop": { "tender": "作'柔软'解来自 tener，与'伸展'无关；作'提供'解才是 tendere，义项分叉故移出" } },
+    "spec": { "root": "specere 看", "keep_all": "special/specify 来自 species（外观），仍属 specere 一族" },
+    "leg": {
+      "root": "legere 读、选、聚",
+      "split": {
+        "legere 读/选/聚": ["collect", "collective", "select", "lecture", "diligent"],
+        "lex-legis 法": ["legal", "legacy", "delegate"],
+        "lig 绑缚（另族）": ["obligation", "religion", "religious"]
+      },
+      "drop": { "leg": "肢体义来自古诺尔斯语 leggr，与拉丁词根无关" }
+    },
+    "mis": {
+      "root": "mittere 送",
+      "merge_into": "mit",
+      "drop": {
+        "miserable": "miser 悲惨，与'送'无关",
+        "misery": "miser 悲惨，与'送'无关"
+      }
+    },
+    "mit": {
+      "root": "mittere 送",
+      "drop": { "missing": "英语 miss（未击中）来自日耳曼语 missan，与 mittere 无关" }
+    },
+    "form": { "root": "formare 塑形", "keep_all": "全族同源" },
+    "jac": {
+      "root": "jacere 投掷",
+      "split": {
+        "jacere 投掷": ["inject", "object", "objective", "project", "projector", "reject", "subject", "subjective", "adjective"],
+        "jacēre 躺卧（另一动词）": ["adjacent"]
+      }
+    },
+    "tain": {
+      "root": "tenere 持有",
+      "drop": {
+        "tension": "tendere 伸展，应归 tend 族",
+        "tent": "tendere 伸展（撑开的帐篷），应归 tend 族"
+      }
+    },
+    "sta": { "root": "stare 站立", "drop": { "sister": "日耳曼语 swester，与拉丁词根无关" } },
+    "port": { "root": "portare 运送", "keep_all": "全族同源" },
+    "part": { "root": "pars-partire 部分", "keep_all": "全族同源" },
+    "trah": { "root": "trahere 拉", "keep_all": "全族同源" },
+    "act": { "root": "agere-actus 做、驱动", "keep_all": "全族同源" },
+    "min": {
+      "root": "minus-minor 小",
+      "split": {
+        "minus 小/次要": ["diminish", "minor", "minority", "minister", "administer"],
+        "minere 突出（另族）": ["prominent"]
+      },
+      "drop": {
+        "mineral": "来自 mine（矿），凯尔特语源，与'小'无关",
+        "seminar": "semen 种子，与'小'无关"
+      }
+    },
+    "fac": {
+      "root": "facere 做",
+      "drop": { "fiction": "fingere 捏造，与 facere 无关（figur 族才是 fingere）" }
+    },
+    "fici": { "merge_into": "fac", "why": "-ficient/-ficiency 是 facere 的派生形态" },
+    "pet": {
+      "root": "petere 追求",
+      "drop": {
+        "pet": "宠物义源不明（或凯尔特语），与'追求'无关",
+        "petty": "法语 petit 小，与'追求'无关"
+      }
+    },
+    "sign": { "root": "signum 记号", "keep_all": "全族同源" },
+    "duc": { "root": "ducere 引导", "keep_all": "全族同源" },
+    "duce": { "merge_into": "duc", "why": "同一词根 ducere 被拼写变体拆成两族" },
+    "quir": { "root": "quaerere 寻求", "keep_all": "全族同源" },
+    "cur": {
+      "root": "currere 跑",
+      "split": {
+        "currere 跑": ["currency", "current", "excursion", "incur", "occur", "recur"],
+        "cura 关切（另族）": ["curious", "security"]
+      }
+    },
+    "fin": { "root": "finis 界限、终点", "keep_all": "全族同源" },
+    "pas": {
+      "root": "passus 步、通过",
+      "split": {
+        "passare 通过": ["pass", "passage", "compass", "surpass"],
+        "pati-passio 承受（另族）": ["passion", "passive", "compassion"]
+      }
+    },
+    "pend": { "root": "pendere 悬挂、称量", "keep_all": "compensate/compensation 来自 pensare，同族" },
+    "sid": {
+      "root": "sedere 坐",
+      "split": {
+        "sedere 坐": ["president", "residence", "resident", "subsidy"],
+        "sidus 星（另族）": ["consider", "considerable", "consideration"]
+      }
+    },
+    "art": {
+      "root": "ars-artis 技艺",
+      "split": {
+        "ars 技艺": ["art", "artist", "artistic"],
+        "pars 部分（另族）": ["apart", "apartment"]
+      },
+      "drop": { "artery": "希腊语 arteria，与'技艺'无关" }
+    },
+    "clud": { "root": "claudere 关闭", "keep_all": "全族同源" },
+    "serv": {
+      "root": "servare 保存",
+      "split": {
+        "servare 保存": ["conservation", "preserve", "reservation", "reserve"],
+        "servire 服务（另族）": ["servant", "deserve"]
+      }
+    },
+    "stru": { "root": "struere 建造", "keep_all": "全族同源" },
+    "rect": { "root": "regere-rectus 引导、直", "keep_all": "全族同源" },
+    "rel": {
+      "root": "referre-relatus 带回",
+      "split": {
+        "referre 带回": ["relate", "relation", "relationship", "correlate"],
+        "religare 绑缚（另族）": ["rely"]
+      },
+      "drop": { "relish": "法语 reles，来自 relaxare 松开，与'带回'无关" }
+    },
+    "cov": { "root": "cooperire 覆盖", "keep_all": "全族同源" },
+    "scrib": { "root": "scribere 写", "keep_all": "全族同源" },
+    "dict": { "root": "dicere 说", "keep_all": "全族同源" },
+    "opt": {
+      "root": "optare 选择",
+      "drop": { "optical": "希腊语 optikos 看，与'选择'无关" }
+    },
+    "adv": {
+      "dissolve": "adv 是前缀 ad- 的拼写巧合，底下混了三个不同词根：venire（advent/adventure）、ante（advance/advantage）、visum（advise）"
+    },
+    "flu": { "root": "fluere 流", "keep_all": "flu 是 influenza 缩写，同源" },
+    "loc": { "root": "locus 位置", "keep_all": "全族同源" },
+    "prov": { "root": "probare 检验、证明", "keep_all": "全族同源" },
+    "clas": { "root": "classis 等级、类", "keep_all": "全族同源" },
+    "pan": {
+      "root": "panis 面包",
+      "split": {
+        "panis 面包（共食）": ["companion", "company"],
+        "pandere 张开（另族）": ["expansion"]
+      },
+      "drop": {
+        "pan": "日耳曼语，锅具，与词根无关",
+        "panic": "希腊神话 Pan，与词根无关"
+      }
+    },
+    "pel": { "root": "pellere 推、驱", "keep_all": "全族同源" },
+    "sequ": { "root": "sequi 跟随", "keep_all": "全族同源" },
+    "sult": {
+      "root": "salire-saltus 跳",
+      "split": {
+        "salire 跳": ["insult", "result", "resultant"],
+        "consulere 商议（另族）": ["consult", "consultant"]
+      }
+    },
+    "text": { "root": "texere 编织", "keep_all": "全族同源" },
+    "tin": {
+      "root": "tenere 持有（continere 一系）",
+      "drop": {
+        "tin": "日耳曼语，锡，与词根无关",
+        "tiny": "中古英语，与词根无关"
+      }
+    },
+    "crit": { "root": "希腊语 krinein 判断", "keep_all": "全族同源" },
+    "gen": { "root": "genus-generare 生、种", "keep_all": "全族同源" },
+    "tail": {
+      "root": "法语 tailler 切",
+      "drop": { "tail": "日耳曼语，尾巴，与'切'无关" }
+    },
+    "str": {
+      "dissolve": "拼写巧合：stress/distress 来自 strictus，strenuous 来自 strenuus，string 是日耳曼语，strive 来自古法语 estriver"
+    },
+    "ign": {
+      "dissolve": "拼写巧合：ignite 来自 ignis（火），ignorance/ignorant 来自 gnoscere（知），malignant 来自 malignus，reign 来自 regnum"
+    },
+    "lit": {
+      "root": "littera 字母",
+      "drop": { "litter": "来自 lit（床铺），与'字母'无关" }
+    },
+    "pos": { "root": "posse 能够", "keep_all": "与 ponere 是不同词根，此处分开是正确的" },
+    "sec": {
+      "root": "secare 切",
+      "drop": { "secure": "se- + cura（关切），与'切'无关" }
+    },
+    "stal": {
+      "dissolve": "install/stall/stale 同属日耳曼语 stall 一系，非拉丁词根，不适用本方法"
+    },
+    "lat": {
+      "dissolve": "拼写巧合：lateral 来自 latus（侧），later/latter 是日耳曼语 late，latent 来自 latere（隐藏），relative 来自 referre"
+    },
+    "man": {
+      "root": "manus 手",
+      "split": {
+        "manus 手": ["manage", "manual", "manner"],
+        "manere 停留（另族）": ["permanent"]
+      },
+      "drop": { "postman": "man 是日耳曼语，与 manus 无关" }
+    },
+    "mov": { "root": "movere 移动", "keep_all": "全族同源" },
+    "nat": {
+      "root": "nasci-natus 出生",
+      "drop": { "senator": "senex 年长，与'出生'无关" }
+    },
+    "organ": { "root": "希腊语 organon 器具", "keep_all": "全族同源" },
+    "son": {
+      "dissolve": "拼写巧合：person/personal 来自 persona，supersonic 来自 sonus，son 是日耳曼语"
+    },
+    "pol": {
+      "dissolve": "拼写巧合：polar 来自 polus，polish 来自 polire，polite 来自 politus，pollution 来自 polluere，poll 源不明"
+    },
+    "pres": {
+      "root": "premere 压",
+      "note": "修正词干提取 bug 后本族从 5 词涨到 12 词，拆分名单已相应补全",
+      "split": {
+        "premere 压": ["press", "pressure", "impress", "impression", "impressive",
+                       "express", "expression", "compress", "suppress", "depress",
+                       "oppress", "repress", "compression"],
+        "praeesse 在前（另族）": ["presence", "present", "presently"]
+      }
+    },
+    "proc": { "root": "cedere 行进", "merge_into": "ced", "why": "procedere = pro + cedere" },
+    "publ": { "root": "publicus 公众", "keep_all": "全族同源" },
+    "real": { "root": "res-realis 实在", "keep_all": "全族同源" },
+    "suc": { "root": "cedere 行进", "merge_into": "ced", "why": "succedere = sub + cedere" }
+  }
+}

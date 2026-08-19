@@ -1,0 +1,2988 @@
+{
+  "schema_version": "0.1",
+  "source": "classified2.json",
+  "min_keep": 3,
+  "accuracy_note": "此处词数是下限，不是精确值。词族由启发式词干提取发现，对已知高产词根抽样校准显示约 35% 的成员被误判为'孤立词'（如 capere 的 capable/capacity/capture、volvere 的 evolve/involve）。另有 62 个族清理后只剩 2 词而被降级，但其词根本身高产，只是在考研词表范围内成员少。因此实际可教词量高于此数。",
+  "stats": {
+    "auto_families": 291,
+    "reviewed_families": 301,
+    "unreviewed_families": 0,
+    "vetted_families": 203,
+    "vetted_words": 869,
+    "dissolved": 56,
+    "split": 33,
+    "merged": 6,
+    "dropped_words": 44
+  },
+  "families": {
+    "norm": [
+      "abnormal",
+      "norm",
+      "normal",
+      "normalization"
+    ],
+    "rump": [
+      "abrupt",
+      "corrupt",
+      "disrupt"
+    ],
+    "trah": [
+      "abstract",
+      "attract",
+      "attractive",
+      "contract",
+      "distract",
+      "extract",
+      "subtract",
+      "tractor"
+    ],
+    "accept": [
+      "accept",
+      "acceptable",
+      "acceptance"
+    ],
+    "accord": [
+      "accord",
+      "accordance",
+      "accordingly"
+    ],
+    "act": [
+      "act",
+      "action",
+      "active",
+      "actor",
+      "actual",
+      "exact",
+      "interact",
+      "react"
+    ],
+    "dict": [
+      "addict",
+      "contradict",
+      "dictate",
+      "dictation",
+      "predict"
+    ],
+    "equ": [
+      "adequate",
+      "equal",
+      "equality",
+      "equation"
+    ],
+    "mit": [
+      "admission",
+      "admit",
+      "commission",
+      "commit",
+      "dismiss",
+      "intermittent",
+      "miss",
+      "missile",
+      "mission",
+      "missionary",
+      "permission",
+      "permit",
+      "promising",
+      "submit",
+      "transmission",
+      "transmit"
+    ],
+    "opt": [
+      "adopt",
+      "opt",
+      "option",
+      "optional"
+    ],
+    "vers": [
+      "adverse",
+      "diverse",
+      "inverse",
+      "reverse"
+    ],
+    "vert": [
+      "advertise",
+      "conversation",
+      "convert",
+      "divert",
+      "invert"
+    ],
+    "vid": [
+      "advisable",
+      "envisage",
+      "invisible"
+    ],
+    "voc": [
+      "advocate",
+      "vocal",
+      "vocation"
+    ],
+    "fac": [
+      "affect",
+      "defect",
+      "deficiency",
+      "effect",
+      "effective",
+      "efficiency",
+      "efficient",
+      "infect",
+      "infectious",
+      "perfect",
+      "proficiency",
+      "sufficient"
+    ],
+    "firm": [
+      "affirm",
+      "confirm",
+      "firm"
+    ],
+    "flu": [
+      "affluent",
+      "flu",
+      "fluent",
+      "influence",
+      "influential",
+      "superfluous"
+    ],
+    "grav": [
+      "aggravate",
+      "grave",
+      "gravity"
+    ],
+    "grad": [
+      "aggressive",
+      "grade",
+      "gradual",
+      "upgrade"
+    ],
+    "loc": [
+      "allocate",
+      "local",
+      "locality",
+      "locate",
+      "location"
+    ],
+    "tern": [
+      "alternate",
+      "external",
+      "internal",
+      "international"
+    ],
+    "nounc": [
+      "announce",
+      "denounce",
+      "pronounce"
+    ],
+    "olog": [
+      "apologise",
+      "apology",
+      "biology"
+    ],
+    "appe": [
+      "appeal",
+      "appear",
+      "appearance",
+      "disappear"
+    ],
+    "pet": [
+      "appetite",
+      "competent",
+      "competition",
+      "perpetual",
+      "petition",
+      "repetition"
+    ],
+    "ply": [
+      "applicable",
+      "application",
+      "complicate",
+      "complication",
+      "implication"
+    ],
+    "point": [
+      "appoint",
+      "appointment",
+      "point"
+    ],
+    "prov": [
+      "approval",
+      "approve",
+      "improve",
+      "improvement",
+      "prove"
+    ],
+    "certain": [
+      "ascertain",
+      "certain",
+      "certainly",
+      "certainty"
+    ],
+    "pect": [
+      "aspect",
+      "expect",
+      "expectation",
+      "suspect"
+    ],
+    "sert": [
+      "assert",
+      "desert",
+      "insert"
+    ],
+    "sign": [
+      "assign",
+      "assignment",
+      "design",
+      "designate",
+      "resign",
+      "sign",
+      "signal",
+      "signify"
+    ],
+    "soci": [
+      "associate",
+      "association",
+      "sociable",
+      "society"
+    ],
+    "sume": [
+      "assume",
+      "consume",
+      "presume",
+      "resume"
+    ],
+    "tain": [
+      "attain",
+      "contain",
+      "container",
+      "detain",
+      "obtain",
+      "retain",
+      "sustain",
+      "tenant"
+    ],
+    "tempt": [
+      "attempt",
+      "contempt",
+      "tempt"
+    ],
+    "tend": [
+      "attend",
+      "attendance",
+      "attendant",
+      "contend",
+      "extend",
+      "extensive",
+      "intend",
+      "intensity",
+      "intensive",
+      "pretend",
+      "tend",
+      "tendency"
+    ],
+    "tribut": [
+      "attribute",
+      "contribute",
+      "distribute"
+    ],
+    "auth": [
+      "authentic",
+      "author",
+      "authority"
+    ],
+    "cycl": [
+      "bicycle",
+      "cycle",
+      "recycle"
+    ],
+    "civil": [
+      "civil",
+      "civilian",
+      "civilization",
+      "civilize"
+    ],
+    "claim": [
+      "claim",
+      "exclaim",
+      "proclaim",
+      "reclaim"
+    ],
+    "clar": [
+      "clarify",
+      "clarity",
+      "declare"
+    ],
+    "clas": [
+      "class",
+      "classic",
+      "classical",
+      "classification",
+      "classify"
+    ],
+    "clos": [
+      "close",
+      "disclose",
+      "enclose",
+      "enclosure"
+    ],
+    "fort": [
+      "comfort",
+      "comfortable",
+      "effort"
+    ],
+    "mem": [
+      "commemorate",
+      "memorial",
+      "memory"
+    ],
+    "mod": [
+      "commodity",
+      "moderate",
+      "modify"
+    ],
+    "mun": [
+      "communicate",
+      "communication",
+      "communism",
+      "community"
+    ],
+    "pact": [
+      "compact",
+      "impact",
+      "pact"
+    ],
+    "comp": [
+      "comparable",
+      "compile",
+      "comply"
+    ],
+    "part": [
+      "compartment",
+      "counterpart",
+      "depart",
+      "department",
+      "departure",
+      "impart",
+      "part",
+      "partial",
+      "partly"
+    ],
+    "pel": [
+      "compel",
+      "compulsory",
+      "expel",
+      "propel",
+      "repel"
+    ],
+    "pend": [
+      "compensate",
+      "compensation",
+      "depend",
+      "dependent",
+      "expend",
+      "expensive",
+      "suspend"
+    ],
+    "ple": [
+      "complement",
+      "implement",
+      "multiple",
+      "supplement",
+      "triple"
+    ],
+    "pon": [
+      "component",
+      "compose",
+      "composite",
+      "composition",
+      "compound",
+      "disposal",
+      "dispose",
+      "disposition",
+      "expose",
+      "exposure",
+      "impose",
+      "opponent",
+      "opposite",
+      "pose",
+      "position",
+      "preposition",
+      "proposal",
+      "propose",
+      "proposition",
+      "suppose"
+    ],
+    "cede": [
+      "concede",
+      "precede",
+      "recede"
+    ],
+    "cept": [
+      "concept",
+      "except",
+      "receipt",
+      "susceptible"
+    ],
+    "cern": [
+      "concern",
+      "concerning",
+      "discern"
+    ],
+    "conc": [
+      "concession",
+      "concise",
+      "reconcile"
+    ],
+    "clud": [
+      "conclude",
+      "exclude",
+      "exclusive",
+      "include",
+      "inclusive",
+      "preclude"
+    ],
+    "duc": [
+      "conduct",
+      "conductor",
+      "deduce",
+      "deduct",
+      "induce",
+      "introduce",
+      "introduction",
+      "produce",
+      "product",
+      "production",
+      "productive",
+      "reduce",
+      "reduction"
+    ],
+    "fid": [
+      "confidence",
+      "confident",
+      "confidential"
+    ],
+    "form": [
+      "conform",
+      "form",
+      "formal",
+      "formation",
+      "former",
+      "inform",
+      "information",
+      "perform",
+      "performance",
+      "reform",
+      "transform"
+    ],
+    "fuse": [
+      "confuse",
+      "diffuse",
+      "fuse",
+      "refuse"
+    ],
+    "quir": [
+      "conquest",
+      "enquire",
+      "exquisite",
+      "inquiry",
+      "quest",
+      "request",
+      "require",
+      "requirement"
+    ],
+    "sci": [
+      "conscience",
+      "conscientious",
+      "conscious",
+      "science",
+      "scientist"
+    ],
+    "sequ": [
+      "consecutive",
+      "consequence",
+      "consequently",
+      "sequence",
+      "subsequent"
+    ],
+    "solid": [
+      "consolidate",
+      "solid",
+      "solidarity"
+    ],
+    "spec": [
+      "conspicuous",
+      "inspect",
+      "perspective",
+      "prospect",
+      "prospective",
+      "respect",
+      "respective",
+      "retrospect",
+      "special",
+      "specialist",
+      "speciality",
+      "specialize",
+      "specification",
+      "specify"
+    ],
+    "spir": [
+      "conspiracy",
+      "inspiration",
+      "inspire",
+      "spiral"
+    ],
+    "stitut": [
+      "constitute",
+      "institute",
+      "substitute"
+    ],
+    "sta": [
+      "constitution",
+      "institution",
+      "statement",
+      "static",
+      "station",
+      "stationary",
+      "stationery",
+      "statistical",
+      "stay"
+    ],
+    "strain": [
+      "constrain",
+      "restrain",
+      "strain"
+    ],
+    "stru": [
+      "construct",
+      "destructive",
+      "instruct",
+      "instrument",
+      "instrumental",
+      "structure"
+    ],
+    "struc": [
+      "construction",
+      "destruction",
+      "instruction"
+    ],
+    "temp": [
+      "contemporary",
+      "temper",
+      "temporary"
+    ],
+    "test": [
+      "contest",
+      "protest",
+      "test",
+      "testify"
+    ],
+    "text": [
+      "context",
+      "pretext",
+      "text",
+      "textile",
+      "texture"
+    ],
+    "tin": [
+      "continent",
+      "continual",
+      "continuous"
+    ],
+    "ordin": [
+      "coordinate",
+      "ordinary",
+      "subordinate"
+    ],
+    "rect": [
+      "correct",
+      "direct",
+      "directly",
+      "director",
+      "directory",
+      "rectify"
+    ],
+    "respond": [
+      "correspond",
+      "correspondence",
+      "correspondent",
+      "corresponding"
+    ],
+    "cour": [
+      "courage",
+      "discourage",
+      "encourage"
+    ],
+    "cov": [
+      "cover",
+      "discover",
+      "discovery",
+      "recover",
+      "recovery",
+      "uncover"
+    ],
+    "crit": [
+      "criterion",
+      "critic",
+      "critical",
+      "criticism",
+      "criticize"
+    ],
+    "custom": [
+      "custom",
+      "customary",
+      "customer"
+    ],
+    "creas": [
+      "decrease",
+      "increase",
+      "increasingly"
+    ],
+    "feat": [
+      "defeat",
+      "feat",
+      "feature"
+    ],
+    "fin": [
+      "definite",
+      "definition",
+      "final",
+      "finally",
+      "finance",
+      "finish",
+      "finite",
+      "infinite"
+    ],
+    "gen": [
+      "degenerate",
+      "general",
+      "generate",
+      "generation",
+      "generous"
+    ],
+    "lib": [
+      "deliberate",
+      "liberal",
+      "liberate",
+      "liberty"
+    ],
+    "scrib": [
+      "describe",
+      "description",
+      "prescribe",
+      "prescription",
+      "script",
+      "subscribe"
+    ],
+    "tail": [
+      "detail",
+      "entail",
+      "retail",
+      "tailor"
+    ],
+    "tect": [
+      "detect",
+      "detective",
+      "detector",
+      "protect"
+    ],
+    "teri": [
+      "deteriorate",
+      "exterior",
+      "interior"
+    ],
+    "dif": [
+      "differ",
+      "difference",
+      "different",
+      "indifferent"
+    ],
+    "gest": [
+      "digest",
+      "gesture",
+      "suggest"
+    ],
+    "dign": [
+      "dignity",
+      "indignant",
+      "indignation"
+    ],
+    "grac": [
+      "disgrace",
+      "grace",
+      "graceful",
+      "gracious"
+    ],
+    "ord": [
+      "disorder",
+      "order",
+      "orderly"
+    ],
+    "plac": [
+      "displace",
+      "place",
+      "replace",
+      "replacement"
+    ],
+    "solv": [
+      "dissolve",
+      "resolve",
+      "solve"
+    ],
+    "tort": [
+      "distort",
+      "retort",
+      "torture"
+    ],
+    "turb": [
+      "disturb",
+      "disturbance",
+      "turbine"
+    ],
+    "domin": [
+      "dominant",
+      "dominate",
+      "predominant"
+    ],
+    "dur": [
+      "durable",
+      "duration",
+      "during",
+      "endurance"
+    ],
+    "econom": [
+      "economic",
+      "economical",
+      "economics",
+      "economy"
+    ],
+    "edit": [
+      "edit",
+      "editor",
+      "editorial"
+    ],
+    "edi": [
+      "edition",
+      "obedience",
+      "obedient"
+    ],
+    "electric": [
+      "electric",
+      "electrical",
+      "electrician",
+      "electricity"
+    ],
+    "larg": [
+      "enlarge",
+      "large",
+      "largely"
+    ],
+    "cep": [
+      "exception",
+      "exceptional",
+      "reception"
+    ],
+    "hibit": [
+      "exhibit",
+      "inhibit",
+      "prohibit"
+    ],
+    "peri": [
+      "experience",
+      "experiment",
+      "experimental"
+    ],
+    "plan": [
+      "explanation",
+      "plan",
+      "plane"
+    ],
+    "port": [
+      "export",
+      "import",
+      "importance",
+      "important",
+      "port",
+      "portable",
+      "porter",
+      "report",
+      "reporter",
+      "support"
+    ],
+    "face": [
+      "face",
+      "interface",
+      "preface",
+      "surface"
+    ],
+    "fact": [
+      "fact",
+      "factor",
+      "factory"
+    ],
+    "fav": [
+      "favor",
+      "favorable",
+      "favorite"
+    ],
+    "fortun": [
+      "fortunate",
+      "fortune",
+      "misfortune"
+    ],
+    "fresh": [
+      "fresh",
+      "refresh",
+      "refreshment"
+    ],
+    "govern": [
+      "govern",
+      "government",
+      "governor"
+    ],
+    "graph": [
+      "graph",
+      "graphic",
+      "paragraph"
+    ],
+    "habit": [
+      "habit",
+      "inhabit",
+      "inhabitant"
+    ],
+    "hero": [
+      "hero",
+      "heroic",
+      "heroine"
+    ],
+    "hist": [
+      "historian",
+      "historic",
+      "historical",
+      "history"
+    ],
+    "host": [
+      "host",
+      "hostage",
+      "hostess",
+      "hostile"
+    ],
+    "hum": [
+      "hum",
+      "humor",
+      "humorous"
+    ],
+    "thesi": [
+      "hypothesis",
+      "synthesis",
+      "thesis"
+    ],
+    "ident": [
+      "identical",
+      "identification",
+      "identify",
+      "identity"
+    ],
+    "lit": [
+      "illiterate",
+      "literacy",
+      "literally",
+      "literary"
+    ],
+    "pair": [
+      "impair",
+      "pair",
+      "repair"
+    ],
+    "pati": [
+      "impatient",
+      "patience",
+      "patient"
+    ],
+    "pos": [
+      "impossible",
+      "possess",
+      "possession",
+      "possibility",
+      "possible"
+    ],
+    "cad": [
+      "incidence",
+      "incident",
+      "incidentally"
+    ],
+    "num": [
+      "innumerable",
+      "numerical",
+      "numerous"
+    ],
+    "sec": [
+      "insect",
+      "intersection",
+      "section",
+      "sector"
+    ],
+    "tegr": [
+      "integral",
+      "integrate",
+      "integrity"
+    ],
+    "telleg": [
+      "intellectual",
+      "intelligence",
+      "intelligent",
+      "intelligible"
+    ],
+    "inv": [
+      "invent",
+      "invention",
+      "inventory",
+      "invite"
+    ],
+    "journ": [
+      "journal",
+      "journalist",
+      "journey"
+    ],
+    "lev": [
+      "lever",
+      "levy",
+      "relevant"
+    ],
+    "limit": [
+      "limit",
+      "limitation",
+      "limited"
+    ],
+    "maj": [
+      "majesty",
+      "major",
+      "majority"
+    ],
+    "mechan": [
+      "mechanic",
+      "mechanical",
+      "mechanism"
+    ],
+    "metr": [
+      "metre",
+      "metric",
+      "symmetry"
+    ],
+    "mov": [
+      "motion",
+      "motive",
+      "motor",
+      "movement",
+      "removal"
+    ],
+    "mus": [
+      "music",
+      "musical",
+      "musician"
+    ],
+    "nat": [
+      "nation",
+      "national",
+      "native",
+      "nature"
+    ],
+    "not": [
+      "notable",
+      "notify",
+      "notion",
+      "notorious"
+    ],
+    "oper": [
+      "operate",
+      "operation",
+      "operational"
+    ],
+    "organ": [
+      "organ",
+      "organic",
+      "organism",
+      "organization",
+      "organize"
+    ],
+    "origin": [
+      "origin",
+      "original",
+      "originate"
+    ],
+    "paint": [
+      "paint",
+      "painter",
+      "painting"
+    ],
+    "phys": [
+      "physical",
+      "physician",
+      "physicist",
+      "physics"
+    ],
+    "plant": [
+      "plant",
+      "plantation",
+      "transplant"
+    ],
+    "pleas": [
+      "pleasant",
+      "please",
+      "pleasure"
+    ],
+    "polit": [
+      "political",
+      "politician",
+      "politics"
+    ],
+    "post": [
+      "post",
+      "postage",
+      "posture"
+    ],
+    "pract": [
+      "practical",
+      "practically",
+      "practise",
+      "practitioner"
+    ],
+    "prec": [
+      "precedent",
+      "preceding",
+      "precious",
+      "precise"
+    ],
+    "pref": [
+      "prefer",
+      "preferable",
+      "preference"
+    ],
+    "prev": [
+      "prevalent",
+      "prevent",
+      "previous"
+    ],
+    "prob": [
+      "probability",
+      "probable",
+      "probe"
+    ],
+    "prof": [
+      "profession",
+      "professor",
+      "profile"
+    ],
+    "prop": [
+      "proper",
+      "property",
+      "proportion"
+    ],
+    "prosp": [
+      "prosper",
+      "prosperity",
+      "prosperous"
+    ],
+    "publ": [
+      "public",
+      "publication",
+      "publicity",
+      "publish",
+      "republic"
+    ],
+    "qual": [
+      "qualification",
+      "qualify",
+      "quality"
+    ],
+    "quart": [
+      "quart",
+      "quarter",
+      "quarterly"
+    ],
+    "real": [
+      "real",
+      "realise",
+      "realistic",
+      "reality",
+      "really"
+    ],
+    "ref": [
+      "refer",
+      "reference",
+      "refine"
+    ],
+    "gul": [
+      "regular",
+      "regulate",
+      "regulation"
+    ],
+    "spons": [
+      "response",
+      "responsibility",
+      "responsible",
+      "sponsor"
+    ],
+    "sent": [
+      "sensation",
+      "sensible",
+      "sentence"
+    ],
+    "spac": [
+      "space",
+      "spaceship",
+      "spacious"
+    ],
+    "suit": [
+      "suit",
+      "suitable",
+      "suite"
+    ],
+    "sum": [
+      "sum",
+      "summarize",
+      "summary"
+    ],
+    "ter": [
+      "terrible",
+      "terrify",
+      "terror"
+    ],
+    "tol": [
+      "tolerance",
+      "tolerant",
+      "tolerate"
+    ],
+    "leg::legere": [
+      "collect",
+      "collective",
+      "diligent",
+      "lecture",
+      "select"
+    ],
+    "leg::lex-legis": [
+      "delegate",
+      "legacy",
+      "legal"
+    ],
+    "leg::lig": [
+      "obligation",
+      "religion",
+      "religious"
+    ],
+    "jac::jacere": [
+      "adjective",
+      "inject",
+      "object",
+      "objective",
+      "project",
+      "projector",
+      "reject",
+      "subject",
+      "subjective"
+    ],
+    "min::minus": [
+      "administer",
+      "diminish",
+      "minister",
+      "minor",
+      "minority"
+    ],
+    "cur::currere": [
+      "currency",
+      "current",
+      "excursion",
+      "incur",
+      "occur",
+      "recur"
+    ],
+    "pas::passare": [
+      "compass",
+      "pass",
+      "passage",
+      "surpass"
+    ],
+    "pas::pati-passio": [
+      "compassion",
+      "passion",
+      "passive"
+    ],
+    "sid::sedere": [
+      "president",
+      "residence",
+      "resident",
+      "subsidy"
+    ],
+    "sid::sidus": [
+      "consider",
+      "considerable",
+      "consideration"
+    ],
+    "art::ars": [
+      "art",
+      "artist",
+      "artistic"
+    ],
+    "serv::servare": [
+      "conservation",
+      "preserve",
+      "reservation",
+      "reserve"
+    ],
+    "rel::referre": [
+      "correlate",
+      "relate",
+      "relation",
+      "relationship"
+    ],
+    "sult::salire": [
+      "insult",
+      "result",
+      "resultant"
+    ],
+    "man::manus": [
+      "manage",
+      "manner",
+      "manual"
+    ],
+    "pres::premere": [
+      "compress",
+      "express",
+      "expression",
+      "impress",
+      "impression",
+      "impressive",
+      "press",
+      "pressure",
+      "suppress"
+    ],
+    "pres::praeesse": [
+      "presence",
+      "present",
+      "presently"
+    ],
+    "gard::guarder": [
+      "regard",
+      "regarding",
+      "regardless"
+    ],
+    "res::sistere": [
+      "resist",
+      "resistance",
+      "resistant"
+    ],
+    "stor::instaurare": [
+      "restore",
+      "storage",
+      "store"
+    ],
+    "stant::stare": [
+      "constant",
+      "instant",
+      "instantaneous"
+    ],
+    "ced": [
+      "procedure",
+      "proceed",
+      "proceeding",
+      "process",
+      "procession",
+      "success",
+      "successful",
+      "succession",
+      "successive",
+      "successor"
+    ]
+  },
+  "demoted": {
+    "und": [
+      "abundance",
+      "abundant"
+    ],
+    "pire": [
+      "aspire",
+      "expire"
+    ],
+    "bas": [
+      "basement",
+      "basic"
+    ],
+    "bat": [
+      "battery",
+      "combat"
+    ],
+    "car": [
+      "car",
+      "carry"
+    ],
+    "cas": [
+      "casual",
+      "casualty"
+    ],
+    "tang": [
+      "contact",
+      "intact"
+    ],
+    "cup": [
+      "occupation",
+      "occupy"
+    ],
+    "liv": [
+      "deliver",
+      "delivery"
+    ],
+    "eng": [
+      "engine",
+      "engineer"
+    ],
+    "log": [
+      "logic",
+      "logical"
+    ],
+    "par": [
+      "parent",
+      "transparent"
+    ],
+    "path": [
+      "sympathize",
+      "sympathy"
+    ],
+    "sil": [
+      "silence",
+      "silent"
+    ],
+    "soc": [
+      "social",
+      "socialism"
+    ],
+    "jac::jacēre": [
+      "adjacent"
+    ],
+    "min::minere": [
+      "prominent"
+    ],
+    "cur::cura": [
+      "curious",
+      "security"
+    ],
+    "art::pars": [
+      "apart",
+      "apartment"
+    ],
+    "serv::servire": [
+      "deserve",
+      "servant"
+    ],
+    "rel::religare": [
+      "rely"
+    ],
+    "pan::panis": [
+      "companion",
+      "company"
+    ],
+    "pan::pandere": [
+      "expansion"
+    ],
+    "sult::consulere": [
+      "consult",
+      "consultant"
+    ],
+    "man::manere": [
+      "permanent"
+    ],
+    "cel::cella": [
+      "cell",
+      "cellar"
+    ],
+    "cel::excellere": [
+      "excel",
+      "excellent"
+    ],
+    "gard::日耳曼语": [
+      "garden"
+    ],
+    "res::sentire": [
+      "resent"
+    ],
+    "rot::日耳曼语": [
+      "rot",
+      "rotten"
+    ],
+    "rot::rota": [
+      "rotary",
+      "rotate"
+    ],
+    "ason::ratio": [
+      "reason",
+      "reasonable"
+    ],
+    "ason::satio": [
+      "season"
+    ],
+    "cit::civitas": [
+      "city"
+    ],
+    "cit::citare": [
+      "excitement",
+      "exciting"
+    ],
+    "cons::sentire": [
+      "consent"
+    ],
+    "cons::sistere": [
+      "consist",
+      "consistent"
+    ],
+    "cret::crescere": [
+      "concrete"
+    ],
+    "cret::cernere": [
+      "secret",
+      "secretary"
+    ],
+    "desp::sperare": [
+      "desperate"
+    ],
+    "desp::specere": [
+      "despise",
+      "despite"
+    ],
+    "exc::cedere": [
+      "excess",
+      "excessive"
+    ],
+    "exc::citare": [
+      "excite"
+    ],
+    "main::日耳曼语": [
+      "main"
+    ],
+    "main::manere": [
+      "remain",
+      "remains"
+    ],
+    "med::metallum": [
+      "medal"
+    ],
+    "med::medicus": [
+      "medical",
+      "medicine"
+    ],
+    "nec::nectere": [
+      "connection"
+    ],
+    "nec::necesse": [
+      "necessary",
+      "necessity"
+    ],
+    "perc::capere": [
+      "perceive"
+    ],
+    "perc::centum": [
+      "percent",
+      "percentage"
+    ],
+    "plain::plangere": [
+      "complain"
+    ],
+    "plain::planus": [
+      "explain",
+      "plain"
+    ],
+    "tire::integer": [
+      "entire"
+    ],
+    "tire::法语": [
+      "retire",
+      "tire"
+    ],
+    "volt::volvere": [
+      "revolt"
+    ],
+    "volt::人名": [
+      "volt",
+      "voltage"
+    ],
+    "stor::日耳曼语": [
+      "storey"
+    ],
+    "arm::arma": [
+      "alarm",
+      "army"
+    ],
+    "arm::日耳曼语": [
+      "arm"
+    ],
+    "stant::substantia": [
+      "substantial"
+    ]
+  },
+  "unreviewed": {},
+  "log": {
+    "dropped": [
+      {
+        "word": "pound",
+        "from": "pon",
+        "why": "pondus 重量 / 或畜栏义，与'放置'无关"
+      },
+      {
+        "word": "tender",
+        "from": "tend",
+        "why": "作'柔软'解来自 tener，与'伸展'无关；作'提供'解才是 tendere，义项分叉故移出"
+      },
+      {
+        "word": "leg",
+        "from": "leg",
+        "why": "肢体义来自古诺尔斯语 leggr，与拉丁词根无关"
+      },
+      {
+        "word": "miserable",
+        "from": "mis",
+        "why": "miser 悲惨，与'送'无关"
+      },
+      {
+        "word": "misery",
+        "from": "mis",
+        "why": "miser 悲惨，与'送'无关"
+      },
+      {
+        "word": "missing",
+        "from": "mit",
+        "why": "英语 miss（未击中）来自日耳曼语 missan，与 mittere 无关"
+      },
+      {
+        "word": "tension",
+        "from": "tain",
+        "why": "tendere 伸展，应归 tend 族"
+      },
+      {
+        "word": "tent",
+        "from": "tain",
+        "why": "tendere 伸展（撑开的帐篷），应归 tend 族"
+      },
+      {
+        "word": "sister",
+        "from": "sta",
+        "why": "日耳曼语 swester，与拉丁词根无关"
+      },
+      {
+        "word": "mineral",
+        "from": "min",
+        "why": "来自 mine（矿），凯尔特语源，与'小'无关"
+      },
+      {
+        "word": "seminar",
+        "from": "min",
+        "why": "semen 种子，与'小'无关"
+      },
+      {
+        "word": "fiction",
+        "from": "fac",
+        "why": "fingere 捏造，与 facere 无关（figur 族才是 fingere）"
+      },
+      {
+        "word": "pet",
+        "from": "pet",
+        "why": "宠物义源不明（或凯尔特语），与'追求'无关"
+      },
+      {
+        "word": "petty",
+        "from": "pet",
+        "why": "法语 petit 小，与'追求'无关"
+      },
+      {
+        "word": "artery",
+        "from": "art",
+        "why": "希腊语 arteria，与'技艺'无关"
+      },
+      {
+        "word": "relish",
+        "from": "rel",
+        "why": "法语 reles，来自 relaxare 松开，与'带回'无关"
+      },
+      {
+        "word": "optical",
+        "from": "opt",
+        "why": "希腊语 optikos 看，与'选择'无关"
+      },
+      {
+        "word": "pan",
+        "from": "pan",
+        "why": "日耳曼语，锅具，与词根无关"
+      },
+      {
+        "word": "panic",
+        "from": "pan",
+        "why": "希腊神话 Pan，与词根无关"
+      },
+      {
+        "word": "tin",
+        "from": "tin",
+        "why": "日耳曼语，锡，与词根无关"
+      },
+      {
+        "word": "tiny",
+        "from": "tin",
+        "why": "中古英语，与词根无关"
+      },
+      {
+        "word": "tail",
+        "from": "tail",
+        "why": "日耳曼语，尾巴，与'切'无关"
+      },
+      {
+        "word": "litter",
+        "from": "lit",
+        "why": "来自 lit（床铺），与'字母'无关"
+      },
+      {
+        "word": "secure",
+        "from": "sec",
+        "why": "se- + cura（关切），与'切'无关"
+      },
+      {
+        "word": "postman",
+        "from": "man",
+        "why": "man 是日耳曼语，与 manus 无关"
+      },
+      {
+        "word": "senator",
+        "from": "nat",
+        "why": "senex 年长，与'出生'无关"
+      },
+      {
+        "word": "toll",
+        "from": "tol",
+        "why": "日耳曼语，通行费，与 tolerare 无关"
+      },
+      {
+        "word": "embassy",
+        "from": "bas",
+        "why": "来自高卢语 ambactus，与 basis 无关"
+      },
+      {
+        "word": "bat",
+        "from": "bat",
+        "why": "日耳曼语，棒/蝙蝠，与 battuere 无关"
+      },
+      {
+        "word": "caress",
+        "from": "car",
+        "why": "来自 carus（亲爱），与 carrus（车）无关"
+      },
+      {
+        "word": "cassette",
+        "from": "cas",
+        "why": "法语小盒，与 casus（落下/偶然）无关"
+      },
+      {
+        "word": "cup",
+        "from": "cup",
+        "why": "来自 cuppa，与 capere（抓取）无关"
+      },
+      {
+        "word": "engage",
+        "from": "eng",
+        "why": "来自 gage（抵押），与 ingenium 无关"
+      },
+      {
+        "word": "living",
+        "from": "liv",
+        "why": "日耳曼语 live，与 liberare（释放）无关"
+      },
+      {
+        "word": "log",
+        "from": "log",
+        "why": "日耳曼语，木头，与希腊 logos 无关"
+      },
+      {
+        "word": "path",
+        "from": "path",
+        "why": "日耳曼语，小路，与希腊 pathos（感受）无关"
+      },
+      {
+        "word": "empire",
+        "from": "pire",
+        "why": "来自 imperium，与 spirare（呼吸）无关"
+      },
+      {
+        "word": "silly",
+        "from": "sil",
+        "why": "日耳曼语，与 silere（安静）无关"
+      },
+      {
+        "word": "soccer",
+        "from": "soc",
+        "why": "association football 的截短，与 socius 无关"
+      },
+      {
+        "word": "tactic",
+        "from": "tang",
+        "why": "希腊 taktikos，与拉丁 tangere 无关"
+      },
+      {
+        "word": "under",
+        "from": "und",
+        "why": "日耳曼语，与 undare（涌）无关"
+      },
+      {
+        "word": "poster",
+        "from": "post",
+        "why": "此处 post 为日耳曼语'柱'义，与 ponere 无关"
+      },
+      {
+        "word": "party",
+        "from": "par",
+        "why": "来自 pars（部分），与 parere（生育）无关"
+      },
+      {
+        "word": "oppress",
+        "from": "res",
+        "why": "拆族时未列入任何子族，缺少词源判断"
+      }
+    ],
+    "split": [
+      {
+        "stem": "leg",
+        "into": [
+          "legere 读/选/聚",
+          "lex-legis 法",
+          "lig 绑缚（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "jac",
+        "into": [
+          "jacere 投掷",
+          "jacēre 躺卧（另一动词）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "min",
+        "into": [
+          "minus 小/次要",
+          "minere 突出（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "cur",
+        "into": [
+          "currere 跑",
+          "cura 关切（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "pas",
+        "into": [
+          "passare 通过",
+          "pati-passio 承受（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "sid",
+        "into": [
+          "sedere 坐",
+          "sidus 星（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "art",
+        "into": [
+          "ars 技艺",
+          "pars 部分（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "serv",
+        "into": [
+          "servare 保存",
+          "servire 服务（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "rel",
+        "into": [
+          "referre 带回",
+          "religare 绑缚（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "pan",
+        "into": [
+          "panis 面包（共食）",
+          "pandere 张开（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "sult",
+        "into": [
+          "salire 跳",
+          "consulere 商议（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "man",
+        "into": [
+          "manus 手",
+          "manere 停留（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "pres",
+        "into": [
+          "premere 压",
+          "praeesse 在前（另族）"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "cel",
+        "into": [
+          "cella 小室",
+          "excellere 超出"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "gard",
+        "into": [
+          "日耳曼语 garden",
+          "guarder 看护"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "res",
+        "into": [
+          "sentire 感觉",
+          "sistere 站立/抵抗"
+        ],
+        "unplaced": [
+          "oppress"
+        ]
+      },
+      {
+        "stem": "rot",
+        "into": [
+          "日耳曼语 腐烂",
+          "rota 轮"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "ason",
+        "into": [
+          "ratio 理性",
+          "satio 播种季"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "cit",
+        "into": [
+          "civitas 城",
+          "citare 唤起"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "cons",
+        "into": [
+          "sentire 感觉",
+          "sistere 站立"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "cret",
+        "into": [
+          "crescere 生长",
+          "cernere 分辨"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "desp",
+        "into": [
+          "sperare 希望",
+          "specere 看"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "exc",
+        "into": [
+          "cedere 行进",
+          "citare 唤起"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "main",
+        "into": [
+          "日耳曼语 main",
+          "manere 停留"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "med",
+        "into": [
+          "metallum 金属",
+          "medicus 医者"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "nec",
+        "into": [
+          "nectere 连接",
+          "necesse 必需"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "perc",
+        "into": [
+          "capere 抓取",
+          "centum 百"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "plain",
+        "into": [
+          "plangere 悲叹",
+          "planus 平"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "tire",
+        "into": [
+          "integer 完整",
+          "法语 tirer 拉"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "volt",
+        "into": [
+          "volvere 转",
+          "人名 Volta"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "stor",
+        "into": [
+          "instaurare 重建",
+          "日耳曼语 层"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "arm",
+        "into": [
+          "arma 武器",
+          "日耳曼语 手臂"
+        ],
+        "unplaced": []
+      },
+      {
+        "stem": "stant",
+        "into": [
+          "stare 站立",
+          "substantia 实体"
+        ],
+        "unplaced": []
+      }
+    ],
+    "merged": [
+      {
+        "from": "pose",
+        "into": "pon",
+        "added": 7,
+        "why": "法语 poser 与拉丁 ponere 在派生上同族"
+      },
+      {
+        "from": "mis",
+        "into": "mit",
+        "added": 9,
+        "why": ""
+      },
+      {
+        "from": "fici",
+        "into": "fac",
+        "added": 5,
+        "why": "-ficient/-ficiency 是 facere 的派生形态"
+      },
+      {
+        "from": "duce",
+        "into": "duc",
+        "added": 5,
+        "why": "同一词根 ducere 被拼写变体拆成两族"
+      },
+      {
+        "from": "proc",
+        "into": "ced",
+        "added": 5,
+        "why": "procedere = pro + cedere"
+      },
+      {
+        "from": "suc",
+        "into": "ced",
+        "added": 5,
+        "why": "succedere = sub + cedere"
+      }
+    ],
+    "dissolved": [
+      {
+        "stem": "adv",
+        "words": [
+          "advance",
+          "advantage",
+          "advent",
+          "adventure",
+          "advise"
+        ],
+        "why": "adv 是前缀 ad- 的拼写巧合，底下混了三个不同词根：venire（advent/adventure）、ante（advance/advantage）、visum（advise）"
+      },
+      {
+        "stem": "ign",
+        "words": [
+          "ignite",
+          "ignorance",
+          "ignorant",
+          "malignant",
+          "reign"
+        ],
+        "why": "拼写巧合：ignite 来自 ignis（火），ignorance/ignorant 来自 gnoscere（知），malignant 来自 malignus，reign 来自 regnum"
+      },
+      {
+        "stem": "stal",
+        "words": [
+          "install",
+          "installation",
+          "installment",
+          "stale",
+          "stall"
+        ],
+        "why": "install/stall/stale 同属日耳曼语 stall 一系，非拉丁词根，不适用本方法"
+      },
+      {
+        "stem": "lat",
+        "words": [
+          "latent",
+          "later",
+          "lateral",
+          "latter",
+          "relative"
+        ],
+        "why": "拼写巧合：lateral 来自 latus（侧），later/latter 是日耳曼语 late，latent 来自 latere（隐藏），relative 来自 referre"
+      },
+      {
+        "stem": "son",
+        "words": [
+          "person",
+          "personal",
+          "personality",
+          "son",
+          "supersonic"
+        ],
+        "why": "拼写巧合：person/personal 来自 persona，supersonic 来自 sonus，son 是日耳曼语"
+      },
+      {
+        "stem": "pol",
+        "words": [
+          "polar",
+          "polish",
+          "polite",
+          "poll",
+          "pollution"
+        ],
+        "why": "拼写巧合：polar 来自 polus，polish 来自 polire，polite 来自 politus，pollution 来自 polluere，poll 源不明"
+      },
+      {
+        "stem": "out",
+        "words": [
+          "out",
+          "outer",
+          "outing",
+          "outward"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "ward",
+        "words": [
+          "coward",
+          "inward",
+          "reward",
+          "ward"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "draw",
+        "words": [
+          "draw",
+          "drawer",
+          "drawing"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "gre",
+        "words": [
+          "greedy",
+          "green",
+          "grey"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "hard",
+        "words": [
+          "harden",
+          "hardly",
+          "hardship"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "lad",
+        "words": [
+          "lad",
+          "ladder",
+          "lady"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "lead",
+        "words": [
+          "lead",
+          "leadership",
+          "mislead"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "mark",
+        "words": [
+          "mark",
+          "remark",
+          "remarkable"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "mean",
+        "words": [
+          "mean",
+          "meaning",
+          "means"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "own",
+        "words": [
+          "own",
+          "owner",
+          "ownership"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "read",
+        "words": [
+          "reader",
+          "reading",
+          "ready"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "skil",
+        "words": [
+          "skill",
+          "skilled",
+          "skillful"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "slip",
+        "words": [
+          "slip",
+          "slipper",
+          "slippery"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "ste",
+        "words": [
+          "steal",
+          "steer",
+          "steward"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "hap",
+        "words": [
+          "happen",
+          "happy",
+          "perhaps"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "cloth",
+        "words": [
+          "cloth",
+          "clothe",
+          "clothes",
+          "clothing"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "like",
+        "words": [
+          "likely",
+          "likewise",
+          "unlike",
+          "unlikely"
+        ],
+        "why": "整族是日耳曼语/古诺尔斯语，本身即词根，不适用拉丁词根拆解法"
+      },
+      {
+        "stem": "com",
+        "words": [
+          "comedy",
+          "comic",
+          "commence",
+          "comment"
+        ],
+        "why": "comedy/comic 来自希腊 komos，commence 来自 initiare，comment 来自 mens"
+      },
+      {
+        "stem": "cord",
+        "words": [
+          "cord",
+          "cordial",
+          "record",
+          "recorder"
+        ],
+        "why": "cord 来自 chorda（弦），cordial/record 来自 cor（心）"
+      },
+      {
+        "stem": "end",
+        "words": [
+          "end",
+          "ending",
+          "endure",
+          "offend"
+        ],
+        "why": "end/ending 日耳曼语，endure 来自 durare，offend 来自 fendere"
+      },
+      {
+        "stem": "fair",
+        "words": [
+          "affair",
+          "fair",
+          "fairly",
+          "fairy"
+        ],
+        "why": "affair 来自 facere，fair/fairly 日耳曼语，fairy 来自 fata"
+      },
+      {
+        "stem": "fit",
+        "words": [
+          "fit",
+          "fitting",
+          "profit",
+          "profitable"
+        ],
+        "why": "fit 日耳曼语，profit 来自 facere"
+      },
+      {
+        "stem": "mat",
+        "words": [
+          "mat",
+          "material",
+          "matter",
+          "mature"
+        ],
+        "why": "mat 日耳曼语，material/matter 来自 materia，mature 来自 maturus"
+      },
+      {
+        "stem": "pen",
+        "words": [
+          "pen",
+          "penalty",
+          "penny",
+          "pension"
+        ],
+        "why": "pen 来自 penna，penalty 来自 poena，penny 日耳曼语，pension 来自 pendere"
+      },
+      {
+        "stem": "rub",
+        "words": [
+          "rub",
+          "rubber",
+          "rubbish",
+          "ruby"
+        ],
+        "why": "rub/rubbish 日耳曼语，ruby 来自 rubeus"
+      },
+      {
+        "stem": "sol",
+        "words": [
+          "desolate",
+          "resolution",
+          "solar",
+          "solution"
+        ],
+        "why": "desolate 来自 solus，resolution/solution 来自 solvere，solar 来自 sol"
+      },
+      {
+        "stem": "ach",
+        "words": [
+          "coach",
+          "preach",
+          "reach"
+        ],
+        "why": "coach 来自匈牙利语 kocsi，preach 来自 praedicare，reach 日耳曼语"
+      },
+      {
+        "stem": "care",
+        "words": [
+          "care",
+          "career",
+          "careful"
+        ],
+        "why": "care 日耳曼语 caru，career 来自 carrus"
+      },
+      {
+        "stem": "cond",
+        "words": [
+          "condition",
+          "second",
+          "secondary"
+        ],
+        "why": "condition 来自 dicere，second/secondary 来自 sequi"
+      },
+      {
+        "stem": "conv",
+        "words": [
+          "convention",
+          "conversion",
+          "conviction"
+        ],
+        "why": "convention 来自 venire，conversion 来自 vertere，conviction 来自 vincere"
+      },
+      {
+        "stem": "dec",
+        "words": [
+          "decent",
+          "decorate",
+          "predecessor"
+        ],
+        "why": "decent 来自 decere，decorate 来自 decor，predecessor 来自 cedere"
+      },
+      {
+        "stem": "def",
+        "words": [
+          "defence",
+          "define",
+          "defy"
+        ],
+        "why": "defence/defy 来自 fendere/fidare，define 来自 finis"
+      },
+      {
+        "stem": "ent",
+        "words": [
+          "agent",
+          "enter",
+          "entity"
+        ],
+        "why": "agent 来自 agere，enter 来自 intra，entity 来自 esse"
+      },
+      {
+        "stem": "fun",
+        "words": [
+          "fun",
+          "funeral",
+          "funny"
+        ],
+        "why": "fun 日耳曼语，funeral 来自 funus"
+      },
+      {
+        "stem": "ham",
+        "words": [
+          "ashamed",
+          "ham",
+          "hammer"
+        ],
+        "why": "ashamed 日耳曼语，ham/hammer 日耳曼语，三者互不相关"
+      },
+      {
+        "stem": "ide",
+        "words": [
+          "abide",
+          "aside",
+          "ideal"
+        ],
+        "why": "abide 日耳曼语，aside 日耳曼语，ideal 来自希腊 idea"
+      },
+      {
+        "stem": "past",
+        "words": [
+          "past",
+          "paste",
+          "pasture"
+        ],
+        "why": "past 来自 passer，paste 来自 pasta，pasture 来自 pascere"
+      },
+      {
+        "stem": "pat",
+        "words": [
+          "compatible",
+          "pat",
+          "patent"
+        ],
+        "why": "compatible 来自 pati，pat 日耳曼语，patent 来自 patere"
+      },
+      {
+        "stem": "rec",
+        "words": [
+          "direction",
+          "recent",
+          "recite"
+        ],
+        "why": "direction 来自 regere，recent 来自 recens，recite 来自 citare"
+      },
+      {
+        "stem": "set",
+        "words": [
+          "asset",
+          "offset",
+          "setting"
+        ],
+        "why": "asset 来自 satis，offset/setting 日耳曼语"
+      },
+      {
+        "stem": "sir",
+        "words": [
+          "desirable",
+          "sir",
+          "siren"
+        ],
+        "why": "desirable 来自 desiderare，sir 来自 senior，siren 来自希腊 Seiren"
+      },
+      {
+        "stem": "sup",
+        "words": [
+          "super",
+          "supper",
+          "supply"
+        ],
+        "why": "super 来自 super，supper 日耳曼语，supply 来自 plere"
+      },
+      {
+        "stem": "til",
+        "words": [
+          "distill",
+          "till",
+          "until"
+        ],
+        "why": "distill 来自 stilla，till/until 日耳曼语"
+      },
+      {
+        "stem": "ton",
+        "words": [
+          "astonish",
+          "monotonous",
+          "ton"
+        ],
+        "why": "astonish 来自 tonare，monotonous 来自希腊 tonos，ton 日耳曼语"
+      },
+      {
+        "stem": "trad",
+        "words": [
+          "contradiction",
+          "trade",
+          "tradition"
+        ],
+        "why": "contradiction 来自 dicere，trade 日耳曼语，tradition 来自 tradere"
+      },
+      {
+        "stem": "bel",
+        "words": [
+          "bell",
+          "belly",
+          "rebel",
+          "rebellion"
+        ],
+        "why": "bell/belly 日耳曼语，rebel/rebellion 来自 bellum（战争）"
+      },
+      {
+        "stem": "conf",
+        "words": [
+          "confer",
+          "conference",
+          "confess",
+          "confine"
+        ],
+        "why": "confer 来自 ferre，confess 来自 fateri，confine 来自 finis"
+      },
+      {
+        "stem": "est",
+        "words": [
+          "estate",
+          "interest",
+          "interesting"
+        ],
+        "why": "estate 来自 stare，interest 来自 esse，三者词根不同"
+      },
+      {
+        "stem": "put",
+        "words": [
+          "computer",
+          "input",
+          "reputation"
+        ],
+        "why": "computer/input 的 put 是日耳曼语，reputation 来自 putare（思量）"
+      },
+      {
+        "stem": "rest",
+        "words": [
+          "arrest",
+          "rest",
+          "restless"
+        ],
+        "why": "arrest/rest 来自 stare，restless 的 rest 是日耳曼语"
+      }
+    ],
+    "demoted": [
+      {
+        "stem": "und",
+        "words": [
+          "abundance",
+          "abundant"
+        ]
+      },
+      {
+        "stem": "pire",
+        "words": [
+          "aspire",
+          "expire"
+        ]
+      },
+      {
+        "stem": "bas",
+        "words": [
+          "basement",
+          "basic"
+        ]
+      },
+      {
+        "stem": "bat",
+        "words": [
+          "battery",
+          "combat"
+        ]
+      },
+      {
+        "stem": "car",
+        "words": [
+          "car",
+          "carry"
+        ]
+      },
+      {
+        "stem": "cas",
+        "words": [
+          "casual",
+          "casualty"
+        ]
+      },
+      {
+        "stem": "tang",
+        "words": [
+          "contact",
+          "intact"
+        ]
+      },
+      {
+        "stem": "cup",
+        "words": [
+          "occupation",
+          "occupy"
+        ]
+      },
+      {
+        "stem": "liv",
+        "words": [
+          "deliver",
+          "delivery"
+        ]
+      },
+      {
+        "stem": "eng",
+        "words": [
+          "engine",
+          "engineer"
+        ]
+      },
+      {
+        "stem": "log",
+        "words": [
+          "logic",
+          "logical"
+        ]
+      },
+      {
+        "stem": "par",
+        "words": [
+          "parent",
+          "transparent"
+        ]
+      },
+      {
+        "stem": "path",
+        "words": [
+          "sympathize",
+          "sympathy"
+        ]
+      },
+      {
+        "stem": "sil",
+        "words": [
+          "silence",
+          "silent"
+        ]
+      },
+      {
+        "stem": "soc",
+        "words": [
+          "social",
+          "socialism"
+        ]
+      },
+      {
+        "stem": "jac::jacēre",
+        "words": [
+          "adjacent"
+        ]
+      },
+      {
+        "stem": "min::minere",
+        "words": [
+          "prominent"
+        ]
+      },
+      {
+        "stem": "cur::cura",
+        "words": [
+          "curious",
+          "security"
+        ]
+      },
+      {
+        "stem": "art::pars",
+        "words": [
+          "apart",
+          "apartment"
+        ]
+      },
+      {
+        "stem": "serv::servire",
+        "words": [
+          "deserve",
+          "servant"
+        ]
+      },
+      {
+        "stem": "rel::religare",
+        "words": [
+          "rely"
+        ]
+      },
+      {
+        "stem": "pan::panis",
+        "words": [
+          "companion",
+          "company"
+        ]
+      },
+      {
+        "stem": "pan::pandere",
+        "words": [
+          "expansion"
+        ]
+      },
+      {
+        "stem": "sult::consulere",
+        "words": [
+          "consult",
+          "consultant"
+        ]
+      },
+      {
+        "stem": "man::manere",
+        "words": [
+          "permanent"
+        ]
+      },
+      {
+        "stem": "cel::cella",
+        "words": [
+          "cell",
+          "cellar"
+        ]
+      },
+      {
+        "stem": "cel::excellere",
+        "words": [
+          "excel",
+          "excellent"
+        ]
+      },
+      {
+        "stem": "gard::日耳曼语",
+        "words": [
+          "garden"
+        ]
+      },
+      {
+        "stem": "res::sentire",
+        "words": [
+          "resent"
+        ]
+      },
+      {
+        "stem": "rot::日耳曼语",
+        "words": [
+          "rot",
+          "rotten"
+        ]
+      },
+      {
+        "stem": "rot::rota",
+        "words": [
+          "rotary",
+          "rotate"
+        ]
+      },
+      {
+        "stem": "ason::ratio",
+        "words": [
+          "reason",
+          "reasonable"
+        ]
+      },
+      {
+        "stem": "ason::satio",
+        "words": [
+          "season"
+        ]
+      },
+      {
+        "stem": "cit::civitas",
+        "words": [
+          "city"
+        ]
+      },
+      {
+        "stem": "cit::citare",
+        "words": [
+          "excitement",
+          "exciting"
+        ]
+      },
+      {
+        "stem": "cons::sentire",
+        "words": [
+          "consent"
+        ]
+      },
+      {
+        "stem": "cons::sistere",
+        "words": [
+          "consist",
+          "consistent"
+        ]
+      },
+      {
+        "stem": "cret::crescere",
+        "words": [
+          "concrete"
+        ]
+      },
+      {
+        "stem": "cret::cernere",
+        "words": [
+          "secret",
+          "secretary"
+        ]
+      },
+      {
+        "stem": "desp::sperare",
+        "words": [
+          "desperate"
+        ]
+      },
+      {
+        "stem": "desp::specere",
+        "words": [
+          "despise",
+          "despite"
+        ]
+      },
+      {
+        "stem": "exc::cedere",
+        "words": [
+          "excess",
+          "excessive"
+        ]
+      },
+      {
+        "stem": "exc::citare",
+        "words": [
+          "excite"
+        ]
+      },
+      {
+        "stem": "main::日耳曼语",
+        "words": [
+          "main"
+        ]
+      },
+      {
+        "stem": "main::manere",
+        "words": [
+          "remain",
+          "remains"
+        ]
+      },
+      {
+        "stem": "med::metallum",
+        "words": [
+          "medal"
+        ]
+      },
+      {
+        "stem": "med::medicus",
+        "words": [
+          "medical",
+          "medicine"
+        ]
+      },
+      {
+        "stem": "nec::nectere",
+        "words": [
+          "connection"
+        ]
+      },
+      {
+        "stem": "nec::necesse",
+        "words": [
+          "necessary",
+          "necessity"
+        ]
+      },
+      {
+        "stem": "perc::capere",
+        "words": [
+          "perceive"
+        ]
+      },
+      {
+        "stem": "perc::centum",
+        "words": [
+          "percent",
+          "percentage"
+        ]
+      },
+      {
+        "stem": "plain::plangere",
+        "words": [
+          "complain"
+        ]
+      },
+      {
+        "stem": "plain::planus",
+        "words": [
+          "explain",
+          "plain"
+        ]
+      },
+      {
+        "stem": "tire::integer",
+        "words": [
+          "entire"
+        ]
+      },
+      {
+        "stem": "tire::法语",
+        "words": [
+          "retire",
+          "tire"
+        ]
+      },
+      {
+        "stem": "volt::volvere",
+        "words": [
+          "revolt"
+        ]
+      },
+      {
+        "stem": "volt::人名",
+        "words": [
+          "volt",
+          "voltage"
+        ]
+      },
+      {
+        "stem": "stor::日耳曼语",
+        "words": [
+          "storey"
+        ]
+      },
+      {
+        "stem": "arm::arma",
+        "words": [
+          "alarm",
+          "army"
+        ]
+      },
+      {
+        "stem": "arm::日耳曼语",
+        "words": [
+          "arm"
+        ]
+      },
+      {
+        "stem": "stant::substantia",
+        "words": [
+          "substantial"
+        ]
+      }
+    ]
+  }
+}

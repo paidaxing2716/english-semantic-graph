@@ -148,7 +148,16 @@ python ai_pipeline/review.py merge candidates.json
 > 如 leg 把 legere/读 与 lex/法 与 leg/肢 混在一起）。
 > 人工审词源后预计 800–1000 词。
 
-- [ ] 295 个自动发现的词族人工过词源，剔除同形异源混入
+- [x] 291 个自动发现的词族逐个审词源（判断记录在 `ai_pipeline/etymology_verdicts*.json`）
+      - 整族作废 56 个（拼写巧合，如 `adv` 底下混了 venire/ante/visum 三个词根）
+      - 拆族 33 个（如 `leg` 拆成 legere 读 / lex 法 / lig 绑缚）
+      - 合并 6 个（同一词根被拼写变体拆开，如 duc 与 duce）
+      - 剔除混入词 44 个（如 sister 混进 stare 族、mineral 混进 minus 族）
+      - **产出 203 族 / 869 词次**，见 `ai_pipeline/vetted_families.json`
+      - 另 61 族清理后仅剩 2 词被降级，其词根本身高产（如 spirare、tangere），
+        只是考研范围内成员少；含这些则为 264 族 / 970 词次
+      - ⚠️ 此数为**下限**：对已知高产词根抽样校准，约 35% 的成员被词干提取
+        误判为"孤立词"（如 capere 的 capable/capacity/capture）
 - [ ] 词条加 `decomposable` 字段，不可拆的词显式标记而非硬编词根
 - [ ] 可结构化词批量入库（~1000 词）
 - [ ] 学习模式：探索 / 复习 / 测试
