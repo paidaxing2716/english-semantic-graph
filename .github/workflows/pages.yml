@@ -20,9 +20,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Validate data files
         run: |
           python3 tests/validate.py
+
+      - name: Install visual audit deps
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Visual audit (contrast / overlap / clipping)
+        run: |
+          python3 tests/visual_audit.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
