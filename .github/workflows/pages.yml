@@ -28,10 +28,25 @@ jobs:
         run: |
           python3 tests/validate.py
 
-      - name: Install visual audit deps
-        run: |
-          pip install playwright
-          playwright install --with-deps chromium
+      - name: Install playwright
+        run: pip install playwright
+
+      # Chromium 约 150MB，不缓存则每次构建都重新下载，是最慢的一步
+      - name: Cache playwright browser
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}
+
+      - name: Install chromium
+        run: playwright install --with-deps chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+
+      # 缓存命中时浏览器已在，但系统依赖库仍需安装
+      - name: Install chromium system deps
+        run: playwright install-deps chromium
+        if: steps.pw-cache.outputs.cache-hit == 'true'
 
       - name: Visual audit (contrast / overlap / clipping)
         run: |
