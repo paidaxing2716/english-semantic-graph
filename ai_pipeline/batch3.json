@@ -1,0 +1,293 @@
+{
+  "words": [
+    {
+      "id": "dispose",
+      "word": "dispose",
+      "pos": "verb",
+      "phonetic": "/dɪˈspoʊz/",
+      "root_ids": ["pose"],
+      "root_logic": "dis-（分开）+ pose（放置）→ 把东西分开放好，或放到别处去 → 处理 / 处置",
+      "origin": "拉丁语 disponere：dis-（分开）+ ponere（放置）",
+      "native_definition": "to get rid of something, or to arrange things in a particular order",
+      "core_concept": "placing things apart into their proper place – 把东西分开安置到该去的地方",
+      "core_image": "把桌上的东西一件件分类放进不同抽屉，桌面清空",
+      "chinese": ["处理", "处置", "布置"],
+      "examples": [
+        "Please dispose of the packaging responsibly.",
+        "The troops were disposed along the ridge."
+      ],
+      "synonyms": ["arrange", "discard"],
+      "antonyms": ["keep"],
+      "related": ["position", "compose", "expose", "impose", "oppose"],
+      "semantic_expansions": [
+        "布置：把东西分开摆到各自位置上",
+        "处理/处置：把东西放到'不在这里'的位置去，即丢弃。同一个'分开安置'，区别在放到哪儿"
+      ]
+    },
+    {
+      "id": "suppose",
+      "word": "suppose",
+      "pos": "verb",
+      "phonetic": "/səˈpoʊz/",
+      "root_ids": ["pose"],
+      "root_logic": "sup-（sub- 的变体，表'在下面'）+ pose（放置）→ 先在底下垫一个前提 → 假定",
+      "origin": "拉丁语 supponere：sub-（在下）+ ponere（放置）",
+      "native_definition": "to think something is probably true, or to take it as a starting assumption",
+      "core_concept": "placing an assumption underneath as a base – 在推理底下先垫一个前提",
+      "core_image": "搭台子前先在底下塞一块砖，整个台面靠它撑着",
+      "chinese": ["假定", "认为", "料想"],
+      "examples": [
+        "Suppose the train is late — what then?",
+        "I suppose you're right."
+      ],
+      "synonyms": ["assume", "presume", "reckon"],
+      "antonyms": ["verify"],
+      "related": ["position", "compose", "propose", "dispose"],
+      "semantic_expansions": [
+        "假定：明确在底下垫一个前提，用来往下推",
+        "认为/料想：口语里把这个'垫底的判断'说得轻一些，实质仍是未经证实的前提"
+      ]
+    },
+    {
+      "id": "composition",
+      "word": "composition",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːmpəˈzɪʃn/",
+      "root_ids": ["pose"],
+      "root_logic": "compose（放在一起）+ -ition → 放在一起的方式，或放好的成品 → 构成 / 作品",
+      "origin": "拉丁语 compositio：com-（一起）+ ponere（放置）",
+      "native_definition": "the way parts are put together, or a piece of writing or music that results",
+      "core_concept": "how parts are placed together – 各部分被放在一起的方式，及其成品",
+      "core_image": "摄影师在取景框里挪动每个元素，直到画面各就各位",
+      "chinese": ["构成", "作文", "作曲", "构图"],
+      "examples": [
+        "The composition of the soil affects growth.",
+        "She wrote a composition about her hometown.",
+        "The photograph's composition draws the eye upward."
+      ],
+      "synonyms": ["structure", "arrangement"],
+      "antonyms": [],
+      "related": ["compose", "position", "dispose", "expose"],
+      "semantic_expansions": [
+        "构成/构图：强调各部分被放在一起的那种方式",
+        "作文/作曲：把词句或音符放在一起得到的成品。同一个'放在一起'，一个指方式一个指结果"
+      ]
+    },
+    {
+      "id": "submit",
+      "word": "submit",
+      "pos": "verb",
+      "phonetic": "/səbˈmɪt/",
+      "root_ids": ["mit-miss"],
+      "root_logic": "sub-（在下）+ mit（送）→ 把东西往上级下方送去 → 提交 / 服从",
+      "origin": "拉丁语 submittere：sub-（在下）+ mittere（送）",
+      "native_definition": "to hand something in for consideration, or to yield to a stronger force",
+      "core_concept": "sending something under another's authority – 把东西或自己送到对方权威之下",
+      "core_image": "把文件双手递到柜台后的人手里，决定权就此交出去",
+      "chinese": ["提交", "服从", "屈服"],
+      "examples": [
+        "Please submit your application before Friday.",
+        "The rebels refused to submit."
+      ],
+      "synonyms": ["hand in", "yield", "surrender"],
+      "antonyms": ["resist", "withdraw"],
+      "related": ["admit", "commit", "permit", "transmit", "omit"],
+      "semantic_expansions": [
+        "提交：把材料送到对方那里，由对方裁决",
+        "服从/屈服：把自己送到对方权威之下。同一个'送到下方'，区别只在送的是文件还是自己"
+      ]
+    },
+    {
+      "id": "dismiss",
+      "word": "dismiss",
+      "pos": "verb",
+      "phonetic": "/dɪsˈmɪs/",
+      "root_ids": ["mit-miss"],
+      "root_logic": "dis-（离开）+ miss（送）→ 把人送走 → 解散 / 解雇 / 不予考虑",
+      "origin": "拉丁语 dimittere：dis-（离开）+ mittere（送）",
+      "native_definition": "to send someone away, or to refuse to take an idea seriously",
+      "core_concept": "sending someone or something away from here – 把人或念头送离此处",
+      "core_image": "老师一挥手，整班学生起身离开教室",
+      "chinese": ["解散", "解雇", "驳回"],
+      "examples": [
+        "The teacher dismissed the class early.",
+        "He was dismissed for repeated absences.",
+        "The judge dismissed the case."
+      ],
+      "synonyms": ["discharge", "reject"],
+      "antonyms": ["admit", "hire"],
+      "related": ["mission", "admit", "permit", "transmit", "submit"],
+      "semantic_expansions": [
+        "解散/解雇：把人送出这个场所或岗位",
+        "驳回：把一个主张送出考虑范围。三个中文词共享'送走、不留在这里'这一个动作"
+      ]
+    },
+    {
+      "id": "permission",
+      "word": "permission",
+      "pos": "noun",
+      "phonetic": "/pərˈmɪʃn/",
+      "root_ids": ["mit-miss"],
+      "root_logic": "permit（让…通过）+ -sion → 允许通过这件事本身 → 许可",
+      "origin": "拉丁语 permissio：per-（通过）+ mittere（送）",
+      "native_definition": "official agreement that lets someone do something",
+      "core_concept": "the act of letting something pass through – 放行这件事本身",
+      "core_image": "闸口抬起横杆，车辆得以通过",
+      "chinese": ["许可", "允许"],
+      "examples": [
+        "You need written permission to enter the site.",
+        "She gave permission for the photo to be used."
+      ],
+      "synonyms": ["consent", "authorize", "license"],
+      "antonyms": ["forbid", "ban"],
+      "related": ["permit", "admit", "transmit", "submit"],
+      "semantic_expansions": [
+        "许可与允许：都是把横杆抬起来让对方通过，区别只在是否落成书面形式"
+      ]
+    },
+    {
+      "id": "aspect",
+      "word": "aspect",
+      "pos": "noun",
+      "phonetic": "/ˈæspekt/",
+      "root_ids": ["spect"],
+      "root_logic": "a-（ad- 的变体，表'朝向'）+ spect（看）→ 朝某个方向看到的那一面 → 方面",
+      "origin": "拉丁语 aspectus：ad-（朝向）+ specere（看）",
+      "native_definition": "one of the sides or features of something being considered",
+      "core_concept": "the face something shows from one viewing angle – 从某个角度看过去所呈现的那一面",
+      "core_image": "同一座山，从东面看是峭壁，从南面看是缓坡",
+      "chinese": ["方面", "外观", "朝向"],
+      "examples": [
+        "We must consider every aspect of the plan.",
+        "The room has a southern aspect."
+      ],
+      "synonyms": ["facet", "side"],
+      "antonyms": [],
+      "related": ["inspect", "respect", "prospect", "suspect", "expect"],
+      "semantic_expansions": [
+        "方面：从某个角度审视一件事时露出的那一面",
+        "朝向/外观：建筑面朝哪边，即它把哪一面呈现给你看。同一个'从某方向看到的面'"
+      ]
+    },
+    {
+      "id": "perspective",
+      "word": "perspective",
+      "pos": "noun",
+      "phonetic": "/pərˈspektɪv/",
+      "root_ids": ["spect"],
+      "root_logic": "per-（透过）+ spect（看）→ 透过某个位置看出去的整体样子 → 视角 / 透视",
+      "origin": "拉丁语 perspicere：per-（透过）+ specere（看）",
+      "native_definition": "a particular way of viewing things, or the technique of showing depth on a flat surface",
+      "core_concept": "the whole view obtained from one standpoint – 站在某一点看出去所得到的整体图景",
+      "core_image": "站在铁轨中央，两条平行线在远处收成一个点",
+      "chinese": ["视角", "观点", "透视法"],
+      "examples": [
+        "From a historian's perspective, the treaty changed little.",
+        "The drawing uses one-point perspective."
+      ],
+      "synonyms": ["viewpoint", "outlook"],
+      "antonyms": [],
+      "related": ["inspect", "prospect", "aspect", "spectator"],
+      "semantic_expansions": [
+        "透视法：绘画上把三维深度画到平面上的技法，直接对应'透过一点看出去'",
+        "视角/观点：把这个站位从物理位置引申为立场，看到的图景随之不同"
+      ]
+    },
+    {
+      "id": "spectacle",
+      "word": "spectacle",
+      "pos": "noun",
+      "phonetic": "/ˈspektəkl/",
+      "root_ids": ["spect"],
+      "root_logic": "spect（看）+ -acle（表工具或对象）→ 值得看的那个东西 → 壮观场面",
+      "origin": "拉丁语 spectaculum：spectare（观看）",
+      "native_definition": "an impressive or unusual sight that people gather to watch",
+      "core_concept": "something staged to be watched – 专门摆出来供人观看的场面",
+      "core_image": "广场上焰火升空，人群齐齐仰头",
+      "chinese": ["壮观场面", "奇观", "眼镜"],
+      "examples": [
+        "The opening ceremony was a spectacle.",
+        "He polished his spectacles on his sleeve."
+      ],
+      "synonyms": ["display", "sight"],
+      "antonyms": [],
+      "related": ["spectator", "inspect", "aspect", "perspective"],
+      "semantic_expansions": [
+        "壮观场面/奇观：被摆出来让人看的那个对象",
+        "眼镜（复数 spectacles）：用来看的那个器具——同一个词根落到工具上，这是独立引申的一支"
+      ]
+    },
+    {
+      "id": "proposal",
+      "word": "proposal",
+      "pos": "noun",
+      "phonetic": "/prəˈpoʊzl/",
+      "root_ids": ["pose"],
+      "root_logic": "propose（往前放）+ -al → 被放到台面上的那个方案 → 提议",
+      "origin": "拉丁语 proponere：pro-（向前）+ ponere（放置）",
+      "native_definition": "a plan or suggestion put forward for others to consider",
+      "core_concept": "what has been placed forward for consideration – 被推到台面上供人评议的那个东西",
+      "core_image": "会议桌上被推到中间的一份方案，所有人都看得见",
+      "chinese": ["提议", "方案", "求婚"],
+      "examples": [
+        "The committee rejected the proposal.",
+        "She accepted his proposal."
+      ],
+      "synonyms": ["suggest", "plan", "put forward"],
+      "antonyms": ["withdraw"],
+      "related": ["propose", "compose", "dispose", "suppose"],
+      "semantic_expansions": [
+        "提议/方案：被推到众人面前等待评议的内容",
+        "求婚：把终身大事推到对方面前等一个答复——同样是'放到前面等回应'"
+      ]
+    },
+    {
+      "id": "transmission",
+      "word": "transmission",
+      "pos": "noun",
+      "phonetic": "/trænzˈmɪʃn/",
+      "root_ids": ["mit-miss"],
+      "root_logic": "transmit（送过去）+ -sion → 送过去这件事，或负责送的那套装置 → 传输 / 变速箱",
+      "origin": "拉丁语 transmissio：trans-（穿过）+ mittere（送）",
+      "native_definition": "the act of sending something across a distance, or the part that carries power to the wheels",
+      "core_concept": "the passing of something across a gap – 把某物从这一端送到那一端",
+      "core_image": "信号沿着电缆一路传到对岸的接收站",
+      "chinese": ["传输", "传播", "变速箱"],
+      "examples": [
+        "Data transmission slows during peak hours.",
+        "Masks reduce transmission of the virus.",
+        "The car's transmission needs repair."
+      ],
+      "synonyms": ["transfer", "send", "convey"],
+      "antonyms": ["receive"],
+      "related": ["transmit", "mission", "submit", "permission"],
+      "semantic_expansions": [
+        "传输/传播：把数据或病毒从一端送到另一端",
+        "变速箱：把发动机动力送到车轮的那套机构——从'送'这个动作引申为承担送的装置"
+      ]
+    },
+    {
+      "id": "respective",
+      "word": "respective",
+      "pos": "adjective",
+      "phonetic": "/rɪˈspektɪv/",
+      "root_ids": ["spect"],
+      "root_logic": "respect（回头看）+ -ive → 逐个回头看清各自对应的那个 → 各自的",
+      "origin": "拉丁语 respectivus：re-（回）+ specere（看）",
+      "native_definition": "belonging separately to each of the people or things mentioned",
+      "core_concept": "looking back at each one separately – 逐个回看，把各自对应的关系分清",
+      "core_image": "颁奖后各人拿着自己那一份奖状回到各自座位",
+      "chinese": ["各自的", "分别的"],
+      "examples": [
+        "After the meeting they returned to their respective offices.",
+        "The two firms kept their respective logos."
+      ],
+      "synonyms": ["individual", "separate"],
+      "antonyms": ["shared"],
+      "related": ["respect", "inspect", "aspect", "perspective"],
+      "semantic_expansions": [
+        "各自的与分别的：都是逐个回看、把对应关系一一分清，中文两种译法对应同一个动作"
+      ]
+    }
+  ]
+}

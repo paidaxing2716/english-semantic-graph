@@ -525,6 +525,559 @@
       "text": "The poem is usually ascribed to an anonymous monk.",
       "source": "AI 生成 · 人工审核",
       "scene": "会计把一笔支出写进某个人的账目那一栏"
+    },
+    {
+      "id": "ex-repress-1",
+      "word_id": "repress",
+      "text": "He repressed the urge to laugh.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水面下的皮球被一只手一直按着，不让它浮上来"
+    },
+    {
+      "id": "ex-repress-2",
+      "word_id": "repress",
+      "text": "The regime repressed all public protest.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水面下的皮球被一只手一直按着，不让它浮上来"
+    },
+    {
+      "id": "ex-expression-1",
+      "word_id": "expression",
+      "text": "Freedom of expression is protected by law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颜料从软管里被挤出来，落在纸上成为看得见的形状"
+    },
+    {
+      "id": "ex-expression-2",
+      "word_id": "expression",
+      "text": "A puzzled expression crossed her face.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颜料从软管里被挤出来，落在纸上成为看得见的形状"
+    },
+    {
+      "id": "ex-expression-3",
+      "word_id": "expression",
+      "text": "This expression evaluates to zero.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颜料从软管里被挤出来，落在纸上成为看得见的形状"
+    },
+    {
+      "id": "ex-oppress-1",
+      "word_id": "oppress",
+      "text": "The colonial system oppressed millions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块石板长年压在人的背上，人始终直不起身"
+    },
+    {
+      "id": "ex-oppress-2",
+      "word_id": "oppress",
+      "text": "The silence in the room oppressed him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块石板长年压在人的背上，人始终直不起身"
+    },
+    {
+      "id": "ex-formation-1",
+      "word_id": "formation",
+      "text": "The formation of ice begins at the surface.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雁群在天空中逐渐排成一个人字形"
+    },
+    {
+      "id": "ex-formation-2",
+      "word_id": "formation",
+      "text": "The jets flew in tight formation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雁群在天空中逐渐排成一个人字形"
+    },
+    {
+      "id": "ex-formation-3",
+      "word_id": "formation",
+      "text": "Rock formations line the canyon wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雁群在天空中逐渐排成一个人字形"
+    },
+    {
+      "id": "ex-information-1",
+      "word_id": "information",
+      "text": "We need more information before deciding.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散落的碎片进入脑中，逐渐拼成一幅清晰的图"
+    },
+    {
+      "id": "ex-information-2",
+      "word_id": "information",
+      "text": "The leaflet contains information about opening hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散落的碎片进入脑中，逐渐拼成一幅清晰的图"
+    },
+    {
+      "id": "ex-uniform-1",
+      "word_id": "uniform",
+      "text": "Apply uniform pressure across the surface.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排学生穿着完全相同的外套站在操场上"
+    },
+    {
+      "id": "ex-uniform-2",
+      "word_id": "uniform",
+      "text": "Students must wear school uniform.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排学生穿着完全相同的外套站在操场上"
+    },
+    {
+      "id": "ex-abstract-1",
+      "word_id": "abstract",
+      "text": "Justice is an abstract concept.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一堆苹果、橘子里把'水果'这个概念单独拎出来，手里却什么都没有"
+    },
+    {
+      "id": "ex-abstract-2",
+      "word_id": "abstract",
+      "text": "Read the abstract before the full paper.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一堆苹果、橘子里把'水果'这个概念单独拎出来，手里却什么都没有"
+    },
+    {
+      "id": "ex-subtract-1",
+      "word_id": "subtract",
+      "text": "Subtract the deposit from the total price.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一叠钞票的底下抽走几张，整叠明显变薄"
+    },
+    {
+      "id": "ex-subtract-2",
+      "word_id": "subtract",
+      "text": "If you subtract three from ten, you get seven.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一叠钞票的底下抽走几张，整叠明显变薄"
+    },
+    {
+      "id": "ex-attraction-1",
+      "word_id": "attraction",
+      "text": "Gravity is a force of attraction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "磁铁周围的铁屑全部朝它排列过去"
+    },
+    {
+      "id": "ex-attraction-2",
+      "word_id": "attraction",
+      "text": "The castle is the town's main attraction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "磁铁周围的铁屑全部朝它排列过去"
+    },
+    {
+      "id": "ex-traction-1",
+      "word_id": "traction",
+      "text": "Snow tyres give better traction on ice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "轮胎花纹咬住湿滑路面，车稳稳往前拉走"
+    },
+    {
+      "id": "ex-traction-2",
+      "word_id": "traction",
+      "text": "The proposal is finally gaining traction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "轮胎花纹咬住湿滑路面，车稳稳往前拉走"
+    },
+    {
+      "id": "ex-deform-1",
+      "word_id": "deform",
+      "text": "Heat can deform plastic parts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铝罐被一脚踩下，侧面凹进去再也回不去"
+    },
+    {
+      "id": "ex-deform-2",
+      "word_id": "deform",
+      "text": "The impact deformed the door frame.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铝罐被一脚踩下，侧面凹进去再也回不去"
+    },
+    {
+      "id": "ex-compression-1",
+      "word_id": "compression",
+      "text": "Image compression reduces file size.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "真空袋抽气后，蓬松的被子塌成薄薄一片"
+    },
+    {
+      "id": "ex-compression-2",
+      "word_id": "compression",
+      "text": "The engine's compression ratio is high.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "真空袋抽气后，蓬松的被子塌成薄薄一片"
+    },
+    {
+      "id": "ex-dispose-1",
+      "word_id": "dispose",
+      "text": "Please dispose of the packaging responsibly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把桌上的东西一件件分类放进不同抽屉，桌面清空"
+    },
+    {
+      "id": "ex-dispose-2",
+      "word_id": "dispose",
+      "text": "The troops were disposed along the ridge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把桌上的东西一件件分类放进不同抽屉，桌面清空"
+    },
+    {
+      "id": "ex-suppose-1",
+      "word_id": "suppose",
+      "text": "Suppose the train is late — what then?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "搭台子前先在底下塞一块砖，整个台面靠它撑着"
+    },
+    {
+      "id": "ex-suppose-2",
+      "word_id": "suppose",
+      "text": "I suppose you're right.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "搭台子前先在底下塞一块砖，整个台面靠它撑着"
+    },
+    {
+      "id": "ex-composition-1",
+      "word_id": "composition",
+      "text": "The composition of the soil affects growth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摄影师在取景框里挪动每个元素，直到画面各就各位"
+    },
+    {
+      "id": "ex-composition-2",
+      "word_id": "composition",
+      "text": "She wrote a composition about her hometown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摄影师在取景框里挪动每个元素，直到画面各就各位"
+    },
+    {
+      "id": "ex-composition-3",
+      "word_id": "composition",
+      "text": "The photograph's composition draws the eye upward.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摄影师在取景框里挪动每个元素，直到画面各就各位"
+    },
+    {
+      "id": "ex-submit-1",
+      "word_id": "submit",
+      "text": "Please submit your application before Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把文件双手递到柜台后的人手里，决定权就此交出去"
+    },
+    {
+      "id": "ex-submit-2",
+      "word_id": "submit",
+      "text": "The rebels refused to submit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把文件双手递到柜台后的人手里，决定权就此交出去"
+    },
+    {
+      "id": "ex-dismiss-1",
+      "word_id": "dismiss",
+      "text": "The teacher dismissed the class early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师一挥手，整班学生起身离开教室"
+    },
+    {
+      "id": "ex-dismiss-2",
+      "word_id": "dismiss",
+      "text": "He was dismissed for repeated absences.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师一挥手，整班学生起身离开教室"
+    },
+    {
+      "id": "ex-dismiss-3",
+      "word_id": "dismiss",
+      "text": "The judge dismissed the case.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师一挥手，整班学生起身离开教室"
+    },
+    {
+      "id": "ex-permission-1",
+      "word_id": "permission",
+      "text": "You need written permission to enter the site.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸口抬起横杆，车辆得以通过"
+    },
+    {
+      "id": "ex-permission-2",
+      "word_id": "permission",
+      "text": "She gave permission for the photo to be used.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸口抬起横杆，车辆得以通过"
+    },
+    {
+      "id": "ex-aspect-1",
+      "word_id": "aspect",
+      "text": "We must consider every aspect of the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一座山，从东面看是峭壁，从南面看是缓坡"
+    },
+    {
+      "id": "ex-aspect-2",
+      "word_id": "aspect",
+      "text": "The room has a southern aspect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一座山，从东面看是峭壁，从南面看是缓坡"
+    },
+    {
+      "id": "ex-perspective-1",
+      "word_id": "perspective",
+      "text": "From a historian's perspective, the treaty changed little.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在铁轨中央，两条平行线在远处收成一个点"
+    },
+    {
+      "id": "ex-perspective-2",
+      "word_id": "perspective",
+      "text": "The drawing uses one-point perspective.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在铁轨中央，两条平行线在远处收成一个点"
+    },
+    {
+      "id": "ex-spectacle-1",
+      "word_id": "spectacle",
+      "text": "The opening ceremony was a spectacle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场上焰火升空，人群齐齐仰头"
+    },
+    {
+      "id": "ex-spectacle-2",
+      "word_id": "spectacle",
+      "text": "He polished his spectacles on his sleeve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场上焰火升空，人群齐齐仰头"
+    },
+    {
+      "id": "ex-proposal-1",
+      "word_id": "proposal",
+      "text": "The committee rejected the proposal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议桌上被推到中间的一份方案，所有人都看得见"
+    },
+    {
+      "id": "ex-proposal-2",
+      "word_id": "proposal",
+      "text": "She accepted his proposal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议桌上被推到中间的一份方案，所有人都看得见"
+    },
+    {
+      "id": "ex-transmission-1",
+      "word_id": "transmission",
+      "text": "Data transmission slows during peak hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信号沿着电缆一路传到对岸的接收站"
+    },
+    {
+      "id": "ex-transmission-2",
+      "word_id": "transmission",
+      "text": "Masks reduce transmission of the virus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信号沿着电缆一路传到对岸的接收站"
+    },
+    {
+      "id": "ex-transmission-3",
+      "word_id": "transmission",
+      "text": "The car's transmission needs repair.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信号沿着电缆一路传到对岸的接收站"
+    },
+    {
+      "id": "ex-respective-1",
+      "word_id": "respective",
+      "text": "After the meeting they returned to their respective offices.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颁奖后各人拿着自己那一份奖状回到各自座位"
+    },
+    {
+      "id": "ex-respective-2",
+      "word_id": "respective",
+      "text": "The two firms kept their respective logos.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颁奖后各人拿着自己那一份奖状回到各自座位"
+    },
+    {
+      "id": "ex-inscribe-1",
+      "word_id": "inscribe",
+      "text": "His name is inscribed on the memorial.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石匠在墓碑上一锤一凿刻下名字"
+    },
+    {
+      "id": "ex-inscribe-2",
+      "word_id": "inscribe",
+      "text": "She inscribed a message inside the book cover.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石匠在墓碑上一锤一凿刻下名字"
+    },
+    {
+      "id": "ex-description-1",
+      "word_id": "description",
+      "text": "The police issued a description of the suspect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画像师听着口述，在纸上一点点勾出嫌疑人的脸"
+    },
+    {
+      "id": "ex-description-2",
+      "word_id": "description",
+      "text": "Read the product description before ordering.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画像师听着口述，在纸上一点点勾出嫌疑人的脸"
+    },
+    {
+      "id": "ex-prescription-1",
+      "word_id": "prescription",
+      "text": "This medicine requires a prescription.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生撕下处方单递过来，药房照单抓药"
+    },
+    {
+      "id": "ex-prescription-2",
+      "word_id": "prescription",
+      "text": "There is no simple prescription for economic growth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生撕下处方单递过来，药房照单抓药"
+    },
+    {
+      "id": "ex-induce-1",
+      "word_id": "induce",
+      "text": "Nothing could induce him to change his mind.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牵着马的缰绳，一步步把它引进马厩"
+    },
+    {
+      "id": "ex-induce-2",
+      "word_id": "induce",
+      "text": "The drug induces drowsiness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牵着马的缰绳，一步步把它引进马厩"
+    },
+    {
+      "id": "ex-production-1",
+      "word_id": "production",
+      "text": "Steel production fell last quarter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线尽头，成品一件件被推出车间大门"
+    },
+    {
+      "id": "ex-production-2",
+      "word_id": "production",
+      "text": "The theatre's new production opens tonight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线尽头，成品一件件被推出车间大门"
+    },
+    {
+      "id": "ex-conductor-1",
+      "word_id": "conductor",
+      "text": "The conductor raised his baton.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指挥棒一起一落，整个乐队跟着走；铜线里电流顺着一路通过"
+    },
+    {
+      "id": "ex-conductor-2",
+      "word_id": "conductor",
+      "text": "Copper is an excellent conductor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指挥棒一起一落，整个乐队跟着走；铜线里电流顺着一路通过"
+    },
+    {
+      "id": "ex-conductor-3",
+      "word_id": "conductor",
+      "text": "Show your ticket to the conductor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指挥棒一起一落，整个乐队跟着走；铜线里电流顺着一路通过"
+    },
+    {
+      "id": "ex-support-1",
+      "word_id": "support",
+      "text": "Four pillars support the roof.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几根立柱托住整个屋顶，屋顶因此不落下来"
+    },
+    {
+      "id": "ex-support-2",
+      "word_id": "support",
+      "text": "Most members support the proposal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几根立柱托住整个屋顶，屋顶因此不落下来"
+    },
+    {
+      "id": "ex-support-3",
+      "word_id": "support",
+      "text": "He supports a family of five.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几根立柱托住整个屋顶，屋顶因此不落下来"
+    },
+    {
+      "id": "ex-important-1",
+      "word_id": "important",
+      "text": "This is an important decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个箱子沉得需要两个人抬，谁都不能视而不见"
+    },
+    {
+      "id": "ex-important-2",
+      "word_id": "important",
+      "text": "It is important to arrive on time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个箱子沉得需要两个人抬，谁都不能视而不见"
+    },
+    {
+      "id": "ex-transportation-1",
+      "word_id": "transportation",
+      "text": "Public transportation is free on Sundays.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "货运列车载满集装箱驶过平原"
+    },
+    {
+      "id": "ex-transportation-2",
+      "word_id": "transportation",
+      "text": "Transportation of fuel requires a permit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "货运列车载满集装箱驶过平原"
+    },
+    {
+      "id": "ex-figment-1",
+      "word_id": "figment",
+      "text": "The noise was a figment of his imagination.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空手在空气里捏出一个形状，松手什么都不剩"
+    },
+    {
+      "id": "ex-figment-2",
+      "word_id": "figment",
+      "text": "Those threats were pure figment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空手在空气里捏出一个形状，松手什么都不剩"
+    },
+    {
+      "id": "ex-reporter-1",
+      "word_id": "reporter",
+      "text": "A reporter asked the minister two questions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "记者从灾区带着录音和照片赶回编辑部"
+    },
+    {
+      "id": "ex-reporter-2",
+      "word_id": "reporter",
+      "text": "She works as a reporter for a local paper.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "记者从灾区带着录音和照片赶回编辑部"
+    },
+    {
+      "id": "ex-abduct-1",
+      "word_id": "abduct",
+      "text": "Two men attempted to abduct the child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "面包车停下，人被拽上车后车门关上"
+    },
+    {
+      "id": "ex-abduct-2",
+      "word_id": "abduct",
+      "text": "She was abducted near the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "面包车停下，人被拽上车后车门关上"
     }
   ]
 }

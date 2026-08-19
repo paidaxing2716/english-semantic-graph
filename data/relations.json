@@ -480,6 +480,222 @@
       "to": "ascribe",
       "type": "root",
       "note": "a-（ad- 的变体，表'朝向'）+ scrib（写）→ 把某事写到某人名下 → 归因于"
+    },
+    {
+      "from": "press",
+      "to": "repress",
+      "type": "root",
+      "note": "re-（往回）+ press（压）→ 把要冒出来的东西压回去 → 压制"
+    },
+    {
+      "from": "press",
+      "to": "expression",
+      "type": "root",
+      "note": "express（往外压）+ -ion（名词后缀）→ 被压出来的那个东西 → 表情 / 表达 / 表达式"
+    },
+    {
+      "from": "press",
+      "to": "oppress",
+      "type": "root",
+      "note": "op-（ob- 的变体，表'对着、压向'）+ press（压）→ 长期压在某人身上 → 压迫"
+    },
+    {
+      "from": "form",
+      "to": "formation",
+      "type": "root",
+      "note": "form（形成）+ -ation（名词后缀）→ 成形的过程，或成形后的排列 → 形成 / 队形"
+    },
+    {
+      "from": "form",
+      "to": "information",
+      "type": "root",
+      "note": "inform（让信息在脑中成形）+ -ation → 让认知成形的那些内容 → 信息"
+    },
+    {
+      "from": "form",
+      "to": "uniform",
+      "type": "root",
+      "note": "uni-（一个）+ form（形状）→ 全体只有一种形状 → 统一的 / 制服"
+    },
+    {
+      "from": "tract",
+      "to": "abstract",
+      "type": "root",
+      "note": "abs-（ab- 的变体，表'离开'）+ tract（拉）→ 把本质从具体事物里拉出来 → 抽象的 / 摘要"
+    },
+    {
+      "from": "tract",
+      "to": "subtract",
+      "type": "root",
+      "note": "sub-（从下面）+ tract（拉）→ 从总量下面抽走一部分 → 减去"
+    },
+    {
+      "from": "tract",
+      "to": "attraction",
+      "type": "root",
+      "note": "attract（拉向自己）+ -ion → 那股把人拉过来的力，或产生这股力的东西 → 吸引力 / 景点"
+    },
+    {
+      "from": "tract",
+      "to": "traction",
+      "type": "root",
+      "note": "tract（拉）+ -ion → 拉动这件事本身，即拉得住的能力 → 牵引力 / 抓地力"
+    },
+    {
+      "from": "form",
+      "to": "deform",
+      "type": "root",
+      "note": "de-（脱离、破坏）+ form（形状）→ 使脱离原本的形状 → 使变形"
+    },
+    {
+      "from": "press",
+      "to": "compression",
+      "type": "root",
+      "note": "compress（一起压）+ -ion → 被压紧这件事，或压紧的程度 → 压缩"
+    },
+    {
+      "from": "pose",
+      "to": "dispose",
+      "type": "root",
+      "note": "dis-（分开）+ pose（放置）→ 把东西分开放好，或放到别处去 → 处理 / 处置"
+    },
+    {
+      "from": "pose",
+      "to": "suppose",
+      "type": "root",
+      "note": "sup-（sub- 的变体，表'在下面'）+ pose（放置）→ 先在底下垫一个前提 → 假定"
+    },
+    {
+      "from": "pose",
+      "to": "composition",
+      "type": "root",
+      "note": "compose（放在一起）+ -ition → 放在一起的方式，或放好的成品 → 构成 / 作品"
+    },
+    {
+      "from": "mit-miss",
+      "to": "submit",
+      "type": "root",
+      "note": "sub-（在下）+ mit（送）→ 把东西往上级下方送去 → 提交 / 服从"
+    },
+    {
+      "from": "mit-miss",
+      "to": "dismiss",
+      "type": "root",
+      "note": "dis-（离开）+ miss（送）→ 把人送走 → 解散 / 解雇 / 不予考虑"
+    },
+    {
+      "from": "mit-miss",
+      "to": "permission",
+      "type": "root",
+      "note": "permit（让…通过）+ -sion → 允许通过这件事本身 → 许可"
+    },
+    {
+      "from": "spect",
+      "to": "aspect",
+      "type": "root",
+      "note": "a-（ad- 的变体，表'朝向'）+ spect（看）→ 朝某个方向看到的那一面 → 方面"
+    },
+    {
+      "from": "spect",
+      "to": "perspective",
+      "type": "root",
+      "note": "per-（透过）+ spect（看）→ 透过某个位置看出去的整体样子 → 视角 / 透视"
+    },
+    {
+      "from": "spect",
+      "to": "spectacle",
+      "type": "root",
+      "note": "spect（看）+ -acle（表工具或对象）→ 值得看的那个东西 → 壮观场面"
+    },
+    {
+      "from": "pose",
+      "to": "proposal",
+      "type": "root",
+      "note": "propose（往前放）+ -al → 被放到台面上的那个方案 → 提议"
+    },
+    {
+      "from": "mit-miss",
+      "to": "transmission",
+      "type": "root",
+      "note": "transmit（送过去）+ -sion → 送过去这件事，或负责送的那套装置 → 传输 / 变速箱"
+    },
+    {
+      "from": "spect",
+      "to": "respective",
+      "type": "root",
+      "note": "respect（回头看）+ -ive → 逐个回头看清各自对应的那个 → 各自的"
+    },
+    {
+      "from": "scrib-script",
+      "to": "inscribe",
+      "type": "root",
+      "note": "in-（进入）+ scrib（写、刻）→ 把字刻进材料里 → 铭刻"
+    },
+    {
+      "from": "scrib-script",
+      "to": "description",
+      "type": "root",
+      "note": "describe（把轮廓写下来）+ -tion → 写下来的那段轮廓 → 描述"
+    },
+    {
+      "from": "scrib-script",
+      "to": "prescription",
+      "type": "root",
+      "note": "prescribe（事先写下）+ -tion → 事先写好的那张指令 → 处方"
+    },
+    {
+      "from": "duc-duct",
+      "to": "induce",
+      "type": "root",
+      "note": "in-（进入）+ duc（引导）→ 把人或状态引入某处 → 诱导 / 引发"
+    },
+    {
+      "from": "duc-duct",
+      "to": "production",
+      "type": "root",
+      "note": "produce（往前引出）+ -tion → 把东西引出来这件事，或引出的成品 → 生产 / 作品"
+    },
+    {
+      "from": "duc-duct",
+      "to": "conductor",
+      "type": "root",
+      "note": "conduct（引导）+ -or（施动者）→ 负责引导的那个人或物 → 指挥 / 导体"
+    },
+    {
+      "from": "port",
+      "to": "support",
+      "type": "root",
+      "note": "sup-（sub- 的变体，表'从下面'）+ port（承载）→ 从下面把重量担起来 → 支撑 / 支持"
+    },
+    {
+      "from": "port",
+      "to": "important",
+      "type": "root",
+      "note": "im-（in- 的变体，表'进入'）+ port（运送）→ 分量重到被运进来的 → 重要的"
+    },
+    {
+      "from": "port",
+      "to": "transportation",
+      "type": "root",
+      "note": "transport（运过去）+ -ation → 运送这件事，或用来运送的系统 → 运输"
+    },
+    {
+      "from": "figur",
+      "to": "figment",
+      "type": "root",
+      "note": "fig（塑形、捏造）+ -ment（结果）→ 被捏出来的东西 → 虚构之物"
+    },
+    {
+      "from": "port",
+      "to": "reporter",
+      "type": "root",
+      "note": "report（把消息带回）+ -er（施动者）→ 负责把消息带回来的人 → 记者"
+    },
+    {
+      "from": "duc-duct",
+      "to": "abduct",
+      "type": "root",
+      "note": "ab-（离开）+ duct（引导、带走）→ 强行把人带离原处 → 绑架"
     }
   ]
 }

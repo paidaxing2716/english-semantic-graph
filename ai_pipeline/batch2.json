@@ -1,0 +1,286 @@
+{
+  "words": [
+    {
+      "id": "repress",
+      "word": "repress",
+      "pos": "verb",
+      "phonetic": "/rɪˈpres/",
+      "root_ids": ["press"],
+      "root_logic": "re-（往回）+ press（压）→ 把要冒出来的东西压回去 → 压制",
+      "origin": "拉丁语 reprimere：re-（往回）+ premere（压）",
+      "native_definition": "to hold back a feeling, memory, or action so it cannot come out",
+      "core_concept": "pushing back something trying to surface – 把想冒出来的东西压回去",
+      "core_image": "水面下的皮球被一只手一直按着，不让它浮上来",
+      "chinese": ["压抑", "镇压"],
+      "examples": [
+        "He repressed the urge to laugh.",
+        "The regime repressed all public protest."
+      ],
+      "synonyms": ["restrain", "quell", "suppress"],
+      "antonyms": ["release", "express"],
+      "related": ["pressure", "suppress", "express", "depress"],
+      "semantic_expansions": [
+        "压抑（情绪）与镇压（民众）：都是把正在往上冒的东西按回去，区别只在按的是感受还是人群"
+      ]
+    },
+    {
+      "id": "expression",
+      "word": "expression",
+      "pos": "noun",
+      "phonetic": "/ɪkˈspreʃn/",
+      "root_ids": ["press"],
+      "root_logic": "express（往外压）+ -ion（名词后缀）→ 被压出来的那个东西 → 表情 / 表达 / 表达式",
+      "origin": "拉丁语 expressio：ex-（向外）+ premere（压）",
+      "native_definition": "the act of showing thoughts or feelings, or the form in which they appear",
+      "core_concept": "what has been pressed outward into visible form – 被压到外面、变得可见的那个结果",
+      "core_image": "颜料从软管里被挤出来，落在纸上成为看得见的形状",
+      "chinese": ["表达", "表情", "表达式"],
+      "examples": [
+        "Freedom of expression is protected by law.",
+        "A puzzled expression crossed her face.",
+        "This expression evaluates to zero."
+      ],
+      "synonyms": ["phrase", "look"],
+      "antonyms": [],
+      "related": ["express", "impress", "pressure", "repress"],
+      "semantic_expansions": [
+        "表达：把内心的想法压到外面，成为别人能接收的形式",
+        "表情：压到脸上的那一层——情绪外化成可见的样子",
+        "表达式（数学/编程）：把一段意思压成一个可求值的写法。三个中文词对应同一个'被压出来的形式'"
+      ]
+    },
+    {
+      "id": "oppress",
+      "word": "oppress",
+      "pos": "verb",
+      "phonetic": "/əˈpres/",
+      "root_ids": ["press"],
+      "root_logic": "op-（ob- 的变体，表'对着、压向'）+ press（压）→ 长期压在某人身上 → 压迫",
+      "origin": "拉丁语 opprimere：ob-（对着）+ premere（压）",
+      "native_definition": "to treat people cruelly and unfairly by keeping them under control",
+      "core_concept": "keeping someone down by constant weight – 用持续的重量把人压在下面",
+      "core_image": "一块石板长年压在人的背上，人始终直不起身",
+      "chinese": ["压迫", "使沉重"],
+      "examples": [
+        "The colonial system oppressed millions.",
+        "The silence in the room oppressed him."
+      ],
+      "synonyms": ["persecute", "burden"],
+      "antonyms": ["liberate", "release"],
+      "related": ["pressure", "suppress", "depress", "repress"],
+      "semantic_expansions": [
+        "压迫（制度对人）与使沉重（气氛对心）：都是有重量长期压着，区别在压的是身体还是心情"
+      ]
+    },
+    {
+      "id": "formation",
+      "word": "formation",
+      "pos": "noun",
+      "phonetic": "/fɔːrˈmeɪʃn/",
+      "root_ids": ["form"],
+      "root_logic": "form（形成）+ -ation（名词后缀）→ 成形的过程，或成形后的排列 → 形成 / 队形",
+      "origin": "拉丁语 formatio：formare（塑形）",
+      "native_definition": "the process of coming into existence, or an arranged pattern of things",
+      "core_concept": "the act of taking shape, or the shape taken – 成形的过程，或成形的结果",
+      "core_image": "雁群在天空中逐渐排成一个人字形",
+      "chinese": ["形成", "队形", "构造"],
+      "examples": [
+        "The formation of ice begins at the surface.",
+        "The jets flew in tight formation.",
+        "Rock formations line the canyon wall."
+      ],
+      "synonyms": ["creation", "arrangement"],
+      "antonyms": [],
+      "related": ["formal", "transform", "conform", "reform", "inform"],
+      "semantic_expansions": [
+        "形成：强调从无到有取得形状的过程",
+        "队形/构造：强调取得形状之后的那个排列。同一个'成形'，一个看过程一个看结果"
+      ]
+    },
+    {
+      "id": "information",
+      "word": "information",
+      "pos": "noun",
+      "phonetic": "/ˌɪnfərˈmeɪʃn/",
+      "root_ids": ["form"],
+      "root_logic": "inform（让信息在脑中成形）+ -ation → 让认知成形的那些内容 → 信息",
+      "origin": "拉丁语 informatio：in-（进入）+ formare（塑形）",
+      "native_definition": "facts or details that shape what someone knows about something",
+      "core_concept": "content that gives shape to someone's knowledge – 在人脑中把认知塑造成形的内容",
+      "core_image": "散落的碎片进入脑中，逐渐拼成一幅清晰的图",
+      "chinese": ["信息", "资料"],
+      "examples": [
+        "We need more information before deciding.",
+        "The leaflet contains information about opening hours."
+      ],
+      "synonyms": ["data", "details"],
+      "antonyms": [],
+      "related": ["inform", "formal", "formation", "transform"],
+      "semantic_expansions": [
+        "信息与资料：都是能让人脑中的认知成形的内容，区别只在是否已被整理"
+      ]
+    },
+    {
+      "id": "uniform",
+      "word": "uniform",
+      "pos": "adjective",
+      "phonetic": "/ˈjuːnɪfɔːrm/",
+      "root_ids": ["form"],
+      "root_logic": "uni-（一个）+ form（形状）→ 全体只有一种形状 → 统一的 / 制服",
+      "origin": "拉丁语 uniformis：unus（一）+ forma（形状）",
+      "native_definition": "the same in every part or case; also a set of identical clothes for a group",
+      "core_concept": "having one single shape throughout – 通体只有一种形状，没有差异",
+      "core_image": "一排学生穿着完全相同的外套站在操场上",
+      "chinese": ["统一的", "制服", "一致的"],
+      "examples": [
+        "Apply uniform pressure across the surface.",
+        "Students must wear school uniform."
+      ],
+      "synonyms": ["consistent", "identical"],
+      "antonyms": ["varied", "differ"],
+      "related": ["formal", "conform", "formation", "transform"],
+      "semantic_expansions": [
+        "统一的/一致的：形状处处相同，没有变化",
+        "制服（名词）：让一群人外形统一的那套衣服——从'同一种形状'落到具体的物"
+      ]
+    },
+    {
+      "id": "abstract",
+      "word": "abstract",
+      "pos": "adjective",
+      "phonetic": "/ˈæbstrækt/",
+      "root_ids": ["tract"],
+      "root_logic": "abs-（ab- 的变体，表'离开'）+ tract（拉）→ 把本质从具体事物里拉出来 → 抽象的 / 摘要",
+      "origin": "拉丁语 abstrahere：ab-（离开）+ trahere（拉）",
+      "native_definition": "existing as an idea rather than a physical thing; also a short summary of a text",
+      "core_concept": "pulled away from concrete instances – 从具体事物中被抽离出来的那部分",
+      "core_image": "从一堆苹果、橘子里把'水果'这个概念单独拎出来，手里却什么都没有",
+      "chinese": ["抽象的", "摘要", "提取"],
+      "examples": [
+        "Justice is an abstract concept.",
+        "Read the abstract before the full paper."
+      ],
+      "synonyms": ["theoretical", "summary"],
+      "antonyms": ["concrete"],
+      "related": ["attract", "extract", "contract", "detract", "retract"],
+      "semantic_expansions": [
+        "抽象的：把共性从具体事物里拉出来，剩下的就是概念",
+        "摘要（名词）：把论文要点拉出来的那一段。中文分成两个词，英文是同一个'抽离'动作"
+      ]
+    },
+    {
+      "id": "subtract",
+      "word": "subtract",
+      "pos": "verb",
+      "phonetic": "/səbˈtrækt/",
+      "root_ids": ["tract"],
+      "root_logic": "sub-（从下面）+ tract（拉）→ 从总量下面抽走一部分 → 减去",
+      "origin": "拉丁语 subtrahere：sub-（从下）+ trahere（拉）",
+      "native_definition": "to take one number or amount away from another",
+      "core_concept": "pulling an amount out of a total – 从总量里抽走一部分",
+      "core_image": "从一叠钞票的底下抽走几张，整叠明显变薄",
+      "chinese": ["减去"],
+      "examples": [
+        "Subtract the deposit from the total price.",
+        "If you subtract three from ten, you get seven."
+      ],
+      "synonyms": ["deduct", "remove"],
+      "antonyms": ["add"],
+      "related": ["extract", "attract", "contract", "abstract"]
+    },
+    {
+      "id": "attraction",
+      "word": "attraction",
+      "pos": "noun",
+      "phonetic": "/əˈtrækʃn/",
+      "root_ids": ["tract"],
+      "root_logic": "attract（拉向自己）+ -ion → 那股把人拉过来的力，或产生这股力的东西 → 吸引力 / 景点",
+      "origin": "拉丁语 attractio：ad-（朝向）+ trahere（拉）",
+      "native_definition": "the force that draws people or things toward something, or a place people are drawn to",
+      "core_concept": "the pull that draws things toward a center – 把事物拉向某处的那股力量",
+      "core_image": "磁铁周围的铁屑全部朝它排列过去",
+      "chinese": ["吸引力", "景点", "魅力"],
+      "examples": [
+        "Gravity is a force of attraction.",
+        "The castle is the town's main attraction."
+      ],
+      "synonyms": ["appeal", "pull", "draw"],
+      "antonyms": ["repel"],
+      "related": ["attract", "distract", "extract", "abstract"],
+      "semantic_expansions": [
+        "吸引力/魅力：那股把人或物拉过来的力本身",
+        "景点：因为这股力而被人涌向的那个地方——从力引申到力的来源"
+      ]
+    },
+    {
+      "id": "traction",
+      "word": "traction",
+      "pos": "noun",
+      "phonetic": "/ˈtrækʃn/",
+      "root_ids": ["tract"],
+      "root_logic": "tract（拉）+ -ion → 拉动这件事本身，即拉得住的能力 → 牵引力 / 抓地力",
+      "origin": "拉丁语 tractio：trahere（拉）",
+      "native_definition": "the grip that lets a surface pull without slipping; also the progress an idea starts to gain",
+      "core_concept": "the ability to pull without slipping – 拉得动而不打滑的那种咬合力",
+      "core_image": "轮胎花纹咬住湿滑路面，车稳稳往前拉走",
+      "chinese": ["牵引力", "抓地力", "进展"],
+      "examples": [
+        "Snow tyres give better traction on ice.",
+        "The proposal is finally gaining traction."
+      ],
+      "synonyms": ["grip", "pull"],
+      "antonyms": [],
+      "related": ["tractor", "attract", "extract", "contract"],
+      "semantic_expansions": [
+        "牵引力/抓地力：物理上咬住地面往前拉的能力",
+        "进展：一个想法开始'咬住'现实、能往前推动——同一个'咬得住才拉得动'的画面"
+      ]
+    },
+    {
+      "id": "deform",
+      "word": "deform",
+      "pos": "verb",
+      "phonetic": "/diːˈfɔːrm/",
+      "root_ids": ["form"],
+      "root_logic": "de-（脱离、破坏）+ form（形状）→ 使脱离原本的形状 → 使变形",
+      "origin": "拉丁语 deformare：de-（去除）+ formare（塑形）",
+      "native_definition": "to change something's shape so that it is no longer correct or normal",
+      "core_concept": "forcing something out of its proper shape – 把东西挤出它本来的形状",
+      "core_image": "铝罐被一脚踩下，侧面凹进去再也回不去",
+      "chinese": ["使变形", "损坏外形"],
+      "examples": [
+        "Heat can deform plastic parts.",
+        "The impact deformed the door frame."
+      ],
+      "synonyms": ["distort", "warp"],
+      "antonyms": ["restore"],
+      "related": ["transform", "conform", "formation", "disfigure"],
+      "semantic_expansions": [
+        "使变形与损坏外形：都是让物体离开它应有的形状，程度不同而已"
+      ]
+    },
+    {
+      "id": "compression",
+      "word": "compression",
+      "pos": "noun",
+      "phonetic": "/kəmˈpreʃn/",
+      "root_ids": ["press"],
+      "root_logic": "compress（一起压）+ -ion → 被压紧这件事，或压紧的程度 → 压缩",
+      "origin": "拉丁语 compressio：com-（一起）+ premere（压）",
+      "native_definition": "the act of pressing something into a smaller space, or the state of being pressed",
+      "core_concept": "the state of being pressed into less space – 被压进更小空间的那个状态",
+      "core_image": "真空袋抽气后，蓬松的被子塌成薄薄一片",
+      "chinese": ["压缩", "压紧"],
+      "examples": [
+        "Image compression reduces file size.",
+        "The engine's compression ratio is high."
+      ],
+      "synonyms": ["condense", "squeeze"],
+      "antonyms": ["expand", "decompress"],
+      "related": ["compress", "pressure", "express", "depress"],
+      "semantic_expansions": [
+        "压缩（文件）与压紧（气体）：都是把同样的内容压进更小的空间，区别只在压的对象"
+      ]
+    }
+  ]
+}

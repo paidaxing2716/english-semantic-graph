@@ -1,0 +1,290 @@
+{
+  "words": [
+    {
+      "id": "inscribe",
+      "word": "inscribe",
+      "pos": "verb",
+      "phonetic": "/ɪnˈskraɪb/",
+      "root_ids": ["scrib-script"],
+      "root_logic": "in-（进入）+ scrib（写、刻）→ 把字刻进材料里 → 铭刻",
+      "origin": "拉丁语 inscribere：in-（进入）+ scribere（写）",
+      "native_definition": "to cut or write words into a surface so they last",
+      "core_concept": "cutting words into a surface to last – 把文字刻进表面，使其长久留存",
+      "core_image": "石匠在墓碑上一锤一凿刻下名字",
+      "chinese": ["铭刻", "题写"],
+      "examples": [
+        "His name is inscribed on the memorial.",
+        "She inscribed a message inside the book cover."
+      ],
+      "synonyms": ["engrave", "carve"],
+      "antonyms": ["erase"],
+      "related": ["describe", "prescribe", "subscribe", "ascribe", "manuscript"],
+      "semantic_expansions": [
+        "铭刻与题写：都是把字留进载体里，区别只在刻的是石头还是纸页"
+      ]
+    },
+    {
+      "id": "description",
+      "word": "description",
+      "pos": "noun",
+      "phonetic": "/dɪˈskrɪpʃn/",
+      "root_ids": ["scrib-script"],
+      "root_logic": "describe（把轮廓写下来）+ -tion → 写下来的那段轮廓 → 描述",
+      "origin": "拉丁语 descriptio：de-（往下）+ scribere（写）",
+      "native_definition": "an account in words that lets someone picture what something is like",
+      "core_concept": "words that trace the outline of something – 用文字把某物的轮廓勾出来",
+      "core_image": "画像师听着口述，在纸上一点点勾出嫌疑人的脸",
+      "chinese": ["描述", "说明"],
+      "examples": [
+        "The police issued a description of the suspect.",
+        "Read the product description before ordering."
+      ],
+      "synonyms": ["account", "portray", "explain"],
+      "antonyms": [],
+      "related": ["describe", "prescribe", "inscribe", "transcript"],
+      "semantic_expansions": [
+        "描述与说明：都是用文字勾出对象的轮廓，区别在侧重外形还是用法"
+      ]
+    },
+    {
+      "id": "prescription",
+      "word": "prescription",
+      "pos": "noun",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "root_ids": ["scrib-script"],
+      "root_logic": "prescribe（事先写下）+ -tion → 事先写好的那张指令 → 处方",
+      "origin": "拉丁语 praescriptio：prae-（在前）+ scribere（写）",
+      "native_definition": "a written instruction from a doctor for medicine, or any prescribed course of action",
+      "core_concept": "an instruction written down in advance – 事先写下、要求照办的那份指令",
+      "core_image": "医生撕下处方单递过来，药房照单抓药",
+      "chinese": ["处方", "药方", "规定"],
+      "examples": [
+        "This medicine requires a prescription.",
+        "There is no simple prescription for economic growth."
+      ],
+      "synonyms": ["order", "recommend"],
+      "antonyms": [],
+      "related": ["prescribe", "describe", "inscribe", "subscribe"],
+      "semantic_expansions": [
+        "处方/药方：医生事先写下、要求照办的那张纸",
+        "规定：把'事先写好、照此执行'从医嘱扩到一般做法上"
+      ]
+    },
+    {
+      "id": "induce",
+      "word": "induce",
+      "pos": "verb",
+      "phonetic": "/ɪnˈduːs/",
+      "root_ids": ["duc-duct"],
+      "root_logic": "in-（进入）+ duc（引导）→ 把人或状态引入某处 → 诱导 / 引发",
+      "origin": "拉丁语 inducere：in-（进入）+ ducere（引导）",
+      "native_definition": "to persuade someone into an action, or to cause a state to begin",
+      "core_concept": "leading something into a new state – 把人或事引入某个状态",
+      "core_image": "牵着马的缰绳，一步步把它引进马厩",
+      "chinese": ["诱导", "引发", "促使"],
+      "examples": [
+        "Nothing could induce him to change his mind.",
+        "The drug induces drowsiness."
+      ],
+      "synonyms": ["persuade", "cause", "prompt"],
+      "antonyms": ["prevent"],
+      "related": ["conduct", "produce", "introduce", "deduce", "reduce"],
+      "semantic_expansions": [
+        "诱导/促使（对人）：把人引进某个决定",
+        "引发（对状态）：把某个状态引进来。同一个'牵引入内'，区别只在被引的是人还是现象"
+      ]
+    },
+    {
+      "id": "production",
+      "word": "production",
+      "pos": "noun",
+      "phonetic": "/prəˈdʌkʃn/",
+      "root_ids": ["duc-duct"],
+      "root_logic": "produce（往前引出）+ -tion → 把东西引出来这件事，或引出的成品 → 生产 / 作品",
+      "origin": "拉丁语 productio：pro-（向前）+ ducere（引导）",
+      "native_definition": "the process of making things, or a work created for stage or screen",
+      "core_concept": "the act of bringing something forth – 把东西引到世上来的过程及其成果",
+      "core_image": "流水线尽头，成品一件件被推出车间大门",
+      "chinese": ["生产", "产量", "作品"],
+      "examples": [
+        "Steel production fell last quarter.",
+        "The theatre's new production opens tonight."
+      ],
+      "synonyms": ["manufacture", "output"],
+      "antonyms": ["consume"],
+      "related": ["produce", "conduct", "introduce", "reduce", "induce"],
+      "semantic_expansions": [
+        "生产/产量：把东西引到世上来的过程和数量",
+        "作品（戏剧/影视）：被搬上台面的那个成品——同样是'被引出来示于人前'"
+      ]
+    },
+    {
+      "id": "conductor",
+      "word": "conductor",
+      "pos": "noun",
+      "phonetic": "/kənˈdʌktər/",
+      "root_ids": ["duc-duct"],
+      "root_logic": "conduct（引导）+ -or（施动者）→ 负责引导的那个人或物 → 指挥 / 导体",
+      "origin": "拉丁语 conductor：com-（一起）+ ducere（引导）",
+      "native_definition": "a person who leads an orchestra or takes fares, or a material that carries current",
+      "core_concept": "whatever leads something along a path – 负责把某物沿路引导过去的人或物",
+      "core_image": "指挥棒一起一落，整个乐队跟着走；铜线里电流顺着一路通过",
+      "chinese": ["指挥", "导体", "售票员"],
+      "examples": [
+        "The conductor raised his baton.",
+        "Copper is an excellent conductor.",
+        "Show your ticket to the conductor."
+      ],
+      "synonyms": ["guide", "direct"],
+      "antonyms": [],
+      "related": ["conduct", "produce", "introduce", "induce"],
+      "semantic_expansions": [
+        "指挥：引导乐队走完整首曲子的那个人",
+        "导体：引导电流通过的那种材料",
+        "售票员：在车厢里引导乘客的那个人。三个中文词共享'负责引导'这一个身份"
+      ]
+    },
+    {
+      "id": "support",
+      "word": "support",
+      "pos": "verb",
+      "phonetic": "/səˈpɔːrt/",
+      "root_ids": ["port"],
+      "root_logic": "sup-（sub- 的变体，表'从下面'）+ port（承载）→ 从下面把重量担起来 → 支撑 / 支持",
+      "origin": "拉丁语 supportare：sub-（从下）+ portare（运送、承载）",
+      "native_definition": "to hold something up from below, or to help and back someone",
+      "core_concept": "bearing weight from underneath – 从底下把重量担住，使其不塌",
+      "core_image": "几根立柱托住整个屋顶，屋顶因此不落下来",
+      "chinese": ["支撑", "支持", "赡养"],
+      "examples": [
+        "Four pillars support the roof.",
+        "Most members support the proposal.",
+        "He supports a family of five."
+      ],
+      "synonyms": ["hold", "back", "sustain"],
+      "antonyms": ["oppose", "abandon"],
+      "related": ["import", "export", "transport", "report", "portable"],
+      "semantic_expansions": [
+        "支撑（物理）：从下面担住重量",
+        "支持（立场）：在背后担住对方的主张",
+        "赡养：担起一个家的开销。三层意思都是'在底下把重量接住'"
+      ]
+    },
+    {
+      "id": "important",
+      "word": "important",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈpɔːrtnt/",
+      "root_ids": ["port"],
+      "root_logic": "im-（in- 的变体，表'进入'）+ port（运送）→ 分量重到被运进来的 → 重要的",
+      "origin": "拉丁语 importare：in-（进入）+ portare（运送）——原义'带进来'，引申为'有分量的'",
+      "native_definition": "having great value or effect, so it must not be ignored",
+      "core_concept": "carrying enough weight to matter – 分量足够大，无法被忽略",
+      "core_image": "一个箱子沉得需要两个人抬，谁都不能视而不见",
+      "chinese": ["重要的", "重大的"],
+      "examples": [
+        "This is an important decision.",
+        "It is important to arrive on time."
+      ],
+      "synonyms": ["significant", "crucial"],
+      "antonyms": ["trivial"],
+      "related": ["import", "export", "support", "transport"],
+      "semantic_expansions": [
+        "重要的与重大的：同一个'有分量、搬不动'的画面，中文按程度分了两个词"
+      ]
+    },
+    {
+      "id": "transportation",
+      "word": "transportation",
+      "pos": "noun",
+      "phonetic": "/ˌtrænspərˈteɪʃn/",
+      "root_ids": ["port"],
+      "root_logic": "transport（运过去）+ -ation → 运送这件事，或用来运送的系统 → 运输",
+      "origin": "拉丁语 transportare：trans-（穿过）+ portare（运送）",
+      "native_definition": "the moving of people or goods, or the system that does this",
+      "core_concept": "the carrying of things across a distance – 把人或物跨距离运走这件事",
+      "core_image": "货运列车载满集装箱驶过平原",
+      "chinese": ["运输", "交通", "交通工具"],
+      "examples": [
+        "Public transportation is free on Sundays.",
+        "Transportation of fuel requires a permit."
+      ],
+      "synonyms": ["transfer", "carry", "ship"],
+      "antonyms": [],
+      "related": ["transport", "import", "export", "support", "portable"],
+      "semantic_expansions": [
+        "运输：把货物跨距离运走的行为",
+        "交通/交通工具：承担这件事的整套系统。同一个'运送'，一个指行为一个指系统"
+      ]
+    },
+    {
+      "id": "figment",
+      "word": "figment",
+      "pos": "noun",
+      "phonetic": "/ˈfɪɡmənt/",
+      "root_ids": ["figur"],
+      "root_logic": "fig（塑形、捏造）+ -ment（结果）→ 被捏出来的东西 → 虚构之物",
+      "origin": "拉丁语 figmentum：fingere（塑造、捏造）",
+      "native_definition": "something imagined that has no basis in reality",
+      "core_concept": "a form shaped only in the mind – 只在脑中捏出来的形状，现实里没有对应",
+      "core_image": "空手在空气里捏出一个形状，松手什么都不剩",
+      "chinese": ["虚构之物", "臆想"],
+      "examples": [
+        "The noise was a figment of his imagination.",
+        "Those threats were pure figment."
+      ],
+      "synonyms": ["invention", "fantasy"],
+      "antonyms": ["fact"],
+      "related": ["figure", "figurative", "configure", "disfigure"],
+      "semantic_expansions": [
+        "虚构之物与臆想：都是脑中捏出形状但现实无对应，中文一个偏结果一个偏过程"
+      ]
+    },
+    {
+      "id": "reporter",
+      "word": "reporter",
+      "pos": "noun",
+      "phonetic": "/rɪˈpɔːrtər/",
+      "root_ids": ["port"],
+      "root_logic": "report（把消息带回）+ -er（施动者）→ 负责把消息带回来的人 → 记者",
+      "origin": "拉丁语 reportare：re-（回）+ portare（运送）",
+      "native_definition": "someone whose job is to gather news and bring it back to the public",
+      "core_concept": "the person who carries news back – 负责把现场消息运回给公众的人",
+      "core_image": "记者从灾区带着录音和照片赶回编辑部",
+      "chinese": ["记者", "通讯员"],
+      "examples": [
+        "A reporter asked the minister two questions.",
+        "She works as a reporter for a local paper."
+      ],
+      "synonyms": ["journalist", "correspondent"],
+      "antonyms": [],
+      "related": ["report", "import", "export", "transport", "support"],
+      "semantic_expansions": [
+        "记者与通讯员：都是把消息从现场运回来的人，区别只在隶属关系"
+      ]
+    },
+    {
+      "id": "abduct",
+      "word": "abduct",
+      "pos": "verb",
+      "phonetic": "/æbˈdʌkt/",
+      "root_ids": ["duc-duct"],
+      "root_logic": "ab-（离开）+ duct（引导、带走）→ 强行把人带离原处 → 绑架",
+      "origin": "拉丁语 abducere：ab-（离开）+ ducere（引导）",
+      "native_definition": "to take someone away by force",
+      "core_concept": "leading a person away against their will – 违背意愿把人从原处带走",
+      "core_image": "面包车停下，人被拽上车后车门关上",
+      "chinese": ["绑架", "劫走"],
+      "examples": [
+        "Two men attempted to abduct the child.",
+        "She was abducted near the station."
+      ],
+      "synonyms": ["kidnap", "seize"],
+      "antonyms": ["release"],
+      "related": ["conduct", "induce", "introduce", "deduce", "reduce"],
+      "semantic_expansions": [
+        "绑架与劫走：都是违背对方意愿把人带离原处，中文按场合分了两个词"
+      ]
+    }
+  ]
+}

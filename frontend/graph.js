@@ -159,6 +159,21 @@
 
   function toggleRoot(d) {
     d.expanded = !d.expanded;
+
+    // 手机端一次只展开一个词根：100 词全展开时 390px 画布放不下
+    // （实测 118 个节点会产生近百对圆重叠），且手机上本来就是一族一族地看。
+    if (d.expanded && isMobile()) {
+      nodes.forEach((n) => {
+        if (n.type === "root" && n.id !== d.id && n.expanded) {
+          n.expanded = false;
+          nodes.forEach((m) => {
+            if (m.type === "word" && m.roots && m.roots.includes(n.id)) {
+              m.vizVisible = false;
+            }
+          });
+        }
+      });
+    }
     // 展开/收起该词族。只放开这一簇单词去找位置，
     // 其余节点保持钉住，整张图不会跟着重排。
     const family = [];
@@ -362,6 +377,12 @@
     const height = svg.node().parentElement.clientHeight;
     svg.attr("viewBox", [0, 0, width, height]);
 
+    // 节点尺寸随画布缩放：手机画布只有桌面的 1/9 面积，
+    // 沿用桌面半径会导致节点挤在一起（实测重叠十几对）。
+    const scale = Math.min(1, Math.max(0.62, Math.sqrt(width * height) / 900));
+    const radiusOf = (d) =>
+      Math.round((d.type === "root" ? 27 : d.type === "concept" ? (d.isCluster ? 18 : 20) : 13) * scale);
+
     // 缩放
     const g = svg.append("g");
     svg.call(
@@ -405,7 +426,7 @@
 
     nodeSel
       .append("circle")
-      .attr("r", (d) => (d.type === "root" ? 27 : d.type === "concept" ? (d.isCluster ? 18 : 20) : 13))
+      .attr("r", radiusOf)
       .attr("class", (d) => d.type);
 
     // 单词标签挂在圆下方，偏移量随屏幕收敛，避免小屏触底越界
@@ -420,10 +441,11 @@
     labelSel.each(function (d) {
       let halfW = 0;
       try { halfW = this.getComputedTextLength() / 2; } catch (e) { halfW = 0; }
-      d.padX = Math.max(halfW, d.type === "root" ? 27 : d.type === "concept" ? 20 : 13) + 4;
+      const r = radiusOf(d);
+      d.padX = Math.max(halfW, r) + 4;
       const dy = d.type === "word" ? wordLabelDy : 0;
-      d.padTop = (d.type === "root" ? 27 : d.type === "concept" ? 20 : 13) + 4;
-      d.padBottom = Math.max(dy + 8, d.type === "root" ? 27 : 13) + 4;
+      d.padTop = r + 4;
+      d.padBottom = Math.max(dy + 8, r) + 4;
     });
 
     nodeSel.on("click", (event, d) => {
@@ -442,12 +464,14 @@
     viewMargin = margin;
     simulation = d3
       .forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => (d.type === "root" ? 70 : 110)))
-      .force("charge", d3.forceManyBody().strength(-300).distanceMax(320))
+      .force("link", d3.forceLink(links).id((d) => d.id)
+        .distance((d) => (d.type === "root" ? 70 : 110) * scale))
+      .force("charge", d3.forceManyBody().strength(-300 * scale * scale).distanceMax(320 * scale))
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("x", d3.forceX(width / 2).strength(0.06))
       .force("y", d3.forceY(height / 2).strength(0.09))
-      .force("collide", d3.forceCollide().radius(38))
+      // 碰撞半径按节点实际半径 + 标签留白，并随画布缩放
+      .force("collide", d3.forceCollide().radius((d) => radiusOf(d) + 14 * scale))
       .on("tick", () => {
         clampNodes(width, height, margin);
         redraw();

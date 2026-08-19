@@ -20,6 +20,10 @@ DATA = ROOT / "data"
 
 REQUIRED = ["id", "word", "pos", "phonetic", "root_ids", "root_logic", "origin",
             "native_definition", "core_concept", "core_image", "chinese", "examples"]
+OPTIONAL = ["synonyms", "antonyms", "related", "semantic_expansions",
+            "synonym_group", "synonym_note", "collocations", "level",
+            "phrasal_verbs", "patterns"]
+ALLOWED_FIELDS = set(REQUIRED) | set(OPTIONAL)
 VALID_POS = {"noun", "verb", "adjective", "adverb", "adj", "adv", "preposition"}
 
 # AI 造词的典型形态：前缀 + 已有词。命中且不在白名单里就要人工核。
@@ -58,6 +62,11 @@ def check(candidates):
             v = c.get(f)
             if f not in c or v in (None, "", []):
                 errors.append(f"{wid}: 缺少必填字段 {f}")
+
+        # 未知字段：模型幻觉出的字段不能静默入库
+        for f in c:
+            if f not in ALLOWED_FIELDS:
+                errors.append(f"{wid}: 出现 schema 未定义的字段 {f!r}")
 
         if wid in existing:
             errors.append(f"{wid}: 词条已存在，不能重复入库")

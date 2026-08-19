@@ -2458,6 +2458,1431 @@
       "semantic_expansions": [
         "归因于（原因）与归于（作者）：都是把某样东西写进某人的账，只是记的是责任还是署名"
       ]
+    },
+    {
+      "id": "repress",
+      "word": "repress",
+      "pos": "verb",
+      "phonetic": "/rɪˈpres/",
+      "root_ids": [
+        "press"
+      ],
+      "root_logic": "re-（往回）+ press（压）→ 把要冒出来的东西压回去 → 压制",
+      "origin": "拉丁语 reprimere：re-（往回）+ premere（压）",
+      "native_definition": "to hold back a feeling, memory, or action so it cannot come out",
+      "core_concept": "pushing back something trying to surface – 把想冒出来的东西压回去",
+      "core_image": "水面下的皮球被一只手一直按着，不让它浮上来",
+      "chinese": [
+        "压抑",
+        "镇压"
+      ],
+      "examples": [
+        "He repressed the urge to laugh.",
+        "The regime repressed all public protest."
+      ],
+      "synonyms": [
+        "restrain",
+        "quell",
+        "suppress"
+      ],
+      "antonyms": [
+        "release",
+        "express"
+      ],
+      "related": [
+        "pressure",
+        "suppress",
+        "express",
+        "depress"
+      ],
+      "semantic_expansions": [
+        "压抑（情绪）与镇压（民众）：都是把正在往上冒的东西按回去，区别只在按的是感受还是人群"
+      ]
+    },
+    {
+      "id": "expression",
+      "word": "expression",
+      "pos": "noun",
+      "phonetic": "/ɪkˈspreʃn/",
+      "root_ids": [
+        "press"
+      ],
+      "root_logic": "express（往外压）+ -ion（名词后缀）→ 被压出来的那个东西 → 表情 / 表达 / 表达式",
+      "origin": "拉丁语 expressio：ex-（向外）+ premere（压）",
+      "native_definition": "the act of showing thoughts or feelings, or the form in which they appear",
+      "core_concept": "what has been pressed outward into visible form – 被压到外面、变得可见的那个结果",
+      "core_image": "颜料从软管里被挤出来，落在纸上成为看得见的形状",
+      "chinese": [
+        "表达",
+        "表情",
+        "表达式"
+      ],
+      "examples": [
+        "Freedom of expression is protected by law.",
+        "A puzzled expression crossed her face.",
+        "This expression evaluates to zero."
+      ],
+      "synonyms": [
+        "phrase",
+        "look"
+      ],
+      "antonyms": [],
+      "related": [
+        "express",
+        "impress",
+        "pressure",
+        "repress"
+      ],
+      "semantic_expansions": [
+        "表达：把内心的想法压到外面，成为别人能接收的形式",
+        "表情：压到脸上的那一层——情绪外化成可见的样子",
+        "表达式（数学/编程）：把一段意思压成一个可求值的写法。三个中文词对应同一个'被压出来的形式'"
+      ]
+    },
+    {
+      "id": "oppress",
+      "word": "oppress",
+      "pos": "verb",
+      "phonetic": "/əˈpres/",
+      "root_ids": [
+        "press"
+      ],
+      "root_logic": "op-（ob- 的变体，表'对着、压向'）+ press（压）→ 长期压在某人身上 → 压迫",
+      "origin": "拉丁语 opprimere：ob-（对着）+ premere（压）",
+      "native_definition": "to treat people cruelly and unfairly by keeping them under control",
+      "core_concept": "keeping someone down by constant weight – 用持续的重量把人压在下面",
+      "core_image": "一块石板长年压在人的背上，人始终直不起身",
+      "chinese": [
+        "压迫",
+        "使沉重"
+      ],
+      "examples": [
+        "The colonial system oppressed millions.",
+        "The silence in the room oppressed him."
+      ],
+      "synonyms": [
+        "persecute",
+        "burden"
+      ],
+      "antonyms": [
+        "liberate",
+        "release"
+      ],
+      "related": [
+        "pressure",
+        "suppress",
+        "depress",
+        "repress"
+      ],
+      "semantic_expansions": [
+        "压迫（制度对人）与使沉重（气氛对心）：都是有重量长期压着，区别在压的是身体还是心情"
+      ]
+    },
+    {
+      "id": "formation",
+      "word": "formation",
+      "pos": "noun",
+      "phonetic": "/fɔːrˈmeɪʃn/",
+      "root_ids": [
+        "form"
+      ],
+      "root_logic": "form（形成）+ -ation（名词后缀）→ 成形的过程，或成形后的排列 → 形成 / 队形",
+      "origin": "拉丁语 formatio：formare（塑形）",
+      "native_definition": "the process of coming into existence, or an arranged pattern of things",
+      "core_concept": "the act of taking shape, or the shape taken – 成形的过程，或成形的结果",
+      "core_image": "雁群在天空中逐渐排成一个人字形",
+      "chinese": [
+        "形成",
+        "队形",
+        "构造"
+      ],
+      "examples": [
+        "The formation of ice begins at the surface.",
+        "The jets flew in tight formation.",
+        "Rock formations line the canyon wall."
+      ],
+      "synonyms": [
+        "creation",
+        "arrangement"
+      ],
+      "antonyms": [],
+      "related": [
+        "formal",
+        "transform",
+        "conform",
+        "reform",
+        "inform"
+      ],
+      "semantic_expansions": [
+        "形成：强调从无到有取得形状的过程",
+        "队形/构造：强调取得形状之后的那个排列。同一个'成形'，一个看过程一个看结果"
+      ]
+    },
+    {
+      "id": "information",
+      "word": "information",
+      "pos": "noun",
+      "phonetic": "/ˌɪnfərˈmeɪʃn/",
+      "root_ids": [
+        "form"
+      ],
+      "root_logic": "inform（让信息在脑中成形）+ -ation → 让认知成形的那些内容 → 信息",
+      "origin": "拉丁语 informatio：in-（进入）+ formare（塑形）",
+      "native_definition": "facts or details that shape what someone knows about something",
+      "core_concept": "content that gives shape to someone's knowledge – 在人脑中把认知塑造成形的内容",
+      "core_image": "散落的碎片进入脑中，逐渐拼成一幅清晰的图",
+      "chinese": [
+        "信息",
+        "资料"
+      ],
+      "examples": [
+        "We need more information before deciding.",
+        "The leaflet contains information about opening hours."
+      ],
+      "synonyms": [
+        "data",
+        "details"
+      ],
+      "antonyms": [],
+      "related": [
+        "inform",
+        "formal",
+        "formation",
+        "transform"
+      ],
+      "semantic_expansions": [
+        "信息与资料：都是能让人脑中的认知成形的内容，区别只在是否已被整理"
+      ]
+    },
+    {
+      "id": "uniform",
+      "word": "uniform",
+      "pos": "adjective",
+      "phonetic": "/ˈjuːnɪfɔːrm/",
+      "root_ids": [
+        "form"
+      ],
+      "root_logic": "uni-（一个）+ form（形状）→ 全体只有一种形状 → 统一的 / 制服",
+      "origin": "拉丁语 uniformis：unus（一）+ forma（形状）",
+      "native_definition": "the same in every part or case; also a set of identical clothes for a group",
+      "core_concept": "having one single shape throughout – 通体只有一种形状，没有差异",
+      "core_image": "一排学生穿着完全相同的外套站在操场上",
+      "chinese": [
+        "统一的",
+        "制服",
+        "一致的"
+      ],
+      "examples": [
+        "Apply uniform pressure across the surface.",
+        "Students must wear school uniform."
+      ],
+      "synonyms": [
+        "consistent",
+        "identical"
+      ],
+      "antonyms": [
+        "varied",
+        "differ"
+      ],
+      "related": [
+        "formal",
+        "conform",
+        "formation",
+        "transform"
+      ],
+      "semantic_expansions": [
+        "统一的/一致的：形状处处相同，没有变化",
+        "制服（名词）：让一群人外形统一的那套衣服——从'同一种形状'落到具体的物"
+      ]
+    },
+    {
+      "id": "abstract",
+      "word": "abstract",
+      "pos": "adjective",
+      "phonetic": "/ˈæbstrækt/",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "abs-（ab- 的变体，表'离开'）+ tract（拉）→ 把本质从具体事物里拉出来 → 抽象的 / 摘要",
+      "origin": "拉丁语 abstrahere：ab-（离开）+ trahere（拉）",
+      "native_definition": "existing as an idea rather than a physical thing; also a short summary of a text",
+      "core_concept": "pulled away from concrete instances – 从具体事物中被抽离出来的那部分",
+      "core_image": "从一堆苹果、橘子里把'水果'这个概念单独拎出来，手里却什么都没有",
+      "chinese": [
+        "抽象的",
+        "摘要",
+        "提取"
+      ],
+      "examples": [
+        "Justice is an abstract concept.",
+        "Read the abstract before the full paper."
+      ],
+      "synonyms": [
+        "theoretical",
+        "summary"
+      ],
+      "antonyms": [
+        "concrete"
+      ],
+      "related": [
+        "attract",
+        "extract",
+        "contract",
+        "detract",
+        "retract"
+      ],
+      "semantic_expansions": [
+        "抽象的：把共性从具体事物里拉出来，剩下的就是概念",
+        "摘要（名词）：把论文要点拉出来的那一段。中文分成两个词，英文是同一个'抽离'动作"
+      ]
+    },
+    {
+      "id": "subtract",
+      "word": "subtract",
+      "pos": "verb",
+      "phonetic": "/səbˈtrækt/",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "sub-（从下面）+ tract（拉）→ 从总量下面抽走一部分 → 减去",
+      "origin": "拉丁语 subtrahere：sub-（从下）+ trahere（拉）",
+      "native_definition": "to take one number or amount away from another",
+      "core_concept": "pulling an amount out of a total – 从总量里抽走一部分",
+      "core_image": "从一叠钞票的底下抽走几张，整叠明显变薄",
+      "chinese": [
+        "减去"
+      ],
+      "examples": [
+        "Subtract the deposit from the total price.",
+        "If you subtract three from ten, you get seven."
+      ],
+      "synonyms": [
+        "deduct",
+        "remove"
+      ],
+      "antonyms": [
+        "add"
+      ],
+      "related": [
+        "extract",
+        "attract",
+        "contract",
+        "abstract"
+      ]
+    },
+    {
+      "id": "attraction",
+      "word": "attraction",
+      "pos": "noun",
+      "phonetic": "/əˈtrækʃn/",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "attract（拉向自己）+ -ion → 那股把人拉过来的力，或产生这股力的东西 → 吸引力 / 景点",
+      "origin": "拉丁语 attractio：ad-（朝向）+ trahere（拉）",
+      "native_definition": "the force that draws people or things toward something, or a place people are drawn to",
+      "core_concept": "the pull that draws things toward a center – 把事物拉向某处的那股力量",
+      "core_image": "磁铁周围的铁屑全部朝它排列过去",
+      "chinese": [
+        "吸引力",
+        "景点",
+        "魅力"
+      ],
+      "examples": [
+        "Gravity is a force of attraction.",
+        "The castle is the town's main attraction."
+      ],
+      "synonyms": [
+        "appeal",
+        "pull",
+        "draw"
+      ],
+      "antonyms": [
+        "repel"
+      ],
+      "related": [
+        "attract",
+        "distract",
+        "extract",
+        "abstract"
+      ],
+      "semantic_expansions": [
+        "吸引力/魅力：那股把人或物拉过来的力本身",
+        "景点：因为这股力而被人涌向的那个地方——从力引申到力的来源"
+      ]
+    },
+    {
+      "id": "traction",
+      "word": "traction",
+      "pos": "noun",
+      "phonetic": "/ˈtrækʃn/",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "tract（拉）+ -ion → 拉动这件事本身，即拉得住的能力 → 牵引力 / 抓地力",
+      "origin": "拉丁语 tractio：trahere（拉）",
+      "native_definition": "the grip that lets a surface pull without slipping; also the progress an idea starts to gain",
+      "core_concept": "the ability to pull without slipping – 拉得动而不打滑的那种咬合力",
+      "core_image": "轮胎花纹咬住湿滑路面，车稳稳往前拉走",
+      "chinese": [
+        "牵引力",
+        "抓地力",
+        "进展"
+      ],
+      "examples": [
+        "Snow tyres give better traction on ice.",
+        "The proposal is finally gaining traction."
+      ],
+      "synonyms": [
+        "grip",
+        "pull"
+      ],
+      "antonyms": [],
+      "related": [
+        "tractor",
+        "attract",
+        "extract",
+        "contract"
+      ],
+      "semantic_expansions": [
+        "牵引力/抓地力：物理上咬住地面往前拉的能力",
+        "进展：一个想法开始'咬住'现实、能往前推动——同一个'咬得住才拉得动'的画面"
+      ]
+    },
+    {
+      "id": "deform",
+      "word": "deform",
+      "pos": "verb",
+      "phonetic": "/diːˈfɔːrm/",
+      "root_ids": [
+        "form"
+      ],
+      "root_logic": "de-（脱离、破坏）+ form（形状）→ 使脱离原本的形状 → 使变形",
+      "origin": "拉丁语 deformare：de-（去除）+ formare（塑形）",
+      "native_definition": "to change something's shape so that it is no longer correct or normal",
+      "core_concept": "forcing something out of its proper shape – 把东西挤出它本来的形状",
+      "core_image": "铝罐被一脚踩下，侧面凹进去再也回不去",
+      "chinese": [
+        "使变形",
+        "损坏外形"
+      ],
+      "examples": [
+        "Heat can deform plastic parts.",
+        "The impact deformed the door frame."
+      ],
+      "synonyms": [
+        "distort",
+        "warp"
+      ],
+      "antonyms": [
+        "restore"
+      ],
+      "related": [
+        "transform",
+        "conform",
+        "formation",
+        "disfigure"
+      ],
+      "semantic_expansions": [
+        "使变形与损坏外形：都是让物体离开它应有的形状，程度不同而已"
+      ]
+    },
+    {
+      "id": "compression",
+      "word": "compression",
+      "pos": "noun",
+      "phonetic": "/kəmˈpreʃn/",
+      "root_ids": [
+        "press"
+      ],
+      "root_logic": "compress（一起压）+ -ion → 被压紧这件事，或压紧的程度 → 压缩",
+      "origin": "拉丁语 compressio：com-（一起）+ premere（压）",
+      "native_definition": "the act of pressing something into a smaller space, or the state of being pressed",
+      "core_concept": "the state of being pressed into less space – 被压进更小空间的那个状态",
+      "core_image": "真空袋抽气后，蓬松的被子塌成薄薄一片",
+      "chinese": [
+        "压缩",
+        "压紧"
+      ],
+      "examples": [
+        "Image compression reduces file size.",
+        "The engine's compression ratio is high."
+      ],
+      "synonyms": [
+        "condense",
+        "squeeze"
+      ],
+      "antonyms": [
+        "expand",
+        "decompress"
+      ],
+      "related": [
+        "compress",
+        "pressure",
+        "express",
+        "depress"
+      ],
+      "semantic_expansions": [
+        "压缩（文件）与压紧（气体）：都是把同样的内容压进更小的空间，区别只在压的对象"
+      ]
+    },
+    {
+      "id": "dispose",
+      "word": "dispose",
+      "pos": "verb",
+      "phonetic": "/dɪˈspoʊz/",
+      "root_ids": [
+        "pose"
+      ],
+      "root_logic": "dis-（分开）+ pose（放置）→ 把东西分开放好，或放到别处去 → 处理 / 处置",
+      "origin": "拉丁语 disponere：dis-（分开）+ ponere（放置）",
+      "native_definition": "to get rid of something, or to arrange things in a particular order",
+      "core_concept": "placing things apart into their proper place – 把东西分开安置到该去的地方",
+      "core_image": "把桌上的东西一件件分类放进不同抽屉，桌面清空",
+      "chinese": [
+        "处理",
+        "处置",
+        "布置"
+      ],
+      "examples": [
+        "Please dispose of the packaging responsibly.",
+        "The troops were disposed along the ridge."
+      ],
+      "synonyms": [
+        "arrange",
+        "discard"
+      ],
+      "antonyms": [
+        "keep"
+      ],
+      "related": [
+        "position",
+        "compose",
+        "expose",
+        "impose",
+        "oppose"
+      ],
+      "semantic_expansions": [
+        "布置：把东西分开摆到各自位置上",
+        "处理/处置：把东西放到'不在这里'的位置去，即丢弃。同一个'分开安置'，区别在放到哪儿"
+      ]
+    },
+    {
+      "id": "suppose",
+      "word": "suppose",
+      "pos": "verb",
+      "phonetic": "/səˈpoʊz/",
+      "root_ids": [
+        "pose"
+      ],
+      "root_logic": "sup-（sub- 的变体，表'在下面'）+ pose（放置）→ 先在底下垫一个前提 → 假定",
+      "origin": "拉丁语 supponere：sub-（在下）+ ponere（放置）",
+      "native_definition": "to think something is probably true, or to take it as a starting assumption",
+      "core_concept": "placing an assumption underneath as a base – 在推理底下先垫一个前提",
+      "core_image": "搭台子前先在底下塞一块砖，整个台面靠它撑着",
+      "chinese": [
+        "假定",
+        "认为",
+        "料想"
+      ],
+      "examples": [
+        "Suppose the train is late — what then?",
+        "I suppose you're right."
+      ],
+      "synonyms": [
+        "assume",
+        "presume",
+        "reckon"
+      ],
+      "antonyms": [
+        "verify"
+      ],
+      "related": [
+        "position",
+        "compose",
+        "propose",
+        "dispose"
+      ],
+      "semantic_expansions": [
+        "假定：明确在底下垫一个前提，用来往下推",
+        "认为/料想：口语里把这个'垫底的判断'说得轻一些，实质仍是未经证实的前提"
+      ]
+    },
+    {
+      "id": "composition",
+      "word": "composition",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːmpəˈzɪʃn/",
+      "root_ids": [
+        "pose"
+      ],
+      "root_logic": "compose（放在一起）+ -ition → 放在一起的方式，或放好的成品 → 构成 / 作品",
+      "origin": "拉丁语 compositio：com-（一起）+ ponere（放置）",
+      "native_definition": "the way parts are put together, or a piece of writing or music that results",
+      "core_concept": "how parts are placed together – 各部分被放在一起的方式，及其成品",
+      "core_image": "摄影师在取景框里挪动每个元素，直到画面各就各位",
+      "chinese": [
+        "构成",
+        "作文",
+        "作曲",
+        "构图"
+      ],
+      "examples": [
+        "The composition of the soil affects growth.",
+        "She wrote a composition about her hometown.",
+        "The photograph's composition draws the eye upward."
+      ],
+      "synonyms": [
+        "structure",
+        "arrangement"
+      ],
+      "antonyms": [],
+      "related": [
+        "compose",
+        "position",
+        "dispose",
+        "expose"
+      ],
+      "semantic_expansions": [
+        "构成/构图：强调各部分被放在一起的那种方式",
+        "作文/作曲：把词句或音符放在一起得到的成品。同一个'放在一起'，一个指方式一个指结果"
+      ]
+    },
+    {
+      "id": "submit",
+      "word": "submit",
+      "pos": "verb",
+      "phonetic": "/səbˈmɪt/",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "sub-（在下）+ mit（送）→ 把东西往上级下方送去 → 提交 / 服从",
+      "origin": "拉丁语 submittere：sub-（在下）+ mittere（送）",
+      "native_definition": "to hand something in for consideration, or to yield to a stronger force",
+      "core_concept": "sending something under another's authority – 把东西或自己送到对方权威之下",
+      "core_image": "把文件双手递到柜台后的人手里，决定权就此交出去",
+      "chinese": [
+        "提交",
+        "服从",
+        "屈服"
+      ],
+      "examples": [
+        "Please submit your application before Friday.",
+        "The rebels refused to submit."
+      ],
+      "synonyms": [
+        "hand in",
+        "yield",
+        "surrender"
+      ],
+      "antonyms": [
+        "resist",
+        "withdraw"
+      ],
+      "related": [
+        "admit",
+        "commit",
+        "permit",
+        "transmit",
+        "omit"
+      ],
+      "semantic_expansions": [
+        "提交：把材料送到对方那里，由对方裁决",
+        "服从/屈服：把自己送到对方权威之下。同一个'送到下方'，区别只在送的是文件还是自己"
+      ]
+    },
+    {
+      "id": "dismiss",
+      "word": "dismiss",
+      "pos": "verb",
+      "phonetic": "/dɪsˈmɪs/",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "dis-（离开）+ miss（送）→ 把人送走 → 解散 / 解雇 / 不予考虑",
+      "origin": "拉丁语 dimittere：dis-（离开）+ mittere（送）",
+      "native_definition": "to send someone away, or to refuse to take an idea seriously",
+      "core_concept": "sending someone or something away from here – 把人或念头送离此处",
+      "core_image": "老师一挥手，整班学生起身离开教室",
+      "chinese": [
+        "解散",
+        "解雇",
+        "驳回"
+      ],
+      "examples": [
+        "The teacher dismissed the class early.",
+        "He was dismissed for repeated absences.",
+        "The judge dismissed the case."
+      ],
+      "synonyms": [
+        "discharge",
+        "reject"
+      ],
+      "antonyms": [
+        "admit",
+        "hire"
+      ],
+      "related": [
+        "mission",
+        "admit",
+        "permit",
+        "transmit",
+        "submit"
+      ],
+      "semantic_expansions": [
+        "解散/解雇：把人送出这个场所或岗位",
+        "驳回：把一个主张送出考虑范围。三个中文词共享'送走、不留在这里'这一个动作"
+      ]
+    },
+    {
+      "id": "permission",
+      "word": "permission",
+      "pos": "noun",
+      "phonetic": "/pərˈmɪʃn/",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "permit（让…通过）+ -sion → 允许通过这件事本身 → 许可",
+      "origin": "拉丁语 permissio：per-（通过）+ mittere（送）",
+      "native_definition": "official agreement that lets someone do something",
+      "core_concept": "the act of letting something pass through – 放行这件事本身",
+      "core_image": "闸口抬起横杆，车辆得以通过",
+      "chinese": [
+        "许可",
+        "允许"
+      ],
+      "examples": [
+        "You need written permission to enter the site.",
+        "She gave permission for the photo to be used."
+      ],
+      "synonyms": [
+        "consent",
+        "authorize",
+        "license"
+      ],
+      "antonyms": [
+        "forbid",
+        "ban"
+      ],
+      "related": [
+        "permit",
+        "admit",
+        "transmit",
+        "submit"
+      ],
+      "semantic_expansions": [
+        "许可与允许：都是把横杆抬起来让对方通过，区别只在是否落成书面形式"
+      ]
+    },
+    {
+      "id": "aspect",
+      "word": "aspect",
+      "pos": "noun",
+      "phonetic": "/ˈæspekt/",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "a-（ad- 的变体，表'朝向'）+ spect（看）→ 朝某个方向看到的那一面 → 方面",
+      "origin": "拉丁语 aspectus：ad-（朝向）+ specere（看）",
+      "native_definition": "one of the sides or features of something being considered",
+      "core_concept": "the face something shows from one viewing angle – 从某个角度看过去所呈现的那一面",
+      "core_image": "同一座山，从东面看是峭壁，从南面看是缓坡",
+      "chinese": [
+        "方面",
+        "外观",
+        "朝向"
+      ],
+      "examples": [
+        "We must consider every aspect of the plan.",
+        "The room has a southern aspect."
+      ],
+      "synonyms": [
+        "facet",
+        "side"
+      ],
+      "antonyms": [],
+      "related": [
+        "inspect",
+        "respect",
+        "prospect",
+        "suspect",
+        "expect"
+      ],
+      "semantic_expansions": [
+        "方面：从某个角度审视一件事时露出的那一面",
+        "朝向/外观：建筑面朝哪边，即它把哪一面呈现给你看。同一个'从某方向看到的面'"
+      ]
+    },
+    {
+      "id": "perspective",
+      "word": "perspective",
+      "pos": "noun",
+      "phonetic": "/pərˈspektɪv/",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "per-（透过）+ spect（看）→ 透过某个位置看出去的整体样子 → 视角 / 透视",
+      "origin": "拉丁语 perspicere：per-（透过）+ specere（看）",
+      "native_definition": "a particular way of viewing things, or the technique of showing depth on a flat surface",
+      "core_concept": "the whole view obtained from one standpoint – 站在某一点看出去所得到的整体图景",
+      "core_image": "站在铁轨中央，两条平行线在远处收成一个点",
+      "chinese": [
+        "视角",
+        "观点",
+        "透视法"
+      ],
+      "examples": [
+        "From a historian's perspective, the treaty changed little.",
+        "The drawing uses one-point perspective."
+      ],
+      "synonyms": [
+        "viewpoint",
+        "outlook"
+      ],
+      "antonyms": [],
+      "related": [
+        "inspect",
+        "prospect",
+        "aspect",
+        "spectator"
+      ],
+      "semantic_expansions": [
+        "透视法：绘画上把三维深度画到平面上的技法，直接对应'透过一点看出去'",
+        "视角/观点：把这个站位从物理位置引申为立场，看到的图景随之不同"
+      ]
+    },
+    {
+      "id": "spectacle",
+      "word": "spectacle",
+      "pos": "noun",
+      "phonetic": "/ˈspektəkl/",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "spect（看）+ -acle（表工具或对象）→ 值得看的那个东西 → 壮观场面",
+      "origin": "拉丁语 spectaculum：spectare（观看）",
+      "native_definition": "an impressive or unusual sight that people gather to watch",
+      "core_concept": "something staged to be watched – 专门摆出来供人观看的场面",
+      "core_image": "广场上焰火升空，人群齐齐仰头",
+      "chinese": [
+        "壮观场面",
+        "奇观",
+        "眼镜"
+      ],
+      "examples": [
+        "The opening ceremony was a spectacle.",
+        "He polished his spectacles on his sleeve."
+      ],
+      "synonyms": [
+        "display",
+        "sight"
+      ],
+      "antonyms": [],
+      "related": [
+        "spectator",
+        "inspect",
+        "aspect",
+        "perspective"
+      ],
+      "semantic_expansions": [
+        "壮观场面/奇观：被摆出来让人看的那个对象",
+        "眼镜（复数 spectacles）：用来看的那个器具——同一个词根落到工具上，这是独立引申的一支"
+      ]
+    },
+    {
+      "id": "proposal",
+      "word": "proposal",
+      "pos": "noun",
+      "phonetic": "/prəˈpoʊzl/",
+      "root_ids": [
+        "pose"
+      ],
+      "root_logic": "propose（往前放）+ -al → 被放到台面上的那个方案 → 提议",
+      "origin": "拉丁语 proponere：pro-（向前）+ ponere（放置）",
+      "native_definition": "a plan or suggestion put forward for others to consider",
+      "core_concept": "what has been placed forward for consideration – 被推到台面上供人评议的那个东西",
+      "core_image": "会议桌上被推到中间的一份方案，所有人都看得见",
+      "chinese": [
+        "提议",
+        "方案",
+        "求婚"
+      ],
+      "examples": [
+        "The committee rejected the proposal.",
+        "She accepted his proposal."
+      ],
+      "synonyms": [
+        "suggest",
+        "plan",
+        "put forward"
+      ],
+      "antonyms": [
+        "withdraw"
+      ],
+      "related": [
+        "propose",
+        "compose",
+        "dispose",
+        "suppose"
+      ],
+      "semantic_expansions": [
+        "提议/方案：被推到众人面前等待评议的内容",
+        "求婚：把终身大事推到对方面前等一个答复——同样是'放到前面等回应'"
+      ]
+    },
+    {
+      "id": "transmission",
+      "word": "transmission",
+      "pos": "noun",
+      "phonetic": "/trænzˈmɪʃn/",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "transmit（送过去）+ -sion → 送过去这件事，或负责送的那套装置 → 传输 / 变速箱",
+      "origin": "拉丁语 transmissio：trans-（穿过）+ mittere（送）",
+      "native_definition": "the act of sending something across a distance, or the part that carries power to the wheels",
+      "core_concept": "the passing of something across a gap – 把某物从这一端送到那一端",
+      "core_image": "信号沿着电缆一路传到对岸的接收站",
+      "chinese": [
+        "传输",
+        "传播",
+        "变速箱"
+      ],
+      "examples": [
+        "Data transmission slows during peak hours.",
+        "Masks reduce transmission of the virus.",
+        "The car's transmission needs repair."
+      ],
+      "synonyms": [
+        "transfer",
+        "send",
+        "convey"
+      ],
+      "antonyms": [
+        "receive"
+      ],
+      "related": [
+        "transmit",
+        "mission",
+        "submit",
+        "permission"
+      ],
+      "semantic_expansions": [
+        "传输/传播：把数据或病毒从一端送到另一端",
+        "变速箱：把发动机动力送到车轮的那套机构——从'送'这个动作引申为承担送的装置"
+      ]
+    },
+    {
+      "id": "respective",
+      "word": "respective",
+      "pos": "adjective",
+      "phonetic": "/rɪˈspektɪv/",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "respect（回头看）+ -ive → 逐个回头看清各自对应的那个 → 各自的",
+      "origin": "拉丁语 respectivus：re-（回）+ specere（看）",
+      "native_definition": "belonging separately to each of the people or things mentioned",
+      "core_concept": "looking back at each one separately – 逐个回看，把各自对应的关系分清",
+      "core_image": "颁奖后各人拿着自己那一份奖状回到各自座位",
+      "chinese": [
+        "各自的",
+        "分别的"
+      ],
+      "examples": [
+        "After the meeting they returned to their respective offices.",
+        "The two firms kept their respective logos."
+      ],
+      "synonyms": [
+        "individual",
+        "separate"
+      ],
+      "antonyms": [
+        "shared"
+      ],
+      "related": [
+        "respect",
+        "inspect",
+        "aspect",
+        "perspective"
+      ],
+      "semantic_expansions": [
+        "各自的与分别的：都是逐个回看、把对应关系一一分清，中文两种译法对应同一个动作"
+      ]
+    },
+    {
+      "id": "inscribe",
+      "word": "inscribe",
+      "pos": "verb",
+      "phonetic": "/ɪnˈskraɪb/",
+      "root_ids": [
+        "scrib-script"
+      ],
+      "root_logic": "in-（进入）+ scrib（写、刻）→ 把字刻进材料里 → 铭刻",
+      "origin": "拉丁语 inscribere：in-（进入）+ scribere（写）",
+      "native_definition": "to cut or write words into a surface so they last",
+      "core_concept": "cutting words into a surface to last – 把文字刻进表面，使其长久留存",
+      "core_image": "石匠在墓碑上一锤一凿刻下名字",
+      "chinese": [
+        "铭刻",
+        "题写"
+      ],
+      "examples": [
+        "His name is inscribed on the memorial.",
+        "She inscribed a message inside the book cover."
+      ],
+      "synonyms": [
+        "engrave",
+        "carve"
+      ],
+      "antonyms": [
+        "erase"
+      ],
+      "related": [
+        "describe",
+        "prescribe",
+        "subscribe",
+        "ascribe",
+        "manuscript"
+      ],
+      "semantic_expansions": [
+        "铭刻与题写：都是把字留进载体里，区别只在刻的是石头还是纸页"
+      ]
+    },
+    {
+      "id": "description",
+      "word": "description",
+      "pos": "noun",
+      "phonetic": "/dɪˈskrɪpʃn/",
+      "root_ids": [
+        "scrib-script"
+      ],
+      "root_logic": "describe（把轮廓写下来）+ -tion → 写下来的那段轮廓 → 描述",
+      "origin": "拉丁语 descriptio：de-（往下）+ scribere（写）",
+      "native_definition": "an account in words that lets someone picture what something is like",
+      "core_concept": "words that trace the outline of something – 用文字把某物的轮廓勾出来",
+      "core_image": "画像师听着口述，在纸上一点点勾出嫌疑人的脸",
+      "chinese": [
+        "描述",
+        "说明"
+      ],
+      "examples": [
+        "The police issued a description of the suspect.",
+        "Read the product description before ordering."
+      ],
+      "synonyms": [
+        "account",
+        "portray",
+        "explain"
+      ],
+      "antonyms": [],
+      "related": [
+        "describe",
+        "prescribe",
+        "inscribe",
+        "transcript"
+      ],
+      "semantic_expansions": [
+        "描述与说明：都是用文字勾出对象的轮廓，区别在侧重外形还是用法"
+      ]
+    },
+    {
+      "id": "prescription",
+      "word": "prescription",
+      "pos": "noun",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "root_ids": [
+        "scrib-script"
+      ],
+      "root_logic": "prescribe（事先写下）+ -tion → 事先写好的那张指令 → 处方",
+      "origin": "拉丁语 praescriptio：prae-（在前）+ scribere（写）",
+      "native_definition": "a written instruction from a doctor for medicine, or any prescribed course of action",
+      "core_concept": "an instruction written down in advance – 事先写下、要求照办的那份指令",
+      "core_image": "医生撕下处方单递过来，药房照单抓药",
+      "chinese": [
+        "处方",
+        "药方",
+        "规定"
+      ],
+      "examples": [
+        "This medicine requires a prescription.",
+        "There is no simple prescription for economic growth."
+      ],
+      "synonyms": [
+        "order",
+        "recommend"
+      ],
+      "antonyms": [],
+      "related": [
+        "prescribe",
+        "describe",
+        "inscribe",
+        "subscribe"
+      ],
+      "semantic_expansions": [
+        "处方/药方：医生事先写下、要求照办的那张纸",
+        "规定：把'事先写好、照此执行'从医嘱扩到一般做法上"
+      ]
+    },
+    {
+      "id": "induce",
+      "word": "induce",
+      "pos": "verb",
+      "phonetic": "/ɪnˈduːs/",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "in-（进入）+ duc（引导）→ 把人或状态引入某处 → 诱导 / 引发",
+      "origin": "拉丁语 inducere：in-（进入）+ ducere（引导）",
+      "native_definition": "to persuade someone into an action, or to cause a state to begin",
+      "core_concept": "leading something into a new state – 把人或事引入某个状态",
+      "core_image": "牵着马的缰绳，一步步把它引进马厩",
+      "chinese": [
+        "诱导",
+        "引发",
+        "促使"
+      ],
+      "examples": [
+        "Nothing could induce him to change his mind.",
+        "The drug induces drowsiness."
+      ],
+      "synonyms": [
+        "persuade",
+        "cause",
+        "prompt"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "related": [
+        "conduct",
+        "produce",
+        "introduce",
+        "deduce",
+        "reduce"
+      ],
+      "semantic_expansions": [
+        "诱导/促使（对人）：把人引进某个决定",
+        "引发（对状态）：把某个状态引进来。同一个'牵引入内'，区别只在被引的是人还是现象"
+      ]
+    },
+    {
+      "id": "production",
+      "word": "production",
+      "pos": "noun",
+      "phonetic": "/prəˈdʌkʃn/",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "produce（往前引出）+ -tion → 把东西引出来这件事，或引出的成品 → 生产 / 作品",
+      "origin": "拉丁语 productio：pro-（向前）+ ducere（引导）",
+      "native_definition": "the process of making things, or a work created for stage or screen",
+      "core_concept": "the act of bringing something forth – 把东西引到世上来的过程及其成果",
+      "core_image": "流水线尽头，成品一件件被推出车间大门",
+      "chinese": [
+        "生产",
+        "产量",
+        "作品"
+      ],
+      "examples": [
+        "Steel production fell last quarter.",
+        "The theatre's new production opens tonight."
+      ],
+      "synonyms": [
+        "manufacture",
+        "output"
+      ],
+      "antonyms": [
+        "consume"
+      ],
+      "related": [
+        "produce",
+        "conduct",
+        "introduce",
+        "reduce",
+        "induce"
+      ],
+      "semantic_expansions": [
+        "生产/产量：把东西引到世上来的过程和数量",
+        "作品（戏剧/影视）：被搬上台面的那个成品——同样是'被引出来示于人前'"
+      ]
+    },
+    {
+      "id": "conductor",
+      "word": "conductor",
+      "pos": "noun",
+      "phonetic": "/kənˈdʌktər/",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "conduct（引导）+ -or（施动者）→ 负责引导的那个人或物 → 指挥 / 导体",
+      "origin": "拉丁语 conductor：com-（一起）+ ducere（引导）",
+      "native_definition": "a person who leads an orchestra or takes fares, or a material that carries current",
+      "core_concept": "whatever leads something along a path – 负责把某物沿路引导过去的人或物",
+      "core_image": "指挥棒一起一落，整个乐队跟着走；铜线里电流顺着一路通过",
+      "chinese": [
+        "指挥",
+        "导体",
+        "售票员"
+      ],
+      "examples": [
+        "The conductor raised his baton.",
+        "Copper is an excellent conductor.",
+        "Show your ticket to the conductor."
+      ],
+      "synonyms": [
+        "guide",
+        "direct"
+      ],
+      "antonyms": [],
+      "related": [
+        "conduct",
+        "produce",
+        "introduce",
+        "induce"
+      ],
+      "semantic_expansions": [
+        "指挥：引导乐队走完整首曲子的那个人",
+        "导体：引导电流通过的那种材料",
+        "售票员：在车厢里引导乘客的那个人。三个中文词共享'负责引导'这一个身份"
+      ]
+    },
+    {
+      "id": "support",
+      "word": "support",
+      "pos": "verb",
+      "phonetic": "/səˈpɔːrt/",
+      "root_ids": [
+        "port"
+      ],
+      "root_logic": "sup-（sub- 的变体，表'从下面'）+ port（承载）→ 从下面把重量担起来 → 支撑 / 支持",
+      "origin": "拉丁语 supportare：sub-（从下）+ portare（运送、承载）",
+      "native_definition": "to hold something up from below, or to help and back someone",
+      "core_concept": "bearing weight from underneath – 从底下把重量担住，使其不塌",
+      "core_image": "几根立柱托住整个屋顶，屋顶因此不落下来",
+      "chinese": [
+        "支撑",
+        "支持",
+        "赡养"
+      ],
+      "examples": [
+        "Four pillars support the roof.",
+        "Most members support the proposal.",
+        "He supports a family of five."
+      ],
+      "synonyms": [
+        "hold",
+        "back",
+        "sustain"
+      ],
+      "antonyms": [
+        "oppose",
+        "abandon"
+      ],
+      "related": [
+        "import",
+        "export",
+        "transport",
+        "report",
+        "portable"
+      ],
+      "semantic_expansions": [
+        "支撑（物理）：从下面担住重量",
+        "支持（立场）：在背后担住对方的主张",
+        "赡养：担起一个家的开销。三层意思都是'在底下把重量接住'"
+      ]
+    },
+    {
+      "id": "important",
+      "word": "important",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈpɔːrtnt/",
+      "root_ids": [
+        "port"
+      ],
+      "root_logic": "im-（in- 的变体，表'进入'）+ port（运送）→ 分量重到被运进来的 → 重要的",
+      "origin": "拉丁语 importare：in-（进入）+ portare（运送）——原义'带进来'，引申为'有分量的'",
+      "native_definition": "having great value or effect, so it must not be ignored",
+      "core_concept": "carrying enough weight to matter – 分量足够大，无法被忽略",
+      "core_image": "一个箱子沉得需要两个人抬，谁都不能视而不见",
+      "chinese": [
+        "重要的",
+        "重大的"
+      ],
+      "examples": [
+        "This is an important decision.",
+        "It is important to arrive on time."
+      ],
+      "synonyms": [
+        "significant",
+        "crucial"
+      ],
+      "antonyms": [
+        "trivial"
+      ],
+      "related": [
+        "import",
+        "export",
+        "support",
+        "transport"
+      ],
+      "semantic_expansions": [
+        "重要的与重大的：同一个'有分量、搬不动'的画面，中文按程度分了两个词"
+      ]
+    },
+    {
+      "id": "transportation",
+      "word": "transportation",
+      "pos": "noun",
+      "phonetic": "/ˌtrænspərˈteɪʃn/",
+      "root_ids": [
+        "port"
+      ],
+      "root_logic": "transport（运过去）+ -ation → 运送这件事，或用来运送的系统 → 运输",
+      "origin": "拉丁语 transportare：trans-（穿过）+ portare（运送）",
+      "native_definition": "the moving of people or goods, or the system that does this",
+      "core_concept": "the carrying of things across a distance – 把人或物跨距离运走这件事",
+      "core_image": "货运列车载满集装箱驶过平原",
+      "chinese": [
+        "运输",
+        "交通",
+        "交通工具"
+      ],
+      "examples": [
+        "Public transportation is free on Sundays.",
+        "Transportation of fuel requires a permit."
+      ],
+      "synonyms": [
+        "transfer",
+        "carry",
+        "ship"
+      ],
+      "antonyms": [],
+      "related": [
+        "transport",
+        "import",
+        "export",
+        "support",
+        "portable"
+      ],
+      "semantic_expansions": [
+        "运输：把货物跨距离运走的行为",
+        "交通/交通工具：承担这件事的整套系统。同一个'运送'，一个指行为一个指系统"
+      ]
+    },
+    {
+      "id": "figment",
+      "word": "figment",
+      "pos": "noun",
+      "phonetic": "/ˈfɪɡmənt/",
+      "root_ids": [
+        "figur"
+      ],
+      "root_logic": "fig（塑形、捏造）+ -ment（结果）→ 被捏出来的东西 → 虚构之物",
+      "origin": "拉丁语 figmentum：fingere（塑造、捏造）",
+      "native_definition": "something imagined that has no basis in reality",
+      "core_concept": "a form shaped only in the mind – 只在脑中捏出来的形状，现实里没有对应",
+      "core_image": "空手在空气里捏出一个形状，松手什么都不剩",
+      "chinese": [
+        "虚构之物",
+        "臆想"
+      ],
+      "examples": [
+        "The noise was a figment of his imagination.",
+        "Those threats were pure figment."
+      ],
+      "synonyms": [
+        "invention",
+        "fantasy"
+      ],
+      "antonyms": [
+        "fact"
+      ],
+      "related": [
+        "figure",
+        "figurative",
+        "configure",
+        "disfigure"
+      ],
+      "semantic_expansions": [
+        "虚构之物与臆想：都是脑中捏出形状但现实无对应，中文一个偏结果一个偏过程"
+      ]
+    },
+    {
+      "id": "reporter",
+      "word": "reporter",
+      "pos": "noun",
+      "phonetic": "/rɪˈpɔːrtər/",
+      "root_ids": [
+        "port"
+      ],
+      "root_logic": "report（把消息带回）+ -er（施动者）→ 负责把消息带回来的人 → 记者",
+      "origin": "拉丁语 reportare：re-（回）+ portare（运送）",
+      "native_definition": "someone whose job is to gather news and bring it back to the public",
+      "core_concept": "the person who carries news back – 负责把现场消息运回给公众的人",
+      "core_image": "记者从灾区带着录音和照片赶回编辑部",
+      "chinese": [
+        "记者",
+        "通讯员"
+      ],
+      "examples": [
+        "A reporter asked the minister two questions.",
+        "She works as a reporter for a local paper."
+      ],
+      "synonyms": [
+        "journalist",
+        "correspondent"
+      ],
+      "antonyms": [],
+      "related": [
+        "report",
+        "import",
+        "export",
+        "transport",
+        "support"
+      ],
+      "semantic_expansions": [
+        "记者与通讯员：都是把消息从现场运回来的人，区别只在隶属关系"
+      ]
+    },
+    {
+      "id": "abduct",
+      "word": "abduct",
+      "pos": "verb",
+      "phonetic": "/æbˈdʌkt/",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "ab-（离开）+ duct（引导、带走）→ 强行把人带离原处 → 绑架",
+      "origin": "拉丁语 abducere：ab-（离开）+ ducere（引导）",
+      "native_definition": "to take someone away by force",
+      "core_concept": "leading a person away against their will – 违背意愿把人从原处带走",
+      "core_image": "面包车停下，人被拽上车后车门关上",
+      "chinese": [
+        "绑架",
+        "劫走"
+      ],
+      "examples": [
+        "Two men attempted to abduct the child.",
+        "She was abducted near the station."
+      ],
+      "synonyms": [
+        "kidnap",
+        "seize"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "related": [
+        "conduct",
+        "induce",
+        "introduce",
+        "deduce",
+        "reduce"
+      ],
+      "semantic_expansions": [
+        "绑架与劫走：都是违背对方意愿把人带离原处，中文按场合分了两个词"
+      ]
     }
   ]
 }

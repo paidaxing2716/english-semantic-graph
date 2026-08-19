@@ -123,6 +123,26 @@ LAYOUT_JS = r"""() => {
   return issues;
 }"""
 
+# 密度检查：把所有词根展开，看节点是否挤成一团。
+# 词量增长时这是最先失效的地方，且默认收起状态查不出来。
+DENSITY_JS = r"""() => {
+  const pts = [];
+  document.querySelectorAll('.node').forEach(g => {
+    if (parseFloat(g.getAttribute('opacity') ?? '1') === 0) return;
+    const m = /translate\(([-\d.]+),([-\d.]+)\)/.exec(g.getAttribute('transform') || '');
+    const c = g.querySelector('circle');
+    if (m && c) pts.push({x: +m[1], y: +m[2], r: +c.getAttribute('r')});
+  });
+  let overlap = 0;
+  for (let i = 0; i < pts.length; i++) {
+    for (let j = i + 1; j < pts.length; j++) {
+      const d = Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y);
+      if (d < (pts[i].r + pts[j].r) * 0.85) overlap++;
+    }
+  }
+  return {visible: pts.length, overlap: overlap};
+}"""
+
 
 def free_port():
     with socket.socket() as s:
@@ -185,6 +205,29 @@ def audit(name, page):
             print(f"        {i}")
     else:
         print("[PASS] 无重叠 / 无溢出 / 无裁切")
+
+    # 展开全部词根后再查一次密度
+    page.evaluate("""() => {
+      document.querySelectorAll('.node.root').forEach(
+        n => n.dispatchEvent(new MouseEvent('click', {bubbles: true})));
+    }""")
+    page.wait_for_timeout(3800)
+    d = page.evaluate(DENSITY_JS)
+    if d["overlap"]:
+        ok = False
+        print(f"[FAIL] 全展开后节点重叠 {d['overlap']} 对（可见 {d['visible']} 个）")
+    else:
+        print(f"[PASS] 全展开后 {d['visible']} 个节点无重叠")
+    clip = page.evaluate(LAYOUT_JS)
+    if clip:
+        ok = False
+        print("[FAIL] 全展开后布局问题：")
+        for i in clip:
+            print(f"        {i}")
+
+    # 点词根会把详情栏换成词根内容，这里复位成单词，
+    # 否则后续视口查不到 phonetic / chip / 例句等单词专属元素
+    open_sample_word(page)
     return ok
 
 
