@@ -1,0 +1,432 @@
+{
+  "roots": [
+    {
+      "id": "dict",
+      "root": "dict",
+      "variants": ["dict", "dic"],
+      "origin": "拉丁语 dicere（说、宣告）",
+      "core_concept": "to say, to declare / 说出来、宣告",
+      "core_image": "站在台前把话说出口，底下的人听见并记下",
+      "english_definition": "to say, to speak, to declare",
+      "word_ids": []
+    },
+    {
+      "id": "sci",
+      "root": "sci",
+      "variants": ["sci", "scien"],
+      "origin": "拉丁语 scire（知道、分辨）",
+      "core_concept": "to know, to tell apart / 知道、分得清",
+      "core_image": "把两样相似的东西分开摆，能指出哪里不同",
+      "english_definition": "to know, to discern",
+      "word_ids": []
+    },
+    {
+      "id": "crit",
+      "root": "crit",
+      "variants": ["crit", "cris"],
+      "origin": "希腊语 krinein（判别、裁断）",
+      "core_concept": "to judge, to separate good from bad / 判别、分出高下",
+      "core_image": "把果子分成两堆，好的留下坏的挑走",
+      "english_definition": "to judge, to discriminate",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-dict-say",
+      "concept": "to say, to declare",
+      "chinese": "说出、宣告",
+      "core_image": "站在台前把话说出口，底下的人听见",
+      "root_ids": ["dict"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-sci-know",
+      "concept": "to know, to discern",
+      "chinese": "知道、分辨",
+      "core_image": "把两样相似的东西分开摆，指出哪里不同",
+      "root_ids": ["sci"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-crit-judge",
+      "concept": "to judge",
+      "chinese": "判别、裁断",
+      "core_image": "把果子分成两堆，好的留下坏的挑走",
+      "root_ids": ["crit"],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": ["dict", "sci", "crit"]
+  },
+  "words": [
+    {
+      "id": "predict",
+      "word": "predict",
+      "pos": "verb",
+      "phonetic": "/prɪˈdɪkt/",
+      "decomposable": "root",
+      "root_ids": ["dict"],
+      "root_logic": "pre-（在…之前）+ dict（说）→ 事情发生前先说出来 → 预言",
+      "origin": "拉丁语 praedicere：prae-（在前）+ dicere（说）",
+      "native_definition": "to say what will happen before it happens",
+      "core_concept": "saying it before it occurs – 在事情发生之前先把它说出来",
+      "core_image": "天气图还没变，播报员已经说出明天会下雨",
+      "chinese": ["预言", "预测"],
+      "examples": [
+        "Economists predict slower growth next year.",
+        "No one predicted the outcome."
+      ],
+      "synonyms": ["forecast", "expect"],
+      "antonyms": [],
+      "related": ["dictate", "contradict", "dictation", "addict"],
+      "semantic_expansions": [
+        "预言与预测：都是'在事情发生前先说出来'，中文按语体和依据分了两个词"
+      ]
+    },
+    {
+      "id": "contradict",
+      "word": "contradict",
+      "pos": "verb",
+      "phonetic": "/ˌkɑːntrəˈdɪkt/",
+      "decomposable": "root",
+      "root_ids": ["dict"],
+      "root_logic": "contra-（相反）+ dict（说）→ 说反过来的话 → 反驳；两说相互对立 → 矛盾",
+      "recall_hint": "contra-（相反）+ dict（说）→ 说的话跟对方正相反；两边的说法也因此对不上",
+      "origin": "拉丁语 contradicere：contra-（相反）+ dicere（说）",
+      "native_definition": "to say the opposite of what someone said, or to be inconsistent with it",
+      "core_concept": "saying the opposite of what stands – 把话说到与既有说法相反的一面",
+      "core_image": "两份证词摆在一起，一份说在场一份说不在场",
+      "chinese": ["反驳", "矛盾", "与…相悖"],
+      "examples": [
+        "He did not dare contradict his boss.",
+        "The two reports contradict each other."
+      ],
+      "synonyms": ["deny", "oppose"],
+      "antonyms": ["confirm"],
+      "related": ["predict", "dictate", "dictation", "addict"],
+      "semantic_expansions": [
+        "反驳：主动说出相反的话",
+        "矛盾/相悖：两种说法本身对立。同一个'说到反面'，一个是动作一个是状态"
+      ]
+    },
+    {
+      "id": "dictate",
+      "word": "dictate",
+      "pos": "verb",
+      "phonetic": "/ˈdɪkteɪt/",
+      "decomposable": "root",
+      "root_ids": ["dict"],
+      "root_logic": "dict（说）+ -ate（动词）→ 反复说出来让人照记 → 口述；说了对方就得照办 → 命令",
+      "recall_hint": "dict（说）+ -ate → 一句句说出来让对方照着记；也指说出来对方就得照办",
+      "origin": "拉丁语 dictare：dicere（说）的反复形",
+      "native_definition": "to speak words for someone to write down, or to give orders that must be obeyed",
+      "core_concept": "saying words that others must take down or obey – 说出来，让对方照记或照办",
+      "core_image": "主管一句句念，秘书低头一句句记下",
+      "chinese": ["口述", "命令", "支配"],
+      "examples": [
+        "She dictated the letter to her assistant.",
+        "Costs dictate how large the project can be."
+      ],
+      "synonyms": ["order", "determine"],
+      "antonyms": [],
+      "related": ["dictation", "predict", "contradict", "addict"],
+      "semantic_expansions": [
+        "口述：说出来让人照记",
+        "命令/支配：说出来对方必须照办。同一个'说出即须遵从'，一个是文字一个是行为"
+      ]
+    },
+    {
+      "id": "dictation",
+      "word": "dictation",
+      "pos": "noun",
+      "phonetic": "/dɪkˈteɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["dict"],
+      "root_logic": "dictate（口述）+ -ion（名词）→ 口述这件事，或据此写下的练习 → 听写",
+      "origin": "拉丁语 dictatio：dictare（反复说）",
+      "native_definition": "the act of speaking words for someone to write down, or an exercise in doing so",
+      "core_concept": "words spoken to be written down – 被说出来供人记录的那些话",
+      "core_image": "老师念一句停一下，全班笔尖在纸上追着走",
+      "chinese": ["听写", "口述"],
+      "examples": [
+        "We had a French dictation today.",
+        "The report was taken down from dictation."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": ["dictate", "predict", "contradict"],
+      "semantic_expansions": [
+        "听写与口述：同一件事的两端——说的人在口述，记的人在听写"
+      ]
+    },
+    {
+      "id": "addict",
+      "word": "addict",
+      "pos": "noun",
+      "phonetic": "/ˈædɪkt/",
+      "decomposable": "root",
+      "root_ids": ["dict"],
+      "root_logic": "ad-（朝向）+ dict（说、判给）→ 罗马法中被判归某人所有 → 离不开某物的人",
+      "recall_hint": "ad-（朝向）+ dict（宣判、判给）→ 罗马法里被判归某人所有；引申为整个人被某物占去",
+      "origin": "拉丁语 addictus：ad-（朝向）+ dicere（宣告）——原指被判为债主所有的人",
+      "native_definition": "a person who cannot stop using or doing something",
+      "core_concept": "one adjudged over to something – 被判归某物所有、脱不开的人",
+      "core_image": "一个人被绳子系在某样东西上，走多远都被拉回去",
+      "chinese": ["成瘾者", "沉迷者"],
+      "examples": [
+        "The clinic treats drug addicts.",
+        "He is a self-confessed coffee addict."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": ["dictate", "predict", "contradict"],
+      "semantic_expansions": [
+        "成瘾者与沉迷者：都是'被判归某物所有、脱不开'，中文按程度分了两个词"
+      ]
+    },
+    {
+      "id": "science",
+      "word": "science",
+      "pos": "noun",
+      "phonetic": "/ˈsaɪəns/",
+      "decomposable": "root",
+      "root_ids": ["sci"],
+      "root_logic": "sci（知道、分辨）+ -ence（名词）→ 分辨得清的那套知识 → 科学",
+      "origin": "拉丁语 scientia：scire（知道）",
+      "native_definition": "organized knowledge about the physical world, gained by observation and testing",
+      "core_concept": "knowledge that can tell things apart reliably – 能可靠分辨真伪的那套知识",
+      "core_image": "两组样本并排做同样处理，只有一组变了色",
+      "chinese": ["科学", "学科"],
+      "examples": [
+        "Science depends on repeatable results.",
+        "She teaches computer science."
+      ],
+      "synonyms": ["knowledge"],
+      "antonyms": [],
+      "related": ["scientist", "conscious", "conscience", "conscientious"],
+      "semantic_expansions": [
+        "科学与学科：都是'能分辨清楚的成套知识'，一个指整体一个指分支"
+      ]
+    },
+    {
+      "id": "scientist",
+      "word": "scientist",
+      "pos": "noun",
+      "phonetic": "/ˈsaɪəntɪst/",
+      "decomposable": "root",
+      "root_ids": ["sci"],
+      "root_logic": "science（分辨得清的知识）+ -ist（人）→ 从事这套知识的人 → 科学家",
+      "origin": "拉丁语 scientia（知识）+ -ist（从事者）",
+      "native_definition": "a person who works in one of the sciences",
+      "core_concept": "one who works at telling things apart reliably – 靠分辨真伪为业的人",
+      "core_image": "白大褂的人在记录本上对比两组读数",
+      "chinese": ["科学家"],
+      "examples": [
+        "Scientists have identified a new species.",
+        "She trained as a marine scientist."
+      ],
+      "synonyms": ["researcher"],
+      "antonyms": [],
+      "related": ["science", "conscious", "conscience"]
+    },
+    {
+      "id": "conscious",
+      "word": "conscious",
+      "pos": "adjective",
+      "phonetic": "/ˈkɑːnʃəs/",
+      "decomposable": "root",
+      "root_ids": ["sci"],
+      "root_logic": "con-（一起、共同）+ sci（知道）→ 心里同时知道着 → 有意识的",
+      "origin": "拉丁语 conscius：com-（一起）+ scire（知道）",
+      "native_definition": "awake and aware of what is happening, or deliberately noticing something",
+      "core_concept": "holding knowledge of it at the same time – 同时知道着这件事",
+      "core_image": "麻药退了，人能听见旁边说话并知道自己在哪儿",
+      "chinese": ["有意识的", "察觉到的", "刻意的"],
+      "examples": [
+        "The patient was conscious throughout.",
+        "She made a conscious effort to slow down."
+      ],
+      "synonyms": ["aware", "deliberate"],
+      "antonyms": ["unconscious"],
+      "related": ["conscience", "conscientious", "science", "scientist"],
+      "semantic_expansions": [
+        "有意识的：清醒并知道周围在发生什么",
+        "察觉到的：知道某件事存在",
+        "刻意的：明知而为之。三层都是'心里同时知道着'"
+      ]
+    },
+    {
+      "id": "conscience",
+      "word": "conscience",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːnʃəns/",
+      "decomposable": "root",
+      "root_ids": ["sci"],
+      "root_logic": "con-（一起）+ sci（知道）+ -ence（名词）→ 心里同时知道对错的那份感觉 → 良心",
+      "origin": "拉丁语 conscientia：com-（一起）+ scire（知道）——'心中同知'",
+      "native_definition": "the sense within a person of what is right and wrong",
+      "core_concept": "the inner knowing of right from wrong – 心里同时知道对错的那份分辨",
+      "core_image": "没人看见，但自己心里那杆秤仍在偏向一边",
+      "chinese": ["良心", "良知"],
+      "examples": [
+        "His conscience troubled him for years.",
+        "She acted with a clear conscience."
+      ],
+      "synonyms": ["morals"],
+      "antonyms": [],
+      "related": ["conscious", "conscientious", "science"],
+      "semantic_expansions": [
+        "良心与良知：都是'心里那份知道对错的分辨'，中文两种说法同一个内核"
+      ]
+    },
+    {
+      "id": "conscientious",
+      "word": "conscientious",
+      "pos": "adjective",
+      "phonetic": "/ˌkɑːnʃiˈenʃəs/",
+      "decomposable": "root",
+      "root_ids": ["sci"],
+      "root_logic": "conscience（心里知对错）+ -ous（…的）→ 事事按那份分辨来做的 → 尽责的",
+      "origin": "拉丁语 conscientiosus：conscientia（良心）",
+      "native_definition": "taking care to do work thoroughly and correctly",
+      "core_concept": "acting by that inner knowing every time – 每件事都照心里那份分辨去做",
+      "core_image": "没人检查的角落也擦干净了，因为自己知道那里脏",
+      "chinese": ["尽责的", "认真的"],
+      "examples": [
+        "She is a conscientious worker.",
+        "He was conscientious about checking every figure."
+      ],
+      "synonyms": ["thorough", "careful"],
+      "antonyms": ["careless"],
+      "related": ["conscience", "conscious", "science"],
+      "semantic_expansions": [
+        "尽责的与认真的：都是'每件事都按心里那份分辨去做'，中文按侧重分了两个词"
+      ]
+    },
+    {
+      "id": "critic",
+      "word": "critic",
+      "pos": "noun",
+      "phonetic": "/ˈkrɪtɪk/",
+      "decomposable": "root",
+      "root_ids": ["crit"],
+      "root_logic": "crit（判别）+ -ic（人）→ 做判别的人 → 评论家",
+      "origin": "希腊语 kritikos：krinein（判别）",
+      "native_definition": "a person who judges the quality of works, or who points out faults",
+      "core_concept": "one whose work is to judge quality – 以判别高下为职的人",
+      "core_image": "看完首演的人在本子上写下哪里好哪里不行",
+      "chinese": ["评论家", "批评者"],
+      "examples": [
+        "The film won over the critics.",
+        "He is a harsh critic of the policy."
+      ],
+      "synonyms": ["reviewer"],
+      "antonyms": [],
+      "related": ["critical", "criticism", "criticize", "criterion"],
+      "semantic_expansions": [
+        "评论家与批评者：都是'做判别的人'，一个是职业一个是立场"
+      ]
+    },
+    {
+      "id": "critical",
+      "word": "critical",
+      "pos": "adjective",
+      "phonetic": "/ˈkrɪtɪkl/",
+      "decomposable": "root",
+      "root_ids": ["crit"],
+      "root_logic": "crit（判别）+ -al（…的）→ 挑出问题的 → 批评的；也指到了必须判断的关口 → 关键的",
+      "recall_hint": "crit（判别）+ -al → 惯于挑出问题；也指事情走到必须判断的那个关口",
+      "origin": "希腊语 kritikos：krinein（判别）",
+      "native_definition": "expressing disapproval, or extremely important at a decisive moment",
+      "core_concept": "at the point where judgement decides the outcome – 处在判断即定结果的那个点上",
+      "core_image": "病情走到今晚这个关口，往哪边偏就定了结局",
+      "chinese": ["批评的", "关键的", "危急的"],
+      "examples": [
+        "The report is highly critical of management.",
+        "The next few hours are critical."
+      ],
+      "synonyms": ["crucial", "disapproving"],
+      "antonyms": [],
+      "related": ["critic", "criticism", "criticize", "criterion"],
+      "semantic_expansions": [
+        "批评的：不断挑出问题",
+        "关键的/危急的：走到必须判断、判断即定结局的那个点。两义都从'判别'来，一个指行为一个指时刻"
+      ]
+    },
+    {
+      "id": "criticism",
+      "word": "criticism",
+      "pos": "noun",
+      "phonetic": "/ˈkrɪtɪsɪzəm/",
+      "decomposable": "root",
+      "root_ids": ["crit"],
+      "root_logic": "critic（判别者）+ -ism（行为）→ 做判别这件事，及说出的话 → 批评",
+      "origin": "希腊语 kritikos：krinein（判别）",
+      "native_definition": "the expression of disapproval, or careful analysis of a work",
+      "core_concept": "the act of judging and saying so – 做出判别并把它说出来",
+      "core_image": "稿子退回来，页边密密麻麻写着哪里不成立",
+      "chinese": ["批评", "评论"],
+      "examples": [
+        "The plan drew widespread criticism.",
+        "Her literary criticism is widely read."
+      ],
+      "synonyms": ["review"],
+      "antonyms": ["praise"],
+      "related": ["critic", "critical", "criticize", "criterion"],
+      "semantic_expansions": [
+        "批评：指出问题的那些话",
+        "评论（学术）：细致分析作品的文章。同一个'判别并说出'，区别在是否含否定意味"
+      ]
+    },
+    {
+      "id": "criticize",
+      "word": "criticize",
+      "pos": "verb",
+      "phonetic": "/ˈkrɪtɪsaɪz/",
+      "decomposable": "root",
+      "root_ids": ["crit"],
+      "root_logic": "critic（判别者）+ -ize（使动）→ 去做判别、指出不足 → 批评",
+      "origin": "希腊语 kritikos：krinein（判别）",
+      "native_definition": "to point out what is wrong with someone or something",
+      "core_concept": "picking out what falls short – 把不够好的那部分挑出来指明",
+      "core_image": "把次品从传送带上一个个拣出来放到旁边",
+      "chinese": ["批评", "指责"],
+      "examples": [
+        "She criticized the design for being impractical.",
+        "He was criticized for arriving late."
+      ],
+      "synonyms": ["blame", "condemn"],
+      "antonyms": ["praise"],
+      "related": ["critic", "critical", "criticism", "criterion"],
+      "semantic_expansions": [
+        "批评与指责：都是'把不够好的挑出来指明'，中文按语气轻重分了两个词"
+      ]
+    },
+    {
+      "id": "criterion",
+      "word": "criterion",
+      "pos": "noun",
+      "phonetic": "/kraɪˈtɪriən/",
+      "decomposable": "root",
+      "root_ids": ["crit"],
+      "root_logic": "crit（判别）+ -erion（工具、依据）→ 用来判别的那把尺 → 标准",
+      "origin": "希腊语 kriterion：krinein（判别）——判别所依据之物",
+      "native_definition": "a standard by which something is judged",
+      "core_concept": "the measure against which judgement is made – 判别时所依据的那把尺",
+      "core_image": "桌上摆着一把量规，每个零件都要贴着它比一遍",
+      "chinese": ["标准", "准则"],
+      "examples": [
+        "Price is not the only criterion.",
+        "Applicants must meet three criteria."
+      ],
+      "synonyms": ["standard", "measure"],
+      "antonyms": [],
+      "related": ["critic", "critical", "criticism", "criticize"],
+      "semantic_expansions": [
+        "标准与准则：都是'判别所依据的那把尺'，中文按适用范围分了两个词"
+      ]
+    }
+  ]
+}

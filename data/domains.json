@@ -50,7 +50,10 @@
       "description": "关于观看与书写的词根——获取信息，以及把信息固定下来。",
       "root_ids": [
         "spect",
-        "scrib-script"
+        "scrib-script",
+        "dict",
+        "sci",
+        "crit"
       ]
     },
     {

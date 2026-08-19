@@ -2261,6 +2261,216 @@
       "text": "The album is entirely instrumental.",
       "source": "AI 生成 · 人工审核",
       "scene": "撬棍插进缝里一压，整块石板就起来了"
+    },
+    {
+      "id": "ex-predict-1",
+      "word_id": "predict",
+      "text": "Economists predict slower growth next year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天气图还没变，播报员已经说出明天会下雨"
+    },
+    {
+      "id": "ex-predict-2",
+      "word_id": "predict",
+      "text": "No one predicted the outcome.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天气图还没变，播报员已经说出明天会下雨"
+    },
+    {
+      "id": "ex-contradict-1",
+      "word_id": "contradict",
+      "text": "He did not dare contradict his boss.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两份证词摆在一起，一份说在场一份说不在场"
+    },
+    {
+      "id": "ex-contradict-2",
+      "word_id": "contradict",
+      "text": "The two reports contradict each other.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两份证词摆在一起，一份说在场一份说不在场"
+    },
+    {
+      "id": "ex-dictate-1",
+      "word_id": "dictate",
+      "text": "She dictated the letter to her assistant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主管一句句念，秘书低头一句句记下"
+    },
+    {
+      "id": "ex-dictate-2",
+      "word_id": "dictate",
+      "text": "Costs dictate how large the project can be.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主管一句句念，秘书低头一句句记下"
+    },
+    {
+      "id": "ex-dictation-1",
+      "word_id": "dictation",
+      "text": "We had a French dictation today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师念一句停一下，全班笔尖在纸上追着走"
+    },
+    {
+      "id": "ex-dictation-2",
+      "word_id": "dictation",
+      "text": "The report was taken down from dictation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师念一句停一下，全班笔尖在纸上追着走"
+    },
+    {
+      "id": "ex-addict-1",
+      "word_id": "addict",
+      "text": "The clinic treats drug addicts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人被绳子系在某样东西上，走多远都被拉回去"
+    },
+    {
+      "id": "ex-addict-2",
+      "word_id": "addict",
+      "text": "He is a self-confessed coffee addict.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人被绳子系在某样东西上，走多远都被拉回去"
+    },
+    {
+      "id": "ex-science-1",
+      "word_id": "science",
+      "text": "Science depends on repeatable results.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两组样本并排做同样处理，只有一组变了色"
+    },
+    {
+      "id": "ex-science-2",
+      "word_id": "science",
+      "text": "She teaches computer science.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两组样本并排做同样处理，只有一组变了色"
+    },
+    {
+      "id": "ex-scientist-1",
+      "word_id": "scientist",
+      "text": "Scientists have identified a new species.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白大褂的人在记录本上对比两组读数"
+    },
+    {
+      "id": "ex-scientist-2",
+      "word_id": "scientist",
+      "text": "She trained as a marine scientist.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白大褂的人在记录本上对比两组读数"
+    },
+    {
+      "id": "ex-conscious-1",
+      "word_id": "conscious",
+      "text": "The patient was conscious throughout.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "麻药退了，人能听见旁边说话并知道自己在哪儿"
+    },
+    {
+      "id": "ex-conscious-2",
+      "word_id": "conscious",
+      "text": "She made a conscious effort to slow down.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "麻药退了，人能听见旁边说话并知道自己在哪儿"
+    },
+    {
+      "id": "ex-conscience-1",
+      "word_id": "conscience",
+      "text": "His conscience troubled him for years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "没人看见，但自己心里那杆秤仍在偏向一边"
+    },
+    {
+      "id": "ex-conscience-2",
+      "word_id": "conscience",
+      "text": "She acted with a clear conscience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "没人看见，但自己心里那杆秤仍在偏向一边"
+    },
+    {
+      "id": "ex-conscientious-1",
+      "word_id": "conscientious",
+      "text": "She is a conscientious worker.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "没人检查的角落也擦干净了，因为自己知道那里脏"
+    },
+    {
+      "id": "ex-conscientious-2",
+      "word_id": "conscientious",
+      "text": "He was conscientious about checking every figure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "没人检查的角落也擦干净了，因为自己知道那里脏"
+    },
+    {
+      "id": "ex-critic-1",
+      "word_id": "critic",
+      "text": "The film won over the critics.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看完首演的人在本子上写下哪里好哪里不行"
+    },
+    {
+      "id": "ex-critic-2",
+      "word_id": "critic",
+      "text": "He is a harsh critic of the policy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看完首演的人在本子上写下哪里好哪里不行"
+    },
+    {
+      "id": "ex-critical-1",
+      "word_id": "critical",
+      "text": "The report is highly critical of management.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "病情走到今晚这个关口，往哪边偏就定了结局"
+    },
+    {
+      "id": "ex-critical-2",
+      "word_id": "critical",
+      "text": "The next few hours are critical.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "病情走到今晚这个关口，往哪边偏就定了结局"
+    },
+    {
+      "id": "ex-criticism-1",
+      "word_id": "criticism",
+      "text": "The plan drew widespread criticism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "稿子退回来，页边密密麻麻写着哪里不成立"
+    },
+    {
+      "id": "ex-criticism-2",
+      "word_id": "criticism",
+      "text": "Her literary criticism is widely read.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "稿子退回来，页边密密麻麻写着哪里不成立"
+    },
+    {
+      "id": "ex-criticize-1",
+      "word_id": "criticize",
+      "text": "She criticized the design for being impractical.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把次品从传送带上一个个拣出来放到旁边"
+    },
+    {
+      "id": "ex-criticize-2",
+      "word_id": "criticize",
+      "text": "He was criticized for arriving late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把次品从传送带上一个个拣出来放到旁边"
+    },
+    {
+      "id": "ex-criterion-1",
+      "word_id": "criterion",
+      "text": "Price is not the only criterion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摆着一把量规，每个零件都要贴着它比一遍"
+    },
+    {
+      "id": "ex-criterion-2",
+      "word_id": "criterion",
+      "text": "Applicants must meet three criteria.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摆着一把量规，每个零件都要贴着它比一遍"
     }
   ]
 }

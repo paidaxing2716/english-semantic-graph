@@ -446,6 +446,54 @@
         "instrumental",
         "structure"
       ]
+    },
+    {
+      "id": "concept-dict-say",
+      "concept": "to say, to declare",
+      "chinese": "说出、宣告",
+      "core_image": "站在台前把话说出口，底下的人听见",
+      "root_ids": [
+        "dict"
+      ],
+      "word_ids": [
+        "addict",
+        "contradict",
+        "dictate",
+        "dictation",
+        "predict"
+      ]
+    },
+    {
+      "id": "concept-sci-know",
+      "concept": "to know, to discern",
+      "chinese": "知道、分辨",
+      "core_image": "把两样相似的东西分开摆，指出哪里不同",
+      "root_ids": [
+        "sci"
+      ],
+      "word_ids": [
+        "conscience",
+        "conscientious",
+        "conscious",
+        "science",
+        "scientist"
+      ]
+    },
+    {
+      "id": "concept-crit-judge",
+      "concept": "to judge",
+      "chinese": "判别、裁断",
+      "core_image": "把果子分成两堆，好的留下坏的挑走",
+      "root_ids": [
+        "crit"
+      ],
+      "word_ids": [
+        "criterion",
+        "critic",
+        "critical",
+        "criticism",
+        "criticize"
+      ]
     }
   ]
 }

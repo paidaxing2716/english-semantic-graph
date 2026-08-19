@@ -1182,6 +1182,96 @@
       "to": "instrumental",
       "type": "root",
       "note": "instrument（器具）+ -al（…的）→ 起了器具作用的 → 起关键作用的"
+    },
+    {
+      "from": "dict",
+      "to": "predict",
+      "type": "root",
+      "note": "pre-（在…之前）+ dict（说）→ 事情发生前先说出来 → 预言"
+    },
+    {
+      "from": "dict",
+      "to": "contradict",
+      "type": "root",
+      "note": "contra-（相反）+ dict（说）→ 说反过来的话 → 反驳；两说相互对立 → 矛盾"
+    },
+    {
+      "from": "dict",
+      "to": "dictate",
+      "type": "root",
+      "note": "dict（说）+ -ate（动词）→ 反复说出来让人照记 → 口述；说了对方就得照办 → 命令"
+    },
+    {
+      "from": "dict",
+      "to": "dictation",
+      "type": "root",
+      "note": "dictate（口述）+ -ion（名词）→ 口述这件事，或据此写下的练习 → 听写"
+    },
+    {
+      "from": "dict",
+      "to": "addict",
+      "type": "root",
+      "note": "ad-（朝向）+ dict（说、判给）→ 罗马法中被判归某人所有 → 离不开某物的人"
+    },
+    {
+      "from": "sci",
+      "to": "science",
+      "type": "root",
+      "note": "sci（知道、分辨）+ -ence（名词）→ 分辨得清的那套知识 → 科学"
+    },
+    {
+      "from": "sci",
+      "to": "scientist",
+      "type": "root",
+      "note": "science（分辨得清的知识）+ -ist（人）→ 从事这套知识的人 → 科学家"
+    },
+    {
+      "from": "sci",
+      "to": "conscious",
+      "type": "root",
+      "note": "con-（一起、共同）+ sci（知道）→ 心里同时知道着 → 有意识的"
+    },
+    {
+      "from": "sci",
+      "to": "conscience",
+      "type": "root",
+      "note": "con-（一起）+ sci（知道）+ -ence（名词）→ 心里同时知道对错的那份感觉 → 良心"
+    },
+    {
+      "from": "sci",
+      "to": "conscientious",
+      "type": "root",
+      "note": "conscience（心里知对错）+ -ous（…的）→ 事事按那份分辨来做的 → 尽责的"
+    },
+    {
+      "from": "crit",
+      "to": "critic",
+      "type": "root",
+      "note": "crit（判别）+ -ic（人）→ 做判别的人 → 评论家"
+    },
+    {
+      "from": "crit",
+      "to": "critical",
+      "type": "root",
+      "note": "crit（判别）+ -al（…的）→ 挑出问题的 → 批评的；也指到了必须判断的关口 → 关键的"
+    },
+    {
+      "from": "crit",
+      "to": "criticism",
+      "type": "root",
+      "note": "critic（判别者）+ -ism（行为）→ 做判别这件事，及说出的话 → 批评"
+    },
+    {
+      "from": "crit",
+      "to": "criticize",
+      "type": "root",
+      "note": "critic（判别者）+ -ize（使动）→ 去做判别、指出不足 → 批评"
+    },
+    {
+      "from": "crit",
+      "to": "criterion",
+      "type": "root",
+      "note": "crit（判别）+ -erion（工具、依据）→ 用来判别的那把尺 → 标准"
     }
   ]
 }
