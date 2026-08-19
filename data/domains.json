@@ -59,6 +59,16 @@
         "tain",
         "clud"
       ]
+    },
+    {
+      "id": "domain-make",
+      "name": "do & make",
+      "chinese": "行为与造作",
+      "core_image": "一双手对材料动作，把它做成、做坏、或做到彻底",
+      "description": "以'做'为核心的词根。前缀决定这个动作的方向与程度——朝谁做、做到什么份上、做漏了还是做全了。",
+      "root_ids": [
+        "fac"
+      ]
     }
   ]
 }

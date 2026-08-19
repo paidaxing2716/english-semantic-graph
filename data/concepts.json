@@ -284,6 +284,25 @@
         "detain",
         "sustain"
       ]
+    },
+    {
+      "id": "concept-fac-make",
+      "concept": "to do, to make",
+      "chinese": "做、造",
+      "core_image": "一双手把材料做成成品",
+      "root_ids": [
+        "fac"
+      ],
+      "word_ids": [
+        "affect",
+        "effect",
+        "effective",
+        "defect",
+        "perfect",
+        "infect",
+        "efficient",
+        "sufficient"
+      ]
     }
   ]
 }

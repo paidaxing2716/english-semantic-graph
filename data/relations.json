@@ -804,6 +804,54 @@
       "to": "inclusive",
       "type": "root",
       "note": "include（关在内）+ -ive（倾向于…的）→ 惯于把人一起关在内的 → 包容的、含…在内的"
+    },
+    {
+      "from": "fac",
+      "to": "affect",
+      "type": "root",
+      "note": "af-（ad- 的变体，朝向）+ fect（fac 的变体，做）→ 对某物做点什么，使它起变化 → 影响"
+    },
+    {
+      "from": "fac",
+      "to": "effect",
+      "type": "root",
+      "note": "ef-（ex- 的变体，向外）+ fect（做）→ 做出来、显出来的那个结果 → 效果"
+    },
+    {
+      "from": "fac",
+      "to": "effective",
+      "type": "root",
+      "note": "effect（做出结果）+ -ive（能…的）→ 真能做出结果的 → 有效的"
+    },
+    {
+      "from": "fac",
+      "to": "defect",
+      "type": "root",
+      "note": "de-（缺、离）+ fect（做）→ 该做的地方没做到 → 缺陷"
+    },
+    {
+      "from": "fac",
+      "to": "perfect",
+      "type": "root",
+      "note": "per-（彻底、全部）+ fect（做）→ 从头到尾全做到了 → 完美的"
+    },
+    {
+      "from": "fac",
+      "to": "infect",
+      "type": "root",
+      "note": "in-（进入）+ fect（做）→ 在体内做起手脚 → 感染"
+    },
+    {
+      "from": "fac",
+      "to": "efficient",
+      "type": "root",
+      "note": "ef-（向外）+ fic（fac 的变体，做）+ -ient → 能把事做出来且不浪费的 → 高效的"
+    },
+    {
+      "from": "fac",
+      "to": "sufficient",
+      "type": "root",
+      "note": "suf-（sub- 的变体，从下面）+ fic（做）+ -ient → 在底下垫够了、够用来做成事的 → 足够的"
     }
   ]
 }

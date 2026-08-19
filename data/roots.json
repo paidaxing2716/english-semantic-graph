@@ -304,6 +304,29 @@
         "detain",
         "sustain"
       ]
+    },
+    {
+      "id": "fac",
+      "root": "fac",
+      "variants": [
+        "fac",
+        "fect",
+        "fic"
+      ],
+      "origin": "拉丁语 facere（做、造）",
+      "core_concept": "to do, to make / 做、造出来",
+      "core_image": "一双手在工作台上把材料做成成品",
+      "english_definition": "to do, to make",
+      "word_ids": [
+        "affect",
+        "effect",
+        "effective",
+        "defect",
+        "perfect",
+        "infect",
+        "efficient",
+        "sufficient"
+      ]
     }
   ]
 }

@@ -1344,6 +1344,132 @@
       "text": "The school has an inclusive admissions policy.",
       "source": "AI 生成 · 人工审核",
       "scene": "圈子画得很大，所有人都被圈在里面，没人留在外头"
+    },
+    {
+      "id": "ex-affect-1",
+      "word_id": "affect",
+      "text": "The drought affected the whole region.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指按在水面上，整片水纹都跟着变形"
+    },
+    {
+      "id": "ex-affect-2",
+      "word_id": "affect",
+      "text": "Smoking affects the lungs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指按在水面上，整片水纹都跟着变形"
+    },
+    {
+      "id": "ex-affect-3",
+      "word_id": "affect",
+      "text": "She was deeply affected by the news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指按在水面上，整片水纹都跟着变形"
+    },
+    {
+      "id": "ex-effect-1",
+      "word_id": "effect",
+      "text": "The new rule takes effect on Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药片下去半小时后，烧退了——那个退烧就是显出来的结果"
+    },
+    {
+      "id": "ex-effect-2",
+      "word_id": "effect",
+      "text": "The medicine had no effect at all.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药片下去半小时后，烧退了——那个退烧就是显出来的结果"
+    },
+    {
+      "id": "ex-effect-3",
+      "word_id": "effect",
+      "text": "Special effects filled the final scene.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药片下去半小时后，烧退了——那个退烧就是显出来的结果"
+    },
+    {
+      "id": "ex-effective-1",
+      "word_id": "effective",
+      "text": "Handwashing is a simple but effective measure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙一转门就开了，这把钥匙是对的"
+    },
+    {
+      "id": "ex-effective-2",
+      "word_id": "effective",
+      "text": "The ban becomes effective next month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙一转门就开了，这把钥匙是对的"
+    },
+    {
+      "id": "ex-defect-1",
+      "word_id": "defect",
+      "text": "The car was recalled for a brake defect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "瓷碗边缘缺了一个口，别处都好就那里没做全"
+    },
+    {
+      "id": "ex-defect-2",
+      "word_id": "defect",
+      "text": "A defect in the design caused the leak.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "瓷碗边缘缺了一个口，别处都好就那里没做全"
+    },
+    {
+      "id": "ex-perfect-1",
+      "word_id": "perfect",
+      "text": "Her pronunciation is perfect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "瓷器出窑，通体没有一道裂纹一个砂眼"
+    },
+    {
+      "id": "ex-perfect-2",
+      "word_id": "perfect",
+      "text": "He spent years perfecting the recipe.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "瓷器出窑，通体没有一道裂纹一个砂眼"
+    },
+    {
+      "id": "ex-infect-1",
+      "word_id": "infect",
+      "text": "The wound became infected.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一滴墨落进清水，水从里面开始变色"
+    },
+    {
+      "id": "ex-infect-2",
+      "word_id": "infect",
+      "text": "His enthusiasm infected the whole team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一滴墨落进清水，水从里面开始变色"
+    },
+    {
+      "id": "ex-efficient-1",
+      "word_id": "efficient",
+      "text": "LED bulbs are far more efficient than old ones.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一桶油，这台机器跑得更远"
+    },
+    {
+      "id": "ex-efficient-2",
+      "word_id": "efficient",
+      "text": "She is an efficient administrator.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一桶油，这台机器跑得更远"
+    },
+    {
+      "id": "ex-sufficient-1",
+      "word_id": "sufficient",
+      "text": "There is sufficient evidence to proceed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "垫脚的砖刚好够高，手一伸就摸到了架子顶层"
+    },
+    {
+      "id": "ex-sufficient-2",
+      "word_id": "sufficient",
+      "text": "Two hours should be sufficient.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "垫脚的砖刚好够高，手一伸就摸到了架子顶层"
     }
   ]
 }

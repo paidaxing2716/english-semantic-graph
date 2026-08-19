@@ -4717,6 +4717,325 @@
         "包含在内的（价格）：项目被关在范围之内",
         "包容的（政策）：人被关在圈子之内。同一个'都圈在里面'，一个对物一个对人"
       ]
+    },
+    {
+      "id": "affect",
+      "word": "affect",
+      "pos": "verb",
+      "phonetic": "/əˈfekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "af-（ad- 的变体，朝向）+ fect（fac 的变体，做）→ 对某物做点什么，使它起变化 → 影响",
+      "origin": "拉丁语 afficere：ad-（朝向）+ facere（做）",
+      "native_definition": "to produce a change in someone or something",
+      "core_concept": "doing something to a thing so that it changes – 对某物施加动作，使它发生改变",
+      "core_image": "手指按在水面上，整片水纹都跟着变形",
+      "chinese": [
+        "影响",
+        "感染",
+        "使动情"
+      ],
+      "examples": [
+        "The drought affected the whole region.",
+        "Smoking affects the lungs.",
+        "She was deeply affected by the news."
+      ],
+      "synonyms": [
+        "influence",
+        "impact"
+      ],
+      "antonyms": [],
+      "related": [
+        "effect",
+        "effective",
+        "defect",
+        "perfect",
+        "infect"
+      ],
+      "semantic_expansions": [
+        "影响：对事物做了动作，它因此改变",
+        "感染（疾病）：病对身体做了动作",
+        "使动情：对情绪做了动作。三个中文词共享'施加动作导致改变'这一个内核"
+      ]
+    },
+    {
+      "id": "effect",
+      "word": "effect",
+      "pos": "noun",
+      "phonetic": "/ɪˈfekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "ef-（ex- 的变体，向外）+ fect（做）→ 做出来、显出来的那个结果 → 效果",
+      "origin": "拉丁语 effectus：ex-（向外）+ facere（做）",
+      "native_definition": "a change that results from an action or cause",
+      "core_concept": "what has been produced and now shows – 做出来并显现出来的那个结果",
+      "core_image": "药片下去半小时后，烧退了——那个退烧就是显出来的结果",
+      "chinese": [
+        "效果",
+        "影响",
+        "生效"
+      ],
+      "examples": [
+        "The new rule takes effect on Monday.",
+        "The medicine had no effect at all.",
+        "Special effects filled the final scene."
+      ],
+      "synonyms": [
+        "result",
+        "consequence"
+      ],
+      "antonyms": [
+        "cause"
+      ],
+      "related": [
+        "affect",
+        "effective",
+        "defect",
+        "perfect"
+      ],
+      "semantic_expansions": [
+        "效果/影响：动作做出来之后显现的那个结果",
+        "生效（take effect）：结果开始显出来。affect 是动作，effect 是动作显出来的东西——这是两词最常被混淆之处"
+      ]
+    },
+    {
+      "id": "effective",
+      "word": "effective",
+      "pos": "adjective",
+      "phonetic": "/ɪˈfektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "effect（做出结果）+ -ive（能…的）→ 真能做出结果的 → 有效的",
+      "origin": "拉丁语 effectivus：ex-（向外）+ facere（做）",
+      "native_definition": "producing the result that was wanted",
+      "core_concept": "actually producing the intended result – 真的把想要的结果做出来了",
+      "core_image": "钥匙一转门就开了，这把钥匙是对的",
+      "chinese": [
+        "有效的",
+        "生效的",
+        "实际的"
+      ],
+      "examples": [
+        "Handwashing is a simple but effective measure.",
+        "The ban becomes effective next month."
+      ],
+      "synonyms": [
+        "successful",
+        "efficient"
+      ],
+      "antonyms": [
+        "useless"
+      ],
+      "related": [
+        "effect",
+        "affect",
+        "efficient",
+        "perfect"
+      ],
+      "semantic_expansions": [
+        "有效的：能做出想要的结果",
+        "生效的（日期）：从那天起开始起作用。同一个'真能做出结果'，一个说能力一个说时点"
+      ]
+    },
+    {
+      "id": "defect",
+      "word": "defect",
+      "pos": "noun",
+      "phonetic": "/ˈdiːfekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "de-（缺、离）+ fect（做）→ 该做的地方没做到 → 缺陷",
+      "origin": "拉丁语 defectus：de-（缺少）+ facere（做）",
+      "native_definition": "a fault or shortcoming that makes something imperfect",
+      "core_concept": "a place where the making fell short – 该做到而没做到的那一处",
+      "core_image": "瓷碗边缘缺了一个口，别处都好就那里没做全",
+      "chinese": [
+        "缺陷",
+        "瑕疵",
+        "不足"
+      ],
+      "examples": [
+        "The car was recalled for a brake defect.",
+        "A defect in the design caused the leak."
+      ],
+      "synonyms": [
+        "fault",
+        "flaw"
+      ],
+      "antonyms": [],
+      "related": [
+        "perfect",
+        "effect",
+        "affect"
+      ],
+      "semantic_expansions": [
+        "缺陷/瑕疵/不足：都是'该做到的地方没做到'，中文按程度和场合分了三个词"
+      ]
+    },
+    {
+      "id": "perfect",
+      "word": "perfect",
+      "pos": "adjective",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "per-（彻底、全部）+ fect（做）→ 从头到尾全做到了 → 完美的",
+      "origin": "拉丁语 perfectus：per-（彻底）+ facere（做）",
+      "native_definition": "complete with nothing lacking or wrong",
+      "core_concept": "made through to the end with nothing left undone – 从头做到尾，没有一处漏掉",
+      "core_image": "瓷器出窑，通体没有一道裂纹一个砂眼",
+      "chinese": [
+        "完美的",
+        "完全的",
+        "使完善"
+      ],
+      "examples": [
+        "Her pronunciation is perfect.",
+        "He spent years perfecting the recipe."
+      ],
+      "synonyms": [
+        "flawless",
+        "complete"
+      ],
+      "antonyms": [
+        "defect"
+      ],
+      "related": [
+        "defect",
+        "effect",
+        "affect",
+        "effective"
+      ],
+      "semantic_expansions": [
+        "完美的：彻底做完，无一处欠缺——与 defect（没做到）正好相反",
+        "使完善（动词）：把没做到的地方补做到。同一个'做到彻底'，一个是状态一个是动作"
+      ]
+    },
+    {
+      "id": "infect",
+      "word": "infect",
+      "pos": "verb",
+      "phonetic": "/ɪnˈfekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "in-（进入）+ fect（做）→ 在体内做起手脚 → 感染",
+      "origin": "拉丁语 inficere：in-（进入）+ facere（做）",
+      "native_definition": "to pass a disease to someone, or to spread a feeling to others",
+      "core_concept": "getting inside something and working on it – 进到内部动手脚，使其改变",
+      "core_image": "一滴墨落进清水，水从里面开始变色",
+      "chinese": [
+        "感染",
+        "传染",
+        "使受影响"
+      ],
+      "examples": [
+        "The wound became infected.",
+        "His enthusiasm infected the whole team."
+      ],
+      "synonyms": [
+        "contaminate",
+        "spread"
+      ],
+      "antonyms": [
+        "cure"
+      ],
+      "related": [
+        "affect",
+        "effect",
+        "defect"
+      ],
+      "semantic_expansions": [
+        "感染/传染（疾病）：病菌进到体内动手脚",
+        "使受影响（情绪）：情绪进到人群里动手脚。同一个'进到内部起作用'"
+      ]
+    },
+    {
+      "id": "efficient",
+      "word": "efficient",
+      "pos": "adjective",
+      "phonetic": "/ɪˈfɪʃnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "ef-（向外）+ fic（fac 的变体，做）+ -ient → 能把事做出来且不浪费的 → 高效的",
+      "origin": "拉丁语 efficiens：ex-（向外）+ facere（做）",
+      "native_definition": "working well without wasting time, money, or energy",
+      "core_concept": "producing results with little waste – 把结果做出来，且几乎没有浪费",
+      "core_image": "同样一桶油，这台机器跑得更远",
+      "chinese": [
+        "高效的",
+        "效率高的"
+      ],
+      "examples": [
+        "LED bulbs are far more efficient than old ones.",
+        "She is an efficient administrator."
+      ],
+      "synonyms": [
+        "effective",
+        "productive"
+      ],
+      "antonyms": [
+        "wasteful"
+      ],
+      "related": [
+        "effective",
+        "effect",
+        "sufficient"
+      ],
+      "semantic_expansions": [
+        "高效的与效率高的：中文两种说法，英文都是'做出结果而不浪费'。与 effective 的区别：effective 只问结果做到没有，efficient 还问代价多少"
+      ]
+    },
+    {
+      "id": "sufficient",
+      "word": "sufficient",
+      "pos": "adjective",
+      "phonetic": "/səˈfɪʃnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "suf-（sub- 的变体，从下面）+ fic（做）+ -ient → 在底下垫够了、够用来做成事的 → 足够的",
+      "origin": "拉丁语 sufficiens：sub-（从下）+ facere（做）",
+      "native_definition": "as much as is needed for a purpose",
+      "core_concept": "enough underneath to get the thing done – 底下垫的量够把事做成",
+      "core_image": "垫脚的砖刚好够高，手一伸就摸到了架子顶层",
+      "chinese": [
+        "足够的",
+        "充分的"
+      ],
+      "examples": [
+        "There is sufficient evidence to proceed.",
+        "Two hours should be sufficient."
+      ],
+      "synonyms": [
+        "enough",
+        "adequate"
+      ],
+      "antonyms": [
+        "inadequate"
+      ],
+      "related": [
+        "efficient",
+        "effective",
+        "effect"
+      ],
+      "semantic_expansions": [
+        "足够的与充分的：都是'量够把事做成'，中文按语体分了两个词"
+      ]
     }
   ]
 }
