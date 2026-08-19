@@ -290,14 +290,24 @@ main { flex: 1; display: flex; min-height: 0; }
 .link.semantic_extension { stroke: var(--concept-color); stroke-opacity: .5; stroke-dasharray: 4 3; }
 .link.context { stroke: var(--concept-color); stroke-opacity: .3; stroke-dasharray: 1.5 3; }
 
+/* 关系名：默认 opacity 0（由 JS 控制），仅选中节点时浮现 */
 .link-label {
   font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
-  font-size: 9px;
-  fill: var(--ink-faint);
+  font-size: 9.5px;
+  fill: var(--ink-soft);
   text-anchor: middle;
+  pointer-events: none;
   paint-order: stroke;
   stroke: var(--paper);
-  stroke-width: 3px;
+  stroke-width: 3.5px;
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+
+/* 选中节点：细外环，标明关系名的来源 */
+.node.selected circle {
+  stroke: var(--accent);
+  stroke-width: 2.5px;
 }
 
 /* ============ 详情栏 ============ */

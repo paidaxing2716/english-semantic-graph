@@ -23,7 +23,8 @@
   let nodes = [];
   let links = [];
   let simulation = null;
-  let highlightedId = null; // 当前高亮节点 id
+  let highlightedId = null; // 搜索定位的临时高亮（3 秒后消失）
+  let selectedId = null;    // 当前选中节点：决定哪几条边显示关系名
 
   const svg = d3.select("#graph");
   const detailPanel = d3.select("#detail-panel");
@@ -211,6 +212,29 @@
       const t = d.target.id || d.target;
       return vis.has(s) && vis.has(t) ? "auto" : "none";
     });
+    applyLinkLabels();
+  }
+
+  // 取消选中：收起关系名并清空详情栏
+  function clearSelection() {
+    selectedId = null;
+    applyLinkLabels();
+    nodeSel?.classed("selected", false);
+    detailContent.classed("hidden", true).style("display", "none").html("");
+    detailEmpty.classed("hidden", false).style("display", "block");
+    closeDrawer();
+  }
+
+  // 关系名只在"选中节点的边"上显示，且两端都可见
+  function applyLinkLabels() {
+    if (!linkLabelSel) return;
+    const vis = visibleNodeIds();
+    linkLabelSel.attr("opacity", (d) => {
+      const s = d.source.id || d.source;
+      const t = d.target.id || d.target;
+      if (!vis.has(s) || !vis.has(t)) return 0;
+      return selectedId && (s === selectedId || t === selectedId) ? 1 : 0;
+    });
   }
 
   // ---------- 搜索 ----------
@@ -294,6 +318,7 @@
   // ---------- 渲染 ----------
   let nodeSel = null;
   let linkSel = null;
+  let linkLabelSel = null;
 
   function render() {
     const width = svg.node().parentElement.clientWidth;
@@ -317,6 +342,11 @@
       }
     });
 
+    // 单击空白处取消选中，收起关系名
+    svg.on("click", (event) => {
+      if (event.target === svg.node()) clearSelection();
+    });
+
     // 连线
     linkSel = g
       .append("g")
@@ -326,8 +356,9 @@
       .join("line")
       .attr("class", (d) => "link" + (d.type === "antonym" ? " antonym" : "") + (d.type === "semantic_extension" ? " semantic_extension" : "") + (d.type === "context" ? " context" : ""));
 
-    // 连线标签（关系类型）
-    const linkLabel = g
+    // 连线标签（关系类型）：默认不显示，避免几十段文字堆在画布上。
+    // 关系类型已由线的颜色/虚实编码（见图例），只在选中节点时显示它自己的那几条边。
+    linkLabelSel = g
       .append("g")
       .attr("class", "link-labels")
       .selectAll("text")
@@ -402,7 +433,7 @@
           .attr("y1", (d) => d.source.y)
           .attr("x2", (d) => d.target.x)
           .attr("y2", (d) => d.target.y);
-        linkLabel
+        linkLabelSel
           .attr("x", (d) => (d.source.x + d.target.x) / 2)
           .attr("y", (d) => (d.source.y + d.target.y) / 2 - 4);
         nodeSel.attr("transform", (d) => `translate(${d.x},${d.y})`);
@@ -440,6 +471,9 @@
 
   // ---------- 详情面板 ----------
   function showDetail(d) {
+    selectedId = d.id;
+    applyLinkLabels();
+    nodeSel?.classed("selected", (n) => n.id === selectedId);
     openDrawer(); // 手机端打开底部抽屉
     detailEmpty.classed("hidden", true).style("display", "none");
     detailContent.classed("hidden", false).style("display", "block");
@@ -654,7 +688,7 @@
       });
 
       // 抽屉关闭按钮（手机端）
-      d3.select("#drawer-close").on("click", closeDrawer);
+      d3.select("#drawer-close").on("click", clearSelection);
     } catch (e) {
       detailContent.classed("hidden", false).style("display", "block");
       detailEmpty.style("display", "none");
