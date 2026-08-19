@@ -127,6 +127,8 @@
         phonetic: w.phonetic,
         origin: w.origin,
         rootLogic: w.root_logic,
+        decomposable: w.decomposable,
+        decomposableNote: w.decomposable_note,
         definition: w.native_definition,
         concept: w.core_concept,
         image: w.core_image,
@@ -703,6 +705,20 @@
 
     if (d.rootLogic) {
       html += `<div class="detail-block"><h3>词根推导 Root Logic</h3><p>${escapeHtml(d.rootLogic)}</p></div>`;
+    }
+
+    // 不可拆的词如实说明，而不是留一片空白让人以为漏了内容
+    const DECOMP_LABEL = {
+      root_pending: "可由词根拆解，但该词根尚未收入本图谱",
+      germanic: "日耳曼核心词 —— 它本身就是词根，无法再拆",
+      loanword: "借词 —— 拆解没有认知价值，靠画面记",
+      phrasal: "短语动词 —— 意义在介词的空间隐喻里",
+      opaque: "词源不明，无法有效拆解",
+    };
+    if (d.type === "word" && DECOMP_LABEL[d.decomposable]) {
+      html += `<div class="detail-block"><h3>为什么没有词根推导</h3>`
+        + `<p class="origin-src">${escapeHtml(DECOMP_LABEL[d.decomposable])}`
+        + `${d.decomposableNote ? "——" + escapeHtml(d.decomposableNote) : ""}</p></div>`;
     }
 
     if (d.origin) {

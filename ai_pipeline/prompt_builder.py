@@ -15,15 +15,28 @@ DATA = ROOT / "data"
 REQUIRED = ["id", "word", "pos", "phonetic", "root_ids", "root_logic", "origin",
             "native_definition", "core_concept", "core_image", "chinese", "examples"]
 OPTIONAL = ["synonyms", "antonyms", "related", "semantic_expansions",
-            "synonym_group", "synonym_note"]
+            "synonym_group", "synonym_note", "decomposable"]
 
 SCHEMA_RULES = """字段规则（违反任何一条该词条都会被质量门拒绝）：
 
-必填：id, word, pos, phonetic, root_ids, root_logic, origin,
+必填：id, word, pos, phonetic, decomposable, origin,
       native_definition, core_concept, core_image, chinese, examples
+仅 decomposable="root" 时必填：root_ids, root_logic
 可选：synonyms, antonyms, related, semantic_expansions, synonym_group, synonym_note
 
 硬性约束：
+0. decomposable 必须如实填写，取值之一：
+   - root          确由拉丁/希腊词根派生，且该词根在下方清单里
+   - root_pending  确可拆，但所属词根尚未在本项目建模 → root_ids 留空、不写 root_logic
+   - germanic      日耳曼核心词，本身即词根（如 choose 来自古英语 ceosan）
+   - loanword      借词/专名，拆解无认知价值
+   - phrasal       短语动词，意义在介词的空间隐喻里
+   - opaque        词源不明或无法有效拆解
+   非 root 型必须把 root_ids 留空、不写 root_logic。
+   **词源对不上就如实改标，绝不能硬安一个词根。**
+   反面案例：seclude 来自 claudere（关闭），与 ducere（引导）不同源，
+   却被挂到 duc 词根下，还在 root_logic 里写"注意此处词源不同，按…理解"——
+   这种自己都承认推导不成立还硬挂的写法会被直接拒绝。
 1. id 用单词本身的小写形式，全局唯一。
 2. phonetic 必须以 / 开头结尾，IPA 格式，例如 /kənˈfɪɡjər/。
 3. root_ids 只能引用下面列出的已有词根 id，不要发明新词根。

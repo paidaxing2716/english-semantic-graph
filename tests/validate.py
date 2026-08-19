@@ -22,7 +22,11 @@ VALID_RELATION_TYPES = {
     "root", "derived", "semantic_extension", "synonym", "antonym", "context"
 }
 
-REQUIRED_WORD_FIELDS = ["id", "word", "pos", "phonetic", "root_ids", "root_logic", "origin", "native_definition", "core_concept", "core_image", "chinese", "examples"]
+# root_logic / root_ids 只对 root 型必填：日耳曼核心词、借词没有词根推导可写，
+# 强行要求这两个字段等于逼着人编词源（见 Q11）。
+REQUIRED_WORD_FIELDS = ["id", "word", "pos", "phonetic", "origin", "native_definition",
+                        "core_concept", "core_image", "chinese", "examples"]
+ROOT_ONLY_FIELDS = ["root_ids", "root_logic"]
 REQUIRED_ROOT_FIELDS = ["id", "root", "origin", "core_concept", "core_image", "word_ids"]
 REQUIRED_CONCEPT_FIELDS = ["id", "concept", "chinese", "core_image", "root_ids", "word_ids"]
 REQUIRED_CLUSTER_FIELDS = ["id", "type", "concept", "chinese", "core_image", "word_ids"]
@@ -71,7 +75,10 @@ def main():
 
     # --- 必填字段 ---
     for w in words:
-        for f in REQUIRED_WORD_FIELDS:
+        need = list(REQUIRED_WORD_FIELDS)
+        if w.get("decomposable", "root") == "root":
+            need += ROOT_ONLY_FIELDS
+        for f in need:
             if f not in w or w[f] in (None, ""):
                 print(f"[FAIL] words 缺少必填字段 {f}: {w.get('id', '?')}")
                 ok = False
@@ -182,6 +189,65 @@ def main():
         ok = False
     else:
         print(f"[INFO] Q8 近/反义词全部已核验（白名单 {len(lexicon)} 词）")
+
+    # --- Q11：不可拆的词不得硬编词根 ---
+    # 考研词表里只有约两成词能靠拉丁词根拆解（见 ai_pipeline/classify_wordlist.py）。
+    # 给日耳曼核心词、借词、短语动词硬安一个词根，等于教给学习者错的词源。
+    # root_pending：确实可由某个真实词根派生，但该词根尚未在本项目建模。
+    # 用它标出"欠一个词根"的词，而不是留空 root_ids 或伪造一个词根。
+    VALID_DECOMP = {"root", "root_pending", "germanic", "loanword", "phrasal", "opaque"}
+    # 承认推导不成立的对冲措辞：写下这类话说明作者自己知道词源对不上，
+    # 却仍挂了词根（撤掉 seclude 那次就是这个形态）。
+    # 只收谈论"词源关系"的说法——像"强行带走"这种描述词义的词不能算，
+    # 否则 abduct 这类词会被误判。
+    HEDGES = ["词源不同", "并非同源", "不同源", "无直接关系", "非同一词根",
+              "此处按", "硬凑", "牵强附会", "严格来说无关"]
+
+    q11_ok = True
+    for w in words:
+        dec = w.get("decomposable")
+        if dec is None:
+            print(f"[FAIL] words.{w['id']} 缺少 decomposable 字段 (Q11)")
+            ok = q11_ok = False
+            continue
+        if dec not in VALID_DECOMP:
+            print(f"[FAIL] words.{w['id']}.decomposable 取值非法: {dec!r}"
+                  f"（应为 {'/'.join(sorted(VALID_DECOMP))}）")
+            ok = q11_ok = False
+            continue
+
+        logic = (w.get("root_logic") or "").strip()
+        if dec == "root_pending":
+            if w.get("root_ids"):
+                print(f"[FAIL] words.{w['id']} 标为 root_pending（词根待建模）"
+                      f"却已挂词根 {w['root_ids']}，应改标 root (Q11)")
+                ok = q11_ok = False
+        elif dec == "root":
+            if not w.get("root_ids"):
+                print(f"[FAIL] words.{w['id']} 标为 root 型但 root_ids 为空 (Q11)。"
+                      f"若该词根尚未建模，改标 root_pending")
+                ok = q11_ok = False
+            hit = [h for h in HEDGES if h in logic]
+            if hit:
+                print(f"[FAIL] words.{w['id']}.root_logic 含承认词源不成立的措辞 "
+                      f"{hit}，却仍挂词根 (Q11)。词源对不上就改标 decomposable，"
+                      f"不要硬编推导")
+                ok = q11_ok = False
+        else:
+            if w.get("root_ids"):
+                print(f"[FAIL] words.{w['id']} 标为 {dec} 型（不可拆）"
+                      f"却仍挂词根 {w['root_ids']} (Q11)")
+                ok = q11_ok = False
+            if logic:
+                print(f"[FAIL] words.{w['id']} 标为 {dec} 型（不可拆）"
+                      f"却写了 root_logic (Q11)")
+                ok = q11_ok = False
+
+    if q11_ok:
+        import collections as _c
+        dist = _c.Counter(w.get("decomposable") for w in words)
+        print("[INFO] Q11 可拆性标记完整："
+              + " ".join(f"{k}={v}" for k, v in sorted(dist.items())))
 
     # --- Q10：语义域必须恰好覆盖所有词根一次 ---
     # 漏掉的词根在三级钻取里点不到；重复归属会让同一词根出现在两个域下。

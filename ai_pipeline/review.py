@@ -18,12 +18,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
-REQUIRED = ["id", "word", "pos", "phonetic", "root_ids", "root_logic", "origin",
+REQUIRED = ["id", "word", "pos", "phonetic", "origin",
             "native_definition", "core_concept", "core_image", "chinese", "examples"]
+# 只对 root 型必填——日耳曼词、借词没有词根推导可写
+ROOT_ONLY = ["root_ids", "root_logic"]
 OPTIONAL = ["synonyms", "antonyms", "related", "semantic_expansions",
             "synonym_group", "synonym_note", "collocations", "level",
-            "phrasal_verbs", "patterns"]
-ALLOWED_FIELDS = set(REQUIRED) | set(OPTIONAL)
+            "phrasal_verbs", "patterns", "decomposable", "decomposable_note"]
+ALLOWED_FIELDS = set(REQUIRED) | set(OPTIONAL) | set(ROOT_ONLY)
+
+VALID_DECOMP = {"root", "root_pending", "germanic", "loanword", "phrasal", "opaque"}
+# 与 tests/validate.py 的 Q11 保持一致：只收谈论词源关系的对冲措辞，
+# 不收描述词义的词（否则 abduct 的"强行带走"会被误判）
+HEDGES = ["词源不同", "并非同源", "不同源", "无直接关系", "非同一词根",
+          "此处按", "硬凑", "牵强附会", "严格来说无关"]
 VALID_POS = {"noun", "verb", "adjective", "adverb", "adj", "adv", "preposition"}
 
 # AI 造词的典型形态：前缀 + 已有词。命中且不在白名单里就要人工核。
@@ -58,7 +66,12 @@ def check(candidates):
     for c in candidates:
         wid = c.get("id", "?")
 
-        for f in REQUIRED:
+        need = list(REQUIRED)
+        # decomposable 缺失时只报缺这个字段，不再连带抱怨缺词根字段——
+        # 主错误是没声明可拆性，词根该不该有取决于它
+        if c.get("decomposable") == "root":
+            need += ROOT_ONLY
+        for f in need:
             v = c.get(f)
             if f not in c or v in (None, "", []):
                 errors.append(f"{wid}: 缺少必填字段 {f}")
@@ -88,6 +101,29 @@ def check(candidates):
         for rid in c.get("root_ids") or []:
             if rid not in root_ids:
                 errors.append(f"{wid}: root_ids 引用不存在的词根 {rid}")
+
+        # 可拆性：不可拆的词不得硬编词根（撤掉 seclude 那次就是这个形态）
+        dec = c.get("decomposable")
+        logic = (c.get("root_logic") or "").strip()
+        if dec is None:
+            errors.append(f"{wid}: 缺少 decomposable 字段（词源对不上就标 germanic/"
+                          f"loanword/opaque，不要硬编词根）")
+        elif dec not in VALID_DECOMP:
+            errors.append(f"{wid}: decomposable 取值非法 {dec!r}，"
+                          f"应为 {'/'.join(sorted(VALID_DECOMP))}")
+        elif dec == "root":
+            if not c.get("root_ids"):
+                errors.append(f"{wid}: 标为 root 型但 root_ids 为空"
+                              f"（词根未建模则标 root_pending）")
+            hit = [h for h in HEDGES if h in logic]
+            if hit:
+                errors.append(f"{wid}: root_logic 含承认词源不成立的措辞 {hit}，"
+                              f"却仍挂词根——改标 decomposable，不要硬编推导")
+        else:
+            if c.get("root_ids"):
+                errors.append(f"{wid}: 标为 {dec} 型（不可拆）却挂了词根 {c['root_ids']}")
+            if logic:
+                errors.append(f"{wid}: 标为 {dec} 型（不可拆）却写了 root_logic")
 
         # related 必须指向已存在或本批次的词条，否则图谱上是死链
         for t in c.get("related") or []:

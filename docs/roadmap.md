@@ -158,7 +158,10 @@ python ai_pipeline/review.py merge candidates.json
         只是考研范围内成员少；含这些则为 264 族 / 970 词次
       - ⚠️ 此数为**下限**：对已知高产词根抽样校准，约 35% 的成员被词干提取
         误判为"孤立词"（如 capere 的 capable/capacity/capture）
-- [ ] 词条加 `decomposable` 字段，不可拆的词显式标记而非硬编词根
+- [x] 词条加 `decomposable` 字段（root / root_pending / germanic / loanword / phrasal / opaque）
+- [x] 质量门 Q11：拒绝给不可拆的词硬编词根，拒绝含"词源不同"等对冲措辞的推导
+- [x] 生成管线同步该约束；详情栏对不可拆的词如实说明原因
+- [x] 回填现有 100 词：root=96 germanic=2 root_pending=2
 - [ ] 可结构化词批量入库（~1000 词）
 - [ ] 学习模式：探索 / 复习 / 测试
 - [ ] 部署为可访问的 Web 页面

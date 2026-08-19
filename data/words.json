@@ -43,7 +43,8 @@
       ],
       "pos": "noun / verb",
       "root_logic": "figur（形状）→ 可辨认的形态 → 身影/人物/身材；'数字'义经'记号/符号'间接引申（见语义扩展）",
-      "phonetic": "/ˈfɪɡjər/"
+      "phonetic": "/ˈfɪɡjər/",
+      "decomposable": "root"
     },
     {
       "id": "configure",
@@ -80,7 +81,8 @@
       ],
       "pos": "verb",
       "root_logic": "con-（一起）+ figur（形状）→ 把零件组合成目标形状 → 配置",
-      "phonetic": "/kənˈfɪɡjər/"
+      "phonetic": "/kənˈfɪɡjər/",
+      "decomposable": "root"
     },
     {
       "id": "figurative",
@@ -114,7 +116,8 @@
       ],
       "pos": "adjective",
       "root_logic": "figur（形象）+ -ative（…的）→ 借形象表达 → 比喻的",
-      "phonetic": "/ˈfɪɡjərətɪv/"
+      "phonetic": "/ˈfɪɡjərətɪv/",
+      "decomposable": "root"
     },
     {
       "id": "disfigure",
@@ -150,7 +153,8 @@
       ],
       "pos": "verb",
       "root_logic": "dis-（去除）+ figur（形状）→ 毁掉形状 → 损毁外形",
-      "phonetic": "/dɪsˈfɪɡjər/"
+      "phonetic": "/dɪsˈfɪɡjər/",
+      "decomposable": "root"
     },
     {
       "id": "configuration",
@@ -185,7 +189,8 @@
       ],
       "pos": "noun",
       "root_logic": "con-（一起）+ figur（形状）+ -ation（名词）→ 组合后的形态 → 配置/结构",
-      "phonetic": "/kənˌfɪɡjəˈreɪʃn/"
+      "phonetic": "/kənˌfɪɡjəˈreɪʃn/",
+      "decomposable": "root"
     },
     {
       "id": "pressure",
@@ -225,7 +230,8 @@
       ],
       "pos": "noun",
       "root_logic": "press（压）+ -ure（名词）→ 压下来的力 → 压力",
-      "phonetic": "/ˈpreʃər/"
+      "phonetic": "/ˈpreʃər/",
+      "decomposable": "root"
     },
     {
       "id": "impress",
@@ -263,7 +269,8 @@
       ],
       "pos": "verb",
       "root_logic": "im-（往里）+ press（压）→ 把印记压进心里 → 印象深刻",
-      "phonetic": "/ɪmˈpres/"
+      "phonetic": "/ɪmˈpres/",
+      "decomposable": "root"
     },
     {
       "id": "express",
@@ -307,7 +314,8 @@
       "root_logic": "ex-（向外）+ press（压）→ 把内心的话压出来 → 表达；'快递/明确的'义为独立引申，与'压'无关（见语义扩展）",
       "synonym_group": "concept-make-clear",
       "synonym_note": "express 表达感情/想法；describe 描述细节；state 正式陈述",
-      "phonetic": "/ɪkˈspres/"
+      "phonetic": "/ɪkˈspres/",
+      "decomposable": "root"
     },
     {
       "id": "suppress",
@@ -346,7 +354,8 @@
       ],
       "pos": "verb",
       "root_logic": "sup-（在下）+ press（压）→ 压下去不让冒出来 → 压制/抑制",
-      "phonetic": "/səˈpres/"
+      "phonetic": "/səˈpres/",
+      "decomposable": "root"
     },
     {
       "id": "compress",
@@ -383,7 +392,8 @@
       ],
       "pos": "verb",
       "root_logic": "com-（一起）+ press（压）→ 压到一起 → 压缩",
-      "phonetic": "/kəmˈpres/"
+      "phonetic": "/kəmˈpres/",
+      "decomposable": "root"
     },
     {
       "id": "formal",
@@ -420,7 +430,8 @@
       ],
       "pos": "adjective",
       "root_logic": "form（形状）+ -al（…的）→ 有固定形式的 → 正式的",
-      "phonetic": "/ˈfɔːrml/"
+      "phonetic": "/ˈfɔːrml/",
+      "decomposable": "root"
     },
     {
       "id": "inform",
@@ -457,7 +468,8 @@
       ],
       "pos": "verb",
       "root_logic": "in-（进入）+ form（成形）→ 让信息在脑中成形 → 告知",
-      "phonetic": "/ɪnˈfɔːrm/"
+      "phonetic": "/ɪnˈfɔːrm/",
+      "decomposable": "root"
     },
     {
       "id": "transform",
@@ -496,7 +508,8 @@
       ],
       "pos": "verb",
       "root_logic": "trans-（跨越）+ form（形状）→ 跨越形态界限 → 转变",
-      "phonetic": "/trænsˈfɔːrm/"
+      "phonetic": "/trænsˈfɔːrm/",
+      "decomposable": "root"
     },
     {
       "id": "perform",
@@ -534,7 +547,8 @@
       ],
       "pos": "verb",
       "root_logic": "per-（完全）+ form（成形）→ 完整做成形 → 执行/表演",
-      "phonetic": "/pərˈfɔːrm/"
+      "phonetic": "/pərˈfɔːrm/",
+      "decomposable": "root"
     },
     {
       "id": "reform",
@@ -571,7 +585,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "re-（重新）+ form（成形）→ 重新成形 → 改革",
-      "phonetic": "/rɪˈfɔːrm/"
+      "phonetic": "/rɪˈfɔːrm/",
+      "decomposable": "root"
     },
     {
       "id": "attract",
@@ -609,7 +624,8 @@
       ],
       "pos": "verb",
       "root_logic": "at-（朝向）+ tract（拉）→ 朝自己拉 → 吸引",
-      "phonetic": "/əˈtrækt/"
+      "phonetic": "/əˈtrækt/",
+      "decomposable": "root"
     },
     {
       "id": "extract",
@@ -649,7 +665,8 @@
       ],
       "pos": "verb",
       "root_logic": "ex-（向外）+ tract（拉）→ 往外拉出 → 提取",
-      "phonetic": "/ɪkˈstrækt/"
+      "phonetic": "/ɪkˈstrækt/",
+      "decomposable": "root"
     },
     {
       "id": "contract",
@@ -691,7 +708,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "con-（一起）+ tract（拉）→ 拉到一起 → 合同/收缩；'感染'义为独立引申链（把病拉到自己身上），见语义扩展",
-      "phonetic": "/ˈkɑːntrækt/ (n.) / kənˈtrækt/ (v.)"
+      "phonetic": "/ˈkɑːntrækt/ (n.) / kənˈtrækt/ (v.)",
+      "decomposable": "root"
     },
     {
       "id": "distract",
@@ -727,7 +745,8 @@
       ],
       "pos": "verb",
       "root_logic": "dis-（分开）+ tract（拉）→ 把注意力拉开 → 分心",
-      "phonetic": "/dɪˈstrækt/"
+      "phonetic": "/dɪˈstrækt/",
+      "decomposable": "root"
     },
     {
       "id": "tractor",
@@ -756,7 +775,8 @@
       ],
       "pos": "noun",
       "root_logic": "tract（拉）+ -or（东西）→ 拉东西的机器 → 拖拉机",
-      "phonetic": "/ˈtræktər/"
+      "phonetic": "/ˈtræktər/",
+      "decomposable": "root"
     },
     {
       "id": "position",
@@ -796,7 +816,8 @@
       ],
       "pos": "noun / verb",
       "root_logic": "pos（放置）+ -ition（名词）→ 被放置之处 → 位置/职位",
-      "phonetic": "/pəˈzɪʃn/"
+      "phonetic": "/pəˈzɪʃn/",
+      "decomposable": "root"
     },
     {
       "id": "compose",
@@ -833,7 +854,8 @@
       ],
       "pos": "verb",
       "root_logic": "com-（一起）+ pose（放置）→ 把部分放到一起 → 组成/创作",
-      "phonetic": "/kəmˈpoʊz/"
+      "phonetic": "/kəmˈpoʊz/",
+      "decomposable": "root"
     },
     {
       "id": "expose",
@@ -876,7 +898,8 @@
       ],
       "pos": "verb",
       "root_logic": "ex-（向外）+ pose（放置）→ 放到外面 → 暴露/揭露",
-      "phonetic": "/ɪkˈspoʊz/"
+      "phonetic": "/ɪkˈspoʊz/",
+      "decomposable": "root"
     },
     {
       "id": "propose",
@@ -916,7 +939,8 @@
       ],
       "pos": "verb",
       "root_logic": "pro-（向前）+ pose（放置）→ 把想法放到前面 → 提议",
-      "phonetic": "/prəˈpoʊz/"
+      "phonetic": "/prəˈpoʊz/",
+      "decomposable": "root"
     },
     {
       "id": "oppose",
@@ -953,7 +977,8 @@
       ],
       "pos": "verb",
       "root_logic": "op-（对着）+ pose（放置）→ 放到对立面 → 反对",
-      "phonetic": "/əˈpoʊz/"
+      "phonetic": "/əˈpoʊz/",
+      "decomposable": "root"
     },
     {
       "id": "admit",
@@ -994,7 +1019,8 @@
       ],
       "pos": "verb",
       "root_logic": "ad-（朝向）+ mit（送）→ 送进来 → 承认/准入",
-      "phonetic": "/ədˈmɪt/"
+      "phonetic": "/ədˈmɪt/",
+      "decomposable": "root"
     },
     {
       "id": "commit",
@@ -1035,7 +1061,8 @@
       ],
       "pos": "verb",
       "root_logic": "com-（完全）+ mit（送）→ 把自己完全送出去 → 承诺/投入",
-      "phonetic": "/kəˈmɪt/"
+      "phonetic": "/kəˈmɪt/",
+      "decomposable": "root"
     },
     {
       "id": "permit",
@@ -1076,7 +1103,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "per-（通过）+ mit（送）→ 放行送过去 → 允许",
-      "phonetic": "/pərˈmɪt/ (v.) / ˈpɜːrmɪt/ (n.)"
+      "phonetic": "/pərˈmɪt/ (v.) / ˈpɜːrmɪt/ (n.)",
+      "decomposable": "root"
     },
     {
       "id": "transmit",
@@ -1115,7 +1143,8 @@
       ],
       "pos": "verb",
       "root_logic": "trans-（跨越）+ mit（送）→ 送过距离 → 传输",
-      "phonetic": "/trænsˈmɪt/"
+      "phonetic": "/trænsˈmɪt/",
+      "decomposable": "root"
     },
     {
       "id": "mission",
@@ -1152,7 +1181,8 @@
       ],
       "pos": "noun",
       "root_logic": "miss（送）+ -ion（名词）→ 被送出去的任务 → 使命",
-      "phonetic": "/ˈmɪʃn/"
+      "phonetic": "/ˈmɪʃn/",
+      "decomposable": "root"
     },
     {
       "id": "inspect",
@@ -1192,7 +1222,8 @@
       ],
       "pos": "verb",
       "root_logic": "in-（往里）+ spect（看）→ 往里仔细看 → 检查",
-      "phonetic": "/ɪnˈspekt/"
+      "phonetic": "/ɪnˈspekt/",
+      "decomposable": "root"
     },
     {
       "id": "respect",
@@ -1233,7 +1264,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "re-（反复）+ spect（看）→ 反复注视而生敬意 → 尊敬；'方面'义来自拉丁语 respectus（看的角度），见语义扩展",
-      "phonetic": "/rɪˈspekt/"
+      "phonetic": "/rɪˈspekt/",
+      "decomposable": "root"
     },
     {
       "id": "prospect",
@@ -1271,7 +1303,8 @@
       ],
       "pos": "noun",
       "root_logic": "pro-（向前）+ spect（看）→ 向前看的景象 → 前景",
-      "phonetic": "/ˈprɑːspekt/"
+      "phonetic": "/ˈprɑːspekt/",
+      "decomposable": "root"
     },
     {
       "id": "spectator",
@@ -1308,7 +1341,8 @@
       ],
       "pos": "noun",
       "root_logic": "spect（看）+ -ator（人）→ 看的人 → 观众",
-      "phonetic": "/ˈspekteɪtər/"
+      "phonetic": "/ˈspekteɪtər/",
+      "decomposable": "root"
     },
     {
       "id": "expect",
@@ -1344,7 +1378,8 @@
       ],
       "pos": "verb",
       "root_logic": "ex-（向外）+ spect（看）→ 向外看向未来 → 期待",
-      "phonetic": "/ɪkˈspekt/"
+      "phonetic": "/ɪkˈspekt/",
+      "decomposable": "root"
     },
     {
       "id": "describe",
@@ -1382,7 +1417,8 @@
       "root_logic": "de-（完全）+ scrib（写）→ 完整写下来 → 描述",
       "synonym_group": "concept-make-clear",
       "synonym_note": "describe 描述细节；express 表达感情/想法；state 正式陈述",
-      "phonetic": "/dɪˈskraɪb/"
+      "phonetic": "/dɪˈskraɪb/",
+      "decomposable": "root"
     },
     {
       "id": "prescribe",
@@ -1418,7 +1454,8 @@
       ],
       "pos": "verb",
       "root_logic": "pre-（预先）+ scrib（写）→ 预先写下的规定 → 处方/规定",
-      "phonetic": "/prɪˈskraɪb/"
+      "phonetic": "/prɪˈskraɪb/",
+      "decomposable": "root"
     },
     {
       "id": "transcript",
@@ -1457,7 +1494,8 @@
       ],
       "pos": "noun",
       "root_logic": "trans-（跨越）+ script（写下的）→ 从原声抄写过来 → 记录/抄本",
-      "phonetic": "/ˈtrænskrɪpt/"
+      "phonetic": "/ˈtrænskrɪpt/",
+      "decomposable": "root"
     },
     {
       "id": "manuscript",
@@ -1491,7 +1529,8 @@
       ],
       "pos": "noun",
       "root_logic": "manu-（手）+ script（写下的）→ 手写的 → 手稿",
-      "phonetic": "/ˈmænjuskrɪpt/"
+      "phonetic": "/ˈmænjuskrɪpt/",
+      "decomposable": "root"
     },
     {
       "id": "subscribe",
@@ -1533,7 +1572,8 @@
       ],
       "pos": "verb",
       "root_logic": "sub-（在下面）+ scrib（写）→ 在下方签名 → 订阅/赞同",
-      "phonetic": "/səbˈskraɪb/"
+      "phonetic": "/səbˈskraɪb/",
+      "decomposable": "root"
     },
     {
       "id": "conduct",
@@ -1574,7 +1614,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "con-（一起）+ duct（引导）→ 带领整个流程 → 进行/指挥",
-      "phonetic": "/kənˈdʌkt/ (v.) / ˈkɑːndʌkt/ (n.)"
+      "phonetic": "/kənˈdʌkt/ (v.) / ˈkɑːndʌkt/ (n.)",
+      "decomposable": "root"
     },
     {
       "id": "produce",
@@ -1615,7 +1656,8 @@
       ],
       "pos": "verb",
       "root_logic": "pro-（向前）+ duct（引导）→ 引导出来 → 生产",
-      "phonetic": "/prəˈduːs/ (v.) / ˈprɑːduːs/ (n.)"
+      "phonetic": "/prəˈduːs/ (v.) / ˈprɑːduːs/ (n.)",
+      "decomposable": "root"
     },
     {
       "id": "introduce",
@@ -1652,7 +1694,8 @@
       ],
       "pos": "verb",
       "root_logic": "intro-（向内）+ duct（引导）→ 引导进来 → 介绍/引进",
-      "phonetic": "/ˌɪntrəˈduːs/"
+      "phonetic": "/ˌɪntrəˈduːs/",
+      "decomposable": "root"
     },
     {
       "id": "educate",
@@ -1687,7 +1730,8 @@
       ],
       "pos": "verb",
       "root_logic": "e-（向外）+ duc（引导）→ 带出无知 → 教育",
-      "phonetic": "/ˈedʒukeɪt/"
+      "phonetic": "/ˈedʒukeɪt/",
+      "decomposable": "root"
     },
     {
       "id": "reduce",
@@ -1727,7 +1771,8 @@
       ],
       "pos": "verb",
       "root_logic": "re-（往回）+ duct（引导）→ 引导回更小 → 减少",
-      "phonetic": "/rɪˈduːs/"
+      "phonetic": "/rɪˈduːs/",
+      "decomposable": "root"
     },
     {
       "id": "import",
@@ -1767,7 +1812,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "im-（向内）+ port（运送）→ 运进来 → 进口；'重要性'义来自拉丁语 importare（带入分量），见语义扩展",
-      "phonetic": "/ɪmˈpɔːrt/ (v.) / ˈɪmpɔːrt/ (n.)"
+      "phonetic": "/ɪmˈpɔːrt/ (v.) / ˈɪmpɔːrt/ (n.)",
+      "decomposable": "root"
     },
     {
       "id": "export",
@@ -1803,7 +1849,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "ex-（向外）+ port（运送）→ 运出去 → 出口",
-      "phonetic": "/ɪkˈspɔːrt/ (v.) / ˈekspɔːrt/ (n.)"
+      "phonetic": "/ɪkˈspɔːrt/ (v.) / ˈekspɔːrt/ (n.)",
+      "decomposable": "root"
     },
     {
       "id": "transport",
@@ -1840,7 +1887,8 @@
       ],
       "pos": "verb / noun",
       "root_logic": "trans-（跨越）+ port（运送）→ 运过距离 → 运输",
-      "phonetic": "/trænsˈpɔːrt/ (v.) / ˈtrænspɔːrt/ (n.)"
+      "phonetic": "/trænsˈpɔːrt/ (v.) / ˈtrænspɔːrt/ (n.)",
+      "decomposable": "root"
     },
     {
       "id": "portable",
@@ -1878,7 +1926,8 @@
       ],
       "pos": "adjective",
       "root_logic": "port（运送）+ -able（能…的）→ 能带走的 → 便携的",
-      "phonetic": "/ˈpɔːrtəbl/"
+      "phonetic": "/ˈpɔːrtəbl/",
+      "decomposable": "root"
     },
     {
       "id": "report",
@@ -1915,14 +1964,15 @@
       ],
       "pos": "verb / noun",
       "root_logic": "re-（返回）+ port（运送）→ 把消息带回去 → 报告",
-      "phonetic": "/rɪˈpɔːrt/"
+      "phonetic": "/rɪˈpɔːrt/",
+      "decomposable": "root"
     },
     {
       "id": "choose",
       "word": "choose",
       "pos": "verb",
       "root_ids": [],
-      "root_logic": "无词根（基础词）——从多个选项中取其一",
+      "root_logic": "",
       "origin": "古英语 ceosan（选择、挑选），与拉丁语 gustare（尝）同源",
       "native_definition": "to decide which one of several things you want",
       "core_concept": "deciding among options – 从多个候选中选定一个",
@@ -1949,14 +1999,16 @@
       ],
       "synonym_group": "concept-make-a-choice",
       "synonym_note": "choose 最通用；select 强调按标准精心挑选；pick 口语化、随手挑",
-      "phonetic": "/tʃuːz/"
+      "phonetic": "/tʃuːz/",
+      "decomposable": "germanic",
+      "decomposable_note": "古英语 ceosan，与拉丁语 gustare（尝）远亲"
     },
     {
       "id": "select",
       "word": "select",
       "pos": "verb",
       "root_ids": [],
-      "root_logic": "无词根（基础词）——从一组中按标准挑出",
+      "root_logic": "",
       "origin": "拉丁语 seligere（挑选）：se-（分开）+ legere（收集、选择）",
       "native_definition": "to choose someone or something by thinking carefully about which is best",
       "core_concept": "choosing by careful standard – 按标准精心挑选",
@@ -1983,14 +2035,16 @@
       ],
       "synonym_group": "concept-make-a-choice",
       "synonym_note": "select 强调按标准精心挑选；choose 更通用；pick 口语化",
-      "phonetic": "/sɪˈlekt/"
+      "phonetic": "/sɪˈlekt/",
+      "decomposable": "root_pending",
+      "decomposable_note": "se-（分开）+ legere（选、聚）"
     },
     {
       "id": "pick",
       "word": "pick",
       "pos": "verb",
       "root_ids": [],
-      "root_logic": "无词根（基础词）——伸手取下一个",
+      "root_logic": "",
       "origin": "中古英语 piken（啄、摘取），拟声词源",
       "native_definition": "to choose something or someone from a group; to take something with your fingers",
       "core_concept": "taking one out by hand – 随手取出一个",
@@ -2014,14 +2068,16 @@
       ],
       "synonym_group": "concept-make-a-choice",
       "synonym_note": "pick 最口语化、随意；choose 通用；select 精心",
-      "phonetic": "/pɪk/"
+      "phonetic": "/pɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "中古英语 piken，拟声词源"
     },
     {
       "id": "state",
       "word": "state",
       "pos": "verb / noun",
       "root_ids": [],
-      "root_logic": "无词根（基础词）——把话说出来摆在那里",
+      "root_logic": "",
       "origin": "拉丁语 status（站立的状态、状况）",
       "native_definition": "to say or write something clearly and formally",
       "core_concept": "putting something into words clearly – 把意思明确说出来",
@@ -2049,7 +2105,9 @@
       ],
       "synonym_group": "concept-make-clear",
       "synonym_note": "state 正式、明确地陈述事实；express 表达感情/想法；describe 描述细节",
-      "phonetic": "/steɪt/"
+      "phonetic": "/steɪt/",
+      "decomposable": "root_pending",
+      "decomposable_note": "来自 status ← stare（站立）"
     },
     {
       "id": "depress",
@@ -2092,7 +2150,8 @@
         "按下（琴键/离合器）：物理上把东西压到低位，最直白的一层",
         "压低（价格/产量）：把数值往下压，从物理位移引申到数量高低",
         "使沮丧：把人的情绪压到低位——中文分成三个词，英文始终是同一个'往下压'的动作"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "impose",
@@ -2134,7 +2193,8 @@
       "semantic_expansions": [
         "强加/征收：把规则或税负放到对方身上，对方无从拒绝",
         "打扰：把自己的需求放到别人的时间上——同样是'未经同意就放上去'，只是放的东西变成了麻烦"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "detract",
@@ -2173,7 +2233,8 @@
       ],
       "semantic_expansions": [
         "贬低/减损：都是把已有的价值往外拉走，区别只在拉的是名誉还是质量"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "conform",
@@ -2216,7 +2277,8 @@
       "semantic_expansions": [
         "符合（规范）：产品的形状与标准的形状重合",
         "遵从/顺应（群体）：把自己的行为塑造成群体期待的形状——从物理同形引申到社会同形"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "retract",
@@ -2257,7 +2319,8 @@
       "semantic_expansions": [
         "缩回（起落架/爪子）：物理上把伸出的部件拉回",
         "撤回（声明/指控）：把已经说出口的话拉回来——说出去的话被当作伸出去的东西"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "omit",
@@ -2297,7 +2360,8 @@
       ],
       "semantic_expansions": [
         "省略（有意）与遗漏（无意）：中文分两个词，英文是同一个动作——把它送出集合，区别只在是否故意"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "suspect",
@@ -2340,7 +2404,8 @@
       "semantic_expansions": [
         "怀疑（动词）：从下往上打量，看出可疑但拿不出证据",
         "嫌疑人（名词）：被这样打量的那个人——同一个'被审视'的画面，只是视角从看的人转到被看的人"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "deduce",
@@ -2380,7 +2445,8 @@
       ],
       "semantic_expansions": [
         "推断与演绎：同一个动作的两种说法——顺着已知的线往下牵，牵到终点就是结论"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "deport",
@@ -2419,7 +2485,8 @@
       ],
       "semantic_expansions": [
         "驱逐出境与遣送：都是把人当作要运走的对象送出边界，区别只在语气轻重"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "ascribe",
@@ -2457,7 +2524,8 @@
       ],
       "semantic_expansions": [
         "归因于（原因）与归于（作者）：都是把某样东西写进某人的账，只是记的是责任还是署名"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "repress",
@@ -2497,7 +2565,8 @@
       ],
       "semantic_expansions": [
         "压抑（情绪）与镇压（民众）：都是把正在往上冒的东西按回去，区别只在按的是感受还是人群"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "expression",
@@ -2537,7 +2606,8 @@
         "表达：把内心的想法压到外面，成为别人能接收的形式",
         "表情：压到脸上的那一层——情绪外化成可见的样子",
         "表达式（数学/编程）：把一段意思压成一个可求值的写法。三个中文词对应同一个'被压出来的形式'"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "oppress",
@@ -2576,7 +2646,8 @@
       ],
       "semantic_expansions": [
         "压迫（制度对人）与使沉重（气氛对心）：都是有重量长期压着，区别在压的是身体还是心情"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "formation",
@@ -2616,7 +2687,8 @@
       "semantic_expansions": [
         "形成：强调从无到有取得形状的过程",
         "队形/构造：强调取得形状之后的那个排列。同一个'成形'，一个看过程一个看结果"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "information",
@@ -2652,7 +2724,8 @@
       ],
       "semantic_expansions": [
         "信息与资料：都是能让人脑中的认知成形的内容，区别只在是否已被整理"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "uniform",
@@ -2693,7 +2766,8 @@
       "semantic_expansions": [
         "统一的/一致的：形状处处相同，没有变化",
         "制服（名词）：让一群人外形统一的那套衣服——从'同一种形状'落到具体的物"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "abstract",
@@ -2734,7 +2808,8 @@
       "semantic_expansions": [
         "抽象的：把共性从具体事物里拉出来，剩下的就是概念",
         "摘要（名词）：把论文要点拉出来的那一段。中文分成两个词，英文是同一个'抽离'动作"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "subtract",
@@ -2768,7 +2843,8 @@
         "attract",
         "contract",
         "abstract"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "attraction",
@@ -2809,7 +2885,8 @@
       "semantic_expansions": [
         "吸引力/魅力：那股把人或物拉过来的力本身",
         "景点：因为这股力而被人涌向的那个地方——从力引申到力的来源"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "traction",
@@ -2847,7 +2924,8 @@
       "semantic_expansions": [
         "牵引力/抓地力：物理上咬住地面往前拉的能力",
         "进展：一个想法开始'咬住'现实、能往前推动——同一个'咬得住才拉得动'的画面"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "deform",
@@ -2885,7 +2963,8 @@
       ],
       "semantic_expansions": [
         "使变形与损坏外形：都是让物体离开它应有的形状，程度不同而已"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "compression",
@@ -2924,7 +3003,8 @@
       ],
       "semantic_expansions": [
         "压缩（文件）与压紧（气体）：都是把同样的内容压进更小的空间，区别只在压的对象"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "dispose",
@@ -2965,7 +3045,8 @@
       "semantic_expansions": [
         "布置：把东西分开摆到各自位置上",
         "处理/处置：把东西放到'不在这里'的位置去，即丢弃。同一个'分开安置'，区别在放到哪儿"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "suppose",
@@ -3006,7 +3087,8 @@
       "semantic_expansions": [
         "假定：明确在底下垫一个前提，用来往下推",
         "认为/料想：口语里把这个'垫底的判断'说得轻一些，实质仍是未经证实的前提"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "composition",
@@ -3046,7 +3128,8 @@
       "semantic_expansions": [
         "构成/构图：强调各部分被放在一起的那种方式",
         "作文/作曲：把词句或音符放在一起得到的成品。同一个'放在一起'，一个指方式一个指结果"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "submit",
@@ -3089,7 +3172,8 @@
       "semantic_expansions": [
         "提交：把材料送到对方那里，由对方裁决",
         "服从/屈服：把自己送到对方权威之下。同一个'送到下方'，区别只在送的是文件还是自己"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "dismiss",
@@ -3132,7 +3216,8 @@
       "semantic_expansions": [
         "解散/解雇：把人送出这个场所或岗位",
         "驳回：把一个主张送出考虑范围。三个中文词共享'送走、不留在这里'这一个动作"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "permission",
@@ -3172,7 +3257,8 @@
       ],
       "semantic_expansions": [
         "许可与允许：都是把横杆抬起来让对方通过，区别只在是否落成书面形式"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "aspect",
@@ -3211,7 +3297,8 @@
       "semantic_expansions": [
         "方面：从某个角度审视一件事时露出的那一面",
         "朝向/外观：建筑面朝哪边，即它把哪一面呈现给你看。同一个'从某方向看到的面'"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "perspective",
@@ -3249,7 +3336,8 @@
       "semantic_expansions": [
         "透视法：绘画上把三维深度画到平面上的技法，直接对应'透过一点看出去'",
         "视角/观点：把这个站位从物理位置引申为立场，看到的图景随之不同"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "spectacle",
@@ -3287,7 +3375,8 @@
       "semantic_expansions": [
         "壮观场面/奇观：被摆出来让人看的那个对象",
         "眼镜（复数 spectacles）：用来看的那个器具——同一个词根落到工具上，这是独立引申的一支"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "proposal",
@@ -3328,7 +3417,8 @@
       "semantic_expansions": [
         "提议/方案：被推到众人面前等待评议的内容",
         "求婚：把终身大事推到对方面前等一个答复——同样是'放到前面等回应'"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "transmission",
@@ -3370,7 +3460,8 @@
       "semantic_expansions": [
         "传输/传播：把数据或病毒从一端送到另一端",
         "变速箱：把发动机动力送到车轮的那套机构——从'送'这个动作引申为承担送的装置"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "respective",
@@ -3408,7 +3499,8 @@
       ],
       "semantic_expansions": [
         "各自的与分别的：都是逐个回看、把对应关系一一分清，中文两种译法对应同一个动作"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "inscribe",
@@ -3447,7 +3539,8 @@
       ],
       "semantic_expansions": [
         "铭刻与题写：都是把字留进载体里，区别只在刻的是石头还是纸页"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "description",
@@ -3484,7 +3577,8 @@
       ],
       "semantic_expansions": [
         "描述与说明：都是用文字勾出对象的轮廓，区别在侧重外形还是用法"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "prescription",
@@ -3522,7 +3616,8 @@
       "semantic_expansions": [
         "处方/药方：医生事先写下、要求照办的那张纸",
         "规定：把'事先写好、照此执行'从医嘱扩到一般做法上"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "induce",
@@ -3564,7 +3659,8 @@
       "semantic_expansions": [
         "诱导/促使（对人）：把人引进某个决定",
         "引发（对状态）：把某个状态引进来。同一个'牵引入内'，区别只在被引的是人还是现象"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "production",
@@ -3605,7 +3701,8 @@
       "semantic_expansions": [
         "生产/产量：把东西引到世上来的过程和数量",
         "作品（戏剧/影视）：被搬上台面的那个成品——同样是'被引出来示于人前'"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "conductor",
@@ -3645,7 +3742,8 @@
         "指挥：引导乐队走完整首曲子的那个人",
         "导体：引导电流通过的那种材料",
         "售票员：在车厢里引导乘客的那个人。三个中文词共享'负责引导'这一个身份"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "support",
@@ -3690,7 +3788,8 @@
         "支撑（物理）：从下面担住重量",
         "支持（立场）：在背后担住对方的主张",
         "赡养：担起一个家的开销。三层意思都是'在底下把重量接住'"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "important",
@@ -3728,7 +3827,8 @@
       ],
       "semantic_expansions": [
         "重要的与重大的：同一个'有分量、搬不动'的画面，中文按程度分了两个词"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "transportation",
@@ -3768,7 +3868,8 @@
       "semantic_expansions": [
         "运输：把货物跨距离运走的行为",
         "交通/交通工具：承担这件事的整套系统。同一个'运送'，一个指行为一个指系统"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "figment",
@@ -3806,7 +3907,8 @@
       ],
       "semantic_expansions": [
         "虚构之物与臆想：都是脑中捏出形状但现实无对应，中文一个偏结果一个偏过程"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "reporter",
@@ -3843,7 +3945,8 @@
       ],
       "semantic_expansions": [
         "记者与通讯员：都是把消息从现场运回来的人，区别只在隶属关系"
-      ]
+      ],
+      "decomposable": "root"
     },
     {
       "id": "abduct",
@@ -3882,7 +3985,8 @@
       ],
       "semantic_expansions": [
         "绑架与劫走：都是违背对方意愿把人带离原处，中文按场合分了两个词"
-      ]
+      ],
+      "decomposable": "root"
     }
   ]
 }
