@@ -410,6 +410,42 @@
         "finite",
         "infinite"
       ]
+    },
+    {
+      "id": "concept-ag-drive",
+      "concept": "to drive, to do",
+      "chinese": "驱动、做",
+      "core_image": "赶车人在后面驱赶，牲口被推着往前动",
+      "root_ids": [
+        "ag"
+      ],
+      "word_ids": [
+        "act",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "exact",
+        "interact",
+        "react"
+      ]
+    },
+    {
+      "id": "concept-stru-build",
+      "concept": "to pile up, to build",
+      "chinese": "堆叠、建造",
+      "core_image": "砖一块块往上垒，垒成承重的墙",
+      "root_ids": [
+        "stru"
+      ],
+      "word_ids": [
+        "construct",
+        "destructive",
+        "instruct",
+        "instrument",
+        "instrumental",
+        "structure"
+      ]
     }
   ]
 }

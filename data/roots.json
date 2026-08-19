@@ -455,6 +455,49 @@
         "finite",
         "infinite"
       ]
+    },
+    {
+      "id": "ag",
+      "root": "ag",
+      "variants": [
+        "ag",
+        "act",
+        "ig"
+      ],
+      "origin": "拉丁语 agere（驱动、做）",
+      "core_concept": "to drive, to do / 驱动、使动起来",
+      "core_image": "赶车人在后面驱赶，牲口被推着往前动",
+      "english_definition": "to drive, to act, to do",
+      "word_ids": [
+        "act",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "exact",
+        "interact",
+        "react"
+      ]
+    },
+    {
+      "id": "stru",
+      "root": "stru",
+      "variants": [
+        "stru",
+        "struct"
+      ],
+      "origin": "拉丁语 struere（堆叠、建造）",
+      "core_concept": "to pile up, to build / 一层层堆起来",
+      "core_image": "砖一块块往上垒，垒成有承重结构的墙",
+      "english_definition": "to build, to arrange in layers",
+      "word_ids": [
+        "construct",
+        "destructive",
+        "instruct",
+        "instrument",
+        "instrumental",
+        "structure"
+      ]
     }
   ]
 }

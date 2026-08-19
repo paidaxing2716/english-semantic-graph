@@ -2051,6 +2051,216 @@
       "text": "The screen offers high definition.",
       "source": "AI 生成 · 人工审核",
       "scene": "词典里那一行字，圈定了这个词管到哪儿为止"
+    },
+    {
+      "id": "ex-act-1",
+      "word_id": "act",
+      "text": "We must act before it is too late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手推第一张多米诺骨牌，整排跟着倒下去"
+    },
+    {
+      "id": "ex-act-2",
+      "word_id": "act",
+      "text": "She acts in local theatre.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手推第一张多米诺骨牌，整排跟着倒下去"
+    },
+    {
+      "id": "ex-act-3",
+      "word_id": "act",
+      "text": "Parliament passed the act last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手推第一张多米诺骨牌，整排跟着倒下去"
+    },
+    {
+      "id": "ex-action-1",
+      "word_id": "action",
+      "text": "Words are easy; action is hard.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议开完，有人已经动手搬东西了"
+    },
+    {
+      "id": "ex-action-2",
+      "word_id": "action",
+      "text": "The drug takes action within an hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议开完，有人已经动手搬东西了"
+    },
+    {
+      "id": "ex-action-3",
+      "word_id": "action",
+      "text": "She brought a legal action against the firm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议开完，有人已经动手搬东西了"
+    },
+    {
+      "id": "ex-active-1",
+      "word_id": "active",
+      "text": "She leads an active life.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器指示灯还在闪，风扇一直没停"
+    },
+    {
+      "id": "ex-active-2",
+      "word_id": "active",
+      "text": "The account is still active.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器指示灯还在闪，风扇一直没停"
+    },
+    {
+      "id": "ex-actor-1",
+      "word_id": "actor",
+      "text": "The actor rehearsed all morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舞台上换上戏服的人，正把别人的一生做出来给人看"
+    },
+    {
+      "id": "ex-actor-2",
+      "word_id": "actor",
+      "text": "Several state actors were involved.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舞台上换上戏服的人，正把别人的一生做出来给人看"
+    },
+    {
+      "id": "ex-actual-1",
+      "word_id": "actual",
+      "text": "The actual cost was far higher.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "预算表旁边那一栏写着真正花掉的数目"
+    },
+    {
+      "id": "ex-actual-2",
+      "word_id": "actual",
+      "text": "What were his actual words?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "预算表旁边那一栏写着真正花掉的数目"
+    },
+    {
+      "id": "ex-exact-1",
+      "word_id": "exact",
+      "text": "Give me the exact figure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "游标卡尺读到小数第二位，正好卡住那个尺寸"
+    },
+    {
+      "id": "ex-exact-2",
+      "word_id": "exact",
+      "text": "It is an exact copy of the original.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "游标卡尺读到小数第二位，正好卡住那个尺寸"
+    },
+    {
+      "id": "ex-react-1",
+      "word_id": "react",
+      "text": "How did she react to the news?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手碰到烫的壶立刻缩回，动作在念头之前"
+    },
+    {
+      "id": "ex-react-2",
+      "word_id": "react",
+      "text": "Sodium reacts violently with water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手碰到烫的壶立刻缩回，动作在念头之前"
+    },
+    {
+      "id": "ex-interact-1",
+      "word_id": "interact",
+      "text": "Children learn by interacting with others.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只齿轮咬合，一个转另一个必跟着转"
+    },
+    {
+      "id": "ex-interact-2",
+      "word_id": "interact",
+      "text": "The two drugs interact badly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只齿轮咬合，一个转另一个必跟着转"
+    },
+    {
+      "id": "ex-structure-1",
+      "word_id": "structure",
+      "text": "The structure of the essay is clear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剖开的墙面露出里面的钢筋排布，哪根承重看得清"
+    },
+    {
+      "id": "ex-structure-2",
+      "word_id": "structure",
+      "text": "A steel structure spans the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剖开的墙面露出里面的钢筋排布，哪根承重看得清"
+    },
+    {
+      "id": "ex-construct-1",
+      "word_id": "construct",
+      "text": "They constructed a bridge in six months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚手架一层层往上搭，楼随之长高"
+    },
+    {
+      "id": "ex-construct-2",
+      "word_id": "construct",
+      "text": "He constructed a careful argument.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚手架一层层往上搭，楼随之长高"
+    },
+    {
+      "id": "ex-destructive-1",
+      "word_id": "destructive",
+      "text": "The storm was highly destructive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拆迁球撞上墙面，砖一层层塌回地上"
+    },
+    {
+      "id": "ex-destructive-2",
+      "word_id": "destructive",
+      "text": "Such criticism is destructive rather than helpful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拆迁球撞上墙面，砖一层层塌回地上"
+    },
+    {
+      "id": "ex-instruct-1",
+      "word_id": "instruct",
+      "text": "He instructed the class in basic first aid.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "师傅先讲地基再讲承重，学徒脑中的图一层层垒高"
+    },
+    {
+      "id": "ex-instruct-2",
+      "word_id": "instruct",
+      "text": "We were instructed to wait outside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "师傅先讲地基再讲承重，学徒脑中的图一层层垒高"
+    },
+    {
+      "id": "ex-instrument-1",
+      "word_id": "instrument",
+      "text": "Surgical instruments must be sterilised.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "打开的箱子里，每件工具嵌在自己的凹槽里"
+    },
+    {
+      "id": "ex-instrument-2",
+      "word_id": "instrument",
+      "text": "She plays three instruments.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "打开的箱子里，每件工具嵌在自己的凹槽里"
+    },
+    {
+      "id": "ex-instrumental-1",
+      "word_id": "instrumental",
+      "text": "She was instrumental in setting up the fund.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "撬棍插进缝里一压，整块石板就起来了"
+    },
+    {
+      "id": "ex-instrumental-2",
+      "word_id": "instrumental",
+      "text": "The album is entirely instrumental.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "撬棍插进缝里一压，整块石板就起来了"
     }
   ]
 }

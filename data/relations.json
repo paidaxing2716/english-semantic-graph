@@ -1098,6 +1098,90 @@
       "to": "definition",
       "type": "root",
       "note": "de-（彻底）+ fin（划界）+ -ition（名词）→ 把界线划清这件事 → 定义"
+    },
+    {
+      "from": "ag",
+      "to": "act",
+      "type": "root",
+      "note": "ag（驱动）的分词形 act → 使某事动起来，即做；引申为在台上做出来 → 表演；被做成的条文 → 法案"
+    },
+    {
+      "from": "ag",
+      "to": "action",
+      "type": "root",
+      "note": "act（做）+ -ion（名词）→ 做这件事本身，或做出来的过程 → 行动"
+    },
+    {
+      "from": "ag",
+      "to": "active",
+      "type": "root",
+      "note": "act（做）+ -ive（爱…的）→ 一直在动、在做的 → 积极的"
+    },
+    {
+      "from": "ag",
+      "to": "actor",
+      "type": "root",
+      "note": "act（做、表演）+ -or（人）→ 做这个动作的人 → 演员"
+    },
+    {
+      "from": "ag",
+      "to": "actual",
+      "type": "root",
+      "note": "act（做、发生）+ -ual（…的）→ 真的做出来了的 → 实际的"
+    },
+    {
+      "from": "ag",
+      "to": "exact",
+      "type": "root",
+      "note": "ex-（彻底）+ act（做）→ 做到彻底、一分不差 → 精确的"
+    },
+    {
+      "from": "ag",
+      "to": "react",
+      "type": "root",
+      "note": "re-（回、反过来）+ act（做）→ 对着来的东西反过来做一下 → 反应"
+    },
+    {
+      "from": "ag",
+      "to": "interact",
+      "type": "root",
+      "note": "inter-（相互之间）+ act（做）→ 彼此对着做 → 互动"
+    },
+    {
+      "from": "stru",
+      "to": "structure",
+      "type": "root",
+      "note": "struct（堆叠、建造）+ -ure（名词）→ 堆叠起来形成的样子 → 结构"
+    },
+    {
+      "from": "stru",
+      "to": "construct",
+      "type": "root",
+      "note": "con-（一起）+ struct（堆叠）→ 把材料一起垒起来 → 建造"
+    },
+    {
+      "from": "stru",
+      "to": "destructive",
+      "type": "root",
+      "note": "de-（反向、拆除）+ struct（堆叠）+ -ive → 把垒好的拆掉的 → 破坏性的"
+    },
+    {
+      "from": "stru",
+      "to": "instruct",
+      "type": "root",
+      "note": "in-（进入）+ struct（堆叠）→ 在对方脑中一层层垒起知识 → 教导；也指下达要照办的条目 → 指示"
+    },
+    {
+      "from": "stru",
+      "to": "instrument",
+      "type": "root",
+      "note": "in-（进入）+ stru（堆叠、装配）+ -ment（物）→ 装配起来用于做事的那件东西 → 器具"
+    },
+    {
+      "from": "stru",
+      "to": "instrumental",
+      "type": "root",
+      "note": "instrument（器具）+ -al（…的）→ 起了器具作用的 → 起关键作用的"
     }
   ]
 }

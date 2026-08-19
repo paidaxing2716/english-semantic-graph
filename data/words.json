@@ -6657,6 +6657,555 @@
         "定义：把某物的界线划清",
         "清晰度（画面）：图像边缘划得多清楚。同一个'界线是否分明'，一个用于概念一个用于图像"
       ]
+    },
+    {
+      "id": "act",
+      "word": "act",
+      "pos": "verb",
+      "phonetic": "/ækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "ag（驱动）的分词形 act → 使某事动起来，即做；引申为在台上做出来 → 表演；被做成的条文 → 法案",
+      "recall_hint": "ag（驱动）的分词形 → 让事情动起来；也指在台上做出样子，或被订下来的那一纸条文",
+      "origin": "拉丁语 actus / agere（驱动、做）",
+      "native_definition": "to do something, or to perform a role; also a law passed by a legislature",
+      "core_concept": "setting something in motion by doing – 通过做，让事情动起来",
+      "core_image": "手推第一张多米诺骨牌，整排跟着倒下去",
+      "chinese": [
+        "行动",
+        "举动",
+        "表演",
+        "法案"
+      ],
+      "examples": [
+        "We must act before it is too late.",
+        "She acts in local theatre.",
+        "Parliament passed the act last year."
+      ],
+      "synonyms": [
+        "do",
+        "perform"
+      ],
+      "antonyms": [],
+      "related": [
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "exact",
+        "react"
+      ],
+      "semantic_expansions": [
+        "行动/举动：让事情动起来这件事本身",
+        "表演：在台上把动作做出来给人看",
+        "法案：被议会'做'出来的那一纸条文。三层都从'做、使动'来"
+      ]
+    },
+    {
+      "id": "action",
+      "word": "action",
+      "pos": "noun",
+      "phonetic": "/ˈækʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "act（做）+ -ion（名词）→ 做这件事本身，或做出来的过程 → 行动",
+      "origin": "拉丁语 actio：agere（驱动、做）",
+      "native_definition": "the process of doing something, or a thing done",
+      "core_concept": "the doing itself, as opposed to talk – 做这件事本身，相对于只是说",
+      "core_image": "会议开完，有人已经动手搬东西了",
+      "chinese": [
+        "行动",
+        "作用",
+        "诉讼"
+      ],
+      "examples": [
+        "Words are easy; action is hard.",
+        "The drug takes action within an hour.",
+        "She brought a legal action against the firm."
+      ],
+      "synonyms": [
+        "deed",
+        "effect"
+      ],
+      "antonyms": [],
+      "related": [
+        "act",
+        "active",
+        "actor",
+        "react",
+        "interact"
+      ],
+      "semantic_expansions": [
+        "行动：做这件事本身",
+        "作用（药物）：某物起效、动起来",
+        "诉讼：在法庭上'发动'的那件事。三个中文词共享'动起来'这一内核"
+      ]
+    },
+    {
+      "id": "active",
+      "word": "active",
+      "pos": "adjective",
+      "phonetic": "/ˈæktɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "act（做）+ -ive（爱…的）→ 一直在动、在做的 → 积极的",
+      "origin": "拉丁语 activus：agere（驱动）",
+      "native_definition": "doing things energetically, or currently in operation",
+      "core_concept": "kept in motion rather than at rest – 一直在动，没有停下来",
+      "core_image": "机器指示灯还在闪，风扇一直没停",
+      "chinese": [
+        "积极的",
+        "活跃的",
+        "在运行的"
+      ],
+      "examples": [
+        "She leads an active life.",
+        "The account is still active."
+      ],
+      "synonyms": [
+        "energetic",
+        "lively"
+      ],
+      "antonyms": [
+        "passive",
+        "static"
+      ],
+      "related": [
+        "act",
+        "action",
+        "actor",
+        "actual",
+        "interact"
+      ],
+      "semantic_expansions": [
+        "积极的/活跃的：人一直在动",
+        "在运行的（账户/火山）：事物仍处于动的状态。同一个'没停下来'"
+      ]
+    },
+    {
+      "id": "actor",
+      "word": "actor",
+      "pos": "noun",
+      "phonetic": "/ˈæktər/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "act（做、表演）+ -or（人）→ 做这个动作的人 → 演员",
+      "origin": "拉丁语 actor：agere（驱动、做）",
+      "native_definition": "a person who performs a role, or one who takes part in events",
+      "core_concept": "the one who does the doing – 执行那个动作的人",
+      "core_image": "舞台上换上戏服的人，正把别人的一生做出来给人看",
+      "chinese": [
+        "演员",
+        "行为者"
+      ],
+      "examples": [
+        "The actor rehearsed all morning.",
+        "Several state actors were involved."
+      ],
+      "synonyms": [
+        "performer"
+      ],
+      "antonyms": [],
+      "related": [
+        "act",
+        "action",
+        "active",
+        "react"
+      ],
+      "semantic_expansions": [
+        "演员与行为者：都是'执行动作的那个人'，一个在台上一个在事件中"
+      ]
+    },
+    {
+      "id": "actual",
+      "word": "actual",
+      "pos": "adjective",
+      "phonetic": "/ˈæktʃuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "act（做、发生）+ -ual（…的）→ 真的做出来了的 → 实际的",
+      "origin": "拉丁语 actualis：agere（做）——已经做成事实的",
+      "native_definition": "existing in fact, as opposed to what was supposed or planned",
+      "core_concept": "what was really done, not merely intended – 真正做出来了的那个，而非设想的",
+      "core_image": "预算表旁边那一栏写着真正花掉的数目",
+      "chinese": [
+        "实际的",
+        "真实的"
+      ],
+      "examples": [
+        "The actual cost was far higher.",
+        "What were his actual words?"
+      ],
+      "synonyms": [
+        "real",
+        "genuine"
+      ],
+      "antonyms": [
+        "imaginary"
+      ],
+      "related": [
+        "act",
+        "action",
+        "active",
+        "exact"
+      ],
+      "semantic_expansions": [
+        "实际的与真实的：都是'真正做出来了的那个'，与设想或计划相对"
+      ]
+    },
+    {
+      "id": "exact",
+      "word": "exact",
+      "pos": "adjective",
+      "phonetic": "/ɪɡˈzækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "ex-（彻底）+ act（做）→ 做到彻底、一分不差 → 精确的",
+      "origin": "拉丁语 exactus：ex-（彻底）+ agere（做）——彻底做完、量准了的",
+      "native_definition": "correct in every detail",
+      "core_concept": "carried out to the last detail – 做到最后一位，不留误差",
+      "core_image": "游标卡尺读到小数第二位，正好卡住那个尺寸",
+      "chinese": [
+        "精确的",
+        "确切的"
+      ],
+      "examples": [
+        "Give me the exact figure.",
+        "It is an exact copy of the original."
+      ],
+      "synonyms": [
+        "precise",
+        "accurate"
+      ],
+      "antonyms": [
+        "approximate"
+      ],
+      "related": [
+        "act",
+        "actual",
+        "action",
+        "active"
+      ],
+      "semantic_expansions": [
+        "精确的与确切的：都是'做到最后一位、不留误差'，一个偏数值一个偏表述"
+      ]
+    },
+    {
+      "id": "react",
+      "word": "react",
+      "pos": "verb",
+      "phonetic": "/riˈækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "re-（回、反过来）+ act（做）→ 对着来的东西反过来做一下 → 反应",
+      "origin": "拉丁语 re-（回）+ agere（做）",
+      "native_definition": "to behave in a certain way because of something that happened",
+      "core_concept": "doing something back in response – 对来的东西反过来做出动作",
+      "core_image": "手碰到烫的壶立刻缩回，动作在念头之前",
+      "chinese": [
+        "反应",
+        "起化学反应"
+      ],
+      "examples": [
+        "How did she react to the news?",
+        "Sodium reacts violently with water."
+      ],
+      "synonyms": [
+        "respond"
+      ],
+      "antonyms": [],
+      "related": [
+        "act",
+        "action",
+        "interact",
+        "actor"
+      ],
+      "semantic_expansions": [
+        "反应（人）与起化学反应（物质）：都是'对来的东西反过来做出动作'，一个是行为一个是变化"
+      ]
+    },
+    {
+      "id": "interact",
+      "word": "interact",
+      "pos": "verb",
+      "phonetic": "/ˌɪntərˈækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "inter-（相互之间）+ act（做）→ 彼此对着做 → 互动",
+      "origin": "拉丁语 inter-（之间）+ agere（做）",
+      "native_definition": "to act on each other, or to communicate with each other",
+      "core_concept": "each doing something to the other – 双方各自对对方做出动作",
+      "core_image": "两只齿轮咬合，一个转另一个必跟着转",
+      "chinese": [
+        "互动",
+        "相互作用"
+      ],
+      "examples": [
+        "Children learn by interacting with others.",
+        "The two drugs interact badly."
+      ],
+      "synonyms": [
+        "communicate"
+      ],
+      "antonyms": [],
+      "related": [
+        "act",
+        "action",
+        "react",
+        "active"
+      ],
+      "semantic_expansions": [
+        "互动（人）与相互作用（物）：都是'彼此对着做'，一个指交流一个指影响"
+      ]
+    },
+    {
+      "id": "structure",
+      "word": "structure",
+      "pos": "noun",
+      "phonetic": "/ˈstrʌktʃər/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "struct（堆叠、建造）+ -ure（名词）→ 堆叠起来形成的样子 → 结构",
+      "origin": "拉丁语 structura：struere（堆叠、建造）",
+      "native_definition": "the way parts are arranged to form a whole, or a built thing",
+      "core_concept": "how parts are stacked to hold together – 各部分怎样垒起来才立得住",
+      "core_image": "剖开的墙面露出里面的钢筋排布，哪根承重看得清",
+      "chinese": [
+        "结构",
+        "构造",
+        "建筑物"
+      ],
+      "examples": [
+        "The structure of the essay is clear.",
+        "A steel structure spans the river."
+      ],
+      "synonyms": [
+        "framework",
+        "arrangement"
+      ],
+      "antonyms": [],
+      "related": [
+        "construct",
+        "instruct",
+        "instrument",
+        "destructive"
+      ],
+      "semantic_expansions": [
+        "结构/构造：各部分垒起来的方式",
+        "建筑物：垒起来的那个实体。同一个'堆叠而成'，一个说方式一个指成品"
+      ]
+    },
+    {
+      "id": "construct",
+      "word": "construct",
+      "pos": "verb",
+      "phonetic": "/kənˈstrʌkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "con-（一起）+ struct（堆叠）→ 把材料一起垒起来 → 建造",
+      "origin": "拉丁语 construere：com-（一起）+ struere（堆叠）",
+      "native_definition": "to build something by putting parts together",
+      "core_concept": "piling parts together into a whole – 把各部分垒到一起成为整体",
+      "core_image": "脚手架一层层往上搭，楼随之长高",
+      "chinese": [
+        "建造",
+        "构建",
+        "构造"
+      ],
+      "examples": [
+        "They constructed a bridge in six months.",
+        "He constructed a careful argument."
+      ],
+      "synonyms": [
+        "build",
+        "assemble"
+      ],
+      "antonyms": [
+        "destroy"
+      ],
+      "related": [
+        "structure",
+        "instruct",
+        "destructive",
+        "instrument"
+      ],
+      "semantic_expansions": [
+        "建造（实物）与构建（论证）：都是把部件一层层垒成整体，一个垒砖一个垒理由"
+      ]
+    },
+    {
+      "id": "destructive",
+      "word": "destructive",
+      "pos": "adjective",
+      "phonetic": "/dɪˈstrʌktɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "de-（反向、拆除）+ struct（堆叠）+ -ive → 把垒好的拆掉的 → 破坏性的",
+      "origin": "拉丁语 destructivus：de-（拆除）+ struere（堆叠）",
+      "native_definition": "causing great damage or ruin",
+      "core_concept": "undoing what was piled up – 把垒好的东西反向拆掉",
+      "core_image": "拆迁球撞上墙面，砖一层层塌回地上",
+      "chinese": [
+        "破坏性的",
+        "毁灭性的"
+      ],
+      "examples": [
+        "The storm was highly destructive.",
+        "Such criticism is destructive rather than helpful."
+      ],
+      "synonyms": [
+        "damaging",
+        "harmful"
+      ],
+      "antonyms": [
+        "constructive"
+      ],
+      "related": [
+        "construct",
+        "structure",
+        "instruct"
+      ],
+      "semantic_expansions": [
+        "破坏性的与毁灭性的：都是'把垒起来的反向拆掉'——与 construct 共用词根，前缀 de- 与 con- 正好相反"
+      ]
+    },
+    {
+      "id": "instruct",
+      "word": "instruct",
+      "pos": "verb",
+      "phonetic": "/ɪnˈstrʌkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "in-（进入）+ struct（堆叠）→ 在对方脑中一层层垒起知识 → 教导；也指下达要照办的条目 → 指示",
+      "recall_hint": "in-（进入）+ struct（堆叠）→ 在对方脑中一层层垒起来；也指交给对方照办的那些条目",
+      "origin": "拉丁语 instruere：in-（进入）+ struere（堆叠）",
+      "native_definition": "to teach someone, or to tell someone officially what to do",
+      "core_concept": "building knowledge into someone, layer by layer – 在人脑中一层层垒起东西",
+      "core_image": "师傅先讲地基再讲承重，学徒脑中的图一层层垒高",
+      "chinese": [
+        "教导",
+        "指示",
+        "命令"
+      ],
+      "examples": [
+        "He instructed the class in basic first aid.",
+        "We were instructed to wait outside."
+      ],
+      "synonyms": [
+        "teach",
+        "direct"
+      ],
+      "antonyms": [],
+      "related": [
+        "structure",
+        "construct",
+        "instrument",
+        "destructive"
+      ],
+      "semantic_expansions": [
+        "教导：在对方脑中垒起知识",
+        "指示/命令：把要照办的条目一条条摆给对方。同一个'一层层垒给对方'，垒的是知识还是要求"
+      ]
+    },
+    {
+      "id": "instrument",
+      "word": "instrument",
+      "pos": "noun",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "in-（进入）+ stru（堆叠、装配）+ -ment（物）→ 装配起来用于做事的那件东西 → 器具",
+      "origin": "拉丁语 instrumentum：instruere（装配、备置）",
+      "native_definition": "a tool used for a particular purpose, or a device for making music",
+      "core_concept": "a thing assembled in order to do work – 为做成某事而装配起来的那件东西",
+      "core_image": "打开的箱子里，每件工具嵌在自己的凹槽里",
+      "chinese": [
+        "器具",
+        "仪器",
+        "乐器"
+      ],
+      "examples": [
+        "Surgical instruments must be sterilised.",
+        "She plays three instruments."
+      ],
+      "synonyms": [
+        "tool",
+        "device"
+      ],
+      "antonyms": [],
+      "related": [
+        "instrumental",
+        "instruct",
+        "structure",
+        "construct"
+      ],
+      "semantic_expansions": [
+        "器具/仪器：为干活装配出来的东西",
+        "乐器：为奏乐装配出来的东西。同一个'为某用途装配的物件'"
+      ]
+    },
+    {
+      "id": "instrumental",
+      "word": "instrumental",
+      "pos": "adjective",
+      "phonetic": "/ˌɪnstrəˈmentl/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "instrument（器具）+ -al（…的）→ 起了器具作用的 → 起关键作用的",
+      "origin": "拉丁语 instrumentalis：instrumentum（器具）",
+      "native_definition": "serving as the means by which something happens; also played by instruments only",
+      "core_concept": "serving as the tool that made it happen – 作为促成此事的那件工具",
+      "core_image": "撬棍插进缝里一压，整块石板就起来了",
+      "chinese": [
+        "起关键作用的",
+        "器乐的"
+      ],
+      "examples": [
+        "She was instrumental in setting up the fund.",
+        "The album is entirely instrumental."
+      ],
+      "synonyms": [
+        "crucial",
+        "helpful"
+      ],
+      "antonyms": [],
+      "related": [
+        "instrument",
+        "instruct",
+        "structure"
+      ],
+      "semantic_expansions": [
+        "起关键作用的：本身充当了促成事情的工具",
+        "器乐的：只由乐器演奏的。两义都从'器具'来，一个抽象一个具体"
+      ]
     }
   ]
 }
