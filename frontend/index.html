@@ -5,15 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>English Semantic Graph — 英语概念图谱</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+    // 提前应用主题，避免首屏闪白
+    (function () {
+      try {
+        var saved = localStorage.getItem("esg-theme");
+        var night = saved
+          ? saved === "night"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (night) document.documentElement.setAttribute("data-theme", "night");
+      } catch (e) { /* localStorage 不可用时用默认白天主题 */ }
+    })();
+  </script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
   <header>
-    <h1>English Semantic Graph <span class="badge">v0.1.2</span></h1>
+    <div class="brand">
+      <h1>English Semantic Graph</h1>
+      <span class="badge">v0.2.0</span>
+    </div>
     <p class="subtitle">不是背单词软件，而是一个概念认知系统 —— 搜索单词、点击词根展开词族</p>
-    <div id="search-box">
-      <input type="text" id="search-input" placeholder="🔍 搜索单词 / 词根 / 中文…" autocomplete="off">
-      <div id="search-results" class="hidden"></div>
+    <div class="header-tools">
+      <div id="search-box">
+        <input type="text" id="search-input" placeholder="搜索单词 / 词根 / 中文…" autocomplete="off">
+        <div id="search-results" class="hidden"></div>
+      </div>
+      <button id="theme-toggle" type="button" title="切换白天 / 夜间" aria-label="切换白天 / 夜间">☾</button>
     </div>
   </header>
 
@@ -27,7 +45,7 @@
         <div class="legend-item"><span class="dot derived"></span>派生/词根关系</div>
         <div class="legend-item"><span class="dot antonym"></span>反义关系</div>
       </div>
-      <div id="hint">💡 点击词根展开/收起词族 · 双击空白重新布局</div>
+      <div id="hint">点击词根展开或收起词族 · 双击空白处重新布局</div>
     </div>
 
     <aside id="detail-panel">
@@ -36,8 +54,8 @@
         <button id="drawer-close" title="关闭">×</button>
       </div>
       <div id="detail-empty">
-        <p>👈 点击图中的节点</p>
-        <p>查看概念、画面与词族</p>
+        <p>点击图中任意节点</p>
+        <p>查看核心概念、记忆画面与词族</p>
       </div>
       <div id="detail-content" class="hidden"></div>
     </aside>

@@ -334,10 +334,7 @@
       .data(links.filter((d) => d.type !== "root" && d.type !== "context"))
       .join("text")
       .attr("class", "link-label")
-      .text((d) => EDGE_TYPE_LABEL[d.type] || d.type)
-      .attr("font-size", 9)
-      .attr("fill", "#5a6275")
-      .attr("text-anchor", "middle");
+      .text((d) => EDGE_TYPE_LABEL[d.type] || d.type);
 
     // 节点
     nodeSel = g
@@ -351,13 +348,26 @@
 
     nodeSel
       .append("circle")
-      .attr("r", (d) => (d.type === "root" ? 26 : d.type === "concept" ? (d.isCluster ? 16 : 18) : 14))
+      .attr("r", (d) => (d.type === "root" ? 27 : d.type === "concept" ? (d.isCluster ? 18 : 20) : 13))
       .attr("class", (d) => d.type);
 
-    nodeSel
+    // 单词标签挂在圆下方，偏移量随屏幕收敛，避免小屏触底越界
+    const wordLabelDy = width < 520 ? 24 : 32;
+    const labelSel = nodeSel
       .append("text")
       .text((d) => d.label)
-      .attr("dy", (d) => (d.type === "word" ? 32 : 0));
+      .attr("dy", (d) => (d.type === "word" ? wordLabelDy : 0));
+
+    // 量出每个标签的实际半宽/垂直范围，供 tick 里的边界约束使用。
+    // 概念节点是中文长标签（如"一个可被辨认的形态"），只约束圆心会让标签探出画布。
+    labelSel.each(function (d) {
+      let halfW = 0;
+      try { halfW = this.getComputedTextLength() / 2; } catch (e) { halfW = 0; }
+      d.padX = Math.max(halfW, d.type === "root" ? 27 : d.type === "concept" ? 20 : 13) + 4;
+      const dy = d.type === "word" ? wordLabelDy : 0;
+      d.padTop = (d.type === "root" ? 27 : d.type === "concept" ? 20 : 13) + 4;
+      d.padBottom = Math.max(dy + 8, d.type === "root" ? 27 : 13) + 4;
+    });
 
     nodeSel.on("click", (event, d) => {
       if (d.type === "root") {
@@ -367,18 +377,25 @@
     });
 
     // 力导向
+    // 10 个词根簇互不相连，仅靠 charge + center 会互相排斥飘出画布，
+    // 因此加 forceX/forceY 向心约束，并在 tick 中把节点夹在画布内。
+    const margin = Math.min(34, Math.max(20, Math.min(width, height) * 0.08));
     simulation = d3
       .forceSimulation(nodes)
       .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => (d.type === "root" ? 70 : 110)))
-      .force("charge", d3.forceManyBody().strength(-420))
+      .force("charge", d3.forceManyBody().strength(-300).distanceMax(320))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collide", d3.forceCollide().radius(40))
+      .force("x", d3.forceX(width / 2).strength(0.06))
+      .force("y", d3.forceY(height / 2).strength(0.09))
+      .force("collide", d3.forceCollide().radius(38))
       .on("tick", () => {
-        // 隐藏节点固定位置，避免污染布局
+        // 硬边界：按标签实际尺寸夹住，保证圆和文字都留在画布内
         nodes.forEach((n) => {
-          if (!n.vizVisible && n.fx == null) {
-            // 隐藏节点跟随其第一个可见邻居或原地不动
-          }
+          const px = Math.min(n.padX || margin, width / 2 - 2);
+          const top = Math.min(n.padTop || margin, height / 2 - 2);
+          const bottom = Math.min(n.padBottom || margin, height / 2 - 2);
+          n.x = Math.max(px, Math.min(width - px, n.x));
+          n.y = Math.max(top, Math.min(height - bottom, n.y));
         });
         linkSel
           .attr("x1", (d) => d.source.x)
@@ -433,35 +450,35 @@
       <div class="detail-title">${escapeHtml(d.label)}
         <span class="detail-type ${d.type}">${typeLabel}</span>
         ${d.phonetic ? `<span class="detail-phonetic">${escapeHtml(d.phonetic)}</span>` : ""}
-        ${d.type === "word" ? `<button class="speak-btn" data-word="${escapeHtml(d.label)}" title="点击发音">🔊</button>` : ""}
+        ${d.type === "word" ? `<button class="speak-btn" data-word="${escapeHtml(d.label)}" title="点击发音">◍ 发音</button>` : ""}
       </div>`;
 
     if (d.pos) {
-      html += `<div class="detail-block origin-src">词性 POS：${escapeHtml(d.pos)}</div>`;
-    }
-
-    if (d.origin) {
-      html += `<div class="detail-block origin-src">📜 词源：${escapeHtml(d.origin)}</div>`;
-    }
-
-    if (d.rootLogic) {
-      html += `<div class="detail-block" style="border-left-color:#ffd166"><h3>🧩 词根推导</h3><p>${escapeHtml(d.rootLogic)}</p></div>`;
-    }
-
-    if (d.concept) {
-      html += `<div class="detail-block"><h3>核心概念 Concept</h3><p>${escapeHtml(d.concept)}</p></div>`;
+      html += `<div class="detail-block origin-src">词性 · ${escapeHtml(d.pos)}</div>`;
     }
 
     if (d.definition) {
-      html += `<div class="detail-block"><h3>英文释义 Definition</h3><p>${escapeHtml(d.definition)}</p></div>`;
+      html += `<div class="detail-block detail-definition"><h3>英文释义 Definition</h3><p>${escapeHtml(d.definition)}</p></div>`;
+    }
+
+    if (d.concept) {
+      html += `<div class="detail-block feature"><h3>核心概念 Concept</h3><p>${escapeHtml(d.concept)}</p></div>`;
     }
 
     if (d.image) {
-      html += `<div class="detail-block"><h3>🧠 核心画面 Core Image</h3><p>${escapeHtml(d.image)}</p></div>`;
+      html += `<div class="detail-block feature concept-tone"><h3>核心画面 Core Image</h3><p>${escapeHtml(d.image)}</p></div>`;
+    }
+
+    if (d.rootLogic) {
+      html += `<div class="detail-block"><h3>词根推导 Root Logic</h3><p>${escapeHtml(d.rootLogic)}</p></div>`;
+    }
+
+    if (d.origin) {
+      html += `<div class="detail-block"><h3>词源 Origin</h3><p class="origin-src">${escapeHtml(d.origin)}</p></div>`;
     }
 
     if (d.chinese && d.chinese.length) {
-      html += `<div class="detail-block"><h3>中文表达</h3><p>${d.chinese.map((c) => `<span class="chip">${escapeHtml(c)}</span>`).join("")}</p></div>`;
+      html += `<div class="detail-block"><h3>中文表达（输出层）</h3><p>${d.chinese.map((c) => `<span class="chip zh">${escapeHtml(c)}</span>`).join("")}</p></div>`;
     }
 
     if (d.type === "word") {
@@ -483,10 +500,10 @@
               return wn ? `<span class="chip related">${escapeHtml(wn.label)}</span>` : "";
             })
             .join("");
-          html += `<div class="detail-block" style="border-left-color:#06d6a0"><h3>🔄 近义词组（共享概念）</h3>
+          html += `<div class="detail-block feature concept-tone"><h3>近义词组 · 共享概念</h3>
             <p><b>${escapeHtml(cluster.concept)}</b></p>
             <p>${groupWords}</p>
-            ${d.synonymNote ? `<p style="font-size:12px;color:var(--text-dim)">💬 ${escapeHtml(d.synonymNote)}</p>` : ""}
+            ${d.synonymNote ? `<p class="origin-src">${escapeHtml(d.synonymNote)}</p>` : ""}
           </div>`;
         }
       }
@@ -501,7 +518,7 @@
         html += `<div class="detail-block"><h3>关联词</h3><p>${d.related.map((r) => `<span class="chip related">${escapeHtml(r)}</span>`).join("")}</p></div>`;
       }
       if (d.examples && d.examples.length) {
-        html += `<div class="detail-block"><h3>例句</h3><ul>${d.examples.map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul></div>`;
+        html += `<div class="detail-block detail-examples"><h3>例句 Context</h3><ul>${d.examples.map((e) => `<li>${escapeHtml(e)}</li>`).join("")}</ul></div>`;
       }
     }
 
@@ -542,6 +559,34 @@
     const div = document.createElement("div");
     div.textContent = str == null ? "" : String(str);
     return div.innerHTML;
+  }
+
+  // ---------- 昼夜主题 ----------
+  // 白天：纸张地图 / 夜间：夜读档案。首屏主题已在 index.html 内联脚本中应用。
+  function isNight() {
+    return document.documentElement.getAttribute("data-theme") === "night";
+  }
+
+  function syncThemeButton() {
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    const night = isNight();
+    // 图标表示"点击后切换到的模式"
+    btn.textContent = night ? "☀" : "☾";
+    btn.title = night ? "切换到白天模式" : "切换到夜间模式";
+  }
+
+  function toggleTheme() {
+    const night = !isNight();
+    if (night) {
+      document.documentElement.setAttribute("data-theme", "night");
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+    }
+    try {
+      localStorage.setItem("esg-theme", night ? "night" : "day");
+    } catch (e) { /* 隐私模式下 localStorage 不可写，主题仅在本次会话生效 */ }
+    syncThemeButton();
   }
 
   // ---------- 发音（Web Speech API） ----------
@@ -587,6 +632,10 @@
       buildGraph(data);
       render();
 
+      // 主题切换
+      document.getElementById("theme-toggle")?.addEventListener("click", toggleTheme);
+      syncThemeButton();
+
       // 搜索事件
       searchInput.on("input", onSearchInput);
       searchInput.on("keydown", (event) => {
@@ -625,6 +674,9 @@
       const height = container.clientHeight;
       svg.attr("viewBox", [0, 0, width, height]);
       simulation.force("center", d3.forceCenter(width / 2, height / 2));
+      simulation.force("x", d3.forceX(width / 2).strength(0.06));
+      simulation.force("y", d3.forceY(height / 2).strength(0.09));
+      simulation.alpha(.25).restart();
     }
   });
 
