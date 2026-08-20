@@ -689,6 +689,54 @@
         "locate",
         "location"
       ]
+    },
+    {
+      "id": "concept-sequ-follow",
+      "concept": "to follow",
+      "chinese": "跟随",
+      "core_image": "一队人前后相接地走，后面踩着前面的脚印",
+      "root_ids": [
+        "sequ"
+      ],
+      "word_ids": [
+        "consecutive",
+        "consequence",
+        "consequently",
+        "sequence",
+        "subsequent"
+      ]
+    },
+    {
+      "id": "concept-pet-seek",
+      "concept": "to seek, to strive after",
+      "chinese": "追求、索取",
+      "core_image": "伸手朝一样东西扑过去，非要拿到手",
+      "root_ids": [
+        "pet"
+      ],
+      "word_ids": [
+        "appetite",
+        "competent",
+        "competition",
+        "petition",
+        "repetition"
+      ]
+    },
+    {
+      "id": "concept-texere-weave",
+      "concept": "to weave",
+      "chinese": "编织",
+      "core_image": "经线纬线交错穿过，散线变成一整块布",
+      "root_ids": [
+        "texere"
+      ],
+      "word_ids": [
+        "context",
+        "pretext",
+        "text",
+        "textile",
+        "texture"
+      ]
     }
   ]
 }

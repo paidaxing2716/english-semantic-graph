@@ -787,6 +787,64 @@
         "locate",
         "location"
       ]
+    },
+    {
+      "id": "sequ",
+      "root": "sequ",
+      "variants": [
+        "sequ",
+        "secut"
+      ],
+      "origin": "拉丁语 sequi（跟随）",
+      "core_concept": "to follow / 跟在后面",
+      "core_image": "一队人前后相接地走，后面的人踩着前面的脚印",
+      "english_definition": "to follow",
+      "word_ids": [
+        "consecutive",
+        "consequence",
+        "consequently",
+        "sequence",
+        "subsequent"
+      ]
+    },
+    {
+      "id": "pet",
+      "root": "pet",
+      "variants": [
+        "pet",
+        "petit"
+      ],
+      "origin": "拉丁语 petere（追求、索求）",
+      "core_concept": "to seek, to strive after / 追着去要",
+      "core_image": "伸手朝一样东西扑过去，非要拿到手",
+      "english_definition": "to seek, to ask for, to strive",
+      "word_ids": [
+        "appetite",
+        "competent",
+        "competition",
+        "petition",
+        "repetition"
+      ]
+    },
+    {
+      "id": "texere",
+      "root": "texere",
+      "variants": [
+        "texere",
+        "text",
+        "tex"
+      ],
+      "origin": "拉丁语 texere（编织）",
+      "core_concept": "to weave / 一根根编到一起",
+      "core_image": "经线纬线交错穿过，散线变成一整块布",
+      "english_definition": "to weave",
+      "word_ids": [
+        "context",
+        "pretext",
+        "text",
+        "textile",
+        "texture"
+      ]
     }
   ]
 }

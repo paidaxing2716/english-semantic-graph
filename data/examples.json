@@ -3395,6 +3395,216 @@
       "text": "Rooms are allocated on arrival.",
       "source": "AI 生成 · 人工审核",
       "scene": "预算表上每一行都填了数目，加起来正好是总额"
+    },
+    {
+      "id": "ex-sequence-1",
+      "word_id": "sequence",
+      "text": "Follow the steps in sequence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "多米诺骨牌排成长龙，每一张都紧挨着前一张"
+    },
+    {
+      "id": "ex-sequence-2",
+      "word_id": "sequence",
+      "text": "The film opens with a chase sequence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "多米诺骨牌排成长龙，每一张都紧挨着前一张"
+    },
+    {
+      "id": "ex-consequence-1",
+      "word_id": "consequence",
+      "text": "He lost his job as a consequence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推倒第一张牌之后，后面整排跟着倒的那个局面"
+    },
+    {
+      "id": "ex-consequence-2",
+      "word_id": "consequence",
+      "text": "It is a matter of little consequence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推倒第一张牌之后，后面整排跟着倒的那个局面"
+    },
+    {
+      "id": "ex-consequently-1",
+      "word_id": "consequently",
+      "text": "Sales fell; consequently, staff were cut.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前一句话讲了原因，这一句就是它牵出来的那一步"
+    },
+    {
+      "id": "ex-consequently-2",
+      "word_id": "consequently",
+      "text": "He arrived late and consequently missed the vote.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前一句话讲了原因，这一句就是它牵出来的那一步"
+    },
+    {
+      "id": "ex-subsequent-1",
+      "word_id": "subsequent",
+      "text": "Subsequent tests confirmed the result.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上被划掉的那天之后的每一格"
+    },
+    {
+      "id": "ex-subsequent-2",
+      "word_id": "subsequent",
+      "text": "In subsequent years the town grew fast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上被划掉的那天之后的每一格"
+    },
+    {
+      "id": "ex-consecutive-1",
+      "word_id": "consecutive",
+      "text": "It rained for six consecutive days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "考勤表上连着五格都打了勾，中间没有空格"
+    },
+    {
+      "id": "ex-consecutive-2",
+      "word_id": "consecutive",
+      "text": "She won three consecutive titles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "考勤表上连着五格都打了勾，中间没有空格"
+    },
+    {
+      "id": "ex-appetite-1",
+      "word_id": "appetite",
+      "text": "The medicine dulled his appetite.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闻到饭香，脚已经朝厨房走了"
+    },
+    {
+      "id": "ex-appetite-2",
+      "word_id": "appetite",
+      "text": "There is little appetite for another war.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闻到饭香，脚已经朝厨房走了"
+    },
+    {
+      "id": "ex-competition-1",
+      "word_id": "competition",
+      "text": "Competition for places is fierce.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个位子几个人同时伸手，只有一只手能按上去"
+    },
+    {
+      "id": "ex-competition-2",
+      "word_id": "competition",
+      "text": "She entered a photography competition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个位子几个人同时伸手，只有一只手能按上去"
+    },
+    {
+      "id": "ex-competent-1",
+      "word_id": "competent",
+      "text": "She is a competent driver.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "岗位要求那一栏和本人条件那一栏逐条对得上"
+    },
+    {
+      "id": "ex-competent-2",
+      "word_id": "competent",
+      "text": "The court is not competent to rule on this.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "岗位要求那一栏和本人条件那一栏逐条对得上"
+    },
+    {
+      "id": "ex-petition-1",
+      "word_id": "petition",
+      "text": "Ten thousand people signed the petition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张纸上密密麻麻签了几百个名字，递进办公室"
+    },
+    {
+      "id": "ex-petition-2",
+      "word_id": "petition",
+      "text": "She petitioned the court for custody.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张纸上密密麻麻签了几百个名字，递进办公室"
+    },
+    {
+      "id": "ex-repetition-1",
+      "word_id": "repetition",
+      "text": "Learning a language needs repetition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一句话被念了第二遍、第三遍，字句没变"
+    },
+    {
+      "id": "ex-repetition-2",
+      "word_id": "repetition",
+      "text": "Avoid needless repetition in your writing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一句话被念了第二遍、第三遍，字句没变"
+    },
+    {
+      "id": "ex-text-1",
+      "word_id": "text",
+      "text": "The text runs to sixty pages.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一页字从头到尾连着读下来，像一整块布而非散线"
+    },
+    {
+      "id": "ex-text-2",
+      "word_id": "text",
+      "text": "Text me when you land.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一页字从头到尾连着读下来，像一整块布而非散线"
+    },
+    {
+      "id": "ex-context-1",
+      "word_id": "context",
+      "text": "The quote makes sense only in context.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把一句话从整块布上剪下来，边缘的线头就断了"
+    },
+    {
+      "id": "ex-context-2",
+      "word_id": "context",
+      "text": "Judge the decision in its historical context.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把一句话从整块布上剪下来，边缘的线头就断了"
+    },
+    {
+      "id": "ex-pretext-1",
+      "word_id": "pretext",
+      "text": "He left early on the pretext of illness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门前挂了一块织好的帘子，帘后的东西没人看见"
+    },
+    {
+      "id": "ex-pretext-2",
+      "word_id": "pretext",
+      "text": "The dispute was a pretext for invasion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门前挂了一块织好的帘子，帘后的东西没人看见"
+    },
+    {
+      "id": "ex-textile-1",
+      "word_id": "textile",
+      "text": "The textile industry employs thousands here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "布匹一卷卷立在架上，凑近能看见经纬线"
+    },
+    {
+      "id": "ex-textile-2",
+      "word_id": "textile",
+      "text": "These textiles are dyed by hand.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "布匹一卷卷立在架上，凑近能看见经纬线"
+    },
+    {
+      "id": "ex-texture-1",
+      "word_id": "texture",
+      "text": "The cloth has a rough texture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指从粗麻布上划过，能摸出一道道棱"
+    },
+    {
+      "id": "ex-texture-2",
+      "word_id": "texture",
+      "text": "The dish had a creamy texture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指从粗麻布上划过，能摸出一道道棱"
     }
   ]
 }

@@ -1,0 +1,656 @@
+{
+  "roots": [
+    {
+      "id": "sequ",
+      "root": "sequ",
+      "variants": [
+        "sequ",
+        "secut"
+      ],
+      "origin": "拉丁语 sequi（跟随）",
+      "core_concept": "to follow / 跟在后面",
+      "core_image": "一队人前后相接地走，后面的人踩着前面的脚印",
+      "english_definition": "to follow",
+      "word_ids": []
+    },
+    {
+      "id": "pet",
+      "root": "pet",
+      "variants": [
+        "pet",
+        "petit"
+      ],
+      "origin": "拉丁语 petere（追求、索求）",
+      "core_concept": "to seek, to strive after / 追着去要",
+      "core_image": "伸手朝一样东西扑过去，非要拿到手",
+      "english_definition": "to seek, to ask for, to strive",
+      "word_ids": []
+    },
+    {
+      "id": "texere",
+      "root": "texere",
+      "variants": [
+        "texere",
+        "text",
+        "tex"
+      ],
+      "origin": "拉丁语 texere（编织）",
+      "core_concept": "to weave / 一根根编到一起",
+      "core_image": "经线纬线交错穿过，散线变成一整块布",
+      "english_definition": "to weave",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-sequ-follow",
+      "concept": "to follow",
+      "chinese": "跟随",
+      "core_image": "一队人前后相接地走，后面踩着前面的脚印",
+      "root_ids": [
+        "sequ"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-pet-seek",
+      "concept": "to seek, to strive after",
+      "chinese": "追求、索取",
+      "core_image": "伸手朝一样东西扑过去，非要拿到手",
+      "root_ids": [
+        "pet"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-texere-weave",
+      "concept": "to weave",
+      "chinese": "编织",
+      "core_image": "经线纬线交错穿过，散线变成一整块布",
+      "root_ids": [
+        "texere"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-transfer": [
+      "sequ"
+    ],
+    "domain-make": [
+      "pet",
+      "texere"
+    ]
+  },
+  "words": [
+    {
+      "id": "sequence",
+      "word": "sequence",
+      "pos": "noun",
+      "phonetic": "/ˈsiːkwəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "sequ（跟随）+ -ence（名词）→ 一个跟着一个排下来的那串 → 顺序",
+      "origin": "拉丁语 sequentia：sequi（跟随）",
+      "native_definition": "a set of things following one another in a particular order",
+      "core_concept": "things following one after another – 一个接一个跟下来的那一串",
+      "core_image": "多米诺骨牌排成长龙，每一张都紧挨着前一张",
+      "chinese": [
+        "顺序",
+        "序列",
+        "一连串"
+      ],
+      "examples": [
+        "Follow the steps in sequence.",
+        "The film opens with a chase sequence."
+      ],
+      "synonyms": [
+        "order",
+        "series"
+      ],
+      "antonyms": [],
+      "related": [
+        "consequence",
+        "consequently",
+        "subsequent",
+        "consecutive"
+      ],
+      "semantic_expansions": [
+        "顺序/序列：一个跟一个排下来的那串",
+        "一连串（镜头）：连着来的那一段。同一个'前后相接'，一个说排列一个说片段"
+      ]
+    },
+    {
+      "id": "consequence",
+      "word": "consequence",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːnsəkwens/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "con-（一起、随之）+ sequ（跟随）+ -ence → 随之跟来的那件事 → 后果",
+      "origin": "拉丁语 consequentia：com-（一起）+ sequi（跟随）",
+      "native_definition": "a result that follows from an action or condition",
+      "core_concept": "what comes following on from something – 紧跟着某事而来的那个",
+      "core_image": "推倒第一张牌之后，后面整排跟着倒的那个局面",
+      "chinese": [
+        "后果",
+        "结果",
+        "重要性"
+      ],
+      "examples": [
+        "He lost his job as a consequence.",
+        "It is a matter of little consequence."
+      ],
+      "synonyms": [
+        "result",
+        "effect"
+      ],
+      "antonyms": [
+        "cause"
+      ],
+      "related": [
+        "sequence",
+        "consequently",
+        "subsequent",
+        "consecutive"
+      ],
+      "semantic_expansions": [
+        "后果/结果：紧跟着来的那件事",
+        "重要性（of consequence）：能带来后续影响的分量。同一个'随之而来'，一个指事一个指分量"
+      ]
+    },
+    {
+      "id": "consequently",
+      "word": "consequently",
+      "pos": "adverb",
+      "phonetic": "/ˈkɑːnsəkwentli/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "consequent（随之跟来的）+ -ly（副词）→ 作为随之而来的结果 → 因此",
+      "origin": "拉丁语 consequens：com-（一起）+ sequi（跟随）",
+      "native_definition": "as a result of what was just mentioned",
+      "core_concept": "following on as a result – 作为跟着来的那一步",
+      "core_image": "前一句话讲了原因，这一句就是它牵出来的那一步",
+      "chinese": [
+        "因此",
+        "结果"
+      ],
+      "examples": [
+        "Sales fell; consequently, staff were cut.",
+        "He arrived late and consequently missed the vote."
+      ],
+      "synonyms": [
+        "therefore",
+        "thus"
+      ],
+      "antonyms": [],
+      "related": [
+        "consequence",
+        "sequence",
+        "subsequent"
+      ],
+      "semantic_expansions": [
+        "因此与结果：都是'作为跟着来的那一步'，中文一个作连词一个作名词"
+      ]
+    },
+    {
+      "id": "subsequent",
+      "word": "subsequent",
+      "pos": "adjective",
+      "phonetic": "/ˈsʌbsɪkwənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "sub-（在下、紧接）+ sequ（跟随）+ -ent → 紧接在后面的 → 随后的",
+      "origin": "拉丁语 subsequens：sub-（紧接）+ sequi（跟随）",
+      "native_definition": "coming after something in time",
+      "core_concept": "coming next in time after – 时间上排在后面的那些",
+      "core_image": "日历上被划掉的那天之后的每一格",
+      "chinese": [
+        "随后的",
+        "后来的"
+      ],
+      "examples": [
+        "Subsequent tests confirmed the result.",
+        "In subsequent years the town grew fast."
+      ],
+      "synonyms": [
+        "later",
+        "following"
+      ],
+      "antonyms": [
+        "previous"
+      ],
+      "related": [
+        "sequence",
+        "consequence",
+        "consecutive",
+        "consequently"
+      ],
+      "semantic_expansions": [
+        "随后的与后来的：都是'时间上排在后面'，中文两种说法同一个位置关系"
+      ]
+    },
+    {
+      "id": "consecutive",
+      "word": "consecutive",
+      "pos": "adjective",
+      "phonetic": "/kənˈsekjətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "con-（一起）+ secut（sequ 的变体，跟随）+ -ive → 一个紧跟一个不断开的 → 连续的",
+      "origin": "拉丁语 consecutivus：com-（一起）+ sequi（跟随）",
+      "native_definition": "following one after another without a break",
+      "core_concept": "following without any gap between – 一个接一个，中间不断开",
+      "core_image": "考勤表上连着五格都打了勾，中间没有空格",
+      "chinese": [
+        "连续的",
+        "接连的"
+      ],
+      "examples": [
+        "It rained for six consecutive days.",
+        "She won three consecutive titles."
+      ],
+      "synonyms": [
+        "successive",
+        "unbroken"
+      ],
+      "antonyms": [],
+      "related": [
+        "sequence",
+        "consequence",
+        "subsequent"
+      ],
+      "semantic_expansions": [
+        "连续的与接连的：都是'一个紧跟一个、中间不断'，中文两种说法同一个内核"
+      ]
+    },
+    {
+      "id": "appetite",
+      "word": "appetite",
+      "pos": "noun",
+      "phonetic": "/ˈæpɪtaɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet"
+      ],
+      "root_logic": "ap-（ad- 的变体，朝向）+ pet（追求）+ -ite → 朝着食物扑过去的那股劲 → 食欲",
+      "origin": "拉丁语 appetitus：ad-（朝向）+ petere（追求）",
+      "native_definition": "a desire for food, or a strong wish for something",
+      "core_concept": "the drive that pushes one toward something – 推着人朝某物扑过去的那股劲",
+      "core_image": "闻到饭香，脚已经朝厨房走了",
+      "chinese": [
+        "食欲",
+        "欲望",
+        "兴趣"
+      ],
+      "examples": [
+        "The medicine dulled his appetite.",
+        "There is little appetite for another war."
+      ],
+      "synonyms": [
+        "hunger",
+        "desire"
+      ],
+      "antonyms": [],
+      "related": [
+        "competition",
+        "competent",
+        "petition",
+        "repetition"
+      ],
+      "semantic_expansions": [
+        "食欲：朝食物扑过去的劲",
+        "欲望/兴趣：朝某样东西扑过去的劲。同一个'追着去要'，要的东西不同"
+      ]
+    },
+    {
+      "id": "competition",
+      "word": "competition",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːmpəˈtɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet"
+      ],
+      "root_logic": "com-（一起）+ pet（追求）+ -ition → 几个人一起追同一样东西 → 竞争",
+      "origin": "拉丁语 competitio：com-（一起）+ petere（追求）",
+      "native_definition": "the activity of trying to win or to do better than others",
+      "core_concept": "several seeking the same thing at once – 几方同时追同一样东西",
+      "core_image": "一个位子几个人同时伸手，只有一只手能按上去",
+      "chinese": [
+        "竞争",
+        "比赛"
+      ],
+      "examples": [
+        "Competition for places is fierce.",
+        "She entered a photography competition."
+      ],
+      "synonyms": [
+        "contest",
+        "rivalry"
+      ],
+      "antonyms": [],
+      "related": [
+        "competent",
+        "appetite",
+        "petition",
+        "repetition"
+      ],
+      "semantic_expansions": [
+        "竞争与比赛：都是'几方同追一样东西'，一个是状态一个是有组织的场合"
+      ]
+    },
+    {
+      "id": "competent",
+      "word": "competent",
+      "pos": "adjective",
+      "phonetic": "/ˈkɑːmpətənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet"
+      ],
+      "root_logic": "com-（一起、相称）+ pet（追求）+ -ent → 能力与所求相称的 → 有能力的",
+      "origin": "拉丁语 competens：com-（一起）+ petere（追求）——原意'相称、够格'",
+      "native_definition": "having enough skill or knowledge to do something well",
+      "core_concept": "matching up to what the task asks – 本事与所要求的相称、够得上",
+      "core_image": "岗位要求那一栏和本人条件那一栏逐条对得上",
+      "chinese": [
+        "有能力的",
+        "胜任的",
+        "合格的"
+      ],
+      "examples": [
+        "She is a competent driver.",
+        "The court is not competent to rule on this."
+      ],
+      "synonyms": [
+        "capable",
+        "qualified"
+      ],
+      "antonyms": [
+        "incompetent"
+      ],
+      "related": [
+        "competition",
+        "appetite",
+        "petition"
+      ],
+      "semantic_expansions": [
+        "有能力的/胜任的/合格的：都是'本事与所求相称、够得上'，中文按场合分了三个词"
+      ]
+    },
+    {
+      "id": "petition",
+      "word": "petition",
+      "pos": "noun",
+      "phonetic": "/pəˈtɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet"
+      ],
+      "root_logic": "pet（索求）+ -ition（名词）→ 正式提出的索求，通常联名 → 请愿书",
+      "origin": "拉丁语 petitio：petere（索求）",
+      "native_definition": "a formal written request, often signed by many people",
+      "core_concept": "a formal asking put forward – 正式递上去的那份索求",
+      "core_image": "一张纸上密密麻麻签了几百个名字，递进办公室",
+      "chinese": [
+        "请愿书",
+        "请求",
+        "上诉"
+      ],
+      "examples": [
+        "Ten thousand people signed the petition.",
+        "She petitioned the court for custody."
+      ],
+      "synonyms": [
+        "appeal",
+        "request"
+      ],
+      "antonyms": [],
+      "related": [
+        "competition",
+        "competent",
+        "appetite",
+        "repetition"
+      ],
+      "semantic_expansions": [
+        "请愿书/请求：正式递上去的索求",
+        "上诉：向法庭递上去的索求。同一个'正式提出所求'，递给谁不同"
+      ]
+    },
+    {
+      "id": "repetition",
+      "word": "repetition",
+      "pos": "noun",
+      "phonetic": "/ˌrepəˈtɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet"
+      ],
+      "root_logic": "re-（再一次）+ pet（追求、去取）+ -ition → 再去取一遍 → 重复",
+      "origin": "拉丁语 repetitio：re-（再）+ petere（追求、取）",
+      "native_definition": "the act of doing or saying something again",
+      "core_concept": "going after the same thing again – 同一样东西再去取一遍",
+      "core_image": "同一句话被念了第二遍、第三遍，字句没变",
+      "chinese": [
+        "重复",
+        "反复"
+      ],
+      "examples": [
+        "Learning a language needs repetition.",
+        "Avoid needless repetition in your writing."
+      ],
+      "synonyms": [
+        "recurrence"
+      ],
+      "antonyms": [],
+      "related": [
+        "petition",
+        "competition",
+        "appetite"
+      ],
+      "semantic_expansions": [
+        "重复与反复：都是'同一样东西再取一遍'，中文按次数感分了两个词"
+      ]
+    },
+    {
+      "id": "text",
+      "word": "text",
+      "pos": "noun",
+      "phonetic": "/tekst/",
+      "decomposable": "root",
+      "root_ids": [
+        "texere"
+      ],
+      "root_logic": "texere 本身即词根，无词缀 → 字句像线一样编织成的那一整片",
+      "origin": "拉丁语 textus：texere（编织）——原意'编织成的东西'",
+      "native_definition": "written words considered as a whole; also to send a message",
+      "core_concept": "words woven into a continuous whole – 字句被编织成连成一片的整体",
+      "core_image": "一页字从头到尾连着读下来，像一整块布而非散线",
+      "chinese": [
+        "文本",
+        "正文",
+        "发短信"
+      ],
+      "examples": [
+        "The text runs to sixty pages.",
+        "Text me when you land."
+      ],
+      "synonyms": [
+        "writing",
+        "message"
+      ],
+      "antonyms": [],
+      "related": [
+        "context",
+        "pretext",
+        "textile",
+        "texture"
+      ],
+      "semantic_expansions": [
+        "文本/正文：字句编织成的那一整片",
+        "发短信（动词）：把字句编成一条发出去。同一个'编织字句'，一个是成品一个是动作"
+      ]
+    },
+    {
+      "id": "context",
+      "word": "context",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːntekst/",
+      "decomposable": "root",
+      "root_ids": [
+        "texere"
+      ],
+      "root_logic": "con-（一起）+ text（编织）→ 与这句话编在一起的周围部分 → 上下文",
+      "origin": "拉丁语 contextus：com-（一起）+ texere（编织）",
+      "native_definition": "the words around a passage, or the situation in which something happens",
+      "core_concept": "what is woven together with it – 与它编织在一起的那些周围部分",
+      "core_image": "把一句话从整块布上剪下来，边缘的线头就断了",
+      "chinese": [
+        "上下文",
+        "语境",
+        "背景"
+      ],
+      "examples": [
+        "The quote makes sense only in context.",
+        "Judge the decision in its historical context."
+      ],
+      "synonyms": [
+        "background",
+        "setting"
+      ],
+      "antonyms": [],
+      "related": [
+        "text",
+        "pretext",
+        "textile",
+        "texture"
+      ],
+      "semantic_expansions": [
+        "上下文/语境：与这句话编在一起的周围文字",
+        "背景（历史）：与这件事编在一起的周围情形。同一个'一起编织'，编的是文字还是情境"
+      ]
+    },
+    {
+      "id": "pretext",
+      "word": "pretext",
+      "pos": "noun",
+      "phonetic": "/ˈpriːtekst/",
+      "decomposable": "root",
+      "root_ids": [
+        "texere"
+      ],
+      "root_logic": "pre-（在前）+ text（编织）→ 事先编好挡在前面的那套话 → 借口",
+      "origin": "拉丁语 praetextus：prae-（在前）+ texere（编织）——原指织在前面的花边",
+      "native_definition": "a false reason given to hide the real one",
+      "core_concept": "a story woven in front to cover the real reason – 事先编好、挡在真实原因前面的那套说法",
+      "core_image": "门前挂了一块织好的帘子，帘后的东西没人看见",
+      "chinese": [
+        "借口",
+        "托辞"
+      ],
+      "examples": [
+        "He left early on the pretext of illness.",
+        "The dispute was a pretext for invasion."
+      ],
+      "synonyms": [
+        "excuse"
+      ],
+      "antonyms": [],
+      "related": [
+        "text",
+        "context",
+        "texture",
+        "textile"
+      ],
+      "semantic_expansions": [
+        "借口与托辞：都是'事先编好挡在真实原因前的说法'，中文两种译法同一个内核"
+      ]
+    },
+    {
+      "id": "textile",
+      "word": "textile",
+      "pos": "noun",
+      "phonetic": "/ˈtekstaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "texere"
+      ],
+      "root_logic": "text（编织）+ -ile（可…的东西）→ 织出来的那种材料 → 纺织品",
+      "origin": "拉丁语 textilis：texere（编织）",
+      "native_definition": "any type of cloth, especially one that is woven",
+      "core_concept": "material made by weaving – 靠编织做出来的那种材料",
+      "core_image": "布匹一卷卷立在架上，凑近能看见经纬线",
+      "chinese": [
+        "纺织品",
+        "布料"
+      ],
+      "examples": [
+        "The textile industry employs thousands here.",
+        "These textiles are dyed by hand."
+      ],
+      "synonyms": [
+        "cloth",
+        "fabric"
+      ],
+      "antonyms": [],
+      "related": [
+        "text",
+        "texture",
+        "context",
+        "pretext"
+      ],
+      "semantic_expansions": [
+        "纺织品与布料：都是'靠编织做出来的材料'，一个偏行业一个偏实物"
+      ]
+    },
+    {
+      "id": "texture",
+      "word": "texture",
+      "pos": "noun",
+      "phonetic": "/ˈtekstʃər/",
+      "decomposable": "root",
+      "root_ids": [
+        "texere"
+      ],
+      "root_logic": "text（编织）+ -ure（名词）→ 编织的疏密所形成的手感 → 质地",
+      "origin": "拉丁语 textura：texere（编织）",
+      "native_definition": "the way a surface feels, or the way parts are combined",
+      "core_concept": "how the weave feels to the hand – 编织的疏密带来的那种手感",
+      "core_image": "手指从粗麻布上划过，能摸出一道道棱",
+      "chinese": [
+        "质地",
+        "手感",
+        "纹理"
+      ],
+      "examples": [
+        "The cloth has a rough texture.",
+        "The dish had a creamy texture."
+      ],
+      "synonyms": [
+        "feel",
+        "grain"
+      ],
+      "antonyms": [],
+      "related": [
+        "textile",
+        "text",
+        "context",
+        "pretext"
+      ],
+      "semantic_expansions": [
+        "质地/手感/纹理：都是'编织疏密带来的那种触感与纹路'，中文按侧重分了三个词"
+      ]
+    }
+  ]
+}

@@ -1650,6 +1650,96 @@
       "to": "allocate",
       "type": "root",
       "note": "al-（ad- 的变体，朝向）+ loc（地点）+ -ate → 给每份指定一个位置 → 分配"
+    },
+    {
+      "from": "sequ",
+      "to": "sequence",
+      "type": "root",
+      "note": "sequ（跟随）+ -ence（名词）→ 一个跟着一个排下来的那串 → 顺序"
+    },
+    {
+      "from": "sequ",
+      "to": "consequence",
+      "type": "root",
+      "note": "con-（一起、随之）+ sequ（跟随）+ -ence → 随之跟来的那件事 → 后果"
+    },
+    {
+      "from": "sequ",
+      "to": "consequently",
+      "type": "root",
+      "note": "consequent（随之跟来的）+ -ly（副词）→ 作为随之而来的结果 → 因此"
+    },
+    {
+      "from": "sequ",
+      "to": "subsequent",
+      "type": "root",
+      "note": "sub-（在下、紧接）+ sequ（跟随）+ -ent → 紧接在后面的 → 随后的"
+    },
+    {
+      "from": "sequ",
+      "to": "consecutive",
+      "type": "root",
+      "note": "con-（一起）+ secut（sequ 的变体，跟随）+ -ive → 一个紧跟一个不断开的 → 连续的"
+    },
+    {
+      "from": "pet",
+      "to": "appetite",
+      "type": "root",
+      "note": "ap-（ad- 的变体，朝向）+ pet（追求）+ -ite → 朝着食物扑过去的那股劲 → 食欲"
+    },
+    {
+      "from": "pet",
+      "to": "competition",
+      "type": "root",
+      "note": "com-（一起）+ pet（追求）+ -ition → 几个人一起追同一样东西 → 竞争"
+    },
+    {
+      "from": "pet",
+      "to": "competent",
+      "type": "root",
+      "note": "com-（一起、相称）+ pet（追求）+ -ent → 能力与所求相称的 → 有能力的"
+    },
+    {
+      "from": "pet",
+      "to": "petition",
+      "type": "root",
+      "note": "pet（索求）+ -ition（名词）→ 正式提出的索求，通常联名 → 请愿书"
+    },
+    {
+      "from": "pet",
+      "to": "repetition",
+      "type": "root",
+      "note": "re-（再一次）+ pet（追求、去取）+ -ition → 再去取一遍 → 重复"
+    },
+    {
+      "from": "texere",
+      "to": "text",
+      "type": "root",
+      "note": "texere 本身即词根，无词缀 → 字句像线一样编织成的那一整片"
+    },
+    {
+      "from": "texere",
+      "to": "context",
+      "type": "root",
+      "note": "con-（一起）+ text（编织）→ 与这句话编在一起的周围部分 → 上下文"
+    },
+    {
+      "from": "texere",
+      "to": "pretext",
+      "type": "root",
+      "note": "pre-（在前）+ text（编织）→ 事先编好挡在前面的那套话 → 借口"
+    },
+    {
+      "from": "texere",
+      "to": "textile",
+      "type": "root",
+      "note": "text（编织）+ -ile（可…的东西）→ 织出来的那种材料 → 纺织品"
+    },
+    {
+      "from": "texere",
+      "to": "texture",
+      "type": "root",
+      "note": "text（编织）+ -ure（名词）→ 编织的疏密所形成的手感 → 质地"
     }
   ]
 }

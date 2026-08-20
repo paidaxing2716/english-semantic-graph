@@ -45,7 +45,8 @@
         "rect",
         "mov",
         "vert",
-        "flu"
+        "flu",
+        "sequ"
       ]
     },
     {
@@ -90,7 +91,9 @@
         "stru",
         "quir",
         "gen",
-        "plic"
+        "plic",
+        "pet",
+        "texere"
       ]
     }
   ]
