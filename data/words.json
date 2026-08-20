@@ -21805,6 +21805,1400 @@
       "semantic_expansions": [
         "成功的与有成就的：都是'一步步走到了目标'，一个说结果一个说其人"
       ]
+    },
+    {
+      "id": "detail",
+      "word": "detail",
+      "pos": "noun",
+      "phonetic": "/ˈdiːteɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "taillier"
+      ],
+      "root_logic": "de-（完全）+ taillier（切）→ 从整体中细细切出的部分",
+      "origin": "古法语 detail：de- + taillier（切开）",
+      "native_definition": "a small individual part of a larger whole",
+      "core_concept": "a small piece cut out for close attention – 从整体中切出来单独细看的小部分",
+      "core_image": "一幅大图被放大，其中一小角显出细密纹路",
+      "chinese": [
+        "细节",
+        "详情",
+        "详述"
+      ],
+      "examples": [
+        "The report includes every important detail.",
+        "She described the scene in detail."
+      ],
+      "synonyms": [
+        "particular",
+        "specifics"
+      ],
+      "antonyms": [
+        "overview"
+      ],
+      "related": [
+        "entail",
+        "retail",
+        "tailor"
+      ],
+      "semantic_expansions": [
+        "细节/详情：从整体中切出并单独查看的小部分",
+        "详述（动词）：把整体切成小部分逐项说清"
+      ]
+    },
+    {
+      "id": "entail",
+      "word": "entail",
+      "pos": "verb",
+      "phonetic": "/ɪnˈteɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "taillier"
+      ],
+      "root_logic": "en-（使进入）+ taillier（切、刻）→ 把条件刻进安排里，使其必然随附",
+      "origin": "古法语 entaillier（刻入）；法律义先指以限定方式安排地产，后泛化为必然包含",
+      "native_definition": "to make something necessary or to involve it as a consequence",
+      "core_concept": "having a condition cut into an arrangement so it must come with it – 条件被刻进安排，无法单独拿掉",
+      "core_image": "合同边缘刻着一道条件，签下主体也同时带上它",
+      "chinese": [
+        "使必要",
+        "牵涉",
+        "必然包含"
+      ],
+      "examples": [
+        "The job entails frequent travel.",
+        "Repairing the roof will entail considerable expense."
+      ],
+      "synonyms": [
+        "involve",
+        "require"
+      ],
+      "antonyms": [],
+      "related": [
+        "detail",
+        "retail",
+        "tailor"
+      ],
+      "semantic_expansions": [
+        "使必要/必然包含：条件已经刻进安排，接受主体就必须连带接受它",
+        "牵涉：某事随主要行动一并被带进来"
+      ]
+    },
+    {
+      "id": "retail",
+      "word": "retail",
+      "pos": "noun",
+      "phonetic": "/ˈriːteɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "taillier"
+      ],
+      "root_logic": "re-（再次、分回）+ taillier（切）→ 从大宗货物中再切成小份出售",
+      "origin": "古法语 retaillier（切下一块）；retail 原指零切出售",
+      "native_definition": "the sale of goods to the public in small quantities",
+      "core_concept": "cutting bulk goods into portions for individual buyers – 把大宗货切成个人能买的小份",
+      "core_image": "一整卷布在柜台上按顾客需要一段段剪下",
+      "chinese": [
+        "零售",
+        "零售业",
+        "零售的"
+      ],
+      "examples": [
+        "The company sells its products at retail.",
+        "Online retail has grown rapidly."
+      ],
+      "synonyms": [
+        "commerce",
+        "selling"
+      ],
+      "antonyms": [
+        "wholesale"
+      ],
+      "related": [
+        "detail",
+        "entail",
+        "tailor"
+      ],
+      "semantic_expansions": [
+        "零售：把大宗货物分切成面向个人的小份",
+        "零售业/零售的：围绕这种分份出售形成的行业或属性"
+      ]
+    },
+    {
+      "id": "tailor",
+      "word": "tailor",
+      "pos": "noun",
+      "phonetic": "/ˈteɪlər/",
+      "decomposable": "root",
+      "root_ids": [
+        "taillier"
+      ],
+      "root_logic": "taillier（切、裁）+ 人称后缀 → 按尺寸裁布的人",
+      "origin": "古法语 tailleur（裁切者），来自 taillier（切）",
+      "native_definition": "a person who makes fitted clothes, or to adapt something for a purpose",
+      "core_concept": "cutting material to fit one particular body or need – 按特定对象的尺寸裁出合身形状",
+      "core_image": "一双手沿着粉笔线下剪，让布片恰好贴合一个人的尺寸",
+      "chinese": [
+        "裁缝",
+        "专门制作",
+        "使适合"
+      ],
+      "examples": [
+        "The tailor adjusted the jacket sleeves.",
+        "The course is tailored to beginners."
+      ],
+      "synonyms": [
+        "dressmaker",
+        "adapt"
+      ],
+      "antonyms": [],
+      "related": [
+        "detail",
+        "entail",
+        "retail"
+      ],
+      "semantic_expansions": [
+        "裁缝：按人的尺寸裁布者",
+        "使适合：像裁衣一样按具体需要改造内容"
+      ]
+    },
+    {
+      "id": "president",
+      "word": "president",
+      "pos": "noun",
+      "phonetic": "/ˈprezɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sedere"
+      ],
+      "root_logic": "pre-（在前）+ sid（坐）+ -ent（人）→ 坐在众人前面主持的人",
+      "origin": "拉丁语 praesidens，praesidere（坐在前面、主持）的现在分词",
+      "native_definition": "the elected head of a republic or the person in charge of an organization",
+      "core_concept": "the person seated before a group to preside over it – 坐在众人前面主持事务的人",
+      "core_image": "会议桌前端有一个主位，坐在那里的人主持全场",
+      "chinese": [
+        "总统",
+        "主席",
+        "会长"
+      ],
+      "examples": [
+        "The president addressed the nation.",
+        "She was elected president of the association."
+      ],
+      "synonyms": [
+        "leader",
+        "chairperson"
+      ],
+      "antonyms": [],
+      "related": [
+        "residence",
+        "resident",
+        "subsidy"
+      ],
+      "semantic_expansions": [
+        "总统/主席/会长：都指坐在集体前面主持事务的人，中文按组织层级区分"
+      ]
+    },
+    {
+      "id": "residence",
+      "word": "residence",
+      "pos": "noun",
+      "phonetic": "/ˈrezɪdəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "sedere"
+      ],
+      "root_logic": "re-（留在、回到）+ sid（坐）+ -ence → 稳定坐落并居住的地方",
+      "origin": "拉丁语 residentia，来自 residere（留下、居住）",
+      "native_definition": "the place where someone lives, especially officially",
+      "core_concept": "a place where someone settles and remains – 一个人坐定并长期留下的地方",
+      "core_image": "夜里一栋房子的窗户亮起，住户每天都回到这里",
+      "chinese": [
+        "住所",
+        "居住",
+        "官邸"
+      ],
+      "examples": [
+        "The form asks for your place of residence.",
+        "The ambassador returned to the official residence."
+      ],
+      "synonyms": [
+        "home",
+        "dwelling"
+      ],
+      "antonyms": [],
+      "related": [
+        "president",
+        "resident",
+        "subsidy"
+      ],
+      "semantic_expansions": [
+        "住所/官邸：人稳定居住的地点，官邸强调职务身份",
+        "居住：在某处坐定并持续留下的状态"
+      ]
+    },
+    {
+      "id": "resident",
+      "word": "resident",
+      "pos": "noun",
+      "phonetic": "/ˈrezɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sedere"
+      ],
+      "root_logic": "re-（留在）+ sid（坐）+ -ent（人）→ 在一个地方坐定并长期留下的人",
+      "origin": "拉丁语 residens，residere（留下、居住）的现在分词",
+      "native_definition": "a person who lives in a particular place, or staying in a place",
+      "core_concept": "someone settled in a particular place – 在某地坐定并长期留下的人",
+      "core_image": "公寓门口的一排信箱写着长期住在这里的人的名字",
+      "chinese": [
+        "居民",
+        "住户",
+        "居住的"
+      ],
+      "examples": [
+        "Local residents opposed the plan.",
+        "She is resident in London."
+      ],
+      "synonyms": [
+        "inhabitant",
+        "occupant"
+      ],
+      "antonyms": [],
+      "related": [
+        "president",
+        "residence",
+        "subsidy"
+      ],
+      "semantic_expansions": [
+        "居民/住户：在某地稳定留下的人",
+        "居住的：说明某人或事物固定留在该处"
+      ]
+    },
+    {
+      "id": "subsidy",
+      "word": "subsidy",
+      "pos": "noun",
+      "phonetic": "/ˈsʌbsədi/",
+      "decomposable": "root",
+      "root_ids": [
+        "sedere"
+      ],
+      "root_logic": "sub-（在后、在下）+ sid（坐）→ 坐在后方待命的后备力量 → 支援款项",
+      "origin": "拉丁语 subsidium（后备部队、援助），来自 subsidere（坐在后方待命）",
+      "native_definition": "money given by a government or organization to support an activity",
+      "core_concept": "support kept sitting in reserve behind an activity – 留在后方、需要时托住事情的支援",
+      "core_image": "主力资金快见底时，后方一只储备钱袋被推到桌前",
+      "chinese": [
+        "补贴",
+        "津贴",
+        "补助金"
+      ],
+      "examples": [
+        "Farmers receive a government subsidy.",
+        "The museum depends on public subsidies."
+      ],
+      "synonyms": [
+        "grant",
+        "support"
+      ],
+      "antonyms": [],
+      "related": [
+        "president",
+        "residence",
+        "resident"
+      ],
+      "semantic_expansions": [
+        "补贴/津贴/补助金：都是后方拨出的支援资金，中文按对象和制度区分"
+      ]
+    },
+    {
+      "id": "correlate",
+      "word": "correlate",
+      "pos": "verb",
+      "phonetic": "/ˈkɒrəleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "referre"
+      ],
+      "root_logic": "cor-（共同）+ relate（带入联系）→ 把两项共同带到一条线上比较",
+      "origin": "现代拉丁语 correlatio：com-（共同）+ relatio（关联）",
+      "native_definition": "to show or have a mutual relationship",
+      "core_concept": "bringing two changing things onto the same line – 把两个变化项带到一起看它们是否同步",
+      "core_image": "两条数据曲线叠在同一张图上，一起升降",
+      "chinese": [
+        "相关",
+        "使相互关联",
+        "关联物"
+      ],
+      "examples": [
+        "Income tends to correlate with education.",
+        "Researchers correlated the two sets of data."
+      ],
+      "synonyms": [
+        "associate",
+        "connect"
+      ],
+      "antonyms": [
+        "separate"
+      ],
+      "related": [
+        "relate",
+        "relation",
+        "relationship"
+      ],
+      "semantic_expansions": [
+        "相关/使相互关联：把两项带到同一条线上寻找共同变化",
+        "关联物：在这条联系中与另一项对应的事物"
+      ]
+    },
+    {
+      "id": "relate",
+      "word": "relate",
+      "pos": "verb",
+      "phonetic": "/rɪˈleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "referre"
+      ],
+      "root_logic": "re-（带回）+ lat（ferre 的过去分词词干，带）→ 把一件事带回另一件事旁边 → 关联或讲述",
+      "origin": "拉丁语 relatus，referre（带回、报告）的过去分词",
+      "native_definition": "to connect things, tell an account, or understand someone's experience",
+      "core_concept": "carrying one thing back beside another – 把一件事带到另一件事旁边形成联系",
+      "core_image": "说话者把过去发生的事一件件带回听众面前",
+      "chinese": [
+        "联系",
+        "讲述",
+        "理解并认同"
+      ],
+      "examples": [
+        "The study relates diet to health.",
+        "She related the whole incident to the police.",
+        "Many readers can relate to the character."
+      ],
+      "synonyms": [
+        "connect",
+        "recount"
+      ],
+      "antonyms": [
+        "disconnect"
+      ],
+      "related": [
+        "correlate",
+        "relation",
+        "relationship"
+      ],
+      "semantic_expansions": [
+        "联系：把两件事带到一起",
+        "讲述：把过去的事情带回听者面前",
+        "理解并认同：把别人的经历带回自己的经验旁边比较"
+      ]
+    },
+    {
+      "id": "relation",
+      "word": "relation",
+      "pos": "noun",
+      "phonetic": "/rɪˈleɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "referre"
+      ],
+      "root_logic": "relate（带到一起）+ -ion → 两件事被带到一起后形成的联系",
+      "origin": "拉丁语 relatio（带回、报告、联系），来自 referre",
+      "native_definition": "a connection between people, groups, or things",
+      "core_concept": "the connection formed by bringing things together – 事物被带到一起后形成的那条联系",
+      "core_image": "两座分开的岛之间架起一座桥，双方因此相连",
+      "chinese": [
+        "关系",
+        "联系",
+        "亲属"
+      ],
+      "examples": [
+        "The relation between the two variables is unclear.",
+        "Diplomatic relations have improved."
+      ],
+      "synonyms": [
+        "connection",
+        "association"
+      ],
+      "antonyms": [
+        "separation"
+      ],
+      "related": [
+        "correlate",
+        "relate",
+        "relationship"
+      ],
+      "semantic_expansions": [
+        "关系/联系：事物被带到一起后形成的连接",
+        "亲属：由共同血缘把人带到一起的一类关系"
+      ]
+    },
+    {
+      "id": "relationship",
+      "word": "relationship",
+      "pos": "noun",
+      "phonetic": "/rɪˈleɪʃnʃɪp/",
+      "decomposable": "root",
+      "root_ids": [
+        "referre"
+      ],
+      "root_logic": "relation（联系）+ -ship（状态）→ 联系持续存在的状态与方式",
+      "origin": "英语 relation + -ship，relation 最终来自拉丁语 referre（带回）",
+      "native_definition": "the way in which people or things are connected",
+      "core_concept": "an ongoing state of connection – 一条联系持续存在并形成固定相处方式",
+      "core_image": "两个人之间的一根线经过长期往来变成稳定的纽带",
+      "chinese": [
+        "关系",
+        "人际关系",
+        "关联"
+      ],
+      "examples": [
+        "They have a close working relationship.",
+        "The chart shows the relationship between cost and quality."
+      ],
+      "synonyms": [
+        "connection",
+        "bond"
+      ],
+      "antonyms": [
+        "estrangement"
+      ],
+      "related": [
+        "correlate",
+        "relate",
+        "relation"
+      ],
+      "semantic_expansions": [
+        "关系/关联：两方持续相连的方式",
+        "人际关系：这种持续连接发生在人与人之间"
+      ]
+    },
+    {
+      "id": "practical",
+      "word": "practical",
+      "pos": "adjective",
+      "phonetic": "/ˈpræktɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "prassein"
+      ],
+      "root_logic": "pract（做）+ -ical（…的）→ 能拿来实际做、能解决现实问题的",
+      "origin": "希腊语 praktikos（适合行动的），来自 prassein（做）",
+      "native_definition": "concerned with real situations and likely to work effectively",
+      "core_concept": "suited to being done in the real world – 放到现实中能真正做成的",
+      "core_image": "方案从纸面搬到工作台，工具材料都刚好用得上",
+      "chinese": [
+        "实际的",
+        "实用的",
+        "实践的"
+      ],
+      "examples": [
+        "We need a practical solution.",
+        "The course provides practical experience."
+      ],
+      "synonyms": [
+        "realistic",
+        "useful"
+      ],
+      "antonyms": [
+        "impractical"
+      ],
+      "related": [
+        "practically",
+        "practise",
+        "practitioner"
+      ],
+      "semantic_expansions": [
+        "实际的/实践的：着眼于真实行动而非纯理论",
+        "实用的：放进现实行动后确实能解决问题"
+      ]
+    },
+    {
+      "id": "practically",
+      "word": "practically",
+      "pos": "adverb",
+      "phonetic": "/ˈpræktɪkli/",
+      "decomposable": "root",
+      "root_ids": [
+        "prassein"
+      ],
+      "root_logic": "practical（实际可做的）+ -ly → 从实际操作看；进一步表示几乎已经如此",
+      "origin": "英语 practical + -ly；practical 最终来自希腊语 prassein（做）",
+      "native_definition": "in a realistic way, or almost completely",
+      "core_concept": "judged by what happens in actual action – 按真正做起来的结果判断",
+      "core_image": "进度条只剩细细一格，实际看已经等于完成",
+      "chinese": [
+        "实际上",
+        "实用地",
+        "几乎"
+      ],
+      "examples": [
+        "Practically speaking, the plan is impossible.",
+        "The hall was practically empty."
+      ],
+      "synonyms": [
+        "virtually",
+        "realistically"
+      ],
+      "antonyms": [],
+      "related": [
+        "practical",
+        "practise",
+        "practitioner"
+      ],
+      "semantic_expansions": [
+        "实际上/实用地：按现实行动而不是抽象说法判断",
+        "几乎：实际效果已经接近完整状态，只差极小一步"
+      ]
+    },
+    {
+      "id": "practise",
+      "word": "practise",
+      "pos": "verb",
+      "phonetic": "/ˈpræktɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "prassein"
+      ],
+      "root_logic": "pract（做）+ -ise（使、反复进行）→ 反复实际去做以形成能力",
+      "origin": "中古英语 practisen，来自古法语 practiser，最终源自希腊语 prassein（做）",
+      "native_definition": "to do an activity repeatedly to improve, or to work in a profession",
+      "core_concept": "doing an action repeatedly until it becomes reliable – 一遍遍实际去做直到熟练",
+      "core_image": "同一段旋律被每天重复弹奏，手指越来越顺",
+      "chinese": [
+        "练习",
+        "实行",
+        "从事职业"
+      ],
+      "examples": [
+        "She practises the piano every morning.",
+        "He practises law in Manchester."
+      ],
+      "synonyms": [
+        "rehearse",
+        "exercise"
+      ],
+      "antonyms": [
+        "neglect"
+      ],
+      "related": [
+        "practical",
+        "practically",
+        "practitioner"
+      ],
+      "semantic_expansions": [
+        "练习：反复实际去做以提高能力",
+        "实行：把原则落实为行动",
+        "从事职业：长期实际执行某种专业工作"
+      ]
+    },
+    {
+      "id": "practitioner",
+      "word": "practitioner",
+      "pos": "noun",
+      "phonetic": "/prækˈtɪʃənər/",
+      "decomposable": "root",
+      "root_ids": [
+        "prassein"
+      ],
+      "root_logic": "practise（实际从事）+ -er（人）→ 长期实际从事某项专业工作的人",
+      "origin": "英语 practitioner，来自 practise；最终源自希腊语 prassein（做）",
+      "native_definition": "a person actively engaged in a profession or skilled practice",
+      "core_concept": "a person who regularly carries out a skilled practice – 经常亲手执行专业工作的人",
+      "core_image": "诊室里的人不是只读理论，而是每天亲自处理真实病例",
+      "chinese": [
+        "从业者",
+        "执业者",
+        "实践者"
+      ],
+      "examples": [
+        "The clinic needs an experienced medical practitioner.",
+        "She is a leading practitioner of the method."
+      ],
+      "synonyms": [
+        "professional",
+        "specialist"
+      ],
+      "antonyms": [],
+      "related": [
+        "practical",
+        "practically",
+        "practise"
+      ],
+      "semantic_expansions": [
+        "从业者/执业者：实际执行某种专业工作的人",
+        "实践者：把一种方法持续落实为行动的人"
+      ]
+    },
+    {
+      "id": "physical",
+      "word": "physical",
+      "pos": "adjective",
+      "phonetic": "/ˈfɪzɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "physis"
+      ],
+      "root_logic": "phys（自然、身体）+ -ical（…的）→ 属于可观察自然或身体实体的",
+      "origin": "拉丁语 physicalis，来自希腊语 physikos（自然的），源于 physis（自然）",
+      "native_definition": "relating to the body, material things, or the laws of nature",
+      "core_concept": "belonging to material nature and the body – 属于可触摸的自然实体与身体",
+      "core_image": "手掌碰到石块，能感到它真实的重量和硬度",
+      "chinese": [
+        "身体的",
+        "物质的",
+        "物理的"
+      ],
+      "examples": [
+        "Regular physical activity improves health.",
+        "The device suffered physical damage."
+      ],
+      "synonyms": [
+        "bodily",
+        "material"
+      ],
+      "antonyms": [
+        "mental"
+      ],
+      "related": [
+        "physician",
+        "physicist",
+        "physics"
+      ],
+      "semantic_expansions": [
+        "身体的：指自然生长的身体实体",
+        "物质的：指可触摸和测量的自然实体",
+        "物理的：指这些实体遵循的自然规律"
+      ]
+    },
+    {
+      "id": "physician",
+      "word": "physician",
+      "pos": "noun",
+      "phonetic": "/fɪˈzɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "physis"
+      ],
+      "root_logic": "physic（自然知识、医术）+ -ian（从业者）→ 研究并照料身体自然状态的人",
+      "origin": "中古英语 fisicien，来自古法语，最终源自希腊语 physis（自然）；中世纪 physic 兼指自然学与医术",
+      "native_definition": "a medical doctor, especially one treating illness without surgery",
+      "core_concept": "a specialist in the body's natural condition – 诊察身体状态并帮助其恢复的人",
+      "core_image": "医生观察脉搏、呼吸和体温，从身体迹象判断病情",
+      "chinese": [
+        "医师",
+        "内科医生"
+      ],
+      "examples": [
+        "The physician examined the patient carefully.",
+        "Consult your physician before changing the dose."
+      ],
+      "synonyms": [
+        "doctor",
+        "clinician"
+      ],
+      "antonyms": [],
+      "related": [
+        "physical",
+        "physicist",
+        "physics"
+      ],
+      "semantic_expansions": [
+        "医师：研究并处理身体自然状态的专业人员",
+        "内科医生：现代语境中常特指主要用非外科方法治疗的人"
+      ]
+    },
+    {
+      "id": "physicist",
+      "word": "physicist",
+      "pos": "noun",
+      "phonetic": "/ˈfɪzɪsɪst/",
+      "decomposable": "root",
+      "root_ids": [
+        "physis"
+      ],
+      "root_logic": "physics（自然规律之学）+ -ist（研究者）→ 研究物质与能量规律的人",
+      "origin": "英语 physicist，来自 physics；physics 最终源自希腊语 physis（自然）",
+      "native_definition": "a scientist who studies matter, energy, and natural forces",
+      "core_concept": "a researcher of the rules governing material nature – 寻找物质世界运行规律的人",
+      "core_image": "实验室里一束光穿过仪器，研究者记录它如何偏转",
+      "chinese": [
+        "物理学家"
+      ],
+      "examples": [
+        "The physicist developed a new model of matter.",
+        "Several physicists repeated the experiment."
+      ],
+      "synonyms": [
+        "scientist",
+        "researcher"
+      ],
+      "antonyms": [],
+      "related": [
+        "physical",
+        "physician",
+        "physics"
+      ],
+      "semantic_expansions": []
+    },
+    {
+      "id": "physics",
+      "word": "physics",
+      "pos": "noun",
+      "phonetic": "/ˈfɪzɪks/",
+      "decomposable": "root",
+      "root_ids": [
+        "physis"
+      ],
+      "root_logic": "phys（自然）+ -ics（学科）→ 研究自然物质、能量与运动规律的学科",
+      "origin": "希腊语 ta physika（关于自然之事），来自 physis（自然）",
+      "native_definition": "the science of matter, energy, motion, and forces",
+      "core_concept": "the systematic study of material nature – 系统寻找物质自然如何运行",
+      "core_image": "小球沿斜面滚下，刻度和计时器把运动规律记录下来",
+      "chinese": [
+        "物理学",
+        "物理现象"
+      ],
+      "examples": [
+        "She studies physics at university.",
+        "The physics of flight is complex."
+      ],
+      "synonyms": [
+        "science",
+        "mechanics"
+      ],
+      "antonyms": [],
+      "related": [
+        "physical",
+        "physician",
+        "physicist"
+      ],
+      "semantic_expansions": [
+        "物理学：系统研究物质与能量的自然规律",
+        "物理现象：某件事背后实际运行的那些规律"
+      ]
+    },
+    {
+      "id": "compass",
+      "word": "compass",
+      "pos": "noun",
+      "phonetic": "/ˈkʌmpəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "passare"
+      ],
+      "root_logic": "com-（共同、环绕）+ pass（步）→ 绕着边界一步步走量 → 圈定范围与定向工具",
+      "origin": "中古英语 compas，来自古法语 compasser（丈量、绕行），与 passus（步）相关",
+      "native_definition": "an instrument showing direction, or the range and limits of something",
+      "core_concept": "pacing around a boundary to establish direction and range – 绕着范围走量以确定方向和界限",
+      "core_image": "人在空地绕一圈丈量边界，再用指针确认北方",
+      "chinese": [
+        "指南针",
+        "圆规",
+        "范围"
+      ],
+      "examples": [
+        "Use a compass to find north.",
+        "The issue lies beyond the compass of this study."
+      ],
+      "synonyms": [
+        "guide",
+        "range"
+      ],
+      "antonyms": [],
+      "related": [
+        "pass",
+        "passage",
+        "surpass"
+      ],
+      "semantic_expansions": [
+        "指南针：帮助行路者确定该往哪一步走",
+        "圆规：绕中心划定圆形边界",
+        "范围：被绕行丈量后圈定的界限"
+      ]
+    },
+    {
+      "id": "pass",
+      "word": "pass",
+      "pos": "verb",
+      "phonetic": "/pæs/",
+      "decomposable": "root",
+      "root_ids": [
+        "passare"
+      ],
+      "root_logic": "passare（迈步经过）→ 从一边走过界线到另一边",
+      "origin": "古法语 passer，来自晚期拉丁语 passare（迈步、经过）",
+      "native_definition": "to move beyond a point, give something onward, or succeed in a test",
+      "core_concept": "moving across a point and onward – 跨过一个位置继续向前",
+      "core_image": "接力棒越过两人之间的界线，被递到下一只手里",
+      "chinese": [
+        "经过",
+        "通过",
+        "传递"
+      ],
+      "examples": [
+        "We passed the station at noon.",
+        "She passed the exam.",
+        "Please pass the salt."
+      ],
+      "synonyms": [
+        "cross",
+        "succeed"
+      ],
+      "antonyms": [
+        "fail"
+      ],
+      "related": [
+        "compass",
+        "passage",
+        "surpass"
+      ],
+      "semantic_expansions": [
+        "经过：身体跨过一个地点",
+        "通过：跨过考试设下的标准线",
+        "传递：让物品越过人与人之间的界线"
+      ]
+    },
+    {
+      "id": "passage",
+      "word": "passage",
+      "pos": "noun",
+      "phonetic": "/ˈpæsɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "passare"
+      ],
+      "root_logic": "pass（经过）+ -age（过程或结果）→ 经过某处的通道、过程或一段文字",
+      "recall_hint": "先抓住 pass 的‘跨过’：它既可以是供移动穿过的一段路径，也可以是时间推进的过程，还可以是阅读时从头走到尾的一段文字。",
+      "origin": "古法语 passage，来自 passer（经过）",
+      "native_definition": "the act or route of passing, or a section of text",
+      "core_concept": "a route or segment through which movement proceeds – 让移动穿过的一段路径",
+      "core_image": "墙中留出一条窄道，人可以从一个房间走到另一个房间",
+      "chinese": [
+        "通道",
+        "经过",
+        "段落"
+      ],
+      "examples": [
+        "A narrow passage led to the garden.",
+        "The passage of time changed the town.",
+        "Read the final passage carefully."
+      ],
+      "synonyms": [
+        "corridor",
+        "extract"
+      ],
+      "antonyms": [],
+      "related": [
+        "compass",
+        "pass",
+        "surpass"
+      ],
+      "semantic_expansions": [
+        "通道：供人经过的路径",
+        "经过：跨越过程本身",
+        "段落：阅读时从头走到尾的一段文字"
+      ]
+    },
+    {
+      "id": "surpass",
+      "word": "surpass",
+      "pos": "verb",
+      "phonetic": "/sərˈpæs/",
+      "decomposable": "root",
+      "root_ids": [
+        "passare"
+      ],
+      "root_logic": "sur-（越过、在上）+ pass（经过）→ 走过对方所在的位置 → 超过",
+      "origin": "古法语 surpasser：sur-（在上、越过）+ passer（经过）",
+      "native_definition": "to do or be better or greater than someone or something",
+      "core_concept": "passing beyond another person's level – 跨过对方所处的标线继续向前",
+      "core_image": "两名跑者并排时，其中一人再迈一步越到前面",
+      "chinese": [
+        "超过",
+        "胜过",
+        "超越"
+      ],
+      "examples": [
+        "Sales surpassed all expectations.",
+        "Her latest work surpasses the earlier novel."
+      ],
+      "synonyms": [
+        "exceed",
+        "outdo"
+      ],
+      "antonyms": [
+        "trail"
+      ],
+      "related": [
+        "compass",
+        "pass",
+        "passage"
+      ],
+      "semantic_expansions": [
+        "超过/超越：跨过原有数量或水平线",
+        "胜过：跨过竞争者所在的位置"
+      ]
+    },
+    {
+      "id": "historian",
+      "word": "historian",
+      "pos": "noun",
+      "phonetic": "/hɪˈstɔːriən/",
+      "decomposable": "root",
+      "root_ids": [
+        "historia"
+      ],
+      "root_logic": "histor(y)（调查记录）+ -ian（从事者）→ 研究并书写过去记录的人",
+      "origin": "英语 historian，来自 history；最终源自希腊语 historia（调查、叙述）",
+      "native_definition": "a person who studies and writes about the past",
+      "core_concept": "a person who investigates evidence and builds an account of the past – 查证材料并重建过去叙述的人",
+      "core_image": "书桌上摊着档案、旧信和地图，研究者逐项核对年代",
+      "chinese": [
+        "历史学家",
+        "史学工作者"
+      ],
+      "examples": [
+        "The historian examined newly opened archives.",
+        "Historians disagree about the cause of the war."
+      ],
+      "synonyms": [
+        "scholar",
+        "researcher"
+      ],
+      "antonyms": [],
+      "related": [
+        "historic",
+        "historical",
+        "history"
+      ],
+      "semantic_expansions": [
+        "历史学家/史学工作者：都指调查证据并组织过去叙述的人，中文按语境正式程度区分"
+      ]
+    },
+    {
+      "id": "historic",
+      "word": "historic",
+      "pos": "adjective",
+      "phonetic": "/hɪˈstɒrɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "historia"
+      ],
+      "root_logic": "histor(y)（历史记录）+ -ic → 值得写进历史记录的 → 有历史重大意义的",
+      "origin": "英语 historic，来自 history；最终源自希腊语 historia",
+      "native_definition": "important enough to be remembered in history",
+      "core_concept": "important enough to enter the lasting account – 重要到会被写进长期记录",
+      "core_image": "签字笔落下的一刻，大批记者把这一事件记录下来",
+      "chinese": [
+        "有历史意义的",
+        "历史性的"
+      ],
+      "examples": [
+        "The leaders signed a historic agreement.",
+        "It was a historic victory for the team."
+      ],
+      "synonyms": [
+        "momentous",
+        "landmark"
+      ],
+      "antonyms": [
+        "insignificant"
+      ],
+      "related": [
+        "historian",
+        "historical",
+        "history"
+      ],
+      "semantic_expansions": [
+        "有历史意义的/历史性的：重要到会被后人持续记述；不是泛指任何过去的事物"
+      ]
+    },
+    {
+      "id": "historical",
+      "word": "historical",
+      "pos": "adjective",
+      "phonetic": "/hɪˈstɒrɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "historia"
+      ],
+      "root_logic": "history（历史记录）+ -ical → 与过去记录或历史研究有关的",
+      "origin": "英语 historical，来自 history；最终源自希腊语 historia",
+      "native_definition": "connected with the study or events of the past",
+      "core_concept": "belonging to the evidence and account of the past – 属于过去材料与叙述范围的",
+      "core_image": "博物馆展柜里陈列旧地图，标签注明它来自哪个年代",
+      "chinese": [
+        "历史的",
+        "有关历史的",
+        "史实的"
+      ],
+      "examples": [
+        "The novel is based on historical events.",
+        "We need to examine the historical evidence."
+      ],
+      "synonyms": [
+        "documented",
+        "past"
+      ],
+      "antonyms": [],
+      "related": [
+        "historian",
+        "historic",
+        "history"
+      ],
+      "semantic_expansions": [
+        "历史的/有关历史的：泛指与过去事件或研究有关",
+        "史实的：强调叙述能够由历史材料支持；与 historic 的重大意义不同"
+      ]
+    },
+    {
+      "id": "history",
+      "word": "history",
+      "pos": "noun",
+      "phonetic": "/ˈhɪstri/",
+      "decomposable": "root",
+      "root_ids": [
+        "historia"
+      ],
+      "root_logic": "historia（调查、叙述）→ 对过去进行调查后形成的记录",
+      "origin": "希腊语 historia（调查所得的知识、叙述），经拉丁语和古法语进入英语",
+      "native_definition": "the study and record of past events, or a person's previous experience",
+      "core_concept": "an investigated account of what happened before – 对已经发生之事的查证与记述",
+      "core_image": "一卷时间轴把散落的旧事件按先后顺序连接起来",
+      "chinese": [
+        "历史",
+        "历史学",
+        "经历"
+      ],
+      "examples": [
+        "She teaches modern European history.",
+        "The patient has a history of heart disease."
+      ],
+      "synonyms": [
+        "past",
+        "record"
+      ],
+      "antonyms": [
+        "future"
+      ],
+      "related": [
+        "historian",
+        "historic",
+        "historical"
+      ],
+      "semantic_expansions": [
+        "历史/历史学：对过去事件的记录与系统研究",
+        "经历：某个人或事物过去发生过的事情记录"
+      ]
+    },
+    {
+      "id": "electric",
+      "word": "electric",
+      "pos": "adjective",
+      "phonetic": "/ɪˈlektrɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "elektron"
+      ],
+      "root_logic": "electr（琥珀摩擦产生的电现象）+ -ic → 由电荷驱动或带电的",
+      "origin": "新拉丁语 electricus（像琥珀一样能吸引），来自希腊语 elektron（琥珀）",
+      "native_definition": "using, producing, or charged with electricity",
+      "core_concept": "driven by or carrying electric charge – 由电荷推动或自身带有电荷",
+      "core_image": "插头接通后，电流沿导线进入机器让它运转",
+      "chinese": [
+        "电的",
+        "电动的",
+        "带电的"
+      ],
+      "examples": [
+        "They bought an electric car.",
+        "The wire carries an electric current."
+      ],
+      "synonyms": [
+        "powered",
+        "charged"
+      ],
+      "antonyms": [
+        "manual"
+      ],
+      "related": [
+        "electrical",
+        "electrician",
+        "electricity"
+      ],
+      "semantic_expansions": [
+        "电的/带电的：直接涉及电荷和电流",
+        "电动的：以电流作为运转动力"
+      ]
+    },
+    {
+      "id": "electrical",
+      "word": "electrical",
+      "pos": "adjective",
+      "phonetic": "/ɪˈlektrɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "elektron"
+      ],
+      "root_logic": "electric（电的）+ -al（有关…的）→ 与电力系统、设备或电学有关的",
+      "origin": "英语 electric + -al；electric 最终来自希腊语 elektron（琥珀）",
+      "native_definition": "relating to electricity, especially systems and equipment",
+      "core_concept": "connected with systems that carry and use charge – 与传送和使用电流的系统有关",
+      "core_image": "墙内成束导线连接配电箱与各个插座",
+      "chinese": [
+        "电气的",
+        "电力的",
+        "有关电的"
+      ],
+      "examples": [
+        "The building needs extensive electrical repairs.",
+        "She studies electrical engineering."
+      ],
+      "synonyms": [
+        "electric",
+        "technical"
+      ],
+      "antonyms": [],
+      "related": [
+        "electric",
+        "electrician",
+        "electricity"
+      ],
+      "semantic_expansions": [
+        "电气的/电力的：多指完整的供电系统和设备",
+        "有关电的：泛指与电现象或电学相关；electric 常直接修饰由电驱动的东西"
+      ]
+    },
+    {
+      "id": "electrician",
+      "word": "electrician",
+      "pos": "noun",
+      "phonetic": "/ɪˌlekˈtrɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "elektron"
+      ],
+      "root_logic": "electric（电）+ -ian（专业人员）→ 安装和维修电力线路设备的人",
+      "origin": "英语 electrician，来自 electric；electric 最终来自希腊语 elektron（琥珀）",
+      "native_definition": "a person trained to install and repair electrical systems",
+      "core_concept": "a specialist who works directly with systems carrying current – 亲手处理电流线路与设备的人",
+      "core_image": "技术人员打开配电箱，用仪表逐根检查线路",
+      "chinese": [
+        "电工",
+        "电气技师"
+      ],
+      "examples": [
+        "Call an electrician to inspect the wiring.",
+        "The electrician replaced the damaged cable."
+      ],
+      "synonyms": [
+        "technician",
+        "installer"
+      ],
+      "antonyms": [],
+      "related": [
+        "electric",
+        "electrical",
+        "electricity"
+      ],
+      "semantic_expansions": [
+        "电工/电气技师：都指安装维修电力系统的人，后者更强调专业技术身份"
+      ]
+    },
+    {
+      "id": "electricity",
+      "word": "electricity",
+      "pos": "noun",
+      "phonetic": "/ɪˌlekˈtrɪsəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "elektron"
+      ],
+      "root_logic": "electric（电荷作用的）+ -ity（状态）→ 电荷存在、移动所形成的能量和现象",
+      "origin": "英语 electricity，来自 electric；electricus 原指琥珀摩擦后的吸引性质",
+      "native_definition": "a form of energy resulting from charged particles, especially when flowing as current",
+      "core_concept": "energy produced by the presence and movement of charge – 电荷存在和移动形成的能量",
+      "core_image": "开关闭合后，电荷沿导线流动，灯丝随即发亮",
+      "chinese": [
+        "电",
+        "电力",
+        "电学现象"
+      ],
+      "examples": [
+        "The storm cut off the electricity.",
+        "Electricity flows through the cable."
+      ],
+      "synonyms": [
+        "power",
+        "current"
+      ],
+      "antonyms": [],
+      "related": [
+        "electric",
+        "electrical",
+        "electrician"
+      ],
+      "semantic_expansions": [
+        "电/电力：可输送并驱动设备的电能",
+        "电学现象：电荷静止或移动时表现出的各种作用"
+      ]
+    },
+    {
+      "id": "economic",
+      "word": "economic",
+      "pos": "adjective",
+      "phonetic": "/ˌiːkəˈnɒmɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "oikonomia"
+      ],
+      "root_logic": "econom（管理资源）+ -ic → 与生产、分配和整体资源体系有关的",
+      "origin": "法语 économique，来自希腊语 oikonomikos；根源为 oikonomia（家政管理）",
+      "native_definition": "relating to the production, distribution, and use of wealth and resources",
+      "core_concept": "belonging to the system that organizes resources – 属于整个资源生产和分配体系的",
+      "core_image": "城市地图上，工厂、市场、家庭与资金流被线条连成一个系统",
+      "chinese": [
+        "经济的",
+        "经济上的",
+        "经济学的"
+      ],
+      "examples": [
+        "The country faces serious economic problems.",
+        "Economic growth slowed this year."
+      ],
+      "synonyms": [
+        "financial",
+        "commercial"
+      ],
+      "antonyms": [],
+      "related": [
+        "economical",
+        "economics",
+        "economy"
+      ],
+      "semantic_expansions": [
+        "经济的/经济上的：涉及社会整体资源如何生产和分配",
+        "经济学的：涉及研究这套资源体系的学科"
+      ]
+    },
+    {
+      "id": "economical",
+      "word": "economical",
+      "pos": "adjective",
+      "phonetic": "/ˌiːkəˈnɒmɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "oikonomia"
+      ],
+      "root_logic": "econom（管理资源）+ -ical → 会精打细算、不浪费资源的",
+      "origin": "英语 economical，来自 economic；最终源自希腊语 oikonomia（家政管理）",
+      "native_definition": "using money, time, or resources carefully without waste",
+      "core_concept": "managing a limited supply with little waste – 把有限资源安排得够用而不浪费",
+      "core_image": "同样一箱燃料，这台机器安排得当，运行时间更长",
+      "chinese": [
+        "节约的",
+        "经济实惠的",
+        "省耗的"
+      ],
+      "examples": [
+        "This small car is economical to run.",
+        "We need a more economical use of water."
+      ],
+      "synonyms": [
+        "thrifty",
+        "efficient"
+      ],
+      "antonyms": [
+        "wasteful"
+      ],
+      "related": [
+        "economic",
+        "economics",
+        "economy"
+      ],
+      "semantic_expansions": [
+        "节约的/省耗的：管理资源时尽量减少浪费",
+        "经济实惠的：花费与所得安排得划算；不同于 economic 的宏观经济含义"
+      ]
+    },
+    {
+      "id": "economics",
+      "word": "economics",
+      "pos": "noun",
+      "phonetic": "/ˌiːkəˈnɒmɪks/",
+      "decomposable": "root",
+      "root_ids": [
+        "oikonomia"
+      ],
+      "root_logic": "econom（管理资源）+ -ics（学科）→ 研究稀缺资源如何生产、分配和使用的学科",
+      "origin": "英语 economics，来自 economy；最终源自希腊语 oikonomia（家政管理）",
+      "native_definition": "the study of how resources, goods, and services are produced and distributed",
+      "core_concept": "the systematic study of allocating limited resources – 系统研究有限资源如何安排",
+      "core_image": "黑板上一边写有限预算，一边画出家庭、企业和政府之间的流动箭头",
+      "chinese": [
+        "经济学",
+        "经济状况"
+      ],
+      "examples": [
+        "She studied economics at university.",
+        "The economics of the project remain uncertain."
+      ],
+      "synonyms": [
+        "finance",
+        "commerce"
+      ],
+      "antonyms": [],
+      "related": [
+        "economic",
+        "economical",
+        "economy"
+      ],
+      "semantic_expansions": [
+        "经济学：研究资源生产与分配的学科",
+        "经济状况（the economics of）：某个项目的成本收益结构"
+      ]
+    },
+    {
+      "id": "economy",
+      "word": "economy",
+      "pos": "noun",
+      "phonetic": "/ɪˈkɒnəmi/",
+      "decomposable": "root",
+      "root_ids": [
+        "oikonomia"
+      ],
+      "root_logic": "oiko-（家）+ nom-（管理规则）→ 原指管理一个家，后扩大为管理社会资源的整体体系",
+      "origin": "希腊语 oikonomia（家政管理），由 oikos（家）+ nomos（规则、管理）构成",
+      "native_definition": "the system by which a society organizes production and resources, or careful use without waste",
+      "core_concept": "an organized household enlarged to society – 把整个社会的资源像一个家一样安排",
+      "core_image": "一个巨大的家庭账本里同时记录生产、交易、收入和支出",
+      "chinese": [
+        "经济",
+        "经济体",
+        "节约"
+      ],
+      "examples": [
+        "Tourism is vital to the local economy.",
+        "We must achieve greater economy in fuel use."
+      ],
+      "synonyms": [
+        "market",
+        "thrift"
+      ],
+      "antonyms": [
+        "waste"
+      ],
+      "related": [
+        "economic",
+        "economical",
+        "economics"
+      ],
+      "semantic_expansions": [
+        "经济/经济体：社会范围内组织生产和分配资源的整体",
+        "节约：回到家政管理本义，谨慎安排有限资源避免浪费"
+      ]
     }
   ]
 }

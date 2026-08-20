@@ -7651,6 +7651,531 @@
       "text": "She is a successful architect.",
       "source": "AI 生成 · 人工审核",
       "scene": "登顶那一刻回头，走过的路全在脚下"
+    },
+    {
+      "id": "ex-detail-1",
+      "word_id": "detail",
+      "text": "The report includes every important detail.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一幅大图被放大，其中一小角显出细密纹路"
+    },
+    {
+      "id": "ex-detail-2",
+      "word_id": "detail",
+      "text": "She described the scene in detail.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一幅大图被放大，其中一小角显出细密纹路"
+    },
+    {
+      "id": "ex-entail-1",
+      "word_id": "entail",
+      "text": "The job entails frequent travel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "合同边缘刻着一道条件，签下主体也同时带上它"
+    },
+    {
+      "id": "ex-entail-2",
+      "word_id": "entail",
+      "text": "Repairing the roof will entail considerable expense.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "合同边缘刻着一道条件，签下主体也同时带上它"
+    },
+    {
+      "id": "ex-retail-1",
+      "word_id": "retail",
+      "text": "The company sells its products at retail.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整卷布在柜台上按顾客需要一段段剪下"
+    },
+    {
+      "id": "ex-retail-2",
+      "word_id": "retail",
+      "text": "Online retail has grown rapidly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整卷布在柜台上按顾客需要一段段剪下"
+    },
+    {
+      "id": "ex-tailor-1",
+      "word_id": "tailor",
+      "text": "The tailor adjusted the jacket sleeves.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "裁缝沿着粉笔线下剪，让布片恰好贴合一个人的尺寸"
+    },
+    {
+      "id": "ex-tailor-2",
+      "word_id": "tailor",
+      "text": "The course is tailored to beginners.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "裁缝沿着粉笔线下剪，让布片恰好贴合一个人的尺寸"
+    },
+    {
+      "id": "ex-president-1",
+      "word_id": "president",
+      "text": "The president addressed the nation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议桌前端有一个主位，坐在那里的人主持全场"
+    },
+    {
+      "id": "ex-president-2",
+      "word_id": "president",
+      "text": "She was elected president of the association.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议桌前端有一个主位，坐在那里的人主持全场"
+    },
+    {
+      "id": "ex-residence-1",
+      "word_id": "residence",
+      "text": "The form asks for your place of residence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "夜里一栋房子的窗户亮起，住户每天都回到这里"
+    },
+    {
+      "id": "ex-residence-2",
+      "word_id": "residence",
+      "text": "The ambassador returned to the official residence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "夜里一栋房子的窗户亮起，住户每天都回到这里"
+    },
+    {
+      "id": "ex-resident-1",
+      "word_id": "resident",
+      "text": "Local residents opposed the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "公寓门口的一排信箱写着长期住在这里的人的名字"
+    },
+    {
+      "id": "ex-resident-2",
+      "word_id": "resident",
+      "text": "She is resident in London.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "公寓门口的一排信箱写着长期住在这里的人的名字"
+    },
+    {
+      "id": "ex-subsidy-1",
+      "word_id": "subsidy",
+      "text": "Farmers receive a government subsidy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主力资金快见底时，后方一只储备钱袋被推到桌前"
+    },
+    {
+      "id": "ex-subsidy-2",
+      "word_id": "subsidy",
+      "text": "The museum depends on public subsidies.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主力资金快见底时，后方一只储备钱袋被推到桌前"
+    },
+    {
+      "id": "ex-correlate-1",
+      "word_id": "correlate",
+      "text": "Income tends to correlate with education.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条数据曲线叠在同一张图上，一起升降"
+    },
+    {
+      "id": "ex-correlate-2",
+      "word_id": "correlate",
+      "text": "Researchers correlated the two sets of data.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条数据曲线叠在同一张图上，一起升降"
+    },
+    {
+      "id": "ex-relate-1",
+      "word_id": "relate",
+      "text": "The study relates diet to health.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话者把过去发生的事一件件带回听众面前"
+    },
+    {
+      "id": "ex-relate-2",
+      "word_id": "relate",
+      "text": "She related the whole incident to the police.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话者把过去发生的事一件件带回听众面前"
+    },
+    {
+      "id": "ex-relate-3",
+      "word_id": "relate",
+      "text": "Many readers can relate to the character.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话者把过去发生的事一件件带回听众面前"
+    },
+    {
+      "id": "ex-relation-1",
+      "word_id": "relation",
+      "text": "The relation between the two variables is unclear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两座分开的岛之间架起一座桥，双方因此相连"
+    },
+    {
+      "id": "ex-relation-2",
+      "word_id": "relation",
+      "text": "Diplomatic relations have improved.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两座分开的岛之间架起一座桥，双方因此相连"
+    },
+    {
+      "id": "ex-relationship-1",
+      "word_id": "relationship",
+      "text": "They have a close working relationship.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人之间的一根线经过长期往来变成稳定的纽带"
+    },
+    {
+      "id": "ex-relationship-2",
+      "word_id": "relationship",
+      "text": "The chart shows the relationship between cost and quality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人之间的一根线经过长期往来变成稳定的纽带"
+    },
+    {
+      "id": "ex-practical-1",
+      "word_id": "practical",
+      "text": "We need a practical solution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "方案从纸面搬到工作台，工具材料都刚好用得上"
+    },
+    {
+      "id": "ex-practical-2",
+      "word_id": "practical",
+      "text": "The course provides practical experience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "方案从纸面搬到工作台，工具材料都刚好用得上"
+    },
+    {
+      "id": "ex-practically-1",
+      "word_id": "practically",
+      "text": "Practically speaking, the plan is impossible.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "进度条只剩细细一格，实际看已经等于完成"
+    },
+    {
+      "id": "ex-practically-2",
+      "word_id": "practically",
+      "text": "The hall was practically empty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "进度条只剩细细一格，实际看已经等于完成"
+    },
+    {
+      "id": "ex-practise-1",
+      "word_id": "practise",
+      "text": "She practises the piano every morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一段旋律被每天重复弹奏，手指越来越顺"
+    },
+    {
+      "id": "ex-practise-2",
+      "word_id": "practise",
+      "text": "He practises law in Manchester.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一段旋律被每天重复弹奏，手指越来越顺"
+    },
+    {
+      "id": "ex-practitioner-1",
+      "word_id": "practitioner",
+      "text": "The clinic needs an experienced medical practitioner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "诊室里的人不是只读理论，而是每天亲自处理真实病例"
+    },
+    {
+      "id": "ex-practitioner-2",
+      "word_id": "practitioner",
+      "text": "She is a leading practitioner of the method.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "诊室里的人不是只读理论，而是每天亲自处理真实病例"
+    },
+    {
+      "id": "ex-physical-1",
+      "word_id": "physical",
+      "text": "Regular physical activity improves health.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手掌碰到石块，能感到它真实的重量和硬度"
+    },
+    {
+      "id": "ex-physical-2",
+      "word_id": "physical",
+      "text": "The device suffered physical damage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手掌碰到石块，能感到它真实的重量和硬度"
+    },
+    {
+      "id": "ex-physician-1",
+      "word_id": "physician",
+      "text": "The physician examined the patient carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生观察脉搏、呼吸和体温，从身体迹象判断病情"
+    },
+    {
+      "id": "ex-physician-2",
+      "word_id": "physician",
+      "text": "Consult your physician before changing the dose.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生观察脉搏、呼吸和体温，从身体迹象判断病情"
+    },
+    {
+      "id": "ex-physicist-1",
+      "word_id": "physicist",
+      "text": "The physicist developed a new model of matter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "实验室里一束光穿过仪器，研究者记录它如何偏转"
+    },
+    {
+      "id": "ex-physicist-2",
+      "word_id": "physicist",
+      "text": "Several physicists repeated the experiment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "实验室里一束光穿过仪器，研究者记录它如何偏转"
+    },
+    {
+      "id": "ex-physics-1",
+      "word_id": "physics",
+      "text": "She studies physics at university.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小球沿斜面滚下，刻度和计时器把运动规律记录下来"
+    },
+    {
+      "id": "ex-physics-2",
+      "word_id": "physics",
+      "text": "The physics of flight is complex.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小球沿斜面滚下，刻度和计时器把运动规律记录下来"
+    },
+    {
+      "id": "ex-compass-1",
+      "word_id": "compass",
+      "text": "Use a compass to find north.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人在空地绕一圈丈量边界，再用指针确认北方"
+    },
+    {
+      "id": "ex-compass-2",
+      "word_id": "compass",
+      "text": "The issue lies beyond the compass of this study.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人在空地绕一圈丈量边界，再用指针确认北方"
+    },
+    {
+      "id": "ex-pass-1",
+      "word_id": "pass",
+      "text": "We passed the station at noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "接力棒越过两人之间的界线，被递到下一只手里"
+    },
+    {
+      "id": "ex-pass-2",
+      "word_id": "pass",
+      "text": "She passed the exam.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "接力棒越过两人之间的界线，被递到下一只手里"
+    },
+    {
+      "id": "ex-pass-3",
+      "word_id": "pass",
+      "text": "Please pass the salt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "接力棒越过两人之间的界线，被递到下一只手里"
+    },
+    {
+      "id": "ex-passage-1",
+      "word_id": "passage",
+      "text": "A narrow passage led to the garden.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙中留出一条窄道，人可以从一个房间走到另一个房间"
+    },
+    {
+      "id": "ex-passage-2",
+      "word_id": "passage",
+      "text": "The passage of time changed the town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙中留出一条窄道，人可以从一个房间走到另一个房间"
+    },
+    {
+      "id": "ex-passage-3",
+      "word_id": "passage",
+      "text": "Read the final passage carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙中留出一条窄道，人可以从一个房间走到另一个房间"
+    },
+    {
+      "id": "ex-surpass-1",
+      "word_id": "surpass",
+      "text": "Sales surpassed all expectations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两名跑者并排时，其中一人再迈一步越到前面"
+    },
+    {
+      "id": "ex-surpass-2",
+      "word_id": "surpass",
+      "text": "Her latest work surpasses the earlier novel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两名跑者并排时，其中一人再迈一步越到前面"
+    },
+    {
+      "id": "ex-historian-1",
+      "word_id": "historian",
+      "text": "The historian examined newly opened archives.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书桌上摊着档案、旧信和地图，研究者逐项核对年代"
+    },
+    {
+      "id": "ex-historian-2",
+      "word_id": "historian",
+      "text": "Historians disagree about the cause of the war.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书桌上摊着档案、旧信和地图，研究者逐项核对年代"
+    },
+    {
+      "id": "ex-historic-1",
+      "word_id": "historic",
+      "text": "The leaders signed a historic agreement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签字笔落下的一刻，大批记者把这一事件记录下来"
+    },
+    {
+      "id": "ex-historic-2",
+      "word_id": "historic",
+      "text": "It was a historic victory for the team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签字笔落下的一刻，大批记者把这一事件记录下来"
+    },
+    {
+      "id": "ex-historical-1",
+      "word_id": "historical",
+      "text": "The novel is based on historical events.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "博物馆展柜里陈列旧地图，标签注明它来自哪个年代"
+    },
+    {
+      "id": "ex-historical-2",
+      "word_id": "historical",
+      "text": "We need to examine the historical evidence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "博物馆展柜里陈列旧地图，标签注明它来自哪个年代"
+    },
+    {
+      "id": "ex-history-1",
+      "word_id": "history",
+      "text": "She teaches modern European history.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一卷时间轴把散落的旧事件按先后顺序连接起来"
+    },
+    {
+      "id": "ex-history-2",
+      "word_id": "history",
+      "text": "The patient has a history of heart disease.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一卷时间轴把散落的旧事件按先后顺序连接起来"
+    },
+    {
+      "id": "ex-electric-1",
+      "word_id": "electric",
+      "text": "They bought an electric car.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "插头接通后，电流沿导线进入机器让它运转"
+    },
+    {
+      "id": "ex-electric-2",
+      "word_id": "electric",
+      "text": "The wire carries an electric current.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "插头接通后，电流沿导线进入机器让它运转"
+    },
+    {
+      "id": "ex-electrical-1",
+      "word_id": "electrical",
+      "text": "The building needs extensive electrical repairs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙内成束导线连接配电箱与各个插座"
+    },
+    {
+      "id": "ex-electrical-2",
+      "word_id": "electrical",
+      "text": "She studies electrical engineering.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙内成束导线连接配电箱与各个插座"
+    },
+    {
+      "id": "ex-electrician-1",
+      "word_id": "electrician",
+      "text": "Call an electrician to inspect the wiring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "技术人员打开配电箱，用仪表逐根检查线路"
+    },
+    {
+      "id": "ex-electrician-2",
+      "word_id": "electrician",
+      "text": "The electrician replaced the damaged cable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "技术人员打开配电箱，用仪表逐根检查线路"
+    },
+    {
+      "id": "ex-electricity-1",
+      "word_id": "electricity",
+      "text": "The storm cut off the electricity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "开关闭合后，电荷沿导线流动，灯丝随即发亮"
+    },
+    {
+      "id": "ex-electricity-2",
+      "word_id": "electricity",
+      "text": "Electricity flows through the cable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "开关闭合后，电荷沿导线流动，灯丝随即发亮"
+    },
+    {
+      "id": "ex-economic-1",
+      "word_id": "economic",
+      "text": "The country faces serious economic problems.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "城市地图上，工厂、市场、家庭与资金流被线条连成一个系统"
+    },
+    {
+      "id": "ex-economic-2",
+      "word_id": "economic",
+      "text": "Economic growth slowed this year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "城市地图上，工厂、市场、家庭与资金流被线条连成一个系统"
+    },
+    {
+      "id": "ex-economical-1",
+      "word_id": "economical",
+      "text": "This small car is economical to run.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一箱燃料，这台机器安排得当，运行时间更长"
+    },
+    {
+      "id": "ex-economical-2",
+      "word_id": "economical",
+      "text": "We need a more economical use of water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一箱燃料，这台机器安排得当，运行时间更长"
+    },
+    {
+      "id": "ex-economics-1",
+      "word_id": "economics",
+      "text": "She studied economics at university.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上一边写有限预算，一边画出家庭、企业和政府之间的流动箭头"
+    },
+    {
+      "id": "ex-economics-2",
+      "word_id": "economics",
+      "text": "The economics of the project remain uncertain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上一边写有限预算，一边画出家庭、企业和政府之间的流动箭头"
+    },
+    {
+      "id": "ex-economy-1",
+      "word_id": "economy",
+      "text": "Tourism is vital to the local economy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个巨大的家庭账本里同时记录生产、交易、收入和支出"
+    },
+    {
+      "id": "ex-economy-2",
+      "word_id": "economy",
+      "text": "We must achieve greater economy in fuel use.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个巨大的家庭账本里同时记录生产、交易、收入和支出"
     }
   ]
 }

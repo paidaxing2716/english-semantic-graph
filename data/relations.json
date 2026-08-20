@@ -3426,6 +3426,222 @@
       "to": "successful",
       "type": "root",
       "note": "success（一步步走到目标）+ -ful（充满…的）→ 走到了目标的 → 成功的"
+    },
+    {
+      "from": "taillier",
+      "to": "detail",
+      "type": "root",
+      "note": "de-（完全）+ taillier（切）→ 从整体中细细切出的部分"
+    },
+    {
+      "from": "taillier",
+      "to": "entail",
+      "type": "root",
+      "note": "en-（使进入）+ taillier（切、刻）→ 把条件刻进安排里，使其必然随附"
+    },
+    {
+      "from": "taillier",
+      "to": "retail",
+      "type": "root",
+      "note": "re-（再次、分回）+ taillier（切）→ 从大宗货物中再切成小份出售"
+    },
+    {
+      "from": "taillier",
+      "to": "tailor",
+      "type": "root",
+      "note": "taillier（切、裁）+ 人称后缀 → 按尺寸裁布的人"
+    },
+    {
+      "from": "sedere",
+      "to": "president",
+      "type": "root",
+      "note": "pre-（在前）+ sid（坐）+ -ent（人）→ 坐在众人前面主持的人"
+    },
+    {
+      "from": "sedere",
+      "to": "residence",
+      "type": "root",
+      "note": "re-（留在、回到）+ sid（坐）+ -ence → 稳定坐落并居住的地方"
+    },
+    {
+      "from": "sedere",
+      "to": "resident",
+      "type": "root",
+      "note": "re-（留在）+ sid（坐）+ -ent（人）→ 在一个地方坐定并长期留下的人"
+    },
+    {
+      "from": "sedere",
+      "to": "subsidy",
+      "type": "root",
+      "note": "sub-（在后、在下）+ sid（坐）→ 坐在后方待命的后备力量 → 支援款项"
+    },
+    {
+      "from": "referre",
+      "to": "correlate",
+      "type": "root",
+      "note": "cor-（共同）+ relate（带入联系）→ 把两项共同带到一条线上比较"
+    },
+    {
+      "from": "referre",
+      "to": "relate",
+      "type": "root",
+      "note": "re-（带回）+ lat（ferre 的过去分词词干，带）→ 把一件事带回另一件事旁边 → 关联或讲述"
+    },
+    {
+      "from": "referre",
+      "to": "relation",
+      "type": "root",
+      "note": "relate（带到一起）+ -ion → 两件事被带到一起后形成的联系"
+    },
+    {
+      "from": "referre",
+      "to": "relationship",
+      "type": "root",
+      "note": "relation（联系）+ -ship（状态）→ 联系持续存在的状态与方式"
+    },
+    {
+      "from": "prassein",
+      "to": "practical",
+      "type": "root",
+      "note": "pract（做）+ -ical（…的）→ 能拿来实际做、能解决现实问题的"
+    },
+    {
+      "from": "prassein",
+      "to": "practically",
+      "type": "root",
+      "note": "practical（实际可做的）+ -ly → 从实际操作看；进一步表示几乎已经如此"
+    },
+    {
+      "from": "prassein",
+      "to": "practise",
+      "type": "root",
+      "note": "pract（做）+ -ise（使、反复进行）→ 反复实际去做以形成能力"
+    },
+    {
+      "from": "prassein",
+      "to": "practitioner",
+      "type": "root",
+      "note": "practise（实际从事）+ -er（人）→ 长期实际从事某项专业工作的人"
+    },
+    {
+      "from": "physis",
+      "to": "physical",
+      "type": "root",
+      "note": "phys（自然、身体）+ -ical（…的）→ 属于可观察自然或身体实体的"
+    },
+    {
+      "from": "physis",
+      "to": "physician",
+      "type": "root",
+      "note": "physic（自然知识、医术）+ -ian（从业者）→ 研究并照料身体自然状态的人"
+    },
+    {
+      "from": "physis",
+      "to": "physicist",
+      "type": "root",
+      "note": "physics（自然规律之学）+ -ist（研究者）→ 研究物质与能量规律的人"
+    },
+    {
+      "from": "physis",
+      "to": "physics",
+      "type": "root",
+      "note": "phys（自然）+ -ics（学科）→ 研究自然物质、能量与运动规律的学科"
+    },
+    {
+      "from": "passare",
+      "to": "compass",
+      "type": "root",
+      "note": "com-（共同、环绕）+ pass（步）→ 绕着边界一步步走量 → 圈定范围与定向工具"
+    },
+    {
+      "from": "passare",
+      "to": "pass",
+      "type": "root",
+      "note": "passare（迈步经过）→ 从一边走过界线到另一边"
+    },
+    {
+      "from": "passare",
+      "to": "passage",
+      "type": "root",
+      "note": "pass（经过）+ -age（过程或结果）→ 经过某处的通道、过程或一段文字"
+    },
+    {
+      "from": "passare",
+      "to": "surpass",
+      "type": "root",
+      "note": "sur-（越过、在上）+ pass（经过）→ 走过对方所在的位置 → 超过"
+    },
+    {
+      "from": "historia",
+      "to": "historian",
+      "type": "root",
+      "note": "histor(y)（调查记录）+ -ian（从事者）→ 研究并书写过去记录的人"
+    },
+    {
+      "from": "historia",
+      "to": "historic",
+      "type": "root",
+      "note": "histor(y)（历史记录）+ -ic → 值得写进历史记录的 → 有历史重大意义的"
+    },
+    {
+      "from": "historia",
+      "to": "historical",
+      "type": "root",
+      "note": "history（历史记录）+ -ical → 与过去记录或历史研究有关的"
+    },
+    {
+      "from": "historia",
+      "to": "history",
+      "type": "root",
+      "note": "historia（调查、叙述）→ 对过去进行调查后形成的记录"
+    },
+    {
+      "from": "elektron",
+      "to": "electric",
+      "type": "root",
+      "note": "electr（琥珀摩擦产生的电现象）+ -ic → 由电荷驱动或带电的"
+    },
+    {
+      "from": "elektron",
+      "to": "electrical",
+      "type": "root",
+      "note": "electric（电的）+ -al（有关…的）→ 与电力系统、设备或电学有关的"
+    },
+    {
+      "from": "elektron",
+      "to": "electrician",
+      "type": "root",
+      "note": "electric（电）+ -ian（专业人员）→ 安装和维修电力线路设备的人"
+    },
+    {
+      "from": "elektron",
+      "to": "electricity",
+      "type": "root",
+      "note": "electric（电荷作用的）+ -ity（状态）→ 电荷存在、移动所形成的能量和现象"
+    },
+    {
+      "from": "oikonomia",
+      "to": "economic",
+      "type": "root",
+      "note": "econom（管理资源）+ -ic → 与生产、分配和整体资源体系有关的"
+    },
+    {
+      "from": "oikonomia",
+      "to": "economical",
+      "type": "root",
+      "note": "econom（管理资源）+ -ical → 会精打细算、不浪费资源的"
+    },
+    {
+      "from": "oikonomia",
+      "to": "economics",
+      "type": "root",
+      "note": "econom（管理资源）+ -ics（学科）→ 研究稀缺资源如何生产、分配和使用的学科"
+    },
+    {
+      "from": "oikonomia",
+      "to": "economy",
+      "type": "root",
+      "note": "oiko-（家）+ nom-（管理规则）→ 原指管理一个家，后扩大为管理社会资源的整体体系"
     }
   ]
 }

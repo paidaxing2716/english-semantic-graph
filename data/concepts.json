@@ -1568,6 +1568,141 @@
         "inventory",
         "invite"
       ]
+    },
+    {
+      "id": "concept-taillier-cut",
+      "concept": "to cut into a measured piece",
+      "chinese": "裁切、分出",
+      "core_image": "剪刀沿线把整块材料裁成所需的小块",
+      "root_ids": [
+        "taillier"
+      ],
+      "word_ids": [
+        "detail",
+        "entail",
+        "retail",
+        "tailor"
+      ]
+    },
+    {
+      "id": "concept-sedere-sit",
+      "concept": "to sit and remain in position",
+      "chinese": "坐定、驻留",
+      "core_image": "人走到指定座位坐下，稳定地留在那里",
+      "root_ids": [
+        "sedere"
+      ],
+      "word_ids": [
+        "president",
+        "residence",
+        "resident",
+        "subsidy"
+      ]
+    },
+    {
+      "id": "concept-referre-connect",
+      "concept": "to bring back into connection",
+      "chinese": "带回并关联",
+      "core_image": "两张分开的卡片被拿到一起，用线连成一组",
+      "root_ids": [
+        "referre"
+      ],
+      "word_ids": [
+        "correlate",
+        "relate",
+        "relation",
+        "relationship"
+      ]
+    },
+    {
+      "id": "concept-prassein-do",
+      "concept": "to put into actual action",
+      "chinese": "实行、实做",
+      "core_image": "双手按步骤把图纸上的想法装成实物",
+      "root_ids": [
+        "prassein"
+      ],
+      "word_ids": [
+        "practical",
+        "practically",
+        "practise",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "concept-physis-nature",
+      "concept": "nature grown into being",
+      "chinese": "自然、本性",
+      "core_image": "种子破土长成植株，显出内在结构和规律",
+      "root_ids": [
+        "physis"
+      ],
+      "word_ids": [
+        "physical",
+        "physician",
+        "physicist",
+        "physics"
+      ]
+    },
+    {
+      "id": "concept-passare-step",
+      "concept": "to step and go beyond",
+      "chinese": "迈过、经过",
+      "core_image": "一只脚跨过门槛，从这一边移动到另一边",
+      "root_ids": [
+        "passare"
+      ],
+      "word_ids": [
+        "compass",
+        "pass",
+        "passage",
+        "surpass"
+      ]
+    },
+    {
+      "id": "concept-historia-inquiry",
+      "concept": "an inquiry turned into an account",
+      "chinese": "调查与记述",
+      "core_image": "调查者收集证词和旧物，再按顺序写成记录",
+      "root_ids": [
+        "historia"
+      ],
+      "word_ids": [
+        "historian",
+        "historic",
+        "historical",
+        "history"
+      ]
+    },
+    {
+      "id": "concept-elektron-charge",
+      "concept": "attraction and charge first seen in amber",
+      "chinese": "电荷与吸引",
+      "core_image": "琥珀在布上摩擦后吸起桌面的细小羽毛",
+      "root_ids": [
+        "elektron"
+      ],
+      "word_ids": [
+        "electric",
+        "electrical",
+        "electrician",
+        "electricity"
+      ]
+    },
+    {
+      "id": "concept-oikonomia-manage",
+      "concept": "to manage limited resources",
+      "chinese": "资源管理",
+      "core_image": "管家把有限的钱粮分配到日常需要和储备中",
+      "root_ids": [
+        "oikonomia"
+      ],
+      "word_ids": [
+        "economic",
+        "economical",
+        "economics",
+        "economy"
+      ]
     }
   ]
 }

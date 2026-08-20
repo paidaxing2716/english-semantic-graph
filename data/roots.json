@@ -1840,6 +1840,169 @@
         "inventory",
         "invite"
       ]
+    },
+    {
+      "id": "taillier",
+      "root": "taillier",
+      "variants": [
+        "tail",
+        "taille"
+      ],
+      "origin": "古法语 taillier（切、裁开），源自晚期拉丁语 taliare",
+      "core_concept": "to cut into a measured piece / 按需要切出一块",
+      "core_image": "剪刀沿着画好的线落下，把整块布裁成所需的小块",
+      "english_definition": "to cut, shape, or portion",
+      "word_ids": [
+        "detail",
+        "entail",
+        "retail",
+        "tailor"
+      ]
+    },
+    {
+      "id": "sedere",
+      "root": "sedere",
+      "variants": [
+        "sid",
+        "sed",
+        "sess"
+      ],
+      "origin": "拉丁语 sedere（坐）；相关形式 subsidere（坐下、留作后备）",
+      "core_concept": "to sit, settle, or remain in position / 坐下并留在一个位置",
+      "core_image": "一个人走到指定座位坐下，位置从此稳定下来",
+      "english_definition": "to sit, settle, remain",
+      "word_ids": [
+        "president",
+        "residence",
+        "resident",
+        "subsidy"
+      ]
+    },
+    {
+      "id": "referre",
+      "root": "referre",
+      "variants": [
+        "relat",
+        "refer"
+      ],
+      "origin": "拉丁语 referre（带回、报告）；过去分词 relatus",
+      "core_concept": "to carry something back into connection / 把一件事带回另一件事旁边",
+      "core_image": "两张分开的卡片被拿到一起，用一根线连起来比较",
+      "english_definition": "to bring back, report, connect",
+      "word_ids": [
+        "correlate",
+        "relate",
+        "relation",
+        "relationship"
+      ]
+    },
+    {
+      "id": "prassein",
+      "root": "prassein",
+      "variants": [
+        "pract",
+        "prag"
+      ],
+      "origin": "希腊语 prassein（做、实行），其形容词 praktikos 表示适合行动的",
+      "core_concept": "to do something in actual action / 把想法真正做出来",
+      "core_image": "图纸放在一边，双手开始按步骤把零件装成实物",
+      "english_definition": "to do, act, put into practice",
+      "word_ids": [
+        "practical",
+        "practically",
+        "practise",
+        "practitioner"
+      ]
+    },
+    {
+      "id": "physis",
+      "root": "physis",
+      "variants": [
+        "phys",
+        "physic"
+      ],
+      "origin": "希腊语 physis（自然、生长出来的本性），来自 phyein（生长）",
+      "core_concept": "the nature that grows into being / 自然生长并呈现出的本性",
+      "core_image": "种子自己破土长成植株，显出它内在的结构和规律",
+      "english_definition": "nature, natural growth, bodily nature",
+      "word_ids": [
+        "physical",
+        "physician",
+        "physicist",
+        "physics"
+      ]
+    },
+    {
+      "id": "passare",
+      "root": "passare",
+      "variants": [
+        "pass",
+        "pas"
+      ],
+      "origin": "晚期拉丁语 passare（迈步、经过），与拉丁语 passus（步）相关",
+      "core_concept": "to take a step and go beyond / 迈步经过并越到另一边",
+      "core_image": "一只脚跨过门槛，身体从这一边移动到另一边",
+      "english_definition": "to step, pass, go beyond",
+      "word_ids": [
+        "compass",
+        "pass",
+        "passage",
+        "surpass"
+      ]
+    },
+    {
+      "id": "historia",
+      "root": "historia",
+      "variants": [
+        "histor",
+        "histori"
+      ],
+      "origin": "希腊语 historia（调查所得的知识、叙述），来自 histor（知情的见证者）",
+      "core_concept": "an inquiry turned into an account / 调查之后形成的叙述记录",
+      "core_image": "调查者收集证词和旧物，再按顺序写成一卷记录",
+      "english_definition": "inquiry, knowledge from investigation, account",
+      "word_ids": [
+        "historian",
+        "historic",
+        "historical",
+        "history"
+      ]
+    },
+    {
+      "id": "elektron",
+      "root": "elektron",
+      "variants": [
+        "electr",
+        "electric"
+      ],
+      "origin": "希腊语 elektron（琥珀）；琥珀摩擦后能吸引轻物，因而成为电现象名称来源",
+      "core_concept": "the attracting force observed in rubbed amber / 摩擦琥珀显出的吸引力",
+      "core_image": "一块琥珀在布上摩擦后，把桌面的细小羽毛吸了起来",
+      "english_definition": "amber; electric attraction and charge",
+      "word_ids": [
+        "electric",
+        "electrical",
+        "electrician",
+        "electricity"
+      ]
+    },
+    {
+      "id": "oikonomia",
+      "root": "oikonomia",
+      "variants": [
+        "econom",
+        "econ"
+      ],
+      "origin": "希腊语 oikonomia：oikos（家、 household）+ nomos（规则、管理）",
+      "core_concept": "managing limited resources as a household / 像管一个家一样安排有限资源",
+      "core_image": "桌上只有一定的钱粮，管家把它们分配到吃住、工具和储备中",
+      "english_definition": "household management; allocation of resources",
+      "word_ids": [
+        "economic",
+        "economical",
+        "economics",
+        "economy"
+      ]
     }
   ]
 }
