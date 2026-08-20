@@ -1,0 +1,1426 @@
+{
+  "roots": [
+    {
+      "id": "tegere",
+      "root": "tegere",
+      "variants": [
+        "tect",
+        "teg"
+      ],
+      "origin": "拉丁语 tegere（遮盖、掩护）",
+      "core_concept": "to cover for protection / 盖住以护住",
+      "core_image": "雨棚撑在头上，雨落不到身上",
+      "english_definition": "to cover, to shelter",
+      "word_ids": []
+    },
+    {
+      "id": "littera",
+      "root": "littera",
+      "variants": [
+        "liter",
+        "litter"
+      ],
+      "origin": "拉丁语 littera（字母、文字）",
+      "core_concept": "a written letter / 写下来的那个字",
+      "core_image": "石板上刻着一行行字母，认得的人才读得懂",
+      "english_definition": "letter, writing",
+      "word_ids": []
+    },
+    {
+      "id": "legere",
+      "root": "legere",
+      "variants": [
+        "leg",
+        "lect",
+        "lig"
+      ],
+      "origin": "拉丁语 legere（拾取、挑选、读）",
+      "core_concept": "to pick out and gather / 一件件挑起来收拢",
+      "core_image": "在地上把散落的豆子一颗颗捡进碗里",
+      "english_definition": "to gather, to choose, to read",
+      "word_ids": []
+    },
+    {
+      "id": "facies",
+      "root": "facies",
+      "variants": [
+        "face",
+        "fic"
+      ],
+      "origin": "拉丁语 facies（面、外貌）",
+      "core_concept": "the outward face / 朝外的那一面",
+      "core_image": "硬币躺在桌上，只看得见朝上那一面",
+      "english_definition": "face, surface",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-tegere-cover",
+      "concept": "to cover for protection",
+      "chinese": "遮盖、掩护",
+      "core_image": "雨棚撑在头上，雨落不到身上",
+      "root_ids": [
+        "tegere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-littera-letter",
+      "concept": "a written letter",
+      "chinese": "文字",
+      "core_image": "石板上刻着一行行字母，认得的人才读得懂",
+      "root_ids": [
+        "littera"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-legere-gather",
+      "concept": "to pick out and gather",
+      "chinese": "拾取、挑选",
+      "core_image": "在地上把散落的豆子一颗颗捡进碗里",
+      "root_ids": [
+        "legere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-facies-face",
+      "concept": "the outward face",
+      "chinese": "面、外表",
+      "core_image": "硬币躺在桌上，只看得见朝上那一面",
+      "root_ids": [
+        "facies"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-hold": [
+      "tegere"
+    ],
+    "domain-perceive": [
+      "littera",
+      "legere"
+    ],
+    "domain-shape": [
+      "facies"
+    ]
+  },
+  "words": [
+    {
+      "id": "protect",
+      "word": "protect",
+      "pos": "verb",
+      "phonetic": "/prəˈtekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tegere"
+      ],
+      "root_logic": "pro-（在前）+ tect（遮盖）→ 在前面盖住挡着 → 保护",
+      "origin": "拉丁语 protegere：pro-（在前）+ tegere（遮盖）",
+      "native_definition": "to keep someone or something safe from harm",
+      "core_concept": "covering in front to keep harm off – 在前面盖住，让伤害落不到",
+      "core_image": "大人把伞往孩子那边偏，自己半边肩湿了",
+      "chinese": [
+        "保护",
+        "防护"
+      ],
+      "examples": [
+        "Helmets protect the head.",
+        "The law protects tenants."
+      ],
+      "synonyms": [
+        "shield",
+        "guard"
+      ],
+      "antonyms": [
+        "harm"
+      ],
+      "related": [
+        "detect",
+        "detective",
+        "detector"
+      ],
+      "semantic_expansions": [
+        "保护与防护：都是'在前面盖住挡着'，一个偏结果一个偏手段"
+      ]
+    },
+    {
+      "id": "detect",
+      "word": "detect",
+      "pos": "verb",
+      "phonetic": "/dɪˈtekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tegere"
+      ],
+      "root_logic": "de-（去除）+ tect（遮盖）→ 把盖着的揭掉而看见 → 察觉",
+      "origin": "拉丁语 detegere：de-（去除）+ tegere（遮盖）",
+      "native_definition": "to discover or notice something hidden",
+      "core_concept": "uncovering what was hidden – 把盖着的那层揭开而发现",
+      "core_image": "仪器指针一动，原本闻不到的气体露了出来",
+      "chinese": [
+        "察觉",
+        "检测",
+        "发现"
+      ],
+      "examples": [
+        "The alarm detects smoke.",
+        "Doctors detected the illness early."
+      ],
+      "synonyms": [
+        "notice",
+        "discover"
+      ],
+      "antonyms": [],
+      "related": [
+        "protect",
+        "detective",
+        "detector"
+      ],
+      "semantic_expansions": [
+        "察觉/发现：把盖着的揭开而看见",
+        "检测（仪器）：靠装置把隐着的揭出来。同一个'揭掉遮盖'，靠人还是靠器械"
+      ]
+    },
+    {
+      "id": "detective",
+      "word": "detective",
+      "pos": "noun",
+      "phonetic": "/dɪˈtektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "tegere"
+      ],
+      "root_logic": "detect（揭开）+ -ive（做…的人）→ 专门把遮着的揭开的人 → 侦探",
+      "origin": "拉丁语 detegere（揭开）+ -ive",
+      "native_definition": "a person whose job is to investigate crimes",
+      "core_concept": "one who uncovers what is hidden – 专门把遮着的揭开的人",
+      "core_image": "拿着放大镜逐寸看地板的人，找的是别人抹掉的痕迹",
+      "chinese": [
+        "侦探",
+        "警探"
+      ],
+      "examples": [
+        "A detective took her statement.",
+        "He writes detective novels."
+      ],
+      "synonyms": [
+        "investigator"
+      ],
+      "antonyms": [],
+      "related": [
+        "detect",
+        "protect",
+        "detector"
+      ],
+      "semantic_expansions": [
+        "侦探与警探：都是'专门把遮着的揭开的人'，一个泛指一个指警方编制"
+      ]
+    },
+    {
+      "id": "detector",
+      "word": "detector",
+      "pos": "noun",
+      "phonetic": "/dɪˈtektər/",
+      "decomposable": "root",
+      "root_ids": [
+        "tegere"
+      ],
+      "root_logic": "detect（揭开）+ -or（器物）→ 负责把隐着的揭出来的那件装置 → 探测器",
+      "origin": "拉丁语 detegere（揭开）+ -or",
+      "native_definition": "a device that senses the presence of something",
+      "core_concept": "the device that uncovers what cannot be seen – 把看不见的揭出来的那件装置",
+      "core_image": "天花板上那个白盒子，烟一进去它就叫",
+      "chinese": [
+        "探测器",
+        "检测仪"
+      ],
+      "examples": [
+        "A metal detector screens passengers.",
+        "The smoke detector needs a battery."
+      ],
+      "synonyms": [
+        "sensor"
+      ],
+      "antonyms": [],
+      "related": [
+        "detect",
+        "detective",
+        "protect"
+      ],
+      "semantic_expansions": [
+        "探测器与检测仪：都是'把看不见的揭出来的装置'，中文按用途分了两个词"
+      ]
+    },
+    {
+      "id": "literary",
+      "word": "literary",
+      "pos": "adjective",
+      "phonetic": "/ˈlɪtəreri/",
+      "decomposable": "root",
+      "root_ids": [
+        "littera"
+      ],
+      "root_logic": "liter（文字）+ -ary（…的）→ 与文字作品相关的 → 文学的",
+      "origin": "拉丁语 litterarius：littera（文字）",
+      "native_definition": "relating to literature or to formal written style",
+      "core_concept": "belonging to the world of written works – 属于文字作品这一路",
+      "core_image": "书评版面上讨论的是句子怎么写，不是内容对不对",
+      "chinese": [
+        "文学的",
+        "书面的"
+      ],
+      "examples": [
+        "She won a literary prize.",
+        "The phrase is rather literary."
+      ],
+      "synonyms": [
+        "written"
+      ],
+      "antonyms": [],
+      "related": [
+        "literacy",
+        "literally",
+        "illiterate"
+      ],
+      "semantic_expansions": [
+        "文学的：属于文字作品这一路",
+        "书面的：偏书面而非口语的。同一个'与文字相关'，一个说领域一个说语体"
+      ]
+    },
+    {
+      "id": "literacy",
+      "word": "literacy",
+      "pos": "noun",
+      "phonetic": "/ˈlɪtərəsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "littera"
+      ],
+      "root_logic": "liter（文字）+ -acy（名词）→ 认得文字这件事 → 读写能力",
+      "origin": "拉丁语 littera（文字）+ -acy",
+      "native_definition": "the ability to read and write, or competence in a field",
+      "core_concept": "being able to handle the written word – 认得并用得了文字",
+      "core_image": "识字班的人第一次自己读完了一张告示",
+      "chinese": [
+        "读写能力",
+        "素养"
+      ],
+      "examples": [
+        "Adult literacy rose sharply.",
+        "Digital literacy is now essential."
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "illiteracy"
+      ],
+      "related": [
+        "literary",
+        "literally",
+        "illiterate"
+      ],
+      "semantic_expansions": [
+        "读写能力：认得并用得了文字",
+        "素养（数字素养）：在某一领域里读得懂、用得了。同一个'读写得了'，领域从文字扩到别处"
+      ]
+    },
+    {
+      "id": "literally",
+      "word": "literally",
+      "pos": "adverb",
+      "phonetic": "/ˈlɪtərəli/",
+      "decomposable": "root",
+      "root_ids": [
+        "littera"
+      ],
+      "root_logic": "liter（文字）+ -ally（副词）→ 照字面 → 字面上地",
+      "origin": "拉丁语 litteralis（照字面的）← littera（文字）",
+      "native_definition": "in the exact sense of the words, not figuratively",
+      "core_concept": "taking the words exactly as written – 照字写的那样，不作比喻",
+      "core_image": "叫人'把门带上'，他真把门卸下来带走了",
+      "chinese": [
+        "字面上地",
+        "确实地"
+      ],
+      "examples": [
+        "He translated it literally.",
+        "The room was literally freezing."
+      ],
+      "synonyms": [
+        "exactly"
+      ],
+      "antonyms": [
+        "figuratively"
+      ],
+      "related": [
+        "literary",
+        "literacy",
+        "illiterate",
+        "figurative"
+      ],
+      "semantic_expansions": [
+        "字面上地：照字写的那样，不转义",
+        "确实地（口语强调）：真的就是这样。同一个'照字面'，一个说释义一个作强调"
+      ]
+    },
+    {
+      "id": "illiterate",
+      "word": "illiterate",
+      "pos": "adjective",
+      "phonetic": "/ɪˈlɪtərət/",
+      "decomposable": "root",
+      "root_ids": [
+        "littera"
+      ],
+      "root_logic": "il-（in- 的变体，否定）+ liter（文字）+ -ate → 不认得文字的 → 文盲的",
+      "origin": "拉丁语 illitteratus：in-（不）+ littera（文字）",
+      "native_definition": "unable to read or write",
+      "core_concept": "not able to handle the written word – 认不得文字",
+      "core_image": "递过去的表格他拿着看了很久，最后按了手印",
+      "chinese": [
+        "文盲的",
+        "不识字的"
+      ],
+      "examples": [
+        "Many adults remained illiterate then.",
+        "He was illiterate but shrewd."
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "literate"
+      ],
+      "related": [
+        "literary",
+        "literacy",
+        "literally"
+      ],
+      "semantic_expansions": [
+        "文盲的与不识字的：都是'认不得文字'，中文一个偏书面一个偏口语"
+      ]
+    },
+    {
+      "id": "collect",
+      "word": "collect",
+      "pos": "verb",
+      "phonetic": "/kəˈlekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "col-（com- 的变体，一起）+ lect（拾取）→ 一件件捡到一起 → 收集",
+      "origin": "拉丁语 colligere：com-（一起）+ legere（拾取）",
+      "native_definition": "to gather things together, or to fetch someone",
+      "core_concept": "picking things up into one place – 把散着的一件件捡到一处",
+      "core_image": "散落的豆子被一颗颗捡进同一只碗",
+      "chinese": [
+        "收集",
+        "收取",
+        "接走"
+      ],
+      "examples": [
+        "She collects old maps.",
+        "I will collect you at six."
+      ],
+      "synonyms": [
+        "gather",
+        "assemble"
+      ],
+      "antonyms": [
+        "scatter"
+      ],
+      "related": [
+        "collective",
+        "lecture",
+        "diligent",
+        "select"
+      ],
+      "semantic_expansions": [
+        "收集/收取：把散着的捡到一处",
+        "接走（人）：把人从别处收拢过来。同一个'捡到一处'，捡的是物还是人"
+      ]
+    },
+    {
+      "id": "collective",
+      "word": "collective",
+      "pos": "adjective",
+      "phonetic": "/kəˈlektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "collect（捡到一起）+ -ive（…的）→ 归到一起算的 → 集体的",
+      "origin": "拉丁语 collectivus：colligere（收集）",
+      "native_definition": "shared by or involving all members of a group",
+      "core_concept": "taken together as one – 归到一起当成一个来算",
+      "core_image": "签名不是一个个算，而是整张纸一起递上去",
+      "chinese": [
+        "集体的",
+        "共同的",
+        "集合体"
+      ],
+      "examples": [
+        "It was a collective decision.",
+        "They formed a workers' collective."
+      ],
+      "synonyms": [
+        "joint",
+        "shared"
+      ],
+      "antonyms": [
+        "individual"
+      ],
+      "related": [
+        "collect",
+        "lecture",
+        "diligent"
+      ],
+      "semantic_expansions": [
+        "集体的/共同的：归到一起当成一个来算",
+        "集合体（名词）：这样归成的那个组织。同一个'合起来算'，一个说属性一个指实体"
+      ]
+    },
+    {
+      "id": "lecture",
+      "word": "lecture",
+      "pos": "noun",
+      "phonetic": "/ˈlektʃər/",
+      "decomposable": "root",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "lect（legere 的'读'义）+ -ure（名词）→ 把文稿念给众人听 → 讲座",
+      "recall_hint": "lect（legere 的'读'义）+ -ure → 把文稿念给众人听；引申为把道理一条条数给人听，即说教",
+      "origin": "拉丁语 lectura：legere（读）——中世纪大学'宣读文本'的授课形式",
+      "native_definition": "a formal talk to an audience, or a long scolding",
+      "core_concept": "reading a text out to an audience – 把稿子念给听众",
+      "core_image": "讲台上照着讲稿一段段念，底下几十人在记",
+      "chinese": [
+        "讲座",
+        "讲课",
+        "训话"
+      ],
+      "examples": [
+        "She gave a lecture on Roman law.",
+        "I got a lecture about being late."
+      ],
+      "synonyms": [
+        "talk",
+        "scold"
+      ],
+      "antonyms": [],
+      "related": [
+        "collect",
+        "collective",
+        "diligent"
+      ],
+      "semantic_expansions": [
+        "讲座/讲课：把内容念讲给众人",
+        "训话：把道理一条条数给人听。同一个'读讲给人听'，场合与语气不同"
+      ]
+    },
+    {
+      "id": "diligent",
+      "word": "diligent",
+      "pos": "adjective",
+      "phonetic": "/ˈdɪlɪdʒənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "di-（dis- 的变体，逐一）+ lig（挑取）+ -ent → 逐件仔细挑过的 → 勤勉的",
+      "recall_hint": "di-（逐一）+ lig（挑取）+ -ent → 一件件都仔细挑过、不肯漏的",
+      "origin": "拉丁语 diligens：dis-（分开）+ legere（挑选）——'仔细择取的'",
+      "native_definition": "working carefully and steadily",
+      "core_concept": "picking through every item with care – 逐件都仔细挑过，不肯放过",
+      "core_image": "对账的人一行行核到最后一页才合上本子",
+      "chinese": [
+        "勤勉的",
+        "勤奋的",
+        "认真的"
+      ],
+      "examples": [
+        "She is a diligent student.",
+        "Diligent checking caught the error."
+      ],
+      "synonyms": [
+        "hardworking",
+        "careful"
+      ],
+      "antonyms": [
+        "lazy"
+      ],
+      "related": [
+        "collect",
+        "collective",
+        "lecture"
+      ],
+      "semantic_expansions": [
+        "勤勉的/勤奋的：肯一件件做过去",
+        "认真的：每件都仔细挑过。同一个'逐件择取'，一个说量一个说细"
+      ]
+    },
+    {
+      "id": "face",
+      "word": "face",
+      "pos": "noun",
+      "phonetic": "/feɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "facies"
+      ],
+      "root_logic": "facies（面）本身即词根，无词缀 → 朝外的那一面；作动词是把这一面转向某物 → 面对",
+      "recall_hint": "facies（面）本身即词根 → 朝外的那一面；作动词则是把这一面转过去对着某物",
+      "origin": "拉丁语 facies（面、外貌）",
+      "native_definition": "the front of the head, an outward surface, or to confront something",
+      "core_concept": "the side turned outward – 朝外的那一面",
+      "core_image": "硬币躺着，只看得见朝上那一面",
+      "chinese": [
+        "脸",
+        "表面",
+        "面对"
+      ],
+      "examples": [
+        "Her face lit up.",
+        "The clock face is cracked.",
+        "We must face the facts."
+      ],
+      "synonyms": [
+        "surface",
+        "confront"
+      ],
+      "antonyms": [],
+      "related": [
+        "surface",
+        "interface",
+        "preface"
+      ],
+      "semantic_expansions": [
+        "脸/表面：朝外的那一面",
+        "面对（动词）：把自己这一面转过去对着它。同一个'朝外之面'，一个是名词一个是动作"
+      ]
+    },
+    {
+      "id": "surface",
+      "word": "surface",
+      "pos": "noun",
+      "phonetic": "/ˈsɜːrfɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "facies"
+      ],
+      "root_logic": "sur-（在上）+ face（面）→ 最上面那一层面 → 表面",
+      "origin": "法语 surface：sur-（在上）+ face（面）← 拉丁语 facies",
+      "native_definition": "the outside or top layer of something",
+      "core_concept": "the topmost outward layer – 最外、最上的那一层",
+      "core_image": "湖面平静，底下的水看不见",
+      "chinese": [
+        "表面",
+        "水面",
+        "浮现"
+      ],
+      "examples": [
+        "Wipe the surface clean.",
+        "The submarine surfaced at dawn."
+      ],
+      "synonyms": [
+        "exterior",
+        "top"
+      ],
+      "antonyms": [
+        "interior"
+      ],
+      "related": [
+        "face",
+        "interface",
+        "preface"
+      ],
+      "semantic_expansions": [
+        "表面/水面：最上那一层",
+        "浮现（动词）：升到那一层上来。同一个'最上之面'，一个是位置一个是动作"
+      ]
+    },
+    {
+      "id": "interface",
+      "word": "interface",
+      "pos": "noun",
+      "phonetic": "/ˈɪntərfeɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "facies"
+      ],
+      "root_logic": "inter-（之间）+ face（面）→ 两者相接的那个面 → 界面",
+      "origin": "拉丁语 inter-（之间）+ facies（面）",
+      "native_definition": "a point where two systems meet and interact, especially between user and machine",
+      "core_concept": "the face where two things meet – 两者贴合、彼此打交道的那个面",
+      "core_image": "油和水之间那道分界，两边各不相混却互相顶着",
+      "chinese": [
+        "界面",
+        "接口",
+        "交界"
+      ],
+      "examples": [
+        "The app has a clean interface.",
+        "This is the interface between law and ethics."
+      ],
+      "synonyms": [
+        "boundary",
+        "connection"
+      ],
+      "antonyms": [],
+      "related": [
+        "face",
+        "surface",
+        "preface"
+      ],
+      "semantic_expansions": [
+        "界面/接口：人与机器打交道的那个面",
+        "交界：两个领域相接的那个面。同一个'相接之面'，一个在技术一个在概念"
+      ]
+    },
+    {
+      "id": "preface",
+      "word": "preface",
+      "pos": "noun",
+      "phonetic": "/ˈprefəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "facies"
+      ],
+      "root_logic": "pre-（在前）+ face（面、说）→ 摆在正文前面的那一段 → 前言",
+      "origin": "拉丁语 praefatio：prae-（在前）+ fari（说）——后与 facies 混同",
+      "native_definition": "an introduction at the beginning of a book",
+      "core_concept": "what is placed in front of the main text – 摆在正文前面的那一段",
+      "core_image": "翻开书第一页不是正文，是作者交代来由的那几段",
+      "chinese": [
+        "前言",
+        "序言"
+      ],
+      "examples": [
+        "The preface explains her method.",
+        "He prefaced his answer with a joke."
+      ],
+      "synonyms": [
+        "introduction",
+        "foreword"
+      ],
+      "antonyms": [],
+      "related": [
+        "face",
+        "surface",
+        "interface"
+      ],
+      "semantic_expansions": [
+        "前言与序言：都是'摆在正文前面的那一段'，中文两种说法同一个位置"
+      ]
+    },
+    {
+      "id": "attend",
+      "word": "attend",
+      "pos": "verb",
+      "phonetic": "/əˈtend/",
+      "decomposable": "root",
+      "root_ids": [
+        "tendere"
+      ],
+      "root_logic": "at-（ad- 的变体，朝向）+ tend（伸）→ 把注意力朝那件事伸过去 → 出席、留意",
+      "recall_hint": "at-（朝向）+ tend（伸）→ 把注意力或身子朝那件事伸过去：或到场，或留心，或照料",
+      "origin": "拉丁语 attendere：ad-（朝向）+ tendere（伸展）",
+      "native_definition": "to be present at an event, to pay attention, or to look after someone",
+      "core_concept": "stretching oneself toward something – 把自己或注意力朝它伸过去",
+      "core_image": "人到了场，身子和眼睛都朝台上那边",
+      "chinese": [
+        "出席",
+        "留意",
+        "照料"
+      ],
+      "examples": [
+        "Two hundred people attended the talk.",
+        "Nurses attended to the wounded."
+      ],
+      "synonyms": [
+        "be present",
+        "heed"
+      ],
+      "antonyms": [
+        "miss"
+      ],
+      "related": [
+        "attendance",
+        "attendant",
+        "extend",
+        "intend"
+      ],
+      "semantic_expansions": [
+        "出席：把身子朝那个场合伸过去",
+        "留意/照料：把注意力朝那件事或那个人伸过去。同一个'朝它伸过去'，伸的是人还是心"
+      ]
+    },
+    {
+      "id": "attendance",
+      "word": "attendance",
+      "pos": "noun",
+      "phonetic": "/əˈtendəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "tendere"
+      ],
+      "root_logic": "attend（到场）+ -ance（名词）→ 到场这件事，或到场的人数 → 出席",
+      "origin": "拉丁语 attendere（朝向伸展）+ -ance",
+      "native_definition": "the act of being present, or the number of people present",
+      "core_concept": "the fact or count of being present – 到场这件事，或到场的人数",
+      "core_image": "点名册上一行行画勾，最后数出多少人",
+      "chinese": [
+        "出席",
+        "出席人数",
+        "上课率"
+      ],
+      "examples": [
+        "Attendance is compulsory.",
+        "Attendance fell to under fifty."
+      ],
+      "synonyms": [
+        "presence",
+        "turnout"
+      ],
+      "antonyms": [],
+      "related": [
+        "attend",
+        "attendant",
+        "extend"
+      ],
+      "semantic_expansions": [
+        "出席：到场这件事",
+        "出席人数/上课率：到场的那个数目。同一个'到场'，一个说事实一个说数量"
+      ]
+    },
+    {
+      "id": "attendant",
+      "word": "attendant",
+      "pos": "noun",
+      "phonetic": "/əˈtendənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tendere"
+      ],
+      "root_logic": "attend（照料）+ -ant（人）→ 在旁照料的人 → 服务员",
+      "origin": "拉丁语 attendere（朝向伸展）+ -ant",
+      "native_definition": "a person whose job is to serve or assist others in a place",
+      "core_concept": "the one who stays turned toward those served – 一直朝着被服务者的那个人",
+      "core_image": "过道上有人一直看着乘客那边，谁抬手就过去",
+      "chinese": [
+        "服务员",
+        "侍者",
+        "随从"
+      ],
+      "examples": [
+        "A flight attendant brought water.",
+        "The car park attendant waved us in."
+      ],
+      "synonyms": [
+        "assistant",
+        "helper"
+      ],
+      "antonyms": [],
+      "related": [
+        "attend",
+        "attendance",
+        "extend"
+      ],
+      "semantic_expansions": [
+        "服务员/侍者：在旁照料的人",
+        "随从：一直跟着照料的人。同一个'朝着对方照料'，场合与身份不同"
+      ]
+    },
+    {
+      "id": "contend",
+      "word": "contend",
+      "pos": "verb",
+      "phonetic": "/kənˈtend/",
+      "decomposable": "root",
+      "root_ids": [
+        "tendere"
+      ],
+      "root_logic": "con-（相对）+ tend（伸、绷）→ 两边各自绷着劲相持 → 争夺；也指坚持某个说法 → 主张",
+      "recall_hint": "con-（相对）+ tend（绷紧）→ 两边各自绷着劲相持；引申为把某个说法一直绷住不松口",
+      "origin": "拉丁语 contendere：com-（一起）+ tendere（伸展、绷紧）",
+      "native_definition": "to compete for something, or to assert something firmly",
+      "core_concept": "straining against another – 与对方各自绷着劲相持",
+      "core_image": "拔河的两队都往后坐着，绳子中间的红布不动",
+      "chinese": [
+        "争夺",
+        "竞争",
+        "主张"
+      ],
+      "examples": [
+        "Three teams contend for the title.",
+        "She contends that the data is flawed."
+      ],
+      "synonyms": [
+        "compete",
+        "argue"
+      ],
+      "antonyms": [],
+      "related": [
+        "attend",
+        "extend",
+        "intend",
+        "extensive"
+      ],
+      "semantic_expansions": [
+        "争夺/竞争：两边绷着劲相持",
+        "主张：把某个说法绷住不松口。同一个'绷紧相持'，持的是名次还是观点"
+      ]
+    },
+    {
+      "id": "intensity",
+      "word": "intensity",
+      "pos": "noun",
+      "phonetic": "/ɪnˈtensəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "tendere"
+      ],
+      "root_logic": "intense（绷向一点的）+ -ity（名词）→ 绷得有多紧的那个程度 → 强度",
+      "origin": "拉丁语 intensus：in-（朝向）+ tendere（绷紧）",
+      "native_definition": "the degree of strength, force, or feeling",
+      "core_concept": "how tightly something is strained – 绷得有多紧",
+      "core_image": "弦拧得越紧，拨一下声音越尖",
+      "chinese": [
+        "强度",
+        "烈度",
+        "强烈程度"
+      ],
+      "examples": [
+        "The intensity of the storm increased.",
+        "She played with great intensity."
+      ],
+      "synonyms": [
+        "strength",
+        "force"
+      ],
+      "antonyms": [],
+      "related": [
+        "intensive",
+        "extensive",
+        "intend",
+        "tend"
+      ],
+      "semantic_expansions": [
+        "强度/烈度：物理上绷紧或猛烈的程度",
+        "强烈程度（情感）：心上绷得有多紧。同一个'绷紧的程度'，量的是外力还是情绪"
+      ]
+    },
+    {
+      "id": "tend",
+      "word": "tend",
+      "pos": "verb",
+      "phonetic": "/tend/",
+      "decomposable": "root",
+      "root_ids": [
+        "tendere"
+      ],
+      "root_logic": "tendere（伸）本身即词根，无前缀 → 总朝某个方向伸 → 倾向；把心伸向某物 → 照料",
+      "recall_hint": "tendere（伸）本身即词根 → 总朝某个方向伸，即有那个倾向；把心伸向某物则是照料",
+      "origin": "拉丁语 tendere（伸展）",
+      "native_definition": "to be likely to do something, or to look after something",
+      "core_concept": "leaning steadily in one direction – 总朝同一个方向伸",
+      "core_image": "常年偏风下的树，枝干都朝一边长",
+      "chinese": [
+        "倾向于",
+        "往往",
+        "照料"
+      ],
+      "examples": [
+        "Prices tend to rise in winter.",
+        "He tends the garden every weekend."
+      ],
+      "synonyms": [
+        "incline",
+        "care for"
+      ],
+      "antonyms": [],
+      "related": [
+        "tendency",
+        "attend",
+        "extend",
+        "intend"
+      ],
+      "semantic_expansions": [
+        "倾向于/往往：总朝同一方向伸",
+        "照料：把心朝那件事伸过去。同一个'朝某处伸'，伸的是趋势还是心力"
+      ]
+    },
+    {
+      "id": "admission",
+      "word": "admission",
+      "pos": "noun",
+      "phonetic": "/ədˈmɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "admit（放进来 / 认下来）+ -ion（名词）→ 放进来这件事，或认下来的那句话 → 准入、承认",
+      "recall_hint": "admit（放进来／认下来）+ -ion → 放人进来这件事；也指把某事认下来的那句话",
+      "origin": "拉丁语 admissio：ad-（朝向）+ mittere（送）",
+      "native_definition": "permission to enter, or a statement acknowledging something",
+      "core_concept": "letting in, or letting a fact in – 放进来，或把事实认进来",
+      "core_image": "门口验票放行；或者当众点头说那件事是真的",
+      "chinese": [
+        "准入",
+        "入场费",
+        "承认"
+      ],
+      "examples": [
+        "Admission is free on Sundays.",
+        "It was an admission of failure."
+      ],
+      "synonyms": [
+        "entry",
+        "confession"
+      ],
+      "antonyms": [],
+      "related": [
+        "admit",
+        "commission",
+        "permit",
+        "transmit"
+      ],
+      "semantic_expansions": [
+        "准入/入场费：放人进来这件事及其代价",
+        "承认：把事实放进来、不再挡着。同一个'放进来'，放的是人还是事实"
+      ]
+    },
+    {
+      "id": "commission",
+      "word": "commission",
+      "pos": "noun",
+      "phonetic": "/kəˈmɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "com-（一起）+ miss（送、托付）+ -ion → 被托付出去的那件事或那群人 → 委托、委员会",
+      "recall_hint": "com-（一起）+ miss（托付）+ -ion → 被托付出去的那件差事；也指受托办事的那群人，或办成后抽的那一份",
+      "origin": "拉丁语 commissio：com-（一起）+ mittere（送、托付）",
+      "native_definition": "a task given to someone, a group appointed to do something, or a fee for a sale",
+      "core_concept": "what has been entrusted out – 被交托出去的那件事",
+      "core_image": "任命书交到手上，事从此归他办",
+      "chinese": [
+        "委托",
+        "委员会",
+        "佣金"
+      ],
+      "examples": [
+        "She received a commission to paint the hall.",
+        "The commission published its findings.",
+        "Agents earn a five percent commission."
+      ],
+      "synonyms": [
+        "assignment",
+        "committee"
+      ],
+      "antonyms": [],
+      "related": [
+        "admission",
+        "permit",
+        "transmit",
+        "mission"
+      ],
+      "semantic_expansions": [
+        "委托：被交托出去的那件差事",
+        "委员会：受托办这件事的那群人",
+        "佣金：办成之后抽走的那一份。三义共享'受托而办'"
+      ]
+    },
+    {
+      "id": "miss",
+      "word": "miss",
+      "pos": "verb",
+      "phonetic": "/mɪs/",
+      "decomposable": "germanic",
+      "decomposable_note": "古英语 missan（未击中），与拉丁语 mittere（送）无关，同形而异源",
+      "origin": "古英语 missan（未击中、错过）",
+      "native_definition": "to fail to hit, catch, or attend something, or to feel the absence of someone",
+      "core_concept": "failing to make contact with something – 没能碰上、接上或赶上",
+      "core_image": "手伸出去球已经过去了，指尖擦了个空",
+      "chinese": [
+        "未击中",
+        "错过",
+        "思念"
+      ],
+      "examples": [
+        "He missed the last train.",
+        "She misses her family."
+      ],
+      "synonyms": [
+        "fail",
+        "long for"
+      ],
+      "antonyms": [
+        "catch"
+      ],
+      "related": [
+        "mission",
+        "admission"
+      ],
+      "semantic_expansions": [
+        "未击中/错过：没能碰上或赶上",
+        "思念：因为碰不到而心里空着。同一个'接不上'，一个是动作落空一个是感受落空"
+      ],
+      "root_ids": []
+    },
+    {
+      "id": "missile",
+      "word": "missile",
+      "pos": "noun",
+      "phonetic": "/ˈmɪsl/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "miss（送、发出）+ -ile（可…之物）→ 被发射出去的那个东西 → 导弹",
+      "origin": "拉丁语 missilis：mittere（送、投）——'可投掷之物'",
+      "native_definition": "a weapon that is sent through the air at a target, or any object thrown",
+      "core_concept": "a thing sent flying at a target – 被送向目标飞出去的那个东西",
+      "core_image": "尾焰一闪，那根东西离开架子朝远处去了",
+      "chinese": [
+        "导弹",
+        "投射物"
+      ],
+      "examples": [
+        "The missile was intercepted.",
+        "Bottles and other missiles were thrown."
+      ],
+      "synonyms": [
+        "rocket",
+        "projectile"
+      ],
+      "antonyms": [],
+      "related": [
+        "mission",
+        "transmit",
+        "admission",
+        "commission"
+      ],
+      "semantic_expansions": [
+        "导弹：被发射出去的武器",
+        "投射物：任何被扔出去的东西。同一个'被送出飞行'，一个是专指一个是泛指"
+      ]
+    },
+    {
+      "id": "missionary",
+      "word": "missionary",
+      "pos": "noun",
+      "phonetic": "/ˈmɪʃəneri/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "mission（被派出去的差事）+ -ary（人）→ 被派往远方传教的人 → 传教士",
+      "origin": "拉丁语 missio（派遣）+ -ary ← mittere（送）",
+      "native_definition": "a person sent to a foreign place to spread a religion",
+      "core_concept": "one sent out to carry a message – 被派出去传递某种信念的人",
+      "core_image": "带着书和药箱上船，去的是从没到过的地方",
+      "chinese": [
+        "传教士",
+        "布道者"
+      ],
+      "examples": [
+        "Missionaries founded the first school here.",
+        "He worked as a medical missionary."
+      ],
+      "synonyms": [
+        "preacher"
+      ],
+      "antonyms": [],
+      "related": [
+        "mission",
+        "admission",
+        "commission",
+        "missile"
+      ],
+      "semantic_expansions": [
+        "传教士与布道者：都是'被派出去传递信念的人'，一个偏派出一个偏所做"
+      ]
+    },
+    {
+      "id": "intermittent",
+      "word": "intermittent",
+      "pos": "adjective",
+      "phonetic": "/ˌɪntərˈmɪtnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "inter-（之间）+ mit（送）+ -ent → 中间隔着断口地送出 → 间断的",
+      "origin": "拉丁语 intermittens：inter-（之间）+ mittere（送）——'中间停下'",
+      "native_definition": "stopping and starting at intervals, not continuous",
+      "core_concept": "sent out with gaps in between – 送出时中间夹着停顿",
+      "core_image": "水龙头没关严，水一滴一滴地落，不成一条线",
+      "chinese": [
+        "间断的",
+        "断断续续的"
+      ],
+      "examples": [
+        "Intermittent rain is forecast.",
+        "He has an intermittent cough."
+      ],
+      "synonyms": [
+        "irregular",
+        "sporadic"
+      ],
+      "antonyms": [
+        "continuous",
+        "consecutive"
+      ],
+      "related": [
+        "transmit",
+        "admission",
+        "commission",
+        "missile"
+      ],
+      "semantic_expansions": [
+        "间断的与断断续续的：都是'中间夹着停顿地送出'，中文两种说法同一个节奏"
+      ]
+    },
+    {
+      "id": "promising",
+      "word": "promising",
+      "pos": "adjective",
+      "phonetic": "/ˈprɑːmɪsɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "pro-（向前）+ mis（送）+ -ing → 预先把话送出去，让人期待 → 有前途的",
+      "recall_hint": "pro-（向前）+ mis（送）+ -ing → 预先把话送出去让人期待，因而看着有指望",
+      "origin": "拉丁语 promittere：pro-（向前）+ mittere（送）——'预先许诺'",
+      "native_definition": "showing signs of future success",
+      "core_concept": "sending ahead signs worth expecting – 预先透出值得期待的迹象",
+      "core_image": "苗才出土，看叶色就知道这块地会有收成",
+      "chinese": [
+        "有前途的",
+        "有希望的"
+      ],
+      "examples": [
+        "She is a promising young engineer.",
+        "Early results look promising."
+      ],
+      "synonyms": [
+        "hopeful",
+        "encouraging"
+      ],
+      "antonyms": [],
+      "related": [
+        "transmit",
+        "admission",
+        "commission"
+      ],
+      "semantic_expansions": [
+        "有前途的与有希望的：都是'预先透出值得期待的迹象'，一个说人一个可说事"
+      ]
+    },
+    {
+      "id": "deduct",
+      "word": "deduct",
+      "pos": "verb",
+      "phonetic": "/dɪˈdʌkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "de-（往下、拿走）+ duct（引导）→ 从总数里引走一部分 → 扣除",
+      "origin": "拉丁语 deducere：de-（拿走）+ ducere（引导）",
+      "native_definition": "to take an amount away from a total",
+      "core_concept": "leading an amount away from the total – 从总数里引走一部分",
+      "core_image": "工资单上先列总额，再一行行往下减",
+      "chinese": [
+        "扣除",
+        "减去"
+      ],
+      "examples": [
+        "Tax is deducted at source.",
+        "Points are deducted for errors."
+      ],
+      "synonyms": [
+        "subtract",
+        "take off"
+      ],
+      "antonyms": [
+        "add"
+      ],
+      "related": [
+        "deduce",
+        "conduct",
+        "reduction",
+        "product"
+      ],
+      "semantic_expansions": [
+        "扣除与减去：都是'从总数里引走一部分'，一个偏账目一个偏运算"
+      ]
+    },
+    {
+      "id": "product",
+      "word": "product",
+      "pos": "noun",
+      "phonetic": "/ˈprɑːdʌkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "pro-（向前）+ duct（引出）→ 被引出来的那个成品 → 产品",
+      "origin": "拉丁语 productum：pro-（向前）+ ducere（引导）",
+      "native_definition": "something made to be sold, or a result of a process",
+      "core_concept": "what has been led forth – 被引出来的那个东西",
+      "core_image": "流水线尽头一件件推出来的成品",
+      "chinese": [
+        "产品",
+        "产物",
+        "乘积"
+      ],
+      "examples": [
+        "The product sells well abroad.",
+        "The product of three and four is twelve."
+      ],
+      "synonyms": [
+        "goods",
+        "output"
+      ],
+      "antonyms": [],
+      "related": [
+        "produce",
+        "production",
+        "productive",
+        "deduct"
+      ],
+      "semantic_expansions": [
+        "产品：被造出来推向市场的东西",
+        "产物：某个过程引出的结果",
+        "乘积：两数相乘引出的那个数。三义共享'被引出来的结果'"
+      ]
+    },
+    {
+      "id": "productive",
+      "word": "productive",
+      "pos": "adjective",
+      "phonetic": "/prəˈdʌktɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "product（引出的成果）+ -ive（能…的）→ 能引出成果的 → 多产的",
+      "origin": "拉丁语 productivus：producere（引出）",
+      "native_definition": "producing a lot, or achieving good results",
+      "core_concept": "able to lead forth much – 能引出许多成果",
+      "core_image": "同一块地，这片的穗子明显更密",
+      "chinese": [
+        "多产的",
+        "有成效的",
+        "生产的"
+      ],
+      "examples": [
+        "It was a productive meeting.",
+        "The land is highly productive."
+      ],
+      "synonyms": [
+        "fruitful",
+        "efficient"
+      ],
+      "antonyms": [],
+      "related": [
+        "product",
+        "produce",
+        "production",
+        "deduct"
+      ],
+      "semantic_expansions": [
+        "多产的/生产的：能引出许多成果",
+        "有成效的（会议）：确实引出了结果。同一个'引得出成果'，一个说数量一个说实效"
+      ]
+    },
+    {
+      "id": "reduction",
+      "word": "reduction",
+      "pos": "noun",
+      "phonetic": "/rɪˈdʌkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "reduce（往回引、减少）+ -ion（名词）→ 被减下来的那一部分或这件事 → 减少",
+      "origin": "拉丁语 reductio：re-（往回）+ ducere（引导）",
+      "native_definition": "the act of making something smaller, or the amount taken off",
+      "core_concept": "the leading back to something smaller – 往回引、变小这件事",
+      "core_image": "价签上原价被划掉，旁边写着新的更小的数",
+      "chinese": [
+        "减少",
+        "降低",
+        "折扣"
+      ],
+      "examples": [
+        "There has been a sharp reduction in costs.",
+        "Members get a ten percent reduction."
+      ],
+      "synonyms": [
+        "decrease",
+        "cut"
+      ],
+      "antonyms": [
+        "increase"
+      ],
+      "related": [
+        "reduce",
+        "product",
+        "deduct",
+        "introduction"
+      ],
+      "semantic_expansions": [
+        "减少/降低：往回引、使变小这件事",
+        "折扣：被减下来的那一部分。同一个'往回引'，一个说过程一个说所减之量"
+      ]
+    },
+    {
+      "id": "introduction",
+      "word": "introduction",
+      "pos": "noun",
+      "phonetic": "/ˌɪntrəˈdʌkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "introduce（引进来）+ -ion（名词）→ 引进来这件事，或书前引人入门的那一段 → 介绍",
+      "recall_hint": "introduce（引进来）+ -ion → 把人或物引进来这件事；也指书前引人入门的那一段",
+      "origin": "拉丁语 introductio：intro-（向内）+ ducere（引导）",
+      "native_definition": "the act of bringing something in or presenting someone, or an opening section",
+      "core_concept": "the leading in of something – 把某物或某人引进来这件事",
+      "core_image": "主人领着新来的人走进屋，一一说明是谁",
+      "chinese": [
+        "介绍",
+        "引进",
+        "引言"
+      ],
+      "examples": [
+        "The introduction of the tax was delayed.",
+        "Read the introduction before chapter one."
+      ],
+      "synonyms": [
+        "presentation",
+        "preface"
+      ],
+      "antonyms": [],
+      "related": [
+        "introduce",
+        "product",
+        "reduction",
+        "deduct"
+      ],
+      "semantic_expansions": [
+        "介绍（人）/引进（制度）：把人或物引进来",
+        "引言：把读者引进正文的那一段。三义共享'引进来'"
+      ]
+    }
+  ]
+}

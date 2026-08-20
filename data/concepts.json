@@ -132,7 +132,13 @@
         "submit",
         "dismiss",
         "permission",
-        "transmission"
+        "transmission",
+        "admission",
+        "commission",
+        "missile",
+        "missionary",
+        "intermittent",
+        "promising"
       ]
     },
     {
@@ -205,7 +211,12 @@
         "induce",
         "production",
         "conductor",
-        "abduct"
+        "abduct",
+        "deduct",
+        "product",
+        "productive",
+        "reduction",
+        "introduction"
       ]
     },
     {
@@ -336,12 +347,12 @@
       ]
     },
     {
-      "id": "concept-tend-stretch",
+      "id": "concept-tendere-stretch",
       "concept": "to stretch out",
       "chinese": "伸展、绷向",
       "core_image": "皮筋被拉开，绷紧却没断",
       "root_ids": [
-        "tend"
+        "tendere"
       ],
       "word_ids": [
         "extend",
@@ -349,7 +360,13 @@
         "intend",
         "intensive",
         "pretend",
-        "tendency"
+        "tendency",
+        "attend",
+        "attendance",
+        "attendant",
+        "contend",
+        "intensity",
+        "tend"
       ]
     },
     {
@@ -1413,6 +1430,66 @@
         "confidential",
         "faith",
         "faithful"
+      ]
+    },
+    {
+      "id": "concept-tegere-cover",
+      "concept": "to cover for protection",
+      "chinese": "遮盖、掩护",
+      "core_image": "雨棚撑在头上，雨落不到身上",
+      "root_ids": [
+        "tegere"
+      ],
+      "word_ids": [
+        "detect",
+        "detective",
+        "detector",
+        "protect"
+      ]
+    },
+    {
+      "id": "concept-littera-letter",
+      "concept": "a written letter",
+      "chinese": "文字",
+      "core_image": "石板上刻着一行行字母，认得的人才读得懂",
+      "root_ids": [
+        "littera"
+      ],
+      "word_ids": [
+        "illiterate",
+        "literacy",
+        "literally",
+        "literary"
+      ]
+    },
+    {
+      "id": "concept-legere-gather",
+      "concept": "to pick out and gather",
+      "chinese": "拾取、挑选",
+      "core_image": "在地上把散落的豆子一颗颗捡进碗里",
+      "root_ids": [
+        "legere"
+      ],
+      "word_ids": [
+        "collect",
+        "collective",
+        "diligent",
+        "lecture"
+      ]
+    },
+    {
+      "id": "concept-facies-face",
+      "concept": "the outward face",
+      "chinese": "面、外表",
+      "core_image": "硬币躺在桌上，只看得见朝上那一面",
+      "root_ids": [
+        "facies"
+      ],
+      "word_ids": [
+        "face",
+        "interface",
+        "preface",
+        "surface"
       ]
     }
   ]

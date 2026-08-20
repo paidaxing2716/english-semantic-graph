@@ -153,7 +153,13 @@
         "submit",
         "dismiss",
         "permission",
-        "transmission"
+        "transmission",
+        "admission",
+        "commission",
+        "missile",
+        "missionary",
+        "intermittent",
+        "promising"
       ]
     },
     {
@@ -237,7 +243,12 @@
         "induce",
         "production",
         "conductor",
-        "abduct"
+        "abduct",
+        "deduct",
+        "product",
+        "productive",
+        "reduction",
+        "introduction"
       ]
     },
     {
@@ -361,9 +372,10 @@
       ]
     },
     {
-      "id": "tend",
-      "root": "tend",
+      "id": "tendere",
+      "root": "tendere",
       "variants": [
+        "tendere",
         "tend",
         "tens",
         "tent"
@@ -378,7 +390,13 @@
         "intend",
         "intensive",
         "pretend",
-        "tendency"
+        "tendency",
+        "attend",
+        "attendance",
+        "attendant",
+        "contend",
+        "intensity",
+        "tend"
       ]
     },
     {
@@ -1658,6 +1676,79 @@
         "confidential",
         "faith",
         "faithful"
+      ]
+    },
+    {
+      "id": "tegere",
+      "root": "tegere",
+      "variants": [
+        "tect",
+        "teg"
+      ],
+      "origin": "拉丁语 tegere（遮盖、掩护）",
+      "core_concept": "to cover for protection / 盖住以护住",
+      "core_image": "雨棚撑在头上，雨落不到身上",
+      "english_definition": "to cover, to shelter",
+      "word_ids": [
+        "detect",
+        "detective",
+        "detector",
+        "protect"
+      ]
+    },
+    {
+      "id": "littera",
+      "root": "littera",
+      "variants": [
+        "liter",
+        "litter"
+      ],
+      "origin": "拉丁语 littera（字母、文字）",
+      "core_concept": "a written letter / 写下来的那个字",
+      "core_image": "石板上刻着一行行字母，认得的人才读得懂",
+      "english_definition": "letter, writing",
+      "word_ids": [
+        "illiterate",
+        "literacy",
+        "literally",
+        "literary"
+      ]
+    },
+    {
+      "id": "legere",
+      "root": "legere",
+      "variants": [
+        "leg",
+        "lect",
+        "lig"
+      ],
+      "origin": "拉丁语 legere（拾取、挑选、读）",
+      "core_concept": "to pick out and gather / 一件件挑起来收拢",
+      "core_image": "在地上把散落的豆子一颗颗捡进碗里",
+      "english_definition": "to gather, to choose, to read",
+      "word_ids": [
+        "collect",
+        "collective",
+        "diligent",
+        "lecture"
+      ]
+    },
+    {
+      "id": "facies",
+      "root": "facies",
+      "variants": [
+        "face",
+        "fic"
+      ],
+      "origin": "拉丁语 facies（面、外貌）",
+      "core_concept": "the outward face / 朝外的那一面",
+      "core_image": "硬币躺在桌上，只看得见朝上那一面",
+      "english_definition": "face, surface",
+      "word_ids": [
+        "face",
+        "interface",
+        "preface",
+        "surface"
       ]
     }
   ]

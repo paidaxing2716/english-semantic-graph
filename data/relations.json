@@ -854,37 +854,37 @@
       "note": "suf-（sub- 的变体，从下面）+ fic（做）+ -ient → 在底下垫够了、够用来做成事的 → 足够的"
     },
     {
-      "from": "tend",
+      "from": "tendere",
       "to": "extend",
       "type": "root",
       "note": "ex-（向外）+ tend（伸）→ 往外伸出去 → 延长、扩展"
     },
     {
-      "from": "tend",
+      "from": "tendere",
       "to": "intend",
       "type": "root",
       "note": "in-（朝向）+ tend（伸）→ 心思朝某个方向伸过去 → 打算"
     },
     {
-      "from": "tend",
+      "from": "tendere",
       "to": "pretend",
       "type": "root",
       "note": "pre-（在前）+ tend（伸）→ 在真相前面先伸出一层幌子 → 假装"
     },
     {
-      "from": "tend",
+      "from": "tendere",
       "to": "extensive",
       "type": "root",
       "note": "extend（往外伸）+ -ive（…的）→ 伸得很开的 → 广泛的"
     },
     {
-      "from": "tend",
+      "from": "tendere",
       "to": "intensive",
       "type": "root",
       "note": "in-（朝内、朝一点）+ tens（伸、绷）+ -ive → 力气全绷向一点的 → 密集的"
     },
     {
-      "from": "tend",
+      "from": "tendere",
       "to": "tendency",
       "type": "root",
       "note": "tend（伸）+ -ency（名词）→ 总往某个方向伸的那个劲头 → 倾向"
@@ -3030,6 +3030,204 @@
       "to": "advisable",
       "type": "root",
       "note": "ad-（朝向）+ vis（看）+ -able（值得…的）→ 值得朝那个方向看一看的 → 可取的"
+    },
+    {
+      "from": "tegere",
+      "to": "protect",
+      "type": "root",
+      "note": "pro-（在前）+ tect（遮盖）→ 在前面盖住挡着 → 保护"
+    },
+    {
+      "from": "tegere",
+      "to": "detect",
+      "type": "root",
+      "note": "de-（去除）+ tect（遮盖）→ 把盖着的揭掉而看见 → 察觉"
+    },
+    {
+      "from": "tegere",
+      "to": "detective",
+      "type": "root",
+      "note": "detect（揭开）+ -ive（做…的人）→ 专门把遮着的揭开的人 → 侦探"
+    },
+    {
+      "from": "tegere",
+      "to": "detector",
+      "type": "root",
+      "note": "detect（揭开）+ -or（器物）→ 负责把隐着的揭出来的那件装置 → 探测器"
+    },
+    {
+      "from": "littera",
+      "to": "literary",
+      "type": "root",
+      "note": "liter（文字）+ -ary（…的）→ 与文字作品相关的 → 文学的"
+    },
+    {
+      "from": "littera",
+      "to": "literacy",
+      "type": "root",
+      "note": "liter（文字）+ -acy（名词）→ 认得文字这件事 → 读写能力"
+    },
+    {
+      "from": "littera",
+      "to": "literally",
+      "type": "root",
+      "note": "liter（文字）+ -ally（副词）→ 照字面 → 字面上地"
+    },
+    {
+      "from": "littera",
+      "to": "illiterate",
+      "type": "root",
+      "note": "il-（in- 的变体，否定）+ liter（文字）+ -ate → 不认得文字的 → 文盲的"
+    },
+    {
+      "from": "legere",
+      "to": "collect",
+      "type": "root",
+      "note": "col-（com- 的变体，一起）+ lect（拾取）→ 一件件捡到一起 → 收集"
+    },
+    {
+      "from": "legere",
+      "to": "collective",
+      "type": "root",
+      "note": "collect（捡到一起）+ -ive（…的）→ 归到一起算的 → 集体的"
+    },
+    {
+      "from": "legere",
+      "to": "lecture",
+      "type": "root",
+      "note": "lect（legere 的'读'义）+ -ure（名词）→ 把文稿念给众人听 → 讲座"
+    },
+    {
+      "from": "legere",
+      "to": "diligent",
+      "type": "root",
+      "note": "di-（dis- 的变体，逐一）+ lig（挑取）+ -ent → 逐件仔细挑过的 → 勤勉的"
+    },
+    {
+      "from": "facies",
+      "to": "face",
+      "type": "root",
+      "note": "facies（面）本身即词根，无词缀 → 朝外的那一面；作动词是把这一面转向某物 → 面对"
+    },
+    {
+      "from": "facies",
+      "to": "surface",
+      "type": "root",
+      "note": "sur-（在上）+ face（面）→ 最上面那一层面 → 表面"
+    },
+    {
+      "from": "facies",
+      "to": "interface",
+      "type": "root",
+      "note": "inter-（之间）+ face（面）→ 两者相接的那个面 → 界面"
+    },
+    {
+      "from": "facies",
+      "to": "preface",
+      "type": "root",
+      "note": "pre-（在前）+ face（面、说）→ 摆在正文前面的那一段 → 前言"
+    },
+    {
+      "from": "tendere",
+      "to": "attend",
+      "type": "root",
+      "note": "at-（ad- 的变体，朝向）+ tend（伸）→ 把注意力朝那件事伸过去 → 出席、留意"
+    },
+    {
+      "from": "tendere",
+      "to": "attendance",
+      "type": "root",
+      "note": "attend（到场）+ -ance（名词）→ 到场这件事，或到场的人数 → 出席"
+    },
+    {
+      "from": "tendere",
+      "to": "attendant",
+      "type": "root",
+      "note": "attend（照料）+ -ant（人）→ 在旁照料的人 → 服务员"
+    },
+    {
+      "from": "tendere",
+      "to": "contend",
+      "type": "root",
+      "note": "con-（相对）+ tend（伸、绷）→ 两边各自绷着劲相持 → 争夺；也指坚持某个说法 → 主张"
+    },
+    {
+      "from": "tendere",
+      "to": "intensity",
+      "type": "root",
+      "note": "intense（绷向一点的）+ -ity（名词）→ 绷得有多紧的那个程度 → 强度"
+    },
+    {
+      "from": "tendere",
+      "to": "tend",
+      "type": "root",
+      "note": "tendere（伸）本身即词根，无前缀 → 总朝某个方向伸 → 倾向；把心伸向某物 → 照料"
+    },
+    {
+      "from": "mit-miss",
+      "to": "admission",
+      "type": "root",
+      "note": "admit（放进来 / 认下来）+ -ion（名词）→ 放进来这件事，或认下来的那句话 → 准入、承认"
+    },
+    {
+      "from": "mit-miss",
+      "to": "commission",
+      "type": "root",
+      "note": "com-（一起）+ miss（送、托付）+ -ion → 被托付出去的那件事或那群人 → 委托、委员会"
+    },
+    {
+      "from": "mit-miss",
+      "to": "missile",
+      "type": "root",
+      "note": "miss（送、发出）+ -ile（可…之物）→ 被发射出去的那个东西 → 导弹"
+    },
+    {
+      "from": "mit-miss",
+      "to": "missionary",
+      "type": "root",
+      "note": "mission（被派出去的差事）+ -ary（人）→ 被派往远方传教的人 → 传教士"
+    },
+    {
+      "from": "mit-miss",
+      "to": "intermittent",
+      "type": "root",
+      "note": "inter-（之间）+ mit（送）+ -ent → 中间隔着断口地送出 → 间断的"
+    },
+    {
+      "from": "mit-miss",
+      "to": "promising",
+      "type": "root",
+      "note": "pro-（向前）+ mis（送）+ -ing → 预先把话送出去，让人期待 → 有前途的"
+    },
+    {
+      "from": "duc-duct",
+      "to": "deduct",
+      "type": "root",
+      "note": "de-（往下、拿走）+ duct（引导）→ 从总数里引走一部分 → 扣除"
+    },
+    {
+      "from": "duc-duct",
+      "to": "product",
+      "type": "root",
+      "note": "pro-（向前）+ duct（引出）→ 被引出来的那个成品 → 产品"
+    },
+    {
+      "from": "duc-duct",
+      "to": "productive",
+      "type": "root",
+      "note": "product（引出的成果）+ -ive（能…的）→ 能引出成果的 → 多产的"
+    },
+    {
+      "from": "duc-duct",
+      "to": "reduction",
+      "type": "root",
+      "note": "reduce（往回引、减少）+ -ion（名词）→ 被减下来的那一部分或这件事 → 减少"
+    },
+    {
+      "from": "duc-duct",
+      "to": "introduction",
+      "type": "root",
+      "note": "introduce（引进来）+ -ion（名词）→ 引进来这件事，或书前引人入门的那一段 → 介绍"
     }
   ]
 }

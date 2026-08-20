@@ -6699,6 +6699,496 @@
       "text": "Early treatment is advisable.",
       "source": "AI 生成 · 人工审核",
       "scene": "老手指了个方向，照他说的走确实稳"
+    },
+    {
+      "id": "ex-protect-1",
+      "word_id": "protect",
+      "text": "Helmets protect the head.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大人把伞往孩子那边偏，自己半边肩湿了"
+    },
+    {
+      "id": "ex-protect-2",
+      "word_id": "protect",
+      "text": "The law protects tenants.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大人把伞往孩子那边偏，自己半边肩湿了"
+    },
+    {
+      "id": "ex-detect-1",
+      "word_id": "detect",
+      "text": "The alarm detects smoke.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "仪器指针一动，原本闻不到的气体露了出来"
+    },
+    {
+      "id": "ex-detect-2",
+      "word_id": "detect",
+      "text": "Doctors detected the illness early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "仪器指针一动，原本闻不到的气体露了出来"
+    },
+    {
+      "id": "ex-detective-1",
+      "word_id": "detective",
+      "text": "A detective took her statement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拿着放大镜逐寸看地板的人，找的是别人抹掉的痕迹"
+    },
+    {
+      "id": "ex-detective-2",
+      "word_id": "detective",
+      "text": "He writes detective novels.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拿着放大镜逐寸看地板的人，找的是别人抹掉的痕迹"
+    },
+    {
+      "id": "ex-detector-1",
+      "word_id": "detector",
+      "text": "A metal detector screens passengers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天花板上那个白盒子，烟一进去它就叫"
+    },
+    {
+      "id": "ex-detector-2",
+      "word_id": "detector",
+      "text": "The smoke detector needs a battery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天花板上那个白盒子，烟一进去它就叫"
+    },
+    {
+      "id": "ex-literary-1",
+      "word_id": "literary",
+      "text": "She won a literary prize.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书评版面上讨论的是句子怎么写，不是内容对不对"
+    },
+    {
+      "id": "ex-literary-2",
+      "word_id": "literary",
+      "text": "The phrase is rather literary.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书评版面上讨论的是句子怎么写，不是内容对不对"
+    },
+    {
+      "id": "ex-literacy-1",
+      "word_id": "literacy",
+      "text": "Adult literacy rose sharply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "识字班的人第一次自己读完了一张告示"
+    },
+    {
+      "id": "ex-literacy-2",
+      "word_id": "literacy",
+      "text": "Digital literacy is now essential.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "识字班的人第一次自己读完了一张告示"
+    },
+    {
+      "id": "ex-literally-1",
+      "word_id": "literally",
+      "text": "He translated it literally.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "叫人'把门带上'，他真把门卸下来带走了"
+    },
+    {
+      "id": "ex-literally-2",
+      "word_id": "literally",
+      "text": "The room was literally freezing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "叫人'把门带上'，他真把门卸下来带走了"
+    },
+    {
+      "id": "ex-illiterate-1",
+      "word_id": "illiterate",
+      "text": "Many adults remained illiterate then.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "递过去的表格他拿着看了很久，最后按了手印"
+    },
+    {
+      "id": "ex-illiterate-2",
+      "word_id": "illiterate",
+      "text": "He was illiterate but shrewd.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "递过去的表格他拿着看了很久，最后按了手印"
+    },
+    {
+      "id": "ex-collect-1",
+      "word_id": "collect",
+      "text": "She collects old maps.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散落的豆子被一颗颗捡进同一只碗"
+    },
+    {
+      "id": "ex-collect-2",
+      "word_id": "collect",
+      "text": "I will collect you at six.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散落的豆子被一颗颗捡进同一只碗"
+    },
+    {
+      "id": "ex-collective-1",
+      "word_id": "collective",
+      "text": "It was a collective decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签名不是一个个算，而是整张纸一起递上去"
+    },
+    {
+      "id": "ex-collective-2",
+      "word_id": "collective",
+      "text": "They formed a workers' collective.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签名不是一个个算，而是整张纸一起递上去"
+    },
+    {
+      "id": "ex-lecture-1",
+      "word_id": "lecture",
+      "text": "She gave a lecture on Roman law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "讲台上照着讲稿一段段念，底下几十人在记"
+    },
+    {
+      "id": "ex-lecture-2",
+      "word_id": "lecture",
+      "text": "I got a lecture about being late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "讲台上照着讲稿一段段念，底下几十人在记"
+    },
+    {
+      "id": "ex-diligent-1",
+      "word_id": "diligent",
+      "text": "She is a diligent student.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对账的人一行行核到最后一页才合上本子"
+    },
+    {
+      "id": "ex-diligent-2",
+      "word_id": "diligent",
+      "text": "Diligent checking caught the error.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对账的人一行行核到最后一页才合上本子"
+    },
+    {
+      "id": "ex-face-1",
+      "word_id": "face",
+      "text": "Her face lit up.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "硬币躺着，只看得见朝上那一面"
+    },
+    {
+      "id": "ex-face-2",
+      "word_id": "face",
+      "text": "The clock face is cracked.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "硬币躺着，只看得见朝上那一面"
+    },
+    {
+      "id": "ex-face-3",
+      "word_id": "face",
+      "text": "We must face the facts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "硬币躺着，只看得见朝上那一面"
+    },
+    {
+      "id": "ex-surface-1",
+      "word_id": "surface",
+      "text": "Wipe the surface clean.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "湖面平静，底下的水看不见"
+    },
+    {
+      "id": "ex-surface-2",
+      "word_id": "surface",
+      "text": "The submarine surfaced at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "湖面平静，底下的水看不见"
+    },
+    {
+      "id": "ex-interface-1",
+      "word_id": "interface",
+      "text": "The app has a clean interface.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油和水之间那道分界，两边各不相混却互相顶着"
+    },
+    {
+      "id": "ex-interface-2",
+      "word_id": "interface",
+      "text": "This is the interface between law and ethics.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油和水之间那道分界，两边各不相混却互相顶着"
+    },
+    {
+      "id": "ex-preface-1",
+      "word_id": "preface",
+      "text": "The preface explains her method.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻开书第一页不是正文，是作者交代来由的那几段"
+    },
+    {
+      "id": "ex-preface-2",
+      "word_id": "preface",
+      "text": "He prefaced his answer with a joke.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻开书第一页不是正文，是作者交代来由的那几段"
+    },
+    {
+      "id": "ex-attend-1",
+      "word_id": "attend",
+      "text": "Two hundred people attended the talk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人到了场，身子和眼睛都朝台上那边"
+    },
+    {
+      "id": "ex-attend-2",
+      "word_id": "attend",
+      "text": "Nurses attended to the wounded.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人到了场，身子和眼睛都朝台上那边"
+    },
+    {
+      "id": "ex-attendance-1",
+      "word_id": "attendance",
+      "text": "Attendance is compulsory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点名册上一行行画勾，最后数出多少人"
+    },
+    {
+      "id": "ex-attendance-2",
+      "word_id": "attendance",
+      "text": "Attendance fell to under fifty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点名册上一行行画勾，最后数出多少人"
+    },
+    {
+      "id": "ex-attendant-1",
+      "word_id": "attendant",
+      "text": "A flight attendant brought water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "过道上有人一直看着乘客那边，谁抬手就过去"
+    },
+    {
+      "id": "ex-attendant-2",
+      "word_id": "attendant",
+      "text": "The car park attendant waved us in.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "过道上有人一直看着乘客那边，谁抬手就过去"
+    },
+    {
+      "id": "ex-contend-1",
+      "word_id": "contend",
+      "text": "Three teams contend for the title.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拔河的两队都往后坐着，绳子中间的红布不动"
+    },
+    {
+      "id": "ex-contend-2",
+      "word_id": "contend",
+      "text": "She contends that the data is flawed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拔河的两队都往后坐着，绳子中间的红布不动"
+    },
+    {
+      "id": "ex-intensity-1",
+      "word_id": "intensity",
+      "text": "The intensity of the storm increased.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "弦拧得越紧，拨一下声音越尖"
+    },
+    {
+      "id": "ex-intensity-2",
+      "word_id": "intensity",
+      "text": "She played with great intensity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "弦拧得越紧，拨一下声音越尖"
+    },
+    {
+      "id": "ex-tend-1",
+      "word_id": "tend",
+      "text": "Prices tend to rise in winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "常年偏风下的树，枝干都朝一边长"
+    },
+    {
+      "id": "ex-tend-2",
+      "word_id": "tend",
+      "text": "He tends the garden every weekend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "常年偏风下的树，枝干都朝一边长"
+    },
+    {
+      "id": "ex-admission-1",
+      "word_id": "admission",
+      "text": "Admission is free on Sundays.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口验票放行；或者当众点头说那件事是真的"
+    },
+    {
+      "id": "ex-admission-2",
+      "word_id": "admission",
+      "text": "It was an admission of failure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口验票放行；或者当众点头说那件事是真的"
+    },
+    {
+      "id": "ex-commission-1",
+      "word_id": "commission",
+      "text": "She received a commission to paint the hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "任命书交到手上，事从此归他办"
+    },
+    {
+      "id": "ex-commission-2",
+      "word_id": "commission",
+      "text": "The commission published its findings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "任命书交到手上，事从此归他办"
+    },
+    {
+      "id": "ex-commission-3",
+      "word_id": "commission",
+      "text": "Agents earn a five percent commission.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "任命书交到手上，事从此归他办"
+    },
+    {
+      "id": "ex-miss-1",
+      "word_id": "miss",
+      "text": "He missed the last train.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸出去球已经过去了，指尖擦了个空"
+    },
+    {
+      "id": "ex-miss-2",
+      "word_id": "miss",
+      "text": "She misses her family.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸出去球已经过去了，指尖擦了个空"
+    },
+    {
+      "id": "ex-missile-1",
+      "word_id": "missile",
+      "text": "The missile was intercepted.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "尾焰一闪，那根东西离开架子朝远处去了"
+    },
+    {
+      "id": "ex-missile-2",
+      "word_id": "missile",
+      "text": "Bottles and other missiles were thrown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "尾焰一闪，那根东西离开架子朝远处去了"
+    },
+    {
+      "id": "ex-missionary-1",
+      "word_id": "missionary",
+      "text": "Missionaries founded the first school here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "带着书和药箱上船，去的是从没到过的地方"
+    },
+    {
+      "id": "ex-missionary-2",
+      "word_id": "missionary",
+      "text": "He worked as a medical missionary.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "带着书和药箱上船，去的是从没到过的地方"
+    },
+    {
+      "id": "ex-intermittent-1",
+      "word_id": "intermittent",
+      "text": "Intermittent rain is forecast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水龙头没关严，水一滴一滴地落，不成一条线"
+    },
+    {
+      "id": "ex-intermittent-2",
+      "word_id": "intermittent",
+      "text": "He has an intermittent cough.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水龙头没关严，水一滴一滴地落，不成一条线"
+    },
+    {
+      "id": "ex-promising-1",
+      "word_id": "promising",
+      "text": "She is a promising young engineer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "苗才出土，看叶色就知道这块地会有收成"
+    },
+    {
+      "id": "ex-promising-2",
+      "word_id": "promising",
+      "text": "Early results look promising.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "苗才出土，看叶色就知道这块地会有收成"
+    },
+    {
+      "id": "ex-deduct-1",
+      "word_id": "deduct",
+      "text": "Tax is deducted at source.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工资单上先列总额，再一行行往下减"
+    },
+    {
+      "id": "ex-deduct-2",
+      "word_id": "deduct",
+      "text": "Points are deducted for errors.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工资单上先列总额，再一行行往下减"
+    },
+    {
+      "id": "ex-product-1",
+      "word_id": "product",
+      "text": "The product sells well abroad.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线尽头一件件推出来的成品"
+    },
+    {
+      "id": "ex-product-2",
+      "word_id": "product",
+      "text": "The product of three and four is twelve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线尽头一件件推出来的成品"
+    },
+    {
+      "id": "ex-productive-1",
+      "word_id": "productive",
+      "text": "It was a productive meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一块地，这片的穗子明显更密"
+    },
+    {
+      "id": "ex-productive-2",
+      "word_id": "productive",
+      "text": "The land is highly productive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一块地，这片的穗子明显更密"
+    },
+    {
+      "id": "ex-reduction-1",
+      "word_id": "reduction",
+      "text": "There has been a sharp reduction in costs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "价签上原价被划掉，旁边写着新的更小的数"
+    },
+    {
+      "id": "ex-reduction-2",
+      "word_id": "reduction",
+      "text": "Members get a ten percent reduction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "价签上原价被划掉，旁边写着新的更小的数"
+    },
+    {
+      "id": "ex-introduction-1",
+      "word_id": "introduction",
+      "text": "The introduction of the tax was delayed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主人领着新来的人走进屋，一一说明是谁"
+    },
+    {
+      "id": "ex-introduction-2",
+      "word_id": "introduction",
+      "text": "Read the introduction before chapter one.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主人领着新来的人走进屋，一一说明是谁"
     }
   ]
 }
