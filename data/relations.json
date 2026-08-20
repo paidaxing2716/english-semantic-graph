@@ -2436,6 +2436,102 @@
       "to": "communism",
       "type": "root",
       "note": "commun（共有的）+ -ism（主张）→ 主张财产共有的那套学说 → 共产主义"
+    },
+    {
+      "from": "gradus",
+      "to": "grade",
+      "type": "root",
+      "note": "gradus（一步、一级）本身即词根，无词缀 → 阶梯上的某一级，即所处的那一档"
+    },
+    {
+      "from": "gradus",
+      "to": "gradual",
+      "type": "root",
+      "note": "grad（一步）+ -ual（…的）→ 一步一步来的 → 逐渐的"
+    },
+    {
+      "from": "gradus",
+      "to": "upgrade",
+      "type": "root",
+      "note": "up-（向上）+ grade（一级）→ 往上抬一级 → 升级"
+    },
+    {
+      "from": "gradus",
+      "to": "aggressive",
+      "type": "root",
+      "note": "ag-（ad- 的变体，朝向）+ gress（grad 的变体，走）+ -ive → 朝人步步逼近的 → 好斗的"
+    },
+    {
+      "from": "fundere",
+      "to": "confuse",
+      "type": "root",
+      "note": "con-（一起）+ fuse（倒）→ 几样东西倒在一起分不开 → 使混乱"
+    },
+    {
+      "from": "fundere",
+      "to": "diffuse",
+      "type": "root",
+      "note": "dif-（dis- 的变体，四散）+ fuse（倒）→ 往四面倒开 → 扩散"
+    },
+    {
+      "from": "fundere",
+      "to": "fuse",
+      "type": "root",
+      "note": "fundere（倒出、熔化）本身即词根，无前缀 → 熔到一起成为一体；名词指熔断保护的那根丝"
+    },
+    {
+      "from": "fundere",
+      "to": "refuse",
+      "type": "root",
+      "note": "re-（往回）+ fuse（倒）→ 把递来的倒回去 → 拒绝"
+    },
+    {
+      "from": "optare",
+      "to": "opt",
+      "type": "root",
+      "note": "optare（选择）本身即词根，无词缀 → 在几个之中挑定自己要的那个"
+    },
+    {
+      "from": "optare",
+      "to": "option",
+      "type": "root",
+      "note": "opt（选择）+ -ion（名词）→ 可供挑选的那一项 → 选项"
+    },
+    {
+      "from": "optare",
+      "to": "optional",
+      "type": "root",
+      "note": "option（选项）+ -al（…的）→ 属于可挑可不挑的 → 可选的"
+    },
+    {
+      "from": "optare",
+      "to": "adopt",
+      "type": "root",
+      "note": "ad-（朝向）+ opt（选择）→ 挑中并把它拿到自己这边 → 采用；把孩子挑来归入自家 → 收养"
+    },
+    {
+      "from": "civis",
+      "to": "civil",
+      "type": "root",
+      "note": "civis（市民）+ -il（…的）→ 与市民相关的 → 公民的；引申为像市民之间那样有礼 → 客气的"
+    },
+    {
+      "from": "civis",
+      "to": "civilian",
+      "type": "root",
+      "note": "civil（公民的）+ -ian（人）→ 身份是市民而非军人的那个人 → 平民"
+    },
+    {
+      "from": "civis",
+      "to": "civilize",
+      "type": "root",
+      "note": "civil（市民的）+ -ize（使成为）→ 使之进入市民那套秩序 → 使文明"
+    },
+    {
+      "from": "civis",
+      "to": "civilization",
+      "type": "root",
+      "note": "civilize（使入市民秩序）+ -ation（名词）→ 那套秩序连同其成果 → 文明"
     }
   ]
 }

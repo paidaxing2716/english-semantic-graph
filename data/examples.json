@@ -5285,6 +5285,237 @@
       "text": "He studied the economics of communism.",
       "source": "AI 生成 · 人工审核",
       "scene": "田地不写谁的名字，收成按人分"
+    },
+    {
+      "id": "ex-grade-1",
+      "word_id": "grade",
+      "text": "She got the highest grade in the class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶从下往上编号，站在第几级一目了然"
+    },
+    {
+      "id": "ex-grade-2",
+      "word_id": "grade",
+      "text": "He teaches fourth grade.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶从下往上编号，站在第几级一目了然"
+    },
+    {
+      "id": "ex-grade-3",
+      "word_id": "grade",
+      "text": "The road has a steep grade here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶从下往上编号，站在第几级一目了然"
+    },
+    {
+      "id": "ex-gradual-1",
+      "word_id": "gradual",
+      "text": "There has been a gradual improvement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位每天涨一指，看一天看不出，看一月很明显"
+    },
+    {
+      "id": "ex-gradual-2",
+      "word_id": "gradual",
+      "text": "The slope is long but gradual.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位每天涨一指，看一天看不出，看一月很明显"
+    },
+    {
+      "id": "ex-upgrade-1",
+      "word_id": "upgrade",
+      "text": "We upgraded the software last night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机票从后排换到前舱，位置往上挪了一档"
+    },
+    {
+      "id": "ex-upgrade-2",
+      "word_id": "upgrade",
+      "text": "She was upgraded to business class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机票从后排换到前舱，位置往上挪了一档"
+    },
+    {
+      "id": "ex-aggressive-1",
+      "word_id": "aggressive",
+      "text": "The dog became aggressive when cornered.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对面的人每说一句就往前迈半步，人只能后退"
+    },
+    {
+      "id": "ex-aggressive-2",
+      "word_id": "aggressive",
+      "text": "They took an aggressive approach to sales.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对面的人每说一句就往前迈半步，人只能后退"
+    },
+    {
+      "id": "ex-confuse-1",
+      "word_id": "confuse",
+      "text": "The signs only confused drivers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两种颜料倒进同一个碗，搅完谁也捞不出来"
+    },
+    {
+      "id": "ex-confuse-2",
+      "word_id": "confuse",
+      "text": "People often confuse the two brothers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两种颜料倒进同一个碗，搅完谁也捞不出来"
+    },
+    {
+      "id": "ex-diffuse-1",
+      "word_id": "diffuse",
+      "text": "The scent diffused through the room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一滴墨落进水里，颜色从中心朝各方向散开"
+    },
+    {
+      "id": "ex-diffuse-2",
+      "word_id": "diffuse",
+      "text": "A screen diffuses the lamplight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一滴墨落进水里，颜色从中心朝各方向散开"
+    },
+    {
+      "id": "ex-fuse-1",
+      "word_id": "fuse",
+      "text": "The two companies fused into one group.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两段铁在炉火里烧红后压合，冷却后看不出接缝"
+    },
+    {
+      "id": "ex-fuse-2",
+      "word_id": "fuse",
+      "text": "The fuse blew during the storm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两段铁在炉火里烧红后压合，冷却后看不出接缝"
+    },
+    {
+      "id": "ex-refuse-1",
+      "word_id": "refuse",
+      "text": "She refused the offer without hesitating.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方倒过来的茶被推回去，杯子原样送还"
+    },
+    {
+      "id": "ex-refuse-2",
+      "word_id": "refuse",
+      "text": "He refused to answer the question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方倒过来的茶被推回去，杯子原样送还"
+    },
+    {
+      "id": "ex-opt-1",
+      "word_id": "opt",
+      "text": "Most staff opted for the earlier shift.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "表格上三个方框，只在其中一个里打勾"
+    },
+    {
+      "id": "ex-opt-2",
+      "word_id": "opt",
+      "text": "She opted to study abroad.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "表格上三个方框，只在其中一个里打勾"
+    },
+    {
+      "id": "ex-option-1",
+      "word_id": "option",
+      "text": "You have three options here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "菜单上并排列着几行，每行都能点"
+    },
+    {
+      "id": "ex-option-2",
+      "word_id": "option",
+      "text": "Leaving early was not an option.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "菜单上并排列着几行，每行都能点"
+    },
+    {
+      "id": "ex-optional-1",
+      "word_id": "optional",
+      "text": "The insurance is optional.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报名表上那一栏标着可不填，空着也能提交"
+    },
+    {
+      "id": "ex-optional-2",
+      "word_id": "optional",
+      "text": "Attendance at the talk is optional.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报名表上那一栏标着可不填，空着也能提交"
+    },
+    {
+      "id": "ex-adopt-1",
+      "word_id": "adopt",
+      "text": "The committee adopted the new rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从几套方案里挑一套，然后照它办事"
+    },
+    {
+      "id": "ex-adopt-2",
+      "word_id": "adopt",
+      "text": "They adopted a boy from overseas.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从几套方案里挑一套，然后照它办事"
+    },
+    {
+      "id": "ex-civil-1",
+      "word_id": "civil",
+      "text": "Civil rights were extended that decade.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭里两方各请律师陈述，没人动手"
+    },
+    {
+      "id": "ex-civil-2",
+      "word_id": "civil",
+      "text": "He gave a civil but cool reply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭里两方各请律师陈述，没人动手"
+    },
+    {
+      "id": "ex-civilian-1",
+      "word_id": "civilian",
+      "text": "Most of the casualties were civilians.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街上穿便装的人流，中间夹着几个穿制服的"
+    },
+    {
+      "id": "ex-civilian-2",
+      "word_id": "civilian",
+      "text": "He returned to civilian life after the war.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街上穿便装的人流，中间夹着几个穿制服的"
+    },
+    {
+      "id": "ex-civilize-1",
+      "word_id": "civilize",
+      "text": "Rome sought to civilize the provinces.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "野地上先划出街道，再立起规矩，人开始按序而居"
+    },
+    {
+      "id": "ex-civilize-2",
+      "word_id": "civilize",
+      "text": "Schooling helped civilize public debate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "野地上先划出街道，再立起规矩，人开始按序而居"
+    },
+    {
+      "id": "ex-civilization-1",
+      "word_id": "civilization",
+      "text": "The exhibition covers ancient civilizations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "城墙、水渠、市集、法典摆在同一张图上"
+    },
+    {
+      "id": "ex-civilization-2",
+      "word_id": "civilization",
+      "text": "Writing was crucial to early civilization.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "城墙、水渠、市集、法典摆在同一张图上"
     }
   ]
 }

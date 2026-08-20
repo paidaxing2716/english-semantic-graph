@@ -1062,6 +1062,66 @@
         "communism",
         "community"
       ]
+    },
+    {
+      "id": "concept-gradus-step",
+      "concept": "a step, to step",
+      "chinese": "步、级",
+      "core_image": "台阶一级一级往上，每次只抬一只脚",
+      "root_ids": [
+        "gradus"
+      ],
+      "word_ids": [
+        "aggressive",
+        "grade",
+        "gradual",
+        "upgrade"
+      ]
+    },
+    {
+      "id": "concept-fundere-pour",
+      "concept": "to pour out",
+      "chinese": "倒出、化开",
+      "core_image": "一壶水倒进盆里，水面立刻铺满盆底",
+      "root_ids": [
+        "fundere"
+      ],
+      "word_ids": [
+        "confuse",
+        "diffuse",
+        "fuse",
+        "refuse"
+      ]
+    },
+    {
+      "id": "concept-optare-choose",
+      "concept": "to choose what one wants",
+      "chinese": "选择",
+      "core_image": "菜单上手指停在一行，就点这个",
+      "root_ids": [
+        "optare"
+      ],
+      "word_ids": [
+        "adopt",
+        "opt",
+        "option",
+        "optional"
+      ]
+    },
+    {
+      "id": "concept-civis-citizen",
+      "concept": "a citizen",
+      "chinese": "市民、公民",
+      "core_image": "街市上互不相识的人靠同一套规矩打交道",
+      "root_ids": [
+        "civis"
+      ],
+      "word_ids": [
+        "civil",
+        "civilian",
+        "civilization",
+        "civilize"
+      ]
     }
   ]
 }

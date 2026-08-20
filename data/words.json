@@ -15320,6 +15320,627 @@
         "communicate",
         "communication"
       ]
+    },
+    {
+      "id": "grade",
+      "word": "grade",
+      "pos": "noun",
+      "phonetic": "/ɡreɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "gradus（一步、一级）本身即词根，无词缀 → 阶梯上的某一级，即所处的那一档",
+      "recall_hint": "gradus（一步、一级）本身即词根 → 阶梯上的某一级，即所处的那一档：分数、年级、坡度都是",
+      "origin": "拉丁语 gradus（一步、等级）",
+      "native_definition": "a level of quality or rank, a school year, or a slope",
+      "core_concept": "one step on a scale – 阶梯上的某一级",
+      "core_image": "台阶从下往上编号，站在第几级一目了然",
+      "chinese": [
+        "等级",
+        "分数",
+        "年级",
+        "坡度"
+      ],
+      "examples": [
+        "She got the highest grade in the class.",
+        "He teaches fourth grade.",
+        "The road has a steep grade here."
+      ],
+      "synonyms": [
+        "level",
+        "rank"
+      ],
+      "antonyms": [],
+      "related": [
+        "gradual",
+        "upgrade",
+        "aggressive"
+      ],
+      "semantic_expansions": [
+        "等级/分数：阶梯上的那一级",
+        "年级：学制阶梯上的那一级",
+        "坡度：路面每步抬升的那个量。四义共享'阶梯上的一级'"
+      ]
+    },
+    {
+      "id": "gradual",
+      "word": "gradual",
+      "pos": "adjective",
+      "phonetic": "/ˈɡrædʒuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "grad（一步）+ -ual（…的）→ 一步一步来的 → 逐渐的",
+      "origin": "拉丁语 gradualis：gradus（一步）",
+      "native_definition": "happening slowly over a period of time",
+      "core_concept": "advancing one step at a time – 一步一步地推进，不跳跃",
+      "core_image": "水位每天涨一指，看一天看不出，看一月很明显",
+      "chinese": [
+        "逐渐的",
+        "渐进的"
+      ],
+      "examples": [
+        "There has been a gradual improvement.",
+        "The slope is long but gradual."
+      ],
+      "synonyms": [
+        "slow",
+        "steady"
+      ],
+      "antonyms": [
+        "sudden"
+      ],
+      "related": [
+        "grade",
+        "upgrade",
+        "aggressive"
+      ],
+      "semantic_expansions": [
+        "逐渐的与渐进的：都是'一步一步来、不跳跃'，中文两种说法同一个节奏"
+      ]
+    },
+    {
+      "id": "upgrade",
+      "word": "upgrade",
+      "pos": "verb",
+      "phonetic": "/ˈʌpɡreɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "up-（向上）+ grade（一级）→ 往上抬一级 → 升级",
+      "origin": "英语 up + 拉丁语 gradus（等级）",
+      "native_definition": "to raise something to a higher level or better standard",
+      "core_concept": "moving something up a step – 把它往上抬一级",
+      "core_image": "机票从后排换到前舱，位置往上挪了一档",
+      "chinese": [
+        "升级",
+        "提升",
+        "升舱"
+      ],
+      "examples": [
+        "We upgraded the software last night.",
+        "She was upgraded to business class."
+      ],
+      "synonyms": [
+        "improve",
+        "raise"
+      ],
+      "antonyms": [],
+      "related": [
+        "grade",
+        "gradual",
+        "aggressive"
+      ],
+      "semantic_expansions": [
+        "升级/提升：往上抬一级",
+        "升舱：座位往上挪一档。同一个'上抬一级'，抬的是版本还是位置"
+      ]
+    },
+    {
+      "id": "aggressive",
+      "word": "aggressive",
+      "pos": "adjective",
+      "phonetic": "/əˈɡresɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "ag-（ad- 的变体，朝向）+ gress（grad 的变体，走）+ -ive → 朝人步步逼近的 → 好斗的",
+      "recall_hint": "ag-（朝向）+ gress（走）+ -ive → 朝对方步步逼近的；用在做法上则是进逼式的、不留余地",
+      "origin": "拉丁语 aggressivus：ad-（朝向）+ gradi（走）——'走向、进逼'",
+      "native_definition": "ready to attack or confront, or forceful in pursuing aims",
+      "core_concept": "stepping toward another to press on them – 一步步朝对方逼过去",
+      "core_image": "对面的人每说一句就往前迈半步，人只能后退",
+      "chinese": [
+        "好斗的",
+        "有攻击性的",
+        "积极进取的"
+      ],
+      "examples": [
+        "The dog became aggressive when cornered.",
+        "They took an aggressive approach to sales."
+      ],
+      "synonyms": [
+        "hostile",
+        "forceful"
+      ],
+      "antonyms": [
+        "passive"
+      ],
+      "related": [
+        "grade",
+        "gradual",
+        "upgrade"
+      ],
+      "semantic_expansions": [
+        "好斗的/有攻击性的：朝人步步逼近",
+        "积极进取的（商业）：做法上步步进逼，不留余地。同一个'向前进逼'，褒贬随场合而变"
+      ]
+    },
+    {
+      "id": "confuse",
+      "word": "confuse",
+      "pos": "verb",
+      "phonetic": "/kənˈfjuːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "fundere"
+      ],
+      "root_logic": "con-（一起）+ fuse（倒）→ 几样东西倒在一起分不开 → 使混乱",
+      "origin": "拉丁语 confundere：com-（一起）+ fundere（倒出）",
+      "native_definition": "to make someone unable to think clearly, or to mistake one thing for another",
+      "core_concept": "pouring things together until they cannot be told apart – 倒在一起，分不出哪是哪",
+      "core_image": "两种颜料倒进同一个碗，搅完谁也捞不出来",
+      "chinese": [
+        "使混乱",
+        "混淆",
+        "弄糊涂"
+      ],
+      "examples": [
+        "The signs only confused drivers.",
+        "People often confuse the two brothers."
+      ],
+      "synonyms": [
+        "puzzle",
+        "mix up"
+      ],
+      "antonyms": [
+        "clarify"
+      ],
+      "related": [
+        "diffuse",
+        "fuse",
+        "refuse"
+      ],
+      "semantic_expansions": [
+        "弄糊涂：把人脑中的东西搅在一起",
+        "混淆：把两样东西倒在一起分不清。同一个'倒在一起难分'，搅的是人还是事物"
+      ]
+    },
+    {
+      "id": "diffuse",
+      "word": "diffuse",
+      "pos": "verb",
+      "phonetic": "/dɪˈfjuːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "fundere"
+      ],
+      "root_logic": "dif-（dis- 的变体，四散）+ fuse（倒）→ 往四面倒开 → 扩散",
+      "origin": "拉丁语 diffundere：dis-（四散）+ fundere（倒出）",
+      "native_definition": "to spread out over a wide area, or to make light softer",
+      "core_concept": "pouring outward in all directions – 朝四面倒开、铺散",
+      "core_image": "一滴墨落进水里，颜色从中心朝各方向散开",
+      "chinese": [
+        "扩散",
+        "散播",
+        "使柔和"
+      ],
+      "examples": [
+        "The scent diffused through the room.",
+        "A screen diffuses the lamplight."
+      ],
+      "synonyms": [
+        "spread",
+        "scatter"
+      ],
+      "antonyms": [
+        "concentrate"
+      ],
+      "related": [
+        "confuse",
+        "fuse",
+        "refuse"
+      ],
+      "semantic_expansions": [
+        "扩散/散播：朝四面倒开铺散",
+        "使柔和（光线）：把光散开不再集中。同一个'四散倒开'，散的是气味还是光"
+      ]
+    },
+    {
+      "id": "fuse",
+      "word": "fuse",
+      "pos": "verb",
+      "phonetic": "/fjuːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "fundere"
+      ],
+      "root_logic": "fundere（倒出、熔化）本身即词根，无前缀 → 熔到一起成为一体；名词指熔断保护的那根丝",
+      "recall_hint": "fundere（熔化、倒出）本身即词根 → 熔到一起成为一体；名词指电流过大时会先熔断的那根丝",
+      "origin": "拉丁语 fusus：fundere（倒出、熔化）",
+      "native_definition": "to join into one by melting, or a safety device that melts to break a circuit",
+      "core_concept": "melting two things into one – 熔到一起成为一体",
+      "core_image": "两段铁在炉火里烧红后压合，冷却后看不出接缝",
+      "chinese": [
+        "熔合",
+        "融合",
+        "保险丝"
+      ],
+      "examples": [
+        "The two companies fused into one group.",
+        "The fuse blew during the storm."
+      ],
+      "synonyms": [
+        "merge",
+        "combine"
+      ],
+      "antonyms": [
+        "separate"
+      ],
+      "related": [
+        "confuse",
+        "diffuse",
+        "refuse"
+      ],
+      "semantic_expansions": [
+        "熔合/融合：熔到一起成为一体",
+        "保险丝：会先熔断的那根丝。同一个'熔'，一个是合一个是断"
+      ]
+    },
+    {
+      "id": "refuse",
+      "word": "refuse",
+      "pos": "verb",
+      "phonetic": "/rɪˈfjuːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "fundere"
+      ],
+      "root_logic": "re-（往回）+ fuse（倒）→ 把递来的倒回去 → 拒绝",
+      "origin": "拉丁语 refundere：re-（往回）+ fundere（倒出）——'倒回去'",
+      "native_definition": "to say no to something offered or requested",
+      "core_concept": "pouring back what was offered – 把递过来的原样倒回去",
+      "core_image": "对方倒过来的茶被推回去，杯子原样送还",
+      "chinese": [
+        "拒绝",
+        "谢绝"
+      ],
+      "examples": [
+        "She refused the offer without hesitating.",
+        "He refused to answer the question."
+      ],
+      "synonyms": [
+        "decline",
+        "reject"
+      ],
+      "antonyms": [
+        "accept"
+      ],
+      "related": [
+        "confuse",
+        "diffuse",
+        "fuse",
+        "reject"
+      ],
+      "semantic_expansions": [
+        "拒绝与谢绝：都是'把递来的倒回去'，中文按客气程度分了两个词"
+      ]
+    },
+    {
+      "id": "opt",
+      "word": "opt",
+      "pos": "verb",
+      "phonetic": "/ɑːpt/",
+      "decomposable": "root",
+      "root_ids": [
+        "optare"
+      ],
+      "root_logic": "optare（选择）本身即词根，无词缀 → 在几个之中挑定自己要的那个",
+      "origin": "拉丁语 optare（选择、期望）",
+      "native_definition": "to choose one thing rather than another",
+      "core_concept": "settling on the one you want – 在几个之中挑定要的那个",
+      "core_image": "表格上三个方框，只在其中一个里打勾",
+      "chinese": [
+        "选择",
+        "抉择"
+      ],
+      "examples": [
+        "Most staff opted for the earlier shift.",
+        "She opted to study abroad."
+      ],
+      "synonyms": [
+        "choose",
+        "select"
+      ],
+      "antonyms": [],
+      "related": [
+        "option",
+        "optional",
+        "adopt"
+      ],
+      "semantic_expansions": [
+        "选择与抉择：都是'在几个之中挑定要的那个'，中文按分量轻重分了两个词"
+      ]
+    },
+    {
+      "id": "option",
+      "word": "option",
+      "pos": "noun",
+      "phonetic": "/ˈɑːpʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "optare"
+      ],
+      "root_logic": "opt（选择）+ -ion（名词）→ 可供挑选的那一项 → 选项",
+      "origin": "拉丁语 optio：optare（选择）",
+      "native_definition": "one of the things that can be chosen, or the freedom to choose",
+      "core_concept": "one of the things open to be chosen – 摆出来供人挑的那一项",
+      "core_image": "菜单上并排列着几行，每行都能点",
+      "chinese": [
+        "选项",
+        "选择权"
+      ],
+      "examples": [
+        "You have three options here.",
+        "Leaving early was not an option."
+      ],
+      "synonyms": [
+        "choice",
+        "alternative"
+      ],
+      "antonyms": [],
+      "related": [
+        "opt",
+        "optional",
+        "adopt"
+      ],
+      "semantic_expansions": [
+        "选项：摆出来供挑的那一项",
+        "选择权：可以挑这件事本身。同一个'可挑之项'，一个指项一个指权"
+      ]
+    },
+    {
+      "id": "optional",
+      "word": "optional",
+      "pos": "adjective",
+      "phonetic": "/ˈɑːpʃənl/",
+      "decomposable": "root",
+      "root_ids": [
+        "optare"
+      ],
+      "root_logic": "option（选项）+ -al（…的）→ 属于可挑可不挑的 → 可选的",
+      "origin": "拉丁语 optio（选择）+ -al",
+      "native_definition": "not required; left to one's choice",
+      "core_concept": "left to the chooser, not imposed – 挑不挑由你，不强加",
+      "core_image": "报名表上那一栏标着可不填，空着也能提交",
+      "chinese": [
+        "可选的",
+        "非必需的"
+      ],
+      "examples": [
+        "The insurance is optional.",
+        "Attendance at the talk is optional."
+      ],
+      "synonyms": [
+        "voluntary"
+      ],
+      "antonyms": [
+        "compulsory",
+        "mandatory"
+      ],
+      "related": [
+        "opt",
+        "option",
+        "adopt"
+      ],
+      "semantic_expansions": [
+        "可选的与非必需的：都是'挑不挑由你、不强加'——与 compulsory（被推着非做不可）正好构成一对"
+      ]
+    },
+    {
+      "id": "adopt",
+      "word": "adopt",
+      "pos": "verb",
+      "phonetic": "/əˈdɑːpt/",
+      "decomposable": "root",
+      "root_ids": [
+        "optare"
+      ],
+      "root_logic": "ad-（朝向）+ opt（选择）→ 挑中并把它拿到自己这边 → 采用；把孩子挑来归入自家 → 收养",
+      "recall_hint": "ad-（朝向）+ opt（选择）→ 挑中并把它拿到自己这边：可以是一套做法，也可以是一个孩子",
+      "origin": "拉丁语 adoptare：ad-（朝向）+ optare（选择）",
+      "native_definition": "to start using a method or attitude, or to take a child into one's family",
+      "core_concept": "choosing something and taking it as one's own – 挑中它并把它变成自己的",
+      "core_image": "从几套方案里挑一套，然后照它办事",
+      "chinese": [
+        "采用",
+        "采取",
+        "收养"
+      ],
+      "examples": [
+        "The committee adopted the new rules.",
+        "They adopted a boy from overseas."
+      ],
+      "synonyms": [
+        "take up",
+        "embrace"
+      ],
+      "antonyms": [
+        "reject"
+      ],
+      "related": [
+        "opt",
+        "option",
+        "optional"
+      ],
+      "semantic_expansions": [
+        "采用/采取：挑中一套做法并照它办",
+        "收养：挑中一个孩子并归入自家。同一个'挑中并纳为己有'，纳的是做法还是人"
+      ]
+    },
+    {
+      "id": "civil",
+      "word": "civil",
+      "pos": "adjective",
+      "phonetic": "/ˈsɪvl/",
+      "decomposable": "root",
+      "root_ids": [
+        "civis"
+      ],
+      "root_logic": "civis（市民）+ -il（…的）→ 与市民相关的 → 公民的；引申为像市民之间那样有礼 → 客气的",
+      "recall_hint": "civis（市民）+ -il → 与市民身份相关的；引申为像市民相处那样守礼、不动武",
+      "origin": "拉丁语 civilis：civis（市民、公民）",
+      "native_definition": "relating to citizens and their affairs, not military or religious; also polite",
+      "core_concept": "belonging to citizens rather than to force – 属于市民之事，而非武力或神权",
+      "core_image": "法庭里两方各请律师陈述，没人动手",
+      "chinese": [
+        "公民的",
+        "民事的",
+        "客气的"
+      ],
+      "examples": [
+        "Civil rights were extended that decade.",
+        "He gave a civil but cool reply."
+      ],
+      "synonyms": [
+        "polite",
+        "public"
+      ],
+      "antonyms": [
+        "military",
+        "rude"
+      ],
+      "related": [
+        "civilian",
+        "civilize",
+        "civilization"
+      ],
+      "semantic_expansions": [
+        "公民的/民事的：属于市民之事，与军事、宗教相对",
+        "客气的：像市民相处那样守礼。同一个'市民之道'，一个说范畴一个说举止"
+      ]
+    },
+    {
+      "id": "civilian",
+      "word": "civilian",
+      "pos": "noun",
+      "phonetic": "/səˈvɪliən/",
+      "decomposable": "root",
+      "root_ids": [
+        "civis"
+      ],
+      "root_logic": "civil（公民的）+ -ian（人）→ 身份是市民而非军人的那个人 → 平民",
+      "origin": "拉丁语 civilis（公民的）← civis（市民）",
+      "native_definition": "a person who is not a member of the armed forces or police",
+      "core_concept": "one who stands as a citizen, not under arms – 以市民身份而非武装身份在场的人",
+      "core_image": "街上穿便装的人流，中间夹着几个穿制服的",
+      "chinese": [
+        "平民",
+        "老百姓"
+      ],
+      "examples": [
+        "Most of the casualties were civilians.",
+        "He returned to civilian life after the war."
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "soldier"
+      ],
+      "related": [
+        "civil",
+        "civilize",
+        "civilization"
+      ],
+      "semantic_expansions": [
+        "平民与老百姓：都是'以市民身份而非武装身份在场的人'，中文一个正式一个口语"
+      ]
+    },
+    {
+      "id": "civilize",
+      "word": "civilize",
+      "pos": "verb",
+      "phonetic": "/ˈsɪvəlaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "civis"
+      ],
+      "root_logic": "civil（市民的）+ -ize（使成为）→ 使之进入市民那套秩序 → 使文明",
+      "origin": "拉丁语 civilis（公民的）+ -ize",
+      "native_definition": "to bring a group to a more organized and developed way of life",
+      "core_concept": "bringing into the order citizens live by – 使之进入市民赖以相处的那套秩序",
+      "core_image": "野地上先划出街道，再立起规矩，人开始按序而居",
+      "chinese": [
+        "使文明",
+        "教化"
+      ],
+      "examples": [
+        "Rome sought to civilize the provinces.",
+        "Schooling helped civilize public debate."
+      ],
+      "synonyms": [
+        "educate",
+        "refine"
+      ],
+      "antonyms": [],
+      "related": [
+        "civil",
+        "civilian",
+        "civilization"
+      ],
+      "semantic_expansions": [
+        "使文明与教化：都是'使之进入市民相处的那套秩序'，一个偏整体一个偏个人"
+      ]
+    },
+    {
+      "id": "civilization",
+      "word": "civilization",
+      "pos": "noun",
+      "phonetic": "/ˌsɪvələˈzeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "civis"
+      ],
+      "root_logic": "civilize（使入市民秩序）+ -ation（名词）→ 那套秩序连同其成果 → 文明",
+      "origin": "拉丁语 civilis（公民的）+ -ation",
+      "native_definition": "an advanced stage of human society, or such a society itself",
+      "core_concept": "the order citizens build and what it produces – 市民建起的那套秩序及其成果",
+      "core_image": "城墙、水渠、市集、法典摆在同一张图上",
+      "chinese": [
+        "文明",
+        "文明社会"
+      ],
+      "examples": [
+        "The exhibition covers ancient civilizations.",
+        "Writing was crucial to early civilization."
+      ],
+      "synonyms": [
+        "culture",
+        "society"
+      ],
+      "antonyms": [],
+      "related": [
+        "civil",
+        "civilian",
+        "civilize"
+      ],
+      "semantic_expansions": [
+        "文明：市民秩序及其成果",
+        "文明社会：处在那套秩序中的社会。同一个词根，一个指成就一个指共同体"
+      ]
     }
   ]
 }

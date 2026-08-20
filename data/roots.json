@@ -1229,6 +1229,81 @@
         "communism",
         "community"
       ]
+    },
+    {
+      "id": "gradus",
+      "root": "gradus",
+      "variants": [
+        "grad",
+        "gress"
+      ],
+      "origin": "拉丁语 gradus / gradi（一步、走）",
+      "core_concept": "a step, to step / 一步一步地走",
+      "core_image": "台阶一级一级往上，每次只抬一只脚",
+      "english_definition": "a step, a degree, to walk",
+      "word_ids": [
+        "aggressive",
+        "grade",
+        "gradual",
+        "upgrade"
+      ]
+    },
+    {
+      "id": "fundere",
+      "root": "fundere",
+      "variants": [
+        "fus",
+        "fuse",
+        "fund"
+      ],
+      "origin": "拉丁语 fundere（倒出、浇注）",
+      "core_concept": "to pour out / 倒出去、化开",
+      "core_image": "一壶水倒进盆里，水面立刻铺满整个盆底",
+      "english_definition": "to pour, to melt together",
+      "word_ids": [
+        "confuse",
+        "diffuse",
+        "fuse",
+        "refuse"
+      ]
+    },
+    {
+      "id": "optare",
+      "root": "optare",
+      "variants": [
+        "optare",
+        "opt",
+        "optim"
+      ],
+      "origin": "拉丁语 optare（选择、期望）",
+      "core_concept": "to choose what one wants / 挑出自己想要的那个",
+      "core_image": "菜单上手指停在一行，就点这个",
+      "english_definition": "to choose, to wish for",
+      "word_ids": [
+        "adopt",
+        "opt",
+        "option",
+        "optional"
+      ]
+    },
+    {
+      "id": "civis",
+      "root": "civis",
+      "variants": [
+        "civ",
+        "civi",
+        "civil"
+      ],
+      "origin": "拉丁语 civis（市民、公民）",
+      "core_concept": "a citizen, one who lives under shared rules / 按共同规矩相处的城中人",
+      "core_image": "街市上互不相识的人靠同一套规矩打交道，不动手",
+      "english_definition": "citizen, of the city",
+      "word_ids": [
+        "civil",
+        "civilian",
+        "civilization",
+        "civilize"
+      ]
     }
   ]
 }
