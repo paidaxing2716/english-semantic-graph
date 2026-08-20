@@ -4270,6 +4270,300 @@
       "text": "The organization of the event took months.",
       "source": "AI 生成 · 人工审核",
       "scene": "组织架构图上一格连一格，每格写着谁管什么"
+    },
+    {
+      "id": "ex-pose-1",
+      "word_id": "pose",
+      "text": "She posed for the portrait.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摄影师说别动，人就停在那个姿势上不再改"
+    },
+    {
+      "id": "ex-pose-2",
+      "word_id": "pose",
+      "text": "The leak poses a serious risk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摄影师说别动，人就停在那个姿势上不再改"
+    },
+    {
+      "id": "ex-pose-3",
+      "word_id": "pose",
+      "text": "He posed an awkward question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摄影师说别动，人就停在那个姿势上不再改"
+    },
+    {
+      "id": "ex-opponent-1",
+      "word_id": "opponent",
+      "text": "She defeated her opponent in three sets.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棋盘两侧各坐一人，中间隔着盘面对视"
+    },
+    {
+      "id": "ex-opponent-2",
+      "word_id": "opponent",
+      "text": "He is a longtime opponent of the tax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棋盘两侧各坐一人，中间隔着盘面对视"
+    },
+    {
+      "id": "ex-opposite-1",
+      "word_id": "opposite",
+      "text": "They sat at opposite ends of the table.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街两侧的两家店门对门，谁都看得见谁"
+    },
+    {
+      "id": "ex-opposite-2",
+      "word_id": "opposite",
+      "text": "The result was the opposite of what we hoped.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街两侧的两家店门对门，谁都看得见谁"
+    },
+    {
+      "id": "ex-component-1",
+      "word_id": "component",
+      "text": "Each component is tested separately.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拆开的收音机零件摊在布上，每件都是整机的一部分"
+    },
+    {
+      "id": "ex-component-2",
+      "word_id": "component",
+      "text": "Trust is a key component of teamwork.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拆开的收音机零件摊在布上，每件都是整机的一部分"
+    },
+    {
+      "id": "ex-composite-1",
+      "word_id": "composite",
+      "text": "The wing is made of composite materials.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "碳纤维板一层层压合，成品比任何单层都硬"
+    },
+    {
+      "id": "ex-composite-2",
+      "word_id": "composite",
+      "text": "Police released a composite sketch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "碳纤维板一层层压合，成品比任何单层都硬"
+    },
+    {
+      "id": "ex-compound-1",
+      "word_id": "compound",
+      "text": "Water is a compound of hydrogen and oxygen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两种粉末混合后加热，出来的东西两者都不像"
+    },
+    {
+      "id": "ex-compound-2",
+      "word_id": "compound",
+      "text": "Delays compounded the problem.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两种粉末混合后加热，出来的东西两者都不像"
+    },
+    {
+      "id": "ex-disposal-1",
+      "word_id": "disposal",
+      "text": "Waste disposal costs have risen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "垃圾被拖到指定的地方倒掉，从此不在这里"
+    },
+    {
+      "id": "ex-disposal-2",
+      "word_id": "disposal",
+      "text": "I put the car at your disposal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "垃圾被拖到指定的地方倒掉，从此不在这里"
+    },
+    {
+      "id": "ex-disposition-1",
+      "word_id": "disposition",
+      "text": "She has a cheerful disposition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棋子在盘上摆开的那个局面，看一眼就知道谁占优"
+    },
+    {
+      "id": "ex-disposition-2",
+      "word_id": "disposition",
+      "text": "The disposition of troops was kept secret.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棋子在盘上摆开的那个局面，看一眼就知道谁占优"
+    },
+    {
+      "id": "ex-exposure-1",
+      "word_id": "exposure",
+      "text": "Prolonged exposure to sun damages skin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷被风掀走，人整夜坐在没有遮挡的山坡上"
+    },
+    {
+      "id": "ex-exposure-2",
+      "word_id": "exposure",
+      "text": "The scandal received wide exposure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷被风掀走，人整夜坐在没有遮挡的山坡上"
+    },
+    {
+      "id": "ex-exposure-3",
+      "word_id": "exposure",
+      "text": "The photo needs a longer exposure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷被风掀走，人整夜坐在没有遮挡的山坡上"
+    },
+    {
+      "id": "ex-preposition-1",
+      "word_id": "preposition",
+      "text": "In English, prepositions often follow the verb.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "句子里那个小词紧贴在名词前，指出谁在谁上面"
+    },
+    {
+      "id": "ex-preposition-2",
+      "word_id": "preposition",
+      "text": "Do not end the clause with a preposition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "句子里那个小词紧贴在名词前，指出谁在谁上面"
+    },
+    {
+      "id": "ex-proposition-1",
+      "word_id": "proposition",
+      "text": "The proposition is easy to disprove.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上写下一句话，下面开始逐条验证它成不成立"
+    },
+    {
+      "id": "ex-proposition-2",
+      "word_id": "proposition",
+      "text": "He turned down the business proposition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上写下一句话，下面开始逐条验证它成不成立"
+    },
+    {
+      "id": "ex-special-1",
+      "word_id": "special",
+      "text": "Today's special is grilled fish.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "货架上单独隔出一格，标签跟旁边整排都不一样"
+    },
+    {
+      "id": "ex-special-2",
+      "word_id": "special",
+      "text": "She needs special equipment for the job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "货架上单独隔出一格，标签跟旁边整排都不一样"
+    },
+    {
+      "id": "ex-specialist-1",
+      "word_id": "specialist",
+      "text": "She was referred to a heart specialist.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转诊单上写着要找只看这一种病的那位医生"
+    },
+    {
+      "id": "ex-specialist-2",
+      "word_id": "specialist",
+      "text": "We hired a specialist in tax law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转诊单上写着要找只看这一种病的那位医生"
+    },
+    {
+      "id": "ex-specialize-1",
+      "word_id": "specialize",
+      "text": "He specializes in medieval history.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本什么都做的铺子改成只卖一种东西，招牌也换了"
+    },
+    {
+      "id": "ex-specialize-2",
+      "word_id": "specialize",
+      "text": "The firm specializes in shipping law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本什么都做的铺子改成只卖一种东西，招牌也换了"
+    },
+    {
+      "id": "ex-speciality-1",
+      "word_id": "speciality",
+      "text": "Contract law is her speciality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小店门口写着本店只此一样做得最好"
+    },
+    {
+      "id": "ex-speciality-2",
+      "word_id": "speciality",
+      "text": "The speciality here is roast duck.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小店门口写着本店只此一样做得最好"
+    },
+    {
+      "id": "ex-specify-1",
+      "word_id": "specify",
+      "text": "Please specify the size you need.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "订单上不写'螺丝'，而写明规格、长度、数量"
+    },
+    {
+      "id": "ex-specify-2",
+      "word_id": "specify",
+      "text": "The contract specifies a two-week notice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "订单上不写'螺丝'，而写明规格、长度、数量"
+    },
+    {
+      "id": "ex-specification-1",
+      "word_id": "specification",
+      "text": "The parts were built to specification.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸旁边一张表，尺寸公差材料逐行列清"
+    },
+    {
+      "id": "ex-specification-2",
+      "word_id": "specification",
+      "text": "Read the specification before bidding.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸旁边一张表，尺寸公差材料逐行列清"
+    },
+    {
+      "id": "ex-conspicuous-1",
+      "word_id": "conspicuous",
+      "text": "He felt conspicuous in his bright jacket.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一片黑西装里那件红外套，一进门就先看见它"
+    },
+    {
+      "id": "ex-conspicuous-2",
+      "word_id": "conspicuous",
+      "text": "She showed conspicuous courage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一片黑西装里那件红外套，一进门就先看见它"
+    },
+    {
+      "id": "ex-retrospect-1",
+      "word_id": "retrospect",
+      "text": "In retrospect, the decision was wrong.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在山顶回头，才看清上山那条路是怎么绕的"
+    },
+    {
+      "id": "ex-retrospect-2",
+      "word_id": "retrospect",
+      "text": "The exhibition is a retrospect of her career.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在山顶回头，才看清上山那条路是怎么绕的"
+    },
+    {
+      "id": "ex-prospective-1",
+      "word_id": "prospective",
+      "text": "Prospective buyers toured the flat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看房的人还没签约，但已经在量窗帘尺寸"
+    },
+    {
+      "id": "ex-prospective-2",
+      "word_id": "prospective",
+      "text": "She met her prospective employer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看房的人还没签约，但已经在量窗帘尺寸"
     }
   ]
 }

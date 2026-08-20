@@ -182,31 +182,31 @@
       "note": "同词根"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "position",
       "type": "root",
       "note": "pos + -ition"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "compose",
       "type": "root",
       "note": "com- + pose"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "expose",
       "type": "root",
       "note": "ex- + pose"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "propose",
       "type": "root",
       "note": "pro- + pose"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "oppose",
       "type": "root",
       "note": "op- + pose"
@@ -428,7 +428,7 @@
       "note": "de-（向下）+ press（压）→ 把某物或某人的状态往下压 → 压低 / 使低落"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "impose",
       "type": "root",
       "note": "im-（上、之上）+ pose（放置）→ 把东西放到别人身上 → 强加"
@@ -554,19 +554,19 @@
       "note": "compress（一起压）+ -ion → 被压紧这件事，或压紧的程度 → 压缩"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "dispose",
       "type": "root",
       "note": "dis-（分开）+ pose（放置）→ 把东西分开放好，或放到别处去 → 处理 / 处置"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "suppose",
       "type": "root",
       "note": "sup-（sub- 的变体，表'在下面'）+ pose（放置）→ 先在底下垫一个前提 → 假定"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "composition",
       "type": "root",
       "note": "compose（放在一起）+ -ition → 放在一起的方式，或放好的成品 → 构成 / 作品"
@@ -608,7 +608,7 @@
       "note": "spect（看）+ -acle（表工具或对象）→ 值得看的那个东西 → 壮观场面"
     },
     {
-      "from": "pose",
+      "from": "ponere",
       "to": "proposal",
       "type": "root",
       "note": "propose（往前放）+ -al → 被放到台面上的那个方案 → 提议"
@@ -2016,6 +2016,126 @@
       "to": "organization",
       "type": "root",
       "note": "organize（各就各位）+ -ation（名词）→ 各部分配合起来的那个整体，或配合这件事 → 组织"
+    },
+    {
+      "from": "ponere",
+      "to": "pose",
+      "type": "root",
+      "note": "ponere（放置）本身即词根，无前缀 → 把身体或问题摆到某个位置上"
+    },
+    {
+      "from": "ponere",
+      "to": "opponent",
+      "type": "root",
+      "note": "op-（ob- 的变体，对着）+ pon（放置）+ -ent（人）→ 被摆在你对面的那个人 → 对手"
+    },
+    {
+      "from": "ponere",
+      "to": "opposite",
+      "type": "root",
+      "note": "op-（对着）+ posit（放置）→ 被摆在正对面的 → 相对的、相反的"
+    },
+    {
+      "from": "ponere",
+      "to": "component",
+      "type": "root",
+      "note": "com-（一起）+ pon（放置）+ -ent（物）→ 被放在一起构成整体的那一件 → 部件"
+    },
+    {
+      "from": "ponere",
+      "to": "composite",
+      "type": "root",
+      "note": "com-（一起）+ posit（放置）+ -e → 由几样东西放在一起做成的 → 合成的"
+    },
+    {
+      "from": "ponere",
+      "to": "compound",
+      "type": "root",
+      "note": "com-（一起）+ pound（pon 的变体，放置）→ 放在一起结合成的那个 → 化合物；作动词是使问题叠加 → 加重"
+    },
+    {
+      "from": "ponere",
+      "to": "disposal",
+      "type": "root",
+      "note": "dispose（分开安置）+ -al（名词）→ 把东西安置走这件事 → 处理；也指可供支配的状态 → 任由处置"
+    },
+    {
+      "from": "ponere",
+      "to": "disposition",
+      "type": "root",
+      "note": "dispose（分开安置）+ -ition（名词）→ 各部分被安置成的那个格局；引申为一个人心性的那副格局 → 性情"
+    },
+    {
+      "from": "ponere",
+      "to": "exposure",
+      "type": "root",
+      "note": "expose（放到外面）+ -ure（名词）→ 被放在外面无遮挡的那个状态 → 暴露"
+    },
+    {
+      "from": "ponere",
+      "to": "preposition",
+      "type": "root",
+      "note": "pre-（在前）+ posit（放置）+ -ion → 被放在名词前面的那个词 → 介词"
+    },
+    {
+      "from": "ponere",
+      "to": "proposition",
+      "type": "root",
+      "note": "pro-（向前）+ posit（放置）+ -ion → 被推到前面待议的那个说法 → 命题、提议"
+    },
+    {
+      "from": "spect",
+      "to": "special",
+      "type": "root",
+      "note": "spec（看）→ species（一眼看去的样貌、种类）+ -al（…的）→ 属于某个单独种类的 → 特别的"
+    },
+    {
+      "from": "spect",
+      "to": "specialist",
+      "type": "root",
+      "note": "special（自成一类的）+ -ist（人）→ 专攻某一类的人 → 专家"
+    },
+    {
+      "from": "spect",
+      "to": "specialize",
+      "type": "root",
+      "note": "special（自成一类的）+ -ize（使成为）→ 把自己收进某一类专做 → 专攻"
+    },
+    {
+      "from": "spect",
+      "to": "speciality",
+      "type": "root",
+      "note": "special（自成一类的）+ -ity（名词）→ 自己那一类最拿手的东西 → 专长、特色菜"
+    },
+    {
+      "from": "spect",
+      "to": "specify",
+      "type": "root",
+      "note": "spec（看、种类）+ -ify（使成为）→ 把要哪一类说得看得见 → 明确指定"
+    },
+    {
+      "from": "spect",
+      "to": "specification",
+      "type": "root",
+      "note": "specify（明确指定）+ -ation（名词）→ 被逐项写明的那份要求 → 规格说明"
+    },
+    {
+      "from": "spect",
+      "to": "conspicuous",
+      "type": "root",
+      "note": "con-（完全）+ spic（spec 的变体，看）+ -uous → 完全看得见的 → 显眼的"
+    },
+    {
+      "from": "spect",
+      "to": "retrospect",
+      "type": "root",
+      "note": "retro-（向后）+ spect（看）→ 回头往后看 → 回顾"
+    },
+    {
+      "from": "spect",
+      "to": "prospective",
+      "type": "root",
+      "note": "prospect（向前看）+ -ive（…的）→ 属于往前看到的那一段的 → 未来的、潜在的"
     }
   ]
 }

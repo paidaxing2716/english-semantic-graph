@@ -791,7 +791,7 @@
       "id": "position",
       "word": "position",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "origin": "拉丁语 positio（放置之处）",
       "native_definition": "the place where something is put; a job; a point of view",
@@ -832,7 +832,7 @@
       "id": "compose",
       "word": "compose",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "origin": "com-（一起）+ ponere（放置）",
       "native_definition": "to put parts together to form a whole; to write music or a text",
@@ -870,7 +870,7 @@
       "id": "expose",
       "word": "expose",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "origin": "ex-（向外）+ ponere（放置）",
       "native_definition": "to place something out in the open so it can be seen",
@@ -914,7 +914,7 @@
       "id": "propose",
       "word": "propose",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "origin": "pro-（向前）+ ponere（放置）",
       "native_definition": "to put an idea forward for consideration",
@@ -956,7 +956,7 @@
       "id": "oppose",
       "word": "oppose",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "origin": "ob-（对着）+ ponere（放置）",
       "native_definition": "to place yourself against something",
@@ -2177,7 +2177,7 @@
       "pos": "verb",
       "phonetic": "/ɪmˈpoʊz/",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "root_logic": "im-（上、之上）+ pose（放置）→ 把东西放到别人身上 → 强加",
       "origin": "拉丁语 imponere：in-（在上）+ ponere（放置）",
@@ -3033,7 +3033,7 @@
       "pos": "verb",
       "phonetic": "/dɪˈspoʊz/",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "root_logic": "dis-（分开）+ pose（放置）→ 把东西分开放好，或放到别处去 → 处理 / 处置",
       "origin": "拉丁语 disponere：dis-（分开）+ ponere（放置）",
@@ -3075,7 +3075,7 @@
       "pos": "verb",
       "phonetic": "/səˈpoʊz/",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "root_logic": "sup-（sub- 的变体，表'在下面'）+ pose（放置）→ 先在底下垫一个前提 → 假定",
       "origin": "拉丁语 supponere：sub-（在下）+ ponere（放置）",
@@ -3117,7 +3117,7 @@
       "pos": "noun",
       "phonetic": "/ˌkɑːmpəˈzɪʃn/",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "root_logic": "compose（放在一起）+ -ition → 放在一起的方式，或放好的成品 → 构成 / 作品",
       "origin": "拉丁语 compositio：com-（一起）+ ponere（放置）",
@@ -3406,7 +3406,7 @@
       "pos": "noun",
       "phonetic": "/prəˈpoʊzl/",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "root_logic": "propose（往前放）+ -al → 被放到台面上的那个方案 → 提议",
       "origin": "拉丁语 proponere：pro-（向前）+ ponere（放置）",
@@ -12594,6 +12594,778 @@
       "semantic_expansions": [
         "组织/机构：各部分配合而成的那个整体",
         "编排（行为）：让各部分配合这件事。同一个词根，一个指实体一个指动作"
+      ]
+    },
+    {
+      "id": "pose",
+      "word": "pose",
+      "pos": "verb",
+      "phonetic": "/poʊz/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "ponere（放置）本身即词根，无前缀 → 把身体或问题摆到某个位置上",
+      "recall_hint": "ponere（放置）本身即词根 → 把某样东西摆到位置上：可以是身体的姿势，也可以是抛给别人的难题",
+      "origin": "拉丁语 ponere（放置）经古法语 poser 进入英语",
+      "native_definition": "to hold a position for a picture, or to present a problem or question",
+      "core_concept": "placing something into position – 把某物摆到一个位置上",
+      "core_image": "摄影师说别动，人就停在那个姿势上不再改",
+      "chinese": [
+        "摆姿势",
+        "造成",
+        "提出"
+      ],
+      "examples": [
+        "She posed for the portrait.",
+        "The leak poses a serious risk.",
+        "He posed an awkward question."
+      ],
+      "synonyms": [
+        "position",
+        "present"
+      ],
+      "antonyms": [],
+      "related": [
+        "position",
+        "compose",
+        "propose",
+        "expose",
+        "impose"
+      ],
+      "semantic_expansions": [
+        "摆姿势：把身体摆到某个位置",
+        "造成（风险）/提出（问题）：把一件事摆到别人面前。同一个'摆到位置上'，摆的是身体还是问题"
+      ]
+    },
+    {
+      "id": "opponent",
+      "word": "opponent",
+      "pos": "noun",
+      "phonetic": "/əˈpoʊnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "op-（ob- 的变体，对着）+ pon（放置）+ -ent（人）→ 被摆在你对面的那个人 → 对手",
+      "origin": "拉丁语 opponens：ob-（对着）+ ponere（放置）",
+      "native_definition": "a person who competes against or argues against another",
+      "core_concept": "the one placed facing you – 被摆在你正对面的那个人",
+      "core_image": "棋盘两侧各坐一人，中间隔着盘面对视",
+      "chinese": [
+        "对手",
+        "反对者"
+      ],
+      "examples": [
+        "She defeated her opponent in three sets.",
+        "He is a longtime opponent of the tax."
+      ],
+      "synonyms": [
+        "rival",
+        "critic"
+      ],
+      "antonyms": [
+        "ally"
+      ],
+      "related": [
+        "oppose",
+        "opposite",
+        "position",
+        "compose"
+      ],
+      "semantic_expansions": [
+        "对手（比赛）与反对者（立场）：都是'被摆在你对面的那个人'，一个在场上一个在议题上"
+      ]
+    },
+    {
+      "id": "opposite",
+      "word": "opposite",
+      "pos": "adjective",
+      "phonetic": "/ˈɑːpəzɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "op-（对着）+ posit（放置）→ 被摆在正对面的 → 相对的、相反的",
+      "origin": "拉丁语 oppositus：ob-（对着）+ ponere（放置）",
+      "native_definition": "facing something directly, or completely different from it",
+      "core_concept": "placed directly facing, hence contrary – 摆在正对面，因而相反",
+      "core_image": "街两侧的两家店门对门，谁都看得见谁",
+      "chinese": [
+        "相对的",
+        "相反的",
+        "对面"
+      ],
+      "examples": [
+        "They sat at opposite ends of the table.",
+        "The result was the opposite of what we hoped."
+      ],
+      "synonyms": [
+        "contrary",
+        "reverse"
+      ],
+      "antonyms": [
+        "same"
+      ],
+      "related": [
+        "oppose",
+        "opponent",
+        "position",
+        "compose"
+      ],
+      "semantic_expansions": [
+        "相对的/对面：位置上正对着",
+        "相反的：性质上正对着。同一个'摆在正对面'，一个说空间一个说性质"
+      ],
+      "recall_hint": "op-（对着）+ posit（放置）→ 摆在正对面的：既指位置上面对面，也指性质上正相左"
+    },
+    {
+      "id": "component",
+      "word": "component",
+      "pos": "noun",
+      "phonetic": "/kəmˈpoʊnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "com-（一起）+ pon（放置）+ -ent（物）→ 被放在一起构成整体的那一件 → 部件",
+      "origin": "拉丁语 componens：com-（一起）+ ponere（放置）",
+      "native_definition": "one of the parts that together make up a whole",
+      "core_concept": "one piece placed together with others – 与别的一起放着、共同构成整体的那一件",
+      "core_image": "拆开的收音机零件摊在布上，每件都是整机的一部分",
+      "chinese": [
+        "部件",
+        "组成部分"
+      ],
+      "examples": [
+        "Each component is tested separately.",
+        "Trust is a key component of teamwork."
+      ],
+      "synonyms": [
+        "part",
+        "element"
+      ],
+      "antonyms": [],
+      "related": [
+        "compose",
+        "composition",
+        "composite",
+        "compound"
+      ],
+      "semantic_expansions": [
+        "部件与组成部分：都是'与别的一起放着、共同构成整体的那一件'，一个偏实物一个可抽象"
+      ]
+    },
+    {
+      "id": "composite",
+      "word": "composite",
+      "pos": "adjective",
+      "phonetic": "/kəmˈpɑːzət/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "com-（一起）+ posit（放置）+ -e → 由几样东西放在一起做成的 → 合成的",
+      "origin": "拉丁语 compositus：com-（一起）+ ponere（放置）",
+      "native_definition": "made up of several different parts or materials",
+      "core_concept": "made by placing several things together – 由几样东西合放在一起做成",
+      "core_image": "碳纤维板一层层压合，成品比任何单层都硬",
+      "chinese": [
+        "合成的",
+        "复合的",
+        "合成物"
+      ],
+      "examples": [
+        "The wing is made of composite materials.",
+        "Police released a composite sketch."
+      ],
+      "synonyms": [
+        "combined"
+      ],
+      "antonyms": [
+        "simple"
+      ],
+      "related": [
+        "compose",
+        "composition",
+        "component",
+        "compound"
+      ],
+      "semantic_expansions": [
+        "合成的/复合的：由几样放在一起做成",
+        "合成物（名词）：那个做成的东西。同一个'合放而成'，一个说属性一个指物"
+      ]
+    },
+    {
+      "id": "compound",
+      "word": "compound",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːmpaʊnd/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "com-（一起）+ pound（pon 的变体，放置）→ 放在一起结合成的那个 → 化合物；作动词是使问题叠加 → 加重",
+      "recall_hint": "com-（一起）+ pound（pon 放置）→ 几样东西放在一起结合成的那个；作动词则是又叠上一层使之加重",
+      "origin": "拉丁语 componere：com-（一起）+ ponere（放置）",
+      "native_definition": "a substance formed from two or more elements; also to make something worse",
+      "core_concept": "things put together into one – 几样东西放在一起结合成一个",
+      "core_image": "两种粉末混合后加热，出来的东西两者都不像",
+      "chinese": [
+        "化合物",
+        "复合词",
+        "加重"
+      ],
+      "examples": [
+        "Water is a compound of hydrogen and oxygen.",
+        "Delays compounded the problem."
+      ],
+      "synonyms": [
+        "mixture",
+        "combine"
+      ],
+      "antonyms": [],
+      "related": [
+        "compose",
+        "composite",
+        "component",
+        "composition"
+      ],
+      "semantic_expansions": [
+        "化合物/复合词：几样放在一起结合成的那个",
+        "加重（动词）：又叠上一层使之更糟。同一个'放在一起'，一个是结合一个是叠加"
+      ]
+    },
+    {
+      "id": "disposal",
+      "word": "disposal",
+      "pos": "noun",
+      "phonetic": "/dɪˈspoʊzl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "dispose（分开安置）+ -al（名词）→ 把东西安置走这件事 → 处理；也指可供支配的状态 → 任由处置",
+      "recall_hint": "dispose（分开安置）+ -al → 把东西安置走这件事；也指某物归你支配、任你安置",
+      "origin": "拉丁语 disponere：dis-（分开）+ ponere（放置）",
+      "native_definition": "the act of getting rid of something, or the power to use it as one wishes",
+      "core_concept": "placing something away, or having it at one's placing – 把东西安置走，或由你来安置",
+      "core_image": "垃圾被拖到指定的地方倒掉，从此不在这里",
+      "chinese": [
+        "处理",
+        "清除",
+        "任意支配"
+      ],
+      "examples": [
+        "Waste disposal costs have risen.",
+        "I put the car at your disposal."
+      ],
+      "synonyms": [
+        "removal"
+      ],
+      "antonyms": [],
+      "related": [
+        "dispose",
+        "disposition",
+        "compose",
+        "position"
+      ],
+      "semantic_expansions": [
+        "处理/清除：把东西安置到别处去",
+        "任意支配（at one's disposal）：由你来决定怎么安置。同一个'安置'，一个是动作一个是权限"
+      ]
+    },
+    {
+      "id": "disposition",
+      "word": "disposition",
+      "pos": "noun",
+      "phonetic": "/ˌdɪspəˈzɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "dispose（分开安置）+ -ition（名词）→ 各部分被安置成的那个格局；引申为一个人心性的那副格局 → 性情",
+      "recall_hint": "dispose（分开安置）+ -ition → 各部分被安置成的那个格局；用在人身上则是心性的那副底子",
+      "origin": "拉丁语 dispositio：dis-（分开）+ ponere（放置）",
+      "native_definition": "a person's natural qualities of mind, or the way things are arranged",
+      "core_concept": "how the parts have been set out – 各部分被安置成的那个格局",
+      "core_image": "棋子在盘上摆开的那个局面，看一眼就知道谁占优",
+      "chinese": [
+        "性情",
+        "倾向",
+        "布置"
+      ],
+      "examples": [
+        "She has a cheerful disposition.",
+        "The disposition of troops was kept secret."
+      ],
+      "synonyms": [
+        "temper",
+        "arrangement"
+      ],
+      "antonyms": [],
+      "related": [
+        "dispose",
+        "disposal",
+        "position",
+        "composition"
+      ],
+      "semantic_expansions": [
+        "布置：各部分被安置成的格局",
+        "性情/倾向：一个人心性被安置成的那副格局。同一个'摆开的格局'，一个在物一个在人"
+      ]
+    },
+    {
+      "id": "exposure",
+      "word": "exposure",
+      "pos": "noun",
+      "phonetic": "/ɪkˈspoʊʒər/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "expose（放到外面）+ -ure（名词）→ 被放在外面无遮挡的那个状态 → 暴露",
+      "recall_hint": "expose（放到外面）+ -ure → 被搁在外面、没有遮挡的那个状态；也指被公众看见，或底片见光的那一下",
+      "origin": "拉丁语 exponere：ex-（向外）+ ponere（放置）",
+      "native_definition": "the state of being unprotected, or of being made known; also the act of letting light onto film",
+      "core_concept": "being left out in the open – 被搁在外面、没有遮挡",
+      "core_image": "帐篷被风掀走，人整夜坐在没有遮挡的山坡上",
+      "chinese": [
+        "暴露",
+        "曝光",
+        "接触"
+      ],
+      "examples": [
+        "Prolonged exposure to sun damages skin.",
+        "The scandal received wide exposure.",
+        "The photo needs a longer exposure."
+      ],
+      "synonyms": [
+        "publicity"
+      ],
+      "antonyms": [],
+      "related": [
+        "expose",
+        "compose",
+        "position",
+        "impose"
+      ],
+      "semantic_expansions": [
+        "暴露/接触：被搁在外面直接受影响",
+        "曝光（新闻/摄影）：被放到众人或光线之下。三义共享'放在外面无遮挡'"
+      ]
+    },
+    {
+      "id": "preposition",
+      "word": "preposition",
+      "pos": "noun",
+      "phonetic": "/ˌprepəˈzɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "pre-（在前）+ posit（放置）+ -ion → 被放在名词前面的那个词 → 介词",
+      "origin": "拉丁语 praepositio：prae-（在前）+ ponere（放置）",
+      "native_definition": "a word placed before a noun to show relation, such as in, on, or by",
+      "core_concept": "a word placed in front of a noun – 被摆在名词前面的那个词",
+      "core_image": "句子里那个小词紧贴在名词前，指出谁在谁上面",
+      "chinese": [
+        "介词"
+      ],
+      "examples": [
+        "In English, prepositions often follow the verb.",
+        "Do not end the clause with a preposition."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        "position",
+        "propose",
+        "compose",
+        "opposite"
+      ]
+    },
+    {
+      "id": "proposition",
+      "word": "proposition",
+      "pos": "noun",
+      "phonetic": "/ˌprɑːpəˈzɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "pro-（向前）+ posit（放置）+ -ion → 被推到前面待议的那个说法 → 命题、提议",
+      "origin": "拉丁语 propositio：pro-（向前）+ ponere（放置）",
+      "native_definition": "a statement put forward for discussion, or a business offer",
+      "core_concept": "a statement placed forward to be judged – 被推到前面等人评判的那个说法",
+      "core_image": "黑板上写下一句话，下面开始逐条验证它成不成立",
+      "chinese": [
+        "命题",
+        "提议",
+        "主张"
+      ],
+      "examples": [
+        "The proposition is easy to disprove.",
+        "He turned down the business proposition."
+      ],
+      "synonyms": [
+        "proposal",
+        "statement"
+      ],
+      "antonyms": [],
+      "related": [
+        "propose",
+        "proposal",
+        "position",
+        "preposition"
+      ],
+      "semantic_expansions": [
+        "命题（逻辑）：被推到前面等人验证的那句话",
+        "提议/主张：被推到前面等人接受的那个说法。同一个'推到前面待议'，一个求真一个求同意"
+      ]
+    },
+    {
+      "id": "special",
+      "word": "special",
+      "pos": "adjective",
+      "phonetic": "/ˈspeʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "spec（看）→ species（一眼看去的样貌、种类）+ -al（…的）→ 属于某个单独种类的 → 特别的",
+      "recall_hint": "spec（看）→ species（一眼看去的样貌、种类）+ -al → 单独属于某一类的，不与别的混同",
+      "origin": "拉丁语 specialis：species（种类、样貌）← specere（看）",
+      "native_definition": "different from what is usual, or for a particular purpose",
+      "core_concept": "belonging to a kind of its own – 自成一类，不与一般的混同",
+      "core_image": "货架上单独隔出一格，标签跟旁边整排都不一样",
+      "chinese": [
+        "特别的",
+        "专门的",
+        "特价品"
+      ],
+      "examples": [
+        "Today's special is grilled fish.",
+        "She needs special equipment for the job."
+      ],
+      "synonyms": [
+        "particular",
+        "unique"
+      ],
+      "antonyms": [
+        "ordinary"
+      ],
+      "related": [
+        "specialist",
+        "specialize",
+        "specify",
+        "specification"
+      ],
+      "semantic_expansions": [
+        "特别的：自成一类，与一般不同",
+        "专门的：为某一类单独准备的",
+        "特价品（名词）：单独列出的那一项。三义共享'自成一类、单独列出'"
+      ]
+    },
+    {
+      "id": "specialist",
+      "word": "specialist",
+      "pos": "noun",
+      "phonetic": "/ˈspeʃəlɪst/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "special（自成一类的）+ -ist（人）→ 专攻某一类的人 → 专家",
+      "origin": "拉丁语 specialis（特定的）+ -ist（从事者）",
+      "native_definition": "a person who is highly trained in one particular field",
+      "core_concept": "one who works within a single kind – 只在某一类里深耕的人",
+      "core_image": "转诊单上写着要找只看这一种病的那位医生",
+      "chinese": [
+        "专家",
+        "专科医生"
+      ],
+      "examples": [
+        "She was referred to a heart specialist.",
+        "We hired a specialist in tax law."
+      ],
+      "synonyms": [
+        "expert"
+      ],
+      "antonyms": [
+        "generalist"
+      ],
+      "related": [
+        "special",
+        "specialize",
+        "speciality",
+        "specify"
+      ],
+      "semantic_expansions": [
+        "专家与专科医生：都是'只在某一类里深耕的人'，一个泛指一个专指医生"
+      ]
+    },
+    {
+      "id": "specialize",
+      "word": "specialize",
+      "pos": "verb",
+      "phonetic": "/ˈspeʃəlaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "special（自成一类的）+ -ize（使成为）→ 把自己收进某一类专做 → 专攻",
+      "origin": "拉丁语 specialis（特定的）+ -ize",
+      "native_definition": "to concentrate on one particular area of work or study",
+      "core_concept": "narrowing oneself into one kind – 把自己收窄到某一类里去做",
+      "core_image": "原本什么都做的铺子改成只卖一种东西，招牌也换了",
+      "chinese": [
+        "专攻",
+        "专门研究"
+      ],
+      "examples": [
+        "He specializes in medieval history.",
+        "The firm specializes in shipping law."
+      ],
+      "synonyms": [
+        "concentrate"
+      ],
+      "antonyms": [],
+      "related": [
+        "special",
+        "specialist",
+        "speciality",
+        "specify"
+      ],
+      "semantic_expansions": [
+        "专攻与专门研究：都是'把自己收窄到某一类里'，中文按领域分了两个词"
+      ]
+    },
+    {
+      "id": "speciality",
+      "word": "speciality",
+      "pos": "noun",
+      "phonetic": "/ˌspeʃiˈæləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "special（自成一类的）+ -ity（名词）→ 自己那一类最拿手的东西 → 专长、特色菜",
+      "recall_hint": "special（自成一类的）+ -ity → 自己那一类里最拿手的：可以是专长，也可以是店里的招牌菜",
+      "origin": "拉丁语 specialitas：specialis（特定的）",
+      "native_definition": "an area in which someone is expert, or a product a place is known for",
+      "core_concept": "the one kind one is known for – 自己那一类里最见长的",
+      "core_image": "小店门口写着本店只此一样做得最好",
+      "chinese": [
+        "专长",
+        "特色菜",
+        "特产"
+      ],
+      "examples": [
+        "Contract law is her speciality.",
+        "The speciality here is roast duck."
+      ],
+      "synonyms": [
+        "expertise"
+      ],
+      "antonyms": [],
+      "related": [
+        "special",
+        "specialist",
+        "specialize",
+        "specify"
+      ],
+      "semantic_expansions": [
+        "专长：自己那一类里最见长的本事",
+        "特色菜/特产：某地那一类里最拿手的东西。同一个'最见长的那一类'，一个说人一个说物"
+      ]
+    },
+    {
+      "id": "specify",
+      "word": "specify",
+      "pos": "verb",
+      "phonetic": "/ˈspesɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "spec（看、种类）+ -ify（使成为）→ 把要哪一类说得看得见 → 明确指定",
+      "origin": "拉丁语 specificare：species（种类）+ facere（做）",
+      "native_definition": "to state something clearly and exactly",
+      "core_concept": "naming exactly which one – 把究竟是哪一个说得清清楚楚",
+      "core_image": "订单上不写'螺丝'，而写明规格、长度、数量",
+      "chinese": [
+        "明确指定",
+        "具体说明"
+      ],
+      "examples": [
+        "Please specify the size you need.",
+        "The contract specifies a two-week notice."
+      ],
+      "synonyms": [
+        "state",
+        "designate"
+      ],
+      "antonyms": [],
+      "related": [
+        "specification",
+        "special",
+        "specialize",
+        "specialist"
+      ],
+      "semantic_expansions": [
+        "明确指定与具体说明：都是'把究竟是哪一个说清楚'，一个偏选定一个偏描述"
+      ]
+    },
+    {
+      "id": "specification",
+      "word": "specification",
+      "pos": "noun",
+      "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "specify（明确指定）+ -ation（名词）→ 被逐项写明的那份要求 → 规格说明",
+      "origin": "拉丁语 specificare：species（种类）+ facere（做）",
+      "native_definition": "a detailed description of how something must be made or done",
+      "core_concept": "the written statement of exactly what is required – 把要求逐项写明的那份东西",
+      "core_image": "图纸旁边一张表，尺寸公差材料逐行列清",
+      "chinese": [
+        "规格说明",
+        "技术要求",
+        "明细"
+      ],
+      "examples": [
+        "The parts were built to specification.",
+        "Read the specification before bidding."
+      ],
+      "synonyms": [
+        "detail"
+      ],
+      "antonyms": [],
+      "related": [
+        "specify",
+        "special",
+        "specialist"
+      ],
+      "semantic_expansions": [
+        "规格说明/技术要求/明细：都是'把要求逐项写明的那份东西'，中文按行业分了三个词"
+      ]
+    },
+    {
+      "id": "conspicuous",
+      "word": "conspicuous",
+      "pos": "adjective",
+      "phonetic": "/kənˈspɪkjuəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "con-（完全）+ spic（spec 的变体，看）+ -uous → 完全看得见的 → 显眼的",
+      "origin": "拉丁语 conspicuus：com-（完全）+ specere（看）",
+      "native_definition": "easy to notice because of being different or striking",
+      "core_concept": "fully in view, impossible to miss – 完全在视野里，想不看见都难",
+      "core_image": "一片黑西装里那件红外套，一进门就先看见它",
+      "chinese": [
+        "显眼的",
+        "引人注目的"
+      ],
+      "examples": [
+        "He felt conspicuous in his bright jacket.",
+        "She showed conspicuous courage."
+      ],
+      "synonyms": [
+        "obvious",
+        "striking"
+      ],
+      "antonyms": [
+        "inconspicuous"
+      ],
+      "related": [
+        "inspect",
+        "prospect",
+        "aspect",
+        "perspective"
+      ],
+      "semantic_expansions": [
+        "显眼的与引人注目的：都是'完全在视野里、想不看见都难'，中文两种说法同一个内核"
+      ]
+    },
+    {
+      "id": "retrospect",
+      "word": "retrospect",
+      "pos": "noun",
+      "phonetic": "/ˈretrəspekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "retro-（向后）+ spect（看）→ 回头往后看 → 回顾",
+      "origin": "拉丁语 retrospicere：retro-（向后）+ specere（看）",
+      "native_definition": "a look back at past events",
+      "core_concept": "looking back at what has passed – 回头看已经过去的那一段",
+      "core_image": "站在山顶回头，才看清上山那条路是怎么绕的",
+      "chinese": [
+        "回顾",
+        "回想"
+      ],
+      "examples": [
+        "In retrospect, the decision was wrong.",
+        "The exhibition is a retrospect of her career."
+      ],
+      "synonyms": [
+        "review"
+      ],
+      "antonyms": [
+        "prospect"
+      ],
+      "related": [
+        "prospect",
+        "inspect",
+        "aspect",
+        "respect"
+      ],
+      "semantic_expansions": [
+        "回顾与回想：都是'回头看已过去的那一段'——与 prospect（向前看）正好构成一对"
+      ]
+    },
+    {
+      "id": "prospective",
+      "word": "prospective",
+      "pos": "adjective",
+      "phonetic": "/prəˈspektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "prospect（向前看）+ -ive（…的）→ 属于往前看到的那一段的 → 未来的、潜在的",
+      "origin": "拉丁语 prospicere：pro-（向前）+ specere（看）",
+      "native_definition": "likely to happen or to become something in the future",
+      "core_concept": "belonging to what lies ahead in view – 属于往前望能看到的那一段",
+      "core_image": "看房的人还没签约，但已经在量窗帘尺寸",
+      "chinese": [
+        "未来的",
+        "潜在的",
+        "预期的"
+      ],
+      "examples": [
+        "Prospective buyers toured the flat.",
+        "She met her prospective employer."
+      ],
+      "synonyms": [
+        "future",
+        "potential"
+      ],
+      "antonyms": [],
+      "related": [
+        "prospect",
+        "retrospect",
+        "perspective",
+        "inspect"
+      ],
+      "semantic_expansions": [
+        "未来的/潜在的/预期的：都是'属于往前望能看到的那一段'，中文按侧重分了三个词"
       ]
     }
   ]

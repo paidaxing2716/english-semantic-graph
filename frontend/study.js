@@ -76,7 +76,10 @@
     let html = `<div class="card-label">看画面，想这个词</div>`;
     html += `<div class="card-image">${esc(maskAnswer(w.core_image, w))}</div>`;
     html += `<div class="card-meta">词性 ${esc(w.pos)}`;
-    if (rootNames) html += ` · 词根 <b>${esc(rootNames)}</b>`;
+    // 词根名也要过遮罩：拉丁词形常包含英语词本身
+    // （signum 含 sign、publicus 含 public、classis 含 class、organon 含 organ），
+    // 直接显示等于把答案写在题面上。
+    if (rootNames) html += ` · 词根 <b>${esc(maskAnswer(rootNames, w))}</b>`;
     html += `</div>`;
     // recall_hint 是专为本模式写的推导：不点名中文义项，遮罩后仍完整。
     // root_logic 通常以"→ 中文义项"收尾，遮完只剩一串方块，提示不足。
@@ -219,8 +222,25 @@
     if (isStudy) startMode(m);
   }
 
-  // 数据由 graph.js 加载后共享，避免重复请求
+  // 测试钩子：返回某个词在回想模式下的完整题面（未揭晓部分）。
+  // 审计据此逐词扫泄题——若让测试自己实现一份遮罩，改坏渲染时测试仍会通过，
+  // 这个坑真踩过一次（词根名没遮，而测试自带的遮罩把它遮了）。
   window.ESG = window.ESG || {};
+  window.ESG.recallPrompt = function (word) {
+    const w = typeof word === "string" ? words.find((x) => x.id === word) : word;
+    if (!w) return null;
+    const rootNames = (w.root_ids || [])
+      .map((r) => (roots.find((x) => x.id === r) || {}).root)
+      .filter(Boolean).join(" / ");
+    return [
+      maskAnswer(w.core_image, w),
+      maskAnswer(w.recall_hint || w.root_logic, w),
+      maskAnswer(rootNames, w),
+      w.pos,
+    ].join(" ");
+  };
+
+  // 数据由 graph.js 加载后共享，避免重复请求
   window.ESG.initStudy = function (data) {
     words = data.words.words;
     roots = data.roots.roots;

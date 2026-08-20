@@ -83,12 +83,12 @@
       ]
     },
     {
-      "id": "concept-pose-place",
+      "id": "concept-ponere-place",
       "concept": "to place or put",
       "chinese": "放置、摆放",
       "core_image": "把东西摆放到某个位置，摆放出一个姿态",
       "root_ids": [
-        "pose"
+        "ponere"
       ],
       "word_ids": [
         "position",
@@ -100,7 +100,18 @@
         "dispose",
         "suppose",
         "composition",
-        "proposal"
+        "proposal",
+        "pose",
+        "opponent",
+        "opposite",
+        "component",
+        "composite",
+        "compound",
+        "disposal",
+        "disposition",
+        "exposure",
+        "preposition",
+        "proposition"
       ]
     },
     {
@@ -142,7 +153,16 @@
         "aspect",
         "perspective",
         "spectacle",
-        "respective"
+        "respective",
+        "special",
+        "specialist",
+        "specialize",
+        "speciality",
+        "specify",
+        "specification",
+        "conspicuous",
+        "retrospect",
+        "prospective"
       ]
     },
     {

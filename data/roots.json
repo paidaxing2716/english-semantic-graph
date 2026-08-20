@@ -95,11 +95,12 @@
       ]
     },
     {
-      "id": "pose",
-      "root": "pose",
+      "id": "ponere",
+      "root": "ponere",
       "variants": [
+        "ponere",
         "pose",
-        "pos",
+        "posit",
         "pon"
       ],
       "origin": "拉丁语 ponere（放置、摆放）",
@@ -116,7 +117,18 @@
         "dispose",
         "suppose",
         "composition",
-        "proposal"
+        "proposal",
+        "pose",
+        "opponent",
+        "opposite",
+        "component",
+        "composite",
+        "compound",
+        "disposal",
+        "disposition",
+        "exposure",
+        "preposition",
+        "proposition"
       ]
     },
     {
@@ -166,7 +178,16 @@
         "aspect",
         "perspective",
         "spectacle",
-        "respective"
+        "respective",
+        "special",
+        "specialist",
+        "specialize",
+        "speciality",
+        "specify",
+        "specification",
+        "conspicuous",
+        "retrospect",
+        "prospective"
       ]
     },
     {

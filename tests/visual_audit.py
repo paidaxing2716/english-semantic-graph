@@ -186,13 +186,56 @@ def open_sample_word(page):
     page.wait_for_timeout(700)
 
 
+def audit_masking_all(page):
+    """把全部词条过一遍遮罩，检查题面是否泄露答案。
+
+    抽样不可靠：回想队列是随机洗牌的，只抽 25 题时一处泄露约 7% 才命中
+    （实测就这样漏过一次——词根名 signum 含 sign 却没被遮）。
+    这里直接在页面里对全库跑遮罩函数，确定性地扫。
+    """
+    bad = page.evaluate("""async () => {
+      if (!window.ESG || typeof window.ESG.recallPrompt !== 'function') {
+        return {error: 'study.js 未暴露 recallPrompt 测试钩子'};
+      }
+      const wd = await fetch('../data/words.json').then(r => r.json());
+      const out = [];
+      for (const w of wd.words) {
+        if (w.decomposable !== 'root') continue;
+        // 直接取 study.js 真实渲染的题面，测试不再自带一份遮罩实现
+        const shown = window.ESG.recallPrompt(w.id);
+        if (shown == null) { out.push(w.id + '：取不到题面'); continue; }
+        if (new RegExp(w.word, 'i').test(shown)) {
+          out.push(w.id + '：题面含单词本身');
+          continue;
+        }
+        for (const zh of w.chinese || []) {
+          if (zh.length >= 2 && shown.includes(zh)) {
+            out.push(w.id + '：题面含义项「' + zh + '」');
+            break;
+          }
+        }
+      }
+      return {total: wd.words.length, leaks: out};
+    }""")
+    if bad.get("error"):
+        print(f"[FAIL] {bad['error']}")
+        return False
+    if bad["leaks"]:
+        print(f"[FAIL] 全库遮罩扫描：{len(bad['leaks'])} 处泄题")
+        for m in bad["leaks"][:10]:
+            print(f"        {m}")
+        return False
+    print(f"[PASS] 全库 {bad['total']} 词条遮罩无泄题")
+    return True
+
+
 def audit_study(page, samples=25):
     """学习模式：查答案是否泄露，以及卡片有无溢出。
 
     泄露检查是这里最有价值的一项——遮罩逻辑一旦回退，
     人工每题核对不现实，但机器可以逐题扫。
     """
-    ok = True
+    ok = audit_masking_all(page)
     leaks = []
     page.click('.mode-btn[data-mode="recall"]')
     page.wait_for_timeout(1100)
