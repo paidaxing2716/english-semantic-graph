@@ -701,7 +701,8 @@
         "compulsory",
         "expel",
         "propel",
-        "repel"
+        "repel",
+        "appeal"
       ]
     },
     {
@@ -1303,6 +1304,82 @@
         "civilian",
         "civilization",
         "civilize"
+      ]
+    },
+    {
+      "id": "spondere",
+      "root": "spondere",
+      "variants": [
+        "spond",
+        "spons"
+      ],
+      "origin": "拉丁语 spondere（郑重许诺）",
+      "core_concept": "to pledge in return / 应下来、给出回应",
+      "core_image": "对方伸手要一个承诺，你握上去点头应了",
+      "english_definition": "to promise, to answer for",
+      "word_ids": [
+        "correspond",
+        "correspondence",
+        "correspondent",
+        "respond",
+        "response",
+        "responsibility",
+        "responsible",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "ternus",
+      "root": "ternus",
+      "variants": [
+        "tern",
+        "ter"
+      ],
+      "origin": "拉丁语 externus / internus（外面的 / 里面的）← 方位词根 ter",
+      "core_concept": "inside or outside a boundary / 界线的里侧与外侧",
+      "core_image": "一道墙把空间分成两半，人只能在一侧",
+      "english_definition": "inner or outer",
+      "word_ids": [
+        "alternate",
+        "external",
+        "internal",
+        "international"
+      ]
+    },
+    {
+      "id": "apparere",
+      "root": "apparere",
+      "variants": [
+        "appe",
+        "appear",
+        "par"
+      ],
+      "origin": "拉丁语 apparere：ad-（朝向）+ parere（露出、显现）",
+      "core_concept": "to come into view / 露出来让人看见",
+      "core_image": "雾散开，山的轮廓从白茫里显出来",
+      "english_definition": "to come into sight",
+      "word_ids": [
+        "appear",
+        "appearance",
+        "disappear"
+      ]
+    },
+    {
+      "id": "nasci",
+      "root": "nasci",
+      "variants": [
+        "nat",
+        "nasc"
+      ],
+      "origin": "拉丁语 nasci / natus（出生）",
+      "core_concept": "to be born / 生下来、天生如此",
+      "core_image": "新生儿被抱起来，从此算作这家的人",
+      "english_definition": "to be born",
+      "word_ids": [
+        "nation",
+        "national",
+        "native",
+        "nature"
       ]
     }
   ]

@@ -5516,6 +5516,293 @@
       "text": "Writing was crucial to early civilization.",
       "source": "AI 生成 · 人工审核",
       "scene": "城墙、水渠、市集、法典摆在同一张图上"
+    },
+    {
+      "id": "ex-respond-1",
+      "word_id": "respond",
+      "text": "She responded within the hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "球被打过来，人抬手把它打回去"
+    },
+    {
+      "id": "ex-respond-2",
+      "word_id": "respond",
+      "text": "The patient responded well to the drug.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "球被打过来，人抬手把它打回去"
+    },
+    {
+      "id": "ex-response-1",
+      "word_id": "response",
+      "text": "Her response was immediate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问卷收回来一叠，每张都是对同一问题的回话"
+    },
+    {
+      "id": "ex-response-2",
+      "word_id": "response",
+      "text": "The appeal drew a huge response.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问卷收回来一叠，每张都是对同一问题的回话"
+    },
+    {
+      "id": "ex-responsible-1",
+      "word_id": "responsible",
+      "text": "She is responsible for the whole team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "出了差错，被叫去说明情况的是签字那个人"
+    },
+    {
+      "id": "ex-responsible-2",
+      "word_id": "responsible",
+      "text": "He is a responsible young man.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "出了差错，被叫去说明情况的是签字那个人"
+    },
+    {
+      "id": "ex-responsibility-1",
+      "word_id": "responsibility",
+      "text": "Safety is everyone's responsibility.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "分工表上每人名下一栏，出问题先看这一栏"
+    },
+    {
+      "id": "ex-responsibility-2",
+      "word_id": "responsibility",
+      "text": "She took responsibility for the error.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "分工表上每人名下一栏，出问题先看这一栏"
+    },
+    {
+      "id": "ex-correspond-1",
+      "word_id": "correspond",
+      "text": "The figures do not correspond.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两份账目并排核对，每一行数字都对得上"
+    },
+    {
+      "id": "ex-correspond-2",
+      "word_id": "correspond",
+      "text": "They corresponded for years before meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两份账目并排核对，每一行数字都对得上"
+    },
+    {
+      "id": "ex-correspondence-1",
+      "word_id": "correspondence",
+      "text": "Their correspondence fills three volumes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里按年份摞着的信，一封回一封"
+    },
+    {
+      "id": "ex-correspondence-2",
+      "word_id": "correspondence",
+      "text": "There is a close correspondence between the two accounts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里按年份摞着的信，一封回一封"
+    },
+    {
+      "id": "ex-correspondent-1",
+      "word_id": "correspondent",
+      "text": "Our correspondent in Cairo filed the report.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画面右下角标着姓名与所在城市，人正对着镜头说"
+    },
+    {
+      "id": "ex-correspondent-2",
+      "word_id": "correspondent",
+      "text": "She was a lifelong correspondent of the poet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画面右下角标着姓名与所在城市，人正对着镜头说"
+    },
+    {
+      "id": "ex-sponsor-1",
+      "word_id": "sponsor",
+      "text": "The team found a new sponsor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "赛事横幅下方一排企业标志，出事由它们兜着"
+    },
+    {
+      "id": "ex-sponsor-2",
+      "word_id": "sponsor",
+      "text": "Two senators sponsored the bill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "赛事横幅下方一排企业标志，出事由它们兜着"
+    },
+    {
+      "id": "ex-internal-1",
+      "word_id": "internal",
+      "text": "The report is for internal use only.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门关上以后，屋里的事外面听不见"
+    },
+    {
+      "id": "ex-internal-2",
+      "word_id": "internal",
+      "text": "She suffered internal injuries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门关上以后，屋里的事外面听不见"
+    },
+    {
+      "id": "ex-external-1",
+      "word_id": "external",
+      "text": "External factors affected the result.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙外面的雨打在窗上，屋里干着"
+    },
+    {
+      "id": "ex-external-2",
+      "word_id": "external",
+      "text": "The ointment is for external use.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙外面的雨打在窗上，屋里干着"
+    },
+    {
+      "id": "ex-international-1",
+      "word_id": "international",
+      "text": "The treaty set new international standards.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "边境线两边各站一队人，谈的是横跨这条线的事"
+    },
+    {
+      "id": "ex-international-2",
+      "word_id": "international",
+      "text": "She works for an international charity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "边境线两边各站一队人，谈的是横跨这条线的事"
+    },
+    {
+      "id": "ex-alternate-1",
+      "word_id": "alternate",
+      "text": "Wet days alternated with dry ones.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "红绿灯一个亮完换另一个，从不同时亮"
+    },
+    {
+      "id": "ex-alternate-2",
+      "word_id": "alternate",
+      "text": "Plant them in alternate rows.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "红绿灯一个亮完换另一个，从不同时亮"
+    },
+    {
+      "id": "ex-appear-1",
+      "word_id": "appear",
+      "text": "A figure appeared at the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾散开，山的轮廓从白茫里浮出来"
+    },
+    {
+      "id": "ex-appear-2",
+      "word_id": "appear",
+      "text": "She appears tired today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾散开，山的轮廓从白茫里浮出来"
+    },
+    {
+      "id": "ex-appearance-1",
+      "word_id": "appearance",
+      "text": "Do not judge by appearance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上一亮相，全场先看见的是那身打扮"
+    },
+    {
+      "id": "ex-appearance-2",
+      "word_id": "appearance",
+      "text": "This was her first public appearance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上一亮相，全场先看见的是那身打扮"
+    },
+    {
+      "id": "ex-disappear-1",
+      "word_id": "disappear",
+      "text": "The stain disappeared after washing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船驶过地平线，桅杆最后一截也沉下去了"
+    },
+    {
+      "id": "ex-disappear-2",
+      "word_id": "disappear",
+      "text": "He disappeared without a word.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船驶过地平线，桅杆最后一截也沉下去了"
+    },
+    {
+      "id": "ex-appeal-1",
+      "word_id": "appeal",
+      "text": "The charity appealed for donations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举着话筒面向人群请求帮助，声音一直推到最后一排"
+    },
+    {
+      "id": "ex-appeal-2",
+      "word_id": "appeal",
+      "text": "He appealed against the sentence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举着话筒面向人群请求帮助，声音一直推到最后一排"
+    },
+    {
+      "id": "ex-appeal-3",
+      "word_id": "appeal",
+      "text": "The idea appeals to me.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举着话筒面向人群请求帮助，声音一直推到最后一排"
+    },
+    {
+      "id": "ex-nation-1",
+      "word_id": "nation",
+      "text": "The nation went to the polls in May.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片土地上的人说同一种话，祖上追得到一处"
+    },
+    {
+      "id": "ex-nation-2",
+      "word_id": "nation",
+      "text": "Several nations signed the accord.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片土地上的人说同一种话，祖上追得到一处"
+    },
+    {
+      "id": "ex-national-1",
+      "word_id": "national",
+      "text": "It became a national holiday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一面旗挂在全国每个县城的门口"
+    },
+    {
+      "id": "ex-national-2",
+      "word_id": "national",
+      "text": "National income rose sharply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一面旗挂在全国每个县城的门口"
+    },
+    {
+      "id": "ex-native-1",
+      "word_id": "native",
+      "text": "She is a native speaker of Thai.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这片林子里原本就长着这种树，没人栽过"
+    },
+    {
+      "id": "ex-native-2",
+      "word_id": "native",
+      "text": "The plant is native to Japan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这片林子里原本就长着这种树，没人栽过"
+    },
+    {
+      "id": "ex-nature-1",
+      "word_id": "nature",
+      "text": "We spent the weekend out in nature.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "没人打理的山谷，草木照自己的规矩长"
+    },
+    {
+      "id": "ex-nature-2",
+      "word_id": "nature",
+      "text": "It is not in her nature to complain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "没人打理的山谷，草木照自己的规矩长"
     }
   ]
 }

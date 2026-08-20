@@ -1,0 +1,905 @@
+{
+  "roots": [
+    {
+      "id": "spondere",
+      "root": "spondere",
+      "variants": [
+        "spond",
+        "spons"
+      ],
+      "origin": "拉丁语 spondere（郑重许诺）",
+      "core_concept": "to pledge in return / 应下来、给出回应",
+      "core_image": "对方伸手要一个承诺，你握上去点头应了",
+      "english_definition": "to promise, to answer for",
+      "word_ids": []
+    },
+    {
+      "id": "ternus",
+      "root": "ternus",
+      "variants": [
+        "tern",
+        "ter"
+      ],
+      "origin": "拉丁语 externus / internus（外面的 / 里面的）← 方位词根 ter",
+      "core_concept": "inside or outside a boundary / 界线的里侧与外侧",
+      "core_image": "一道墙把空间分成两半，人只能在一侧",
+      "english_definition": "inner or outer",
+      "word_ids": []
+    },
+    {
+      "id": "apparere",
+      "root": "apparere",
+      "variants": [
+        "appe",
+        "appear",
+        "par"
+      ],
+      "origin": "拉丁语 apparere：ad-（朝向）+ parere（露出、显现）",
+      "core_concept": "to come into view / 露出来让人看见",
+      "core_image": "雾散开，山的轮廓从白茫里显出来",
+      "english_definition": "to come into sight",
+      "word_ids": []
+    },
+    {
+      "id": "nasci",
+      "root": "nasci",
+      "variants": [
+        "nat",
+        "nasc"
+      ],
+      "origin": "拉丁语 nasci / natus（出生）",
+      "core_concept": "to be born / 生下来、天生如此",
+      "core_image": "新生儿被抱起来，从此算作这家的人",
+      "english_definition": "to be born",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-spondere-pledge",
+      "concept": "to pledge in return",
+      "chinese": "应许、回应",
+      "core_image": "对方伸手要一个承诺，你握上去点头应了",
+      "root_ids": [
+        "spondere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-ternus-inout",
+      "concept": "inside or outside a boundary",
+      "chinese": "内侧与外侧",
+      "core_image": "一道墙把空间分成两半，人只能在一侧",
+      "root_ids": [
+        "ternus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-apparere-appear",
+      "concept": "to come into view",
+      "chinese": "显现",
+      "core_image": "雾散开，山的轮廓从白茫里显出来",
+      "root_ids": [
+        "apparere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-nasci-born",
+      "concept": "to be born",
+      "chinese": "出生、天生",
+      "core_image": "新生儿被抱起来，从此算作这家的人",
+      "root_ids": [
+        "nasci"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": [
+      "spondere",
+      "apparere"
+    ],
+    "domain-shape": [
+      "ternus"
+    ],
+    "domain-make": [
+      "nasci"
+    ]
+  },
+  "words": [
+    {
+      "id": "respond",
+      "word": "respond",
+      "pos": "verb",
+      "phonetic": "/rɪˈspɑːnd/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "re-（回）+ spond（应许）→ 把回应送回去 → 回应",
+      "origin": "拉丁语 respondere：re-（回）+ spondere（许诺）",
+      "native_definition": "to say or do something in reply, or to react to a treatment",
+      "core_concept": "giving something back in answer – 把回应送还给来问的一方",
+      "core_image": "球被打过来，人抬手把它打回去",
+      "chinese": [
+        "回应",
+        "答复",
+        "有反应"
+      ],
+      "examples": [
+        "She responded within the hour.",
+        "The patient responded well to the drug."
+      ],
+      "synonyms": [
+        "reply",
+        "react"
+      ],
+      "antonyms": [],
+      "related": [
+        "response",
+        "responsible",
+        "correspond",
+        "sponsor"
+      ],
+      "semantic_expansions": [
+        "回应/答复：把回话送还给对方",
+        "有反应（对药物）：身体给出回应。同一个'把回应送回去'，一个是言语一个是生理"
+      ]
+    },
+    {
+      "id": "response",
+      "word": "response",
+      "pos": "noun",
+      "phonetic": "/rɪˈspɑːns/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "respond（回应）+ -se（名词）→ 送回去的那份回应 → 反应",
+      "origin": "拉丁语 responsum：re-（回）+ spondere（许诺）",
+      "native_definition": "an answer or reaction to something",
+      "core_concept": "what is sent back as an answer – 被送回去的那份回应",
+      "core_image": "问卷收回来一叠，每张都是对同一问题的回话",
+      "chinese": [
+        "反应",
+        "回答",
+        "响应"
+      ],
+      "examples": [
+        "Her response was immediate.",
+        "The appeal drew a huge response."
+      ],
+      "synonyms": [
+        "reply",
+        "reaction"
+      ],
+      "antonyms": [],
+      "related": [
+        "respond",
+        "responsible",
+        "correspond"
+      ],
+      "semantic_expansions": [
+        "回答：送回来的那句话",
+        "反应/响应：送回来的那个动作或态度。同一个'被送回的回应'，形式不同"
+      ]
+    },
+    {
+      "id": "responsible",
+      "word": "responsible",
+      "pos": "adjective",
+      "phonetic": "/rɪˈspɑːnsəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "respond（应许、答复）+ -ible（须…的）→ 出了事须给出回答的 → 负责的",
+      "recall_hint": "respond（应许、答复）+ -ible → 出了事得由你出来给回答的；引申为靠得住、交得下事",
+      "origin": "拉丁语 responsabilis：respondere（回应、担保）",
+      "native_definition": "having the duty to deal with something, or trustworthy and sensible",
+      "core_concept": "bound to answer for it – 这件事得由你出来作答",
+      "core_image": "出了差错，被叫去说明情况的是签字那个人",
+      "chinese": [
+        "负责的",
+        "有责任的",
+        "可靠的"
+      ],
+      "examples": [
+        "She is responsible for the whole team.",
+        "He is a responsible young man."
+      ],
+      "synonyms": [
+        "accountable",
+        "reliable"
+      ],
+      "antonyms": [
+        "careless"
+      ],
+      "related": [
+        "respond",
+        "response",
+        "responsibility",
+        "correspond"
+      ],
+      "semantic_expansions": [
+        "负责的/有责任的：这件事须由你作答",
+        "可靠的：能把事交给他、他答得下来。同一个'须作答'，一个说义务一个说品性"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "word": "responsibility",
+      "pos": "noun",
+      "phonetic": "/rɪˌspɑːnsəˈbɪləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "responsible（须作答的）+ -ity（名词）→ 须作答的那份分内之事 → 责任",
+      "origin": "拉丁语 respondere（回应、担保）",
+      "native_definition": "a duty to deal with something, or blame for something that happened",
+      "core_concept": "what one is bound to answer for – 须由自己作答的那一份",
+      "core_image": "分工表上每人名下一栏，出问题先看这一栏",
+      "chinese": [
+        "责任",
+        "职责",
+        "担当"
+      ],
+      "examples": [
+        "Safety is everyone's responsibility.",
+        "She took responsibility for the error."
+      ],
+      "synonyms": [
+        "duty",
+        "obligation"
+      ],
+      "antonyms": [],
+      "related": [
+        "responsible",
+        "respond",
+        "response"
+      ],
+      "semantic_expansions": [
+        "责任/职责：须由自己作答的那一份分内之事",
+        "担当：愿意把它认下来。同一个'须作答的份'，一个说范围一个说态度"
+      ]
+    },
+    {
+      "id": "correspond",
+      "word": "correspond",
+      "pos": "verb",
+      "phonetic": "/ˌkɔːrəˈspɑːnd/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "cor-（com- 的变体，相互）+ respond（回应）→ 两边互相应得上 → 相符；也指两人往来通信 → 通信",
+      "recall_hint": "cor-（相互）+ respond（回应）→ 两边彼此应得上、对得上；也指两人一来一往地写信",
+      "origin": "拉丁语 correspondere：com-（一起）+ respondere（回应）",
+      "native_definition": "to match or agree with something, or to exchange letters",
+      "core_concept": "each answering to the other – 两边彼此应得上",
+      "core_image": "两份账目并排核对，每一行数字都对得上",
+      "chinese": [
+        "相符",
+        "对应",
+        "通信"
+      ],
+      "examples": [
+        "The figures do not correspond.",
+        "They corresponded for years before meeting."
+      ],
+      "synonyms": [
+        "match",
+        "agree"
+      ],
+      "antonyms": [
+        "differ"
+      ],
+      "related": [
+        "correspondence",
+        "correspondent",
+        "respond",
+        "response"
+      ],
+      "semantic_expansions": [
+        "相符/对应：两边彼此应得上",
+        "通信：两人一来一往地相互回应。同一个'互相应答'，一个是状态一个是往来"
+      ]
+    },
+    {
+      "id": "correspondence",
+      "word": "correspondence",
+      "pos": "noun",
+      "phonetic": "/ˌkɔːrəˈspɑːndəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "correspond（互相应上）+ -ence（名词）→ 互相应上的那种关系，或往来的信件 → 一致、信函",
+      "recall_hint": "correspond（互相应上）+ -ence → 两边对得上的那种关系；也指一来一往积下的那些信",
+      "origin": "拉丁语 correspondere：com-（一起）+ respondere（回应）",
+      "native_definition": "the letters exchanged between people, or a close similarity",
+      "core_concept": "the state of answering each other – 彼此应得上的那种关系",
+      "core_image": "抽屉里按年份摞着的信，一封回一封",
+      "chinese": [
+        "信函",
+        "通信",
+        "一致"
+      ],
+      "examples": [
+        "Their correspondence fills three volumes.",
+        "There is a close correspondence between the two accounts."
+      ],
+      "synonyms": [
+        "letters",
+        "similarity"
+      ],
+      "antonyms": [],
+      "related": [
+        "correspond",
+        "correspondent",
+        "respond"
+      ],
+      "semantic_expansions": [
+        "信函/通信：一来一往积下的那些信",
+        "一致：两边对得上的那种关系。同一个'互相应上'，一个是实物一个是关系"
+      ]
+    },
+    {
+      "id": "correspondent",
+      "word": "correspondent",
+      "pos": "noun",
+      "phonetic": "/ˌkɔːrəˈspɑːndənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "correspond（往来回报）+ -ent（人）→ 从外地把消息回报回来的人 → 通讯员",
+      "origin": "拉丁语 correspondere：com-（一起）+ respondere（回应）",
+      "native_definition": "a journalist who reports from a place, or someone who writes letters",
+      "core_concept": "the one who writes back from where the news is – 在现场把消息回报回来的人",
+      "core_image": "画面右下角标着姓名与所在城市，人正对着镜头说",
+      "chinese": [
+        "通讯员",
+        "驻外记者",
+        "通信者"
+      ],
+      "examples": [
+        "Our correspondent in Cairo filed the report.",
+        "She was a lifelong correspondent of the poet."
+      ],
+      "synonyms": [
+        "reporter",
+        "journalist"
+      ],
+      "antonyms": [],
+      "related": [
+        "correspond",
+        "correspondence",
+        "reporter"
+      ],
+      "semantic_expansions": [
+        "通讯员/驻外记者：从现场把消息回报回来的人",
+        "通信者：与人一来一往写信的人。同一个'往来回报'，一个对公众一个对私人"
+      ]
+    },
+    {
+      "id": "sponsor",
+      "word": "sponsor",
+      "pos": "noun",
+      "phonetic": "/ˈspɑːnsər/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "spons（应许、担保）+ -or（人）→ 出面为某事作保的人 → 赞助者",
+      "origin": "拉丁语 sponsor：spondere（郑重许诺、担保）",
+      "native_definition": "a person or firm that pays for an event, or one who supports a proposal",
+      "core_concept": "the one who stands behind it with a pledge – 出面为它作保、把话应下来的人",
+      "core_image": "赛事横幅下方一排企业标志，出事由它们兜着",
+      "chinese": [
+        "赞助者",
+        "保证人",
+        "发起人"
+      ],
+      "examples": [
+        "The team found a new sponsor.",
+        "Two senators sponsored the bill."
+      ],
+      "synonyms": [
+        "backer",
+        "patron"
+      ],
+      "antonyms": [],
+      "related": [
+        "respond",
+        "response",
+        "responsible"
+      ],
+      "semantic_expansions": [
+        "赞助者：拿钱为活动作保的人",
+        "保证人/发起人：把话应下来、为它站台的人。同一个'出面担保'，担的是钱还是名"
+      ]
+    },
+    {
+      "id": "internal",
+      "word": "internal",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈtɜːrnl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ternus"
+      ],
+      "root_logic": "in-（里）+ ternal（属于那一侧的）→ 属于界线以内的 → 内部的",
+      "origin": "拉丁语 internus（里面的）← in-（在内）",
+      "native_definition": "inside something, or within an organization or country",
+      "core_concept": "belonging to the inner side of a boundary – 属于界线以内那一侧",
+      "core_image": "门关上以后，屋里的事外面听不见",
+      "chinese": [
+        "内部的",
+        "体内的",
+        "国内的"
+      ],
+      "examples": [
+        "The report is for internal use only.",
+        "She suffered internal injuries."
+      ],
+      "synonyms": [
+        "inner",
+        "inside"
+      ],
+      "antonyms": [
+        "external"
+      ],
+      "related": [
+        "external",
+        "international",
+        "alternate"
+      ],
+      "semantic_expansions": [
+        "内部的（机构）/国内的（国家）：界线以内那一侧",
+        "体内的：身体这道界线以内。同一个'界内'，界线是门、国境还是皮肤"
+      ]
+    },
+    {
+      "id": "external",
+      "word": "external",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈstɜːrnl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ternus"
+      ],
+      "root_logic": "ex-（外）+ ternal（属于那一侧的）→ 属于界线以外的 → 外部的",
+      "origin": "拉丁语 externus（外面的）← ex-（在外）",
+      "native_definition": "outside something, or coming from outside a group",
+      "core_concept": "belonging to the outer side of a boundary – 属于界线以外那一侧",
+      "core_image": "墙外面的雨打在窗上，屋里干着",
+      "chinese": [
+        "外部的",
+        "外用的",
+        "对外的"
+      ],
+      "examples": [
+        "External factors affected the result.",
+        "The ointment is for external use."
+      ],
+      "synonyms": [
+        "outer",
+        "outside"
+      ],
+      "antonyms": [
+        "internal"
+      ],
+      "related": [
+        "internal",
+        "international",
+        "alternate"
+      ],
+      "semantic_expansions": [
+        "外部的/对外的：界线以外那一侧",
+        "外用的（药）：涂在体表而非吃进体内。同一个'界外'——与 internal 只差一个方位前缀"
+      ]
+    },
+    {
+      "id": "international",
+      "word": "international",
+      "pos": "adjective",
+      "phonetic": "/ˌɪntərˈnæʃnl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ternus"
+      ],
+      "root_logic": "inter-（之间）+ national（国家的）→ 在国与国之间的 → 国际的",
+      "origin": "拉丁语 inter-（之间）+ natio（国族）← nasci（出生）",
+      "native_definition": "involving two or more countries",
+      "core_concept": "in the space between nations – 处在国与国之间",
+      "core_image": "边境线两边各站一队人，谈的是横跨这条线的事",
+      "chinese": [
+        "国际的",
+        "跨国的"
+      ],
+      "examples": [
+        "The treaty set new international standards.",
+        "She works for an international charity."
+      ],
+      "synonyms": [
+        "global",
+        "worldwide"
+      ],
+      "antonyms": [
+        "domestic"
+      ],
+      "related": [
+        "internal",
+        "external",
+        "nation",
+        "national"
+      ],
+      "semantic_expansions": [
+        "国际的与跨国的：都是'处在国与国之间'，中文按侧重分了两个词"
+      ]
+    },
+    {
+      "id": "alternate",
+      "word": "alternate",
+      "pos": "verb",
+      "phonetic": "/ˈɔːltərneɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ternus"
+      ],
+      "root_logic": "alter（另一个）+ -nate → 在这一个与另一个之间来回换 → 交替",
+      "origin": "拉丁语 alternare：alter（两者中的另一个）",
+      "native_definition": "to happen or be used in turn, one after the other",
+      "core_concept": "swapping between this one and the other – 在这个与另一个之间轮换",
+      "core_image": "红绿灯一个亮完换另一个，从不同时亮",
+      "chinese": [
+        "交替",
+        "轮流",
+        "隔一个的"
+      ],
+      "examples": [
+        "Wet days alternated with dry ones.",
+        "Plant them in alternate rows."
+      ],
+      "synonyms": [
+        "rotate",
+        "take turns"
+      ],
+      "antonyms": [],
+      "related": [
+        "internal",
+        "external",
+        "international"
+      ],
+      "semantic_expansions": [
+        "交替/轮流：在两者之间来回换",
+        "隔一个的（形容词）：每隔一个取一个。同一个'两者轮换'，一个说过程一个说排布"
+      ]
+    },
+    {
+      "id": "appear",
+      "word": "appear",
+      "pos": "verb",
+      "phonetic": "/əˈpɪr/",
+      "decomposable": "root",
+      "root_ids": [
+        "apparere"
+      ],
+      "root_logic": "ap-（ad- 的变体，朝向）+ pear（显现）→ 朝人眼前露出来 → 出现；引申为看上去像 → 显得",
+      "recall_hint": "ap-（朝向）+ pear（显现）→ 朝人眼前露出来；引申为在人看来是那个样子",
+      "origin": "拉丁语 apparere：ad-（朝向）+ parere（露出）",
+      "native_definition": "to become visible, or to seem to be a certain way",
+      "core_concept": "coming into someone's view – 进入某人的视野",
+      "core_image": "雾散开，山的轮廓从白茫里浮出来",
+      "chinese": [
+        "出现",
+        "显得",
+        "露面"
+      ],
+      "examples": [
+        "A figure appeared at the door.",
+        "She appears tired today."
+      ],
+      "synonyms": [
+        "emerge",
+        "seem"
+      ],
+      "antonyms": [
+        "disappear"
+      ],
+      "related": [
+        "appearance",
+        "disappear",
+        "appeal"
+      ],
+      "semantic_expansions": [
+        "出现/露面：进入别人的视野",
+        "显得：在别人看来是那个样子。同一个'呈现于视野'，一个是实体一个是印象"
+      ]
+    },
+    {
+      "id": "appearance",
+      "word": "appearance",
+      "pos": "noun",
+      "phonetic": "/əˈpɪrəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "apparere"
+      ],
+      "root_logic": "appear（露出来）+ -ance（名词）→ 露面这件事，或露出来的那个样子 → 外观",
+      "recall_hint": "appear（露出来）+ -ance → 露面这件事本身；也指露出来给人看到的那个样子",
+      "origin": "拉丁语 apparentia：apparere（显现）",
+      "native_definition": "the way someone or something looks, or the act of coming into view",
+      "core_concept": "the showing, or what is shown – 露面这件事，或所露出的那个样子",
+      "core_image": "台上一亮相，全场先看见的是那身打扮",
+      "chinese": [
+        "外观",
+        "露面",
+        "外表"
+      ],
+      "examples": [
+        "Do not judge by appearance.",
+        "This was her first public appearance."
+      ],
+      "synonyms": [
+        "look",
+        "aspect"
+      ],
+      "antonyms": [],
+      "related": [
+        "appear",
+        "disappear",
+        "appeal"
+      ],
+      "semantic_expansions": [
+        "外观/外表：露出来给人看到的那个样子",
+        "露面：露出来这件事本身。同一个'呈现'，一个指所见一个指行为"
+      ]
+    },
+    {
+      "id": "disappear",
+      "word": "disappear",
+      "pos": "verb",
+      "phonetic": "/ˌdɪsəˈpɪr/",
+      "decomposable": "root",
+      "root_ids": [
+        "apparere"
+      ],
+      "root_logic": "dis-（否定、去除）+ appear（露出）→ 不再露在眼前 → 消失",
+      "origin": "英语 dis- + appear，词根仍是拉丁语 apparere（显现）",
+      "native_definition": "to stop being visible or to cease to exist",
+      "core_concept": "passing out of view – 从视野里退出去",
+      "core_image": "船驶过地平线，桅杆最后一截也沉下去了",
+      "chinese": [
+        "消失",
+        "不见",
+        "失踪"
+      ],
+      "examples": [
+        "The stain disappeared after washing.",
+        "He disappeared without a word."
+      ],
+      "synonyms": [
+        "vanish"
+      ],
+      "antonyms": [
+        "appear"
+      ],
+      "related": [
+        "appear",
+        "appearance",
+        "appeal"
+      ],
+      "semantic_expansions": [
+        "消失/不见：从视野里退出去",
+        "失踪（人）：人从众人视野里退出且找不到。同一个'退出视野'，程度和对象不同"
+      ]
+    },
+    {
+      "id": "appeal",
+      "word": "appeal",
+      "pos": "verb",
+      "phonetic": "/əˈpiːl/",
+      "decomposable": "root",
+      "root_ids": [
+        "pel"
+      ],
+      "root_logic": "ap-（ad- 的变体，朝向）+ peal（pel 的变体，推、呼）→ 朝某人推出请求 → 呼吁；引申为打动人 → 有吸引力",
+      "recall_hint": "ap-（朝向）+ peal（推、呼）→ 朝某人推出请求；引申为某物朝人推来一股吸引力",
+      "origin": "拉丁语 appellare：ad-（朝向）+ pellere（推、驱动）",
+      "native_definition": "to make an earnest request, to seek a higher court's review, or to attract",
+      "core_concept": "pushing a request toward someone – 朝某人推出一份请求",
+      "core_image": "举着话筒面向人群请求帮助，声音一直推到最后一排",
+      "chinese": [
+        "呼吁",
+        "上诉",
+        "有吸引力"
+      ],
+      "examples": [
+        "The charity appealed for donations.",
+        "He appealed against the sentence.",
+        "The idea appeals to me."
+      ],
+      "synonyms": [
+        "request",
+        "attract"
+      ],
+      "antonyms": [],
+      "related": [
+        "expel",
+        "compel",
+        "propel",
+        "repel"
+      ],
+      "semantic_expansions": [
+        "呼吁：朝众人推出请求",
+        "上诉：朝更高一级法院推出请求",
+        "有吸引力：某物朝人推来一股力，把人拉过去。三义共享'朝对方推出'"
+      ]
+    },
+    {
+      "id": "nation",
+      "word": "nation",
+      "pos": "noun",
+      "phonetic": "/ˈneɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "nasci"
+      ],
+      "root_logic": "nat（出生）+ -ion（名词）→ 因同出一源而聚成的那一群人 → 民族、国家",
+      "recall_hint": "nat（出生）+ -ion → 因同出一源而聚成的那一群人；后来也指他们所据的那个国",
+      "origin": "拉丁语 natio：nasci（出生）——原意'同出一源的族群'",
+      "native_definition": "a large group of people sharing a land, history, and government",
+      "core_concept": "a people bound by common birth – 因同出一源而聚成的那群人",
+      "core_image": "同一片土地上的人说同一种话，祖上追得到一处",
+      "chinese": [
+        "国家",
+        "民族"
+      ],
+      "examples": [
+        "The nation went to the polls in May.",
+        "Several nations signed the accord."
+      ],
+      "synonyms": [
+        "country",
+        "people"
+      ],
+      "antonyms": [],
+      "related": [
+        "national",
+        "international",
+        "native",
+        "nature"
+      ],
+      "semantic_expansions": [
+        "民族：因同出一源而聚成的群",
+        "国家：这群人所据的那个政治实体。同一个'同源之群'，一个看血缘一个看疆域"
+      ]
+    },
+    {
+      "id": "national",
+      "word": "national",
+      "pos": "adjective",
+      "phonetic": "/ˈnæʃnəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "nasci"
+      ],
+      "root_logic": "nation（同源之群）+ -al（…的）→ 属于整个国族的 → 全国的",
+      "origin": "拉丁语 natio（族群）+ -al",
+      "native_definition": "relating to a whole country rather than a part of it",
+      "core_concept": "belonging to the whole people – 属于整个国族，而非局部",
+      "core_image": "同一面旗挂在全国每个县城的门口",
+      "chinese": [
+        "全国的",
+        "国家的",
+        "国民"
+      ],
+      "examples": [
+        "It became a national holiday.",
+        "National income rose sharply."
+      ],
+      "synonyms": [
+        "countrywide",
+        "public"
+      ],
+      "antonyms": [
+        "local"
+      ],
+      "related": [
+        "nation",
+        "international",
+        "native"
+      ],
+      "semantic_expansions": [
+        "全国的/国家的：属于整个国族",
+        "国民（名词）：属于这个国族的人。同一个'属于整族'，一个说范围一个指人"
+      ]
+    },
+    {
+      "id": "native",
+      "word": "native",
+      "pos": "adjective",
+      "phonetic": "/ˈneɪtɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "nasci"
+      ],
+      "root_logic": "nat（出生）+ -ive（…的）→ 与出生地相关的 → 本地的、天生的",
+      "recall_hint": "nat（出生）+ -ive → 与出生那一刻或那个地方相关的：或指原产于此，或指生来就会",
+      "origin": "拉丁语 nativus：nasci（出生）",
+      "native_definition": "belonging to a place by birth, or possessed from birth",
+      "core_concept": "belonging to one by birth – 由出生带来、不是后学的",
+      "core_image": "这片林子里原本就长着这种树，没人栽过",
+      "chinese": [
+        "本地的",
+        "母语的",
+        "天生的"
+      ],
+      "examples": [
+        "She is a native speaker of Thai.",
+        "The plant is native to Japan."
+      ],
+      "synonyms": [
+        "local",
+        "inborn"
+      ],
+      "antonyms": [
+        "foreign"
+      ],
+      "related": [
+        "nation",
+        "national",
+        "nature"
+      ],
+      "semantic_expansions": [
+        "本地的：原产于此，不是移来的",
+        "母语的：出生就习得的那门语言",
+        "天生的：生来就有的。三义共享'由出生带来'"
+      ]
+    },
+    {
+      "id": "nature",
+      "word": "nature",
+      "pos": "noun",
+      "phonetic": "/ˈneɪtʃər/",
+      "decomposable": "root",
+      "root_ids": [
+        "nasci"
+      ],
+      "root_logic": "nat（出生）+ -ure（名词）→ 生来就是那样的底子 → 天性；万物生来的那一整片 → 自然",
+      "recall_hint": "nat（出生）+ -ure → 生来就是那样的底子；放大到万物，就是不经人手的那一整片",
+      "origin": "拉丁语 natura：nasci（出生）",
+      "native_definition": "the physical world apart from people, or the basic character of someone or something",
+      "core_concept": "how something is from birth – 生来就是那个样子",
+      "core_image": "没人打理的山谷，草木照自己的规矩长",
+      "chinese": [
+        "自然",
+        "天性",
+        "本质"
+      ],
+      "examples": [
+        "We spent the weekend out in nature.",
+        "It is not in her nature to complain."
+      ],
+      "synonyms": [
+        "character",
+        "essence"
+      ],
+      "antonyms": [],
+      "related": [
+        "native",
+        "nation",
+        "national"
+      ],
+      "semantic_expansions": [
+        "自然：万物生来的那一整片，不经人手",
+        "天性/本质：某人某物生来的那个底子。同一个'生来如此'，一个指外界一个指内在"
+      ]
+    }
+  ]
+}

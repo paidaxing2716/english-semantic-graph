@@ -2532,6 +2532,126 @@
       "to": "civilization",
       "type": "root",
       "note": "civilize（使入市民秩序）+ -ation（名词）→ 那套秩序连同其成果 → 文明"
+    },
+    {
+      "from": "spondere",
+      "to": "respond",
+      "type": "root",
+      "note": "re-（回）+ spond（应许）→ 把回应送回去 → 回应"
+    },
+    {
+      "from": "spondere",
+      "to": "response",
+      "type": "root",
+      "note": "respond（回应）+ -se（名词）→ 送回去的那份回应 → 反应"
+    },
+    {
+      "from": "spondere",
+      "to": "responsible",
+      "type": "root",
+      "note": "respond（应许、答复）+ -ible（须…的）→ 出了事须给出回答的 → 负责的"
+    },
+    {
+      "from": "spondere",
+      "to": "responsibility",
+      "type": "root",
+      "note": "responsible（须作答的）+ -ity（名词）→ 须作答的那份分内之事 → 责任"
+    },
+    {
+      "from": "spondere",
+      "to": "correspond",
+      "type": "root",
+      "note": "cor-（com- 的变体，相互）+ respond（回应）→ 两边互相应得上 → 相符；也指两人往来通信 → 通信"
+    },
+    {
+      "from": "spondere",
+      "to": "correspondence",
+      "type": "root",
+      "note": "correspond（互相应上）+ -ence（名词）→ 互相应上的那种关系，或往来的信件 → 一致、信函"
+    },
+    {
+      "from": "spondere",
+      "to": "correspondent",
+      "type": "root",
+      "note": "correspond（往来回报）+ -ent（人）→ 从外地把消息回报回来的人 → 通讯员"
+    },
+    {
+      "from": "spondere",
+      "to": "sponsor",
+      "type": "root",
+      "note": "spons（应许、担保）+ -or（人）→ 出面为某事作保的人 → 赞助者"
+    },
+    {
+      "from": "ternus",
+      "to": "internal",
+      "type": "root",
+      "note": "in-（里）+ ternal（属于那一侧的）→ 属于界线以内的 → 内部的"
+    },
+    {
+      "from": "ternus",
+      "to": "external",
+      "type": "root",
+      "note": "ex-（外）+ ternal（属于那一侧的）→ 属于界线以外的 → 外部的"
+    },
+    {
+      "from": "ternus",
+      "to": "international",
+      "type": "root",
+      "note": "inter-（之间）+ national（国家的）→ 在国与国之间的 → 国际的"
+    },
+    {
+      "from": "ternus",
+      "to": "alternate",
+      "type": "root",
+      "note": "alter（另一个）+ -nate → 在这一个与另一个之间来回换 → 交替"
+    },
+    {
+      "from": "apparere",
+      "to": "appear",
+      "type": "root",
+      "note": "ap-（ad- 的变体，朝向）+ pear（显现）→ 朝人眼前露出来 → 出现；引申为看上去像 → 显得"
+    },
+    {
+      "from": "apparere",
+      "to": "appearance",
+      "type": "root",
+      "note": "appear（露出来）+ -ance（名词）→ 露面这件事，或露出来的那个样子 → 外观"
+    },
+    {
+      "from": "apparere",
+      "to": "disappear",
+      "type": "root",
+      "note": "dis-（否定、去除）+ appear（露出）→ 不再露在眼前 → 消失"
+    },
+    {
+      "from": "pel",
+      "to": "appeal",
+      "type": "root",
+      "note": "ap-（ad- 的变体，朝向）+ peal（pel 的变体，推、呼）→ 朝某人推出请求 → 呼吁；引申为打动人 → 有吸"
+    },
+    {
+      "from": "nasci",
+      "to": "nation",
+      "type": "root",
+      "note": "nat（出生）+ -ion（名词）→ 因同出一源而聚成的那一群人 → 民族、国家"
+    },
+    {
+      "from": "nasci",
+      "to": "national",
+      "type": "root",
+      "note": "nation（同源之群）+ -al（…的）→ 属于整个国族的 → 全国的"
+    },
+    {
+      "from": "nasci",
+      "to": "native",
+      "type": "root",
+      "note": "nat（出生）+ -ive（…的）→ 与出生地相关的 → 本地的、天生的"
+    },
+    {
+      "from": "nasci",
+      "to": "nature",
+      "type": "root",
+      "note": "nat（出生）+ -ure（名词）→ 生来就是那样的底子 → 天性；万物生来的那一整片 → 自然"
     }
   ]
 }

@@ -620,7 +620,8 @@
         "compulsory",
         "expel",
         "propel",
-        "repel"
+        "repel",
+        "appeal"
       ]
     },
     {
@@ -1121,6 +1122,69 @@
         "civilian",
         "civilization",
         "civilize"
+      ]
+    },
+    {
+      "id": "concept-spondere-pledge",
+      "concept": "to pledge in return",
+      "chinese": "应许、回应",
+      "core_image": "对方伸手要一个承诺，你握上去点头应了",
+      "root_ids": [
+        "spondere"
+      ],
+      "word_ids": [
+        "correspond",
+        "correspondence",
+        "correspondent",
+        "respond",
+        "response",
+        "responsibility",
+        "responsible",
+        "sponsor"
+      ]
+    },
+    {
+      "id": "concept-ternus-inout",
+      "concept": "inside or outside a boundary",
+      "chinese": "内侧与外侧",
+      "core_image": "一道墙把空间分成两半，人只能在一侧",
+      "root_ids": [
+        "ternus"
+      ],
+      "word_ids": [
+        "alternate",
+        "external",
+        "internal",
+        "international"
+      ]
+    },
+    {
+      "id": "concept-apparere-appear",
+      "concept": "to come into view",
+      "chinese": "显现",
+      "core_image": "雾散开，山的轮廓从白茫里显出来",
+      "root_ids": [
+        "apparere"
+      ],
+      "word_ids": [
+        "appear",
+        "appearance",
+        "disappear"
+      ]
+    },
+    {
+      "id": "concept-nasci-born",
+      "concept": "to be born",
+      "chinese": "出生、天生",
+      "core_image": "新生儿被抱起来，从此算作这家的人",
+      "root_ids": [
+        "nasci"
+      ],
+      "word_ids": [
+        "nation",
+        "national",
+        "native",
+        "nature"
       ]
     }
   ]
