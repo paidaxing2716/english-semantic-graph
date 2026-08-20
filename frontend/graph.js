@@ -362,6 +362,7 @@
       return vis.has(s) && vis.has(t) ? "auto" : "none";
     });
     syncSimulationScope(vis);
+    refreshScale();
   }
 
   // 只把可见节点交给力导向。
@@ -475,6 +476,63 @@
   let viewH = 0;
   let viewMargin = 34;
 
+  // ---------- 节点尺寸 ----------
+  const BASE_R = { domain: 34, root: 27, concept: 20, cluster: 18, word: 13 };
+  let viewScale = 1;
+
+  // 缩放系数取"画布尺寸"与"可见节点密度"两者的较小值：
+  // 前者管小屏，后者管词库长大后全部展开的情形。
+  function computeScale(width, height) {
+    const byCanvas = Math.min(1, Math.sqrt(width * height) / 900);
+    const visible = nodes.filter((n) => n.vizVisible).length || 1;
+    // 每个节点需要的画布面积按最大碰撞直径估：(34+14)*2 ≈ 96px 见方
+    const need = visible * 96 * 96;
+    const byDensity = Math.sqrt((width * height) / need);
+    return Math.min(1, Math.max(0.5, Math.min(byCanvas, byDensity)));
+  }
+
+  function radiusOf(d) {
+    const base = d.type === "domain" ? BASE_R.domain
+      : d.type === "root" ? BASE_R.root
+      : d.type === "concept" ? (d.isCluster ? BASE_R.cluster : BASE_R.concept)
+      : BASE_R.word;
+    return Math.max(4, Math.round(base * viewScale));
+  }
+
+  // 碰撞半径 = 节点半径 + 标签留白
+  function collideR(d) {
+    return radiusOf(d) + 14 * viewScale;
+  }
+
+  // 可见节点数变化后重算尺寸：半径、碰撞、边界留白、连线距离都要跟着变
+  function refreshScale() {
+    if (!nodeSel || !simulation) return;
+    const prev = viewScale;
+    viewScale = computeScale(viewW, viewH);
+    if (Math.abs(viewScale - prev) < 0.02) return;
+
+    nodeSel.select("circle").attr("r", radiusOf);
+    nodeSel.each(function (d) {
+      const t = d3.select(this).select("text");
+      let halfW = 0;
+      try { halfW = t.node().getComputedTextLength() / 2; } catch (e) { halfW = 0; }
+      const r = radiusOf(d);
+      const dy = d.type === "word" ? (viewW < 520 ? 24 : 32) : 0;
+      d.padX = Math.max(halfW, r) + 4;
+      d.padTop = r + 4;
+      d.padBottom = Math.max(dy + 8, r) + 4;
+    });
+    const cf = simulation.force("collide");
+    if (cf) cf.radius(collideR);
+    const lf = simulation.force("link");
+    if (lf) {
+      lf.distance((l) => {
+        const want = (l.type === "root" ? 70 : 110) * viewScale;
+        return Math.max(want, collideR(l.source) + collideR(l.target) + 6);
+      });
+    }
+  }
+
   // 把节点夹在画布内（按标签实测尺寸，中文长标签也不会探出去）
   // 只处理可见节点：隐藏节点的位置无意义，大规模下夹紧它们纯属浪费
   function clampNodes(width, height, margin) {
@@ -515,15 +573,10 @@
 
     // 节点尺寸随画布缩放：手机画布只有桌面的 1/9 面积，
     // 沿用桌面半径会导致节点挤在一起（实测重叠十几对）。
-    const scale = Math.min(1, Math.max(0.62, Math.sqrt(width * height) / 900));
-    const BASE_R = { domain: 34, root: 27, concept: 20, cluster: 18, word: 13 };
-    const radiusOf = (d) =>
-      Math.round((d.type === "domain" ? BASE_R.domain
-        : d.type === "root" ? BASE_R.root
-        : d.type === "concept" ? (d.isCluster ? BASE_R.cluster : BASE_R.concept)
-        : BASE_R.word) * scale);
-    // 碰撞半径 = 节点半径 + 标签留白，随画布缩放
-    const collideR = (d) => radiusOf(d) + 14 * scale;
+    // 尺寸缩放同时看画布大小和当前可见节点数。
+    // 只按画布缩放不够：词库长大后"全部展开"的节点数会翻几倍，
+    // 面积没变而占位需求变了（实测 335 节点时出现重叠）。
+    viewScale = computeScale(width, height);
 
     // 缩放
     const g = svg.append("g");
@@ -612,11 +665,11 @@
       // 两个力互相矛盾且连线通常获胜（实测表现为「语义域+词根」贴在一起）。
       .force("link", d3.forceLink(links).id((d) => d.id)
         .distance((l) => {
-          const want = (l.type === "root" ? 70 : 110) * scale;
+          const want = (l.type === "root" ? 70 : 110) * viewScale;
           const need = collideR(l.source) + collideR(l.target) + 6;
           return Math.max(want, need);
         }))
-      .force("charge", d3.forceManyBody().strength(-300 * scale * scale).distanceMax(320 * scale))
+      .force("charge", d3.forceManyBody().strength(-300 * viewScale * viewScale).distanceMax(320 * viewScale))
       .force("center", d3.forceCenter(width / 2, height / 2))
       .force("x", d3.forceX(width / 2).strength(0.06))
       .force("y", d3.forceY(height / 2).strength(0.09))
