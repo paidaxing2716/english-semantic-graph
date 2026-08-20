@@ -1245,6 +1245,67 @@
         "dominant",
         "dominate"
       ]
+    },
+    {
+      "id": "concept-cura-care",
+      "concept": "attentive care",
+      "chinese": "关切、照料",
+      "core_image": "守着炉火的人一直盯着火候，不敢走开",
+      "root_ids": [
+        "cura"
+      ],
+      "word_ids": [
+        "accurate",
+        "cure",
+        "curious",
+        "secure",
+        "security"
+      ]
+    },
+    {
+      "id": "concept-credere-trust",
+      "concept": "to entrust, to believe",
+      "chinese": "相信、托付",
+      "core_image": "钱交到对方手里就走，不担心它会没了",
+      "root_ids": [
+        "credere"
+      ],
+      "word_ids": [
+        "credibility",
+        "credible",
+        "credit",
+        "incredible"
+      ]
+    },
+    {
+      "id": "concept-grat-pleasing",
+      "concept": "pleasing, freely given",
+      "chinese": "讨喜、恩惠",
+      "core_image": "对方递来一样东西并不要钱，脸上还带着笑",
+      "root_ids": [
+        "grat"
+      ],
+      "word_ids": [
+        "disgrace",
+        "grace",
+        "graceful",
+        "gracious",
+        "grateful"
+      ]
+    },
+    {
+      "id": "concept-pretium-worth",
+      "concept": "what a thing is worth",
+      "chinese": "价值、代价",
+      "core_image": "标签上写着数字，付了才能把东西拿走",
+      "root_ids": [
+        "pretium"
+      ],
+      "word_ids": [
+        "appreciate",
+        "precious",
+        "price"
+      ]
     }
   ]
 }

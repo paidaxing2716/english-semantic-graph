@@ -1453,6 +1453,80 @@
         "dominant",
         "dominate"
       ]
+    },
+    {
+      "id": "cura",
+      "root": "cura",
+      "variants": [
+        "cur",
+        "cure"
+      ],
+      "origin": "拉丁语 cura（关切、照料）",
+      "core_concept": "attentive care / 把心思放在某事上",
+      "core_image": "守着炉火的人一直盯着火候，不敢走开",
+      "english_definition": "care, concern, attention",
+      "word_ids": [
+        "accurate",
+        "cure",
+        "curious",
+        "secure",
+        "security"
+      ]
+    },
+    {
+      "id": "credere",
+      "root": "credere",
+      "variants": [
+        "cred",
+        "creed"
+      ],
+      "origin": "拉丁语 credere（相信、托付）",
+      "core_concept": "to entrust, to believe / 把东西交出去而放心",
+      "core_image": "钱交到对方手里就走，不担心它会没了",
+      "english_definition": "to believe, to trust",
+      "word_ids": [
+        "credibility",
+        "credible",
+        "credit",
+        "incredible"
+      ]
+    },
+    {
+      "id": "grat",
+      "root": "grat",
+      "variants": [
+        "grat",
+        "grac"
+      ],
+      "origin": "拉丁语 gratus（受欢迎的、令人愉快的）/ gratia（恩惠）",
+      "core_concept": "pleasing, freely given / 讨人喜欢、白送的好意",
+      "core_image": "对方递来一样东西并不要钱，脸上还带着笑",
+      "english_definition": "pleasing, thankful, favour",
+      "word_ids": [
+        "disgrace",
+        "grace",
+        "graceful",
+        "gracious",
+        "grateful"
+      ]
+    },
+    {
+      "id": "pretium",
+      "root": "pretium",
+      "variants": [
+        "preci",
+        "pretio",
+        "price"
+      ],
+      "origin": "拉丁语 pretium（价格、代价）",
+      "core_concept": "what a thing is worth / 换它要付出的那个数",
+      "core_image": "标签上写着数字，付了才能把东西拿走",
+      "english_definition": "price, value, worth",
+      "word_ids": [
+        "appreciate",
+        "precious",
+        "price"
+      ]
     }
   ]
 }

@@ -2742,6 +2742,108 @@
       "to": "dominant",
       "type": "root",
       "note": "dominate（压住全场）+ -ant（…的）→ 压住其余的 → 占主导的"
+    },
+    {
+      "from": "cura",
+      "to": "cure",
+      "type": "root",
+      "note": "cura（照料）本身即词根，无词缀 → 照料到病好为止"
+    },
+    {
+      "from": "cura",
+      "to": "curious",
+      "type": "root",
+      "note": "cur（关切）+ -ious（…的）→ 心思一直放在某事上想弄清 → 好奇的；引申为反常到引人留意 → 奇怪的"
+    },
+    {
+      "from": "cura",
+      "to": "accurate",
+      "type": "root",
+      "note": "ac-（ad- 的变体，朝向）+ cur（关切）+ -ate → 用足了心思做出来的 → 精确的"
+    },
+    {
+      "from": "cura",
+      "to": "secure",
+      "type": "root",
+      "note": "se-（脱离）+ cure（关切、忧心）→ 脱离了牵挂、不必再操心的 → 安全的"
+    },
+    {
+      "from": "cura",
+      "to": "security",
+      "type": "root",
+      "note": "secure（无须操心的）+ -ity（名词）→ 不必操心的那个状态或保障 → 安全"
+    },
+    {
+      "from": "credere",
+      "to": "credit",
+      "type": "root",
+      "note": "cred（相信、托付）+ -it → 别人肯把东西先交给你的那份信任 → 信用；引申为该记在谁名下的功劳 → 归功"
+    },
+    {
+      "from": "credere",
+      "to": "credible",
+      "type": "root",
+      "note": "cred（相信）+ -ible（可…的）→ 可以相信的 → 可信的"
+    },
+    {
+      "from": "credere",
+      "to": "incredible",
+      "type": "root",
+      "note": "in-（否定）+ cred（相信）+ -ible → 没法相信的 → 难以置信的"
+    },
+    {
+      "from": "credere",
+      "to": "credibility",
+      "type": "root",
+      "note": "credible（可信的）+ -ity（名词）→ 值得被相信的那个程度 → 可信度"
+    },
+    {
+      "from": "grat",
+      "to": "grace",
+      "type": "root",
+      "note": "grat（讨喜、恩惠）本身即词根，无词缀 → 白给的好意，或看着讨喜的那份从容"
+    },
+    {
+      "from": "grat",
+      "to": "graceful",
+      "type": "root",
+      "note": "grace（讨喜的从容）+ -ful（充满…的）→ 处处见从容的 → 优雅的"
+    },
+    {
+      "from": "grat",
+      "to": "gracious",
+      "type": "root",
+      "note": "grac（恩惠）+ -ious（…的）→ 惯于给人好意的 → 亲切的"
+    },
+    {
+      "from": "grat",
+      "to": "disgrace",
+      "type": "root",
+      "note": "dis-（去除）+ grace（讨喜、体面）→ 讨喜和体面全没了 → 耻辱"
+    },
+    {
+      "from": "grat",
+      "to": "grateful",
+      "type": "root",
+      "note": "grat（受了恩惠）+ -ful（充满…的）→ 心里记着那份好意的 → 感激的"
+    },
+    {
+      "from": "pretium",
+      "to": "appreciate",
+      "type": "root",
+      "note": "ap-（ad- 的变体，朝向）+ preci（价值）+ -ate → 看出它值多少 → 赏识；引申为价值往上走 → 增值"
+    },
+    {
+      "from": "pretium",
+      "to": "precious",
+      "type": "root",
+      "note": "preci（价值、价格）+ -ous（…的）→ 值大价钱的 → 珍贵的"
+    },
+    {
+      "from": "pretium",
+      "to": "price",
+      "type": "root",
+      "note": "pretium（价格）本身即词根，无词缀 → 换取它所要付出的那个数"
     }
   ]
 }

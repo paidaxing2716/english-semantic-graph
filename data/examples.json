@@ -6013,6 +6013,251 @@
       "text": "Brown eyes are a dominant trait.",
       "source": "AI 生成 · 人工审核",
       "scene": "几种颜色里那一片红最抢眼，其余都退成背景"
+    },
+    {
+      "id": "ex-cure-1",
+      "word_id": "cure",
+      "text": "The drug cured her infection.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药一天天喂下去，烧终于退了"
+    },
+    {
+      "id": "ex-cure-2",
+      "word_id": "cure",
+      "text": "There is no easy cure for inflation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药一天天喂下去，烧终于退了"
+    },
+    {
+      "id": "ex-curious-1",
+      "word_id": "curious",
+      "text": "She was curious about his past.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小孩趴在玻璃前不肯走，一定要看清里面是什么"
+    },
+    {
+      "id": "ex-curious-2",
+      "word_id": "curious",
+      "text": "A curious smell came from the cellar.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小孩趴在玻璃前不肯走，一定要看清里面是什么"
+    },
+    {
+      "id": "ex-accurate-1",
+      "word_id": "accurate",
+      "text": "The forecast proved accurate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抄录的人逐字核对了三遍，一个数字都没错"
+    },
+    {
+      "id": "ex-accurate-2",
+      "word_id": "accurate",
+      "text": "We need accurate figures before deciding.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抄录的人逐字核对了三遍，一个数字都没错"
+    },
+    {
+      "id": "ex-secure-1",
+      "word_id": "secure",
+      "text": "The building is secure at night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门锁上、窗关好，睡前不用再起来查一遍"
+    },
+    {
+      "id": "ex-secure-2",
+      "word_id": "secure",
+      "text": "She secured a place at the college.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门锁上、窗关好，睡前不用再起来查一遍"
+    },
+    {
+      "id": "ex-security-1",
+      "word_id": "security",
+      "text": "Airport security has been tightened.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口站着的人一直在看，所以里面的人不用回头"
+    },
+    {
+      "id": "ex-security-2",
+      "word_id": "security",
+      "text": "A pension gives some financial security.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口站着的人一直在看，所以里面的人不用回头"
+    },
+    {
+      "id": "ex-credit-1",
+      "word_id": "credit",
+      "text": "She bought the car on credit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "东西先拿走，账记在名下，月底再结"
+    },
+    {
+      "id": "ex-credit-2",
+      "word_id": "credit",
+      "text": "He deserves credit for the idea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "东西先拿走，账记在名下，月底再结"
+    },
+    {
+      "id": "ex-credit-3",
+      "word_id": "credit",
+      "text": "The course is worth four credits.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "东西先拿走，账记在名下，月底再结"
+    },
+    {
+      "id": "ex-credible-1",
+      "word_id": "credible",
+      "text": "The witness gave a credible account.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三方说法互相对得上，这个版本站得住"
+    },
+    {
+      "id": "ex-credible-2",
+      "word_id": "credible",
+      "text": "They lack a credible plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三方说法互相对得上，这个版本站得住"
+    },
+    {
+      "id": "ex-incredible-1",
+      "word_id": "incredible",
+      "text": "The story sounds incredible.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "听完只想再问一遍：真是这样？"
+    },
+    {
+      "id": "ex-incredible-2",
+      "word_id": "incredible",
+      "text": "She did an incredible job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "听完只想再问一遍：真是这样？"
+    },
+    {
+      "id": "ex-credibility-1",
+      "word_id": "credibility",
+      "text": "The scandal damaged his credibility.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "过去说过的话都兑现了，这次说的也就有人听"
+    },
+    {
+      "id": "ex-credibility-2",
+      "word_id": "credibility",
+      "text": "The report lends credibility to the claim.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "过去说过的话都兑现了，这次说的也就有人听"
+    },
+    {
+      "id": "ex-grace-1",
+      "word_id": "grace",
+      "text": "She moved with great grace.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舞者转身时没有一处使劲的痕迹，看着毫不费力"
+    },
+    {
+      "id": "ex-grace-2",
+      "word_id": "grace",
+      "text": "They were given three days' grace to pay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舞者转身时没有一处使劲的痕迹，看着毫不费力"
+    },
+    {
+      "id": "ex-graceful-1",
+      "word_id": "graceful",
+      "text": "She made a graceful exit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "鹤落地时翅膀慢慢收拢，没有一下是急的"
+    },
+    {
+      "id": "ex-graceful-2",
+      "word_id": "graceful",
+      "text": "The bridge has a graceful curve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "鹤落地时翅膀慢慢收拢，没有一下是急的"
+    },
+    {
+      "id": "ex-gracious-1",
+      "word_id": "gracious",
+      "text": "She was gracious in defeat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主人亲自把客人送到门口，还替他挡了下风"
+    },
+    {
+      "id": "ex-gracious-2",
+      "word_id": "gracious",
+      "text": "Thank you for your gracious hospitality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主人亲自把客人送到门口，还替他挡了下风"
+    },
+    {
+      "id": "ex-disgrace-1",
+      "word_id": "disgrace",
+      "text": "He resigned in disgrace.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从前替他说话的人现在都不出声了"
+    },
+    {
+      "id": "ex-disgrace-2",
+      "word_id": "disgrace",
+      "text": "Their treatment of workers is a disgrace.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从前替他说话的人现在都不出声了"
+    },
+    {
+      "id": "ex-grateful-1",
+      "word_id": "grateful",
+      "text": "I am grateful for your help.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方帮完就走了，这边一直记着这件事"
+    },
+    {
+      "id": "ex-grateful-2",
+      "word_id": "grateful",
+      "text": "She wrote a grateful note.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方帮完就走了，这边一直记着这件事"
+    },
+    {
+      "id": "ex-appreciate-1",
+      "word_id": "appreciate",
+      "text": "I appreciate your patience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "行家拿起那只碗翻看底款，说出它值多少"
+    },
+    {
+      "id": "ex-appreciate-2",
+      "word_id": "appreciate",
+      "text": "The house has appreciated since 2020.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "行家拿起那只碗翻看底款，说出它值多少"
+    },
+    {
+      "id": "ex-precious-1",
+      "word_id": "precious",
+      "text": "Water is precious in the desert.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小盒子用绒布垫着，取的时候两只手一起捧"
+    },
+    {
+      "id": "ex-precious-2",
+      "word_id": "precious",
+      "text": "These letters are precious to her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小盒子用绒布垫着，取的时候两只手一起捧"
+    },
+    {
+      "id": "ex-price-1",
+      "word_id": "price",
+      "text": "The price has doubled since spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标签上那个数字，付了才能把东西拿走"
+    },
+    {
+      "id": "ex-price-2",
+      "word_id": "price",
+      "text": "He won, but at a heavy price.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标签上那个数字，付了才能把东西拿走"
     }
   ]
 }

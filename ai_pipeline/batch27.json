@@ -1,0 +1,782 @@
+{
+  "roots": [
+    {
+      "id": "cura",
+      "root": "cura",
+      "variants": [
+        "cur",
+        "cure"
+      ],
+      "origin": "拉丁语 cura（关切、照料）",
+      "core_concept": "attentive care / 把心思放在某事上",
+      "core_image": "守着炉火的人一直盯着火候，不敢走开",
+      "english_definition": "care, concern, attention",
+      "word_ids": []
+    },
+    {
+      "id": "credere",
+      "root": "credere",
+      "variants": [
+        "cred",
+        "creed"
+      ],
+      "origin": "拉丁语 credere（相信、托付）",
+      "core_concept": "to entrust, to believe / 把东西交出去而放心",
+      "core_image": "钱交到对方手里就走，不担心它会没了",
+      "english_definition": "to believe, to trust",
+      "word_ids": []
+    },
+    {
+      "id": "grat",
+      "root": "grat",
+      "variants": [
+        "grat",
+        "grac"
+      ],
+      "origin": "拉丁语 gratus（受欢迎的、令人愉快的）/ gratia（恩惠）",
+      "core_concept": "pleasing, freely given / 讨人喜欢、白送的好意",
+      "core_image": "对方递来一样东西并不要钱，脸上还带着笑",
+      "english_definition": "pleasing, thankful, favour",
+      "word_ids": []
+    },
+    {
+      "id": "pretium",
+      "root": "pretium",
+      "variants": [
+        "preci",
+        "pretio",
+        "price"
+      ],
+      "origin": "拉丁语 pretium（价格、代价）",
+      "core_concept": "what a thing is worth / 换它要付出的那个数",
+      "core_image": "标签上写着数字，付了才能把东西拿走",
+      "english_definition": "price, value, worth",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-cura-care",
+      "concept": "attentive care",
+      "chinese": "关切、照料",
+      "core_image": "守着炉火的人一直盯着火候，不敢走开",
+      "root_ids": [
+        "cura"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-credere-trust",
+      "concept": "to entrust, to believe",
+      "chinese": "相信、托付",
+      "core_image": "钱交到对方手里就走，不担心它会没了",
+      "root_ids": [
+        "credere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-grat-pleasing",
+      "concept": "pleasing, freely given",
+      "chinese": "讨喜、恩惠",
+      "core_image": "对方递来一样东西并不要钱，脸上还带着笑",
+      "root_ids": [
+        "grat"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-pretium-worth",
+      "concept": "what a thing is worth",
+      "chinese": "价值、代价",
+      "core_image": "标签上写着数字，付了才能把东西拿走",
+      "root_ids": [
+        "pretium"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-hold": [
+      "cura",
+      "credere"
+    ],
+    "domain-perceive": [
+      "grat"
+    ],
+    "domain-shape": [
+      "pretium"
+    ]
+  },
+  "words": [
+    {
+      "id": "cure",
+      "word": "cure",
+      "pos": "verb",
+      "phonetic": "/kjʊr/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "cura（照料）本身即词根，无词缀 → 照料到病好为止",
+      "recall_hint": "cura（照料）本身即词根 → 照料到病好为止；名词则是使人好起来的那个办法",
+      "origin": "拉丁语 cura（照料）→ curare（照料、治疗）",
+      "native_definition": "to make an illness or problem go away, or a remedy that does so",
+      "core_concept": "tending something until it is well – 一直照料到它好了",
+      "core_image": "药一天天喂下去，烧终于退了",
+      "chinese": [
+        "治愈",
+        "疗法",
+        "解决"
+      ],
+      "examples": [
+        "The drug cured her infection.",
+        "There is no easy cure for inflation."
+      ],
+      "synonyms": [
+        "heal",
+        "remedy"
+      ],
+      "antonyms": [],
+      "related": [
+        "curious",
+        "accurate",
+        "security",
+        "secure"
+      ],
+      "semantic_expansions": [
+        "治愈/疗法：照料到病好",
+        "解决（问题）：照料到麻烦消掉。同一个'照料到好'，对象是病还是事"
+      ]
+    },
+    {
+      "id": "curious",
+      "word": "curious",
+      "pos": "adjective",
+      "phonetic": "/ˈkjʊriəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "cur（关切）+ -ious（…的）→ 心思一直放在某事上想弄清 → 好奇的；引申为反常到引人留意 → 奇怪的",
+      "recall_hint": "cur（关切）+ -ious → 心思一直搁在某事上想弄清；反过来说，某物反常到让人搁不下时也用它",
+      "origin": "拉丁语 curiosus：cura（关切）",
+      "native_definition": "eager to know something, or strange and hard to explain",
+      "core_concept": "with attention fixed on something – 心思一直搁在那件事上",
+      "core_image": "小孩趴在玻璃前不肯走，一定要看清里面是什么",
+      "chinese": [
+        "好奇的",
+        "奇怪的"
+      ],
+      "examples": [
+        "She was curious about his past.",
+        "A curious smell came from the cellar."
+      ],
+      "synonyms": [
+        "inquisitive",
+        "strange"
+      ],
+      "antonyms": [
+        "indifferent"
+      ],
+      "related": [
+        "cure",
+        "accurate",
+        "security",
+        "secure"
+      ],
+      "semantic_expansions": [
+        "好奇的：心思搁在某事上想弄清",
+        "奇怪的：反常到让人搁不下心思。同一个'牵住注意力'，一个是主动想知一个是被动被吸引"
+      ]
+    },
+    {
+      "id": "accurate",
+      "word": "accurate",
+      "pos": "adjective",
+      "phonetic": "/ˈækjərət/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "ac-（ad- 的变体，朝向）+ cur（关切）+ -ate → 用足了心思做出来的 → 精确的",
+      "origin": "拉丁语 accuratus：ad-（朝向）+ cura（关切）——'费过心的'",
+      "native_definition": "correct in every detail, without error",
+      "core_concept": "done with care taken over every part – 每一处都费过心，因而不差",
+      "core_image": "抄录的人逐字核对了三遍，一个数字都没错",
+      "chinese": [
+        "精确的",
+        "准确的"
+      ],
+      "examples": [
+        "The forecast proved accurate.",
+        "We need accurate figures before deciding."
+      ],
+      "synonyms": [
+        "exact",
+        "precise"
+      ],
+      "antonyms": [
+        "inaccurate"
+      ],
+      "related": [
+        "cure",
+        "curious",
+        "security",
+        "secure"
+      ],
+      "semantic_expansions": [
+        "精确的与准确的：都是'每处都费过心因而不差'，中文一个偏数值一个偏结论"
+      ]
+    },
+    {
+      "id": "secure",
+      "word": "secure",
+      "pos": "adjective",
+      "phonetic": "/sɪˈkjʊr/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "se-（脱离）+ cure（关切、忧心）→ 脱离了牵挂、不必再操心的 → 安全的",
+      "recall_hint": "se-（脱离）+ cure（忧心）→ 不必再操心了；作动词则是把某物弄到不必操心的状态",
+      "origin": "拉丁语 securus：se-（脱离）+ cura（忧心）——'无忧的'",
+      "native_definition": "safe from harm or loss, or to obtain something and make it safe",
+      "core_concept": "free from having to worry – 已经脱离了要操心的状态",
+      "core_image": "门锁上、窗关好，睡前不用再起来查一遍",
+      "chinese": [
+        "安全的",
+        "牢固的",
+        "获得"
+      ],
+      "examples": [
+        "The building is secure at night.",
+        "She secured a place at the college."
+      ],
+      "synonyms": [
+        "safe",
+        "obtain"
+      ],
+      "antonyms": [
+        "insecure"
+      ],
+      "related": [
+        "security",
+        "cure",
+        "curious",
+        "accurate"
+      ],
+      "semantic_expansions": [
+        "安全的/牢固的：不必再操心它会出事",
+        "获得（动词）：把某物弄到手并弄稳。同一个'脱离忧心'，一个是状态一个是使之达到该状态"
+      ]
+    },
+    {
+      "id": "security",
+      "word": "security",
+      "pos": "noun",
+      "phonetic": "/sɪˈkjʊrəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "secure（无须操心的）+ -ity（名词）→ 不必操心的那个状态或保障 → 安全",
+      "recall_hint": "secure（不必操心的）+ -ity → 不必操心的那个状态；也指用来让人不必操心的那份保障或人手",
+      "origin": "拉丁语 securitas：se-（脱离）+ cura（忧心）",
+      "native_definition": "the state of being safe, or measures taken to stay safe",
+      "core_concept": "the state of not needing to worry – 不必再操心的那个状态",
+      "core_image": "门口站着的人一直在看，所以里面的人不用回头",
+      "chinese": [
+        "安全",
+        "保障",
+        "保安"
+      ],
+      "examples": [
+        "Airport security has been tightened.",
+        "A pension gives some financial security."
+      ],
+      "synonyms": [
+        "safety",
+        "protection"
+      ],
+      "antonyms": [],
+      "related": [
+        "secure",
+        "cure",
+        "curious",
+        "accurate"
+      ],
+      "semantic_expansions": [
+        "安全：不必操心的那个状态",
+        "保障：使人不必操心的那份依托",
+        "保安：负责让人不必操心的那些人。三义共享'脱离忧心'"
+      ]
+    },
+    {
+      "id": "credit",
+      "word": "credit",
+      "pos": "noun",
+      "phonetic": "/ˈkredɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "credere"
+      ],
+      "root_logic": "cred（相信、托付）+ -it → 别人肯把东西先交给你的那份信任 → 信用；引申为该记在谁名下的功劳 → 归功",
+      "recall_hint": "cred（相信、托付）+ -it → 别人肯先把东西交给你的那份信任；也指该记在谁名下的那份功劳",
+      "origin": "拉丁语 creditum：credere（相信、托付）——'被托付之物'",
+      "native_definition": "trust that allows delayed payment, praise for an achievement, or an entry of money received",
+      "core_concept": "what is entrusted to someone on trust – 因信任而先交到你手上的那一份",
+      "core_image": "东西先拿走，账记在名下，月底再结",
+      "chinese": [
+        "信用",
+        "赊账",
+        "功劳",
+        "学分"
+      ],
+      "examples": [
+        "She bought the car on credit.",
+        "He deserves credit for the idea.",
+        "The course is worth four credits."
+      ],
+      "synonyms": [
+        "trust",
+        "praise"
+      ],
+      "antonyms": [],
+      "related": [
+        "credible",
+        "incredible",
+        "credibility"
+      ],
+      "semantic_expansions": [
+        "信用/赊账：别人肯先把东西交给你",
+        "功劳：该记在你名下的那一份",
+        "学分：记在你名下的修课凭据。四义共享'记在某人名下、基于信任'"
+      ]
+    },
+    {
+      "id": "credible",
+      "word": "credible",
+      "pos": "adjective",
+      "phonetic": "/ˈkredəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "credere"
+      ],
+      "root_logic": "cred（相信）+ -ible（可…的）→ 可以相信的 → 可信的",
+      "origin": "拉丁语 credibilis：credere（相信）",
+      "native_definition": "able to be believed or trusted",
+      "core_concept": "such that one can believe it – 可以放心相信的",
+      "core_image": "三方说法互相对得上，这个版本站得住",
+      "chinese": [
+        "可信的",
+        "可靠的"
+      ],
+      "examples": [
+        "The witness gave a credible account.",
+        "They lack a credible plan."
+      ],
+      "synonyms": [
+        "believable",
+        "reliable"
+      ],
+      "antonyms": [
+        "incredible"
+      ],
+      "related": [
+        "credit",
+        "incredible",
+        "credibility"
+      ],
+      "semantic_expansions": [
+        "可信的与可靠的：都是'可以放心相信'，一个偏说法一个偏人或方案"
+      ]
+    },
+    {
+      "id": "incredible",
+      "word": "incredible",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈkredəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "credere"
+      ],
+      "root_logic": "in-（否定）+ cred（相信）+ -ible → 没法相信的 → 难以置信的",
+      "origin": "拉丁语 incredibilis：in-（不）+ credere（相信）",
+      "native_definition": "too extraordinary to be believed, or extremely good",
+      "core_concept": "beyond what one can believe – 超出能相信的范围",
+      "core_image": "听完只想再问一遍：真是这样？",
+      "chinese": [
+        "难以置信的",
+        "极好的"
+      ],
+      "examples": [
+        "The story sounds incredible.",
+        "She did an incredible job."
+      ],
+      "synonyms": [
+        "unbelievable",
+        "amazing"
+      ],
+      "antonyms": [
+        "credible"
+      ],
+      "related": [
+        "credible",
+        "credit",
+        "credibility"
+      ],
+      "semantic_expansions": [
+        "难以置信的：超出能相信的范围",
+        "极好的：好到让人不敢信。同一个'信不过来'，一个是怀疑一个是赞叹"
+      ]
+    },
+    {
+      "id": "credibility",
+      "word": "credibility",
+      "pos": "noun",
+      "phonetic": "/ˌkredəˈbɪləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "credere"
+      ],
+      "root_logic": "credible（可信的）+ -ity（名词）→ 值得被相信的那个程度 → 可信度",
+      "origin": "拉丁语 credibilis（可信的）← credere（相信）",
+      "native_definition": "the quality of being believed or trusted",
+      "core_concept": "how far one can be believed – 值得被相信到什么程度",
+      "core_image": "过去说过的话都兑现了，这次说的也就有人听",
+      "chinese": [
+        "可信度",
+        "公信力"
+      ],
+      "examples": [
+        "The scandal damaged his credibility.",
+        "The report lends credibility to the claim."
+      ],
+      "synonyms": [
+        "trustworthiness"
+      ],
+      "antonyms": [],
+      "related": [
+        "credible",
+        "credit",
+        "incredible"
+      ],
+      "semantic_expansions": [
+        "可信度与公信力：都是'值得被相信的程度'，一个对个人一个对机构"
+      ]
+    },
+    {
+      "id": "grace",
+      "word": "grace",
+      "pos": "noun",
+      "phonetic": "/ɡreɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "grat（讨喜、恩惠）本身即词根，无词缀 → 白给的好意，或看着讨喜的那份从容",
+      "recall_hint": "grat（讨喜、恩惠）本身即词根 → 白给的那份好意；也指举止看着讨喜的那种从容",
+      "origin": "拉丁语 gratia（恩惠、讨喜）← gratus（受欢迎的）",
+      "native_definition": "smooth elegance of movement, or favour freely given",
+      "core_concept": "something pleasing that is freely given – 白白给出的那份讨喜",
+      "core_image": "舞者转身时没有一处使劲的痕迹，看着毫不费力",
+      "chinese": [
+        "优雅",
+        "恩惠",
+        "宽限"
+      ],
+      "examples": [
+        "She moved with great grace.",
+        "They were given three days' grace to pay."
+      ],
+      "synonyms": [
+        "elegance",
+        "favour"
+      ],
+      "antonyms": [],
+      "related": [
+        "graceful",
+        "gracious",
+        "disgrace",
+        "grateful"
+      ],
+      "semantic_expansions": [
+        "优雅：举止讨喜、不见吃力",
+        "恩惠/宽限：白给的那份好意。同一个'讨喜而白给'，一个在举止一个在待人"
+      ]
+    },
+    {
+      "id": "graceful",
+      "word": "graceful",
+      "pos": "adjective",
+      "phonetic": "/ˈɡreɪsfl/",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "grace（讨喜的从容）+ -ful（充满…的）→ 处处见从容的 → 优雅的",
+      "origin": "拉丁语 gratia（讨喜）+ 英语 -ful",
+      "native_definition": "moving or shaped in a smooth and attractive way",
+      "core_concept": "full of ease that pleases the eye – 通身是那种看着舒服的从容",
+      "core_image": "鹤落地时翅膀慢慢收拢，没有一下是急的",
+      "chinese": [
+        "优雅的",
+        "得体的"
+      ],
+      "examples": [
+        "She made a graceful exit.",
+        "The bridge has a graceful curve."
+      ],
+      "synonyms": [
+        "elegant",
+        "smooth"
+      ],
+      "antonyms": [
+        "awkward"
+      ],
+      "related": [
+        "grace",
+        "gracious",
+        "disgrace",
+        "grateful"
+      ],
+      "semantic_expansions": [
+        "优雅的：举止通身从容",
+        "得体的（退场）：处理得让人无从指摘。同一个'见从容'，一个说姿态一个说分寸"
+      ]
+    },
+    {
+      "id": "gracious",
+      "word": "gracious",
+      "pos": "adjective",
+      "phonetic": "/ˈɡreɪʃəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "grac（恩惠）+ -ious（…的）→ 惯于给人好意的 → 亲切的",
+      "origin": "拉丁语 gratiosus：gratia（恩惠）",
+      "native_definition": "kind and polite, especially to those of lower rank",
+      "core_concept": "ready to grant favour to others – 惯于把好意给出去",
+      "core_image": "主人亲自把客人送到门口，还替他挡了下风",
+      "chinese": [
+        "亲切的",
+        "宽厚的",
+        "优美的"
+      ],
+      "examples": [
+        "She was gracious in defeat.",
+        "Thank you for your gracious hospitality."
+      ],
+      "synonyms": [
+        "kind",
+        "courteous"
+      ],
+      "antonyms": [],
+      "related": [
+        "grace",
+        "graceful",
+        "disgrace",
+        "grateful"
+      ],
+      "semantic_expansions": [
+        "亲切的/宽厚的：惯于把好意给出去",
+        "优美的（居所）：处处见体贴与从容。同一个'施予讨喜'，一个对人一个对物"
+      ]
+    },
+    {
+      "id": "disgrace",
+      "word": "disgrace",
+      "pos": "noun",
+      "phonetic": "/dɪsˈɡreɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "dis-（去除）+ grace（讨喜、体面）→ 讨喜和体面全没了 → 耻辱",
+      "origin": "拉丁语 dis-（去除）+ gratia（讨喜、恩宠）",
+      "native_definition": "loss of respect because of bad behaviour, or someone causing such loss",
+      "core_concept": "having lost all favour – 好意与体面被剥掉之后的状态",
+      "core_image": "从前替他说话的人现在都不出声了",
+      "chinese": [
+        "耻辱",
+        "丢脸",
+        "败坏名声"
+      ],
+      "examples": [
+        "He resigned in disgrace.",
+        "Their treatment of workers is a disgrace."
+      ],
+      "synonyms": [
+        "shame",
+        "dishonour"
+      ],
+      "antonyms": [
+        "honor"
+      ],
+      "related": [
+        "grace",
+        "graceful",
+        "gracious",
+        "grateful"
+      ],
+      "semantic_expansions": [
+        "耻辱/丢脸：体面被剥掉后的状态",
+        "败坏名声（动词）：使人失去体面。同一个'讨喜尽失'，一个是结果一个是致因"
+      ]
+    },
+    {
+      "id": "grateful",
+      "word": "grateful",
+      "pos": "adjective",
+      "phonetic": "/ˈɡreɪtfl/",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "grat（受了恩惠）+ -ful（充满…的）→ 心里记着那份好意的 → 感激的",
+      "origin": "拉丁语 gratus（受欢迎的、心怀感谢的）+ 英语 -ful",
+      "native_definition": "feeling thankful for something someone has done",
+      "core_concept": "holding on to a favour received – 心里存着受过的那份好意",
+      "core_image": "对方帮完就走了，这边一直记着这件事",
+      "chinese": [
+        "感激的",
+        "感谢的"
+      ],
+      "examples": [
+        "I am grateful for your help.",
+        "She wrote a grateful note."
+      ],
+      "synonyms": [
+        "thankful",
+        "appreciative"
+      ],
+      "antonyms": [
+        "ungrateful"
+      ],
+      "related": [
+        "grace",
+        "gracious",
+        "graceful",
+        "disgrace"
+      ],
+      "semantic_expansions": [
+        "感激的与感谢的：都是'心里存着受过的好意'，中文按程度分了两个词"
+      ]
+    },
+    {
+      "id": "appreciate",
+      "word": "appreciate",
+      "pos": "verb",
+      "phonetic": "/əˈpriːʃieɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pretium"
+      ],
+      "root_logic": "ap-（ad- 的变体，朝向）+ preci（价值）+ -ate → 看出它值多少 → 赏识；引申为价值往上走 → 增值",
+      "recall_hint": "ap-（朝向）+ preci（价值）+ -ate → 看出它值多少：可以是欣赏，也可以是道谢，也可以是价格自己往上走",
+      "origin": "拉丁语 appretiare：ad-（朝向）+ pretium（价格、价值）",
+      "native_definition": "to recognize the value of something, to be thankful, or to rise in value",
+      "core_concept": "seeing what something is worth – 看出它的分量与价值",
+      "core_image": "行家拿起那只碗翻看底款，说出它值多少",
+      "chinese": [
+        "赏识",
+        "感谢",
+        "增值"
+      ],
+      "examples": [
+        "I appreciate your patience.",
+        "The house has appreciated since 2020."
+      ],
+      "synonyms": [
+        "value",
+        "recognize"
+      ],
+      "antonyms": [],
+      "related": [
+        "price",
+        "precious",
+        "grateful"
+      ],
+      "semantic_expansions": [
+        "赏识：看出它的价值",
+        "感谢：看出对方所做的分量",
+        "增值：价值本身往上走。三义共享'认到价值'，一个看物一个看情一个看价"
+      ]
+    },
+    {
+      "id": "precious",
+      "word": "precious",
+      "pos": "adjective",
+      "phonetic": "/ˈpreʃəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "pretium"
+      ],
+      "root_logic": "preci（价值、价格）+ -ous（…的）→ 值大价钱的 → 珍贵的",
+      "origin": "拉丁语 pretiosus：pretium（价格、价值）",
+      "native_definition": "of great value, or much loved",
+      "core_concept": "carrying a high worth – 分量重、值大价钱",
+      "core_image": "小盒子用绒布垫着，取的时候两只手一起捧",
+      "chinese": [
+        "珍贵的",
+        "宝贵的"
+      ],
+      "examples": [
+        "Water is precious in the desert.",
+        "These letters are precious to her."
+      ],
+      "synonyms": [
+        "valuable",
+        "treasured"
+      ],
+      "antonyms": [
+        "worthless"
+      ],
+      "related": [
+        "appreciate",
+        "price"
+      ],
+      "semantic_expansions": [
+        "珍贵的与宝贵的：都是'分量重、值大价钱'，中文一个偏物一个可偏情"
+      ]
+    },
+    {
+      "id": "price",
+      "word": "price",
+      "pos": "noun",
+      "phonetic": "/praɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "pretium"
+      ],
+      "root_logic": "pretium（价格）本身即词根，无词缀 → 换取它所要付出的那个数",
+      "origin": "拉丁语 pretium（价格、代价）经古法语 pris 进入英语",
+      "native_definition": "the amount of money needed to buy something, or what must be given up",
+      "core_concept": "what must be handed over to get it – 要拿到它必须付出的那一份",
+      "core_image": "标签上那个数字，付了才能把东西拿走",
+      "chinese": [
+        "价格",
+        "代价"
+      ],
+      "examples": [
+        "The price has doubled since spring.",
+        "He won, but at a heavy price."
+      ],
+      "synonyms": [
+        "cost",
+        "charge"
+      ],
+      "antonyms": [],
+      "related": [
+        "precious",
+        "appreciate"
+      ],
+      "semantic_expansions": [
+        "价格：换取它要付的钱数",
+        "代价：换取它要付出的其他东西。同一个'必须交出的那一份'，付的是钱还是别的"
+      ]
+    }
+  ]
+}
