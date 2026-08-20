@@ -415,7 +415,8 @@
         "projector",
         "reject",
         "subject",
-        "subjective"
+        "subjective",
+        "adjective"
       ]
     },
     {
@@ -451,7 +452,9 @@
         "impart",
         "part",
         "partial",
-        "partly"
+        "partly",
+        "compartment",
+        "counterpart"
       ]
     },
     {
@@ -469,7 +472,8 @@
         "finally",
         "finish",
         "finite",
-        "infinite"
+        "infinite",
+        "finance"
       ]
     },
     {
@@ -607,7 +611,8 @@
         "direct",
         "directly",
         "director",
-        "rectify"
+        "rectify",
+        "directory"
       ]
     },
     {
@@ -788,7 +793,8 @@
         "competent",
         "competition",
         "petition",
-        "repetition"
+        "repetition",
+        "perpetual"
       ]
     },
     {
@@ -1849,6 +1855,119 @@
         "graph",
         "graphic",
         "paragraph"
+      ]
+    },
+    {
+      "id": "concept-notare-mark",
+      "concept": "to make a mark so something stands out",
+      "chinese": "做记号标注",
+      "core_image": "物品被画上记号而从同类中被认出",
+      "root_ids": [
+        "notare"
+      ],
+      "word_ids": [
+        "notable",
+        "notify",
+        "notion",
+        "notorious"
+      ]
+    },
+    {
+      "id": "concept-operari-work",
+      "concept": "to work / systems turned to produce a result",
+      "chinese": "运作劳作",
+      "core_image": "部件被组装并推动，系统开始产出结果",
+      "root_ids": [
+        "operari"
+      ],
+      "word_ids": [
+        "operate",
+        "operation",
+        "operational"
+      ]
+    },
+    {
+      "id": "concept-dignus-worthy",
+      "concept": "worthy of respect",
+      "chinese": "配得上尊重",
+      "core_image": "天平一端是成就，一端放着配得上的荣誉",
+      "root_ids": [
+        "dignus"
+      ],
+      "word_ids": [
+        "dignity",
+        "indignant",
+        "indignation"
+      ]
+    },
+    {
+      "id": "concept-ordinare-order",
+      "concept": "to arrange into an ordered line",
+      "chinese": "排列成序",
+      "core_image": "散乱物品被排成前后位置分明的纵列",
+      "root_ids": [
+        "ordinare"
+      ],
+      "word_ids": [
+        "coordinate",
+        "ordinary",
+        "subordinate"
+      ]
+    },
+    {
+      "id": "concept-solidus-whole",
+      "concept": "firm and without hollows",
+      "chinese": "坚实完整",
+      "core_image": "无空洞的厚实材料，按压纹丝不动",
+      "root_ids": [
+        "solidus"
+      ],
+      "word_ids": [
+        "consolidate",
+        "solid",
+        "solidarity"
+      ]
+    },
+    {
+      "id": "concept-terrere-fear",
+      "concept": "to fill with overpowering fear",
+      "chinese": "令人惊惧",
+      "core_image": "巨大威胁逼近，人被镇住难以动弹",
+      "root_ids": [
+        "terrere"
+      ],
+      "word_ids": [
+        "terrible",
+        "terrify",
+        "terror"
+      ]
+    },
+    {
+      "id": "concept-rumpere-break",
+      "concept": "to break apart suddenly",
+      "chinese": "猛然断裂",
+      "core_image": "绷紧的绳索从中间突然断开",
+      "root_ids": [
+        "rumpere"
+      ],
+      "word_ids": [
+        "abrupt",
+        "corrupt",
+        "disrupt"
+      ]
+    },
+    {
+      "id": "concept-summa-total",
+      "concept": "the total at the top of a stack",
+      "chinese": "总顶合计",
+      "core_image": "众多小量叠起，顶端立着代表全部的总量",
+      "root_ids": [
+        "summa"
+      ],
+      "word_ids": [
+        "sum",
+        "summarize",
+        "summary"
       ]
     }
   ]

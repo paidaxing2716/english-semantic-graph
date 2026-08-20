@@ -8694,6 +8694,440 @@
       "text": "She felt exquisite pain in her hand.",
       "source": "AI 生成 · 人工审核",
       "scene": "许多近似样品中，一件细节最完美的被单独取出"
+    },
+    {
+      "id": "ex-notable-1",
+      "word_id": "notable",
+      "text": "The meeting produced a notable breakthrough.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人群中一个身影被光标单独圈出，让人记住"
+    },
+    {
+      "id": "ex-notable-2",
+      "word_id": "notable",
+      "text": "She is a notable figure in the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人群中一个身影被光标单独圈出，让人记住"
+    },
+    {
+      "id": "ex-notify-1",
+      "word_id": "notify",
+      "text": "Please notify us of any change of address.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一封盖着红印章的通知被递到收件人手上"
+    },
+    {
+      "id": "ex-notify-2",
+      "word_id": "notify",
+      "text": "The system notifies users of updates.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一封盖着红印章的通知被递到收件人手上"
+    },
+    {
+      "id": "ex-notion-1",
+      "word_id": "notion",
+      "text": "She rejected the notion of fate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个念头像发光的标签在脑海里亮起"
+    },
+    {
+      "id": "ex-notion-2",
+      "word_id": "notion",
+      "text": "I have no notion of what he means.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个念头像发光的标签在脑海里亮起"
+    },
+    {
+      "id": "ex-notorious-1",
+      "word_id": "notorious",
+      "text": "The city is notorious for traffic jams.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋建筑的名字反复出现在负面报道的标题上"
+    },
+    {
+      "id": "ex-notorious-2",
+      "word_id": "notorious",
+      "text": "He is a notorious liar.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋建筑的名字反复出现在负面报道的标题上"
+    },
+    {
+      "id": "ex-operate-1",
+      "word_id": "operate",
+      "text": "She operates the crane safely.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "驾驶舱里的手推动手柄，整台装置随之启动运转"
+    },
+    {
+      "id": "ex-operate-2",
+      "word_id": "operate",
+      "text": "The hospital operates a 24-hour clinic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "驾驶舱里的手推动手柄，整台装置随之启动运转"
+    },
+    {
+      "id": "ex-operation-1",
+      "word_id": "operation",
+      "text": "The new line is now in operation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一套流程启动，从投入逐步走到产出"
+    },
+    {
+      "id": "ex-operation-2",
+      "word_id": "operation",
+      "text": "The patient was prepared for operation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一套流程启动，从投入逐步走到产出"
+    },
+    {
+      "id": "ex-operational-1",
+      "word_id": "operational",
+      "text": "The plant is fully operational again.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指示灯亮起，表示整套系统已就绪可运转"
+    },
+    {
+      "id": "ex-operational-2",
+      "word_id": "operational",
+      "text": "We need an operational plan for the launch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指示灯亮起，表示整套系统已就绪可运转"
+    },
+    {
+      "id": "ex-dignity-1",
+      "word_id": "dignity",
+      "text": "She faced the crowd with dignity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人挺直站立，肩头托着的重量与所得尊重相称"
+    },
+    {
+      "id": "ex-dignity-2",
+      "word_id": "dignity",
+      "text": "Every person deserves to be treated with dignity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人挺直站立，肩头托着的重量与所得尊重相称"
+    },
+    {
+      "id": "ex-indignant-1",
+      "word_id": "indignant",
+      "text": "She was indignant at the false accusation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人自认高出所受待遇，胸口腾起不平之气"
+    },
+    {
+      "id": "ex-indignant-2",
+      "word_id": "indignant",
+      "text": "Citizens grew indignant over the unfair tax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人自认高出所受待遇，胸口腾起不平之气"
+    },
+    {
+      "id": "ex-indignation-1",
+      "word_id": "indignation",
+      "text": "The unfair dismissal caused general indignation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "被轻视者胸口涌起的怒火几乎可见"
+    },
+    {
+      "id": "ex-indignation-2",
+      "word_id": "indignation",
+      "text": "He reported the news with indignation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "被轻视者胸口涌起的怒火几乎可见"
+    },
+    {
+      "id": "ex-ordinary-1",
+      "word_id": "ordinary",
+      "text": "In an ordinary year we plant in spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一摞日用品按平常位置摆放，没有任何特别标记"
+    },
+    {
+      "id": "ex-ordinary-2",
+      "word_id": "ordinary",
+      "text": "The film turned an ordinary story into something moving.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一摞日用品按平常位置摆放，没有任何特别标记"
+    },
+    {
+      "id": "ex-coordinate-1",
+      "word_id": "coordinate",
+      "text": "She coordinates the volunteers across three sites.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个团队接到同一张时间表，动作因此合到同一节奏"
+    },
+    {
+      "id": "ex-coordinate-2",
+      "word_id": "coordinate",
+      "text": "The rescue teams coordinated their efforts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个团队接到同一张时间表，动作因此合到同一节奏"
+    },
+    {
+      "id": "ex-subordinate-1",
+      "word_id": "subordinate",
+      "text": "The chief delegate delegated tasks to her subordinates.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一人站在阶梯较下一级，听命于更高位置者的安排"
+    },
+    {
+      "id": "ex-subordinate-2",
+      "word_id": "subordinate",
+      "text": "Safety is subordinate to the deadline in his logic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一人站在阶梯较下一级，听命于更高位置者的安排"
+    },
+    {
+      "id": "ex-solid-1",
+      "word_id": "solid",
+      "text": "The table is made of solid oak.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块整木被重物压住仍棱角分明，没有变形"
+    },
+    {
+      "id": "ex-solid-2",
+      "word_id": "solid",
+      "text": "The proposal rests on solid evidence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块整木被重物压住仍棱角分明，没有变形"
+    },
+    {
+      "id": "ex-consolidate-1",
+      "word_id": "consolidate",
+      "text": "The firm consolidated several departments.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几处松散的土堆被压成一片结实的路基"
+    },
+    {
+      "id": "ex-consolidate-2",
+      "word_id": "consolidate",
+      "text": "Sleep helps consolidate memory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几处松散的土堆被压成一片结实的路基"
+    },
+    {
+      "id": "ex-solidarity-1",
+      "word_id": "solidarity",
+      "text": "Workers showed solidarity during the strike.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多人并肩站成一面墙，一人受力众人都顶住"
+    },
+    {
+      "id": "ex-solidarity-2",
+      "word_id": "solidarity",
+      "text": "We stand in solidarity with the community.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多人并肩站成一面墙，一人受力众人都顶住"
+    },
+    {
+      "id": "ex-terrible-1",
+      "word_id": "terrible",
+      "text": "The storm caused terrible damage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一场灾难的场面铺满视野，任何抵抗都显得无力"
+    },
+    {
+      "id": "ex-terrible-2",
+      "word_id": "terrible",
+      "text": "I had a terrible night's sleep.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一场灾难的场面铺满视野，任何抵抗都显得无力"
+    },
+    {
+      "id": "ex-terrify-1",
+      "word_id": "terrify",
+      "text": "The loud bang terrified the child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑影从角落逼近，被看者瞬间屏住呼吸"
+    },
+    {
+      "id": "ex-terrify-2",
+      "word_id": "terrify",
+      "text": "She was terrified of heights.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑影从角落逼近，被看者瞬间屏住呼吸"
+    },
+    {
+      "id": "ex-terror-1",
+      "word_id": "terror",
+      "text": "The crowd fled in terror.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "城市突然笼罩在一种让人无法入睡的惊恐中"
+    },
+    {
+      "id": "ex-terror-2",
+      "word_id": "terror",
+      "text": "The group used terror to control the town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "城市突然笼罩在一种让人无法入睡的惊恐中"
+    },
+    {
+      "id": "ex-disrupt-1",
+      "word_id": "disrupt",
+      "text": "Flights were disrupted by the storm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "正在亮起的长串灯忽然断掉几盏，节奏被打乱"
+    },
+    {
+      "id": "ex-disrupt-2",
+      "word_id": "disrupt",
+      "text": "The protest disrupted traffic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "正在亮起的长串灯忽然断掉几盏，节奏被打乱"
+    },
+    {
+      "id": "ex-abrupt-1",
+      "word_id": "abrupt",
+      "text": "The meeting came to an abrupt end.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条平整的山路走到底突然断成悬崖边缘"
+    },
+    {
+      "id": "ex-abrupt-2",
+      "word_id": "abrupt",
+      "text": "His tone was abrupt and cold.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条平整的山路走到底突然断成悬崖边缘"
+    },
+    {
+      "id": "ex-corrupt-1",
+      "word_id": "corrupt",
+      "text": "Corrupt officials were removed from office.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本明亮的证书被墨渍和篡改弄得形状歪曲"
+    },
+    {
+      "id": "ex-corrupt-2",
+      "word_id": "corrupt",
+      "text": "The file was corrupt and could not be opened.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本明亮的证书被墨渍和篡改弄得形状歪曲"
+    },
+    {
+      "id": "ex-sum-1",
+      "word_id": "sum",
+      "text": "The sum of the parts equals the whole.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一叠小账单被整齐相加，顶端得出一个总金额"
+    },
+    {
+      "id": "ex-sum-2",
+      "word_id": "sum",
+      "text": "He paid a large sum for the house.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一叠小账单被整齐相加，顶端得出一个总金额"
+    },
+    {
+      "id": "ex-summarize-1",
+      "word_id": "summarize",
+      "text": "Summarize the key findings in two sentences.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "成堆文字被压成一行要点，整齐排在顶部"
+    },
+    {
+      "id": "ex-summarize-2",
+      "word_id": "summarize",
+      "text": "The report summarizes five years of data.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "成堆文字被压成一行要点，整齐排在顶部"
+    },
+    {
+      "id": "ex-summary-1",
+      "word_id": "summary",
+      "text": "Each chapter ends with a summary.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一本书的末页浓缩了全部章节的要点"
+    },
+    {
+      "id": "ex-summary-2",
+      "word_id": "summary",
+      "text": "She gave a brief summary of the case.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一本书的末页浓缩了全部章节的要点"
+    },
+    {
+      "id": "ex-finance-1",
+      "word_id": "finance",
+      "text": "She studied finance at university.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张建造计划下方垫着一层资金，支撑它进行到完工"
+    },
+    {
+      "id": "ex-finance-2",
+      "word_id": "finance",
+      "text": "The project needs public finance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张建造计划下方垫着一层资金，支撑它进行到完工"
+    },
+    {
+      "id": "ex-compartment-1",
+      "word_id": "compartment",
+      "text": "The fridge has a separate compartment for vegetables.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "列车长椅上方被隔板分成一个个独立空间"
+    },
+    {
+      "id": "ex-compartment-2",
+      "word_id": "compartment",
+      "text": "Her bag has a hidden compartment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "列车长椅上方被隔板分成一个个独立空间"
+    },
+    {
+      "id": "ex-counterpart-1",
+      "word_id": "counterpart",
+      "text": "The US secretary met his British counterpart.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "谈判桌两边各坐一人，职位一一对应"
+    },
+    {
+      "id": "ex-counterpart-2",
+      "word_id": "counterpart",
+      "text": "This gear is the counterpart of that one.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "谈判桌两边各坐一人，职位一一对应"
+    },
+    {
+      "id": "ex-perpetual-1",
+      "word_id": "perpetual",
+      "text": "The clock is driven by a near-perpetual motion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条线向前延展到望不见尽头的位置"
+    },
+    {
+      "id": "ex-perpetual-2",
+      "word_id": "perpetual",
+      "text": "He complained about the perpetual noise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条线向前延展到望不见尽头的位置"
+    },
+    {
+      "id": "ex-adjective-1",
+      "word_id": "adjective",
+      "text": "In English, adjectives usually precede the noun.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "“blue”被放到“sky”旁边，天空的颜色就此明确"
+    },
+    {
+      "id": "ex-adjective-2",
+      "word_id": "adjective",
+      "text": "The adjective modifies the noun.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "“blue”被放到“sky”旁边，天空的颜色就此明确"
+    },
+    {
+      "id": "ex-directory-1",
+      "word_id": "directory",
+      "text": "Please check the directory for the extension.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大厅里的名册按姓氏排列，一翻就能指向对应房间"
+    },
+    {
+      "id": "ex-directory-2",
+      "word_id": "directory",
+      "text": "Save the file into a new directory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大厅里的名册按姓氏排列，一翻就能指向对应房间"
     }
   ]
 }

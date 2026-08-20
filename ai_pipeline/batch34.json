@@ -1,0 +1,1397 @@
+{
+  "roots": [
+    {
+      "id": "notare",
+      "root": "notare",
+      "variants": [
+        "not"
+      ],
+      "origin": "拉丁语 notare（做记号、标注），来自 nota（记号、符号）",
+      "core_concept": "to mark something so it stands out / 给东西做记号让它突出",
+      "core_image": "一只手在一件物品上画下记号，使它从同类中被认出来",
+      "english_definition": "to mark, note",
+      "word_ids": []
+    },
+    {
+      "id": "operari",
+      "root": "operari",
+      "variants": [
+        "oper"
+      ],
+      "origin": "拉丁语 operari（劳作、从事工作），来自 opus（工作、作品）",
+      "core_concept": "to work, to put effort into function / 让各部分投入运作",
+      "core_image": "一双手把部件组合起来并推动，整台系统开始产出结果",
+      "english_definition": "to work, function, labor",
+      "word_ids": []
+    },
+    {
+      "id": "dignus",
+      "root": "dignus",
+      "variants": [
+        "dign"
+      ],
+      "origin": "拉丁语 dignus（值得的、配得上的），dignitas（尊严、地位）",
+      "core_concept": "to be worthy of respect / 一件事或一个人够得上尊重",
+      "core_image": "一杆天平，一端是一张面孔或一份成就，另一端放着配得上的荣誉",
+      "english_definition": "worthy, deserving",
+      "word_ids": []
+    },
+    {
+      "id": "ordinare",
+      "root": "ordinare",
+      "variants": [
+        "ordin",
+        "ord"
+      ],
+      "origin": "拉丁语 ordinare（排列成序、安排），来自 ordo（次序、行列）",
+      "core_concept": "to lay things out in a sequence / 把事物排成前后有别的次序",
+      "core_image": "散乱的物品被一个接一个排成纵列，前后位置分明",
+      "english_definition": "to arrange in order, set in a row",
+      "word_ids": []
+    },
+    {
+      "id": "solidus",
+      "root": "solidus",
+      "variants": [
+        "solid"
+      ],
+      "origin": "拉丁语 solidus（坚实、密实的，无空隙的整体）",
+      "core_concept": "firm and whole, no hollows / 坚实完整、没有空隙",
+      "core_image": "一块厚实的材料，用手按压纹丝不动，内部没有空洞",
+      "english_definition": "solid, firm, dense",
+      "word_ids": []
+    },
+    {
+      "id": "terrere",
+      "root": "terrere",
+      "variants": [
+        "terr"
+      ],
+      "origin": "拉丁语 terrere（使惊惧、吓住）",
+      "core_concept": "to fill with a numbing fear / 用巨大的恐惧把人震住",
+      "core_image": "黑浪朝人涌来，一瞬间呼吸和动作都被镇住",
+      "english_definition": "to frighten, terrify",
+      "word_ids": []
+    },
+    {
+      "id": "rumpere",
+      "root": "rumpere",
+      "variants": [
+        "rupt",
+        "rum"
+      ],
+      "origin": "拉丁语 rumpere（打断、断裂）及其过去分词 ruptus",
+      "core_concept": "to break apart suddenly / 使完整的东西猛然断裂",
+      "core_image": "一根绷紧的绳索突然从中间断开，两端弹开",
+      "english_definition": "to break, burst apart",
+      "word_ids": []
+    },
+    {
+      "id": "summa",
+      "root": "summa",
+      "variants": [
+        "sum"
+      ],
+      "origin": "拉丁语 summa（顶端、总数），来自 summus（最高的）",
+      "core_concept": "the topmost point, then the total that tops up a whole / 最高处，也指汇聚成顶点的总和",
+      "core_image": "一枚枚更小的量被叠起来，最高处立着一个代表全部的顶端",
+      "english_definition": "top, total, sum",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-notare-mark",
+      "concept": "to make a mark so something stands out",
+      "chinese": "做记号标注",
+      "core_image": "物品被画上记号而从同类中被认出",
+      "root_ids": [
+        "notare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-operari-work",
+      "concept": "to work / systems turned to produce a result",
+      "chinese": "运作劳作",
+      "core_image": "部件被组装并推动，系统开始产出结果",
+      "root_ids": [
+        "operari"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-dignus-worthy",
+      "concept": "worthy of respect",
+      "chinese": "配得上尊重",
+      "core_image": "天平一端是成就，一端放着配得上的荣誉",
+      "root_ids": [
+        "dignus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-ordinare-order",
+      "concept": "to arrange into an ordered line",
+      "chinese": "排列成序",
+      "core_image": "散乱物品被排成前后位置分明的纵列",
+      "root_ids": [
+        "ordinare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-solidus-whole",
+      "concept": "firm and without hollows",
+      "chinese": "坚实完整",
+      "core_image": "无空洞的厚实材料，按压纹丝不动",
+      "root_ids": [
+        "solidus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-terrere-fear",
+      "concept": "to fill with overpowering fear",
+      "chinese": "令人惊惧",
+      "core_image": "巨大威胁逼近，人被镇住难以动弹",
+      "root_ids": [
+        "terrere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-rumpere-break",
+      "concept": "to break apart suddenly",
+      "chinese": "猛然断裂",
+      "core_image": "绷紧的绳索从中间突然断开",
+      "root_ids": [
+        "rumpere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-summa-total",
+      "concept": "the total at the top of a stack",
+      "chinese": "总顶合计",
+      "core_image": "众多小量叠起，顶端立着代表全部的总量",
+      "root_ids": [
+        "summa"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": [
+      "notare"
+    ],
+    "domain-make": [
+      "operari"
+    ],
+    "domain-force": [
+      "dignus",
+      "terrere",
+      "rumpere"
+    ],
+    "domain-shape": [
+      "ordinare",
+      "summa"
+    ],
+    "domain-hold": [
+      "solidus"
+    ]
+  },
+  "words": [
+    {
+      "id": "notable",
+      "word": "notable",
+      "pos": "adjective",
+      "phonetic": "/ˈnəʊtəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "notare"
+      ],
+      "root_logic": "not（做记号）+ -able → 值得被单独做记号记下的",
+      "origin": "拉丁语 notabilis（值得注意的），来自 notare（做记号）",
+      "native_definition": "worthy of attention or being remembered",
+      "core_concept": "marked out enough to be worth special notice – 被特别标注出来、值得关注的",
+      "core_image": "人群中一个身影被光标单独圈出，让人记住",
+      "chinese": [
+        "值得注意的",
+        "显著的",
+        "著名的"
+      ],
+      "examples": [
+        "The meeting produced a notable breakthrough.",
+        "She is a notable figure in the field."
+      ],
+      "synonyms": [
+        "remarkable",
+        "prominent"
+      ],
+      "antonyms": [
+        "ordinary"
+      ],
+      "related": [
+        "notify",
+        "notion",
+        "notorious"
+      ],
+      "semantic_expansions": [
+        "值得注意的/显著的：重要到值得单独做记号",
+        "著名的：因突出而被众人记住"
+      ]
+    },
+    {
+      "id": "notify",
+      "word": "notify",
+      "pos": "verb",
+      "phonetic": "/ˈnəʊtɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "notare"
+      ],
+      "root_logic": "not（记号）+ -ify（使）→ 把一个记号/消息送到某人面前让他知道",
+      "origin": "晚期拉丁语 notificare（使知道），来自 notare＋facere",
+      "native_definition": "to formally tell someone about something",
+      "core_concept": "bringing a marked message to someone so it becomes known – 把做了记号的信息送到某人眼前",
+      "core_image": "一封盖着红印章、写着明确消息的信被递到收件人手上",
+      "chinese": [
+        "通知",
+        "告知"
+      ],
+      "examples": [
+        "Please notify us of any change of address.",
+        "The system notifies users of updates."
+      ],
+      "synonyms": [
+        "inform",
+        "alert"
+      ],
+      "antonyms": [
+        "conceal"
+      ],
+      "related": [
+        "notable",
+        "notion",
+        "notorious"
+      ],
+      "semantic_expansions": [
+        "通知/告知：把信息正式送到某人面前使其知晓"
+      ]
+    },
+    {
+      "id": "notion",
+      "word": "notion",
+      "pos": "noun",
+      "phonetic": "/ˈnəʊʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "notare"
+      ],
+      "root_logic": "not（记号）+ -ion → 心中形成的记号，即一个想法或概念",
+      "origin": "拉丁语 notio（认识、概念），来自 notus（知道的）",
+      "native_definition": "an idea, belief, or vague understanding",
+      "core_concept": "a mark formed in the mind that stands for an idea – 在脑中成形的、代表某个想法的记号",
+      "core_image": "一个念头像发光的标签在脑海里亮起",
+      "chinese": [
+        "概念",
+        "观念",
+        "想法"
+      ],
+      "examples": [
+        "She rejected the notion of fate.",
+        "I have no notion of what he means."
+      ],
+      "synonyms": [
+        "idea",
+        "belief"
+      ],
+      "antonyms": [
+        "reality"
+      ],
+      "related": [
+        "notable",
+        "notify",
+        "notorious"
+      ],
+      "semantic_expansions": [
+        "概念/观念：心中代表某种理解而成立的记号",
+        "想法：脑中浮现的、尚未成形的认识"
+      ]
+    },
+    {
+      "id": "notorious",
+      "word": "notorious",
+      "pos": "adjective",
+      "phonetic": "/nəʊˈtɔːriəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "notare"
+      ],
+      "root_logic": "not（记号）+ -orious → 被广泛做了记号、名声传开的（多带贬义）",
+      "origin": "中世纪拉丁语 notorius（尽人皆知的），来自 notus（被知道的）",
+      "native_definition": "famous for something bad",
+      "core_concept": "marked so widely that everyone knows the name – 被处处标注、名声尽人皆知",
+      "core_image": "一栋建筑的名字反复出现在负面报道的标题上",
+      "chinese": [
+        "臭名昭著的",
+        "声名狼藉的"
+      ],
+      "examples": [
+        "The city is notorious for traffic jams.",
+        "He is a notorious liar."
+      ],
+      "synonyms": [
+        "infamous",
+        "ill-famed"
+      ],
+      "antonyms": [
+        "respected"
+      ],
+      "related": [
+        "notable",
+        "notify",
+        "notion"
+      ],
+      "semantic_expansions": [
+        "臭名昭著的：因负面事情名声广为人知"
+      ]
+    },
+    {
+      "id": "operate",
+      "word": "operate",
+      "pos": "verb",
+      "phonetic": "/ˈɒpəreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "operari"
+      ],
+      "root_logic": "oper（工作）+ -ate → 让机器或组织进入工作状态",
+      "origin": "拉丁语 operatus，来自 operari（劳作、工作）",
+      "native_definition": "to control a machine, run a system, or be in working condition",
+      "core_concept": "bringing parts together so a whole begins producing work – 让各部分配合开始产出结果",
+      "core_image": "驾驶舱里的手推动手柄，整台装置随之启动",
+      "chinese": [
+        "操作",
+        "运转",
+        "经营"
+      ],
+      "examples": [
+        "She operates the crane safely.",
+        "The hospital operates a 24-hour clinic."
+      ],
+      "synonyms": [
+        "run",
+        "control"
+      ],
+      "antonyms": [
+        "stop"
+      ],
+      "related": [
+        "operation",
+        "operational"
+      ],
+      "semantic_expansions": [
+        "操作：控制机器使其按规程工作",
+        "运转/经营：系统或组织持续发挥功能"
+      ]
+    },
+    {
+      "id": "operation",
+      "word": "operation",
+      "pos": "noun",
+      "phonetic": "/ˌɒpəˈreɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "operari"
+      ],
+      "root_logic": "oper（工作）+ -ation → 使系统工作的过程、活动或手术",
+      "origin": "拉丁语 operatio（劳作、活动），来自 operari",
+      "native_definition": "the process of working, an organized action, or a medical procedure",
+      "core_concept": "getting parts to cooperate and produce, including the body during surgery – 让部件配合产出结果的一次过程",
+      "core_image": "一套流程启动，从投入逐步走到产出",
+      "chinese": [
+        "操作",
+        "运作",
+        "手术"
+      ],
+      "examples": [
+        "The new line is now in operation.",
+        "The patient was prepared for operation."
+      ],
+      "synonyms": [
+        "procedure",
+        "function"
+      ],
+      "antonyms": [
+        "malfunction"
+      ],
+      "related": [
+        "operate",
+        "operational"
+      ],
+      "semantic_expansions": [
+        "操作/运作：系统投入工作的过程",
+        "手术：医生在病人身体上进行的专门操作"
+      ]
+    },
+    {
+      "id": "operational",
+      "word": "operational",
+      "pos": "adjective",
+      "phonetic": "/ˌɒpəˈreɪʃnəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "operari"
+      ],
+      "root_logic": "operation（运作）+ -al → 能够执行作业的，或与实际运作有关的",
+      "origin": "英语 operational，来自 operation",
+      "native_definition": "working and ready to be used, or relating to practical functioning",
+      "core_concept": "able to be put to work now – 此刻就能投入工作的",
+      "core_image": "指示灯亮起，表示整套系统已就绪可运转",
+      "chinese": [
+        "可操作的",
+        "运行中的",
+        "作战的"
+      ],
+      "examples": [
+        "The plant is fully operational again.",
+        "We need an operational plan for the launch."
+      ],
+      "synonyms": [
+        "functional",
+        "working"
+      ],
+      "antonyms": [
+        "inoperative"
+      ],
+      "related": [
+        "operate",
+        "operation"
+      ],
+      "semantic_expansions": [
+        "可操作的/运行中的：系统当前能正常执行任务",
+        "实际运作的：与执行层面的具体工作有关"
+      ]
+    },
+    {
+      "id": "dignity",
+      "word": "dignity",
+      "pos": "noun",
+      "phonetic": "/ˈdɪɡnəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "dignus"
+      ],
+      "root_logic": "dign（值得）+ -ity（状态）→ 值得尊重并把持住的自身价值",
+      "origin": "拉丁语 dignitas（尊严、地位），来自 dignus（值得的）",
+      "native_definition": "the state of being worthy of respect, or calm self-respect",
+      "core_concept": "the worth that proves one deserves respect – 经得起检验、配得上尊重的那份价值",
+      "core_image": "一个人挺直站立，肩头托着的重量与所得尊重相称",
+      "chinese": [
+        "尊严",
+        "高贵",
+        "庄重"
+      ],
+      "examples": [
+        "She faced the crowd with dignity.",
+        "Every person deserves to be treated with dignity."
+      ],
+      "synonyms": [
+        "honor",
+        "serenity"
+      ],
+      "antonyms": [
+        "shame"
+      ],
+      "related": [
+        "indignant",
+        "indignation"
+      ],
+      "semantic_expansions": [
+        "尊严：证明自己值得被尊重的那份价值",
+        "庄重：以稳定姿态撑住这份价值"
+      ]
+    },
+    {
+      "id": "indignant",
+      "word": "indignant",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈdɪɡnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "dignus"
+      ],
+      "root_logic": "in-（不、反对）+ dign（配得上）+ -ant → 因觉得受了不相配的对待而愤怒",
+      "origin": "拉丁语 indignans（愤愤不平的），来自 indignari（认为不配）",
+      "native_definition": "angry because of unjust or unworthy treatment",
+      "core_concept": "feeling that something is beneath one and thus wrong – 感到被按不配的身价对待而激起愤怒",
+      "core_image": "一个人自认高出所受待遇，胸口腾起不平之气",
+      "chinese": [
+        "愤慨的",
+        "义愤的"
+      ],
+      "examples": [
+        "She was indignant at the false accusation.",
+        "Citizens grew indignant over the unfair tax."
+      ],
+      "synonyms": [
+        "resentful",
+        "outraged"
+      ],
+      "antonyms": [
+        "pleased"
+      ],
+      "related": [
+        "dignity",
+        "indignation"
+      ],
+      "semantic_expansions": [
+        "愤慨的/义愤的：因遭遇不相配、不公正的对待而愤怒"
+      ]
+    },
+    {
+      "id": "indignation",
+      "word": "indignation",
+      "pos": "noun",
+      "phonetic": "/ˌɪndɪɡˈneɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "dignus"
+      ],
+      "root_logic": "indignant（愤慨）+ -ation → 因不公或轻视而产生的愤怒情绪",
+      "origin": "拉丁语 indignatio（愤懑），来自 indignari",
+      "native_definition": "anger caused by unworthy or unjust treatment",
+      "core_concept": "the flame kindled when one is treated as beneath one's worth – 被按低劣身价对待时腾起的怒火",
+      "core_image": "被轻视者胸口涌起的怒火几乎可见",
+      "chinese": [
+        "愤慨",
+        "义愤"
+      ],
+      "examples": [
+        "The unfair dismissal caused general indignation.",
+        "He reported the news with indignation."
+      ],
+      "synonyms": [
+        "resentment",
+        "outrage"
+      ],
+      "antonyms": [
+        "complacency"
+      ],
+      "related": [
+        "dignity",
+        "indignant"
+      ],
+      "semantic_expansions": [
+        "愤慨/义愤：因受到不相配的轻视或不公而生的强烈不满"
+      ]
+    },
+    {
+      "id": "ordinary",
+      "word": "ordinary",
+      "pos": "adjective",
+      "phonetic": "/ˈɔːdnri/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordinare"
+      ],
+      "root_logic": "ordin（次序）+ -ary（属于…的）→ 依通常次序而来、不越出常规的",
+      "origin": "拉丁语 ordinarius（按次序的），来自 ordo（次序）",
+      "native_definition": "normal and not special in any way",
+      "core_concept": "following the usual rank and line, nothing extra – 顺着常规次序、没有超出",
+      "core_image": "一摞日用品按平常位置摆放，没有任何特别标记",
+      "chinese": [
+        "普通的",
+        "平常的",
+        "平庸的"
+      ],
+      "examples": [
+        "In an ordinary year we plant in spring.",
+        "The film turned an ordinary story into something moving."
+      ],
+      "synonyms": [
+        "common",
+        "typical"
+      ],
+      "antonyms": [
+        "extraordinary"
+      ],
+      "related": [
+        "coordinate",
+        "subordinate"
+      ],
+      "semantic_expansions": [
+        "普通的/平常的：顺着通常次序、不特别",
+        "平庸的：缺少超出常规的突出点"
+      ]
+    },
+    {
+      "id": "coordinate",
+      "word": "coordinate",
+      "pos": "verb",
+      "phonetic": "/kəʊˈɔːdɪneɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordinare"
+      ],
+      "root_logic": "co-（共同）+ ordin（次序）+ -ate → 让多方按共同次序配合行动",
+      "origin": "晚期拉丁语 coordinare（共同排列），来自 ordinare",
+      "native_definition": "to organize different parts so they work together",
+      "core_concept": "putting separate pieces into one shared order so they move as one – 把分散部分排进同一次序协同运作",
+      "core_image": "几个团队接到同一张时间表，动作因此合到同一节奏",
+      "chinese": [
+        "协调",
+        "配合",
+        "使一致"
+      ],
+      "examples": [
+        "She coordinates the volunteers across three sites.",
+        "The rescue teams coordinated their efforts."
+      ],
+      "synonyms": [
+        "organize",
+        "harmonize"
+      ],
+      "antonyms": [
+        "scatter"
+      ],
+      "related": [
+        "ordinary",
+        "subordinate"
+      ],
+      "semantic_expansions": [
+        "协调/配合：把不同部分排进共同次序",
+        "使一致：让各方步调对齐"
+      ]
+    },
+    {
+      "id": "subordinate",
+      "word": "subordinate",
+      "pos": "adjective",
+      "phonetic": "/səˈbɔːdɪnət/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordinare"
+      ],
+      "root_logic": "sub-（在下）+ ordin（次序）→ 排在主序之下、位居从属",
+      "origin": "拉丁语 subordinatus，来自 subordinare（置于下位）",
+      "native_definition": "lower in rank or position, or a person in such a rank",
+      "core_concept": "placed under the main order – 被排在主序列之下",
+      "core_image": "一人站在阶梯较下一级，听命于更高位置者的安排",
+      "chinese": [
+        "从属的",
+        "次要的",
+        "下级"
+      ],
+      "examples": [
+        "The chief delegate delegated tasks to her subordinates.",
+        "Safety is subordinate to the deadline in his logic."
+      ],
+      "synonyms": [
+        "junior",
+        "secondary"
+      ],
+      "antonyms": [
+        "superior"
+      ],
+      "related": [
+        "ordinary",
+        "coordinate"
+      ],
+      "semantic_expansions": [
+        "从属的/次要的：排在主序之下",
+        "下级：职位处于从属序列的人员"
+      ]
+    },
+    {
+      "id": "solid",
+      "word": "solid",
+      "pos": "adjective",
+      "phonetic": "/ˈsɒlɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "solidus"
+      ],
+      "root_logic": "solid（坚实）→ 质地密实、无空隙，或可靠",
+      "origin": "拉丁语 solidus（坚实的）",
+      "native_definition": "firm, dense, reliable, and without gaps",
+      "core_concept": "a body with no hollow inside that will not yield to pressure – 内部无空隙、受压力不塌陷",
+      "core_image": "一块整木被重物压住仍棱角分明，没有变形",
+      "chinese": [
+        "固体的",
+        "坚实的",
+        "可靠的"
+      ],
+      "examples": [
+        "The table is made of solid oak.",
+        "The proposal rests on solid evidence."
+      ],
+      "synonyms": [
+        "firm",
+        "sturdy"
+      ],
+      "antonyms": [
+        "hollow"
+      ],
+      "related": [
+        "solidarity",
+        "consolidate"
+      ],
+      "semantic_expansions": [
+        "固体的/坚实的：质地密实无空隙",
+        "可靠的：像实心结构一样经得起压力"
+      ]
+    },
+    {
+      "id": "consolidate",
+      "word": "consolidate",
+      "pos": "verb",
+      "phonetic": "/kənˈsɒlɪdeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "solidus"
+      ],
+      "root_logic": "con-（共同）+ solid（坚实）→ 使分散部分凝成一块坚实整体",
+      "origin": "拉丁语 consolidare（使牢固）：con- + solidare",
+      "native_definition": "to combine into a stronger whole or make more secure",
+      "core_concept": "pressing separate pieces until they become one solid mass – 让分散部分挤成无空隙的整体",
+      "core_image": "几处松散的土堆被压成一片结实的路基",
+      "chinese": [
+        "巩固",
+        "合并",
+        "使坚强"
+      ],
+      "examples": [
+        "The firm consolidated several departments.",
+        "Sleep helps consolidate memory."
+      ],
+      "synonyms": [
+        "merge",
+        "strengthen"
+      ],
+      "antonyms": [
+        "divide"
+      ],
+      "related": [
+        "solid",
+        "solidarity"
+      ],
+      "semantic_expansions": [
+        "合并：把分散部分合成一个坚实整体",
+        "巩固：让结构或成果变得更牢固"
+      ]
+    },
+    {
+      "id": "solidarity",
+      "word": "solidarity",
+      "pos": "noun",
+      "phonetic": "/ˌsɒlɪˈdærəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "solidus"
+      ],
+      "root_logic": "solid（坚实）+ -arity（状态）→ 众人像一块整体那样彼此支撑",
+      "origin": "法语 solidarité，来自 solidaire（连带的）",
+      "native_definition": "unity of feeling and support within a group",
+      "core_concept": "a group standing as one dense body where each supports the rest – 大家合成一块整体彼此担当",
+      "core_image": "许多人并肩站成一面墙，一人受力众人都顶住",
+      "chinese": [
+        "团结",
+        "相互支持"
+      ],
+      "examples": [
+        "Workers showed solidarity during the strike.",
+        "We stand in solidarity with the community."
+      ],
+      "synonyms": [
+        "unity",
+        "togetherness"
+      ],
+      "antonyms": [
+        "division"
+      ],
+      "related": [
+        "solid",
+        "consolidate"
+      ],
+      "semantic_expansions": [
+        "团结/相互支持：众人如一体般彼此坚实支撑"
+      ]
+    },
+    {
+      "id": "terrible",
+      "word": "terrible",
+      "pos": "adjective",
+      "phonetic": "/ˈterəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "terrere"
+      ],
+      "root_logic": "terr（惊惧）+ -ible（可…的）→ 让人感到惊惧的，或程度极严重",
+      "origin": "拉丁语 terribilis（可怕的），来自 terrere",
+      "native_definition": "extremely bad, harmful, or causing great fear",
+      "core_concept": "so bad that it overwhelms and frightens – 坏到把人镇住",
+      "core_image": "一场灾难的场面铺满视野，任何抵抗都显得无力",
+      "chinese": [
+        "可怕的",
+        "严重的",
+        "糟糕的"
+      ],
+      "examples": [
+        "The storm caused terrible damage.",
+        "I had a terrible night's sleep."
+      ],
+      "synonyms": [
+        "awful",
+        "appalling"
+      ],
+      "antonyms": [
+        "excellent"
+      ],
+      "related": [
+        "terrify",
+        "terror"
+      ],
+      "semantic_expansions": [
+        "可怕的：引发强烈恐惧",
+        "严重/糟糕的：坏到接近令人害怕的程度"
+      ]
+    },
+    {
+      "id": "terrify",
+      "word": "terrify",
+      "pos": "verb",
+      "phonetic": "/ˈterɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "terrere"
+      ],
+      "root_logic": "terr（惊惧）+ -ify（使）→ 使人充满恐惧",
+      "origin": "法语 terrifier，来自拉丁语 terrificare",
+      "native_definition": "to make someone feel intense fear",
+      "core_concept": "pouring fear into someone until they freeze – 让恐惧充满一个人直到僵住",
+      "core_image": "黑影从角落逼近，被看者瞬间屏住呼吸",
+      "chinese": [
+        "使恐惧",
+        "使惊吓"
+      ],
+      "examples": [
+        "The loud bang terrified the child.",
+        "She was terrified of heights."
+      ],
+      "synonyms": [
+        "frighten",
+        "horrify"
+      ],
+      "antonyms": [
+        "reassure"
+      ],
+      "related": [
+        "terrible",
+        "terror"
+      ],
+      "semantic_expansions": [
+        "使恐惧/使惊吓：用巨大威胁让人充满恐惧"
+      ]
+    },
+    {
+      "id": "terror",
+      "word": "terror",
+      "pos": "noun",
+      "phonetic": "/ˈterə/",
+      "decomposable": "root",
+      "root_ids": [
+        "terrere"
+      ],
+      "root_logic": "terr（惊惧）+ -or（名词）→ 极端剧烈的恐惧",
+      "origin": "拉丁语 terror（惊恐），来自 terrere",
+      "native_definition": "extreme fear, or violence meant to spread such fear",
+      "core_concept": "the frozen state produced by a force too big to face – 面对无法抵挡之物时被镇住的状态",
+      "core_image": "城市突然笼罩在一种让人无法入睡的惊恐中",
+      "chinese": [
+        "恐怖",
+        "惊骇",
+        "恐怖行为"
+      ],
+      "examples": [
+        "The crowd fled in terror.",
+        "The group used terror to control the town."
+      ],
+      "synonyms": [
+        "dread",
+        "panic"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "related": [
+        "terrible",
+        "terrify"
+      ],
+      "semantic_expansions": [
+        "恐怖/惊骇：极端剧烈的恐惧",
+        "恐怖行为：以制造恐惧为手段的暴力"
+      ]
+    },
+    {
+      "id": "disrupt",
+      "word": "disrupt",
+      "pos": "verb",
+      "phonetic": "/dɪsˈrʌpt/",
+      "decomposable": "root",
+      "root_ids": [
+        "rumpere"
+      ],
+      "root_logic": "dis-（分开、打散）+ rupt（断裂）→ 打断正常运行",
+      "origin": "拉丁语 disruptus，来自 disrumpere（裂开、打断）",
+      "native_definition": "to interrupt or throw something out of its normal course",
+      "core_concept": "breaking the continuity of a running system – 把正运行的过程从中间打断",
+      "core_image": "正在亮起的长串灯忽然断掉几盏，节奏被打乱",
+      "chinese": [
+        "扰乱",
+        "打断",
+        "中断"
+      ],
+      "examples": [
+        "Flights were disrupted by the storm.",
+        "The protest disrupted traffic."
+      ],
+      "synonyms": [
+        "interrupt",
+        "disturb"
+      ],
+      "antonyms": [
+        "maintain"
+      ],
+      "related": [
+        "disturbance",
+        "abrupt",
+        "corrupt"
+      ],
+      "semantic_expansions": [
+        "扰乱/打断：使正常运行从中间断开",
+        "中断：使连续性暂时或永久停止"
+      ]
+    },
+    {
+      "id": "abrupt",
+      "word": "abrupt",
+      "pos": "adjective",
+      "phonetic": "/əˈbrʌpt/",
+      "decomposable": "root",
+      "root_ids": [
+        "rumpere"
+      ],
+      "root_logic": "ab-（离开）+ rupt（断裂）→ 像被硬生生掐断、缺乏过渡",
+      "origin": "拉丁语 abruptus（断裂的），来自 abrumpere（切断）",
+      "native_definition": "sudden, unexpected, and lacking smooth transition",
+      "core_concept": "cut off sharply without the usual lead-in – 没有过渡就硬生生断掉",
+      "core_image": "一条平整的山路走到底突然断成悬崖边缘",
+      "chinese": [
+        "突然的",
+        "生硬的",
+        "陡峭的"
+      ],
+      "examples": [
+        "The meeting came to an abrupt end.",
+        "His tone was abrupt and cold."
+      ],
+      "synonyms": [
+        "sudden",
+        "brusque"
+      ],
+      "antonyms": [
+        "gradual"
+      ],
+      "related": [
+        "disrupt",
+        "corrupt"
+      ],
+      "semantic_expansions": [
+        "突然的/生硬的：像被硬生生断开、缺少过渡",
+        "陡峭的：地形如断裂般骤然下降"
+      ]
+    },
+    {
+      "id": "corrupt",
+      "word": "corrupt",
+      "pos": "adjective",
+      "phonetic": "/kəˈrʌpt/",
+      "decomposable": "root",
+      "root_ids": [
+        "rumpere"
+      ],
+      "root_logic": "cor-（完全）+ rupt（断裂）→ 使原本正直的东西整体腐坏变形",
+      "origin": "拉丁语 corruptus，来自 corrumpere（败坏）",
+      "native_definition": "dishonest or morally decayed, or data that has been damaged",
+      "core_concept": "breaking down a sound whole, morally or materially – 把一个完好整体从内部败坏",
+      "core_image": "原本明亮的证书被墨渍和篡改弄得形状歪曲",
+      "chinese": [
+        "腐败的",
+        "腐化的",
+        "损坏的"
+      ],
+      "examples": [
+        "Corrupt officials were removed from office.",
+        "The file was corrupt and could not be opened."
+      ],
+      "synonyms": [
+        "dishonest",
+        "decayed"
+      ],
+      "antonyms": [
+        "honest"
+      ],
+      "related": [
+        "disrupt",
+        "abrupt"
+      ],
+      "semantic_expansions": [
+        "腐败的/腐化的：整体从内部败坏",
+        "损坏的：数据或物品被破坏到无法正常用"
+      ]
+    },
+    {
+      "id": "sum",
+      "word": "sum",
+      "pos": "noun",
+      "phonetic": "/sʌm/",
+      "decomposable": "root",
+      "root_ids": [
+        "summa"
+      ],
+      "root_logic": "sum（总数）→ 若干部分加在一起得到的总量",
+      "origin": "拉丁语 summa（总数、顶端）",
+      "native_definition": "the total amount from adding parts, or an amount of money",
+      "core_concept": "the top result reached when all parts are piled together – 各部分相加后处于顶端的那个总值",
+      "core_image": "一叠小账单被整齐相加，顶端得出一个数字",
+      "chinese": [
+        "总和",
+        "金额",
+        "算术题"
+      ],
+      "examples": [
+        "The sum of the parts equals the whole.",
+        "He paid a large sum for the house."
+      ],
+      "synonyms": [
+        "total",
+        "amount"
+      ],
+      "antonyms": [
+        "difference"
+      ],
+      "related": [
+        "summarize",
+        "summary"
+      ],
+      "semantic_expansions": [
+        "总和：各部分组成的总量",
+        "金额：一笔具体数额的钱"
+      ]
+    },
+    {
+      "id": "summarize",
+      "word": "summarize",
+      "pos": "verb",
+      "phonetic": "/ˈsʌməraɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "summa"
+      ],
+      "root_logic": "summary（概要）+ -ize（使）→ 把大量内容收拢成一段简短总说",
+      "origin": "英语 summarize，来自 summary",
+      "native_definition": "to state the main points briefly",
+      "core_concept": "gathering a long account into a single top-line statement – 把长内容收拢成顶端的简要概括",
+      "core_image": "成堆文字被压成一行要点，整齐排在顶部",
+      "chinese": [
+        "总结",
+        "概括"
+      ],
+      "examples": [
+        "Summarize the key findings in two sentences.",
+        "The report summarizes five years of data."
+      ],
+      "synonyms": [
+        "outline",
+        "condense"
+      ],
+      "antonyms": [
+        "expand"
+      ],
+      "related": [
+        "sum",
+        "summary"
+      ],
+      "semantic_expansions": [
+        "总结/概括：把大量内容收拢成简短的要点"
+      ]
+    },
+    {
+      "id": "summary",
+      "word": "summary",
+      "pos": "noun",
+      "phonetic": "/ˈsʌməri/",
+      "decomposable": "root",
+      "root_ids": [
+        "summa"
+      ],
+      "root_logic": "sum（总数）+ -mary → 把内容汇总成简短整体",
+      "origin": "中世纪拉丁语 summarius（概要的），来自 summa（总数）",
+      "native_definition": "a brief statement of the main points",
+      "core_concept": "the compact total of a longer account – 长内容汇总出的简短总体",
+      "core_image": "一本书的末页浓缩了全部章节的要点",
+      "chinese": [
+        "摘要",
+        "概要"
+      ],
+      "examples": [
+        "Each chapter ends with a summary.",
+        "She gave a brief summary of the case."
+      ],
+      "synonyms": [
+        "abstract",
+        "digest"
+      ],
+      "antonyms": [
+        "expansion"
+      ],
+      "related": [
+        "sum",
+        "summarize"
+      ],
+      "semantic_expansions": [
+        "摘要/概要：把完整内容浓缩成的简要总体"
+      ]
+    },
+    {
+      "id": "finance",
+      "word": "finance",
+      "pos": "noun",
+      "phonetic": "/ˈfaɪnæns/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "fin（终结、结清）+ -ance → 与清偿/资金结算有关的事务",
+      "origin": "中古法语 finance（结算），来自 finer（终结、清账）",
+      "native_definition": "the management of money, or money provided for a purpose",
+      "core_concept": "the money side of seeing a matter through to its end – 把事项推进到收尾时的资金支撑",
+      "core_image": "一张建造计划下方垫着一层钱物，支撑它进行到完工",
+      "chinese": [
+        "金融",
+        "财政",
+        "资金"
+      ],
+      "examples": [
+        "She studied finance at university.",
+        "The project needs public finance."
+      ],
+      "synonyms": [
+        "funding",
+        "capital"
+      ],
+      "antonyms": [
+        "bankruptcy"
+      ],
+      "related": [
+        "final",
+        "finish",
+        "infinite"
+      ],
+      "semantic_expansions": [
+        "金融/财政：围绕资金收付与管理的事务",
+        "资金：支撑事项完成所需的款项"
+      ]
+    },
+    {
+      "id": "compartment",
+      "word": "compartment",
+      "pos": "noun",
+      "phonetic": "/kəmˈpɑːtmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "com-（共同）+ part（部分）+ -ment → 大空间被划分出的一个部分",
+      "origin": "法语 compartiment，来自 compartir（分割）",
+      "native_definition": "a separate section, often given a specific use",
+      "core_concept": "one divided-out pocket inside a larger whole – 大整体中切分出的一块空位",
+      "core_image": "列车长椅上方被隔板分成一个个独立空间",
+      "chinese": [
+        "隔间",
+        "车厢",
+        "分隔间"
+      ],
+      "examples": [
+        "The fridge has a separate compartment for vegetables.",
+        "Her bag has a hidden compartment."
+      ],
+      "synonyms": [
+        "section",
+        "pocket"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "related": [
+        "part",
+        "depart",
+        "impart"
+      ],
+      "semantic_expansions": [
+        "隔间/车厢：大空间中被划分出的独立部分"
+      ]
+    },
+    {
+      "id": "counterpart",
+      "word": "counterpart",
+      "pos": "noun",
+      "phonetic": "/ˈkaʊntəpɑːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "counter-（对应、对照）+ part（部分）→ 与某部分相对称的对应部分",
+      "origin": "英语 counterpart，来自 counter ＋ part",
+      "native_definition": "a person or thing that corresponds to another in position or function",
+      "core_concept": "the matching part standing opposite across a shared scheme – 在共同结构中与一方成对的另一半",
+      "core_image": "谈判桌两边各坐一人，职位一一对应",
+      "chinese": [
+        "对应的人/物",
+        "地位相当者"
+      ],
+      "examples": [
+        "The US secretary met his British counterpart.",
+        "This gear is the counterpart of that one."
+      ],
+      "synonyms": [
+        "equivalent",
+        "match"
+      ],
+      "antonyms": [
+        "contrast"
+      ],
+      "related": [
+        "part",
+        "impart",
+        "department"
+      ],
+      "semantic_expansions": [
+        "对应的人/物：在共同结构中与另一方地位、功能相对的部分"
+      ]
+    },
+    {
+      "id": "perpetual",
+      "word": "perpetual",
+      "pos": "adjective",
+      "phonetic": "/pəˈpetʃuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet"
+      ],
+      "root_logic": "per-（贯穿）+ pet（追求）+ -ual → 一直向前追着不停，没有终止",
+      "origin": "拉丁语 perpetuus（连续的），可能与 per＋petere 相关",
+      "native_definition": "continuing forever, or seeming to never end",
+      "core_concept": "stretching forward without a breaking point – 一路向前不断开",
+      "core_image": "一条线向前延展到望不见尽头的位置",
+      "chinese": [
+        "永恒的",
+        "永久的",
+        "不断的"
+      ],
+      "examples": [
+        "The clock is driven by a near-perpetual motion.",
+        "He complained about the perpetual noise."
+      ],
+      "synonyms": [
+        "endless",
+        "everlasting"
+      ],
+      "antonyms": [
+        "temporary"
+      ],
+      "related": [
+        "competition",
+        "petition",
+        "repetition"
+      ],
+      "semantic_expansions": [
+        "永恒的/永久的：向前不断开、没有终止",
+        "不断的：持续发生而看上去无尽头"
+      ]
+    },
+    {
+      "id": "adjective",
+      "word": "adjective",
+      "pos": "noun",
+      "phonetic": "/ˈædʒɪktɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "jac"
+      ],
+      "root_logic": "ad-（靠向）+ ject（投掷）→ 原意“加靠到名词旁的词”",
+      "origin": "拉丁语 adjectivum（附加的词），来自 adjicere（添加）",
+      "native_definition": "a word that modifies a noun by adding a quality",
+      "core_concept": "a word thrown alongside a noun to add description – 投过去依附在名词旁起修饰作用的词",
+      "core_image": "“blue”被放到“sky”旁边，天空的颜色就此明确",
+      "chinese": [
+        "形容词"
+      ],
+      "examples": [
+        "In English, adjectives usually precede the noun.",
+        "The adjective modifies the noun."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        "object",
+        "subject",
+        "reject"
+      ],
+      "semantic_expansions": [
+        "形容词：投放到名词旁、为其添加描述的词"
+      ]
+    },
+    {
+      "id": "directory",
+      "word": "directory",
+      "pos": "noun",
+      "phonetic": "/dəˈrektəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "direct（指引）+ -ory（场所）→ 用来指引人找到对象的名册或路径组织",
+      "origin": "中世纪拉丁语 directorium（指引的书册），来自 dirigere（指引）",
+      "native_definition": "a listing of names or files used to find things",
+      "core_concept": "an organized place that points one toward the sought item – 帮你指向目标所在的编排",
+      "core_image": "大厅里的名册按姓氏排列，一翻就能指向对应房间",
+      "chinese": [
+        "名录",
+        "目录",
+        "文件夹"
+      ],
+      "examples": [
+        "Please check the directory for the extension.",
+        "Save the file into a new directory."
+      ],
+      "synonyms": [
+        "index",
+        "catalogue"
+      ],
+      "antonyms": [],
+      "related": [
+        "direct",
+        "correct",
+        "director"
+      ],
+      "semantic_expansions": [
+        "名录/目录：按规则编排、指引人找到对象的集合",
+        "文件夹：计算机中指向并组织文件的位置"
+      ]
+    }
+  ]
+}

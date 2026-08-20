@@ -14,7 +14,7 @@ v0.2.0  纸张词源地图改版 + 昼夜模式 + 视觉质量门  ✅ 已完成
 v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
-v1.0    考研词表中可结构化的部分（629/869 词，72%）← 当前
+v1.0    考研词表中可结构化的部分（660/869 词，76%）← 当前
 ```
 
 ---
@@ -286,7 +286,13 @@ python ai_pipeline/review.py merge candidates.json
         + graphein（刻写），并补 impression / impressive、container / tenant、
         conquest / enquire / exquisite，629 词 · 109 词根。attain 直接来自 tangere 支系，
         press 与现有词根 id 冲突，均未为凑数硬挂入库
-  - [ ] 剩余 240 个已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
+  - [x] 第三十批（31 词，八词根批量 + 已有词根补充）：notare（做记号）
+        + operari（劳作）+ dignus（配得上）+ ordinare（排列成序）
+        + solidus（坚实完整）+ terrere（惊惧）+ rumpere（猛然断裂）+ summa（顶端总数），
+        并补 finance / compartment / counterpart / perpetual / adjective / directory，
+        660 词 · 117 词根。ordinary 与 coordinate、subordinate 三词共享"排列成序"，
+        disrupt/abrupt/corrupt 靠前缀分工；solid 与 solvere（解开）同形异源，明确分开
+  - [ ] 剩余 209 个已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
 - [ ] 学习模式：探索 / 复习 / 测试
 - [x] 部署为可访问的 Web 页面（GitHub Pages）
 

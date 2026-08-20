@@ -3864,6 +3864,192 @@
       "to": "exquisite",
       "type": "root",
       "note": "ex-（彻底、向外）+ quisit（寻求）→ 被精挑细选出来的 → 极精美的"
+    },
+    {
+      "from": "notare",
+      "to": "notable",
+      "type": "root",
+      "note": "not（做记号）+ -able → 值得被单独做记号记下的"
+    },
+    {
+      "from": "notare",
+      "to": "notify",
+      "type": "root",
+      "note": "not（记号）+ -ify（使）→ 把一个记号/消息送到某人面前让他知道"
+    },
+    {
+      "from": "notare",
+      "to": "notion",
+      "type": "root",
+      "note": "not（记号）+ -ion → 心中形成的记号，即一个想法或概念"
+    },
+    {
+      "from": "notare",
+      "to": "notorious",
+      "type": "root",
+      "note": "not（记号）+ -orious → 被广泛做了记号、名声传开的（多带贬义）"
+    },
+    {
+      "from": "operari",
+      "to": "operate",
+      "type": "root",
+      "note": "oper（工作）+ -ate → 让机器或组织进入工作状态"
+    },
+    {
+      "from": "operari",
+      "to": "operation",
+      "type": "root",
+      "note": "oper（工作）+ -ation → 使系统工作的过程、活动或手术"
+    },
+    {
+      "from": "operari",
+      "to": "operational",
+      "type": "root",
+      "note": "operation（运作）+ -al → 能够执行作业的，或与实际运作有关的"
+    },
+    {
+      "from": "dignus",
+      "to": "dignity",
+      "type": "root",
+      "note": "dign（值得）+ -ity（状态）→ 值得尊重并把持住的自身价值"
+    },
+    {
+      "from": "dignus",
+      "to": "indignant",
+      "type": "root",
+      "note": "in-（不、反对）+ dign（配得上）+ -ant → 因觉得受了不相配的对待而愤怒"
+    },
+    {
+      "from": "dignus",
+      "to": "indignation",
+      "type": "root",
+      "note": "indignant（愤慨）+ -ation → 因不公或轻视而产生的愤怒情绪"
+    },
+    {
+      "from": "ordinare",
+      "to": "ordinary",
+      "type": "root",
+      "note": "ordin（次序）+ -ary（属于…的）→ 依通常次序而来、不越出常规的"
+    },
+    {
+      "from": "ordinare",
+      "to": "coordinate",
+      "type": "root",
+      "note": "co-（共同）+ ordin（次序）+ -ate → 让多方按共同次序配合行动"
+    },
+    {
+      "from": "ordinare",
+      "to": "subordinate",
+      "type": "root",
+      "note": "sub-（在下）+ ordin（次序）→ 排在主序之下、位居从属"
+    },
+    {
+      "from": "solidus",
+      "to": "solid",
+      "type": "root",
+      "note": "solid（坚实）→ 质地密实、无空隙，或可靠"
+    },
+    {
+      "from": "solidus",
+      "to": "consolidate",
+      "type": "root",
+      "note": "con-（共同）+ solid（坚实）→ 使分散部分凝成一块坚实整体"
+    },
+    {
+      "from": "solidus",
+      "to": "solidarity",
+      "type": "root",
+      "note": "solid（坚实）+ -arity（状态）→ 众人像一块整体那样彼此支撑"
+    },
+    {
+      "from": "terrere",
+      "to": "terrible",
+      "type": "root",
+      "note": "terr（惊惧）+ -ible（可…的）→ 让人感到惊惧的，或程度极严重"
+    },
+    {
+      "from": "terrere",
+      "to": "terrify",
+      "type": "root",
+      "note": "terr（惊惧）+ -ify（使）→ 使人充满恐惧"
+    },
+    {
+      "from": "terrere",
+      "to": "terror",
+      "type": "root",
+      "note": "terr（惊惧）+ -or（名词）→ 极端剧烈的恐惧"
+    },
+    {
+      "from": "rumpere",
+      "to": "disrupt",
+      "type": "root",
+      "note": "dis-（分开、打散）+ rupt（断裂）→ 打断正常运行"
+    },
+    {
+      "from": "rumpere",
+      "to": "abrupt",
+      "type": "root",
+      "note": "ab-（离开）+ rupt（断裂）→ 像被硬生生掐断、缺乏过渡"
+    },
+    {
+      "from": "rumpere",
+      "to": "corrupt",
+      "type": "root",
+      "note": "cor-（完全）+ rupt（断裂）→ 使原本正直的东西整体腐坏变形"
+    },
+    {
+      "from": "summa",
+      "to": "sum",
+      "type": "root",
+      "note": "sum（总数）→ 若干部分加在一起得到的总量"
+    },
+    {
+      "from": "summa",
+      "to": "summarize",
+      "type": "root",
+      "note": "summary（概要）+ -ize（使）→ 把大量内容收拢成一段简短总说"
+    },
+    {
+      "from": "summa",
+      "to": "summary",
+      "type": "root",
+      "note": "sum（总数）+ -mary → 把内容汇总成简短整体"
+    },
+    {
+      "from": "fin",
+      "to": "finance",
+      "type": "root",
+      "note": "fin（终结、结清）+ -ance → 与清偿/资金结算有关的事务"
+    },
+    {
+      "from": "pars",
+      "to": "compartment",
+      "type": "root",
+      "note": "com-（共同）+ part（部分）+ -ment → 大空间被划分出的一个部分"
+    },
+    {
+      "from": "pars",
+      "to": "counterpart",
+      "type": "root",
+      "note": "counter-（对应、对照）+ part（部分）→ 与某部分相对称的对应部分"
+    },
+    {
+      "from": "pet",
+      "to": "perpetual",
+      "type": "root",
+      "note": "per-（贯穿）+ pet（追求）+ -ual → 一直向前追着不停，没有终止"
+    },
+    {
+      "from": "jac",
+      "to": "adjective",
+      "type": "root",
+      "note": "ad-（靠向）+ ject（投掷）→ 原意“加靠到名词旁的词”"
+    },
+    {
+      "from": "rect",
+      "to": "directory",
+      "type": "root",
+      "note": "direct（指引）+ -ory（场所）→ 用来指引人找到对象的名册或路径组织"
     }
   ]
 }

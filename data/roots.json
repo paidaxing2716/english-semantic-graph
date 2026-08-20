@@ -452,7 +452,8 @@
         "projector",
         "reject",
         "subject",
-        "subjective"
+        "subjective",
+        "adjective"
       ]
     },
     {
@@ -495,7 +496,9 @@
         "impart",
         "part",
         "partial",
-        "partly"
+        "partly",
+        "compartment",
+        "counterpart"
       ]
     },
     {
@@ -516,7 +519,8 @@
         "finally",
         "finish",
         "finite",
-        "infinite"
+        "infinite",
+        "finance"
       ]
     },
     {
@@ -680,7 +684,8 @@
         "direct",
         "directly",
         "director",
-        "rectify"
+        "rectify",
+        "directory"
       ]
     },
     {
@@ -894,7 +899,8 @@
         "competent",
         "competition",
         "petition",
-        "repetition"
+        "repetition",
+        "perpetual"
       ]
     },
     {
@@ -2178,6 +2184,137 @@
         "graph",
         "graphic",
         "paragraph"
+      ]
+    },
+    {
+      "id": "notare",
+      "root": "notare",
+      "variants": [
+        "not"
+      ],
+      "origin": "拉丁语 notare（做记号、标注），来自 nota（记号、符号）",
+      "core_concept": "to mark something so it stands out / 给东西做记号让它突出",
+      "core_image": "一只手在一件物品上画下记号，使它从同类中被认出来",
+      "english_definition": "to mark, note",
+      "word_ids": [
+        "notable",
+        "notify",
+        "notion",
+        "notorious"
+      ]
+    },
+    {
+      "id": "operari",
+      "root": "operari",
+      "variants": [
+        "oper"
+      ],
+      "origin": "拉丁语 operari（劳作、从事工作），来自 opus（工作、作品）",
+      "core_concept": "to work, to put effort into function / 让各部分投入运作",
+      "core_image": "一双手把部件组合起来并推动，整台系统开始产出结果",
+      "english_definition": "to work, function, labor",
+      "word_ids": [
+        "operate",
+        "operation",
+        "operational"
+      ]
+    },
+    {
+      "id": "dignus",
+      "root": "dignus",
+      "variants": [
+        "dign"
+      ],
+      "origin": "拉丁语 dignus（值得的、配得上的），dignitas（尊严、地位）",
+      "core_concept": "to be worthy of respect / 一件事或一个人够得上尊重",
+      "core_image": "一杆天平，一端是一张面孔或一份成就，另一端放着配得上的荣誉",
+      "english_definition": "worthy, deserving",
+      "word_ids": [
+        "dignity",
+        "indignant",
+        "indignation"
+      ]
+    },
+    {
+      "id": "ordinare",
+      "root": "ordinare",
+      "variants": [
+        "ordin",
+        "ord"
+      ],
+      "origin": "拉丁语 ordinare（排列成序、安排），来自 ordo（次序、行列）",
+      "core_concept": "to lay things out in a sequence / 把事物排成前后有别的次序",
+      "core_image": "散乱的物品被一个接一个排成纵列，前后位置分明",
+      "english_definition": "to arrange in order, set in a row",
+      "word_ids": [
+        "coordinate",
+        "ordinary",
+        "subordinate"
+      ]
+    },
+    {
+      "id": "solidus",
+      "root": "solidus",
+      "variants": [
+        "solid"
+      ],
+      "origin": "拉丁语 solidus（坚实、密实的，无空隙的整体）",
+      "core_concept": "firm and whole, no hollows / 坚实完整、没有空隙",
+      "core_image": "一块厚实的材料，用手按压纹丝不动，内部没有空洞",
+      "english_definition": "solid, firm, dense",
+      "word_ids": [
+        "consolidate",
+        "solid",
+        "solidarity"
+      ]
+    },
+    {
+      "id": "terrere",
+      "root": "terrere",
+      "variants": [
+        "terr"
+      ],
+      "origin": "拉丁语 terrere（使惊惧、吓住）",
+      "core_concept": "to fill with a numbing fear / 用巨大的恐惧把人震住",
+      "core_image": "黑浪朝人涌来，一瞬间呼吸和动作都被镇住",
+      "english_definition": "to frighten, terrify",
+      "word_ids": [
+        "terrible",
+        "terrify",
+        "terror"
+      ]
+    },
+    {
+      "id": "rumpere",
+      "root": "rumpere",
+      "variants": [
+        "rupt",
+        "rum"
+      ],
+      "origin": "拉丁语 rumpere（打断、断裂）及其过去分词 ruptus",
+      "core_concept": "to break apart suddenly / 使完整的东西猛然断裂",
+      "core_image": "一根绷紧的绳索突然从中间断开，两端弹开",
+      "english_definition": "to break, burst apart",
+      "word_ids": [
+        "abrupt",
+        "corrupt",
+        "disrupt"
+      ]
+    },
+    {
+      "id": "summa",
+      "root": "summa",
+      "variants": [
+        "sum"
+      ],
+      "origin": "拉丁语 summa（顶端、总数），来自 summus（最高的）",
+      "core_concept": "the topmost point, then the total that tops up a whole / 最高处，也指汇聚成顶点的总和",
+      "core_image": "一枚枚更小的量被叠起来，最高处立着一个代表全部的顶端",
+      "english_definition": "top, total, sum",
+      "word_ids": [
+        "sum",
+        "summarize",
+        "summary"
       ]
     }
   ]
