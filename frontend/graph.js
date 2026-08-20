@@ -36,23 +36,123 @@
   }
 
   // ---------- 数据加载 ----------
-  async function loadData() {
-    const results = {};
-    for (const f of DATA_FILES) {
+  // 性能策略（v0.2.1）：
+  //  1) 并行拉取所有数据文件 —— 旧实现串行 await，5 个文件的往返延迟
+  //     逐个叠加（慢网络下实测 25s+）；并行后首次加载 ≈ 最慢那一个文件。
+  //  2) IndexedDB 应用级缓存 —— GitHub Pages 的 HTTP 缓存只有 max-age=600，
+  //     十分钟后冷访问就要全量重下。用 data/version.json（部署时自动生成
+  //     的内容哈希）做版本键：二次访问只拉 ~100B 的版本号，命中即秒开。
+  //  3) 加载进度提示 —— 不白屏干等。
+  function isLocalDev() {
+    const h = location.hostname;
+    const local = h === "localhost" || h === "127.0.0.1" || h === "0.0.0.0" || h === "::1";
+    if (!local) return false;
+    // ?cache=1 强制启用缓存 —— 本地调试缓存行为 / CI 冒烟测试用。
+    // 正常本地开发（http.server）不带此参数，始终读最新数据。
+    return new URLSearchParams(location.search).get("cache") !== "1";
+  }
+
+  const IDB_NAME = "esg-data-cache";
+  const IDB_STORE = "files";
+  function idbOpen() {
+    return new Promise((resolve, reject) => {
       try {
-        const res = await fetch(f.path);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        results[f.key] = await res.json();
-      } catch (e) {
-        throw new Error(
-          `无法加载 ${f.path}（${e.message}）。\n\n` +
-          `本地直接双击打开会有浏览器安全限制。请用本地服务器：\n` +
-          `在仓库根目录运行：python3 -m http.server 8000\n` +
-          `然后访问 http://localhost:8000/frontend/`
-        );
-      }
+        const req = indexedDB.open(IDB_NAME, 1);
+        req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = () => reject(req.error);
+      } catch (e) { reject(e); }
+    });
+  }
+  function idbGet(version) {
+    return idbOpen().then((db) => new Promise((resolve) => {
+      const tx = db.transaction(IDB_STORE, "readonly");
+      const req = tx.objectStore(IDB_STORE).get(version);
+      req.onsuccess = () => { db.close(); resolve(req.result || null); };
+      req.onerror = () => { db.close(); resolve(null); };
+    })).catch(() => null);
+  }
+  function idbPut(version, files) {
+    return idbOpen().then((db) => new Promise((resolve) => {
+      const tx = db.transaction(IDB_STORE, "readwrite");
+      // 只保留最新版本，避免缓存随词库增长无限膨胀
+      tx.objectStore(IDB_STORE).clear();
+      tx.objectStore(IDB_STORE).put(files, version);
+      tx.oncomplete = () => { db.close(); resolve(); };
+      tx.onerror = () => { db.close(); resolve(); };
+    })).catch(() => {});
+  }
+
+  async function fetchVersion() {
+    try {
+      const res = await fetch("../data/version.json", { cache: "no-store" });
+      if (!res.ok) return null;
+      const j = await res.json();
+      return j.version || null;
+    } catch (e) { return null; }
+  }
+
+  // 并行拉取全部数据文件；任一失败即整体失败，并带上出错文件信息
+  async function fetchAllData(onProgress) {
+    const entries = DATA_FILES.map((f, i) =>
+      fetch(f.path)
+        .then((res) => {
+          if (!res.ok) throw new Error(`${f.path} → HTTP ${res.status}`);
+          return res.json();
+        })
+        .then((j) => {
+          if (onProgress) onProgress(i + 1, DATA_FILES.length);
+          return [f.key, j];
+        })
+    );
+    try {
+      const results = await Promise.all(entries);
+      const data = {};
+      results.forEach(([k, v]) => { data[k] = v; });
+      return data;
+    } catch (e) {
+      throw new Error(
+        `无法加载词库数据（${e.message}）。\n\n` +
+        `本地直接双击打开会有浏览器安全限制。请用本地服务器：\n` +
+        `在仓库根目录运行：python3 -m http.server 8000\n` +
+        `然后访问 http://localhost:8000/frontend/`
+      );
     }
-    return results;
+  }
+
+  async function loadData() {
+    const progressEl = document.getElementById("load-progress");
+    const setProgress = (t) => { if (progressEl && t) progressEl.textContent = t; };
+
+    setProgress("正在加载词库…");
+
+    let version = null;
+    // 本地开发（http.server / file://）跳过缓存，始终读最新数据
+    if (!isLocalDev()) {
+      try {
+        version = await fetchVersion();
+        if (version) {
+          const cached = await idbGet(version);
+          if (cached && cached.files) {
+            setProgress("");
+            return cached.files;
+          }
+        }
+      } catch (e) { /* 缓存不可用则走网络 */ }
+    }
+
+    const data = await fetchAllData((done, total) => {
+      setProgress(`正在加载词库 ${done}/${total}…`);
+    });
+
+    // 写入缓存（仅线上；version 来自上面的首次请求，不再多发一次）
+    if (!isLocalDev() && version) {
+      try {
+        await idbPut(version, data);
+      } catch (e) { /* 写缓存失败不影响本次使用 */ }
+    }
+    setProgress("");
+    return data;
   }
 
   // ---------- 构建图数据 ----------

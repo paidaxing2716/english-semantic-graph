@@ -433,6 +433,25 @@ main { flex: 1; display: flex; min-height: 0; }
 
 #graph { width: 100%; height: 100%; display: block; }
 
+/* 加载进度：悬浮在画布中央的轻提示，避免首屏白屏干等 */
+#load-progress {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  color: var(--ink-faint);
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+  opacity: .95;
+  z-index: 5;
+  pointer-events: none;
+}
+
 /* 图例 / 提示：轻量脚注，不再是彩色盒子 */
 #legend,
 #hint {

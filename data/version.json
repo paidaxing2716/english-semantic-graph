@@ -1,0 +1,14 @@
+{
+  "version": "0a518314c14b5d01",
+  "files": [
+    "concepts.json",
+    "domains.json",
+    "english_reference.json",
+    "examples.json",
+    "lexicon.json",
+    "relations.json",
+    "roots.json",
+    "words.json"
+  ],
+  "generated_by": "scripts/make_version.py"
+}
