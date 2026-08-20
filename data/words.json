@@ -25823,6 +25823,1312 @@
         "名录/目录：按规则编排、指引人找到对象的集合",
         "文件夹：计算机中指向并组织文件的位置"
       ]
+    },
+    {
+      "id": "firm",
+      "word": "firm",
+      "pos": "adjective",
+      "phonetic": "/fɜːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "firmare"
+      ],
+      "root_logic": "firm（坚固）→ 牢固不移、确定的",
+      "origin": "拉丁语 firmus（坚固的、结实的）",
+      "native_definition": "steady, resolute, and not easily moved or changed",
+      "core_concept": "set so solidly it will not strain or shift – 安放得结实坚固、不松动不移位",
+      "core_image": "一根桩子被深深钉进地面，推上去只是更稳",
+      "chinese": [
+        "坚固的",
+        "坚决的",
+        "公司的"
+      ],
+      "examples": [
+        "She kept a firm hold on the rope.",
+        "The manager gave a firm answer."
+      ],
+      "synonyms": [
+        "solid",
+        "steady"
+      ],
+      "antonyms": [
+        "unstable"
+      ],
+      "related": [
+        "affirm",
+        "confirm"
+      ],
+      "semantic_expansions": [
+        "坚固的：质地坚实不松动",
+        "坚决的：立场笃定不打折扣",
+        "公司：英文重新借回 firm 作营业实体"
+      ]
+    },
+    {
+      "id": "affirm",
+      "word": "affirm",
+      "pos": "verb",
+      "phonetic": "/əˈfɜːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "firmare"
+      ],
+      "root_logic": "af-（ad- 靠向）+ firm（坚固）→ 把话坚定地确认下来",
+      "origin": "拉丁语 affirmare（使确定），来自 ad＋firmare",
+      "native_definition": "to state positively that something is true",
+      "core_concept": "pressing a claim until it stands solid – 把一句话说到坚硬稳固、坐实为真",
+      "core_image": "某人的表态被重重按下，像盖章一样坐实",
+      "chinese": [
+        "断言",
+        "确认",
+        "肯定"
+      ],
+      "examples": [
+        "The witness affirmed the account.",
+        "She affirmed her support for the plan."
+      ],
+      "synonyms": [
+        "assert",
+        "confirm"
+      ],
+      "antonyms": [
+        "deny"
+      ],
+      "related": [
+        "firm",
+        "confirm"
+      ],
+      "semantic_expansions": [
+        "断言/确认：把说法坚定地说到坐实为真"
+      ]
+    },
+    {
+      "id": "confirm",
+      "word": "confirm",
+      "pos": "verb",
+      "phonetic": "/kənˈfɜːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "firmare"
+      ],
+      "root_logic": "con-（完全）+ firm（坚固）→ 使原先的话头被完全坐实",
+      "origin": "拉丁语 confirmare（加强确认），来自 con＋firmare",
+      "native_definition": "to show that something is true, certain, or definite",
+      "core_concept": "settling a suspicion into a fixed fact – 把尚不确定的事坐实为定局",
+      "core_image": "机票座位号得到第二处核对，原先的犹豫落了地",
+      "chinese": [
+        "证实",
+        "确认",
+        "批准"
+      ],
+      "examples": [
+        "The test confirmed the diagnosis.",
+        "Please confirm your attendance by Friday."
+      ],
+      "synonyms": [
+        "verify",
+        "validate"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "related": [
+        "firm",
+        "affirm"
+      ],
+      "semantic_expansions": [
+        "证实/确认：使不确定之事坐实为确定事实"
+      ]
+    },
+    {
+      "id": "announce",
+      "word": "announce",
+      "pos": "verb",
+      "phonetic": "/əˈnaʊns/",
+      "decomposable": "root",
+      "root_ids": [
+        "nuntiare"
+      ],
+      "root_logic": "an-（ad- 靠向）+ nounce（通告）→ 把消息正式说到众人面前",
+      "origin": "拉丁语 annuntiare（宣告），来自 ad＋nuntiare",
+      "native_definition": "to make something known publicly and formally",
+      "core_concept": "bringing a piece of news to the crowd's attention – 把一则消息正式送达众人面前",
+      "core_image": "主持人上台，向全场公开念出那条新消息",
+      "chinese": [
+        "宣布",
+        "宣告",
+        "公布"
+      ],
+      "examples": [
+        "The company announced a new product.",
+        "They announced the winner last night."
+      ],
+      "synonyms": [
+        "declare",
+        "proclaim"
+      ],
+      "antonyms": [
+        "conceal"
+      ],
+      "related": [
+        "denounce",
+        "pronounce"
+      ],
+      "semantic_expansions": [
+        "宣布/公布：把消息正式公开告知众人"
+      ]
+    },
+    {
+      "id": "denounce",
+      "word": "denounce",
+      "pos": "verb",
+      "phonetic": "/dɪˈnaʊns/",
+      "decomposable": "root",
+      "root_ids": [
+        "nuntiare"
+      ],
+      "root_logic": "de-（向下、出）+ nounce（通告）→ 当众公开谴责、斥责",
+      "origin": "拉丁语 denuntiare（正式告知、谴责）",
+      "native_definition": "to publicly condemn or strongly criticize",
+      "core_concept": "speaking a public farewell of blame against someone – 当众发布对某人的公开谴责",
+      "core_image": "发言人站在人前，把某种丑行当众指认出来",
+      "chinese": [
+        "谴责",
+        "告发",
+        "公开指责"
+      ],
+      "examples": [
+        "The mayor denounced the violence.",
+        "Critics denounced the new policy."
+      ],
+      "synonyms": [
+        "condemn",
+        "criticize"
+      ],
+      "antonyms": [
+        "praise"
+      ],
+      "related": [
+        "announce",
+        "pronounce"
+      ],
+      "semantic_expansions": [
+        "谴责/公开指责：当众批判某种言行"
+      ]
+    },
+    {
+      "id": "pronounce",
+      "word": "pronounce",
+      "pos": "verb",
+      "phonetic": "/prəˈnaʊns/",
+      "decomposable": "root",
+      "root_ids": [
+        "nuntiare"
+      ],
+      "root_logic": "pro-（向前）+ nounce（通告）→ 把音从往前送出来正式说清",
+      "origin": "拉丁语 pronuntiare（宣读出、说出）",
+      "native_definition": "to speak a word with its proper sound, or declare officially",
+      "core_concept": "pushing a sound out to the front so it is clearly heard – 把音节向前送出、让人听清",
+      "core_image": "舌尖把每个音节推到前面，清清楚楚念出来",
+      "chinese": [
+        "发音",
+        "宣布",
+        "宣判"
+      ],
+      "examples": [
+        "How do you pronounce this word?",
+        "The judge pronounced the sentence."
+      ],
+      "synonyms": [
+        "enunciate",
+        "declare"
+      ],
+      "antonyms": [
+        "mumble"
+      ],
+      "related": [
+        "announce",
+        "denounce"
+      ],
+      "semantic_expansions": [
+        "发音：把语音正确地念出来",
+        "宣判/宣布：正式说出具有效力的结论"
+      ]
+    },
+    {
+      "id": "courage",
+      "word": "courage",
+      "pos": "noun",
+      "phonetic": "/ˈkʌrɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "cour（心）+ -age → 把心放进胸膛去面对凶险的一种力量",
+      "origin": "法语 courage，来自 cœur（心）",
+      "native_definition": "the ability to face danger or difficulty without giving in",
+      "core_concept": "the strength one draws from the heart when pressure mounts – 压力压顶时从心里提出的那股劲",
+      "core_image": "一个人在威胁面前按住心跳，仍朝前迈出一步",
+      "chinese": [
+        "勇气",
+        "胆量"
+      ],
+      "examples": [
+        "It took great courage to speak up.",
+        "Soldiers fought with courage."
+      ],
+      "synonyms": [
+        "bravery",
+        "nerve"
+      ],
+      "antonyms": [
+        "timidity"
+      ],
+      "related": [
+        "encourage",
+        "discourage"
+      ],
+      "semantic_expansions": [
+        "勇气/胆量：面对凶险时内心撑起的力量"
+      ]
+    },
+    {
+      "id": "encourage",
+      "word": "encourage",
+      "pos": "verb",
+      "phonetic": "/ɪnˈkʌrɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "en-（使进入）+ courage（勇气）→ 使勇气注入人心中",
+      "origin": "法语 encourager，来自 en＋courage",
+      "native_definition": "to give someone confidence or support to do something",
+      "core_concept": "pouring courage into another's heart so they dare – 把勇气注进对方心里让他敢去行动",
+      "core_image": "一只手搭上肩，对方心里便多了迈步的底气",
+      "chinese": [
+        "鼓励",
+        "激励",
+        "支持"
+      ],
+      "examples": [
+        "The coach encouraged the players.",
+        "She encouraged me to apply."
+      ],
+      "synonyms": [
+        "motivate",
+        "inspire"
+      ],
+      "antonyms": [
+        "discourage"
+      ],
+      "related": [
+        "courage",
+        "discourage"
+      ],
+      "semantic_expansions": [
+        "鼓励/激励：把信心和勇气送入他人心中"
+      ]
+    },
+    {
+      "id": "discourage",
+      "word": "discourage",
+      "pos": "verb",
+      "phonetic": "/dɪsˈkʌrɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "dis-（除去）+ courage（勇气）→ 把勇气从人心里抽走",
+      "origin": "法语 décourager，来自 dis＋courage",
+      "native_definition": "to make someone lose confidence or willingness",
+      "core_concept": "pulling the heart's courage away so one no longer dares – 把心中勇气抽走、让人不敢再试",
+      "core_image": "一连串打击让原本高涨的心气一点点泄掉",
+      "chinese": [
+        "使气馁",
+        "阻止",
+        "使灰心"
+      ],
+      "examples": [
+        "Don't let failure discourage you.",
+        "The price discouraged most buyers."
+      ],
+      "synonyms": [
+        "dishearten",
+        "deter"
+      ],
+      "antonyms": [
+        "encourage"
+      ],
+      "related": [
+        "courage",
+        "encourage"
+      ],
+      "semantic_expansions": [
+        "使气馁/使灰心：抽走人行动的勇气"
+      ]
+    },
+    {
+      "id": "cordial",
+      "word": "cordial",
+      "pos": "adjective",
+      "phonetic": "/ˈkɔːdiəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "cord（心）+ -ial → 从心里发出、热诚真挚的",
+      "origin": "中世纪拉丁语 cordialis（与心有关的），来自 cor",
+      "native_definition": "warm and friendly in manner",
+      "core_concept": "coming straight from the heart, unguarded and warm – 由心直接流出、真挚热诚",
+      "core_image": "主人握住的双手带有发自内心的热乎劲",
+      "chinese": [
+        "热诚的",
+        "亲切的",
+        "由衷的"
+      ],
+      "examples": [
+        "The two leaders had a cordial meeting.",
+        "He gave us a cordial welcome."
+      ],
+      "synonyms": [
+        "warm",
+        "friendly"
+      ],
+      "antonyms": [
+        "hostile"
+      ],
+      "related": [
+        "courage",
+        "encourage"
+      ],
+      "semantic_expansions": [
+        "热诚的/由衷的：从心里直接流出、真挚亲切"
+      ]
+    },
+    {
+      "id": "patient",
+      "word": "patient",
+      "pos": "noun",
+      "phonetic": "/ˈpeɪʃnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pati"
+      ],
+      "root_logic": "pati（承受）→ 愿意稳稳承受病情或等待而不急躁",
+      "origin": "拉丁语 patiens（忍耐的、承受的），来自 pati",
+      "native_definition": "a person receiving medical care, or someone able to wait calmly",
+      "core_concept": "one who bears an affliction steadily without complaint – 愿意稳稳承受病痛或等待而不急躁",
+      "core_image": "病床上的人静静躺着，接受照护、不怨不躁",
+      "chinese": [
+        "病人",
+        "有耐心的"
+      ],
+      "examples": [
+        "The nurse checked on each patient.",
+        "Be patient with the slow process."
+      ],
+      "synonyms": [
+        "invalid",
+        "tolerant"
+      ],
+      "antonyms": [
+        "impatient"
+      ],
+      "related": [
+        "patience",
+        "impatient"
+      ],
+      "semantic_expansions": [
+        "病人：正在承受、接受治疗的人",
+        "有耐心的：能稳住等待不焦躁"
+      ]
+    },
+    {
+      "id": "patience",
+      "word": "patience",
+      "pos": "noun",
+      "phonetic": "/ˈpeɪʃns/",
+      "decomposable": "root",
+      "root_ids": [
+        "pati"
+      ],
+      "root_logic": "pati（承受）+ -ence → 稳稳承受等待与麻烦的能力",
+      "origin": "拉丁语 patientia（忍耐），来自 pati",
+      "native_definition": "the capacity to accept delay or trouble without annoyance",
+      "core_concept": "the steady bearing of waiting and hardship without snapping – 面对等待与麻烦仍稳稳不放、不崩裂",
+      "core_image": "一个人排队等了很久，仍平静如初不抱怨",
+      "chinese": [
+        "耐心",
+        "忍耐"
+      ],
+      "examples": [
+        "The task requires great patience.",
+        "She waited with patience for the news."
+      ],
+      "synonyms": [
+        "forbearance",
+        "perseverance"
+      ],
+      "antonyms": [
+        "impatience"
+      ],
+      "related": [
+        "patient",
+        "impatient"
+      ],
+      "semantic_expansions": [
+        "耐心/忍耐：承受等待与麻烦而不急躁崩裂的能力"
+      ]
+    },
+    {
+      "id": "impatient",
+      "word": "impatient",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈpeɪʃnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pati"
+      ],
+      "root_logic": "im-（不）+ patient（忍耐）→ 不能安心等待、急不可耐",
+      "origin": "拉丁语 impatientia（不耐烦），来自 in＋pati",
+      "native_definition": "unable to wait calmly, or eager to have something happen soon",
+      "core_concept": "unwilling to bear delay, wanting it now – 不愿承受片刻等待、立时要到",
+      "core_image": "排队者来回数着步子，恨不能立刻轮到自己",
+      "chinese": [
+        "不耐烦的",
+        "急切的"
+      ],
+      "examples": [
+        "He grew impatient with the delays.",
+        "Children are impatient for the holiday."
+      ],
+      "synonyms": [
+        "restless",
+        "anxious"
+      ],
+      "antonyms": [
+        "patient"
+      ],
+      "related": [
+        "patient",
+        "patience"
+      ],
+      "semantic_expansions": [
+        "不耐烦的/急切的：不能安心等待、急于成事"
+      ]
+    },
+    {
+      "id": "passion",
+      "word": "passion",
+      "pos": "noun",
+      "phonetic": "/ˈpæʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pati"
+      ],
+      "root_logic": "pass（承受）+ -ion → 强烈到使人几乎被卷挟过去的情感",
+      "origin": "拉丁语 passio（受苦、激烈情感），来自 pati",
+      "native_definition": "a very strong feeling, especially love or enthusiasm",
+      "core_concept": "an emotion so strong one feels swept or carried by it – 强烈到像被裹挟着走的情感",
+      "core_image": "一个人谈起所爱之事时，眼里近乎着了火",
+      "chinese": [
+        "激情",
+        "热情",
+        "酷爱"
+      ],
+      "examples": [
+        "She has a passion for music.",
+        "The argument was fought with passion."
+      ],
+      "synonyms": [
+        "enthusiasm",
+        "ardor"
+      ],
+      "antonyms": [
+        "apathy"
+      ],
+      "related": [
+        "passive",
+        "compassion"
+      ],
+      "semantic_expansions": [
+        "激情/热情：强烈到几乎把人卷走的情感",
+        "酷爱：对某事近乎难以自抑的热衷"
+      ]
+    },
+    {
+      "id": "passive",
+      "word": "passive",
+      "pos": "adjective",
+      "phonetic": "/ˈpæsɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "pati"
+      ],
+      "root_logic": "pass（承受）+ -ive → 处于承受、被作用一方的",
+      "origin": "拉丁语 passivus（被动的），来自 pati",
+      "native_definition": "showing no active resistance; receiving action",
+      "core_concept": "on the receiving end of action without doing – 处于被作用而自身不主动的一方",
+      "core_image": "一个人只是静静承受外力，不去推、不去挡",
+      "chinese": [
+        "消极的",
+        "被动的",
+        "顺从的"
+      ],
+      "examples": [
+        "He took a passive role in the debate.",
+        "The patient remained passive during treatment."
+      ],
+      "synonyms": [
+        "inactive",
+        "submissive"
+      ],
+      "antonyms": [
+        "active"
+      ],
+      "related": [
+        "passion",
+        "compassion"
+      ],
+      "semantic_expansions": [
+        "被动的/消极的：处于被作用而不主动推动"
+      ]
+    },
+    {
+      "id": "compassion",
+      "word": "compassion",
+      "pos": "noun",
+      "phonetic": "/kəmˈpæʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pati"
+      ],
+      "root_logic": "com-（共同）+ passion（承受）→ 与他人共同承受其苦",
+      "origin": "法语 compassion，来自拉丁语 com＋pati",
+      "native_definition": "sympathetic concern for the suffering of others",
+      "core_concept": "bearing another's pain alongside them as if shared – 与他人一同承受对方的苦楚",
+      "core_image": "老人跌倒时，旁人心里也像跟着疼了一下",
+      "chinese": [
+        "同情",
+        "怜悯"
+      ],
+      "examples": [
+        "She showed great compassion for the refugees.",
+        "Compassion moved the doctor to volunteer."
+      ],
+      "synonyms": [
+        "sympathy",
+        "mercy"
+      ],
+      "antonyms": [
+        "indifference"
+      ],
+      "related": [
+        "passion",
+        "passive"
+      ],
+      "semantic_expansions": [
+        "同情/怜悯：与他人的苦难一同承受而产生的关怀"
+      ]
+    },
+    {
+      "id": "concede",
+      "word": "concede",
+      "pos": "verb",
+      "phonetic": "/kənˈsiːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "con-（完全）+ ced（让出）→ 完全让出、承认对方有理",
+      "origin": "拉丁语 concedere（让与），来自 con＋cedere",
+      "native_definition": "to admit something is true, or give up a claim",
+      "core_concept": "stepping fully aside to let the other side pass – 完全退让、把位置让给对方",
+      "core_image": "争执中一方慢慢退后，把原来的立场交出去",
+      "chinese": [
+        "承认",
+        "让步",
+        "让出"
+      ],
+      "examples": [
+        "She conceded that she was wrong.",
+        "The team conceded two goals."
+      ],
+      "synonyms": [
+        "admit",
+        "yield"
+      ],
+      "antonyms": [
+        "deny"
+      ],
+      "related": [
+        "process",
+        "proceed",
+        "precede"
+      ],
+      "semantic_expansions": [
+        "承认/让步：让出立场、承认对方有理"
+      ],
+      "recall_hint": "ced（让出）走到完全退让那一步，不再争持"
+    },
+    {
+      "id": "precede",
+      "word": "precede",
+      "pos": "verb",
+      "phonetic": "/prɪˈsiːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "pre-（在前）+ ced（行走）→ 走在他人之前",
+      "origin": "拉丁语 praecedere（走在前面），来自 prae＋cedere",
+      "native_definition": "to come before someone or something in time or order",
+      "core_concept": "walking out ahead so others follow in sequence – 走在队伍最前面、他人随后",
+      "core_image": "开幕的号角声在前，正戏紧随其后上演",
+      "chinese": [
+        "在…之前",
+        "先于"
+      ],
+      "examples": [
+        "A brief speech preceded the ceremony.",
+        "The storm was preceded by dark clouds."
+      ],
+      "synonyms": [
+        "antecede",
+        "forerun"
+      ],
+      "antonyms": [
+        "follow"
+      ],
+      "related": [
+        "process",
+        "proceed",
+        "precedent"
+      ],
+      "semantic_expansions": [
+        "在…之前：时间或次序上先行一步"
+      ]
+    },
+    {
+      "id": "recede",
+      "word": "recede",
+      "pos": "verb",
+      "phonetic": "/rɪˈsiːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "re-（向后）+ ced（行走）→ 向后退去、退远",
+      "origin": "拉丁语 recedere（后退），来自 re＋cedere",
+      "native_definition": "to move back or appear to move away",
+      "core_concept": "walking backward, drawing away from the front – 朝后退行、远离当前",
+      "core_image": "退潮时水面一点点斜着往回缩",
+      "chinese": [
+        "退去",
+        "后移",
+        "减退"
+      ],
+      "examples": [
+        "The floods slowly receded.",
+        "The coastline receded into mist."
+      ],
+      "synonyms": [
+        "retreat",
+        "ebb"
+      ],
+      "antonyms": [
+        "approach"
+      ],
+      "related": [
+        "process",
+        "proceed",
+        "concede"
+      ],
+      "semantic_expansions": [
+        "退去/减退：向后退行、声势逐渐减弱"
+      ]
+    },
+    {
+      "id": "precedent",
+      "word": "precedent",
+      "pos": "noun",
+      "phonetic": "/ˈpresɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "pre-（在前）+ ced（行走）+ -ent → 走在前、可作先例再对照",
+      "origin": "拉丁语 praecedens（在先的），来自 praecedere",
+      "native_definition": "an earlier event or ruling used as an example for later ones",
+      "core_concept": "the earlier case that walks ahead and guides later ones – 走在前头、供后来者参照的先例",
+      "core_image": "存档的旧卷宗摆在前，后来的案子便照着走",
+      "chinese": [
+        "先例",
+        "判例"
+      ],
+      "examples": [
+        "The ruling set a legal precedent.",
+        "There is no precedent for this decision."
+      ],
+      "synonyms": [
+        "example",
+        "antecedent"
+      ],
+      "antonyms": [
+        "novelty"
+      ],
+      "related": [
+        "precede",
+        "process",
+        "successor"
+      ],
+      "semantic_expansions": [
+        "先例/判例：走在前、供后来者参照的既有之例"
+      ]
+    },
+    {
+      "id": "constant",
+      "word": "constant",
+      "pos": "adjective",
+      "phonetic": "/ˈkɒnstənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "con-（完全）+ stant（站立）→ 始终站定、不变化的",
+      "origin": "拉丁语 constans（不变的），来自 con＋stare",
+      "native_definition": "not changing; happening all the time",
+      "core_concept": "standing always in one fixed position unchanged – 一直站在原处、始终不变",
+      "core_image": "桌上的钟摆按同一节奏不停摆动，从不停歇",
+      "chinese": [
+        "恒定的",
+        "持续的",
+        "不变的"
+      ],
+      "examples": [
+        "The clock keeps a constant speed.",
+        "She lives under constant pressure."
+      ],
+      "synonyms": [
+        "steady",
+        "continuous"
+      ],
+      "antonyms": [
+        "variable"
+      ],
+      "related": [
+        "state",
+        "stable",
+        "instant"
+      ],
+      "semantic_expansions": [
+        "恒定的/持续的：一直站定不变、不间断"
+      ]
+    },
+    {
+      "id": "instant",
+      "word": "instant",
+      "pos": "noun",
+      "phonetic": "/ˈɪnstənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "in-（在上）+ stant（站立）→ 紧贴着眼前的当下、正立在当处",
+      "origin": "拉丁语 instans（正在进行的），来自 instare（立于其上）",
+      "native_definition": "a very short moment of time; happening immediately",
+      "core_concept": "the point that stands right up against the now – 紧贴在当下这一点上",
+      "core_image": "电光火石间那一瞬，几乎来不及眨眼",
+      "chinese": [
+        "片刻",
+        "瞬间",
+        "立刻"
+      ],
+      "examples": [
+        "He paused for an instant.",
+        "The message reached me in an instant."
+      ],
+      "synonyms": [
+        "moment",
+        "flash"
+      ],
+      "antonyms": [
+        "eternity"
+      ],
+      "related": [
+        "constant",
+        "instantaneous"
+      ],
+      "semantic_expansions": [
+        "片刻/瞬间：紧贴现在的极短一瞬",
+        "立刻：就在当下发生"
+      ]
+    },
+    {
+      "id": "instantaneous",
+      "word": "instantaneous",
+      "pos": "adjective",
+      "phonetic": "/ˌɪnstənˈteɪniəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "instant（瞬间）+ -aneous → 发生在转眼之间、同时即至",
+      "origin": "英语 instantaneous，来自 instant",
+      "native_definition": "happening immediately, without delay",
+      "core_concept": "taking but the blink of an instant – 眨眼之间即发生、毫不拖延",
+      "core_image": "按下的按钮与亮起的光几乎同时完成",
+      "chinese": [
+        "瞬间的",
+        "即时的"
+      ],
+      "examples": [
+        "The site gave instantaneous feedback.",
+        "Death was instantaneous."
+      ],
+      "synonyms": [
+        "immediate",
+        "split-second"
+      ],
+      "antonyms": [
+        "gradual"
+      ],
+      "related": [
+        "instant",
+        "constant"
+      ],
+      "semantic_expansions": [
+        "瞬间的/即时的：在眨眼之间即发生"
+      ]
+    },
+    {
+      "id": "stable",
+      "word": "stable",
+      "pos": "adjective",
+      "phonetic": "/ˈsteɪbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "st（站立）+ -able → 能稳稳站住、不会倒下",
+      "origin": "拉丁语 stabilis（稳固的），来自 stare（站立）",
+      "native_definition": "steady and not likely to change or collapse",
+      "core_concept": "able to stand steadily without falling – 能安稳站立、不易倾倒",
+      "core_image": "一栋楼的地基打得深，风吹只晃不动",
+      "chinese": [
+        "稳定的",
+        "牢固的"
+      ],
+      "examples": [
+        "The patient's condition is stable.",
+        "They built on stable ground."
+      ],
+      "synonyms": [
+        "steady",
+        "secure"
+      ],
+      "antonyms": [
+        "unstable"
+      ],
+      "related": [
+        "state",
+        "constant",
+        "establish"
+      ],
+      "semantic_expansions": [
+        "稳定的/牢固的：能稳立不倒、不易改变"
+      ]
+    },
+    {
+      "id": "establish",
+      "word": "establish",
+      "pos": "verb",
+      "phonetic": "/ɪˈstæblɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "est-（站）+ -abl- + -ish → 使某物立起来并稳稳站住",
+      "origin": "拉丁语 stabilire（使稳固），来自 stare",
+      "native_definition": "to set up something durable, or prove something as fact",
+      "core_concept": "raising something onto solid footing where it stands firm – 把事物立起来使其稳固站定",
+      "core_image": "一块碑被深深埋住竖好，从此站在那里不再倒",
+      "chinese": [
+        "建立",
+        "设立",
+        "确立"
+      ],
+      "examples": [
+        "They established a new school.",
+        "The theory was established by evidence."
+      ],
+      "synonyms": [
+        "found",
+        "form"
+      ],
+      "antonyms": [
+        "dismantle"
+      ],
+      "related": [
+        "state",
+        "stable",
+        "constitution"
+      ],
+      "semantic_expansions": [
+        "建立/确立：把事物立稳、使其长久站定"
+      ]
+    },
+    {
+      "id": "manufacture",
+      "word": "manufacture",
+      "pos": "verb",
+      "phonetic": "/ˌmænjuˈfæktʃə/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "manu-（手）+ fact（做）+ -ure → 原指用手做出，后指量产制造",
+      "origin": "拉丁语 manufactura（手工制造），来自 manus＋facere",
+      "native_definition": "to produce goods in large quantities",
+      "core_concept": "making things by hand or machine at scale – 通过手或机器大批产出成品",
+      "core_image": "流水线上工位相接，一件件成品被造出来",
+      "chinese": [
+        "制造",
+        "生产"
+      ],
+      "examples": [
+        "The plant manufactures car parts.",
+        "They manufacture goods for export."
+      ],
+      "synonyms": [
+        "produce",
+        "fabricate"
+      ],
+      "antonyms": [
+        "consume"
+      ],
+      "related": [
+        "efficient",
+        "effect",
+        "sufficient"
+      ],
+      "semantic_expansions": [
+        "制造/生产：用手或机器成批做出物品"
+      ]
+    },
+    {
+      "id": "beneficial",
+      "word": "beneficial",
+      "pos": "adjective",
+      "phonetic": "/ˌbenɪˈfɪʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "bene-（好）+ fic（做出）+ -ial → 造出好处的、有利的",
+      "origin": "拉丁语 beneficialis（有益的），来自 beneficium（恩惠）",
+      "native_definition": "producing good or helpful results",
+      "core_concept": "making good come forth for someone – 为某人造出好处",
+      "core_image": "一场及时雨洒下，田地因此长势更好",
+      "chinese": [
+        "有益的",
+        "有利的"
+      ],
+      "examples": [
+        "Regular exercise is beneficial to health.",
+        "The new law is beneficial to farmers."
+      ],
+      "synonyms": [
+        "advantageous",
+        "helpful"
+      ],
+      "antonyms": [
+        "harmful"
+      ],
+      "related": [
+        "efficient",
+        "effect",
+        "sufficient"
+      ],
+      "semantic_expansions": [
+        "有益的/有利的：能为人带来好处与助益"
+      ]
+    },
+    {
+      "id": "confine",
+      "word": "confine",
+      "pos": "verb",
+      "phonetic": "/kənˈfaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "con-（共同）+ fin（界限）→ 把范围限制在共同划定的边界内",
+      "origin": "拉丁语 confinare（限定边界），来自 con＋finis",
+      "native_definition": "to keep within set limits, or restrict a person",
+      "core_concept": "holding something inside a fixed boundary line – 把事物限制在划定的界线之内",
+      "core_image": "乱跑的小动物被围栏圈回，出不了那道边",
+      "chinese": [
+        "限制",
+        "禁闭",
+        "局限于"
+      ],
+      "examples": [
+        "The fire was confined to one room.",
+        "Please confine your remarks to the topic."
+      ],
+      "synonyms": [
+        "restrict",
+        "limit"
+      ],
+      "antonyms": [
+        "release"
+      ],
+      "related": [
+        "final",
+        "finish",
+        "define"
+      ],
+      "semantic_expansions": [
+        "限制/局限于：把范围关在既定边界之内"
+      ]
+    },
+    {
+      "id": "define",
+      "word": "define",
+      "pos": "verb",
+      "phonetic": "/dɪˈfaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "de-（下、定）+ fin（界限）→ 为事物的边界下定义",
+      "origin": "拉丁语 definire（定界限），来自 de＋finire",
+      "native_definition": "to state the exact meaning or limits of something",
+      "core_concept": "setting down the boundary so a thing is clearly delimited – 划下界线把含义确定下来",
+      "core_image": "词典编者用一句话圈出那个词的确切边界",
+      "chinese": [
+        "定义",
+        "界定",
+        "明确"
+      ],
+      "examples": [
+        "Please define the key terms.",
+        "The rules define what is allowed."
+      ],
+      "synonyms": [
+        "demarcate",
+        "specify"
+      ],
+      "antonyms": [
+        "obscure"
+      ],
+      "related": [
+        "definite",
+        "definition",
+        "refine"
+      ],
+      "semantic_expansions": [
+        "定义/界定：划定精确边界以确定含义"
+      ]
+    },
+    {
+      "id": "refine",
+      "word": "refine",
+      "pos": "verb",
+      "phonetic": "/rɪˈfaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "fin"
+      ],
+      "root_logic": "re-（再次）+ fin（末端、纯净）→ 反复提纯、去除杂质",
+      "origin": "拉丁语 raffinare（提纯），来自 re＋fin",
+      "native_definition": "to purify, or improve by removing unwanted parts",
+      "core_concept": "re-passing something to its clean end state, stripping impurity – 反复过一遍把杂质滤净",
+      "core_image": "粗矿在炉中一再炼制，杂质一层层被剔除",
+      "chinese": [
+        "精炼",
+        "提纯",
+        "改进"
+      ],
+      "examples": [
+        "The company refines crude oil.",
+        "They refined the design over months."
+      ],
+      "synonyms": [
+        "purify",
+        "polish"
+      ],
+      "antonyms": [
+        "corrupt"
+      ],
+      "related": [
+        "define",
+        "definite",
+        "final"
+      ],
+      "semantic_expansions": [
+        "精炼/提纯：反复处理以滤除杂质",
+        "改进：去掉粗糙处使其更完善"
+      ]
+    },
+    {
+      "id": "offer",
+      "word": "offer",
+      "pos": "verb",
+      "phonetic": "/ˈɒfə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "of-（ob- 迎面）+ fer（带来）→ 把东西带到面前供人取舍",
+      "origin": "拉丁语 offerre（呈上），来自 ob＋ferre",
+      "native_definition": "to present something for acceptance or rejection, or a deal",
+      "core_concept": "bringing a thing up to someone's face to take or refuse – 把物件呈到人前供其接或拒",
+      "core_image": "托盘被端到宾客面前，任他取用或推回",
+      "chinese": [
+        "提供",
+        "提出",
+        "给予"
+      ],
+      "examples": [
+        "She offered him a cup of tea.",
+        "He offered to help with the move."
+      ],
+      "synonyms": [
+        "present",
+        "propose"
+      ],
+      "antonyms": [
+        "withdraw"
+      ],
+      "related": [
+        "prefer",
+        "refer",
+        "transfer"
+      ],
+      "semantic_expansions": [
+        "提供/提出：把事物呈到面前供人选择"
+      ]
+    },
+    {
+      "id": "refer",
+      "word": "refer",
+      "pos": "verb",
+      "phonetic": "/rɪˈfɜː(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "re-（回）+ fer（携带）→ 把目光或话题带回某处",
+      "origin": "拉丁语 referre（带回、提及），来自 re＋ferre",
+      "native_definition": "to direct attention to, or mention as a source",
+      "core_concept": "carrying attention back to a source or named thing – 把注意力带回所指之处",
+      "core_image": "读者顺着页码把问题带回那一段原文",
+      "chinese": [
+        "提到",
+        "参考",
+        "查阅"
+      ],
+      "examples": [
+        "She referred to the report.",
+        "The doctor referred him to a specialist."
+      ],
+      "synonyms": [
+        "cite",
+        "mention"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "related": [
+        "prefer",
+        "infer",
+        "transfer"
+      ],
+      "semantic_expansions": [
+        "提到/参考：把注意力引回某一来源或对象"
+      ]
+    },
+    {
+      "id": "confer",
+      "word": "confer",
+      "pos": "verb",
+      "phonetic": "/kənˈfɜː(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "con-（共同）+ fer（携带）→ 共同带着意见来商谈，或把好处授予人",
+      "origin": "拉丁语 conferre（带到一起、授予）",
+      "native_definition": "to award or grant, or to discuss with others",
+      "core_concept": "bringing views together around a table, or bestowing worth on someone – 把众人意见带到一起商谈，或把一项荣誉带给人",
+      "core_image": "委员会围坐一处商议，最终把奖项授出",
+      "chinese": [
+        "授予",
+        "商讨",
+        "给予"
+      ],
+      "examples": [
+        "The board conferred an honorary degree.",
+        "They conferred before deciding."
+      ],
+      "synonyms": [
+        "grant",
+        "consult"
+      ],
+      "antonyms": [
+        "withhold"
+      ],
+      "related": [
+        "prefer",
+        "refer",
+        "transfer"
+      ],
+      "semantic_expansions": [
+        "授予/给予：把荣誉或权利交到人手上",
+        "商讨：把众人意见带到一处合计"
+      ]
+    },
+    {
+      "id": "infer",
+      "word": "infer",
+      "pos": "verb",
+      "phonetic": "/ɪnˈfɜː(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "in-（入内）+ fer（携带）→ 从材料中把结论带出来",
+      "origin": "拉丁语 inferre（带入、推断），来自 in＋ferre",
+      "native_definition": "to conclude by reasoning from evidence",
+      "core_concept": "carrying a conclusion out from the given facts – 从已有材料中推出结论",
+      "core_image": "侦探从一串脚印里推出刚才发生的事",
+      "chinese": [
+        "推断",
+        "推论",
+        "暗示"
+      ],
+      "examples": [
+        "We can infer the outcome from the data.",
+        "I inferred from his tone that he was angry."
+      ],
+      "synonyms": [
+        "deduce",
+        "surmise"
+      ],
+      "antonyms": [
+        "guess"
+      ],
+      "related": [
+        "prefer",
+        "refer",
+        "confer"
+      ],
+      "semantic_expansions": [
+        "推断/推论：从已有事实中推出结论"
+      ]
     }
   ]
 }

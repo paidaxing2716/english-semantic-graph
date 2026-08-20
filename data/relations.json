@@ -4050,6 +4050,210 @@
       "to": "directory",
       "type": "root",
       "note": "direct（指引）+ -ory（场所）→ 用来指引人找到对象的名册或路径组织"
+    },
+    {
+      "from": "firmare",
+      "to": "firm",
+      "type": "root",
+      "note": "firm（坚固）→ 牢固不移、确定的"
+    },
+    {
+      "from": "firmare",
+      "to": "affirm",
+      "type": "root",
+      "note": "af-（ad- 靠向）+ firm（坚固）→ 把话坚定地确认下来"
+    },
+    {
+      "from": "firmare",
+      "to": "confirm",
+      "type": "root",
+      "note": "con-（完全）+ firm（坚固）→ 使原先的话头被完全坐实"
+    },
+    {
+      "from": "nuntiare",
+      "to": "announce",
+      "type": "root",
+      "note": "an-（ad- 靠向）+ nounce（通告）→ 把消息正式说到众人面前"
+    },
+    {
+      "from": "nuntiare",
+      "to": "denounce",
+      "type": "root",
+      "note": "de-（向下、出）+ nounce（通告）→ 当众公开谴责、斥责"
+    },
+    {
+      "from": "nuntiare",
+      "to": "pronounce",
+      "type": "root",
+      "note": "pro-（向前）+ nounce（通告）→ 把音从往前送出来正式说清"
+    },
+    {
+      "from": "cors",
+      "to": "courage",
+      "type": "root",
+      "note": "cour（心）+ -age → 把心放进胸膛去面对凶险的一种力量"
+    },
+    {
+      "from": "cors",
+      "to": "encourage",
+      "type": "root",
+      "note": "en-（使进入）+ courage（勇气）→ 使勇气注入人心中"
+    },
+    {
+      "from": "cors",
+      "to": "discourage",
+      "type": "root",
+      "note": "dis-（除去）+ courage（勇气）→ 把勇气从人心里抽走"
+    },
+    {
+      "from": "cors",
+      "to": "cordial",
+      "type": "root",
+      "note": "cord（心）+ -ial → 从心里发出、热诚真挚的"
+    },
+    {
+      "from": "pati",
+      "to": "patient",
+      "type": "root",
+      "note": "pati（承受）→ 愿意稳稳承受病情或等待而不急躁"
+    },
+    {
+      "from": "pati",
+      "to": "patience",
+      "type": "root",
+      "note": "pati（承受）+ -ence → 稳稳承受等待与麻烦的能力"
+    },
+    {
+      "from": "pati",
+      "to": "impatient",
+      "type": "root",
+      "note": "im-（不）+ patient（忍耐）→ 不能安心等待、急不可耐"
+    },
+    {
+      "from": "pati",
+      "to": "passion",
+      "type": "root",
+      "note": "pass（承受）+ -ion → 强烈到使人几乎被卷挟过去的情感"
+    },
+    {
+      "from": "pati",
+      "to": "passive",
+      "type": "root",
+      "note": "pass（承受）+ -ive → 处于承受、被作用一方的"
+    },
+    {
+      "from": "pati",
+      "to": "compassion",
+      "type": "root",
+      "note": "com-（共同）+ passion（承受）→ 与他人共同承受其苦"
+    },
+    {
+      "from": "ced",
+      "to": "concede",
+      "type": "root",
+      "note": "con-（完全）+ ced（让出）→ 完全让出、承认对方有理"
+    },
+    {
+      "from": "ced",
+      "to": "precede",
+      "type": "root",
+      "note": "pre-（在前）+ ced（行走）→ 走在他人之前"
+    },
+    {
+      "from": "ced",
+      "to": "recede",
+      "type": "root",
+      "note": "re-（向后）+ ced（行走）→ 向后退去、退远"
+    },
+    {
+      "from": "ced",
+      "to": "precedent",
+      "type": "root",
+      "note": "pre-（在前）+ ced（行走）+ -ent → 走在前、可作先例再对照"
+    },
+    {
+      "from": "sta",
+      "to": "constant",
+      "type": "root",
+      "note": "con-（完全）+ stant（站立）→ 始终站定、不变化的"
+    },
+    {
+      "from": "sta",
+      "to": "instant",
+      "type": "root",
+      "note": "in-（在上）+ stant（站立）→ 紧贴着眼前的当下、正立在当处"
+    },
+    {
+      "from": "sta",
+      "to": "instantaneous",
+      "type": "root",
+      "note": "instant（瞬间）+ -aneous → 发生在转眼之间、同时即至"
+    },
+    {
+      "from": "sta",
+      "to": "stable",
+      "type": "root",
+      "note": "st（站立）+ -able → 能稳稳站住、不会倒下"
+    },
+    {
+      "from": "sta",
+      "to": "establish",
+      "type": "root",
+      "note": "est-（站）+ -abl- + -ish → 使某物立起来并稳稳站住"
+    },
+    {
+      "from": "fac",
+      "to": "manufacture",
+      "type": "root",
+      "note": "manu-（手）+ fact（做）+ -ure → 原指用手做出，后指量产制造"
+    },
+    {
+      "from": "fac",
+      "to": "beneficial",
+      "type": "root",
+      "note": "bene-（好）+ fic（做出）+ -ial → 造出好处的、有利的"
+    },
+    {
+      "from": "fin",
+      "to": "confine",
+      "type": "root",
+      "note": "con-（共同）+ fin（界限）→ 把范围限制在共同划定的边界内"
+    },
+    {
+      "from": "fin",
+      "to": "define",
+      "type": "root",
+      "note": "de-（下、定）+ fin（界限）→ 为事物的边界下定义"
+    },
+    {
+      "from": "fin",
+      "to": "refine",
+      "type": "root",
+      "note": "re-（再次）+ fin（末端、纯净）→ 反复提纯、去除杂质"
+    },
+    {
+      "from": "ferre",
+      "to": "offer",
+      "type": "root",
+      "note": "of-（ob- 迎面）+ fer（带来）→ 把东西带到面前供人取舍"
+    },
+    {
+      "from": "ferre",
+      "to": "refer",
+      "type": "root",
+      "note": "re-（回）+ fer（携带）→ 把目光或话题带回某处"
+    },
+    {
+      "from": "ferre",
+      "to": "confer",
+      "type": "root",
+      "note": "con-（共同）+ fer（携带）→ 共同带着意见来商谈，或把好处授予人"
+    },
+    {
+      "from": "ferre",
+      "to": "infer",
+      "type": "root",
+      "note": "in-（入内）+ fer（携带）→ 从材料中把结论带出来"
     }
   ]
 }

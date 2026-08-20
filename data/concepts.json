@@ -283,7 +283,12 @@
         "stationary",
         "institution",
         "constitution",
-        "state"
+        "state",
+        "constant",
+        "instant",
+        "instantaneous",
+        "stable",
+        "establish"
       ]
     },
     {
@@ -351,7 +356,9 @@
         "deficiency",
         "efficiency",
         "proficiency",
-        "infectious"
+        "infectious",
+        "manufacture",
+        "beneficial"
       ]
     },
     {
@@ -396,7 +403,11 @@
         "procession",
         "succession",
         "successive",
-        "successful"
+        "successful",
+        "concede",
+        "precede",
+        "recede",
+        "precedent"
       ]
     },
     {
@@ -473,7 +484,10 @@
         "finish",
         "finite",
         "infinite",
-        "finance"
+        "finance",
+        "confine",
+        "define",
+        "refine"
       ]
     },
     {
@@ -1534,7 +1548,11 @@
         "prefer",
         "preference",
         "suffer",
-        "transfer"
+        "transfer",
+        "offer",
+        "refer",
+        "confer",
+        "infer"
       ]
     },
     {
@@ -1968,6 +1986,66 @@
         "sum",
         "summarize",
         "summary"
+      ]
+    },
+    {
+      "id": "concept-firmare-steady",
+      "concept": "to make firm and dependable",
+      "chinese": "使坚固稳固",
+      "core_image": "立柱被夯进土里，受推仍纹丝不动",
+      "root_ids": [
+        "firmare"
+      ],
+      "word_ids": [
+        "affirm",
+        "confirm",
+        "firm"
+      ]
+    },
+    {
+      "id": "concept-nuntiare-word",
+      "concept": "to carry and publish a message",
+      "chinese": "通告报信",
+      "core_image": "信使把消息送到广场中央对众人高声宣告",
+      "root_ids": [
+        "nuntiare"
+      ],
+      "word_ids": [
+        "announce",
+        "denounce",
+        "pronounce"
+      ]
+    },
+    {
+      "id": "concept-cors-heart",
+      "concept": "the heart as the seat of courage",
+      "chinese": "心与勇气",
+      "core_image": "胸腔中搏动的心支撑人迎着压力发力",
+      "root_ids": [
+        "cors"
+      ],
+      "word_ids": [
+        "cordial",
+        "courage",
+        "discourage",
+        "encourage"
+      ]
+    },
+    {
+      "id": "concept-pati-endure",
+      "concept": "to bear and endure without breaking",
+      "chinese": "承受忍耐",
+      "core_image": "人背负压下的重量原地稳住慢慢承受",
+      "root_ids": [
+        "pati"
+      ],
+      "word_ids": [
+        "compassion",
+        "impatient",
+        "passion",
+        "passive",
+        "patience",
+        "patient"
       ]
     }
   ]

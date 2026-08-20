@@ -14,7 +14,7 @@ v0.2.0  纸张词源地图改版 + 昼夜模式 + 视觉质量门  ✅ 已完成
 v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
-v1.0    考研词表中可结构化的部分（660/869 词，76%）← 当前
+v1.0    考研词表中可结构化的部分（694/869 词，80%）← 当前
 ```
 
 ---
@@ -292,6 +292,11 @@ python ai_pipeline/review.py merge candidates.json
         并补 finance / compartment / counterpart / perpetual / adjective / directory，
         660 词 · 117 词根。ordinary 与 coordinate、subordinate 三词共享"排列成序"，
         disrupt/abrupt/corrupt 靠前缀分工；solid 与 solvere（解开）同形异源，明确分开
+  - [x] 第三十一批（34 词，四词族批量 + 已有词根补充）：firmare（使坚固）
+        + nuntiare（通告）+ cors（心）+ pati（承受），并补 ced / sta / fac / fin / ferre
+        五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
+        confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
+        concede/recede/precede 靠前缀定"往后退/往前提"
   - [ ] 剩余 209 个已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
 - [ ] 学习模式：探索 / 复习 / 测试
 - [x] 部署为可访问的 Web 页面（GitHub Pages）

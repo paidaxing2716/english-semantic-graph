@@ -296,7 +296,12 @@
         "stationary",
         "institution",
         "constitution",
-        "state"
+        "state",
+        "constant",
+        "instant",
+        "instantaneous",
+        "stable",
+        "establish"
       ]
     },
     {
@@ -376,7 +381,9 @@
         "deficiency",
         "efficiency",
         "proficiency",
-        "infectious"
+        "infectious",
+        "manufacture",
+        "beneficial"
       ]
     },
     {
@@ -430,7 +437,11 @@
         "procession",
         "succession",
         "successive",
-        "successful"
+        "successful",
+        "concede",
+        "precede",
+        "recede",
+        "precedent"
       ]
     },
     {
@@ -520,7 +531,10 @@
         "finish",
         "finite",
         "infinite",
-        "finance"
+        "finance",
+        "confine",
+        "define",
+        "refine"
       ]
     },
     {
@@ -1797,7 +1811,11 @@
         "prefer",
         "preference",
         "suffer",
-        "transfer"
+        "transfer",
+        "offer",
+        "refer",
+        "confer",
+        "infer"
       ]
     },
     {
@@ -2315,6 +2333,77 @@
         "sum",
         "summarize",
         "summary"
+      ]
+    },
+    {
+      "id": "firmare",
+      "root": "firmare",
+      "variants": [
+        "firm"
+      ],
+      "origin": "拉丁语 firmare（使坚固、使稳固），来自 firmus（坚固的）",
+      "core_concept": "to make steady and dependable / 把东西弄到稳固可靠、不会动摇",
+      "core_image": "一根立柱被夯实进土里，无论怎么推它都纹丝不动",
+      "english_definition": "to make firm, strengthen",
+      "word_ids": [
+        "affirm",
+        "confirm",
+        "firm"
+      ]
+    },
+    {
+      "id": "nuntiare",
+      "root": "nuntiare",
+      "variants": [
+        "nounce",
+        "nunti"
+      ],
+      "origin": "拉丁语 nuntiare（通告、报信），来自 nuntius（信使、消息）",
+      "core_concept": "to carry word / 把消息送达人前、让众人都听到",
+      "core_image": "一名信使跑到广场中央，把一则消息高声喊给所有人",
+      "english_definition": "to announce, report",
+      "word_ids": [
+        "announce",
+        "denounce",
+        "pronounce"
+      ]
+    },
+    {
+      "id": "cors",
+      "root": "cors",
+      "variants": [
+        "cour",
+        "cord"
+      ],
+      "origin": "拉丁语 cor/cordis（心，也指胸、膛），法语借入时变 cour/courage",
+      "core_concept": "the heart and chest as the seat of inner strength / 心与胸膛，内里勇气与热忱的所在",
+      "core_image": "胸腔里一团搏动的心，支撑人迎着压力把力量放出去",
+      "english_definition": "heart, core, courage",
+      "word_ids": [
+        "cordial",
+        "courage",
+        "discourage",
+        "encourage"
+      ]
+    },
+    {
+      "id": "pati",
+      "root": "pati",
+      "variants": [
+        "pat",
+        "pass"
+      ],
+      "origin": "拉丁语 pati（承受、忍耐），过去分词 passus",
+      "core_concept": "to bear, to undergo, to endure / 承受外来作用而不被压垮",
+      "core_image": "人背着压到身上的重量，原地稳住、慢慢承受",
+      "english_definition": "to suffer, bear, endure",
+      "word_ids": [
+        "compassion",
+        "impatient",
+        "passion",
+        "passive",
+        "patience",
+        "patient"
       ]
     }
   ]

@@ -9128,6 +9128,482 @@
       "text": "Save the file into a new directory.",
       "source": "AI 生成 · 人工审核",
       "scene": "大厅里的名册按姓氏排列，一翻就能指向对应房间"
+    },
+    {
+      "id": "ex-firm-1",
+      "word_id": "firm",
+      "text": "She kept a firm hold on the rope.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根桩子被深深钉进地面，推上去只是更稳"
+    },
+    {
+      "id": "ex-firm-2",
+      "word_id": "firm",
+      "text": "The manager gave a firm answer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根桩子被深深钉进地面，推上去只是更稳"
+    },
+    {
+      "id": "ex-affirm-1",
+      "word_id": "affirm",
+      "text": "The witness affirmed the account.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "某人的表态被重重按下，像盖章一样坐实"
+    },
+    {
+      "id": "ex-affirm-2",
+      "word_id": "affirm",
+      "text": "She affirmed her support for the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "某人的表态被重重按下，像盖章一样坐实"
+    },
+    {
+      "id": "ex-confirm-1",
+      "word_id": "confirm",
+      "text": "The test confirmed the diagnosis.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机票座位号得到第二处核对，原先的犹豫落了地"
+    },
+    {
+      "id": "ex-confirm-2",
+      "word_id": "confirm",
+      "text": "Please confirm your attendance by Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机票座位号得到第二处核对，原先的犹豫落了地"
+    },
+    {
+      "id": "ex-announce-1",
+      "word_id": "announce",
+      "text": "The company announced a new product.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主持人上台，向全场公开念出那条新消息"
+    },
+    {
+      "id": "ex-announce-2",
+      "word_id": "announce",
+      "text": "They announced the winner last night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主持人上台，向全场公开念出那条新消息"
+    },
+    {
+      "id": "ex-denounce-1",
+      "word_id": "denounce",
+      "text": "The mayor denounced the violence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "发言人站在人前，把某种丑行当众指认出来"
+    },
+    {
+      "id": "ex-denounce-2",
+      "word_id": "denounce",
+      "text": "Critics denounced the new policy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "发言人站在人前，把某种丑行当众指认出来"
+    },
+    {
+      "id": "ex-pronounce-1",
+      "word_id": "pronounce",
+      "text": "How do you pronounce this word?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舌尖把每个音节推到前面，清清楚楚念出来"
+    },
+    {
+      "id": "ex-pronounce-2",
+      "word_id": "pronounce",
+      "text": "The judge pronounced the sentence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舌尖把每个音节推到前面，清清楚楚念出来"
+    },
+    {
+      "id": "ex-courage-1",
+      "word_id": "courage",
+      "text": "It took great courage to speak up.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人在威胁面前按住心跳，仍朝前迈出一步"
+    },
+    {
+      "id": "ex-courage-2",
+      "word_id": "courage",
+      "text": "Soldiers fought with courage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人在威胁面前按住心跳，仍朝前迈出一步"
+    },
+    {
+      "id": "ex-encourage-1",
+      "word_id": "encourage",
+      "text": "The coach encouraged the players.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手搭上肩，对方心里便多了迈步的底气"
+    },
+    {
+      "id": "ex-encourage-2",
+      "word_id": "encourage",
+      "text": "She encouraged me to apply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手搭上肩，对方心里便多了迈步的底气"
+    },
+    {
+      "id": "ex-discourage-1",
+      "word_id": "discourage",
+      "text": "Don't let failure discourage you.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一连串打击让原本高涨的心气一点点泄掉"
+    },
+    {
+      "id": "ex-discourage-2",
+      "word_id": "discourage",
+      "text": "The price discouraged most buyers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一连串打击让原本高涨的心气一点点泄掉"
+    },
+    {
+      "id": "ex-cordial-1",
+      "word_id": "cordial",
+      "text": "The two leaders had a cordial meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主人握住的双手带有发自内心的热乎劲"
+    },
+    {
+      "id": "ex-cordial-2",
+      "word_id": "cordial",
+      "text": "He gave us a cordial welcome.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主人握住的双手带有发自内心的热乎劲"
+    },
+    {
+      "id": "ex-patient-1",
+      "word_id": "patient",
+      "text": "The nurse checked on each patient.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "病床上的人静静躺着，接受照护、不怨不躁"
+    },
+    {
+      "id": "ex-patient-2",
+      "word_id": "patient",
+      "text": "Be patient with the slow process.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "病床上的人静静躺着，接受照护、不怨不躁"
+    },
+    {
+      "id": "ex-patience-1",
+      "word_id": "patience",
+      "text": "The task requires great patience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人排队等了很久，仍平静如初不抱怨"
+    },
+    {
+      "id": "ex-patience-2",
+      "word_id": "patience",
+      "text": "She waited with patience for the news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人排队等了很久，仍平静如初不抱怨"
+    },
+    {
+      "id": "ex-impatient-1",
+      "word_id": "impatient",
+      "text": "He grew impatient with the delays.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "排队者来回数着步子，恨不能立刻轮到自己"
+    },
+    {
+      "id": "ex-impatient-2",
+      "word_id": "impatient",
+      "text": "Children are impatient for the holiday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "排队者来回数着步子，恨不能立刻轮到自己"
+    },
+    {
+      "id": "ex-passion-1",
+      "word_id": "passion",
+      "text": "She has a passion for music.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人谈起所爱之事时，眼里近乎着了火"
+    },
+    {
+      "id": "ex-passion-2",
+      "word_id": "passion",
+      "text": "The argument was fought with passion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人谈起所爱之事时，眼里近乎着了火"
+    },
+    {
+      "id": "ex-passive-1",
+      "word_id": "passive",
+      "text": "He took a passive role in the debate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人只是静静承受外力，不去推、不去挡"
+    },
+    {
+      "id": "ex-passive-2",
+      "word_id": "passive",
+      "text": "The patient remained passive during treatment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人只是静静承受外力，不去推、不去挡"
+    },
+    {
+      "id": "ex-compassion-1",
+      "word_id": "compassion",
+      "text": "She showed great compassion for the refugees.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人跌倒时，旁人心里也像跟着疼了一下"
+    },
+    {
+      "id": "ex-compassion-2",
+      "word_id": "compassion",
+      "text": "Compassion moved the doctor to volunteer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人跌倒时，旁人心里也像跟着疼了一下"
+    },
+    {
+      "id": "ex-concede-1",
+      "word_id": "concede",
+      "text": "She conceded that she was wrong.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "争执中一方慢慢退后，把原来的立场交出去"
+    },
+    {
+      "id": "ex-concede-2",
+      "word_id": "concede",
+      "text": "The team conceded two goals.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "争执中一方慢慢退后，把原来的立场交出去"
+    },
+    {
+      "id": "ex-precede-1",
+      "word_id": "precede",
+      "text": "A brief speech preceded the ceremony.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "开幕的号角声在前，正戏紧随其后上演"
+    },
+    {
+      "id": "ex-precede-2",
+      "word_id": "precede",
+      "text": "The storm was preceded by dark clouds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "开幕的号角声在前，正戏紧随其后上演"
+    },
+    {
+      "id": "ex-recede-1",
+      "word_id": "recede",
+      "text": "The floods slowly receded.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "退潮时水面一点点斜着往回缩"
+    },
+    {
+      "id": "ex-recede-2",
+      "word_id": "recede",
+      "text": "The coastline receded into mist.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "退潮时水面一点点斜着往回缩"
+    },
+    {
+      "id": "ex-precedent-1",
+      "word_id": "precedent",
+      "text": "The ruling set a legal precedent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "判例书里那一页摆在前，后来的案子便照着走"
+    },
+    {
+      "id": "ex-precedent-2",
+      "word_id": "precedent",
+      "text": "There is no precedent for this decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "判例书里那一页摆在前，后来的案子便照着走"
+    },
+    {
+      "id": "ex-constant-1",
+      "word_id": "constant",
+      "text": "The clock keeps a constant speed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上的钟摆按同一节奏不停摆动，从不停歇"
+    },
+    {
+      "id": "ex-constant-2",
+      "word_id": "constant",
+      "text": "She lives under constant pressure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上的钟摆按同一节奏不停摆动，从不停歇"
+    },
+    {
+      "id": "ex-instant-1",
+      "word_id": "instant",
+      "text": "He paused for an instant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "电光火石间那一瞬，几乎来不及眨眼"
+    },
+    {
+      "id": "ex-instant-2",
+      "word_id": "instant",
+      "text": "The message reached me in an instant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "电光火石间那一瞬，几乎来不及眨眼"
+    },
+    {
+      "id": "ex-instantaneous-1",
+      "word_id": "instantaneous",
+      "text": "The site gave instantaneous feedback.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "按下的按钮与亮起的光几乎同时完成"
+    },
+    {
+      "id": "ex-instantaneous-2",
+      "word_id": "instantaneous",
+      "text": "Death was instantaneous.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "按下的按钮与亮起的光几乎同时完成"
+    },
+    {
+      "id": "ex-stable-1",
+      "word_id": "stable",
+      "text": "The patient's condition is stable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋楼的地基打得深，风吹只晃不动"
+    },
+    {
+      "id": "ex-stable-2",
+      "word_id": "stable",
+      "text": "They built on stable ground.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋楼的地基打得深，风吹只晃不动"
+    },
+    {
+      "id": "ex-establish-1",
+      "word_id": "establish",
+      "text": "They established a new school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块碑被深深埋住竖好，从此站在那里不再倒"
+    },
+    {
+      "id": "ex-establish-2",
+      "word_id": "establish",
+      "text": "The theory was established by evidence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块碑被深深埋住竖好，从此站在那里不再倒"
+    },
+    {
+      "id": "ex-manufacture-1",
+      "word_id": "manufacture",
+      "text": "The plant manufactures car parts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线上工位相接，一件件成品被造出来"
+    },
+    {
+      "id": "ex-manufacture-2",
+      "word_id": "manufacture",
+      "text": "They manufacture goods for export.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "流水线上工位相接，一件件成品被造出来"
+    },
+    {
+      "id": "ex-beneficial-1",
+      "word_id": "beneficial",
+      "text": "Regular exercise is beneficial to health.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一场及时雨洒下，田地因此长势更好"
+    },
+    {
+      "id": "ex-beneficial-2",
+      "word_id": "beneficial",
+      "text": "The new law is beneficial to farmers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一场及时雨洒下，田地因此长势更好"
+    },
+    {
+      "id": "ex-confine-1",
+      "word_id": "confine",
+      "text": "The fire was confined to one room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "乱跑的小动物被围栏圈回，出不了那道边"
+    },
+    {
+      "id": "ex-confine-2",
+      "word_id": "confine",
+      "text": "Please confine your remarks to the topic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "乱跑的小动物被围栏圈回，出不了那道边"
+    },
+    {
+      "id": "ex-define-1",
+      "word_id": "define",
+      "text": "Please define the key terms.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "词典编者用一句话圈出那个词的确切边界"
+    },
+    {
+      "id": "ex-define-2",
+      "word_id": "define",
+      "text": "The rules define what is allowed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "词典编者用一句话圈出那个词的确切边界"
+    },
+    {
+      "id": "ex-refine-1",
+      "word_id": "refine",
+      "text": "The company refines crude oil.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "粗矿在炉中一再炼制，杂质一层层被剔除"
+    },
+    {
+      "id": "ex-refine-2",
+      "word_id": "refine",
+      "text": "They refined the design over months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "粗矿在炉中一再炼制，杂质一层层被剔除"
+    },
+    {
+      "id": "ex-offer-1",
+      "word_id": "offer",
+      "text": "She offered him a cup of tea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "托盘被端到宾客面前，任他取用或推回"
+    },
+    {
+      "id": "ex-offer-2",
+      "word_id": "offer",
+      "text": "He offered to help with the move.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "托盘被端到宾客面前，任他取用或推回"
+    },
+    {
+      "id": "ex-refer-1",
+      "word_id": "refer",
+      "text": "She referred to the report.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "读者顺着页码把问题带回那一段原文"
+    },
+    {
+      "id": "ex-refer-2",
+      "word_id": "refer",
+      "text": "The doctor referred him to a specialist.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "读者顺着页码把问题带回那一段原文"
+    },
+    {
+      "id": "ex-confer-1",
+      "word_id": "confer",
+      "text": "The board conferred an honorary degree.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "委员会围坐一处商议，最终把奖项授出"
+    },
+    {
+      "id": "ex-confer-2",
+      "word_id": "confer",
+      "text": "They conferred before deciding.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "委员会围坐一处商议，最终把奖项授出"
+    },
+    {
+      "id": "ex-infer-1",
+      "word_id": "infer",
+      "text": "We can infer the outcome from the data.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侦探从一串脚印里推出刚才发生的事"
+    },
+    {
+      "id": "ex-infer-2",
+      "word_id": "infer",
+      "text": "I inferred from his tone that he was angry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侦探从一串脚印里推出刚才发生的事"
     }
   ]
 }
