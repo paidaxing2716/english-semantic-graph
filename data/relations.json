@@ -4344,6 +4344,78 @@
       "to": "factory",
       "type": "root",
       "note": "fact（做）+ -ory（场所）→ 专门做东西的场所"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "author",
+      "type": "root",
+      "note": "auth（使产生）+ -or（人）→ 使作品产生的人 → 作者"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "authentic",
+      "type": "root",
+      "note": "auth（源头可靠）→ 出自可信源头的、非伪造的"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "authority",
+      "type": "root",
+      "note": "auth（使产生）+ -ority → 使事物产生并定夺的那份力量"
+    },
+    {
+      "from": "clarus",
+      "to": "clarify",
+      "type": "root",
+      "note": "clar（清晰）+ -ify（使）→ 使思绪或说法变得清楚明白"
+    },
+    {
+      "from": "clarus",
+      "to": "clarity",
+      "type": "root",
+      "note": "clar（清晰）+ -ity（名词）→ 清楚明白的状态"
+    },
+    {
+      "from": "clarus",
+      "to": "declare",
+      "type": "root",
+      "note": "de-（完全）+ clar（清晰）→ 把话说得完全清楚 → 公开宣布"
+    },
+    {
+      "from": "crescere",
+      "to": "increase",
+      "type": "root",
+      "note": "in-（向内）+ crease（生长）→ 向内积聚地生长 → 增多"
+    },
+    {
+      "from": "crescere",
+      "to": "decrease",
+      "type": "root",
+      "note": "de-（向下）+ crease（生长）→ 生长势头向下走 → 减少"
+    },
+    {
+      "from": "crescere",
+      "to": "increasingly",
+      "type": "root",
+      "note": "increase（增多）+ -ingly（副词）→ 以日益增多的方式"
+    },
+    {
+      "from": "gerere",
+      "to": "gesture",
+      "type": "root",
+      "note": "gest（携带）+ -ure → 用手臂'携带'意思的动作"
+    },
+    {
+      "from": "gerere",
+      "to": "suggest",
+      "type": "root",
+      "note": "sug-（sub- 从下）+ gest（携带）→ 从底层悄悄带上来的意思 → 暗示"
+    },
+    {
+      "from": "gerere",
+      "to": "digest",
+      "type": "root",
+      "note": "di-（dis- 分开）+ gest（携带）→ 把食物分开携带走 → 消化"
     }
   ]
 }

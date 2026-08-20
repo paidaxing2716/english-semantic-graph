@@ -2474,6 +2474,75 @@
         "government",
         "governor"
       ]
+    },
+    {
+      "id": "augere-auctor",
+      "root": "auctor",
+      "variants": [
+        "auth",
+        "auct"
+      ],
+      "origin": "拉丁语 auctor（创造者、发起者），来自 augere（增长、使兴旺）——能令事物产生并发展的人",
+      "core_concept": "the one who brings something into being, the source of authority / 使事物产生的人，权威的来源",
+      "core_image": "工匠亲手打造出第一件器物，后来者都来仿照它",
+      "english_definition": "originator, authority, growth",
+      "word_ids": [
+        "authentic",
+        "author",
+        "authority"
+      ]
+    },
+    {
+      "id": "clarus",
+      "root": "clarus",
+      "variants": [
+        "clar",
+        "clear"
+      ],
+      "origin": "拉丁语 clarus（明亮、清晰、响亮），与古英语 clear 同源",
+      "core_concept": "bright and clear, easy to see or hear / 明亮清晰、一望即明",
+      "core_image": "雨后天晴，远山的轮廓在明净空气里一线分明",
+      "english_definition": "clear, bright, distinct",
+      "word_ids": [
+        "clarify",
+        "clarity",
+        "declare"
+      ]
+    },
+    {
+      "id": "crescere",
+      "root": "crescere",
+      "variants": [
+        "creas",
+        "crease",
+        "cresc"
+      ],
+      "origin": "拉丁语 crescere（生长、增多、壮大）",
+      "core_concept": "to grow, to swell in size or number / 生长、增多、壮大",
+      "core_image": "幼苗在雨后一节节拔高，从土里冒出新叶",
+      "english_definition": "to grow, increase, spring up",
+      "word_ids": [
+        "decrease",
+        "increase",
+        "increasingly"
+      ]
+    },
+    {
+      "id": "gerere",
+      "root": "gerere",
+      "variants": [
+        "gest",
+        "ger"
+      ],
+      "origin": "拉丁语 gerere（携带、承载、进行）",
+      "core_concept": "to carry, to bear and convey / 携带、承载并把某物传递过去",
+      "core_image": "信使把一封沉甸甸的信揣在怀里，从一处送到另一处",
+      "english_definition": "to carry, bear, conduct",
+      "word_ids": [
+        "digest",
+        "gesture",
+        "suggest"
+      ]
     }
   ]
 }

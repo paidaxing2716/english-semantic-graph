@@ -2106,6 +2106,62 @@
         "government",
         "governor"
       ]
+    },
+    {
+      "id": "concept-augere-author",
+      "concept": "one who originates, the growing source of authority",
+      "chinese": "作者权威",
+      "core_image": "工匠打成第一件器物，众人以它为准则",
+      "root_ids": [
+        "augere-auctor"
+      ],
+      "word_ids": [
+        "authentic",
+        "author",
+        "authority"
+      ]
+    },
+    {
+      "id": "concept-clarus-clear",
+      "concept": "bright and clear, plainly visible",
+      "chinese": "明亮清晰",
+      "core_image": "雨后初晴，远山轮廓在明净空气中一线分明",
+      "root_ids": [
+        "clarus"
+      ],
+      "word_ids": [
+        "clarify",
+        "clarity",
+        "declare"
+      ]
+    },
+    {
+      "id": "concept-crescere-grow",
+      "concept": "to grow larger in size or number",
+      "chinese": "生长增长",
+      "core_image": "雨后幼苗一节节拔高、抽出新叶",
+      "root_ids": [
+        "crescere"
+      ],
+      "word_ids": [
+        "decrease",
+        "increase",
+        "increasingly"
+      ]
+    },
+    {
+      "id": "concept-gerere-carry",
+      "concept": "to carry and convey, bearing meaning along",
+      "chinese": "携带传递",
+      "core_image": "信使把信揣在怀里从一处送到另一处",
+      "root_ids": [
+        "gerere"
+      ],
+      "word_ids": [
+        "digest",
+        "gesture",
+        "suggest"
+      ]
     }
   ]
 }

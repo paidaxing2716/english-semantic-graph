@@ -15,7 +15,7 @@ v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
-v1.0    考研词表中可结构化的部分（709/869 词，82%）← 当前
+v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
 ```
 
 ---
@@ -315,6 +315,12 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+  - [x] 第三十七批（12 词，四新词根族）：auctor（作者/权威）
+        + clarus（明亮清晰）+ crescere（生长）+ gerere（携带/进行），
+        author / authentic / authority，clarify / clarity / declare，
+        increase / decrease / increasingly，gesture / suggest / digest，
+        721 词 · 129 词根。多词短语 synonym（ever more）与库内 set up 等
+        一致注册进 external_words 才能过 Q8
   - [x] 第三十六批（15 词，四新词根族 + fac 补词）：habitare（居住）
         + punktum（尖端/点）+ limes（边界）+ gubernare（掌舵），
         并补 fac 族 fact / factor / factory，709 词 · 125 词根。

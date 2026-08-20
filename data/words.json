@@ -27709,6 +27709,472 @@
         "工厂：专门大批量制造物品的场所"
       ],
       "recall_hint": "fact（做）+ -ory（场所）→ 做东西的地方"
+    },
+    {
+      "id": "author",
+      "word": "author",
+      "pos": "noun",
+      "phonetic": "/ˈɔːθə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "augere-auctor"
+      ],
+      "root_logic": "auth（使产生）+ -or（人）→ 使作品产生的人 → 作者",
+      "origin": "拉丁语 auctor（创造者、发起者），经古法语 autor 入英语",
+      "native_definition": "a person who writes a book or article, or creates something",
+      "core_concept": "the one who brings a work into being – 使一部作品得以产生的人",
+      "core_image": "书桌上摊开的稿纸旁，执笔人刚刚落下最后一个句号",
+      "chinese": [
+        "作者",
+        "著者",
+        "创始人"
+      ],
+      "examples": [
+        "The author signed copies of her novel.",
+        "He is the author of the plan."
+      ],
+      "synonyms": [
+        "writer",
+        "creator"
+      ],
+      "antonyms": [],
+      "related": [
+        "authority",
+        "authentic"
+      ],
+      "semantic_expansions": [
+        "作者/著者：使作品产生的人",
+        "创始人：使某种做法或机构产生的人"
+      ],
+      "recall_hint": "auth（使产生）+ -or → 使作品产生的人"
+    },
+    {
+      "id": "authentic",
+      "word": "authentic",
+      "pos": "adjective",
+      "phonetic": "/ɔːˈθentɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "augere-auctor"
+      ],
+      "root_logic": "auth（源头可靠）→ 出自可信源头的、非伪造的",
+      "origin": "希腊语 authentikos（原始的、可信的），经拉丁语 authenticus 入英语",
+      "native_definition": "real, genuine, and not a copy or fake",
+      "core_concept": "traceable to the true origin, not an imitation – 能追溯到真实源头、非仿制",
+      "core_image": "博物馆里那幅画经鉴定出自画家本人之手，笔触与署名都对得上",
+      "chinese": [
+        "真实的",
+        "可信的",
+        "正宗的"
+      ],
+      "examples": [
+        "The museum displayed an authentic painting.",
+        "The dish uses authentic spices."
+      ],
+      "synonyms": [
+        "genuine",
+        "real"
+      ],
+      "antonyms": [
+        "fake",
+        "counterfeit"
+      ],
+      "related": [
+        "author",
+        "authority"
+      ],
+      "semantic_expansions": [
+        "真实的/正宗的：可追溯到真实源头、非伪造"
+      ],
+      "recall_hint": "auth（源头）→ 追得到可靠源头 → 真实可信"
+    },
+    {
+      "id": "authority",
+      "word": "authority",
+      "pos": "noun",
+      "phonetic": "/ɔːˈθɒrəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "augere-auctor"
+      ],
+      "root_logic": "auth（使产生）+ -ority → 使事物产生并定夺的那份力量",
+      "origin": "拉丁语 auctoritas（权威、影响力），来自 auctor（创造者）",
+      "native_definition": "the power to make decisions or give orders; a reliable source of information",
+      "core_concept": "the originating power that settles things – 能定夺事物、源头可靠的那份力量",
+      "core_image": "裁判手中的哨子一响，场上争执即刻平息",
+      "chinese": [
+        "权威",
+        "权力",
+        "当局"
+      ],
+      "examples": [
+        "The police have authority to enforce the law.",
+        "She is an authority on ancient art."
+      ],
+      "synonyms": [
+        "power",
+        "jurisdiction"
+      ],
+      "antonyms": [],
+      "related": [
+        "author",
+        "authentic"
+      ],
+      "semantic_expansions": [
+        "权威/权力：能定夺事物、让人信服的源头力量",
+        "当局：行使权力的一方机构"
+      ],
+      "recall_hint": "auth（使产生）+ -ority → 能定夺的源头力量 → 权威"
+    },
+    {
+      "id": "clarify",
+      "word": "clarify",
+      "pos": "verb",
+      "phonetic": "/ˈklærɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "clarus"
+      ],
+      "root_logic": "clar（清晰）+ -ify（使）→ 使思绪或说法变得清楚明白",
+      "origin": "拉丁语 clarificare（使明亮），来自 clarus（清晰的）",
+      "native_definition": "to make something easier to understand, or to make a liquid clear",
+      "core_concept": "making murkiness bright until it is plainly seen – 把浑浊之处照亮直到看得分明",
+      "core_image": "浑浊的水静置后慢慢变清，杯底杂质沉下去",
+      "chinese": [
+        "澄清",
+        "阐明",
+        "使清晰"
+      ],
+      "examples": [
+        "Could you clarify what you meant?",
+        "The liquid clarified overnight."
+      ],
+      "synonyms": [
+        "explain",
+        "elucidate"
+      ],
+      "antonyms": [
+        "confuse",
+        "obscure"
+      ],
+      "related": [
+        "clarity",
+        "declare"
+      ],
+      "semantic_expansions": [
+        "澄清/阐明：把含混之处说清楚"
+      ],
+      "recall_hint": "clar（清晰）+ -ify（使）→ 使变得清楚"
+    },
+    {
+      "id": "clarity",
+      "word": "clarity",
+      "pos": "noun",
+      "phonetic": "/ˈklærəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "clarus"
+      ],
+      "root_logic": "clar（清晰）+ -ity（名词）→ 清楚明白的状态",
+      "origin": "拉丁语 claritas（明亮），来自 clarus（清晰的）",
+      "native_definition": "the quality of being clear and easy to understand or see",
+      "core_concept": "the bright state of being plainly seen – 一眼看明的明亮状态",
+      "core_image": "晨光下的湖面映出岸边每棵树的倒影，根根分明",
+      "chinese": [
+        "清晰",
+        "清楚",
+        "清澈"
+      ],
+      "examples": [
+        "The report was praised for its clarity.",
+        "Water clarity improved after the rain."
+      ],
+      "synonyms": [
+        "lucidity",
+        "clearness"
+      ],
+      "antonyms": [
+        "vagueness",
+        "confusion"
+      ],
+      "related": [
+        "clarify",
+        "declare"
+      ],
+      "semantic_expansions": [
+        "清晰/清澈：一目了然的明亮状态"
+      ],
+      "recall_hint": "clar（清晰）+ -ity → 清楚明白的状态"
+    },
+    {
+      "id": "declare",
+      "word": "declare",
+      "pos": "verb",
+      "phonetic": "/dɪˈkleə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "clarus"
+      ],
+      "root_logic": "de-（完全）+ clar（清晰）→ 把话说得完全清楚 → 公开宣布",
+      "origin": "拉丁语 declarare（使完全清晰），来自 de＋clarus",
+      "native_definition": "to announce something officially or publicly",
+      "core_concept": "speaking a matter fully clear before all – 当着众人把话说到完全明白",
+      "core_image": "主持人走到台前，把最终结果一字一句念给全场",
+      "chinese": [
+        "宣布",
+        "声明",
+        "申报"
+      ],
+      "examples": [
+        "The government declared a state of emergency.",
+        "You must declare any gifts at customs."
+      ],
+      "synonyms": [
+        "announce",
+        "proclaim"
+      ],
+      "antonyms": [
+        "conceal"
+      ],
+      "related": [
+        "clarity",
+        "clarify"
+      ],
+      "semantic_expansions": [
+        "宣布/声明：公开把话说清楚",
+        "申报：向官方明确报告"
+      ],
+      "recall_hint": "de-（完全）+ clar（清晰）→ 说得全然明白 → 宣布"
+    },
+    {
+      "id": "increase",
+      "word": "increase",
+      "pos": "verb / noun",
+      "phonetic": "/ɪnˈkriːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "crescere"
+      ],
+      "root_logic": "in-（向内）+ crease（生长）→ 向内积聚地生长 → 增多",
+      "origin": "拉丁语 increscere（生长其中），来自 in＋crescere",
+      "native_definition": "to become or make greater in size, number, or degree",
+      "core_concept": "growing inward and upward until there is more – 生长累积直到数量变大",
+      "core_image": "雪球从山顶滚下，越滚越大、越滚越快",
+      "chinese": [
+        "增加",
+        "增长",
+        "提高"
+      ],
+      "examples": [
+        "The price of oil increased sharply.",
+        "Sales show an increase this quarter."
+      ],
+      "synonyms": [
+        "grow",
+        "rise"
+      ],
+      "antonyms": [
+        "decrease",
+        "reduce"
+      ],
+      "related": [
+        "decrease",
+        "increasingly"
+      ],
+      "semantic_expansions": [
+        "增加/增长：数量或程度生长变大"
+      ],
+      "recall_hint": "in-（向内）+ crease（生长）→ 向内生长变多"
+    },
+    {
+      "id": "decrease",
+      "word": "decrease",
+      "pos": "verb / noun",
+      "phonetic": "/dɪˈkriːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "crescere"
+      ],
+      "root_logic": "de-（向下）+ crease（生长）→ 生长势头向下走 → 减少",
+      "origin": "拉丁语 decrescere（减少），来自 de＋crescere",
+      "native_definition": "to become or make smaller in size, number, or degree",
+      "core_concept": "growing in the downward direction, lessening – 朝下生长的方向收缩变小",
+      "core_image": "退潮时水位一寸寸落下去，露出更多滩涂",
+      "chinese": [
+        "减少",
+        "降低",
+        "下降"
+      ],
+      "examples": [
+        "The number of visitors decreased last year.",
+        "There was a decrease in accidents."
+      ],
+      "synonyms": [
+        "decline",
+        "diminish"
+      ],
+      "antonyms": [
+        "increase",
+        "rise"
+      ],
+      "related": [
+        "increase",
+        "increasingly"
+      ],
+      "semantic_expansions": [
+        "减少/下降：生长的势头向下收缩"
+      ],
+      "recall_hint": "de-（向下）+ crease（生长）→ 生长朝下走 → 减少"
+    },
+    {
+      "id": "increasingly",
+      "word": "increasingly",
+      "pos": "adverb",
+      "phonetic": "/ɪnˈkriːsɪŋli/",
+      "decomposable": "root",
+      "root_ids": [
+        "crescere"
+      ],
+      "root_logic": "increase（增多）+ -ingly（副词）→ 以日益增多的方式",
+      "origin": "increase 的副词形式",
+      "native_definition": "more and more; to an ever greater degree",
+      "core_concept": "growing all the while, more with each step – 一直生长、一步比一步更多",
+      "core_image": "天色渐暗，路灯一盏接一盏亮起，街上人流愈密",
+      "chinese": [
+        "越来越",
+        "日益"
+      ],
+      "examples": [
+        "Life there is becoming increasingly expensive.",
+        "She increasingly prefers quiet evenings."
+      ],
+      "synonyms": [
+        "progressively",
+        "ever more"
+      ],
+      "antonyms": [],
+      "related": [
+        "increase",
+        "decrease"
+      ],
+      "semantic_expansions": [
+        "越来越/日益：程度随生长不断加大"
+      ],
+      "recall_hint": "increase（增多）+ -ingly → 越来越多地"
+    },
+    {
+      "id": "gesture",
+      "word": "gesture",
+      "pos": "noun / verb",
+      "phonetic": "/ˈdʒestʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "gerere"
+      ],
+      "root_logic": "gest（携带）+ -ure → 用手臂'携带'意思的动作",
+      "origin": "拉丁语 gestura（举止、姿态），来自 gerere（携带、做）",
+      "native_definition": "a movement of the body that expresses meaning",
+      "core_concept": "carrying meaning with one's body instead of words – 不用言语、用身体把意思带出去",
+      "core_image": "老人竖起大拇指，无需开口，赞许便送到了对方眼前",
+      "chinese": [
+        "手势",
+        "姿态",
+        "表示"
+      ],
+      "examples": [
+        "She made a gesture of welcome.",
+        "Thumbs up is a universal gesture."
+      ],
+      "synonyms": [
+        "signal",
+        "sign"
+      ],
+      "antonyms": [],
+      "related": [
+        "suggest",
+        "digest"
+      ],
+      "semantic_expansions": [
+        "手势/姿态：用身体携带并传递意思的动作"
+      ],
+      "recall_hint": "gest（携带）+ -ure → 用手势把意思带出去"
+    },
+    {
+      "id": "suggest",
+      "word": "suggest",
+      "pos": "verb",
+      "phonetic": "/səˈdʒest/",
+      "decomposable": "root",
+      "root_ids": [
+        "gerere"
+      ],
+      "root_logic": "sug-（sub- 从下）+ gest（携带）→ 从底层悄悄带上来的意思 → 暗示",
+      "origin": "拉丁语 suggerere（从下面带上、提示），来自 sub＋gerere",
+      "native_definition": "to put forward an idea for consideration, or imply something indirectly",
+      "core_concept": "carrying an idea up from below, softly offering it – 从下方悄悄把想法带上来给人看",
+      "core_image": "桌下轻轻踢了一脚，话不必说出口意思已经到了",
+      "chinese": [
+        "建议",
+        "暗示",
+        "表明"
+      ],
+      "examples": [
+        "I suggest we leave early.",
+        "His tone suggested doubt."
+      ],
+      "synonyms": [
+        "propose",
+        "imply"
+      ],
+      "antonyms": [],
+      "related": [
+        "gesture",
+        "digest"
+      ],
+      "semantic_expansions": [
+        "建议：把想法带上台面供人考虑",
+        "暗示：不直说而把意思带出来"
+      ],
+      "recall_hint": "sug-（从下）+ gest（携带）→ 悄悄带上来的意思 → 暗示"
+    },
+    {
+      "id": "digest",
+      "word": "digest",
+      "pos": "verb / noun",
+      "phonetic": "/daɪˈdʒest/",
+      "decomposable": "root",
+      "root_ids": [
+        "gerere"
+      ],
+      "root_logic": "di-（dis- 分开）+ gest（携带）→ 把食物分开携带走 → 消化",
+      "origin": "拉丁语 digerere（分开、分配），来自 dis＋gerere",
+      "native_definition": "to break down food in the body, or absorb information",
+      "core_concept": "carrying food apart and away into the body – 把食物拆开并分别带走、吸收利用",
+      "core_image": "胃里像一座小磨坊，把吃下的东西慢慢磨碎化开",
+      "chinese": [
+        "消化",
+        "领会",
+        "文摘"
+      ],
+      "examples": [
+        "The body digests food slowly.",
+        "It takes time to digest the news."
+      ],
+      "synonyms": [
+        "absorb",
+        "assimilate"
+      ],
+      "antonyms": [],
+      "related": [
+        "gesture",
+        "suggest"
+      ],
+      "semantic_expansions": [
+        "消化：把食物拆开带走为身体所用",
+        "领会：把信息慢慢吸收理解",
+        "文摘：把大量内容压缩携带的读物"
+      ],
+      "recall_hint": "di-（分开）+ gest（携带）→ 把食物分开带走 → 消化"
     }
   ]
 }

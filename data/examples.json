@@ -9821,6 +9821,174 @@
       "text": "Cars roll off the factory line daily.",
       "source": "AI 生成 · 人工审核",
       "scene": "厂房里流水线不停转动，商品一件件被做出来"
+    },
+    {
+      "id": "ex-author-1",
+      "word_id": "author",
+      "text": "The author signed copies of her novel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书桌上摊开的稿纸旁，执笔人刚刚落下最后一个句号"
+    },
+    {
+      "id": "ex-author-2",
+      "word_id": "author",
+      "text": "He is the author of the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书桌上摊开的稿纸旁，执笔人刚刚落下最后一个句号"
+    },
+    {
+      "id": "ex-authentic-1",
+      "word_id": "authentic",
+      "text": "The museum displayed an authentic painting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "博物馆里那幅画经鉴定出自画家本人之手，笔触与署名都对得上"
+    },
+    {
+      "id": "ex-authentic-2",
+      "word_id": "authentic",
+      "text": "The dish uses authentic spices.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "博物馆里那幅画经鉴定出自画家本人之手，笔触与署名都对得上"
+    },
+    {
+      "id": "ex-authority-1",
+      "word_id": "authority",
+      "text": "The police have authority to enforce the law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "裁判手中的哨子一响，场上争执即刻平息"
+    },
+    {
+      "id": "ex-authority-2",
+      "word_id": "authority",
+      "text": "She is an authority on ancient art.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "裁判手中的哨子一响，场上争执即刻平息"
+    },
+    {
+      "id": "ex-clarify-1",
+      "word_id": "clarify",
+      "text": "Could you clarify what you meant?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "浑浊的水静置后慢慢变清，杯底杂质沉下去"
+    },
+    {
+      "id": "ex-clarify-2",
+      "word_id": "clarify",
+      "text": "The liquid clarified overnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "浑浊的水静置后慢慢变清，杯底杂质沉下去"
+    },
+    {
+      "id": "ex-clarity-1",
+      "word_id": "clarity",
+      "text": "The report was praised for its clarity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "晨光下的湖面映出岸边每棵树的倒影，根根分明"
+    },
+    {
+      "id": "ex-clarity-2",
+      "word_id": "clarity",
+      "text": "Water clarity improved after the rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "晨光下的湖面映出岸边每棵树的倒影，根根分明"
+    },
+    {
+      "id": "ex-declare-1",
+      "word_id": "declare",
+      "text": "The government declared a state of emergency.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主持人走到台前，把最终结果一字一句念给全场"
+    },
+    {
+      "id": "ex-declare-2",
+      "word_id": "declare",
+      "text": "You must declare any gifts at customs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主持人走到台前，把最终结果一字一句念给全场"
+    },
+    {
+      "id": "ex-increase-1",
+      "word_id": "increase",
+      "text": "The price of oil increased sharply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雪球从山顶滚下，越滚越大、越滚越快"
+    },
+    {
+      "id": "ex-increase-2",
+      "word_id": "increase",
+      "text": "Sales show an increase this quarter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雪球从山顶滚下，越滚越大、越滚越快"
+    },
+    {
+      "id": "ex-decrease-1",
+      "word_id": "decrease",
+      "text": "The number of visitors decreased last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "退潮时水位一寸寸落下去，露出更多滩涂"
+    },
+    {
+      "id": "ex-decrease-2",
+      "word_id": "decrease",
+      "text": "There was a decrease in accidents.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "退潮时水位一寸寸落下去，露出更多滩涂"
+    },
+    {
+      "id": "ex-increasingly-1",
+      "word_id": "increasingly",
+      "text": "Life there is becoming increasingly expensive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天色渐暗，路灯一盏接一盏亮起，街上人流愈密"
+    },
+    {
+      "id": "ex-increasingly-2",
+      "word_id": "increasingly",
+      "text": "She increasingly prefers quiet evenings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天色渐暗，路灯一盏接一盏亮起，街上人流愈密"
+    },
+    {
+      "id": "ex-gesture-1",
+      "word_id": "gesture",
+      "text": "She made a gesture of welcome.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人竖起大拇指，无需开口，赞许便送到了对方眼前"
+    },
+    {
+      "id": "ex-gesture-2",
+      "word_id": "gesture",
+      "text": "Thumbs up is a universal gesture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人竖起大拇指，无需开口，赞许便送到了对方眼前"
+    },
+    {
+      "id": "ex-suggest-1",
+      "word_id": "suggest",
+      "text": "I suggest we leave early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌下轻轻踢了一脚，话不必说出口意思已经到了"
+    },
+    {
+      "id": "ex-suggest-2",
+      "word_id": "suggest",
+      "text": "His tone suggested doubt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌下轻轻踢了一脚，话不必说出口意思已经到了"
+    },
+    {
+      "id": "ex-digest-1",
+      "word_id": "digest",
+      "text": "The body digests food slowly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "胃里像一座小磨坊，把吃下的东西慢慢磨碎化开"
+    },
+    {
+      "id": "ex-digest-2",
+      "word_id": "digest",
+      "text": "It takes time to digest the news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "胃里像一座小磨坊，把吃下的东西慢慢磨碎化开"
     }
   ]
 }
