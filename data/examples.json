@@ -4564,6 +4564,244 @@
       "text": "She met her prospective employer.",
       "source": "AI 生成 · 人工审核",
       "scene": "看房的人还没签约，但已经在量窗帘尺寸"
+    },
+    {
+      "id": "ex-equal-1",
+      "word_id": "equal",
+      "text": "Cut the cake into equal pieces.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平两盘停在同一高度，谁也不往下沉"
+    },
+    {
+      "id": "ex-equal-2",
+      "word_id": "equal",
+      "text": "All citizens are equal before the law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平两盘停在同一高度，谁也不往下沉"
+    },
+    {
+      "id": "ex-equal-3",
+      "word_id": "equal",
+      "text": "No one can equal her record.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平两盘停在同一高度，谁也不往下沉"
+    },
+    {
+      "id": "ex-equality-1",
+      "word_id": "equality",
+      "text": "The movement fought for racial equality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条起跑线画在同一位置，没人靠前半步"
+    },
+    {
+      "id": "ex-equality-2",
+      "word_id": "equality",
+      "text": "Equality of opportunity matters most.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条起跑线画在同一位置，没人靠前半步"
+    },
+    {
+      "id": "ex-equation-1",
+      "word_id": "equation",
+      "text": "Solve the equation for x.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "等号两边各一串符号，谁改动一边另一边就得跟着改"
+    },
+    {
+      "id": "ex-equation-2",
+      "word_id": "equation",
+      "text": "Cost is only one part of the equation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "等号两边各一串符号，谁改动一边另一边就得跟着改"
+    },
+    {
+      "id": "ex-adequate-1",
+      "word_id": "adequate",
+      "text": "The lighting is adequate for reading.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤上的分量正好压到刻度线，不多一克"
+    },
+    {
+      "id": "ex-adequate-2",
+      "word_id": "adequate",
+      "text": "Her explanation was adequate but dull.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤上的分量正好压到刻度线，不多一克"
+    },
+    {
+      "id": "ex-claim-1",
+      "word_id": "claim",
+      "text": "He claims to have finished it alone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在认领处举手说那只箱子是自己的"
+    },
+    {
+      "id": "ex-claim-2",
+      "word_id": "claim",
+      "text": "You can claim a refund within a month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在认领处举手说那只箱子是自己的"
+    },
+    {
+      "id": "ex-exclaim-1",
+      "word_id": "exclaim",
+      "text": "\"That is impossible!\" she exclaimed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看到账单的瞬间，声音先冲出了嘴"
+    },
+    {
+      "id": "ex-exclaim-2",
+      "word_id": "exclaim",
+      "text": "He exclaimed in delight at the news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看到账单的瞬间，声音先冲出了嘴"
+    },
+    {
+      "id": "ex-proclaim-1",
+      "word_id": "proclaim",
+      "text": "Independence was proclaimed that morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "使者站在台阶上展开卷轴念出诏令"
+    },
+    {
+      "id": "ex-proclaim-2",
+      "word_id": "proclaim",
+      "text": "The banner proclaimed their victory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "使者站在台阶上展开卷轴念出诏令"
+    },
+    {
+      "id": "ex-reclaim-1",
+      "word_id": "reclaim",
+      "text": "She reclaimed her luggage at the desk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "行李转盘边出示存根，把箱子领回手里"
+    },
+    {
+      "id": "ex-reclaim-2",
+      "word_id": "reclaim",
+      "text": "The land was reclaimed from the sea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "行李转盘边出示存根，把箱子领回手里"
+    },
+    {
+      "id": "ex-liberty-1",
+      "word_id": "liberty",
+      "text": "They fought for liberty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牢门推开，人走出来时手上什么都没锁着"
+    },
+    {
+      "id": "ex-liberty-2",
+      "word_id": "liberty",
+      "text": "Civil liberties are protected by law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牢门推开，人走出来时手上什么都没锁着"
+    },
+    {
+      "id": "ex-liberal-1",
+      "word_id": "liberal",
+      "text": "She holds liberal views on education.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "规矩写得宽，很多做法都容得下"
+    },
+    {
+      "id": "ex-liberal-2",
+      "word_id": "liberal",
+      "text": "Add a liberal amount of butter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "规矩写得宽，很多做法都容得下"
+    },
+    {
+      "id": "ex-liberate-1",
+      "word_id": "liberate",
+      "text": "The city was liberated in 1944.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锁链解开落地，人第一次能直起身走路"
+    },
+    {
+      "id": "ex-liberate-2",
+      "word_id": "liberate",
+      "text": "Technology liberated her from routine tasks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锁链解开落地，人第一次能直起身走路"
+    },
+    {
+      "id": "ex-deliberate-1",
+      "word_id": "deliberate",
+      "text": "It was a deliberate insult.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "下棋的人手停在棋子上方很久才落下"
+    },
+    {
+      "id": "ex-deliberate-2",
+      "word_id": "deliberate",
+      "text": "She spoke in a slow, deliberate voice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "下棋的人手停在棋子上方很久才落下"
+    },
+    {
+      "id": "ex-close-1",
+      "word_id": "close",
+      "text": "Please close the window.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉推到底，缝隙一点点消失直到看不见"
+    },
+    {
+      "id": "ex-close-2",
+      "word_id": "close",
+      "text": "The station is close to my flat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉推到底，缝隙一点点消失直到看不见"
+    },
+    {
+      "id": "ex-close-3",
+      "word_id": "close",
+      "text": "They remain close friends.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉推到底，缝隙一点点消失直到看不见"
+    },
+    {
+      "id": "ex-disclose-1",
+      "word_id": "disclose",
+      "text": "He refused to disclose his sources.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉拉开，里面的文件第一次被别人看到"
+    },
+    {
+      "id": "ex-disclose-2",
+      "word_id": "disclose",
+      "text": "The scan disclosed a small fracture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉拉开，里面的文件第一次被别人看到"
+    },
+    {
+      "id": "ex-enclose-1",
+      "word_id": "enclose",
+      "text": "A high wall encloses the garden.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "篱笆围了一圈，羊在里面出不去"
+    },
+    {
+      "id": "ex-enclose-2",
+      "word_id": "enclose",
+      "text": "I enclose a copy of the receipt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "篱笆围了一圈，羊在里面出不去"
+    },
+    {
+      "id": "ex-enclosure-1",
+      "word_id": "enclosure",
+      "text": "The birds were kept in a large enclosure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "动物园里一圈栏杆围出的场地，动物在里面走动"
+    },
+    {
+      "id": "ex-enclosure-2",
+      "word_id": "enclosure",
+      "text": "Please see the enclosure for details.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "动物园里一圈栏杆围出的场地，动物在里面走动"
     }
   ]
 }

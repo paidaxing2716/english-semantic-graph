@@ -1,0 +1,471 @@
+{
+  "roots": [
+    {
+      "id": "aequus",
+      "root": "aequus",
+      "variants": ["equ", "equi"],
+      "origin": "拉丁语 aequus（平的、相等的）",
+      "core_concept": "level, the same on both sides / 两边一样平",
+      "core_image": "天平两端停在同一高度，指针正对中间",
+      "english_definition": "equal, level, fair",
+      "word_ids": []
+    },
+    {
+      "id": "claimare",
+      "root": "claimare",
+      "variants": ["claim", "clam"],
+      "origin": "拉丁语 clamare（喊、大声宣告）",
+      "core_concept": "to cry out / 喊出来让人听见",
+      "core_image": "站在人群中放开嗓子喊一声，四周都听见了",
+      "english_definition": "to shout, to call out",
+      "word_ids": []
+    },
+    {
+      "id": "liber",
+      "root": "liber",
+      "variants": ["liber", "libr"],
+      "origin": "拉丁语 liber（自由的、不受束缚的）",
+      "core_concept": "free from restraint / 身上没有绑着的东西",
+      "core_image": "绳子从手腕上解开落地，手可以随意动了",
+      "english_definition": "free, unbound",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-aequus-equal",
+      "concept": "level, the same on both sides",
+      "chinese": "相等、平衡",
+      "core_image": "天平两端停在同一高度，指针正对中间",
+      "root_ids": ["aequus"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-claimare-shout",
+      "concept": "to cry out",
+      "chinese": "喊出、宣告",
+      "core_image": "站在人群中放开嗓子喊一声，四周都听见",
+      "root_ids": ["claimare"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-liber-free",
+      "concept": "free from restraint",
+      "chinese": "自由、不受束缚",
+      "core_image": "绳子从手腕上解开落地，手可以随意动了",
+      "root_ids": ["liber"],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-shape": ["aequus"],
+    "domain-perceive": ["claimare"],
+    "domain-hold": ["liber"]
+  },
+  "words": [
+    {
+      "id": "equal",
+      "word": "equal",
+      "pos": "adjective",
+      "phonetic": "/ˈiːkwəl/",
+      "decomposable": "root",
+      "root_ids": ["aequus"],
+      "root_logic": "aequ（平、相等）+ -al（…的）→ 两边一样多、一样高的 → 相等的",
+      "origin": "拉丁语 aequalis：aequus（平的、相等的）",
+      "native_definition": "the same in amount, size, or value",
+      "core_concept": "the same on both sides – 两边一样，不偏不多",
+      "core_image": "天平两盘停在同一高度，谁也不往下沉",
+      "chinese": ["相等的", "平等的", "比得上"],
+      "examples": [
+        "Cut the cake into equal pieces.",
+        "All citizens are equal before the law.",
+        "No one can equal her record."
+      ],
+      "synonyms": ["same", "identical"],
+      "antonyms": ["unequal"],
+      "related": ["equality", "equation", "adequate"],
+      "semantic_expansions": [
+        "相等的：数量上两边一样",
+        "平等的：地位上两边一样",
+        "比得上（动词）：达到与对方相同的高度。三义共享'两边一样平'"
+      ]
+    },
+    {
+      "id": "equality",
+      "word": "equality",
+      "pos": "noun",
+      "phonetic": "/ɪˈkwɑːləti/",
+      "decomposable": "root",
+      "root_ids": ["aequus"],
+      "root_logic": "equal（相等的）+ -ity（名词）→ 两边一样的那个状态 → 平等",
+      "origin": "拉丁语 aequalitas：aequus（相等的）",
+      "native_definition": "the state of being the same in rights, status, or amount",
+      "core_concept": "the state of both sides being the same – 两边处在同一水平的那个状态",
+      "core_image": "两条起跑线画在同一位置，没人靠前半步",
+      "chinese": ["平等", "相等"],
+      "examples": [
+        "The movement fought for racial equality.",
+        "Equality of opportunity matters most."
+      ],
+      "synonyms": ["fairness"],
+      "antonyms": ["inequality"],
+      "related": ["equal", "equation", "adequate"],
+      "semantic_expansions": [
+        "平等与相等：都是'两边处在同一水平'，一个说地位一个说数量"
+      ]
+    },
+    {
+      "id": "equation",
+      "word": "equation",
+      "pos": "noun",
+      "phonetic": "/ɪˈkweɪʒn/",
+      "decomposable": "root",
+      "root_ids": ["aequus"],
+      "root_logic": "equate（使相等）+ -ion（名词）→ 声明两边相等的那个式子 → 方程",
+      "origin": "拉丁语 aequatio：aequare（使相等）← aequus（相等的）",
+      "native_definition": "a mathematical statement that two amounts are equal, or a situation with several factors",
+      "core_concept": "a statement that two sides are the same – 声明两边相等的那个式子",
+      "core_image": "等号两边各一串符号，谁改动一边另一边就得跟着改",
+      "chinese": ["方程", "等式", "综合情况"],
+      "examples": [
+        "Solve the equation for x.",
+        "Cost is only one part of the equation."
+      ],
+      "synonyms": ["formula"],
+      "antonyms": [],
+      "related": ["equal", "equality", "adequate"],
+      "semantic_expansions": [
+        "方程/等式：声明两边相等的式子",
+        "综合情况（part of the equation）：要一起考虑、彼此制约的那一组因素。同一个'两边须相称'，一个在数学一个在事理"
+      ]
+    },
+    {
+      "id": "adequate",
+      "word": "adequate",
+      "pos": "adjective",
+      "phonetic": "/ˈædɪkwət/",
+      "decomposable": "root",
+      "root_ids": ["aequus"],
+      "root_logic": "ad-（朝向）+ equ（相等）+ -ate → 与所需相当的 → 足够的",
+      "origin": "拉丁语 adaequatus：ad-（朝向）+ aequus（相等的）——'与之相当'",
+      "native_definition": "enough for what is needed, though not more",
+      "core_concept": "matching what is required, no more – 与所需相当，刚够而不多",
+      "core_image": "秤上的分量正好压到刻度线，不多一克",
+      "chinese": ["足够的", "适当的", "勉强够的"],
+      "examples": [
+        "The lighting is adequate for reading.",
+        "Her explanation was adequate but dull."
+      ],
+      "synonyms": ["sufficient", "enough"],
+      "antonyms": ["inadequate"],
+      "related": ["equal", "equality", "equation"],
+      "semantic_expansions": [
+        "足够的/适当的：与所需相当",
+        "勉强够的：刚好相当、不再有余。同一个'与所需持平'，语气上从中性到略带保留"
+      ]
+    },
+    {
+      "id": "claim",
+      "word": "claim",
+      "pos": "verb",
+      "phonetic": "/kleɪm/",
+      "decomposable": "root",
+      "root_ids": ["claimare"],
+      "root_logic": "claimare（喊出）本身即词根，无前缀 → 喊出来说某物归自己、或某事为真",
+      "recall_hint": "claimare（喊出）本身即词根 → 喊出来说某物归自己或某事为真；名词则是喊出来的那份主张",
+      "origin": "拉丁语 clamare（喊、宣告）经古法语 clamer 进入英语",
+      "native_definition": "to say something is true without proof, or to demand what is yours",
+      "core_concept": "calling out that something is yours or true – 喊出来说这归我、或这是真的",
+      "core_image": "在认领处举手说那只箱子是自己的",
+      "chinese": ["声称", "索取", "主张"],
+      "examples": [
+        "He claims to have finished it alone.",
+        "You can claim a refund within a month."
+      ],
+      "synonyms": ["assert", "demand"],
+      "antonyms": ["deny"],
+      "related": ["exclaim", "proclaim", "reclaim"],
+      "semantic_expansions": [
+        "声称/主张：喊出来说某事为真",
+        "索取（退款）：喊出来说这份归我。同一个'喊出来宣告'，宣告的是事实还是所有权"
+      ]
+    },
+    {
+      "id": "exclaim",
+      "word": "exclaim",
+      "pos": "verb",
+      "phonetic": "/ɪkˈskleɪm/",
+      "decomposable": "root",
+      "root_ids": ["claimare"],
+      "root_logic": "ex-（向外）+ claim（喊）→ 一下子喊出来 → 惊叫",
+      "origin": "拉丁语 exclamare：ex-（向外）+ clamare（喊）",
+      "native_definition": "to cry out suddenly, especially from surprise or strong feeling",
+      "core_concept": "letting a cry burst outward – 情绪把喊声一下推到外面",
+      "core_image": "看到账单的瞬间，声音先冲出了嘴",
+      "chinese": ["惊叫", "呼喊"],
+      "examples": [
+        "\"That is impossible!\" she exclaimed.",
+        "He exclaimed in delight at the news."
+      ],
+      "synonyms": ["cry", "shout"],
+      "antonyms": [],
+      "related": ["claim", "proclaim", "reclaim"],
+      "semantic_expansions": [
+        "惊叫与呼喊：都是'喊声一下推到外面'，一个偏意外一个偏音量"
+      ]
+    },
+    {
+      "id": "proclaim",
+      "word": "proclaim",
+      "pos": "verb",
+      "phonetic": "/prəˈkleɪm/",
+      "decomposable": "root",
+      "root_ids": ["claimare"],
+      "root_logic": "pro-（向前、公开）+ claim（喊）→ 当众喊出来 → 宣布",
+      "origin": "拉丁语 proclamare：pro-（向前）+ clamare（喊）",
+      "native_definition": "to announce something publicly and officially",
+      "core_concept": "calling it out before everyone – 当着众人把它喊出来",
+      "core_image": "使者站在台阶上展开卷轴念出诏令",
+      "chinese": ["宣布", "宣告", "公然表明"],
+      "examples": [
+        "Independence was proclaimed that morning.",
+        "The banner proclaimed their victory."
+      ],
+      "synonyms": ["announce", "declare"],
+      "antonyms": [],
+      "related": ["claim", "exclaim", "reclaim"],
+      "semantic_expansions": [
+        "宣布/宣告：当众正式喊出来",
+        "公然表明：不加掩饰地喊出来。同一个'当众喊出'，一个偏程序一个偏姿态"
+      ]
+    },
+    {
+      "id": "reclaim",
+      "word": "reclaim",
+      "pos": "verb",
+      "phonetic": "/rɪˈkleɪm/",
+      "decomposable": "root",
+      "root_ids": ["claimare"],
+      "root_logic": "re-（往回）+ claim（喊出主张）→ 喊着把原属自己的要回来 → 收回",
+      "origin": "拉丁语 reclamare：re-（往回）+ clamare（喊）",
+      "native_definition": "to get something back, or to make land usable again",
+      "core_concept": "calling back what was yours – 喊着把原本属于自己的要回来",
+      "core_image": "行李转盘边出示存根，把箱子领回手里",
+      "chinese": ["收回", "取回", "开垦"],
+      "examples": [
+        "She reclaimed her luggage at the desk.",
+        "The land was reclaimed from the sea."
+      ],
+      "synonyms": ["recover", "regain"],
+      "antonyms": [],
+      "related": ["claim", "exclaim", "proclaim"],
+      "semantic_expansions": [
+        "收回/取回：把原属自己的要回来",
+        "开垦（滩地）：把土地从荒废或海水那里要回来。同一个'要回原本该属于的'，对象是物还是地"
+      ]
+    },
+    {
+      "id": "liberty",
+      "word": "liberty",
+      "pos": "noun",
+      "phonetic": "/ˈlɪbərti/",
+      "decomposable": "root",
+      "root_ids": ["liber"],
+      "root_logic": "liber（不受束缚的）+ -ty（名词）→ 身上没有绑着东西的那个状态 → 自由",
+      "origin": "拉丁语 libertas：liber（自由的）",
+      "native_definition": "the state of being free from control or restriction",
+      "core_concept": "the state of being unbound – 身上没有束缚的那个状态",
+      "core_image": "牢门推开，人走出来时手上什么都没锁着",
+      "chinese": ["自由", "自由权"],
+      "examples": [
+        "They fought for liberty.",
+        "Civil liberties are protected by law."
+      ],
+      "synonyms": ["freedom"],
+      "antonyms": [],
+      "related": ["liberal", "liberate", "deliberate"],
+      "semantic_expansions": [
+        "自由与自由权：都是'身上没有束缚的状态'，一个说状态一个说受保障的权利"
+      ]
+    },
+    {
+      "id": "liberal",
+      "word": "liberal",
+      "pos": "adjective",
+      "phonetic": "/ˈlɪbərəl/",
+      "decomposable": "root",
+      "root_ids": ["liber"],
+      "root_logic": "liber（自由的）+ -al（…的）→ 给人留余地的、不设死框的 → 开明的；引申为给得宽 → 大量的",
+      "recall_hint": "liber（不受束缚）+ -al → 不给人设死框、留余地的；引申为给东西也给得宽",
+      "origin": "拉丁语 liberalis：liber（自由的）——原指'适合自由人的'",
+      "native_definition": "open to new ideas and to others' freedom; also generous in amount",
+      "core_concept": "leaving room rather than binding – 不勒紧，给人和量都留余地",
+      "core_image": "规矩写得宽，很多做法都容得下",
+      "chinese": ["开明的", "自由主义的", "大量的"],
+      "examples": [
+        "She holds liberal views on education.",
+        "Add a liberal amount of butter."
+      ],
+      "synonyms": ["open-minded", "generous"],
+      "antonyms": ["conservative"],
+      "related": ["liberty", "liberate", "deliberate"],
+      "semantic_expansions": [
+        "开明的/自由主义的：不给人设死框",
+        "大量的：给的量也不勒紧。同一个'留余地'，一个对人一个对量"
+      ]
+    },
+    {
+      "id": "liberate",
+      "word": "liberate",
+      "pos": "verb",
+      "phonetic": "/ˈlɪbəreɪt/",
+      "decomposable": "root",
+      "root_ids": ["liber"],
+      "root_logic": "liber（自由的）+ -ate（使成为）→ 使之不再受束缚 → 解放",
+      "origin": "拉丁语 liberare：liber（自由的）",
+      "native_definition": "to set someone free from confinement or oppression",
+      "core_concept": "making someone unbound – 把束缚从人身上去掉",
+      "core_image": "锁链解开落地，人第一次能直起身走路",
+      "chinese": ["解放", "释放"],
+      "examples": [
+        "The city was liberated in 1944.",
+        "Technology liberated her from routine tasks."
+      ],
+      "synonyms": ["free", "release"],
+      "antonyms": ["oppress"],
+      "related": ["liberty", "liberal", "deliberate"],
+      "semantic_expansions": [
+        "解放与释放：都是'把束缚从人身上去掉'，一个偏群体一个偏个体"
+      ]
+    },
+    {
+      "id": "deliberate",
+      "word": "deliberate",
+      "pos": "adjective",
+      "phonetic": "/dɪˈlɪbərət/",
+      "decomposable": "root",
+      "root_ids": ["liber"],
+      "root_logic": "de-（彻底）+ liber（此处取 libra 天平义，称量）+ -ate → 彻底称量过才做的 → 深思熟虑的、故意的",
+      "recall_hint": "de-（彻底）+ libra（天平、称量）+ -ate → 在心里彻底称量过之后才做的；所以既指从容不迫，也指并非无心",
+      "origin": "拉丁语 deliberare：de-（彻底）+ librare（称量）← libra（天平）",
+      "native_definition": "done on purpose after thinking, or slow and careful",
+      "core_concept": "done after weighing it out fully – 在心里称量过之后才做",
+      "core_image": "下棋的人手停在棋子上方很久才落下",
+      "chinese": ["故意的", "深思熟虑的", "从容的"],
+      "examples": [
+        "It was a deliberate insult.",
+        "She spoke in a slow, deliberate voice."
+      ],
+      "synonyms": ["intentional", "careful"],
+      "antonyms": ["accidental"],
+      "related": ["liberty", "liberal", "liberate"],
+      "semantic_expansions": [
+        "故意的：称量过才做，不是无心",
+        "深思熟虑的/从容的：因为在称量，所以不急。同一个'心里过了秤'，一个说动机一个说节奏"
+      ]
+    },
+    {
+      "id": "close",
+      "word": "close",
+      "pos": "verb",
+      "phonetic": "/kloʊz/",
+      "decomposable": "root",
+      "root_ids": ["clud"],
+      "root_logic": "clud（关闭）经古法语 clos 进入英语，无前缀 → 把开口合上；引申为距离上没有缝隙 → 近的",
+      "recall_hint": "clud（关闭）的法语形，无前缀 → 把开口合上；两样东西之间没有缝隙时也用它",
+      "origin": "拉丁语 claudere（关闭）经古法语 clos 进入英语",
+      "native_definition": "to shut something, or to be at a short distance",
+      "core_concept": "bringing the gap to nothing – 把中间那道缝合到没有",
+      "core_image": "抽屉推到底，缝隙一点点消失直到看不见",
+      "chinese": ["关闭", "接近的", "亲密的"],
+      "examples": [
+        "Please close the window.",
+        "The station is close to my flat.",
+        "They remain close friends."
+      ],
+      "synonyms": ["shut", "near"],
+      "antonyms": ["open", "far"],
+      "related": ["disclose", "enclose", "enclosure", "conclude", "exclude"],
+      "semantic_expansions": [
+        "关闭：把开口合到没有",
+        "接近的/亲密的：两者之间的距离合到几乎没有。同一个'缝隙归零'，一个是物理开口一个是间距"
+      ]
+    },
+    {
+      "id": "disclose",
+      "word": "disclose",
+      "pos": "verb",
+      "phonetic": "/dɪsˈkloʊz/",
+      "decomposable": "root",
+      "root_ids": ["clud"],
+      "root_logic": "dis-（去除）+ close（关闭）→ 把合上的打开 → 透露",
+      "origin": "拉丁语 dis-（去除）+ claudere（关闭）经古法语 desclore",
+      "native_definition": "to make known something that was kept secret",
+      "core_concept": "opening what was kept shut – 把一直合着的打开",
+      "core_image": "抽屉拉开，里面的文件第一次被别人看到",
+      "chinese": ["透露", "披露", "使显露"],
+      "examples": [
+        "He refused to disclose his sources.",
+        "The scan disclosed a small fracture."
+      ],
+      "synonyms": ["reveal", "uncover"],
+      "antonyms": ["conceal"],
+      "related": ["close", "enclose", "enclosure", "exclude"],
+      "semantic_expansions": [
+        "透露/披露：把合着的信息打开",
+        "使显露（检查结果）：让原本看不见的露出来。同一个'开合上的东西'，一个是主动说一个是被查出"
+      ]
+    },
+    {
+      "id": "enclose",
+      "word": "enclose",
+      "pos": "verb",
+      "phonetic": "/ɪnˈkloʊz/",
+      "decomposable": "root",
+      "root_ids": ["clud"],
+      "root_logic": "en-（使…进入）+ close（关闭）→ 把某物关进里面 → 围住、附上",
+      "origin": "拉丁语 in-（进入）+ claudere（关闭）经古法语 enclore",
+      "native_definition": "to surround something, or to put something inside an envelope",
+      "core_concept": "shutting something inside a boundary – 把某物关在一圈界线之内",
+      "core_image": "篱笆围了一圈，羊在里面出不去",
+      "chinese": ["围住", "附上", "封入"],
+      "examples": [
+        "A high wall encloses the garden.",
+        "I enclose a copy of the receipt."
+      ],
+      "synonyms": ["surround", "include"],
+      "antonyms": [],
+      "related": ["close", "enclosure", "disclose", "include"],
+      "semantic_expansions": [
+        "围住：用界线把某物关在里面",
+        "附上/封入（信件）：把纸片关进信封里。同一个'关进界线之内'，界线是篱笆还是信封"
+      ]
+    },
+    {
+      "id": "enclosure",
+      "word": "enclosure",
+      "pos": "noun",
+      "phonetic": "/ɪnˈkloʊʒər/",
+      "decomposable": "root",
+      "root_ids": ["clud"],
+      "root_logic": "enclose（围住）+ -ure（名词）→ 被围起来的那块地方，或随信封入之物 → 围场、附件",
+      "recall_hint": "enclose（关进界线之内）+ -ure → 被围起来的那块地方；也指随信一起封进去的那份东西",
+      "origin": "拉丁语 in-（进入）+ claudere（关闭）",
+      "native_definition": "an area surrounded by a barrier, or something included with a letter",
+      "core_concept": "the space shut in, or what is shut in – 被围住的那块地方，或被封进的那份东西",
+      "core_image": "动物园里一圈栏杆围出的场地，动物在里面走动",
+      "chinese": ["围场", "圈地", "附件"],
+      "examples": [
+        "The birds were kept in a large enclosure.",
+        "Please see the enclosure for details."
+      ],
+      "synonyms": ["pen", "attachment"],
+      "antonyms": [],
+      "related": ["enclose", "close", "disclose"],
+      "semantic_expansions": [
+        "围场/圈地：被围起来的那块地方",
+        "附件：随信被封进去的那份东西。同一个'被关在里面的'，一个是空间一个是物"
+      ]
+    }
+  ]
+}

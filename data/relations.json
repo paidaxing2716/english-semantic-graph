@@ -2136,6 +2136,102 @@
       "to": "prospective",
       "type": "root",
       "note": "prospect（向前看）+ -ive（…的）→ 属于往前看到的那一段的 → 未来的、潜在的"
+    },
+    {
+      "from": "aequus",
+      "to": "equal",
+      "type": "root",
+      "note": "aequ（平、相等）+ -al（…的）→ 两边一样多、一样高的 → 相等的"
+    },
+    {
+      "from": "aequus",
+      "to": "equality",
+      "type": "root",
+      "note": "equal（相等的）+ -ity（名词）→ 两边一样的那个状态 → 平等"
+    },
+    {
+      "from": "aequus",
+      "to": "equation",
+      "type": "root",
+      "note": "equate（使相等）+ -ion（名词）→ 声明两边相等的那个式子 → 方程"
+    },
+    {
+      "from": "aequus",
+      "to": "adequate",
+      "type": "root",
+      "note": "ad-（朝向）+ equ（相等）+ -ate → 与所需相当的 → 足够的"
+    },
+    {
+      "from": "claimare",
+      "to": "claim",
+      "type": "root",
+      "note": "claimare（喊出）本身即词根，无前缀 → 喊出来说某物归自己、或某事为真"
+    },
+    {
+      "from": "claimare",
+      "to": "exclaim",
+      "type": "root",
+      "note": "ex-（向外）+ claim（喊）→ 一下子喊出来 → 惊叫"
+    },
+    {
+      "from": "claimare",
+      "to": "proclaim",
+      "type": "root",
+      "note": "pro-（向前、公开）+ claim（喊）→ 当众喊出来 → 宣布"
+    },
+    {
+      "from": "claimare",
+      "to": "reclaim",
+      "type": "root",
+      "note": "re-（往回）+ claim（喊出主张）→ 喊着把原属自己的要回来 → 收回"
+    },
+    {
+      "from": "liber",
+      "to": "liberty",
+      "type": "root",
+      "note": "liber（不受束缚的）+ -ty（名词）→ 身上没有绑着东西的那个状态 → 自由"
+    },
+    {
+      "from": "liber",
+      "to": "liberal",
+      "type": "root",
+      "note": "liber（自由的）+ -al（…的）→ 给人留余地的、不设死框的 → 开明的；引申为给得宽 → 大量的"
+    },
+    {
+      "from": "liber",
+      "to": "liberate",
+      "type": "root",
+      "note": "liber（自由的）+ -ate（使成为）→ 使之不再受束缚 → 解放"
+    },
+    {
+      "from": "liber",
+      "to": "deliberate",
+      "type": "root",
+      "note": "de-（彻底）+ liber（此处取 libra 天平义，称量）+ -ate → 彻底称量过才做的 → 深思熟虑的、故意"
+    },
+    {
+      "from": "clud",
+      "to": "close",
+      "type": "root",
+      "note": "clud（关闭）经古法语 clos 进入英语，无前缀 → 把开口合上；引申为距离上没有缝隙 → 近的"
+    },
+    {
+      "from": "clud",
+      "to": "disclose",
+      "type": "root",
+      "note": "dis-（去除）+ close（关闭）→ 把合上的打开 → 透露"
+    },
+    {
+      "from": "clud",
+      "to": "enclose",
+      "type": "root",
+      "note": "en-（使…进入）+ close（关闭）→ 把某物关进里面 → 围住、附上"
+    },
+    {
+      "from": "clud",
+      "to": "enclosure",
+      "type": "root",
+      "note": "enclose（围住）+ -ure（名词）→ 被围起来的那块地方，或随信封入之物 → 围场、附件"
     }
   ]
 }

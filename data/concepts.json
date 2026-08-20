@@ -286,7 +286,11 @@
         "exclusive",
         "seclude",
         "preclude",
-        "inclusive"
+        "inclusive",
+        "close",
+        "disclose",
+        "enclose",
+        "enclosure"
       ]
     },
     {
@@ -901,6 +905,51 @@
         "organism",
         "organization",
         "organize"
+      ]
+    },
+    {
+      "id": "concept-aequus-equal",
+      "concept": "level, the same on both sides",
+      "chinese": "相等、平衡",
+      "core_image": "天平两端停在同一高度，指针正对中间",
+      "root_ids": [
+        "aequus"
+      ],
+      "word_ids": [
+        "adequate",
+        "equal",
+        "equality",
+        "equation"
+      ]
+    },
+    {
+      "id": "concept-claimare-shout",
+      "concept": "to cry out",
+      "chinese": "喊出、宣告",
+      "core_image": "站在人群中放开嗓子喊一声，四周都听见",
+      "root_ids": [
+        "claimare"
+      ],
+      "word_ids": [
+        "claim",
+        "exclaim",
+        "proclaim",
+        "reclaim"
+      ]
+    },
+    {
+      "id": "concept-liber-free",
+      "concept": "free from restraint",
+      "chinese": "自由、不受束缚",
+      "core_image": "绳子从手腕上解开落地，手可以随意动了",
+      "root_ids": [
+        "liber"
+      ],
+      "word_ids": [
+        "deliberate",
+        "liberal",
+        "liberate",
+        "liberty"
       ]
     }
   ]

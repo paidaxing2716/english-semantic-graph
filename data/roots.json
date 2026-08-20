@@ -303,7 +303,11 @@
         "exclusive",
         "seclude",
         "preclude",
-        "inclusive"
+        "inclusive",
+        "close",
+        "disclose",
+        "enclose",
+        "enclosure"
       ]
     },
     {
@@ -1039,6 +1043,60 @@
         "organism",
         "organization",
         "organize"
+      ]
+    },
+    {
+      "id": "aequus",
+      "root": "aequus",
+      "variants": [
+        "equ",
+        "equi"
+      ],
+      "origin": "拉丁语 aequus（平的、相等的）",
+      "core_concept": "level, the same on both sides / 两边一样平",
+      "core_image": "天平两端停在同一高度，指针正对中间",
+      "english_definition": "equal, level, fair",
+      "word_ids": [
+        "adequate",
+        "equal",
+        "equality",
+        "equation"
+      ]
+    },
+    {
+      "id": "claimare",
+      "root": "claimare",
+      "variants": [
+        "claim",
+        "clam"
+      ],
+      "origin": "拉丁语 clamare（喊、大声宣告）",
+      "core_concept": "to cry out / 喊出来让人听见",
+      "core_image": "站在人群中放开嗓子喊一声，四周都听见了",
+      "english_definition": "to shout, to call out",
+      "word_ids": [
+        "claim",
+        "exclaim",
+        "proclaim",
+        "reclaim"
+      ]
+    },
+    {
+      "id": "liber",
+      "root": "liber",
+      "variants": [
+        "liber",
+        "libr"
+      ],
+      "origin": "拉丁语 liber（自由的、不受束缚的）",
+      "core_concept": "free from restraint / 身上没有绑着的东西",
+      "core_image": "绳子从手腕上解开落地，手可以随意动了",
+      "english_definition": "free, unbound",
+      "word_ids": [
+        "deliberate",
+        "liberal",
+        "liberate",
+        "liberty"
       ]
     }
   ]
