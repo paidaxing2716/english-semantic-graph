@@ -358,7 +358,10 @@
         "proficiency",
         "infectious",
         "manufacture",
-        "beneficial"
+        "beneficial",
+        "fact",
+        "factor",
+        "factory"
       ]
     },
     {
@@ -2046,6 +2049,62 @@
         "passive",
         "patience",
         "patient"
+      ]
+    },
+    {
+      "id": "concept-habitare-dwell",
+      "concept": "to dwell in a place, to keep returning to it",
+      "chinese": "居住栖居",
+      "core_image": "同一只鸟年复一年回到同一个巢里住下",
+      "root_ids": [
+        "habitare"
+      ],
+      "word_ids": [
+        "habit",
+        "inhabit",
+        "inhabitant"
+      ]
+    },
+    {
+      "id": "concept-punktum-point",
+      "concept": "a sharp point or a single precise spot",
+      "chinese": "尖端点",
+      "core_image": "针尖刺纸留下一个精准的小孔",
+      "root_ids": [
+        "punktum"
+      ],
+      "word_ids": [
+        "appoint",
+        "appointment",
+        "point"
+      ]
+    },
+    {
+      "id": "concept-limes-boundary",
+      "concept": "the boundary edge beyond which one may not pass",
+      "chinese": "边界界限",
+      "core_image": "田边的界桩挡住牛不再往前走",
+      "root_ids": [
+        "limes"
+      ],
+      "word_ids": [
+        "limit",
+        "limitation",
+        "limited"
+      ]
+    },
+    {
+      "id": "concept-gubernare-steer",
+      "concept": "to steer and direct, holding the course",
+      "chinese": "掌舵治理",
+      "core_image": "舵手把住舵轮，让船按定好的方向走",
+      "root_ids": [
+        "gubernare"
+      ],
+      "word_ids": [
+        "govern",
+        "government",
+        "governor"
       ]
     }
   ]

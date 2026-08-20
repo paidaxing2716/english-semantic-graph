@@ -9604,6 +9604,223 @@
       "text": "I inferred from his tone that he was angry.",
       "source": "AI 生成 · 人工审核",
       "scene": "侦探从一串脚印里推出刚才发生的事"
+    },
+    {
+      "id": "ex-habit-1",
+      "word_id": "habit",
+      "text": "He has a habit of reading before bed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路每天清晨都走一遍，脚自己就知道往哪拐"
+    },
+    {
+      "id": "ex-habit-2",
+      "word_id": "habit",
+      "text": "Smoking is a hard habit to break.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路每天清晨都走一遍，脚自己就知道往哪拐"
+    },
+    {
+      "id": "ex-inhabit-1",
+      "word_id": "inhabit",
+      "text": "These birds inhabit the coastal cliffs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一家人搬进山谷里的小屋，从此长期住下"
+    },
+    {
+      "id": "ex-inhabit-2",
+      "word_id": "inhabit",
+      "text": "Thousands of species inhabit the reef.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一家人搬进山谷里的小屋，从此长期住下"
+    },
+    {
+      "id": "ex-inhabitant-1",
+      "word_id": "inhabitant",
+      "text": "The island's inhabitants rely on fishing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山谷小屋的窗户里透出灯光，屋主一家常年住在那里"
+    },
+    {
+      "id": "ex-inhabitant-2",
+      "word_id": "inhabitant",
+      "text": "Ancient inhabitants left stone circles here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山谷小屋的窗户里透出灯光，屋主一家常年住在那里"
+    },
+    {
+      "id": "ex-point-1",
+      "word_id": "point",
+      "text": "The pencil has a sharp point.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箭头的尖稳稳扎在靶心那一个点上"
+    },
+    {
+      "id": "ex-point-2",
+      "word_id": "point",
+      "text": "Good point—let me reconsider.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箭头的尖稳稳扎在靶心那一个点上"
+    },
+    {
+      "id": "ex-point-3",
+      "word_id": "point",
+      "text": "She pointed at the map.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箭头的尖稳稳扎在靶心那一个点上"
+    },
+    {
+      "id": "ex-appoint-1",
+      "word_id": "appoint",
+      "text": "They appointed her to lead the team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校长在名单上点出一个名字，指定他担任组长"
+    },
+    {
+      "id": "ex-appoint-2",
+      "word_id": "appoint",
+      "text": "The meeting was appointed for Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校长在名单上点出一个名字，指定他担任组长"
+    },
+    {
+      "id": "ex-appointment-1",
+      "word_id": "appointment",
+      "text": "I have a dentist appointment at three.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上画着圈的那格时间，就是和牙医约好的就诊时刻"
+    },
+    {
+      "id": "ex-appointment-2",
+      "word_id": "appointment",
+      "text": "Her appointment as director was announced.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上画着圈的那格时间，就是和牙医约好的就诊时刻"
+    },
+    {
+      "id": "ex-limit-1",
+      "word_id": "limit",
+      "text": "There is a limit to what we can do.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道上画着终点线，冲过那根线比赛就结束"
+    },
+    {
+      "id": "ex-limit-2",
+      "word_id": "limit",
+      "text": "Please limit your speech to five minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道上画着终点线，冲过那根线比赛就结束"
+    },
+    {
+      "id": "ex-limitation-1",
+      "word_id": "limitation",
+      "text": "The main limitation is the budget.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笼子再大也有边框，飞禽的活动范围到此为止"
+    },
+    {
+      "id": "ex-limitation-2",
+      "word_id": "limitation",
+      "text": "He knows his own limitations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笼子再大也有边框，飞禽的活动范围到此为止"
+    },
+    {
+      "id": "ex-limited-1",
+      "word_id": "limited",
+      "text": "The offer is available for a limited time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块圈起来的实验田，只种得下几种作物"
+    },
+    {
+      "id": "ex-limited-2",
+      "word_id": "limited",
+      "text": "His knowledge of the subject is limited.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块圈起来的实验田，只种得下几种作物"
+    },
+    {
+      "id": "ex-govern-1",
+      "word_id": "govern",
+      "text": "The council governs the town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船长端坐驾驶台，轮船按他给出的航线破浪前行"
+    },
+    {
+      "id": "ex-govern-2",
+      "word_id": "govern",
+      "text": "Prices are governed by supply and demand.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船长端坐驾驶台，轮船按他给出的航线破浪前行"
+    },
+    {
+      "id": "ex-government-1",
+      "word_id": "government",
+      "text": "The government announced new policies.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "议会大楼里的人们开会定策，相当于给国家掌舵的那套装置"
+    },
+    {
+      "id": "ex-government-2",
+      "word_id": "government",
+      "text": "She works for the local government.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "议会大楼里的人们开会定策，相当于给国家掌舵的那套装置"
+    },
+    {
+      "id": "ex-governor-1",
+      "word_id": "governor",
+      "text": "The governor signed the new law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼顶旗帜猎猎，坐在主位的那人统筹着全州大小事务"
+    },
+    {
+      "id": "ex-governor-2",
+      "word_id": "governor",
+      "text": "He was elected governor last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼顶旗帜猎猎，坐在主位的那人统筹着全州大小事务"
+    },
+    {
+      "id": "ex-fact-1",
+      "word_id": "fact",
+      "text": "The fact is that we were late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石碑上刻下的那行字，任谁来看都是不动的实情"
+    },
+    {
+      "id": "ex-fact-2",
+      "word_id": "fact",
+      "text": "Facts speak louder than words.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石碑上刻下的那行字，任谁来看都是不动的实情"
+    },
+    {
+      "id": "ex-factor-1",
+      "word_id": "factor",
+      "text": "Cost is a major factor in the decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "烹调的几味调料缺一不可，缺一味味道就变"
+    },
+    {
+      "id": "ex-factor-2",
+      "word_id": "factor",
+      "text": "Two and three are factors of six.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "烹调的几味调料缺一不可，缺一味味道就变"
+    },
+    {
+      "id": "ex-factory-1",
+      "word_id": "factory",
+      "text": "The factory employs five hundred workers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厂房里流水线不停转动，商品一件件被做出来"
+    },
+    {
+      "id": "ex-factory-2",
+      "word_id": "factory",
+      "text": "Cars roll off the factory line daily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厂房里流水线不停转动，商品一件件被做出来"
     }
   ]
 }

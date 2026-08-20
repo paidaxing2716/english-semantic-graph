@@ -1,0 +1,460 @@
+{
+ "generated_at": "manual",
+ "missing_total": 254,
+ "families_with_missing": 93,
+ "keys_with_colon": [
+  "art::ars",
+  "gard::guarder",
+  "leg::lex-legis",
+  "leg::lig",
+  "man::manus",
+  "pres::praeesse",
+  "pres::premere",
+  "res::sistere",
+  "sid::sidus",
+  "stor::instaurare",
+  "sult::salire"
+ ],
+ "missing": {
+  "trah": [
+   "attractive"
+  ],
+  "accept": [
+   "acceptable",
+   "acceptance"
+  ],
+  "accord": [
+   "accord",
+   "accordance",
+   "accordingly"
+  ],
+  "vid": [
+   "envisage"
+  ],
+  "flu": [
+   "flu"
+  ],
+  "grav": [
+   "aggravate",
+   "grave",
+   "gravity"
+  ],
+  "olog": [
+   "apologise",
+   "apology",
+   "biology"
+  ],
+  "point": [
+   "appoint",
+   "appointment",
+   "point"
+  ],
+  "pect": [
+   "expectation"
+  ],
+  "sert": [
+   "assert",
+   "desert",
+   "insert"
+  ],
+  "tain": [
+   "attain"
+  ],
+  "tempt": [
+   "attempt",
+   "contempt",
+   "tempt"
+  ],
+  "auth": [
+   "authentic",
+   "author",
+   "authority"
+  ],
+  "cycl": [
+   "bicycle",
+   "cycle",
+   "recycle"
+  ],
+  "clar": [
+   "clarify",
+   "clarity",
+   "declare"
+  ],
+  "fort": [
+   "comfort",
+   "comfortable",
+   "effort"
+  ],
+  "mod": [
+   "commodity",
+   "moderate",
+   "modify"
+  ],
+  "pact": [
+   "compact",
+   "impact",
+   "pact"
+  ],
+  "comp": [
+   "comparable",
+   "compile",
+   "comply"
+  ],
+  "cern": [
+   "concern",
+   "concerning",
+   "discern"
+  ],
+  "conc": [
+   "concession",
+   "concise",
+   "reconcile"
+  ],
+  "form": [
+   "form",
+   "former",
+   "performance"
+  ],
+  "stitut": [
+   "constitute",
+   "institute",
+   "substitute"
+  ],
+  "sta": [
+   "stationery",
+   "statistical",
+   "stay"
+  ],
+  "strain": [
+   "constrain",
+   "restrain",
+   "strain"
+  ],
+  "struc": [
+   "construction",
+   "destruction",
+   "instruction"
+  ],
+  "temp": [
+   "contemporary",
+   "temper",
+   "temporary"
+  ],
+  "tin": [
+   "continent",
+   "continual",
+   "continuous"
+  ],
+  "respond": [
+   "corresponding"
+  ],
+  "custom": [
+   "custom",
+   "customary",
+   "customer"
+  ],
+  "creas": [
+   "decrease",
+   "increase",
+   "increasingly"
+  ],
+  "feat": [
+   "defeat",
+   "feat",
+   "feature"
+  ],
+  "scrib": [
+   "script"
+  ],
+  "teri": [
+   "deteriorate",
+   "exterior",
+   "interior"
+  ],
+  "gest": [
+   "digest",
+   "gesture",
+   "suggest"
+  ],
+  "ord": [
+   "disorder",
+   "order",
+   "orderly"
+  ],
+  "domin": [
+   "predominant"
+  ],
+  "edit": [
+   "edit",
+   "editor",
+   "editorial"
+  ],
+  "edi": [
+   "edition",
+   "obedience",
+   "obedient"
+  ],
+  "larg": [
+   "enlarge",
+   "large",
+   "largely"
+  ],
+  "cep": [
+   "exception",
+   "exceptional",
+   "reception"
+  ],
+  "hibit": [
+   "exhibit",
+   "inhibit",
+   "prohibit"
+  ],
+  "peri": [
+   "experience",
+   "experiment",
+   "experimental"
+  ],
+  "plan": [
+   "explanation",
+   "plan",
+   "plane"
+  ],
+  "port": [
+   "importance",
+   "port",
+   "porter"
+  ],
+  "fact": [
+   "fact",
+   "factor",
+   "factory"
+  ],
+  "fav": [
+   "favor",
+   "favorable",
+   "favorite"
+  ],
+  "fortun": [
+   "fortunate",
+   "fortune",
+   "misfortune"
+  ],
+  "fresh": [
+   "fresh",
+   "refresh",
+   "refreshment"
+  ],
+  "govern": [
+   "govern",
+   "government",
+   "governor"
+  ],
+  "habit": [
+   "habit",
+   "inhabit",
+   "inhabitant"
+  ],
+  "hero": [
+   "hero",
+   "heroic",
+   "heroine"
+  ],
+  "host": [
+   "host",
+   "hostage",
+   "hostess",
+   "hostile"
+  ],
+  "hum": [
+   "hum",
+   "humor",
+   "humorous"
+  ],
+  "pair": [
+   "impair",
+   "pair",
+   "repair"
+  ],
+  "cad": [
+   "incidence",
+   "incident",
+   "incidentally"
+  ],
+  "num": [
+   "innumerable",
+   "numerical",
+   "numerous"
+  ],
+  "journ": [
+   "journal",
+   "journalist",
+   "journey"
+  ],
+  "lev": [
+   "lever",
+   "levy",
+   "relevant"
+  ],
+  "limit": [
+   "limit",
+   "limitation",
+   "limited"
+  ],
+  "maj": [
+   "majesty",
+   "major",
+   "majority"
+  ],
+  "metr": [
+   "metre",
+   "metric",
+   "symmetry"
+  ],
+  "mus": [
+   "music",
+   "musical",
+   "musician"
+  ],
+  "origin": [
+   "origin",
+   "original",
+   "originate"
+  ],
+  "paint": [
+   "paint",
+   "painter",
+   "painting"
+  ],
+  "plant": [
+   "plant",
+   "plantation",
+   "transplant"
+  ],
+  "pleas": [
+   "pleasant",
+   "please",
+   "pleasure"
+  ],
+  "polit": [
+   "political",
+   "politician",
+   "politics"
+  ],
+  "post": [
+   "post",
+   "postage",
+   "posture"
+  ],
+  "prec": [
+   "preceding",
+   "precise"
+  ],
+  "pref": [
+   "preferable"
+  ],
+  "prev": [
+   "prevalent",
+   "prevent",
+   "previous"
+  ],
+  "prob": [
+   "probability",
+   "probable",
+   "probe"
+  ],
+  "prof": [
+   "profession",
+   "professor",
+   "profile"
+  ],
+  "prop": [
+   "proper",
+   "property",
+   "proportion"
+  ],
+  "prosp": [
+   "prosper",
+   "prosperity",
+   "prosperous"
+  ],
+  "qual": [
+   "qualification",
+   "qualify",
+   "quality"
+  ],
+  "quart": [
+   "quart",
+   "quarter",
+   "quarterly"
+  ],
+  "ref": [
+   "reference"
+  ],
+  "gul": [
+   "regular",
+   "regulate",
+   "regulation"
+  ],
+  "spac": [
+   "space",
+   "spaceship",
+   "spacious"
+  ],
+  "suit": [
+   "suit",
+   "suitable",
+   "suite"
+  ],
+  "leg::lex-legis": [
+   "delegate",
+   "legacy",
+   "legal"
+  ],
+  "leg::lig": [
+   "obligation",
+   "religion",
+   "religious"
+  ],
+  "sid::sidus": [
+   "consider",
+   "considerable",
+   "consideration"
+  ],
+  "art::ars": [
+   "art",
+   "artist",
+   "artistic"
+  ],
+  "sult::salire": [
+   "resultant"
+  ],
+  "man::manus": [
+   "manage",
+   "manner",
+   "manual"
+  ],
+  "pres::premere": [
+   "press"
+  ],
+  "pres::praeesse": [
+   "presence",
+   "present",
+   "presently"
+  ],
+  "gard::guarder": [
+   "regard",
+   "regarding",
+   "regardless"
+  ],
+  "res::sistere": [
+   "resist",
+   "resistance",
+   "resistant"
+  ],
+  "stor::instaurare": [
+   "restore",
+   "storage",
+   "store"
+  ]
+ }
+}

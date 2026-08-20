@@ -15,7 +15,7 @@ v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
-v1.0    考研词表中可结构化的部分（694/869 词，80%）← 当前
+v1.0    考研词表中可结构化的部分（709/869 词，82%）← 当前
 ```
 
 ---
@@ -315,7 +315,12 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
-  - [ ] 剩余 209 个已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
+  - [x] 第三十六批（15 词，四新词根族 + fac 补词）：habitare（居住）
+        + punktum（尖端/点）+ limes（边界）+ gubernare（掌舵），
+        并补 fac 族 fact / factor / factory，709 词 · 125 词根。
+        domain_add 同域词根需累积追加（dict 覆盖会丢根），
+        core_image 避开中文义项以免回想模式泄题
+  - [ ] 剩余已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
 - [ ] 学习模式：探索 / 复习 / 测试
 - [x] 部署为可访问的 Web 页面（GitHub Pages）
 

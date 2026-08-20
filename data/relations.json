@@ -4254,6 +4254,96 @@
       "to": "infer",
       "type": "root",
       "note": "in-（入内）+ fer（携带）→ 从材料中把结论带出来"
+    },
+    {
+      "from": "habitare",
+      "to": "habit",
+      "type": "root",
+      "note": "habit（居住/反复持有）→ 反复做的动作像反复住同一个地方一样固定下来"
+    },
+    {
+      "from": "habitare",
+      "to": "inhabit",
+      "type": "root",
+      "note": "in-（在内）+ habit（居住）→ 在某个地方里边住着"
+    },
+    {
+      "from": "habitare",
+      "to": "inhabitant",
+      "type": "root",
+      "note": "in-（在内）+ habit（居住）+ -ant（人）→ 住在里面的人"
+    },
+    {
+      "from": "punktum",
+      "to": "point",
+      "type": "root",
+      "note": "point（刺出的点）→ 尖端、要点；动词指把注意力指向某一点"
+    },
+    {
+      "from": "punktum",
+      "to": "appoint",
+      "type": "root",
+      "note": "ap-（ad- 靠向）+ point（点）→ 把某人'点'定到某个职位上"
+    },
+    {
+      "from": "punktum",
+      "to": "appointment",
+      "type": "root",
+      "note": "appoint（任命/约定）+ -ment（名词）→ 任命这件事，或约好的相会时刻"
+    },
+    {
+      "from": "limes",
+      "to": "limit",
+      "type": "root",
+      "note": "limit（边界）→ 不许越过的边界；动词是给某物划下边界"
+    },
+    {
+      "from": "limes",
+      "to": "limitation",
+      "type": "root",
+      "note": "limit（边界）+ -ation（名词）→ 边界的存在本身，即受限制的状态"
+    },
+    {
+      "from": "limes",
+      "to": "limited",
+      "type": "root",
+      "note": "limit（边界）+ -ed（已…的）→ 已被划下边界、范围不大的"
+    },
+    {
+      "from": "gubernare",
+      "to": "govern",
+      "type": "root",
+      "note": "govern（掌舵）→ 像舵手把握方向一样管理众人事务"
+    },
+    {
+      "from": "gubernare",
+      "to": "government",
+      "type": "root",
+      "note": "govern（治理）+ -ment（名词）→ 治理一国的机构整体"
+    },
+    {
+      "from": "gubernare",
+      "to": "governor",
+      "type": "root",
+      "note": "govern（治理）+ -or（人）→ 掌舵的人 → 一方之长"
+    },
+    {
+      "from": "fac",
+      "to": "fact",
+      "type": "root",
+      "note": "fact（做→已做成）→ 已经做成、不会改变的事 → 事实"
+    },
+    {
+      "from": "fac",
+      "to": "factor",
+      "type": "root",
+      "note": "fact（已做成的）+ -or（做…者）→ 参与做成某事的一个成分"
+    },
+    {
+      "from": "fac",
+      "to": "factory",
+      "type": "root",
+      "note": "fact（做）+ -ory（场所）→ 专门做东西的场所"
     }
   ]
 }

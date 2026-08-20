@@ -27129,6 +27129,586 @@
       "semantic_expansions": [
         "推断/推论：从已有事实中推出结论"
       ]
+    },
+    {
+      "id": "habit",
+      "word": "habit",
+      "pos": "noun",
+      "phonetic": "/ˈhæbɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habitare"
+      ],
+      "root_logic": "habit（居住/反复持有）→ 反复做的动作像反复住同一个地方一样固定下来",
+      "origin": "拉丁语 habitus（状态、习惯），来自 habere（持有）的反复体 habitare（居住）",
+      "native_definition": "a settled regular practice, especially one hard to give up",
+      "core_concept": "a practice one returns to as steadily as returning home – 像反复回到老住处一样稳定反复的做法",
+      "core_image": "同一条路每天清晨都走一遍，脚自己就知道往哪拐",
+      "chinese": [
+        "习惯",
+        "习性"
+      ],
+      "examples": [
+        "He has a habit of reading before bed.",
+        "Smoking is a hard habit to break."
+      ],
+      "synonyms": [
+        "custom",
+        "routine"
+      ],
+      "antonyms": [
+        "impulse"
+      ],
+      "related": [
+        "inhabit"
+      ],
+      "semantic_expansions": [
+        "习惯/习性：反复做、像常驻一样稳定的行为方式"
+      ],
+      "recall_hint": "habit（居住）→ 反复回到同一处住下 → 反复做的动作固定成习惯"
+    },
+    {
+      "id": "inhabit",
+      "word": "inhabit",
+      "pos": "verb",
+      "phonetic": "/ɪnˈhæbɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habitare"
+      ],
+      "root_logic": "in-（在内）+ habit（居住）→ 在某个地方里边住着",
+      "origin": "拉丁语 inhabitare（居住于），来自 in＋habitare",
+      "native_definition": "to live or dwell in a place",
+      "core_concept": "dwelling inside a place as its resident – 作为居者住在某地之内",
+      "core_image": "一家人搬进山谷里的小屋，从此长期住下",
+      "chinese": [
+        "居住于",
+        "栖息于"
+      ],
+      "examples": [
+        "These birds inhabit the coastal cliffs.",
+        "Thousands of species inhabit the reef."
+      ],
+      "synonyms": [
+        "dwell",
+        "occupy"
+      ],
+      "antonyms": [
+        "vacate"
+      ],
+      "related": [
+        "habit"
+      ],
+      "semantic_expansions": [
+        "居住于/栖息于：作为居民长期住在某处"
+      ],
+      "recall_hint": "in-（在内）+ habit（居住）→ 住在某处里面"
+    },
+    {
+      "id": "inhabitant",
+      "word": "inhabitant",
+      "pos": "noun",
+      "phonetic": "/ɪnˈhæbɪtənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habitare"
+      ],
+      "root_logic": "in-（在内）+ habit（居住）+ -ant（人）→ 住在里面的人",
+      "origin": "拉丁语 inhabitans（居住的），来自 inhabitare（居住于）",
+      "native_definition": "a person or animal that lives in a particular place",
+      "core_concept": "one who dwells inside a place – 住在某地之内的人或生物",
+      "core_image": "山谷小屋的窗户里透出灯光，屋主一家常年住在那里",
+      "chinese": [
+        "居民",
+        "住户",
+        "栖居者"
+      ],
+      "examples": [
+        "The island's inhabitants rely on fishing.",
+        "Ancient inhabitants left stone circles here."
+      ],
+      "synonyms": [
+        "resident",
+        "dweller"
+      ],
+      "antonyms": [
+        "visitor"
+      ],
+      "related": [
+        "habit",
+        "inhabit"
+      ],
+      "semantic_expansions": [
+        "居民/住户：长期居住在某地的成员"
+      ],
+      "recall_hint": "in-（在内）+ habit（居住）+ -ant（人）→ 住在此地的人"
+    },
+    {
+      "id": "point",
+      "word": "point",
+      "pos": "noun / verb",
+      "phonetic": "/pɔɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "punktum"
+      ],
+      "root_logic": "point（刺出的点）→ 尖端、要点；动词指把注意力指向某一点",
+      "origin": "古法语 point（点），来自拉丁语 punctum（刺出的点）",
+      "native_definition": "a sharp end, a particular spot, or the main idea; to direct attention to something",
+      "core_concept": "the exact spot marked by a prick, sharp and precise – 被刺出的那个精准位置，尖而确定",
+      "core_image": "箭头的尖稳稳扎在靶心那一个点上",
+      "chinese": [
+        "点",
+        "要点",
+        "尖端",
+        "指向"
+      ],
+      "examples": [
+        "The pencil has a sharp point.",
+        "Good point—let me reconsider.",
+        "She pointed at the map."
+      ],
+      "synonyms": [
+        "spot",
+        "gist"
+      ],
+      "antonyms": [],
+      "related": [
+        "appoint"
+      ],
+      "semantic_expansions": [
+        "点/尖端：刺出的尖锐位置",
+        "要点：众多话里被'点'出的核心一处",
+        "指向：把注意力引到某个点上"
+      ],
+      "recall_hint": "point（刺出的点）→ 靶尖那样精确的一处；话里的'点'即被指出要点"
+    },
+    {
+      "id": "appoint",
+      "word": "appoint",
+      "pos": "verb",
+      "phonetic": "/əˈpɔɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "punktum"
+      ],
+      "root_logic": "ap-（ad- 靠向）+ point（点）→ 把某人'点'定到某个职位上",
+      "origin": "古法语 apointier（安排到位），来自拉丁语 ad＋punctum（点到）",
+      "native_definition": "to choose someone for a position, or fix a time for something",
+      "core_concept": "marking someone out to a post, or fixing a moment – 把某人点定为职位人选，或把时间定于某刻",
+      "core_image": "校长在名单上点出一个名字，指定他担任组长",
+      "chinese": [
+        "任命",
+        "指派",
+        "约定"
+      ],
+      "examples": [
+        "They appointed her to lead the team.",
+        "The meeting was appointed for Monday."
+      ],
+      "synonyms": [
+        "assign",
+        "designate"
+      ],
+      "antonyms": [
+        "dismiss"
+      ],
+      "related": [
+        "point",
+        "appointment"
+      ],
+      "semantic_expansions": [
+        "任命/指派：把人点定到某个职位",
+        "约定：把时间点定为某刻"
+      ],
+      "recall_hint": "ap-（靠向）+ point（点）→ 把人点到某个职位上"
+    },
+    {
+      "id": "appointment",
+      "word": "appointment",
+      "pos": "noun",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "punktum"
+      ],
+      "root_logic": "appoint（任命/约定）+ -ment（名词）→ 任命这件事，或约好的相会时刻",
+      "origin": "古法语 apointement（安排），来自 apointier（安排到位）",
+      "native_definition": "an arrangement to meet at a set time, or the act of choosing someone for a post",
+      "core_concept": "a fixed meeting moment, or the assigned post itself – 定好的相会时刻，或已被点定的职位",
+      "core_image": "日历上画着圈的那格时间，就是和牙医约好的就诊时刻",
+      "chinese": [
+        "预约",
+        "约会",
+        "任命"
+      ],
+      "examples": [
+        "I have a dentist appointment at three.",
+        "Her appointment as director was announced."
+      ],
+      "synonyms": [
+        "booking",
+        "date"
+      ],
+      "antonyms": [
+        "cancellation"
+      ],
+      "related": [
+        "appoint",
+        "point"
+      ],
+      "semantic_expansions": [
+        "预约/约定：定好的会面时刻",
+        "任命：被点定担任的职位"
+      ],
+      "recall_hint": "appoint（点定）+ -ment → 点定的时刻或职位"
+    },
+    {
+      "id": "limit",
+      "word": "limit",
+      "pos": "noun / verb",
+      "phonetic": "/ˈlɪmɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "limes"
+      ],
+      "root_logic": "limit（边界）→ 不许越过的边界；动词是给某物划下边界",
+      "origin": "拉丁语 limes（边界），经古法语 limite 入英语",
+      "native_definition": "a point or line beyond which something does not or may not extend; to set such a line",
+      "core_concept": "the boundary line one may not cross – 不允许越过的那条边界线",
+      "core_image": "跑道上画着终点线，冲过那根线比赛就结束",
+      "chinese": [
+        "限度",
+        "限制",
+        "界限"
+      ],
+      "examples": [
+        "There is a limit to what we can do.",
+        "Please limit your speech to five minutes."
+      ],
+      "synonyms": [
+        "bound",
+        "cap"
+      ],
+      "antonyms": [
+        "unlimited"
+      ],
+      "related": [
+        "limited",
+        "limitation"
+      ],
+      "semantic_expansions": [
+        "限度/界限：不许越过的那条边界",
+        "限制：为事物划下边界"
+      ],
+      "recall_hint": "limit（边界）→ 不许越过的线；划线即限制"
+    },
+    {
+      "id": "limitation",
+      "word": "limitation",
+      "pos": "noun",
+      "phonetic": "/ˌlɪmɪˈteɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "limes"
+      ],
+      "root_logic": "limit（边界）+ -ation（名词）→ 边界的存在本身，即受限制的状态",
+      "origin": "拉丁语 limitatio（划定边界），来自 limitare（划界）",
+      "native_definition": "a restriction, or a weakness that restricts what someone can do",
+      "core_concept": "the state of having a boundary drawn around one – 被划在边界内、无法越出的状态",
+      "core_image": "笼子再大也有边框，飞禽的活动范围到此为止",
+      "chinese": [
+        "限制",
+        "局限",
+        "缺陷"
+      ],
+      "examples": [
+        "The main limitation is the budget.",
+        "He knows his own limitations."
+      ],
+      "synonyms": [
+        "restriction",
+        "drawback"
+      ],
+      "antonyms": [
+        "advantage"
+      ],
+      "related": [
+        "limit",
+        "limited"
+      ],
+      "semantic_expansions": [
+        "限制/局限：被边界框住的状态",
+        "缺陷：能力被边界框住的部分"
+      ],
+      "recall_hint": "limit（边界）+ -ation → 被边界框住的状态"
+    },
+    {
+      "id": "limited",
+      "word": "limited",
+      "pos": "adjective",
+      "phonetic": "/ˈlɪmɪtɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "limes"
+      ],
+      "root_logic": "limit（边界）+ -ed（已…的）→ 已被划下边界、范围不大的",
+      "origin": "limit 的过去分词形式",
+      "native_definition": "restricted in size, amount, or extent; not very large",
+      "core_concept": "having a boundary drawn around it, small in reach – 被边界圈住、伸展余地不大",
+      "core_image": "一小块圈起来的实验田，只种得下几种作物",
+      "chinese": [
+        "有限的",
+        "受限的"
+      ],
+      "examples": [
+        "The offer is available for a limited time.",
+        "His knowledge of the subject is limited."
+      ],
+      "synonyms": [
+        "restricted",
+        "finite"
+      ],
+      "antonyms": [
+        "unlimited",
+        "boundless"
+      ],
+      "related": [
+        "limit",
+        "limitation"
+      ],
+      "semantic_expansions": [
+        "有限的：被边界圈住、范围不大"
+      ],
+      "recall_hint": "limit（边界）+ -ed → 被边界圈定的、范围有限"
+    },
+    {
+      "id": "govern",
+      "word": "govern",
+      "pos": "verb",
+      "phonetic": "/ˈɡʌvən/",
+      "decomposable": "root",
+      "root_ids": [
+        "gubernare"
+      ],
+      "root_logic": "govern（掌舵）→ 像舵手把握方向一样管理众人事务",
+      "origin": "古法语 governer，来自拉丁语 gubernare（驾驶、指挥）",
+      "native_definition": "to control and direct a country, group, or activity",
+      "core_concept": "steering a vessel of people along a chosen course – 像把舵一样引导众人沿既定方向行进",
+      "core_image": "船长端坐驾驶台，轮船按他给出的航线破浪前行",
+      "chinese": [
+        "统治",
+        "治理",
+        "支配"
+      ],
+      "examples": [
+        "The council governs the town.",
+        "Prices are governed by supply and demand."
+      ],
+      "synonyms": [
+        "rule",
+        "administer"
+      ],
+      "antonyms": [
+        "obey"
+      ],
+      "related": [
+        "government",
+        "governor"
+      ],
+      "semantic_expansions": [
+        "统治/治理：像掌舵一样把握方向管理事务",
+        "支配：规律像舵一样主导结果"
+      ],
+      "recall_hint": "govern（掌舵）→ 把握方向 → 治理一方事务"
+    },
+    {
+      "id": "government",
+      "word": "government",
+      "pos": "noun",
+      "phonetic": "/ˈɡʌvənmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "gubernare"
+      ],
+      "root_logic": "govern（治理）+ -ment（名词）→ 治理一国的机构整体",
+      "origin": "古法语 governement（管理），来自 governer（治理）",
+      "native_definition": "the group of people who rule a country or state",
+      "core_concept": "the steering apparatus of a whole nation – 为整个国家把舵的那套机构",
+      "core_image": "议会大楼里的人们开会定策，相当于给国家掌舵的那套装置",
+      "chinese": [
+        "政府",
+        "政体",
+        "治理"
+      ],
+      "examples": [
+        "The government announced new policies.",
+        "She works for the local government."
+      ],
+      "synonyms": [
+        "administration",
+        "regime"
+      ],
+      "antonyms": [],
+      "related": [
+        "govern",
+        "governor"
+      ],
+      "semantic_expansions": [
+        "政府/政体：治理一国的机构整体"
+      ],
+      "recall_hint": "govern（治理）+ -ment → 治理国家的机构"
+    },
+    {
+      "id": "governor",
+      "word": "governor",
+      "pos": "noun",
+      "phonetic": "/ˈɡʌvənə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "gubernare"
+      ],
+      "root_logic": "govern（治理）+ -or（人）→ 掌舵的人 → 一方之长",
+      "origin": "古法语 gouvreneur，来自拉丁语 gubernator（舵手、指挥者）",
+      "native_definition": "the head of a state, region, or institution",
+      "core_concept": "the person at the helm of a region or body – 为某地区或机构把舵的人",
+      "core_image": "楼顶旗帜猎猎，坐在主位的那人统筹着全州大小事务",
+      "chinese": [
+        "州长",
+        "总督",
+        "主管"
+      ],
+      "examples": [
+        "The governor signed the new law.",
+        "He was elected governor last year."
+      ],
+      "synonyms": [
+        "administrator",
+        "chief"
+      ],
+      "antonyms": [],
+      "related": [
+        "govern",
+        "government"
+      ],
+      "semantic_expansions": [
+        "州长/总督：为一方把舵的首脑"
+      ],
+      "recall_hint": "govern（治理）+ -or（人）→ 为一方掌舵的人"
+    },
+    {
+      "id": "fact",
+      "word": "fact",
+      "pos": "noun",
+      "phonetic": "/fækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "fact（做→已做成）→ 已经做成、不会改变的事 → 事实",
+      "origin": "拉丁语 factum（已做成的事），facere（做）的过去分词中性形式",
+      "native_definition": "something known to be true, especially something that can be proved",
+      "core_concept": "a thing already done and fixed, standing firm – 已经做成、定型不变之物",
+      "core_image": "石碑上刻下的那行字，任谁来看都是不动的实情",
+      "chinese": [
+        "事实",
+        "真相"
+      ],
+      "examples": [
+        "The fact is that we were late.",
+        "Facts speak louder than words."
+      ],
+      "synonyms": [
+        "reality",
+        "truth"
+      ],
+      "antonyms": [
+        "fiction"
+      ],
+      "related": [
+        "factor",
+        "factory",
+        "actual"
+      ],
+      "semantic_expansions": [
+        "事实：已成定局、不再改变的事",
+        "（法律）既成事实 → 真相"
+      ],
+      "recall_hint": "fac（做）+ 过去分词 → 已经做成的、定型之事 → 事实"
+    },
+    {
+      "id": "factor",
+      "word": "factor",
+      "pos": "noun / verb",
+      "phonetic": "/ˈfæktə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "fact（已做成的）+ -or（做…者）→ 参与做成某事的一个成分",
+      "origin": "拉丁语 factor（制造者），来自 facere（做）",
+      "native_definition": "one of the things that helps produce a result; a number that divides another exactly",
+      "core_concept": "one of the doers that together make a result – 合力造成某一结果的各个成分之一",
+      "core_image": "烹调的几味调料缺一不可，缺一味味道就变",
+      "chinese": [
+        "因素",
+        "要素",
+        "因子"
+      ],
+      "examples": [
+        "Cost is a major factor in the decision.",
+        "Two and three are factors of six."
+      ],
+      "synonyms": [
+        "element",
+        "component"
+      ],
+      "antonyms": [],
+      "related": [
+        "fact",
+        "factory"
+      ],
+      "semantic_expansions": [
+        "因素/要素：共同造成结果的一个成分",
+        "因子：把某数'做成'其整数倍的成分"
+      ],
+      "recall_hint": "fact（做）+ -or（者）→ 参与做成结果的成分"
+    },
+    {
+      "id": "factory",
+      "word": "factory",
+      "pos": "noun",
+      "phonetic": "/ˈfæktəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "fact（做）+ -ory（场所）→ 专门做东西的场所",
+      "origin": "拉丁语 factoria（工场），来自 factor（制造者）",
+      "native_definition": "a building where goods are made in large quantities",
+      "core_concept": "a place where making happens at scale – 大批量'做'东西的场所",
+      "core_image": "厂房里流水线不停转动，商品一件件被做出来",
+      "chinese": [
+        "工厂",
+        "制造厂"
+      ],
+      "examples": [
+        "The factory employs five hundred workers.",
+        "Cars roll off the factory line daily."
+      ],
+      "synonyms": [
+        "plant",
+        "mill"
+      ],
+      "antonyms": [],
+      "related": [
+        "fact",
+        "factor"
+      ],
+      "semantic_expansions": [
+        "工厂：专门大批量制造物品的场所"
+      ],
+      "recall_hint": "fact（做）+ -ory（场所）→ 做东西的地方"
     }
   ]
 }

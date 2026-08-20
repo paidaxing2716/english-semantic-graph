@@ -383,7 +383,10 @@
         "proficiency",
         "infectious",
         "manufacture",
-        "beneficial"
+        "beneficial",
+        "fact",
+        "factor",
+        "factory"
       ]
     },
     {
@@ -2404,6 +2407,72 @@
         "passive",
         "patience",
         "patient"
+      ]
+    },
+    {
+      "id": "habitare",
+      "root": "habitare",
+      "variants": [
+        "habit",
+        "hibit"
+      ],
+      "origin": "拉丁语 habitare（居住、常驻），是 habere（持有）的反复体：反复持有某地 → 住下",
+      "core_concept": "to dwell, to hold a place as one's own / 长期驻留某处、把某处据为己居",
+      "core_image": "鸟在同一个巢里年复一年回来住下",
+      "english_definition": "to dwell, inhabit, keep",
+      "word_ids": [
+        "habit",
+        "inhabit",
+        "inhabitant"
+      ]
+    },
+    {
+      "id": "punktum",
+      "root": "punktum",
+      "variants": [
+        "point",
+        "punct"
+      ],
+      "origin": "拉丁语 punctum（刺出的点、小孔），来自 pungere（刺）的过去分词 punctus",
+      "core_concept": "a sharp point, a single marked spot / 一个尖锐的顶端或一个单独标记的点",
+      "core_image": "针尖在纸上刺出一个小孔——又尖又小、位置精确",
+      "english_definition": "point, prick, spot",
+      "word_ids": [
+        "appoint",
+        "appointment",
+        "point"
+      ]
+    },
+    {
+      "id": "limes",
+      "root": "limes",
+      "variants": [
+        "limit"
+      ],
+      "origin": "拉丁语 limes（边界、田界），limitis 的属格 → 英语 limit",
+      "core_concept": "a boundary line, the edge beyond which something may not go / 一条边界线，越线即被禁止",
+      "core_image": "田地尽头的一道界桩，牛走到那儿就停下不再往前",
+      "english_definition": "boundary, border, limit",
+      "word_ids": [
+        "limit",
+        "limitation",
+        "limited"
+      ]
+    },
+    {
+      "id": "gubernare",
+      "root": "gubernare",
+      "variants": [
+        "govern"
+      ],
+      "origin": "希腊语 kybernan（掌舵）经拉丁语 gubernare（驾驶、指挥）传入，控制论的 cybernetics 同源",
+      "core_concept": "to steer a ship, to direct and control / 掌舵引航、把握方向实施掌控",
+      "core_image": "舵手站在船尾把住舵轮，船按他定的方向前行",
+      "english_definition": "to steer, direct, rule",
+      "word_ids": [
+        "govern",
+        "government",
+        "governor"
       ]
     }
   ]
