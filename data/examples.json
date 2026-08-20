@@ -3185,6 +3185,216 @@
       "text": "A second warning would be superfluous.",
       "source": "AI 生成 · 人工审核",
       "scene": "水已经满到杯口还在倒，多的顺着桌面淌走"
+    },
+    {
+      "id": "ex-generate-1",
+      "word_id": "generate",
+      "text": "The dam generates enough power for the city.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水轮一转，原本没有的电流出现在导线里"
+    },
+    {
+      "id": "ex-generate-2",
+      "word_id": "generate",
+      "text": "The ad generated hundreds of enquiries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水轮一转，原本没有的电流出现在导线里"
+    },
+    {
+      "id": "ex-generation-1",
+      "word_id": "generation",
+      "text": "Her generation grew up without smartphones.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全家合影里同辈的人站成一排，上下各是一排"
+    },
+    {
+      "id": "ex-generation-2",
+      "word_id": "generation",
+      "text": "Power generation relies on coal here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全家合影里同辈的人站成一排，上下各是一排"
+    },
+    {
+      "id": "ex-general-1",
+      "word_id": "general",
+      "text": "The general view is that costs will rise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "通告贴在大门上，写的是全体，没有点名"
+    },
+    {
+      "id": "ex-general-2",
+      "word_id": "general",
+      "text": "She was promoted to general last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "通告贴在大门上，写的是全体，没有点名"
+    },
+    {
+      "id": "ex-generous-1",
+      "word_id": "generous",
+      "text": "He was generous with his time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "分菜的人一勺压得满满，从不刮平勺沿"
+    },
+    {
+      "id": "ex-generous-2",
+      "word_id": "generous",
+      "text": "They served a generous portion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "分菜的人一勺压得满满，从不刮平勺沿"
+    },
+    {
+      "id": "ex-degenerate-1",
+      "word_id": "degenerate",
+      "text": "The debate degenerated into shouting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "野化多年的果树，果子一年比一年小而酸"
+    },
+    {
+      "id": "ex-degenerate-2",
+      "word_id": "degenerate",
+      "text": "Muscle tissue degenerates without use.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "野化多年的果树，果子一年比一年小而酸"
+    },
+    {
+      "id": "ex-application-1",
+      "word_id": "application",
+      "text": "Her application was accepted.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "填好的表格折起来从窗口递进去"
+    },
+    {
+      "id": "ex-application-2",
+      "word_id": "application",
+      "text": "This has wide application in medicine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "填好的表格折起来从窗口递进去"
+    },
+    {
+      "id": "ex-applicable-1",
+      "word_id": "applicable",
+      "text": "The rule is not applicable to part-time staff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "模板往图纸上一按，边线正好对齐"
+    },
+    {
+      "id": "ex-applicable-2",
+      "word_id": "applicable",
+      "text": "Delete whichever is not applicable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "模板往图纸上一按，边线正好对齐"
+    },
+    {
+      "id": "ex-complicate-1",
+      "word_id": "complicate",
+      "text": "Do not complicate matters further.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根线绕了十几个结，想解得先找线头"
+    },
+    {
+      "id": "ex-complicate-2",
+      "word_id": "complicate",
+      "text": "His illness complicated the schedule.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根线绕了十几个结，想解得先找线头"
+    },
+    {
+      "id": "ex-complication-1",
+      "word_id": "complication",
+      "text": "An unexpected complication delayed the deal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "本来只是一处骨折，术后又添了感染"
+    },
+    {
+      "id": "ex-complication-2",
+      "word_id": "complication",
+      "text": "The surgery went well with no complications.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "本来只是一处骨折，术后又添了感染"
+    },
+    {
+      "id": "ex-implication-1",
+      "word_id": "implication",
+      "text": "The implication was that we should leave.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信里没写那句话，但读完就明白了那个意思"
+    },
+    {
+      "id": "ex-implication-2",
+      "word_id": "implication",
+      "text": "He denied any implication in the fraud.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信里没写那句话，但读完就明白了那个意思"
+    },
+    {
+      "id": "ex-locate-1",
+      "word_id": "locate",
+      "text": "Rescuers located the wreck at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指在地图上停住，就是这里"
+    },
+    {
+      "id": "ex-locate-2",
+      "word_id": "locate",
+      "text": "The office is located near the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指在地图上停住，就是这里"
+    },
+    {
+      "id": "ex-location-1",
+      "word_id": "location",
+      "text": "Send me your location.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屏幕上一个蓝点标着此刻所在，周围是街道名"
+    },
+    {
+      "id": "ex-location-2",
+      "word_id": "location",
+      "text": "The film was shot on location in Iceland.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屏幕上一个蓝点标着此刻所在，周围是街道名"
+    },
+    {
+      "id": "ex-local-1",
+      "word_id": "local",
+      "text": "Ask a local guide.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "只有这条街停水，隔一条街的水龙头照旧出水"
+    },
+    {
+      "id": "ex-local-2",
+      "word_id": "local",
+      "text": "He was given a local anaesthetic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "只有这条街停水，隔一条街的水龙头照旧出水"
+    },
+    {
+      "id": "ex-locality-1",
+      "word_id": "locality",
+      "text": "Two schools serve the locality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上圈起来的一小块，圈里有几条街几家店"
+    },
+    {
+      "id": "ex-locality-2",
+      "word_id": "locality",
+      "text": "Rainfall varies by locality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上圈起来的一小块，圈里有几条街几家店"
+    },
+    {
+      "id": "ex-allocate-1",
+      "word_id": "allocate",
+      "text": "The council allocated funds for repairs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "预算表上每一行都填了数目，加起来正好是总额"
+    },
+    {
+      "id": "ex-allocate-2",
+      "word_id": "allocate",
+      "text": "Rooms are allocated on arrival.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "预算表上每一行都填了数目，加起来正好是总额"
     }
   ]
 }

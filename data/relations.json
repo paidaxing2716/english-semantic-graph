@@ -1560,6 +1560,96 @@
       "to": "superfluous",
       "type": "root",
       "note": "super-（在上、超出）+ flu（流）+ -ous → 满到从边上溢出去的 → 多余的"
+    },
+    {
+      "from": "gen",
+      "to": "generate",
+      "type": "root",
+      "note": "gener（生出）+ -ate（动词）→ 使某物生出来 → 产生"
+    },
+    {
+      "from": "gen",
+      "to": "generation",
+      "type": "root",
+      "note": "generate（生出）+ -ion（名词）→ 同一批被生出来的人，或生出这件事 → 一代人"
+    },
+    {
+      "from": "gen",
+      "to": "general",
+      "type": "root",
+      "note": "gener（种、类）+ -al（…的）→ 就整个类别而言的 → 总体的；统管全军的人 → 将军"
+    },
+    {
+      "from": "gen",
+      "to": "generous",
+      "type": "root",
+      "note": "gener（出身、门第）+ -ous（…的）→ 原指出身高贵的，引申为出手大方的 → 慷慨的"
+    },
+    {
+      "from": "gen",
+      "to": "degenerate",
+      "type": "root",
+      "note": "de-（向下、脱离）+ gener（种、族）→ 脱离本来的种性往下走 → 退化"
+    },
+    {
+      "from": "plic",
+      "to": "application",
+      "type": "root",
+      "note": "ap-（ad- 的变体，朝向）+ plic（折）+ -ation → 把纸折好递上去 → 申请；把一物贴合到另一物上 →"
+    },
+    {
+      "from": "plic",
+      "to": "applicable",
+      "type": "root",
+      "note": "ap-（朝向）+ plic（折、贴）+ -able（能…的）→ 能贴合上去的 → 适用的"
+    },
+    {
+      "from": "plic",
+      "to": "complicate",
+      "type": "root",
+      "note": "com-（一起）+ plic（折）+ -ate → 折了又折叠在一起 → 使复杂"
+    },
+    {
+      "from": "plic",
+      "to": "complication",
+      "type": "root",
+      "note": "complicate（折叠在一起）+ -ion → 叠上来的那道麻烦 → 复杂情况；病上添病 → 并发症"
+    },
+    {
+      "from": "plic",
+      "to": "implication",
+      "type": "root",
+      "note": "im-（向内）+ plic（折）+ -ation → 折进里面没摊开说的那层意思 → 含意"
+    },
+    {
+      "from": "loc",
+      "to": "locate",
+      "type": "root",
+      "note": "loc（地点）+ -ate（动词）→ 定出它在哪一点，或把它放到某点 → 找到、设于"
+    },
+    {
+      "from": "loc",
+      "to": "location",
+      "type": "root",
+      "note": "locate（定点）+ -ion（名词）→ 被定下来的那一点 → 位置"
+    },
+    {
+      "from": "loc",
+      "to": "local",
+      "type": "root",
+      "note": "loc（地点）+ -al（…的）→ 属于这一点的 → 当地的"
+    },
+    {
+      "from": "loc",
+      "to": "locality",
+      "type": "root",
+      "note": "local（属于这一点的）+ -ity（名词）→ 这一点连带周围的那一片 → 地区"
+    },
+    {
+      "from": "loc",
+      "to": "allocate",
+      "type": "root",
+      "note": "al-（ad- 的变体，朝向）+ loc（地点）+ -ate → 给每份指定一个位置 → 分配"
     }
   ]
 }

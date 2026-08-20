@@ -641,6 +641,54 @@
         "influential",
         "superfluous"
       ]
+    },
+    {
+      "id": "concept-gen-birth",
+      "concept": "to give birth to a kind",
+      "chinese": "生出、同源",
+      "core_image": "一株根上长出许多枝条，彼此不同但同根",
+      "root_ids": [
+        "gen"
+      ],
+      "word_ids": [
+        "degenerate",
+        "general",
+        "generate",
+        "generation",
+        "generous"
+      ]
+    },
+    {
+      "id": "concept-plic-fold",
+      "concept": "to fold",
+      "chinese": "折叠",
+      "core_image": "一张纸对折再对折，展开后留着折痕",
+      "root_ids": [
+        "plic"
+      ],
+      "word_ids": [
+        "applicable",
+        "application",
+        "complicate",
+        "complication",
+        "implication"
+      ]
+    },
+    {
+      "id": "concept-loc-place",
+      "concept": "a place",
+      "chinese": "地点",
+      "core_image": "地图上戳下一根图钉，钉住那一点",
+      "root_ids": [
+        "loc"
+      ],
+      "word_ids": [
+        "allocate",
+        "local",
+        "locality",
+        "locate",
+        "location"
+      ]
     }
   ]
 }

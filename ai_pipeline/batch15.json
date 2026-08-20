@@ -1,0 +1,442 @@
+{
+  "roots": [
+    {
+      "id": "gen",
+      "root": "gen",
+      "variants": ["gen", "gener", "gn"],
+      "origin": "拉丁语 genus / generare（种、生育）",
+      "core_concept": "to give birth to a kind / 生出一类，同出一源",
+      "core_image": "一株根上长出许多枝条，枝条彼此不同但同根",
+      "english_definition": "birth, kind, to produce",
+      "word_ids": []
+    },
+    {
+      "id": "plic",
+      "root": "plic",
+      "variants": ["plic", "ply", "ple"],
+      "origin": "拉丁语 plicare（折叠）",
+      "core_concept": "to fold / 折叠、层层叠起",
+      "core_image": "一张纸对折再对折，展开后留着折痕",
+      "english_definition": "to fold, to lay in layers",
+      "word_ids": []
+    },
+    {
+      "id": "loc",
+      "root": "loc",
+      "variants": ["loc"],
+      "origin": "拉丁语 locus（地点、位置）",
+      "core_concept": "a place / 一个具体的地点",
+      "core_image": "地图上戳下一根图钉，钉住的就是那一点",
+      "english_definition": "a place, a position",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-gen-birth",
+      "concept": "to give birth to a kind",
+      "chinese": "生出、同源",
+      "core_image": "一株根上长出许多枝条，彼此不同但同根",
+      "root_ids": ["gen"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-plic-fold",
+      "concept": "to fold",
+      "chinese": "折叠",
+      "core_image": "一张纸对折再对折，展开后留着折痕",
+      "root_ids": ["plic"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-loc-place",
+      "concept": "a place",
+      "chinese": "地点",
+      "core_image": "地图上戳下一根图钉，钉住那一点",
+      "root_ids": ["loc"],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-make": ["gen", "plic"],
+    "domain-shape": ["loc"]
+  },
+  "words": [
+    {
+      "id": "generate",
+      "word": "generate",
+      "pos": "verb",
+      "phonetic": "/ˈdʒenəreɪt/",
+      "decomposable": "root",
+      "root_ids": ["gen"],
+      "root_logic": "gener（生出）+ -ate（动词）→ 使某物生出来 → 产生",
+      "origin": "拉丁语 generare：genus（种、族）",
+      "native_definition": "to produce something, especially power, income, or interest",
+      "core_concept": "bringing something into being – 使某物从无到有地出现",
+      "core_image": "水轮一转，原本没有的电流出现在导线里",
+      "chinese": ["产生", "发电", "引起"],
+      "examples": [
+        "The dam generates enough power for the city.",
+        "The ad generated hundreds of enquiries."
+      ],
+      "synonyms": ["produce", "create"],
+      "antonyms": [],
+      "related": ["generation", "general", "generous", "degenerate"],
+      "semantic_expansions": [
+        "产生/发电：使原本没有的东西出现",
+        "引起（反响）：使某种反应生出来。同一个'从无到有地生出'，生的是电还是回应"
+      ]
+    },
+    {
+      "id": "generation",
+      "word": "generation",
+      "pos": "noun",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["gen"],
+      "root_logic": "generate（生出）+ -ion（名词）→ 同一批被生出来的人，或生出这件事 → 一代人",
+      "recall_hint": "generate（生出）+ -ion → 同一时期被生出来的那一批；也指生产这件事本身",
+      "origin": "拉丁语 generatio：generare（生育）",
+      "native_definition": "all the people born at about the same time, or the act of producing something",
+      "core_concept": "one batch brought forth at the same stage – 同一阶段生出来的那一批",
+      "core_image": "全家合影里同辈的人站成一排，上下各是一排",
+      "chinese": ["一代人", "产生", "世代"],
+      "examples": [
+        "Her generation grew up without smartphones.",
+        "Power generation relies on coal here."
+      ],
+      "synonyms": ["age", "production"],
+      "antonyms": [],
+      "related": ["generate", "general", "generous", "degenerate"],
+      "semantic_expansions": [
+        "一代人/世代：同一阶段被生出来的那一批",
+        "产生（发电）：生出这件事本身。同一个'生'，一个指所生之人一个指生的动作"
+      ]
+    },
+    {
+      "id": "general",
+      "word": "general",
+      "pos": "adjective",
+      "phonetic": "/ˈdʒenrəl/",
+      "decomposable": "root",
+      "root_ids": ["gen"],
+      "root_logic": "gener（种、类）+ -al（…的）→ 就整个类别而言的 → 总体的；统管全军的人 → 将军",
+      "recall_hint": "gener（种、类）+ -al → 就整个类别而言，不针对个别；名词则指统管全体的那个人",
+      "origin": "拉丁语 generalis：genus（种、类）",
+      "native_definition": "affecting all or most, not specific; also a high-ranking officer",
+      "core_concept": "holding true for the whole kind – 对整个类别都成立，不限于个别",
+      "core_image": "通告贴在大门上，写的是全体，没有点名",
+      "chinese": ["总体的", "普遍的", "将军"],
+      "examples": [
+        "The general view is that costs will rise.",
+        "She was promoted to general last year."
+      ],
+      "synonyms": ["common", "overall"],
+      "antonyms": ["specific"],
+      "related": ["generate", "generation", "generous", "degenerate"],
+      "semantic_expansions": [
+        "总体的/普遍的：就整个类别而言",
+        "将军：统管全体军队的那个人。同一个'管到整类'，一个说范围一个指人"
+      ]
+    },
+    {
+      "id": "generous",
+      "word": "generous",
+      "pos": "adjective",
+      "phonetic": "/ˈdʒenərəs/",
+      "decomposable": "root",
+      "root_ids": ["gen"],
+      "root_logic": "gener（出身、门第）+ -ous（…的）→ 原指出身高贵的，引申为出手大方的 → 慷慨的",
+      "origin": "拉丁语 generosus：genus（出身、家族）——原意'出身高贵的'",
+      "native_definition": "willing to give more than is expected",
+      "core_concept": "giving as one born to plenty would – 像不缺的人那样给出去，不计较",
+      "core_image": "分菜的人一勺压得满满，从不刮平勺沿",
+      "chinese": ["慷慨的", "大方的", "丰盛的"],
+      "examples": [
+        "He was generous with his time.",
+        "They served a generous portion."
+      ],
+      "synonyms": ["giving", "lavish"],
+      "antonyms": ["mean"],
+      "related": ["generate", "general", "generation"],
+      "semantic_expansions": [
+        "慷慨的/大方的：给出去不计较",
+        "丰盛的（分量）：给得远超所需。同一个'给得足'，一个说人一个说物"
+      ]
+    },
+    {
+      "id": "degenerate",
+      "word": "degenerate",
+      "pos": "verb",
+      "phonetic": "/dɪˈdʒenəreɪt/",
+      "decomposable": "root",
+      "root_ids": ["gen"],
+      "root_logic": "de-（向下、脱离）+ gener（种、族）→ 脱离本来的种性往下走 → 退化",
+      "origin": "拉丁语 degenerare：de-（脱离）+ genus（种、族）",
+      "native_definition": "to become worse in quality or condition",
+      "core_concept": "falling away from the kind one came from – 从本来的种性上脱落下来",
+      "core_image": "野化多年的果树，果子一年比一年小而酸",
+      "chinese": ["退化", "恶化", "堕落"],
+      "examples": [
+        "The debate degenerated into shouting.",
+        "Muscle tissue degenerates without use."
+      ],
+      "synonyms": ["worsen", "decline"],
+      "antonyms": ["improve"],
+      "related": ["generate", "generation", "general"],
+      "semantic_expansions": [
+        "退化（生理）/恶化（局势）/堕落（品行）：都是'从本来的样子往下脱落'，中文按领域分了三个词"
+      ]
+    },
+    {
+      "id": "application",
+      "word": "application",
+      "pos": "noun",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["plic"],
+      "root_logic": "ap-（ad- 的变体，朝向）+ plic（折）+ -ation → 把纸折好递上去 → 申请；把一物贴合到另一物上 → 应用",
+      "recall_hint": "ap-（朝向）+ plic（折）+ -ation → 把折好的纸递上去；也指把一物贴合到另一物上使用",
+      "origin": "拉丁语 applicatio：ad-（朝向）+ plicare（折叠、贴附）",
+      "native_definition": "a formal request, or the act of putting something to use",
+      "core_concept": "folding one thing onto another – 把一样东西折过去贴到另一样上",
+      "core_image": "填好的表格折起来从窗口递进去",
+      "chinese": ["申请", "应用", "涂敷"],
+      "examples": [
+        "Her application was accepted.",
+        "This has wide application in medicine."
+      ],
+      "synonyms": ["request", "use"],
+      "antonyms": [],
+      "related": ["applicable", "complicate", "complication", "implication"],
+      "semantic_expansions": [
+        "申请：把折好的文书递上去",
+        "应用/涂敷：把一物贴合到另一物上。同一个'折过去贴上'，贴的是纸还是用法"
+      ]
+    },
+    {
+      "id": "applicable",
+      "word": "applicable",
+      "pos": "adjective",
+      "phonetic": "/ˈæplɪkəbl/",
+      "decomposable": "root",
+      "root_ids": ["plic"],
+      "root_logic": "ap-（朝向）+ plic（折、贴）+ -able（能…的）→ 能贴合上去的 → 适用的",
+      "origin": "拉丁语 applicare：ad-（朝向）+ plicare（折叠、贴附）",
+      "native_definition": "relevant or able to be used in a particular case",
+      "core_concept": "able to be folded onto this case – 能贴合到这个情形上",
+      "core_image": "模板往图纸上一按，边线正好对齐",
+      "chinese": ["适用的", "可应用的"],
+      "examples": [
+        "The rule is not applicable to part-time staff.",
+        "Delete whichever is not applicable."
+      ],
+      "synonyms": ["relevant", "suitable"],
+      "antonyms": [],
+      "related": ["application", "complicate", "implication"],
+      "semantic_expansions": [
+        "适用的与可应用的：都是'能贴合到这个情形上'，中文两种说法同一个动作"
+      ]
+    },
+    {
+      "id": "complicate",
+      "word": "complicate",
+      "pos": "verb",
+      "phonetic": "/ˈkɑːmplɪkeɪt/",
+      "decomposable": "root",
+      "root_ids": ["plic"],
+      "root_logic": "com-（一起）+ plic（折）+ -ate → 折了又折叠在一起 → 使复杂",
+      "origin": "拉丁语 complicare：com-（一起）+ plicare（折叠）",
+      "native_definition": "to make something harder to deal with or understand",
+      "core_concept": "folding layers together until hard to unpick – 层层折在一起，难以再摊开",
+      "core_image": "一根线绕了十几个结，想解得先找线头",
+      "chinese": ["使复杂", "使难办"],
+      "examples": [
+        "Do not complicate matters further.",
+        "His illness complicated the schedule."
+      ],
+      "synonyms": ["confuse"],
+      "antonyms": ["simplify"],
+      "related": ["complication", "application", "applicable", "implication"],
+      "semantic_expansions": [
+        "使复杂与使难办：都是'层层折叠在一起、难以摊开'，中文按侧重分了两个词"
+      ]
+    },
+    {
+      "id": "complication",
+      "word": "complication",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːmplɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["plic"],
+      "root_logic": "complicate（折叠在一起）+ -ion → 叠上来的那道麻烦 → 复杂情况；病上添病 → 并发症",
+      "recall_hint": "complicate（层层折叠）+ -ion → 又叠上来的那一层麻烦；医学上指原有问题上又叠一层",
+      "origin": "拉丁语 complicatio：com-（一起）+ plicare（折叠）",
+      "native_definition": "something that makes a situation harder, or a secondary medical problem",
+      "core_concept": "an extra layer folded onto the problem – 在原问题上又叠上来的一层",
+      "core_image": "本来只是一处骨折，术后又添了感染",
+      "chinese": ["复杂情况", "并发症", "纠纷"],
+      "examples": [
+        "An unexpected complication delayed the deal.",
+        "The surgery went well with no complications."
+      ],
+      "synonyms": ["difficulty", "problem"],
+      "antonyms": [],
+      "related": ["complicate", "application", "implication"],
+      "semantic_expansions": [
+        "复杂情况/纠纷：又叠上来的那层麻烦",
+        "并发症：在原病之上又叠一层。同一个'多折了一层'，一个在事一个在病"
+      ]
+    },
+    {
+      "id": "implication",
+      "word": "implication",
+      "pos": "noun",
+      "phonetic": "/ˌɪmplɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["plic"],
+      "root_logic": "im-（向内）+ plic（折）+ -ation → 折进里面没摊开说的那层意思 → 含意",
+      "recall_hint": "im-（向内）+ plic（折）+ -ation → 折在里面、没有摊开明说的那层；也指被卷进某事之中",
+      "origin": "拉丁语 implicatio：in-（向内）+ plicare（折叠）",
+      "native_definition": "something suggested without being said directly, or involvement in something",
+      "core_concept": "the layer folded inside, not spread out – 折在里面、没有摊开的那一层",
+      "core_image": "信里没写那句话，但读完就明白了那个意思",
+      "chinese": ["含意", "暗示", "牵连"],
+      "examples": [
+        "The implication was that we should leave.",
+        "He denied any implication in the fraud."
+      ],
+      "synonyms": ["hint", "involvement"],
+      "antonyms": [],
+      "related": ["complicate", "complication", "application", "applicable"],
+      "semantic_expansions": [
+        "含意/暗示：折在里面没明说的那层意思",
+        "牵连：被折进这件事里面。同一个'折在里面'，一个是意思一个是人"
+      ]
+    },
+    {
+      "id": "locate",
+      "word": "locate",
+      "pos": "verb",
+      "phonetic": "/ˈloʊkeɪt/",
+      "decomposable": "root",
+      "root_ids": ["loc"],
+      "root_logic": "loc（地点）+ -ate（动词）→ 定出它在哪一点，或把它放到某点 → 找到、设于",
+      "recall_hint": "loc（地点）+ -ate → 定出它在哪一点；也指把某物安置在某一点上",
+      "origin": "拉丁语 locare：locus（地点）",
+      "native_definition": "to find where something is, or to put it in a particular place",
+      "core_concept": "fixing which point something is at – 确定或指定它所在的那一点",
+      "core_image": "手指在地图上停住，就是这里",
+      "chinese": ["找到", "定位", "设于"],
+      "examples": [
+        "Rescuers located the wreck at dawn.",
+        "The office is located near the station."
+      ],
+      "synonyms": ["find", "place"],
+      "antonyms": [],
+      "related": ["location", "local", "locality", "allocate"],
+      "semantic_expansions": [
+        "找到/定位：确定它在哪一点",
+        "设于（被动）：被安置在某一点。同一个'定在某点'，一个是找一个是放"
+      ]
+    },
+    {
+      "id": "location",
+      "word": "location",
+      "pos": "noun",
+      "phonetic": "/loʊˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": ["loc"],
+      "root_logic": "locate（定点）+ -ion（名词）→ 被定下来的那一点 → 位置",
+      "origin": "拉丁语 locatio：locare（安置）← locus（地点）",
+      "native_definition": "the place where something is, or a place used for filming",
+      "core_concept": "the point at which something sits – 某物所在的那一点",
+      "core_image": "屏幕上一个蓝点标着此刻所在，周围是街道名",
+      "chinese": ["位置", "地点", "外景地"],
+      "examples": [
+        "Send me your location.",
+        "The film was shot on location in Iceland."
+      ],
+      "synonyms": ["place", "position"],
+      "antonyms": [],
+      "related": ["locate", "local", "locality", "allocate"],
+      "semantic_expansions": [
+        "位置/地点：某物所在的那一点",
+        "外景地：拍摄所选定的那个实地。同一个'定下的点'，用途不同"
+      ]
+    },
+    {
+      "id": "local",
+      "word": "local",
+      "pos": "adjective",
+      "phonetic": "/ˈloʊkl/",
+      "decomposable": "root",
+      "root_ids": ["loc"],
+      "root_logic": "loc（地点）+ -al（…的）→ 属于这一点的 → 当地的",
+      "origin": "拉丁语 localis：locus（地点）",
+      "native_definition": "belonging to a particular small area, not the whole",
+      "core_concept": "belonging to this one point, not everywhere – 只属于这一点，不涉及全局",
+      "core_image": "只有这条街停水，隔一条街的水龙头照旧出水",
+      "chinese": ["当地的", "局部的", "本地人"],
+      "examples": [
+        "Ask a local guide.",
+        "He was given a local anaesthetic."
+      ],
+      "synonyms": ["nearby", "regional"],
+      "antonyms": ["general"],
+      "related": ["locate", "location", "locality", "allocate"],
+      "semantic_expansions": [
+        "当地的：属于这一带",
+        "局部的（麻醉）：只作用于这一处。同一个'只限这一点'，一个在地理一个在身体"
+      ]
+    },
+    {
+      "id": "locality",
+      "word": "locality",
+      "pos": "noun",
+      "phonetic": "/loʊˈkæləti/",
+      "decomposable": "root",
+      "root_ids": ["loc"],
+      "root_logic": "local（属于这一点的）+ -ity（名词）→ 这一点连带周围的那一片 → 地区",
+      "origin": "拉丁语 localitas：locus（地点）",
+      "native_definition": "a particular area or neighbourhood",
+      "core_concept": "the small area around one point – 以某点为中心的那一小片",
+      "core_image": "地图上圈起来的一小块，圈里有几条街几家店",
+      "chinese": ["地区", "所在地"],
+      "examples": [
+        "Two schools serve the locality.",
+        "Rainfall varies by locality."
+      ],
+      "synonyms": ["area", "district"],
+      "antonyms": [],
+      "related": ["local", "locate", "location", "allocate"],
+      "semantic_expansions": [
+        "地区与所在地：都是'以某点为中心的那一小片'，中文按视角分了两个词"
+      ]
+    },
+    {
+      "id": "allocate",
+      "word": "allocate",
+      "pos": "verb",
+      "phonetic": "/ˈæləkeɪt/",
+      "decomposable": "root",
+      "root_ids": ["loc"],
+      "root_logic": "al-（ad- 的变体，朝向）+ loc（地点）+ -ate → 给每份指定一个位置 → 分配",
+      "origin": "拉丁语 allocare：ad-（朝向）+ locus（地点）",
+      "native_definition": "to give out shares of something for a particular purpose",
+      "core_concept": "assigning each share to its own place – 给每一份指定它该去的位置",
+      "core_image": "预算表上每一行都填了数目，加起来正好是总额",
+      "chinese": ["分配", "拨给"],
+      "examples": [
+        "The council allocated funds for repairs.",
+        "Rooms are allocated on arrival."
+      ],
+      "synonyms": ["assign", "distribute"],
+      "antonyms": [],
+      "related": ["locate", "location", "local", "locality"],
+      "semantic_expansions": [
+        "分配与拨给：都是'给每份指定它该去的位置'，中文按对象是资源还是款项分了两个词"
+      ]
+    }
+  ]
+}

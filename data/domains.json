@@ -26,7 +26,8 @@
         "form",
         "pose",
         "pars",
-        "fin"
+        "fin",
+        "loc"
       ]
     },
     {
@@ -87,7 +88,9 @@
         "fac",
         "ag",
         "stru",
-        "quir"
+        "quir",
+        "gen",
+        "plic"
       ]
     }
   ]
