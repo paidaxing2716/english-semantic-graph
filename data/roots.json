@@ -962,6 +962,63 @@
         "reality",
         "really"
       ]
+    },
+    {
+      "id": "classis",
+      "root": "classis",
+      "variants": [
+        "class",
+        "clas"
+      ],
+      "origin": "拉丁语 classis（等级、编队）",
+      "core_concept": "a rank, a sorted group / 按等级分好的一组",
+      "core_image": "把东西按大小分成几摞，每摞里的彼此相当",
+      "english_definition": "a class, a division by rank",
+      "word_ids": [
+        "class",
+        "classic",
+        "classical",
+        "classification",
+        "classify"
+      ]
+    },
+    {
+      "id": "plere",
+      "root": "plere",
+      "variants": [
+        "ple",
+        "plen",
+        "pli"
+      ],
+      "origin": "拉丁语 plere / plenus（填满、满的）",
+      "core_concept": "to fill up / 填满、补足到满",
+      "core_image": "往缺了一角的容器里添东西，添到齐平",
+      "english_definition": "to fill, to make full",
+      "word_ids": [
+        "complement",
+        "implement",
+        "multiple",
+        "supplement",
+        "triple"
+      ]
+    },
+    {
+      "id": "organon",
+      "root": "organon",
+      "variants": [
+        "organ"
+      ],
+      "origin": "希腊语 organon（器具、干活的部件）",
+      "core_concept": "a working part / 各司其职的部件",
+      "core_image": "一台机器里每个零件各管一段，缺一个就转不动",
+      "english_definition": "an instrument, a working part",
+      "word_ids": [
+        "organ",
+        "organic",
+        "organism",
+        "organization",
+        "organize"
+      ]
     }
   ]
 }

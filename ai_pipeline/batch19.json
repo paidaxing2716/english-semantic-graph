@@ -1,0 +1,675 @@
+{
+  "roots": [
+    {
+      "id": "classis",
+      "root": "classis",
+      "variants": [
+        "class",
+        "clas"
+      ],
+      "origin": "拉丁语 classis（等级、编队）",
+      "core_concept": "a rank, a sorted group / 按等级分好的一组",
+      "core_image": "把东西按大小分成几摞，每摞里的彼此相当",
+      "english_definition": "a class, a division by rank",
+      "word_ids": []
+    },
+    {
+      "id": "plere",
+      "root": "plere",
+      "variants": [
+        "ple",
+        "plen",
+        "pli"
+      ],
+      "origin": "拉丁语 plere / plenus（填满、满的）",
+      "core_concept": "to fill up / 填满、补足到满",
+      "core_image": "往缺了一角的容器里添东西，添到齐平",
+      "english_definition": "to fill, to make full",
+      "word_ids": []
+    },
+    {
+      "id": "organon",
+      "root": "organon",
+      "variants": [
+        "organ"
+      ],
+      "origin": "希腊语 organon（器具、干活的部件）",
+      "core_concept": "a working part / 各司其职的部件",
+      "core_image": "一台机器里每个零件各管一段，缺一个就转不动",
+      "english_definition": "an instrument, a working part",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-classis-rank",
+      "concept": "a rank, a sorted group",
+      "chinese": "等级、分组",
+      "core_image": "东西按大小分成几摞，每摞里彼此相当",
+      "root_ids": [
+        "classis"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-plere-fill",
+      "concept": "to fill up",
+      "chinese": "填满、补足",
+      "core_image": "往缺了一角的容器里添东西，添到齐平",
+      "root_ids": [
+        "plere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-organon-part",
+      "concept": "a working part",
+      "chinese": "器官、部件",
+      "core_image": "机器里每个零件各管一段，缺一个就转不动",
+      "root_ids": [
+        "organon"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-shape": [
+      "classis"
+    ],
+    "domain-make": [
+      "plere",
+      "organon"
+    ]
+  },
+  "words": [
+    {
+      "id": "class",
+      "word": "class",
+      "pos": "noun",
+      "phonetic": "/klæs/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "classis 本身即词根，无词缀 → 按某个标准分出来、彼此相当的那一组",
+      "recall_hint": "classis 本身即词根 → 按某标准分出的、彼此相当的一组；可以是一群学生、一个社会层级或一个生物类别",
+      "origin": "拉丁语 classis（等级、编队）——罗马按财产把公民分级",
+      "native_definition": "a group of similar things or people, or a group of students taught together",
+      "core_concept": "a group sorted to one rank – 按某标准归到同一档的那一组",
+      "core_image": "学生按年级分进不同教室，同一间里的进度相当",
+      "chinese": [
+        "班级",
+        "阶级",
+        "类别",
+        "课"
+      ],
+      "examples": [
+        "There are thirty students in my class.",
+        "The working class grew rapidly then.",
+        "Whales belong to a different class."
+      ],
+      "synonyms": [
+        "group",
+        "category"
+      ],
+      "antonyms": [],
+      "related": [
+        "classic",
+        "classical",
+        "classify",
+        "classification"
+      ],
+      "semantic_expansions": [
+        "班级/课：被分到同一档一起上课的那群人",
+        "阶级：社会里被分到同一档的人",
+        "类别（生物）：按标准归到同一档的物种。四义共享'归到同一档的一组'"
+      ]
+    },
+    {
+      "id": "classic",
+      "word": "classic",
+      "pos": "adjective",
+      "phonetic": "/ˈklæsɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "class（等级）+ -ic（…的）→ 属于最高那一档的 → 经典的",
+      "origin": "拉丁语 classicus：classis（等级）——原指'属于头等的'",
+      "native_definition": "of the highest quality and lasting value, or typical of its kind",
+      "core_concept": "belonging to the top rank, and staying there – 属于最高那一档，且一直站得住",
+      "core_image": "书架最上层那几本，每隔十年再版一次",
+      "chinese": [
+        "经典的",
+        "典型的",
+        "名著"
+      ],
+      "examples": [
+        "It is a classic example of overreach.",
+        "She reread the classics every winter."
+      ],
+      "synonyms": [
+        "timeless",
+        "typical"
+      ],
+      "antonyms": [],
+      "related": [
+        "class",
+        "classical",
+        "classify",
+        "classification"
+      ],
+      "semantic_expansions": [
+        "经典的/名著：属于最高一档且经久不衰",
+        "典型的：最能代表那一档的。同一个'归入头等/代表性那一档'，一个说价值一个说代表性"
+      ]
+    },
+    {
+      "id": "classical",
+      "word": "classical",
+      "pos": "adjective",
+      "phonetic": "/ˈklæsɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "classic（头等的）+ -al（…的）→ 属于古典时代那一档的 → 古典的",
+      "origin": "拉丁语 classicus：classis（等级）",
+      "native_definition": "relating to ancient Greece and Rome, or to traditional forms in art and music",
+      "core_concept": "belonging to the established old rank – 属于早已定型的那一档传统",
+      "core_image": "音乐厅里乐谱一律照两百年前的写法演奏",
+      "chinese": [
+        "古典的",
+        "传统的"
+      ],
+      "examples": [
+        "She studied classical literature.",
+        "He prefers classical music to pop."
+      ],
+      "synonyms": [
+        "traditional"
+      ],
+      "antonyms": [
+        "modern"
+      ],
+      "related": [
+        "classic",
+        "class",
+        "classify"
+      ],
+      "semantic_expansions": [
+        "古典的与传统的：都是'属于早已定型的那一档'，一个指古希腊罗马一个泛指旧规范"
+      ]
+    },
+    {
+      "id": "classify",
+      "word": "classify",
+      "pos": "verb",
+      "phonetic": "/ˈklæsɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "class（等级、组）+ -ify（使成为）→ 把东西归进各自的组 → 分类",
+      "origin": "拉丁语 classis（等级）+ facere（做）",
+      "native_definition": "to arrange things into groups by their type",
+      "core_concept": "putting each thing into its proper group – 把每样东西归进它该在的那一组",
+      "core_image": "标本一件件贴上标签，按科属放进对应的抽屉",
+      "chinese": [
+        "分类",
+        "归类",
+        "列为机密"
+      ],
+      "examples": [
+        "Books are classified by subject.",
+        "The file was classified as confidential."
+      ],
+      "synonyms": [
+        "categorize",
+        "sort"
+      ],
+      "antonyms": [],
+      "related": [
+        "classification",
+        "class",
+        "classic",
+        "classical"
+      ],
+      "semantic_expansions": [
+        "分类/归类：把东西归进各自该在的组",
+        "列为机密：把文件归进'不公开'那一档。同一个'归入某组'，组的性质不同"
+      ]
+    },
+    {
+      "id": "classification",
+      "word": "classification",
+      "pos": "noun",
+      "phonetic": "/ˌklæsɪfɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "classify（归类）+ -ation（名词）→ 归类这件事，或归好的那套体系 → 分类",
+      "origin": "拉丁语 classis（等级）+ facere（做）",
+      "native_definition": "the act of grouping things by type, or the system used",
+      "core_concept": "the sorting, or the scheme it follows – 归类这件事，或所依据的那套体系",
+      "core_image": "墙上挂着一张树状表，从门到种一层层分下来",
+      "chinese": [
+        "分类",
+        "分类体系",
+        "等级"
+      ],
+      "examples": [
+        "The classification of species keeps changing.",
+        "Hotels are given a star classification."
+      ],
+      "synonyms": [
+        "categorization"
+      ],
+      "antonyms": [],
+      "related": [
+        "classify",
+        "class",
+        "classic"
+      ],
+      "semantic_expansions": [
+        "分类（行为）：把东西归组这件事",
+        "分类体系/等级：所依据的那套划分。同一个'归组'，一个是动作一个是体系"
+      ]
+    },
+    {
+      "id": "complement",
+      "word": "complement",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːmplɪmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "plere"
+      ],
+      "root_logic": "com-（一起、完全）+ ple（填满）+ -ment（物）→ 把缺口填满使之完整的那部分 → 补足物",
+      "origin": "拉丁语 complementum：com-（完全）+ plere（填满）",
+      "native_definition": "a thing that completes or goes well with another",
+      "core_concept": "the part that fills what is missing – 把缺的那块补上、使之完整的部分",
+      "core_image": "拼图剩一个凹口，手里这块正好嵌进去",
+      "chinese": [
+        "补足物",
+        "补充",
+        "配套"
+      ],
+      "examples": [
+        "The wine is a perfect complement to the dish.",
+        "The team has its full complement of staff."
+      ],
+      "synonyms": [
+        "addition",
+        "supplement"
+      ],
+      "antonyms": [],
+      "related": [
+        "supplement",
+        "implement",
+        "multiple",
+        "triple"
+      ],
+      "semantic_expansions": [
+        "补足物/补充：把缺口填上使之完整的那部分",
+        "配套（人员齐备）：填满编制的那个数。同一个'补到满'，补的是搭配还是名额"
+      ]
+    },
+    {
+      "id": "supplement",
+      "word": "supplement",
+      "pos": "noun",
+      "phonetic": "/ˈsʌplɪmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "plere"
+      ],
+      "root_logic": "sup-（sub- 的变体，在下、额外）+ ple（填满）+ -ment → 在原有之外另添一份 → 补充物",
+      "recall_hint": "sup-（额外、在下）+ ple（填满）+ -ment → 在原有的之外又添上的那一份",
+      "origin": "拉丁语 supplementum：sub-（在下）+ plere（填满）",
+      "native_definition": "something added to improve or complete a thing, such as a vitamin or an extra section",
+      "core_concept": "an extra portion added on top – 在原有之外额外添上的那一份",
+      "core_image": "报纸主刊之外另夹一叠副刊，抽掉主刊照样能读",
+      "chinese": [
+        "补充物",
+        "增刊",
+        "膳食补剂"
+      ],
+      "examples": [
+        "She takes an iron supplement.",
+        "The weekend supplement carries book reviews."
+      ],
+      "synonyms": [
+        "addition",
+        "extra"
+      ],
+      "antonyms": [],
+      "related": [
+        "complement",
+        "implement",
+        "multiple",
+        "triple"
+      ],
+      "semantic_expansions": [
+        "补充物/膳食补剂：在原有之外额外添的那份",
+        "增刊：正刊之外额外附的那叠。同一个'额外添一份'——与 complement（补上缺口）的区别：complement 是补齐，supplement 是外加"
+      ]
+    },
+    {
+      "id": "implement",
+      "word": "implement",
+      "pos": "verb",
+      "phonetic": "/ˈɪmplɪment/",
+      "decomposable": "root",
+      "root_ids": [
+        "plere"
+      ],
+      "root_logic": "im-（进入）+ ple（填满）+ -ment → 把计划填进现实、填到满 → 实施；名词指用来填补活计的家伙 → 工具",
+      "recall_hint": "im-（进入）+ ple（填满）+ -ment → 把计划填进现实里去做满；名词则指用来干这活的家伙",
+      "origin": "拉丁语 implementum：in-（进入）+ plere（填满）",
+      "native_definition": "to carry out a plan; also a tool used for a job",
+      "core_concept": "filling a plan into actual practice – 把计划填进现实，一项项做满",
+      "core_image": "计划表上的空格被逐条填上完成日期",
+      "chinese": [
+        "实施",
+        "执行",
+        "工具"
+      ],
+      "examples": [
+        "The rules take effect once implemented.",
+        "Farm implements hung along the wall."
+      ],
+      "synonyms": [
+        "carry out",
+        "tool"
+      ],
+      "antonyms": [],
+      "related": [
+        "complement",
+        "supplement",
+        "multiple",
+        "triple"
+      ],
+      "semantic_expansions": [
+        "实施/执行：把计划填进现实做满",
+        "工具（名词）：用来把活干满的那件家伙。同一个'填满、做足'，一个是动作一个是所用之物"
+      ]
+    },
+    {
+      "id": "multiple",
+      "word": "multiple",
+      "pos": "adjective",
+      "phonetic": "/ˈmʌltɪpl/",
+      "decomposable": "root",
+      "root_ids": [
+        "plere"
+      ],
+      "root_logic": "multi-（多）+ ple（折叠、层）→ 叠了很多层的 → 多重的",
+      "origin": "拉丁语 multiplex：multi-（多）+ plicare / plere（折叠、充满）",
+      "native_definition": "having or involving many parts or instances",
+      "core_concept": "made of many layers or instances – 由很多层或很多份构成",
+      "core_image": "一叠复写纸，一笔下去底下每层都留了字",
+      "chinese": [
+        "多重的",
+        "多个的",
+        "倍数"
+      ],
+      "examples": [
+        "He suffered multiple injuries.",
+        "Twelve is a multiple of three."
+      ],
+      "synonyms": [
+        "numerous",
+        "many"
+      ],
+      "antonyms": [
+        "single"
+      ],
+      "related": [
+        "triple",
+        "complement",
+        "supplement",
+        "implement"
+      ],
+      "semantic_expansions": [
+        "多重的/多个的：由很多层或份构成",
+        "倍数（名词）：某数叠了整数次的结果。同一个'叠很多层'，一个说构成一个说数量关系"
+      ]
+    },
+    {
+      "id": "triple",
+      "word": "triple",
+      "pos": "adjective",
+      "phonetic": "/ˈtrɪpl/",
+      "decomposable": "root",
+      "root_ids": [
+        "plere"
+      ],
+      "root_logic": "tri-（三）+ ple（层）→ 叠了三层的 → 三倍的",
+      "origin": "拉丁语 triplus：tri-（三）+ plus / plere（层、充满）",
+      "native_definition": "having three parts, or three times as much",
+      "core_concept": "folded into three – 叠成三层、是原来的三倍",
+      "core_image": "三层玻璃窗，外面的声音一层层被挡下来",
+      "chinese": [
+        "三倍的",
+        "三重的",
+        "增至三倍"
+      ],
+      "examples": [
+        "Profits tripled in two years.",
+        "The door has a triple lock."
+      ],
+      "synonyms": [
+        "threefold"
+      ],
+      "antonyms": [],
+      "related": [
+        "multiple",
+        "complement",
+        "supplement"
+      ],
+      "semantic_expansions": [
+        "三倍的/三重的：叠成三层",
+        "增至三倍（动词）：使它叠成三层。同一个'三层'，一个是状态一个是动作"
+      ]
+    },
+    {
+      "id": "organ",
+      "word": "organ",
+      "pos": "noun",
+      "phonetic": "/ˈɔːrɡən/",
+      "decomposable": "root",
+      "root_ids": [
+        "organon"
+      ],
+      "root_logic": "organon 本身即词根，无词缀 → 各司其职的那个部件：体内的器官、机构中的机关、乃至风琴",
+      "recall_hint": "organon 本身即词根 → 各司其职的那个部件：体内的、机构里的，或那件靠许多管子各司其职的乐器",
+      "origin": "希腊语 organon（器具、工作部件）",
+      "native_definition": "a part of the body with a special function; also an institution or a musical instrument",
+      "core_concept": "a part that performs its own function – 承担自己那一份职能的部件",
+      "core_image": "解剖图上每一块都标着它负责什么，谁也不替谁",
+      "chinese": [
+        "器官",
+        "机关",
+        "风琴"
+      ],
+      "examples": [
+        "The liver is a vital organ.",
+        "The paper was the official organ of the party.",
+        "She plays the church organ."
+      ],
+      "synonyms": [
+        "body part"
+      ],
+      "antonyms": [],
+      "related": [
+        "organic",
+        "organism",
+        "organize",
+        "organization"
+      ],
+      "semantic_expansions": [
+        "器官：体内各司其职的部件",
+        "机关：体制里各司其职的单位",
+        "风琴：由许多管子各司其职发声的乐器。三义共享'各管一份职能的部件'"
+      ]
+    },
+    {
+      "id": "organic",
+      "word": "organic",
+      "pos": "adjective",
+      "phonetic": "/ɔːrˈɡænɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "organon"
+      ],
+      "root_logic": "organ（有机部件）+ -ic（…的）→ 由活体部件构成的 → 有机的；引申为自己长成而非人工拼装的 → 自然生成的",
+      "recall_hint": "organ（各司其职的活体部件）+ -ic → 由活体部件构成的；引申为自己长成而非人工拼装",
+      "origin": "希腊语 organikos：organon（器具、部件）",
+      "native_definition": "relating to living matter, produced without artificial chemicals, or developing naturally",
+      "core_concept": "made of living parts, growing of itself – 由活的部件构成，自己长成",
+      "core_image": "地里的菜自己长出来，没有喷过药",
+      "chinese": [
+        "有机的",
+        "器官的",
+        "自然生成的"
+      ],
+      "examples": [
+        "They only buy organic vegetables.",
+        "The town grew in an organic way."
+      ],
+      "synonyms": [
+        "natural"
+      ],
+      "antonyms": [
+        "artificial"
+      ],
+      "related": [
+        "organ",
+        "organism",
+        "organize",
+        "organization"
+      ],
+      "semantic_expansions": [
+        "有机的/器官的：由活的部件构成",
+        "自然生成的：不靠外力硬凑、自己长成。同一个'活体部件'，一个说成分一个说生长方式"
+      ]
+    },
+    {
+      "id": "organism",
+      "word": "organism",
+      "pos": "noun",
+      "phonetic": "/ˈɔːrɡənɪzəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "organon"
+      ],
+      "root_logic": "organ（部件）+ -ism（体系）→ 各部件配合成的一个活体 → 生物体",
+      "origin": "希腊语 organon（部件）+ -ism（体系）",
+      "native_definition": "any living thing, or a whole made of interdependent parts",
+      "core_concept": "a whole in which parts work together to live – 各部件相互依赖、合成一个活体",
+      "core_image": "一只草履虫在水滴里游，它整个就是一套自洽的系统",
+      "chinese": [
+        "生物体",
+        "有机体"
+      ],
+      "examples": [
+        "Bacteria are single-celled organisms.",
+        "A city behaves like a living organism."
+      ],
+      "synonyms": [
+        "creature"
+      ],
+      "antonyms": [],
+      "related": [
+        "organ",
+        "organic",
+        "organize",
+        "organization"
+      ],
+      "semantic_expansions": [
+        "生物体与有机体：都是'各部件相互依赖合成的活体'，一个偏生物学一个可喻指组织"
+      ]
+    },
+    {
+      "id": "organize",
+      "word": "organize",
+      "pos": "verb",
+      "phonetic": "/ˈɔːrɡənaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "organon"
+      ],
+      "root_logic": "organ（各司其职的部件）+ -ize（使成为）→ 让各部分各就各位地配合 → 组织",
+      "origin": "希腊语 organon（部件）+ -ize（使成为）",
+      "native_definition": "to arrange things or people so that they work together properly",
+      "core_concept": "setting parts in their places so they work as one – 让各部分各就各位、配合成一体",
+      "core_image": "散乱的工具按用途摆进格子，一伸手就知道拿哪件",
+      "chinese": [
+        "组织",
+        "安排",
+        "整理"
+      ],
+      "examples": [
+        "She organized the whole conference.",
+        "Organize your notes before the exam."
+      ],
+      "synonyms": [
+        "arrange",
+        "coordinate"
+      ],
+      "antonyms": [],
+      "related": [
+        "organization",
+        "organ",
+        "organic",
+        "organism"
+      ],
+      "semantic_expansions": [
+        "组织（活动）/安排：让各部分各就各位地配合",
+        "整理（笔记）：让内容各归其位。同一个'各就各位'，对象是人还是物"
+      ]
+    },
+    {
+      "id": "organization",
+      "word": "organization",
+      "pos": "noun",
+      "phonetic": "/ˌɔːrɡənəˈzeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "organon"
+      ],
+      "root_logic": "organize（各就各位）+ -ation（名词）→ 各部分配合起来的那个整体，或配合这件事 → 组织",
+      "recall_hint": "organize（让各部分各就各位）+ -ation → 配合起来的那个整体，或配合这件事本身",
+      "origin": "希腊语 organon（部件）+ -ation",
+      "native_definition": "a structured group of people working together, or the act of arranging something",
+      "core_concept": "the whole formed by parts working together – 各部分配合而成的那个整体",
+      "core_image": "组织架构图上一格连一格，每格写着谁管什么",
+      "chinese": [
+        "组织",
+        "机构",
+        "编排"
+      ],
+      "examples": [
+        "She works for a charitable organization.",
+        "The organization of the event took months."
+      ],
+      "synonyms": [
+        "institution",
+        "arrangement"
+      ],
+      "antonyms": [],
+      "related": [
+        "organize",
+        "organ",
+        "organic",
+        "organism"
+      ],
+      "semantic_expansions": [
+        "组织/机构：各部分配合而成的那个整体",
+        "编排（行为）：让各部分配合这件事。同一个词根，一个指实体一个指动作"
+      ]
+    }
+  ]
+}

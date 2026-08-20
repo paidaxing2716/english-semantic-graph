@@ -1926,6 +1926,96 @@
       "to": "realise",
       "type": "root",
       "note": "real（真实的）+ -ise（使成为）→ 使它成为实在的 → 实现；使自己看清实情 → 意识到"
+    },
+    {
+      "from": "classis",
+      "to": "class",
+      "type": "root",
+      "note": "classis 本身即词根，无词缀 → 按某个标准分出来、彼此相当的那一组"
+    },
+    {
+      "from": "classis",
+      "to": "classic",
+      "type": "root",
+      "note": "class（等级）+ -ic（…的）→ 属于最高那一档的 → 经典的"
+    },
+    {
+      "from": "classis",
+      "to": "classical",
+      "type": "root",
+      "note": "classic（头等的）+ -al（…的）→ 属于古典时代那一档的 → 古典的"
+    },
+    {
+      "from": "classis",
+      "to": "classify",
+      "type": "root",
+      "note": "class（等级、组）+ -ify（使成为）→ 把东西归进各自的组 → 分类"
+    },
+    {
+      "from": "classis",
+      "to": "classification",
+      "type": "root",
+      "note": "classify（归类）+ -ation（名词）→ 归类这件事，或归好的那套体系 → 分类"
+    },
+    {
+      "from": "plere",
+      "to": "complement",
+      "type": "root",
+      "note": "com-（一起、完全）+ ple（填满）+ -ment（物）→ 把缺口填满使之完整的那部分 → 补足物"
+    },
+    {
+      "from": "plere",
+      "to": "supplement",
+      "type": "root",
+      "note": "sup-（sub- 的变体，在下、额外）+ ple（填满）+ -ment → 在原有之外另添一份 → 补充物"
+    },
+    {
+      "from": "plere",
+      "to": "implement",
+      "type": "root",
+      "note": "im-（进入）+ ple（填满）+ -ment → 把计划填进现实、填到满 → 实施；名词指用来填补活计的家伙 → 工具"
+    },
+    {
+      "from": "plere",
+      "to": "multiple",
+      "type": "root",
+      "note": "multi-（多）+ ple（折叠、层）→ 叠了很多层的 → 多重的"
+    },
+    {
+      "from": "plere",
+      "to": "triple",
+      "type": "root",
+      "note": "tri-（三）+ ple（层）→ 叠了三层的 → 三倍的"
+    },
+    {
+      "from": "organon",
+      "to": "organ",
+      "type": "root",
+      "note": "organon 本身即词根，无词缀 → 各司其职的那个部件：体内的器官、机构中的机关、乃至风琴"
+    },
+    {
+      "from": "organon",
+      "to": "organic",
+      "type": "root",
+      "note": "organ（有机部件）+ -ic（…的）→ 由活体部件构成的 → 有机的；引申为自己长成而非人工拼装的 → 自然生成的"
+    },
+    {
+      "from": "organon",
+      "to": "organism",
+      "type": "root",
+      "note": "organ（部件）+ -ism（体系）→ 各部件配合成的一个活体 → 生物体"
+    },
+    {
+      "from": "organon",
+      "to": "organize",
+      "type": "root",
+      "note": "organ（各司其职的部件）+ -ize（使成为）→ 让各部分各就各位地配合 → 组织"
+    },
+    {
+      "from": "organon",
+      "to": "organization",
+      "type": "root",
+      "note": "organize（各就各位）+ -ation（名词）→ 各部分配合起来的那个整体，或配合这件事 → 组织"
     }
   ]
 }

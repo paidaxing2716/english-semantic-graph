@@ -4046,6 +4046,230 @@
       "text": "She realised her ambition at forty.",
       "source": "AI 生成 · 人工审核",
       "scene": "图纸上的房子盖起来了，站在门口才觉得它真的存在"
+    },
+    {
+      "id": "ex-class-1",
+      "word_id": "class",
+      "text": "There are thirty students in my class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "学生按年级分进不同教室，同一间里的进度相当"
+    },
+    {
+      "id": "ex-class-2",
+      "word_id": "class",
+      "text": "The working class grew rapidly then.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "学生按年级分进不同教室，同一间里的进度相当"
+    },
+    {
+      "id": "ex-class-3",
+      "word_id": "class",
+      "text": "Whales belong to a different class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "学生按年级分进不同教室，同一间里的进度相当"
+    },
+    {
+      "id": "ex-classic-1",
+      "word_id": "classic",
+      "text": "It is a classic example of overreach.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书架最上层那几本，每隔十年再版一次"
+    },
+    {
+      "id": "ex-classic-2",
+      "word_id": "classic",
+      "text": "She reread the classics every winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书架最上层那几本，每隔十年再版一次"
+    },
+    {
+      "id": "ex-classical-1",
+      "word_id": "classical",
+      "text": "She studied classical literature.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "音乐厅里乐谱一律照两百年前的写法演奏"
+    },
+    {
+      "id": "ex-classical-2",
+      "word_id": "classical",
+      "text": "He prefers classical music to pop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "音乐厅里乐谱一律照两百年前的写法演奏"
+    },
+    {
+      "id": "ex-classify-1",
+      "word_id": "classify",
+      "text": "Books are classified by subject.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标本一件件贴上标签，按科属放进对应的抽屉"
+    },
+    {
+      "id": "ex-classify-2",
+      "word_id": "classify",
+      "text": "The file was classified as confidential.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标本一件件贴上标签，按科属放进对应的抽屉"
+    },
+    {
+      "id": "ex-classification-1",
+      "word_id": "classification",
+      "text": "The classification of species keeps changing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上挂着一张树状表，从门到种一层层分下来"
+    },
+    {
+      "id": "ex-classification-2",
+      "word_id": "classification",
+      "text": "Hotels are given a star classification.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上挂着一张树状表，从门到种一层层分下来"
+    },
+    {
+      "id": "ex-complement-1",
+      "word_id": "complement",
+      "text": "The wine is a perfect complement to the dish.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拼图剩一个凹口，手里这块正好嵌进去"
+    },
+    {
+      "id": "ex-complement-2",
+      "word_id": "complement",
+      "text": "The team has its full complement of staff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拼图剩一个凹口，手里这块正好嵌进去"
+    },
+    {
+      "id": "ex-supplement-1",
+      "word_id": "supplement",
+      "text": "She takes an iron supplement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报纸主刊之外另夹一叠副刊，抽掉主刊照样能读"
+    },
+    {
+      "id": "ex-supplement-2",
+      "word_id": "supplement",
+      "text": "The weekend supplement carries book reviews.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报纸主刊之外另夹一叠副刊，抽掉主刊照样能读"
+    },
+    {
+      "id": "ex-implement-1",
+      "word_id": "implement",
+      "text": "The rules take effect once implemented.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "计划表上的空格被逐条填上完成日期"
+    },
+    {
+      "id": "ex-implement-2",
+      "word_id": "implement",
+      "text": "Farm implements hung along the wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "计划表上的空格被逐条填上完成日期"
+    },
+    {
+      "id": "ex-multiple-1",
+      "word_id": "multiple",
+      "text": "He suffered multiple injuries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一叠复写纸，一笔下去底下每层都留了字"
+    },
+    {
+      "id": "ex-multiple-2",
+      "word_id": "multiple",
+      "text": "Twelve is a multiple of three.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一叠复写纸，一笔下去底下每层都留了字"
+    },
+    {
+      "id": "ex-triple-1",
+      "word_id": "triple",
+      "text": "Profits tripled in two years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三层玻璃窗，外面的声音一层层被挡下来"
+    },
+    {
+      "id": "ex-triple-2",
+      "word_id": "triple",
+      "text": "The door has a triple lock.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三层玻璃窗，外面的声音一层层被挡下来"
+    },
+    {
+      "id": "ex-organ-1",
+      "word_id": "organ",
+      "text": "The liver is a vital organ.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "解剖图上每一块都标着它负责什么，谁也不替谁"
+    },
+    {
+      "id": "ex-organ-2",
+      "word_id": "organ",
+      "text": "The paper was the official organ of the party.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "解剖图上每一块都标着它负责什么，谁也不替谁"
+    },
+    {
+      "id": "ex-organ-3",
+      "word_id": "organ",
+      "text": "She plays the church organ.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "解剖图上每一块都标着它负责什么，谁也不替谁"
+    },
+    {
+      "id": "ex-organic-1",
+      "word_id": "organic",
+      "text": "They only buy organic vegetables.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地里的菜自己长出来，没有喷过药"
+    },
+    {
+      "id": "ex-organic-2",
+      "word_id": "organic",
+      "text": "The town grew in an organic way.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地里的菜自己长出来，没有喷过药"
+    },
+    {
+      "id": "ex-organism-1",
+      "word_id": "organism",
+      "text": "Bacteria are single-celled organisms.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只草履虫在水滴里游，它整个就是一套自洽的系统"
+    },
+    {
+      "id": "ex-organism-2",
+      "word_id": "organism",
+      "text": "A city behaves like a living organism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只草履虫在水滴里游，它整个就是一套自洽的系统"
+    },
+    {
+      "id": "ex-organize-1",
+      "word_id": "organize",
+      "text": "She organized the whole conference.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散乱的工具按用途摆进格子，一伸手就知道拿哪件"
+    },
+    {
+      "id": "ex-organize-2",
+      "word_id": "organize",
+      "text": "Organize your notes before the exam.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散乱的工具按用途摆进格子，一伸手就知道拿哪件"
+    },
+    {
+      "id": "ex-organization-1",
+      "word_id": "organization",
+      "text": "She works for a charitable organization.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "组织架构图上一格连一格，每格写着谁管什么"
+    },
+    {
+      "id": "ex-organization-2",
+      "word_id": "organization",
+      "text": "The organization of the event took months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "组织架构图上一格连一格，每格写着谁管什么"
     }
   ]
 }

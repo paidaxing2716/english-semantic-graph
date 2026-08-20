@@ -834,6 +834,54 @@
         "reality",
         "really"
       ]
+    },
+    {
+      "id": "concept-classis-rank",
+      "concept": "a rank, a sorted group",
+      "chinese": "等级、分组",
+      "core_image": "东西按大小分成几摞，每摞里彼此相当",
+      "root_ids": [
+        "classis"
+      ],
+      "word_ids": [
+        "class",
+        "classic",
+        "classical",
+        "classification",
+        "classify"
+      ]
+    },
+    {
+      "id": "concept-plere-fill",
+      "concept": "to fill up",
+      "chinese": "填满、补足",
+      "core_image": "往缺了一角的容器里添东西，添到齐平",
+      "root_ids": [
+        "plere"
+      ],
+      "word_ids": [
+        "complement",
+        "implement",
+        "multiple",
+        "supplement",
+        "triple"
+      ]
+    },
+    {
+      "id": "concept-organon-part",
+      "concept": "a working part",
+      "chinese": "器官、部件",
+      "core_image": "机器里每个零件各管一段，缺一个就转不动",
+      "root_ids": [
+        "organon"
+      ],
+      "word_ids": [
+        "organ",
+        "organic",
+        "organism",
+        "organization",
+        "organize"
+      ]
     }
   ]
 }
