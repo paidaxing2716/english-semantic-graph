@@ -162,7 +162,9 @@
         "specification",
         "conspicuous",
         "retrospect",
-        "prospective"
+        "prospective",
+        "invisible",
+        "advisable"
       ]
     },
     {
@@ -1364,6 +1366,53 @@
         "section",
         "sector",
         "segment"
+      ]
+    },
+    {
+      "id": "concept-solvere-loosen",
+      "concept": "to loosen, to untie",
+      "chinese": "解开、松开",
+      "core_image": "绳结被一点点抽松，最后整条绳落下来",
+      "root_ids": [
+        "solvere"
+      ],
+      "word_ids": [
+        "absolute",
+        "dissolve",
+        "resolve",
+        "solution",
+        "solve"
+      ]
+    },
+    {
+      "id": "concept-vincere-conquer",
+      "concept": "to overcome",
+      "chinese": "战胜、压服",
+      "core_image": "两人角力，一方的手被慢慢压到桌面",
+      "root_ids": [
+        "vincere"
+      ],
+      "word_ids": [
+        "conviction",
+        "convince",
+        "province",
+        "victory"
+      ]
+    },
+    {
+      "id": "concept-fidere-trust",
+      "concept": "to rely on",
+      "chinese": "信赖",
+      "core_image": "闭着眼往后倒，知道后面的人会接住",
+      "root_ids": [
+        "fidere"
+      ],
+      "word_ids": [
+        "confidence",
+        "confident",
+        "confidential",
+        "faith",
+        "faithful"
       ]
     }
   ]

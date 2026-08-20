@@ -6475,6 +6475,230 @@
       "text": "He resents any criticism.",
       "source": "AI 生成 · 人工审核",
       "scene": "话早过去了，一想起来胸口还是堵"
+    },
+    {
+      "id": "ex-solve-1",
+      "word_id": "solve",
+      "text": "They solved the problem in an afternoon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳结被抽松，两头一拉就分开了"
+    },
+    {
+      "id": "ex-solve-2",
+      "word_id": "solve",
+      "text": "No one could solve the riddle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳结被抽松，两头一拉就分开了"
+    },
+    {
+      "id": "ex-solution-1",
+      "word_id": "solution",
+      "text": "There is no quick solution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "糖块在水里化没了，整杯水都变甜"
+    },
+    {
+      "id": "ex-solution-2",
+      "word_id": "solution",
+      "text": "Add salt to the solution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "糖块在水里化没了，整杯水都变甜"
+    },
+    {
+      "id": "ex-resolve-1",
+      "word_id": "resolve",
+      "text": "The dispute was finally resolved.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "争执的两方谈到最后，那个疙瘩终于散了"
+    },
+    {
+      "id": "ex-resolve-2",
+      "word_id": "resolve",
+      "text": "She resolved to start over.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "争执的两方谈到最后，那个疙瘩终于散了"
+    },
+    {
+      "id": "ex-dissolve-1",
+      "word_id": "dissolve",
+      "text": "Sugar dissolves quickly in hot water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药片在水里冒着泡越来越小，最后什么都看不见"
+    },
+    {
+      "id": "ex-dissolve-2",
+      "word_id": "dissolve",
+      "text": "Parliament was dissolved in May.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药片在水里冒着泡越来越小，最后什么都看不见"
+    },
+    {
+      "id": "ex-absolute-1",
+      "word_id": "absolute",
+      "text": "She has absolute control over the budget.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别的都被剪断，只剩这一条，不必再跟谁比"
+    },
+    {
+      "id": "ex-absolute-2",
+      "word_id": "absolute",
+      "text": "That is absolute nonsense.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别的都被剪断，只剩这一条，不必再跟谁比"
+    },
+    {
+      "id": "ex-convince-1",
+      "word_id": "convince",
+      "text": "The evidence convinced the jury.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "证据一件件摆上来，对方最后没话可说"
+    },
+    {
+      "id": "ex-convince-2",
+      "word_id": "convince",
+      "text": "I convinced her to stay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "证据一件件摆上来，对方最后没话可说"
+    },
+    {
+      "id": "ex-conviction-1",
+      "word_id": "conviction",
+      "text": "She spoke with deep conviction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "所有反对意见都被驳完，剩下的那句话再没人推翻"
+    },
+    {
+      "id": "ex-conviction-2",
+      "word_id": "conviction",
+      "text": "He has two previous convictions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "所有反对意见都被驳完，剩下的那句话再没人推翻"
+    },
+    {
+      "id": "ex-victory-1",
+      "word_id": "victory",
+      "text": "The team celebrated a narrow victory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "终场哨响，比分板上一边的数字更大"
+    },
+    {
+      "id": "ex-victory-2",
+      "word_id": "victory",
+      "text": "It was a victory for common sense.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "终场哨响，比分板上一边的数字更大"
+    },
+    {
+      "id": "ex-province-1",
+      "word_id": "province",
+      "text": "She grew up in a northern province.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上一块块涂色的辖区，各有一个治所"
+    },
+    {
+      "id": "ex-province-2",
+      "word_id": "province",
+      "text": "Pricing is not my province.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上一块块涂色的辖区，各有一个治所"
+    },
+    {
+      "id": "ex-confidence-1",
+      "word_id": "confidence",
+      "text": "She spoke with quiet confidence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把方向盘交给对方后就闭眼睡了"
+    },
+    {
+      "id": "ex-confidence-2",
+      "word_id": "confidence",
+      "text": "He told me in confidence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把方向盘交给对方后就闭眼睡了"
+    },
+    {
+      "id": "ex-confident-1",
+      "word_id": "confident",
+      "text": "He is confident of winning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "上场前不再翻笔记，直接把书合上了"
+    },
+    {
+      "id": "ex-confident-2",
+      "word_id": "confident",
+      "text": "She gave a confident answer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "上场前不再翻笔记，直接把书合上了"
+    },
+    {
+      "id": "ex-confidential-1",
+      "word_id": "confidential",
+      "text": "The file is strictly confidential.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文件夹上盖着章，只有名单上的人能翻开"
+    },
+    {
+      "id": "ex-confidential-2",
+      "word_id": "confidential",
+      "text": "They held confidential talks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文件夹上盖着章，只有名单上的人能翻开"
+    },
+    {
+      "id": "ex-faith-1",
+      "word_id": "faith",
+      "text": "She kept faith in the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桥看不见对岸，人还是踏上去了"
+    },
+    {
+      "id": "ex-faith-2",
+      "word_id": "faith",
+      "text": "People of all faiths were welcome.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桥看不见对岸，人还是踏上去了"
+    },
+    {
+      "id": "ex-faithful-1",
+      "word_id": "faithful",
+      "text": "He remained faithful to his promise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "答应过的事隔了十年还照办"
+    },
+    {
+      "id": "ex-faithful-2",
+      "word_id": "faithful",
+      "text": "It is a faithful translation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "答应过的事隔了十年还照办"
+    },
+    {
+      "id": "ex-invisible-1",
+      "word_id": "invisible",
+      "text": "Germs are invisible to the naked eye.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玻璃擦得太干净，人一头撞上去"
+    },
+    {
+      "id": "ex-invisible-2",
+      "word_id": "invisible",
+      "text": "She felt invisible at the meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玻璃擦得太干净，人一头撞上去"
+    },
+    {
+      "id": "ex-advisable-1",
+      "word_id": "advisable",
+      "text": "It is advisable to book ahead.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老手指了个方向，照他说的走确实稳"
+    },
+    {
+      "id": "ex-advisable-2",
+      "word_id": "advisable",
+      "text": "Early treatment is advisable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老手指了个方向，照他说的走确实稳"
     }
   ]
 }

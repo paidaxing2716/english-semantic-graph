@@ -18572,6 +18572,638 @@
       "semantic_expansions": [
         "怨恨/愤恨/不满：都是'心里朝那件事生出反感'，中文按强度分了三个词"
       ]
+    },
+    {
+      "id": "solve",
+      "word": "solve",
+      "pos": "verb",
+      "phonetic": "/sɑːlv/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "solvere（解开）本身即词根，无前缀 → 把缠住的地方解开 → 解决",
+      "origin": "拉丁语 solvere（解开、松开）",
+      "native_definition": "to find the answer to a problem or the explanation for something",
+      "core_concept": "untying what was tangled – 把缠住的地方解开",
+      "core_image": "绳结被抽松，两头一拉就分开了",
+      "chinese": [
+        "解决",
+        "解答"
+      ],
+      "examples": [
+        "They solved the problem in an afternoon.",
+        "No one could solve the riddle."
+      ],
+      "synonyms": [
+        "settle",
+        "work out"
+      ],
+      "antonyms": [],
+      "related": [
+        "solution",
+        "resolve",
+        "dissolve",
+        "absolute"
+      ],
+      "semantic_expansions": [
+        "解决与解答：都是'把缠住的地方解开'，一个偏事情一个偏题目"
+      ]
+    },
+    {
+      "id": "solution",
+      "word": "solution",
+      "pos": "noun",
+      "phonetic": "/səˈluːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "solut（解开）+ -ion（名词）→ 解开所得的答案；也指固体化开后的那杯液体 → 溶液",
+      "recall_hint": "solut（解开）+ -ion → 解开缠结所得的那个答案；化学上则是固体在水里化开后的那一杯",
+      "origin": "拉丁语 solutio：solvere（解开、溶解）",
+      "native_definition": "the answer to a problem, or a liquid in which something has been dissolved",
+      "core_concept": "what results from loosening – 解开之后所得的那个东西",
+      "core_image": "糖块在水里化没了，整杯水都变甜",
+      "chinese": [
+        "解决办法",
+        "答案",
+        "溶液"
+      ],
+      "examples": [
+        "There is no quick solution.",
+        "Add salt to the solution."
+      ],
+      "synonyms": [
+        "answer",
+        "remedy"
+      ],
+      "antonyms": [],
+      "related": [
+        "solve",
+        "resolve",
+        "dissolve",
+        "absolute"
+      ],
+      "semantic_expansions": [
+        "解决办法/答案：解开缠结所得的东西",
+        "溶液：固体化开后所得的液体。同一个'解开、化开'，一个在事上一个在物上"
+      ]
+    },
+    {
+      "id": "resolve",
+      "word": "resolve",
+      "pos": "verb",
+      "phonetic": "/rɪˈzɑːlv/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "re-（彻底）+ solve（解开）→ 把纠结彻底解开 → 解决；心里的犹豫也解开 → 决心",
+      "recall_hint": "re-（彻底）+ solve（解开）→ 把纠结彻底解开；心里的犹豫解开之后，就成了拿定的主意",
+      "origin": "拉丁语 resolvere：re-（彻底）+ solvere（解开）",
+      "native_definition": "to settle a problem or dispute, or to decide firmly",
+      "core_concept": "loosening it through to the end – 一直解到不再纠结",
+      "core_image": "争执的两方谈到最后，那个疙瘩终于散了",
+      "chinese": [
+        "解决",
+        "决心",
+        "决议"
+      ],
+      "examples": [
+        "The dispute was finally resolved.",
+        "She resolved to start over."
+      ],
+      "synonyms": [
+        "settle",
+        "determine"
+      ],
+      "antonyms": [],
+      "related": [
+        "solve",
+        "solution",
+        "dissolve",
+        "absolute"
+      ],
+      "semantic_expansions": [
+        "解决（争端）：把纠结彻底解开",
+        "决心/决议：把心里的犹豫解开、定下来。同一个'解到不再纠结'，一个对外一个对内"
+      ]
+    },
+    {
+      "id": "dissolve",
+      "word": "dissolve",
+      "pos": "verb",
+      "phonetic": "/dɪˈzɑːlv/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "dis-（分开）+ solve（松开）→ 散开到不成整体 → 溶解、解散",
+      "origin": "拉丁语 dissolvere：dis-（分开）+ solvere（松开）",
+      "native_definition": "to become liquid in water, or to bring an organization to an end",
+      "core_concept": "coming apart until nothing holds together – 散到不再成为整体",
+      "core_image": "药片在水里冒着泡越来越小，最后什么都看不见",
+      "chinese": [
+        "溶解",
+        "解散",
+        "消失"
+      ],
+      "examples": [
+        "Sugar dissolves quickly in hot water.",
+        "Parliament was dissolved in May."
+      ],
+      "synonyms": [
+        "melt",
+        "disband"
+      ],
+      "antonyms": [],
+      "related": [
+        "solve",
+        "solution",
+        "resolve",
+        "absolute"
+      ],
+      "semantic_expansions": [
+        "溶解：固体散到看不见",
+        "解散（机构）：组织散到不再成形",
+        "消失（画面）：影像散开淡去。三义共享'散到不成整体'"
+      ]
+    },
+    {
+      "id": "absolute",
+      "word": "absolute",
+      "pos": "adjective",
+      "phonetic": "/ˈæbsəluːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "ab-（脱离）+ solut（解开）→ 已从一切牵连中解脱出来的 → 绝对的",
+      "recall_hint": "ab-（脱离）+ solut（解开）→ 已从一切牵连和限制中解脱出来，因而不受条件约束",
+      "origin": "拉丁语 absolutus：ab-（脱离）+ solvere（解开）——'已解脱的、完成的'",
+      "native_definition": "complete and not limited by anything, or not relative to something else",
+      "core_concept": "loosed from all conditions – 从一切牵连中解开，不再受限",
+      "core_image": "别的都被剪断，只剩这一条，不必再跟谁比",
+      "chinese": [
+        "绝对的",
+        "完全的",
+        "无条件的"
+      ],
+      "examples": [
+        "She has absolute control over the budget.",
+        "That is absolute nonsense."
+      ],
+      "synonyms": [
+        "complete",
+        "total"
+      ],
+      "antonyms": [
+        "relative"
+      ],
+      "related": [
+        "solve",
+        "solution",
+        "resolve",
+        "dissolve"
+      ],
+      "semantic_expansions": [
+        "绝对的/无条件的：从一切牵连中解脱，不受条件约束",
+        "完全的：没有任何保留。同一个'解开一切牵连'，一个说不受限一个说无残留"
+      ]
+    },
+    {
+      "id": "convince",
+      "word": "convince",
+      "pos": "verb",
+      "phonetic": "/kənˈvɪns/",
+      "decomposable": "root",
+      "root_ids": [
+        "vincere"
+      ],
+      "root_logic": "con-（完全）+ vince（压服）→ 把对方的疑虑完全压过去 → 使确信",
+      "origin": "拉丁语 convincere：com-（完全）+ vincere（战胜）",
+      "native_definition": "to make someone believe that something is true",
+      "core_concept": "overcoming another's doubt entirely – 把对方的疑虑彻底压过去",
+      "core_image": "证据一件件摆上来，对方最后没话可说",
+      "chinese": [
+        "使确信",
+        "说服"
+      ],
+      "examples": [
+        "The evidence convinced the jury.",
+        "I convinced her to stay."
+      ],
+      "synonyms": [
+        "persuade",
+        "assure"
+      ],
+      "antonyms": [],
+      "related": [
+        "conviction",
+        "victory",
+        "province"
+      ],
+      "semantic_expansions": [
+        "使确信与说服：都是'把对方的疑虑压过去'，一个偏结果一个偏过程"
+      ]
+    },
+    {
+      "id": "conviction",
+      "word": "conviction",
+      "pos": "noun",
+      "phonetic": "/kənˈvɪkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "vincere"
+      ],
+      "root_logic": "convince（压服疑虑）+ -ion（名词）→ 疑虑被压服后剩下的那份确信 → 信念；在法庭上则是罪名被证成 → 定罪",
+      "recall_hint": "convince（压服疑虑）+ -ion → 疑虑被压过去后剩下的那份确信；在法庭上则是控方压过辩方、罪名成立",
+      "origin": "拉丁语 convictio：com-（完全）+ vincere（战胜）",
+      "native_definition": "a firm belief, or a formal judgement that someone is guilty",
+      "core_concept": "what stands after doubt is overcome – 疑虑被压过去之后立住的那个",
+      "core_image": "所有反对意见都被驳完，剩下的那句话再没人推翻",
+      "chinese": [
+        "信念",
+        "确信",
+        "定罪"
+      ],
+      "examples": [
+        "She spoke with deep conviction.",
+        "He has two previous convictions."
+      ],
+      "synonyms": [
+        "belief",
+        "certainty"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "related": [
+        "convince",
+        "victory",
+        "province"
+      ],
+      "semantic_expansions": [
+        "信念/确信：疑虑被压过去后立住的那份判断",
+        "定罪：辩解被压过去后立住的那个罪名。同一个'压过疑虑而立'，一个在心里一个在法庭"
+      ]
+    },
+    {
+      "id": "victory",
+      "word": "victory",
+      "pos": "noun",
+      "phonetic": "/ˈvɪktəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "vincere"
+      ],
+      "root_logic": "vict（战胜）+ -ory（名词）→ 把对方压过去所得的那个结果 → 胜利",
+      "origin": "拉丁语 victoria：vincere（战胜）",
+      "native_definition": "success in a battle, game, or contest",
+      "core_concept": "the outcome of having overcome – 压过对方之后所得的那个结果",
+      "core_image": "终场哨响，比分板上一边的数字更大",
+      "chinese": [
+        "胜利",
+        "获胜"
+      ],
+      "examples": [
+        "The team celebrated a narrow victory.",
+        "It was a victory for common sense."
+      ],
+      "synonyms": [
+        "win",
+        "triumph"
+      ],
+      "antonyms": [
+        "defeat"
+      ],
+      "related": [
+        "convince",
+        "conviction",
+        "province"
+      ],
+      "semantic_expansions": [
+        "胜利与获胜：都是'压过对方所得的结果'，中文一个作名词一个偏动作"
+      ]
+    },
+    {
+      "id": "province",
+      "word": "province",
+      "pos": "noun",
+      "phonetic": "/ˈprɑːvɪns/",
+      "decomposable": "root",
+      "root_ids": [
+        "vincere"
+      ],
+      "root_logic": "pro-（在前、对外）+ vince（压服）→ 罗马在境外压服并划管的那片地 → 省份",
+      "recall_hint": "pro-（对外）+ vince（压服）→ 罗马在境外压服下来、划归管辖的那片地；引申为某人管辖的范围",
+      "origin": "拉丁语 provincia：pro-（在前）+ vincere（征服）——'征服所得的辖地'",
+      "native_definition": "a large administrative division of a country, or an area of responsibility",
+      "core_concept": "territory brought under control and administered – 压服下来并划管的那片地界",
+      "core_image": "地图上一块块涂色的辖区，各有一个治所",
+      "chinese": [
+        "省",
+        "省份",
+        "职权范围"
+      ],
+      "examples": [
+        "She grew up in a northern province.",
+        "Pricing is not my province."
+      ],
+      "synonyms": [
+        "region",
+        "territory"
+      ],
+      "antonyms": [],
+      "related": [
+        "convince",
+        "conviction",
+        "victory"
+      ],
+      "semantic_expansions": [
+        "省/省份：压服下来划归管辖的那片地",
+        "职权范围：某人管辖的那一块。同一个'划归管辖的界'，一个是地理一个是职责"
+      ]
+    },
+    {
+      "id": "confidence",
+      "word": "confidence",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːnfɪdəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "fidere"
+      ],
+      "root_logic": "con-（完全）+ fid（信赖）+ -ence（名词）→ 完全托付得出去的那份放心 → 信心",
+      "origin": "拉丁语 confidentia：com-（完全）+ fidere（信赖）",
+      "native_definition": "belief in one's own or another's ability, or trust that something is safe to tell",
+      "core_concept": "being able to entrust fully – 敢把事完全交出去的那份放心",
+      "core_image": "把方向盘交给对方后就闭眼睡了",
+      "chinese": [
+        "信心",
+        "信任",
+        "机密"
+      ],
+      "examples": [
+        "She spoke with quiet confidence.",
+        "He told me in confidence."
+      ],
+      "synonyms": [
+        "assurance",
+        "trust"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "related": [
+        "confident",
+        "confidential",
+        "credible"
+      ],
+      "semantic_expansions": [
+        "信心：对自己敢完全托付",
+        "信任：对他人敢完全托付",
+        "机密（in confidence）：托付出去且相信不会外传的话。三义共享'完全托付得出去'"
+      ]
+    },
+    {
+      "id": "confident",
+      "word": "confident",
+      "pos": "adjective",
+      "phonetic": "/ˈkɑːnfɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fidere"
+      ],
+      "root_logic": "con-（完全）+ fid（信赖）+ -ent（…的）→ 完全放得下心的 → 自信的",
+      "origin": "拉丁语 confidens：com-（完全）+ fidere（信赖）",
+      "native_definition": "sure of oneself or of an outcome",
+      "core_concept": "fully trusting the outcome – 对结果完全放得下心",
+      "core_image": "上场前不再翻笔记，直接把书合上了",
+      "chinese": [
+        "自信的",
+        "确信的"
+      ],
+      "examples": [
+        "He is confident of winning.",
+        "She gave a confident answer."
+      ],
+      "synonyms": [
+        "assured",
+        "certain"
+      ],
+      "antonyms": [
+        "doubtful"
+      ],
+      "related": [
+        "confidence",
+        "confidential",
+        "credible"
+      ],
+      "semantic_expansions": [
+        "自信的与确信的：都是'完全放得下心'，一个对自己一个对结果"
+      ]
+    },
+    {
+      "id": "confidential",
+      "word": "confidential",
+      "pos": "adjective",
+      "phonetic": "/ˌkɑːnfɪˈdenʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fidere"
+      ],
+      "root_logic": "confidence（托付的信任）+ -ial（…的）→ 只在信任范围内流通的 → 机密的",
+      "origin": "拉丁语 confidentia（信任）+ -al",
+      "native_definition": "meant to be kept secret, shared only with those trusted",
+      "core_concept": "circulating only within trust – 只在托得住的人之间流通",
+      "core_image": "文件夹上盖着章，只有名单上的人能翻开",
+      "chinese": [
+        "机密的",
+        "保密的"
+      ],
+      "examples": [
+        "The file is strictly confidential.",
+        "They held confidential talks."
+      ],
+      "synonyms": [
+        "secret",
+        "private"
+      ],
+      "antonyms": [
+        "public"
+      ],
+      "related": [
+        "confidence",
+        "confident"
+      ],
+      "semantic_expansions": [
+        "机密的与保密的：都是'只在托得住的人之间流通'，一个说等级一个说要求"
+      ]
+    },
+    {
+      "id": "faith",
+      "word": "faith",
+      "pos": "noun",
+      "phonetic": "/feɪθ/",
+      "decomposable": "root",
+      "root_ids": [
+        "fidere"
+      ],
+      "root_logic": "fides（信任）经古法语 feid 进入英语，无词缀 → 无需证据就交托出去的那份信",
+      "recall_hint": "fides（信任）本身即词根 → 不等证据就交托出去的那份信；也指所信奉的那一套",
+      "origin": "拉丁语 fides（信任、忠信）经古法语 feid 进入英语",
+      "native_definition": "strong belief without proof, or a system of religious belief",
+      "core_concept": "trust given without demanding proof – 不要证据就交出去的那份信",
+      "core_image": "桥看不见对岸，人还是踏上去了",
+      "chinese": [
+        "信念",
+        "信仰",
+        "信任"
+      ],
+      "examples": [
+        "She kept faith in the plan.",
+        "People of all faiths were welcome."
+      ],
+      "synonyms": [
+        "belief",
+        "trust"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "related": [
+        "faithful",
+        "confidence",
+        "confident"
+      ],
+      "semantic_expansions": [
+        "信念/信任：不要证据就交出去的那份信",
+        "信仰：所信奉的那一整套。同一个'无证而信'，一个是心态一个是体系"
+      ]
+    },
+    {
+      "id": "faithful",
+      "word": "faithful",
+      "pos": "adjective",
+      "phonetic": "/ˈfeɪθfl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fidere"
+      ],
+      "root_logic": "faith（信）+ -ful（充满…的）→ 守住那份信的 → 忠诚的；引申为如实照原样的 → 忠实的",
+      "recall_hint": "faith（信）+ -ful → 守住那份托付不背弃的；用在译文或复制上则是照原样不走样",
+      "origin": "拉丁语 fides（信任）+ 英语 -ful",
+      "native_definition": "loyal and reliable, or accurate to the original",
+      "core_concept": "keeping the trust given – 守住被交托的那份信",
+      "core_image": "答应过的事隔了十年还照办",
+      "chinese": [
+        "忠诚的",
+        "忠实的",
+        "如实的"
+      ],
+      "examples": [
+        "He remained faithful to his promise.",
+        "It is a faithful translation."
+      ],
+      "synonyms": [
+        "loyal",
+        "accurate"
+      ],
+      "antonyms": [
+        "unfaithful"
+      ],
+      "related": [
+        "faith",
+        "confidence",
+        "confident"
+      ],
+      "semantic_expansions": [
+        "忠诚的：守住对人的托付",
+        "忠实的/如实的（译文）：守住对原文的托付、不走样。同一个'守住那份信'，守的是人还是原样"
+      ]
+    },
+    {
+      "id": "invisible",
+      "word": "invisible",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈvɪzəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "in-（否定）+ vis（看，与 spect 同为'看'的一支）+ -ible → 看不见的 → 无形的",
+      "recall_hint": "in-（否定）+ vis（看）+ -ible → 看不见的；注意 vis 与 spect 同属'看'这一族",
+      "origin": "拉丁语 invisibilis：in-（不）+ videre（看）",
+      "native_definition": "impossible to see",
+      "core_concept": "beyond what the eye can catch – 落在视力之外",
+      "core_image": "玻璃擦得太干净，人一头撞上去",
+      "chinese": [
+        "无形的",
+        "看不见的",
+        "隐形的"
+      ],
+      "examples": [
+        "Germs are invisible to the naked eye.",
+        "She felt invisible at the meeting."
+      ],
+      "synonyms": [
+        "unseen",
+        "hidden"
+      ],
+      "antonyms": [
+        "visible"
+      ],
+      "related": [
+        "inspect",
+        "prospect",
+        "perspective",
+        "conspicuous"
+      ],
+      "semantic_expansions": [
+        "无形的/看不见的：落在视力之外",
+        "被忽视的（felt invisible）：在场却没人看见。同一个'不被看见'，一个是物理一个是处境"
+      ]
+    },
+    {
+      "id": "advisable",
+      "word": "advisable",
+      "pos": "adjective",
+      "phonetic": "/ədˈvaɪzəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "ad-（朝向）+ vis（看）+ -able（值得…的）→ 值得朝那个方向看一看的 → 可取的",
+      "recall_hint": "ad-（朝向）+ vis（看）+ -able → 值得朝那个方向看一看、照着做的",
+      "origin": "拉丁语 ad-（朝向）+ videre（看）→ advise（劝告）+ -able",
+      "native_definition": "sensible to do; recommended",
+      "core_concept": "worth looking toward and following – 值得朝它看一看、照着办",
+      "core_image": "老手指了个方向，照他说的走确实稳",
+      "chinese": [
+        "可取的",
+        "明智的",
+        "建议的"
+      ],
+      "examples": [
+        "It is advisable to book ahead.",
+        "Early treatment is advisable."
+      ],
+      "synonyms": [
+        "sensible",
+        "wise"
+      ],
+      "antonyms": [],
+      "related": [
+        "invisible",
+        "inspect",
+        "prospect"
+      ],
+      "semantic_expansions": [
+        "可取的/明智的：值得照着办",
+        "建议的：被指出该往那边走的。同一个'值得朝它看'，一个说判断一个说来处"
+      ]
     }
   ]
 }

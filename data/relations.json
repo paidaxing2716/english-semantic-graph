@@ -2934,6 +2934,102 @@
       "to": "resent",
       "type": "root",
       "note": "re-（反过来）+ sent（感觉）→ 心里对某事生出反感 → 怨恨"
+    },
+    {
+      "from": "solvere",
+      "to": "solve",
+      "type": "root",
+      "note": "solvere（解开）本身即词根，无前缀 → 把缠住的地方解开 → 解决"
+    },
+    {
+      "from": "solvere",
+      "to": "solution",
+      "type": "root",
+      "note": "solut（解开）+ -ion（名词）→ 解开所得的答案；也指固体化开后的那杯液体 → 溶液"
+    },
+    {
+      "from": "solvere",
+      "to": "resolve",
+      "type": "root",
+      "note": "re-（彻底）+ solve（解开）→ 把纠结彻底解开 → 解决；心里的犹豫也解开 → 决心"
+    },
+    {
+      "from": "solvere",
+      "to": "dissolve",
+      "type": "root",
+      "note": "dis-（分开）+ solve（松开）→ 散开到不成整体 → 溶解、解散"
+    },
+    {
+      "from": "solvere",
+      "to": "absolute",
+      "type": "root",
+      "note": "ab-（脱离）+ solut（解开）→ 已从一切牵连中解脱出来的 → 绝对的"
+    },
+    {
+      "from": "vincere",
+      "to": "convince",
+      "type": "root",
+      "note": "con-（完全）+ vince（压服）→ 把对方的疑虑完全压过去 → 使确信"
+    },
+    {
+      "from": "vincere",
+      "to": "conviction",
+      "type": "root",
+      "note": "convince（压服疑虑）+ -ion（名词）→ 疑虑被压服后剩下的那份确信 → 信念；在法庭上则是罪名被证成 → 定"
+    },
+    {
+      "from": "vincere",
+      "to": "victory",
+      "type": "root",
+      "note": "vict（战胜）+ -ory（名词）→ 把对方压过去所得的那个结果 → 胜利"
+    },
+    {
+      "from": "vincere",
+      "to": "province",
+      "type": "root",
+      "note": "pro-（在前、对外）+ vince（压服）→ 罗马在境外压服并划管的那片地 → 省份"
+    },
+    {
+      "from": "fidere",
+      "to": "confidence",
+      "type": "root",
+      "note": "con-（完全）+ fid（信赖）+ -ence（名词）→ 完全托付得出去的那份放心 → 信心"
+    },
+    {
+      "from": "fidere",
+      "to": "confident",
+      "type": "root",
+      "note": "con-（完全）+ fid（信赖）+ -ent（…的）→ 完全放得下心的 → 自信的"
+    },
+    {
+      "from": "fidere",
+      "to": "confidential",
+      "type": "root",
+      "note": "confidence（托付的信任）+ -ial（…的）→ 只在信任范围内流通的 → 机密的"
+    },
+    {
+      "from": "fidere",
+      "to": "faith",
+      "type": "root",
+      "note": "fides（信任）经古法语 feid 进入英语，无词缀 → 无需证据就交托出去的那份信"
+    },
+    {
+      "from": "fidere",
+      "to": "faithful",
+      "type": "root",
+      "note": "faith（信）+ -ful（充满…的）→ 守住那份信的 → 忠诚的；引申为如实照原样的 → 忠实的"
+    },
+    {
+      "from": "spect",
+      "to": "invisible",
+      "type": "root",
+      "note": "in-（否定）+ vis（看，与 spect 同为'看'的一支）+ -ible → 看不见的 → 无形的"
+    },
+    {
+      "from": "spect",
+      "to": "advisable",
+      "type": "root",
+      "note": "ad-（朝向）+ vis（看）+ -able（值得…的）→ 值得朝那个方向看一看的 → 可取的"
     }
   ]
 }

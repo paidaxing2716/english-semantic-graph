@@ -187,7 +187,9 @@
         "specification",
         "conspicuous",
         "retrospect",
-        "prospective"
+        "prospective",
+        "invisible",
+        "advisable"
       ]
     },
     {
@@ -1599,6 +1601,63 @@
         "section",
         "sector",
         "segment"
+      ]
+    },
+    {
+      "id": "solvere",
+      "root": "solvere",
+      "variants": [
+        "solv",
+        "solut"
+      ],
+      "origin": "拉丁语 solvere（解开、松开）",
+      "core_concept": "to loosen, to untie / 把缠住的解开",
+      "core_image": "绳结被一点点抽松，最后整条绳落下来",
+      "english_definition": "to loosen, to dissolve, to solve",
+      "word_ids": [
+        "absolute",
+        "dissolve",
+        "resolve",
+        "solution",
+        "solve"
+      ]
+    },
+    {
+      "id": "vincere",
+      "root": "vincere",
+      "variants": [
+        "vinc",
+        "vict",
+        "vince"
+      ],
+      "origin": "拉丁语 vincere（战胜、压服）",
+      "core_concept": "to overcome / 把对方压过去",
+      "core_image": "两人角力，一方的手被慢慢压到桌面",
+      "english_definition": "to conquer, to overcome",
+      "word_ids": [
+        "conviction",
+        "convince",
+        "province",
+        "victory"
+      ]
+    },
+    {
+      "id": "fidere",
+      "root": "fidere",
+      "variants": [
+        "fid",
+        "fide"
+      ],
+      "origin": "拉丁语 fides / fidere（信任、信赖）",
+      "core_concept": "to rely on / 把重量交给对方而不怕",
+      "core_image": "闭着眼往后倒，知道后面的人会接住",
+      "english_definition": "faith, trust",
+      "word_ids": [
+        "confidence",
+        "confident",
+        "confidential",
+        "faith",
+        "faithful"
       ]
     }
   ]
