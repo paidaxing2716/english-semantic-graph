@@ -77,7 +77,9 @@
       const tx = db.transaction(IDB_STORE, "readwrite");
       // 只保留最新版本，避免缓存随词库增长无限膨胀
       tx.objectStore(IDB_STORE).clear();
-      tx.objectStore(IDB_STORE).put(files, version);
+      // 与 idbGet 的读取端对齐：存 { files: {...} } 而非裸 data，
+      // 否则 idbGet 检查 cached.files 永远 undefined，缓存等于没写。
+      tx.objectStore(IDB_STORE).put({ files: files }, version);
       tx.oncomplete = () => { db.close(); resolve(); };
       tx.onerror = () => { db.close(); resolve(); };
     })).catch(() => {});
