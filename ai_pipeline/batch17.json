@@ -1,0 +1,468 @@
+{
+  "roots": [
+    {
+      "id": "curr",
+      "root": "curr",
+      "variants": ["curr", "cur", "curs"],
+      "origin": "拉丁语 currere（跑、流动）",
+      "core_concept": "to run / 跑动、不停地流",
+      "core_image": "溪水一路跑下山，路过哪里都不停下",
+      "english_definition": "to run, to flow",
+      "word_ids": []
+    },
+    {
+      "id": "prob",
+      "root": "prob",
+      "variants": ["prob", "prov"],
+      "origin": "拉丁语 probare（检验、证实）",
+      "core_concept": "to test and find good / 验一验，确认是好的",
+      "core_image": "把银币咬一口看留不留牙印，验它是不是真的",
+      "english_definition": "to test, to prove good",
+      "word_ids": []
+    },
+    {
+      "id": "minus",
+      "root": "minus",
+      "variants": ["minus", "min", "mini"],
+      "origin": "拉丁语 minus / minor（更小、更少）",
+      "core_concept": "smaller, lesser / 更小、次一等",
+      "core_image": "两堆东西并排，右边那堆明显矮一截",
+      "english_definition": "less, smaller",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-curr-run",
+      "concept": "to run, to flow",
+      "chinese": "跑动、流动",
+      "core_image": "溪水一路跑下山，路过哪里都不停",
+      "root_ids": ["curr"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-prob-test",
+      "concept": "to test and find good",
+      "chinese": "检验、证实",
+      "core_image": "咬一口银币看留不留牙印，验它是否为真",
+      "root_ids": ["prob"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-minus-less",
+      "concept": "smaller, lesser",
+      "chinese": "更小、次一等",
+      "core_image": "两堆东西并排，右边那堆矮一截",
+      "root_ids": ["minus"],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-transfer": ["curr"],
+    "domain-perceive": ["prob"],
+    "domain-shape": ["minus"]
+  },
+  "words": [
+    {
+      "id": "current",
+      "word": "current",
+      "pos": "adjective",
+      "phonetic": "/ˈkɜːrənt/",
+      "decomposable": "root",
+      "root_ids": ["curr"],
+      "root_logic": "curr（跑、流）+ -ent（正在…的）→ 正在流着的 → 当前的；名词则是流动本身 → 水流、电流",
+      "recall_hint": "curr（跑、流）+ -ent → 正在流着的；名词则指那股流动本身",
+      "origin": "拉丁语 currens：currere（跑、流动）",
+      "native_definition": "happening now; also a flow of water, air, or electricity",
+      "core_concept": "the flow that is running right now – 此刻正在流的那一股",
+      "core_image": "河面漂着的叶子被水推着走，此刻在流的就是这一股",
+      "chinese": ["当前的", "水流", "电流"],
+      "examples": [
+        "The current issue is on sale now.",
+        "A strong current pulled the boat sideways.",
+        "Switch off the current before repairing."
+      ],
+      "synonyms": ["present", "flow"],
+      "antonyms": ["past"],
+      "related": ["currency", "occur", "recur", "incur", "excursion"],
+      "semantic_expansions": [
+        "水流/电流：正在流动的那一股",
+        "当前的：正在流经此刻的。同一个'正在流'，一个是物一个是时间"
+      ]
+    },
+    {
+      "id": "currency",
+      "word": "currency",
+      "pos": "noun",
+      "phonetic": "/ˈkɜːrənsi/",
+      "decomposable": "root",
+      "root_ids": ["curr"],
+      "root_logic": "curr（流通）+ -ency（名词）→ 在市面上流通的那个东西 → 货币",
+      "origin": "拉丁语 currens：currere（跑、流动）——'流通之物'",
+      "native_definition": "the money used in a country, or the state of being widely used",
+      "core_concept": "what circulates from hand to hand – 在人手之间流通的那样东西",
+      "core_image": "同一张纸币今天在菜market，明天在药店，一直在换手",
+      "chinese": ["货币", "流通", "通用"],
+      "examples": [
+        "The local currency lost value fast.",
+        "The term gained currency in the 1990s."
+      ],
+      "synonyms": ["money"],
+      "antonyms": [],
+      "related": ["current", "occur", "recur", "incur"],
+      "semantic_expansions": [
+        "货币：在人手之间流通的那样东西",
+        "通用/流通（gain currency）：一个说法开始在人群里流传。同一个'流通'，流的是钱还是说法"
+      ]
+    },
+    {
+      "id": "occur",
+      "word": "occur",
+      "pos": "verb",
+      "phonetic": "/əˈkɜːr/",
+      "decomposable": "root",
+      "root_ids": ["curr"],
+      "root_logic": "oc-（ob- 的变体，朝着、迎面）+ cur（跑）→ 迎面跑过来 → 发生",
+      "origin": "拉丁语 occurrere：ob-（朝着）+ currere（跑）——'迎面跑来'",
+      "native_definition": "to happen, or to come into someone's mind",
+      "core_concept": "running up to meet you – 迎面跑到你面前来",
+      "core_image": "转过街角，一件事正好撞上来",
+      "chinese": ["发生", "出现", "想到"],
+      "examples": [
+        "The accident occurred at midnight.",
+        "It never occurred to me to ask."
+      ],
+      "synonyms": ["happen", "arise"],
+      "antonyms": [],
+      "related": ["current", "recur", "incur", "currency", "excursion"],
+      "semantic_expansions": [
+        "发生/出现：一件事迎面跑到眼前",
+        "想到（occur to）：一个念头迎面跑进脑子。同一个'迎面跑来'，来的是事还是念头"
+      ]
+    },
+    {
+      "id": "recur",
+      "word": "recur",
+      "pos": "verb",
+      "phonetic": "/rɪˈkɜːr/",
+      "decomposable": "root",
+      "root_ids": ["curr"],
+      "root_logic": "re-（再一次）+ cur（跑）→ 又跑回来一趟 → 再次发生",
+      "origin": "拉丁语 recurrere：re-（往回）+ currere（跑）",
+      "native_definition": "to happen again, especially repeatedly",
+      "core_concept": "running back around again – 又绕回来一趟",
+      "core_image": "同一个梦隔几天又回来一次，情节没变",
+      "chinese": ["再次发生", "复发", "反复出现"],
+      "examples": [
+        "The problem recurs every winter.",
+        "The pain recurred after a month."
+      ],
+      "synonyms": ["repeat"],
+      "antonyms": [],
+      "related": ["occur", "current", "incur", "currency"],
+      "semantic_expansions": [
+        "再次发生/复发/反复出现：都是'又跑回来一趟'，中文按对象是事、病还是现象分了三个词"
+      ]
+    },
+    {
+      "id": "incur",
+      "word": "incur",
+      "pos": "verb",
+      "phonetic": "/ɪnˈkɜːr/",
+      "decomposable": "root",
+      "root_ids": ["curr"],
+      "root_logic": "in-（进入、朝里）+ cur（跑）→ 自己跑进那件麻烦里 → 招致",
+      "origin": "拉丁语 incurrere：in-（进入）+ currere（跑）——'跑进…之中'",
+      "native_definition": "to bring something unpleasant upon oneself, such as cost or blame",
+      "core_concept": "running into something and taking it on – 自己跑进去，把后果领回来",
+      "core_image": "明知有罚款还是超时停车，罚单就归自己了",
+      "chinese": ["招致", "承担", "蒙受"],
+      "examples": [
+        "The firm incurred heavy losses.",
+        "You may incur a penalty for late filing."
+      ],
+      "synonyms": ["suffer", "sustain"],
+      "antonyms": ["avoid"],
+      "related": ["occur", "recur", "current", "excursion"],
+      "semantic_expansions": [
+        "招致/承担/蒙受：都是'自己跑进去把后果领回来'，中文按语气分了三个词"
+      ]
+    },
+    {
+      "id": "excursion",
+      "word": "excursion",
+      "pos": "noun",
+      "phonetic": "/ɪkˈskɜːrʒn/",
+      "decomposable": "root",
+      "root_ids": ["curr"],
+      "root_logic": "ex-（向外）+ curs（cur 的变体，跑）+ -ion → 往外跑一趟再回来 → 短途旅行",
+      "origin": "拉丁语 excursio：ex-（向外）+ currere（跑）",
+      "native_definition": "a short trip made for pleasure, or a brief departure from a topic",
+      "core_concept": "a run out and back again – 往外跑一趟，还要回来",
+      "core_image": "大巴早上开出城，天黑前又停回原来那个站台",
+      "chinese": ["短途旅行", "远足", "题外话"],
+      "examples": [
+        "We took a day excursion to the coast.",
+        "Allow me a brief excursion into history."
+      ],
+      "synonyms": ["trip", "outing"],
+      "antonyms": [],
+      "related": ["current", "occur", "recur", "incur"],
+      "semantic_expansions": [
+        "短途旅行/远足：往外跑一趟再回来",
+        "题外话：话题往外跑一段再拐回来。同一个'出去一趟还要回'，跑的是路还是话"
+      ]
+    },
+    {
+      "id": "prove",
+      "word": "prove",
+      "pos": "verb",
+      "phonetic": "/pruːv/",
+      "decomposable": "root",
+      "root_ids": ["prob"],
+      "root_logic": "prob 本身即词根，无前缀 → 验过之后确认它站得住 → 证明",
+      "origin": "拉丁语 probare（检验、证实）",
+      "native_definition": "to show that something is true, or to turn out to be a certain way",
+      "core_concept": "putting it to the test and having it hold – 拿去验，验完站得住",
+      "core_image": "把梁架上重物，压了一天没弯，这才敢用",
+      "chinese": ["证明", "证实", "结果是"],
+      "examples": [
+        "The theory was later proved correct.",
+        "The plan proved too costly."
+      ],
+      "synonyms": ["demonstrate", "confirm"],
+      "antonyms": ["disprove"],
+      "related": ["approve", "approval", "improve", "improvement"],
+      "semantic_expansions": [
+        "证明/证实：验过确认它站得住",
+        "结果是（prove to be）：经过实际检验，显出是这样。同一个'验过见真'，一个是主动证一个是被验出"
+      ]
+    },
+    {
+      "id": "approve",
+      "word": "approve",
+      "pos": "verb",
+      "phonetic": "/əˈpruːv/",
+      "decomposable": "root",
+      "root_ids": ["prob"],
+      "root_logic": "ap-（ad- 的变体，朝向）+ prov（验为好）→ 验过认为它好 → 批准",
+      "origin": "拉丁语 approbare：ad-（朝向）+ probare（检验、认可）",
+      "native_definition": "to agree officially to something, or to think it is good",
+      "core_concept": "having tested it and judged it good – 验过之后认定它可以",
+      "core_image": "文件上盖下那一枚章，往下就能办了",
+      "chinese": ["批准", "赞成", "认可"],
+      "examples": [
+        "The board approved the budget.",
+        "Her parents did not approve of the match."
+      ],
+      "synonyms": ["endorse", "accept"],
+      "antonyms": ["reject"],
+      "related": ["approval", "prove", "improve", "improvement"],
+      "semantic_expansions": [
+        "批准：验过认可，正式放行",
+        "赞成/认可：心里认定它好。同一个'验为好'，一个是程序一个是态度"
+      ]
+    },
+    {
+      "id": "approval",
+      "word": "approval",
+      "pos": "noun",
+      "phonetic": "/əˈpruːvl/",
+      "decomposable": "root",
+      "root_ids": ["prob"],
+      "root_logic": "approve（验为好）+ -al（名词）→ 验过认可这件事 → 批准",
+      "origin": "拉丁语 approbare：ad-（朝向）+ probare（认可）",
+      "native_definition": "official agreement, or a good opinion of someone",
+      "core_concept": "the act of judging it good – 认定它可以这件事本身",
+      "core_image": "回执上写着已通过，日期和签名都在",
+      "chinese": ["批准", "赞同", "认可"],
+      "examples": [
+        "The plan needs council approval.",
+        "He looked at her with approval."
+      ],
+      "synonyms": ["consent", "praise"],
+      "antonyms": [],
+      "related": ["approve", "prove", "improvement", "improve"],
+      "semantic_expansions": [
+        "批准：正式认可这件事",
+        "赞同/认可（目光）：心里认定它好。与 approve 同一内核，只是名词形式"
+      ]
+    },
+    {
+      "id": "improve",
+      "word": "improve",
+      "pos": "verb",
+      "phonetic": "/ɪmˈpruːv/",
+      "decomposable": "root",
+      "root_ids": ["prob"],
+      "root_logic": "im-（进入、使…）+ prov（好）→ 使它变得更好 → 改进",
+      "origin": "拉丁语 in-（使…）+ probare（认为好）经古法语 emprouwer 进入英语",
+      "native_definition": "to make something better, or to become better",
+      "core_concept": "moving it toward the good – 把它往好的那一端推",
+      "core_image": "同一条路第二年铺了新面，走上去比去年稳",
+      "chinese": ["改进", "改善", "好转"],
+      "examples": [
+        "We must improve response times.",
+        "Her health improved steadily."
+      ],
+      "synonyms": ["enhance", "better"],
+      "antonyms": ["worsen", "degenerate"],
+      "related": ["improvement", "prove", "approve", "approval"],
+      "semantic_expansions": [
+        "改进/改善：主动使它变好",
+        "好转：自己变好了。同一个'往好的一端去'，一个是及物一个是不及物"
+      ]
+    },
+    {
+      "id": "improvement",
+      "word": "improvement",
+      "pos": "noun",
+      "phonetic": "/ɪmˈpruːvmənt/",
+      "decomposable": "root",
+      "root_ids": ["prob"],
+      "root_logic": "improve（使变好）+ -ment（结果）→ 变好这件事，或变好的那一处 → 改进",
+      "origin": "拉丁语 in-（使…）+ probare（认为好）",
+      "native_definition": "the act of getting better, or a change that makes something better",
+      "core_concept": "the gain made toward the good – 朝好的一端所取得的那一段",
+      "core_image": "两张对比照并排贴着，后一张明显整齐些",
+      "chinese": ["改进", "进步", "改良之处"],
+      "examples": [
+        "There has been a marked improvement.",
+        "The new model offers several improvements."
+      ],
+      "synonyms": ["progress"],
+      "antonyms": [],
+      "related": ["improve", "prove", "approve", "approval"],
+      "semantic_expansions": [
+        "改进/进步：往好的一端取得的那一段",
+        "改良之处：具体变好的那一点。同一个'所得的改善'，一个是抽象一个是具体"
+      ]
+    },
+    {
+      "id": "minor",
+      "word": "minor",
+      "pos": "adjective",
+      "phonetic": "/ˈmaɪnər/",
+      "decomposable": "root",
+      "root_ids": ["minus"],
+      "root_logic": "minus（更小）的比较级形 minor → 两者相比更小的那个 → 次要的",
+      "origin": "拉丁语 minor：minus（更小）的比较级",
+      "native_definition": "smaller or less important than others",
+      "core_concept": "the smaller of the two being compared – 相比之下更小、更不重要的那个",
+      "core_image": "两处伤并排看，这一处不用缝针",
+      "chinese": ["次要的", "轻微的", "未成年人"],
+      "examples": [
+        "It was only a minor injury.",
+        "The film is not suitable for minors."
+      ],
+      "synonyms": ["small", "slight"],
+      "antonyms": ["major"],
+      "related": ["minority", "diminish", "minister", "administer"],
+      "semantic_expansions": [
+        "次要的/轻微的：相比之下更小的那个",
+        "未成年人（名词）：年纪更小、还不算成人的那个。同一个'较小'，一个说程度一个指人"
+      ]
+    },
+    {
+      "id": "minority",
+      "word": "minority",
+      "pos": "noun",
+      "phonetic": "/maɪˈnɔːrəti/",
+      "decomposable": "root",
+      "root_ids": ["minus"],
+      "root_logic": "minor（更小的）+ -ity（名词）→ 数目更小的那一部分 → 少数",
+      "origin": "拉丁语 minoritas：minor（更小）",
+      "native_definition": "the smaller part of a group, especially fewer than half",
+      "core_concept": "the smaller share of a group – 一群里数目更小的那部分",
+      "core_image": "举手表决时，这边举起来的手明显比那边少",
+      "chinese": ["少数", "少数派", "少数民族"],
+      "examples": [
+        "Only a minority opposed the plan.",
+        "The law protects ethnic minorities."
+      ],
+      "synonyms": [],
+      "antonyms": ["majority"],
+      "related": ["minor", "diminish", "minister", "administer"],
+      "semantic_expansions": [
+        "少数/少数派：数目更小的那部分",
+        "少数民族：人口占更小份额的那个族群。同一个'较小的那份'，用在数量还是群体"
+      ]
+    },
+    {
+      "id": "diminish",
+      "word": "diminish",
+      "pos": "verb",
+      "phonetic": "/dɪˈmɪnɪʃ/",
+      "decomposable": "root",
+      "root_ids": ["minus"],
+      "root_logic": "di-（往下、脱离）+ min（变小）+ -ish（动词）→ 一路变得更小 → 减少",
+      "origin": "拉丁语 diminuere：de-（往下）+ minuere（使变小）",
+      "native_definition": "to become smaller or less important, or to make something so",
+      "core_concept": "growing steadily smaller – 一路往更小的方向去",
+      "core_image": "余额一笔笔往下走，数字越来越短",
+      "chinese": ["减少", "缩小", "贬低"],
+      "examples": [
+        "Supplies diminished over the winter.",
+        "Do not diminish her contribution."
+      ],
+      "synonyms": ["decrease", "reduce"],
+      "antonyms": ["increase"],
+      "related": ["minor", "minority", "minister", "administer"],
+      "semantic_expansions": [
+        "减少/缩小：数量或体积往更小去",
+        "贬低：把别人的分量说小。同一个'使变小'，小的是量还是评价"
+      ]
+    },
+    {
+      "id": "minister",
+      "word": "minister",
+      "pos": "noun",
+      "phonetic": "/ˈmɪnɪstər/",
+      "decomposable": "root",
+      "root_ids": ["minus"],
+      "root_logic": "min（更小、居下）+ -ister（人）→ 原指居下服事的人，后指受君主之命理政者 → 大臣、部长",
+      "recall_hint": "min（居下、次一等）+ -ister → 原指居下服事的人；后来成为受命理政的那个职位",
+      "origin": "拉丁语 minister：minus（更小）——原意'仆从、下位者'",
+      "native_definition": "a senior member of government, or a member of the clergy",
+      "core_concept": "one who serves under an authority – 在上位者之下承事的人",
+      "core_image": "王座之下站着的人，命令由他去落实",
+      "chinese": ["部长", "大臣", "牧师"],
+      "examples": [
+        "The finance minister resigned today.",
+        "The minister led the Sunday service."
+      ],
+      "synonyms": ["official"],
+      "antonyms": [],
+      "related": ["administer", "minor", "minority", "diminish"],
+      "semantic_expansions": [
+        "部长/大臣：受君主或政府之命承事的人",
+        "牧师：在神之下服事的人。同一个'居下承事'，服事的对象不同"
+      ]
+    },
+    {
+      "id": "administer",
+      "word": "administer",
+      "pos": "verb",
+      "phonetic": "/ədˈmɪnɪstər/",
+      "decomposable": "root",
+      "root_ids": ["minus"],
+      "root_logic": "ad-（朝向）+ minister（承事者）→ 去为某事承担事务 → 管理",
+      "origin": "拉丁语 administrare：ad-（朝向）+ ministrare（服事）← minister（仆从）",
+      "native_definition": "to manage the running of something, or to give out medicine or aid",
+      "core_concept": "serving the running of something – 承担起某事的运转",
+      "core_image": "有人拿着名册逐项核对，每一环都得他签字",
+      "chinese": ["管理", "执行", "施用"],
+      "examples": [
+        "A trust administers the fund.",
+        "Nurses administered the vaccine."
+      ],
+      "synonyms": ["manage", "govern"],
+      "antonyms": [],
+      "related": ["minister", "minor", "minority", "diminish"],
+      "semantic_expansions": [
+        "管理/执行：承担某事的运转",
+        "施用（药物）：承担把它给到病人这件事。同一个'为之承事'，管的是机构还是给药"
+      ]
+    }
+  ]
+}

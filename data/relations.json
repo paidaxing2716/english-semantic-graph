@@ -1740,6 +1740,102 @@
       "to": "texture",
       "type": "root",
       "note": "text（编织）+ -ure（名词）→ 编织的疏密所形成的手感 → 质地"
+    },
+    {
+      "from": "curr",
+      "to": "current",
+      "type": "root",
+      "note": "curr（跑、流）+ -ent（正在…的）→ 正在流着的 → 当前的；名词则是流动本身 → 水流、电流"
+    },
+    {
+      "from": "curr",
+      "to": "currency",
+      "type": "root",
+      "note": "curr（流通）+ -ency（名词）→ 在市面上流通的那个东西 → 货币"
+    },
+    {
+      "from": "curr",
+      "to": "occur",
+      "type": "root",
+      "note": "oc-（ob- 的变体，朝着、迎面）+ cur（跑）→ 迎面跑过来 → 发生"
+    },
+    {
+      "from": "curr",
+      "to": "recur",
+      "type": "root",
+      "note": "re-（再一次）+ cur（跑）→ 又跑回来一趟 → 再次发生"
+    },
+    {
+      "from": "curr",
+      "to": "incur",
+      "type": "root",
+      "note": "in-（进入、朝里）+ cur（跑）→ 自己跑进那件麻烦里 → 招致"
+    },
+    {
+      "from": "curr",
+      "to": "excursion",
+      "type": "root",
+      "note": "ex-（向外）+ curs（cur 的变体，跑）+ -ion → 往外跑一趟再回来 → 短途旅行"
+    },
+    {
+      "from": "prob",
+      "to": "prove",
+      "type": "root",
+      "note": "prob 本身即词根，无前缀 → 验过之后确认它站得住 → 证明"
+    },
+    {
+      "from": "prob",
+      "to": "approve",
+      "type": "root",
+      "note": "ap-（ad- 的变体，朝向）+ prov（验为好）→ 验过认为它好 → 批准"
+    },
+    {
+      "from": "prob",
+      "to": "approval",
+      "type": "root",
+      "note": "approve（验为好）+ -al（名词）→ 验过认可这件事 → 批准"
+    },
+    {
+      "from": "prob",
+      "to": "improve",
+      "type": "root",
+      "note": "im-（进入、使…）+ prov（好）→ 使它变得更好 → 改进"
+    },
+    {
+      "from": "prob",
+      "to": "improvement",
+      "type": "root",
+      "note": "improve（使变好）+ -ment（结果）→ 变好这件事，或变好的那一处 → 改进"
+    },
+    {
+      "from": "minus",
+      "to": "minor",
+      "type": "root",
+      "note": "minus（更小）的比较级形 minor → 两者相比更小的那个 → 次要的"
+    },
+    {
+      "from": "minus",
+      "to": "minority",
+      "type": "root",
+      "note": "minor（更小的）+ -ity（名词）→ 数目更小的那一部分 → 少数"
+    },
+    {
+      "from": "minus",
+      "to": "diminish",
+      "type": "root",
+      "note": "di-（往下、脱离）+ min（变小）+ -ish（动词）→ 一路变得更小 → 减少"
+    },
+    {
+      "from": "minus",
+      "to": "minister",
+      "type": "root",
+      "note": "min（更小、居下）+ -ister（人）→ 原指居下服事的人，后指受君主之命理政者 → 大臣、部长"
+    },
+    {
+      "from": "minus",
+      "to": "administer",
+      "type": "root",
+      "note": "ad-（朝向）+ minister（承事者）→ 去为某事承担事务 → 管理"
     }
   ]
 }

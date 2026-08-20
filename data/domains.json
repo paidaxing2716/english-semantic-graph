@@ -27,7 +27,8 @@
         "pose",
         "pars",
         "fin",
-        "loc"
+        "loc",
+        "minus"
       ]
     },
     {
@@ -46,7 +47,8 @@
         "mov",
         "vert",
         "flu",
-        "sequ"
+        "sequ",
+        "curr"
       ]
     },
     {
@@ -61,7 +63,8 @@
         "dict",
         "sci",
         "crit",
-        "signum"
+        "signum",
+        "prob"
       ]
     },
     {

@@ -845,6 +845,66 @@
         "textile",
         "texture"
       ]
+    },
+    {
+      "id": "curr",
+      "root": "curr",
+      "variants": [
+        "curr",
+        "cur",
+        "curs"
+      ],
+      "origin": "拉丁语 currere（跑、流动）",
+      "core_concept": "to run / 跑动、不停地流",
+      "core_image": "溪水一路跑下山，路过哪里都不停下",
+      "english_definition": "to run, to flow",
+      "word_ids": [
+        "currency",
+        "current",
+        "excursion",
+        "incur",
+        "occur",
+        "recur"
+      ]
+    },
+    {
+      "id": "prob",
+      "root": "prob",
+      "variants": [
+        "prob",
+        "prov"
+      ],
+      "origin": "拉丁语 probare（检验、证实）",
+      "core_concept": "to test and find good / 验一验，确认是好的",
+      "core_image": "把银币咬一口看留不留牙印，验它是不是真的",
+      "english_definition": "to test, to prove good",
+      "word_ids": [
+        "approval",
+        "approve",
+        "improve",
+        "improvement",
+        "prove"
+      ]
+    },
+    {
+      "id": "minus",
+      "root": "minus",
+      "variants": [
+        "minus",
+        "min",
+        "mini"
+      ],
+      "origin": "拉丁语 minus / minor（更小、更少）",
+      "core_concept": "smaller, lesser / 更小、次一等",
+      "core_image": "两堆东西并排，右边那堆明显矮一截",
+      "english_definition": "less, smaller",
+      "word_ids": [
+        "administer",
+        "diminish",
+        "minister",
+        "minor",
+        "minority"
+      ]
     }
   ]
 }

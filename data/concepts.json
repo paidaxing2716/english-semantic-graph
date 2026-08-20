@@ -737,6 +737,55 @@
         "textile",
         "texture"
       ]
+    },
+    {
+      "id": "concept-curr-run",
+      "concept": "to run, to flow",
+      "chinese": "跑动、流动",
+      "core_image": "溪水一路跑下山，路过哪里都不停",
+      "root_ids": [
+        "curr"
+      ],
+      "word_ids": [
+        "currency",
+        "current",
+        "excursion",
+        "incur",
+        "occur",
+        "recur"
+      ]
+    },
+    {
+      "id": "concept-prob-test",
+      "concept": "to test and find good",
+      "chinese": "检验、证实",
+      "core_image": "咬一口银币看留不留牙印，验它是否为真",
+      "root_ids": [
+        "prob"
+      ],
+      "word_ids": [
+        "approval",
+        "approve",
+        "improve",
+        "improvement",
+        "prove"
+      ]
+    },
+    {
+      "id": "concept-minus-less",
+      "concept": "smaller, lesser",
+      "chinese": "更小、次一等",
+      "core_image": "两堆东西并排，右边那堆矮一截",
+      "root_ids": [
+        "minus"
+      ],
+      "word_ids": [
+        "administer",
+        "diminish",
+        "minister",
+        "minor",
+        "minority"
+      ]
     }
   ]
 }

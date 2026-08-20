@@ -3605,6 +3605,237 @@
       "text": "The dish had a creamy texture.",
       "source": "AI 生成 · 人工审核",
       "scene": "手指从粗麻布上划过，能摸出一道道棱"
+    },
+    {
+      "id": "ex-current-1",
+      "word_id": "current",
+      "text": "The current issue is on sale now.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河面漂着的叶子被水推着走，此刻在流的就是这一股"
+    },
+    {
+      "id": "ex-current-2",
+      "word_id": "current",
+      "text": "A strong current pulled the boat sideways.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河面漂着的叶子被水推着走，此刻在流的就是这一股"
+    },
+    {
+      "id": "ex-current-3",
+      "word_id": "current",
+      "text": "Switch off the current before repairing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河面漂着的叶子被水推着走，此刻在流的就是这一股"
+    },
+    {
+      "id": "ex-currency-1",
+      "word_id": "currency",
+      "text": "The local currency lost value fast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一张纸币今天在菜market，明天在药店，一直在换手"
+    },
+    {
+      "id": "ex-currency-2",
+      "word_id": "currency",
+      "text": "The term gained currency in the 1990s.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一张纸币今天在菜market，明天在药店，一直在换手"
+    },
+    {
+      "id": "ex-occur-1",
+      "word_id": "occur",
+      "text": "The accident occurred at midnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转过街角，一件事正好撞上来"
+    },
+    {
+      "id": "ex-occur-2",
+      "word_id": "occur",
+      "text": "It never occurred to me to ask.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转过街角，一件事正好撞上来"
+    },
+    {
+      "id": "ex-recur-1",
+      "word_id": "recur",
+      "text": "The problem recurs every winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一个梦隔几天又回来一次，情节没变"
+    },
+    {
+      "id": "ex-recur-2",
+      "word_id": "recur",
+      "text": "The pain recurred after a month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一个梦隔几天又回来一次，情节没变"
+    },
+    {
+      "id": "ex-incur-1",
+      "word_id": "incur",
+      "text": "The firm incurred heavy losses.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "明知有罚款还是超时停车，罚单就归自己了"
+    },
+    {
+      "id": "ex-incur-2",
+      "word_id": "incur",
+      "text": "You may incur a penalty for late filing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "明知有罚款还是超时停车，罚单就归自己了"
+    },
+    {
+      "id": "ex-excursion-1",
+      "word_id": "excursion",
+      "text": "We took a day excursion to the coast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大巴早上开出城，天黑前又停回原来那个站台"
+    },
+    {
+      "id": "ex-excursion-2",
+      "word_id": "excursion",
+      "text": "Allow me a brief excursion into history.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大巴早上开出城，天黑前又停回原来那个站台"
+    },
+    {
+      "id": "ex-prove-1",
+      "word_id": "prove",
+      "text": "The theory was later proved correct.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把梁架上重物，压了一天没弯，这才敢用"
+    },
+    {
+      "id": "ex-prove-2",
+      "word_id": "prove",
+      "text": "The plan proved too costly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把梁架上重物，压了一天没弯，这才敢用"
+    },
+    {
+      "id": "ex-approve-1",
+      "word_id": "approve",
+      "text": "The board approved the budget.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文件上盖下那一枚章，往下就能办了"
+    },
+    {
+      "id": "ex-approve-2",
+      "word_id": "approve",
+      "text": "Her parents did not approve of the match.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文件上盖下那一枚章，往下就能办了"
+    },
+    {
+      "id": "ex-approval-1",
+      "word_id": "approval",
+      "text": "The plan needs council approval.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "回执上写着已通过，日期和签名都在"
+    },
+    {
+      "id": "ex-approval-2",
+      "word_id": "approval",
+      "text": "He looked at her with approval.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "回执上写着已通过，日期和签名都在"
+    },
+    {
+      "id": "ex-improve-1",
+      "word_id": "improve",
+      "text": "We must improve response times.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路第二年铺了新面，走上去比去年稳"
+    },
+    {
+      "id": "ex-improve-2",
+      "word_id": "improve",
+      "text": "Her health improved steadily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路第二年铺了新面，走上去比去年稳"
+    },
+    {
+      "id": "ex-improvement-1",
+      "word_id": "improvement",
+      "text": "There has been a marked improvement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张对比照并排贴着，后一张明显整齐些"
+    },
+    {
+      "id": "ex-improvement-2",
+      "word_id": "improvement",
+      "text": "The new model offers several improvements.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张对比照并排贴着，后一张明显整齐些"
+    },
+    {
+      "id": "ex-minor-1",
+      "word_id": "minor",
+      "text": "It was only a minor injury.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两处伤并排看，这一处不用缝针"
+    },
+    {
+      "id": "ex-minor-2",
+      "word_id": "minor",
+      "text": "The film is not suitable for minors.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两处伤并排看，这一处不用缝针"
+    },
+    {
+      "id": "ex-minority-1",
+      "word_id": "minority",
+      "text": "Only a minority opposed the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举手表决时，这边举起来的手明显比那边少"
+    },
+    {
+      "id": "ex-minority-2",
+      "word_id": "minority",
+      "text": "The law protects ethnic minorities.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举手表决时，这边举起来的手明显比那边少"
+    },
+    {
+      "id": "ex-diminish-1",
+      "word_id": "diminish",
+      "text": "Supplies diminished over the winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "余额一笔笔往下走，数字越来越短"
+    },
+    {
+      "id": "ex-diminish-2",
+      "word_id": "diminish",
+      "text": "Do not diminish her contribution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "余额一笔笔往下走，数字越来越短"
+    },
+    {
+      "id": "ex-minister-1",
+      "word_id": "minister",
+      "text": "The finance minister resigned today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "王座之下站着的人，命令由他去落实"
+    },
+    {
+      "id": "ex-minister-2",
+      "word_id": "minister",
+      "text": "The minister led the Sunday service.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "王座之下站着的人，命令由他去落实"
+    },
+    {
+      "id": "ex-administer-1",
+      "word_id": "administer",
+      "text": "A trust administers the fund.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "有人拿着名册逐项核对，每一环都得他签字"
+    },
+    {
+      "id": "ex-administer-2",
+      "word_id": "administer",
+      "text": "Nurses administered the vaccine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "有人拿着名册逐项核对，每一环都得他签字"
     }
   ]
 }
