@@ -194,10 +194,43 @@
     return new Set(nodes.filter((n) => n.vizVisible).map((n) => n.id));
   }
 
+  // 收起某个语义域：隐藏其下词根、概念，以及词根下已展开的单词
+  function collapseDomain(dm) {
+    dm.expanded = false;
+    const rootIds = new Set(dm.roots || []);
+    nodes.forEach((n) => {
+      if (n.type === "root" && rootIds.has(n.id)) {
+        n.vizVisible = false;
+        n.expanded = false;
+        nodes.forEach((m) => {
+          if (m.type === "word" && m.roots && m.roots.includes(n.id)) {
+            m.vizVisible = false;
+          }
+        });
+      }
+      if (n.type === "concept" && !n.isCluster && n.roots
+          && n.roots.some((r) => rootIds.has(r))) {
+        n.vizVisible = false;
+      }
+    });
+  }
+
   // 展开/收起语义域：显示其下词根与对应概念。
   // 收起时连带收掉该域下已展开的词族，避免留下悬空的单词节点。
   function toggleDomain(d) {
     d.expanded = !d.expanded;
+
+    // 手机端一次只展开一个语义域。词根数长到 60+ 后，全部域展开会让
+    // 390px 画布同时出现 130 多个节点（实测已到重叠临界），而手机上
+    // 本来也是一域一域地看。与词根层"一次一族"的处理保持一致。
+    if (d.expanded && isMobile()) {
+      nodes.forEach((n) => {
+        if (n.type === "domain" && n.id !== d.id && n.expanded) {
+          collapseDomain(n);
+        }
+      });
+    }
+
     const rootIds = new Set(d.roots || []);
     const revealed = [];
 
