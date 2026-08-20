@@ -343,7 +343,11 @@
         "except",
         "receipt",
         "susceptible",
-        "accept"
+        "accept",
+        "deficiency",
+        "efficiency",
+        "proficiency",
+        "infectious"
       ]
     },
     {
@@ -383,7 +387,12 @@
         "proceed",
         "process",
         "success",
-        "successor"
+        "successor",
+        "proceeding",
+        "procession",
+        "succession",
+        "successive",
+        "successful"
       ]
     },
     {
@@ -623,7 +632,11 @@
         "conversation",
         "convert",
         "divert",
-        "invert"
+        "invert",
+        "adverse",
+        "diverse",
+        "inverse",
+        "reverse"
       ]
     },
     {
@@ -1490,6 +1503,70 @@
         "interface",
         "preface",
         "surface"
+      ]
+    },
+    {
+      "id": "concept-ferre-carry",
+      "concept": "to carry, to bear",
+      "chinese": "带、承受",
+      "core_image": "两手托着东西从这边走到那边",
+      "root_ids": [
+        "ferre"
+      ],
+      "word_ids": [
+        "differ",
+        "difference",
+        "different",
+        "indifferent",
+        "prefer",
+        "preference",
+        "suffer",
+        "transfer"
+      ]
+    },
+    {
+      "id": "concept-placere-spot",
+      "concept": "a spot where something sits",
+      "chinese": "位置",
+      "core_image": "把箱子搁在地上那块空处，它从此就在那儿",
+      "root_ids": [
+        "placere"
+      ],
+      "word_ids": [
+        "displace",
+        "place",
+        "replace",
+        "replacement"
+      ]
+    },
+    {
+      "id": "concept-intelligere-discern",
+      "concept": "to pick out distinctions",
+      "chinese": "分辨、领会",
+      "core_image": "从一堆相似的种子里挑出不同的那几粒",
+      "root_ids": [
+        "legere-intel"
+      ],
+      "word_ids": [
+        "intellectual",
+        "intelligence",
+        "intelligent",
+        "intelligible"
+      ]
+    },
+    {
+      "id": "concept-invenire-find",
+      "concept": "to come upon",
+      "chinese": "碰上、找到",
+      "core_image": "翻抽屉时手碰到一样东西，掏出来是从没见过的",
+      "root_ids": [
+        "venire-invent"
+      ],
+      "word_ids": [
+        "invent",
+        "invention",
+        "inventory",
+        "invite"
       ]
     }
   ]

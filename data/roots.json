@@ -368,7 +368,11 @@
         "except",
         "receipt",
         "susceptible",
-        "accept"
+        "accept",
+        "deficiency",
+        "efficiency",
+        "proficiency",
+        "infectious"
       ]
     },
     {
@@ -417,7 +421,12 @@
         "proceed",
         "process",
         "success",
-        "successor"
+        "successor",
+        "proceeding",
+        "procession",
+        "succession",
+        "successive",
+        "successful"
       ]
     },
     {
@@ -702,7 +711,11 @@
         "conversation",
         "convert",
         "divert",
-        "invert"
+        "invert",
+        "adverse",
+        "diverse",
+        "inverse",
+        "reverse"
       ]
     },
     {
@@ -1749,6 +1762,83 @@
         "interface",
         "preface",
         "surface"
+      ]
+    },
+    {
+      "id": "ferre",
+      "root": "ferre",
+      "variants": [
+        "fer",
+        "dif",
+        "lat"
+      ],
+      "origin": "拉丁语 ferre（带、拿去）",
+      "core_concept": "to carry, to bear / 拿着走、承受",
+      "core_image": "两手托着东西从这边走到那边",
+      "english_definition": "to carry, to bring, to bear",
+      "word_ids": [
+        "differ",
+        "difference",
+        "different",
+        "indifferent",
+        "prefer",
+        "preference",
+        "suffer",
+        "transfer"
+      ]
+    },
+    {
+      "id": "placere",
+      "root": "placere",
+      "variants": [
+        "plac",
+        "place"
+      ],
+      "origin": "拉丁语 platea（宽街）/ placere（放置、安置）",
+      "core_concept": "a spot where something sits / 东西落定的那个位置",
+      "core_image": "把箱子搁在地上那块空处，它从此就在那儿",
+      "english_definition": "a place, to set down",
+      "word_ids": [
+        "displace",
+        "place",
+        "replace",
+        "replacement"
+      ]
+    },
+    {
+      "id": "legere-intel",
+      "root": "intelligere",
+      "variants": [
+        "tellig",
+        "tellect"
+      ],
+      "origin": "拉丁语 intelligere：inter-（之间）+ legere（挑选）——'在众多之间挑出分别'",
+      "core_concept": "to pick out distinctions / 在混杂中分辨出门道",
+      "core_image": "从一堆相似的种子里挑出不同的那几粒",
+      "english_definition": "to understand, to discern",
+      "word_ids": [
+        "intellectual",
+        "intelligence",
+        "intelligent",
+        "intelligible"
+      ]
+    },
+    {
+      "id": "venire-invent",
+      "root": "invenire",
+      "variants": [
+        "vent",
+        "vene"
+      ],
+      "origin": "拉丁语 invenire：in-（进入）+ venire（来）——'碰上、找到'",
+      "core_concept": "to come upon / 碰上并把它拿出来",
+      "core_image": "翻抽屉时手碰到一样东西，掏出来一看是从没见过的",
+      "english_definition": "to find, to come upon",
+      "word_ids": [
+        "invent",
+        "invention",
+        "inventory",
+        "invite"
       ]
     }
   ]

@@ -1,0 +1,919 @@
+{
+  "roots": [
+    {
+      "id": "ferre",
+      "root": "ferre",
+      "variants": ["fer", "dif", "lat"],
+      "origin": "拉丁语 ferre（带、拿去）",
+      "core_concept": "to carry, to bear / 拿着走、承受",
+      "core_image": "两手托着东西从这边走到那边",
+      "english_definition": "to carry, to bring, to bear",
+      "word_ids": []
+    },
+    {
+      "id": "placere",
+      "root": "placere",
+      "variants": ["plac", "place"],
+      "origin": "拉丁语 platea（宽街）/ placere（放置、安置）",
+      "core_concept": "a spot where something sits / 东西落定的那个位置",
+      "core_image": "把箱子搁在地上那块空处，它从此就在那儿",
+      "english_definition": "a place, to set down",
+      "word_ids": []
+    },
+    {
+      "id": "legere-intel",
+      "root": "intelligere",
+      "variants": ["tellig", "tellect"],
+      "origin": "拉丁语 intelligere：inter-（之间）+ legere（挑选）——'在众多之间挑出分别'",
+      "core_concept": "to pick out distinctions / 在混杂中分辨出门道",
+      "core_image": "从一堆相似的种子里挑出不同的那几粒",
+      "english_definition": "to understand, to discern",
+      "word_ids": []
+    },
+    {
+      "id": "venire-invent",
+      "root": "invenire",
+      "variants": ["vent", "vene"],
+      "origin": "拉丁语 invenire：in-（进入）+ venire（来）——'碰上、找到'",
+      "core_concept": "to come upon / 碰上并把它拿出来",
+      "core_image": "翻抽屉时手碰到一样东西，掏出来一看是从没见过的",
+      "english_definition": "to find, to come upon",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-ferre-carry",
+      "concept": "to carry, to bear",
+      "chinese": "带、承受",
+      "core_image": "两手托着东西从这边走到那边",
+      "root_ids": ["ferre"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-placere-spot",
+      "concept": "a spot where something sits",
+      "chinese": "位置",
+      "core_image": "把箱子搁在地上那块空处，它从此就在那儿",
+      "root_ids": ["placere"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-intelligere-discern",
+      "concept": "to pick out distinctions",
+      "chinese": "分辨、领会",
+      "core_image": "从一堆相似的种子里挑出不同的那几粒",
+      "root_ids": ["legere-intel"],
+      "word_ids": []
+    },
+    {
+      "id": "concept-invenire-find",
+      "concept": "to come upon",
+      "chinese": "碰上、找到",
+      "core_image": "翻抽屉时手碰到一样东西，掏出来是从没见过的",
+      "root_ids": ["venire-invent"],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-transfer": ["ferre"],
+    "domain-shape": ["placere"],
+    "domain-perceive": ["legere-intel"],
+    "domain-make": ["venire-invent"]
+  },
+  "words": [
+    {
+      "id": "differ",
+      "word": "differ",
+      "pos": "verb",
+      "phonetic": "/ˈdɪfər/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "dif-（分开）+ fer（带）→ 各自带向不同方向 → 不同",
+      "origin": "拉丁语 differre：dis-（分开）+ ferre（带）",
+      "native_definition": "to be unlike something else, or to disagree",
+      "core_concept": "being carried apart from each other – 各自被带往不同方向",
+      "core_image": "两条路从同一个岔口分开，越走越远",
+      "chinese": ["不同", "相异", "有分歧"],
+      "examples": [
+        "The two versions differ slightly.",
+        "Experts differ on this point."
+      ],
+      "synonyms": ["vary", "disagree"],
+      "antonyms": ["match"],
+      "related": ["difference", "different", "indifferent", "transfer"],
+      "semantic_expansions": [
+        "不同/相异：各自朝不同方向去",
+        "有分歧（人）：意见各自朝不同方向去。同一个'分向而行'，一个说事物一个说看法"
+      ]
+    },
+    {
+      "id": "difference",
+      "word": "difference",
+      "pos": "noun",
+      "phonetic": "/ˈdɪfrəns/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "differ（分向而行）+ -ence（名词）→ 分开之后隔出的那一段 → 差别",
+      "origin": "拉丁语 differentia：dis-（分开）+ ferre（带）",
+      "native_definition": "the way in which two things are not the same, or the amount by which they vary",
+      "core_concept": "the gap left by being carried apart – 分向而行之后隔出的那一段",
+      "core_image": "两条线从同一点岔开，末端之间那段空白",
+      "chinese": ["差别", "差异", "差额"],
+      "examples": [
+        "There is a big difference in price.",
+        "Can you tell the difference?"
+      ],
+      "synonyms": ["distinction", "gap"],
+      "antonyms": ["similarity"],
+      "related": ["differ", "different", "indifferent"],
+      "semantic_expansions": [
+        "差别/差异：分开之后隔出的那一段",
+        "差额：两数之间隔出的那个量。同一个'隔出的距离'，量的是性质还是数目"
+      ]
+    },
+    {
+      "id": "different",
+      "word": "different",
+      "pos": "adjective",
+      "phonetic": "/ˈdɪfrənt/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "differ（分向而行）+ -ent（…的）→ 走的不是同一条路的 → 不同的",
+      "origin": "拉丁语 differens：dis-（分开）+ ferre（带）",
+      "native_definition": "not the same as another",
+      "core_concept": "not carried along the same line – 与另一个不在同一条路上",
+      "core_image": "两只鞋摆在一起，一眼看出不是一双",
+      "chinese": ["不同的", "各种各样的"],
+      "examples": [
+        "We have very different tastes.",
+        "She tried three different methods."
+      ],
+      "synonyms": ["unlike", "various"],
+      "antonyms": ["same", "identical"],
+      "related": ["differ", "difference", "indifferent"],
+      "semantic_expansions": [
+        "不同的：不在同一条路上",
+        "各种各样的（three different）：彼此都不相同的那几个。同一个'不相同'，一个作对比一个作列举"
+      ]
+    },
+    {
+      "id": "indifferent",
+      "word": "indifferent",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈdɪfrənt/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "in-（否定）+ different（有分别的）→ 觉得没什么分别的 → 漠不关心的",
+      "recall_hint": "in-（否定）+ different（有分别）→ 在他看来两边没什么分别，因而无所谓、不上心",
+      "origin": "拉丁语 indifferens：in-（不）+ differre（有分别）",
+      "native_definition": "having no interest or concern, or of mediocre quality",
+      "core_concept": "seeing no difference worth caring about – 看不出有什么分别值得在意",
+      "core_image": "问他选哪个，他连头都没抬：都行",
+      "chinese": ["漠不关心的", "无所谓的", "平庸的"],
+      "examples": [
+        "He was indifferent to the outcome.",
+        "The food was indifferent at best."
+      ],
+      "synonyms": ["unconcerned", "mediocre"],
+      "antonyms": ["concerned"],
+      "related": ["differ", "difference", "different"],
+      "semantic_expansions": [
+        "漠不关心的/无所谓的：看不出分别，因而不上心",
+        "平庸的：不比别的好也不比别的差。同一个'没有分别'，一个说态度一个说水平"
+      ]
+    },
+    {
+      "id": "transfer",
+      "word": "transfer",
+      "pos": "verb",
+      "phonetic": "/trænsˈfɜːr/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "trans-（穿过）+ fer（带）→ 把东西带到另一边 → 转移",
+      "origin": "拉丁语 transferre：trans-（穿过）+ ferre（带）",
+      "native_definition": "to move something or someone from one place or owner to another",
+      "core_concept": "carrying something across to another place – 把东西带过去到另一处",
+      "core_image": "钱从一个账户划到另一个，中间那一下什么都不在",
+      "chinese": ["转移", "转让", "转乘"],
+      "examples": [
+        "She transferred the funds yesterday.",
+        "Transfer to line 2 at the next stop."
+      ],
+      "synonyms": ["move", "shift"],
+      "antonyms": [],
+      "related": ["differ", "difference", "prefer", "suffer"],
+      "semantic_expansions": [
+        "转移/转让：把东西带到另一处或另一人手里",
+        "转乘：把自己带到另一条线上。同一个'带过去'，带的是物还是人"
+      ]
+    },
+    {
+      "id": "prefer",
+      "word": "prefer",
+      "pos": "verb",
+      "phonetic": "/prɪˈfɜːr/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "pre-（在前）+ fer（带）→ 把它拿到前面来 → 更喜欢",
+      "origin": "拉丁语 praeferre：prae-（在前）+ ferre（带）——'置于前'",
+      "native_definition": "to like one thing better than another",
+      "core_concept": "carrying one out in front of the rest – 把其中一个拿到前面来",
+      "core_image": "几件里挑出一件先摆到前面，其余推到后面",
+      "chinese": ["更喜欢", "宁愿"],
+      "examples": [
+        "I prefer tea to coffee.",
+        "She prefers to walk."
+      ],
+      "synonyms": ["favour", "choose"],
+      "antonyms": [],
+      "related": ["preference", "transfer", "differ", "suffer"],
+      "semantic_expansions": [
+        "更喜欢与宁愿：都是'把它拿到前面来'，一个说偏好一个说取舍"
+      ]
+    },
+    {
+      "id": "preference",
+      "word": "preference",
+      "pos": "noun",
+      "phonetic": "/ˈprefrəns/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "prefer（拿到前面）+ -ence（名词）→ 被拿到前面的那个取向 → 偏好",
+      "origin": "拉丁语 praeferre（置于前）+ -ence",
+      "native_definition": "a greater liking for one thing over another, or the thing preferred",
+      "core_concept": "which one is carried out in front – 被拿到前面的那一个",
+      "core_image": "名单按意愿排序，第一行就是最想要的那个",
+      "chinese": ["偏好", "优先", "偏爱之物"],
+      "examples": [
+        "State your preference on the form.",
+        "Members are given preference."
+      ],
+      "synonyms": ["choice", "priority"],
+      "antonyms": [],
+      "related": ["prefer", "transfer", "difference"],
+      "semantic_expansions": [
+        "偏好/偏爱之物：被拿到前面的那个取向或对象",
+        "优先（给予优先）：让某人排在前面。同一个'置于前'，一个是心里的顺序一个是待遇上的顺序"
+      ]
+    },
+    {
+      "id": "suffer",
+      "word": "suffer",
+      "pos": "verb",
+      "phonetic": "/ˈsʌfər/",
+      "decomposable": "root",
+      "root_ids": ["ferre"],
+      "root_logic": "suf-（sub- 的变体，在下）+ fer（承受）→ 在底下扛着 → 遭受",
+      "origin": "拉丁语 sufferre：sub-（在下）+ ferre（承受）",
+      "native_definition": "to experience something bad, or to feel pain",
+      "core_concept": "bearing a weight from underneath – 在底下扛着那份重量",
+      "core_image": "担子压在肩上，路还得走完",
+      "chinese": ["遭受", "受苦", "变差"],
+      "examples": [
+        "She suffers from migraines.",
+        "The economy suffered badly."
+      ],
+      "synonyms": ["endure", "undergo"],
+      "antonyms": [],
+      "related": ["transfer", "prefer", "differ"],
+      "semantic_expansions": [
+        "遭受/受苦：在底下扛着那份重量",
+        "变差（业绩）：因承压而走低。同一个'在下承受'，一个说人一个说事态"
+      ]
+    },
+    {
+      "id": "place",
+      "word": "place",
+      "pos": "noun",
+      "phonetic": "/pleɪs/",
+      "decomposable": "root",
+      "root_ids": ["placere"],
+      "root_logic": "platea（宽街、场地）本身即词根，无词缀 → 东西落定的那块地方；作动词是把它搁到那儿",
+      "recall_hint": "platea（场地）本身即词根 → 东西落定的那块地方；作动词则是把它搁到某处",
+      "origin": "拉丁语 platea（宽街）← 希腊语 plateia（宽阔的路）",
+      "native_definition": "a particular position or area, or to put something in a position",
+      "core_concept": "the spot where something sits – 东西落定的那一块",
+      "core_image": "书架上每本书都有自己那一格，抽走就留个空",
+      "chinese": ["地方", "位置", "放置"],
+      "examples": [
+        "This is a good place to stop.",
+        "Place the vase on the shelf."
+      ],
+      "synonyms": ["spot", "position"],
+      "antonyms": [],
+      "related": ["replace", "replacement", "displace"],
+      "semantic_expansions": [
+        "地方/位置：东西落定的那一块",
+        "放置（动词）：把它搁到那一块上。同一个'落定之处'，一个是名词一个是动作"
+      ]
+    },
+    {
+      "id": "replace",
+      "word": "replace",
+      "pos": "verb",
+      "phonetic": "/rɪˈpleɪs/",
+      "decomposable": "root",
+      "root_ids": ["placere"],
+      "root_logic": "re-（重新）+ place（放置）→ 在同一位置上换另一个放进去 → 取代",
+      "recall_hint": "re-（重新）+ place（放置）→ 在同一位置上换另一个放进去；也指把东西放回原处",
+      "origin": "拉丁语 re-（重新）+ platea（场地）经法语 replacer",
+      "native_definition": "to take the place of something, or to put something back",
+      "core_concept": "putting another into the same spot – 在同一位置上换另一个放进去",
+      "core_image": "旧灯泡拧下来，新的拧进同一个灯口",
+      "chinese": ["取代", "更换", "放回"],
+      "examples": [
+        "Machines replaced much manual work.",
+        "Please replace the book on the shelf."
+      ],
+      "synonyms": ["substitute", "restore"],
+      "antonyms": [],
+      "related": ["place", "replacement", "displace"],
+      "semantic_expansions": [
+        "取代/更换：在原位上换另一个",
+        "放回：把它重新搁回原位。同一个'重新放置'，换掉还是复位"
+      ]
+    },
+    {
+      "id": "replacement",
+      "word": "replacement",
+      "pos": "noun",
+      "phonetic": "/rɪˈpleɪsmənt/",
+      "decomposable": "root",
+      "root_ids": ["placere"],
+      "root_logic": "replace（换上去）+ -ment（结果）→ 换这件事，或换上去的那一个 → 替换、替代者",
+      "recall_hint": "replace（在原位换一个）+ -ment → 换这件事本身；也指被换上去的那个人或物",
+      "origin": "拉丁语 re-（重新）+ platea（场地）+ -ment",
+      "native_definition": "the act of replacing, or the person or thing that replaces another",
+      "core_concept": "the swapping, or what is swapped in – 换这件事，或换上去的那一个",
+      "core_image": "名单上原来那个名字被划掉，下面写着新来的",
+      "chinese": ["替换", "更换", "替代者"],
+      "examples": [
+        "Replacement of the roof took a week.",
+        "They found a replacement for her."
+      ],
+      "synonyms": ["substitute"],
+      "antonyms": [],
+      "related": ["replace", "place", "displace"],
+      "semantic_expansions": [
+        "替换/更换：换这件事本身",
+        "替代者：被换上去的那个人或物。同一个'换上'，一个是行为一个指对象"
+      ]
+    },
+    {
+      "id": "displace",
+      "word": "displace",
+      "pos": "verb",
+      "phonetic": "/dɪsˈpleɪs/",
+      "decomposable": "root",
+      "root_ids": ["placere"],
+      "root_logic": "dis-（离开）+ place（位置）→ 把它从原位挪走 → 移置",
+      "origin": "拉丁语 dis-（离开）+ platea（场地）",
+      "native_definition": "to force something or someone out of its usual place",
+      "core_concept": "forcing something out of its spot – 把它从原本的位置挤走",
+      "core_image": "石头放进满杯的水里，水从杯口溢出去",
+      "chinese": ["移置", "取代", "使离开家园"],
+      "examples": [
+        "The flood displaced thousands.",
+        "Cars displaced horses in the city."
+      ],
+      "synonyms": ["remove", "oust"],
+      "antonyms": [],
+      "related": ["place", "replace", "replacement"],
+      "semantic_expansions": [
+        "移置：把它从原位挤走",
+        "使离开家园：把人从原住地挤走",
+        "取代：占了原来那个的位置。三义共享'从原位被挤开'"
+      ]
+    },
+    {
+      "id": "intelligent",
+      "word": "intelligent",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈtelɪdʒənt/",
+      "decomposable": "root",
+      "root_ids": ["legere-intel"],
+      "root_logic": "inter-（之间）+ leg（挑选）+ -ent → 能在混杂之间挑出分别的 → 聪明的",
+      "origin": "拉丁语 intelligens：inter-（之间）+ legere（挑选）",
+      "native_definition": "able to learn and understand things quickly",
+      "core_concept": "able to pick out distinctions others miss – 能在混杂中挑出别人看不出的分别",
+      "core_image": "一堆相似的种子里，他一眼指出哪几粒不一样",
+      "chinese": ["聪明的", "智能的"],
+      "examples": [
+        "She asked an intelligent question.",
+        "The car has an intelligent braking system."
+      ],
+      "synonyms": ["clever", "bright"],
+      "antonyms": ["stupid"],
+      "related": ["intelligence", "intellectual", "intelligible"],
+      "semantic_expansions": [
+        "聪明的：能挑出别人看不出的分别",
+        "智能的（设备）：能自行分辨情形并作出反应。同一个'分辨得出'，一个说人一个说机器"
+      ]
+    },
+    {
+      "id": "intelligence",
+      "word": "intelligence",
+      "pos": "noun",
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "decomposable": "root",
+      "root_ids": ["legere-intel"],
+      "root_logic": "intelligent（分辨得出的）+ -ence（名词）→ 分辨的能力；引申为分辨出来的军政消息 → 情报",
+      "recall_hint": "intelligent（分辨得出）+ -ence → 分辨的那份能力；引申为经分辨筛出的军政消息",
+      "origin": "拉丁语 intelligentia：inter-（之间）+ legere（挑选）",
+      "native_definition": "the ability to learn and understand, or secret information about an enemy",
+      "core_concept": "the power of picking out distinctions – 分辨出门道的那份能力",
+      "core_image": "同一堆材料，有人只看见纸，有人看出里面的门道",
+      "chinese": ["智力", "智慧", "情报"],
+      "examples": [
+        "The test measures verbal intelligence.",
+        "Military intelligence warned of the attack."
+      ],
+      "synonyms": ["intellect", "information"],
+      "antonyms": [],
+      "related": ["intelligent", "intellectual", "intelligible"],
+      "semantic_expansions": [
+        "智力/智慧：分辨出门道的能力",
+        "情报：经分辨筛出的关键消息。同一个'从混杂中辨出'，一个是能力一个是所得"
+      ]
+    },
+    {
+      "id": "intellectual",
+      "word": "intellectual",
+      "pos": "adjective",
+      "phonetic": "/ˌɪntəˈlektʃuəl/",
+      "decomposable": "root",
+      "root_ids": ["legere-intel"],
+      "root_logic": "intellect（分辨力）+ -ual（…的）→ 与分辨思考相关的 → 智力的、知识分子",
+      "recall_hint": "intellect（分辨力）+ -ual → 与动脑分辨相关的；作名词则指以此为业的那类人",
+      "origin": "拉丁语 intellectualis：intelligere（分辨、领会）",
+      "native_definition": "relating to thinking and reasoning, or a person who works with ideas",
+      "core_concept": "having to do with the work of discerning – 与动脑分辨这件事相关",
+      "core_image": "桌上摊着书和笔记，工作靠的是想不是手",
+      "chinese": ["智力的", "脑力的", "知识分子"],
+      "examples": [
+        "The book poses an intellectual challenge.",
+        "She moved in intellectual circles."
+      ],
+      "synonyms": ["mental", "scholar"],
+      "antonyms": [],
+      "related": ["intelligent", "intelligence", "intelligible"],
+      "semantic_expansions": [
+        "智力的/脑力的：与动脑分辨相关",
+        "知识分子（名词）：以动脑分辨为业的人。同一个'分辨之事'，一个说属性一个指人"
+      ]
+    },
+    {
+      "id": "intelligible",
+      "word": "intelligible",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈtelɪdʒəbl/",
+      "decomposable": "root",
+      "root_ids": ["legere-intel"],
+      "root_logic": "intellig（分辨、领会）+ -ible（可…的）→ 分辨得出意思的 → 可理解的",
+      "origin": "拉丁语 intelligibilis：intelligere（领会）",
+      "native_definition": "able to be understood",
+      "core_concept": "such that the sense can be picked out – 意思分辨得出来",
+      "core_image": "对方口音很重，但每个字还是听得出来",
+      "chinese": ["可理解的", "清楚易懂的"],
+      "examples": [
+        "His explanation was barely intelligible.",
+        "Make the diagram intelligible to beginners."
+      ],
+      "synonyms": ["clear", "comprehensible"],
+      "antonyms": ["unintelligible"],
+      "related": ["intelligent", "intelligence", "intellectual"],
+      "semantic_expansions": [
+        "可理解的与清楚易懂的：都是'意思分辨得出来'，一个说可能一个说程度"
+      ]
+    },
+    {
+      "id": "invent",
+      "word": "invent",
+      "pos": "verb",
+      "phonetic": "/ɪnˈvent/",
+      "decomposable": "root",
+      "root_ids": ["venire-invent"],
+      "root_logic": "in-（进入）+ vent（来、碰上）→ 碰上一个从来没有的东西并把它做出来 → 发明",
+      "recall_hint": "in-（进入）+ vent（来、碰上）→ 碰上从来没有的那个东西并把它做出来；也指编造出并不存在的说法",
+      "origin": "拉丁语 invenire：in-（进入）+ venire（来）——'碰上、找到'",
+      "native_definition": "to create something that did not exist before, or to make up a false story",
+      "core_concept": "coming upon something new and bringing it into being – 碰上从未有的东西并把它带出来",
+      "core_image": "试了几十次之后，那个从没存在过的装置转起来了",
+      "chinese": ["发明", "创造", "编造"],
+      "examples": [
+        "He invented a new kind of valve.",
+        "She invented an excuse on the spot."
+      ],
+      "synonyms": ["create", "devise"],
+      "antonyms": [],
+      "related": ["invention", "inventory", "invite"],
+      "semantic_expansions": [
+        "发明/创造：碰上并做出从未有过的东西",
+        "编造：造出并不存在的说法。同一个'使原本没有的出现'，一个是实物一个是虚言"
+      ]
+    },
+    {
+      "id": "invention",
+      "word": "invention",
+      "pos": "noun",
+      "phonetic": "/ɪnˈvenʃn/",
+      "decomposable": "root",
+      "root_ids": ["venire-invent"],
+      "root_logic": "invent（做出新东西）+ -ion（名词）→ 发明这件事，或做出来的那件东西 → 发明物",
+      "origin": "拉丁语 inventio：invenire（找到、发明）",
+      "native_definition": "something newly created, or the act of creating it",
+      "core_concept": "what has been brought newly into being – 被带到世上来的那个新东西",
+      "core_image": "专利证书旁摆着那台机器，世上原本没有它",
+      "chinese": ["发明", "发明物", "虚构"],
+      "examples": [
+        "The invention changed farming.",
+        "The whole story was pure invention."
+      ],
+      "synonyms": ["creation", "device"],
+      "antonyms": [],
+      "related": ["invent", "inventory", "invite"],
+      "semantic_expansions": [
+        "发明/发明物：被带到世上的那个新东西",
+        "虚构：被造出来的那个不存在之事。同一个'使之出现'，真物还是空言"
+      ]
+    },
+    {
+      "id": "inventory",
+      "word": "inventory",
+      "pos": "noun",
+      "phonetic": "/ˈɪnvəntɔːri/",
+      "decomposable": "root",
+      "root_ids": ["venire-invent"],
+      "root_logic": "invent（碰上、找到）+ -ory（表所列之物）→ 把找得到的东西逐项列出来 → 清单",
+      "recall_hint": "invent（碰上、找到）+ -ory → 把能找到的东西逐项列出来的那份单子；也指所列的那批存货",
+      "origin": "拉丁语 inventarium：invenire（找到）——'所寻见之物的清单'",
+      "native_definition": "a complete list of goods, or the stock a business holds",
+      "core_concept": "a list of everything found on hand – 把手上找得到的逐项列出",
+      "core_image": "仓库里逐架清点，每一项数目都记在纸上",
+      "chinese": ["清单", "存货", "盘存"],
+      "examples": [
+        "They took an inventory of the warehouse.",
+        "Inventory levels fell in June."
+      ],
+      "synonyms": ["list", "stock"],
+      "antonyms": [],
+      "related": ["invent", "invention", "invite"],
+      "semantic_expansions": [
+        "清单/盘存：把找得到的逐项列出",
+        "存货：所列的那批东西本身。同一个'清点所有'，一个是单子一个是货"
+      ]
+    },
+    {
+      "id": "invite",
+      "word": "invite",
+      "pos": "verb",
+      "phonetic": "/ɪnˈvaɪt/",
+      "decomposable": "root",
+      "root_ids": ["venire-invent"],
+      "root_logic": "in-（进入）+ vit（此处取 invitare'请来'义）→ 请人进来 → 邀请",
+      "recall_hint": "in-（进入）+ vit（请来）→ 请对方进来；引申为某种做法把麻烦也一并请了进来",
+      "origin": "拉丁语 invitare：in-（进入）+ -vitare（请）",
+      "native_definition": "to ask someone to come or to take part, or to bring something on oneself",
+      "core_concept": "asking someone in – 请对方进到这边来",
+      "core_image": "门推开一半，主人抬手让客人先进",
+      "chinese": ["邀请", "招致"],
+      "examples": [
+        "They invited us to dinner.",
+        "Such carelessness invites trouble."
+      ],
+      "synonyms": ["ask", "welcome"],
+      "antonyms": [],
+      "related": ["invent", "invention", "inventory"],
+      "semantic_expansions": [
+        "邀请：请人进来",
+        "招致（麻烦）：等于把麻烦也请了进来。同一个'请进'，请的是客还是祸"
+      ]
+    },
+    {
+      "id": "adverse",
+      "word": "adverse",
+      "pos": "adjective",
+      "phonetic": "/ædˈvɜːrs/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "ad-（朝向）+ vers（转）→ 转过来正对着你的 → 不利的",
+      "origin": "拉丁语 adversus：ad-（朝向）+ vertere（转）——'迎面而来的'",
+      "native_definition": "unfavourable or harmful",
+      "core_concept": "turned to face against you – 转过来正对着你、挡着你",
+      "core_image": "顶风骑车，风正对着脸吹",
+      "chinese": ["不利的", "有害的", "逆向的"],
+      "examples": [
+        "Adverse weather delayed the flight.",
+        "The drug has few adverse effects."
+      ],
+      "synonyms": ["unfavourable", "harmful"],
+      "antonyms": ["favourable"],
+      "related": ["diverse", "inverse", "reverse", "convert"],
+      "semantic_expansions": [
+        "不利的/逆向的：转过来正对着你挡路",
+        "有害的（副作用）：作用转向了不该去的方向。同一个'迎面相对'，一个是阻力一个是伤害"
+      ]
+    },
+    {
+      "id": "diverse",
+      "word": "diverse",
+      "pos": "adjective",
+      "phonetic": "/daɪˈvɜːrs/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "di-（分开）+ vers（转）→ 各自转向不同方向的 → 多样的",
+      "origin": "拉丁语 diversus：dis-（分开）+ vertere（转）",
+      "native_definition": "of many different kinds",
+      "core_concept": "turned in many different directions – 各自朝不同方向转开",
+      "core_image": "一把伞骨从中心散开，没有两根指同一处",
+      "chinese": ["多样的", "各不相同的"],
+      "examples": [
+        "The city has a diverse population.",
+        "Her interests are remarkably diverse."
+      ],
+      "synonyms": ["varied", "different"],
+      "antonyms": ["uniform"],
+      "related": ["adverse", "inverse", "reverse", "divert"],
+      "semantic_expansions": [
+        "多样的与各不相同的：都是'各自朝不同方向转开'，中文一个说整体一个说彼此"
+      ]
+    },
+    {
+      "id": "inverse",
+      "word": "inverse",
+      "pos": "adjective",
+      "phonetic": "/ˌɪnˈvɜːrs/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "in-（反）+ vers（转）→ 关系正好倒过来的 → 相反的",
+      "origin": "拉丁语 inversus：in-（反）+ vertere（转）",
+      "native_definition": "opposite in position, order, or relationship",
+      "core_concept": "turned into the opposite arrangement – 次序或关系整个倒过来",
+      "core_image": "一边升高另一边必降低，跷跷板两头永远相反",
+      "chinese": ["相反的", "反比的", "逆的"],
+      "examples": [
+        "Pressure and volume have an inverse relation.",
+        "The inverse is also true."
+      ],
+      "synonyms": ["opposite", "reverse"],
+      "antonyms": [],
+      "related": ["adverse", "diverse", "reverse", "invert"],
+      "semantic_expansions": [
+        "相反的/逆的：关系整个倒过来",
+        "反比的（数学）：一个增另一个必减。同一个'倒转的关系'，一个泛指一个专指比例"
+      ]
+    },
+    {
+      "id": "reverse",
+      "word": "reverse",
+      "pos": "verb",
+      "phonetic": "/rɪˈvɜːrs/",
+      "decomposable": "root",
+      "root_ids": ["vert"],
+      "root_logic": "re-（往回）+ vers（转）→ 转到相反方向 → 倒转",
+      "origin": "拉丁语 reversus：re-（往回）+ vertere（转）",
+      "native_definition": "to change to the opposite direction or decision, or the opposite side",
+      "core_concept": "turning something back the other way – 把它转到相反方向",
+      "core_image": "挂上倒挡，车开始往后走",
+      "chinese": ["倒转", "撤销", "背面"],
+      "examples": [
+        "The court reversed the decision.",
+        "Print on the reverse side."
+      ],
+      "synonyms": ["overturn", "back"],
+      "antonyms": [],
+      "related": ["adverse", "diverse", "inverse", "convert"],
+      "semantic_expansions": [
+        "倒转：转到相反方向",
+        "撤销（判决）：把已定的翻过来",
+        "背面：转过去那一面。三义共享'转到反向'"
+      ]
+    },
+    {
+      "id": "deficiency",
+      "word": "deficiency",
+      "pos": "noun",
+      "phonetic": "/dɪˈfɪʃnsi/",
+      "decomposable": "root",
+      "root_ids": ["fac"],
+      "root_logic": "de-（缺）+ fic（做）+ -iency（名词）→ 该做够而没做够的那一块 → 不足",
+      "origin": "拉丁语 deficientia：de-（缺）+ facere（做）",
+      "native_definition": "a lack or shortage of something needed",
+      "core_concept": "the shortfall where something was not made up – 该补足而没补足的那一块",
+      "core_image": "化验单上那一行低于下限，旁边画了个箭头",
+      "chinese": ["不足", "缺乏", "缺陷"],
+      "examples": [
+        "Iron deficiency causes fatigue.",
+        "The report notes several deficiencies."
+      ],
+      "synonyms": ["shortage", "lack"],
+      "antonyms": ["surplus"],
+      "related": ["defect", "efficiency", "proficiency", "sufficient"],
+      "semantic_expansions": [
+        "不足/缺乏：该够而没够的那一块",
+        "缺陷：该做到而没做到之处。同一个'没做足'，一个说量一个说质"
+      ]
+    },
+    {
+      "id": "efficiency",
+      "word": "efficiency",
+      "pos": "noun",
+      "phonetic": "/ɪˈfɪʃnsi/",
+      "decomposable": "root",
+      "root_ids": ["fac"],
+      "root_logic": "efficient（做出结果又不浪费的）+ -cy（名词）→ 不浪费地做出结果的那个程度 → 效率",
+      "origin": "拉丁语 efficientia：ex-（向外）+ facere（做）",
+      "native_definition": "the ability to do something well without wasting resources",
+      "core_concept": "how much is produced per unit spent – 每份投入换来多少产出",
+      "core_image": "同样一桶油，这台机器跑得更远",
+      "chinese": ["效率", "效能"],
+      "examples": [
+        "The upgrade improved fuel efficiency.",
+        "We must raise efficiency, not hours."
+      ],
+      "synonyms": ["productivity"],
+      "antonyms": ["waste"],
+      "related": ["efficient", "deficiency", "proficiency", "effective"],
+      "semantic_expansions": [
+        "效率与效能：都是'每份投入换来多少产出'，一个偏比值一个偏能力"
+      ]
+    },
+    {
+      "id": "proficiency",
+      "word": "proficiency",
+      "pos": "noun",
+      "phonetic": "/prəˈfɪʃnsi/",
+      "decomposable": "root",
+      "root_ids": ["fac"],
+      "root_logic": "pro-（向前）+ fic（做）+ -iency → 做到能往前走一大截的水平 → 熟练",
+      "recall_hint": "pro-（向前）+ fic（做）+ -iency → 做得已经能往前推进一大截的那个水平",
+      "origin": "拉丁语 proficientia：pro-（向前）+ facere（做）——'有进展的'",
+      "native_definition": "a good standard of ability or skill in something",
+      "core_concept": "having advanced far in the doing – 在做这件事上已经推进得很远",
+      "core_image": "同一段谱子，他不看谱也弹得下来",
+      "chinese": ["熟练", "精通", "水平"],
+      "examples": [
+        "Proficiency in Japanese is required.",
+        "She reached proficiency in six months."
+      ],
+      "synonyms": ["skill", "competence"],
+      "antonyms": [],
+      "related": ["deficiency", "efficiency", "efficient"],
+      "semantic_expansions": [
+        "熟练/精通：在做这件事上推进得很远",
+        "水平（考试等级）：所达到的那个程度。同一个'做到多远'，一个说能力一个说等级"
+      ]
+    },
+    {
+      "id": "infectious",
+      "word": "infectious",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈfekʃəs/",
+      "decomposable": "root",
+      "root_ids": ["fac"],
+      "root_logic": "infect（进到体内动手脚）+ -ious（…的）→ 会传给别人的 → 传染的",
+      "origin": "拉丁语 infectiosus：in-（进入）+ facere（做）",
+      "native_definition": "able to be passed from one person to another, or spreading readily",
+      "core_concept": "able to get inside another and act there – 能进到别人体内起作用",
+      "core_image": "一人咳嗽，同屋的人接着一个个咳起来",
+      "chinese": ["传染性的", "有感染力的"],
+      "examples": [
+        "Measles is highly infectious.",
+        "Her laughter was infectious."
+      ],
+      "synonyms": ["contagious", "catching"],
+      "antonyms": [],
+      "related": ["infect", "affect", "effect", "deficiency"],
+      "semantic_expansions": [
+        "传染性的（疾病）：能进到别人体内起作用",
+        "有感染力的（情绪）：能传进别人心里。同一个'进到他人内里起作用'，传的是病还是情绪"
+      ]
+    },
+    {
+      "id": "proceeding",
+      "word": "proceeding",
+      "pos": "noun",
+      "phonetic": "/prəˈsiːdɪŋ/",
+      "decomposable": "root",
+      "root_ids": ["ced"],
+      "root_logic": "proceed（往前走）+ -ing（名词）→ 一步步往前推的那件事，尤指法律程序 → 诉讼程序",
+      "recall_hint": "proceed（往前走）+ -ing → 一步步往前推的那个过程，尤指按法定步骤走的那一套",
+      "origin": "拉丁语 procedere：pro-（向前）+ cedere（行走）",
+      "native_definition": "an action taken in a legal case, or the record of a meeting",
+      "core_concept": "the going forward step by step – 一步步往前推的那个过程",
+      "core_image": "法庭日程表上一项接一项，按顺序往下走",
+      "chinese": ["诉讼程序", "议程记录", "进程"],
+      "examples": [
+        "Legal proceedings began in March.",
+        "The proceedings were published later."
+      ],
+      "synonyms": ["process", "record"],
+      "antonyms": [],
+      "related": ["proceed", "procession", "process", "succession"],
+      "semantic_expansions": [
+        "诉讼程序/进程：一步步往前推的那个过程",
+        "议程记录：把这个过程记下来的那份东西。同一个'往前推的步骤'，一个是过程一个是记录"
+      ]
+    },
+    {
+      "id": "procession",
+      "word": "procession",
+      "pos": "noun",
+      "phonetic": "/prəˈseʃn/",
+      "decomposable": "root",
+      "root_ids": ["ced"],
+      "root_logic": "pro-（向前）+ cess（行走）+ -ion → 一队人依次向前走 → 队列",
+      "origin": "拉丁语 processio：pro-（向前）+ cedere（行走）",
+      "native_definition": "a line of people or vehicles moving forward in an orderly way",
+      "core_concept": "a body moving forward in order – 一队依次向前走的人",
+      "core_image": "长街上人一列列走过，前后不乱",
+      "chinese": ["队列", "行列", "游行"],
+      "examples": [
+        "A funeral procession blocked the road.",
+        "The procession moved toward the square."
+      ],
+      "synonyms": ["parade", "line"],
+      "antonyms": [],
+      "related": ["proceed", "proceeding", "process", "succession"],
+      "semantic_expansions": [
+        "队列/行列：依次向前走的一队",
+        "游行：这样走过街市的场面。同一个'依次前行'，一个说形态一个说场合"
+      ]
+    },
+    {
+      "id": "succession",
+      "word": "succession",
+      "pos": "noun",
+      "phonetic": "/səkˈseʃn/",
+      "decomposable": "root",
+      "root_ids": ["ced"],
+      "root_logic": "suc-（紧接）+ cess（行走）+ -ion → 一个紧接一个走上来 → 连续、继承",
+      "recall_hint": "suc-（紧接）+ cess（行走）+ -ion → 一个紧接一个走上来：既指接连不断，也指位子一代代传下去",
+      "origin": "拉丁语 successio：sub-（紧接）+ cedere（行走）",
+      "native_definition": "a number of things following one after another, or the passing on of a title",
+      "core_concept": "one following right after another – 一个紧接一个走上来",
+      "core_image": "台阶上的人一个下来一个接着上去，位置从没空过",
+      "chinese": ["连续", "接替", "继承"],
+      "examples": [
+        "She won three titles in succession.",
+        "The rules of succession were disputed."
+      ],
+      "synonyms": ["series", "sequence"],
+      "antonyms": [],
+      "related": ["success", "successor", "successive", "successful"],
+      "semantic_expansions": [
+        "连续：一个紧接一个",
+        "接替/继承：位子一个接一个传下去。同一个'紧接而上'，一个说次序一个说承袭"
+      ]
+    },
+    {
+      "id": "successive",
+      "word": "successive",
+      "pos": "adjective",
+      "phonetic": "/səkˈsesɪv/",
+      "decomposable": "root",
+      "root_ids": ["ced"],
+      "root_logic": "succeed（紧接着走）+ -ive（…的）→ 一个接一个不断的 → 连续的",
+      "origin": "拉丁语 successivus：sub-（紧接）+ cedere（行走）",
+      "native_definition": "following one after another without interruption",
+      "core_concept": "coming one right after another – 一个紧接一个地来",
+      "core_image": "日历上连着五格都画了圈，中间没有空格",
+      "chinese": ["连续的", "接连的"],
+      "examples": [
+        "It rained for four successive days.",
+        "Successive governments avoided the issue."
+      ],
+      "synonyms": ["consecutive"],
+      "antonyms": [],
+      "related": ["succession", "success", "successor", "successful"],
+      "semantic_expansions": [
+        "连续的与接连的：都是'一个紧接一个地来'，与 consecutive 近义，均出 cedere"
+      ]
+    },
+    {
+      "id": "successful",
+      "word": "successful",
+      "pos": "adjective",
+      "phonetic": "/səkˈsesfl/",
+      "decomposable": "root",
+      "root_ids": ["ced"],
+      "root_logic": "success（一步步走到目标）+ -ful（充满…的）→ 走到了目标的 → 成功的",
+      "origin": "拉丁语 successus：sub-（紧接）+ cedere（行走）+ 英语 -ful",
+      "native_definition": "achieving what was aimed at",
+      "core_concept": "having arrived at the goal – 一步步走到了目标",
+      "core_image": "登顶那一刻回头，走过的路全在脚下",
+      "chinese": ["成功的", "有成就的"],
+      "examples": [
+        "The launch was successful.",
+        "She is a successful architect."
+      ],
+      "synonyms": ["triumphant", "prosperous"],
+      "antonyms": ["unsuccessful"],
+      "related": ["success", "succession", "successive", "successor"],
+      "semantic_expansions": [
+        "成功的与有成就的：都是'一步步走到了目标'，一个说结果一个说其人"
+      ]
+    }
+  ]
+}

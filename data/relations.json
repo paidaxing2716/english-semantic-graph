@@ -3228,6 +3228,204 @@
       "to": "introduction",
       "type": "root",
       "note": "introduce（引进来）+ -ion（名词）→ 引进来这件事，或书前引人入门的那一段 → 介绍"
+    },
+    {
+      "from": "ferre",
+      "to": "differ",
+      "type": "root",
+      "note": "dif-（分开）+ fer（带）→ 各自带向不同方向 → 不同"
+    },
+    {
+      "from": "ferre",
+      "to": "difference",
+      "type": "root",
+      "note": "differ（分向而行）+ -ence（名词）→ 分开之后隔出的那一段 → 差别"
+    },
+    {
+      "from": "ferre",
+      "to": "different",
+      "type": "root",
+      "note": "differ（分向而行）+ -ent（…的）→ 走的不是同一条路的 → 不同的"
+    },
+    {
+      "from": "ferre",
+      "to": "indifferent",
+      "type": "root",
+      "note": "in-（否定）+ different（有分别的）→ 觉得没什么分别的 → 漠不关心的"
+    },
+    {
+      "from": "ferre",
+      "to": "transfer",
+      "type": "root",
+      "note": "trans-（穿过）+ fer（带）→ 把东西带到另一边 → 转移"
+    },
+    {
+      "from": "ferre",
+      "to": "prefer",
+      "type": "root",
+      "note": "pre-（在前）+ fer（带）→ 把它拿到前面来 → 更喜欢"
+    },
+    {
+      "from": "ferre",
+      "to": "preference",
+      "type": "root",
+      "note": "prefer（拿到前面）+ -ence（名词）→ 被拿到前面的那个取向 → 偏好"
+    },
+    {
+      "from": "ferre",
+      "to": "suffer",
+      "type": "root",
+      "note": "suf-（sub- 的变体，在下）+ fer（承受）→ 在底下扛着 → 遭受"
+    },
+    {
+      "from": "placere",
+      "to": "place",
+      "type": "root",
+      "note": "platea（宽街、场地）本身即词根，无词缀 → 东西落定的那块地方；作动词是把它搁到那儿"
+    },
+    {
+      "from": "placere",
+      "to": "replace",
+      "type": "root",
+      "note": "re-（重新）+ place（放置）→ 在同一位置上换另一个放进去 → 取代"
+    },
+    {
+      "from": "placere",
+      "to": "replacement",
+      "type": "root",
+      "note": "replace（换上去）+ -ment（结果）→ 换这件事，或换上去的那一个 → 替换、替代者"
+    },
+    {
+      "from": "placere",
+      "to": "displace",
+      "type": "root",
+      "note": "dis-（离开）+ place（位置）→ 把它从原位挪走 → 移置"
+    },
+    {
+      "from": "legere-intel",
+      "to": "intelligent",
+      "type": "root",
+      "note": "inter-（之间）+ leg（挑选）+ -ent → 能在混杂之间挑出分别的 → 聪明的"
+    },
+    {
+      "from": "legere-intel",
+      "to": "intelligence",
+      "type": "root",
+      "note": "intelligent（分辨得出的）+ -ence（名词）→ 分辨的能力；引申为分辨出来的军政消息 → 情报"
+    },
+    {
+      "from": "legere-intel",
+      "to": "intellectual",
+      "type": "root",
+      "note": "intellect（分辨力）+ -ual（…的）→ 与分辨思考相关的 → 智力的、知识分子"
+    },
+    {
+      "from": "legere-intel",
+      "to": "intelligible",
+      "type": "root",
+      "note": "intellig（分辨、领会）+ -ible（可…的）→ 分辨得出意思的 → 可理解的"
+    },
+    {
+      "from": "venire-invent",
+      "to": "invent",
+      "type": "root",
+      "note": "in-（进入）+ vent（来、碰上）→ 碰上一个从来没有的东西并把它做出来 → 发明"
+    },
+    {
+      "from": "venire-invent",
+      "to": "invention",
+      "type": "root",
+      "note": "invent（做出新东西）+ -ion（名词）→ 发明这件事，或做出来的那件东西 → 发明物"
+    },
+    {
+      "from": "venire-invent",
+      "to": "inventory",
+      "type": "root",
+      "note": "invent（碰上、找到）+ -ory（表所列之物）→ 把找得到的东西逐项列出来 → 清单"
+    },
+    {
+      "from": "venire-invent",
+      "to": "invite",
+      "type": "root",
+      "note": "in-（进入）+ vit（此处取 invitare'请来'义）→ 请人进来 → 邀请"
+    },
+    {
+      "from": "vert",
+      "to": "adverse",
+      "type": "root",
+      "note": "ad-（朝向）+ vers（转）→ 转过来正对着你的 → 不利的"
+    },
+    {
+      "from": "vert",
+      "to": "diverse",
+      "type": "root",
+      "note": "di-（分开）+ vers（转）→ 各自转向不同方向的 → 多样的"
+    },
+    {
+      "from": "vert",
+      "to": "inverse",
+      "type": "root",
+      "note": "in-（反）+ vers（转）→ 关系正好倒过来的 → 相反的"
+    },
+    {
+      "from": "vert",
+      "to": "reverse",
+      "type": "root",
+      "note": "re-（往回）+ vers（转）→ 转到相反方向 → 倒转"
+    },
+    {
+      "from": "fac",
+      "to": "deficiency",
+      "type": "root",
+      "note": "de-（缺）+ fic（做）+ -iency（名词）→ 该做够而没做够的那一块 → 不足"
+    },
+    {
+      "from": "fac",
+      "to": "efficiency",
+      "type": "root",
+      "note": "efficient（做出结果又不浪费的）+ -cy（名词）→ 不浪费地做出结果的那个程度 → 效率"
+    },
+    {
+      "from": "fac",
+      "to": "proficiency",
+      "type": "root",
+      "note": "pro-（向前）+ fic（做）+ -iency → 做到能往前走一大截的水平 → 熟练"
+    },
+    {
+      "from": "fac",
+      "to": "infectious",
+      "type": "root",
+      "note": "infect（进到体内动手脚）+ -ious（…的）→ 会传给别人的 → 传染的"
+    },
+    {
+      "from": "ced",
+      "to": "proceeding",
+      "type": "root",
+      "note": "proceed（往前走）+ -ing（名词）→ 一步步往前推的那件事，尤指法律程序 → 诉讼程序"
+    },
+    {
+      "from": "ced",
+      "to": "procession",
+      "type": "root",
+      "note": "pro-（向前）+ cess（行走）+ -ion → 一队人依次向前走 → 队列"
+    },
+    {
+      "from": "ced",
+      "to": "succession",
+      "type": "root",
+      "note": "suc-（紧接）+ cess（行走）+ -ion → 一个紧接一个走上来 → 连续、继承"
+    },
+    {
+      "from": "ced",
+      "to": "successive",
+      "type": "root",
+      "note": "succeed（紧接着走）+ -ive（…的）→ 一个接一个不断的 → 连续的"
+    },
+    {
+      "from": "ced",
+      "to": "successful",
+      "type": "root",
+      "note": "success（一步步走到目标）+ -ful（充满…的）→ 走到了目标的 → 成功的"
     }
   ]
 }

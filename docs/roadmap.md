@@ -14,7 +14,7 @@ v0.2.0  纸张词源地图改版 + 昼夜模式 + 视觉质量门  ✅ 已完成
 v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
-v1.0    考研词表中可结构化的部分（523/869 词，60%）← 当前
+v1.0    考研词表中可结构化的部分（556/869 词，64%）← 当前
 ```
 
 ---
@@ -270,6 +270,11 @@ python ai_pipeline/review.py merge candidates.json
         + legere（拾取/读）+ facies（面），并补齐 tendere / mit / duc 三族
         523 词 · 86 词根。detect 是"揭掉遮盖"，protect 是"在前面盖住"；
         miss 标为 germanic——古英语 missan，与拉丁 mittere 同形异源
+  - [x] 第二十七批（33 词）：ferre（带/承受）+ placere（位置）
+        + intelligere（分辨）+ invenire（碰上）
+        556 词 · 90 词根。differ/transfer/prefer/suffer 全出 ferre，
+        中文"不同/转移/更喜欢/遭受"看不出同源；intelligent 的本义是
+        "在混杂之间挑出分别"，与 intelligence（情报）同理
   - [ ] 剩余高价值词族（>=5 词，共 141 词）优先，之后是
         47 个四词族（188 词）与 107 个三词族（321 词）
 - [ ] 学习模式：探索 / 复习 / 测试

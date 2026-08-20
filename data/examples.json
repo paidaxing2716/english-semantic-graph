@@ -7189,6 +7189,468 @@
       "text": "Read the introduction before chapter one.",
       "source": "AI 生成 · 人工审核",
       "scene": "主人领着新来的人走进屋，一一说明是谁"
+    },
+    {
+      "id": "ex-differ-1",
+      "word_id": "differ",
+      "text": "The two versions differ slightly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条路从同一个岔口分开，越走越远"
+    },
+    {
+      "id": "ex-differ-2",
+      "word_id": "differ",
+      "text": "Experts differ on this point.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条路从同一个岔口分开，越走越远"
+    },
+    {
+      "id": "ex-difference-1",
+      "word_id": "difference",
+      "text": "There is a big difference in price.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条线从同一点岔开，末端之间那段空白"
+    },
+    {
+      "id": "ex-difference-2",
+      "word_id": "difference",
+      "text": "Can you tell the difference?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条线从同一点岔开，末端之间那段空白"
+    },
+    {
+      "id": "ex-different-1",
+      "word_id": "different",
+      "text": "We have very different tastes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只鞋摆在一起，一眼看出不是一双"
+    },
+    {
+      "id": "ex-different-2",
+      "word_id": "different",
+      "text": "She tried three different methods.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只鞋摆在一起，一眼看出不是一双"
+    },
+    {
+      "id": "ex-indifferent-1",
+      "word_id": "indifferent",
+      "text": "He was indifferent to the outcome.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问他选哪个，他连头都没抬：都行"
+    },
+    {
+      "id": "ex-indifferent-2",
+      "word_id": "indifferent",
+      "text": "The food was indifferent at best.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问他选哪个，他连头都没抬：都行"
+    },
+    {
+      "id": "ex-transfer-1",
+      "word_id": "transfer",
+      "text": "She transferred the funds yesterday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钱从一个账户划到另一个，中间那一下什么都不在"
+    },
+    {
+      "id": "ex-transfer-2",
+      "word_id": "transfer",
+      "text": "Transfer to line 2 at the next stop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钱从一个账户划到另一个，中间那一下什么都不在"
+    },
+    {
+      "id": "ex-prefer-1",
+      "word_id": "prefer",
+      "text": "I prefer tea to coffee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几件里挑出一件先摆到前面，其余推到后面"
+    },
+    {
+      "id": "ex-prefer-2",
+      "word_id": "prefer",
+      "text": "She prefers to walk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几件里挑出一件先摆到前面，其余推到后面"
+    },
+    {
+      "id": "ex-preference-1",
+      "word_id": "preference",
+      "text": "State your preference on the form.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单按意愿排序，第一行就是最想要的那个"
+    },
+    {
+      "id": "ex-preference-2",
+      "word_id": "preference",
+      "text": "Members are given preference.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单按意愿排序，第一行就是最想要的那个"
+    },
+    {
+      "id": "ex-suffer-1",
+      "word_id": "suffer",
+      "text": "She suffers from migraines.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "担子压在肩上，路还得走完"
+    },
+    {
+      "id": "ex-suffer-2",
+      "word_id": "suffer",
+      "text": "The economy suffered badly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "担子压在肩上，路还得走完"
+    },
+    {
+      "id": "ex-place-1",
+      "word_id": "place",
+      "text": "This is a good place to stop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书架上每本书都有自己那一格，抽走就留个空"
+    },
+    {
+      "id": "ex-place-2",
+      "word_id": "place",
+      "text": "Place the vase on the shelf.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书架上每本书都有自己那一格，抽走就留个空"
+    },
+    {
+      "id": "ex-replace-1",
+      "word_id": "replace",
+      "text": "Machines replaced much manual work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旧灯泡拧下来，新的拧进同一个灯口"
+    },
+    {
+      "id": "ex-replace-2",
+      "word_id": "replace",
+      "text": "Please replace the book on the shelf.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旧灯泡拧下来，新的拧进同一个灯口"
+    },
+    {
+      "id": "ex-replacement-1",
+      "word_id": "replacement",
+      "text": "Replacement of the roof took a week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上原来那个名字被划掉，下面写着新来的"
+    },
+    {
+      "id": "ex-replacement-2",
+      "word_id": "replacement",
+      "text": "They found a replacement for her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上原来那个名字被划掉，下面写着新来的"
+    },
+    {
+      "id": "ex-displace-1",
+      "word_id": "displace",
+      "text": "The flood displaced thousands.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石头放进满杯的水里，水从杯口溢出去"
+    },
+    {
+      "id": "ex-displace-2",
+      "word_id": "displace",
+      "text": "Cars displaced horses in the city.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石头放进满杯的水里，水从杯口溢出去"
+    },
+    {
+      "id": "ex-intelligent-1",
+      "word_id": "intelligent",
+      "text": "She asked an intelligent question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一堆相似的种子里，他一眼指出哪几粒不一样"
+    },
+    {
+      "id": "ex-intelligent-2",
+      "word_id": "intelligent",
+      "text": "The car has an intelligent braking system.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一堆相似的种子里，他一眼指出哪几粒不一样"
+    },
+    {
+      "id": "ex-intelligence-1",
+      "word_id": "intelligence",
+      "text": "The test measures verbal intelligence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一堆材料，有人只看见纸，有人看出里面的门道"
+    },
+    {
+      "id": "ex-intelligence-2",
+      "word_id": "intelligence",
+      "text": "Military intelligence warned of the attack.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一堆材料，有人只看见纸，有人看出里面的门道"
+    },
+    {
+      "id": "ex-intellectual-1",
+      "word_id": "intellectual",
+      "text": "The book poses an intellectual challenge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摊着书和笔记，工作靠的是想不是手"
+    },
+    {
+      "id": "ex-intellectual-2",
+      "word_id": "intellectual",
+      "text": "She moved in intellectual circles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摊着书和笔记，工作靠的是想不是手"
+    },
+    {
+      "id": "ex-intelligible-1",
+      "word_id": "intelligible",
+      "text": "His explanation was barely intelligible.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方口音很重，但每个字还是听得出来"
+    },
+    {
+      "id": "ex-intelligible-2",
+      "word_id": "intelligible",
+      "text": "Make the diagram intelligible to beginners.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方口音很重，但每个字还是听得出来"
+    },
+    {
+      "id": "ex-invent-1",
+      "word_id": "invent",
+      "text": "He invented a new kind of valve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "试了几十次之后，那个从没存在过的装置转起来了"
+    },
+    {
+      "id": "ex-invent-2",
+      "word_id": "invent",
+      "text": "She invented an excuse on the spot.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "试了几十次之后，那个从没存在过的装置转起来了"
+    },
+    {
+      "id": "ex-invention-1",
+      "word_id": "invention",
+      "text": "The invention changed farming.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "专利证书旁摆着那台机器，世上原本没有它"
+    },
+    {
+      "id": "ex-invention-2",
+      "word_id": "invention",
+      "text": "The whole story was pure invention.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "专利证书旁摆着那台机器，世上原本没有它"
+    },
+    {
+      "id": "ex-inventory-1",
+      "word_id": "inventory",
+      "text": "They took an inventory of the warehouse.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "仓库里逐架清点，每一项数目都记在纸上"
+    },
+    {
+      "id": "ex-inventory-2",
+      "word_id": "inventory",
+      "text": "Inventory levels fell in June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "仓库里逐架清点，每一项数目都记在纸上"
+    },
+    {
+      "id": "ex-invite-1",
+      "word_id": "invite",
+      "text": "They invited us to dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门推开一半，主人抬手让客人先进"
+    },
+    {
+      "id": "ex-invite-2",
+      "word_id": "invite",
+      "text": "Such carelessness invites trouble.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门推开一半，主人抬手让客人先进"
+    },
+    {
+      "id": "ex-adverse-1",
+      "word_id": "adverse",
+      "text": "Adverse weather delayed the flight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顶风骑车，风正对着脸吹"
+    },
+    {
+      "id": "ex-adverse-2",
+      "word_id": "adverse",
+      "text": "The drug has few adverse effects.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顶风骑车，风正对着脸吹"
+    },
+    {
+      "id": "ex-diverse-1",
+      "word_id": "diverse",
+      "text": "The city has a diverse population.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一把伞骨从中心散开，没有两根指同一处"
+    },
+    {
+      "id": "ex-diverse-2",
+      "word_id": "diverse",
+      "text": "Her interests are remarkably diverse.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一把伞骨从中心散开，没有两根指同一处"
+    },
+    {
+      "id": "ex-inverse-1",
+      "word_id": "inverse",
+      "text": "Pressure and volume have an inverse relation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一边升高另一边必降低，跷跷板两头永远相反"
+    },
+    {
+      "id": "ex-inverse-2",
+      "word_id": "inverse",
+      "text": "The inverse is also true.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一边升高另一边必降低，跷跷板两头永远相反"
+    },
+    {
+      "id": "ex-reverse-1",
+      "word_id": "reverse",
+      "text": "The court reversed the decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "挂上倒挡，车开始往后走"
+    },
+    {
+      "id": "ex-reverse-2",
+      "word_id": "reverse",
+      "text": "Print on the reverse side.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "挂上倒挡，车开始往后走"
+    },
+    {
+      "id": "ex-deficiency-1",
+      "word_id": "deficiency",
+      "text": "Iron deficiency causes fatigue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "化验单上那一行低于下限，旁边画了个箭头"
+    },
+    {
+      "id": "ex-deficiency-2",
+      "word_id": "deficiency",
+      "text": "The report notes several deficiencies.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "化验单上那一行低于下限，旁边画了个箭头"
+    },
+    {
+      "id": "ex-efficiency-1",
+      "word_id": "efficiency",
+      "text": "The upgrade improved fuel efficiency.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一桶油，这台机器跑得更远"
+    },
+    {
+      "id": "ex-efficiency-2",
+      "word_id": "efficiency",
+      "text": "We must raise efficiency, not hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一桶油，这台机器跑得更远"
+    },
+    {
+      "id": "ex-proficiency-1",
+      "word_id": "proficiency",
+      "text": "Proficiency in Japanese is required.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一段谱子，他不看谱也弹得下来"
+    },
+    {
+      "id": "ex-proficiency-2",
+      "word_id": "proficiency",
+      "text": "She reached proficiency in six months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一段谱子，他不看谱也弹得下来"
+    },
+    {
+      "id": "ex-infectious-1",
+      "word_id": "infectious",
+      "text": "Measles is highly infectious.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一人咳嗽，同屋的人接着一个个咳起来"
+    },
+    {
+      "id": "ex-infectious-2",
+      "word_id": "infectious",
+      "text": "Her laughter was infectious.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一人咳嗽，同屋的人接着一个个咳起来"
+    },
+    {
+      "id": "ex-proceeding-1",
+      "word_id": "proceeding",
+      "text": "Legal proceedings began in March.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭日程表上一项接一项，按顺序往下走"
+    },
+    {
+      "id": "ex-proceeding-2",
+      "word_id": "proceeding",
+      "text": "The proceedings were published later.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭日程表上一项接一项，按顺序往下走"
+    },
+    {
+      "id": "ex-procession-1",
+      "word_id": "procession",
+      "text": "A funeral procession blocked the road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长街上人一列列走过，前后不乱"
+    },
+    {
+      "id": "ex-procession-2",
+      "word_id": "procession",
+      "text": "The procession moved toward the square.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长街上人一列列走过，前后不乱"
+    },
+    {
+      "id": "ex-succession-1",
+      "word_id": "succession",
+      "text": "She won three titles in succession.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶上的人一个下来一个接着上去，位置从没空过"
+    },
+    {
+      "id": "ex-succession-2",
+      "word_id": "succession",
+      "text": "The rules of succession were disputed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶上的人一个下来一个接着上去，位置从没空过"
+    },
+    {
+      "id": "ex-successive-1",
+      "word_id": "successive",
+      "text": "It rained for four successive days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上连着五格都画了圈，中间没有空格"
+    },
+    {
+      "id": "ex-successive-2",
+      "word_id": "successive",
+      "text": "Successive governments avoided the issue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上连着五格都画了圈，中间没有空格"
+    },
+    {
+      "id": "ex-successful-1",
+      "word_id": "successful",
+      "text": "The launch was successful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "登顶那一刻回头，走过的路全在脚下"
+    },
+    {
+      "id": "ex-successful-2",
+      "word_id": "successful",
+      "text": "She is a successful architect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "登顶那一刻回头，走过的路全在脚下"
     }
   ]
 }
