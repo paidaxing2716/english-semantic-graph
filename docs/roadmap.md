@@ -14,7 +14,7 @@ v0.2.0  纸张词源地图改版 + 昼夜模式 + 视觉质量门  ✅ 已完成
 v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
-v1.0    考研词表中可结构化的部分（592/869 词，68%）← 当前
+v1.0    考研词表中可结构化的部分（629/869 词，72%）← 当前
 ```
 
 ---
@@ -280,7 +280,13 @@ python ai_pipeline/review.py merge candidates.json
         + passare（迈过）+ historia（调查记述）+ elektron（琥珀电荷）
         + oikonomia（家务管理），592 词 · 99 词根。historic 强调“重要到写入历史”，
         historical 泛指与过去材料有关；economic 指经济体系，economical 指节约不浪费
-  - [ ] 剩余 277 个已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
+  - [x] 第二十九批（37 词，十个三词族 + 已有词根补充）：vocare（呼叫）
+        + turba（混乱旋动）+ tribuere（分派）+ torquere（扭转）+ tolerare（承受）
+        + tithenai（放置命题）+ integer（完整）+ memor（记住）+ mēkhanē（机械装置）
+        + graphein（刻写），并补 impression / impressive、container / tenant、
+        conquest / enquire / exquisite，629 词 · 109 词根。attain 直接来自 tangere 支系，
+        press 与现有词根 id 冲突，均未为凑数硬挂入库
+  - [ ] 剩余 240 个已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
 - [ ] 学习模式：探索 / 复习 / 测试
 - [x] 部署为可访问的 Web 页面（GitHub Pages）
 

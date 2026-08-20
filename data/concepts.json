@@ -36,7 +36,9 @@
         "repress",
         "expression",
         "oppress",
-        "compression"
+        "compression",
+        "impression",
+        "impressive"
       ]
     },
     {
@@ -319,7 +321,9 @@
         "obtain",
         "retain",
         "detain",
-        "sustain"
+        "sustain",
+        "container",
+        "tenant"
       ]
     },
     {
@@ -584,7 +588,10 @@
         "quest",
         "request",
         "require",
-        "requirement"
+        "requirement",
+        "conquest",
+        "enquire",
+        "exquisite"
       ]
     },
     {
@@ -1702,6 +1709,146 @@
         "economical",
         "economics",
         "economy"
+      ]
+    },
+    {
+      "id": "concept-vocare-call",
+      "concept": "to call out with a voice",
+      "chinese": "发声召唤",
+      "core_image": "声音越过一段距离，使听见的人转身回应",
+      "root_ids": [
+        "vocare"
+      ],
+      "word_ids": [
+        "advocate",
+        "vocal",
+        "vocation"
+      ]
+    },
+    {
+      "id": "concept-turba-turmoil",
+      "concept": "a mass in turbulent motion",
+      "chinese": "扰乱旋动",
+      "core_image": "原本平静的一团东西被推挤成旋涡",
+      "root_ids": [
+        "turba"
+      ],
+      "word_ids": [
+        "disturb",
+        "disturbance",
+        "turbine"
+      ]
+    },
+    {
+      "id": "concept-tribuere-assign",
+      "concept": "to assign a share",
+      "chinese": "分派份额",
+      "core_image": "一堆资源按名单分成几份并交到各方手中",
+      "root_ids": [
+        "tribuere"
+      ],
+      "word_ids": [
+        "attribute",
+        "contribute",
+        "distribute"
+      ]
+    },
+    {
+      "id": "concept-torquere-twist",
+      "concept": "to twist out of line",
+      "chinese": "扭转变形",
+      "core_image": "一根直绳被两手反向拧成卷曲形状",
+      "root_ids": [
+        "torquere"
+      ],
+      "word_ids": [
+        "distort",
+        "retort",
+        "torture"
+      ]
+    },
+    {
+      "id": "concept-tolerare-bear",
+      "concept": "to bear without breaking",
+      "chinese": "承受容忍",
+      "core_image": "肩负重物的人稳住身体继续前进",
+      "root_ids": [
+        "tolerare"
+      ],
+      "word_ids": [
+        "tolerance",
+        "tolerant",
+        "tolerate"
+      ]
+    },
+    {
+      "id": "concept-thesis-place",
+      "concept": "to set down a proposition",
+      "chinese": "放下命题",
+      "core_image": "一张主张卡片被放到桌面中央等待检验",
+      "root_ids": [
+        "tithenai"
+      ],
+      "word_ids": [
+        "hypothesis",
+        "synthesis",
+        "thesis"
+      ]
+    },
+    {
+      "id": "concept-integer-whole",
+      "concept": "whole and untouched",
+      "chinese": "完整无缺",
+      "core_image": "密封圆环没有裂缝或缺失部分",
+      "root_ids": [
+        "integer"
+      ],
+      "word_ids": [
+        "integral",
+        "integrate",
+        "integrity"
+      ]
+    },
+    {
+      "id": "concept-memor-remember",
+      "concept": "to keep present in mind",
+      "chinese": "留存于心",
+      "core_image": "过去的场景被固定在脑中的亮屏上",
+      "root_ids": [
+        "memor"
+      ],
+      "word_ids": [
+        "commemorate",
+        "memorial",
+        "memory"
+      ]
+    },
+    {
+      "id": "concept-mekhane-device",
+      "concept": "a device that makes work happen",
+      "chinese": "机械装置",
+      "core_image": "杆、齿轮和绳索组合后以小力抬起重物",
+      "root_ids": [
+        "mekhane"
+      ],
+      "word_ids": [
+        "mechanic",
+        "mechanical",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "concept-graphein-write",
+      "concept": "to record with written lines",
+      "chinese": "刻写成图",
+      "core_image": "尖笔在平面划线，把信息固定成可读图形",
+      "root_ids": [
+        "graphein"
+      ],
+      "word_ids": [
+        "graph",
+        "graphic",
+        "paragraph"
       ]
     }
   ]

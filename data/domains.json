@@ -15,7 +15,8 @@
         "pel",
         "salire",
         "vincere",
-        "elektron"
+        "elektron",
+        "turba"
       ]
     },
     {
@@ -42,7 +43,8 @@
         "secare",
         "facies",
         "placere",
-        "taillier"
+        "taillier",
+        "torquere"
       ]
     },
     {
@@ -68,7 +70,8 @@
         "fundere",
         "ferre",
         "referre",
-        "passare"
+        "passare",
+        "tribuere"
       ]
     },
     {
@@ -102,7 +105,10 @@
         "legere",
         "legere-intel",
         "physis",
-        "historia"
+        "historia",
+        "vocare",
+        "memor",
+        "graphein"
       ]
     },
     {
@@ -127,7 +133,9 @@
         "solvere",
         "fidere",
         "tegere",
-        "sedere"
+        "sedere",
+        "tolerare",
+        "integer"
       ]
     },
     {
@@ -152,7 +160,9 @@
         "nasci",
         "venire-invent",
         "prassein",
-        "oikonomia"
+        "oikonomia",
+        "tithenai",
+        "mekhane"
       ]
     }
   ]

@@ -42,7 +42,9 @@
         "repress",
         "expression",
         "oppress",
-        "compression"
+        "compression",
+        "impression",
+        "impressive"
       ]
     },
     {
@@ -340,7 +342,9 @@
         "obtain",
         "retain",
         "detain",
-        "sustain"
+        "sustain",
+        "container",
+        "tenant"
       ]
     },
     {
@@ -654,7 +658,10 @@
         "quest",
         "request",
         "require",
-        "requirement"
+        "requirement",
+        "conquest",
+        "enquire",
+        "exquisite"
       ]
     },
     {
@@ -2002,6 +2009,175 @@
         "economical",
         "economics",
         "economy"
+      ]
+    },
+    {
+      "id": "vocare",
+      "root": "vocare",
+      "variants": [
+        "voc",
+        "vok"
+      ],
+      "origin": "拉丁语 vocare（呼叫、召唤），来自 vox（声音）",
+      "core_concept": "to call out with a voice / 发声呼叫",
+      "core_image": "一个人向远处喊出声音，听见的人转身回应",
+      "english_definition": "to call, name, summon by voice",
+      "word_ids": [
+        "advocate",
+        "vocal",
+        "vocation"
+      ]
+    },
+    {
+      "id": "turba",
+      "root": "turba",
+      "variants": [
+        "turb"
+      ],
+      "origin": "拉丁语 turba（拥挤的人群、混乱）及相关 turbo（旋转、旋风）",
+      "core_concept": "a mass thrown into turbulent motion / 一团东西被搅得混乱旋动",
+      "core_image": "平静的人群忽然互相推挤，中央卷起一个旋涡",
+      "english_definition": "crowd, turmoil, turbulent turning",
+      "word_ids": [
+        "disturb",
+        "disturbance",
+        "turbine"
+      ]
+    },
+    {
+      "id": "tribuere",
+      "root": "tribuere",
+      "variants": [
+        "tribut",
+        "tribu"
+      ],
+      "origin": "拉丁语 tribuere（分配、给予），与 tribus（部族、分区）相关",
+      "core_concept": "to assign a share to each party / 把一份东西分派给某一方",
+      "core_image": "桌上的一堆物品被按名单分成几份，分别推到各人面前",
+      "english_definition": "to assign, allot, give a share",
+      "word_ids": [
+        "attribute",
+        "contribute",
+        "distribute"
+      ]
+    },
+    {
+      "id": "torquere",
+      "root": "torquere",
+      "variants": [
+        "tort",
+        "torqu"
+      ],
+      "origin": "拉丁语 torquere（扭转、拧）及过去分词 tortus",
+      "core_concept": "to twist something out of its line / 把东西拧离原来的直线",
+      "core_image": "两只手抓住一根直绳向相反方向拧，使它卷曲变形",
+      "english_definition": "to twist, turn, wrench",
+      "word_ids": [
+        "distort",
+        "retort",
+        "torture"
+      ]
+    },
+    {
+      "id": "tolerare",
+      "root": "tolerare",
+      "variants": [
+        "toler",
+        "tol"
+      ],
+      "origin": "拉丁语 tolerare（承受、忍耐）",
+      "core_concept": "to carry a burden without breaking / 扛住负担而不崩溃",
+      "core_image": "肩上压着重物的人稳住脚步，继续向前",
+      "english_definition": "to bear, endure, sustain",
+      "word_ids": [
+        "tolerance",
+        "tolerant",
+        "tolerate"
+      ]
+    },
+    {
+      "id": "tithenai",
+      "root": "thesis",
+      "variants": [
+        "thes",
+        "thet"
+      ],
+      "origin": "希腊语 thesis（放置、命题），来自 tithenai（放下、安置）",
+      "core_concept": "to place an idea in a position / 把一个观点放到桌面上",
+      "core_image": "一张写着主张的卡片被放到桌面中央，等待检验和组合",
+      "english_definition": "a placing; a proposition set down",
+      "word_ids": [
+        "hypothesis",
+        "synthesis",
+        "thesis"
+      ]
+    },
+    {
+      "id": "integer",
+      "root": "integer",
+      "variants": [
+        "integr",
+        "teger"
+      ],
+      "origin": "拉丁语 integer（完整、未触碰），由 in-（不）+ tangere（触碰）形成",
+      "core_concept": "whole and untouched / 完整得没有缺口",
+      "core_image": "一只密封圆环没有裂缝，任何部分都未被取走",
+      "english_definition": "whole, intact, untouched",
+      "word_ids": [
+        "integral",
+        "integrate",
+        "integrity"
+      ]
+    },
+    {
+      "id": "memor",
+      "root": "memor",
+      "variants": [
+        "mem",
+        "memor"
+      ],
+      "origin": "拉丁语 memor（记得的、留心的）与 memoria（记忆）",
+      "core_concept": "to keep something present in the mind / 把事情留在心中不让它消失",
+      "core_image": "已经过去的场景被固定在脑中的一块亮屏上",
+      "english_definition": "mindful, remembering, memory",
+      "word_ids": [
+        "commemorate",
+        "memorial",
+        "memory"
+      ]
+    },
+    {
+      "id": "mekhane",
+      "root": "mēkhanē",
+      "variants": [
+        "mechan",
+        "mech"
+      ],
+      "origin": "希腊语 mēkhanē（装置、巧妙手段、机器）",
+      "core_concept": "a contrived device that makes work happen / 用巧妙装置让工作发生",
+      "core_image": "几根杆、齿轮和绳索组合起来，轻轻一推便抬起重物",
+      "english_definition": "device, contrivance, machine",
+      "word_ids": [
+        "mechanic",
+        "mechanical",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "graphein",
+      "root": "graphein",
+      "variants": [
+        "graph",
+        "gram"
+      ],
+      "origin": "希腊语 graphein（刻写、书写、描画）",
+      "core_concept": "to mark lines onto a surface / 在表面刻下可读的线条",
+      "core_image": "尖笔在平面上划出线条，把看不见的信息固定成图形",
+      "english_definition": "to write, draw, record with marks",
+      "word_ids": [
+        "graph",
+        "graphic",
+        "paragraph"
       ]
     }
   ]

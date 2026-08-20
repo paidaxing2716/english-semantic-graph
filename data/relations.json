@@ -3642,6 +3642,228 @@
       "to": "economy",
       "type": "root",
       "note": "oiko-（家）+ nom-（管理规则）→ 原指管理一个家，后扩大为管理社会资源的整体体系"
+    },
+    {
+      "from": "vocare",
+      "to": "advocate",
+      "type": "root",
+      "note": "ad-（到…旁边）+ voc（呼叫）+ -ate → 被叫到身旁替人发声的人"
+    },
+    {
+      "from": "vocare",
+      "to": "vocal",
+      "type": "root",
+      "note": "voc（声音）+ -al（有关…的）→ 与声音有关，或把意见明确说出来的"
+    },
+    {
+      "from": "vocare",
+      "to": "vocation",
+      "type": "root",
+      "note": "voc（召唤）+ -ation → 内心或职责发出的召唤，进而成为长期投入的职业"
+    },
+    {
+      "from": "turba",
+      "to": "disturb",
+      "type": "root",
+      "note": "dis-（分开、打乱）+ turb（混乱）→ 把原有秩序搅散"
+    },
+    {
+      "from": "turba",
+      "to": "disturbance",
+      "type": "root",
+      "note": "disturb（搅乱）+ -ance（状态或事件）→ 打破平静后出现的混乱或异常"
+    },
+    {
+      "from": "turba",
+      "to": "turbine",
+      "type": "root",
+      "note": "turb（旋动）+ -ine（装置）→ 被流体推动而持续旋转的机器"
+    },
+    {
+      "from": "tribuere",
+      "to": "attribute",
+      "type": "root",
+      "note": "at-（向）+ tribut（分派）→ 把原因、性质或作品归到某一方名下"
+    },
+    {
+      "from": "tribuere",
+      "to": "contribute",
+      "type": "root",
+      "note": "con-（共同）+ tribut（分派给予）→ 每个人把自己的一份交进共同之中"
+    },
+    {
+      "from": "tribuere",
+      "to": "distribute",
+      "type": "root",
+      "note": "dis-（分开、向各处）+ tribut（分派）→ 把整体拆成份额送到各方"
+    },
+    {
+      "from": "torquere",
+      "to": "distort",
+      "type": "root",
+      "note": "dis-（分离、偏离）+ tort（扭）→ 把原形或原意扭离正确位置"
+    },
+    {
+      "from": "torquere",
+      "to": "retort",
+      "type": "root",
+      "note": "re-（向回）+ tort（扭）→ 把对方的话拧转回去，形成尖锐回应"
+    },
+    {
+      "from": "torquere",
+      "to": "torture",
+      "type": "root",
+      "note": "tort（扭）+ -ure → 原指扭曲身体施加痛苦，后泛指极端折磨"
+    },
+    {
+      "from": "tolerare",
+      "to": "tolerance",
+      "type": "root",
+      "note": "toler（承受）+ -ance（能力或状态）→ 面对差异、压力或剂量仍能承受的范围"
+    },
+    {
+      "from": "tolerare",
+      "to": "tolerant",
+      "type": "root",
+      "note": "toler（承受）+ -ant（具有…性质的）→ 能承受差异或不利条件的"
+    },
+    {
+      "from": "tolerare",
+      "to": "tolerate",
+      "type": "root",
+      "note": "toler（承受）+ -ate → 把不舒服或不同之处扛住而不阻止"
+    },
+    {
+      "from": "tithenai",
+      "to": "hypothesis",
+      "type": "root",
+      "note": "hypo-（在下方）+ thesis（放置）→ 先放在论证底下作为待验证的基础"
+    },
+    {
+      "from": "tithenai",
+      "to": "synthesis",
+      "type": "root",
+      "note": "syn-（共同）+ thesis（放置）→ 把多个部分放到一起形成整体"
+    },
+    {
+      "from": "tithenai",
+      "to": "thesis",
+      "type": "root",
+      "note": "thesis（放置、命题）→ 正式放出来供论证的主张或研究成果"
+    },
+    {
+      "from": "integer",
+      "to": "integral",
+      "type": "root",
+      "note": "integr（完整）+ -al → 属于整体且不可缺少的"
+    },
+    {
+      "from": "integer",
+      "to": "integrate",
+      "type": "root",
+      "note": "integr（完整）+ -ate → 使分开的部分进入一个完整整体"
+    },
+    {
+      "from": "integer",
+      "to": "integrity",
+      "type": "root",
+      "note": "integr（完整）+ -ity（状态）→ 结构没有破损，或人格没有被利益切走一块"
+    },
+    {
+      "from": "memor",
+      "to": "commemorate",
+      "type": "root",
+      "note": "com-（共同）+ memor（记住）+ -ate → 大家一起把某事留在记忆中"
+    },
+    {
+      "from": "memor",
+      "to": "memorial",
+      "type": "root",
+      "note": "memor（记住）+ -ial（有关…的）→ 专门帮助人把过去留在心中的标志"
+    },
+    {
+      "from": "memor",
+      "to": "memory",
+      "type": "root",
+      "note": "memor（记住）+ -y → 心中保存并可再次调出的过去内容或能力"
+    },
+    {
+      "from": "mekhane",
+      "to": "mechanic",
+      "type": "root",
+      "note": "mechan（机器装置）+ -ic（从事者）→ 处理机器结构与运转的人"
+    },
+    {
+      "from": "mekhane",
+      "to": "mechanical",
+      "type": "root",
+      "note": "mechan（机器）+ -ical（有关…的）→ 属于机器运转，或像机器一样不经思考重复"
+    },
+    {
+      "from": "mekhane",
+      "to": "mechanism",
+      "type": "root",
+      "note": "mechan（装置）+ -ism（体系）→ 各部件配合产生结果的内部系统"
+    },
+    {
+      "from": "graphein",
+      "to": "graph",
+      "type": "root",
+      "note": "graph（写、画）→ 用线和位置把数量关系画出来的记录"
+    },
+    {
+      "from": "graphein",
+      "to": "graphic",
+      "type": "root",
+      "note": "graph（画、写）+ -ic → 通过清楚图形呈现，或描写得像画在眼前"
+    },
+    {
+      "from": "graphein",
+      "to": "paragraph",
+      "type": "root",
+      "note": "para-（旁边）+ graph（写）→ 原指写在旁边的段落标记，后指由该标记分出的文字块"
+    },
+    {
+      "from": "press",
+      "to": "impression",
+      "type": "root",
+      "note": "im-（压入）+ press（压）+ -ion → 外物压入心中留下的痕迹"
+    },
+    {
+      "from": "press",
+      "to": "impressive",
+      "type": "root",
+      "note": "impress（压入、留下印象）+ -ive → 强到能深深压进人心的"
+    },
+    {
+      "from": "tain",
+      "to": "container",
+      "type": "root",
+      "note": "con-（共同、在内）+ tain（握住）+ -er → 把内容物收在内部握住的东西"
+    },
+    {
+      "from": "tain",
+      "to": "tenant",
+      "type": "root",
+      "note": "ten（握住、占有）+ -ant（人）→ 依法握有房屋使用权的人"
+    },
+    {
+      "from": "quir",
+      "to": "conquest",
+      "type": "root",
+      "note": "con-（加强、完全）+ quest（寻求）→ 追索到底并取得控制"
+    },
+    {
+      "from": "quir",
+      "to": "enquire",
+      "type": "root",
+      "note": "en-（进入）+ quir（寻求）→ 通过提问深入寻找信息"
+    },
+    {
+      "from": "quir",
+      "to": "exquisite",
+      "type": "root",
+      "note": "ex-（彻底、向外）+ quisit（寻求）→ 被精挑细选出来的 → 极精美的"
     }
   ]
 }

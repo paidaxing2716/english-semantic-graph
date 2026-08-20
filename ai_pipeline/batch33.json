@@ -1,0 +1,1694 @@
+{
+  "roots": [
+    {
+      "id": "vocare",
+      "root": "vocare",
+      "variants": [
+        "voc",
+        "vok"
+      ],
+      "origin": "拉丁语 vocare（呼叫、召唤），来自 vox（声音）",
+      "core_concept": "to call out with a voice / 发声呼叫",
+      "core_image": "一个人向远处喊出声音，听见的人转身回应",
+      "english_definition": "to call, name, summon by voice",
+      "word_ids": []
+    },
+    {
+      "id": "turba",
+      "root": "turba",
+      "variants": [
+        "turb"
+      ],
+      "origin": "拉丁语 turba（拥挤的人群、混乱）及相关 turbo（旋转、旋风）",
+      "core_concept": "a mass thrown into turbulent motion / 一团东西被搅得混乱旋动",
+      "core_image": "平静的人群忽然互相推挤，中央卷起一个旋涡",
+      "english_definition": "crowd, turmoil, turbulent turning",
+      "word_ids": []
+    },
+    {
+      "id": "tribuere",
+      "root": "tribuere",
+      "variants": [
+        "tribut",
+        "tribu"
+      ],
+      "origin": "拉丁语 tribuere（分配、给予），与 tribus（部族、分区）相关",
+      "core_concept": "to assign a share to each party / 把一份东西分派给某一方",
+      "core_image": "桌上的一堆物品被按名单分成几份，分别推到各人面前",
+      "english_definition": "to assign, allot, give a share",
+      "word_ids": []
+    },
+    {
+      "id": "torquere",
+      "root": "torquere",
+      "variants": [
+        "tort",
+        "torqu"
+      ],
+      "origin": "拉丁语 torquere（扭转、拧）及过去分词 tortus",
+      "core_concept": "to twist something out of its line / 把东西拧离原来的直线",
+      "core_image": "两只手抓住一根直绳向相反方向拧，使它卷曲变形",
+      "english_definition": "to twist, turn, wrench",
+      "word_ids": []
+    },
+    {
+      "id": "tolerare",
+      "root": "tolerare",
+      "variants": [
+        "toler",
+        "tol"
+      ],
+      "origin": "拉丁语 tolerare（承受、忍耐）",
+      "core_concept": "to carry a burden without breaking / 扛住负担而不崩溃",
+      "core_image": "肩上压着重物的人稳住脚步，继续向前",
+      "english_definition": "to bear, endure, sustain",
+      "word_ids": []
+    },
+    {
+      "id": "tithenai",
+      "root": "thesis",
+      "variants": [
+        "thes",
+        "thet"
+      ],
+      "origin": "希腊语 thesis（放置、命题），来自 tithenai（放下、安置）",
+      "core_concept": "to place an idea in a position / 把一个观点放到桌面上",
+      "core_image": "一张写着主张的卡片被放到桌面中央，等待检验和组合",
+      "english_definition": "a placing; a proposition set down",
+      "word_ids": []
+    },
+    {
+      "id": "integer",
+      "root": "integer",
+      "variants": [
+        "integr",
+        "teger"
+      ],
+      "origin": "拉丁语 integer（完整、未触碰），由 in-（不）+ tangere（触碰）形成",
+      "core_concept": "whole and untouched / 完整得没有缺口",
+      "core_image": "一只密封圆环没有裂缝，任何部分都未被取走",
+      "english_definition": "whole, intact, untouched",
+      "word_ids": []
+    },
+    {
+      "id": "memor",
+      "root": "memor",
+      "variants": [
+        "mem",
+        "memor"
+      ],
+      "origin": "拉丁语 memor（记得的、留心的）与 memoria（记忆）",
+      "core_concept": "to keep something present in the mind / 把事情留在心中不让它消失",
+      "core_image": "已经过去的场景被固定在脑中的一块亮屏上",
+      "english_definition": "mindful, remembering, memory",
+      "word_ids": []
+    },
+    {
+      "id": "mekhane",
+      "root": "mēkhanē",
+      "variants": [
+        "mechan",
+        "mech"
+      ],
+      "origin": "希腊语 mēkhanē（装置、巧妙手段、机器）",
+      "core_concept": "a contrived device that makes work happen / 用巧妙装置让工作发生",
+      "core_image": "几根杆、齿轮和绳索组合起来，轻轻一推便抬起重物",
+      "english_definition": "device, contrivance, machine",
+      "word_ids": []
+    },
+    {
+      "id": "graphein",
+      "root": "graphein",
+      "variants": [
+        "graph",
+        "gram"
+      ],
+      "origin": "希腊语 graphein（刻写、书写、描画）",
+      "core_concept": "to mark lines onto a surface / 在表面刻下可读的线条",
+      "core_image": "尖笔在平面上划出线条，把看不见的信息固定成图形",
+      "english_definition": "to write, draw, record with marks",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-vocare-call",
+      "concept": "to call out with a voice",
+      "chinese": "发声召唤",
+      "core_image": "声音越过一段距离，使听见的人转身回应",
+      "root_ids": [
+        "vocare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-turba-turmoil",
+      "concept": "a mass in turbulent motion",
+      "chinese": "扰乱旋动",
+      "core_image": "原本平静的一团东西被推挤成旋涡",
+      "root_ids": [
+        "turba"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-tribuere-assign",
+      "concept": "to assign a share",
+      "chinese": "分派份额",
+      "core_image": "一堆资源按名单分成几份并交到各方手中",
+      "root_ids": [
+        "tribuere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-torquere-twist",
+      "concept": "to twist out of line",
+      "chinese": "扭转变形",
+      "core_image": "一根直绳被两手反向拧成卷曲形状",
+      "root_ids": [
+        "torquere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-tolerare-bear",
+      "concept": "to bear without breaking",
+      "chinese": "承受容忍",
+      "core_image": "肩负重物的人稳住身体继续前进",
+      "root_ids": [
+        "tolerare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-thesis-place",
+      "concept": "to set down a proposition",
+      "chinese": "放下命题",
+      "core_image": "一张主张卡片被放到桌面中央等待检验",
+      "root_ids": [
+        "tithenai"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-integer-whole",
+      "concept": "whole and untouched",
+      "chinese": "完整无缺",
+      "core_image": "密封圆环没有裂缝或缺失部分",
+      "root_ids": [
+        "integer"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-memor-remember",
+      "concept": "to keep present in mind",
+      "chinese": "留存于心",
+      "core_image": "过去的场景被固定在脑中的亮屏上",
+      "root_ids": [
+        "memor"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-mekhane-device",
+      "concept": "a device that makes work happen",
+      "chinese": "机械装置",
+      "core_image": "杆、齿轮和绳索组合后以小力抬起重物",
+      "root_ids": [
+        "mekhane"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-graphein-write",
+      "concept": "to record with written lines",
+      "chinese": "刻写成图",
+      "core_image": "尖笔在平面划线，把信息固定成可读图形",
+      "root_ids": [
+        "graphein"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": [
+      "vocare",
+      "memor",
+      "graphein"
+    ],
+    "domain-force": [
+      "turba"
+    ],
+    "domain-transfer": [
+      "tribuere"
+    ],
+    "domain-shape": [
+      "torquere"
+    ],
+    "domain-hold": [
+      "tolerare",
+      "integer"
+    ],
+    "domain-make": [
+      "tithenai",
+      "mekhane"
+    ]
+  },
+  "words": [
+    {
+      "id": "advocate",
+      "word": "advocate",
+      "pos": "noun",
+      "phonetic": "/ˈædvəkət/",
+      "decomposable": "root",
+      "root_ids": [
+        "vocare"
+      ],
+      "root_logic": "ad-（到…旁边）+ voc（呼叫）+ -ate → 被叫到身旁替人发声的人",
+      "origin": "拉丁语 advocatus，来自 advocare（召来作援助）",
+      "native_definition": "a person who publicly supports a cause, or to support it publicly",
+      "core_concept": "someone called beside another person to speak in support – 被召到身边替某人发声",
+      "core_image": "一人面对人群陈述理由，身旁的人因此不再独自应对",
+      "chinese": [
+        "倡导者",
+        "拥护者",
+        "提倡"
+      ],
+      "examples": [
+        "She is a strong advocate for equal access.",
+        "The report advocates stricter safety rules."
+      ],
+      "synonyms": [
+        "supporter",
+        "campaigner"
+      ],
+      "antonyms": [
+        "opponent"
+      ],
+      "related": [
+        "vocal",
+        "vocation"
+      ],
+      "semantic_expansions": [
+        "倡导者/拥护者：站到某人或某事旁边替其发声的人",
+        "提倡：公开发声支持一种主张"
+      ]
+    },
+    {
+      "id": "vocal",
+      "word": "vocal",
+      "pos": "adjective",
+      "phonetic": "/ˈvəʊkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "vocare"
+      ],
+      "root_logic": "voc（声音）+ -al（有关…的）→ 与声音有关，或把意见明确说出来的",
+      "origin": "拉丁语 vocalis（有声音的），来自 vox（声音）",
+      "native_definition": "relating to the voice, or expressing opinions openly",
+      "core_concept": "using the voice so a position can be heard – 让声音清楚传到别人耳中",
+      "core_image": "原本安静的人走到麦克风前，把立场清楚说出",
+      "chinese": [
+        "声音的",
+        "直言不讳的",
+        "声乐的"
+      ],
+      "examples": [
+        "The song demands strong vocal control.",
+        "Residents were vocal in their opposition."
+      ],
+      "synonyms": [
+        "outspoken",
+        "spoken"
+      ],
+      "antonyms": [
+        "silent"
+      ],
+      "related": [
+        "advocate",
+        "vocation"
+      ],
+      "semantic_expansions": [
+        "声音的/声乐的：直接涉及人声及其运用",
+        "直言不讳的：把意见发声说出而不保持沉默"
+      ]
+    },
+    {
+      "id": "vocation",
+      "word": "vocation",
+      "pos": "noun",
+      "phonetic": "/vəʊˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "vocare"
+      ],
+      "root_logic": "voc（召唤）+ -ation → 内心或职责发出的召唤，进而成为长期投入的职业",
+      "origin": "拉丁语 vocatio（召唤），来自 vocare（呼叫）",
+      "native_definition": "a strong sense of fitness for a particular career, or that career itself",
+      "core_concept": "a line of work that seems to call a person toward it – 某项工作像声音一样不断召人前往",
+      "core_image": "一条工作道路从远处亮起，像持续的呼声引人走过去",
+      "chinese": [
+        "使命感",
+        "天职",
+        "职业"
+      ],
+      "examples": [
+        "Teaching became her vocation.",
+        "He felt a vocation to serve the community."
+      ],
+      "synonyms": [
+        "calling",
+        "profession"
+      ],
+      "antonyms": [
+        "disinterest"
+      ],
+      "related": [
+        "advocate",
+        "vocal"
+      ],
+      "semantic_expansions": [
+        "使命感/天职：内心听见某项长期职责的召唤",
+        "职业：由这种召唤发展成持续从事的工作"
+      ]
+    },
+    {
+      "id": "disturb",
+      "word": "disturb",
+      "pos": "verb",
+      "phonetic": "/dɪˈstɜːb/",
+      "decomposable": "root",
+      "root_ids": [
+        "turba"
+      ],
+      "root_logic": "dis-（分开、打乱）+ turb（混乱）→ 把原有秩序搅散",
+      "origin": "拉丁语 disturbare：dis- + turbare（使混乱），经古法语进入英语",
+      "native_definition": "to interrupt calm, order, or concentration",
+      "core_concept": "stirring a settled state into disorder – 把平静稳定的状态搅乱",
+      "core_image": "平整水面被突然拨动，波纹向四周扩散",
+      "chinese": [
+        "打扰",
+        "扰乱",
+        "使不安"
+      ],
+      "examples": [
+        "Please do not disturb the patients.",
+        "The news disturbed her deeply."
+      ],
+      "synonyms": [
+        "interrupt",
+        "unsettle"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "related": [
+        "disturbance",
+        "turbine"
+      ],
+      "semantic_expansions": [
+        "打扰/扰乱：打断原有的安静或秩序",
+        "使不安：把内心的稳定状态搅动起来"
+      ]
+    },
+    {
+      "id": "disturbance",
+      "word": "disturbance",
+      "pos": "noun",
+      "phonetic": "/dɪˈstɜːbəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "turba"
+      ],
+      "root_logic": "disturb（搅乱）+ -ance（状态或事件）→ 打破平静后出现的混乱或异常",
+      "origin": "英语 disturbance，来自 disturb",
+      "native_definition": "an interruption of peace or normal conditions",
+      "core_concept": "the disorder left after calm has been stirred – 平静被搅动后留下的异常状态",
+      "core_image": "原本整齐的队列出现一处推挤，波动传遍全队",
+      "chinese": [
+        "干扰",
+        "骚乱",
+        "异常"
+      ],
+      "examples": [
+        "The noise caused a serious disturbance.",
+        "Scientists detected a disturbance in the field."
+      ],
+      "synonyms": [
+        "disruption",
+        "disorder"
+      ],
+      "antonyms": [
+        "stability"
+      ],
+      "related": [
+        "disturb",
+        "turbine"
+      ],
+      "semantic_expansions": [
+        "干扰：正常过程被外力搅动",
+        "骚乱：人群秩序被搅散",
+        "异常：稳定系统中出现的扰动"
+      ]
+    },
+    {
+      "id": "turbine",
+      "word": "turbine",
+      "pos": "noun",
+      "phonetic": "/ˈtɜːbaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "turba"
+      ],
+      "root_logic": "turb（旋动）+ -ine（装置）→ 被流体推动而持续旋转的机器",
+      "origin": "法语 turbine，来自拉丁语 turbo（旋风、旋转物）",
+      "native_definition": "a machine whose blades rotate when driven by a moving fluid",
+      "core_concept": "a wheel turned by a controlled stream like a contained whirl – 流体推动叶片形成受控旋转",
+      "core_image": "水流冲向一圈叶片，中心轴随之快速转动",
+      "chinese": [
+        "涡轮机",
+        "叶轮机"
+      ],
+      "examples": [
+        "Steam drives the turbine.",
+        "The wind turbine generates electricity."
+      ],
+      "synonyms": [
+        "rotor",
+        "engine"
+      ],
+      "antonyms": [],
+      "related": [
+        "disturb",
+        "disturbance"
+      ],
+      "semantic_expansions": [
+        "涡轮机/叶轮机：利用水、气或蒸汽的流动推动叶片旋转的装置"
+      ]
+    },
+    {
+      "id": "attribute",
+      "word": "attribute",
+      "pos": "verb",
+      "phonetic": "/əˈtrɪbjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tribuere"
+      ],
+      "root_logic": "at-（向）+ tribut（分派）→ 把原因、性质或作品归到某一方名下",
+      "origin": "拉丁语 attributus，来自 attribuere（分配给、归于）",
+      "native_definition": "to regard something as caused or created by a particular source",
+      "core_concept": "assigning a result to one named source – 把结果那一份归到特定来源名下",
+      "core_image": "几条原因卡片最终被放到同一个名字下面",
+      "chinese": [
+        "归因于",
+        "把…归属",
+        "属性"
+      ],
+      "examples": [
+        "She attributes her success to persistence.",
+        "The work is attributed to a local artist."
+      ],
+      "synonyms": [
+        "ascribe",
+        "assign"
+      ],
+      "antonyms": [
+        "detach"
+      ],
+      "related": [
+        "contribute",
+        "distribute"
+      ],
+      "semantic_expansions": [
+        "归因于/归属：把结果或作品分派到某个来源名下",
+        "属性：被归给某一对象的特征"
+      ]
+    },
+    {
+      "id": "contribute",
+      "word": "contribute",
+      "pos": "verb",
+      "phonetic": "/kənˈtrɪbjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tribuere"
+      ],
+      "root_logic": "con-（共同）+ tribut（分派给予）→ 每个人把自己的一份交进共同之中",
+      "origin": "拉丁语 contribuere：con- + tribuere（共同给予）",
+      "native_definition": "to give money, effort, ideas, or help toward a shared result",
+      "core_concept": "giving one's assigned share into a common pool – 把自己的一份投入共同目标",
+      "core_image": "多人各放一块材料，中央逐渐拼成完整结构",
+      "chinese": [
+        "贡献",
+        "捐助",
+        "促成"
+      ],
+      "examples": [
+        "Many volunteers contributed their time.",
+        "Several factors contributed to the decline."
+      ],
+      "synonyms": [
+        "donate",
+        "add"
+      ],
+      "antonyms": [
+        "withhold"
+      ],
+      "related": [
+        "attribute",
+        "distribute"
+      ],
+      "semantic_expansions": [
+        "贡献/捐助：把自己的资源份额交给共同目标",
+        "促成：某个因素把自己的一份作用加入最终结果"
+      ]
+    },
+    {
+      "id": "distribute",
+      "word": "distribute",
+      "pos": "verb",
+      "phonetic": "/dɪˈstrɪbjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tribuere"
+      ],
+      "root_logic": "dis-（分开、向各处）+ tribut（分派）→ 把整体拆成份额送到各方",
+      "origin": "拉丁语 distribuere：dis- + tribuere（分开分配）",
+      "native_definition": "to give or spread portions among people or places",
+      "core_concept": "dividing a whole into shares and sending each outward – 把整体分成多份向外送出",
+      "core_image": "一摞资料被逐份递到房间里每个人手中",
+      "chinese": [
+        "分发",
+        "分配",
+        "分布"
+      ],
+      "examples": [
+        "Workers distributed food to the crowd.",
+        "The species is widely distributed."
+      ],
+      "synonyms": [
+        "allocate",
+        "circulate"
+      ],
+      "antonyms": [
+        "collect"
+      ],
+      "related": [
+        "attribute",
+        "contribute"
+      ],
+      "semantic_expansions": [
+        "分发/分配：把整体按份额交给不同对象",
+        "分布：许多份散到不同地点后形成的状态"
+      ]
+    },
+    {
+      "id": "distort",
+      "word": "distort",
+      "pos": "verb",
+      "phonetic": "/dɪˈstɔːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "torquere"
+      ],
+      "root_logic": "dis-（分离、偏离）+ tort（扭）→ 把原形或原意扭离正确位置",
+      "origin": "拉丁语 distortus，来自 distorquere（扭向一边）",
+      "native_definition": "to twist the shape, sound, facts, or meaning away from accuracy",
+      "core_concept": "twisting something away from its true line – 把形状或信息拧离真实轨道",
+      "core_image": "一条笔直网格被拉扯后弯曲，图像随之走样",
+      "chinese": [
+        "扭曲",
+        "歪曲",
+        "使变形"
+      ],
+      "examples": [
+        "The lens distorted the image.",
+        "Do not distort what she said."
+      ],
+      "synonyms": [
+        "twist",
+        "misrepresent"
+      ],
+      "antonyms": [
+        "clarify"
+      ],
+      "related": [
+        "retort",
+        "torture"
+      ],
+      "semantic_expansions": [
+        "扭曲/使变形：物体被拧离原形",
+        "歪曲：事实或原意被拧离真实含义"
+      ]
+    },
+    {
+      "id": "retort",
+      "word": "retort",
+      "pos": "verb",
+      "phonetic": "/rɪˈtɔːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "torquere"
+      ],
+      "root_logic": "re-（向回）+ tort（扭）→ 把对方的话拧转回去，形成尖锐回应",
+      "origin": "拉丁语 retortus，来自 retorquere（扭回、投回）",
+      "native_definition": "to reply quickly and sharply, or a vessel with a curved neck",
+      "core_concept": "turning an attack back toward its source – 把来势迅速扭回发出者方向",
+      "core_image": "一支射来的箭被弯曲挡板弹转回去",
+      "chinese": [
+        "反驳",
+        "回嘴",
+        "曲颈甑"
+      ],
+      "examples": [
+        "She retorted that the claim was unfair.",
+        "The liquid was heated in a glass retort."
+      ],
+      "synonyms": [
+        "reply",
+        "counter"
+      ],
+      "antonyms": [
+        "agree"
+      ],
+      "related": [
+        "distort",
+        "torture"
+      ],
+      "semantic_expansions": [
+        "反驳/回嘴：把对方的话锋扭转回去",
+        "曲颈甑：蒸馏容器的颈部弯转，使蒸气改向"
+      ]
+    },
+    {
+      "id": "torture",
+      "word": "torture",
+      "pos": "noun",
+      "phonetic": "/ˈtɔːtʃə/",
+      "decomposable": "root",
+      "root_ids": [
+        "torquere"
+      ],
+      "root_logic": "tort（扭）+ -ure → 原指扭曲身体施加痛苦，后泛指极端折磨",
+      "origin": "晚期拉丁语 tortura（扭曲、折磨），来自 torquere（扭）",
+      "native_definition": "the deliberate infliction of severe pain, or extreme suffering",
+      "core_concept": "pain produced as if the body or mind were being twisted – 身体或内心像被持续拧紧",
+      "core_image": "绳索被一点点收紧，承受者无法摆脱压力",
+      "chinese": [
+        "酷刑",
+        "折磨",
+        "使受煎熬"
+      ],
+      "examples": [
+        "The treaty prohibits torture.",
+        "The long uncertainty was torture for the family."
+      ],
+      "synonyms": [
+        "torment",
+        "agony"
+      ],
+      "antonyms": [
+        "comfort"
+      ],
+      "related": [
+        "distort",
+        "retort"
+      ],
+      "semantic_expansions": [
+        "酷刑：通过强力扭压身体制造剧痛",
+        "折磨/使受煎熬：痛苦像持续拧紧一样无法停止"
+      ]
+    },
+    {
+      "id": "tolerance",
+      "word": "tolerance",
+      "pos": "noun",
+      "phonetic": "/ˈtɒlərəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "tolerare"
+      ],
+      "root_logic": "toler（承受）+ -ance（能力或状态）→ 面对差异、压力或剂量仍能承受的范围",
+      "origin": "拉丁语 tolerantia（忍耐），来自 tolerare",
+      "native_definition": "the ability or willingness to accept difference, pain, or adverse conditions",
+      "core_concept": "the range of burden that can be borne without failure – 在不崩溃前可以承住的范围",
+      "core_image": "秤盘不断加码，支架仍保持稳定",
+      "chinese": [
+        "容忍",
+        "耐受性",
+        "公差"
+      ],
+      "examples": [
+        "A healthy society requires tolerance.",
+        "The material has a high heat tolerance."
+      ],
+      "synonyms": [
+        "acceptance",
+        "endurance"
+      ],
+      "antonyms": [
+        "intolerance"
+      ],
+      "related": [
+        "tolerant",
+        "tolerate"
+      ],
+      "semantic_expansions": [
+        "容忍：承受与自己不同的人或观点",
+        "耐受性：身体或材料承住刺激的能力",
+        "公差：尺寸允许承受的偏差范围"
+      ]
+    },
+    {
+      "id": "tolerant",
+      "word": "tolerant",
+      "pos": "adjective",
+      "phonetic": "/ˈtɒlərənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tolerare"
+      ],
+      "root_logic": "toler（承受）+ -ant（具有…性质的）→ 能承受差异或不利条件的",
+      "origin": "拉丁语 tolerans，tolerare（承受）的现在分词",
+      "native_definition": "willing to accept differences, or able to withstand conditions",
+      "core_concept": "able to carry difference or stress without reacting destructively – 承住差异或压力而不失稳",
+      "core_image": "不同颜色的积木放在同一平台上，平台仍稳稳托住全部",
+      "chinese": [
+        "宽容的",
+        "耐受的"
+      ],
+      "examples": [
+        "They are tolerant of opposing views.",
+        "This plant is tolerant of drought."
+      ],
+      "synonyms": [
+        "open-minded",
+        "resistant"
+      ],
+      "antonyms": [
+        "intolerant"
+      ],
+      "related": [
+        "tolerance",
+        "tolerate"
+      ],
+      "semantic_expansions": [
+        "宽容的：能承受观点和生活方式的差异",
+        "耐受的：能承受干旱、温度等不利条件"
+      ]
+    },
+    {
+      "id": "tolerate",
+      "word": "tolerate",
+      "pos": "verb",
+      "phonetic": "/ˈtɒləreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tolerare"
+      ],
+      "root_logic": "toler（承受）+ -ate → 把不舒服或不同之处扛住而不阻止",
+      "origin": "拉丁语 tolerare（承受、忍耐）",
+      "native_definition": "to allow something disliked or withstand an adverse condition",
+      "core_concept": "continuing to bear something unpleasant without collapse or removal – 面对不适仍把它承住",
+      "core_image": "机器在持续震动中运转，结构没有断裂",
+      "chinese": [
+        "容忍",
+        "忍受",
+        "耐受"
+      ],
+      "examples": [
+        "The school will not tolerate bullying.",
+        "Some crops tolerate salty soil."
+      ],
+      "synonyms": [
+        "endure",
+        "permit"
+      ],
+      "antonyms": [
+        "reject"
+      ],
+      "related": [
+        "tolerance",
+        "tolerant"
+      ],
+      "semantic_expansions": [
+        "容忍/忍受：面对不喜欢的行为或感受仍承受下来",
+        "耐受：生物或材料在不利条件下仍维持功能"
+      ]
+    },
+    {
+      "id": "hypothesis",
+      "word": "hypothesis",
+      "pos": "noun",
+      "phonetic": "/haɪˈpɒθəsɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "tithenai"
+      ],
+      "root_logic": "hypo-（在下方）+ thesis（放置）→ 先放在论证底下作为待验证的基础",
+      "origin": "希腊语 hypothesis（基础、假定）：hypo- + thesis",
+      "native_definition": "an explanation proposed for testing",
+      "core_concept": "an idea placed underneath an investigation as its starting support – 先垫在调查下面等待验证的解释",
+      "core_image": "实验开始前，一张暂定说明被放在证据板最底层",
+      "chinese": [
+        "假设",
+        "假说"
+      ],
+      "examples": [
+        "The experiment tests the hypothesis.",
+        "They proposed a new hypothesis about climate change."
+      ],
+      "synonyms": [
+        "theory",
+        "proposal"
+      ],
+      "antonyms": [
+        "certainty"
+      ],
+      "related": [
+        "synthesis",
+        "thesis"
+      ],
+      "semantic_expansions": [
+        "假设/假说：暂时放在研究底部、等待证据检验的解释"
+      ]
+    },
+    {
+      "id": "synthesis",
+      "word": "synthesis",
+      "pos": "noun",
+      "phonetic": "/ˈsɪnθəsɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "tithenai"
+      ],
+      "root_logic": "syn-（共同）+ thesis（放置）→ 把多个部分放到一起形成整体",
+      "origin": "希腊语 synthesis：syn- + thesis（共同放置）",
+      "native_definition": "the combination of parts or ideas into a connected whole",
+      "core_concept": "placing separate pieces together until one whole emerges – 把分散部分共同放成整体",
+      "core_image": "几张不同颜色的碎片被拼到一起，中央出现完整图案",
+      "chinese": [
+        "综合",
+        "合成",
+        "结合体"
+      ],
+      "examples": [
+        "The essay offers a synthesis of several theories.",
+        "The drug is produced by chemical synthesis."
+      ],
+      "synonyms": [
+        "combination",
+        "integration"
+      ],
+      "antonyms": [
+        "analysis"
+      ],
+      "related": [
+        "hypothesis",
+        "thesis"
+      ],
+      "semantic_expansions": [
+        "综合：把不同观点共同放进一个整体",
+        "合成：把不同物质组合成新整体",
+        "结合体：共同放置后形成的结果"
+      ]
+    },
+    {
+      "id": "thesis",
+      "word": "thesis",
+      "pos": "noun",
+      "phonetic": "/ˈθiːsɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "tithenai"
+      ],
+      "root_logic": "thesis（放置、命题）→ 正式放出来供论证的主张或研究成果",
+      "origin": "希腊语 thesis（放置、命题），经拉丁语进入英语",
+      "native_definition": "a central proposition or a long research paper supporting one",
+      "core_concept": "a claim set down to be defended with evidence – 放到台面上并用证据支撑的主张",
+      "core_image": "一张核心主张放在中央，周围证据用线与它相连",
+      "chinese": [
+        "论点",
+        "论文",
+        "命题"
+      ],
+      "examples": [
+        "Her thesis challenges the standard account.",
+        "He completed his doctoral thesis."
+      ],
+      "synonyms": [
+        "argument",
+        "dissertation"
+      ],
+      "antonyms": [
+        "retraction"
+      ],
+      "related": [
+        "hypothesis",
+        "synthesis"
+      ],
+      "semantic_expansions": [
+        "论点/命题：正式放出并准备论证的主张",
+        "论文：围绕一个核心主张组织证据的长篇研究"
+      ]
+    },
+    {
+      "id": "integral",
+      "word": "integral",
+      "pos": "adjective",
+      "phonetic": "/ˈɪntɪɡrəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "integer"
+      ],
+      "root_logic": "integr（完整）+ -al → 属于整体且不可缺少的",
+      "origin": "拉丁语 integralis（构成整体的），来自 integer（完整）",
+      "native_definition": "necessary to make a whole complete, or forming a whole",
+      "core_concept": "a part whose removal would break the whole – 一旦拿走整体就出现缺口的部分",
+      "core_image": "齿轮组中一枚关键齿轮与其余部分严密咬合",
+      "chinese": [
+        "不可或缺的",
+        "完整的",
+        "积分的"
+      ],
+      "examples": [
+        "Trust is integral to the partnership.",
+        "The machine has an integral control unit."
+      ],
+      "synonyms": [
+        "essential",
+        "inherent"
+      ],
+      "antonyms": [
+        "optional"
+      ],
+      "related": [
+        "integrate",
+        "integrity"
+      ],
+      "semantic_expansions": [
+        "不可或缺的：少了它整体便不完整",
+        "完整的：作为一个整体内置形成",
+        "积分的：数学中把微小部分重新合成整体量"
+      ]
+    },
+    {
+      "id": "integrate",
+      "word": "integrate",
+      "pos": "verb",
+      "phonetic": "/ˈɪntɪɡreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "integer"
+      ],
+      "root_logic": "integr（完整）+ -ate → 使分开的部分进入一个完整整体",
+      "origin": "拉丁语 integrare（使完整、恢复），来自 integer",
+      "native_definition": "to combine parts into a whole or bring people fully into a group",
+      "core_concept": "making separated parts function as one intact whole – 让分散部分合成无缺口的整体",
+      "core_image": "几个独立模块接上接口后开始像一台机器共同运转",
+      "chinese": [
+        "整合",
+        "融入",
+        "使一体化"
+      ],
+      "examples": [
+        "The platform integrates several services.",
+        "New students quickly integrated into the group."
+      ],
+      "synonyms": [
+        "combine",
+        "unify"
+      ],
+      "antonyms": [
+        "separate"
+      ],
+      "related": [
+        "integral",
+        "integrity"
+      ],
+      "semantic_expansions": [
+        "整合/使一体化：把分散部分接成完整系统",
+        "融入：让个体进入群体并成为其中完整一部分"
+      ]
+    },
+    {
+      "id": "integrity",
+      "word": "integrity",
+      "pos": "noun",
+      "phonetic": "/ɪnˈteɡrəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "integer"
+      ],
+      "root_logic": "integr（完整）+ -ity（状态）→ 结构没有破损，或人格没有被利益切走一块",
+      "origin": "拉丁语 integritas（完整、纯正），来自 integer",
+      "native_definition": "structural wholeness or firm adherence to moral principles",
+      "core_concept": "remaining whole under pressure, physically or morally – 面对压力仍不破裂、不缺失",
+      "core_image": "密封结构经受冲击后仍无裂缝，内部也没有泄漏",
+      "chinese": [
+        "完整性",
+        "正直",
+        "诚实"
+      ],
+      "examples": [
+        "Engineers checked the bridge's structural integrity.",
+        "She acted with integrity."
+      ],
+      "synonyms": [
+        "wholeness",
+        "honesty"
+      ],
+      "antonyms": [
+        "corruption"
+      ],
+      "related": [
+        "integral",
+        "integrate"
+      ],
+      "semantic_expansions": [
+        "完整性：结构在压力下仍保持无缺口",
+        "正直/诚实：原则没有被诱因削掉一部分"
+      ]
+    },
+    {
+      "id": "commemorate",
+      "word": "commemorate",
+      "pos": "verb",
+      "phonetic": "/kəˈmeməreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "memor"
+      ],
+      "root_logic": "com-（共同）+ memor（记住）+ -ate → 大家一起把某事留在记忆中",
+      "origin": "拉丁语 commemorare（提醒、纪念）：com- + memorare",
+      "native_definition": "to honor and remember an important person or event",
+      "core_concept": "keeping an event present in shared memory – 让一件事持续留在众人的共同记忆里",
+      "core_image": "人群围在一块刻有日期的石碑旁，安静回望过去",
+      "chinese": [
+        "纪念",
+        "庆祝"
+      ],
+      "examples": [
+        "The ceremony commemorates those who died.",
+        "A plaque commemorates the discovery."
+      ],
+      "synonyms": [
+        "honor",
+        "remember"
+      ],
+      "antonyms": [
+        "forget"
+      ],
+      "related": [
+        "memorial",
+        "memory"
+      ],
+      "semantic_expansions": [
+        "纪念：通过仪式或标志让重要的人与事留在共同记忆中",
+        "庆祝：以公开活动记住值得欢庆的事件"
+      ]
+    },
+    {
+      "id": "memorial",
+      "word": "memorial",
+      "pos": "noun",
+      "phonetic": "/məˈmɔːriəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "memor"
+      ],
+      "root_logic": "memor（记住）+ -ial（有关…的）→ 专门帮助人把过去留在心中的标志",
+      "origin": "晚期拉丁语 memoriale（纪念物），来自 memoria",
+      "native_definition": "something created to preserve the memory of a person or event",
+      "core_concept": "a visible object that keeps an absent past present – 用可见标志把已经离开的过去留下",
+      "core_image": "广场中央立着刻名石碑，经过的人停步阅读",
+      "chinese": [
+        "纪念碑",
+        "纪念物",
+        "追悼的"
+      ],
+      "examples": [
+        "They built a memorial beside the river.",
+        "A memorial service was held on Sunday."
+      ],
+      "synonyms": [
+        "monument",
+        "tribute"
+      ],
+      "antonyms": [
+        "oblivion"
+      ],
+      "related": [
+        "commemorate",
+        "memory"
+      ],
+      "semantic_expansions": [
+        "纪念碑/纪念物：帮助后人持续想起过去的实体标志",
+        "追悼的：用于共同记住逝者的"
+      ]
+    },
+    {
+      "id": "memory",
+      "word": "memory",
+      "pos": "noun",
+      "phonetic": "/ˈmeməri/",
+      "decomposable": "root",
+      "root_ids": [
+        "memor"
+      ],
+      "root_logic": "memor（记住）+ -y → 心中保存并可再次调出的过去内容或能力",
+      "origin": "拉丁语 memoria（记忆），来自 memor（记得的）",
+      "native_definition": "the ability to retain information or something remembered",
+      "core_concept": "a past scene kept available inside the mind – 被心智保存、之后还能调出的场景",
+      "core_image": "关闭的相册重新翻开，旧画面再次清晰出现",
+      "chinese": [
+        "记忆力",
+        "回忆",
+        "存储器"
+      ],
+      "examples": [
+        "The experience remains vivid in my memory.",
+        "The computer needs more memory."
+      ],
+      "synonyms": [
+        "recollection",
+        "remembrance"
+      ],
+      "antonyms": [
+        "forgetfulness"
+      ],
+      "related": [
+        "commemorate",
+        "memorial"
+      ],
+      "semantic_expansions": [
+        "记忆力：把信息留在心中的能力",
+        "回忆：被保存并再次调出的内容",
+        "存储器：机器中承担类似留存功能的部件"
+      ]
+    },
+    {
+      "id": "mechanic",
+      "word": "mechanic",
+      "pos": "noun",
+      "phonetic": "/məˈkænɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "mekhane"
+      ],
+      "root_logic": "mechan（机器装置）+ -ic（从事者）→ 处理机器结构与运转的人",
+      "origin": "希腊语 mēkhanikos（与机器有关的），经拉丁语和法语进入英语",
+      "native_definition": "a person who repairs and maintains machines",
+      "core_concept": "someone who understands how a device's parts produce motion – 看懂各部件如何传力并修复它的人",
+      "core_image": "工作台上摊开齿轮和螺栓，一双手逐件检查磨损",
+      "chinese": [
+        "机械师",
+        "修理工"
+      ],
+      "examples": [
+        "The mechanic inspected the engine.",
+        "A bicycle mechanic replaced the chain."
+      ],
+      "synonyms": [
+        "technician",
+        "repairer"
+      ],
+      "antonyms": [],
+      "related": [
+        "mechanical",
+        "mechanism"
+      ],
+      "semantic_expansions": [
+        "机械师/修理工：理解机器部件并维护其运转的人"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "word": "mechanical",
+      "pos": "adjective",
+      "phonetic": "/məˈkænɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "mekhane"
+      ],
+      "root_logic": "mechan（机器）+ -ical（有关…的）→ 属于机器运转，或像机器一样不经思考重复",
+      "origin": "晚期拉丁语 mechanicus，来自希腊语 mēkhanikos",
+      "native_definition": "relating to machines, or performed automatically without thought",
+      "core_concept": "working through fixed moving parts or fixed repetition – 按预定结构和动作运转",
+      "core_image": "齿轮每转一圈，连杆都按同一路径重复升降",
+      "chinese": [
+        "机械的",
+        "机械性的",
+        "呆板的"
+      ],
+      "examples": [
+        "The device suffered a mechanical failure.",
+        "His response sounded mechanical."
+      ],
+      "synonyms": [
+        "automatic"
+      ],
+      "antonyms": [
+        "spontaneous"
+      ],
+      "related": [
+        "mechanic",
+        "mechanism"
+      ],
+      "semantic_expansions": [
+        "机械的：由机器部件和传力结构完成的",
+        "机械性的/呆板的：像固定装置一样重复而缺少灵活判断"
+      ]
+    },
+    {
+      "id": "mechanism",
+      "word": "mechanism",
+      "pos": "noun",
+      "phonetic": "/ˈmekənɪzəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "mekhane"
+      ],
+      "root_logic": "mechan（装置）+ -ism（体系）→ 各部件配合产生结果的内部系统",
+      "origin": "新拉丁语 mechanismus，来自希腊语 mēkhanē",
+      "native_definition": "a system of parts or processes that produces a result",
+      "core_concept": "the hidden arrangement through which inputs become an outcome – 输入沿内部结构传递并产生结果",
+      "core_image": "透明外壳内，多枚齿轮依次咬合带动末端指针",
+      "chinese": [
+        "机制",
+        "机械装置",
+        "机理"
+      ],
+      "examples": [
+        "The locking mechanism is simple.",
+        "Researchers studied the mechanism of infection."
+      ],
+      "synonyms": [
+        "system",
+        "process"
+      ],
+      "antonyms": [
+        "randomness"
+      ],
+      "related": [
+        "mechanic",
+        "mechanical"
+      ],
+      "semantic_expansions": [
+        "机械装置：实体部件配合运转的系统",
+        "机制/机理：任何过程内部使结果发生的连锁结构"
+      ]
+    },
+    {
+      "id": "graph",
+      "word": "graph",
+      "pos": "noun",
+      "phonetic": "/ɡrɑːf/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "graph（写、画）→ 用线和位置把数量关系画出来的记录",
+      "origin": "希腊语 graphē（书写、图画），来自 graphein",
+      "native_definition": "a diagram showing relationships between quantities",
+      "core_concept": "quantities written as positions and lines on a surface – 数量被写成平面上的点和线",
+      "core_image": "坐标纸上的数据点被一条上升曲线连接",
+      "chinese": [
+        "图表",
+        "曲线图",
+        "绘图"
+      ],
+      "examples": [
+        "The graph shows a steady increase.",
+        "Plot the results on a graph."
+      ],
+      "synonyms": [
+        "chart",
+        "diagram"
+      ],
+      "antonyms": [],
+      "related": [
+        "graphic",
+        "paragraph"
+      ],
+      "semantic_expansions": [
+        "图表/曲线图：把数量关系刻写成位置和线条",
+        "绘图：把数据记录到图形表面上的动作"
+      ]
+    },
+    {
+      "id": "graphic",
+      "word": "graphic",
+      "pos": "adjective",
+      "phonetic": "/ˈɡræfɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "graph（画、写）+ -ic → 通过清楚图形呈现，或描写得像画在眼前",
+      "origin": "希腊语 graphikos（适于书写或绘画的），来自 graphein",
+      "native_definition": "relating to visual images, or described in vivid detail",
+      "core_concept": "presented in marks vivid enough to be seen mentally – 用线条或细节呈现得清晰可见",
+      "core_image": "文字旁边出现一幅轮廓鲜明的示意图，信息一眼可辨",
+      "chinese": [
+        "图形的",
+        "生动的",
+        "详细露骨的"
+      ],
+      "examples": [
+        "The report includes graphic illustrations.",
+        "The witness gave a graphic account."
+      ],
+      "synonyms": [
+        "visual",
+        "vivid"
+      ],
+      "antonyms": [
+        "vague"
+      ],
+      "related": [
+        "graph",
+        "paragraph"
+      ],
+      "semantic_expansions": [
+        "图形的：以可见线条和图像呈现",
+        "生动的/详细露骨的：描述清晰得像直接画在眼前"
+      ]
+    },
+    {
+      "id": "paragraph",
+      "word": "paragraph",
+      "pos": "noun",
+      "phonetic": "/ˈpærəɡrɑːf/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "para-（旁边）+ graph（写）→ 原指写在旁边的段落标记，后指由该标记分出的文字块",
+      "origin": "希腊语 paragraphos（写在旁边的标记），经拉丁语进入英语",
+      "native_definition": "a distinct section of written text dealing with one point",
+      "core_concept": "a block of writing marked off as one unit – 被边界标出、集中表达一点的文字块",
+      "core_image": "长篇文字中一次换行缩进，圈出一个独立内容单元",
+      "chinese": [
+        "段落",
+        "分段符号"
+      ],
+      "examples": [
+        "Each paragraph develops one idea.",
+        "Please divide the text into paragraphs."
+      ],
+      "synonyms": [
+        "section",
+        "passage"
+      ],
+      "antonyms": [],
+      "related": [
+        "graph",
+        "graphic"
+      ],
+      "semantic_expansions": [
+        "段落：被标记边界分开的一个书写单元",
+        "分段符号：早期写在行旁、提示新单元开始的记号"
+      ]
+    },
+    {
+      "id": "impression",
+      "word": "impression",
+      "pos": "noun",
+      "phonetic": "/ɪmˈpreʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "press"
+      ],
+      "root_logic": "im-（压入）+ press（压）+ -ion → 外物压入心中留下的痕迹",
+      "origin": "拉丁语 impressio（压入、印痕），来自 imprimere",
+      "native_definition": "an idea or effect formed in the mind, or a mark pressed into a surface",
+      "core_concept": "a mark left after something presses inward – 接触之后被压留下来的痕迹",
+      "core_image": "软蜡被印章压下，抬起后仍保留清晰纹路",
+      "chinese": [
+        "印象",
+        "印记",
+        "印数"
+      ],
+      "examples": [
+        "She made a strong first impression.",
+        "The seal left an impression in the wax."
+      ],
+      "synonyms": [
+        "effect",
+        "image"
+      ],
+      "antonyms": [
+        "certainty"
+      ],
+      "related": [
+        "impress",
+        "impressive",
+        "pressure"
+      ],
+      "semantic_expansions": [
+        "印象：经历压入心中留下的整体痕迹",
+        "印记：物体受压后留下的形状",
+        "印数：印刷版被反复压印出的数量"
+      ]
+    },
+    {
+      "id": "impressive",
+      "word": "impressive",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈpresɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "press"
+      ],
+      "root_logic": "impress（压入、留下印象）+ -ive → 强到能深深压进人心的",
+      "origin": "英语 impressive，来自 impress",
+      "native_definition": "causing admiration through size, quality, or skill",
+      "core_concept": "powerful enough to leave a deep mental mark – 力量或品质深深压入心中",
+      "core_image": "宏大的建筑立在眼前，轮廓久久留在观看者脑中",
+      "chinese": [
+        "令人印象深刻的",
+        "令人钦佩的"
+      ],
+      "examples": [
+        "The team achieved an impressive result.",
+        "The building is visually impressive."
+      ],
+      "synonyms": [
+        "striking",
+        "remarkable"
+      ],
+      "antonyms": [
+        "ordinary"
+      ],
+      "related": [
+        "impress",
+        "impression",
+        "pressure"
+      ],
+      "semantic_expansions": [
+        "令人印象深刻的/令人钦佩的：效果强到在人心中留下深刻压痕"
+      ]
+    },
+    {
+      "id": "container",
+      "word": "container",
+      "pos": "noun",
+      "phonetic": "/kənˈteɪnə/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（共同、在内）+ tain（握住）+ -er → 把内容物收在内部握住的东西",
+      "origin": "英语 contain + -er；contain 来自拉丁语 continere",
+      "native_definition": "an object used to hold or transport things",
+      "core_concept": "an enclosure that holds contents together inside – 把内容集中握在内部的外壳",
+      "core_image": "透明盒子的四壁把散落零件稳稳收在里面",
+      "chinese": [
+        "容器",
+        "集装箱"
+      ],
+      "examples": [
+        "Store the liquid in a sealed container.",
+        "The goods arrived in a shipping container."
+      ],
+      "synonyms": [
+        "vessel",
+        "box"
+      ],
+      "antonyms": [
+        "contents"
+      ],
+      "related": [
+        "contain",
+        "retain",
+        "tenant"
+      ],
+      "semantic_expansions": [
+        "容器：把物品收在内部的器具",
+        "集装箱：用于运输、把大量货物集中握住的标准箱体"
+      ]
+    },
+    {
+      "id": "tenant",
+      "word": "tenant",
+      "pos": "noun",
+      "phonetic": "/ˈtenənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "ten（握住、占有）+ -ant（人）→ 依法握有房屋使用权的人",
+      "origin": "古法语 tenant（持有者），来自拉丁语 tenere（握住）",
+      "native_definition": "a person who rents and occupies property",
+      "core_concept": "someone who holds the right to occupy a place for a period – 在约定时期握有空间使用权的人",
+      "core_image": "钥匙被交到入住者手中，在租期内由其保管房屋",
+      "chinese": [
+        "租户",
+        "承租人"
+      ],
+      "examples": [
+        "The tenant pays rent monthly.",
+        "Landlords must protect tenant rights."
+      ],
+      "synonyms": [
+        "renter",
+        "occupant"
+      ],
+      "antonyms": [
+        "landlord"
+      ],
+      "related": [
+        "contain",
+        "container",
+        "sustain"
+      ],
+      "semantic_expansions": [
+        "租户/承租人：通过租约暂时握有房屋使用权的人"
+      ]
+    },
+    {
+      "id": "conquest",
+      "word": "conquest",
+      "pos": "noun",
+      "phonetic": "/ˈkɒŋkwest/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "con-（加强、完全）+ quest（寻求）→ 追索到底并取得控制",
+      "origin": "古法语 conqueste，来自拉丁语 conquirere（搜求、取得）",
+      "native_definition": "the act of taking control by force, or something won",
+      "core_concept": "a search pursued until the object is taken into one's control – 追求直到目标被取得并控制",
+      "core_image": "旗帜越过城墙，寻找的领地被纳入控制范围",
+      "chinese": [
+        "征服",
+        "攻取",
+        "战利品"
+      ],
+      "examples": [
+        "The conquest changed the region's borders.",
+        "The island became a colonial conquest."
+      ],
+      "synonyms": [
+        "victory",
+        "capture"
+      ],
+      "antonyms": [
+        "surrender"
+      ],
+      "related": [
+        "enquire",
+        "exquisite",
+        "quest"
+      ],
+      "semantic_expansions": [
+        "征服/攻取：追索目标直到取得控制",
+        "战利品：完成这种取得后落入手中的东西"
+      ]
+    },
+    {
+      "id": "enquire",
+      "word": "enquire",
+      "pos": "verb",
+      "phonetic": "/ɪnˈkwaɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "en-（进入）+ quir（寻求）→ 通过提问深入寻找信息",
+      "origin": "古法语 enquérir，来自拉丁语 inquirere（寻求、调查）",
+      "native_definition": "to ask for information",
+      "core_concept": "seeking one's way into missing information through questions – 用问题进入未知处寻找答案",
+      "core_image": "一个问号沿着线索深入档案，逐格照亮空白",
+      "chinese": [
+        "询问",
+        "打听",
+        "调查"
+      ],
+      "examples": [
+        "I called to enquire about the schedule.",
+        "Police enquired into the complaint."
+      ],
+      "synonyms": [
+        "ask",
+        "investigate"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "related": [
+        "conquest",
+        "exquisite",
+        "inquiry"
+      ],
+      "semantic_expansions": [
+        "询问/打听：通过提问寻找缺少的信息",
+        "调查：沿线索深入寻找事实"
+      ]
+    },
+    {
+      "id": "exquisite",
+      "word": "exquisite",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈskwɪzɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "ex-（彻底、向外）+ quisit（寻求）→ 被精挑细选出来的 → 极精美的",
+      "origin": "拉丁语 exquisitus，来自 exquirere（仔细搜寻、挑选）",
+      "native_definition": "extremely beautiful, delicate, or finely made",
+      "core_concept": "selected through an exceptionally careful search – 经过细密寻找才挑出的上乘之物",
+      "core_image": "许多近似样品中，一件细节最完美的被单独取出",
+      "chinese": [
+        "精美的",
+        "精致的",
+        "剧烈的"
+      ],
+      "examples": [
+        "The box contains exquisite carvings.",
+        "She felt exquisite pain in her hand."
+      ],
+      "synonyms": [
+        "delicate",
+        "superb"
+      ],
+      "antonyms": [
+        "crude"
+      ],
+      "related": [
+        "conquest",
+        "enquire",
+        "inquiry"
+      ],
+      "semantic_expansions": [
+        "精美的/精致的：像经过彻底搜选才留下的上品",
+        "剧烈的：感觉细密而强烈到每一点都清晰可辨"
+      ]
+    }
+  ]
+}

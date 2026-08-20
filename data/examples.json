@@ -8176,6 +8176,524 @@
       "text": "We must achieve greater economy in fuel use.",
       "source": "AI 生成 · 人工审核",
       "scene": "一个巨大的家庭账本里同时记录生产、交易、收入和支出"
+    },
+    {
+      "id": "ex-advocate-1",
+      "word_id": "advocate",
+      "text": "She is a strong advocate for equal access.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一人面对人群陈述理由，身旁的人因此不再独自应对"
+    },
+    {
+      "id": "ex-advocate-2",
+      "word_id": "advocate",
+      "text": "The report advocates stricter safety rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一人面对人群陈述理由，身旁的人因此不再独自应对"
+    },
+    {
+      "id": "ex-vocal-1",
+      "word_id": "vocal",
+      "text": "The song demands strong vocal control.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本安静的人走到麦克风前，把立场清楚说出"
+    },
+    {
+      "id": "ex-vocal-2",
+      "word_id": "vocal",
+      "text": "Residents were vocal in their opposition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本安静的人走到麦克风前，把立场清楚说出"
+    },
+    {
+      "id": "ex-vocation-1",
+      "word_id": "vocation",
+      "text": "Teaching became her vocation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条工作道路从远处亮起，像持续的呼声引人走过去"
+    },
+    {
+      "id": "ex-vocation-2",
+      "word_id": "vocation",
+      "text": "He felt a vocation to serve the community.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条工作道路从远处亮起，像持续的呼声引人走过去"
+    },
+    {
+      "id": "ex-disturb-1",
+      "word_id": "disturb",
+      "text": "Please do not disturb the patients.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "平整水面被突然拨动，波纹向四周扩散"
+    },
+    {
+      "id": "ex-disturb-2",
+      "word_id": "disturb",
+      "text": "The news disturbed her deeply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "平整水面被突然拨动，波纹向四周扩散"
+    },
+    {
+      "id": "ex-disturbance-1",
+      "word_id": "disturbance",
+      "text": "The noise caused a serious disturbance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本整齐的队列出现一处推挤，波动传遍全队"
+    },
+    {
+      "id": "ex-disturbance-2",
+      "word_id": "disturbance",
+      "text": "Scientists detected a disturbance in the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "原本整齐的队列出现一处推挤，波动传遍全队"
+    },
+    {
+      "id": "ex-turbine-1",
+      "word_id": "turbine",
+      "text": "Steam drives the turbine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水流冲向一圈叶片，中心轴随之快速转动"
+    },
+    {
+      "id": "ex-turbine-2",
+      "word_id": "turbine",
+      "text": "The wind turbine generates electricity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水流冲向一圈叶片，中心轴随之快速转动"
+    },
+    {
+      "id": "ex-attribute-1",
+      "word_id": "attribute",
+      "text": "She attributes her success to persistence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几条原因卡片最终被放到同一个名字下面"
+    },
+    {
+      "id": "ex-attribute-2",
+      "word_id": "attribute",
+      "text": "The work is attributed to a local artist.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几条原因卡片最终被放到同一个名字下面"
+    },
+    {
+      "id": "ex-contribute-1",
+      "word_id": "contribute",
+      "text": "Many volunteers contributed their time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "多人各放一块材料，中央逐渐拼成完整结构"
+    },
+    {
+      "id": "ex-contribute-2",
+      "word_id": "contribute",
+      "text": "Several factors contributed to the decline.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "多人各放一块材料，中央逐渐拼成完整结构"
+    },
+    {
+      "id": "ex-distribute-1",
+      "word_id": "distribute",
+      "text": "Workers distributed food to the crowd.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一摞资料被逐份递到房间里每个人手中"
+    },
+    {
+      "id": "ex-distribute-2",
+      "word_id": "distribute",
+      "text": "The species is widely distributed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一摞资料被逐份递到房间里每个人手中"
+    },
+    {
+      "id": "ex-distort-1",
+      "word_id": "distort",
+      "text": "The lens distorted the image.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条笔直网格被拉扯后弯曲，图像随之走样"
+    },
+    {
+      "id": "ex-distort-2",
+      "word_id": "distort",
+      "text": "Do not distort what she said.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条笔直网格被拉扯后弯曲，图像随之走样"
+    },
+    {
+      "id": "ex-retort-1",
+      "word_id": "retort",
+      "text": "She retorted that the claim was unfair.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一支射来的箭被弯曲挡板弹转回去"
+    },
+    {
+      "id": "ex-retort-2",
+      "word_id": "retort",
+      "text": "The liquid was heated in a glass retort.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一支射来的箭被弯曲挡板弹转回去"
+    },
+    {
+      "id": "ex-torture-1",
+      "word_id": "torture",
+      "text": "The treaty prohibits torture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳索被一点点收紧，承受者无法摆脱压力"
+    },
+    {
+      "id": "ex-torture-2",
+      "word_id": "torture",
+      "text": "The long uncertainty was torture for the family.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳索被一点点收紧，承受者无法摆脱压力"
+    },
+    {
+      "id": "ex-tolerance-1",
+      "word_id": "tolerance",
+      "text": "A healthy society requires tolerance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤盘不断加码，支架仍保持稳定"
+    },
+    {
+      "id": "ex-tolerance-2",
+      "word_id": "tolerance",
+      "text": "The material has a high heat tolerance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤盘不断加码，支架仍保持稳定"
+    },
+    {
+      "id": "ex-tolerant-1",
+      "word_id": "tolerant",
+      "text": "They are tolerant of opposing views.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "不同颜色的积木放在同一平台上，平台仍稳稳托住全部"
+    },
+    {
+      "id": "ex-tolerant-2",
+      "word_id": "tolerant",
+      "text": "This plant is tolerant of drought.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "不同颜色的积木放在同一平台上，平台仍稳稳托住全部"
+    },
+    {
+      "id": "ex-tolerate-1",
+      "word_id": "tolerate",
+      "text": "The school will not tolerate bullying.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器在持续震动中运转，结构没有断裂"
+    },
+    {
+      "id": "ex-tolerate-2",
+      "word_id": "tolerate",
+      "text": "Some crops tolerate salty soil.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器在持续震动中运转，结构没有断裂"
+    },
+    {
+      "id": "ex-hypothesis-1",
+      "word_id": "hypothesis",
+      "text": "The experiment tests the hypothesis.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "实验开始前，一张暂定说明被放在证据板最底层"
+    },
+    {
+      "id": "ex-hypothesis-2",
+      "word_id": "hypothesis",
+      "text": "They proposed a new hypothesis about climate change.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "实验开始前，一张暂定说明被放在证据板最底层"
+    },
+    {
+      "id": "ex-synthesis-1",
+      "word_id": "synthesis",
+      "text": "The essay offers a synthesis of several theories.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几张不同颜色的碎片被拼到一起，中央出现完整图案"
+    },
+    {
+      "id": "ex-synthesis-2",
+      "word_id": "synthesis",
+      "text": "The drug is produced by chemical synthesis.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几张不同颜色的碎片被拼到一起，中央出现完整图案"
+    },
+    {
+      "id": "ex-thesis-1",
+      "word_id": "thesis",
+      "text": "Her thesis challenges the standard account.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张核心主张放在中央，周围证据用线与它相连"
+    },
+    {
+      "id": "ex-thesis-2",
+      "word_id": "thesis",
+      "text": "He completed his doctoral thesis.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张核心主张放在中央，周围证据用线与它相连"
+    },
+    {
+      "id": "ex-integral-1",
+      "word_id": "integral",
+      "text": "Trust is integral to the partnership.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "齿轮组中一枚关键齿轮与其余部分严密咬合"
+    },
+    {
+      "id": "ex-integral-2",
+      "word_id": "integral",
+      "text": "The machine has an integral control unit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "齿轮组中一枚关键齿轮与其余部分严密咬合"
+    },
+    {
+      "id": "ex-integrate-1",
+      "word_id": "integrate",
+      "text": "The platform integrates several services.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个独立模块接上接口后开始像一台机器共同运转"
+    },
+    {
+      "id": "ex-integrate-2",
+      "word_id": "integrate",
+      "text": "New students quickly integrated into the group.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个独立模块接上接口后开始像一台机器共同运转"
+    },
+    {
+      "id": "ex-integrity-1",
+      "word_id": "integrity",
+      "text": "Engineers checked the bridge's structural integrity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "密封结构经受冲击后仍无裂缝，内部也没有泄漏"
+    },
+    {
+      "id": "ex-integrity-2",
+      "word_id": "integrity",
+      "text": "She acted with integrity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "密封结构经受冲击后仍无裂缝，内部也没有泄漏"
+    },
+    {
+      "id": "ex-commemorate-1",
+      "word_id": "commemorate",
+      "text": "The ceremony commemorates those who died.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人群围在一块刻有日期的石碑旁，安静回望过去"
+    },
+    {
+      "id": "ex-commemorate-2",
+      "word_id": "commemorate",
+      "text": "A plaque commemorates the discovery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人群围在一块刻有日期的石碑旁，安静回望过去"
+    },
+    {
+      "id": "ex-memorial-1",
+      "word_id": "memorial",
+      "text": "They built a memorial beside the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场中央立着刻名石碑，经过的人停步阅读"
+    },
+    {
+      "id": "ex-memorial-2",
+      "word_id": "memorial",
+      "text": "A memorial service was held on Sunday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场中央立着刻名石碑，经过的人停步阅读"
+    },
+    {
+      "id": "ex-memory-1",
+      "word_id": "memory",
+      "text": "The experience remains vivid in my memory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "关闭的相册重新翻开，旧画面再次清晰出现"
+    },
+    {
+      "id": "ex-memory-2",
+      "word_id": "memory",
+      "text": "The computer needs more memory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "关闭的相册重新翻开，旧画面再次清晰出现"
+    },
+    {
+      "id": "ex-mechanic-1",
+      "word_id": "mechanic",
+      "text": "The mechanic inspected the engine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工作台上摊开齿轮和螺栓，一双手逐件检查磨损"
+    },
+    {
+      "id": "ex-mechanic-2",
+      "word_id": "mechanic",
+      "text": "A bicycle mechanic replaced the chain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工作台上摊开齿轮和螺栓，一双手逐件检查磨损"
+    },
+    {
+      "id": "ex-mechanical-1",
+      "word_id": "mechanical",
+      "text": "The device suffered a mechanical failure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "齿轮每转一圈，连杆都按同一路径重复升降"
+    },
+    {
+      "id": "ex-mechanical-2",
+      "word_id": "mechanical",
+      "text": "His response sounded mechanical.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "齿轮每转一圈，连杆都按同一路径重复升降"
+    },
+    {
+      "id": "ex-mechanism-1",
+      "word_id": "mechanism",
+      "text": "The locking mechanism is simple.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "透明外壳内，多枚齿轮依次咬合带动末端指针"
+    },
+    {
+      "id": "ex-mechanism-2",
+      "word_id": "mechanism",
+      "text": "Researchers studied the mechanism of infection.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "透明外壳内，多枚齿轮依次咬合带动末端指针"
+    },
+    {
+      "id": "ex-graph-1",
+      "word_id": "graph",
+      "text": "The graph shows a steady increase.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "坐标纸上的数据点被一条上升曲线连接"
+    },
+    {
+      "id": "ex-graph-2",
+      "word_id": "graph",
+      "text": "Plot the results on a graph.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "坐标纸上的数据点被一条上升曲线连接"
+    },
+    {
+      "id": "ex-graphic-1",
+      "word_id": "graphic",
+      "text": "The report includes graphic illustrations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文字旁边出现一幅轮廓鲜明的示意图，信息一眼可辨"
+    },
+    {
+      "id": "ex-graphic-2",
+      "word_id": "graphic",
+      "text": "The witness gave a graphic account.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文字旁边出现一幅轮廓鲜明的示意图，信息一眼可辨"
+    },
+    {
+      "id": "ex-paragraph-1",
+      "word_id": "paragraph",
+      "text": "Each paragraph develops one idea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长篇文字中一次换行缩进，圈出一个独立内容单元"
+    },
+    {
+      "id": "ex-paragraph-2",
+      "word_id": "paragraph",
+      "text": "Please divide the text into paragraphs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长篇文字中一次换行缩进，圈出一个独立内容单元"
+    },
+    {
+      "id": "ex-impression-1",
+      "word_id": "impression",
+      "text": "She made a strong first impression.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "软蜡被印章压下，抬起后仍保留清晰纹路"
+    },
+    {
+      "id": "ex-impression-2",
+      "word_id": "impression",
+      "text": "The seal left an impression in the wax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "软蜡被印章压下，抬起后仍保留清晰纹路"
+    },
+    {
+      "id": "ex-impressive-1",
+      "word_id": "impressive",
+      "text": "The team achieved an impressive result.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "宏大的建筑立在眼前，轮廓久久留在观看者脑中"
+    },
+    {
+      "id": "ex-impressive-2",
+      "word_id": "impressive",
+      "text": "The building is visually impressive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "宏大的建筑立在眼前，轮廓久久留在观看者脑中"
+    },
+    {
+      "id": "ex-container-1",
+      "word_id": "container",
+      "text": "Store the liquid in a sealed container.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "透明盒子的四壁把散落零件稳稳收在里面"
+    },
+    {
+      "id": "ex-container-2",
+      "word_id": "container",
+      "text": "The goods arrived in a shipping container.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "透明盒子的四壁把散落零件稳稳收在里面"
+    },
+    {
+      "id": "ex-tenant-1",
+      "word_id": "tenant",
+      "text": "The tenant pays rent monthly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙被交到入住者手中，在租期内由其保管房屋"
+    },
+    {
+      "id": "ex-tenant-2",
+      "word_id": "tenant",
+      "text": "Landlords must protect tenant rights.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙被交到入住者手中，在租期内由其保管房屋"
+    },
+    {
+      "id": "ex-conquest-1",
+      "word_id": "conquest",
+      "text": "The conquest changed the region's borders.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旗帜越过城墙，寻找的领地被纳入控制范围"
+    },
+    {
+      "id": "ex-conquest-2",
+      "word_id": "conquest",
+      "text": "The island became a colonial conquest.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旗帜越过城墙，寻找的领地被纳入控制范围"
+    },
+    {
+      "id": "ex-enquire-1",
+      "word_id": "enquire",
+      "text": "I called to enquire about the schedule.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个问号沿着线索深入档案，逐格照亮空白"
+    },
+    {
+      "id": "ex-enquire-2",
+      "word_id": "enquire",
+      "text": "Police enquired into the complaint.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个问号沿着线索深入档案，逐格照亮空白"
+    },
+    {
+      "id": "ex-exquisite-1",
+      "word_id": "exquisite",
+      "text": "The box contains exquisite carvings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多近似样品中，一件细节最完美的被单独取出"
+    },
+    {
+      "id": "ex-exquisite-2",
+      "word_id": "exquisite",
+      "text": "She felt exquisite pain in her hand.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多近似样品中，一件细节最完美的被单独取出"
     }
   ]
 }
