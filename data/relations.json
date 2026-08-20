@@ -2340,6 +2340,102 @@
       "to": "accept",
       "type": "root",
       "note": "ac-（ad- 的变体，朝向）+ cept（抓取）→ 朝自己这边接过来 → 接受"
+    },
+    {
+      "from": "certus",
+      "to": "certain",
+      "type": "root",
+      "note": "certus（已定的）本身即词根，无前缀 → 已经定下不再摇摆的；也用于指明是那一个而不泛指"
+    },
+    {
+      "from": "certus",
+      "to": "certainly",
+      "type": "root",
+      "note": "certain（已定的）+ -ly（副词）→ 以不容摇摆的方式 → 当然"
+    },
+    {
+      "from": "certus",
+      "to": "certainty",
+      "type": "root",
+      "note": "certain（已定的）+ -ty（名词）→ 已经定住的那个状态，或必定发生的那件事 → 确定性"
+    },
+    {
+      "from": "certus",
+      "to": "ascertain",
+      "type": "root",
+      "note": "as-（ad- 的变体，朝向）+ certain（已定）→ 弄到确定为止 → 查明"
+    },
+    {
+      "from": "norma",
+      "to": "normal",
+      "type": "root",
+      "note": "norma（角尺）+ -al（…的）→ 合乎那把尺的 → 正常的"
+    },
+    {
+      "from": "norma",
+      "to": "abnormal",
+      "type": "root",
+      "note": "ab-（离开）+ norm（角尺）+ -al → 偏离那把尺的 → 异常的"
+    },
+    {
+      "from": "norma",
+      "to": "norm",
+      "type": "root",
+      "note": "norma（角尺）本身即词根，无词缀 → 用来比对的那把尺，即通行的标准"
+    },
+    {
+      "from": "norma",
+      "to": "normalization",
+      "type": "root",
+      "note": "normal（合乎尺的）+ -ization（使成为…的过程）→ 使之回到尺内的过程 → 正常化"
+    },
+    {
+      "from": "testis",
+      "to": "test",
+      "type": "root",
+      "note": "testis（见证、检验）本身即词根，无词缀 → 让事物自己作证，看它到底如何"
+    },
+    {
+      "from": "testis",
+      "to": "testify",
+      "type": "root",
+      "note": "testi（见证人）+ -fy（使成为）→ 站出来充当见证 → 作证"
+    },
+    {
+      "from": "testis",
+      "to": "contest",
+      "type": "root",
+      "note": "con-（一起、相对）+ test（作证）→ 双方各自举证相争 → 竞赛；作动词是提出异议 → 争辩"
+    },
+    {
+      "from": "testis",
+      "to": "protest",
+      "type": "root",
+      "note": "pro-（当众、向前）+ test（作证）→ 当众声明自己不同意 → 抗议"
+    },
+    {
+      "from": "mun",
+      "to": "communicate",
+      "type": "root",
+      "note": "com-（一起）+ mun（共有、职责）+ -icate → 使某物成为双方共有的 → 沟通"
+    },
+    {
+      "from": "mun",
+      "to": "communication",
+      "type": "root",
+      "note": "communicate（化为共有）+ -ion（名词）→ 使之共有这件事，或所传之物 → 交流"
+    },
+    {
+      "from": "mun",
+      "to": "community",
+      "type": "root",
+      "note": "com-（一起）+ mun（共有）+ -ity（名词）→ 有共同之物的那群人 → 社区"
+    },
+    {
+      "from": "mun",
+      "to": "communism",
+      "type": "root",
+      "note": "commun（共有的）+ -ism（主张）→ 主张财产共有的那套学说 → 共产主义"
     }
   ]
 }

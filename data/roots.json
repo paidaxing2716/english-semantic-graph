@@ -1157,6 +1157,78 @@
         "social",
         "society"
       ]
+    },
+    {
+      "id": "certus",
+      "root": "certus",
+      "variants": [
+        "cert",
+        "certain"
+      ],
+      "origin": "拉丁语 certus（已定的、确切的）← cernere（分辨）",
+      "core_concept": "settled beyond doubt / 已经定下来、不再摇摆",
+      "core_image": "钉子钉进木头，再摇也不动了",
+      "english_definition": "sure, settled, determined",
+      "word_ids": [
+        "ascertain",
+        "certain",
+        "certainly",
+        "certainty"
+      ]
+    },
+    {
+      "id": "norma",
+      "root": "norma",
+      "variants": [
+        "norm"
+      ],
+      "origin": "拉丁语 norma（木匠的角尺）",
+      "core_concept": "the measuring square / 用来比对的那把尺",
+      "core_image": "木匠拿角尺往木料上一靠，看它够不够方正",
+      "english_definition": "rule, standard, pattern",
+      "word_ids": [
+        "abnormal",
+        "norm",
+        "normal",
+        "normalization"
+      ]
+    },
+    {
+      "id": "testis",
+      "root": "testis",
+      "variants": [
+        "test",
+        "testi"
+      ],
+      "origin": "拉丁语 testis（见证人）/ testari（作证）",
+      "core_concept": "to bear witness / 站出来作证",
+      "core_image": "证人站到台前，说出自己亲眼看见的",
+      "english_definition": "witness, to testify",
+      "word_ids": [
+        "contest",
+        "protest",
+        "test",
+        "testify"
+      ]
+    },
+    {
+      "id": "mun",
+      "root": "mun",
+      "variants": [
+        "mun",
+        "muni",
+        "commun"
+      ],
+      "origin": "拉丁语 communis（共有的）← com-（一起）+ munus（职责、赠予）",
+      "core_concept": "held in common / 大家共有的那一份",
+      "core_image": "一口井几户人家共用，谁都能来打水",
+      "english_definition": "common, shared",
+      "word_ids": [
+        "communicate",
+        "communication",
+        "communism",
+        "community"
+      ]
     }
   ]
 }

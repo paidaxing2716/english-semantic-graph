@@ -1002,6 +1002,66 @@
         "social",
         "society"
       ]
+    },
+    {
+      "id": "concept-certus-sure",
+      "concept": "settled beyond doubt",
+      "chinese": "确定、已定",
+      "core_image": "钉子钉进木头，再摇也不动了",
+      "root_ids": [
+        "certus"
+      ],
+      "word_ids": [
+        "ascertain",
+        "certain",
+        "certainly",
+        "certainty"
+      ]
+    },
+    {
+      "id": "concept-norma-standard",
+      "concept": "the measuring square",
+      "chinese": "准则、常规",
+      "core_image": "木匠拿角尺往木料上一靠，看它够不够方正",
+      "root_ids": [
+        "norma"
+      ],
+      "word_ids": [
+        "abnormal",
+        "norm",
+        "normal",
+        "normalization"
+      ]
+    },
+    {
+      "id": "concept-testis-witness",
+      "concept": "to bear witness",
+      "chinese": "作证、检验",
+      "core_image": "证人站到台前，说出亲眼看见的",
+      "root_ids": [
+        "testis"
+      ],
+      "word_ids": [
+        "contest",
+        "protest",
+        "test",
+        "testify"
+      ]
+    },
+    {
+      "id": "concept-mun-common",
+      "concept": "held in common",
+      "chinese": "共有",
+      "core_image": "一口井几户人家共用，谁都能来打水",
+      "root_ids": [
+        "mun"
+      ],
+      "word_ids": [
+        "communicate",
+        "communication",
+        "communism",
+        "community"
+      ]
     }
   ]
 }

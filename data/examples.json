@@ -5061,6 +5061,230 @@
       "text": "He refuses to accept defeat.",
       "source": "AI 生成 · 人工审核",
       "scene": "对方伸手递过来，你把它接到自己手里"
+    },
+    {
+      "id": "ex-certain-1",
+      "word_id": "certain",
+      "text": "I am certain he locked the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钉子钉到底，手推它也不动"
+    },
+    {
+      "id": "ex-certain-2",
+      "word_id": "certain",
+      "text": "Certain species cannot survive here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钉子钉到底，手推它也不动"
+    },
+    {
+      "id": "ex-certainly-1",
+      "word_id": "certainly",
+      "text": "It is certainly worth trying.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方话没说完就已经点头了"
+    },
+    {
+      "id": "ex-certainly-2",
+      "word_id": "certainly",
+      "text": "\"May I sit here?\" \"Certainly.\"",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方话没说完就已经点头了"
+    },
+    {
+      "id": "ex-certainty-1",
+      "word_id": "certainty",
+      "text": "We cannot predict the outcome with certainty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "结论下面画了双横线，再没有讨论的余地"
+    },
+    {
+      "id": "ex-certainty-2",
+      "word_id": "certainty",
+      "text": "Death is the one certainty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "结论下面画了双横线，再没有讨论的余地"
+    },
+    {
+      "id": "ex-ascertain-1",
+      "word_id": "ascertain",
+      "text": "Police are trying to ascertain the cause.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "核对了三份记录，直到能确认那个日期"
+    },
+    {
+      "id": "ex-ascertain-2",
+      "word_id": "ascertain",
+      "text": "We must ascertain whether he agrees.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "核对了三份记录，直到能确认那个日期"
+    },
+    {
+      "id": "ex-normal-1",
+      "word_id": "normal",
+      "text": "Her temperature is back to normal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "角尺靠上去，木料四角都是直的"
+    },
+    {
+      "id": "ex-normal-2",
+      "word_id": "normal",
+      "text": "It is normal to feel nervous.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "角尺靠上去，木料四角都是直的"
+    },
+    {
+      "id": "ex-abnormal-1",
+      "word_id": "abnormal",
+      "text": "The scan showed abnormal cells.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "角尺靠上去，木料有一角明显歪出缝"
+    },
+    {
+      "id": "ex-abnormal-2",
+      "word_id": "abnormal",
+      "text": "Such heat is abnormal for April.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "角尺靠上去，木料有一角明显歪出缝"
+    },
+    {
+      "id": "ex-norm-1",
+      "word_id": "norm",
+      "text": "Working late became the norm there.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工地上人人手边都有同一把角尺，谁做的都要靠它比一比"
+    },
+    {
+      "id": "ex-norm-2",
+      "word_id": "norm",
+      "text": "Social norms vary between cultures.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工地上人人手边都有同一把角尺，谁做的都要靠它比一比"
+    },
+    {
+      "id": "ex-normalization-1",
+      "word_id": "normalization",
+      "text": "The normalization of relations took years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "歪掉的门框被撬正，角尺靠上去又合得上了"
+    },
+    {
+      "id": "ex-normalization-2",
+      "word_id": "normalization",
+      "text": "Data normalization improves comparison.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "歪掉的门框被撬正，角尺靠上去又合得上了"
+    },
+    {
+      "id": "ex-test-1",
+      "word_id": "test",
+      "text": "The blood test came back clear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把金属放进钵里烧，是真是假自己显出来"
+    },
+    {
+      "id": "ex-test-2",
+      "word_id": "test",
+      "text": "She failed her driving test.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把金属放进钵里烧，是真是假自己显出来"
+    },
+    {
+      "id": "ex-testify-1",
+      "word_id": "testify",
+      "text": "She refused to testify against him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "证人席上举手，说出自己亲眼看见的"
+    },
+    {
+      "id": "ex-testify-2",
+      "word_id": "testify",
+      "text": "The scars testify to years of work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "证人席上举手，说出自己亲眼看见的"
+    },
+    {
+      "id": "ex-contest-1",
+      "word_id": "contest",
+      "text": "She won the singing contest.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两边各摆出自己的证据，让人评谁站得住"
+    },
+    {
+      "id": "ex-contest-2",
+      "word_id": "contest",
+      "text": "He contested the result in court.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两边各摆出自己的证据，让人评谁站得住"
+    },
+    {
+      "id": "ex-protest-1",
+      "word_id": "protest",
+      "text": "Thousands protested against the new law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举着牌子站在门口，让所有路过的人都看见那句话"
+    },
+    {
+      "id": "ex-protest-2",
+      "word_id": "protest",
+      "text": "He protested that he had not been told.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举着牌子站在门口，让所有路过的人都看见那句话"
+    },
+    {
+      "id": "ex-communicate-1",
+      "word_id": "communicate",
+      "text": "Good managers communicate clearly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一份消息在两人脑中都有了，内容一致"
+    },
+    {
+      "id": "ex-communicate-2",
+      "word_id": "communicate",
+      "text": "The disease is communicated by touch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一份消息在两人脑中都有了，内容一致"
+    },
+    {
+      "id": "ex-communication-1",
+      "word_id": "communication",
+      "text": "Communication between departments broke down.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条线路接通，一头说话另一头同时听见"
+    },
+    {
+      "id": "ex-communication-2",
+      "word_id": "communication",
+      "text": "We received your communication yesterday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条线路接通，一头说话另一头同时听见"
+    },
+    {
+      "id": "ex-community-1",
+      "word_id": "community",
+      "text": "The community raised funds for the school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片街区的人共用一口井、一条路"
+    },
+    {
+      "id": "ex-community-2",
+      "word_id": "community",
+      "text": "She belongs to the research community.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片街区的人共用一口井、一条路"
+    },
+    {
+      "id": "ex-communism-1",
+      "word_id": "communism",
+      "text": "The book traces the rise of communism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "田地不写谁的名字，收成按人分"
+    },
+    {
+      "id": "ex-communism-2",
+      "word_id": "communism",
+      "text": "He studied the economics of communism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "田地不写谁的名字，收成按人分"
     }
   ]
 }

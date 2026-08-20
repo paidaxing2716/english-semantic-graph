@@ -14710,6 +14710,616 @@
         "接受（东西）：把递来的接到手里",
         "承认/认可（事实）：把说法接进心里。同一个'朝自己接过来'，接的是物还是判断"
       ]
+    },
+    {
+      "id": "certain",
+      "word": "certain",
+      "pos": "adjective",
+      "phonetic": "/ˈsɜːrtn/",
+      "decomposable": "root",
+      "root_ids": [
+        "certus"
+      ],
+      "root_logic": "certus（已定的）本身即词根，无前缀 → 已经定下不再摇摆的；也用于指明是那一个而不泛指",
+      "recall_hint": "certus（已定的）本身即词根 → 已经定下、不再摇摆；也用来指明是那一个而不是随便哪个",
+      "origin": "拉丁语 certus（已定的）← cernere（分辨）",
+      "native_definition": "having no doubt, or referring to a particular one",
+      "core_concept": "settled so that it no longer wavers – 已经定住，不再摇摆",
+      "core_image": "钉子钉到底，手推它也不动",
+      "chinese": [
+        "确定的",
+        "某个",
+        "肯定的"
+      ],
+      "examples": [
+        "I am certain he locked the door.",
+        "Certain species cannot survive here."
+      ],
+      "synonyms": [
+        "sure",
+        "definite"
+      ],
+      "antonyms": [
+        "uncertain"
+      ],
+      "related": [
+        "certainly",
+        "certainty",
+        "ascertain"
+      ],
+      "semantic_expansions": [
+        "确定的/肯定的：心里已经定住不摇摆",
+        "某个：已经定下是哪一个，只是不说出来。同一个'已定'，一个说信念一个说所指"
+      ]
+    },
+    {
+      "id": "certainly",
+      "word": "certainly",
+      "pos": "adverb",
+      "phonetic": "/ˈsɜːrtnli/",
+      "decomposable": "root",
+      "root_ids": [
+        "certus"
+      ],
+      "root_logic": "certain（已定的）+ -ly（副词）→ 以不容摇摆的方式 → 当然",
+      "origin": "拉丁语 certus（已定的）",
+      "native_definition": "without doubt; also used to agree readily",
+      "core_concept": "in a way that admits no doubt – 以不留疑问的方式",
+      "core_image": "对方话没说完就已经点头了",
+      "chinese": [
+        "当然",
+        "确实",
+        "无疑"
+      ],
+      "examples": [
+        "It is certainly worth trying.",
+        "\"May I sit here?\" \"Certainly.\""
+      ],
+      "synonyms": [
+        "definitely",
+        "surely"
+      ],
+      "antonyms": [],
+      "related": [
+        "certain",
+        "certainty",
+        "ascertain"
+      ],
+      "semantic_expansions": [
+        "确实/无疑：以不留疑问的方式陈述",
+        "当然（应答）：不必犹豫就答应。同一个'不容摇摆'，一个用于陈述一个用于应答"
+      ]
+    },
+    {
+      "id": "certainty",
+      "word": "certainty",
+      "pos": "noun",
+      "phonetic": "/ˈsɜːrtnti/",
+      "decomposable": "root",
+      "root_ids": [
+        "certus"
+      ],
+      "root_logic": "certain（已定的）+ -ty（名词）→ 已经定住的那个状态，或必定发生的那件事 → 确定性",
+      "recall_hint": "certain（已定的）+ -ty → 心里定住不摇摆的那个状态；也指那件必定会发生的事",
+      "origin": "拉丁语 certitudo：certus（已定的）",
+      "native_definition": "the state of being sure, or something that is bound to happen",
+      "core_concept": "the state of being settled – 已经定住、不再摇摆的那个状态",
+      "core_image": "结论下面画了双横线，再没有讨论的余地",
+      "chinese": [
+        "确定性",
+        "必然的事"
+      ],
+      "examples": [
+        "We cannot predict the outcome with certainty.",
+        "Death is the one certainty."
+      ],
+      "synonyms": [
+        "assurance"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "related": [
+        "certain",
+        "certainly",
+        "ascertain"
+      ],
+      "semantic_expansions": [
+        "确定性：心里定住的那个状态",
+        "必然的事：注定要发生、无从改变的那件。同一个'已定'，一个在心里一个在事上"
+      ]
+    },
+    {
+      "id": "ascertain",
+      "word": "ascertain",
+      "pos": "verb",
+      "phonetic": "/ˌæsərˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "certus"
+      ],
+      "root_logic": "as-（ad- 的变体，朝向）+ certain（已定）→ 弄到确定为止 → 查明",
+      "origin": "拉丁语 ad-（朝向）+ certus（已定的）经古法语 acertener",
+      "native_definition": "to find out something for sure",
+      "core_concept": "working at it until it is settled – 一直弄到它定下来为止",
+      "core_image": "核对了三份记录，直到能确认那个日期",
+      "chinese": [
+        "查明",
+        "确定",
+        "弄清"
+      ],
+      "examples": [
+        "Police are trying to ascertain the cause.",
+        "We must ascertain whether he agrees."
+      ],
+      "synonyms": [
+        "determine",
+        "verify"
+      ],
+      "antonyms": [],
+      "related": [
+        "certain",
+        "certainly",
+        "certainty"
+      ],
+      "semantic_expansions": [
+        "查明/弄清：一直查到它定下来",
+        "确定（动词）：使之不再摇摆。同一个'弄到已定'，一个偏过程一个偏结果"
+      ]
+    },
+    {
+      "id": "normal",
+      "word": "normal",
+      "pos": "adjective",
+      "phonetic": "/ˈnɔːrml/",
+      "decomposable": "root",
+      "root_ids": [
+        "norma"
+      ],
+      "root_logic": "norma（角尺）+ -al（…的）→ 合乎那把尺的 → 正常的",
+      "origin": "拉丁语 normalis：norma（木匠的角尺）",
+      "native_definition": "usual, typical, or as expected",
+      "core_concept": "matching the measuring square – 拿尺一比正好合上",
+      "core_image": "角尺靠上去，木料四角都是直的",
+      "chinese": [
+        "正常的",
+        "通常的",
+        "标准的"
+      ],
+      "examples": [
+        "Her temperature is back to normal.",
+        "It is normal to feel nervous."
+      ],
+      "synonyms": [
+        "usual",
+        "typical"
+      ],
+      "antonyms": [
+        "abnormal"
+      ],
+      "related": [
+        "abnormal",
+        "norm",
+        "normalization"
+      ],
+      "semantic_expansions": [
+        "正常的/通常的：拿尺一比合得上",
+        "标准的：就是那把尺本身所定的。同一个'合乎尺度'，一个说符合一个说尺度"
+      ]
+    },
+    {
+      "id": "abnormal",
+      "word": "abnormal",
+      "pos": "adjective",
+      "phonetic": "/æbˈnɔːrml/",
+      "decomposable": "root",
+      "root_ids": [
+        "norma"
+      ],
+      "root_logic": "ab-（离开）+ norm（角尺）+ -al → 偏离那把尺的 → 异常的",
+      "origin": "拉丁语 abnormis：ab-（离开）+ norma（角尺）",
+      "native_definition": "different from what is usual, often in a worrying way",
+      "core_concept": "departing from the measuring square – 拿尺一比对不上",
+      "core_image": "角尺靠上去，木料有一角明显歪出缝",
+      "chinese": [
+        "异常的",
+        "不正常的"
+      ],
+      "examples": [
+        "The scan showed abnormal cells.",
+        "Such heat is abnormal for April."
+      ],
+      "synonyms": [
+        "unusual",
+        "irregular"
+      ],
+      "antonyms": [
+        "normal"
+      ],
+      "related": [
+        "normal",
+        "norm",
+        "normalization"
+      ],
+      "semantic_expansions": [
+        "异常的与不正常的：都是'拿尺一比对不上'，中文两种说法同一个内核"
+      ]
+    },
+    {
+      "id": "norm",
+      "word": "norm",
+      "pos": "noun",
+      "phonetic": "/nɔːrm/",
+      "decomposable": "root",
+      "root_ids": [
+        "norma"
+      ],
+      "root_logic": "norma（角尺）本身即词根，无词缀 → 用来比对的那把尺，即通行的标准",
+      "origin": "拉丁语 norma（木匠的角尺）",
+      "native_definition": "the usual or expected standard of behaviour",
+      "core_concept": "the square everything is measured against – 大家拿来比对的那把尺",
+      "core_image": "工地上人人手边都有同一把角尺，谁做的都要靠它比一比",
+      "chinese": [
+        "规范",
+        "常态",
+        "准则"
+      ],
+      "examples": [
+        "Working late became the norm there.",
+        "Social norms vary between cultures."
+      ],
+      "synonyms": [
+        "standard",
+        "rule"
+      ],
+      "antonyms": [],
+      "related": [
+        "normal",
+        "abnormal",
+        "normalization"
+      ],
+      "semantic_expansions": [
+        "规范/准则：大家拿来比对的那把尺",
+        "常态：合乎那把尺的通常状况。同一个'比对之尺'，一个是尺一个是尺下的常况"
+      ]
+    },
+    {
+      "id": "normalization",
+      "word": "normalization",
+      "pos": "noun",
+      "phonetic": "/ˌnɔːrmələˈzeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "norma"
+      ],
+      "root_logic": "normal（合乎尺的）+ -ization（使成为…的过程）→ 使之回到尺内的过程 → 正常化",
+      "origin": "拉丁语 normalis（合乎角尺的）+ -ization",
+      "native_definition": "the process of making something normal or standard again",
+      "core_concept": "bringing something back within the square – 把偏出去的弄回尺内",
+      "core_image": "歪掉的门框被撬正，角尺靠上去又合得上了",
+      "chinese": [
+        "正常化",
+        "标准化"
+      ],
+      "examples": [
+        "The normalization of relations took years.",
+        "Data normalization improves comparison."
+      ],
+      "synonyms": [
+        "standardization"
+      ],
+      "antonyms": [],
+      "related": [
+        "normal",
+        "abnormal",
+        "norm"
+      ],
+      "semantic_expansions": [
+        "正常化：把偏出去的弄回尺内",
+        "标准化：使各处都照同一把尺。同一个'回到尺内'，一个说恢复一个说统一"
+      ]
+    },
+    {
+      "id": "test",
+      "word": "test",
+      "pos": "noun",
+      "phonetic": "/test/",
+      "decomposable": "root",
+      "root_ids": [
+        "testis"
+      ],
+      "root_logic": "testis（见证、检验）本身即词根，无词缀 → 让事物自己作证，看它到底如何",
+      "recall_hint": "testis（见证、检验）本身即词根 → 摆出条件让事物自己作证，看它究竟如何",
+      "origin": "拉丁语 testum（陶钵，古时用于试炼金属）← testis（见证）",
+      "native_definition": "a procedure to find out how good, true, or able something is",
+      "core_concept": "putting something in a position to show what it is – 摆出条件让它自己显出真相",
+      "core_image": "把金属放进钵里烧，是真是假自己显出来",
+      "chinese": [
+        "测试",
+        "考试",
+        "检验"
+      ],
+      "examples": [
+        "The blood test came back clear.",
+        "She failed her driving test."
+      ],
+      "synonyms": [
+        "examination",
+        "trial"
+      ],
+      "antonyms": [],
+      "related": [
+        "testify",
+        "contest",
+        "protest"
+      ],
+      "semantic_expansions": [
+        "测试/检验：摆出条件让事物自己显出真相",
+        "考试：让人自己显出会不会。同一个'让它自证'，对象是物还是人"
+      ]
+    },
+    {
+      "id": "testify",
+      "word": "testify",
+      "pos": "verb",
+      "phonetic": "/ˈtestɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "testis"
+      ],
+      "root_logic": "testi（见证人）+ -fy（使成为）→ 站出来充当见证 → 作证",
+      "origin": "拉丁语 testificari：testis（见证人）+ facere（做）",
+      "native_definition": "to give evidence in court, or to serve as proof of something",
+      "core_concept": "standing forth as a witness – 站出来充当见证",
+      "core_image": "证人席上举手，说出自己亲眼看见的",
+      "chinese": [
+        "作证",
+        "证明",
+        "表明"
+      ],
+      "examples": [
+        "She refused to testify against him.",
+        "The scars testify to years of work."
+      ],
+      "synonyms": [
+        "attest",
+        "prove"
+      ],
+      "antonyms": [],
+      "related": [
+        "test",
+        "contest",
+        "protest"
+      ],
+      "semantic_expansions": [
+        "作证（法庭）：人站出来充当见证",
+        "证明/表明（物）：某物本身充当了见证。同一个'充当见证'，见证者是人还是物"
+      ]
+    },
+    {
+      "id": "contest",
+      "word": "contest",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːntest/",
+      "decomposable": "root",
+      "root_ids": [
+        "testis"
+      ],
+      "root_logic": "con-（一起、相对）+ test（作证）→ 双方各自举证相争 → 竞赛；作动词是提出异议 → 争辩",
+      "recall_hint": "con-（相对）+ test（作证）→ 双方各自举证相争；名词是那场较量，动词是提出异议",
+      "origin": "拉丁语 contestari：com-（一起）+ testari（作证）——原指'传唤双方作证以起诉'",
+      "native_definition": "a competition, or to argue that something is wrong",
+      "core_concept": "two sides each bringing witness against the other – 双方各自举证相争",
+      "core_image": "两边各摆出自己的证据，让人评谁站得住",
+      "chinese": [
+        "竞赛",
+        "争夺",
+        "争辩"
+      ],
+      "examples": [
+        "She won the singing contest.",
+        "He contested the result in court."
+      ],
+      "synonyms": [
+        "competition",
+        "dispute"
+      ],
+      "antonyms": [],
+      "related": [
+        "test",
+        "testify",
+        "protest"
+      ],
+      "semantic_expansions": [
+        "竞赛/争夺：双方各出所长相争",
+        "争辩（动词）：举出反证提出异议。同一个'相对举证'，一个在赛场一个在辩场"
+      ]
+    },
+    {
+      "id": "protest",
+      "word": "protest",
+      "pos": "verb",
+      "phonetic": "/prəˈtest/",
+      "decomposable": "root",
+      "root_ids": [
+        "testis"
+      ],
+      "root_logic": "pro-（当众、向前）+ test（作证）→ 当众声明自己不同意 → 抗议",
+      "origin": "拉丁语 protestari：pro-（向前）+ testari（作证）",
+      "native_definition": "to express strong disagreement, especially publicly",
+      "core_concept": "declaring one's objection before all – 当众把不同意声明出来",
+      "core_image": "举着牌子站在门口，让所有路过的人都看见那句话",
+      "chinese": [
+        "抗议",
+        "反对",
+        "申辩"
+      ],
+      "examples": [
+        "Thousands protested against the new law.",
+        "He protested that he had not been told."
+      ],
+      "synonyms": [
+        "object",
+        "complain"
+      ],
+      "antonyms": [
+        "accept"
+      ],
+      "related": [
+        "test",
+        "testify",
+        "contest"
+      ],
+      "semantic_expansions": [
+        "抗议/反对：当众声明不同意",
+        "申辩：当众声明事实并非如此。同一个'当众作证'，一个反对处置一个陈述实情"
+      ]
+    },
+    {
+      "id": "communicate",
+      "word": "communicate",
+      "pos": "verb",
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "mun"
+      ],
+      "root_logic": "com-（一起）+ mun（共有、职责）+ -icate → 使某物成为双方共有的 → 沟通",
+      "origin": "拉丁语 communicare：communis（共有的）← com-（一起）+ munus（职责、赠予）",
+      "native_definition": "to share information so that it is understood",
+      "core_concept": "making something held in common – 使某样东西变成双方共有",
+      "core_image": "同一份消息在两人脑中都有了，内容一致",
+      "chinese": [
+        "沟通",
+        "传达",
+        "传染"
+      ],
+      "examples": [
+        "Good managers communicate clearly.",
+        "The disease is communicated by touch."
+      ],
+      "synonyms": [
+        "convey",
+        "share"
+      ],
+      "antonyms": [],
+      "related": [
+        "communication",
+        "community",
+        "communism"
+      ],
+      "semantic_expansions": [
+        "沟通/传达：使信息成为双方共有",
+        "传染：使病成为双方共有。同一个'化为共有'，共有的是消息还是病"
+      ]
+    },
+    {
+      "id": "communication",
+      "word": "communication",
+      "pos": "noun",
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "mun"
+      ],
+      "root_logic": "communicate（化为共有）+ -ion（名词）→ 使之共有这件事，或所传之物 → 交流",
+      "origin": "拉丁语 communicatio：communis（共有的）",
+      "native_definition": "the exchange of information, or a message sent",
+      "core_concept": "the making of something common between people – 使信息成为共有这件事",
+      "core_image": "两条线路接通，一头说话另一头同时听见",
+      "chinese": [
+        "交流",
+        "通信",
+        "信件"
+      ],
+      "examples": [
+        "Communication between departments broke down.",
+        "We received your communication yesterday."
+      ],
+      "synonyms": [
+        "contact",
+        "message"
+      ],
+      "antonyms": [],
+      "related": [
+        "communicate",
+        "community",
+        "communism"
+      ],
+      "semantic_expansions": [
+        "交流/通信：使信息成为共有这件事",
+        "信件（正式）：所传的那份东西。同一个'化为共有'，一个是过程一个是所传之物"
+      ]
+    },
+    {
+      "id": "community",
+      "word": "community",
+      "pos": "noun",
+      "phonetic": "/kəˈmjuːnəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "mun"
+      ],
+      "root_logic": "com-（一起）+ mun（共有）+ -ity（名词）→ 有共同之物的那群人 → 社区",
+      "origin": "拉丁语 communitas：communis（共有的）",
+      "native_definition": "a group of people living in one place or sharing something in common",
+      "core_concept": "people holding something in common – 共有某样东西的那群人",
+      "core_image": "同一片街区的人共用一口井、一条路",
+      "chinese": [
+        "社区",
+        "群体",
+        "共同体"
+      ],
+      "examples": [
+        "The community raised funds for the school.",
+        "She belongs to the research community."
+      ],
+      "synonyms": [
+        "society",
+        "group"
+      ],
+      "antonyms": [],
+      "related": [
+        "communicate",
+        "communication",
+        "communism",
+        "society"
+      ],
+      "semantic_expansions": [
+        "社区：共用同一片地方的人",
+        "群体/共同体：共有某样东西的人。同一个'有共同之物'，共有的是地方还是志趣"
+      ]
+    },
+    {
+      "id": "communism",
+      "word": "communism",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːmjunɪzəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "mun"
+      ],
+      "root_logic": "commun（共有的）+ -ism（主张）→ 主张财产共有的那套学说 → 共产主义",
+      "origin": "拉丁语 communis（共有的）+ -ism",
+      "native_definition": "a political system in which property is owned collectively",
+      "core_concept": "the doctrine that things be held in common – 主张财物共有的那套学说",
+      "core_image": "田地不写谁的名字，收成按人分",
+      "chinese": [
+        "共产主义"
+      ],
+      "examples": [
+        "The book traces the rise of communism.",
+        "He studied the economics of communism."
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "capitalism"
+      ],
+      "related": [
+        "community",
+        "communicate",
+        "communication"
+      ]
     }
   ]
 }

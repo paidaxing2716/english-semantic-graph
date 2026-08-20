@@ -14,7 +14,7 @@ v0.2.0  纸张词源地图改版 + 昼夜模式 + 视觉质量门  ✅ 已完成
 v0.3    AI 自动生成词条 + 人工审核        ✅ 已完成（提前）
 v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
-v1.0    考研词表中可结构化的部分（374/869 词，43%）← 当前
+v1.0    考研词表中可结构化的部分（390/869 词，45%）← 当前
 ```
 
 ---
@@ -238,6 +238,9 @@ python ai_pipeline/review.py merge candidates.json
   - [x] 第十八批：sumere（取用）+ spirare（呼吸）+ socius（同伴），374 词 · 55 词根
         conspiracy 的本义是"几人凑一起同呼吸"，这才连得上 inspire；
         capere 支补 concept/except/receipt/accept/susceptible 五词
+  - [x] 第十九批：certus（已定）+ norma（角尺）+ testis（见证）+ mun（共有）
+        390 词 · 59 词根。norma 本义是木匠的角尺，normal/abnormal 就是
+        "拿尺一比合不合得上"；test 源自试炼金属的陶钵，故与 testify 同族
   - [ ] 剩余高价值词族（>=5 词，共 141 词）优先，之后是
         47 个四词族（188 词）与 107 个三词族（321 词）
 - [ ] 学习模式：探索 / 复习 / 测试
