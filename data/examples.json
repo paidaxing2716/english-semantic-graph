@@ -5803,6 +5803,216 @@
       "text": "It is not in her nature to complain.",
       "source": "AI 生成 · 人工审核",
       "scene": "没人打理的山谷，草木照自己的规矩长"
+    },
+    {
+      "id": "ex-centre-1",
+      "word_id": "centre",
+      "text": "Draw a line through the centre.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆规扎住的那一点不动，笔尖绕着它走完一圈"
+    },
+    {
+      "id": "ex-centre-2",
+      "word_id": "centre",
+      "text": "She works at a research centre.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆规扎住的那一点不动，笔尖绕着它走完一圈"
+    },
+    {
+      "id": "ex-central-1",
+      "word_id": "central",
+      "text": "The hotel has a central location.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上那条街正在城中间，各条路都通向它"
+    },
+    {
+      "id": "ex-central-2",
+      "word_id": "central",
+      "text": "Trust is central to the argument.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上那条街正在城中间，各条路都通向它"
+    },
+    {
+      "id": "ex-concentrate-1",
+      "word_id": "concentrate",
+      "text": "Industry is concentrated in the south.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "放大镜把满片阳光收成一个亮点，纸开始冒烟"
+    },
+    {
+      "id": "ex-concentrate-2",
+      "word_id": "concentrate",
+      "text": "I cannot concentrate with the noise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "放大镜把满片阳光收成一个亮点，纸开始冒烟"
+    },
+    {
+      "id": "ex-concentration-1",
+      "word_id": "concentration",
+      "text": "The task demands full concentration.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一杯水里糖越多越甜，聚得越密味道越重"
+    },
+    {
+      "id": "ex-concentration-2",
+      "word_id": "concentration",
+      "text": "Salt concentration rises as water evaporates.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一杯水里糖越多越甜，聚得越密味道越重"
+    },
+    {
+      "id": "ex-identity-1",
+      "word_id": "identity",
+      "text": "Police confirmed the victim's identity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片、指纹、签名三样对上，确认是本人"
+    },
+    {
+      "id": "ex-identity-2",
+      "word_id": "identity",
+      "text": "The town has kept its own identity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片、指纹、签名三样对上，确认是本人"
+    },
+    {
+      "id": "ex-identical-1",
+      "word_id": "identical",
+      "text": "The twins are identical.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张卡片叠在一起对光，边线笔画完全重合"
+    },
+    {
+      "id": "ex-identical-2",
+      "word_id": "identical",
+      "text": "The two reports are identical.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张卡片叠在一起对光，边线笔画完全重合"
+    },
+    {
+      "id": "ex-identify-1",
+      "word_id": "identify",
+      "text": "She identified the man in the lineup.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在一排面孔里指出那一个：就是他"
+    },
+    {
+      "id": "ex-identify-2",
+      "word_id": "identify",
+      "text": "Readers identify with the narrator.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在一排面孔里指出那一个：就是他"
+    },
+    {
+      "id": "ex-identification-1",
+      "word_id": "identification",
+      "text": "Identification of the species took months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗口要求出示证件，照片与本人比对一遍"
+    },
+    {
+      "id": "ex-identification-2",
+      "word_id": "identification",
+      "text": "Please bring photo identification.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗口要求出示证件，照片与本人比对一遍"
+    },
+    {
+      "id": "ex-durable-1",
+      "word_id": "durable",
+      "text": "Choose a durable fabric for chairs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一把锄头用了三十年，木柄换过铁头还在"
+    },
+    {
+      "id": "ex-durable-2",
+      "word_id": "durable",
+      "text": "They reached a durable settlement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一把锄头用了三十年，木柄换过铁头还在"
+    },
+    {
+      "id": "ex-duration-1",
+      "word_id": "duration",
+      "text": "The duration of the flight is six hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秒表从按下到按停，中间那一段就是它"
+    },
+    {
+      "id": "ex-duration-2",
+      "word_id": "duration",
+      "text": "Stay seated for the duration of the talk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秒表从按下到按停，中间那一段就是它"
+    },
+    {
+      "id": "ex-during-1",
+      "word_id": "during",
+      "text": "It rained during the night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议从头到尾这段时间里，手机一直静音"
+    },
+    {
+      "id": "ex-during-2",
+      "word_id": "during",
+      "text": "She fell asleep during the film.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议从头到尾这段时间里，手机一直静音"
+    },
+    {
+      "id": "ex-endurance-1",
+      "word_id": "endurance",
+      "text": "The race is a test of endurance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长跑最后几公里，腿已经不听话但人还在往前迈"
+    },
+    {
+      "id": "ex-endurance-2",
+      "word_id": "endurance",
+      "text": "Her endurance surprised everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长跑最后几公里，腿已经不听话但人还在往前迈"
+    },
+    {
+      "id": "ex-domestic-1",
+      "word_id": "domestic",
+      "text": "She shares the domestic chores.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一关，屋里的事归屋里管"
+    },
+    {
+      "id": "ex-domestic-2",
+      "word_id": "domestic",
+      "text": "Domestic flights leave from Terminal 1.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一关，屋里的事归屋里管"
+    },
+    {
+      "id": "ex-dominate-1",
+      "word_id": "dominate",
+      "text": "One firm dominates the market.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋高楼立在街口，走到哪儿抬头都是它"
+    },
+    {
+      "id": "ex-dominate-2",
+      "word_id": "dominate",
+      "text": "The castle dominates the skyline.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋高楼立在街口，走到哪儿抬头都是它"
+    },
+    {
+      "id": "ex-dominant-1",
+      "word_id": "dominant",
+      "text": "English is the dominant language here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几种颜色里那一片红最抢眼，其余都退成背景"
+    },
+    {
+      "id": "ex-dominant-2",
+      "word_id": "dominant",
+      "text": "Brown eyes are a dominant trait.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几种颜色里那一片红最抢眼，其余都退成背景"
     }
   ]
 }

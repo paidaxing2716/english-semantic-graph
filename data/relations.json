@@ -2652,6 +2652,96 @@
       "to": "nature",
       "type": "root",
       "note": "nat（出生）+ -ure（名词）→ 生来就是那样的底子 → 天性；万物生来的那一整片 → 自然"
+    },
+    {
+      "from": "centrum",
+      "to": "centre",
+      "type": "root",
+      "note": "centrum（圆心）本身即词根，无词缀 → 定住不动、四周绕着它的那一点"
+    },
+    {
+      "from": "centrum",
+      "to": "central",
+      "type": "root",
+      "note": "centr（圆心）+ -al（…的）→ 处在中心的 → 中心的；引申为最要紧的 → 核心的"
+    },
+    {
+      "from": "centrum",
+      "to": "concentrate",
+      "type": "root",
+      "note": "con-（一起）+ centr（中心）+ -ate → 全往一个中心聚 → 集中；心思全聚到一点 → 专心"
+    },
+    {
+      "from": "centrum",
+      "to": "concentration",
+      "type": "root",
+      "note": "concentrate（聚到一点）+ -ion（名词）→ 聚到一点这件事，或聚拢的程度 → 集中、浓度"
+    },
+    {
+      "from": "identus",
+      "to": "identity",
+      "type": "root",
+      "note": "ident（同一个）+ -ity（名词）→ 是同一个而非另一个的那件事 → 身份"
+    },
+    {
+      "from": "identus",
+      "to": "identical",
+      "type": "root",
+      "note": "ident（同一个）+ -ical（…的）→ 像是同一个的 → 完全相同的"
+    },
+    {
+      "from": "identus",
+      "to": "identify",
+      "type": "root",
+      "note": "ident（同一个）+ -ify（使成为）→ 认定它与那一个为同一 → 辨认"
+    },
+    {
+      "from": "identus",
+      "to": "identification",
+      "type": "root",
+      "note": "identify（认定为同一）+ -ation（名词）→ 认定这件事，或据以认定的那份证件 → 识别、身份证明"
+    },
+    {
+      "from": "durare",
+      "to": "durable",
+      "type": "root",
+      "note": "dur（硬、持续）+ -able（能…的）→ 能一直撑下去的 → 耐用的"
+    },
+    {
+      "from": "durare",
+      "to": "duration",
+      "type": "root",
+      "note": "dur（持续）+ -ation（名词）→ 撑下去的那一段长度 → 持续时间"
+    },
+    {
+      "from": "durare",
+      "to": "during",
+      "type": "root",
+      "note": "dur（持续）+ -ing（进行中）→ 在某事持续的那段时间里 → 在…期间"
+    },
+    {
+      "from": "durare",
+      "to": "endurance",
+      "type": "root",
+      "note": "en-（使…）+ dur（硬撑）+ -ance（名词）→ 硬撑下去的那份能力 → 耐力"
+    },
+    {
+      "from": "domus",
+      "to": "domestic",
+      "type": "root",
+      "note": "dom（家、屋）+ -estic（…的）→ 属于家里的 → 家庭的；一国之内视同一家 → 国内的"
+    },
+    {
+      "from": "domus",
+      "to": "dominate",
+      "type": "root",
+      "note": "domin（主人）+ -ate（动词）→ 像主人那样压住全场 → 支配"
+    },
+    {
+      "from": "domus",
+      "to": "dominant",
+      "type": "root",
+      "note": "dominate（压住全场）+ -ant（…的）→ 压住其余的 → 占主导的"
     }
   ]
 }

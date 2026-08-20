@@ -1381,6 +1381,78 @@
         "native",
         "nature"
       ]
+    },
+    {
+      "id": "centrum",
+      "root": "centrum",
+      "variants": [
+        "centr",
+        "center"
+      ],
+      "origin": "拉丁语 centrum（圆心）← 希腊语 kentron（圆规的尖脚）",
+      "core_concept": "the fixed middle point / 定住不动的那个中点",
+      "core_image": "圆规一脚扎在纸上不动，另一脚绕着它画一圈",
+      "english_definition": "the centre, the middle point",
+      "word_ids": [
+        "central",
+        "centre",
+        "concentrate",
+        "concentration"
+      ]
+    },
+    {
+      "id": "identus",
+      "root": "identus",
+      "variants": [
+        "ident",
+        "idem"
+      ],
+      "origin": "拉丁语 idem（同一个）→ identitas（同一性）",
+      "core_concept": "the very same one / 就是那一个，不是另一个",
+      "core_image": "两张照片并排比对，认出是同一个人",
+      "english_definition": "the same, sameness",
+      "word_ids": [
+        "identical",
+        "identification",
+        "identify",
+        "identity"
+      ]
+    },
+    {
+      "id": "durare",
+      "root": "durare",
+      "variants": [
+        "dur",
+        "dura"
+      ],
+      "origin": "拉丁语 durus / durare（硬的、持续）",
+      "core_concept": "to hold hard over time / 硬着撑下去",
+      "core_image": "石阶被踩了几百年，边缘磨圆了却还在那儿",
+      "english_definition": "to last, to harden, to endure",
+      "word_ids": [
+        "durable",
+        "duration",
+        "during",
+        "endurance"
+      ]
+    },
+    {
+      "id": "domus",
+      "root": "domus",
+      "variants": [
+        "dom",
+        "domin",
+        "domest"
+      ],
+      "origin": "拉丁语 domus（家、房屋）→ dominus（家主）",
+      "core_concept": "the house and its master / 门内那一摊，及当家的人",
+      "core_image": "门一关，屋里的事归当家的人管",
+      "english_definition": "house, master of the house",
+      "word_ids": [
+        "domestic",
+        "dominant",
+        "dominate"
+      ]
     }
   ]
 }

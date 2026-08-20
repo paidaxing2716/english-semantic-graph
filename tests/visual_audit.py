@@ -186,6 +186,31 @@ def open_sample_word(page):
     page.wait_for_timeout(700)
 
 
+def settle_layout(page, max_ms=20000, step=900):
+    """等力导向收敛再测，而不是固定等一段时间。
+
+    节点多时收敛需要更久：541 节点实测 4 秒还剩十几对重叠，8 秒后归零。
+    固定等待会让结果时通时不通（同一份代码跑三次得到 38 / 11 / 0）。
+    """
+    prev = None
+    waited = 0
+    while waited < max_ms:
+        page.wait_for_timeout(step)
+        waited += step
+        cur = page.evaluate("""() => {
+          let s = '';
+          document.querySelectorAll('.node').forEach(g => {
+            if (parseFloat(g.getAttribute('opacity') ?? '1') > 0) {
+              s += (g.getAttribute('transform') || '') + '|';
+            }
+          });
+          return s;
+        }""")
+        if cur == prev:
+            return
+        prev = cur
+
+
 def audit_masking_all(page):
     """把全部词条过一遍遮罩，检查题面是否泄露答案。
 
@@ -388,7 +413,7 @@ def audit(name, page):
         }
       });
     }""")
-    page.wait_for_timeout(4200)
+    settle_layout(page)
     d = page.evaluate(DENSITY_JS)
     if d["overlap"]:
         ok = False

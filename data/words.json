@@ -16733,6 +16733,587 @@
         "自然：万物生来的那一整片，不经人手",
         "天性/本质：某人某物生来的那个底子。同一个'生来如此'，一个指外界一个指内在"
       ]
+    },
+    {
+      "id": "centre",
+      "word": "centre",
+      "pos": "noun",
+      "phonetic": "/ˈsentər/",
+      "decomposable": "root",
+      "root_ids": [
+        "centrum"
+      ],
+      "root_logic": "centrum（圆心）本身即词根，无词缀 → 定住不动、四周绕着它的那一点",
+      "recall_hint": "centrum（圆心）本身即词根 → 定住不动、四周都绕着它的那一点；也指人事汇聚的那个地方",
+      "origin": "拉丁语 centrum（圆心）← 希腊语 kentron（圆规尖脚）",
+      "native_definition": "the middle point of something, or a place where an activity is concentrated",
+      "core_concept": "the point everything else is arranged around – 其余部分绕着它排布的那一点",
+      "core_image": "圆规扎住的那一点不动，笔尖绕着它走完一圈",
+      "chinese": [
+        "中心",
+        "中央",
+        "中心机构"
+      ],
+      "examples": [
+        "Draw a line through the centre.",
+        "She works at a research centre."
+      ],
+      "synonyms": [
+        "middle",
+        "core"
+      ],
+      "antonyms": [
+        "edge"
+      ],
+      "related": [
+        "central",
+        "concentrate",
+        "concentration"
+      ],
+      "semantic_expansions": [
+        "中心/中央：几何上四周绕着的那一点",
+        "中心机构：人和事汇聚的那个地方。同一个'四周绕着它'，一个是点一个是场所"
+      ]
+    },
+    {
+      "id": "central",
+      "word": "central",
+      "pos": "adjective",
+      "phonetic": "/ˈsentrəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "centrum"
+      ],
+      "root_logic": "centr（圆心）+ -al（…的）→ 处在中心的 → 中心的；引申为最要紧的 → 核心的",
+      "recall_hint": "centr（圆心）+ -al → 处在那一点上的；引申为整件事都绕着它转，因而最要紧",
+      "origin": "拉丁语 centralis：centrum（圆心）",
+      "native_definition": "in the middle, or most important",
+      "core_concept": "sitting at the point others turn around – 位于其余部分环绕的那一点",
+      "core_image": "地图上那条街正在城中间，各条路都通向它",
+      "chinese": [
+        "中心的",
+        "中央的",
+        "核心的"
+      ],
+      "examples": [
+        "The hotel has a central location.",
+        "Trust is central to the argument."
+      ],
+      "synonyms": [
+        "middle",
+        "essential"
+      ],
+      "antonyms": [
+        "peripheral"
+      ],
+      "related": [
+        "centre",
+        "concentrate",
+        "concentration"
+      ],
+      "semantic_expansions": [
+        "中心的/中央的：位置上处在中间",
+        "核心的：整件事都绕着它转，因而最要紧。同一个'居中'，一个说位置一个说分量"
+      ]
+    },
+    {
+      "id": "concentrate",
+      "word": "concentrate",
+      "pos": "verb",
+      "phonetic": "/ˈkɑːnsntreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "centrum"
+      ],
+      "root_logic": "con-（一起）+ centr（中心）+ -ate → 全往一个中心聚 → 集中；心思全聚到一点 → 专心",
+      "recall_hint": "con-（一起）+ centr（中心）+ -ate → 全都往同一个中心聚过去：可以是物，也可以是心思",
+      "origin": "拉丁语 com-（一起）+ centrum（圆心）",
+      "native_definition": "to bring things together in one place, or to focus one's attention",
+      "core_concept": "gathering everything to one point – 把散着的全聚到一点上",
+      "core_image": "放大镜把满片阳光收成一个亮点，纸开始冒烟",
+      "chinese": [
+        "集中",
+        "专心",
+        "浓缩"
+      ],
+      "examples": [
+        "Industry is concentrated in the south.",
+        "I cannot concentrate with the noise."
+      ],
+      "synonyms": [
+        "focus",
+        "gather"
+      ],
+      "antonyms": [
+        "diffuse",
+        "scatter"
+      ],
+      "related": [
+        "concentration",
+        "centre",
+        "central"
+      ],
+      "semantic_expansions": [
+        "集中：把散着的物聚到一处",
+        "专心：把心思聚到一点",
+        "浓缩：把成分聚到更小体积里。三义共享'全聚到一个中心'"
+      ]
+    },
+    {
+      "id": "concentration",
+      "word": "concentration",
+      "pos": "noun",
+      "phonetic": "/ˌkɑːnsnˈtreɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "centrum"
+      ],
+      "root_logic": "concentrate（聚到一点）+ -ion（名词）→ 聚到一点这件事，或聚拢的程度 → 集中、浓度",
+      "recall_hint": "concentrate（全聚到一点）+ -ion → 聚拢这件事本身，或聚得有多密",
+      "origin": "拉丁语 com-（一起）+ centrum（圆心）",
+      "native_definition": "the act of focusing attention, or the amount of a substance in a mixture",
+      "core_concept": "how much has been gathered to one point – 往一点聚拢的那个程度",
+      "core_image": "同样一杯水里糖越多越甜，聚得越密味道越重",
+      "chinese": [
+        "专注",
+        "集中",
+        "浓度"
+      ],
+      "examples": [
+        "The task demands full concentration.",
+        "Salt concentration rises as water evaporates."
+      ],
+      "synonyms": [
+        "focus",
+        "density"
+      ],
+      "antonyms": [],
+      "related": [
+        "concentrate",
+        "centre",
+        "central"
+      ],
+      "semantic_expansions": [
+        "专注/集中：心思或事物聚拢这件事",
+        "浓度：物质在单位体积里聚得多密。同一个'聚拢的程度'，量的是注意力还是成分"
+      ]
+    },
+    {
+      "id": "identity",
+      "word": "identity",
+      "pos": "noun",
+      "phonetic": "/aɪˈdentəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "identus"
+      ],
+      "root_logic": "ident（同一个）+ -ity（名词）→ 是同一个而非另一个的那件事 → 身份",
+      "recall_hint": "ident（就是那一个）+ -ity → 确认是同一个而非另一个的那件事；也指一个人自认为是谁",
+      "origin": "拉丁语 identitas：idem（同一个）",
+      "native_definition": "who or what someone or something is",
+      "core_concept": "being the very same one, not another – 是这一个而非另一个",
+      "core_image": "照片、指纹、签名三样对上，确认是本人",
+      "chinese": [
+        "身份",
+        "同一性",
+        "特征"
+      ],
+      "examples": [
+        "Police confirmed the victim's identity.",
+        "The town has kept its own identity."
+      ],
+      "synonyms": [
+        "character"
+      ],
+      "antonyms": [],
+      "related": [
+        "identical",
+        "identify",
+        "identification"
+      ],
+      "semantic_expansions": [
+        "身份：确认是这一个人而非另一个",
+        "同一性/特征：使它区别于其他的那个'就是它'。同一个'是同一个'，一个对人一个对物"
+      ]
+    },
+    {
+      "id": "identical",
+      "word": "identical",
+      "pos": "adjective",
+      "phonetic": "/aɪˈdentɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "identus"
+      ],
+      "root_logic": "ident（同一个）+ -ical（…的）→ 像是同一个的 → 完全相同的",
+      "origin": "拉丁语 identicus：idem（同一个）",
+      "native_definition": "exactly the same in every detail",
+      "core_concept": "so alike as to be the same one – 相似到像是同一个",
+      "core_image": "两张卡片叠在一起对光，边线笔画完全重合",
+      "chinese": [
+        "完全相同的",
+        "同一的"
+      ],
+      "examples": [
+        "The twins are identical.",
+        "The two reports are identical."
+      ],
+      "synonyms": [
+        "same",
+        "equal"
+      ],
+      "antonyms": [
+        "different"
+      ],
+      "related": [
+        "identity",
+        "identify",
+        "identification"
+      ],
+      "semantic_expansions": [
+        "完全相同的与同一的：都是'相似到像是同一个'，中文一个偏比较一个偏判定"
+      ]
+    },
+    {
+      "id": "identify",
+      "word": "identify",
+      "pos": "verb",
+      "phonetic": "/aɪˈdentɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "identus"
+      ],
+      "root_logic": "ident（同一个）+ -ify（使成为）→ 认定它与那一个为同一 → 辨认",
+      "origin": "拉丁语 idem（同一个）+ facere（做）",
+      "native_definition": "to recognize who or what something is, or to feel connected with someone",
+      "core_concept": "establishing that this is the very one – 认定它就是那一个",
+      "core_image": "在一排面孔里指出那一个：就是他",
+      "chinese": [
+        "辨认",
+        "确定",
+        "认同"
+      ],
+      "examples": [
+        "She identified the man in the lineup.",
+        "Readers identify with the narrator."
+      ],
+      "synonyms": [
+        "recognize",
+        "determine"
+      ],
+      "antonyms": [],
+      "related": [
+        "identity",
+        "identical",
+        "identification"
+      ],
+      "semantic_expansions": [
+        "辨认/确定：认定它就是那一个",
+        "认同（identify with）：把对方当成与自己同一类。同一个'认定为同一'，一个对外一个对己"
+      ]
+    },
+    {
+      "id": "identification",
+      "word": "identification",
+      "pos": "noun",
+      "phonetic": "/aɪˌdentɪfɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "identus"
+      ],
+      "root_logic": "identify（认定为同一）+ -ation（名词）→ 认定这件事，或据以认定的那份证件 → 识别、身份证明",
+      "recall_hint": "identify（认定是那一个）+ -ation → 认定这件事本身；也指用来作此认定的那份证件",
+      "origin": "拉丁语 idem（同一个）+ facere（做）",
+      "native_definition": "the act of recognizing something, or a document proving who you are",
+      "core_concept": "the establishing of which one it is – 认定它是哪一个这件事",
+      "core_image": "窗口要求出示证件，照片与本人比对一遍",
+      "chinese": [
+        "识别",
+        "鉴定",
+        "身份证明"
+      ],
+      "examples": [
+        "Identification of the species took months.",
+        "Please bring photo identification."
+      ],
+      "synonyms": [
+        "recognition"
+      ],
+      "antonyms": [],
+      "related": [
+        "identify",
+        "identity",
+        "identical"
+      ],
+      "semantic_expansions": [
+        "识别/鉴定：认定它是哪一个这件事",
+        "身份证明：用来作此认定的那份文件。同一个'认定同一'，一个是行为一个是凭据"
+      ]
+    },
+    {
+      "id": "durable",
+      "word": "durable",
+      "pos": "adjective",
+      "phonetic": "/ˈdʊrəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "durare"
+      ],
+      "root_logic": "dur（硬、持续）+ -able（能…的）→ 能一直撑下去的 → 耐用的",
+      "origin": "拉丁语 durabilis：durare（持续）← durus（硬的）",
+      "native_definition": "able to last a long time without breaking",
+      "core_concept": "able to keep holding up over time – 能一直硬撑着不坏",
+      "core_image": "同一把锄头用了三十年，木柄换过铁头还在",
+      "chinese": [
+        "耐用的",
+        "持久的"
+      ],
+      "examples": [
+        "Choose a durable fabric for chairs.",
+        "They reached a durable settlement."
+      ],
+      "synonyms": [
+        "lasting",
+        "tough"
+      ],
+      "antonyms": [
+        "fragile"
+      ],
+      "related": [
+        "duration",
+        "during",
+        "endurance"
+      ],
+      "semantic_expansions": [
+        "耐用的与持久的：都是'能一直硬撑着不坏'，中文按对象是物还是状态分了两个词"
+      ]
+    },
+    {
+      "id": "duration",
+      "word": "duration",
+      "pos": "noun",
+      "phonetic": "/dʊˈreɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "durare"
+      ],
+      "root_logic": "dur（持续）+ -ation（名词）→ 撑下去的那一段长度 → 持续时间",
+      "origin": "拉丁语 duratio：durare（持续）",
+      "native_definition": "the length of time something continues",
+      "core_concept": "how long something keeps going – 一件事撑下去的那段长度",
+      "core_image": "秒表从按下到按停，中间那一段就是它",
+      "chinese": [
+        "持续时间",
+        "期间"
+      ],
+      "examples": [
+        "The duration of the flight is six hours.",
+        "Stay seated for the duration of the talk."
+      ],
+      "synonyms": [
+        "length",
+        "period"
+      ],
+      "antonyms": [],
+      "related": [
+        "durable",
+        "during",
+        "endurance"
+      ],
+      "semantic_expansions": [
+        "持续时间与期间：都是'撑下去的那一段长度'，中文一个说量一个说范围"
+      ]
+    },
+    {
+      "id": "during",
+      "word": "during",
+      "pos": "preposition",
+      "phonetic": "/ˈdʊrɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "durare"
+      ],
+      "root_logic": "dur（持续）+ -ing（进行中）→ 在某事持续的那段时间里 → 在…期间",
+      "origin": "拉丁语 durare（持续）的现在分词形式，经中古英语固定为介词",
+      "native_definition": "throughout the time that something continues",
+      "core_concept": "within the stretch while something lasts – 在某事撑着的那一段之内",
+      "core_image": "会议从头到尾这段时间里，手机一直静音",
+      "chinese": [
+        "在…期间",
+        "在…过程中"
+      ],
+      "examples": [
+        "It rained during the night.",
+        "She fell asleep during the film."
+      ],
+      "synonyms": [
+        "throughout"
+      ],
+      "antonyms": [],
+      "related": [
+        "duration",
+        "durable",
+        "endurance"
+      ],
+      "semantic_expansions": [
+        "在…期间与在…过程中：都是'在某事撑着的那一段之内'，中文按侧重时间还是过程分了两个词"
+      ]
+    },
+    {
+      "id": "endurance",
+      "word": "endurance",
+      "pos": "noun",
+      "phonetic": "/ɪnˈdʊrəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "durare"
+      ],
+      "root_logic": "en-（使…）+ dur（硬撑）+ -ance（名词）→ 硬撑下去的那份能力 → 耐力",
+      "origin": "拉丁语 indurare：in-（使…）+ durare（持续、变硬）",
+      "native_definition": "the ability to keep going through difficulty or pain",
+      "core_concept": "the capacity to keep holding under strain – 在压力下硬撑下去的那份能力",
+      "core_image": "长跑最后几公里，腿已经不听话但人还在往前迈",
+      "chinese": [
+        "耐力",
+        "忍耐力",
+        "持久力"
+      ],
+      "examples": [
+        "The race is a test of endurance.",
+        "Her endurance surprised everyone."
+      ],
+      "synonyms": [
+        "stamina",
+        "patience"
+      ],
+      "antonyms": [],
+      "related": [
+        "durable",
+        "duration",
+        "during"
+      ],
+      "semantic_expansions": [
+        "耐力/持久力：身体硬撑下去的能力",
+        "忍耐力：心上硬撑下去的能力。同一个'撑得住'，撑的是体力还是心力"
+      ]
+    },
+    {
+      "id": "domestic",
+      "word": "domestic",
+      "pos": "adjective",
+      "phonetic": "/dəˈmestɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "domus"
+      ],
+      "root_logic": "dom（家、屋）+ -estic（…的）→ 属于家里的 → 家庭的；一国之内视同一家 → 国内的",
+      "recall_hint": "dom（家、屋）+ -estic → 属于家里那一摊的；把一国看成一家，就是国内的",
+      "origin": "拉丁语 domesticus：domus（家、房屋）",
+      "native_definition": "relating to the home or family, or within one country",
+      "core_concept": "belonging to the household – 属于自家门内那一摊",
+      "core_image": "门一关，屋里的事归屋里管",
+      "chinese": [
+        "家庭的",
+        "国内的",
+        "家养的"
+      ],
+      "examples": [
+        "She shares the domestic chores.",
+        "Domestic flights leave from Terminal 1."
+      ],
+      "synonyms": [
+        "household",
+        "internal"
+      ],
+      "antonyms": [
+        "foreign",
+        "international"
+      ],
+      "related": [
+        "dominate",
+        "dominant"
+      ],
+      "semantic_expansions": [
+        "家庭的：属于自家门内那一摊",
+        "国内的：把一国看成一家，界内之事",
+        "家养的（动物）：进了家门被养起来的。三义共享'属于门内'"
+      ]
+    },
+    {
+      "id": "dominate",
+      "word": "dominate",
+      "pos": "verb",
+      "phonetic": "/ˈdɑːmɪneɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "domus"
+      ],
+      "root_logic": "domin（主人）+ -ate（动词）→ 像主人那样压住全场 → 支配",
+      "origin": "拉丁语 dominari：dominus（主人）← domus（家）",
+      "native_definition": "to have control over something, or to be the most noticeable part of it",
+      "core_concept": "holding sway as the master does – 像主人那样把全场压住",
+      "core_image": "一栋高楼立在街口，走到哪儿抬头都是它",
+      "chinese": [
+        "支配",
+        "统治",
+        "占主导"
+      ],
+      "examples": [
+        "One firm dominates the market.",
+        "The castle dominates the skyline."
+      ],
+      "synonyms": [
+        "control",
+        "rule"
+      ],
+      "antonyms": [],
+      "related": [
+        "dominant",
+        "domestic"
+      ],
+      "semantic_expansions": [
+        "支配/统治：像主人那样掌控",
+        "占主导（视觉上）：把周围都压住、最先被看见。同一个'主人般压住全场'，压的是权力还是视线"
+      ]
+    },
+    {
+      "id": "dominant",
+      "word": "dominant",
+      "pos": "adjective",
+      "phonetic": "/ˈdɑːmɪnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "domus"
+      ],
+      "root_logic": "dominate（压住全场）+ -ant（…的）→ 压住其余的 → 占主导的",
+      "origin": "拉丁语 dominans：dominari（做主）← dominus（主人）",
+      "native_definition": "most important, powerful, or noticeable",
+      "core_concept": "standing over the rest – 压在其余之上的那一个",
+      "core_image": "几种颜色里那一片红最抢眼，其余都退成背景",
+      "chinese": [
+        "占主导的",
+        "支配的",
+        "显性的"
+      ],
+      "examples": [
+        "English is the dominant language here.",
+        "Brown eyes are a dominant trait."
+      ],
+      "synonyms": [
+        "leading",
+        "main"
+      ],
+      "antonyms": [
+        "minor"
+      ],
+      "related": [
+        "dominate",
+        "domestic"
+      ],
+      "semantic_expansions": [
+        "占主导的/支配的：压在其余之上",
+        "显性的（遗传）：表现出来盖过另一个的那个。同一个'压住其余'，一个在势力一个在性状"
+      ]
     }
   ]
 }

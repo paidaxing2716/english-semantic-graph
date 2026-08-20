@@ -1186,6 +1186,65 @@
         "native",
         "nature"
       ]
+    },
+    {
+      "id": "concept-centrum-middle",
+      "concept": "the fixed middle point",
+      "chinese": "中心",
+      "core_image": "圆规一脚扎在纸上不动，另一脚绕着它画一圈",
+      "root_ids": [
+        "centrum"
+      ],
+      "word_ids": [
+        "central",
+        "centre",
+        "concentrate",
+        "concentration"
+      ]
+    },
+    {
+      "id": "concept-identus-same",
+      "concept": "the very same one",
+      "chinese": "同一",
+      "core_image": "两张照片并排比对，认出是同一个人",
+      "root_ids": [
+        "identus"
+      ],
+      "word_ids": [
+        "identical",
+        "identification",
+        "identify",
+        "identity"
+      ]
+    },
+    {
+      "id": "concept-durare-last",
+      "concept": "to hold hard over time",
+      "chinese": "持续、坚硬",
+      "core_image": "石阶被踩了几百年，磨圆了却还在那儿",
+      "root_ids": [
+        "durare"
+      ],
+      "word_ids": [
+        "durable",
+        "duration",
+        "during",
+        "endurance"
+      ]
+    },
+    {
+      "id": "concept-domus-house",
+      "concept": "the house and its master",
+      "chinese": "家与家主",
+      "core_image": "门一关，屋里的事归当家的人管",
+      "root_ids": [
+        "domus"
+      ],
+      "word_ids": [
+        "domestic",
+        "dominant",
+        "dominate"
+      ]
     }
   ]
 }

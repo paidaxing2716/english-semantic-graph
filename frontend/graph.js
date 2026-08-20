@@ -521,7 +521,11 @@
     // 每个节点需要的画布面积按最大碰撞直径估：(34+14)*2 ≈ 96px 见方
     const need = visible * 96 * 96;
     const byDensity = Math.sqrt((width * height) / need);
-    return Math.min(1, Math.max(0.5, Math.min(byCanvas, byDensity)));
+    // 下限 0.28：节点数很大时必须让它继续缩小，否则几何上放不下
+    // （541 节点时按密度需 0.478，若卡在 0.5 就会出现重叠）。
+    // 缩到这么小时标签已不易读，但图谱支持最多 5 倍缩放，
+    // 此时它的作用是"全局俯视图"，看细节靠放大。
+    return Math.min(1, Math.max(0.28, Math.min(byCanvas, byDensity)));
   }
 
   function radiusOf(d) {
