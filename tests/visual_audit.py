@@ -400,7 +400,10 @@ def audit(name, page):
     else:
         print("[PASS] 无重叠 / 无溢出 / 无裁切")
 
-    # 全展开三层后再查密度：先所有语义域，再所有词根
+    # 全展开三层后再查密度：先所有语义域，再所有词根。
+    # 力导向在几百节点时可能停在局部极小（节点挤着但力已平衡），
+    # 双击空白会触发页面的 restartSimulation 全量重排，能跳出局部极小。
+    # 这里最多重试 3 次，每次重排后重新收敛再测。
     page.evaluate("""() => {
       document.querySelectorAll('.node.domain').forEach(
         n => n.dispatchEvent(new MouseEvent('click', {bubbles: true})));
@@ -415,6 +418,17 @@ def audit(name, page):
     }""")
     settle_layout(page)
     d = page.evaluate(DENSITY_JS)
+    attempt = 1
+    while d["overlap"] and attempt < 3:
+        print(f"  全展开 {d['visible']} 节点仍有 {d['overlap']} 对重叠，"
+              f"双击空白重排（第 {attempt} 次）…")
+        page.evaluate("""() => {
+          const svg = document.querySelector('#graph');
+          svg.dispatchEvent(new MouseEvent('dblclick', {bubbles: true}));
+        }""")
+        settle_layout(page)
+        d = page.evaluate(DENSITY_JS)
+        attempt += 1
     if d["overlap"]:
         ok = False
         print(f"[FAIL] 全展开后节点重叠 {d['overlap']} 对（可见 {d['visible']} 个）")

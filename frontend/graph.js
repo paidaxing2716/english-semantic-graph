@@ -620,10 +620,8 @@
   function computeScale(width, height) {
     const byCanvas = Math.min(1, Math.sqrt(width * height) / 900);
     const visible = nodes.filter((n) => n.vizVisible).length || 1;
-    // 每个节点需要的画布面积按最大碰撞直径估：(34+14)*2 ≈ 96px 见方。
-    // ×1.12 安全系数：标签挂在圆下/圆旁的实际占位略超 96px，
-    // 系数为零时布局余量恰好 1.00x，加词就会偶发重叠（843→866 实测撞线）
-    const need = visible * 96 * 96 * 1.12;
+    // 每个节点需要的画布面积按最大碰撞直径估：(34+14)*2 ≈ 96px 见方
+    const need = visible * 96 * 96;
     const byDensity = Math.sqrt((width * height) / need);
     // 下限 0.28：节点数很大时必须让它继续缩小，否则几何上放不下
     // （541 节点时按密度需 0.478，若卡在 0.5 就会出现重叠）。
