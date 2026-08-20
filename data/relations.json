@@ -2232,6 +2232,114 @@
       "to": "enclosure",
       "type": "root",
       "note": "enclose（围住）+ -ure（名词）→ 被围起来的那块地方，或随信封入之物 → 围场、附件"
+    },
+    {
+      "from": "sumere",
+      "to": "assume",
+      "type": "root",
+      "note": "as-（ad- 的变体，朝向）+ sume（取用）→ 把某个前提取来当真的用 → 假定；把职位取到自己身上 → 就任"
+    },
+    {
+      "from": "sumere",
+      "to": "consume",
+      "type": "root",
+      "note": "con-（完全）+ sume（取用）→ 全部取用掉、一点不剩 → 消耗"
+    },
+    {
+      "from": "sumere",
+      "to": "presume",
+      "type": "root",
+      "note": "pre-（在前）+ sume（取用）→ 事先就把它取来当真的 → 推定"
+    },
+    {
+      "from": "sumere",
+      "to": "resume",
+      "type": "root",
+      "note": "re-（重新）+ sume（取用）→ 把放下的重新拿起来 → 继续"
+    },
+    {
+      "from": "spirare",
+      "to": "inspire",
+      "type": "root",
+      "note": "in-（进入）+ spire（呼气）→ 把一口气吹进对方心里 → 激励"
+    },
+    {
+      "from": "spirare",
+      "to": "inspiration",
+      "type": "root",
+      "note": "inspire（吹气入内）+ -ation（名词）→ 被吹进来的那口气 → 灵感"
+    },
+    {
+      "from": "spirare",
+      "to": "conspiracy",
+      "type": "root",
+      "note": "con-（一起）+ spir（呼吸）+ -acy → 几个人凑在一起同呼吸密谈 → 阴谋"
+    },
+    {
+      "from": "spirare",
+      "to": "spiral",
+      "type": "root",
+      "note": "spir（此处取 spira'盘绕'义）+ -al（…的）→ 一圈圈盘绕上升或下降的 → 螺旋"
+    },
+    {
+      "from": "socius",
+      "to": "society",
+      "type": "root",
+      "note": "soci（同伴）+ -ety（名词）→ 结伴生活的那一整群人 → 社会"
+    },
+    {
+      "from": "socius",
+      "to": "sociable",
+      "type": "root",
+      "note": "soci（结伴）+ -able（能…的）→ 乐于与人结伴的 → 好交际的"
+    },
+    {
+      "from": "socius",
+      "to": "associate",
+      "type": "root",
+      "note": "as-（ad- 的变体，朝向）+ soci（结伴）+ -ate → 把两者结成同伴 → 联想、结交"
+    },
+    {
+      "from": "socius",
+      "to": "association",
+      "type": "root",
+      "note": "associate（结成同伴）+ -ion（名词）→ 结伴而成的组织，或脑中结起的那层联系 → 协会、联想"
+    },
+    {
+      "from": "socius",
+      "to": "social",
+      "type": "root",
+      "note": "soci（同伴、结伴）+ -al（…的）→ 与人结伴相关的 → 社会的、社交的"
+    },
+    {
+      "from": "fac",
+      "to": "concept",
+      "type": "root",
+      "note": "con-（一起）+ cept（capere 的变体，抓取）→ 把许多个例的共性一把抓起来 → 概念"
+    },
+    {
+      "from": "fac",
+      "to": "except",
+      "type": "root",
+      "note": "ex-（向外）+ cept（抓取）→ 把这一项从整体里抓出去 → 除…之外"
+    },
+    {
+      "from": "fac",
+      "to": "receipt",
+      "type": "root",
+      "note": "re-（回、往回）+ ceipt（cept 的变体，抓取）→ 证明已把东西接过来的那张纸 → 收据"
+    },
+    {
+      "from": "fac",
+      "to": "susceptible",
+      "type": "root",
+      "note": "sus-（sub- 的变体，从下）+ cept（抓取）+ -ible（易…的）→ 底下容易被抓住的 → 易受影响的"
+    },
+    {
+      "from": "fac",
+      "to": "accept",
+      "type": "root",
+      "note": "ac-（ad- 的变体，朝向）+ cept（抓取）→ 朝自己这边接过来 → 接受"
     }
   ]
 }

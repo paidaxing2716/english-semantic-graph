@@ -4802,6 +4802,265 @@
       "text": "Please see the enclosure for details.",
       "source": "AI 生成 · 人工审核",
       "scene": "动物园里一圈栏杆围出的场地，动物在里面走动"
+    },
+    {
+      "id": "ex-assume-1",
+      "word_id": "assume",
+      "text": "I assumed you had already left.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺手从架上取过一件工具就用，没检查它对不对"
+    },
+    {
+      "id": "ex-assume-2",
+      "word_id": "assume",
+      "text": "She assumed control of the department.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺手从架上取过一件工具就用，没检查它对不对"
+    },
+    {
+      "id": "ex-consume-1",
+      "word_id": "consume",
+      "text": "The city consumes vast amounts of water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油表指针一路走到底，箱里空了"
+    },
+    {
+      "id": "ex-consume-2",
+      "word_id": "consume",
+      "text": "He consumed the whole loaf.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油表指针一路走到底，箱里空了"
+    },
+    {
+      "id": "ex-presume-1",
+      "word_id": "presume",
+      "text": "The accused is presumed innocent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "还没验完，先按'他没做过'来办"
+    },
+    {
+      "id": "ex-presume-2",
+      "word_id": "presume",
+      "text": "I would not presume to correct her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "还没验完，先按'他没做过'来办"
+    },
+    {
+      "id": "ex-resume-1",
+      "word_id": "resume",
+      "text": "Talks will resume on Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书签取出来，从上次停下的那页继续读"
+    },
+    {
+      "id": "ex-resume-2",
+      "word_id": "resume",
+      "text": "She resumed her seat quietly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书签取出来，从上次停下的那页继续读"
+    },
+    {
+      "id": "ex-inspire-1",
+      "word_id": "inspire",
+      "text": "Her courage inspired the whole team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一句话吹进人心里，原本瘪着的劲头鼓了起来"
+    },
+    {
+      "id": "ex-inspire-2",
+      "word_id": "inspire",
+      "text": "The landscape inspired his best work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一句话吹进人心里，原本瘪着的劲头鼓了起来"
+    },
+    {
+      "id": "ex-inspiration-1",
+      "word_id": "inspiration",
+      "text": "The idea came to her in a flash of inspiration.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "半夜忽然想通一件事，像有谁往脑子里吹了一口气"
+    },
+    {
+      "id": "ex-inspiration-2",
+      "word_id": "inspiration",
+      "text": "His mother was his greatest inspiration.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "半夜忽然想通一件事，像有谁往脑子里吹了一口气"
+    },
+    {
+      "id": "ex-conspiracy-1",
+      "word_id": "conspiracy",
+      "text": "They were charged with conspiracy to defraud.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个人围成一圈低头说话，声音低到只有圈内听得见"
+    },
+    {
+      "id": "ex-conspiracy-2",
+      "word_id": "conspiracy",
+      "text": "The film is about a political conspiracy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个人围成一圈低头说话，声音低到只有圈内听得见"
+    },
+    {
+      "id": "ex-spiral-1",
+      "word_id": "spiral",
+      "text": "A spiral staircase led to the tower.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼梯绕着中柱一圈圈向上，每转一圈高一层"
+    },
+    {
+      "id": "ex-spiral-2",
+      "word_id": "spiral",
+      "text": "Prices entered an upward spiral.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼梯绕着中柱一圈圈向上，每转一圈高一层"
+    },
+    {
+      "id": "ex-society-1",
+      "word_id": "society",
+      "text": "Modern society depends on trust.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街上的人彼此不认识，却守着同一套规矩过日子"
+    },
+    {
+      "id": "ex-society-2",
+      "word_id": "society",
+      "text": "She joined the historical society.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街上的人彼此不认识，却守着同一套规矩过日子"
+    },
+    {
+      "id": "ex-sociable-1",
+      "word_id": "sociable",
+      "text": "He is sociable and easy to talk to.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一进屋就坐到人多的那一桌"
+    },
+    {
+      "id": "ex-sociable-2",
+      "word_id": "sociable",
+      "text": "It was a sociable evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一进屋就坐到人多的那一桌"
+    },
+    {
+      "id": "ex-associate-1",
+      "word_id": "associate",
+      "text": "Most people associate red with danger.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "提到海就想到咸味，两者在脑中拴在一起"
+    },
+    {
+      "id": "ex-associate-2",
+      "word_id": "associate",
+      "text": "He associates mainly with musicians.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "提到海就想到咸味，两者在脑中拴在一起"
+    },
+    {
+      "id": "ex-association-1",
+      "word_id": "association",
+      "text": "She chairs the tenants' association.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会员名册第一页写着成立日期和宗旨"
+    },
+    {
+      "id": "ex-association-2",
+      "word_id": "association",
+      "text": "The word has negative associations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会员名册第一页写着成立日期和宗旨"
+    },
+    {
+      "id": "ex-social-1",
+      "word_id": "social",
+      "text": "Social problems cannot be solved overnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一栋楼里的人共用楼梯、垃圾房和一套规矩"
+    },
+    {
+      "id": "ex-social-2",
+      "word_id": "social",
+      "text": "She has a busy social life.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一栋楼里的人共用楼梯、垃圾房和一套规矩"
+    },
+    {
+      "id": "ex-social-3",
+      "word_id": "social",
+      "text": "Bees are social insects.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一栋楼里的人共用楼梯、垃圾房和一套规矩"
+    },
+    {
+      "id": "ex-concept-1",
+      "word_id": "concept",
+      "text": "The concept is simple but powerful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一堆苹果橘子里抓出'水果'这个东西，手里却什么都没有"
+    },
+    {
+      "id": "ex-concept-2",
+      "word_id": "concept",
+      "text": "He struggled with the concept of infinity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一堆苹果橘子里抓出'水果'这个东西，手里却什么都没有"
+    },
+    {
+      "id": "ex-except-1",
+      "word_id": "except",
+      "text": "The shop opens daily except Sunday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上一个名字被圈出来挪到旁边，其余照旧"
+    },
+    {
+      "id": "ex-except-2",
+      "word_id": "except",
+      "text": "Everyone agreed except me.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上一个名字被圈出来挪到旁边，其余照旧"
+    },
+    {
+      "id": "ex-receipt-1",
+      "word_id": "receipt",
+      "text": "Keep the receipt in case of return.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "付完钱递过来一张小纸条，上面写着收了多少"
+    },
+    {
+      "id": "ex-receipt-2",
+      "word_id": "receipt",
+      "text": "Please confirm receipt of this email.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "付完钱递过来一张小纸条，上面写着收了多少"
+    },
+    {
+      "id": "ex-susceptible-1",
+      "word_id": "susceptible",
+      "text": "Young trees are susceptible to frost.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刚淋过雨的人在风口站着，病一来就抓住了他"
+    },
+    {
+      "id": "ex-susceptible-2",
+      "word_id": "susceptible",
+      "text": "He is susceptible to flattery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刚淋过雨的人在风口站着，病一来就抓住了他"
+    },
+    {
+      "id": "ex-accept-1",
+      "word_id": "accept",
+      "text": "She accepted the offer at once.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方伸手递过来，你把它接到自己手里"
+    },
+    {
+      "id": "ex-accept-2",
+      "word_id": "accept",
+      "text": "He refuses to accept defeat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方伸手递过来，你把它接到自己手里"
     }
   ]
 }

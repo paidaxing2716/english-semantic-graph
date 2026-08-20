@@ -13995,6 +13995,721 @@
         "围场/圈地：被围起来的那块地方",
         "附件：随信被封进去的那份东西。同一个'被关在里面的'，一个是空间一个是物"
       ]
+    },
+    {
+      "id": "assume",
+      "word": "assume",
+      "pos": "verb",
+      "phonetic": "/əˈsuːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "sumere"
+      ],
+      "root_logic": "as-（ad- 的变体，朝向）+ sume（取用）→ 把某个前提取来当真的用 → 假定；把职位取到自己身上 → 就任",
+      "recall_hint": "as-（朝向）+ sume（取用）→ 未经证实就把某个说法取来当真的用；也指把职位或责任取到自己身上",
+      "origin": "拉丁语 assumere：ad-（朝向）+ sumere（取用）",
+      "native_definition": "to accept something as true without proof, or to take on a role",
+      "core_concept": "taking something up as given – 未经验证就把它取来当作已定",
+      "core_image": "顺手从架上取过一件工具就用，没检查它对不对",
+      "chinese": [
+        "假定",
+        "承担",
+        "就任"
+      ],
+      "examples": [
+        "I assumed you had already left.",
+        "She assumed control of the department."
+      ],
+      "synonyms": [
+        "suppose",
+        "presume"
+      ],
+      "antonyms": [
+        "verify"
+      ],
+      "related": [
+        "consume",
+        "presume",
+        "resume",
+        "suppose"
+      ],
+      "semantic_expansions": [
+        "假定：把未经验证的说法取来当真用",
+        "承担/就任：把职位或责任取到自己身上。同一个'取来就用'，取的是前提还是职务"
+      ]
+    },
+    {
+      "id": "consume",
+      "word": "consume",
+      "pos": "verb",
+      "phonetic": "/kənˈsuːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "sumere"
+      ],
+      "root_logic": "con-（完全）+ sume（取用）→ 全部取用掉、一点不剩 → 消耗",
+      "origin": "拉丁语 consumere：com-（完全）+ sumere（取用）",
+      "native_definition": "to use up, eat, or drink something completely",
+      "core_concept": "taking it up until none is left – 取用到一点不剩",
+      "core_image": "油表指针一路走到底，箱里空了",
+      "chinese": [
+        "消耗",
+        "消费",
+        "吃光"
+      ],
+      "examples": [
+        "The city consumes vast amounts of water.",
+        "He consumed the whole loaf."
+      ],
+      "synonyms": [
+        "use",
+        "expend"
+      ],
+      "antonyms": [
+        "produce"
+      ],
+      "related": [
+        "assume",
+        "presume",
+        "resume",
+        "expend"
+      ],
+      "semantic_expansions": [
+        "消耗/消费：取用到不剩",
+        "吃光：把食物取用到不剩。同一个'完全取用'，对象是资源还是食物"
+      ]
+    },
+    {
+      "id": "presume",
+      "word": "presume",
+      "pos": "verb",
+      "phonetic": "/prɪˈzuːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "sumere"
+      ],
+      "root_logic": "pre-（在前）+ sume（取用）→ 事先就把它取来当真的 → 推定",
+      "origin": "拉丁语 praesumere：prae-（在前）+ sumere（取用）",
+      "native_definition": "to suppose something is true before knowing, or to act without permission",
+      "core_concept": "taking it as true ahead of proof – 在证据之前就先取它为真",
+      "core_image": "还没验完，先按'他没做过'来办",
+      "chinese": [
+        "推定",
+        "假设",
+        "擅自"
+      ],
+      "examples": [
+        "The accused is presumed innocent.",
+        "I would not presume to correct her."
+      ],
+      "synonyms": [
+        "assume",
+        "suppose"
+      ],
+      "antonyms": [],
+      "related": [
+        "assume",
+        "consume",
+        "resume"
+      ],
+      "semantic_expansions": [
+        "推定/假设：在证据之前先取它为真",
+        "擅自：未经许可就把资格取来用。同一个'事先取用'，取的是判断还是资格"
+      ]
+    },
+    {
+      "id": "resume",
+      "word": "resume",
+      "pos": "verb",
+      "phonetic": "/rɪˈzuːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "sumere"
+      ],
+      "root_logic": "re-（重新）+ sume（取用）→ 把放下的重新拿起来 → 继续",
+      "origin": "拉丁语 resumere：re-（重新）+ sumere（取用）",
+      "native_definition": "to begin again after stopping",
+      "core_concept": "taking up again what was set down – 把放下的那件事重新拿起来",
+      "core_image": "书签取出来，从上次停下的那页往下读",
+      "chinese": [
+        "继续",
+        "恢复",
+        "重新开始"
+      ],
+      "examples": [
+        "Talks will resume on Monday.",
+        "She resumed her seat quietly."
+      ],
+      "synonyms": [
+        "continue",
+        "restart"
+      ],
+      "antonyms": [
+        "suspend"
+      ],
+      "related": [
+        "assume",
+        "consume",
+        "presume",
+        "suspend"
+      ],
+      "semantic_expansions": [
+        "继续/重新开始：把放下的重新拿起",
+        "恢复（原位）：回到原来那个位置。同一个'重新取用'，取的是进程还是位置"
+      ]
+    },
+    {
+      "id": "inspire",
+      "word": "inspire",
+      "pos": "verb",
+      "phonetic": "/ɪnˈspaɪər/",
+      "decomposable": "root",
+      "root_ids": [
+        "spirare"
+      ],
+      "root_logic": "in-（进入）+ spire（呼气）→ 把一口气吹进对方心里 → 激励",
+      "origin": "拉丁语 inspirare：in-（进入）+ spirare（呼吸）——原指神把气吹入人体",
+      "native_definition": "to fill someone with the urge to do or feel something",
+      "core_concept": "breathing something into another – 把一口气吹进对方心里",
+      "core_image": "一句话吹进人心里，原本瘪着的劲头鼓了起来",
+      "chinese": [
+        "激励",
+        "启发",
+        "赋予灵感"
+      ],
+      "examples": [
+        "Her courage inspired the whole team.",
+        "The landscape inspired his best work."
+      ],
+      "synonyms": [
+        "motivate",
+        "encourage"
+      ],
+      "antonyms": [
+        "discourage"
+      ],
+      "related": [
+        "inspiration",
+        "conspiracy",
+        "spiral"
+      ],
+      "semantic_expansions": [
+        "激励：把劲头吹进人心里",
+        "启发/赋予灵感：把念头吹进人脑中。同一个'吹气入内'，吹进的是劲头还是想法"
+      ]
+    },
+    {
+      "id": "inspiration",
+      "word": "inspiration",
+      "pos": "noun",
+      "phonetic": "/ˌɪnspəˈreɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "spirare"
+      ],
+      "root_logic": "inspire（吹气入内）+ -ation（名词）→ 被吹进来的那口气 → 灵感",
+      "origin": "拉丁语 inspiratio：in-（进入）+ spirare（呼吸）",
+      "native_definition": "a sudden good idea, or the person or thing that gives it",
+      "core_concept": "what has been breathed in – 被吹进来的那口气",
+      "core_image": "半夜忽然想通一件事，像有谁往脑子里吹了一口气",
+      "chinese": [
+        "灵感",
+        "鼓舞",
+        "启发"
+      ],
+      "examples": [
+        "The idea came to her in a flash of inspiration.",
+        "His mother was his greatest inspiration."
+      ],
+      "synonyms": [
+        "idea",
+        "stimulus"
+      ],
+      "antonyms": [],
+      "related": [
+        "inspire",
+        "conspiracy",
+        "spiral"
+      ],
+      "semantic_expansions": [
+        "灵感：被吹进脑中的那个念头",
+        "鼓舞/启发：被吹进心里的那股劲。同一个'吹进来的气'，落在想法还是心气"
+      ]
+    },
+    {
+      "id": "conspiracy",
+      "word": "conspiracy",
+      "pos": "noun",
+      "phonetic": "/kənˈspɪrəsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "spirare"
+      ],
+      "root_logic": "con-（一起）+ spir（呼吸）+ -acy → 几个人凑在一起同呼吸密谈 → 阴谋",
+      "recall_hint": "con-（一起）+ spir（呼吸）+ -acy → 几个人头凑在一起、气都吹到彼此脸上地密商",
+      "origin": "拉丁语 conspiratio：com-（一起）+ spirare（呼吸）——'同呼吸、串通'",
+      "native_definition": "a secret plan by several people to do something harmful or illegal",
+      "core_concept": "several breathing together in secret – 几个人凑在一起低声共谋",
+      "core_image": "几个人围成一圈低头说话，声音低到只有圈内听得见",
+      "chinese": [
+        "阴谋",
+        "共谋",
+        "同谋"
+      ],
+      "examples": [
+        "They were charged with conspiracy to defraud.",
+        "The film is about a political conspiracy."
+      ],
+      "synonyms": [
+        "plot",
+        "scheme"
+      ],
+      "antonyms": [],
+      "related": [
+        "inspire",
+        "inspiration",
+        "spiral"
+      ],
+      "semantic_expansions": [
+        "阴谋/共谋/同谋：都是'几人凑在一起低声共商'，中文按角度分了三个词"
+      ]
+    },
+    {
+      "id": "spiral",
+      "word": "spiral",
+      "pos": "noun",
+      "phonetic": "/ˈspaɪrəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "spirare"
+      ],
+      "root_logic": "spir（此处取 spira'盘绕'义）+ -al（…的）→ 一圈圈盘绕上升或下降的 → 螺旋",
+      "recall_hint": "spira（盘绕）+ -al → 一圈圈绕着上或下的形状；用在局势上则指越绕越糟",
+      "origin": "拉丁语 spiralis ← spira（盘绕、卷曲），与 spirare（呼吸）同族但取'盘绕'义",
+      "native_definition": "a curve that winds around a centre, or a continuous worsening",
+      "core_concept": "winding round and round while moving – 绕着中心一圈圈地往上或往下",
+      "core_image": "楼梯绕着中柱一圈圈向上，每转一圈高一层",
+      "chinese": [
+        "螺旋",
+        "螺旋形的",
+        "恶性循环"
+      ],
+      "examples": [
+        "A spiral staircase led to the tower.",
+        "Prices entered an upward spiral."
+      ],
+      "synonyms": [
+        "coil"
+      ],
+      "antonyms": [],
+      "related": [
+        "inspire",
+        "inspiration",
+        "conspiracy"
+      ],
+      "semantic_expansions": [
+        "螺旋/螺旋形的：绕着中心一圈圈地走",
+        "恶性循环：局势一圈圈绕着往下。同一个'盘绕着推进'，一个是形状一个是趋势"
+      ]
+    },
+    {
+      "id": "society",
+      "word": "society",
+      "pos": "noun",
+      "phonetic": "/səˈsaɪəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "socius"
+      ],
+      "root_logic": "soci（同伴）+ -ety（名词）→ 结伴生活的那一整群人 → 社会",
+      "origin": "拉丁语 societas：socius（同伴）",
+      "native_definition": "people living together in a community, or an organized group with a shared interest",
+      "core_concept": "people bound together as companions – 以同伴关系联结在一起的那群人",
+      "core_image": "街上的人彼此不认识，却守着同一套规矩过日子",
+      "chinese": [
+        "社会",
+        "社团",
+        "交往"
+      ],
+      "examples": [
+        "Modern society depends on trust.",
+        "She joined the historical society."
+      ],
+      "synonyms": [
+        "community",
+        "association"
+      ],
+      "antonyms": [],
+      "related": [
+        "social",
+        "sociable",
+        "associate",
+        "association"
+      ],
+      "semantic_expansions": [
+        "社会：以同伴关系联结的一整群人",
+        "社团：因共同兴趣结伴的一小群人。同一个'结伴而成的群'，规模不同"
+      ]
+    },
+    {
+      "id": "sociable",
+      "word": "sociable",
+      "pos": "adjective",
+      "phonetic": "/ˈsoʊʃəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "socius"
+      ],
+      "root_logic": "soci（结伴）+ -able（能…的）→ 乐于与人结伴的 → 好交际的",
+      "origin": "拉丁语 sociabilis：socius（同伴）",
+      "native_definition": "enjoying the company of other people",
+      "core_concept": "ready to be in others' company – 乐意与人待在一处",
+      "core_image": "一进屋就坐到人多的那一桌",
+      "chinese": [
+        "好交际的",
+        "友善的"
+      ],
+      "examples": [
+        "He is sociable and easy to talk to.",
+        "It was a sociable evening."
+      ],
+      "synonyms": [
+        "friendly",
+        "outgoing"
+      ],
+      "antonyms": [
+        "shy"
+      ],
+      "related": [
+        "society",
+        "social",
+        "associate",
+        "association"
+      ],
+      "semantic_expansions": [
+        "好交际的与友善的：都是'乐意与人待在一处'，一个偏主动一个偏态度"
+      ]
+    },
+    {
+      "id": "associate",
+      "word": "associate",
+      "pos": "verb",
+      "phonetic": "/əˈsoʊʃieɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "socius"
+      ],
+      "root_logic": "as-（ad- 的变体，朝向）+ soci（结伴）+ -ate → 把两者结成同伴 → 联想、结交",
+      "recall_hint": "as-（朝向）+ soci（结伴）+ -ate → 把两样东西结成一对同伴：可以是两个念头，也可以是两个人",
+      "origin": "拉丁语 associare：ad-（朝向）+ socius（同伴）",
+      "native_definition": "to connect one thing with another in the mind, or to spend time with someone",
+      "core_concept": "pairing two things as companions – 把两者配成同伴",
+      "core_image": "提到海就想到咸味，两者在脑中拴在一起",
+      "chinese": [
+        "联想",
+        "联系",
+        "结交",
+        "同事"
+      ],
+      "examples": [
+        "Most people associate red with danger.",
+        "He associates mainly with musicians."
+      ],
+      "synonyms": [
+        "link",
+        "connect"
+      ],
+      "antonyms": [],
+      "related": [
+        "association",
+        "society",
+        "social",
+        "sociable"
+      ],
+      "semantic_expansions": [
+        "联想/联系：把两个念头配成一对",
+        "结交/同事：把两个人配成同伴。同一个'结成同伴'，配的是概念还是人"
+      ]
+    },
+    {
+      "id": "association",
+      "word": "association",
+      "pos": "noun",
+      "phonetic": "/əˌsoʊsiˈeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "socius"
+      ],
+      "root_logic": "associate（结成同伴）+ -ion（名词）→ 结伴而成的组织，或脑中结起的那层联系 → 协会、联想",
+      "recall_hint": "associate（结成同伴）+ -ion → 结伴而成的那个组织；也指脑中两样东西之间结起的那层联系",
+      "origin": "拉丁语 associatio：ad-（朝向）+ socius（同伴）",
+      "native_definition": "an organized group, or a mental connection between things",
+      "core_concept": "what is formed by pairing – 结成同伴所形成的东西",
+      "core_image": "会员名册第一页写着成立日期和宗旨",
+      "chinese": [
+        "协会",
+        "联想",
+        "关联"
+      ],
+      "examples": [
+        "She chairs the tenants' association.",
+        "The word has negative associations."
+      ],
+      "synonyms": [
+        "organization",
+        "connection"
+      ],
+      "antonyms": [],
+      "related": [
+        "associate",
+        "society",
+        "social",
+        "sociable"
+      ],
+      "semantic_expansions": [
+        "协会：人结伴而成的组织",
+        "联想/关联：念头之间结起的那层联系。同一个'结成的关系'，结的是人还是概念"
+      ]
+    },
+    {
+      "id": "social",
+      "word": "social",
+      "pos": "adjective",
+      "phonetic": "/ˈsoʊʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "socius"
+      ],
+      "root_logic": "soci（同伴、结伴）+ -al（…的）→ 与人结伴相关的 → 社会的、社交的",
+      "origin": "拉丁语 socialis：socius（同伴）",
+      "native_definition": "relating to society, or to activities where people meet each other",
+      "core_concept": "having to do with people joined together – 与人结伴这件事相关",
+      "core_image": "同一栋楼里的人共用楼梯、垃圾房和一套规矩",
+      "chinese": [
+        "社会的",
+        "社交的",
+        "群居的"
+      ],
+      "examples": [
+        "Social problems cannot be solved overnight.",
+        "She has a busy social life.",
+        "Bees are social insects."
+      ],
+      "synonyms": [
+        "communal",
+        "public"
+      ],
+      "antonyms": [],
+      "related": [
+        "society",
+        "sociable",
+        "associate",
+        "association"
+      ],
+      "semantic_expansions": [
+        "社会的：与整群人相关",
+        "社交的：与人往来相关",
+        "群居的（生物）：结伴生活的。三义共享'与结伴相关'"
+      ]
+    },
+    {
+      "id": "concept",
+      "word": "concept",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːnsept/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "con-（一起）+ cept（capere 的变体，抓取）→ 把许多个例的共性一把抓起来 → 概念",
+      "recall_hint": "con-（一起）+ cept（抓取）→ 把许多个例的共同点一把抓住，剩下的那个东西",
+      "origin": "拉丁语 conceptus：com-（一起）+ capere（抓取）",
+      "native_definition": "a general idea formed from particular cases",
+      "core_concept": "what is grasped as common to many cases – 从许多个例里一把抓出来的那个共性",
+      "core_image": "从一堆苹果橘子里抓出'水果'这个东西，手里却什么都没有",
+      "chinese": [
+        "概念",
+        "观念"
+      ],
+      "examples": [
+        "The concept is simple but powerful.",
+        "He struggled with the concept of infinity."
+      ],
+      "synonyms": [
+        "idea",
+        "notion"
+      ],
+      "antonyms": [],
+      "related": [
+        "except",
+        "receipt",
+        "accept",
+        "susceptible"
+      ],
+      "semantic_expansions": [
+        "概念与观念：都是'从许多个例里抓出的共性'，一个偏客观一个偏个人持有"
+      ]
+    },
+    {
+      "id": "except",
+      "word": "except",
+      "pos": "preposition",
+      "phonetic": "/ɪkˈsept/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "ex-（向外）+ cept（抓取）→ 把这一项从整体里抓出去 → 除…之外",
+      "origin": "拉丁语 exceptus：ex-（向外）+ capere（抓取）",
+      "native_definition": "not including; other than",
+      "core_concept": "taken out of the group – 被从整体里抓出去的那一项",
+      "core_image": "名单上一个名字被圈出来挪到旁边，其余照旧",
+      "chinese": [
+        "除…之外",
+        "除外"
+      ],
+      "examples": [
+        "The shop opens daily except Sunday.",
+        "Everyone agreed except me."
+      ],
+      "synonyms": [
+        "excluding",
+        "but"
+      ],
+      "antonyms": [
+        "including"
+      ],
+      "related": [
+        "concept",
+        "receipt",
+        "accept",
+        "susceptible"
+      ],
+      "semantic_expansions": [
+        "除…之外与除外：都是'被从整体里抓出去的那一项'，中文一个作介词一个作动词"
+      ]
+    },
+    {
+      "id": "receipt",
+      "word": "receipt",
+      "pos": "noun",
+      "phonetic": "/rɪˈsiːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "re-（回、往回）+ ceipt（cept 的变体，抓取）→ 证明已把东西接过来的那张纸 → 收据",
+      "origin": "拉丁语 receptus：re-（往回）+ capere（抓取）",
+      "native_definition": "a written statement that money or goods have been received",
+      "core_concept": "proof that something was taken in – 证明已经接到手的那份凭据",
+      "core_image": "付完钱递过来一张小纸条，上面写着收了多少",
+      "chinese": [
+        "收据",
+        "收到",
+        "接收"
+      ],
+      "examples": [
+        "Keep the receipt in case of return.",
+        "Please confirm receipt of this email."
+      ],
+      "synonyms": [
+        "voucher"
+      ],
+      "antonyms": [],
+      "related": [
+        "concept",
+        "except",
+        "accept",
+        "susceptible"
+      ],
+      "semantic_expansions": [
+        "收据：证明已接到手的那张凭据",
+        "收到/接收（行为）：把东西接过来这件事。同一个'接到手'，一个是凭据一个是动作"
+      ]
+    },
+    {
+      "id": "susceptible",
+      "word": "susceptible",
+      "pos": "adjective",
+      "phonetic": "/səˈseptəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "sus-（sub- 的变体，从下）+ cept（抓取）+ -ible（易…的）→ 底下容易被抓住的 → 易受影响的",
+      "recall_hint": "sus-（从下）+ cept（抓取）+ -ible → 底子上容易被抓住、挡不住的",
+      "origin": "拉丁语 susceptibilis：sub-（从下）+ capere（抓取）",
+      "native_definition": "easily affected or harmed by something",
+      "core_concept": "easily taken hold of from below – 底子上容易被抓住、挡不住",
+      "core_image": "刚淋过雨的人在风口站着，病一来就抓住了他",
+      "chinese": [
+        "易受影响的",
+        "易感染的",
+        "敏感的"
+      ],
+      "examples": [
+        "Young trees are susceptible to frost.",
+        "He is susceptible to flattery."
+      ],
+      "synonyms": [
+        "vulnerable",
+        "prone"
+      ],
+      "antonyms": [
+        "resistant"
+      ],
+      "related": [
+        "concept",
+        "except",
+        "receipt",
+        "accept"
+      ],
+      "semantic_expansions": [
+        "易感染的（疾病）：身体底子容易被病抓住",
+        "易受影响的/敏感的：心思容易被外力抓住。同一个'底下容易被抓牢'，抓的是病还是话"
+      ]
+    },
+    {
+      "id": "accept",
+      "word": "accept",
+      "pos": "verb",
+      "phonetic": "/əkˈsept/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "ac-（ad- 的变体，朝向）+ cept（抓取）→ 朝自己这边接过来 → 接受",
+      "origin": "拉丁语 accipere：ad-（朝向）+ capere（抓取）",
+      "native_definition": "to agree to take or receive something offered",
+      "core_concept": "taking toward oneself what is offered – 把递来的东西朝自己这边接过来",
+      "core_image": "对方伸手递过来，你把它接到自己手里",
+      "chinese": [
+        "接受",
+        "承认",
+        "认可"
+      ],
+      "examples": [
+        "She accepted the offer at once.",
+        "He refuses to accept defeat."
+      ],
+      "synonyms": [
+        "take",
+        "receive"
+      ],
+      "antonyms": [
+        "reject",
+        "refuse"
+      ],
+      "related": [
+        "concept",
+        "except",
+        "receipt",
+        "susceptible"
+      ],
+      "semantic_expansions": [
+        "接受（东西）：把递来的接到手里",
+        "承认/认可（事实）：把说法接进心里。同一个'朝自己接过来'，接的是物还是判断"
+      ]
     }
   ]
 }

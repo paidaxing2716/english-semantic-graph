@@ -325,7 +325,12 @@
         "perfect",
         "infect",
         "efficient",
-        "sufficient"
+        "sufficient",
+        "concept",
+        "except",
+        "receipt",
+        "susceptible",
+        "accept"
       ]
     },
     {
@@ -950,6 +955,52 @@
         "liberal",
         "liberate",
         "liberty"
+      ]
+    },
+    {
+      "id": "concept-sumere-take",
+      "concept": "to take up",
+      "chinese": "取用、拿起",
+      "core_image": "从架上取下一件东西握在手里准备用",
+      "root_ids": [
+        "sumere"
+      ],
+      "word_ids": [
+        "assume",
+        "consume",
+        "presume",
+        "resume"
+      ]
+    },
+    {
+      "id": "concept-spirare-breathe",
+      "concept": "to breathe",
+      "chinese": "呼吸、吹气",
+      "core_image": "一口气吹进瘪掉的皮球，球慢慢鼓起来",
+      "root_ids": [
+        "spirare"
+      ],
+      "word_ids": [
+        "conspiracy",
+        "inspiration",
+        "inspire",
+        "spiral"
+      ]
+    },
+    {
+      "id": "concept-socius-companion",
+      "concept": "a companion, joined with others",
+      "chinese": "同伴、结伴",
+      "core_image": "两个人并排走，肩膀几乎挨着",
+      "root_ids": [
+        "socius"
+      ],
+      "word_ids": [
+        "associate",
+        "association",
+        "sociable",
+        "social",
+        "society"
       ]
     }
   ]

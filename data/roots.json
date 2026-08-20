@@ -350,7 +350,12 @@
         "perfect",
         "infect",
         "efficient",
-        "sufficient"
+        "sufficient",
+        "concept",
+        "except",
+        "receipt",
+        "susceptible",
+        "accept"
       ]
     },
     {
@@ -1097,6 +1102,60 @@
         "liberal",
         "liberate",
         "liberty"
+      ]
+    },
+    {
+      "id": "sumere",
+      "root": "sumere",
+      "variants": [
+        "sume",
+        "sumpt"
+      ],
+      "origin": "拉丁语 sumere（取用、拿起）",
+      "core_concept": "to take up / 拿起来用",
+      "core_image": "从架上取下一件东西握在手里准备用",
+      "english_definition": "to take, to take up",
+      "word_ids": [
+        "assume",
+        "consume",
+        "presume",
+        "resume"
+      ]
+    },
+    {
+      "id": "spirare",
+      "root": "spirare",
+      "variants": [
+        "spir",
+        "spire"
+      ],
+      "origin": "拉丁语 spirare（呼吸、吹气）",
+      "core_concept": "to breathe / 呼吸、把气吹进去",
+      "core_image": "一口气吹进瘪掉的皮球，球慢慢鼓起来",
+      "english_definition": "to breathe",
+      "word_ids": [
+        "conspiracy",
+        "inspiration",
+        "inspire",
+        "spiral"
+      ]
+    },
+    {
+      "id": "socius",
+      "root": "socius",
+      "variants": [
+        "soci"
+      ],
+      "origin": "拉丁语 socius（同伴、结伴者）",
+      "core_concept": "a companion, joined with others / 结伴、与人相联",
+      "core_image": "两个人并排走，肩膀几乎挨着",
+      "english_definition": "companion, ally",
+      "word_ids": [
+        "associate",
+        "association",
+        "sociable",
+        "social",
+        "society"
       ]
     }
   ]
