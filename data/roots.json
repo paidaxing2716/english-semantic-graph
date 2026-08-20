@@ -905,6 +905,63 @@
         "minor",
         "minority"
       ]
+    },
+    {
+      "id": "posse",
+      "root": "posse",
+      "variants": [
+        "poss",
+        "pot"
+      ],
+      "origin": "拉丁语 posse（能够）/ potis（有力的）",
+      "core_concept": "to be able / 有那个能力、办得到",
+      "core_image": "伸手一提就把箱子拎起来了，说明力气够",
+      "english_definition": "to be able, to have power",
+      "word_ids": [
+        "impossible",
+        "possess",
+        "possession",
+        "possibility",
+        "possible"
+      ]
+    },
+    {
+      "id": "publicus",
+      "root": "publicus",
+      "variants": [
+        "publ",
+        "pupl"
+      ],
+      "origin": "拉丁语 publicus（属于民众的）← populus（人民）",
+      "core_concept": "belonging to the people / 属于众人、摊在众人面前",
+      "core_image": "广场中央的告示，谁走过都能看",
+      "english_definition": "of the people, open to all",
+      "word_ids": [
+        "public",
+        "publication",
+        "publicity",
+        "publish",
+        "republic"
+      ]
+    },
+    {
+      "id": "res",
+      "root": "res",
+      "variants": [
+        "re",
+        "real"
+      ],
+      "origin": "拉丁语 res（事物、实在之物）",
+      "core_concept": "an actual thing / 一件真实存在的东西",
+      "core_image": "手能摸到、掂得出重量的那件东西",
+      "english_definition": "a thing, a matter",
+      "word_ids": [
+        "real",
+        "realise",
+        "realistic",
+        "reality",
+        "really"
+      ]
     }
   ]
 }

@@ -3836,6 +3836,216 @@
       "text": "Nurses administered the vaccine.",
       "source": "AI 生成 · 人工审核",
       "scene": "有人拿着名册逐项核对，每一环都得他签字"
+    },
+    {
+      "id": "ex-possible-1",
+      "word_id": "possible",
+      "text": "Is it possible to change the date?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门虽然紧，但用力推还是能推开"
+    },
+    {
+      "id": "ex-possible-2",
+      "word_id": "possible",
+      "text": "Come as early as possible.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门虽然紧，但用力推还是能推开"
+    },
+    {
+      "id": "ex-impossible-1",
+      "word_id": "impossible",
+      "text": "It is impossible to please everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门是砌死的墙，再用力也推不开"
+    },
+    {
+      "id": "ex-impossible-2",
+      "word_id": "impossible",
+      "text": "He is being impossible about the details.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门是砌死的墙，再用力也推不开"
+    },
+    {
+      "id": "ex-possibility-1",
+      "word_id": "possibility",
+      "text": "There is a real possibility of rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "岔路口有三个方向都走得通，随便挑一个"
+    },
+    {
+      "id": "ex-possibility-2",
+      "word_id": "possibility",
+      "text": "We explored every possibility.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "岔路口有三个方向都走得通，随便挑一个"
+    },
+    {
+      "id": "ex-possess-1",
+      "word_id": "possess",
+      "text": "He possesses a rare talent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "房产证上写着自己的名字，钥匙也在手里"
+    },
+    {
+      "id": "ex-possess-2",
+      "word_id": "possess",
+      "text": "She was possessed by a sudden fear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "房产证上写着自己的名字，钥匙也在手里"
+    },
+    {
+      "id": "ex-possession-1",
+      "word_id": "possession",
+      "text": "The house came into her possession last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "搬家纸箱一只只摞着，箱上写着自己的名字"
+    },
+    {
+      "id": "ex-possession-2",
+      "word_id": "possession",
+      "text": "He lost all his possessions in the fire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "搬家纸箱一只只摞着，箱上写着自己的名字"
+    },
+    {
+      "id": "ex-public-1",
+      "word_id": "public",
+      "text": "The park is open to the public.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "公园大门没有门禁，谁都可以走进去坐下"
+    },
+    {
+      "id": "ex-public-2",
+      "word_id": "public",
+      "text": "She avoids public speaking.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "公园大门没有门禁，谁都可以走进去坐下"
+    },
+    {
+      "id": "ex-publish-1",
+      "word_id": "publish",
+      "text": "The journal publishes twice a year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "印好的书从仓库拉到书店，摆上开放的货架"
+    },
+    {
+      "id": "ex-publish-2",
+      "word_id": "publish",
+      "text": "The findings were published last month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "印好的书从仓库拉到书店，摆上开放的货架"
+    },
+    {
+      "id": "ex-publication-1",
+      "word_id": "publication",
+      "text": "Publication is scheduled for June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架上一排期刊，每本封面都印着出版日期"
+    },
+    {
+      "id": "ex-publication-2",
+      "word_id": "publication",
+      "text": "The library subscribes to fifty publications.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架上一排期刊，每本封面都印着出版日期"
+    },
+    {
+      "id": "ex-publicity-1",
+      "word_id": "publicity",
+      "text": "The trial attracted huge publicity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上灯光打在一个人身上，台下几百双眼睛都朝那看"
+    },
+    {
+      "id": "ex-publicity-2",
+      "word_id": "publicity",
+      "text": "They hired a firm to handle publicity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上灯光打在一个人身上，台下几百双眼睛都朝那看"
+    },
+    {
+      "id": "ex-republic-1",
+      "word_id": "republic",
+      "text": "France has been a republic since 1870.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "议事厅里坐着各地选来的人，王座空着"
+    },
+    {
+      "id": "ex-republic-2",
+      "word_id": "republic",
+      "text": "The republic was founded after the revolution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "议事厅里坐着各地选来的人，王座空着"
+    },
+    {
+      "id": "ex-real-1",
+      "word_id": "real",
+      "text": "Is that a real diamond?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸过去能碰到，不是画上去的"
+    },
+    {
+      "id": "ex-real-2",
+      "word_id": "real",
+      "text": "The real reason came out later.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸过去能碰到，不是画上去的"
+    },
+    {
+      "id": "ex-reality-1",
+      "word_id": "reality",
+      "text": "The reality is harsher than the brochure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "计划表挂在墙上，旁边是实际完成的进度条，两条不一样长"
+    },
+    {
+      "id": "ex-reality-2",
+      "word_id": "reality",
+      "text": "In reality, few people read the terms.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "计划表挂在墙上，旁边是实际完成的进度条，两条不一样长"
+    },
+    {
+      "id": "ex-realistic-1",
+      "word_id": "realistic",
+      "text": "Set a realistic deadline.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画上的水珠让人想去擦，几乎以为是真的"
+    },
+    {
+      "id": "ex-realistic-2",
+      "word_id": "realistic",
+      "text": "The model is remarkably realistic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画上的水珠让人想去擦，几乎以为是真的"
+    },
+    {
+      "id": "ex-really-1",
+      "word_id": "really",
+      "text": "What really happened that night?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人说的是一套，实际发生的是另一套"
+    },
+    {
+      "id": "ex-really-2",
+      "word_id": "really",
+      "text": "It is really cold today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人说的是一套，实际发生的是另一套"
+    },
+    {
+      "id": "ex-realise-1",
+      "word_id": "realise",
+      "text": "I did not realise how late it was.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上的房子盖起来了，站在门口才觉得它真的存在"
+    },
+    {
+      "id": "ex-realise-2",
+      "word_id": "realise",
+      "text": "She realised her ambition at forty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上的房子盖起来了，站在门口才觉得它真的存在"
     }
   ]
 }

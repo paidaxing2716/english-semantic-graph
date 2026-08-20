@@ -1836,6 +1836,96 @@
       "to": "administer",
       "type": "root",
       "note": "ad-（朝向）+ minister（承事者）→ 去为某事承担事务 → 管理"
+    },
+    {
+      "from": "posse",
+      "to": "possible",
+      "type": "root",
+      "note": "poss（能够）+ -ible（可…的）→ 办得到的 → 可能的"
+    },
+    {
+      "from": "posse",
+      "to": "impossible",
+      "type": "root",
+      "note": "im-（否定）+ poss（能够）+ -ible → 办不到的 → 不可能的"
+    },
+    {
+      "from": "posse",
+      "to": "possibility",
+      "type": "root",
+      "note": "possible（办得到的）+ -ity（名词）→ 办得到这件事，或办得到的那条路 → 可能性"
+    },
+    {
+      "from": "posse",
+      "to": "possess",
+      "type": "root",
+      "note": "poss（有力、能支配）+ sess（坐、据）→ 坐在某物上、能支配它 → 拥有"
+    },
+    {
+      "from": "posse",
+      "to": "possession",
+      "type": "root",
+      "note": "possess（坐镇支配）+ -ion（名词）→ 拥有这件事，或所拥有之物 → 财产"
+    },
+    {
+      "from": "publicus",
+      "to": "public",
+      "type": "root",
+      "note": "publicus 本身即词根，无词缀 → 属于众人的、摊在众人面前的"
+    },
+    {
+      "from": "publicus",
+      "to": "publish",
+      "type": "root",
+      "note": "publ（属于众人）+ -ish（动词）→ 使之进入众人视野 → 出版、发布"
+    },
+    {
+      "from": "publicus",
+      "to": "publication",
+      "type": "root",
+      "note": "publish（使公开）+ -ation（名词）→ 公开这件事，或公开出来的那份东西 → 出版物"
+    },
+    {
+      "from": "publicus",
+      "to": "publicity",
+      "type": "root",
+      "note": "public（众人面前的）+ -ity（名词）→ 处在众人视野里的状态 → 曝光、宣传"
+    },
+    {
+      "from": "publicus",
+      "to": "republic",
+      "type": "root",
+      "note": "re（res 的变体，事物）+ public（属于众人）→ 众人之公事 → 共和国"
+    },
+    {
+      "from": "res",
+      "to": "real",
+      "type": "root",
+      "note": "res（实在之物）+ -al（…的）→ 属于实在之物的 → 真实的"
+    },
+    {
+      "from": "res",
+      "to": "reality",
+      "type": "root",
+      "note": "real（真实的）+ -ity（名词）→ 实际存在的那个状况 → 现实"
+    },
+    {
+      "from": "res",
+      "to": "realistic",
+      "type": "root",
+      "note": "real（真实的）+ -istic（…式的）→ 贴着实际来的 → 现实的、逼真的"
+    },
+    {
+      "from": "res",
+      "to": "really",
+      "type": "root",
+      "note": "real（真实的）+ -ly（副词）→ 就实际情形而言 → 真正地"
+    },
+    {
+      "from": "res",
+      "to": "realise",
+      "type": "root",
+      "note": "real（真实的）+ -ise（使成为）→ 使它成为实在的 → 实现；使自己看清实情 → 意识到"
     }
   ]
 }

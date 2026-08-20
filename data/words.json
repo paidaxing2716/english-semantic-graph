@@ -11415,6 +11415,597 @@
         "管理/执行：承担某事的运转",
         "施用（药物）：承担把它给到病人这件事。同一个'为之承事'，管的是机构还是给药"
       ]
+    },
+    {
+      "id": "possible",
+      "word": "possible",
+      "pos": "adjective",
+      "phonetic": "/ˈpɑːsəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "posse"
+      ],
+      "root_logic": "poss（能够）+ -ible（可…的）→ 办得到的 → 可能的",
+      "origin": "拉丁语 possibilis：posse（能够）",
+      "native_definition": "able to happen or be done",
+      "core_concept": "within what can be done – 在办得到的范围之内",
+      "core_image": "门虽然紧，但用力推还是能推开",
+      "chinese": [
+        "可能的",
+        "办得到的"
+      ],
+      "examples": [
+        "Is it possible to change the date?",
+        "Come as early as possible."
+      ],
+      "synonyms": [
+        "feasible",
+        "likely"
+      ],
+      "antonyms": [
+        "impossible"
+      ],
+      "related": [
+        "impossible",
+        "possibility",
+        "possess",
+        "possession"
+      ],
+      "semantic_expansions": [
+        "可能的与办得到的：都是'在能力所及范围之内'，中文一个说概率一个说可行性"
+      ]
+    },
+    {
+      "id": "impossible",
+      "word": "impossible",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈpɑːsəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "posse"
+      ],
+      "root_logic": "im-（否定）+ poss（能够）+ -ible → 办不到的 → 不可能的",
+      "origin": "拉丁语 impossibilis：in-（不）+ posse（能够）",
+      "native_definition": "not able to happen or be done",
+      "core_concept": "outside what can be done – 在办得到的范围之外",
+      "core_image": "门是砌死的墙，再用力也推不开",
+      "chinese": [
+        "不可能的",
+        "难以忍受的"
+      ],
+      "examples": [
+        "It is impossible to please everyone.",
+        "He is being impossible about the details."
+      ],
+      "synonyms": [
+        "unthinkable"
+      ],
+      "antonyms": [
+        "possible"
+      ],
+      "related": [
+        "possible",
+        "possibility",
+        "possess"
+      ],
+      "semantic_expansions": [
+        "不可能的：超出能力所及",
+        "难以忍受的（人）：让人无法应对。同一个'办不到'，一个说事一个说人"
+      ]
+    },
+    {
+      "id": "possibility",
+      "word": "possibility",
+      "pos": "noun",
+      "phonetic": "/ˌpɑːsəˈbɪləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "posse"
+      ],
+      "root_logic": "possible（办得到的）+ -ity（名词）→ 办得到这件事，或办得到的那条路 → 可能性",
+      "origin": "拉丁语 possibilitas：posse（能够）",
+      "native_definition": "the chance that something may happen, or an option available",
+      "core_concept": "a way that lies within reach – 一条落在能力范围内的路",
+      "core_image": "岔路口有三个方向都走得通，随便挑一个",
+      "chinese": [
+        "可能性",
+        "可能的事"
+      ],
+      "examples": [
+        "There is a real possibility of rain.",
+        "We explored every possibility."
+      ],
+      "synonyms": [
+        "chance",
+        "option"
+      ],
+      "antonyms": [],
+      "related": [
+        "possible",
+        "impossible",
+        "possess",
+        "possession"
+      ],
+      "semantic_expansions": [
+        "可能性：办得到的程度",
+        "可能的事：具体那条走得通的路。同一个'落在能力之内'，一个是抽象一个是选项"
+      ]
+    },
+    {
+      "id": "possess",
+      "word": "possess",
+      "pos": "verb",
+      "phonetic": "/pəˈzes/",
+      "decomposable": "root",
+      "root_ids": [
+        "posse"
+      ],
+      "root_logic": "poss（有力、能支配）+ sess（坐、据）→ 坐在某物上、能支配它 → 拥有",
+      "recall_hint": "poss（有力、能支配）+ sess（坐、据）→ 坐镇在某物上，它归你支配",
+      "origin": "拉丁语 possidere：potis（有力的）+ sedere（坐）——'坐镇其上'",
+      "native_definition": "to have or own something, or to control someone's mind",
+      "core_concept": "sitting over something as its master – 坐镇某物之上，由自己支配",
+      "core_image": "房产证上写着自己的名字，钥匙也在手里",
+      "chinese": [
+        "拥有",
+        "占有",
+        "支配"
+      ],
+      "examples": [
+        "He possesses a rare talent.",
+        "She was possessed by a sudden fear."
+      ],
+      "synonyms": [
+        "own",
+        "hold"
+      ],
+      "antonyms": [],
+      "related": [
+        "possession",
+        "possible",
+        "possibility",
+        "impossible"
+      ],
+      "semantic_expansions": [
+        "拥有/占有：坐镇其上、由自己支配",
+        "支配（情绪 possess）：某种情绪坐镇在人心上。同一个'坐镇支配'，主体从人变成情绪"
+      ]
+    },
+    {
+      "id": "possession",
+      "word": "possession",
+      "pos": "noun",
+      "phonetic": "/pəˈzeʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "posse"
+      ],
+      "root_logic": "possess（坐镇支配）+ -ion（名词）→ 拥有这件事，或所拥有之物 → 财产",
+      "origin": "拉丁语 possessio：possidere（坐镇其上）",
+      "native_definition": "the state of owning something, or a thing owned",
+      "core_concept": "the holding, or what is held – 拥有这件事，或被拥有的那样东西",
+      "core_image": "搬家纸箱一只只摞着，箱上写着自己的名字",
+      "chinese": [
+        "拥有",
+        "财产",
+        "所有物"
+      ],
+      "examples": [
+        "The house came into her possession last year.",
+        "He lost all his possessions in the fire."
+      ],
+      "synonyms": [
+        "ownership",
+        "property"
+      ],
+      "antonyms": [],
+      "related": [
+        "possess",
+        "possible",
+        "possibility"
+      ],
+      "semantic_expansions": [
+        "拥有（状态）：坐镇支配这件事",
+        "财产/所有物：被坐镇支配的那些东西。同一个词根，一个指关系一个指物"
+      ],
+      "recall_hint": "possess（坐镇支配）+ -ion → 坐镇支配这件事本身，或被支配着的那些东西"
+    },
+    {
+      "id": "public",
+      "word": "public",
+      "pos": "adjective",
+      "phonetic": "/ˈpʌblɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "publicus"
+      ],
+      "root_logic": "publicus 本身即词根，无词缀 → 属于众人的、摊在众人面前的",
+      "origin": "拉丁语 publicus ← populus（人民）",
+      "native_definition": "open to everyone, or relating to people in general",
+      "core_concept": "open to all, not kept to oneself – 对所有人敞开，不归私人",
+      "core_image": "公园大门没有门禁，谁都可以走进去坐下",
+      "chinese": [
+        "公共的",
+        "公开的",
+        "公众"
+      ],
+      "examples": [
+        "The park is open to the public.",
+        "She avoids public speaking."
+      ],
+      "synonyms": [
+        "open",
+        "communal"
+      ],
+      "antonyms": [
+        "private"
+      ],
+      "related": [
+        "publish",
+        "publication",
+        "publicity",
+        "republic"
+      ],
+      "semantic_expansions": [
+        "公共的：归众人所有",
+        "公开的：摊在众人面前",
+        "公众（名词）：众人本身。三义都从'属于众人'来"
+      ]
+    },
+    {
+      "id": "publish",
+      "word": "publish",
+      "pos": "verb",
+      "phonetic": "/ˈpʌblɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "publicus"
+      ],
+      "root_logic": "publ（属于众人）+ -ish（动词）→ 使之进入众人视野 → 出版、发布",
+      "origin": "拉丁语 publicare（使公开）← publicus（属于民众的）",
+      "native_definition": "to make something available to the public, especially in print",
+      "core_concept": "putting something before everyone – 把某物摊到众人面前",
+      "core_image": "印好的书从仓库拉到书店，摆上开放的货架",
+      "chinese": [
+        "出版",
+        "发表",
+        "公布"
+      ],
+      "examples": [
+        "The journal publishes twice a year.",
+        "The findings were published last month."
+      ],
+      "synonyms": [
+        "issue",
+        "release"
+      ],
+      "antonyms": [],
+      "related": [
+        "publication",
+        "public",
+        "publicity",
+        "republic"
+      ],
+      "semantic_expansions": [
+        "出版/发表：把作品摊到众人面前",
+        "公布（数据）：把信息摊开给众人。同一个'使进入众人视野'，摊开的东西不同"
+      ]
+    },
+    {
+      "id": "publication",
+      "word": "publication",
+      "pos": "noun",
+      "phonetic": "/ˌpʌblɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "publicus"
+      ],
+      "root_logic": "publish（使公开）+ -ation（名词）→ 公开这件事，或公开出来的那份东西 → 出版物",
+      "origin": "拉丁语 publicatio：publicare（使公开）",
+      "native_definition": "the act of publishing, or a book, magazine, or paper that is published",
+      "core_concept": "the making public, or what was made public – 摊开这件事，或被摊开的那份东西",
+      "core_image": "架上一排期刊，每本封面都印着面世的日期",
+      "chinese": [
+        "出版",
+        "出版物",
+        "公布"
+      ],
+      "examples": [
+        "Publication is scheduled for June.",
+        "The library subscribes to fifty publications."
+      ],
+      "synonyms": [
+        "issue"
+      ],
+      "antonyms": [],
+      "related": [
+        "publish",
+        "public",
+        "publicity",
+        "republic"
+      ],
+      "semantic_expansions": [
+        "出版/公布（行为）：把东西摊到众人面前这件事",
+        "出版物：被摊开的那份东西本身。同一个词根，一个是动作一个是成品"
+      ],
+      "recall_hint": "publish（摊到众人面前）+ -ation → 摊开这件事本身，或被摊开的那份印刷物"
+    },
+    {
+      "id": "publicity",
+      "word": "publicity",
+      "pos": "noun",
+      "phonetic": "/pʌbˈlɪsəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "publicus"
+      ],
+      "root_logic": "public（众人面前的）+ -ity（名词）→ 处在众人视野里的状态 → 曝光、宣传",
+      "origin": "拉丁语 publicus（属于民众的）",
+      "native_definition": "public attention given to someone or something, or efforts to attract it",
+      "core_concept": "being in everyone's view – 处在众人都看得见的位置上",
+      "core_image": "台上灯光打在一个人身上，台下几百双眼睛都朝那看",
+      "chinese": [
+        "曝光",
+        "宣传",
+        "知名度"
+      ],
+      "examples": [
+        "The trial attracted huge publicity.",
+        "They hired a firm to handle publicity."
+      ],
+      "synonyms": [
+        "attention",
+        "promote"
+      ],
+      "antonyms": [],
+      "related": [
+        "public",
+        "publish",
+        "publication"
+      ],
+      "semantic_expansions": [
+        "曝光/知名度：处在众人视野里的状态",
+        "宣传：主动把自己推到那个位置上的工作。同一个'在众人眼前'，一个是状态一个是手段"
+      ]
+    },
+    {
+      "id": "republic",
+      "word": "republic",
+      "pos": "noun",
+      "phonetic": "/rɪˈpʌblɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "publicus"
+      ],
+      "root_logic": "re（res 的变体，事物）+ public（属于众人）→ 众人之公事 → 共和国",
+      "recall_hint": "re（res 事物）+ public（属于众人）→ 拉丁语 res publica'众人之公事'，指主权归众人的那种国",
+      "origin": "拉丁语 res publica：res（事物）+ publica（公共的）——'公共之事'",
+      "native_definition": "a state in which power rests with the people and their elected representatives",
+      "core_concept": "a state whose affairs belong to the people – 政事归属众人的那种国家",
+      "core_image": "议事厅里坐着各地选来的人，王座空着",
+      "chinese": [
+        "共和国",
+        "共和政体"
+      ],
+      "examples": [
+        "France has been a republic since 1870.",
+        "The republic was founded after the revolution."
+      ],
+      "synonyms": [
+        "state"
+      ],
+      "antonyms": [
+        "monarchy"
+      ],
+      "related": [
+        "public",
+        "publish",
+        "publication",
+        "publicity"
+      ],
+      "semantic_expansions": [
+        "共和国与共和政体：都是'政事归属众人'，一个指国家一个指制度"
+      ]
+    },
+    {
+      "id": "real",
+      "word": "real",
+      "pos": "adjective",
+      "phonetic": "/ˈriːəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "res"
+      ],
+      "root_logic": "res（实在之物）+ -al（…的）→ 属于实在之物的 → 真实的",
+      "origin": "拉丁语 realis：res（事物、实在之物）",
+      "native_definition": "actually existing, not imagined or false",
+      "core_concept": "belonging to the world of actual things – 属于实际存在的那一类",
+      "core_image": "手伸过去能碰到，不是画上去的",
+      "chinese": [
+        "真实的",
+        "真正的",
+        "实际的"
+      ],
+      "examples": [
+        "Is that a real diamond?",
+        "The real reason came out later."
+      ],
+      "synonyms": [
+        "genuine",
+        "actual"
+      ],
+      "antonyms": [
+        "fake",
+        "imaginary"
+      ],
+      "related": [
+        "reality",
+        "realistic",
+        "really",
+        "realise"
+      ],
+      "semantic_expansions": [
+        "真实的/真正的/实际的：都是'属于实际存在之物'，中文按对比的对象分了三个词"
+      ]
+    },
+    {
+      "id": "reality",
+      "word": "reality",
+      "pos": "noun",
+      "phonetic": "/riˈæləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "res"
+      ],
+      "root_logic": "real（真实的）+ -ity（名词）→ 实际存在的那个状况 → 现实",
+      "origin": "拉丁语 realitas：res（实在之物）",
+      "native_definition": "the way things actually are, as opposed to how they are imagined",
+      "core_concept": "how things actually stand – 事情实际上的那个样子",
+      "core_image": "计划表挂在墙上，旁边是实际完成的进度条，两条不一样长",
+      "chinese": [
+        "现实",
+        "实际情况"
+      ],
+      "examples": [
+        "The reality is harsher than the brochure.",
+        "In reality, few people read the terms."
+      ],
+      "synonyms": [
+        "fact",
+        "truth"
+      ],
+      "antonyms": [
+        "fantasy"
+      ],
+      "related": [
+        "real",
+        "realistic",
+        "really",
+        "realise"
+      ],
+      "semantic_expansions": [
+        "现实与实际情况：都是'事情实际上的样子'，中文一个偏整体一个偏具体"
+      ]
+    },
+    {
+      "id": "realistic",
+      "word": "realistic",
+      "pos": "adjective",
+      "phonetic": "/ˌriːəˈlɪstɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "res"
+      ],
+      "root_logic": "real（真实的）+ -istic（…式的）→ 贴着实际来的 → 现实的、逼真的",
+      "recall_hint": "real（实在的）+ -istic → 贴着实际来的：既指想法不脱离实际，也指画得像真的",
+      "origin": "拉丁语 realis：res（实在之物）",
+      "native_definition": "sensible about what can actually be achieved, or looking very like the real thing",
+      "core_concept": "keeping close to how things actually are – 紧贴事情实际的样子",
+      "core_image": "画上的水珠让人想去擦，几乎以为是真的",
+      "chinese": [
+        "现实的",
+        "逼真的",
+        "务实的"
+      ],
+      "examples": [
+        "Set a realistic deadline.",
+        "The model is remarkably realistic."
+      ],
+      "synonyms": [
+        "practical",
+        "lifelike"
+      ],
+      "antonyms": [],
+      "related": [
+        "real",
+        "reality",
+        "really",
+        "realise"
+      ],
+      "semantic_expansions": [
+        "现实的/务实的：想法紧贴实际，不脱离",
+        "逼真的：样子紧贴实物。同一个'贴着实际'，贴的是判断还是外形"
+      ]
+    },
+    {
+      "id": "really",
+      "word": "really",
+      "pos": "adverb",
+      "phonetic": "/ˈriːəli/",
+      "decomposable": "root",
+      "root_ids": [
+        "res"
+      ],
+      "root_logic": "real（真实的）+ -ly（副词）→ 就实际情形而言 → 真正地",
+      "origin": "拉丁语 realis：res（实在之物）",
+      "native_definition": "in fact; also used to add emphasis",
+      "core_concept": "as things actually are – 按实际情形来说",
+      "core_image": "别人说的是一套，实际发生的是另一套",
+      "chinese": [
+        "真正地",
+        "确实",
+        "很"
+      ],
+      "examples": [
+        "What really happened that night?",
+        "It is really cold today."
+      ],
+      "synonyms": [
+        "truly",
+        "actually"
+      ],
+      "antonyms": [],
+      "related": [
+        "real",
+        "reality",
+        "realistic",
+        "realise"
+      ],
+      "semantic_expansions": [
+        "真正地/确实：按实际情形来说",
+        "很（加强语气）：由'确实如此'虚化成的程度副词。同一个'实在'，一个说事实一个只剩语气"
+      ]
+    },
+    {
+      "id": "realise",
+      "word": "realise",
+      "pos": "verb",
+      "phonetic": "/ˈriːəlaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "res"
+      ],
+      "root_logic": "real（真实的）+ -ise（使成为）→ 使它成为实在的 → 实现；使自己看清实情 → 意识到",
+      "recall_hint": "real（实在的）+ -ise → 使某物成为实在的；也指心里终于把实情看成实在的",
+      "origin": "拉丁语 realis：res（实在之物）",
+      "native_definition": "to become aware of something, or to make something happen",
+      "core_concept": "making something actual, in the world or in the mind – 使它成为实在的，在世上或在心里",
+      "core_image": "图纸上的房子盖起来了，站在门口才觉得它真的存在",
+      "chinese": [
+        "意识到",
+        "实现",
+        "变现"
+      ],
+      "examples": [
+        "I did not realise how late it was.",
+        "She realised her ambition at forty."
+      ],
+      "synonyms": [
+        "recognize",
+        "achieve"
+      ],
+      "antonyms": [],
+      "related": [
+        "real",
+        "reality",
+        "realistic",
+        "really"
+      ],
+      "semantic_expansions": [
+        "实现（计划）：使它在世上成为实在",
+        "意识到：使实情在心里成为实在",
+        "变现（资产）：使账面的东西成为实在的钱。三义共享'使成为实在'"
+      ]
     }
   ]
 }

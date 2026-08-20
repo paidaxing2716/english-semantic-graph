@@ -64,7 +64,9 @@
         "sci",
         "crit",
         "signum",
-        "prob"
+        "prob",
+        "publicus",
+        "res"
       ]
     },
     {
@@ -96,7 +98,8 @@
         "gen",
         "plic",
         "pet",
-        "texere"
+        "texere",
+        "posse"
       ]
     }
   ]

@@ -786,6 +786,54 @@
         "minor",
         "minority"
       ]
+    },
+    {
+      "id": "concept-posse-able",
+      "concept": "to be able",
+      "chinese": "能够、有力",
+      "core_image": "伸手一提就把箱子拎起来，说明力气够",
+      "root_ids": [
+        "posse"
+      ],
+      "word_ids": [
+        "impossible",
+        "possess",
+        "possession",
+        "possibility",
+        "possible"
+      ]
+    },
+    {
+      "id": "concept-publicus-people",
+      "concept": "belonging to the people",
+      "chinese": "属于众人",
+      "core_image": "广场中央的告示，谁走过都能看",
+      "root_ids": [
+        "publicus"
+      ],
+      "word_ids": [
+        "public",
+        "publication",
+        "publicity",
+        "publish",
+        "republic"
+      ]
+    },
+    {
+      "id": "concept-res-thing",
+      "concept": "an actual thing",
+      "chinese": "实在之物",
+      "core_image": "手能摸到、掂得出重量的那件东西",
+      "root_ids": [
+        "res"
+      ],
+      "word_ids": [
+        "real",
+        "realise",
+        "realistic",
+        "reality",
+        "really"
+      ]
     }
   ]
 }
