@@ -6258,6 +6258,223 @@
       "text": "He won, but at a heavy price.",
       "source": "AI 生成 · 人工审核",
       "scene": "标签上那个数字，付了才能把东西拿走"
+    },
+    {
+      "id": "ex-sense-1",
+      "word_id": "sense",
+      "text": "She lost her sense of smell.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸进水里先感到凉，接着判断这水不能洗手"
+    },
+    {
+      "id": "ex-sense-2",
+      "word_id": "sense",
+      "text": "He had the sense to stop early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸进水里先感到凉，接着判断这水不能洗手"
+    },
+    {
+      "id": "ex-sense-3",
+      "word_id": "sense",
+      "text": "That sentence makes no sense.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手伸进水里先感到凉，接着判断这水不能洗手"
+    },
+    {
+      "id": "ex-sensible-1",
+      "word_id": "sensible",
+      "text": "That is a sensible precaution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "下雨前先带伞的人，不必等淋了才想起来"
+    },
+    {
+      "id": "ex-sensible-2",
+      "word_id": "sensible",
+      "text": "Wear sensible shoes for the hike.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "下雨前先带伞的人，不必等淋了才想起来"
+    },
+    {
+      "id": "ex-sensation-1",
+      "word_id": "sensation",
+      "text": "A burning sensation spread up his arm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指尖麻了一下；消息传开时整条街都在议论"
+    },
+    {
+      "id": "ex-sensation-2",
+      "word_id": "sensation",
+      "text": "Her debut caused a sensation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指尖麻了一下；消息传开时整条街都在议论"
+    },
+    {
+      "id": "ex-sentence-1",
+      "word_id": "sentence",
+      "text": "Read the second sentence again.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "写满一行字后落下句号，意思到此完整了"
+    },
+    {
+      "id": "ex-sentence-2",
+      "word_id": "sentence",
+      "text": "He received a five-year sentence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "写满一行字后落下句号，意思到此完整了"
+    },
+    {
+      "id": "ex-consent-1",
+      "word_id": "consent",
+      "text": "The patient gave written consent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人对看一眼同时点头，不必再说什么"
+    },
+    {
+      "id": "ex-consent-2",
+      "word_id": "consent",
+      "text": "She consented to the interview.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人对看一眼同时点头，不必再说什么"
+    },
+    {
+      "id": "ex-result-1",
+      "word_id": "result",
+      "text": "The result was announced at noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "球砸在墙上，弹回来的那一下就是它"
+    },
+    {
+      "id": "ex-result-2",
+      "word_id": "result",
+      "text": "Careless work results in errors.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "球砸在墙上，弹回来的那一下就是它"
+    },
+    {
+      "id": "ex-insult-1",
+      "word_id": "insult",
+      "text": "He insulted her in front of everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方已经跌倒了，还上去踩一脚"
+    },
+    {
+      "id": "ex-insult-2",
+      "word_id": "insult",
+      "text": "The remark was a deliberate insult.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方已经跌倒了，还上去踩一脚"
+    },
+    {
+      "id": "ex-consult-1",
+      "word_id": "consult",
+      "text": "You should consult a lawyer first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拿着病历坐到医生对面，等他说该怎么办"
+    },
+    {
+      "id": "ex-consult-2",
+      "word_id": "consult",
+      "text": "She consulted the timetable again.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拿着病历坐到医生对面，等他说该怎么办"
+    },
+    {
+      "id": "ex-consultant-1",
+      "word_id": "consultant",
+      "text": "They hired a tax consultant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议室里那个不属于本公司的人，专门被请来给意见"
+    },
+    {
+      "id": "ex-consultant-2",
+      "word_id": "consultant",
+      "text": "The consultant will see you now.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议室里那个不属于本公司的人，专门被请来给意见"
+    },
+    {
+      "id": "ex-sector-1",
+      "word_id": "sector",
+      "text": "The public sector employs millions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆饼从圆心切两刀，取出中间那一瓣"
+    },
+    {
+      "id": "ex-sector-2",
+      "word_id": "sector",
+      "text": "Shade the sector between the two radii.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆饼从圆心切两刀，取出中间那一瓣"
+    },
+    {
+      "id": "ex-section-1",
+      "word_id": "section",
+      "text": "Read the final section carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树干横锯一刀，年轮全露在切面上"
+    },
+    {
+      "id": "ex-section-2",
+      "word_id": "section",
+      "text": "The diagram shows a cross section.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树干横锯一刀，年轮全露在切面上"
+    },
+    {
+      "id": "ex-insect-1",
+      "word_id": "insect",
+      "text": "Bees are social insects.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "蚂蚁的腰细成一线，前后像是两截接起来的"
+    },
+    {
+      "id": "ex-insect-2",
+      "word_id": "insect",
+      "text": "The garden is full of insects in June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "蚂蚁的腰细成一线，前后像是两截接起来的"
+    },
+    {
+      "id": "ex-intersection-1",
+      "word_id": "intersection",
+      "text": "Turn left at the next intersection.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条路交叉的那个方块，四个方向都通"
+    },
+    {
+      "id": "ex-intersection-2",
+      "word_id": "intersection",
+      "text": "The intersection of the two sets is empty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条路交叉的那个方块，四个方向都通"
+    },
+    {
+      "id": "ex-segment-1",
+      "word_id": "segment",
+      "text": "Divide the line into three segments.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橘子剥开，一瓣一瓣界限分明"
+    },
+    {
+      "id": "ex-segment-2",
+      "word_id": "segment",
+      "text": "This segment of the market is growing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橘子剥开，一瓣一瓣界限分明"
+    },
+    {
+      "id": "ex-resent-1",
+      "word_id": "resent",
+      "text": "She resented being left out.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话早过去了，一想起来胸口还是堵"
+    },
+    {
+      "id": "ex-resent-2",
+      "word_id": "resent",
+      "text": "He resents any criticism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话早过去了，一想起来胸口还是堵"
     }
   ]
 }

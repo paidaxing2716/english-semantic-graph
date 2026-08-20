@@ -1527,6 +1527,79 @@
         "precious",
         "price"
       ]
+    },
+    {
+      "id": "sentire",
+      "root": "sentire",
+      "variants": [
+        "sent",
+        "sens"
+      ],
+      "origin": "拉丁语 sentire（感觉、察觉）",
+      "core_concept": "to feel, to perceive / 感到、察觉到",
+      "core_image": "手伸进水里，先感到的是凉",
+      "english_definition": "to feel, to sense",
+      "word_ids": [
+        "consent",
+        "resent",
+        "sensation",
+        "sense",
+        "sensible",
+        "sentence"
+      ]
+    },
+    {
+      "id": "salire",
+      "root": "salire",
+      "variants": [
+        "sal",
+        "sult",
+        "sault"
+      ],
+      "origin": "拉丁语 salire（跳）",
+      "core_concept": "to leap / 跳起来、蹦出去",
+      "core_image": "蚂蚱一蹬腿从草丛里蹦出来",
+      "english_definition": "to leap, to jump",
+      "word_ids": [
+        "insult",
+        "result"
+      ]
+    },
+    {
+      "id": "consulere",
+      "root": "consulere",
+      "variants": [
+        "consul",
+        "consult"
+      ],
+      "origin": "拉丁语 consulere（商议、求教）",
+      "core_concept": "to take counsel / 找人商量、请教",
+      "core_image": "把事摊在桌上，请对面的人给个说法",
+      "english_definition": "to consult, to take advice",
+      "word_ids": [
+        "consult",
+        "consultant"
+      ]
+    },
+    {
+      "id": "secare",
+      "root": "secare",
+      "variants": [
+        "sect",
+        "sec",
+        "seg"
+      ],
+      "origin": "拉丁语 secare（切、割开）",
+      "core_concept": "to cut apart / 切开、分成段",
+      "core_image": "刀落下去，整块东西成了两段",
+      "english_definition": "to cut",
+      "word_ids": [
+        "insect",
+        "intersection",
+        "section",
+        "sector",
+        "segment"
+      ]
     }
   ]
 }

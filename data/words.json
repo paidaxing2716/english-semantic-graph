@@ -17983,6 +17983,595 @@
         "价格：换取它要付的钱数",
         "代价：换取它要付出的其他东西。同一个'必须交出的那一份'，付的是钱还是别的"
       ]
+    },
+    {
+      "id": "sense",
+      "word": "sense",
+      "pos": "noun",
+      "phonetic": "/sens/",
+      "decomposable": "root",
+      "root_ids": [
+        "sentire"
+      ],
+      "root_logic": "sentire（感觉）本身即词根，无词缀 → 感受这件事，以及由此得出的判断",
+      "recall_hint": "sentire（感觉）本身即词根 → 感受这件事本身；引申为由感受得出的判断力，或一段话说得通的那个意思",
+      "origin": "拉丁语 sensus：sentire（感觉）",
+      "native_definition": "any of the faculties of perception, good judgement, or the meaning of something",
+      "core_concept": "what one perceives, and what one makes of it – 感到什么，以及由此判定什么",
+      "core_image": "手伸进水里先感到凉，接着判断这水不能洗手",
+      "chinese": [
+        "感觉",
+        "判断力",
+        "意义"
+      ],
+      "examples": [
+        "She lost her sense of smell.",
+        "He had the sense to stop early.",
+        "That sentence makes no sense."
+      ],
+      "synonyms": [
+        "feeling",
+        "meaning"
+      ],
+      "antonyms": [],
+      "related": [
+        "sensible",
+        "sensation",
+        "sentence",
+        "consent"
+      ],
+      "semantic_expansions": [
+        "感觉：感官所感到的",
+        "判断力：由感受得出的分辨能力",
+        "意义：一段话能被感知、说得通的那个内容。三义共享'感到并由此明白'"
+      ]
+    },
+    {
+      "id": "sensible",
+      "word": "sensible",
+      "pos": "adjective",
+      "phonetic": "/ˈsensəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "sentire"
+      ],
+      "root_logic": "sens（感觉、判断）+ -ible（能…的）→ 能凭感受作出判断的 → 明智的",
+      "origin": "拉丁语 sensibilis：sentire（感觉）",
+      "native_definition": "showing good judgement; practical rather than emotional",
+      "core_concept": "guided by sound perception – 凭得住的感受与判断行事",
+      "core_image": "下雨前先带伞的人，不必等淋了才想起来",
+      "chinese": [
+        "明智的",
+        "合情理的",
+        "切合实际的"
+      ],
+      "examples": [
+        "That is a sensible precaution.",
+        "Wear sensible shoes for the hike."
+      ],
+      "synonyms": [
+        "wise",
+        "practical"
+      ],
+      "antonyms": [
+        "foolish"
+      ],
+      "related": [
+        "sense",
+        "sensation",
+        "sentence",
+        "consent"
+      ],
+      "semantic_expansions": [
+        "明智的/合情理的：判断凭得住",
+        "切合实际的（鞋）：以实用而非好看为准。同一个'凭感受与判断行事'，一个说人一个说物"
+      ]
+    },
+    {
+      "id": "sensation",
+      "word": "sensation",
+      "pos": "noun",
+      "phonetic": "/senˈseɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sentire"
+      ],
+      "root_logic": "sens（感觉）+ -ation（名词）→ 被感到的那一下；引申为让所有人都感到的那件事 → 轰动",
+      "recall_hint": "sens（感觉）+ -ation → 身上被感到的那一下；放大到人群，就是让所有人都感到的那件事",
+      "origin": "拉丁语 sensatio：sentire（感觉）",
+      "native_definition": "a physical feeling, or great excitement among many people",
+      "core_concept": "something felt, whether in the body or by a crowd – 被感到的那一下，落在身上或人群里",
+      "core_image": "指尖麻了一下；消息传开时整条街都在议论",
+      "chinese": [
+        "感觉",
+        "知觉",
+        "轰动"
+      ],
+      "examples": [
+        "A burning sensation spread up his arm.",
+        "Her debut caused a sensation."
+      ],
+      "synonyms": [
+        "feeling",
+        "stir"
+      ],
+      "antonyms": [],
+      "related": [
+        "sense",
+        "sensible",
+        "sentence",
+        "consent"
+      ],
+      "semantic_expansions": [
+        "感觉/知觉：身上被感到的那一下",
+        "轰动：让整群人同时感到的那件事。同一个'被感到'，范围从一人到一群"
+      ]
+    },
+    {
+      "id": "sentence",
+      "word": "sentence",
+      "pos": "noun",
+      "phonetic": "/ˈsentəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "sentire"
+      ],
+      "root_logic": "sent（感觉、判定）+ -ence（名词）→ 表达一个完整判断的那串话 → 句子；法官作出的判定 → 判决",
+      "recall_hint": "sent（感觉、判定）+ -ence → 承载一个完整判断的那串话；在法庭上则是法官作出的那个判定",
+      "origin": "拉丁语 sententia：sentire（感觉、判断）——'所持的意见'",
+      "native_definition": "a group of words expressing a complete thought, or a punishment decided by a court",
+      "core_concept": "a completed judgement put into words – 被说成话的一个完整判断",
+      "core_image": "写满一行字后落下句号，意思到此完整了",
+      "chinese": [
+        "句子",
+        "判决",
+        "宣判"
+      ],
+      "examples": [
+        "Read the second sentence again.",
+        "He received a five-year sentence."
+      ],
+      "synonyms": [
+        "statement",
+        "verdict"
+      ],
+      "antonyms": [],
+      "related": [
+        "sense",
+        "sensible",
+        "sensation",
+        "consent"
+      ],
+      "semantic_expansions": [
+        "句子：承载一个完整判断的那串话",
+        "判决/宣判：法官所作的那个判定。同一个'成形的判断'，一个在语言一个在法庭"
+      ]
+    },
+    {
+      "id": "consent",
+      "word": "consent",
+      "pos": "noun",
+      "phonetic": "/kənˈsent/",
+      "decomposable": "root",
+      "root_ids": [
+        "sentire"
+      ],
+      "root_logic": "con-（一起）+ sent（感觉、想）→ 双方所感相同 → 同意",
+      "origin": "拉丁语 consentire：com-（一起）+ sentire（感觉）——'同感'",
+      "native_definition": "permission or agreement for something to happen",
+      "core_concept": "feeling the same way as the other – 与对方所感一致",
+      "core_image": "两人对看一眼同时点头，不必再说什么",
+      "chinese": [
+        "同意",
+        "许可",
+        "赞同"
+      ],
+      "examples": [
+        "The patient gave written consent.",
+        "She consented to the interview."
+      ],
+      "synonyms": [
+        "agreement",
+        "permission"
+      ],
+      "antonyms": [
+        "refuse"
+      ],
+      "related": [
+        "sense",
+        "sensible",
+        "sentence",
+        "sensation"
+      ],
+      "semantic_expansions": [
+        "同意/赞同：与对方所感一致",
+        "许可：因所感一致而放行。同一个'同感'，一个是态度一个是授权"
+      ]
+    },
+    {
+      "id": "result",
+      "word": "result",
+      "pos": "noun",
+      "phonetic": "/rɪˈzʌlt/",
+      "decomposable": "root",
+      "root_ids": [
+        "salire"
+      ],
+      "root_logic": "re-（回、随之）+ sult（跳）→ 事情之后蹦出来的那个 → 结果",
+      "origin": "拉丁语 resultare：re-（回）+ salire（跳）——'反弹回来'",
+      "native_definition": "something that happens because of an action or event",
+      "core_concept": "what leaps back out of what was done – 做完之后蹦出来的那个东西",
+      "core_image": "球砸在墙上，弹回来的那一下就是它",
+      "chinese": [
+        "结果",
+        "成绩",
+        "导致"
+      ],
+      "examples": [
+        "The result was announced at noon.",
+        "Careless work results in errors."
+      ],
+      "synonyms": [
+        "outcome",
+        "consequence"
+      ],
+      "antonyms": [
+        "cause"
+      ],
+      "related": [
+        "insult",
+        "consult",
+        "consultant"
+      ],
+      "semantic_expansions": [
+        "结果/成绩：事后蹦出来的那个",
+        "导致（动词）：使那个东西蹦出来。同一个'随之弹出'，一个是所得一个是致因"
+      ]
+    },
+    {
+      "id": "insult",
+      "word": "insult",
+      "pos": "verb",
+      "phonetic": "/ɪnˈsʌlt/",
+      "decomposable": "root",
+      "root_ids": [
+        "salire"
+      ],
+      "root_logic": "in-（朝…上）+ sult（跳）→ 跳到别人身上去踩 → 侮辱",
+      "origin": "拉丁语 insultare：in-（朝上）+ salire（跳）——'跳到人身上'",
+      "native_definition": "to say or do something offensive to someone",
+      "core_concept": "leaping onto someone to trample them – 跳到对方身上去踩",
+      "core_image": "对方已经跌倒了，还上去踩一脚",
+      "chinese": [
+        "侮辱",
+        "辱骂",
+        "冒犯"
+      ],
+      "examples": [
+        "He insulted her in front of everyone.",
+        "The remark was a deliberate insult."
+      ],
+      "synonyms": [
+        "offend",
+        "abuse"
+      ],
+      "antonyms": [
+        "praise"
+      ],
+      "related": [
+        "result",
+        "consult",
+        "consultant"
+      ],
+      "semantic_expansions": [
+        "侮辱/辱骂/冒犯：都是'跳到人身上去踩'，中文按方式与轻重分了三个词"
+      ]
+    },
+    {
+      "id": "consult",
+      "word": "consult",
+      "pos": "verb",
+      "phonetic": "/kənˈsʌlt/",
+      "decomposable": "root",
+      "root_ids": [
+        "consulere"
+      ],
+      "root_logic": "consulere（商议）本身即词根，无额外前缀 → 把事拿去请人给个说法",
+      "recall_hint": "consulere（商议、求教）本身即词根 → 把事拿去请人给个说法；也用于查阅资料，向书求教",
+      "origin": "拉丁语 consultare：consulere（商议、求教）的反复形",
+      "native_definition": "to ask someone for advice or information, or to look something up",
+      "core_concept": "taking a matter to someone for their view – 把事拿去请对方给个说法",
+      "core_image": "拿着病历坐到医生对面，等他说该怎么办",
+      "chinese": [
+        "咨询",
+        "请教",
+        "查阅"
+      ],
+      "examples": [
+        "You should consult a lawyer first.",
+        "She consulted the timetable again."
+      ],
+      "synonyms": [
+        "ask",
+        "refer to"
+      ],
+      "antonyms": [],
+      "related": [
+        "consultant",
+        "result",
+        "insult"
+      ],
+      "semantic_expansions": [
+        "咨询/请教：拿事去请人给说法",
+        "查阅（资料）：拿事去向书本求答案。同一个'求个说法'，求于人还是于书"
+      ]
+    },
+    {
+      "id": "consultant",
+      "word": "consultant",
+      "pos": "noun",
+      "phonetic": "/kənˈsʌltənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "consulere"
+      ],
+      "root_logic": "consult（请人给说法）+ -ant（人）→ 专供人请教的那个人 → 顾问",
+      "origin": "拉丁语 consultare（商议）+ -ant",
+      "native_definition": "an expert who gives professional advice, or a senior hospital doctor",
+      "core_concept": "the one people bring matters to – 专门被拿事去请教的那个人",
+      "core_image": "会议室里那个不属于本公司的人，专门被请来给意见",
+      "chinese": [
+        "顾问",
+        "咨询师",
+        "主任医师"
+      ],
+      "examples": [
+        "They hired a tax consultant.",
+        "The consultant will see you now."
+      ],
+      "synonyms": [
+        "adviser",
+        "specialist"
+      ],
+      "antonyms": [],
+      "related": [
+        "consult",
+        "result",
+        "insult"
+      ],
+      "semantic_expansions": [
+        "顾问/咨询师：专供人请教的人",
+        "主任医师（英式）：科室里被请去定夺的那位。同一个'被请教者'，行业不同"
+      ]
+    },
+    {
+      "id": "sector",
+      "word": "sector",
+      "pos": "noun",
+      "phonetic": "/ˈsektər/",
+      "decomposable": "root",
+      "root_ids": [
+        "secare"
+      ],
+      "root_logic": "sect（切）+ -or（物）→ 被切出来的那一块 → 部门、扇形",
+      "recall_hint": "sect（切）+ -or → 从整体上切出来的那一块：可以是经济中的一块，也可以是圆里的一瓣",
+      "origin": "拉丁语 sector：secare（切）",
+      "native_definition": "a part of an economy or society, or a part of a circle between two radii",
+      "core_concept": "a piece cut out of a whole – 从整体上切下来的那一块",
+      "core_image": "圆饼从圆心切两刀，取出中间那一瓣",
+      "chinese": [
+        "部门",
+        "行业",
+        "扇形"
+      ],
+      "examples": [
+        "The public sector employs millions.",
+        "Shade the sector between the two radii."
+      ],
+      "synonyms": [
+        "part",
+        "division"
+      ],
+      "antonyms": [],
+      "related": [
+        "section",
+        "insect",
+        "intersection",
+        "segment"
+      ],
+      "semantic_expansions": [
+        "部门/行业：从整体经济上切出的一块",
+        "扇形：从圆上切出的一瓣。同一个'切出的一块'，切的是社会还是圆"
+      ]
+    },
+    {
+      "id": "section",
+      "word": "section",
+      "pos": "noun",
+      "phonetic": "/ˈsekʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "secare"
+      ],
+      "root_logic": "sect（切）+ -ion（名词）→ 切开所得的那一段，或切开这件事 → 部分、剖面",
+      "recall_hint": "sect（切）+ -ion → 切开所得的那一段；也指把东西切开看到的那个面",
+      "origin": "拉丁语 sectio：secare（切）",
+      "native_definition": "one of the parts something is divided into, or a view of something cut through",
+      "core_concept": "what a cut produces – 切开之后所得的那一段或那个面",
+      "core_image": "树干横锯一刀，年轮全露在切面上",
+      "chinese": [
+        "部分",
+        "章节",
+        "剖面"
+      ],
+      "examples": [
+        "Read the final section carefully.",
+        "The diagram shows a cross section."
+      ],
+      "synonyms": [
+        "part",
+        "segment"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "related": [
+        "sector",
+        "insect",
+        "intersection"
+      ],
+      "semantic_expansions": [
+        "部分/章节：切开所得的那一段",
+        "剖面：切开后露出的那个面。同一个'切'，一个看段落一个看断面"
+      ]
+    },
+    {
+      "id": "insect",
+      "word": "insect",
+      "pos": "noun",
+      "phonetic": "/ˈɪnsekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "secare"
+      ],
+      "root_logic": "in-（进入）+ sect（切）→ 身上像被切出几道口子的那种动物 → 昆虫",
+      "origin": "拉丁语 insectum：in-（进入）+ secare（切）——'身体有切痕的'",
+      "native_definition": "a small animal with six legs and a body divided into three parts",
+      "core_concept": "a creature whose body looks cut into segments – 身体像被切成几节的那种小动物",
+      "core_image": "蚂蚁的腰细成一线，前后像是两截接起来的",
+      "chinese": [
+        "昆虫"
+      ],
+      "examples": [
+        "Bees are social insects.",
+        "The garden is full of insects in June."
+      ],
+      "synonyms": [
+        "bug"
+      ],
+      "antonyms": [],
+      "related": [
+        "section",
+        "sector",
+        "intersection"
+      ]
+    },
+    {
+      "id": "intersection",
+      "word": "intersection",
+      "pos": "noun",
+      "phonetic": "/ˌɪntərˈsekʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "secare"
+      ],
+      "root_logic": "inter-（之间、互相）+ sect（切）+ -ion → 两者互切所得的那一点 → 交叉口",
+      "origin": "拉丁语 intersectio：inter-（之间）+ secare（切）",
+      "native_definition": "a place where two roads or lines cross",
+      "core_concept": "where two things cut across each other – 两者互相切过的那一处",
+      "core_image": "两条路交叉的那个方块，四个方向都通",
+      "chinese": [
+        "交叉口",
+        "十字路口",
+        "交集"
+      ],
+      "examples": [
+        "Turn left at the next intersection.",
+        "The intersection of the two sets is empty."
+      ],
+      "synonyms": [
+        "crossroads",
+        "junction"
+      ],
+      "antonyms": [],
+      "related": [
+        "section",
+        "sector",
+        "insect"
+      ],
+      "semantic_expansions": [
+        "交叉口/十字路口：两条路互切的那一处",
+        "交集（数学）：两个集合互切所得的部分。同一个'互相切过'，切的是路还是集合"
+      ]
+    },
+    {
+      "id": "segment",
+      "word": "segment",
+      "pos": "noun",
+      "phonetic": "/ˈseɡmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "secare"
+      ],
+      "root_logic": "seg（sec 的变体，切）+ -ment（结果）→ 被切下来的那一节 → 部分",
+      "origin": "拉丁语 segmentum：secare（切）",
+      "native_definition": "one of the parts into which something is divided",
+      "core_concept": "one piece cut off the whole – 从整体上切下来的一节",
+      "core_image": "橘子剥开，一瓣一瓣界限分明",
+      "chinese": [
+        "部分",
+        "节",
+        "瓣"
+      ],
+      "examples": [
+        "Divide the line into three segments.",
+        "This segment of the market is growing."
+      ],
+      "synonyms": [
+        "part",
+        "portion"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "related": [
+        "section",
+        "sector",
+        "intersection",
+        "insect"
+      ],
+      "semantic_expansions": [
+        "部分/节：从整体上切下的一段",
+        "瓣（果实）：天然分界的那一节。同一个'切下的一节'，人为切还是天生分"
+      ]
+    },
+    {
+      "id": "resent",
+      "word": "resent",
+      "pos": "verb",
+      "phonetic": "/rɪˈzent/",
+      "decomposable": "root",
+      "root_ids": [
+        "sentire"
+      ],
+      "root_logic": "re-（反过来）+ sent（感觉）→ 心里对某事生出反感 → 怨恨",
+      "origin": "拉丁语 re-（反）+ sentire（感觉）经法语 ressentir",
+      "native_definition": "to feel bitter about something you think is unfair",
+      "core_concept": "feeling back against something – 心里朝那件事生出反感",
+      "core_image": "话早过去了，一想起来胸口还是堵",
+      "chinese": [
+        "怨恨",
+        "愤恨",
+        "不满"
+      ],
+      "examples": [
+        "She resented being left out.",
+        "He resents any criticism."
+      ],
+      "synonyms": [
+        "dislike",
+        "begrudge"
+      ],
+      "antonyms": [],
+      "related": [
+        "sense",
+        "sensible",
+        "consent",
+        "sentence"
+      ],
+      "semantic_expansions": [
+        "怨恨/愤恨/不满：都是'心里朝那件事生出反感'，中文按强度分了三个词"
+      ]
     }
   ]
 }

@@ -1306,6 +1306,65 @@
         "precious",
         "price"
       ]
+    },
+    {
+      "id": "concept-sentire-feel",
+      "concept": "to feel, to perceive",
+      "chinese": "感觉、察觉",
+      "core_image": "手伸进水里，先感到的是凉",
+      "root_ids": [
+        "sentire"
+      ],
+      "word_ids": [
+        "consent",
+        "resent",
+        "sensation",
+        "sense",
+        "sensible",
+        "sentence"
+      ]
+    },
+    {
+      "id": "concept-salire-leap",
+      "concept": "to leap",
+      "chinese": "跳、蹦出",
+      "core_image": "蚂蚱一蹬腿从草丛里蹦出来",
+      "root_ids": [
+        "salire"
+      ],
+      "word_ids": [
+        "insult",
+        "result"
+      ]
+    },
+    {
+      "id": "concept-consulere-counsel",
+      "concept": "to take counsel",
+      "chinese": "商议、请教",
+      "core_image": "把事摊在桌上，请对面的人给个说法",
+      "root_ids": [
+        "consulere"
+      ],
+      "word_ids": [
+        "consult",
+        "consultant"
+      ]
+    },
+    {
+      "id": "concept-secare-cut",
+      "concept": "to cut apart",
+      "chinese": "切开",
+      "core_image": "刀落下去，整块东西成了两段",
+      "root_ids": [
+        "secare"
+      ],
+      "word_ids": [
+        "insect",
+        "intersection",
+        "section",
+        "sector",
+        "segment"
+      ]
     }
   ]
 }

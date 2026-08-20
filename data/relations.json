@@ -2844,6 +2844,96 @@
       "to": "price",
       "type": "root",
       "note": "pretium（价格）本身即词根，无词缀 → 换取它所要付出的那个数"
+    },
+    {
+      "from": "sentire",
+      "to": "sense",
+      "type": "root",
+      "note": "sentire（感觉）本身即词根，无词缀 → 感受这件事，以及由此得出的判断"
+    },
+    {
+      "from": "sentire",
+      "to": "sensible",
+      "type": "root",
+      "note": "sens（感觉、判断）+ -ible（能…的）→ 能凭感受作出判断的 → 明智的"
+    },
+    {
+      "from": "sentire",
+      "to": "sensation",
+      "type": "root",
+      "note": "sens（感觉）+ -ation（名词）→ 被感到的那一下；引申为让所有人都感到的那件事 → 轰动"
+    },
+    {
+      "from": "sentire",
+      "to": "sentence",
+      "type": "root",
+      "note": "sent（感觉、判定）+ -ence（名词）→ 表达一个完整判断的那串话 → 句子；法官作出的判定 → 判决"
+    },
+    {
+      "from": "sentire",
+      "to": "consent",
+      "type": "root",
+      "note": "con-（一起）+ sent（感觉、想）→ 双方所感相同 → 同意"
+    },
+    {
+      "from": "salire",
+      "to": "result",
+      "type": "root",
+      "note": "re-（回、随之）+ sult（跳）→ 事情之后蹦出来的那个 → 结果"
+    },
+    {
+      "from": "salire",
+      "to": "insult",
+      "type": "root",
+      "note": "in-（朝…上）+ sult（跳）→ 跳到别人身上去踩 → 侮辱"
+    },
+    {
+      "from": "consulere",
+      "to": "consult",
+      "type": "root",
+      "note": "consulere（商议）本身即词根，无额外前缀 → 把事拿去请人给个说法"
+    },
+    {
+      "from": "consulere",
+      "to": "consultant",
+      "type": "root",
+      "note": "consult（请人给说法）+ -ant（人）→ 专供人请教的那个人 → 顾问"
+    },
+    {
+      "from": "secare",
+      "to": "sector",
+      "type": "root",
+      "note": "sect（切）+ -or（物）→ 被切出来的那一块 → 部门、扇形"
+    },
+    {
+      "from": "secare",
+      "to": "section",
+      "type": "root",
+      "note": "sect（切）+ -ion（名词）→ 切开所得的那一段，或切开这件事 → 部分、剖面"
+    },
+    {
+      "from": "secare",
+      "to": "insect",
+      "type": "root",
+      "note": "in-（进入）+ sect（切）→ 身上像被切出几道口子的那种动物 → 昆虫"
+    },
+    {
+      "from": "secare",
+      "to": "intersection",
+      "type": "root",
+      "note": "inter-（之间、互相）+ sect（切）+ -ion → 两者互切所得的那一点 → 交叉口"
+    },
+    {
+      "from": "secare",
+      "to": "segment",
+      "type": "root",
+      "note": "seg（sec 的变体，切）+ -ment（结果）→ 被切下来的那一节 → 部分"
+    },
+    {
+      "from": "sentire",
+      "to": "resent",
+      "type": "root",
+      "note": "re-（反过来）+ sent（感觉）→ 心里对某事生出反感 → 怨恨"
     }
   ]
 }
