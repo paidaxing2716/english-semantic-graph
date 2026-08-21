@@ -81,7 +81,8 @@
         "abstract",
         "subtract",
         "attraction",
-        "traction"
+        "traction",
+        "attractive"
       ]
     },
     {
@@ -172,7 +173,8 @@
         "retrospect",
         "prospective",
         "invisible",
-        "advisable"
+        "advisable",
+        "expectation"
       ]
     },
     {
@@ -239,7 +241,9 @@
         "support",
         "important",
         "transportation",
-        "reporter"
+        "reporter",
+        "importance",
+        "porter"
       ]
     },
     {
@@ -288,7 +292,16 @@
         "instant",
         "instantaneous",
         "stable",
-        "establish"
+        "establish",
+        "resist",
+        "resistance",
+        "resistant",
+        "constitute",
+        "institute",
+        "substitute",
+        "stationery",
+        "statistical",
+        "stay"
       ]
     },
     {
@@ -328,7 +341,10 @@
         "detain",
         "sustain",
         "container",
-        "tenant"
+        "tenant",
+        "continent",
+        "continual",
+        "continuous"
       ]
     },
     {
@@ -361,7 +377,10 @@
         "beneficial",
         "fact",
         "factor",
-        "factory"
+        "factory",
+        "defeat",
+        "feat",
+        "feature"
       ]
     },
     {
@@ -410,7 +429,8 @@
         "concede",
         "precede",
         "recede",
-        "precedent"
+        "precedent",
+        "preceding"
       ]
     },
     {
@@ -860,7 +880,10 @@
         "approve",
         "improve",
         "improvement",
-        "prove"
+        "prove",
+        "probability",
+        "probable",
+        "probe"
       ]
     },
     {
@@ -1202,7 +1225,8 @@
         "response",
         "responsibility",
         "responsible",
-        "sponsor"
+        "sponsor",
+        "corresponding"
       ]
     },
     {
@@ -1305,7 +1329,8 @@
       "word_ids": [
         "domestic",
         "dominant",
-        "dominate"
+        "dominate",
+        "predominant"
       ]
     },
     {
@@ -1396,7 +1421,8 @@
       ],
       "word_ids": [
         "insult",
-        "result"
+        "result",
+        "resultant"
       ]
     },
     {
@@ -1555,7 +1581,8 @@
         "offer",
         "refer",
         "confer",
-        "infer"
+        "infer",
+        "preferable"
       ]
     },
     {
@@ -2031,7 +2058,10 @@
         "cordial",
         "courage",
         "discourage",
-        "encourage"
+        "encourage",
+        "accord",
+        "accordance",
+        "accordingly"
       ]
     },
     {

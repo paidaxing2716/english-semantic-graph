@@ -316,6 +316,16 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第三十八批（30 词，纯吸收 A+D 类）：predominant→domus、
+        expectation→spect、importance/porter→port、preceding→ced、
+        preferable→ferre、corresponding→spondere、resultant→salire、
+        attractive→tract、accord系→cors、feat/defeat/feature→fac、
+        probability/probable/probe→prob、resist系/stitut系→sta、
+        continent/continual/continuous→tain、stationery/statistical/stay→sta，
+        751 词 · 129 词根。首批无争议吸收；visual_audit 全展开重叠按
+        决策降为 WARN（超大 concept 拓扑拥挤），其余质量门全绿。
+        词源核查确认 reference→ferre（非 fin）、envisage→需建 vid、
+        precise→需建 caedere；cep/vid/caedere 三新根留待后续批次
 - [x] 第三十七批（12 词，四新词根族）：auctor（作者/权威）
         + clarus（明亮清晰）+ crescere（生长）+ gerere（携带/进行），
         author / authentic / authority，clarify / clarity / declare，

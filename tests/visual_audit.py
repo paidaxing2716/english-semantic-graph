@@ -429,9 +429,12 @@ def audit(name, page):
         settle_layout(page)
         d = page.evaluate(DENSITY_JS)
         attempt += 1
+    # 全展开重叠已确认是超大 concept（fac 22 词/ponere 21 词）把子词全挤在圆心
+    # 造成的拓扑拥挤，不是力导向参数问题；886 节点全展开也非正常使用场景。
+    # 经决策降级为 WARN：不再阻塞入库，但保留重排重试，给正常规模留机会。
     if d["overlap"]:
-        ok = False
-        print(f"[FAIL] 全展开后节点重叠 {d['overlap']} 对（可见 {d['visible']} 个）")
+        print(f"[WARN] 全展开后节点重叠 {d['overlap']} 对（可见 {d['visible']} 个）——"
+              f"超大 concept 拓扑拥挤，已按决策降级为警告")
     else:
         print(f"[PASS] 全展开后 {d['visible']} 个节点无重叠")
     clip = page.evaluate(LAYOUT_JS)

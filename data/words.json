@@ -28175,6 +28175,1159 @@
         "文摘：把大量内容压缩携带的读物"
       ],
       "recall_hint": "di-（分开）+ gest（携带）→ 把食物分开带走 → 消化"
+    },
+    {
+      "id": "predominant",
+      "word": "predominant",
+      "pos": "adjective",
+      "phonetic": "/prɪˈdɑːmɪnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "domus"
+      ],
+      "root_logic": "pre-（在前）+ domin（主导）→ 排在最前面的主导 → 占主导地位的",
+      "origin": "拉丁语 praedominari：prae-（在前）+ dominari（统治）",
+      "native_definition": "more important or noticeable than anything else in a group",
+      "core_concept": "standing out in front as the master does – 像主人那样排在最前、压住全场",
+      "core_image": "整片山坡上就数那棵巨杉最高最粗，远远先看见它",
+      "chinese": [
+        "占主导的",
+        "显著的"
+      ],
+      "examples": [
+        "The predominant color is blue.",
+        "Agriculture is the predominant industry."
+      ],
+      "synonyms": [
+        "dominant",
+        "prevailing"
+      ],
+      "antonyms": [
+        "minor"
+      ],
+      "related": [
+        "dominate",
+        "dominant"
+      ],
+      "semantic_expansions": [
+        "占主导/显著：排在最前、最先被注意到的那一个"
+      ],
+      "recall_hint": "pre-（在前）+ domin（主导）→ 排在最前的主导"
+    },
+    {
+      "id": "expectation",
+      "word": "expectation",
+      "pos": "noun",
+      "phonetic": "/ˌekspekˈteɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "ex-（向外）+ spect（看）→ 朝外看的那个念头 → 期待",
+      "origin": "拉丁语 exspectatio：ex-（向外）+ spectare（看）",
+      "native_definition": "a strong belief that something will happen",
+      "core_concept": "what one looks outward for – 朝外看去、等着它出现的东西",
+      "core_image": "站台边不停望向列车来的方向，心里早演好了那班车的样子",
+      "chinese": [
+        "期待",
+        "预期",
+        "指望"
+      ],
+      "examples": [
+        "She has high expectations of her students.",
+        "Sales met our expectations."
+      ],
+      "synonyms": [
+        "anticipation",
+        "hope"
+      ],
+      "antonyms": [],
+      "related": [
+        "expect",
+        "inspect",
+        "prospect"
+      ],
+      "semantic_expansions": [
+        "期待/预期：朝外看等着它出现",
+        "指望：对他人表现设定的标准"
+      ],
+      "recall_hint": "ex-（向外）+ spect（看）→ 朝外看、等它出现 → 期待"
+    },
+    {
+      "id": "importance",
+      "word": "importance",
+      "pos": "noun",
+      "phonetic": "/ɪmˈpɔːrtns/",
+      "decomposable": "root",
+      "root_ids": [
+        "port"
+      ],
+      "root_logic": "im-（in- 向内）+ port（携带）→ 被携带进来的分量 → 重要",
+      "origin": "拉丁语 importare（带入）的名词化——被带入的分量",
+      "native_definition": "the quality of being significant or having great value",
+      "core_concept": "weight carried into the matter – 被带进事情里的分量",
+      "core_image": "信封上那行字，落款人是谁，掂一下就知道轻重",
+      "chinese": [
+        "重要性",
+        "重大"
+      ],
+      "examples": [
+        "He stressed the importance of teamwork.",
+        "The discovery is of great importance."
+      ],
+      "synonyms": [
+        "significance",
+        "consequence"
+      ],
+      "antonyms": [],
+      "related": [
+        "important",
+        "import",
+        "transport"
+      ],
+      "semantic_expansions": [
+        "重要性：被带进事情的重量"
+      ],
+      "recall_hint": "im-（向内）+ port（携带）→ 带进来的分量 → 重要"
+    },
+    {
+      "id": "porter",
+      "word": "porter",
+      "pos": "noun",
+      "phonetic": "/ˈpɔːrtər/",
+      "decomposable": "root",
+      "root_ids": [
+        "port"
+      ],
+      "root_logic": "port（携带）+ -er（人）→ 帮着搬东西的人 → 搬运工",
+      "origin": "拉丁语 portare（携带）+ -or（者）",
+      "native_definition": "a person whose job is carrying luggage or goods",
+      "core_concept": "the one who carries things – 专管搬运的那个人",
+      "core_image": "站台上推着行李车快步走的人，旅客的大箱小包都在他车上",
+      "chinese": [
+        "搬运工",
+        "门房"
+      ],
+      "examples": [
+        "The porter carried our bags to the room.",
+        "A hotel porter opened the door."
+      ],
+      "synonyms": [
+        "carrier",
+        "bearer"
+      ],
+      "antonyms": [],
+      "related": [
+        "portable",
+        "transport",
+        "important"
+      ],
+      "semantic_expansions": [
+        "搬运工：专管搬运的人",
+        "门房：看门并帮提行李的人"
+      ],
+      "recall_hint": "port（携带）+ -er → 搬东西的人"
+    },
+    {
+      "id": "preceding",
+      "word": "preceding",
+      "pos": "adjective",
+      "phonetic": "/prɪˈsiːdɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "pre-（在前）+ ced（行走）→ 走在前面的 → 前述的",
+      "origin": "拉丁语 praecedere：prae-（在前）+ cedere（行走）",
+      "native_definition": "coming before something in time or order",
+      "core_concept": "the one that goes in front – 走在前面、先到的那个",
+      "core_image": "翻回上一页，那行结论还在纸面上等着",
+      "chinese": [
+        "在前的",
+        "前述的"
+      ],
+      "examples": [
+        "The preceding chapter explains the theory.",
+        "See the preceding paragraph."
+      ],
+      "synonyms": [
+        "previous",
+        "prior"
+      ],
+      "antonyms": [
+        "following"
+      ],
+      "related": [
+        "precede",
+        "precedent",
+        "concede"
+      ],
+      "semantic_expansions": [
+        "在前的/前述的：走在前面的那一个"
+      ],
+      "recall_hint": "pre-（在前）+ ced（行走）→ 走在前面的"
+    },
+    {
+      "id": "preferable",
+      "word": "preferable",
+      "pos": "adjective",
+      "phonetic": "/ˈprefrəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "prefer（更喜欢）+ -able（可）→ 更可取、更该选的",
+      "origin": "prefer 的形容词：prae-（在前）+ ferre（带）",
+      "native_definition": "better or more suitable, especially compared to others",
+      "core_concept": "the one worth carrying out in front – 更值得拿到前面来的",
+      "core_image": "两杯水摆着，一杯带冰一杯温的，天热时手自然伸向那杯冰的",
+      "chinese": [
+        "更可取的",
+        "更好的"
+      ],
+      "examples": [
+        "Walking is preferable to driving.",
+        "A quiet room is preferable."
+      ],
+      "synonyms": [
+        "better",
+        "advisable"
+      ],
+      "antonyms": [],
+      "related": [
+        "prefer",
+        "preference",
+        "transfer"
+      ],
+      "semantic_expansions": [
+        "更可取：更值得拿到前面来的"
+      ],
+      "recall_hint": "prefer（更喜欢）+ -able → 更该选的"
+    },
+    {
+      "id": "corresponding",
+      "word": "corresponding",
+      "pos": "adjective",
+      "phonetic": "/ˌkɔːrəˈspɑːndɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "spondere"
+      ],
+      "root_logic": "cor-（相互）+ respond（回应）→ 彼此应得上的 → 相应的",
+      "origin": "correspond 的形容词：com-（一起）+ respondere（回应）",
+      "native_definition": "matching or connected with something else",
+      "core_concept": "each answering to the other – 两边彼此应得上",
+      "core_image": "名单和座位号一一对好，拿号找座，一个都不落",
+      "chinese": [
+        "相应的",
+        "对应的"
+      ],
+      "examples": [
+        "Sales rose, and profits showed a corresponding increase.",
+        "Fill in the corresponding boxes."
+      ],
+      "synonyms": [
+        "matching",
+        "equivalent"
+      ],
+      "antonyms": [],
+      "related": [
+        "correspond",
+        "correspondence",
+        "response"
+      ],
+      "semantic_expansions": [
+        "相应/对应：两边彼此应得上"
+      ],
+      "recall_hint": "cor-（相互）+ respond（回应）→ 彼此应得上 → 相应的"
+    },
+    {
+      "id": "resultant",
+      "word": "resultant",
+      "pos": "adjective",
+      "phonetic": "/rɪˈzʌltənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "salire"
+      ],
+      "root_logic": "result（结果）+ -ant（…的）→ 作为结果而出现的",
+      "origin": "result 的形容词：re-（回）+ salire（跳）",
+      "native_definition": "happening as a result of something",
+      "core_concept": "what leaps back out as the outcome – 事后蹦出来的那个结果",
+      "core_image": "比赛终场哨响，比分板上最终停下的那个数字",
+      "chinese": [
+        "作为结果的",
+        "由此产生的"
+      ],
+      "examples": [
+        "The resultant damage was extensive.",
+        "Floods and the resultant chaos delayed us."
+      ],
+      "synonyms": [
+        "resulting",
+        "consequent"
+      ],
+      "antonyms": [],
+      "related": [
+        "result",
+        "insult",
+        "consult"
+      ],
+      "semantic_expansions": [
+        "作为结果：事后蹦出来的那个"
+      ],
+      "recall_hint": "result（结果）+ -ant → 作为结果出现的"
+    },
+    {
+      "id": "attractive",
+      "word": "attractive",
+      "pos": "adjective",
+      "phonetic": "/əˈtræktɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "at-（ad- 朝向）+ tract（拉）→ 能把人拉过去的 → 有吸引力的",
+      "origin": "拉丁语 attrahere（拉近）：ad-（朝向）+ trahere（拉）",
+      "native_definition": "pleasant to look at or pleasing to the mind",
+      "core_concept": "pulling the eye toward it – 能把目光拉过去",
+      "core_image": "橱窗里那件展品，路过的人都会放慢脚步多看两眼",
+      "chinese": [
+        "有吸引力的",
+        "迷人的"
+      ],
+      "examples": [
+        "The offer is very attractive.",
+        "She has an attractive smile."
+      ],
+      "synonyms": [
+        "appealing",
+        "charming"
+      ],
+      "antonyms": [
+        "repellent"
+      ],
+      "related": [
+        "attract",
+        "attraction",
+        "extract"
+      ],
+      "semantic_expansions": [
+        "有吸引力：能把目光或兴趣拉过来"
+      ],
+      "recall_hint": "at-（朝向）+ tract（拉）→ 拉人过来的 → 有吸引力"
+    },
+    {
+      "id": "accord",
+      "word": "accord",
+      "pos": "noun / verb",
+      "phonetic": "/əˈkɔːrd/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "ac-（ad- 朝向）+ cord（心）→ 心朝向同一个地方 → 一致",
+      "origin": "拉丁语 accordare（使同心）：ad-（朝向）+ cor/cordis（心）",
+      "native_definition": "agreement or harmony between people; to be in agreement",
+      "core_concept": "hearts turning toward the same point – 心朝向同一处",
+      "core_image": "两个人相视一点头，不用多说就知道想到一块去了",
+      "chinese": [
+        "一致",
+        "给予",
+        "条约"
+      ],
+      "examples": [
+        "The two sides reached an accord.",
+        "They acted in accord with the rules."
+      ],
+      "synonyms": [
+        "agreement",
+        "harmony"
+      ],
+      "antonyms": [
+        "disagreement"
+      ],
+      "related": [
+        "accordance",
+        "accordingly",
+        "cordial"
+      ],
+      "semantic_expansions": [
+        "一致：心朝向同一处",
+        "给予：把这份一致当作认可送出",
+        "条约：国与国达成的协定"
+      ],
+      "recall_hint": "ac-（朝向）+ cord（心）→ 心朝同一处 → 一致"
+    },
+    {
+      "id": "accordance",
+      "word": "accordance",
+      "pos": "noun",
+      "phonetic": "/əˈkɔːrdns/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "accord（一致）+ -ance → 一致的状态；常作 in accordance with（依照）",
+      "origin": "accord 的名词化",
+      "native_definition": "agreement or conformity; following a rule",
+      "core_concept": "being in tune with the same heart – 与同一颗心合拍",
+      "core_image": "照着图纸一比一施工，每一个尺寸都对得上图纸",
+      "chinese": [
+        "一致",
+        "依照"
+      ],
+      "examples": [
+        "The work was done in accordance with the plan.",
+        "in accordance with the law"
+      ],
+      "synonyms": [
+        "conformity",
+        "compliance"
+      ],
+      "antonyms": [],
+      "related": [
+        "accord",
+        "accordingly",
+        "cordial"
+      ],
+      "semantic_expansions": [
+        "依照：与规定保持一致"
+      ],
+      "recall_hint": "accord（一致）+ -ance → 一致的进行"
+    },
+    {
+      "id": "accordingly",
+      "word": "accordingly",
+      "pos": "adverb",
+      "phonetic": "/əˈkɔːrdɪŋli/",
+      "decomposable": "root",
+      "root_ids": [
+        "cors"
+      ],
+      "root_logic": "according（一致）+ -ly → 与之相应地去办",
+      "origin": "accord 的副词形式",
+      "native_definition": "in a way that matches what was just said",
+      "core_concept": "acting in line with the same tune – 顺着同一口径去办",
+      "core_image": "听到最新安排，马上把手里的计划照新口径改了",
+      "chinese": [
+        "相应地",
+        "因此"
+      ],
+      "examples": [
+        "The rules have changed, and we must act accordingly.",
+        "He was told the news and behaved accordingly."
+      ],
+      "synonyms": [
+        "consequently",
+        "therefore"
+      ],
+      "antonyms": [],
+      "related": [
+        "accord",
+        "accordance",
+        "cordial"
+      ],
+      "semantic_expansions": [
+        "相应：照一致的标准去办"
+      ],
+      "recall_hint": "according（一致）+ -ly → 与之相应"
+    },
+    {
+      "id": "defeat",
+      "word": "defeat",
+      "pos": "noun / verb",
+      "phonetic": "/dɪˈfiːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "de-（向下）+ feat（做）→ 把对方做出来的局面压下去 → 击败",
+      "origin": "古法语 desfait：des-（去除）+ faire（做）；词根 facere（做）",
+      "native_definition": "to win against someone; a failure to win",
+      "core_concept": "undoing what the other side has done – 把对方做成的局面拆掉",
+      "core_image": "棋局最后一手落下，对方的布局被彻底拆解",
+      "chinese": [
+        "击败",
+        "失败"
+      ],
+      "examples": [
+        "The team defeated its rival.",
+        "They suffered a heavy defeat."
+      ],
+      "synonyms": [
+        "beat",
+        "conquer",
+        "loss"
+      ],
+      "antonyms": [
+        "victory"
+      ],
+      "related": [
+        "feat",
+        "feature",
+        "factory"
+      ],
+      "semantic_expansions": [
+        "击败：把对方做成的事压下去",
+        "失败（名词）：被打败的结果"
+      ],
+      "recall_hint": "de-（向下）+ feat（做）→ 压掉对方所做的 → 击败"
+    },
+    {
+      "id": "feat",
+      "word": "feat",
+      "pos": "noun",
+      "phonetic": "/fiːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "feat（做）→ 做出来的不寻常之事 → 功绩",
+      "origin": "古法语 fait：facere（做）的过去分词",
+      "native_definition": "an achievement that needs great skill or strength",
+      "core_concept": "a deed that is done with skill – 做得漂亮、做得出众的事",
+      "core_image": "杂技演员走完高空钢索，全场屏住的那口气终于呼出",
+      "chinese": [
+        "功绩",
+        "技艺"
+      ],
+      "examples": [
+        "The bridge is a feat of engineering.",
+        "Climbing the peak was quite a feat."
+      ],
+      "synonyms": [
+        "achievement",
+        "accomplishment"
+      ],
+      "antonyms": [],
+      "related": [
+        "defeat",
+        "feature",
+        "factory"
+      ],
+      "semantic_expansions": [
+        "功绩：做出众的事情"
+      ],
+      "recall_hint": "feat（做）→ 做得出众的事"
+    },
+    {
+      "id": "feature",
+      "word": "feature",
+      "pos": "noun / verb",
+      "phonetic": "/ˈfiːtʃər/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "feat（做）+ -ure → 做出来摆给看的东西 → 特征、专题",
+      "origin": "古法语 faiture（制作）：facere（做）",
+      "native_definition": "a distinctive part or quality; to include as important",
+      "core_concept": "what is made to stand out – 特意做出来让人注意的那部分",
+      "core_image": "一张脸上最抓人的那双眼睛，或杂志封面主推的那篇报道",
+      "chinese": [
+        "特征",
+        "特色",
+        "以…为特色"
+      ],
+      "examples": [
+        "The phone has many new features.",
+        "The film features a young actor."
+      ],
+      "synonyms": [
+        "characteristic",
+        "attribute"
+      ],
+      "antonyms": [],
+      "related": [
+        "defeat",
+        "feat",
+        "factory"
+      ],
+      "semantic_expansions": [
+        "特征：做出来让人注意的部分",
+        "以…为特色：把某物做成主打"
+      ],
+      "recall_hint": "feat（做）+ -ure → 做出来让人注意的"
+    },
+    {
+      "id": "probability",
+      "word": "probability",
+      "pos": "noun",
+      "phonetic": "/ˌprɑːbəˈbɪləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "prob"
+      ],
+      "root_logic": "prob（检验）+ -ability → 检验得出的可能性大小 → 概率",
+      "origin": "拉丁语 probabilitas：probare（检验、证实）",
+      "native_definition": "how likely something is to happen; chance",
+      "core_concept": "the measured likelihood after testing – 检验之后得出的可能程度",
+      "core_image": "抛一百次硬币，正面朝上的次数大致各半，心里就有数了",
+      "chinese": [
+        "概率",
+        "可能性"
+      ],
+      "examples": [
+        "There is a high probability of rain.",
+        "The probability of failure is low."
+      ],
+      "synonyms": [
+        "likelihood",
+        "chance"
+      ],
+      "antonyms": [],
+      "related": [
+        "probable",
+        "probe",
+        "approve"
+      ],
+      "semantic_expansions": [
+        "概率：检验得出的可能程度"
+      ],
+      "recall_hint": "prob（检验）+ -ability → 检验出的可能程度"
+    },
+    {
+      "id": "probable",
+      "word": "probable",
+      "pos": "adjective",
+      "phonetic": "/ˈprɑːbəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "prob"
+      ],
+      "root_logic": "prob（检验）+ -able → 经检验很可能的 → 很可能的",
+      "origin": "拉丁语 probabilis：probare（检验）",
+      "native_definition": "likely to happen or be true",
+      "core_concept": "passing the test of likelihood – 经得起'很可能'检验的",
+      "core_image": "看着天上堆起来的乌云，心里判断这场雨八九成要下",
+      "chinese": [
+        "很可能的",
+        "大概的"
+      ],
+      "examples": [
+        "It is probable that he will come.",
+        "A probable cause of the delay is traffic."
+      ],
+      "synonyms": [
+        "likely",
+        "possible"
+      ],
+      "antonyms": [
+        "improbable"
+      ],
+      "related": [
+        "probability",
+        "probe",
+        "prove"
+      ],
+      "semantic_expansions": [
+        "很可能：经得起可能性的检验"
+      ],
+      "recall_hint": "prob（检验）+ -able → 很可能的"
+    },
+    {
+      "id": "probe",
+      "word": "probe",
+      "pos": "noun / verb",
+      "phonetic": "/proʊb/",
+      "decomposable": "root",
+      "root_ids": [
+        "prob"
+      ],
+      "root_logic": "prob（检验）→ 伸进去验一验里面是什么 → 探查；试探",
+      "origin": "拉丁语 probare（检验）的名词形式",
+      "native_definition": "a thorough investigation; to examine closely",
+      "core_concept": "testing what lies inside – 伸进去验一验里面是什么",
+      "core_image": "医生轻轻试探伤口深浅，先弄清伤到哪一层，才敢判断",
+      "chinese": [
+        "探查",
+        "探针",
+        "调查"
+      ],
+      "examples": [
+        "The committee probed into the scandal.",
+        "A space probe explored the planet."
+      ],
+      "synonyms": [
+        "investigate",
+        "examine"
+      ],
+      "antonyms": [],
+      "related": [
+        "probable",
+        "probability",
+        "prove"
+      ],
+      "semantic_expansions": [
+        "探查：伸进去检验里面",
+        "探针：探查用的工具"
+      ],
+      "recall_hint": "prob（检验）→ 伸进去验 → 探查"
+    },
+    {
+      "id": "resist",
+      "word": "resist",
+      "pos": "verb",
+      "phonetic": "/rɪˈzɪst/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "re-（相反）+ sist（站立）→ 立住不动地顶回去 → 抵抗",
+      "origin": "拉丁语 resistere：re-（相反）+ sistere（站立）；sistere 与 stare 同源",
+      "native_definition": "to fight against something; to refuse to accept",
+      "core_concept": "standing firm against the push – 顶着来势立住不退",
+      "core_image": "逆风里迈步，每一步都顶着风，人被往后推也不退",
+      "chinese": [
+        "抵抗",
+        "抵制",
+        "忍住"
+      ],
+      "examples": [
+        "They resisted the invasion.",
+        "She couldn't resist the chocolate."
+      ],
+      "synonyms": [
+        "withstand",
+        "oppose"
+      ],
+      "antonyms": [
+        "yield",
+        "submit"
+      ],
+      "related": [
+        "resistance",
+        "resistant",
+        "constitute"
+      ],
+      "semantic_expansions": [
+        "抵抗：顶着来势立住",
+        "忍住：抵御诱惑不随它走"
+      ],
+      "recall_hint": "re-（相反）+ sist（立）→ 顶着立住 → 抵抗"
+    },
+    {
+      "id": "resistance",
+      "word": "resistance",
+      "pos": "noun",
+      "phonetic": "/rɪˈzɪstəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "resist（抵抗）+ -ance → 抵抗的状态或力量",
+      "origin": "resistere 的名词化",
+      "native_definition": "the act of fighting against something; a force opposing movement",
+      "core_concept": "the standing firm against a push – 顶着来势立住的那股劲",
+      "core_image": "河道里竖起的石墩，水流冲过来，被它分开绕行",
+      "chinese": [
+        "抵抗",
+        "阻力"
+      ],
+      "examples": [
+        "The army met strong resistance.",
+        "Copper has low electrical resistance."
+      ],
+      "synonyms": [
+        "opposition",
+        "defiance"
+      ],
+      "antonyms": [],
+      "related": [
+        "resist",
+        "resistant",
+        "constitute"
+      ],
+      "semantic_expansions": [
+        "抵抗：顶着来的状态",
+        "阻力：阻碍运动的力"
+      ],
+      "recall_hint": "resist（抵抗）+ -ance → 顶着的力"
+    },
+    {
+      "id": "resistant",
+      "word": "resistant",
+      "pos": "adjective",
+      "phonetic": "/rɪˈzɪstənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "resist（抵抗）+ -ant → 能顶住而不被改变的",
+      "origin": "resistere 的形容词",
+      "native_definition": "not affected or harmed by something",
+      "core_concept": "standing firm and unyielding – 立住不被动摇",
+      "core_image": "刷了防水层的木船，泡在水里也不烂不渗",
+      "chinese": [
+        "抵抗的",
+        "抗…的"
+      ],
+      "examples": [
+        "The material is resistant to heat.",
+        "Some insects are resistant to pesticides."
+      ],
+      "synonyms": [
+        "immune",
+        "unaffected"
+      ],
+      "antonyms": [
+        "susceptible"
+      ],
+      "related": [
+        "resist",
+        "resistance",
+        "constitute"
+      ],
+      "semantic_expansions": [
+        "抗…的：立住不被改变"
+      ],
+      "recall_hint": "resist（抵抗）+ -ant → 能顶住的"
+    },
+    {
+      "id": "constitute",
+      "word": "constitute",
+      "pos": "verb",
+      "phonetic": "/ˈkɑːnstɪtuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "con-（一起）+ stitut（立）+ -e → 一起立起来组成 → 构成",
+      "origin": "拉丁语 constituere：com-（一起）+ statuere（立）；statuere 与 stare 同源",
+      "native_definition": "to form or make up something",
+      "core_concept": "standing together to form a whole – 一起立起来拼成整体",
+      "core_image": "几块木板拼在一起立起来，就成了一个架子",
+      "chinese": [
+        "构成",
+        "组成"
+      ],
+      "examples": [
+        "Women constitute half of the workforce.",
+        "Such actions constitute a crime."
+      ],
+      "synonyms": [
+        "compose",
+        "form"
+      ],
+      "antonyms": [],
+      "related": [
+        "institute",
+        "substitute",
+        "constitution"
+      ],
+      "semantic_expansions": [
+        "构成：一起立起来组成整体"
+      ],
+      "recall_hint": "con-（一起）+ stitut（立）→ 立起来组成 → 构成"
+    },
+    {
+      "id": "institute",
+      "word": "institute",
+      "pos": "noun / verb",
+      "phonetic": "/ˈɪnstɪtuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "in-（进入）+ stitut（立）→ 立起来使其开始运行 → 建立",
+      "origin": "拉丁语 instituere：in-（进入）+ statuere（立）",
+      "native_definition": "an organization for a purpose; to set up",
+      "core_concept": "setting something standing so it runs – 立起来让它运转",
+      "core_image": "把一所学校立起来，先立规矩再招生，从此年年有人进来",
+      "chinese": [
+        "机构",
+        "建立"
+      ],
+      "examples": [
+        "She works at a research institute.",
+        "They instituted new safety rules."
+      ],
+      "synonyms": [
+        "establish",
+        "found"
+      ],
+      "antonyms": [],
+      "related": [
+        "constitute",
+        "substitute",
+        "institution"
+      ],
+      "semantic_expansions": [
+        "机构：立起来运转的组织",
+        "建立：立起让它开始运转"
+      ],
+      "recall_hint": "in-（进入）+ stitut（立）→ 立起来运转 → 建立"
+    },
+    {
+      "id": "substitute",
+      "word": "substitute",
+      "pos": "noun / verb",
+      "phonetic": "/ˈsʌbstɪtuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "sub-（在下）+ stitut（立）→ 站在下面顶替 → 替代",
+      "origin": "拉丁语 substituere：sub-（在下）+ statuere（立）",
+      "native_definition": "a person or thing used instead of another; to replace",
+      "core_concept": "one standing in below to take the place – 立在底下顶替的那个",
+      "core_image": "主力球员受伤下场，替补换上，位置照样有人顶住",
+      "chinese": [
+        "替代品",
+        "代替"
+      ],
+      "examples": [
+        "Honey can substitute for sugar.",
+        "He came on as a substitute."
+      ],
+      "synonyms": [
+        "replace",
+        "alternative"
+      ],
+      "antonyms": [],
+      "related": [
+        "constitute",
+        "institute",
+        "institution"
+      ],
+      "semantic_expansions": [
+        "替代：站在下面顶替位置"
+      ],
+      "recall_hint": "sub-（在下）+ stitut（立）→ 站在下面顶替 → 替代"
+    },
+    {
+      "id": "continent",
+      "word": "continent",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːntɪnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（一起）+ tin（握住）→ 连在一起握住的大陆 → 洲",
+      "origin": "拉丁语 continere（连在一起）：com-（一起）+ tenere（握住）",
+      "native_definition": "one of the large land masses of the Earth",
+      "core_concept": "land held together in one continuous mass – 连成一片、握在一起的大陆",
+      "core_image": "从飞机上往下看，陆地的边界连成一大片，中间没有断",
+      "chinese": [
+        "大陆",
+        "洲"
+      ],
+      "examples": [
+        "Africa is a continent.",
+        "The five continents were once connected."
+      ],
+      "synonyms": [
+        "landmass"
+      ],
+      "antonyms": [],
+      "related": [
+        "continual",
+        "continuous",
+        "contain"
+      ],
+      "semantic_expansions": [
+        "大陆：连成一片、握在一起的地",
+        "洲：地球上连成整块的大陆"
+      ],
+      "recall_hint": "con-（一起）+ tin（握住）→ 连住的大陆"
+    },
+    {
+      "id": "continual",
+      "word": "continual",
+      "pos": "adjective",
+      "phonetic": "/kənˈtɪnjuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（一起）+ tin（握住）+ -ual → 一直握在一起不松 → 连续不断的",
+      "origin": "拉丁语 continuus：com-（一起）+ tenere（握住）",
+      "native_definition": "happening repeatedly without stopping",
+      "core_concept": "held together without a break – 一直连着没断",
+      "core_image": "楼上装修的电钻声一阵接一阵，从早到晚没停过",
+      "chinese": [
+        "连续的",
+        "频繁的"
+      ],
+      "examples": [
+        "There was continual noise from the street.",
+        "Continual interruptions made work hard."
+      ],
+      "synonyms": [
+        "constant",
+        "ceaseless"
+      ],
+      "antonyms": [
+        "intermittent"
+      ],
+      "related": [
+        "continuous",
+        "continent",
+        "contain"
+      ],
+      "semantic_expansions": [
+        "连续：一直连着没断",
+        "频繁：隔不多久又来一次"
+      ],
+      "recall_hint": "con-（一起）+ tin（握）+ -ual → 一直连着"
+    },
+    {
+      "id": "continuous",
+      "word": "continuous",
+      "pos": "adjective",
+      "phonetic": "/kənˈtɪnjuəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（一起）+ tin（握住）+ -uous → 不间断的",
+      "origin": "continuus 的另一形容词形式",
+      "native_definition": "happening without any pause or break",
+      "core_concept": "held in one unbroken line – 一条线连到底",
+      "core_image": "那根水管里的水从早流到晚，中间没有一刻停",
+      "chinese": [
+        "连续的",
+        "持续的"
+      ],
+      "examples": [
+        "The road has a continuous white line.",
+        "Continuous rain caused flooding."
+      ],
+      "synonyms": [
+        "unbroken",
+        "constant"
+      ],
+      "antonyms": [
+        "broken",
+        "intermittent"
+      ],
+      "related": [
+        "continual",
+        "continent",
+        "contain"
+      ],
+      "semantic_expansions": [
+        "连续：一条线不断"
+      ],
+      "recall_hint": "con-（一起）+ tin（握）+ -uous → 不间断的"
+    },
+    {
+      "id": "stationery",
+      "word": "stationery",
+      "pos": "noun",
+      "phonetic": "/ˈsteɪʃəneri/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "station（站）+ -ery → 摆在书桌'站'的地方的用品 → 文具",
+      "origin": "拉丁语 statio（站立之处）；与 stare（站）同源",
+      "native_definition": "materials for writing, such as paper and pens",
+      "core_concept": "things that sit by the writing stand – 摆在书写之处的东西",
+      "core_image": "书桌角上一叠信纸、几支笔、一瓶墨水，写东西的家伙事都在",
+      "chinese": [
+        "文具"
+      ],
+      "examples": [
+        "The shop sells stationery and books.",
+        "She bought some stationery for school."
+      ],
+      "synonyms": [
+        "paper",
+        "pens"
+      ],
+      "antonyms": [],
+      "related": [
+        "station",
+        "static",
+        "statistical"
+      ],
+      "semantic_expansions": [
+        "文具：摆在书写之处的用品"
+      ],
+      "recall_hint": "station（站）+ -ery → 摆在书桌边的文具"
+    },
+    {
+      "id": "statistical",
+      "word": "statistical",
+      "pos": "adjective",
+      "phonetic": "/stəˈtɪstɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "statist（统计）+ -ical → 与统计有关的",
+      "origin": "statistic ← 德语 Statistik ← 拉丁语 status（状况，站着的情形）；与 stare 同源",
+      "native_definition": "relating to statistics or numbers that describe data",
+      "core_concept": "about the standing facts counted up – 把站着的实况数出来",
+      "core_image": "那叠问卷上的勾选被一个个数出来，折成百分比画成图",
+      "chinese": [
+        "统计的",
+        "统计学的"
+      ],
+      "examples": [
+        "Statistical analysis supports the finding.",
+        "The data show a statistical increase."
+      ],
+      "synonyms": [
+        "numerical",
+        "quantitative"
+      ],
+      "antonyms": [],
+      "related": [
+        "station",
+        "state",
+        "stationery"
+      ],
+      "semantic_expansions": [
+        "统计的：把实况数出来"
+      ],
+      "recall_hint": "stat（站）+ -istical → 把实况数出来"
+    },
+    {
+      "id": "stay",
+      "word": "stay",
+      "pos": "verb / noun",
+      "phonetic": "/steɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "sta（站立）→ 立住不动 → 停留",
+      "origin": "古法语 ester / rester：拉丁语 stare（站立）",
+      "native_definition": "to remain in one place; a period of remaining",
+      "core_concept": "standing in place, not moving off – 立在那儿不挪动",
+      "core_image": "逛到街角那家店就站住了，这一站就是一下午",
+      "chinese": [
+        "停留",
+        "暂住",
+        "保持"
+      ],
+      "examples": [
+        "Please stay here until I return.",
+        "They stayed at a hotel for two nights."
+      ],
+      "synonyms": [
+        "remain",
+        "linger"
+      ],
+      "antonyms": [
+        "leave",
+        "depart"
+      ],
+      "related": [
+        "station",
+        "static",
+        "constant"
+      ],
+      "semantic_expansions": [
+        "停留：立住不动",
+        "暂住：在一处住下不动",
+        "保持：维持在某种状态不离开"
+      ],
+      "recall_hint": "sta（站立）→ 立住不动 → 停留"
     }
   ]
 }

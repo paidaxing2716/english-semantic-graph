@@ -9989,6 +9989,426 @@
       "text": "It takes time to digest the news.",
       "source": "AI 生成 · 人工审核",
       "scene": "胃里像一座小磨坊，把吃下的东西慢慢磨碎化开"
+    },
+    {
+      "id": "ex-predominant-1",
+      "word_id": "predominant",
+      "text": "The predominant color is blue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整片山坡上就数那棵巨杉最高最粗，远远先看见它"
+    },
+    {
+      "id": "ex-predominant-2",
+      "word_id": "predominant",
+      "text": "Agriculture is the predominant industry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整片山坡上就数那棵巨杉最高最粗，远远先看见它"
+    },
+    {
+      "id": "ex-expectation-1",
+      "word_id": "expectation",
+      "text": "She has high expectations of her students.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站台边不停望向列车来的方向，心里早演好了那班车的样子"
+    },
+    {
+      "id": "ex-expectation-2",
+      "word_id": "expectation",
+      "text": "Sales met our expectations.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站台边不停望向列车来的方向，心里早演好了那班车的样子"
+    },
+    {
+      "id": "ex-importance-1",
+      "word_id": "importance",
+      "text": "He stressed the importance of teamwork.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信封上那行字，落款人是谁，掂一下就知道轻重"
+    },
+    {
+      "id": "ex-importance-2",
+      "word_id": "importance",
+      "text": "The discovery is of great importance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信封上那行字，落款人是谁，掂一下就知道轻重"
+    },
+    {
+      "id": "ex-porter-1",
+      "word_id": "porter",
+      "text": "The porter carried our bags to the room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站台上推着行李车快步走的人，旅客的大箱小包都在他车上"
+    },
+    {
+      "id": "ex-porter-2",
+      "word_id": "porter",
+      "text": "A hotel porter opened the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站台上推着行李车快步走的人，旅客的大箱小包都在他车上"
+    },
+    {
+      "id": "ex-preceding-1",
+      "word_id": "preceding",
+      "text": "The preceding chapter explains the theory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻回上一页，那行结论还在纸面上等着"
+    },
+    {
+      "id": "ex-preceding-2",
+      "word_id": "preceding",
+      "text": "See the preceding paragraph.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻回上一页，那行结论还在纸面上等着"
+    },
+    {
+      "id": "ex-preferable-1",
+      "word_id": "preferable",
+      "text": "Walking is preferable to driving.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两杯水摆着，一杯带冰一杯温的，天热时手自然伸向那杯冰的"
+    },
+    {
+      "id": "ex-preferable-2",
+      "word_id": "preferable",
+      "text": "A quiet room is preferable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两杯水摆着，一杯带冰一杯温的，天热时手自然伸向那杯冰的"
+    },
+    {
+      "id": "ex-corresponding-1",
+      "word_id": "corresponding",
+      "text": "Sales rose, and profits showed a corresponding increase.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单和座位号一一对好，拿号找座，一个都不落"
+    },
+    {
+      "id": "ex-corresponding-2",
+      "word_id": "corresponding",
+      "text": "Fill in the corresponding boxes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单和座位号一一对好，拿号找座，一个都不落"
+    },
+    {
+      "id": "ex-resultant-1",
+      "word_id": "resultant",
+      "text": "The resultant damage was extensive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "比赛终场哨响，比分板上最终停下的那个数字"
+    },
+    {
+      "id": "ex-resultant-2",
+      "word_id": "resultant",
+      "text": "Floods and the resultant chaos delayed us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "比赛终场哨响，比分板上最终停下的那个数字"
+    },
+    {
+      "id": "ex-attractive-1",
+      "word_id": "attractive",
+      "text": "The offer is very attractive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橱窗里那件展品，路过的人都会放慢脚步多看两眼"
+    },
+    {
+      "id": "ex-attractive-2",
+      "word_id": "attractive",
+      "text": "She has an attractive smile.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橱窗里那件展品，路过的人都会放慢脚步多看两眼"
+    },
+    {
+      "id": "ex-accord-1",
+      "word_id": "accord",
+      "text": "The two sides reached an accord.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人相视一点头，不用多说就知道想到一块去了"
+    },
+    {
+      "id": "ex-accord-2",
+      "word_id": "accord",
+      "text": "They acted in accord with the rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人相视一点头，不用多说就知道想到一块去了"
+    },
+    {
+      "id": "ex-accordance-1",
+      "word_id": "accordance",
+      "text": "The work was done in accordance with the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照着图纸一比一施工，每一个尺寸都对得上图纸"
+    },
+    {
+      "id": "ex-accordance-2",
+      "word_id": "accordance",
+      "text": "in accordance with the law",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照着图纸一比一施工，每一个尺寸都对得上图纸"
+    },
+    {
+      "id": "ex-accordingly-1",
+      "word_id": "accordingly",
+      "text": "The rules have changed, and we must act accordingly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "听到最新安排，马上把手里的计划照新口径改了"
+    },
+    {
+      "id": "ex-accordingly-2",
+      "word_id": "accordingly",
+      "text": "He was told the news and behaved accordingly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "听到最新安排，马上把手里的计划照新口径改了"
+    },
+    {
+      "id": "ex-defeat-1",
+      "word_id": "defeat",
+      "text": "The team defeated its rival.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棋局最后一手落下，对方的布局被彻底拆解"
+    },
+    {
+      "id": "ex-defeat-2",
+      "word_id": "defeat",
+      "text": "They suffered a heavy defeat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棋局最后一手落下，对方的布局被彻底拆解"
+    },
+    {
+      "id": "ex-feat-1",
+      "word_id": "feat",
+      "text": "The bridge is a feat of engineering.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杂技演员走完高空钢索，全场屏住的那口气终于呼出"
+    },
+    {
+      "id": "ex-feat-2",
+      "word_id": "feat",
+      "text": "Climbing the peak was quite a feat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杂技演员走完高空钢索，全场屏住的那口气终于呼出"
+    },
+    {
+      "id": "ex-feature-1",
+      "word_id": "feature",
+      "text": "The phone has many new features.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张脸上最抓人的那双眼睛，或杂志封面主推的那篇报道"
+    },
+    {
+      "id": "ex-feature-2",
+      "word_id": "feature",
+      "text": "The film features a young actor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张脸上最抓人的那双眼睛，或杂志封面主推的那篇报道"
+    },
+    {
+      "id": "ex-probability-1",
+      "word_id": "probability",
+      "text": "There is a high probability of rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抛一百次硬币，正面朝上的次数大致各半，心里就有数了"
+    },
+    {
+      "id": "ex-probability-2",
+      "word_id": "probability",
+      "text": "The probability of failure is low.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抛一百次硬币，正面朝上的次数大致各半，心里就有数了"
+    },
+    {
+      "id": "ex-probable-1",
+      "word_id": "probable",
+      "text": "It is probable that he will come.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看着天上堆起来的乌云，心里判断这场雨八九成要下"
+    },
+    {
+      "id": "ex-probable-2",
+      "word_id": "probable",
+      "text": "A probable cause of the delay is traffic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看着天上堆起来的乌云，心里判断这场雨八九成要下"
+    },
+    {
+      "id": "ex-probe-1",
+      "word_id": "probe",
+      "text": "The committee probed into the scandal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生轻轻试探伤口深浅，先弄清伤到哪一层，才敢判断"
+    },
+    {
+      "id": "ex-probe-2",
+      "word_id": "probe",
+      "text": "A space probe explored the planet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生轻轻试探伤口深浅，先弄清伤到哪一层，才敢判断"
+    },
+    {
+      "id": "ex-resist-1",
+      "word_id": "resist",
+      "text": "They resisted the invasion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "逆风里迈步，每一步都顶着风，人被往后推也不退"
+    },
+    {
+      "id": "ex-resist-2",
+      "word_id": "resist",
+      "text": "She couldn't resist the chocolate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "逆风里迈步，每一步都顶着风，人被往后推也不退"
+    },
+    {
+      "id": "ex-resistance-1",
+      "word_id": "resistance",
+      "text": "The army met strong resistance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河道里竖起的石墩，水流冲过来，被它分开绕行"
+    },
+    {
+      "id": "ex-resistance-2",
+      "word_id": "resistance",
+      "text": "Copper has low electrical resistance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河道里竖起的石墩，水流冲过来，被它分开绕行"
+    },
+    {
+      "id": "ex-resistant-1",
+      "word_id": "resistant",
+      "text": "The material is resistant to heat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刷了防水层的木船，泡在水里也不烂不渗"
+    },
+    {
+      "id": "ex-resistant-2",
+      "word_id": "resistant",
+      "text": "Some insects are resistant to pesticides.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刷了防水层的木船，泡在水里也不烂不渗"
+    },
+    {
+      "id": "ex-constitute-1",
+      "word_id": "constitute",
+      "text": "Women constitute half of the workforce.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几块木板拼在一起立起来，就成了一个架子"
+    },
+    {
+      "id": "ex-constitute-2",
+      "word_id": "constitute",
+      "text": "Such actions constitute a crime.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几块木板拼在一起立起来，就成了一个架子"
+    },
+    {
+      "id": "ex-institute-1",
+      "word_id": "institute",
+      "text": "She works at a research institute.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把一所学校立起来，先立规矩再招生，从此年年有人进来"
+    },
+    {
+      "id": "ex-institute-2",
+      "word_id": "institute",
+      "text": "They instituted new safety rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把一所学校立起来，先立规矩再招生，从此年年有人进来"
+    },
+    {
+      "id": "ex-substitute-1",
+      "word_id": "substitute",
+      "text": "Honey can substitute for sugar.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主力球员受伤下场，替补换上，位置照样有人顶住"
+    },
+    {
+      "id": "ex-substitute-2",
+      "word_id": "substitute",
+      "text": "He came on as a substitute.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "主力球员受伤下场，替补换上，位置照样有人顶住"
+    },
+    {
+      "id": "ex-continent-1",
+      "word_id": "continent",
+      "text": "Africa is a continent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从飞机上往下看，陆地的边界连成一大片，中间没有断"
+    },
+    {
+      "id": "ex-continent-2",
+      "word_id": "continent",
+      "text": "The five continents were once connected.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从飞机上往下看，陆地的边界连成一大片，中间没有断"
+    },
+    {
+      "id": "ex-continual-1",
+      "word_id": "continual",
+      "text": "There was continual noise from the street.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼上装修的电钻声一阵接一阵，从早到晚没停过"
+    },
+    {
+      "id": "ex-continual-2",
+      "word_id": "continual",
+      "text": "Continual interruptions made work hard.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼上装修的电钻声一阵接一阵，从早到晚没停过"
+    },
+    {
+      "id": "ex-continuous-1",
+      "word_id": "continuous",
+      "text": "The road has a continuous white line.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那根水管里的水从早流到晚，中间没有一刻停"
+    },
+    {
+      "id": "ex-continuous-2",
+      "word_id": "continuous",
+      "text": "Continuous rain caused flooding.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那根水管里的水从早流到晚，中间没有一刻停"
+    },
+    {
+      "id": "ex-stationery-1",
+      "word_id": "stationery",
+      "text": "The shop sells stationery and books.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书桌角上一叠信纸、几支笔、一瓶墨水，写东西的家伙事都在"
+    },
+    {
+      "id": "ex-stationery-2",
+      "word_id": "stationery",
+      "text": "She bought some stationery for school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书桌角上一叠信纸、几支笔、一瓶墨水，写东西的家伙事都在"
+    },
+    {
+      "id": "ex-statistical-1",
+      "word_id": "statistical",
+      "text": "Statistical analysis supports the finding.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那叠问卷上的勾选被一个个数出来，折成百分比画成图"
+    },
+    {
+      "id": "ex-statistical-2",
+      "word_id": "statistical",
+      "text": "The data show a statistical increase.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那叠问卷上的勾选被一个个数出来，折成百分比画成图"
+    },
+    {
+      "id": "ex-stay-1",
+      "word_id": "stay",
+      "text": "Please stay here until I return.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "逛到街角那家店就站住了，这一站就是一下午"
+    },
+    {
+      "id": "ex-stay-2",
+      "word_id": "stay",
+      "text": "They stayed at a hotel for two nights.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "逛到街角那家店就站住了，这一站就是一下午"
     }
   ]
 }

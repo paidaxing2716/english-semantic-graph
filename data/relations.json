@@ -4416,6 +4416,186 @@
       "to": "digest",
       "type": "root",
       "note": "di-（dis- 分开）+ gest（携带）→ 把食物分开携带走 → 消化"
+    },
+    {
+      "from": "domus",
+      "to": "predominant",
+      "type": "root",
+      "note": "pre-（在前）+ domin（主导）→ 排在最前面的主导 → 占主导地位的"
+    },
+    {
+      "from": "spect",
+      "to": "expectation",
+      "type": "root",
+      "note": "ex-（向外）+ spect（看）→ 朝外看的那个念头 → 期待"
+    },
+    {
+      "from": "port",
+      "to": "importance",
+      "type": "root",
+      "note": "im-（in- 向内）+ port（携带）→ 被携带进来的分量 → 重要"
+    },
+    {
+      "from": "port",
+      "to": "porter",
+      "type": "root",
+      "note": "port（携带）+ -er（人）→ 帮着搬东西的人 → 搬运工"
+    },
+    {
+      "from": "ced",
+      "to": "preceding",
+      "type": "root",
+      "note": "pre-（在前）+ ced（行走）→ 走在前面的 → 前述的"
+    },
+    {
+      "from": "ferre",
+      "to": "preferable",
+      "type": "root",
+      "note": "prefer（更喜欢）+ -able（可）→ 更可取、更该选的"
+    },
+    {
+      "from": "spondere",
+      "to": "corresponding",
+      "type": "root",
+      "note": "cor-（相互）+ respond（回应）→ 彼此应得上的 → 相应的"
+    },
+    {
+      "from": "salire",
+      "to": "resultant",
+      "type": "root",
+      "note": "result（结果）+ -ant（…的）→ 作为结果而出现的"
+    },
+    {
+      "from": "tract",
+      "to": "attractive",
+      "type": "root",
+      "note": "at-（ad- 朝向）+ tract（拉）→ 能把人拉过去的 → 有吸引力的"
+    },
+    {
+      "from": "cors",
+      "to": "accord",
+      "type": "root",
+      "note": "ac-（ad- 朝向）+ cord（心）→ 心朝向同一个地方 → 一致"
+    },
+    {
+      "from": "cors",
+      "to": "accordance",
+      "type": "root",
+      "note": "accord（一致）+ -ance → 一致的状态；常作 in accordance with（依照）"
+    },
+    {
+      "from": "cors",
+      "to": "accordingly",
+      "type": "root",
+      "note": "according（一致）+ -ly → 与之相应地去办"
+    },
+    {
+      "from": "fac",
+      "to": "defeat",
+      "type": "root",
+      "note": "de-（向下）+ feat（做）→ 把对方做出来的局面压下去 → 击败"
+    },
+    {
+      "from": "fac",
+      "to": "feat",
+      "type": "root",
+      "note": "feat（做）→ 做出来的不寻常之事 → 功绩"
+    },
+    {
+      "from": "fac",
+      "to": "feature",
+      "type": "root",
+      "note": "feat（做）+ -ure → 做出来摆给看的东西 → 特征、专题"
+    },
+    {
+      "from": "prob",
+      "to": "probability",
+      "type": "root",
+      "note": "prob（检验）+ -ability → 检验得出的可能性大小 → 概率"
+    },
+    {
+      "from": "prob",
+      "to": "probable",
+      "type": "root",
+      "note": "prob（检验）+ -able → 经检验很可能的 → 很可能的"
+    },
+    {
+      "from": "prob",
+      "to": "probe",
+      "type": "root",
+      "note": "prob（检验）→ 伸进去验一验里面是什么 → 探查；试探"
+    },
+    {
+      "from": "sta",
+      "to": "resist",
+      "type": "root",
+      "note": "re-（相反）+ sist（站立）→ 立住不动地顶回去 → 抵抗"
+    },
+    {
+      "from": "sta",
+      "to": "resistance",
+      "type": "root",
+      "note": "resist（抵抗）+ -ance → 抵抗的状态或力量"
+    },
+    {
+      "from": "sta",
+      "to": "resistant",
+      "type": "root",
+      "note": "resist（抵抗）+ -ant → 能顶住而不被改变的"
+    },
+    {
+      "from": "sta",
+      "to": "constitute",
+      "type": "root",
+      "note": "con-（一起）+ stitut（立）+ -e → 一起立起来组成 → 构成"
+    },
+    {
+      "from": "sta",
+      "to": "institute",
+      "type": "root",
+      "note": "in-（进入）+ stitut（立）→ 立起来使其开始运行 → 建立"
+    },
+    {
+      "from": "sta",
+      "to": "substitute",
+      "type": "root",
+      "note": "sub-（在下）+ stitut（立）→ 站在下面顶替 → 替代"
+    },
+    {
+      "from": "tain",
+      "to": "continent",
+      "type": "root",
+      "note": "con-（一起）+ tin（握住）→ 连在一起握住的大陆 → 洲"
+    },
+    {
+      "from": "tain",
+      "to": "continual",
+      "type": "root",
+      "note": "con-（一起）+ tin（握住）+ -ual → 一直握在一起不松 → 连续不断的"
+    },
+    {
+      "from": "tain",
+      "to": "continuous",
+      "type": "root",
+      "note": "con-（一起）+ tin（握住）+ -uous → 不间断的"
+    },
+    {
+      "from": "sta",
+      "to": "stationery",
+      "type": "root",
+      "note": "station（站）+ -ery → 摆在书桌'站'的地方的用品 → 文具"
+    },
+    {
+      "from": "sta",
+      "to": "statistical",
+      "type": "root",
+      "note": "statist（统计）+ -ical → 与统计有关的"
+    },
+    {
+      "from": "sta",
+      "to": "stay",
+      "type": "root",
+      "note": "sta（站立）→ 立住不动 → 停留"
     }
   ]
 }
