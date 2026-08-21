@@ -2312,36 +2312,6 @@
       "note": "soci（同伴、结伴）+ -al（…的）→ 与人结伴相关的 → 社会的、社交的"
     },
     {
-      "from": "fac",
-      "to": "concept",
-      "type": "root",
-      "note": "con-（一起）+ cept（capere 的变体，抓取）→ 把许多个例的共性一把抓起来 → 概念"
-    },
-    {
-      "from": "fac",
-      "to": "except",
-      "type": "root",
-      "note": "ex-（向外）+ cept（抓取）→ 把这一项从整体里抓出去 → 除…之外"
-    },
-    {
-      "from": "fac",
-      "to": "receipt",
-      "type": "root",
-      "note": "re-（回、往回）+ ceipt（cept 的变体，抓取）→ 证明已把东西接过来的那张纸 → 收据"
-    },
-    {
-      "from": "fac",
-      "to": "susceptible",
-      "type": "root",
-      "note": "sus-（sub- 的变体，从下）+ cept（抓取）+ -ible（易…的）→ 底下容易被抓住的 → 易受影响的"
-    },
-    {
-      "from": "fac",
-      "to": "accept",
-      "type": "root",
-      "note": "ac-（ad- 的变体，朝向）+ cept（抓取）→ 朝自己这边接过来 → 接受"
-    },
-    {
       "from": "certus",
       "to": "certain",
       "type": "root",
@@ -3018,18 +2988,6 @@
       "to": "faithful",
       "type": "root",
       "note": "faith（信）+ -ful（充满…的）→ 守住那份信的 → 忠诚的；引申为如实照原样的 → 忠实的"
-    },
-    {
-      "from": "spect",
-      "to": "invisible",
-      "type": "root",
-      "note": "in-（否定）+ vis（看，与 spect 同为'看'的一支）+ -ible → 看不见的 → 无形的"
-    },
-    {
-      "from": "spect",
-      "to": "advisable",
-      "type": "root",
-      "note": "ad-（朝向）+ vis（看）+ -able（值得…的）→ 值得朝那个方向看一看的 → 可取的"
     },
     {
       "from": "tegere",
@@ -4596,6 +4554,90 @@
       "to": "stay",
       "type": "root",
       "note": "sta（站立）→ 立住不动 → 停留"
+    },
+    {
+      "from": "cep",
+      "to": "acceptable",
+      "type": "root",
+      "note": "ac-（ad- 朝向）+ cept（抓取）+ -able（可…的）→ 能接过来、收得下的 → 可接受的"
+    },
+    {
+      "from": "cep",
+      "to": "acceptance",
+      "type": "root",
+      "note": "ac-（朝向）+ cept（抓取）+ -ance（名词）→ 接过来的动作或状态 → 接受"
+    },
+    {
+      "from": "cep",
+      "to": "exception",
+      "type": "root",
+      "note": "ex-（向外）+ cept（抓取）+ -ion → 从整体里被抓出去的那一项 → 例外"
+    },
+    {
+      "from": "cep",
+      "to": "exceptional",
+      "type": "root",
+      "note": "exception（例外）+ -al → 超出常例的 → 杰出的/异常的"
+    },
+    {
+      "from": "cep",
+      "to": "reception",
+      "type": "root",
+      "note": "re-（往回）+ cept（抓取）+ -ion → 把来客接过来的动作 → 接待；接受到的信息"
+    },
+    {
+      "from": "vid",
+      "to": "envisage",
+      "type": "root",
+      "note": "en-（使）+ vis（看）+ -age → 使它在眼前显现 → 设想"
+    },
+    {
+      "from": "caedere",
+      "to": "precise",
+      "type": "root",
+      "note": "pre-（预先）+ cis（切）→ 预先切定、分毫不差的 → 精确的"
+    },
+    {
+      "from": "cep",
+      "to": "concept",
+      "type": "root",
+      "note": "词源修正迁移"
+    },
+    {
+      "from": "cep",
+      "to": "except",
+      "type": "root",
+      "note": "词源修正迁移"
+    },
+    {
+      "from": "cep",
+      "to": "receipt",
+      "type": "root",
+      "note": "词源修正迁移"
+    },
+    {
+      "from": "cep",
+      "to": "susceptible",
+      "type": "root",
+      "note": "词源修正迁移"
+    },
+    {
+      "from": "cep",
+      "to": "accept",
+      "type": "root",
+      "note": "词源修正迁移"
+    },
+    {
+      "from": "vid",
+      "to": "invisible",
+      "type": "root",
+      "note": "词源修正迁移"
+    },
+    {
+      "from": "vid",
+      "to": "advisable",
+      "type": "root",
+      "note": "词源修正迁移"
     }
   ]
 }

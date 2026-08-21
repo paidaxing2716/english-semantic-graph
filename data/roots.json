@@ -197,8 +197,6 @@
         "conspicuous",
         "retrospect",
         "prospective",
-        "invisible",
-        "advisable",
         "expectation"
       ]
     },
@@ -389,11 +387,6 @@
         "infect",
         "efficient",
         "sufficient",
-        "concept",
-        "except",
-        "receipt",
-        "susceptible",
-        "accept",
         "deficiency",
         "efficiency",
         "proficiency",
@@ -2572,6 +2565,67 @@
         "digest",
         "gesture",
         "suggest"
+      ]
+    },
+    {
+      "id": "cep",
+      "root": "cep",
+      "variants": [
+        "cep",
+        "capt",
+        "cept",
+        "cap"
+      ],
+      "origin": "拉丁语 capere（抓取、拿住、接收）",
+      "core_concept": "to grasp, to take hold and receive / 一把抓住、接过来",
+      "core_image": "手探出去，把飞来的球一把接住握住",
+      "english_definition": "to take, to grasp, to receive",
+      "word_ids": [
+        "acceptable",
+        "acceptance",
+        "exception",
+        "exceptional",
+        "reception",
+        "concept",
+        "except",
+        "receipt",
+        "susceptible",
+        "accept"
+      ]
+    },
+    {
+      "id": "vid",
+      "root": "vid",
+      "variants": [
+        "vid",
+        "vis",
+        "vey"
+      ],
+      "origin": "拉丁语 videre（看、看见）",
+      "core_concept": "to see, to look / 看、看见",
+      "core_image": "目光落在某处，把那东西看进眼里",
+      "english_definition": "to see, to view",
+      "word_ids": [
+        "envisage",
+        "invisible",
+        "advisable"
+      ]
+    },
+    {
+      "id": "caedere",
+      "root": "caedere",
+      "variants": [
+        "caed",
+        "caes",
+        "cis",
+        "cid"
+      ],
+      "origin": "拉丁语 caedere（切、砍、斩断）",
+      "core_concept": "to cut, to strike off / 切、砍、斩断",
+      "core_image": "一刀落下，把整块东西齐齐切开",
+      "english_definition": "to cut, to strike off",
+      "word_ids": [
+        "precise"
       ]
     }
   ]

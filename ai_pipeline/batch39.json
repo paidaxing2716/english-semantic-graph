@@ -1,0 +1,365 @@
+{
+  "roots": [
+    {
+      "id": "cep",
+      "root": "cep",
+      "variants": [
+        "cep",
+        "capt",
+        "cept",
+        "cap"
+      ],
+      "origin": "拉丁语 capere（抓取、拿住、接收）",
+      "core_concept": "to grasp, to take hold and receive / 一把抓住、接过来",
+      "core_image": "手探出去，把飞来的球一把接住握住",
+      "english_definition": "to take, to grasp, to receive"
+    },
+    {
+      "id": "vid",
+      "root": "vid",
+      "variants": [
+        "vid",
+        "vis",
+        "vey"
+      ],
+      "origin": "拉丁语 videre（看、看见）",
+      "core_concept": "to see, to look / 看、看见",
+      "core_image": "目光落在某处，把那东西看进眼里",
+      "english_definition": "to see, to view"
+    },
+    {
+      "id": "caedere",
+      "root": "caedere",
+      "variants": [
+        "caed",
+        "caes",
+        "cis",
+        "cid"
+      ],
+      "origin": "拉丁语 caedere（切、砍、斩断）",
+      "core_concept": "to cut, to strike off / 切、砍、斩断",
+      "core_image": "一刀落下，把整块东西齐齐切开",
+      "english_definition": "to cut, to strike off"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-cep-grasp",
+      "concept": "to grasp and take in, holding what comes",
+      "chinese": "抓取接收",
+      "core_image": "伸手一把接住飞来的球",
+      "root_ids": [
+        "cep"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-vid-see",
+      "concept": "to see and take in with the eyes",
+      "chinese": "看见",
+      "core_image": "目光落定，把那物看进眼里",
+      "root_ids": [
+        "vid"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-caedere-cut",
+      "concept": "to cut through cleanly",
+      "chinese": "切砍",
+      "core_image": "一刀落下，整块齐齐切开",
+      "root_ids": [
+        "caedere"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-hold": [
+      "cep"
+    ],
+    "domain-perceive": [
+      "vid"
+    ],
+    "domain-force": [
+      "caedere"
+    ]
+  },
+  "words": [
+    {
+      "id": "acceptable",
+      "word": "acceptable",
+      "pos": "adjective",
+      "phonetic": "/əkˈseptəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "ac-（ad- 朝向）+ cept（抓取）+ -able（可…的）→ 能接过来、收得下的 → 可接受的",
+      "origin": "拉丁语 acceptabilis：ad-（朝向）+ capere（抓取）",
+      "native_definition": "good enough to be accepted or agreed to",
+      "core_concept": "fit to be taken in without complaint – 值得收下、不会皱眉的",
+      "core_image": "对方开出的条件摆到桌上，掂量一番觉得能收下就点头",
+      "chinese": [
+        "可接受的",
+        "可容忍的"
+      ],
+      "examples": [
+        "The offer is acceptable to both sides.",
+        "His behavior was barely acceptable."
+      ],
+      "synonyms": [
+        "satisfactory",
+        "reasonable"
+      ],
+      "antonyms": [
+        "unacceptable"
+      ],
+      "related": [
+        "accept",
+        "acceptance",
+        "reception"
+      ],
+      "semantic_expansions": [
+        "可接受：收得下、不皱眉",
+        "可容忍：勉强算过得去"
+      ],
+      "recall_hint": "ac-（朝向）+ cept（抓取）+ -able → 收得下的"
+    },
+    {
+      "id": "acceptance",
+      "word": "acceptance",
+      "pos": "noun",
+      "phonetic": "/əkˈseptəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "ac-（朝向）+ cept（抓取）+ -ance（名词）→ 接过来的动作或状态 → 接受",
+      "origin": "accept 的名词：ad-（朝向）+ capere（抓取）",
+      "native_definition": "the act of taking something offered; approval",
+      "core_concept": "taking what is offered into one's hand – 把递过来的东西接住",
+      "core_image": "老师傅看了一眼递来的方案，点点头接了过去",
+      "chinese": [
+        "接受",
+        "认可"
+      ],
+      "examples": [
+        "Her acceptance of the job delighted us.",
+        "The idea gained wide acceptance."
+      ],
+      "synonyms": [
+        "approval",
+        "adoption"
+      ],
+      "antonyms": [
+        "rejection"
+      ],
+      "related": [
+        "accept",
+        "acceptable",
+        "reception"
+      ],
+      "semantic_expansions": [
+        "接受：把递来的接住",
+        "认可：众人愿意收下"
+      ],
+      "recall_hint": "ac-（朝向）+ cept（抓取）+ -ance → 接过来"
+    },
+    {
+      "id": "exception",
+      "word": "exception",
+      "pos": "noun",
+      "phonetic": "/ɪkˈsepʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "ex-（向外）+ cept（抓取）+ -ion → 从整体里被抓出去的那一项 → 例外",
+      "origin": "拉丁语 exceptio：ex-（向外）+ capere（抓取）",
+      "native_definition": "something that does not follow the usual rule",
+      "core_concept": "the item taken out from the whole – 从整体里被抓出来单独放的一项",
+      "core_image": "全班都穿了校服，独独有个人没穿，那份不同就是它",
+      "chinese": [
+        "例外",
+        "除外"
+      ],
+      "examples": [
+        "Everyone came, with few exceptions.",
+        "Without exception, the rules apply."
+      ],
+      "synonyms": [
+        "anomaly",
+        "outlier"
+      ],
+      "antonyms": [],
+      "related": [
+        "except",
+        "exceptional",
+        "acceptable"
+      ],
+      "semantic_expansions": [
+        "例外：被抓出去单放的一项",
+        "除外：从规则里摘出去"
+      ],
+      "recall_hint": "ex-（向外）+ cept（抓取）+ -ion → 被抓出的例外"
+    },
+    {
+      "id": "exceptional",
+      "word": "exceptional",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈsepʃənl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "exception（例外）+ -al → 超出常例的 → 杰出的/异常的",
+      "origin": "exceptio 的形容词",
+      "native_definition": "unusually good; out of the ordinary",
+      "core_concept": "standing outside the common run – 立在常例之外、超出寻常",
+      "core_image": "别人都画三小时，她半小时就完成还最精致，明显不在一个水平线上",
+      "chinese": [
+        "杰出的",
+        "异常的"
+      ],
+      "examples": [
+        "She is an exceptional student.",
+        "The results were exceptional."
+      ],
+      "synonyms": [
+        "extraordinary",
+        "outstanding"
+      ],
+      "antonyms": [
+        "ordinary"
+      ],
+      "related": [
+        "exception",
+        "except",
+        "reception"
+      ],
+      "semantic_expansions": [
+        "杰出：超出常例的好",
+        "异常：与通常不同的"
+      ],
+      "recall_hint": "exception（例外）+ -al → 超乎常例"
+    },
+    {
+      "id": "reception",
+      "word": "reception",
+      "pos": "noun",
+      "phonetic": "/rɪˈsepʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "re-（往回）+ cept（抓取）+ -ion → 把来客接过来的动作 → 接待；接受到的信息",
+      "origin": "拉丁语 receptio：re-（往回）+ capere（抓取）",
+      "native_definition": "the act of welcoming someone; the way a signal is received",
+      "core_concept": "taking the arriving one in – 把到来的人(物)接进来",
+      "core_image": "酒店前台，来人一进门先被接住、办入住，行李也在这里被安顿",
+      "chinese": [
+        "接待",
+        "接收",
+        "反响"
+      ],
+      "examples": [
+        "The reception was warm.",
+        "Radio reception is poor here."
+      ],
+      "synonyms": [
+        "welcome",
+        "admission"
+      ],
+      "antonyms": [],
+      "related": [
+        "except",
+        "accept",
+        "exceptional"
+      ],
+      "semantic_expansions": [
+        "接待：把来客接进来",
+        "接收：把信号接进来",
+        "反响：外界如何接收它"
+      ],
+      "recall_hint": "re-（往回）+ cept（抓取）+ -ion → 把来客接过来"
+    },
+    {
+      "id": "envisage",
+      "word": "envisage",
+      "pos": "verb",
+      "phonetic": "/ɪnˈvɪzɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "vid"
+      ],
+      "root_logic": "en-（使）+ vis（看）+ -age → 使它在眼前显现 → 设想",
+      "origin": "法语 envisager：en-（在内）+ visage（面容）← visio ← videre（看）",
+      "native_definition": "to imagine or picture something as likely to happen",
+      "core_concept": "seeing it take shape before the eyes – 在眼前把它看成形",
+      "core_image": "脑子里已经把那座桥建起来的样子放了一遍，连桥上走车的画面都有",
+      "chinese": [
+        "设想",
+        "想象",
+        "展望"
+      ],
+      "examples": [
+        "We envisage a bright future.",
+        "The plan envisages a new library."
+      ],
+      "synonyms": [
+        "imagine",
+        "foresee"
+      ],
+      "antonyms": [],
+      "related": [
+        "invisible",
+        "advisable"
+      ],
+      "semantic_expansions": [
+        "设想/展望：在眼前把将来看成形"
+      ],
+      "recall_hint": "en-（使）+ vis（看）+ -age → 在眼前显现 → 设想"
+    },
+    {
+      "id": "precise",
+      "word": "precise",
+      "pos": "adjective",
+      "phonetic": "/prɪˈsaɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "caedere"
+      ],
+      "root_logic": "pre-（预先）+ cis（切）→ 预先切定、分毫不差的 → 精确的",
+      "origin": "拉丁语 praecisus：prae-（预先）+ caedere（切）——'预先切定'",
+      "native_definition": "exact and accurate, with no error",
+      "core_concept": "cut in advance to the exact mark – 预先切到那条准线上",
+      "core_image": "木匠在木料上先画好线，下刀正落线心，不偏一丝",
+      "chinese": [
+        "精确的",
+        "准确的"
+      ],
+      "examples": [
+        "The measurements must be precise.",
+        "Give me the precise figures."
+      ],
+      "synonyms": [
+        "exact",
+        "accurate"
+      ],
+      "antonyms": [
+        "vague",
+        "approximate"
+      ],
+      "related": [
+        "exact",
+        "accurate",
+        "precede"
+      ],
+      "semantic_expansions": [
+        "精确：预先切定到准线"
+      ],
+      "recall_hint": "pre-（预先）+ cis（切）→ 切到准线 → 精确"
+    }
+  ]
+}

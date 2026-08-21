@@ -10409,6 +10409,104 @@
       "text": "They stayed at a hotel for two nights.",
       "source": "AI 生成 · 人工审核",
       "scene": "逛到街角那家店就站住了，这一站就是一下午"
+    },
+    {
+      "id": "ex-acceptable-1",
+      "word_id": "acceptable",
+      "text": "The offer is acceptable to both sides.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方开出的条件摆到桌上，掂量一番觉得能收下就点头"
+    },
+    {
+      "id": "ex-acceptable-2",
+      "word_id": "acceptable",
+      "text": "His behavior was barely acceptable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方开出的条件摆到桌上，掂量一番觉得能收下就点头"
+    },
+    {
+      "id": "ex-acceptance-1",
+      "word_id": "acceptance",
+      "text": "Her acceptance of the job delighted us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师傅看了一眼递来的方案，点点头接了过去"
+    },
+    {
+      "id": "ex-acceptance-2",
+      "word_id": "acceptance",
+      "text": "The idea gained wide acceptance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师傅看了一眼递来的方案，点点头接了过去"
+    },
+    {
+      "id": "ex-exception-1",
+      "word_id": "exception",
+      "text": "Everyone came, with few exceptions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全班都穿了校服，独独有个人没穿，那份不同就是它"
+    },
+    {
+      "id": "ex-exception-2",
+      "word_id": "exception",
+      "text": "Without exception, the rules apply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全班都穿了校服，独独有个人没穿，那份不同就是它"
+    },
+    {
+      "id": "ex-exceptional-1",
+      "word_id": "exceptional",
+      "text": "She is an exceptional student.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人都画三小时，她半小时就完成还最精致，明显不在一个水平线上"
+    },
+    {
+      "id": "ex-exceptional-2",
+      "word_id": "exceptional",
+      "text": "The results were exceptional.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人都画三小时，她半小时就完成还最精致，明显不在一个水平线上"
+    },
+    {
+      "id": "ex-reception-1",
+      "word_id": "reception",
+      "text": "The reception was warm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "酒店前台，来人一进门先被接住、办入住，行李也在这里被安顿"
+    },
+    {
+      "id": "ex-reception-2",
+      "word_id": "reception",
+      "text": "Radio reception is poor here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "酒店前台，来人一进门先被接住、办入住，行李也在这里被安顿"
+    },
+    {
+      "id": "ex-envisage-1",
+      "word_id": "envisage",
+      "text": "We envisage a bright future.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脑子里已经把那座桥建起来的样子放了一遍，连桥上走车的画面都有"
+    },
+    {
+      "id": "ex-envisage-2",
+      "word_id": "envisage",
+      "text": "The plan envisages a new library.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脑子里已经把那座桥建起来的样子放了一遍，连桥上走车的画面都有"
+    },
+    {
+      "id": "ex-precise-1",
+      "word_id": "precise",
+      "text": "The measurements must be precise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木匠在木料上先画好线，下刀正落线心，不偏一丝"
+    },
+    {
+      "id": "ex-precise-2",
+      "word_id": "precise",
+      "text": "Give me the precise figures.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木匠在木料上先画好线，下刀正落线心，不偏一丝"
     }
   ]
 }

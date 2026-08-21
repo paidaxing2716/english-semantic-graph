@@ -316,6 +316,14 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第三十九批（7 词 + 3 新根 + 迁移）：新建 cep（capere 抓取）
+        + vid（videre 看）+ caedere（切砍），入库 acceptable/acceptance/
+        exception/exceptional/reception（→cep）、envisage（→vid）、
+        precise（→caedere），758 词 · 132 词根。
+        另按词源核查修正误挂：concept/except/receipt/susceptible/accept
+        从 fac 迁移到 cep，invisible/advisable 从 spect 迁移到 vid
+        （HANDOFF 二·五）。此三根对应子代理词源核查确认的三处
+        系统性误挂修复。视觉基线全展开重叠继续为 WARN
 - [x] 第三十八批（30 词，纯吸收 A+D 类）：predominant→domus、
         expectation→spect、importance/porter→port、preceding→ced、
         preferable→ferre、corresponding→spondere、resultant→salire、

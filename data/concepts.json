@@ -172,8 +172,6 @@
         "conspicuous",
         "retrospect",
         "prospective",
-        "invisible",
-        "advisable",
         "expectation"
       ]
     },
@@ -364,11 +362,6 @@
         "infect",
         "efficient",
         "sufficient",
-        "concept",
-        "except",
-        "receipt",
-        "susceptible",
-        "accept",
         "deficiency",
         "efficiency",
         "proficiency",
@@ -2191,6 +2184,53 @@
         "digest",
         "gesture",
         "suggest"
+      ]
+    },
+    {
+      "id": "concept-cep-grasp",
+      "concept": "to grasp and take in, holding what comes",
+      "chinese": "抓取接收",
+      "core_image": "伸手一把接住飞来的球",
+      "root_ids": [
+        "cep"
+      ],
+      "word_ids": [
+        "acceptable",
+        "acceptance",
+        "exception",
+        "exceptional",
+        "reception",
+        "concept",
+        "except",
+        "receipt",
+        "susceptible",
+        "accept"
+      ]
+    },
+    {
+      "id": "concept-vid-see",
+      "concept": "to see and take in with the eyes",
+      "chinese": "看见",
+      "core_image": "目光落定，把那物看进眼里",
+      "root_ids": [
+        "vid"
+      ],
+      "word_ids": [
+        "envisage",
+        "invisible",
+        "advisable"
+      ]
+    },
+    {
+      "id": "concept-caedere-cut",
+      "concept": "to cut through cleanly",
+      "chinese": "切砍",
+      "core_image": "一刀落下，整块齐齐切开",
+      "root_ids": [
+        "caedere"
+      ],
+      "word_ids": [
+        "precise"
       ]
     }
   ]
