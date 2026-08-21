@@ -16,6 +16,7 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
+v1.1    剩余 227 词入库（可结构化的尾声）  ⏳ 交接中，见 [docs/HANDOFF.md](HANDOFF.md)
 ```
 
 ---
@@ -315,7 +316,7 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
-  - [x] 第三十七批（12 词，四新词根族）：auctor（作者/权威）
+- [x] 第三十七批（12 词，四新词根族）：auctor（作者/权威）
         + clarus（明亮清晰）+ crescere（生长）+ gerere（携带/进行），
         author / authentic / authority，clarify / clarity / declare，
         increase / decrease / increasingly，gesture / suggest / digest，
@@ -327,6 +328,9 @@ python ai_pipeline/review.py merge candidates.json
         domain_add 同域词根需累积追加（dict 覆盖会丢根），
         core_image 避开中文义项以免回想模式泄题
   - [ ] 剩余已审结构化词次继续按词源价值推进；不适合拆解的词不硬加入
+        （上一版盘点见 [docs/HANDOFF.md](HANDOFF.md)，词况已按 721 词重算）
+
+---
 - [ ] 学习模式：探索 / 复习 / 测试
 - [x] 部署为可访问的 Web 页面（GitHub Pages）
 
