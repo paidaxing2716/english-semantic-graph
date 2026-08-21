@@ -2627,6 +2627,90 @@
       "word_ids": [
         "precise"
       ]
+    },
+    {
+      "id": "fortis",
+      "root": "fortis",
+      "variants": [
+        "fort",
+        "forc"
+      ],
+      "origin": "拉丁语 fortis（强壮的、有力的）",
+      "core_concept": "strong, holding firm / 强壮、撑得住",
+      "core_image": "一堵厚墙稳稳立着，外面怎么推都推不动",
+      "english_definition": "strong, firm, brave",
+      "word_ids": [
+        "comfort",
+        "comfortable",
+        "effort"
+      ]
+    },
+    {
+      "id": "fortuna",
+      "root": "fortuna",
+      "variants": [
+        "fortun"
+      ],
+      "origin": "拉丁语 fortuna（命运、运气）——本义'所遭遇的'，与 fortis 相关但不直接",
+      "core_concept": "what chance brings one's way / 命运降落到人头上的那份好坏",
+      "core_image": "转盘停下，指针落定的那一刻，决定了好坏",
+      "english_definition": "fortune, chance, luck",
+      "word_ids": [
+        "fortunate",
+        "fortune",
+        "misfortune"
+      ]
+    },
+    {
+      "id": "gravis",
+      "root": "gravis",
+      "variants": [
+        "grav",
+        "griev"
+      ],
+      "origin": "拉丁语 gravis（重的、沉甸甸的）",
+      "core_concept": "heavy, weighty / 重、沉甸甸压着",
+      "core_image": "一块铅锭沉在手里，分量压得手往下坠",
+      "english_definition": "heavy, weighty, serious",
+      "word_ids": [
+        "aggravate",
+        "grave",
+        "gravity"
+      ]
+    },
+    {
+      "id": "tempus",
+      "root": "tempus",
+      "variants": [
+        "tempor",
+        "temper"
+      ],
+      "origin": "拉丁语 tempus（时间）→ tempor-；temperare（调和，'按时得当'引申）",
+      "core_concept": "time; the right measure at the right time / 时间，及按时得当的分寸",
+      "core_image": "沙漏里的沙缓缓流下，刻度处正好",
+      "english_definition": "time, season, due measure",
+      "word_ids": [
+        "contemporary",
+        "temper",
+        "temporary"
+      ]
+    },
+    {
+      "id": "temptare",
+      "root": "temptare",
+      "variants": [
+        "tempt",
+        "tent"
+      ],
+      "origin": "拉丁语 temptare（试探、考验）——注意与 time 无关",
+      "core_concept": "to test, to probe and try / 试探、考验",
+      "core_image": "伸出一根手指轻轻碰一下水面，探它冷不冷",
+      "english_definition": "to try, to test, to probe",
+      "word_ids": [
+        "attempt",
+        "contempt",
+        "tempt"
+      ]
     }
   ]
 }

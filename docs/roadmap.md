@@ -316,6 +316,14 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十批（15 词，五新词根族）：fortis（强壮）+ fortuna（运气）
+        + gravis（重）+ tempus（时间·分寸）+ temptare（试探），
+        comfort/comfortable/effort，fortune/fortunate/misfortune，
+        grave/gravity/aggravate，contemporary/temper/temporary，
+        tempt/attempt/contempt，773 词 · 137 词根。temp 族按 HANDOFF
+        风险族 1.2 的提示写清 tempus 时间/调和双分支；visual 基线全展开
+        38 对重叠仍为 WARN。C 类拆分决策已完（conc→ced/caedere/conciliare，
+        comp→par/compilare/plere 等），下一批起按拆分执行
 - [x] 第三十九批（7 词 + 3 新根 + 迁移）：新建 cep（capere 抓取）
         + vid（videre 看）+ caedere（切砍），入库 acceptable/acceptance/
         exception/exceptional/reception（→cep）、envisage（→vid）、

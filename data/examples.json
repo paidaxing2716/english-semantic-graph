@@ -10507,6 +10507,216 @@
       "text": "Give me the precise figures.",
       "source": "AI 生成 · 人工审核",
       "scene": "木匠在木料上先画好线，下刀正落线心，不偏一丝"
+    },
+    {
+      "id": "ex-comfort-1",
+      "word_id": "comfort",
+      "text": "The chair offers great comfort.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "累了一天后陷进软沙发里，那一下全身放松的感觉"
+    },
+    {
+      "id": "ex-comfort-2",
+      "word_id": "comfort",
+      "text": "She comforted the crying child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "累了一天后陷进软沙发里，那一下全身放松的感觉"
+    },
+    {
+      "id": "ex-comfortable-1",
+      "word_id": "comfortable",
+      "text": "The bed was comfortable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那双旧鞋已经穿出脚形，走一天也不磨脚"
+    },
+    {
+      "id": "ex-comfortable-2",
+      "word_id": "comfortable",
+      "text": "She felt comfortable in the group.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那双旧鞋已经穿出脚形，走一天也不磨脚"
+    },
+    {
+      "id": "ex-effort-1",
+      "word_id": "effort",
+      "text": "It took great effort to finish.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "双手抓住箱子两端往上抬，脸都涨红了的那一下"
+    },
+    {
+      "id": "ex-effort-2",
+      "word_id": "effort",
+      "text": "She made every effort to help.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "双手抓住箱子两端往上抬，脸都涨红了的那一下"
+    },
+    {
+      "id": "ex-fortune-1",
+      "word_id": "fortune",
+      "text": "Fortune smiled on them.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽奖箱里摸出一张券，展开一看中了大奖，那一下就是它"
+    },
+    {
+      "id": "ex-fortune-2",
+      "word_id": "fortune",
+      "text": "He made a fortune in trade.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽奖箱里摸出一张券，展开一看中了大奖，那一下就是它"
+    },
+    {
+      "id": "ex-fortunate-1",
+      "word_id": "fortunate",
+      "text": "We were fortunate to escape.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨刚停你正好到站，一滴没淋着，运气就是这感觉"
+    },
+    {
+      "id": "ex-fortunate-2",
+      "word_id": "fortunate",
+      "text": "She is fortunate to have support.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨刚停你正好到站，一滴没淋着，运气就是这感觉"
+    },
+    {
+      "id": "ex-misfortune-1",
+      "word_id": "misfortune",
+      "text": "The flood was a great misfortune.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台风过境，家里被水淹了半层，那一片狼藉就是它"
+    },
+    {
+      "id": "ex-misfortune-2",
+      "word_id": "misfortune",
+      "text": "He bore his misfortune bravely.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台风过境，家里被水淹了半层，那一片狼藉就是它"
+    },
+    {
+      "id": "ex-grave-1",
+      "word_id": "grave",
+      "text": "This is a grave mistake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生的表情一下沉下来，那句诊断还没说出口，气氛已经压住了"
+    },
+    {
+      "id": "ex-grave-2",
+      "word_id": "grave",
+      "text": "The situation is grave.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生的表情一下沉下来，那句诊断还没说出口，气氛已经压住了"
+    },
+    {
+      "id": "ex-gravity-1",
+      "word_id": "gravity",
+      "text": "Gravity pulls objects toward Earth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抛向空中的球升到最高点，顿一下，被那股力量拽回地面"
+    },
+    {
+      "id": "ex-gravity-2",
+      "word_id": "gravity",
+      "text": "The matter deserves grave consideration.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抛向空中的球升到最高点，顿一下，被那股力量拽回地面"
+    },
+    {
+      "id": "ex-aggravate-1",
+      "word_id": "aggravate",
+      "text": "Stress aggravates the condition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "伤口没好就去搬重物，原来一点小伤被折腾得更厉害了"
+    },
+    {
+      "id": "ex-aggravate-2",
+      "word_id": "aggravate",
+      "text": "The delay aggravated the problem.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "伤口没好就去搬重物，原来一点小伤被折腾得更厉害了"
+    },
+    {
+      "id": "ex-contemporary-1",
+      "word_id": "contemporary",
+      "text": "Contemporary art challenges tradition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一代人的合影里，大家穿的衣服、留的发型都在同一个时代"
+    },
+    {
+      "id": "ex-contemporary-2",
+      "word_id": "contemporary",
+      "text": "They are contemporary writers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一代人的合影里，大家穿的衣服、留的发型都在同一个时代"
+    },
+    {
+      "id": "ex-temporary-1",
+      "word_id": "temporary",
+      "text": "She took a temporary job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工地旁的蓝色铁皮房，住一段就拆，不是长久之计"
+    },
+    {
+      "id": "ex-temporary-2",
+      "word_id": "temporary",
+      "text": "The road is closed temporarily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工地旁的蓝色铁皮房，住一段就拆，不是长久之计"
+    },
+    {
+      "id": "ex-temper-1",
+      "word_id": "temper",
+      "text": "She has a calm temper.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "调酒师把几种酒按比例兑在一起，最后那一下点味"
+    },
+    {
+      "id": "ex-temper-2",
+      "word_id": "temper",
+      "text": "He tempered the criticism with praise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "调酒师把几种酒按比例兑在一起，最后那一下点味"
+    },
+    {
+      "id": "ex-tempt-1",
+      "word_id": "tempt",
+      "text": "The offer tempted him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橱窗里的甜点摆得诱人，路过时脚就不由自主往那边挪"
+    },
+    {
+      "id": "ex-tempt-2",
+      "word_id": "tempt",
+      "text": "Don't tempt me with chocolate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橱窗里的甜点摆得诱人，路过时脚就不由自主往那边挪"
+    },
+    {
+      "id": "ex-attempt-1",
+      "word_id": "attempt",
+      "text": "She attempted the climb.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "第一次滑冰，扶着栏杆小心翼翼地迈出第一步，试了试站不站得稳"
+    },
+    {
+      "id": "ex-attempt-2",
+      "word_id": "attempt",
+      "text": "His attempt failed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "第一次滑冰，扶着栏杆小心翼翼地迈出第一步，试了试站不站得稳"
+    },
+    {
+      "id": "ex-contempt-1",
+      "word_id": "contempt",
+      "text": "She looked at him with contempt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对那种当面一套背后一套的做法，他只斜眼看了下就不再正眼"
+    },
+    {
+      "id": "ex-contempt-2",
+      "word_id": "contempt",
+      "text": "He has contempt for cheats.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对那种当面一套背后一套的做法，他只斜眼看了下就不再正眼"
     }
   ]
 }

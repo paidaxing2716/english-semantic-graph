@@ -4638,6 +4638,96 @@
       "to": "advisable",
       "type": "root",
       "note": "词源修正迁移"
+    },
+    {
+      "from": "fortis",
+      "to": "comfort",
+      "type": "root",
+      "note": "com-（加强）+ fort（强）→ 让人重新强起来的那种安稳 → 安慰"
+    },
+    {
+      "from": "fortis",
+      "to": "comfortable",
+      "type": "root",
+      "note": "comfort（舒适）+ -able → 能让人安顿下来的 → 舒适的"
+    },
+    {
+      "from": "fortis",
+      "to": "effort",
+      "type": "root",
+      "note": "ef-（ex- 出）+ fort（强）→ 把力量使出来 → 努力"
+    },
+    {
+      "from": "fortuna",
+      "to": "fortune",
+      "type": "root",
+      "note": "fortun（命运）+ -e → 命运降下的那份好坏 → 运气；财富"
+    },
+    {
+      "from": "fortuna",
+      "to": "fortunate",
+      "type": "root",
+      "note": "fortune（运气）+ -ate → 有好运气的 → 幸运的"
+    },
+    {
+      "from": "fortuna",
+      "to": "misfortune",
+      "type": "root",
+      "note": "mis-（坏）+ fortune（运气）→ 坏运气 → 不幸"
+    },
+    {
+      "from": "gravis",
+      "to": "grave",
+      "type": "root",
+      "note": "grav（重）+ -e → 沉重的 → 严重的；坟，埋重的那处"
+    },
+    {
+      "from": "gravis",
+      "to": "gravity",
+      "type": "root",
+      "note": "grav（重）+ -ity → 重的性质 → 重力；严肃"
+    },
+    {
+      "from": "gravis",
+      "to": "aggravate",
+      "type": "root",
+      "note": "ag-（ad- 加强）+ grav（重）+ -ate → 使更重 → 加重"
+    },
+    {
+      "from": "tempus",
+      "to": "contemporary",
+      "type": "root",
+      "note": "con-（共同）+ tempor（时间）+ -ary → 同处一个时代的 → 当代的"
+    },
+    {
+      "from": "tempus",
+      "to": "temporary",
+      "type": "root",
+      "note": "tempor（时间）+ -ary → 只属于一段时间的 → 临时的"
+    },
+    {
+      "from": "tempus",
+      "to": "temper",
+      "type": "root",
+      "note": "temper（调和）→ 按时得当的调配 → 脾气；使缓和"
+    },
+    {
+      "from": "temptare",
+      "to": "tempt",
+      "type": "root",
+      "note": "tempt（试探）→ 试探一个人的定力 → 引诱"
+    },
+    {
+      "from": "temptare",
+      "to": "attempt",
+      "type": "root",
+      "note": "at-（ad- 朝向）+ tempt（试探）→ 朝目标试一下 → 尝试"
+    },
+    {
+      "from": "temptare",
+      "to": "contempt",
+      "type": "root",
+      "note": "con-（完全）+ tempt（试探）→ 看穿之后轻慢地对待 → 蔑视"
     }
   ]
 }

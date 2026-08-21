@@ -2232,6 +2232,76 @@
       "word_ids": [
         "precise"
       ]
+    },
+    {
+      "id": "concept-fortis-strong",
+      "concept": "strong and firm, able to hold up",
+      "chinese": "强壮稳固",
+      "core_image": "厚墙立着，怎么推都不动",
+      "root_ids": [
+        "fortis"
+      ],
+      "word_ids": [
+        "comfort",
+        "comfortable",
+        "effort"
+      ]
+    },
+    {
+      "id": "concept-fortuna-luck",
+      "concept": "what chance brings, one's lot in life",
+      "chinese": "命运运气",
+      "core_image": "转盘停下，指针落定",
+      "root_ids": [
+        "fortuna"
+      ],
+      "word_ids": [
+        "fortunate",
+        "fortune",
+        "misfortune"
+      ]
+    },
+    {
+      "id": "concept-gravis-heavy",
+      "concept": "heavy, weighing down and serious",
+      "chinese": "沉重",
+      "core_image": "铅锭压在手里，分量往下坠",
+      "root_ids": [
+        "gravis"
+      ],
+      "word_ids": [
+        "aggravate",
+        "grave",
+        "gravity"
+      ]
+    },
+    {
+      "id": "concept-tempus-time",
+      "concept": "time, and the right measure timed aright",
+      "chinese": "时间分寸",
+      "core_image": "沙漏流沙，刻度恰好",
+      "root_ids": [
+        "tempus"
+      ],
+      "word_ids": [
+        "contemporary",
+        "temper",
+        "temporary"
+      ]
+    },
+    {
+      "id": "concept-temptare-test",
+      "concept": "to try and test, probing what comes",
+      "chinese": "试探考验",
+      "core_image": "指尖碰水面，探冷暖",
+      "root_ids": [
+        "temptare"
+      ],
+      "word_ids": [
+        "attempt",
+        "contempt",
+        "tempt"
+      ]
     }
   ]
 }

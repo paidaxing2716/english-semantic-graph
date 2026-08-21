@@ -1,0 +1,694 @@
+{
+  "roots": [
+    {
+      "id": "fortis",
+      "root": "fortis",
+      "variants": [
+        "fort",
+        "forc"
+      ],
+      "origin": "拉丁语 fortis（强壮的、有力的）",
+      "core_concept": "strong, holding firm / 强壮、撑得住",
+      "core_image": "一堵厚墙稳稳立着，外面怎么推都推不动",
+      "english_definition": "strong, firm, brave"
+    },
+    {
+      "id": "fortuna",
+      "root": "fortuna",
+      "variants": [
+        "fortun"
+      ],
+      "origin": "拉丁语 fortuna（命运、运气）——本义'所遭遇的'，与 fortis 相关但不直接",
+      "core_concept": "what chance brings one's way / 命运降落到人头上的那份好坏",
+      "core_image": "转盘停下，指针落定的那一刻，决定了好坏",
+      "english_definition": "fortune, chance, luck"
+    },
+    {
+      "id": "gravis",
+      "root": "gravis",
+      "variants": [
+        "grav",
+        "griev"
+      ],
+      "origin": "拉丁语 gravis（重的、沉甸甸的）",
+      "core_concept": "heavy, weighty / 重、沉甸甸压着",
+      "core_image": "一块铅锭沉在手里，分量压得手往下坠",
+      "english_definition": "heavy, weighty, serious"
+    },
+    {
+      "id": "tempus",
+      "root": "tempus",
+      "variants": [
+        "tempor",
+        "temper"
+      ],
+      "origin": "拉丁语 tempus（时间）→ tempor-；temperare（调和，'按时得当'引申）",
+      "core_concept": "time; the right measure at the right time / 时间，及按时得当的分寸",
+      "core_image": "沙漏里的沙缓缓流下，刻度处正好",
+      "english_definition": "time, season, due measure"
+    },
+    {
+      "id": "temptare",
+      "root": "temptare",
+      "variants": [
+        "tempt",
+        "tent"
+      ],
+      "origin": "拉丁语 temptare（试探、考验）——注意与 time 无关",
+      "core_concept": "to test, to probe and try / 试探、考验",
+      "core_image": "伸出一根手指轻轻碰一下水面，探它冷不冷",
+      "english_definition": "to try, to test, to probe"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-fortis-strong",
+      "concept": "strong and firm, able to hold up",
+      "chinese": "强壮稳固",
+      "core_image": "厚墙立着，怎么推都不动",
+      "root_ids": [
+        "fortis"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-fortuna-luck",
+      "concept": "what chance brings, one's lot in life",
+      "chinese": "命运运气",
+      "core_image": "转盘停下，指针落定",
+      "root_ids": [
+        "fortuna"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-gravis-heavy",
+      "concept": "heavy, weighing down and serious",
+      "chinese": "沉重",
+      "core_image": "铅锭压在手里，分量往下坠",
+      "root_ids": [
+        "gravis"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-tempus-time",
+      "concept": "time, and the right measure timed aright",
+      "chinese": "时间分寸",
+      "core_image": "沙漏流沙，刻度恰好",
+      "root_ids": [
+        "tempus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-temptare-test",
+      "concept": "to try and test, probing what comes",
+      "chinese": "试探考验",
+      "core_image": "指尖碰水面，探冷暖",
+      "root_ids": [
+        "temptare"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-force": [
+      "fortis",
+      "fortuna",
+      "gravis",
+      "tempus",
+      "temptare"
+    ]
+  },
+  "words": [
+    {
+      "id": "comfort",
+      "word": "comfort",
+      "pos": "noun / verb",
+      "phonetic": "/ˈkʌmfərt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fortis"
+      ],
+      "root_logic": "com-（加强）+ fort（强）→ 让人重新强起来的那种安稳 → 安慰",
+      "origin": "拉丁语 confortare（使强壮）：com-（加强）+ fortis（强壮）",
+      "native_definition": "a state of ease and calm; to soothe someone",
+      "core_concept": "the easing that restores strength – 让人重新有力气的安顿",
+      "core_image": "累了一天后陷进软沙发里，那一下全身放松的感觉",
+      "chinese": [
+        "安慰",
+        "舒适"
+      ],
+      "examples": [
+        "The chair offers great comfort.",
+        "She comforted the crying child."
+      ],
+      "synonyms": [
+        "consolation",
+        "ease"
+      ],
+      "antonyms": [
+        "discomfort"
+      ],
+      "related": [
+        "comfortable",
+        "effort"
+      ],
+      "semantic_expansions": [
+        "安慰：让人重新有力量",
+        "舒适：身体放松的状态"
+      ],
+      "recall_hint": "com-（加强）+ fort（强）→ 让人重新强壮 → 安慰"
+    },
+    {
+      "id": "comfortable",
+      "word": "comfortable",
+      "pos": "adjective",
+      "phonetic": "/ˈkʌmftəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fortis"
+      ],
+      "root_logic": "comfort（舒适）+ -able → 能让人安顿下来的 → 舒适的",
+      "origin": "comfort 的形容词",
+      "native_definition": "giving ease and relaxation; at ease",
+      "core_concept": "able to rest and recover strength – 能让人放松休整的",
+      "core_image": "那双旧鞋已经穿出脚形，走一天也不磨脚",
+      "chinese": [
+        "舒适的",
+        "自在的"
+      ],
+      "examples": [
+        "The bed was comfortable.",
+        "She felt comfortable in the group."
+      ],
+      "synonyms": [
+        "cozy",
+        "relaxing"
+      ],
+      "antonyms": [
+        "uncomfortable"
+      ],
+      "related": [
+        "comfort",
+        "effort"
+      ],
+      "semantic_expansions": [
+        "舒适：能让人放松的",
+        "自在：不别扭、放得开"
+      ],
+      "recall_hint": "comfort（舒适）+ -able → 能安顿的"
+    },
+    {
+      "id": "effort",
+      "word": "effort",
+      "pos": "noun",
+      "phonetic": "/ˈefərt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fortis"
+      ],
+      "root_logic": "ef-（ex- 出）+ fort（强）→ 把力量使出来 → 努力",
+      "origin": "拉丁语 exfortis：ex-（出）+ fortis（强壮）——'使出气力'",
+      "native_definition": "physical or mental energy used to do something",
+      "core_concept": "strength pushed out toward the task – 朝事情使出去的那股劲",
+      "core_image": "双手抓住箱子两端往上抬，脸都涨红了的那一下",
+      "chinese": [
+        "努力",
+        "气力"
+      ],
+      "examples": [
+        "It took great effort to finish.",
+        "She made every effort to help."
+      ],
+      "synonyms": [
+        "endeavor",
+        "exertion"
+      ],
+      "antonyms": [],
+      "related": [
+        "comfort",
+        "comfortable"
+      ],
+      "semantic_expansions": [
+        "努力：使出去的气力"
+      ],
+      "recall_hint": "ef-（出）+ fort（强）→ 使出力 → 努力"
+    },
+    {
+      "id": "fortune",
+      "word": "fortune",
+      "pos": "noun",
+      "phonetic": "/ˈfɔːrtʃən/",
+      "decomposable": "root",
+      "root_ids": [
+        "fortuna"
+      ],
+      "root_logic": "fortun（命运）+ -e → 命运降下的那份好坏 → 运气；财富",
+      "origin": "拉丁语 fortuna（命运）",
+      "native_definition": "chance as a force in life; a large amount of money",
+      "core_concept": "what fate hands down – 命运递到手上的那份",
+      "core_image": "抽奖箱里摸出一张券，展开一看中了大奖，那一下就是它",
+      "chinese": [
+        "运气",
+        "财富"
+      ],
+      "examples": [
+        "Fortune smiled on them.",
+        "He made a fortune in trade."
+      ],
+      "synonyms": [
+        "luck",
+        "wealth"
+      ],
+      "antonyms": [
+        "misfortune"
+      ],
+      "related": [
+        "fortunate",
+        "misfortune"
+      ],
+      "semantic_expansions": [
+        "运气：命运降下的好坏",
+        "财富：命运眷顾带来的钱财"
+      ],
+      "recall_hint": "fortun（命运）→ 命运递来的 → 运气"
+    },
+    {
+      "id": "fortunate",
+      "word": "fortunate",
+      "pos": "adjective",
+      "phonetic": "/ˈfɔːrtʃənət/",
+      "decomposable": "root",
+      "root_ids": [
+        "fortuna"
+      ],
+      "root_logic": "fortune（运气）+ -ate → 有好运气的 → 幸运的",
+      "origin": "fortuna 的形容词",
+      "native_definition": "having good luck or a favorable outcome",
+      "core_concept": "receiving good from fate – 命运给了好的一份",
+      "core_image": "雨刚停你正好到站，一滴没淋着，运气就是这感觉",
+      "chinese": [
+        "幸运的"
+      ],
+      "examples": [
+        "We were fortunate to escape.",
+        "She is fortunate to have support."
+      ],
+      "synonyms": [
+        "lucky",
+        "favored"
+      ],
+      "antonyms": [
+        "misfortune"
+      ],
+      "related": [
+        "fortune",
+        "misfortune"
+      ],
+      "semantic_expansions": [
+        "幸运：命运给了好的一份"
+      ],
+      "recall_hint": "fortune（运气）+ -ate → 有好运的"
+    },
+    {
+      "id": "misfortune",
+      "word": "misfortune",
+      "pos": "noun",
+      "phonetic": "/ˌmɪsˈfɔːrtʃən/",
+      "decomposable": "root",
+      "root_ids": [
+        "fortuna"
+      ],
+      "root_logic": "mis-（坏）+ fortune（运气）→ 坏运气 → 不幸",
+      "origin": "mis-（否定/坏）+ fortuna（命运）",
+      "native_definition": "bad luck; an unfortunate event",
+      "core_concept": "fate handing down a bad lot – 命运递来的坏一份",
+      "core_image": "台风过境，家里被水淹了半层，那一片狼藉就是它",
+      "chinese": [
+        "不幸",
+        "厄运"
+      ],
+      "examples": [
+        "The flood was a great misfortune.",
+        "He bore his misfortune bravely."
+      ],
+      "synonyms": [
+        "mishap",
+        "adversity"
+      ],
+      "antonyms": [
+        "fortune"
+      ],
+      "related": [
+        "fortune",
+        "fortunate"
+      ],
+      "semantic_expansions": [
+        "不幸：命运递来的坏一份"
+      ],
+      "recall_hint": "mis-（坏）+ fortune（运气）→ 坏运气"
+    },
+    {
+      "id": "grave",
+      "word": "grave",
+      "pos": "noun / adjective",
+      "phonetic": "/ɡreɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "gravis"
+      ],
+      "root_logic": "grav（重）+ -e → 沉重的 → 严重的；坟，埋重的那处",
+      "origin": "拉丁语 gravis（重）；名词'坟'义来自日耳曼语 gräf（挖），撞音",
+      "native_definition": "serious and worrying; a place of burial",
+      "core_concept": "heavy with weight or worry – 压得人心沉的",
+      "core_image": "医生的表情一下沉下来，那句诊断还没说出口，气氛已经压住了",
+      "chinese": [
+        "严重的",
+        "沉重的",
+        "坟墓"
+      ],
+      "examples": [
+        "This is a grave mistake.",
+        "The situation is grave."
+      ],
+      "synonyms": [
+        "serious",
+        "solemn"
+      ],
+      "antonyms": [
+        "trivial"
+      ],
+      "related": [
+        "gravity",
+        "aggravate"
+      ],
+      "semantic_expansions": [
+        "严重：压得人心沉",
+        "坟墓：安放逝者的重地"
+      ],
+      "recall_hint": "grav（重）→ 沉甸甸压着 → 严重"
+    },
+    {
+      "id": "gravity",
+      "word": "gravity",
+      "pos": "noun",
+      "phonetic": "/ˈɡrævəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "gravis"
+      ],
+      "root_logic": "grav（重）+ -ity → 重的性质 → 重力；严肃",
+      "origin": "拉丁语 gravitas：gravis（重）",
+      "native_definition": "the force that pulls things down; seriousness",
+      "core_concept": "the heaviness that pulls things down – 把东西往下拽的那股重",
+      "core_image": "抛向空中的球升到最高点，顿一下，被那股力量拽回地面",
+      "chinese": [
+        "重力",
+        "严肃"
+      ],
+      "examples": [
+        "Gravity pulls objects toward Earth.",
+        "The matter deserves grave consideration."
+      ],
+      "synonyms": [
+        "gravitation"
+      ],
+      "antonyms": [],
+      "related": [
+        "grave",
+        "aggravate"
+      ],
+      "semantic_expansions": [
+        "重力：往下拽的重",
+        "严肃：压着不轻浮的分量"
+      ],
+      "recall_hint": "grav（重）+ -ity → 往下的重 → 重力"
+    },
+    {
+      "id": "aggravate",
+      "word": "aggravate",
+      "pos": "verb",
+      "phonetic": "/ˈæɡrəveɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "gravis"
+      ],
+      "root_logic": "ag-（ad- 加强）+ grav（重）+ -ate → 使更重 → 加重",
+      "origin": "拉丁语 aggravare：ad-（加强）+ gravis（重）",
+      "native_definition": "to make something worse or more serious",
+      "core_concept": "adding more weight to an already heavy load – 往本已沉的上面再压",
+      "core_image": "伤口没好就去搬重物，原来一点小伤被折腾得更厉害了",
+      "chinese": [
+        "加重",
+        "恶化"
+      ],
+      "examples": [
+        "Stress aggravates the condition.",
+        "The delay aggravated the problem."
+      ],
+      "synonyms": [
+        "worsen",
+        "exacerbate"
+      ],
+      "antonyms": [
+        "alleviate"
+      ],
+      "related": [
+        "grave",
+        "gravity"
+      ],
+      "semantic_expansions": [
+        "加重：往重处再压"
+      ],
+      "recall_hint": "ag-（加强）+ grav（重）+ -ate → 更重 → 加重"
+    },
+    {
+      "id": "contemporary",
+      "word": "contemporary",
+      "pos": "adjective",
+      "phonetic": "/kənˈtempəreri/",
+      "decomposable": "root",
+      "root_ids": [
+        "tempus"
+      ],
+      "root_logic": "con-（共同）+ tempor（时间）+ -ary → 同处一个时代的 → 当代的",
+      "origin": "拉丁语 contemporaneus：com-（共同）+ tempus（时间）",
+      "native_definition": "belonging to the present time; of the same period",
+      "core_concept": "sharing the same time as now – 与当下同处一个时刻",
+      "core_image": "同一代人的合影里，大家穿的衣服、留的发型都在同一个时代",
+      "chinese": [
+        "当代的",
+        "同时代的"
+      ],
+      "examples": [
+        "Contemporary art challenges tradition.",
+        "They are contemporary writers."
+      ],
+      "synonyms": [
+        "modern",
+        "current"
+      ],
+      "antonyms": [
+        "ancient"
+      ],
+      "related": [
+        "temporary",
+        "temper"
+      ],
+      "semantic_expansions": [
+        "当代：与当下同时",
+        "同时代：与他人同处一时"
+      ],
+      "recall_hint": "con-（共同）+ tempor（时间）→ 同处一时"
+    },
+    {
+      "id": "temporary",
+      "word": "temporary",
+      "pos": "adjective",
+      "phonetic": "/ˈtempəreri/",
+      "decomposable": "root",
+      "root_ids": [
+        "tempus"
+      ],
+      "root_logic": "tempor（时间）+ -ary → 只属于一段时间的 → 临时的",
+      "origin": "拉丁语 temporarius：tempus（时间）",
+      "native_definition": "lasting only for a limited time",
+      "core_concept": "bound to a stretch of time, not forever – 只占一段时间、不永久",
+      "core_image": "工地旁的蓝色铁皮房，住一段就拆，不是长久之计",
+      "chinese": [
+        "临时的",
+        "暂时的"
+      ],
+      "examples": [
+        "She took a temporary job.",
+        "The road is closed temporarily."
+      ],
+      "synonyms": [
+        "provisional",
+        "transient"
+      ],
+      "antonyms": [
+        "permanent"
+      ],
+      "related": [
+        "contemporary",
+        "temper"
+      ],
+      "semantic_expansions": [
+        "临时：只占一段时间"
+      ],
+      "recall_hint": "tempor（时间）+ -ary → 只属一段时间的"
+    },
+    {
+      "id": "temper",
+      "word": "temper",
+      "pos": "noun / verb",
+      "phonetic": "/ˈtempər/",
+      "decomposable": "root",
+      "root_ids": [
+        "tempus"
+      ],
+      "root_logic": "temper（调和）→ 按时得当的调配 → 脾气；使缓和",
+      "origin": "拉丁语 temperare（调和、使适中）——tempus 的'按时得当'引申",
+      "native_definition": "a person's mood or nature; to make something less extreme",
+      "core_concept": "mixing to the right measure at the right time – 按分寸调配",
+      "core_image": "调酒师把几种酒按比例兑在一起，最后那一下点味",
+      "chinese": [
+        "脾气",
+        "使缓和",
+        "调和"
+      ],
+      "examples": [
+        "She has a calm temper.",
+        "He tempered the criticism with praise."
+      ],
+      "synonyms": [
+        "mood",
+        "disposition"
+      ],
+      "antonyms": [],
+      "related": [
+        "temporary",
+        "contemporary"
+      ],
+      "semantic_expansions": [
+        "脾气：那点分寸失当的样子",
+        "使缓和：调回到适中"
+      ],
+      "recall_hint": "temper（调和）→ 按分寸调配 → 脾气"
+    },
+    {
+      "id": "tempt",
+      "word": "tempt",
+      "pos": "verb",
+      "phonetic": "/tempt/",
+      "decomposable": "root",
+      "root_ids": [
+        "temptare"
+      ],
+      "root_logic": "tempt（试探）→ 试探一个人的定力 → 引诱",
+      "origin": "拉丁语 temptare（试探、尝试）",
+      "native_definition": "to attract or lure someone to do something, often wrong",
+      "core_concept": "probing one's resolve – 试探一个人的定力",
+      "core_image": "橱窗里的甜点摆得诱人，路过时脚就不由自主往那边挪",
+      "chinese": [
+        "引诱",
+        "诱惑"
+      ],
+      "examples": [
+        "The offer tempted him.",
+        "Don't tempt me with chocolate."
+      ],
+      "synonyms": [
+        "lure",
+        "entice"
+      ],
+      "antonyms": [],
+      "related": [
+        "attempt",
+        "contempt"
+      ],
+      "semantic_expansions": [
+        "引诱：试探定力",
+        "诱惑：把意志动摇"
+      ],
+      "recall_hint": "tempt（试探）→ 试探定力 → 引诱"
+    },
+    {
+      "id": "attempt",
+      "word": "attempt",
+      "pos": "noun / verb",
+      "phonetic": "/əˈtempt/",
+      "decomposable": "root",
+      "root_ids": [
+        "temptare"
+      ],
+      "root_logic": "at-（ad- 朝向）+ tempt（试探）→ 朝目标试一下 → 尝试",
+      "origin": "拉丁语 attemptare：ad-（朝向）+ temptare（试探）",
+      "native_definition": "to try to do something; an effort to do something",
+      "core_concept": "reaching out to test the way – 伸手朝目标探路",
+      "core_image": "第一次滑冰，扶着栏杆小心翼翼地迈出第一步，试了试站不站得稳",
+      "chinese": [
+        "尝试",
+        "企图"
+      ],
+      "examples": [
+        "She attempted the climb.",
+        "His attempt failed."
+      ],
+      "synonyms": [
+        "try",
+        "endeavor"
+      ],
+      "antonyms": [],
+      "related": [
+        "tempt",
+        "contempt"
+      ],
+      "semantic_expansions": [
+        "尝试：朝目标试一下"
+      ],
+      "recall_hint": "at-（朝向）+ tempt（试探）→ 朝目标试 → 尝试"
+    },
+    {
+      "id": "contempt",
+      "word": "contempt",
+      "pos": "noun",
+      "phonetic": "/kənˈtempt/",
+      "decomposable": "root",
+      "root_ids": [
+        "temptare"
+      ],
+      "root_logic": "con-（完全）+ tempt（试探）→ 看穿之后轻慢地对待 → 蔑视",
+      "origin": "拉丁语 contemptus：com-（完全）+ temptare（试探）——'看透了'",
+      "native_definition": "a strong feeling of disliking and despising",
+      "core_concept": "dismissing after probing and finding nothing worthy – 试探后觉得不屑一顾",
+      "core_image": "对那种当面一套背后一套的做法，他只斜眼看了下就不再正眼",
+      "chinese": [
+        "蔑视",
+        "轻视"
+      ],
+      "examples": [
+        "She looked at him with contempt.",
+        "He has contempt for cheats."
+      ],
+      "synonyms": [
+        "scorn",
+        "disdain"
+      ],
+      "antonyms": [
+        "respect"
+      ],
+      "related": [
+        "tempt",
+        "attempt"
+      ],
+      "semantic_expansions": [
+        "蔑视：试探后觉得不屑"
+      ],
+      "recall_hint": "con-（完全）+ tempt（试探）→ 看透而不屑 → 蔑视"
+    }
+  ]
+}
