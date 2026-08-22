@@ -50824,6 +50824,3081 @@
         "黏合：把两边像水泥那样固牢"
       ],
       "recall_hint": "caedere（切砍）→ caementum（碎石屑）→ 烧成胶结料"
+    },
+    {
+      "id": "boil",
+      "word": "boil",
+      "pos": "verb / noun",
+      "phonetic": "/bɔɪl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 bullire（冒泡、翻滚）经古法语 boillir 入英语",
+      "native_definition": "to heat a liquid until it bubbles and turns to steam",
+      "core_concept": "liquid heated until it churns and turns to steam – 液体被加热到自己翻起来、变成汽",
+      "core_image": "锅底先冒起一串小泡，接着整锅水翻起来，白汽顶得锅盖咔咔响",
+      "chinese": [
+        "沸腾",
+        "煮",
+        "烧开"
+      ],
+      "examples": [
+        "The water is starting to boil.",
+        "She boiled two eggs for breakfast."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "沸腾：水面整个翻起来那一下",
+        "煮：把东西丢进翻起来的水里弄熟",
+        "烧开：一直加热到水开始翻"
+      ]
+    },
+    {
+      "id": "breed",
+      "word": "breed",
+      "pos": "verb / noun",
+      "phonetic": "/briːd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brēdan（孵、养育）← 原始日耳曼语 *brōdjan（用热气孵）",
+      "native_definition": "to keep animals so that they produce young, or a particular kind of animal",
+      "core_concept": "animals kept so more of the same kind keep coming – 养着一群，同样的又不断出来",
+      "core_image": "兔笼里上个月只有两只，这月角落又挤着一窝毛团，耳朵形状都一样",
+      "chinese": [
+        "繁殖",
+        "饲养",
+        "品种"
+      ],
+      "examples": [
+        "They breed horses on that farm.",
+        "This breed of dog rarely barks."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "繁殖：同样的一窝接一窝地出来",
+        "饲养：人把它们圈住养着让它们下崽",
+        "品种：出来的都长一个样，就成了一类"
+      ]
+    },
+    {
+      "id": "breeze",
+      "word": "breeze",
+      "pos": "noun",
+      "phonetic": "/briːz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古西班牙语 briza（东北风），更早词源不明",
+      "native_definition": "a light gentle wind",
+      "core_concept": "air moving just enough to stir cloth and skin – 空气动那么一点，够撩起布和皮肤",
+      "core_image": "窗帘下摆鼓起又落回去，桌上纸角翻了一下，后脖颈一阵凉",
+      "chinese": [
+        "微风",
+        "轻风"
+      ],
+      "examples": [
+        "A cool breeze came off the sea.",
+        "The breeze lifted her hair."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "微风：吹得动纸角吹不动树干的那种流动",
+        "轻风：力道轻到只在皮肤上留一下凉"
+      ]
+    },
+    {
+      "id": "bribe",
+      "word": "bribe",
+      "pos": "noun / verb",
+      "phonetic": "/braɪb/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bribe（讨来的一块面包），更早词源不明",
+      "native_definition": "money or a gift given secretly to make someone act in your favour",
+      "core_concept": "money slid across in secret to buy someone's decision – 私下递过去一笔钱，买对方的决定",
+      "core_image": "桌下一只手把厚信封推过去，对面的人不看里头，直接压进抽屉",
+      "chinese": [
+        "贿赂",
+        "行贿",
+        "贿金"
+      ],
+      "examples": [
+        "He tried to bribe the inspector.",
+        "They took a bribe to stay quiet."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "贿赂：私下递钱换对方松手",
+        "行贿：把钱递出去那个动作",
+        "贿金：递过去的那笔钱本身"
+      ]
+    },
+    {
+      "id": "brick",
+      "word": "brick",
+      "pos": "noun",
+      "phonetic": "/brɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古荷兰语 bricke（掰下来的一块），与日耳曼语 *brekan（打断）相关",
+      "native_definition": "a hard block of baked clay used for building walls",
+      "core_concept": "a baked block of clay stacked to make a wall – 烧硬的方土块，一层压一层垒成墙",
+      "core_image": "一块烧硬的红土，四角方正，垒起来一层压一层，掌心托着压手",
+      "chinese": [
+        "砖",
+        "砖块",
+        "砌砖"
+      ],
+      "examples": [
+        "The wall is made of red brick.",
+        "He laid bricks all afternoon."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "砖：烧硬的那一小方块土",
+        "砖块：一块块数得清的那种方料",
+        "砌砖：把它们一层层垒上去"
+      ]
+    },
+    {
+      "id": "bride",
+      "word": "bride",
+      "pos": "noun",
+      "phonetic": "/braɪd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brȳd（新嫁的女子）← 原始日耳曼语 *brūdiz",
+      "native_definition": "a woman on her wedding day",
+      "core_concept": "the woman being handed over on the wedding day – 婚礼那天被交到对方手里的那个女子",
+      "core_image": "白裙拖在地上，手里一束花，父亲挽着她一步步走向前排等着的人",
+      "chinese": [
+        "新娘",
+        "新妇"
+      ],
+      "examples": [
+        "The bride wore her mother's dress.",
+        "He kissed the bride at the altar."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "新娘：婚礼上穿白裙被交出去的那个女子",
+        "新妇：刚成婚不久、还带着婚礼身份的女子"
+      ]
+    },
+    {
+      "id": "bridge",
+      "word": "bridge",
+      "pos": "noun / verb",
+      "phonetic": "/brɪdʒ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brycg ← 原始日耳曼语 *brugjō（横木、栈道）",
+      "native_definition": "a structure built over a river or road so people can cross",
+      "core_concept": "something laid across a gap so you can get over – 横搭在断口上，让人能过去",
+      "core_image": "河两岸各站一群人，中间一道石拱把水面横跨过去，脚踩上去下面是空的",
+      "chinese": [
+        "桥",
+        "桥梁",
+        "弥合"
+      ],
+      "examples": [
+        "We walked across the old stone bridge.",
+        "New talks may bridge the two sides."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "桥/桥梁：横搭在水上或路上的那道东西",
+        "弥合：在两边的空当上搭出能通过的连接"
+      ]
+    },
+    {
+      "id": "brief",
+      "word": "brief",
+      "pos": "adjective / noun / verb",
+      "phonetic": "/briːf/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 brevis（短的）经古法语 bref 入英语",
+      "native_definition": "lasting only a short time, or to give someone the key facts",
+      "core_concept": "over almost as soon as it starts – 刚开始就已经结束",
+      "core_image": "他站起来说了三句话就坐下，会议室里有人还没翻开本子",
+      "chinese": [
+        "简短的",
+        "短暂的",
+        "简要介绍"
+      ],
+      "examples": [
+        "His visit was very brief.",
+        "She briefed the team on the changes."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "简短的：话只占几句，不铺开",
+        "短暂的：事情占的时间极少",
+        "简要介绍：只把要紧那几句交给对方"
+      ]
+    },
+    {
+      "id": "bright",
+      "word": "bright",
+      "pos": "adjective",
+      "phonetic": "/braɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beorht（明亮的）← 原始日耳曼语 *berhtaz（发光）",
+      "native_definition": "giving out or reflecting a lot of light, or quick to learn",
+      "core_concept": "throwing off so much light it stands out – 光多到扎眼，一下就跳出来",
+      "core_image": "拉开窗帘那一下，屋里白得晃眼，眯着眼才看清桌上那块红布",
+      "chinese": [
+        "明亮的",
+        "鲜艳的",
+        "聪明的"
+      ],
+      "examples": [
+        "The kitchen is bright in the morning.",
+        "She is a bright student."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "明亮的：光足到要眯眼",
+        "鲜艳的：颜色跳得像自己在发光",
+        "聪明的：脑子转得快，像人堆里那个发亮的"
+      ]
+    },
+    {
+      "id": "brim",
+      "word": "brim",
+      "pos": "noun / verb",
+      "phonetic": "/brɪm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 brimme（沿口）← 原始日耳曼语 *brem-（边、沿）",
+      "native_definition": "the top edge of a cup, or the flat part sticking out round a hat",
+      "core_concept": "the top rim where a thing stops and would spill – 到了这道圈就是尽头，再多就漫出去",
+      "core_image": "茶倒到杯口那道圈上，水面微微鼓着不肯下去，再一滴就要漫下来",
+      "chinese": [
+        "边缘",
+        "帽檐",
+        "满到边"
+      ],
+      "examples": [
+        "He filled the glass to the brim.",
+        "Rain dripped from the brim of his hat."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "边缘：容器或物体到头那道圈",
+        "帽檐：帽子四周伸出去那一圈",
+        "满到边：内容涨到那道圈上，快漫过去"
+      ]
+    },
+    {
+      "id": "bring",
+      "word": "bring",
+      "pos": "verb",
+      "phonetic": "/brɪŋ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bringan ← 原始日耳曼语 *bringan（带到、送到）",
+      "native_definition": "to carry or lead something to the place where you are",
+      "core_concept": "moving something to where the speaker is – 把东西挪到说话人这边",
+      "core_image": "他进门时怀里抱着一个纸箱，把它放到你脚边，箱子上还有雨点",
+      "chinese": [
+        "带来",
+        "拿来",
+        "引起"
+      ],
+      "examples": [
+        "Please bring your notebook tomorrow.",
+        "The storm brought down three trees."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "带来/拿来：把东西挪到这边来",
+        "引起：把一件事的后果也一并挪到眼前"
+      ]
+    },
+    {
+      "id": "brisk",
+      "word": "brisk",
+      "pos": "adjective",
+      "phonetic": "/brɪsk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "或源自法语 brusque（生硬、急促），更早词源不明",
+      "native_definition": "quick and full of energy",
+      "core_concept": "moving at a quick clipped pace – 步子又快又利落",
+      "core_image": "她走在人行道上，两条腿摆得又快又匀，风衣下摆一甩一甩",
+      "chinese": [
+        "轻快的",
+        "活跃的",
+        "凛冽的"
+      ],
+      "examples": [
+        "She went for a brisk walk.",
+        "Trade was brisk all morning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "轻快的：步子快而利落，不拖沓",
+        "活跃的：买卖或场面动得快",
+        "凛冽的：空气冷得让人不由自主加快步子"
+      ]
+    },
+    {
+      "id": "brittle",
+      "word": "brittle",
+      "pos": "adjective",
+      "phonetic": "/ˈbrɪtl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 britel ← 古英语 brēotan（碎裂）",
+      "native_definition": "hard but easily broken into pieces",
+      "core_concept": "hard on the outside but snapping at a touch – 硬，可一碰就断",
+      "core_image": "干透的饼干拿手指一掰，咔一声断成两截，碎渣落满桌",
+      "chinese": [
+        "易碎的",
+        "脆的",
+        "生硬的"
+      ],
+      "examples": [
+        "Old paper becomes brittle and yellow.",
+        "The dry twigs were brittle underfoot."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "易碎的/脆的：硬却经不住一掰，咔一下就断",
+        "生硬的：语气或关系硬而没有余地，一碰就崩"
+      ]
+    },
+    {
+      "id": "broad",
+      "word": "broad",
+      "pos": "adjective",
+      "phonetic": "/brɔːd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brād ← 原始日耳曼语 *braidaz（宽的）",
+      "native_definition": "wide from one side to the other",
+      "core_concept": "measuring a lot from one edge to the other – 从这边到那边距离很大",
+      "core_image": "他两肩摆开，衬衫从这头绷到那头，穿门时要略侧一下身",
+      "chinese": [
+        "宽的",
+        "宽阔的",
+        "广泛的"
+      ],
+      "examples": [
+        "The river is very broad here.",
+        "He has very broad shoulders."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "宽的/宽阔的：从一侧量到另一侧距离很大",
+        "广泛的：话题或范围铺得很开，边到边都算进来"
+      ]
+    },
+    {
+      "id": "brochure",
+      "word": "brochure",
+      "pos": "noun",
+      "phonetic": "/ˈbrəʊʃə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 brochure（缝起来的小册）← brocher（用针缝、扎）",
+      "native_definition": "a thin book with pictures giving information about something",
+      "core_concept": "a few stitched sheets handed out to show something off – 缝在一起的几页纸，发给人看",
+      "core_image": "柜台上摞着一叠薄薄的印品，翻开全是照片和价目，随手能塞进口袋",
+      "chinese": [
+        "小册子",
+        "宣传册"
+      ],
+      "examples": [
+        "She picked up a travel brochure.",
+        "The brochure showed photos of the hotel."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "小册子：装订起来的薄薄几页",
+        "宣传册：发给人看、用来推销什么的那一种"
+      ]
+    },
+    {
+      "id": "bronze",
+      "word": "bronze",
+      "pos": "noun / adjective",
+      "phonetic": "/brɒnz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "意大利语 bronzo（这种合金），更早词源不明",
+      "native_definition": "a hard metal made of copper and tin, or its dark yellow colour",
+      "core_concept": "copper mixed hard, dark and cool, going green in rain – 铜掺硬了，暗而凉，淋雨发绿",
+      "core_image": "广场上那尊像，表面暗黄发乌，摸着冰手，雨水淌过的地方泛出绿痕",
+      "chinese": [
+        "青铜",
+        "铜色",
+        "铜牌"
+      ],
+      "examples": [
+        "The statue is made of bronze.",
+        "She won a bronze at the games."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "青铜：铜里掺了锡，硬得能铸像",
+        "铜色：那种暗黄发乌的颜色",
+        "铜牌：第三名拿到的那块，用这种金属压成"
+      ]
+    },
+    {
+      "id": "broom",
+      "word": "broom",
+      "pos": "noun",
+      "phonetic": "/bruːm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brōm（金雀花丛，早期用它扎成清扫的工具）← 原始日耳曼语 *brēmaz",
+      "native_definition": "a tool with stiff bristles on a long handle used for sweeping floors",
+      "core_concept": "stiff bristles on a long stick dragged along the floor – 长杆头上一束硬毛，贴着地拖",
+      "core_image": "一束硬草绑在长木杆头上，贴着地一划，灰尘和碎屑被赶成一条弧线",
+      "chinese": [
+        "扫帚",
+        "扫把"
+      ],
+      "examples": [
+        "She swept the floor with a broom.",
+        "The broom stood behind the door."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "扫帚：长杆头上绑一束硬草的那件东西",
+        "扫把：同一件东西，落在贴地赶走灰土这个用途上"
+      ]
+    },
+    {
+      "id": "brother",
+      "word": "brother",
+      "pos": "noun",
+      "phonetic": "/ˈbrʌðə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brōþor ← 原始日耳曼语 *brōþēr（同一父母所生的男子）",
+      "native_definition": "a boy or man with the same parents as you",
+      "core_concept": "another boy out of the same parents – 同一对父母生下的另一个男孩",
+      "core_image": "两个男孩并排站着，鼻梁和下巴一个模子刻出来，身后母亲把手搭在两人肩上",
+      "chinese": [
+        "兄弟",
+        "哥哥",
+        "弟弟"
+      ],
+      "examples": [
+        "My brother works in a bank.",
+        "He treated me like a brother."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "兄弟：同一对父母生的男孩之间那层关系",
+        "哥哥：其中出生早的那个",
+        "弟弟：其中出生晚的那个"
+      ]
+    },
+    {
+      "id": "brow",
+      "word": "brow",
+      "pos": "noun",
+      "phonetic": "/braʊ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brū（眼上方那道隆起）← 原始日耳曼语 *brūs",
+      "native_definition": "the part of the face above the eyes, or the top edge of a hill",
+      "core_concept": "the ridge above the eyes, and any ridge shaped like it – 眼睛上方那道隆起，以及像它的隆起",
+      "core_image": "他一皱，眼睛上方那两道毛挤到一起，汗顺着那片皮往下淌",
+      "chinese": [
+        "额头",
+        "眉毛",
+        "山脊"
+      ],
+      "examples": [
+        "He wiped the sweat from his brow.",
+        "She raised one brow in surprise."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "额头：眼睛上方那片皮",
+        "眉毛：那片皮下沿的两道毛",
+        "山脊：山上像它那样隆起的一道边"
+      ]
+    },
+    {
+      "id": "brown",
+      "word": "brown",
+      "pos": "adjective / verb",
+      "phonetic": "/braʊn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brūn（暗色的、发亮的深色）← 原始日耳曼语 *brūnaz",
+      "native_definition": "having the dark earthy colour of soil or wood",
+      "core_concept": "the dark earthy shade of soil, wood and sunned skin – 泥土、木头、晒过的皮肤那种发暗颜色",
+      "core_image": "刚翻过的泥地、泡开的茶汤、晒了一夏的胳膊，都是那一种发暗的土黄",
+      "chinese": [
+        "棕色的",
+        "褐色的",
+        "使变褐"
+      ],
+      "examples": [
+        "She wore a brown leather coat.",
+        "The bread browned in the oven."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "棕色的/褐色的：泥土和木头那种发暗的颜色",
+        "使变褐：加热或曝晒到表面转成这个色"
+      ]
+    },
+    {
+      "id": "browse",
+      "word": "browse",
+      "pos": "verb",
+      "phonetic": "/braʊz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 brouster（啃嫩枝）← brost（嫩芽），源自日耳曼语",
+      "native_definition": "to look through things without a clear plan, or to feed on young leaves",
+      "core_concept": "moving along picking at whatever catches the eye – 一路挪过去，看上哪个碰哪个",
+      "core_image": "他在书架前一格格挪过去，抽出一本翻两页又插回去，并没在找哪一本",
+      "chinese": [
+        "浏览",
+        "翻看",
+        "吃嫩叶"
+      ],
+      "examples": [
+        "I browsed the shelves for an hour.",
+        "Deer browse on young leaves."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "浏览：一路扫过去，不定在哪一处",
+        "翻看：抽出来看两页就放回",
+        "吃嫩叶：鹿羊那样沿路啃一口就走"
+      ]
+    },
+    {
+      "id": "bruise",
+      "word": "bruise",
+      "pos": "noun / verb",
+      "phonetic": "/bruːz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brȳsan（压碎）与古法语 bruisier（打碎）合流",
+      "native_definition": "a dark mark on the skin left after it has been hit",
+      "core_concept": "skin crushed underneath so a dark patch shows through – 皮下被压坏，表面显出一块暗的",
+      "core_image": "膝盖撞到桌角，那块皮先红后暗，两天后按一下还发疼",
+      "chinese": [
+        "淤青",
+        "碰伤",
+        "擦伤"
+      ],
+      "examples": [
+        "Her knee was covered in bruises.",
+        "The apples bruise easily in the box."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "淤青：皮下压坏后显出的那块暗色",
+        "碰伤：撞上一下、留出这块暗色的过程",
+        "擦伤：果子或皮面被磕出同样的坏斑"
+      ]
+    },
+    {
+      "id": "brush",
+      "word": "brush",
+      "pos": "noun / verb",
+      "phonetic": "/brʌʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 broisse / brosse（一束硬毛）",
+      "native_definition": "a tool of bristles fixed to a handle, or to touch something lightly",
+      "core_concept": "bundled bristles dragged over a surface, sometimes only just touching – 一束硬毛在面上拖过，有时只是挨一下",
+      "core_image": "一把硬毛捆在木柄上，来回一拖，毛尖上带起灰或颜料",
+      "chinese": [
+        "刷子",
+        "刷",
+        "掠过"
+      ],
+      "examples": [
+        "He cleaned his shoes with a brush.",
+        "Her sleeve brushed my hand."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "刷子：硬毛捆在柄上的那件东西",
+        "刷：拿它在面上来回拖",
+        "掠过：只在表面挨过一下就走开"
+      ]
+    },
+    {
+      "id": "brutal",
+      "word": "brutal",
+      "pos": "adjective",
+      "phonetic": "/ˈbruːtl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 brutus（沉重、迟钝，指不通人性的野兽）→ brutalis",
+      "native_definition": "violent and showing no concern for the pain caused",
+      "core_concept": "using force with no regard for what it costs – 下手只管使劲，不管对方受不受得住",
+      "core_image": "他把人按在地上还在踹，旁边有人喊住手，他连头都不抬",
+      "chinese": [
+        "残忍的",
+        "野蛮的",
+        "严酷的"
+      ],
+      "examples": [
+        "The attack was brutal and unprovoked.",
+        "Winter there is brutal and long."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "残忍的/野蛮的：下手只顾用力，不管对方疼不疼",
+        "严酷的：环境或待遇像这样不给人留余地"
+      ]
+    },
+    {
+      "id": "bubble",
+      "word": "bubble",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbʌbl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bobel（拟声，模仿水泡冒起的声音）",
+      "native_definition": "a thin ball of liquid holding air inside",
+      "core_concept": "a thin skin of liquid holding air, gone at a touch – 一层薄液包着空气，一碰就没",
+      "core_image": "肥皂水吹出一个透明圆球，表面滚着彩纹，手指一碰就没了",
+      "chinese": [
+        "泡",
+        "气泡",
+        "泡沫",
+        "泡沫经济"
+      ],
+      "examples": [
+        "Bubbles rose to the surface.",
+        "The soup bubbled on the stove."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "泡/气泡：液体薄膜裹住一口空气",
+        "泡沫：许多这样的小球挤在一起的那一层",
+        "泡沫经济：价格像那层薄膜一样鼓起来，一碰就破"
+      ]
+    },
+    {
+      "id": "bucket",
+      "word": "bucket",
+      "pos": "noun",
+      "phonetic": "/ˈbʌkɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "盎格鲁诺曼语 buquet（小容器）← 古英语 būc（肚、盛器）",
+      "native_definition": "an open round container with a handle for carrying liquid",
+      "core_concept": "an open round vessel with a handle for carrying liquid – 敞口圆器加一道把手，拎着装液体",
+      "core_image": "铁皮圆筒上一道弯把手，装满水提在手里往一边斜，液面贴着口沿晃",
+      "chinese": [
+        "桶",
+        "水桶",
+        "一桶"
+      ],
+      "examples": [
+        "She filled a bucket with water.",
+        "He carried two buckets of sand."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "桶/水桶：敞口带把手、拎着装水的那件东西",
+        "一桶：以它为量，装满算一份"
+      ]
+    },
+    {
+      "id": "bud",
+      "word": "bud",
+      "pos": "noun / verb",
+      "phonetic": "/bʌd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 budde（枝头鼓起的那一小团），更早词源不明",
+      "native_definition": "a small swelling on a stem that will open into a leaf or flower",
+      "core_concept": "a tight swelling on a stem holding a folded leaf or flower – 枝上鼓起的一小团，里头折着叶或花",
+      "core_image": "枝上一个紧鼓的绿疙瘩，外面几层皮裹着还没松开",
+      "chinese": [
+        "芽",
+        "花蕾",
+        "萌芽"
+      ],
+      "examples": [
+        "The buds opened after the rain.",
+        "New leaves are budding on the tree."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "芽：枝上紧鼓着还没张开的那一小团",
+        "花蕾：里头折着的是花瓣的那一种",
+        "萌芽：刚鼓起来、事情才开头的那个阶段"
+      ]
+    },
+    {
+      "id": "budget",
+      "word": "budget",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bougette（小皮袋）← 拉丁语 bulga（皮囊）",
+      "native_definition": "a plan of how much money can be spent on each thing",
+      "core_concept": "a bag of money split into shares beforehand so it lasts – 一袋钱先分成几份，好撑到底",
+      "core_image": "他把这月工资摊在桌上分成几摞，房租一摞、吃饭一摞，剩下那摞很薄",
+      "chinese": [
+        "预算",
+        "经费",
+        "做预算"
+      ],
+      "examples": [
+        "The trip is outside our budget.",
+        "We must budget for the repairs."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "预算：事先分好的那几摞钱",
+        "经费：分给某件事的那一摞",
+        "做预算：把钱摊开分成几摞这个动作"
+      ]
+    },
+    {
+      "id": "buffet",
+      "word": "buffet",
+      "pos": "noun",
+      "phonetic": "/ˈbʊfeɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 buffet（长条餐台、餐具柜），更早词源不明",
+      "native_definition": "a meal where dishes are set out and people serve themselves",
+      "core_concept": "dishes laid out on a long table for people to help themselves – 菜摆在长台上，人自己取",
+      "core_image": "一条长桌摆满盘子，客人自己拿空盘沿桌走，看中哪样夹哪样",
+      "chinese": [
+        "自助餐",
+        "自助餐台"
+      ],
+      "examples": [
+        "The hotel serves a breakfast buffet.",
+        "She went back to the buffet twice."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "自助餐：菜摆开、各人自己取的那种吃法",
+        "自助餐台：摆着这些菜的那条长台"
+      ]
+    },
+    {
+      "id": "bug",
+      "word": "bug",
+      "pos": "noun / verb",
+      "phonetic": "/bʌɡ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bugge（小虫、可怕的东西），更早词源不明",
+      "native_definition": "a small insect, or a fault in a machine or program",
+      "core_concept": "something small that gets in where it shouldn't – 很小的东西钻进了不该在的地方",
+      "core_image": "地板缝里爬出一个黑点，六条腿倒得飞快，一按就没了",
+      "chinese": [
+        "虫子",
+        "故障",
+        "窃听器",
+        "烦扰"
+      ],
+      "examples": [
+        "A bug crawled across the table.",
+        "There is a bug in this program."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "虫子：钻来钻去的那种小活物",
+        "故障：机器或程序里钻进去的一处小毛病",
+        "窃听器：偷偷装进屋里的那种小东西",
+        "烦扰：像小虫一样在旁边一直缠着人"
+      ]
+    },
+    {
+      "id": "build",
+      "word": "build",
+      "pos": "verb",
+      "phonetic": "/bɪld/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 byldan（造屋）← bold（住处）← 原始日耳曼语 *buþlam",
+      "native_definition": "to make something by putting parts together",
+      "core_concept": "putting piece on piece until it stands – 一块块摞上去，直到立得住",
+      "core_image": "空地上先立起架子，砖一层层砌上去，两个月后屋顶封上了",
+      "chinese": [
+        "建造",
+        "建立",
+        "体格"
+      ],
+      "examples": [
+        "They built a house on the hill.",
+        "He built the company from nothing."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "建造：把砖木一层层摞成房子",
+        "建立：名声或公司也这样一点点摞起来",
+        "体格：人身上长起来的那副架子"
+      ]
+    },
+    {
+      "id": "building",
+      "word": "building",
+      "pos": "noun",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 byldan（造屋）+ -ing，本义'造起来的东西'",
+      "native_definition": "a structure with walls and a roof, such as a house or office",
+      "core_concept": "what stands there once the parts have been stacked up – 一块块摞完之后立在那儿的东西",
+      "core_image": "水泥外墙立在街边，九层窗户排上去，晚上一格格亮着，门口人进进出出",
+      "chinese": [
+        "建筑物",
+        "楼房",
+        "建造"
+      ],
+      "examples": [
+        "The building has nine floors.",
+        "That old building was knocked down."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "建筑物/楼房：摞完之后立在那儿的那个东西",
+        "建造：把它摞起来的那个过程"
+      ]
+    },
+    {
+      "id": "bulb",
+      "word": "bulb",
+      "pos": "noun",
+      "phonetic": "/bʌlb/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 bulbus（洋葱头）← 希腊语 bolbos",
+      "native_definition": "a rounded glass part that gives light, or a rounded root of a plant",
+      "core_concept": "a rounded swollen body, thin-skinned and full inside – 圆鼓鼓一个，皮薄里头实",
+      "core_image": "一个圆鼓鼓的东西，外面几层皮包着，埋进土里能长出叶子来",
+      "chinese": [
+        "灯泡",
+        "球茎"
+      ],
+      "examples": [
+        "Change the bulb in the hall.",
+        "Plant the bulbs in autumn."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灯泡：玻璃吹成这个圆形，里头装丝发光",
+        "球茎：土里埋着这个圆形，来年抽出叶子"
+      ]
+    },
+    {
+      "id": "bulk",
+      "word": "bulk",
+      "pos": "noun",
+      "phonetic": "/bʌlk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 bulki（船上的货堆）",
+      "native_definition": "the large size of something, or the main part of it",
+      "core_concept": "a heap so large it gets treated as one lump – 堆得太大，只能整堆算",
+      "core_image": "码头上麻袋摞成一座小山，叉车绕着走，人站旁边只到半腰",
+      "chinese": [
+        "体积",
+        "大量",
+        "大部分"
+      ],
+      "examples": [
+        "The bulk of the work is done.",
+        "We buy rice in bulk."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "体积：一堆东西占地方的那个大小",
+        "大量：多到只能整堆算、不数个数",
+        "大部分：一堆里占了大头的那一块"
+      ]
+    },
+    {
+      "id": "bull",
+      "word": "bull",
+      "pos": "noun",
+      "phonetic": "/bʊl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bula / 古诺斯语 boli（公的牛）← 原始日耳曼语 *bulô",
+      "native_definition": "an adult male of the cattle family",
+      "core_concept": "the heavy male animal that lowers its head and charges – 那头沉重的雄兽，低头就冲",
+      "core_image": "圈里那头脖子粗得发肿，角朝前，鼻孔喷气，前蹄刨得土直飞",
+      "chinese": [
+        "公牛",
+        "雄兽",
+        "看涨的"
+      ],
+      "examples": [
+        "The bull charged at the fence.",
+        "A bull weighs about a ton."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "公牛：牛里那头带角的雄的",
+        "雄兽：象、鲸这类大兽的雄性也这么叫",
+        "看涨的：市场像它那样低头往上顶"
+      ]
+    },
+    {
+      "id": "bully",
+      "word": "bully",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbʊli/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古荷兰语 boele（兄弟、情人），词义后转为'仗势欺人者'",
+      "native_definition": "someone who uses strength to frighten weaker people",
+      "core_concept": "leaning on someone you know cannot push back – 挑一个你知道推不回来的人使劲",
+      "core_image": "走廊上高个子把矮个子的书包举过头顶，旁边几个笑着看，没人拉一把",
+      "chinese": [
+        "欺负",
+        "恃强凌弱者",
+        "威逼"
+      ],
+      "examples": [
+        "He was bullied at school for years.",
+        "Don't let them bully you."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "欺负：拿力气去压一个反抗不了的人",
+        "恃强凌弱者：专挑弱的下手的那种人",
+        "威逼：用势头压着对方，逼他照办"
+      ]
+    },
+    {
+      "id": "bump",
+      "word": "bump",
+      "pos": "verb / noun",
+      "phonetic": "/bʌmp/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拟声词（模仿撞击的闷响），中古英语出现",
+      "native_definition": "to knock into something, or a raised swelling on a surface",
+      "core_concept": "two things knocking, and the lump that knock leaves – 两下磕上，磕出来的那个鼓包",
+      "core_image": "他后退时腰撞在门把上，闷响一声，第二天那块鼓起一个包",
+      "chinese": [
+        "碰撞",
+        "隆起",
+        "肿块"
+      ],
+      "examples": [
+        "I bumped my head on the shelf.",
+        "The road is full of bumps."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "碰撞：两个东西闷声磕上那一下",
+        "隆起：路面或表面顶起来的那一处",
+        "肿块：磕过之后皮下鼓起来的那一团"
+      ]
+    },
+    {
+      "id": "bunch",
+      "word": "bunch",
+      "pos": "noun / verb",
+      "phonetic": "/bʌntʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bunche（鼓起的一团），更早词源不明",
+      "native_definition": "a number of things held or growing together",
+      "core_concept": "many stems gathered into one handful – 许多根拢成一把",
+      "core_image": "一把花茎拢在手心，橡皮筋一绕，上头的头散开成一圈",
+      "chinese": [
+        "一束",
+        "一群",
+        "一堆"
+      ],
+      "examples": [
+        "She bought a bunch of grapes.",
+        "A bunch of kids waited outside."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "一束：花或菜拢成一把的那个量",
+        "一群：人聚成一团，也这么数",
+        "一堆：东西凑在一处、说不清个数的那一团"
+      ]
+    },
+    {
+      "id": "bundle",
+      "word": "bundle",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbʌndl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古荷兰语 bundel（捆起来的一包）← binden（绑）",
+      "native_definition": "a group of things tied or wrapped together",
+      "core_concept": "loose things pulled tight by a cord so they move as one – 散的东西被绳勒紧，成一块一起走",
+      "core_image": "旧报纸摞齐压平，绳子横竖各绕两道，勒出四道凹痕，拎绳子就能整块提走",
+      "chinese": [
+        "捆",
+        "包",
+        "捆扎"
+      ],
+      "examples": [
+        "He carried a bundle of sticks.",
+        "She bundled the clothes into a bag."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "捆：散的东西被绳勒成的那一块",
+        "包：裹起来提得走的那一份",
+        "捆扎：拿绳把它们勒紧这个动作"
+      ]
+    },
+    {
+      "id": "burden",
+      "word": "burden",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbɜːdn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 byrþen（扛着的东西）← beran（扛、带）← 原始日耳曼语 *burþī",
+      "native_definition": "a heavy load to carry, or a duty that weighs on someone",
+      "core_concept": "weight resting on you that has to be kept up – 压在身上、又必须一直扛着的重量",
+      "core_image": "一袋米压在他右肩上，那边肩膀塌下去一截，走路一瘸一瘸，又不能放下",
+      "chinese": [
+        "负担",
+        "重担",
+        "使负重"
+      ],
+      "examples": [
+        "The bag was a heavy burden.",
+        "Debt burdened the family for years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "负担/重担：压在身上撂不下的那份重量",
+        "使负重：把这份重量压到某人身上"
+      ]
+    },
+    {
+      "id": "bureau",
+      "word": "bureau",
+      "pos": "noun",
+      "phonetic": "/ˈbjʊərəʊ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 bureau（写字台，本指台面上铺的粗毛呢）← 古法语 burel（粗呢）",
+      "native_definition": "an office or a government department that deals with a certain job",
+      "core_concept": "the cloth-covered desk, and the office that grew round it – 那张铺呢的台子，和围着它办事的地方",
+      "core_image": "一排办公桌并排摆着，桌上摞满盖了章的表格，窗口前排着队递纸进去",
+      "chinese": [
+        "办事处",
+        "局",
+        "写字台"
+      ],
+      "examples": [
+        "He works for the weather bureau.",
+        "The bureau issued a new warning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "办事处/局：围着这些台子办事的那个机构",
+        "写字台：最早铺着粗呢、供人写字的那张台"
+      ]
+    },
+    {
+      "id": "burglar",
+      "word": "burglar",
+      "pos": "noun",
+      "phonetic": "/ˈbɜːɡlə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中世纪拉丁语 burgator（破门入宅者）← burgus（有围的聚落）",
+      "native_definition": "someone who breaks into a building to steal things",
+      "core_concept": "someone who breaks the house open and takes what is inside – 把房子撬开、拿走里头东西的人",
+      "core_image": "后窗玻璃缺了一角，屋里抽屉全拉开，地上一串泥脚印通到衣柜",
+      "chinese": [
+        "窃贼",
+        "入室盗贼"
+      ],
+      "examples": [
+        "A burglar broke in through the window.",
+        "The burglar took her jewellery."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "窃贼：撬进来拿走东西的那个人",
+        "入室盗贼：专门破门进屋这一路的那种"
+      ]
+    },
+    {
+      "id": "burn",
+      "word": "burn",
+      "pos": "verb / noun",
+      "phonetic": "/bɜːn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 byrnan（着火）/ bærnan（点着）← 原始日耳曼语 *brinnan",
+      "native_definition": "to be on fire, or to hurt something with fire or heat",
+      "core_concept": "fire eating into something and hurting what it touches – 火啃进东西里，挨上就疼",
+      "core_image": "木柴上蹿起黄舌头，噼啪响着，手伸近了皮就发疼",
+      "chinese": [
+        "燃烧",
+        "烧伤",
+        "烧掉"
+      ],
+      "examples": [
+        "The dry wood burns quickly.",
+        "She burnt her hand on the pan."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "燃烧：火在上面窜着往里啃",
+        "烧伤：热挨到皮肉留下的那块坏处",
+        "烧掉：让火把东西啃到没有"
+      ]
+    },
+    {
+      "id": "burst",
+      "word": "burst",
+      "pos": "verb / noun",
+      "phonetic": "/bɜːst/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 berstan（迸裂）← 原始日耳曼语 *brestan",
+      "native_definition": "to break open suddenly because of pressure inside",
+      "core_concept": "pressure inside shoving the skin open all at once – 里头憋的劲一下把外皮顶开",
+      "core_image": "气球一直吹，皮撑到发亮，砰一声炸开，屋里人都缩了一下肩",
+      "chinese": [
+        "爆裂",
+        "爆发",
+        "一阵"
+      ],
+      "examples": [
+        "The pipe burst in the night.",
+        "She burst into tears at the news."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爆裂：撑不住了，一下炸开",
+        "爆发：情绪或声音也这样一下顶出来",
+        "一阵：突然涌出来的那一下动静"
+      ]
+    },
+    {
+      "id": "bury",
+      "word": "bury",
+      "pos": "verb",
+      "phonetic": "/ˈberi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 byrgan（埋起、藏起）← 原始日耳曼语 *burzjan",
+      "native_definition": "to put something in the ground and cover it over",
+      "core_concept": "putting something under and covering it so it is out of sight – 放到下面，再盖上，看不见了",
+      "core_image": "坑挖到齐膝深，东西放进去，土一铲铲填回来，铁锹把面拍平",
+      "chinese": [
+        "埋",
+        "埋葬",
+        "掩藏"
+      ],
+      "examples": [
+        "They buried the box in the garden.",
+        "He buried his face in his hands."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "埋：放进坑里再把土盖上",
+        "埋葬：把死者这样放进土里",
+        "掩藏：把脸或情绪也这样盖起来不让看见"
+      ]
+    },
+    {
+      "id": "bus",
+      "word": "bus",
+      "pos": "noun",
+      "phonetic": "/bʌs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 omnibus（公共载客车）的截短形，源自拉丁语 omnibus（给所有人）",
+      "native_definition": "a large road vehicle that carries many passengers",
+      "core_concept": "one vehicle carrying whoever gets on – 一辆车，上来的人一起载",
+      "core_image": "一辆长车靠站，门朝外一折，车厢里的人一手抓着立杆，一手护着背包",
+      "chinese": [
+        "公共汽车",
+        "巴士",
+        "班车"
+      ],
+      "examples": [
+        "I take the bus to work.",
+        "The bus stops at the corner."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "公共汽车/巴士：谁付钱都能上的那种长车",
+        "班车：按固定路线时刻跑的那一种"
+      ]
+    },
+    {
+      "id": "business",
+      "word": "business",
+      "pos": "noun",
+      "phonetic": "/ˈbɪznɪs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bisignes（忙碌的状态）← bisig（忙的）+ -nes",
+      "native_definition": "the work of buying and selling, or a company doing that work",
+      "core_concept": "the work someone keeps busy at – 一个人忙着的那摊活",
+      "core_image": "店里灯还亮着，柜台上摊着账本，他把一天的票据一张张对过去",
+      "chinese": [
+        "生意",
+        "商业",
+        "公司",
+        "事务"
+      ],
+      "examples": [
+        "She runs a small business.",
+        "Business has been slow this month."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "生意/商业：买进卖出这一摊活",
+        "公司：专做这摊活的那个组织",
+        "事务：手上要办的那些事，也用这个词"
+      ]
+    },
+    {
+      "id": "busy",
+      "word": "busy",
+      "pos": "adjective",
+      "phonetic": "/ˈbɪzi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bisig（忙的、专注的），更早词源不明",
+      "native_definition": "having a lot to do, or full of activity",
+      "core_concept": "every hand and every minute already taken up – 手和时间都已经被占满",
+      "core_image": "他一手接电话一手翻单据，桌上三摞纸都等着，午饭在旁边凉了",
+      "chinese": [
+        "忙的",
+        "繁忙的",
+        "占线的"
+      ],
+      "examples": [
+        "I was busy all afternoon.",
+        "The street is busy at noon."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "忙的：手上活多到腾不出空",
+        "繁忙的：街道或场所被人和车占满",
+        "占线的：电话那头正被人占着"
+      ]
+    },
+    {
+      "id": "butcher",
+      "word": "butcher",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbʊtʃə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bouchier（宰羊的人）← boc（公山羊）",
+      "native_definition": "someone whose job is cutting up and selling meat",
+      "core_concept": "the man at the block who cuts the animal into pieces – 站在墩子后头把牲口剁成块的人",
+      "core_image": "不锈钢台后挂着几条肉，木墩上刀痕纵横，砍刀落下一声，骨头断成两截",
+      "chinese": [
+        "屠夫",
+        "肉贩",
+        "屠宰"
+      ],
+      "examples": [
+        "The butcher weighed the meat.",
+        "They butchered the pig at dawn."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "屠夫/肉贩：把肉剁开、称给客人的那个人",
+        "屠宰：把牲口宰开分块这个活"
+      ]
+    },
+    {
+      "id": "button",
+      "word": "button",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbʌtn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bouton（顶出来的小疙瘩）← bouter（推、顶）← 法兰克语 *bautan",
+      "native_definition": "a small round piece used to fasten clothes, or a part you press",
+      "core_concept": "a small round piece pushed through to hold or to set something off – 一个小圆片顶过去，卡住或触动什么",
+      "core_image": "捏住那个小圆片，从布上的窄口里顶过去，一松手它就卡在另一面",
+      "chinese": [
+        "纽扣",
+        "按钮",
+        "扣上"
+      ],
+      "examples": [
+        "One button came off his shirt.",
+        "Press the red button to start."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "纽扣：从布口里顶过去、卡住两片布的那个小圆片",
+        "按钮：机器上顶下去就起作用的那个小圆片",
+        "扣上：把它顶过口子卡好这个动作"
+      ]
+    },
+    {
+      "id": "buy",
+      "word": "buy",
+      "pos": "verb",
+      "phonetic": "/baɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bycgan（换得）← 原始日耳曼语 *bugjan",
+      "native_definition": "to get something by paying money for it",
+      "core_concept": "money handed over one way, goods coming back the other – 钱递过去，东西递回来",
+      "core_image": "他数出几张钞票推过柜台，对面把袋子递回来，钱和东西各换了手",
+      "chinese": [
+        "买",
+        "购买",
+        "相信"
+      ],
+      "examples": [
+        "I bought this coat last winter.",
+        "She buys her bread here."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "买/购买：钱和东西各换一边手",
+        "相信：口语里把对方的说法接过来，像接下这笔交易"
+      ]
+    },
+    {
+      "id": "cab",
+      "word": "cab",
+      "pos": "noun",
+      "phonetic": "/kæb/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 cabriolet（轻便双轮马车）的截短形，源自拉丁语 capriolus（小山羊，形容车身跳颤）",
+      "native_definition": "a car you pay to ride in, or the part where a driver sits",
+      "core_concept": "a vehicle you wave down and pay for the ride – 招手叫来、按里程付钱的那辆车",
+      "core_image": "一辆黄车顶上灯亮着，路边有人举手，它靠过来，表盘开始跳数",
+      "chinese": [
+        "出租车",
+        "驾驶室"
+      ],
+      "examples": [
+        "She took a cab to the airport.",
+        "The driver climbed into the cab."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "出租车：招手停下、载你一程收钱的那辆",
+        "驾驶室：卡车头上司机坐的那一格"
+      ]
+    },
+    {
+      "id": "cabin",
+      "word": "cabin",
+      "pos": "noun",
+      "phonetic": "/ˈkæbɪn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 cabane（棚屋）← 晚期拉丁语 capanna（草棚）",
+      "native_definition": "a small simple house made of wood, or a room on a ship or plane",
+      "core_concept": "one small closed space just big enough to stay in – 一个刚够待人的小封闭空间",
+      "core_image": "林子里一间木头房，烟囱冒着烟，里头只搁得下一张床和一个炉子",
+      "chinese": [
+        "小屋",
+        "船舱",
+        "机舱"
+      ],
+      "examples": [
+        "They stayed in a wooden cabin.",
+        "Her cabin was below deck."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "小屋：林间木头搭的那种一间房",
+        "船舱/机舱：船上或机上隔出来的那一小格"
+      ]
+    },
+    {
+      "id": "cabinet",
+      "word": "cabinet",
+      "pos": "noun",
+      "phonetic": "/ˈkæbɪnɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 cabinet（小屋、储物柜），是 cabane（棚屋）的指小形",
+      "native_definition": "a piece of furniture with shelves or drawers, or a group of top ministers",
+      "core_concept": "a small closed space with things arranged inside – 一个小小的封闭空间，东西分格摆在里头",
+      "core_image": "靠墙立着一个木柜，门一开里头分几层，盘子和瓶子按格摆着",
+      "chinese": [
+        "橱柜",
+        "内阁",
+        "陈列柜"
+      ],
+      "examples": [
+        "The plates are in the kitchen cabinet.",
+        "The cabinet met on Tuesday."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "橱柜/陈列柜：分成几格、门一关就收起来的那件家具",
+        "内阁：最早在小房间里议事的那几个人，后指政府核心那一班"
+      ]
+    },
+    {
+      "id": "cage",
+      "word": "cage",
+      "pos": "noun / verb",
+      "phonetic": "/keɪdʒ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 cage ← 拉丁语 cavea（围起来的空处）← cavus（中空的）",
+      "native_definition": "a box made of bars that animals are kept in",
+      "core_concept": "bars close enough that what is inside cannot get out – 条与条挨得太近，里头的出不来",
+      "core_image": "金属条焊成一个方框，条缝窄到挤不出去，里头那只鸟撞掉了几根毛",
+      "chinese": [
+        "笼子",
+        "鸟笼",
+        "关进笼中"
+      ],
+      "examples": [
+        "The parrot sat in its cage.",
+        "They caged the dog at night."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "笼子/鸟笼：条缝窄到出不去的那个框",
+        "关进笼中：把活物塞进这个框里关起来"
+      ]
+    },
+    {
+      "id": "cake",
+      "word": "cake",
+      "pos": "noun / verb",
+      "phonetic": "/keɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 kaka（扁圆的烤面食）← 原始日耳曼语 *kakô",
+      "native_definition": "a sweet food made from flour, eggs and sugar baked in an oven",
+      "core_concept": "a soft baked round, and anything pressed flat into a layer like it – 烤出来的软圆块，以及压成这样一层的东西",
+      "core_image": "盘子上一个圆圆软软的东西，表面抹着白奶油，上头插了几根蜡烛",
+      "chinese": [
+        "蛋糕",
+        "饼",
+        "结块"
+      ],
+      "examples": [
+        "She cut the cake into eight pieces.",
+        "Mud caked on his boots."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "蛋糕：面粉鸡蛋烤出来、抹着奶油的那个软圆块",
+        "饼：压成扁圆一块的食物",
+        "结块：泥或粉干在表面结成硬硬的一层"
+      ]
+    },
+    {
+      "id": "chat",
+      "word": "chat",
+      "pos": "noun / verb",
+      "phonetic": "/tʃæt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 chateren（拟声，鸟雀般碎嘴）的截短形式",
+      "native_definition": "to talk in an easy friendly way about unimportant things",
+      "core_concept": "talk that runs on lightly with no goal – 话轻轻往下走，不为办成什么事",
+      "core_image": "两人靠在栏杆上，话头东一句西一句，谁也不图说出个结果",
+      "chinese": [
+        "闲聊",
+        "聊天",
+        "交谈"
+      ],
+      "examples": [
+        "We chatted about the weather for ages.",
+        "She likes to chat with neighbours."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "闲聊/聊天：话题东一句西一句，图的是有人搭话",
+        "交谈：两人来回把话递着，只是不带正事"
+      ]
+    },
+    {
+      "id": "cheap",
+      "word": "cheap",
+      "pos": "adjective",
+      "phonetic": "/tʃiːp/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cēap（买卖、价钱）← 原始日耳曼语 *kaupō，早期借自拉丁语 caupo（小贩）",
+      "native_definition": "costing little money, or of poor quality",
+      "core_concept": "little money asked, and the thing feels like it – 要的钱少，东西手感也照着那个价",
+      "core_image": "标签上的数字比旁边同款少一位，塑料壳一捏就软，边角还有毛刺",
+      "chinese": [
+        "便宜的",
+        "廉价的",
+        "低劣的"
+      ],
+      "examples": [
+        "These shoes were very cheap.",
+        "The cheap plastic cracked at once."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "便宜的/廉价的：付出去的钱比同类少一截",
+        "低劣的：钱少料也差，一捏就露出来"
+      ]
+    },
+    {
+      "id": "cheek",
+      "word": "cheek",
+      "pos": "noun",
+      "phonetic": "/tʃiːk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cēace（颚、颊）← 原始日耳曼语 *kaukō",
+      "native_definition": "the soft side of the face below the eye",
+      "core_concept": "the soft padded side of the face – 脸侧那片软肉",
+      "core_image": "冬天刚进屋，眼睛下面那两片肉红得发烫，手一贴就烙手",
+      "chinese": [
+        "面颊",
+        "腮",
+        "脸皮"
+      ],
+      "examples": [
+        "Tears ran down her cheek.",
+        "He kissed her on the cheek."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "面颊/腮：眼睛下面鼓起来的那片软肉",
+        "脸皮：那片肉厚不厚，用来说人敢不敢开口"
+      ]
+    },
+    {
+      "id": "cheer",
+      "word": "cheer",
+      "pos": "noun / verb",
+      "phonetic": "/tʃɪə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 chere（脸、神色）← 晚期拉丁语 cara ← 希腊语 kara（头）",
+      "native_definition": "to shout in support, or to make someone feel happier",
+      "core_concept": "a face lighting up, and the noise that comes with it – 脸上亮起来，跟着一嗓子出来",
+      "core_image": "球进网那一秒，看台整片站起来，嗓子里的声浪压过哨声",
+      "chinese": [
+        "欢呼",
+        "喝彩",
+        "使高兴"
+      ],
+      "examples": [
+        "The crowd cheered as he scored.",
+        "Her letter cheered me up."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "欢呼/喝彩：一群人同时把声音送出去",
+        "使高兴：让人脸上那层阴云散开"
+      ]
+    },
+    {
+      "id": "cheese",
+      "word": "cheese",
+      "pos": "noun",
+      "phonetic": "/tʃiːz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cȳse ← 拉丁语 caseus（凝乳制品）",
+      "native_definition": "a solid food made from pressed milk curds",
+      "core_concept": "milk pressed until it turns solid – 奶被压到成了硬块",
+      "core_image": "一块淡黄的硬砖，刀切下去带点黏，闻着又酸又冲",
+      "chinese": [
+        "奶酪",
+        "干酪"
+      ],
+      "examples": [
+        "He grated cheese over the pasta.",
+        "This cheese smells very strong."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "奶酪：牛奶凝住压实后的那块东西",
+        "干酪：水分压得更干、更硬的那种"
+      ]
+    },
+    {
+      "id": "cherry",
+      "word": "cherry",
+      "pos": "noun",
+      "phonetic": "/ˈtʃeri/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古北法语 cherise ← 晚期拉丁语 ceresia ← 希腊语 kerasos（樱树）",
+      "native_definition": "a small round red fruit with a stone inside",
+      "core_concept": "a small stoned fruit on a thin stalk – 细梗上那颗带核的小红果",
+      "core_image": "指甲盖大的红果连着细梗，咬开是浅色的汁，中间硌到一颗硬核",
+      "chinese": [
+        "樱桃",
+        "樱树",
+        "鲜红色"
+      ],
+      "examples": [
+        "She spat out the cherry stone.",
+        "The cherry trees flowered early."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "樱桃：细梗上那颗带硬核的小果",
+        "樱树：结这种小果的那棵树",
+        "鲜红色：果皮那种亮到发艳的颜色"
+      ]
+    },
+    {
+      "id": "chess",
+      "word": "chess",
+      "pos": "noun",
+      "phonetic": "/tʃes/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 esches（eschec「将军」的复数）← 波斯语 shāh（王）",
+      "native_definition": "a board game for two players with sixteen pieces each",
+      "core_concept": "two sides moving carved pieces on squares – 两方在方格上轮着挪木头人",
+      "core_image": "黑白格上摆着两排小木人，一方伸手挪了一步，另一方盯着盘面半天不动",
+      "chinese": [
+        "国际象棋",
+        "棋"
+      ],
+      "examples": [
+        "They played chess all evening.",
+        "He learned chess from his father."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "国际象棋：黑白格盘上两方对着走的那种玩法",
+        "棋：泛指这一类摆子对走的盘上游戏"
+      ]
+    },
+    {
+      "id": "chest",
+      "word": "chest",
+      "pos": "noun",
+      "phonetic": "/tʃest/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cest（箱）← 拉丁语 cista ← 希腊语 kistē（篮、箱）",
+      "native_definition": "the front of the body between the neck and the stomach, or a large strong box",
+      "core_concept": "a boxed hollow space, whether ribs or timber – 四面围住的一格空腔，肋骨或木板都算",
+      "core_image": "深吸一口气，衬衫前面整片鼓起；墙角那口带铜锁的木匣，掀盖也是一格方腔",
+      "chinese": [
+        "胸部",
+        "胸膛",
+        "箱子",
+        "柜"
+      ],
+      "examples": [
+        "He felt a pain in his chest.",
+        "The tools are in the wooden chest."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "胸部/胸膛：肋骨围出的那格腔，吸气就鼓",
+        "箱子/柜：木板围出的同样一格腔，用来装东西"
+      ]
+    },
+    {
+      "id": "chew",
+      "word": "chew",
+      "pos": "verb",
+      "phonetic": "/tʃuː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cēowan ← 原始日耳曼语 *kewwan（磨碎）",
+      "native_definition": "to break food up with the teeth before swallowing",
+      "core_concept": "teeth grinding something down before it goes in – 牙把东西磨碎才让它下去",
+      "core_image": "一口硬面包在嘴里来回磨，牙床上下碾了十几下才咽得下去",
+      "chinese": [
+        "咀嚼",
+        "嚼",
+        "咬"
+      ],
+      "examples": [
+        "You should chew your food more slowly.",
+        "The dog chewed my new shoe."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "咀嚼/嚼：牙齿上下反复把食物碾开",
+        "咬：牙用力压进东西里的那一下"
+      ]
+    },
+    {
+      "id": "chicken",
+      "word": "chicken",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cicen ← 原始日耳曼语 *kiukīnam（幼禽）",
+      "native_definition": "a farm bird kept for its eggs and meat",
+      "core_concept": "a short round yard bird that pecks and cannot really fly – 院里那只矮圆的鸟，只会啄食飞不起来",
+      "core_image": "院子里那只矮胖的鸟低头啄食，脚爪把土刨得直扬，扑翅飞不过篱笆",
+      "chinese": [
+        "鸡",
+        "小鸡",
+        "鸡肉"
+      ],
+      "examples": [
+        "She keeps six chickens in the yard.",
+        "We had roast chicken for dinner."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "鸡：院子里养的那种矮胖禽",
+        "小鸡：刚出壳、绒毛还没换掉的那只",
+        "鸡肉：这种禽宰了摆上桌的那块肉"
+      ]
+    },
+    {
+      "id": "child",
+      "word": "child",
+      "pos": "noun",
+      "phonetic": "/tʃaɪld/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cild ← 原始日耳曼语 *kelthaz（腹中所出）",
+      "native_definition": "a young person who is not yet grown up",
+      "core_concept": "a person still too small to reach what adults reach – 人还小到够不着大人够得着的东西",
+      "core_image": "个子只到桌沿，伸手拿不到杯子，鞋尖在椅子腿上蹭来蹭去",
+      "chinese": [
+        "孩子",
+        "儿童",
+        "子女"
+      ],
+      "examples": [
+        "The child hid behind her mother.",
+        "Every child in the class got a book."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "孩子/儿童：个子和年岁都还没长起来的人",
+        "子女：从谁身上出来的，用来标那层关系"
+      ]
+    },
+    {
+      "id": "chill",
+      "word": "chill",
+      "pos": "noun / verb",
+      "phonetic": "/tʃɪl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ciele（冷）← 原始日耳曼语 *kaliz",
+      "native_definition": "a feeling of cold, or to make something cold",
+      "core_concept": "cold touching the skin and making the body draw in – 冷贴上皮肤，身子跟着一缩",
+      "core_image": "门缝里钻进一股风，后脖颈一紧，胳膊上的毛全立起来",
+      "chinese": [
+        "寒意",
+        "寒冷",
+        "使变冷"
+      ],
+      "examples": [
+        "There was a chill in the air.",
+        "Chill the wine before serving."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "寒意/寒冷：那股冷渗过来挨到皮肤上",
+        "使变冷：把东西搁进那股冷里去"
+      ]
+    },
+    {
+      "id": "chimney",
+      "word": "chimney",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɪmni/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 cheminée ← 晚期拉丁语 caminata ← 希腊语 kaminos（炉）",
+      "native_definition": "a vertical pipe that takes smoke out of a building",
+      "core_concept": "an upright shaft that lets what burns escape upward – 一根直立的管，让烧出来的东西往上走",
+      "core_image": "屋顶上立着一根方砖柱，顶口一股灰白往上冒，风一斜就歪着飘",
+      "chinese": [
+        "烟囱",
+        "烟道"
+      ],
+      "examples": [
+        "Smoke rose from the chimney.",
+        "The chimney needs cleaning again."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "烟囱：屋顶上立着的那根砖柱",
+        "烟道：柱子里头那条往上走的通路"
+      ]
+    },
+    {
+      "id": "chin",
+      "word": "chin",
+      "pos": "noun",
+      "phonetic": "/tʃɪn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cinn ← 原始日耳曼语 *kinnuz",
+      "native_definition": "the front part of the face below the mouth",
+      "core_concept": "the bone that juts forward under the mouth – 嘴底下往前顶出来的那块骨",
+      "core_image": "嘴唇底下那块骨头往前顶出来，低头时压到脖子上一道褶",
+      "chinese": [
+        "下巴",
+        "颏"
+      ],
+      "examples": [
+        "He rested his chin on his hand.",
+        "She lifted her chin and stared."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "下巴：嘴下面凸出来的那一块",
+        "颏：同一块骨头的书面叫法"
+      ]
+    },
+    {
+      "id": "chip",
+      "word": "chip",
+      "pos": "noun / verb",
+      "phonetic": "/tʃɪp/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cipp（木块）← 原始日耳曼语 *kippaz",
+      "native_definition": "a small piece broken off something, or to break such a piece off",
+      "core_concept": "a small flat bit knocked off a bigger thing, leaving a dent – 从大块上磕下来的一小片扁东西，原处留个坑",
+      "core_image": "瓷杯口磕在池沿上，掉下一小块，杯沿留下个白牙印似的凹",
+      "chinese": [
+        "碎片",
+        "薄片",
+        "缺口",
+        "芯片"
+      ],
+      "examples": [
+        "The cup has a chip on the rim.",
+        "This computer chip is very small."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "碎片：从整块上磕下来的那一小块",
+        "薄片：切得又扁又薄的一片，土豆炸的也算",
+        "缺口：磕掉之后原处留下的那个坑",
+        "芯片：硅片上切下来的那一小片扁方"
+      ]
+    },
+    {
+      "id": "choice",
+      "word": "choice",
+      "pos": "noun",
+      "phonetic": "/tʃɔɪs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 chois ← choisir（挑，← 法兰克语 *kausjan 尝、试）",
+      "native_definition": "the act of picking one thing rather than another",
+      "core_concept": "the hand settling on one and leaving the rest – 手落在一个上头，别的都撇下",
+      "core_image": "三样东西摊在桌上，手在上头悬了一会儿，最后落在中间那个，另两样推开",
+      "chinese": [
+        "选择",
+        "选项",
+        "挑选"
+      ],
+      "examples": [
+        "You have made the right choice.",
+        "There are three choices on the menu."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "选择：手最后落下去的那一下",
+        "选项：摊在面前等着被拿的那几样",
+        "挑选：手在几样上头来回比的那个过程"
+      ]
+    },
+    {
+      "id": "chop",
+      "word": "chop",
+      "pos": "verb",
+      "phonetic": "/tʃɒp/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 choppen（chap 的变体，砍，拟声）",
+      "native_definition": "to cut something with a heavy downward stroke",
+      "core_concept": "a blade falling straight down and parting what is under it – 刃直落下去，把底下那东西断开",
+      "core_image": "刀直着落到砧板上，一声闷响，底下那截被断成两半",
+      "chinese": [
+        "砍",
+        "劈",
+        "剁"
+      ],
+      "examples": [
+        "He chopped the onions finely.",
+        "She chopped wood for the fire."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "砍/劈：刃直着落下去断开一物",
+        "剁：同一下反复落，把东西断成碎的"
+      ]
+    },
+    {
+      "id": "chorus",
+      "word": "chorus",
+      "pos": "noun",
+      "phonetic": "/ˈkɔːrəs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 chorus（歌舞队）← 希腊语 khoros（舞队）",
+      "native_definition": "a group of people singing together, or the part of a song that comes back each time",
+      "core_concept": "many mouths landing on the same sound at the same moment – 许多张嘴在同一刻落到同一个声上",
+      "core_image": "指挥手一落，几十张嘴同时张开，声音叠成一股，每段末尾都回到同一截调",
+      "chinese": [
+        "合唱队",
+        "合唱",
+        "副歌",
+        "齐声"
+      ],
+      "examples": [
+        "The chorus sang the final song.",
+        "Everyone joined in the chorus."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "合唱队：台上一起出声的那一群人",
+        "合唱：许多声音叠成一股的那种唱法",
+        "副歌：每段唱完都回来的那一截",
+        "齐声：一群人同时开口说同一句"
+      ]
+    },
+    {
+      "id": "chronic",
+      "word": "chronic",
+      "pos": "adjective",
+      "phonetic": "/ˈkrɒnɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 chronique ← 拉丁语 chronicus ← 希腊语 khronos（时间）",
+      "native_definition": "lasting a long time and hard to get rid of",
+      "core_concept": "something that has settled in and keeps coming back – 一样东西赖住不走，好一阵又回来",
+      "core_image": "那阵咳嗽从去年冬天起就没断过，药吃完又回来，一到夜里又响",
+      "chinese": [
+        "慢性的",
+        "长期的",
+        "积久难改的"
+      ],
+      "examples": [
+        "He suffers from chronic back pain.",
+        "The city has a chronic housing shortage."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "慢性的：病赖在身上，压下去又抬头",
+        "长期的：从很早起就一直这样",
+        "积久难改的：拖得太久，已经掰不过来"
+      ]
+    },
+    {
+      "id": "church",
+      "word": "church",
+      "pos": "noun",
+      "phonetic": "/tʃɜːtʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cirice ← 原始日耳曼语 *kirikō ← 希腊语 kyriakon（主的房子）",
+      "native_definition": "a building where Christians meet to worship",
+      "core_concept": "the stone room people gather in to face the front – 一屋石墙，人聚进去都朝着前头",
+      "core_image": "石墙尖顶，彩玻璃把光切成一道道斜的，木长椅一排排朝着前头那个台子",
+      "chinese": [
+        "教堂",
+        "教会",
+        "礼拜"
+      ],
+      "examples": [
+        "They were married in a small church.",
+        "The church stands on the hill."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "教堂：那座尖顶带彩玻璃的房子",
+        "教会：常聚在那屋里的那群人合起来算一个",
+        "礼拜：他们在那屋里做的那件事"
+      ]
+    },
+    {
+      "id": "cigar",
+      "word": "cigar",
+      "pos": "noun",
+      "phonetic": "/sɪˈɡɑː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "西班牙语 cigarro，可能 ← 玛雅语 sikar（吸烟）",
+      "native_definition": "a thick roll of tobacco leaves for smoking",
+      "core_concept": "whole leaves rolled tight into a thick stick – 整叶裹紧成一根粗条",
+      "core_image": "拇指粗的一根褐色卷条，整片叶子裹紧，一头剪平叼在嘴里，灰积成长长一截",
+      "chinese": [
+        "雪茄",
+        "雪茄烟"
+      ],
+      "examples": [
+        "He lit a cigar after dinner.",
+        "The room smelled of cigar smoke."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "雪茄：拇指粗、整叶裹成的那根",
+        "雪茄烟：同一根东西，强调它是拿来烧着抽的"
+      ]
+    },
+    {
+      "id": "cigaret",
+      "word": "cigaret",
+      "pos": "noun",
+      "phonetic": "/ˌsɪɡəˈret/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 cigarette（cigare 的指小形式）← 西班牙语 cigarro",
+      "native_definition": "a thin paper tube of chopped tobacco for smoking",
+      "core_concept": "shredded leaf wrapped thin in paper – 碎叶用纸卷成细细一根",
+      "core_image": "细细一根白纸筒，一头带着黄色的嘴，夹在两指间，火头一亮就往下缩",
+      "chinese": [
+        "香烟",
+        "烟卷",
+        "纸烟"
+      ],
+      "examples": [
+        "She put out her cigaret.",
+        "He bought a packet of cigarets."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "香烟：夹在指间抽的那根细白条",
+        "烟卷：叶子被卷进纸里的那个做法",
+        "纸烟：外头包的是纸，不是整片叶子"
+      ]
+    },
+    {
+      "id": "cinema",
+      "word": "cinema",
+      "pos": "noun",
+      "phonetic": "/ˈsɪnəmə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 cinéma（← 希腊语 kinēma 运动）的截短形式",
+      "native_definition": "a building where films are shown, or films as an art form",
+      "core_concept": "a dark room where light makes pictures move on a wall – 黑屋里一束光让墙上的画动起来",
+      "core_image": "灯一黑，前排后脑勺全成了黑影，一束光打到白幕上，画面动起来",
+      "chinese": [
+        "电影院",
+        "电影",
+        "影业"
+      ],
+      "examples": [
+        "We went to the cinema last night.",
+        "This cinema shows old films."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "电影院：放这种东西的那间黑屋子",
+        "电影：白幕上动起来的那些画面",
+        "影业：拍这些画面的整个行当"
+      ]
+    },
+    {
+      "id": "clap",
+      "word": "clap",
+      "pos": "noun / verb",
+      "phonetic": "/klæp/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clæppan（拍打，拟声）← 原始日耳曼语 *klap-",
+      "native_definition": "to hit your hands together to make a sharp sound",
+      "core_concept": "two flat surfaces meeting hard and cracking out a sound – 两个平面硬碰一下，炸出个响",
+      "core_image": "两只手掌迎面撞在一起，一声脆响，掌心发麻，接着又是一下",
+      "chinese": [
+        "拍手",
+        "鼓掌",
+        "拍击声"
+      ],
+      "examples": [
+        "The audience began to clap loudly.",
+        "He clapped his hands twice."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "拍手/鼓掌：两只手掌迎面撞出声来",
+        "拍击声：那一下撞出来的脆响本身"
+      ]
+    },
+    {
+      "id": "claw",
+      "word": "claw",
+      "pos": "noun / verb",
+      "phonetic": "/klɔː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clawu ← 原始日耳曼语 *klawō（弯钩）",
+      "native_definition": "a sharp curved nail on an animal's foot",
+      "core_concept": "a hard hooked point that catches and will not let go – 一根硬弯钩，挂上就不松",
+      "core_image": "猫从肉垫里弹出几只弯钩，往沙发上一划，布面立刻扯出丝来",
+      "chinese": [
+        "爪",
+        "爪子",
+        "钳",
+        "抓"
+      ],
+      "examples": [
+        "The cat sank its claws into me.",
+        "The bird has sharp claws."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爪/爪子：动物脚上那几根硬弯钩",
+        "钳：蟹虾前头那对能夹住东西的钩",
+        "抓：用那几根钩子划过去的动作"
+      ]
+    },
+    {
+      "id": "clay",
+      "word": "clay",
+      "pos": "noun",
+      "phonetic": "/kleɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clæg ← 原始日耳曼语 *klaijaz（黏的东西）",
+      "native_definition": "heavy sticky earth that hardens when it is dried",
+      "core_concept": "earth soft enough to hold a fingerprint, hard once dried – 软得能留指印的土，干了就硬",
+      "core_image": "河岸挖上来一坨灰褐的湿土，手一捏留下指印，晒干了敲着发响",
+      "chinese": [
+        "黏土",
+        "陶土",
+        "泥"
+      ],
+      "examples": [
+        "The pot is made of clay.",
+        "Clay sticks to your boots."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "黏土：手一捏就粘住、能留印的那种土",
+        "陶土：拿这种土烧成器皿时的叫法",
+        "泥：这类湿而黏的土，笼统地说"
+      ]
+    },
+    {
+      "id": "clean",
+      "word": "clean",
+      "pos": "adjective / verb",
+      "phonetic": "/kliːn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clǣne（洁净的）← 原始日耳曼语 *klainiz",
+      "native_definition": "free from dirt, or to remove dirt from something",
+      "core_concept": "nothing left on the surface but the surface – 面上除了那个面，什么都不剩",
+      "core_image": "抹布从桌面一头拖到另一头，水痕干了以后，木纹亮得能照出窗子",
+      "chinese": [
+        "干净的",
+        "清洁的",
+        "打扫"
+      ],
+      "examples": [
+        "Please keep your room clean.",
+        "She cleaned the windows this morning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "干净的/清洁的：面上什么脏东西都没留",
+        "打扫：把面上那些东西一路擦走的动作"
+      ]
+    },
+    {
+      "id": "clergy",
+      "word": "clergy",
+      "pos": "noun",
+      "phonetic": "/ˈklɜːdʒi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 clergie ← 晚期拉丁语 clericus（受过书本训练的人）← 希腊语 klēros（份、签）",
+      "native_definition": "the people officially appointed to lead religious services",
+      "core_concept": "the robed few licensed to stand at the front – 穿袍子、有资格站到前头的那少数人",
+      "core_image": "一排穿黑长袍、领口露出一圈白的人站在台阶上，各自捧着一本厚书",
+      "chinese": [
+        "神职人员",
+        "教士"
+      ],
+      "examples": [
+        "The clergy opposed the new law.",
+        "Members of the clergy attended."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "神职人员：受了任命主持仪式的那些人",
+        "教士：这些人里的一个，单指其身份"
+      ]
+    },
+    {
+      "id": "clerk",
+      "word": "clerk",
+      "pos": "noun",
+      "phonetic": "/klɑːk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 clerc ← 晚期拉丁语 clericus（识字的人）",
+      "native_definition": "a person who keeps records or serves customers at a counter",
+      "core_concept": "the one behind the counter who writes it down and calls you forward – 柜台后头那个记下来又叫你上前的人",
+      "core_image": "柜台后头那个人低头在登记簿上一行行填字，填完抬头喊下一位",
+      "chinese": [
+        "职员",
+        "书记员",
+        "店员"
+      ],
+      "examples": [
+        "The clerk stamped my form.",
+        "Ask the clerk at the desk."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "职员：坐在桌后处理单据的那个人",
+        "书记员：专管把事情一行行记下来的那个",
+        "店员：站柜台招呼买东西的人的那个"
+      ]
+    },
+    {
+      "id": "click",
+      "word": "click",
+      "pos": "noun / verb",
+      "phonetic": "/klɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拟声词（模仿短而硬的一声），中古英语起用",
+      "native_definition": "to make or cause a short sharp sound",
+      "core_concept": "one short hard sound, and the press that makes it – 短硬的一声，以及压出这声的那一下",
+      "core_image": "食指压下鼠标上那个小方块，一声短而硬的响，屏幕上的窗子跟着弹开",
+      "chinese": [
+        "点击",
+        "咔嗒声"
+      ],
+      "examples": [
+        "He clicked the button twice.",
+        "The lock closed with a click."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "点击：手指压下去发出那一声的动作",
+        "咔嗒声：压下去时冒出来的那个短硬的响"
+      ]
+    },
+    {
+      "id": "client",
+      "word": "client",
+      "pos": "noun",
+      "phonetic": "/ˈklaɪənt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 cliens（门客、受庇护者）← cluere（听从）",
+      "native_definition": "a person who pays a professional for a service",
+      "core_concept": "the one who brings a matter over, pays, and waits to be told – 把事情递过来、付钱等回话的那个人",
+      "core_image": "律师桌对面坐着个人，把一叠材料推过来，等着听下一步怎么办，走时付了钱",
+      "chinese": [
+        "客户",
+        "委托人",
+        "顾客"
+      ],
+      "examples": [
+        "The lawyer met his client at noon.",
+        "We have clients all over Europe."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "客户：长期买某项服务的那一方",
+        "委托人：把自己的事交给旁人去办的那个",
+        "顾客：上门来花钱的人，泛指"
+      ]
+    },
+    {
+      "id": "cliff",
+      "word": "cliff",
+      "pos": "noun",
+      "phonetic": "/klɪf/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clif ← 原始日耳曼语 *klibam（陡岩）",
+      "native_definition": "a high steep face of rock, especially by the sea",
+      "core_concept": "rock cut off flat, with nothing under the next step – 石头齐齐断掉，下一步底下是空的",
+      "core_image": "路走到头，脚下的石头齐齐切断，往下全是空的，浪声从很远的底下传上来",
+      "chinese": [
+        "悬崖",
+        "峭壁"
+      ],
+      "examples": [
+        "They walked along the cliff top.",
+        "The path ends at a steep cliff."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "悬崖：脚下齐齐切断、往下悬空的那道石壁",
+        "峭壁：同一道壁，强调它立得又高又直"
+      ]
+    },
+    {
+      "id": "climb",
+      "word": "climb",
+      "pos": "verb",
+      "phonetic": "/klaɪm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 climban ← 原始日耳曼语 *klimban（攥住往上）",
+      "native_definition": "to go up something using your hands and feet",
+      "core_concept": "gripping what is above and hauling the body after it – 抓住上头的东西，把身子拽上去",
+      "core_image": "手抓住上头那块凸出的石棱，脚尖在缝里踩实，整个人往上提了一截",
+      "chinese": [
+        "攀登",
+        "爬",
+        "上升"
+      ],
+      "examples": [
+        "They climbed the mountain in two days.",
+        "House prices have climbed sharply this year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "攀登/爬：手脚并用一点点把自己弄上去",
+        "上升：数目像人那样一截一截往上挪"
+      ]
+    },
+    {
+      "id": "clip",
+      "word": "clip",
+      "pos": "noun / verb",
+      "phonetic": "/klɪp/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 klippa（剪）与古英语 clyppan（抱紧）两源同形",
+      "native_definition": "a small device for holding things together, or to cut a small piece off",
+      "core_concept": "something bitten tight, or a bit bitten off – 咬紧不放，或咬掉一小截",
+      "core_image": "一枚弯铁片把几张纸咬住不放；另一头剪刀落下去，多出的一截掉在地上",
+      "chinese": [
+        "夹子",
+        "剪辑",
+        "剪下",
+        "夹住"
+      ],
+      "examples": [
+        "Put a clip on those papers.",
+        "She clipped the hedge neatly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "夹子：那枚咬住几张纸不放的弯铁片",
+        "夹住：铁片咬紧东西的那个动作",
+        "剪下：刃合上去咬掉一小截",
+        "剪辑：从长片子上咬下来的那一小段"
+      ]
+    },
+    {
+      "id": "cloak",
+      "word": "cloak",
+      "pos": "noun / verb",
+      "phonetic": "/kləʊk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古北法语 cloke（钟形罩衣）← 中世纪拉丁语 clocca（钟）",
+      "native_definition": "a loose outer garment without sleeves, or to hide something",
+      "core_concept": "one wide piece of cloth hanging over everything underneath – 一大片布罩下来，底下什么都看不见",
+      "core_image": "一整片布从肩上垂到脚踝，没有袖子，走动时下摆兜住风；雾把整个山谷盖了",
+      "chinese": [
+        "斗篷",
+        "披风",
+        "掩盖"
+      ],
+      "examples": [
+        "He wore a long black cloak.",
+        "Fog cloaked the whole valley."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "斗篷/披风：从肩垂下、没有袖子的那一片布",
+        "掩盖：像那片布一样把底下的东西全罩住"
+      ]
+    },
+    {
+      "id": "clone",
+      "word": "clone",
+      "pos": "noun / verb",
+      "phonetic": "/kləʊn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 klōn（嫩枝、插条），1903 年由植物学界借入",
+      "native_definition": "a living thing grown from another's cells and identical to it",
+      "core_concept": "a cutting grown up into the very same thing – 一截插条长成了和原来一模一样的那个",
+      "core_image": "剪下一小段插进土里，长成的那棵每片叶子每道脉都和原来那株对得上",
+      "chinese": [
+        "克隆",
+        "无性繁殖体",
+        "复制"
+      ],
+      "examples": [
+        "Scientists cloned the sheep in 1996.",
+        "This phone is a cheap clone."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "克隆：从原体细胞里长出一个一样的",
+        "无性繁殖体：这样长出来的那个个体本身",
+        "复制：照着原样再做一个，不限生物"
+      ]
+    },
+    {
+      "id": "cloth",
+      "word": "cloth",
+      "pos": "noun",
+      "phonetic": "/klɒθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clāth（一块料子、衣裳）← 原始日耳曼语 *klaithaz",
+      "native_definition": "material made by weaving threads together",
+      "core_concept": "threads crossed until they hold as one flat sheet – 线交叉到能连成一整片平的",
+      "core_image": "线一根压一根织成平平的一片，剪开之后边上散出细毛头",
+      "chinese": [
+        "布",
+        "布料",
+        "织物"
+      ],
+      "examples": [
+        "She wiped the table with a damp cloth.",
+        "The bag is made of thick cloth."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "布/布料：织出来的那一大片料子",
+        "织物：凡是这样交线织成的东西都算"
+      ]
+    },
+    {
+      "id": "clothe",
+      "word": "clothe",
+      "pos": "verb",
+      "phonetic": "/kləʊð/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clāthian（给…着装）← clāth（料子）",
+      "native_definition": "to put garments on someone",
+      "core_concept": "wrapping a body until cloth covers it – 用料子把身子一圈圈包住",
+      "core_image": "胳膊先塞进袖子，头从领口钻出来，最后一路拉上拉链",
+      "chinese": [
+        "穿衣",
+        "覆盖"
+      ],
+      "examples": [
+        "She washed and clothed the baby.",
+        "Snow clothed the fields overnight."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "穿衣：把料子一层层套到身上",
+        "覆盖：像料子那样把一片东西全包起来"
+      ]
+    },
+    {
+      "id": "clothing",
+      "word": "clothing",
+      "pos": "noun",
+      "phonetic": "/ˈkləʊðɪŋ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clāthian（着装）的动名词形式 ← clāth（料子）",
+      "native_definition": "the things people wear on their bodies",
+      "core_concept": "all the cloth a person puts on, taken as one lot – 人身上穿的那些料子，合起来算一堆",
+      "core_image": "箱子打开，一层层折好的叠着，衬衫压着裤子，最上面搭一件外套",
+      "chinese": [
+        "衣服",
+        "服装",
+        "衣物"
+      ],
+      "examples": [
+        "Bring warm clothing for the trip.",
+        "The shop sells children's clothing."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "衣服/衣物：人穿在身上的那些东西",
+        "服装：这些东西合起来当一类货看"
+      ]
+    },
+    {
+      "id": "cloud",
+      "word": "cloud",
+      "pos": "noun / verb",
+      "phonetic": "/klaʊd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clūd（岩块、土堆）← 原始日耳曼语 *klūtaz（一坨）",
+      "native_definition": "a white or grey mass of water drops floating in the sky",
+      "core_concept": "a floating lump that gets between you and the light – 一坨飘着的东西挡在光和你之间",
+      "core_image": "天上飘着一团白的，边上松松散散，挡在日头前头时地上一暗",
+      "chinese": [
+        "云",
+        "云朵",
+        "使模糊"
+      ],
+      "examples": [
+        "Dark clouds gathered over the hills.",
+        "Steam clouded the bathroom mirror."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "云/云朵：天上飘的那一团白东西",
+        "使模糊：像那团东西挡光一样，让人看不清"
+      ]
+    },
+    {
+      "id": "cloudy",
+      "word": "cloudy",
+      "pos": "adjective",
+      "phonetic": "/ˈklaʊdi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clūdig（多岩块的）← clūd（一坨）",
+      "native_definition": "covered with clouds, or not clear to see through",
+      "core_concept": "so full of floating stuff that light cannot get through – 里头飘的东西太多，光透不过来",
+      "core_image": "一整天看不见日头，天灰成一片；杯里的水晃过之后见不到底",
+      "chinese": [
+        "多云的",
+        "阴的",
+        "浑浊的"
+      ],
+      "examples": [
+        "It was cold and cloudy all day.",
+        "The pond water looked cloudy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "多云的/阴的：天上那些团挤满了，日头露不出来",
+        "浑浊的：水里飘的东西太多，看不到底"
+      ]
+    },
+    {
+      "id": "club",
+      "word": "club",
+      "pos": "noun",
+      "phonetic": "/klʌb/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 klubba（粗棒）← 原始日耳曼语 *klumb-（疙瘩）",
+      "native_definition": "a heavy stick, or a group who meet regularly for an activity",
+      "core_concept": "a lump gripped at one end, and by extension a set that holds together – 攥住一头的一坨，也指抱成一团的一伙",
+      "core_image": "一头粗一头细的实木，攥着细的那头能砸；每周三同一间屋里聚着同一批人",
+      "chinese": [
+        "俱乐部",
+        "社团",
+        "棍棒",
+        "球杆"
+      ],
+      "examples": [
+        "He joined the local chess club.",
+        "The guard carried a heavy club."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "棍棒：一头粗一头细、攥着能砸的那根木头",
+        "球杆：同样一头粗的木棍，专拿来打球",
+        "俱乐部：抱成一团、定期聚在一处的那伙人",
+        "社团：这样一伙人合起来的那个名头"
+      ]
+    },
+    {
+      "id": "clue",
+      "word": "clue",
+      "pos": "noun",
+      "phonetic": "/kluː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "clew（线团）的变体 ← 古英语 cliewen ← 原始日耳曼语 *kliuwīn",
+      "native_definition": "a fact that helps you solve a problem or mystery",
+      "core_concept": "one thread you follow back until it lands somewhere – 一根线顺着往回走，总能走到一处",
+      "core_image": "手里攥着一根线，顺着它一路往回走，绕过几道弯，找到了进来的那个口",
+      "chinese": [
+        "线索",
+        "提示",
+        "头绪"
+      ],
+      "examples": [
+        "The police found no clue at all.",
+        "Give me a clue about the answer."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "线索：手里那根能顺着走下去的线",
+        "提示：旁人递过来的那一小截线",
+        "头绪：手里到底有没有那根线可顺"
+      ]
+    },
+    {
+      "id": "clumsy",
+      "word": "clumsy",
+      "pos": "adjective",
+      "phonetic": "/ˈklʌmzi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 clumsen（冻僵、发木）← 斯堪的纳维亚语源",
+      "native_definition": "moving awkwardly and often knocking things over",
+      "core_concept": "limbs too stiff to land where they are aimed – 手脚发僵，落不到想落的地方",
+      "core_image": "伸手去拿盐罐，袖子先扫翻了杯子；转身又踢到椅子腿",
+      "chinese": [
+        "笨拙的",
+        "不灵活的",
+        "笨手笨脚的"
+      ],
+      "examples": [
+        "He was too clumsy to catch it.",
+        "She made a clumsy attempt to help."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "笨拙的/笨手笨脚的：手脚不听话，一动就碰翻旁边的东西",
+        "不灵活的：动起来发僵，转不过弯来"
+      ]
+    },
+    {
+      "id": "bonus",
+      "word": "bonus",
+      "pos": "noun",
+      "phonetic": "/ˈbəʊnəs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 bonus（好的）直接借入英语，作「额外好处」讲",
+      "native_definition": "an extra payment or benefit given beyond what is due",
+      "core_concept": "something good handed over on top of what was owed – 该给的之外另添的一份好处",
+      "core_image": "月底信封里除了工资，另夹着一张没预料到的条子",
+      "chinese": [
+        "奖金",
+        "额外好处"
+      ],
+      "examples": [
+        "Staff received a year-end bonus.",
+        "Free delivery is an added bonus."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "奖金：约定工资之外另给的那笔",
+        "额外好处：不必给却给了的那一份"
+      ]
     }
   ]
 }
