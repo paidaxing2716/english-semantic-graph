@@ -104,31 +104,31 @@
       "note": "同一词根家族"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "formal",
       "type": "root",
       "note": "form + -al"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "inform",
       "type": "root",
       "note": "in- + form"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "transform",
       "type": "root",
       "note": "trans- + form"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "perform",
       "type": "root",
       "note": "per- + form"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "reform",
       "type": "root",
       "note": "re- + form"
@@ -380,31 +380,31 @@
       "note": "同词根"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "import",
       "type": "root",
       "note": "im- + port"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "export",
       "type": "root",
       "note": "ex- + port"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "transport",
       "type": "root",
       "note": "trans- + port"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "portable",
       "type": "root",
       "note": "port + -able"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "report",
       "type": "root",
       "note": "re- + port"
@@ -440,7 +440,7 @@
       "note": "de-（离开）+ tract（拉）→ 从整体里拉走一部分 → 减损价值"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "conform",
       "type": "root",
       "note": "con-（一起、共同）+ form（形状）→ 让自己的形状与外部一致 → 遵从"
@@ -470,7 +470,7 @@
       "note": "de-（从…向下）+ duc（引导）→ 从已知前提一路引下来 → 推断出结论"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "deport",
       "type": "root",
       "note": "de-（离开）+ port（运送）→ 把人运离这个国家 → 驱逐出境"
@@ -500,19 +500,19 @@
       "note": "op-（ob- 的变体，表'对着、压向'）+ press（压）→ 长期压在某人身上 → 压迫"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "formation",
       "type": "root",
       "note": "form（形成）+ -ation（名词后缀）→ 成形的过程，或成形后的排列 → 形成 / 队形"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "information",
       "type": "root",
       "note": "inform（让信息在脑中成形）+ -ation → 让认知成形的那些内容 → 信息"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "uniform",
       "type": "root",
       "note": "uni-（一个）+ form（形状）→ 全体只有一种形状 → 统一的 / 制服"
@@ -542,7 +542,7 @@
       "note": "tract（拉）+ -ion → 拉动这件事本身，即拉得住的能力 → 牵引力 / 抓地力"
     },
     {
-      "from": "form",
+      "from": "forma",
       "to": "deform",
       "type": "root",
       "note": "de-（脱离、破坏）+ form（形状）→ 使脱离原本的形状 → 使变形"
@@ -662,19 +662,19 @@
       "note": "conduct（引导）+ -or（施动者）→ 负责引导的那个人或物 → 指挥 / 导体"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "support",
       "type": "root",
       "note": "sup-（sub- 的变体，表'从下面'）+ port（承载）→ 从下面把重量担起来 → 支撑 / 支持"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "important",
       "type": "root",
       "note": "im-（in- 的变体，表'进入'）+ port（运送）→ 分量重到被运进来的 → 重要的"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "transportation",
       "type": "root",
       "note": "transport（运过去）+ -ation → 运送这件事，或用来运送的系统 → 运输"
@@ -686,7 +686,7 @@
       "note": "fig（塑形、捏造）+ -ment（结果）→ 被捏出来的东西 → 虚构之物"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "reporter",
       "type": "root",
       "note": "report（把消息带回）+ -er（施动者）→ 负责把消息带回来的人 → 记者"
@@ -4388,13 +4388,13 @@
       "note": "ex-（向外）+ spect（看）→ 朝外看的那个念头 → 期待"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "importance",
       "type": "root",
       "note": "im-（in- 向内）+ port（携带）→ 被携带进来的分量 → 重要"
     },
     {
-      "from": "port",
+      "from": "portus",
       "to": "porter",
       "type": "root",
       "note": "port（携带）+ -er（人）→ 帮着搬东西的人 → 搬运工"

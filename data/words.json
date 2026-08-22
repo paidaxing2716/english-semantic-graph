@@ -404,7 +404,7 @@
       "id": "formal",
       "word": "formal",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "origin": "拉丁语 formalis（与形式有关的）",
       "native_definition": "following an official or established form; serious and proper",
@@ -442,7 +442,7 @@
       "id": "inform",
       "word": "inform",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "origin": "in-（进入）+ forma（形状）",
       "native_definition": "to give someone knowledge that shapes their understanding",
@@ -480,7 +480,7 @@
       "id": "transform",
       "word": "transform",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "origin": "trans-（跨越）+ forma（形状）",
       "native_definition": "to change completely from one form to another",
@@ -521,7 +521,7 @@
       "id": "perform",
       "word": "perform",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "origin": "per-（完全）+ forma（形状）",
       "native_definition": "to carry out completely; to give a performance",
@@ -560,7 +560,7 @@
       "id": "reform",
       "word": "reform",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "origin": "re-（重新）+ forma（形状）",
       "native_definition": "to form or shape again; to improve by making changes",
@@ -1792,7 +1792,7 @@
       "id": "import",
       "word": "import",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "origin": "im-（向内）+ portare（运送）",
       "native_definition": "to carry goods into a country from abroad",
@@ -1834,7 +1834,7 @@
       "id": "export",
       "word": "export",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "origin": "ex-（向外）+ portare（运送）",
       "native_definition": "to carry goods out of a country for sale abroad",
@@ -1871,7 +1871,7 @@
       "id": "transport",
       "word": "transport",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "origin": "trans-（跨越）+ portare（运送）",
       "native_definition": "to carry people or goods across a distance",
@@ -1909,7 +1909,7 @@
       "id": "portable",
       "word": "portable",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "origin": "portare（运送）+ -able（能…的）",
       "native_definition": "able to be carried easily",
@@ -1948,7 +1948,7 @@
       "id": "report",
       "word": "report",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "origin": "re-（返回）+ portare（运送）",
       "native_definition": "to carry information back to someone",
@@ -2260,7 +2260,7 @@
       "pos": "verb",
       "phonetic": "/kənˈfɔːrm/",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "root_logic": "con-（一起、共同）+ form（形状）→ 让自己的形状与外部一致 → 遵从",
       "origin": "拉丁语 conformare：con-（一起）+ formare（塑形）",
@@ -2472,7 +2472,7 @@
       "pos": "verb",
       "phonetic": "/dɪˈpɔːrt/",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "de-（离开）+ port（运送）→ 把人运离这个国家 → 驱逐出境",
       "origin": "拉丁语 deportare：de-（离开）+ portare（运送）",
@@ -2674,7 +2674,7 @@
       "pos": "noun",
       "phonetic": "/fɔːrˈmeɪʃn/",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "root_logic": "form（形成）+ -ation（名词后缀）→ 成形的过程，或成形后的排列 → 形成 / 队形",
       "origin": "拉丁语 formatio：formare（塑形）",
@@ -2716,7 +2716,7 @@
       "pos": "noun",
       "phonetic": "/ˌɪnfərˈmeɪʃn/",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "root_logic": "inform（让信息在脑中成形）+ -ation → 让认知成形的那些内容 → 信息",
       "origin": "拉丁语 informatio：in-（进入）+ formare（塑形）",
@@ -2753,7 +2753,7 @@
       "pos": "adjective",
       "phonetic": "/ˈjuːnɪfɔːrm/",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "root_logic": "uni-（一个）+ form（形状）→ 全体只有一种形状 → 统一的 / 制服",
       "origin": "拉丁语 uniformis：unus（一）+ forma（形状）",
@@ -2953,7 +2953,7 @@
       "pos": "verb",
       "phonetic": "/diːˈfɔːrm/",
       "root_ids": [
-        "form"
+        "forma"
       ],
       "root_logic": "de-（脱离、破坏）+ form（形状）→ 使脱离原本的形状 → 使变形",
       "origin": "拉丁语 deformare：de-（去除）+ formare（塑形）",
@@ -3773,7 +3773,7 @@
       "pos": "verb",
       "phonetic": "/səˈpɔːrt/",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "sup-（sub- 的变体，表'从下面'）+ port（承载）→ 从下面把重量担起来 → 支撑 / 支持",
       "origin": "拉丁语 supportare：sub-（从下）+ portare（运送、承载）",
@@ -3819,7 +3819,7 @@
       "pos": "adjective",
       "phonetic": "/ɪmˈpɔːrtnt/",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "im-（in- 的变体，表'进入'）+ port（运送）→ 分量重到被运进来的 → 重要的",
       "origin": "拉丁语 importare：in-（进入）+ portare（运送）——原义'带进来'，引申为'有分量的'",
@@ -3858,7 +3858,7 @@
       "pos": "noun",
       "phonetic": "/ˌtrænspərˈteɪʃn/",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "transport（运过去）+ -ation → 运送这件事，或用来运送的系统 → 运输",
       "origin": "拉丁语 transportare：trans-（穿过）+ portare（运送）",
@@ -3939,7 +3939,7 @@
       "pos": "noun",
       "phonetic": "/rɪˈpɔːrtər/",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "report（把消息带回）+ -er（施动者）→ 负责把消息带回来的人 → 记者",
       "origin": "拉丁语 reportare：re-（回）+ portare（运送）",
@@ -28260,7 +28260,7 @@
       "phonetic": "/ɪmˈpɔːrtns/",
       "decomposable": "root",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "im-（in- 向内）+ port（携带）→ 被携带进来的分量 → 重要",
       "origin": "拉丁语 importare（带入）的名词化——被带入的分量",
@@ -28297,7 +28297,7 @@
       "phonetic": "/ˈpɔːrtər/",
       "decomposable": "root",
       "root_ids": [
-        "port"
+        "portus"
       ],
       "root_logic": "port（携带）+ -er（人）→ 帮着搬东西的人 → 搬运工",
       "origin": "拉丁语 portare（携带）+ -or（者）",
