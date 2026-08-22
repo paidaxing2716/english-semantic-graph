@@ -44,6 +44,10 @@ MOVE = {
     "agitate":  ("ag", "ag（驱动）+ -itate（反复）→ 不停地驱动 → 搅动、鼓动"),
     "avenue":   ("venire-invent", "a-（ad- 朝）+ venue（venire 来）→ 走得近的那条路"),
     "bill":     ("bulla", "bulla（盖印文书）→ 开出来的那纸单据"),
+    # 第二轮：第六十四批建了 haerere 与 jungere 之后重扫，又冒出这两个。
+    # 这正是本脚本设计成可重复跑的原因——每建一批新根就该重扫一遍。
+    "adhere":   ("haerere", "ad-（朝）+ here（黏住）→ 贴上去黏牢 → 附着、遵守"),
+    "adjoin":   ("jungere", "ad-（朝）+ join（接合）→ 接到一处、彼此相连 → 毗连"),
 }
 
 

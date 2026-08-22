@@ -442,7 +442,10 @@
         "manufacture",
         "perfect",
         "proficiency",
-        "sufficient"
+        "sufficient",
+        "fashion",
+        "feasible",
+        "fax"
       ]
     },
     {
@@ -824,7 +827,8 @@
         "adverse",
         "diverse",
         "inverse",
-        "reverse"
+        "reverse",
+        "divorce"
       ]
     },
     {
@@ -1437,7 +1441,8 @@
         "confuse",
         "diffuse",
         "fuse",
-        "refuse"
+        "refuse",
+        "futile"
       ]
     },
     {
@@ -1646,7 +1651,8 @@
         "curious",
         "secure",
         "security",
-        "ensure"
+        "ensure",
+        "insure"
       ]
     },
     {
@@ -1664,7 +1670,8 @@
         "credibility",
         "credible",
         "credit",
-        "incredible"
+        "incredible",
+        "grant"
       ]
     },
     {
@@ -2348,7 +2355,8 @@
         "biography",
         "bibliography",
         "geography",
-        "telegraph"
+        "telegraph",
+        "glamor"
       ]
     },
     {
@@ -2822,7 +2830,8 @@
       "word_ids": [
         "aggravate",
         "grave",
-        "gravity"
+        "gravity",
+        "grief"
       ]
     },
     {
@@ -3070,7 +3079,8 @@
       "word_ids": [
         "art",
         "artist",
-        "artistic"
+        "artistic",
+        "inertia"
       ]
     },
     {
@@ -3162,7 +3172,10 @@
         "ability",
         "debt",
         "enable",
-        "disable"
+        "disable",
+        "due",
+        "duty",
+        "endeavor"
       ]
     },
     {
@@ -4073,7 +4086,8 @@
       "word_ids": [
         "climate",
         "climax",
-        "clinic"
+        "clinic",
+        "incline"
       ]
     },
     {
@@ -4318,6 +4332,224 @@
         "fairy",
         "fatal",
         "fate"
+      ]
+    },
+    {
+      "id": "jungere",
+      "root": "jungere",
+      "variants": [
+        "join",
+        "junct",
+        "jug"
+      ],
+      "origin": "拉丁语 jungere（把两物套到一处），过去分词 junctus；jugum（牛轭）同根——两头牛套进同一副轭，是这一族的本象",
+      "core_concept": "two things set into one yoke so they move as one / 两物套进同一副轭，从此一起动",
+      "core_image": "一副木轭卡在两头牛的颈上，一头往前，另一头跟着走",
+      "english_definition": "to yoke, join together",
+      "word_ids": [
+        "adjoin",
+        "join",
+        "joint",
+        "junction"
+      ]
+    },
+    {
+      "id": "jus",
+      "root": "jus",
+      "variants": [
+        "jud",
+        "jur",
+        "just"
+      ],
+      "origin": "拉丁语 jus（属格 juris：法、权利）；judex 是 jus＋dicere（宣法者），jurare 是「按法起誓」，justus 是「合于法的」",
+      "core_concept": "the standard by which right is measured / 衡量对错所依的那把准",
+      "core_image": "一杆秤立在中间，两边各放一份，看它往哪边偏",
+      "english_definition": "law, right, what is due",
+      "word_ids": [
+        "judge",
+        "jury",
+        "justice",
+        "justify"
+      ]
+    },
+    {
+      "id": "ire",
+      "root": "ire",
+      "variants": [
+        "it",
+        "iti",
+        "issu"
+      ],
+      "origin": "拉丁语 ire（去、行走），过去分词 itum；exire（出去）、initium（进入之始）、exitus（出口）皆由此出",
+      "core_concept": "setting off and passing through / 起脚往前，一路走过去",
+      "core_image": "门槛一跨，脚已经落在门外那一侧",
+      "english_definition": "to go",
+      "word_ids": [
+        "exit",
+        "initial",
+        "initiate",
+        "issue"
+      ]
+    },
+    {
+      "id": "haerere",
+      "root": "haerere",
+      "variants": [
+        "her",
+        "hes",
+        "hae"
+      ],
+      "origin": "拉丁语 haerere（黏住、卡住不动），过去分词 haesus；黏得牢即「连贯」，卡住不动即「犹疑」，两支同出一象",
+      "core_concept": "sticking fast so it will not come loose / 黏牢在那儿，撕不开也动不了",
+      "core_image": "两张纸沾在一处，手一撕就带下毛边，谁也不肯干净分开",
+      "english_definition": "to stick, cling, be fixed",
+      "word_ids": [
+        "adhere",
+        "coherent",
+        "cohesive",
+        "hesitate",
+        "inherent"
+      ]
+    },
+    {
+      "id": "fendere",
+      "root": "fendere",
+      "variants": [
+        "fend",
+        "fenc",
+        "fens"
+      ],
+      "origin": "拉丁语 -fendere（击、挡），只见于复合词：defendere（挡开）、offendere（撞上去）；英语 fence 是 defence 的截短",
+      "core_concept": "striking to keep a thing off / 挥出去一击，把来的挡在外头",
+      "core_image": "手臂横着一挡，来的那一下被架在外圈",
+      "english_definition": "to strike, ward off",
+      "word_ids": [
+        "defence",
+        "defend",
+        "fence"
+      ]
+    },
+    {
+      "id": "frons",
+      "root": "frons",
+      "variants": [
+        "front",
+        "fronti"
+      ],
+      "origin": "拉丁语 frons（属格 frontis：额头、正面）；额头是人朝前的那一面，故引申为凡物的正面与前缘",
+      "core_concept": "the face a thing turns forward / 一物朝前的那一面",
+      "core_image": "两人对面站着，额头正对额头，谁也没侧过身",
+      "english_definition": "forehead, front",
+      "word_ids": [
+        "confront",
+        "front",
+        "frontier"
+      ]
+    },
+    {
+      "id": "vadere",
+      "root": "vadere",
+      "variants": [
+        "vad",
+        "vas"
+      ],
+      "origin": "拉丁语 vadere（迈开步子走、涉水而过），过去分词 vasus；invadere 是「迈进别人的地界」，evadere 是「迈出去脱身」",
+      "core_concept": "striding across a line one is not meant to cross / 大步迈过那条本不该跨的线",
+      "core_image": "一脚跨过界桩，另一只脚跟着落在别人的地里",
+      "english_definition": "to go, stride, wade",
+      "word_ids": [
+        "evade",
+        "invade",
+        "invasion"
+      ]
+    },
+    {
+      "id": "fari",
+      "root": "fari",
+      "variants": [
+        "fab",
+        "fan",
+        "fess"
+      ],
+      "origin": "拉丁语 fari（说、开口），现在分词 fans、过去分词中性 fatum。第六十一批先建的 fatum（说定之数）正是它的过去分词；本根是被派生的本体，二者同源分支不同，照 dare 与 edere-publish/tradere 的先例并立",
+      "core_concept": "opening the mouth and letting words out / 开口，把话放出来",
+      "core_image": "嘴唇一动，话就出去了，收不回来",
+      "english_definition": "to speak, utter",
+      "word_ids": [
+        "fable",
+        "fabulous",
+        "infant"
+      ]
+    },
+    {
+      "id": "flos",
+      "root": "flos",
+      "variants": [
+        "flor",
+        "flour",
+        "flow"
+      ],
+      "origin": "拉丁语 flos（属格 floris：花）；开到最盛即 flourish，而 flour 本是「面粉中最好的那一层」（fleur de farine），故也归此支",
+      "core_concept": "the best of a thing, come to full bloom / 一物最盛、最好的那一层",
+      "core_image": "枝头那一朵开到最满，花瓣再展就要落了",
+      "english_definition": "flower, bloom, the best part",
+      "word_ids": [
+        "flour",
+        "flourish",
+        "flower"
+      ]
+    },
+    {
+      "id": "heres",
+      "root": "heres",
+      "variants": [
+        "her",
+        "herit",
+        "heir"
+      ],
+      "origin": "拉丁语 heres（属格 heredis：继承人）；hereditare 是「接过来」，英语 heir 经古法语 eir 入，h 是后来照拉丁语补写的",
+      "core_concept": "the one whose hands the thing passes into next / 东西下一步落到谁手里",
+      "core_image": "老人把那串钥匙放到一个人手心，自己的手就松开了",
+      "english_definition": "heir, one who inherits",
+      "word_ids": [
+        "heir",
+        "heritage",
+        "inherit"
+      ]
+    },
+    {
+      "id": "jocus",
+      "root": "jocus",
+      "variants": [
+        "joc",
+        "jew",
+        "joy"
+      ],
+      "origin": "拉丁语 jocus（玩笑、戏言）；古法语 jouel（小玩物）派出 jewel 一支——本指供人玩赏的小物，后专指宝石",
+      "core_concept": "a small thing made for delight, not use / 拿来逗趣玩赏、不为实用的小东西",
+      "core_image": "掌心里那个小玩意儿被翻来翻去，逗得旁人都笑了",
+      "english_definition": "jest, plaything",
+      "word_ids": [
+        "jewel",
+        "jewelry",
+        "joke"
+      ]
+    },
+    {
+      "id": "dran",
+      "root": "dran",
+      "variants": [
+        "dram",
+        "drast"
+      ],
+      "origin": "希腊语 dran（做、行动）；drama 本指「做出来给人看的一场」，drastikos 指「见效猛的」——同一个「做」字，一支往台上走，一支往力道走",
+      "core_concept": "something done in full view, with effect / 摆开来做给人看，且见得着效",
+      "core_image": "台上那人一举手，底下几百双眼跟着动",
+      "english_definition": "to do, act",
+      "word_ids": [
+        "drama",
+        "dramatic",
+        "drastic"
       ]
     }
   ]

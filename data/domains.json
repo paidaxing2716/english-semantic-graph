@@ -36,7 +36,8 @@
         "battuere",
         "damnum",
         "fallere",
-        "fatum"
+        "fatum",
+        "fendere"
       ]
     },
     {
@@ -90,7 +91,8 @@
         "bulla",
         "crux",
         "densus",
-        "discus"
+        "discus",
+        "frons"
       ]
     },
     {
@@ -127,7 +129,10 @@
         "carrus",
         "tradere",
         "canalis",
-        "dare"
+        "dare",
+        "ire",
+        "vadere",
+        "heres"
       ]
     },
     {
@@ -184,7 +189,10 @@
         "sidus",
         "citare",
         "putare",
-        "phainein"
+        "phainein",
+        "jus",
+        "fari",
+        "jocus"
       ]
     },
     {
@@ -235,7 +243,9 @@
         "praeesse",
         "bainein",
         "caput",
-        "kamara"
+        "kamara",
+        "jungere",
+        "haerere"
       ]
     },
     {
@@ -271,7 +281,9 @@
         "planta",
         "instaurare",
         "colere",
-        "creare"
+        "creare",
+        "flos",
+        "dran"
       ]
     }
   ]

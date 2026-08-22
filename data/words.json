@@ -41584,10 +41584,11 @@
       "word": "adhere",
       "pos": "verb",
       "phonetic": "/ədˈhɪə/",
-      "decomposable": "germanic",
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "haerere"
+      ],
+      "root_logic": "ad-（朝）+ here（黏住）→ 贴上去黏牢 → 附着、遵守",
       "origin": "拉丁语 adhaerere（贴住）← ad-（向）+ haerere（黏住）",
       "native_definition": "to stick firmly to a surface, or to follow a rule closely",
       "core_concept": "staying stuck fast to what it is on – 紧贴在所贴的那面上不脱开",
@@ -41615,10 +41616,11 @@
       "word": "adjoin",
       "pos": "verb",
       "phonetic": "/əˈdʒɔɪn/",
-      "decomposable": "germanic",
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "jungere"
+      ],
+      "root_logic": "ad-（朝）+ join（接合）→ 接到一处、彼此相连 → 毗连",
       "origin": "古法语 ajoindre ← 拉丁语 adjungere（连到一起）← ad-（向）+ jungere（连接）",
       "native_definition": "to be next to and touching something",
       "core_concept": "sitting right up against it with nothing in between – 挨到一处，中间不留缝",
@@ -78066,6 +78068,2040 @@
         "踹：同一动作使足了劲，直着送出",
         "后坐力：枪像被脚蹬了一下那样往后顶"
       ]
+    },
+    {
+      "id": "join",
+      "word": "join",
+      "pos": "verb",
+      "phonetic": "/dʒɔɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "jungere"
+      ],
+      "root_logic": "jungere（套到一处）→ 把两边接上，或自己并进去",
+      "origin": "古法语 joindre ← 拉丁语 jungere（接合）",
+      "native_definition": "to connect two things; to become a member of a group",
+      "core_concept": "bringing two ends together until they hold as one – 把两头凑到一处，直到它们成一体",
+      "core_image": "两截管子对上口，箍一紧就再拔不开",
+      "chinese": [
+        "连接",
+        "加入",
+        "接合"
+      ],
+      "examples": [
+        "Join the two wires together.",
+        "She joined the club last spring."
+      ],
+      "synonyms": [
+        "connect",
+        "unite"
+      ],
+      "antonyms": [
+        "separate",
+        "split"
+      ],
+      "related": [
+        "joint",
+        "junction"
+      ],
+      "semantic_expansions": [
+        "连接/接合：把两头凑到一处使成一体",
+        "加入：把自己并进那一群里"
+      ],
+      "recall_hint": "jungere（套到一处）→ 把两边接上"
+    },
+    {
+      "id": "joint",
+      "word": "joint",
+      "pos": "noun",
+      "phonetic": "/dʒɔɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "jungere"
+      ],
+      "root_logic": "junctus（已接合的）→ 两段相接的那一处 → 关节、接头",
+      "origin": "古法语 jointe ← 拉丁语 junctus（jungere 的过去分词）",
+      "native_definition": "a place where two parts meet and can move; shared between two",
+      "core_concept": "the spot where two pieces meet and still bend – 两段相接、又还能弯的那一处",
+      "core_image": "两根骨头搭在一处，中间那点能屈能伸",
+      "chinese": [
+        "关节",
+        "接头",
+        "共同的"
+      ],
+      "examples": [
+        "He injured his knee joint.",
+        "They made a joint decision."
+      ],
+      "synonyms": [
+        "junction",
+        "shared"
+      ],
+      "antonyms": [],
+      "related": [
+        "join",
+        "junction"
+      ],
+      "semantic_expansions": [
+        "关节/接头：两段相接又能活动的那一处",
+        "共同的：两方套在同一副轭里、一起承担"
+      ],
+      "recall_hint": "junctus（已接合）→ 两段相接的那一处"
+    },
+    {
+      "id": "junction",
+      "word": "junction",
+      "pos": "noun",
+      "phonetic": "/ˈdʒʌŋkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "jungere"
+      ],
+      "root_logic": "junct（接合）+ -ion → 几条道接到一处的那个点 → 交汇处",
+      "origin": "拉丁语 junctio（接合）← jungere（接合）",
+      "native_definition": "a place where roads or railway lines meet",
+      "core_concept": "the point several ways run into and become one – 几条路跑到一处、并成一条的那个点",
+      "core_image": "三条道跑到一处并成一条，中间立着一根杆",
+      "chinese": [
+        "交汇处",
+        "路口",
+        "枢纽"
+      ],
+      "examples": [
+        "Turn left at the next junction.",
+        "The junction was closed for repairs."
+      ],
+      "synonyms": [
+        "meeting",
+        "corner"
+      ],
+      "antonyms": [],
+      "related": [
+        "join",
+        "joint"
+      ],
+      "semantic_expansions": [
+        "交汇处/路口：几条道接到一处的那个点",
+        "枢纽：多条线路在此并接的要地"
+      ],
+      "recall_hint": "junct（接合）+ -ion → 几条道接到一处的点"
+    },
+    {
+      "id": "judge",
+      "word": "judge",
+      "pos": "verb",
+      "phonetic": "/dʒʌdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "jus"
+      ],
+      "root_logic": "jus（法）+ dicere（说）→ judex（宣法的人）→ 依准断定",
+      "origin": "古法语 juger ← 拉丁语 judicare ← judex（法官）← jus（法）＋dicere（说）",
+      "native_definition": "to form an opinion after weighing evidence; a person who decides in court",
+      "core_concept": "the one who reads the scale and says which way it went – 看着秤，说出它偏向哪边的那个",
+      "core_image": "两边的说法都听完，他抬头说出偏向哪一边",
+      "chinese": [
+        "判断",
+        "评判",
+        "法官"
+      ],
+      "examples": [
+        "Do not judge by appearance.",
+        "The judge dismissed the case."
+      ],
+      "synonyms": [
+        "assess",
+        "magistrate"
+      ],
+      "antonyms": [],
+      "related": [
+        "justice",
+        "jury"
+      ],
+      "semantic_expansions": [
+        "判断/评判：依准衡量后说出结论",
+        "法官：受命做此事的那个人"
+      ],
+      "recall_hint": "jus（法）+ dicere（说）→ 依准断定的人"
+    },
+    {
+      "id": "jury",
+      "word": "jury",
+      "pos": "noun",
+      "phonetic": "/ˈdʒʊəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "jus"
+      ],
+      "root_logic": "jurare（按法起誓）→ 起过誓来断案的那一组人",
+      "origin": "盎格鲁法语 juree ← 拉丁语 jurata（起誓者）← jurare（起誓）← jus（法）",
+      "native_definition": "a group of people who decide a verdict in court",
+      "core_concept": "the several sworn in to read the scale together – 一齐起过誓、共同看秤的那几个人",
+      "core_image": "十二个人挨着坐一排，手按在书上说完同一句话",
+      "chinese": [
+        "陪审团",
+        "评审团"
+      ],
+      "examples": [
+        "The jury reached a verdict.",
+        "She served on a jury last year."
+      ],
+      "synonyms": [
+        "panel",
+        "board"
+      ],
+      "antonyms": [],
+      "related": [
+        "judge",
+        "justice"
+      ],
+      "semantic_expansions": [
+        "陪审团/评审团：起誓后共同评断的那一组人"
+      ],
+      "recall_hint": "jurare（按法起誓）→ 起誓断案的那组人"
+    },
+    {
+      "id": "justice",
+      "word": "justice",
+      "pos": "noun",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "jus"
+      ],
+      "root_logic": "just（合于法）+ -ice → 该给谁的就给谁 → 公正",
+      "origin": "古法语 justice ← 拉丁语 justitia（公正）← justus（合法的）← jus（法）",
+      "native_definition": "fair treatment; the system of law",
+      "core_concept": "the scale coming to rest level, neither side favoured – 秤停在正中，两边谁也不占便宜",
+      "core_image": "两份东西各放一边，指针不偏不倚停在中线",
+      "chinese": [
+        "公正",
+        "司法",
+        "正义"
+      ],
+      "examples": [
+        "She fought for justice.",
+        "The case went to the justice system."
+      ],
+      "synonyms": [
+        "fairness",
+        "law"
+      ],
+      "antonyms": [
+        "unfair"
+      ],
+      "related": [
+        "judge",
+        "justify"
+      ],
+      "semantic_expansions": [
+        "公正/正义：秤停在正中、该给谁给谁",
+        "司法：把这套准则落实下来的那一整套"
+      ],
+      "recall_hint": "just（合于法）+ -ice → 该给谁就给谁"
+    },
+    {
+      "id": "justify",
+      "word": "justify",
+      "pos": "verb",
+      "phonetic": "/ˈdʒʌstɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "jus"
+      ],
+      "root_logic": "just（合于法）+ -ify（使…）→ 说明它站得住 → 证明正当",
+      "origin": "古法语 justifier ← 晚期拉丁语 justificare ← justus（合法的）＋facere（做）",
+      "native_definition": "to show that something is right or reasonable",
+      "core_concept": "putting weight on your side until the scale tips your way – 往自己这边添分量，直到秤偏过来",
+      "core_image": "他把一件件依据摆到自己那盘里，秤慢慢压了过去",
+      "chinese": [
+        "证明正当",
+        "辩解",
+        "为…提供理由"
+      ],
+      "examples": [
+        "Can you justify that cost?",
+        "Nothing justifies such cruelty."
+      ],
+      "synonyms": [
+        "defend",
+        "warrant"
+      ],
+      "antonyms": [],
+      "related": [
+        "justice",
+        "judge"
+      ],
+      "semantic_expansions": [
+        "证明正当/为…提供理由：添够分量使秤偏向自己",
+        "辩解：为已做之事补上这份分量"
+      ],
+      "recall_hint": "just（合于法）+ -ify → 说明它站得住"
+    },
+    {
+      "id": "exit",
+      "word": "exit",
+      "pos": "noun",
+      "phonetic": "/ˈeksɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ire"
+      ],
+      "root_logic": "ex-（出）+ it（ire 行走）→ 走出去的那个口",
+      "origin": "拉丁语 exitus（出去、出口）← exire（出去）← ex＋ire（行走）",
+      "native_definition": "a way out of a place; the act of leaving",
+      "core_concept": "the gap you step through on the way out – 往外走时跨过的那个口",
+      "core_image": "绿灯亮着的那扇门后头是台阶，人一个个跨出去",
+      "chinese": [
+        "出口",
+        "退场",
+        "离开"
+      ],
+      "examples": [
+        "The exit is at the back.",
+        "He made a quiet exit."
+      ],
+      "synonyms": [
+        "door",
+        "departure"
+      ],
+      "antonyms": [
+        "entrance"
+      ],
+      "related": [
+        "initial",
+        "issue"
+      ],
+      "semantic_expansions": [
+        "出口：往外走时跨过的那个口",
+        "退场/离开：跨出去这个动作本身"
+      ],
+      "recall_hint": "ex-（出）+ it（行走）→ 走出去的那个口"
+    },
+    {
+      "id": "initial",
+      "word": "initial",
+      "pos": "adjective",
+      "phonetic": "/ɪˈnɪʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "ire"
+      ],
+      "root_logic": "in-（进入）+ it（行走）+ -al → initium（迈进的第一步）→ 最初的",
+      "origin": "拉丁语 initialis（起头的）← initium（开始）← inire（进入）← in＋ire（行走）",
+      "native_definition": "existing at the beginning; the first letter of a name",
+      "core_concept": "the first foot set down inside the door – 进门后落下的第一只脚",
+      "core_image": "刚跨进来那一步印在灰上，后面的脚印都在它前头",
+      "chinese": [
+        "最初的",
+        "开头的",
+        "首字母"
+      ],
+      "examples": [
+        "My initial reaction was surprise.",
+        "Sign with your initials here."
+      ],
+      "synonyms": [
+        "first",
+        "opening"
+      ],
+      "antonyms": [
+        "final"
+      ],
+      "related": [
+        "initiate",
+        "exit"
+      ],
+      "semantic_expansions": [
+        "最初的/开头的：进门后落下的第一只脚",
+        "首字母：名字最前头那一个字"
+      ],
+      "recall_hint": "in-（进入）+ it（行走）→ 迈进的第一步"
+    },
+    {
+      "id": "initiate",
+      "word": "initiate",
+      "pos": "verb",
+      "phonetic": "/ɪˈnɪʃieɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ire"
+      ],
+      "root_logic": "initium（第一步）+ -ate（使…）→ 走出第一步 → 发起",
+      "origin": "拉丁语 initiare（开始、引入）← initium ← inire（进入）← in＋ire",
+      "native_definition": "to cause something to begin; to admit someone into a group",
+      "core_concept": "taking the one step that starts the rest moving – 迈出那一步，后面的才跟着动",
+      "core_image": "他先走了一步，原地站着的人这才跟上",
+      "chinese": [
+        "发起",
+        "开始",
+        "使入会"
+      ],
+      "examples": [
+        "They initiated a new program.",
+        "He was initiated into the order."
+      ],
+      "synonyms": [
+        "begin",
+        "launch"
+      ],
+      "antonyms": [
+        "conclude"
+      ],
+      "related": [
+        "initial",
+        "exit"
+      ],
+      "semantic_expansions": [
+        "发起/开始：迈出那第一步使其余跟着动",
+        "使入会：引某人跨进那个圈子"
+      ],
+      "recall_hint": "initium（第一步）+ -ate → 走出第一步"
+    },
+    {
+      "id": "issue",
+      "word": "issue",
+      "pos": "noun",
+      "phonetic": "/ˈɪʃuː/",
+      "decomposable": "root",
+      "root_ids": [
+        "ire"
+      ],
+      "root_logic": "ex-（出）+ issue（ire 行走）→ 走出来的那一批 → 发行；引申为待处理之事",
+      "origin": "古法语 issue（出去、结果）← 拉丁语 exire（出去）← ex＋ire（行走）",
+      "native_definition": "an important topic; a set of copies published at one time; to send out",
+      "core_concept": "what comes walking out of the door, batch by batch – 一批批从门里走出来的那些",
+      "core_image": "印好的一摞从后门一批批运出来，封面日期都一样",
+      "chinese": [
+        "问题",
+        "议题",
+        "期号",
+        "发行"
+      ],
+      "examples": [
+        "This is a serious issue.",
+        "The magazine issues monthly."
+      ],
+      "synonyms": [
+        "matter",
+        "edition"
+      ],
+      "antonyms": [],
+      "related": [
+        "exit",
+        "initial"
+      ],
+      "semantic_expansions": [
+        "问题/议题：摆到面前待处理的那一桩",
+        "期号/发行：一批批出门的那些印本"
+      ],
+      "recall_hint": "ex-（出）+ issue（行走）→ 走出来的那一批"
+    },
+    {
+      "id": "coherent",
+      "word": "coherent",
+      "pos": "adjective",
+      "phonetic": "/kəʊˈhɪərənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "haerere"
+      ],
+      "root_logic": "co-（一起）+ her（黏住）+ -ent → 各部分黏成一体、说得通的",
+      "origin": "拉丁语 cohaerens（连在一起的）← cohaerere ← com＋haerere（黏住）",
+      "native_definition": "logically connected and easy to follow",
+      "core_concept": "the parts stuck together so tightly the whole holds – 各部分黏得够牢，整体拎起来不散",
+      "core_image": "几段话前后咬着，抽掉哪一段后面都接不上",
+      "chinese": [
+        "连贯的",
+        "条理清楚的"
+      ],
+      "examples": [
+        "She gave a coherent account.",
+        "The argument is not coherent."
+      ],
+      "synonyms": [
+        "logical",
+        "consistent"
+      ],
+      "antonyms": [
+        "muddled"
+      ],
+      "related": [
+        "cohesive",
+        "inherent"
+      ],
+      "semantic_expansions": [
+        "连贯的/条理清楚的：各部分黏成一体、拎起来不散"
+      ],
+      "recall_hint": "co-（一起）+ her（黏住）→ 各部分黏成一体"
+    },
+    {
+      "id": "cohesive",
+      "word": "cohesive",
+      "pos": "adjective",
+      "phonetic": "/kəʊˈhiːsɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "haerere"
+      ],
+      "root_logic": "co-（一起）+ hes（黏住）+ -ive → 能把彼此黏住的",
+      "origin": "英语 cohesive，来自拉丁语 cohaesus（cohaerere 的过去分词）← haerere",
+      "native_definition": "sticking together well; forming a united whole",
+      "core_concept": "what makes the pieces hold to one another – 使各块相互黏着的那份力",
+      "core_image": "湿沙攥成一团松手不散，干沙一松就漏下去",
+      "chinese": [
+        "有黏性的",
+        "团结的"
+      ],
+      "examples": [
+        "They are a cohesive team.",
+        "Wet clay is more cohesive."
+      ],
+      "synonyms": [
+        "sticky",
+        "firm"
+      ],
+      "antonyms": [
+        "loose"
+      ],
+      "related": [
+        "coherent",
+        "inherent"
+      ],
+      "semantic_expansions": [
+        "有黏性的：能把彼此黏住的",
+        "团结的：一群人同样相互黏着不散"
+      ],
+      "recall_hint": "co-（一起）+ hes（黏住）+ -ive → 能相互黏住的"
+    },
+    {
+      "id": "inherent",
+      "word": "inherent",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈhɪərənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "haerere"
+      ],
+      "root_logic": "in-（在内）+ her（黏住）+ -ent → 黏在里头拿不掉的 → 固有的",
+      "origin": "拉丁语 inhaerens（附着于内的）← inhaerere ← in＋haerere（黏住）",
+      "native_definition": "existing as a natural and permanent part of something",
+      "core_concept": "stuck so deep inside that removing it would break the thing – 黏在里头，要取出来就得把那东西拆了",
+      "core_image": "花纹是烧进瓷胎里的，擦不掉也磨不去",
+      "chinese": [
+        "固有的",
+        "内在的",
+        "天生的"
+      ],
+      "examples": [
+        "Risk is inherent in the job.",
+        "It has an inherent weakness."
+      ],
+      "synonyms": [
+        "intrinsic",
+        "natural"
+      ],
+      "antonyms": [
+        "external"
+      ],
+      "related": [
+        "coherent",
+        "hesitate"
+      ],
+      "semantic_expansions": [
+        "固有的/内在的/天生的：黏在里头取不出来的那部分"
+      ],
+      "recall_hint": "in-（在内）+ her（黏住）→ 黏在里头拿不掉"
+    },
+    {
+      "id": "hesitate",
+      "word": "hesitate",
+      "pos": "verb",
+      "phonetic": "/ˈhezɪteɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "haerere"
+      ],
+      "root_logic": "haes（卡住不动）+ -itate（反复）→ 反复卡在那儿 → 迟疑",
+      "origin": "拉丁语 haesitare（卡住、结巴）← haerere（黏住、卡住）的反复体",
+      "native_definition": "to pause before doing something because of doubt",
+      "core_concept": "the foot that lifts and comes back down in the same spot – 脚抬起来又落回原处，没往前挪",
+      "core_image": "他手伸到一半停住，收回来又伸出去",
+      "chinese": [
+        "犹豫",
+        "迟疑"
+      ],
+      "examples": [
+        "She hesitated before answering.",
+        "Do not hesitate to ask."
+      ],
+      "synonyms": [
+        "pause",
+        "delay"
+      ],
+      "antonyms": [
+        "decide"
+      ],
+      "related": [
+        "inherent",
+        "coherent"
+      ],
+      "semantic_expansions": [
+        "犹豫/迟疑：脚抬起又落回原处，反复卡在那儿"
+      ],
+      "recall_hint": "haes（卡住）+ -itate（反复）→ 反复卡在那儿"
+    },
+    {
+      "id": "defend",
+      "word": "defend",
+      "pos": "verb",
+      "phonetic": "/dɪˈfend/",
+      "decomposable": "root",
+      "root_ids": [
+        "fendere"
+      ],
+      "root_logic": "de-（离开）+ fend（击）→ 把来的击开、使它离远 → 防御",
+      "origin": "古法语 defendre ← 拉丁语 defendere（挡开、保护）← de＋fendere（击）",
+      "native_definition": "to protect from attack; to argue in support of",
+      "core_concept": "the arm put up so the blow lands somewhere else – 手臂架上去，那一下就落到别处",
+      "core_image": "他抬臂一格，砸下来的那下偏到了肩外",
+      "chinese": [
+        "保卫",
+        "防御",
+        "辩护"
+      ],
+      "examples": [
+        "They defended the city for weeks.",
+        "She defended her decision."
+      ],
+      "synonyms": [
+        "protect",
+        "guard"
+      ],
+      "antonyms": [
+        "attack"
+      ],
+      "related": [
+        "defence",
+        "fence"
+      ],
+      "semantic_expansions": [
+        "保卫/防御：把来的击开使其落到别处",
+        "辩护：同样是把冲自己来的话挡开"
+      ],
+      "recall_hint": "de-（离开）+ fend（击）→ 把来的击开"
+    },
+    {
+      "id": "defence",
+      "word": "defence",
+      "pos": "noun",
+      "phonetic": "/dɪˈfens/",
+      "decomposable": "root",
+      "root_ids": [
+        "fendere"
+      ],
+      "root_logic": "defend（挡开）+ -ce → 挡这件事，及用来挡的那一套",
+      "origin": "古法语 defense ← 拉丁语 defensa ← defendere（挡开）← de＋fendere",
+      "native_definition": "the act of protecting; something that protects",
+      "core_concept": "whatever is put between you and the blow – 架在自己与那一下之间的东西",
+      "core_image": "土墙、壕沟、拒马一层层排在前头",
+      "chinese": [
+        "防御",
+        "防务",
+        "辩护"
+      ],
+      "examples": [
+        "The country spends much on defence.",
+        "He spoke in his own defence."
+      ],
+      "synonyms": [
+        "protection",
+        "shield"
+      ],
+      "antonyms": [
+        "attack"
+      ],
+      "related": [
+        "defend",
+        "fence"
+      ],
+      "semantic_expansions": [
+        "防御/防务：挡这件事及用来挡的那一套",
+        "辩护：法庭上替自己挡的那番话"
+      ],
+      "recall_hint": "defend（挡开）+ -ce → 挡这件事及所用之物"
+    },
+    {
+      "id": "fence",
+      "word": "fence",
+      "pos": "noun",
+      "phonetic": "/fens/",
+      "decomposable": "root",
+      "root_ids": [
+        "fendere"
+      ],
+      "root_logic": "defence 的截短 → 拦在四周挡人畜的那道栅",
+      "origin": "中古英语 fens，defence 的截短形 ← 拉丁语 defendere（挡开）",
+      "native_definition": "a barrier of wood or wire around a piece of land",
+      "core_concept": "the line of stakes that keeps what is outside outside – 一排桩子把外头的挡在外头",
+      "core_image": "一排木桩钉进土里，中间拉着铁丝，牛走到那儿就停",
+      "chinese": [
+        "篱笆",
+        "栅栏",
+        "围栏"
+      ],
+      "examples": [
+        "They built a fence around the yard.",
+        "The horse jumped the fence."
+      ],
+      "synonyms": [
+        "barrier",
+        "railing"
+      ],
+      "antonyms": [],
+      "related": [
+        "defend",
+        "defence"
+      ],
+      "semantic_expansions": [
+        "篱笆/栅栏/围栏：拦在四周、把外头挡在外头的那道"
+      ],
+      "recall_hint": "defence 截短 → 拦在四周挡人畜的那道栅"
+    },
+    {
+      "id": "front",
+      "word": "front",
+      "pos": "noun",
+      "phonetic": "/frʌnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "frons"
+      ],
+      "root_logic": "frons（额头）→ 朝前的那一面 → 前部、正面",
+      "origin": "古法语 front（额、正面）← 拉丁语 frons（额头）",
+      "native_definition": "the side that faces forward; the most forward part",
+      "core_concept": "the face that meets you first as you come up – 你走近时先碰到的那一面",
+      "core_image": "屋子朝街那一面开着窗，背面只有一道墙",
+      "chinese": [
+        "前面",
+        "正面",
+        "前线"
+      ],
+      "examples": [
+        "Sit at the front of the bus.",
+        "Troops moved up to the front."
+      ],
+      "synonyms": [
+        "face",
+        "head"
+      ],
+      "antonyms": [
+        "back",
+        "rear"
+      ],
+      "related": [
+        "frontier",
+        "confront"
+      ],
+      "semantic_expansions": [
+        "前面/正面：朝前、先碰到的那一面",
+        "前线：两军相对时朝前的那一面"
+      ],
+      "recall_hint": "frons（额头）→ 朝前的那一面"
+    },
+    {
+      "id": "frontier",
+      "word": "frontier",
+      "pos": "noun",
+      "phonetic": "/ˈfrʌntɪə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "frons"
+      ],
+      "root_logic": "front（正面）+ -ier → 一国朝外那条边 → 边境；引申为未开之域",
+      "origin": "古法语 frontiere（前沿）← front ← 拉丁语 frons（额头、正面）",
+      "native_definition": "the border between two countries; the edge of what is known",
+      "core_concept": "the outermost line a land turns toward the world – 一片地朝外顶着的那条最外的线",
+      "core_image": "界桩一路排到山脊，过了那道线就是别处",
+      "chinese": [
+        "边境",
+        "边疆",
+        "前沿"
+      ],
+      "examples": [
+        "They crossed the frontier at night.",
+        "It is a new frontier in medicine."
+      ],
+      "synonyms": [
+        "border",
+        "boundary"
+      ],
+      "antonyms": [],
+      "related": [
+        "front",
+        "confront"
+      ],
+      "semantic_expansions": [
+        "边境/边疆：一国朝外顶着的那条最外线",
+        "前沿：知识或技术顶到的那条边"
+      ],
+      "recall_hint": "front（正面）+ -ier → 朝外顶着的那条边"
+    },
+    {
+      "id": "confront",
+      "word": "confront",
+      "pos": "verb",
+      "phonetic": "/kənˈfrʌnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "frons"
+      ],
+      "root_logic": "con-（相对）+ front（额面）→ 额头对额头 → 正面相对",
+      "origin": "法语 confronter ← 中世纪拉丁语 confrontare ← com＋frons（额头）",
+      "native_definition": "to face someone or something difficult directly",
+      "core_concept": "turning to put your forehead against the other's – 转过身把自己的额头对上对方的",
+      "core_image": "他没有绕开，转过身直接站到那人跟前",
+      "chinese": [
+        "面对",
+        "对抗",
+        "使对质"
+      ],
+      "examples": [
+        "She confronted him about the lie.",
+        "We must confront the problem."
+      ],
+      "synonyms": [
+        "face",
+        "challenge"
+      ],
+      "antonyms": [
+        "avoid"
+      ],
+      "related": [
+        "front",
+        "frontier"
+      ],
+      "semantic_expansions": [
+        "面对/对抗：转身把额头对上对方，不绕开",
+        "使对质：把两方拉到面对面"
+      ],
+      "recall_hint": "con-（相对）+ front（额面）→ 额头对额头"
+    },
+    {
+      "id": "invade",
+      "word": "invade",
+      "pos": "verb",
+      "phonetic": "/ɪnˈveɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "vadere"
+      ],
+      "root_logic": "in-（进入）+ vade（迈步）→ 迈进别人的地界 → 侵入",
+      "origin": "拉丁语 invadere（侵入）← in＋vadere（迈步而行）",
+      "native_definition": "to enter a place by force; to crowd into somewhere",
+      "core_concept": "the foot coming down inside a line it had no right to cross – 脚落在本不该越过的那条线里侧",
+      "core_image": "界桩还立在那儿，一队人已经踩进了桩子里边",
+      "chinese": [
+        "侵略",
+        "侵入",
+        "涌入"
+      ],
+      "examples": [
+        "The army invaded at dawn.",
+        "Tourists invade the town each July."
+      ],
+      "synonyms": [
+        "attack",
+        "occupy"
+      ],
+      "antonyms": [
+        "retreat"
+      ],
+      "related": [
+        "invasion",
+        "evade"
+      ],
+      "semantic_expansions": [
+        "侵略/侵入：迈进本不该进的地界",
+        "涌入：大批人同样跨进来占满"
+      ],
+      "recall_hint": "in-（进入）+ vade（迈步）→ 迈进别人地界"
+    },
+    {
+      "id": "invasion",
+      "word": "invasion",
+      "pos": "noun",
+      "phonetic": "/ɪnˈveɪʒn/",
+      "decomposable": "root",
+      "root_ids": [
+        "vadere"
+      ],
+      "root_logic": "invade（侵入）+ -sion → 侵入这件事",
+      "origin": "拉丁语 invasio ← invadere（侵入）← in＋vadere",
+      "native_definition": "an act of entering by force; an unwelcome intrusion",
+      "core_concept": "the whole of that crossing, once it has happened – 跨进来这件事整个算下来",
+      "core_image": "第二天清早，界内已经全是别处来的脚印",
+      "chinese": [
+        "入侵",
+        "侵犯"
+      ],
+      "examples": [
+        "The invasion began in spring.",
+        "It was an invasion of privacy."
+      ],
+      "synonyms": [
+        "attack",
+        "raid"
+      ],
+      "antonyms": [],
+      "related": [
+        "invade",
+        "evade"
+      ],
+      "semantic_expansions": [
+        "入侵/侵犯：迈进本不该进之处这件事"
+      ],
+      "recall_hint": "invade（侵入）+ -sion → 侵入这件事"
+    },
+    {
+      "id": "evade",
+      "word": "evade",
+      "pos": "verb",
+      "phonetic": "/ɪˈveɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "vadere"
+      ],
+      "root_logic": "e-（ex- 出）+ vade（迈步）→ 迈出去脱身 → 躲开",
+      "origin": "拉丁语 evadere（逃出）← ex＋vadere（迈步而行）",
+      "native_definition": "to escape or avoid something, often by cleverness",
+      "core_concept": "stepping out through the gap before the hand closes – 手合上之前先迈出那道缝",
+      "core_image": "追到墙角却没人，只有一扇半开的小门",
+      "chinese": [
+        "逃避",
+        "回避",
+        "躲开"
+      ],
+      "examples": [
+        "He evaded the question.",
+        "She evaded capture for months."
+      ],
+      "synonyms": [
+        "escape",
+        "avoid"
+      ],
+      "antonyms": [
+        "confront"
+      ],
+      "related": [
+        "invade",
+        "invasion"
+      ],
+      "semantic_expansions": [
+        "逃避/回避：手合上之前先迈出那道缝",
+        "躲开：同一动作用在具体的追捕上"
+      ],
+      "recall_hint": "e-（出）+ vade（迈步）→ 迈出去脱身"
+    },
+    {
+      "id": "fable",
+      "word": "fable",
+      "pos": "noun",
+      "phonetic": "/ˈfeɪbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fari"
+      ],
+      "root_logic": "fabula（讲出来的话）← fari（说）→ 讲给人听的那种短故事",
+      "origin": "古法语 fable ← 拉丁语 fabula（谈话、故事）← fari（说）",
+      "native_definition": "a short story with a moral, often about animals",
+      "core_concept": "the tale that exists only in the telling – 只靠口说才存在的那个故事",
+      "core_image": "老人一开口讲那只狐狸，孩子们就不出声了",
+      "chinese": [
+        "寓言",
+        "传说",
+        "虚构之事"
+      ],
+      "examples": [
+        "He read the fable aloud.",
+        "That story is pure fable."
+      ],
+      "synonyms": [
+        "tale",
+        "legend"
+      ],
+      "antonyms": [
+        "fact"
+      ],
+      "related": [
+        "fabulous",
+        "infant"
+      ],
+      "semantic_expansions": [
+        "寓言/传说：靠口说流传的那种短故事",
+        "虚构之事：因此指不实之说"
+      ],
+      "recall_hint": "fabula（讲出来的话）← fari（说）→ 口说的故事"
+    },
+    {
+      "id": "fabulous",
+      "word": "fabulous",
+      "pos": "adjective",
+      "phonetic": "/ˈfæbjələs/",
+      "decomposable": "root",
+      "root_ids": [
+        "fari"
+      ],
+      "root_logic": "fabula（故事）+ -ous → 像故事里那样的 → 惊人的、极好的",
+      "origin": "拉丁语 fabulosus（传说中的）← fabula（故事）← fari（说）",
+      "native_definition": "extremely good; so great as to seem made up",
+      "core_concept": "the kind of thing you would only expect to hear in a tale – 只该在故事里听到的那种",
+      "core_image": "端上来那一桌，客人先说了句「这哪像真的」",
+      "chinese": [
+        "极好的",
+        "惊人的",
+        "传说中的"
+      ],
+      "examples": [
+        "The meal was fabulous.",
+        "He has fabulous wealth."
+      ],
+      "synonyms": [
+        "wonderful",
+        "amazing"
+      ],
+      "antonyms": [
+        "ordinary"
+      ],
+      "related": [
+        "fable",
+        "infant"
+      ],
+      "semantic_expansions": [
+        "极好的/惊人的：好到像只该在故事里听到",
+        "传说中的：本义，出自故事的"
+      ],
+      "recall_hint": "fabula（故事）+ -ous → 像故事里那样的"
+    },
+    {
+      "id": "infant",
+      "word": "infant",
+      "pos": "noun",
+      "phonetic": "/ˈɪnfənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fari"
+      ],
+      "root_logic": "in-（不）+ fant（fari 的现在分词 fans 说）→ 还不会说话的那个 → 婴儿",
+      "origin": "古法语 enfant ← 拉丁语 infans（不会说话的）← in-（不）＋fari（说）的现在分词",
+      "native_definition": "a very young child, especially one not yet walking",
+      "core_concept": "the one who has everything to say and no words yet – 什么都想表达、却还没有话的那个",
+      "core_image": "他张着嘴使劲出声，但那些声音还拼不成词",
+      "chinese": [
+        "婴儿",
+        "幼儿"
+      ],
+      "examples": [
+        "The infant slept through the night.",
+        "Infant care takes patience."
+      ],
+      "synonyms": [
+        "baby",
+        "child"
+      ],
+      "antonyms": [
+        "adult"
+      ],
+      "related": [
+        "fable",
+        "fabulous"
+      ],
+      "semantic_expansions": [
+        "婴儿/幼儿：还不会说话的那个"
+      ],
+      "recall_hint": "in-（不）+ fant（说）→ 还不会说话的那个"
+    },
+    {
+      "id": "flower",
+      "word": "flower",
+      "pos": "noun",
+      "phonetic": "/ˈflaʊə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "flos"
+      ],
+      "root_logic": "flos（花）→ 植株开出来的那一朵",
+      "origin": "古法语 flour ← 拉丁语 flos/floris（花）",
+      "native_definition": "the coloured part of a plant that produces seeds",
+      "core_concept": "the part a plant puts out when it has strength to spare – 植株攒足了劲才推出来的那一处",
+      "core_image": "枝上那处颜色一天天张开，花瓣一层压着一层",
+      "chinese": [
+        "花",
+        "开花"
+      ],
+      "examples": [
+        "She picked a yellow flower.",
+        "The tree flowers in April."
+      ],
+      "synonyms": [
+        "blossom",
+        "bloom"
+      ],
+      "antonyms": [],
+      "related": [
+        "flour",
+        "flourish"
+      ],
+      "semantic_expansions": [
+        "花：植株开出来的那一朵",
+        "开花：推出那一朵这个动作"
+      ],
+      "recall_hint": "flos（花）→ 植株开出的那一朵"
+    },
+    {
+      "id": "flour",
+      "word": "flour",
+      "pos": "noun",
+      "phonetic": "/ˈflaʊə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "flos"
+      ],
+      "root_logic": "flos（花、最好的部分）→ fleur de farine（面之精）→ 面粉",
+      "origin": "中古英语 flour（面之精），与 flower 同词分化 ← 拉丁语 flos（花、精华）",
+      "native_definition": "powder made from ground wheat, used for baking",
+      "core_concept": "the finest layer sifted out of the ground grain – 磨过的谷里筛出来的最细那一层",
+      "core_image": "粗的留在筛上，落下来的那层白得发亮",
+      "chinese": [
+        "面粉"
+      ],
+      "examples": [
+        "Add two cups of flour.",
+        "She dusted the board with flour."
+      ],
+      "synonyms": [
+        "meal",
+        "powder"
+      ],
+      "antonyms": [],
+      "related": [
+        "flower",
+        "flourish"
+      ],
+      "semantic_expansions": [
+        "面粉：磨过的谷里筛出的最细那一层，本义即「面之精」"
+      ],
+      "recall_hint": "flos（精华）→ fleur de farine（面之精）→ 面粉"
+    },
+    {
+      "id": "flourish",
+      "word": "flourish",
+      "pos": "verb",
+      "phonetic": "/ˈflʌrɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "flos"
+      ],
+      "root_logic": "flor（花）+ -ish → 开到最盛 → 兴旺、茁壮",
+      "origin": "古法语 florir ← 通俗拉丁语 florire ← 拉丁语 florere（开花）← flos（花）",
+      "native_definition": "to grow well; to be successful and thriving",
+      "core_concept": "the moment a thing puts out everything it has – 一物把攒下的劲全推出来那一刻",
+      "core_image": "那株移过来第二年就窜高一截，枝上密密都是花",
+      "chinese": [
+        "茁壮成长",
+        "兴旺",
+        "繁荣"
+      ],
+      "examples": [
+        "The business flourished.",
+        "Plants flourish in this soil."
+      ],
+      "synonyms": [
+        "thrive",
+        "prosper"
+      ],
+      "antonyms": [
+        "fade",
+        "decline"
+      ],
+      "related": [
+        "flower",
+        "flour"
+      ],
+      "semantic_expansions": [
+        "茁壮成长/兴旺/繁荣：把攒下的劲全推出来、开到最盛"
+      ],
+      "recall_hint": "flor（花）+ -ish → 开到最盛"
+    },
+    {
+      "id": "heir",
+      "word": "heir",
+      "pos": "noun",
+      "phonetic": "/eə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "heres"
+      ],
+      "root_logic": "heres（继承人）→ 依法接过家产的那个人",
+      "origin": "古法语 eir ← 拉丁语 heres（继承人）；英语拼写的 h 是后来照拉丁语补的，不发音",
+      "native_definition": "a person legally entitled to inherit property or a title",
+      "core_concept": "the one named to receive when the holder lets go – 持有者松手时，被指名接住的那个",
+      "core_image": "文书上写着那个名字，老人一走东西就归他",
+      "chinese": [
+        "继承人",
+        "嗣子"
+      ],
+      "examples": [
+        "He is the sole heir.",
+        "The heir to the throne was crowned."
+      ],
+      "synonyms": [
+        "successor",
+        "son"
+      ],
+      "antonyms": [],
+      "related": [
+        "heritage",
+        "inherit"
+      ],
+      "semantic_expansions": [
+        "继承人/嗣子：持有者松手时被指名接住的那个"
+      ],
+      "recall_hint": "heres（继承人）→ 依法接过家产的那个人"
+    },
+    {
+      "id": "heritage",
+      "word": "heritage",
+      "pos": "noun",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "heres"
+      ],
+      "root_logic": "herit（继承）+ -age → 一代代传下来的那一份",
+      "origin": "古法语 heritage ← heriter ← 晚期拉丁语 hereditare（继承）← heres",
+      "native_definition": "traditions and buildings passed down from earlier generations",
+      "core_concept": "what each generation hands on without being asked to – 每一代自然而然交下去的那一份",
+      "core_image": "老屋、老手艺、老规矩，都是上一辈没说什么就留下的",
+      "chinese": [
+        "遗产",
+        "传统",
+        "文化遗产"
+      ],
+      "examples": [
+        "The town protects its heritage.",
+        "Music is part of her heritage."
+      ],
+      "synonyms": [
+        "tradition",
+        "legacy"
+      ],
+      "antonyms": [],
+      "related": [
+        "heir",
+        "inherit"
+      ],
+      "semantic_expansions": [
+        "遗产/文化遗产：一代代传下来的那一份",
+        "传统：其中无形的那部分"
+      ],
+      "recall_hint": "herit（继承）+ -age → 一代代传下来的那份"
+    },
+    {
+      "id": "inherit",
+      "word": "inherit",
+      "pos": "verb",
+      "phonetic": "/ɪnˈherɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "heres"
+      ],
+      "root_logic": "in-（进入）+ herit（继承）→ 接进自己名下 → 继承",
+      "origin": "古法语 enheriter ← 晚期拉丁语 inhereditare ← in＋heres（继承人）",
+      "native_definition": "to receive property or a quality from someone before you",
+      "core_concept": "the thing coming into your hands because it left another's – 因为别人松了手，它才落进你手里",
+      "core_image": "钥匙从那只手落进这只手，屋子从此归后者",
+      "chinese": [
+        "继承",
+        "遗传"
+      ],
+      "examples": [
+        "She inherited the house.",
+        "He inherited his father's temper."
+      ],
+      "synonyms": [
+        "receive",
+        "obtain"
+      ],
+      "antonyms": [],
+      "related": [
+        "heir",
+        "heritage"
+      ],
+      "semantic_expansions": [
+        "继承：因别人松手而落进自己手里",
+        "遗传：性状同样由上一代传下来"
+      ],
+      "recall_hint": "in-（进入）+ herit（继承）→ 接进自己名下"
+    },
+    {
+      "id": "joke",
+      "word": "joke",
+      "pos": "noun",
+      "phonetic": "/dʒəʊk/",
+      "decomposable": "root",
+      "root_ids": [
+        "jocus"
+      ],
+      "root_logic": "jocus（戏言）→ 说出来逗人笑的那句",
+      "origin": "拉丁语 jocus（玩笑、戏言）",
+      "native_definition": "something said or done to make people laugh",
+      "core_concept": "the line said only for the laugh it gets – 只为博一声笑而说的那句",
+      "core_image": "他把最后半句一压低，满桌人先是静了一下才笑",
+      "chinese": [
+        "玩笑",
+        "笑话"
+      ],
+      "examples": [
+        "He told a bad joke.",
+        "She takes a joke well."
+      ],
+      "synonyms": [
+        "humour",
+        "wit"
+      ],
+      "antonyms": [],
+      "related": [
+        "jewel",
+        "jewelry"
+      ],
+      "semantic_expansions": [
+        "玩笑/笑话：只为博一声笑而说的那句"
+      ],
+      "recall_hint": "jocus（戏言）→ 说出来逗人笑的那句"
+    },
+    {
+      "id": "jewel",
+      "word": "jewel",
+      "pos": "noun",
+      "phonetic": "/ˈdʒuːəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "jocus"
+      ],
+      "root_logic": "jocus（玩物）→ 古法语 jouel（小玩赏物）→ 宝石",
+      "origin": "古法语 jouel（小玩物、饰件）← 拉丁语 jocus（玩笑、玩物）",
+      "native_definition": "a precious stone; something highly valued",
+      "core_concept": "the small bright thing kept only to be looked at – 留着只为看的那一小件亮东西",
+      "core_image": "绒布上那一点在灯下转个角度就换一种光",
+      "chinese": [
+        "宝石",
+        "珠宝",
+        "珍品"
+      ],
+      "examples": [
+        "The crown holds many jewels.",
+        "This book is a jewel."
+      ],
+      "synonyms": [
+        "stone",
+        "treasure"
+      ],
+      "antonyms": [],
+      "related": [
+        "jewelry",
+        "joke"
+      ],
+      "semantic_expansions": [
+        "宝石/珠宝：留着只为看的那一小件亮东西",
+        "珍品：以此喻极可贵之物"
+      ],
+      "recall_hint": "jocus（玩物）→ jouel（小玩赏物）→ 宝石"
+    },
+    {
+      "id": "jewelry",
+      "word": "jewelry",
+      "pos": "noun",
+      "phonetic": "/ˈdʒuːəlri/",
+      "decomposable": "root",
+      "root_ids": [
+        "jocus"
+      ],
+      "root_logic": "jewel（宝石）+ -ry（成套）→ 成套的饰件",
+      "origin": "古法语 juelerye ← jouel ← 拉丁语 jocus（玩物）",
+      "native_definition": "rings, necklaces, and similar ornaments worn on the body",
+      "core_concept": "the small bright things put on the body to be seen – 戴在身上、供人看的那些亮小件",
+      "core_image": "抽屉里一格一格摆着，戴出去时挑那么一两件",
+      "chinese": [
+        "珠宝",
+        "首饰"
+      ],
+      "examples": [
+        "She wore silver jewelry.",
+        "The jewelry was locked away."
+      ],
+      "synonyms": [
+        "ring",
+        "ornament"
+      ],
+      "antonyms": [],
+      "related": [
+        "jewel",
+        "joke"
+      ],
+      "semantic_expansions": [
+        "珠宝/首饰：戴在身上供人看的那些亮小件"
+      ],
+      "recall_hint": "jewel（宝石）+ -ry（成套）→ 成套的饰件"
+    },
+    {
+      "id": "drama",
+      "word": "drama",
+      "pos": "noun",
+      "phonetic": "/ˈdrɑːmə/",
+      "decomposable": "root",
+      "root_ids": [
+        "dran"
+      ],
+      "root_logic": "dran（做）→ drama（做出来的那一场）→ 戏剧",
+      "origin": "晚期拉丁语 drama ← 希腊语 drama（一场演出）← dran（做、行动）",
+      "native_definition": "a play for theatre or television; an exciting series of events",
+      "core_concept": "the doing put on a raised floor so all can watch – 摆到台上、让所有人看着的那一番做",
+      "core_image": "幕布拉开，台上的事一件件当着众人做出来",
+      "chinese": [
+        "戏剧",
+        "剧本",
+        "戏剧性事件"
+      ],
+      "examples": [
+        "She studies modern drama.",
+        "The trial was full of drama."
+      ],
+      "synonyms": [
+        "play",
+        "stage"
+      ],
+      "antonyms": [],
+      "related": [
+        "dramatic",
+        "drastic"
+      ],
+      "semantic_expansions": [
+        "戏剧/剧本：摆到台上做给人看的那一场",
+        "戏剧性事件：现实里像那一场一样起伏的事"
+      ],
+      "recall_hint": "dran（做）→ drama（做出来的那一场）"
+    },
+    {
+      "id": "dramatic",
+      "word": "dramatic",
+      "pos": "adjective",
+      "phonetic": "/drəˈmætɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "dran"
+      ],
+      "root_logic": "drama（一场演出）+ -ic → 像台上那一场的 → 引人注目的、剧烈的",
+      "origin": "拉丁语 dramaticus ← 希腊语 dramatikos ← drama ← dran（做）",
+      "native_definition": "sudden and noticeable; relating to plays",
+      "core_concept": "of the kind that makes every head turn, as on a stage – 属于「一动就满座回头」那一类",
+      "core_image": "价钱一夜之间翻了一倍，第二天所有人都在说这事",
+      "chinese": [
+        "剧烈的",
+        "戏剧性的",
+        "引人注目的"
+      ],
+      "examples": [
+        "Prices rose dramatically.",
+        "She has dramatic talent."
+      ],
+      "synonyms": [
+        "striking",
+        "sudden"
+      ],
+      "antonyms": [
+        "subtle"
+      ],
+      "related": [
+        "drama",
+        "drastic"
+      ],
+      "semantic_expansions": [
+        "剧烈的/引人注目的：一动就满座回头那种",
+        "戏剧性的：属于台上那一场的"
+      ],
+      "recall_hint": "drama（一场演出）+ -ic → 像台上那一场"
+    },
+    {
+      "id": "drastic",
+      "word": "drastic",
+      "pos": "adjective",
+      "phonetic": "/ˈdræstɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "dran"
+      ],
+      "root_logic": "drastikos（见效猛的）← dran（做）→ 下手重、来得急的",
+      "origin": "希腊语 drastikos（有力的、见效的）← dran（做、行动）",
+      "native_definition": "extreme and sudden, often severe in effect",
+      "core_concept": "the kind of doing that leaves no room for halfway – 那种做法不留半途，一下到底",
+      "core_image": "他没有慢慢调，直接把整套换掉了",
+      "chinese": [
+        "激烈的",
+        "极端的",
+        "彻底的"
+      ],
+      "examples": [
+        "They took drastic measures.",
+        "A drastic change was needed."
+      ],
+      "synonyms": [
+        "severe",
+        "radical"
+      ],
+      "antonyms": [
+        "mild",
+        "gradual"
+      ],
+      "related": [
+        "drama",
+        "dramatic"
+      ],
+      "semantic_expansions": [
+        "激烈的/极端的/彻底的：下手重、不留半途的那种做法"
+      ],
+      "recall_hint": "drastikos（见效猛）← dran（做）→ 下手重的"
+    },
+    {
+      "id": "fashion",
+      "word": "fashion",
+      "pos": "noun",
+      "phonetic": "/ˈfæʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "factio（做法、做成的样式）← facere（做）→ 一时通行的做法与样式",
+      "origin": "古法语 fachon（式样）← 拉丁语 factio（做、样式）← facere（做）",
+      "native_definition": "a popular style of clothing or behaviour; a way of doing something",
+      "core_concept": "the way of making that everyone happens to follow this season – 这一季众人恰好都照着做的那个样式",
+      "core_image": "街上的裁法今年忽然都改成一个走向，去年那种没人做了",
+      "chinese": [
+        "时尚",
+        "流行式样",
+        "方式"
+      ],
+      "examples": [
+        "Short coats are back in fashion.",
+        "He did it in his own fashion."
+      ],
+      "synonyms": [
+        "style",
+        "manner"
+      ],
+      "antonyms": [],
+      "related": [
+        "fact",
+        "factory"
+      ],
+      "semantic_expansions": [
+        "时尚/流行式样：一时通行的那种做法与样式",
+        "方式：做一件事所取的那个做法"
+      ],
+      "recall_hint": "factio（做法、样式）← facere（做）→ 通行的样式"
+    },
+    {
+      "id": "feasible",
+      "word": "feasible",
+      "pos": "adjective",
+      "phonetic": "/ˈfiːzəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "fais（facere 做）+ -ible（可…的）→ 做得成的 → 可行的",
+      "origin": "古法语 faisable（可做的）← faire ← 拉丁语 facere（做）",
+      "native_definition": "possible to do or achieve",
+      "core_concept": "the plan that survives the question can this actually be done – 经得住「这真做得成吗」一问的那个方案",
+      "core_image": "把工序一步步排下来，发现每一步都真办得到",
+      "chinese": [
+        "可行的",
+        "行得通的"
+      ],
+      "examples": [
+        "The plan seems feasible.",
+        "It is not feasible in one week."
+      ],
+      "synonyms": [
+        "practical",
+        "possible"
+      ],
+      "antonyms": [
+        "impossible"
+      ],
+      "related": [
+        "fact",
+        "fashion"
+      ],
+      "semantic_expansions": [
+        "可行的/行得通的：经得住「真做得成吗」一问的那种"
+      ],
+      "recall_hint": "fais（做）+ -ible（可…的）→ 做得成的"
+    },
+    {
+      "id": "fax",
+      "word": "fax",
+      "pos": "noun",
+      "phonetic": "/fæks/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "facsimile（fac simile 做得一样）的截短 → 传过去的那份复本",
+      "origin": "英语 fax 是 facsimile 的截短；facsimile ← 拉丁语 fac simile（做成相像的）← facere（做）",
+      "native_definition": "a copy of a document sent over a phone line",
+      "core_concept": "the copy made to come out the same at the far end – 在远处那头做出来、要求一模一样的复本",
+      "core_image": "这头把纸吃进去，那头一张一模一样的吐出来",
+      "chinese": [
+        "传真",
+        "传真件"
+      ],
+      "examples": [
+        "Send it by fax today.",
+        "The fax never arrived."
+      ],
+      "synonyms": [
+        "copy",
+        "print"
+      ],
+      "antonyms": [],
+      "related": [
+        "fact",
+        "fashion"
+      ],
+      "semantic_expansions": [
+        "传真/传真件：在远处做出来、要求一模一样的复本"
+      ],
+      "recall_hint": "facsimile（fac simile 做得一样）截短 → 传过去的复本"
+    },
+    {
+      "id": "due",
+      "word": "due",
+      "pos": "adjective",
+      "phonetic": "/djuː/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "debere（本该有却不在手上）← de＋habere（持有）→ 该给的、到期的",
+      "origin": "古法语 deu（debvoir 的过去分词）← 拉丁语 debere（欠）← de＋habere（持有）",
+      "native_definition": "owed as a debt or obligation; expected at a certain time",
+      "core_concept": "what is on the books to be handed over, and the day it falls – 账上写着该交出去的那份，及该交的那天",
+      "core_image": "本子上记着日子，翻到那一页就知道该给了",
+      "chinese": [
+        "应付的",
+        "到期的",
+        "预期的"
+      ],
+      "examples": [
+        "The rent is due on Friday.",
+        "The train is due at six."
+      ],
+      "synonyms": [
+        "owing",
+        "payable"
+      ],
+      "antonyms": [],
+      "related": [
+        "duty",
+        "debt"
+      ],
+      "semantic_expansions": [
+        "应付的/到期的：账上该交出去的那份及其期限",
+        "预期的：按约该到的那个时候"
+      ],
+      "recall_hint": "debere（本该有却不在手）← de＋habere → 该给的"
+    },
+    {
+      "id": "duty",
+      "word": "duty",
+      "pos": "noun",
+      "phonetic": "/ˈdjuːti/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "due（该给的）+ -ty → 该做的那一份 → 职责；也指该缴的那笔税",
+      "origin": "盎格鲁法语 duete ← deu（该给的）← 拉丁语 debere ← de＋habere（持有）",
+      "native_definition": "something one is obliged to do; a tax on goods",
+      "core_concept": "the share of work that is owed, not chosen – 分给你、非做不可的那一份，不是你挑的",
+      "core_image": "值班表上那格写着他的名字，轮到就得在那儿",
+      "chinese": [
+        "职责",
+        "义务",
+        "关税"
+      ],
+      "examples": [
+        "It is your duty to report it.",
+        "They paid duty on the import."
+      ],
+      "synonyms": [
+        "obligation",
+        "tax"
+      ],
+      "antonyms": [],
+      "related": [
+        "due",
+        "debt"
+      ],
+      "semantic_expansions": [
+        "职责/义务：分给你、非做不可的那一份",
+        "关税：进出货物该缴的那笔"
+      ],
+      "recall_hint": "due（该给的）+ -ty → 该做的那一份"
+    },
+    {
+      "id": "endeavor",
+      "word": "endeavor",
+      "pos": "verb",
+      "phonetic": "/ɪnˈdevə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "en-（使）+ devoir（该做之事）→ 把该做的当成自己的事去尽力 → 努力",
+      "origin": "中古英语 endeveren，由 en-＋古法语 deveir（本分）← 拉丁语 debere ← de＋habere",
+      "native_definition": "to try hard to do something",
+      "core_concept": "taking what is owed as one's own and pushing at it – 把该做的那份认作自己的，往上使劲",
+      "core_image": "他把那份本不属他的活也接了过来，一样往前推",
+      "chinese": [
+        "努力",
+        "尽力",
+        "尝试"
+      ],
+      "examples": [
+        "She endeavored to finish on time.",
+        "It was a worthy endeavor."
+      ],
+      "synonyms": [
+        "strive",
+        "attempt"
+      ],
+      "antonyms": [],
+      "related": [
+        "duty",
+        "due"
+      ],
+      "semantic_expansions": [
+        "努力/尽力/尝试：把该做的认作自己的、往上使劲"
+      ],
+      "recall_hint": "en-（使）+ devoir（该做之事）→ 当作己事去尽力"
+    },
+    {
+      "id": "insure",
+      "word": "insure",
+      "pos": "verb",
+      "phonetic": "/ɪnˈʃʊə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "en-/in-（使）+ sure（无忧）→ 先出一笔把后顾之忧买掉 → 投保",
+      "origin": "英语 insure 是 ensure 的分化形 ← 古法语 enseurer ← 拉丁语 securus（无忧）← se-＋cura（挂心）",
+      "native_definition": "to arrange for money to be paid if loss or damage happens",
+      "core_concept": "paying a little now so the big loss is not yours to carry – 先付一点，把那笔大损失从自己肩上挪走",
+      "core_image": "每月扣掉一小笔，出事那天赔的是另一方",
+      "chinese": [
+        "投保",
+        "为…保险"
+      ],
+      "examples": [
+        "They insured the house against fire.",
+        "Is the car insured?"
+      ],
+      "synonyms": [
+        "cover",
+        "protect"
+      ],
+      "antonyms": [],
+      "related": [
+        "ensure",
+        "cure"
+      ],
+      "semantic_expansions": [
+        "投保/为…保险：先付一点，把大损失从自己肩上挪走"
+      ],
+      "recall_hint": "in-（使）+ sure（无忧）→ 出钱买掉后顾之忧"
+    },
+    {
+      "id": "grief",
+      "word": "grief",
+      "pos": "noun",
+      "phonetic": "/ɡriːf/",
+      "decomposable": "root",
+      "root_ids": [
+        "gravis"
+      ],
+      "root_logic": "grev（gravis 重）→ 压在心上那份沉 → 悲痛",
+      "origin": "古法语 grief（苦难）← grever（压重）← 拉丁语 gravare ← gravis（重的）",
+      "native_definition": "very great sadness, especially after a death",
+      "core_concept": "the weight that settles on the chest and does not lift – 压在胸口、久久不散的那份沉",
+      "core_image": "他坐着没说话，肩往下垮着，像有东西压在上头",
+      "chinese": [
+        "悲痛",
+        "悲伤"
+      ],
+      "examples": [
+        "She was overcome with grief.",
+        "Time eases grief."
+      ],
+      "synonyms": [
+        "sorrow",
+        "pain"
+      ],
+      "antonyms": [
+        "joy"
+      ],
+      "related": [
+        "grave",
+        "gravity"
+      ],
+      "semantic_expansions": [
+        "悲痛/悲伤：压在胸口久久不散的那份沉"
+      ],
+      "recall_hint": "grev（重）→ 压在心上那份沉"
+    },
+    {
+      "id": "inertia",
+      "word": "inertia",
+      "pos": "noun",
+      "phonetic": "/ɪˈnɜːʃə/",
+      "decomposable": "root",
+      "root_ids": [
+        "ars"
+      ],
+      "root_logic": "in-（不）+ ert（ars 技艺、本事）→ 没本事动起来 → 惰性",
+      "origin": "拉丁语 inertia（无能、懒惰）← iners（无技艺的）← in-（不）＋ars（技艺）",
+      "native_definition": "a tendency to stay unchanged; resistance to being moved",
+      "core_concept": "the state of a thing that will not start moving on its own – 一物自己不会动起来的那个状态",
+      "core_image": "推第一下最费劲，一旦动起来反倒不用那么使力",
+      "chinese": [
+        "惯性",
+        "惰性",
+        "不作为"
+      ],
+      "examples": [
+        "The body has great inertia.",
+        "Bureaucratic inertia slowed reform."
+      ],
+      "synonyms": [
+        "rest",
+        "delay"
+      ],
+      "antonyms": [
+        "motion"
+      ],
+      "related": [
+        "art",
+        "artist"
+      ],
+      "semantic_expansions": [
+        "惯性/惰性：一物自己不会动起来的那个状态",
+        "不作为：把这份不动用在人或机构上"
+      ],
+      "recall_hint": "in-（不）+ ert（技艺、本事）→ 没本事动起来"
+    },
+    {
+      "id": "grant",
+      "word": "grant",
+      "pos": "verb",
+      "phonetic": "/ɡrɑːnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "credere"
+      ],
+      "root_logic": "credere（信托）→ creantare（许诺、应承）→ 应允给出 → 授予",
+      "origin": "古法语 granter（应允）← creanter ← 通俗拉丁语 credentare ← 拉丁语 credere（信托）",
+      "native_definition": "to agree to give or allow something formally",
+      "core_concept": "handing over what was asked because you take the asker at their word – 信得过对方所求，就把那份给了",
+      "core_image": "他把申请翻了一遍，抬头说了句可以，笔一签就批了",
+      "chinese": [
+        "授予",
+        "准予",
+        "补助金"
+      ],
+      "examples": [
+        "The city granted permission.",
+        "She won a research grant."
+      ],
+      "synonyms": [
+        "allow",
+        "award"
+      ],
+      "antonyms": [
+        "refuse"
+      ],
+      "related": [
+        "credit",
+        "credible"
+      ],
+      "semantic_expansions": [
+        "授予/准予：信得过所求便把那份给出",
+        "补助金：这样给出的那笔钱"
+      ],
+      "recall_hint": "credere（信托）→ creantare（应承）→ 应允给出"
+    },
+    {
+      "id": "futile",
+      "word": "futile",
+      "pos": "adjective",
+      "phonetic": "/ˈfjuːtaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fundere"
+      ],
+      "root_logic": "fundere（倒出）→ futilis（一倒就漏的容器）→ 白费的",
+      "origin": "拉丁语 futilis（易漏的、无用的）← fundere（倒出、流泻）",
+      "native_definition": "having no useful result; pointless",
+      "core_concept": "the leaky jar you keep filling that never holds anything – 一只漏的罐，一直往里倒却始终装不住",
+      "core_image": "水一勺勺倒进去，底下同时往外淌，怎么倒都不满",
+      "chinese": [
+        "无用的",
+        "徒劳的"
+      ],
+      "examples": [
+        "It was a futile attempt.",
+        "Further talks proved futile."
+      ],
+      "synonyms": [
+        "useless",
+        "empty"
+      ],
+      "antonyms": [
+        "effective"
+      ],
+      "related": [
+        "diffuse",
+        "confuse"
+      ],
+      "semantic_expansions": [
+        "无用的/徒劳的：像一只漏的罐，倒进去也留不住"
+      ],
+      "recall_hint": "futilis（一倒就漏的容器）← fundere（倒出）"
+    },
+    {
+      "id": "glamor",
+      "word": "glamor",
+      "pos": "noun",
+      "phonetic": "/ˈɡlæmə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "grammar（学问、法术书）的苏格兰语变体 → 施在人身上的那层魅 → 魅力",
+      "origin": "苏格兰语 glamer，为 grammar（旧时兼指法术之学）的变体 ← 希腊语 grammatikē ← graphein（刻写）",
+      "native_definition": "an attractive and exciting quality",
+      "core_concept": "the sheen laid over a thing so the eye will not look past it – 覆在一物上、叫人目光挪不开的那层光",
+      "core_image": "灯一打上去，本来平常的那身衣裳忽然亮得扎眼",
+      "chinese": [
+        "魅力",
+        "诱惑力",
+        "光彩"
+      ],
+      "examples": [
+        "The city has a certain glamor.",
+        "She was drawn by the glamor of fame."
+      ],
+      "synonyms": [
+        "charm",
+        "beauty"
+      ],
+      "antonyms": [],
+      "related": [
+        "graphic",
+        "biography"
+      ],
+      "semantic_expansions": [
+        "魅力/诱惑力/光彩：覆在一物上、叫人目光挪不开的那层"
+      ],
+      "recall_hint": "grammar（旧兼指法术之学）的变体 ← graphein（刻写）"
+    },
+    {
+      "id": "incline",
+      "word": "incline",
+      "pos": "verb",
+      "phonetic": "/ɪnˈklaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "klinein"
+      ],
+      "root_logic": "in-（向内）+ cline（klinein 倾斜）→ 朝一边斜过去 → 倾向",
+      "origin": "拉丁语 inclinare（使倾斜）← in＋clinare ← 希腊语 klinein（倾斜）",
+      "native_definition": "to lean or slope; to tend toward an opinion",
+      "core_concept": "the surface tipped so things roll one way, not the other – 面一斜，东西就只往那一边滚",
+      "core_image": "板子一头垫高，珠子全滚到低的那边去了",
+      "chinese": [
+        "倾斜",
+        "倾向",
+        "斜坡"
+      ],
+      "examples": [
+        "The path inclines steeply here.",
+        "I incline to agree with you."
+      ],
+      "synonyms": [
+        "slope",
+        "tend"
+      ],
+      "antonyms": [],
+      "related": [
+        "climate",
+        "climax"
+      ],
+      "semantic_expansions": [
+        "倾斜/斜坡：面朝一边斜过去",
+        "倾向：心里同样偏向某一边"
+      ],
+      "recall_hint": "in-（向内）+ cline（倾斜）→ 朝一边斜过去"
+    },
+    {
+      "id": "divorce",
+      "word": "divorce",
+      "pos": "noun",
+      "phonetic": "/dɪˈvɔːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "vert"
+      ],
+      "root_logic": "di-（分开）+ vorce（vertere 转）→ 各自转开 → 离婚",
+      "origin": "古法语 divorce ← 拉丁语 divortium（分离）← divertere（转开）← dis＋vertere（转）",
+      "native_definition": "the legal ending of a marriage; a complete separation",
+      "core_concept": "two who had faced each other turning away – 本来对着的两人各自转开身",
+      "core_image": "两人在桌两边签完字，起身朝相反方向走出门",
+      "chinese": [
+        "离婚",
+        "分离"
+      ],
+      "examples": [
+        "They filed for divorce.",
+        "There is a divorce between theory and practice."
+      ],
+      "synonyms": [
+        "separation",
+        "split"
+      ],
+      "antonyms": [
+        "marriage"
+      ],
+      "related": [
+        "convert",
+        "reverse"
+      ],
+      "semantic_expansions": [
+        "离婚：本来对着的两人各自转开",
+        "分离：两者之间同样转开、不再相接"
+      ],
+      "recall_hint": "di-（分开）+ vorce（转）→ 各自转开"
     }
   ]
 }

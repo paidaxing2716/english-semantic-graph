@@ -7200,6 +7200,336 @@
       "to": "bill",
       "type": "root",
       "note": "bulla（盖印文书）→ 开出来的那纸单据"
+    },
+    {
+      "from": "jungere",
+      "to": "join",
+      "type": "root",
+      "note": "jungere（套到一处）→ 把两边接上，或自己并进去"
+    },
+    {
+      "from": "jungere",
+      "to": "joint",
+      "type": "root",
+      "note": "junctus（已接合的）→ 两段相接的那一处 → 关节、接头"
+    },
+    {
+      "from": "jungere",
+      "to": "junction",
+      "type": "root",
+      "note": "junct（接合）+ -ion → 几条道接到一处的那个点 → 交汇处"
+    },
+    {
+      "from": "jus",
+      "to": "judge",
+      "type": "root",
+      "note": "jus（法）+ dicere（说）→ judex（宣法的人）→ 依准断定"
+    },
+    {
+      "from": "jus",
+      "to": "jury",
+      "type": "root",
+      "note": "jurare（按法起誓）→ 起过誓来断案的那一组人"
+    },
+    {
+      "from": "jus",
+      "to": "justice",
+      "type": "root",
+      "note": "just（合于法）+ -ice → 该给谁的就给谁 → 公正"
+    },
+    {
+      "from": "jus",
+      "to": "justify",
+      "type": "root",
+      "note": "just（合于法）+ -ify（使…）→ 说明它站得住 → 证明正当"
+    },
+    {
+      "from": "ire",
+      "to": "exit",
+      "type": "root",
+      "note": "ex-（出）+ it（ire 行走）→ 走出去的那个口"
+    },
+    {
+      "from": "ire",
+      "to": "initial",
+      "type": "root",
+      "note": "in-（进入）+ it（行走）+ -al → initium（迈进的第一步）→ 最初的"
+    },
+    {
+      "from": "ire",
+      "to": "initiate",
+      "type": "root",
+      "note": "initium（第一步）+ -ate（使…）→ 走出第一步 → 发起"
+    },
+    {
+      "from": "ire",
+      "to": "issue",
+      "type": "root",
+      "note": "ex-（出）+ issue（ire 行走）→ 走出来的那一批 → 发行；引申为待处理之事"
+    },
+    {
+      "from": "haerere",
+      "to": "coherent",
+      "type": "root",
+      "note": "co-（一起）+ her（黏住）+ -ent → 各部分黏成一体、说得通的"
+    },
+    {
+      "from": "haerere",
+      "to": "cohesive",
+      "type": "root",
+      "note": "co-（一起）+ hes（黏住）+ -ive → 能把彼此黏住的"
+    },
+    {
+      "from": "haerere",
+      "to": "inherent",
+      "type": "root",
+      "note": "in-（在内）+ her（黏住）+ -ent → 黏在里头拿不掉的 → 固有的"
+    },
+    {
+      "from": "haerere",
+      "to": "hesitate",
+      "type": "root",
+      "note": "haes（卡住不动）+ -itate（反复）→ 反复卡在那儿 → 迟疑"
+    },
+    {
+      "from": "fendere",
+      "to": "defend",
+      "type": "root",
+      "note": "de-（离开）+ fend（击）→ 把来的击开、使它离远 → 防御"
+    },
+    {
+      "from": "fendere",
+      "to": "defence",
+      "type": "root",
+      "note": "defend（挡开）+ -ce → 挡这件事，及用来挡的那一套"
+    },
+    {
+      "from": "fendere",
+      "to": "fence",
+      "type": "root",
+      "note": "defence 的截短 → 拦在四周挡人畜的那道栅"
+    },
+    {
+      "from": "frons",
+      "to": "front",
+      "type": "root",
+      "note": "frons（额头）→ 朝前的那一面 → 前部、正面"
+    },
+    {
+      "from": "frons",
+      "to": "frontier",
+      "type": "root",
+      "note": "front（正面）+ -ier → 一国朝外那条边 → 边境；引申为未开之域"
+    },
+    {
+      "from": "frons",
+      "to": "confront",
+      "type": "root",
+      "note": "con-（相对）+ front（额面）→ 额头对额头 → 正面相对"
+    },
+    {
+      "from": "vadere",
+      "to": "invade",
+      "type": "root",
+      "note": "in-（进入）+ vade（迈步）→ 迈进别人的地界 → 侵入"
+    },
+    {
+      "from": "vadere",
+      "to": "invasion",
+      "type": "root",
+      "note": "invade（侵入）+ -sion → 侵入这件事"
+    },
+    {
+      "from": "vadere",
+      "to": "evade",
+      "type": "root",
+      "note": "e-（ex- 出）+ vade（迈步）→ 迈出去脱身 → 躲开"
+    },
+    {
+      "from": "fari",
+      "to": "fable",
+      "type": "root",
+      "note": "fabula（讲出来的话）← fari（说）→ 讲给人听的那种短故事"
+    },
+    {
+      "from": "fari",
+      "to": "fabulous",
+      "type": "root",
+      "note": "fabula（故事）+ -ous → 像故事里那样的 → 惊人的、极好的"
+    },
+    {
+      "from": "fari",
+      "to": "infant",
+      "type": "root",
+      "note": "in-（不）+ fant（fari 的现在分词 fans 说）→ 还不会说话的那个 → 婴儿"
+    },
+    {
+      "from": "flos",
+      "to": "flower",
+      "type": "root",
+      "note": "flos（花）→ 植株开出来的那一朵"
+    },
+    {
+      "from": "flos",
+      "to": "flour",
+      "type": "root",
+      "note": "flos（花、最好的部分）→ fleur de farine（面之精）→ 面粉"
+    },
+    {
+      "from": "flos",
+      "to": "flourish",
+      "type": "root",
+      "note": "flor（花）+ -ish → 开到最盛 → 兴旺、茁壮"
+    },
+    {
+      "from": "heres",
+      "to": "heir",
+      "type": "root",
+      "note": "heres（继承人）→ 依法接过家产的那个人"
+    },
+    {
+      "from": "heres",
+      "to": "heritage",
+      "type": "root",
+      "note": "herit（继承）+ -age → 一代代传下来的那一份"
+    },
+    {
+      "from": "heres",
+      "to": "inherit",
+      "type": "root",
+      "note": "in-（进入）+ herit（继承）→ 接进自己名下 → 继承"
+    },
+    {
+      "from": "jocus",
+      "to": "joke",
+      "type": "root",
+      "note": "jocus（戏言）→ 说出来逗人笑的那句"
+    },
+    {
+      "from": "jocus",
+      "to": "jewel",
+      "type": "root",
+      "note": "jocus（玩物）→ 古法语 jouel（小玩赏物）→ 宝石"
+    },
+    {
+      "from": "jocus",
+      "to": "jewelry",
+      "type": "root",
+      "note": "jewel（宝石）+ -ry（成套）→ 成套的饰件"
+    },
+    {
+      "from": "dran",
+      "to": "drama",
+      "type": "root",
+      "note": "dran（做）→ drama（做出来的那一场）→ 戏剧"
+    },
+    {
+      "from": "dran",
+      "to": "dramatic",
+      "type": "root",
+      "note": "drama（一场演出）+ -ic → 像台上那一场的 → 引人注目的、剧烈的"
+    },
+    {
+      "from": "dran",
+      "to": "drastic",
+      "type": "root",
+      "note": "drastikos（见效猛的）← dran（做）→ 下手重、来得急的"
+    },
+    {
+      "from": "fac",
+      "to": "fashion",
+      "type": "root",
+      "note": "factio（做法、做成的样式）← facere（做）→ 一时通行的做法与样式"
+    },
+    {
+      "from": "fac",
+      "to": "feasible",
+      "type": "root",
+      "note": "fais（facere 做）+ -ible（可…的）→ 做得成的 → 可行的"
+    },
+    {
+      "from": "fac",
+      "to": "fax",
+      "type": "root",
+      "note": "facsimile（fac simile 做得一样）的截短 → 传过去的那份复本"
+    },
+    {
+      "from": "habere",
+      "to": "due",
+      "type": "root",
+      "note": "debere（本该有却不在手上）← de＋habere（持有）→ 该给的、到期的"
+    },
+    {
+      "from": "habere",
+      "to": "duty",
+      "type": "root",
+      "note": "due（该给的）+ -ty → 该做的那一份 → 职责；也指该缴的那笔税"
+    },
+    {
+      "from": "habere",
+      "to": "endeavor",
+      "type": "root",
+      "note": "en-（使）+ devoir（该做之事）→ 把该做的当成自己的事去尽力 → 努力"
+    },
+    {
+      "from": "cura",
+      "to": "insure",
+      "type": "root",
+      "note": "en-/in-（使）+ sure（无忧）→ 先出一笔把后顾之忧买掉 → 投保"
+    },
+    {
+      "from": "gravis",
+      "to": "grief",
+      "type": "root",
+      "note": "grev（gravis 重）→ 压在心上那份沉 → 悲痛"
+    },
+    {
+      "from": "ars",
+      "to": "inertia",
+      "type": "root",
+      "note": "in-（不）+ ert（ars 技艺、本事）→ 没本事动起来 → 惰性"
+    },
+    {
+      "from": "credere",
+      "to": "grant",
+      "type": "root",
+      "note": "credere（信托）→ creantare（许诺、应承）→ 应允给出 → 授予"
+    },
+    {
+      "from": "fundere",
+      "to": "futile",
+      "type": "root",
+      "note": "fundere（倒出）→ futilis（一倒就漏的容器）→ 白费的"
+    },
+    {
+      "from": "graphein",
+      "to": "glamor",
+      "type": "root",
+      "note": "grammar（学问、法术书）的苏格兰语变体 → 施在人身上的那层魅 → 魅力"
+    },
+    {
+      "from": "klinein",
+      "to": "incline",
+      "type": "root",
+      "note": "in-（向内）+ cline（klinein 倾斜）→ 朝一边斜过去 → 倾向"
+    },
+    {
+      "from": "vert",
+      "to": "divorce",
+      "type": "root",
+      "note": "di-（分开）+ vorce（vertere 转）→ 各自转开 → 离婚"
+    },
+    {
+      "from": "haerere",
+      "to": "adhere",
+      "type": "root",
+      "note": "ad-（朝）+ here（黏住）→ 贴上去黏牢 → 附着、遵守"
+    },
+    {
+      "from": "jungere",
+      "to": "adjoin",
+      "type": "root",
+      "note": "ad-（朝）+ join（接合）→ 接到一处、彼此相连 → 毗连"
     }
   ]
 }

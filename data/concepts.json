@@ -398,7 +398,10 @@
         "manufacture",
         "perfect",
         "proficiency",
-        "sufficient"
+        "sufficient",
+        "fashion",
+        "feasible",
+        "fax"
       ]
     },
     {
@@ -727,7 +730,8 @@
         "adverse",
         "diverse",
         "inverse",
-        "reverse"
+        "reverse",
+        "divorce"
       ]
     },
     {
@@ -1244,7 +1248,8 @@
         "confuse",
         "diffuse",
         "fuse",
-        "refuse"
+        "refuse",
+        "futile"
       ]
     },
     {
@@ -1417,7 +1422,8 @@
         "curious",
         "secure",
         "security",
-        "ensure"
+        "ensure",
+        "insure"
       ]
     },
     {
@@ -1432,7 +1438,8 @@
         "credibility",
         "credible",
         "credit",
-        "incredible"
+        "incredible",
+        "grant"
       ]
     },
     {
@@ -1997,7 +2004,8 @@
         "biography",
         "bibliography",
         "geography",
-        "telegraph"
+        "telegraph",
+        "glamor"
       ]
     },
     {
@@ -2394,7 +2402,8 @@
       "word_ids": [
         "aggravate",
         "grave",
-        "gravity"
+        "gravity",
+        "grief"
       ]
     },
     {
@@ -2598,7 +2607,8 @@
       "word_ids": [
         "art",
         "artist",
-        "artistic"
+        "artistic",
+        "inertia"
       ]
     },
     {
@@ -2674,7 +2684,10 @@
         "ability",
         "debt",
         "enable",
-        "disable"
+        "disable",
+        "due",
+        "duty",
+        "endeavor"
       ]
     },
     {
@@ -3412,7 +3425,8 @@
       "word_ids": [
         "climate",
         "climax",
-        "clinic"
+        "clinic",
+        "incline"
       ]
     },
     {
@@ -3604,6 +3618,179 @@
         "fairy",
         "fatal",
         "fate"
+      ]
+    },
+    {
+      "id": "concept-jungere-yoke",
+      "concept": "two things set into one yoke so they move as one",
+      "chinese": "套在一处",
+      "core_image": "木轭卡在两头牛颈上，一头往前另一头跟着走",
+      "root_ids": [
+        "jungere"
+      ],
+      "word_ids": [
+        "adjoin",
+        "join",
+        "joint",
+        "junction"
+      ]
+    },
+    {
+      "id": "concept-jus-law",
+      "concept": "the standard by which right is measured",
+      "chinese": "衡量对错之准",
+      "core_image": "一杆秤立在中间，两边各放一份，看它往哪边偏",
+      "root_ids": [
+        "jus"
+      ],
+      "word_ids": [
+        "judge",
+        "jury",
+        "justice",
+        "justify"
+      ]
+    },
+    {
+      "id": "concept-ire-go",
+      "concept": "setting off and passing through",
+      "chinese": "起脚而行",
+      "core_image": "门槛一跨，脚已经落在门外那一侧",
+      "root_ids": [
+        "ire"
+      ],
+      "word_ids": [
+        "exit",
+        "initial",
+        "initiate",
+        "issue"
+      ]
+    },
+    {
+      "id": "concept-haerere-stick",
+      "concept": "sticking fast so it will not come loose",
+      "chinese": "黏牢难分",
+      "core_image": "两张纸沾在一处，一撕就带毛边，谁也不肯干净分开",
+      "root_ids": [
+        "haerere"
+      ],
+      "word_ids": [
+        "adhere",
+        "coherent",
+        "cohesive",
+        "hesitate",
+        "inherent"
+      ]
+    },
+    {
+      "id": "concept-fendere-ward-off",
+      "concept": "striking to keep a thing off",
+      "chinese": "挥击相挡",
+      "core_image": "手臂横着一挡，来的那一下被架在外圈",
+      "root_ids": [
+        "fendere"
+      ],
+      "word_ids": [
+        "defence",
+        "defend",
+        "fence"
+      ]
+    },
+    {
+      "id": "concept-frons-forward-face",
+      "concept": "the face a thing turns forward",
+      "chinese": "朝前那一面",
+      "core_image": "两人对面站着，额头正对额头，谁也没侧身",
+      "root_ids": [
+        "frons"
+      ],
+      "word_ids": [
+        "confront",
+        "front",
+        "frontier"
+      ]
+    },
+    {
+      "id": "concept-vadere-stride",
+      "concept": "striding across a line one is not meant to cross",
+      "chinese": "跨界迈入",
+      "core_image": "一脚跨过界桩，另一只脚跟着落在别人地里",
+      "root_ids": [
+        "vadere"
+      ],
+      "word_ids": [
+        "evade",
+        "invade",
+        "invasion"
+      ]
+    },
+    {
+      "id": "concept-fari-speak",
+      "concept": "opening the mouth and letting words out",
+      "chinese": "开口出言",
+      "core_image": "嘴唇一动，话就出去了，收不回来",
+      "root_ids": [
+        "fari"
+      ],
+      "word_ids": [
+        "fable",
+        "fabulous",
+        "infant"
+      ]
+    },
+    {
+      "id": "concept-flos-bloom",
+      "concept": "the best of a thing, come to full bloom",
+      "chinese": "开到最盛",
+      "core_image": "枝头那一朵开到最满，花瓣再展就要落了",
+      "root_ids": [
+        "flos"
+      ],
+      "word_ids": [
+        "flour",
+        "flourish",
+        "flower"
+      ]
+    },
+    {
+      "id": "concept-heres-inherit",
+      "concept": "the one whose hands the thing passes into next",
+      "chinese": "接手之人",
+      "core_image": "老人把那串钥匙放到一个人手心，自己的手松开了",
+      "root_ids": [
+        "heres"
+      ],
+      "word_ids": [
+        "heir",
+        "heritage",
+        "inherit"
+      ]
+    },
+    {
+      "id": "concept-jocus-jest",
+      "concept": "a small thing made for delight, not use",
+      "chinese": "逗趣的小物",
+      "core_image": "掌心那个小玩意儿被翻来翻去，逗得旁人都笑了",
+      "root_ids": [
+        "jocus"
+      ],
+      "word_ids": [
+        "jewel",
+        "jewelry",
+        "joke"
+      ]
+    },
+    {
+      "id": "concept-dran-act",
+      "concept": "something done in full view, with effect",
+      "chinese": "做给人看",
+      "core_image": "台上那人一举手，底下几百双眼跟着动",
+      "root_ids": [
+        "dran"
+      ],
+      "word_ids": [
+        "drama",
+        "dramatic",
+        "drastic"
       ]
     }
   ]
