@@ -378,26 +378,27 @@
         "fac"
       ],
       "word_ids": [
+        "affair",
         "affect",
+        "beneficial",
+        "defeat",
+        "defect",
+        "deficiency",
         "effect",
         "effective",
-        "defect",
-        "perfect",
-        "infect",
-        "efficient",
-        "sufficient",
-        "deficiency",
         "efficiency",
-        "proficiency",
-        "infectious",
-        "manufacture",
-        "beneficial",
+        "efficient",
         "fact",
         "factor",
         "factory",
-        "defeat",
         "feat",
-        "feature"
+        "feature",
+        "infect",
+        "infectious",
+        "manufacture",
+        "perfect",
+        "proficiency",
+        "sufficient"
       ]
     },
     {
@@ -552,12 +553,13 @@
         "active",
         "actor",
         "actual",
-        "exact",
-        "interact",
-        "react",
+        "agitate",
         "embassy",
         "essay",
-        "exam"
+        "exact",
+        "exam",
+        "interact",
+        "react"
       ]
     },
     {
@@ -1704,6 +1706,7 @@
         "venire-invent"
       ],
       "word_ids": [
+        "avenue",
         "invent",
         "invention",
         "inventory",
@@ -2242,6 +2245,8 @@
         "augere-auctor"
       ],
       "word_ids": [
+        "augment",
+        "august",
         "authentic",
         "author",
         "authority"
@@ -3284,6 +3289,7 @@
         "bainein"
       ],
       "word_ids": [
+        "acrobat",
         "base",
         "baseball",
         "basement",
@@ -3374,10 +3380,11 @@
         "caput"
       ],
       "word_ids": [
+        "achieve",
+        "cabbage",
         "cattle",
         "chef",
-        "chief",
-        "cabbage"
+        "chief"
       ]
     },
     {
@@ -3417,6 +3424,7 @@
         "bulla"
       ],
       "word_ids": [
+        "bill",
         "bowling",
         "bullet",
         "bulletin"
@@ -3459,6 +3467,7 @@
         "crux"
       ],
       "word_ids": [
+        "across",
         "cross",
         "crucial",
         "cruise"
@@ -3517,6 +3526,7 @@
         "putare"
       ],
       "word_ids": [
+        "account",
         "compute",
         "count",
         "deputy",

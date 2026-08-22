@@ -7140,6 +7140,66 @@
       "to": "defy",
       "type": "root",
       "note": "de-（取消）+ fy（fidere 信托）→ 撤回信托、宣告不再服 → 违抗"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "augment",
+      "type": "root",
+      "note": "aug（增长）+ -ment → 使之变大 → 增加"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "august",
+      "type": "root",
+      "note": "augustus（尊崇的）← augere（增益）→ 分量增到令人仰视"
+    },
+    {
+      "from": "putare",
+      "to": "account",
+      "type": "root",
+      "note": "ac-（ad- 朝）+ count（算）→ 算给某处的那笔 → 账目、说明"
+    },
+    {
+      "from": "caput",
+      "to": "achieve",
+      "type": "root",
+      "note": "a-（到）+ chieve（caput 头）→ 做到头 → 达成"
+    },
+    {
+      "from": "bainein",
+      "to": "acrobat",
+      "type": "root",
+      "note": "akros（高处）+ bat（bainein 走）→ 在高处走的人"
+    },
+    {
+      "from": "crux",
+      "to": "across",
+      "type": "root",
+      "note": "a-（在）+ cross（十字、横过）→ 横过那一边"
+    },
+    {
+      "from": "fac",
+      "to": "affair",
+      "type": "root",
+      "note": "af-（ad- 去）+ fair（facere 做）→ 要去做的那件事"
+    },
+    {
+      "from": "ag",
+      "to": "agitate",
+      "type": "root",
+      "note": "ag（驱动）+ -itate（反复）→ 不停地驱动 → 搅动、鼓动"
+    },
+    {
+      "from": "venire-invent",
+      "to": "avenue",
+      "type": "root",
+      "note": "a-（ad- 朝）+ venue（venire 来）→ 走得近的那条路"
+    },
+    {
+      "from": "bulla",
+      "to": "bill",
+      "type": "root",
+      "note": "bulla（盖印文书）→ 开出来的那纸单据"
     }
   ]
 }

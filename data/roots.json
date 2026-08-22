@@ -422,26 +422,27 @@
       "core_image": "一双手在工作台上把材料做成成品",
       "english_definition": "to do, to make",
       "word_ids": [
+        "affair",
         "affect",
+        "beneficial",
+        "defeat",
+        "defect",
+        "deficiency",
         "effect",
         "effective",
-        "defect",
-        "perfect",
-        "infect",
-        "efficient",
-        "sufficient",
-        "deficiency",
         "efficiency",
-        "proficiency",
-        "infectious",
-        "manufacture",
-        "beneficial",
+        "efficient",
         "fact",
         "factor",
         "factory",
-        "defeat",
         "feat",
-        "feature"
+        "feature",
+        "infect",
+        "infectious",
+        "manufacture",
+        "perfect",
+        "proficiency",
+        "sufficient"
       ]
     },
     {
@@ -624,12 +625,13 @@
         "active",
         "actor",
         "actual",
-        "exact",
-        "interact",
-        "react",
+        "agitate",
         "embassy",
         "essay",
-        "exam"
+        "exact",
+        "exam",
+        "interact",
+        "react"
       ]
     },
     {
@@ -1998,6 +2000,7 @@
       "core_image": "翻抽屉时手碰到一样东西，掏出来一看是从没见过的",
       "english_definition": "to find, to come upon",
       "word_ids": [
+        "avenue",
         "invent",
         "invention",
         "inventory",
@@ -2635,6 +2638,8 @@
       "core_image": "工匠亲手打造出第一件器物，后来者都来仿照它",
       "english_definition": "originator, authority, growth",
       "word_ids": [
+        "augment",
+        "august",
         "authentic",
         "author",
         "authority"
@@ -3914,6 +3919,7 @@
       "core_image": "脚踩实了那块石头，整个人的重量才敢压上去",
       "english_definition": "to step, a footing",
       "word_ids": [
+        "acrobat",
         "base",
         "baseball",
         "basement",
@@ -4029,10 +4035,11 @@
       "core_image": "一群人里那个头往前一伸，别人的目光跟着转过去",
       "english_definition": "head, chief thing",
       "word_ids": [
+        "achieve",
+        "cabbage",
         "cattle",
         "chef",
-        "chief",
-        "cabbage"
+        "chief"
       ]
     },
     {
@@ -4082,6 +4089,7 @@
       "core_image": "一枚圆铅印按在纸角上，凸起来一小块",
       "english_definition": "bubble, round seal",
       "word_ids": [
+        "bill",
         "bowling",
         "bullet",
         "bulletin"
@@ -4136,6 +4144,7 @@
       "core_image": "两根木条叠成十字，钉在交叉那一点上",
       "english_definition": "cross, crossing point",
       "word_ids": [
+        "across",
         "cross",
         "crucial",
         "cruise"
@@ -4211,6 +4220,7 @@
       "core_image": "手指点着桌上的钱一枚枚过，嘴里跟着报数",
       "english_definition": "to prune, reckon, estimate",
       "word_ids": [
+        "account",
         "compute",
         "count",
         "deputy",

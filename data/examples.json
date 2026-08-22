@@ -27174,6 +27174,4262 @@
       "text": "Please state your name and address.",
       "source": "回填 · 据 words.json 对齐",
       "scene": "在正式的场合，一字一句把立场说清楚"
+    },
+    {
+      "id": "ex-forehead-1",
+      "word_id": "forehead",
+      "text": "The nurse pressed a thermometer to his forehead.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "体温枪往眉毛上边那块平地一贴，眉一挑，横纹叠起好几道"
+    },
+    {
+      "id": "ex-forehead-2",
+      "word_id": "forehead",
+      "text": "Sweat ran down her forehead into her eyes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "体温枪往眉毛上边那块平地一贴，眉一挑，横纹叠起好几道"
+    },
+    {
+      "id": "ex-foremost-1",
+      "word_id": "foremost",
+      "text": "Safety is the foremost concern on this site.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排人站齐，只有一个人的鞋尖越出那条白线半个脚掌"
+    },
+    {
+      "id": "ex-foremost-2",
+      "word_id": "foremost",
+      "text": "She stood foremost among the waiting crowd.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排人站齐，只有一个人的鞋尖越出那条白线半个脚掌"
+    },
+    {
+      "id": "ex-forever-1",
+      "word_id": "forever",
+      "text": "These mountains will stand here forever.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "碑上的字换过三代人来看，笔画还是当年那几道，没磨掉一笔"
+    },
+    {
+      "id": "ex-forever-2",
+      "word_id": "forever",
+      "text": "He is forever losing his keys.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "碑上的字换过三代人来看，笔画还是当年那几道，没磨掉一笔"
+    },
+    {
+      "id": "ex-forget-1",
+      "word_id": "forget",
+      "text": "I forgot her name at the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名字明明在嘴边，想抓的时候手里是空的，只剩一个口型"
+    },
+    {
+      "id": "ex-forget-2",
+      "word_id": "forget",
+      "text": "He forgot his umbrella on the bus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名字明明在嘴边，想抓的时候手里是空的，只剩一个口型"
+    },
+    {
+      "id": "ex-forgive-1",
+      "word_id": "forgive",
+      "text": "She forgave him after a long talk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里那张欠条被抽出来，当着人面撕成两半扔进纸篓"
+    },
+    {
+      "id": "ex-forgive-2",
+      "word_id": "forgive",
+      "text": "The bank forgave part of the debt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里那张欠条被抽出来，当着人面撕成两半扔进纸篓"
+    },
+    {
+      "id": "ex-fork-1",
+      "word_id": "fork",
+      "text": "He ate the cake with a fork.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根柄到头分成四个尖，尖与尖之间的缝刚好卡住一块肉"
+    },
+    {
+      "id": "ex-fork-2",
+      "word_id": "fork",
+      "text": "The road forks just past the bridge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根柄到头分成四个尖，尖与尖之间的缝刚好卡住一块肉"
+    },
+    {
+      "id": "ex-fossil-1",
+      "word_id": "fossil",
+      "text": "They found a fossil in the cliff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石头顺纹掰开，里面躺着一条鱼的骨架，鳞的纹路还压在面上"
+    },
+    {
+      "id": "ex-fossil-2",
+      "word_id": "fossil",
+      "text": "My old phone is a fossil now.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石头顺纹掰开，里面躺着一条鱼的骨架，鳞的纹路还压在面上"
+    },
+    {
+      "id": "ex-foul-1",
+      "word_id": "foul",
+      "text": "A foul smell came from the drain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桶里的水浮着一层绿膜，鼻子一凑就得退开两步"
+    },
+    {
+      "id": "ex-foul-2",
+      "word_id": "foul",
+      "text": "He fouled the striker inside the box.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桶里的水浮着一层绿膜，鼻子一凑就得退开两步"
+    },
+    {
+      "id": "ex-fourteen-1",
+      "word_id": "fourteen",
+      "text": "Fourteen people signed the list.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "十根手指数完，桌上还剩四张牌没点到，只好再折起四根"
+    },
+    {
+      "id": "ex-fourteen-2",
+      "word_id": "fourteen",
+      "text": "She turns fourteen next month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "十根手指数完，桌上还剩四张牌没点到，只好再折起四根"
+    },
+    {
+      "id": "ex-fox-1",
+      "word_id": "fox",
+      "text": "A fox crossed the field at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "鸡舍外一道红影贴着墙根溜过去，雪地上只留下一串小梅花印"
+    },
+    {
+      "id": "ex-fox-2",
+      "word_id": "fox",
+      "text": "He is an old fox in business.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "鸡舍外一道红影贴着墙根溜过去，雪地上只留下一串小梅花印"
+    },
+    {
+      "id": "ex-fragrant-1",
+      "word_id": "fragrant",
+      "text": "The garden was fragrant after the rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "蒸笼一揭，白汽扑到脸上，一路飘到院子外头，邻居都探头"
+    },
+    {
+      "id": "ex-fragrant-2",
+      "word_id": "fragrant",
+      "text": "She brewed a pot of fragrant tea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "蒸笼一揭，白汽扑到脸上，一路飘到院子外头，邻居都探头"
+    },
+    {
+      "id": "ex-frame-1",
+      "word_id": "frame",
+      "text": "The photo sits in a wooden frame.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四根木条钉成一个方口，中间空着，靠这几根条子撑住整张画"
+    },
+    {
+      "id": "ex-frame-2",
+      "word_id": "frame",
+      "text": "They framed the roof in two days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四根木条钉成一个方口，中间空着，靠这几根条子撑住整张画"
+    },
+    {
+      "id": "ex-frank-1",
+      "word_id": "frank",
+      "text": "To be frank, I do not like the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把方案推回桌子中间，说这个做不成，一句缓和的话都没添"
+    },
+    {
+      "id": "ex-frank-2",
+      "word_id": "frank",
+      "text": "She gave a frank answer to the question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把方案推回桌子中间，说这个做不成，一句缓和的话都没添"
+    },
+    {
+      "id": "ex-free-1",
+      "word_id": "free",
+      "text": "The birds are free to leave the cage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笼门大开，链子散在地上一圈，鸟站在门口没有任何东西再拦它"
+    },
+    {
+      "id": "ex-free-2",
+      "word_id": "free",
+      "text": "Entry is free on Sunday mornings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笼门大开，链子散在地上一圈，鸟站在门口没有任何东西再拦它"
+    },
+    {
+      "id": "ex-freeze-1",
+      "word_id": "freeze",
+      "text": "The pond freezes every January here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一夜过后水面结出一层硬壳，手指压不下去，搭在桶边的布也支着不倒"
+    },
+    {
+      "id": "ex-freeze-2",
+      "word_id": "freeze",
+      "text": "She froze when she heard the sound.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一夜过后水面结出一层硬壳，手指压不下去，搭在桶边的布也支着不倒"
+    },
+    {
+      "id": "ex-freight-1",
+      "word_id": "freight",
+      "text": "The freight arrived two days late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "月台上一列车厢挨着一列，每节标着编号，旁边贴着一吨多少钱的价目表"
+    },
+    {
+      "id": "ex-freight-2",
+      "word_id": "freight",
+      "text": "They paid the freight on both crates.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "月台上一列车厢挨着一列，每节标着编号，旁边贴着一吨多少钱的价目表"
+    },
+    {
+      "id": "ex-friction-1",
+      "word_id": "friction",
+      "text": "Oil reduces friction between the parts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块木板对着搓了半分钟，接触面开始发烫，手掌也磨红了"
+    },
+    {
+      "id": "ex-friction-2",
+      "word_id": "friction",
+      "text": "There is friction between the two teams.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块木板对着搓了半分钟，接触面开始发烫，手掌也磨红了"
+    },
+    {
+      "id": "ex-fridge-1",
+      "word_id": "fridge",
+      "text": "Put the milk in the fridge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一拉开，白光和一股凉气同时出来，瓶身上挂着一层小水珠"
+    },
+    {
+      "id": "ex-fridge-2",
+      "word_id": "fridge",
+      "text": "The fridge hums all through the night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一拉开，白光和一股凉气同时出来，瓶身上挂着一层小水珠"
+    },
+    {
+      "id": "ex-friend-1",
+      "word_id": "friend",
+      "text": "She has been my friend for ten years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他推门进来不用招呼，自己开冰箱拿水，鞋随手踢在门边"
+    },
+    {
+      "id": "ex-friend-2",
+      "word_id": "friend",
+      "text": "He made two friends on the first day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他推门进来不用招呼，自己开冰箱拿水，鞋随手踢在门边"
+    },
+    {
+      "id": "ex-friendly-1",
+      "word_id": "friendly",
+      "text": "The staff here are very friendly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前台那人抬头就笑，还伸手替他把箱子提过门槛"
+    },
+    {
+      "id": "ex-friendly-2",
+      "word_id": "friendly",
+      "text": "He gave me a friendly wave.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前台那人抬头就笑，还伸手替他把箱子提过门槛"
+    },
+    {
+      "id": "ex-fright-1",
+      "word_id": "fright",
+      "text": "The noise gave the child a fright.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转角窜出一只猫，整个人往后弹了半步，手按在胸口喘"
+    },
+    {
+      "id": "ex-fright-2",
+      "word_id": "fright",
+      "text": "She jumped back in fright.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转角窜出一只猫，整个人往后弹了半步，手按在胸口喘"
+    },
+    {
+      "id": "ex-fringe-1",
+      "word_id": "fringe",
+      "text": "The shawl had a long silk fringe.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌布垂到腿边，末端散成一排线须，风一过一起晃"
+    },
+    {
+      "id": "ex-fringe-2",
+      "word_id": "fringe",
+      "text": "She sat on the fringe of the crowd.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌布垂到腿边，末端散成一排线须，风一过一起晃"
+    },
+    {
+      "id": "ex-frog-1",
+      "word_id": "frog",
+      "text": "A frog jumped into the pond.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "荷叶上一坨绿的，眼睛鼓在头顶，脚一蹬就没了，水面只剩一圈波"
+    },
+    {
+      "id": "ex-frog-2",
+      "word_id": "frog",
+      "text": "We heard frogs calling all evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "荷叶上一坨绿的，眼睛鼓在头顶，脚一蹬就没了，水面只剩一圈波"
+    },
+    {
+      "id": "ex-frost-1",
+      "word_id": "frost",
+      "text": "Frost covered the grass this morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清早车窗上一层白毛，指甲一刮就卷下来，草尖踩过去咯吱响"
+    },
+    {
+      "id": "ex-frost-2",
+      "word_id": "frost",
+      "text": "The windows frosted over by dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清早车窗上一层白毛，指甲一刮就卷下来，草尖踩过去咯吱响"
+    },
+    {
+      "id": "ex-frown-1",
+      "word_id": "frown",
+      "text": "She frowned at the price on the tag.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两道眉往中间挤，鼻梁上叠出一道竖纹，眼睛盯着账单不动"
+    },
+    {
+      "id": "ex-frown-2",
+      "word_id": "frown",
+      "text": "He read the letter with a frown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两道眉往中间挤，鼻梁上叠出一道竖纹，眼睛盯着账单不动"
+    },
+    {
+      "id": "ex-fruit-1",
+      "word_id": "fruit",
+      "text": "He bought fruit at the market.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "枝子被压弯，掰开一个红皮的，籽落在手心，汁顺着手腕往下流"
+    },
+    {
+      "id": "ex-fruit-2",
+      "word_id": "fruit",
+      "text": "The report is the fruit of two years' work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "枝子被压弯，掰开一个红皮的，籽落在手心，汁顺着手腕往下流"
+    },
+    {
+      "id": "ex-fruitful-1",
+      "word_id": "fruitful",
+      "text": "The talks were fruitful on both sides.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一棵树压得枝条快挨地，摘满两筐还剩半树没动"
+    },
+    {
+      "id": "ex-fruitful-2",
+      "word_id": "fruitful",
+      "text": "This is a fruitful piece of land.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一棵树压得枝条快挨地，摘满两筐还剩半树没动"
+    },
+    {
+      "id": "ex-fry-1",
+      "word_id": "fry",
+      "text": "She fried two eggs for breakfast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油面起细泡，鸡蛋滑下去，边缘立刻卷起焦黄，油点蹦到手背"
+    },
+    {
+      "id": "ex-fry-2",
+      "word_id": "fry",
+      "text": "He fries fish in a deep pan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油面起细泡，鸡蛋滑下去，边缘立刻卷起焦黄，油点蹦到手背"
+    },
+    {
+      "id": "ex-fuel-1",
+      "word_id": "fuel",
+      "text": "The stove burns wood as fuel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "劈好的木条堆在炉边，添一根进去，火苗立刻高一截"
+    },
+    {
+      "id": "ex-fuel-2",
+      "word_id": "fuel",
+      "text": "Low pay fuelled the workers' anger.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "劈好的木条堆在炉边，添一根进去，火苗立刻高一截"
+    },
+    {
+      "id": "ex-full-1",
+      "word_id": "full",
+      "text": "The bus was full by seven o'clock.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水倒到杯口，表面拱起来一层，再进一滴就要淌到桌上"
+    },
+    {
+      "id": "ex-full-2",
+      "word_id": "full",
+      "text": "No more rice, I am full.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水倒到杯口，表面拱起来一层，再进一滴就要淌到桌上"
+    },
+    {
+      "id": "ex-fume-1",
+      "word_id": "fume",
+      "text": "Paint fumes filled the small room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "排气口对着人腿，一股呛的白气往上翻，闻两口就想咳"
+    },
+    {
+      "id": "ex-fume-2",
+      "word_id": "fume",
+      "text": "He sat fuming after the meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "排气口对着人腿，一股呛的白气往上翻，闻两口就想咳"
+    },
+    {
+      "id": "ex-fun-1",
+      "word_id": "fun",
+      "text": "We had a lot of fun at the beach.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一屋人围着桌子笑得直不起腰，没人看时间，茶都凉了"
+    },
+    {
+      "id": "ex-fun-2",
+      "word_id": "fun",
+      "text": "It is a fun game for children.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一屋人围着桌子笑得直不起腰，没人看时间，茶都凉了"
+    },
+    {
+      "id": "ex-function-1",
+      "word_id": "function",
+      "text": "Each key has its own function.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "遥控器上每个键各管一件事，坏掉那个按下去屏幕毫无反应"
+    },
+    {
+      "id": "ex-function-2",
+      "word_id": "function",
+      "text": "The lift is not functioning today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "遥控器上每个键各管一件事，坏掉那个按下去屏幕毫无反应"
+    },
+    {
+      "id": "ex-funeral-1",
+      "word_id": "funeral",
+      "text": "The funeral is on Friday morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一队穿黑衣的人排成两行，八个人抬着木箱慢慢往门外走，风琴声压得很低"
+    },
+    {
+      "id": "ex-funeral-2",
+      "word_id": "funeral",
+      "text": "Hundreds came to his funeral.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一队穿黑衣的人排成两行，八个人抬着木箱慢慢往门外走，风琴声压得很低"
+    },
+    {
+      "id": "ex-funny-1",
+      "word_id": "funny",
+      "text": "His story was really funny.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "有人学老板走路的样子，后排的人笑到把水喷在桌上"
+    },
+    {
+      "id": "ex-funny-2",
+      "word_id": "funny",
+      "text": "There is a funny smell in here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "有人学老板走路的样子，后排的人笑到把水喷在桌上"
+    },
+    {
+      "id": "ex-fur-1",
+      "word_id": "fur",
+      "text": "The cat's fur was wet with rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手按在猫背上陷下去一层，抬起来指缝里夹着几根细软的"
+    },
+    {
+      "id": "ex-fur-2",
+      "word_id": "fur",
+      "text": "She wore a coat lined with fur.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手按在猫背上陷下去一层，抬起来指缝里夹着几根细软的"
+    },
+    {
+      "id": "ex-furious-1",
+      "word_id": "furious",
+      "text": "She was furious about the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一脚踹翻椅子，脖子上的筋跳出来，话已经说不成句"
+    },
+    {
+      "id": "ex-furious-2",
+      "word_id": "furious",
+      "text": "A furious wind tore the sail.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一脚踹翻椅子，脖子上的筋跳出来，话已经说不成句"
+    },
+    {
+      "id": "ex-furnace-1",
+      "word_id": "furnace",
+      "text": "The furnace heats the whole building.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁门一拉开，里面通红一片，隔着两米脸就发烫，铁块进去几分钟就软成一团"
+    },
+    {
+      "id": "ex-furnace-2",
+      "word_id": "furnace",
+      "text": "Steel is melted in a furnace.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁门一拉开，里面通红一片，隔着两米脸就发烫，铁块进去几分钟就软成一团"
+    },
+    {
+      "id": "ex-furnish-1",
+      "word_id": "furnish",
+      "text": "They furnished the flat in one weekend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空房间里陆续搬进床、桌、灯，每来一趟就少一处空着，最后连窗帘都挂上"
+    },
+    {
+      "id": "ex-furnish-2",
+      "word_id": "furnish",
+      "text": "He furnished the police with a name.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空房间里陆续搬进床、桌、灯，每来一趟就少一处空着，最后连窗帘都挂上"
+    },
+    {
+      "id": "ex-further-1",
+      "word_id": "further",
+      "text": "We walked further than we planned.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走过了路牌指的那个点，脚还往前迈，回头看车已经缩成一个小点"
+    },
+    {
+      "id": "ex-further-2",
+      "word_id": "further",
+      "text": "This will further his career greatly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走过了路牌指的那个点，脚还往前迈，回头看车已经缩成一个小点"
+    },
+    {
+      "id": "ex-future-1",
+      "word_id": "future",
+      "text": "No one knows what the future holds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历翻到后面几页全是空白，笔悬在上面不知道往哪一格写"
+    },
+    {
+      "id": "ex-future-2",
+      "word_id": "future",
+      "text": "She is training for a future job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历翻到后面几页全是空白，笔悬在上面不知道往哪一格写"
+    },
+    {
+      "id": "ex-gain-1",
+      "word_id": "gain",
+      "text": "He gained a place at the university.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "出门时口袋是平的，回来鼓起一块，秤上的数也比早上多"
+    },
+    {
+      "id": "ex-gain-2",
+      "word_id": "gain",
+      "text": "She gained two kilos over winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "出门时口袋是平的，回来鼓起一块，秤上的数也比早上多"
+    },
+    {
+      "id": "ex-galaxy-1",
+      "word_id": "galaxy",
+      "text": "Our galaxy contains billions of stars.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山顶上看那条淡白的带子横过天空，越看越像无数小点挤在一起"
+    },
+    {
+      "id": "ex-galaxy-2",
+      "word_id": "galaxy",
+      "text": "A galaxy of writers signed the letter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山顶上看那条淡白的带子横过天空，越看越像无数小点挤在一起"
+    },
+    {
+      "id": "ex-gallery-1",
+      "word_id": "gallery",
+      "text": "The gallery opens at ten each day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条长屋子只开侧窗，白墙上一幅接一幅挂着画，脚步声在里头空响"
+    },
+    {
+      "id": "ex-gallery-2",
+      "word_id": "gallery",
+      "text": "We sat in the gallery above the stage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条长屋子只开侧窗，白墙上一幅接一幅挂着画，脚步声在里头空响"
+    },
+    {
+      "id": "ex-gallon-1",
+      "word_id": "gallon",
+      "text": "The car uses a gallon every twenty miles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "提一个塑料大壶装满水，走两步就砸一下腿，换手换了三回"
+    },
+    {
+      "id": "ex-gallon-2",
+      "word_id": "gallon",
+      "text": "She bought two gallons of paint.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "提一个塑料大壶装满水，走两步就砸一下腿，换手换了三回"
+    },
+    {
+      "id": "ex-gallop-1",
+      "word_id": "gallop",
+      "text": "The horse galloped across the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四条腿几乎同时离地，蹄声连成一串，草屑往身后飞"
+    },
+    {
+      "id": "ex-gallop-2",
+      "word_id": "gallop",
+      "text": "He set off at a gallop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四条腿几乎同时离地，蹄声连成一串，草屑往身后飞"
+    },
+    {
+      "id": "ex-gamble-1",
+      "word_id": "gamble",
+      "text": "He gambled away his month's pay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钱推到桌子中间，牌还盖着，谁也不知道翻开是什么"
+    },
+    {
+      "id": "ex-gamble-2",
+      "word_id": "gamble",
+      "text": "Buying that shop was a gamble.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钱推到桌子中间，牌还盖着，谁也不知道翻开是什么"
+    },
+    {
+      "id": "ex-game-1",
+      "word_id": "game",
+      "text": "The children played a game in the yard.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个人先把规矩讲定，然后按顺序出牌，谁越了那条规矩就被叫住"
+    },
+    {
+      "id": "ex-game-2",
+      "word_id": "game",
+      "text": "This forest is full of game.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个人先把规矩讲定，然后按顺序出牌，谁越了那条规矩就被叫住"
+    },
+    {
+      "id": "ex-gang-1",
+      "word_id": "gang",
+      "text": "A gang of boys ran past the shop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "巷口过来八九个人，肩挨着肩，脚步声齐得像一个人在走，旁人都靠边"
+    },
+    {
+      "id": "ex-gang-2",
+      "word_id": "gang",
+      "text": "A gang of workers repaired the road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "巷口过来八九个人，肩挨着肩，脚步声齐得像一个人在走，旁人都靠边"
+    },
+    {
+      "id": "ex-gap-1",
+      "word_id": "gap",
+      "text": "Sheep escaped through a gap in the fence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "篱笆少了两根桩，中间空出一块，羊从那里挤出去了"
+    },
+    {
+      "id": "ex-gap-2",
+      "word_id": "gap",
+      "text": "There is a wide gap between the two teams.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "篱笆少了两根桩，中间空出一块，羊从那里挤出去了"
+    },
+    {
+      "id": "ex-garage-1",
+      "word_id": "garage",
+      "text": "He parked the car in the garage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水泥地上一片旧油渍，卷帘门拉下来，车头正对着一排挂在墙上的扳手"
+    },
+    {
+      "id": "ex-garage-2",
+      "word_id": "garage",
+      "text": "The garage fixed my brakes today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水泥地上一片旧油渍，卷帘门拉下来，车头正对着一排挂在墙上的扳手"
+    },
+    {
+      "id": "ex-garbage-1",
+      "word_id": "garbage",
+      "text": "Take the garbage out tonight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厨房那只桶没盖，果皮和鱼杂堆到边上，招来一圈小虫"
+    },
+    {
+      "id": "ex-garbage-2",
+      "word_id": "garbage",
+      "text": "That report is complete garbage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厨房那只桶没盖，果皮和鱼杂堆到边上，招来一圈小虫"
+    },
+    {
+      "id": "ex-garlic-1",
+      "word_id": "garlic",
+      "text": "Add two cloves of garlic to the pan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整头掰开成十几小瓣，每瓣裹层薄皮，切开后气味冲得眼睛发酸"
+    },
+    {
+      "id": "ex-garlic-2",
+      "word_id": "garlic",
+      "text": "The whole kitchen smelled of garlic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整头掰开成十几小瓣，每瓣裹层薄皮，切开后气味冲得眼睛发酸"
+    },
+    {
+      "id": "ex-garment-1",
+      "word_id": "garment",
+      "text": "She wore a plain black garment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "裁缝把一件成品从架上取下，抖开抖平，领口袖口都已缝完，等着装袋"
+    },
+    {
+      "id": "ex-garment-2",
+      "word_id": "garment",
+      "text": "Each garment is checked before it is packed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "裁缝把一件成品从架上取下，抖开抖平，领口袖口都已缝完，等着装袋"
+    },
+    {
+      "id": "ex-gas-1",
+      "word_id": "gas",
+      "text": "Oxygen is a gas at room temperature.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拧开阀门听见嘶嘶声，眼前什么都看不见，划根火柴却轰一下窜起蓝火"
+    },
+    {
+      "id": "ex-gas-2",
+      "word_id": "gas",
+      "text": "Turn off the gas before you leave.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拧开阀门听见嘶嘶声，眼前什么都看不见，划根火柴却轰一下窜起蓝火"
+    },
+    {
+      "id": "ex-gasoline-1",
+      "word_id": "gasoline",
+      "text": "The car ran out of gasoline on the highway.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "枪口插进车侧的小口，数字一格格跳，风一吹那股味呛得人偏过头去"
+    },
+    {
+      "id": "ex-gasoline-2",
+      "word_id": "gasoline",
+      "text": "Gasoline prices rose again this month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "枪口插进车侧的小口，数字一格格跳，风一吹那股味呛得人偏过头去"
+    },
+    {
+      "id": "ex-gasp-1",
+      "word_id": "gasp",
+      "text": "He gasped when he saw the bill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "冲出水面那一下嘴张到最大，肩膀猛地一抬，声音又粗又短"
+    },
+    {
+      "id": "ex-gasp-2",
+      "word_id": "gasp",
+      "text": "She came up gasping for air.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "冲出水面那一下嘴张到最大，肩膀猛地一抬，声音又粗又短"
+    },
+    {
+      "id": "ex-gate-1",
+      "word_id": "gate",
+      "text": "He locked the gate behind him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "围墙上留出一道缺口，装一扇铁栅，推开吱一声，锁链在柱子上晃"
+    },
+    {
+      "id": "ex-gate-2",
+      "word_id": "gate",
+      "text": "Passengers should go to gate twelve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "围墙上留出一道缺口，装一扇铁栅，推开吱一声，锁链在柱子上晃"
+    },
+    {
+      "id": "ex-gather-1",
+      "word_id": "gather",
+      "text": "They gathered wood for the fire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "落了一地的核桃，她弯腰一颗颗捡进围裙兜里，兜口越来越沉"
+    },
+    {
+      "id": "ex-gather-2",
+      "word_id": "gather",
+      "text": "A crowd gathered outside the shop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "落了一地的核桃，她弯腰一颗颗捡进围裙兜里，兜口越来越沉"
+    },
+    {
+      "id": "ex-gauge-1",
+      "word_id": "gauge",
+      "text": "He gauged the depth of the water with a stick.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根刻着格的铁杆插进桶里，抽出来看湿到第几道线"
+    },
+    {
+      "id": "ex-gauge-2",
+      "word_id": "gauge",
+      "text": "The fuel gauge showed almost empty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根刻着格的铁杆插进桶里，抽出来看湿到第几道线"
+    },
+    {
+      "id": "ex-gay-1",
+      "word_id": "gay",
+      "text": "The room was full of gay laughter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一群人围着桌子笑闹，桌布是大红大黄的格子，灯串挂了满墙"
+    },
+    {
+      "id": "ex-gay-2",
+      "word_id": "gay",
+      "text": "He came out as gay last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一群人围着桌子笑闹，桌布是大红大黄的格子，灯串挂了满墙"
+    },
+    {
+      "id": "ex-gaze-1",
+      "word_id": "gaze",
+      "text": "She gazed out of the window for hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在画前站了十分钟没动，脖子都没转，旁边有人走过也没察觉"
+    },
+    {
+      "id": "ex-gaze-2",
+      "word_id": "gaze",
+      "text": "He felt her gaze on his back.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在画前站了十分钟没动，脖子都没转，旁边有人走过也没察觉"
+    },
+    {
+      "id": "ex-gear-1",
+      "word_id": "gear",
+      "text": "Bring your climbing gear tomorrow.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳索头盔锁扣摊在地上一样样清点；旁边两排齿咬住互转，快慢立刻变了"
+    },
+    {
+      "id": "ex-gear-2",
+      "word_id": "gear",
+      "text": "He shifted the car into third gear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳索头盔锁扣摊在地上一样样清点；旁边两排齿咬住互转，快慢立刻变了"
+    },
+    {
+      "id": "ex-get-1",
+      "word_id": "get",
+      "text": "I got a letter from her yesterday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "伸手把架子最上层那个盒子够下来，抱在怀里"
+    },
+    {
+      "id": "ex-get-2",
+      "word_id": "get",
+      "text": "We got home just before dark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "伸手把架子最上层那个盒子够下来，抱在怀里"
+    },
+    {
+      "id": "ex-giant-1",
+      "word_id": "giant",
+      "text": "The story tells of a giant in the hills.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门框上的刻痕比屋顶还高，脚印踩进泥里能盛住一整桶水"
+    },
+    {
+      "id": "ex-giant-2",
+      "word_id": "giant",
+      "text": "Two giants control the whole market.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门框上的刻痕比屋顶还高，脚印踩进泥里能盛住一整桶水"
+    },
+    {
+      "id": "ex-gift-1",
+      "word_id": "gift",
+      "text": "She brought a small gift for the baby.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "包好的盒子推到对面手边，收的人问多少钱，送的人摆摆手"
+    },
+    {
+      "id": "ex-gift-2",
+      "word_id": "gift",
+      "text": "He has a real gift for languages.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "包好的盒子推到对面手边，收的人问多少钱，送的人摆摆手"
+    },
+    {
+      "id": "ex-gigantic-1",
+      "word_id": "gigantic",
+      "text": "A gigantic wave hit the small boat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "起重机吊起一块混凝土板，板子把整栋楼的窗户全遮住了"
+    },
+    {
+      "id": "ex-gigantic-2",
+      "word_id": "gigantic",
+      "text": "The project needs a gigantic amount of money.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "起重机吊起一块混凝土板，板子把整栋楼的窗户全遮住了"
+    },
+    {
+      "id": "ex-giggle-1",
+      "word_id": "giggle",
+      "text": "The children giggled at his silly hat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个学生在后排捂着嘴，肩膀一抖一抖，老师一转头又憋回去"
+    },
+    {
+      "id": "ex-giggle-2",
+      "word_id": "giggle",
+      "text": "She gave a nervous giggle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个学生在后排捂着嘴，肩膀一抖一抖，老师一转头又憋回去"
+    },
+    {
+      "id": "ex-girl-1",
+      "word_id": "girl",
+      "text": "A little girl waved from the window.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校门口一个扎马尾的孩子蹲着系鞋带，书包比她背还宽"
+    },
+    {
+      "id": "ex-girl-2",
+      "word_id": "girl",
+      "text": "The girls in her class all play football.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "校门口一个扎马尾的孩子蹲着系鞋带，书包比她背还宽"
+    },
+    {
+      "id": "ex-give-1",
+      "word_id": "give",
+      "text": "He gave the keys to his brother.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手心朝上把钥匙托过去，等对方的手指合上才松开"
+    },
+    {
+      "id": "ex-give-2",
+      "word_id": "give",
+      "text": "She gave a talk on birds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手心朝上把钥匙托过去，等对方的手指合上才松开"
+    },
+    {
+      "id": "ex-glad-1",
+      "word_id": "glad",
+      "text": "I am glad you could come.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "听完电话她眉毛抬起来，嘴角压不住，走回桌边脚步都轻了"
+    },
+    {
+      "id": "ex-glad-2",
+      "word_id": "glad",
+      "text": "She was glad to help with the move.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "听完电话她眉毛抬起来，嘴角压不住，走回桌边脚步都轻了"
+    },
+    {
+      "id": "ex-glance-1",
+      "word_id": "glance",
+      "text": "He glanced at his watch and stood up.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话时眼睛往手表上一溜就收回来，对面没看出他在赶时间"
+    },
+    {
+      "id": "ex-glance-2",
+      "word_id": "glance",
+      "text": "She gave him a quick glance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话时眼睛往手表上一溜就收回来，对面没看出他在赶时间"
+    },
+    {
+      "id": "ex-glare-1",
+      "word_id": "glare",
+      "text": "The glare of the sun hurt his eyes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "正午的水面反光直冲眼睛，眼睛被逼得眯起来，看什么都刺"
+    },
+    {
+      "id": "ex-glare-2",
+      "word_id": "glare",
+      "text": "She glared at him and said nothing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "正午的水面反光直冲眼睛，眼睛被逼得眯起来，看什么都刺"
+    },
+    {
+      "id": "ex-glass-1",
+      "word_id": "glass",
+      "text": "The ball broke the kitchen glass.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块透明的硬片，敲上去脆响，摔在地上碎成尖角的碴子"
+    },
+    {
+      "id": "ex-glass-2",
+      "word_id": "glass",
+      "text": "He filled her glass with water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块透明的硬片，敲上去脆响，摔在地上碎成尖角的碴子"
+    },
+    {
+      "id": "ex-glide-1",
+      "word_id": "glide",
+      "text": "The boat glided across the still lake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天鹅在水面上过去，脚没露出来，身后只留一道细纹"
+    },
+    {
+      "id": "ex-glide-2",
+      "word_id": "glide",
+      "text": "An eagle glided over the valley.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天鹅在水面上过去，脚没露出来，身后只留一道细纹"
+    },
+    {
+      "id": "ex-glimpse-1",
+      "word_id": "glimpse",
+      "text": "I caught a glimpse of her in the crowd.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "火车过站不停，站牌上的字只闪了半个，没看全就过去了"
+    },
+    {
+      "id": "ex-glimpse-2",
+      "word_id": "glimpse",
+      "text": "He glimpsed the sea between the houses.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "火车过站不停，站牌上的字只闪了半个，没看全就过去了"
+    },
+    {
+      "id": "ex-global-1",
+      "word_id": "global",
+      "text": "Climate change is a global problem.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那个转起来的圆模型，红线从一头拉到另一头，绕回原处"
+    },
+    {
+      "id": "ex-global-2",
+      "word_id": "global",
+      "text": "The company took a global view of costs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那个转起来的圆模型，红线从一头拉到另一头，绕回原处"
+    },
+    {
+      "id": "ex-globe-1",
+      "word_id": "globe",
+      "text": "He spun the globe on the desk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "支架上一个能转的圆球，蓝多绿少，指头一拨就晃着转半圈"
+    },
+    {
+      "id": "ex-globe-2",
+      "word_id": "globe",
+      "text": "Her books are read across the globe.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "支架上一个能转的圆球，蓝多绿少，指头一拨就晃着转半圈"
+    },
+    {
+      "id": "ex-gloomy-1",
+      "word_id": "gloomy",
+      "text": "The old house felt cold and gloomy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "云压得很低，屋里下午三点就得开灯，人坐着不太想说话"
+    },
+    {
+      "id": "ex-gloomy-2",
+      "word_id": "gloomy",
+      "text": "He gave a gloomy view of the future.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "云压得很低，屋里下午三点就得开灯，人坐着不太想说话"
+    },
+    {
+      "id": "ex-glory-1",
+      "word_id": "glory",
+      "text": "The team won glory for their country.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他举着奖杯站在台子最高一级，闪光灯四面打上来，全场喊着他的名字"
+    },
+    {
+      "id": "ex-glory-2",
+      "word_id": "glory",
+      "text": "The glory of the sunset held them still.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他举着奖杯站在台子最高一级，闪光灯四面打上来，全场喊着他的名字"
+    },
+    {
+      "id": "ex-glove-1",
+      "word_id": "glove",
+      "text": "He pulled on his leather gloves.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五个筒子缝在一块皮上，套进去手指各归各位，攥拳时皮面发紧"
+    },
+    {
+      "id": "ex-glove-2",
+      "word_id": "glove",
+      "text": "She lost one glove on the bus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五个筒子缝在一块皮上，套进去手指各归各位，攥拳时皮面发紧"
+    },
+    {
+      "id": "ex-glow-1",
+      "word_id": "glow",
+      "text": "The embers glowed in the dark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "炉子里最后几块炭红着，没有火苗，手伸近了还是烫"
+    },
+    {
+      "id": "ex-glow-2",
+      "word_id": "glow",
+      "text": "Her cheeks glowed after the run.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "炉子里最后几块炭红着，没有火苗，手伸近了还是烫"
+    },
+    {
+      "id": "ex-glue-1",
+      "word_id": "glue",
+      "text": "He fixed the broken cup with glue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "挤出一条稠液抹在断面上，两块按紧数到六十，松手已经掰不开"
+    },
+    {
+      "id": "ex-glue-2",
+      "word_id": "glue",
+      "text": "She glued the photos into the album.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "挤出一条稠液抹在断面上，两块按紧数到六十，松手已经掰不开"
+    },
+    {
+      "id": "ex-goal-1",
+      "word_id": "goal",
+      "text": "Her goal is to finish before June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道尽头拉了一条白带，最先碰到它的人抬起手；球场两端各立一副框"
+    },
+    {
+      "id": "ex-goal-2",
+      "word_id": "goal",
+      "text": "He scored the winning goal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道尽头拉了一条白带，最先碰到它的人抬起手；球场两端各立一副框"
+    },
+    {
+      "id": "ex-goat-1",
+      "word_id": "goat",
+      "text": "The goat ate the leaves off the bush.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石壁上一只四条腿的东西站在半个脚掌宽的凸沿上，下巴垂一撮毛，还在嚼"
+    },
+    {
+      "id": "ex-goat-2",
+      "word_id": "goat",
+      "text": "They keep goats for milk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石壁上一只四条腿的东西站在半个脚掌宽的凸沿上，下巴垂一撮毛，还在嚼"
+    },
+    {
+      "id": "ex-god-1",
+      "word_id": "god",
+      "text": "They prayed to their god for rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "殿里一座比人高的像，脚下摆着果子和香，进来的人先跪下"
+    },
+    {
+      "id": "ex-god-2",
+      "word_id": "god",
+      "text": "He does not believe in God.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "殿里一座比人高的像，脚下摆着果子和香，进来的人先跪下"
+    },
+    {
+      "id": "ex-gold-1",
+      "word_id": "gold",
+      "text": "The ring is made of pure gold.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块压在手心里沉得意外，颜色不刺眼却一直亮，放了多年也不生锈"
+    },
+    {
+      "id": "ex-gold-2",
+      "word_id": "gold",
+      "text": "She won gold in the long jump.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块压在手心里沉得意外，颜色不刺眼却一直亮，放了多年也不生锈"
+    },
+    {
+      "id": "ex-golden-1",
+      "word_id": "golden",
+      "text": "The fields turned golden in the evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "傍晚的麦地整片泛黄发亮，风一过像水面在动"
+    },
+    {
+      "id": "ex-golden-2",
+      "word_id": "golden",
+      "text": "This is a golden chance for you.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "傍晚的麦地整片泛黄发亮，风一过像水面在动"
+    },
+    {
+      "id": "ex-golf-1",
+      "word_id": "golf",
+      "text": "They play golf every Sunday morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "草坡上一个人挥杆，白点飞很远落进草里，远处插着一根带旗的杆"
+    },
+    {
+      "id": "ex-golf-2",
+      "word_id": "golf",
+      "text": "He took up golf after retiring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "草坡上一个人挥杆，白点飞很远落进草里，远处插着一根带旗的杆"
+    },
+    {
+      "id": "ex-good-1",
+      "word_id": "good",
+      "text": "This is a good knife for the price.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "买回来的刀切了两年还快，握着也顺手，家里人都爱用它"
+    },
+    {
+      "id": "ex-good-2",
+      "word_id": "good",
+      "text": "She has always been good to me.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "买回来的刀切了两年还快，握着也顺手，家里人都爱用它"
+    },
+    {
+      "id": "ex-goodby-1",
+      "word_id": "goodby",
+      "text": "She said goodby and closed the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站台上两人握完手，一个上了车，另一个在窗外抬手停了几秒"
+    },
+    {
+      "id": "ex-goodby-2",
+      "word_id": "goodby",
+      "text": "They waved goodby at the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站台上两人握完手，一个上了车，另一个在窗外抬手停了几秒"
+    },
+    {
+      "id": "ex-goodness-1",
+      "word_id": "goodness",
+      "text": "She showed great goodness to strangers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "邻居把熬好的汤端过来放门口就走，谁也没提要回报的事"
+    },
+    {
+      "id": "ex-goodness-2",
+      "word_id": "goodness",
+      "text": "Boiling too long removes the goodness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "邻居把熬好的汤端过来放门口就走，谁也没提要回报的事"
+    },
+    {
+      "id": "ex-goods-1",
+      "word_id": "goods",
+      "text": "The shop sells household goods.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "仓库里一箱箱码到顶，每箱贴着单子，叉车正把最外一排搬上车"
+    },
+    {
+      "id": "ex-goods-2",
+      "word_id": "goods",
+      "text": "The goods arrived two days late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "仓库里一箱箱码到顶，每箱贴着单子，叉车正把最外一排搬上车"
+    },
+    {
+      "id": "ex-goose-1",
+      "word_id": "goose",
+      "text": "A goose hissed at the children.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "池边一只脖子很长的白鸟张嘴嘶叫，扇着翅膀追人，孩子往后跑"
+    },
+    {
+      "id": "ex-goose-2",
+      "word_id": "goose",
+      "text": "They roast a goose at Christmas.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "池边一只脖子很长的白鸟张嘴嘶叫，扇着翅膀追人，孩子往后跑"
+    },
+    {
+      "id": "ex-gorgeous-1",
+      "word_id": "gorgeous",
+      "text": "She looked gorgeous in that dress.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她一进门所有人都停了一下，那身裙子的料子在灯下一层层反光"
+    },
+    {
+      "id": "ex-gorgeous-2",
+      "word_id": "gorgeous",
+      "text": "We had gorgeous weather all week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她一进门所有人都停了一下，那身裙子的料子在灯下一层层反光"
+    },
+    {
+      "id": "ex-gossip-1",
+      "word_id": "gossip",
+      "text": "She spreads gossip about everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人在楼道压低声音说第三个人的事，见有人来就换话题"
+    },
+    {
+      "id": "ex-gossip-2",
+      "word_id": "gossip",
+      "text": "They gossiped about the new manager.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人在楼道压低声音说第三个人的事，见有人来就换话题"
+    },
+    {
+      "id": "ex-gown-1",
+      "word_id": "gown",
+      "text": "She wore a long white gown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一件长到脚踝的衣裳挂在门后，下摆宽得能扫到地，肩上一条缎带"
+    },
+    {
+      "id": "ex-gown-2",
+      "word_id": "gown",
+      "text": "The judges appeared in black gowns.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一件长到脚踝的衣裳挂在门后，下摆宽得能扫到地，肩上一条缎带"
+    },
+    {
+      "id": "ex-grab-1",
+      "word_id": "grab",
+      "text": "He grabbed my arm and pulled me back.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯子刚往桌边倒，他手一伸就攥住了杯身，水只溅出一点"
+    },
+    {
+      "id": "ex-grab-2",
+      "word_id": "grab",
+      "text": "She grabbed a sandwich and ran.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯子刚往桌边倒，他手一伸就攥住了杯身，水只溅出一点"
+    },
+    {
+      "id": "ex-grain-1",
+      "word_id": "grain",
+      "text": "The farmers stored the grain for winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手插进麻袋里，硬硬的小颗从指缝漏下去，掉在木板上一片沙沙响"
+    },
+    {
+      "id": "ex-grain-2",
+      "word_id": "grain",
+      "text": "You can see the grain of the wood.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手插进麻袋里，硬硬的小颗从指缝漏下去，掉在木板上一片沙沙响"
+    },
+    {
+      "id": "ex-grand-1",
+      "word_id": "grand",
+      "text": "They live in a grand old house.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门厅里一段石阶铺开二十级宽，顶上吊灯一层层垂下来，说话都有回声"
+    },
+    {
+      "id": "ex-grand-2",
+      "word_id": "grand",
+      "text": "The opening was a grand occasion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门厅里一段石阶铺开二十级宽，顶上吊灯一层层垂下来，说话都有回声"
+    },
+    {
+      "id": "ex-grape-1",
+      "word_id": "grape",
+      "text": "These grapes are sweet and seedless.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "藤下垂着一串，颗颗挨紧，捏一下皮就破，汁把手指弄黏"
+    },
+    {
+      "id": "ex-grape-2",
+      "word_id": "grape",
+      "text": "Wine is made from grapes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "藤下垂着一串，颗颗挨紧，捏一下皮就破，汁把手指弄黏"
+    },
+    {
+      "id": "ex-grasp-1",
+      "word_id": "grasp",
+      "text": "He grasped the rope with both hands.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子从悬崖边垂下来，他五指扣紧，整个人的重量都吊在这一握上"
+    },
+    {
+      "id": "ex-grasp-2",
+      "word_id": "grasp",
+      "text": "She quickly grasped what he meant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子从悬崖边垂下来，他五指扣紧，整个人的重量都吊在这一握上"
+    },
+    {
+      "id": "ex-grass-1",
+      "word_id": "grass",
+      "text": "The children played on the grass.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "光脚踩下去一片扎脚的绿，刚割过，断口还渗出汁，味道很生"
+    },
+    {
+      "id": "ex-grass-2",
+      "word_id": "grass",
+      "text": "He cut the grass every Saturday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "光脚踩下去一片扎脚的绿，刚割过，断口还渗出汁，味道很生"
+    },
+    {
+      "id": "ex-graze-1",
+      "word_id": "graze",
+      "text": "The sheep grazed on the hillside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牛群低着头在坡上一步步挪，嘴贴着地啃，啃过的地方短了一截"
+    },
+    {
+      "id": "ex-graze-2",
+      "word_id": "graze",
+      "text": "The bullet grazed his shoulder.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牛群低着头在坡上一步步挪，嘴贴着地啃，啃过的地方短了一截"
+    },
+    {
+      "id": "ex-grease-1",
+      "word_id": "grease",
+      "text": "The pan was covered in thick grease.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锅底凝着一层白油，抹布擦过只留下一道亮痕，手指一碰就滑"
+    },
+    {
+      "id": "ex-grease-2",
+      "word_id": "grease",
+      "text": "Grease the tin before you bake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锅底凝着一层白油，抹布擦过只留下一道亮痕，手指一碰就滑"
+    },
+    {
+      "id": "ex-great-1",
+      "word_id": "great",
+      "text": "A great crowd waited outside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口那棵树四个人手拉手才围住，树荫盖住半个院子"
+    },
+    {
+      "id": "ex-great-2",
+      "word_id": "great",
+      "text": "She was a great scientist.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口那棵树四个人手拉手才围住，树荫盖住半个院子"
+    },
+    {
+      "id": "ex-greedy-1",
+      "word_id": "greedy",
+      "text": "The greedy boy ate all the cake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "盘子还没端稳他已经夹了三筷子，碗里堆得快掉出来，别人还没动手"
+    },
+    {
+      "id": "ex-greedy-2",
+      "word_id": "greedy",
+      "text": "He was greedy for money and power.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "盘子还没端稳他已经夹了三筷子，碗里堆得快掉出来，别人还没动手"
+    },
+    {
+      "id": "ex-green-1",
+      "word_id": "green",
+      "text": "The hills turned green in spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨后新叶的那种颜色，看久了眼睛松快；掰下一枚咬一口，酸得直皱脸"
+    },
+    {
+      "id": "ex-green-2",
+      "word_id": "green",
+      "text": "These bananas are still green.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨后新叶的那种颜色，看久了眼睛松快；掰下一枚咬一口，酸得直皱脸"
+    },
+    {
+      "id": "ex-greet-1",
+      "word_id": "greet",
+      "text": "She greeted us at the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一开他先伸出手，同时点了下头，把人往屋里让"
+    },
+    {
+      "id": "ex-greet-2",
+      "word_id": "greet",
+      "text": "The news was greeted with silence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一开他先伸出手，同时点了下头，把人往屋里让"
+    },
+    {
+      "id": "ex-grey-1",
+      "word_id": "grey",
+      "text": "The sky was grey all morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "连着下了五天雨，天和楼和路一个颜色，分不出边界在哪儿"
+    },
+    {
+      "id": "ex-grey-2",
+      "word_id": "grey",
+      "text": "His hair turned grey early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "连着下了五天雨，天和楼和路一个颜色，分不出边界在哪儿"
+    },
+    {
+      "id": "ex-grim-1",
+      "word_id": "grim",
+      "text": "The prisoners faced a grim future.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生把片子往灯箱上一插，嘴角压成直线，屋里没人敢先开口"
+    },
+    {
+      "id": "ex-grim-2",
+      "word_id": "grim",
+      "text": "His grim face told us the news was bad.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "医生把片子往灯箱上一插，嘴角压成直线，屋里没人敢先开口"
+    },
+    {
+      "id": "ex-grin-1",
+      "word_id": "grin",
+      "text": "She gave me a wide grin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他嘴角一直拉到耳根，上排牙全露在外头，眼睛挤成两条缝"
+    },
+    {
+      "id": "ex-grin-2",
+      "word_id": "grin",
+      "text": "He grinned at his own joke.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他嘴角一直拉到耳根，上排牙全露在外头，眼睛挤成两条缝"
+    },
+    {
+      "id": "ex-grind-1",
+      "word_id": "grind",
+      "text": "The mill grinds wheat into flour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石盘转一圈，麦粒从中间的孔漏下去，边上白粉一点点堆起来"
+    },
+    {
+      "id": "ex-grind-2",
+      "word_id": "grind",
+      "text": "He ground the beans for coffee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石盘转一圈，麦粒从中间的孔漏下去，边上白粉一点点堆起来"
+    },
+    {
+      "id": "ex-grip-1",
+      "word_id": "grip",
+      "text": "She gripped the rail with both hands.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子往下坠，他五指扣死缠两圈，指节全泛白也不松"
+    },
+    {
+      "id": "ex-grip-2",
+      "word_id": "grip",
+      "text": "He has a firm grip on the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子往下坠，他五指扣死缠两圈，指节全泛白也不松"
+    },
+    {
+      "id": "ex-groan-1",
+      "word_id": "groan",
+      "text": "The injured man groaned in pain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "伤员在担架上从喉咙深处拖出一串低音，一路没断"
+    },
+    {
+      "id": "ex-groan-2",
+      "word_id": "groan",
+      "text": "The class groaned when she set more homework.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "伤员在担架上从喉咙深处拖出一串低音，一路没断"
+    },
+    {
+      "id": "ex-grocer-1",
+      "word_id": "grocer",
+      "text": "She bought eggs at the corner grocer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台后头一排玻璃罐装着糖和茶叶，秤盘上还有没扫净的米"
+    },
+    {
+      "id": "ex-grocer-2",
+      "word_id": "grocer",
+      "text": "The grocer weighed out a pound of rice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台后头一排玻璃罐装着糖和茶叶，秤盘上还有没扫净的米"
+    },
+    {
+      "id": "ex-grope-1",
+      "word_id": "grope",
+      "text": "He groped for the light switch in the dark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "停电了，他贴着墙一寸寸往前挪，手在半空里划来划去找开关"
+    },
+    {
+      "id": "ex-grope-2",
+      "word_id": "grope",
+      "text": "She groped her way along the wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "停电了，他贴着墙一寸寸往前挪，手在半空里划来划去找开关"
+    },
+    {
+      "id": "ex-gross-1",
+      "word_id": "gross",
+      "text": "His gross income is fifty thousand a year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工资单最上面那行数目最大，往下每扣一项就少一截"
+    },
+    {
+      "id": "ex-gross-2",
+      "word_id": "gross",
+      "text": "That was a gross error of judgement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工资单最上面那行数目最大，往下每扣一项就少一截"
+    },
+    {
+      "id": "ex-ground-1",
+      "word_id": "ground",
+      "text": "He sat down on the wet ground.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁锹往下一插，翻起一块带草根的土，底下石子露出来"
+    },
+    {
+      "id": "ex-ground-2",
+      "word_id": "ground",
+      "text": "We have good grounds for believing her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁锹往下一插，翻起一块带草根的土，底下石子露出来"
+    },
+    {
+      "id": "ex-group-1",
+      "word_id": "group",
+      "text": "A group of tourists waited by the gate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片里七八个人挤在一起，肩挨着肩，边上还空着一大片"
+    },
+    {
+      "id": "ex-group-2",
+      "word_id": "group",
+      "text": "Please group these files by date.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片里七八个人挤在一起，肩挨着肩，边上还空着一大片"
+    },
+    {
+      "id": "ex-grow-1",
+      "word_id": "grow",
+      "text": "These plants grow well in shade.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗台上那盆苗，上周刚过杯口，今天已经顶到玻璃"
+    },
+    {
+      "id": "ex-grow-2",
+      "word_id": "grow",
+      "text": "The city has grown very fast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗台上那盆苗，上周刚过杯口，今天已经顶到玻璃"
+    },
+    {
+      "id": "ex-growth-1",
+      "word_id": "growth",
+      "text": "The growth of the city surprised everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树干上一圈套一圈的年轮，外圈比内圈宽得多"
+    },
+    {
+      "id": "ex-growth-2",
+      "word_id": "growth",
+      "text": "Doctors removed a small growth from his arm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树干上一圈套一圈的年轮，外圈比内圈宽得多"
+    },
+    {
+      "id": "ex-guess-1",
+      "word_id": "guess",
+      "text": "I guessed the answer and got it right.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "罐子封着口，他掂了掂说里头大概三十颗，谁也没数过"
+    },
+    {
+      "id": "ex-guess-2",
+      "word_id": "guess",
+      "text": "Can you guess how old she is?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "罐子封着口，他掂了掂说里头大概三十颗，谁也没数过"
+    },
+    {
+      "id": "ex-guest-1",
+      "word_id": "guest",
+      "text": "We had ten guests for dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口多摆了一双拖鞋，桌上添了一副碗筷，主位让给了刚进门的人"
+    },
+    {
+      "id": "ex-guest-2",
+      "word_id": "guest",
+      "text": "The hotel guests eat breakfast at eight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口多摆了一双拖鞋，桌上添了一副碗筷，主位让给了刚进门的人"
+    },
+    {
+      "id": "ex-guidance-1",
+      "word_id": "guidance",
+      "text": "Students need guidance in choosing courses.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师傅站在旁边不动手，只说下一步该往哪拧，学徒照着做"
+    },
+    {
+      "id": "ex-guidance-2",
+      "word_id": "guidance",
+      "text": "He acted under his father's guidance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老师傅站在旁边不动手，只说下一步该往哪拧，学徒照着做"
+    },
+    {
+      "id": "ex-guide-1",
+      "word_id": "guide",
+      "text": "She guided us through the old town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前头那人举着小旗，走两步回头看一眼，一队人跟着他拐进巷子"
+    },
+    {
+      "id": "ex-guide-2",
+      "word_id": "guide",
+      "text": "Buy a guide to the city museums.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前头那人举着小旗，走两步回头看一眼，一队人跟着他拐进巷子"
+    },
+    {
+      "id": "ex-guilt-1",
+      "word_id": "guilt",
+      "text": "The jury decided his guilt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那件事说出来之前，夜里翻来覆去坐起好几回"
+    },
+    {
+      "id": "ex-guilt-2",
+      "word_id": "guilt",
+      "text": "She felt guilt about lying to her mother.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那件事说出来之前，夜里翻来覆去坐起好几回"
+    },
+    {
+      "id": "ex-guilty-1",
+      "word_id": "guilty",
+      "text": "The court found him guilty of theft.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法槌落下后他低头盯着自己的鞋，旁边人退开半步"
+    },
+    {
+      "id": "ex-guilty-2",
+      "word_id": "guilty",
+      "text": "I feel guilty about forgetting her birthday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法槌落下后他低头盯着自己的鞋，旁边人退开半步"
+    },
+    {
+      "id": "ex-guitar-1",
+      "word_id": "guitar",
+      "text": "He plays the guitar in a band.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木头做的空腹箱子，正面开个圆洞，六根弦从洞上绷到长颈尽头"
+    },
+    {
+      "id": "ex-guitar-2",
+      "word_id": "guitar",
+      "text": "She bought a second-hand guitar.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木头做的空腹箱子，正面开个圆洞，六根弦从洞上绷到长颈尽头"
+    },
+    {
+      "id": "ex-gulf-1",
+      "word_id": "gulf",
+      "text": "The ship sailed into the gulf.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上海水往陆地里凹进去一大片，三面是岸，只一边通向外洋"
+    },
+    {
+      "id": "ex-gulf-2",
+      "word_id": "gulf",
+      "text": "There is a wide gulf between the two sides.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上海水往陆地里凹进去一大片，三面是岸，只一边通向外洋"
+    },
+    {
+      "id": "ex-gum-1",
+      "word_id": "gum",
+      "text": "The gum from this tree hardens in the sun.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树皮裂口上挂着一滴半透明的稠汁，拉起来能拉出丝，粘手"
+    },
+    {
+      "id": "ex-gum-2",
+      "word_id": "gum",
+      "text": "She was chewing gum in class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树皮裂口上挂着一滴半透明的稠汁，拉起来能拉出丝，粘手"
+    },
+    {
+      "id": "ex-gun-1",
+      "word_id": "gun",
+      "text": "He kept a gun in the drawer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根中空的钢管架在木托上，扳机一扣，管口冒出一股白烟"
+    },
+    {
+      "id": "ex-gun-2",
+      "word_id": "gun",
+      "text": "The ship's guns fired at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一根中空的钢管架在木托上，扳机一扣，管口冒出一股白烟"
+    },
+    {
+      "id": "ex-gut-1",
+      "word_id": "gut",
+      "text": "The fisherman gutted the fish quickly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "鱼被剖开，一段盘着的软管连着扯出来，扔进旁边的桶里"
+    },
+    {
+      "id": "ex-gut-2",
+      "word_id": "gut",
+      "text": "It took a lot of guts to speak up.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "鱼被剖开，一段盘着的软管连着扯出来，扔进旁边的桶里"
+    },
+    {
+      "id": "ex-guy-1",
+      "word_id": "guy",
+      "text": "That guy over there sold me the ticket.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街角站着的那个穿夹克的，名字不知道，说话时就用手一指"
+    },
+    {
+      "id": "ex-guy-2",
+      "word_id": "guy",
+      "text": "Come on, you guys, we're late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街角站着的那个穿夹克的，名字不知道，说话时就用手一指"
+    },
+    {
+      "id": "ex-hail-1",
+      "word_id": "hail",
+      "text": "Hail damaged the young plants.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁皮棚顶上噼里啪啦砸成一片，地上弹起白色小圆粒，踩上去咯吱响"
+    },
+    {
+      "id": "ex-hail-2",
+      "word_id": "hail",
+      "text": "He hailed a taxi on the corner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁皮棚顶上噼里啪啦砸成一片，地上弹起白色小圆粒，踩上去咯吱响"
+    },
+    {
+      "id": "ex-hair-1",
+      "word_id": "hair",
+      "text": "She has long dark hair.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她低头一甩，一大把细丝散到肩上，梳子过去带下几根落在地砖上"
+    },
+    {
+      "id": "ex-hair-2",
+      "word_id": "hair",
+      "text": "There was a hair in my soup.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她低头一甩，一大把细丝散到肩上，梳子过去带下几根落在地砖上"
+    },
+    {
+      "id": "ex-half-1",
+      "word_id": "half",
+      "text": "She ate half of the cake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刀从苹果正中切下去，两块摊在盘上，大小看着一样"
+    },
+    {
+      "id": "ex-half-2",
+      "word_id": "half",
+      "text": "The bottle is half empty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刀从苹果正中切下去，两块摊在盘上，大小看着一样"
+    },
+    {
+      "id": "ex-hall-1",
+      "word_id": "hall",
+      "text": "The concert was held in the town hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "进门是一片空着的大屋，四面的门都朝这里开，脚步声有回音"
+    },
+    {
+      "id": "ex-hall-2",
+      "word_id": "hall",
+      "text": "Leave your coat in the hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "进门是一片空着的大屋，四面的门都朝这里开，脚步声有回音"
+    },
+    {
+      "id": "ex-halt-1",
+      "word_id": "halt",
+      "text": "The train halted just outside the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍前头一只手举起来，后面的人一个接一个收住脚，尘土还在飘"
+    },
+    {
+      "id": "ex-halt-2",
+      "word_id": "halt",
+      "text": "Police halted the marchers at the bridge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍前头一只手举起来，后面的人一个接一个收住脚，尘土还在飘"
+    },
+    {
+      "id": "ex-ham-1",
+      "word_id": "ham",
+      "text": "He cut a thin slice of ham.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "熏房梁上吊着几条腌过的猪后腿，表面发暗红，切开纹路里透着白丝"
+    },
+    {
+      "id": "ex-ham-2",
+      "word_id": "ham",
+      "text": "We had ham and eggs for breakfast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "熏房梁上吊着几条腌过的猪后腿，表面发暗红，切开纹路里透着白丝"
+    },
+    {
+      "id": "ex-hammer-1",
+      "word_id": "hammer",
+      "text": "He hit the nail with a hammer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一头是块沉铁，一头是木柄，抓着柄往下甩，钉子一寸寸没进木头"
+    },
+    {
+      "id": "ex-hammer-2",
+      "word_id": "hammer",
+      "text": "She hammered the post into the ground.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一头是块沉铁，一头是木柄，抓着柄往下甩，钉子一寸寸没进木头"
+    },
+    {
+      "id": "ex-hand-1",
+      "word_id": "hand",
+      "text": "He washed his hands before dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五根指头从腕上分出来，摊开能托住碗，合起来能攥住绳"
+    },
+    {
+      "id": "ex-hand-2",
+      "word_id": "hand",
+      "text": "Please hand me the salt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五根指头从腕上分出来，摊开能托住碗，合起来能攥住绳"
+    },
+    {
+      "id": "ex-handbook-1",
+      "word_id": "handbook",
+      "text": "The handbook explains how to fit the parts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一本能塞进外套口袋的小书，边角磨圆了，里头全是分条的做法"
+    },
+    {
+      "id": "ex-handbook-2",
+      "word_id": "handbook",
+      "text": "Every new student gets a handbook.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一本能塞进外套口袋的小书，边角磨圆了，里头全是分条的做法"
+    },
+    {
+      "id": "ex-handful-1",
+      "word_id": "handful",
+      "text": "She threw a handful of seed to the birds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五指抓进米袋，收拢再抬出来，指缝还漏下几粒"
+    },
+    {
+      "id": "ex-handful-2",
+      "word_id": "handful",
+      "text": "Only a handful of people came.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五指抓进米袋，收拢再抬出来，指缝还漏下几粒"
+    },
+    {
+      "id": "ex-handle-1",
+      "word_id": "handle",
+      "text": "The handle came off the drawer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门上横着一根被磨亮的铜条，人人推门都先按在这处"
+    },
+    {
+      "id": "ex-handle-2",
+      "word_id": "handle",
+      "text": "She handled the complaint calmly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门上横着一根被磨亮的铜条，人人推门都先按在这处"
+    },
+    {
+      "id": "ex-handsome-1",
+      "word_id": "handsome",
+      "text": "He was a tall, handsome young man.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片里那人下颌线分明，肩宽衣挺，进屋时几个人都抬了头"
+    },
+    {
+      "id": "ex-handsome-2",
+      "word_id": "handsome",
+      "text": "She made a handsome profit last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片里那人下颌线分明，肩宽衣挺，进屋时几个人都抬了头"
+    },
+    {
+      "id": "ex-handy-1",
+      "word_id": "handy",
+      "text": "This little knife is very handy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉一拉就摸到那把小钳子，不用起身，也不用找"
+    },
+    {
+      "id": "ex-handy-2",
+      "word_id": "handy",
+      "text": "Keep the torch handy in case of a power cut.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉一拉就摸到那把小钳子，不用起身，也不用找"
+    },
+    {
+      "id": "ex-hang-1",
+      "word_id": "hang",
+      "text": "Hang your coat on the hook.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一件湿外套搭在铁丝上，下摆滴着水，风来时整件摆一下"
+    },
+    {
+      "id": "ex-hang-2",
+      "word_id": "hang",
+      "text": "They hanged the thief at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一件湿外套搭在铁丝上，下摆滴着水，风来时整件摆一下"
+    },
+    {
+      "id": "ex-happy-1",
+      "word_id": "happy",
+      "text": "She looked happy with her new job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "消息一到，她把信举过头顶转了个圈，嘴一直合不上"
+    },
+    {
+      "id": "ex-happy-2",
+      "word_id": "happy",
+      "text": "I'm happy to help you.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "消息一到，她把信举过头顶转了个圈，嘴一直合不上"
+    },
+    {
+      "id": "ex-harbor-1",
+      "word_id": "harbor",
+      "text": "The boats stayed in the harbor all night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一道石堤把浪挡在外头，里侧水面平得像镜，几条船并排系着"
+    },
+    {
+      "id": "ex-harbor-2",
+      "word_id": "harbor",
+      "text": "He harbored a grudge for years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一道石堤把浪挡在外头，里侧水面平得像镜，几条船并排系着"
+    },
+    {
+      "id": "ex-hard-1",
+      "word_id": "hard",
+      "text": "The ground was too hard to dig.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指甲在这块面上划过去，一道白痕都留不下，敲着发脆响"
+    },
+    {
+      "id": "ex-hard-2",
+      "word_id": "hard",
+      "text": "She works hard every day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指甲在这块面上划过去，一道白痕都留不下，敲着发脆响"
+    },
+    {
+      "id": "ex-harden-1",
+      "word_id": "harden",
+      "text": "The clay hardens as it dries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灰浆刚抹上还能划出指印，隔一夜再按，指头反被顶回来"
+    },
+    {
+      "id": "ex-harden-2",
+      "word_id": "harden",
+      "text": "Years of war had hardened him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灰浆刚抹上还能划出指印，隔一夜再按，指头反被顶回来"
+    },
+    {
+      "id": "ex-hardly-1",
+      "word_id": "hardly",
+      "text": "I could hardly hear what she said.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他张了张嘴，声音小到隔着桌子的人得追问一遍"
+    },
+    {
+      "id": "ex-hardly-2",
+      "word_id": "hardly",
+      "text": "There was hardly any milk left.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他张了张嘴，声音小到隔着桌子的人得追问一遍"
+    },
+    {
+      "id": "ex-hardship-1",
+      "word_id": "hardship",
+      "text": "Many families suffered hardship that winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一家人一冬只烧半篓煤，孩子的鞋轮着穿，粮袋见了底"
+    },
+    {
+      "id": "ex-hardship-2",
+      "word_id": "hardship",
+      "text": "He endured great hardship as a boy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一家人一冬只烧半篓煤，孩子的鞋轮着穿，粮袋见了底"
+    },
+    {
+      "id": "ex-hardware-1",
+      "word_id": "hardware",
+      "text": "He bought nails at the hardware shop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架子上摆着钉子螺丝合页扳手，铁器碰在一起响，标签按尺寸排"
+    },
+    {
+      "id": "ex-hardware-2",
+      "word_id": "hardware",
+      "text": "The problem is in the hardware, not the program.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架子上摆着钉子螺丝合页扳手，铁器碰在一起响，标签按尺寸排"
+    },
+    {
+      "id": "ex-harm-1",
+      "word_id": "harm",
+      "text": "Smoking can harm your health.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "猫从他手边跑过，胳膊上留下三道血痕，衣袖也划破了"
+    },
+    {
+      "id": "ex-harm-2",
+      "word_id": "harm",
+      "text": "He meant no harm by the remark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "猫从他手边跑过，胳膊上留下三道血痕，衣袖也划破了"
+    },
+    {
+      "id": "ex-harmony-1",
+      "word_id": "harmony",
+      "text": "The two colours are in perfect harmony.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个人各唱一条不同的线，合起来听是一整块，谁也不刺耳"
+    },
+    {
+      "id": "ex-harmony-2",
+      "word_id": "harmony",
+      "text": "They sang the last verse in harmony.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个人各唱一条不同的线，合起来听是一整块，谁也不刺耳"
+    },
+    {
+      "id": "ex-harness-1",
+      "word_id": "harness",
+      "text": "He put the harness on the horse.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几条皮带绕过马的胸和肩，扣好后一头系上车辕，力就往车上去了"
+    },
+    {
+      "id": "ex-harness-2",
+      "word_id": "harness",
+      "text": "We must harness the power of the wind.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几条皮带绕过马的胸和肩，扣好后一头系上车辕，力就往车上去了"
+    },
+    {
+      "id": "ex-harvest-1",
+      "word_id": "harvest",
+      "text": "The harvest was poor that year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镰刀过去一片倒下，麦捆立成一排，车上装到冒尖"
+    },
+    {
+      "id": "ex-harvest-2",
+      "word_id": "harvest",
+      "text": "They harvest the rice in October.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镰刀过去一片倒下，麦捆立成一排，车上装到冒尖"
+    },
+    {
+      "id": "ex-haste-1",
+      "word_id": "haste",
+      "text": "In her haste she left the door open.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抓起外套往外冲，钥匙落在桌上都没回头看"
+    },
+    {
+      "id": "ex-haste-2",
+      "word_id": "haste",
+      "text": "He signed the papers in great haste.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抓起外套往外冲，钥匙落在桌上都没回头看"
+    },
+    {
+      "id": "ex-hasty-1",
+      "word_id": "hasty",
+      "text": "They made a hasty decision and regretted it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会开了十分钟就定了案，字签上去时纸都没摊平"
+    },
+    {
+      "id": "ex-hasty-2",
+      "word_id": "hasty",
+      "text": "He ate a hasty breakfast and left.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会开了十分钟就定了案，字签上去时纸都没摊平"
+    },
+    {
+      "id": "ex-hat-1",
+      "word_id": "hat",
+      "text": "He took off his hat when he came in.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一圈硬边加一个凹顶，扣在头上，正午的影子只落到鼻尖"
+    },
+    {
+      "id": "ex-hat-2",
+      "word_id": "hat",
+      "text": "She wore a straw hat in the garden.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一圈硬边加一个凹顶，扣在头上，正午的影子只落到鼻尖"
+    },
+    {
+      "id": "ex-hatch-1",
+      "word_id": "hatch",
+      "text": "The eggs hatched after three weeks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "蛋壳上先裂一道缝，一小截湿喙从里头顶出来，壳片掉在草垫上"
+    },
+    {
+      "id": "ex-hatch-2",
+      "word_id": "hatch",
+      "text": "They climbed down through the hatch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "蛋壳上先裂一道缝，一小截湿喙从里头顶出来，壳片掉在草垫上"
+    },
+    {
+      "id": "ex-hate-1",
+      "word_id": "hate",
+      "text": "I hate waiting in queues.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "提到那个名字，她把碗往台上一放，转身走进另一间屋"
+    },
+    {
+      "id": "ex-hate-2",
+      "word_id": "hate",
+      "text": "He looked at me with hate in his eyes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "提到那个名字，她把碗往台上一放，转身走进另一间屋"
+    },
+    {
+      "id": "ex-hatred-1",
+      "word_id": "hatred",
+      "text": "Her hatred of injustice never faded.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两家人几十年不往来，路上遇见都掉头走另一条街"
+    },
+    {
+      "id": "ex-hatred-2",
+      "word_id": "hatred",
+      "text": "Years of war left deep hatred between them.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两家人几十年不往来，路上遇见都掉头走另一条街"
+    },
+    {
+      "id": "ex-haul-1",
+      "word_id": "haul",
+      "text": "They hauled the boat up the beach.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个人抓着一条粗绳，喊一声齐往后倒，网从水里一寸上来"
+    },
+    {
+      "id": "ex-haul-2",
+      "word_id": "haul",
+      "text": "The fishermen had a good haul that day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个人抓着一条粗绳，喊一声齐往后倒，网从水里一寸上来"
+    },
+    {
+      "id": "ex-hay-1",
+      "word_id": "hay",
+      "text": "The cows were fed on hay all winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "割下的草在日头下晒成浅黄，抱起来又轻又扎手，一捆垛到棚里"
+    },
+    {
+      "id": "ex-hay-2",
+      "word_id": "hay",
+      "text": "They stacked the hay in the barn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "割下的草在日头下晒成浅黄，抱起来又轻又扎手，一捆垛到棚里"
+    },
+    {
+      "id": "ex-hazard-1",
+      "word_id": "hazard",
+      "text": "Icy roads are a hazard to drivers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工地口子上竖着黄牌，底下敞着一个没盖的深井，夜里看不见"
+    },
+    {
+      "id": "ex-hazard-2",
+      "word_id": "hazard",
+      "text": "I'd hazard a guess that he's forty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工地口子上竖着黄牌，底下敞着一个没盖的深井，夜里看不见"
+    },
+    {
+      "id": "ex-head-1",
+      "word_id": "head",
+      "text": "He hit his head on the low beam.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脖子上端那个圆东西，眼耳口鼻都长在上面，转一下方向就跟着变"
+    },
+    {
+      "id": "ex-head-2",
+      "word_id": "head",
+      "text": "She heads the research team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脖子上端那个圆东西，眼耳口鼻都长在上面，转一下方向就跟着变"
+    },
+    {
+      "id": "ex-headache-1",
+      "word_id": "headache",
+      "text": "I have a bad headache this morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "太阳穴一阵阵发胀，看屏幕就想闭眼，手指按着眉骨不肯松"
+    },
+    {
+      "id": "ex-headache-2",
+      "word_id": "headache",
+      "text": "The new rules are a real headache for us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "太阳穴一阵阵发胀，看屏幕就想闭眼，手指按着眉骨不肯松"
+    },
+    {
+      "id": "ex-heading-1",
+      "word_id": "heading",
+      "text": "Each chapter has a clear heading.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻开报告，每一节最上面那行字都比正文大一号，加粗顶格排"
+    },
+    {
+      "id": "ex-heading-2",
+      "word_id": "heading",
+      "text": "The ship changed its heading at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻开报告，每一节最上面那行字都比正文大一号，加粗顶格排"
+    },
+    {
+      "id": "ex-headline-1",
+      "word_id": "headline",
+      "text": "The story made the headline in every paper.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报纸摊在桌上，最上头一行黑体老远就看得见，底下的小字得凑近才认得出"
+    },
+    {
+      "id": "ex-headline-2",
+      "word_id": "headline",
+      "text": "Her arrest headlined the evening news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报纸摊在桌上，最上头一行黑体老远就看得见，底下的小字得凑近才认得出"
+    },
+    {
+      "id": "ex-heal-1",
+      "word_id": "heal",
+      "text": "The cut healed in about a week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "膝盖上的血痂一天天变薄，最后自己掉下来，底下是一层新的粉皮"
+    },
+    {
+      "id": "ex-heal-2",
+      "word_id": "heal",
+      "text": "Time healed the quarrel between them.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "膝盖上的血痂一天天变薄，最后自己掉下来，底下是一层新的粉皮"
+    },
+    {
+      "id": "ex-health-1",
+      "word_id": "health",
+      "text": "Smoking is bad for your health.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "体检单上一列数字全落在括号里的范围内，医生看完只说了句下次再来"
+    },
+    {
+      "id": "ex-health-2",
+      "word_id": "health",
+      "text": "The hospital checks the health of every worker.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "体检单上一列数字全落在括号里的范围内，医生看完只说了句下次再来"
+    },
+    {
+      "id": "ex-healthy-1",
+      "word_id": "healthy",
+      "text": "She looks healthy after the holiday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "八十岁的人拎两袋菜上五楼，中间没停，进门说话也不喘"
+    },
+    {
+      "id": "ex-healthy-2",
+      "word_id": "healthy",
+      "text": "Fruit is a healthy choice for lunch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "八十岁的人拎两袋菜上五楼，中间没停，进门说话也不喘"
+    },
+    {
+      "id": "ex-heap-1",
+      "word_id": "heap",
+      "text": "There was a heap of clothes on the floor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "沙子从车斗倾下来，落成一个尖顶的锥形，边上不停往下滑"
+    },
+    {
+      "id": "ex-heap-2",
+      "word_id": "heap",
+      "text": "She heaped rice onto his plate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "沙子从车斗倾下来，落成一个尖顶的锥形，边上不停往下滑"
+    },
+    {
+      "id": "ex-hear-1",
+      "word_id": "hear",
+      "text": "I heard a dog barking outside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "半夜里楼下一声钥匙碰门，人立刻从被子里坐起来"
+    },
+    {
+      "id": "ex-hear-2",
+      "word_id": "hear",
+      "text": "We heard that she had moved away.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "半夜里楼下一声钥匙碰门，人立刻从被子里坐起来"
+    },
+    {
+      "id": "ex-hearing-1",
+      "word_id": "hearing",
+      "text": "His hearing got worse after the accident.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人把耳朵凑到收音机跟前，还是又把旋钮拧大两格"
+    },
+    {
+      "id": "ex-hearing-2",
+      "word_id": "hearing",
+      "text": "The court set a hearing for next Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人把耳朵凑到收音机跟前，还是又把旋钮拧大两格"
+    },
+    {
+      "id": "ex-heat-1",
+      "word_id": "heat",
+      "text": "The fire warmed the whole room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手掌离铁锅还有一寸就得缩回来，锅上那层空气在抖"
+    },
+    {
+      "id": "ex-heat-2",
+      "word_id": "heat",
+      "text": "Heat the milk before you add it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手掌离铁锅还有一寸就得缩回来，锅上那层空气在抖"
+    },
+    {
+      "id": "ex-heave-1",
+      "word_id": "heave",
+      "text": "They heaved the sack onto the cart.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人把石磨盘抬到膝盖高就停住，脸憋红了，绳子勒进手心"
+    },
+    {
+      "id": "ex-heave-2",
+      "word_id": "heave",
+      "text": "His chest heaved as he caught his breath.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人把石磨盘抬到膝盖高就停住，脸憋红了，绳子勒进手心"
+    },
+    {
+      "id": "ex-heaven-1",
+      "word_id": "heaven",
+      "text": "They believe the soul goes to heaven.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "葬礼上有人抬手指着云缝里那道光，说人已经去了上面那处"
+    },
+    {
+      "id": "ex-heaven-2",
+      "word_id": "heaven",
+      "text": "Birds circled high in the heavens.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "葬礼上有人抬手指着云缝里那道光，说人已经去了上面那处"
+    },
+    {
+      "id": "ex-heavy-1",
+      "word_id": "heavy",
+      "text": "This box is too heavy to carry alone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箱子提起来只离地两指，手指立刻被提手勒出白印，只能放下换姿势"
+    },
+    {
+      "id": "ex-heavy-2",
+      "word_id": "heavy",
+      "text": "Heavy rain fell all afternoon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箱子提起来只离地两指，手指立刻被提手勒出白印，只能放下换姿势"
+    },
+    {
+      "id": "ex-hedge-1",
+      "word_id": "hedge",
+      "text": "A thick hedge ran along the road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排灌木沿路种得密不透风，齐腰高，剪得平平的一道绿墙"
+    },
+    {
+      "id": "ex-hedge-2",
+      "word_id": "hedge",
+      "text": "He hedged when we asked about the money.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排灌木沿路种得密不透风，齐腰高，剪得平平的一道绿墙"
+    },
+    {
+      "id": "ex-heel-1",
+      "word_id": "heel",
+      "text": "A blister formed on his heel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脱了袜子，脚后那块皮又厚又黄，边上裂开几道细口"
+    },
+    {
+      "id": "ex-heel-2",
+      "word_id": "heel",
+      "text": "Her shoes have very high heels.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脱了袜子，脚后那块皮又厚又黄，边上裂开几道细口"
+    },
+    {
+      "id": "ex-height-1",
+      "word_id": "height",
+      "text": "The wall is two metres in height.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门框上一道道铅笔线往上排，每道旁边写着年份，最上面那道要仰头看"
+    },
+    {
+      "id": "ex-height-2",
+      "word_id": "height",
+      "text": "At the height of summer the river dries up.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门框上一道道铅笔线往上排，每道旁边写着年份，最上面那道要仰头看"
+    },
+    {
+      "id": "ex-hell-1",
+      "word_id": "hell",
+      "text": "They were afraid of going to hell.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画里石壁烧得通红，人被锁在下面，头顶盖着一层看不透的黑"
+    },
+    {
+      "id": "ex-hell-2",
+      "word_id": "hell",
+      "text": "The last two weeks have been hell.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画里石壁烧得通红，人被锁在下面，头顶盖着一层看不透的黑"
+    },
+    {
+      "id": "ex-hello-1",
+      "word_id": "hello",
+      "text": "She said hello to everyone in the room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "电话刚通，那头先出一声，两人都还没说正事，只是确认人在"
+    },
+    {
+      "id": "ex-hello-2",
+      "word_id": "hello",
+      "text": "He picked up the phone and said hello.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "电话刚通，那头先出一声，两人都还没说正事，只是确认人在"
+    },
+    {
+      "id": "ex-helmet-1",
+      "word_id": "helmet",
+      "text": "Always wear a helmet when you cycle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一顶硬壳扣在头上，下巴底下的带子一收紧，磕一下只听见闷响，人没事"
+    },
+    {
+      "id": "ex-helmet-2",
+      "word_id": "helmet",
+      "text": "The soldier's helmet was dented by a stone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一顶硬壳扣在头上，下巴底下的带子一收紧，磕一下只听见闷响，人没事"
+    },
+    {
+      "id": "ex-help-1",
+      "word_id": "help",
+      "text": "She helped me move the table upstairs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "上楼时接过老人手里那袋米，两人各拎一半，谁都不算吃力"
+    },
+    {
+      "id": "ex-help-2",
+      "word_id": "help",
+      "text": "Your advice was a great help.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "上楼时接过老人手里那袋米，两人各拎一半，谁都不算吃力"
+    },
+    {
+      "id": "ex-helpful-1",
+      "word_id": "helpful",
+      "text": "Her advice was very helpful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问路的人还没说完，他已经转身领着走了两个路口"
+    },
+    {
+      "id": "ex-helpful-2",
+      "word_id": "helpful",
+      "text": "The staff here are always helpful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问路的人还没说完，他已经转身领着走了两个路口"
+    },
+    {
+      "id": "ex-hen-1",
+      "word_id": "hen",
+      "text": "The hen laid four eggs this week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那只趴在草窝里不肯动，翅膀压住底下几个蛋，人一伸手就啄"
+    },
+    {
+      "id": "ex-hen-2",
+      "word_id": "hen",
+      "text": "A hen led her chicks across the yard.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那只趴在草窝里不肯动，翅膀压住底下几个蛋，人一伸手就啄"
+    },
+    {
+      "id": "ex-hence-1",
+      "word_id": "hence",
+      "text": "The road was flooded, hence the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推演写到最后一行，前面每一步都摆在上面，下一句只能是这个结论"
+    },
+    {
+      "id": "ex-hence-2",
+      "word_id": "hence",
+      "text": "Two weeks hence the rule takes effect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推演写到最后一行，前面每一步都摆在上面，下一句只能是这个结论"
+    },
+    {
+      "id": "ex-herb-1",
+      "word_id": "herb",
+      "text": "She grows herbs on the windowsill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灶边那盆里揪下几片叶子搓碎丢进锅，屋里立刻窜起一股辛味"
+    },
+    {
+      "id": "ex-herb-2",
+      "word_id": "herb",
+      "text": "This tea is made from dried herbs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灶边那盆里揪下几片叶子搓碎丢进锅，屋里立刻窜起一股辛味"
+    },
+    {
+      "id": "ex-herd-1",
+      "word_id": "herd",
+      "text": "A herd of deer crossed the road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "草坡上黑压压一片牛一齐往水边走，尘土跟着起来一层"
+    },
+    {
+      "id": "ex-herd-2",
+      "word_id": "herd",
+      "text": "The dog herded the sheep into the pen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "草坡上黑压压一片牛一齐往水边走，尘土跟着起来一层"
+    },
+    {
+      "id": "ex-hers-1",
+      "word_id": "hers",
+      "text": "This umbrella is hers, not mine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两把伞挂在门后，她抬手取走左边那把，没说话，另一把留着"
+    },
+    {
+      "id": "ex-hers-2",
+      "word_id": "hers",
+      "text": "My room is small but hers is smaller.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两把伞挂在门后，她抬手取走左边那把，没说话，另一把留着"
+    },
+    {
+      "id": "ex-herself-1",
+      "word_id": "herself",
+      "text": "She cut herself while chopping onions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她没让助手代笔，自己坐下来把那封道歉信写完，最后签上名"
+    },
+    {
+      "id": "ex-herself-2",
+      "word_id": "herself",
+      "text": "The manager answered the phone herself.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她没让助手代笔，自己坐下来把那封道歉信写完，最后签上名"
+    },
+    {
+      "id": "ex-hide-1",
+      "word_id": "hide",
+      "text": "He hid the letter under the mattress.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙被埋进花盆的土里，上面又盖了两片叶子，看过去一点痕迹没有"
+    },
+    {
+      "id": "ex-hide-2",
+      "word_id": "hide",
+      "text": "The cat hides behind the sofa all day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙被埋进花盆的土里，上面又盖了两片叶子，看过去一点痕迹没有"
+    },
+    {
+      "id": "ex-high-1",
+      "word_id": "high",
+      "text": "The wall is too high to climb.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在墙根下仰头看，砖一层层码上去，脖子仰到发酸才看见最上排的小窗"
+    },
+    {
+      "id": "ex-high-2",
+      "word_id": "high",
+      "text": "Prices are higher than last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在墙根下仰头看，砖一层层码上去，脖子仰到发酸才看见最上排的小窗"
+    },
+    {
+      "id": "ex-highland-1",
+      "word_id": "highland",
+      "text": "The highlands of Scotland are cold and wet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车一路往上开，树越来越少，剩下石头和短草，风把草全压向一边"
+    },
+    {
+      "id": "ex-highland-2",
+      "word_id": "highland",
+      "text": "Sheep graze on the highland slopes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车一路往上开，树越来越少，剩下石头和短草，风把草全压向一边"
+    },
+    {
+      "id": "ex-highly-1",
+      "word_id": "highly",
+      "text": "The film is highly recommended.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推荐信里评语一句比一句往上抬，读到末尾已经没有更好的说法可用"
+    },
+    {
+      "id": "ex-highly-2",
+      "word_id": "highly",
+      "text": "She is highly respected in her field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推荐信里评语一句比一句往上抬，读到末尾已经没有更好的说法可用"
+    },
+    {
+      "id": "ex-highway-1",
+      "word_id": "highway",
+      "text": "The highway runs north to the border.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四车道笔直伸出去，中间隔着护栏，隔一段就有绿底白字的牌子报还有多少公里"
+    },
+    {
+      "id": "ex-highway-2",
+      "word_id": "highway",
+      "text": "There was an accident on the highway.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四车道笔直伸出去，中间隔着护栏，隔一段就有绿底白字的牌子报还有多少公里"
+    },
+    {
+      "id": "ex-hike-1",
+      "word_id": "hike",
+      "text": "We went for a hike in the hills.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "背包压着肩走了四个钟头，脚边全是石头和树根，一路没碰见第二个人"
+    },
+    {
+      "id": "ex-hike-2",
+      "word_id": "hike",
+      "text": "There was a sharp hike in food prices.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "背包压着肩走了四个钟头，脚边全是石头和树根，一路没碰见第二个人"
+    },
+    {
+      "id": "ex-hill-1",
+      "word_id": "hill",
+      "text": "They walked to the top of the hill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地面缓缓鼓起一个圆包，一条小路斜着爬上去，顶上孤零零一棵树"
+    },
+    {
+      "id": "ex-hill-2",
+      "word_id": "hill",
+      "text": "The house stands on a small hill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地面缓缓鼓起一个圆包，一条小路斜着爬上去，顶上孤零零一棵树"
+    },
+    {
+      "id": "ex-himself-1",
+      "word_id": "himself",
+      "text": "He hurt himself with the knife.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他没叫师傅，抽屉里翻出工具，一颗颗把螺丝拧回原处"
+    },
+    {
+      "id": "ex-himself-2",
+      "word_id": "himself",
+      "text": "The boss wrote the letter himself.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他没叫师傅，抽屉里翻出工具，一颗颗把螺丝拧回原处"
+    },
+    {
+      "id": "ex-hinge-1",
+      "word_id": "hinge",
+      "text": "One hinge of the gate is rusty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门被推开，只有一侧那两块铁在转，整扇板子跟着走，转点始终钉在原处"
+    },
+    {
+      "id": "ex-hinge-2",
+      "word_id": "hinge",
+      "text": "Everything hinges on tomorrow's vote.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门被推开，只有一侧那两块铁在转，整扇板子跟着走，转点始终钉在原处"
+    },
+    {
+      "id": "ex-hint-1",
+      "word_id": "hint",
+      "text": "He gave me a hint about the answer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她没直说，只把日历翻到那一页，手指在某个圈起来的日子上停了一下"
+    },
+    {
+      "id": "ex-hint-2",
+      "word_id": "hint",
+      "text": "There was a hint of salt in the bread.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她没直说，只把日历翻到那一页，手指在某个圈起来的日子上停了一下"
+    },
+    {
+      "id": "ex-hip-1",
+      "word_id": "hip",
+      "text": "She stood with her hands on her hips.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "孩子跨坐在她身侧那块宽骨头上，一条胳膊搭着她的肩，人走一步晃一下"
+    },
+    {
+      "id": "ex-hip-2",
+      "word_id": "hip",
+      "text": "The old man broke his hip in the fall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "孩子跨坐在她身侧那块宽骨头上，一条胳膊搭着她的肩，人走一步晃一下"
+    },
+    {
+      "id": "ex-hire-1",
+      "word_id": "hire",
+      "text": "We hired a car for the weekend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上签完单，押金交了，钥匙递过来，说明天中午十二点前送回来"
+    },
+    {
+      "id": "ex-hire-2",
+      "word_id": "hire",
+      "text": "The shop hired two extra staff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上签完单，押金交了，钥匙递过来，说明天中午十二点前送回来"
+    },
+    {
+      "id": "ex-hit-1",
+      "word_id": "hit",
+      "text": "The stone hit the window.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锤子落下来正砸在钉帽上，木头震了一下，钉子闷响一声进去半截"
+    },
+    {
+      "id": "ex-hit-2",
+      "word_id": "hit",
+      "text": "Her first novel was a big hit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锤子落下来正砸在钉帽上，木头震了一下，钉子闷响一声进去半截"
+    },
+    {
+      "id": "ex-hitherto-1",
+      "word_id": "hitherto",
+      "text": "Hitherto the plan has worked well.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "档案按年份排好，之前每一格都写着同一句结论，后面还是空白"
+    },
+    {
+      "id": "ex-hitherto-2",
+      "word_id": "hitherto",
+      "text": "Hitherto she had never left the village.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "档案按年份排好，之前每一格都写着同一句结论，后面还是空白"
+    },
+    {
+      "id": "ex-hobby-1",
+      "word_id": "hobby",
+      "text": "Fishing is his favourite hobby.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "下了班坐阳台上，镊子小刀摆一桌，一晚只装好两片机翼，没人催也没钱拿"
+    },
+    {
+      "id": "ex-hobby-2",
+      "word_id": "hobby",
+      "text": "She took up painting as a hobby.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "下了班坐阳台上，镊子小刀摆一桌，一晚只装好两片机翼，没人催也没钱拿"
+    },
+    {
+      "id": "ex-hoist-1",
+      "word_id": "hoist",
+      "text": "They hoisted the sail before dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三个人扯住绳头一齐往下坠，钢梁一寸寸离地，滑轮吱吱地响"
+    },
+    {
+      "id": "ex-hoist-2",
+      "word_id": "hoist",
+      "text": "A crane hoisted the beam into place.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三个人扯住绳头一齐往下坠，钢梁一寸寸离地，滑轮吱吱地响"
+    },
+    {
+      "id": "ex-hold-1",
+      "word_id": "hold",
+      "text": "She held the baby in her arms.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满满一碗汤端在手里走过整条走廊，汤面只轻轻晃，一滴没洒出来"
+    },
+    {
+      "id": "ex-hold-2",
+      "word_id": "hold",
+      "text": "This bottle holds two litres.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满满一碗汤端在手里走过整条走廊，汤面只轻轻晃，一滴没洒出来"
+    },
+    {
+      "id": "ex-holder-1",
+      "word_id": "holder",
+      "text": "All ticket holders must show ID.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "试管一根根卡进带孔的木架，松手也不倒，斜过来也不滑出去"
+    },
+    {
+      "id": "ex-holder-2",
+      "word_id": "holder",
+      "text": "Put the pen back in its holder.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "试管一根根卡进带孔的木架，松手也不倒，斜过来也不滑出去"
+    },
+    {
+      "id": "ex-hole-1",
+      "word_id": "hole",
+      "text": "There is a hole in my sock.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "袜子前头磨破，大脚趾直接顶了出来，边缘的线一根根散着"
+    },
+    {
+      "id": "ex-hole-2",
+      "word_id": "hole",
+      "text": "The dog dug a hole in the garden.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "袜子前头磨破，大脚趾直接顶了出来，边缘的线一根根散着"
+    },
+    {
+      "id": "ex-holiday-1",
+      "word_id": "holiday",
+      "text": "We spent our holiday by the sea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上那一天用红笔圈着，闹钟没设，早饭吃到十点还没收桌"
+    },
+    {
+      "id": "ex-holiday-2",
+      "word_id": "holiday",
+      "text": "Monday is a public holiday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历上那一天用红笔圈着，闹钟没设，早饭吃到十点还没收桌"
+    },
+    {
+      "id": "ex-hollow-1",
+      "word_id": "hollow",
+      "text": "The tree trunk was hollow inside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "敲那根竹竿，声音闷而空，掂在手里比看着轻得多"
+    },
+    {
+      "id": "ex-hollow-2",
+      "word_id": "hollow",
+      "text": "His cheeks looked hollow after the illness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "敲那根竹竿，声音闷而空，掂在手里比看着轻得多"
+    },
+    {
+      "id": "ex-holy-1",
+      "word_id": "holy",
+      "text": "This is a holy place for pilgrims.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "进门前鞋脱在台阶下，说话都压着嗓子，中间那块地谁也不往上踩"
+    },
+    {
+      "id": "ex-holy-2",
+      "word_id": "holy",
+      "text": "They read from the holy book each morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "进门前鞋脱在台阶下，说话都压着嗓子，中间那块地谁也不往上踩"
+    },
+    {
+      "id": "ex-home-1",
+      "word_id": "home",
+      "text": "They bought a home near the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走到巷口就闻见自家灶上的味道，钥匙还没掏出来，门里已经有人应了一声"
+    },
+    {
+      "id": "ex-home-2",
+      "word_id": "home",
+      "text": "He walked home in the rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走到巷口就闻见自家灶上的味道，钥匙还没掏出来，门里已经有人应了一声"
+    },
+    {
+      "id": "ex-homework-1",
+      "word_id": "homework",
+      "text": "He finished his homework before dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "饭桌收干净，本子摊开，台灯下一道题算了三遍还没对上答案"
+    },
+    {
+      "id": "ex-homework-2",
+      "word_id": "homework",
+      "text": "The teacher gave us extra homework.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "饭桌收干净，本子摊开，台灯下一道题算了三遍还没对上答案"
+    },
+    {
+      "id": "ex-honey-1",
+      "word_id": "honey",
+      "text": "Add a spoonful of honey to the tea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "勺子从罐里提起来，金黄的稠汁拉成一条细线垂下去，半天不断"
+    },
+    {
+      "id": "ex-honey-2",
+      "word_id": "honey",
+      "text": "He called her honey in front of everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "勺子从罐里提起来，金黄的稠汁拉成一条细线垂下去，半天不断"
+    },
+    {
+      "id": "ex-hook-1",
+      "word_id": "hook",
+      "text": "Hang your coat on the hook.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上钉着一枚弯铁，大衣领子往上一挂就吃住了，晃两下也掉不下来"
+    },
+    {
+      "id": "ex-hook-2",
+      "word_id": "hook",
+      "text": "He hooked the rope onto the ring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上钉着一枚弯铁，大衣领子往上一挂就吃住了，晃两下也掉不下来"
+    },
+    {
+      "id": "ex-hop-1",
+      "word_id": "hop",
+      "text": "The boy hopped across the room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "麻雀在地上两脚并着一蹦一蹦地挪，每次只挪出半个身子远"
+    },
+    {
+      "id": "ex-hop-2",
+      "word_id": "hop",
+      "text": "She hopped onto the bus at the last moment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "麻雀在地上两脚并着一蹦一蹦地挪，每次只挪出半个身子远"
+    },
+    {
+      "id": "ex-hope-1",
+      "word_id": "hope",
+      "text": "I hope the weather stays fine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "成绩单捏在手里没拆，人先吸一口气，脑子里已经把最好的那种情形想了一遍"
+    },
+    {
+      "id": "ex-hope-2",
+      "word_id": "hope",
+      "text": "She had little hope of winning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "成绩单捏在手里没拆，人先吸一口气，脑子里已经把最好的那种情形想了一遍"
+    },
+    {
+      "id": "ex-hopeful-1",
+      "word_id": "hopeful",
+      "text": "The team is hopeful of winning tomorrow.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他攥着排队号，眼睛一直盯着叫号屏，脚尖不停点地"
+    },
+    {
+      "id": "ex-hopeful-2",
+      "word_id": "hopeful",
+      "text": "She gave her father a hopeful look.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他攥着排队号，眼睛一直盯着叫号屏，脚尖不停点地"
+    },
+    {
+      "id": "ex-horn-1",
+      "word_id": "horn",
+      "text": "The bull lowered its horns and charged.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "公牛低头，额上两根弯而硬的尖朝前一顶，木栅栏当场裂开"
+    },
+    {
+      "id": "ex-horn-2",
+      "word_id": "horn",
+      "text": "He blew the horn twice at the gate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "公牛低头，额上两根弯而硬的尖朝前一顶，木栅栏当场裂开"
+    },
+    {
+      "id": "ex-horrible-1",
+      "word_id": "horrible",
+      "text": "The accident was a horrible sight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掀开那块布看了一眼，胃里一阵翻，手臂上的毛全立起来"
+    },
+    {
+      "id": "ex-horrible-2",
+      "word_id": "horrible",
+      "text": "The food in that place is horrible.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掀开那块布看了一眼，胃里一阵翻，手臂上的毛全立起来"
+    },
+    {
+      "id": "ex-horror-1",
+      "word_id": "horror",
+      "text": "She watched in horror as the car slid.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看清水里浮着的是什么之后，她一步退到墙边，喉咙里发不出声"
+    },
+    {
+      "id": "ex-horror-2",
+      "word_id": "horror",
+      "text": "He has a horror of deep water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看清水里浮着的是什么之后，她一步退到墙边，喉咙里发不出声"
+    },
+    {
+      "id": "ex-horse-1",
+      "word_id": "horse",
+      "text": "She rode the horse across the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四条长腿的家伙鼻子喷白气，鬃毛甩到一边，蹄子把土刨出小坑"
+    },
+    {
+      "id": "ex-horse-2",
+      "word_id": "horse",
+      "text": "The horse pulled a heavy cart uphill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四条长腿的家伙鼻子喷白气，鬃毛甩到一边，蹄子把土刨出小坑"
+    },
+    {
+      "id": "ex-hose-1",
+      "word_id": "hose",
+      "text": "He watered the garden with a hose.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条橡胶长筒盘在墙上，接上龙头就鼓起来，另一头喷出水"
+    },
+    {
+      "id": "ex-hose-2",
+      "word_id": "hose",
+      "text": "The fireman hosed down the burning car.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条橡胶长筒盘在墙上，接上龙头就鼓起来，另一头喷出水"
+    },
+    {
+      "id": "ex-hot-1",
+      "word_id": "hot",
+      "text": "The soup is too hot to drink.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指刚碰到锅沿就缩回来，指腹上立刻起了一道红印"
+    },
+    {
+      "id": "ex-hot-2",
+      "word_id": "hot",
+      "text": "This curry is very hot indeed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指刚碰到锅沿就缩回来，指腹上立刻起了一道红印"
+    },
+    {
+      "id": "ex-hound-1",
+      "word_id": "hound",
+      "text": "The hounds ran ahead of the riders.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一群长耳朵的狗鼻子贴着地，顺气味钻进灌木，叫声一路不停"
+    },
+    {
+      "id": "ex-hound-2",
+      "word_id": "hound",
+      "text": "Reporters hounded her for weeks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一群长耳朵的狗鼻子贴着地，顺气味钻进灌木，叫声一路不停"
+    },
+    {
+      "id": "ex-hour-1",
+      "word_id": "hour",
+      "text": "The film lasts about two hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "分针从十二绕回十二，这中间他只写完了一页纸"
+    },
+    {
+      "id": "ex-hour-2",
+      "word_id": "hour",
+      "text": "We waited an hour in the rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "分针从十二绕回十二，这中间他只写完了一页纸"
+    },
+    {
+      "id": "ex-house-1",
+      "word_id": "house",
+      "text": "They bought a small house near the sea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋两层的砖砌建筑，门口三级台阶，窗子入夜会亮起来"
+    },
+    {
+      "id": "ex-house-2",
+      "word_id": "house",
+      "text": "The museum houses two thousand paintings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋两层的砖砌建筑，门口三级台阶，窗子入夜会亮起来"
+    },
+    {
+      "id": "ex-housing-1",
+      "word_id": "housing",
+      "text": "The city needs more cheap housing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整片新盖的楼一排排立着，编号刷在墙上，还没有人搬进去"
+    },
+    {
+      "id": "ex-housing-2",
+      "word_id": "housing",
+      "text": "The bearing sits inside a metal housing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整片新盖的楼一排排立着，编号刷在墙上，还没有人搬进去"
+    },
+    {
+      "id": "ex-hover-1",
+      "word_id": "hover",
+      "text": "A helicopter hovered above the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那只鸟翅膀抖得极快，身子钉在花前，不前不后一寸没挪"
+    },
+    {
+      "id": "ex-hover-2",
+      "word_id": "hover",
+      "text": "She hovered by the door, unsure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那只鸟翅膀抖得极快，身子钉在花前，不前不后一寸没挪"
+    },
+    {
+      "id": "ex-however-1",
+      "word_id": "however",
+      "text": "The plan is cheap. However, it is slow.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话说到一半，那人停了半秒，接着把后半句往反方向拐"
+    },
+    {
+      "id": "ex-however-2",
+      "word_id": "however",
+      "text": "However hard he tried, the door stayed shut.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话说到一半，那人停了半秒，接着把后半句往反方向拐"
+    },
+    {
+      "id": "ex-howl-1",
+      "word_id": "howl",
+      "text": "A wolf howled somewhere in the hills.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "后山传来一声拖得很长的叫，尾音往上飘，狗全躲进了窝里"
+    },
+    {
+      "id": "ex-howl-2",
+      "word_id": "howl",
+      "text": "The wind howled all night long.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "后山传来一声拖得很长的叫，尾音往上飘，狗全躲进了窝里"
+    },
+    {
+      "id": "ex-huddle-1",
+      "word_id": "huddle",
+      "text": "The sheep huddled against the stone wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五六个人肩挨着肩缩成一团，外圈的人把大衣往里侧拉"
+    },
+    {
+      "id": "ex-huddle-2",
+      "word_id": "huddle",
+      "text": "The players went into a huddle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "五六个人肩挨着肩缩成一团，外圈的人把大衣往里侧拉"
+    },
+    {
+      "id": "ex-hug-1",
+      "word_id": "hug",
+      "text": "She hugged her son before he left.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条胳膊从肩后绕过去合上，下巴压在对方肩窝里停了几秒"
+    },
+    {
+      "id": "ex-hug-2",
+      "word_id": "hug",
+      "text": "The road hugs the river for three miles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条胳膊从肩后绕过去合上，下巴压在对方肩窝里停了几秒"
+    },
+    {
+      "id": "ex-huge-1",
+      "word_id": "huge",
+      "text": "A huge tree blocked the road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走到脚下才发现得抬头才看见顶，人站在门前只有一小截"
+    },
+    {
+      "id": "ex-huge-2",
+      "word_id": "huge",
+      "text": "The company made a huge profit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "走到脚下才发现得抬头才看见顶，人站在门前只有一小截"
+    },
+    {
+      "id": "ex-hundred-1",
+      "word_id": "hundred",
+      "text": "About a hundred people came to the talk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "豆子按十粒一堆分开，正好分成十堆，手里再摸不出一粒"
+    },
+    {
+      "id": "ex-hundred-2",
+      "word_id": "hundred",
+      "text": "Hundreds of birds filled the sky.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "豆子按十粒一堆分开，正好分成十堆，手里再摸不出一粒"
+    },
+    {
+      "id": "ex-hungry-1",
+      "word_id": "hungry",
+      "text": "The children were tired and hungry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "胃里一阵一阵抽紧，闻到隔壁炒菜的味就咽了一下"
+    },
+    {
+      "id": "ex-hungry-2",
+      "word_id": "hungry",
+      "text": "He is hungry for success.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "胃里一阵一阵抽紧，闻到隔壁炒菜的味就咽了一下"
+    },
+    {
+      "id": "ex-hunt-1",
+      "word_id": "hunt",
+      "text": "They hunted deer in the forest.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他蹲在草里不动，眼睛跟着那头鹿走，手慢慢摸向绳套"
+    },
+    {
+      "id": "ex-hunt-2",
+      "word_id": "hunt",
+      "text": "Police are hunting the missing man.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他蹲在草里不动，眼睛跟着那头鹿走，手慢慢摸向绳套"
+    },
+    {
+      "id": "ex-hurl-1",
+      "word_id": "hurl",
+      "text": "He hurled a stone into the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抓起石头，整条胳膊往后一带再送出去，石头飞过了屋顶"
+    },
+    {
+      "id": "ex-hurl-2",
+      "word_id": "hurl",
+      "text": "The crowd hurled insults at him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抓起石头，整条胳膊往后一带再送出去，石头飞过了屋顶"
+    },
+    {
+      "id": "ex-hurry-1",
+      "word_id": "hurry",
+      "text": "We had to hurry to catch the bus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她一边套外套一边往门口小跑，钥匙掉了都没停下来捡"
+    },
+    {
+      "id": "ex-hurry-2",
+      "word_id": "hurry",
+      "text": "There is no need to hurry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她一边套外套一边往门口小跑，钥匙掉了都没停下来捡"
+    },
+    {
+      "id": "ex-hurt-1",
+      "word_id": "hurt",
+      "text": "He hurt his knee while running.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "膝盖撞上桌角，人弯下腰按住那块，几秒钟说不出话"
+    },
+    {
+      "id": "ex-hurt-2",
+      "word_id": "hurt",
+      "text": "Her words hurt him deeply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "膝盖撞上桌角，人弯下腰按住那块，几秒钟说不出话"
+    },
+    {
+      "id": "ex-husband-1",
+      "word_id": "husband",
+      "text": "Her husband works at the hospital.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "房产证上他的名字挨着她的，进门用同一把钥匙，一个门牌"
+    },
+    {
+      "id": "ex-husband-2",
+      "word_id": "husband",
+      "text": "He has been a good husband for years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "房产证上他的名字挨着她的，进门用同一把钥匙，一个门牌"
+    },
+    {
+      "id": "ex-hut-1",
+      "word_id": "hut",
+      "text": "They slept in a wooden hut.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山坡上一间木板搭的小房，一门一窗，顶上压着石头防风"
+    },
+    {
+      "id": "ex-hut-2",
+      "word_id": "hut",
+      "text": "The shepherd built a hut of stones.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山坡上一间木板搭的小房，一门一窗，顶上压着石头防风"
+    },
+    {
+      "id": "ex-ice-1",
+      "word_id": "ice",
+      "text": "The lake was covered with ice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桶里的水面结成一层硬壳，敲一下裂出白纹，手贴上去发麻"
+    },
+    {
+      "id": "ex-ice-2",
+      "word_id": "ice",
+      "text": "Ice formed on the windows overnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桶里的水面结成一层硬壳，敲一下裂出白纹，手贴上去发麻"
+    },
+    {
+      "id": "ex-idiom-1",
+      "word_id": "idiom",
+      "text": "The idiom kick the bucket means to die.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每个字都认得，连起来却是另一个意思，翻字典也对不上"
+    },
+    {
+      "id": "ex-idiom-2",
+      "word_id": "idiom",
+      "text": "She writes in the idiom of local people.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每个字都认得，连起来却是另一个意思，翻字典也对不上"
+    },
+    {
+      "id": "ex-idiot-1",
+      "word_id": "idiot",
+      "text": "Only an idiot would drive that fast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把汽油当水往火上浇，旁边的人全往后退了两步"
+    },
+    {
+      "id": "ex-idiot-2",
+      "word_id": "idiot",
+      "text": "I felt like an idiot after asking.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把汽油当水往火上浇，旁边的人全往后退了两步"
+    },
+    {
+      "id": "ex-idle-1",
+      "word_id": "idle",
+      "text": "The machines stood idle for months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车间里机器全停着，皮带松垂，工人坐在门口台阶上晒太阳"
+    },
+    {
+      "id": "ex-idle-2",
+      "word_id": "idle",
+      "text": "He idled away the whole afternoon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车间里机器全停着，皮带松垂，工人坐在门口台阶上晒太阳"
+    },
+    {
+      "id": "ex-ignite-1",
+      "word_id": "ignite",
+      "text": "A spark ignited the dry grass.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "火柴划过盒边，一小簇亮起来，凑近棉絮，棉絮跟着蹿开"
+    },
+    {
+      "id": "ex-ignite-2",
+      "word_id": "ignite",
+      "text": "The fuel ignited with a loud bang.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "火柴划过盒边，一小簇亮起来，凑近棉絮，棉絮跟着蹿开"
+    },
+    {
+      "id": "ex-ill-1",
+      "word_id": "ill",
+      "text": "She has been ill since Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她请了三天假，脸色发黄，说话有气无力，饭端来也不动"
+    },
+    {
+      "id": "ex-ill-2",
+      "word_id": "ill",
+      "text": "He spoke ill of his former boss.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她请了三天假，脸色发黄，说话有气无力，饭端来也不动"
+    },
+    {
+      "id": "ex-illness-1",
+      "word_id": "illness",
+      "text": "He missed school because of illness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "床头摆着药盒和体温计，日历上连划了两周的红圈"
+    },
+    {
+      "id": "ex-illness-2",
+      "word_id": "illness",
+      "text": "She recovered from a long illness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "床头摆着药盒和体温计，日历上连划了两周的红圈"
+    },
+    {
+      "id": "ex-illusion-1",
+      "word_id": "illusion",
+      "text": "The mirror creates an illusion of space.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "远处路面上明明有一片水，走近了却是干的柏油"
+    },
+    {
+      "id": "ex-illusion-2",
+      "word_id": "illusion",
+      "text": "He has no illusions about the job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "远处路面上明明有一片水，走近了却是干的柏油"
+    },
+    {
+      "id": "ex-inch-1",
+      "word_id": "inch",
+      "text": "The snow was three inches deep.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拇指指根到指节那么一小段，量整扇窗框得挪二十几回"
+    },
+    {
+      "id": "ex-inch-2",
+      "word_id": "inch",
+      "text": "The car inched forward in the queue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拇指指根到指节那么一小段，量整扇窗框得挪二十几回"
+    },
+    {
+      "id": "ex-income-1",
+      "word_id": "income",
+      "text": "His income doubled in three years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每月十号账户多出一笔，房租水电都从这笔里扣掉"
+    },
+    {
+      "id": "ex-income-2",
+      "word_id": "income",
+      "text": "They live on a small income.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每月十号账户多出一笔，房租水电都从这笔里扣掉"
+    },
+    {
+      "id": "ex-indeed-1",
+      "word_id": "indeed",
+      "text": "The film was indeed very long.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方刚说完猜测，他点头补一句，把那句话再压实一层"
+    },
+    {
+      "id": "ex-indeed-2",
+      "word_id": "indeed",
+      "text": "Thank you very much indeed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对方刚说完猜测，他点头补一句，把那句话再压实一层"
+    },
+    {
+      "id": "ex-indoor-1",
+      "word_id": "indoor",
+      "text": "They moved the match to an indoor court.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "外面正下雨，球场却铺着木地板，顶上一排灯全亮着"
+    },
+    {
+      "id": "ex-indoor-2",
+      "word_id": "indoor",
+      "text": "She bought indoor shoes for the gym.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "外面正下雨，球场却铺着木地板，顶上一排灯全亮着"
+    },
+    {
+      "id": "ex-indulge-1",
+      "word_id": "indulge",
+      "text": "She indulged herself with a long bath.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "孩子第三次伸手拿糖，大人看了一眼没拦，把盘子推过去"
+    },
+    {
+      "id": "ex-indulge-2",
+      "word_id": "indulge",
+      "text": "Parents often indulge their only child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "孩子第三次伸手拿糖，大人看了一眼没拦，把盘子推过去"
+    },
+    {
+      "id": "ex-infrared-1",
+      "word_id": "infrared",
+      "text": "The camera uses infrared to see at night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋里一片黑，屏幕上却浮出人形，暖处发白，凉处发暗"
+    },
+    {
+      "id": "ex-infrared-2",
+      "word_id": "infrared",
+      "text": "Infrared rays carry heat from the fire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋里一片黑，屏幕上却浮出人形，暖处发白，凉处发暗"
+    },
+    {
+      "id": "ex-inhale-1",
+      "word_id": "inhale",
+      "text": "He inhaled deeply and closed his eyes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他站在窗前把胸口鼓起来，冷空气一路灌到底，肩膀跟着抬高"
+    },
+    {
+      "id": "ex-inhale-2",
+      "word_id": "inhale",
+      "text": "Do not inhale the fumes from the paint.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他站在窗前把胸口鼓起来，冷空气一路灌到底，肩膀跟着抬高"
+    },
+    {
+      "id": "ex-ink-1",
+      "word_id": "ink",
+      "text": "The pen ran out of ink halfway.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔尖在纸上停了一秒，纸背就洇出一小团黑，边缘毛毛的"
+    },
+    {
+      "id": "ex-ink-2",
+      "word_id": "ink",
+      "text": "Ink soaked through to the next page.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔尖在纸上停了一秒，纸背就洇出一小团黑，边缘毛毛的"
+    },
+    {
+      "id": "ex-inland-1",
+      "word_id": "inland",
+      "text": "They moved to an inland town last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "开了三小时车，空气里的咸味没了，路两边全是麦田"
+    },
+    {
+      "id": "ex-inland-2",
+      "word_id": "inland",
+      "text": "The birds fly inland before a storm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "开了三小时车，空气里的咸味没了，路两边全是麦田"
+    },
+    {
+      "id": "ex-inlet-1",
+      "word_id": "inlet",
+      "text": "The boat anchored in a sheltered inlet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "海水顺着两片崖壁之间挤进来，尽头窄得只能过一条小船"
+    },
+    {
+      "id": "ex-inlet-2",
+      "word_id": "inlet",
+      "text": "Water enters the tank through this inlet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "海水顺着两片崖壁之间挤进来，尽头窄得只能过一条小船"
+    },
+    {
+      "id": "ex-inn-1",
+      "word_id": "inn",
+      "text": "They stayed at a small country inn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雪夜里路边一扇黄窗，推门进去有火炉和一排空床"
+    },
+    {
+      "id": "ex-inn-2",
+      "word_id": "inn",
+      "text": "The inn serves hot soup all night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雪夜里路边一扇黄窗，推门进去有火炉和一排空床"
+    },
+    {
+      "id": "ex-inner-1",
+      "word_id": "inner",
+      "text": "The inner room has no windows.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剥开三层纸箱，最里头还有一只小盒子，贴着封条"
+    },
+    {
+      "id": "ex-inner-2",
+      "word_id": "inner",
+      "text": "She kept her inner doubts to herself.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剥开三层纸箱，最里头还有一只小盒子，贴着封条"
+    },
+    {
+      "id": "ex-innocent-1",
+      "word_id": "innocent",
+      "text": "The court found him innocent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "孩子把打碎的杯子捧到大人跟前，眼睛睁得很大，一点不躲"
+    },
+    {
+      "id": "ex-innocent-2",
+      "word_id": "innocent",
+      "text": "She gave an innocent smile.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "孩子把打碎的杯子捧到大人跟前，眼睛睁得很大，一点不躲"
+    },
+    {
+      "id": "ex-input-1",
+      "word_id": "input",
+      "text": "The machine needs a steady input of power.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "料斗上方倒进一袋豆子，机器嗡地转起来，出口开始落粉"
+    },
+    {
+      "id": "ex-input-2",
+      "word_id": "input",
+      "text": "Please input your name here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "料斗上方倒进一袋豆子，机器嗡地转起来，出口开始落粉"
+    },
+    {
+      "id": "ex-insight-1",
+      "word_id": "insight",
+      "text": "Her book offers real insight into poverty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人还在翻资料，他盯着那张图看了两秒就说出问题在哪"
+    },
+    {
+      "id": "ex-insight-2",
+      "word_id": "insight",
+      "text": "He lacked insight into his own habits.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人还在翻资料，他盯着那张图看了两秒就说出问题在哪"
+    },
+    {
+      "id": "ex-instead-1",
+      "word_id": "instead",
+      "text": "He drank tea instead of coffee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他伸手要拿咖啡，最后端走了旁边那杯茶"
+    },
+    {
+      "id": "ex-instead-2",
+      "word_id": "instead",
+      "text": "She did not cry; she laughed instead.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他伸手要拿咖啡，最后端走了旁边那杯茶"
+    },
+    {
+      "id": "ex-intrude-1",
+      "word_id": "intrude",
+      "text": "I hope I'm not intruding on your meal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门只开了半尺，一只脚已经先伸进了缝里"
+    },
+    {
+      "id": "ex-intrude-2",
+      "word_id": "intrude",
+      "text": "Reporters intruded into her private life.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门只开了半尺，一只脚已经先伸进了缝里"
+    },
+    {
+      "id": "ex-invest-1",
+      "word_id": "invest",
+      "text": "They invested in a small bakery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把攒下的全部推过桌面，换回一张纸，对面说三年后见"
+    },
+    {
+      "id": "ex-invest-2",
+      "word_id": "invest",
+      "text": "She invested years in that project.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把攒下的全部推过桌面，换回一张纸，对面说三年后见"
+    },
+    {
+      "id": "ex-iron-1",
+      "word_id": "iron",
+      "text": "The gate is made of iron.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块灰扑扑的东西压得手往下坠，敲一下声音又闷又长"
+    },
+    {
+      "id": "ex-iron-2",
+      "word_id": "iron",
+      "text": "She ironed her shirt before dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块灰扑扑的东西压得手往下坠，敲一下声音又闷又长"
+    },
+    {
+      "id": "ex-irony-1",
+      "word_id": "irony",
+      "text": "There was irony in his polite reply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "消防站自己烧了，牌子还挂在门口没摘"
+    },
+    {
+      "id": "ex-irony-2",
+      "word_id": "irony",
+      "text": "The irony is that she warned us first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "消防站自己烧了，牌子还挂在门口没摘"
+    },
+    {
+      "id": "ex-irrigate-1",
+      "word_id": "irrigate",
+      "text": "Farmers irrigate the fields in June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸板一提，水顺着田垄一路淌到最远那排苗根下"
+    },
+    {
+      "id": "ex-irrigate-2",
+      "word_id": "irrigate",
+      "text": "They irrigate the desert with pipes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸板一提，水顺着田垄一路淌到最远那排苗根下"
+    },
+    {
+      "id": "ex-irritate-1",
+      "word_id": "irritate",
+      "text": "His constant humming irritated her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "衣领里那块标签一直磨着后颈，她第七次抬手去抠"
+    },
+    {
+      "id": "ex-irritate-2",
+      "word_id": "irritate",
+      "text": "Cheap wool irritates my skin badly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "衣领里那块标签一直磨着后颈，她第七次抬手去抠"
+    },
+    {
+      "id": "ex-island-1",
+      "word_id": "island",
+      "text": "They sailed to a small island.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船绕了一圈回到原处，这块地四面都是水，谁也走不出去"
+    },
+    {
+      "id": "ex-island-2",
+      "word_id": "island",
+      "text": "The island has only one road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船绕了一圈回到原处，这块地四面都是水，谁也走不出去"
+    },
+    {
+      "id": "ex-item-1",
+      "word_id": "item",
+      "text": "Check each item on the list.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清单上一条挨一条，每条前头一个小方框，打完钩才往下走"
+    },
+    {
+      "id": "ex-item-2",
+      "word_id": "item",
+      "text": "The last item cost forty pounds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清单上一条挨一条，每条前头一个小方框，打完钩才往下走"
+    },
+    {
+      "id": "ex-itself-1",
+      "word_id": "itself",
+      "text": "The door closed itself in the wind.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风把门关上了，没人碰过它，门是自己合的"
+    },
+    {
+      "id": "ex-itself-2",
+      "word_id": "itself",
+      "text": "The idea itself is not new.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风把门关上了，没人碰过它，门是自己合的"
+    },
+    {
+      "id": "ex-jam-1",
+      "word_id": "jam",
+      "text": "She spread jam on warm bread.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "熬得起稠了，勺子拖过去能划出一道沟，慢慢才合上"
+    },
+    {
+      "id": "ex-jam-2",
+      "word_id": "jam",
+      "text": "Traffic jammed the whole street.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "熬得起稠了，勺子拖过去能划出一道沟，慢慢才合上"
+    },
+    {
+      "id": "ex-jar-1",
+      "word_id": "jar",
+      "text": "She opened a jar of pickles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架子上一排玻璃容器，口很宽，手能整只伸进去，盖子拧得死紧"
+    },
+    {
+      "id": "ex-jar-2",
+      "word_id": "jar",
+      "text": "He drank a whole jar of milk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架子上一排玻璃容器，口很宽，手能整只伸进去，盖子拧得死紧"
+    },
+    {
+      "id": "ex-jargon-1",
+      "word_id": "jargon",
+      "text": "Legal jargon confuses most readers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "电梯里两个人在说话，每个字都听得清，连起来一句也不懂"
+    },
+    {
+      "id": "ex-jargon-2",
+      "word_id": "jargon",
+      "text": "He explained it without any jargon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "电梯里两个人在说话，每个字都听得清，连起来一句也不懂"
+    },
+    {
+      "id": "ex-jaw-1",
+      "word_id": "jaw",
+      "text": "He clenched his jaw and said nothing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把后槽牙咬死，腮边一条肌肉鼓起来，下面那块骨头往前顶"
+    },
+    {
+      "id": "ex-jaw-2",
+      "word_id": "jaw",
+      "text": "The dog's jaws snapped shut.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把后槽牙咬死，腮边一条肌肉鼓起来，下面那块骨头往前顶"
+    },
+    {
+      "id": "ex-jazz-1",
+      "word_id": "jazz",
+      "text": "He plays jazz in a small club.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小号手闭着眼吹了一段，谱上没有，散场后谁也复不出来"
+    },
+    {
+      "id": "ex-jazz-2",
+      "word_id": "jazz",
+      "text": "The band mixed jazz with folk tunes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小号手闭着眼吹了一段，谱上没有，散场后谁也复不出来"
+    },
+    {
+      "id": "ex-jealous-1",
+      "word_id": "jealous",
+      "text": "He was jealous of his brother's success.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他看着那两人说笑，手里的杯子越攥越紧，眼睛一直没挪开"
+    },
+    {
+      "id": "ex-jealous-2",
+      "word_id": "jealous",
+      "text": "She is jealous of her own privacy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他看着那两人说笑，手里的杯子越攥越紧，眼睛一直没挪开"
+    },
+    {
+      "id": "ex-job-1",
+      "word_id": "job",
+      "text": "She found a job in a bank.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "七点打卡，同一道流程走到下班，月底账上多一笔"
+    },
+    {
+      "id": "ex-job-2",
+      "word_id": "job",
+      "text": "Painting the fence is a big job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "七点打卡，同一道流程走到下班，月底账上多一笔"
+    },
+    {
+      "id": "ex-jog-1",
+      "word_id": "jog",
+      "text": "He jogs by the river every morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他沿着河边匀速跑了四十分钟，呼吸一直没乱，鞋底声一下接一下"
+    },
+    {
+      "id": "ex-jog-2",
+      "word_id": "jog",
+      "text": "She jogged my elbow on purpose.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他沿着河边匀速跑了四十分钟，呼吸一直没乱，鞋底声一下接一下"
+    },
+    {
+      "id": "ex-jolly-1",
+      "word_id": "jolly",
+      "text": "He greeted us in a jolly voice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他笑起来整张脸都在动，桌上的人跟着一起笑，气氛松下来"
+    },
+    {
+      "id": "ex-jolly-2",
+      "word_id": "jolly",
+      "text": "They had a jolly evening together.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他笑起来整张脸都在动，桌上的人跟着一起笑，气氛松下来"
+    },
+    {
+      "id": "ex-jug-1",
+      "word_id": "jug",
+      "text": "She filled the jug with cold water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侧面一个把手，口沿捏出一个尖，倒的时候水线细而不散"
+    },
+    {
+      "id": "ex-jug-2",
+      "word_id": "jug",
+      "text": "He poured milk from a china jug.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侧面一个把手，口沿捏出一个尖，倒的时候水线细而不散"
+    },
+    {
+      "id": "ex-juice-1",
+      "word_id": "juice",
+      "text": "She drank a glass of orange juice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "半个橙子在压盘上转了一圈，底下积出小半杯黄水"
+    },
+    {
+      "id": "ex-juice-2",
+      "word_id": "juice",
+      "text": "The meat juices ran onto the plate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "半个橙子在压盘上转了一圈，底下积出小半杯黄水"
+    },
+    {
+      "id": "ex-jump-1",
+      "word_id": "jump",
+      "text": "He jumped over the low wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屈膝一蹲，两脚同时离地，人整个越过了那道沟"
+    },
+    {
+      "id": "ex-jump-2",
+      "word_id": "jump",
+      "text": "Prices jumped by thirty percent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屈膝一蹲，两脚同时离地，人整个越过了那道沟"
+    },
+    {
+      "id": "ex-jungle-1",
+      "word_id": "jungle",
+      "text": "They cut a path through the jungle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "藤条缠成网，两步之外看不见路，脚下全是烂叶和积水"
+    },
+    {
+      "id": "ex-jungle-2",
+      "word_id": "jungle",
+      "text": "The city is a jungle after dark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "藤条缠成网，两步之外看不见路，脚下全是烂叶和积水"
+    },
+    {
+      "id": "ex-junior-1",
+      "word_id": "junior",
+      "text": "He is junior to me by two years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议室最靠门那把椅子，坐着进来才半年的那个人"
+    },
+    {
+      "id": "ex-junior-2",
+      "word_id": "junior",
+      "text": "A junior clerk handled the file.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议室最靠门那把椅子，坐着进来才半年的那个人"
+    },
+    {
+      "id": "ex-junk-1",
+      "word_id": "junk",
+      "text": "He cleared the junk out of the garage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车库角落堆到房梁，坏台灯压着缺腿的椅子，谁也不动它"
+    },
+    {
+      "id": "ex-junk-2",
+      "word_id": "junk",
+      "text": "Stop eating junk before dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车库角落堆到房梁，坏台灯压着缺腿的椅子，谁也不动它"
+    },
+    {
+      "id": "ex-juvenile-1",
+      "word_id": "juvenile",
+      "text": "The court has a juvenile section.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭把他安排在另一间，桌椅矮一号，旁听席只坐着家长"
+    },
+    {
+      "id": "ex-juvenile-2",
+      "word_id": "juvenile",
+      "text": "His juvenile jokes annoyed everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭把他安排在另一间，桌椅矮一号，旁听席只坐着家长"
+    },
+    {
+      "id": "ex-keen-1",
+      "word_id": "keen",
+      "text": "She is keen to start the work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他比约定早到二十分钟，工具都摊开了，一直往门口看"
+    },
+    {
+      "id": "ex-keen-2",
+      "word_id": "keen",
+      "text": "He has a keen sense of smell.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他比约定早到二十分钟，工具都摊开了，一直往门口看"
+    },
+    {
+      "id": "ex-keep-1",
+      "word_id": "keep",
+      "text": "Please keep the receipt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那把钥匙在他抽屉里放了二十年，没配过第二把，也没给过谁"
+    },
+    {
+      "id": "ex-keep-2",
+      "word_id": "keep",
+      "text": "He kept walking despite the rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那把钥匙在他抽屉里放了二十年，没配过第二把，也没给过谁"
+    },
+    {
+      "id": "ex-kettle-1",
+      "word_id": "kettle",
+      "text": "Put the kettle on for tea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灶上那只金属容器盖子开始跳，嘴里喷出一道白汽，声音越来越尖"
+    },
+    {
+      "id": "ex-kettle-2",
+      "word_id": "kettle",
+      "text": "The kettle whistled on the stove.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灶上那只金属容器盖子开始跳，嘴里喷出一道白汽，声音越来越尖"
+    },
+    {
+      "id": "ex-key-1",
+      "word_id": "key",
+      "text": "He lost the key to the back door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小片金属，边上啃出几个缺口，插进去一转，里头咔一声"
+    },
+    {
+      "id": "ex-key-2",
+      "word_id": "key",
+      "text": "Timing is the key to this dish.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小片金属，边上啃出几个缺口，插进去一转，里头咔一声"
+    },
+    {
+      "id": "ex-keyboard-1",
+      "word_id": "keyboard",
+      "text": "She spilled coffee on her keyboard.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整块板子上排满方格，十指落下去噼啪响成一片"
+    },
+    {
+      "id": "ex-keyboard-2",
+      "word_id": "keyboard",
+      "text": "He runs his hands over the keyboard.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整块板子上排满方格，十指落下去噼啪响成一片"
+    },
+    {
+      "id": "ex-kick-1",
+      "word_id": "kick",
+      "text": "He kicked the ball into the net.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他后腿一甩，鞋尖砸在球上，球贴着草皮蹿了出去"
+    },
+    {
+      "id": "ex-kick-2",
+      "word_id": "kick",
+      "text": "The rifle kicks against your shoulder.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他后腿一甩，鞋尖砸在球上，球贴着草皮蹿了出去"
     }
   ]
 }
