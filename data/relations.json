@@ -5934,6 +5934,186 @@
       "to": "district",
       "type": "root",
       "note": "di-（分开）+ strict（拉紧）→ 用界线圈紧的一块 → 辖区"
+    },
+    {
+      "from": "planus",
+      "to": "plain",
+      "type": "root",
+      "note": "planus（平的）→ 表面无起伏 → 不加修饰的、一望便知的；名词指平地"
+    },
+    {
+      "from": "planus",
+      "to": "explain",
+      "type": "root",
+      "note": "ex-（出来）+ plain（平）→ 把褶皱摊平摊开 → 讲清楚"
+    },
+    {
+      "from": "planus",
+      "to": "aeroplane",
+      "type": "root",
+      "note": "aero-（空气）+ plane（平面）→ 靠平展翼面浮在空气里的那件东西"
+    },
+    {
+      "from": "polis",
+      "to": "police",
+      "type": "root",
+      "note": "polis（城邦）→ politia（城邦治理）→ 维持城中秩序的那班人"
+    },
+    {
+      "from": "polis",
+      "to": "policeman",
+      "type": "root",
+      "note": "police（维持秩序者）+ man（人）→ 其中一名"
+    },
+    {
+      "from": "polis",
+      "to": "policy",
+      "type": "root",
+      "note": "polis（城邦）→ politia（治理）→ 治理所定的那套方针"
+    },
+    {
+      "from": "polis",
+      "to": "metropolitan",
+      "type": "root",
+      "note": "metro-（mētēr 母）+ polit（城邦）+ -an → 属于母城、大城的"
+    },
+    {
+      "from": "spect",
+      "to": "spectacular",
+      "type": "root",
+      "note": "spect（看）+ -acular → 值得停下来看的 → 壮观"
+    },
+    {
+      "from": "spect",
+      "to": "spectrum",
+      "type": "root",
+      "note": "spect（看）+ -rum → 呈给眼睛看的那一整条 → 光谱、范围"
+    },
+    {
+      "from": "spect",
+      "to": "despise",
+      "type": "root",
+      "note": "de-（往下）+ spise（看）→ 从上往下看 → 鄙视"
+    },
+    {
+      "from": "spect",
+      "to": "irrespective",
+      "type": "root",
+      "note": "ir-（不）+ respect（回看顾及）+ -ive → 不回头看那一头 → 不顾、无论"
+    },
+    {
+      "from": "graphein",
+      "to": "biography",
+      "type": "root",
+      "note": "bio-（生命）+ graph（写）+ -y → 把一个人一生写下来的那本"
+    },
+    {
+      "from": "graphein",
+      "to": "bibliography",
+      "type": "root",
+      "note": "biblio-（书）+ graph（写）+ -y → 把所引各书列写出来的那一份"
+    },
+    {
+      "from": "graphein",
+      "to": "geography",
+      "type": "root",
+      "note": "geo-（地）+ graph（写）+ -y → 把大地描写下来的那门学问"
+    },
+    {
+      "from": "graphein",
+      "to": "telegraph",
+      "type": "root",
+      "note": "tele-（远）+ graph（写）→ 把字写到远处去的那套装置"
+    },
+    {
+      "from": "premere",
+      "to": "print",
+      "type": "root",
+      "note": "premere（压）→ preinte（压出的痕）→ 压出字迹 → 印刷"
+    },
+    {
+      "from": "premere",
+      "to": "blueprint",
+      "type": "root",
+      "note": "blue（蓝）+ print（压印）→ 蓝底压印出的图 → 蓝图、方案"
+    },
+    {
+      "from": "premere",
+      "to": "repression",
+      "type": "root",
+      "note": "re-（往回）+ press（压）+ -ion → 往回压住 → 镇压、压抑"
+    },
+    {
+      "from": "ponere",
+      "to": "positive",
+      "type": "root",
+      "note": "posit（放定）+ -ive → 已经放定、不再摇摆的 → 确定的、肯定的"
+    },
+    {
+      "from": "ponere",
+      "to": "deposit",
+      "type": "root",
+      "note": "de-（向下）+ posit（放）→ 往下放好搁着 → 存放、押金"
+    },
+    {
+      "from": "quir",
+      "to": "question",
+      "type": "root",
+      "note": "quest（寻求）+ -ion → 为求答案而发出的那一句"
+    },
+    {
+      "from": "quir",
+      "to": "questionnaire",
+      "type": "root",
+      "note": "question（问）+ -naire（成套）→ 排成一套发出去的问句"
+    },
+    {
+      "from": "quir",
+      "to": "acquisition",
+      "type": "root",
+      "note": "ac-（ad- 朝）+ quisit（求得）+ -ion → 求而得之 → 获得、所得之物"
+    },
+    {
+      "from": "gradus",
+      "to": "progress",
+      "type": "root",
+      "note": "pro-（往前）+ gress（走）→ 一步步往前 → 进展"
+    },
+    {
+      "from": "gradus",
+      "to": "progressive",
+      "type": "root",
+      "note": "progress（前行）+ -ive → 一路往前走的 → 渐进的、主张改革的"
+    },
+    {
+      "from": "gradus",
+      "to": "congress",
+      "type": "root",
+      "note": "con-（一同）+ gress（走）→ 各方走到一处 → 集会、国会"
+    },
+    {
+      "from": "littera",
+      "to": "literature",
+      "type": "root",
+      "note": "litter（字母、文字）+ -ature → 用文字写成的那一整片 → 文学、文献"
+    },
+    {
+      "from": "ferre",
+      "to": "conference",
+      "type": "root",
+      "note": "con-（一同）+ fer（带）+ -ence → 各方把话带到一处 → 会议"
+    },
+    {
+      "from": "ferre",
+      "to": "circumference",
+      "type": "root",
+      "note": "circum-（绕）+ fer（带）+ -ence → 绕一圈带过去的那条线 → 周长"
+    },
+    {
+      "from": "ferre",
+      "to": "interference",
+      "type": "root",
+      "note": "inter-（在中间）+ fer（带）+ -ence → 把自己插到中间去 → 干扰"
     }
   ]
 }

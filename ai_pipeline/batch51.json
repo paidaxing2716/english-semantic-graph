@@ -1,0 +1,1150 @@
+{
+  "words": [
+    {
+      "id": "plain",
+      "word": "plain",
+      "pos": "adjective",
+      "phonetic": "/pleɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planus"
+      ],
+      "root_logic": "planus（平的）→ 表面无起伏 → 不加修饰的、一望便知的；名词指平地",
+      "origin": "古法语 plain，来自拉丁语 planus（平的）",
+      "native_definition": "simple and without decoration; easy to understand; a large flat area",
+      "core_concept": "a surface with nothing raised on it to catch the eye – 面上不起花样，一眼扫得到底",
+      "core_image": "一张白桌面从这头看到那头，什么摆件都没有",
+      "chinese": [
+        "朴素的",
+        "清楚的",
+        "平原"
+      ],
+      "examples": [
+        "She wore a plain grey dress.",
+        "It is plain that he was lying."
+      ],
+      "synonyms": [
+        "simple",
+        "obvious"
+      ],
+      "antonyms": [
+        "fancy",
+        "obscure"
+      ],
+      "related": [
+        "explain",
+        "plan"
+      ],
+      "semantic_expansions": [
+        "朴素的：面上不加花样",
+        "清楚的：摊得平、一眼看到底",
+        "平原：地面无起伏的那一片"
+      ],
+      "recall_hint": "planus（平的）→ 面上不起花样、一眼见底"
+    },
+    {
+      "id": "explain",
+      "word": "explain",
+      "pos": "verb",
+      "phonetic": "/ɪkˈspleɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planus"
+      ],
+      "root_logic": "ex-（出来）+ plain（平）→ 把褶皱摊平摊开 → 讲清楚",
+      "origin": "拉丁语 explanare（摊平、阐明），来自 ex＋planus（平的）",
+      "native_definition": "to make something clear by describing it in detail",
+      "core_concept": "smoothing the folds out so the whole lies open – 把折起来的一层层摊开，全貌就露出来",
+      "core_image": "他把揉成一团的那张纸一点点抹开，字迹才连得起来",
+      "chinese": [
+        "解释",
+        "说明",
+        "阐明"
+      ],
+      "examples": [
+        "Please explain how it works.",
+        "She explained her reasons at length."
+      ],
+      "synonyms": [
+        "clarify",
+        "describe"
+      ],
+      "antonyms": [
+        "confuse"
+      ],
+      "related": [
+        "explanation",
+        "plain"
+      ],
+      "semantic_expansions": [
+        "解释/说明/阐明：把褶皱摊平、使人看清"
+      ],
+      "recall_hint": "ex-（出来）+ plain（平）→ 把褶子摊开讲清"
+    },
+    {
+      "id": "aeroplane",
+      "word": "aeroplane",
+      "pos": "noun",
+      "phonetic": "/ˈeərəpleɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planus"
+      ],
+      "root_logic": "aero-（空气）+ plane（平面）→ 靠平展翼面浮在空气里的那件东西",
+      "origin": "法语 aéroplane，由希腊 aēr（空气）＋拉丁 planus（平面）合成",
+      "native_definition": "a vehicle with wings and engines that flies through the air",
+      "core_concept": "the craft held up by two flat faces pressed against the air – 靠两片平展的面撑住空气而浮起的器械",
+      "core_image": "两侧那两片薄薄的面一斜，整个机身就抬了起来",
+      "chinese": [
+        "飞机"
+      ],
+      "examples": [
+        "The aeroplane took off on time.",
+        "He has never been on an aeroplane."
+      ],
+      "synonyms": [
+        "aircraft",
+        "plane"
+      ],
+      "antonyms": [],
+      "related": [
+        "plane",
+        "plain"
+      ],
+      "semantic_expansions": [
+        "飞机：靠平展翼面撑住空气而飞的器械"
+      ],
+      "recall_hint": "aero-（空气）+ plane（平面）→ 靠平展翼面浮起"
+    },
+    {
+      "id": "police",
+      "word": "police",
+      "pos": "noun",
+      "phonetic": "/pəˈliːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "polis（城邦）→ politia（城邦治理）→ 维持城中秩序的那班人",
+      "origin": "法语 police，来自拉丁语 politia（治理）← 希腊语 politeia ← polis（城邦）",
+      "native_definition": "the official force that keeps order and enforces the law",
+      "core_concept": "the body charged with keeping the city's order – 受命看住全城秩序的那班人",
+      "core_image": "街口那几个人一站，闹哄哄的人群自己让出条路",
+      "chinese": [
+        "警察",
+        "警方"
+      ],
+      "examples": [
+        "The police arrived within minutes.",
+        "She called the police at once."
+      ],
+      "synonyms": [
+        "officer",
+        "guard"
+      ],
+      "antonyms": [],
+      "related": [
+        "policeman",
+        "policy"
+      ],
+      "semantic_expansions": [
+        "警察/警方：受命维持城中秩序的那班人"
+      ],
+      "recall_hint": "polis（城邦）→ politia（治理）→ 维持城中秩序者"
+    },
+    {
+      "id": "policeman",
+      "word": "policeman",
+      "pos": "noun",
+      "phonetic": "/pəˈliːsmən/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "police（维持秩序者）+ man（人）→ 其中一名",
+      "origin": "英语复合词 police＋man，police ← 拉丁语 politia ← 希腊语 polis",
+      "native_definition": "a male member of the police force",
+      "core_concept": "one man out of the body that keeps order – 看守秩序那班人里的一名男性",
+      "core_image": "路口那一位抬手一比，车流就停住了",
+      "chinese": [
+        "警察",
+        "男警"
+      ],
+      "examples": [
+        "A policeman directed the traffic.",
+        "The policeman took down her name."
+      ],
+      "synonyms": [
+        "guard",
+        "police"
+      ],
+      "antonyms": [],
+      "related": [
+        "police",
+        "policy"
+      ],
+      "semantic_expansions": [
+        "警察/男警：维持秩序那班人里的一名男性"
+      ],
+      "recall_hint": "police（维持秩序者）+ man → 其中一名"
+    },
+    {
+      "id": "policy",
+      "word": "policy",
+      "pos": "noun",
+      "phonetic": "/ˈpɒləsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "polis（城邦）→ politia（治理）→ 治理所定的那套方针",
+      "origin": "古法语 policie（治理），来自拉丁语 politia ← 希腊语 politeia ← polis",
+      "native_definition": "a plan of action agreed by a government or organization",
+      "core_concept": "the settled course by which a body is run – 治事者定下来照办的那条路子",
+      "core_image": "议事厅定下一条，往后各处照着这条办",
+      "chinese": [
+        "政策",
+        "方针",
+        "保单"
+      ],
+      "examples": [
+        "The government changed its policy.",
+        "Read your insurance policy carefully."
+      ],
+      "synonyms": [
+        "strategy",
+        "guideline"
+      ],
+      "antonyms": [],
+      "related": [
+        "police",
+        "political"
+      ],
+      "semantic_expansions": [
+        "政策/方针：治事所定、往后照办的那条路子",
+        "保单：把承保条款定死的那纸文书"
+      ],
+      "recall_hint": "polis（城邦）→ politia（治理）→ 所定的方针"
+    },
+    {
+      "id": "metropolitan",
+      "word": "metropolitan",
+      "pos": "adjective",
+      "phonetic": "/ˌmetrəˈpɒlɪtən/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "metro-（mētēr 母）+ polit（城邦）+ -an → 属于母城、大城的",
+      "origin": "晚期拉丁语 metropolitanus，来自希腊语 mētropolis（母城）← mētēr（母）＋polis（城邦）；与 metron（量度）无关，上一批从 metron 名下剔除是对的",
+      "native_definition": "relating to a large city and the area around it",
+      "core_concept": "belonging to the mother-city that other towns grew out of – 属于那座生出周边诸镇的母城",
+      "core_image": "地铁线从那座大城摊开，一路连出去几十个镇子",
+      "chinese": [
+        "大都市的",
+        "大城市的"
+      ],
+      "examples": [
+        "He works for the metropolitan council.",
+        "It is a metropolitan area of ten million."
+      ],
+      "synonyms": [
+        "city",
+        "civic"
+      ],
+      "antonyms": [
+        "rural"
+      ],
+      "related": [
+        "police",
+        "policy"
+      ],
+      "semantic_expansions": [
+        "大都市的/大城市的：属于那座生出周边诸镇的母城"
+      ],
+      "recall_hint": "metro-（母）+ polit（城邦）→ 属于母城、大城的"
+    },
+    {
+      "id": "spectacular",
+      "word": "spectacular",
+      "pos": "adjective",
+      "phonetic": "/spekˈtækjələ(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "spect（看）+ -acular → 值得停下来看的 → 壮观",
+      "origin": "拉丁语 spectaculum（可观之物），来自 spectare（观看）← specere（看）",
+      "native_definition": "very impressive to look at; strikingly great",
+      "core_concept": "the sight that stops the eye and holds it – 让眼睛停住、挪不开的那种景象",
+      "core_image": "转过山口，眼前那一片让所有人都收住了脚",
+      "chinese": [
+        "壮观的",
+        "惊人的"
+      ],
+      "examples": [
+        "The view was spectacular.",
+        "She made a spectacular recovery."
+      ],
+      "synonyms": [
+        "striking",
+        "impressive"
+      ],
+      "antonyms": [
+        "dull"
+      ],
+      "related": [
+        "spectrum",
+        "inspect"
+      ],
+      "semantic_expansions": [
+        "壮观的/惊人的：让眼睛停住挪不开的那种"
+      ],
+      "recall_hint": "spect（看）+ -acular → 值得停下来看的"
+    },
+    {
+      "id": "spectrum",
+      "word": "spectrum",
+      "pos": "noun",
+      "phonetic": "/ˈspektrəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "spect（看）+ -rum → 呈给眼睛看的那一整条 → 光谱、范围",
+      "origin": "拉丁语 spectrum（显现、影像），来自 specere（看）",
+      "native_definition": "the band of colours light splits into; a full range of related things",
+      "core_concept": "the whole band laid out for the eye to run along – 摊开来让眼睛一路扫过去的那一整条",
+      "core_image": "光穿过棱镜，摊出一条从红到紫的带子",
+      "chinese": [
+        "光谱",
+        "范围",
+        "系列"
+      ],
+      "examples": [
+        "Sunlight splits into a spectrum.",
+        "Opinions cover the whole spectrum."
+      ],
+      "synonyms": [
+        "range",
+        "band"
+      ],
+      "antonyms": [],
+      "related": [
+        "spectacular",
+        "inspect"
+      ],
+      "semantic_expansions": [
+        "光谱：光摊开成的那一条色带",
+        "范围/系列：同类事物摊开成的整条幅面"
+      ],
+      "recall_hint": "spect（看）+ -rum → 呈给眼睛的那一整条"
+    },
+    {
+      "id": "despise",
+      "word": "despise",
+      "pos": "verb",
+      "phonetic": "/dɪˈspaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "de-（往下）+ spise（看）→ 从上往下看 → 鄙视",
+      "origin": "古法语 despis-，来自拉丁语 despicere（俯视、轻蔑）← de＋specere（看）",
+      "native_definition": "to feel a strong dislike and lack of respect for",
+      "core_concept": "looking down on a thing from above – 眼光自上往下落在那物上",
+      "core_image": "他下巴一抬，眼光从鼻梁上头扫过去",
+      "chinese": [
+        "鄙视",
+        "轻视"
+      ],
+      "examples": [
+        "He despised their dishonesty.",
+        "She despises gossip of any kind."
+      ],
+      "synonyms": [
+        "scorn",
+        "disdain"
+      ],
+      "antonyms": [
+        "admire",
+        "respect"
+      ],
+      "related": [
+        "spectacular",
+        "inspect"
+      ],
+      "semantic_expansions": [
+        "鄙视/轻视：眼光自上往下落在那物上"
+      ],
+      "recall_hint": "de-（往下）+ spise（看）→ 从上往下看"
+    },
+    {
+      "id": "irrespective",
+      "word": "irrespective",
+      "pos": "adjective",
+      "phonetic": "/ˌɪrɪˈspektɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "spect"
+      ],
+      "root_logic": "ir-（不）+ respect（回看顾及）+ -ive → 不回头看那一头 → 不顾、无论",
+      "origin": "英语 irrespective，由 ir-＋respective ← 拉丁语 respicere（回看）← re＋specere",
+      "native_definition": "not taking something into account; regardless of",
+      "core_concept": "walking on without turning the eye back to it – 眼睛不往那边回一下，照旧往前",
+      "core_image": "旁边情形如何他一眼没回，脚步照原样走",
+      "chinese": [
+        "不顾的",
+        "无论的"
+      ],
+      "examples": [
+        "Open to all, irrespective of age.",
+        "It applies irrespective of cost."
+      ],
+      "synonyms": [
+        "regardless",
+        "notwithstanding"
+      ],
+      "antonyms": [],
+      "related": [
+        "spectacular",
+        "despise"
+      ],
+      "semantic_expansions": [
+        "不顾的/无论的：眼睛不回看那一头，照旧进行"
+      ],
+      "recall_hint": "ir-（不）+ respect（回看）→ 不回头看那一头"
+    },
+    {
+      "id": "biography",
+      "word": "biography",
+      "pos": "noun",
+      "phonetic": "/baɪˈɒɡrəfi/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "bio-（生命）+ graph（写）+ -y → 把一个人一生写下来的那本",
+      "origin": "希腊语 bios（生命）＋graphein（书写），17 世纪造词",
+      "native_definition": "the written story of a person's life",
+      "core_concept": "one life set down on paper from start to end – 把一个人从头到尾写在纸上",
+      "core_image": "从出生那页翻到最后一页，全是同一个人的事",
+      "chinese": [
+        "传记"
+      ],
+      "examples": [
+        "She wrote a biography of her father.",
+        "The biography runs to 600 pages."
+      ],
+      "synonyms": [
+        "account",
+        "writing"
+      ],
+      "antonyms": [],
+      "related": [
+        "bibliography",
+        "geography"
+      ],
+      "semantic_expansions": [
+        "传记：把一个人一生写下来的那本"
+      ],
+      "recall_hint": "bio-（生命）+ graph（写）→ 把一生写下来"
+    },
+    {
+      "id": "bibliography",
+      "word": "bibliography",
+      "pos": "noun",
+      "phonetic": "/ˌbɪbliˈɒɡrəfi/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "biblio-（书）+ graph（写）+ -y → 把所引各书列写出来的那一份",
+      "origin": "希腊语 biblion（书）＋graphein（书写）",
+      "native_definition": "a list of the books and sources used in a piece of work",
+      "core_concept": "the roll of every book one leaned on, written out – 把倚仗过的书一本本写成清单",
+      "core_image": "论文末尾几页，一行一本地列着看过的书",
+      "chinese": [
+        "参考书目",
+        "文献目录"
+      ],
+      "examples": [
+        "Add the sources to your bibliography.",
+        "The bibliography lists forty titles."
+      ],
+      "synonyms": [
+        "writing",
+        "account"
+      ],
+      "antonyms": [],
+      "related": [
+        "biography",
+        "geography"
+      ],
+      "semantic_expansions": [
+        "参考书目/文献目录：把所引各书列写出来的那一份"
+      ],
+      "recall_hint": "biblio-（书）+ graph（写）→ 把所引各书列写出来"
+    },
+    {
+      "id": "geography",
+      "word": "geography",
+      "pos": "noun",
+      "phonetic": "/dʒiˈɒɡrəfi/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "geo-（地）+ graph（写）+ -y → 把大地描写下来的那门学问",
+      "origin": "希腊语 geōgraphia（描写大地），来自 gē（地）＋graphein（书写）",
+      "native_definition": "the study of the earth's surface, climate, and peoples",
+      "core_concept": "putting the face of the land down on paper – 把大地的样貌描到纸上",
+      "core_image": "山川河道一笔笔画进图里，纸上就成了那片地",
+      "chinese": [
+        "地理",
+        "地理学",
+        "地形"
+      ],
+      "examples": [
+        "She teaches geography at the school.",
+        "The geography of the region is rugged."
+      ],
+      "synonyms": [
+        "land",
+        "map"
+      ],
+      "antonyms": [],
+      "related": [
+        "biography",
+        "telegraph"
+      ],
+      "semantic_expansions": [
+        "地理/地理学：把大地样貌描写下来的那门学问",
+        "地形：某地起伏走势的那副样貌"
+      ],
+      "recall_hint": "geo-（地）+ graph（写）→ 把大地描到纸上"
+    },
+    {
+      "id": "telegraph",
+      "word": "telegraph",
+      "pos": "noun",
+      "phonetic": "/ˈtelɪɡrɑːf/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "tele-（远）+ graph（写）→ 把字写到远处去的那套装置",
+      "origin": "法语 télégraphe，由希腊 tēle（远）＋graphein（书写）合成，19 世纪造词",
+      "native_definition": "a system for sending messages over distance by electric signal",
+      "core_concept": "writing that lands far from the hand that made it – 手在此处落笔，字却出现在远处",
+      "core_image": "这头按下几下长短，那头纸带上就吐出一串记号",
+      "chinese": [
+        "电报",
+        "电报机"
+      ],
+      "examples": [
+        "The news came by telegraph.",
+        "He sent a telegraph from the port."
+      ],
+      "synonyms": [
+        "cable",
+        "wire"
+      ],
+      "antonyms": [],
+      "related": [
+        "geography",
+        "biography"
+      ],
+      "semantic_expansions": [
+        "电报/电报机：把字送到远处去的那套装置"
+      ],
+      "recall_hint": "tele-（远）+ graph（写）→ 把字写到远处去"
+    },
+    {
+      "id": "print",
+      "word": "print",
+      "pos": "verb",
+      "phonetic": "/prɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "premere"
+      ],
+      "root_logic": "premere（压）→ preinte（压出的痕）→ 压出字迹 → 印刷",
+      "origin": "古法语 preinte（压痕），来自 preindre ← 拉丁语 premere（压）",
+      "native_definition": "to produce text or pictures by pressing ink onto paper",
+      "core_concept": "the mark left where something was pressed down – 压下去之后留在那儿的痕",
+      "core_image": "版子往纸上一压，抬起来时字就留住了",
+      "chinese": [
+        "印刷",
+        "印",
+        "字迹"
+      ],
+      "examples": [
+        "They printed a thousand copies.",
+        "Print your name in capitals."
+      ],
+      "synonyms": [
+        "publish",
+        "impress"
+      ],
+      "antonyms": [],
+      "related": [
+        "blueprint",
+        "pressure"
+      ],
+      "semantic_expansions": [
+        "印刷/印：压下去把字留在纸上",
+        "字迹：压出来的那些痕"
+      ],
+      "recall_hint": "premere（压）→ 压出痕迹 → 印刷"
+    },
+    {
+      "id": "blueprint",
+      "word": "blueprint",
+      "pos": "noun",
+      "phonetic": "/ˈbluːprɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "premere"
+      ],
+      "root_logic": "blue（蓝）+ print（压印）→ 蓝底压印出的图 → 蓝图、方案",
+      "origin": "英语复合词 blue＋print；旧时晒图工艺出蓝底白线，print ← 拉丁语 premere",
+      "native_definition": "a technical drawing of a plan; a detailed scheme",
+      "core_concept": "the pressed-out drawing everything is built from – 压印出来、照着它造的那张图",
+      "core_image": "摊开那张蓝底的图纸，每根梁的位置都标着",
+      "chinese": [
+        "蓝图",
+        "设计图",
+        "方案"
+      ],
+      "examples": [
+        "The architect showed us the blueprint.",
+        "This is a blueprint for reform."
+      ],
+      "synonyms": [
+        "plan",
+        "scheme"
+      ],
+      "antonyms": [],
+      "related": [
+        "print",
+        "pressure"
+      ],
+      "semantic_expansions": [
+        "蓝图/设计图：压印出来、照着施工的那张图",
+        "方案：同样作依据的那套设想"
+      ],
+      "recall_hint": "blue（蓝）+ print（压印）→ 蓝底压印的图"
+    },
+    {
+      "id": "repression",
+      "word": "repression",
+      "pos": "noun",
+      "phonetic": "/rɪˈpreʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "premere"
+      ],
+      "root_logic": "re-（往回）+ press（压）+ -ion → 往回压住 → 镇压、压抑",
+      "origin": "拉丁语 repressio，来自 reprimere（压回）← re＋premere（压）",
+      "native_definition": "the act of keeping something down by force or by will",
+      "core_concept": "pressing a thing back down so it cannot rise – 把往上冒的按回去，不许起来",
+      "core_image": "刚要抬头的那一下被一只手按了回去",
+      "chinese": [
+        "镇压",
+        "压抑",
+        "抑制"
+      ],
+      "examples": [
+        "The repression of protest drew criticism.",
+        "Years of repression left their mark."
+      ],
+      "synonyms": [
+        "control",
+        "restraint"
+      ],
+      "antonyms": [
+        "freedom"
+      ],
+      "related": [
+        "print",
+        "pressure"
+      ],
+      "semantic_expansions": [
+        "镇压：用力把动作按回去",
+        "压抑/抑制：把情绪或冲动按住不许冒头"
+      ],
+      "recall_hint": "re-（往回）+ press（压）→ 往回按住不许起"
+    },
+    {
+      "id": "positive",
+      "word": "positive",
+      "pos": "adjective",
+      "phonetic": "/ˈpɒzətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "posit（放定）+ -ive → 已经放定、不再摇摆的 → 确定的、肯定的",
+      "origin": "拉丁语 positivus（明定的），来自 positus（ponere 的过去分词）",
+      "native_definition": "certain and confident; showing agreement; greater than zero",
+      "core_concept": "set down firmly so it no longer wavers – 已经放定，不再来回移动",
+      "core_image": "他把那枚棋子按在格里松手，再没挪动过",
+      "chinese": [
+        "积极的",
+        "肯定的",
+        "确定的"
+      ],
+      "examples": [
+        "She has a positive attitude.",
+        "The test came back positive."
+      ],
+      "synonyms": [
+        "certain",
+        "sure"
+      ],
+      "antonyms": [
+        "negative",
+        "doubt"
+      ],
+      "related": [
+        "deposit",
+        "position"
+      ],
+      "semantic_expansions": [
+        "肯定的/确定的：已经放定、不再摇摆",
+        "积极的：心气上同样是定住往前的那一头"
+      ],
+      "recall_hint": "posit（放定）+ -ive → 放定了不再摇摆"
+    },
+    {
+      "id": "deposit",
+      "word": "deposit",
+      "pos": "verb",
+      "phonetic": "/dɪˈpɒzɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "de-（向下）+ posit（放）→ 往下放好搁着 → 存放、押金",
+      "origin": "拉丁语 depositum（寄存物），来自 deponere（放下）← de＋ponere",
+      "native_definition": "to put something somewhere for safe keeping; money paid as security",
+      "core_concept": "setting a thing down and leaving it in keeping – 往下放好，就搁在那儿托人看着",
+      "core_image": "他把袋子往柜台里一放，换回一张凭条",
+      "chinese": [
+        "存放",
+        "存款",
+        "押金"
+      ],
+      "examples": [
+        "She deposited the cash at the bank.",
+        "We paid a deposit on the flat."
+      ],
+      "synonyms": [
+        "store",
+        "saving"
+      ],
+      "antonyms": [
+        "withdraw"
+      ],
+      "related": [
+        "positive",
+        "position"
+      ],
+      "semantic_expansions": [
+        "存放/存款：往下放好交人看着",
+        "押金：先放下作担保的那笔钱"
+      ],
+      "recall_hint": "de-（向下）+ posit（放）→ 放下搁着托管"
+    },
+    {
+      "id": "question",
+      "word": "question",
+      "pos": "noun",
+      "phonetic": "/ˈkwestʃən/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "quest（寻求）+ -ion → 为求答案而发出的那一句",
+      "origin": "古法语 question，来自拉丁语 quaestio（询问）← quaerere（寻找、探求）",
+      "native_definition": "a sentence asked in order to get information; a matter in doubt",
+      "core_concept": "the sentence sent out to fetch an answer back – 抛出去、指望换回一个答案的那句话",
+      "core_image": "他抛出一句，屋里几个人都抬头等着谁接",
+      "chinese": [
+        "问题",
+        "疑问",
+        "询问"
+      ],
+      "examples": [
+        "She asked a difficult question.",
+        "There is no question of his honesty."
+      ],
+      "synonyms": [
+        "query",
+        "inquiry"
+      ],
+      "antonyms": [
+        "answer"
+      ],
+      "related": [
+        "questionnaire",
+        "acquisition"
+      ],
+      "semantic_expansions": [
+        "问题/询问：为求答案而发出的那一句",
+        "疑问：尚未有着落、悬着的那一处"
+      ],
+      "recall_hint": "quest（寻求）+ -ion → 为求答案发出的那句"
+    },
+    {
+      "id": "questionnaire",
+      "word": "questionnaire",
+      "pos": "noun",
+      "phonetic": "/ˌkwestʃəˈneə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "question（问）+ -naire（成套）→ 排成一套发出去的问句",
+      "origin": "法语 questionnaire，来自 question ← 拉丁语 quaerere",
+      "native_definition": "a printed list of questions used to gather information",
+      "core_concept": "a run of asked sentences set out in order to be answered – 一整串问句排开等人逐条作答",
+      "core_image": "纸上一行一行都留着空格，等着人挨着填",
+      "chinese": [
+        "问卷",
+        "调查表"
+      ],
+      "examples": [
+        "Please fill in the questionnaire.",
+        "We sent questionnaires to 200 people."
+      ],
+      "synonyms": [
+        "survey",
+        "form"
+      ],
+      "antonyms": [],
+      "related": [
+        "question",
+        "acquisition"
+      ],
+      "semantic_expansions": [
+        "问卷/调查表：排成一套、发出去等人逐条作答的问句"
+      ],
+      "recall_hint": "question（问）+ -naire（成套）→ 排成一套的问句"
+    },
+    {
+      "id": "acquisition",
+      "word": "acquisition",
+      "pos": "noun",
+      "phonetic": "/ˌækwɪˈzɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "ac-（ad- 朝）+ quisit（求得）+ -ion → 求而得之 → 获得、所得之物",
+      "origin": "拉丁语 acquisitio（获得），来自 acquirere（取得）← ad＋quaerere（求）",
+      "native_definition": "the act of getting something; a thing obtained",
+      "core_concept": "what the seeking finally brings into hand – 一路求下来，终于拿到手的那个",
+      "core_image": "找了半年，终于把那件东西拿到手里",
+      "chinese": [
+        "获得",
+        "收购",
+        "所得物"
+      ],
+      "examples": [
+        "The acquisition took two years.",
+        "The painting is her latest acquisition."
+      ],
+      "synonyms": [
+        "purchase",
+        "gain"
+      ],
+      "antonyms": [
+        "loss"
+      ],
+      "related": [
+        "question",
+        "require"
+      ],
+      "semantic_expansions": [
+        "获得：求而终于拿到手",
+        "收购：以此手段把公司或资产求到手",
+        "所得物：求来的那件东西"
+      ],
+      "recall_hint": "ac-（朝）+ quisit（求得）→ 求而得之"
+    },
+    {
+      "id": "progress",
+      "word": "progress",
+      "pos": "noun",
+      "phonetic": "/ˈprəʊɡres/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "pro-（往前）+ gress（走）→ 一步步往前 → 进展",
+      "origin": "拉丁语 progressus（前行），来自 progredi（前进）← pro＋gradi（走）",
+      "native_definition": "movement forward or improvement over time",
+      "core_concept": "one step set down ahead of the last – 一步落在上一步前头",
+      "core_image": "脚印一个接一个往前排，回头看已走出一段",
+      "chinese": [
+        "进展",
+        "进步",
+        "前进"
+      ],
+      "examples": [
+        "We are making good progress.",
+        "The work progressed slowly."
+      ],
+      "synonyms": [
+        "advance",
+        "improvement"
+      ],
+      "antonyms": [
+        "decline"
+      ],
+      "related": [
+        "progressive",
+        "congress"
+      ],
+      "semantic_expansions": [
+        "进展/进步：一步步落在前头、往前推",
+        "前进：脚步实际向前那一动"
+      ],
+      "recall_hint": "pro-（往前）+ gress（走）→ 一步落在前头"
+    },
+    {
+      "id": "progressive",
+      "word": "progressive",
+      "pos": "adjective",
+      "phonetic": "/prəˈɡresɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "progress（前行）+ -ive → 一路往前走的 → 渐进的、主张改革的",
+      "origin": "英语 progressive，来自 progress ← 拉丁语 progredi",
+      "native_definition": "happening gradually; favouring reform and new ideas",
+      "core_concept": "keeping the steps coming one after another – 步子一个接一个不停下来",
+      "core_image": "水位一格一格往上抬，每天都比前一天高一点",
+      "chinese": [
+        "渐进的",
+        "进步的",
+        "前进的"
+      ],
+      "examples": [
+        "The disease is progressive.",
+        "She holds progressive views."
+      ],
+      "synonyms": [
+        "gradual",
+        "steady"
+      ],
+      "antonyms": [
+        "conservative"
+      ],
+      "related": [
+        "progress",
+        "congress"
+      ],
+      "semantic_expansions": [
+        "渐进的：步子一个接一个不停下来",
+        "进步的：主张往前走、求改革的那一头"
+      ],
+      "recall_hint": "progress（前行）+ -ive → 步子接连不停"
+    },
+    {
+      "id": "congress",
+      "word": "congress",
+      "pos": "noun",
+      "phonetic": "/ˈkɒŋɡres/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "con-（一同）+ gress（走）→ 各方走到一处 → 集会、国会",
+      "origin": "拉丁语 congressus（会合），来自 congredi（走到一起）← con＋gradi（走）",
+      "native_definition": "a formal meeting; the national law-making body of some countries",
+      "core_concept": "steps from many directions ending in one room – 各路脚步走到同一间屋里",
+      "core_image": "各地的人一路赶来，最后都进了同一间厅",
+      "chinese": [
+        "代表大会",
+        "国会",
+        "会议"
+      ],
+      "examples": [
+        "The congress meets every autumn.",
+        "Congress passed the bill."
+      ],
+      "synonyms": [
+        "assembly",
+        "parliament"
+      ],
+      "antonyms": [],
+      "related": [
+        "progress",
+        "progressive"
+      ],
+      "semantic_expansions": [
+        "代表大会/会议：各方走到一处开的会",
+        "国会：由此制度化而成的立法机构"
+      ],
+      "recall_hint": "con-（一同）+ gress（走）→ 各方走到一处"
+    },
+    {
+      "id": "literature",
+      "word": "literature",
+      "pos": "noun",
+      "phonetic": "/ˈlɪtrətʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "littera"
+      ],
+      "root_logic": "litter（字母、文字）+ -ature → 用文字写成的那一整片 → 文学、文献",
+      "origin": "拉丁语 litteratura（书写、学问），来自 littera（字母）",
+      "native_definition": "written works valued as art; the writings on a subject",
+      "core_concept": "the body of what has been set down in letters – 用文字写下来、积成的那一整片",
+      "core_image": "架上一层层排开，全是用字写成的东西",
+      "chinese": [
+        "文学",
+        "文献",
+        "著作"
+      ],
+      "examples": [
+        "She studies French literature.",
+        "Read the literature on the topic first."
+      ],
+      "synonyms": [
+        "writing",
+        "text"
+      ],
+      "antonyms": [],
+      "related": [
+        "literary",
+        "literacy"
+      ],
+      "semantic_expansions": [
+        "文学/著作：用文字写成、可当艺术看的那些作品",
+        "文献：某一题目下写下来的全部材料"
+      ],
+      "recall_hint": "litter（文字）+ -ature → 用文字写成的那一整片"
+    },
+    {
+      "id": "conference",
+      "word": "conference",
+      "pos": "noun",
+      "phonetic": "/ˈkɒnfərəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "con-（一同）+ fer（带）+ -ence → 各方把话带到一处 → 会议",
+      "origin": "中世纪拉丁语 conferentia，来自 conferre（聚拢、商议）← con＋ferre（带）",
+      "native_definition": "a formal meeting for discussion, often lasting days",
+      "core_concept": "everyone carrying their piece to the same table – 各人把自己那份话带到同一张桌上",
+      "core_image": "几十个人从各处赶来，把手里的材料摊到一张桌上",
+      "chinese": [
+        "会议",
+        "会谈",
+        "研讨会"
+      ],
+      "examples": [
+        "The conference lasts three days.",
+        "She spoke at an international conference."
+      ],
+      "synonyms": [
+        "meeting",
+        "convention"
+      ],
+      "antonyms": [],
+      "related": [
+        "circumference",
+        "interference"
+      ],
+      "semantic_expansions": [
+        "会议/会谈：各方把话带到一处商议",
+        "研讨会：以此形式专议某题目的那种会"
+      ],
+      "recall_hint": "con-（一同）+ fer（带）→ 各方把话带到一处"
+    },
+    {
+      "id": "circumference",
+      "word": "circumference",
+      "pos": "noun",
+      "phonetic": "/səˈkʌmfərəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "circum-（绕）+ fer（带）+ -ence → 绕一圈带过去的那条线 → 周长",
+      "origin": "拉丁语 circumferentia（绕行的线），来自 circumferre（环绕）← circum＋ferre",
+      "native_definition": "the distance around the edge of a circle",
+      "core_concept": "the line carried all the way round back to its start – 绕着边一路带回起点的那条线",
+      "core_image": "笔沿着圆边走一整圈，回到落笔那一点",
+      "chinese": [
+        "圆周",
+        "周长"
+      ],
+      "examples": [
+        "Measure the circumference of the trunk.",
+        "The lake is 5 km in circumference."
+      ],
+      "synonyms": [
+        "boundary",
+        "edge"
+      ],
+      "antonyms": [
+        "diameter"
+      ],
+      "related": [
+        "conference",
+        "interference"
+      ],
+      "semantic_expansions": [
+        "圆周/周长：绕边一路带回起点的那条线"
+      ],
+      "recall_hint": "circum-（绕）+ fer（带）→ 绕一圈带回起点"
+    },
+    {
+      "id": "interference",
+      "word": "interference",
+      "pos": "noun",
+      "phonetic": "/ˌɪntəˈfɪərəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "inter-（在中间）+ fer（带）+ -ence → 把自己插到中间去 → 干扰",
+      "origin": "英语 interference，来自 interfere ← 古法语 s'entreferir（互击）← 拉丁 inter＋ferire",
+      "native_definition": "the act of getting involved where one is not wanted; disruption of a signal",
+      "core_concept": "something carried in between so the two can no longer meet cleanly – 有东西插进中间，两头就接不干净了",
+      "core_image": "两人正说着，第三个人的声音插进中间，谁也听不清了",
+      "chinese": [
+        "干扰",
+        "干涉",
+        "妨碍"
+      ],
+      "examples": [
+        "He resented her interference.",
+        "Radio interference spoiled the broadcast."
+      ],
+      "synonyms": [
+        "block",
+        "disruption"
+      ],
+      "antonyms": [
+        "assistance"
+      ],
+      "related": [
+        "conference",
+        "circumference"
+      ],
+      "semantic_expansions": [
+        "干涉/妨碍：把自己插到中间去搅一脚",
+        "干扰：信号里插进杂物、传不干净"
+      ],
+      "recall_hint": "inter-（在中间）+ fer（带）→ 插到中间搅一脚"
+    }
+  ]
+}

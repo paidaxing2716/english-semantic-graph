@@ -39,7 +39,10 @@
         "compression",
         "impression",
         "impressive",
-        "press"
+        "press",
+        "print",
+        "blueprint",
+        "repression"
       ]
     },
     {
@@ -124,7 +127,9 @@
         "proposition",
         "post",
         "postage",
-        "posture"
+        "posture",
+        "positive",
+        "deposit"
       ]
     },
     {
@@ -182,7 +187,11 @@
         "conspicuous",
         "retrospect",
         "prospective",
-        "expectation"
+        "expectation",
+        "spectacular",
+        "spectrum",
+        "despise",
+        "irrespective"
       ]
     },
     {
@@ -648,7 +657,10 @@
         "requirement",
         "conquest",
         "enquire",
-        "exquisite"
+        "exquisite",
+        "question",
+        "questionnaire",
+        "acquisition"
       ]
     },
     {
@@ -1182,7 +1194,10 @@
         "aggressive",
         "grade",
         "gradual",
-        "upgrade"
+        "upgrade",
+        "progress",
+        "progressive",
+        "congress"
       ]
     },
     {
@@ -1549,7 +1564,8 @@
         "illiterate",
         "literacy",
         "literally",
-        "literary"
+        "literary",
+        "literature"
       ]
     },
     {
@@ -1604,7 +1620,10 @@
         "confer",
         "infer",
         "preferable",
-        "reference"
+        "reference",
+        "conference",
+        "circumference",
+        "interference"
       ]
     },
     {
@@ -1928,7 +1947,11 @@
       "word_ids": [
         "graph",
         "graphic",
-        "paragraph"
+        "paragraph",
+        "biography",
+        "bibliography",
+        "geography",
+        "telegraph"
       ]
     },
     {
@@ -3005,7 +3028,10 @@
       "word_ids": [
         "explanation",
         "plan",
-        "plane"
+        "plane",
+        "plain",
+        "explain",
+        "aeroplane"
       ]
     },
     {
@@ -3033,7 +3059,11 @@
       "word_ids": [
         "political",
         "politician",
-        "politics"
+        "politics",
+        "police",
+        "policeman",
+        "policy",
+        "metropolitan"
       ]
     },
     {

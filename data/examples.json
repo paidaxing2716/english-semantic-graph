@@ -13531,6 +13531,426 @@
       "text": "The school district covers three towns.",
       "source": "AI 生成 · 人工审核",
       "scene": "界线一圈拉起来，圈内归一处管"
+    },
+    {
+      "id": "ex-plain-1",
+      "word_id": "plain",
+      "text": "She wore a plain grey dress.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张白桌面从这头看到那头，什么摆件都没有"
+    },
+    {
+      "id": "ex-plain-2",
+      "word_id": "plain",
+      "text": "It is plain that he was lying.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张白桌面从这头看到那头，什么摆件都没有"
+    },
+    {
+      "id": "ex-explain-1",
+      "word_id": "explain",
+      "text": "Please explain how it works.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把揉成一团的那张纸一点点抹开，字迹才连得起来"
+    },
+    {
+      "id": "ex-explain-2",
+      "word_id": "explain",
+      "text": "She explained her reasons at length.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把揉成一团的那张纸一点点抹开，字迹才连得起来"
+    },
+    {
+      "id": "ex-aeroplane-1",
+      "word_id": "aeroplane",
+      "text": "The aeroplane took off on time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两侧那两片薄薄的面一斜，整个机身就抬了起来"
+    },
+    {
+      "id": "ex-aeroplane-2",
+      "word_id": "aeroplane",
+      "text": "He has never been on an aeroplane.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两侧那两片薄薄的面一斜，整个机身就抬了起来"
+    },
+    {
+      "id": "ex-police-1",
+      "word_id": "police",
+      "text": "The police arrived within minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街口那几个人一站，闹哄哄的人群自己让出条路"
+    },
+    {
+      "id": "ex-police-2",
+      "word_id": "police",
+      "text": "She called the police at once.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街口那几个人一站，闹哄哄的人群自己让出条路"
+    },
+    {
+      "id": "ex-policeman-1",
+      "word_id": "policeman",
+      "text": "A policeman directed the traffic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口那一位抬手一比，车流就停住了"
+    },
+    {
+      "id": "ex-policeman-2",
+      "word_id": "policeman",
+      "text": "The policeman took down her name.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口那一位抬手一比，车流就停住了"
+    },
+    {
+      "id": "ex-policy-1",
+      "word_id": "policy",
+      "text": "The government changed its policy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "议事厅定下一条，往后各处照着这条办"
+    },
+    {
+      "id": "ex-policy-2",
+      "word_id": "policy",
+      "text": "Read your insurance policy carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "议事厅定下一条，往后各处照着这条办"
+    },
+    {
+      "id": "ex-metropolitan-1",
+      "word_id": "metropolitan",
+      "text": "He works for the metropolitan council.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地铁线从那座大城摊开，一路连出去几十个镇子"
+    },
+    {
+      "id": "ex-metropolitan-2",
+      "word_id": "metropolitan",
+      "text": "It is a metropolitan area of ten million.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地铁线从那座大城摊开，一路连出去几十个镇子"
+    },
+    {
+      "id": "ex-spectacular-1",
+      "word_id": "spectacular",
+      "text": "The view was spectacular.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转过山口，眼前那一片让所有人都收住了脚"
+    },
+    {
+      "id": "ex-spectacular-2",
+      "word_id": "spectacular",
+      "text": "She made a spectacular recovery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "转过山口，眼前那一片让所有人都收住了脚"
+    },
+    {
+      "id": "ex-spectrum-1",
+      "word_id": "spectrum",
+      "text": "Sunlight splits into a spectrum.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "光穿过棱镜，摊出一条从红到紫的带子"
+    },
+    {
+      "id": "ex-spectrum-2",
+      "word_id": "spectrum",
+      "text": "Opinions cover the whole spectrum.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "光穿过棱镜，摊出一条从红到紫的带子"
+    },
+    {
+      "id": "ex-despise-1",
+      "word_id": "despise",
+      "text": "He despised their dishonesty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他下巴一抬，眼光从鼻梁上头扫过去"
+    },
+    {
+      "id": "ex-despise-2",
+      "word_id": "despise",
+      "text": "She despises gossip of any kind.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他下巴一抬，眼光从鼻梁上头扫过去"
+    },
+    {
+      "id": "ex-irrespective-1",
+      "word_id": "irrespective",
+      "text": "Open to all, irrespective of age.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旁边情形如何他一眼没回，脚步照原样走"
+    },
+    {
+      "id": "ex-irrespective-2",
+      "word_id": "irrespective",
+      "text": "It applies irrespective of cost.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旁边情形如何他一眼没回，脚步照原样走"
+    },
+    {
+      "id": "ex-biography-1",
+      "word_id": "biography",
+      "text": "She wrote a biography of her father.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从出生那页翻到最后一页，全是同一个人的事"
+    },
+    {
+      "id": "ex-biography-2",
+      "word_id": "biography",
+      "text": "The biography runs to 600 pages.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从出生那页翻到最后一页，全是同一个人的事"
+    },
+    {
+      "id": "ex-bibliography-1",
+      "word_id": "bibliography",
+      "text": "Add the sources to your bibliography.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "论文末尾几页，一行一本地列着看过的书"
+    },
+    {
+      "id": "ex-bibliography-2",
+      "word_id": "bibliography",
+      "text": "The bibliography lists forty titles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "论文末尾几页，一行一本地列着看过的书"
+    },
+    {
+      "id": "ex-geography-1",
+      "word_id": "geography",
+      "text": "She teaches geography at the school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山川河道一笔笔画进图里，纸上就成了那片地"
+    },
+    {
+      "id": "ex-geography-2",
+      "word_id": "geography",
+      "text": "The geography of the region is rugged.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山川河道一笔笔画进图里，纸上就成了那片地"
+    },
+    {
+      "id": "ex-telegraph-1",
+      "word_id": "telegraph",
+      "text": "The news came by telegraph.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这头按下几下长短，那头纸带上就吐出一串记号"
+    },
+    {
+      "id": "ex-telegraph-2",
+      "word_id": "telegraph",
+      "text": "He sent a telegraph from the port.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这头按下几下长短，那头纸带上就吐出一串记号"
+    },
+    {
+      "id": "ex-print-1",
+      "word_id": "print",
+      "text": "They printed a thousand copies.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "版子往纸上一压，抬起来时字就留住了"
+    },
+    {
+      "id": "ex-print-2",
+      "word_id": "print",
+      "text": "Print your name in capitals.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "版子往纸上一压，抬起来时字就留住了"
+    },
+    {
+      "id": "ex-blueprint-1",
+      "word_id": "blueprint",
+      "text": "The architect showed us the blueprint.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摊开那张蓝底的图纸，每根梁的位置都标着"
+    },
+    {
+      "id": "ex-blueprint-2",
+      "word_id": "blueprint",
+      "text": "This is a blueprint for reform.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "摊开那张蓝底的图纸，每根梁的位置都标着"
+    },
+    {
+      "id": "ex-repression-1",
+      "word_id": "repression",
+      "text": "The repression of protest drew criticism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刚要抬头的那一下被一只手按了回去"
+    },
+    {
+      "id": "ex-repression-2",
+      "word_id": "repression",
+      "text": "Years of repression left their mark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刚要抬头的那一下被一只手按了回去"
+    },
+    {
+      "id": "ex-positive-1",
+      "word_id": "positive",
+      "text": "She has a positive attitude.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那枚棋子按在格里松手，再没挪动过"
+    },
+    {
+      "id": "ex-positive-2",
+      "word_id": "positive",
+      "text": "The test came back positive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那枚棋子按在格里松手，再没挪动过"
+    },
+    {
+      "id": "ex-deposit-1",
+      "word_id": "deposit",
+      "text": "She deposited the cash at the bank.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把袋子往柜台里一放，换回一张凭条"
+    },
+    {
+      "id": "ex-deposit-2",
+      "word_id": "deposit",
+      "text": "We paid a deposit on the flat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把袋子往柜台里一放，换回一张凭条"
+    },
+    {
+      "id": "ex-question-1",
+      "word_id": "question",
+      "text": "She asked a difficult question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抛出一句，屋里几个人都抬头等着谁接"
+    },
+    {
+      "id": "ex-question-2",
+      "word_id": "question",
+      "text": "There is no question of his honesty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抛出一句，屋里几个人都抬头等着谁接"
+    },
+    {
+      "id": "ex-questionnaire-1",
+      "word_id": "questionnaire",
+      "text": "Please fill in the questionnaire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "纸上一行一行都留着空格，等着人挨着填"
+    },
+    {
+      "id": "ex-questionnaire-2",
+      "word_id": "questionnaire",
+      "text": "We sent questionnaires to 200 people.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "纸上一行一行都留着空格，等着人挨着填"
+    },
+    {
+      "id": "ex-acquisition-1",
+      "word_id": "acquisition",
+      "text": "The acquisition took two years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "找了半年，终于把那件东西拿到手里"
+    },
+    {
+      "id": "ex-acquisition-2",
+      "word_id": "acquisition",
+      "text": "The painting is her latest acquisition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "找了半年，终于把那件东西拿到手里"
+    },
+    {
+      "id": "ex-progress-1",
+      "word_id": "progress",
+      "text": "We are making good progress.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚印一个接一个往前排，回头看已走出一段"
+    },
+    {
+      "id": "ex-progress-2",
+      "word_id": "progress",
+      "text": "The work progressed slowly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚印一个接一个往前排，回头看已走出一段"
+    },
+    {
+      "id": "ex-progressive-1",
+      "word_id": "progressive",
+      "text": "The disease is progressive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位一格一格往上抬，每天都比前一天高一点"
+    },
+    {
+      "id": "ex-progressive-2",
+      "word_id": "progressive",
+      "text": "She holds progressive views.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位一格一格往上抬，每天都比前一天高一点"
+    },
+    {
+      "id": "ex-congress-1",
+      "word_id": "congress",
+      "text": "The congress meets every autumn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各地的人一路赶来，最后都进了同一间厅"
+    },
+    {
+      "id": "ex-congress-2",
+      "word_id": "congress",
+      "text": "Congress passed the bill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各地的人一路赶来，最后都进了同一间厅"
+    },
+    {
+      "id": "ex-literature-1",
+      "word_id": "literature",
+      "text": "She studies French literature.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架上一层层排开，全是用字写成的东西"
+    },
+    {
+      "id": "ex-literature-2",
+      "word_id": "literature",
+      "text": "Read the literature on the topic first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "架上一层层排开，全是用字写成的东西"
+    },
+    {
+      "id": "ex-conference-1",
+      "word_id": "conference",
+      "text": "The conference lasts three days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几十个人从各处赶来，把手里的材料摊到一张桌上"
+    },
+    {
+      "id": "ex-conference-2",
+      "word_id": "conference",
+      "text": "She spoke at an international conference.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几十个人从各处赶来，把手里的材料摊到一张桌上"
+    },
+    {
+      "id": "ex-circumference-1",
+      "word_id": "circumference",
+      "text": "Measure the circumference of the trunk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔沿着圆边走一整圈，回到落笔那一点"
+    },
+    {
+      "id": "ex-circumference-2",
+      "word_id": "circumference",
+      "text": "The lake is 5 km in circumference.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔沿着圆边走一整圈，回到落笔那一点"
+    },
+    {
+      "id": "ex-interference-1",
+      "word_id": "interference",
+      "text": "He resented her interference.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人正说着，第三个人的声音插进中间，谁也听不清了"
+    },
+    {
+      "id": "ex-interference-2",
+      "word_id": "interference",
+      "text": "Radio interference spoiled the broadcast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人正说着，第三个人的声音插进中间，谁也听不清了"
     }
   ]
 }

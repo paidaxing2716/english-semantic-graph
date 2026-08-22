@@ -19,7 +19,7 @@ v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
 v1.1    剩余词入库（可结构化的尾声）  ✅ 已完成
         vetted_families 869 词次 100% 入库
 v1.2    反查扩容：把被误判为「孤立词」的同族词捞回来 ← 当前
-        974 词 · 194 词根 · 989 关系 · 1933 例句；反查候选池尚余约 560 词
+        1004 词 · 194 词根 · 1019 关系 · 1993 例句；反查候选池尚余约 528 词
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径为交接时状态，已被后续批次推进）
 ```
 
@@ -320,6 +320,24 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第五十一批（30 词，全部补进已建模词根，不新建根）**—— 词库破千**：
+        含上一批故意跳过的 planus / polis 两族，它们混了不少同形异源词，本批单独细过。
+        planus ← plain/explain/aeroplane；polis ← police/policeman/policy/metropolitan；
+        spect ← spectacular/spectrum/despise/irrespective；
+        graphein ← biography/bibliography/geography/telegraph；
+        premere ← print/blueprint/repression；ponere ← positive/deposit；
+        quir ← question/questionnaire/acquisition；gradus ← progress/progressive/congress；
+        littera ← literature；ferre ← conference/circumference/interference。
+        1004 词 · 194 词根。剔除的同形异源候选：planet ← 希腊 planētēs（游走的星）；
+        complain/complaint ← plangere（拍打哀号），与 planus 中古法语阶段才撞形；
+        polish/polite ← polire（磨光）；pound ← 古英语 pund；
+        litter ← 古法语 litiere ← lectus（床），非 littera；glitter ← 古诺斯 glitra。
+        另：metropolitan 上一批从 metron（量度）剔除是对的，它是 mētēr（母）+ polis，
+        故本批收进 polis 族——同一个词被一个根拒、被另一个根收，正是逐条核词源的价值。
+        修一处死链（literature 的 related 原写不在库的 letter）；
+        check_lexicon_gap 把待登记词从 22 压到 2：3 条多词短语、1 个复数形
+        officers、以及 attainment/girth/topography 等生僻词全换成已核验词元，
+        白名单只补 query/saving 两词
 - [x] 第五十批（26 词，全部补进已建模词根，不新建根）**—— 反查工具首批收获**：
         这批词全在 classify_wordlist.py 判定的「3682 个孤立词」里，但逐条核词源后
         确认属已建模词根，只是词干提取按拼写聚类抓不到（receive 与 capable 拼写
