@@ -6690,6 +6690,180 @@
       "to": "bowling",
       "type": "root",
       "note": "boule（球）→ bowl（滚球）+ -ing → 滚球撞瓶的那种玩法"
+    },
+    {
+      "from": "colere",
+      "to": "colony",
+      "type": "root",
+      "note": "colonus（垦地定居者）+ -y → 一群人迁去垦住的那片地方"
+    },
+    {
+      "from": "colere",
+      "to": "colonial",
+      "type": "root",
+      "note": "colony（垦殖地）+ -al（…的）→ 属于殖民地那一套的"
+    },
+    {
+      "from": "colere",
+      "to": "culture",
+      "type": "root",
+      "note": "cult（照管）+ -ure → 照管出来的那一片 → 耕作，引申为世代养出的风习"
+    },
+    {
+      "from": "creare",
+      "to": "create",
+      "type": "root",
+      "note": "creare（使生出）→ 把原先没有的做出来"
+    },
+    {
+      "from": "creare",
+      "to": "creative",
+      "type": "root",
+      "note": "create（使生出）+ -ive → 能把没有的弄出来的"
+    },
+    {
+      "from": "creare",
+      "to": "creature",
+      "type": "root",
+      "note": "create（使生出）+ -ure → 被造出来的那个 → 生物"
+    },
+    {
+      "from": "crux",
+      "to": "cross",
+      "type": "root",
+      "note": "crux（十字）→ 从一边横过到另一边，路线与原线相交"
+    },
+    {
+      "from": "crux",
+      "to": "crucial",
+      "type": "root",
+      "note": "cruc（十字路口）+ -ial → 处在岔路交点上的 → 决定性的"
+    },
+    {
+      "from": "crux",
+      "to": "cruise",
+      "type": "root",
+      "note": "crux（十字）→ 荷兰语 kruisen（打十字、来回横渡）→ 巡航"
+    },
+    {
+      "from": "dare",
+      "to": "data",
+      "type": "root",
+      "note": "datum（所给之物）的复数 → 摆出来供人处理的那些事实"
+    },
+    {
+      "from": "dare",
+      "to": "database",
+      "type": "root",
+      "note": "data（所给之物）+ base（底座）→ 把数据搁在一处的那个底盘"
+    },
+    {
+      "from": "dare",
+      "to": "date",
+      "type": "root",
+      "note": "datum（所给之物）→ 旧文书末尾写「datum Romae…（给于罗马某日）」→ 日期"
+    },
+    {
+      "from": "kamara",
+      "to": "camera",
+      "type": "root",
+      "note": "camera obscura（暗室）截短 → 靠一间暗室成像的那件器械"
+    },
+    {
+      "from": "kamara",
+      "to": "chamber",
+      "type": "root",
+      "note": "camera（小室）经古法语 chambre → 一间围起来的屋，也指枪膛、议院"
+    },
+    {
+      "from": "kamara",
+      "to": "comrade",
+      "type": "root",
+      "note": "camara（小室）→ 同住一室的人 → 同伴、战友"
+    },
+    {
+      "from": "damnum",
+      "to": "damage",
+      "type": "root",
+      "note": "damnum（损失）+ -age → 受损这件事，及损到什么程度"
+    },
+    {
+      "from": "damnum",
+      "to": "damn",
+      "type": "root",
+      "note": "damnare（判罚）→ 判某人该受损失 → 谴责、诅咒"
+    },
+    {
+      "from": "damnum",
+      "to": "condemn",
+      "type": "root",
+      "note": "con-（加强）+ demn（判罚）→ 正式判定其有罪或不堪用"
+    },
+    {
+      "from": "sta",
+      "to": "cost",
+      "type": "root",
+      "note": "con-（一起）+ sta（立）→ constare（合起来立住、值多少）→ 代价"
+    },
+    {
+      "from": "sta",
+      "to": "costly",
+      "type": "root",
+      "note": "cost（代价）+ -ly（…样的）→ 代价大的"
+    },
+    {
+      "from": "sta",
+      "to": "contrast",
+      "type": "root",
+      "note": "contra-（相对）+ sta（立）→ 两者对立而站 → 对比出的差别"
+    },
+    {
+      "from": "cep",
+      "to": "cable",
+      "type": "root",
+      "note": "capulum（套索）← capere（抓取）→ 抓得住东西的粗绳 → 缆"
+    },
+    {
+      "from": "cep",
+      "to": "deceit",
+      "type": "root",
+      "note": "de-（脱开正道）+ ceit（接住）→ 让人接住假的 → 欺骗"
+    },
+    {
+      "from": "cadere",
+      "to": "decay",
+      "type": "root",
+      "note": "de-（往下）+ cay（落）→ 一路往下落 → 衰败、腐烂"
+    },
+    {
+      "from": "caput",
+      "to": "cabbage",
+      "type": "root",
+      "note": "caboche（大脑袋）← caput（头）→ 长成一个圆头的那种菜"
+    },
+    {
+      "from": "consulere",
+      "to": "counsel",
+      "type": "root",
+      "note": "consulere（商议、求教）→ 商议后给出的那番话 → 建议"
+    },
+    {
+      "from": "crescere",
+      "to": "crew",
+      "type": "root",
+      "note": "crescere（增多）→ crue（增补的人手）→ 一船一机上的那班人"
+    },
+    {
+      "from": "habere",
+      "to": "debt",
+      "type": "root",
+      "note": "de-（脱开）+ bt（habere 持有）→ debere（本该有却不在手上）→ 欠款"
+    },
+    {
+      "from": "legere",
+      "to": "coil",
+      "type": "root",
+      "note": "col-（一起）+ leg（拣拢）→ colligere（收拢）→ 绕成一圈圈收起来"
     }
   ]
 }

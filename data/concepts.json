@@ -320,7 +320,10 @@
         "substitute",
         "stationery",
         "statistical",
-        "stay"
+        "stay",
+        "cost",
+        "costly",
+        "contrast"
       ]
     },
     {
@@ -1488,7 +1491,8 @@
       ],
       "word_ids": [
         "consult",
-        "consultant"
+        "consultant",
+        "counsel"
       ]
     },
     {
@@ -1599,7 +1603,8 @@
         "collect",
         "collective",
         "diligent",
-        "lecture"
+        "lecture",
+        "coil"
       ]
     },
     {
@@ -2251,7 +2256,8 @@
       "word_ids": [
         "decrease",
         "increase",
-        "increasingly"
+        "increasingly",
+        "crew"
       ]
     },
     {
@@ -2294,7 +2300,9 @@
         "capture",
         "captive",
         "catch",
-        "chase"
+        "chase",
+        "cable",
+        "deceit"
       ]
     },
     {
@@ -2640,7 +2648,8 @@
         "inhibit",
         "prohibit",
         "able",
-        "ability"
+        "ability",
+        "debt"
       ]
     },
     {
@@ -2831,7 +2840,8 @@
         "accident",
         "accidental",
         "chance",
-        "cheat"
+        "cheat",
+        "decay"
       ]
     },
     {
@@ -3344,7 +3354,8 @@
       "word_ids": [
         "cattle",
         "chef",
-        "chief"
+        "chief",
+        "cabbage"
       ]
     },
     {
@@ -3387,6 +3398,90 @@
         "bowling",
         "bullet",
         "bulletin"
+      ]
+    },
+    {
+      "id": "concept-colere-tend",
+      "concept": "settling on ground and tending it until it yields",
+      "chinese": "垦地照管",
+      "core_image": "生地被人年年翻整，几季后垄上长出成片的苗",
+      "root_ids": [
+        "colere"
+      ],
+      "word_ids": [
+        "colonial",
+        "colony",
+        "culture"
+      ]
+    },
+    {
+      "id": "concept-creare-bring-forth",
+      "concept": "bringing into being what was not there",
+      "chinese": "使之生出",
+      "core_image": "空台面上手一撤，那件东西就摆在那儿了",
+      "root_ids": [
+        "creare"
+      ],
+      "word_ids": [
+        "create",
+        "creative",
+        "creature"
+      ]
+    },
+    {
+      "id": "concept-crux-crossing",
+      "concept": "two lines meeting at one crossing point",
+      "chinese": "交叉之点",
+      "core_image": "两根木条叠成十字，钉在交叉那一点上",
+      "root_ids": [
+        "crux"
+      ],
+      "word_ids": [
+        "cross",
+        "crucial",
+        "cruise"
+      ]
+    },
+    {
+      "id": "concept-dare-give",
+      "concept": "putting a thing into another's hands",
+      "chinese": "交到手上",
+      "core_image": "手一伸，东西从这边转到那边的手里",
+      "root_ids": [
+        "dare"
+      ],
+      "word_ids": [
+        "data",
+        "database",
+        "date"
+      ]
+    },
+    {
+      "id": "concept-kamara-chamber",
+      "concept": "a small closed room, and what happens inside it",
+      "chinese": "关起来的小屋",
+      "core_image": "没有窗的小屋，门一关，里外就隔断了",
+      "root_ids": [
+        "kamara"
+      ],
+      "word_ids": [
+        "camera",
+        "chamber",
+        "comrade"
+      ]
+    },
+    {
+      "id": "concept-damnum-loss",
+      "concept": "loss inflicted, and the judgement that inflicts it",
+      "chinese": "加于人的损失",
+      "core_image": "账上被划掉一笔，那笔再也回不来了",
+      "root_ids": [
+        "damnum"
+      ],
+      "word_ids": [
+        "condemn",
+        "damage",
+        "damn"
       ]
     }
   ]

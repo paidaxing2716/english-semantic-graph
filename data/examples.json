@@ -22561,6 +22561,412 @@
       "text": "Deer eat the young tree bark.",
       "source": "AI 生成 · 人工审核",
       "scene": "林子边上那只细腿的畜生抬起头，顶着一对分叉的角，转身就没了影"
+    },
+    {
+      "id": "ex-colony-1",
+      "word_id": "colony",
+      "text": "The colony gained independence in 1960.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船靠岸后那批人就地搭屋开垦，账目还往老家报"
+    },
+    {
+      "id": "ex-colony-2",
+      "word_id": "colony",
+      "text": "A colony of ants lives under the step.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船靠岸后那批人就地搭屋开垦，账目还往老家报"
+    },
+    {
+      "id": "ex-colonial-1",
+      "word_id": "colonial",
+      "text": "The building dates from colonial times.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旧账本上写着每季运回去多少，签的是本地人的名"
+    },
+    {
+      "id": "ex-colonial-2",
+      "word_id": "colonial",
+      "text": "They opposed colonial rule.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旧账本上写着每季运回去多少，签的是本地人的名"
+    },
+    {
+      "id": "ex-culture-1",
+      "word_id": "culture",
+      "text": "Each region has its own culture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一块地翻了几十年，长出来的东西跟别处就是不一样"
+    },
+    {
+      "id": "ex-culture-2",
+      "word_id": "culture",
+      "text": "They grew a culture of bacteria.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一块地翻了几十年，长出来的东西跟别处就是不一样"
+    },
+    {
+      "id": "ex-create-1",
+      "word_id": "create",
+      "text": "She created a new design.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "纸上本来什么都没有，笔一落，一个形状就在那儿了"
+    },
+    {
+      "id": "ex-create-2",
+      "word_id": "create",
+      "text": "The storm created chaos.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "纸上本来什么都没有，笔一落，一个形状就在那儿了"
+    },
+    {
+      "id": "ex-creative-1",
+      "word_id": "creative",
+      "text": "She has a creative mind.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一堆边角料，有人摆着摆着就成了个能用的东西"
+    },
+    {
+      "id": "ex-creative-2",
+      "word_id": "creative",
+      "text": "It was a creative solution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样一堆边角料，有人摆着摆着就成了个能用的东西"
+    },
+    {
+      "id": "ex-creature-1",
+      "word_id": "creature",
+      "text": "Strange creatures live in the deep sea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石头下面那个小东西被光一照，八条腿一齐动起来"
+    },
+    {
+      "id": "ex-creature-2",
+      "word_id": "creature",
+      "text": "The poor creature was shivering.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石头下面那个小东西被光一照，八条腿一齐动起来"
+    },
+    {
+      "id": "ex-cross-1",
+      "word_id": "cross",
+      "text": "Look both ways before you cross.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从这边人行道横切过去，走线正好压过车道"
+    },
+    {
+      "id": "ex-cross-2",
+      "word_id": "cross",
+      "text": "Mark your answer with a cross.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从这边人行道横切过去，走线正好压过车道"
+    },
+    {
+      "id": "ex-crucial-1",
+      "word_id": "crucial",
+      "text": "This is a crucial decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路到这儿分成两条，选哪条后头就全不一样了"
+    },
+    {
+      "id": "ex-crucial-2",
+      "word_id": "crucial",
+      "text": "Timing was crucial to the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路到这儿分成两条，选哪条后头就全不一样了"
+    },
+    {
+      "id": "ex-cruise-1",
+      "word_id": "cruise",
+      "text": "The ship cruised along the coast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船不赶路，在同一片海面上来回划着走，速度一直没变"
+    },
+    {
+      "id": "ex-cruise-2",
+      "word_id": "cruise",
+      "text": "We cruised at sixty miles an hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船不赶路，在同一片海面上来回划着走，速度一直没变"
+    },
+    {
+      "id": "ex-data-1",
+      "word_id": "data",
+      "text": "The data shows a clear trend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一叠表格递过来，上面全是记好的数字，等着人去算"
+    },
+    {
+      "id": "ex-data-2",
+      "word_id": "data",
+      "text": "We collected data for six months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一叠表格递过来，上面全是记好的数字，等着人去算"
+    },
+    {
+      "id": "ex-database-1",
+      "word_id": "database",
+      "text": "The database holds ten million records.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "所有表格最后都归到同一个柜里，查哪一份都能翻出来"
+    },
+    {
+      "id": "ex-database-2",
+      "word_id": "database",
+      "text": "She queried the customer database.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "所有表格最后都归到同一个柜里，查哪一份都能翻出来"
+    },
+    {
+      "id": "ex-date-1",
+      "word_id": "date",
+      "text": "What is the date today?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信纸最下面一行写着地点和那一天，字迹比正文小些"
+    },
+    {
+      "id": "ex-date-2",
+      "word_id": "date",
+      "text": "They went on a date last night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信纸最下面一行写着地点和那一天，字迹比正文小些"
+    },
+    {
+      "id": "ex-camera-1",
+      "word_id": "camera",
+      "text": "He bought a new camera.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "盒子四面不透光，只前头留一个小孔，光从那儿进来"
+    },
+    {
+      "id": "ex-camera-2",
+      "word_id": "camera",
+      "text": "The camera stopped recording.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "盒子四面不透光，只前头留一个小孔，光从那儿进来"
+    },
+    {
+      "id": "ex-chamber-1",
+      "word_id": "chamber",
+      "text": "The judge spoke in his chamber.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推开厚门是一间不大的屋，声音在里头闷着传不出去"
+    },
+    {
+      "id": "ex-chamber-2",
+      "word_id": "chamber",
+      "text": "The gun has six chambers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推开厚门是一间不大的屋，声音在里头闷着传不出去"
+    },
+    {
+      "id": "ex-comrade-1",
+      "word_id": "comrade",
+      "text": "He lost two comrades in the war.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张床挤在同一间屋里，夜里说话不用抬高声音"
+    },
+    {
+      "id": "ex-comrade-2",
+      "word_id": "comrade",
+      "text": "She greeted her old comrades.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张床挤在同一间屋里，夜里说话不用抬高声音"
+    },
+    {
+      "id": "ex-damage-1",
+      "word_id": "damage",
+      "text": "The storm caused serious damage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车头凹进去一块，钣金敲平了，那道折痕还留着"
+    },
+    {
+      "id": "ex-damage-2",
+      "word_id": "damage",
+      "text": "Water damaged the floor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车头凹进去一块，钣金敲平了，那道折痕还留着"
+    },
+    {
+      "id": "ex-damn-1",
+      "word_id": "damn",
+      "text": "Critics damned the film.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那份稿子往桌上一推，一句话就断了它的生路"
+    },
+    {
+      "id": "ex-damn-2",
+      "word_id": "damn",
+      "text": "He damned his own bad luck.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那份稿子往桌上一推，一句话就断了它的生路"
+    },
+    {
+      "id": "ex-condemn-1",
+      "word_id": "condemn",
+      "text": "They condemned the attack.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼门上钉了一张告示，写明此后不许住人"
+    },
+    {
+      "id": "ex-condemn-2",
+      "word_id": "condemn",
+      "text": "The building was condemned last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "楼门上钉了一张告示，写明此后不许住人"
+    },
+    {
+      "id": "ex-cost-1",
+      "word_id": "cost",
+      "text": "The cost of living keeps rising.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上报出一个数，那数付了东西才归你"
+    },
+    {
+      "id": "ex-cost-2",
+      "word_id": "cost",
+      "text": "It cost more than we expected.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上报出一个数，那数付了东西才归你"
+    },
+    {
+      "id": "ex-costly-1",
+      "word_id": "costly",
+      "text": "It was a costly mistake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那间铺子每月要垫进去的钱越来越多，最后关了门"
+    },
+    {
+      "id": "ex-costly-2",
+      "word_id": "costly",
+      "text": "Repairs proved too costly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那间铺子每月要垫进去的钱越来越多，最后关了门"
+    },
+    {
+      "id": "ex-contrast-1",
+      "word_id": "contrast",
+      "text": "The contrast between them is striking.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "深浅两块布并排铺开，挨着一看才知道差多少"
+    },
+    {
+      "id": "ex-contrast-2",
+      "word_id": "contrast",
+      "text": "Her mood contrasts with his.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "深浅两块布并排铺开，挨着一看才知道差多少"
+    },
+    {
+      "id": "ex-cable-1",
+      "word_id": "cable",
+      "text": "The cable snapped under strain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手腕粗的一股绞在一起，绕上桩子拽不动"
+    },
+    {
+      "id": "ex-cable-2",
+      "word_id": "cable",
+      "text": "They laid a cable under the sea.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手腕粗的一股绞在一起，绕上桩子拽不动"
+    },
+    {
+      "id": "ex-deceit-1",
+      "word_id": "deceit",
+      "text": "She was hurt by his deceit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把掺过的那壶推到客人手边，自己那壶另放着"
+    },
+    {
+      "id": "ex-deceit-2",
+      "word_id": "deceit",
+      "text": "The scheme was built on deceit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把掺过的那壶推到客人手边，自己那壶另放着"
+    },
+    {
+      "id": "ex-decay-1",
+      "word_id": "decay",
+      "text": "The wood began to decay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木桩底下一年年发软，用手一掰就掉渣"
+    },
+    {
+      "id": "ex-decay-2",
+      "word_id": "decay",
+      "text": "The empire slowly decayed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木桩底下一年年发软，用手一掰就掉渣"
+    },
+    {
+      "id": "ex-cabbage-1",
+      "word_id": "cabbage",
+      "text": "She shredded a whole cabbage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "菜地里一颗颗圆球贴地摆着，叶子层层裹得很紧"
+    },
+    {
+      "id": "ex-cabbage-2",
+      "word_id": "cabbage",
+      "text": "Cabbage grows well in cool weather.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "菜地里一颗颗圆球贴地摆着，叶子层层裹得很紧"
+    },
+    {
+      "id": "ex-counsel-1",
+      "word_id": "counsel",
+      "text": "She sought legal counsel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把来龙去脉听完，沉了一会儿才开口说该怎么办"
+    },
+    {
+      "id": "ex-counsel-2",
+      "word_id": "counsel",
+      "text": "He counselled patience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把来龙去脉听完，沉了一会儿才开口说该怎么办"
+    },
+    {
+      "id": "ex-crew-1",
+      "word_id": "crew",
+      "text": "The crew worked through the night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船要开了还差几个人，码头上又叫来两个才凑齐"
+    },
+    {
+      "id": "ex-crew-2",
+      "word_id": "crew",
+      "text": "A film crew arrived at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船要开了还差几个人，码头上又叫来两个才凑齐"
+    },
+    {
+      "id": "ex-debt-1",
+      "word_id": "debt",
+      "text": "He paid off his debts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本上写着数目，钱却还在别人那儿"
+    },
+    {
+      "id": "ex-debt-2",
+      "word_id": "debt",
+      "text": "The company is deep in debt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本上写着数目，钱却还在别人那儿"
+    },
+    {
+      "id": "ex-coil-1",
+      "word_id": "coil",
+      "text": "He hung a coil of rope on the hook.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子一圈压一圈盘在甲板上，中间空出一个洞"
+    },
+    {
+      "id": "ex-coil-2",
+      "word_id": "coil",
+      "text": "The snake coiled around the branch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子一圈压一圈盘在甲板上，中间空出一个洞"
     }
   ]
 }

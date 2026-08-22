@@ -346,7 +346,10 @@
         "substitute",
         "stationery",
         "statistical",
-        "stay"
+        "stay",
+        "cost",
+        "costly",
+        "contrast"
       ]
     },
     {
@@ -1737,7 +1740,8 @@
       "english_definition": "to consult, to take advice",
       "word_ids": [
         "consult",
-        "consultant"
+        "consultant",
+        "counsel"
       ]
     },
     {
@@ -1872,7 +1876,8 @@
         "collect",
         "collective",
         "diligent",
-        "lecture"
+        "lecture",
+        "coil"
       ]
     },
     {
@@ -2651,7 +2656,8 @@
       "word_ids": [
         "decrease",
         "increase",
-        "increasingly"
+        "increasingly",
+        "crew"
       ]
     },
     {
@@ -2705,7 +2711,9 @@
         "capture",
         "captive",
         "catch",
-        "chase"
+        "chase",
+        "cable",
+        "deceit"
       ]
     },
     {
@@ -3128,7 +3136,8 @@
         "inhibit",
         "prohibit",
         "able",
-        "ability"
+        "ability",
+        "debt"
       ]
     },
     {
@@ -3363,7 +3372,8 @@
         "accident",
         "accidental",
         "chance",
-        "cheat"
+        "cheat",
+        "decay"
       ]
     },
     {
@@ -3999,7 +4009,8 @@
       "word_ids": [
         "cattle",
         "chef",
-        "chief"
+        "chief",
+        "cabbage"
       ]
     },
     {
@@ -4052,6 +4063,115 @@
         "bowling",
         "bullet",
         "bulletin"
+      ]
+    },
+    {
+      "id": "colere",
+      "root": "colere",
+      "variants": [
+        "col",
+        "cult",
+        "colon"
+      ],
+      "origin": "拉丁语 colere（耕作、住下来照管），过去分词 cultus；colonus 是「垦地定居的人」，cultura 是「照管出来的东西」",
+      "core_concept": "settling on ground and tending it until it yields / 在一处住下、照管到它长出东西",
+      "core_image": "一块生地被人年年翻整，几季之后垄上长出成片的苗",
+      "english_definition": "to till, tend, dwell",
+      "word_ids": [
+        "colonial",
+        "colony",
+        "culture"
+      ]
+    },
+    {
+      "id": "creare",
+      "root": "creare",
+      "variants": [
+        "creat",
+        "creas",
+        "cre"
+      ],
+      "origin": "拉丁语 creare（使生出、造出），与 crescere（生长）同源而分工：creare 是「使之生出」，crescere 是「自己长大」",
+      "core_concept": "bringing into being what was not there / 把原先没有的弄出来",
+      "core_image": "空空的台面上，手一撤，那件东西就摆在那儿了",
+      "english_definition": "to bring forth, produce",
+      "word_ids": [
+        "create",
+        "creative",
+        "creature"
+      ]
+    },
+    {
+      "id": "crux",
+      "root": "crux",
+      "variants": [
+        "cruc",
+        "cross",
+        "crus"
+      ],
+      "origin": "拉丁语 crux（属格 crucis：十字架、交叉的木架）；两根木条交叉的那个点，是这一族的共同意象",
+      "core_concept": "two lines meeting at one crossing point / 两条线交在一点上",
+      "core_image": "两根木条叠成十字，钉在交叉那一点上",
+      "english_definition": "cross, crossing point",
+      "word_ids": [
+        "cross",
+        "crucial",
+        "cruise"
+      ]
+    },
+    {
+      "id": "dare",
+      "root": "dare",
+      "variants": [
+        "dat",
+        "dos",
+        "don"
+      ],
+      "origin": "拉丁语 dare（给），过去分词 datus，中性 datum 表「所给之物」。库中已有的 edere-publish（ex＋dare 交出）与 tradere（trans＋dare 交付）是含 dare 的复合动词，各自建模在先；本根是被复合的本体，三者同源分支不同",
+      "core_concept": "putting a thing into another's hands / 把东西交到别人手上",
+      "core_image": "手一伸，东西从这边转到那边的手里",
+      "english_definition": "to give",
+      "word_ids": [
+        "data",
+        "database",
+        "date"
+      ]
+    },
+    {
+      "id": "kamara",
+      "root": "kamara",
+      "variants": [
+        "camera",
+        "camer",
+        "chamb",
+        "camar"
+      ],
+      "origin": "希腊语 kamara（拱顶）→ 拉丁语 camera（拱顶的小室）；词根 id 取希腊词形 kamara，因 camera 本身是本批要收的单词，作 id 会产生自环边；暗箱成像的器械因是「暗室」而得名 camera obscura，遂简称 camera",
+      "core_concept": "a small closed room, and what happens inside it / 一间关起来的小屋，及屋里发生的事",
+      "core_image": "一间没有窗的小屋，门一关，里外就隔断了",
+      "english_definition": "vaulted chamber, small room",
+      "word_ids": [
+        "camera",
+        "chamber",
+        "comrade"
+      ]
+    },
+    {
+      "id": "damnum",
+      "root": "damnum",
+      "variants": [
+        "damn",
+        "damag",
+        "demn"
+      ],
+      "origin": "拉丁语 damnum（损失、罚金），动词 damnare 表「判罚、使受损」；经古法语 damage、damner 分支入英语",
+      "core_concept": "loss inflicted, and the judgement that inflicts it / 加在人身上的损失，及判它的那道裁断",
+      "core_image": "账上被划掉一笔，那笔就再也回不来了",
+      "english_definition": "loss, penalty",
+      "word_ids": [
+        "condemn",
+        "damage",
+        "damn"
       ]
     }
   ]
