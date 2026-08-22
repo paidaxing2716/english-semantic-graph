@@ -44,8 +44,14 @@ NOTE_DEFAULT = "日耳曼核心词，本身即词根，无拉丁词缀可拆"
 
 def build(row, lineno):
     cols = row.rstrip("\n").split("\t")
-    if len(cols) < 9:
-        raise ValueError(f"第 {lineno} 行只有 {len(cols)} 列，至少要 9 列")
+    # 规格要求 10 列（第 10 列 expansions 单义词可留空，但制表符必须在）。
+    # 旧实现只要求 >=9，于是漏掉尾列制表符的行能静默通过——chunk29 的子代理
+    # 报告了这个洞：它那批有三行单义词只写了 9 列，本该被拦下却过了门。
+    # 少一列意味着字段可能整体错位，不能只当「尾列缺省」放过。
+    if len(cols) != 10:
+        raise ValueError(
+            f"第 {lineno} 行有 {len(cols)} 列，规格要求 10 列"
+            f"（单义词第 10 列可为空，但前面的制表符不能省）")
     (word, pos, ph, origin, native, image, zh, ex, concept) = [c.strip() for c in cols[:9]]
     exps = cols[9].strip() if len(cols) > 9 else ""
 
