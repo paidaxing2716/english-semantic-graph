@@ -5184,6 +5184,114 @@
       "to": "reference",
       "type": "root",
       "note": "re-（回）+ fer（带）+ -ence → 把话头带回某处去 → 提及、依据"
+    },
+    {
+      "from": "lex-legis",
+      "to": "legal",
+      "type": "root",
+      "note": "leg（法条）+ -al（…的）→ 属于成文法的、法条许可的"
+    },
+    {
+      "from": "lex-legis",
+      "to": "delegate",
+      "type": "root",
+      "note": "de-（往下）+ leg（依法委派）+ -ate → 依法把职权往下交给人 → 委派"
+    },
+    {
+      "from": "lex-legis",
+      "to": "legacy",
+      "type": "root",
+      "note": "leg（立遗嘱交付）+ -acy → 依遗嘱交下来的东西 → 遗赠，引申为前人留下的"
+    },
+    {
+      "from": "ligare",
+      "to": "obligation",
+      "type": "root",
+      "note": "ob-（朝向）+ lig（绑）+ -ation → 被绑在某事上、不得不做的那份"
+    },
+    {
+      "from": "ligare",
+      "to": "religion",
+      "type": "root",
+      "note": "re-（再、牢）+ lig（绑）+ -ion → 把人反复系向神明的那套联结"
+    },
+    {
+      "from": "ligare",
+      "to": "religious",
+      "type": "root",
+      "note": "religion（联结）+ -ous（…的）→ 属于那套联结的；引申为一丝不苟"
+    },
+    {
+      "from": "proprius",
+      "to": "proper",
+      "type": "root",
+      "note": "proprius（专属的）→ 正是这一个该有的样子 → 恰当、合规矩"
+    },
+    {
+      "from": "proprius",
+      "to": "property",
+      "type": "root",
+      "note": "propr（自己的）+ -ty → 归自己名下之物；也指物本身专有的性状"
+    },
+    {
+      "from": "ter-comparative",
+      "to": "exterior",
+      "type": "root",
+      "note": "exter（外）+ -ior（对照级）→ 两边相比更靠外的那一面"
+    },
+    {
+      "from": "ter-comparative",
+      "to": "interior",
+      "type": "root",
+      "note": "inter（内）+ -ior（对照级）→ 两边相比更靠里的那一面"
+    },
+    {
+      "from": "ter-comparative",
+      "to": "deteriorate",
+      "type": "root",
+      "note": "deterior（更差，比较级）+ -ate（使/变）→ 一路往更差那头去"
+    },
+    {
+      "from": "modus",
+      "to": "moderate",
+      "type": "root",
+      "note": "mod（量度）+ -er- + -ate → 守在刻线之内的 → 不过火"
+    },
+    {
+      "from": "modus",
+      "to": "modify",
+      "type": "root",
+      "note": "mod（量度）+ -ify（使…）→ 把尺度调一调 → 修改、使缓和"
+    },
+    {
+      "from": "modus",
+      "to": "commodity",
+      "type": "root",
+      "note": "com-（合）+ mod（量度）+ -ity → 合于尺度、便于计量买卖之物"
+    },
+    {
+      "from": "qualis",
+      "to": "quality",
+      "type": "root",
+      "note": "qual（何种性质）+ -ity → 是什么成色 → 品质；也指人身上的特质"
+    },
+    {
+      "from": "qualis",
+      "to": "qualify",
+      "type": "root",
+      "note": "qual（何种性质）+ -ify（使…）→ 使成色够得上 → 具备资格；也指给话加限定"
+    },
+    {
+      "from": "qualis",
+      "to": "qualification",
+      "type": "root",
+      "note": "qualify（使够格）+ -ation → 够格这件事，及作凭据的那纸；也指附加的限定"
+    },
+    {
+      "from": "pars",
+      "to": "proportion",
+      "type": "root",
+      "note": "pro-（按照）+ portio（份）→ 按份切分后各占的那一份 → 比例"
     }
   ]
 }

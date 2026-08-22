@@ -16,7 +16,7 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余词入库（可结构化的尾声）← 当前：849 词 · 162 词根，vetted 尚余 99 词 / 33 族
+v1.1    剩余词入库（可结构化的尾声）← 当前：867 词 · 168 词根，vetted 尚余 81 词 / 27 族
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
 ```
 
@@ -317,6 +317,15 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十五批（18 词，六新词根族 + 1 补词）：清掉 HANDOFF 剩下的 C 类风险族。
+        leg 在 vetted 里同名却是两条源，分立为 lex-legis（法：legal/delegate/legacy）
+        与 ligare（绑：obligation/religion/religious），且都与已建模的 legere（读）不同根；
+        prop 拆两组——proper/property ← proprius（自己的），
+        proportion ← portio ← pars（份）并入已有 pars 根，不另开根；
+        teri 三词共用的不是实义词根而是拉丁对照级构词法，故立 ter-comparative
+        （exterior/interior/deteriorate）。另加 modus（分寸尺度：moderate/modify/
+        commodity）与 qualis（成色够格：quality/qualify/qualification），
+        867 词 · 168 词根。至此 HANDOFF 第三节点名的 11 个拆分族全部处理完
 - [x] 第四十四批（10 词，三新词根族 + 4 补词）：按词源纠正 HANDOFF 的三处归族错误。
         edere-publish（交出发布）收 edit/editor/editorial/edition —— edition 原被
         HANDOFF 挂在 edi(audire 听) 名下，实来自 edere（ex＋dare 交出），

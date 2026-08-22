@@ -488,7 +488,8 @@
         "partial",
         "partly",
         "compartment",
-        "counterpart"
+        "counterpart",
+        "proportion"
       ]
     },
     {
@@ -2652,6 +2653,89 @@
       ],
       "word_ids": [
         "impair"
+      ]
+    },
+    {
+      "id": "concept-lex-statute",
+      "concept": "the written statute that binds all alike",
+      "chinese": "成文之法",
+      "core_image": "广场中央立着刻好条文的石板，谁走过都照它办",
+      "root_ids": [
+        "lex-legis"
+      ],
+      "word_ids": [
+        "delegate",
+        "legacy",
+        "legal"
+      ]
+    },
+    {
+      "id": "concept-ligare-bind",
+      "concept": "to tie a cord so the two cannot come apart",
+      "chinese": "系住不分",
+      "core_image": "绳子把两只手腕系在一起，想抽也抽不出来",
+      "root_ids": [
+        "ligare"
+      ],
+      "word_ids": [
+        "obligation",
+        "religion",
+        "religious"
+      ]
+    },
+    {
+      "id": "concept-proprius-own",
+      "concept": "what belongs to this one and no other",
+      "chinese": "专属自己",
+      "core_image": "物件上刻着自己的名号，别人拿了对不上",
+      "root_ids": [
+        "proprius"
+      ],
+      "word_ids": [
+        "proper",
+        "property"
+      ]
+    },
+    {
+      "id": "concept-ter-comparative",
+      "concept": "of two sides compared, the one further that way",
+      "chinese": "两相对照",
+      "core_image": "两样东西并排一放，指着更偏一头的那个",
+      "root_ids": [
+        "ter-comparative"
+      ],
+      "word_ids": [
+        "deteriorate",
+        "exterior",
+        "interior"
+      ]
+    },
+    {
+      "id": "concept-modus-measure",
+      "concept": "the measure kept, neither over nor under",
+      "chinese": "分寸尺度",
+      "core_image": "量杯上一道刻线，倒到那道线就停手",
+      "root_ids": [
+        "modus"
+      ],
+      "word_ids": [
+        "commodity",
+        "moderate",
+        "modify"
+      ]
+    },
+    {
+      "id": "concept-qualis-kind",
+      "concept": "what kind a thing is, and whether it measures up",
+      "chinese": "成色够格",
+      "core_image": "两块料子对着光看纹理，分出哪块成色更足",
+      "root_ids": [
+        "qualis"
+      ],
+      "word_ids": [
+        "qualification",
+        "qualify",
+        "quality"
       ]
     }
   ]

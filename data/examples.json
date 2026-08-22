@@ -11781,6 +11781,258 @@
       "text": "Please list your references at the end.",
       "source": "AI 生成 · 人工审核",
       "scene": "他讲到一半停下，翻回书后那一栏，指着出处给人看"
+    },
+    {
+      "id": "ex-legal-1",
+      "word_id": "legal",
+      "text": "She sought legal advice at once.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻到条文那一页，指着其中一行说这样办没问题"
+    },
+    {
+      "id": "ex-legal-2",
+      "word_id": "legal",
+      "text": "It is legal to park here on Sundays.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻到条文那一页，指着其中一行说这样办没问题"
+    },
+    {
+      "id": "ex-delegate-1",
+      "word_id": "delegate",
+      "text": "A good manager knows how to delegate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在名册上点了一个人，把盖印的文书交到那人手里"
+    },
+    {
+      "id": "ex-delegate-2",
+      "word_id": "delegate",
+      "text": "Each branch sent two delegates.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在名册上点了一个人，把盖印的文书交到那人手里"
+    },
+    {
+      "id": "ex-legacy-1",
+      "word_id": "legacy",
+      "text": "He left a small legacy to the school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人过世后，铁盒里的文书按写明的那样一件件交到后人手上"
+    },
+    {
+      "id": "ex-legacy-2",
+      "word_id": "legacy",
+      "text": "The war left a legacy of mistrust.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人过世后，铁盒里的文书按写明的那样一件件交到后人手上"
+    },
+    {
+      "id": "ex-obligation-1",
+      "word_id": "obligation",
+      "text": "He has a legal obligation to pay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手腕上那圈绳一头系在事上，脚步再急也带着它"
+    },
+    {
+      "id": "ex-obligation-2",
+      "word_id": "obligation",
+      "text": "She felt no obligation to reply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手腕上那圈绳一头系在事上，脚步再急也带着它"
+    },
+    {
+      "id": "ex-religion-1",
+      "word_id": "religion",
+      "text": "Religion shapes much of the local custom.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "众人依着同一套誓约聚在一处，绳结般彼此系住"
+    },
+    {
+      "id": "ex-religion-2",
+      "word_id": "religion",
+      "text": "She studies comparative religion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "众人依着同一套誓约聚在一处，绳结般彼此系住"
+    },
+    {
+      "id": "ex-religious-1",
+      "word_id": "religious",
+      "text": "He comes from a religious family.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他每日照着同一套仪节做，一次也没落下"
+    },
+    {
+      "id": "ex-religious-2",
+      "word_id": "religious",
+      "text": "She keeps religious records of every payment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他每日照着同一套仪节做，一次也没落下"
+    },
+    {
+      "id": "ex-proper-1",
+      "word_id": "proper",
+      "text": "Use the proper tool for the job.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙插进去一转就开，别的哪一把都对不上这个孔"
+    },
+    {
+      "id": "ex-proper-2",
+      "word_id": "proper",
+      "text": "That is not the proper way to ask.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙插进去一转就开，别的哪一把都对不上这个孔"
+    },
+    {
+      "id": "ex-property-1",
+      "word_id": "property",
+      "text": "All his property passed to his son.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文书上写明这几间屋归他名下；铁遇火会红，这是铁自带的脾性"
+    },
+    {
+      "id": "ex-property-2",
+      "word_id": "property",
+      "text": "Salt has the property of preserving food.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文书上写明这几间屋归他名下；铁遇火会红，这是铁自带的脾性"
+    },
+    {
+      "id": "ex-exterior-1",
+      "word_id": "exterior",
+      "text": "The exterior walls need painting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手掌沿墙抹过去，摸到的是朝着风雨的那一面"
+    },
+    {
+      "id": "ex-exterior-2",
+      "word_id": "exterior",
+      "text": "Beneath his calm exterior he was furious.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手掌沿墙抹过去，摸到的是朝着风雨的那一面"
+    },
+    {
+      "id": "ex-interior-1",
+      "word_id": "interior",
+      "text": "The car has a leather interior.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推门进去，脚步声在四壁之间来回撞"
+    },
+    {
+      "id": "ex-interior-2",
+      "word_id": "interior",
+      "text": "They travelled into the interior.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推门进去，脚步声在四壁之间来回撞"
+    },
+    {
+      "id": "ex-deteriorate-1",
+      "word_id": "deteriorate",
+      "text": "Her health deteriorated over the winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙面一年比一年斑驳，去年补的那块今年又鼓起来"
+    },
+    {
+      "id": "ex-deteriorate-2",
+      "word_id": "deteriorate",
+      "text": "Relations between them deteriorated fast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙面一年比一年斑驳，去年补的那块今年又鼓起来"
+    },
+    {
+      "id": "ex-moderate-1",
+      "word_id": "moderate",
+      "text": "Take moderate exercise every day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水倒到刻线就收手，杯子没溢也不见底"
+    },
+    {
+      "id": "ex-moderate-2",
+      "word_id": "moderate",
+      "text": "He holds moderate political views.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水倒到刻线就收手，杯子没溢也不见底"
+    },
+    {
+      "id": "ex-modify-1",
+      "word_id": "modify",
+      "text": "They modified the design slightly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把刻线往下挪了半分，别处一概没动"
+    },
+    {
+      "id": "ex-modify-2",
+      "word_id": "modify",
+      "text": "She modified her tone when he objected.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把刻线往下挪了半分，别处一概没动"
+    },
+    {
+      "id": "ex-commodity-1",
+      "word_id": "commodity",
+      "text": "Coffee is a global commodity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤上一斤一斤过，按同一把尺子记价开单"
+    },
+    {
+      "id": "ex-commodity-2",
+      "word_id": "commodity",
+      "text": "Water became a scarce commodity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秤上一斤一斤过，按同一把尺子记价开单"
+    },
+    {
+      "id": "ex-quality-1",
+      "word_id": "quality",
+      "text": "The quality of the cloth is excellent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对着光看那块料，纹理密实，一眼便知与别的不同"
+    },
+    {
+      "id": "ex-quality-2",
+      "word_id": "quality",
+      "text": "Patience is her best quality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "对着光看那块料，纹理密实，一眼便知与别的不同"
+    },
+    {
+      "id": "ex-qualify-1",
+      "word_id": "qualify",
+      "text": "She qualified as a doctor last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "料子送去过筛，够得上那道线的才盖印放行"
+    },
+    {
+      "id": "ex-qualify-2",
+      "word_id": "qualify",
+      "text": "He qualified his praise with one caution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "料子送去过筛，够得上那道线的才盖印放行"
+    },
+    {
+      "id": "ex-qualification-1",
+      "word_id": "qualification",
+      "text": "She has a teaching qualification.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里那张盖了印的纸，写明他过了那道线"
+    },
+    {
+      "id": "ex-qualification-2",
+      "word_id": "qualification",
+      "text": "He agreed, with one qualification.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里那张盖了印的纸，写明他过了那道线"
+    },
+    {
+      "id": "ex-proportion-1",
+      "word_id": "proportion",
+      "text": "A large proportion of the class agreed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆饼切开，每人手里那块占整张多大，一眼比得出来"
+    },
+    {
+      "id": "ex-proportion-2",
+      "word_id": "proportion",
+      "text": "The columns are pleasing in proportion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆饼切开，每人手里那块占整张多大，一眼比得出来"
     }
   ]
 }

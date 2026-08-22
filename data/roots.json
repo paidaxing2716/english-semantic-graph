@@ -532,7 +532,8 @@
         "partial",
         "partly",
         "compartment",
-        "counterpart"
+        "counterpart",
+        "proportion"
       ]
     },
     {
@@ -3139,6 +3140,108 @@
       "english_definition": "worse, to worsen",
       "word_ids": [
         "impair"
+      ]
+    },
+    {
+      "id": "lex-legis",
+      "root": "lex",
+      "variants": [
+        "leg",
+        "legis"
+      ],
+      "origin": "拉丁语 lex（属格 legis：成文的法条），动词 legare 表「依法委派、立遗嘱交付」；与 legere（读、拣选）虽形近而不同根，本项目分立两根",
+      "core_concept": "the written statute that binds all alike / 立成条文、对谁都一样管的法",
+      "core_image": "石板上刻好的条文立在广场中央，谁走过都得照着办",
+      "english_definition": "law, statute",
+      "word_ids": [
+        "delegate",
+        "legacy",
+        "legal"
+      ]
+    },
+    {
+      "id": "ligare",
+      "root": "ligare",
+      "variants": [
+        "lig",
+        "li",
+        "ly"
+      ],
+      "origin": "拉丁语 ligare（捆、绑住），ligamentum（韧带）同根；与 lex（法）、legere（读）都不同根，vetted 里同作 leg 是自动提取所致",
+      "core_concept": "to tie a cord so the two cannot come apart / 用绳把两边系住，再分不开",
+      "core_image": "一根绳把两只手腕系在一起，想抽也抽不出来",
+      "english_definition": "to bind, tie",
+      "word_ids": [
+        "obligation",
+        "religion",
+        "religious"
+      ]
+    },
+    {
+      "id": "proprius",
+      "root": "proprius",
+      "variants": [
+        "propr",
+        "prop",
+        "proper"
+      ],
+      "origin": "拉丁语 proprius（自己的、专属的），由 pro privo（归私有）而来；与 portio（份）一支的 proportion 不同源，vetted 同作 prop 是自动提取所致",
+      "core_concept": "what belongs to this one and no other / 专属于这一个、别处不作数",
+      "core_image": "一件物上刻着自己的名号，别人拿了也对不上",
+      "english_definition": "one's own, particular",
+      "word_ids": [
+        "proper",
+        "property"
+      ]
+    },
+    {
+      "id": "ter-comparative",
+      "root": "-ter/-terior",
+      "variants": [
+        "ter",
+        "terior"
+      ],
+      "origin": "拉丁语用后缀 -ter/-terior 构成「两者相比」的对照级：exterus（外）→ exterior，interus（内）→ interior，deterior（更差）→ deteriorate。这三词共用的不是某个实义词根，而是这套对照级构词法",
+      "core_concept": "of two sides compared, the one further that way / 两边一比，更偏那一头的那个",
+      "core_image": "两样东西并排一放，指着更偏一头的那个说就是它",
+      "english_definition": "the further of two, comparative",
+      "word_ids": [
+        "deteriorate",
+        "exterior",
+        "interior"
+      ]
+    },
+    {
+      "id": "modus",
+      "root": "modus",
+      "variants": [
+        "mod",
+        "moder"
+      ],
+      "origin": "拉丁语 modus（量度、限度、办法），modestus（守分寸的）、modulus（小尺度）同根",
+      "core_concept": "the measure kept, neither over nor under / 守住的那个量，不多也不少",
+      "core_image": "量杯上刻着一道线，倒到那道线就停手",
+      "english_definition": "measure, limit, manner",
+      "word_ids": [
+        "commodity",
+        "moderate",
+        "modify"
+      ]
+    },
+    {
+      "id": "qualis",
+      "root": "qualis",
+      "variants": [
+        "qual"
+      ],
+      "origin": "拉丁语 qualis（何种、什么样的），qualitas（性质）由此出；英语 quality/qualify 均循此路",
+      "core_concept": "what kind a thing is, and whether it measures up / 是什么成色，够不够格",
+      "core_image": "两块料子对着光看纹理，分出哪一块成色更足",
+      "english_definition": "of what kind, such as",
+      "word_ids": [
+        "qualification",
+        "qualify",
+        "quality"
       ]
     }
   ]

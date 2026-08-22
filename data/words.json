@@ -33114,6 +33114,705 @@
         "推荐信：把某人来历带回给对方看的那封"
       ],
       "recall_hint": "re-（回）+ fer（带）→ 把话头带回它的出处"
+    },
+    {
+      "id": "legal",
+      "word": "legal",
+      "pos": "adjective",
+      "phonetic": "/ˈliːɡl/",
+      "decomposable": "root",
+      "root_ids": [
+        "lex-legis"
+      ],
+      "root_logic": "leg（法条）+ -al（…的）→ 属于成文法的、法条许可的",
+      "origin": "拉丁语 legalis（属于法的），来自 lex/legis（法条）",
+      "native_definition": "relating to the law; allowed by the law",
+      "core_concept": "standing on the side the statute allows – 站在条文许可的那一边",
+      "core_image": "翻到条文那一页，指着其中一行说这样办没问题",
+      "chinese": [
+        "法律的",
+        "合法的"
+      ],
+      "examples": [
+        "She sought legal advice at once.",
+        "It is legal to park here on Sundays."
+      ],
+      "synonyms": [
+        "lawful",
+        "judicial"
+      ],
+      "antonyms": [
+        "illegal"
+      ],
+      "related": [
+        "legacy",
+        "delegate"
+      ],
+      "semantic_expansions": [
+        "法律的：属于成文法条的",
+        "合法的：落在条文许可那一边的"
+      ],
+      "recall_hint": "leg（法条）+ -al → 属于成文法、为条文所许"
+    },
+    {
+      "id": "delegate",
+      "word": "delegate",
+      "pos": "verb",
+      "phonetic": "/ˈdelɪɡeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "lex-legis"
+      ],
+      "root_logic": "de-（往下）+ leg（依法委派）+ -ate → 依法把职权往下交给人 → 委派",
+      "origin": "拉丁语 delegare（委派、转交），来自 de＋legare（依法交付）← lex",
+      "native_definition": "to give a task or authority to someone else; a person sent to represent others",
+      "core_concept": "handing one's warrant down to another to act on it – 把自己那份凭据往下交给人去行使",
+      "core_image": "他在名册上点了一个人，把盖印的文书交到那人手里",
+      "chinese": [
+        "委派",
+        "代表",
+        "授权"
+      ],
+      "examples": [
+        "A good manager knows how to delegate.",
+        "Each branch sent two delegates."
+      ],
+      "synonyms": [
+        "assign",
+        "entrust"
+      ],
+      "antonyms": [],
+      "related": [
+        "legal",
+        "legacy"
+      ],
+      "semantic_expansions": [
+        "委派/授权：依法把职权往下交出",
+        "代表：受此委派、代人出面的那个人"
+      ],
+      "recall_hint": "de-（往下）+ leg（依法委派）→ 把凭据往下交给人"
+    },
+    {
+      "id": "legacy",
+      "word": "legacy",
+      "pos": "noun",
+      "phonetic": "/ˈleɡəsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "lex-legis"
+      ],
+      "root_logic": "leg（立遗嘱交付）+ -acy → 依遗嘱交下来的东西 → 遗赠，引申为前人留下的",
+      "origin": "中世纪拉丁语 legatia（遗赠），来自 legare（立遗嘱交付）← lex（法）",
+      "native_definition": "money or property left in a will; something handed down from the past",
+      "core_concept": "what a warrant hands on after its holder is gone – 立据人身后依据文书交下来的东西",
+      "core_image": "老人过世后，铁盒里的文书按写明的那样一件件交到后人手上",
+      "chinese": [
+        "遗产",
+        "遗赠",
+        "遗留"
+      ],
+      "examples": [
+        "He left a small legacy to the school.",
+        "The war left a legacy of mistrust."
+      ],
+      "synonyms": [
+        "inheritance",
+        "bequest"
+      ],
+      "antonyms": [],
+      "related": [
+        "legal",
+        "delegate"
+      ],
+      "semantic_expansions": [
+        "遗产/遗赠：依文书身后交下来的东西",
+        "遗留：前人手里传下来的那一份"
+      ],
+      "recall_hint": "leg（立遗嘱交付）+ -acy → 依文书交下来的东西"
+    },
+    {
+      "id": "obligation",
+      "word": "obligation",
+      "pos": "noun",
+      "phonetic": "/ˌɒblɪˈɡeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "ob-（朝向）+ lig（绑）+ -ation → 被绑在某事上、不得不做的那份",
+      "origin": "拉丁语 obligatio（束缚、义务），来自 obligare（绑住）← ob＋ligare",
+      "native_definition": "something one is bound to do, by duty or by law",
+      "core_concept": "the cord tying one to a task one cannot walk away from – 把人系在某事上、走不开的那根绳",
+      "core_image": "手腕上那圈绳一头系在事上，脚步再急也带着它",
+      "chinese": [
+        "义务",
+        "责任",
+        "约束"
+      ],
+      "examples": [
+        "He has a legal obligation to pay.",
+        "She felt no obligation to reply."
+      ],
+      "synonyms": [
+        "duty",
+        "commitment"
+      ],
+      "antonyms": [
+        "freedom"
+      ],
+      "related": [
+        "religion",
+        "religious"
+      ],
+      "semantic_expansions": [
+        "义务/责任：被系在某事上、非做不可的那份",
+        "约束：那根绳本身的拉力"
+      ],
+      "recall_hint": "ob-（朝向）+ lig（绑）→ 被系在某事上走不开"
+    },
+    {
+      "id": "religion",
+      "word": "religion",
+      "pos": "noun",
+      "phonetic": "/rɪˈlɪdʒən/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "re-（再、牢）+ lig（绑）+ -ion → 把人反复系向神明的那套联结",
+      "origin": "拉丁语 religio（虔敬、戒律），一说来自 religare（牢牢系住）← re＋ligare",
+      "native_definition": "belief in and worship of a god or gods, with its practices",
+      "core_concept": "the cord that ties a people back to what they hold sacred – 把人一再系回所敬之物的那根绳",
+      "core_image": "众人依着同一套誓约聚在一处，绳结般彼此系住",
+      "chinese": [
+        "宗教",
+        "信仰"
+      ],
+      "examples": [
+        "Religion shapes much of the local custom.",
+        "She studies comparative religion."
+      ],
+      "synonyms": [
+        "faith",
+        "creed"
+      ],
+      "antonyms": [],
+      "related": [
+        "religious",
+        "obligation"
+      ],
+      "semantic_expansions": [
+        "宗教/信仰：把人一再系向所敬之物的那套联结"
+      ],
+      "recall_hint": "re-（牢）+ lig（绑）→ 把人一再系回所敬之物"
+    },
+    {
+      "id": "religious",
+      "word": "religious",
+      "pos": "adjective",
+      "phonetic": "/rɪˈlɪdʒəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "religion（联结）+ -ous（…的）→ 属于那套联结的；引申为一丝不苟",
+      "origin": "拉丁语 religiosus（虔敬的、谨守的），来自 religio",
+      "native_definition": "relating to religion; believing strongly; done with scrupulous care",
+      "core_concept": "holding to the cord without letting it slack – 攥着那根绳不让它松",
+      "core_image": "他每日照着同一套仪节做，一次也没落下",
+      "chinese": [
+        "宗教的",
+        "虔诚的",
+        "严谨的"
+      ],
+      "examples": [
+        "He comes from a religious family.",
+        "She keeps religious records of every payment."
+      ],
+      "synonyms": [
+        "devout",
+        "scrupulous"
+      ],
+      "antonyms": [
+        "secular"
+      ],
+      "related": [
+        "religion",
+        "obligation"
+      ],
+      "semantic_expansions": [
+        "宗教的：属于那套联结的",
+        "虔诚的：攥住绳子不放松",
+        "严谨的：同样这份不肯松的劲用在做事上"
+      ],
+      "recall_hint": "religion（联结）+ -ous → 攥着那根绳不放松"
+    },
+    {
+      "id": "proper",
+      "word": "proper",
+      "pos": "adjective",
+      "phonetic": "/ˈprɒpə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "proprius"
+      ],
+      "root_logic": "proprius（专属的）→ 正是这一个该有的样子 → 恰当、合规矩",
+      "origin": "古法语 propre，来自拉丁语 proprius（自己的、专属的）",
+      "native_definition": "right, suitable, or correct for the situation",
+      "core_concept": "the one form that fits this case and no other – 只有这一种才对得上这场合",
+      "core_image": "钥匙插进去一转就开，别的哪一把都对不上这个孔",
+      "chinese": [
+        "适当的",
+        "正确的",
+        "真正的"
+      ],
+      "examples": [
+        "Use the proper tool for the job.",
+        "That is not the proper way to ask."
+      ],
+      "synonyms": [
+        "suitable",
+        "correct"
+      ],
+      "antonyms": [
+        "improper"
+      ],
+      "related": [
+        "property",
+        "proportion"
+      ],
+      "semantic_expansions": [
+        "适当的/正确的：正是这场合专该有的那一种",
+        "真正的：名实相符、对得上的"
+      ],
+      "recall_hint": "proprius（专属的）→ 正对得上这场合的那一种"
+    },
+    {
+      "id": "property",
+      "word": "property",
+      "pos": "noun",
+      "phonetic": "/ˈprɒpəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "proprius"
+      ],
+      "root_logic": "propr（自己的）+ -ty → 归自己名下之物；也指物本身专有的性状",
+      "origin": "古法语 propriete，来自拉丁语 proprietas（所有权、特性）← proprius",
+      "native_definition": "a thing owned; land and buildings; a quality belonging to something",
+      "core_concept": "what stands under one's own name, or a trait belonging to a thing alone – 记在自己名下之物，或某物独有的性状",
+      "core_image": "文书上写明这几间屋归他名下；铁遇火会红，这是铁自带的脾性",
+      "chinese": [
+        "财产",
+        "房产",
+        "特性"
+      ],
+      "examples": [
+        "All his property passed to his son.",
+        "Salt has the property of preserving food."
+      ],
+      "synonyms": [
+        "possession",
+        "attribute"
+      ],
+      "antonyms": [],
+      "related": [
+        "proper",
+        "proportion"
+      ],
+      "semantic_expansions": [
+        "财产/房产：记在自己名下之物",
+        "特性：某物专有、别物没有的性状"
+      ],
+      "recall_hint": "propr（自己的）+ -ty → 归自己名下之物，及物自带的性状"
+    },
+    {
+      "id": "exterior",
+      "word": "exterior",
+      "pos": "noun",
+      "phonetic": "/ɪkˈstɪəriə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ter-comparative"
+      ],
+      "root_logic": "exter（外）+ -ior（对照级）→ 两边相比更靠外的那一面",
+      "origin": "拉丁语 exterior（较外的），exterus（在外的）的比较级",
+      "native_definition": "the outer surface or appearance of something",
+      "core_concept": "the further-out of the two faces – 里外一比，更靠外的那一面",
+      "core_image": "手掌沿墙抹过去，摸到的是朝着风雨的那一面",
+      "chinese": [
+        "外部的",
+        "外表"
+      ],
+      "examples": [
+        "The exterior walls need painting.",
+        "Beneath his calm exterior he was furious."
+      ],
+      "synonyms": [
+        "outside",
+        "surface"
+      ],
+      "antonyms": [
+        "interior"
+      ],
+      "related": [
+        "interior",
+        "deteriorate"
+      ],
+      "semantic_expansions": [
+        "外部的/外表：里外相比更靠外的那一面"
+      ],
+      "recall_hint": "exter（外）+ -ior（对照级）→ 更靠外的那一面"
+    },
+    {
+      "id": "interior",
+      "word": "interior",
+      "pos": "noun",
+      "phonetic": "/ɪnˈtɪəriə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ter-comparative"
+      ],
+      "root_logic": "inter（内）+ -ior（对照级）→ 两边相比更靠里的那一面",
+      "origin": "拉丁语 interior（较内的），interus（在内的）的比较级",
+      "native_definition": "the inside part of something; the inland part of a country",
+      "core_concept": "the further-in of the two faces – 里外一比，更靠里的那一面",
+      "core_image": "推门进去，脚步声在四壁之间来回撞",
+      "chinese": [
+        "内部的",
+        "内部",
+        "内地"
+      ],
+      "examples": [
+        "The car has a leather interior.",
+        "They travelled into the interior."
+      ],
+      "synonyms": [
+        "inside",
+        "inland"
+      ],
+      "antonyms": [
+        "exterior"
+      ],
+      "related": [
+        "exterior",
+        "deteriorate"
+      ],
+      "semantic_expansions": [
+        "内部的/内部：里外相比更靠里的那一面",
+        "内地：一国之中更靠里、离海更远的那片"
+      ],
+      "recall_hint": "inter（内）+ -ior（对照级）→ 更靠里的那一面"
+    },
+    {
+      "id": "deteriorate",
+      "word": "deteriorate",
+      "pos": "verb",
+      "phonetic": "/dɪˈtɪəriəreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ter-comparative"
+      ],
+      "root_logic": "deterior（更差，比较级）+ -ate（使/变）→ 一路往更差那头去",
+      "origin": "晚期拉丁语 deteriorare（使变坏），来自 deterior（较差的，de- 的比较级）",
+      "native_definition": "to become progressively worse",
+      "core_concept": "sliding step by step toward the worse of the two – 一步步滑向两者中更差那一头",
+      "core_image": "墙面一年比一年斑驳，去年补的那块今年又鼓起来",
+      "chinese": [
+        "恶化",
+        "变坏",
+        "退化"
+      ],
+      "examples": [
+        "Her health deteriorated over the winter.",
+        "Relations between them deteriorated fast."
+      ],
+      "synonyms": [
+        "worsen",
+        "decline"
+      ],
+      "antonyms": [
+        "improve",
+        "recover"
+      ],
+      "related": [
+        "exterior",
+        "interior"
+      ],
+      "semantic_expansions": [
+        "恶化/变坏：一路滑向更差那一头",
+        "退化：同一方向上功能一路走低"
+      ],
+      "recall_hint": "deterior（更差）+ -ate → 往更差那头一路去"
+    },
+    {
+      "id": "moderate",
+      "word": "moderate",
+      "pos": "adjective",
+      "phonetic": "/ˈmɒdərət/",
+      "decomposable": "root",
+      "root_ids": [
+        "modus"
+      ],
+      "root_logic": "mod（量度）+ -er- + -ate → 守在刻线之内的 → 不过火",
+      "origin": "拉丁语 moderatus（有节制的），moderare（节制）的过去分词 ← modus",
+      "native_definition": "average in amount or degree; not extreme",
+      "core_concept": "staying inside the line, never brimming over – 停在刻线之内，不满溢出来",
+      "core_image": "水倒到刻线就收手，杯子没溢也不见底",
+      "chinese": [
+        "适度的",
+        "温和的",
+        "中等的"
+      ],
+      "examples": [
+        "Take moderate exercise every day.",
+        "He holds moderate political views."
+      ],
+      "synonyms": [
+        "temperate",
+        "mild"
+      ],
+      "antonyms": [
+        "extreme",
+        "excessive"
+      ],
+      "related": [
+        "modify",
+        "commodity"
+      ],
+      "semantic_expansions": [
+        "适度的/中等的：停在刻线之内、不过量",
+        "温和的：主张同样不走极端"
+      ],
+      "recall_hint": "mod（量度）+ -ate → 守在刻线之内、不过火"
+    },
+    {
+      "id": "modify",
+      "word": "modify",
+      "pos": "verb",
+      "phonetic": "/ˈmɒdɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "modus"
+      ],
+      "root_logic": "mod（量度）+ -ify（使…）→ 把尺度调一调 → 修改、使缓和",
+      "origin": "拉丁语 modificare（限定、调整），来自 modus＋facere（做）",
+      "native_definition": "to change something slightly, especially to improve it",
+      "core_concept": "shifting the line a little rather than remaking the vessel – 把那道刻线挪一点，而非另造一只杯",
+      "core_image": "把刻线往下挪了半分，别处一概没动",
+      "chinese": [
+        "修改",
+        "调整",
+        "使缓和"
+      ],
+      "examples": [
+        "They modified the design slightly.",
+        "She modified her tone when he objected."
+      ],
+      "synonyms": [
+        "adjust",
+        "alter"
+      ],
+      "antonyms": [],
+      "related": [
+        "moderate",
+        "commodity"
+      ],
+      "semantic_expansions": [
+        "修改/调整：把尺度挪动一点",
+        "使缓和：把话或态度的分寸往回收一点"
+      ],
+      "recall_hint": "mod（量度）+ -ify → 把那道刻线挪一点"
+    },
+    {
+      "id": "commodity",
+      "word": "commodity",
+      "pos": "noun",
+      "phonetic": "/kəˈmɒdəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "modus"
+      ],
+      "root_logic": "com-（合）+ mod（量度）+ -ity → 合于尺度、便于计量买卖之物",
+      "origin": "拉丁语 commoditas（便利、合宜），来自 commodus（合尺度的）← com＋modus",
+      "native_definition": "a thing bought and sold, especially a basic good",
+      "core_concept": "goods cut to a common measure so they can be traded – 按公认尺度计量、可拿去交易之物",
+      "core_image": "秤上一斤一斤过，按同一把尺子记价开单",
+      "chinese": [
+        "商品",
+        "日用品"
+      ],
+      "examples": [
+        "Coffee is a global commodity.",
+        "Water became a scarce commodity."
+      ],
+      "synonyms": [
+        "goods",
+        "merchandise"
+      ],
+      "antonyms": [],
+      "related": [
+        "moderate",
+        "modify"
+      ],
+      "semantic_expansions": [
+        "商品/日用品：按公认尺度计量、可供买卖之物"
+      ],
+      "recall_hint": "com-（合）+ mod（量度）→ 合于尺度、可计量买卖之物"
+    },
+    {
+      "id": "quality",
+      "word": "quality",
+      "pos": "noun",
+      "phonetic": "/ˈkwɒləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "qualis"
+      ],
+      "root_logic": "qual（何种性质）+ -ity → 是什么成色 → 品质；也指人身上的特质",
+      "origin": "拉丁语 qualitas（性质、属性），来自 qualis（何种）",
+      "native_definition": "how good something is; a feature someone or something has",
+      "core_concept": "what kind a thing turns out to be when looked at closely – 细看之下，它到底是什么成色",
+      "core_image": "对着光看那块料，纹理密实，一眼便知与别的不同",
+      "chinese": [
+        "质量",
+        "品质",
+        "特质"
+      ],
+      "examples": [
+        "The quality of the cloth is excellent.",
+        "Patience is her best quality."
+      ],
+      "synonyms": [
+        "standard",
+        "attribute"
+      ],
+      "antonyms": [],
+      "related": [
+        "qualify",
+        "qualification"
+      ],
+      "semantic_expansions": [
+        "质量/品质：细看之下是什么成色",
+        "特质：人或物身上那一样别处没有的性质"
+      ],
+      "recall_hint": "qual（何种性质）+ -ity → 到底是什么成色"
+    },
+    {
+      "id": "qualify",
+      "word": "qualify",
+      "pos": "verb",
+      "phonetic": "/ˈkwɒlɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "qualis"
+      ],
+      "root_logic": "qual（何种性质）+ -ify（使…）→ 使成色够得上 → 具备资格；也指给话加限定",
+      "origin": "中世纪拉丁语 qualificare（定其性质），来自 qualis＋facere（做）",
+      "native_definition": "to reach the required standard; to limit a statement",
+      "core_concept": "coming up to the mark that the kind requires – 成色达到那一档所要求的线",
+      "core_image": "料子送去过筛，够得上那道线的才盖印放行",
+      "chinese": [
+        "取得资格",
+        "合格",
+        "限定"
+      ],
+      "examples": [
+        "She qualified as a doctor last year.",
+        "He qualified his praise with one caution."
+      ],
+      "synonyms": [
+        "certify",
+        "restrict"
+      ],
+      "antonyms": [
+        "disqualify"
+      ],
+      "related": [
+        "quality",
+        "qualification"
+      ],
+      "semantic_expansions": [
+        "取得资格/合格：成色够上所要求那道线",
+        "限定：给话加一道界线，缩住它的适用范围"
+      ],
+      "recall_hint": "qual（何种性质）+ -ify → 使成色够上那道线"
+    },
+    {
+      "id": "qualification",
+      "word": "qualification",
+      "pos": "noun",
+      "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "qualis"
+      ],
+      "root_logic": "qualify（使够格）+ -ation → 够格这件事，及作凭据的那纸；也指附加的限定",
+      "origin": "中世纪拉丁语 qualificatio，来自 qualificare",
+      "native_definition": "an official record of passing an exam; a skill making one suitable; a limiting remark",
+      "core_concept": "the proof that one came up to the mark, or the limit set on a claim – 够上那道线的凭据，或给话加的那道界",
+      "core_image": "抽屉里那张盖了印的纸，写明他过了那道线",
+      "chinese": [
+        "资格",
+        "学历",
+        "限定条件"
+      ],
+      "examples": [
+        "She has a teaching qualification.",
+        "He agreed, with one qualification."
+      ],
+      "synonyms": [
+        "credential",
+        "reservation"
+      ],
+      "antonyms": [],
+      "related": [
+        "quality",
+        "qualify"
+      ],
+      "semantic_expansions": [
+        "资格/学历：够上那道线的凭据",
+        "限定条件：给话加的那道界"
+      ],
+      "recall_hint": "qualify（使够格）+ -ation → 够格的凭据，或所加的那道界"
+    },
+    {
+      "id": "proportion",
+      "word": "proportion",
+      "pos": "noun",
+      "phonetic": "/prəˈpɔːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "pro-（按照）+ portio（份）→ 按份切分后各占的那一份 → 比例",
+      "origin": "拉丁语 proportio（比例），来自 pro portione（按份而言）；portio（份）与 pars/partis（部分）同源，故归 pars 一族",
+      "native_definition": "a part considered in relation to the whole; the right relation between parts",
+      "core_concept": "how large a share one piece takes of the whole – 一块在整体里占多大的一份",
+      "core_image": "圆饼切开，每人手里那块占整张多大，一眼比得出来",
+      "chinese": [
+        "比例",
+        "部分",
+        "均衡"
+      ],
+      "examples": [
+        "A large proportion of the class agreed.",
+        "The columns are pleasing in proportion."
+      ],
+      "synonyms": [
+        "ratio",
+        "share"
+      ],
+      "antonyms": [],
+      "related": [
+        "part",
+        "partial"
+      ],
+      "semantic_expansions": [
+        "比例：一份占整体多大",
+        "部分：切出来的那一份本身",
+        "均衡：各份之间大小相称"
+      ],
+      "recall_hint": "pro-（按照）+ portio（份）→ 各占整体的那一份"
     }
   ]
 }
