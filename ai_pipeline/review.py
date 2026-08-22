@@ -43,7 +43,10 @@ VALID_DECOMP = {"root", "root_pending", "germanic", "loanword", "phrasal", "opaq
 # 不收描述词义的词（否则 abduct 的"强行带走"会被误判）
 HEDGES = ["词源不同", "并非同源", "不同源", "无直接关系", "非同一词根",
           "此处按", "硬凑", "牵强附会", "严格来说无关"]
-VALID_POS = {"noun", "verb", "adjective", "adverb", "adj", "adv", "preposition"}
+# 加 conjunction / pronoun：第五十四批起收日耳曼核心词，其中 although 是连词、
+# anybody/anyone 是代词。旧表没有这两项，逼得只能标成最近似的 noun，那是事实错误。
+VALID_POS = {"noun", "verb", "adjective", "adverb", "adj", "adv", "preposition",
+             "conjunction", "pronoun"}
 
 # AI 造词的典型形态：前缀 + 已有词。命中且不在白名单里就要人工核。
 SUSPECT_PREFIXES = ("dis", "un", "de", "in", "im", "non", "anti", "mis", "re", "over", "under")
@@ -140,8 +143,12 @@ def check(candidates, decl=None):
         if ph and not (ph.startswith("/") and ph.endswith("/")):
             errors.append(f"{wid}: phonetic 必须以 / 包裹，当前 {ph!r}")
 
+        # 双词性用斜杠写，如 'noun / verb'——库里早有此约定（noun / verb 26 例、
+        # verb / noun 19 例）。旧实现拿整串去平集匹配，认不出斜杠形式，
+        # 于是每批刷出几十条假警告，把真问题盖掉。故拆开逐项校验。
         pos = (c.get("pos") or "").lower()
-        if pos and pos not in VALID_POS:
+        pos_parts = [p.strip() for p in pos.split("/") if p.strip()]
+        if pos and not all(p in VALID_POS for p in pos_parts):
             review.append(f"{wid}: pos={pos!r} 不在常用取值内，确认是否笔误")
 
         for rid in c.get("root_ids") or []:
