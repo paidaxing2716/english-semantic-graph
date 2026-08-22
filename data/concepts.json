@@ -564,8 +564,11 @@
       ],
       "word_ids": [
         "construct",
+        "construction",
+        "destruction",
         "destructive",
         "instruct",
+        "instruction",
         "instrument",
         "instrumental",
         "structure"
@@ -2619,20 +2622,6 @@
         "manage",
         "manner",
         "manual"
-      ]
-    },
-    {
-      "id": "concept-structus-build",
-      "concept": "to pile layer on layer into a standing whole",
-      "chinese": "层层垒起",
-      "core_image": "砖一层压一层垒上去，垒稳了自己立得住",
-      "root_ids": [
-        "structus"
-      ],
-      "word_ids": [
-        "construction",
-        "destruction",
-        "instruction"
       ]
     },
     {

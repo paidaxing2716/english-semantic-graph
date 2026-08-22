@@ -1416,8 +1416,7 @@
       "root": "optare",
       "variants": [
         "optare",
-        "opt",
-        "optim"
+        "opt"
       ],
       "origin": "拉丁语 optare（选择、期望）",
       "core_concept": "to choose what one wants / 挑出自己想要的那个",
@@ -3114,23 +3113,6 @@
         "manage",
         "manner",
         "manual"
-      ]
-    },
-    {
-      "id": "structus",
-      "root": "structus",
-      "variants": [
-        "struct",
-        "stru"
-      ],
-      "origin": "拉丁语 struere（一层层垒起来）的过去分词 structus；instruere 本义是「把材料备齐垒上」，引申为教导",
-      "core_concept": "to pile layer on layer into a standing whole / 一层层垒起来，成为立得住的整体",
-      "core_image": "砖一层压一层垒上去，垒到最后自己立得稳",
-      "english_definition": "to pile up, build",
-      "word_ids": [
-        "construction",
-        "destruction",
-        "instruction"
       ]
     },
     {
