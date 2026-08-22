@@ -16,7 +16,7 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余词入库（可结构化的尾声）← 当前：839 词 · 159 词根，vetted 尚余 109 词 / 41 族
+v1.1    剩余词入库（可结构化的尾声）← 当前：849 词 · 162 词根，vetted 尚余 99 词 / 33 族
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
 ```
 
@@ -317,6 +317,16 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十四批（10 词，三新词根族 + 4 补词）：按词源纠正 HANDOFF 的三处归族错误。
+        edere-publish（交出发布）收 edit/editor/editorial/edition —— edition 原被
+        HANDOFF 挂在 edi(audire 听) 名下，实来自 edere（ex＋dare 交出），
+        且与 vetted 的 edit 族同源，故合成 4 词族、一次清掉两个 vetted 族；
+        tangere（触及）收 attain —— 原挂 tain(tenere 握)，实来自 attingere
+        （ad＋tangere 触），英语拼作 -tain 是与 contain/obtain 类推所致；
+        peior（更坏）收 impair —— 原挂 par(相等)，实来自 impejorare（in＋peior），
+        与 pair/repair 不同源。另并入 fluere←flu、premere←press、
+        scrib-script←script、ferre←reference，849 词 · 162 词根。
+        词根 id 用 edere-publish 而非 edere，因拉丁语另有同形的 edere（吃）
 - [x] 第四十三批（22 词，六新词根族 + 4 补词）：serere（编连）
         + habere（持有）+ manus（手）+ structus（垒砌）+ spatium（间距）
         + stringere（拉紧），assert/desert/insert，exhibit/inhibit/prohibit，

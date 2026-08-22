@@ -5124,6 +5124,66 @@
       "to": "port",
       "type": "root",
       "note": "portus（港、门道）与 portare（运送）同族 → 货物由船转陆的那个口"
+    },
+    {
+      "from": "edere-publish",
+      "to": "edit",
+      "type": "root",
+      "note": "edere（交出、发布）→ 为交出去而先把文字勾划整治一遍"
+    },
+    {
+      "from": "edere-publish",
+      "to": "editor",
+      "type": "root",
+      "note": "edit（整治交出）+ -or（人）→ 负责整治并定稿交出的人"
+    },
+    {
+      "from": "edere-publish",
+      "to": "editorial",
+      "type": "root",
+      "note": "editor（定稿人）+ -ial（…的）→ 属于定稿人立场的；名词指报社表态的那篇"
+    },
+    {
+      "from": "edere-publish",
+      "to": "edition",
+      "type": "root",
+      "note": "edere（交出、发布）+ -ition → 一次交出去的那一批，即某一版"
+    },
+    {
+      "from": "tangere",
+      "to": "attain",
+      "type": "root",
+      "note": "at-（ad- 靠向）+ tain（触及）→ 一路伸手过去，终于够到"
+    },
+    {
+      "from": "peior",
+      "to": "impair",
+      "type": "root",
+      "note": "im-（in- 使）+ pair（更坏）→ 使某物比原先更差 → 损害"
+    },
+    {
+      "from": "fluere",
+      "to": "flu",
+      "type": "root",
+      "note": "influenza 的截短：in-（进入）+ flu（流）→ 流进体内的那股病气"
+    },
+    {
+      "from": "premere",
+      "to": "press",
+      "type": "root",
+      "note": "premere（压、按）→ 用力压下去；引申为压印出版的那一行，即报界"
+    },
+    {
+      "from": "scrib-script",
+      "to": "script",
+      "type": "root",
+      "note": "scribere（写、刻画）的过去分词 scriptum → 写下来的那份文字"
+    },
+    {
+      "from": "ferre",
+      "to": "reference",
+      "type": "root",
+      "note": "re-（回）+ fer（带）+ -ence → 把话头带回某处去 → 提及、依据"
     }
   ]
 }

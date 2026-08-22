@@ -11641,6 +11641,146 @@
       "text": "Grain is shipped through this port.",
       "source": "AI 生成 · 人工审核",
       "scene": "吊臂起落，成箱货物从船舷转到岸上"
+    },
+    {
+      "id": "ex-edit-1",
+      "word_id": "edit",
+      "text": "She edits a weekly magazine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "红笔在稿子上圈掉一段，又在空白处补了两行"
+    },
+    {
+      "id": "ex-edit-2",
+      "word_id": "edit",
+      "text": "He edited the footage down to ten minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "红笔在稿子上圈掉一段，又在空白处补了两行"
+    },
+    {
+      "id": "ex-editor-1",
+      "word_id": "editor",
+      "text": "The editor rejected the article.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把最后一页放下，签了字，稿子这才准许送印"
+    },
+    {
+      "id": "ex-editor-2",
+      "word_id": "editor",
+      "text": "She is editor of the local paper.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把最后一页放下，签了字，稿子这才准许送印"
+    },
+    {
+      "id": "ex-editorial-1",
+      "word_id": "editorial",
+      "text": "She joined the editorial team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "头版下方那一栏不署名，说的是整家报社的立场"
+    },
+    {
+      "id": "ex-editorial-2",
+      "word_id": "editorial",
+      "text": "The paper ran an editorial on the strike.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "头版下方那一栏不署名，说的是整家报社的立场"
+    },
+    {
+      "id": "ex-edition-1",
+      "word_id": "edition",
+      "text": "This is the second edition of the book.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "扉页上印着第三回付印的字样，内容与头一回已有出入"
+    },
+    {
+      "id": "ex-edition-2",
+      "word_id": "edition",
+      "text": "The evening edition sold out.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "扉页上印着第三回付印的字样，内容与头一回已有出入"
+    },
+    {
+      "id": "ex-attain-1",
+      "word_id": "attain",
+      "text": "She attained the rank of captain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指尖一寸寸往上探，最后扣住了崖顶那道边沿"
+    },
+    {
+      "id": "ex-attain-2",
+      "word_id": "attain",
+      "text": "Few attain such skill so young.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指尖一寸寸往上探，最后扣住了崖顶那道边沿"
+    },
+    {
+      "id": "ex-impair-1",
+      "word_id": "impair",
+      "text": "Loud noise can impair your hearing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "完好的板面被磕出一道缺口，再用就总差着那一点"
+    },
+    {
+      "id": "ex-impair-2",
+      "word_id": "impair",
+      "text": "Fatigue impaired his judgement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "完好的板面被磕出一道缺口，再用就总差着那一点"
+    },
+    {
+      "id": "ex-flu-1",
+      "word_id": "flu",
+      "text": "She caught the flu last winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一屋子人接连倒下，像有什么顺着空气淌进了身体"
+    },
+    {
+      "id": "ex-flu-2",
+      "word_id": "flu",
+      "text": "Half the office is off with flu.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一屋子人接连倒下，像有什么顺着空气淌进了身体"
+    },
+    {
+      "id": "ex-press-1",
+      "word_id": "press",
+      "text": "Press the button to start.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掌根压在纸面上，油墨透过版子印了上去；报馆的机器整夜这样压着"
+    },
+    {
+      "id": "ex-press-2",
+      "word_id": "press",
+      "text": "The press gathered outside the court.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掌根压在纸面上，油墨透过版子印了上去；报馆的机器整夜这样压着"
+    },
+    {
+      "id": "ex-script-1",
+      "word_id": "script",
+      "text": "He is writing a film script.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "演员手里那几页纸被翻得起了毛边，台词全在上面"
+    },
+    {
+      "id": "ex-script-2",
+      "word_id": "script",
+      "text": "The inscription uses an ancient script.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "演员手里那几页纸被翻得起了毛边，台词全在上面"
+    },
+    {
+      "id": "ex-reference-1",
+      "word_id": "reference",
+      "text": "She made no reference to the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他讲到一半停下，翻回书后那一栏，指着出处给人看"
+    },
+    {
+      "id": "ex-reference-2",
+      "word_id": "reference",
+      "text": "Please list your references at the end.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他讲到一半停下，翻回书后那一栏，指着出处给人看"
     }
   ]
 }

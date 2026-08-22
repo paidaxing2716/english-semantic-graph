@@ -44,7 +44,8 @@
         "oppress",
         "compression",
         "impression",
-        "impressive"
+        "impressive",
+        "press"
       ]
     },
     {
@@ -223,7 +224,8 @@
         "ascribe",
         "inscribe",
         "description",
-        "prescription"
+        "prescription",
+        "script"
       ]
     },
     {
@@ -838,7 +840,8 @@
         "fluent",
         "influence",
         "influential",
-        "superfluous"
+        "superfluous",
+        "flu"
       ]
     },
     {
@@ -1847,7 +1850,8 @@
         "refer",
         "confer",
         "infer",
-        "preferable"
+        "preferable",
+        "reference"
       ]
     },
     {
@@ -3086,6 +3090,55 @@
         "constrain",
         "restrain",
         "strain"
+      ]
+    },
+    {
+      "id": "edere-publish",
+      "root": "edere",
+      "variants": [
+        "edit",
+        "edi"
+      ],
+      "origin": "拉丁语 edere（交出、发表），由 ex（出）＋ dare（给）合成，过去分词 editus；拉丁语另有同形的 edere（吃）与此无关，故本项目词根 id 加 -publish 后缀区分",
+      "core_concept": "to give a thing out to the public / 把东西整治好、交出去给众人",
+      "core_image": "一叠稿子经人逐页勾划删补，理齐了才递出门去",
+      "english_definition": "to give out, put forth, publish",
+      "word_ids": [
+        "edit",
+        "edition",
+        "editor",
+        "editorial"
+      ]
+    },
+    {
+      "id": "tangere",
+      "root": "tangere",
+      "variants": [
+        "tain",
+        "tact",
+        "ting"
+      ],
+      "origin": "拉丁语 tangere（触、碰到），过去分词 tactus；attingere（ad＋tangere）表「伸手够到」，经古法语 ataindre 成英语 attain。英语拼作 -tain 是后来与 contain/obtain 类推所致，源头与 tenere（握）另有分别",
+      "core_concept": "to reach far enough to touch a thing / 伸出去，刚好碰到那一点",
+      "core_image": "指尖向上伸，最后一寸终于搭上了崖沿",
+      "english_definition": "to touch, reach",
+      "word_ids": [
+        "attain"
+      ]
+    },
+    {
+      "id": "peior",
+      "root": "peior",
+      "variants": [
+        "pair",
+        "pejor"
+      ],
+      "origin": "拉丁语 peior（更坏的，malus 的比较级），晚期拉丁语 impejorare（使变更坏）经古法语 empeirier 成英语 impair；与 par（相等）一支的 pair/repair 无关",
+      "core_concept": "to make a thing worse than it was / 把原本好的弄得更差一层",
+      "core_image": "一块完好的板子被磕出缺口，往后每次用都差一点",
+      "english_definition": "worse, to worsen",
+      "word_ids": [
+        "impair"
       ]
     }
   ]

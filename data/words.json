@@ -32732,6 +32732,388 @@
         "港口/口岸：货物在船与岸之间过渡的那个口"
       ],
       "recall_hint": "portus（港、门道）→ 货物由船转陆的那个口"
+    },
+    {
+      "id": "edit",
+      "word": "edit",
+      "pos": "verb",
+      "phonetic": "/ˈedɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "edere-publish"
+      ],
+      "root_logic": "edere（交出、发布）→ 为交出去而先把文字勾划整治一遍",
+      "origin": "英语 edit 由 editor 反向构词而来，源头是拉丁语 edere（交出、发表）",
+      "native_definition": "to prepare written work for publication by correcting and cutting it",
+      "core_concept": "working over a text so it is fit to be handed out – 把文字整治到可以交出去的程度",
+      "core_image": "红笔在稿子上圈掉一段，又在空白处补了两行",
+      "chinese": [
+        "编辑",
+        "校订",
+        "剪辑"
+      ],
+      "examples": [
+        "She edits a weekly magazine.",
+        "He edited the footage down to ten minutes."
+      ],
+      "synonyms": [
+        "revise",
+        "correct"
+      ],
+      "antonyms": [],
+      "related": [
+        "editor",
+        "edition"
+      ],
+      "semantic_expansions": [
+        "编辑/校订：为交出去而整治文字",
+        "剪辑：把影像同样整治成可交出的一版"
+      ],
+      "recall_hint": "edere（交出）→ 为交出去而先整治一遍"
+    },
+    {
+      "id": "editor",
+      "word": "editor",
+      "pos": "noun",
+      "phonetic": "/ˈedɪtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "edere-publish"
+      ],
+      "root_logic": "edit（整治交出）+ -or（人）→ 负责整治并定稿交出的人",
+      "origin": "拉丁语 editor（交出者、发表者），来自 edere",
+      "native_definition": "a person who prepares and decides the content of a publication",
+      "core_concept": "the one who works a text over and decides it may go out – 把稿子整治定稿、点头放行的人",
+      "core_image": "他把最后一页放下，签了字，稿子这才准许送印",
+      "chinese": [
+        "编辑",
+        "主编"
+      ],
+      "examples": [
+        "The editor rejected the article.",
+        "She is editor of the local paper."
+      ],
+      "synonyms": [
+        "revise",
+        "compile"
+      ],
+      "antonyms": [],
+      "related": [
+        "edit",
+        "editorial"
+      ],
+      "semantic_expansions": [
+        "编辑/主编：整治稿件并定稿放行的人"
+      ],
+      "recall_hint": "edit（整治交出）+ -or（人）→ 定稿放行的那个人"
+    },
+    {
+      "id": "editorial",
+      "word": "editorial",
+      "pos": "adjective",
+      "phonetic": "/ˌedɪˈtɔːriəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "edere-publish"
+      ],
+      "root_logic": "editor（定稿人）+ -ial（…的）→ 属于定稿人立场的；名词指报社表态的那篇",
+      "origin": "英语 editorial，来自 editor ← 拉丁语 edere",
+      "native_definition": "relating to the editing of a publication; an article giving a paper's opinion",
+      "core_concept": "belonging to the one who decides what goes out – 属于那位定稿放行者的",
+      "core_image": "头版下方那一栏不署名，说的是整家报社的立场",
+      "chinese": [
+        "编辑的",
+        "社论"
+      ],
+      "examples": [
+        "She joined the editorial team.",
+        "The paper ran an editorial on the strike."
+      ],
+      "synonyms": [
+        "column",
+        "commentary"
+      ],
+      "antonyms": [],
+      "related": [
+        "editor",
+        "edit"
+      ],
+      "semantic_expansions": [
+        "编辑的：属于定稿放行者职务的",
+        "社论：由定稿方出面表态的那一篇"
+      ],
+      "recall_hint": "editor（定稿人）+ -ial → 属于定稿放行者的"
+    },
+    {
+      "id": "edition",
+      "word": "edition",
+      "pos": "noun",
+      "phonetic": "/ɪˈdɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "edere-publish"
+      ],
+      "root_logic": "edere（交出、发布）+ -ition → 一次交出去的那一批，即某一版",
+      "origin": "拉丁语 editio（发表、发行），来自 edere（交出）",
+      "native_definition": "a particular issue or version of a book, paper, or broadcast",
+      "core_concept": "one batch as it was given out that time – 那一回交出去的那一批",
+      "core_image": "扉页上印着第三回付印的字样，内容与头一回已有出入",
+      "chinese": [
+        "版本",
+        "版次",
+        "一期"
+      ],
+      "examples": [
+        "This is the second edition of the book.",
+        "The evening edition sold out."
+      ],
+      "synonyms": [
+        "version",
+        "issue"
+      ],
+      "antonyms": [],
+      "related": [
+        "edit",
+        "editor"
+      ],
+      "semantic_expansions": [
+        "版本/版次：某一回交出去的那一批",
+        "一期：报刊按次交出的其中一份"
+      ],
+      "recall_hint": "edere（交出）+ -ition → 一次交出去的那一批"
+    },
+    {
+      "id": "attain",
+      "word": "attain",
+      "pos": "verb",
+      "phonetic": "/əˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tangere"
+      ],
+      "root_logic": "at-（ad- 靠向）+ tain（触及）→ 一路伸手过去，终于够到",
+      "origin": "古法语 ataindre，来自拉丁语 attingere（触及）← ad＋tangere（触）；英语拼作 -tain 受 contain/obtain 类推影响，词源仍在 tangere 一支",
+      "native_definition": "to succeed in reaching or achieving something after effort",
+      "core_concept": "stretching until the fingers finally close on it – 一直伸，直到指尖终于搭上",
+      "core_image": "指尖一寸寸往上探，最后扣住了崖顶那道边沿",
+      "chinese": [
+        "达到",
+        "获得",
+        "实现"
+      ],
+      "examples": [
+        "She attained the rank of captain.",
+        "Few attain such skill so young."
+      ],
+      "synonyms": [
+        "achieve",
+        "reach"
+      ],
+      "antonyms": [
+        "fail"
+      ],
+      "related": [
+        "contain",
+        "obtain"
+      ],
+      "semantic_expansions": [
+        "达到/实现：一路伸手过去终于够到",
+        "获得：够到之后归入自己手里"
+      ],
+      "recall_hint": "at-（靠向）+ tain（触及）→ 伸手过去终于够到"
+    },
+    {
+      "id": "impair",
+      "word": "impair",
+      "pos": "verb",
+      "phonetic": "/ɪmˈpeə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "peior"
+      ],
+      "root_logic": "im-（in- 使）+ pair（更坏）→ 使某物比原先更差 → 损害",
+      "origin": "古法语 empeirier，来自晚期拉丁语 impejorare（使变坏）← in＋peior（更坏）；与 pair（一对，来自 par 相等）不同源",
+      "native_definition": "to weaken or damage something, especially a faculty or ability",
+      "core_concept": "knocking a sound thing down a notch so it works less well – 把本来好的磕掉一层，从此不如原先",
+      "core_image": "完好的板面被磕出一道缺口，再用就总差着那一点",
+      "chinese": [
+        "损害",
+        "削弱",
+        "使受损"
+      ],
+      "examples": [
+        "Loud noise can impair your hearing.",
+        "Fatigue impaired his judgement."
+      ],
+      "synonyms": [
+        "weaken",
+        "damage"
+      ],
+      "antonyms": [
+        "improve",
+        "enhance"
+      ],
+      "related": [
+        "pair",
+        "repair"
+      ],
+      "semantic_expansions": [
+        "损害/削弱：把本来好的弄差一层",
+        "使受损：功能被磕缺后不如原先"
+      ],
+      "recall_hint": "im-（使）+ pair（更坏）→ 使之比原先更差"
+    },
+    {
+      "id": "flu",
+      "word": "flu",
+      "pos": "noun",
+      "phonetic": "/fluː/",
+      "decomposable": "root",
+      "root_ids": [
+        "fluere"
+      ],
+      "root_logic": "influenza 的截短：in-（进入）+ flu（流）→ 流进体内的那股病气",
+      "origin": "英语 flu 是意大利语 influenza 的截短形；influenza ← 拉丁语 influentia ← influere（in＋fluere 流入），旧时以为疾病由星辰之气「流入」人身",
+      "native_definition": "a common illness caused by a virus, with fever and aching",
+      "core_concept": "the sickness once thought to flow into the body from outside – 旧时认为自外流进体内的那股病气",
+      "core_image": "一屋子人接连倒下，像有什么顺着空气淌进了身体",
+      "chinese": [
+        "流感",
+        "流行性感冒"
+      ],
+      "examples": [
+        "She caught the flu last winter.",
+        "Half the office is off with flu."
+      ],
+      "synonyms": [
+        "influenza",
+        "illness"
+      ],
+      "antonyms": [],
+      "related": [
+        "influence",
+        "fluent"
+      ],
+      "semantic_expansions": [
+        "流感/流行性感冒：旧说自外流进体内的那股病气"
+      ],
+      "recall_hint": "influenza 截短 → in-（进入）+ flu（流）→ 流进体内的病气"
+    },
+    {
+      "id": "press",
+      "word": "press",
+      "pos": "verb / noun",
+      "phonetic": "/pres/",
+      "decomposable": "root",
+      "root_ids": [
+        "premere"
+      ],
+      "root_logic": "premere（压、按）→ 用力压下去；引申为压印出版的那一行，即报界",
+      "origin": "古法语 presser，来自拉丁语 pressare ← premere（压、按）",
+      "native_definition": "to push firmly on something; also newspapers and journalists collectively",
+      "core_concept": "bearing down on a thing with steady force – 稳稳使力压在物上",
+      "core_image": "掌根压在纸面上，油墨透过版子印了上去；报馆的机器整夜这样压着",
+      "chinese": [
+        "按",
+        "压",
+        "报界",
+        "新闻界"
+      ],
+      "examples": [
+        "Press the button to start.",
+        "The press gathered outside the court."
+      ],
+      "synonyms": [
+        "push",
+        "squeeze"
+      ],
+      "antonyms": [],
+      "related": [
+        "pressure",
+        "impress"
+      ],
+      "semantic_expansions": [
+        "按/压：稳稳使力压在物上",
+        "报界/新闻界：靠压印机器出版的那一行"
+      ],
+      "recall_hint": "premere（压、按）→ 使力压下；压印成版即报界"
+    },
+    {
+      "id": "script",
+      "word": "script",
+      "pos": "noun",
+      "phonetic": "/skrɪpt/",
+      "decomposable": "root",
+      "root_ids": [
+        "scrib-script"
+      ],
+      "root_logic": "scribere（写、刻画）的过去分词 scriptum → 写下来的那份文字",
+      "origin": "拉丁语 scriptum（写成之物），scribere（写）的过去分词中性形",
+      "native_definition": "the written text of a play or film; a system of writing",
+      "core_concept": "the thing as it stands written down – 已经写下来、定在纸面上的那份",
+      "core_image": "演员手里那几页纸被翻得起了毛边，台词全在上面",
+      "chinese": [
+        "剧本",
+        "脚本",
+        "字体"
+      ],
+      "examples": [
+        "He is writing a film script.",
+        "The inscription uses an ancient script."
+      ],
+      "synonyms": [
+        "screenplay",
+        "text"
+      ],
+      "antonyms": [],
+      "related": [
+        "describe",
+        "manuscript"
+      ],
+      "semantic_expansions": [
+        "剧本/脚本：写下来供照着演的那份文字",
+        "字体：文字写下来所用的那套形体"
+      ],
+      "recall_hint": "scribere（写）的过去分词 → 已写下定在纸面的那份"
+    },
+    {
+      "id": "reference",
+      "word": "reference",
+      "pos": "noun",
+      "phonetic": "/ˈrefrəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "ferre"
+      ],
+      "root_logic": "re-（回）+ fer（带）+ -ence → 把话头带回某处去 → 提及、依据",
+      "origin": "英语 reference 来自 refer ← 拉丁语 referre（带回、归于）← re＋ferre（带）",
+      "native_definition": "a mention of something; a source consulted; a letter about someone's ability",
+      "core_concept": "carrying the matter back to the place it came from – 把话头带回它的出处",
+      "core_image": "他讲到一半停下，翻回书后那一栏，指着出处给人看",
+      "chinese": [
+        "提及",
+        "参考",
+        "推荐信"
+      ],
+      "examples": [
+        "She made no reference to the delay.",
+        "Please list your references at the end."
+      ],
+      "synonyms": [
+        "mention",
+        "source"
+      ],
+      "antonyms": [],
+      "related": [
+        "refer",
+        "transfer"
+      ],
+      "semantic_expansions": [
+        "提及：把话头带到某处",
+        "参考：把话头带回出处去核对",
+        "推荐信：把某人来历带回给对方看的那封"
+      ],
+      "recall_hint": "re-（回）+ fer（带）→ 把话头带回它的出处"
     }
   ]
 }

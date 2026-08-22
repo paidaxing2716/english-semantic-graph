@@ -38,7 +38,8 @@
         "oppress",
         "compression",
         "impression",
-        "impressive"
+        "impressive",
+        "press"
       ]
     },
     {
@@ -195,7 +196,8 @@
         "ascribe",
         "inscribe",
         "description",
-        "prescription"
+        "prescription",
+        "script"
       ]
     },
     {
@@ -748,7 +750,8 @@
         "fluent",
         "influence",
         "influential",
-        "superfluous"
+        "superfluous",
+        "flu"
       ]
     },
     {
@@ -1584,7 +1587,8 @@
         "refer",
         "confer",
         "infer",
-        "preferable"
+        "preferable",
+        "reference"
       ]
     },
     {
@@ -2609,6 +2613,45 @@
         "constrain",
         "restrain",
         "strain"
+      ]
+    },
+    {
+      "id": "concept-edere-give-out",
+      "concept": "to give a thing out to the public",
+      "chinese": "整治交出",
+      "core_image": "稿子逐页勾划删补，理齐了才递出门去",
+      "root_ids": [
+        "edere-publish"
+      ],
+      "word_ids": [
+        "edit",
+        "edition",
+        "editor",
+        "editorial"
+      ]
+    },
+    {
+      "id": "concept-tangere-touch",
+      "concept": "to reach far enough to touch a thing",
+      "chinese": "伸手触及",
+      "core_image": "指尖向上伸，最后一寸搭上了崖沿",
+      "root_ids": [
+        "tangere"
+      ],
+      "word_ids": [
+        "attain"
+      ]
+    },
+    {
+      "id": "concept-peior-worsen",
+      "concept": "to make a thing worse than it was",
+      "chinese": "变得更坏",
+      "core_image": "完好的板子被磕出缺口，往后每次用都差一点",
+      "root_ids": [
+        "peior"
+      ],
+      "word_ids": [
+        "impair"
       ]
     }
   ]
