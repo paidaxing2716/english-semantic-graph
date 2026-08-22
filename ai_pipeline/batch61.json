@@ -1,0 +1,1944 @@
+{
+  "roots": [
+    {
+      "id": "putare",
+      "root": "putare",
+      "variants": [
+        "put",
+        "pute",
+        "count"
+      ],
+      "origin": "拉丁语 putare（修剪，引申为清点、估算）；computare（com＋putare 合起来算）经古法语 conter 派出 count 一支",
+      "core_concept": "reckoning a thing up to settle what it comes to / 把东西点算一遍，定出它算多少",
+      "core_image": "手指点着桌上的钱一枚枚过，嘴里跟着报数",
+      "english_definition": "to prune, reckon, estimate",
+      "word_ids": []
+    },
+    {
+      "id": "fallere",
+      "root": "fallere",
+      "variants": [
+        "fail",
+        "fals",
+        "fault"
+      ],
+      "origin": "拉丁语 fallere（使跌倒、骗过），过去分词 falsus；本义是脚下一空、人没接住，故「失手」与「假的」出自同一意象",
+      "core_concept": "the footing giving way so the thing does not hold / 脚下一空，事没托住",
+      "core_image": "踩上去那块板忽然塌下去，手里的东西一起掉了",
+      "english_definition": "to trip up, deceive",
+      "word_ids": []
+    },
+    {
+      "id": "densus",
+      "root": "densus",
+      "variants": [
+        "dens",
+        "dense"
+      ],
+      "origin": "拉丁语 densus（稠的、挤实的），动词 densare 表「使变稠」",
+      "core_concept": "packed so tight there is no gap left / 挤得实实的，没留缝",
+      "core_image": "一把棉花被手攥紧，攥到指缝里再挤不出空气",
+      "english_definition": "thick, crowded",
+      "word_ids": []
+    },
+    {
+      "id": "discus",
+      "root": "discus",
+      "variants": [
+        "disc",
+        "dish",
+        "desk",
+        "disk"
+      ],
+      "origin": "拉丁语 discus（圆盘、掷饼）← 希腊语 diskos；扁圆一片这个形状，派出盘子、圆片、桌板三支",
+      "core_concept": "a flat round thing you set things on or throw / 扁圆的一片，用来盛放或掷出",
+      "core_image": "一块扁圆的板，边上一圈微微翘起",
+      "english_definition": "disc, flat round plate",
+      "word_ids": []
+    },
+    {
+      "id": "phainein",
+      "root": "phainein",
+      "variants": [
+        "phas",
+        "phan",
+        "fan"
+      ],
+      "origin": "希腊语 phainein（使显现、露出来）；phasis 表「显出的相」，phantasia 表「心里现出的影」，英语 fantasy、fancy 同出后者",
+      "core_concept": "bringing a thing into sight so it shows / 让某样东西现出来、被看见",
+      "core_image": "帘子一拉开，原先看不见的那样东西露在光里",
+      "english_definition": "to show, bring to light",
+      "word_ids": []
+    },
+    {
+      "id": "fatum",
+      "root": "fatum",
+      "variants": [
+        "fat",
+        "fai",
+        "fay"
+      ],
+      "origin": "拉丁语 fatum（神所说定的事）← fari（说）的过去分词中性形；Fata（司命三女神）经古法语 fae 派出 fairy 一支",
+      "core_concept": "what was spoken once and cannot be taken back / 一旦说定就收不回的那件事",
+      "core_image": "一句话说出口，纸上就照那句写下，谁也改不动",
+      "english_definition": "that which has been spoken, destiny",
+      "word_ids": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-putare-reckon",
+      "concept": "reckoning a thing up to settle what it comes to",
+      "chinese": "点算估定",
+      "core_image": "手指点着桌上的钱一枚枚过，嘴里跟着报数",
+      "root_ids": [
+        "putare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-fallere-give-way",
+      "concept": "the footing giving way so the thing does not hold",
+      "chinese": "脚下一空",
+      "core_image": "踩上去那块板忽然塌下去，手里的东西一起掉了",
+      "root_ids": [
+        "fallere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-densus-packed",
+      "concept": "packed so tight there is no gap left",
+      "chinese": "挤得实",
+      "core_image": "一把棉花被攥紧，攥到指缝里再挤不出空气",
+      "root_ids": [
+        "densus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-discus-flat-round",
+      "concept": "a flat round thing you set things on or throw",
+      "chinese": "扁圆一片",
+      "core_image": "一块扁圆的板，边上一圈微微翘起",
+      "root_ids": [
+        "discus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-phainein-show",
+      "concept": "bringing a thing into sight so it shows",
+      "chinese": "使之现出",
+      "core_image": "帘子一拉开，原先看不见的那样东西露在光里",
+      "root_ids": [
+        "phainein"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-fatum-spoken-doom",
+      "concept": "what was spoken once and cannot be taken back",
+      "chinese": "说定之数",
+      "core_image": "一句话说出口，纸上就照那句写下，谁也改不动",
+      "root_ids": [
+        "fatum"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": [
+      "putare",
+      "phainein"
+    ],
+    "domain-force": [
+      "fallere",
+      "fatum"
+    ],
+    "domain-shape": [
+      "densus",
+      "discus"
+    ]
+  },
+  "words": [
+    {
+      "id": "count",
+      "word": "count",
+      "pos": "verb",
+      "phonetic": "/kaʊnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "putare"
+      ],
+      "root_logic": "com-（合起来）+ put（算）→ computare（合算）经古法语 conter → 一个个点过",
+      "origin": "古法语 conter ← 拉丁语 computare（合算）← com＋putare（清点）",
+      "native_definition": "to say numbers in order; to find the total of things",
+      "core_concept": "going over items one by one so none is passed twice – 一件件点过去，不重不漏",
+      "core_image": "他指着一排箱子挨个点，点到哪儿手就停在哪儿",
+      "chinese": [
+        "数",
+        "计数",
+        "算作"
+      ],
+      "examples": [
+        "She counted the coins twice.",
+        "Every vote counts here."
+      ],
+      "synonyms": [
+        "number",
+        "add"
+      ],
+      "antonyms": [],
+      "related": [
+        "compute",
+        "discount"
+      ],
+      "semantic_expansions": [
+        "数/计数：一件件点过去定出总数",
+        "算作：把某物点进这一类里"
+      ],
+      "recall_hint": "com-（合起来）+ put（算）→ 一个个点过"
+    },
+    {
+      "id": "compute",
+      "word": "compute",
+      "pos": "verb",
+      "phonetic": "/kəmˈpjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "putare"
+      ],
+      "root_logic": "com-（合起来）+ pute（算）→ 把各项合起来算出结果",
+      "origin": "拉丁语 computare（合算）← com＋putare（清点、估算）",
+      "native_definition": "to calculate an answer using numbers",
+      "core_concept": "putting all the parts together to get one figure – 把各项合到一处，算出一个数",
+      "core_image": "各栏数字挨着加下来，最后一格填出总数",
+      "chinese": [
+        "计算",
+        "算出"
+      ],
+      "examples": [
+        "The program computes the average.",
+        "He computed the cost in minutes."
+      ],
+      "synonyms": [
+        "calculate",
+        "reckon"
+      ],
+      "antonyms": [],
+      "related": [
+        "count",
+        "discount"
+      ],
+      "semantic_expansions": [
+        "计算/算出：把各项合起来得出一个数"
+      ],
+      "recall_hint": "com-（合起来）+ pute（算）→ 合起来算出结果"
+    },
+    {
+      "id": "discount",
+      "word": "discount",
+      "pos": "noun",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "putare"
+      ],
+      "root_logic": "dis-（去掉）+ count（算）→ 从原数里算掉一部分 → 折扣",
+      "origin": "古法语 desconter（扣除）← dis＋conter ← 拉丁语 computare",
+      "native_definition": "an amount taken off the usual price; to treat as unimportant",
+      "core_concept": "the part struck off the total before you pay – 付钱之前从总数里划掉的那一截",
+      "core_image": "标价被笔划掉，旁边写了个小些的数",
+      "chinese": [
+        "折扣",
+        "打折",
+        "不予考虑"
+      ],
+      "examples": [
+        "They offered a ten percent discount.",
+        "Do not discount her advice."
+      ],
+      "synonyms": [
+        "reduction",
+        "cut"
+      ],
+      "antonyms": [],
+      "related": [
+        "count",
+        "compute"
+      ],
+      "semantic_expansions": [
+        "折扣/打折：从总数里算掉的那一截",
+        "不予考虑：把某说法从考量里划掉"
+      ],
+      "recall_hint": "dis-（去掉）+ count（算）→ 从原数里算掉一部分"
+    },
+    {
+      "id": "dispute",
+      "word": "dispute",
+      "pos": "noun",
+      "phonetic": "/dɪˈspjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "putare"
+      ],
+      "root_logic": "dis-（分开）+ pute（算）→ 各算各的、算不到一处 → 争执",
+      "origin": "古法语 desputer ← 拉丁语 disputare（各自估算、辩论）← dis＋putare",
+      "native_definition": "a disagreement or argument between sides",
+      "core_concept": "two reckonings that will not come out the same – 两边各算一遍，算出来的数对不上",
+      "core_image": "两人各拿一张纸算同一笔账，末了数字差着一截",
+      "chinese": [
+        "争执",
+        "争论",
+        "质疑"
+      ],
+      "examples": [
+        "The dispute lasted for months.",
+        "Nobody disputes her skill."
+      ],
+      "synonyms": [
+        "quarrel",
+        "argue"
+      ],
+      "antonyms": [
+        "agreement"
+      ],
+      "related": [
+        "compute",
+        "count"
+      ],
+      "semantic_expansions": [
+        "争执/争论：各算各的、算不到一处",
+        "质疑：不认对方那笔算法"
+      ],
+      "recall_hint": "dis-（分开）+ pute（算）→ 各算各的、对不上"
+    },
+    {
+      "id": "deputy",
+      "word": "deputy",
+      "pos": "noun",
+      "phonetic": "/ˈdepjuti/",
+      "decomposable": "root",
+      "root_ids": [
+        "putare"
+      ],
+      "root_logic": "de-（往下）+ put（派定）→ 被指派下来顶事的人 → 副职",
+      "origin": "古法语 deputé ← 晚期拉丁语 deputare（指派）← de＋putare（估定、派定）",
+      "native_definition": "a person given authority to act for someone else",
+      "core_concept": "the one named to stand in when the first is away – 被点定、正主不在时顶上的那个",
+      "core_image": "名册上头一个名字底下写着第二个，正主不在就他签字",
+      "chinese": [
+        "副手",
+        "代理人",
+        "议员"
+      ],
+      "examples": [
+        "The deputy signed in her absence.",
+        "He was elected deputy last year."
+      ],
+      "synonyms": [
+        "assistant",
+        "delegate"
+      ],
+      "antonyms": [],
+      "related": [
+        "compute",
+        "count"
+      ],
+      "semantic_expansions": [
+        "副手/代理人：被点定、正主不在时顶上的那个",
+        "议员：受选派代表一方的那个"
+      ],
+      "recall_hint": "de-（往下）+ put（派定）→ 被指派顶事的人"
+    },
+    {
+      "id": "fail",
+      "word": "fail",
+      "pos": "verb",
+      "phonetic": "/feɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fallere"
+      ],
+      "root_logic": "fallere（使跌倒）→ 该托住的没托住 → 没做成",
+      "origin": "古法语 faillir ← 通俗拉丁语 fallire ← 拉丁语 fallere（使跌倒、骗过）",
+      "native_definition": "to not succeed in doing something; to stop working",
+      "core_concept": "the moment the thing that should have held gives out – 本该托住的那一下没托住",
+      "core_image": "绳子在半空断了，吊着的东西直接落到地上",
+      "chinese": [
+        "失败",
+        "不及格",
+        "失灵"
+      ],
+      "examples": [
+        "The plan failed completely.",
+        "The engine failed on the hill."
+      ],
+      "synonyms": [
+        "collapse",
+        "sink"
+      ],
+      "antonyms": [
+        "succeed"
+      ],
+      "related": [
+        "failure",
+        "false"
+      ],
+      "semantic_expansions": [
+        "失败/不及格：该成的没成",
+        "失灵：该运转的忽然不动了"
+      ],
+      "recall_hint": "fallere（使跌倒）→ 该托住的没托住"
+    },
+    {
+      "id": "failure",
+      "word": "failure",
+      "pos": "noun",
+      "phonetic": "/ˈfeɪljə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "fallere"
+      ],
+      "root_logic": "fail（没做成）+ -ure → 没做成这件事，或没做成的那个人/物",
+      "origin": "英语 failure，来自 fail ← 拉丁语 fallere",
+      "native_definition": "a lack of success; a person or thing that does not work",
+      "core_concept": "what is left after the footing gave way – 塌下去之后剩下的那个局面",
+      "core_image": "地上一堆碎的，旁边立着那截断了的绳",
+      "chinese": [
+        "失败",
+        "故障",
+        "失败者"
+      ],
+      "examples": [
+        "The project ended in failure.",
+        "A power failure hit the town."
+      ],
+      "synonyms": [
+        "defeat",
+        "breakdown"
+      ],
+      "antonyms": [
+        "success"
+      ],
+      "related": [
+        "fail",
+        "false"
+      ],
+      "semantic_expansions": [
+        "失败：没做成这件事",
+        "故障：机件该动而不动那一下",
+        "失败者：屡屡没成的那个人"
+      ],
+      "recall_hint": "fail（没做成）+ -ure → 没做成的局面"
+    },
+    {
+      "id": "false",
+      "word": "false",
+      "pos": "adjective",
+      "phonetic": "/fɔːls/",
+      "decomposable": "root",
+      "root_ids": [
+        "fallere"
+      ],
+      "root_logic": "falsus（fallere 的过去分词）→ 骗过人的 → 假的、不实的",
+      "origin": "拉丁语 falsus（假的、骗人的），fallere（骗过）的过去分词",
+      "native_definition": "not true or real; intended to deceive",
+      "core_concept": "the thing that looks sound until your weight is on it – 看着结实，一压上去才知道不是",
+      "core_image": "那块板漆得跟别处一样，踩上去才发现底下是空的",
+      "chinese": [
+        "错误的",
+        "假的",
+        "虚伪的"
+      ],
+      "examples": [
+        "He gave a false name.",
+        "That assumption is false."
+      ],
+      "synonyms": [
+        "fake",
+        "wrong"
+      ],
+      "antonyms": [
+        "true",
+        "genuine"
+      ],
+      "related": [
+        "fault",
+        "fail"
+      ],
+      "semantic_expansions": [
+        "错误的：与实际不符",
+        "假的：造出来冒充真的",
+        "虚伪的：待人时装出的那副样子"
+      ],
+      "recall_hint": "falsus（fallere 的过去分词）→ 骗过人的、假的"
+    },
+    {
+      "id": "fault",
+      "word": "fault",
+      "pos": "noun",
+      "phonetic": "/fɔːlt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fallere"
+      ],
+      "root_logic": "fallere（失手）→ 出岔的那一处 → 过失、缺陷",
+      "origin": "古法语 faute ← 通俗拉丁语 fallita（失手之处）← 拉丁语 fallere",
+      "native_definition": "a mistake or weakness; responsibility for something wrong",
+      "core_concept": "the one spot where it gave way, and whose hand let it – 塌掉的那一处，以及那是谁的手松了",
+      "core_image": "查下来是那一颗螺丝没拧紧，别处都好",
+      "chinese": [
+        "过失",
+        "缺点",
+        "故障"
+      ],
+      "examples": [
+        "It was my fault entirely.",
+        "The machine has a design fault."
+      ],
+      "synonyms": [
+        "mistake",
+        "flaw"
+      ],
+      "antonyms": [
+        "merit"
+      ],
+      "related": [
+        "faulty",
+        "false"
+      ],
+      "semantic_expansions": [
+        "过失：出岔那一下该谁负责",
+        "缺点/故障：物件上出岔的那一处"
+      ],
+      "recall_hint": "fallere（失手）→ 出岔的那一处"
+    },
+    {
+      "id": "faulty",
+      "word": "faulty",
+      "pos": "adjective",
+      "phonetic": "/ˈfɔːlti/",
+      "decomposable": "root",
+      "root_ids": [
+        "fallere"
+      ],
+      "root_logic": "fault（出岔之处）+ -y → 带着毛病的",
+      "origin": "英语 faulty，来自 fault ← 拉丁语 fallere",
+      "native_definition": "not working properly because of a defect",
+      "core_concept": "of the kind that will give way somewhere – 属于「总有一处会塌」的那种",
+      "core_image": "同一批插头里有几个一插就跳闸，别的都正常",
+      "chinese": [
+        "有缺陷的",
+        "有故障的"
+      ],
+      "examples": [
+        "The faulty wiring caused the fire.",
+        "They replaced the faulty part."
+      ],
+      "synonyms": [
+        "broken",
+        "imperfect"
+      ],
+      "antonyms": [
+        "sound"
+      ],
+      "related": [
+        "fault",
+        "fail"
+      ],
+      "semantic_expansions": [
+        "有缺陷的/有故障的：带着毛病、总有一处会塌的那种"
+      ],
+      "recall_hint": "fault（出岔之处）+ -y → 带着毛病的"
+    },
+    {
+      "id": "dense",
+      "word": "dense",
+      "pos": "adjective",
+      "phonetic": "/dens/",
+      "decomposable": "root",
+      "root_ids": [
+        "densus"
+      ],
+      "root_logic": "densus（稠的）→ 单位地方里挤了很多 → 密集的",
+      "origin": "拉丁语 densus（稠密的、挤实的）",
+      "native_definition": "having parts packed closely together; hard to see through",
+      "core_concept": "so much crowded into one space that little else fits – 一处地方里挤了太多，别的塞不进",
+      "core_image": "树干挨着树干，走进去几步就看不见来路",
+      "chinese": [
+        "密集的",
+        "浓密的",
+        "愚钝的"
+      ],
+      "examples": [
+        "The forest is very dense here.",
+        "Dense fog closed the airport."
+      ],
+      "synonyms": [
+        "thick",
+        "close"
+      ],
+      "antonyms": [
+        "thin",
+        "loose"
+      ],
+      "related": [
+        "density",
+        "condense"
+      ],
+      "semantic_expansions": [
+        "密集的/浓密的：一处地方里挤了很多",
+        "愚钝的：脑子像塞满了，转不动"
+      ],
+      "recall_hint": "densus（稠的）→ 一处地方里挤了很多"
+    },
+    {
+      "id": "density",
+      "word": "density",
+      "pos": "noun",
+      "phonetic": "/ˈdensəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "densus"
+      ],
+      "root_logic": "dense（密集的）+ -ity → 挤得多密这个量",
+      "origin": "拉丁语 densitas（稠密）← densus",
+      "native_definition": "how tightly packed something is; mass per unit of volume",
+      "core_concept": "the measure of how much is crowded into one space – 一处地方里究竟挤了多少的那个量",
+      "core_image": "同样大的两只盒子，一只沉手一只轻，装的东西疏密不同",
+      "chinese": [
+        "密度",
+        "稠密度"
+      ],
+      "examples": [
+        "Bone density falls with age.",
+        "The city has high population density."
+      ],
+      "synonyms": [
+        "concentration",
+        "weight"
+      ],
+      "antonyms": [],
+      "related": [
+        "dense",
+        "condense"
+      ],
+      "semantic_expansions": [
+        "密度/稠密度：一处地方里挤了多少的那个量"
+      ],
+      "recall_hint": "dense（密集的）+ -ity → 挤得多密这个量"
+    },
+    {
+      "id": "condense",
+      "word": "condense",
+      "pos": "verb",
+      "phonetic": "/kənˈdens/",
+      "decomposable": "root",
+      "root_ids": [
+        "densus"
+      ],
+      "root_logic": "con-（一起）+ dense（挤实）→ 往一处挤紧 → 压缩、凝结",
+      "origin": "拉丁语 condensare（使变稠）← con＋densare ← densus（稠的）",
+      "native_definition": "to make something smaller or shorter; to change from gas to liquid",
+      "core_concept": "squeezing what was spread out into one tighter mass – 把摊开的往一处挤成更紧的一团",
+      "core_image": "满满一锅汤熬到只剩碗底那点，味道全收在里头",
+      "chinese": [
+        "压缩",
+        "浓缩",
+        "凝结"
+      ],
+      "examples": [
+        "He condensed the report to one page.",
+        "Steam condenses on cold glass."
+      ],
+      "synonyms": [
+        "compress",
+        "shorten"
+      ],
+      "antonyms": [
+        "expand"
+      ],
+      "related": [
+        "dense",
+        "density"
+      ],
+      "semantic_expansions": [
+        "压缩/浓缩：把摊开的往一处挤紧",
+        "凝结：气挤成液那一下"
+      ],
+      "recall_hint": "con-（一起）+ dense（挤实）→ 往一处挤紧"
+    },
+    {
+      "id": "disc",
+      "word": "disc",
+      "pos": "noun",
+      "phonetic": "/dɪsk/",
+      "decomposable": "root",
+      "root_ids": [
+        "discus"
+      ],
+      "root_logic": "discus（圆盘）→ 扁而圆的那一片",
+      "origin": "拉丁语 discus（圆盘）← 希腊语 diskos（掷饼）",
+      "native_definition": "a thin flat round object",
+      "core_concept": "the thin round piece you can spin between two fingers – 两指一夹就能转起来的那薄薄一圆片",
+      "core_image": "薄薄一片圆的，对着光能看见一圈圈细纹",
+      "chinese": [
+        "圆盘",
+        "唱片",
+        "椎间盘"
+      ],
+      "examples": [
+        "He put the disc in the player.",
+        "She slipped a disc in her back."
+      ],
+      "synonyms": [
+        "circle",
+        "plate"
+      ],
+      "antonyms": [],
+      "related": [
+        "dish",
+        "desk"
+      ],
+      "semantic_expansions": [
+        "圆盘：扁而圆的那一片",
+        "唱片：刻了纹的那种圆片",
+        "椎间盘：脊椎间垫着的那片圆软骨"
+      ],
+      "recall_hint": "discus（圆盘）→ 扁而圆的那一片"
+    },
+    {
+      "id": "dish",
+      "word": "dish",
+      "pos": "noun",
+      "phonetic": "/dɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "discus"
+      ],
+      "root_logic": "discus（圆盘）经古英语 disc → 盛食物的那只浅圆器",
+      "origin": "古英语 disc（盘）← 拉丁语 discus（圆盘）← 希腊语 diskos",
+      "native_definition": "a shallow container for food; food prepared in a particular way",
+      "core_concept": "the shallow round thing food is set into – 把菜放进去的那只浅圆器",
+      "core_image": "浅浅一只圆的，菜盛在里头边上还留一圈",
+      "chinese": [
+        "盘子",
+        "菜",
+        "一道菜"
+      ],
+      "examples": [
+        "Wash the dishes after dinner.",
+        "This dish takes an hour to cook."
+      ],
+      "synonyms": [
+        "plate",
+        "bowl"
+      ],
+      "antonyms": [],
+      "related": [
+        "disc",
+        "desk"
+      ],
+      "semantic_expansions": [
+        "盘子：盛食物的那只浅圆器",
+        "菜/一道菜：装在那只器里端上来的那样吃食"
+      ],
+      "recall_hint": "discus（圆盘）→ 盛食物的浅圆器"
+    },
+    {
+      "id": "desk",
+      "word": "desk",
+      "pos": "noun",
+      "phonetic": "/desk/",
+      "decomposable": "root",
+      "root_ids": [
+        "discus"
+      ],
+      "root_logic": "discus（圆盘、板）经中世纪拉丁语 desca → 写字用的那块板 → 书桌",
+      "origin": "中世纪拉丁语 desca（桌）← 拉丁语 discus（圆盘、扁板）",
+      "native_definition": "a piece of furniture with a flat top for writing or working",
+      "core_concept": "the flat board set at hand height to work on – 架到手边高度、供人在上头做事的那块平板",
+      "core_image": "一块平板架在两侧支架上，胳膊搭上去正好",
+      "chinese": [
+        "书桌",
+        "办公桌",
+        "服务台"
+      ],
+      "examples": [
+        "Papers covered the whole desk.",
+        "Ask at the front desk."
+      ],
+      "synonyms": [
+        "table",
+        "counter"
+      ],
+      "antonyms": [],
+      "related": [
+        "disc",
+        "dish"
+      ],
+      "semantic_expansions": [
+        "书桌/办公桌：架到手边、供人做事的那块平板",
+        "服务台：同样一块板，隔在办事人与客人之间"
+      ],
+      "recall_hint": "discus（扁板）→ desca → 写字用的那块板"
+    },
+    {
+      "id": "emphasis",
+      "word": "emphasis",
+      "pos": "noun",
+      "phonetic": "/ˈemfəsɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "phainein"
+      ],
+      "root_logic": "em-（en- 在内）+ phas（显现）+ -is → 把某一处特意显出来 → 强调",
+      "origin": "希腊语 emphasis（显露、着重）← en＋phainein（使显现）",
+      "native_definition": "special importance given to something in speaking or writing",
+      "core_concept": "the one part pushed forward so the eye goes there first – 特意推到前头、让人先看见的那一处",
+      "core_image": "整段话里只有那一句被放慢了，听的人都记住了它",
+      "chinese": [
+        "强调",
+        "重点",
+        "重音"
+      ],
+      "examples": [
+        "She put emphasis on safety.",
+        "The emphasis falls on the first syllable."
+      ],
+      "synonyms": [
+        "stress",
+        "weight"
+      ],
+      "antonyms": [],
+      "related": [
+        "fantasy",
+        "fancy"
+      ],
+      "semantic_expansions": [
+        "强调/重点：特意显出来、让人先看见的那一处",
+        "重音：读音上被显出来的那一节"
+      ],
+      "recall_hint": "em-（在内）+ phas（显现）→ 特意把一处显出来"
+    },
+    {
+      "id": "fantasy",
+      "word": "fantasy",
+      "pos": "noun",
+      "phonetic": "/ˈfæntəsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "phainein"
+      ],
+      "root_logic": "phantasia（心里现出的影）← phainein（使显现）→ 只在心里显出、不在眼前的那些",
+      "origin": "古法语 fantasie ← 拉丁语 phantasia ← 希腊语 phantasia（想象）← phainein",
+      "native_definition": "something imagined that is not real; a story of magical events",
+      "core_concept": "the picture that shows only inside the head – 只在脑子里现出来、外头没有的那幅",
+      "core_image": "闭上眼那幅景象清清楚楚，睁眼什么也没有",
+      "chinese": [
+        "幻想",
+        "想象",
+        "奇幻作品"
+      ],
+      "examples": [
+        "He lives in a fantasy world.",
+        "The book is pure fantasy."
+      ],
+      "synonyms": [
+        "dream",
+        "illusion"
+      ],
+      "antonyms": [
+        "reality"
+      ],
+      "related": [
+        "fancy",
+        "emphasis"
+      ],
+      "semantic_expansions": [
+        "幻想/想象：只在脑子里现出来的那幅",
+        "奇幻作品：把这类景象写成的故事"
+      ],
+      "recall_hint": "phantasia（心里现出的影）→ 只在心里显出的那些"
+    },
+    {
+      "id": "fancy",
+      "word": "fancy",
+      "pos": "verb",
+      "phonetic": "/ˈfænsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "phainein"
+      ],
+      "root_logic": "fantasy 的截短形 → 心里现出个念头 → 觉得想要、喜欢；形容词指花哨",
+      "origin": "中古英语 fantsy，fantasy 的截短 ← 希腊语 phantasia ← phainein",
+      "native_definition": "to want or like something; elaborately decorated",
+      "core_concept": "the notion that surfaces on its own, unbidden – 没人叫它、自己在心里冒出来的那个念头",
+      "core_image": "橱窗前站了一会儿，脚就是不肯往前挪",
+      "chinese": [
+        "想要",
+        "喜欢",
+        "花哨的"
+      ],
+      "examples": [
+        "Do you fancy a cup of tea?",
+        "She wore a fancy hat."
+      ],
+      "synonyms": [
+        "desire",
+        "showy"
+      ],
+      "antonyms": [
+        "plain"
+      ],
+      "related": [
+        "fantasy",
+        "emphasis"
+      ],
+      "semantic_expansions": [
+        "想要/喜欢：心里自己冒出来的那个念头",
+        "花哨的：外表现得过多、招眼的那种"
+      ],
+      "recall_hint": "fantasy 截短 → 心里自己冒出的念头"
+    },
+    {
+      "id": "fate",
+      "word": "fate",
+      "pos": "noun",
+      "phonetic": "/feɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fatum"
+      ],
+      "root_logic": "fatum（所说定之事）→ 由不得人改的那个去向",
+      "origin": "拉丁语 fatum（命定之事）← fari（说）的过去分词",
+      "native_definition": "the power thought to decide events; what finally happens to someone",
+      "core_concept": "the outcome already spoken, whatever one does – 早已说定的那个结果，人怎么动都一样",
+      "core_image": "签抽出来了，上面写着什么就照着走，重抽也没用",
+      "chinese": [
+        "命运",
+        "结局",
+        "下场"
+      ],
+      "examples": [
+        "She accepted her fate calmly.",
+        "The fate of the ship is unknown."
+      ],
+      "synonyms": [
+        "destiny",
+        "outcome"
+      ],
+      "antonyms": [
+        "choice"
+      ],
+      "related": [
+        "fatal",
+        "fairy"
+      ],
+      "semantic_expansions": [
+        "命运：由不得人改的那个去向",
+        "结局/下场：那个去向最后落成的样子"
+      ],
+      "recall_hint": "fatum（所说定之事）→ 由不得人改的去向"
+    },
+    {
+      "id": "fatal",
+      "word": "fatal",
+      "pos": "adjective",
+      "phonetic": "/ˈfeɪtl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fatum"
+      ],
+      "root_logic": "fatum（定数）+ -al → 关乎定数的 → 致命的、决定性的",
+      "origin": "拉丁语 fatalis（命定的、致死的）← fatum",
+      "native_definition": "causing death; leading to disaster",
+      "core_concept": "the one stroke after which nothing can be redone – 这一下过后，什么都补不回来了",
+      "core_image": "那一刀下去就没有第二次机会，别的伤都还能治",
+      "chinese": [
+        "致命的",
+        "毁灭性的",
+        "命中注定的"
+      ],
+      "examples": [
+        "He suffered a fatal injury.",
+        "That was a fatal mistake."
+      ],
+      "synonyms": [
+        "deadly",
+        "mortal"
+      ],
+      "antonyms": [
+        "harmless"
+      ],
+      "related": [
+        "fate",
+        "fairy"
+      ],
+      "semantic_expansions": [
+        "致命的：这一下过后补不回来",
+        "毁灭性的：同样不可挽回，用在局面上",
+        "命中注定的：早已说定、避不开的"
+      ],
+      "recall_hint": "fatum（定数）+ -al → 关乎定数、补不回来"
+    },
+    {
+      "id": "fairy",
+      "word": "fairy",
+      "pos": "noun",
+      "phonetic": "/ˈfeəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "fatum"
+      ],
+      "root_logic": "Fata（司命女神）→ 古法语 fae（有法力的女子）+ -ry → 小精灵",
+      "origin": "古法语 faerie（法术、精灵之境）← fae ← 拉丁语 Fata（司命三女神）← fatum",
+      "native_definition": "a small imaginary being with magic powers",
+      "core_concept": "the small being said to hold sway over how things turn out – 传说能左右事情走向的那个小小者",
+      "core_image": "书里画着一个巴掌大的身影，背后两片薄翅",
+      "chinese": [
+        "仙女",
+        "小精灵"
+      ],
+      "examples": [
+        "She read a fairy tale aloud.",
+        "Children believe in fairies."
+      ],
+      "synonyms": [
+        "spirit",
+        "ghost"
+      ],
+      "antonyms": [],
+      "related": [
+        "fate",
+        "fatal"
+      ],
+      "semantic_expansions": [
+        "仙女/小精灵：传说能左右事情走向的那个小小者"
+      ],
+      "recall_hint": "Fata（司命女神）→ fae（有法力者）→ 小精灵"
+    },
+    {
+      "id": "employ",
+      "word": "employ",
+      "pos": "verb",
+      "phonetic": "/ɪmˈplɔɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "im-（in- 向内）+ ploy（折叠）→ implicare（把人卷进事里）→ 雇用、使用",
+      "origin": "古法语 employer ← 拉丁语 implicare（卷入、缠进）← in＋plicare（折叠）",
+      "native_definition": "to pay someone to work; to make use of something",
+      "core_concept": "folding a person into the work so they are part of it – 把人折进这摊事里，成为其中一折",
+      "core_image": "名册上添了一个名字，从此这摊活里就有他一份",
+      "chinese": [
+        "雇用",
+        "使用",
+        "employ"
+      ],
+      "examples": [
+        "The firm employs 200 people.",
+        "She employed a clever trick."
+      ],
+      "synonyms": [
+        "hire",
+        "use"
+      ],
+      "antonyms": [
+        "dismiss"
+      ],
+      "related": [
+        "employee",
+        "employer"
+      ],
+      "semantic_expansions": [
+        "雇用：把人折进这摊事里、给他一份",
+        "使用：把某物折进做法里派上用场"
+      ],
+      "recall_hint": "im-（向内）+ ploy（折叠）→ 把人折进事里"
+    },
+    {
+      "id": "employee",
+      "word": "employee",
+      "pos": "noun",
+      "phonetic": "/ɪmˈplɔɪiː/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "employ（雇用）+ -ee（受事者）→ 被折进这摊活里的那个人",
+      "origin": "英语 employee，由 employ 加受事后缀 -ee 构成 ← 拉丁语 implicare",
+      "native_definition": "a person who is paid to work for someone else",
+      "core_concept": "the one folded in, who works and draws pay – 被折进来做活、按月领钱的那个",
+      "core_image": "工牌上印着号码，每月到日子就有一笔钱进账",
+      "chinese": [
+        "雇员",
+        "员工"
+      ],
+      "examples": [
+        "Every employee gets two weeks off.",
+        "She is a long-serving employee."
+      ],
+      "synonyms": [
+        "worker",
+        "staff"
+      ],
+      "antonyms": [
+        "employer"
+      ],
+      "related": [
+        "employ",
+        "employer"
+      ],
+      "semantic_expansions": [
+        "雇员/员工：被折进这摊活里、按期领钱的那个人"
+      ],
+      "recall_hint": "employ（雇用）+ -ee（受事）→ 被折进来做活的人"
+    },
+    {
+      "id": "employer",
+      "word": "employer",
+      "pos": "noun",
+      "phonetic": "/ɪmˈplɔɪə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "employ（雇用）+ -er（施事者）→ 把人折进来的那一方",
+      "origin": "英语 employer，由 employ 加施事后缀 -er 构成 ← 拉丁语 implicare",
+      "native_definition": "a person or company that pays others to work",
+      "core_concept": "the side that does the folding-in and pays for it – 把人折进来、并为此付钱的那一方",
+      "core_image": "签字那一栏是公司的印，钱从那边出",
+      "chinese": [
+        "雇主",
+        "用人单位"
+      ],
+      "examples": [
+        "Her employer gave her a raise.",
+        "The employer must provide safety gear."
+      ],
+      "synonyms": [
+        "boss",
+        "company"
+      ],
+      "antonyms": [
+        "employee"
+      ],
+      "related": [
+        "employ",
+        "employee"
+      ],
+      "semantic_expansions": [
+        "雇主/用人单位：把人折进来做活、并为此付钱的那一方"
+      ],
+      "recall_hint": "employ（雇用）+ -er（施事）→ 把人折进来的那方"
+    },
+    {
+      "id": "exploit",
+      "word": "exploit",
+      "pos": "verb",
+      "phonetic": "/ɪkˈsplɔɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "ex-（出来）+ ploit（折叠）→ explicare（把折的摊开）→ 把用处榨出来 → 利用、开发",
+      "origin": "古法语 esploitier（施行、获益）← 拉丁语 explicare（展开）← ex＋plicare（折叠）",
+      "native_definition": "to use something fully for gain; to treat someone unfairly for profit",
+      "core_concept": "unfolding a thing to get everything out of it – 把折着的摊开，把里头能取的都取出来",
+      "core_image": "那张折了几道的纸被完全摊平，背面的字也一并露了出来",
+      "chinese": [
+        "利用",
+        "开发",
+        "剥削"
+      ],
+      "examples": [
+        "They exploit the mine for copper.",
+        "Some firms exploit their workers."
+      ],
+      "synonyms": [
+        "use",
+        "harness"
+      ],
+      "antonyms": [],
+      "related": [
+        "employ",
+        "display"
+      ],
+      "semantic_expansions": [
+        "利用/开发：把折着的摊开、取尽其中用处",
+        "剥削：这种取尽用在人身上"
+      ],
+      "recall_hint": "ex-（出来）+ ploit（折叠）→ 摊开取尽其用"
+    },
+    {
+      "id": "embassy",
+      "word": "embassy",
+      "pos": "noun",
+      "phonetic": "/ˈembəsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "ambactus（受派办事的人）→ 受派驻外办事的那个馆",
+      "origin": "古法语 ambassee ← 意大利语 ambasciata ← 拉丁语 ambactus（受派之人）← 印欧 *ag-（推动、驱使）一支，与 act 同源远亲",
+      "native_definition": "the official office of an ambassador in another country",
+      "core_concept": "the house that stands in for one country inside another – 一国派在别国境内代它办事的那处馆",
+      "core_image": "门口挂着别国的旗，里头办的是那个国家的事",
+      "chinese": [
+        "大使馆",
+        "使节团"
+      ],
+      "examples": [
+        "He works at the British embassy.",
+        "The embassy issued a warning."
+      ],
+      "synonyms": [
+        "mission",
+        "office"
+      ],
+      "antonyms": [],
+      "related": [
+        "act",
+        "action"
+      ],
+      "semantic_expansions": [
+        "大使馆/使节团：一国派驻别国、代它办事的那处馆"
+      ],
+      "recall_hint": "ambactus（受派办事者）→ 派驻外国的那处馆"
+    },
+    {
+      "id": "essay",
+      "word": "essay",
+      "pos": "noun",
+      "phonetic": "/ˈeseɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "ex-（出来）+ ag（驱动、称量）→ exagium（称重）→ 试着写出的一篇 → 短文",
+      "origin": "古法语 essai（尝试、试验）← 晚期拉丁语 exagium（称量）← exigere（ex＋agere 推出、称量）",
+      "native_definition": "a short piece of writing on one subject; an attempt",
+      "core_concept": "the piece written as a weighing-out of one question – 就一个题目称量着写出的那一篇",
+      "core_image": "题目摆在纸头，底下一段段把想法称量着摆开",
+      "chinese": [
+        "文章",
+        "论文",
+        "尝试"
+      ],
+      "examples": [
+        "She wrote an essay on climate.",
+        "It was his first essay at farming."
+      ],
+      "synonyms": [
+        "article",
+        "attempt"
+      ],
+      "antonyms": [],
+      "related": [
+        "exact",
+        "act"
+      ],
+      "semantic_expansions": [
+        "文章/论文：就一题称量着写出的那一篇",
+        "尝试：同一个「试着称量」用作动作"
+      ],
+      "recall_hint": "ex-（出来）+ ag（称量）→ exagium → 试写的一篇"
+    },
+    {
+      "id": "exam",
+      "word": "exam",
+      "pos": "noun",
+      "phonetic": "/ɪɡˈzæm/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "examination 的截短 ← examen（秤舌）← ex＋ag（驱出、称量）→ 称量学识的那一场",
+      "origin": "英语 exam 是 examination 的截短 ← 拉丁语 examen（天平的指针、称量）← exigere",
+      "native_definition": "a formal test of knowledge or ability",
+      "core_concept": "the occasion on which what one knows is weighed – 把人所知放上秤称一遍的那一场",
+      "core_image": "卷子发下来，会与不会当场就分出轻重",
+      "chinese": [
+        "考试",
+        "测验"
+      ],
+      "examples": [
+        "She passed the exam easily.",
+        "The exam lasts two hours."
+      ],
+      "synonyms": [
+        "test",
+        "check"
+      ],
+      "antonyms": [],
+      "related": [
+        "exact",
+        "essay"
+      ],
+      "semantic_expansions": [
+        "考试/测验：把人所知放上秤称量的那一场"
+      ],
+      "recall_hint": "examen（秤舌）← ex＋ag（称量）→ 称量学识的一场"
+    },
+    {
+      "id": "enable",
+      "word": "enable",
+      "pos": "verb",
+      "phonetic": "/ɪˈneɪbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "en-（使）+ able（拿得住）→ 使某人拿得住、办得成",
+      "origin": "英语 enable，由 en-＋able 构成；able ← 拉丁语 habilis ← habere（拿住）",
+      "native_definition": "to make it possible for someone to do something",
+      "core_concept": "putting the thing within reach of a hand that could not hold it before – 让原先拿不住的那只手够得着、握得住",
+      "core_image": "垫脚的凳子搬来，本来伸手不及的那格就取到了",
+      "chinese": [
+        "使能够",
+        "使有可能"
+      ],
+      "examples": [
+        "The grant enabled her to study.",
+        "This tool enables faster work."
+      ],
+      "synonyms": [
+        "allow",
+        "permit"
+      ],
+      "antonyms": [
+        "prevent"
+      ],
+      "related": [
+        "able",
+        "ability"
+      ],
+      "semantic_expansions": [
+        "使能够/使有可能：让原先拿不住的手够得着、握得住"
+      ],
+      "recall_hint": "en-（使）+ able（拿得住）→ 使其办得成"
+    },
+    {
+      "id": "disable",
+      "word": "disable",
+      "pos": "verb",
+      "phonetic": "/dɪsˈeɪbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "dis-（取消）+ able（拿得住）→ 使拿不住、使用不了",
+      "origin": "英语 disable，由 dis-＋able 构成；able ← 拉丁语 habilis ← habere（拿住）",
+      "native_definition": "to make someone unable to do something; to switch off a function",
+      "core_concept": "taking away the grip that was there before – 把原先握得住的那份力撤掉",
+      "core_image": "闸一拉下来，方才还转着的机器立刻停住",
+      "chinese": [
+        "使失能",
+        "使残疾",
+        "停用"
+      ],
+      "examples": [
+        "The injury disabled his right arm.",
+        "Disable the alarm before entering."
+      ],
+      "synonyms": [
+        "weaken",
+        "stop"
+      ],
+      "antonyms": [
+        "enable"
+      ],
+      "related": [
+        "able",
+        "enable"
+      ],
+      "semantic_expansions": [
+        "使失能/使残疾：把原先握得住的那份力撤掉",
+        "停用：把功能撤掉、使它用不了"
+      ],
+      "recall_hint": "dis-（取消）+ able（拿得住）→ 使拿不住"
+    },
+    {
+      "id": "endow",
+      "word": "endow",
+      "pos": "verb",
+      "phonetic": "/ɪnˈdaʊ/",
+      "decomposable": "root",
+      "root_ids": [
+        "dare"
+      ],
+      "root_logic": "en-（使）+ dow（dare 给）→ 把一份给定在某人名下 → 捐赠、赋予",
+      "origin": "盎格鲁法语 endouer ← en-＋古法语 douer ← 拉丁语 dotare（给嫁资）← dos ← dare（给）",
+      "native_definition": "to give money or property to an institution; to give a quality naturally",
+      "core_concept": "handing over a portion for good, not on loan – 交出去的那份是定给的，不是借的",
+      "core_image": "文书上写明这笔钱此后归学校，不再收回",
+      "chinese": [
+        "捐赠",
+        "赋予",
+        "资助"
+      ],
+      "examples": [
+        "He endowed a scholarship fund.",
+        "She is endowed with great patience."
+      ],
+      "synonyms": [
+        "donate",
+        "grant"
+      ],
+      "antonyms": [],
+      "related": [
+        "data",
+        "date"
+      ],
+      "semantic_expansions": [
+        "捐赠/资助：把一份定给出去、不再收回",
+        "赋予：天生就把某种性质给定在某人身上"
+      ],
+      "recall_hint": "en-（使）+ dow（给）→ 把一份定给出去"
+    },
+    {
+      "id": "dose",
+      "word": "dose",
+      "pos": "noun",
+      "phonetic": "/dəʊs/",
+      "decomposable": "root",
+      "root_ids": [
+        "dare"
+      ],
+      "root_logic": "dosis（所给的一份）← didonai/dare（给）→ 一次给下的那个量",
+      "origin": "法语 dose ← 晚期拉丁语 dosis ← 希腊语 dosis（给予、一份），与拉丁 dare 同出印欧 *do-（给）",
+      "native_definition": "a measured amount of medicine taken at one time",
+      "core_concept": "the one portion measured out to be handed over at a time – 量好、一次交出去的那一份",
+      "core_image": "药瓶盖里倒到那道刻线，一次就喝这么多",
+      "chinese": [
+        "剂量",
+        "一剂"
+      ],
+      "examples": [
+        "Take one dose every four hours.",
+        "He got a high dose of radiation."
+      ],
+      "synonyms": [
+        "amount",
+        "portion"
+      ],
+      "antonyms": [],
+      "related": [
+        "data",
+        "date"
+      ],
+      "semantic_expansions": [
+        "剂量/一剂：量好、一次给下的那一份"
+      ],
+      "recall_hint": "dosis（所给的一份）← 与 dare 同出印欧 *do-（给）"
+    },
+    {
+      "id": "elite",
+      "word": "elite",
+      "pos": "noun",
+      "phonetic": "/eɪˈliːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "e-（ex- 出来）+ lite（拣选）→ eligere（挑出来）→ 被挑出的那一小群",
+      "origin": "法语 élite ← élire（挑选）← 拉丁语 eligere（选出）← ex＋legere（拣选）",
+      "native_definition": "a small group with the most power or skill",
+      "core_concept": "the few picked out of the many and set apart – 从众人里挑出来、单独放一处的那几个",
+      "core_image": "名单一层层筛下来，最后只剩最上面几个名字",
+      "chinese": [
+        "精英",
+        "上层集团"
+      ],
+      "examples": [
+        "The elite controlled the land.",
+        "She joined an elite unit."
+      ],
+      "synonyms": [
+        "best",
+        "top"
+      ],
+      "antonyms": [
+        "crowd"
+      ],
+      "related": [
+        "collect",
+        "collective"
+      ],
+      "semantic_expansions": [
+        "精英/上层集团：从众人里挑出、单独放一处的那几个"
+      ],
+      "recall_hint": "e-（出来）+ lite（拣选）→ 挑出来的那一小群"
+    },
+    {
+      "id": "entire",
+      "word": "entire",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈtaɪə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "integer"
+      ],
+      "root_logic": "integer（未经触碰的、完整的）→ 一点没缺的 → 全部的",
+      "origin": "古法语 entier ← 拉丁语 integer（完整的、未动过的）← in-（不）＋tangere（触）",
+      "native_definition": "whole; with no part missing",
+      "core_concept": "the thing still as it came, nothing taken off – 还是原来那一整个，没被取走过任何一块",
+      "core_image": "整块蛋糕端上来，刀还没碰过它",
+      "chinese": [
+        "整个的",
+        "全部的",
+        "完整的"
+      ],
+      "examples": [
+        "He ate the entire cake.",
+        "The entire team agreed."
+      ],
+      "synonyms": [
+        "whole",
+        "complete"
+      ],
+      "antonyms": [
+        "partial"
+      ],
+      "related": [
+        "integrate",
+        "integrity"
+      ],
+      "semantic_expansions": [
+        "整个的/全部的/完整的：还是原来那一整个、没被取走任何一块"
+      ],
+      "recall_hint": "integer（未经触碰的完整）→ 一点没缺的"
+    },
+    {
+      "id": "ensure",
+      "word": "ensure",
+      "pos": "verb",
+      "phonetic": "/ɪnˈʃʊə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "cura"
+      ],
+      "root_logic": "en-（使）+ sure（无忧）→ 把事办到没有可担心的余地 → 确保",
+      "origin": "盎格鲁法语 enseurer ← en-＋seur（可靠的）← 拉丁语 securus（无忧的）← se-（无）＋cura（挂心）",
+      "native_definition": "to make certain that something happens",
+      "core_concept": "closing every gap until there is nothing left to worry about – 把每一处漏洞都堵上，没什么可担心了",
+      "core_image": "门窗一扇扇查过，回头再看一遍才走开",
+      "chinese": [
+        "确保",
+        "保证"
+      ],
+      "examples": [
+        "Please ensure the door is locked.",
+        "This ensures a fair result."
+      ],
+      "synonyms": [
+        "guarantee",
+        "secure"
+      ],
+      "antonyms": [],
+      "related": [
+        "cure",
+        "accurate"
+      ],
+      "semantic_expansions": [
+        "确保/保证：把每处漏洞都堵上、没什么可担心"
+      ],
+      "recall_hint": "en-（使）+ sure（无忧）→ 办到无可担心"
+    },
+    {
+      "id": "deliver",
+      "word": "deliver",
+      "pos": "verb",
+      "phonetic": "/dɪˈlɪvə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "liber"
+      ],
+      "root_logic": "de-（彻底）+ liver（liberare 使自由）→ 把东西从手里放开交出去 → 递送",
+      "origin": "古法语 delivrer ← 晚期拉丁语 deliberare（释放、交付）← de＋liberare（使自由）← liber（自由的）",
+      "native_definition": "to take goods to someone; to give a speech; to help at a birth",
+      "core_concept": "letting go of what you held so it passes on – 把攥着的松开，让它转到别处去",
+      "core_image": "包裹从手里递出去，签完字那人转身就走了",
+      "chinese": [
+        "递送",
+        "发表",
+        "分娩"
+      ],
+      "examples": [
+        "They deliver bread every morning.",
+        "She delivered a short speech."
+      ],
+      "synonyms": [
+        "send",
+        "convey"
+      ],
+      "antonyms": [],
+      "related": [
+        "delivery",
+        "liberal"
+      ],
+      "semantic_expansions": [
+        "递送：把攥着的松开、让它转到别处",
+        "发表：把话从口里放出去",
+        "分娩：把胎儿从体内放出来"
+      ],
+      "recall_hint": "de-（彻底）+ liver（使自由）→ 从手里放开交出"
+    },
+    {
+      "id": "delivery",
+      "word": "delivery",
+      "pos": "noun",
+      "phonetic": "/dɪˈlɪvəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "liber"
+      ],
+      "root_logic": "deliver（递送）+ -y → 递送这件事，或递到的那一批",
+      "origin": "盎格鲁法语 delivree ← delivrer ← 晚期拉丁语 deliberare ← liber（自由的）",
+      "native_definition": "the act of bringing goods; the way something is said; a birth",
+      "core_concept": "the handing-over itself, and the load handed over – 交出这件事，及交出去的那一批",
+      "core_image": "清早那车停在门口，一箱箱往下卸",
+      "chinese": [
+        "投递",
+        "交付",
+        "分娩"
+      ],
+      "examples": [
+        "The delivery arrived late.",
+        "Her delivery of the speech was calm."
+      ],
+      "synonyms": [
+        "shipment",
+        "transport"
+      ],
+      "antonyms": [],
+      "related": [
+        "deliver",
+        "liberal"
+      ],
+      "semantic_expansions": [
+        "投递/交付：把东西交出去这件事及那一批货",
+        "分娩：把胎儿放出来这件事"
+      ],
+      "recall_hint": "deliver（递送）+ -y → 交出这件事及所交之物"
+    },
+    {
+      "id": "display",
+      "word": "display",
+      "pos": "verb",
+      "phonetic": "/dɪˈspleɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "dis-（分开）+ play（折叠）→ displicare（把折的展开）→ 摊开给人看",
+      "origin": "古法语 despleier ← 拉丁语 displicare（展开）← dis＋plicare（折叠）",
+      "native_definition": "to put something where people can see it; a show of something",
+      "core_concept": "unfolding a thing so the whole of it faces out – 把折着的展开，整面朝外露出来",
+      "core_image": "折成一叠的图纸抖开铺平，整幅一次看全",
+      "chinese": [
+        "展示",
+        "陈列",
+        "显示"
+      ],
+      "examples": [
+        "The museum displays old maps.",
+        "The screen displays the time."
+      ],
+      "synonyms": [
+        "show",
+        "exhibit"
+      ],
+      "antonyms": [
+        "hide"
+      ],
+      "related": [
+        "employ",
+        "exploit"
+      ],
+      "semantic_expansions": [
+        "展示/陈列：把折着的展开、整面朝外给人看",
+        "显示：屏幕把内容摊出来给人看"
+      ],
+      "recall_hint": "dis-（分开）+ play（折叠）→ 把折的展开给人看"
+    },
+    {
+      "id": "degree",
+      "word": "degree",
+      "pos": "noun",
+      "phonetic": "/dɪˈɡriː/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "de-（往下）+ gree（gradus 一步）→ 一级一级的那个梯级 → 程度、学位",
+      "origin": "古法语 degré ← 通俗拉丁语 degradus（阶级）← de＋gradus（一步、级）",
+      "native_definition": "a level or amount on a scale; a qualification from a university",
+      "core_concept": "one notch on a ladder of notches – 一格格刻度里的那一格",
+      "core_image": "温度计上一道道刻线，水银停在其中一道上",
+      "chinese": [
+        "程度",
+        "度数",
+        "学位"
+      ],
+      "examples": [
+        "The water is at ninety degrees.",
+        "She earned a degree in law."
+      ],
+      "synonyms": [
+        "level",
+        "extent"
+      ],
+      "antonyms": [],
+      "related": [
+        "progress",
+        "congress"
+      ],
+      "semantic_expansions": [
+        "程度/度数：一格格刻度里的那一格",
+        "学位：学业等级里评定到的那一级"
+      ],
+      "recall_hint": "de-（往下）+ gree（一步）→ 一级级刻度里的那一格"
+    },
+    {
+      "id": "desire",
+      "word": "desire",
+      "pos": "verb",
+      "phonetic": "/dɪˈzaɪə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "sidus"
+      ],
+      "root_logic": "de-（离开）+ sire（sidus 星）→ 抬头望星而盼 → 渴望",
+      "origin": "古法语 desirer ← 拉丁语 desiderare（渴望，一说 de＋sidus 从星象盼求）← sidus（星）",
+      "native_definition": "to want something very much",
+      "core_concept": "the eyes lifted to something far off, wanting it down – 抬头望着远处那样东西，盼它落到手里",
+      "core_image": "夜里抬头望着那颗星看了很久，心里空着一处",
+      "chinese": [
+        "渴望",
+        "欲望",
+        "想要"
+      ],
+      "examples": [
+        "He desired peace above all.",
+        "She got everything she desired."
+      ],
+      "synonyms": [
+        "wish",
+        "long"
+      ],
+      "antonyms": [],
+      "related": [
+        "consider",
+        "considerable"
+      ],
+      "semantic_expansions": [
+        "渴望/想要：抬头望着远处那样、盼它落到手里",
+        "欲望：心里那处空着、要拿它来填的劲"
+      ],
+      "recall_hint": "de-（离开）+ sire（星）→ 望星而盼"
+    },
+    {
+      "id": "expire",
+      "word": "expire",
+      "pos": "verb",
+      "phonetic": "/ɪkˈspaɪə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "spirare"
+      ],
+      "root_logic": "ex-（出去）+ pire（spirare 呼吸）→ 气出去不再回来 → 到期、死",
+      "origin": "拉丁语 exspirare（呼出、气绝）← ex＋spirare（呼吸）",
+      "native_definition": "to come to an end; to stop being valid; to die",
+      "core_concept": "the last breath going out with none coming back – 最后一口气出去，再没有吸进来的",
+      "core_image": "胸口起伏一次之后就平了下去，再没抬起来",
+      "chinese": [
+        "到期",
+        "期满",
+        "去世"
+      ],
+      "examples": [
+        "My passport expires in May.",
+        "He expired before dawn."
+      ],
+      "synonyms": [
+        "lapse",
+        "end"
+      ],
+      "antonyms": [
+        "renew"
+      ],
+      "related": [
+        "inspire",
+        "inspiration"
+      ],
+      "semantic_expansions": [
+        "到期/期满：效力像气一样出去不再回来",
+        "去世：最后一口气出去不再吸进"
+      ],
+      "recall_hint": "ex-（出去）+ pire（呼吸）→ 气出去不再回来"
+    },
+    {
+      "id": "discreet",
+      "word": "discreet",
+      "pos": "adjective",
+      "phonetic": "/dɪˈskriːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "cernere"
+      ],
+      "root_logic": "dis-（分开）+ creet（cernere 筛分）→ 分得清该说不该说 → 谨慎、不外传",
+      "origin": "古法语 discret ← 拉丁语 discretus（分开的、有分辨的），discernere 的过去分词 ← dis＋cernere（筛分）",
+      "native_definition": "careful not to say or do anything that causes trouble",
+      "core_concept": "the one who sifts what may be said from what may not – 把能说的与不能说的筛开的那种人",
+      "core_image": "他知道内情，但话到嘴边只挑得出无关的几句",
+      "chinese": [
+        "谨慎的",
+        "不张扬的",
+        "守口的"
+      ],
+      "examples": [
+        "Please be discreet about this.",
+        "She made discreet inquiries."
+      ],
+      "synonyms": [
+        "careful",
+        "cautious"
+      ],
+      "antonyms": [
+        "rash"
+      ],
+      "related": [
+        "discern",
+        "concern"
+      ],
+      "semantic_expansions": [
+        "谨慎的/守口的：把能说与不能说筛开的那种",
+        "不张扬的：把自己从人眼里筛开、不显出来"
+      ],
+      "recall_hint": "dis-（分开）+ creet（筛分）→ 分得清该说不该说"
+    },
+    {
+      "id": "discard",
+      "word": "discard",
+      "pos": "verb",
+      "phonetic": "/dɪsˈkɑːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "charta"
+      ],
+      "root_logic": "dis-（去掉）+ card（纸牌）→ 把手里那张牌打掉 → 丢弃",
+      "origin": "英语 discard，由 dis-＋card 构成；card ← 拉丁语 charta（纸）",
+      "native_definition": "to throw away something no longer wanted",
+      "core_concept": "laying a card out of your hand and not taking it back – 把手里那张打出去，不再拿回",
+      "core_image": "他从手里抽出一张扣到桌边，那张就不算他的了",
+      "chinese": [
+        "丢弃",
+        "抛弃",
+        "打出（牌）"
+      ],
+      "examples": [
+        "Discard the packaging first.",
+        "She discarded two cards."
+      ],
+      "synonyms": [
+        "dump",
+        "reject"
+      ],
+      "antonyms": [
+        "keep"
+      ],
+      "related": [
+        "card",
+        "chart"
+      ],
+      "semantic_expansions": [
+        "丢弃/抛弃：把手里那张打出去、不再拿回",
+        "打出（牌）：牌戏里这个动作的本义"
+      ],
+      "recall_hint": "dis-（去掉）+ card（纸牌）→ 把手里那张打掉"
+    },
+    {
+      "id": "exert",
+      "word": "exert",
+      "pos": "verb",
+      "phonetic": "/ɪɡˈzɜːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "serere"
+      ],
+      "root_logic": "ex-（出来）+ ert（serere 编连）→ exserere（抽出来）→ 把力使出来",
+      "origin": "拉丁语 exserere（伸出、抽出）← ex＋serere（编连、串接）",
+      "native_definition": "to use strength or influence to make something happen",
+      "core_concept": "drawing the strand out of the weave and putting it to work – 把编在里头的那股抽出来使上",
+      "core_image": "攥紧的手往外一抽，绳上那股劲全使了出去",
+      "chinese": [
+        "运用",
+        "施加",
+        "尽力"
+      ],
+      "examples": [
+        "He exerted all his strength.",
+        "She exerts great influence here."
+      ],
+      "synonyms": [
+        "apply",
+        "use"
+      ],
+      "antonyms": [],
+      "related": [
+        "insert",
+        "assert"
+      ],
+      "semantic_expansions": [
+        "运用/施加：把编在里头的那股力抽出来使上",
+        "尽力：把自己那股全抽出来使"
+      ],
+      "recall_hint": "ex-（出来）+ ert（编连）→ 把里头那股抽出来使"
+    },
+    {
+      "id": "defy",
+      "word": "defy",
+      "pos": "verb",
+      "phonetic": "/dɪˈfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "fidere"
+      ],
+      "root_logic": "de-（取消）+ fy（fidere 信托）→ 撤回信托、宣告不再服 → 违抗",
+      "origin": "古法语 defier（挑战、宣告绝交）← 通俗拉丁语 disfidare ← dis＋fidus（可信的）← fidere（信托）",
+      "native_definition": "to refuse to obey; to be impossible to explain",
+      "core_concept": "taking back the trust once pledged and standing against it – 把当初许下的信托撤回，转身站到对面",
+      "core_image": "他把那份契约推回去，说往后不认这一条",
+      "chinese": [
+        "违抗",
+        "公然反抗",
+        "使无法"
+      ],
+      "examples": [
+        "He defied the court order.",
+        "The result defies explanation."
+      ],
+      "synonyms": [
+        "resist",
+        "disobey"
+      ],
+      "antonyms": [
+        "obey"
+      ],
+      "related": [
+        "confident",
+        "faith"
+      ],
+      "semantic_expansions": [
+        "违抗/公然反抗：撤回信托、转身站到对面",
+        "使无法：某事顶住了解释，讲不通"
+      ],
+      "recall_hint": "de-（取消）+ fy（信托）→ 撤回信托、不再服"
+    }
+  ]
+}

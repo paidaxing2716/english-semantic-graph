@@ -626,7 +626,10 @@
         "actual",
         "exact",
         "interact",
-        "react"
+        "react",
+        "embassy",
+        "essay",
+        "exam"
       ]
     },
     {
@@ -939,7 +942,12 @@
         "application",
         "complicate",
         "complication",
-        "implication"
+        "implication",
+        "employ",
+        "employee",
+        "employer",
+        "exploit",
+        "display"
       ]
     },
     {
@@ -1255,7 +1263,9 @@
         "deliberate",
         "liberal",
         "liberate",
-        "liberty"
+        "liberty",
+        "deliver",
+        "delivery"
       ]
     },
     {
@@ -1293,7 +1303,8 @@
         "conspiracy",
         "inspiration",
         "inspire",
-        "spiral"
+        "spiral",
+        "expire"
       ]
     },
     {
@@ -1404,7 +1415,8 @@
         "upgrade",
         "progress",
         "progressive",
-        "congress"
+        "congress",
+        "degree"
       ]
     },
     {
@@ -1631,7 +1643,8 @@
         "cure",
         "curious",
         "secure",
-        "security"
+        "security",
+        "ensure"
       ]
     },
     {
@@ -1820,7 +1833,8 @@
         "confident",
         "confidential",
         "faith",
-        "faithful"
+        "faithful",
+        "defy"
       ]
     },
     {
@@ -1877,7 +1891,8 @@
         "collective",
         "diligent",
         "lecture",
-        "coil"
+        "coil",
+        "elite"
       ]
     },
     {
@@ -2274,7 +2289,8 @@
       "word_ids": [
         "integral",
         "integrate",
-        "integrity"
+        "integrity",
+        "entire"
       ]
     },
     {
@@ -2998,7 +3014,8 @@
       "word_ids": [
         "concern",
         "concerning",
-        "discern"
+        "discern",
+        "discreet"
       ]
     },
     {
@@ -3117,7 +3134,8 @@
       "word_ids": [
         "assert",
         "desert",
-        "insert"
+        "insert",
+        "exert"
       ]
     },
     {
@@ -3137,7 +3155,9 @@
         "prohibit",
         "able",
         "ability",
-        "debt"
+        "debt",
+        "enable",
+        "disable"
       ]
     },
     {
@@ -3800,7 +3820,8 @@
       "word_ids": [
         "consider",
         "considerable",
-        "consideration"
+        "consideration",
+        "desire"
       ]
     },
     {
@@ -3916,7 +3937,8 @@
         "card",
         "cartoon",
         "chart",
-        "charter"
+        "charter",
+        "discard"
       ]
     },
     {
@@ -4134,7 +4156,9 @@
       "word_ids": [
         "data",
         "database",
-        "date"
+        "date",
+        "endow",
+        "dose"
       ]
     },
     {
@@ -4172,6 +4196,118 @@
         "condemn",
         "damage",
         "damn"
+      ]
+    },
+    {
+      "id": "putare",
+      "root": "putare",
+      "variants": [
+        "put",
+        "pute",
+        "count"
+      ],
+      "origin": "拉丁语 putare（修剪，引申为清点、估算）；computare（com＋putare 合起来算）经古法语 conter 派出 count 一支",
+      "core_concept": "reckoning a thing up to settle what it comes to / 把东西点算一遍，定出它算多少",
+      "core_image": "手指点着桌上的钱一枚枚过，嘴里跟着报数",
+      "english_definition": "to prune, reckon, estimate",
+      "word_ids": [
+        "compute",
+        "count",
+        "deputy",
+        "discount",
+        "dispute"
+      ]
+    },
+    {
+      "id": "fallere",
+      "root": "fallere",
+      "variants": [
+        "fail",
+        "fals",
+        "fault"
+      ],
+      "origin": "拉丁语 fallere（使跌倒、骗过），过去分词 falsus；本义是脚下一空、人没接住，故「失手」与「假的」出自同一意象",
+      "core_concept": "the footing giving way so the thing does not hold / 脚下一空，事没托住",
+      "core_image": "踩上去那块板忽然塌下去，手里的东西一起掉了",
+      "english_definition": "to trip up, deceive",
+      "word_ids": [
+        "fail",
+        "failure",
+        "false",
+        "fault",
+        "faulty"
+      ]
+    },
+    {
+      "id": "densus",
+      "root": "densus",
+      "variants": [
+        "dens",
+        "dense"
+      ],
+      "origin": "拉丁语 densus（稠的、挤实的），动词 densare 表「使变稠」",
+      "core_concept": "packed so tight there is no gap left / 挤得实实的，没留缝",
+      "core_image": "一把棉花被手攥紧，攥到指缝里再挤不出空气",
+      "english_definition": "thick, crowded",
+      "word_ids": [
+        "condense",
+        "dense",
+        "density"
+      ]
+    },
+    {
+      "id": "discus",
+      "root": "discus",
+      "variants": [
+        "disc",
+        "dish",
+        "desk",
+        "disk"
+      ],
+      "origin": "拉丁语 discus（圆盘、掷饼）← 希腊语 diskos；扁圆一片这个形状，派出盘子、圆片、桌板三支",
+      "core_concept": "a flat round thing you set things on or throw / 扁圆的一片，用来盛放或掷出",
+      "core_image": "一块扁圆的板，边上一圈微微翘起",
+      "english_definition": "disc, flat round plate",
+      "word_ids": [
+        "desk",
+        "disc",
+        "dish"
+      ]
+    },
+    {
+      "id": "phainein",
+      "root": "phainein",
+      "variants": [
+        "phas",
+        "phan",
+        "fan"
+      ],
+      "origin": "希腊语 phainein（使显现、露出来）；phasis 表「显出的相」，phantasia 表「心里现出的影」，英语 fantasy、fancy 同出后者",
+      "core_concept": "bringing a thing into sight so it shows / 让某样东西现出来、被看见",
+      "core_image": "帘子一拉开，原先看不见的那样东西露在光里",
+      "english_definition": "to show, bring to light",
+      "word_ids": [
+        "emphasis",
+        "fancy",
+        "fantasy"
+      ]
+    },
+    {
+      "id": "fatum",
+      "root": "fatum",
+      "variants": [
+        "fat",
+        "fai",
+        "fay"
+      ],
+      "origin": "拉丁语 fatum（神所说定的事）← fari（说）的过去分词中性形；Fata（司命三女神）经古法语 fae 派出 fairy 一支",
+      "core_concept": "what was spoken once and cannot be taken back / 一旦说定就收不回的那件事",
+      "core_image": "一句话说出口，纸上就照那句写下，谁也改不动",
+      "english_definition": "that which has been spoken, destiny",
+      "word_ids": [
+        "fairy",
+        "fatal",
+        "fate"
       ]
     }
   ]

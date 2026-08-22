@@ -26341,6 +26341,650 @@
       "text": "Water leaked into the fore part of the boat.",
       "source": "AI 生成 · 人工审核",
       "scene": "船上的人都挤到最前头那截甲板，看船头把浪劈开"
+    },
+    {
+      "id": "ex-count-1",
+      "word_id": "count",
+      "text": "She counted the coins twice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他指着一排箱子挨个点，点到哪儿手就停在哪儿"
+    },
+    {
+      "id": "ex-count-2",
+      "word_id": "count",
+      "text": "Every vote counts here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他指着一排箱子挨个点，点到哪儿手就停在哪儿"
+    },
+    {
+      "id": "ex-compute-1",
+      "word_id": "compute",
+      "text": "The program computes the average.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各栏数字挨着加下来，最后一格填出总数"
+    },
+    {
+      "id": "ex-compute-2",
+      "word_id": "compute",
+      "text": "He computed the cost in minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各栏数字挨着加下来，最后一格填出总数"
+    },
+    {
+      "id": "ex-discount-1",
+      "word_id": "discount",
+      "text": "They offered a ten percent discount.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标价被笔划掉，旁边写了个小些的数"
+    },
+    {
+      "id": "ex-discount-2",
+      "word_id": "discount",
+      "text": "Do not discount her advice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "标价被笔划掉，旁边写了个小些的数"
+    },
+    {
+      "id": "ex-dispute-1",
+      "word_id": "dispute",
+      "text": "The dispute lasted for months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人各拿一张纸算同一笔账，末了数字差着一截"
+    },
+    {
+      "id": "ex-dispute-2",
+      "word_id": "dispute",
+      "text": "Nobody disputes her skill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人各拿一张纸算同一笔账，末了数字差着一截"
+    },
+    {
+      "id": "ex-deputy-1",
+      "word_id": "deputy",
+      "text": "The deputy signed in her absence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名册上头一个名字底下写着第二个，正主不在就他签字"
+    },
+    {
+      "id": "ex-deputy-2",
+      "word_id": "deputy",
+      "text": "He was elected deputy last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名册上头一个名字底下写着第二个，正主不在就他签字"
+    },
+    {
+      "id": "ex-fail-1",
+      "word_id": "fail",
+      "text": "The plan failed completely.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子在半空断了，吊着的东西直接落到地上"
+    },
+    {
+      "id": "ex-fail-2",
+      "word_id": "fail",
+      "text": "The engine failed on the hill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子在半空断了，吊着的东西直接落到地上"
+    },
+    {
+      "id": "ex-failure-1",
+      "word_id": "failure",
+      "text": "The project ended in failure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地上一堆碎的，旁边立着那截断了的绳"
+    },
+    {
+      "id": "ex-failure-2",
+      "word_id": "failure",
+      "text": "A power failure hit the town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地上一堆碎的，旁边立着那截断了的绳"
+    },
+    {
+      "id": "ex-false-1",
+      "word_id": "false",
+      "text": "He gave a false name.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那块板漆得跟别处一样，踩上去才发现底下是空的"
+    },
+    {
+      "id": "ex-false-2",
+      "word_id": "false",
+      "text": "That assumption is false.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那块板漆得跟别处一样，踩上去才发现底下是空的"
+    },
+    {
+      "id": "ex-fault-1",
+      "word_id": "fault",
+      "text": "It was my fault entirely.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "查下来是那一颗螺丝没拧紧，别处都好"
+    },
+    {
+      "id": "ex-fault-2",
+      "word_id": "fault",
+      "text": "The machine has a design fault.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "查下来是那一颗螺丝没拧紧，别处都好"
+    },
+    {
+      "id": "ex-faulty-1",
+      "word_id": "faulty",
+      "text": "The faulty wiring caused the fire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一批插头里有几个一插就跳闸，别的都正常"
+    },
+    {
+      "id": "ex-faulty-2",
+      "word_id": "faulty",
+      "text": "They replaced the faulty part.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一批插头里有几个一插就跳闸，别的都正常"
+    },
+    {
+      "id": "ex-dense-1",
+      "word_id": "dense",
+      "text": "The forest is very dense here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树干挨着树干，走进去几步就看不见来路"
+    },
+    {
+      "id": "ex-dense-2",
+      "word_id": "dense",
+      "text": "Dense fog closed the airport.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树干挨着树干，走进去几步就看不见来路"
+    },
+    {
+      "id": "ex-density-1",
+      "word_id": "density",
+      "text": "Bone density falls with age.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样大的两只盒子，一只沉手一只轻，装的东西疏密不同"
+    },
+    {
+      "id": "ex-density-2",
+      "word_id": "density",
+      "text": "The city has high population density.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同样大的两只盒子，一只沉手一只轻，装的东西疏密不同"
+    },
+    {
+      "id": "ex-condense-1",
+      "word_id": "condense",
+      "text": "He condensed the report to one page.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满满一锅汤熬到只剩碗底那点，味道全收在里头"
+    },
+    {
+      "id": "ex-condense-2",
+      "word_id": "condense",
+      "text": "Steam condenses on cold glass.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满满一锅汤熬到只剩碗底那点，味道全收在里头"
+    },
+    {
+      "id": "ex-disc-1",
+      "word_id": "disc",
+      "text": "He put the disc in the player.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "薄薄一片圆的，对着光能看见一圈圈细纹"
+    },
+    {
+      "id": "ex-disc-2",
+      "word_id": "disc",
+      "text": "She slipped a disc in her back.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "薄薄一片圆的，对着光能看见一圈圈细纹"
+    },
+    {
+      "id": "ex-dish-1",
+      "word_id": "dish",
+      "text": "Wash the dishes after dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "浅浅一只圆的，菜盛在里头边上还留一圈"
+    },
+    {
+      "id": "ex-dish-2",
+      "word_id": "dish",
+      "text": "This dish takes an hour to cook.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "浅浅一只圆的，菜盛在里头边上还留一圈"
+    },
+    {
+      "id": "ex-desk-1",
+      "word_id": "desk",
+      "text": "Papers covered the whole desk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块平板架在两侧支架上，胳膊搭上去正好"
+    },
+    {
+      "id": "ex-desk-2",
+      "word_id": "desk",
+      "text": "Ask at the front desk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块平板架在两侧支架上，胳膊搭上去正好"
+    },
+    {
+      "id": "ex-emphasis-1",
+      "word_id": "emphasis",
+      "text": "She put emphasis on safety.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整段话里只有那一句被放慢了，听的人都记住了它"
+    },
+    {
+      "id": "ex-emphasis-2",
+      "word_id": "emphasis",
+      "text": "The emphasis falls on the first syllable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整段话里只有那一句被放慢了，听的人都记住了它"
+    },
+    {
+      "id": "ex-fantasy-1",
+      "word_id": "fantasy",
+      "text": "He lives in a fantasy world.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闭上眼那幅景象清清楚楚，睁眼什么也没有"
+    },
+    {
+      "id": "ex-fantasy-2",
+      "word_id": "fantasy",
+      "text": "The book is pure fantasy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闭上眼那幅景象清清楚楚，睁眼什么也没有"
+    },
+    {
+      "id": "ex-fancy-1",
+      "word_id": "fancy",
+      "text": "Do you fancy a cup of tea?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橱窗前站了一会儿，脚就是不肯往前挪"
+    },
+    {
+      "id": "ex-fancy-2",
+      "word_id": "fancy",
+      "text": "She wore a fancy hat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "橱窗前站了一会儿，脚就是不肯往前挪"
+    },
+    {
+      "id": "ex-fate-1",
+      "word_id": "fate",
+      "text": "She accepted her fate calmly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签抽出来了，上面写着什么就照着走，重抽也没用"
+    },
+    {
+      "id": "ex-fate-2",
+      "word_id": "fate",
+      "text": "The fate of the ship is unknown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签抽出来了，上面写着什么就照着走，重抽也没用"
+    },
+    {
+      "id": "ex-fatal-1",
+      "word_id": "fatal",
+      "text": "He suffered a fatal injury.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那一刀下去就没有第二次机会，别的伤都还能治"
+    },
+    {
+      "id": "ex-fatal-2",
+      "word_id": "fatal",
+      "text": "That was a fatal mistake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那一刀下去就没有第二次机会，别的伤都还能治"
+    },
+    {
+      "id": "ex-fairy-1",
+      "word_id": "fairy",
+      "text": "She read a fairy tale aloud.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书里画着一个巴掌大的身影，背后两片薄翅"
+    },
+    {
+      "id": "ex-fairy-2",
+      "word_id": "fairy",
+      "text": "Children believe in fairies.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书里画着一个巴掌大的身影，背后两片薄翅"
+    },
+    {
+      "id": "ex-employ-1",
+      "word_id": "employ",
+      "text": "The firm employs 200 people.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名册上添了一个名字，从此这摊活里就有他一份"
+    },
+    {
+      "id": "ex-employ-2",
+      "word_id": "employ",
+      "text": "She employed a clever trick.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名册上添了一个名字，从此这摊活里就有他一份"
+    },
+    {
+      "id": "ex-employee-1",
+      "word_id": "employee",
+      "text": "Every employee gets two weeks off.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工牌上印着号码，每月到日子就有一笔钱进账"
+    },
+    {
+      "id": "ex-employee-2",
+      "word_id": "employee",
+      "text": "She is a long-serving employee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "工牌上印着号码，每月到日子就有一笔钱进账"
+    },
+    {
+      "id": "ex-employer-1",
+      "word_id": "employer",
+      "text": "Her employer gave her a raise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签字那一栏是公司的印，钱从那边出"
+    },
+    {
+      "id": "ex-employer-2",
+      "word_id": "employer",
+      "text": "The employer must provide safety gear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "签字那一栏是公司的印，钱从那边出"
+    },
+    {
+      "id": "ex-exploit-1",
+      "word_id": "exploit",
+      "text": "They exploit the mine for copper.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那张折了几道的纸被完全摊平，背面的字也一并露了出来"
+    },
+    {
+      "id": "ex-exploit-2",
+      "word_id": "exploit",
+      "text": "Some firms exploit their workers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那张折了几道的纸被完全摊平，背面的字也一并露了出来"
+    },
+    {
+      "id": "ex-embassy-1",
+      "word_id": "embassy",
+      "text": "He works at the British embassy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口挂着别国的旗，里头办的是那个国家的事"
+    },
+    {
+      "id": "ex-embassy-2",
+      "word_id": "embassy",
+      "text": "The embassy issued a warning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口挂着别国的旗，里头办的是那个国家的事"
+    },
+    {
+      "id": "ex-essay-1",
+      "word_id": "essay",
+      "text": "She wrote an essay on climate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "题目摆在纸头，底下一段段把想法称量着摆开"
+    },
+    {
+      "id": "ex-essay-2",
+      "word_id": "essay",
+      "text": "It was his first essay at farming.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "题目摆在纸头，底下一段段把想法称量着摆开"
+    },
+    {
+      "id": "ex-exam-1",
+      "word_id": "exam",
+      "text": "She passed the exam easily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "卷子发下来，会与不会当场就分出轻重"
+    },
+    {
+      "id": "ex-exam-2",
+      "word_id": "exam",
+      "text": "The exam lasts two hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "卷子发下来，会与不会当场就分出轻重"
+    },
+    {
+      "id": "ex-enable-1",
+      "word_id": "enable",
+      "text": "The grant enabled her to study.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "垫脚的凳子搬来，本来伸手不及的那格就取到了"
+    },
+    {
+      "id": "ex-enable-2",
+      "word_id": "enable",
+      "text": "This tool enables faster work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "垫脚的凳子搬来，本来伸手不及的那格就取到了"
+    },
+    {
+      "id": "ex-disable-1",
+      "word_id": "disable",
+      "text": "The injury disabled his right arm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸一拉下来，方才还转着的机器立刻停住"
+    },
+    {
+      "id": "ex-disable-2",
+      "word_id": "disable",
+      "text": "Disable the alarm before entering.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闸一拉下来，方才还转着的机器立刻停住"
+    },
+    {
+      "id": "ex-endow-1",
+      "word_id": "endow",
+      "text": "He endowed a scholarship fund.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文书上写明这笔钱此后归学校，不再收回"
+    },
+    {
+      "id": "ex-endow-2",
+      "word_id": "endow",
+      "text": "She is endowed with great patience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "文书上写明这笔钱此后归学校，不再收回"
+    },
+    {
+      "id": "ex-dose-1",
+      "word_id": "dose",
+      "text": "Take one dose every four hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药瓶盖里倒到那道刻线，一次就喝这么多"
+    },
+    {
+      "id": "ex-dose-2",
+      "word_id": "dose",
+      "text": "He got a high dose of radiation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "药瓶盖里倒到那道刻线，一次就喝这么多"
+    },
+    {
+      "id": "ex-elite-1",
+      "word_id": "elite",
+      "text": "The elite controlled the land.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单一层层筛下来，最后只剩最上面几个名字"
+    },
+    {
+      "id": "ex-elite-2",
+      "word_id": "elite",
+      "text": "She joined an elite unit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单一层层筛下来，最后只剩最上面几个名字"
+    },
+    {
+      "id": "ex-entire-1",
+      "word_id": "entire",
+      "text": "He ate the entire cake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整块蛋糕端上来，刀还没碰过它"
+    },
+    {
+      "id": "ex-entire-2",
+      "word_id": "entire",
+      "text": "The entire team agreed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整块蛋糕端上来，刀还没碰过它"
+    },
+    {
+      "id": "ex-ensure-1",
+      "word_id": "ensure",
+      "text": "Please ensure the door is locked.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门窗一扇扇查过，回头再看一遍才走开"
+    },
+    {
+      "id": "ex-ensure-2",
+      "word_id": "ensure",
+      "text": "This ensures a fair result.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门窗一扇扇查过，回头再看一遍才走开"
+    },
+    {
+      "id": "ex-deliver-1",
+      "word_id": "deliver",
+      "text": "They deliver bread every morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "包裹从手里递出去，签完字那人转身就走了"
+    },
+    {
+      "id": "ex-deliver-2",
+      "word_id": "deliver",
+      "text": "She delivered a short speech.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "包裹从手里递出去，签完字那人转身就走了"
+    },
+    {
+      "id": "ex-delivery-1",
+      "word_id": "delivery",
+      "text": "The delivery arrived late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清早那车停在门口，一箱箱往下卸"
+    },
+    {
+      "id": "ex-delivery-2",
+      "word_id": "delivery",
+      "text": "Her delivery of the speech was calm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清早那车停在门口，一箱箱往下卸"
+    },
+    {
+      "id": "ex-display-1",
+      "word_id": "display",
+      "text": "The museum displays old maps.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "折成一叠的图纸抖开铺平，整幅一次看全"
+    },
+    {
+      "id": "ex-display-2",
+      "word_id": "display",
+      "text": "The screen displays the time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "折成一叠的图纸抖开铺平，整幅一次看全"
+    },
+    {
+      "id": "ex-degree-1",
+      "word_id": "degree",
+      "text": "The water is at ninety degrees.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "温度计上一道道刻线，水银停在其中一道上"
+    },
+    {
+      "id": "ex-degree-2",
+      "word_id": "degree",
+      "text": "She earned a degree in law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "温度计上一道道刻线，水银停在其中一道上"
+    },
+    {
+      "id": "ex-desire-1",
+      "word_id": "desire",
+      "text": "He desired peace above all.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "夜里抬头望着那颗星看了很久，心里空着一处"
+    },
+    {
+      "id": "ex-desire-2",
+      "word_id": "desire",
+      "text": "She got everything she desired.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "夜里抬头望着那颗星看了很久，心里空着一处"
+    },
+    {
+      "id": "ex-expire-1",
+      "word_id": "expire",
+      "text": "My passport expires in May.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "胸口起伏一次之后就平了下去，再没抬起来"
+    },
+    {
+      "id": "ex-expire-2",
+      "word_id": "expire",
+      "text": "He expired before dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "胸口起伏一次之后就平了下去，再没抬起来"
+    },
+    {
+      "id": "ex-discreet-1",
+      "word_id": "discreet",
+      "text": "Please be discreet about this.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他知道内情，但话到嘴边只挑得出无关的几句"
+    },
+    {
+      "id": "ex-discreet-2",
+      "word_id": "discreet",
+      "text": "She made discreet inquiries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他知道内情，但话到嘴边只挑得出无关的几句"
+    },
+    {
+      "id": "ex-discard-1",
+      "word_id": "discard",
+      "text": "Discard the packaging first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从手里抽出一张扣到桌边，那张就不算他的了"
+    },
+    {
+      "id": "ex-discard-2",
+      "word_id": "discard",
+      "text": "She discarded two cards.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从手里抽出一张扣到桌边，那张就不算他的了"
+    },
+    {
+      "id": "ex-exert-1",
+      "word_id": "exert",
+      "text": "He exerted all his strength.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "攥紧的手往外一抽，绳上那股劲全使了出去"
+    },
+    {
+      "id": "ex-exert-2",
+      "word_id": "exert",
+      "text": "She exerts great influence here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "攥紧的手往外一抽，绳上那股劲全使了出去"
+    },
+    {
+      "id": "ex-defy-1",
+      "word_id": "defy",
+      "text": "He defied the court order.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那份契约推回去，说往后不认这一条"
+    },
+    {
+      "id": "ex-defy-2",
+      "word_id": "defy",
+      "text": "The result defies explanation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那份契约推回去，说往后不认这一条"
     }
   ]
 }

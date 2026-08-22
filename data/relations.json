@@ -6864,6 +6864,282 @@
       "to": "coil",
       "type": "root",
       "note": "col-（一起）+ leg（拣拢）→ colligere（收拢）→ 绕成一圈圈收起来"
+    },
+    {
+      "from": "putare",
+      "to": "count",
+      "type": "root",
+      "note": "com-（合起来）+ put（算）→ computare（合算）经古法语 conter → 一个个点过"
+    },
+    {
+      "from": "putare",
+      "to": "compute",
+      "type": "root",
+      "note": "com-（合起来）+ pute（算）→ 把各项合起来算出结果"
+    },
+    {
+      "from": "putare",
+      "to": "discount",
+      "type": "root",
+      "note": "dis-（去掉）+ count（算）→ 从原数里算掉一部分 → 折扣"
+    },
+    {
+      "from": "putare",
+      "to": "dispute",
+      "type": "root",
+      "note": "dis-（分开）+ pute（算）→ 各算各的、算不到一处 → 争执"
+    },
+    {
+      "from": "putare",
+      "to": "deputy",
+      "type": "root",
+      "note": "de-（往下）+ put（派定）→ 被指派下来顶事的人 → 副职"
+    },
+    {
+      "from": "fallere",
+      "to": "fail",
+      "type": "root",
+      "note": "fallere（使跌倒）→ 该托住的没托住 → 没做成"
+    },
+    {
+      "from": "fallere",
+      "to": "failure",
+      "type": "root",
+      "note": "fail（没做成）+ -ure → 没做成这件事，或没做成的那个人/物"
+    },
+    {
+      "from": "fallere",
+      "to": "false",
+      "type": "root",
+      "note": "falsus（fallere 的过去分词）→ 骗过人的 → 假的、不实的"
+    },
+    {
+      "from": "fallere",
+      "to": "fault",
+      "type": "root",
+      "note": "fallere（失手）→ 出岔的那一处 → 过失、缺陷"
+    },
+    {
+      "from": "fallere",
+      "to": "faulty",
+      "type": "root",
+      "note": "fault（出岔之处）+ -y → 带着毛病的"
+    },
+    {
+      "from": "densus",
+      "to": "dense",
+      "type": "root",
+      "note": "densus（稠的）→ 单位地方里挤了很多 → 密集的"
+    },
+    {
+      "from": "densus",
+      "to": "density",
+      "type": "root",
+      "note": "dense（密集的）+ -ity → 挤得多密这个量"
+    },
+    {
+      "from": "densus",
+      "to": "condense",
+      "type": "root",
+      "note": "con-（一起）+ dense（挤实）→ 往一处挤紧 → 压缩、凝结"
+    },
+    {
+      "from": "discus",
+      "to": "disc",
+      "type": "root",
+      "note": "discus（圆盘）→ 扁而圆的那一片"
+    },
+    {
+      "from": "discus",
+      "to": "dish",
+      "type": "root",
+      "note": "discus（圆盘）经古英语 disc → 盛食物的那只浅圆器"
+    },
+    {
+      "from": "discus",
+      "to": "desk",
+      "type": "root",
+      "note": "discus（圆盘、板）经中世纪拉丁语 desca → 写字用的那块板 → 书桌"
+    },
+    {
+      "from": "phainein",
+      "to": "emphasis",
+      "type": "root",
+      "note": "em-（en- 在内）+ phas（显现）+ -is → 把某一处特意显出来 → 强调"
+    },
+    {
+      "from": "phainein",
+      "to": "fantasy",
+      "type": "root",
+      "note": "phantasia（心里现出的影）← phainein（使显现）→ 只在心里显出、不在眼前的那些"
+    },
+    {
+      "from": "phainein",
+      "to": "fancy",
+      "type": "root",
+      "note": "fantasy 的截短形 → 心里现出个念头 → 觉得想要、喜欢；形容词指花哨"
+    },
+    {
+      "from": "fatum",
+      "to": "fate",
+      "type": "root",
+      "note": "fatum（所说定之事）→ 由不得人改的那个去向"
+    },
+    {
+      "from": "fatum",
+      "to": "fatal",
+      "type": "root",
+      "note": "fatum（定数）+ -al → 关乎定数的 → 致命的、决定性的"
+    },
+    {
+      "from": "fatum",
+      "to": "fairy",
+      "type": "root",
+      "note": "Fata（司命女神）→ 古法语 fae（有法力的女子）+ -ry → 小精灵"
+    },
+    {
+      "from": "plic",
+      "to": "employ",
+      "type": "root",
+      "note": "im-（in- 向内）+ ploy（折叠）→ implicare（把人卷进事里）→ 雇用、使用"
+    },
+    {
+      "from": "plic",
+      "to": "employee",
+      "type": "root",
+      "note": "employ（雇用）+ -ee（受事者）→ 被折进这摊活里的那个人"
+    },
+    {
+      "from": "plic",
+      "to": "employer",
+      "type": "root",
+      "note": "employ（雇用）+ -er（施事者）→ 把人折进来的那一方"
+    },
+    {
+      "from": "plic",
+      "to": "exploit",
+      "type": "root",
+      "note": "ex-（出来）+ ploit（折叠）→ explicare（把折的摊开）→ 把用处榨出来 → 利用、开发"
+    },
+    {
+      "from": "ag",
+      "to": "embassy",
+      "type": "root",
+      "note": "ambactus（受派办事的人）→ 受派驻外办事的那个馆"
+    },
+    {
+      "from": "ag",
+      "to": "essay",
+      "type": "root",
+      "note": "ex-（出来）+ ag（驱动、称量）→ exagium（称重）→ 试着写出的一篇 → 短文"
+    },
+    {
+      "from": "ag",
+      "to": "exam",
+      "type": "root",
+      "note": "examination 的截短 ← examen（秤舌）← ex＋ag（驱出、称量）→ 称量学识的那一场"
+    },
+    {
+      "from": "habere",
+      "to": "enable",
+      "type": "root",
+      "note": "en-（使）+ able（拿得住）→ 使某人拿得住、办得成"
+    },
+    {
+      "from": "habere",
+      "to": "disable",
+      "type": "root",
+      "note": "dis-（取消）+ able（拿得住）→ 使拿不住、使用不了"
+    },
+    {
+      "from": "dare",
+      "to": "endow",
+      "type": "root",
+      "note": "en-（使）+ dow（dare 给）→ 把一份给定在某人名下 → 捐赠、赋予"
+    },
+    {
+      "from": "dare",
+      "to": "dose",
+      "type": "root",
+      "note": "dosis（所给的一份）← didonai/dare（给）→ 一次给下的那个量"
+    },
+    {
+      "from": "legere",
+      "to": "elite",
+      "type": "root",
+      "note": "e-（ex- 出来）+ lite（拣选）→ eligere（挑出来）→ 被挑出的那一小群"
+    },
+    {
+      "from": "integer",
+      "to": "entire",
+      "type": "root",
+      "note": "integer（未经触碰的、完整的）→ 一点没缺的 → 全部的"
+    },
+    {
+      "from": "cura",
+      "to": "ensure",
+      "type": "root",
+      "note": "en-（使）+ sure（无忧）→ 把事办到没有可担心的余地 → 确保"
+    },
+    {
+      "from": "liber",
+      "to": "deliver",
+      "type": "root",
+      "note": "de-（彻底）+ liver（liberare 使自由）→ 把东西从手里放开交出去 → 递送"
+    },
+    {
+      "from": "liber",
+      "to": "delivery",
+      "type": "root",
+      "note": "deliver（递送）+ -y → 递送这件事，或递到的那一批"
+    },
+    {
+      "from": "plic",
+      "to": "display",
+      "type": "root",
+      "note": "dis-（分开）+ play（折叠）→ displicare（把折的展开）→ 摊开给人看"
+    },
+    {
+      "from": "gradus",
+      "to": "degree",
+      "type": "root",
+      "note": "de-（往下）+ gree（gradus 一步）→ 一级一级的那个梯级 → 程度、学位"
+    },
+    {
+      "from": "sidus",
+      "to": "desire",
+      "type": "root",
+      "note": "de-（离开）+ sire（sidus 星）→ 抬头望星而盼 → 渴望"
+    },
+    {
+      "from": "spirare",
+      "to": "expire",
+      "type": "root",
+      "note": "ex-（出去）+ pire（spirare 呼吸）→ 气出去不再回来 → 到期、死"
+    },
+    {
+      "from": "cernere",
+      "to": "discreet",
+      "type": "root",
+      "note": "dis-（分开）+ creet（cernere 筛分）→ 分得清该说不该说 → 谨慎、不外传"
+    },
+    {
+      "from": "charta",
+      "to": "discard",
+      "type": "root",
+      "note": "dis-（去掉）+ card（纸牌）→ 把手里那张牌打掉 → 丢弃"
+    },
+    {
+      "from": "serere",
+      "to": "exert",
+      "type": "root",
+      "note": "ex-（出来）+ ert（serere 编连）→ exserere（抽出来）→ 把力使出来"
+    },
+    {
+      "from": "fidere",
+      "to": "defy",
+      "type": "root",
+      "note": "de-（取消）+ fy（fidere 信托）→ 撤回信托、宣告不再服 → 违抗"
     }
   ]
 }
