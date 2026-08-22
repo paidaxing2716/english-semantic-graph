@@ -3458,6 +3458,243 @@
         "metric",
         "symmetry"
       ]
+    },
+    {
+      "id": "consuetudo",
+      "root": "consuetudo",
+      "variants": [
+        "custom",
+        "costum"
+      ],
+      "origin": "拉丁语 consuetudo（惯常、成例），来自 consuescere（习惯于）；经古法语 costume 入英语。旧时按成例缴纳的税费即 customs（关税），常来照顾生意的人即 customer",
+      "core_concept": "the way long repeated until it counts as the way / 做惯了，于是成了该那么做",
+      "core_image": "同一条路走了几十年，草都被踩出一道浅沟",
+      "english_definition": "habit, usage, established practice",
+      "word_ids": [
+        "custom",
+        "customary",
+        "customer"
+      ]
+    },
+    {
+      "id": "favere",
+      "root": "favere",
+      "variants": [
+        "fav",
+        "favor"
+      ],
+      "origin": "拉丁语 favere（善待、偏袒、喝彩），名词 favor（好意、青睐）；经古法语 favour 入英语",
+      "core_concept": "to lean toward one side and wish it well / 心偏向某一边，盼它好",
+      "core_image": "看台上手掌全朝着一边拍，另一边冷冷清清",
+      "english_definition": "to be kind to, to favour",
+      "word_ids": [
+        "favor",
+        "favorable",
+        "favorite"
+      ]
+    },
+    {
+      "id": "pingere",
+      "root": "pingere",
+      "variants": [
+        "paint",
+        "pict",
+        "pig"
+      ],
+      "origin": "拉丁语 pingere（用颜色涂画、绣饰），过去分词 pictus；经古法语 peindre 入英语成 paint，picture、pigment 同出此支",
+      "core_concept": "to lay colour onto a surface / 把颜色敷到面上去",
+      "core_image": "刷子蘸上颜色，在板面上抹开，木纹一点点被盖住",
+      "english_definition": "to paint, colour, depict",
+      "word_ids": [
+        "paint",
+        "painter",
+        "painting"
+      ]
+    },
+    {
+      "id": "experiri",
+      "root": "experiri",
+      "variants": [
+        "peri",
+        "per"
+      ],
+      "origin": "拉丁语 experiri（试一试、亲身尝过），由 ex（出来）＋ peritus（试过的、有经验的）一支构成；periculum（危险，本义「试出来的凶险」）同根",
+      "core_concept": "knowledge got by trying it oneself / 亲手试过才落下来的那点东西",
+      "core_image": "手伸进水里试了一下，凉热心里就有了数",
+      "english_definition": "to try, test, undergo",
+      "word_ids": [
+        "experience",
+        "experiment",
+        "experimental"
+      ]
+    },
+    {
+      "id": "planus",
+      "root": "planus",
+      "variants": [
+        "plan",
+        "plain",
+        "plane"
+      ],
+      "origin": "拉丁语 planus（平的、无起伏的）；plan 本指画在平面上的图样，explanare（ex＋planus）是「把褶皱摊平」故引申为讲清楚，plain 亦同源",
+      "core_concept": "flat with nothing standing in the way / 摊得平平的，没有起伏遮挡",
+      "core_image": "一张纸铺开压平，褶子都推到边上去了",
+      "english_definition": "flat, level, plain",
+      "word_ids": [
+        "explanation",
+        "plan",
+        "plane"
+      ]
+    },
+    {
+      "id": "planta",
+      "root": "planta",
+      "variants": [
+        "plant"
+      ],
+      "origin": "拉丁语 planta（幼苗、插枝），动词 plantare（栽种）本义是「用脚掌把苗踩进土里」（planta 亦指脚掌）；与 planus（平）不同词，勿混",
+      "core_concept": "a shoot pressed down into soil to grow / 把幼苗按进土里让它长",
+      "core_image": "苗根塞进坑里，脚掌把周围的土踩实",
+      "english_definition": "shoot, sprout, to set in soil",
+      "word_ids": [
+        "plant",
+        "plantation",
+        "transplant"
+      ]
+    },
+    {
+      "id": "polis",
+      "root": "polis",
+      "variants": [
+        "polit",
+        "polic",
+        "polis"
+      ],
+      "origin": "希腊语 polis（城邦），politēs（城邦公民）、politikos（关于城邦公共事务的）由此出；英语 police、policy 同出此支",
+      "core_concept": "the affairs of the city held in common / 城邦里众人共管的那些事",
+      "core_image": "广场上一群人围着争执，事关全城谁都要开口",
+      "english_definition": "city, city-state, citizenry",
+      "word_ids": [
+        "political",
+        "politician",
+        "politics"
+      ]
+    },
+    {
+      "id": "praeesse",
+      "root": "praeesse",
+      "variants": [
+        "pres",
+        "present"
+      ],
+      "origin": "拉丁语 praeesse（在前、主事），由 prae（在前）＋ esse（是、在）构成；分词 praesens 表「正在眼前的」，英语 present 由此",
+      "core_concept": "being right here in front, not elsewhere / 人就在眼前这儿，不在别处",
+      "core_image": "点名点到的人应了一声，抬头就能看见他站在那儿",
+      "english_definition": "to be at hand, be in front",
+      "word_ids": [
+        "presence",
+        "present",
+        "presently"
+      ]
+    },
+    {
+      "id": "profiteri",
+      "root": "profiteri",
+      "variants": [
+        "profess",
+        "profe"
+      ],
+      "origin": "拉丁语 profiteri（公开承认、当众声明），由 pro（在众人前）＋ fateri（承认）构成；过去分词 professus。与 profile 的 filum（线）一支毫无关系，勿混",
+      "core_concept": "to declare one's standing out loud before all / 当众把自己的名分说出口",
+      "core_image": "他站到众人面前开口，把自己认下的那门本事讲明",
+      "english_definition": "to declare publicly, avow",
+      "word_ids": [
+        "profession",
+        "professor"
+      ]
+    },
+    {
+      "id": "filum",
+      "root": "filum",
+      "variants": [
+        "fil",
+        "profil"
+      ],
+      "origin": "拉丁语 filum（线、丝），意大利语 profilare 是 pro（沿着）＋filare（拉线）→「沿轮廓描一条线」，英语 profile 由此；filament、file（成列）同出此支。与 profiteri（当众声明）只是都带 pro-，词源无关",
+      "core_concept": "a thread drawn along an edge / 沿着边缘拉出的一条线",
+      "core_image": "笔尖贴着侧脸的边一路描下去，只留一条轮廓线",
+      "english_definition": "thread, line",
+      "word_ids": [
+        "profile"
+      ]
+    },
+    {
+      "id": "sperare",
+      "root": "sperare",
+      "variants": [
+        "sper",
+        "spair"
+      ],
+      "origin": "拉丁语 sperare（盼望），spes（希望）；prosperus 本义「合所盼的」（pro＋spes），故 prosper 表事情顺着所盼往好处走。desperate（绝望）反用此根",
+      "core_concept": "things going the way one hoped / 事情顺着所盼的那样走",
+      "core_image": "禾苗一天比一天高，秋后果然收成压弯了车",
+      "english_definition": "to hope, to fare well",
+      "word_ids": [
+        "prosper",
+        "prosperity",
+        "prosperous"
+      ]
+    },
+    {
+      "id": "quartus",
+      "root": "quartus",
+      "variants": [
+        "quart",
+        "quar"
+      ],
+      "origin": "拉丁语 quartus（第四的），来自 quattuor（四）；quarta pars（第四份）即四分之一，英语 quart/quarter 由此",
+      "core_concept": "one of four equal parts / 均分成四份里的一份",
+      "core_image": "一张饼横竖各切一刀，正好四块，取走其中一块",
+      "english_definition": "fourth, a quarter",
+      "word_ids": [
+        "quart",
+        "quarter",
+        "quarterly"
+      ]
+    },
+    {
+      "id": "sidus",
+      "root": "sidus",
+      "variants": [
+        "sider",
+        "sid"
+      ],
+      "origin": "拉丁语 sidus（属格 sideris：星、星座）；considerare 本义是「细看星象」（con＋sidus），古人观星定吉凶，故引申为反复审量。desire 亦出此支",
+      "core_concept": "to study the stars closely before deciding / 定夺之前先把星象细看一遍",
+      "core_image": "夜里抬头把星位一颗颗对过，才决定明天动不动身",
+      "english_definition": "star, constellation",
+      "word_ids": [
+        "consider",
+        "considerable",
+        "consideration"
+      ]
+    },
+    {
+      "id": "instaurare",
+      "root": "instaurare",
+      "variants": [
+        "stor",
+        "staur"
+      ],
+      "origin": "拉丁语 instaurare（重新立起、复原、备置），经古法语 estorer 入英语；restore 是 re-＋staurare（再立起），store 本义是「备置存下的物资」",
+      "core_concept": "to set a thing up again and keep it ready / 重新立好，并存着备用",
+      "core_image": "倒下的架子重新扶起立稳，东西一件件搬回架上码好",
+      "english_definition": "to set up again, renew, lay in store",
+      "word_ids": [
+        "restore",
+        "storage",
+        "store"
+      ]
     }
   ]
 }

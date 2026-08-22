@@ -12621,6 +12621,552 @@
       "text": "It is a pleasure to meet you.",
       "source": "AI 生成 · 人工审核",
       "scene": "他听完往椅背上一靠，脸上的紧绷散了"
+    },
+    {
+      "id": "ex-custom-1",
+      "word_id": "custom",
+      "text": "It is a local custom to bring flowers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每年这天各家都摆一样的供品，谁也说不清是从哪辈起的"
+    },
+    {
+      "id": "ex-custom-2",
+      "word_id": "custom",
+      "text": "The goods were held at customs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每年这天各家都摆一样的供品，谁也说不清是从哪辈起的"
+    },
+    {
+      "id": "ex-customary-1",
+      "word_id": "customary",
+      "text": "It is customary to tip the driver.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他照素来的做法先斟茶再落座，一步没差"
+    },
+    {
+      "id": "ex-customary-2",
+      "word_id": "customary",
+      "text": "He took his customary seat by the window.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他照素来的做法先斟茶再落座，一步没差"
+    },
+    {
+      "id": "ex-customer-1",
+      "word_id": "customer",
+      "text": "The shop has many regular customers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掌柜一抬头就知道他要哪一样，来的回数太多了"
+    },
+    {
+      "id": "ex-customer-2",
+      "word_id": "customer",
+      "text": "A customer complained about the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掌柜一抬头就知道他要哪一样，来的回数太多了"
+    },
+    {
+      "id": "ex-favor-1",
+      "word_id": "favor",
+      "text": "Could you do me a favor?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把手一挥，众人的掌声全往那一边去了"
+    },
+    {
+      "id": "ex-favor-2",
+      "word_id": "favor",
+      "text": "The plan found favor with the board.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把手一挥，众人的掌声全往那一边去了"
+    },
+    {
+      "id": "ex-favorable-1",
+      "word_id": "favorable",
+      "text": "The weather was favorable for sailing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风顺着帆往前推，船比预定快了半日"
+    },
+    {
+      "id": "ex-favorable-2",
+      "word_id": "favorable",
+      "text": "She gave a favorable reply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风顺着帆往前推，船比预定快了半日"
+    },
+    {
+      "id": "ex-favorite-1",
+      "word_id": "favorite",
+      "text": "This is my favorite song.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一柜子的杯子，他伸手拿的永远是同一只"
+    },
+    {
+      "id": "ex-favorite-2",
+      "word_id": "favorite",
+      "text": "Blue is her favorite color.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一柜子的杯子，他伸手拿的永远是同一只"
+    },
+    {
+      "id": "ex-paint-1",
+      "word_id": "paint",
+      "text": "The door needs a fresh coat of paint.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刷子在板上来回一趟，后头的木纹就看不见了"
+    },
+    {
+      "id": "ex-paint-2",
+      "word_id": "paint",
+      "text": "She paints in oils.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刷子在板上来回一趟，后头的木纹就看不见了"
+    },
+    {
+      "id": "ex-painter-1",
+      "word_id": "painter",
+      "text": "The painter finished the portrait.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他蹲在梯子下调色，桶边一圈干了的痕"
+    },
+    {
+      "id": "ex-painter-2",
+      "word_id": "painter",
+      "text": "We hired a painter for the kitchen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他蹲在梯子下调色，桶边一圈干了的痕"
+    },
+    {
+      "id": "ex-painting-1",
+      "word_id": "painting",
+      "text": "The painting hangs in the hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "框子里那一幅挂上墙，颜色厚得能看出笔痕"
+    },
+    {
+      "id": "ex-painting-2",
+      "word_id": "painting",
+      "text": "She studied painting in Paris.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "框子里那一幅挂上墙，颜色厚得能看出笔痕"
+    },
+    {
+      "id": "ex-experience-1",
+      "word_id": "experience",
+      "text": "She has years of teaching experience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手在水里试过几回，伸进去就知道够不够烫"
+    },
+    {
+      "id": "ex-experience-2",
+      "word_id": "experience",
+      "text": "It was a frightening experience.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手在水里试过几回，伸进去就知道够不够烫"
+    },
+    {
+      "id": "ex-experiment-1",
+      "word_id": "experiment",
+      "text": "They ran the experiment three times.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只杯子只差一样条件，摆在一处等着看分别"
+    },
+    {
+      "id": "ex-experiment-2",
+      "word_id": "experiment",
+      "text": "The experiment confirmed her theory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只杯子只差一样条件，摆在一处等着看分别"
+    },
+    {
+      "id": "ex-experimental-1",
+      "word_id": "experimental",
+      "text": "The treatment is still experimental.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那台机器还摆在台上，参数天天改"
+    },
+    {
+      "id": "ex-experimental-2",
+      "word_id": "experimental",
+      "text": "They set up an experimental farm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那台机器还摆在台上，参数天天改"
+    },
+    {
+      "id": "ex-plan-1",
+      "word_id": "plan",
+      "text": "We made a plan for the weekend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上铺开一张图，每一处都先在纸上定好位置"
+    },
+    {
+      "id": "ex-plan-2",
+      "word_id": "plan",
+      "text": "The architect showed us the floor plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上铺开一张图，每一处都先在纸上定好位置"
+    },
+    {
+      "id": "ex-plane-1",
+      "word_id": "plane",
+      "text": "Draw two lines on the same plane.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推子沿着木头走过去，凸起的一层卷成花掉在地上"
+    },
+    {
+      "id": "ex-plane-2",
+      "word_id": "plane",
+      "text": "Our plane landed on time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推子沿着木头走过去，凸起的一层卷成花掉在地上"
+    },
+    {
+      "id": "ex-explanation-1",
+      "word_id": "explanation",
+      "text": "He gave no explanation for the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把揉皱的那张纸一点点抹平，字才认得出来"
+    },
+    {
+      "id": "ex-explanation-2",
+      "word_id": "explanation",
+      "text": "Her explanation satisfied everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把揉皱的那张纸一点点抹平，字才认得出来"
+    },
+    {
+      "id": "ex-plant-1",
+      "word_id": "plant",
+      "text": "Water the plants every morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "苗根塞进坑里，土一踩实，叶子第二天就抬起来了"
+    },
+    {
+      "id": "ex-plant-2",
+      "word_id": "plant",
+      "text": "They plant rice in early summer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "苗根塞进坑里，土一踩实，叶子第二天就抬起来了"
+    },
+    {
+      "id": "ex-plantation-1",
+      "word_id": "plantation",
+      "text": "He works on a tea plantation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一垄接一垄望不到头，每株间距都一样"
+    },
+    {
+      "id": "ex-plantation-2",
+      "word_id": "plantation",
+      "text": "The plantation covers two hundred acres.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一垄接一垄望不到头，每株间距都一样"
+    },
+    {
+      "id": "ex-transplant-1",
+      "word_id": "transplant",
+      "text": "We transplanted the seedlings today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "带着根土整株起出来，挪到新坑里再踩实"
+    },
+    {
+      "id": "ex-transplant-2",
+      "word_id": "transplant",
+      "text": "He received a heart transplant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "带着根土整株起出来，挪到新坑里再踩实"
+    },
+    {
+      "id": "ex-politics-1",
+      "word_id": "politics",
+      "text": "He went into politics at thirty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场中央吵成一片，各方都想让自己那套算数"
+    },
+    {
+      "id": "ex-politics-2",
+      "word_id": "politics",
+      "text": "Office politics wore her down.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场中央吵成一片，各方都想让自己那套算数"
+    },
+    {
+      "id": "ex-political-1",
+      "word_id": "political",
+      "text": "It became a political issue overnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这件事一摆上广场，各方立刻按立场分了边"
+    },
+    {
+      "id": "ex-political-2",
+      "word_id": "political",
+      "text": "She has strong political views.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这件事一摆上广场，各方立刻按立场分了边"
+    },
+    {
+      "id": "ex-politician-1",
+      "word_id": "politician",
+      "text": "The politician avoided the question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他登上台阶开口，底下的人分头喝彩与嘘声"
+    },
+    {
+      "id": "ex-politician-2",
+      "word_id": "politician",
+      "text": "She is a career politician.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他登上台阶开口，底下的人分头喝彩与嘘声"
+    },
+    {
+      "id": "ex-present-1",
+      "word_id": "present",
+      "text": "All the students were present.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点到名字，那人在后排应了一声抬起手"
+    },
+    {
+      "id": "ex-present-2",
+      "word_id": "present",
+      "text": "She gave him a birthday present.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点到名字，那人在后排应了一声抬起手"
+    },
+    {
+      "id": "ex-presence-1",
+      "word_id": "presence",
+      "text": "Your presence is required at the meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一进门，满屋的说话声就低了半度"
+    },
+    {
+      "id": "ex-presence-2",
+      "word_id": "presence",
+      "text": "She has real stage presence.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一进门，满屋的说话声就低了半度"
+    },
+    {
+      "id": "ex-presently-1",
+      "word_id": "presently",
+      "text": "He is presently working abroad.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他说了句稍等，转身进屋，没几步又折回来了"
+    },
+    {
+      "id": "ex-presently-2",
+      "word_id": "presently",
+      "text": "The doctor will see you presently.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他说了句稍等，转身进屋，没几步又折回来了"
+    },
+    {
+      "id": "ex-profession-1",
+      "word_id": "profession",
+      "text": "She entered the legal profession.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他报出自己那一行，众人便知他受过哪套训练"
+    },
+    {
+      "id": "ex-profession-2",
+      "word_id": "profession",
+      "text": "He made a profession of loyalty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他报出自己那一行，众人便知他受过哪套训练"
+    },
+    {
+      "id": "ex-professor-1",
+      "word_id": "professor",
+      "text": "The professor published a new study.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他站上讲台，把那套道理从头讲给满堂人听"
+    },
+    {
+      "id": "ex-professor-2",
+      "word_id": "professor",
+      "text": "She was made professor at forty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他站上讲台，把那套道理从头讲给满堂人听"
+    },
+    {
+      "id": "ex-profile-1",
+      "word_id": "profile",
+      "text": "He was photographed in profile.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灯打在墙上，只剩一条贴着脸缘的黑边"
+    },
+    {
+      "id": "ex-profile-2",
+      "word_id": "profile",
+      "text": "Her profile appeared in the magazine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灯打在墙上，只剩一条贴着脸缘的黑边"
+    },
+    {
+      "id": "ex-prosper-1",
+      "word_id": "prosper",
+      "text": "The business prospered under her care.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铺子头一年只两三个客，第三年桌子摆到了门外"
+    },
+    {
+      "id": "ex-prosper-2",
+      "word_id": "prosper",
+      "text": "Few crops prosper in dry soil.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铺子头一年只两三个客，第三年桌子摆到了门外"
+    },
+    {
+      "id": "ex-prosperity-1",
+      "word_id": "prosperity",
+      "text": "The country enjoyed years of prosperity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满仓的粮堆到梁下，院里车马进出不断"
+    },
+    {
+      "id": "ex-prosperity-2",
+      "word_id": "prosperity",
+      "text": "They shared in the town's prosperity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满仓的粮堆到梁下，院里车马进出不断"
+    },
+    {
+      "id": "ex-prosperous-1",
+      "word_id": "prosperous",
+      "text": "It is a prosperous farming region.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他家门前石阶新换过，仓房也添了一间"
+    },
+    {
+      "id": "ex-prosperous-2",
+      "word_id": "prosperous",
+      "text": "He came from a prosperous family.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他家门前石阶新换过，仓房也添了一间"
+    },
+    {
+      "id": "ex-quarter-1",
+      "word_id": "quarter",
+      "text": "Cut the apple into quarters.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "横竖各一刀，取走其中一块，手里正好是整张的一份"
+    },
+    {
+      "id": "ex-quarter-2",
+      "word_id": "quarter",
+      "text": "Sales rose in the final quarter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "横竖各一刀，取走其中一块，手里正好是整张的一份"
+    },
+    {
+      "id": "ex-quart-1",
+      "word_id": "quart",
+      "text": "Add a quart of milk to the pan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "壶里的奶倒满四回，正好把大桶灌平"
+    },
+    {
+      "id": "ex-quart-2",
+      "word_id": "quart",
+      "text": "The recipe calls for two quarts of water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "壶里的奶倒满四回，正好把大桶灌平"
+    },
+    {
+      "id": "ex-quarterly-1",
+      "word_id": "quarterly",
+      "text": "The company files quarterly reports.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本一年结四回，每回隔三个月"
+    },
+    {
+      "id": "ex-quarterly-2",
+      "word_id": "quarterly",
+      "text": "She receives a quarterly payment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本一年结四回，每回隔三个月"
+    },
+    {
+      "id": "ex-consider-1",
+      "word_id": "consider",
+      "text": "Please consider my proposal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抬头把满天的星位挨个对过，才开口说话"
+    },
+    {
+      "id": "ex-consider-2",
+      "word_id": "consider",
+      "text": "She is considered an expert.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他抬头把满天的星位挨个对过，才开口说话"
+    },
+    {
+      "id": "ex-considerable-1",
+      "word_id": "considerable",
+      "text": "They spent a considerable sum.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报上来的数目不小，掌事的把册子翻了两遍"
+    },
+    {
+      "id": "ex-considerable-2",
+      "word_id": "considerable",
+      "text": "She has considerable influence here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "报上来的数目不小，掌事的把册子翻了两遍"
+    },
+    {
+      "id": "ex-consideration-1",
+      "word_id": "consideration",
+      "text": "The plan is under consideration.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把册子摊在灯下，一条条对过去，末了还问了句家里方便不方便"
+    },
+    {
+      "id": "ex-consideration-2",
+      "word_id": "consideration",
+      "text": "He showed great consideration for others.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把册子摊在灯下，一条条对过去，末了还问了句家里方便不方便"
+    },
+    {
+      "id": "ex-restore-1",
+      "word_id": "restore",
+      "text": "They restored the old church.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散架的柜子一块块拼回去，扶正后又能立稳"
+    },
+    {
+      "id": "ex-restore-2",
+      "word_id": "restore",
+      "text": "Power was restored within the hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "散架的柜子一块块拼回去，扶正后又能立稳"
+    },
+    {
+      "id": "ex-store-1",
+      "word_id": "store",
+      "text": "Store the grain in a dry place.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "米袋一层层码到墙根，够撑过整个冬天"
+    },
+    {
+      "id": "ex-store-2",
+      "word_id": "store",
+      "text": "She works at a grocery store.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "米袋一层层码到墙根，够撑过整个冬天"
+    },
+    {
+      "id": "ex-storage-1",
+      "word_id": "storage",
+      "text": "We put the boxes into storage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "阁楼腾出半间，箱子摞起来到房梁"
+    },
+    {
+      "id": "ex-storage-2",
+      "word_id": "storage",
+      "text": "The phone has 128GB of storage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "阁楼腾出半间，箱子摞起来到房梁"
     }
   ]
 }

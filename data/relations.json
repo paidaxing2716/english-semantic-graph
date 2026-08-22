@@ -5544,6 +5544,240 @@
       "to": "pleasure",
       "type": "root",
       "note": "please（使合意）+ -ure（名词）→ 合意时心里那份受用"
+    },
+    {
+      "from": "consuetudo",
+      "to": "custom",
+      "type": "root",
+      "note": "consuetudo（惯常）→ 一地长年照做的成例；按成例缴的税即关税一义"
+    },
+    {
+      "from": "consuetudo",
+      "to": "customary",
+      "type": "root",
+      "note": "custom（成例）+ -ary（…的）→ 照成例来的、素来如此的"
+    },
+    {
+      "from": "consuetudo",
+      "to": "customer",
+      "type": "root",
+      "note": "custom（惯常照顾）+ -er（人）→ 惯常上门买东西的那个人"
+    },
+    {
+      "from": "favere",
+      "to": "favor",
+      "type": "root",
+      "note": "favere（善待、偏袒）→ 给某一边的好意；也指为人做的那件方便事"
+    },
+    {
+      "from": "favere",
+      "to": "favorable",
+      "type": "root",
+      "note": "favor（好意）+ -able（可…的）→ 带着好意的、于我有利的"
+    },
+    {
+      "from": "favere",
+      "to": "favorite",
+      "type": "root",
+      "note": "favor（偏爱）+ -ite（受…的）→ 得那份偏爱最多的"
+    },
+    {
+      "from": "pingere",
+      "to": "paint",
+      "type": "root",
+      "note": "pingere（涂色）→ 敷到面上的那种颜色；也指作画这件事"
+    },
+    {
+      "from": "pingere",
+      "to": "painter",
+      "type": "root",
+      "note": "paint（敷色）+ -er（人）→ 干敷色这活的人：作画的或刷漆的"
+    },
+    {
+      "from": "pingere",
+      "to": "painting",
+      "type": "root",
+      "note": "paint（敷色）+ -ing → 敷色所成之物，及敷色这门事"
+    },
+    {
+      "from": "experiri",
+      "to": "experience",
+      "type": "root",
+      "note": "ex-（出来）+ peri（试）+ -ence → 亲身试过后留下来的那点本事"
+    },
+    {
+      "from": "experiri",
+      "to": "experiment",
+      "type": "root",
+      "note": "ex-（出来）+ peri（试）+ -ment → 特意安排的一次试，看会出什么"
+    },
+    {
+      "from": "experiri",
+      "to": "experimental",
+      "type": "root",
+      "note": "experiment（试一次）+ -al（…的）→ 尚在试的、拿来试的"
+    },
+    {
+      "from": "planus",
+      "to": "plan",
+      "type": "root",
+      "note": "planus（平面）→ 画在平面上的图样 → 打算、方案；动词即谋划"
+    },
+    {
+      "from": "planus",
+      "to": "plane",
+      "type": "root",
+      "note": "planus（平的）→ 平面；机翼是平展的面，故 aeroplane 截短为 plane；刨子是找平的工具"
+    },
+    {
+      "from": "planus",
+      "to": "explanation",
+      "type": "root",
+      "note": "ex-（出来）+ plan（平）+ -ation → 把褶子摊平摊开 → 讲清楚的那番话"
+    },
+    {
+      "from": "planta",
+      "to": "plant",
+      "type": "root",
+      "note": "planta（幼苗）→ 长在土里的活物；动词是把苗按进土里。厂房义由「设置安放」引申"
+    },
+    {
+      "from": "planta",
+      "to": "plantation",
+      "type": "root",
+      "note": "plant（栽种）+ -ation → 成片栽种的那块地"
+    },
+    {
+      "from": "planta",
+      "to": "transplant",
+      "type": "root",
+      "note": "trans-（转移）+ plant（栽）→ 起出来栽到别处 → 移栽；医学上指移植器官"
+    },
+    {
+      "from": "polis",
+      "to": "politics",
+      "type": "root",
+      "note": "polit（城邦公事）+ -ics（…之学/之事）→ 争夺与处置公共事务这一摊"
+    },
+    {
+      "from": "polis",
+      "to": "political",
+      "type": "root",
+      "note": "polit（城邦公事）+ -ical（…的）→ 与公共事务、权力相关的"
+    },
+    {
+      "from": "polis",
+      "to": "politician",
+      "type": "root",
+      "note": "politic（城邦公事）+ -ian（司此业者）→ 以处置公共事务为业的人"
+    },
+    {
+      "from": "praeesse",
+      "to": "present",
+      "type": "root",
+      "note": "prae-（在前）+ sent（在）→ 正在眼前的 → 出席的、当下的；引申为送到眼前之物"
+    },
+    {
+      "from": "praeesse",
+      "to": "presence",
+      "type": "root",
+      "note": "present（在眼前）+ -ence → 人在此处这件事；引申为身上那股压得住场的气派"
+    },
+    {
+      "from": "praeesse",
+      "to": "presently",
+      "type": "root",
+      "note": "present（当下）+ -ly → 就眼下而言；也表「过一会儿就」"
+    },
+    {
+      "from": "profiteri",
+      "to": "profession",
+      "type": "root",
+      "note": "pro-（众人前）+ fess（承认）+ -ion → 当众声明自己所执的那门业 → 职业"
+    },
+    {
+      "from": "profiteri",
+      "to": "professor",
+      "type": "root",
+      "note": "profess（当众讲明）+ -or（人）→ 在讲堂上当众讲学的人"
+    },
+    {
+      "from": "filum",
+      "to": "profile",
+      "type": "root",
+      "note": "pro-（沿着）+ fil（线）+ -e → 沿边描出的那条线 → 侧影；引申为人物概况"
+    },
+    {
+      "from": "sperare",
+      "to": "prosper",
+      "type": "root",
+      "note": "pro-（合乎）+ sper（所盼）→ 事情合着所盼往好处走 → 兴旺"
+    },
+    {
+      "from": "sperare",
+      "to": "prosperity",
+      "type": "root",
+      "note": "prosper（兴旺）+ -ity → 兴旺这个状态 → 繁荣、富足"
+    },
+    {
+      "from": "sperare",
+      "to": "prosperous",
+      "type": "root",
+      "note": "prosper（兴旺）+ -ous（…的）→ 正处在兴旺里的"
+    },
+    {
+      "from": "quartus",
+      "to": "quarter",
+      "type": "root",
+      "note": "quart（第四）+ -er → 四份中的一份；引申为一年的四分之一、城中一区"
+    },
+    {
+      "from": "quartus",
+      "to": "quart",
+      "type": "root",
+      "note": "quartus（第四）→ 一加仑的四分之一，作容量单位"
+    },
+    {
+      "from": "quartus",
+      "to": "quarterly",
+      "type": "root",
+      "note": "quarter（季度）+ -ly（每…的）→ 每季一次的"
+    },
+    {
+      "from": "sidus",
+      "to": "consider",
+      "type": "root",
+      "note": "con-（仔细）+ sider（星象）→ 像看星象那样反复审量 → 考虑；引申为认为"
+    },
+    {
+      "from": "sidus",
+      "to": "considerable",
+      "type": "root",
+      "note": "consider（审量）+ -able（值得…的）→ 值得专门审量的 → 相当大的"
+    },
+    {
+      "from": "sidus",
+      "to": "consideration",
+      "type": "root",
+      "note": "consider（审量）+ -ation → 审量这件事；也指审量时须顾到的那一项、体谅"
+    },
+    {
+      "from": "instaurare",
+      "to": "restore",
+      "type": "root",
+      "note": "re-（再）+ stor（立起）→ 把倒下的重新立回原样 → 修复、恢复"
+    },
+    {
+      "from": "instaurare",
+      "to": "store",
+      "type": "root",
+      "note": "instaurare（备置）→ 备下存着的物资 → 储备；存放之处即店铺"
+    },
+    {
+      "from": "instaurare",
+      "to": "storage",
+      "type": "root",
+      "note": "store（备存）+ -age → 存放这件事，及存放的地方与费用"
     }
   ]
 }

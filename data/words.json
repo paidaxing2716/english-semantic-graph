@@ -35414,6 +35414,1506 @@
         "荣幸：把此事当作合意之事来说的客气话"
       ],
       "recall_hint": "please（使合意）+ -ure → 合意时心里那份受用"
+    },
+    {
+      "id": "custom",
+      "word": "custom",
+      "pos": "noun",
+      "phonetic": "/ˈkʌstəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "consuetudo"
+      ],
+      "root_logic": "consuetudo（惯常）→ 一地长年照做的成例；按成例缴的税即关税一义",
+      "origin": "古法语 costume，来自拉丁语 consuetudo（惯常）← consuescere（习惯于）",
+      "native_definition": "a way of behaving long established in a place; duties paid on imports",
+      "core_concept": "what a place has done so long that it now counts as proper – 一地做久了、如今被认作该那么做的事",
+      "core_image": "每年这天各家都摆一样的供品，谁也说不清是从哪辈起的",
+      "chinese": [
+        "习俗",
+        "惯例",
+        "关税"
+      ],
+      "examples": [
+        "It is a local custom to bring flowers.",
+        "The goods were held at customs."
+      ],
+      "synonyms": [
+        "tradition",
+        "practice"
+      ],
+      "antonyms": [],
+      "related": [
+        "customary",
+        "customer"
+      ],
+      "semantic_expansions": [
+        "习俗/惯例：一地长年照做、被认作该如此的事",
+        "关税：旧时按成例向过境货物征收的那笔"
+      ],
+      "recall_hint": "consuetudo（惯常）→ 做久成例；按例缴的税即关税"
+    },
+    {
+      "id": "customary",
+      "word": "customary",
+      "pos": "adjective",
+      "phonetic": "/ˈkʌstəməri/",
+      "decomposable": "root",
+      "root_ids": [
+        "consuetudo"
+      ],
+      "root_logic": "custom（成例）+ -ary（…的）→ 照成例来的、素来如此的",
+      "origin": "拉丁语 consuetudinarius（依惯例的），来自 consuetudo",
+      "native_definition": "according to what is usually done",
+      "core_concept": "following the groove already worn in – 顺着早被踩出来的那道沟走",
+      "core_image": "他照素来的做法先斟茶再落座，一步没差",
+      "chinese": [
+        "习惯上的",
+        "惯常的"
+      ],
+      "examples": [
+        "It is customary to tip the driver.",
+        "He took his customary seat by the window."
+      ],
+      "synonyms": [
+        "usual",
+        "traditional"
+      ],
+      "antonyms": [
+        "unusual"
+      ],
+      "related": [
+        "custom",
+        "customer"
+      ],
+      "semantic_expansions": [
+        "习惯上的/惯常的：顺着早已踩出的那道沟来"
+      ],
+      "recall_hint": "custom（成例）+ -ary → 顺着旧沟、素来如此"
+    },
+    {
+      "id": "customer",
+      "word": "customer",
+      "pos": "noun",
+      "phonetic": "/ˈkʌstəmə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "consuetudo"
+      ],
+      "root_logic": "custom（惯常照顾）+ -er（人）→ 惯常上门买东西的那个人",
+      "origin": "英语 customer，来自 custom（惯常光顾）← 拉丁语 consuetudo",
+      "native_definition": "a person who buys goods or services from a shop or business",
+      "core_concept": "the one who keeps coming back to the same counter – 一趟趟回到同一个柜台的那个人",
+      "core_image": "掌柜一抬头就知道他要哪一样，来的回数太多了",
+      "chinese": [
+        "顾客",
+        "客户"
+      ],
+      "examples": [
+        "The shop has many regular customers.",
+        "A customer complained about the delay."
+      ],
+      "synonyms": [
+        "client",
+        "buyer"
+      ],
+      "antonyms": [
+        "seller"
+      ],
+      "related": [
+        "custom",
+        "customary"
+      ],
+      "semantic_expansions": [
+        "顾客/客户：惯常回到同一处买东西的人"
+      ],
+      "recall_hint": "custom（惯常光顾）+ -er → 一趟趟回来的那个人"
+    },
+    {
+      "id": "favor",
+      "word": "favor",
+      "pos": "noun",
+      "phonetic": "/ˈfeɪvə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "favere"
+      ],
+      "root_logic": "favere（善待、偏袒）→ 给某一边的好意；也指为人做的那件方便事",
+      "origin": "古法语 favour，来自拉丁语 favor（好意、青睐）← favere",
+      "native_definition": "kind approval or support; a kind act done for someone",
+      "core_concept": "the good will turned toward one side – 朝某一边送去的那份好意",
+      "core_image": "他把手一挥，众人的掌声全往那一边去了",
+      "chinese": [
+        "恩惠",
+        "赞成",
+        "偏爱"
+      ],
+      "examples": [
+        "Could you do me a favor?",
+        "The plan found favor with the board."
+      ],
+      "synonyms": [
+        "kindness",
+        "approval"
+      ],
+      "antonyms": [
+        "disfavor"
+      ],
+      "related": [
+        "favorable",
+        "favorite"
+      ],
+      "semantic_expansions": [
+        "恩惠：为人做的那件方便事",
+        "赞成/偏爱：心朝某一边送去的好意"
+      ],
+      "recall_hint": "favere（善待偏袒）→ 朝某一边送去的好意"
+    },
+    {
+      "id": "favorable",
+      "word": "favorable",
+      "pos": "adjective",
+      "phonetic": "/ˈfeɪvərəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "favere"
+      ],
+      "root_logic": "favor（好意）+ -able（可…的）→ 带着好意的、于我有利的",
+      "origin": "拉丁语 favorabilis（讨喜的、有利的），来自 favor ← favere",
+      "native_definition": "showing approval; helpful and likely to bring advantage",
+      "core_concept": "with the wind leaning one's own way – 风向偏在自己这一边",
+      "core_image": "风顺着帆往前推，船比预定快了半日",
+      "chinese": [
+        "有利的",
+        "赞同的",
+        "顺利的"
+      ],
+      "examples": [
+        "The weather was favorable for sailing.",
+        "She gave a favorable reply."
+      ],
+      "synonyms": [
+        "advantageous",
+        "positive"
+      ],
+      "antonyms": [
+        "unfavorable"
+      ],
+      "related": [
+        "favor",
+        "favorite"
+      ],
+      "semantic_expansions": [
+        "赞同的：带着好意的",
+        "有利的/顺利的：势头偏在自己这一边"
+      ],
+      "recall_hint": "favor（好意）+ -able → 好意所向、势头偏向自己"
+    },
+    {
+      "id": "favorite",
+      "word": "favorite",
+      "pos": "adjective",
+      "phonetic": "/ˈfeɪvərɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "favere"
+      ],
+      "root_logic": "favor（偏爱）+ -ite（受…的）→ 得那份偏爱最多的",
+      "origin": "意大利语 favorito（受宠者），来自 favorire ← 拉丁语 favere",
+      "native_definition": "liked more than all others of the same kind",
+      "core_concept": "the one the leaning always settles on – 那份偏心总落在它头上",
+      "core_image": "一柜子的杯子，他伸手拿的永远是同一只",
+      "chinese": [
+        "最喜欢的",
+        "最爱的"
+      ],
+      "examples": [
+        "This is my favorite song.",
+        "Blue is her favorite color."
+      ],
+      "synonyms": [
+        "preferred",
+        "beloved"
+      ],
+      "antonyms": [
+        "disliked"
+      ],
+      "related": [
+        "favor",
+        "favorable"
+      ],
+      "semantic_expansions": [
+        "最喜欢的/最爱的：偏心总落在它头上的那一个"
+      ],
+      "recall_hint": "favor（偏爱）+ -ite → 偏心总落在它头上"
+    },
+    {
+      "id": "paint",
+      "word": "paint",
+      "pos": "noun / verb",
+      "phonetic": "/peɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pingere"
+      ],
+      "root_logic": "pingere（涂色）→ 敷到面上的那种颜色；也指作画这件事",
+      "origin": "古法语 peint（涂过的），peindre 的过去分词 ← 拉丁语 pingere",
+      "native_definition": "coloured liquid put on a surface; to make a picture with colour",
+      "core_concept": "the colour laid on, and the laying of it – 敷上去的那层色，以及敷色这件事",
+      "core_image": "刷子在板上来回一趟，后头的木纹就看不见了",
+      "chinese": [
+        "油漆",
+        "颜料",
+        "绘画"
+      ],
+      "examples": [
+        "The door needs a fresh coat of paint.",
+        "She paints in oils."
+      ],
+      "synonyms": [
+        "colour",
+        "coat"
+      ],
+      "antonyms": [],
+      "related": [
+        "painter",
+        "painting"
+      ],
+      "semantic_expansions": [
+        "油漆/颜料：敷到面上的那层色",
+        "绘画：把色敷成图这件事"
+      ],
+      "recall_hint": "pingere（涂色）→ 敷到面上的那层色及敷色之事"
+    },
+    {
+      "id": "painter",
+      "word": "painter",
+      "pos": "noun",
+      "phonetic": "/ˈpeɪntə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "pingere"
+      ],
+      "root_logic": "paint（敷色）+ -er（人）→ 干敷色这活的人：作画的或刷漆的",
+      "origin": "英语 painter，来自 paint ← 拉丁语 pingere",
+      "native_definition": "a person who paints pictures, or who paints buildings as a job",
+      "core_concept": "the one whose work is laying colour on – 以敷色为活计的那个人",
+      "core_image": "他蹲在梯子下调色，桶边一圈干了的痕",
+      "chinese": [
+        "画家",
+        "油漆工"
+      ],
+      "examples": [
+        "The painter finished the portrait.",
+        "We hired a painter for the kitchen."
+      ],
+      "synonyms": [
+        "artist",
+        "decorator"
+      ],
+      "antonyms": [],
+      "related": [
+        "paint",
+        "painting"
+      ],
+      "semantic_expansions": [
+        "画家：以敷色作画为业的人",
+        "油漆工：以敷色刷面为业的人"
+      ],
+      "recall_hint": "paint（敷色）+ -er → 干敷色这活的人"
+    },
+    {
+      "id": "painting",
+      "word": "painting",
+      "pos": "noun",
+      "phonetic": "/ˈpeɪntɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "pingere"
+      ],
+      "root_logic": "paint（敷色）+ -ing → 敷色所成之物，及敷色这门事",
+      "origin": "英语 painting，来自 paint 的动名词 ← 拉丁语 pingere",
+      "native_definition": "a picture made with paint; the art or act of painting",
+      "core_concept": "what the laid colour has become – 那层色最后成了的样子",
+      "core_image": "框子里那一幅挂上墙，颜色厚得能看出笔痕",
+      "chinese": [
+        "画作",
+        "绘画"
+      ],
+      "examples": [
+        "The painting hangs in the hall.",
+        "She studied painting in Paris."
+      ],
+      "synonyms": [
+        "picture",
+        "artwork"
+      ],
+      "antonyms": [],
+      "related": [
+        "paint",
+        "painter"
+      ],
+      "semantic_expansions": [
+        "画作：敷色所成的那一幅",
+        "绘画：敷色成图这门事本身"
+      ],
+      "recall_hint": "paint（敷色）+ -ing → 敷色所成之物与其事"
+    },
+    {
+      "id": "experience",
+      "word": "experience",
+      "pos": "noun",
+      "phonetic": "/ɪkˈspɪəriəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "experiri"
+      ],
+      "root_logic": "ex-（出来）+ peri（试）+ -ence → 亲身试过后留下来的那点本事",
+      "origin": "拉丁语 experientia（试验所得），来自 experiri（亲身试过）",
+      "native_definition": "knowledge or skill gained by doing something; an event one lives through",
+      "core_concept": "what stays with one after having tried it – 试过之后留在身上的那点东西",
+      "core_image": "手在水里试过几回，伸进去就知道够不够烫",
+      "chinese": [
+        "经验",
+        "体验",
+        "经历"
+      ],
+      "examples": [
+        "She has years of teaching experience.",
+        "It was a frightening experience."
+      ],
+      "synonyms": [
+        "knowledge",
+        "encounter"
+      ],
+      "antonyms": [
+        "inexperience"
+      ],
+      "related": [
+        "experiment",
+        "experimental"
+      ],
+      "semantic_expansions": [
+        "经验：亲身试过后留下的本事",
+        "体验/经历：亲身走过的那一遭"
+      ],
+      "recall_hint": "ex-（出来）+ peri（试）→ 试过后留在身上的东西"
+    },
+    {
+      "id": "experiment",
+      "word": "experiment",
+      "pos": "noun",
+      "phonetic": "/ɪkˈsperɪmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "experiri"
+      ],
+      "root_logic": "ex-（出来）+ peri（试）+ -ment → 特意安排的一次试，看会出什么",
+      "origin": "拉丁语 experimentum（试验、检验），来自 experiri",
+      "native_definition": "a scientific test done to find out what happens",
+      "core_concept": "a trying set up on purpose to see what comes out – 特意摆开来试一次，看结果怎样",
+      "core_image": "两只杯子只差一样条件，摆在一处等着看分别",
+      "chinese": [
+        "实验",
+        "试验"
+      ],
+      "examples": [
+        "They ran the experiment three times.",
+        "The experiment confirmed her theory."
+      ],
+      "synonyms": [
+        "test",
+        "trial"
+      ],
+      "antonyms": [],
+      "related": [
+        "experience",
+        "experimental"
+      ],
+      "semantic_expansions": [
+        "实验/试验：特意安排的一次试，用来看结果"
+      ],
+      "recall_hint": "ex-（出来）+ peri（试）+ -ment → 特意摆开试一次"
+    },
+    {
+      "id": "experimental",
+      "word": "experimental",
+      "pos": "adjective",
+      "phonetic": "/ɪkˌsperɪˈmentl/",
+      "decomposable": "root",
+      "root_ids": [
+        "experiri"
+      ],
+      "root_logic": "experiment（试一次）+ -al（…的）→ 尚在试的、拿来试的",
+      "origin": "英语 experimental，来自 experiment ← 拉丁语 experiri",
+      "native_definition": "based on new methods not yet proved; used for testing",
+      "core_concept": "still at the trying stage, not yet settled – 还在试的阶段，尚未定下来",
+      "core_image": "那台机器还摆在台上，参数天天改",
+      "chinese": [
+        "实验的",
+        "试验性的"
+      ],
+      "examples": [
+        "The treatment is still experimental.",
+        "They set up an experimental farm."
+      ],
+      "synonyms": [
+        "trial",
+        "tentative"
+      ],
+      "antonyms": [
+        "proven"
+      ],
+      "related": [
+        "experience",
+        "experiment"
+      ],
+      "semantic_expansions": [
+        "实验的/试验性的：还在试、尚未定下来的"
+      ],
+      "recall_hint": "experiment（试一次）+ -al → 还在试的阶段"
+    },
+    {
+      "id": "plan",
+      "word": "plan",
+      "pos": "noun / verb",
+      "phonetic": "/plæn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planus"
+      ],
+      "root_logic": "planus（平面）→ 画在平面上的图样 → 打算、方案；动词即谋划",
+      "origin": "法语 plan（平面图），来自拉丁语 planus（平的）",
+      "native_definition": "a detailed proposal for doing something; a drawing seen from above",
+      "core_concept": "the layout drawn flat before anything is built – 动工之前先摊在平面上画出来的那套",
+      "core_image": "桌上铺开一张图，每一处都先在纸上定好位置",
+      "chinese": [
+        "计划",
+        "方案",
+        "平面图"
+      ],
+      "examples": [
+        "We made a plan for the weekend.",
+        "The architect showed us the floor plan."
+      ],
+      "synonyms": [
+        "scheme",
+        "design"
+      ],
+      "antonyms": [],
+      "related": [
+        "plane",
+        "explanation"
+      ],
+      "semantic_expansions": [
+        "计划/方案：动工前先在平面上定下的那套",
+        "平面图：从上方看、摊平画出的那张图"
+      ],
+      "recall_hint": "planus（平面）→ 先摊平画出来的那套"
+    },
+    {
+      "id": "plane",
+      "word": "plane",
+      "pos": "noun",
+      "phonetic": "/pleɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planus"
+      ],
+      "root_logic": "planus（平的）→ 平面；机翼是平展的面，故 aeroplane 截短为 plane；刨子是找平的工具",
+      "origin": "拉丁语 planus（平的）；飞机义来自 aeroplane（aer 空气＋planus 平面）的截短",
+      "native_definition": "a flat surface; an aircraft; a tool for smoothing wood",
+      "core_concept": "a face with no rise in it, and things named for such a face – 没有起伏的那个面，以及以此得名之物",
+      "core_image": "推子沿着木头走过去，凸起的一层卷成花掉在地上",
+      "chinese": [
+        "平面",
+        "飞机",
+        "刨子"
+      ],
+      "examples": [
+        "Draw two lines on the same plane.",
+        "Our plane landed on time."
+      ],
+      "synonyms": [
+        "surface",
+        "aircraft"
+      ],
+      "antonyms": [],
+      "related": [
+        "plan",
+        "explanation"
+      ],
+      "semantic_expansions": [
+        "平面：没有起伏的那个面",
+        "飞机：因平展机翼得名（aeroplane 截短）",
+        "刨子：把面找平的那件工具"
+      ],
+      "recall_hint": "planus（平的）→ 无起伏的面，及因此得名之物"
+    },
+    {
+      "id": "explanation",
+      "word": "explanation",
+      "pos": "noun",
+      "phonetic": "/ˌekspləˈneɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planus"
+      ],
+      "root_logic": "ex-（出来）+ plan（平）+ -ation → 把褶子摊平摊开 → 讲清楚的那番话",
+      "origin": "拉丁语 explanatio（阐明），来自 explanare（摊平、讲清）← ex＋planus",
+      "native_definition": "a statement that makes something clear or gives a reason",
+      "core_concept": "smoothing the folds out until the whole thing lies plain – 把褶皱一一摊开，整件事平平摆着",
+      "core_image": "他把揉皱的那张纸一点点抹平，字才认得出来",
+      "chinese": [
+        "解释",
+        "说明",
+        "解释的理由"
+      ],
+      "examples": [
+        "He gave no explanation for the delay.",
+        "Her explanation satisfied everyone."
+      ],
+      "synonyms": [
+        "clarification",
+        "account"
+      ],
+      "antonyms": [],
+      "related": [
+        "plan",
+        "plane"
+      ],
+      "semantic_expansions": [
+        "解释/说明：把褶皱摊平、让人看清那番话",
+        "解释的理由：摊平之后露出来的原委"
+      ],
+      "recall_hint": "ex-（出来）+ plan（平）→ 把褶子摊开讲清"
+    },
+    {
+      "id": "plant",
+      "word": "plant",
+      "pos": "noun / verb",
+      "phonetic": "/plɑːnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "planta"
+      ],
+      "root_logic": "planta（幼苗）→ 长在土里的活物；动词是把苗按进土里。厂房义由「设置安放」引申",
+      "origin": "古英语 plante 借自拉丁语 planta（幼苗），动词 plantare（栽种）",
+      "native_definition": "a living thing that grows in soil; a factory; to put in the ground to grow",
+      "core_concept": "the shoot set into soil, and by extension anything set in place to work – 按进土里的那株苗，引申为安置到位以运作之物",
+      "core_image": "苗根塞进坑里，土一踩实，叶子第二天就抬起来了",
+      "chinese": [
+        "植物",
+        "种植",
+        "工厂"
+      ],
+      "examples": [
+        "Water the plants every morning.",
+        "They plant rice in early summer."
+      ],
+      "synonyms": [
+        "vegetation",
+        "factory"
+      ],
+      "antonyms": [],
+      "related": [
+        "plantation",
+        "transplant"
+      ],
+      "semantic_expansions": [
+        "植物：按进土里长起来的活物",
+        "种植：把苗按进土里这件事",
+        "工厂：由「安置到位以运作」引申而来的厂房"
+      ],
+      "recall_hint": "planta（幼苗）→ 按进土里的苗；引申为安置到位之物"
+    },
+    {
+      "id": "plantation",
+      "word": "plantation",
+      "pos": "noun",
+      "phonetic": "/plænˈteɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "planta"
+      ],
+      "root_logic": "plant（栽种）+ -ation → 成片栽种的那块地",
+      "origin": "拉丁语 plantatio（栽种），来自 plantare ← planta",
+      "native_definition": "a large area where crops such as tea or rubber are grown",
+      "core_concept": "ground where the setting-in was done row upon row – 一垄接一垄都按进苗去的那片地",
+      "core_image": "一垄接一垄望不到头，每株间距都一样",
+      "chinese": [
+        "种植园",
+        "人造林"
+      ],
+      "examples": [
+        "He works on a tea plantation.",
+        "The plantation covers two hundred acres."
+      ],
+      "synonyms": [
+        "estate",
+        "farm"
+      ],
+      "antonyms": [],
+      "related": [
+        "plant",
+        "transplant"
+      ],
+      "semantic_expansions": [
+        "种植园/人造林：成片按苗栽下的那块地"
+      ],
+      "recall_hint": "plant（栽种）+ -ation → 成片栽下苗的那块地"
+    },
+    {
+      "id": "transplant",
+      "word": "transplant",
+      "pos": "verb",
+      "phonetic": "/trænsˈplɑːnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "planta"
+      ],
+      "root_logic": "trans-（转移）+ plant（栽）→ 起出来栽到别处 → 移栽；医学上指移植器官",
+      "origin": "拉丁语 transplantare（移栽），来自 trans＋plantare ← planta",
+      "native_definition": "to move a plant to another place; to move an organ into another body",
+      "core_concept": "lifting what was set in one spot and setting it into another – 把按在这处的起出来，按到那处去",
+      "core_image": "带着根土整株起出来，挪到新坑里再踩实",
+      "chinese": [
+        "移植",
+        "移栽"
+      ],
+      "examples": [
+        "We transplanted the seedlings today.",
+        "He received a heart transplant."
+      ],
+      "synonyms": [
+        "relocate",
+        "graft"
+      ],
+      "antonyms": [],
+      "related": [
+        "plant",
+        "plantation"
+      ],
+      "semantic_expansions": [
+        "移栽：把苗起出来栽到别处",
+        "移植：同一动作用在器官上"
+      ],
+      "recall_hint": "trans-（转移）+ plant（栽）→ 起出来按到别处"
+    },
+    {
+      "id": "politics",
+      "word": "politics",
+      "pos": "noun",
+      "phonetic": "/ˈpɒlətɪks/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "polit（城邦公事）+ -ics（…之学/之事）→ 争夺与处置公共事务这一摊",
+      "origin": "希腊语 politika（城邦事务），来自 politikos ← polis（城邦）",
+      "native_definition": "the activities of government and of gaining power in it",
+      "core_concept": "the wrangling over what the whole city should do – 围着「全城该怎么办」争出来的那一摊事",
+      "core_image": "广场中央吵成一片，各方都想让自己那套算数",
+      "chinese": [
+        "政治",
+        "政治学",
+        "权术"
+      ],
+      "examples": [
+        "He went into politics at thirty.",
+        "Office politics wore her down."
+      ],
+      "synonyms": [
+        "government",
+        "statecraft"
+      ],
+      "antonyms": [],
+      "related": [
+        "political",
+        "politician"
+      ],
+      "semantic_expansions": [
+        "政治/政治学：处置公共事务这一摊及其学问",
+        "权术：为在其中占上风而使的手段"
+      ],
+      "recall_hint": "polit（城邦公事）+ -ics → 争夺处置公事这一摊"
+    },
+    {
+      "id": "political",
+      "word": "political",
+      "pos": "adjective",
+      "phonetic": "/pəˈlɪtɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "polit（城邦公事）+ -ical（…的）→ 与公共事务、权力相关的",
+      "origin": "希腊语 politikos（关于城邦的），来自 polis",
+      "native_definition": "relating to government or public affairs",
+      "core_concept": "belonging to what the whole city argues over – 属于全城要争议的那类事",
+      "core_image": "这件事一摆上广场，各方立刻按立场分了边",
+      "chinese": [
+        "政治的",
+        "政党的"
+      ],
+      "examples": [
+        "It became a political issue overnight.",
+        "She has strong political views."
+      ],
+      "synonyms": [
+        "governmental",
+        "civic"
+      ],
+      "antonyms": [
+        "apolitical"
+      ],
+      "related": [
+        "politics",
+        "politician"
+      ],
+      "semantic_expansions": [
+        "政治的/政党的：属于城邦公共事务与权力的"
+      ],
+      "recall_hint": "polit（城邦公事）+ -ical → 属于公共事务的"
+    },
+    {
+      "id": "politician",
+      "word": "politician",
+      "pos": "noun",
+      "phonetic": "/ˌpɒləˈtɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "polis"
+      ],
+      "root_logic": "politic（城邦公事）+ -ian（司此业者）→ 以处置公共事务为业的人",
+      "origin": "英语 politician，来自 politic ← 希腊语 polis",
+      "native_definition": "a person whose job is in government or seeking elected office",
+      "core_concept": "the one who stands in the square and speaks for a side – 站到广场上替一方开口的那个人",
+      "core_image": "他登上台阶开口，底下的人分头喝彩与嘘声",
+      "chinese": [
+        "政治家",
+        "政客"
+      ],
+      "examples": [
+        "The politician avoided the question.",
+        "She is a career politician."
+      ],
+      "synonyms": [
+        "statesman",
+        "legislator"
+      ],
+      "antonyms": [],
+      "related": [
+        "politics",
+        "political"
+      ],
+      "semantic_expansions": [
+        "政治家/政客：以处置公共事务为业、替一方发声的人"
+      ],
+      "recall_hint": "politic（城邦公事）+ -ian → 以处置公事为业的人"
+    },
+    {
+      "id": "present",
+      "word": "present",
+      "pos": "adjective",
+      "phonetic": "/ˈpreznt/",
+      "decomposable": "root",
+      "root_ids": [
+        "praeesse"
+      ],
+      "root_logic": "prae-（在前）+ sent（在）→ 正在眼前的 → 出席的、当下的；引申为送到眼前之物",
+      "origin": "拉丁语 praesens（在眼前的），praeesse（在前）的现在分词",
+      "native_definition": "in this place now; happening now; a gift given to someone",
+      "core_concept": "standing here where one can be seen – 就站在这儿、看得见的那个状态",
+      "core_image": "点到名字，那人在后排应了一声抬起手",
+      "chinese": [
+        "出席的",
+        "现在的",
+        "礼物"
+      ],
+      "examples": [
+        "All the students were present.",
+        "She gave him a birthday present."
+      ],
+      "synonyms": [
+        "current",
+        "gift"
+      ],
+      "antonyms": [
+        "absent"
+      ],
+      "related": [
+        "presence",
+        "presently"
+      ],
+      "semantic_expansions": [
+        "出席的：人就在眼前这儿",
+        "现在的：时间上正在眼前的这一段",
+        "礼物：拿到人眼前递过去的那件"
+      ],
+      "recall_hint": "prae-（在前）+ sent（在）→ 正在眼前的"
+    },
+    {
+      "id": "presence",
+      "word": "presence",
+      "pos": "noun",
+      "phonetic": "/ˈprezns/",
+      "decomposable": "root",
+      "root_ids": [
+        "praeesse"
+      ],
+      "root_logic": "present（在眼前）+ -ence → 人在此处这件事；引申为身上那股压得住场的气派",
+      "origin": "拉丁语 praesentia（在场），来自 praesens ← praeesse",
+      "native_definition": "the state of being in a place; an impressive manner",
+      "core_concept": "the fact that one is here rather than away – 人在此而不在别处这个事实",
+      "core_image": "他一进门，满屋的说话声就低了半度",
+      "chinese": [
+        "出席",
+        "存在",
+        "气度"
+      ],
+      "examples": [
+        "Your presence is required at the meeting.",
+        "She has real stage presence."
+      ],
+      "synonyms": [
+        "attendance",
+        "bearing"
+      ],
+      "antonyms": [
+        "absence"
+      ],
+      "related": [
+        "present",
+        "presently"
+      ],
+      "semantic_expansions": [
+        "出席/存在：人或物就在此处这件事",
+        "气度：在场时压得住场面的那股劲"
+      ],
+      "recall_hint": "present（在眼前）+ -ence → 人在此处这件事"
+    },
+    {
+      "id": "presently",
+      "word": "presently",
+      "pos": "adverb",
+      "phonetic": "/ˈprezntli/",
+      "decomposable": "root",
+      "root_ids": [
+        "praeesse"
+      ],
+      "root_logic": "present（当下）+ -ly → 就眼下而言；也表「过一会儿就」",
+      "origin": "英语 presently，来自 present ← 拉丁语 praeesse",
+      "native_definition": "at the present time; soon, after a short while",
+      "core_concept": "at the point one is standing on, or just past it – 就在所站的这一刻，或刚过这一刻",
+      "core_image": "他说了句稍等，转身进屋，没几步又折回来了",
+      "chinese": [
+        "目前",
+        "不久",
+        "很快"
+      ],
+      "examples": [
+        "He is presently working abroad.",
+        "The doctor will see you presently."
+      ],
+      "synonyms": [
+        "currently",
+        "soon"
+      ],
+      "antonyms": [],
+      "related": [
+        "present",
+        "presence"
+      ],
+      "semantic_expansions": [
+        "目前：就眼下这一刻而言",
+        "不久/很快：刚过眼下这一刻就到"
+      ],
+      "recall_hint": "present（当下）+ -ly → 就眼下这一刻，或刚过这一刻"
+    },
+    {
+      "id": "profession",
+      "word": "profession",
+      "pos": "noun",
+      "phonetic": "/prəˈfeʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "profiteri"
+      ],
+      "root_logic": "pro-（众人前）+ fess（承认）+ -ion → 当众声明自己所执的那门业 → 职业",
+      "origin": "拉丁语 professio（公开声明、所执之业），来自 profiteri",
+      "native_definition": "a paid job needing special training; an open declaration",
+      "core_concept": "the calling one names aloud as one's own – 当众说出「我干这一行」的那门业",
+      "core_image": "他报出自己那一行，众人便知他受过哪套训练",
+      "chinese": [
+        "职业",
+        "专业",
+        "声明"
+      ],
+      "examples": [
+        "She entered the legal profession.",
+        "He made a profession of loyalty."
+      ],
+      "synonyms": [
+        "occupation",
+        "declaration"
+      ],
+      "antonyms": [],
+      "related": [
+        "professor",
+        "profile"
+      ],
+      "semantic_expansions": [
+        "职业/专业：当众声明所执、需专门训练的那一行",
+        "声明：把立场当众说出口这件事"
+      ],
+      "recall_hint": "pro-（众人前）+ fess（承认）→ 当众说出所执的那门业"
+    },
+    {
+      "id": "professor",
+      "word": "professor",
+      "pos": "noun",
+      "phonetic": "/prəˈfesə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "profiteri"
+      ],
+      "root_logic": "profess（当众讲明）+ -or（人）→ 在讲堂上当众讲学的人",
+      "origin": "拉丁语 professor（公开讲授者），来自 profiteri",
+      "native_definition": "a teacher of the highest rank at a university",
+      "core_concept": "the one who stands up and expounds before all – 站到众人前讲说的那个人",
+      "core_image": "他站上讲台，把那套道理从头讲给满堂人听",
+      "chinese": [
+        "教授"
+      ],
+      "examples": [
+        "The professor published a new study.",
+        "She was made professor at forty."
+      ],
+      "synonyms": [
+        "lecturer",
+        "academic"
+      ],
+      "antonyms": [
+        "student"
+      ],
+      "related": [
+        "profession",
+        "profile"
+      ],
+      "semantic_expansions": [
+        "教授：在讲堂上当众讲学、位阶最高的教师"
+      ],
+      "recall_hint": "profess（当众讲明）+ -or → 站到众人前讲说的人"
+    },
+    {
+      "id": "profile",
+      "word": "profile",
+      "pos": "noun",
+      "phonetic": "/ˈprəʊfaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "filum"
+      ],
+      "root_logic": "pro-（沿着）+ fil（线）+ -e → 沿边描出的那条线 → 侧影；引申为人物概况",
+      "origin": "意大利语 profilo（侧影、轮廓），来自 profilare ← pro＋filum（线）",
+      "native_definition": "a side view of someone's face; a short description of a person",
+      "core_concept": "the single line left when an edge is traced – 沿着边描一遍后剩下的那条线",
+      "core_image": "灯打在墙上，只剩一条贴着脸缘的黑边",
+      "chinese": [
+        "侧面",
+        "轮廓",
+        "简介"
+      ],
+      "examples": [
+        "He was photographed in profile.",
+        "Her profile appeared in the magazine."
+      ],
+      "synonyms": [
+        "outline",
+        "summary"
+      ],
+      "antonyms": [],
+      "related": [
+        "profession",
+        "professor"
+      ],
+      "semantic_expansions": [
+        "侧面/轮廓：沿边描出的那条线",
+        "简介：把人的要点勾出一条轮廓"
+      ],
+      "recall_hint": "pro-（沿着）+ fil（线）→ 沿边描出的那条线"
+    },
+    {
+      "id": "prosper",
+      "word": "prosper",
+      "pos": "verb",
+      "phonetic": "/ˈprɒspə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "sperare"
+      ],
+      "root_logic": "pro-（合乎）+ sper（所盼）→ 事情合着所盼往好处走 → 兴旺",
+      "origin": "拉丁语 prosperare（使顺利），来自 prosperus（合所盼的）← pro＋spes（希望）",
+      "native_definition": "to succeed and do well, especially financially",
+      "core_concept": "moving along just as one had hoped it would – 一路照着所盼的样子往前走",
+      "core_image": "铺子头一年只两三个客，第三年桌子摆到了门外",
+      "chinese": [
+        "兴旺",
+        "繁荣",
+        "成功"
+      ],
+      "examples": [
+        "The business prospered under her care.",
+        "Few crops prosper in dry soil."
+      ],
+      "synonyms": [
+        "thrive",
+        "flourish"
+      ],
+      "antonyms": [
+        "fail",
+        "decline"
+      ],
+      "related": [
+        "prosperity",
+        "prosperous"
+      ],
+      "semantic_expansions": [
+        "兴旺/繁荣/成功：事情顺着所盼一路往好处走"
+      ],
+      "recall_hint": "pro-（合乎）+ sper（所盼）→ 照所盼的样子走下去"
+    },
+    {
+      "id": "prosperity",
+      "word": "prosperity",
+      "pos": "noun",
+      "phonetic": "/prɒˈsperəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "sperare"
+      ],
+      "root_logic": "prosper（兴旺）+ -ity → 兴旺这个状态 → 繁荣、富足",
+      "origin": "拉丁语 prosperitas（顺利、昌盛），来自 prosperus",
+      "native_definition": "the state of being successful and having plenty of money",
+      "core_concept": "the condition of things having gone as hoped – 事情已照所盼走成的那个局面",
+      "core_image": "满仓的粮堆到梁下，院里车马进出不断",
+      "chinese": [
+        "繁荣",
+        "富足",
+        "兴旺"
+      ],
+      "examples": [
+        "The country enjoyed years of prosperity.",
+        "They shared in the town's prosperity."
+      ],
+      "synonyms": [
+        "wealth",
+        "affluence"
+      ],
+      "antonyms": [
+        "poverty"
+      ],
+      "related": [
+        "prosper",
+        "prosperous"
+      ],
+      "semantic_expansions": [
+        "繁荣/富足/兴旺：事情已照所盼走成的那个局面"
+      ],
+      "recall_hint": "prosper（兴旺）+ -ity → 已照所盼走成的局面"
+    },
+    {
+      "id": "prosperous",
+      "word": "prosperous",
+      "pos": "adjective",
+      "phonetic": "/ˈprɒspərəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "sperare"
+      ],
+      "root_logic": "prosper（兴旺）+ -ous（…的）→ 正处在兴旺里的",
+      "origin": "拉丁语 prosperus（顺利的、合所盼的），来自 pro＋spes",
+      "native_definition": "successful and having plenty of money",
+      "core_concept": "standing in the state that hope aimed at – 正站在所盼的那个局面里",
+      "core_image": "他家门前石阶新换过，仓房也添了一间",
+      "chinese": [
+        "繁荣的",
+        "富裕的",
+        "成功的"
+      ],
+      "examples": [
+        "It is a prosperous farming region.",
+        "He came from a prosperous family."
+      ],
+      "synonyms": [
+        "wealthy",
+        "thriving"
+      ],
+      "antonyms": [
+        "poor"
+      ],
+      "related": [
+        "prosper",
+        "prosperity"
+      ],
+      "semantic_expansions": [
+        "繁荣的/富裕的/成功的：正处在所盼那个局面里的"
+      ],
+      "recall_hint": "prosper（兴旺）+ -ous → 正处在所盼局面里的"
+    },
+    {
+      "id": "quarter",
+      "word": "quarter",
+      "pos": "noun",
+      "phonetic": "/ˈkwɔːtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "quartus"
+      ],
+      "root_logic": "quart（第四）+ -er → 四份中的一份；引申为一年的四分之一、城中一区",
+      "origin": "古法语 quartier，来自拉丁语 quartarius（四分之一）← quartus",
+      "native_definition": "one of four equal parts; three months of a year; a district of a town",
+      "core_concept": "the single piece left when a whole is cut in four – 整体切成四块后取的那一块",
+      "core_image": "横竖各一刀，取走其中一块，手里正好是整张的一份",
+      "chinese": [
+        "四分之一",
+        "季度",
+        "地区"
+      ],
+      "examples": [
+        "Cut the apple into quarters.",
+        "Sales rose in the final quarter."
+      ],
+      "synonyms": [
+        "fourth",
+        "district"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "related": [
+        "quart",
+        "quarterly"
+      ],
+      "semantic_expansions": [
+        "四分之一：整体分四份后的一份",
+        "季度：一年切成四份后的一份",
+        "地区：城中划出的那一块"
+      ],
+      "recall_hint": "quart（第四）+ -er → 整体切四块后的那一块"
+    },
+    {
+      "id": "quart",
+      "word": "quart",
+      "pos": "noun",
+      "phonetic": "/kwɔːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "quartus"
+      ],
+      "root_logic": "quartus（第四）→ 一加仑的四分之一，作容量单位",
+      "origin": "古法语 quarte，来自拉丁语 quarta（第四份）← quartus",
+      "native_definition": "a unit of liquid measure equal to a quarter of a gallon",
+      "core_concept": "the measure that is one of four in a gallon – 一加仑分作四份中的一份",
+      "core_image": "壶里的奶倒满四回，正好把大桶灌平",
+      "chinese": [
+        "夸脱"
+      ],
+      "examples": [
+        "Add a quart of milk to the pan.",
+        "The recipe calls for two quarts of water."
+      ],
+      "synonyms": [
+        "measure",
+        "litre"
+      ],
+      "antonyms": [],
+      "related": [
+        "quarter",
+        "quarterly"
+      ],
+      "semantic_expansions": [
+        "夸脱：等于一加仑四分之一的容量单位"
+      ],
+      "recall_hint": "quartus（第四）→ 一加仑的四分之一"
+    },
+    {
+      "id": "quarterly",
+      "word": "quarterly",
+      "pos": "adjective",
+      "phonetic": "/ˈkwɔːtəli/",
+      "decomposable": "root",
+      "root_ids": [
+        "quartus"
+      ],
+      "root_logic": "quarter（季度）+ -ly（每…的）→ 每季一次的",
+      "origin": "英语 quarterly，来自 quarter ← 拉丁语 quartus",
+      "native_definition": "happening or produced once every three months",
+      "core_concept": "coming round once in each of the four parts of a year – 一年四份里各来一回",
+      "core_image": "账本一年结四回，每回隔三个月",
+      "chinese": [
+        "季度的",
+        "每季一次的"
+      ],
+      "examples": [
+        "The company files quarterly reports.",
+        "She receives a quarterly payment."
+      ],
+      "synonyms": [
+        "periodic",
+        "seasonal"
+      ],
+      "antonyms": [],
+      "related": [
+        "quarter",
+        "quart"
+      ],
+      "semantic_expansions": [
+        "季度的/每季一次的：一年四份里各来一回"
+      ],
+      "recall_hint": "quarter（季度）+ -ly → 一年四份里各来一回"
+    },
+    {
+      "id": "consider",
+      "word": "consider",
+      "pos": "verb",
+      "phonetic": "/kənˈsɪdə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "sidus"
+      ],
+      "root_logic": "con-（仔细）+ sider（星象）→ 像看星象那样反复审量 → 考虑；引申为认为",
+      "origin": "拉丁语 considerare（细察星象、审量），来自 con＋sidus（星）",
+      "native_definition": "to think about something carefully; to regard in a certain way",
+      "core_concept": "going over the signs one by one before settling – 定夺前把各处一一对过",
+      "core_image": "他抬头把满天的星位挨个对过，才开口说话",
+      "chinese": [
+        "考虑",
+        "认为",
+        "顾及"
+      ],
+      "examples": [
+        "Please consider my proposal.",
+        "She is considered an expert."
+      ],
+      "synonyms": [
+        "ponder",
+        "regard"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "related": [
+        "considerable",
+        "consideration"
+      ],
+      "semantic_expansions": [
+        "考虑/顾及：像对星位那样一一审量",
+        "认为：审量之后得出的看法"
+      ],
+      "recall_hint": "con-（仔细）+ sider（星象）→ 像看星象那样反复审量"
+    },
+    {
+      "id": "considerable",
+      "word": "considerable",
+      "pos": "adjective",
+      "phonetic": "/kənˈsɪdərəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "sidus"
+      ],
+      "root_logic": "consider（审量）+ -able（值得…的）→ 值得专门审量的 → 相当大的",
+      "origin": "中世纪拉丁语 considerabilis（值得注意的），来自 considerare",
+      "native_definition": "great in amount, extent, or importance",
+      "core_concept": "big enough to be worth going over carefully – 大到值得专门拿来审量一遍",
+      "core_image": "报上来的数目不小，掌事的把册子翻了两遍",
+      "chinese": [
+        "相当大的",
+        "可观的",
+        "重要的"
+      ],
+      "examples": [
+        "They spent a considerable sum.",
+        "She has considerable influence here."
+      ],
+      "synonyms": [
+        "substantial",
+        "sizeable"
+      ],
+      "antonyms": [
+        "negligible",
+        "slight"
+      ],
+      "related": [
+        "consider",
+        "consideration"
+      ],
+      "semantic_expansions": [
+        "相当大的/可观的：大到值得专门审量一遍",
+        "重要的：因分量重而须审量"
+      ],
+      "recall_hint": "consider（审量）+ -able → 大到值得专门审量"
+    },
+    {
+      "id": "consideration",
+      "word": "consideration",
+      "pos": "noun",
+      "phonetic": "/kənˌsɪdəˈreɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sidus"
+      ],
+      "root_logic": "consider（审量）+ -ation → 审量这件事；也指审量时须顾到的那一项、体谅",
+      "origin": "拉丁语 consideratio（细察、审量），来自 considerare",
+      "native_definition": "careful thought; a factor to be taken into account; thoughtfulness",
+      "core_concept": "the going-over itself, and each thing weighed in it – 审量这件事本身，及其中每一项须顾到的",
+      "core_image": "他把册子摊在灯下，一条条对过去，末了还问了句家里方便不方便",
+      "chinese": [
+        "考虑",
+        "考虑因素",
+        "体谅"
+      ],
+      "examples": [
+        "The plan is under consideration.",
+        "He showed great consideration for others."
+      ],
+      "synonyms": [
+        "deliberation",
+        "thoughtfulness"
+      ],
+      "antonyms": [
+        "disregard"
+      ],
+      "related": [
+        "consider",
+        "considerable"
+      ],
+      "semantic_expansions": [
+        "考虑：审量这件事本身",
+        "考虑因素：审量时须顾到的那一项",
+        "体谅：顾到旁人处境的那份心"
+      ],
+      "recall_hint": "consider（审量）+ -ation → 审量这件事及所顾各项"
+    },
+    {
+      "id": "restore",
+      "word": "restore",
+      "pos": "verb",
+      "phonetic": "/rɪˈstɔː(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "instaurare"
+      ],
+      "root_logic": "re-（再）+ stor（立起）→ 把倒下的重新立回原样 → 修复、恢复",
+      "origin": "古法语 restorer，来自拉丁语 restaurare（重新立起）← re＋staurare",
+      "native_definition": "to bring something back to its former state; to give back",
+      "core_concept": "putting a thing back up as it stood before – 把它照原先那样重新立回去",
+      "core_image": "散架的柜子一块块拼回去，扶正后又能立稳",
+      "chinese": [
+        "修复",
+        "恢复",
+        "归还"
+      ],
+      "examples": [
+        "They restored the old church.",
+        "Power was restored within the hour."
+      ],
+      "synonyms": [
+        "repair",
+        "reinstate"
+      ],
+      "antonyms": [
+        "damage",
+        "destroy"
+      ],
+      "related": [
+        "store",
+        "storage"
+      ],
+      "semantic_expansions": [
+        "修复/恢复：把它照原先那样重新立回去",
+        "归还：把原属他人之物放回原处"
+      ],
+      "recall_hint": "re-（再）+ stor（立起）→ 照原样重新立回去"
+    },
+    {
+      "id": "store",
+      "word": "store",
+      "pos": "noun / verb",
+      "phonetic": "/stɔː(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "instaurare"
+      ],
+      "root_logic": "instaurare（备置）→ 备下存着的物资 → 储备；存放之处即店铺",
+      "origin": "古法语 estor（储备、供给），来自 instaurare（备置、重立）",
+      "native_definition": "a supply kept for future use; a shop; to keep for later",
+      "core_concept": "what is laid in and kept standing ready – 备下来、一直搁着待用的那批东西",
+      "core_image": "米袋一层层码到墙根，够撑过整个冬天",
+      "chinese": [
+        "储存",
+        "商店",
+        "储备"
+      ],
+      "examples": [
+        "Store the grain in a dry place.",
+        "She works at a grocery store."
+      ],
+      "synonyms": [
+        "stock",
+        "shop"
+      ],
+      "antonyms": [
+        "discard"
+      ],
+      "related": [
+        "restore",
+        "storage"
+      ],
+      "semantic_expansions": [
+        "储存/储备：备下搁着待用的那批东西",
+        "商店：存放货物待售的那个处所"
+      ],
+      "recall_hint": "instaurare（备置）→ 备下待用之物；存物之处即店"
+    },
+    {
+      "id": "storage",
+      "word": "storage",
+      "pos": "noun",
+      "phonetic": "/ˈstɔːrɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "instaurare"
+      ],
+      "root_logic": "store（备存）+ -age → 存放这件事，及存放的地方与费用",
+      "origin": "英语 storage，来自 store ← 拉丁语 instaurare",
+      "native_definition": "the keeping of things until needed; space for this",
+      "core_concept": "the keeping-in-readiness, and the room it takes – 备着待用这件事，及所占的地方",
+      "core_image": "阁楼腾出半间，箱子摞起来到房梁",
+      "chinese": [
+        "储存",
+        "存放",
+        "储藏空间"
+      ],
+      "examples": [
+        "We put the boxes into storage.",
+        "The phone has 128GB of storage."
+      ],
+      "synonyms": [
+        "stockpile",
+        "warehousing"
+      ],
+      "antonyms": [],
+      "related": [
+        "store",
+        "restore"
+      ],
+      "semantic_expansions": [
+        "储存/存放：备着待用这件事",
+        "储藏空间：为此腾出的那块地方"
+      ],
+      "recall_hint": "store（备存）+ -age → 备着待用这件事及其处所"
     }
   ]
 }

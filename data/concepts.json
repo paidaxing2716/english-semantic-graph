@@ -2911,6 +2911,199 @@
         "metric",
         "symmetry"
       ]
+    },
+    {
+      "id": "concept-consuetudo-usage",
+      "concept": "the way long repeated until it counts as the way",
+      "chinese": "做惯成例",
+      "core_image": "同一条路走了几十年，草被踩出一道浅沟",
+      "root_ids": [
+        "consuetudo"
+      ],
+      "word_ids": [
+        "custom",
+        "customary",
+        "customer"
+      ]
+    },
+    {
+      "id": "concept-favere-lean-toward",
+      "concept": "to lean toward one side and wish it well",
+      "chinese": "心向一边",
+      "core_image": "看台上手掌全朝一边拍，另一边冷清",
+      "root_ids": [
+        "favere"
+      ],
+      "word_ids": [
+        "favor",
+        "favorable",
+        "favorite"
+      ]
+    },
+    {
+      "id": "concept-pingere-lay-colour",
+      "concept": "to lay colour onto a surface",
+      "chinese": "敷色于面",
+      "core_image": "刷子蘸色在板面抹开，木纹一点点被盖住",
+      "root_ids": [
+        "pingere"
+      ],
+      "word_ids": [
+        "paint",
+        "painter",
+        "painting"
+      ]
+    },
+    {
+      "id": "concept-experiri-try",
+      "concept": "knowledge got by trying it oneself",
+      "chinese": "亲试而知",
+      "core_image": "手伸进水里试一下，凉热心里就有了数",
+      "root_ids": [
+        "experiri"
+      ],
+      "word_ids": [
+        "experience",
+        "experiment",
+        "experimental"
+      ]
+    },
+    {
+      "id": "concept-planus-flat",
+      "concept": "flat with nothing standing in the way",
+      "chinese": "摊得平",
+      "core_image": "纸铺开压平，褶子都被推到边上",
+      "root_ids": [
+        "planus"
+      ],
+      "word_ids": [
+        "explanation",
+        "plan",
+        "plane"
+      ]
+    },
+    {
+      "id": "concept-planta-set-in-soil",
+      "concept": "a shoot pressed down into soil to grow",
+      "chinese": "栽苗入土",
+      "core_image": "苗根塞进坑里，脚掌把周围的土踩实",
+      "root_ids": [
+        "planta"
+      ],
+      "word_ids": [
+        "plant",
+        "plantation",
+        "transplant"
+      ]
+    },
+    {
+      "id": "concept-polis-city-affairs",
+      "concept": "the affairs of the city held in common",
+      "chinese": "城邦公事",
+      "core_image": "广场上众人围着争执，事关全城谁都要开口",
+      "root_ids": [
+        "polis"
+      ],
+      "word_ids": [
+        "political",
+        "politician",
+        "politics"
+      ]
+    },
+    {
+      "id": "concept-praeesse-at-hand",
+      "concept": "being right here in front, not elsewhere",
+      "chinese": "就在眼前",
+      "core_image": "点名点到的人应了一声，抬头就见他站在那儿",
+      "root_ids": [
+        "praeesse"
+      ],
+      "word_ids": [
+        "presence",
+        "present",
+        "presently"
+      ]
+    },
+    {
+      "id": "concept-profiteri-avow",
+      "concept": "to declare one's standing out loud before all",
+      "chinese": "当众声明",
+      "core_image": "站到众人面前开口，把自己认下的本事讲明",
+      "root_ids": [
+        "profiteri"
+      ],
+      "word_ids": [
+        "profession",
+        "professor"
+      ]
+    },
+    {
+      "id": "concept-filum-thread",
+      "concept": "a thread drawn along an edge",
+      "chinese": "沿边描线",
+      "core_image": "笔尖贴着侧脸的边描下去，只留一条轮廓线",
+      "root_ids": [
+        "filum"
+      ],
+      "word_ids": [
+        "profile"
+      ]
+    },
+    {
+      "id": "concept-sperare-thrive",
+      "concept": "things going the way one hoped",
+      "chinese": "顺所盼而成",
+      "core_image": "禾苗一天比一天高，秋后收成压弯了车",
+      "root_ids": [
+        "sperare"
+      ],
+      "word_ids": [
+        "prosper",
+        "prosperity",
+        "prosperous"
+      ]
+    },
+    {
+      "id": "concept-quartus-fourth",
+      "concept": "one of four equal parts",
+      "chinese": "四分之一",
+      "core_image": "饼横竖各切一刀成四块，取走其中一块",
+      "root_ids": [
+        "quartus"
+      ],
+      "word_ids": [
+        "quart",
+        "quarter",
+        "quarterly"
+      ]
+    },
+    {
+      "id": "concept-sidus-study-stars",
+      "concept": "to study the stars closely before deciding",
+      "chinese": "观星审量",
+      "core_image": "夜里把星位一颗颗对过，才决定明天动不动身",
+      "root_ids": [
+        "sidus"
+      ],
+      "word_ids": [
+        "consider",
+        "considerable",
+        "consideration"
+      ]
+    },
+    {
+      "id": "concept-instaurare-set-up-again",
+      "concept": "to set a thing up again and keep it ready",
+      "chinese": "重立备存",
+      "core_image": "倒下的架子扶起立稳，东西一件件搬回码好",
+      "root_ids": [
+        "instaurare"
+      ],
+      "word_ids": [
+        "restore",
+        "storage",
+        "store"
+      ]
     }
   ]
 }

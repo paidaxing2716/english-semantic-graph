@@ -16,8 +16,9 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余词入库（可结构化的尾声）← 当前：909 词 · 180 词根，vetted 尚余 39 词 / 13 族
-        交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
+v1.1    剩余词入库（可结构化的尾声）  ✅ 已完成
+        948 词 · 194 词根 · 963 关系 · 1881 例句；vetted_families 869 词次 100% 入库
+        交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径为交接时状态，已被后续批次推进）
 ```
 
 ---
@@ -317,6 +318,32 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十九批（18 词，七新词根族）**—— vetted 869 词收尾**：praeesse（就在眼前：
+        present/presence/presently）+ profiteri（当众声明：profession/professor）
+        + filum（沿边描线：profile）+ sperare（顺所盼而成：prosper/prosperity/
+        prosperous）+ quartus（四分之一：quarter/quart/quarterly）+ sidus（观星审量：
+        consider/considerable/consideration）+ instaurare（重立备存：restore/store/
+        storage），948 词 · 194 词根。**vetted_families 869 词全部入库**。
+        prof 是 HANDOFF 之外自查出的第四个分叉族：profession/professor ← profiteri
+        （pro＋fateri 当众承认），profile ← 意大利语 profilare ← pro＋filum（沿线描边），
+        两者只是同以 pro- 起头，故拆 profiteri 与 filum 两根。
+        sidus 一族讲通 consider 的本义是「细看星象」（con＋sidus），古人观星定夺。
+        本批踩到 Q8 一个隐蔽规则并已固化成工具：见下条
+- [x] 工具加固：新增 `scripts/check_lexicon_gap.py`，按 Q8 真实口径算白名单缺口。
+        起因是第四十九批白回滚一次：consideration 的反义 disregard 在 english_reference
+        里，本该被 merge 自动登记，但 regard 刚在第四十七批入库，于是 disregard 变成
+        「dis + 词库已有词」，命中 review.py 的 SUSPECT_PREFIXES 判「疑似造词」转人工，
+        不进 auto_ok；而 validate.py 的 Q8 只认 words.json ∪ lexicon，于是合并后被拦。
+        脚本完整复刻这条规则，把「merge 会自动登记」与「必须手工登记」分开报，
+        并标出多词短语。以后每批合并前先跑它，可免掉这类回滚
+- [x] 第四十八批（21 词，七新词根族）：consuetudo（做惯成例：custom/customary/
+        customer）+ favere（心向一边：favor/favorable/favorite）+ pingere（敷色于面：
+        paint/painter/painting）+ experiri（亲试而知：experience/experiment/
+        experimental）+ planus（摊得平：plan/plane/explanation）+ planta（栽苗入土：
+        plant/plantation/transplant）+ polis（城邦公事：politics/political/politician），
+        930 词 · 187 词根。planus 与 planta 拉丁语本是两个词（平 / 幼苗），
+        英语拼写相近但不同源，词根条目里写明以防混挂；custom 的关税义按
+        「旧时依成例缴纳的税费」讲通，与习俗同出 consuetudo
 - [x] 第四十七批（21 词，六新词根族 + 3 补词）：friskaz（未走味：fresh/refresh/
         refreshment，日耳曼源）+ wardon（投目看守：regard/regarding/regardless，
         法兰克源经古法语）+ regula（准绳直尺：regular/regulate/regulation）
