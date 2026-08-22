@@ -320,6 +320,24 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第五十二批（36 词，全部补进已建模词根，不新建根）**—— 高置信档收尾**：
+        stru ← obstruct/obstruction/infrastructure；elektron ← electron/electronic；
+        tribuere ← tribute/contribution；hostis ← hospital/hospitality（hospes 待客支）；
+        consuetudo ← costume/accustomed；praeesse ← represent/representative；
+        tempus ← temperature（temperare 调和支）；stringere ← restraint；
+        ordinare ← extraordinary；punktum ← punctual/disappoint；
+        gen ← generalize/generator；sequ ← prosecute/persecute；
+        classis ← classmate/classroom；sumere ← assumption/consumption；
+        solvere ← resolution/resolute；referre ← relative/relativity；
+        habitare ← habitat；modus ← modern/modernization。1040 词 · 194 词根。
+        两处纠偏——反查把 accident/accidental/evident 报在 identus（idem 同一）名下，
+        实为 accident ← ad＋cadere（落到…上，与 incident 同族）、evident ← ex＋videre，
+        只因拼写含 ident 才被命中，故改挂 cadere 与 vid。
+        剔除：heroin（拜耳药名，德语造词）、plateau（法语 plat 一支，归 planus）、
+        nuclear（nucleus 果核，与 clarus 无关）、exhibition（habere 的 -hibit 支，
+        非 habitare）、according to（短语）、coordinates（复数形）。
+        check_lexicon_gap 把待登记词从 30 压到 3：2 条多词短语与 25 个生僻词
+        全换成已核验词元，白名单只补 coldness/decided/planned
 - [x] 第五十一批（30 词，全部补进已建模词根，不新建根）**—— 词库破千**：
         含上一批故意跳过的 planus / polis 两族，它们混了不少同形异源词，本批单独细过。
         planus ← plain/explain/aeroplane；polis ← police/policeman/policy/metropolitan；

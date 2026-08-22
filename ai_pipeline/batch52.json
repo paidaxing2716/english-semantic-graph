@@ -1,0 +1,1390 @@
+{
+  "words": [
+    {
+      "id": "obstruct",
+      "word": "obstruct",
+      "pos": "verb",
+      "phonetic": "/əbˈstrʌkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "ob-（挡在前）+ struct（垒）→ 在通路上垒起东西 → 堵住",
+      "origin": "拉丁语 obstruere（堵塞），来自 ob（对面、挡）＋struere（堆叠）",
+      "native_definition": "to block a path or prevent something from happening",
+      "core_concept": "piling something up across the way so nothing gets through – 在通路上垒起一堆，谁也过不去",
+      "core_image": "巷口垒起半人高的砖，车马到此只能折返",
+      "chinese": [
+        "阻塞",
+        "阻碍"
+      ],
+      "examples": [
+        "A fallen tree obstructed the road.",
+        "He was charged with obstructing justice."
+      ],
+      "synonyms": [
+        "block",
+        "hinder"
+      ],
+      "antonyms": [
+        "clear",
+        "assist"
+      ],
+      "related": [
+        "obstruction",
+        "construct"
+      ],
+      "semantic_expansions": [
+        "阻塞/阻碍：在通路上垒起东西、使过不去"
+      ],
+      "recall_hint": "ob-（挡在前）+ struct（垒）→ 在路上垒起一堆"
+    },
+    {
+      "id": "obstruction",
+      "word": "obstruction",
+      "pos": "noun",
+      "phonetic": "/əbˈstrʌkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "obstruct（垒起挡路）+ -ion → 挡路这件事，或挡路的那个东西",
+      "origin": "拉丁语 obstructio，来自 obstruere ← ob＋struere",
+      "native_definition": "something that blocks a way; the act of blocking",
+      "core_concept": "the pile that stands across the way, and the placing of it – 横在路上的那一堆，及垒它这件事",
+      "core_image": "清障车开来，把横在道中的那一堆一点点搬开",
+      "chinese": [
+        "障碍物",
+        "阻碍",
+        "妨碍"
+      ],
+      "examples": [
+        "Remove any obstruction from the pipe.",
+        "He was fined for obstruction."
+      ],
+      "synonyms": [
+        "barrier",
+        "obstacle"
+      ],
+      "antonyms": [
+        "clear"
+      ],
+      "related": [
+        "obstruct",
+        "construct"
+      ],
+      "semantic_expansions": [
+        "障碍物：横在路上的那一堆",
+        "阻碍/妨碍：垒起它、使人过不去这件事"
+      ],
+      "recall_hint": "obstruct（垒起挡路）+ -ion → 挡路之物与其事"
+    },
+    {
+      "id": "infrastructure",
+      "word": "infrastructure",
+      "pos": "noun",
+      "phonetic": "/ˈɪnfrəstrʌktʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "infra-（在下）+ structure（垒起之物）→ 垒在底下托住上面的那一套",
+      "origin": "英语 infrastructure，由拉丁 infra（在下）＋structura（构造）← struere 合成",
+      "native_definition": "the basic systems such as roads and power that a country needs",
+      "core_concept": "what is built underneath to hold everything else up – 垒在底下、托住上面全部的那一层",
+      "core_image": "路面之下埋着管线与地基，上面的楼才立得住",
+      "chinese": [
+        "基础设施",
+        "基础架构"
+      ],
+      "examples": [
+        "The country invested in infrastructure.",
+        "Cloud infrastructure supports the service."
+      ],
+      "synonyms": [
+        "framework",
+        "foundation"
+      ],
+      "antonyms": [],
+      "related": [
+        "structure",
+        "obstruct"
+      ],
+      "semantic_expansions": [
+        "基础设施/基础架构：垒在底下托住上层全部的那一套"
+      ],
+      "recall_hint": "infra-（在下）+ structure（垒起之物）→ 垒在底下托住上面"
+    },
+    {
+      "id": "electron",
+      "word": "electron",
+      "pos": "noun",
+      "phonetic": "/ɪˈlektrɒn/",
+      "decomposable": "root",
+      "root_ids": [
+        "elektron"
+      ],
+      "root_logic": "elektr（琥珀）+ -on（粒）→ 带那种「琥珀之力」的最小粒",
+      "origin": "英语 electron，1891 年由 electric＋-on 造出；electric ← 希腊语 elektron（琥珀），琥珀摩擦后能吸引轻物，电现象由此得名",
+      "native_definition": "a very small particle carrying a negative charge",
+      "core_concept": "the smallest bearer of the force amber showed when rubbed – 琥珀摩擦所显那股力的最小承载者",
+      "core_image": "琥珀在布上擦几下，碎纸屑就往它上头扑",
+      "chinese": [
+        "电子"
+      ],
+      "examples": [
+        "Electrons orbit the nucleus.",
+        "The beam is a stream of electrons."
+      ],
+      "synonyms": [
+        "particle",
+        "electric"
+      ],
+      "antonyms": [],
+      "related": [
+        "electronic",
+        "electric"
+      ],
+      "semantic_expansions": [
+        "电子：带负电、体积极小的那种粒子"
+      ],
+      "recall_hint": "elektr（琥珀）+ -on（粒）→ 带琥珀之力的最小粒"
+    },
+    {
+      "id": "electronic",
+      "word": "electronic",
+      "pos": "adjective",
+      "phonetic": "/ˌelɪkˈtrɒnɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "elektron"
+      ],
+      "root_logic": "electron（电子）+ -ic（…的）→ 靠电子工作的",
+      "origin": "英语 electronic，来自 electron ← 希腊语 elektron（琥珀）",
+      "native_definition": "using or relating to devices that work by controlling electrons",
+      "core_concept": "working by steering those smallest bearers of charge – 靠驾驭那些最小带电粒来运作",
+      "core_image": "板子上细如发丝的线路一通，屏就亮了",
+      "chinese": [
+        "电子的",
+        "电子化的"
+      ],
+      "examples": [
+        "She reads electronic books.",
+        "All records are now electronic."
+      ],
+      "synonyms": [
+        "digital",
+        "electric"
+      ],
+      "antonyms": [
+        "manual"
+      ],
+      "related": [
+        "electron",
+        "electric"
+      ],
+      "semantic_expansions": [
+        "电子的/电子化的：靠驾驭电子来运作的"
+      ],
+      "recall_hint": "electron（电子）+ -ic → 靠电子工作的"
+    },
+    {
+      "id": "tribute",
+      "word": "tribute",
+      "pos": "noun",
+      "phonetic": "/ˈtrɪbjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tribuere"
+      ],
+      "root_logic": "tribuere（分给、缴纳）→ 按份缴上去的那笔 → 贡赋；引申为致敬之礼",
+      "origin": "拉丁语 tributum（贡赋），来自 tribuere（分配、缴纳）",
+      "native_definition": "something said or given to show respect; a payment made by one state to another",
+      "core_concept": "the share handed up in acknowledgement – 按份呈上去、表示认这份情的东西",
+      "core_image": "各家按份把谷物送到城门，一车车登记入册",
+      "chinese": [
+        "贡品",
+        "致敬",
+        "颂词"
+      ],
+      "examples": [
+        "The concert was a tribute to her teacher.",
+        "The city paid tribute to the empire."
+      ],
+      "synonyms": [
+        "respect",
+        "praise"
+      ],
+      "antonyms": [
+        "insult"
+      ],
+      "related": [
+        "contribution",
+        "distribute"
+      ],
+      "semantic_expansions": [
+        "贡品：按份呈上去的那笔",
+        "致敬/颂词：把心意按份呈上，同一个「奉上」动作"
+      ],
+      "recall_hint": "tribuere（分给、缴纳）→ 按份呈上去的东西"
+    },
+    {
+      "id": "contribution",
+      "word": "contribution",
+      "pos": "noun",
+      "phonetic": "/ˌkɒntrɪˈbjuːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tribuere"
+      ],
+      "root_logic": "con-（一同）+ tribut（分给）+ -ion → 各人拿出自己那份凑到一处",
+      "origin": "拉丁语 contributio，来自 contribuere（共同出资）← con＋tribuere",
+      "native_definition": "something given to help achieve something; a payment to a common fund",
+      "core_concept": "each hand putting its share into the same pile – 各人把自己那份放进同一堆里",
+      "core_image": "桌上那只匣子，来的人各投一份进去",
+      "chinese": [
+        "贡献",
+        "捐款",
+        "投稿"
+      ],
+      "examples": [
+        "Her contribution was decisive.",
+        "He made a small contribution to the fund."
+      ],
+      "synonyms": [
+        "gift",
+        "input"
+      ],
+      "antonyms": [],
+      "related": [
+        "tribute",
+        "distribute"
+      ],
+      "semantic_expansions": [
+        "贡献：拿出自己那份凑到共同一处",
+        "捐款/投稿：同一动作用在钱或文稿上"
+      ],
+      "recall_hint": "con-（一同）+ tribut（分给）→ 各出一份凑到一处"
+    },
+    {
+      "id": "hospital",
+      "word": "hospital",
+      "pos": "noun",
+      "phonetic": "/ˈhɒspɪtl/",
+      "decomposable": "root",
+      "root_ids": [
+        "hostis"
+      ],
+      "root_logic": "hospit（待客）+ -al → 本指收留旅人之所，后专指收治病人的地方",
+      "origin": "中世纪拉丁语 hospitale（客舍、济贫院），来自 hospes（主/客）；hospes 与 hostis 同出原始印欧语 *ghos-ti-，本族收待客那一支",
+      "native_definition": "a place where sick or injured people are treated",
+      "core_concept": "the house that takes in whoever arrives needing care – 接纳前来求治者的那处屋舍",
+      "core_image": "门开着，抬进来的人一个个被接下、安置到床位上",
+      "chinese": [
+        "医院"
+      ],
+      "examples": [
+        "She was taken to hospital by ambulance.",
+        "He works at the city hospital."
+      ],
+      "synonyms": [
+        "clinic",
+        "ward"
+      ],
+      "antonyms": [],
+      "related": [
+        "hospitality",
+        "host"
+      ],
+      "semantic_expansions": [
+        "医院：本为收留旅人之所，后专指收治病人的地方"
+      ],
+      "recall_hint": "hospit（待客）+ -al → 接纳来者的那处屋舍"
+    },
+    {
+      "id": "hospitality",
+      "word": "hospitality",
+      "pos": "noun",
+      "phonetic": "/ˌhɒspɪˈtæləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "hostis"
+      ],
+      "root_logic": "hospit（待客）+ -ality → 待客这件事、那份周到",
+      "origin": "拉丁语 hospitalitas（好客），来自 hospes（主/客）← *ghos-ti-",
+      "native_definition": "friendly and generous treatment of guests",
+      "core_concept": "the care put into receiving whoever comes – 接待来者时使出的那份周到",
+      "core_image": "客人一进门，茶水与坐处都已备下",
+      "chinese": [
+        "好客",
+        "招待",
+        "款待"
+      ],
+      "examples": [
+        "Thank you for your hospitality.",
+        "The hotel is known for its hospitality."
+      ],
+      "synonyms": [
+        "welcome",
+        "warmth"
+      ],
+      "antonyms": [
+        "coldness"
+      ],
+      "related": [
+        "hospital",
+        "host"
+      ],
+      "semantic_expansions": [
+        "好客/招待/款待：接待来者时使出的那份周到"
+      ],
+      "recall_hint": "hospit（待客）+ -ality → 待客那份周到"
+    },
+    {
+      "id": "costume",
+      "word": "costume",
+      "pos": "noun",
+      "phonetic": "/ˈkɒstjuːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "consuetudo"
+      ],
+      "root_logic": "consuetudo（成例、惯常）→ 一地惯常的穿戴 → 服装、戏装",
+      "origin": "法语 costume，来自意大利语 costume（习俗、装束）← 拉丁语 consuetudo（惯常）；与 custom 同源，一支走「习俗」义，一支走「装束」义",
+      "native_definition": "clothes worn to look like someone else, or typical of a place or period",
+      "core_concept": "what a place has long been in the habit of wearing – 一地长年惯常穿戴的那一套",
+      "core_image": "戏班箱子里那几套按老样式裁的衣裳，年年照旧",
+      "chinese": [
+        "服装",
+        "戏装",
+        "民族服装"
+      ],
+      "examples": [
+        "She wore a bear costume.",
+        "The dancers appeared in traditional costume."
+      ],
+      "synonyms": [
+        "outfit",
+        "dress"
+      ],
+      "antonyms": [],
+      "related": [
+        "custom",
+        "customary"
+      ],
+      "semantic_expansions": [
+        "服装/民族服装：一地惯常穿戴的那一套",
+        "戏装：照旧样式备下、供扮演穿的那身"
+      ],
+      "recall_hint": "consuetudo（成例）→ 惯常的穿戴 → 服装"
+    },
+    {
+      "id": "accustomed",
+      "word": "accustomed",
+      "pos": "adjective",
+      "phonetic": "/əˈkʌstəmd/",
+      "decomposable": "root",
+      "root_ids": [
+        "consuetudo"
+      ],
+      "root_logic": "ac-（ad- 朝）+ custom（成例）+ -ed → 已入成例的 → 习惯了的",
+      "origin": "英语 accustomed，来自 accustom ← 古法语 acostumer ← 拉丁语 consuetudo",
+      "native_definition": "familiar with something through long experience; usual",
+      "core_concept": "worn into the groove until it feels ordinary – 走顺了那道沟，做起来不觉费力",
+      "core_image": "同一条路走了几十年，脚自己知道往哪拐",
+      "chinese": [
+        "习惯的",
+        "惯常的"
+      ],
+      "examples": [
+        "She is accustomed to early starts.",
+        "He took his accustomed seat."
+      ],
+      "synonyms": [
+        "usual",
+        "habit"
+      ],
+      "antonyms": [
+        "strange"
+      ],
+      "related": [
+        "custom",
+        "customary"
+      ],
+      "semantic_expansions": [
+        "习惯的/惯常的：已走顺那道沟、做来不觉费力"
+      ],
+      "recall_hint": "ac-（朝）+ custom（成例）+ -ed → 已入成例的"
+    },
+    {
+      "id": "represent",
+      "word": "represent",
+      "pos": "verb",
+      "phonetic": "/ˌreprɪˈzent/",
+      "decomposable": "root",
+      "root_ids": [
+        "praeesse"
+      ],
+      "root_logic": "re-（再）+ present（放到眼前）→ 再把它摆到眼前 → 代表、表现",
+      "origin": "拉丁语 repraesentare（再现、呈现），来自 re＋praesentare ← praesens ← praeesse",
+      "native_definition": "to act on behalf of someone; to stand for or depict something",
+      "core_concept": "putting a thing before the eyes again in another's stead – 替某方再把它摆到眼前",
+      "core_image": "他替全村上台开口，村里人虽不在场，话却在场",
+      "chinese": [
+        "代表",
+        "表现",
+        "象征"
+      ],
+      "examples": [
+        "She represents her country abroad.",
+        "This graph represents last year's sales."
+      ],
+      "synonyms": [
+        "show",
+        "depict"
+      ],
+      "antonyms": [],
+      "related": [
+        "representative",
+        "present"
+      ],
+      "semantic_expansions": [
+        "代表：替某方把其意再摆到眼前",
+        "表现/象征：把事物再呈到眼前来指代它"
+      ],
+      "recall_hint": "re-（再）+ present（放到眼前）→ 替人再摆到眼前"
+    },
+    {
+      "id": "representative",
+      "word": "representative",
+      "pos": "noun",
+      "phonetic": "/ˌreprɪˈzentətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "praeesse"
+      ],
+      "root_logic": "represent（代表）+ -ative → 受托来代表的那个人或物",
+      "origin": "英语 representative，来自 represent ← 拉丁语 repraesentare ← praeesse",
+      "native_definition": "a person chosen to act or speak for others; typical of a group",
+      "core_concept": "the one sent to stand before others in their stead – 被派去替众人站到台前的那个",
+      "core_image": "各车间推一个人出来，那人往台前一站，说的是全班的意思",
+      "chinese": [
+        "代表",
+        "代理人",
+        "有代表性的"
+      ],
+      "examples": [
+        "Each class elects a representative.",
+        "This sample is representative of the whole."
+      ],
+      "synonyms": [
+        "agent",
+        "deputy"
+      ],
+      "antonyms": [],
+      "related": [
+        "represent",
+        "present"
+      ],
+      "semantic_expansions": [
+        "代表/代理人：受托替众人站到台前的那个",
+        "有代表性的：拿它就能指代整体的"
+      ],
+      "recall_hint": "represent（代表）+ -ative → 受托代表的那个"
+    },
+    {
+      "id": "temperature",
+      "word": "temperature",
+      "pos": "noun",
+      "phonetic": "/ˈtemprətʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "tempus"
+      ],
+      "root_logic": "temper（调和、按分寸）+ -ature → 冷热调到什么分寸 → 温度",
+      "origin": "拉丁语 temperatura（调和之度），来自 temperare（调和、节制）← tempus；本族已收 temper/temporary/contemporary，此词走「调和分寸」那一支",
+      "native_definition": "how hot or cold something is, measured on a scale",
+      "core_concept": "where the hot and cold have been brought into balance – 冷与热调停到的那个位置",
+      "core_image": "壶里兑进一瓢凉水，手伸进去正好不烫",
+      "chinese": [
+        "温度",
+        "气温",
+        "体温"
+      ],
+      "examples": [
+        "The temperature dropped overnight.",
+        "His temperature is back to normal."
+      ],
+      "synonyms": [
+        "heat",
+        "warmth"
+      ],
+      "antonyms": [],
+      "related": [
+        "temper",
+        "temporary"
+      ],
+      "semantic_expansions": [
+        "温度/气温：冷热调停到的那个位置",
+        "体温：人身上那个位置的读数"
+      ],
+      "recall_hint": "temper（调和分寸）+ -ature → 冷热调到的那个度"
+    },
+    {
+      "id": "restraint",
+      "word": "restraint",
+      "pos": "noun",
+      "phonetic": "/rɪˈstreɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "re-（往回）+ strain（拉紧）+ -t → 往回收紧这件事 → 克制、约束",
+      "origin": "古法语 restrainte，来自 restringere（拉回束紧）← re＋stringere（拉紧）",
+      "native_definition": "control over one's own behaviour; a limit placed on someone",
+      "core_concept": "the cord pulled back to check what was about to move – 往回一拽、把正要动的收住那股力",
+      "core_image": "话到嘴边被自己拽回去，脸上一点没露",
+      "chinese": [
+        "克制",
+        "约束",
+        "限制措施"
+      ],
+      "examples": [
+        "He showed great restraint.",
+        "New restraints were placed on spending."
+      ],
+      "synonyms": [
+        "control",
+        "curb"
+      ],
+      "antonyms": [
+        "luxury"
+      ],
+      "related": [
+        "restrict",
+        "strict"
+      ],
+      "semantic_expansions": [
+        "克制：把自己往回拽住那份力",
+        "约束/限制措施：外加的那道收紧"
+      ],
+      "recall_hint": "re-（往回）+ strain（拉紧）→ 往回收住那股力"
+    },
+    {
+      "id": "accident",
+      "word": "accident",
+      "pos": "noun",
+      "phonetic": "/ˈæksɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "ac-（ad- 落到…上）+ cid（落下）+ -ent → 落到人头上的那一桩 → 意外",
+      "origin": "拉丁语 accidens（偶然发生的），来自 accidere（落到、发生）← ad＋cadere（落下）；与 incident 同族。拼写含 ident 只是巧合，与 idem（同一个）无关",
+      "native_definition": "an unexpected event that causes damage or injury",
+      "core_concept": "the thing that came down on one without being asked – 没招呼一声就落到人头上的那一桩",
+      "core_image": "拐角处一声闷响，两辆车谁也没料到会撞上",
+      "chinese": [
+        "事故",
+        "意外",
+        "偶然"
+      ],
+      "examples": [
+        "He was hurt in a car accident.",
+        "They met by accident at the station."
+      ],
+      "synonyms": [
+        "mishap",
+        "chance"
+      ],
+      "antonyms": [
+        "purpose"
+      ],
+      "related": [
+        "accidental",
+        "incident"
+      ],
+      "semantic_expansions": [
+        "事故/意外：没打招呼就落到头上的那一桩",
+        "偶然：并非安排、恰好落下的"
+      ],
+      "recall_hint": "ac-（落到上）+ cid（落下）→ 落到人头上的那一桩"
+    },
+    {
+      "id": "accidental",
+      "word": "accidental",
+      "pos": "adjective",
+      "phonetic": "/ˌæksɪˈdentl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "accident（落下之事）+ -al（…的）→ 属于偶然落下的 → 无意的",
+      "origin": "英语 accidental，来自 accident ← accidere ← ad＋cadere",
+      "native_definition": "happening by chance and not on purpose",
+      "core_concept": "of the kind that just came down, not aimed – 属于恰好落下、并非瞄准的那种",
+      "core_image": "手一滑那杯子就掉了，谁也不是有意的",
+      "chinese": [
+        "偶然的",
+        "意外的",
+        "无意的"
+      ],
+      "examples": [
+        "It was an accidental discovery.",
+        "The damage was purely accidental."
+      ],
+      "synonyms": [
+        "chance",
+        "accidental"
+      ],
+      "antonyms": [
+        "deliberate",
+        "planned"
+      ],
+      "related": [
+        "accident",
+        "incident"
+      ],
+      "semantic_expansions": [
+        "偶然的/意外的：恰好落下、并非瞄准的",
+        "无意的：落下时本无此心"
+      ],
+      "recall_hint": "accident（落下之事）+ -al → 属于恰好落下的"
+    },
+    {
+      "id": "evident",
+      "word": "evident",
+      "pos": "adjective",
+      "phonetic": "/ˈevɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "vid"
+      ],
+      "root_logic": "e-（ex- 出来）+ vid（看）+ -ent → 明摆在外看得见的 → 显然",
+      "origin": "拉丁语 evidens（明显的），来自 e＋videre（看）；拼写含 ident 只是巧合，与 idem（同一个）无关",
+      "native_definition": "clear to see or understand; obvious",
+      "core_concept": "standing out where the eye cannot miss it – 摆在外头，眼睛想漏也漏不掉",
+      "core_image": "地上那道湿痕一直连到门口，谁进过屋一看便知",
+      "chinese": [
+        "明显的",
+        "显然的"
+      ],
+      "examples": [
+        "It was evident that she was tired.",
+        "His skill is evident in every line."
+      ],
+      "synonyms": [
+        "obvious",
+        "apparent"
+      ],
+      "antonyms": [
+        "obscure",
+        "hidden"
+      ],
+      "related": [
+        "invisible",
+        "envisage"
+      ],
+      "semantic_expansions": [
+        "明显的/显然的：明摆在外、眼睛漏不掉的"
+      ],
+      "recall_hint": "e-（出来）+ vid（看）→ 明摆在外看得见的"
+    },
+    {
+      "id": "extraordinary",
+      "word": "extraordinary",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈstrɔːdnri/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordinare"
+      ],
+      "root_logic": "extra-（出乎…之外）+ ordinary（常序）→ 跳出常序之外的 → 非凡",
+      "origin": "拉丁语 extraordinarius（不合常规的），来自 extra ordinem（在常序之外）← ordo",
+      "native_definition": "very unusual or remarkable; beyond what is ordinary",
+      "core_concept": "the one that falls outside the row everything else stands in – 从众物所立那一列里跳出去的",
+      "core_image": "一排都齐着，只有那一个高出一头，站在队形之外",
+      "chinese": [
+        "非凡的",
+        "特别的",
+        "异常的"
+      ],
+      "examples": [
+        "She has extraordinary talent.",
+        "They took extraordinary measures."
+      ],
+      "synonyms": [
+        "remarkable",
+        "exceptional"
+      ],
+      "antonyms": [
+        "ordinary",
+        "commonplace"
+      ],
+      "related": [
+        "ordinary",
+        "coordinate"
+      ],
+      "semantic_expansions": [
+        "非凡的/特别的：跳出常序、不在那一列里",
+        "异常的：同样偏离常规那一档"
+      ],
+      "recall_hint": "extra-（之外）+ ordinary（常序）→ 跳出常序之外"
+    },
+    {
+      "id": "punctual",
+      "word": "punctual",
+      "pos": "adjective",
+      "phonetic": "/ˈpʌŋktʃuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "punktum"
+      ],
+      "root_logic": "punct（刺出的点）+ -ual → 正落在那个点上的 → 准时",
+      "origin": "中世纪拉丁语 punctualis（准于一点的），来自 punctum（刺出的点）",
+      "native_definition": "arriving or happening at exactly the right time",
+      "core_concept": "landing exactly on the marked spot, not beside it – 正落在标出的那一点上，不偏旁边",
+      "core_image": "针尖落下正压在刻度那一道上，分毫不差",
+      "chinese": [
+        "准时的",
+        "守时的"
+      ],
+      "examples": [
+        "He is always punctual for class.",
+        "Punctual delivery is guaranteed."
+      ],
+      "synonyms": [
+        "prompt",
+        "timely"
+      ],
+      "antonyms": [
+        "late",
+        "slow"
+      ],
+      "related": [
+        "point",
+        "appoint"
+      ],
+      "semantic_expansions": [
+        "准时的/守时的：正落在标定那一点上、不偏不错"
+      ],
+      "recall_hint": "punct（刺点）+ -ual → 正落在那一点上"
+    },
+    {
+      "id": "disappoint",
+      "word": "disappoint",
+      "pos": "verb",
+      "phonetic": "/ˌdɪsəˈpɔɪnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "punktum"
+      ],
+      "root_logic": "dis-（取消）+ appoint（点定）→ 把点定好的那件事撤掉 → 使失望",
+      "origin": "古法语 desapointier（免职、取消约定），由 des-＋apointier ← punctum（点）",
+      "native_definition": "to make someone sad by failing to do what they hoped",
+      "core_concept": "undoing what had been pinned to a point, leaving it empty – 把钉在那点上的事撤掉，那儿就空了",
+      "core_image": "约好的那一格被划掉，人白等了一下午",
+      "chinese": [
+        "使失望",
+        "使扫兴"
+      ],
+      "examples": [
+        "The result disappointed his parents.",
+        "I hate to disappoint you."
+      ],
+      "synonyms": [
+        "fail",
+        "dishearten"
+      ],
+      "antonyms": [
+        "satisfy",
+        "delight"
+      ],
+      "related": [
+        "appoint",
+        "point"
+      ],
+      "semantic_expansions": [
+        "使失望/使扫兴：把点定好的事撤掉，留下空处"
+      ],
+      "recall_hint": "dis-（取消）+ appoint（点定）→ 把定好的撤掉"
+    },
+    {
+      "id": "generalize",
+      "word": "generalize",
+      "pos": "verb",
+      "phonetic": "/ˈdʒenrəlaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "gen"
+      ],
+      "root_logic": "gener（族类）+ -al + -ize → 由个别推到整族 → 概括、一概而论",
+      "origin": "英语 generalize，来自 general ← 拉丁语 generalis（属于全族的）← genus（族类）",
+      "native_definition": "to draw a broad conclusion from particular cases",
+      "core_concept": "taking what one case showed and laying it over the whole kin – 把一例所见铺到整族头上",
+      "core_image": "看了三只都是白的，便说这一族都白",
+      "chinese": [
+        "概括",
+        "归纳",
+        "一概而论"
+      ],
+      "examples": [
+        "Do not generalize from one example.",
+        "She generalized the findings."
+      ],
+      "synonyms": [
+        "conclude",
+        "infer"
+      ],
+      "antonyms": [
+        "specify"
+      ],
+      "related": [
+        "generator",
+        "general"
+      ],
+      "semantic_expansions": [
+        "概括/归纳：由个别推及整族",
+        "一概而论：铺得过头、不分个别的那种推法"
+      ],
+      "recall_hint": "gener（族类）+ -ize → 由个别推到整族"
+    },
+    {
+      "id": "generator",
+      "word": "generator",
+      "pos": "noun",
+      "phonetic": "/ˈdʒenəreɪtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "gen"
+      ],
+      "root_logic": "gener（生出）+ -ator（施为者）→ 使某物生出来的那件机器",
+      "origin": "拉丁语 generator（生育者、产生者），来自 generare（生出）← genus",
+      "native_definition": "a machine that produces electricity or other output",
+      "core_concept": "the thing that brings a supply into being – 使某样东西源源生出来的那件器械",
+      "core_image": "机器一响，原本没有的电就源源出来了",
+      "chinese": [
+        "发电机",
+        "发生器"
+      ],
+      "examples": [
+        "The hospital has a backup generator.",
+        "This tool is a code generator."
+      ],
+      "synonyms": [
+        "engine",
+        "machine"
+      ],
+      "antonyms": [],
+      "related": [
+        "generalize",
+        "generate"
+      ],
+      "semantic_expansions": [
+        "发电机/发生器：使某物源源生出来的那件器械"
+      ],
+      "recall_hint": "gener（生出）+ -ator → 使之生出的那件机器"
+    },
+    {
+      "id": "prosecute",
+      "word": "prosecute",
+      "pos": "verb",
+      "phonetic": "/ˈprɒsɪkjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "pro-（往前）+ secut（跟随）→ 一路追到底 → 起诉、依法追究",
+      "origin": "拉丁语 prosecutus，prosequi（追随到底）的过去分词 ← pro＋sequi（跟随）",
+      "native_definition": "to bring a legal case against someone in court",
+      "core_concept": "following a matter all the way through to its end – 咬住一桩事一路跟到底",
+      "core_image": "案卷一层层往上递，一路跟到判下来为止",
+      "chinese": [
+        "起诉",
+        "检举",
+        "彻底进行"
+      ],
+      "examples": [
+        "The state decided to prosecute.",
+        "They prosecuted the case for two years."
+      ],
+      "synonyms": [
+        "accuse",
+        "pursue"
+      ],
+      "antonyms": [
+        "defend"
+      ],
+      "related": [
+        "persecute",
+        "sequence"
+      ],
+      "semantic_expansions": [
+        "起诉/检举：依法咬住一桩事追到底",
+        "彻底进行：同一个「跟到底」用在做事上"
+      ],
+      "recall_hint": "pro-（往前）+ secut（跟随）→ 一路追到底"
+    },
+    {
+      "id": "persecute",
+      "word": "persecute",
+      "pos": "verb",
+      "phonetic": "/ˈpɜːsɪkjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "per-（一路、不断）+ secut（跟随）→ 不断追着为难 → 迫害",
+      "origin": "拉丁语 persecutus，persequi（追逼）的过去分词 ← per＋sequi（跟随）",
+      "native_definition": "to treat someone cruelly over time, especially for their beliefs",
+      "core_concept": "keeping after a person without ever letting up – 一路追着不放、不给对方喘息",
+      "core_image": "那家人搬到哪儿，后头的人就跟到哪儿，一年没断过",
+      "chinese": [
+        "迫害",
+        "折磨"
+      ],
+      "examples": [
+        "They were persecuted for their faith.",
+        "He felt persecuted by the press."
+      ],
+      "synonyms": [
+        "oppress",
+        "trouble"
+      ],
+      "antonyms": [
+        "protect"
+      ],
+      "related": [
+        "prosecute",
+        "sequence"
+      ],
+      "semantic_expansions": [
+        "迫害/折磨：一路追着不放、不给喘息"
+      ],
+      "recall_hint": "per-（不断）+ secut（跟随）→ 追着不放"
+    },
+    {
+      "id": "classmate",
+      "word": "classmate",
+      "pos": "noun",
+      "phonetic": "/ˈklɑːsmeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "class（同一等第）+ mate（伙伴）→ 被编在同一班的伙伴",
+      "origin": "英语复合词 class＋mate；class ← 拉丁语 classis（等第、编组）",
+      "native_definition": "a person in the same class at school",
+      "core_concept": "one sorted into the same bracket as oneself – 与自己被编进同一格的那个人",
+      "core_image": "点名册上两个名字挨着，从开学起就坐一排",
+      "chinese": [
+        "同班同学"
+      ],
+      "examples": [
+        "She met her old classmate downtown.",
+        "My classmates helped me revise."
+      ],
+      "synonyms": [
+        "peer",
+        "friend"
+      ],
+      "antonyms": [],
+      "related": [
+        "classroom",
+        "class"
+      ],
+      "semantic_expansions": [
+        "同班同学：与自己被编进同一格的人"
+      ],
+      "recall_hint": "class（同一等第）+ mate（伙伴）→ 同格的伙伴"
+    },
+    {
+      "id": "classroom",
+      "word": "classroom",
+      "pos": "noun",
+      "phonetic": "/ˈklɑːsruːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "classis"
+      ],
+      "root_logic": "class（编组）+ room（屋）→ 一编人一起上课的那间屋",
+      "origin": "英语复合词 class＋room；class ← 拉丁语 classis（等第、编组）",
+      "native_definition": "a room in a school where lessons are taught",
+      "core_concept": "the room a whole bracket of learners sits in – 同编的一群人共坐的那间屋",
+      "core_image": "推门进去，桌椅一排排冲着黑板",
+      "chinese": [
+        "教室"
+      ],
+      "examples": [
+        "The classroom holds thirty desks.",
+        "She stayed in the classroom after school."
+      ],
+      "synonyms": [
+        "school",
+        "hall"
+      ],
+      "antonyms": [],
+      "related": [
+        "classmate",
+        "class"
+      ],
+      "semantic_expansions": [
+        "教室：同编一群人一起上课的那间屋"
+      ],
+      "recall_hint": "class（编组）+ room（屋）→ 同编者共坐的屋"
+    },
+    {
+      "id": "assumption",
+      "word": "assumption",
+      "pos": "noun",
+      "phonetic": "/əˈsʌmpʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sumere"
+      ],
+      "root_logic": "as-（ad- 朝）+ sumpt（取）+ -ion → 先取来当真的那一条 → 假定",
+      "origin": "拉丁语 assumptio（取用、采纳），来自 assumere（取来）← ad＋sumere（取）",
+      "native_definition": "something believed true without proof; the act of taking on",
+      "core_concept": "the piece one picks up and treats as given before checking – 未及核就先拿来当真的那一条",
+      "core_image": "他没查底册，先拿一条当真，往下全按这条推",
+      "chinese": [
+        "假定",
+        "假设",
+        "承担"
+      ],
+      "examples": [
+        "That assumption proved wrong.",
+        "His assumption of office was swift."
+      ],
+      "synonyms": [
+        "premise",
+        "guess"
+      ],
+      "antonyms": [
+        "proof"
+      ],
+      "related": [
+        "consumption",
+        "assume"
+      ],
+      "semantic_expansions": [
+        "假定/假设：未核就先取来当真的那一条",
+        "承担：把职责取到自己身上"
+      ],
+      "recall_hint": "as-（朝）+ sumpt（取）→ 先取来当真的那条"
+    },
+    {
+      "id": "consumption",
+      "word": "consumption",
+      "pos": "noun",
+      "phonetic": "/kənˈsʌmpʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "sumere"
+      ],
+      "root_logic": "con-（尽）+ sumpt（取用）+ -ion → 取用到尽 → 消耗、消费",
+      "origin": "拉丁语 consumptio（耗尽），来自 consumere（用尽）← con＋sumere（取）",
+      "native_definition": "the using up of resources; the amount used",
+      "core_concept": "taking from the store until it is spent – 一直从堆里取，取到见底",
+      "core_image": "油表的针一路往左掉，箱里那些一趟就见了底",
+      "chinese": [
+        "消耗",
+        "消费",
+        "食用"
+      ],
+      "examples": [
+        "Fuel consumption has risen.",
+        "Limit your sugar consumption."
+      ],
+      "synonyms": [
+        "use",
+        "expenditure"
+      ],
+      "antonyms": [
+        "production"
+      ],
+      "related": [
+        "assumption",
+        "consume"
+      ],
+      "semantic_expansions": [
+        "消耗/消费：取用到尽的那个量与过程",
+        "食用：同一个「取入」用在饮食上"
+      ],
+      "recall_hint": "con-（尽）+ sumpt（取用）→ 取用到见底"
+    },
+    {
+      "id": "resolution",
+      "word": "resolution",
+      "pos": "noun",
+      "phonetic": "/ˌrezəˈluːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "re-（彻底）+ solut（解开）+ -ion → 把缠住的彻底解开 → 决心、解决、决议",
+      "origin": "拉丁语 resolutio（解开、分解），来自 resolvere（解开）← re＋solvere",
+      "native_definition": "a firm decision; the solving of a problem; a formal vote of a body",
+      "core_concept": "the knot worked loose so the line runs free again – 缠住的那个结被解开，绳又顺了",
+      "core_image": "缠了半天的那个结终于松开，线一抽就顺了",
+      "chinese": [
+        "决心",
+        "解决",
+        "决议"
+      ],
+      "examples": [
+        "She made a New Year resolution.",
+        "The council passed a resolution."
+      ],
+      "synonyms": [
+        "decision",
+        "solution"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "related": [
+        "resolute",
+        "solve"
+      ],
+      "semantic_expansions": [
+        "决心：心里犹疑的结被解开、定住",
+        "解决：把缠住的难处解开",
+        "决议：会上表决定下的那一条"
+      ],
+      "recall_hint": "re-（彻底）+ solut（解开）→ 把结彻底解开"
+    },
+    {
+      "id": "resolute",
+      "word": "resolute",
+      "pos": "adjective",
+      "phonetic": "/ˈrezəluːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "solvere"
+      ],
+      "root_logic": "re-（彻底）+ solut（解开）→ 犹疑已解开、心里定住的 → 坚决",
+      "origin": "拉丁语 resolutus，resolvere（解开）的过去分词 ← re＋solvere",
+      "native_definition": "showing firm determination; not wavering",
+      "core_concept": "with the hesitation already untied, nothing left pulling back – 犹疑那道结已解开，再没什么往回拽",
+      "core_image": "他不再来回踱步，抬头说出那句话时脚跟没动",
+      "chinese": [
+        "坚决的",
+        "果断的"
+      ],
+      "examples": [
+        "She was resolute in her refusal.",
+        "He gave a resolute answer."
+      ],
+      "synonyms": [
+        "firm",
+        "decided"
+      ],
+      "antonyms": [
+        "doubtful",
+        "weak"
+      ],
+      "related": [
+        "resolution",
+        "solve"
+      ],
+      "semantic_expansions": [
+        "坚决的/果断的：犹疑已解开、心里定住不再摇"
+      ],
+      "recall_hint": "re-（彻底）+ solut（解开）→ 犹疑解开、心已定"
+    },
+    {
+      "id": "relative",
+      "word": "relative",
+      "pos": "adjective",
+      "phonetic": "/ˈrelətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "referre"
+      ],
+      "root_logic": "relat（带回、关联）+ -ive → 得带回来比着看的 → 相对的；名词指亲属",
+      "origin": "拉丁语 relativus（有关联的），来自 relatus（referre 的过去分词）← re＋ferre（带）",
+      "native_definition": "considered in comparison with something else; a member of one's family",
+      "core_concept": "only meaningful when carried back and set beside another – 非得带回来与另一个并着看才有意义",
+      "core_image": "单说这块高不算数，把它搬到那块旁边一比才知道",
+      "chinese": [
+        "相对的",
+        "相关的",
+        "亲属"
+      ],
+      "examples": [
+        "It is a relative improvement.",
+        "She invited all her relatives."
+      ],
+      "synonyms": [
+        "comparative",
+        "kin"
+      ],
+      "antonyms": [
+        "absolute"
+      ],
+      "related": [
+        "relativity",
+        "relate"
+      ],
+      "semantic_expansions": [
+        "相对的：须带回来与他物并比才有意义",
+        "相关的：两者之间有可带回的联系",
+        "亲属：与自己有血缘关联的人"
+      ],
+      "recall_hint": "relat（带回关联）+ -ive → 须并着比才算数"
+    },
+    {
+      "id": "relativity",
+      "word": "relativity",
+      "pos": "noun",
+      "phonetic": "/ˌreləˈtɪvəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "referre"
+      ],
+      "root_logic": "relative（相对的）+ -ity → 相对这个性质；物理学上专指该理论",
+      "origin": "英语 relativity，来自 relative ← 拉丁语 relatus ← re＋ferre",
+      "native_definition": "the state of being relative; Einstein's theory of space and time",
+      "core_concept": "the fact that a measure holds only against some other – 一个量非得对着另一个才立得住",
+      "core_image": "在车里看是静的，站在路边看却在动，得说明对着谁量",
+      "chinese": [
+        "相对性",
+        "相对论"
+      ],
+      "examples": [
+        "The theory of relativity changed physics.",
+        "He wrote on the relativity of morals."
+      ],
+      "synonyms": [
+        "connection",
+        "theory"
+      ],
+      "antonyms": [
+        "absolute"
+      ],
+      "related": [
+        "relative",
+        "relate"
+      ],
+      "semantic_expansions": [
+        "相对性：量非得对着另一个才立得住",
+        "相对论：以此为核心的那套物理理论"
+      ],
+      "recall_hint": "relative（相对的）+ -ity → 须对着他物才立得住"
+    },
+    {
+      "id": "habitat",
+      "word": "habitat",
+      "pos": "noun",
+      "phonetic": "/ˈhæbɪtæt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habitare"
+      ],
+      "root_logic": "habitat（它居住）→ 某种生物惯常住的那片地方",
+      "origin": "拉丁语 habitat（它居住），habitare（居住）的第三人称现在式；旧时物种志用此词起头标注产地，遂成名词",
+      "native_definition": "the natural home of an animal or plant",
+      "core_concept": "the place a living thing keeps returning to dwell in – 某种活物一代代回来住下的那片地方",
+      "core_image": "同一片湿地，那群鸟年年回来筑巢",
+      "chinese": [
+        "栖息地",
+        "生境"
+      ],
+      "examples": [
+        "The marsh is a habitat for rare birds.",
+        "Logging destroys their habitat."
+      ],
+      "synonyms": [
+        "home",
+        "environment"
+      ],
+      "antonyms": [],
+      "related": [
+        "habit",
+        "inhabit"
+      ],
+      "semantic_expansions": [
+        "栖息地/生境：某种活物惯常回来住下的那片地方"
+      ],
+      "recall_hint": "habitat（它居住）→ 惯常住下的那片地方"
+    },
+    {
+      "id": "modern",
+      "word": "modern",
+      "pos": "adjective",
+      "phonetic": "/ˈmɒdn/",
+      "decomposable": "root",
+      "root_ids": [
+        "modus"
+      ],
+      "root_logic": "mod（量度、时式）+ -ern → 合当下这一档时式的 → 现代的",
+      "origin": "晚期拉丁语 modernus（当今的），来自 modo（just now）← modus（量度、方式）",
+      "native_definition": "belonging to the present time; up to date",
+      "core_concept": "cut to the measure the present moment uses – 按眼下这一档尺度裁出来的",
+      "core_image": "屋里陈设照当下的样式换过一轮，旧的一件没留",
+      "chinese": [
+        "现代的",
+        "近代的",
+        "新式的"
+      ],
+      "examples": [
+        "This is modern architecture.",
+        "She prefers modern methods."
+      ],
+      "synonyms": [
+        "contemporary",
+        "current"
+      ],
+      "antonyms": [
+        "ancient",
+        "old"
+      ],
+      "related": [
+        "modernization",
+        "moderate"
+      ],
+      "semantic_expansions": [
+        "现代的/近代的：按眼下这一档时式裁出来的",
+        "新式的：同一档上属新的那一头"
+      ],
+      "recall_hint": "mod（时式）+ -ern → 合当下这档时式的"
+    },
+    {
+      "id": "modernization",
+      "word": "modernization",
+      "pos": "noun",
+      "phonetic": "/ˌmɒdənaɪˈzeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "modus"
+      ],
+      "root_logic": "modern（现代的）+ -ization → 把旧的改到当下这一档 → 现代化",
+      "origin": "英语 modernization，来自 modernize ← modern ← 拉丁语 modus",
+      "native_definition": "the process of making something suit present-day needs",
+      "core_concept": "refitting the old thing to the measure now in use – 把旧的一样样改到眼下通行那一档",
+      "core_image": "老厂房一间间翻修，机器照新标准换过",
+      "chinese": [
+        "现代化",
+        "更新"
+      ],
+      "examples": [
+        "The modernization took five years.",
+        "Farm modernization raised yields."
+      ],
+      "synonyms": [
+        "update",
+        "reform"
+      ],
+      "antonyms": [],
+      "related": [
+        "modern",
+        "moderate"
+      ],
+      "semantic_expansions": [
+        "现代化/更新：把旧的改到眼下通行那一档"
+      ],
+      "recall_hint": "modern（现代的）+ -ization → 改到当下这一档"
+    }
+  ]
+}

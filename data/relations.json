@@ -6114,6 +6114,222 @@
       "to": "interference",
       "type": "root",
       "note": "inter-（在中间）+ fer（带）+ -ence → 把自己插到中间去 → 干扰"
+    },
+    {
+      "from": "stru",
+      "to": "obstruct",
+      "type": "root",
+      "note": "ob-（挡在前）+ struct（垒）→ 在通路上垒起东西 → 堵住"
+    },
+    {
+      "from": "stru",
+      "to": "obstruction",
+      "type": "root",
+      "note": "obstruct（垒起挡路）+ -ion → 挡路这件事，或挡路的那个东西"
+    },
+    {
+      "from": "stru",
+      "to": "infrastructure",
+      "type": "root",
+      "note": "infra-（在下）+ structure（垒起之物）→ 垒在底下托住上面的那一套"
+    },
+    {
+      "from": "elektron",
+      "to": "electron",
+      "type": "root",
+      "note": "elektr（琥珀）+ -on（粒）→ 带那种「琥珀之力」的最小粒"
+    },
+    {
+      "from": "elektron",
+      "to": "electronic",
+      "type": "root",
+      "note": "electron（电子）+ -ic（…的）→ 靠电子工作的"
+    },
+    {
+      "from": "tribuere",
+      "to": "tribute",
+      "type": "root",
+      "note": "tribuere（分给、缴纳）→ 按份缴上去的那笔 → 贡赋；引申为致敬之礼"
+    },
+    {
+      "from": "tribuere",
+      "to": "contribution",
+      "type": "root",
+      "note": "con-（一同）+ tribut（分给）+ -ion → 各人拿出自己那份凑到一处"
+    },
+    {
+      "from": "hostis",
+      "to": "hospital",
+      "type": "root",
+      "note": "hospit（待客）+ -al → 本指收留旅人之所，后专指收治病人的地方"
+    },
+    {
+      "from": "hostis",
+      "to": "hospitality",
+      "type": "root",
+      "note": "hospit（待客）+ -ality → 待客这件事、那份周到"
+    },
+    {
+      "from": "consuetudo",
+      "to": "costume",
+      "type": "root",
+      "note": "consuetudo（成例、惯常）→ 一地惯常的穿戴 → 服装、戏装"
+    },
+    {
+      "from": "consuetudo",
+      "to": "accustomed",
+      "type": "root",
+      "note": "ac-（ad- 朝）+ custom（成例）+ -ed → 已入成例的 → 习惯了的"
+    },
+    {
+      "from": "praeesse",
+      "to": "represent",
+      "type": "root",
+      "note": "re-（再）+ present（放到眼前）→ 再把它摆到眼前 → 代表、表现"
+    },
+    {
+      "from": "praeesse",
+      "to": "representative",
+      "type": "root",
+      "note": "represent（代表）+ -ative → 受托来代表的那个人或物"
+    },
+    {
+      "from": "tempus",
+      "to": "temperature",
+      "type": "root",
+      "note": "temper（调和、按分寸）+ -ature → 冷热调到什么分寸 → 温度"
+    },
+    {
+      "from": "stringere",
+      "to": "restraint",
+      "type": "root",
+      "note": "re-（往回）+ strain（拉紧）+ -t → 往回收紧这件事 → 克制、约束"
+    },
+    {
+      "from": "cadere",
+      "to": "accident",
+      "type": "root",
+      "note": "ac-（ad- 落到…上）+ cid（落下）+ -ent → 落到人头上的那一桩 → 意外"
+    },
+    {
+      "from": "cadere",
+      "to": "accidental",
+      "type": "root",
+      "note": "accident（落下之事）+ -al（…的）→ 属于偶然落下的 → 无意的"
+    },
+    {
+      "from": "vid",
+      "to": "evident",
+      "type": "root",
+      "note": "e-（ex- 出来）+ vid（看）+ -ent → 明摆在外看得见的 → 显然"
+    },
+    {
+      "from": "ordinare",
+      "to": "extraordinary",
+      "type": "root",
+      "note": "extra-（出乎…之外）+ ordinary（常序）→ 跳出常序之外的 → 非凡"
+    },
+    {
+      "from": "punktum",
+      "to": "punctual",
+      "type": "root",
+      "note": "punct（刺出的点）+ -ual → 正落在那个点上的 → 准时"
+    },
+    {
+      "from": "punktum",
+      "to": "disappoint",
+      "type": "root",
+      "note": "dis-（取消）+ appoint（点定）→ 把点定好的那件事撤掉 → 使失望"
+    },
+    {
+      "from": "gen",
+      "to": "generalize",
+      "type": "root",
+      "note": "gener（族类）+ -al + -ize → 由个别推到整族 → 概括、一概而论"
+    },
+    {
+      "from": "gen",
+      "to": "generator",
+      "type": "root",
+      "note": "gener（生出）+ -ator（施为者）→ 使某物生出来的那件机器"
+    },
+    {
+      "from": "sequ",
+      "to": "prosecute",
+      "type": "root",
+      "note": "pro-（往前）+ secut（跟随）→ 一路追到底 → 起诉、依法追究"
+    },
+    {
+      "from": "sequ",
+      "to": "persecute",
+      "type": "root",
+      "note": "per-（一路、不断）+ secut（跟随）→ 不断追着为难 → 迫害"
+    },
+    {
+      "from": "classis",
+      "to": "classmate",
+      "type": "root",
+      "note": "class（同一等第）+ mate（伙伴）→ 被编在同一班的伙伴"
+    },
+    {
+      "from": "classis",
+      "to": "classroom",
+      "type": "root",
+      "note": "class（编组）+ room（屋）→ 一编人一起上课的那间屋"
+    },
+    {
+      "from": "sumere",
+      "to": "assumption",
+      "type": "root",
+      "note": "as-（ad- 朝）+ sumpt（取）+ -ion → 先取来当真的那一条 → 假定"
+    },
+    {
+      "from": "sumere",
+      "to": "consumption",
+      "type": "root",
+      "note": "con-（尽）+ sumpt（取用）+ -ion → 取用到尽 → 消耗、消费"
+    },
+    {
+      "from": "solvere",
+      "to": "resolution",
+      "type": "root",
+      "note": "re-（彻底）+ solut（解开）+ -ion → 把缠住的彻底解开 → 决心、解决、决议"
+    },
+    {
+      "from": "solvere",
+      "to": "resolute",
+      "type": "root",
+      "note": "re-（彻底）+ solut（解开）→ 犹疑已解开、心里定住的 → 坚决"
+    },
+    {
+      "from": "referre",
+      "to": "relative",
+      "type": "root",
+      "note": "relat（带回、关联）+ -ive → 得带回来比着看的 → 相对的；名词指亲属"
+    },
+    {
+      "from": "referre",
+      "to": "relativity",
+      "type": "root",
+      "note": "relative（相对的）+ -ity → 相对这个性质；物理学上专指该理论"
+    },
+    {
+      "from": "habitare",
+      "to": "habitat",
+      "type": "root",
+      "note": "habitat（它居住）→ 某种生物惯常住的那片地方"
+    },
+    {
+      "from": "modus",
+      "to": "modern",
+      "type": "root",
+      "note": "mod（量度、时式）+ -ern → 合当下这一档时式的 → 现代的"
+    },
+    {
+      "from": "modus",
+      "to": "modernization",
+      "type": "root",
+      "note": "modern（现代的）+ -ization → 把旧的改到当下这一档 → 现代化"
     }
   ]
 }

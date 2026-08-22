@@ -13951,6 +13951,510 @@
       "text": "Radio interference spoiled the broadcast.",
       "source": "AI 生成 · 人工审核",
       "scene": "两人正说着，第三个人的声音插进中间，谁也听不清了"
+    },
+    {
+      "id": "ex-obstruct-1",
+      "word_id": "obstruct",
+      "text": "A fallen tree obstructed the road.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "巷口垒起半人高的砖，车马到此只能折返"
+    },
+    {
+      "id": "ex-obstruct-2",
+      "word_id": "obstruct",
+      "text": "He was charged with obstructing justice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "巷口垒起半人高的砖，车马到此只能折返"
+    },
+    {
+      "id": "ex-obstruction-1",
+      "word_id": "obstruction",
+      "text": "Remove any obstruction from the pipe.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清障车开来，把横在道中的那一堆一点点搬开"
+    },
+    {
+      "id": "ex-obstruction-2",
+      "word_id": "obstruction",
+      "text": "He was fined for obstruction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清障车开来，把横在道中的那一堆一点点搬开"
+    },
+    {
+      "id": "ex-infrastructure-1",
+      "word_id": "infrastructure",
+      "text": "The country invested in infrastructure.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路面之下埋着管线与地基，上面的楼才立得住"
+    },
+    {
+      "id": "ex-infrastructure-2",
+      "word_id": "infrastructure",
+      "text": "Cloud infrastructure supports the service.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路面之下埋着管线与地基，上面的楼才立得住"
+    },
+    {
+      "id": "ex-electron-1",
+      "word_id": "electron",
+      "text": "Electrons orbit the nucleus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "琥珀在布上擦几下，碎纸屑就往它上头扑"
+    },
+    {
+      "id": "ex-electron-2",
+      "word_id": "electron",
+      "text": "The beam is a stream of electrons.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "琥珀在布上擦几下，碎纸屑就往它上头扑"
+    },
+    {
+      "id": "ex-electronic-1",
+      "word_id": "electronic",
+      "text": "She reads electronic books.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "板子上细如发丝的线路一通，屏就亮了"
+    },
+    {
+      "id": "ex-electronic-2",
+      "word_id": "electronic",
+      "text": "All records are now electronic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "板子上细如发丝的线路一通，屏就亮了"
+    },
+    {
+      "id": "ex-tribute-1",
+      "word_id": "tribute",
+      "text": "The concert was a tribute to her teacher.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各家按份把谷物送到城门，一车车登记入册"
+    },
+    {
+      "id": "ex-tribute-2",
+      "word_id": "tribute",
+      "text": "The city paid tribute to the empire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各家按份把谷物送到城门，一车车登记入册"
+    },
+    {
+      "id": "ex-contribution-1",
+      "word_id": "contribution",
+      "text": "Her contribution was decisive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那只匣子，来的人各投一份进去"
+    },
+    {
+      "id": "ex-contribution-2",
+      "word_id": "contribution",
+      "text": "He made a small contribution to the fund.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那只匣子，来的人各投一份进去"
+    },
+    {
+      "id": "ex-hospital-1",
+      "word_id": "hospital",
+      "text": "She was taken to hospital by ambulance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门开着，抬进来的人一个个被接下、安置到床位上"
+    },
+    {
+      "id": "ex-hospital-2",
+      "word_id": "hospital",
+      "text": "He works at the city hospital.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门开着，抬进来的人一个个被接下、安置到床位上"
+    },
+    {
+      "id": "ex-hospitality-1",
+      "word_id": "hospitality",
+      "text": "Thank you for your hospitality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "客人一进门，茶水与坐处都已备下"
+    },
+    {
+      "id": "ex-hospitality-2",
+      "word_id": "hospitality",
+      "text": "The hotel is known for its hospitality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "客人一进门，茶水与坐处都已备下"
+    },
+    {
+      "id": "ex-costume-1",
+      "word_id": "costume",
+      "text": "She wore a bear costume.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "戏班箱子里那几套按老样式裁的衣裳，年年照旧"
+    },
+    {
+      "id": "ex-costume-2",
+      "word_id": "costume",
+      "text": "The dancers appeared in traditional costume.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "戏班箱子里那几套按老样式裁的衣裳，年年照旧"
+    },
+    {
+      "id": "ex-accustomed-1",
+      "word_id": "accustomed",
+      "text": "She is accustomed to early starts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路走了几十年，脚自己知道往哪拐"
+    },
+    {
+      "id": "ex-accustomed-2",
+      "word_id": "accustomed",
+      "text": "He took his accustomed seat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路走了几十年，脚自己知道往哪拐"
+    },
+    {
+      "id": "ex-represent-1",
+      "word_id": "represent",
+      "text": "She represents her country abroad.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他替全村上台开口，村里人虽不在场，话却在场"
+    },
+    {
+      "id": "ex-represent-2",
+      "word_id": "represent",
+      "text": "This graph represents last year's sales.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他替全村上台开口，村里人虽不在场，话却在场"
+    },
+    {
+      "id": "ex-representative-1",
+      "word_id": "representative",
+      "text": "Each class elects a representative.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各车间推一个人出来，那人往台前一站，说的是全班的意思"
+    },
+    {
+      "id": "ex-representative-2",
+      "word_id": "representative",
+      "text": "This sample is representative of the whole.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "各车间推一个人出来，那人往台前一站，说的是全班的意思"
+    },
+    {
+      "id": "ex-temperature-1",
+      "word_id": "temperature",
+      "text": "The temperature dropped overnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "壶里兑进一瓢凉水，手伸进去正好不烫"
+    },
+    {
+      "id": "ex-temperature-2",
+      "word_id": "temperature",
+      "text": "His temperature is back to normal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "壶里兑进一瓢凉水，手伸进去正好不烫"
+    },
+    {
+      "id": "ex-restraint-1",
+      "word_id": "restraint",
+      "text": "He showed great restraint.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话到嘴边被自己拽回去，脸上一点没露"
+    },
+    {
+      "id": "ex-restraint-2",
+      "word_id": "restraint",
+      "text": "New restraints were placed on spending.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话到嘴边被自己拽回去，脸上一点没露"
+    },
+    {
+      "id": "ex-accident-1",
+      "word_id": "accident",
+      "text": "He was hurt in a car accident.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拐角处一声闷响，两辆车谁也没料到会撞上"
+    },
+    {
+      "id": "ex-accident-2",
+      "word_id": "accident",
+      "text": "They met by accident at the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拐角处一声闷响，两辆车谁也没料到会撞上"
+    },
+    {
+      "id": "ex-accidental-1",
+      "word_id": "accidental",
+      "text": "It was an accidental discovery.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手一滑那杯子就掉了，谁也不是有意的"
+    },
+    {
+      "id": "ex-accidental-2",
+      "word_id": "accidental",
+      "text": "The damage was purely accidental.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手一滑那杯子就掉了，谁也不是有意的"
+    },
+    {
+      "id": "ex-evident-1",
+      "word_id": "evident",
+      "text": "It was evident that she was tired.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地上那道湿痕一直连到门口，谁进过屋一看便知"
+    },
+    {
+      "id": "ex-evident-2",
+      "word_id": "evident",
+      "text": "His skill is evident in every line.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地上那道湿痕一直连到门口，谁进过屋一看便知"
+    },
+    {
+      "id": "ex-extraordinary-1",
+      "word_id": "extraordinary",
+      "text": "She has extraordinary talent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排都齐着，只有那一个高出一头，站在队形之外"
+    },
+    {
+      "id": "ex-extraordinary-2",
+      "word_id": "extraordinary",
+      "text": "They took extraordinary measures.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排都齐着，只有那一个高出一头，站在队形之外"
+    },
+    {
+      "id": "ex-punctual-1",
+      "word_id": "punctual",
+      "text": "He is always punctual for class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "针尖落下正压在刻度那一道上，分毫不差"
+    },
+    {
+      "id": "ex-punctual-2",
+      "word_id": "punctual",
+      "text": "Punctual delivery is guaranteed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "针尖落下正压在刻度那一道上，分毫不差"
+    },
+    {
+      "id": "ex-disappoint-1",
+      "word_id": "disappoint",
+      "text": "The result disappointed his parents.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "约好的那一格被划掉，人白等了一下午"
+    },
+    {
+      "id": "ex-disappoint-2",
+      "word_id": "disappoint",
+      "text": "I hate to disappoint you.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "约好的那一格被划掉，人白等了一下午"
+    },
+    {
+      "id": "ex-generalize-1",
+      "word_id": "generalize",
+      "text": "Do not generalize from one example.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看了三只都是白的，便说这一族都白"
+    },
+    {
+      "id": "ex-generalize-2",
+      "word_id": "generalize",
+      "text": "She generalized the findings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "看了三只都是白的，便说这一族都白"
+    },
+    {
+      "id": "ex-generator-1",
+      "word_id": "generator",
+      "text": "The hospital has a backup generator.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器一响，原本没有的电就源源出来了"
+    },
+    {
+      "id": "ex-generator-2",
+      "word_id": "generator",
+      "text": "This tool is a code generator.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器一响，原本没有的电就源源出来了"
+    },
+    {
+      "id": "ex-prosecute-1",
+      "word_id": "prosecute",
+      "text": "The state decided to prosecute.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "案卷一层层往上递，一路跟到判下来为止"
+    },
+    {
+      "id": "ex-prosecute-2",
+      "word_id": "prosecute",
+      "text": "They prosecuted the case for two years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "案卷一层层往上递，一路跟到判下来为止"
+    },
+    {
+      "id": "ex-persecute-1",
+      "word_id": "persecute",
+      "text": "They were persecuted for their faith.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那家人搬到哪儿，后头的人就跟到哪儿，一年没断过"
+    },
+    {
+      "id": "ex-persecute-2",
+      "word_id": "persecute",
+      "text": "He felt persecuted by the press.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那家人搬到哪儿，后头的人就跟到哪儿，一年没断过"
+    },
+    {
+      "id": "ex-classmate-1",
+      "word_id": "classmate",
+      "text": "She met her old classmate downtown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点名册上两个名字挨着，从开学起就坐一排"
+    },
+    {
+      "id": "ex-classmate-2",
+      "word_id": "classmate",
+      "text": "My classmates helped me revise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点名册上两个名字挨着，从开学起就坐一排"
+    },
+    {
+      "id": "ex-classroom-1",
+      "word_id": "classroom",
+      "text": "The classroom holds thirty desks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推门进去，桌椅一排排冲着黑板"
+    },
+    {
+      "id": "ex-classroom-2",
+      "word_id": "classroom",
+      "text": "She stayed in the classroom after school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推门进去，桌椅一排排冲着黑板"
+    },
+    {
+      "id": "ex-assumption-1",
+      "word_id": "assumption",
+      "text": "That assumption proved wrong.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他没查底册，先拿一条当真，往下全按这条推"
+    },
+    {
+      "id": "ex-assumption-2",
+      "word_id": "assumption",
+      "text": "His assumption of office was swift.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他没查底册，先拿一条当真，往下全按这条推"
+    },
+    {
+      "id": "ex-consumption-1",
+      "word_id": "consumption",
+      "text": "Fuel consumption has risen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油表的针一路往左掉，箱里那些一趟就见了底"
+    },
+    {
+      "id": "ex-consumption-2",
+      "word_id": "consumption",
+      "text": "Limit your sugar consumption.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "油表的针一路往左掉，箱里那些一趟就见了底"
+    },
+    {
+      "id": "ex-resolution-1",
+      "word_id": "resolution",
+      "text": "She made a New Year resolution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "缠了半天的那个结终于松开，线一抽就顺了"
+    },
+    {
+      "id": "ex-resolution-2",
+      "word_id": "resolution",
+      "text": "The council passed a resolution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "缠了半天的那个结终于松开，线一抽就顺了"
+    },
+    {
+      "id": "ex-resolute-1",
+      "word_id": "resolute",
+      "text": "She was resolute in her refusal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他不再来回踱步，抬头说出那句话时脚跟没动"
+    },
+    {
+      "id": "ex-resolute-2",
+      "word_id": "resolute",
+      "text": "He gave a resolute answer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他不再来回踱步，抬头说出那句话时脚跟没动"
+    },
+    {
+      "id": "ex-relative-1",
+      "word_id": "relative",
+      "text": "It is a relative improvement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "单说这块高不算数，把它搬到那块旁边一比才知道"
+    },
+    {
+      "id": "ex-relative-2",
+      "word_id": "relative",
+      "text": "She invited all her relatives.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "单说这块高不算数，把它搬到那块旁边一比才知道"
+    },
+    {
+      "id": "ex-relativity-1",
+      "word_id": "relativity",
+      "text": "The theory of relativity changed physics.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在车里看是静的，站在路边看却在动，得说明对着谁量"
+    },
+    {
+      "id": "ex-relativity-2",
+      "word_id": "relativity",
+      "text": "He wrote on the relativity of morals.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "在车里看是静的，站在路边看却在动，得说明对着谁量"
+    },
+    {
+      "id": "ex-habitat-1",
+      "word_id": "habitat",
+      "text": "The marsh is a habitat for rare birds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片湿地，那群鸟年年回来筑巢"
+    },
+    {
+      "id": "ex-habitat-2",
+      "word_id": "habitat",
+      "text": "Logging destroys their habitat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片湿地，那群鸟年年回来筑巢"
+    },
+    {
+      "id": "ex-modern-1",
+      "word_id": "modern",
+      "text": "This is modern architecture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋里陈设照当下的样式换过一轮，旧的一件没留"
+    },
+    {
+      "id": "ex-modern-2",
+      "word_id": "modern",
+      "text": "She prefers modern methods.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋里陈设照当下的样式换过一轮，旧的一件没留"
+    },
+    {
+      "id": "ex-modernization-1",
+      "word_id": "modernization",
+      "text": "The modernization took five years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老厂房一间间翻修，机器照新标准换过"
+    },
+    {
+      "id": "ex-modernization-2",
+      "word_id": "modernization",
+      "text": "Farm modernization raised yields.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老厂房一间间翻修，机器照新标准换过"
     }
   ]
 }

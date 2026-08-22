@@ -571,7 +571,10 @@
         "instruction",
         "instrument",
         "instrumental",
-        "structure"
+        "structure",
+        "obstruct",
+        "obstruction",
+        "infrastructure"
       ]
     },
     {
@@ -798,7 +801,9 @@
         "general",
         "generate",
         "generation",
-        "generous"
+        "generous",
+        "generalize",
+        "generator"
       ]
     },
     {
@@ -849,7 +854,9 @@
         "subsequent",
         "suit",
         "suitable",
-        "suite"
+        "suite",
+        "prosecute",
+        "persecute"
       ]
     },
     {
@@ -998,7 +1005,9 @@
         "classic",
         "classical",
         "classification",
-        "classify"
+        "classify",
+        "classmate",
+        "classroom"
       ]
     },
     {
@@ -1091,7 +1100,9 @@
         "assume",
         "consume",
         "presume",
-        "resume"
+        "resume",
+        "assumption",
+        "consumption"
       ]
     },
     {
@@ -1506,7 +1517,9 @@
         "dissolve",
         "resolve",
         "solution",
-        "solve"
+        "solve",
+        "resolution",
+        "resolute"
       ]
     },
     {
@@ -1717,7 +1730,9 @@
         "correlate",
         "relate",
         "relation",
-        "relationship"
+        "relationship",
+        "relative",
+        "relativity"
       ]
     },
     {
@@ -1792,7 +1807,9 @@
         "electric",
         "electrical",
         "electrician",
-        "electricity"
+        "electricity",
+        "electron",
+        "electronic"
       ]
     },
     {
@@ -1849,7 +1866,9 @@
       "word_ids": [
         "attribute",
         "contribute",
-        "distribute"
+        "distribute",
+        "tribute",
+        "contribution"
       ]
     },
     {
@@ -2008,7 +2027,8 @@
       "word_ids": [
         "coordinate",
         "ordinary",
-        "subordinate"
+        "subordinate",
+        "extraordinary"
       ]
     },
     {
@@ -2141,7 +2161,8 @@
       "word_ids": [
         "habit",
         "inhabit",
-        "inhabitant"
+        "inhabitant",
+        "habitat"
       ]
     },
     {
@@ -2155,7 +2176,9 @@
       "word_ids": [
         "appoint",
         "appointment",
-        "point"
+        "point",
+        "punctual",
+        "disappoint"
       ]
     },
     {
@@ -2280,7 +2303,8 @@
       "word_ids": [
         "envisage",
         "invisible",
-        "advisable"
+        "advisable",
+        "evident"
       ]
     },
     {
@@ -2349,7 +2373,8 @@
       "word_ids": [
         "contemporary",
         "temper",
-        "temporary"
+        "temporary",
+        "temperature"
       ]
     },
     {
@@ -2478,7 +2503,9 @@
         "host",
         "hostage",
         "hostess",
-        "hostile"
+        "hostile",
+        "hospital",
+        "hospitality"
       ]
     },
     {
@@ -2649,7 +2676,8 @@
         "strain",
         "strict",
         "restrict",
-        "district"
+        "district",
+        "restraint"
       ]
     },
     {
@@ -2757,7 +2785,9 @@
       "word_ids": [
         "commodity",
         "moderate",
-        "modify"
+        "modify",
+        "modern",
+        "modernization"
       ]
     },
     {
@@ -2785,7 +2815,9 @@
       "word_ids": [
         "incidence",
         "incident",
-        "incidentally"
+        "incidentally",
+        "accident",
+        "accidental"
       ]
     },
     {
@@ -2958,7 +2990,9 @@
       "word_ids": [
         "custom",
         "customary",
-        "customer"
+        "customer",
+        "costume",
+        "accustomed"
       ]
     },
     {
@@ -3063,7 +3097,9 @@
       "word_ids": [
         "presence",
         "present",
-        "presently"
+        "presently",
+        "represent",
+        "representative"
       ]
     },
     {
