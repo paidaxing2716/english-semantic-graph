@@ -26,7 +26,9 @@
       "root": "premere",
       "variants": [
         "press",
-        "pression"
+        "pression",
+        "print",
+        "prim"
       ],
       "origin": "拉丁语 premere（压、按）",
       "core_concept": "to push down or against with force / 施加压力",
@@ -46,6 +48,9 @@
         "impression",
         "impressive",
         "press"
+      ],
+      "noisy_variants": [
+        "prim"
       ]
     },
     {
@@ -80,7 +85,8 @@
       "root": "tract",
       "variants": [
         "tract",
-        "trahere"
+        "trahere",
+        "treat"
       ],
       "origin": "拉丁语 trahere（拉、拖、拽）",
       "core_concept": "to pull or draw / 拉、拖、牵引",
@@ -108,7 +114,8 @@
         "ponere",
         "pose",
         "posit",
-        "pon"
+        "pon",
+        "pound"
       ],
       "origin": "拉丁语 ponere（放置、摆放）",
       "core_concept": "to place or put / 放置、摆放",
@@ -147,7 +154,8 @@
       "variants": [
         "mit",
         "miss",
-        "mitt"
+        "mitt",
+        "mise"
       ],
       "origin": "拉丁语 mittere（送、派遣、发出）",
       "core_concept": "to send / 送、派遣、发出",
@@ -178,7 +186,9 @@
       "variants": [
         "spect",
         "spec",
-        "spic"
+        "spic",
+        "spis",
+        "spise"
       ],
       "origin": "拉丁语 specere（看、观察）",
       "core_concept": "to look, to see / 看、观察",
@@ -237,7 +247,8 @@
       "variants": [
         "duc",
         "duct",
-        "duce"
+        "duce",
+        "duke"
       ],
       "origin": "拉丁语 ducere（引导、带领）",
       "core_concept": "to lead, to guide / 引导、带领",
@@ -294,7 +305,9 @@
       "variants": [
         "sta",
         "stat",
-        "stit"
+        "stit",
+        "sist",
+        "stan"
       ],
       "origin": "拉丁语 stare（站立、立定）",
       "core_concept": "to stand, to be set in place / 站定、立住不动",
@@ -330,7 +343,8 @@
       "variants": [
         "clud",
         "clus",
-        "claus"
+        "claus",
+        "clos"
       ],
       "origin": "拉丁语 claudere（关闭、封住）",
       "core_concept": "to shut, to close off / 关上、封住通路",
@@ -356,7 +370,9 @@
       "variants": [
         "tain",
         "ten",
-        "tin"
+        "tin",
+        "tenu",
+        "tent"
       ],
       "origin": "拉丁语 tenere（握住、持有）",
       "core_concept": "to hold, to keep in grasp / 握住不放",
@@ -381,7 +397,10 @@
       "variants": [
         "fac",
         "fect",
-        "fic"
+        "fic",
+        "fit",
+        "fy",
+        "feit"
       ],
       "origin": "拉丁语 facere（做、造）",
       "core_concept": "to do, to make / 做、造出来",
@@ -417,7 +436,8 @@
         "tendere",
         "tend",
         "tens",
-        "tent"
+        "tent",
+        "tenu"
       ],
       "origin": "拉丁语 tendere（伸展、拉伸）",
       "core_concept": "to stretch, to reach out / 伸展、把自己伸向某处",
@@ -444,7 +464,8 @@
       "variants": [
         "ced",
         "cess",
-        "ceed"
+        "ceed",
+        "cease"
       ],
       "origin": "拉丁语 cedere（行走、让出）",
       "core_concept": "to go, to yield / 往前走，或让出位置",
@@ -1834,8 +1855,9 @@
       "root": "ferre",
       "variants": [
         "fer",
-        "dif",
-        "lat"
+        "lat",
+        "fert",
+        "ference"
       ],
       "origin": "拉丁语 ferre（带、拿去）",
       "core_concept": "to carry, to bear / 拿着走、承受",
@@ -1856,6 +1878,9 @@
         "infer",
         "preferable",
         "reference"
+      ],
+      "noisy_variants": [
+        "lat"
       ]
     },
     {
@@ -2595,7 +2620,10 @@
         "cep",
         "capt",
         "cept",
-        "cap"
+        "cap",
+        "ceive",
+        "cip",
+        "cup"
       ],
       "origin": "拉丁语 capere（抓取、拿住、接收）",
       "core_concept": "to grasp, to take hold and receive / 一把抓住、接过来",
