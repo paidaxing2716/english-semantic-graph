@@ -45165,6 +45165,5114 @@
       "semantic_expansions": [
         "等待/等候：守在它要来的那个口上不动"
       ]
+    },
+    {
+      "id": "awake",
+      "word": "awake",
+      "pos": "adjective / verb",
+      "phonetic": "/əˈweɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 āwacian（醒来）← ā-（起）+ wacan（苏醒）← 原始日耳曼语 *wakan（清醒、活动）",
+      "native_definition": "no longer sleeping, or to stop sleeping",
+      "core_concept": "eyes still open when the whole house is asleep – 整屋子都睡了，只有他眼睛还开着",
+      "core_image": "凌晨三点他还睁着眼，把天花板那道裂缝数了两遍",
+      "chinese": [
+        "醒着的",
+        "唤醒",
+        "醒来"
+      ],
+      "examples": [
+        "I lay awake until the sky turned grey.",
+        "The thunder awoke the whole house."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "醒着的：眼睛开着、没沉下去的那个状态",
+        "唤醒：从外头把这个状态加到别人身上",
+        "醒来：自己从睡里翻上来那一下"
+      ]
+    },
+    {
+      "id": "aware",
+      "word": "aware",
+      "pos": "adjective",
+      "phonetic": "/əˈweə(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 gewær（警觉的）← 原始日耳曼语 *waraz（留心的）",
+      "native_definition": "knowing that something exists or is happening",
+      "core_concept": "the small signal at the edge has already reached you – 边上那点动静已经传到你身上",
+      "core_image": "他背对着门，却先听出脚步停在身后，肩膀跟着一僵",
+      "chinese": [
+        "意识到的",
+        "知道的",
+        "有察觉的"
+      ],
+      "examples": [
+        "She was aware of someone behind her.",
+        "He was not aware of the new rules."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "意识到的：那点动静已经进到心里",
+        "知道的：同一件事在脑子里挂着",
+        "有察觉的：不用回头也接得到边上的信号"
+      ]
+    },
+    {
+      "id": "away",
+      "word": "away",
+      "pos": "adverb",
+      "phonetic": "/əˈweɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 onweg（在路上、离去）← on（在）+ weg（路）",
+      "native_definition": "to or at a distance from a place or person",
+      "core_concept": "the tail lights shrinking down the road – 尾灯顺着路越缩越小的那一段",
+      "core_image": "车尾灯往路那头缩成一个红点，拐个弯就没了",
+      "chinese": [
+        "离开",
+        "在远处",
+        "不在"
+      ],
+      "examples": [
+        "He drove away without saying goodbye.",
+        "The shop is two miles away."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "离开：从这儿往外走的那一下",
+        "在远处：走完之后停在够不着的地方",
+        "不在：该有人的位置空着，人已在别处"
+      ]
+    },
+    {
+      "id": "awe",
+      "word": "awe",
+      "pos": "noun",
+      "phonetic": "/ɔː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 agi（恐惧）← 原始日耳曼语 *agaz（惊惧）",
+      "native_definition": "a feeling of respect mixed with fear or wonder",
+      "core_concept": "standing under something so large the voice dries up – 面前那东西太大，话都吐不出来",
+      "core_image": "站在瀑布底下抬头，水声压得人说不出话，帽子也忘了摘",
+      "chinese": [
+        "敬畏",
+        "畏惧",
+        "惊叹"
+      ],
+      "examples": [
+        "The children stared at the whale in awe.",
+        "Her courage filled us with awe."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "敬畏：抬头看着不敢造次的那种心情",
+        "畏惧：这心情里发凉的那半边",
+        "惊叹：这心情里说不出话的那半边"
+      ]
+    },
+    {
+      "id": "awful",
+      "word": "awful",
+      "pos": "adjective",
+      "phonetic": "/ˈɔːfl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 aweful（充满惊惧），awe（惊惧）+ 古英语 -full（充满）",
+      "native_definition": "extremely bad or unpleasant",
+      "core_concept": "so bad the first mouthful goes straight into the sink – 才碰一下就想整锅端出去倒掉",
+      "core_image": "汤舀起来一股酸味，喝一口就吐进水池，整锅端出去倒了",
+      "chinese": [
+        "糟糕的",
+        "可怕的",
+        "极坏的"
+      ],
+      "examples": [
+        "The weather was awful all weekend.",
+        "That was an awful thing to say."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "糟糕的：一口就吐掉、整锅端走那种程度",
+        "可怕的：坏到让人心里发怵",
+        "极坏的：把这个程度推到顶"
+      ]
+    },
+    {
+      "id": "axe",
+      "word": "axe",
+      "pos": "noun / verb",
+      "phonetic": "/æks/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 æx ← 原始日耳曼语 *akwisī（斧）",
+      "native_definition": "a tool with a heavy blade for chopping wood, or to cut something suddenly",
+      "core_concept": "heavy iron on a handle coming down once and splitting the thing – 沉铁往下一落，东西就分成两半",
+      "core_image": "一块沉铁装在木柄上，举起落下，木头顺着纹裂成两半",
+      "chinese": [
+        "斧头",
+        "砍掉",
+        "裁减"
+      ],
+      "examples": [
+        "He split the logs with an axe.",
+        "The company axed two hundred jobs."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "斧头：木柄上装着的那块沉铁",
+        "砍掉：那一落把整块分开的动作",
+        "裁减：把这一落用在人手和开支上"
+      ]
+    },
+    {
+      "id": "axis",
+      "word": "axis",
+      "pos": "noun",
+      "phonetic": "/ˈæksɪs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 axis（车轴）",
+      "native_definition": "a line through the centre of a turning object, or a fixed line for measuring",
+      "core_concept": "the one line inside a spinning thing that does not move – 转的东西里头唯一不动的那条线",
+      "core_image": "陀螺转得飞快，中间那条看不见的直线纹丝不动",
+      "chinese": [
+        "轴",
+        "轴线",
+        "坐标轴"
+      ],
+      "examples": [
+        "The earth turns on its axis once a day.",
+        "Plot the time along the bottom axis."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "轴：转动时中间不动的那条线",
+        "轴线：把这条线画出来，用它量位置",
+        "坐标轴：图上专门用来读数的那两条"
+      ]
+    },
+    {
+      "id": "baby",
+      "word": "baby",
+      "pos": "noun",
+      "phonetic": "/ˈbeɪbi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 babe（婴孩，拟声 baba）+ -y（爱称后缀）",
+      "native_definition": "a very young child that cannot yet walk or talk",
+      "core_concept": "something so small its whole hand grips one finger – 小到整只手只能攥住一根手指",
+      "core_image": "一团裹在毯子里的小东西，手指攥着大人一根指头不放",
+      "chinese": [
+        "婴儿",
+        "宝贝"
+      ],
+      "examples": [
+        "The baby slept through the whole flight.",
+        "She held the baby against her shoulder."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "婴儿：毯子里那团还不会走的人",
+        "宝贝：把这份护着的小心用在称呼上"
+      ]
+    },
+    {
+      "id": "bachelor",
+      "word": "bachelor",
+      "pos": "noun",
+      "phonetic": "/ˈbætʃələ(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bacheler（年轻人、学徒）← 中世纪拉丁语 baccalarius（更早词源不明）",
+      "native_definition": "a man who has never married, or a first university degree",
+      "core_concept": "one set of bowls on the shelf and one certificate on the wall – 家里只备一人份碗筷，墙上挂着一张证书",
+      "core_image": "屋里只有一副碗筷，钥匙一直插在门上，墙上挂着一张毕业照",
+      "chinese": [
+        "单身男子",
+        "学士"
+      ],
+      "examples": [
+        "He stayed a bachelor all his life.",
+        "She has a bachelor's degree in law."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "单身男子：只备一人份碗筷的那个人",
+        "学士：墙上那张最初拿到的证书"
+      ]
+    },
+    {
+      "id": "back",
+      "word": "back",
+      "pos": "noun / adverb",
+      "phonetic": "/bæk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bæc ← 原始日耳曼语 *bakam（背）",
+      "native_definition": "the rear part of the body or of anything, or towards where something came from",
+      "core_concept": "the side of you that faces where you came from – 冲着来路那一面",
+      "core_image": "他弯腰搬箱子，衬衫在两片肩骨之间绷紧，汗印顺着往下",
+      "chinese": [
+        "背部",
+        "后面",
+        "返回"
+      ],
+      "examples": [
+        "He hurt his back lifting the boxes.",
+        "Put the book back on the shelf."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "背部：肩骨之间那一面身体",
+        "后面：把这一面挪到别的东西上，成了朝后那侧",
+        "返回：朝这一面对着的方向走回去"
+      ]
+    },
+    {
+      "id": "bacon",
+      "word": "bacon",
+      "pos": "noun",
+      "phonetic": "/ˈbeɪkən/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bacon（猪肉）← 法兰克语 *bakko（后腿肉）← 原始日耳曼语 *bakon",
+      "native_definition": "salted or smoked meat from the back or sides of a pig",
+      "core_concept": "thin salted strips curling and spitting fat in a hot pan – 锅里卷起边、噼啪冒油的那几条薄片",
+      "core_image": "铁锅里几条带白纹的薄片卷起边，油噼啪跳，满屋烟熏味",
+      "chinese": [
+        "培根",
+        "咸猪肉"
+      ],
+      "examples": [
+        "She fried bacon and eggs for breakfast.",
+        "The smell of bacon woke everyone up."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "培根：锅里卷边冒油的那几条薄片",
+        "咸猪肉：同一块肉腌过、还没下锅时的叫法"
+      ]
+    },
+    {
+      "id": "bad",
+      "word": "bad",
+      "pos": "adjective",
+      "phonetic": "/bæd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 badde（更早词源不明，或与古英语 bæddel 有关）",
+      "native_definition": "of poor quality, or not what it should be",
+      "core_concept": "opened up and grey inside, so the whole plate goes out – 打开一看里头已经变了，整盘只能倒掉",
+      "core_image": "咬开一个鸡蛋，里头是灰绿的，一股味冲上来，整盘倒进垃圾桶",
+      "chinese": [
+        "坏的",
+        "糟的",
+        "严重的"
+      ],
+      "examples": [
+        "The milk has gone bad in the heat.",
+        "He had a bad day at work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "坏的：里头已经变了、不能再用",
+        "糟的：同一判断放在事情上，进展不如意",
+        "严重的：把这个程度往深处推"
+      ]
+    },
+    {
+      "id": "badge",
+      "word": "badge",
+      "pos": "noun",
+      "phonetic": "/bædʒ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bage（徽记，更早词源不明）",
+      "native_definition": "a small piece of metal or cloth worn to show who you are",
+      "core_concept": "a small metal piece pinned to the chest that says who you are – 胸口别的那小块金属替你说明身份",
+      "core_image": "他掀开外套，胸口别着一小块铜片，上头刻了号码和一只鹰",
+      "chinese": [
+        "徽章",
+        "证章",
+        "标志"
+      ],
+      "examples": [
+        "The officer showed his badge at the door.",
+        "She wore a badge with her name on it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "徽章：胸口别的那小块刻字金属",
+        "证章：同一块用来证明身份和权限",
+        "标志：把这块小东西当成认人的记号"
+      ]
+    },
+    {
+      "id": "badly",
+      "word": "badly",
+      "pos": "adverb",
+      "phonetic": "/ˈbædli/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 badde（坏）+ 古英语 -līce（副词后缀）",
+      "native_definition": "in a poor way, or to a great degree",
+      "core_concept": "done so poorly the thing will not hold still – 钉歪到站不稳的那个程度",
+      "core_image": "桌子腿钉歪了，一按就晃，桌面上的水杯自己滑到边上",
+      "chinese": [
+        "很糟地",
+        "严重地",
+        "非常"
+      ],
+      "examples": [
+        "The chair was badly made and it wobbles.",
+        "He wants that job badly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "很糟地：钉歪了、站不稳那种做法",
+        "严重地：坏到影响整件事",
+        "非常：把程度这一头单拿出来用"
+      ]
+    },
+    {
+      "id": "bag",
+      "word": "bag",
+      "pos": "noun",
+      "phonetic": "/bæɡ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bagga ← 古诺斯语 baggi（包裹）",
+      "native_definition": "a soft container with an open top used for carrying things",
+      "core_concept": "something soft that sags into a round bulge once you fill it – 一装东西底下就坠出个圆鼓的软物",
+      "core_image": "软塌塌一个口子敞开的东西，塞进两个苹果，底下坠出个圆鼓",
+      "chinese": [
+        "袋子",
+        "包",
+        "一袋"
+      ],
+      "examples": [
+        "She put the bread in a paper bag.",
+        "He carried two bags of shopping home."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "袋子：软塌塌、口子敞开的那个容器",
+        "包：同一个东西提在手上、背在肩上",
+        "一袋：用它来量装了多少"
+      ]
+    },
+    {
+      "id": "baggage",
+      "word": "baggage",
+      "pos": "noun",
+      "phonetic": "/ˈbæɡɪdʒ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bagage（随身物件）← baguer（捆扎）",
+      "native_definition": "the cases and bags a traveller carries",
+      "core_concept": "tagged boxes going round on the belt until you pull yours off – 传送带上挂着纸牌转圈、等人拖走的那些方块",
+      "core_image": "传送带上一件件方块转过来，边角都挂着纸牌，他伸手拖下最旧的那个",
+      "chinese": [
+        "行李",
+        "包袱"
+      ],
+      "examples": [
+        "Our baggage did not arrive with the flight.",
+        "He checked his baggage at the desk."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "行李：出门随身带着的那几件方块",
+        "包袱：把这些带着走的重量说成心里的负担"
+      ]
+    },
+    {
+      "id": "bait",
+      "word": "bait",
+      "pos": "noun / verb",
+      "phonetic": "/beɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 beita（使咬）← 原始日耳曼语 *baitan（使咬）",
+      "native_definition": "food put on a hook or in a trap to attract an animal",
+      "core_concept": "the small live thing on the hook that brings the fish out – 钩上那点活物把鱼从石缝里引出来",
+      "core_image": "钩尖上一条虫还在扭，甩进水里，石头缝底下的鱼慢慢凑过来",
+      "chinese": [
+        "饵",
+        "诱饵",
+        "引诱",
+        "激怒"
+      ],
+      "examples": [
+        "He put fresh bait on the hook.",
+        "Do not let him bait you into a fight."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "饵/诱饵：钩上那点会动的活物",
+        "引诱：拿这点活物把对方往这边带",
+        "激怒：把话当成这点活物，专等对方咬钩"
+      ]
+    },
+    {
+      "id": "bake",
+      "word": "bake",
+      "pos": "verb",
+      "phonetic": "/beɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bacan ← 原始日耳曼语 *bakan（烤）",
+      "native_definition": "to cook food in an oven with dry heat",
+      "core_concept": "dry heat inside a closed box turning something soft into a crust – 关起来的干热把软的东西烘出一层壳",
+      "core_image": "炉门关上，面团在里头慢慢发起来，表面结出一层脆壳",
+      "chinese": [
+        "烘烤",
+        "焙",
+        "烤硬"
+      ],
+      "examples": [
+        "She baked a cake for his birthday.",
+        "The sun baked the mud until it cracked."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "烘烤：关在炉里用干热烘的做法",
+        "焙：同一个做法用在粉料和豆子上",
+        "烤硬：干热把软的烘到发脆、发裂"
+      ]
+    },
+    {
+      "id": "balance",
+      "word": "balance",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbæləns/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 balance（天平）← 晚期拉丁语 bilancia ← bi-（二）+ lanx（秤盘）",
+      "native_definition": "an even state where no side is heavier, or the amount left over",
+      "core_concept": "the needle standing dead centre because neither side wins – 指针停在正中，因为两边谁也压不倒谁",
+      "core_image": "两边盘子各压两块砖，中间指针停在正中不动，地上还剩几块没用",
+      "chinese": [
+        "平衡",
+        "均衡",
+        "余额",
+        "保持平衡"
+      ],
+      "examples": [
+        "He lost his balance on the wet step.",
+        "Check the balance in your account."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "平衡/均衡：两边压住、指针停在正中",
+        "余额：一头减完之后剩在盘里的那点",
+        "保持平衡：让指针一直停在正中的那个动作"
+      ]
+    },
+    {
+      "id": "balcony",
+      "word": "balcony",
+      "pos": "noun",
+      "phonetic": "/ˈbælkəni/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "意大利语 balcone（大阳台）← 古意大利语 balco（脚手架）← 日耳曼语 *balkō（横梁）",
+      "native_definition": "a platform that sticks out from an upper wall with a rail round it",
+      "core_concept": "a small floor pushed out from an upper wall with a rail round it – 从高处墙上伸出一小块地面，外圈围着栏",
+      "core_image": "三楼墙上凸出一小块地面，围一圈铁栏，晾着两件衬衫在滴水",
+      "chinese": [
+        "阳台",
+        "露台",
+        "包厢"
+      ],
+      "examples": [
+        "She watered the plants on the balcony.",
+        "We had seats in the upper balcony."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "阳台：楼上墙外伸出的那一小块地面",
+        "露台：同一块伸出去的地面，摆桌椅晒太阳",
+        "包厢：把这块伸出去的地面搬进剧场，悬在观众上头"
+      ]
+    },
+    {
+      "id": "bald",
+      "word": "bald",
+      "pos": "adjective",
+      "phonetic": "/bɔːld/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 balled（更早词源不明，或与凯尔特语 *bal（白斑）有关）",
+      "native_definition": "having little or no hair on the head",
+      "core_concept": "the light bouncing straight off a smooth patch on top – 顶上那块光溜地方直接反着灯",
+      "core_image": "他一低头，正中那块头皮反着灯光，边上还留一圈",
+      "chinese": [
+        "秃的",
+        "光秃的",
+        "磨平的"
+      ],
+      "examples": [
+        "His father went bald in his thirties.",
+        "The front tyres are almost bald."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "秃的：顶上那块反光、不长东西的地方",
+        "光秃的：同一块空落用在山头和树上",
+        "磨平的：轮胎纹路磨到跟那块头皮一样光"
+      ]
+    },
+    {
+      "id": "ball",
+      "word": "ball",
+      "pos": "noun",
+      "phonetic": "/bɔːl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beall ← 原始日耳曼语 *balluz（圆物）",
+      "native_definition": "a round object used in games or thrown and rolled",
+      "core_concept": "round enough to roll off and bounce straight back – 圆到一扔就滚、一碰就弹回来",
+      "core_image": "袜子团成一个圆的，往墙上一扔，弹回来正好落进筐里",
+      "chinese": [
+        "球",
+        "团状物"
+      ],
+      "examples": [
+        "The ball rolled under the parked car.",
+        "She rolled the dough into a ball."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "球：圆的、能滚能弹的那个东西",
+        "团状物：把别的东西搓成同样圆的一坨"
+      ]
+    },
+    {
+      "id": "ballet",
+      "word": "ballet",
+      "pos": "noun",
+      "phonetic": "/ˈbæleɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 ballet ← 意大利语 balletto（小舞）← 晚期拉丁语 ballare（跳舞）",
+      "native_definition": "a form of dancing on the tips of the toes telling a story",
+      "core_concept": "the whole body carried on the very tips of the toes – 整个人的重量压在脚尖那一点上",
+      "core_image": "她只用脚尖点地，连转三圈，白裙撑成一个圆，台下没人出声",
+      "chinese": [
+        "芭蕾",
+        "芭蕾舞剧"
+      ],
+      "examples": [
+        "She trained in ballet from the age of six.",
+        "We saw a ballet at the old theatre."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "芭蕾：只用脚尖点地、转起来裙子撑圆的那种跳法",
+        "芭蕾舞剧：用这种跳法整场演下来的一个故事"
+      ]
+    },
+    {
+      "id": "balloon",
+      "word": "balloon",
+      "pos": "noun / verb",
+      "phonetic": "/bəˈluːn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 ballon ← 意大利语 ballone（大球）← 日耳曼语 *balla（圆物）",
+      "native_definition": "a thin rubber bag that swells when filled with air or gas",
+      "core_concept": "thin skin swelling until it lifts off your hand – 薄皮越吹越大，撑到能自己浮起来",
+      "core_image": "一层薄皮往里吹气，越吹越圆，手一松就贴着天花板不下来",
+      "chinese": [
+        "气球",
+        "热气球",
+        "膨胀"
+      ],
+      "examples": [
+        "The children tied balloons to the gate.",
+        "Costs ballooned in the second year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "气球：吹起来会浮的那层薄皮",
+        "热气球：底下吊着筐、把人一起带上去的大号",
+        "膨胀：把越吹越大这一点用在数字和开销上"
+      ]
+    },
+    {
+      "id": "ballot",
+      "word": "ballot",
+      "pos": "noun",
+      "phonetic": "/ˈbælət/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "意大利语 ballotta（投票用的小球）← balla（球）← 日耳曼语 *balla（圆物）",
+      "native_definition": "a piece of paper or a system used for voting in secret",
+      "core_concept": "the folded paper going into a slot so no one sees whose it is – 折起来塞进窄缝，谁写的看不出来",
+      "core_image": "一张纸折两下塞进铁箱的窄缝，谁投的没人看见，箱子晚上才开",
+      "chinese": [
+        "选票",
+        "无记名投票",
+        "投票"
+      ],
+      "examples": [
+        "He dropped his ballot into the box.",
+        "The union held a ballot on the strike."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "选票：折起来塞进箱子那张纸",
+        "无记名投票：靠这张纸让人看不出是谁投的那套办法",
+        "投票：用这套办法定事的那个动作"
+      ]
+    },
+    {
+      "id": "ban",
+      "word": "ban",
+      "pos": "noun / verb",
+      "phonetic": "/bæn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bannan（传唤、公告）← 原始日耳曼语 *bannan（宣告）",
+      "native_definition": "to officially say something is not allowed, or such an order",
+      "core_concept": "the stamped paper on the gate that shuts the way for everyone – 门上那张盖章的纸把路对所有人关上",
+      "core_image": "院门上贴一张盖了章的纸，从这天起谁的车都不许再停进来",
+      "chinese": [
+        "禁止",
+        "禁令"
+      ],
+      "examples": [
+        "The city banned cars from the old centre.",
+        "There is a ban on smoking indoors."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "禁止：贴出那张纸、把路关上的动作",
+        "禁令：贴在门上的那张纸本身"
+      ]
+    },
+    {
+      "id": "banana",
+      "word": "banana",
+      "pos": "noun",
+      "phonetic": "/bəˈnɑːnə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "西班牙语／葡萄牙语 banana ← 西非曼丁哥语 banaana",
+      "native_definition": "a long curved yellow fruit with a soft inside",
+      "core_concept": "peel it and the skin hangs down in three strips – 一撕开，皮就分成几条挂在手上",
+      "core_image": "一根弯的黄东西，捏住头一撕，皮分成三条挂下来，里头是软白的",
+      "chinese": [
+        "香蕉"
+      ],
+      "examples": [
+        "He ate a banana before the race.",
+        "The monkeys took every banana on the tree."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "band",
+      "word": "band",
+      "pos": "noun",
+      "phonetic": "/bænd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bande（带子）← 日耳曼语 *bindan（绑）；另古诺斯语 band（束）",
+      "native_definition": "a flat strip that goes round something, or a group of people playing together",
+      "core_concept": "several separate things pulled into one by something round them – 外头一圈把散的几样收成一件",
+      "core_image": "一圈橡皮筋勒住一叠信；台上五个人挤在一处，鼓和号排成一排",
+      "chinese": [
+        "带子",
+        "乐队",
+        "一群",
+        "箍住"
+      ],
+      "examples": [
+        "She tied her hair with a rubber band.",
+        "The band played until midnight."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "带子：绕在外头把东西箍住的那条扁的",
+        "箍住：用这条扁的把散件收紧的动作",
+        "乐队：几个人被同一段曲子箍成一伙",
+        "一群：同样是几个人聚成一撮"
+      ]
+    },
+    {
+      "id": "bandage",
+      "word": "bandage",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbændɪdʒ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 bandage ← bande（带子）← 日耳曼语 *bindan（绑）",
+      "native_definition": "a strip of cloth wrapped round a wound",
+      "core_concept": "white cloth going round and round until the end tucks under – 白布一圈圈绕上去，末端压进底下",
+      "core_image": "白布一圈圈缠在手腕上，末端塞进底下压住，血慢慢洇出一小片",
+      "chinese": [
+        "绷带",
+        "包扎"
+      ],
+      "examples": [
+        "The nurse put a bandage on his knee.",
+        "She bandaged the cut and taped it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "绷带：缠在伤口上那条白布",
+        "包扎：把这条白布一圈圈绕上去的动作"
+      ]
+    },
+    {
+      "id": "bang",
+      "word": "bang",
+      "pos": "noun / verb",
+      "phonetic": "/bæŋ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 bang（敲打，拟声）",
+      "native_definition": "a sudden loud noise, or to hit something hard",
+      "core_concept": "the flat sound of iron meeting iron and rolling down the stairwell – 铁碰铁那一下闷响，在楼道里滚开",
+      "core_image": "楼下铁门被风摔上，一声闷响在楼道里滚了两圈，沙发底下的猫窜出来",
+      "chinese": [
+        "砰的一声",
+        "猛撞",
+        "猛敲"
+      ],
+      "examples": [
+        "The door shut with a loud bang.",
+        "He banged his knee on the table."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "砰的一声：铁门摔上那一下闷响",
+        "猛撞：发出这一下响的那个碰法",
+        "猛敲：一下下敲出同样的响"
+      ]
+    },
+    {
+      "id": "bank",
+      "word": "bank",
+      "pos": "noun",
+      "phonetic": "/bæŋk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "意大利语 banca（钱台、长凳）← 日耳曼语 *bankiz（长凳）；同源另指土埂",
+      "native_definition": "a place that keeps and lends money, or the raised ground beside a river",
+      "core_concept": "one long raised strip laid across, keeping the two sides apart – 横着高起的一条把两边隔开",
+      "core_image": "一条长台横在屋子中间，台面这边坐着人，那边隔着玻璃递钱进来",
+      "chinese": [
+        "银行",
+        "岸",
+        "堤"
+      ],
+      "examples": [
+        "She put the money in the bank.",
+        "We sat on the river bank and ate."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "银行：屋里那条横着的长台，隔着它办钱",
+        "岸：水边高起来的那条土埂，把水和地隔开",
+        "堤：同一条土埂特意堆高，用来挡水"
+      ]
+    },
+    {
+      "id": "banner",
+      "word": "banner",
+      "pos": "noun",
+      "phonetic": "/ˈbænə(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 baniere（旗）← 晚期拉丁语 bandum（旗）← 日耳曼语 *bandwa（记号）",
+      "native_definition": "a long piece of cloth with words on it, hung up or carried",
+      "core_concept": "cloth stretched between two poles so the words read from far off – 布在两竿之间扯平，字远远就认得出",
+      "core_image": "两根竿之间扯开一长条布，风一吹绷平，上头的大字从街这头就看得清",
+      "chinese": [
+        "横幅",
+        "旗帜",
+        "标语"
+      ],
+      "examples": [
+        "They carried a banner through the streets.",
+        "A banner hung above the school gate."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "横幅：扯在两竿之间那条写字的长布",
+        "旗帜：同一块布只系一头，挂高了迎风",
+        "标语：布上那几个远远就能读到的大字"
+      ]
+    },
+    {
+      "id": "banquet",
+      "word": "banquet",
+      "pos": "noun",
+      "phonetic": "/ˈbæŋkwɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 banquet（小凳上的宴）← 意大利语 banchetto ← banco（长凳）← 日耳曼语 *bankiz",
+      "native_definition": "a large formal meal for many people",
+      "core_concept": "one table long enough that fifty sets of cutlery sound at once – 桌子长到五十副刀叉同时响",
+      "core_image": "一张长桌铺到墙根，五十副刀叉同时响，菜一道接一道端上来没停过",
+      "chinese": [
+        "宴会",
+        "盛宴",
+        "正式晚餐"
+      ],
+      "examples": [
+        "The city held a banquet for the team.",
+        "We were seated at the banquet table."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "宴会：长桌上一道接一道摆开的那场饭",
+        "盛宴：同一场饭，菜多到摆不下",
+        "正式晚餐：这场饭有座次、有规矩的那一面"
+      ]
+    },
+    {
+      "id": "bar",
+      "word": "bar",
+      "pos": "noun / verb",
+      "phonetic": "/bɑː(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 barre（横木，更早词源不明）",
+      "native_definition": "a long piece of metal or wood, a counter serving drinks, or to block a way",
+      "core_concept": "one long straight piece laid across so nothing gets past – 一条长的横过去，谁也过不去",
+      "core_image": "一根铁棍横在门后卡进凹槽，门推不开、另一头长台上摆满杯子",
+      "chinese": [
+        "横条",
+        "酒吧",
+        "阻挡",
+        "栏"
+      ],
+      "examples": [
+        "He slid the iron bar across the door.",
+        "They met in a bar near the station."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "横条：又长又直的那一根铁或木",
+        "阻挡：把这一根横过去、路就断了",
+        "酒吧：屋里那条长台横在中间，隔着它递酒",
+        "栏：一排这样的横条并起来，围成界"
+      ]
+    },
+    {
+      "id": "barbecue",
+      "word": "barbecue",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbɑːbɪkjuː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "西班牙语 barbacoa ← 泰诺语 barbakoa（架肉的木架）",
+      "native_definition": "a metal frame for cooking meat over a fire, or a meal cooked this way",
+      "core_concept": "a frame over red coals, fat dripping straight into the fire – 铁网架在红炭上，油顺着往下滴进火里",
+      "core_image": "院里架起铁网，底下炭烧得通红，肉一放上去就滴油冒烟，邻居端着盘子过来",
+      "chinese": [
+        "烧烤",
+        "烤肉架",
+        "烤肉聚会"
+      ],
+      "examples": [
+        "We had a barbecue in the garden.",
+        "He barbecued chicken for the whole street."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "烤肉架：架在炭火上的那副铁网",
+        "烧烤：在这副铁网上把肉弄熟的做法",
+        "烤肉聚会：一院子人围着这副铁网吃的那场"
+      ]
+    },
+    {
+      "id": "barber",
+      "word": "barber",
+      "pos": "noun",
+      "phonetic": "/ˈbɑːbə(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 barbeor（剃须匠）← 拉丁语 barba（胡须）",
+      "native_definition": "a person whose job is cutting men's hair",
+      "core_concept": "scissors clicking behind the ear while the floor fills with cuttings – 剪子在耳后响，地上落满碎的",
+      "core_image": "他围一块布坐下，剪子在耳后咔咔响，碎发落了一地，镜子里越来越短",
+      "chinese": [
+        "理发师",
+        "理发店"
+      ],
+      "examples": [
+        "The barber cut his hair too short.",
+        "He goes to the barber every month."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "理发师：拿剪子在耳后动手的那个人",
+        "理发店：他干活的那间铺子，摆着转椅和镜子"
+      ]
+    },
+    {
+      "id": "bare",
+      "word": "bare",
+      "pos": "adjective / verb",
+      "phonetic": "/beə(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bær（赤裸的）← 原始日耳曼语 *bazaz（裸）",
+      "native_definition": "not covered by clothes or by anything else",
+      "core_concept": "nothing left on top, so you see straight down to the thing itself – 上头什么都没盖，直接见到底",
+      "core_image": "他脱了鞋踩在冷地砖上，屋里就一张床，墙上钉子还留着，画早取走了",
+      "chinese": [
+        "赤裸的",
+        "光秃的",
+        "仅有的",
+        "露出"
+      ],
+      "examples": [
+        "She walked on the cold floor in bare feet.",
+        "The room was bare except for a bed."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "赤裸的：衣服脱掉、皮肤直接露着",
+        "露出：把盖着的东西拿开这个动作",
+        "光秃的：地面墙面什么都不盖，空着",
+        "仅有的：东西减到只剩底下这一点"
+      ]
+    },
+    {
+      "id": "barely",
+      "word": "barely",
+      "pos": "adverb",
+      "phonetic": "/ˈbeəli/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bærlīce（赤裸地）← bær（裸）+ -līce（副词后缀）",
+      "native_definition": "only just, or by a very small amount",
+      "core_concept": "touching it with the fingertips only, one inch from failing – 只用指尖够到，再差一点就够不着",
+      "core_image": "他指尖搭上门框顶端，脚跟离地那么一点，再矮一寸就够不着",
+      "chinese": [
+        "几乎不",
+        "仅仅",
+        "勉强"
+      ],
+      "examples": [
+        "He barely reached the top shelf.",
+        "She could barely hear him over the noise."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "勉强：踮到脚跟离地才够着的那种程度",
+        "仅仅：只剩这么一点、多的没有",
+        "几乎不：差一点就完全不成立"
+      ]
+    },
+    {
+      "id": "bargain",
+      "word": "bargain",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbɑːɡən/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bargaignier（讨价还价，更早词源不明）",
+      "native_definition": "something bought cheaply, or to argue over a price",
+      "core_concept": "two numbers walking towards each other until both hands let go – 两个数字往中间走，直到双方都松手",
+      "core_image": "摊主报三十，他伸两根手指来回挪了几趟，最后停在二十五，钱货当场换手",
+      "chinese": [
+        "便宜货",
+        "交易",
+        "讨价还价"
+      ],
+      "examples": [
+        "We got the sofa at a real bargain.",
+        "They bargained over the price for an hour."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "讨价还价：两边报的数字来回挪的那个过程",
+        "交易：数字碰上、当场换手的那一下",
+        "便宜货：挪完之后落在低处、你占了便宜的那件"
+      ]
+    },
+    {
+      "id": "bark",
+      "word": "bark",
+      "pos": "noun / verb",
+      "phonetic": "/bɑːk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beorcan（吠）← 原始日耳曼语 *berkan；另古诺斯语 bǫrkr（树的外层）",
+      "native_definition": "the short hard sound a dog makes, or the hard outer layer of a tree",
+      "core_concept": "the short hard thing on the outside – 长在外面那一层又短又硬的东西",
+      "core_image": "狗在铁门后猛叫两声，又短又硬，像手掌拍在干树干那层粗壳上",
+      "chinese": [
+        "吠叫",
+        "树皮",
+        "厉声说"
+      ],
+      "examples": [
+        "The dog barked at every passing car.",
+        "He stripped the bark off the branch."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "吠叫：短而硬、一下就断的那种声",
+        "厉声说：人把话说成同样短硬的一下",
+        "树皮：树干外面那层硬壳"
+      ]
+    },
+    {
+      "id": "barn",
+      "word": "barn",
+      "pos": "noun",
+      "phonetic": "/bɑːn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bereærn（大麦屋）← bere（大麦）+ ærn（屋）",
+      "native_definition": "a large farm building for crops or animals",
+      "core_concept": "one high wooden room holding the whole harvest and the animals too – 一间高顶木屋，收成和牲口都装在里头",
+      "core_image": "推开木门一股干草味，屋顶很高，一半堆到梁上，角落里牛在慢慢嚼",
+      "chinese": [
+        "谷仓",
+        "牲口棚"
+      ],
+      "examples": [
+        "They stored the hay in the barn.",
+        "The cows sleep in the barn all winter."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "谷仓：高顶木屋里堆收成的那一半用法",
+        "牲口棚：同一间屋子腾出来关牲口"
+      ]
+    },
+    {
+      "id": "barrel",
+      "word": "barrel",
+      "pos": "noun",
+      "phonetic": "/ˈbærəl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 baril（小桶，更早词源不明）",
+      "native_definition": "a round container made of curved wooden boards, wide in the middle",
+      "core_concept": "boards bent into a round belly with iron rings holding them shut – 木板弯成一个鼓肚，铁圈把两头勒住",
+      "core_image": "一片片木板箍成圆的，中间鼓出来，铁圈勒住两头，横着一推咕噜噜滚",
+      "chinese": [
+        "桶",
+        "一桶",
+        "枪管"
+      ],
+      "examples": [
+        "The wine sat in oak barrels for years.",
+        "They rolled the barrel down the ramp."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "桶：木板箍成、中间鼓起的那个容器",
+        "一桶：用它来量装了多少",
+        "枪管：把这个圆筒的形状借去说枪上那根管"
+      ]
+    },
+    {
+      "id": "barren",
+      "word": "barren",
+      "pos": "adjective",
+      "phonetic": "/ˈbærən/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 baraine（不育的，更早词源不明）",
+      "native_definition": "not able to produce crops or young",
+      "core_concept": "turned over three times and still nothing comes up – 翻了三遍，底下还是什么都不出来",
+      "core_image": "那片地翻了三遍，撒下去的什么都没冒头，风一过只扬起沙",
+      "chinese": [
+        "贫瘠的",
+        "不育的",
+        "无成果的"
+      ],
+      "examples": [
+        "Nothing grows on that barren hillside.",
+        "The talks were long and barren."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "贫瘠的：翻过也长不出东西的那片地",
+        "不育的：同样空落用在人和牲口身上",
+        "无成果的：谈了半天，什么也没出来"
+      ]
+    },
+    {
+      "id": "barrier",
+      "word": "barrier",
+      "pos": "noun",
+      "phonetic": "/ˈbæriə(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 barriere（栅栏）← barre（横木）",
+      "native_definition": "something that stops people or things getting past",
+      "core_concept": "something set across the middle so the two sides stay apart – 横在中间，把两边隔开",
+      "core_image": "路口拉起一排红白铁架，车头顶到跟前只能停住，人从边上绕",
+      "chinese": [
+        "屏障",
+        "障碍",
+        "栅栏"
+      ],
+      "examples": [
+        "Police put a barrier across the road.",
+        "Language is still a barrier for him."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "栅栏：横在路上那排铁架",
+        "屏障：同一道横着的东西，把两边彻底隔开",
+        "障碍：这道东西挡在事情中间，过不去"
+      ]
+    },
+    {
+      "id": "basin",
+      "word": "basin",
+      "pos": "noun",
+      "phonetic": "/ˈbeɪsn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bacin ← 晚期拉丁语 bacchinon（水器，更早词源不明）",
+      "native_definition": "an open round container for water, or a low area of land",
+      "core_concept": "round and hollowed out, so whatever runs in gathers at the bottom – 圆的、中间凹下去，进来的水都往底下聚",
+      "core_image": "一个敞口的圆器接在龙头底下，水一圈圈打转，边上留着一道水印",
+      "chinese": [
+        "盆",
+        "脸盆",
+        "流域",
+        "凹地"
+      ],
+      "examples": [
+        "She filled the basin with warm water.",
+        "The whole river basin floods each spring."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "盆/脸盆：圆的、中间凹下去那个接水的器",
+        "流域：地上那片凹下去的，四面水都往里汇",
+        "凹地：同一片凹陷不谈水，只说地形"
+      ]
+    },
+    {
+      "id": "basket",
+      "word": "basket",
+      "pos": "noun",
+      "phonetic": "/ˈbɑːskɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 basquet（更早词源不明，或与凯尔特语 bascauda 有关）",
+      "native_definition": "a container woven from thin strips, usually with a handle",
+      "core_concept": "thin strips crossed over each other until they hold weight – 细条互相压着编起来，就能兜住重的东西",
+      "core_image": "细柳条一根压一根编成兜状，上头留个提梁，装满鸡蛋也不塌",
+      "chinese": [
+        "篮子",
+        "一篮",
+        "球篮"
+      ],
+      "examples": [
+        "She carried eggs in a straw basket.",
+        "He threw the ball into the basket."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "篮子：细条编成、上头带提梁那个容器",
+        "一篮：用它来量装了多少",
+        "球篮：把这个编成的兜挂高，专等球落进去"
+      ]
+    },
+    {
+      "id": "bat",
+      "word": "bat",
+      "pos": "noun / verb",
+      "phonetic": "/bæt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 batt（棍棒）；另中古英语 bakke ← 古诺斯语（夜里飞的小兽）",
+      "native_definition": "a shaped wooden stick for hitting a ball, or a small animal that flies at night",
+      "core_concept": "something narrow cutting through the air in one quick swipe – 一根窄的东西唰一下划过空气",
+      "core_image": "手里一根削好的木棍使劲抡过去，空气啪一声，天黑了梁上有东西也这么掠过",
+      "chinese": [
+        "球棒",
+        "蝙蝠",
+        "击球"
+      ],
+      "examples": [
+        "He swung the bat and missed the ball.",
+        "A bat flew out of the old barn."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "球棒：手里抡出去的那根削好的木棍",
+        "击球：用它抡出去打中球的动作",
+        "蝙蝠：天黑后同样唰一下掠过的那只小兽"
+      ]
+    },
+    {
+      "id": "batch",
+      "word": "batch",
+      "pos": "noun",
+      "phonetic": "/bætʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bacce ← bacan（烤）← 原始日耳曼语 *bakan",
+      "native_definition": "a number of things made or dealt with at the same time",
+      "core_concept": "everything that went into the oven together and came out together – 一起进炉、一起出来的那一盘",
+      "core_image": "烤盘一次推进炉子，十二个面包同时熟，端出来颜色深浅都一个样",
+      "chinese": [
+        "一批",
+        "一炉",
+        "成批"
+      ],
+      "examples": [
+        "She baked a second batch of buns.",
+        "We test each batch before shipping."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "一炉：一次推进炉里同时熟的那一盘",
+        "一批：同一次做出来、算作一份的那些",
+        "成批：按这种一次一份的方式处理"
+      ]
+    },
+    {
+      "id": "bath",
+      "word": "bath",
+      "pos": "noun",
+      "phonetic": "/bɑːθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bæþ ← 原始日耳曼语 *baþaz（浸洗）",
+      "native_definition": "the act of washing the whole body in water, or the tub for it",
+      "core_concept": "the whole body going down into hot water until only the shoulders show – 整个人沉进热水，只剩肩露在外头",
+      "core_image": "一只白瓷长槽放满热水，人整个沉进去只露出肩，镜子很快起了雾",
+      "chinese": [
+        "洗澡",
+        "浴缸",
+        "沐浴"
+      ],
+      "examples": [
+        "She ran a hot bath after work.",
+        "The children take a bath before bed."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "洗澡：整个人沉进水里洗的那一次",
+        "浴缸：装这些热水的那只长槽",
+        "沐浴：同一件事说得正式些"
+      ]
+    },
+    {
+      "id": "bathe",
+      "word": "bathe",
+      "pos": "verb",
+      "phonetic": "/beɪð/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 baþian ← bæþ（浸洗）← 原始日耳曼语 *baþaz",
+      "native_definition": "to wash or soak something in liquid",
+      "core_concept": "holding a thing down in liquid long enough to soak right through – 按在水里泡够久，里外都湿透",
+      "core_image": "他把擦伤的手按进温盐水里，一直泡着不动，血丝在水里散开",
+      "chinese": [
+        "浸洗",
+        "浸泡",
+        "沐浴"
+      ],
+      "examples": [
+        "She bathed the cut in warm salt water.",
+        "They bathed in the river at dawn."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "浸洗：按进水里、就着水洗的那个动作",
+        "浸泡：不搓也不洗，只让它一直泡着",
+        "沐浴：把整个人这样泡进水里"
+      ]
+    },
+    {
+      "id": "bathroom",
+      "word": "bathroom",
+      "pos": "noun",
+      "phonetic": "/ˈbɑːθruːm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "现代英语 bath（浸洗）+ room（房间）的合成",
+      "native_definition": "a room with a bath or shower, usually with a toilet",
+      "core_concept": "the one tiled room where the mirror always fogs up – 一屋子瓷砖，镜子老是蒙雾的那间",
+      "core_image": "推门进去一地瓷砖，镜子蒙着雾，龙头还在滴，门后挂着毛巾",
+      "chinese": [
+        "浴室",
+        "卫生间",
+        "洗手间"
+      ],
+      "examples": [
+        "The bathroom is at the end of the hall.",
+        "He locked the bathroom door."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "浴室：瓷砖地面、能冲洗身子的那间",
+        "卫生间：同一间屋子里还装着马桶",
+        "洗手间：把这间屋子说得客气些"
+      ]
+    },
+    {
+      "id": "bay",
+      "word": "bay",
+      "pos": "noun",
+      "phonetic": "/beɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 baie（海湾）← 晚期拉丁语 baia（更早词源不明）",
+      "native_definition": "a part of the sea with land curving round it, or a marked-off space",
+      "core_concept": "land curving round until the water inside goes quiet – 陆地弯过来一圈，里头的水就静了",
+      "core_image": "陆地朝里弯出一个大口子，浪进来就平了，几条船挨着岸停着不晃",
+      "chinese": [
+        "海湾",
+        "湾",
+        "隔间"
+      ],
+      "examples": [
+        "The boats lay still in the sheltered bay.",
+        "Park the van in the loading bay."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "海湾/湾：陆地弯出来、水在里头变平的那片",
+        "隔间：同样一个凹进去的口子，划在墙上或场地里"
+      ]
+    },
+    {
+      "id": "beach",
+      "word": "beach",
+      "pos": "noun",
+      "phonetic": "/biːtʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "近代英语 beach（卵石滩，更早词源不明）",
+      "native_definition": "the strip of sand or stones at the edge of the sea",
+      "core_concept": "hot loose ground that turns dark and wet a few steps on – 松软发烫的地面，往前几步就变深变湿",
+      "core_image": "脱了鞋踩进烫脚的沙，往前几步沙色变深、湿了一条线，浪就到脚踝",
+      "chinese": [
+        "海滩",
+        "沙滩",
+        "岸边"
+      ],
+      "examples": [
+        "We walked along the beach at sunset.",
+        "The boat was pulled up onto the beach."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "沙滩：踩上去松软发烫的那片沙",
+        "海滩：这片沙连着水的那一整条",
+        "岸边：水和地交界的那一条，不限沙石"
+      ]
+    },
+    {
+      "id": "beam",
+      "word": "beam",
+      "pos": "noun / verb",
+      "phonetic": "/biːm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bēam（树、木料）← 原始日耳曼语 *baumaz（树）",
+      "native_definition": "a long thick piece of wood or metal that carries weight, or a line of light",
+      "core_concept": "one long straight thing running from side to side – 又长又直的一条，从这边通到那边",
+      "core_image": "屋顶底下横过一根粗木，两头压在墙上；手电从门缝射出笔直一条，里头浮着灰",
+      "chinese": [
+        "横梁",
+        "光束",
+        "发出笑容"
+      ],
+      "examples": [
+        "A thick oak beam held up the roof.",
+        "Her face beamed when she saw us."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "横梁：横在两墙之间、担着重量的那根粗木",
+        "光束：光走成同样笔直的一条",
+        "发出笑容：脸上那点亮像这条光一样透出来"
+      ]
+    },
+    {
+      "id": "bean",
+      "word": "bean",
+      "pos": "noun",
+      "phonetic": "/biːn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bēan（豆）← 原始日耳曼语 *bauno（豆类作物）",
+      "native_definition": "a seed eaten as a vegetable, growing inside a long pod",
+      "core_concept": "a plump seed sitting in a row inside a pod – 长壳里排成一列的饱满籽粒",
+      "core_image": "剥开长长的绿壳，里面躺着一排圆滚滚的小颗，滚到桌上还会弹",
+      "chinese": [
+        "豆"
+      ],
+      "examples": [
+        "She soaked the beans overnight in water.",
+        "He picked beans from the garden fence."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "bear",
+      "word": "bear",
+      "pos": "verb",
+      "phonetic": "/beə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beran（搬运、承受）← 原始日耳曼语 *beranan（扛起来带走）",
+      "native_definition": "to carry or hold up a weight, or to put up with something hard",
+      "core_concept": "holding a load up and moving on with it – 把重量担在身上继续往前",
+      "core_image": "扁担压在肩上，绳子勒进肉里，他一步一步往前挪，半路不敢放下",
+      "chinese": [
+        "承受",
+        "忍受",
+        "携带",
+        "生育"
+      ],
+      "examples": [
+        "The ice will not bear your weight.",
+        "She bore the pain without a sound."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "承受/忍受：压着也不撒手，一直担着",
+        "携带：把东西担在身上带走",
+        "生育：把新的一条命在体内担着，直到落地"
+      ]
+    },
+    {
+      "id": "beard",
+      "word": "beard",
+      "pos": "noun",
+      "phonetic": "/bɪəd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beard（须）← 原始日耳曼语 *bardaz（下巴上的毛）",
+      "native_definition": "the hair that grows on a man's chin and cheeks",
+      "core_concept": "the hair a man lets grow on his chin – 男人下巴上蓄起来的那片毛",
+      "core_image": "他下巴上一片灰白的毛，刮了三天又扎手，喝汤会沾上油",
+      "chinese": [
+        "胡须"
+      ],
+      "examples": [
+        "He trimmed his beard before the wedding.",
+        "A long white beard hid his mouth."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "bearing",
+      "word": "bearing",
+      "pos": "noun",
+      "phonetic": "/ˈbeərɪŋ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bearing ← 古英语 beran（承载）+ -ing（动作及其结果）",
+      "native_definition": "the way someone holds themselves, or the direction of one point from another",
+      "core_concept": "how a thing carries itself or points – 一件东西自己撑住的姿态，或它指出的方向",
+      "core_image": "他进门时背挺得笔直，手不乱动；船长低头看罗盘，读出岸的角度",
+      "chinese": [
+        "举止",
+        "方位",
+        "关联",
+        "轴承"
+      ],
+      "examples": [
+        "Her calm bearing impressed the whole room.",
+        "Take a bearing on that lighthouse now."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "举止：人把自己撑成的那副样子",
+        "方位：从定点量出来的指向",
+        "关联：一件事对另一件事的着力处",
+        "轴承：托着轴、让它转得动的那圈零件"
+      ]
+    },
+    {
+      "id": "beast",
+      "word": "beast",
+      "pos": "noun",
+      "phonetic": "/biːst/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 beste（走兽）← 拉丁语 bestia（野兽）",
+      "native_definition": "a large four-legged animal, or a person who acts cruelly",
+      "core_concept": "a big animal driven by force, not reason – 靠蛮力行事的大型走兽",
+      "core_image": "笼子里有东西在暗处踱步，喉咙深处滚出低吼，铁栏被撞得响",
+      "chinese": [
+        "野兽",
+        "牲畜",
+        "残暴的人"
+      ],
+      "examples": [
+        "Wild beasts roamed the forest at night.",
+        "He fought like a wounded animal."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "野兽：林中靠爪牙活着的大型动物",
+        "牲畜：人圈养的四足大动物",
+        "残暴的人：行事像走兽一样不讲理的人"
+      ]
+    },
+    {
+      "id": "beat",
+      "word": "beat",
+      "pos": "verb / noun",
+      "phonetic": "/biːt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bēatan（打）← 原始日耳曼语 *bautan（击打）",
+      "native_definition": "to hit again and again, or to win against someone",
+      "core_concept": "landing blow after blow in a steady run – 一下接一下，有规律地落下去",
+      "core_image": "鼓面被一下一下敲着，屋里的杯子跟着颤，手腕落点始终不乱",
+      "chinese": [
+        "打",
+        "击败",
+        "跳动",
+        "节拍"
+      ],
+      "examples": [
+        "Rain beat against the window all night.",
+        "Our team beat them by two goals."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "打：一下下落在东西上",
+        "击败：把对手一下下压下去",
+        "跳动：心口一下下地顶",
+        "节拍：落点之间那个固定的间隔"
+      ]
+    },
+    {
+      "id": "beauty",
+      "word": "beauty",
+      "pos": "noun",
+      "phonetic": "/ˈbjuːti/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 beaute（好看）← 拉丁语 bellus（俏、悦目）",
+      "native_definition": "the quality of being very pleasing to look at",
+      "core_concept": "what makes people go quiet and look – 让人停下来只想多看一眼的那种好",
+      "core_image": "照片洗出来那一刻满桌人都静了，谁也说不出哪一处特别好",
+      "chinese": [
+        "美",
+        "美貌",
+        "美人",
+        "优点"
+      ],
+      "examples": [
+        "The beauty of the lake stopped her.",
+        "She was a great beauty in youth."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "美：看着就让人舒服的那份好",
+        "美貌：长相上的这份好",
+        "美人：身上带着这份好的那个人",
+        "优点：一件事里最耐看的那处长处"
+      ]
+    },
+    {
+      "id": "because",
+      "word": "because",
+      "pos": "conjunction",
+      "phonetic": "/bɪˈkɒz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bi cause（由于此因）← 古英语 be（凭）+ 古法语 cause（缘由）",
+      "native_definition": "for the reason that",
+      "core_concept": "pointing back to the thing that made it happen – 指回让这件事发生的那个由头",
+      "core_image": "地上一路水迹通到打翻的水桶，不用问也知道是谁弄湿了地板",
+      "chinese": [
+        "因为"
+      ],
+      "examples": [
+        "We stayed home because the road flooded.",
+        "He left early because his train was late."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "become",
+      "word": "become",
+      "pos": "verb",
+      "phonetic": "/bɪˈkʌm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 becuman（到来、变成）← be-（加强）+ cuman（来）",
+      "native_definition": "to change into something, or to start being something",
+      "core_concept": "crossing over into being something else – 一路走到另一种样子里去",
+      "core_image": "水洼里那团黑点长出腿，尾巴一天短一截，后来蹲在石头上鼓着腮",
+      "chinese": [
+        "成为",
+        "变得"
+      ],
+      "examples": [
+        "He became a teacher after the war.",
+        "The sky became dark within minutes."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "成为：从一种身份跨进另一种",
+        "变得：整个状态挪到另一头去"
+      ]
+    },
+    {
+      "id": "bed",
+      "word": "bed",
+      "pos": "noun",
+      "phonetic": "/bed/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bedd（卧处、苗床）← 原始日耳曼语 *badja（挖出来的睡处）",
+      "native_definition": "a piece of furniture for sleeping on, or the flat bottom of something",
+      "core_concept": "a flat laid-out surface something rests on – 铺平了给东西卧着的那层底面",
+      "core_image": "铺平压实的一处，躺下去就凹出人形；水退之后沟底也是这样平平一层",
+      "chinese": [
+        "床",
+        "床位",
+        "河床",
+        "花坛"
+      ],
+      "examples": [
+        "He lay on the bed and slept.",
+        "The river bed was dry that summer."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "床：铺平了供人躺的家具",
+        "床位：这样一处睡位算作一个名额",
+        "河床：水常年卧着的那层底",
+        "花坛：整平了让花卧在里头的一块地"
+      ]
+    },
+    {
+      "id": "bee",
+      "word": "bee",
+      "pos": "noun",
+      "phonetic": "/biː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bēo（蜂）← 原始日耳曼语 *bion（采蜜的虫）",
+      "native_definition": "a flying insect that makes honey and can sting",
+      "core_concept": "the humming insect that works flowers and stings – 在花间嗡嗡忙活、尾上带刺的虫",
+      "core_image": "一团带绒毛的小东西在花上打转，翅膀响得像电线，手一挥它就翘起尾巴",
+      "chinese": [
+        "蜜蜂"
+      ],
+      "examples": [
+        "A bee landed on the open flower.",
+        "Bees filled the hive with honey."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "beef",
+      "word": "beef",
+      "pos": "noun",
+      "phonetic": "/biːf/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 boef（牛）← 拉丁语 bovem（公牛）",
+      "native_definition": "the meat of a cow, or a complaint you keep chewing over",
+      "core_concept": "the dark red meat that comes off an ox – 从大牲口身上切下的那块深红厚肉",
+      "core_image": "案板上一块深红的厚肉，纹理粗，切开渗出血水，炖了两小时才软",
+      "chinese": [
+        "牛肉",
+        "怨言"
+      ],
+      "examples": [
+        "She roasted the beef for two hours.",
+        "He still has a beef with them."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "牛肉：大牲口身上切下来吃的肉",
+        "怨言：嘴里嚼着不放的那点不满"
+      ]
+    },
+    {
+      "id": "beer",
+      "word": "beer",
+      "pos": "noun",
+      "phonetic": "/bɪə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bēor（酒）← 西日耳曼语 *beuza（更早词源存疑）",
+      "native_definition": "an alcoholic drink made from grain and hops",
+      "core_concept": "the bitter grain drink that foams on top – 谷子酿的、上头顶着白沫的苦凉饮子",
+      "core_image": "杯口浮着一层白沫，杯壁挂满小气泡，喝下去先苦后凉",
+      "chinese": [
+        "啤酒"
+      ],
+      "examples": [
+        "He drank a cold beer after work.",
+        "They brewed beer in the back room."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "beg",
+      "word": "beg",
+      "pos": "verb",
+      "phonetic": "/beɡ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 beggen（乞讨，更早词源不明）",
+      "native_definition": "to ask for money or for a favour in a humble way",
+      "core_concept": "holding out empty hands for what you cannot take – 空着手伸出去，等别人给",
+      "core_image": "他蹲在台阶边，两手捧着空碗往前递，谁经过都抬头看一眼",
+      "chinese": [
+        "乞讨",
+        "乞求",
+        "请求"
+      ],
+      "examples": [
+        "He begged for a few coins.",
+        "She begged him not to leave."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "乞讨：伸手向陌生人要钱要饭",
+        "乞求：把话说到最低处求人应允",
+        "请求：低着姿态提出要求"
+      ]
+    },
+    {
+      "id": "begin",
+      "word": "begin",
+      "pos": "verb",
+      "phonetic": "/bɪˈɡɪn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beginnan（着手）← be-（加强）+ ginnan（开启）",
+      "native_definition": "to do the first part of something",
+      "core_concept": "putting down the first stroke of a thing – 落下这件事的第一笔",
+      "core_image": "笔尖落在空白纸的第一格，写下头一个字，后面还什么都没有",
+      "chinese": [
+        "开始"
+      ],
+      "examples": [
+        "We began the work at dawn.",
+        "The film begins in ten minutes."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "behalf",
+      "word": "behalf",
+      "pos": "noun",
+      "phonetic": "/bɪˈhɑːf/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 be halve（在旁、替一方）← 古英语 be（在）+ healf（一侧）",
+      "native_definition": "the side or interest of another person, used when acting for them",
+      "core_concept": "standing in someone's place and speaking as their side – 站到别人的位置上，替那一头出面",
+      "core_image": "本人没来，另一个人站到台前，替他签了字，说的每句都算他说的",
+      "chinese": [
+        "代表",
+        "利益"
+      ],
+      "examples": [
+        "He spoke on behalf of the workers.",
+        "She accepted the prize on my behalf."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "代表：站在别人位置上出面办事",
+        "利益：出面时护着的那一头的好处"
+      ]
+    },
+    {
+      "id": "behave",
+      "word": "behave",
+      "pos": "verb",
+      "phonetic": "/bɪˈheɪv/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 behaven ← be-（加强）+ 古英语 habban（持住、掌住自己）",
+      "native_definition": "to act in a particular way, or to act properly",
+      "core_concept": "holding yourself in a certain way in front of others – 在人前把自己拿住，摆成某个样子",
+      "core_image": "客人一进门，小孩把手放在膝上坐直了，脚不再乱蹬",
+      "chinese": [
+        "表现",
+        "举动",
+        "守规矩"
+      ],
+      "examples": [
+        "The children behaved well all evening.",
+        "He behaves as if nothing happened."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "表现：在场面上摆出的那副样子",
+        "举动：一举一动的走法",
+        "守规矩：把自己拿住，不越出该有的样子"
+      ]
+    },
+    {
+      "id": "behavior",
+      "word": "behavior",
+      "pos": "noun",
+      "phonetic": "/bɪˈheɪvjə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 behavour ← behave（把自己拿住）+ -our（状态）",
+      "native_definition": "the way a person or thing acts",
+      "core_concept": "the running record of how something acts – 一样东西做出来的动作合起来的样子",
+      "core_image": "老师翻开记录本，上面一条条写着他这学期做过什么，日期都对得上",
+      "chinese": [
+        "行为",
+        "举止",
+        "习性"
+      ],
+      "examples": [
+        "His behavior changed after the illness.",
+        "Scientists study the behavior of ants."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "行为：做出来的一件件动作",
+        "举止：人在场面上的那副拿法",
+        "习性：动物或物件一贯的动作路数"
+      ]
+    },
+    {
+      "id": "behind",
+      "word": "behind",
+      "pos": "preposition / adverb",
+      "phonetic": "/bɪˈhaɪnd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 behindan（在后）← be（在）+ hindan（后方）",
+      "native_definition": "at the back of something, or later than expected",
+      "core_concept": "on the far side of what stands in front – 在挡着的那样东西的另一头",
+      "core_image": "他排在队里，前头挡着三个人的后脑勺，什么也看不见",
+      "chinese": [
+        "在后面",
+        "落后",
+        "背后"
+      ],
+      "examples": [
+        "The cat hid behind the wooden door.",
+        "We are behind on the rent."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在后面：位置落在某物之后",
+        "落后：进度掉在该到的点后头",
+        "背后：被前面遮住、看不见的那一侧"
+      ]
+    },
+    {
+      "id": "belief",
+      "word": "belief",
+      "pos": "noun",
+      "phonetic": "/bɪˈliːf/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bileve ← 古英语 gelēafa（信）← 原始日耳曼语 *galaubō（认为可信可亲）",
+      "native_definition": "a feeling that something is true or real",
+      "core_concept": "taking a thing as true before it is proved – 没验过就当它是真的",
+      "core_image": "桥面看着旧，他还是先迈一只脚上去，没试就当它承得住",
+      "chinese": [
+        "信念",
+        "看法",
+        "信仰"
+      ],
+      "examples": [
+        "Her belief in him never wavered.",
+        "It is my belief that he lied."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "信念：认定为真、不肯松动的那份把握",
+        "看法：心里认下的一种判断",
+        "信仰：把整套说法当真，并照着过日子"
+      ]
+    },
+    {
+      "id": "bell",
+      "word": "bell",
+      "pos": "noun",
+      "phonetic": "/bel/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 belle（钟铃）← 原始日耳曼语 *bellan（吼、鸣响）",
+      "native_definition": "a hollow metal object that rings when struck",
+      "core_concept": "a hollow metal shell that sings when hit – 一敲就响、余音散得很远的金属空壳",
+      "core_image": "一只倒扣的铜壳挂在梁上，木槌撞上去，声音荡出去半里地还没散",
+      "chinese": [
+        "铃",
+        "钟",
+        "铃声"
+      ],
+      "examples": [
+        "The bell rang at the end of class.",
+        "Church bells woke the whole village."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "铃：小而清脆的那种响器",
+        "钟：大而声沉的那种响器",
+        "铃声：它响起来传出去的那个声音"
+      ]
+    },
+    {
+      "id": "belly",
+      "word": "belly",
+      "pos": "noun",
+      "phonetic": "/ˈbeli/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 belg（皮囊、袋）← 原始日耳曼语 *balgiz（鼓起来的囊）",
+      "native_definition": "the front part of the body below the chest",
+      "core_concept": "the soft front pouch of the body that swells – 身前那个会鼓起来的软囊",
+      "core_image": "吃撑了，皮带扣往外顶，衣服在那一圈绷得发亮，躺下还一鼓一鼓",
+      "chinese": [
+        "腹部",
+        "肚子",
+        "鼓起部分"
+      ],
+      "examples": [
+        "He lay on his belly in the grass.",
+        "The plane's belly scraped the runway."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "腹部/肚子：胸口以下鼓着的那一段身子",
+        "鼓起部分：任何东西朝下朝外鼓出的那一面"
+      ]
+    },
+    {
+      "id": "belong",
+      "word": "belong",
+      "pos": "verb",
+      "phonetic": "/bɪˈlɒŋ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 belongen ← be-（加强）+ 古英语 langian（相干、附于）",
+      "native_definition": "to be owned by someone, or to be in the right place",
+      "core_concept": "fitting the one spot that was cut for it – 正好落在为它留出的那个位置上",
+      "core_image": "工具挂回墙上那个画了轮廓的钩子，形状对得上，别处一挂就晃",
+      "chinese": [
+        "属于",
+        "归属",
+        "合适"
+      ],
+      "examples": [
+        "This book belongs to my sister.",
+        "He never felt he belonged there."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "属于：这样东西归在某人名下",
+        "归属：人待在自己合得上的那群里",
+        "合适：形状与位置对得上，不硌不晃"
+      ]
+    },
+    {
+      "id": "beloved",
+      "word": "beloved",
+      "pos": "adjective / noun",
+      "phonetic": "/bɪˈlʌvɪd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 belufian（深爱）的过去分词 ← be-（加强）+ lufu（爱）",
+      "native_definition": "dearly loved, or the person one loves",
+      "core_concept": "held dear enough to keep close for years – 揣在身边多年也舍不下的那一个",
+      "core_image": "一张照片在钱包里揣了二十年，边角磨白，谁问他都要拿出来看一眼",
+      "chinese": [
+        "心爱的",
+        "挚爱的人"
+      ],
+      "examples": [
+        "She read her beloved poems again.",
+        "He lost his beloved last winter."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "心爱的：被人放在心上最要紧处的",
+        "挚爱的人：被这样放在心上的那个人"
+      ]
+    },
+    {
+      "id": "belt",
+      "word": "belt",
+      "pos": "noun",
+      "phonetic": "/belt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 belt（腰带）← 拉丁语 balteus（束带）",
+      "native_definition": "a strip worn round the waist, or a long band around something",
+      "core_concept": "a long strip that goes all the way round – 绕着一圈把东西箍住的长条",
+      "core_image": "一条皮子从裤腰绕过去，扣针插进第三个孔，一勒裤子就不往下掉",
+      "chinese": [
+        "腰带",
+        "带子",
+        "地带"
+      ],
+      "examples": [
+        "He tightened his belt one notch.",
+        "The region is a wide farming belt."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "腰带/带子：绕着腰或轮子箍一圈的长条",
+        "地带：像箍带一样横着铺开的一长条地方"
+      ]
+    },
+    {
+      "id": "bench",
+      "word": "bench",
+      "pos": "noun",
+      "phonetic": "/bentʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 benc（长凳）← 原始日耳曼语 *bankiz（长木板搭的座）",
+      "native_definition": "a long seat for several people, or a long work table",
+      "core_concept": "one long plank set up to hold several things – 架起来的一条长板，一次容得下好几个",
+      "core_image": "公园里一条木板架在两墩上，三个人并排坐着，油漆被磨掉一片",
+      "chinese": [
+        "长凳",
+        "工作台",
+        "替补席"
+      ],
+      "examples": [
+        "They sat on a park bench.",
+        "Tools lay across the wooden bench."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "长凳：一次坐得下几个人的长条座",
+        "工作台：架起来摊活干的长条台面",
+        "替补席：场边那条长座，坐着还没上场的人"
+      ]
+    },
+    {
+      "id": "bend",
+      "word": "bend",
+      "pos": "verb / noun",
+      "phonetic": "/bend/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bendan（张弓、使弯）← 原始日耳曼语 *bandjan（绷紧成弧）",
+      "native_definition": "to make something curved, or to become curved",
+      "core_concept": "forcing a straight thing to hold a curve – 把直的逼成弧，还留在那个弧上",
+      "core_image": "铁丝两头一使劲，中间拱起一个角，松手也直不回去",
+      "chinese": [
+        "弯曲",
+        "弯道",
+        "屈从"
+      ],
+      "examples": [
+        "He bent the wire into a hook.",
+        "The road bends sharply after the bridge."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "弯曲：把直的压成弧形",
+        "弯道：路自己拐出来的那道弧",
+        "屈从：人在压力下弯下去，不再挺着"
+      ]
+    },
+    {
+      "id": "beneath",
+      "word": "beneath",
+      "pos": "preposition / adverb",
+      "phonetic": "/bɪˈniːθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beneoðan（在下方）← be（在）+ neoðan（下面）",
+      "native_definition": "in or to a lower position than something",
+      "core_concept": "pressed under whatever lies on top – 被上头压着的那一层",
+      "core_image": "掀开地毯，一层薄灰和一枚硬币压在那儿好几年了",
+      "chinese": [
+        "在下面",
+        "低于",
+        "不值得"
+      ],
+      "examples": [
+        "The coin lay beneath the carpet.",
+        "She felt the ground shake beneath her."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在下面：位置落在某物之下",
+        "低于：程度上比某处更低",
+        "不值得：低到不配拿来相提"
+      ]
+    },
+    {
+      "id": "best",
+      "word": "best",
+      "pos": "adjective / adverb",
+      "phonetic": "/best/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 betst（最好）← 原始日耳曼语 *batistaz（好之最）",
+      "native_definition": "of the highest quality among all others",
+      "core_concept": "the one left standing after all the rest are set aside – 别的都放下之后，剩在手里那一个",
+      "core_image": "十几个苹果摊在桌上，挑来挑去只剩一个，别的都放回筐里",
+      "chinese": [
+        "最好的",
+        "最好地",
+        "最擅长的"
+      ],
+      "examples": [
+        "This is the best bread in town.",
+        "She sings best in the morning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "最好的：一堆里挑到最后剩下的那个",
+        "最好地：做得比其余任何时候都到位",
+        "最擅长的：在这件事上比别的事都拿手"
+      ]
+    },
+    {
+      "id": "bet",
+      "word": "bet",
+      "pos": "verb / noun",
+      "phonetic": "/bet/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "近代英语 bet（打赌，约十六世纪，更早词源不明）",
+      "native_definition": "to risk money on the result of something uncertain",
+      "core_concept": "putting money down on how a thing will turn out – 拿钱压在一件还没定的事上",
+      "core_image": "两个人把钱压在桌角，握手定下，谁猜错谁全数归对方",
+      "chinese": [
+        "打赌",
+        "赌注",
+        "断定"
+      ],
+      "examples": [
+        "He bet ten pounds on that horse.",
+        "I bet she forgets again."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "打赌：拿钱压在结果上定输赢",
+        "赌注：压下去的那笔钱",
+        "断定：话说得像已经押上钱一样有把握"
+      ]
+    },
+    {
+      "id": "beverage",
+      "word": "beverage",
+      "pos": "noun",
+      "phonetic": "/ˈbevərɪdʒ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bevrage（喝的东西）← 拉丁语 bibere（喝）",
+      "native_definition": "a drink other than water, usually prepared",
+      "core_concept": "something poured into a cup to be drunk – 倒进杯里喝的那类东西",
+      "core_image": "菜单最后一页列着一排杯子，冷的热的甜的都有，价钱另算",
+      "chinese": [
+        "饮料"
+      ],
+      "examples": [
+        "Hot beverages are served all day.",
+        "He ordered a cold beverage instead."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "beware",
+      "word": "beware",
+      "pos": "verb",
+      "phonetic": "/bɪˈweə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 be war（当心）← be（是）+ 古英语 wær（警觉的）",
+      "native_definition": "to be careful about something dangerous",
+      "core_concept": "keeping your eyes up because something can hurt you – 眼睛抬着，因为那东西会伤人",
+      "core_image": "门上钉着块木牌，画了条狗，走近的人先停一步再往院里看",
+      "chinese": [
+        "小心",
+        "警惕"
+      ],
+      "examples": [
+        "Beware of the dog in the yard.",
+        "Beware of cheap copies online."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "小心：动作放慢，防着出事",
+        "警惕：眼睛一直盯着可能的危险"
+      ]
+    },
+    {
+      "id": "bewilder",
+      "word": "bewilder",
+      "pos": "verb",
+      "phonetic": "/bɪˈwɪldə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "近代英语 be-（彻底）+ wilder（迷失于荒野，源自 wilderness）",
+      "native_definition": "to confuse someone completely",
+      "core_concept": "turning someone loose where every way looks the same – 把人丢在处处一样、辨不出方向的地方",
+      "core_image": "林子里岔路一模一样，走了一小时又回到那棵歪树前，指南针也不转",
+      "chinese": [
+        "使迷惑",
+        "使不知所措"
+      ],
+      "examples": [
+        "The map bewildered every visitor.",
+        "His answer bewildered the whole class."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "使迷惑：辨不清路数，头绪全乱",
+        "使不知所措：乱到不知下一步该动哪只脚"
+      ]
+    },
+    {
+      "id": "beyond",
+      "word": "beyond",
+      "pos": "preposition / adverb",
+      "phonetic": "/bɪˈjɒnd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 begeondan（在那一边）← be（在）+ geond（越过、那边）",
+      "native_definition": "on or to the far side of something, or more than a limit",
+      "core_concept": "out past the edge of what you can reach – 越过能够到的那道边",
+      "core_image": "山脊那头还有一片屋顶，从这儿只看得见烟，走过去要两天",
+      "chinese": [
+        "在那边",
+        "超出",
+        "除…之外"
+      ],
+      "examples": [
+        "The village lies beyond those hills.",
+        "The cost is beyond our means."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在那边：位置落在那道边之外",
+        "超出：数量或程度过了那条线",
+        "除…之外：划出的范围之外还剩下的"
+      ]
+    },
+    {
+      "id": "bias",
+      "word": "bias",
+      "pos": "noun",
+      "phonetic": "/ˈbaɪəs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 biais（斜、偏，更早词源不明）",
+      "native_definition": "an unfair leaning towards one side",
+      "core_concept": "a built-in tilt that skews every reading – 底下垫歪了，量什么都往一边偏",
+      "core_image": "天平一头垫了张纸，秤杆总往那边沉，称什么都少二两",
+      "chinese": [
+        "偏见",
+        "偏向",
+        "斜纹"
+      ],
+      "examples": [
+        "The report showed a clear bias.",
+        "Cut the cloth on the bias."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "偏见：判断上固定往一边歪",
+        "偏向：不由自主偏着某一头",
+        "斜纹：布纹斜着走的那个方向"
+      ]
+    },
+    {
+      "id": "bid",
+      "word": "bid",
+      "pos": "verb / noun",
+      "phonetic": "/bɪd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 biddan（请求）与 bēodan（出价、提供）两词合流 ← 原始日耳曼语 *bidjan / *beudan",
+      "native_definition": "to offer a price, or to tell someone to do something",
+      "core_concept": "putting a number or an order out for the other side – 把一个数或一句话递到对面去",
+      "core_image": "拍卖场上牌子举起来，报出一个数，对面立刻加高，槌子还没落",
+      "chinese": [
+        "出价",
+        "投标",
+        "吩咐"
+      ],
+      "examples": [
+        "He bid two thousand for the vase.",
+        "She bade him wait outside."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "出价：把愿付的数报出去",
+        "投标：把这个数正式递上去争活",
+        "吩咐：把一句要人照做的话递过去"
+      ]
+    },
+    {
+      "id": "big",
+      "word": "big",
+      "pos": "adjective",
+      "phonetic": "/bɪɡ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 big（大，或源自古斯堪的纳维亚语，来源存疑）",
+      "native_definition": "large in size or important in effect",
+      "core_concept": "taking up so much room that it changes the space – 占地太多，把周围的余地都吃掉",
+      "core_image": "箱子抬进门时卡在框上，两个人侧过来才推进去，屋里一下少了半边地",
+      "chinese": [
+        "大的",
+        "重大的",
+        "年长的"
+      ],
+      "examples": [
+        "They live in a big old house.",
+        "This is a big decision for us."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大的：体积占得多",
+        "重大的：影响压得住场面",
+        "年长的：在同辈里岁数占前头"
+      ]
+    },
+    {
+      "id": "bill",
+      "word": "bill",
+      "pos": "noun",
+      "phonetic": "/bɪl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "盎格鲁拉丁语 billa（文书）← 中世纪拉丁语 bulla（盖印的文件）",
+      "native_definition": "a written statement of money owed, or a proposed law",
+      "core_concept": "a written slip stating what is owed or proposed – 一张纸上写清欠着什么或要立什么",
+      "core_image": "吃完饭服务员递来一张纸条，上头一行行菜名后跟着数字，末尾一个总数",
+      "chinese": [
+        "账单",
+        "议案",
+        "钞票"
+      ],
+      "examples": [
+        "The waiter brought the bill over.",
+        "Parliament passed the new bill."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "账单：写明该付多少的那张纸",
+        "议案：递上去等着表决的那份文书",
+        "钞票：印好数额、见票即算钱的那张纸"
+      ]
+    },
+    {
+      "id": "billion",
+      "word": "billion",
+      "pos": "noun",
+      "phonetic": "/ˈbɪljən/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 billion ← bi-（二）+ million（百万）",
+      "native_definition": "the number one thousand million",
+      "core_concept": "a thousand of the big count stacked again – 把百万那一层再叠上一千倍",
+      "core_image": "数字后面跟着九个零，写在纸上占满一行，念的时候要停两次",
+      "chinese": [
+        "十亿"
+      ],
+      "examples": [
+        "The company lost a billion dollars.",
+        "Over a billion people speak it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "bin",
+      "word": "bin",
+      "pos": "noun",
+      "phonetic": "/bɪn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 binn（篓、槽，或源自凯尔特语 benna）",
+      "native_definition": "a container for storing things or for rubbish",
+      "core_concept": "an open-topped holder you drop things into – 敞着口、把东西往里一丢的容器",
+      "core_image": "厨房角落一个带盖的深筒，脚一踩盖就翻开，里头套着黑袋子",
+      "chinese": [
+        "箱",
+        "桶",
+        "垃圾桶"
+      ],
+      "examples": [
+        "He threw the peel in the bin.",
+        "Flour is kept in a large bin."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "箱：存东西的方口容器",
+        "桶：深而敞口的那种容器",
+        "垃圾桶：专收要扔掉的东西的那个"
+      ]
+    },
+    {
+      "id": "bind",
+      "word": "bind",
+      "pos": "verb",
+      "phonetic": "/baɪnd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bindan（绑）← 原始日耳曼语 *bindan（缠住系紧）",
+      "native_definition": "to tie or fasten something tightly",
+      "core_concept": "wrapping something round until it cannot come apart – 绕上几圈系死，散不开",
+      "core_image": "一摞柴禾拿绳子绕三圈，末端打个死结，拎起来一根也不散",
+      "chinese": [
+        "捆绑",
+        "约束",
+        "装订"
+      ],
+      "examples": [
+        "She bound the sticks with rope.",
+        "The contract binds both sides."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "捆绑：用绳子绕紧使不散",
+        "约束：拿规矩把人缠住，动不了",
+        "装订：把散页绕紧连成一册"
+      ]
+    },
+    {
+      "id": "birth",
+      "word": "birth",
+      "pos": "noun",
+      "phonetic": "/bɜːθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 birth ← 古诺斯语 byrðr（所生者）← 原始日耳曼语 *burthiz（担负而生）",
+      "native_definition": "the act of being born, or the start of something",
+      "core_concept": "the moment a new thing first comes out into the world – 一件新的头一回落到世上那一刻",
+      "core_image": "产房门开了，护士抱出一个包着的小东西，先报了一声重量",
+      "chinese": [
+        "出生",
+        "分娩",
+        "起源"
+      ],
+      "examples": [
+        "She gave birth to twins.",
+        "That was the birth of jazz."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "出生：人头一回来到世上",
+        "分娩：把孩子生出来这件事",
+        "起源：一件事最初落地的那一刻"
+      ]
+    },
+    {
+      "id": "birthday",
+      "word": "birthday",
+      "pos": "noun",
+      "phonetic": "/ˈbɜːθdeɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 byrddæg ← birth（出生）+ dæg（日）",
+      "native_definition": "the yearly return of the day someone was born",
+      "core_concept": "the same day coming round again each year – 每年再转回来的那同一天",
+      "core_image": "蛋糕上插着几支蜡烛，灯一关，满屋子人等他吹那一口气",
+      "chinese": [
+        "生日"
+      ],
+      "examples": [
+        "He got a bike for his birthday.",
+        "We celebrated her birthday last week."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "biscuit",
+      "word": "biscuit",
+      "pos": "noun",
+      "phonetic": "/ˈbɪskɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bescuit（烤两遍的）← 拉丁语 bis（两次）+ coctus（烤过）",
+      "native_definition": "a small flat cake baked until dry and crisp",
+      "core_concept": "dough baked twice until it snaps – 烤到干透、一掰就断的小块面食",
+      "core_image": "铁盒一开，掰下来一块，渣掉在膝上，蘸茶要快，不然就软了",
+      "chinese": [
+        "饼干"
+      ],
+      "examples": [
+        "She dipped a biscuit in her tea.",
+        "The tin of biscuits was empty."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "bit",
+      "word": "bit",
+      "pos": "noun",
+      "phonetic": "/bɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bita（咬下的一块）← 原始日耳曼语 *biton（咬）",
+      "native_definition": "a small piece or a small amount of something",
+      "core_concept": "the small piece that comes away from the whole – 从整块上离开的那一小块",
+      "core_image": "面包边上缺了一角，掉在桌上的还不够塞满一口",
+      "chinese": [
+        "一点",
+        "小块",
+        "马嚼子",
+        "钻头"
+      ],
+      "examples": [
+        "Give me a bit of bread.",
+        "He waited a bit longer outside."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "一点：少到只够一口的分量",
+        "小块：从整块上掰下的那一角",
+        "马嚼子：横在马嘴里被咬着的那根铁",
+        "钻头：钻机前头咬进材料的那一小截"
+      ]
+    },
+    {
+      "id": "bite",
+      "word": "bite",
+      "pos": "verb / noun",
+      "phonetic": "/baɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bītan（咬）← 原始日耳曼语 *bitan（用牙切进去）",
+      "native_definition": "to cut into something with the teeth",
+      "core_concept": "closing the teeth until they cut in – 牙一合，切进去",
+      "core_image": "苹果上缺了个月牙形的缺口，汁顺着手腕往下淌，齿印还留在果肉上",
+      "chinese": [
+        "咬",
+        "一口",
+        "叮"
+      ],
+      "examples": [
+        "The dog bit his hand.",
+        "She took a big bite of cake."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "咬：用牙切进东西里",
+        "一口：一次咬下的那份量",
+        "叮：虫子用口器扎进皮里"
+      ]
+    },
+    {
+      "id": "bizarre",
+      "word": "bizarre",
+      "pos": "adjective",
+      "phonetic": "/bɪˈzɑː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 bizarre（怪异）← 意大利语 bizzarro（暴躁、古怪，更早词源存疑）",
+      "native_definition": "strange in a way that is hard to explain",
+      "core_concept": "so far off the usual that it stops making sense – 离常态太远，怎么想都想不通",
+      "core_image": "路口摆着一把椅子，上头端正放着一只鞋，旁边还插着一把伞",
+      "chinese": [
+        "古怪的",
+        "离奇的"
+      ],
+      "examples": [
+        "He told a bizarre story about it.",
+        "Her clothes looked bizarre that day."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "古怪的：样子怪得说不出所以然",
+        "离奇的：事情走向偏得让人难以置信"
+      ]
+    },
+    {
+      "id": "black",
+      "word": "black",
+      "pos": "adjective / noun",
+      "phonetic": "/blæk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blæc（黑、烧焦的）← 原始日耳曼语 *blakaz（烧过的）",
+      "native_definition": "of the darkest colour, like coal or soot",
+      "core_concept": "the colour left behind after something burns – 东西烧尽之后留下的那个颜色",
+      "core_image": "炉子里的木头烧透了，夹出来一根，手上蹭一道，擦也擦不掉",
+      "chinese": [
+        "黑色的",
+        "黑暗的",
+        "不加奶的"
+      ],
+      "examples": [
+        "He wore a black wool coat.",
+        "She drinks her coffee black."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "黑色的：颜色深到不再反光",
+        "黑暗的：光被吃掉，什么也看不见",
+        "不加奶的：茶或咖啡不掺白的，颜色仍深"
+      ]
+    },
+    {
+      "id": "blade",
+      "word": "blade",
+      "pos": "noun",
+      "phonetic": "/bleɪd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blæd（叶片、刀身）← 原始日耳曼语 *bladaz（长而扁的一片）",
+      "native_definition": "the flat cutting part of a knife, or a flat leaf",
+      "core_concept": "one long flat piece with an edge that cuts – 又长又扁的一片，边上开着口",
+      "core_image": "一片扁而薄的钢，边上磨出一道亮线，指腹一挨就发凉",
+      "chinese": [
+        "刀刃",
+        "叶片",
+        "桨叶"
+      ],
+      "examples": [
+        "He sharpened the blade on a stone.",
+        "A single blade of grass grew there."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "刀刃：刀上开了口、切得进去的那片",
+        "叶片：草木上又扁又长的那一片",
+        "桨叶：转起来切开水或风的那一片"
+      ]
+    },
+    {
+      "id": "blame",
+      "word": "blame",
+      "pos": "verb / noun",
+      "phonetic": "/bleɪm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 blasmer ← 晚期拉丁语 blasphemare（出恶言）← 希腊语 blasphēmein（说坏话）",
+      "native_definition": "to say that someone is responsible for something bad",
+      "core_concept": "laying the bad outcome on one person – 把这桩坏事按到某个人头上",
+      "core_image": "花瓶碎在地上，大人扫一眼屋里三个孩子，手指停在中间那个身上",
+      "chinese": [
+        "责怪",
+        "归咎",
+        "过错"
+      ],
+      "examples": [
+        "They blamed him for the mistake.",
+        "She took the blame herself."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "责怪：拿话把过错压到人身上",
+        "归咎：认定坏结果是由他而来",
+        "过错：被按在头上的那份责任"
+      ]
+    },
+    {
+      "id": "blank",
+      "word": "blank",
+      "pos": "adjective / noun",
+      "phonetic": "/blæŋk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 blanc（白）← 法兰克语 *blank（发亮的）← 原始日耳曼语 *blankaz（白亮）",
+      "native_definition": "with nothing written or marked on it",
+      "core_concept": "a clean surface with not one mark on it – 一处干净的面，上头一个记号也没有",
+      "core_image": "刚发下来的一张纸，干干净净连横线都没有，笔尖悬在上头半天没落",
+      "chinese": [
+        "空白的",
+        "空白处",
+        "无表情的"
+      ],
+      "examples": [
+        "He handed me a blank sheet.",
+        "Her face went blank at once."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "空白的：什么都还没写上去",
+        "空白处：留着没填的那一块地方",
+        "无表情的：脸上像没写字的纸，看不出内容"
+      ]
+    },
+    {
+      "id": "blanket",
+      "word": "blanket",
+      "pos": "noun / verb",
+      "phonetic": "/ˈblæŋkɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 blanchet（白毛毯）← blanc（白）+ -et（小）",
+      "native_definition": "a thick cloth used to keep warm, or a layer covering everything",
+      "core_concept": "one thick sheet laid over the top of everything – 一整片厚的，铺在上头把底下全遮住",
+      "core_image": "一层厚毛料压在身上，掀起来边角还是热的，抖一下有灰在光里飞",
+      "chinese": [
+        "毯子",
+        "覆盖层",
+        "覆盖"
+      ],
+      "examples": [
+        "She pulled the blanket up higher.",
+        "Snow blanketed the whole valley."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "毯子：盖在身上取暖的厚织物",
+        "覆盖层：像那样整片铺开的一层",
+        "覆盖：把整片铺上去，一处不漏"
+      ]
+    },
+    {
+      "id": "blast",
+      "word": "blast",
+      "pos": "noun / verb",
+      "phonetic": "/blɑːst/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blæst（猛吹的气）← 原始日耳曼语 *blēstaz（吹）",
+      "native_definition": "a sudden strong rush of air, or an explosion",
+      "core_concept": "air shoved out all at once with force – 气被一下子猛推出去",
+      "core_image": "采石场那边闷响一声，脚下的地跳了一下，窗玻璃跟着抖，尘往外涌",
+      "chinese": [
+        "爆炸",
+        "一阵狂风",
+        "猛吹"
+      ],
+      "examples": [
+        "The blast broke every window nearby.",
+        "A blast of cold air came in."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爆炸：气被炸开推出去那一下",
+        "一阵狂风：气成股地扑过来",
+        "猛吹：把气使劲往外送"
+      ]
+    },
+    {
+      "id": "blaze",
+      "word": "blaze",
+      "pos": "noun / verb",
+      "phonetic": "/bleɪz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blæse（火把、火焰）← 原始日耳曼语 *blas-（发亮）",
+      "native_definition": "a large strong fire, or a bright display of light",
+      "core_concept": "fire big enough to light and heat everything near – 大到把周围照亮烤热的那团火",
+      "core_image": "干柴堆一下腾起来，热得站不住脚，半条街的墙都被照得发红",
+      "chinese": [
+        "火焰",
+        "烈火",
+        "闪耀"
+      ],
+      "examples": [
+        "The blaze destroyed two old barns.",
+        "Lights blazed in every window."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "火焰/烈火：烧得又大又亮的那团火",
+        "闪耀：像那团火一样亮得刺眼"
+      ]
+    },
+    {
+      "id": "bleak",
+      "word": "bleak",
+      "pos": "adjective",
+      "phonetic": "/bliːk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 bleikr（苍白）← 原始日耳曼语 *blaikaz（发白、无色）",
+      "native_definition": "cold, bare, and without comfort or hope",
+      "core_concept": "stripped of colour and warmth alike – 颜色和暖气都被抽干的那种空",
+      "core_image": "坡上一棵树也没有，风一直刮，土是灰的，走半天遇不到一间屋",
+      "chinese": [
+        "荒凉的",
+        "阴冷的",
+        "前景暗淡的"
+      ],
+      "examples": [
+        "The moor looked bleak in winter.",
+        "Their future seemed bleak that year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "荒凉的：地上光秃秃，没有生气",
+        "阴冷的：又冷又灰，待着不舒服",
+        "前景暗淡的：往前看没有一点亮色"
+      ]
+    },
+    {
+      "id": "bleed",
+      "word": "bleed",
+      "pos": "verb",
+      "phonetic": "/bliːd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blēdan（出血）← 原始日耳曼语 *blōdjan（放血）← blōd（血）",
+      "native_definition": "to lose blood from the body",
+      "core_concept": "blood working its way out through a break – 血从破口那儿往外走",
+      "core_image": "指头被纸划了一道，起先看不出，过一会儿红点冒出来，沿指纹淌",
+      "chinese": [
+        "流血",
+        "渗出",
+        "放血"
+      ],
+      "examples": [
+        "His nose bled all afternoon.",
+        "The colour bled into the white shirt."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "流血：血从身上的破口出来",
+        "渗出：颜色或液体像血那样往外散",
+        "放血：故意把血引出来"
+      ]
+    },
+    {
+      "id": "blend",
+      "word": "blend",
+      "pos": "verb / noun",
+      "phonetic": "/blend/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 blenden ← 古诺斯语 blanda（拌）← 原始日耳曼语 *blandan（搅在一起）",
+      "native_definition": "to mix things so that they cannot be told apart",
+      "core_concept": "stirring two things until neither shows separately – 搅到两样都认不出各自",
+      "core_image": "两罐茶叶倒进一个盆，手插进去翻几遍，再也挑不出哪片是哪罐的",
+      "chinese": [
+        "混合",
+        "融合",
+        "混合物"
+      ],
+      "examples": [
+        "Blend the eggs and flour well.",
+        "This coffee is a smooth blend."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "混合：把几样拌到一起",
+        "融合：拌到界线消失，成了一样",
+        "混合物：这样拌出来的那份东西"
+      ]
+    },
+    {
+      "id": "bless",
+      "word": "bless",
+      "pos": "verb",
+      "phonetic": "/bles/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blētsian（以血献祭、祝圣）← 原始日耳曼语 *blōdison ← blōd（血）",
+      "native_definition": "to ask for God's favour on someone, or to make holy",
+      "core_concept": "laying a hand on someone and calling good down on them – 手按在人身上，把好的话落到他头上",
+      "core_image": "老人把手按在孩子头顶，低声说了几句，屋里人都不出声",
+      "chinese": [
+        "祝福",
+        "保佑",
+        "祝圣"
+      ],
+      "examples": [
+        "The priest blessed the new house.",
+        "She blessed him before he left."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "祝福：把好话许在人身上",
+        "保佑：求上头护着这个人",
+        "祝圣：经过仪式把人或物划归神圣"
+      ]
+    },
+    {
+      "id": "blind",
+      "word": "blind",
+      "pos": "adjective",
+      "phonetic": "/blaɪnd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blind（看不见的）← 原始日耳曼语 *blindaz（混浊、迷糊）",
+      "native_definition": "unable to see, or unwilling to notice something",
+      "core_concept": "no light gets in, so the hand has to find things by touch – 光进不来，只能靠手一点点探",
+      "core_image": "屋里灯全关了，他伸手在桌面上一寸寸摸，杯子撞倒才知道在哪",
+      "chinese": [
+        "瞎的",
+        "盲目的",
+        "看不见的"
+      ],
+      "examples": [
+        "He has been blind since birth.",
+        "They were blind to the danger."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "瞎的/看不见的：眼里进不了光",
+        "盲目的：眼前明明有东西却全然不觉"
+      ]
+    },
+    {
+      "id": "blood",
+      "word": "blood",
+      "pos": "noun",
+      "phonetic": "/blʌd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blōd ← 原始日耳曼语 *blōdam（流出体外之物）",
+      "native_definition": "the red liquid that flows through the body",
+      "core_concept": "the warm red stuff running inside, which also says where you come from – 体内流着的那点热东西，也标着你从哪来",
+      "core_image": "指尖被针挑了一下，一颗红点冒出来，越渗越大，铁锈味蹭到嘴唇上",
+      "chinese": [
+        "血",
+        "血液",
+        "血统"
+      ],
+      "examples": [
+        "She lost a lot of blood.",
+        "Royal blood ran in his veins."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "血/血液：身体里流的那样红的液体",
+        "血统：由父母身上流下来的那条线"
+      ]
+    },
+    {
+      "id": "bloody",
+      "word": "bloody",
+      "pos": "adjective",
+      "phonetic": "/ˈblʌdi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blōdig（带血的）← blōd（血）+ -ig",
+      "native_definition": "covered with blood, or used in British speech to make words stronger",
+      "core_concept": "soaked in the red stuff, and by extension said with heat – 被那红东西浸透，说话带火气时也这么用",
+      "core_image": "刀锋擦过手背，红痕一路蹭到袖口，白布上洇开一大片",
+      "chinese": [
+        "血腥的",
+        "流血的",
+        "该死的"
+      ],
+      "examples": [
+        "The bandage was bloody and wet.",
+        "It was a bloody stupid idea."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "血腥的/流血的：伤口渗出的东西沾满一片",
+        "该死的：英式口语里骂人加重语气，像话里带着那股红"
+      ]
+    },
+    {
+      "id": "bloom",
+      "word": "bloom",
+      "pos": "noun / verb",
+      "phonetic": "/bluːm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺斯语 blóm（绽开之物）← 原始日耳曼语 *blōmô",
+      "native_definition": "to open out into full flower, or the time of being at one's best",
+      "core_concept": "a tight bud letting go and spreading all the way out – 攢紧的芽一放，摊到最开的那一下",
+      "core_image": "枝头那个鼓起来的绿疙瘩一夜松开，层层瓣子摊到最大，香味压不住",
+      "chinese": [
+        "花",
+        "开花",
+        "繁盛期"
+      ],
+      "examples": [
+        "The roses bloom in early June.",
+        "She was in the bloom of youth."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "花：枝头摊开的那一团瓣子",
+        "开花：从攢紧到全摊开的那个过程",
+        "繁盛期：一生里摊得最开的那一段"
+      ]
+    },
+    {
+      "id": "blossom",
+      "word": "blossom",
+      "pos": "noun / verb",
+      "phonetic": "/ˈblɒsəm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blōstma（绽开之物）← 原始日耳曼语 *blō-",
+      "native_definition": "the flowers on a fruit tree, or to develop into something fine",
+      "core_concept": "a whole tree breaking out white all at once – 一整棵树一下子全冒出白的来",
+      "core_image": "整棵果树一夜白成一片，风一过，白点子落满肩头和地上",
+      "chinese": [
+        "花",
+        "花簇",
+        "繁茂起来"
+      ],
+      "examples": [
+        "The cherry trees are in blossom.",
+        "Their friendship blossomed into love."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "花/花簇：满树同时冒出的那些白点",
+        "繁茂起来：人或事像满树那样一下铺开"
+      ]
+    },
+    {
+      "id": "blouse",
+      "word": "blouse",
+      "pos": "noun",
+      "phonetic": "/blaʊz/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 blouse（罩衣），更早词源不明",
+      "native_definition": "a light shirt worn by women",
+      "core_concept": "light cloth hanging loose from the shoulders – 轻布从肩上松松垂下来",
+      "core_image": "薄布上身，宽宽松松从肩垂下来，下摆塞进裙腰里",
+      "chinese": [
+        "女式衬衫",
+        "罩衫"
+      ],
+      "examples": [
+        "She ironed her white blouse.",
+        "The blouse hung loose at the waist."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "女式衬衫：女人穿的那件薄上衣",
+        "罩衫：宽松套在外头的一层布"
+      ]
+    },
+    {
+      "id": "blow",
+      "word": "blow",
+      "pos": "verb / noun",
+      "phonetic": "/bləʊ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blāwan（吹）← 原始日耳曼语 *blæwan；「一击」义另出中古英语 blaw",
+      "native_definition": "to send air out from the mouth, or a hard hit that lands",
+      "core_concept": "a rush of air, and anything landing with that same force – 一股空气冲过去，以及带着这股劲落下的东西",
+      "core_image": "他鼓起腮帮子一口气过去，火苗歪倒；风大时同一股劲把门拍在墙上",
+      "chinese": [
+        "吹",
+        "刮",
+        "打击"
+      ],
+      "examples": [
+        "Blow out the candles now.",
+        "The news came as a heavy blow."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "吹/刮：空气成股冲过去",
+        "打击：像那股劲一样猛落在身上的一下"
+      ]
+    },
+    {
+      "id": "blue",
+      "word": "blue",
+      "pos": "adjective / noun",
+      "phonetic": "/bluː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bleu ← 法兰克语 *blao ← 原始日耳曼语 *blēwaz",
+      "native_definition": "having the colour of a clear sky or deep water, or feeling low",
+      "core_concept": "the cold far colour overhead, and the mood that matches it – 头顶那片又远又冷的颜色，以及配得上它的心情",
+      "core_image": "晴天午后抬头，头顶那片颜色深得发冷；心里空的时候也是这个调子",
+      "chinese": [
+        "蓝色的",
+        "蓝色",
+        "忧郁的"
+      ],
+      "examples": [
+        "She wore a blue dress.",
+        "He felt blue all week."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "蓝色的/蓝色：天和深水那种颜色",
+        "忧郁的：心里那股又冷又空的调子"
+      ]
+    },
+    {
+      "id": "blunder",
+      "word": "blunder",
+      "pos": "noun / verb",
+      "phonetic": "/ˈblʌndə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 blondren（乱撞）← 古诺斯语 blundra（闭眼、打盹）",
+      "native_definition": "to make a bad careless mistake, or to move about clumsily",
+      "core_concept": "moving with your eyes shut and knocking things over – 眼睛闭着往前走，一路把东西撞倒",
+      "core_image": "闭着眼在屋里走，撞翻椅子又踢倒水壶，一路响到门口",
+      "chinese": [
+        "大错",
+        "失误",
+        "瞎撞"
+      ],
+      "examples": [
+        "He made a costly blunder.",
+        "She blundered into the dark room."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大错/失误：眼没睁就下手，砸出来的岔子",
+        "瞎撞：看不清方向地磕磕碰碰往前"
+      ]
+    },
+    {
+      "id": "blunt",
+      "word": "blunt",
+      "pos": "adjective / verb",
+      "phonetic": "/blʌnt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 blunt（迟钝、不利），或出古诺斯语 blundr（迷糊），来源不确定",
+      "native_definition": "having no sharp edge, or speaking without softening anything",
+      "core_concept": "an edge worn round, so it presses instead of cutting – 刃口磨圆了，只能压不能割",
+      "core_image": "刀刃磨圆了，压在番茄上只出汁不进肉；这人说话也是这么一下压过来",
+      "chinese": [
+        "钝的",
+        "直率的",
+        "使变钝"
+      ],
+      "examples": [
+        "This knife is completely blunt.",
+        "She gave a blunt answer."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "钝的：刃口圆了，切不进去",
+        "直率的：话不磨边，直接压上来",
+        "使变钝：把原本的锋口磨圆"
+      ]
+    },
+    {
+      "id": "blur",
+      "word": "blur",
+      "pos": "noun / verb",
+      "phonetic": "/blɜː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 blur（污痕），16 世纪出现，词源不明",
+      "native_definition": "to make something unclear to see, or a shape with no clear edge",
+      "core_concept": "edges melting into each other so nothing stays separate – 边缘互相化开，谁也分不出谁",
+      "core_image": "眼镜蒙上雾气，路灯化成一团团光边，纸上的字全叠在一起",
+      "chinese": [
+        "模糊",
+        "污迹",
+        "使模糊"
+      ],
+      "examples": [
+        "Tears blurred her vision completely.",
+        "The photo is just a blur."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "模糊：边界化开，看不出分界",
+        "污迹：擦花的一小片，底下的东西看不清",
+        "使模糊：把清楚的边界弄化开"
+      ]
+    },
+    {
+      "id": "blush",
+      "word": "blush",
+      "pos": "verb / noun",
+      "phonetic": "/blʌʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 blyscan（发红、发亮）← 原始日耳曼语 *blusk-",
+      "native_definition": "to go red in the face from shame or shyness",
+      "core_concept": "heat rising into the face where everyone can see it – 热气涌到脸上，谁都看得见",
+      "core_image": "被叫起来站着，耳根先烫，热气顺脖子爬满两颊，头越垂越低",
+      "chinese": [
+        "脸红",
+        "羞红",
+        "泛红"
+      ],
+      "examples": [
+        "She blushed at the compliment.",
+        "A blush spread over his face."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "脸红/羞红：不好意思时热气涌上来",
+        "泛红：一片颜色悄悄透出来"
+      ]
+    },
+    {
+      "id": "board",
+      "word": "board",
+      "pos": "noun / verb",
+      "phonetic": "/bɔːd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bord（木板、船舷）← 原始日耳曼语 *burdam",
+      "native_definition": "a flat piece of wood, or to get on a ship or plane",
+      "core_concept": "one flat plank, and everything that gets built on planks – 一块平木条，以及一切架在木条上的事",
+      "core_image": "一根刨平的长木条钉在两根柱子间，站上去咚咚响",
+      "chinese": [
+        "板",
+        "董事会",
+        "上船",
+        "包饭"
+      ],
+      "examples": [
+        "He nailed the board in place.",
+        "Passengers may board the plane now."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "板：刨平的一块长木",
+        "董事会：围着一张长木桌坐下来定事的那些人",
+        "上船：脚踩上船舷那块木条",
+        "包饭：搭在同一张桌面上吃住"
+      ]
+    },
+    {
+      "id": "boast",
+      "word": "boast",
+      "pos": "verb / noun",
+      "phonetic": "/bəʊst/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bost（大话、喧嚷），更早词源不明",
+      "native_definition": "to talk with too much pride about yourself",
+      "core_concept": "stretching the size of your own story wider and wider – 把自己那点事越说越大",
+      "core_image": "他把袖子一撸讲那条鱼有多大，两手越比越开，桌边人都笑了",
+      "chinese": [
+        "自夸",
+        "吹牛",
+        "以…自豪"
+      ],
+      "examples": [
+        "He boasts about his salary.",
+        "The town boasts two theatres."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "自夸/吹牛：把自己的事撑大了讲",
+        "以…自豪：一处地方有值得拿出来讲的东西"
+      ]
+    },
+    {
+      "id": "boat",
+      "word": "boat",
+      "pos": "noun",
+      "phonetic": "/bəʊt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bāt（小舟）← 原始日耳曼语 *bait-",
+      "native_definition": "a small vessel for travelling on water",
+      "core_concept": "a hollow shell floating with you sitting inside it – 一只空壳浮着，人坐在里头",
+      "core_image": "木壳子浮在水面，人一上去就晃，桨插下去水推着往后退",
+      "chinese": [
+        "船",
+        "小船",
+        "艇"
+      ],
+      "examples": [
+        "They rowed the boat across.",
+        "The fishing boat came back late."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "船/小船：浮在水上载人的那只木壳",
+        "艇：更小更窄的一只，靠桨或小马达走"
+      ]
+    },
+    {
+      "id": "body",
+      "word": "body",
+      "pos": "noun",
+      "phonetic": "/ˈbɒdi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bodig（躯干），更早来源不明",
+      "native_definition": "the whole physical form of a person or animal",
+      "core_concept": "one whole solid mass held together – 连成一整块、有重量的那个整体",
+      "core_image": "从脖子往下到脚，一整具热的、有重量的东西，躺下去床垫陷一块",
+      "chinese": [
+        "身体",
+        "躯体",
+        "主体",
+        "团体"
+      ],
+      "examples": [
+        "He ached in every part of his body.",
+        "A large body of students protested."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "身体/躯体：人从头到脚这一整块",
+        "主体：一件事里占最大那一块",
+        "团体：许多人聚成的一整块"
+      ]
+    },
+    {
+      "id": "bold",
+      "word": "bold",
+      "pos": "adjective",
+      "phonetic": "/bəʊld/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bald（勇敢、大胆）← 原始日耳曼语 *balþaz",
+      "native_definition": "willing to take risks, or standing out strongly",
+      "core_concept": "stepping out front where nothing hides you – 往前站到没有遮挡的位置",
+      "core_image": "别人都往后缩，他往前跨一步，声音比谁都响；墙上的字也粗得压过整版",
+      "chinese": [
+        "大胆的",
+        "无畏的",
+        "醒目的"
+      ],
+      "examples": [
+        "It was a bold decision.",
+        "The title is in bold type."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大胆的/无畏的：别人退时自己往前站",
+        "醒目的：笔画粗到从一片里跳出来"
+      ]
+    },
+    {
+      "id": "bolt",
+      "word": "bolt",
+      "pos": "noun / verb",
+      "phonetic": "/bəʊlt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bolt（弩箭、短矢）← 原始日耳曼语 *bultaz",
+      "native_definition": "a thick metal pin that fastens, or to rush off suddenly",
+      "core_concept": "a short thick shaft driven home in one go – 一根短粗的杆子一下子推到底",
+      "core_image": "一根短粗铁杆推进槽里，咔一声到底；马受了惊，也是这么一下窜出去",
+      "chinese": [
+        "螺栓",
+        "门闩",
+        "猛冲",
+        "闪电"
+      ],
+      "examples": [
+        "Tighten the bolt with a spanner.",
+        "The horse bolted at the noise."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "螺栓/门闩：插进槽里卡死的那根短杆",
+        "猛冲：像短矢一样一下窜出去",
+        "闪电：天上那道一下扎下来的白光"
+      ]
+    },
+    {
+      "id": "bomb",
+      "word": "bomb",
+      "pos": "noun / verb",
+      "phonetic": "/bɒm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 bombe ← 意大利语 bomba ← 拉丁语 bombus（隆隆响）← 希腊语 bombos（拟声）",
+      "native_definition": "a device that explodes, or to attack with such devices",
+      "core_concept": "a heavy shell that lets everything go at once – 一只沉壳子一下子全放开",
+      "core_image": "铁壳子落地，先一声闷响，土和玻璃一起往外飞，窗框全空了",
+      "chinese": [
+        "炸弹",
+        "轰炸",
+        "惨败"
+      ],
+      "examples": [
+        "They dropped a bomb on the bridge.",
+        "The film bombed at the box office."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "炸弹：装满劲、落地就放开的那只壳",
+        "轰炸：把这种壳成批扔下去",
+        "惨败：一下子塌掉，收不了场"
+      ]
+    },
+    {
+      "id": "bond",
+      "word": "bond",
+      "pos": "noun / verb",
+      "phonetic": "/bɒnd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bond，band 的变体 ← 古诺斯语 band（绑绳）← 原始日耳曼语 *bandaz",
+      "native_definition": "something that ties two things or people together",
+      "core_concept": "two separate things made into one that will not come apart – 两样东西合成一样，再拉不开",
+      "core_image": "两块木板抹上胶压紧一夜，第二天掰不开，接缝比木头还硬",
+      "chinese": [
+        "纽带",
+        "债券",
+        "黏合",
+        "联结"
+      ],
+      "examples": [
+        "A strong bond formed between them.",
+        "Glue bonds the two surfaces."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "纽带/联结：人和人之间拉住彼此的那根绳",
+        "债券：写在纸上的一条还钱约束",
+        "黏合：两个面压到分不开"
+      ]
+    },
+    {
+      "id": "bone",
+      "word": "bone",
+      "pos": "noun",
+      "phonetic": "/bəʊn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bān（骨）← 原始日耳曼语 *bainam",
+      "native_definition": "the hard white parts that make up a skeleton",
+      "core_concept": "the hard white frame left when everything soft is gone – 软的都没了以后剩下的那副白硬架子",
+      "core_image": "汤熬到最后剩一截白硬的东西，敲桌面咚咚的，狗叼着不放",
+      "chinese": [
+        "骨",
+        "骨头",
+        "骨骼"
+      ],
+      "examples": [
+        "He broke a bone in his wrist.",
+        "The dog buried the bone."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "骨/骨头：身体里白而硬的那些段",
+        "骨骼：这些段连成的一整副架子"
+      ]
+    },
+    {
+      "id": "book",
+      "word": "book",
+      "pos": "noun / verb",
+      "phonetic": "/bʊk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bōc（文书、山毛榉板）← 原始日耳曼语 *bōkō（山毛榉，早期刻字于其上）",
+      "native_definition": "a set of printed pages bound together, or to reserve a place",
+      "core_concept": "pages fastened along one edge so they stay in order – 纸沿一边固定住，顺序不会乱",
+      "core_image": "一叠纸沿一边缝住，拇指一推哗啦翻过去，纸边有点毛",
+      "chinese": [
+        "书",
+        "书籍",
+        "预订"
+      ],
+      "examples": [
+        "She read the book twice.",
+        "I booked a table for two."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "书/书籍：纸缝成一叠、按顺序读的东西",
+        "预订：把名字写进本子里占下位置"
+      ]
+    },
+    {
+      "id": "boom",
+      "word": "boom",
+      "pos": "noun / verb",
+      "phonetic": "/buːm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拟声词，模仿低沉的轰响；「繁荣」义 19 世纪由这声响引申而来",
+      "native_definition": "a deep loud sound, or a sudden strong growth",
+      "core_concept": "a low sound rolling out and swelling as it goes – 一记低响滚出去，越滚越涨",
+      "core_image": "远处一声低沉的响滚过来，窗玻璃跟着抖；数字也这么一下往上蹿",
+      "chinese": [
+        "轰鸣",
+        "繁荣",
+        "激增"
+      ],
+      "examples": [
+        "We heard the boom of cannon.",
+        "The city saw a building boom."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "轰鸣：低而沉、滚着传开的响",
+        "繁荣/激增：像那声响一样一下涨起来"
+      ]
+    },
+    {
+      "id": "boost",
+      "word": "boost",
+      "pos": "verb / noun",
+      "phonetic": "/buːst/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "美国英语 boost（1815 年前后出现），词源不明",
+      "native_definition": "to push something up to a higher level",
+      "core_concept": "a shove from underneath that gets you higher – 从底下托一把，把你送高",
+      "core_image": "他两手托住我的鞋底往上一送，我才够到墙头",
+      "chinese": [
+        "推动",
+        "提高",
+        "促进"
+      ],
+      "examples": [
+        "This will boost sales next month.",
+        "He gave me a boost over the fence."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "推动/促进：从下面顶一把让它往前走",
+        "提高：把原来的高度往上送一截"
+      ]
+    },
+    {
+      "id": "boot",
+      "word": "boot",
+      "pos": "noun / verb",
+      "phonetic": "/buːt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bote（长靴），更早词源不明",
+      "native_definition": "a shoe that covers the ankle and part of the leg",
+      "core_concept": "a stiff tube you push your foot down into – 一只硬筒，脚塞进去踩到底",
+      "core_image": "水漫过脚踝，他把脚往一只硬筒里塞，跺两下才踩到底",
+      "chinese": [
+        "靴子",
+        "长靴",
+        "后备箱",
+        "踢"
+      ],
+      "examples": [
+        "She pulled on her rubber boots.",
+        "Put the bags in the boot."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "靴子/长靴：包住脚和小腿的那只硬筒",
+        "后备箱：车尾那个装东西的筒状空间",
+        "踢：用这只硬筒的头猛顶一下"
+      ]
+    },
+    {
+      "id": "booth",
+      "word": "booth",
+      "pos": "noun",
+      "phonetic": "/buːð/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bothe ← 古诺斯语 búð（临时住处、摊棚）",
+      "native_definition": "a small enclosed space or stall",
+      "core_concept": "three walls making just enough room for one – 三面板子围出刚够一个人的地方",
+      "core_image": "三面挡板围出一小格，人站进去刚好，外头听不清里面说话",
+      "chinese": [
+        "亭",
+        "摊位",
+        "隔间",
+        "电话间"
+      ],
+      "examples": [
+        "He voted in the polling booth.",
+        "They sat in a corner booth."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "亭/摊位：临时搭起来做买卖的一小格",
+        "隔间/电话间：三面围住、只装一两个人的空处"
+      ]
+    },
+    {
+      "id": "bore",
+      "word": "bore",
+      "pos": "verb / noun",
+      "phonetic": "/bɔː/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 borian（钻孔）← 原始日耳曼语 *burōn；「令人厌烦」义 18 世纪出现，来源不明",
+      "native_definition": "to drill a hole, or to make someone tired with dullness",
+      "core_concept": "the same dull turning going on and on – 同一个动作一圈一圈转下去，没完",
+      "core_image": "手摇钻抵着木头转了半个钟头，木屑一圈圈落下来，还是没透过去",
+      "chinese": [
+        "钻孔",
+        "使厌烦",
+        "令人讨厌的人"
+      ],
+      "examples": [
+        "They bored a hole in the wall.",
+        "His long speech bored everyone."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "钻孔：转着往里挖出一个洞",
+        "使厌烦：同一件事重复到人受不了",
+        "令人讨厌的人：一开口就让人耗着的那个"
+      ]
+    },
+    {
+      "id": "born",
+      "word": "born",
+      "pos": "adjective",
+      "phonetic": "/bɔːn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 boren，beran（生育、承载）的过去分词 ← 原始日耳曼语 *beranan",
+      "native_definition": "brought into life, or having a quality from the start",
+      "core_concept": "the moment something first comes out into the world – 一样东西第一次落到世上的那一刻",
+      "core_image": "产房门开了，护士抱出一个皱巴巴、湿漉漉的小东西，哭声第一次响起",
+      "chinese": [
+        "出生的",
+        "天生的",
+        "命中注定的"
+      ],
+      "examples": [
+        "She was born in Leeds.",
+        "He is a born leader."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "出生的：刚被生下来、第一次到世上",
+        "天生的：本事从出来那一刻就带着",
+        "命中注定的：像生下来就定好的那样"
+      ]
+    },
+    {
+      "id": "borrow",
+      "word": "borrow",
+      "pos": "verb",
+      "phonetic": "/ˈbɒrəʊ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 borgian（借入、以物作保）← 原始日耳曼语 *burg-（担保）",
+      "native_definition": "to take something for a while and give it back later",
+      "core_concept": "taking a thing on the promise of putting it back – 拿走一样东西，说好要还回去",
+      "core_image": "他把邻居的梯子扛回院里用了两天，靠墙那道印子还在，周末扛了回去",
+      "chinese": [
+        "借",
+        "借入",
+        "借用"
+      ],
+      "examples": [
+        "I need to borrow your pen.",
+        "She borrowed money from the bank."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "借/借入：把别人的东西暂时拿来用",
+        "借用：把别人的说法或做法拿过来用"
+      ]
+    },
+    {
+      "id": "bosom",
+      "word": "bosom",
+      "pos": "noun",
+      "phonetic": "/ˈbʊzəm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bōsm（怀抱）← 原始日耳曼语 *bōsmaz",
+      "native_definition": "the front of the chest, or the place of close feelings",
+      "core_concept": "the warm front you pull someone into – 把人搂进来的那片温热前襟",
+      "core_image": "孩子把脸埋进那件温软的衣襟里，哭声闷在布头下面",
+      "chinese": [
+        "胸",
+        "怀",
+        "胸怀",
+        "亲密的"
+      ],
+      "examples": [
+        "She held the child to her bosom.",
+        "They were bosom friends for years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "胸/怀：人身前那片能搂住人的地方",
+        "胸怀：心里装事的那个地方",
+        "亲密的：近到能贴着这片地方的关系"
+      ]
+    },
+    {
+      "id": "boss",
+      "word": "boss",
+      "pos": "noun / verb",
+      "phonetic": "/bɒs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "荷兰语 baas（主人、工头），19 世纪经美国英语借入",
+      "native_definition": "the person in charge of others at work",
+      "core_concept": "the one standing still while everyone else moves – 别人都在动，只有他站着看的那个",
+      "core_image": "车间里所有人都在动，只有一个人背着手站着看，谁停下来他就走过去",
+      "chinese": [
+        "老板",
+        "上司",
+        "指挥"
+      ],
+      "examples": [
+        "Ask the boss for a day off.",
+        "Stop bossing me around all day."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "老板/上司：定事、发话的那个人",
+        "指挥：站在旁边指使别人做"
+      ]
+    },
+    {
+      "id": "bother",
+      "word": "bother",
+      "pos": "verb / noun",
+      "phonetic": "/ˈbɒðə/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "18 世纪英语 bother（烦扰），可能出自爱尔兰语 bodhraim（吵得人耳聋）",
+      "native_definition": "to annoy someone, or to take trouble over something",
+      "core_concept": "something small landing on you again and again – 一点小东西反复落到你身上",
+      "core_image": "他刚坐下要写字，苍蝇又落到手背上，赶走再落，第五次把笔放下了",
+      "chinese": [
+        "打扰",
+        "烦扰",
+        "费心",
+        "麻烦"
+      ],
+      "examples": [
+        "Don't bother me while I work.",
+        "He didn't bother to reply."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "打扰/烦扰：反复来一下，让人做不成事",
+        "费心：肯为一件事多动一次手",
+        "麻烦：那点让人放下手里事的小事"
+      ]
+    },
+    {
+      "id": "bottle",
+      "word": "bottle",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbɒtl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 boteille ← 晚期拉丁语 butticula（小桶）← buttis（桶）",
+      "native_definition": "a narrow-necked container for liquid",
+      "core_concept": "a narrow neck that lets the liquid out only slowly – 颈子细，里头的水只能一点点出来",
+      "core_image": "玻璃细颈里灌满水，倒的时候得歪着等，咕咚咕咚往外冒",
+      "chinese": [
+        "瓶",
+        "瓶子",
+        "装瓶"
+      ],
+      "examples": [
+        "He opened a bottle of wine.",
+        "They bottle the milk here."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "瓶/瓶子：细颈的容器，装水装酒",
+        "装瓶：把液体灌进这种容器再封住"
+      ]
+    },
+    {
+      "id": "bottom",
+      "word": "bottom",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈbɒtəm/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 botm（底、地基）← 原始日耳曼语 *buþmaz",
+      "native_definition": "the lowest part of something",
+      "core_concept": "the lowest face, where things come to rest – 最低那一面，东西落到那里就不动了",
+      "core_image": "硬币沉下去，停在缸里最深处的泥上，隔着水还看得见",
+      "chinese": [
+        "底部",
+        "底",
+        "最下面的",
+        "臀部"
+      ],
+      "examples": [
+        "The coin sank to the bottom.",
+        "He sat on the bottom step."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "底部/底：一样东西最低那一层",
+        "最下面的：排在最末、位置最低的",
+        "臀部：人坐下去挨着地面的那块"
+      ]
+    },
+    {
+      "id": "bounce",
+      "word": "bounce",
+      "pos": "verb / noun",
+      "phonetic": "/baʊns/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bunsen（重击、猛撞），含拟声成分，更早词源不明",
+      "native_definition": "to spring back after hitting a surface",
+      "core_concept": "hitting the ground and coming straight back up – 撞到地面又直接往回上来",
+      "core_image": "球砸在水泥地上，又弹回手里，一下比一下低，最后滚到墙角",
+      "chinese": [
+        "弹跳",
+        "反弹",
+        "弹性"
+      ],
+      "examples": [
+        "The ball bounced twice on concrete.",
+        "Her hair had plenty of bounce."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "弹跳/反弹：碰到硬面立刻往回跳",
+        "弹性：一按就自己回来的那股劲"
+      ]
+    },
+    {
+      "id": "bound",
+      "word": "bound",
+      "pos": "adjective",
+      "phonetic": "/baʊnd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bindan（绑）的过去分词 bunden；「开往」义另出古诺斯语 búinn（备好的），后混同",
+      "native_definition": "tied up, or certain to do something, or heading somewhere",
+      "core_concept": "a rope already knotted, leaving no other way to go – 绳已经结死，剩不下别的走法",
+      "core_image": "手腕上绕了三圈绳，绳头压在结底下，怎么挣都松不开",
+      "chinese": [
+        "被绑住的",
+        "注定的",
+        "有义务的",
+        "开往…的"
+      ],
+      "examples": [
+        "He was bound hand and foot.",
+        "This train is bound for York."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "被绑住的：绳绕紧了，动不了",
+        "注定的：路只剩一条，非那样不可",
+        "有义务的：被约束着只能按某种方式做",
+        "开往…的：方向已经定死，只往那一处去"
+      ]
+    },
+    {
+      "id": "boundary",
+      "word": "boundary",
+      "pos": "noun",
+      "phonetic": "/ˈbaʊndri/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 bonde（界石）← 中世纪拉丁语 bodina（界标，高卢语来源）+ -ary",
+      "native_definition": "a line that marks where one area ends",
+      "core_concept": "a row of stones saying this far and no further – 一排石头立着，到这儿就不能再过去",
+      "core_image": "田埂上每隔十步立一块半人高的石头，一排连过去，那边的地就不归你了",
+      "chinese": [
+        "边界",
+        "界线",
+        "分界"
+      ],
+      "examples": [
+        "A fence marks the boundary.",
+        "They pushed the boundaries of science."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "边界/界线：划开两片地方的那条线",
+        "分界：把两样东西分在两边的那道线"
+      ]
+    },
+    {
+      "id": "bow",
+      "word": "bow",
+      "pos": "verb / noun",
+      "phonetic": "/baʊ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 būgan（弯曲）← 原始日耳曼语 *beugan；「船头」义借自低地德语 bōg（肩、弯处）",
+      "native_definition": "to bend the upper body forward, or the front part of a ship",
+      "core_concept": "the body folding forward at the middle – 身子在腰上向前折过去",
+      "core_image": "台上灯一暗，他上半身往前折过去，几乎碰到膝盖，掌声才起来",
+      "chinese": [
+        "鞠躬",
+        "弯腰",
+        "低头",
+        "船头"
+      ],
+      "examples": [
+        "He bowed to the audience.",
+        "Waves broke over the bow."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "鞠躬/弯腰/低头：上身向前折下去",
+        "船头：船最前面那个弯出去的部分"
+      ]
+    },
+    {
+      "id": "bowel",
+      "word": "bowel",
+      "pos": "noun",
+      "phonetic": "/ˈbaʊəl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 boel ← 拉丁语 botellus（小香肠，botulus 的指小形式）",
+      "native_definition": "the long tube in the body that food passes through",
+      "core_concept": "a long soft tube coiled up inside – 一根软管在里头盘成一堆",
+      "core_image": "一段软管盘在肚子里，一圈叠一圈，按下去能觉出里头在动",
+      "chinese": [
+        "肠",
+        "肠子",
+        "内部深处"
+      ],
+      "examples": [
+        "He had bowel trouble for years.",
+        "They searched the bowels of the ship."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "肠/肠子：肚子里盘着的那根软管",
+        "内部深处：像肚子里那样又深又绕的里头"
+      ]
+    },
+    {
+      "id": "bowl",
+      "word": "bowl",
+      "pos": "noun",
+      "phonetic": "/bəʊl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bolla（圆钵、圆器）← 原始日耳曼语 *bull-（圆鼓之物）",
+      "native_definition": "a round deep dish for food or liquid",
+      "core_concept": "a round hollow holding what would otherwise spread – 一个圆坑，把会摊开的东西兜住",
+      "core_image": "一只圆口深底的陶器，盛满粥还烫手，捧着能觉出重量",
+      "chinese": [
+        "碗",
+        "钵",
+        "一碗的量"
+      ],
+      "examples": [
+        "She ate a bowl of soup.",
+        "Put the fruit in the bowl."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "碗/钵：圆口深底、盛食物的器具",
+        "一碗的量：这器具装满一次的分量"
+      ]
+    },
+    {
+      "id": "box",
+      "word": "box",
+      "pos": "noun / verb",
+      "phonetic": "/bɒks/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 buxis（黄杨木盒）← 希腊语 puxis ← puxos（黄杨木）",
+      "native_definition": "a container with flat sides and a lid",
+      "core_concept": "flat sides closing all the way round something – 平面把东西四面围死",
+      "core_image": "六个平面合成一个方壳，盖子一压，里头的东西谁也看不见了",
+      "chinese": [
+        "盒子",
+        "箱",
+        "方框",
+        "拳击"
+      ],
+      "examples": [
+        "He packed the books in a box.",
+        "Tick the box on the form."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "盒子/箱：方壳，装东西还能盖住",
+        "方框：纸上四条线围成的那一小块",
+        "拳击：戴着套在四面绳围出的方台上打"
+      ]
+    },
+    {
+      "id": "boy",
+      "word": "boy",
+      "pos": "noun",
+      "phonetic": "/bɔɪ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 boi（小厮、男仆），更早词源不明",
+      "native_definition": "a young male person",
+      "core_concept": "a young male, still shorter than the grown ones – 还没长到大人那么高的那个小的",
+      "core_image": "十来岁，个头到大人腰上，裤腿卷着，一边走一边踢石子",
+      "chinese": [
+        "男孩",
+        "小男孩",
+        "儿子"
+      ],
+      "examples": [
+        "The boy ran down the street.",
+        "Their boy is now at school."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "男孩/小男孩：年纪还小的男性",
+        "儿子：家里那个年纪小的男性"
+      ]
+    },
+    {
+      "id": "boycott",
+      "word": "boycott",
+      "pos": "verb / noun",
+      "phonetic": "/ˈbɔɪkɒt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "源自人名 Charles Boycott，1880 年爱尔兰租户集体拒与其往来",
+      "native_definition": "to refuse to buy from or deal with someone as a protest",
+      "core_concept": "everyone agreeing at once to stop dealing with one party – 众人一齐说定，不再跟那一方来往",
+      "core_image": "全村商量好了，那家店门口一整天没人进，货堆在里头卖不动",
+      "chinese": [
+        "抵制",
+        "联合拒买",
+        "联合排斥"
+      ],
+      "examples": [
+        "They boycotted the company's goods.",
+        "Several nations boycotted the games."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "抵制/联合拒买：大家一起不买他的东西",
+        "联合排斥：把某一方从来往里整个排开"
+      ]
+    },
+    {
+      "id": "bracket",
+      "word": "bracket",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbrækɪt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 braguette（护裆）← 拉丁语 braca（马裤），因形状相似得名",
+      "native_definition": "a support fixed to a wall, or a pair of marks in writing",
+      "core_concept": "two arms sticking out to hold something in the middle – 两只角伸出来，把中间那样东西夹住",
+      "core_image": "墙上钉两块直角铁片，木板一搭就稳住了；那对小弯钩也这么夹住中间的字",
+      "chinese": [
+        "托架",
+        "括号",
+        "等级组"
+      ],
+      "examples": [
+        "He fixed a bracket to the wall.",
+        "Put the date in brackets."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "托架：钉在墙上托住东西的直角件",
+        "括号：一对弯钩把中间的字夹住",
+        "等级组：上下两道线夹出的那一档"
+      ]
+    },
+    {
+      "id": "brake",
+      "word": "brake",
+      "pos": "noun / verb",
+      "phonetic": "/breɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 brake（制动器），或出中低地德语 brake（碎麻器），来源不确定",
+      "native_definition": "a device that slows or stops a vehicle",
+      "core_concept": "something pressed against a turning wheel to slow it – 一样东西压住转动的轮子，让它慢下来",
+      "core_image": "下坡时他右脚踩下去，铁片贴住轮圈，吱一声，车慢下来停住",
+      "chinese": [
+        "刹车",
+        "制动器",
+        "减缓"
+      ],
+      "examples": [
+        "He slammed on the brakes.",
+        "They braked hard at the corner."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "刹车/制动器：压住轮子让车停下的那套件",
+        "减缓：把往前的势头压住一些"
+      ]
+    },
+    {
+      "id": "branch",
+      "word": "branch",
+      "pos": "noun / verb",
+      "phonetic": "/brɑːntʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 branche ← 晚期拉丁语 branca（兽爪）",
+      "native_definition": "a part growing out from the main stem, or a smaller unit of an organisation",
+      "core_concept": "one line splitting off the main stem and going its own way – 从主干上岔出一条，各走各的",
+      "core_image": "主干上斜岔出一条，越往外越细，末梢又劈成两条，叶子都长在上面",
+      "chinese": [
+        "树枝",
+        "分支",
+        "分店",
+        "分岔"
+      ],
+      "examples": [
+        "A bird sat on the branch.",
+        "The bank has branches everywhere."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "树枝：主干上长出去的那一条",
+        "分支/分店：从总的那个上分出去、各自独立的一处",
+        "分岔：一条劈成两条往不同方向走"
+      ]
+    },
+    {
+      "id": "brand",
+      "word": "brand",
+      "pos": "noun / verb",
+      "phonetic": "/brænd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brand（火、烧着的木头）← 原始日耳曼语 *brandaz（燃烧）",
+      "native_definition": "a maker's name on a product, or to mark something permanently",
+      "core_concept": "a hot iron leaving a mark that will not come off – 烙铁按一下，留下擦不掉的记号",
+      "core_image": "烧红的铁头按在牛皮上，一股白烟带焦味，松手后那个记号再也擦不掉",
+      "chinese": [
+        "品牌",
+        "牌子",
+        "烙印",
+        "打上标记"
+      ],
+      "examples": [
+        "This brand is more expensive.",
+        "The scandal branded him a liar."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "品牌/牌子：厂家按在货上、一眼认得出的那个记号",
+        "烙印：烧红的铁留下的永久痕",
+        "打上标记：把某个名声按在人身上，去不掉"
+      ]
+    },
+    {
+      "id": "brandy",
+      "word": "brandy",
+      "pos": "noun",
+      "phonetic": "/ˈbrændi/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "荷兰语 brandewijn（烧过的酒）← branden（烧）+ wijn（葡萄酒）",
+      "native_definition": "a strong drink made by heating wine",
+      "core_concept": "wine cooked down until it burns going down – 酒煮浓了，喝下去一路发烫",
+      "core_image": "小杯里晃着琥珀色的液体，一口下去从喉咙一路烧到胃里",
+      "chinese": [
+        "白兰地",
+        "烈酒"
+      ],
+      "examples": [
+        "He poured two glasses of brandy.",
+        "She sipped brandy after dinner."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "白兰地：葡萄酒蒸出来的那种烈饮",
+        "烈酒：度数高、下喉发烫的酒"
+      ]
+    },
+    {
+      "id": "brass",
+      "word": "brass",
+      "pos": "noun",
+      "phonetic": "/brɑːs/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bræs（铜锡合金），更早来源不明",
+      "native_definition": "a yellow metal made of copper and zinc",
+      "core_concept": "a hard yellow metal that shines the more it is rubbed – 一种黄硬的金属，越擦越亮",
+      "core_image": "门上那块黄澄澄的板子，天天有人擦，边角磨得发亮，摸上去凉",
+      "chinese": [
+        "黄铜",
+        "铜管乐器",
+        "铜器"
+      ],
+      "examples": [
+        "The handle is made of brass.",
+        "The brass section played loudly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "黄铜：铜里掺锡或锌得到的黄硬金属",
+        "铜管乐器：用这种金属做管身的那一组",
+        "铜器：这种金属打出来的物件"
+      ]
+    },
+    {
+      "id": "brave",
+      "word": "brave",
+      "pos": "adjective / verb",
+      "phonetic": "/breɪv/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 brave（勇敢）← 意大利语 bravo（勇猛），更早词源不明",
+      "native_definition": "willing to face danger or pain without backing off",
+      "core_concept": "going in when everything says stay out – 什么都在叫你别去，人还是进去了",
+      "core_image": "火还在烧，他把湿毛巾往头上一裹就往门里冲，后面有人喊他回来",
+      "chinese": [
+        "勇敢的",
+        "无畏的",
+        "勇敢面对"
+      ],
+      "examples": [
+        "She was brave about the pain.",
+        "He braved the freezing water."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "勇敢的/无畏的：怕也照样往前走",
+        "勇敢面对：明知难受也去经历它"
+      ]
+    },
+    {
+      "id": "breach",
+      "word": "breach",
+      "pos": "noun / verb",
+      "phonetic": "/briːtʃ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bryce（破裂）← 原始日耳曼语 *brekan（打破），词形受古法语 breche 影响",
+      "native_definition": "a gap broken in something, or the breaking of a rule",
+      "core_concept": "a hole punched through what was meant to hold – 本该拦住的东西上被打开一个洞",
+      "core_image": "海堤被浪掏开一个洞，水从那儿涌进农田，两边的土块还在往下掉",
+      "chinese": [
+        "缺口",
+        "破裂",
+        "违反",
+        "突破"
+      ],
+      "examples": [
+        "Water poured through the breach.",
+        "This is a breach of contract."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "缺口/破裂：本来完整的一处被打开",
+        "违反：把约好的那条线打破",
+        "突破：从围住的一圈上撕开一处进去"
+      ]
+    },
+    {
+      "id": "bread",
+      "word": "bread",
+      "pos": "noun",
+      "phonetic": "/bred/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brēad（碎块、烤饼）← 原始日耳曼语 *braudam",
+      "native_definition": "a baked food made from flour and water",
+      "core_concept": "flour and water baked into one lump you tear open – 面和水烤成一整块，掰开来吃",
+      "core_image": "刚出炉的一整条，外皮硬得敲得响，掰开里头是白的，热气冒出来",
+      "chinese": [
+        "面包",
+        "主食",
+        "生计"
+      ],
+      "examples": [
+        "She bought a loaf of bread.",
+        "He works to earn his bread."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "面包：面粉烤成的那一整条",
+        "主食：天天都吃的那一样",
+        "生计：养活自己的那口吃的"
+      ]
+    },
+    {
+      "id": "breadth",
+      "word": "breadth",
+      "pos": "noun",
+      "phonetic": "/bredθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brǣdu（宽度）← brād（宽）；今形受 length 的 -th 影响",
+      "native_definition": "the distance from one side to the other",
+      "core_concept": "how far it reaches from one side across to the other – 从一边横过去到另一边有多远",
+      "core_image": "卷尺横着量过桌面，从这边缘拉到那边缘，读数比长边小一半",
+      "chinese": [
+        "宽度",
+        "幅度",
+        "广度"
+      ],
+      "examples": [
+        "The room is six metres in breadth.",
+        "He has great breadth of knowledge."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "宽度：横着量出来的那个距离",
+        "幅度/广度：一样东西横向能铺开多大"
+      ]
+    },
+    {
+      "id": "break",
+      "word": "break",
+      "pos": "verb / noun",
+      "phonetic": "/breɪk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brecan（打破）← 原始日耳曼语 *brekan",
+      "native_definition": "to separate into pieces, or to stop something continuing",
+      "core_concept": "one whole thing coming apart and not going back – 整的一样东西散开，回不去了",
+      "core_image": "杯子从桌沿滑下去，落地一声，碎成好几块，谁也拼不回原样",
+      "chinese": [
+        "打破",
+        "弄坏",
+        "中断",
+        "休息"
+      ],
+      "examples": [
+        "He broke the window with a stone.",
+        "Let's take a short break."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "打破/弄坏：整的变成好几块",
+        "中断：本来连着的过程被切断",
+        "休息：把连着干的活切开一段"
+      ]
+    },
+    {
+      "id": "breast",
+      "word": "breast",
+      "pos": "noun",
+      "phonetic": "/brest/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brēost（胸）← 原始日耳曼语 *breustam",
+      "native_definition": "the front upper part of the body",
+      "core_concept": "the front of the body that rises and falls with each breath – 身前那片随呼吸起落的地方",
+      "core_image": "医生把听筒按在身前那片起伏的地方，让他吸气，听里头的动静",
+      "chinese": [
+        "胸",
+        "胸部",
+        "乳房"
+      ],
+      "examples": [
+        "He clutched the letter to his breast.",
+        "The bird has a red breast."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "胸/胸部：身体前面上半那一片",
+        "乳房：这一片上鼓起来的部分"
+      ]
+    },
+    {
+      "id": "breathe",
+      "word": "breathe",
+      "pos": "verb",
+      "phonetic": "/briːð/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brǣth（气息、蒸气）派生而来 ← 原始日耳曼语 *brēþaz",
+      "native_definition": "to take air into the body and let it out",
+      "core_concept": "air going in and coming back out, over and over – 气进去又出来，一遍接一遍",
+      "core_image": "跑完停下来，肩膀一起一落，白气一团团从嘴里冒出来，好一会儿才平",
+      "chinese": [
+        "呼吸",
+        "吸气",
+        "透气"
+      ],
+      "examples": [
+        "Breathe slowly through your nose.",
+        "He could hardly breathe after running."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "呼吸：气一进一出停不下来",
+        "吸气：把外头的气吸进身体",
+        "透气：让新的气进来换掉旧的"
+      ]
     }
   ]
 }

@@ -26,6 +26,7 @@ drafts/germanic_pool.txt 是按「拼写不含任何已建模词根的变体」�
 import argparse
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -51,11 +52,26 @@ def main():
     roots = as_list(load("roots.json"), "roots")
     words = as_list(load("words.json"), "words")
 
-    # 每个词根可用来在 origin 里匹配的拉丁/希腊词形
+    # 每个词根可用来在 origin 里匹配的拉丁/希腊词形。
+    #
+    # 【为什么不能只用 root id 与 variants】
+    # 194 个词根里有 43 个的拉丁词形短于 5 字母（fac / sta / ced / pars / fin / ag …），
+    # 占两成有余。拿它们直接去匹配必须设长度下限，否则 'ag' 之类会命中一大片；
+    # 但设了下限，这 43 个根就成了盲区——benign ← bene+genus 属 gen 根，
+    # 'gen' 只 3 字母，旧实现整个漏掉。
+    #
+    # 【解法】改从词根自己的 origin 里抽拉丁/希腊词元。那里写的是完整词形
+    # （sta 的 origin 写 stare、fac 写 facere、gen 写 genus / generare），
+    # 长度足够、辨识度高，既覆盖短 id 的根，又不必放宽长度下限。
+    lemma_pat = re.compile(r"\b([a-z][a-z]{3,})\b")
+    # 这些是 origin 里的中文说明夹带的英文，不是拉丁词元
+    STOP = {"vetted", "note", "pie", "root", "variants"}
     forms = {}
     for r in roots:
         cand = {r.get("root", "")} | set(r.get("variants") or [])
-        cand = {c for c in cand if c and len(c) >= a.min_len and c.isalpha()}
+        cand |= set(lemma_pat.findall(r.get("origin", "")))
+        cand = {c for c in cand
+                if c and len(c) >= a.min_len and c.isalpha() and c not in STOP}
         if cand:
             forms[r["id"]] = cand
 
