@@ -1630,21 +1630,18 @@
       ]
     },
     {
-      "id": "concept-placere-spot",
+      "id": "concept-platea-spot",
       "concept": "a spot where something sits",
       "chinese": "位置",
       "core_image": "把箱子搁在地上那块空处，它从此就在那儿",
       "root_ids": [
-        "placere"
+        "platea"
       ],
       "word_ids": [
-        "displace",
         "place",
         "replace",
         "replacement",
-        "please",
-        "pleasant",
-        "pleasure"
+        "displace"
       ]
     },
     {
@@ -3148,6 +3145,20 @@
         "restore",
         "storage",
         "store"
+      ]
+    },
+    {
+      "id": "concept-placere-agreeable",
+      "concept": "to sit well with the one who meets it",
+      "chinese": "正合其意",
+      "core_image": "茶端到手边，接的人眉头一松",
+      "root_ids": [
+        "placere"
+      ],
+      "word_ids": [
+        "please",
+        "pleasant",
+        "pleasure"
       ]
     }
   ]
