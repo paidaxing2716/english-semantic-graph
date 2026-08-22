@@ -17,7 +17,9 @@ v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
 v1.1    剩余词入库（可结构化的尾声）  ✅ 已完成
-        948 词 · 194 词根 · 963 关系 · 1881 例句；vetted_families 869 词次 100% 入库
+        vetted_families 869 词次 100% 入库
+v1.2    反查扩容：把被误判为「孤立词」的同族词捞回来 ← 当前
+        974 词 · 194 词根 · 989 关系 · 1933 例句；反查候选池尚余约 560 词
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径为交接时状态，已被后续批次推进）
 ```
 
@@ -318,6 +320,22 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第五十批（26 词，全部补进已建模词根，不新建根）**—— 反查工具首批收获**：
+        这批词全在 classify_wordlist.py 判定的「3682 个孤立词」里，但逐条核词源后
+        确认属已建模词根，只是词干提取按拼写聚类抓不到（receive 与 capable 拼写
+        毫无交集，却同出 capere）。候选由 scripts/find_root_members.py 反查得出，
+        再人工核词源筛定：cep ← receive/deceive/conceive/perceive/capture/captive；
+        pars ← participate/participant/particle/particular/apart/apartment；
+        metron ← diameter/parameter/thermometer/geometry/centimetre；
+        tract ← treat/treaty/retreat；signum ← signature/significance/significant；
+        stringere ← strict/restrict/district。974 词 · 194 词根。
+        剔除的同形异源候选（勿再捡回）：captain/capital ← caput（头）非 capere；
+        metropolitan ← mētēr（母）+ polis 非 metron；cemetery ← koimētērion；
+        string ← 原始日耳曼语 *strangiz 非 stringere；standpoint 为英语自造复合词。
+        48 个候选收 26、剔 7、余下 partner/party 等留待专批，精度与抽样估计的 85% 吻合。
+        check_lexicon_gap.py 首次派上用场：拦下 undeceive（非通用词且命中
+        SUSPECT_PREFIXES），另把 asunder/speck/observer/mathematics/autograph 换成
+        已核验的词元，白名单只补 6 词，本批 merge 一次过、无回滚
 - [x] 第四十九批（18 词，七新词根族）**—— vetted 869 词收尾**：praeesse（就在眼前：
         present/presence/presently）+ profiteri（当众声明：profession/professor）
         + filum（沿边描线：profile）+ sperare（顺所盼而成：prosper/prosperity/

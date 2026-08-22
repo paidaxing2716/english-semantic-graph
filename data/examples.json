@@ -13167,6 +13167,370 @@
       "text": "The phone has 128GB of storage.",
       "source": "AI 生成 · 人工审核",
       "scene": "阁楼腾出半间，箱子摞起来到房梁"
+    },
+    {
+      "id": "ex-receive-1",
+      "word_id": "receive",
+      "text": "She received a letter this morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口递进来一个包裹，他伸手接过，签了字"
+    },
+    {
+      "id": "ex-receive-2",
+      "word_id": "receive",
+      "text": "The hotel receives guests all year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口递进来一个包裹，他伸手接过，签了字"
+    },
+    {
+      "id": "ex-deceive-1",
+      "word_id": "deceive",
+      "text": "He deceived his own family for years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把掺了水的那壶递过去，对方没尝出来"
+    },
+    {
+      "id": "ex-deceive-2",
+      "word_id": "deceive",
+      "text": "Do not let appearances deceive you.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把掺了水的那壶递过去，对方没尝出来"
+    },
+    {
+      "id": "ex-conceive-1",
+      "word_id": "conceive",
+      "text": "She conceived the plan on the train.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那个念头一进脑子就慢慢长出了轮廓"
+    },
+    {
+      "id": "ex-conceive-2",
+      "word_id": "conceive",
+      "text": "They could not conceive a child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那个念头一进脑子就慢慢长出了轮廓"
+    },
+    {
+      "id": "ex-perceive-1",
+      "word_id": "perceive",
+      "text": "She perceived a change in his tone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风里那点异味被他一下接住，立刻回头看"
+    },
+    {
+      "id": "ex-perceive-2",
+      "word_id": "perceive",
+      "text": "He is perceived as a fair judge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风里那点异味被他一下接住，立刻回头看"
+    },
+    {
+      "id": "ex-capture-1",
+      "word_id": "capture",
+      "text": "The escaped animal was captured at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "网一收，方才还在跳的那条被兜住了"
+    },
+    {
+      "id": "ex-capture-2",
+      "word_id": "capture",
+      "text": "The photo captured her expression.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "网一收，方才还在跳的那条被兜住了"
+    },
+    {
+      "id": "ex-captive-1",
+      "word_id": "captive",
+      "text": "The captives were released at last.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子系在木桩上，那人整夜没能挪出那个圈"
+    },
+    {
+      "id": "ex-captive-2",
+      "word_id": "captive",
+      "text": "He was held captive for a month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子系在木桩上，那人整夜没能挪出那个圈"
+    },
+    {
+      "id": "ex-participate-1",
+      "word_id": "participate",
+      "text": "She participates in every rehearsal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个人各领一段绳，一头一个攥着往上拉"
+    },
+    {
+      "id": "ex-participate-2",
+      "word_id": "participate",
+      "text": "Only members may participate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个人各领一段绳，一头一个攥着往上拉"
+    },
+    {
+      "id": "ex-participant-1",
+      "word_id": "participant",
+      "text": "Each participant received a badge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上每个名字后头都跟着一段分给他的活"
+    },
+    {
+      "id": "ex-participant-2",
+      "word_id": "participant",
+      "text": "Twelve participants signed up.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上每个名字后头都跟着一段分给他的活"
+    },
+    {
+      "id": "ex-particle-1",
+      "word_id": "particle",
+      "text": "Dust particles hung in the light.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "光柱里浮着数不清的细屑，一粒一粒看得见"
+    },
+    {
+      "id": "ex-particle-2",
+      "word_id": "particle",
+      "text": "There is not a particle of truth in it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "光柱里浮着数不清的细屑，一粒一粒看得见"
+    },
+    {
+      "id": "ex-particular-1",
+      "word_id": "particular",
+      "text": "This particular case is different.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从一摞里单挑出那一份，别的都不看"
+    },
+    {
+      "id": "ex-particular-2",
+      "word_id": "particular",
+      "text": "He is particular about his coffee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从一摞里单挑出那一份，别的都不看"
+    },
+    {
+      "id": "ex-apart-1",
+      "word_id": "apart",
+      "text": "They stood ten metres apart.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只箱子摆在屋子两头，中间空出一大片"
+    },
+    {
+      "id": "ex-apart-2",
+      "word_id": "apart",
+      "text": "The old chair fell apart.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两只箱子摆在屋子两头，中间空出一大片"
+    },
+    {
+      "id": "ex-apartment-1",
+      "word_id": "apartment",
+      "text": "They rent an apartment downtown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一层楼被墙隔成几户，各有各的门"
+    },
+    {
+      "id": "ex-apartment-2",
+      "word_id": "apartment",
+      "text": "Her apartment is on the third floor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一层楼被墙隔成几户，各有各的门"
+    },
+    {
+      "id": "ex-diameter-1",
+      "word_id": "diameter",
+      "text": "The circle has a diameter of ten centimetres.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条线从圆边穿过正中，抵到对面那一点"
+    },
+    {
+      "id": "ex-diameter-2",
+      "word_id": "diameter",
+      "text": "Measure the diameter of the pipe.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条线从圆边穿过正中，抵到对面那一点"
+    },
+    {
+      "id": "ex-parameter-1",
+      "word_id": "parameter",
+      "text": "Set the parameters before running the test.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旋钮定在几个刻度上，机器只在这几档之内动"
+    },
+    {
+      "id": "ex-parameter-2",
+      "word_id": "parameter",
+      "text": "We must work within these parameters.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旋钮定在几个刻度上，机器只在这几档之内动"
+    },
+    {
+      "id": "ex-thermometer-1",
+      "word_id": "thermometer",
+      "text": "The thermometer read thirty degrees.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玻璃管里那道细红线随冷热上下爬"
+    },
+    {
+      "id": "ex-thermometer-2",
+      "word_id": "thermometer",
+      "text": "Put the thermometer under your arm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玻璃管里那道细红线随冷热上下爬"
+    },
+    {
+      "id": "ex-geometry-1",
+      "word_id": "geometry",
+      "text": "She teaches geometry to first-years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拿绳量地，边长与夹角一一记下"
+    },
+    {
+      "id": "ex-geometry-2",
+      "word_id": "geometry",
+      "text": "The geometry of the roof is complex.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "拿绳量地，边长与夹角一一记下"
+    },
+    {
+      "id": "ex-centimetre-1",
+      "word_id": "centimetre",
+      "text": "The line is four centimetres long.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "尺子上一米被均分成一百格，取其中一格"
+    },
+    {
+      "id": "ex-centimetre-2",
+      "word_id": "centimetre",
+      "text": "Cut two centimetres off the end.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "尺子上一米被均分成一百格，取其中一格"
+    },
+    {
+      "id": "ex-treat-1",
+      "word_id": "treat",
+      "text": "They treated her with respect.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那件事拉到手边，一条一条过"
+    },
+    {
+      "id": "ex-treat-2",
+      "word_id": "treat",
+      "text": "The doctor treated his wound.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把那件事拉到手边，一条一条过"
+    },
+    {
+      "id": "ex-treaty-1",
+      "word_id": "treaty",
+      "text": "The treaty was signed in Vienna.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两方被拉到一张桌前，谈定的每条都写进纸里"
+    },
+    {
+      "id": "ex-treaty-2",
+      "word_id": "treaty",
+      "text": "Both sides honoured the treaty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两方被拉到一张桌前，谈定的每条都写进纸里"
+    },
+    {
+      "id": "ex-retreat-1",
+      "word_id": "retreat",
+      "text": "The army retreated at nightfall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍把自己往后拉，一步步离开那道坡"
+    },
+    {
+      "id": "ex-retreat-2",
+      "word_id": "retreat",
+      "text": "She spends August at a mountain retreat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍把自己往后拉，一步步离开那道坡"
+    },
+    {
+      "id": "ex-signature-1",
+      "word_id": "signature",
+      "text": "Put your signature at the bottom.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在末尾落下自己那道熟手的笔迹，认作己出"
+    },
+    {
+      "id": "ex-signature-2",
+      "word_id": "signature",
+      "text": "The dish is the chef's signature.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在末尾落下自己那道熟手的笔迹，认作己出"
+    },
+    {
+      "id": "ex-significance-1",
+      "word_id": "significance",
+      "text": "The date has special significance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那道刻痕反复被人提起，才显出当初为何划它"
+    },
+    {
+      "id": "ex-significance-2",
+      "word_id": "significance",
+      "text": "They stressed the significance of the find.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那道刻痕反复被人提起，才显出当初为何划它"
+    },
+    {
+      "id": "ex-significant-1",
+      "word_id": "significant",
+      "text": "There was a significant rise in costs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满页里只有那一处被划了记号，看的人都停在那儿"
+    },
+    {
+      "id": "ex-significant-2",
+      "word_id": "significant",
+      "text": "It is a significant step forward.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满页里只有那一处被划了记号，看的人都停在那儿"
+    },
+    {
+      "id": "ex-strict-1",
+      "word_id": "strict",
+      "text": "The school has strict rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子拉到最紧，连一点回弹的余地都没有"
+    },
+    {
+      "id": "ex-strict-2",
+      "word_id": "strict",
+      "text": "He is strict about deadlines.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子拉到最紧，连一点回弹的余地都没有"
+    },
+    {
+      "id": "ex-restrict-1",
+      "word_id": "restrict",
+      "text": "They restricted access to the site.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳往回一收，能走动的那圈跟着小了一半"
+    },
+    {
+      "id": "ex-restrict-2",
+      "word_id": "restrict",
+      "text": "Her diet restricts salt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳往回一收，能走动的那圈跟着小了一半"
+    },
+    {
+      "id": "ex-district-1",
+      "word_id": "district",
+      "text": "She grew up in the old district.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "界线一圈拉起来，圈内归一处管"
+    },
+    {
+      "id": "ex-district-2",
+      "word_id": "district",
+      "text": "The school district covers three towns.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "界线一圈拉起来，圈内归一处管"
     }
   ]
 }

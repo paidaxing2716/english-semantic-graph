@@ -86,7 +86,10 @@
         "subtract",
         "attraction",
         "traction",
-        "attractive"
+        "attractive",
+        "treat",
+        "treaty",
+        "retreat"
       ]
     },
     {
@@ -492,7 +495,13 @@
         "partly",
         "compartment",
         "counterpart",
-        "proportion"
+        "proportion",
+        "participate",
+        "participant",
+        "particle",
+        "particular",
+        "apart",
+        "apartment"
       ]
     },
     {
@@ -617,7 +626,10 @@
         "resign",
         "sign",
         "signal",
-        "signify"
+        "signify",
+        "signature",
+        "significance",
+        "significant"
       ]
     },
     {
@@ -2225,7 +2237,13 @@
         "except",
         "receipt",
         "susceptible",
-        "accept"
+        "accept",
+        "receive",
+        "deceive",
+        "conceive",
+        "perceive",
+        "capture",
+        "captive"
       ]
     },
     {
@@ -2619,7 +2637,10 @@
       "word_ids": [
         "constrain",
         "restrain",
-        "strain"
+        "strain",
+        "strict",
+        "restrict",
+        "district"
       ]
     },
     {
@@ -2909,7 +2930,12 @@
       "word_ids": [
         "metre",
         "metric",
-        "symmetry"
+        "symmetry",
+        "diameter",
+        "parameter",
+        "thermometer",
+        "geometry",
+        "centimetre"
       ]
     },
     {

@@ -1,0 +1,1004 @@
+{
+  "words": [
+    {
+      "id": "receive",
+      "word": "receive",
+      "pos": "verb",
+      "phonetic": "/rɪˈsiːv/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "re-（回）+ ceive（接住）→ 把递来的接到手里",
+      "origin": "古法语 receivre，来自拉丁语 recipere（收取）← re＋capere（抓取）",
+      "native_definition": "to be given or sent something; to take delivery of",
+      "core_concept": "closing the hand on what has been sent one's way – 把送到跟前的东西接进手里",
+      "core_image": "门口递进来一个包裹，他伸手接过，签了字",
+      "chinese": [
+        "收到",
+        "接受",
+        "接待"
+      ],
+      "examples": [
+        "She received a letter this morning.",
+        "The hotel receives guests all year."
+      ],
+      "synonyms": [
+        "accept",
+        "obtain"
+      ],
+      "antonyms": [
+        "send",
+        "reject"
+      ],
+      "related": [
+        "reception",
+        "deceive"
+      ],
+      "semantic_expansions": [
+        "收到/接受：把送来的接进手里",
+        "接待：把来客接进门"
+      ],
+      "recall_hint": "re-（回）+ ceive（接住）→ 把递来的接到手里"
+    },
+    {
+      "id": "deceive",
+      "word": "deceive",
+      "pos": "verb",
+      "phonetic": "/dɪˈsiːv/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "de-（脱开正道）+ ceive（接住）→ 让人接住的是假的 → 欺骗",
+      "origin": "古法语 deceivre，来自拉丁语 decipere（诱骗）← de＋capere（抓取）",
+      "native_definition": "to make someone believe something that is not true",
+      "core_concept": "handing over something false for the other to take as real – 递过去一件假的，让对方当真接下",
+      "core_image": "他把掺了水的那壶递过去，对方没尝出来",
+      "chinese": [
+        "欺骗",
+        "蒙骗",
+        "误导"
+      ],
+      "examples": [
+        "He deceived his own family for years.",
+        "Do not let appearances deceive you."
+      ],
+      "synonyms": [
+        "mislead",
+        "cheat"
+      ],
+      "antonyms": [
+        "enlighten"
+      ],
+      "related": [
+        "receive",
+        "conceive"
+      ],
+      "semantic_expansions": [
+        "欺骗/蒙骗：递过去假的让人当真接下",
+        "误导：使人接住的判断偏了道"
+      ],
+      "recall_hint": "de-（脱开正道）+ ceive（接住）→ 让人接下假的"
+    },
+    {
+      "id": "conceive",
+      "word": "conceive",
+      "pos": "verb",
+      "phonetic": "/kənˈsiːv/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "con-（收进）+ ceive（接住）→ 接进来在里头成形 → 构想；亦指怀胎",
+      "origin": "古法语 conceivre，来自拉丁语 concipere（收纳、孕育）← con＋capere",
+      "native_definition": "to form an idea in the mind; to become pregnant",
+      "core_concept": "taking a thing in and letting it take shape inside – 接进来，让它在里头长成形",
+      "core_image": "那个念头一进脑子就慢慢长出了轮廓",
+      "chinese": [
+        "构想",
+        "设想",
+        "怀孕"
+      ],
+      "examples": [
+        "She conceived the plan on the train.",
+        "They could not conceive a child."
+      ],
+      "synonyms": [
+        "imagine",
+        "devise"
+      ],
+      "antonyms": [],
+      "related": [
+        "receive",
+        "perceive"
+      ],
+      "semantic_expansions": [
+        "构想/设想：接进来在心里长成形",
+        "怀孕：同一个「接进来使成形」用在孕育上"
+      ],
+      "recall_hint": "con-（收进）+ ceive（接住）→ 接进来在里头成形"
+    },
+    {
+      "id": "perceive",
+      "word": "perceive",
+      "pos": "verb",
+      "phonetic": "/pəˈsiːv/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "per-（彻底）+ ceive（接住）→ 把外来讯息完整接住 → 察觉",
+      "origin": "古法语 perceivre，来自拉丁语 percipere（察知）← per＋capere",
+      "native_definition": "to become aware of something through the senses; to regard in a certain way",
+      "core_concept": "catching what comes in fully enough to know it – 把送进来的接得够全，于是知道了",
+      "core_image": "风里那点异味被他一下接住，立刻回头看",
+      "chinese": [
+        "察觉",
+        "感知",
+        "看待"
+      ],
+      "examples": [
+        "She perceived a change in his tone.",
+        "He is perceived as a fair judge."
+      ],
+      "synonyms": [
+        "notice",
+        "discern"
+      ],
+      "antonyms": [
+        "overlook"
+      ],
+      "related": [
+        "receive",
+        "conceive"
+      ],
+      "semantic_expansions": [
+        "察觉/感知：把外来讯息接得够全而知晓",
+        "看待：接住之后认定成某个样子"
+      ],
+      "recall_hint": "per-（彻底）+ ceive（接住）→ 把讯息接得够全"
+    },
+    {
+      "id": "capture",
+      "word": "capture",
+      "pos": "verb",
+      "phonetic": "/ˈkæptʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "capt（抓取）+ -ure → 一把抓到手里 → 捕获；引申为把景象留住",
+      "origin": "法语 capture，来自拉丁语 captura（捕获）← capere（抓取）",
+      "native_definition": "to catch a person or animal; to record or preserve something",
+      "core_concept": "closing the hand on what was loose – 把在外头的一把抓进手里",
+      "core_image": "网一收，方才还在跳的那条被兜住了",
+      "chinese": [
+        "捕获",
+        "夺取",
+        "捕捉"
+      ],
+      "examples": [
+        "The escaped animal was captured at dawn.",
+        "The photo captured her expression."
+      ],
+      "synonyms": [
+        "seize",
+        "catch"
+      ],
+      "antonyms": [
+        "release",
+        "free"
+      ],
+      "related": [
+        "captive",
+        "receive"
+      ],
+      "semantic_expansions": [
+        "捕获/夺取：一把抓到手里",
+        "捕捉：把稍纵即逝的景象留住"
+      ],
+      "recall_hint": "capt（抓取）+ -ure → 一把抓到手里"
+    },
+    {
+      "id": "captive",
+      "word": "captive",
+      "pos": "noun",
+      "phonetic": "/ˈkæptɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "capt（抓取）+ -ive → 已被抓住、脱不了身的那个",
+      "origin": "拉丁语 captivus（被俘的），来自 captus（capere 的过去分词）",
+      "native_definition": "a person kept as a prisoner; held and unable to leave",
+      "core_concept": "the one already in the closed hand – 已经落在合起来那只手里的人",
+      "core_image": "绳子系在木桩上，那人整夜没能挪出那个圈",
+      "chinese": [
+        "俘虏",
+        "被囚者"
+      ],
+      "examples": [
+        "The captives were released at last.",
+        "He was held captive for a month."
+      ],
+      "synonyms": [
+        "prisoner",
+        "hostage"
+      ],
+      "antonyms": [
+        "captor"
+      ],
+      "related": [
+        "capture",
+        "receive"
+      ],
+      "semantic_expansions": [
+        "俘虏/被囚者：已被抓住、脱不了身的那个"
+      ],
+      "recall_hint": "capt（抓取）+ -ive → 已被抓住脱不了身的"
+    },
+    {
+      "id": "participate",
+      "word": "participate",
+      "pos": "verb",
+      "phonetic": "/pɑːˈtɪsɪpeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "parti（份）+ cip（取）+ -ate → 领走自己那一份 → 加入其中",
+      "origin": "拉丁语 participare（分享、参与），来自 pars（份）＋capere（取）",
+      "native_definition": "to take part in an activity or event",
+      "core_concept": "taking up one's own share of a joint doing – 在共做的事里领走属于自己那一份",
+      "core_image": "几个人各领一段绳，一头一个攥着往上拉",
+      "chinese": [
+        "参加",
+        "参与"
+      ],
+      "examples": [
+        "She participates in every rehearsal.",
+        "Only members may participate."
+      ],
+      "synonyms": [
+        "join",
+        "engage"
+      ],
+      "antonyms": [
+        "abstain"
+      ],
+      "related": [
+        "participant",
+        "particle"
+      ],
+      "semantic_expansions": [
+        "参加/参与：在共做之事里领走自己那一份"
+      ],
+      "recall_hint": "parti（份）+ cip（取）→ 领走自己那一份"
+    },
+    {
+      "id": "participant",
+      "word": "participant",
+      "pos": "noun",
+      "phonetic": "/pɑːˈtɪsɪpənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "participate（领份加入）+ -ant（人）→ 领了一份、在其中的那个人",
+      "origin": "拉丁语 participans，participare 的现在分词",
+      "native_definition": "a person who takes part in something",
+      "core_concept": "the one holding a share of the work – 手里攥着一份活的那个人",
+      "core_image": "名单上每个名字后头都跟着一段分给他的活",
+      "chinese": [
+        "参与者",
+        "参加者"
+      ],
+      "examples": [
+        "Each participant received a badge.",
+        "Twelve participants signed up."
+      ],
+      "synonyms": [
+        "member",
+        "contributor"
+      ],
+      "antonyms": [
+        "witness"
+      ],
+      "related": [
+        "participate",
+        "particular"
+      ],
+      "semantic_expansions": [
+        "参与者/参加者：领了一份、身在其中的人"
+      ],
+      "recall_hint": "participate（领份加入）+ -ant → 领了一份的那个人"
+    },
+    {
+      "id": "particle",
+      "word": "particle",
+      "pos": "noun",
+      "phonetic": "/ˈpɑːtɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "parti（份）+ -cle（小）→ 份里最小的那一点",
+      "origin": "拉丁语 particula（小部分），pars 的指小形",
+      "native_definition": "an extremely small piece of matter",
+      "core_concept": "the smallest share a thing can be broken into – 一物能分到的最小那一份",
+      "core_image": "光柱里浮着数不清的细屑，一粒一粒看得见",
+      "chinese": [
+        "微粒",
+        "粒子",
+        "极少量"
+      ],
+      "examples": [
+        "Dust particles hung in the light.",
+        "There is not a particle of truth in it."
+      ],
+      "synonyms": [
+        "grain",
+        "fragment"
+      ],
+      "antonyms": [
+        "mass"
+      ],
+      "related": [
+        "particular",
+        "participate"
+      ],
+      "semantic_expansions": [
+        "微粒/粒子：份里最小的那一点",
+        "极少量：小到只剩一点点的那个量"
+      ],
+      "recall_hint": "parti（份）+ -cle（小）→ 份里最小的那一点"
+    },
+    {
+      "id": "particular",
+      "word": "particular",
+      "pos": "adjective",
+      "phonetic": "/pəˈtɪkjələ(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "particul（小份）+ -ar（…的）→ 单指其中那一份的 → 特定的；引申为挑剔",
+      "origin": "拉丁语 particularis（属于部分的），来自 particula",
+      "native_definition": "specific rather than general; hard to please",
+      "core_concept": "singling out one share instead of the whole – 从整体里只指定那一份",
+      "core_image": "他从一摞里单挑出那一份，别的都不看",
+      "chinese": [
+        "特定的",
+        "挑剔的",
+        "详情"
+      ],
+      "examples": [
+        "This particular case is different.",
+        "He is particular about his coffee."
+      ],
+      "synonyms": [
+        "specific",
+        "fussy"
+      ],
+      "antonyms": [
+        "general"
+      ],
+      "related": [
+        "particle",
+        "participant"
+      ],
+      "semantic_expansions": [
+        "特定的：从整体里只指定那一份",
+        "挑剔的：只肯要合意那一份",
+        "详情：逐份说清的那些条目"
+      ],
+      "recall_hint": "particul（小份）+ -ar → 只指定其中那一份"
+    },
+    {
+      "id": "apart",
+      "word": "apart",
+      "pos": "adverb",
+      "phonetic": "/əˈpɑːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "a-（ad- 朝）+ part（份）→ 各归各份 → 分处两边",
+      "origin": "古法语 a part（各自一边），来自拉丁语 ad partem（朝各份）",
+      "native_definition": "separated by a distance; into pieces",
+      "core_concept": "each share standing off on its own – 各份各占一边，中间空着",
+      "core_image": "两只箱子摆在屋子两头，中间空出一大片",
+      "chinese": [
+        "分开",
+        "相隔",
+        "除外"
+      ],
+      "examples": [
+        "They stood ten metres apart.",
+        "The old chair fell apart."
+      ],
+      "synonyms": [
+        "separately"
+      ],
+      "antonyms": [
+        "together"
+      ],
+      "related": [
+        "apartment",
+        "part"
+      ],
+      "semantic_expansions": [
+        "分开/相隔：各份各占一边",
+        "除外：把那一份单撇出去不算"
+      ],
+      "recall_hint": "a-（朝）+ part（份）→ 各归各份、分处两边"
+    },
+    {
+      "id": "apartment",
+      "word": "apartment",
+      "pos": "noun",
+      "phonetic": "/əˈpɑːtmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pars"
+      ],
+      "root_logic": "apart（各归各份）+ -ment → 整栋被隔出来的那一户",
+      "origin": "法语 appartement，来自意大利语 appartamento ← a parte（各自一边）",
+      "native_definition": "a set of rooms in a building, used as one home",
+      "core_concept": "the share a building is divided into – 整栋房子分出来的那一份",
+      "core_image": "一层楼被墙隔成几户，各有各的门",
+      "chinese": [
+        "公寓",
+        "套房"
+      ],
+      "examples": [
+        "They rent an apartment downtown.",
+        "Her apartment is on the third floor."
+      ],
+      "synonyms": [
+        "flat",
+        "residence"
+      ],
+      "antonyms": [],
+      "related": [
+        "apart",
+        "part"
+      ],
+      "semantic_expansions": [
+        "公寓/套房：整栋房子隔出来的那一份"
+      ],
+      "recall_hint": "apart（各归各份）+ -ment → 隔出来的那一户"
+    },
+    {
+      "id": "diameter",
+      "word": "diameter",
+      "pos": "noun",
+      "phonetic": "/daɪˈæmɪtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "dia-（穿过）+ meter（量度）→ 穿过圆心量出的那条长",
+      "origin": "希腊语 diametros（横贯的线），来自 dia（穿过）＋metron（量度）",
+      "native_definition": "a straight line passing through the centre of a circle",
+      "core_concept": "the length measured straight across through the middle – 从中间穿过去量出的那一段长",
+      "core_image": "一条线从圆边穿过正中，抵到对面那一点",
+      "chinese": [
+        "直径"
+      ],
+      "examples": [
+        "The circle has a diameter of ten centimetres.",
+        "Measure the diameter of the pipe."
+      ],
+      "synonyms": [
+        "breadth",
+        "width"
+      ],
+      "antonyms": [
+        "radius"
+      ],
+      "related": [
+        "parameter",
+        "centimetre"
+      ],
+      "semantic_expansions": [
+        "直径：穿过圆心量出的那条长"
+      ],
+      "recall_hint": "dia-（穿过）+ meter（量度）→ 穿过正中量出的长"
+    },
+    {
+      "id": "parameter",
+      "word": "parameter",
+      "pos": "noun",
+      "phonetic": "/pəˈræmɪtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "para-（旁）+ meter（量度）→ 旁边立起的量尺 → 划定范围的那个量",
+      "origin": "希腊语 para（旁）＋metron（量度），经近代科学用语入英语",
+      "native_definition": "a limit or boundary that defines the scope of something",
+      "core_concept": "the rod set alongside to mark how far a thing may go – 旁边立一根尺，定住它能走多远",
+      "core_image": "旋钮定在几个刻度上，机器只在这几档之内动",
+      "chinese": [
+        "参数",
+        "参量",
+        "界限"
+      ],
+      "examples": [
+        "Set the parameters before running the test.",
+        "We must work within these parameters."
+      ],
+      "synonyms": [
+        "limit",
+        "variable"
+      ],
+      "antonyms": [],
+      "related": [
+        "diameter",
+        "thermometer"
+      ],
+      "semantic_expansions": [
+        "参数/参量：旁边立起、用来定量的那个尺度",
+        "界限：这把尺划出的可行范围"
+      ],
+      "recall_hint": "para-（旁）+ meter（量度）→ 旁立一尺定住范围"
+    },
+    {
+      "id": "thermometer",
+      "word": "thermometer",
+      "pos": "noun",
+      "phonetic": "/θəˈmɒmɪtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "thermo-（热）+ meter（量度）→ 量热的那件器具",
+      "origin": "希腊语 thermos（热）＋metron（量度），17 世纪造词",
+      "native_definition": "an instrument for measuring temperature",
+      "core_concept": "the tool that puts a number on how hot a thing is – 把冷热读成数字的那件器具",
+      "core_image": "玻璃管里那道细红线随冷热上下爬",
+      "chinese": [
+        "温度计",
+        "体温计"
+      ],
+      "examples": [
+        "The thermometer read thirty degrees.",
+        "Put the thermometer under your arm."
+      ],
+      "synonyms": [
+        "gauge",
+        "instrument"
+      ],
+      "antonyms": [],
+      "related": [
+        "parameter",
+        "diameter"
+      ],
+      "semantic_expansions": [
+        "温度计/体温计：把冷热量成数字的那件器具"
+      ],
+      "recall_hint": "thermo-（热）+ meter（量度）→ 量热的器具"
+    },
+    {
+      "id": "geometry",
+      "word": "geometry",
+      "pos": "noun",
+      "phonetic": "/dʒiˈɒmətri/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "geo-（地）+ metr（量度）+ -y → 本是量地之术，后成研究形与空间的学问",
+      "origin": "希腊语 geōmetria（测地术），来自 gē（地）＋metron（量度）",
+      "native_definition": "the branch of mathematics dealing with shapes and space",
+      "core_concept": "what began as measuring the ground and grew into the study of shape – 起于量地，后来专研形状与空间",
+      "core_image": "拿绳量地，边长与夹角一一记下",
+      "chinese": [
+        "几何学",
+        "几何结构"
+      ],
+      "examples": [
+        "She teaches geometry to first-years.",
+        "The geometry of the roof is complex."
+      ],
+      "synonyms": [
+        "arithmetic",
+        "structure"
+      ],
+      "antonyms": [],
+      "related": [
+        "diameter",
+        "centimetre"
+      ],
+      "semantic_expansions": [
+        "几何学：起于量地、后专研形状空间的学问",
+        "几何结构：某物在形状上的排布"
+      ],
+      "recall_hint": "geo-（地）+ metr（量度）→ 起于量地的形状之学"
+    },
+    {
+      "id": "centimetre",
+      "word": "centimetre",
+      "pos": "noun",
+      "phonetic": "/ˈsentɪmiːtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "centi-（百分之一）+ metre（米）→ 一米的百分之一",
+      "origin": "法语 centimètre，由拉丁 centum（百）＋希腊 metron（量度）合成",
+      "native_definition": "a unit of length equal to one hundredth of a metre",
+      "core_concept": "one of the hundred parts a metre is cut into – 一米均分成百份里的一份",
+      "core_image": "尺子上一米被均分成一百格，取其中一格",
+      "chinese": [
+        "厘米",
+        "公分"
+      ],
+      "examples": [
+        "The line is four centimetres long.",
+        "Cut two centimetres off the end."
+      ],
+      "synonyms": [
+        "unit",
+        "measure"
+      ],
+      "antonyms": [],
+      "related": [
+        "metre",
+        "geometry"
+      ],
+      "semantic_expansions": [
+        "厘米/公分：一米均分成百份后的一份"
+      ],
+      "recall_hint": "centi-（百分之一）+ metre（米）→ 一米的百分之一"
+    },
+    {
+      "id": "treat",
+      "word": "treat",
+      "pos": "verb",
+      "phonetic": "/triːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "tractare（反复拉扯、处置）→ 把事拉到手上处置 → 对待、医治",
+      "origin": "古法语 traitier，来自拉丁语 tractare（处理），trahere（拉）的反复体",
+      "native_definition": "to behave toward someone in a certain way; to give medical care",
+      "core_concept": "drawing a matter to hand and dealing with it – 把事拉到手边，一样样处置",
+      "core_image": "他把那件事拉到手边，一条一条过",
+      "chinese": [
+        "对待",
+        "治疗",
+        "款待"
+      ],
+      "examples": [
+        "They treated her with respect.",
+        "The doctor treated his wound."
+      ],
+      "synonyms": [
+        "handle",
+        "cure"
+      ],
+      "antonyms": [
+        "neglect"
+      ],
+      "related": [
+        "treaty",
+        "retreat"
+      ],
+      "semantic_expansions": [
+        "对待：把事或人拉到手边如此处置",
+        "治疗：把病拉到手上处置",
+        "款待：以酒食待客这般处置"
+      ],
+      "recall_hint": "tractare（拉到手上处置）→ 对待、医治"
+    },
+    {
+      "id": "treaty",
+      "word": "treaty",
+      "pos": "noun",
+      "phonetic": "/ˈtriːti/",
+      "decomposable": "root",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "treat（处置、商议）+ -y → 商议处置之后立下的文书",
+      "origin": "古法语 traité，来自拉丁语 tractatus（处理、论述）← tractare",
+      "native_definition": "a formal agreement between countries",
+      "core_concept": "what two sides set down after drawing the matter out together – 两方把事拉到一处议定后写下的那纸",
+      "core_image": "两方被拉到一张桌前，谈定的每条都写进纸里",
+      "chinese": [
+        "条约",
+        "协定"
+      ],
+      "examples": [
+        "The treaty was signed in Vienna.",
+        "Both sides honoured the treaty."
+      ],
+      "synonyms": [
+        "pact",
+        "accord"
+      ],
+      "antonyms": [
+        "dispute"
+      ],
+      "related": [
+        "treat",
+        "retreat"
+      ],
+      "semantic_expansions": [
+        "条约/协定：两方议定后写下的那纸文书"
+      ],
+      "recall_hint": "treat（商议处置）+ -y → 议定后立下的文书"
+    },
+    {
+      "id": "retreat",
+      "word": "retreat",
+      "pos": "verb",
+      "phonetic": "/rɪˈtriːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tract"
+      ],
+      "root_logic": "re-（往回）+ treat（拉）→ 把自己往回拉 → 撤退；名词亦指退居之所",
+      "origin": "古法语 retrait（退回），来自拉丁语 retrahere（拉回）← re＋trahere",
+      "native_definition": "to move back from a position; a quiet place to withdraw to",
+      "core_concept": "drawing oneself back from where one stood – 把自己从原处往回拉",
+      "core_image": "队伍把自己往后拉，一步步离开那道坡",
+      "chinese": [
+        "撤退",
+        "后退",
+        "静居处"
+      ],
+      "examples": [
+        "The army retreated at nightfall.",
+        "She spends August at a mountain retreat."
+      ],
+      "synonyms": [
+        "withdraw",
+        "refuge"
+      ],
+      "antonyms": [
+        "advance"
+      ],
+      "related": [
+        "treat",
+        "treaty"
+      ],
+      "semantic_expansions": [
+        "撤退/后退：把自己往回拉离原处",
+        "静居处：退到那里图个清静的地方"
+      ],
+      "recall_hint": "re-（往回）+ treat（拉）→ 把自己往回拉"
+    },
+    {
+      "id": "signature",
+      "word": "signature",
+      "pos": "noun",
+      "phonetic": "/ˈsɪɡnətʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "sign（记号）+ -ature → 亲手画下、认作己出的那道记号",
+      "origin": "中世纪拉丁语 signatura（盖印），来自 signare（标记）← signum（记号）",
+      "native_definition": "a person's name written by themselves; a distinctive mark",
+      "core_concept": "the mark one draws to own a thing as one's own – 亲手画下、用以认领的那道记号",
+      "core_image": "他在末尾落下自己那道熟手的笔迹，认作己出",
+      "chinese": [
+        "签名",
+        "签字",
+        "标志性特征"
+      ],
+      "examples": [
+        "Put your signature at the bottom.",
+        "The dish is the chef's signature."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        "significance",
+        "significant"
+      ],
+      "semantic_expansions": [
+        "签名/签字：亲手画下用以认领的记号",
+        "标志性特征：一眼就认得出是谁的那个标记"
+      ],
+      "recall_hint": "sign（记号）+ -ature → 亲手画下认作己出的记号"
+    },
+    {
+      "id": "significance",
+      "word": "significance",
+      "pos": "noun",
+      "phonetic": "/sɪɡˈnɪfɪkəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "signi（记号）+ fic（做）+ -ance → 做下记号的缘由 → 意义、分量",
+      "origin": "拉丁语 significantia（含意），来自 significare（示意）← signum＋facere",
+      "native_definition": "the meaning of something; its importance",
+      "core_concept": "why the mark was made there in the first place – 当初为什么在那儿划下记号",
+      "core_image": "那道刻痕反复被人提起，才显出当初为何划它",
+      "chinese": [
+        "意义",
+        "重要性"
+      ],
+      "examples": [
+        "The date has special significance.",
+        "They stressed the significance of the find."
+      ],
+      "synonyms": [
+        "meaning",
+        "importance"
+      ],
+      "antonyms": [
+        "triviality"
+      ],
+      "related": [
+        "significant",
+        "signature"
+      ],
+      "semantic_expansions": [
+        "意义：做下这记号的缘由",
+        "重要性：这缘由分量有多重"
+      ],
+      "recall_hint": "signi（记号）+ fic（做）→ 划下记号的缘由"
+    },
+    {
+      "id": "significant",
+      "word": "significant",
+      "pos": "adjective",
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "signum"
+      ],
+      "root_logic": "signi（记号）+ fic（做）+ -ant → 值得划记号的 → 重要、显著",
+      "origin": "拉丁语 significans，significare 的现在分词",
+      "native_definition": "large or important enough to be noticed",
+      "core_concept": "worth putting a mark against – 够得上被划一道记号的",
+      "core_image": "满页里只有那一处被划了记号，看的人都停在那儿",
+      "chinese": [
+        "重要的",
+        "显著的",
+        "有意义的"
+      ],
+      "examples": [
+        "There was a significant rise in costs.",
+        "It is a significant step forward."
+      ],
+      "synonyms": [
+        "notable",
+        "considerable"
+      ],
+      "antonyms": [
+        "negligible"
+      ],
+      "related": [
+        "significance",
+        "signature"
+      ],
+      "semantic_expansions": [
+        "重要的/显著的：够得上被划一道记号的",
+        "有意义的：这记号背后有缘由可讲"
+      ],
+      "recall_hint": "signi（记号）+ fic（做）→ 值得划下记号的"
+    },
+    {
+      "id": "strict",
+      "word": "strict",
+      "pos": "adjective",
+      "phonetic": "/strɪkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "strictus（拉紧的）→ 绷到不留余地 → 严格",
+      "origin": "拉丁语 strictus（拉紧的），stringere（拉紧）的过去分词",
+      "native_definition": "demanding exact obedience; allowing no exception",
+      "core_concept": "drawn so tight that no slack is left – 绷到一丝松都不留",
+      "core_image": "绳子拉到最紧，连一点回弹的余地都没有",
+      "chinese": [
+        "严格的",
+        "严厉的"
+      ],
+      "examples": [
+        "The school has strict rules.",
+        "He is strict about deadlines."
+      ],
+      "synonyms": [
+        "rigorous",
+        "stern"
+      ],
+      "antonyms": [
+        "lenient"
+      ],
+      "related": [
+        "restrict",
+        "district"
+      ],
+      "semantic_expansions": [
+        "严格的/严厉的：绷到不留一丝余地"
+      ],
+      "recall_hint": "strictus（拉紧的）→ 绷到不留余地"
+    },
+    {
+      "id": "restrict",
+      "word": "restrict",
+      "pos": "verb",
+      "phonetic": "/rɪˈstrɪkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "re-（往回）+ strict（拉紧）→ 往回收紧 → 把范围缩小",
+      "origin": "拉丁语 restrictus，restringere（拉回束紧）的过去分词 ← re＋stringere",
+      "native_definition": "to keep something within limits; to reduce what is allowed",
+      "core_concept": "pulling the cord back so the circle grows smaller – 绳往回收，能动的圈越缩越小",
+      "core_image": "绳往回一收，能走动的那圈跟着小了一半",
+      "chinese": [
+        "限制",
+        "约束"
+      ],
+      "examples": [
+        "They restricted access to the site.",
+        "Her diet restricts salt."
+      ],
+      "synonyms": [
+        "limit",
+        "confine"
+      ],
+      "antonyms": [
+        "expand",
+        "permit"
+      ],
+      "related": [
+        "strict",
+        "district"
+      ],
+      "semantic_expansions": [
+        "限制/约束：往回收紧、把可动范围缩小"
+      ],
+      "recall_hint": "re-（往回）+ strict（拉紧）→ 往回收紧范围"
+    },
+    {
+      "id": "district",
+      "word": "district",
+      "pos": "noun",
+      "phonetic": "/ˈdɪstrɪkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "di-（分开）+ strict（拉紧）→ 用界线圈紧的一块 → 辖区",
+      "origin": "中世纪拉丁语 districtus（管辖范围），来自 distringere ← dis＋stringere",
+      "native_definition": "an area of a town or country, often an official division",
+      "core_concept": "the patch a boundary has been drawn tight around – 被界线圈紧的那一块地面",
+      "core_image": "界线一圈拉起来，圈内归一处管",
+      "chinese": [
+        "地区",
+        "行政区"
+      ],
+      "examples": [
+        "She grew up in the old district.",
+        "The school district covers three towns."
+      ],
+      "synonyms": [
+        "region",
+        "zone"
+      ],
+      "antonyms": [],
+      "related": [
+        "strict",
+        "restrict"
+      ],
+      "semantic_expansions": [
+        "地区/行政区：被界线圈紧、归一处管的那块地面"
+      ],
+      "recall_hint": "di-（分开）+ strict（拉紧）→ 界线圈紧的一块"
+    }
+  ]
+}

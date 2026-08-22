@@ -5778,6 +5778,162 @@
       "to": "storage",
       "type": "root",
       "note": "store（备存）+ -age → 存放这件事，及存放的地方与费用"
+    },
+    {
+      "from": "cep",
+      "to": "receive",
+      "type": "root",
+      "note": "re-（回）+ ceive（接住）→ 把递来的接到手里"
+    },
+    {
+      "from": "cep",
+      "to": "deceive",
+      "type": "root",
+      "note": "de-（脱开正道）+ ceive（接住）→ 让人接住的是假的 → 欺骗"
+    },
+    {
+      "from": "cep",
+      "to": "conceive",
+      "type": "root",
+      "note": "con-（收进）+ ceive（接住）→ 接进来在里头成形 → 构想；亦指怀胎"
+    },
+    {
+      "from": "cep",
+      "to": "perceive",
+      "type": "root",
+      "note": "per-（彻底）+ ceive（接住）→ 把外来讯息完整接住 → 察觉"
+    },
+    {
+      "from": "cep",
+      "to": "capture",
+      "type": "root",
+      "note": "capt（抓取）+ -ure → 一把抓到手里 → 捕获；引申为把景象留住"
+    },
+    {
+      "from": "cep",
+      "to": "captive",
+      "type": "root",
+      "note": "capt（抓取）+ -ive → 已被抓住、脱不了身的那个"
+    },
+    {
+      "from": "pars",
+      "to": "participate",
+      "type": "root",
+      "note": "parti（份）+ cip（取）+ -ate → 领走自己那一份 → 加入其中"
+    },
+    {
+      "from": "pars",
+      "to": "participant",
+      "type": "root",
+      "note": "participate（领份加入）+ -ant（人）→ 领了一份、在其中的那个人"
+    },
+    {
+      "from": "pars",
+      "to": "particle",
+      "type": "root",
+      "note": "parti（份）+ -cle（小）→ 份里最小的那一点"
+    },
+    {
+      "from": "pars",
+      "to": "particular",
+      "type": "root",
+      "note": "particul（小份）+ -ar（…的）→ 单指其中那一份的 → 特定的；引申为挑剔"
+    },
+    {
+      "from": "pars",
+      "to": "apart",
+      "type": "root",
+      "note": "a-（ad- 朝）+ part（份）→ 各归各份 → 分处两边"
+    },
+    {
+      "from": "pars",
+      "to": "apartment",
+      "type": "root",
+      "note": "apart（各归各份）+ -ment → 整栋被隔出来的那一户"
+    },
+    {
+      "from": "metron",
+      "to": "diameter",
+      "type": "root",
+      "note": "dia-（穿过）+ meter（量度）→ 穿过圆心量出的那条长"
+    },
+    {
+      "from": "metron",
+      "to": "parameter",
+      "type": "root",
+      "note": "para-（旁）+ meter（量度）→ 旁边立起的量尺 → 划定范围的那个量"
+    },
+    {
+      "from": "metron",
+      "to": "thermometer",
+      "type": "root",
+      "note": "thermo-（热）+ meter（量度）→ 量热的那件器具"
+    },
+    {
+      "from": "metron",
+      "to": "geometry",
+      "type": "root",
+      "note": "geo-（地）+ metr（量度）+ -y → 本是量地之术，后成研究形与空间的学问"
+    },
+    {
+      "from": "metron",
+      "to": "centimetre",
+      "type": "root",
+      "note": "centi-（百分之一）+ metre（米）→ 一米的百分之一"
+    },
+    {
+      "from": "tract",
+      "to": "treat",
+      "type": "root",
+      "note": "tractare（反复拉扯、处置）→ 把事拉到手上处置 → 对待、医治"
+    },
+    {
+      "from": "tract",
+      "to": "treaty",
+      "type": "root",
+      "note": "treat（处置、商议）+ -y → 商议处置之后立下的文书"
+    },
+    {
+      "from": "tract",
+      "to": "retreat",
+      "type": "root",
+      "note": "re-（往回）+ treat（拉）→ 把自己往回拉 → 撤退；名词亦指退居之所"
+    },
+    {
+      "from": "signum",
+      "to": "signature",
+      "type": "root",
+      "note": "sign（记号）+ -ature → 亲手画下、认作己出的那道记号"
+    },
+    {
+      "from": "signum",
+      "to": "significance",
+      "type": "root",
+      "note": "signi（记号）+ fic（做）+ -ance → 做下记号的缘由 → 意义、分量"
+    },
+    {
+      "from": "signum",
+      "to": "significant",
+      "type": "root",
+      "note": "signi（记号）+ fic（做）+ -ant → 值得划记号的 → 重要、显著"
+    },
+    {
+      "from": "stringere",
+      "to": "strict",
+      "type": "root",
+      "note": "strictus（拉紧的）→ 绷到不留余地 → 严格"
+    },
+    {
+      "from": "stringere",
+      "to": "restrict",
+      "type": "root",
+      "note": "re-（往回）+ strict（拉紧）→ 往回收紧 → 把范围缩小"
+    },
+    {
+      "from": "stringere",
+      "to": "district",
+      "type": "root",
+      "note": "di-（分开）+ strict（拉紧）→ 用界线圈紧的一块 → 辖区"
     }
   ]
 }
