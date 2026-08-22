@@ -40446,6 +40446,404 @@
         "现代化/更新：把旧的改到眼下通行那一档"
       ],
       "recall_hint": "modern（现代的）+ -ization → 改到当下这一档"
+    },
+    {
+      "id": "seed",
+      "word": "seed",
+      "pos": "noun",
+      "phonetic": "/siːd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 sæd，来自原始日耳曼语 *sēdiz（撒下之物），与 sow（播种）同源",
+      "native_definition": "the small hard part of a plant from which a new plant grows",
+      "core_concept": "the small dry thing that holds a whole plant folded inside – 一粒干硬的小东西，里头折着一整株",
+      "core_image": "一粒干瘪的小东西落进土缝，几天后顶开土冒出两片嫩芽",
+      "chinese": [
+        "种子",
+        "籽",
+        "起因"
+      ],
+      "examples": [
+        "Plant the seeds in early spring.",
+        "That meeting sowed the seeds of change."
+      ],
+      "synonyms": [
+        "grain",
+        "kernel"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "种子/籽：里头折着一整株的那粒小东西",
+        "起因：一件事最初那粒、后来长成全局的东西"
+      ]
+    },
+    {
+      "id": "bird",
+      "word": "bird",
+      "pos": "noun",
+      "phonetic": "/bɜːd/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，古英语 bridd 之后再无更早可考，无词根可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bridd（雏鸟），词源不明，非拉丁借词",
+      "native_definition": "a creature with feathers and wings that can usually fly",
+      "core_concept": "the light thing on the branch that leaves before your hand arrives – 枝上那个轻东西，手还没到它已经走了",
+      "core_image": "枝头一动，那团轻飘飘的东西已经蹿到另一棵树上",
+      "chinese": [
+        "鸟",
+        "禽"
+      ],
+      "examples": [
+        "A small bird landed on the sill.",
+        "Birds fly south in autumn."
+      ],
+      "synonyms": [
+        "fowl",
+        "creature"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "鸟/禽：带羽有翅、手还没伸到就飞开的那类活物"
+      ]
+    },
+    {
+      "id": "tool",
+      "word": "tool",
+      "pos": "noun",
+      "phonetic": "/tuːl/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 tōl，来自原始日耳曼语 *tōwlam（用来做事的器具），与 taw（加工）同源",
+      "native_definition": "a device held in the hand and used to do a particular job",
+      "core_concept": "the handle worn smooth by the palm that keeps reaching for it – 被同一只手掌磨得发亮的那根柄",
+      "core_image": "柄上那一处被手心磨得发亮，一摸就知道用了多少年",
+      "chinese": [
+        "工具",
+        "用具",
+        "手段"
+      ],
+      "examples": [
+        "He put every tool back in the box.",
+        "Language is a tool for thinking."
+      ],
+      "synonyms": [
+        "instrument",
+        "device"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "工具/用具：握在手里用来做活的器械",
+        "手段：把某物当器械使的那种用法"
+      ]
+    },
+    {
+      "id": "breath",
+      "word": "breath",
+      "pos": "noun",
+      "phonetic": "/breθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本义是「呼出的热气」，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 bræþ（气味、呼出的热气），来自原始日耳曼语 *brēthaz（热气）",
+      "native_definition": "the air taken into and let out of the lungs",
+      "core_concept": "the white cloud that shows on cold glass and then fades – 冷玻璃上现出的那团白，一会儿又散了",
+      "core_image": "冷玻璃上凑近一呵，现出一团白，转眼淡下去",
+      "chinese": [
+        "呼吸",
+        "气息",
+        "一口气"
+      ],
+      "examples": [
+        "Take a deep breath and relax.",
+        "She was out of breath after the climb."
+      ],
+      "synonyms": [
+        "air",
+        "puff"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "呼吸/气息：吸进吐出的那股气",
+        "一口气：一次吐纳的分量"
+      ]
+    },
+    {
+      "id": "brain",
+      "word": "brain",
+      "pos": "noun",
+      "phonetic": "/breɪn/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 brægen，来自原始日耳曼语 *bragnam，与希腊语 brekhmos（前额）或有远亲关系",
+      "native_definition": "the organ inside the head that controls thought and feeling",
+      "core_concept": "the folded grey thing inside the skull where everything gets decided – 颅骨里那团盘着褶子的东西，事都在那儿定",
+      "core_image": "颅骨掀开，里头那团盘满褶子的东西还温着",
+      "chinese": [
+        "大脑",
+        "头脑",
+        "智力"
+      ],
+      "examples": [
+        "The brain uses a fifth of our energy.",
+        "Use your brain before you answer."
+      ],
+      "synonyms": [
+        "mind",
+        "intellect"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大脑：颅骨里那个器官",
+        "头脑/智力：用它想事的那份能力"
+      ]
+    },
+    {
+      "id": "throat",
+      "word": "throat",
+      "pos": "noun",
+      "phonetic": "/θrəʊt/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本义指颈前鼓起处，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 þrote，来自原始日耳曼语 *thrut-（肿起、鼓起的部位）",
+      "native_definition": "the passage at the front of the neck through which food and air pass",
+      "core_concept": "the place that moves once when you swallow – 咽下去时鼓一下的那个地方",
+      "core_image": "水咽下去，颈前那处鼓一下又落回原样",
+      "chinese": [
+        "喉咙",
+        "嗓子",
+        "咽喉"
+      ],
+      "examples": [
+        "He has a sore throat today.",
+        "The words stuck in her throat."
+      ],
+      "synonyms": [
+        "gullet",
+        "neck"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "喉咙/咽喉：颈前供食物与空气通过的那条道",
+        "嗓子：从这条道里发出的声音"
+      ]
+    },
+    {
+      "id": "shiver",
+      "word": "shiver",
+      "pos": "verb",
+      "phonetic": "/ˈʃɪvə(r)/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，词源到中古英语为止，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 chiveren，词源不确，可能与古英语 ceafl（颌）相关，形容牙关打战",
+      "native_definition": "to shake slightly because of cold or fear",
+      "core_concept": "the small fast shake that runs through you before you notice it – 一阵细而快的动，人还没反应它已经过去了",
+      "core_image": "风一穿过湿衣服，背上那阵细而快的动自己就起来了",
+      "chinese": [
+        "颤抖",
+        "发抖",
+        "哆嗦"
+      ],
+      "examples": [
+        "She shivered in the cold rain.",
+        "He shivered at the thought of it."
+      ],
+      "synonyms": [
+        "tremble",
+        "quiver"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "颤抖/发抖/哆嗦：因冷或怕而起的那阵细快的动"
+      ]
+    },
+    {
+      "id": "choke",
+      "word": "choke",
+      "pos": "verb",
+      "phonetic": "/tʃəʊk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本义是「塞住气道」，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ācēocian（塞住），来自原始日耳曼语，与 cheek（腮）或有关联",
+      "native_definition": "to be unable to breathe because the throat is blocked",
+      "core_concept": "the moment the way in shuts and nothing gets past – 通道一下合上，什么也过不去那一刻",
+      "core_image": "一口卡在半途，脸涨红，手往喉前抓",
+      "chinese": [
+        "窒息",
+        "呛住",
+        "堵塞"
+      ],
+      "examples": [
+        "He choked on a fish bone.",
+        "Weeds choked the narrow stream."
+      ],
+      "synonyms": [
+        "suffocate",
+        "clog"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "窒息/呛住：气道被塞住、过不去气",
+        "堵塞：同一个「塞住使不通」用在通道上"
+      ]
+    },
+    {
+      "id": "oath",
+      "word": "oath",
+      "pos": "noun",
+      "phonetic": "/əʊθ/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 āþ，来自原始日耳曼语 *aithaz（郑重之言）",
+      "native_definition": "a formal promise, often made in public or in court",
+      "core_concept": "the hand raised and held there while the words come out – 手举起来不放下，话就在那姿势里说出口",
+      "core_image": "他一手按在书上，另一手举着不放，一字一句说完",
+      "chinese": [
+        "誓言",
+        "宣誓",
+        "咒骂"
+      ],
+      "examples": [
+        "She took an oath to tell the truth.",
+        "He muttered an oath under his breath."
+      ],
+      "synonyms": [
+        "vow",
+        "pledge"
+      ],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "誓言/宣誓：郑重当众说定的那番话",
+        "咒骂：借神明之名出口的那种话，同源另一支用法"
+      ]
+    },
+    {
+      "id": "fool",
+      "word": "fool",
+      "pos": "noun",
+      "phonetic": "/fuːl/",
+      "decomposable": "germanic",
+      "decomposable_note": "词源虽可溯至拉丁 follis（空袋），但英语中 fool 已无同族词可迁移，按不可拆处理",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 fol（疯子、小丑）← 晚期拉丁语 follis（风箱、空袋），但英语已不作词根用",
+      "native_definition": "a person who behaves in a silly or unwise way",
+      "core_concept": "the one everyone else has already seen through, still going – 旁人早看穿了、他还在往下演的那个",
+      "core_image": "满屋人都憋着笑，只有他还认真往下说",
+      "chinese": [
+        "傻瓜",
+        "愚人",
+        "上当者"
+      ],
+      "examples": [
+        "Do not be a fool about money.",
+        "They made a fool of him."
+      ],
+      "synonyms": [
+        "idiot",
+        "clown"
+      ],
+      "antonyms": [
+        "sage"
+      ],
+      "related": [],
+      "semantic_expansions": [
+        "傻瓜/愚人：行事不明智、被旁人看穿的那个",
+        "上当者：因此被人耍了的那个"
+      ]
+    },
+    {
+      "id": "hawk",
+      "word": "hawk",
+      "pos": "noun",
+      "phonetic": "/hɔːk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 hafoc，来自原始日耳曼语 *habukaz（猛禽）",
+      "native_definition": "a bird of prey with sharp eyes and curved claws",
+      "core_concept": "the shape that hangs still high up, then drops all at once – 高处悬着不动的那个影子，忽然一头扎下来",
+      "core_image": "高处那影子悬了半天不动，一收翅直扎下去",
+      "chinese": [
+        "鹰",
+        "隼",
+        "主战派"
+      ],
+      "examples": [
+        "A hawk circled above the field.",
+        "The hawks in cabinet urged action."
+      ],
+      "synonyms": [
+        "falcon",
+        "raptor"
+      ],
+      "antonyms": [
+        "dove"
+      ],
+      "related": [],
+      "semantic_expansions": [
+        "鹰/隼：目锐爪弯、悬空俯冲的猛禽",
+        "主战派：政见上像它一样主张下扑的那些人"
+      ]
+    },
+    {
+      "id": "dusk",
+      "word": "dusk",
+      "pos": "noun",
+      "phonetic": "/dʌsk/",
+      "decomposable": "germanic",
+      "decomposable_note": "日耳曼核心词，本义是「转暗」，无拉丁词缀可拆",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 dox（暗色的），来自原始日耳曼语 *dusk-（发暗）",
+      "native_definition": "the time of day when the light is nearly gone",
+      "core_concept": "the hour you stop being able to tell colours apart – 到这会儿，颜色彼此就分不出来了",
+      "core_image": "屋里没开灯，书页上的字一行行糊成一片",
+      "chinese": [
+        "黄昏",
+        "暮色",
+        "薄暮"
+      ],
+      "examples": [
+        "The lamps come on at dusk.",
+        "They walked home in the dusk."
+      ],
+      "synonyms": [
+        "twilight",
+        "nightfall"
+      ],
+      "antonyms": [
+        "dawn"
+      ],
+      "related": [],
+      "semantic_expansions": [
+        "黄昏/暮色/薄暮：光将尽、颜色分不出来的那一段时候"
+      ]
     }
   ]
 }

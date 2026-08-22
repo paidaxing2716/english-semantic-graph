@@ -14455,6 +14455,174 @@
       "text": "Farm modernization raised yields.",
       "source": "AI 生成 · 人工审核",
       "scene": "老厂房一间间翻修，机器照新标准换过"
+    },
+    {
+      "id": "ex-seed-1",
+      "word_id": "seed",
+      "text": "Plant the seeds in early spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一粒干瘪的小东西落进土缝，几天后顶开土冒出两片嫩芽"
+    },
+    {
+      "id": "ex-seed-2",
+      "word_id": "seed",
+      "text": "That meeting sowed the seeds of change.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一粒干瘪的小东西落进土缝，几天后顶开土冒出两片嫩芽"
+    },
+    {
+      "id": "ex-bird-1",
+      "word_id": "bird",
+      "text": "A small bird landed on the sill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "枝头一动，那团轻飘飘的东西已经蹿到另一棵树上"
+    },
+    {
+      "id": "ex-bird-2",
+      "word_id": "bird",
+      "text": "Birds fly south in autumn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "枝头一动，那团轻飘飘的东西已经蹿到另一棵树上"
+    },
+    {
+      "id": "ex-tool-1",
+      "word_id": "tool",
+      "text": "He put every tool back in the box.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柄上那一处被手心磨得发亮，一摸就知道用了多少年"
+    },
+    {
+      "id": "ex-tool-2",
+      "word_id": "tool",
+      "text": "Language is a tool for thinking.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柄上那一处被手心磨得发亮，一摸就知道用了多少年"
+    },
+    {
+      "id": "ex-breath-1",
+      "word_id": "breath",
+      "text": "Take a deep breath and relax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "冷玻璃上凑近一呵，现出一团白，转眼淡下去"
+    },
+    {
+      "id": "ex-breath-2",
+      "word_id": "breath",
+      "text": "She was out of breath after the climb.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "冷玻璃上凑近一呵，现出一团白，转眼淡下去"
+    },
+    {
+      "id": "ex-brain-1",
+      "word_id": "brain",
+      "text": "The brain uses a fifth of our energy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颅骨掀开，里头那团盘满褶子的东西还温着"
+    },
+    {
+      "id": "ex-brain-2",
+      "word_id": "brain",
+      "text": "Use your brain before you answer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "颅骨掀开，里头那团盘满褶子的东西还温着"
+    },
+    {
+      "id": "ex-throat-1",
+      "word_id": "throat",
+      "text": "He has a sore throat today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水咽下去，颈前那处鼓一下又落回原样"
+    },
+    {
+      "id": "ex-throat-2",
+      "word_id": "throat",
+      "text": "The words stuck in her throat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水咽下去，颈前那处鼓一下又落回原样"
+    },
+    {
+      "id": "ex-shiver-1",
+      "word_id": "shiver",
+      "text": "She shivered in the cold rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风一穿过湿衣服，背上那阵细而快的动自己就起来了"
+    },
+    {
+      "id": "ex-shiver-2",
+      "word_id": "shiver",
+      "text": "He shivered at the thought of it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "风一穿过湿衣服，背上那阵细而快的动自己就起来了"
+    },
+    {
+      "id": "ex-choke-1",
+      "word_id": "choke",
+      "text": "He choked on a fish bone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一口卡在半途，脸涨红，手往喉前抓"
+    },
+    {
+      "id": "ex-choke-2",
+      "word_id": "choke",
+      "text": "Weeds choked the narrow stream.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一口卡在半途，脸涨红，手往喉前抓"
+    },
+    {
+      "id": "ex-oath-1",
+      "word_id": "oath",
+      "text": "She took an oath to tell the truth.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一手按在书上，另一手举着不放，一字一句说完"
+    },
+    {
+      "id": "ex-oath-2",
+      "word_id": "oath",
+      "text": "He muttered an oath under his breath.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一手按在书上，另一手举着不放，一字一句说完"
+    },
+    {
+      "id": "ex-fool-1",
+      "word_id": "fool",
+      "text": "Do not be a fool about money.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满屋人都憋着笑，只有他还认真往下说"
+    },
+    {
+      "id": "ex-fool-2",
+      "word_id": "fool",
+      "text": "They made a fool of him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满屋人都憋着笑，只有他还认真往下说"
+    },
+    {
+      "id": "ex-hawk-1",
+      "word_id": "hawk",
+      "text": "A hawk circled above the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "高处那影子悬了半天不动，一收翅直扎下去"
+    },
+    {
+      "id": "ex-hawk-2",
+      "word_id": "hawk",
+      "text": "The hawks in cabinet urged action.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "高处那影子悬了半天不动，一收翅直扎下去"
+    },
+    {
+      "id": "ex-dusk-1",
+      "word_id": "dusk",
+      "text": "The lamps come on at dusk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋里没开灯，书页上的字一行行糊成一片"
+    },
+    {
+      "id": "ex-dusk-2",
+      "word_id": "dusk",
+      "text": "They walked home in the dusk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋里没开灯，书页上的字一行行糊成一片"
     }
   ]
 }
