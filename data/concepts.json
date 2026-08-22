@@ -423,7 +423,8 @@
         "precede",
         "recede",
         "precedent",
-        "preceding"
+        "preceding",
+        "concession"
       ]
     },
     {
@@ -807,7 +808,10 @@
         "consequence",
         "consequently",
         "sequence",
-        "subsequent"
+        "subsequent",
+        "suit",
+        "suitable",
+        "suite"
       ]
     },
     {
@@ -972,7 +976,8 @@
         "implement",
         "multiple",
         "supplement",
-        "triple"
+        "triple",
+        "comply"
       ]
     },
     {
@@ -1620,7 +1625,8 @@
         "invent",
         "invention",
         "inventory",
-        "invite"
+        "invite",
+        "prevent"
       ]
     },
     {
@@ -2230,7 +2236,8 @@
         "caedere"
       ],
       "word_ids": [
-        "precise"
+        "precise",
+        "concise"
       ]
     },
     {
@@ -2301,6 +2308,106 @@
         "attempt",
         "contempt",
         "tempt"
+      ]
+    },
+    {
+      "id": "concept-conciliare-harmony",
+      "concept": "to bring parties back together in harmony",
+      "chinese": "和好",
+      "core_image": "闹僵后重新坐回一桌",
+      "root_ids": [
+        "conciliare"
+      ],
+      "word_ids": [
+        "reconcile"
+      ]
+    },
+    {
+      "id": "concept-par-equal",
+      "concept": "equal and on a level, matched to another",
+      "chinese": "对等",
+      "core_image": "天平两端同高",
+      "root_ids": [
+        "par-equal"
+      ],
+      "word_ids": [
+        "comparable",
+        "pair",
+        "repair"
+      ]
+    },
+    {
+      "id": "concept-compilare-gather",
+      "concept": "to gather scattered pieces into one pile",
+      "chinese": "汇集",
+      "core_image": "散稿按序叠成一摞",
+      "root_ids": [
+        "compilare"
+      ],
+      "word_ids": [
+        "compile"
+      ]
+    },
+    {
+      "id": "concept-audire-hear",
+      "concept": "to hear and heed, listening to another",
+      "chinese": "听从",
+      "core_image": "侧耳，听清那句话",
+      "root_ids": [
+        "audire"
+      ],
+      "word_ids": [
+        "obedience",
+        "obedient"
+      ]
+    },
+    {
+      "id": "concept-valere-strong",
+      "concept": "being strong and in force, prevailing",
+      "chinese": "强壮有力",
+      "core_image": "幼苗顶开土块挺直",
+      "root_ids": [
+        "valere"
+      ],
+      "word_ids": [
+        "prevalent"
+      ]
+    },
+    {
+      "id": "concept-via-way",
+      "concept": "a way leading onward, a path",
+      "chinese": "路途",
+      "core_image": "大路笔直通向远处",
+      "root_ids": [
+        "via"
+      ],
+      "word_ids": [
+        "previous"
+      ]
+    },
+    {
+      "id": "concept-hum-buzz",
+      "concept": "a low steady buzzing sound",
+      "chinese": "低鸣",
+      "core_image": "机器低鸣震人",
+      "root_ids": [
+        "hum-onomatopoeia"
+      ],
+      "word_ids": [
+        "hum"
+      ]
+    },
+    {
+      "id": "concept-humor-temper",
+      "concept": "humours and disposition born of them",
+      "chinese": "性情幽默",
+      "core_image": "体液调和，人便开朗",
+      "root_ids": [
+        "humor-moist"
+      ],
+      "word_ids": [
+        "humor",
+        "humorous"
       ]
     }
   ]

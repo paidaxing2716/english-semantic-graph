@@ -1,0 +1,924 @@
+{
+  "roots": [
+    {
+      "id": "conciliare",
+      "root": "conciliare",
+      "variants": [
+        "concil",
+        "concili"
+      ],
+      "origin": "拉丁语 conciliare（使结合、和好）← concilium（集会、联盟）",
+      "core_concept": "to bring into harmony / 使重新聚拢、和好",
+      "core_image": "两个人闹僵后又坐回同一张桌前",
+      "english_definition": "to reconcile, unite"
+    },
+    {
+      "id": "par-equal",
+      "root": "par",
+      "variants": [
+        "par",
+        "pari"
+      ],
+      "origin": "拉丁语 par（相等的、对等的），PIE *per-；parare（使就绪）同 PIE 但拉丁已分化",
+      "core_concept": "equal, on a level / 对等、相等",
+      "core_image": "天平两端摆到同一高度，谁也不压谁",
+      "english_definition": "equal, matching"
+    },
+    {
+      "id": "compilare",
+      "root": "compilare",
+      "variants": [
+        "compil",
+        "pila"
+      ],
+      "origin": "拉丁语 compilare（堆在一起）← pila（柱、堆）",
+      "core_concept": "to heap together, gather up / 堆拢成册",
+      "core_image": "把散落的纸稿按序叠成一摞",
+      "english_definition": "to compile, gather"
+    },
+    {
+      "id": "audire",
+      "root": "audire",
+      "variants": [
+        "aud",
+        "audi",
+        "obed"
+      ],
+      "origin": "拉丁语 audire（听）",
+      "core_concept": "to hear, to listen / 听",
+      "core_image": "耳朵侧过去，听清那句话",
+      "english_definition": "to hear, to listen"
+    },
+    {
+      "id": "valere",
+      "root": "valere",
+      "variants": [
+        "val",
+        "vale"
+      ],
+      "origin": "拉丁语 valere（强壮、有力、有效）",
+      "core_concept": "strong, in force / 强壮、有效力",
+      "core_image": "一株幼苗在石缝里挺直腰杆顶开土块",
+      "english_definition": "to be strong, avail, be valid"
+    },
+    {
+      "id": "via",
+      "root": "via",
+      "variants": [
+        "via",
+        "vi"
+      ],
+      "origin": "拉丁语 via（路、途径）",
+      "core_concept": "a path, a way / 路、途径",
+      "core_image": "一条大路笔直通向远处",
+      "english_definition": "way, road, path"
+    },
+    {
+      "id": "hum-onomatopoeia",
+      "root": "hum",
+      "variants": [
+        "hum"
+      ],
+      "origin": "英语 hum（拟声词，低声哼/嗡响），与拉丁皆无关",
+      "core_concept": "a low humming sound / 低沉持续的嗡嗡声",
+      "core_image": "机器低鸣，隔墙都能感到震颤",
+      "english_definition": "to buzz, hum, drone"
+    },
+    {
+      "id": "humor-moist",
+      "root": "humor",
+      "variants": [
+        "hum",
+        "humor"
+      ],
+      "origin": "拉丁语 humor（湿气、体液）——体液学说引申出生性与幽默",
+      "core_concept": "the body's moisture and temper / 体液引申出的性情与幽默",
+      "core_image": "四杯体液各居其位，平衡了人就开朗",
+      "english_definition": "humour, disposition"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-conciliare-harmony",
+      "concept": "to bring parties back together in harmony",
+      "chinese": "和好",
+      "core_image": "闹僵后重新坐回一桌",
+      "root_ids": [
+        "conciliare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-par-equal",
+      "concept": "equal and on a level, matched to another",
+      "chinese": "对等",
+      "core_image": "天平两端同高",
+      "root_ids": [
+        "par-equal"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-compilare-gather",
+      "concept": "to gather scattered pieces into one pile",
+      "chinese": "汇集",
+      "core_image": "散稿按序叠成一摞",
+      "root_ids": [
+        "compilare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-audire-hear",
+      "concept": "to hear and heed, listening to another",
+      "chinese": "听从",
+      "core_image": "侧耳，听清那句话",
+      "root_ids": [
+        "audire"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-valere-strong",
+      "concept": "being strong and in force, prevailing",
+      "chinese": "强壮有力",
+      "core_image": "幼苗顶开土块挺直",
+      "root_ids": [
+        "valere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-via-way",
+      "concept": "a way leading onward, a path",
+      "chinese": "路途",
+      "core_image": "大路笔直通向远处",
+      "root_ids": [
+        "via"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-hum-buzz",
+      "concept": "a low steady buzzing sound",
+      "chinese": "低鸣",
+      "core_image": "机器低鸣震人",
+      "root_ids": [
+        "hum-onomatopoeia"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-humor-temper",
+      "concept": "humours and disposition born of them",
+      "chinese": "性情幽默",
+      "core_image": "体液调和，人便开朗",
+      "root_ids": [
+        "humor-moist"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-hold": [
+      "conciliare",
+      "humor-moist"
+    ],
+    "domain-shape": [
+      "par-equal",
+      "compilare"
+    ],
+    "domain-perceive": [
+      "audire",
+      "hum-onomatopoeia"
+    ],
+    "domain-force": [
+      "valere"
+    ],
+    "domain-transfer": [
+      "via"
+    ]
+  },
+  "words": [
+    {
+      "id": "reconcile",
+      "word": "reconcile",
+      "pos": "verb",
+      "phonetic": "/ˈrekənsaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "conciliare"
+      ],
+      "root_logic": "re-（再）+ concili（使和好）→ 使重新和好 → 和解；调和",
+      "origin": "拉丁语 reconciliare：re-（再）+ conciliare（使和好）",
+      "native_definition": "to make two things or people compatible again",
+      "core_concept": "bringing the estranged back together – 把闹翻的重新拢到一处",
+      "core_image": "兄弟为遗产争了多年，最终坐下来把旧账一笔笔说清，重归于好",
+      "chinese": [
+        "和解",
+        "调和"
+      ],
+      "examples": [
+        "They reconciled after the quarrel.",
+        "It is hard to reconcile the two accounts."
+      ],
+      "synonyms": [
+        "settle",
+        "harmonize"
+      ],
+      "antonyms": [],
+      "related": [
+        "accord"
+      ],
+      "semantic_expansions": [
+        "和解：使重新和好",
+        "调和：把矛盾摆平"
+      ],
+      "recall_hint": "re-（再）+ concili（和好）→ 重新和好"
+    },
+    {
+      "id": "comparable",
+      "word": "comparable",
+      "pos": "adjective",
+      "phonetic": "/ˈkɑːmpərəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "par-equal"
+      ],
+      "root_logic": "com-（共同）+ par（对等）+ -able → 能放到同一天平上比 → 可比较的",
+      "origin": "拉丁语 comparabilis：com-（共同）+ par（对等）",
+      "native_definition": "similar enough to be compared with something",
+      "core_concept": "able to be set on the same scale – 能放上同一杆秤",
+      "core_image": "两款手机摆在展台并列，屏幕、价格、厚度都能放一起权衡",
+      "chinese": [
+        "可比较的",
+        "类似的"
+      ],
+      "examples": [
+        "The two products are comparable.",
+        "His salary is comparable to mine."
+      ],
+      "synonyms": [
+        "similar",
+        "equivalent"
+      ],
+      "antonyms": [
+        "incomparable"
+      ],
+      "related": [
+        "pair",
+        "repair"
+      ],
+      "semantic_expansions": [
+        "可比较：放得上同一杆秤",
+        "类似：同一档次的"
+      ],
+      "recall_hint": "com-（共同）+ par（对等）→ 能同秤比较"
+    },
+    {
+      "id": "pair",
+      "word": "pair",
+      "pos": "noun / verb",
+      "phonetic": "/per/",
+      "decomposable": "root",
+      "root_ids": [
+        "par-equal"
+      ],
+      "root_logic": "par（对等）→ 两个对等的东西 → 一对",
+      "origin": "古法语 paire ← 拉丁语 paria（对等物）← par（相等）",
+      "native_definition": "two things of the same kind used together",
+      "core_concept": "two matched, equal things – 两个对等相配的东西",
+      "core_image": "抽屉里两只袜子花色相同，摆在一处正好齐整，少了一只就不成样子",
+      "chinese": [
+        "一对",
+        "配成对"
+      ],
+      "examples": [
+        "He bought a pair of shoes.",
+        "The students paired up to practice."
+      ],
+      "synonyms": [
+        "couple",
+        "duo"
+      ],
+      "antonyms": [],
+      "related": [
+        "comparable",
+        "repair"
+      ],
+      "semantic_expansions": [
+        "一对：两个相配的东西"
+      ],
+      "recall_hint": "par（对等）→ 两个对等 → 一对"
+    },
+    {
+      "id": "repair",
+      "word": "repair",
+      "pos": "verb / noun",
+      "phonetic": "/rɪˈper/",
+      "decomposable": "root",
+      "root_ids": [
+        "par-equal"
+      ],
+      "root_logic": "re-（再）+ pair（对等/使就绪）→ 重新使恢复到某种状态 → 修理",
+      "origin": "古法语 reparer ← 拉丁语 reparare：re-（再）+ parare（使就绪）；parare 与 par 同 PIE *per-",
+      "native_definition": "to fix something broken or damaged",
+      "core_concept": "making it ready again as before – 把它重新弄回原样",
+      "core_image": "自行车链条掉了，蹲下来一节节挂回齿轮，车又能骑了",
+      "chinese": [
+        "修理",
+        "修复"
+      ],
+      "examples": [
+        "He repaired the broken chair.",
+        "The bridge needs repair."
+      ],
+      "synonyms": [
+        "mend",
+        "fix"
+      ],
+      "antonyms": [
+        "break"
+      ],
+      "related": [
+        "pair",
+        "comparable"
+      ],
+      "semantic_expansions": [
+        "修理：重新弄回原样"
+      ],
+      "recall_hint": "re-（再）+ pair（使就绪）→ 弄回原样"
+    },
+    {
+      "id": "compile",
+      "word": "compile",
+      "pos": "verb",
+      "phonetic": "/kəmˈpaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "compilare"
+      ],
+      "root_logic": "com-（一起）+ pile（堆）→ 把散件堆到一起 → 汇编",
+      "origin": "拉丁语 compilare：com-（一起）+ pilare（堆垛）",
+      "native_definition": "to collect information together to make a report or book",
+      "core_concept": "heaping scattered pieces into one pile – 把零散的都拢成堆",
+      "core_image": "把历年数据一行行摘下来，排成整齐的表格编成册",
+      "chinese": [
+        "汇编",
+        "编纂"
+      ],
+      "examples": [
+        "The researchers compiled the data.",
+        "They compiled a list of sources."
+      ],
+      "synonyms": [
+        "collect",
+        "assemble"
+      ],
+      "antonyms": [],
+      "related": [
+        "association"
+      ],
+      "semantic_expansions": [
+        "汇编：把散件堆拢成册"
+      ],
+      "recall_hint": "com-（一起）+ pile（堆）→ 堆到一起 → 汇编"
+    },
+    {
+      "id": "obedience",
+      "word": "obedience",
+      "pos": "noun",
+      "phonetic": "/əˈbiːdiəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "ob-（朝向）+ edi（听）→ 朝着喊话的方向听 → 服从",
+      "origin": "拉丁语 oboedientia：ob-（朝向）+ audire（听）——'听着办'",
+      "native_definition": "willingness to follow orders or rules",
+      "core_concept": "hearing the direction and acting on it – 听清了照着办",
+      "core_image": "老师一声令下，全班齐刷刷坐好，动作整齐一致",
+      "chinese": [
+        "服从",
+        "顺从"
+      ],
+      "examples": [
+        "The dog was trained to obedience.",
+        "Obedience to the law is expected."
+      ],
+      "synonyms": [
+        "compliance",
+        "submission"
+      ],
+      "antonyms": [
+        "disobedience"
+      ],
+      "related": [
+        "obedient"
+      ],
+      "semantic_expansions": [
+        "服从：听清了就照办"
+      ],
+      "recall_hint": "ob-（朝向）+ edi（听）→ 听着办 → 服从"
+    },
+    {
+      "id": "obedient",
+      "word": "obedient",
+      "pos": "adjective",
+      "phonetic": "/əˈbiːdiənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "ob-（朝向）+ edi（听）+ -ent → 愿意听着办的 → 顺从的",
+      "origin": "oboediens 分词：ob-（朝向）+ audire（听）",
+      "native_definition": "willing to do what one is told",
+      "core_concept": "one who hears and follows – 听着就办的",
+      "core_image": "训练有素的马儿听到缰绳的轻响就转向，不闹脾气",
+      "chinese": [
+        "顺从的",
+        "听话的"
+      ],
+      "examples": [
+        "The obedient dog stayed by his side.",
+        "She was an obedient student."
+      ],
+      "synonyms": [
+        "compliant",
+        "submissive"
+      ],
+      "antonyms": [
+        "disobedient",
+        "rebellious"
+      ],
+      "related": [
+        "obedience"
+      ],
+      "semantic_expansions": [
+        "顺从：听着就照办"
+      ],
+      "recall_hint": "ob-（朝向）+ edi（听）+ -ent → 听着就办"
+    },
+    {
+      "id": "prevalent",
+      "word": "prevalent",
+      "pos": "adjective",
+      "phonetic": "/ˈprevələnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "valere"
+      ],
+      "root_logic": "pre-（更）+ val（强）→ 比别处都强、都普及 → 流行的",
+      "origin": "拉丁语 praevalere：prae-（更）+ valere（强）",
+      "native_definition": "existing commonly or widely at a given time",
+      "core_concept": "being the strongest presence around – 在四周占优势地存在",
+      "core_image": "这座城到处都立着同一家奶茶店的招牌，走两步就撞见一家",
+      "chinese": [
+        "流行的",
+        "普遍的"
+      ],
+      "examples": [
+        "The habit is prevalent in rural areas.",
+        "Flu is prevalent in winter."
+      ],
+      "synonyms": [
+        "widespread",
+        "common"
+      ],
+      "antonyms": [
+        "rare"
+      ],
+      "related": [
+        "prevent"
+      ],
+      "semantic_expansions": [
+        "流行：占优势地到处存在"
+      ],
+      "recall_hint": "pre-（更）+ val（强）→ 到处都强 → 流行"
+    },
+    {
+      "id": "previous",
+      "word": "previous",
+      "pos": "adjective",
+      "phonetic": "/ˈpriːviəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "via"
+      ],
+      "root_logic": "pre-（在前）+ vi（路）→ 在路前面、先走到的 → 先前的",
+      "origin": "拉丁语 praevius：prae-（在前）+ via（路）",
+      "native_definition": "existing or happening before this one",
+      "core_concept": "the one that walked ahead on the road – 在路上先走到的那个",
+      "core_image": "翻回上一所学校的学生证，照片里是更年轻的脸",
+      "chinese": [
+        "先前的",
+        "以前的"
+      ],
+      "examples": [
+        "She had a previous job.",
+        "I met him on a previous visit."
+      ],
+      "synonyms": [
+        "prior",
+        "earlier"
+      ],
+      "antonyms": [
+        "following",
+        "later"
+      ],
+      "related": [
+        "prevent"
+      ],
+      "semantic_expansions": [
+        "先前：在路上先走到"
+      ],
+      "recall_hint": "pre-（在前）+ vi（路）→ 先走上路的"
+    },
+    {
+      "id": "hum",
+      "word": "hum",
+      "pos": "verb / noun",
+      "phonetic": "/hʌm/",
+      "decomposable": "root",
+      "root_ids": [
+        "hum-onomatopoeia"
+      ],
+      "root_logic": "hum（拟声）→ 低沉持续的嗡嗡声",
+      "origin": "英语拟声词，模仿嗡嗡声；与拉丁 hum（湿）无关",
+      "native_definition": "to make a low continuous sound; a low continuous sound",
+      "core_concept": "the low steady buzz that fills a quiet room – 充满屋子的低鸣",
+      "core_image": "夏天傍晚风扇低低震着耳朵，关掉反而觉得少了什么",
+      "chinese": [
+        "嗡嗡响",
+        "哼歌"
+      ],
+      "examples": [
+        "The machine hummed all night.",
+        "She hummed a tune."
+      ],
+      "synonyms": [
+        "buzz",
+        "drone"
+      ],
+      "antonyms": [],
+      "related": [
+        "humor",
+        "humorous"
+      ],
+      "semantic_expansions": [
+        "嗡嗡响：低沉持续的鸣声",
+        "哼歌：闭着唇哼出的调子"
+      ],
+      "recall_hint": "hum（拟声）→ 嗡嗡声"
+    },
+    {
+      "id": "humor",
+      "word": "humor",
+      "pos": "noun",
+      "phonetic": "/ˈhjuːmər/",
+      "decomposable": "root",
+      "root_ids": [
+        "humor-moist"
+      ],
+      "root_logic": "humor（体液）→ 古人认为体液决定性情 → 幽默",
+      "origin": "拉丁语 humor（湿气、体液）",
+      "native_definition": "the quality of being funny; mood",
+      "core_concept": "the disposition born of one's humours – 由体液定下的那份性情",
+      "core_image": "台上那人几句话说下来，全场笑声此起彼伏，气氛一下就活了",
+      "chinese": [
+        "幽默",
+        "情绪"
+      ],
+      "examples": [
+        "His humor lightened the room.",
+        "She was in good humor today."
+      ],
+      "synonyms": [
+        "wit",
+        "comedy"
+      ],
+      "antonyms": [],
+      "related": [
+        "humorous",
+        "hum",
+        "temper"
+      ],
+      "semantic_expansions": [
+        "幽默：让人发笑的本事",
+        "情绪：当下心气的好坏"
+      ],
+      "recall_hint": "humor（体液）→ 定性情的湿度 → 幽默"
+    },
+    {
+      "id": "humorous",
+      "word": "humorous",
+      "pos": "adjective",
+      "phonetic": "/ˈhjuːmərəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "humor-moist"
+      ],
+      "root_logic": "humor（幽默）+ -ous → 有幽默感的 → 幽默的",
+      "origin": "humor 的形容词",
+      "native_definition": "funny and entertaining",
+      "core_concept": "carrying a humour that makes people smile – 带趣味、逗人笑",
+      "core_image": "饭桌上他讲的那个段子，大家都笑了，连不苟言笑的老爸都弯了嘴角",
+      "chinese": [
+        "幽默的",
+        "滑稽的"
+      ],
+      "examples": [
+        "The book is humorous and warm.",
+        "He made a humorous remark."
+      ],
+      "synonyms": [
+        "funny",
+        "witty"
+      ],
+      "antonyms": [
+        "serious"
+      ],
+      "related": [
+        "humor",
+        "hum",
+        "temper"
+      ],
+      "semantic_expansions": [
+        "幽默：逗人发笑的"
+      ],
+      "recall_hint": "humor（幽默）+ -ous → 逗人笑的"
+    },
+    {
+      "id": "concession",
+      "word": "concession",
+      "pos": "noun",
+      "phonetic": "/kənˈseʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "con-（一起）+ cess（走）→ 一起往后让 → 让步",
+      "origin": "拉丁语 concessio：con-（一起）+ cedere（退让）",
+      "native_definition": "something given up or allowed",
+      "core_concept": "yielding ground together – 一起往后退让的那份",
+      "core_image": "谈判桌上，一方把价格往下调了一档，另一方也松了口",
+      "chinese": [
+        "让步",
+        "特许"
+      ],
+      "examples": [
+        "He made a concession on price.",
+        "The store runs a food concession."
+      ],
+      "synonyms": [
+        "compromise",
+        "allowance"
+      ],
+      "antonyms": [],
+      "related": [
+        "concede",
+        "precede",
+        "recede"
+      ],
+      "semantic_expansions": [
+        "让步：退让一份",
+        "特许：被让出的经营权"
+      ],
+      "recall_hint": "con-（一起）+ cess（走）→ 一起退让"
+    },
+    {
+      "id": "concise",
+      "word": "concise",
+      "pos": "adjective",
+      "phonetic": "/kənˈsaɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "caedere"
+      ],
+      "root_logic": "con-（完全）+ cis（切）→ 把废话切掉 → 简明的",
+      "origin": "拉丁语 concisus：con-（完全）+ caedere（切）——'切短的'",
+      "native_definition": "short and clear, with no extra words",
+      "core_concept": "cut down to essentials – 切掉多余、只剩要点",
+      "core_image": "会议纪要只留三行，废话全删，一眼看完",
+      "chinese": [
+        "简明的",
+        "简洁的"
+      ],
+      "examples": [
+        "The summary was concise and clear.",
+        "Keep your answers concise."
+      ],
+      "synonyms": [
+        "brief",
+        "succinct"
+      ],
+      "antonyms": [
+        "verbose",
+        "lengthy"
+      ],
+      "related": [
+        "precise",
+        "concede"
+      ],
+      "semantic_expansions": [
+        "简明：切掉废话只剩要点"
+      ],
+      "recall_hint": "con-（完全）+ cis（切）→ 切短的"
+    },
+    {
+      "id": "comply",
+      "word": "comply",
+      "pos": "verb",
+      "phonetic": "/kəmˈplaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "plere"
+      ],
+      "root_logic": "com-（完全）+ ply（填满）→ 满足全部要求 → 遵从",
+      "origin": "拉丁语 complere：com-（完全）+ plere（填满）",
+      "native_definition": "to obey a rule or law",
+      "core_concept": "filling the requirement completely – 把它填到满足",
+      "core_image": "接到整改通知后，把每一条要求都做到位，检查组来查样样达标",
+      "chinese": [
+        "遵从",
+        "服从"
+      ],
+      "examples": [
+        "All staff must comply with the rules.",
+        "The firm failed to comply."
+      ],
+      "synonyms": [
+        "obey",
+        "conform"
+      ],
+      "antonyms": [
+        "disobey",
+        "violate"
+      ],
+      "related": [
+        "implement",
+        "supplement"
+      ],
+      "semantic_expansions": [
+        "遵从：把要求填满到位"
+      ],
+      "recall_hint": "com-（完全）+ ply（填满）→ 填满要求"
+    },
+    {
+      "id": "suit",
+      "word": "suit",
+      "pos": "noun / verb",
+      "phonetic": "/suːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "suit（跟随）→ 跟着身体的形状走 → 合身、适合",
+      "origin": "古法语 suite/suivre ← 拉丁语 sequi（跟随）",
+      "native_definition": "to be right for someone; a set of clothes",
+      "core_concept": "following a shape or situation exactly – 贴身跟随、正好合适",
+      "core_image": "那件西装上身，肩线正落肩头，裤长恰好及鞋面，哪哪都服帖",
+      "chinese": [
+        "适合",
+        "套装",
+        "诉讼"
+      ],
+      "examples": [
+        "The color suits her.",
+        "He wore a grey suit."
+      ],
+      "synonyms": [
+        "fit",
+        "match"
+      ],
+      "antonyms": [],
+      "related": [
+        "suitable",
+        "suite",
+        "sequence"
+      ],
+      "semantic_expansions": [
+        "适合：刚好跟上了",
+        "套装：成套相配的衣裳",
+        "诉讼：跟进的一项程序"
+      ],
+      "recall_hint": "suit（跟随）→ 贴身合适"
+    },
+    {
+      "id": "suitable",
+      "word": "suitable",
+      "pos": "adjective",
+      "phonetic": "/ˈsuːtəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "suit（适合）+ -able → 合适的",
+      "origin": "suit 的形容词",
+      "native_definition": "right for a particular purpose or person",
+      "core_concept": "able to follow the need exactly – 正好匹配那份需要",
+      "core_image": "下雨天换上这双防滑鞋，走哪一段路都不打滑",
+      "chinese": [
+        "合适的",
+        "适宜的"
+      ],
+      "examples": [
+        "This is a suitable place for the camp.",
+        "Find a suitable time to call."
+      ],
+      "synonyms": [
+        "appropriate",
+        "fitting"
+      ],
+      "antonyms": [
+        "unsuitable"
+      ],
+      "related": [
+        "suit",
+        "suite",
+        "sequence"
+      ],
+      "semantic_expansions": [
+        "合适：正好匹配需要"
+      ],
+      "recall_hint": "suit（适合）+ -able → 合适的"
+    },
+    {
+      "id": "suite",
+      "word": "suite",
+      "pos": "noun",
+      "phonetic": "/swiːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "suite（跟随的一系列）→ 一串相随的东西",
+      "origin": "法语 suite（随行）← seguir ← sequi（跟随）",
+      "native_definition": "a set of connected rooms; a set of musical pieces",
+      "core_concept": "a series following one after another – 一串连续相随的",
+      "core_image": "酒店里连着的一套客房，客厅卧室洗手间一溜排开",
+      "chinese": [
+        "套房",
+        "组曲"
+      ],
+      "examples": [
+        "They rented a hotel suite.",
+        "The pianist played a suite."
+      ],
+      "synonyms": [
+        "set",
+        "series"
+      ],
+      "antonyms": [],
+      "related": [
+        "suit",
+        "suitable",
+        "sequence"
+      ],
+      "semantic_expansions": [
+        "套房：一连串相通的房间"
+      ],
+      "recall_hint": "suite（跟随的一系列）→ 相连成套"
+    },
+    {
+      "id": "prevent",
+      "word": "prevent",
+      "pos": "verb",
+      "phonetic": "/prɪˈvent/",
+      "decomposable": "root",
+      "root_ids": [
+        "venire-invent"
+      ],
+      "root_logic": "pre-（在前）+ vent（来）→ 先一步来到 → 阻止",
+      "origin": "拉丁语 praevenire：prae-（在前）+ venire（来）",
+      "native_definition": "to stop something from happening",
+      "core_concept": "coming before it so it can't happen – 抢在它前面赶到",
+      "core_image": "看到前方封路，一脚刹车停住，车没冲进施工区",
+      "chinese": [
+        "阻止",
+        "预防"
+      ],
+      "examples": [
+        "The guard prevented the theft.",
+        "Vaccine prevents the disease."
+      ],
+      "synonyms": [
+        "stop",
+        "hinder"
+      ],
+      "antonyms": [
+        "allow",
+        "permit"
+      ],
+      "related": [
+        "invent",
+        "invention"
+      ],
+      "semantic_expansions": [
+        "阻止：抢在前面赶到",
+        "预防：事先防住"
+      ],
+      "recall_hint": "pre-（在前）+ vent（来）→ 先一步到 → 阻止"
+    }
+  ]
+}

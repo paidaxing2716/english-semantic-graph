@@ -457,7 +457,8 @@
         "precede",
         "recede",
         "precedent",
-        "preceding"
+        "preceding",
+        "concession"
       ]
     },
     {
@@ -910,7 +911,10 @@
         "consequence",
         "consequently",
         "sequence",
-        "subsequent"
+        "subsequent",
+        "suit",
+        "suitable",
+        "suite"
       ]
     },
     {
@@ -1109,7 +1113,8 @@
         "implement",
         "multiple",
         "supplement",
-        "triple"
+        "triple",
+        "comply"
       ]
     },
     {
@@ -1892,7 +1897,8 @@
         "invent",
         "invention",
         "inventory",
-        "invite"
+        "invite",
+        "prevent"
       ]
     },
     {
@@ -2625,7 +2631,8 @@
       "core_image": "一刀落下，把整块东西齐齐切开",
       "english_definition": "to cut, to strike off",
       "word_ids": [
-        "precise"
+        "precise",
+        "concise"
       ]
     },
     {
@@ -2710,6 +2717,130 @@
         "attempt",
         "contempt",
         "tempt"
+      ]
+    },
+    {
+      "id": "conciliare",
+      "root": "conciliare",
+      "variants": [
+        "concil",
+        "concili"
+      ],
+      "origin": "拉丁语 conciliare（使结合、和好）← concilium（集会、联盟）",
+      "core_concept": "to bring into harmony / 使重新聚拢、和好",
+      "core_image": "两个人闹僵后又坐回同一张桌前",
+      "english_definition": "to reconcile, unite",
+      "word_ids": [
+        "reconcile"
+      ]
+    },
+    {
+      "id": "par-equal",
+      "root": "par",
+      "variants": [
+        "par",
+        "pari"
+      ],
+      "origin": "拉丁语 par（相等的、对等的），PIE *per-；parare（使就绪）同 PIE 但拉丁已分化",
+      "core_concept": "equal, on a level / 对等、相等",
+      "core_image": "天平两端摆到同一高度，谁也不压谁",
+      "english_definition": "equal, matching",
+      "word_ids": [
+        "comparable",
+        "pair",
+        "repair"
+      ]
+    },
+    {
+      "id": "compilare",
+      "root": "compilare",
+      "variants": [
+        "compil",
+        "pila"
+      ],
+      "origin": "拉丁语 compilare（堆在一起）← pila（柱、堆）",
+      "core_concept": "to heap together, gather up / 堆拢成册",
+      "core_image": "把散落的纸稿按序叠成一摞",
+      "english_definition": "to compile, gather",
+      "word_ids": [
+        "compile"
+      ]
+    },
+    {
+      "id": "audire",
+      "root": "audire",
+      "variants": [
+        "aud",
+        "audi",
+        "obed"
+      ],
+      "origin": "拉丁语 audire（听）",
+      "core_concept": "to hear, to listen / 听",
+      "core_image": "耳朵侧过去，听清那句话",
+      "english_definition": "to hear, to listen",
+      "word_ids": [
+        "obedience",
+        "obedient"
+      ]
+    },
+    {
+      "id": "valere",
+      "root": "valere",
+      "variants": [
+        "val",
+        "vale"
+      ],
+      "origin": "拉丁语 valere（强壮、有力、有效）",
+      "core_concept": "strong, in force / 强壮、有效力",
+      "core_image": "一株幼苗在石缝里挺直腰杆顶开土块",
+      "english_definition": "to be strong, avail, be valid",
+      "word_ids": [
+        "prevalent"
+      ]
+    },
+    {
+      "id": "via",
+      "root": "via",
+      "variants": [
+        "via",
+        "vi"
+      ],
+      "origin": "拉丁语 via（路、途径）",
+      "core_concept": "a path, a way / 路、途径",
+      "core_image": "一条大路笔直通向远处",
+      "english_definition": "way, road, path",
+      "word_ids": [
+        "previous"
+      ]
+    },
+    {
+      "id": "hum-onomatopoeia",
+      "root": "hum",
+      "variants": [
+        "hum"
+      ],
+      "origin": "英语 hum（拟声词，低声哼/嗡响），与拉丁皆无关",
+      "core_concept": "a low humming sound / 低沉持续的嗡嗡声",
+      "core_image": "机器低鸣，隔墙都能感到震颤",
+      "english_definition": "to buzz, hum, drone",
+      "word_ids": [
+        "hum"
+      ]
+    },
+    {
+      "id": "humor-moist",
+      "root": "humor",
+      "variants": [
+        "hum",
+        "humor"
+      ],
+      "origin": "拉丁语 humor（湿气、体液）——体液学说引申出生性与幽默",
+      "core_concept": "the body's moisture and temper / 体液引申出的性情与幽默",
+      "core_image": "四杯体液各居其位，平衡了人就开朗",
+      "english_definition": "humour, disposition",
+      "word_ids": [
+        "humor",
+        "humorous"
       ]
     }
   ]

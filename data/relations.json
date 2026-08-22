@@ -4728,6 +4728,120 @@
       "to": "contempt",
       "type": "root",
       "note": "con-（完全）+ tempt（试探）→ 看穿之后轻慢地对待 → 蔑视"
+    },
+    {
+      "from": "conciliare",
+      "to": "reconcile",
+      "type": "root",
+      "note": "re-（再）+ concili（使和好）→ 使重新和好 → 和解；调和"
+    },
+    {
+      "from": "par-equal",
+      "to": "comparable",
+      "type": "root",
+      "note": "com-（共同）+ par（对等）+ -able → 能放到同一天平上比 → 可比较的"
+    },
+    {
+      "from": "par-equal",
+      "to": "pair",
+      "type": "root",
+      "note": "par（对等）→ 两个对等的东西 → 一对"
+    },
+    {
+      "from": "par-equal",
+      "to": "repair",
+      "type": "root",
+      "note": "re-（再）+ pair（对等/使就绪）→ 重新使恢复到某种状态 → 修理"
+    },
+    {
+      "from": "compilare",
+      "to": "compile",
+      "type": "root",
+      "note": "com-（一起）+ pile（堆）→ 把散件堆到一起 → 汇编"
+    },
+    {
+      "from": "audire",
+      "to": "obedience",
+      "type": "root",
+      "note": "ob-（朝向）+ edi（听）→ 朝着喊话的方向听 → 服从"
+    },
+    {
+      "from": "audire",
+      "to": "obedient",
+      "type": "root",
+      "note": "ob-（朝向）+ edi（听）+ -ent → 愿意听着办的 → 顺从的"
+    },
+    {
+      "from": "valere",
+      "to": "prevalent",
+      "type": "root",
+      "note": "pre-（更）+ val（强）→ 比别处都强、都普及 → 流行的"
+    },
+    {
+      "from": "via",
+      "to": "previous",
+      "type": "root",
+      "note": "pre-（在前）+ vi（路）→ 在路前面、先走到的 → 先前的"
+    },
+    {
+      "from": "hum-onomatopoeia",
+      "to": "hum",
+      "type": "root",
+      "note": "hum（拟声）→ 低沉持续的嗡嗡声"
+    },
+    {
+      "from": "humor-moist",
+      "to": "humor",
+      "type": "root",
+      "note": "humor（体液）→ 古人认为体液决定性情 → 幽默"
+    },
+    {
+      "from": "humor-moist",
+      "to": "humorous",
+      "type": "root",
+      "note": "humor（幽默）+ -ous → 有幽默感的 → 幽默的"
+    },
+    {
+      "from": "ced",
+      "to": "concession",
+      "type": "root",
+      "note": "con-（一起）+ cess（走）→ 一起往后让 → 让步"
+    },
+    {
+      "from": "caedere",
+      "to": "concise",
+      "type": "root",
+      "note": "con-（完全）+ cis（切）→ 把废话切掉 → 简明的"
+    },
+    {
+      "from": "plere",
+      "to": "comply",
+      "type": "root",
+      "note": "com-（完全）+ ply（填满）→ 满足全部要求 → 遵从"
+    },
+    {
+      "from": "sequ",
+      "to": "suit",
+      "type": "root",
+      "note": "suit（跟随）→ 跟着身体的形状走 → 合身、适合"
+    },
+    {
+      "from": "sequ",
+      "to": "suitable",
+      "type": "root",
+      "note": "suit（适合）+ -able → 合适的"
+    },
+    {
+      "from": "sequ",
+      "to": "suite",
+      "type": "root",
+      "note": "suite（跟随的一系列）→ 一串相随的东西"
+    },
+    {
+      "from": "venire-invent",
+      "to": "prevent",
+      "type": "root",
+      "note": "pre-（在前）+ vent（来）→ 先一步来到 → 阻止"
     }
   ]
 }
