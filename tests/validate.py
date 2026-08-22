@@ -358,6 +358,32 @@ def main():
             print(f"[FAIL] examples.{ex['id']}.word_id 引用不存在的单词: {ex['word_id']}")
             ok = False
 
+    # --- 例句两边对齐（words.json 内嵌 ↔ examples.json）---
+    # 只查上面那一个方向不够：曾经漂移到 examples.json 少 27 条、少覆盖 4 个词，
+    # 而校验全绿——因为反向从来没查。前端读的是 words.json 的内嵌 examples，
+    # 故漂移不影响显示，只让本脚本报的「例句 N」少报，愈积愈多无人发觉。
+    # review.py 的 merge 会为每个合并词写 examples.json，正常批次不会漂；
+    # 漂的是管线建立之前的手工批次（已由 scripts/backfill_examples_json.py 补齐）。
+    ex_by_word = {}
+    for ex in examples:
+        ex_by_word.setdefault(ex["word_id"], set()).add(ex["text"])
+    ex_gap = []
+    for w in words:
+        for t in w.get("examples") or []:
+            if t not in ex_by_word.get(w["id"], set()):
+                ex_gap.append(f"{w['id']}: {t[:40]}")
+    if ex_gap:
+        print(f"[FAIL] words.json 有例句未同步到 examples.json: {len(ex_gap)} 条")
+        for g in ex_gap[:5]:
+            print(f"        {g}")
+        print("        → 跑 python scripts/backfill_examples_json.py 补齐")
+        ok = False
+    ex_ids = [e["id"] for e in examples]
+    if len(ex_ids) != len(set(ex_ids)):
+        dup = [i for i in set(ex_ids) if ex_ids.count(i) > 1]
+        print(f"[FAIL] examples.json 有重复 id: {dup[:5]}")
+        ok = False
+
     # --- 质量门 Q1：多义词解释覆盖 ---
     # 规则：
     # 1) 硬门槛：多义词（chinese ≥ 2）必须至少有 1 条 semantic_expansions，

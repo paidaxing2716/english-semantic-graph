@@ -26985,6 +26985,195 @@
       "text": "The result defies explanation.",
       "source": "AI 生成 · 人工审核",
       "scene": "他把那份契约推回去，说往后不认这一条"
+    },
+    {
+      "id": "ex-figure-3",
+      "word_id": "figure",
+      "text": "He is an important public figure.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "远处看到一个人的轮廓，能认出身形；纸上的符号也是代表数量的形状"
+    },
+    {
+      "id": "ex-impress-2",
+      "word_id": "impress",
+      "text": "The view impressed itself on my memory.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "印章把图案压进纸里；一件事深深印在脑海里"
+    },
+    {
+      "id": "ex-express-2",
+      "word_id": "express",
+      "text": "Words cannot express how I feel.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "内心的话像被挤压的牙膏一样从出口流出来"
+    },
+    {
+      "id": "ex-suppress-2",
+      "word_id": "suppress",
+      "text": "The government suppressed the protest.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "用手把要冒出来的气泡压回水面下"
+    },
+    {
+      "id": "ex-perform-2",
+      "word_id": "perform",
+      "text": "She performed beautifully on stage.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "舞台上演员把整个节目完整地呈现出来"
+    },
+    {
+      "id": "ex-extract-2",
+      "word_id": "extract",
+      "text": "Oil is extracted from these seeds.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "用镊子把嵌在肉里的刺一点点拉出体外"
+    },
+    {
+      "id": "ex-position-2",
+      "word_id": "position",
+      "text": "She applied for a manager position.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "棋子被摆放在棋盘上的某个格子里"
+    },
+    {
+      "id": "ex-compose-2",
+      "word_id": "compose",
+      "text": "He composed a beautiful symphony.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "把音符一个个摆放到五线谱上，摆成一支曲子"
+    },
+    {
+      "id": "ex-expose-2",
+      "word_id": "expose",
+      "text": "Don't expose your skin to the sun too long.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "把藏在幕布后的东西搬到阳光下展示出来"
+    },
+    {
+      "id": "ex-propose-2",
+      "word_id": "propose",
+      "text": "He proposed to her on the beach.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "把方案放在桌上推到对方面前"
+    },
+    {
+      "id": "ex-admit-2",
+      "word_id": "admit",
+      "text": "She was admitted to the university.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "门口的人侧身放行让客人进来；把'这是真的'放进心里"
+    },
+    {
+      "id": "ex-commit-2",
+      "word_id": "commit",
+      "text": "He committed a serious crime.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "把全部的心力'送'给一件事，再也没有退路"
+    },
+    {
+      "id": "ex-permit-2",
+      "word_id": "permit",
+      "text": "You need a permit to park here.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "门卫挥手让车辆通过关卡"
+    },
+    {
+      "id": "ex-transmit-2",
+      "word_id": "transmit",
+      "text": "Data is transmitted over the network.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "信号塔把电波跨越大山送到远方"
+    },
+    {
+      "id": "ex-respect-2",
+      "word_id": "respect",
+      "text": "In this respect, we agree.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "面对值得敬重的人，目光里充满敬意地注视"
+    },
+    {
+      "id": "ex-transcript-2",
+      "word_id": "transcript",
+      "text": "She ordered her college transcript.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "把录音里的对话一字一字抄到纸上"
+    },
+    {
+      "id": "ex-subscribe-2",
+      "word_id": "subscribe",
+      "text": "He subscribed to the agreement.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "在合同的底端签下自己的名字，表示自己站在下面认这份东西"
+    },
+    {
+      "id": "ex-conduct-2",
+      "word_id": "conduct",
+      "text": "He conducts the school orchestra.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "站在乐团前的人挥动手中的棒，整支队伍跟着他往前走"
+    },
+    {
+      "id": "ex-produce-2",
+      "word_id": "produce",
+      "text": "The plan produced great results.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "工厂流水线把原料一步步引导成成品"
+    },
+    {
+      "id": "ex-introduce-2",
+      "word_id": "introduce",
+      "text": "The city introduced a new transport system.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "主人把客人引到屋内，领着他见过在场的每个人"
+    },
+    {
+      "id": "ex-report-1-2",
+      "word_id": "report",
+      "text": "The journalist reported on the event.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "信使把前线的消息带回指挥部"
+    },
+    {
+      "id": "ex-choose-1",
+      "word_id": "choose",
+      "text": "You can choose any course you like.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "自助餐台上摆满菜品，你伸手端走最想吃的那一盘"
+    },
+    {
+      "id": "ex-choose-2",
+      "word_id": "choose",
+      "text": "She chose the shorter route home.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "自助餐台上摆满菜品，你伸手端走最想吃的那一盘"
+    },
+    {
+      "id": "ex-select-1",
+      "word_id": "select",
+      "text": "They selected him to lead the team.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "评委在众多作品中仔细比较，挑出最优秀的那一件"
+    },
+    {
+      "id": "ex-pick-1",
+      "word_id": "pick",
+      "text": "Pick a card, any card.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "从果篮里随手拿起一个苹果"
+    },
+    {
+      "id": "ex-pick-2",
+      "word_id": "pick",
+      "text": "He picked the ripest one from the basket.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "从果篮里随手拿起一个苹果"
+    },
+    {
+      "id": "ex-state-1",
+      "word_id": "state",
+      "text": "Please state your name and address.",
+      "source": "回填 · 据 words.json 对齐",
+      "scene": "在正式的场合，一字一句把立场说清楚"
     }
   ]
 }
