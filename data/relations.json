@@ -6330,6 +6330,90 @@
       "to": "modernization",
       "type": "root",
       "note": "modern（现代的）+ -ization → 把旧的改到当下这一档 → 现代化"
+    },
+    {
+      "from": "cep",
+      "to": "catch",
+      "type": "root",
+      "note": "capere（抓取）经古北法语 cachier（追捕）→ 伸手把动着的东西拿住"
+    },
+    {
+      "from": "cep",
+      "to": "chase",
+      "type": "root",
+      "note": "capere（抓取）经古法语 chacier（追猎）→ 一路追着要抓住"
+    },
+    {
+      "from": "cadere",
+      "to": "chance",
+      "type": "root",
+      "note": "cadere（落下）→ 骰子落地那一面 → 碰巧、机会"
+    },
+    {
+      "from": "cadere",
+      "to": "cheat",
+      "type": "root",
+      "note": "cadere（落下）→ escheat（无主财产归公）→ 借职权占人便宜 → 欺骗"
+    },
+    {
+      "from": "civis",
+      "to": "city",
+      "type": "root",
+      "note": "civis（市民）→ civitas（市民共同体）→ 市民聚居之地"
+    },
+    {
+      "from": "civis",
+      "to": "citizen",
+      "type": "root",
+      "note": "civis（市民）+ -zen（居者）→ 属这座城、有其权利与义务的人"
+    },
+    {
+      "from": "habere",
+      "to": "able",
+      "type": "root",
+      "note": "habere（拿住）→ habilis（好操持的）→ 拿得住、使得动 → 有能力的"
+    },
+    {
+      "from": "habere",
+      "to": "ability",
+      "type": "root",
+      "note": "able（拿得住）+ -ity → 拿得住这件事本身 → 能力"
+    },
+    {
+      "from": "ligare",
+      "to": "ally",
+      "type": "root",
+      "note": "al-（ad- 朝）+ lig（绑）→ 绑到一处的那一方 → 盟友"
+    },
+    {
+      "from": "ligare",
+      "to": "alliance",
+      "type": "root",
+      "note": "ally（结盟）+ -ance → 系在一处这件事，及系成的那个组合"
+    },
+    {
+      "from": "ligare",
+      "to": "alloy",
+      "type": "root",
+      "note": "al-（ad- 朝）+ loy（绑）→ 两种金属绑成一体 → 合金"
+    },
+    {
+      "from": "valere",
+      "to": "avail",
+      "type": "root",
+      "note": "a-（ad- 朝）+ vail（值、有力）→ 顶得上用 → 有助于"
+    },
+    {
+      "from": "gen",
+      "to": "benign",
+      "type": "root",
+      "note": "bene（好）+ gn（gen 出身、天性）→ 天性好的 → 和善、良性"
+    },
+    {
+      "from": "caedere",
+      "to": "cement",
+      "type": "root",
+      "note": "caedere（切、砍）→ caementum（砍碎的石屑）→ 碎石烧成的胶结料"
     }
   ]
 }

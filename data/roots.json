@@ -915,7 +915,8 @@
         "generation",
         "generous",
         "generalize",
-        "generator"
+        "generator",
+        "benign"
       ]
     },
     {
@@ -1456,7 +1457,9 @@
         "civil",
         "civilian",
         "civilization",
-        "civilize"
+        "civilize",
+        "city",
+        "citizen"
       ]
     },
     {
@@ -2700,7 +2703,9 @@
         "conceive",
         "perceive",
         "capture",
-        "captive"
+        "captive",
+        "catch",
+        "chase"
       ]
     },
     {
@@ -2737,7 +2742,8 @@
       "english_definition": "to cut, to strike off",
       "word_ids": [
         "precise",
-        "concise"
+        "concise",
+        "cement"
       ]
     },
     {
@@ -2901,7 +2907,8 @@
       "core_image": "一株幼苗在石缝里挺直腰杆顶开土块",
       "english_definition": "to be strong, avail, be valid",
       "word_ids": [
-        "prevalent"
+        "prevalent",
+        "avail"
       ]
     },
     {
@@ -3119,7 +3126,9 @@
       "word_ids": [
         "exhibit",
         "inhibit",
-        "prohibit"
+        "prohibit",
+        "able",
+        "ability"
       ]
     },
     {
@@ -3260,7 +3269,10 @@
       "word_ids": [
         "obligation",
         "religion",
-        "religious"
+        "religious",
+        "ally",
+        "alliance",
+        "alloy"
       ]
     },
     {
@@ -3349,7 +3361,9 @@
         "incident",
         "incidentally",
         "accident",
-        "accidental"
+        "accidental",
+        "chance",
+        "cheat"
       ]
     },
     {

@@ -50273,6 +50273,557 @@
         "吸气：把外头的气吸进身体",
         "透气：让新的气进来换掉旧的"
       ]
+    },
+    {
+      "id": "catch",
+      "word": "catch",
+      "pos": "verb",
+      "phonetic": "/kætʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "capere（抓取）经古北法语 cachier（追捕）→ 伸手把动着的东西拿住",
+      "origin": "古北法语 cachier（追、捕）← 通俗拉丁语 captiare ← 拉丁语 capere（抓取）",
+      "native_definition": "to take hold of something moving; to be in time for",
+      "core_concept": "closing the hand on something already in motion – 把正动着的东西一把攥住",
+      "core_image": "球还在半空，他一伸手扣住了",
+      "chinese": [
+        "抓住",
+        "赶上",
+        "染上"
+      ],
+      "examples": [
+        "She caught the ball with one hand.",
+        "He just caught the last train."
+      ],
+      "synonyms": [
+        "seize",
+        "grasp"
+      ],
+      "antonyms": [
+        "drop",
+        "miss"
+      ],
+      "related": [
+        "capture",
+        "chase"
+      ],
+      "semantic_expansions": [
+        "抓住：把动着的东西一把攥住",
+        "赶上：在开走之前把它抓着",
+        "染上：病像被抓住一样落到身上"
+      ],
+      "recall_hint": "capere（抓取）→ 把正动着的东西一把攥住"
+    },
+    {
+      "id": "chase",
+      "word": "chase",
+      "pos": "verb",
+      "phonetic": "/tʃeɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "capere（抓取）经古法语 chacier（追猎）→ 一路追着要抓住",
+      "origin": "古法语 chacier（追猎）← 通俗拉丁语 captiare ← 拉丁语 capere；与 catch 同源分支",
+      "native_definition": "to run after someone or something to catch them",
+      "core_concept": "keeping after a thing because the hand has not closed on it yet – 手还没抓住，脚就一直跟着",
+      "core_image": "狗撒开腿跟着那团影子跑，隔一段又追近些",
+      "chinese": [
+        "追赶",
+        "追捕",
+        "追求"
+      ],
+      "examples": [
+        "The dog chased the rabbit.",
+        "Police chased the car for miles."
+      ],
+      "synonyms": [
+        "pursue",
+        "hunt"
+      ],
+      "antonyms": [
+        "flee"
+      ],
+      "related": [
+        "catch",
+        "capture"
+      ],
+      "semantic_expansions": [
+        "追赶/追捕：手未及、脚先跟着不放",
+        "追求：同一个追法用在人或目标上"
+      ],
+      "recall_hint": "capere（抓取）→ 手未及先追着，chacier 一支"
+    },
+    {
+      "id": "chance",
+      "word": "chance",
+      "pos": "noun",
+      "phonetic": "/tʃɑːns/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "cadere（落下）→ 骰子落地那一面 → 碰巧、机会",
+      "origin": "古法语 cheance（掷骰所得）← 通俗拉丁语 cadentia（落下之势）← 拉丁语 cadere（落下）",
+      "native_definition": "a possibility of something happening; an opportunity",
+      "core_concept": "which face the die shows when it stops rolling – 骰子停下来时朝上的那一面",
+      "core_image": "骰子在桌上滚了两圈，停下时朝上那面谁也没料到",
+      "chinese": [
+        "机会",
+        "可能性",
+        "偶然"
+      ],
+      "examples": [
+        "This is your last chance.",
+        "There is a chance of rain today."
+      ],
+      "synonyms": [
+        "opportunity",
+        "possibility"
+      ],
+      "antonyms": [
+        "certainty"
+      ],
+      "related": [
+        "accident",
+        "incident"
+      ],
+      "semantic_expansions": [
+        "机会：骰子恰好落成对你有利那面",
+        "可能性：它可能落成的各面之一",
+        "偶然：落成哪面并非人定"
+      ],
+      "recall_hint": "cadere（落下）→ 骰子停下时朝上那一面"
+    },
+    {
+      "id": "cheat",
+      "word": "cheat",
+      "pos": "verb",
+      "phonetic": "/tʃiːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "cadere（落下）→ escheat（无主财产归公）→ 借职权占人便宜 → 欺骗",
+      "origin": "中古英语 cheten，截自 escheat（封建法中无嗣田产落归领主）← 古法语 eschete ← cadere（落下）",
+      "native_definition": "to act dishonestly to gain an advantage",
+      "core_concept": "taking what fell to another and calling it one's own – 把该落到别人手里的据为己有",
+      "core_image": "他把牌往袖口一带，抬头时脸上没有半点异样",
+      "chinese": [
+        "欺骗",
+        "作弊",
+        "骗子"
+      ],
+      "examples": [
+        "He cheated in the exam.",
+        "She felt cheated by the deal."
+      ],
+      "synonyms": [
+        "deceive",
+        "trick"
+      ],
+      "antonyms": [
+        "honest"
+      ],
+      "related": [
+        "chance",
+        "accident"
+      ],
+      "semantic_expansions": [
+        "欺骗/作弊：把该落给别人的悄悄占去",
+        "骗子：惯做此事的那个人"
+      ],
+      "recall_hint": "cadere（落下）→ 把落归他人之物占去"
+    },
+    {
+      "id": "city",
+      "word": "city",
+      "pos": "noun",
+      "phonetic": "/ˈsɪti/",
+      "decomposable": "root",
+      "root_ids": [
+        "civis"
+      ],
+      "root_logic": "civis（市民）→ civitas（市民共同体）→ 市民聚居之地",
+      "origin": "古法语 cité ← 拉丁语 civitas（公民共同体、城邦）← civis（市民）",
+      "native_definition": "a large town where many people live and work",
+      "core_concept": "the place named after the body of people in it, not its walls – 以住在里头的人得名，而非以城墙",
+      "core_image": "屋顶一直连到天边，路口的人流从早到晚没断过",
+      "chinese": [
+        "城市",
+        "都市"
+      ],
+      "examples": [
+        "She moved to the city last year.",
+        "The city has three million people."
+      ],
+      "synonyms": [
+        "town",
+        "metropolis"
+      ],
+      "antonyms": [
+        "countryside"
+      ],
+      "related": [
+        "citizen",
+        "civil"
+      ],
+      "semantic_expansions": [
+        "城市/都市：以聚居其中的市民得名的那处地方"
+      ],
+      "recall_hint": "civis（市民）→ civitas（市民共同体）→ 其聚居之地"
+    },
+    {
+      "id": "citizen",
+      "word": "citizen",
+      "pos": "noun",
+      "phonetic": "/ˈsɪtɪzn/",
+      "decomposable": "root",
+      "root_ids": [
+        "civis"
+      ],
+      "root_logic": "civis（市民）+ -zen（居者）→ 属这座城、有其权利与义务的人",
+      "origin": "盎格鲁法语 citezein ← 古法语 citeain ← 拉丁语 civitas ← civis（市民）",
+      "native_definition": "a person who legally belongs to a country and has its rights",
+      "core_concept": "the one the city counts as its own – 被这座城认作自己人的那个",
+      "core_image": "他掏出那本册子，柜台后的人点点头就放行了",
+      "chinese": [
+        "公民",
+        "市民",
+        "居民"
+      ],
+      "examples": [
+        "Every citizen may vote.",
+        "She became a citizen last spring."
+      ],
+      "synonyms": [
+        "national",
+        "resident"
+      ],
+      "antonyms": [
+        "foreigner"
+      ],
+      "related": [
+        "city",
+        "civil"
+      ],
+      "semantic_expansions": [
+        "公民：被国家认作自己人、有权利义务的那个",
+        "市民/居民：同理，落在城这一级"
+      ],
+      "recall_hint": "civis（市民）+ -zen（居者）→ 被这座城认作自己人的"
+    },
+    {
+      "id": "able",
+      "word": "able",
+      "pos": "adjective",
+      "phonetic": "/ˈeɪbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "habere（拿住）→ habilis（好操持的）→ 拿得住、使得动 → 有能力的",
+      "origin": "古法语 able ← 拉丁语 habilis（易于操持的）← habere（拿住）",
+      "native_definition": "having the skill or power to do something",
+      "core_concept": "the hand that can actually hold and work the thing – 手真拿得住、使得动的那种",
+      "core_image": "别人拧不开那个盖子，递给他一转就开了",
+      "chinese": [
+        "能够的",
+        "有能力的"
+      ],
+      "examples": [
+        "She is able to speak three languages.",
+        "He was not able to come."
+      ],
+      "synonyms": [
+        "capable",
+        "competent"
+      ],
+      "antonyms": [
+        "unable"
+      ],
+      "related": [
+        "ability",
+        "exhibit"
+      ],
+      "semantic_expansions": [
+        "能够的/有能力的：手真拿得住、使得动的那种"
+      ],
+      "recall_hint": "habere（拿住）→ habilis（好操持）→ 拿得住"
+    },
+    {
+      "id": "ability",
+      "word": "ability",
+      "pos": "noun",
+      "phonetic": "/əˈbɪləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "able（拿得住）+ -ity → 拿得住这件事本身 → 能力",
+      "origin": "古法语 ablete ← 拉丁语 habilitas（易操持的性质）← habere（拿住）",
+      "native_definition": "the power or skill needed to do something",
+      "core_concept": "how much the hand can actually take on – 那双手到底拿得住多少",
+      "core_image": "同一副担子有人挑不起，有人挑起来还能走",
+      "chinese": [
+        "能力",
+        "才能"
+      ],
+      "examples": [
+        "She has great ability in maths.",
+        "It is beyond my ability to fix."
+      ],
+      "synonyms": [
+        "skill",
+        "capacity"
+      ],
+      "antonyms": [
+        "inability"
+      ],
+      "related": [
+        "able",
+        "exhibit"
+      ],
+      "semantic_expansions": [
+        "能力/才能：手拿得住、使得动的那份分量"
+      ],
+      "recall_hint": "able（拿得住）+ -ity → 拿得住的那份分量"
+    },
+    {
+      "id": "ally",
+      "word": "ally",
+      "pos": "noun",
+      "phonetic": "/ˈælaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "al-（ad- 朝）+ lig（绑）→ 绑到一处的那一方 → 盟友",
+      "origin": "古法语 alier（结合）← 拉丁语 alligare（捆在一起）← ad＋ligare（绑）",
+      "native_definition": "a country or person joined with another for a shared purpose",
+      "core_concept": "the one tied to your side by the same cord – 被同一根绳系到你这边的那方",
+      "core_image": "两只手腕被一根绳系住，往哪走都得一块儿",
+      "chinese": [
+        "盟友",
+        "同盟者",
+        "结盟"
+      ],
+      "examples": [
+        "Britain was a wartime ally.",
+        "The two nations allied against the threat."
+      ],
+      "synonyms": [
+        "partner",
+        "associate"
+      ],
+      "antonyms": [
+        "enemy",
+        "rival"
+      ],
+      "related": [
+        "alliance",
+        "obligation"
+      ],
+      "semantic_expansions": [
+        "盟友/同盟者：被同一根绳系到自己这边的那方",
+        "结盟：把两方系到一处这个动作"
+      ],
+      "recall_hint": "al-（朝）+ lig（绑）→ 被同一根绳系到一处"
+    },
+    {
+      "id": "alliance",
+      "word": "alliance",
+      "pos": "noun",
+      "phonetic": "/əˈlaɪəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "ally（结盟）+ -ance → 系在一处这件事，及系成的那个组合",
+      "origin": "古法语 aliance（结盟）← alier ← 拉丁语 alligare ← ad＋ligare（绑）",
+      "native_definition": "a formal agreement between countries or groups to work together",
+      "core_concept": "the knot itself, once two sides are corded together – 两方系妥之后那个结",
+      "core_image": "绳头交叉压紧，打成一个谁也抽不开的结",
+      "chinese": [
+        "联盟",
+        "同盟",
+        "结盟"
+      ],
+      "examples": [
+        "The alliance lasted thirty years.",
+        "They formed an alliance in 1949."
+      ],
+      "synonyms": [
+        "union",
+        "coalition"
+      ],
+      "antonyms": [
+        "split"
+      ],
+      "related": [
+        "ally",
+        "obligation"
+      ],
+      "semantic_expansions": [
+        "联盟/同盟：两方系妥之后成的那个结",
+        "结盟：打这个结的过程"
+      ],
+      "recall_hint": "ally（结盟）+ -ance → 两方系妥后成的那个结"
+    },
+    {
+      "id": "alloy",
+      "word": "alloy",
+      "pos": "noun",
+      "phonetic": "/ˈælɔɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "al-（ad- 朝）+ loy（绑）→ 两种金属绑成一体 → 合金",
+      "origin": "古法语 aloi（成色）← aloier（混合）← 拉丁语 alligare（捆在一起）← ad＋ligare",
+      "native_definition": "a metal made by melting two or more metals together",
+      "core_concept": "two metals corded into one body that no longer comes apart – 两种金属绑成一体，再分不开",
+      "core_image": "炉里两样金属化在一处，冷了以后倒不出哪是哪",
+      "chinese": [
+        "合金"
+      ],
+      "examples": [
+        "Brass is an alloy of copper and zinc.",
+        "The frame is made of light alloy."
+      ],
+      "synonyms": [
+        "mixture",
+        "compound"
+      ],
+      "antonyms": [],
+      "related": [
+        "ally",
+        "alliance"
+      ],
+      "semantic_expansions": [
+        "合金：两种金属绑成一体、再分不开的那种材料"
+      ],
+      "recall_hint": "al-（朝）+ loy（绑）→ 两种金属绑成一体"
+    },
+    {
+      "id": "avail",
+      "word": "avail",
+      "pos": "verb",
+      "phonetic": "/əˈveɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "valere"
+      ],
+      "root_logic": "a-（ad- 朝）+ vail（值、有力）→ 顶得上用 → 有助于",
+      "origin": "中古英语 availen，由 a-（拉丁 ad 向）＋古法语 vail-（valoir 值）← 拉丁语 valere（有力、值）",
+      "native_definition": "to be of use or help; to make use of something",
+      "core_concept": "whether the thing turns out to carry any weight – 那东西到底顶不顶得上用",
+      "core_image": "带来的工具往锁上一试，居然真能拧开",
+      "chinese": [
+        "有助于",
+        "利用",
+        "效用"
+      ],
+      "examples": [
+        "Nothing availed against the storm.",
+        "She availed herself of the offer."
+      ],
+      "synonyms": [
+        "help",
+        "profit"
+      ],
+      "antonyms": [
+        "fail"
+      ],
+      "related": [
+        "prevalent"
+      ],
+      "semantic_expansions": [
+        "有助于/效用：那东西顶得上用、有分量",
+        "利用：把这份分量拿来用在自己身上"
+      ],
+      "recall_hint": "a-（朝）+ vail（值、有力）→ 顶得上用"
+    },
+    {
+      "id": "benign",
+      "word": "benign",
+      "pos": "adjective",
+      "phonetic": "/bɪˈnaɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "gen"
+      ],
+      "root_logic": "bene（好）+ gn（gen 出身、天性）→ 天性好的 → 和善、良性",
+      "origin": "古法语 benigne ← 拉丁语 benignus（善良的）← bene（好）＋genus（出身、种）",
+      "native_definition": "kind and gentle; not dangerous in nature",
+      "core_concept": "born with a mild nature, so it does no harm – 生来性子温的，因此不伤人",
+      "core_image": "护士说话放轻，动作也慢，针扎下去几乎没觉出",
+      "chinese": [
+        "和善的",
+        "良性的",
+        "温和的"
+      ],
+      "examples": [
+        "He gave a benign smile.",
+        "The tumour turned out to be benign."
+      ],
+      "synonyms": [
+        "kindly",
+        "harmless"
+      ],
+      "antonyms": [
+        "malignant",
+        "hostile"
+      ],
+      "related": [
+        "generous",
+        "generate"
+      ],
+      "semantic_expansions": [
+        "和善的/温和的：生来性子温、不伤人",
+        "良性的：同一份「天性不凶」用在病灶上"
+      ],
+      "recall_hint": "bene（好）+ gn（出身天性）→ 生来性子温的"
+    },
+    {
+      "id": "cement",
+      "word": "cement",
+      "pos": "noun",
+      "phonetic": "/sɪˈment/",
+      "decomposable": "root",
+      "root_ids": [
+        "caedere"
+      ],
+      "root_logic": "caedere（切、砍）→ caementum（砍碎的石屑）→ 碎石烧成的胶结料",
+      "origin": "古法语 ciment ← 拉丁语 caementum（采石场砍下的碎石）← caedere（切、砍）",
+      "native_definition": "a grey powder that hardens when mixed with water, used in building",
+      "core_concept": "the stone chips ground down and made to bind again – 砍碎的石头磨成粉，又让它重新黏合",
+      "core_image": "灰粉兑水搅成糊，抹进砖缝，第二天硬得抠不动",
+      "chinese": [
+        "水泥",
+        "胶结剂",
+        "黏合"
+      ],
+      "examples": [
+        "They mixed cement and sand.",
+        "The talks cemented their friendship."
+      ],
+      "synonyms": [
+        "mortar",
+        "bond"
+      ],
+      "antonyms": [],
+      "related": [
+        "precise",
+        "concise"
+      ],
+      "semantic_expansions": [
+        "水泥/胶结剂：砍碎的石屑磨粉后重新黏合之物",
+        "黏合：把两边像水泥那样固牢"
+      ],
+      "recall_hint": "caedere（切砍）→ caementum（碎石屑）→ 烧成胶结料"
     }
   ]
 }

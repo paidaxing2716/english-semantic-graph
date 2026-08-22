@@ -803,7 +803,8 @@
         "generation",
         "generous",
         "generalize",
-        "generator"
+        "generator",
+        "benign"
       ]
     },
     {
@@ -1256,7 +1257,9 @@
         "civil",
         "civilian",
         "civilization",
-        "civilize"
+        "civilize",
+        "city",
+        "citizen"
       ]
     },
     {
@@ -2289,7 +2292,9 @@
         "conceive",
         "perceive",
         "capture",
-        "captive"
+        "captive",
+        "catch",
+        "chase"
       ]
     },
     {
@@ -2317,7 +2322,8 @@
       ],
       "word_ids": [
         "precise",
-        "concise"
+        "concise",
+        "cement"
       ]
     },
     {
@@ -2451,7 +2457,8 @@
         "valere"
       ],
       "word_ids": [
-        "prevalent"
+        "prevalent",
+        "avail"
       ]
     },
     {
@@ -2631,7 +2638,9 @@
       "word_ids": [
         "exhibit",
         "inhibit",
-        "prohibit"
+        "prohibit",
+        "able",
+        "ability"
       ]
     },
     {
@@ -2744,7 +2753,10 @@
       "word_ids": [
         "obligation",
         "religion",
-        "religious"
+        "religious",
+        "ally",
+        "alliance",
+        "alloy"
       ]
     },
     {
@@ -2817,7 +2829,9 @@
         "incident",
         "incidentally",
         "accident",
-        "accidental"
+        "accidental",
+        "chance",
+        "cheat"
       ]
     },
     {
