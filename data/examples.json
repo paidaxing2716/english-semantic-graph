@@ -10983,6 +10983,356 @@
       "text": "Vaccine prevents the disease.",
       "source": "AI 生成 · 人工审核",
       "scene": "看到前方封路，一脚刹车停住，车没冲进施工区"
+    },
+    {
+      "id": "ex-host-1",
+      "word_id": "host",
+      "text": "The host welcomed every guest at the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一开，来者被让进屋，茶已经斟在桌上"
+    },
+    {
+      "id": "ex-host-2",
+      "word_id": "host",
+      "text": "A host of problems followed the storm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门一开，来者被让进屋，茶已经斟在桌上"
+    },
+    {
+      "id": "ex-hostage-1",
+      "word_id": "hostage",
+      "text": "The gunmen held three hostages inside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旅人被留在营中不得走，成了对方开条件的凭据"
+    },
+    {
+      "id": "ex-hostage-2",
+      "word_id": "hostage",
+      "text": "He was taken hostage on the border.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旅人被留在营中不得走，成了对方开条件的凭据"
+    },
+    {
+      "id": "ex-hostess-1",
+      "word_id": "hostess",
+      "text": "The hostess showed us to our seats.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她举杯招呼满屋来客，一张张桌子都照看过来"
+    },
+    {
+      "id": "ex-hostess-2",
+      "word_id": "hostess",
+      "text": "She works as an air hostess.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她举杯招呼满屋来客，一张张桌子都照看过来"
+    },
+    {
+      "id": "ex-hostile-1",
+      "word_id": "hostile",
+      "text": "The crowd turned hostile within minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "来者脸色不善，话里透着要开仗的意思"
+    },
+    {
+      "id": "ex-hostile-2",
+      "word_id": "hostile",
+      "text": "They faced hostile questions all evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "来者脸色不善，话里透着要开仗的意思"
+    },
+    {
+      "id": "ex-concern-1",
+      "word_id": "concern",
+      "text": "This rule concerns everyone in the building.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "消息传来，他一夜没合眼，反复过着那桩事"
+    },
+    {
+      "id": "ex-concern-2",
+      "word_id": "concern",
+      "text": "Her silence caused real concern.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "消息传来，他一夜没合眼，反复过着那桩事"
+    },
+    {
+      "id": "ex-concerning-1",
+      "word_id": "concerning",
+      "text": "He asked several questions concerning the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信里逐条写的，都紧扣那笔款的来龙去脉"
+    },
+    {
+      "id": "ex-concerning-2",
+      "word_id": "concerning",
+      "text": "We had no news concerning her whereabouts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信里逐条写的，都紧扣那笔款的来龙去脉"
+    },
+    {
+      "id": "ex-discern-1",
+      "word_id": "discern",
+      "text": "She could just discern a figure in the fog.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "隔着晨雾眯眼细看，岸上那道影子终于显出轮廓"
+    },
+    {
+      "id": "ex-discern-2",
+      "word_id": "discern",
+      "text": "It is hard to discern his true motive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "隔着晨雾眯眼细看，岸上那道影子终于显出轮廓"
+    },
+    {
+      "id": "ex-lever-1",
+      "word_id": "lever",
+      "text": "He used an iron bar as a lever.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长杆一头垫住石块，另一头轻轻下压，巨石离地"
+    },
+    {
+      "id": "ex-lever-2",
+      "word_id": "lever",
+      "text": "Tax breaks became a political lever.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长杆一头垫住石块，另一头轻轻下压，巨石离地"
+    },
+    {
+      "id": "ex-levy-1",
+      "word_id": "levy",
+      "text": "The council levied a new charge on parking.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "官府张榜，按册向各户收取银钱"
+    },
+    {
+      "id": "ex-levy-2",
+      "word_id": "levy",
+      "text": "A levy was placed on imported goods.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "官府张榜，按册向各户收取银钱"
+    },
+    {
+      "id": "ex-relevant-1",
+      "word_id": "relevant",
+      "text": "Please bring any relevant paperwork.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他提的两点正落在会上要议的那桩事上"
+    },
+    {
+      "id": "ex-relevant-2",
+      "word_id": "relevant",
+      "text": "That remark was hardly relevant here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他提的两点正落在会上要议的那桩事上"
+    },
+    {
+      "id": "ex-music-1",
+      "word_id": "music",
+      "text": "She has listened to this music all week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "琴弦一拨，满室的说话声就静了下来"
+    },
+    {
+      "id": "ex-music-2",
+      "word_id": "music",
+      "text": "The music grew louder as we entered.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "琴弦一拨，满室的说话声就静了下来"
+    },
+    {
+      "id": "ex-musical-1",
+      "word_id": "musical",
+      "text": "He comes from a musical family.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这孩子开口一唱，调子准得让人侧耳"
+    },
+    {
+      "id": "ex-musical-2",
+      "word_id": "musical",
+      "text": "She spoke in a soft, musical voice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这孩子开口一唱，调子准得让人侧耳"
+    },
+    {
+      "id": "ex-musician-1",
+      "word_id": "musician",
+      "text": "The musician tuned her violin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上几人调好弦，静候指挥落棒"
+    },
+    {
+      "id": "ex-musician-2",
+      "word_id": "musician",
+      "text": "He became a professional musician at twenty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上几人调好弦，静候指挥落棒"
+    },
+    {
+      "id": "ex-art-1",
+      "word_id": "art",
+      "text": "She studied art for four years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画布上一笔一笔堆出光影，看的人半晌没说话"
+    },
+    {
+      "id": "ex-art-2",
+      "word_id": "art",
+      "text": "There is an art to asking good questions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画布上一笔一笔堆出光影，看的人半晌没说话"
+    },
+    {
+      "id": "ex-artist-1",
+      "word_id": "artist",
+      "text": "The artist worked in oils and charcoal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在阁楼里对着画架站了一整天，颜料蹭到袖口"
+    },
+    {
+      "id": "ex-artist-2",
+      "word_id": "artist",
+      "text": "She is a well-known artist in this city.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他在阁楼里对着画架站了一整天，颜料蹭到袖口"
+    },
+    {
+      "id": "ex-artistic-1",
+      "word_id": "artistic",
+      "text": "The room had an artistic arrangement of flowers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这只陶碗的弧线收得讲究，摆上桌就压住了满桌俗气"
+    },
+    {
+      "id": "ex-artistic-2",
+      "word_id": "artistic",
+      "text": "He has real artistic talent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这只陶碗的弧线收得讲究，摆上桌就压住了满桌俗气"
+    },
+    {
+      "id": "ex-order-1",
+      "word_id": "order",
+      "text": "Please put the files back in order.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书脊按高矮一列排开，谁也不越位；掌事的一句话下来，各人照着做"
+    },
+    {
+      "id": "ex-order-2",
+      "word_id": "order",
+      "text": "The captain ordered them to wait.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书脊按高矮一列排开，谁也不越位；掌事的一句话下来，各人照着做"
+    },
+    {
+      "id": "ex-disorder-1",
+      "word_id": "disorder",
+      "text": "The room was left in complete disorder.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉被翻得底朝天，东西全不在原处"
+    },
+    {
+      "id": "ex-disorder-2",
+      "word_id": "disorder",
+      "text": "He suffers from a sleep disorder.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉被翻得底朝天，东西全不在原处"
+    },
+    {
+      "id": "ex-orderly-1",
+      "word_id": "orderly",
+      "text": "They formed an orderly queue at the gate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍一列列排开，间距分毫不差"
+    },
+    {
+      "id": "ex-orderly-2",
+      "word_id": "orderly",
+      "text": "She keeps an orderly desk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍一列列排开，间距分毫不差"
+    },
+    {
+      "id": "ex-origin-1",
+      "word_id": "origin",
+      "text": "The origin of the fire is still unknown.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺着溪流一路上溯，直到山间那眼冒水的泉口"
+    },
+    {
+      "id": "ex-origin-2",
+      "word_id": "origin",
+      "text": "She is proud of her humble origins.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺着溪流一路上溯，直到山间那眼冒水的泉口"
+    },
+    {
+      "id": "ex-original-1",
+      "word_id": "original",
+      "text": "The house keeps its original windows.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里那张手稿是头一份，后来的都照着它抄"
+    },
+    {
+      "id": "ex-original-2",
+      "word_id": "original",
+      "text": "Please send me the original, not a copy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉里那张手稿是头一份，后来的都照着它抄"
+    },
+    {
+      "id": "ex-originate-1",
+      "word_id": "originate",
+      "text": "The custom originated in southern Spain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这条河的水，是从那道石缝里第一次涌出来的"
+    },
+    {
+      "id": "ex-originate-2",
+      "word_id": "originate",
+      "text": "The idea originated with her, not him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这条河的水，是从那道石缝里第一次涌出来的"
+    },
+    {
+      "id": "ex-pact-1",
+      "word_id": "pact",
+      "text": "The two nations signed a trade pact.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两方在纸上各按一个手印，从此照纸上写的办"
+    },
+    {
+      "id": "ex-pact-2",
+      "word_id": "pact",
+      "text": "They made a pact never to speak of it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两方在纸上各按一个手印，从此照纸上写的办"
+    },
+    {
+      "id": "ex-compact-1",
+      "word_id": "compact",
+      "text": "The flat has a compact kitchen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "行李被压得严丝合缝，箱盖一扣还有余地"
+    },
+    {
+      "id": "ex-compact-2",
+      "word_id": "compact",
+      "text": "Snow was compact underfoot.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "行李被压得严丝合缝，箱盖一扣还有余地"
+    },
+    {
+      "id": "ex-impact-1",
+      "word_id": "impact",
+      "text": "The impact shattered the windscreen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石子砸进水面，波纹一圈圈荡到岸边"
+    },
+    {
+      "id": "ex-impact-2",
+      "word_id": "impact",
+      "text": "New rules had a real impact on costs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石子砸进水面，波纹一圈圈荡到岸边"
     }
   ]
 }

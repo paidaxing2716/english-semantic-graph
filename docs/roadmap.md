@@ -16,7 +16,8 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余 227 词入库（可结构化的尾声）  ⏳ 交接中，见 [docs/HANDOFF.md](HANDOFF.md)
+v1.1    剩余词入库（可结构化的尾声）← 当前：817 词 · 153 词根，vetted 尚余 131 词 / 49 族
+        交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
 ```
 
 ---
@@ -316,6 +317,28 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十二批（25 词，八新词根族）：hostis（门外来人）+ cernere（筛分）
+        + levare（举起）+ musa（缪斯）+ ars（技艺）+ ordo（行列）
+        + origo（涌出之源）+ pangere（钉合），host/hostage/hostess/hostile，
+        concern/concerning/discern，lever/levy/relevant，music/musical/musician，
+        art/artist/artistic，order/disorder/orderly，origin/original/originate，
+        pact/compact/impact，817 词 · 153 词根。hostis 按 HANDOFF 风险族 1.3
+        写清 hospes（待客）与 hostis（对敌）同源双支；pangere 取动词形而非
+        pactum，使 pact/compact/impact 三词归到同一个「钉牢」意象。
+        单词 form/port 本批未收——roots.json 里 `form`、`port` 两个词根 id
+        正是这两个单词本身，入库会造自环边（现有 0 处，硬不变量），
+        需先跑 scripts/migrate_root_ids_latin.py 改成 forma/portus
+        （动到 22 个已入库词），单独一步做
+- [x] 第四十一批（19 词，C 类同形异源族拆分 8 新根）：conciliare（reconcile）
+        + compilare（compile）+ par-equal（pair/repair/comparable）
+        + audire（obedience/obedient）+ valere（prevalent）+ via（previous）
+        + hum-onomatopoeia / humor-moist（hum 与 humor 不同源）
+        + 法语 suivre 一支（suit/suitable/suite），792 词 · 145 词根。
+        按 HANDOFF 第三节严格拆族不并根。踩到两个坑并已加固：
+        previous.related 指向 'prior'（不在库中）造成死链；
+        pair/hum/suitable 的 core_image 点名本词义项触发 Q12——
+        而 review.py check 并不查 Q12，只有合并后的 validate.py 才查，
+        故在 build 脚本里前移了 Q12/Q1 自检，避免白跑一轮 merge 再回滚
 - [x] 第四十批（15 词，五新词根族）：fortis（强壮）+ fortuna（运气）
         + gravis（重）+ tempus（时间·分寸）+ temptare（试探），
         comfort/comfortable/effort，fortune/fortunate/misfortune，

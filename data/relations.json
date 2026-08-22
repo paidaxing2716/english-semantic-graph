@@ -4842,6 +4842,156 @@
       "to": "prevent",
       "type": "root",
       "note": "pre-（在前）+ vent（来）→ 先一步来到 → 阻止"
+    },
+    {
+      "from": "hostis",
+      "to": "host",
+      "type": "root",
+      "note": "hospes（主/客）一支 → 开门接纳来者、张罗招待的那一方"
+    },
+    {
+      "from": "hostis",
+      "to": "hostage",
+      "type": "root",
+      "note": "hoste（客）+ -age → 留在对方手里的「客」，实为被扣下作抵的人"
+    },
+    {
+      "from": "hostis",
+      "to": "hostess",
+      "type": "root",
+      "note": "host（主人）+ -ess（阴性）→ 出面招待来客的女性一方"
+    },
+    {
+      "from": "hostis",
+      "to": "hostile",
+      "type": "root",
+      "note": "hostis（外来者→对头）+ -ile → 摆出对头架势的"
+    },
+    {
+      "from": "cernere",
+      "to": "concern",
+      "type": "root",
+      "note": "con-（一并）+ cern（筛分）→ 一并筛进来跟自己有牵连 → 牵动心思"
+    },
+    {
+      "from": "cernere",
+      "to": "concerning",
+      "type": "root",
+      "note": "concern（牵涉）的分词转介词 → 就所牵涉的那件事而言"
+    },
+    {
+      "from": "cernere",
+      "to": "discern",
+      "type": "root",
+      "note": "dis-（分开）+ cern（筛分）→ 一层层筛开，直到看出分别"
+    },
+    {
+      "from": "levare",
+      "to": "lever",
+      "type": "root",
+      "note": "lev（举起）+ -er（工具）→ 用来把重物撬起来的那根杆"
+    },
+    {
+      "from": "levare",
+      "to": "levy",
+      "type": "root",
+      "note": "lev（举起）→ 把款项或人手「举」起收拢到官府手里"
+    },
+    {
+      "from": "levare",
+      "to": "relevant",
+      "type": "root",
+      "note": "re-（回）+ lev（举起）+ -ant → 能把话题重新托举起来的 → 搭得上"
+    },
+    {
+      "from": "musa",
+      "to": "music",
+      "type": "root",
+      "note": "mus（缪斯）+ -ic（…的技艺）→ 缪斯所司的声律技艺"
+    },
+    {
+      "from": "musa",
+      "to": "musical",
+      "type": "root",
+      "note": "music（声律技艺）+ -al（…的）→ 属于声律的、听着顺耳的"
+    },
+    {
+      "from": "musa",
+      "to": "musician",
+      "type": "root",
+      "note": "music（声律技艺）+ -ian（司此业者）→ 以声律技艺为业的人"
+    },
+    {
+      "from": "ars",
+      "to": "art",
+      "type": "root",
+      "note": "ars（手上本事）→ 练出来的门道，及其做出的作品"
+    },
+    {
+      "from": "ars",
+      "to": "artist",
+      "type": "root",
+      "note": "art（手艺）+ -ist（司此业者）→ 以这门手上功夫为业的人"
+    },
+    {
+      "from": "ars",
+      "to": "artistic",
+      "type": "root",
+      "note": "artist（司艺者）+ -ic（…的）→ 见得出手上门道的、有讲究的"
+    },
+    {
+      "from": "ordo",
+      "to": "order",
+      "type": "root",
+      "note": "ordo（行列）→ 各就其位的排布；由「排定」引申为排定要办之事、要买之货"
+    },
+    {
+      "from": "ordo",
+      "to": "disorder",
+      "type": "root",
+      "note": "dis-（离散）+ order（各就其位）→ 位次散了 → 乱；身体位次乱了即病症"
+    },
+    {
+      "from": "ordo",
+      "to": "orderly",
+      "type": "root",
+      "note": "order（各就其位）+ -ly（…样的）→ 一眼看去各在其位的"
+    },
+    {
+      "from": "origo",
+      "to": "origin",
+      "type": "root",
+      "note": "origo（涌出之处）→ 事物最初冒出来的那一处，及人的出处"
+    },
+    {
+      "from": "origo",
+      "to": "original",
+      "type": "root",
+      "note": "origin（发端）+ -al（…的）→ 处在最初那一处的；也指头一份实物"
+    },
+    {
+      "from": "origo",
+      "to": "originate",
+      "type": "root",
+      "note": "origin（发端）+ -ate（使…）→ 自某处涌出、由某处发端"
+    },
+    {
+      "from": "pangere",
+      "to": "pact",
+      "type": "root",
+      "note": "pactum（已钉牢之事）→ 双方钉定下来的约"
+    },
+    {
+      "from": "pangere",
+      "to": "compact",
+      "type": "root",
+      "note": "com-（一起）+ pact（钉合）→ 各部分钉合在一起、不占地方的"
+    },
+    {
+      "from": "pangere",
+      "to": "impact",
+      "type": "root",
+      "note": "im-（in- 向内）+ pact（钉入）→ 直钉进去的那一下 → 撞击及其后果"
     }
   ]
 }

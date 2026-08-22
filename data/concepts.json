@@ -2409,6 +2409,119 @@
         "humor",
         "humorous"
       ]
+    },
+    {
+      "id": "concept-hostis-outsider",
+      "concept": "the outsider at the door, received or resisted",
+      "chinese": "门外来人",
+      "core_image": "门前立着外来人，或请进或挡住，两条路分出两支词",
+      "root_ids": [
+        "hostis"
+      ],
+      "word_ids": [
+        "host",
+        "hostage",
+        "hostess",
+        "hostile"
+      ]
+    },
+    {
+      "id": "concept-cernere-sift",
+      "concept": "to sift apart until each thing shows clear",
+      "chinese": "筛开分明",
+      "core_image": "筛子一摇，杂物落尽，留下的粒粒看得分明",
+      "root_ids": [
+        "cernere"
+      ],
+      "word_ids": [
+        "concern",
+        "concerning",
+        "discern"
+      ]
+    },
+    {
+      "id": "concept-levare-lift",
+      "concept": "to raise a load by making it light",
+      "chinese": "托举变轻",
+      "core_image": "一压一撬，沉甸甸的石头就离了地面",
+      "root_ids": [
+        "levare"
+      ],
+      "word_ids": [
+        "lever",
+        "levy",
+        "relevant"
+      ]
+    },
+    {
+      "id": "concept-musa-ordered-sound",
+      "concept": "the ordered sound the Muses grant",
+      "chinese": "缪斯声律",
+      "core_image": "指尖拨过琴弦，声响依法度次第流出",
+      "root_ids": [
+        "musa"
+      ],
+      "word_ids": [
+        "music",
+        "musical",
+        "musician"
+      ]
+    },
+    {
+      "id": "concept-ars-craft",
+      "concept": "the trained hand's skill in arranging things aright",
+      "chinese": "手上功夫",
+      "core_image": "练过千遍的手，把零散材料摆布成挪不开眼的东西",
+      "root_ids": [
+        "ars"
+      ],
+      "word_ids": [
+        "art",
+        "artist",
+        "artistic"
+      ]
+    },
+    {
+      "id": "concept-ordo-arrangement",
+      "concept": "each thing standing in its own place in a row",
+      "chinese": "各就各位",
+      "core_image": "一列物件按高矮排开，谁也不越出自己那格",
+      "root_ids": [
+        "ordo"
+      ],
+      "word_ids": [
+        "disorder",
+        "order",
+        "orderly"
+      ]
+    },
+    {
+      "id": "concept-origo-source",
+      "concept": "the point where something first rises up",
+      "chinese": "涌出之源",
+      "core_image": "溯流而上，尽头是那眼往上冒水的泉口",
+      "root_ids": [
+        "origo"
+      ],
+      "word_ids": [
+        "origin",
+        "original",
+        "originate"
+      ]
+    },
+    {
+      "id": "concept-pangere-fix",
+      "concept": "to drive a thing fast in place, hence to settle an accord",
+      "chinese": "钉牢定约",
+      "core_image": "木桩一锤锤钉进土里，钉牢便再挪不动",
+      "root_ids": [
+        "pangere"
+      ],
+      "word_ids": [
+        "compact",
+        "impact",
+        "pact"
+      ]
     }
   ]
 }

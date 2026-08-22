@@ -1,0 +1,1181 @@
+{
+  "roots": [
+    {
+      "id": "hostis",
+      "root": "hostis",
+      "variants": [
+        "host",
+        "hospit"
+      ],
+      "origin": "拉丁语 hostis（外来者，引申为敌）与 hospes（主/客）同出原始印欧语 *ghos-ti-（外来人）；同一个「门外来人」在善意一支成 hospes（待客），在敌意一支成 hostis（对敌）",
+      "core_concept": "the outsider at the door, received or resisted / 门外来人，或迎或拒",
+      "core_image": "一扇门前站着外来人：开门递茶是一支，横身挡道是另一支",
+      "english_definition": "stranger at the door, guest, enemy"
+    },
+    {
+      "id": "cernere",
+      "root": "cernere",
+      "variants": [
+        "cern",
+        "cret"
+      ],
+      "origin": "拉丁语 cernere（筛、分开、看出分别），本义是拿筛子把杂物分开",
+      "core_concept": "to sift things apart until each shows clear / 筛开混杂，直到各自分明",
+      "core_image": "手里的筛子一摇，砂石落下，留在网上的粒粒分明",
+      "english_definition": "to sift, separate, make out"
+    },
+    {
+      "id": "levare",
+      "root": "levare",
+      "variants": [
+        "lev",
+        "liev"
+      ],
+      "origin": "拉丁语 levare（举起、减轻），来自 levis（轻的）：使变轻即托得起来",
+      "core_concept": "to raise a load by making it light / 把重物托起、使之变轻",
+      "core_image": "一头垫住石块，另一头轻轻下压，沉物就离了地",
+      "english_definition": "to lift, raise, lighten"
+    },
+    {
+      "id": "musa",
+      "root": "musa",
+      "variants": [
+        "mus",
+        "muse"
+      ],
+      "origin": "希腊语 Mousa（缪斯，司文艺的九女神）经拉丁语 musa 入英语；mousike techne（缪斯的技艺）本指诗歌与声律合一的技艺",
+      "core_concept": "the ordered sound the Muses grant / 缪斯所赐、合于法度的声响技艺",
+      "core_image": "琴弦被拨动，一串声响按着法度次第流出",
+      "english_definition": "the Muse, ordered sound"
+    },
+    {
+      "id": "ars",
+      "root": "ars",
+      "variants": [
+        "art"
+      ],
+      "origin": "拉丁语 ars（属格 artis：手上练出的本事、门道），与 artus（关节、接合）同源，本义偏「把东西接合安排得当的手艺」",
+      "core_concept": "skill of the trained hand, arranging things aright / 练出来的手上功夫，把物事安排得当",
+      "core_image": "一双练过千遍的手，把零散材料摆布成让人挪不开眼的东西",
+      "english_definition": "skill, craft, art"
+    },
+    {
+      "id": "ordo",
+      "root": "ordo",
+      "variants": [
+        "ord",
+        "ordin"
+      ],
+      "origin": "拉丁语 ordo（属格 ordinis：行列、次序），本指织机上排开的经线，引申为凡物各就其位的排布",
+      "core_concept": "each thing standing in its own place in a row / 各就各位、排成一列",
+      "core_image": "一列物件按高矮排开，谁也不越出自己那格",
+      "english_definition": "row, rank, arrangement"
+    },
+    {
+      "id": "origo",
+      "root": "origo",
+      "variants": [
+        "orig",
+        "ori"
+      ],
+      "origin": "拉丁语 origo（属格 originis：发端、出处），来自 oriri（升起、涌出），与 oriens（东方，日升之处）同根",
+      "core_concept": "the point where something first rises up / 事物最初涌出来的那一处",
+      "core_image": "顺溪流一路上溯，走到山间那眼往上冒水的泉口",
+      "english_definition": "rising, source, beginning"
+    },
+    {
+      "id": "pangere",
+      "root": "pangere",
+      "variants": [
+        "pact",
+        "ping",
+        "pag"
+      ],
+      "origin": "拉丁语 pangere（钉入、固定、缔结），过去分词 pactus；把桩钉牢即定下约，故 pactum 表协议，compingere/impingere 表拼合与撞入",
+      "core_concept": "to drive a thing fast in place, hence to fix an agreement / 把物钉牢固定，引申为定下约",
+      "core_image": "木桩被一锤锤钉进土里，钉牢了就再也挪不动",
+      "english_definition": "to fix, fasten, settle"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-hostis-outsider",
+      "concept": "the outsider at the door, received or resisted",
+      "chinese": "门外来人",
+      "core_image": "门前立着外来人，或请进或挡住，两条路分出两支词",
+      "root_ids": [
+        "hostis"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-cernere-sift",
+      "concept": "to sift apart until each thing shows clear",
+      "chinese": "筛开分明",
+      "core_image": "筛子一摇，杂物落尽，留下的粒粒看得分明",
+      "root_ids": [
+        "cernere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-levare-lift",
+      "concept": "to raise a load by making it light",
+      "chinese": "托举变轻",
+      "core_image": "一压一撬，沉甸甸的石头就离了地面",
+      "root_ids": [
+        "levare"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-musa-ordered-sound",
+      "concept": "the ordered sound the Muses grant",
+      "chinese": "缪斯声律",
+      "core_image": "指尖拨过琴弦，声响依法度次第流出",
+      "root_ids": [
+        "musa"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-ars-craft",
+      "concept": "the trained hand's skill in arranging things aright",
+      "chinese": "手上功夫",
+      "core_image": "练过千遍的手，把零散材料摆布成挪不开眼的东西",
+      "root_ids": [
+        "ars"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-ordo-arrangement",
+      "concept": "each thing standing in its own place in a row",
+      "chinese": "各就各位",
+      "core_image": "一列物件按高矮排开，谁也不越出自己那格",
+      "root_ids": [
+        "ordo"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-origo-source",
+      "concept": "the point where something first rises up",
+      "chinese": "涌出之源",
+      "core_image": "溯流而上，尽头是那眼往上冒水的泉口",
+      "root_ids": [
+        "origo"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-pangere-fix",
+      "concept": "to drive a thing fast in place, hence to settle an accord",
+      "chinese": "钉牢定约",
+      "core_image": "木桩一锤锤钉进土里，钉牢便再挪不动",
+      "root_ids": [
+        "pangere"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-hold": [
+      "hostis",
+      "pangere"
+    ],
+    "domain-perceive": [
+      "cernere",
+      "musa"
+    ],
+    "domain-force": [
+      "levare"
+    ],
+    "domain-make": [
+      "ars"
+    ],
+    "domain-shape": [
+      "ordo"
+    ],
+    "domain-transfer": [
+      "origo"
+    ]
+  },
+  "words": [
+    {
+      "id": "host",
+      "word": "host",
+      "pos": "noun",
+      "phonetic": "/həʊst/",
+      "decomposable": "root",
+      "root_ids": [
+        "hostis"
+      ],
+      "root_logic": "hospes（主/客）一支 → 开门接纳来者、张罗招待的那一方",
+      "origin": "古法语 hoste，来自拉丁语 hospes（主人与客人同词），与 hostis 同源",
+      "native_definition": "a person who receives and entertains guests; also a large number of things",
+      "core_concept": "the one who takes in whoever arrives and sees to them – 接纳来者并一手张罗的那方",
+      "core_image": "门一开，来者被让进屋，茶已经斟在桌上",
+      "chinese": [
+        "主人",
+        "主持人",
+        "大量"
+      ],
+      "examples": [
+        "The host welcomed every guest at the door.",
+        "A host of problems followed the storm."
+      ],
+      "synonyms": [
+        "receiver",
+        "presenter"
+      ],
+      "antonyms": [
+        "guest"
+      ],
+      "related": [
+        "hostess",
+        "hostage"
+      ],
+      "semantic_expansions": [
+        "主人/主持人：接纳来者并张罗招待的一方",
+        "大量：如同一屋子挤满来客，多到成群"
+      ],
+      "recall_hint": "hospes（主/客）→ 开门接纳来者的那一方"
+    },
+    {
+      "id": "hostage",
+      "word": "hostage",
+      "pos": "noun",
+      "phonetic": "/ˈhɒstɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "hostis"
+      ],
+      "root_logic": "hoste（客）+ -age → 留在对方手里的「客」，实为被扣下作抵的人",
+      "origin": "古法语 ostage（寄居、抵押），来自 hoste（客），源头同 hospes/hostis",
+      "native_definition": "a person held captive as security until demands are met",
+      "core_concept": "a guest turned pledge, kept until terms are met – 由客转为抵押，扣着等对方应条件",
+      "core_image": "旅人被留在营中不得走，成了对方开条件的凭据",
+      "chinese": [
+        "人质"
+      ],
+      "examples": [
+        "The gunmen held three hostages inside.",
+        "He was taken hostage on the border."
+      ],
+      "synonyms": [
+        "captive",
+        "prisoner"
+      ],
+      "antonyms": [
+        "captor"
+      ],
+      "related": [
+        "host",
+        "hostile"
+      ],
+      "semantic_expansions": [
+        "人质：被扣下充作抵押的来人"
+      ],
+      "recall_hint": "hoste（客）+ -age → 被扣在对方手里充抵的来人"
+    },
+    {
+      "id": "hostess",
+      "word": "hostess",
+      "pos": "noun",
+      "phonetic": "/ˈhəʊstəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "hostis"
+      ],
+      "root_logic": "host（主人）+ -ess（阴性）→ 出面招待来客的女性一方",
+      "origin": "英语 hostess，host 加阴性后缀 -ess",
+      "native_definition": "a woman who receives and entertains guests",
+      "core_concept": "the woman who takes in arrivals and sees to them – 出面接纳并招待来者的女方",
+      "core_image": "她举杯招呼满屋来客，一张张桌子都照看过来",
+      "chinese": [
+        "女主人",
+        "女主持人"
+      ],
+      "examples": [
+        "The hostess showed us to our seats.",
+        "She works as an air hostess."
+      ],
+      "synonyms": [
+        "presenter",
+        "receiver"
+      ],
+      "antonyms": [
+        "guest"
+      ],
+      "related": [
+        "host",
+        "hostage"
+      ],
+      "semantic_expansions": [
+        "女主人/女主持人：出面接纳并招待来者的女方"
+      ],
+      "recall_hint": "host（招待方）+ -ess（阴性）→ 出面招待来者的女方"
+    },
+    {
+      "id": "hostile",
+      "word": "hostile",
+      "pos": "adjective",
+      "phonetic": "/ˈhɒstaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "hostis"
+      ],
+      "root_logic": "hostis（外来者→对头）+ -ile → 摆出对头架势的",
+      "origin": "拉丁语 hostilis（属于 hostis 的），来自 hostis（外来者、对头）",
+      "native_definition": "unfriendly and aggressive; showing strong opposition",
+      "core_concept": "wearing the temper of the one barred at the door – 摆出门口横身挡道那种架势",
+      "core_image": "来者脸色不善，话里透着要开仗的意思",
+      "chinese": [
+        "敌意的",
+        "敌对的"
+      ],
+      "examples": [
+        "The crowd turned hostile within minutes.",
+        "They faced hostile questions all evening."
+      ],
+      "synonyms": [
+        "unfriendly",
+        "aggressive"
+      ],
+      "antonyms": [
+        "friendly",
+        "cordial"
+      ],
+      "related": [
+        "hostage",
+        "host"
+      ],
+      "semantic_expansions": [
+        "敌意的/敌对的：摆出挡道对峙的那副架势"
+      ],
+      "recall_hint": "hostis（门外对头）+ -ile → 摆出对峙架势的"
+    },
+    {
+      "id": "concern",
+      "word": "concern",
+      "pos": "verb / noun",
+      "phonetic": "/kənˈsɜːn/",
+      "decomposable": "root",
+      "root_ids": [
+        "cernere"
+      ],
+      "root_logic": "con-（一并）+ cern（筛分）→ 一并筛进来跟自己有牵连 → 牵动心思",
+      "origin": "拉丁语 concernere（混在一起筛、相关），来自 con＋cernere",
+      "native_definition": "to be about something, or to make someone anxious; such anxiety",
+      "core_concept": "being sifted into the same pile as a matter, so it weighs on one – 被筛进同一堆里，事情便挂在心上",
+      "core_image": "消息传来，他一夜没合眼，反复过着那桩事",
+      "chinese": [
+        "关心",
+        "涉及",
+        "担忧"
+      ],
+      "examples": [
+        "This rule concerns everyone in the building.",
+        "Her silence caused real concern."
+      ],
+      "synonyms": [
+        "involve",
+        "worry"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "related": [
+        "concerning",
+        "discern"
+      ],
+      "semantic_expansions": [
+        "涉及：被筛进同一堆、与之有牵连",
+        "关心/担忧：牵连到自己，于是挂在心上"
+      ],
+      "recall_hint": "con-（一并）+ cern（筛分）→ 被筛进同一堆 → 有牵连、挂心上"
+    },
+    {
+      "id": "concerning",
+      "word": "concerning",
+      "pos": "preposition",
+      "phonetic": "/kənˈsɜːnɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "cernere"
+      ],
+      "root_logic": "concern（牵涉）的分词转介词 → 就所牵涉的那件事而言",
+      "origin": "英语 concerning，concern 的现在分词转作介词",
+      "native_definition": "about; with reference to a particular matter",
+      "core_concept": "pointing at the very pile a matter was sifted into – 直指某事被归进的那一堆",
+      "core_image": "信里逐条写的，都紧扣那笔款的来龙去脉",
+      "chinese": [
+        "关于",
+        "有关"
+      ],
+      "examples": [
+        "He asked several questions concerning the delay.",
+        "We had no news concerning her whereabouts."
+      ],
+      "synonyms": [
+        "regarding",
+        "about"
+      ],
+      "antonyms": [],
+      "related": [
+        "concern",
+        "discern"
+      ],
+      "semantic_expansions": [
+        "关于/有关：就所牵涉的那一桩而言"
+      ],
+      "recall_hint": "concern（牵涉）+ -ing → 就所牵涉的那桩而言"
+    },
+    {
+      "id": "discern",
+      "word": "discern",
+      "pos": "verb",
+      "phonetic": "/dɪˈsɜːn/",
+      "decomposable": "root",
+      "root_ids": [
+        "cernere"
+      ],
+      "root_logic": "dis-（分开）+ cern（筛分）→ 一层层筛开，直到看出分别",
+      "origin": "拉丁语 discernere（区分开来），来自 dis＋cernere",
+      "native_definition": "to recognize or make out something with effort",
+      "core_concept": "sifting the layers apart until the thing stands out – 层层筛开，直到那物凸显出来",
+      "core_image": "隔着晨雾眯眼细看，岸上那道影子终于显出轮廓",
+      "chinese": [
+        "辨别",
+        "认出",
+        "洞悉"
+      ],
+      "examples": [
+        "She could just discern a figure in the fog.",
+        "It is hard to discern his true motive."
+      ],
+      "synonyms": [
+        "distinguish",
+        "perceive"
+      ],
+      "antonyms": [
+        "confuse",
+        "overlook"
+      ],
+      "related": [
+        "concern",
+        "concerning"
+      ],
+      "semantic_expansions": [
+        "辨别/认出：筛开混杂后把那物分出来",
+        "洞悉：筛到底层、连内里也看出来"
+      ],
+      "recall_hint": "dis-（分开）+ cern（筛分）→ 筛开层层，看出分别"
+    },
+    {
+      "id": "lever",
+      "word": "lever",
+      "pos": "noun",
+      "phonetic": "/ˈliːvə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "levare"
+      ],
+      "root_logic": "lev（举起）+ -er（工具）→ 用来把重物撬起来的那根杆",
+      "origin": "古法语 levier（撬棒），来自 lever（举起）← 拉丁语 levare",
+      "native_definition": "a bar used to prise something up; a means of exerting pressure",
+      "core_concept": "the bar that raises a weight far heavier than the hand pressing it – 以小力撬起远重于手劲之物的杆",
+      "core_image": "长杆一头垫住石块，另一头轻轻下压，巨石离地",
+      "chinese": [
+        "杠杆",
+        "手段"
+      ],
+      "examples": [
+        "He used an iron bar as a lever.",
+        "Tax breaks became a political lever."
+      ],
+      "synonyms": [
+        "bar",
+        "crowbar"
+      ],
+      "antonyms": [],
+      "related": [
+        "levy",
+        "relevant"
+      ],
+      "semantic_expansions": [
+        "杠杆：以小力撬起重物的那根杆",
+        "手段：像撬杆一样能撬动局面的着力处"
+      ],
+      "recall_hint": "lev（举起）+ -er（工具）→ 撬起重物的那根杆"
+    },
+    {
+      "id": "levy",
+      "word": "levy",
+      "pos": "verb / noun",
+      "phonetic": "/ˈlevi/",
+      "decomposable": "root",
+      "root_ids": [
+        "levare"
+      ],
+      "root_logic": "lev（举起）→ 把款项或人手「举」起收拢到官府手里",
+      "origin": "古法语 levee（收取、征集），来自 lever（举起）← 拉丁语 levare",
+      "native_definition": "to impose and collect a tax or troops; the amount so raised",
+      "core_concept": "raising a sum or a body of men out of the populace – 从民间把银钱或人手举收上来",
+      "core_image": "官府张榜，按册向各户收取银钱",
+      "chinese": [
+        "征收",
+        "征募",
+        "税款"
+      ],
+      "examples": [
+        "The council levied a new charge on parking.",
+        "A levy was placed on imported goods."
+      ],
+      "synonyms": [
+        "impose",
+        "collect"
+      ],
+      "antonyms": [
+        "refund"
+      ],
+      "related": [
+        "lever",
+        "relevant"
+      ],
+      "semantic_expansions": [
+        "征收/税款：从民间举收上来的银钱",
+        "征募：同样手法举收人手入伍"
+      ],
+      "recall_hint": "lev（举起）→ 从民间举收银钱或人手"
+    },
+    {
+      "id": "relevant",
+      "word": "relevant",
+      "pos": "adjective",
+      "phonetic": "/ˈreləvənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "levare"
+      ],
+      "root_logic": "re-（回）+ lev（举起）+ -ant → 能把话题重新托举起来的 → 搭得上",
+      "origin": "中世纪拉丁语 relevans（托起、有助于），来自 relevare（再举起）",
+      "native_definition": "closely connected with the matter being discussed",
+      "core_concept": "able to lift the matter at hand rather than hang off it – 托得起眼下这桩事，而非旁挂",
+      "core_image": "他提的两点正落在会上要议的那桩事上",
+      "chinese": [
+        "相关的",
+        "切题的"
+      ],
+      "examples": [
+        "Please bring any relevant paperwork.",
+        "That remark was hardly relevant here."
+      ],
+      "synonyms": [
+        "pertinent",
+        "applicable"
+      ],
+      "antonyms": [
+        "irrelevant"
+      ],
+      "related": [
+        "lever",
+        "levy"
+      ],
+      "semantic_expansions": [
+        "相关的/切题的：托得起眼下这桩事、搭得上"
+      ],
+      "recall_hint": "re-（回）+ lev（举起）→ 把眼下话题托举得起 → 搭得上"
+    },
+    {
+      "id": "music",
+      "word": "music",
+      "pos": "noun",
+      "phonetic": "/ˈmjuːzɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "musa"
+      ],
+      "root_logic": "mus（缪斯）+ -ic（…的技艺）→ 缪斯所司的声律技艺",
+      "origin": "希腊语 mousike（缪斯的技艺）经拉丁语 musica、古法语 musique 入英语",
+      "native_definition": "sounds arranged in a pleasing or ordered way",
+      "core_concept": "sound set in order so the ear follows it – 把声响排布成序，耳朵便跟得上",
+      "core_image": "琴弦一拨，满室的说话声就静了下来",
+      "chinese": [
+        "音乐",
+        "乐曲"
+      ],
+      "examples": [
+        "She has listened to this music all week.",
+        "The music grew louder as we entered."
+      ],
+      "synonyms": [
+        "melody",
+        "tune"
+      ],
+      "antonyms": [
+        "noise"
+      ],
+      "related": [
+        "musical",
+        "musician"
+      ],
+      "semantic_expansions": [
+        "音乐/乐曲：排布成序、耳朵跟得上的声响"
+      ],
+      "recall_hint": "mus（缪斯）+ -ic → 缪斯所司的声律技艺"
+    },
+    {
+      "id": "musical",
+      "word": "musical",
+      "pos": "adjective",
+      "phonetic": "/ˈmjuːzɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "musa"
+      ],
+      "root_logic": "music（声律技艺）+ -al（…的）→ 属于声律的、听着顺耳的",
+      "origin": "英语 musical，music 加形容词后缀 -al",
+      "native_definition": "relating to sound arranged in order; pleasant to hear",
+      "core_concept": "belonging to ordered sound, so it falls kindly on the ear – 属于有序声响，故听来顺耳",
+      "core_image": "这孩子开口一唱，调子准得让人侧耳",
+      "chinese": [
+        "音乐的",
+        "悦耳的"
+      ],
+      "examples": [
+        "He comes from a musical family.",
+        "She spoke in a soft, musical voice."
+      ],
+      "synonyms": [
+        "melodious",
+        "tuneful"
+      ],
+      "antonyms": [
+        "tuneless"
+      ],
+      "related": [
+        "music",
+        "musician"
+      ],
+      "semantic_expansions": [
+        "音乐的：属于声律技艺的",
+        "悦耳的：合于法度，听来顺耳"
+      ],
+      "recall_hint": "music（声律）+ -al → 属于声律的、听来顺耳"
+    },
+    {
+      "id": "musician",
+      "word": "musician",
+      "pos": "noun",
+      "phonetic": "/mjuˈzɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "musa"
+      ],
+      "root_logic": "music（声律技艺）+ -ian（司此业者）→ 以声律技艺为业的人",
+      "origin": "古法语 musicien，来自拉丁语 musicus（通声律者）",
+      "native_definition": "a person who plays or writes music, especially as a job",
+      "core_concept": "one whose craft is ordered sound – 以有序声响为业的人",
+      "core_image": "台上几人调好弦，静候指挥落棒",
+      "chinese": [
+        "音乐家",
+        "乐手"
+      ],
+      "examples": [
+        "The musician tuned her violin.",
+        "He became a professional musician at twenty."
+      ],
+      "synonyms": [
+        "player",
+        "performer"
+      ],
+      "antonyms": [
+        "listener"
+      ],
+      "related": [
+        "music",
+        "musical"
+      ],
+      "semantic_expansions": [
+        "音乐家/乐手：以声律技艺为业的人"
+      ],
+      "recall_hint": "music（声律）+ -ian（司此业者）→ 以声律为业的人"
+    },
+    {
+      "id": "art",
+      "word": "art",
+      "pos": "noun",
+      "phonetic": "/ɑːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ars"
+      ],
+      "root_logic": "ars（手上本事）→ 练出来的门道，及其做出的作品",
+      "origin": "古法语 art，来自拉丁语 ars/artis（手艺、门道）",
+      "native_definition": "the making of things meant to be looked at or admired; a learned skill",
+      "core_concept": "what the trained hand brings forth, and the knack behind it – 练过的手所成之物，及其中门道",
+      "core_image": "画布上一笔一笔堆出光影，看的人半晌没说话",
+      "chinese": [
+        "艺术",
+        "美术",
+        "技艺"
+      ],
+      "examples": [
+        "She studied art for four years.",
+        "There is an art to asking good questions."
+      ],
+      "synonyms": [
+        "craft",
+        "skill"
+      ],
+      "antonyms": [],
+      "related": [
+        "artist",
+        "artistic"
+      ],
+      "semantic_expansions": [
+        "艺术/美术：练出的手所成、供人观览之物",
+        "技艺：做成此物背后的那套门道"
+      ],
+      "recall_hint": "ars（手上练出的本事）→ 门道，及其做出的作品"
+    },
+    {
+      "id": "artist",
+      "word": "artist",
+      "pos": "noun",
+      "phonetic": "/ˈɑːtɪst/",
+      "decomposable": "root",
+      "root_ids": [
+        "ars"
+      ],
+      "root_logic": "art（手艺）+ -ist（司此业者）→ 以这门手上功夫为业的人",
+      "origin": "法语 artiste，来自中世纪拉丁语 artista（通艺者）← ars",
+      "native_definition": "a person who makes paintings, sculpture, or other such works",
+      "core_concept": "one whose trade is the trained hand's making – 以练出的手做东西为业的人",
+      "core_image": "他在阁楼里对着画架站了一整天，颜料蹭到袖口",
+      "chinese": [
+        "艺术家",
+        "画家"
+      ],
+      "examples": [
+        "The artist worked in oils and charcoal.",
+        "She is a well-known artist in this city."
+      ],
+      "synonyms": [
+        "painter",
+        "creator"
+      ],
+      "antonyms": [
+        "critic"
+      ],
+      "related": [
+        "art",
+        "artistic"
+      ],
+      "semantic_expansions": [
+        "艺术家/画家：以练出的手做东西为业的人"
+      ],
+      "recall_hint": "art（手艺）+ -ist（司此业者）→ 以此手艺为业的人"
+    },
+    {
+      "id": "artistic",
+      "word": "artistic",
+      "pos": "adjective",
+      "phonetic": "/ɑːˈtɪstɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "ars"
+      ],
+      "root_logic": "artist（司艺者）+ -ic（…的）→ 见得出手上门道的、有讲究的",
+      "origin": "英语 artistic，artist 加形容词后缀 -ic",
+      "native_definition": "showing skill and taste in making or arranging things",
+      "core_concept": "bearing the mark of a trained hand's judgement – 带着练过的手那份分寸",
+      "core_image": "这只陶碗的弧线收得讲究，摆上桌就压住了满桌俗气",
+      "chinese": [
+        "艺术的",
+        "有美感的"
+      ],
+      "examples": [
+        "The room had an artistic arrangement of flowers.",
+        "He has real artistic talent."
+      ],
+      "synonyms": [
+        "tasteful",
+        "creative"
+      ],
+      "antonyms": [
+        "crude"
+      ],
+      "related": [
+        "art",
+        "artist"
+      ],
+      "semantic_expansions": [
+        "艺术的/有美感的：带着练过的手那份分寸与讲究"
+      ],
+      "recall_hint": "artist（司艺者）+ -ic → 见得出手上门道的、有讲究的"
+    },
+    {
+      "id": "order",
+      "word": "order",
+      "pos": "noun / verb",
+      "phonetic": "/ˈɔːdə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordo"
+      ],
+      "root_logic": "ordo（行列）→ 各就其位的排布；由「排定」引申为排定要办之事、要买之货",
+      "origin": "古法语 ordre，来自拉丁语 ordo/ordinis（行列、次序）",
+      "native_definition": "the way things are arranged; an instruction to do something; a request for goods",
+      "core_concept": "things standing each in its place, and the word that puts them there – 各就其位的排布，以及使其就位的那句话",
+      "core_image": "书脊按高矮一列排开，谁也不越位；掌事的一句话下来，各人照着做",
+      "chinese": [
+        "顺序",
+        "秩序",
+        "命令",
+        "订单"
+      ],
+      "examples": [
+        "Please put the files back in order.",
+        "The captain ordered them to wait."
+      ],
+      "synonyms": [
+        "sequence",
+        "command"
+      ],
+      "antonyms": [
+        "chaos"
+      ],
+      "related": [
+        "disorder",
+        "orderly"
+      ],
+      "semantic_expansions": [
+        "顺序/秩序：各就其位的那个排布",
+        "命令：使各人就位去办的那句话",
+        "订单：把要买之货排定下来"
+      ],
+      "recall_hint": "ordo（行列）→ 各就其位；使之就位便是发话与排定"
+    },
+    {
+      "id": "disorder",
+      "word": "disorder",
+      "pos": "noun",
+      "phonetic": "/dɪsˈɔːdə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordo"
+      ],
+      "root_logic": "dis-（离散）+ order（各就其位）→ 位次散了 → 乱；身体位次乱了即病症",
+      "origin": "法语 désordre（无秩序），dis-＋ordre ← 拉丁语 ordo",
+      "native_definition": "a state of confusion; also an illness that upsets normal function",
+      "core_concept": "the row broken up, nothing standing where it should – 行列散开，无一物在该在的位上",
+      "core_image": "抽屉被翻得底朝天，东西全不在原处",
+      "chinese": [
+        "混乱",
+        "失调",
+        "疾病"
+      ],
+      "examples": [
+        "The room was left in complete disorder.",
+        "He suffers from a sleep disorder."
+      ],
+      "synonyms": [
+        "chaos",
+        "confusion"
+      ],
+      "antonyms": [
+        "order"
+      ],
+      "related": [
+        "order",
+        "orderly"
+      ],
+      "semantic_expansions": [
+        "混乱：行列散开、无物在其位",
+        "失调/疾病：身体各处的位次乱了"
+      ],
+      "recall_hint": "dis-（离散）+ order（就位）→ 位次散乱"
+    },
+    {
+      "id": "orderly",
+      "word": "orderly",
+      "pos": "adjective",
+      "phonetic": "/ˈɔːdəli/",
+      "decomposable": "root",
+      "root_ids": [
+        "ordo"
+      ],
+      "root_logic": "order（各就其位）+ -ly（…样的）→ 一眼看去各在其位的",
+      "origin": "英语 orderly，order 加后缀 -ly",
+      "native_definition": "neatly arranged; behaving in a controlled way",
+      "core_concept": "keeping the row unbroken, each in place – 行列不散，各守其位",
+      "core_image": "队伍一列列排开，间距分毫不差",
+      "chinese": [
+        "整齐的",
+        "有条理的"
+      ],
+      "examples": [
+        "They formed an orderly queue at the gate.",
+        "She keeps an orderly desk."
+      ],
+      "synonyms": [
+        "tidy",
+        "methodical"
+      ],
+      "antonyms": [
+        "chaotic"
+      ],
+      "related": [
+        "order",
+        "disorder"
+      ],
+      "semantic_expansions": [
+        "整齐的/有条理的：行列不散、各守其位"
+      ],
+      "recall_hint": "order（就位）+ -ly → 各在其位、看去不散"
+    },
+    {
+      "id": "origin",
+      "word": "origin",
+      "pos": "noun",
+      "phonetic": "/ˈɒrɪdʒɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "origo"
+      ],
+      "root_logic": "origo（涌出之处）→ 事物最初冒出来的那一处，及人的出处",
+      "origin": "法语 origine，来自拉丁语 origo/originis（发端）← oriri（升起）",
+      "native_definition": "the point or cause from which something begins; a person's ancestry",
+      "core_concept": "the spot where a thing first rises into being – 那物最初冒出来的那一处",
+      "core_image": "顺着溪流一路上溯，直到山间那眼冒水的泉口",
+      "chinese": [
+        "起源",
+        "出身",
+        "起点"
+      ],
+      "examples": [
+        "The origin of the fire is still unknown.",
+        "She is proud of her humble origins."
+      ],
+      "synonyms": [
+        "source",
+        "beginning"
+      ],
+      "antonyms": [
+        "end",
+        "outcome"
+      ],
+      "related": [
+        "original",
+        "originate"
+      ],
+      "semantic_expansions": [
+        "起源/起点：事物最初涌出的那一处",
+        "出身：人所从来的那一处"
+      ],
+      "recall_hint": "origo（涌出之处）→ 最初冒出来的那一点"
+    },
+    {
+      "id": "original",
+      "word": "original",
+      "pos": "adjective / noun",
+      "phonetic": "/əˈrɪdʒənl/",
+      "decomposable": "root",
+      "root_ids": [
+        "origo"
+      ],
+      "root_logic": "origin（发端）+ -al（…的）→ 处在最初那一处的；也指头一份实物",
+      "origin": "古法语 original，来自拉丁语 originalis（属于发端的）",
+      "native_definition": "existing from the start; new and not copied; the first version of a thing",
+      "core_concept": "standing at the rising point, before any copy – 立在涌出那一处，尚无摹本",
+      "core_image": "抽屉里那张手稿是头一份，后来的都照着它抄",
+      "chinese": [
+        "最初的",
+        "原创的",
+        "原件"
+      ],
+      "examples": [
+        "The house keeps its original windows.",
+        "Please send me the original, not a copy."
+      ],
+      "synonyms": [
+        "initial",
+        "authentic"
+      ],
+      "antonyms": [
+        "copy",
+        "imitation"
+      ],
+      "related": [
+        "origin",
+        "originate"
+      ],
+      "semantic_expansions": [
+        "最初的：立在发端那一处的",
+        "原创的：从自己那处涌出、非摹自他人",
+        "原件：头一份实物，摹本之前的那个"
+      ],
+      "recall_hint": "origin（发端）+ -al → 处在最初那一处、尚无摹本"
+    },
+    {
+      "id": "originate",
+      "word": "originate",
+      "pos": "verb",
+      "phonetic": "/əˈrɪdʒɪneɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "origo"
+      ],
+      "root_logic": "origin（发端）+ -ate（使…）→ 自某处涌出、由某处发端",
+      "origin": "中世纪拉丁语 originare（发端于），来自 origo",
+      "native_definition": "to begin in a particular place or from a particular cause",
+      "core_concept": "to come rising out of a given spot – 自某一处冒出来",
+      "core_image": "这条河的水，是从那道石缝里第一次涌出来的",
+      "chinese": [
+        "起源于",
+        "发源",
+        "创始"
+      ],
+      "examples": [
+        "The custom originated in southern Spain.",
+        "The idea originated with her, not him."
+      ],
+      "synonyms": [
+        "arise",
+        "stem"
+      ],
+      "antonyms": [
+        "end",
+        "conclude"
+      ],
+      "related": [
+        "origin",
+        "original"
+      ],
+      "semantic_expansions": [
+        "起源于/发源：自某处涌出来",
+        "创始：使某物从自己这处涌出"
+      ],
+      "recall_hint": "origin（发端）+ -ate → 自某处涌出来"
+    },
+    {
+      "id": "pact",
+      "word": "pact",
+      "pos": "noun",
+      "phonetic": "/pækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pangere"
+      ],
+      "root_logic": "pactum（已钉牢之事）→ 双方钉定下来的约",
+      "origin": "拉丁语 pactum（协议），pacisci（缔约）的过去分词，源于 pangere（钉牢）",
+      "native_definition": "a formal agreement between two or more sides",
+      "core_concept": "the terms driven fast so neither side may shift them – 条款被钉牢，两边都不得再挪",
+      "core_image": "两方在纸上各按一个手印，从此照纸上写的办",
+      "chinese": [
+        "协定",
+        "条约"
+      ],
+      "examples": [
+        "The two nations signed a trade pact.",
+        "They made a pact never to speak of it."
+      ],
+      "synonyms": [
+        "agreement",
+        "treaty"
+      ],
+      "antonyms": [
+        "dispute"
+      ],
+      "related": [
+        "compact",
+        "impact"
+      ],
+      "semantic_expansions": [
+        "协定/条约：被钉牢、双方不得再挪的约"
+      ],
+      "recall_hint": "pactum（钉牢之事）→ 双方钉定下来的约"
+    },
+    {
+      "id": "compact",
+      "word": "compact",
+      "pos": "adjective",
+      "phonetic": "/kəmˈpækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pangere"
+      ],
+      "root_logic": "com-（一起）+ pact（钉合）→ 各部分钉合在一起、不占地方的",
+      "origin": "拉丁语 compactus，compingere（拼合钉牢）的过去分词，来自 com＋pangere",
+      "native_definition": "closely packed into a small space; neatly small",
+      "core_concept": "parts driven together so no gap is left – 各部分钉合到一处，不留空隙",
+      "core_image": "行李被压得严丝合缝，箱盖一扣还有余地",
+      "chinese": [
+        "紧密的",
+        "小巧的"
+      ],
+      "examples": [
+        "The flat has a compact kitchen.",
+        "Snow was compact underfoot."
+      ],
+      "synonyms": [
+        "dense",
+        "tight"
+      ],
+      "antonyms": [
+        "loose",
+        "bulky"
+      ],
+      "related": [
+        "pact",
+        "impact"
+      ],
+      "semantic_expansions": [
+        "紧密的：各部分钉合到一处、不留空隙",
+        "小巧的：因钉合紧密而不占地方"
+      ],
+      "recall_hint": "com-（一起）+ pact（钉合）→ 钉合到一处、不留空隙"
+    },
+    {
+      "id": "impact",
+      "word": "impact",
+      "pos": "noun / verb",
+      "phonetic": "/ˈɪmpækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pangere"
+      ],
+      "root_logic": "im-（in- 向内）+ pact（钉入）→ 直钉进去的那一下 → 撞击及其后果",
+      "origin": "拉丁语 impactus，impingere（撞入、钉入）的过去分词，来自 in＋pangere",
+      "native_definition": "the force of one thing striking another; a marked effect on something",
+      "core_concept": "the blow of being driven into a thing, and what it leaves behind – 钉进去那一下，以及留下的后果",
+      "core_image": "石子砸进水面，波纹一圈圈荡到岸边",
+      "chinese": [
+        "撞击",
+        "影响",
+        "冲击"
+      ],
+      "examples": [
+        "The impact shattered the windscreen.",
+        "New rules had a real impact on costs."
+      ],
+      "synonyms": [
+        "collision",
+        "effect"
+      ],
+      "antonyms": [],
+      "related": [
+        "pact",
+        "compact"
+      ],
+      "semantic_expansions": [
+        "撞击：直钉进去那一下",
+        "影响/冲击：那一下过后留在事物上的后果"
+      ],
+      "recall_hint": "im-（向内）+ pact（钉入）→ 钉进去那一下及其后果"
+    }
+  ]
+}
