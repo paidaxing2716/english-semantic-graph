@@ -24,7 +24,7 @@
       "chinese": "施加压力、按压",
       "core_image": "手掌向下按压，把东西压紧、压出痕迹",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "word_ids": [
         "pressure",
@@ -741,7 +741,7 @@
       "chinese": "流动",
       "core_image": "水从高处一路淌下来，中间没有断口",
       "root_ids": [
-        "flu"
+        "fluere"
       ],
       "word_ids": [
         "affluent",

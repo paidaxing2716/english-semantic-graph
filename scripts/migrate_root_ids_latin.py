@@ -6,8 +6,13 @@
 于是单词 form / port 一直无法入库——vetted_families 里它们始终挂在待办上。
 
 做法（照 punktum/limes/gubernare 已有先例，用拉丁词形）：
-    form → forma  （拉丁语 forma，形状、模子）
-    port → portus （拉丁语 portus，港口、门道）
+    form  → forma   （拉丁语 forma，形状、模子）
+    port  → portus  （拉丁语 portus，港口、门道）
+    flu   → fluere  （拉丁语 fluere，流动）
+    press → premere （拉丁语 premere，压、按）
+
+本脚本累积记录全部改名，幂等：已迁移过的条目再跑是空操作，
+故新增一对改名后可直接重跑，不必另写脚本。
 
 需要同步改的引用（已全量核查，无其它引用点）：
     data/roots.json      root.id
@@ -24,7 +29,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
-RENAME = {"form": "forma", "port": "portus"}
+RENAME = {
+    # 第一轮（已提交 d1a29f9）：解锁单词 form / port
+    "form": "forma",     # 拉丁语 forma，形状、模子
+    "port": "portus",    # 拉丁语 portus，港口、门道
+    # 第二轮：解锁单词 flu / press
+    "flu": "fluere",     # 拉丁语 fluere，流动
+    "press": "premere",  # 拉丁语 premere，压、按
+}
 
 
 def load(name):
@@ -106,17 +118,23 @@ def main():
     save("domains.json", obj)
     changes.append(f"domains.json: {n} 处词根引用改写")
 
-    # 5) relations.json —— 改 from/to 两端
+    # 5) relations.json —— 只改词根那一端（from/source）
+    #
+    # 【坑】不能顺手把 to/target 也改：type=root 的关系是「词根 → 单词」，
+    # to 存的是**单词 id**。而单词 form / port / flu / press 本身正好与旧词根
+    # 同名，一旦连 to 一起改，forma → form 就会变成 forma → forma 自环——
+    # 这正是本迁移要消除的东西。第一次跑没炸，只因当时这些单词还没入库；
+    # 第四十三批把 form / port 入库后重跑，立刻炸出两条自环。
     obj = load("relations.json")
     rels, _ = as_list(obj, "relations")
     n = 0
     for r in rels:
-        for field in ("from", "to", "source", "target"):
+        for field in ("from", "source"):
             if r.get(field) in RENAME:
                 r[field] = RENAME[r[field]]
                 n += 1
     save("relations.json", obj)
-    changes.append(f"relations.json: {n} 处端点改写")
+    changes.append(f"relations.json: {n} 处词根端改写")
 
     for c in changes:
         print("  ", c)
@@ -134,7 +152,11 @@ def main():
         rid for w in words for rid in (w.get("root_ids") or []) if rid not in rids
     }
     assert not dangling, f"root_ids 指向不存在的词根：{sorted(dangling)}"
-    print("   自检通过：无同名、无残留、无悬空 root_ids")
+    # relations 不得出现自环——迁移的全部目的就是消除自环，若反倒造出来则必须当场炸
+    rels, _ = as_list(load("relations.json"), "relations")
+    loops = [r for r in rels if r.get("from") == r.get("to")]
+    assert not loops, f"迁移造出 relations 自环：{[r['from'] for r in loops]}"
+    print("   自检通过：无同名、无残留、无悬空 root_ids、无 relations 自环")
 
 
 if __name__ == "__main__":

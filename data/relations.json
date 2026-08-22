@@ -56,31 +56,31 @@
       "note": "配置的动作→配置的结果"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "pressure",
       "type": "root",
       "note": "press + -ure"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "impress",
       "type": "root",
       "note": "im- + press"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "express",
       "type": "root",
       "note": "ex- + press"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "suppress",
       "type": "root",
       "note": "sup- + press"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "compress",
       "type": "root",
       "note": "com- + press"
@@ -422,7 +422,7 @@
       "note": "同词根"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "depress",
       "type": "root",
       "note": "de-（向下）+ press（压）→ 把某物或某人的状态往下压 → 压低 / 使低落"
@@ -482,19 +482,19 @@
       "note": "a-（ad- 的变体，表'朝向'）+ scrib（写）→ 把某事写到某人名下 → 归因于"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "repress",
       "type": "root",
       "note": "re-（往回）+ press（压）→ 把要冒出来的东西压回去 → 压制"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "expression",
       "type": "root",
       "note": "express（往外压）+ -ion（名词后缀）→ 被压出来的那个东西 → 表情 / 表达 / 表达式"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "oppress",
       "type": "root",
       "note": "op-（ob- 的变体，表'对着、压向'）+ press（压）→ 长期压在某人身上 → 压迫"
@@ -548,7 +548,7 @@
       "note": "de-（脱离、破坏）+ form（形状）→ 使脱离原本的形状 → 使变形"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "compression",
       "type": "root",
       "note": "compress（一起压）+ -ion → 被压紧这件事，或压紧的程度 → 压缩"
@@ -1532,31 +1532,31 @@
       "note": "un-（去除）+ cov（盖）→ 把盖的那层拿开 → 揭开"
     },
     {
-      "from": "flu",
+      "from": "fluere",
       "to": "fluent",
       "type": "root",
       "note": "flu（流）+ -ent（…的）→ 像水那样流出来不打结的 → 流利的"
     },
     {
-      "from": "flu",
+      "from": "fluere",
       "to": "influence",
       "type": "root",
       "note": "in-（进入）+ flu（流）+ -ence → 悄悄流进去起作用的那股力 → 影响"
     },
     {
-      "from": "flu",
+      "from": "fluere",
       "to": "influential",
       "type": "root",
       "note": "influence（流入起作用）+ -ial（…的）→ 能流进去起作用的 → 有影响力的"
     },
     {
-      "from": "flu",
+      "from": "fluere",
       "to": "affluent",
       "type": "root",
       "note": "af-（ad- 的变体，朝向）+ flu（流）+ -ent → 财货朝这边源源流来的 → 富裕的"
     },
     {
-      "from": "flu",
+      "from": "fluere",
       "to": "superfluous",
       "type": "root",
       "note": "super-（在上、超出）+ flu（流）+ -ous → 满到从边上溢出去的 → 多余的"
@@ -3782,13 +3782,13 @@
       "note": "para-（旁边）+ graph（写）→ 原指写在旁边的段落标记，后指由该标记分出的文字块"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "impression",
       "type": "root",
       "note": "im-（压入）+ press（压）+ -ion → 外物压入心中留下的痕迹"
     },
     {
-      "from": "press",
+      "from": "premere",
       "to": "impressive",
       "type": "root",
       "note": "impress（压入、留下印象）+ -ive → 强到能深深压进人心的"

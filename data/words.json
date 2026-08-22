@@ -198,7 +198,7 @@
       "id": "pressure",
       "word": "pressure",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "origin": "拉丁语 pressura（按压）",
       "native_definition": "the force or weight that pushes against something; the stress of a difficult situation",
@@ -240,7 +240,7 @@
       "id": "impress",
       "word": "impress",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "origin": "im-（往里）+ premere（压）",
       "native_definition": "to press something firmly into a surface; to make someone feel admiration or respect",
@@ -279,7 +279,7 @@
       "id": "express",
       "word": "express",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "origin": "ex-（向外）+ premere（压）",
       "native_definition": "to press out; to show or say what you think or feel",
@@ -325,7 +325,7 @@
       "id": "suppress",
       "word": "suppress",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "origin": "sub-（在下面）+ premere（压）",
       "native_definition": "to press down and stop something from happening, spreading, or being seen",
@@ -365,7 +365,7 @@
       "id": "compress",
       "word": "compress",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "origin": "com-（一起）+ premere（压）",
       "native_definition": "to press things together into a smaller space",
@@ -2133,7 +2133,7 @@
       "pos": "verb",
       "phonetic": "/dɪˈpres/",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "de-（向下）+ press（压）→ 把某物或某人的状态往下压 → 压低 / 使低落",
       "origin": "拉丁语 deprimere：de-（向下）+ premere（压）",
@@ -2551,7 +2551,7 @@
       "pos": "verb",
       "phonetic": "/rɪˈpres/",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "re-（往回）+ press（压）→ 把要冒出来的东西压回去 → 压制",
       "origin": "拉丁语 reprimere：re-（往回）+ premere（压）",
@@ -2592,7 +2592,7 @@
       "pos": "noun",
       "phonetic": "/ɪkˈspreʃn/",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "express（往外压）+ -ion（名词后缀）→ 被压出来的那个东西 → 表情 / 表达 / 表达式",
       "origin": "拉丁语 expressio：ex-（向外）+ premere（压）",
@@ -2634,7 +2634,7 @@
       "pos": "verb",
       "phonetic": "/əˈpres/",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "op-（ob- 的变体，表'对着、压向'）+ press（压）→ 长期压在某人身上 → 压迫",
       "origin": "拉丁语 opprimere：ob-（对着）+ premere（压）",
@@ -2992,7 +2992,7 @@
       "pos": "noun",
       "phonetic": "/kəmˈpreʃn/",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "compress（一起压）+ -ion → 被压紧这件事，或压紧的程度 → 压缩",
       "origin": "拉丁语 compressio：com-（一起）+ premere（压）",
@@ -9440,7 +9440,7 @@
       "phonetic": "/ˈfluːənt/",
       "decomposable": "root",
       "root_ids": [
-        "flu"
+        "fluere"
       ],
       "root_logic": "flu（流）+ -ent（…的）→ 像水那样流出来不打结的 → 流利的",
       "origin": "拉丁语 fluens：fluere（流动）",
@@ -9477,7 +9477,7 @@
       "phonetic": "/ˈɪnfluəns/",
       "decomposable": "root",
       "root_ids": [
-        "flu"
+        "fluere"
       ],
       "root_logic": "in-（进入）+ flu（流）+ -ence → 悄悄流进去起作用的那股力 → 影响",
       "origin": "拉丁语 influentia：in-（进入）+ fluere（流动）——原指星体流泻下来的力",
@@ -9516,7 +9516,7 @@
       "phonetic": "/ˌɪnfluˈenʃl/",
       "decomposable": "root",
       "root_ids": [
-        "flu"
+        "fluere"
       ],
       "root_logic": "influence（流入起作用）+ -ial（…的）→ 能流进去起作用的 → 有影响力的",
       "origin": "拉丁语 influentia：in-（进入）+ fluere（流动）",
@@ -9552,7 +9552,7 @@
       "phonetic": "/ˈæfluənt/",
       "decomposable": "root",
       "root_ids": [
-        "flu"
+        "fluere"
       ],
       "root_logic": "af-（ad- 的变体，朝向）+ flu（流）+ -ent → 财货朝这边源源流来的 → 富裕的",
       "origin": "拉丁语 affluens：ad-（朝向）+ fluere（流动）——'流向此处而来'",
@@ -9591,7 +9591,7 @@
       "phonetic": "/suːˈpɜːrfluəs/",
       "decomposable": "root",
       "root_ids": [
-        "flu"
+        "fluere"
       ],
       "root_logic": "super-（在上、超出）+ flu（流）+ -ous → 满到从边上溢出去的 → 多余的",
       "origin": "拉丁语 superfluus：super-（在上）+ fluere（流动）——'漫过边沿而流'",
@@ -24364,7 +24364,7 @@
       "phonetic": "/ɪmˈpreʃn/",
       "decomposable": "root",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "im-（压入）+ press（压）+ -ion → 外物压入心中留下的痕迹",
       "origin": "拉丁语 impressio（压入、印痕），来自 imprimere",
@@ -24405,7 +24405,7 @@
       "phonetic": "/ɪmˈpresɪv/",
       "decomposable": "root",
       "root_ids": [
-        "press"
+        "premere"
       ],
       "root_logic": "impress（压入、留下印象）+ -ive → 强到能深深压进人心的",
       "origin": "英语 impressive，来自 impress",

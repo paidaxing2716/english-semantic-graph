@@ -22,8 +22,8 @@
       ]
     },
     {
-      "id": "press",
-      "root": "press",
+      "id": "premere",
+      "root": "premere",
       "variants": [
         "press",
         "pression"
@@ -823,8 +823,8 @@
       ]
     },
     {
-      "id": "flu",
-      "root": "flu",
+      "id": "fluere",
+      "root": "fluere",
       "variants": [
         "flu",
         "fluc"
