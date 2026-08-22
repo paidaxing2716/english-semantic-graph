@@ -1607,7 +1607,10 @@
         "displace",
         "place",
         "replace",
-        "replacement"
+        "replacement",
+        "please",
+        "pleasant",
+        "pleasure"
       ]
     },
     {
@@ -2823,6 +2826,90 @@
         "apologise",
         "apology",
         "biology"
+      ]
+    },
+    {
+      "id": "concept-friskaz-unspoiled",
+      "concept": "still as it was when new, not gone stale",
+      "chinese": "未走味",
+      "core_image": "刚摘的果子掰开，切面水亮，凑近有股清气",
+      "root_ids": [
+        "friskaz"
+      ],
+      "word_ids": [
+        "fresh",
+        "refresh",
+        "refreshment"
+      ]
+    },
+    {
+      "id": "concept-wardon-watch",
+      "concept": "to turn the eyes onto something and keep them there",
+      "chinese": "投目看守",
+      "core_image": "守夜人举灯朝一处照去，眼睛盯住不移开",
+      "root_ids": [
+        "wardon"
+      ],
+      "word_ids": [
+        "regard",
+        "regarding",
+        "regardless"
+      ]
+    },
+    {
+      "id": "concept-regula-straightedge",
+      "concept": "a straight rod things are lined up against",
+      "chinese": "准绳直尺",
+      "core_image": "直尺压在纸上，笔沿着它走，线才不歪",
+      "root_ids": [
+        "regula"
+      ],
+      "word_ids": [
+        "regular",
+        "regulate",
+        "regulation"
+      ]
+    },
+    {
+      "id": "concept-heros-champion",
+      "concept": "the one the story is told about for daring",
+      "chinese": "被传颂者",
+      "core_image": "众人围坐火边，一遍遍讲同一个人闯过的那一关",
+      "root_ids": [
+        "heros"
+      ],
+      "word_ids": [
+        "hero",
+        "heroic",
+        "heroine"
+      ]
+    },
+    {
+      "id": "concept-diurnus-day",
+      "concept": "the span of one day, and what fills it",
+      "chinese": "一日之程",
+      "core_image": "天亮出门天黑歇脚，一天里走的路、记的事都在这段里",
+      "root_ids": [
+        "diurnus"
+      ],
+      "word_ids": [
+        "journal",
+        "journalist",
+        "journey"
+      ]
+    },
+    {
+      "id": "concept-metron-measure",
+      "concept": "the measure by which things are gauged",
+      "chinese": "量度尺",
+      "core_image": "标好刻度的杆横过去，长短照它报数",
+      "root_ids": [
+        "metron"
+      ],
+      "word_ids": [
+        "metre",
+        "metric",
+        "symmetry"
       ]
     }
   ]

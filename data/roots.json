@@ -1873,7 +1873,10 @@
         "displace",
         "place",
         "replace",
-        "replacement"
+        "replacement",
+        "please",
+        "pleasant",
+        "pleasure"
       ]
     },
     {
@@ -3349,6 +3352,111 @@
         "apologise",
         "apology",
         "biology"
+      ]
+    },
+    {
+      "id": "friskaz",
+      "root": "friskaz",
+      "variants": [
+        "fresh",
+        "fresch"
+      ],
+      "origin": "原始日耳曼语 *friskaz（不咸的、未腐的），古英语作 fersc；同一支经法兰克语入古法语成 fresche，英语 refresh 即从这一路借回，故本族是日耳曼源而非拉丁源",
+      "core_concept": "still as it was when new, not gone stale / 还是刚来时那样，没走味",
+      "core_image": "刚摘下的果子掰开，切面水亮，凑近有股清气",
+      "english_definition": "new, unspoiled, not salt",
+      "word_ids": [
+        "fresh",
+        "refresh",
+        "refreshment"
+      ]
+    },
+    {
+      "id": "wardon",
+      "root": "wardon",
+      "variants": [
+        "gard",
+        "guard",
+        "ward"
+      ],
+      "origin": "法兰克语 *wardon（守望、看顾）入古法语成 guarder/garder（看守），regarder 即 re-＋garder（再看一眼）；英语 guard、ward 同出此支，故本族为日耳曼源经法语，而非拉丁源",
+      "core_concept": "to turn the eyes onto something and keep them there / 把目光投过去并守住",
+      "core_image": "守夜人举灯朝那个方向照过去，眼睛一直盯着不移开",
+      "english_definition": "to watch over, keep in view",
+      "word_ids": [
+        "regard",
+        "regarding",
+        "regardless"
+      ]
+    },
+    {
+      "id": "regula",
+      "root": "regula",
+      "variants": [
+        "regul",
+        "rul"
+      ],
+      "origin": "拉丁语 regula（笔直的木尺、准绳），来自 regere（导正）；英语 rule 同出此支。与已建模的 rect（regere 的分词 rectus 一支：correct/direct）同源而分支不同，本族收 regula 名词一路",
+      "core_concept": "a straight rod things are lined up against / 一根直尺，凡物都靠它比齐",
+      "core_image": "一把直尺压在纸上，笔沿着它走，线才不歪",
+      "english_definition": "straight rod, rule, standard",
+      "word_ids": [
+        "regular",
+        "regulate",
+        "regulation"
+      ]
+    },
+    {
+      "id": "heros",
+      "root": "heros",
+      "variants": [
+        "hero",
+        "heroin"
+      ],
+      "origin": "希腊语 hērōs（半神的勇士、受尊崇的死者）经拉丁语 heros 入英语；阴性作 hērōinē，英语 heroine 由此",
+      "core_concept": "the one the story is told about for daring / 因胆识而被传颂的那个人",
+      "core_image": "众人围坐火边，一遍遍讲同一个人闯过的那一关",
+      "english_definition": "hero, demigod, champion",
+      "word_ids": [
+        "hero",
+        "heroic",
+        "heroine"
+      ]
+    },
+    {
+      "id": "diurnus",
+      "root": "diurnus",
+      "variants": [
+        "journ",
+        "jour",
+        "diurn"
+      ],
+      "origin": "拉丁语 diurnus（一日的），来自 dies（日）；经古法语 jour（日）派出 jornal（每日的记事）与 jornee（一天的路程），英语 journal/journey 分别由此",
+      "core_concept": "the span of one day, and what fills it / 一天这段光景，及这一天里的事",
+      "core_image": "天亮出门天黑歇脚，这一天走了多远、记下什么，都装在这一段里",
+      "english_definition": "of the day, daily",
+      "word_ids": [
+        "journal",
+        "journalist",
+        "journey"
+      ]
+    },
+    {
+      "id": "metron",
+      "root": "metron",
+      "variants": [
+        "metr",
+        "meter",
+        "metri"
+      ],
+      "origin": "希腊语 metron（量具、尺度、诗的音步）经拉丁语 metrum、法语 mètre 入英语；symmetry 是 syn（一同）＋metron（量度）——两边照同一尺量得一样",
+      "core_concept": "the measure by which things are gauged / 拿来量东西的那个尺度",
+      "core_image": "一根标好刻度的杆横过去，长短照它报数",
+      "english_definition": "measure, metre",
+      "word_ids": [
+        "metre",
+        "metric",
+        "symmetry"
       ]
     }
   ]

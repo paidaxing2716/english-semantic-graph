@@ -5418,6 +5418,132 @@
       "to": "posture",
       "type": "root",
       "note": "positura（放置的样子）→ 身体摆放的姿态"
+    },
+    {
+      "from": "friskaz",
+      "to": "fresh",
+      "type": "root",
+      "note": "friskaz（未腐、不咸）→ 还保着刚来时那副样子"
+    },
+    {
+      "from": "friskaz",
+      "to": "refresh",
+      "type": "root",
+      "note": "re-（重新）+ fresh（未走味）→ 把那副刚来时的样子找回来"
+    },
+    {
+      "from": "friskaz",
+      "to": "refreshment",
+      "type": "root",
+      "note": "refresh（使恢复）+ -ment → 使人回过劲来的那份东西"
+    },
+    {
+      "from": "wardon",
+      "to": "regard",
+      "type": "root",
+      "note": "re-（再）+ gard（看守）→ 再把目光投过去 → 看待；引申为敬重、问候"
+    },
+    {
+      "from": "wardon",
+      "to": "regarding",
+      "type": "root",
+      "note": "regard（投目看待）的分词转介词 → 目光所对着的那件事"
+    },
+    {
+      "from": "wardon",
+      "to": "regardless",
+      "type": "root",
+      "note": "regard（投目留意）+ -less（无…）→ 不往那边看 → 不顾、照样做"
+    },
+    {
+      "from": "regula",
+      "to": "regular",
+      "type": "root",
+      "note": "regul（直尺）+ -ar（…的）→ 合着尺子来的 → 匀齐、按时"
+    },
+    {
+      "from": "regula",
+      "to": "regulate",
+      "type": "root",
+      "note": "regul（直尺）+ -ate（使…）→ 拿尺子把它校到位 → 调节、管束"
+    },
+    {
+      "from": "regula",
+      "to": "regulation",
+      "type": "root",
+      "note": "regulate（按尺校准）+ -ion → 立成条款的那把尺，及校准这件事"
+    },
+    {
+      "from": "heros",
+      "to": "hero",
+      "type": "root",
+      "note": "hērōs（受尊崇的勇士）→ 因胆识受人传颂的人；也指故事里的主角"
+    },
+    {
+      "from": "heros",
+      "to": "heroic",
+      "type": "root",
+      "note": "hero（被传颂者）+ -ic（…的）→ 够得上被传颂的那种"
+    },
+    {
+      "from": "heros",
+      "to": "heroine",
+      "type": "root",
+      "note": "hero（被传颂者）+ -ine（阴性）→ 女性的那一位；也指故事女主角"
+    },
+    {
+      "from": "diurnus",
+      "to": "journal",
+      "type": "root",
+      "note": "jour（日）+ -nal → 按日记下的册子 → 日志；引申为定期出的刊物"
+    },
+    {
+      "from": "diurnus",
+      "to": "journalist",
+      "type": "root",
+      "note": "journal（按日的刊）+ -ist（司此业者）→ 替这类刊物采写的人"
+    },
+    {
+      "from": "diurnus",
+      "to": "journey",
+      "type": "root",
+      "note": "jour（日）+ -ney → 本指一天能走完的路程，后泛指整趟行程"
+    },
+    {
+      "from": "metron",
+      "to": "metre",
+      "type": "root",
+      "note": "metron（量度）→ 定作标准的那一段长；诗里指音步的节拍"
+    },
+    {
+      "from": "metron",
+      "to": "metric",
+      "type": "root",
+      "note": "metr（量度）+ -ic（…的）→ 按这套尺度来的"
+    },
+    {
+      "from": "metron",
+      "to": "symmetry",
+      "type": "root",
+      "note": "sym-（syn- 一同）+ metr（量度）+ -y → 两边照同一尺量得一样 → 对称"
+    },
+    {
+      "from": "placere",
+      "to": "please",
+      "type": "root",
+      "note": "placere（使中意）→ 让对方合意；作副词时是「若合你意」的省说，即请"
+    },
+    {
+      "from": "placere",
+      "to": "pleasant",
+      "type": "root",
+      "note": "please（使合意）+ -ant（正…的）→ 正让人合意的"
+    },
+    {
+      "from": "placere",
+      "to": "pleasure",
+      "type": "root",
+      "note": "please（使合意）+ -ure（名词）→ 合意时心里那份受用"
     }
   ]
 }

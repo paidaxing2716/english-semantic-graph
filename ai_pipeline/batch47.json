@@ -1,0 +1,972 @@
+{
+  "roots": [
+    {
+      "id": "friskaz",
+      "root": "friskaz",
+      "variants": [
+        "fresh",
+        "fresch"
+      ],
+      "origin": "原始日耳曼语 *friskaz（不咸的、未腐的），古英语作 fersc；同一支经法兰克语入古法语成 fresche，英语 refresh 即从这一路借回，故本族是日耳曼源而非拉丁源",
+      "core_concept": "still as it was when new, not gone stale / 还是刚来时那样，没走味",
+      "core_image": "刚摘下的果子掰开，切面水亮，凑近有股清气",
+      "english_definition": "new, unspoiled, not salt"
+    },
+    {
+      "id": "wardon",
+      "root": "wardon",
+      "variants": [
+        "gard",
+        "guard",
+        "ward"
+      ],
+      "origin": "法兰克语 *wardon（守望、看顾）入古法语成 guarder/garder（看守），regarder 即 re-＋garder（再看一眼）；英语 guard、ward 同出此支，故本族为日耳曼源经法语，而非拉丁源",
+      "core_concept": "to turn the eyes onto something and keep them there / 把目光投过去并守住",
+      "core_image": "守夜人举灯朝那个方向照过去，眼睛一直盯着不移开",
+      "english_definition": "to watch over, keep in view"
+    },
+    {
+      "id": "regula",
+      "root": "regula",
+      "variants": [
+        "regul",
+        "rul"
+      ],
+      "origin": "拉丁语 regula（笔直的木尺、准绳），来自 regere（导正）；英语 rule 同出此支。与已建模的 rect（regere 的分词 rectus 一支：correct/direct）同源而分支不同，本族收 regula 名词一路",
+      "core_concept": "a straight rod things are lined up against / 一根直尺，凡物都靠它比齐",
+      "core_image": "一把直尺压在纸上，笔沿着它走，线才不歪",
+      "english_definition": "straight rod, rule, standard"
+    },
+    {
+      "id": "heros",
+      "root": "heros",
+      "variants": [
+        "hero",
+        "heroin"
+      ],
+      "origin": "希腊语 hērōs（半神的勇士、受尊崇的死者）经拉丁语 heros 入英语；阴性作 hērōinē，英语 heroine 由此",
+      "core_concept": "the one the story is told about for daring / 因胆识而被传颂的那个人",
+      "core_image": "众人围坐火边，一遍遍讲同一个人闯过的那一关",
+      "english_definition": "hero, demigod, champion"
+    },
+    {
+      "id": "diurnus",
+      "root": "diurnus",
+      "variants": [
+        "journ",
+        "jour",
+        "diurn"
+      ],
+      "origin": "拉丁语 diurnus（一日的），来自 dies（日）；经古法语 jour（日）派出 jornal（每日的记事）与 jornee（一天的路程），英语 journal/journey 分别由此",
+      "core_concept": "the span of one day, and what fills it / 一天这段光景，及这一天里的事",
+      "core_image": "天亮出门天黑歇脚，这一天走了多远、记下什么，都装在这一段里",
+      "english_definition": "of the day, daily"
+    },
+    {
+      "id": "metron",
+      "root": "metron",
+      "variants": [
+        "metr",
+        "meter",
+        "metri"
+      ],
+      "origin": "希腊语 metron（量具、尺度、诗的音步）经拉丁语 metrum、法语 mètre 入英语；symmetry 是 syn（一同）＋metron（量度）——两边照同一尺量得一样",
+      "core_concept": "the measure by which things are gauged / 拿来量东西的那个尺度",
+      "core_image": "一根标好刻度的杆横过去，长短照它报数",
+      "english_definition": "measure, metre"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-friskaz-unspoiled",
+      "concept": "still as it was when new, not gone stale",
+      "chinese": "未走味",
+      "core_image": "刚摘的果子掰开，切面水亮，凑近有股清气",
+      "root_ids": [
+        "friskaz"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-wardon-watch",
+      "concept": "to turn the eyes onto something and keep them there",
+      "chinese": "投目看守",
+      "core_image": "守夜人举灯朝一处照去，眼睛盯住不移开",
+      "root_ids": [
+        "wardon"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-regula-straightedge",
+      "concept": "a straight rod things are lined up against",
+      "chinese": "准绳直尺",
+      "core_image": "直尺压在纸上，笔沿着它走，线才不歪",
+      "root_ids": [
+        "regula"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-heros-champion",
+      "concept": "the one the story is told about for daring",
+      "chinese": "被传颂者",
+      "core_image": "众人围坐火边，一遍遍讲同一个人闯过的那一关",
+      "root_ids": [
+        "heros"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-diurnus-day",
+      "concept": "the span of one day, and what fills it",
+      "chinese": "一日之程",
+      "core_image": "天亮出门天黑歇脚，一天里走的路、记的事都在这段里",
+      "root_ids": [
+        "diurnus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-metron-measure",
+      "concept": "the measure by which things are gauged",
+      "chinese": "量度尺",
+      "core_image": "标好刻度的杆横过去，长短照它报数",
+      "root_ids": [
+        "metron"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": [
+      "friskaz",
+      "wardon",
+      "heros"
+    ],
+    "domain-shape": [
+      "regula",
+      "metron"
+    ],
+    "domain-transfer": [
+      "diurnus"
+    ]
+  },
+  "words": [
+    {
+      "id": "fresh",
+      "word": "fresh",
+      "pos": "adjective",
+      "phonetic": "/freʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "friskaz"
+      ],
+      "root_logic": "friskaz（未腐、不咸）→ 还保着刚来时那副样子",
+      "origin": "古英语 fersc（不咸的、未腐的），来自原始日耳曼语 *friskaz",
+      "native_definition": "newly made or obtained; not stale; not salty",
+      "core_concept": "keeping the state it had at the very start – 还守着刚出来时那个状态",
+      "core_image": "刚出炉的那一块掰开，热气往上冒",
+      "chinese": [
+        "新鲜的",
+        "清新的",
+        "淡水的"
+      ],
+      "examples": [
+        "Buy fresh bread every morning.",
+        "She went out for some fresh air."
+      ],
+      "synonyms": [
+        "new",
+        "crisp"
+      ],
+      "antonyms": [
+        "stale"
+      ],
+      "related": [
+        "refresh",
+        "refreshment"
+      ],
+      "semantic_expansions": [
+        "新鲜的：还是刚出来时那个样子",
+        "清新的：气息不闷不浊",
+        "淡水的：不带盐味的那种水"
+      ],
+      "recall_hint": "friskaz（未腐、不咸）→ 还守着刚来时的状态"
+    },
+    {
+      "id": "refresh",
+      "word": "refresh",
+      "pos": "verb",
+      "phonetic": "/rɪˈfreʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "friskaz"
+      ],
+      "root_logic": "re-（重新）+ fresh（未走味）→ 把那副刚来时的样子找回来",
+      "origin": "古法语 refreschier（使变凉爽），由 re-＋fresche ← 法兰克语，同出 *friskaz",
+      "native_definition": "to make someone feel less tired; to update something",
+      "core_concept": "bringing a thing back to the state it started in – 把它拉回刚出来时那个状态",
+      "core_image": "洗过脸再坐下，人像换了一个",
+      "chinese": [
+        "使恢复精神",
+        "刷新"
+      ],
+      "examples": [
+        "A cold drink will refresh you.",
+        "Refresh the page to see the change."
+      ],
+      "synonyms": [
+        "revive",
+        "renew"
+      ],
+      "antonyms": [
+        "tire",
+        "exhaust"
+      ],
+      "related": [
+        "fresh",
+        "refreshment"
+      ],
+      "semantic_expansions": [
+        "使恢复精神：把人拉回刚开始时那股劲",
+        "刷新：把画面拉回最新那一版"
+      ],
+      "recall_hint": "re-（重新）+ fresh（未走味）→ 拉回刚来时的状态"
+    },
+    {
+      "id": "refreshment",
+      "word": "refreshment",
+      "pos": "noun",
+      "phonetic": "/rɪˈfreʃmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "friskaz"
+      ],
+      "root_logic": "refresh（使恢复）+ -ment → 使人回过劲来的那份东西",
+      "origin": "古法语 refreschissement，来自 refreschier ← 同出 *friskaz",
+      "native_definition": "a light snack or drink; the act of making one feel less tired",
+      "core_concept": "the small thing taken to get one's edge back – 拿来把劲头找回来的那一点东西",
+      "core_image": "半路歇脚，喝下那一杯，脚步又轻了",
+      "chinese": [
+        "点心",
+        "饮料",
+        "恢复精神"
+      ],
+      "examples": [
+        "Refreshments will be served at noon.",
+        "He paused for refreshment."
+      ],
+      "synonyms": [
+        "snack",
+        "revival"
+      ],
+      "antonyms": [],
+      "related": [
+        "fresh",
+        "refresh"
+      ],
+      "semantic_expansions": [
+        "点心/饮料：拿来把劲头找回的那点东西",
+        "恢复精神：找回劲头这件事本身"
+      ],
+      "recall_hint": "refresh（使恢复）+ -ment → 把劲头找回的那份东西"
+    },
+    {
+      "id": "regard",
+      "word": "regard",
+      "pos": "verb",
+      "phonetic": "/rɪˈɡɑːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "wardon"
+      ],
+      "root_logic": "re-（再）+ gard（看守）→ 再把目光投过去 → 看待；引申为敬重、问候",
+      "origin": "古法语 regarder（注视），由 re-＋garder（看守）← 法兰克语 *wardon",
+      "native_definition": "to think of someone in a particular way; respect; greetings",
+      "core_concept": "turning the eyes back onto a thing and holding a view of it – 把目光再投回去，并就此存下一个看法",
+      "core_image": "他把灯又转回那一处，端端地照了好一会儿",
+      "chinese": [
+        "看待",
+        "认为",
+        "尊重",
+        "问候"
+      ],
+      "examples": [
+        "She is regarded as an expert.",
+        "Give my regards to your parents."
+      ],
+      "synonyms": [
+        "consider",
+        "esteem"
+      ],
+      "antonyms": [
+        "ignore",
+        "despise"
+      ],
+      "related": [
+        "regarding",
+        "regardless"
+      ],
+      "semantic_expansions": [
+        "看待/认为：把目光投过去并存下一个看法",
+        "尊重：目光里带着分量",
+        "问候：把这份目光托人带过去"
+      ],
+      "recall_hint": "re-（再）+ gard（看守）→ 再把目光投过去"
+    },
+    {
+      "id": "regarding",
+      "word": "regarding",
+      "pos": "preposition",
+      "phonetic": "/rɪˈɡɑːdɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "wardon"
+      ],
+      "root_logic": "regard（投目看待）的分词转介词 → 目光所对着的那件事",
+      "origin": "英语 regarding，regard 的现在分词转作介词",
+      "native_definition": "about; concerning a particular matter",
+      "core_concept": "pointing at the very thing the eyes are turned on – 直指目光正对着的那一桩",
+      "core_image": "灯光圈住的就是要谈的那一处，旁的都在暗里",
+      "chinese": [
+        "关于",
+        "至于"
+      ],
+      "examples": [
+        "I wrote to him regarding the delay.",
+        "Regarding costs, we need more data."
+      ],
+      "synonyms": [
+        "about",
+        "concerning"
+      ],
+      "antonyms": [],
+      "related": [
+        "regard",
+        "regardless"
+      ],
+      "semantic_expansions": [
+        "关于/至于：目光正对着的那一桩事"
+      ],
+      "recall_hint": "regard（投目）+ -ing → 目光所对着的那件事"
+    },
+    {
+      "id": "regardless",
+      "word": "regardless",
+      "pos": "adverb",
+      "phonetic": "/rɪˈɡɑːdləs/",
+      "decomposable": "root",
+      "root_ids": [
+        "wardon"
+      ],
+      "root_logic": "regard（投目留意）+ -less（无…）→ 不往那边看 → 不顾、照样做",
+      "origin": "英语 regardless，由 regard＋-less（缺乏）构成",
+      "native_definition": "without paying attention to something; anyway",
+      "core_concept": "walking on without turning the eyes to what stands there – 眼睛不往那边转，照样往前走",
+      "core_image": "旁边有人喊他，他连头都没偏，脚步没停",
+      "chinese": [
+        "不顾",
+        "不管",
+        "无论如何"
+      ],
+      "examples": [
+        "He went ahead regardless of the risk.",
+        "We must finish it regardless."
+      ],
+      "synonyms": [
+        "anyway",
+        "nevertheless"
+      ],
+      "antonyms": [],
+      "related": [
+        "regard",
+        "regarding"
+      ],
+      "semantic_expansions": [
+        "不顾/不管：目光不往那边转",
+        "无论如何：不管那边有什么，照样进行"
+      ],
+      "recall_hint": "regard（投目留意）+ -less（无）→ 不往那边看，照样走"
+    },
+    {
+      "id": "regular",
+      "word": "regular",
+      "pos": "adjective",
+      "phonetic": "/ˈreɡjələ(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "regula"
+      ],
+      "root_logic": "regul（直尺）+ -ar（…的）→ 合着尺子来的 → 匀齐、按时",
+      "origin": "拉丁语 regularis（合于准尺的），来自 regula（直尺）",
+      "native_definition": "happening at even intervals; usual; evenly shaped",
+      "core_concept": "coming out even because each was laid to the same rod – 每一个都照同一把尺来，故彼此齐整",
+      "core_image": "砖缝一道道对齐，间距都照同一把尺量过",
+      "chinese": [
+        "规则的",
+        "定期的",
+        "经常的"
+      ],
+      "examples": [
+        "He is a regular customer here.",
+        "Take regular breaks while working."
+      ],
+      "synonyms": [
+        "steady",
+        "routine"
+      ],
+      "antonyms": [
+        "irregular",
+        "occasional"
+      ],
+      "related": [
+        "regulate",
+        "regulation"
+      ],
+      "semantic_expansions": [
+        "规则的：处处合着同一把尺、匀齐",
+        "定期的/经常的：时间上也按尺子等距排开"
+      ],
+      "recall_hint": "regul（直尺）+ -ar → 合着同一把尺、故齐整"
+    },
+    {
+      "id": "regulate",
+      "word": "regulate",
+      "pos": "verb",
+      "phonetic": "/ˈreɡjuleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "regula"
+      ],
+      "root_logic": "regul（直尺）+ -ate（使…）→ 拿尺子把它校到位 → 调节、管束",
+      "origin": "晚期拉丁语 regulare（按准尺处理），来自 regula",
+      "native_definition": "to control the rate or level of something; to govern by rules",
+      "core_concept": "holding a thing to the rod and trimming it to fit – 拿尺子比着，把它修到合线",
+      "core_image": "旋钮往回拧半圈，指针就落回刻线上",
+      "chinese": [
+        "调节",
+        "管理",
+        "控制"
+      ],
+      "examples": [
+        "A thermostat regulates the temperature.",
+        "New laws regulate online sales."
+      ],
+      "synonyms": [
+        "control",
+        "adjust"
+      ],
+      "antonyms": [],
+      "related": [
+        "regular",
+        "regulation"
+      ],
+      "semantic_expansions": [
+        "调节/控制：拿尺子比着把它校到合线",
+        "管理：用成套准绳去管束"
+      ],
+      "recall_hint": "regul（直尺）+ -ate → 拿尺子把它校到位"
+    },
+    {
+      "id": "regulation",
+      "word": "regulation",
+      "pos": "noun",
+      "phonetic": "/ˌreɡjuˈleɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "regula"
+      ],
+      "root_logic": "regulate（按尺校准）+ -ion → 立成条款的那把尺，及校准这件事",
+      "origin": "晚期拉丁语 regulatio，来自 regulare ← regula",
+      "native_definition": "an official rule; the act of controlling something",
+      "core_concept": "the rod written down so all must be laid against it – 把那把尺写成条款，人人都得比着它",
+      "core_image": "墙上钉着一张表，每条都写明该照哪道线来",
+      "chinese": [
+        "规章",
+        "条例",
+        "调节"
+      ],
+      "examples": [
+        "Safety regulations must be followed.",
+        "The regulation of prices is disputed."
+      ],
+      "synonyms": [
+        "rule",
+        "control"
+      ],
+      "antonyms": [],
+      "related": [
+        "regular",
+        "regulate"
+      ],
+      "semantic_expansions": [
+        "规章/条例：写成条款、人人须比着的那把尺",
+        "调节：按尺校准这件事本身"
+      ],
+      "recall_hint": "regulate（按尺校准）+ -ion → 写成条款的那把尺"
+    },
+    {
+      "id": "hero",
+      "word": "hero",
+      "pos": "noun",
+      "phonetic": "/ˈhɪərəʊ/",
+      "decomposable": "root",
+      "root_ids": [
+        "heros"
+      ],
+      "root_logic": "hērōs（受尊崇的勇士）→ 因胆识受人传颂的人；也指故事里的主角",
+      "origin": "拉丁语 heros，来自希腊语 hērōs（半神的勇士）",
+      "native_definition": "a person admired for courage; the chief character in a story",
+      "core_concept": "the one whose deed the others keep retelling – 事迹被旁人一再讲起的那个人",
+      "core_image": "火堆边的人又提起他，那一关闯得众人服气",
+      "chinese": [
+        "英雄",
+        "男主角"
+      ],
+      "examples": [
+        "He was hailed as a hero.",
+        "The hero of the novel is a doctor."
+      ],
+      "synonyms": [
+        "champion",
+        "protagonist"
+      ],
+      "antonyms": [
+        "coward",
+        "villain"
+      ],
+      "related": [
+        "heroic",
+        "heroine"
+      ],
+      "semantic_expansions": [
+        "英雄：因胆识被一再传颂的人",
+        "男主角：故事里被讲述的那个中心人物"
+      ],
+      "recall_hint": "hērōs（受尊崇的勇士）→ 事迹被一再讲起的人"
+    },
+    {
+      "id": "heroic",
+      "word": "heroic",
+      "pos": "adjective",
+      "phonetic": "/hɪˈrəʊɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "heros"
+      ],
+      "root_logic": "hero（被传颂者）+ -ic（…的）→ 够得上被传颂的那种",
+      "origin": "希腊语 hērōikos（属于勇士的），来自 hērōs",
+      "native_definition": "very brave; showing great courage",
+      "core_concept": "of the kind that gets retold afterwards – 属于事后会被人讲起的那一种",
+      "core_image": "他冲进去那一下，后来被人反复说起",
+      "chinese": [
+        "英勇的",
+        "英雄的"
+      ],
+      "examples": [
+        "She made a heroic effort to save him.",
+        "It was a heroic act of defiance."
+      ],
+      "synonyms": [
+        "brave",
+        "valiant"
+      ],
+      "antonyms": [
+        "cowardly"
+      ],
+      "related": [
+        "hero",
+        "heroine"
+      ],
+      "semantic_expansions": [
+        "英勇的/英雄的：够得上事后被人传颂的那种"
+      ],
+      "recall_hint": "hero（被传颂者）+ -ic → 够得上被传颂的那种"
+    },
+    {
+      "id": "heroine",
+      "word": "heroine",
+      "pos": "noun",
+      "phonetic": "/ˈherəʊɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "heros"
+      ],
+      "root_logic": "hero（被传颂者）+ -ine（阴性）→ 女性的那一位；也指故事女主角",
+      "origin": "希腊语 hērōinē（女勇士），hērōs 的阴性形",
+      "native_definition": "a woman admired for courage; the chief female character in a story",
+      "core_concept": "the woman whose deed the others keep retelling – 事迹被旁人一再讲起的那位女性",
+      "core_image": "那家人至今说起她夜里背人出来的事",
+      "chinese": [
+        "女英雄",
+        "女主角"
+      ],
+      "examples": [
+        "She became a national heroine.",
+        "The heroine escapes in the last act."
+      ],
+      "synonyms": [
+        "champion",
+        "protagonist"
+      ],
+      "antonyms": [
+        "villain"
+      ],
+      "related": [
+        "hero",
+        "heroic"
+      ],
+      "semantic_expansions": [
+        "女英雄：因胆识被传颂的女性",
+        "女主角：故事里被讲述的那位女性中心人物"
+      ],
+      "recall_hint": "hero（被传颂者）+ -ine（阴性）→ 女性的那一位"
+    },
+    {
+      "id": "journal",
+      "word": "journal",
+      "pos": "noun",
+      "phonetic": "/ˈdʒɜːnl/",
+      "decomposable": "root",
+      "root_ids": [
+        "diurnus"
+      ],
+      "root_logic": "jour（日）+ -nal → 按日记下的册子 → 日志；引申为定期出的刊物",
+      "origin": "古法语 jornal（每日的记事），来自拉丁语 diurnalis ← diurnus（一日的）",
+      "native_definition": "a daily record of events; a magazine on a special subject",
+      "core_concept": "the book that takes one entry per day – 一天记一笔的那本册子",
+      "core_image": "每晚睡前写一行，一年下来那本厚了一截",
+      "chinese": [
+        "日志",
+        "日记",
+        "期刊"
+      ],
+      "examples": [
+        "She keeps a journal of her travels.",
+        "The paper appeared in a medical journal."
+      ],
+      "synonyms": [
+        "diary",
+        "periodical"
+      ],
+      "antonyms": [],
+      "related": [
+        "journalist",
+        "journey"
+      ],
+      "semantic_expansions": [
+        "日志/日记：按日记下的那本册子",
+        "期刊：同样按期出的那类刊物"
+      ],
+      "recall_hint": "jour（日）+ -nal → 一天记一笔的那本册子"
+    },
+    {
+      "id": "journalist",
+      "word": "journalist",
+      "pos": "noun",
+      "phonetic": "/ˈdʒɜːnəlɪst/",
+      "decomposable": "root",
+      "root_ids": [
+        "diurnus"
+      ],
+      "root_logic": "journal（按日的刊）+ -ist（司此业者）→ 替这类刊物采写的人",
+      "origin": "法语 journaliste，来自 journal ← 拉丁语 diurnus",
+      "native_definition": "a person who writes news for papers, radio, or television",
+      "core_concept": "the one who fills the daily pages – 把那按日出的版面填起来的人",
+      "core_image": "他赶在天黑前把稿子发回去，好赶上明早那一版",
+      "chinese": [
+        "记者",
+        "新闻工作者"
+      ],
+      "examples": [
+        "The journalist interviewed both sides.",
+        "She trained as a journalist."
+      ],
+      "synonyms": [
+        "reporter",
+        "correspondent"
+      ],
+      "antonyms": [],
+      "related": [
+        "journal",
+        "journey"
+      ],
+      "semantic_expansions": [
+        "记者/新闻工作者：替按日出的刊物采写的人"
+      ],
+      "recall_hint": "journal（按日的刊）+ -ist → 替它采写的人"
+    },
+    {
+      "id": "journey",
+      "word": "journey",
+      "pos": "noun",
+      "phonetic": "/ˈdʒɜːni/",
+      "decomposable": "root",
+      "root_ids": [
+        "diurnus"
+      ],
+      "root_logic": "jour（日）+ -ney → 本指一天能走完的路程，后泛指整趟行程",
+      "origin": "古法语 jornee（一天的路程、一天的活），来自 jour（日）← 拉丁语 diurnus",
+      "native_definition": "an act of travelling from one place to another",
+      "core_concept": "as far as one gets between sunup and dark, extended to the whole trip – 天亮到天黑能走的那一段，后指整趟",
+      "core_image": "清早动身，日头落时到了下一个镇子",
+      "chinese": [
+        "旅程",
+        "行程",
+        "旅行"
+      ],
+      "examples": [
+        "The journey takes about three hours.",
+        "They set out on a long journey."
+      ],
+      "synonyms": [
+        "trip",
+        "voyage"
+      ],
+      "antonyms": [],
+      "related": [
+        "journal",
+        "journalist"
+      ],
+      "semantic_expansions": [
+        "旅程/行程：本指一天走完的路，后指整趟路途",
+        "旅行：走这段路这件事"
+      ],
+      "recall_hint": "jour（日）+ -ney → 一天能走完的路，引申为整趟"
+    },
+    {
+      "id": "metre",
+      "word": "metre",
+      "pos": "noun",
+      "phonetic": "/ˈmiːtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "metron（量度）→ 定作标准的那一段长；诗里指音步的节拍",
+      "origin": "法语 mètre，来自希腊语 metron（量具、音步）",
+      "native_definition": "a unit of length equal to 100 centimetres; the rhythm of verse",
+      "core_concept": "the one length agreed on as the yardstick – 公认拿来当准的那一段长",
+      "core_image": "地上那道标线到下一道，正好是定死的一段",
+      "chinese": [
+        "米",
+        "韵律"
+      ],
+      "examples": [
+        "The room is four metres wide.",
+        "The poem is written in strict metre."
+      ],
+      "synonyms": [
+        "yard",
+        "rhythm"
+      ],
+      "antonyms": [],
+      "related": [
+        "metric",
+        "symmetry"
+      ],
+      "semantic_expansions": [
+        "米：公认作准的那一段长",
+        "韵律：诗句里按拍子量出的节奏"
+      ],
+      "recall_hint": "metron（量度）→ 定作标准的那一段长"
+    },
+    {
+      "id": "metric",
+      "word": "metric",
+      "pos": "adjective",
+      "phonetic": "/ˈmetrɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "metr（量度）+ -ic（…的）→ 按这套尺度来的",
+      "origin": "法语 métrique，来自希腊语 metrikos（关于量度的）← metron",
+      "native_definition": "relating to the system based on metres and grams",
+      "core_concept": "belonging to the one agreed set of measures – 属于那一套公认尺度的",
+      "core_image": "秤和尺换成同一套标法，各处报出的数才对得上",
+      "chinese": [
+        "公制的",
+        "度量的"
+      ],
+      "examples": [
+        "Britain uses metric units now.",
+        "Convert the figures to metric."
+      ],
+      "synonyms": [
+        "decimal",
+        "measured"
+      ],
+      "antonyms": [],
+      "related": [
+        "metre",
+        "symmetry"
+      ],
+      "semantic_expansions": [
+        "公制的/度量的：按那一套公认尺度来的"
+      ],
+      "recall_hint": "metr（量度）+ -ic → 按这套尺度来的"
+    },
+    {
+      "id": "symmetry",
+      "word": "symmetry",
+      "pos": "noun",
+      "phonetic": "/ˈsɪmətri/",
+      "decomposable": "root",
+      "root_ids": [
+        "metron"
+      ],
+      "root_logic": "sym-（syn- 一同）+ metr（量度）+ -y → 两边照同一尺量得一样 → 对称",
+      "origin": "希腊语 symmetria（同一尺度、匀称），来自 syn（一同）＋metron（量度）",
+      "native_definition": "the quality of having two halves that match exactly",
+      "core_concept": "both sides coming out equal when laid to the same measure – 拿同一把尺量两边，数一样",
+      "core_image": "蝴蝶合起翅膀，左右两片严丝合缝地叠在一起",
+      "chinese": [
+        "对称",
+        "匀称"
+      ],
+      "examples": [
+        "The building has perfect symmetry.",
+        "There is a pleasing symmetry to the design."
+      ],
+      "synonyms": [
+        "balance",
+        "proportion"
+      ],
+      "antonyms": [
+        "asymmetry"
+      ],
+      "related": [
+        "metre",
+        "metric"
+      ],
+      "semantic_expansions": [
+        "对称/匀称：两边照同一尺量出来一样"
+      ],
+      "recall_hint": "sym-（一同）+ metr（量度）→ 两边量得一样"
+    },
+    {
+      "id": "please",
+      "word": "please",
+      "pos": "verb",
+      "phonetic": "/pliːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "placere"
+      ],
+      "root_logic": "placere（使中意）→ 让对方合意；作副词时是「若合你意」的省说，即请",
+      "origin": "古法语 plaisir（使满意），来自拉丁语 placere（使中意、讨喜）",
+      "native_definition": "to make someone glad; used politely to ask for something",
+      "core_concept": "bringing a thing round to what the other finds agreeable – 把事情做到对方合意那一步",
+      "core_image": "他把茶端到手边，对方眉头一松",
+      "chinese": [
+        "使高兴",
+        "请",
+        "使满意"
+      ],
+      "examples": [
+        "It pleased her to hear the news.",
+        "Please close the door behind you."
+      ],
+      "synonyms": [
+        "satisfy",
+        "delight"
+      ],
+      "antonyms": [
+        "annoy",
+        "displease"
+      ],
+      "related": [
+        "pleasant",
+        "pleasure"
+      ],
+      "semantic_expansions": [
+        "使高兴/使满意：做到对方合意那一步",
+        "请：说话时以「若合你意」相求"
+      ],
+      "recall_hint": "placere（使中意）→ 做到对方合意；「若合你意」即请"
+    },
+    {
+      "id": "pleasant",
+      "word": "pleasant",
+      "pos": "adjective",
+      "phonetic": "/ˈpleznt/",
+      "decomposable": "root",
+      "root_ids": [
+        "placere"
+      ],
+      "root_logic": "please（使合意）+ -ant（正…的）→ 正让人合意的",
+      "origin": "古法语 plaisant（讨喜的），plaisir 的现在分词 ← 拉丁语 placere",
+      "native_definition": "enjoyable; giving a feeling of satisfaction",
+      "core_concept": "of the kind that sits well with whoever meets it – 遇上的人都觉得受用的那种",
+      "core_image": "屋里温度刚好，坐下来谁都不想起身",
+      "chinese": [
+        "令人愉快的",
+        "宜人的",
+        "友善的"
+      ],
+      "examples": [
+        "We had a pleasant evening together.",
+        "She has a pleasant manner."
+      ],
+      "synonyms": [
+        "agreeable",
+        "delightful"
+      ],
+      "antonyms": [
+        "unpleasant"
+      ],
+      "related": [
+        "please",
+        "pleasure"
+      ],
+      "semantic_expansions": [
+        "令人愉快的/宜人的：正让人合意受用的",
+        "友善的：待人的样子也让人合意"
+      ],
+      "recall_hint": "please（使合意）+ -ant → 正让人合意的"
+    },
+    {
+      "id": "pleasure",
+      "word": "pleasure",
+      "pos": "noun",
+      "phonetic": "/ˈpleʒə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "placere"
+      ],
+      "root_logic": "please（使合意）+ -ure（名词）→ 合意时心里那份受用",
+      "origin": "古法语 plaisir（快乐），本是动词不定式用作名词 ← 拉丁语 placere",
+      "native_definition": "a feeling of happy satisfaction; something that gives this",
+      "core_concept": "what one feels when a thing lands just right – 事情正合意时心里那份受用",
+      "core_image": "他听完往椅背上一靠，脸上的紧绷散了",
+      "chinese": [
+        "乐趣",
+        "愉快",
+        "荣幸"
+      ],
+      "examples": [
+        "Reading gives him great pleasure.",
+        "It is a pleasure to meet you."
+      ],
+      "synonyms": [
+        "delight",
+        "enjoyment"
+      ],
+      "antonyms": [
+        "pain",
+        "displeasure"
+      ],
+      "related": [
+        "please",
+        "pleasant"
+      ],
+      "semantic_expansions": [
+        "乐趣/愉快：正合意时心里那份受用",
+        "荣幸：把此事当作合意之事来说的客气话"
+      ],
+      "recall_hint": "please（使合意）+ -ure → 合意时心里那份受用"
+    }
+  ]
+}

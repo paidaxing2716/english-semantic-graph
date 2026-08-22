@@ -16,7 +16,7 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余词入库（可结构化的尾声）← 当前：888 词 · 174 词根，vetted 尚余 60 词 / 20 族
+v1.1    剩余词入库（可结构化的尾声）← 当前：909 词 · 180 词根，vetted 尚余 39 词 / 13 族
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
 ```
 
@@ -317,6 +317,16 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十七批（21 词，六新词根族 + 3 补词）：friskaz（未走味：fresh/refresh/
+        refreshment，日耳曼源）+ wardon（投目看守：regard/regarding/regardless，
+        法兰克源经古法语）+ regula（准绳直尺：regular/regulate/regulation）
+        + heros（被传颂者：hero/heroic/heroine）+ diurnus（一日之程：journal/
+        journalist/journey）+ metron（量度尺：metre/metric/symmetry）。
+        另并入 placere ← please/pleasant/pleasure，909 词 · 180 词根。
+        两族非拉丁源仍照常立词根（项目已有 hum-onomatopoeia、多个希腊根先例）；
+        裸 germanic 标记只留给查无可建模词根的词（choose/pick/miss 三词）。
+        regula 与已建模的 rect 同出 regere 而分支不同：前者收 regula（直尺）名词一路，
+        后者收分词 rectus 一路（correct/direct），故分立而非合并
 - [x] 第四十六批（21 词，六新词根族 + 3 补词）：cadere（落到头上：incident/
         incidence/incidentally）+ kyklos（轮转一圈：cycle/bicycle/recycle）
         + largus（宽绰有余：large/enlarge/largely）+ maior（更大一方：major/
