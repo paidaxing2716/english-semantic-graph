@@ -2,4 +2,4 @@
 .superpowers/
 
 __pycache__/
-drafts/
+drafts/          # 子代理起草的中间产物，不入库；规格见 docs/germanic-draft-spec.md
