@@ -68,7 +68,10 @@
         "formation",
         "information",
         "uniform",
-        "deform"
+        "deform",
+        "form",
+        "former",
+        "performance"
       ]
     },
     {
@@ -276,7 +279,8 @@
         "transportation",
         "reporter",
         "importance",
-        "porter"
+        "porter",
+        "port"
       ]
     },
     {
@@ -2978,6 +2982,110 @@
         "compact",
         "impact",
         "pact"
+      ]
+    },
+    {
+      "id": "serere",
+      "root": "serere",
+      "variants": [
+        "sert",
+        "ser"
+      ],
+      "origin": "拉丁语 serere（把东西一个接一个编连起来，如串珠、编篱），过去分词 sertus；series（系列）同根",
+      "core_concept": "to join things one after another in a line / 一个接一个串连成列",
+      "core_image": "一根线把珠子一颗接一颗串起来，中间断一颗整串就散",
+      "english_definition": "to join, link in a row",
+      "word_ids": [
+        "assert",
+        "desert",
+        "insert"
+      ]
+    },
+    {
+      "id": "habere",
+      "root": "habere",
+      "variants": [
+        "hibit",
+        "hab"
+      ],
+      "origin": "拉丁语 habere（持有、拿住、保持某状态）；复合词里元音弱化成 -hibēre，故拼作 -hibit（habit/inhabit 亦同源，已另立 habitare 族）",
+      "core_concept": "to hold a thing and decide whether it is let out / 手里拿住，并决定放不放出去",
+      "core_image": "一只手把东西攥着：张开给人看，或收拢不许动",
+      "english_definition": "to hold, keep, have",
+      "word_ids": [
+        "exhibit",
+        "inhibit",
+        "prohibit"
+      ]
+    },
+    {
+      "id": "manus",
+      "root": "manus",
+      "variants": [
+        "man",
+        "manu",
+        "main"
+      ],
+      "origin": "拉丁语 manus（手）；manuālis（手上的）、manuārius 及意大利语 maneggiare（驯马、经手打理）都由此出",
+      "core_concept": "the hand that takes hold and works a thing / 一双上手打理事物的手",
+      "core_image": "一双手把缰绳收在掌里，一收一放都由这双手定",
+      "english_definition": "hand, by hand",
+      "word_ids": [
+        "manage",
+        "manner",
+        "manual"
+      ]
+    },
+    {
+      "id": "structus",
+      "root": "structus",
+      "variants": [
+        "struct",
+        "stru"
+      ],
+      "origin": "拉丁语 struere（一层层垒起来）的过去分词 structus；instruere 本义是「把材料备齐垒上」，引申为教导",
+      "core_concept": "to pile layer on layer into a standing whole / 一层层垒起来，成为立得住的整体",
+      "core_image": "砖一层压一层垒上去，垒到最后自己立得稳",
+      "english_definition": "to pile up, build",
+      "word_ids": [
+        "construction",
+        "destruction",
+        "instruction"
+      ]
+    },
+    {
+      "id": "spatium",
+      "root": "spatium",
+      "variants": [
+        "spac",
+        "spat"
+      ],
+      "origin": "拉丁语 spatium（跨开的距离、场地、一段时间），原与「迈步跨开」相关",
+      "core_concept": "the gap opened up between things / 物与物之间撑开的那段距离",
+      "core_image": "两手向左右撑开，中间空出一段谁也不占的距离",
+      "english_definition": "distance, room, extent",
+      "word_ids": [
+        "space",
+        "spaceship",
+        "spacious"
+      ]
+    },
+    {
+      "id": "stringere",
+      "root": "stringere",
+      "variants": [
+        "strain",
+        "strict",
+        "string"
+      ],
+      "origin": "拉丁语 stringere（拉紧、束紧），过去分词 strictus；strict（严格）、string（弦）同根",
+      "core_concept": "to draw a cord tight so movement is checked / 把绳收紧，使动弹不得",
+      "core_image": "绳子越收越紧，勒在物上，想动也动不了多少",
+      "english_definition": "to draw tight, bind",
+      "word_ids": [
+        "constrain",
+        "restrain",
+        "strain"
       ]
     }
   ]

@@ -11333,6 +11333,314 @@
       "text": "New rules had a real impact on costs.",
       "source": "AI 生成 · 人工审核",
       "scene": "石子砸进水面，波纹一圈圈荡到岸边"
+    },
+    {
+      "id": "ex-assert-1",
+      "word_id": "assert",
+      "text": "She asserted that the data was sound.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把三条依据一条接一条摆上桌，语气不留退路"
+    },
+    {
+      "id": "ex-assert-2",
+      "word_id": "assert",
+      "text": "He asserted his right to speak.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把三条依据一条接一条摆上桌，语气不留退路"
+    },
+    {
+      "id": "ex-desert-1",
+      "word_id": "desert",
+      "text": "He deserted his post before dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍还在原地，他半夜把装备一扔就走了"
+    },
+    {
+      "id": "ex-desert-2",
+      "word_id": "desert",
+      "text": "She felt deserted by her closest friends.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍还在原地，他半夜把装备一扔就走了"
+    },
+    {
+      "id": "ex-insert-1",
+      "word_id": "insert",
+      "text": "Insert the card into the slot.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把新的一颗珠子挑进线上，两边一收又是整串"
+    },
+    {
+      "id": "ex-insert-2",
+      "word_id": "insert",
+      "text": "They inserted a clause into the contract.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把新的一颗珠子挑进线上，两边一收又是整串"
+    },
+    {
+      "id": "ex-exhibit-1",
+      "word_id": "exhibit",
+      "text": "The museum will exhibit her early work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他摊开掌心，把那枚旧币举到灯下让众人看"
+    },
+    {
+      "id": "ex-exhibit-2",
+      "word_id": "exhibit",
+      "text": "He exhibited no sign of fear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他摊开掌心，把那枚旧币举到灯下让众人看"
+    },
+    {
+      "id": "ex-inhibit-1",
+      "word_id": "inhibit",
+      "text": "The drug inhibits the growth of bacteria.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话到嘴边又被咽了回去，掌心攥得更紧"
+    },
+    {
+      "id": "ex-inhibit-2",
+      "word_id": "inhibit",
+      "text": "Fear of failure inhibited her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话到嘴边又被咽了回去，掌心攥得更紧"
+    },
+    {
+      "id": "ex-prohibit-1",
+      "word_id": "prohibit",
+      "text": "The law prohibits smoking indoors.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口那只手一横，牌子上写着不许带火进去"
+    },
+    {
+      "id": "ex-prohibit-2",
+      "word_id": "prohibit",
+      "text": "Signs prohibit entry after dark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口那只手一横，牌子上写着不许带火进去"
+    },
+    {
+      "id": "ex-manage-1",
+      "word_id": "manage",
+      "text": "She manages a team of twelve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "缰绳一紧一松，性子最烈的马也顺着走了"
+    },
+    {
+      "id": "ex-manage-2",
+      "word_id": "manage",
+      "text": "He managed to finish before the deadline.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "缰绳一紧一松，性子最烈的马也顺着走了"
+    },
+    {
+      "id": "ex-manner-1",
+      "word_id": "manner",
+      "text": "He answered in a friendly manner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一道菜，他下刀的手法和别人明显不同"
+    },
+    {
+      "id": "ex-manner-2",
+      "word_id": "manner",
+      "text": "It is bad manners to interrupt.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一道菜，他下刀的手法和别人明显不同"
+    },
+    {
+      "id": "ex-manual-1",
+      "word_id": "manual",
+      "text": "This is manual work, not automated.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器停了，几个人挽起袖子一件件搬；旁边摊着一本翻旧的册子"
+    },
+    {
+      "id": "ex-manual-2",
+      "word_id": "manual",
+      "text": "Check the manual before you start.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器停了，几个人挽起袖子一件件搬；旁边摊着一本翻旧的册子"
+    },
+    {
+      "id": "ex-construction-1",
+      "word_id": "construction",
+      "text": "The bridge is still under construction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚手架一层层往上升，砖也一层层压上去"
+    },
+    {
+      "id": "ex-construction-2",
+      "word_id": "construction",
+      "text": "It is a steel construction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚手架一层层往上升，砖也一层层压上去"
+    },
+    {
+      "id": "ex-destruction-1",
+      "word_id": "destruction",
+      "text": "The storm caused widespread destruction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙体一层层往下塌，最后只余一地碎砖"
+    },
+    {
+      "id": "ex-destruction-2",
+      "word_id": "destruction",
+      "text": "War brought the destruction of the old town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙体一层层往下塌，最后只余一地碎砖"
+    },
+    {
+      "id": "ex-instruction-1",
+      "word_id": "instruction",
+      "text": "Follow the instructions on the label.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "师傅一步一步讲，学徒心里的底子一层层垒实"
+    },
+    {
+      "id": "ex-instruction-2",
+      "word_id": "instruction",
+      "text": "She received instruction in music.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "师傅一步一步讲，学徒心里的底子一层层垒实"
+    },
+    {
+      "id": "ex-space-1",
+      "word_id": "space",
+      "text": "There is space for one more chair.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两本书之间空着一指宽，正好再塞一本进去"
+    },
+    {
+      "id": "ex-space-2",
+      "word_id": "space",
+      "text": "The rocket vanished into space.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两本书之间空着一指宽，正好再塞一本进去"
+    },
+    {
+      "id": "ex-spaceship-1",
+      "word_id": "spaceship",
+      "text": "The spaceship docked with the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舷窗外一片漆黑，船身静静滑过没有风的地方"
+    },
+    {
+      "id": "ex-spaceship-2",
+      "word_id": "spaceship",
+      "text": "Children drew a spaceship on the wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舷窗外一片漆黑，船身静静滑过没有风的地方"
+    },
+    {
+      "id": "ex-spacious-1",
+      "word_id": "spacious",
+      "text": "The flat is bright and spacious.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推门进去，四壁离得老远，脚步声都有回响"
+    },
+    {
+      "id": "ex-spacious-2",
+      "word_id": "spacious",
+      "text": "They crossed a spacious hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "推门进去，四壁离得老远，脚步声都有回响"
+    },
+    {
+      "id": "ex-constrain-1",
+      "word_id": "constrain",
+      "text": "Tight budgets constrain our choices.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四根绳同时收紧，能挪的余地只剩一寸"
+    },
+    {
+      "id": "ex-constrain-2",
+      "word_id": "constrain",
+      "text": "He felt constrained to agree.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四根绳同时收紧，能挪的余地只剩一寸"
+    },
+    {
+      "id": "ex-restrain-1",
+      "word_id": "restrain",
+      "text": "Two officers restrained the man.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他刚要冲上去，绳子似的一只手把他往后一带"
+    },
+    {
+      "id": "ex-restrain-2",
+      "word_id": "restrain",
+      "text": "She restrained her anger.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他刚要冲上去，绳子似的一只手把他往后一带"
+    },
+    {
+      "id": "ex-strain-1",
+      "word_id": "strain",
+      "text": "The rope broke under the strain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子绷得笔直，纤维吱吱作响，眼看要断"
+    },
+    {
+      "id": "ex-strain-2",
+      "word_id": "strain",
+      "text": "He strained a muscle while lifting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "绳子绷得笔直，纤维吱吱作响，眼看要断"
+    },
+    {
+      "id": "ex-form-1",
+      "word_id": "form",
+      "text": "The lake has the form of a crescent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "泥坯在轮盘上转，手一收，边缘就定住了"
+    },
+    {
+      "id": "ex-form-2",
+      "word_id": "form",
+      "text": "Please fill in this form and sign it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "泥坯在轮盘上转，手一收，边缘就定住了"
+    },
+    {
+      "id": "ex-former-1",
+      "word_id": "former",
+      "text": "Her former employer wrote the reference.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个名字并排写着，手指点住上面那个"
+    },
+    {
+      "id": "ex-former-2",
+      "word_id": "former",
+      "text": "Of the two routes, the former is shorter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个名字并排写着，手指点住上面那个"
+    },
+    {
+      "id": "ex-performance-1",
+      "word_id": "performance",
+      "text": "The evening performance starts at eight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "幕布拉开，她把整支曲子一气走完"
+    },
+    {
+      "id": "ex-performance-2",
+      "word_id": "performance",
+      "text": "His performance at work has improved.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "幕布拉开，她把整支曲子一气走完"
+    },
+    {
+      "id": "ex-port-1",
+      "word_id": "port",
+      "text": "The ship reached port before dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "吊臂起落，成箱货物从船舷转到岸上"
+    },
+    {
+      "id": "ex-port-2",
+      "word_id": "port",
+      "text": "Grain is shipped through this port.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "吊臂起落，成箱货物从船舷转到岸上"
     }
   ]
 }

@@ -16,7 +16,7 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余词入库（可结构化的尾声）← 当前：817 词 · 153 词根，vetted 尚余 131 词 / 49 族
+v1.1    剩余词入库（可结构化的尾声）← 当前：839 词 · 159 词根，vetted 尚余 109 词 / 41 族
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
 ```
 
@@ -317,6 +317,16 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十三批（22 词，六新词根族 + 4 补词）：serere（编连）
+        + habere（持有）+ manus（手）+ structus（垒砌）+ spatium（间距）
+        + stringere（拉紧），assert/desert/insert，exhibit/inhibit/prohibit，
+        manage/manner/manual，construction/destruction/instruction，
+        space/spaceship/spacious，constrain/restrain/strain；
+        并入 forma ← form/former/performance、portus ← port，
+        839 词 · 159 词根。desert 按 HANDOFF 风险族 1.1 写明来自 deserere
+        （解开编连而弃置），与甜品 dessert（法语 desservir 清桌）无关；
+        habere 与已有 habitare 族分立，前者收 -hibit 一支。
+        form/port 得以入库，靠的是前一步 forma/portus 词根改名解除自环边
 - [x] 第四十二批（25 词，八新词根族）：hostis（门外来人）+ cernere（筛分）
         + levare（举起）+ musa（缪斯）+ ars（技艺）+ ordo（行列）
         + origo（涌出之源）+ pangere（钉合），host/hostage/hostess/hostile，

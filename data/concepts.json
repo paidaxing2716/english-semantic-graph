@@ -59,7 +59,10 @@
         "formation",
         "information",
         "uniform",
-        "deform"
+        "deform",
+        "form",
+        "former",
+        "performance"
       ]
     },
     {
@@ -241,7 +244,8 @@
         "transportation",
         "reporter",
         "importance",
-        "porter"
+        "porter",
+        "port"
       ]
     },
     {
@@ -2521,6 +2525,90 @@
         "compact",
         "impact",
         "pact"
+      ]
+    },
+    {
+      "id": "concept-serere-link",
+      "concept": "to join things one after another in a line",
+      "chinese": "串连成列",
+      "core_image": "线上珠子一颗接一颗，抽掉一颗整串就散",
+      "root_ids": [
+        "serere"
+      ],
+      "word_ids": [
+        "assert",
+        "desert",
+        "insert"
+      ]
+    },
+    {
+      "id": "concept-habere-hold",
+      "concept": "to hold a thing and decide whether to let it out",
+      "chinese": "攥住取舍",
+      "core_image": "手攥着一物，张开是给人看，收拢是不许动",
+      "root_ids": [
+        "habere"
+      ],
+      "word_ids": [
+        "exhibit",
+        "inhibit",
+        "prohibit"
+      ]
+    },
+    {
+      "id": "concept-manus-hand",
+      "concept": "the hand that takes hold and works a thing",
+      "chinese": "上手打理",
+      "core_image": "缰绳收在掌里，一收一放都由这双手定",
+      "root_ids": [
+        "manus"
+      ],
+      "word_ids": [
+        "manage",
+        "manner",
+        "manual"
+      ]
+    },
+    {
+      "id": "concept-structus-build",
+      "concept": "to pile layer on layer into a standing whole",
+      "chinese": "层层垒起",
+      "core_image": "砖一层压一层垒上去，垒稳了自己立得住",
+      "root_ids": [
+        "structus"
+      ],
+      "word_ids": [
+        "construction",
+        "destruction",
+        "instruction"
+      ]
+    },
+    {
+      "id": "concept-spatium-gap",
+      "concept": "the gap opened up between things",
+      "chinese": "撑开的距离",
+      "core_image": "两手左右撑开，中间空出一段谁也不占的地方",
+      "root_ids": [
+        "spatium"
+      ],
+      "word_ids": [
+        "space",
+        "spaceship",
+        "spacious"
+      ]
+    },
+    {
+      "id": "concept-stringere-tighten",
+      "concept": "to draw a cord tight so movement is checked",
+      "chinese": "收紧勒住",
+      "core_image": "绳子越收越紧勒在物上，想动也动不了多少",
+      "root_ids": [
+        "stringere"
+      ],
+      "word_ids": [
+        "constrain",
+        "restrain",
+        "strain"
       ]
     }
   ]

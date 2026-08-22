@@ -31866,6 +31866,872 @@
         "影响/冲击：那一下过后留在事物上的后果"
       ],
       "recall_hint": "im-（向内）+ pact（钉入）→ 钉进去那一下及其后果"
+    },
+    {
+      "id": "assert",
+      "word": "assert",
+      "pos": "verb",
+      "phonetic": "/əˈsɜːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "serere"
+      ],
+      "root_logic": "as-（ad- 靠向）+ sert（串连）→ 把话一句扣一句地接稳 → 断言",
+      "origin": "拉丁语 asserere（宣称、主张），来自 ad＋serere（连上）",
+      "native_definition": "to state something firmly as true; to make others recognize a right",
+      "core_concept": "linking one's words tight to a claim and standing on it – 把话紧扣在主张上，站定不退",
+      "core_image": "他把三条依据一条接一条摆上桌，语气不留退路",
+      "chinese": [
+        "断言",
+        "声称",
+        "维护"
+      ],
+      "examples": [
+        "She asserted that the data was sound.",
+        "He asserted his right to speak."
+      ],
+      "synonyms": [
+        "declare",
+        "maintain"
+      ],
+      "antonyms": [
+        "deny"
+      ],
+      "related": [
+        "insert",
+        "desert"
+      ],
+      "semantic_expansions": [
+        "断言/声称：把话紧扣在主张上说定",
+        "维护：把自己的权利扣住不放"
+      ],
+      "recall_hint": "as-（靠向）+ sert（串连）→ 把话扣紧在主张上"
+    },
+    {
+      "id": "desert",
+      "word": "desert",
+      "pos": "verb",
+      "phonetic": "/dɪˈzɜːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "serere"
+      ],
+      "root_logic": "de-（脱开）+ sert（串连）→ 把串连解开、撇下不管 → 抛弃",
+      "origin": "拉丁语 deserere（解开连结、弃置），来自 de＋serere；与甜品 dessert（法语 desservir 清桌）无关，勿混",
+      "native_definition": "to abandon someone or something, especially a duty or post",
+      "core_concept": "unhooking oneself from the row and walking off – 把自己从串上解开走掉",
+      "core_image": "队伍还在原地，他半夜把装备一扔就走了",
+      "chinese": [
+        "抛弃",
+        "遗弃",
+        "擅离"
+      ],
+      "examples": [
+        "He deserted his post before dawn.",
+        "She felt deserted by her closest friends."
+      ],
+      "synonyms": [
+        "abandon",
+        "forsake"
+      ],
+      "antonyms": [
+        "support"
+      ],
+      "related": [
+        "assert",
+        "insert"
+      ],
+      "semantic_expansions": [
+        "抛弃/遗弃：把自己从串连中解开、撇下不管",
+        "擅离：擅自脱开本该守住的那一环"
+      ],
+      "recall_hint": "de-（脱开）+ sert（串连）→ 从串上解开走掉"
+    },
+    {
+      "id": "insert",
+      "word": "insert",
+      "pos": "verb",
+      "phonetic": "/ɪnˈsɜːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "serere"
+      ],
+      "root_logic": "in-（进入）+ sert（串连）→ 把一物插进串里、接进队列",
+      "origin": "拉丁语 inserere（插入、嵌进），来自 in＋serere",
+      "native_definition": "to put something into something else, or between other things",
+      "core_concept": "opening the row to let one more link take its place – 把串挑开，让一枚补进那一环",
+      "core_image": "把新的一颗珠子挑进线上，两边一收又是整串",
+      "chinese": [
+        "插入",
+        "嵌入",
+        "刊登"
+      ],
+      "examples": [
+        "Insert the card into the slot.",
+        "They inserted a clause into the contract."
+      ],
+      "synonyms": [
+        "introduce",
+        "embed"
+      ],
+      "antonyms": [
+        "remove",
+        "extract"
+      ],
+      "related": [
+        "assert",
+        "desert"
+      ],
+      "semantic_expansions": [
+        "插入/嵌入：把一物接进串里的那一环",
+        "刊登：把文字插进版面里"
+      ],
+      "recall_hint": "in-（进入）+ sert（串连）→ 插进串里补上一环"
+    },
+    {
+      "id": "exhibit",
+      "word": "exhibit",
+      "pos": "verb",
+      "phonetic": "/ɪɡˈzɪbɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "ex-（向外）+ hibit（持有）→ 把手里的东西拿出来给人看",
+      "origin": "拉丁语 exhibere（拿出、呈现），来自 ex＋habere",
+      "native_definition": "to show something publicly, or to display a quality",
+      "core_concept": "holding a thing out where others may see it – 把攥住的东西伸出去让人看",
+      "core_image": "他摊开掌心，把那枚旧币举到灯下让众人看",
+      "chinese": [
+        "展出",
+        "展示",
+        "表现出"
+      ],
+      "examples": [
+        "The museum will exhibit her early work.",
+        "He exhibited no sign of fear."
+      ],
+      "synonyms": [
+        "display",
+        "show"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide"
+      ],
+      "related": [
+        "inhibit",
+        "prohibit"
+      ],
+      "semantic_expansions": [
+        "展出/展示：把持有之物拿出来给人看",
+        "表现出：把内里的性质显露到外面"
+      ],
+      "recall_hint": "ex-（向外）+ hibit（持有）→ 把手里的拿出来给人看"
+    },
+    {
+      "id": "inhibit",
+      "word": "inhibit",
+      "pos": "verb",
+      "phonetic": "/ɪnˈhɪbɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "in-（向内）+ hibit（持有）→ 往回攥住不放 → 抑制",
+      "origin": "拉丁语 inhibere（拉住、制止），来自 in＋habere",
+      "native_definition": "to hold back a process or feeling; to make someone self-conscious",
+      "core_concept": "keeping the hand closed so the thing cannot come out – 手往回收，使之出不来",
+      "core_image": "话到嘴边又被咽了回去，掌心攥得更紧",
+      "chinese": [
+        "抑制",
+        "阻碍",
+        "使拘束"
+      ],
+      "examples": [
+        "The drug inhibits the growth of bacteria.",
+        "Fear of failure inhibited her."
+      ],
+      "synonyms": [
+        "restrain",
+        "hinder"
+      ],
+      "antonyms": [
+        "encourage",
+        "release"
+      ],
+      "related": [
+        "exhibit",
+        "prohibit"
+      ],
+      "semantic_expansions": [
+        "抑制/阻碍：往回攥住、使发不出来",
+        "使拘束：人被这股回收之力箝住"
+      ],
+      "recall_hint": "in-（向内）+ hibit（持有）→ 往回攥住不放"
+    },
+    {
+      "id": "prohibit",
+      "word": "prohibit",
+      "pos": "verb",
+      "phonetic": "/prəˈhɪbɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "habere"
+      ],
+      "root_logic": "pro-（在前）+ hibit（持有）→ 伸手拦在前面不许过 → 禁止",
+      "origin": "拉丁语 prohibere（拦住、禁止），来自 pro＋habere",
+      "native_definition": "to forbid something formally, especially by law",
+      "core_concept": "an arm held out in front so none may pass – 一臂横在前头，谁也过不去",
+      "core_image": "门口那只手一横，牌子上写着不许带火进去",
+      "chinese": [
+        "禁止",
+        "阻止"
+      ],
+      "examples": [
+        "The law prohibits smoking indoors.",
+        "Signs prohibit entry after dark."
+      ],
+      "synonyms": [
+        "forbid",
+        "ban"
+      ],
+      "antonyms": [
+        "permit",
+        "allow"
+      ],
+      "related": [
+        "exhibit",
+        "inhibit"
+      ],
+      "semantic_expansions": [
+        "禁止/阻止：伸手拦在前面不许通行"
+      ],
+      "recall_hint": "pro-（在前）+ hibit（持有）→ 伸手横拦在前"
+    },
+    {
+      "id": "manage",
+      "word": "manage",
+      "pos": "verb",
+      "phonetic": "/ˈmænɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "manus"
+      ],
+      "root_logic": "man（手）+ -age → 亲手把事牵住打理 → 经营、设法办成",
+      "origin": "意大利语 maneggiare（用手驯马、经手打理），来自拉丁语 manus（手）",
+      "native_definition": "to be in charge of something; to succeed in doing something difficult",
+      "core_concept": "keeping the reins in hand so the thing goes where one wants – 把缰绳握在手里，使其听使唤",
+      "core_image": "缰绳一紧一松，性子最烈的马也顺着走了",
+      "chinese": [
+        "管理",
+        "设法完成",
+        "勉力应付"
+      ],
+      "examples": [
+        "She manages a team of twelve.",
+        "He managed to finish before the deadline."
+      ],
+      "synonyms": [
+        "handle",
+        "administer"
+      ],
+      "antonyms": [
+        "neglect"
+      ],
+      "related": [
+        "manner",
+        "manual"
+      ],
+      "semantic_expansions": [
+        "管理：把事牵在手里打理",
+        "设法完成/勉力应付：手上使力，硬把难事牵成"
+      ],
+      "recall_hint": "man（手）+ -age → 把缰绳握在手里打理"
+    },
+    {
+      "id": "manner",
+      "word": "manner",
+      "pos": "noun",
+      "phonetic": "/ˈmænə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "manus"
+      ],
+      "root_logic": "man（手）+ -er → 上手做一件事的手法 → 方式；复数指待人的举止",
+      "origin": "盎格鲁法语 manere，来自拉丁语 manuarius（手上的）← manus",
+      "native_definition": "the way in which something is done; a person's way of behaving",
+      "core_concept": "the particular way the hand goes about a thing – 那双手上手时的特定手法",
+      "core_image": "同一道菜，他下刀的手法和别人明显不同",
+      "chinese": [
+        "方式",
+        "举止",
+        "礼貌"
+      ],
+      "examples": [
+        "He answered in a friendly manner.",
+        "It is bad manners to interrupt."
+      ],
+      "synonyms": [
+        "way",
+        "behaviour"
+      ],
+      "antonyms": [],
+      "related": [
+        "manage",
+        "manual"
+      ],
+      "semantic_expansions": [
+        "方式：上手做事的那套手法",
+        "举止/礼貌：待人时手上与身上的分寸"
+      ],
+      "recall_hint": "man（手）+ -er → 上手做事的那套手法"
+    },
+    {
+      "id": "manual",
+      "word": "manual",
+      "pos": "adjective",
+      "phonetic": "/ˈmænjuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "manus"
+      ],
+      "root_logic": "manu（手）+ -al（…的）→ 靠手做的；名词指握在手里的那本册子",
+      "origin": "拉丁语 manualis（手上的、便于手持的），来自 manus",
+      "native_definition": "done with the hands rather than by machine; a book of instructions",
+      "core_concept": "what is worked by hand, and the book held in one – 靠手来做的，以及手上拿的那本册子",
+      "core_image": "机器停了，几个人挽起袖子一件件搬；旁边摊着一本翻旧的册子",
+      "chinese": [
+        "手工的",
+        "体力的",
+        "手册"
+      ],
+      "examples": [
+        "This is manual work, not automated.",
+        "Check the manual before you start."
+      ],
+      "synonyms": [
+        "handmade",
+        "handbook"
+      ],
+      "antonyms": [
+        "automatic"
+      ],
+      "related": [
+        "manage",
+        "manner"
+      ],
+      "semantic_expansions": [
+        "手工的/体力的：靠一双手来做的",
+        "手册：可握在手里翻的那本说明"
+      ],
+      "recall_hint": "manu（手）+ -al → 靠手做的，及手持的那本册子"
+    },
+    {
+      "id": "construction",
+      "word": "construction",
+      "pos": "noun",
+      "phonetic": "/kənˈstrʌkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "structus"
+      ],
+      "root_logic": "con-（一起）+ struct（垒）+ -ion → 把材料一并垒起来这件事，及垒成之物",
+      "origin": "拉丁语 constructio（构筑），来自 construere（垒建）← con＋struere",
+      "native_definition": "the act of building something, or the thing built",
+      "core_concept": "the piling of parts together until it stands – 各部分一并垒起、直到立住",
+      "core_image": "脚手架一层层往上升，砖也一层层压上去",
+      "chinese": [
+        "建造",
+        "建筑物",
+        "结构"
+      ],
+      "examples": [
+        "The bridge is still under construction.",
+        "It is a steel construction."
+      ],
+      "synonyms": [
+        "building",
+        "assembly"
+      ],
+      "antonyms": [
+        "destruction"
+      ],
+      "related": [
+        "destruction",
+        "instruction"
+      ],
+      "semantic_expansions": [
+        "建造：把材料一并垒起的过程",
+        "建筑物/结构：垒起来立住的那个整体"
+      ],
+      "recall_hint": "con-（一起）+ struct（垒）+ -ion → 一并垒起、立成整体"
+    },
+    {
+      "id": "destruction",
+      "word": "destruction",
+      "pos": "noun",
+      "phonetic": "/dɪˈstrʌkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "structus"
+      ],
+      "root_logic": "de-（向下）+ struct（垒）+ -ion → 把垒起来的一层层拆掉推倒",
+      "origin": "拉丁语 destructio（拆毁），来自 destruere（拆垒）← de＋struere",
+      "native_definition": "the act of ruining something completely",
+      "core_concept": "the pile taken back down until nothing stands – 把垒起的一层层卸到什么都不剩",
+      "core_image": "墙体一层层往下塌，最后只余一地碎砖",
+      "chinese": [
+        "破坏",
+        "摧毁",
+        "毁灭"
+      ],
+      "examples": [
+        "The storm caused widespread destruction.",
+        "War brought the destruction of the old town."
+      ],
+      "synonyms": [
+        "ruin",
+        "demolition"
+      ],
+      "antonyms": [
+        "construction",
+        "creation"
+      ],
+      "related": [
+        "construction",
+        "instruction"
+      ],
+      "semantic_expansions": [
+        "破坏/摧毁：把垒起之物一层层卸掉推倒",
+        "毁灭：卸到什么也不剩"
+      ],
+      "recall_hint": "de-（向下）+ struct（垒）+ -ion → 把垒起的拆到不剩"
+    },
+    {
+      "id": "instruction",
+      "word": "instruction",
+      "pos": "noun",
+      "phonetic": "/ɪnˈstrʌkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "structus"
+      ],
+      "root_logic": "in-（向内）+ struct（垒）+ -ion → 往人心里一层层垒进去 → 教导、指示",
+      "origin": "拉丁语 instructio（备置、教导），来自 instruere（备齐垒上）← in＋struere",
+      "native_definition": "teaching, or a statement telling someone what to do",
+      "core_concept": "laying knowledge in course by course inside someone – 往人里头一层层垒进去",
+      "core_image": "师傅一步一步讲，学徒心里的底子一层层垒实",
+      "chinese": [
+        "指示",
+        "说明",
+        "教导"
+      ],
+      "examples": [
+        "Follow the instructions on the label.",
+        "She received instruction in music."
+      ],
+      "synonyms": [
+        "direction",
+        "teaching"
+      ],
+      "antonyms": [],
+      "related": [
+        "construction",
+        "destruction"
+      ],
+      "semantic_expansions": [
+        "指示/说明：把该怎么做一层层交代进去",
+        "教导：把学问往人心里垒实"
+      ],
+      "recall_hint": "in-（向内）+ struct（垒）+ -ion → 往人心里一层层垒进去"
+    },
+    {
+      "id": "space",
+      "word": "space",
+      "pos": "noun",
+      "phonetic": "/speɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "spatium"
+      ],
+      "root_logic": "spatium（跨开的距离）→ 物之间空出的地方；引申为大气之外那片空阔",
+      "origin": "古法语 espace，来自拉丁语 spatium（距离、场地）",
+      "native_definition": "an empty area available for use; the region beyond the earth's air",
+      "core_concept": "the emptiness left open between things – 物与物之间留着的那段空",
+      "core_image": "两本书之间空着一指宽，正好再塞一本进去",
+      "chinese": [
+        "空间",
+        "地方",
+        "太空"
+      ],
+      "examples": [
+        "There is space for one more chair.",
+        "The rocket vanished into space."
+      ],
+      "synonyms": [
+        "room",
+        "gap"
+      ],
+      "antonyms": [],
+      "related": [
+        "spacious",
+        "spaceship"
+      ],
+      "semantic_expansions": [
+        "空间/地方：物之间空出可用的那段",
+        "太空：大气之外那片空阔无物之处"
+      ],
+      "recall_hint": "spatium（跨开的距离）→ 物之间空出的那段"
+    },
+    {
+      "id": "spaceship",
+      "word": "spaceship",
+      "pos": "noun",
+      "phonetic": "/ˈspeɪsʃɪp/",
+      "decomposable": "root",
+      "root_ids": [
+        "spatium"
+      ],
+      "root_logic": "space（太空）+ ship（船）→ 在那片空阔里航行的船",
+      "origin": "英语复合词 space＋ship，20 世纪初随航天想象出现",
+      "native_definition": "a vehicle used for travelling beyond the earth's air",
+      "core_concept": "a vessel that sails the open emptiness – 在那片空阔里航行的船",
+      "core_image": "舷窗外一片漆黑，船身静静滑过没有风的地方",
+      "chinese": [
+        "宇宙飞船",
+        "太空船"
+      ],
+      "examples": [
+        "The spaceship docked with the station.",
+        "Children drew a spaceship on the wall."
+      ],
+      "synonyms": [
+        "spacecraft",
+        "rocket"
+      ],
+      "antonyms": [],
+      "related": [
+        "space",
+        "spacious"
+      ],
+      "semantic_expansions": [
+        "宇宙飞船/太空船：在那片空阔里航行的船"
+      ],
+      "recall_hint": "space（那片空阔）+ ship（船）→ 在其中航行的船"
+    },
+    {
+      "id": "spacious",
+      "word": "spacious",
+      "pos": "adjective",
+      "phonetic": "/ˈspeɪʃəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "spatium"
+      ],
+      "root_logic": "spac（距离）+ -ious（多…的）→ 空出的距离足够多的",
+      "origin": "拉丁语 spatiosus（宽阔的），来自 spatium",
+      "native_definition": "having plenty of room inside",
+      "core_concept": "holding a wide gap within, nothing pressing – 内里撑得开，四下不挤",
+      "core_image": "推门进去，四壁离得老远，脚步声都有回响",
+      "chinese": [
+        "宽敞的",
+        "广阔的"
+      ],
+      "examples": [
+        "The flat is bright and spacious.",
+        "They crossed a spacious hall."
+      ],
+      "synonyms": [
+        "roomy",
+        "vast"
+      ],
+      "antonyms": [
+        "cramped",
+        "narrow"
+      ],
+      "related": [
+        "space",
+        "spaceship"
+      ],
+      "semantic_expansions": [
+        "宽敞的/广阔的：内里撑开的距离足够多"
+      ],
+      "recall_hint": "spac（距离）+ -ious（多…的）→ 内里撑得开、不挤"
+    },
+    {
+      "id": "constrain",
+      "word": "constrain",
+      "pos": "verb",
+      "phonetic": "/kənˈstreɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "con-（加强）+ strain（拉紧）→ 四面收紧，把人限在窄处",
+      "origin": "古法语 constraindre，来自拉丁语 constringere（束紧）← con＋stringere",
+      "native_definition": "to limit someone's freedom of action; to force a course",
+      "core_concept": "cords drawn tight on every side so only one way is left – 四面收紧，只剩一条路可走",
+      "core_image": "四根绳同时收紧，能挪的余地只剩一寸",
+      "chinese": [
+        "限制",
+        "约束",
+        "强迫"
+      ],
+      "examples": [
+        "Tight budgets constrain our choices.",
+        "He felt constrained to agree."
+      ],
+      "synonyms": [
+        "restrict",
+        "compel"
+      ],
+      "antonyms": [
+        "free",
+        "release"
+      ],
+      "related": [
+        "restrain",
+        "strain"
+      ],
+      "semantic_expansions": [
+        "限制/约束：四面收紧、余地被勒小",
+        "强迫：紧到只剩一条路可走"
+      ],
+      "recall_hint": "con-（加强）+ strain（拉紧）→ 四面收紧、只剩一条路"
+    },
+    {
+      "id": "restrain",
+      "word": "restrain",
+      "pos": "verb",
+      "phonetic": "/rɪˈstreɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "re-（往回）+ strain（拉紧）→ 往回一拽收住 → 拦住、克制",
+      "origin": "古法语 restraindre，来自拉丁语 restringere（拉回束住）← re＋stringere",
+      "native_definition": "to hold someone or something back; to keep a feeling in check",
+      "core_concept": "pulling the cord back to check something mid-motion – 往回一拽，把正要动的收住",
+      "core_image": "他刚要冲上去，绳子似的一只手把他往后一带",
+      "chinese": [
+        "制止",
+        "拦住",
+        "克制"
+      ],
+      "examples": [
+        "Two officers restrained the man.",
+        "She restrained her anger."
+      ],
+      "synonyms": [
+        "hold back",
+        "curb"
+      ],
+      "antonyms": [
+        "release",
+        "provoke"
+      ],
+      "related": [
+        "constrain",
+        "strain"
+      ],
+      "semantic_expansions": [
+        "制止/拦住：往回一拽把正动的收住",
+        "克制：把自己的情绪往回收紧"
+      ],
+      "recall_hint": "re-（往回）+ strain（拉紧）→ 往回拽住收停"
+    },
+    {
+      "id": "strain",
+      "word": "strain",
+      "pos": "noun / verb",
+      "phonetic": "/streɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "strain（拉紧）→ 被拉紧时承的那股劲，及拉过头造成的伤",
+      "origin": "古法语 estreindre，来自拉丁语 stringere（拉紧）",
+      "native_definition": "force pulling on something; pressure on a person; to injure by overstretching",
+      "core_concept": "the pull borne by a cord stretched near its limit – 绷到将断时那根绳承着的劲",
+      "core_image": "绳子绷得笔直，纤维吱吱作响，眼看要断",
+      "chinese": [
+        "拉力",
+        "压力",
+        "拉伤"
+      ],
+      "examples": [
+        "The rope broke under the strain.",
+        "He strained a muscle while lifting."
+      ],
+      "synonyms": [
+        "tension",
+        "pressure"
+      ],
+      "antonyms": [
+        "relaxation"
+      ],
+      "related": [
+        "constrain",
+        "restrain"
+      ],
+      "semantic_expansions": [
+        "拉力/压力：被拉紧时承着的那股劲",
+        "拉伤：拉过了头、绷出来的伤"
+      ],
+      "recall_hint": "strain（拉紧）→ 绷紧时承的劲，绷过头即伤"
+    },
+    {
+      "id": "form",
+      "word": "form",
+      "pos": "noun / verb",
+      "phonetic": "/fɔːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "forma"
+      ],
+      "root_logic": "forma（形状、模子）→ 物体的外廓；引申为定下来的规范式样，及使之成形",
+      "origin": "古法语 forme，来自拉丁语 forma（形状、模子）",
+      "native_definition": "the shape of something; a printed sheet with blanks to fill; to bring into shape",
+      "core_concept": "the outline a thing settles into – 事物定下来的那个外廓",
+      "core_image": "泥坯在轮盘上转，手一收，边缘就定住了",
+      "chinese": [
+        "形状",
+        "形式",
+        "表格"
+      ],
+      "examples": [
+        "The lake has the form of a crescent.",
+        "Please fill in this form and sign it."
+      ],
+      "synonyms": [
+        "shape",
+        "structure"
+      ],
+      "antonyms": [],
+      "related": [
+        "formal",
+        "perform"
+      ],
+      "semantic_expansions": [
+        "形状/形式：事物定下来的那个外廓",
+        "表格：把要填之项定成规范式样的那张纸"
+      ],
+      "recall_hint": "forma（形状、模子）→ 定下来的外廓与式样"
+    },
+    {
+      "id": "former",
+      "word": "former",
+      "pos": "adjective",
+      "phonetic": "/ˈfɔːmə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "forma"
+      ],
+      "root_logic": "forma（最先的）+ -er（比较）→ 两者之中在先的那个",
+      "origin": "中古英语 formere，来自古英语 forma（最先的）；与 forma（形状）同形，此处取「最先」一支",
+      "native_definition": "of an earlier time; the first of two things mentioned",
+      "core_concept": "the one standing earlier in the line of two – 两者并列时在先的那个",
+      "core_image": "两个名字并排写着，手指点住上面那个",
+      "chinese": [
+        "以前的",
+        "前者的"
+      ],
+      "examples": [
+        "Her former employer wrote the reference.",
+        "Of the two routes, the former is shorter."
+      ],
+      "synonyms": [
+        "previous",
+        "earlier"
+      ],
+      "antonyms": [
+        "latter"
+      ],
+      "related": [
+        "form",
+        "formal"
+      ],
+      "semantic_expansions": [
+        "以前的/前者的：两者并列时处在先的那个"
+      ],
+      "recall_hint": "forma（最先的）+ -er → 两者中在先的那个"
+    },
+    {
+      "id": "performance",
+      "word": "performance",
+      "pos": "noun",
+      "phonetic": "/pəˈfɔːməns/",
+      "decomposable": "root",
+      "root_ids": [
+        "forma"
+      ],
+      "root_logic": "per-（彻底）+ form（成形）+ -ance → 把一件事彻底做成形 → 当众做完的一场，及成效",
+      "origin": "盎格鲁法语 parfourmance，来自 parfournir（彻底完成）← per＋fournir，后受 form 影响改拼",
+      "native_definition": "an act of presenting a play or music before an audience; how well someone does something",
+      "core_concept": "carrying a thing through until it stands fully formed – 把一件事一路做到彻底成形",
+      "core_image": "幕布拉开，她把整支曲子一气走完",
+      "chinese": [
+        "表演",
+        "演出",
+        "表现"
+      ],
+      "examples": [
+        "The evening performance starts at eight.",
+        "His performance at work has improved."
+      ],
+      "synonyms": [
+        "show",
+        "achievement"
+      ],
+      "antonyms": [],
+      "related": [
+        "perform",
+        "form"
+      ],
+      "semantic_expansions": [
+        "表演/演出：当众把一件事彻底做成形的那一场",
+        "表现：把事做到什么成形程度，即成效"
+      ],
+      "recall_hint": "per-（彻底）+ form（成形）→ 彻底做成形的一场与其成效"
+    },
+    {
+      "id": "port",
+      "word": "port",
+      "pos": "noun",
+      "phonetic": "/pɔːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "portus"
+      ],
+      "root_logic": "portus（港、门道）与 portare（运送）同族 → 货物由船转陆的那个口",
+      "origin": "拉丁语 portus（港口、门道），与 portare（运送）同族",
+      "native_definition": "a town or place where ships load and unload",
+      "core_concept": "the mouth where goods pass between ship and shore – 货物在船与岸之间过渡的那个口",
+      "core_image": "吊臂起落，成箱货物从船舷转到岸上",
+      "chinese": [
+        "港口",
+        "口岸"
+      ],
+      "examples": [
+        "The ship reached port before dawn.",
+        "Grain is shipped through this port."
+      ],
+      "synonyms": [
+        "harbour",
+        "dock"
+      ],
+      "antonyms": [
+        "inland"
+      ],
+      "related": [
+        "import",
+        "export"
+      ],
+      "semantic_expansions": [
+        "港口/口岸：货物在船与岸之间过渡的那个口"
+      ],
+      "recall_hint": "portus（港、门道）→ 货物由船转陆的那个口"
     }
   ]
 }

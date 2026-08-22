@@ -4992,6 +4992,138 @@
       "to": "impact",
       "type": "root",
       "note": "im-（in- 向内）+ pact（钉入）→ 直钉进去的那一下 → 撞击及其后果"
+    },
+    {
+      "from": "serere",
+      "to": "assert",
+      "type": "root",
+      "note": "as-（ad- 靠向）+ sert（串连）→ 把话一句扣一句地接稳 → 断言"
+    },
+    {
+      "from": "serere",
+      "to": "desert",
+      "type": "root",
+      "note": "de-（脱开）+ sert（串连）→ 把串连解开、撇下不管 → 抛弃"
+    },
+    {
+      "from": "serere",
+      "to": "insert",
+      "type": "root",
+      "note": "in-（进入）+ sert（串连）→ 把一物插进串里、接进队列"
+    },
+    {
+      "from": "habere",
+      "to": "exhibit",
+      "type": "root",
+      "note": "ex-（向外）+ hibit（持有）→ 把手里的东西拿出来给人看"
+    },
+    {
+      "from": "habere",
+      "to": "inhibit",
+      "type": "root",
+      "note": "in-（向内）+ hibit（持有）→ 往回攥住不放 → 抑制"
+    },
+    {
+      "from": "habere",
+      "to": "prohibit",
+      "type": "root",
+      "note": "pro-（在前）+ hibit（持有）→ 伸手拦在前面不许过 → 禁止"
+    },
+    {
+      "from": "manus",
+      "to": "manage",
+      "type": "root",
+      "note": "man（手）+ -age → 亲手把事牵住打理 → 经营、设法办成"
+    },
+    {
+      "from": "manus",
+      "to": "manner",
+      "type": "root",
+      "note": "man（手）+ -er → 上手做一件事的手法 → 方式；复数指待人的举止"
+    },
+    {
+      "from": "manus",
+      "to": "manual",
+      "type": "root",
+      "note": "manu（手）+ -al（…的）→ 靠手做的；名词指握在手里的那本册子"
+    },
+    {
+      "from": "structus",
+      "to": "construction",
+      "type": "root",
+      "note": "con-（一起）+ struct（垒）+ -ion → 把材料一并垒起来这件事，及垒成之物"
+    },
+    {
+      "from": "structus",
+      "to": "destruction",
+      "type": "root",
+      "note": "de-（向下）+ struct（垒）+ -ion → 把垒起来的一层层拆掉推倒"
+    },
+    {
+      "from": "structus",
+      "to": "instruction",
+      "type": "root",
+      "note": "in-（向内）+ struct（垒）+ -ion → 往人心里一层层垒进去 → 教导、指示"
+    },
+    {
+      "from": "spatium",
+      "to": "space",
+      "type": "root",
+      "note": "spatium（跨开的距离）→ 物之间空出的地方；引申为大气之外那片空阔"
+    },
+    {
+      "from": "spatium",
+      "to": "spaceship",
+      "type": "root",
+      "note": "space（太空）+ ship（船）→ 在那片空阔里航行的船"
+    },
+    {
+      "from": "spatium",
+      "to": "spacious",
+      "type": "root",
+      "note": "spac（距离）+ -ious（多…的）→ 空出的距离足够多的"
+    },
+    {
+      "from": "stringere",
+      "to": "constrain",
+      "type": "root",
+      "note": "con-（加强）+ strain（拉紧）→ 四面收紧，把人限在窄处"
+    },
+    {
+      "from": "stringere",
+      "to": "restrain",
+      "type": "root",
+      "note": "re-（往回）+ strain（拉紧）→ 往回一拽收住 → 拦住、克制"
+    },
+    {
+      "from": "stringere",
+      "to": "strain",
+      "type": "root",
+      "note": "strain（拉紧）→ 被拉紧时承的那股劲，及拉过头造成的伤"
+    },
+    {
+      "from": "forma",
+      "to": "form",
+      "type": "root",
+      "note": "forma（形状、模子）→ 物体的外廓；引申为定下来的规范式样，及使之成形"
+    },
+    {
+      "from": "forma",
+      "to": "former",
+      "type": "root",
+      "note": "forma（最先的）+ -er（比较）→ 两者之中在先的那个"
+    },
+    {
+      "from": "forma",
+      "to": "performance",
+      "type": "root",
+      "note": "per-（彻底）+ form（成形）+ -ance → 把一件事彻底做成形 → 当众做完的一场，及成效"
+    },
+    {
+      "from": "portus",
+      "to": "port",
+      "type": "root",
+      "note": "portus（港、门道）与 portare（运送）同族 → 货物由船转陆的那个口"
     }
   ]
 }
