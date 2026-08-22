@@ -5292,6 +5292,132 @@
       "to": "proportion",
       "type": "root",
       "note": "pro-（按照）+ portio（份）→ 按份切分后各占的那一份 → 比例"
+    },
+    {
+      "from": "cadere",
+      "to": "incident",
+      "type": "root",
+      "note": "in-（落到…上）+ cid（落下）+ -ent → 落到日常里头的那一桩"
+    },
+    {
+      "from": "cadere",
+      "to": "incidence",
+      "type": "root",
+      "note": "incident（落下之事）+ -ence → 落下来的频密程度 → 发生的多寡"
+    },
+    {
+      "from": "cadere",
+      "to": "incidentally",
+      "type": "root",
+      "note": "incidental（顺带落下的）+ -ly → 顺着话头落下来一句 → 顺便说"
+    },
+    {
+      "from": "kyklos",
+      "to": "cycle",
+      "type": "root",
+      "note": "kyklos（圆圈）→ 转回原处的一整圈 → 周期；也指骑那两个轮子"
+    },
+    {
+      "from": "kyklos",
+      "to": "bicycle",
+      "type": "root",
+      "note": "bi-（二）+ cycl（轮）+ -e → 两个轮子的车"
+    },
+    {
+      "from": "kyklos",
+      "to": "recycle",
+      "type": "root",
+      "note": "re-（再）+ cycl（转一圈）+ -e → 让它再转一圈回来 → 回收再用"
+    },
+    {
+      "from": "largus",
+      "to": "large",
+      "type": "root",
+      "note": "largus（宽绰有余）→ 体量占得开、不局促"
+    },
+    {
+      "from": "largus",
+      "to": "enlarge",
+      "type": "root",
+      "note": "en-（使…）+ large（宽绰）→ 使它占得更开 → 扩大、放大"
+    },
+    {
+      "from": "largus",
+      "to": "largely",
+      "type": "root",
+      "note": "large（大部分）+ -ly → 占着大头地 → 主要、多半"
+    },
+    {
+      "from": "maior",
+      "to": "major",
+      "type": "root",
+      "note": "maior（更大的）→ 相比之下更要紧的；名词指主修的那一门"
+    },
+    {
+      "from": "maior",
+      "to": "majority",
+      "type": "root",
+      "note": "major（更大的）+ -ity → 更大的那一部分 → 多数"
+    },
+    {
+      "from": "maior",
+      "to": "majesty",
+      "type": "root",
+      "note": "maior（更大）→ maiestas（尊大）→ 令人仰视的气派；亦作君主尊称"
+    },
+    {
+      "from": "numerus",
+      "to": "numerous",
+      "type": "root",
+      "note": "numer（数目）+ -ous（多…的）→ 数目多的"
+    },
+    {
+      "from": "numerus",
+      "to": "numerical",
+      "type": "root",
+      "note": "numer（数目）+ -ical（…的）→ 用数目表示的、按数计的"
+    },
+    {
+      "from": "numerus",
+      "to": "innumerable",
+      "type": "root",
+      "note": "in-（不）+ numer（数）+ -able（可…的）→ 数不过来的"
+    },
+    {
+      "from": "logos",
+      "to": "apology",
+      "type": "root",
+      "note": "apo-（离开、退开）+ log（说辞）→ 退一步把话说开 → 认过的说辞"
+    },
+    {
+      "from": "logos",
+      "to": "apologise",
+      "type": "root",
+      "note": "apology（认过的说辞）+ -ise（使、行）→ 把那番话说出来"
+    },
+    {
+      "from": "logos",
+      "to": "biology",
+      "type": "root",
+      "note": "bio-（生命）+ -logy（条理、学科）→ 讲清生命之理的那门学问"
+    },
+    {
+      "from": "ponere",
+      "to": "post",
+      "type": "root",
+      "note": "positum（被放置的）→ 沿路安置的驿站 → 邮政；被安置的位子 → 职位"
+    },
+    {
+      "from": "ponere",
+      "to": "postage",
+      "type": "root",
+      "note": "post（驿站接力）+ -age（费用）→ 走这套接力所付的钱"
+    },
+    {
+      "from": "ponere",
+      "to": "posture",
+      "type": "root",
+      "note": "positura（放置的样子）→ 身体摆放的姿态"
     }
   ]
 }

@@ -1,0 +1,942 @@
+{
+  "roots": [
+    {
+      "id": "cadere",
+      "root": "cadere",
+      "variants": [
+        "cid",
+        "cad",
+        "cas"
+      ],
+      "origin": "拉丁语 cadere（落下、掉下来），过去分词 casus；incidere（in＋cadere）本义是「落到某处上头」，引申为事情落下来发生",
+      "core_concept": "to fall upon, to come down on something / 落到某处上头",
+      "core_image": "一颗东西从高处掉下来，正砸在路当中",
+      "english_definition": "to fall, drop"
+    },
+    {
+      "id": "kyklos",
+      "root": "kyklos",
+      "variants": [
+        "cycl",
+        "cycle"
+      ],
+      "origin": "希腊语 kyklos（圆圈、轮子）经拉丁语 cyclus 入英语；轮子转一整圈回到原处，是这一族的共同意象",
+      "core_concept": "a wheel coming round to where it began / 转一圈又回到起点的轮",
+      "core_image": "轮子滚过一整圈，气门嘴又回到贴地那一点",
+      "english_definition": "circle, wheel"
+    },
+    {
+      "id": "largus",
+      "root": "largus",
+      "variants": [
+        "larg",
+        "large"
+      ],
+      "origin": "拉丁语 largus（丰足的、宽绰的），本义偏「给得出、有余裕」，英语 large 早期也表「宽绰」，后才专指体量",
+      "core_concept": "having room and to spare / 宽绰有余、装得下还有空",
+      "core_image": "一只箱子装完东西还空着半截，盖子轻轻就合上",
+      "english_definition": "abundant, ample, roomy"
+    },
+    {
+      "id": "maior",
+      "root": "maior",
+      "variants": [
+        "maj",
+        "major"
+      ],
+      "origin": "拉丁语 maior（更大的，magnus 的比较级）；maiestas（尊大、威仪）由此出，英语 major/majority/majesty 同循此路",
+      "core_concept": "the greater of what is compared / 相比之下更大的那一方",
+      "core_image": "一棵树上最粗那根枝，别的枝都从它分出去",
+      "english_definition": "greater, larger"
+    },
+    {
+      "id": "numerus",
+      "root": "numerus",
+      "variants": [
+        "numer",
+        "num"
+      ],
+      "origin": "拉丁语 numerus（数目、数），numerare（计数）由此出；英语 number 同源，本族收 -numer- 一支的派生词",
+      "core_concept": "the count that can be told off one by one / 能一个一个点数出来的数目",
+      "core_image": "手指点着东西一件件数过去，嘴里跟着报数",
+      "english_definition": "number, count"
+    },
+    {
+      "id": "logos",
+      "root": "logos",
+      "variants": [
+        "log",
+        "logy",
+        "logue"
+      ],
+      "origin": "希腊语 logos（话语、道理、条理），legein（说）的名词形；-logy 作学科后缀即「关于某物的条理」。vetted 族名作 olog，那是词干提取切出的假词根：真正共用的是 logos",
+      "core_concept": "words that give an account of something / 把一件事说出条理来",
+      "core_image": "一个人开口把事情从头理到尾，听的人跟得上",
+      "english_definition": "word, speech, reasoned account"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-cadere-fall",
+      "concept": "to fall upon, to come down on something",
+      "chinese": "落到头上",
+      "core_image": "东西自高处掉下，正砸在路当中",
+      "root_ids": [
+        "cadere"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-kyklos-wheel",
+      "concept": "a wheel coming round to where it began",
+      "chinese": "轮转一圈",
+      "core_image": "轮子滚满一圈，气门嘴又回到贴地那一点",
+      "root_ids": [
+        "kyklos"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-largus-ample",
+      "concept": "having room and to spare",
+      "chinese": "宽绰有余",
+      "core_image": "箱子装完还空着半截，盖子轻轻就合上",
+      "root_ids": [
+        "largus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-maior-greater",
+      "concept": "the greater of what is compared",
+      "chinese": "更大一方",
+      "core_image": "树上最粗那根枝，别的枝都由它分出",
+      "root_ids": [
+        "maior"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-numerus-count",
+      "concept": "the count that can be told off one by one",
+      "chinese": "逐一点数",
+      "core_image": "手指点着一件件数过去，嘴里跟着报数",
+      "root_ids": [
+        "numerus"
+      ],
+      "word_ids": []
+    },
+    {
+      "id": "concept-logos-account",
+      "concept": "words that give an account of something",
+      "chinese": "说出条理",
+      "core_image": "开口把事情从头理到尾，听的人跟得上",
+      "root_ids": [
+        "logos"
+      ],
+      "word_ids": []
+    }
+  ],
+  "domain_add": {
+    "domain-transfer": [
+      "cadere"
+    ],
+    "domain-shape": [
+      "kyklos",
+      "largus",
+      "maior"
+    ],
+    "domain-perceive": [
+      "numerus",
+      "logos"
+    ]
+  },
+  "words": [
+    {
+      "id": "incident",
+      "word": "incident",
+      "pos": "noun",
+      "phonetic": "/ˈɪnsɪdənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "in-（落到…上）+ cid（落下）+ -ent → 落到日常里头的那一桩",
+      "origin": "拉丁语 incidens（落在上头的），来自 incidere ← in＋cadere（落下）",
+      "native_definition": "an event, especially an unpleasant or unusual one",
+      "core_concept": "the one thing that came down into an otherwise plain day – 落进平常日子里的那一桩",
+      "core_image": "路当中忽然砸下一样东西，行人全停下来看",
+      "chinese": [
+        "事件",
+        "事变"
+      ],
+      "examples": [
+        "The incident was reported to the police.",
+        "No one was hurt in the incident."
+      ],
+      "synonyms": [
+        "event",
+        "occurrence"
+      ],
+      "antonyms": [],
+      "related": [
+        "incidence",
+        "incidentally"
+      ],
+      "semantic_expansions": [
+        "事件/事变：落进平常日子里的那一桩"
+      ],
+      "recall_hint": "in-（落到上）+ cid（落下）→ 落进日子里的那一桩"
+    },
+    {
+      "id": "incidence",
+      "word": "incidence",
+      "pos": "noun",
+      "phonetic": "/ˈɪnsɪdəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "incident（落下之事）+ -ence → 落下来的频密程度 → 发生的多寡",
+      "origin": "拉丁语 incidentia，来自 incidere（落到上头）",
+      "native_definition": "the rate at which something happens, especially something unwanted",
+      "core_concept": "how thickly such fallings come down over a stretch – 一段里头落下多密",
+      "core_image": "雨点打在窗台上，一阵密一阵疏，数得出快慢",
+      "chinese": [
+        "发生率",
+        "发生频率"
+      ],
+      "examples": [
+        "The incidence of the disease has fallen.",
+        "There is a high incidence of theft here."
+      ],
+      "synonyms": [
+        "rate",
+        "frequency"
+      ],
+      "antonyms": [],
+      "related": [
+        "incident",
+        "incidentally"
+      ],
+      "semantic_expansions": [
+        "发生率/发生频率：这类事落下来的密度"
+      ],
+      "recall_hint": "incident（落下之事）+ -ence → 落下来有多密"
+    },
+    {
+      "id": "incidentally",
+      "word": "incidentally",
+      "pos": "adverb",
+      "phonetic": "/ˌɪnsɪˈdentli/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "incidental（顺带落下的）+ -ly → 顺着话头落下来一句 → 顺便说",
+      "origin": "英语 incidentally，来自 incidental ← incident",
+      "native_definition": "used to add a remark not connected to the main point",
+      "core_concept": "a word that drops in alongside, not the thing one came to say – 顺着旁边落下来的一句，不是正题",
+      "core_image": "话说到一半，他顺口带出一句不相干的",
+      "chinese": [
+        "顺便说",
+        "偶然地"
+      ],
+      "examples": [
+        "Incidentally, I saw her yesterday.",
+        "The two met quite incidentally."
+      ],
+      "synonyms": [
+        "casually"
+      ],
+      "antonyms": [
+        "deliberately"
+      ],
+      "related": [
+        "incident",
+        "incidence"
+      ],
+      "semantic_expansions": [
+        "顺便说：顺着话头旁落下来的一句",
+        "偶然地：不是安排好、恰巧落下的"
+      ],
+      "recall_hint": "incidental（顺带落下）+ -ly → 顺着旁边落下一句"
+    },
+    {
+      "id": "cycle",
+      "word": "cycle",
+      "pos": "noun / verb",
+      "phonetic": "/ˈsaɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "kyklos"
+      ],
+      "root_logic": "kyklos（圆圈）→ 转回原处的一整圈 → 周期；也指骑那两个轮子",
+      "origin": "拉丁语 cyclus，来自希腊语 kyklos（圆圈、轮）",
+      "native_definition": "a set of events repeating in the same order; to ride a bicycle",
+      "core_concept": "one full turn that ends where it started – 转满一圈、终点又是起点",
+      "core_image": "四季走一遍，又回到落第一场雪的那几天",
+      "chinese": [
+        "周期",
+        "循环",
+        "骑车"
+      ],
+      "examples": [
+        "The washing machine has a short cycle.",
+        "She cycles to work every day."
+      ],
+      "synonyms": [
+        "round",
+        "sequence"
+      ],
+      "antonyms": [],
+      "related": [
+        "bicycle",
+        "recycle"
+      ],
+      "semantic_expansions": [
+        "周期/循环：转满一圈又回到起点",
+        "骑车：踩着轮子转圈前行"
+      ],
+      "recall_hint": "kyklos（圆圈）→ 转回原处的一整圈"
+    },
+    {
+      "id": "bicycle",
+      "word": "bicycle",
+      "pos": "noun",
+      "phonetic": "/ˈbaɪsɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "kyklos"
+      ],
+      "root_logic": "bi-（二）+ cycl（轮）+ -e → 两个轮子的车",
+      "origin": "法语 bicycle，由拉丁 bi-（二）＋希腊 kyklos（轮）合成，19 世纪造词",
+      "native_definition": "a vehicle with two wheels that one pedals",
+      "core_concept": "the frame that rides on two turning circles – 架在两个转圈之物上的车",
+      "core_image": "前后两个圈一齐转起来，人就跟着往前走",
+      "chinese": [
+        "自行车",
+        "脚踏车"
+      ],
+      "examples": [
+        "He rode his bicycle to school.",
+        "Her bicycle has a broken chain."
+      ],
+      "synonyms": [
+        "bike",
+        "cycle"
+      ],
+      "antonyms": [],
+      "related": [
+        "cycle",
+        "recycle"
+      ],
+      "semantic_expansions": [
+        "自行车/脚踏车：架在两个转圈之物上的车"
+      ],
+      "recall_hint": "bi-（二）+ cycl（轮）→ 两个轮子的车"
+    },
+    {
+      "id": "recycle",
+      "word": "recycle",
+      "pos": "verb",
+      "phonetic": "/riːˈsaɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "kyklos"
+      ],
+      "root_logic": "re-（再）+ cycl（转一圈）+ -e → 让它再转一圈回来 → 回收再用",
+      "origin": "英语 recycle，由 re-＋cycle 合成，20 世纪随环保用语普及",
+      "native_definition": "to treat used material so it can be used again",
+      "core_concept": "sending a thing round the loop once more instead of dropping it – 让用过之物再走一圈回来，而不是丢掉",
+      "core_image": "旧瓶子送回炉里，出来时又是一只能用的",
+      "chinese": [
+        "回收",
+        "再利用"
+      ],
+      "examples": [
+        "We recycle paper and glass at home.",
+        "These bottles can be recycled."
+      ],
+      "synonyms": [
+        "reuse",
+        "reclaim"
+      ],
+      "antonyms": [
+        "discard"
+      ],
+      "related": [
+        "cycle",
+        "bicycle"
+      ],
+      "semantic_expansions": [
+        "回收/再利用：让用过之物再转一圈回来"
+      ],
+      "recall_hint": "re-（再）+ cycl（转圈）→ 让它再走一圈回来"
+    },
+    {
+      "id": "large",
+      "word": "large",
+      "pos": "adjective",
+      "phonetic": "/lɑːdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "largus"
+      ],
+      "root_logic": "largus（宽绰有余）→ 体量占得开、不局促",
+      "origin": "古法语 large，来自拉丁语 largus（丰足的、宽绰的）",
+      "native_definition": "of considerable size or extent",
+      "core_concept": "taking up room with margin left over – 占得开、周围还留着余地",
+      "core_image": "两臂张开也抱不住那截树身",
+      "chinese": [
+        "大的",
+        "大量的"
+      ],
+      "examples": [
+        "They live in a large house.",
+        "A large number of people came."
+      ],
+      "synonyms": [
+        "big",
+        "considerable"
+      ],
+      "antonyms": [
+        "small",
+        "tiny"
+      ],
+      "related": [
+        "enlarge",
+        "largely"
+      ],
+      "semantic_expansions": [
+        "大的/大量的：占得开、有余裕而不局促"
+      ],
+      "recall_hint": "largus（宽绰有余）→ 占得开、不局促"
+    },
+    {
+      "id": "enlarge",
+      "word": "enlarge",
+      "pos": "verb",
+      "phonetic": "/ɪnˈlɑːdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "largus"
+      ],
+      "root_logic": "en-（使…）+ large（宽绰）→ 使它占得更开 → 扩大、放大",
+      "origin": "古法语 enlargier（放宽），由 en-＋large ← 拉丁语 largus",
+      "native_definition": "to make something bigger, or to become bigger",
+      "core_concept": "pushing the edges out so there is more room within – 把边往外推，里头就更宽绰",
+      "core_image": "照片一角被拉到满幅，原先看不清的纹路露了出来",
+      "chinese": [
+        "扩大",
+        "放大",
+        "增大"
+      ],
+      "examples": [
+        "They plan to enlarge the kitchen.",
+        "Please enlarge this photograph."
+      ],
+      "synonyms": [
+        "expand",
+        "extend"
+      ],
+      "antonyms": [
+        "reduce",
+        "shrink"
+      ],
+      "related": [
+        "large",
+        "largely"
+      ],
+      "semantic_expansions": [
+        "扩大/放大/增大：把边往外推、使更宽绰"
+      ],
+      "recall_hint": "en-（使）+ large（宽绰）→ 把边往外推"
+    },
+    {
+      "id": "largely",
+      "word": "largely",
+      "pos": "adverb",
+      "phonetic": "/ˈlɑːdʒli/",
+      "decomposable": "root",
+      "root_ids": [
+        "largus"
+      ],
+      "root_logic": "large（大部分）+ -ly → 占着大头地 → 主要、多半",
+      "origin": "英语 largely，来自 large 加副词后缀 -ly",
+      "native_definition": "mostly; to a great extent",
+      "core_concept": "the side that takes up most of the whole – 占了整体大头的那一边",
+      "core_image": "天平一头压得低低的，另一头只剩一点",
+      "chinese": [
+        "主要地",
+        "大部分",
+        "多半"
+      ],
+      "examples": [
+        "The project was largely successful.",
+        "His account is largely accurate."
+      ],
+      "synonyms": [
+        "mainly",
+        "mostly"
+      ],
+      "antonyms": [
+        "slightly"
+      ],
+      "related": [
+        "large",
+        "enlarge"
+      ],
+      "semantic_expansions": [
+        "主要地/大部分/多半：占着整体大头的那一边"
+      ],
+      "recall_hint": "large（大部分）+ -ly → 占着大头地"
+    },
+    {
+      "id": "major",
+      "word": "major",
+      "pos": "adjective",
+      "phonetic": "/ˈmeɪdʒə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "maior（更大的）→ 相比之下更要紧的；名词指主修的那一门",
+      "origin": "拉丁语 maior（更大的），magnus（大）的比较级",
+      "native_definition": "greater in size or importance; a student's main subject",
+      "core_concept": "the thicker branch the others hang off – 别的枝都挂在它上头的那一根",
+      "core_image": "顺着树身往上看，最粗那根撑住了大半个树冠",
+      "chinese": [
+        "主要的",
+        "重大的",
+        "专业"
+      ],
+      "examples": [
+        "This is a major problem for us.",
+        "She chose history as her major."
+      ],
+      "synonyms": [
+        "principal",
+        "chief"
+      ],
+      "antonyms": [
+        "minor"
+      ],
+      "related": [
+        "majority",
+        "majesty"
+      ],
+      "semantic_expansions": [
+        "主要的/重大的：相比之下更大更要紧的那一方",
+        "专业：所修各门里作主干的那一门"
+      ],
+      "recall_hint": "maior（更大的）→ 别的都挂在它上头的那一根"
+    },
+    {
+      "id": "majority",
+      "word": "majority",
+      "pos": "noun",
+      "phonetic": "/məˈdʒɒrəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "major（更大的）+ -ity → 更大的那一部分 → 多数",
+      "origin": "法语 majorité，来自中世纪拉丁语 maioritas ← maior",
+      "native_definition": "the greater number or part of a group",
+      "core_concept": "the side that has the greater count – 数下来更多的那一边",
+      "core_image": "举手一数，一边的手明显比另一边密",
+      "chinese": [
+        "大多数",
+        "多数"
+      ],
+      "examples": [
+        "The majority voted in favour.",
+        "A majority of students agreed."
+      ],
+      "synonyms": [
+        "most",
+        "bulk"
+      ],
+      "antonyms": [
+        "minority"
+      ],
+      "related": [
+        "major",
+        "majesty"
+      ],
+      "semantic_expansions": [
+        "大多数/多数：数下来更多的那一边"
+      ],
+      "recall_hint": "major（更大的）+ -ity → 数下来更多那一边"
+    },
+    {
+      "id": "majesty",
+      "word": "majesty",
+      "pos": "noun",
+      "phonetic": "/ˈmædʒəsti/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "maior（更大）→ maiestas（尊大）→ 令人仰视的气派；亦作君主尊称",
+      "origin": "古法语 majeste，来自拉丁语 maiestas（威严、尊大）← maior",
+      "native_definition": "impressive dignity or grandeur; a title for a king or queen",
+      "core_concept": "the bearing of one seated higher than all present – 坐得比在场所有人都高的那份气派",
+      "core_image": "台阶尽头那个座位高出一截，底下的人都得抬头看",
+      "chinese": [
+        "威严",
+        "壮丽",
+        "陛下"
+      ],
+      "examples": [
+        "The mountains rose in silent majesty.",
+        "Her Majesty will arrive at noon."
+      ],
+      "synonyms": [
+        "grandeur",
+        "dignity"
+      ],
+      "antonyms": [],
+      "related": [
+        "major",
+        "majority"
+      ],
+      "semantic_expansions": [
+        "威严/壮丽：令人须仰视的那份气派",
+        "陛下：以此气派作君主的尊称"
+      ],
+      "recall_hint": "maior（更大）→ maiestas（尊大）→ 令人仰视的气派"
+    },
+    {
+      "id": "numerous",
+      "word": "numerous",
+      "pos": "adjective",
+      "phonetic": "/ˈnjuːmərəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "numerus"
+      ],
+      "root_logic": "numer（数目）+ -ous（多…的）→ 数目多的",
+      "origin": "拉丁语 numerosus（数目多的），来自 numerus（数目）",
+      "native_definition": "existing in great numbers; many",
+      "core_concept": "so many that the counting runs long – 点起来要数好一阵",
+      "core_image": "屋檐下的燕子一排接一排，数到后头就乱了",
+      "chinese": [
+        "许多的",
+        "众多的"
+      ],
+      "examples": [
+        "She has numerous friends abroad.",
+        "We met on numerous occasions."
+      ],
+      "synonyms": [
+        "many",
+        "abundant"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "related": [
+        "numerical",
+        "innumerable"
+      ],
+      "semantic_expansions": [
+        "许多的/众多的：数目多、点起来要数好一阵"
+      ],
+      "recall_hint": "numer（数目）+ -ous（多…的）→ 数目多的"
+    },
+    {
+      "id": "numerical",
+      "word": "numerical",
+      "pos": "adjective",
+      "phonetic": "/njuːˈmerɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "numerus"
+      ],
+      "root_logic": "numer（数目）+ -ical（…的）→ 用数目表示的、按数计的",
+      "origin": "英语 numerical，来自中世纪拉丁语 numericus ← numerus",
+      "native_definition": "expressed in numbers; relating to numbers",
+      "core_concept": "set down as counts rather than words – 记成数目而非文字",
+      "core_image": "表格里每一栏都换成了阿拉伯记号，一列列排下去",
+      "chinese": [
+        "数字的",
+        "数值的"
+      ],
+      "examples": [
+        "Put the files in numerical order.",
+        "The numerical results agree with theory."
+      ],
+      "synonyms": [
+        "quantitative",
+        "arithmetical"
+      ],
+      "antonyms": [],
+      "related": [
+        "numerous",
+        "innumerable"
+      ],
+      "semantic_expansions": [
+        "数字的/数值的：以数目记下、按数计的"
+      ],
+      "recall_hint": "numer（数目）+ -ical → 以数目记下的"
+    },
+    {
+      "id": "innumerable",
+      "word": "innumerable",
+      "pos": "adjective",
+      "phonetic": "/ɪˈnjuːmərəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "numerus"
+      ],
+      "root_logic": "in-（不）+ numer（数）+ -able（可…的）→ 数不过来的",
+      "origin": "拉丁语 innumerabilis（数不清的），来自 in-＋numerare（计数）← numerus",
+      "native_definition": "too many to be counted",
+      "core_concept": "more than the fingers can keep up with – 手指跟不上、点不完",
+      "core_image": "沙从指缝里漏下去，颗数根本跟不上",
+      "chinese": [
+        "数不清的",
+        "无数的"
+      ],
+      "examples": [
+        "He made innumerable attempts.",
+        "Innumerable stars filled the sky."
+      ],
+      "synonyms": [
+        "countless",
+        "myriad"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "related": [
+        "numerous",
+        "numerical"
+      ],
+      "semantic_expansions": [
+        "数不清的/无数的：多到点不过来"
+      ],
+      "recall_hint": "in-（不）+ numer（数）+ -able → 数不过来的"
+    },
+    {
+      "id": "apology",
+      "word": "apology",
+      "pos": "noun",
+      "phonetic": "/əˈpɒlədʒi/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "apo-（离开、退开）+ log（说辞）→ 退一步把话说开 → 认过的说辞",
+      "origin": "希腊语 apologia（辩解、答辩），来自 apo（离）＋logos（话语）",
+      "native_definition": "a statement saying one is sorry for a fault",
+      "core_concept": "stepping back and putting the fault into words – 退一步，把自己的不是说出口",
+      "core_image": "他往后退了半步，把话头接过来，承认是自己没办好",
+      "chinese": [
+        "道歉",
+        "歉意",
+        "辩解"
+      ],
+      "examples": [
+        "He offered a sincere apology.",
+        "She made no apology for her view."
+      ],
+      "synonyms": [
+        "regret",
+        "excuse"
+      ],
+      "antonyms": [],
+      "related": [
+        "apologise",
+        "biology"
+      ],
+      "semantic_expansions": [
+        "道歉/歉意：退一步把自己的不是说出口",
+        "辩解：同样是把话说开，为自己申说"
+      ],
+      "recall_hint": "apo-（退开）+ log（说辞）→ 退一步把话说开"
+    },
+    {
+      "id": "apologise",
+      "word": "apologise",
+      "pos": "verb",
+      "phonetic": "/əˈpɒlədʒaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "apology（认过的说辞）+ -ise（使、行）→ 把那番话说出来",
+      "origin": "希腊语 apologizesthai（申说），来自 apologia ← apo＋logos",
+      "native_definition": "to say that one is sorry for a fault",
+      "core_concept": "putting the stepping-back into actual words – 把那退一步的意思真说出口",
+      "core_image": "他站起来，当着众人把那句话讲了出来",
+      "chinese": [
+        "道歉",
+        "认错"
+      ],
+      "examples": [
+        "He apologised for being late.",
+        "She refused to apologise."
+      ],
+      "synonyms": [
+        "regret",
+        "atone"
+      ],
+      "antonyms": [],
+      "related": [
+        "apology",
+        "biology"
+      ],
+      "semantic_expansions": [
+        "道歉/认错：把退一步认过的话说出口"
+      ],
+      "recall_hint": "apology（认过说辞）+ -ise → 把那番话说出口"
+    },
+    {
+      "id": "biology",
+      "word": "biology",
+      "pos": "noun",
+      "phonetic": "/baɪˈɒlədʒi/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "bio-（生命）+ -logy（条理、学科）→ 讲清生命之理的那门学问",
+      "origin": "希腊语 bios（生命）＋logos（条理）合成，19 世纪造词",
+      "native_definition": "the scientific study of living things",
+      "core_concept": "the account given of how living things work – 把活物的道理说清的那一套",
+      "core_image": "从一片叶脉讲到血液怎么走，条理一路排下来",
+      "chinese": [
+        "生物学"
+      ],
+      "examples": [
+        "She teaches biology at the college.",
+        "Marine biology is his field."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [
+        "apology",
+        "apologise"
+      ],
+      "semantic_expansions": [
+        "生物学：把活物的道理说出条理的那门学问"
+      ],
+      "recall_hint": "bio-（生命）+ -logy（条理）→ 讲清生命之理的学问"
+    },
+    {
+      "id": "post",
+      "word": "post",
+      "pos": "noun",
+      "phonetic": "/pəʊst/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "positum（被放置的）→ 沿路安置的驿站 → 邮政；被安置的位子 → 职位",
+      "origin": "古法语 poste，来自意大利语 posta ← 拉丁语 posita/ponere（放置）；驿站本义是「沿途置马之处」。门柱义的 post 另出拉丁 postis，不在此族",
+      "native_definition": "the system that carries letters; a job or official position",
+      "core_concept": "a station set along the way, and by extension a place one is set in – 沿途安置的那一站，引申为人被安在的位子",
+      "core_image": "沿路每隔一程设一处，换马换人，信件一路递下去",
+      "chinese": [
+        "邮政",
+        "邮件",
+        "职位"
+      ],
+      "examples": [
+        "Send it by post, not by email.",
+        "She applied for a teaching post."
+      ],
+      "synonyms": [
+        "mail",
+        "position"
+      ],
+      "antonyms": [],
+      "related": [
+        "position",
+        "postage"
+      ],
+      "semantic_expansions": [
+        "邮政/邮件：靠沿途置站接力递送的那套",
+        "职位：人被安置进去的那个位子"
+      ],
+      "recall_hint": "positum（被放置的）→ 沿途置站 → 邮政；被安的位子 → 职位"
+    },
+    {
+      "id": "postage",
+      "word": "postage",
+      "pos": "noun",
+      "phonetic": "/ˈpəʊstɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "post（驿站接力）+ -age（费用）→ 走这套接力所付的钱",
+      "origin": "英语 postage，由 post ← 拉丁语 ponere（放置）加 -age 构成",
+      "native_definition": "the money charged for sending something by post",
+      "core_concept": "what one pays for the relay of stations to carry it – 为那套接力递送付的钱",
+      "core_image": "柜台上称过重量，贴上几枚小纸片才收下",
+      "chinese": [
+        "邮费",
+        "邮资"
+      ],
+      "examples": [
+        "Postage costs have gone up again.",
+        "The price includes postage."
+      ],
+      "synonyms": [
+        "fee",
+        "charge"
+      ],
+      "antonyms": [],
+      "related": [
+        "post",
+        "position"
+      ],
+      "semantic_expansions": [
+        "邮费/邮资：为沿途接力递送所付的钱"
+      ],
+      "recall_hint": "post（驿站接力）+ -age（费用）→ 走这套递送付的钱"
+    },
+    {
+      "id": "posture",
+      "word": "posture",
+      "pos": "noun",
+      "phonetic": "/ˈpɒstʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "ponere"
+      ],
+      "root_logic": "positura（放置的样子）→ 身体摆放的姿态",
+      "origin": "法语 posture，来自意大利语 postura ← 拉丁语 positura（安放、位置）← ponere",
+      "native_definition": "the way a person holds their body; an attitude taken up",
+      "core_concept": "how the body is set and held in place – 身体被摆放、端住的那个样子",
+      "core_image": "他把背挺直、肩往后收，整个人的架子就稳住了",
+      "chinese": [
+        "姿势",
+        "体态",
+        "姿态"
+      ],
+      "examples": [
+        "Good posture prevents back pain.",
+        "The country took a defensive posture."
+      ],
+      "synonyms": [
+        "stance",
+        "bearing"
+      ],
+      "antonyms": [],
+      "related": [
+        "position",
+        "post"
+      ],
+      "semantic_expansions": [
+        "姿势/体态：身体摆放端住的那个样子",
+        "姿态：对外摆出的那副架势"
+      ],
+      "recall_hint": "positura（放置的样子）→ 身体摆放端住的样子"
+    }
+  ]
+}

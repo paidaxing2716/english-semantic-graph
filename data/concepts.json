@@ -118,7 +118,10 @@
         "disposition",
         "exposure",
         "preposition",
-        "proposition"
+        "proposition",
+        "post",
+        "postage",
+        "posture"
       ]
     },
     {
@@ -2736,6 +2739,90 @@
         "qualification",
         "qualify",
         "quality"
+      ]
+    },
+    {
+      "id": "concept-cadere-fall",
+      "concept": "to fall upon, to come down on something",
+      "chinese": "落到头上",
+      "core_image": "东西自高处掉下，正砸在路当中",
+      "root_ids": [
+        "cadere"
+      ],
+      "word_ids": [
+        "incidence",
+        "incident",
+        "incidentally"
+      ]
+    },
+    {
+      "id": "concept-kyklos-wheel",
+      "concept": "a wheel coming round to where it began",
+      "chinese": "轮转一圈",
+      "core_image": "轮子滚满一圈，气门嘴又回到贴地那一点",
+      "root_ids": [
+        "kyklos"
+      ],
+      "word_ids": [
+        "bicycle",
+        "cycle",
+        "recycle"
+      ]
+    },
+    {
+      "id": "concept-largus-ample",
+      "concept": "having room and to spare",
+      "chinese": "宽绰有余",
+      "core_image": "箱子装完还空着半截，盖子轻轻就合上",
+      "root_ids": [
+        "largus"
+      ],
+      "word_ids": [
+        "enlarge",
+        "large",
+        "largely"
+      ]
+    },
+    {
+      "id": "concept-maior-greater",
+      "concept": "the greater of what is compared",
+      "chinese": "更大一方",
+      "core_image": "树上最粗那根枝，别的枝都由它分出",
+      "root_ids": [
+        "maior"
+      ],
+      "word_ids": [
+        "majesty",
+        "major",
+        "majority"
+      ]
+    },
+    {
+      "id": "concept-numerus-count",
+      "concept": "the count that can be told off one by one",
+      "chinese": "逐一点数",
+      "core_image": "手指点着一件件数过去，嘴里跟着报数",
+      "root_ids": [
+        "numerus"
+      ],
+      "word_ids": [
+        "innumerable",
+        "numerical",
+        "numerous"
+      ]
+    },
+    {
+      "id": "concept-logos-account",
+      "concept": "words that give an account of something",
+      "chinese": "说出条理",
+      "core_image": "开口把事情从头理到尾，听的人跟得上",
+      "root_ids": [
+        "logos"
+      ],
+      "word_ids": [
+        "apologise",
+        "apology",
+        "biology"
       ]
     }
   ]

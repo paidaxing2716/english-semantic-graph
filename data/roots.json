@@ -135,7 +135,10 @@
         "disposition",
         "exposure",
         "preposition",
-        "proposition"
+        "proposition",
+        "post",
+        "postage",
+        "posture"
       ]
     },
     {
@@ -3242,6 +3245,110 @@
         "qualification",
         "qualify",
         "quality"
+      ]
+    },
+    {
+      "id": "cadere",
+      "root": "cadere",
+      "variants": [
+        "cid",
+        "cad",
+        "cas"
+      ],
+      "origin": "拉丁语 cadere（落下、掉下来），过去分词 casus；incidere（in＋cadere）本义是「落到某处上头」，引申为事情落下来发生",
+      "core_concept": "to fall upon, to come down on something / 落到某处上头",
+      "core_image": "一颗东西从高处掉下来，正砸在路当中",
+      "english_definition": "to fall, drop",
+      "word_ids": [
+        "incidence",
+        "incident",
+        "incidentally"
+      ]
+    },
+    {
+      "id": "kyklos",
+      "root": "kyklos",
+      "variants": [
+        "cycl",
+        "cycle"
+      ],
+      "origin": "希腊语 kyklos（圆圈、轮子）经拉丁语 cyclus 入英语；轮子转一整圈回到原处，是这一族的共同意象",
+      "core_concept": "a wheel coming round to where it began / 转一圈又回到起点的轮",
+      "core_image": "轮子滚过一整圈，气门嘴又回到贴地那一点",
+      "english_definition": "circle, wheel",
+      "word_ids": [
+        "bicycle",
+        "cycle",
+        "recycle"
+      ]
+    },
+    {
+      "id": "largus",
+      "root": "largus",
+      "variants": [
+        "larg",
+        "large"
+      ],
+      "origin": "拉丁语 largus（丰足的、宽绰的），本义偏「给得出、有余裕」，英语 large 早期也表「宽绰」，后才专指体量",
+      "core_concept": "having room and to spare / 宽绰有余、装得下还有空",
+      "core_image": "一只箱子装完东西还空着半截，盖子轻轻就合上",
+      "english_definition": "abundant, ample, roomy",
+      "word_ids": [
+        "enlarge",
+        "large",
+        "largely"
+      ]
+    },
+    {
+      "id": "maior",
+      "root": "maior",
+      "variants": [
+        "maj",
+        "major"
+      ],
+      "origin": "拉丁语 maior（更大的，magnus 的比较级）；maiestas（尊大、威仪）由此出，英语 major/majority/majesty 同循此路",
+      "core_concept": "the greater of what is compared / 相比之下更大的那一方",
+      "core_image": "一棵树上最粗那根枝，别的枝都从它分出去",
+      "english_definition": "greater, larger",
+      "word_ids": [
+        "majesty",
+        "major",
+        "majority"
+      ]
+    },
+    {
+      "id": "numerus",
+      "root": "numerus",
+      "variants": [
+        "numer",
+        "num"
+      ],
+      "origin": "拉丁语 numerus（数目、数），numerare（计数）由此出；英语 number 同源，本族收 -numer- 一支的派生词",
+      "core_concept": "the count that can be told off one by one / 能一个一个点数出来的数目",
+      "core_image": "手指点着东西一件件数过去，嘴里跟着报数",
+      "english_definition": "number, count",
+      "word_ids": [
+        "innumerable",
+        "numerical",
+        "numerous"
+      ]
+    },
+    {
+      "id": "logos",
+      "root": "logos",
+      "variants": [
+        "log",
+        "logy",
+        "logue"
+      ],
+      "origin": "希腊语 logos（话语、道理、条理），legein（说）的名词形；-logy 作学科后缀即「关于某物的条理」。vetted 族名作 olog，那是词干提取切出的假词根：真正共用的是 logos",
+      "core_concept": "words that give an account of something / 把一件事说出条理来",
+      "core_image": "一个人开口把事情从头理到尾，听的人跟得上",
+      "english_definition": "word, speech, reasoned account",
+      "word_ids": [
+        "apologise",
+        "apology",
+        "biology"
       ]
     }
   ]

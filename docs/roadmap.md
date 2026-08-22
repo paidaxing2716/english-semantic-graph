@@ -16,7 +16,7 @@ v0.2    100 词实验集                      ✅ 已完成
 v0.4    语义域分层 + 词表可拆性分析      ✅ 已完成
 v0.2.1  加载性能改造（并行拉取 + 本地缓存 + 进度提示）✅ 已完成
 v1.0    考研词表中可结构化的部分（721/869 词，83%）← 当前
-v1.1    剩余词入库（可结构化的尾声）← 当前：867 词 · 168 词根，vetted 尚余 81 词 / 27 族
+v1.1    剩余词入库（可结构化的尾声）← 当前：888 词 · 174 词根，vetted 尚余 60 词 / 20 族
         交接说明见 [docs/HANDOFF.md](HANDOFF.md)（其中词数口径已被后续批次推进，以本行为准）
 ```
 
@@ -317,6 +317,17 @@ python ai_pipeline/review.py merge candidates.json
         五族成员，694 词 · 121 词根。courage/passion 的中文看不出同源，
         confirm/patient/precedent 的 core_image 专门绕开中文义项以免泄题；
         concede/recede/precede 靠前缀定"往后退/往前提"
+- [x] 第四十六批（21 词，六新词根族 + 3 补词）：cadere（落到头上：incident/
+        incidence/incidentally）+ kyklos（轮转一圈：cycle/bicycle/recycle）
+        + largus（宽绰有余：large/enlarge/largely）+ maior（更大一方：major/
+        majority/majesty）+ numerus（逐一点数：numerous/numerical/innumerable）
+        + logos（说出条理：apology/apologise/biology）。
+        另并入 ponere ← post/postage/posture，888 词 · 174 词根。
+        两处纠偏：vetted 族名 olog 是词干提取切出的假词根，apology ← apo＋logos、
+        biology ← bios＋logos，三词真正共用的是 logos，故词根立 logos；
+        post 一族归 ponere（positum「沿途置马之处」→ 驿站 → 邮政），
+        而门柱义的 post 来自拉丁 postis，与 ponere 不同源，故词条不收该义。
+        词根 id 一律取拉丁/希腊词形——large、post 本身是单词，用族名作 id 会造自环边
 - [x] 第四十五批（18 词，六新词根族 + 1 补词）：清掉 HANDOFF 剩下的 C 类风险族。
         leg 在 vetted 里同名却是两条源，分立为 lex-legis（法：legal/delegate/legacy）
         与 ligare（绑：obligation/religion/religious），且都与已建模的 legere（读）不同根；

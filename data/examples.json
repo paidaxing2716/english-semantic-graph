@@ -12033,6 +12033,300 @@
       "text": "The columns are pleasing in proportion.",
       "source": "AI 生成 · 人工审核",
       "scene": "圆饼切开，每人手里那块占整张多大，一眼比得出来"
+    },
+    {
+      "id": "ex-incident-1",
+      "word_id": "incident",
+      "text": "The incident was reported to the police.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路当中忽然砸下一样东西，行人全停下来看"
+    },
+    {
+      "id": "ex-incident-2",
+      "word_id": "incident",
+      "text": "No one was hurt in the incident.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路当中忽然砸下一样东西，行人全停下来看"
+    },
+    {
+      "id": "ex-incidence-1",
+      "word_id": "incidence",
+      "text": "The incidence of the disease has fallen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨点打在窗台上，一阵密一阵疏，数得出快慢"
+    },
+    {
+      "id": "ex-incidence-2",
+      "word_id": "incidence",
+      "text": "There is a high incidence of theft here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨点打在窗台上，一阵密一阵疏，数得出快慢"
+    },
+    {
+      "id": "ex-incidentally-1",
+      "word_id": "incidentally",
+      "text": "Incidentally, I saw her yesterday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话说到一半，他顺口带出一句不相干的"
+    },
+    {
+      "id": "ex-incidentally-2",
+      "word_id": "incidentally",
+      "text": "The two met quite incidentally.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话说到一半，他顺口带出一句不相干的"
+    },
+    {
+      "id": "ex-cycle-1",
+      "word_id": "cycle",
+      "text": "The washing machine has a short cycle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四季走一遍，又回到落第一场雪的那几天"
+    },
+    {
+      "id": "ex-cycle-2",
+      "word_id": "cycle",
+      "text": "She cycles to work every day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四季走一遍，又回到落第一场雪的那几天"
+    },
+    {
+      "id": "ex-bicycle-1",
+      "word_id": "bicycle",
+      "text": "He rode his bicycle to school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前后两个圈一齐转起来，人就跟着往前走"
+    },
+    {
+      "id": "ex-bicycle-2",
+      "word_id": "bicycle",
+      "text": "Her bicycle has a broken chain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前后两个圈一齐转起来，人就跟着往前走"
+    },
+    {
+      "id": "ex-recycle-1",
+      "word_id": "recycle",
+      "text": "We recycle paper and glass at home.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旧瓶子送回炉里，出来时又是一只能用的"
+    },
+    {
+      "id": "ex-recycle-2",
+      "word_id": "recycle",
+      "text": "These bottles can be recycled.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "旧瓶子送回炉里，出来时又是一只能用的"
+    },
+    {
+      "id": "ex-large-1",
+      "word_id": "large",
+      "text": "They live in a large house.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两臂张开也抱不住那截树身"
+    },
+    {
+      "id": "ex-large-2",
+      "word_id": "large",
+      "text": "A large number of people came.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两臂张开也抱不住那截树身"
+    },
+    {
+      "id": "ex-enlarge-1",
+      "word_id": "enlarge",
+      "text": "They plan to enlarge the kitchen.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片一角被拉到满幅，原先看不清的纹路露了出来"
+    },
+    {
+      "id": "ex-enlarge-2",
+      "word_id": "enlarge",
+      "text": "Please enlarge this photograph.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片一角被拉到满幅，原先看不清的纹路露了出来"
+    },
+    {
+      "id": "ex-largely-1",
+      "word_id": "largely",
+      "text": "The project was largely successful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平一头压得低低的，另一头只剩一点"
+    },
+    {
+      "id": "ex-largely-2",
+      "word_id": "largely",
+      "text": "His account is largely accurate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平一头压得低低的，另一头只剩一点"
+    },
+    {
+      "id": "ex-major-1",
+      "word_id": "major",
+      "text": "This is a major problem for us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺着树身往上看，最粗那根撑住了大半个树冠"
+    },
+    {
+      "id": "ex-major-2",
+      "word_id": "major",
+      "text": "She chose history as her major.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺着树身往上看，最粗那根撑住了大半个树冠"
+    },
+    {
+      "id": "ex-majority-1",
+      "word_id": "majority",
+      "text": "The majority voted in favour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举手一数，一边的手明显比另一边密"
+    },
+    {
+      "id": "ex-majority-2",
+      "word_id": "majority",
+      "text": "A majority of students agreed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "举手一数，一边的手明显比另一边密"
+    },
+    {
+      "id": "ex-majesty-1",
+      "word_id": "majesty",
+      "text": "The mountains rose in silent majesty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶尽头那个座位高出一截，底下的人都得抬头看"
+    },
+    {
+      "id": "ex-majesty-2",
+      "word_id": "majesty",
+      "text": "Her Majesty will arrive at noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶尽头那个座位高出一截，底下的人都得抬头看"
+    },
+    {
+      "id": "ex-numerous-1",
+      "word_id": "numerous",
+      "text": "She has numerous friends abroad.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋檐下的燕子一排接一排，数到后头就乱了"
+    },
+    {
+      "id": "ex-numerous-2",
+      "word_id": "numerous",
+      "text": "We met on numerous occasions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋檐下的燕子一排接一排，数到后头就乱了"
+    },
+    {
+      "id": "ex-numerical-1",
+      "word_id": "numerical",
+      "text": "Put the files in numerical order.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "表格里每一栏都换成了阿拉伯记号，一列列排下去"
+    },
+    {
+      "id": "ex-numerical-2",
+      "word_id": "numerical",
+      "text": "The numerical results agree with theory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "表格里每一栏都换成了阿拉伯记号，一列列排下去"
+    },
+    {
+      "id": "ex-innumerable-1",
+      "word_id": "innumerable",
+      "text": "He made innumerable attempts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "沙从指缝里漏下去，颗数根本跟不上"
+    },
+    {
+      "id": "ex-innumerable-2",
+      "word_id": "innumerable",
+      "text": "Innumerable stars filled the sky.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "沙从指缝里漏下去，颗数根本跟不上"
+    },
+    {
+      "id": "ex-apology-1",
+      "word_id": "apology",
+      "text": "He offered a sincere apology.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他往后退了半步，把话头接过来，承认是自己没办好"
+    },
+    {
+      "id": "ex-apology-2",
+      "word_id": "apology",
+      "text": "She made no apology for her view.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他往后退了半步，把话头接过来，承认是自己没办好"
+    },
+    {
+      "id": "ex-apologise-1",
+      "word_id": "apologise",
+      "text": "He apologised for being late.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他站起来，当着众人把那句话讲了出来"
+    },
+    {
+      "id": "ex-apologise-2",
+      "word_id": "apologise",
+      "text": "She refused to apologise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他站起来，当着众人把那句话讲了出来"
+    },
+    {
+      "id": "ex-biology-1",
+      "word_id": "biology",
+      "text": "She teaches biology at the college.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一片叶脉讲到血液怎么走，条理一路排下来"
+    },
+    {
+      "id": "ex-biology-2",
+      "word_id": "biology",
+      "text": "Marine biology is his field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一片叶脉讲到血液怎么走，条理一路排下来"
+    },
+    {
+      "id": "ex-post-1",
+      "word_id": "post",
+      "text": "Send it by post, not by email.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "沿路每隔一程设一处，换马换人，信件一路递下去"
+    },
+    {
+      "id": "ex-post-2",
+      "word_id": "post",
+      "text": "She applied for a teaching post.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "沿路每隔一程设一处，换马换人，信件一路递下去"
+    },
+    {
+      "id": "ex-postage-1",
+      "word_id": "postage",
+      "text": "Postage costs have gone up again.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上称过重量，贴上几枚小纸片才收下"
+    },
+    {
+      "id": "ex-postage-2",
+      "word_id": "postage",
+      "text": "The price includes postage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上称过重量，贴上几枚小纸片才收下"
+    },
+    {
+      "id": "ex-posture-1",
+      "word_id": "posture",
+      "text": "Good posture prevents back pain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把背挺直、肩往后收，整个人的架子就稳住了"
+    },
+    {
+      "id": "ex-posture-2",
+      "word_id": "posture",
+      "text": "The country took a defensive posture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把背挺直、肩往后收，整个人的架子就稳住了"
     }
   ]
 }
