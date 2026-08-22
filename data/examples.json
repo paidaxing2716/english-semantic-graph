@@ -20601,6 +20601,650 @@
       "text": "Free delivery is an added bonus.",
       "source": "AI 生成 · 人工审核",
       "scene": "月底信封里除了工资，另夹着一张没预料到的条子"
+    },
+    {
+      "id": "ex-car-1",
+      "word_id": "car",
+      "text": "She parked the car outside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个轮子撑着一个铁壳，人坐进去合上门"
+    },
+    {
+      "id": "ex-car-2",
+      "word_id": "car",
+      "text": "The train has eight cars.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "四个轮子撑着一个铁壳，人坐进去合上门"
+    },
+    {
+      "id": "ex-carry-1",
+      "word_id": "carry",
+      "text": "She carried the box upstairs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把箱子抱起来，一路没放下过"
+    },
+    {
+      "id": "ex-carry-2",
+      "word_id": "carry",
+      "text": "This bus carries fifty people.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把箱子抱起来，一路没放下过"
+    },
+    {
+      "id": "ex-carriage-1",
+      "word_id": "carriage",
+      "text": "A horse-drawn carriage waited outside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两匹马在前头，后面那个厢一晃一晃跟着"
+    },
+    {
+      "id": "ex-carriage-2",
+      "word_id": "carriage",
+      "text": "Goods carriage costs extra.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两匹马在前头，后面那个厢一晃一晃跟着"
+    },
+    {
+      "id": "ex-carrier-1",
+      "word_id": "carrier",
+      "text": "The carrier delivered it by noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "包裹交到那人手上，第二天出现在另一座城"
+    },
+    {
+      "id": "ex-carrier-2",
+      "word_id": "carrier",
+      "text": "Mosquitoes are carriers of malaria.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "包裹交到那人手上，第二天出现在另一座城"
+    },
+    {
+      "id": "ex-cargo-1",
+      "word_id": "cargo",
+      "text": "The ship carried a cargo of grain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舱盖掀开，底下一层层码到顶都是箱子"
+    },
+    {
+      "id": "ex-cargo-2",
+      "word_id": "cargo",
+      "text": "Cargo planes fly overnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "舱盖掀开，底下一层层码到顶都是箱子"
+    },
+    {
+      "id": "ex-career-1",
+      "word_id": "career",
+      "text": "She had a long career in law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车辙压出两道印子，后来的车都顺着这两道走"
+    },
+    {
+      "id": "ex-career-2",
+      "word_id": "career",
+      "text": "He changed careers at forty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车辙压出两道印子，后来的车都顺着这两道走"
+    },
+    {
+      "id": "ex-charge-1",
+      "word_id": "charge",
+      "text": "They charge ten pounds for entry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "货往车上一压，车轴吃住了那个重量"
+    },
+    {
+      "id": "ex-charge-2",
+      "word_id": "charge",
+      "text": "He was charged with theft.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "货往车上一压，车轴吃住了那个重量"
+    },
+    {
+      "id": "ex-tradition-1",
+      "word_id": "tradition",
+      "text": "It is a family tradition.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人把那套做法一样样交给儿子，儿子照着又教给孙子"
+    },
+    {
+      "id": "ex-tradition-2",
+      "word_id": "tradition",
+      "text": "The town keeps its old traditions.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老人把那套做法一样样交给儿子，儿子照着又教给孙子"
+    },
+    {
+      "id": "ex-traitor-1",
+      "word_id": "traitor",
+      "text": "He was executed as a traitor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把名册递了出去，第二天册上的人一个个被带走"
+    },
+    {
+      "id": "ex-traitor-2",
+      "word_id": "traitor",
+      "text": "They called her a traitor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把名册递了出去，第二天册上的人一个个被带走"
+    },
+    {
+      "id": "ex-treason-1",
+      "word_id": "treason",
+      "text": "He was tried for treason.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸从抽屉里取出，越过边境线递到了对面"
+    },
+    {
+      "id": "ex-treason-2",
+      "word_id": "treason",
+      "text": "Such an act amounts to treason.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸从抽屉里取出，越过边境线递到了对面"
+    },
+    {
+      "id": "ex-betray-1",
+      "word_id": "betray",
+      "text": "He betrayed his closest friend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙本是托他保管，他却把它递到了外人手上"
+    },
+    {
+      "id": "ex-betray-2",
+      "word_id": "betray",
+      "text": "Her face betrayed her fear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙本是托他保管，他却把它递到了外人手上"
+    },
+    {
+      "id": "ex-base-1",
+      "word_id": "base",
+      "text": "The base of the lamp is heavy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柱子底下那块方石承着整根柱，抽掉它上面就塌"
+    },
+    {
+      "id": "ex-base-2",
+      "word_id": "base",
+      "text": "They returned to base at dusk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柱子底下那块方石承着整根柱，抽掉它上面就塌"
+    },
+    {
+      "id": "ex-basis-1",
+      "word_id": "basis",
+      "text": "What is the basis of your claim?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他先把那个前提摆稳，后面的话才踩得住"
+    },
+    {
+      "id": "ex-basis-2",
+      "word_id": "basis",
+      "text": "We meet on a weekly basis.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他先把那个前提摆稳，后面的话才踩得住"
+    },
+    {
+      "id": "ex-basic-1",
+      "word_id": "basic",
+      "text": "Learn the basic rules first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把上面几层都揭掉，剩下这层再往下就没有了"
+    },
+    {
+      "id": "ex-basic-2",
+      "word_id": "basic",
+      "text": "The room has only basic furniture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把上面几层都揭掉，剩下这层再往下就没有了"
+    },
+    {
+      "id": "ex-basement-1",
+      "word_id": "basement",
+      "text": "They store boxes in the basement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺楼梯往下走到底，头顶就是一楼的地板"
+    },
+    {
+      "id": "ex-basement-2",
+      "word_id": "basement",
+      "text": "The basement floods every spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "顺楼梯往下走到底，头顶就是一楼的地板"
+    },
+    {
+      "id": "ex-baseball-1",
+      "word_id": "baseball",
+      "text": "They played baseball all afternoon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "打完那一棒他就跑，脚一个个点过场上那四块垫子"
+    },
+    {
+      "id": "ex-baseball-2",
+      "word_id": "baseball",
+      "text": "He collects baseball cards.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "打完那一棒他就跑，脚一个个点过场上那四块垫子"
+    },
+    {
+      "id": "ex-card-1",
+      "word_id": "card",
+      "text": "She sent me a birthday card.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从钱包里抽出一张硬硬的小方片，递到柜台上"
+    },
+    {
+      "id": "ex-card-2",
+      "word_id": "card",
+      "text": "He shuffled the cards twice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他从钱包里抽出一张硬硬的小方片，递到柜台上"
+    },
+    {
+      "id": "ex-chart-1",
+      "word_id": "chart",
+      "text": "The chart shows monthly sales.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上贴的那张纸画着起落的折线，谁走过都抬头看一眼"
+    },
+    {
+      "id": "ex-chart-2",
+      "word_id": "chart",
+      "text": "The captain checked the chart.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上贴的那张纸画着起落的折线，谁走过都抬头看一眼"
+    },
+    {
+      "id": "ex-charter-1",
+      "word_id": "charter",
+      "text": "The city received its charter in 1215.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "羊皮纸上盖了红印，从此城里的人按那上头写的办"
+    },
+    {
+      "id": "ex-charter-2",
+      "word_id": "charter",
+      "text": "They chartered a plane.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "羊皮纸上盖了红印，从此城里的人按那上头写的办"
+    },
+    {
+      "id": "ex-cartoon-1",
+      "word_id": "cartoon",
+      "text": "The cartoon made everyone laugh.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一大张厚纸摊在桌上，草稿一格一格画满了"
+    },
+    {
+      "id": "ex-cartoon-2",
+      "word_id": "cartoon",
+      "text": "Children watched a cartoon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一大张厚纸摊在桌上，草稿一格一格画满了"
+    },
+    {
+      "id": "ex-camp-1",
+      "word_id": "camp",
+      "text": "They set up camp by the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空地上支起十几顶帐篷，绳子一头钉进土里"
+    },
+    {
+      "id": "ex-camp-2",
+      "word_id": "camp",
+      "text": "We camped for three nights.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空地上支起十几顶帐篷，绳子一头钉进土里"
+    },
+    {
+      "id": "ex-campus-1",
+      "word_id": "campus",
+      "text": "The campus has three libraries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从图书馆走到食堂要穿过两片草坪，全在同一圈围墙里"
+    },
+    {
+      "id": "ex-campus-2",
+      "word_id": "campus",
+      "text": "She lives on campus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从图书馆走到食堂要穿过两片草坪，全在同一圈围墙里"
+    },
+    {
+      "id": "ex-campaign-1",
+      "word_id": "campaign",
+      "text": "The campaign lasted six months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍开到野地上驻下，一步步照计划往前推"
+    },
+    {
+      "id": "ex-campaign-2",
+      "word_id": "campaign",
+      "text": "She ran a campaign for clean water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍开到野地上驻下，一步步照计划往前推"
+    },
+    {
+      "id": "ex-champion-1",
+      "word_id": "champion",
+      "text": "She is the world champion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "场地中间只剩一个人站着，四周的人开始鼓掌"
+    },
+    {
+      "id": "ex-champion-2",
+      "word_id": "champion",
+      "text": "He championed the new law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "场地中间只剩一个人站着，四周的人开始鼓掌"
+    },
+    {
+      "id": "ex-circle-1",
+      "word_id": "circle",
+      "text": "Draw a circle on the board.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔尖绕一圈回到原处，纸上留下一条合起来的线"
+    },
+    {
+      "id": "ex-circle-2",
+      "word_id": "circle",
+      "text": "She has a small circle of friends.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔尖绕一圈回到原处，纸上留下一条合起来的线"
+    },
+    {
+      "id": "ex-circular-1",
+      "word_id": "circular",
+      "text": "The table has a circular top.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道绕了一整圈，起跑线和终点线是同一条"
+    },
+    {
+      "id": "ex-circular-2",
+      "word_id": "circular",
+      "text": "That is a circular argument.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑道绕了一整圈，起跑线和终点线是同一条"
+    },
+    {
+      "id": "ex-circus-1",
+      "word_id": "circus",
+      "text": "The circus came to town.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷中间空出一个圆场，看台把它整整围了一圈"
+    },
+    {
+      "id": "ex-circus-2",
+      "word_id": "circus",
+      "text": "They met at Piccadilly Circus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷中间空出一个圆场，看台把它整整围了一圈"
+    },
+    {
+      "id": "ex-circuit-1",
+      "word_id": "circuit",
+      "text": "The circuit was broken.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "线从这头接到那头再绕回来，灯才亮起来"
+    },
+    {
+      "id": "ex-circuit-2",
+      "word_id": "circuit",
+      "text": "The judge rides the circuit.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "线从这头接到那头再绕回来，灯才亮起来"
+    },
+    {
+      "id": "ex-battle-1",
+      "word_id": "battle",
+      "text": "The battle lasted two days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两队人在坡上互相冲了几个来回，谁也没退"
+    },
+    {
+      "id": "ex-battle-2",
+      "word_id": "battle",
+      "text": "She fought a long battle with illness.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两队人在坡上互相冲了几个来回，谁也没退"
+    },
+    {
+      "id": "ex-combat-1",
+      "word_id": "combat",
+      "text": "He was killed in combat.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人正面站着，拳头一来一回，没人侧身躲开"
+    },
+    {
+      "id": "ex-combat-2",
+      "word_id": "combat",
+      "text": "New laws combat pollution.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人正面站着，拳头一来一回，没人侧身躲开"
+    },
+    {
+      "id": "ex-debate-1",
+      "word_id": "debate",
+      "text": "The debate ran for three hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人隔着讲台一句接一句往回顶，谁也不肯松口"
+    },
+    {
+      "id": "ex-debate-2",
+      "word_id": "debate",
+      "text": "They debated the new policy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人隔着讲台一句接一句往回顶，谁也不肯松口"
+    },
+    {
+      "id": "ex-canal-1",
+      "word_id": "canal",
+      "text": "The canal links two rivers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两岸砌得笔直，水面一路平着延到看不见的地方"
+    },
+    {
+      "id": "ex-canal-2",
+      "word_id": "canal",
+      "text": "Boats pass through the canal daily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两岸砌得笔直，水面一路平着延到看不见的地方"
+    },
+    {
+      "id": "ex-channel-1",
+      "word_id": "channel",
+      "text": "The Channel separates England and France.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石板上凿出一道浅槽，水只能顺着这道往下淌"
+    },
+    {
+      "id": "ex-channel-2",
+      "word_id": "channel",
+      "text": "Change to another channel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石板上凿出一道浅槽，水只能顺着这道往下淌"
+    },
+    {
+      "id": "ex-cannon-1",
+      "word_id": "cannon",
+      "text": "The cannon fired at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铜管架在木架上，粗到能塞进拳头，一头对着城墙"
+    },
+    {
+      "id": "ex-cannon-2",
+      "word_id": "cannon",
+      "text": "Old cannons line the fort wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铜管架在木架上，粗到能塞进拳头，一头对着城墙"
+    },
+    {
+      "id": "ex-chief-1",
+      "word_id": "chief",
+      "text": "The chief gave the order.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷里众人说着话，一齐朝上座那人望过去"
+    },
+    {
+      "id": "ex-chief-2",
+      "word_id": "chief",
+      "text": "That is our chief concern.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "帐篷里众人说着话，一齐朝上座那人望过去"
+    },
+    {
+      "id": "ex-chef-1",
+      "word_id": "chef",
+      "text": "The chef prepared a special menu.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灶台后那人一抬手，几个帮手同时停下等着听"
+    },
+    {
+      "id": "ex-chef-2",
+      "word_id": "chef",
+      "text": "She trained as a chef in Paris.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "灶台后那人一抬手，几个帮手同时停下等着听"
+    },
+    {
+      "id": "ex-cattle-1",
+      "word_id": "cattle",
+      "text": "The cattle grazed by the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "栏里十几头挤在一处，主人清早数一遍才放心"
+    },
+    {
+      "id": "ex-cattle-2",
+      "word_id": "cattle",
+      "text": "He keeps forty head of cattle.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "栏里十几头挤在一处，主人清早数一遍才放心"
+    },
+    {
+      "id": "ex-cite-1",
+      "word_id": "cite",
+      "text": "She cited three studies.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他翻开书按住那一行，念出来给在座的人听"
+    },
+    {
+      "id": "ex-cite-2",
+      "word_id": "cite",
+      "text": "He was cited to appear in court.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他翻开书按住那一行，念出来给在座的人听"
+    },
+    {
+      "id": "ex-excite-1",
+      "word_id": "excite",
+      "text": "The news excited everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话音刚落，屋里人一下都坐直了，声音也高了"
+    },
+    {
+      "id": "ex-excite-2",
+      "word_id": "excite",
+      "text": "Loud noise excites the dog.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话音刚落，屋里人一下都坐直了，声音也高了"
+    },
+    {
+      "id": "ex-recite-1",
+      "word_id": "recite",
+      "text": "She recited the poem from memory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他闭着眼把整段说完，一个字没停顿"
+    },
+    {
+      "id": "ex-recite-2",
+      "word_id": "recite",
+      "text": "He recited the whole list.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他闭着眼把整段说完，一个字没停顿"
+    },
+    {
+      "id": "ex-climate-1",
+      "word_id": "climate",
+      "text": "The climate here is mild.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片地上，年年都是那几个月潮、那几个月干"
+    },
+    {
+      "id": "ex-climate-2",
+      "word_id": "climate",
+      "text": "There is a climate of distrust.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一片地上，年年都是那几个月潮、那几个月干"
+    },
+    {
+      "id": "ex-climax-1",
+      "word_id": "climax",
+      "text": "The film builds to a climax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一级一级往上，到最上面那级再没有了，人就停在那儿"
+    },
+    {
+      "id": "ex-climax-2",
+      "word_id": "climax",
+      "text": "Her career reached its climax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一级一级往上，到最上面那级再没有了，人就停在那儿"
+    },
+    {
+      "id": "ex-clinic-1",
+      "word_id": "clinic",
+      "text": "The clinic opens at eight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排床挨墙摆着，穿白衣的人挨床看过去"
+    },
+    {
+      "id": "ex-clinic-2",
+      "word_id": "clinic",
+      "text": "She works at a dental clinic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排床挨墙摆着，穿白衣的人挨床看过去"
+    },
+    {
+      "id": "ex-bulletin-1",
+      "word_id": "bulletin",
+      "text": "A bulletin was issued at noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上钉着一张短短的纸，底下按了印，路过的人都停下看"
+    },
+    {
+      "id": "ex-bulletin-2",
+      "word_id": "bulletin",
+      "text": "She reads the news bulletin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上钉着一张短短的纸，底下按了印，路过的人都停下看"
+    },
+    {
+      "id": "ex-bullet-1",
+      "word_id": "bullet",
+      "text": "The bullet missed by inches.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掌心里几颗黄铜色的小圆粒，一头是尖的"
+    },
+    {
+      "id": "ex-bullet-2",
+      "word_id": "bullet",
+      "text": "He loaded six bullets.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "掌心里几颗黄铜色的小圆粒，一头是尖的"
+    },
+    {
+      "id": "ex-bowling-1",
+      "word_id": "bowling",
+      "text": "They went bowling on Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个沉沉的圆球贴地滚出去，尽头一排木柱哗啦倒了"
+    },
+    {
+      "id": "ex-bowling-2",
+      "word_id": "bowling",
+      "text": "He booked a bowling lane.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个沉沉的圆球贴地滚出去，尽头一排木柱哗啦倒了"
     }
   ]
 }

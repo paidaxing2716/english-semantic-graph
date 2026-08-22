@@ -6414,6 +6414,282 @@
       "to": "cement",
       "type": "root",
       "note": "caedere（切、砍）→ caementum（砍碎的石屑）→ 碎石烧成的胶结料"
+    },
+    {
+      "from": "carrus",
+      "to": "car",
+      "type": "root",
+      "note": "carrus（四轮货车）→ 带轮子载人载物的那种车"
+    },
+    {
+      "from": "carrus",
+      "to": "carry",
+      "type": "root",
+      "note": "carrus（货车）→ carriare（用车运）→ 把东西带着走"
+    },
+    {
+      "from": "carrus",
+      "to": "carriage",
+      "type": "root",
+      "note": "carry（用车运）+ -age → 供载运的那辆车，及载运这件事"
+    },
+    {
+      "from": "carrus",
+      "to": "carrier",
+      "type": "root",
+      "note": "carry（带着走）+ -er → 负责把东西带着走的人或物"
+    },
+    {
+      "from": "carrus",
+      "to": "cargo",
+      "type": "root",
+      "note": "carrus（货车）→ 西班牙语 cargar（装车）→ 装在车船上的那批货"
+    },
+    {
+      "from": "carrus",
+      "to": "career",
+      "type": "root",
+      "note": "carrus（车）→ carraria（车道）→ 跑道 → 一个人走过的那条职业道"
+    },
+    {
+      "from": "carrus",
+      "to": "charge",
+      "type": "root",
+      "note": "carrus（货车）→ carricare（装车）→ 把担子压上去 → 收费、指控、充电"
+    },
+    {
+      "from": "tradere",
+      "to": "tradition",
+      "type": "root",
+      "note": "trad（交付）+ -ition → 一代代交下来的那套 → 传统"
+    },
+    {
+      "from": "tradere",
+      "to": "traitor",
+      "type": "root",
+      "note": "trait（交付）+ -or（人）→ 把自己一方交出去的那个人"
+    },
+    {
+      "from": "tradere",
+      "to": "treason",
+      "type": "root",
+      "note": "treas（交付）+ -on → 把国家交出去这桩罪"
+    },
+    {
+      "from": "tradere",
+      "to": "betray",
+      "type": "root",
+      "note": "be-（加强）+ tray（交付）→ 把托付之物交给外人 → 背叛；引申为无意露出"
+    },
+    {
+      "from": "bainein",
+      "to": "base",
+      "type": "root",
+      "note": "basis（踏脚处）→ 底下承重的那一处 → 底座、基地"
+    },
+    {
+      "from": "bainein",
+      "to": "basis",
+      "type": "root",
+      "note": "basis（踏脚处）→ 论证或安排所立足的那一点"
+    },
+    {
+      "from": "bainein",
+      "to": "basic",
+      "type": "root",
+      "note": "base（底层）+ -ic → 属于最底那一层的 → 基本的"
+    },
+    {
+      "from": "bainein",
+      "to": "basement",
+      "type": "root",
+      "note": "base（底部）+ -ment → 房子最底下那一层"
+    },
+    {
+      "from": "bainein",
+      "to": "baseball",
+      "type": "root",
+      "note": "base（垒、踏脚处）+ ball（球）→ 绕垒跑的那种球赛"
+    },
+    {
+      "from": "charta",
+      "to": "card",
+      "type": "root",
+      "note": "charta（纸）→ 裁成小张的硬纸片"
+    },
+    {
+      "from": "charta",
+      "to": "chart",
+      "type": "root",
+      "note": "charta（纸）→ 画上线条数据的那张纸 → 图表、海图"
+    },
+    {
+      "from": "charta",
+      "to": "charter",
+      "type": "root",
+      "note": "chart（纸）+ -er → 写明权利的那份正式文书；动词指按约包租"
+    },
+    {
+      "from": "charta",
+      "to": "cartoon",
+      "type": "root",
+      "note": "carta（纸）+ -one（大）→ 大张硬纸上的草图 → 漫画、动画"
+    },
+    {
+      "from": "campus-field",
+      "to": "camp",
+      "type": "root",
+      "note": "campus（原野）→ 在野地上扎下的临时住处"
+    },
+    {
+      "from": "campus-field",
+      "to": "campus",
+      "type": "root",
+      "note": "campus（原野）→ 学校所占的那整片地"
+    },
+    {
+      "from": "campus-field",
+      "to": "campaign",
+      "type": "root",
+      "note": "campagna（旷野）→ 军队开到野地上打的那一仗 → 战役；引申为有组织的行动"
+    },
+    {
+      "from": "campus-field",
+      "to": "champion",
+      "type": "root",
+      "note": "campio（在场上格斗的人）← campus（场地）→ 场上胜出的那个 → 冠军"
+    },
+    {
+      "from": "circulus",
+      "to": "circle",
+      "type": "root",
+      "note": "circulus（小环）→ 一圈闭合的线，及圈起来的那片"
+    },
+    {
+      "from": "circulus",
+      "to": "circular",
+      "type": "root",
+      "note": "circul（小环）+ -ar（…的）→ 圆形的；也指绕回原处的（论证）"
+    },
+    {
+      "from": "circulus",
+      "to": "circus",
+      "type": "root",
+      "note": "circus（圆圈）→ 圆形场地 → 在圆场里演的那种班子"
+    },
+    {
+      "from": "circulus",
+      "to": "circuit",
+      "type": "root",
+      "note": "circum（绕，circus 的宾格作副词）+ it（ire 行）→ 绕行一周 → 回路、巡回"
+    },
+    {
+      "from": "battuere",
+      "to": "battle",
+      "type": "root",
+      "note": "battuere（击打）→ battualia（操练、交手）→ 两军对打的那一场"
+    },
+    {
+      "from": "battuere",
+      "to": "combat",
+      "type": "root",
+      "note": "com-（相对）+ bat（打）→ 面对面对打"
+    },
+    {
+      "from": "battuere",
+      "to": "debate",
+      "type": "root",
+      "note": "de-（往下）+ bate（打）→ 用话往下打 → 辩论"
+    },
+    {
+      "from": "canalis",
+      "to": "canal",
+      "type": "root",
+      "note": "canalis（水槽）→ 人工挖出让水通行的那条道"
+    },
+    {
+      "from": "canalis",
+      "to": "channel",
+      "type": "root",
+      "note": "canalis（管道）经古法语 chanel → 水流经过的那条道；引申为传递的路子"
+    },
+    {
+      "from": "canalis",
+      "to": "cannon",
+      "type": "root",
+      "note": "canna（管）+ -one（大）→ 一根大管子 → 火炮"
+    },
+    {
+      "from": "caput",
+      "to": "chief",
+      "type": "root",
+      "note": "caput（头）经古法语 chief → 一群人里居首的那个"
+    },
+    {
+      "from": "caput",
+      "to": "chef",
+      "type": "root",
+      "note": "chief（首领）的法语后期形 → 厨房里居首的那个 → 主厨"
+    },
+    {
+      "from": "caput",
+      "to": "cattle",
+      "type": "root",
+      "note": "capitale（首要财产）→ 旧时最值钱的家产就是牛 → 牛群"
+    },
+    {
+      "from": "citare",
+      "to": "cite",
+      "type": "root",
+      "note": "citare（唤来）→ 把别人的话唤到眼前作凭据 → 引用"
+    },
+    {
+      "from": "citare",
+      "to": "excite",
+      "type": "root",
+      "note": "ex-（出来）+ cite（唤动）→ 把里头的劲唤出来 → 使激动"
+    },
+    {
+      "from": "citare",
+      "to": "recite",
+      "type": "root",
+      "note": "re-（再）+ cite（唤来）→ 把记住的话再唤出来 → 背诵"
+    },
+    {
+      "from": "klinein",
+      "to": "climate",
+      "type": "root",
+      "note": "klima（地带）← klinein（倾斜）→ 日照斜角不同分出的地带 → 一地长年的天候"
+    },
+    {
+      "from": "klinein",
+      "to": "climax",
+      "type": "root",
+      "note": "klimax（梯子）← klinein（斜靠）→ 一级级斜上去的顶端 → 高潮"
+    },
+    {
+      "from": "klinein",
+      "to": "clinic",
+      "type": "root",
+      "note": "klinē（卧床）← klinein（斜靠）→ 在床边诊治 → 诊所"
+    },
+    {
+      "from": "bulla",
+      "to": "bulletin",
+      "type": "root",
+      "note": "bulla（铅封文书）→ bullettino（小文书）→ 简短公告"
+    },
+    {
+      "from": "bulla",
+      "to": "bullet",
+      "type": "root",
+      "note": "boule（球）+ -ette（小）→ 小圆球 → 枪弹"
+    },
+    {
+      "from": "bulla",
+      "to": "bowling",
+      "type": "root",
+      "note": "boule（球）→ bowl（滚球）+ -ing → 滚球撞瓶的那种玩法"
     }
   ]
 }

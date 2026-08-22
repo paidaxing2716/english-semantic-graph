@@ -3827,6 +3827,232 @@
         "pleasant",
         "pleasure"
       ]
+    },
+    {
+      "id": "carrus",
+      "root": "carrus",
+      "variants": [
+        "car",
+        "carri",
+        "charg",
+        "cargo"
+      ],
+      "origin": "拉丁语 carrus（四轮货车），借自高卢语；经古北法语 carre、西班牙语 cargar（装车）等分支入英语",
+      "core_concept": "a wheeled cart and what it takes on / 一辆载货的车，以及装上去的东西",
+      "core_image": "一辆四轮车停在场上，货一件件往车板上码",
+      "english_definition": "wheeled cart, to convey by cart",
+      "word_ids": [
+        "car",
+        "career",
+        "cargo",
+        "carriage",
+        "carrier",
+        "carry",
+        "charge"
+      ]
+    },
+    {
+      "id": "tradere",
+      "root": "tradere",
+      "variants": [
+        "trad",
+        "trait",
+        "treas"
+      ],
+      "origin": "拉丁语 tradere（交付、移交），由 trans（越过）＋dare（给）构成；交出去的东西是好是坏，分出「传承」与「背卖」两支",
+      "core_concept": "handing a thing across into other hands / 把东西越过界交到别人手里",
+      "core_image": "一样东西从这只手越过去，落进对面那只手",
+      "english_definition": "to hand over, deliver up",
+      "word_ids": [
+        "betray",
+        "tradition",
+        "traitor",
+        "treason"
+      ]
+    },
+    {
+      "id": "bainein",
+      "root": "bainein",
+      "variants": [
+        "bas",
+        "base",
+        "basi"
+      ],
+      "origin": "希腊语 bainein（走、踏），其名词 basis 本义「踏脚处、立足点」，经拉丁语 basis 入英语；词根 id 用动词形 bainein，因 basis 本身是本批要收的单词，作 id 会产生自环边",
+      "core_concept": "the spot the foot comes down on, what everything above rests on / 脚落下的那一处，上面全靠它撑",
+      "core_image": "脚踩实了那块石头，整个人的重量才敢压上去",
+      "english_definition": "to step, a footing",
+      "word_ids": [
+        "base",
+        "baseball",
+        "basement",
+        "basic",
+        "basis"
+      ]
+    },
+    {
+      "id": "charta",
+      "root": "charta",
+      "variants": [
+        "chart",
+        "card",
+        "cart"
+      ],
+      "origin": "拉丁语 charta（纸莎草叶、纸）← 希腊语 khartēs（纸卷）；经意大利语 carta、法语 carte 分支入英语",
+      "core_concept": "a flat sheet that carries marks / 一张平面，用来承载写画的东西",
+      "core_image": "一张硬纸铺开，上面画的线和字一目了然",
+      "english_definition": "sheet of papyrus, paper",
+      "word_ids": [
+        "card",
+        "cartoon",
+        "chart",
+        "charter"
+      ]
+    },
+    {
+      "id": "campus-field",
+      "root": "campus",
+      "variants": [
+        "camp",
+        "champ",
+        "campagn"
+      ],
+      "origin": "拉丁语 campus（平坦原野、operations 用的场地）；词根 id 加 -field 后缀，因 campus 本身是本批要收的单词，作 id 会产生自环边（照 edere-publish、ter-comparative 先例）",
+      "core_concept": "an open flat ground where things are staged / 一片摊开的平地，事在上头铺排",
+      "core_image": "一片空旷平地，帐篷一排排扎开，中间留出走道",
+      "english_definition": "open field, level ground",
+      "word_ids": [
+        "camp",
+        "campaign",
+        "campus",
+        "champion"
+      ]
+    },
+    {
+      "id": "circulus",
+      "root": "circulus",
+      "variants": [
+        "circul",
+        "circ",
+        "circum"
+      ],
+      "origin": "拉丁语 circulus（小环）是 circus（圆圈）的指小形 ← 希腊语 kirkos（环）；circum（绕、环着）本是 circus 的宾格作副词用，故 circuit 一支也归此族",
+      "core_concept": "a line that comes round to where it began / 一条线绕回到起点",
+      "core_image": "用绳拴住笔一转，笔尖回到落笔那一点，圈就合上了",
+      "english_definition": "small ring, circle",
+      "word_ids": [
+        "circle",
+        "circuit",
+        "circular",
+        "circus"
+      ]
+    },
+    {
+      "id": "battuere",
+      "root": "battuere",
+      "variants": [
+        "batt",
+        "bat",
+        "bate"
+      ],
+      "origin": "拉丁语 battuere（击打、拍击），通俗拉丁语里取代 caedere 成常用词；英语 battle、combat、debate 均自此支",
+      "core_concept": "blow answering blow between two sides / 两边一下接一下地对打",
+      "core_image": "两只手轮着往下砸，一下接一下，谁也不肯先停",
+      "english_definition": "to beat, strike",
+      "word_ids": [
+        "battle",
+        "combat",
+        "debate"
+      ]
+    },
+    {
+      "id": "canalis",
+      "root": "canalis",
+      "variants": [
+        "canal",
+        "chann",
+        "cann"
+      ],
+      "origin": "拉丁语 canalis（水槽、管道）← canna（芦苇、管）← 希腊语 kanna；芦苇中空成管，故引申为凡中空可通之物",
+      "core_concept": "a hollow tube that something runs through / 一根中空的管，东西顺着它走",
+      "core_image": "一截芦苇折断，里头是空的，水一倒就顺着流出去",
+      "english_definition": "reed, pipe, channel",
+      "word_ids": [
+        "canal",
+        "cannon",
+        "channel"
+      ]
+    },
+    {
+      "id": "caput",
+      "root": "caput",
+      "variants": [
+        "chief",
+        "chef",
+        "cap",
+        "cabb"
+      ],
+      "origin": "拉丁语 caput（头、首要之处）；经古法语 chief 一支入英语，又经晚期拉丁语 capitale（首要财产）派出 cattle",
+      "core_concept": "the head, hence whatever stands at the top / 头，引申为居首的那一个",
+      "core_image": "一群人里那个头往前一伸，别人的目光跟着转过去",
+      "english_definition": "head, chief thing",
+      "word_ids": [
+        "cattle",
+        "chef",
+        "chief"
+      ]
+    },
+    {
+      "id": "citare",
+      "root": "citare",
+      "variants": [
+        "cit",
+        "cite"
+      ],
+      "origin": "拉丁语 citare（唤来、催动）是 ciere（使动起来）的反复体；本义是把人或话「叫到面前来」",
+      "core_concept": "calling a thing up so it stands before you / 把某样东西唤到眼前来",
+      "core_image": "一声招呼，本来不在场的那个被叫到跟前站着",
+      "english_definition": "to summon, set in motion",
+      "word_ids": [
+        "cite",
+        "excite",
+        "recite"
+      ]
+    },
+    {
+      "id": "klinein",
+      "root": "klinein",
+      "variants": [
+        "clim",
+        "clin"
+      ],
+      "origin": "希腊语 klinein（使倾斜、斜靠）；klima（地带，本指日照斜角）、klimax（梯子，一级级斜上去）、klinē（卧床，斜靠之处）皆由此出",
+      "core_concept": "leaning at a slant, and what follows from the tilt / 斜着倾靠，以及这个斜度带来的结果",
+      "core_image": "一块板一头垫高，东西顺着那道斜面往下滑",
+      "english_definition": "to lean, slant",
+      "word_ids": [
+        "climate",
+        "climax",
+        "clinic"
+      ]
+    },
+    {
+      "id": "bulla",
+      "root": "bulla",
+      "variants": [
+        "bull",
+        "boul",
+        "bowl"
+      ],
+      "origin": "拉丁语 bulla（水泡、圆凸的铅封）；封在文书上的铅印是圆的，故文书本身也叫 bulla，英语 bulletin 由此；圆球一支经法语 boule 派出 bullet",
+      "core_concept": "a small round swelling, and what is sealed or shaped by it / 一个圆凸的小物，及由它封定或成形之物",
+      "core_image": "一枚圆铅印按在纸角上，凸起来一小块",
+      "english_definition": "bubble, round seal",
+      "word_ids": [
+        "bowling",
+        "bullet",
+        "bulletin"
+      ]
     }
   ]
 }

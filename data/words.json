@@ -53899,6 +53899,1768 @@
         "奖金：约定工资之外另给的那笔",
         "额外好处：不必给却给了的那一份"
       ]
+    },
+    {
+      "id": "car",
+      "word": "car",
+      "pos": "noun",
+      "phonetic": "/kɑː(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carrus（四轮货车）→ 带轮子载人载物的那种车",
+      "origin": "古北法语 carre ← 拉丁语 carrus（四轮货车）",
+      "native_definition": "a road vehicle with an engine and four wheels",
+      "core_concept": "the wheeled box one gets into and is taken along in – 坐进去、被它带着走的那个带轮子的箱",
+      "core_image": "四个轮子撑着一个铁壳，人坐进去合上门",
+      "chinese": [
+        "汽车",
+        "车厢"
+      ],
+      "examples": [
+        "She parked the car outside.",
+        "The train has eight cars."
+      ],
+      "synonyms": [
+        "car",
+        "truck"
+      ],
+      "antonyms": [],
+      "related": [
+        "carry",
+        "carriage"
+      ],
+      "semantic_expansions": [
+        "汽车：带轮载人的那种车",
+        "车厢：列车上同样带轮的一节"
+      ],
+      "recall_hint": "carrus（四轮货车）→ 带轮子载人载物的车"
+    },
+    {
+      "id": "carry",
+      "word": "carry",
+      "pos": "verb",
+      "phonetic": "/ˈkæri/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carrus（货车）→ carriare（用车运）→ 把东西带着走",
+      "origin": "盎格鲁法语 carier（用车运）← 通俗拉丁语 carricare ← carrus（货车）",
+      "native_definition": "to hold something and take it with you",
+      "core_concept": "taking a load along instead of leaving it where it lay – 把货带着走，而不是留在原地",
+      "core_image": "他把箱子抱起来，一路没放下过",
+      "chinese": [
+        "搬运",
+        "携带",
+        "载运"
+      ],
+      "examples": [
+        "She carried the box upstairs.",
+        "This bus carries fifty people."
+      ],
+      "synonyms": [
+        "bear",
+        "convey"
+      ],
+      "antonyms": [
+        "drop"
+      ],
+      "related": [
+        "car",
+        "cargo"
+      ],
+      "semantic_expansions": [
+        "搬运/携带：把东西带着走",
+        "载运：车船同样把货带着走"
+      ],
+      "recall_hint": "carrus（货车）→ carriare（用车运）→ 带着走"
+    },
+    {
+      "id": "carriage",
+      "word": "carriage",
+      "pos": "noun",
+      "phonetic": "/ˈkærɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carry（用车运）+ -age → 供载运的那辆车，及载运这件事",
+      "origin": "盎格鲁法语 cariage ← carier ← 通俗拉丁语 carricare ← carrus",
+      "native_definition": "a vehicle pulled by horses; a railway coach; the act of carrying",
+      "core_concept": "the box on wheels made to be pulled – 造出来专供人拉着走的那个带轮的厢",
+      "core_image": "两匹马在前头，后面那个厢一晃一晃跟着",
+      "chinese": [
+        "马车",
+        "车厢",
+        "运输"
+      ],
+      "examples": [
+        "A horse-drawn carriage waited outside.",
+        "Goods carriage costs extra."
+      ],
+      "synonyms": [
+        "coach",
+        "transport"
+      ],
+      "antonyms": [],
+      "related": [
+        "car",
+        "carry"
+      ],
+      "semantic_expansions": [
+        "马车/车厢：供载运的那个带轮的厢",
+        "运输：把货带着走这件事本身"
+      ],
+      "recall_hint": "carry（用车运）+ -age → 供载运的车及其事"
+    },
+    {
+      "id": "carrier",
+      "word": "carrier",
+      "pos": "noun",
+      "phonetic": "/ˈkæriə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carry（带着走）+ -er → 负责把东西带着走的人或物",
+      "origin": "英语 carrier，来自 carry ← 通俗拉丁语 carricare ← carrus",
+      "native_definition": "a person or thing that transports something; one who spreads a disease",
+      "core_concept": "whatever the load is handed to for the journey – 把货交给它、由它带走的那个",
+      "core_image": "包裹交到那人手上，第二天出现在另一座城",
+      "chinese": [
+        "运送者",
+        "承运人",
+        "带菌者"
+      ],
+      "examples": [
+        "The carrier delivered it by noon.",
+        "Mosquitoes are carriers of malaria."
+      ],
+      "synonyms": [
+        "carrier",
+        "ship"
+      ],
+      "antonyms": [],
+      "related": [
+        "carry",
+        "cargo"
+      ],
+      "semantic_expansions": [
+        "运送者/承运人：受托把货带走的那方",
+        "带菌者：同样是被病带着走的那个载体"
+      ],
+      "recall_hint": "carry（带着走）+ -er → 负责带走的那个"
+    },
+    {
+      "id": "cargo",
+      "word": "cargo",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːɡəʊ/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carrus（货车）→ 西班牙语 cargar（装车）→ 装在车船上的那批货",
+      "origin": "西班牙语 cargo（装载物）← cargar（装车）← 通俗拉丁语 carricare ← carrus",
+      "native_definition": "the goods carried by a ship, plane, or truck",
+      "core_concept": "what fills the hold once the loading is done – 装完之后填满舱里的那批东西",
+      "core_image": "舱盖掀开，底下一层层码到顶都是箱子",
+      "chinese": [
+        "货物",
+        "载货"
+      ],
+      "examples": [
+        "The ship carried a cargo of grain.",
+        "Cargo planes fly overnight."
+      ],
+      "synonyms": [
+        "load",
+        "goods"
+      ],
+      "antonyms": [],
+      "related": [
+        "carry",
+        "carrier"
+      ],
+      "semantic_expansions": [
+        "货物/载货：装在车船上被带走的那批东西"
+      ],
+      "recall_hint": "carrus（货车）→ cargar（装车）→ 装上去的货"
+    },
+    {
+      "id": "career",
+      "word": "career",
+      "pos": "noun",
+      "phonetic": "/kəˈrɪə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carrus（车）→ carraria（车道）→ 跑道 → 一个人走过的那条职业道",
+      "origin": "法语 carrière（跑马道）← 意大利语 carriera ← 通俗拉丁语 carraria（车道）← carrus",
+      "native_definition": "the series of jobs a person has over their working life",
+      "core_concept": "the track laid for wheels, and by extension the course one runs – 给车轮铺出的那条道，引申为人一路跑下来的路线",
+      "core_image": "车辙压出两道印子，后来的车都顺着这两道走",
+      "chinese": [
+        "职业",
+        "生涯",
+        "事业"
+      ],
+      "examples": [
+        "She had a long career in law.",
+        "He changed careers at forty."
+      ],
+      "synonyms": [
+        "profession",
+        "vocation"
+      ],
+      "antonyms": [],
+      "related": [
+        "car",
+        "carriage"
+      ],
+      "semantic_expansions": [
+        "职业/事业：一个人顺着走下来的那条道",
+        "生涯：这条道从头到尾的整段"
+      ],
+      "recall_hint": "carrus（车）→ carraria（车道）→ 人走的职业道"
+    },
+    {
+      "id": "charge",
+      "word": "charge",
+      "pos": "verb",
+      "phonetic": "/tʃɑːdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "carrus"
+      ],
+      "root_logic": "carrus（货车）→ carricare（装车）→ 把担子压上去 → 收费、指控、充电",
+      "origin": "古法语 chargier（装载）← 通俗拉丁语 carricare（装车）← carrus（货车）",
+      "native_definition": "to ask a price; to accuse formally; to put electricity into",
+      "core_concept": "loading a weight onto someone or something – 把一份分量压到人或物身上",
+      "core_image": "货往车上一压，车轴吃住了那个重量",
+      "chinese": [
+        "收费",
+        "指控",
+        "充电",
+        "冲锋"
+      ],
+      "examples": [
+        "They charge ten pounds for entry.",
+        "He was charged with theft."
+      ],
+      "synonyms": [
+        "bill",
+        "accuse"
+      ],
+      "antonyms": [
+        "discharge"
+      ],
+      "related": [
+        "cargo",
+        "carry"
+      ],
+      "semantic_expansions": [
+        "收费：把价钱这份分量压给顾客",
+        "指控：把罪名压到人身上",
+        "充电：把电这份量压进电池",
+        "冲锋：把整个人的势压向前"
+      ],
+      "recall_hint": "carrus（货车）→ carricare（装车）→ 把分量压上去"
+    },
+    {
+      "id": "tradition",
+      "word": "tradition",
+      "pos": "noun",
+      "phonetic": "/trəˈdɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tradere"
+      ],
+      "root_logic": "trad（交付）+ -ition → 一代代交下来的那套 → 传统",
+      "origin": "拉丁语 traditio（交付、口传）← tradere（交付）← trans＋dare",
+      "native_definition": "a custom or belief passed down over generations",
+      "core_concept": "what each generation puts into the next pair of hands – 每一代交到下一双手里的那份",
+      "core_image": "老人把那套做法一样样交给儿子，儿子照着又教给孙子",
+      "chinese": [
+        "传统",
+        "惯例",
+        "传承"
+      ],
+      "examples": [
+        "It is a family tradition.",
+        "The town keeps its old traditions."
+      ],
+      "synonyms": [
+        "custom",
+        "heritage"
+      ],
+      "antonyms": [],
+      "related": [
+        "traitor",
+        "treason"
+      ],
+      "semantic_expansions": [
+        "传统/惯例：一代代交下来、照着做的那套",
+        "传承：交这个动作本身"
+      ],
+      "recall_hint": "trad（交付）+ -ition → 一代代交下来的那套"
+    },
+    {
+      "id": "traitor",
+      "word": "traitor",
+      "pos": "noun",
+      "phonetic": "/ˈtreɪtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "tradere"
+      ],
+      "root_logic": "trait（交付）+ -or（人）→ 把自己一方交出去的那个人",
+      "origin": "古法语 traitre ← 拉丁语 traditor（交付者、叛卖者）← tradere",
+      "native_definition": "a person who betrays their country or friends",
+      "core_concept": "the one who hands his own side over to the other – 把自己这边交到对面手里的那个",
+      "core_image": "他把名册递了出去，第二天册上的人一个个被带走",
+      "chinese": [
+        "叛徒",
+        "卖国者"
+      ],
+      "examples": [
+        "He was executed as a traitor.",
+        "They called her a traitor."
+      ],
+      "synonyms": [
+        "rebel",
+        "spy"
+      ],
+      "antonyms": [
+        "loyal",
+        "faith"
+      ],
+      "related": [
+        "treason",
+        "betray"
+      ],
+      "semantic_expansions": [
+        "叛徒/卖国者：把自己一方交到对面手里的那个人"
+      ],
+      "recall_hint": "trait（交付）+ -or（人）→ 把自己一方交出去的人"
+    },
+    {
+      "id": "treason",
+      "word": "treason",
+      "pos": "noun",
+      "phonetic": "/ˈtriːzn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tradere"
+      ],
+      "root_logic": "treas（交付）+ -on → 把国家交出去这桩罪",
+      "origin": "盎格鲁法语 treisoun ← 拉丁语 traditio（交付、叛卖）← tradere",
+      "native_definition": "the crime of betraying one's own country",
+      "core_concept": "the act of handing one's own country across – 把自己的国交出去这个行为",
+      "core_image": "图纸从抽屉里取出，越过边境线递到了对面",
+      "chinese": [
+        "叛国罪",
+        "背叛"
+      ],
+      "examples": [
+        "He was tried for treason.",
+        "Such an act amounts to treason."
+      ],
+      "synonyms": [
+        "crime",
+        "revolt"
+      ],
+      "antonyms": [
+        "loyalty"
+      ],
+      "related": [
+        "traitor",
+        "tradition"
+      ],
+      "semantic_expansions": [
+        "叛国罪：把自己的国交出去这桩罪",
+        "背叛：同一个交出去的动作，泛用"
+      ],
+      "recall_hint": "treas（交付）+ -on → 把国交出去这桩罪"
+    },
+    {
+      "id": "betray",
+      "word": "betray",
+      "pos": "verb",
+      "phonetic": "/bɪˈtreɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "tradere"
+      ],
+      "root_logic": "be-（加强）+ tray（交付）→ 把托付之物交给外人 → 背叛；引申为无意露出",
+      "origin": "中古英语 betrayen，由 be-＋古法语 trair ← 拉丁语 tradere（交付）",
+      "native_definition": "to be disloyal to someone; to reveal something unintentionally",
+      "core_concept": "handing over what was entrusted to you – 把托付给自己的东西交了出去",
+      "core_image": "钥匙本是托他保管，他却把它递到了外人手上",
+      "chinese": [
+        "背叛",
+        "泄露",
+        "流露"
+      ],
+      "examples": [
+        "He betrayed his closest friend.",
+        "Her face betrayed her fear."
+      ],
+      "synonyms": [
+        "deceive",
+        "reveal"
+      ],
+      "antonyms": [
+        "protect"
+      ],
+      "related": [
+        "traitor",
+        "treason"
+      ],
+      "semantic_expansions": [
+        "背叛：把托付之物交给外人",
+        "泄露：把不该交的消息交了出去",
+        "流露：神情不自觉把心里的事交了出来"
+      ],
+      "recall_hint": "be-（加强）+ tray（交付）→ 把托付之物交出去"
+    },
+    {
+      "id": "base",
+      "word": "base",
+      "pos": "noun",
+      "phonetic": "/beɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "bainein"
+      ],
+      "root_logic": "basis（踏脚处）→ 底下承重的那一处 → 底座、基地",
+      "origin": "古法语 bas ← 拉丁语 basis ← 希腊语 basis（踏脚处）← bainein（踏）",
+      "native_definition": "the lowest part that supports something; a centre of operations",
+      "core_concept": "the part everything above puts its weight on – 上面所有重量都压在它身上的那一层",
+      "core_image": "柱子底下那块方石承着整根柱，抽掉它上面就塌",
+      "chinese": [
+        "底部",
+        "基础",
+        "基地"
+      ],
+      "examples": [
+        "The base of the lamp is heavy.",
+        "They returned to base at dusk."
+      ],
+      "synonyms": [
+        "bottom",
+        "foundation"
+      ],
+      "antonyms": [
+        "top"
+      ],
+      "related": [
+        "basic",
+        "basement"
+      ],
+      "semantic_expansions": [
+        "底部/基础：上面重量全压在它身上的那一层",
+        "基地：一切行动的落脚与出发之处"
+      ],
+      "recall_hint": "basis（踏脚处）→ 底下承重的那一层"
+    },
+    {
+      "id": "basis",
+      "word": "basis",
+      "pos": "noun",
+      "phonetic": "/ˈbeɪsɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "bainein"
+      ],
+      "root_logic": "basis（踏脚处）→ 论证或安排所立足的那一点",
+      "origin": "拉丁语 basis ← 希腊语 basis（踏脚处）← bainein（踏）",
+      "native_definition": "the facts or ideas from which something is developed",
+      "core_concept": "the footing an argument stands on – 一番道理踩着立住的那一点",
+      "core_image": "他先把那个前提摆稳，后面的话才踩得住",
+      "chinese": [
+        "基础",
+        "根据",
+        "依据"
+      ],
+      "examples": [
+        "What is the basis of your claim?",
+        "We meet on a weekly basis."
+      ],
+      "synonyms": [
+        "foundation",
+        "reason"
+      ],
+      "antonyms": [],
+      "related": [
+        "base",
+        "basic"
+      ],
+      "semantic_expansions": [
+        "基础：整套说法立足的那一点",
+        "根据/依据：拿它当立足点来论证"
+      ],
+      "recall_hint": "basis（踏脚处）→ 论证立足的那一点"
+    },
+    {
+      "id": "basic",
+      "word": "basic",
+      "pos": "adjective",
+      "phonetic": "/ˈbeɪsɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "bainein"
+      ],
+      "root_logic": "base（底层）+ -ic → 属于最底那一层的 → 基本的",
+      "origin": "英语 basic，来自 base ← 希腊语 basis（踏脚处）",
+      "native_definition": "forming the simplest and most necessary part of something",
+      "core_concept": "the layer nothing else can be put under – 底下再没有别的一层了",
+      "core_image": "把上面几层都揭掉，剩下这层再往下就没有了",
+      "chinese": [
+        "基本的",
+        "初级的",
+        "必需的"
+      ],
+      "examples": [
+        "Learn the basic rules first.",
+        "The room has only basic furniture."
+      ],
+      "synonyms": [
+        "fundamental",
+        "elementary"
+      ],
+      "antonyms": [
+        "advanced",
+        "complex"
+      ],
+      "related": [
+        "base",
+        "basis"
+      ],
+      "semantic_expansions": [
+        "基本的/必需的：底下再没有一层可揭的",
+        "初级的：从最底那层学起的"
+      ],
+      "recall_hint": "base（底层）+ -ic → 属于最底那一层"
+    },
+    {
+      "id": "basement",
+      "word": "basement",
+      "pos": "noun",
+      "phonetic": "/ˈbeɪsmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "bainein"
+      ],
+      "root_logic": "base（底部）+ -ment → 房子最底下那一层",
+      "origin": "英语 basement，来自 base ← 希腊语 basis（踏脚处）",
+      "native_definition": "the floor of a building that is below ground level",
+      "core_concept": "the storey the whole house stands on, dug into the ground – 整栋房子踩着的那一层，埋在地里",
+      "core_image": "顺楼梯往下走到底，头顶就是一楼的地板",
+      "chinese": [
+        "地下室",
+        "底层"
+      ],
+      "examples": [
+        "They store boxes in the basement.",
+        "The basement floods every spring."
+      ],
+      "synonyms": [
+        "cellar",
+        "store"
+      ],
+      "antonyms": [
+        "roof"
+      ],
+      "related": [
+        "base",
+        "basic"
+      ],
+      "semantic_expansions": [
+        "地下室/底层：整栋房子踩着的、埋在地里那一层"
+      ],
+      "recall_hint": "base（底部）+ -ment → 房子最底那一层"
+    },
+    {
+      "id": "baseball",
+      "word": "baseball",
+      "pos": "noun",
+      "phonetic": "/ˈbeɪsbɔːl/",
+      "decomposable": "root",
+      "root_ids": [
+        "bainein"
+      ],
+      "root_logic": "base（垒、踏脚处）+ ball（球）→ 绕垒跑的那种球赛",
+      "origin": "英语复合词 base＋ball；base ← 希腊语 basis（踏脚处）",
+      "native_definition": "a game in which players hit a ball and run round four bases",
+      "core_concept": "the game named after the spots the runner must step on – 以跑者必须踩到的那几处得名的球赛",
+      "core_image": "打完那一棒他就跑，脚一个个点过场上那四块垫子",
+      "chinese": [
+        "棒球"
+      ],
+      "examples": [
+        "They played baseball all afternoon.",
+        "He collects baseball cards."
+      ],
+      "synonyms": [
+        "sport",
+        "play"
+      ],
+      "antonyms": [],
+      "related": [
+        "base",
+        "basic"
+      ],
+      "semantic_expansions": [
+        "棒球：以跑者要踩的那几处（垒）得名的球赛"
+      ],
+      "recall_hint": "base（垒）+ ball（球）→ 绕垒跑的球赛"
+    },
+    {
+      "id": "card",
+      "word": "card",
+      "pos": "noun",
+      "phonetic": "/kɑːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "charta"
+      ],
+      "root_logic": "charta（纸）→ 裁成小张的硬纸片",
+      "origin": "法语 carte ← 意大利语 carta ← 拉丁语 charta（纸）← 希腊语 khartēs",
+      "native_definition": "a small piece of stiff paper used for messages, games, or identity",
+      "core_concept": "the palm-sized stiff sheet you hand over or hold – 递出去或攥在手里那张巴掌大的硬纸",
+      "core_image": "他从钱包里抽出一张硬硬的小方片，递到柜台上",
+      "chinese": [
+        "卡片",
+        "纸牌",
+        "证件"
+      ],
+      "examples": [
+        "She sent me a birthday card.",
+        "He shuffled the cards twice."
+      ],
+      "synonyms": [
+        "ticket",
+        "slip"
+      ],
+      "antonyms": [],
+      "related": [
+        "chart",
+        "charter"
+      ],
+      "semantic_expansions": [
+        "卡片：裁成小张的硬纸",
+        "纸牌：印了花色供玩的那种小张",
+        "证件：印了身份信息的那一张"
+      ],
+      "recall_hint": "charta（纸）→ 裁成小张的硬纸片"
+    },
+    {
+      "id": "chart",
+      "word": "chart",
+      "pos": "noun",
+      "phonetic": "/tʃɑːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "charta"
+      ],
+      "root_logic": "charta（纸）→ 画上线条数据的那张纸 → 图表、海图",
+      "origin": "法语 charte ← 拉丁语 charta（纸）",
+      "native_definition": "a sheet showing information as lines, figures, or a map",
+      "core_concept": "the sheet whose marks let you read a whole situation at a glance – 靠纸上的线条一眼看出全局的那张",
+      "core_image": "墙上贴的那张纸画着起落的折线，谁走过都抬头看一眼",
+      "chinese": [
+        "图表",
+        "海图",
+        "排行榜"
+      ],
+      "examples": [
+        "The chart shows monthly sales.",
+        "The captain checked the chart."
+      ],
+      "synonyms": [
+        "graph",
+        "diagram"
+      ],
+      "antonyms": [],
+      "related": [
+        "card",
+        "charter"
+      ],
+      "semantic_expansions": [
+        "图表：把数据画成线条的那张纸",
+        "海图：画着航路水深的那张",
+        "排行榜：把名次排成表的那张"
+      ],
+      "recall_hint": "charta（纸）→ 画上线条数据的那张纸"
+    },
+    {
+      "id": "charter",
+      "word": "charter",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɑːtə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "charta"
+      ],
+      "root_logic": "chart（纸）+ -er → 写明权利的那份正式文书；动词指按约包租",
+      "origin": "古法语 chartre ← 拉丁语 chartula（小纸片、文书）← charta（纸）",
+      "native_definition": "a formal document stating rights; to hire a vehicle for exclusive use",
+      "core_concept": "the sheet whose words bind, once sealed – 一旦盖了印，纸上的字就约束住人",
+      "core_image": "羊皮纸上盖了红印，从此城里的人按那上头写的办",
+      "chinese": [
+        "宪章",
+        "特许证",
+        "包租"
+      ],
+      "examples": [
+        "The city received its charter in 1215.",
+        "They chartered a plane."
+      ],
+      "synonyms": [
+        "deed",
+        "contract"
+      ],
+      "antonyms": [],
+      "related": [
+        "card",
+        "chart"
+      ],
+      "semantic_expansions": [
+        "宪章/特许证：写明权利、盖印生效的那份文书",
+        "包租：照文书约定独家使用车船"
+      ],
+      "recall_hint": "chart（纸）+ -er → 写明权利、盖印生效的文书"
+    },
+    {
+      "id": "cartoon",
+      "word": "cartoon",
+      "pos": "noun",
+      "phonetic": "/kɑːˈtuːn/",
+      "decomposable": "root",
+      "root_ids": [
+        "charta"
+      ],
+      "root_logic": "carta（纸）+ -one（大）→ 大张硬纸上的草图 → 漫画、动画",
+      "origin": "意大利语 cartone（厚纸板、草图）← carta ← 拉丁语 charta（纸）",
+      "native_definition": "a humorous drawing; a film made from drawings",
+      "core_concept": "the big sheet a drawing is worked out on before anything else – 别的都还没动，先在大张纸上画出来的那个",
+      "core_image": "一大张厚纸摊在桌上，草稿一格一格画满了",
+      "chinese": [
+        "漫画",
+        "动画片"
+      ],
+      "examples": [
+        "The cartoon made everyone laugh.",
+        "Children watched a cartoon."
+      ],
+      "synonyms": [
+        "comic",
+        "film"
+      ],
+      "antonyms": [],
+      "related": [
+        "card",
+        "chart"
+      ],
+      "semantic_expansions": [
+        "漫画：画在纸上、供人一看就笑的那种图",
+        "动画片：由这类画一格格连成的影片"
+      ],
+      "recall_hint": "carta（纸）+ -one（大）→ 大张纸上的草图"
+    },
+    {
+      "id": "camp",
+      "word": "camp",
+      "pos": "noun",
+      "phonetic": "/kæmp/",
+      "decomposable": "root",
+      "root_ids": [
+        "campus-field"
+      ],
+      "root_logic": "campus（原野）→ 在野地上扎下的临时住处",
+      "origin": "法语 camp ← 意大利语 campo ← 拉丁语 campus（原野）",
+      "native_definition": "a place with tents or huts where people stay temporarily",
+      "core_concept": "cloth and poles set up on open ground, meant to come down again – 在空地上搭起来、还要拆走的那些棚帐",
+      "core_image": "空地上支起十几顶帐篷，绳子一头钉进土里",
+      "chinese": [
+        "营地",
+        "露营",
+        "阵营"
+      ],
+      "examples": [
+        "They set up camp by the river.",
+        "We camped for three nights."
+      ],
+      "synonyms": [
+        "base",
+        "ground"
+      ],
+      "antonyms": [],
+      "related": [
+        "campus",
+        "campaign"
+      ],
+      "semantic_expansions": [
+        "营地/露营：在野地搭起、还要拆走的临时住处",
+        "阵营：同一块地上聚起来的那一伙人"
+      ],
+      "recall_hint": "campus（原野）→ 野地上扎的临时住处"
+    },
+    {
+      "id": "campus",
+      "word": "campus",
+      "pos": "noun",
+      "phonetic": "/ˈkæmpəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "campus-field"
+      ],
+      "root_logic": "campus（原野）→ 学校所占的那整片地",
+      "origin": "拉丁语 campus（原野），18 世纪美国普林斯顿用它指校地，遂成此义",
+      "native_definition": "the grounds and buildings of a university or college",
+      "core_concept": "the whole stretch of ground a school spreads over – 一所学校摊开来占住的那整片地",
+      "core_image": "从图书馆走到食堂要穿过两片草坪，全在同一圈围墙里",
+      "chinese": [
+        "校园",
+        "校区"
+      ],
+      "examples": [
+        "The campus has three libraries.",
+        "She lives on campus."
+      ],
+      "synonyms": [
+        "yard",
+        "field"
+      ],
+      "antonyms": [],
+      "related": [
+        "camp",
+        "campaign"
+      ],
+      "semantic_expansions": [
+        "校园/校区：一所学校摊开占住的那整片地"
+      ],
+      "recall_hint": "campus（原野）→ 学校占住的那整片地"
+    },
+    {
+      "id": "campaign",
+      "word": "campaign",
+      "pos": "noun",
+      "phonetic": "/kæmˈpeɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "campus-field"
+      ],
+      "root_logic": "campagna（旷野）→ 军队开到野地上打的那一仗 → 战役；引申为有组织的行动",
+      "origin": "法语 campagne ← 意大利语 campagna（旷野）← 拉丁语 campus（原野）",
+      "native_definition": "a planned series of actions to achieve a goal, military or public",
+      "core_concept": "a run of moves carried out on open ground toward one end – 在开阔地上一步步铺排、朝一个目标去的那串动作",
+      "core_image": "队伍开到野地上驻下，一步步照计划往前推",
+      "chinese": [
+        "战役",
+        "运动",
+        "竞选活动"
+      ],
+      "examples": [
+        "The campaign lasted six months.",
+        "She ran a campaign for clean water."
+      ],
+      "synonyms": [
+        "operation",
+        "drive"
+      ],
+      "antonyms": [],
+      "related": [
+        "camp",
+        "campus"
+      ],
+      "semantic_expansions": [
+        "战役：军队在野地上铺排的那一仗",
+        "运动/竞选活动：同样有组织、朝一个目标推的那串行动"
+      ],
+      "recall_hint": "campagna（旷野）→ 野地上铺排的那一仗"
+    },
+    {
+      "id": "champion",
+      "word": "champion",
+      "pos": "noun",
+      "phonetic": "/ˈtʃæmpiən/",
+      "decomposable": "root",
+      "root_ids": [
+        "campus-field"
+      ],
+      "root_logic": "campio（在场上格斗的人）← campus（场地）→ 场上胜出的那个 → 冠军",
+      "origin": "古法语 champion ← 晚期拉丁语 campio（角斗者）← 拉丁语 campus（场地）",
+      "native_definition": "a person who wins a competition; one who fights for a cause",
+      "core_concept": "the one left standing on the field when the others are done – 场上比到最后还立着的那个",
+      "core_image": "场地中间只剩一个人站着，四周的人开始鼓掌",
+      "chinese": [
+        "冠军",
+        "拥护者"
+      ],
+      "examples": [
+        "She is the world champion.",
+        "He championed the new law."
+      ],
+      "synonyms": [
+        "victor",
+        "advocate"
+      ],
+      "antonyms": [
+        "loser"
+      ],
+      "related": [
+        "camp",
+        "campus"
+      ],
+      "semantic_expansions": [
+        "冠军：场上比到最后立着的那个",
+        "拥护者：同样在场上替某一方出战的人"
+      ],
+      "recall_hint": "campio（场上格斗者）← campus（场地）→ 胜出者"
+    },
+    {
+      "id": "circle",
+      "word": "circle",
+      "pos": "noun",
+      "phonetic": "/ˈsɜːkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "circulus"
+      ],
+      "root_logic": "circulus（小环）→ 一圈闭合的线，及圈起来的那片",
+      "origin": "古法语 cercle ← 拉丁语 circulus（小环）← circus（圆圈）",
+      "native_definition": "a round shape whose edge is everywhere the same distance from the centre",
+      "core_concept": "the closed line that ends exactly where it started – 终点正落在起点上的那条闭线",
+      "core_image": "笔尖绕一圈回到原处，纸上留下一条合起来的线",
+      "chinese": [
+        "圆",
+        "圈子",
+        "环绕"
+      ],
+      "examples": [
+        "Draw a circle on the board.",
+        "She has a small circle of friends."
+      ],
+      "synonyms": [
+        "ring",
+        "loop"
+      ],
+      "antonyms": [],
+      "related": [
+        "circular",
+        "circus"
+      ],
+      "semantic_expansions": [
+        "圆：终点落回起点的那条闭线",
+        "圈子：像那条线一样围起来的一小群人",
+        "环绕：沿着那条线走一遍"
+      ],
+      "recall_hint": "circulus（小环）→ 终点落回起点的闭线"
+    },
+    {
+      "id": "circular",
+      "word": "circular",
+      "pos": "adjective",
+      "phonetic": "/ˈsɜːkjələ(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "circulus"
+      ],
+      "root_logic": "circul（小环）+ -ar（…的）→ 圆形的；也指绕回原处的（论证）",
+      "origin": "晚期拉丁语 circularis（属于环的）← circulus",
+      "native_definition": "shaped like a circle; moving round; returning to the start",
+      "core_concept": "of the form that leads back to where it set out – 属于那种走回原处的形状",
+      "core_image": "跑道绕了一整圈，起跑线和终点线是同一条",
+      "chinese": [
+        "圆形的",
+        "循环的",
+        "通知（传阅件）"
+      ],
+      "examples": [
+        "The table has a circular top.",
+        "That is a circular argument."
+      ],
+      "synonyms": [
+        "round",
+        "circular"
+      ],
+      "antonyms": [
+        "straight"
+      ],
+      "related": [
+        "circle",
+        "circus"
+      ],
+      "semantic_expansions": [
+        "圆形的：形如那条闭线",
+        "循环的：绕一圈回到原处",
+        "通知：绕着一圈人依次传阅的那张"
+      ],
+      "recall_hint": "circul（小环）+ -ar → 形如闭线、绕回原处"
+    },
+    {
+      "id": "circus",
+      "word": "circus",
+      "pos": "noun",
+      "phonetic": "/ˈsɜːkəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "circulus"
+      ],
+      "root_logic": "circus（圆圈）→ 圆形场地 → 在圆场里演的那种班子",
+      "origin": "拉丁语 circus（圆圈、圆形竞技场）← 希腊语 kirkos（环）",
+      "native_definition": "a travelling show with acrobats and animals, performed in a ring",
+      "core_concept": "the round pit the audience sits all the way around – 观众围满一整圈的那个圆场",
+      "core_image": "帐篷中间空出一个圆场，看台把它整整围了一圈",
+      "chinese": [
+        "马戏团",
+        "圆形广场"
+      ],
+      "examples": [
+        "The circus came to town.",
+        "They met at Piccadilly Circus."
+      ],
+      "synonyms": [
+        "show",
+        "stage"
+      ],
+      "antonyms": [],
+      "related": [
+        "circle",
+        "circular"
+      ],
+      "semantic_expansions": [
+        "马戏团：在圆场里演出的那个班子",
+        "圆形广场：几条路绕成一圈的那处场地"
+      ],
+      "recall_hint": "circus（圆圈）→ 圆形场地 → 圆场里的班子"
+    },
+    {
+      "id": "circuit",
+      "word": "circuit",
+      "pos": "noun",
+      "phonetic": "/ˈsɜːkɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "circulus"
+      ],
+      "root_logic": "circum（绕，circus 的宾格作副词）+ it（ire 行）→ 绕行一周 → 回路、巡回",
+      "origin": "古法语 circuit ← 拉丁语 circuitus（绕行）← circum（绕）＋ire（行）；主根是 ire（行），但 circum 出自 circus，故归此族并在此注明",
+      "native_definition": "a closed path, especially one electricity flows round; a regular tour",
+      "core_concept": "the way that must close on itself for anything to move along it – 必须首尾接上、才走得通的那条路",
+      "core_image": "线从这头接到那头再绕回来，灯才亮起来",
+      "chinese": [
+        "电路",
+        "环线",
+        "巡回"
+      ],
+      "examples": [
+        "The circuit was broken.",
+        "The judge rides the circuit."
+      ],
+      "synonyms": [
+        "loop",
+        "route"
+      ],
+      "antonyms": [],
+      "related": [
+        "circle",
+        "circular"
+      ],
+      "semantic_expansions": [
+        "电路：首尾接上才通电的那条闭路",
+        "环线/巡回：同样绕一圈回到原处的路线"
+      ],
+      "recall_hint": "circum（绕）+ it（行）→ 绕行一周、首尾接上"
+    },
+    {
+      "id": "battle",
+      "word": "battle",
+      "pos": "noun",
+      "phonetic": "/ˈbætl/",
+      "decomposable": "root",
+      "root_ids": [
+        "battuere"
+      ],
+      "root_logic": "battuere（击打）→ battualia（操练、交手）→ 两军对打的那一场",
+      "origin": "古法语 bataille ← 晚期拉丁语 battualia（击剑操练）← battuere（击打）",
+      "native_definition": "a fight between armed forces; a struggle to achieve something",
+      "core_concept": "two sides trading blows until one gives way – 两边对着打，直到一方撑不住",
+      "core_image": "两队人在坡上互相冲了几个来回，谁也没退",
+      "chinese": [
+        "战斗",
+        "战役",
+        "斗争"
+      ],
+      "examples": [
+        "The battle lasted two days.",
+        "She fought a long battle with illness."
+      ],
+      "synonyms": [
+        "fight",
+        "struggle"
+      ],
+      "antonyms": [
+        "peace",
+        "calm"
+      ],
+      "related": [
+        "combat",
+        "debate"
+      ],
+      "semantic_expansions": [
+        "战斗/战役：两军对着打的那一场",
+        "斗争：把这场对打用在非武力的事上"
+      ],
+      "recall_hint": "battuere（击打）→ 两边对打的那一场"
+    },
+    {
+      "id": "combat",
+      "word": "combat",
+      "pos": "noun",
+      "phonetic": "/ˈkɒmbæt/",
+      "decomposable": "root",
+      "root_ids": [
+        "battuere"
+      ],
+      "root_logic": "com-（相对）+ bat（打）→ 面对面对打",
+      "origin": "法语 combat ← combattre ← 晚期拉丁语 combattere ← com＋battuere（击打）",
+      "native_definition": "fighting between armed forces; to try to stop something bad",
+      "core_concept": "the two standing face to face, each blow met by another – 两人面对面站定，一下换一下",
+      "core_image": "两人正面站着，拳头一来一回，没人侧身躲开",
+      "chinese": [
+        "战斗",
+        "搏斗",
+        "对抗"
+      ],
+      "examples": [
+        "He was killed in combat.",
+        "New laws combat pollution."
+      ],
+      "synonyms": [
+        "fight",
+        "resist"
+      ],
+      "antonyms": [
+        "surrender"
+      ],
+      "related": [
+        "battle",
+        "debate"
+      ],
+      "semantic_expansions": [
+        "战斗/搏斗：面对面对打",
+        "对抗：把这股对打之力用在抑制某事上"
+      ],
+      "recall_hint": "com-（相对）+ bat（打）→ 面对面对打"
+    },
+    {
+      "id": "debate",
+      "word": "debate",
+      "pos": "noun",
+      "phonetic": "/dɪˈbeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "battuere"
+      ],
+      "root_logic": "de-（往下）+ bate（打）→ 用话往下打 → 辩论",
+      "origin": "古法语 debatre（争辩）← de＋batre ← 晚期拉丁语 battuere（击打）",
+      "native_definition": "a formal discussion where opposing views are argued",
+      "core_concept": "blows traded in words instead of fists – 打的是话，不是拳头",
+      "core_image": "两人隔着讲台一句接一句往回顶，谁也不肯松口",
+      "chinese": [
+        "辩论",
+        "争论",
+        "讨论"
+      ],
+      "examples": [
+        "The debate ran for three hours.",
+        "They debated the new policy."
+      ],
+      "synonyms": [
+        "argue",
+        "discuss"
+      ],
+      "antonyms": [
+        "agree"
+      ],
+      "related": [
+        "battle",
+        "combat"
+      ],
+      "semantic_expansions": [
+        "辩论/争论：用话一句接一句地对打",
+        "讨论：同一动作缓和下来，只交换看法"
+      ],
+      "recall_hint": "de-（往下）+ bate（打）→ 用话往下打"
+    },
+    {
+      "id": "canal",
+      "word": "canal",
+      "pos": "noun",
+      "phonetic": "/kəˈnæl/",
+      "decomposable": "root",
+      "root_ids": [
+        "canalis"
+      ],
+      "root_logic": "canalis（水槽）→ 人工挖出让水通行的那条道",
+      "origin": "拉丁语 canalis（水槽、管道）← canna（芦管）",
+      "native_definition": "a long channel dug for boats or for carrying water",
+      "core_concept": "the trench cut so water has one path and no other – 挖出来只许水走这一条的沟",
+      "core_image": "两岸砌得笔直，水面一路平着延到看不见的地方",
+      "chinese": [
+        "运河",
+        "沟渠",
+        "管道"
+      ],
+      "examples": [
+        "The canal links two rivers.",
+        "Boats pass through the canal daily."
+      ],
+      "synonyms": [
+        "channel",
+        "path"
+      ],
+      "antonyms": [],
+      "related": [
+        "channel",
+        "cannon"
+      ],
+      "semantic_expansions": [
+        "运河/沟渠：挖出让水通行的那条道",
+        "管道：体内同样中空可通的那种道"
+      ],
+      "recall_hint": "canalis（水槽）→ 挖出让水通行的那条道"
+    },
+    {
+      "id": "channel",
+      "word": "channel",
+      "pos": "noun",
+      "phonetic": "/ˈtʃænl/",
+      "decomposable": "root",
+      "root_ids": [
+        "canalis"
+      ],
+      "root_logic": "canalis（管道）经古法语 chanel → 水流经过的那条道；引申为传递的路子",
+      "origin": "古法语 chanel ← 拉丁语 canalis（水槽、管道）",
+      "native_definition": "a passage water flows along; a band for broadcasting; a way of doing something",
+      "core_concept": "the groove that decides where the flow may go – 决定水往哪儿走的那道槽",
+      "core_image": "石板上凿出一道浅槽，水只能顺着这道往下淌",
+      "chinese": [
+        "海峡",
+        "频道",
+        "途径"
+      ],
+      "examples": [
+        "The Channel separates England and France.",
+        "Change to another channel."
+      ],
+      "synonyms": [
+        "route",
+        "path"
+      ],
+      "antonyms": [],
+      "related": [
+        "canal",
+        "cannon"
+      ],
+      "semantic_expansions": [
+        "海峡：两地之间供水通行的那条道",
+        "频道：信号顺着走的那条道",
+        "途径：办事所走的那条道"
+      ],
+      "recall_hint": "canalis（管道）→ 决定流向的那道槽"
+    },
+    {
+      "id": "cannon",
+      "word": "cannon",
+      "pos": "noun",
+      "phonetic": "/ˈkænən/",
+      "decomposable": "root",
+      "root_ids": [
+        "canalis"
+      ],
+      "root_logic": "canna（管）+ -one（大）→ 一根大管子 → 火炮",
+      "origin": "法语 canon ← 意大利语 cannone（大管）← canna（芦管）← 拉丁语",
+      "native_definition": "a large heavy gun that fires solid balls",
+      "core_concept": "the oversized tube that sends its load out one end – 一根粗大的管，装的东西从一头轰出去",
+      "core_image": "铜管架在木架上，粗到能塞进拳头，一头对着城墙",
+      "chinese": [
+        "大炮",
+        "火炮"
+      ],
+      "examples": [
+        "The cannon fired at dawn.",
+        "Old cannons line the fort wall."
+      ],
+      "synonyms": [
+        "gun",
+        "weapon"
+      ],
+      "antonyms": [],
+      "related": [
+        "canal",
+        "channel"
+      ],
+      "semantic_expansions": [
+        "大炮/火炮：一根粗大的管，装的东西从一头轰出去"
+      ],
+      "recall_hint": "canna（管）+ -one（大）→ 一根大管子"
+    },
+    {
+      "id": "chief",
+      "word": "chief",
+      "pos": "noun",
+      "phonetic": "/tʃiːf/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "caput（头）经古法语 chief → 一群人里居首的那个",
+      "origin": "古法语 chief（头、首领）← 拉丁语 caput（头）",
+      "native_definition": "the leader of a group; most important",
+      "core_concept": "the one the others look to before acting – 别人动手前先看的那一个",
+      "core_image": "帐篷里众人说着话，一齐朝上座那人望过去",
+      "chinese": [
+        "首领",
+        "主要的",
+        "首席的"
+      ],
+      "examples": [
+        "The chief gave the order.",
+        "That is our chief concern."
+      ],
+      "synonyms": [
+        "leader",
+        "principal"
+      ],
+      "antonyms": [
+        "subordinate"
+      ],
+      "related": [
+        "chef",
+        "cattle"
+      ],
+      "semantic_expansions": [
+        "首领：一群人里居首的那个",
+        "主要的/首席的：诸事里排在头位的"
+      ],
+      "recall_hint": "caput（头）→ 一群人里居首的那个"
+    },
+    {
+      "id": "chef",
+      "word": "chef",
+      "pos": "noun",
+      "phonetic": "/ʃef/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "chief（首领）的法语后期形 → 厨房里居首的那个 → 主厨",
+      "origin": "法语 chef（de cuisine，厨房之长）← 古法语 chief ← 拉丁语 caput（头）",
+      "native_definition": "a professional cook, especially the one in charge of a kitchen",
+      "core_concept": "the one whose word settles what leaves the kitchen – 菜出不出得了门，由他一句话定",
+      "core_image": "灶台后那人一抬手，几个帮手同时停下等着听",
+      "chinese": [
+        "主厨",
+        "厨师长"
+      ],
+      "examples": [
+        "The chef prepared a special menu.",
+        "She trained as a chef in Paris."
+      ],
+      "synonyms": [
+        "cook",
+        "baker"
+      ],
+      "antonyms": [],
+      "related": [
+        "chief",
+        "cattle"
+      ],
+      "semantic_expansions": [
+        "主厨/厨师长：厨房里居首、说话作数的那个"
+      ],
+      "recall_hint": "chief（首领）法语后期形 → 厨房之长"
+    },
+    {
+      "id": "cattle",
+      "word": "cattle",
+      "pos": "noun",
+      "phonetic": "/ˈkætl/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "capitale（首要财产）→ 旧时最值钱的家产就是牛 → 牛群",
+      "origin": "盎格鲁法语 catel（财产）← 晚期拉丁语 capitale（首要财产）← caput（头）；英语 capital（资本）同出此支，牛作旧时首要家产故得此名",
+      "native_definition": "cows and bulls kept on a farm",
+      "core_concept": "what used to count as a household's chief wealth, counted by the head – 旧时算作一家首要财产、按头来数的那些",
+      "core_image": "栏里十几头挤在一处，主人清早数一遍才放心",
+      "chinese": [
+        "牛",
+        "牲畜"
+      ],
+      "examples": [
+        "The cattle grazed by the river.",
+        "He keeps forty head of cattle."
+      ],
+      "synonyms": [
+        "cattle",
+        "animal"
+      ],
+      "antonyms": [],
+      "related": [
+        "chief",
+        "chef"
+      ],
+      "semantic_expansions": [
+        "牛/牲畜：旧时算作首要家产、按头计数的那些"
+      ],
+      "recall_hint": "capitale（首要财产）→ 旧时最值钱的家产即牛"
+    },
+    {
+      "id": "cite",
+      "word": "cite",
+      "pos": "verb",
+      "phonetic": "/saɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "citare"
+      ],
+      "root_logic": "citare（唤来）→ 把别人的话唤到眼前作凭据 → 引用",
+      "origin": "拉丁语 citare（唤来、传唤）← ciere（使动起来）",
+      "native_definition": "to quote a source as evidence; to summon to court",
+      "core_concept": "calling another's words up to stand as witness – 把别人说过的话叫到跟前当证人",
+      "core_image": "他翻开书按住那一行，念出来给在座的人听",
+      "chinese": [
+        "引用",
+        "引证",
+        "传唤"
+      ],
+      "examples": [
+        "She cited three studies.",
+        "He was cited to appear in court."
+      ],
+      "synonyms": [
+        "quote",
+        "summon"
+      ],
+      "antonyms": [],
+      "related": [
+        "excite",
+        "recite"
+      ],
+      "semantic_expansions": [
+        "引用/引证：把别人的话唤到眼前作凭据",
+        "传唤：把人唤到庭前"
+      ],
+      "recall_hint": "citare（唤来）→ 把话唤到眼前作凭据"
+    },
+    {
+      "id": "excite",
+      "word": "excite",
+      "pos": "verb",
+      "phonetic": "/ɪkˈsaɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "citare"
+      ],
+      "root_logic": "ex-（出来）+ cite（唤动）→ 把里头的劲唤出来 → 使激动",
+      "origin": "拉丁语 excitare（唤起、激发）← ex＋citare（唤动）",
+      "native_definition": "to make someone feel eager or stirred up",
+      "core_concept": "calling out the energy that was sitting still inside – 把本来静着的那股劲唤出来",
+      "core_image": "话音刚落，屋里人一下都坐直了，声音也高了",
+      "chinese": [
+        "使激动",
+        "激起",
+        "刺激"
+      ],
+      "examples": [
+        "The news excited everyone.",
+        "Loud noise excites the dog."
+      ],
+      "synonyms": [
+        "stir",
+        "arouse"
+      ],
+      "antonyms": [
+        "calm",
+        "quiet"
+      ],
+      "related": [
+        "cite",
+        "recite"
+      ],
+      "semantic_expansions": [
+        "使激动/激起：把静着的劲唤出来",
+        "刺激：同一动作用在感官或神经上"
+      ],
+      "recall_hint": "ex-（出来）+ cite（唤动）→ 把里头的劲唤出来"
+    },
+    {
+      "id": "recite",
+      "word": "recite",
+      "pos": "verb",
+      "phonetic": "/rɪˈsaɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "citare"
+      ],
+      "root_logic": "re-（再）+ cite（唤来）→ 把记住的话再唤出来 → 背诵",
+      "origin": "拉丁语 recitare（朗读、背诵）← re＋citare（唤来）",
+      "native_definition": "to say aloud something learned by heart",
+      "core_concept": "calling the words up again from memory, out loud – 把记下的话再唤出来，说给人听",
+      "core_image": "他闭着眼把整段说完，一个字没停顿",
+      "chinese": [
+        "背诵",
+        "朗诵",
+        "列举"
+      ],
+      "examples": [
+        "She recited the poem from memory.",
+        "He recited the whole list."
+      ],
+      "synonyms": [
+        "repeat",
+        "read"
+      ],
+      "antonyms": [],
+      "related": [
+        "cite",
+        "excite"
+      ],
+      "semantic_expansions": [
+        "背诵/朗诵：把记下的话再唤出来说给人听",
+        "列举：把各项一件件唤出来点过"
+      ],
+      "recall_hint": "re-（再）+ cite（唤来）→ 把记住的话再唤出来"
+    },
+    {
+      "id": "climate",
+      "word": "climate",
+      "pos": "noun",
+      "phonetic": "/ˈklaɪmət/",
+      "decomposable": "root",
+      "root_ids": [
+        "klinein"
+      ],
+      "root_logic": "klima（地带）← klinein（倾斜）→ 日照斜角不同分出的地带 → 一地长年的天候",
+      "origin": "晚期拉丁语 clima（地带）← 希腊语 klima（倾斜、地带）← klinein（倾斜）；古人按日照入射的斜角划分地带，故此词本指「斜度」",
+      "native_definition": "the usual weather conditions of an area over many years",
+      "core_concept": "what the sun's slant onto one stretch of ground settles into over years – 日头斜照一地，年复一年定下来的那副样子",
+      "core_image": "同一片地上，年年都是那几个月潮、那几个月干",
+      "chinese": [
+        "气候",
+        "风气"
+      ],
+      "examples": [
+        "The climate here is mild.",
+        "There is a climate of distrust."
+      ],
+      "synonyms": [
+        "weather",
+        "atmosphere"
+      ],
+      "antonyms": [],
+      "related": [
+        "climax",
+        "clinic"
+      ],
+      "semantic_expansions": [
+        "气候：日照斜度定下的、一地长年的天候",
+        "风气：一处长期形成的那种氛围"
+      ],
+      "recall_hint": "klima（斜度、地带）← klinein（倾斜）→ 长年天候"
+    },
+    {
+      "id": "climax",
+      "word": "climax",
+      "pos": "noun",
+      "phonetic": "/ˈklaɪmæks/",
+      "decomposable": "root",
+      "root_ids": [
+        "klinein"
+      ],
+      "root_logic": "klimax（梯子）← klinein（斜靠）→ 一级级斜上去的顶端 → 高潮",
+      "origin": "希腊语 klimax（梯子）← klinein（斜靠、倾斜）",
+      "native_definition": "the most intense or important point of something",
+      "core_concept": "the last rung of a ladder that leans up and stops – 斜靠上去的梯子，最后那一级",
+      "core_image": "一级一级往上，到最上面那级再没有了，人就停在那儿",
+      "chinese": [
+        "高潮",
+        "顶点"
+      ],
+      "examples": [
+        "The film builds to a climax.",
+        "Her career reached its climax."
+      ],
+      "synonyms": [
+        "peak",
+        "top"
+      ],
+      "antonyms": [
+        "low"
+      ],
+      "related": [
+        "climate",
+        "clinic"
+      ],
+      "semantic_expansions": [
+        "高潮/顶点：斜梯一级级上去、最后那一级"
+      ],
+      "recall_hint": "klimax（梯子）← klinein（斜靠）→ 最后那一级"
+    },
+    {
+      "id": "clinic",
+      "word": "clinic",
+      "pos": "noun",
+      "phonetic": "/ˈklɪnɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "klinein"
+      ],
+      "root_logic": "klinē（卧床）← klinein（斜靠）→ 在床边诊治 → 诊所",
+      "origin": "法语 clinique ← 希腊语 klinikē（床边医术）← klinē（卧床）← klinein（斜靠）",
+      "native_definition": "a place where people go for medical treatment or advice",
+      "core_concept": "the room built around the bed a patient leans back on – 围着病人斜靠的那张床设起来的屋",
+      "core_image": "一排床挨墙摆着，穿白衣的人挨床看过去",
+      "chinese": [
+        "诊所",
+        "门诊"
+      ],
+      "examples": [
+        "The clinic opens at eight.",
+        "She works at a dental clinic."
+      ],
+      "synonyms": [
+        "surgery",
+        "ward"
+      ],
+      "antonyms": [],
+      "related": [
+        "climate",
+        "climax"
+      ],
+      "semantic_expansions": [
+        "诊所/门诊：围着病人斜靠的床设起来的诊治之处"
+      ],
+      "recall_hint": "klinē（卧床）← klinein（斜靠）→ 床边诊治之处"
+    },
+    {
+      "id": "bulletin",
+      "word": "bulletin",
+      "pos": "noun",
+      "phonetic": "/ˈbʊlətɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "bulla"
+      ],
+      "root_logic": "bulla（铅封文书）→ bullettino（小文书）→ 简短公告",
+      "origin": "法语 bulletin ← 意大利语 bullettino（小文告）← bulla（盖铅封的文书）← 拉丁语",
+      "native_definition": "a short official statement of news",
+      "core_concept": "the sealed slip put up so all may read the same words – 盖了印贴出来、让众人读到同一句话的那张",
+      "core_image": "墙上钉着一张短短的纸，底下按了印，路过的人都停下看",
+      "chinese": [
+        "公告",
+        "简报",
+        "新闻快报"
+      ],
+      "examples": [
+        "A bulletin was issued at noon.",
+        "She reads the news bulletin."
+      ],
+      "synonyms": [
+        "notice",
+        "announcement"
+      ],
+      "antonyms": [],
+      "related": [
+        "bullet",
+        "bowling"
+      ],
+      "semantic_expansions": [
+        "公告/简报：盖印贴出、让众人读到的那张短文",
+        "新闻快报：同样简短、随时发出的那种"
+      ],
+      "recall_hint": "bulla（铅封文书）→ 简短公告"
+    },
+    {
+      "id": "bullet",
+      "word": "bullet",
+      "pos": "noun",
+      "phonetic": "/ˈbʊlɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "bulla"
+      ],
+      "root_logic": "boule（球）+ -ette（小）→ 小圆球 → 枪弹",
+      "origin": "法语 boulette（小球）← boule（球）← 拉丁语 bulla（圆泡）",
+      "native_definition": "a small piece of metal fired from a gun",
+      "core_concept": "the little round slug that leaves the barrel – 从枪管里出去的那颗小圆粒",
+      "core_image": "掌心里几颗黄铜色的小圆粒，一头是尖的",
+      "chinese": [
+        "子弹",
+        "弹丸"
+      ],
+      "examples": [
+        "The bullet missed by inches.",
+        "He loaded six bullets."
+      ],
+      "synonyms": [
+        "shot",
+        "ball"
+      ],
+      "antonyms": [],
+      "related": [
+        "bulletin",
+        "bowling"
+      ],
+      "semantic_expansions": [
+        "子弹/弹丸：从枪管出去的那颗小圆粒"
+      ],
+      "recall_hint": "boule（球）+ -ette（小）→ 小圆球 → 枪弹"
+    },
+    {
+      "id": "bowling",
+      "word": "bowling",
+      "pos": "noun",
+      "phonetic": "/ˈbəʊlɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "bulla"
+      ],
+      "root_logic": "boule（球）→ bowl（滚球）+ -ing → 滚球撞瓶的那种玩法",
+      "origin": "英语 bowling，来自 bowl（滚球）← 法语 boule（球）← 拉丁语 bulla（圆泡）",
+      "native_definition": "a game in which a heavy ball is rolled to knock down pins",
+      "core_concept": "the heavy round thing sent rolling down a lane – 顺着一条道滚出去的那个沉圆物",
+      "core_image": "一个沉沉的圆球贴地滚出去，尽头一排木柱哗啦倒了",
+      "chinese": [
+        "保龄球",
+        "滚球游戏"
+      ],
+      "examples": [
+        "They went bowling on Friday.",
+        "He booked a bowling lane."
+      ],
+      "synonyms": [
+        "game",
+        "sport"
+      ],
+      "antonyms": [],
+      "related": [
+        "bullet",
+        "bulletin"
+      ],
+      "semantic_expansions": [
+        "保龄球/滚球游戏：把沉圆物滚出去撞倒木柱的那种玩法"
+      ],
+      "recall_hint": "boule（球）→ bowl（滚球）→ 滚球撞瓶的玩法"
     }
   ]
 }

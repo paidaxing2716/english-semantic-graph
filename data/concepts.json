@@ -3210,6 +3210,184 @@
         "pleasant",
         "pleasure"
       ]
+    },
+    {
+      "id": "concept-carrus-cart",
+      "concept": "a wheeled cart and the load it takes on",
+      "chinese": "载货的车",
+      "core_image": "四轮车停在场上，货一件件往车板上码",
+      "root_ids": [
+        "carrus"
+      ],
+      "word_ids": [
+        "car",
+        "career",
+        "cargo",
+        "carriage",
+        "carrier",
+        "carry",
+        "charge"
+      ]
+    },
+    {
+      "id": "concept-tradere-hand-over",
+      "concept": "handing a thing across into other hands",
+      "chinese": "交付出去",
+      "core_image": "东西从这只手越过去，落进对面那只手",
+      "root_ids": [
+        "tradere"
+      ],
+      "word_ids": [
+        "betray",
+        "tradition",
+        "traitor",
+        "treason"
+      ]
+    },
+    {
+      "id": "concept-bainein-footing",
+      "concept": "the spot the foot comes down on",
+      "chinese": "立足之处",
+      "core_image": "脚踩实那块石头，整个人的重量才敢压上去",
+      "root_ids": [
+        "bainein"
+      ],
+      "word_ids": [
+        "base",
+        "baseball",
+        "basement",
+        "basic",
+        "basis"
+      ]
+    },
+    {
+      "id": "concept-charta-sheet",
+      "concept": "a flat sheet that carries marks",
+      "chinese": "承载写画的纸",
+      "core_image": "硬纸铺开，上面画的线和字一目了然",
+      "root_ids": [
+        "charta"
+      ],
+      "word_ids": [
+        "card",
+        "cartoon",
+        "chart",
+        "charter"
+      ]
+    },
+    {
+      "id": "concept-campus-open-ground",
+      "concept": "an open flat ground where things are staged",
+      "chinese": "摊开的平地",
+      "core_image": "空旷平地上帐篷一排排扎开，中间留出走道",
+      "root_ids": [
+        "campus-field"
+      ],
+      "word_ids": [
+        "camp",
+        "campaign",
+        "campus",
+        "champion"
+      ]
+    },
+    {
+      "id": "concept-circulus-ring",
+      "concept": "a line that comes round to where it began",
+      "chinese": "绕回起点的圈",
+      "core_image": "绳拴笔一转，笔尖回到落笔那点，圈合上了",
+      "root_ids": [
+        "circulus"
+      ],
+      "word_ids": [
+        "circle",
+        "circuit",
+        "circular",
+        "circus"
+      ]
+    },
+    {
+      "id": "concept-battuere-strike",
+      "concept": "blow answering blow between two sides",
+      "chinese": "对打",
+      "core_image": "两只手轮着往下砸，一下接一下，谁也不肯先停",
+      "root_ids": [
+        "battuere"
+      ],
+      "word_ids": [
+        "battle",
+        "combat",
+        "debate"
+      ]
+    },
+    {
+      "id": "concept-canalis-tube",
+      "concept": "a hollow tube that something runs through",
+      "chinese": "中空可通之管",
+      "core_image": "芦苇折断，里头是空的，水一倒就顺着流出去",
+      "root_ids": [
+        "canalis"
+      ],
+      "word_ids": [
+        "canal",
+        "cannon",
+        "channel"
+      ]
+    },
+    {
+      "id": "concept-caput-head",
+      "concept": "the head, hence whatever stands at the top",
+      "chinese": "居首之处",
+      "core_image": "一群人里那个头往前一伸，别人的目光跟着转过去",
+      "root_ids": [
+        "caput"
+      ],
+      "word_ids": [
+        "cattle",
+        "chef",
+        "chief"
+      ]
+    },
+    {
+      "id": "concept-citare-summon",
+      "concept": "calling a thing up so it stands before you",
+      "chinese": "唤到眼前",
+      "core_image": "一声招呼，本来不在场的那个被叫到跟前站着",
+      "root_ids": [
+        "citare"
+      ],
+      "word_ids": [
+        "cite",
+        "excite",
+        "recite"
+      ]
+    },
+    {
+      "id": "concept-klinein-slant",
+      "concept": "leaning at a slant, and what follows from the tilt",
+      "chinese": "倾斜之势",
+      "core_image": "板子一头垫高，东西顺着那道斜面往下滑",
+      "root_ids": [
+        "klinein"
+      ],
+      "word_ids": [
+        "climate",
+        "climax",
+        "clinic"
+      ]
+    },
+    {
+      "id": "concept-bulla-round-seal",
+      "concept": "a small round swelling, and what it seals",
+      "chinese": "圆凸小物",
+      "core_image": "一枚圆铅印按在纸角上，凸起来一小块",
+      "root_ids": [
+        "bulla"
+      ],
+      "word_ids": [
+        "bowling",
+        "bullet",
+        "bulletin"
+      ]
     }
   ]
 }
