@@ -184,14 +184,14 @@
         description: dm.description,
         roots: dm.root_ids || [],
         vizVisible: true,
-        expanded: false,
       });
       (dm.root_ids || []).forEach((rid) => domainOfRoot.set(rid, dm.id));
     });
 
-    const hasDomains = idMap.size > 0;
+    // 以下各类节点的 vizVisible 只是首帧之前的种子值，
+    // 真正的可见性由 applyView() 按当前所在层重算（init 里会先跑一次）。
 
-    // 词根节点（有语义域时默认隐藏，展开域后出现）
+    // 词根节点（第二层才出现）
     data.roots.roots.forEach((r) => {
       const node = {
         id: r.id,
@@ -202,13 +202,13 @@
         image: r.core_image,
         definition: r.english_definition,
         domain: domainOfRoot.get(r.id) || null,
-        vizVisible: !hasDomains,
-        expanded: false,
+        vizVisible: false,
       };
       idMap.set(node.id, node);
     });
 
-    // 概念节点（跟随其词根的可见性；cluster 聚合概念始终可见）
+    // 概念节点：钻取模型下不再上画面（它们各自拉着一圈成员词，正是放射状连线的
+    // 来源）。数据仍保留——详情面板和搜索都还用得到。
     data.concepts.concepts.forEach((c) => {
       const isCluster = c.type === "cluster";
       const node = {
@@ -221,7 +221,7 @@
         roots: c.root_ids,
         words: c.word_ids,
         isCluster: isCluster,
-        vizVisible: isCluster || !hasDomains,
+        vizVisible: false,
       };
       idMap.set(node.id, node);
     });
@@ -299,125 +299,167 @@
   }
 
   // ---------- 分层钻取 ----------
+  // 导航模型（v0.3）：可见性由单一状态算出，不再由节点自带的 expanded 累加。
+  //
+  // 旧模型把子层叠在父层之上、父节点始终留在画面中央，于是每个子节点都跟父节点
+  // 连一根线，看上去是一坨放射状的刺球。现在每层换一整屏，父节点根本不画。
+  //
+  // 放射状连线因此自动消失，不用改建图逻辑：applyVisibility 只画两端都可见的
+  // 连线，而父节点在子层永不可见，「语义域→词根」「词根→单词」两类合成边自然全隐。
+  // 概念节点（含恒可见的 cluster）同理退出画面——它们本身也是放射状的中心。
+  const view = { level: "domain", domainId: null, rootId: null };
+
   function visibleNodeIds() {
     return new Set(nodes.filter((n) => n.vizVisible).map((n) => n.id));
   }
 
-  // 收起某个语义域：隐藏其下词根、概念，以及词根下已展开的单词
-  function collapseDomain(dm) {
-    dm.expanded = false;
-    const rootIds = new Set(dm.roots || []);
-    nodes.forEach((n) => {
-      if (n.type === "root" && rootIds.has(n.id)) {
-        n.vizVisible = false;
-        n.expanded = false;
-        nodes.forEach((m) => {
-          if (m.type === "word" && m.roots && m.roots.includes(n.id)) {
-            m.vizVisible = false;
-          }
-        });
-      }
-      if (n.type === "concept" && !n.isCluster && n.roots
-          && n.roots.some((r) => rootIds.has(r))) {
-        n.vizVisible = false;
-      }
-    });
+  // 当前层该显示谁。只认导航状态、不看历史，所以切层不会留残影。
+  function nodeBelongsToView(n) {
+    if (view.level === "domain") return n.type === "domain";
+    if (view.level === "root") return n.type === "root" && n.domain === view.domainId;
+    return n.type === "word" && n.roots && n.roots.includes(view.rootId);
   }
 
-  // 展开/收起语义域：显示其下词根与对应概念。
-  // 收起时连带收掉该域下已展开的词族，避免留下悬空的单词节点。
-  function toggleDomain(d) {
-    d.expanded = !d.expanded;
-
-    // 手机端一次只展开一个语义域。词根数长到 60+ 后，全部域展开会让
-    // 390px 画布同时出现 130 多个节点（实测已到重叠临界），而手机上
-    // 本来也是一域一域地看。与词根层"一次一族"的处理保持一致。
-    if (d.expanded && isMobile()) {
-      nodes.forEach((n) => {
-        if (n.type === "domain" && n.id !== d.id && n.expanded) {
-          collapseDomain(n);
-        }
-      });
-    }
-
-    const rootIds = new Set(d.roots || []);
-    const revealed = [];
+  // 切到当前层：重算可见性、给新节点播种位置、重置视图。
+  // opts.keepZoom —— 搜索直达时用，因为紧随其后的 focusNode 会自己缩放定位。
+  function applyView(opts) {
+    const keepZoom = !!(opts && opts.keepZoom);
+    const fresh = [];
 
     nodes.forEach((n) => {
-      if (n.type === "root" && rootIds.has(n.id)) {
-        n.vizVisible = d.expanded;
-        if (d.expanded) {
-          revealed.push(n);
-        } else {
-          // 收起域：该词根下的单词一并隐藏
-          n.expanded = false;
-          nodes.forEach((m) => {
-            if (m.type === "word" && m.roots && m.roots.includes(n.id)) {
-              m.vizVisible = false;
-            }
-          });
-        }
-      }
-      if (n.type === "concept" && !n.isCluster && n.roots) {
-        if (n.roots.some((r) => rootIds.has(r))) {
-          n.vizVisible = d.expanded;
-          if (d.expanded) revealed.push(n);
-        }
-      }
+      const show = nodeBelongsToView(n);
+      // 本层新出现的节点才需要播种；已在画面上的保持原位，避免整屏乱跳
+      if (show && !n.vizVisible) fresh.push(n);
+      n.vizVisible = show;
     });
 
-    if (d.expanded) {
-      revealed.forEach((n, i) => {
+    // 父节点已不在画面上，改绕画布中心撒开
+    if (fresh.length) {
+      const cx = (viewW || 800) / 2;
+      const cy = (viewH || 600) / 2;
+      // 半径随节点数长，否则词根多的域一开局全挤在一个圈上
+      const r = Math.min(Math.min(cx, cy) * 0.72, 90 + fresh.length * 4);
+      fresh.forEach((n, i) => {
         n.fx = null;
         n.fy = null;
-        const a = (i / Math.max(revealed.length, 1)) * Math.PI * 2;
-        n.x = d.x + Math.cos(a) * 95;
-        n.y = d.y + Math.sin(a) * 95;
+        const a = (i / fresh.length) * Math.PI * 2;
+        n.x = cx + Math.cos(a) * r;
+        n.y = cy + Math.sin(a) * r;
       });
     }
 
     applyVisibility();
+    renderNavBar();
+    updateLegend();
+    updateHint();
+    if (!keepZoom) resetZoom();
     settleLocally();
   }
 
-  function toggleRoot(d) {
-    d.expanded = !d.expanded;
+  function enterDomain(dm) {
+    view.level = "root";
+    view.domainId = dm.id;
+    view.rootId = null;
+    applyView();
+  }
 
-    // 手机端一次只展开一个词根：100 词全展开时 390px 画布放不下
-    // （实测 118 个节点会产生近百对圆重叠），且手机上本来就是一族一族地看。
-    if (d.expanded && isMobile()) {
-      nodes.forEach((n) => {
-        if (n.type === "root" && n.id !== d.id && n.expanded) {
-          n.expanded = false;
-          nodes.forEach((m) => {
-            if (m.type === "word" && m.roots && m.roots.includes(n.id)) {
-              m.vizVisible = false;
-            }
-          });
-        }
-      });
+  function enterRoot(rt) {
+    view.level = "word";
+    view.domainId = rt.domain || view.domainId;
+    view.rootId = rt.id;
+    applyView();
+  }
+
+  function goBack() {
+    if (view.level === "word") {
+      view.level = "root";
+      view.rootId = null;
+    } else if (view.level === "root") {
+      view.level = "domain";
+      view.domainId = null;
+    } else {
+      return;
     }
-    // 展开/收起该词族。只放开这一簇单词去找位置，
-    // 其余节点保持钉住，整张图不会跟着重排。
-    const family = [];
-    nodes.forEach((n) => {
-      if (n.type === "word" && n.roots && n.roots.includes(d.id)) {
-        n.vizVisible = d.expanded;
-        family.push(n);
+    clearSelection();
+    applyView();
+  }
+
+  // core_concept 是「English / 中文」双语串（均长 41 字、最长 80），整条塞进
+  // 导航条会把词根本身挤没。这里只取中文那半——详情面板仍显示完整双语。
+  function crumbConcept(text) {
+    if (!text) return "";
+    const parts = String(text).split(" / ");
+    const zh = parts.length > 1 ? parts[parts.length - 1] : parts[0];
+    return zh.length > 18 ? zh.slice(0, 17) + "…" : zh;
+  }
+
+  // 左上角导航条：回退 + 当前位置。第一层没有上级，整条隐藏。
+  function renderNavBar() {
+    const bar = document.getElementById("nav-bar");
+    if (!bar) return;
+
+    if (view.level === "domain") {
+      bar.classList.add("hidden");
+      bar.innerHTML = "";
+      return;
+    }
+
+    const dm = nodes.find((n) => n.id === view.domainId);
+    const rt = view.rootId ? nodes.find((n) => n.id === view.rootId) : null;
+
+    let crumb = `<span class="crumb-domain">${escapeHtml(dm ? dm.label : "语义域")}</span>`;
+    if (rt) {
+      // 词根是这一层唯一的身份信息（圆圈已经不画了），所以连中文概念一起写出来
+      crumb += `<span class="crumb-sep">›</span>`
+        + `<span class="crumb-root">${escapeHtml(rt.label)}</span>`;
+      const note = crumbConcept(rt.concept);
+      if (note) {
+        crumb += `<span class="crumb-note">${escapeHtml(note)}</span>`;
       }
-    });
-    if (d.expanded) {
-      family.forEach((n, i) => {
-        n.fx = null;
-        n.fy = null;
-        // 以词根为圆心撒开，避免全部挤在同一点起步
-        const a = (i / Math.max(family.length, 1)) * Math.PI * 2;
-        n.x = d.x + Math.cos(a) * 70;
-        n.y = d.y + Math.sin(a) * 70;
-      });
     }
-    applyVisibility();
-    settleLocally();
+
+    bar.classList.remove("hidden");
+    bar.innerHTML =
+      `<button id="nav-back" type="button" title="返回上一层" aria-label="返回上一层">←</button>`
+      + `<div id="nav-crumb">${crumb}</div>`;
+    document.getElementById("nav-back")?.addEventListener("click", goBack);
+  }
+
+  // 图例按层显示：当前层画不出来的种类没必要占位。
+  // 注意至少留一项可见——visual_audit 会断言 `#legend .legend-item` 可见。
+  function updateLegend() {
+    const shown = {
+      domain: view.level === "domain",
+      root: view.level === "root",
+      concept: false, // 钻取模型下概念节点不再上画面
+      word: view.level === "word",
+      derived: false, // 父子合成边同理
+      antonym: view.level === "word",
+    };
+    document.querySelectorAll("#legend .legend-item").forEach((item) => {
+      const dot = item.querySelector(".dot");
+      const kind = dot ? Array.from(dot.classList).find((c) => c !== "dot") : null;
+      item.classList.toggle("hidden", !(kind && shown[kind]));
+    });
+  }
+
+  function updateHint() {
+    const el = document.getElementById("hint");
+    if (!el) return;
+    if (view.level === "domain") {
+      el.textContent = "点击语义域进入 · 双击空白重新布局";
+    } else if (view.level === "root") {
+      el.textContent = "点击词根查看词族 · 左上角返回";
+    } else {
+      el.textContent = "点击单词查看详情 · 左上角返回";
+    }
+  }
+
+  // 切层后把视图还原到初始缩放，否则上一层缩放/平移过的变换会把
+  // 新一层的节点顶到画面外——看起来像"点进去什么都没有"。
+  function resetZoom() {
+    if (!zoomBehavior) return;
+    svg.transition().duration(300).call(zoomBehavior.transform, d3.zoomIdentity);
   }
 
   // 展开某层后重新收敛。
@@ -432,62 +474,67 @@
     simulation.alpha(0.9).alphaTarget(0).restart();
   }
 
-  // 展开某词根所属的语义域（搜索直达要穿透三层）
-  function revealDomainOf(rootNode) {
-    if (!rootNode || !rootNode.domain) return;
-    const dm = nodes.find((n) => n.id === rootNode.domain);
-    if (!dm || dm.expanded) return;
-    dm.expanded = true;
-    const rootIds = new Set(dm.roots || []);
-    nodes.forEach((n) => {
-      if (n.type === "root" && rootIds.has(n.id)) n.vizVisible = true;
-      if (n.type === "concept" && !n.isCluster && n.roots
-          && n.roots.some((r) => rootIds.has(r))) {
-        n.vizVisible = true;
-      }
-      if ((n.type === "root" || n.type === "concept") && n.vizVisible
-          && n.x == null) {
-        n.x = dm.x;
-        n.y = dm.y;
-      }
-    });
+  // 把导航状态设到某个词根的词族层
+  function gotoRootFamily(rid) {
+    const root = nodes.find((n) => n.id === rid);
+    view.level = "word";
+    view.domainId = root ? root.domain : null;
+    view.rootId = rid;
   }
 
-  // 强制显示某节点（用于搜索直达）
+  // 搜索直达：把导航状态设到目标所在的那一层。
+  // 旧实现是"逐层展开直到目标露出来"，钻取模型下不需要——目标在哪层，就跳哪层。
+  //
+  // 返回值 = 该聚焦哪个节点。多数情况就是目标自己，但概念节点已经不上画面，
+  // 拿它去 focusNode 会把视口对准一个看不见的东西，所以换成它的成员词。
+  // 返回 null 表示无处可去，调用方不要 focus。
   function revealNode(node) {
-    if (node.vizVisible) return;
+    if (node.type === "domain") {
+      // 语义域本身在第一层，退回去即可
+      view.level = "domain";
+      view.domainId = null;
+      view.rootId = null;
+      applyView({ keepZoom: true });
+      return node;
+    }
 
-    // 词根：先展开它所属的语义域
     if (node.type === "root") {
-      revealDomainOf(node);
+      // 词根命中直接进词族：搜词根就是想看它带出哪些词，
+      // 停在同级词根堆里没有额外信息（那一层没有连线可看）。
+      gotoRootFamily(node.id);
+      applyView({ keepZoom: true });
+      // 词根圈在词族层不画，聚焦第一个成员词
+      const first = nodes.find((n) => n.vizVisible && n.type === "word");
+      return first || null;
     }
 
-    // 单词：展开其所属词根，以及词根所在的语义域
-    if (node.type === "word" && node.roots) {
-      node.roots.forEach((rid) => {
-        const root = nodes.find((n) => n.id === rid);
-        if (root) {
-          revealDomainOf(root);
-          root.vizVisible = true;
-          root.expanded = true;
-          const family = nodes.filter(
-            (n) => n.type === "word" && n.roots && n.roots.includes(rid)
-          );
-          family.forEach((n, i) => {
-            n.vizVisible = true;
-            if (n.fx != null && n.x === root.x && n.y === root.y) return;
-            n.fx = null;
-            n.fy = null;
-            const a = (i / Math.max(family.length, 1)) * Math.PI * 2;
-            n.x = root.x + Math.cos(a) * 70;
-            n.y = root.y + Math.sin(a) * 70;
-          });
-        }
-      });
+    if (node.type === "word" && node.roots && node.roots.length) {
+      gotoRootFamily(node.roots[0]);
+      applyView({ keepZoom: true });
+      return node;
     }
-    node.vizVisible = true;
-    applyVisibility();
-    settleLocally();
+
+    if (node.type === "concept") {
+      // 概念节点不再上画面，但仍留在搜索索引里——它命名的是一组词的共同含义，
+      // 是个有用的入口。落点：优先自己的词根；cluster 概念没有 root_ids
+      // （实测 232 个概念里只有 2 个这样），退到成员词的词根。
+      let rid = (node.roots && node.roots[0]) || null;
+      const firstWordId = (node.words && node.words[0]) || null;
+      if (!rid && firstWordId) {
+        const fw = nodes.find((n) => n.id === firstWordId);
+        rid = fw && fw.roots && fw.roots.length ? fw.roots[0] : null;
+      }
+      if (!rid) return null;
+      gotoRootFamily(rid);
+      applyView({ keepZoom: true });
+      // 聚焦到成员词上，让"搜中文→看到具体是哪个词"这条路走通
+      const member = firstWordId
+        ? nodes.find((n) => n.id === firstWordId && n.vizVisible)
+        : null;
+      return member || nodes.find((n) => n.vizVisible && n.type === "word") || null;
+    }
+
+    return null;
   }
 
   function applyVisibility() {
@@ -574,8 +621,9 @@
   function onSearchSelect(id) {
     const node = nodes.find((n) => n.id === id);
     if (!node) return;
-    revealNode(node);
-    focusNode(node);
+    // 详情面板始终显示用户点的那一条；聚焦的可能是它的替身（见 revealNode）
+    const target = revealNode(node);
+    if (target) focusNode(target);
     showDetail(node);
     searchResults.classed("hidden", true).html("");
     searchInput.node().value = "";
@@ -598,10 +646,14 @@
     const k = Math.max(transform.k, 1.2);
     const tx = width / 2 - node.x * k;
     const ty = height / 2 - node.y * k;
-    svg.transition().duration(500).call(
-      d3.zoom().transform,
-      d3.zoomIdentity.translate(tx, ty).scale(k)
-    );
+    // 必须用 render 里那个 zoomBehavior：现场 new 的实例没有 zoom 监听器，
+    // 变换只会写进 svg.__zoom 而不落到 g 上，画面纹丝不动。
+    if (zoomBehavior) {
+      svg.transition().duration(500).call(
+        zoomBehavior.transform,
+        d3.zoomIdentity.translate(tx, ty).scale(k)
+      );
+    }
 
     // 3 秒后取消高亮
     setTimeout(() => {
@@ -613,6 +665,7 @@
   // ---------- 渲染 ----------
   let nodeSel = null;
   let linkSel = null;
+  let zoomBehavior = null;
   // 画布尺寸与边距：拖拽和 resize 都要用，故提到模块级
   let viewW = 0;
   let viewH = 0;
@@ -724,14 +777,14 @@
     // 面积没变而占位需求变了（实测 335 节点时出现重叠）。
     viewScale = computeScale(width, height);
 
-    // 缩放
+    // 缩放。behavior 存到模块级：切层时 resetZoom 必须复用同一个实例，
+    // 现场 new 一个 d3.zoom() 身上没有 zoom 监听器，变换不会落到 g 上。
     const g = svg.append("g");
-    svg.call(
-      d3.zoom()
-        .touchable(2) // 触屏：双指捏合缩放
-        .scaleExtent([0.2, 5])
-        .on("zoom", (event) => g.attr("transform", event.transform))
-    );
+    zoomBehavior = d3.zoom()
+      .touchable(2) // 触屏：双指捏合缩放
+      .scaleExtent([0.2, 5])
+      .on("zoom", (event) => g.attr("transform", event.transform));
+    svg.call(zoomBehavior);
 
     // 双击空白处重新布局 + 重置视图
     svg.on("dblclick.zoom", null);
@@ -790,12 +843,14 @@
     });
 
     nodeSel.on("click", (event, d) => {
-      if (d.type === "domain") {
-        toggleDomain(d);
-      } else if (d.type === "root") {
-        toggleRoot(d);
-      }
+      // 点击即钻取，不再就地展开。父节点马上要从画面上消失，
+      // 但它的释义留在右侧详情里——这是进入下一层时唯一的上下文。
       showDetail(d);
+      if (d.type === "domain") {
+        enterDomain(d);
+      } else if (d.type === "root") {
+        enterRoot(d);
+      }
     });
 
     // 力导向
@@ -990,7 +1045,7 @@
             + `<span class="origin-src"> · ${n} 词</span></li>`;
         }).join("");
         html += `<div class="detail-block"><h3>词根（${rootNodes.length}）`
-          + `${d.expanded ? " · 已展开" : " · 点击节点展开"}</h3><ul>${items}</ul></div>`;
+          + `${view.domainId === d.id ? " · 已进入" : " · 点击进入"}</h3><ul>${items}</ul></div>`;
       }
     }
 
@@ -998,7 +1053,7 @@
     if (d.type === "root") {
       const family = nodes.filter((n) => n.type === "word" && n.roots && n.roots.includes(d.id));
       if (family.length) {
-        html += `<div class="detail-block"><h3>词族（${family.length}）${d.expanded ? " · 已展开" : " · 点击节点展开"}</h3><ul>${family.map((w) => `<li><b>${escapeHtml(w.label)}</b> — ${escapeHtml(w.concept)}</li>`).join("")}</ul></div>`;
+        html += `<div class="detail-block"><h3>词族（${family.length}）${view.rootId === d.id ? " · 已进入" : " · 点击进入"}</h3><ul>${family.map((w) => `<li><b>${escapeHtml(w.label)}</b> — ${escapeHtml(w.concept)}</li>`).join("")}</ul></div>`;
       }
     }
 
@@ -1021,8 +1076,8 @@
     const id = chip.textContent.trim();
     const node = nodes.find((n) => n.label === id && n.type === "word");
     if (node) {
-      revealNode(node);
-      focusNode(node);
+      const target = revealNode(node);
+      if (target) focusNode(target);
       showDetail(node);
     }
   });
@@ -1091,8 +1146,8 @@
     const id = chip.textContent.trim();
     const node = nodes.find((n) => n.label === id && n.type === "word");
     if (node) {
-      revealNode(node);
-      focusNode(node);
+      const target = revealNode(node);
+      if (target) focusNode(target);
       showDetail(node);
     }
   });
@@ -1110,6 +1165,12 @@
         window.ESG.initStudy(data);
       }
       render();
+
+      // 归一化初始可见性。buildGraph 里各节点自带的 vizVisible 是旧展开模型的
+      // 遗留默认值（cluster 概念恒为 true），不跑一次 applyView 的话第一层会
+      // 混进一堆概念节点——正是它们各自拉着组内单词形成放射状连线。
+      // keepZoom：此时还没有用户缩放，没必要多播一次过渡动画。
+      applyView({ keepZoom: true });
 
       // 主题切换
       document.getElementById("theme-toggle")?.addEventListener("click", toggleTheme);

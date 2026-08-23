@@ -53,6 +53,9 @@
     <div id="graph-container">
       <svg id="graph"></svg>
       <div id="load-progress" role="status" aria-live="polite">正在加载词库…</div>
+      <!-- 钻取导航：回退 + 当前位置。第一层隐藏，内容由 graph.js 填充。
+           父节点不再画在画面上，这里是"我在哪"的唯一交代。 -->
+      <div id="nav-bar" class="hidden" role="navigation" aria-label="层级导航"></div>
       <div id="legend">
         <div class="legend-item"><span class="dot domain"></span>语义域 Domain</div>
         <div class="legend-item"><span class="dot root"></span>词根 Root</div>

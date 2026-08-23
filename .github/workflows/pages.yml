@@ -52,14 +52,18 @@ jobs:
         run: |
           python3 tests/visual_audit.py
 
-      # 性能冒烟：验证并行加载 + IndexedDB 缓存（首次渲染、二次访问命中缓存）
-      - name: Perf smoke test (parallel load + cache)
+      # 冒烟：性能（并行加载 + IndexedDB 缓存）与三层钻取（父节点不留在画面上）。
+      # 两个测试共用一个 http server，省一次起停。
+      - name: Smoke tests (perf + drill-down)
         run: |
           python3 -m http.server 8123 >/tmp/httpserv.log 2>&1 &
           SRV=$!
           sleep 1
-          python3 tests/smoke_perf.py http://127.0.0.1:8123/frontend/ || { kill $SRV; exit 1; }
+          FAIL=0
+          python3 tests/smoke_perf.py http://127.0.0.1:8123/frontend/ || FAIL=1
+          python3 tests/smoke_drill.py http://127.0.0.1:8123/frontend/ || FAIL=1
           kill $SRV
+          exit $FAIL
 
       # 部署时重新生成版本文件：数据任一变化 → 哈希变化 → 前端缓存自动失效。
       # 提交的 data/version.json 仅作仓库内的默认值，线上永远以这里生成的为准。

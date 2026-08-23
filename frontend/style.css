@@ -452,6 +452,67 @@ main { flex: 1; display: flex; min-height: 0; }
   pointer-events: none;
 }
 
+/* ============ 钻取导航条 ============ */
+/* 左上角。父节点不画在画面上了，位置信息全靠这条。
+   #load-progress 在顶部居中，两者在时间上错开（加载完才可能钻取），不会撞。 */
+#nav-bar {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 32px);
+  padding: 6px 12px 6px 8px;
+  border-radius: 999px;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+}
+
+#nav-bar.hidden { display: none; }
+
+#nav-back {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+#nav-back:hover { background: var(--root-color); border-color: var(--root-color); color: #fff; }
+#nav-back:focus-visible { outline: 2px solid var(--root-color); outline-offset: 2px; }
+
+#nav-crumb {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.crumb-domain { color: var(--ink-soft); }
+.crumb-sep { color: var(--ink-faint); }
+/* 当前词根是这一层唯一的身份标识，给足视觉重量 */
+.crumb-root { color: var(--ink); font-weight: 600; font-size: 14px; }
+.crumb-note { color: var(--ink-faint); font-size: 11px; overflow: hidden; text-overflow: ellipsis; }
+
+@media (max-width: 768px) {
+  #nav-bar { top: 10px; left: 10px; gap: 7px; padding: 5px 10px 5px 6px; }
+  /* 手机上概念注释先让位，保住词根本身 */
+  .crumb-note { display: none; }
+}
+
 /* 图例 / 提示：轻量脚注，不再是彩色盒子 */
 #legend,
 #hint {
@@ -466,6 +527,9 @@ main { flex: 1; display: flex; min-height: 0; }
 #hint { right: 18px; max-width: 42%; text-align: right; line-height: 1.6; }
 
 .legend-item { display: flex; align-items: center; gap: 8px; }
+/* 图例按层增减。全局没有 .hidden 规则，且 .legend-item 自带 display:flex，
+   所以必须写成双类选择器压过它，否则 updateLegend 加的 class 不起作用。 */
+.legend-item.hidden { display: none; }
 
 .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
 .dot.domain { background: var(--domain-color); }
