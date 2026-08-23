@@ -22,6 +22,26 @@ def collect_requested_paths(page):
       return out;
     }""")
 
+def progress_text(page):
+    return page.evaluate(
+        "document.getElementById('load-progress')?.textContent ?? ''"
+    ).strip()
+
+def check_progress_cleared(page, label):
+    """加载完成后进度徽标必须被擦干净。
+
+    徽标文字硬编码在 HTML 里，只靠 JS 清除；清除逻辑一坏，用户看到的就是
+    "一直在加载词库"——而图谱其实早已渲染好，纯属虚惊。渲染成功不等于徽标
+    清掉了，所以要单独断言（网络加载和缓存命中是两条清除路径，各测一次）。
+    """
+    # 渲染出节点后清除只差一个微任务，给一点余量避免误报
+    for _ in range(20):
+        if not progress_text(page):
+            return True
+        page.wait_for_timeout(100)
+    print(f'[FAIL] {label} 进度徽标未清除，仍显示 "{progress_text(page)}"')
+    return False
+
 def main(url: str) -> int:
     ok = True
     with sync_playwright() as p:
@@ -53,6 +73,10 @@ def main(url: str) -> int:
             if f not in paths1:
                 print(f"[FAIL] 首次加载缺少 {f}")
                 ok = False
+        if not check_progress_cleared(page, "首次加载"):
+            ok = False
+        else:
+            print("[PASS] 首次加载进度徽标已清除")
 
         # 详情面板加载成功（无报错即认为 data 结构可渲染）
         page.evaluate("""() => {
@@ -78,6 +102,10 @@ def main(url: str) -> int:
             ok = False
         if data_again:
             print(f"[WARN] 二次访问仍重新请求了 {len(data_again)} 个文件（可能未命中缓存）")
+        if not check_progress_cleared(page, "二次访问"):
+            ok = False
+        else:
+            print("[PASS] 二次访问进度徽标已清除")
 
         if errors:
             print(f"[FAIL] 页面错误 {len(errors)} 个:")

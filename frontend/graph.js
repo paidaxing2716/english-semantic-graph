@@ -96,14 +96,19 @@
 
   // 并行拉取全部数据文件；任一失败即整体失败，并带上出错文件信息
   async function fetchAllData(onProgress) {
-    const entries = DATA_FILES.map((f, i) =>
+    // 并行请求的完成顺序不等于声明顺序，所以要数完成个数；
+    // 用数组下标当进度会报成"最后一个 resolve 的文件的下标"，
+    // 5 个文件全下完也可能显示 4/5。
+    let done = 0;
+    const entries = DATA_FILES.map((f) =>
       fetch(f.path)
         .then((res) => {
           if (!res.ok) throw new Error(`${f.path} → HTTP ${res.status}`);
           return res.json();
         })
         .then((j) => {
-          if (onProgress) onProgress(i + 1, DATA_FILES.length);
+          done += 1;
+          if (onProgress) onProgress(done, DATA_FILES.length);
           return [f.key, j];
         })
     );
@@ -124,7 +129,9 @@
 
   async function loadData() {
     const progressEl = document.getElementById("load-progress");
-    const setProgress = (t) => { if (progressEl && t) progressEl.textContent = t; };
+    // 传空串是"加载完成，擦掉徽标"的正常路径，不能被真值判断挡掉
+    // （曾经写成 `progressEl && t`，于是徽标永远停在最后一条进度上）
+    const setProgress = (t) => { if (progressEl) progressEl.textContent = t; };
 
     setProgress("正在加载词库…");
 
