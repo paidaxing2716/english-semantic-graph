@@ -94,13 +94,21 @@ def main():
     # 写死 row[3] 的后果不是报错而是**静默失效**：它拿拉丁词元去比对 IPA 串，
     # 永远比不中，于是任何带标签的草稿都能拿到一个空洞的 [OK]。
     # 由 chunk34 的子代理发现——它自己按第 7 列重跑了一遍匹配逻辑。
+    # 还要取第 5 列 root_ids：本脚本找的是「本该走词根型、却被写成孤立词条」的词，
+    # 已经在第 5 列挂好该根的补词不属此列。不看第 5 列的后果是词根批必然全红——
+    # 补词的 origin 天然会写出它所属根的拉丁词形（mobile 的 origin 就得写 movere），
+    # 于是每个补词都自报一次，而给出的处理办法是「把这些行删掉」，
+    # 照做就会删掉正确的成员词。日耳曼批不受影响：那边第 5 列一律为空。
     def pick(row):
         tag = row[0].strip()
         if tag == "R":
             return None
         if tag == "W":
-            return (row[1], row[6]) if len(row) >= 7 else None
-        return (row[0], row[3]) if len(row) >= 4 else None
+            if len(row) < 7:
+                return None
+            declared = {x.strip() for x in row[4].split("/") if x.strip()}
+            return (row[1], row[6], declared)
+        return (row[0], row[3], set()) if len(row) >= 4 else None
 
     hits = []
     for f in a.tsv:
@@ -111,8 +119,10 @@ def main():
             got = pick(row)
             if not got:
                 continue
-            word, origin = got
+            word, origin, declared = got
             for rid, cands in forms.items():
+                if rid in declared:      # 已挂在这个根上，不是漏挂
+                    continue
                 for c in cands:
                     if c.lower() in origin.lower():
                         hits.append((Path(f).name, word, rid, c, origin))
