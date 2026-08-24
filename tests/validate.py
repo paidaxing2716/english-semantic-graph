@@ -61,6 +61,7 @@ def main():
     words = load("words.json")["words"]
     relations = load("relations.json")["relations"]
     examples = load("examples.json")["examples"]
+    domains = load("domains.json")["domains"]
 
     # --- id 唯一性 ---
     root_ids = [r["id"] for r in roots]
@@ -70,6 +71,26 @@ def main():
     ok &= check_unique(root_ids, "roots")
     ok &= check_unique(concept_ids, "concepts")
     ok &= check_unique(word_ids, "words")
+
+    # --- 跨集合 id 不得撞名 ---
+    # frontend/graph.js:169 起把域/根/概念/单词装进**同一个 idMap**，顺序
+    # domain→root→concept→word，后插入者覆盖前者。撞名的那个节点会从 nodes
+    # 里整个消失，成员词连到错误类型的节点上。relations 无自环、外键也都在，
+    # 所以此前每一道门都是绿的，只有画面上看得出来——词根 dare 就这么被单词
+    # dare 顶掉过（古英语 durran「敢」vs 拉丁语 dare「给」，同形异源）。
+    domain_ids = [d["id"] for d in domains]
+    seen_ns = {}
+    for coll, tag in ((domain_ids, "domain"), (root_ids, "root"),
+                      (concept_ids, "concept"), (word_ids, "word")):
+        for i in coll:
+            seen_ns.setdefault(i, []).append(tag)
+    clash = {k: v for k, v in seen_ns.items() if len(v) > 1}
+    if clash:
+        print(f"[FAIL] 跨集合 id 撞名 {len(clash)} 处（前端 idMap 会让后者覆盖前者）:")
+        for k, v in list(clash.items())[:8]:
+            print(f"        {k}: {' + '.join(v)} → 词根改用拉丁词形，"
+                  f"跑 scripts/migrate_root_ids_latin.py")
+        ok = False
 
     all_ids = set(root_ids) | set(concept_ids) | set(word_ids)
 
@@ -286,8 +307,6 @@ def main():
 
     # --- Q10：语义域必须恰好覆盖所有词根一次 ---
     # 漏掉的词根在三级钻取里点不到；重复归属会让同一词根出现在两个域下。
-    domains = load("domains.json")["domains"]
-    domain_ids = [d["id"] for d in domains]
     ok &= check_unique(domain_ids, "domains")
 
     for d in domains:

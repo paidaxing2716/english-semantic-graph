@@ -58880,7 +58880,7 @@
       "phonetic": "/ˈdeɪtə/",
       "decomposable": "root",
       "root_ids": [
-        "dare"
+        "dare-give"
       ],
       "root_logic": "datum（所给之物）的复数 → 摆出来供人处理的那些事实",
       "origin": "拉丁语 data（datum 的复数，「所给之物」）← dare（给）",
@@ -58916,7 +58916,7 @@
       "phonetic": "/ˈdeɪtəbeɪs/",
       "decomposable": "root",
       "root_ids": [
-        "dare"
+        "dare-give"
       ],
       "root_logic": "data（所给之物）+ base（底座）→ 把数据搁在一处的那个底盘",
       "origin": "英语复合词 data＋base；data ← 拉丁语 dare（给）",
@@ -58951,7 +58951,7 @@
       "phonetic": "/deɪt/",
       "decomposable": "root",
       "root_ids": [
-        "dare"
+        "dare-give"
       ],
       "root_logic": "datum（所给之物）→ 旧文书末尾写「datum Romae…（给于罗马某日）」→ 日期",
       "origin": "古法语 date ← 晚期拉丁语 data（文书上标注的签发日）← dare（给）；旧时公文末尾以 datum（给于某地某日）起句，遂以此指日期",
@@ -68230,7 +68230,7 @@
       "phonetic": "/ɪnˈdaʊ/",
       "decomposable": "root",
       "root_ids": [
-        "dare"
+        "dare-give"
       ],
       "root_logic": "en-（使）+ dow（dare 给）→ 把一份给定在某人名下 → 捐赠、赋予",
       "origin": "盎格鲁法语 endouer ← en-＋古法语 douer ← 拉丁语 dotare（给嫁资）← dos ← dare（给）",
@@ -68268,7 +68268,7 @@
       "phonetic": "/dəʊs/",
       "decomposable": "root",
       "root_ids": [
-        "dare"
+        "dare-give"
       ],
       "root_logic": "dosis（所给的一份）← didonai/dare（给）→ 一次给下的那个量",
       "origin": "法语 dose ← 晚期拉丁语 dosis ← 希腊语 dosis（给予、一份），与拉丁 dare 同出印欧 *do-（给）",

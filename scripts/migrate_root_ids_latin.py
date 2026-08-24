@@ -36,6 +36,14 @@ RENAME = {
     # 第二轮：解锁单词 flu / press
     "flu": "fluere",     # 拉丁语 fluere，流动
     "press": "premere",  # 拉丁语 premere，压、按
+    # 第三轮：dare 与英文 dare 同形异源（古英语 durran「敢」vs 拉丁语 dare「给」）。
+    # 这次不是「单词进不来」——单词 dare 已经以日耳曼型入库了，撞名后果更隐蔽：
+    # frontend/graph.js:169 起用**同一个 idMap** 装域/根/概念/单词，插入顺序
+    # domain→root→concept→word，后插入者覆盖前者。于是词根 dare 节点被单词
+    # dare 顶掉、从 nodes 里整个消失，它的 5 个成员词（data/database/date/
+    # endow/dose）连到了一个「单词」节点上。relations 无自环，validate 也没报，
+    # 只有画面上看得出来。改名按库里已有的 edere-publish / augere-auctor 体例。
+    "dare": "dare-give",
 }
 
 

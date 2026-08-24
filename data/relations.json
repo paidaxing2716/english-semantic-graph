@@ -6746,19 +6746,19 @@
       "note": "crux（十字）→ 荷兰语 kruisen（打十字、来回横渡）→ 巡航"
     },
     {
-      "from": "dare",
+      "from": "dare-give",
       "to": "data",
       "type": "root",
       "note": "datum（所给之物）的复数 → 摆出来供人处理的那些事实"
     },
     {
-      "from": "dare",
+      "from": "dare-give",
       "to": "database",
       "type": "root",
       "note": "data（所给之物）+ base（底座）→ 把数据搁在一处的那个底盘"
     },
     {
-      "from": "dare",
+      "from": "dare-give",
       "to": "date",
       "type": "root",
       "note": "datum（所给之物）→ 旧文书末尾写「datum Romae…（给于罗马某日）」→ 日期"
@@ -7052,13 +7052,13 @@
       "note": "dis-（取消）+ able（拿得住）→ 使拿不住、使用不了"
     },
     {
-      "from": "dare",
+      "from": "dare-give",
       "to": "endow",
       "type": "root",
       "note": "en-（使）+ dow（dare 给）→ 把一份给定在某人名下 → 捐赠、赋予"
     },
     {
-      "from": "dare",
+      "from": "dare-give",
       "to": "dose",
       "type": "root",
       "note": "dosis（所给的一份）← didonai/dare（给）→ 一次给下的那个量"

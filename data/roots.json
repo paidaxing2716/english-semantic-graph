@@ -4165,9 +4165,10 @@
       ]
     },
     {
-      "id": "dare",
-      "root": "dare",
+      "id": "dare-give",
+      "root": "dare-give",
       "variants": [
+        "dare",
         "dat",
         "dos",
         "don"
@@ -4182,6 +4183,10 @@
         "date",
         "endow",
         "dose"
+      ],
+      "noisy_variants": [
+        "dare",
+        "dat"
       ]
     },
     {
