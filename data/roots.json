@@ -4623,14 +4623,13 @@
         "mean",
         "med"
       ],
-      "origin": "拉丁语 medius（居中的）；medianus 经古法语 moien 派出 mean 一支，medialia（挂在中间的饰片）派出 medal",
+      "origin": "拉丁语 medius（居中的）；medianus 经古法语 moien 派出 mean 一支",
       "core_concept": "the point standing between two ends / 站在两头之间的那一点",
       "core_image": "一根杆两头各压一物，手指在中间那点托住，杆不偏不倒",
       "english_definition": "middle, midway",
       "word_ids": [
         "means",
-        "meantime",
-        "medal"
+        "meantime"
       ]
     },
     {
