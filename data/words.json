@@ -2024,8 +2024,10 @@
       "id": "select",
       "word": "select",
       "pos": "verb",
-      "root_ids": [],
-      "root_logic": "",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "se-（分开）+ legere（拾取）→ 从一堆里分开拾出",
       "origin": "拉丁语 seligere（挑选）：se-（分开）+ legere（收集、选择）",
       "native_definition": "to choose someone or something by thinking carefully about which is best",
       "core_concept": "choosing by careful standard – 按标准精心挑选",
@@ -2053,8 +2055,7 @@
       "synonym_group": "concept-make-a-choice",
       "synonym_note": "select 强调按标准精心挑选；choose 更通用；pick 口语化",
       "phonetic": "/sɪˈlekt/",
-      "decomposable": "root_pending",
-      "decomposable_note": "se-（分开）+ legere（选、聚）"
+      "decomposable": "root"
     },
     {
       "id": "pick",
