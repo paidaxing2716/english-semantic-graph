@@ -710,7 +710,12 @@
         "motive",
         "motor",
         "movement",
-        "removal"
+        "removal",
+        "mob",
+        "mobile",
+        "mobilize",
+        "moment",
+        "momentum"
       ]
     },
     {
@@ -959,7 +964,8 @@
         "diminish",
         "minister",
         "minor",
-        "minority"
+        "minority",
+        "menu"
       ]
     },
     {
@@ -1345,7 +1351,8 @@
         "nation",
         "national",
         "native",
-        "nature"
+        "nature",
+        "naive"
       ]
     },
     {
@@ -1405,7 +1412,8 @@
         "domestic",
         "dominant",
         "dominate",
-        "predominant"
+        "predominant",
+        "madame"
       ]
     },
     {
@@ -1986,7 +1994,8 @@
       "word_ids": [
         "mechanic",
         "mechanical",
-        "mechanism"
+        "mechanism",
+        "machine"
       ]
     },
     {
@@ -2483,7 +2492,8 @@
       ],
       "word_ids": [
         "obedience",
-        "obedient"
+        "obedient",
+        "obey"
       ]
     },
     {
@@ -2508,7 +2518,8 @@
         "via"
       ],
       "word_ids": [
-        "previous"
+        "previous",
+        "obvious"
       ]
     },
     {
@@ -2803,7 +2814,8 @@
         "religious",
         "ally",
         "alliance",
-        "alloy"
+        "alloy",
+        "league"
       ]
     },
     {
@@ -2921,7 +2933,10 @@
       "word_ids": [
         "majesty",
         "major",
-        "majority"
+        "majority",
+        "magnify",
+        "maximum",
+        "mayor"
       ]
     },
     {
@@ -3397,7 +3412,8 @@
         "cabbage",
         "cattle",
         "chef",
-        "chief"
+        "chief",
+        "mischief"
       ]
     },
     {
@@ -3692,7 +3708,8 @@
       "word_ids": [
         "defence",
         "defend",
-        "fence"
+        "fence",
+        "offend"
       ]
     },
     {
@@ -3791,6 +3808,135 @@
         "drama",
         "dramatic",
         "drastic"
+      ]
+    },
+    {
+      "id": "concept-merx-goods",
+      "concept": "goods put out to be exchanged",
+      "chinese": "待换之货",
+      "core_image": "布摊在地上，货一样样码开，等着有人过来问价",
+      "root_ids": [
+        "merx"
+      ],
+      "word_ids": [
+        "commerce",
+        "market",
+        "merchant",
+        "mercy"
+      ]
+    },
+    {
+      "id": "concept-maritus-wedded",
+      "concept": "two joined into one household by vow",
+      "chinese": "结为一户",
+      "core_image": "两个名字并排写在同一张纸上，底下按了两个手印",
+      "root_ids": [
+        "maritus"
+      ],
+      "word_ids": [
+        "marital",
+        "marriage",
+        "married",
+        "marry"
+      ]
+    },
+    {
+      "id": "concept-medius-middle",
+      "concept": "the point standing between two ends",
+      "chinese": "两头之间",
+      "core_image": "一根杆两头各压一物，手指在中间那点托住，杆不偏不倒",
+      "root_ids": [
+        "medius"
+      ],
+      "word_ids": [
+        "means",
+        "meantime",
+        "medal"
+      ]
+    },
+    {
+      "id": "concept-mens-mind",
+      "concept": "the inner place where thinking happens",
+      "chinese": "心里那处",
+      "core_image": "眼睛没看什么，人却坐着不动，事情在里头翻来翻去",
+      "root_ids": [
+        "mens"
+      ],
+      "word_ids": [
+        "comment",
+        "mental",
+        "mention"
+      ]
+    },
+    {
+      "id": "concept-mergere-plunge",
+      "concept": "going down under a surface until it is no longer told apart",
+      "chinese": "没入面下",
+      "core_image": "一块布按进水盆，水面合上，布的边缘就找不着了",
+      "root_ids": [
+        "mergere"
+      ],
+      "word_ids": [
+        "emerge",
+        "immerse",
+        "merge"
+      ]
+    },
+    {
+      "id": "concept-gnoscere-recognize",
+      "concept": "coming to know a thing well enough to recognize it",
+      "chinese": "认得出来",
+      "core_image": "远处一个身影走近，到面前才认出是谁",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "word_ids": [
+        "acquaint",
+        "ignorant",
+        "ignore",
+        "noble"
+      ]
+    },
+    {
+      "id": "concept-negare-say-no",
+      "concept": "saying no to what is put forward",
+      "chinese": "说不",
+      "core_image": "一张纸推到面前，那人手一挡，头摇了一下",
+      "root_ids": [
+        "negare"
+      ],
+      "word_ids": [
+        "denial",
+        "deny",
+        "negative"
+      ]
+    },
+    {
+      "id": "concept-nutrire-feed",
+      "concept": "feeding a small thing so it grows",
+      "chinese": "喂养长大",
+      "core_image": "一勺一勺送到嘴边，人小小的，一天天见长",
+      "root_ids": [
+        "nutrire"
+      ],
+      "word_ids": [
+        "nourish",
+        "nurse",
+        "nurture"
+      ]
+    },
+    {
+      "id": "concept-labi-slip",
+      "concept": "sliding down out of one's hold",
+      "chinese": "滑脱下去",
+      "core_image": "攥着的东西一点点往下滑，等发觉时手里已经空了",
+      "root_ids": [
+        "labi"
+      ],
+      "word_ids": [
+        "collapse",
+        "elapse",
+        "lapse"
       ]
     }
   ]

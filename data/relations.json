@@ -7530,6 +7530,288 @@
       "to": "adjoin",
       "type": "root",
       "note": "ad-（朝）+ join（接合）→ 接到一处、彼此相连 → 毗连"
+    },
+    {
+      "from": "merx",
+      "to": "market",
+      "type": "root",
+      "note": "merx（货）→ mercatus（交易、集市）→ 摆货交换的那个场"
+    },
+    {
+      "from": "merx",
+      "to": "merchant",
+      "type": "root",
+      "note": "merx（货）→ mercatans（做买卖的）→ 靠贩货为业的人"
+    },
+    {
+      "from": "merx",
+      "to": "commerce",
+      "type": "root",
+      "note": "com-（一起）+ merce（货）→ 众人拿货互换 → 商业"
+    },
+    {
+      "from": "merx",
+      "to": "mercy",
+      "type": "root",
+      "note": "merces（报酬、恩惠）← merx（货）→ 不索价而给的那份 → 宽恕"
+    },
+    {
+      "from": "maritus",
+      "to": "marry",
+      "type": "root",
+      "note": "maritare（使成配偶）→ 把两人并成一户"
+    },
+    {
+      "from": "maritus",
+      "to": "marriage",
+      "type": "root",
+      "note": "marry（结婚）+ -age → 结成一户这件事，及此后那个关系"
+    },
+    {
+      "from": "maritus",
+      "to": "married",
+      "type": "root",
+      "note": "marry（结婚）+ -ed → 已经并成一户的"
+    },
+    {
+      "from": "maritus",
+      "to": "marital",
+      "type": "root",
+      "note": "marit（配偶）+ -al（…的）→ 与婚姻有关的"
+    },
+    {
+      "from": "medius",
+      "to": "means",
+      "type": "root",
+      "note": "medianus（居中的）→ 居于目的与人之间的那个中介 → 手段"
+    },
+    {
+      "from": "medius",
+      "to": "meantime",
+      "type": "root",
+      "note": "mean（居中）+ time（时候）→ 两件事之间那段时候"
+    },
+    {
+      "from": "medius",
+      "to": "medal",
+      "type": "root",
+      "note": "medialia（挂在胸前正中的饰片）← medius（居中）→ 奖牌"
+    },
+    {
+      "from": "mens",
+      "to": "mental",
+      "type": "root",
+      "note": "ment（心、思想）+ -al（…的）→ 属于脑子里那一处的"
+    },
+    {
+      "from": "mens",
+      "to": "mention",
+      "type": "root",
+      "note": "mens（心）→ mentio（把心里的事说出来）→ 顺口带出一句"
+    },
+    {
+      "from": "mens",
+      "to": "comment",
+      "type": "root",
+      "note": "com-（一起）+ ment（心、想）→ 心里琢磨出的话摆到那件事旁边"
+    },
+    {
+      "from": "mergere",
+      "to": "merge",
+      "type": "root",
+      "note": "mergere（没入）→ 两样没进同一处，界线消失"
+    },
+    {
+      "from": "mergere",
+      "to": "emerge",
+      "type": "root",
+      "note": "e-（出）+ merge（没入）→ 从没着的地方冒出来"
+    },
+    {
+      "from": "mergere",
+      "to": "immerse",
+      "type": "root",
+      "note": "im-（进入）+ merse（没入）→ 整个按进去，一点不露"
+    },
+    {
+      "from": "gnoscere",
+      "to": "ignore",
+      "type": "root",
+      "note": "i-（不）+ gnor（认得出）→ 装作认不出这件事 → 不予理会"
+    },
+    {
+      "from": "gnoscere",
+      "to": "ignorant",
+      "type": "root",
+      "note": "i-（不）+ gnor（认得出）+ -ant（…的）→ 认不出、不晓得的"
+    },
+    {
+      "from": "gnoscere",
+      "to": "noble",
+      "type": "root",
+      "note": "nobilis（可认得出的、有名的）← gnoscere（认识）→ 众人都认得的那一家 → 出身高、品格高"
+    },
+    {
+      "from": "negare",
+      "to": "deny",
+      "type": "root",
+      "note": "de-（加重）+ ny（negare 说不）→ 一口咬定不是、不给"
+    },
+    {
+      "from": "negare",
+      "to": "denial",
+      "type": "root",
+      "note": "deny（说不）+ -al（名词）→ 把「说不」这一下当作一件事"
+    },
+    {
+      "from": "negare",
+      "to": "negative",
+      "type": "root",
+      "note": "nega（说不）+ -tive（…性的）→ 站在说不那一边的"
+    },
+    {
+      "from": "nutrire",
+      "to": "nurse",
+      "type": "root",
+      "note": "nutrix（奶妈）← nutrire（喂养）→ 喂着、看着的那个人 → 照看病人的人"
+    },
+    {
+      "from": "nutrire",
+      "to": "nourish",
+      "type": "root",
+      "note": "norrir（喂养）← nutrire（喂养）→ 供上它长起来要的东西"
+    },
+    {
+      "from": "nutrire",
+      "to": "nurture",
+      "type": "root",
+      "note": "nutritura（喂养这件事）← nutrire（喂养）→ 一年年供着、看着，让它成形"
+    },
+    {
+      "from": "labi",
+      "to": "lapse",
+      "type": "root",
+      "note": "lapsus（滑了一下）← labi（滑）→ 手一松滑开的那一下 → 小差错、失效"
+    },
+    {
+      "from": "labi",
+      "to": "elapse",
+      "type": "root",
+      "note": "e-（出）+ lapse（滑）→ 一段时间从手里滑出去"
+    },
+    {
+      "from": "labi",
+      "to": "collapse",
+      "type": "root",
+      "note": "col-（一起）+ lapse（滑）→ 各处一齐往下滑，整个下来"
+    },
+    {
+      "from": "mov",
+      "to": "mob",
+      "type": "root",
+      "note": "mobile vulgus（易被推动的众人）的截短 ← movere（推动）→ 一推就动、拦不住的那群"
+    },
+    {
+      "from": "mov",
+      "to": "mobile",
+      "type": "root",
+      "note": "mob（movere 移动）+ -ile（能…的）→ 挪得动的"
+    },
+    {
+      "from": "mov",
+      "to": "mobilize",
+      "type": "root",
+      "note": "mobile（挪得动的）+ -ize（使…）→ 把停着的弄动起来"
+    },
+    {
+      "from": "mov",
+      "to": "moment",
+      "type": "root",
+      "note": "movimentum（动一下）← movere（移动）→ 天平偏一下的那一瞬 → 极短的一段"
+    },
+    {
+      "from": "mov",
+      "to": "momentum",
+      "type": "root",
+      "note": "momentum（动的那一下）← movere（移动）→ 已经动起来的东西自带的那股劲"
+    },
+    {
+      "from": "maior",
+      "to": "magnify",
+      "type": "root",
+      "note": "magnus（大）+ -fy（使…）→ 使它看起来更大"
+    },
+    {
+      "from": "maior",
+      "to": "maximum",
+      "type": "root",
+      "note": "maximus（最大的，magnus 的最高级）→ 到顶那一档，再上不去"
+    },
+    {
+      "from": "maior",
+      "to": "mayor",
+      "type": "root",
+      "note": "maior（更大的、居长的）→ 一城里位分最大的那个人"
+    },
+    {
+      "from": "audire",
+      "to": "obey",
+      "type": "root",
+      "note": "ob-（朝向）+ ey（audire 听）→ 朝着那句话听，听了就照做"
+    },
+    {
+      "from": "caput",
+      "to": "mischief",
+      "type": "root",
+      "note": "mes-（坏）+ chief（caput 头、结局）→ 事情落到坏的那一头"
+    },
+    {
+      "from": "domus",
+      "to": "madame",
+      "type": "root",
+      "note": "ma（我的）+ dame（domina 女主人 ← domus 家）→ 我的女主人 → 对女子的敬称"
+    },
+    {
+      "from": "fendere",
+      "to": "offend",
+      "type": "root",
+      "note": "of-（朝、对着）+ fend（击）→ 一下撞到人身上"
+    },
+    {
+      "from": "ligare",
+      "to": "league",
+      "type": "root",
+      "note": "lega（结盟）← ligare（绑）→ 几方被一纸约绑在一起"
+    },
+    {
+      "from": "mekhane",
+      "to": "machine",
+      "type": "root",
+      "note": "mēkhanē（装置）→ 几件零件配起来，通上力就替人做活"
+    },
+    {
+      "from": "minus",
+      "to": "menu",
+      "type": "root",
+      "note": "minutus（弄小了的）← minus（更小）→ 把整桌拆成一条条细列出来"
+    },
+    {
+      "from": "nasci",
+      "to": "naive",
+      "type": "root",
+      "note": "nativus（天生的）← nasci（出生）→ 还是出生时那个样子，没被世事改过"
+    },
+    {
+      "from": "via",
+      "to": "obvious",
+      "type": "root",
+      "note": "ob-（迎面）+ vi（via 路）+ -ous（…的）→ 横在路当中的 → 谁走过都看得见"
+    },
+    {
+      "from": "gnoscere",
+      "to": "acquaint",
+      "type": "root",
+      "note": "ac-（ad- 朝）+ quaint（cognoscere 认识）→ 让人认下来 → 使相识"
     }
   ]
 }

@@ -41336,10 +41336,11 @@
       "word": "acquaint",
       "pos": "verb",
       "phonetic": "/əˈkweɪnt/",
-      "decomposable": "germanic",
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "ac-（ad- 朝）+ quaint（cognoscere 认识）→ 让人认下来 → 使相识",
       "origin": "古法语 acointier（使相识）← 拉丁语 ad-（向）+ cognoscere（认识）",
       "native_definition": "to make someone familiar with something",
       "core_concept": "walking someone through a thing until it stops being strange – 带着人过一遍，直到那东西不再生分",
@@ -88936,6 +88937,1481 @@
         "户外的：活动放在屋子外头，露天进行",
         "室外的：位置上与屋里相对的那一边"
       ]
+    },
+    {
+      "id": "market",
+      "word": "market",
+      "pos": "noun",
+      "phonetic": "/ˈmɑːkɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "merx"
+      ],
+      "root_logic": "merx（货）→ mercatus（交易、集市）→ 摆货交换的那个场",
+      "origin": "古北法语 market ← 拉丁语 mercatus（买卖、集市）← mercari ← merx（货）",
+      "native_definition": "a place where goods are bought and sold; demand for something",
+      "core_concept": "the ground where sellers lay out and buyers walk through – 卖的人摆开、买的人穿行的那片地",
+      "core_image": "一早地上就摊满了，人挨着货走，边看边问",
+      "chinese": [
+        "市场",
+        "集市",
+        "行情"
+      ],
+      "examples": [
+        "She sells eggs at the market.",
+        "There is no market for that."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "市场/集市：摆货交换的那片场地",
+        "行情：某样货在那片场上换得动多少"
+      ],
+      "recall_hint": "merx（货）→ mercatus（集市）→ 摆货交换的场"
+    },
+    {
+      "id": "merchant",
+      "word": "merchant",
+      "pos": "noun",
+      "phonetic": "/ˈmɜːtʃənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "merx"
+      ],
+      "root_logic": "merx（货）→ mercatans（做买卖的）→ 靠贩货为业的人",
+      "origin": "古法语 marchant ← 通俗拉丁语 mercatans ← mercari（买卖）← merx（货）",
+      "native_definition": "a person who buys and sells goods, especially in large amounts",
+      "core_concept": "the one who owns neither field nor workshop, only the goods in transit – 既不种地也不开工坊，手里只有在途那批货的人",
+      "core_image": "他自己不做也不种，一船拉进来，一船运出去",
+      "chinese": [
+        "商人",
+        "批发商"
+      ],
+      "examples": [
+        "The merchant traded in silk.",
+        "Wool merchants grew rich here."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "商人/批发商：靠买进卖出货物为业的人"
+      ],
+      "recall_hint": "merx（货）→ mercatans → 靠贩货为业的人"
+    },
+    {
+      "id": "commerce",
+      "word": "commerce",
+      "pos": "noun",
+      "phonetic": "/ˈkɒmɜːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "merx"
+      ],
+      "root_logic": "com-（一起）+ merce（货）→ 众人拿货互换 → 商业",
+      "origin": "法语 commerce ← 拉丁语 commercium（贸易）← com＋merx（货）",
+      "native_definition": "the buying and selling of goods on a large scale",
+      "core_concept": "goods moving between many hands, not just two – 货在许多手之间流转，不止两方对换",
+      "core_image": "船进港、车出城，货一批批换了主人又往前走",
+      "chinese": [
+        "商业",
+        "贸易"
+      ],
+      "examples": [
+        "Commerce between the two grew.",
+        "The port thrives on commerce."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "商业/贸易：众人拿货互换、货在多手间流转"
+      ],
+      "recall_hint": "com-（一起）+ merce（货）→ 众人拿货互换"
+    },
+    {
+      "id": "mercy",
+      "word": "mercy",
+      "pos": "noun",
+      "phonetic": "/ˈmɜːsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "merx"
+      ],
+      "root_logic": "merces（报酬、恩惠）← merx（货）→ 不索价而给的那份 → 宽恕",
+      "origin": "古法语 merci ← 拉丁语 merces（报酬、恩惠）← merx（货）；由「该收的价」转指「不收价而施的恩」",
+      "native_definition": "kindness shown in not punishing someone as much as one could",
+      "core_concept": "the payment owed but not collected – 该收的那笔，收方却不要了",
+      "core_image": "账本上写着数目，那人把本子合上，说不必了",
+      "chinese": [
+        "仁慈",
+        "宽恕",
+        "怜悯"
+      ],
+      "examples": [
+        "The judge showed mercy.",
+        "They begged for mercy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "仁慈/宽恕/怜悯：该收的那笔不收了，即不索价而施的恩"
+      ],
+      "recall_hint": "merces（报酬）← merx（货）→ 该收却不收的那份"
+    },
+    {
+      "id": "marry",
+      "word": "marry",
+      "pos": "verb",
+      "phonetic": "/ˈmæri/",
+      "decomposable": "root",
+      "root_ids": [
+        "maritus"
+      ],
+      "root_logic": "maritare（使成配偶）→ 把两人并成一户",
+      "origin": "古法语 marier ← 拉丁语 maritare（嫁娶）← maritus（配偶）",
+      "native_definition": "to become the husband or wife of someone",
+      "core_concept": "the moment two names go onto one paper – 两个名字落到同一张纸上那一刻",
+      "core_image": "他们在那张纸上依次签了名，回身时已是一户",
+      "chinese": [
+        "结婚",
+        "娶",
+        "嫁"
+      ],
+      "examples": [
+        "They married last autumn.",
+        "She married her old classmate."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "结婚/娶/嫁：把两人并成一户这个动作"
+      ],
+      "recall_hint": "maritare（使成配偶）→ 把两人并成一户"
+    },
+    {
+      "id": "marriage",
+      "word": "marriage",
+      "pos": "noun",
+      "phonetic": "/ˈmærɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "maritus"
+      ],
+      "root_logic": "marry（结婚）+ -age → 结成一户这件事，及此后那个关系",
+      "origin": "古法语 mariage ← 通俗拉丁语 maritaticum ← maritus（配偶）",
+      "native_definition": "the legal union of two people; the state of being married",
+      "core_concept": "the arrangement that holds after the paper is signed – 纸签完之后一直立着的那层关系",
+      "core_image": "那张纸收进抽屉，往后几十年都按它上面的算",
+      "chinese": [
+        "婚姻",
+        "结婚",
+        "结合"
+      ],
+      "examples": [
+        "Their marriage lasted forty years.",
+        "The marriage took place in June."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "婚姻：纸签完后一直立着的那层关系",
+        "结婚：签那张纸的那一场",
+        "结合：两者并成一体，泛用"
+      ],
+      "recall_hint": "marry（结婚）+ -age → 结成一户这件事及其关系"
+    },
+    {
+      "id": "married",
+      "word": "married",
+      "pos": "adjective",
+      "phonetic": "/ˈmærid/",
+      "decomposable": "root",
+      "root_ids": [
+        "maritus"
+      ],
+      "root_logic": "marry（结婚）+ -ed → 已经并成一户的",
+      "origin": "英语 married，来自 marry ← 拉丁语 maritare ← maritus",
+      "native_definition": "having a husband or wife",
+      "core_concept": "the state of already being on that one paper – 名字已经在那张纸上的状态",
+      "core_image": "他左手无名指上有一圈没晒到的白痕",
+      "chinese": [
+        "已婚的"
+      ],
+      "examples": [
+        "They have been married ten years.",
+        "She is married to a doctor."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "已婚的：名字已经在那张纸上的状态"
+      ],
+      "recall_hint": "marry（结婚）+ -ed → 已经并成一户的"
+    },
+    {
+      "id": "marital",
+      "word": "marital",
+      "pos": "adjective",
+      "phonetic": "/ˈmærɪtl/",
+      "decomposable": "root",
+      "root_ids": [
+        "maritus"
+      ],
+      "root_logic": "marit（配偶）+ -al（…的）→ 与婚姻有关的",
+      "origin": "拉丁语 maritalis（属于配偶的）← maritus（配偶）",
+      "native_definition": "relating to marriage or to being married",
+      "core_concept": "belonging to what that one paper set up – 属于那张纸所立起来的那层关系",
+      "core_image": "表格上有一栏专问这一项，只能填其中一个选项",
+      "chinese": [
+        "婚姻的",
+        "夫妻的"
+      ],
+      "examples": [
+        "They discussed marital problems.",
+        "Please state your marital status."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "婚姻的/夫妻的：属于那纸所立起的那层关系"
+      ],
+      "recall_hint": "marit（配偶）+ -al → 与婚姻有关的"
+    },
+    {
+      "id": "means",
+      "word": "means",
+      "pos": "noun",
+      "phonetic": "/miːnz/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "medianus（居中的）→ 居于目的与人之间的那个中介 → 手段",
+      "origin": "古法语 moiens（中介、方法）← 晚期拉丁语 medianus（居中的）← medius",
+      "native_definition": "a method for achieving something; money and resources",
+      "core_concept": "whatever stands between you and what you want – 横在人与所求之间、借它过去的那个",
+      "core_image": "河隔在中间，那条船就是过去的唯一凭借",
+      "chinese": [
+        "手段",
+        "方法",
+        "财力"
+      ],
+      "examples": [
+        "Use any means necessary.",
+        "They live beyond their means."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "手段/方法：横在人与所求之间、借它达成的那个",
+        "财力：同样是借以办事的那份凭借"
+      ],
+      "recall_hint": "medianus（居中）→ 居于人与所求之间的中介"
+    },
+    {
+      "id": "meantime",
+      "word": "meantime",
+      "pos": "noun",
+      "phonetic": "/ˈmiːntaɪm/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "mean（居中）+ time（时候）→ 两件事之间那段时候",
+      "origin": "英语复合词 mean＋time；mean ← 古法语 moien ← 拉丁语 medianus ← medius",
+      "native_definition": "the period between two events",
+      "core_concept": "the stretch that sits between one thing ending and the next starting – 一件事完与下一件起之间那一段",
+      "core_image": "前一场散了，后一场还没开，中间那阵子人都在门口站着",
+      "chinese": [
+        "其间",
+        "同时"
+      ],
+      "examples": [
+        "In the meantime, please wait here.",
+        "He read a book in the meantime."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "其间/同时：一事完与下一事起之间那一段时候"
+      ],
+      "recall_hint": "mean（居中）+ time（时候）→ 两事之间那段时候"
+    },
+    {
+      "id": "medal",
+      "word": "medal",
+      "pos": "noun",
+      "phonetic": "/ˈmedl/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "medialia（挂在胸前正中的饰片）← medius（居中）→ 奖牌",
+      "origin": "法语 médaille ← 意大利语 medaglia ← 通俗拉丁语 medalia ← 拉丁语 medius（居中）",
+      "native_definition": "a flat piece of metal given as an award",
+      "core_concept": "the disc hung at the middle of the chest for all to see – 挂在胸前正中、供人看见的那枚扁片",
+      "core_image": "带子从颈后绕过来，那枚圆片正落在胸口中间",
+      "chinese": [
+        "奖牌",
+        "勋章"
+      ],
+      "examples": [
+        "She won a gold medal.",
+        "He wore his war medals."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "奖牌/勋章：挂在胸前正中、供人看见的那枚扁片"
+      ],
+      "recall_hint": "medialia（挂在正中的饰片）← medius（居中）"
+    },
+    {
+      "id": "mental",
+      "word": "mental",
+      "pos": "adjective",
+      "phonetic": "/ˈmentl/",
+      "decomposable": "root",
+      "root_ids": [
+        "mens"
+      ],
+      "root_logic": "ment（心、思想）+ -al（…的）→ 属于脑子里那一处的",
+      "origin": "拉丁语 mentalis ← mens（心、思想）",
+      "native_definition": "relating to the mind or to processes of thinking",
+      "core_concept": "belonging to what happens inside the head, not outside it – 属于头脑里那一摊，不在外头",
+      "core_image": "他没动笔也没出声，两个数在脑子里就对上了",
+      "chinese": [
+        "精神的",
+        "心理的",
+        "智力的"
+      ],
+      "examples": [
+        "He does mental arithmetic fast.",
+        "She suffers from mental stress."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "精神的：属于脑子里那一处而非身体的",
+        "心理的：脑子里那一处的活动与状态",
+        "智力的：脑子里那一处运转的能力"
+      ],
+      "recall_hint": "ment（心）+ -al → 属于脑子里那一处的"
+    },
+    {
+      "id": "mention",
+      "word": "mention",
+      "pos": "verb / noun",
+      "phonetic": "/ˈmenʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "mens"
+      ],
+      "root_logic": "mens（心）→ mentio（把心里的事说出来）→ 顺口带出一句",
+      "origin": "拉丁语 mentio（说起、提名）← mens（心、想到的事）",
+      "native_definition": "to speak or write about something briefly",
+      "core_concept": "letting a thing in the head out in one short phrase – 把心里那件事只用一句放出来",
+      "core_image": "聊别的时候顺口带出一句，说完就往下说了",
+      "chinese": [
+        "提到",
+        "提及",
+        "说起"
+      ],
+      "examples": [
+        "He mentioned your name once.",
+        "She made no mention of it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "提到/提及：心里那件事出口一句，不展开",
+        "说起：同一动作，重在开口带出"
+      ],
+      "recall_hint": "mens（心）→ mentio（说出心里的事）→ 顺口一句带出"
+    },
+    {
+      "id": "comment",
+      "word": "comment",
+      "pos": "noun / verb",
+      "phonetic": "/ˈkɒment/",
+      "decomposable": "root",
+      "root_ids": [
+        "mens"
+      ],
+      "root_logic": "com-（一起）+ ment（心、想）→ 心里琢磨出的话摆到那件事旁边",
+      "origin": "拉丁语 commentum（想出来的东西、注解）← comminisci（琢磨出来）← mens（心）",
+      "native_definition": "a remark expressing an opinion about something",
+      "core_concept": "the thought worked out and set beside the thing – 琢磨出来的那点想法，摆在那件事旁边",
+      "core_image": "书页边上留着几行小字，是读的人自己添的",
+      "chinese": [
+        "评论",
+        "意见",
+        "评价"
+      ],
+      "examples": [
+        "He made no comment on it.",
+        "Her comments were very helpful."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "评论：琢磨出的话摆到那件事旁边，说给人听",
+        "意见：摆出去的那点想法本身",
+        "评价：同一动作，重在给出高下判断"
+      ],
+      "recall_hint": "com-（一起）+ ment（心、想）→ 琢磨出的话摆到那事旁边"
+    },
+    {
+      "id": "merge",
+      "word": "merge",
+      "pos": "verb",
+      "phonetic": "/mɜːdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "mergere"
+      ],
+      "root_logic": "mergere（没入）→ 两样没进同一处，界线消失",
+      "origin": "拉丁语 mergere（浸入、没入）",
+      "native_definition": "to combine two or more things into one",
+      "core_concept": "two things going into one space until the line between is gone – 两样进到同一处，中间那条界线不见了",
+      "core_image": "两条车道并到一条上，前后车挤成一列，看不出原先各自走哪边",
+      "chinese": [
+        "合并",
+        "融合",
+        "汇合"
+      ],
+      "examples": [
+        "The two banks merged last year.",
+        "Two lanes merge into one."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "合并：两样并成一个，重在成一体",
+        "融合：界线彻底化掉，分不出各自",
+        "汇合：两股流到一处，重在流向合一"
+      ],
+      "recall_hint": "mergere（没入）→ 两样没进同一处，界线消失"
+    },
+    {
+      "id": "emerge",
+      "word": "emerge",
+      "pos": "verb",
+      "phonetic": "/ɪˈmɜːdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "mergere"
+      ],
+      "root_logic": "e-（出）+ merge（没入）→ 从没着的地方冒出来",
+      "origin": "拉丁语 emergere（浮出、露出）← e-（出）＋ mergere（没入）",
+      "native_definition": "to come out from behind or below something and become visible",
+      "core_concept": "breaking up out of what had covered it – 从盖着它的那层里冒上来",
+      "core_image": "雾散开一点，一个人从那片白里走出来，越来越清楚",
+      "chinese": [
+        "出现",
+        "浮现",
+        "显露"
+      ],
+      "examples": [
+        "A figure emerged from the fog.",
+        "New facts emerged during the trial."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "出现/浮现：从盖着的那层里冒出来，被人看见",
+        "显露：原先看不出的部分露到面上"
+      ],
+      "recall_hint": "e-（出）+ merge（没入）→ 从没着的地方冒出来"
+    },
+    {
+      "id": "immerse",
+      "word": "immerse",
+      "pos": "verb",
+      "phonetic": "/ɪˈmɜːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "mergere"
+      ],
+      "root_logic": "im-（进入）+ merse（没入）→ 整个按进去，一点不露",
+      "origin": "拉丁语 immergere（浸入），过去分词 immersus ← in-（进）＋ mergere（没入）",
+      "native_definition": "to put something completely into a liquid; to involve oneself deeply in an activity",
+      "core_concept": "pushing a thing all the way under, no edge left out – 整个按到面下去，一个边都不留在外",
+      "core_image": "那块布被压进染缸，压到一个角都不露在外头",
+      "chinese": [
+        "浸没",
+        "使沉浸",
+        "使专心"
+      ],
+      "examples": [
+        "Immerse the cloth in cold water.",
+        "He immersed himself in his work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "浸没：整个按到液面下去",
+        "使沉浸/使专心：人整个进到一件事里，外头的事都进不来"
+      ],
+      "recall_hint": "im-（进入）+ merse（没入）→ 整个按进去，一点不露"
+    },
+    {
+      "id": "ignore",
+      "word": "ignore",
+      "pos": "verb",
+      "phonetic": "/ɪɡˈnɔː/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "i-（不）+ gnor（认得出）→ 装作认不出这件事 → 不予理会",
+      "origin": "拉丁语 ignorare（不认识、不理）← in-（不）＋ gnoscere（认识）",
+      "native_definition": "to pay no attention to someone or something on purpose",
+      "core_concept": "acting as though one does not recognize what is plainly there – 明明在那儿，却装作认不出",
+      "core_image": "桌上那封信摆了三天，他每次经过都不往那边看一眼",
+      "chinese": [
+        "忽视",
+        "不理",
+        "无视"
+      ],
+      "examples": [
+        "Don't ignore the warning signs.",
+        "She ignored him at the party."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "忽视：明知在那儿却不去看，重在不理会",
+        "不理：对人不作回应",
+        "无视：当作不存在，重在完全不放进眼里"
+      ],
+      "recall_hint": "i-（不）+ gnor（认得出）→ 装作认不出那件事"
+    },
+    {
+      "id": "ignorant",
+      "word": "ignorant",
+      "pos": "adjective",
+      "phonetic": "/ˈɪɡnərənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "i-（不）+ gnor（认得出）+ -ant（…的）→ 认不出、不晓得的",
+      "origin": "拉丁语 ignorans（不知的），ignorare 的现在分词 ← in-（不）＋ gnoscere（认识）",
+      "native_definition": "lacking knowledge or awareness of something",
+      "core_concept": "being the one who cannot recognize what others already do – 别人都认出来了，只有他认不出",
+      "core_image": "满桌人都在笑，只有他没听懂，也跟着笑了两声",
+      "chinese": [
+        "无知的",
+        "不知道的",
+        "愚昧的"
+      ],
+      "examples": [
+        "He is ignorant of the facts.",
+        "Don't be so ignorant about it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "无知的：认不出、也没学过，重在缺知识",
+        "不知道的：这一件事上没被告知",
+        "愚昧的：长期认不出，带贬意"
+      ],
+      "recall_hint": "i-（不）+ gnor（认得出）+ -ant → 认不出那件事的"
+    },
+    {
+      "id": "noble",
+      "word": "noble",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈnəʊbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "nobilis（可认得出的、有名的）← gnoscere（认识）→ 众人都认得的那一家 → 出身高、品格高",
+      "origin": "古法语 noble ← 拉丁语 nobilis（有名的、显贵的）← gnoscere（认识）",
+      "native_definition": "belonging to a high social class; having fine personal qualities",
+      "core_concept": "the one whose name the whole room already knows – 名字一出口，满屋人都认得的那个",
+      "core_image": "他一报出姓氏，满屋人都停下来看他",
+      "chinese": [
+        "高尚的",
+        "贵族的",
+        "贵族"
+      ],
+      "examples": [
+        "He came from a noble family.",
+        "That was a noble act."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "贵族的/贵族：众人都认得的那一家及其成员，即出身显贵",
+        "高尚的：由「众人认得、名声在外」转到品格上，够得上被称道"
+      ],
+      "recall_hint": "nobilis（可认得出的、有名的）← gnoscere（认识）→ 名字一出满屋人都认得"
+    },
+    {
+      "id": "deny",
+      "word": "deny",
+      "pos": "verb",
+      "phonetic": "/dɪˈnaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "negare"
+      ],
+      "root_logic": "de-（加重）+ ny（negare 说不）→ 一口咬定不是、不给",
+      "origin": "古法语 denier ← 拉丁语 denegare（坚决说不）← de-（加重）＋ negare（说不）",
+      "native_definition": "to say that something is not true; to refuse to give something",
+      "core_concept": "saying no to whatever is held out in front of one – 对递到面前的那件事说不",
+      "core_image": "照片摆到他面前，他看了两眼，说那不是他",
+      "chinese": [
+        "否认",
+        "拒绝",
+        "否定"
+      ],
+      "examples": [
+        "He denied all the charges.",
+        "They were denied entry to the hall."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "否认：对一句陈述说不，说它不成立",
+        "拒绝：对一个请求说不，即不给",
+        "否定：对整件事说不，重在推翻"
+      ],
+      "recall_hint": "de-（加重）+ ny（说不）→ 一口咬定不是、不给"
+    },
+    {
+      "id": "denial",
+      "word": "denial",
+      "pos": "noun",
+      "phonetic": "/dɪˈnaɪəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "negare"
+      ],
+      "root_logic": "deny（说不）+ -al（名词）→ 把「说不」这一下当作一件事",
+      "origin": "英语 denial，来自 deny ← 古法语 denier ← 拉丁语 denegare ← negare（说不）",
+      "native_definition": "a statement that something is not true; a refusal to give something",
+      "core_concept": "the act of saying no, taken as a thing in itself – 「说不」这一下本身，当成一件事看",
+      "core_image": "发布会上他只念了一句话就下台，说没有这回事",
+      "chinese": [
+        "否认",
+        "否定",
+        "拒绝"
+      ],
+      "examples": [
+        "He issued a flat denial.",
+        "Her denial convinced no one."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "否认/否定：说某事不成立这一下",
+        "拒绝：说不给这一下"
+      ],
+      "recall_hint": "deny（说不）+ -al → 把说不这一下当作一件事"
+    },
+    {
+      "id": "negative",
+      "word": "negative",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈneɡətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "negare"
+      ],
+      "root_logic": "nega（说不）+ -tive（…性的）→ 站在说不那一边的",
+      "origin": "拉丁语 negativus（表否认的）← negare（说不）",
+      "native_definition": "expressing refusal or disagreement; less than zero; showing that something is not present",
+      "core_concept": "standing on the no side of the thing – 站在「不」那一边",
+      "core_image": "问他行不行，他每一条都摇头，一条都没点过头",
+      "chinese": [
+        "负面的",
+        "消极的",
+        "否定的",
+        "阴性的"
+      ],
+      "examples": [
+        "His answer was negative.",
+        "The test came back negative."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "否定的：明确说不，与说是相对",
+        "负面的：说不那一边引申为坏的那一边",
+        "消极的：整个态度都偏在说不这边，不肯往前",
+        "阴性的：检验说「没有」，即那样东西不在"
+      ],
+      "recall_hint": "nega（说不）+ -tive → 站在说不那一边的"
+    },
+    {
+      "id": "nurse",
+      "word": "nurse",
+      "pos": "noun / verb",
+      "phonetic": "/nɜːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "nutrire"
+      ],
+      "root_logic": "nutrix（奶妈）← nutrire（喂养）→ 喂着、看着的那个人 → 照看病人的人",
+      "origin": "古法语 norrice（奶妈）← 晚期拉丁语 nutricia ← 拉丁语 nutrire（喂养）",
+      "native_definition": "a person trained to care for sick people; to care for someone who is ill",
+      "core_concept": "the one who feeds and watches over the helpless – 喂着、守着那个自己顾不了自己的人",
+      "core_image": "她一夜起了四回，换水、量体温，把药一口口送下去",
+      "chinese": [
+        "护士",
+        "保姆",
+        "照料"
+      ],
+      "examples": [
+        "She works as a nurse.",
+        "He nursed his wife for years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "护士：喂药看护病人的那个人",
+        "保姆：早期义，喂养看顾小孩的那个人",
+        "照料：这个人所做的那件事本身"
+      ],
+      "recall_hint": "nutrix（奶妈）← nutrire（喂养）→ 喂着守着的那个人"
+    },
+    {
+      "id": "nourish",
+      "word": "nourish",
+      "pos": "verb",
+      "phonetic": "/ˈnʌrɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "nutrire"
+      ],
+      "root_logic": "norrir（喂养）← nutrire（喂养）→ 供上它长起来要的东西",
+      "origin": "古法语 norriss-（norrir 的词干，喂养）← 拉丁语 nutrire（喂养）",
+      "native_definition": "to give a living thing the food it needs to grow and stay healthy",
+      "core_concept": "putting in what a living thing needs so it thickens and grows – 把活物长起来要的东西送进去",
+      "core_image": "盆里那株天天浇一遍，叶子一层层厚起来",
+      "chinese": [
+        "滋养",
+        "养育",
+        "怀有"
+      ],
+      "examples": [
+        "Milk nourishes a growing child.",
+        "She nourished a hope of return."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "滋养：供上食物养分，使强健",
+        "养育：同一动作用在人身上，供着长大",
+        "怀有：把一个念头养着不断供着，久了不散"
+      ],
+      "recall_hint": "norrir（喂养）← nutrire（喂养）→ 供上长起来要的东西"
+    },
+    {
+      "id": "nurture",
+      "word": "nurture",
+      "pos": "verb / noun",
+      "phonetic": "/ˈnɜːtʃə/",
+      "decomposable": "root",
+      "root_ids": [
+        "nutrire"
+      ],
+      "root_logic": "nutritura（喂养这件事）← nutrire（喂养）→ 一年年供着、看着，让它成形",
+      "origin": "古法语 norreture ← 晚期拉丁语 nutritura（喂养）← 拉丁语 nutrire（喂养）",
+      "native_definition": "to care for and encourage the growth of someone or something",
+      "core_concept": "the long feeding and tending that makes a thing turn out – 一年年供着照看，把它带成形",
+      "core_image": "那株苗从屋里搬到院里，浇水剪枝，几年后高过了墙",
+      "chinese": [
+        "培养",
+        "养育",
+        "教养"
+      ],
+      "examples": [
+        "Parents nurture their children.",
+        "Talent needs careful nurture."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "培养：长期供着照看，使能力成形",
+        "养育：供吃供住带大，重在把人带起来",
+        "教养：这一路带下来在人身上留下的样子"
+      ],
+      "recall_hint": "nutritura（喂养）← nutrire → 一年年供着看着，让它成形"
+    },
+    {
+      "id": "lapse",
+      "word": "lapse",
+      "pos": "noun / verb",
+      "phonetic": "/læps/",
+      "decomposable": "root",
+      "root_ids": [
+        "labi"
+      ],
+      "root_logic": "lapsus（滑了一下）← labi（滑）→ 手一松滑开的那一下 → 小差错、失效",
+      "origin": "拉丁语 lapsus（滑倒、差错）← labi（滑）",
+      "native_definition": "a small mistake or failure; a passing of time; to become no longer valid",
+      "core_concept": "the small slip where the hold was let go – 握着的那一下松开，东西滑开",
+      "core_image": "话说到一半，那个名字忽然想不起来了",
+      "chinese": [
+        "失误",
+        "流逝",
+        "失效",
+        "间隔"
+      ],
+      "examples": [
+        "He had a lapse of memory.",
+        "Her insurance lapsed last month."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "失误：注意力滑开一下造成的小错",
+        "流逝：时间从手里一段段滑走",
+        "失效：约定滑出有效期，不再算数",
+        "间隔：两件事之间滑过去的那一段"
+      ],
+      "recall_hint": "lapsus（滑了一下）← labi（滑）→ 手一松滑开的那一下"
+    },
+    {
+      "id": "elapse",
+      "word": "elapse",
+      "pos": "verb",
+      "phonetic": "/ɪˈlæps/",
+      "decomposable": "root",
+      "root_ids": [
+        "labi"
+      ],
+      "root_logic": "e-（出）+ lapse（滑）→ 一段时间从手里滑出去",
+      "origin": "拉丁语 elabi（溜走、滑出），过去分词 elapsus ← e-（出）＋ labi（滑）",
+      "native_definition": "to pass by, said of a period of time",
+      "core_concept": "a stretch of time sliding out and gone – 一段时候从手里滑出去，没留下痕迹",
+      "core_image": "抬头看钟，指针不知什么时候已经挪了两格",
+      "chinese": [
+        "流逝",
+        "消逝"
+      ],
+      "examples": [
+        "Three hours elapsed before he woke.",
+        "Two weeks elapsed with no news."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "流逝/消逝：一段时候从手里滑出去、不再回来"
+      ],
+      "recall_hint": "e-（出）+ lapse（滑）→ 一段时候从手里滑出去"
+    },
+    {
+      "id": "collapse",
+      "word": "collapse",
+      "pos": "verb / noun",
+      "phonetic": "/kəˈlæps/",
+      "decomposable": "root",
+      "root_ids": [
+        "labi"
+      ],
+      "root_logic": "col-（一起）+ lapse（滑）→ 各处一齐往下滑，整个下来",
+      "origin": "拉丁语 collapsus（一齐倒下），collabi 的过去分词 ← com-（一起）＋ labi（滑）",
+      "native_definition": "to fall down suddenly; to fail completely",
+      "core_concept": "every support letting go at the same moment – 各处支撑在同一刻一齐松开",
+      "core_image": "屋顶那几根梁一齐往下沉，整片瓦跟着落地，尘土腾起来",
+      "chinese": [
+        "倒塌",
+        "崩溃",
+        "垮台",
+        "瓦解"
+      ],
+      "examples": [
+        "The old bridge collapsed last night.",
+        "The company collapsed within a year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "倒塌：各处一齐往下滑，房子整个下来",
+        "崩溃：同一画面用在人或系统上，撑不住了",
+        "垮台：一个组织或政权整个下来",
+        "瓦解：本来连着的各块一齐散开"
+      ],
+      "recall_hint": "col-（一起）+ lapse（滑）→ 各处一齐往下滑，整个下来"
+    },
+    {
+      "id": "mob",
+      "word": "mob",
+      "pos": "noun",
+      "phonetic": "/mɒb/",
+      "decomposable": "root",
+      "root_ids": [
+        "mov"
+      ],
+      "root_logic": "mobile vulgus（易被推动的众人）的截短 ← movere（推动）→ 一推就动、拦不住的那群",
+      "origin": "英语 mob 是拉丁语短语 mobile vulgus（易动的民众）的截短 ← mobilis ← movere（移动、推动）",
+      "native_definition": "a large disorderly crowd of people",
+      "core_concept": "a crowd that shifts all at once when pushed – 被一推就整片挪动、各人不再自主的那群",
+      "core_image": "广场上人越挤越多，前排一喊，后面整片跟着往一个方向涌",
+      "chinese": [
+        "暴民",
+        "乌合之众",
+        "一群人"
+      ],
+      "examples": [
+        "An angry mob gathered outside.",
+        "The mob broke the shop windows."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "暴民：一推就动、失了约束的那群人",
+        "乌合之众：临时凑起、没有主张的那群",
+        "一群人：中性用法，只取聚在一处这一层"
+      ],
+      "recall_hint": "mobile vulgus（易被推动的众人）的截短 ← movere（推动）"
+    },
+    {
+      "id": "mobile",
+      "word": "mobile",
+      "pos": "adjective",
+      "phonetic": "/ˈməʊbaɪl/",
+      "decomposable": "root",
+      "root_ids": [
+        "mov"
+      ],
+      "root_logic": "mob（movere 移动）+ -ile（能…的）→ 挪得动的",
+      "origin": "拉丁语 mobilis（可移动的）← movere（移动）",
+      "native_definition": "able to move or be moved easily",
+      "core_concept": "made so it can be shifted without taking it apart – 不用拆开就能挪走",
+      "core_image": "这台机器底下装了四个轮子，一个人推着就能换地方",
+      "chinese": [
+        "移动的",
+        "可移动的",
+        "流动的"
+      ],
+      "examples": [
+        "He works from a mobile office.",
+        "The clinic is fully mobile."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "移动的/可移动的：挪得动、不固定在一处",
+        "流动的：人或资源在各处之间挪得动"
+      ],
+      "recall_hint": "mob（移动）+ -ile（能…的）→ 挪得动的"
+    },
+    {
+      "id": "mobilize",
+      "word": "mobilize",
+      "pos": "verb",
+      "phonetic": "/ˈməʊbəlaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "mov"
+      ],
+      "root_logic": "mobile（挪得动的）+ -ize（使…）→ 把停着的弄动起来",
+      "origin": "法语 mobiliser ← mobile ← 拉丁语 mobilis ← movere（移动）",
+      "native_definition": "to organize people or resources so that they are ready to act",
+      "core_concept": "getting what stood still to start moving together – 把原先停着的一齐弄动起来",
+      "core_image": "一通电话打出去，散在各处的人几小时内都到了场",
+      "chinese": [
+        "动员",
+        "调动",
+        "组织起来"
+      ],
+      "examples": [
+        "The country mobilized its army.",
+        "They mobilized support for the plan."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "动员：把人召起来投入行动",
+        "调动：把资源从各处挪到用得上的地方",
+        "组织起来：先编排再让其一齐动"
+      ],
+      "recall_hint": "mobile（挪得动的）+ -ize（使…）→ 把停着的弄动起来"
+    },
+    {
+      "id": "moment",
+      "word": "moment",
+      "pos": "noun",
+      "phonetic": "/ˈməʊmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "mov"
+      ],
+      "root_logic": "movimentum（动一下）← movere（移动）→ 天平偏一下的那一瞬 → 极短的一段",
+      "origin": "拉丁语 momentum（动的那一下、瞬间）← movere（移动）",
+      "native_definition": "a very short period of time; a particular point in time",
+      "core_concept": "the single tip of the scale, over before it is named – 天平偏过去那一下，短到刚察觉就没了",
+      "core_image": "天平上添了一粒沙，指针偏了一下就停住了",
+      "chinese": [
+        "时刻",
+        "瞬间",
+        "片刻"
+      ],
+      "examples": [
+        "Wait here for a moment.",
+        "At that moment the lights went out."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "时刻：某件事发生的那一个点",
+        "瞬间：短到只够偏一下的那一段",
+        "片刻：同样短的一段，用在等待上"
+      ],
+      "recall_hint": "movimentum（动一下）← movere → 天平偏一下的那一瞬"
+    },
+    {
+      "id": "momentum",
+      "word": "momentum",
+      "pos": "noun",
+      "phonetic": "/məˈmentəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "mov"
+      ],
+      "root_logic": "momentum（动的那一下）← movere（移动）→ 已经动起来的东西自带的那股劲",
+      "origin": "拉丁语 momentum（推动力、动量）← movere（移动）",
+      "native_definition": "the force that a moving object has; the ability to keep making progress",
+      "core_concept": "what a thing already in motion carries with it – 已经动起来的东西身上带着的那股劲",
+      "core_image": "球从坡上滚下来，越滚越快，伸手已经拦不住",
+      "chinese": [
+        "动量",
+        "势头",
+        "推动力"
+      ],
+      "examples": [
+        "The ball gained momentum downhill.",
+        "The campaign lost momentum."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "动量：物体因质量与速度带着的那股劲",
+        "势头：事情已经动起来、自己往前的那股劲",
+        "推动力：这股劲加在别的事上，把它带着走"
+      ],
+      "recall_hint": "momentum（动的那一下）← movere → 动起来的东西自带的那股劲"
+    },
+    {
+      "id": "magnify",
+      "word": "magnify",
+      "pos": "verb",
+      "phonetic": "/ˈmæɡnɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "magnus（大）+ -fy（使…）→ 使它看起来更大",
+      "origin": "拉丁语 magnificare（使变大、推崇）← magnus（大）＋ -ficare（使…，构词后缀）",
+      "native_definition": "to make something appear larger; to make something seem more important than it is",
+      "core_concept": "making the thing take up more space than it really does – 让那样东西占的地方比实际更大",
+      "core_image": "一片玻璃悬在纸上，底下的字撑满了整个圈",
+      "chinese": [
+        "放大",
+        "夸大"
+      ],
+      "examples": [
+        "This lens magnifies ten times.",
+        "Don't magnify a small problem."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "放大：让它在眼里占的地方变大",
+        "夸大：同一动作用在事情的分量上，说得比实际重"
+      ],
+      "recall_hint": "magnus（大）+ -fy（使…）→ 使它显得更大"
+    },
+    {
+      "id": "maximum",
+      "word": "maximum",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈmæksɪməm/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "maximus（最大的，magnus 的最高级）→ 到顶那一档，再上不去",
+      "origin": "拉丁语 maximum（最大之物），maximus（最大的）的中性形 ← magnus（大）",
+      "native_definition": "the greatest amount or degree that is possible or allowed",
+      "core_concept": "the line above which nothing more is allowed to go – 那一道刻线，越过去就不许了",
+      "core_image": "量杯侧面刻着一道线，水到那道就不能再添",
+      "chinese": [
+        "最大量",
+        "最高限度",
+        "最大的"
+      ],
+      "examples": [
+        "The maximum speed is 80 km/h.",
+        "We need a maximum of ten people."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "最大量/最高限度：能到或允许到的那一档，再上不去",
+        "最大的：处在那一档上的"
+      ],
+      "recall_hint": "maximus（最大的）← magnus（大）→ 到顶那一档"
+    },
+    {
+      "id": "mayor",
+      "word": "mayor",
+      "pos": "noun",
+      "phonetic": "/meə/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "maior（更大的、居长的）→ 一城里位分最大的那个人",
+      "origin": "古法语 maire ← 拉丁语 maior（更大的、年长的）← magnus（大）",
+      "native_definition": "the person elected to lead the government of a town or city",
+      "core_concept": "the one who stands at the middle of the town's affairs – 一城的事上位分最大、站在正中的那个",
+      "core_image": "剪彩时他站在正中间，别人都退开半步",
+      "chinese": [
+        "市长",
+        "镇长"
+      ],
+      "examples": [
+        "The mayor opened the new bridge.",
+        "She was elected mayor last year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "市长/镇长：一城或一镇里位分最大、主事的那个人"
+      ],
+      "recall_hint": "maior（更大的、居长的）→ 一城里位分最大的那个"
+    },
+    {
+      "id": "obey",
+      "word": "obey",
+      "pos": "verb",
+      "phonetic": "/əˈbeɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "ob-（朝向）+ ey（audire 听）→ 朝着那句话听，听了就照做",
+      "origin": "古法语 obeir ← 拉丁语 oboedire（听命）← ob-（朝向）＋ audire（听）",
+      "native_definition": "to do what someone in authority tells you to do",
+      "core_concept": "hearing the word and letting the body follow it – 那句话进了耳朵，身子就照着动",
+      "core_image": "话音刚落，队里的人一齐转向左边",
+      "chinese": [
+        "服从",
+        "遵守",
+        "听从"
+      ],
+      "examples": [
+        "Soldiers must obey their officers.",
+        "You should obey the rules."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "服从：对人照着做，不问自己愿不愿",
+        "遵守：对规则照着做",
+        "听从：重在把那句话听进去再照办"
+      ],
+      "recall_hint": "ob-（朝向）+ ey（听）→ 朝着那句话听，听完照做"
+    },
+    {
+      "id": "mischief",
+      "word": "mischief",
+      "pos": "noun",
+      "phonetic": "/ˈmɪstʃɪf/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "mes-（坏）+ chief（caput 头、结局）→ 事情落到坏的那一头",
+      "origin": "古法语 meschief（不幸、坏结局）← meschever ← mes-（坏）＋ chief（头、结局）← 拉丁语 caput（头）",
+      "native_definition": "behaviour that causes small troubles or annoyance; harm or damage",
+      "core_concept": "the way a thing turns out when it comes to a bad head – 一件事最后落到不好的那一头",
+      "core_image": "几个孩子把邻居的门牌拧反了，蹲在墙角看谁先发现",
+      "chinese": [
+        "恶作剧",
+        "淘气",
+        "损害"
+      ],
+      "examples": [
+        "The boys were up to mischief.",
+        "The storm did great mischief."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "恶作剧：故意闹出小乱子，让事情往坏的那头走",
+        "淘气：常做这类事的性子，分量轻",
+        "损害：真落到坏结局，即造成的实际坏处"
+      ],
+      "recall_hint": "mes-（坏）+ chief（头、结局）→ 事情落到坏的那一头"
+    },
+    {
+      "id": "madame",
+      "word": "madame",
+      "pos": "noun",
+      "phonetic": "/məˈdɑːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "domus"
+      ],
+      "root_logic": "ma（我的）+ dame（domina 女主人 ← domus 家）→ 我的女主人 → 对女子的敬称",
+      "origin": "法语 madame（我的夫人）← ma（我的）＋ dame ← 拉丁语 domina（女主人）← domus（家）",
+      "native_definition": "a polite form of address used for a woman",
+      "core_concept": "the courtesy word for the woman of the house – 对当家那位女子说话时先出口的那个称呼",
+      "core_image": "门口那人脱帽退开半步，先说了一句才让路",
+      "chinese": [
+        "夫人",
+        "女士",
+        "太太"
+      ],
+      "examples": [
+        "Good evening, madame, this way please.",
+        "The letter was addressed to madame."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "夫人：把对方当作一家之主的女主人来称",
+        "女士/太太：同一敬称推广到一般场合"
+      ],
+      "recall_hint": "ma（我的）+ dame（女主人 ← 家）→ 对当家女子的称呼"
+    },
+    {
+      "id": "offend",
+      "word": "offend",
+      "pos": "verb",
+      "phonetic": "/əˈfend/",
+      "decomposable": "root",
+      "root_ids": [
+        "fendere"
+      ],
+      "root_logic": "of-（朝、对着）+ fend（击）→ 一下撞到人身上",
+      "origin": "拉丁语 offendere（撞上、触犯）← ob-（朝向）＋ -fendere（击）",
+      "native_definition": "to make someone feel upset or angry; to break a rule or law",
+      "core_concept": "the blow that lands on the other instead of being kept off – 那一下没挡在外头，直接撞到对面身上",
+      "core_image": "那句话出口时对面的人脸色一沉，手里的杯子放下了",
+      "chinese": [
+        "冒犯",
+        "得罪",
+        "违犯"
+      ],
+      "examples": [
+        "I hope I didn't offend you.",
+        "He offended against the law."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "冒犯/得罪：话或举动撞到人身上，让人不快",
+        "违犯：同一动作撞到的是规则那条线"
+      ],
+      "recall_hint": "of-（朝、对着）+ fend（击）→ 一下撞到对面身上"
+    },
+    {
+      "id": "league",
+      "word": "league",
+      "pos": "noun",
+      "phonetic": "/liːɡ/",
+      "decomposable": "root",
+      "root_ids": [
+        "ligare"
+      ],
+      "root_logic": "lega（结盟）← ligare（绑）→ 几方被一纸约绑在一起",
+      "origin": "意大利语 lega（同盟）← 拉丁语 ligare（捆、绑）；与 lex（法）无关",
+      "native_definition": "a group of people or teams joined together by agreement; a level of quality",
+      "core_concept": "several parties tied by one paper so they move as one – 几方被同一纸约系住，往后一起行动",
+      "core_image": "十几支队签了同一份章程，赛程和赏罚都照那张纸走",
+      "chinese": [
+        "联盟",
+        "联合会",
+        "等级"
+      ],
+      "examples": [
+        "They joined the football league.",
+        "He is in a different league."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "联盟/联合会：几方被一纸约系在一起的那个团体",
+        "等级：同一团体内按强弱分出的层，因而引申为水平档次"
+      ],
+      "recall_hint": "lega（结盟）← ligare（绑）→ 几方被一纸约绑在一起"
+    },
+    {
+      "id": "machine",
+      "word": "machine",
+      "pos": "noun",
+      "phonetic": "/məˈʃiːn/",
+      "decomposable": "root",
+      "root_ids": [
+        "mekhane"
+      ],
+      "root_logic": "mēkhanē（装置）→ 几件零件配起来，通上力就替人做活",
+      "origin": "法语 machine ← 拉丁语 machina ← 希腊语 mēkhanē（装置、器械）",
+      "native_definition": "a device with moving parts that uses power to do work",
+      "core_concept": "parts fitted together and given power so the work happens – 零件配起来通上力，活就自己做成了",
+      "core_image": "皮带带着几个齿轮转，那只木箱被一点点抬了上去",
+      "chinese": [
+        "机器",
+        "机械",
+        "机构"
+      ],
+      "examples": [
+        "The machine stopped working suddenly.",
+        "He repairs farm machines."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "机器/机械：零件配成、通上力替人做活的那个东西",
+        "机构：一套人事像零件一样咬合运转，故借用同一画面"
+      ],
+      "recall_hint": "mēkhanē（装置）→ 零件配起来通上力就替人做活"
+    },
+    {
+      "id": "menu",
+      "word": "menu",
+      "pos": "noun",
+      "phonetic": "/ˈmenjuː/",
+      "decomposable": "root",
+      "root_ids": [
+        "minus"
+      ],
+      "root_logic": "minutus（弄小了的）← minus（更小）→ 把整桌拆成一条条细列出来",
+      "origin": "法语 menu（详细清单）← 形容词 menu（细小的）← 拉丁语 minutus（弄小的）← minus（更小）",
+      "native_definition": "a list of dishes available in a restaurant; a list of options on a screen",
+      "core_concept": "the whole broken down into small single lines to pick from – 整个拆成细细一条条，供人一条条挑",
+      "core_image": "桌上那张纸从上到下印着一条条，每条后面跟一个数",
+      "chinese": [
+        "菜单",
+        "选单"
+      ],
+      "examples": [
+        "Ask the waiter for the menu.",
+        "Choose an item from the menu."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "菜单：一家馆子能做的菜细列成条",
+        "选单：屏上把可做的事细列成条，同一画面"
+      ],
+      "recall_hint": "minutus（弄小的）← minus（更小）→ 拆成一条条细列出来"
+    },
+    {
+      "id": "naive",
+      "word": "naive",
+      "pos": "adjective",
+      "phonetic": "/naɪˈiːv/",
+      "decomposable": "root",
+      "root_ids": [
+        "nasci"
+      ],
+      "root_logic": "nativus（天生的）← nasci（出生）→ 还是出生时那个样子，没被世事改过",
+      "origin": "法语 naïf / naïve（天生的、朴质的）← 拉丁语 nativus（天生的）← nasci（出生）",
+      "native_definition": "showing a lack of experience, so believing things too easily",
+      "core_concept": "still just as one came into the world, untouched by dealings – 还是出生时那个样子，没被世事磨过",
+      "core_image": "别人说什么她都点头，钱都递过去了才觉出不对",
+      "chinese": [
+        "天真的",
+        "幼稚的",
+        "轻信的"
+      ],
+      "examples": [
+        "She was naive to trust him.",
+        "That is a naive question."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "天真的：还保持着出生时那样，未经世事",
+        "幼稚的：同样的状态，但已到了该懂事的年纪",
+        "轻信的：因为没经历过，别人说什么都照单收下"
+      ],
+      "recall_hint": "nativus（天生的）← nasci（出生）→ 还是出生时那个样子"
+    },
+    {
+      "id": "obvious",
+      "word": "obvious",
+      "pos": "adjective",
+      "phonetic": "/ˈɒbviəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "via"
+      ],
+      "root_logic": "ob-（迎面）+ vi（via 路）+ -ous（…的）→ 横在路当中的 → 谁走过都看得见",
+      "origin": "拉丁语 obvius（迎面挡在路上的）← ob-（朝向）＋ via（路）",
+      "native_definition": "easy to see or understand because it is right in front of you",
+      "core_concept": "the thing lying across the road, which no passer-by can miss – 横在路当中，走过的人一个也躲不开",
+      "core_image": "路当中横着一块大石头，走这条路的人没一个能绕开没看见",
+      "chinese": [
+        "明显的",
+        "显而易见的"
+      ],
+      "examples": [
+        "The answer was obvious to everyone.",
+        "He made an obvious mistake."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "明显的/显而易见的：横在路当中，谁走过都看得见"
+      ],
+      "recall_hint": "ob-（迎面）+ vi（路）+ -ous → 横在路当中，谁走过都看得见"
     }
   ]
 }

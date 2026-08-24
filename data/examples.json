@@ -36260,6 +36260,650 @@
       "text": "He bought outdoor gear for the trip.",
       "source": "AI 生成 · 人工审核",
       "scene": "桌椅摆在草地上，头顶没有顶棚，风把桌布掀起一角"
+    },
+    {
+      "id": "ex-market-1",
+      "word_id": "market",
+      "text": "She sells eggs at the market.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一早地上就摊满了，人挨着货走，边看边问"
+    },
+    {
+      "id": "ex-market-2",
+      "word_id": "market",
+      "text": "There is no market for that.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一早地上就摊满了，人挨着货走，边看边问"
+    },
+    {
+      "id": "ex-merchant-1",
+      "word_id": "merchant",
+      "text": "The merchant traded in silk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他自己不做也不种，一船拉进来，一船运出去"
+    },
+    {
+      "id": "ex-merchant-2",
+      "word_id": "merchant",
+      "text": "Wool merchants grew rich here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他自己不做也不种，一船拉进来，一船运出去"
+    },
+    {
+      "id": "ex-commerce-1",
+      "word_id": "commerce",
+      "text": "Commerce between the two grew.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船进港、车出城，货一批批换了主人又往前走"
+    },
+    {
+      "id": "ex-commerce-2",
+      "word_id": "commerce",
+      "text": "The port thrives on commerce.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "船进港、车出城，货一批批换了主人又往前走"
+    },
+    {
+      "id": "ex-mercy-1",
+      "word_id": "mercy",
+      "text": "The judge showed mercy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本上写着数目，那人把本子合上，说不必了"
+    },
+    {
+      "id": "ex-mercy-2",
+      "word_id": "mercy",
+      "text": "They begged for mercy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本上写着数目，那人把本子合上，说不必了"
+    },
+    {
+      "id": "ex-marry-1",
+      "word_id": "marry",
+      "text": "They married last autumn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他们在那张纸上依次签了名，回身时已是一户"
+    },
+    {
+      "id": "ex-marry-2",
+      "word_id": "marry",
+      "text": "She married her old classmate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他们在那张纸上依次签了名，回身时已是一户"
+    },
+    {
+      "id": "ex-marriage-1",
+      "word_id": "marriage",
+      "text": "Their marriage lasted forty years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那张纸收进抽屉，往后几十年都按它上面的算"
+    },
+    {
+      "id": "ex-marriage-2",
+      "word_id": "marriage",
+      "text": "The marriage took place in June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那张纸收进抽屉，往后几十年都按它上面的算"
+    },
+    {
+      "id": "ex-married-1",
+      "word_id": "married",
+      "text": "They have been married ten years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他左手无名指上有一圈没晒到的白痕"
+    },
+    {
+      "id": "ex-married-2",
+      "word_id": "married",
+      "text": "She is married to a doctor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他左手无名指上有一圈没晒到的白痕"
+    },
+    {
+      "id": "ex-marital-1",
+      "word_id": "marital",
+      "text": "They discussed marital problems.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "表格上有一栏专问这一项，只能填其中一个选项"
+    },
+    {
+      "id": "ex-marital-2",
+      "word_id": "marital",
+      "text": "Please state your marital status.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "表格上有一栏专问这一项，只能填其中一个选项"
+    },
+    {
+      "id": "ex-means-1",
+      "word_id": "means",
+      "text": "Use any means necessary.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河隔在中间，那条船就是过去的唯一凭借"
+    },
+    {
+      "id": "ex-means-2",
+      "word_id": "means",
+      "text": "They live beyond their means.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河隔在中间，那条船就是过去的唯一凭借"
+    },
+    {
+      "id": "ex-meantime-1",
+      "word_id": "meantime",
+      "text": "In the meantime, please wait here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前一场散了，后一场还没开，中间那阵子人都在门口站着"
+    },
+    {
+      "id": "ex-meantime-2",
+      "word_id": "meantime",
+      "text": "He read a book in the meantime.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前一场散了，后一场还没开，中间那阵子人都在门口站着"
+    },
+    {
+      "id": "ex-medal-1",
+      "word_id": "medal",
+      "text": "She won a gold medal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "带子从颈后绕过来，那枚圆片正落在胸口中间"
+    },
+    {
+      "id": "ex-medal-2",
+      "word_id": "medal",
+      "text": "He wore his war medals.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "带子从颈后绕过来，那枚圆片正落在胸口中间"
+    },
+    {
+      "id": "ex-mental-1",
+      "word_id": "mental",
+      "text": "He does mental arithmetic fast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他没动笔也没出声，两个数在脑子里就对上了"
+    },
+    {
+      "id": "ex-mental-2",
+      "word_id": "mental",
+      "text": "She suffers from mental stress.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他没动笔也没出声，两个数在脑子里就对上了"
+    },
+    {
+      "id": "ex-mention-1",
+      "word_id": "mention",
+      "text": "He mentioned your name once.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "聊别的时候顺口带出一句，说完就往下说了"
+    },
+    {
+      "id": "ex-mention-2",
+      "word_id": "mention",
+      "text": "She made no mention of it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "聊别的时候顺口带出一句，说完就往下说了"
+    },
+    {
+      "id": "ex-comment-1",
+      "word_id": "comment",
+      "text": "He made no comment on it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书页边上留着几行小字，是读的人自己添的"
+    },
+    {
+      "id": "ex-comment-2",
+      "word_id": "comment",
+      "text": "Her comments were very helpful.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "书页边上留着几行小字，是读的人自己添的"
+    },
+    {
+      "id": "ex-merge-1",
+      "word_id": "merge",
+      "text": "The two banks merged last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条车道并到一条上，前后车挤成一列，看不出原先各自走哪边"
+    },
+    {
+      "id": "ex-merge-2",
+      "word_id": "merge",
+      "text": "Two lanes merge into one.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条车道并到一条上，前后车挤成一列，看不出原先各自走哪边"
+    },
+    {
+      "id": "ex-emerge-1",
+      "word_id": "emerge",
+      "text": "A figure emerged from the fog.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾散开一点，一个人从那片白里走出来，越来越清楚"
+    },
+    {
+      "id": "ex-emerge-2",
+      "word_id": "emerge",
+      "text": "New facts emerged during the trial.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾散开一点，一个人从那片白里走出来，越来越清楚"
+    },
+    {
+      "id": "ex-immerse-1",
+      "word_id": "immerse",
+      "text": "Immerse the cloth in cold water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那块布被压进染缸，压到一个角都不露在外头"
+    },
+    {
+      "id": "ex-immerse-2",
+      "word_id": "immerse",
+      "text": "He immersed himself in his work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那块布被压进染缸，压到一个角都不露在外头"
+    },
+    {
+      "id": "ex-ignore-1",
+      "word_id": "ignore",
+      "text": "Don't ignore the warning signs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那封信摆了三天，他每次经过都不往那边看一眼"
+    },
+    {
+      "id": "ex-ignore-2",
+      "word_id": "ignore",
+      "text": "She ignored him at the party.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那封信摆了三天，他每次经过都不往那边看一眼"
+    },
+    {
+      "id": "ex-ignorant-1",
+      "word_id": "ignorant",
+      "text": "He is ignorant of the facts.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满桌人都在笑，只有他没听懂，也跟着笑了两声"
+    },
+    {
+      "id": "ex-ignorant-2",
+      "word_id": "ignorant",
+      "text": "Don't be so ignorant about it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "满桌人都在笑，只有他没听懂，也跟着笑了两声"
+    },
+    {
+      "id": "ex-noble-1",
+      "word_id": "noble",
+      "text": "He came from a noble family.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一报出姓氏，满屋人都停下来看他"
+    },
+    {
+      "id": "ex-noble-2",
+      "word_id": "noble",
+      "text": "That was a noble act.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一报出姓氏，满屋人都停下来看他"
+    },
+    {
+      "id": "ex-deny-1",
+      "word_id": "deny",
+      "text": "He denied all the charges.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片摆到他面前，他看了两眼，说那不是他"
+    },
+    {
+      "id": "ex-deny-2",
+      "word_id": "deny",
+      "text": "They were denied entry to the hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照片摆到他面前，他看了两眼，说那不是他"
+    },
+    {
+      "id": "ex-denial-1",
+      "word_id": "denial",
+      "text": "He issued a flat denial.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "发布会上他只念了一句话就下台，说没有这回事"
+    },
+    {
+      "id": "ex-denial-2",
+      "word_id": "denial",
+      "text": "Her denial convinced no one.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "发布会上他只念了一句话就下台，说没有这回事"
+    },
+    {
+      "id": "ex-negative-1",
+      "word_id": "negative",
+      "text": "His answer was negative.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问他行不行，他每一条都摇头，一条都没点过头"
+    },
+    {
+      "id": "ex-negative-2",
+      "word_id": "negative",
+      "text": "The test came back negative.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "问他行不行，他每一条都摇头，一条都没点过头"
+    },
+    {
+      "id": "ex-nurse-1",
+      "word_id": "nurse",
+      "text": "She works as a nurse.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她一夜起了四回，换水、量体温，把药一口口送下去"
+    },
+    {
+      "id": "ex-nurse-2",
+      "word_id": "nurse",
+      "text": "He nursed his wife for years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她一夜起了四回，换水、量体温，把药一口口送下去"
+    },
+    {
+      "id": "ex-nourish-1",
+      "word_id": "nourish",
+      "text": "Milk nourishes a growing child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "盆里那株天天浇一遍，叶子一层层厚起来"
+    },
+    {
+      "id": "ex-nourish-2",
+      "word_id": "nourish",
+      "text": "She nourished a hope of return.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "盆里那株天天浇一遍，叶子一层层厚起来"
+    },
+    {
+      "id": "ex-nurture-1",
+      "word_id": "nurture",
+      "text": "Parents nurture their children.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那株苗从屋里搬到院里，浇水剪枝，几年后高过了墙"
+    },
+    {
+      "id": "ex-nurture-2",
+      "word_id": "nurture",
+      "text": "Talent needs careful nurture.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那株苗从屋里搬到院里，浇水剪枝，几年后高过了墙"
+    },
+    {
+      "id": "ex-lapse-1",
+      "word_id": "lapse",
+      "text": "He had a lapse of memory.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话说到一半，那个名字忽然想不起来了"
+    },
+    {
+      "id": "ex-lapse-2",
+      "word_id": "lapse",
+      "text": "Her insurance lapsed last month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话说到一半，那个名字忽然想不起来了"
+    },
+    {
+      "id": "ex-elapse-1",
+      "word_id": "elapse",
+      "text": "Three hours elapsed before he woke.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抬头看钟，指针不知什么时候已经挪了两格"
+    },
+    {
+      "id": "ex-elapse-2",
+      "word_id": "elapse",
+      "text": "Two weeks elapsed with no news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抬头看钟，指针不知什么时候已经挪了两格"
+    },
+    {
+      "id": "ex-collapse-1",
+      "word_id": "collapse",
+      "text": "The old bridge collapsed last night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋顶那几根梁一齐往下沉，整片瓦跟着落地，尘土腾起来"
+    },
+    {
+      "id": "ex-collapse-2",
+      "word_id": "collapse",
+      "text": "The company collapsed within a year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋顶那几根梁一齐往下沉，整片瓦跟着落地，尘土腾起来"
+    },
+    {
+      "id": "ex-mob-1",
+      "word_id": "mob",
+      "text": "An angry mob gathered outside.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场上人越挤越多，前排一喊，后面整片跟着往一个方向涌"
+    },
+    {
+      "id": "ex-mob-2",
+      "word_id": "mob",
+      "text": "The mob broke the shop windows.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场上人越挤越多，前排一喊，后面整片跟着往一个方向涌"
+    },
+    {
+      "id": "ex-mobile-1",
+      "word_id": "mobile",
+      "text": "He works from a mobile office.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这台机器底下装了四个轮子，一个人推着就能换地方"
+    },
+    {
+      "id": "ex-mobile-2",
+      "word_id": "mobile",
+      "text": "The clinic is fully mobile.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "这台机器底下装了四个轮子，一个人推着就能换地方"
+    },
+    {
+      "id": "ex-mobilize-1",
+      "word_id": "mobilize",
+      "text": "The country mobilized its army.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一通电话打出去，散在各处的人几小时内都到了场"
+    },
+    {
+      "id": "ex-mobilize-2",
+      "word_id": "mobilize",
+      "text": "They mobilized support for the plan.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一通电话打出去，散在各处的人几小时内都到了场"
+    },
+    {
+      "id": "ex-moment-1",
+      "word_id": "moment",
+      "text": "Wait here for a moment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平上添了一粒沙，指针偏了一下就停住了"
+    },
+    {
+      "id": "ex-moment-2",
+      "word_id": "moment",
+      "text": "At that moment the lights went out.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平上添了一粒沙，指针偏了一下就停住了"
+    },
+    {
+      "id": "ex-momentum-1",
+      "word_id": "momentum",
+      "text": "The ball gained momentum downhill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "球从坡上滚下来，越滚越快，伸手已经拦不住"
+    },
+    {
+      "id": "ex-momentum-2",
+      "word_id": "momentum",
+      "text": "The campaign lost momentum.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "球从坡上滚下来，越滚越快，伸手已经拦不住"
+    },
+    {
+      "id": "ex-magnify-1",
+      "word_id": "magnify",
+      "text": "This lens magnifies ten times.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一片玻璃悬在纸上，底下的字撑满了整个圈"
+    },
+    {
+      "id": "ex-magnify-2",
+      "word_id": "magnify",
+      "text": "Don't magnify a small problem.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一片玻璃悬在纸上，底下的字撑满了整个圈"
+    },
+    {
+      "id": "ex-maximum-1",
+      "word_id": "maximum",
+      "text": "The maximum speed is 80 km/h.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "量杯侧面刻着一道线，水到那道就不能再添"
+    },
+    {
+      "id": "ex-maximum-2",
+      "word_id": "maximum",
+      "text": "We need a maximum of ten people.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "量杯侧面刻着一道线，水到那道就不能再添"
+    },
+    {
+      "id": "ex-mayor-1",
+      "word_id": "mayor",
+      "text": "The mayor opened the new bridge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剪彩时他站在正中间，别人都退开半步"
+    },
+    {
+      "id": "ex-mayor-2",
+      "word_id": "mayor",
+      "text": "She was elected mayor last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剪彩时他站在正中间，别人都退开半步"
+    },
+    {
+      "id": "ex-obey-1",
+      "word_id": "obey",
+      "text": "Soldiers must obey their officers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话音刚落，队里的人一齐转向左边"
+    },
+    {
+      "id": "ex-obey-2",
+      "word_id": "obey",
+      "text": "You should obey the rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "话音刚落，队里的人一齐转向左边"
+    },
+    {
+      "id": "ex-mischief-1",
+      "word_id": "mischief",
+      "text": "The boys were up to mischief.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个孩子把邻居的门牌拧反了，蹲在墙角看谁先发现"
+    },
+    {
+      "id": "ex-mischief-2",
+      "word_id": "mischief",
+      "text": "The storm did great mischief.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个孩子把邻居的门牌拧反了，蹲在墙角看谁先发现"
+    },
+    {
+      "id": "ex-madame-1",
+      "word_id": "madame",
+      "text": "Good evening, madame, this way please.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口那人脱帽退开半步，先说了一句才让路"
+    },
+    {
+      "id": "ex-madame-2",
+      "word_id": "madame",
+      "text": "The letter was addressed to madame.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门口那人脱帽退开半步，先说了一句才让路"
+    },
+    {
+      "id": "ex-offend-1",
+      "word_id": "offend",
+      "text": "I hope I didn't offend you.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那句话出口时对面的人脸色一沉，手里的杯子放下了"
+    },
+    {
+      "id": "ex-offend-2",
+      "word_id": "offend",
+      "text": "He offended against the law.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那句话出口时对面的人脸色一沉，手里的杯子放下了"
+    },
+    {
+      "id": "ex-league-1",
+      "word_id": "league",
+      "text": "They joined the football league.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "十几支队签了同一份章程，赛程和赏罚都照那张纸走"
+    },
+    {
+      "id": "ex-league-2",
+      "word_id": "league",
+      "text": "He is in a different league.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "十几支队签了同一份章程，赛程和赏罚都照那张纸走"
+    },
+    {
+      "id": "ex-machine-1",
+      "word_id": "machine",
+      "text": "The machine stopped working suddenly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "皮带带着几个齿轮转，那只木箱被一点点抬了上去"
+    },
+    {
+      "id": "ex-machine-2",
+      "word_id": "machine",
+      "text": "He repairs farm machines.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "皮带带着几个齿轮转，那只木箱被一点点抬了上去"
+    },
+    {
+      "id": "ex-menu-1",
+      "word_id": "menu",
+      "text": "Ask the waiter for the menu.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那张纸从上到下印着一条条，每条后面跟一个数"
+    },
+    {
+      "id": "ex-menu-2",
+      "word_id": "menu",
+      "text": "Choose an item from the menu.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那张纸从上到下印着一条条，每条后面跟一个数"
+    },
+    {
+      "id": "ex-naive-1",
+      "word_id": "naive",
+      "text": "She was naive to trust him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人说什么她都点头，钱都递过去了才觉出不对"
+    },
+    {
+      "id": "ex-naive-2",
+      "word_id": "naive",
+      "text": "That is a naive question.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "别人说什么她都点头，钱都递过去了才觉出不对"
+    },
+    {
+      "id": "ex-obvious-1",
+      "word_id": "obvious",
+      "text": "The answer was obvious to everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路当中横着一块大石头，走这条路的人没一个能绕开没看见"
+    },
+    {
+      "id": "ex-obvious-2",
+      "word_id": "obvious",
+      "text": "He made an obvious mistake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路当中横着一块大石头，走这条路的人没一个能绕开没看见"
     }
   ]
 }

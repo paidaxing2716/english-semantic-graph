@@ -48,6 +48,10 @@ MOVE = {
     # 这正是本脚本设计成可重复跑的原因——每建一批新根就该重扫一遍。
     "adhere":   ("haerere", "ad-（朝）+ here（黏住）→ 贴上去黏牢 → 附着、遵守"),
     "adjoin":   ("jungere", "ad-（朝）+ join（接合）→ 接到一处、彼此相连 → 毗连"),
+    # 第三轮：第六十五批建了 gnoscere 之后重扫。它的 origin 早就写着
+    # 「← 拉丁语 ad- + cognoscere」，却挂着「日耳曼核心词，本身即词根」的说明——
+    # 自相矛盾在库里躺了很久，只是此前没有 gnoscere 这个根可挂。
+    "acquaint": ("gnoscere", "ac-（ad- 朝）+ quaint（cognoscere 认识）→ 让人认下来 → 使相识"),
 }
 
 

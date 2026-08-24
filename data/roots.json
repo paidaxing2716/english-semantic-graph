@@ -804,7 +804,12 @@
         "motive",
         "motor",
         "movement",
-        "removal"
+        "removal",
+        "mob",
+        "mobile",
+        "mobilize",
+        "moment",
+        "momentum"
       ]
     },
     {
@@ -1098,7 +1103,8 @@
         "diminish",
         "minister",
         "minor",
-        "minority"
+        "minority",
+        "menu"
       ]
     },
     {
@@ -1558,7 +1564,8 @@
         "nation",
         "national",
         "native",
-        "nature"
+        "nature",
+        "naive"
       ]
     },
     {
@@ -1631,7 +1638,8 @@
         "domestic",
         "dominant",
         "dominate",
-        "predominant"
+        "predominant",
+        "madame"
       ]
     },
     {
@@ -2334,7 +2342,8 @@
       "word_ids": [
         "mechanic",
         "mechanical",
-        "mechanism"
+        "mechanism",
+        "machine"
       ]
     },
     {
@@ -2930,7 +2939,8 @@
       "english_definition": "to hear, to listen",
       "word_ids": [
         "obedience",
-        "obedient"
+        "obedient",
+        "obey"
       ]
     },
     {
@@ -2961,7 +2971,8 @@
       "core_image": "一条大路笔直通向远处",
       "english_definition": "way, road, path",
       "word_ids": [
-        "previous"
+        "previous",
+        "obvious"
       ]
     },
     {
@@ -3319,7 +3330,8 @@
         "religious",
         "ally",
         "alliance",
-        "alloy"
+        "alloy",
+        "league"
       ]
     },
     {
@@ -3462,7 +3474,10 @@
       "word_ids": [
         "majesty",
         "major",
-        "majority"
+        "majority",
+        "magnify",
+        "maximum",
+        "mayor"
       ]
     },
     {
@@ -4052,7 +4067,8 @@
         "cabbage",
         "cattle",
         "chef",
-        "chief"
+        "chief",
+        "mischief"
       ]
     },
     {
@@ -4431,7 +4447,8 @@
       "word_ids": [
         "defence",
         "defend",
-        "fence"
+        "fence",
+        "offend"
       ]
     },
     {
@@ -4555,6 +4572,182 @@
         "drama",
         "dramatic",
         "drastic"
+      ]
+    },
+    {
+      "id": "merx",
+      "root": "merx",
+      "variants": [
+        "merc",
+        "market",
+        "merch"
+      ],
+      "origin": "拉丁语 merx（属格 mercis：货物）；mercari 是「做买卖」，merces 是「报酬、恩惠」——同一批货，看的是它换来什么",
+      "core_concept": "goods put out to be exchanged / 摆出来供交换的那批东西",
+      "core_image": "布摊在地上，货一样样码开，等着有人过来问价",
+      "english_definition": "merchandise, goods",
+      "word_ids": [
+        "commerce",
+        "market",
+        "merchant",
+        "mercy"
+      ]
+    },
+    {
+      "id": "maritus",
+      "root": "maritus",
+      "variants": [
+        "marit",
+        "marri",
+        "mari"
+      ],
+      "origin": "拉丁语 maritus（有配偶的、丈夫），maritare 表「使成配偶」；经古法语 marier 入英语",
+      "core_concept": "two joined into one household by vow / 一纸约把两人并成一户",
+      "core_image": "两个名字并排写在同一张纸上，底下按了两个手印",
+      "english_definition": "husband, wedded",
+      "word_ids": [
+        "marital",
+        "marriage",
+        "married",
+        "marry"
+      ],
+      "noisy_variants": [
+        "mari"
+      ]
+    },
+    {
+      "id": "medius",
+      "root": "medius",
+      "variants": [
+        "medi",
+        "mean",
+        "med"
+      ],
+      "origin": "拉丁语 medius（居中的）；medianus 经古法语 moien 派出 mean 一支，medialia（挂在中间的饰片）派出 medal",
+      "core_concept": "the point standing between two ends / 站在两头之间的那一点",
+      "core_image": "一根杆两头各压一物，手指在中间那点托住，杆不偏不倒",
+      "english_definition": "middle, midway",
+      "word_ids": [
+        "means",
+        "meantime",
+        "medal"
+      ]
+    },
+    {
+      "id": "mens",
+      "root": "mens",
+      "variants": [
+        "ment",
+        "mens",
+        "mind"
+      ],
+      "origin": "拉丁语 mens（属格 mentis：心、脑子里想事情那一处）；mentio 是把心里那件事说出口，commentum 是心里琢磨出来的一套说法",
+      "core_concept": "the inner place where thinking happens / 脑子里琢磨事情的那一处",
+      "core_image": "眼睛没看什么，人却坐着不动，事情在里头翻来翻去",
+      "english_definition": "the mind, the faculty of thinking",
+      "word_ids": [
+        "comment",
+        "mental",
+        "mention"
+      ],
+      "noisy_variants": [
+        "ment"
+      ]
+    },
+    {
+      "id": "mergere",
+      "root": "mergere",
+      "variants": [
+        "merg",
+        "mers",
+        "merge"
+      ],
+      "origin": "拉丁语 mergere（按下去、没入水中），过去分词 mersus；emergere 是从水里冒出来，immergere 是按进水里去",
+      "core_concept": "going down under a surface until it is no longer told apart / 没到面下去，直到分不出来",
+      "core_image": "一块布按进水盆，水面合上，布的边缘就找不着了",
+      "english_definition": "to dip, to plunge under",
+      "word_ids": [
+        "emerge",
+        "immerse",
+        "merge"
+      ]
+    },
+    {
+      "id": "gnoscere",
+      "root": "gnoscere",
+      "variants": [
+        "gnos",
+        "nos",
+        "nobl",
+        "nor"
+      ],
+      "origin": "拉丁语 gnoscere / noscere（认下来、知道），古形带 g-；ignorare 是认不出来，nobilis 本义是可认得出的、有名的",
+      "core_concept": "coming to know a thing well enough to recognize it / 认得出这是什么",
+      "core_image": "远处一个身影走近，到面前才认出是谁",
+      "english_definition": "to come to know, to recognize",
+      "word_ids": [
+        "acquaint",
+        "ignorant",
+        "ignore",
+        "noble"
+      ],
+      "noisy_variants": [
+        "nor"
+      ]
+    },
+    {
+      "id": "negare",
+      "root": "negare",
+      "variants": [
+        "neg",
+        "nega",
+        "negat"
+      ],
+      "origin": "拉丁语 negare（说不、否认），由 nec（不）与「说」合成；denegare 加 de- 加重语气，经古法语 denier 入英语；negativus 是「说不」那一路",
+      "core_concept": "saying no to what is put forward / 对递上来的那件事说不",
+      "core_image": "一张纸推到面前，那人手一挡，头摇了一下",
+      "english_definition": "to say no, to refuse",
+      "word_ids": [
+        "denial",
+        "deny",
+        "negative"
+      ]
+    },
+    {
+      "id": "nutrire",
+      "root": "nutrire",
+      "variants": [
+        "nutr",
+        "nour",
+        "nurs",
+        "nurt"
+      ],
+      "origin": "拉丁语 nutrire（喂奶、养大），nutrix 是奶妈；经古法语 norrice（奶妈）与 norrir（喂养）一支入英语",
+      "core_concept": "feeding a small thing so it grows / 一口口喂下去，让小的长起来",
+      "core_image": "一勺一勺送到嘴边，人小小的，一天天见长",
+      "english_definition": "to feed, to bring up",
+      "word_ids": [
+        "nourish",
+        "nurse",
+        "nurture"
+      ]
+    },
+    {
+      "id": "labi",
+      "root": "labi",
+      "variants": [
+        "laps",
+        "lab",
+        "lapse"
+      ],
+      "origin": "拉丁语 labi（脚下一滑、往下溜），过去分词 lapsus；elabi 是溜走，collabi 是一起往下溜",
+      "core_concept": "sliding down out of one's hold / 手没握住，一路往下溜",
+      "core_image": "攥着的东西一点点往下滑，等发觉时手里已经空了",
+      "english_definition": "to slip, to slide down",
+      "word_ids": [
+        "collapse",
+        "elapse",
+        "lapse"
       ]
     }
   ]
