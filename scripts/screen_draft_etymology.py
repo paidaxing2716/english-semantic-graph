@@ -87,13 +87,31 @@ def main():
         for rid in w.get("root_ids") or []:
             members.setdefault(rid, []).append(w["id"])
 
+    # 列位置随行格式变，必须按标签取，不能写死下标。
+    #   旧式无标签 10 列： word=0  origin=3
+    #   新式 W 行 14 列：  word=1  origin=6   （3 是 phonetic）
+    #   新式 R 行 10 列：  本身就是词根，不参与筛查
+    # 写死 row[3] 的后果不是报错而是**静默失效**：它拿拉丁词元去比对 IPA 串，
+    # 永远比不中，于是任何带标签的草稿都能拿到一个空洞的 [OK]。
+    # 由 chunk34 的子代理发现——它自己按第 7 列重跑了一遍匹配逻辑。
+    def pick(row):
+        tag = row[0].strip()
+        if tag == "R":
+            return None
+        if tag == "W":
+            return (row[1], row[6]) if len(row) >= 7 else None
+        return (row[0], row[3]) if len(row) >= 4 else None
+
     hits = []
     for f in a.tsv:
         for row in csv.reader(Path(f).read_text(encoding="utf-8").splitlines(),
                               delimiter="\t"):
-            if not row or len(row) < 4:
+            if not row:
                 continue
-            word, origin = row[0], row[3]
+            got = pick(row)
+            if not got:
+                continue
+            word, origin = got
             for rid, cands in forms.items():
                 for c in cands:
                     if c.lower() in origin.lower():
