@@ -51338,6 +51338,174 @@
       "text": "I have no sympathy with that line of argument.",
       "source": "AI 生成 · 人工审核",
       "scene": "他讲到一半停住，对面那人喉咙也跟着堵了一下，谁都没开口"
+    },
+    {
+      "id": "ex-microphone-1",
+      "word_id": "microphone",
+      "text": "He tapped the microphone before he began.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上那人对着网罩一说话，最后一排也听得一清二楚"
+    },
+    {
+      "id": "ex-microphone-2",
+      "word_id": "microphone",
+      "text": "Please speak into the microphone clearly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上那人对着网罩一说话，最后一排也听得一清二楚"
+    },
+    {
+      "id": "ex-telephone-1",
+      "word_id": "telephone",
+      "text": "The telephone rang three times before dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那台机子铃一响，拿起听筒，隔着几百里的人就在耳边说话"
+    },
+    {
+      "id": "ex-telephone-2",
+      "word_id": "telephone",
+      "text": "She telephoned her mother from the station.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上那台机子铃一响，拿起听筒，隔着几百里的人就在耳边说话"
+    },
+    {
+      "id": "ex-symphony-1",
+      "word_id": "symphony",
+      "text": "The orchestra played a symphony by Brahms.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几十把琴同时起弓，各拉一个音，听上去却是一整片声音"
+    },
+    {
+      "id": "ex-symphony-2",
+      "word_id": "symphony",
+      "text": "The garden was a symphony of colour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几十把琴同时起弓，各拉一个音，听上去却是一整片声音"
+    },
+    {
+      "id": "ex-phone-1",
+      "word_id": "phone",
+      "text": "My phone died in the middle of the call.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "兜里一震，摸出来贴到耳朵上说了声喂，那头立刻应了"
+    },
+    {
+      "id": "ex-phone-2",
+      "word_id": "phone",
+      "text": "I will phone you as soon as I arrive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "兜里一震，摸出来贴到耳朵上说了声喂，那头立刻应了"
+    },
+    {
+      "id": "ex-doctor-1",
+      "word_id": "doctor",
+      "text": "You should see a doctor about that cough.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上挂着一纸学位证书，证书底下的人穿白大褂，把听诊器按在你胸口"
+    },
+    {
+      "id": "ex-doctor-2",
+      "word_id": "doctor",
+      "text": "She became a doctor of philosophy last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上挂着一纸学位证书，证书底下的人穿白大褂，把听诊器按在你胸口"
+    },
+    {
+      "id": "ex-doctorate-1",
+      "word_id": "doctorate",
+      "text": "He finished his doctorate in three years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "答辩完签下最后一个名字，从坐在下面听的那一头，换到站在台上讲的这一头"
+    },
+    {
+      "id": "ex-doctorate-2",
+      "word_id": "doctorate",
+      "text": "She holds a doctorate in medieval history.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "答辩完签下最后一个名字，从坐在下面听的那一头，换到站在台上讲的这一头"
+    },
+    {
+      "id": "ex-document-1",
+      "word_id": "document",
+      "text": "Please sign the document before you leave.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从抽屉里抽出一叠纸，边角盖着红印，一页页摊开给人看"
+    },
+    {
+      "id": "ex-document-2",
+      "word_id": "document",
+      "text": "They documented every step of the process.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从抽屉里抽出一叠纸，边角盖着红印，一页页摊开给人看"
+    },
+    {
+      "id": "ex-documentary-1",
+      "word_id": "documentary",
+      "text": "We watched a documentary about deep sea fish.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜头跟着渔船拍了三个月，不配一句解说，每个画面都能指出是哪天拍的"
+    },
+    {
+      "id": "ex-documentary-2",
+      "word_id": "documentary",
+      "text": "The court relied on documentary evidence alone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜头跟着渔船拍了三个月，不配一句解说，每个画面都能指出是哪天拍的"
+    },
+    {
+      "id": "ex-type-1",
+      "word_id": "type",
+      "text": "This type of soil holds water well.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块金属上刻着反着的字，蘸上墨往纸上一按，按多少次都是同一个样子"
+    },
+    {
+      "id": "ex-type-2",
+      "word_id": "type",
+      "text": "He typed the address into the search box.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块金属上刻着反着的字，蘸上墨往纸上一按，按多少次都是同一个样子"
+    },
+    {
+      "id": "ex-stereotype-1",
+      "word_id": "stereotype",
+      "text": "The film relies on tired national stereotypes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整版字铸成一块铁，再也拆不动，之后印一千张，张张一模一样"
+    },
+    {
+      "id": "ex-stereotype-2",
+      "word_id": "stereotype",
+      "text": "Do not stereotype people by their accent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整版字铸成一块铁，再也拆不动，之后印一千张，张张一模一样"
+    },
+    {
+      "id": "ex-typical-1",
+      "word_id": "typical",
+      "text": "This is a typical example of his work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一筐苹果里随手摸出一个，说这批就长这样，旁边的人都点头"
+    },
+    {
+      "id": "ex-typical-2",
+      "word_id": "typical",
+      "text": "It is typical of her to arrive early.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一筐苹果里随手摸出一个，说这批就长这样，旁边的人都点头"
+    },
+    {
+      "id": "ex-typist-1",
+      "word_id": "typist",
+      "text": "The office hired two typists last month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "十指扑扑扑地敲，眼睛只看稿子不看键，一页纸一刻钟就出来"
+    },
+    {
+      "id": "ex-typist-2",
+      "word_id": "typist",
+      "text": "She works as a typist in a law firm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "十指扑扑扑地敲，眼睛只看稿子不看键，一页纸一刻钟就出来"
     }
   ]
 }

@@ -6191,6 +6191,61 @@
         "sympathize",
         "sympathy"
       ]
+    },
+    {
+      "id": "phone-sound",
+      "root": "phone-sound",
+      "variants": [
+        "phon",
+        "phono"
+      ],
+      "origin": "希腊语 phone（声音、嗓音）与 phonein（发声），构词成分 -phone 指「把声音发出或送到的那件器具」；与拉丁语 fari（开口说）同出印欧语一个词根，本项目照拉丁、希腊两支分立的先例只建希腊这一支。以下三根都涉说话而与本根不同源，勿混：vocare（vox 呼叫）、dict（dicere 说出话来）、logos（话里的条理）——本根只管响出来的声音本身，响多大、传多远，不管说的是什么",
+      "core_concept": "sound that carries from a source to an ear / 从一处响出来、传到耳朵里的声音",
+      "core_image": "一头响出来的动静，顺着一路传到另一头，那边听得清是谁在说",
+      "english_definition": "sound, voice; a device that makes or carries sound",
+      "word_ids": [
+        "microphone",
+        "phone",
+        "symphony",
+        "telephone"
+      ]
+    },
+    {
+      "id": "docere",
+      "root": "docere",
+      "variants": [
+        "doc",
+        "doct",
+        "docu"
+      ],
+      "origin": "拉丁语 docere（教、使人知道），过去分词 doctus（学过的、有学问的），名词 documentum（用来教人明白的凭据）。中世纪大学里的 doctor 指有学位、够资格开讲的学者；行医须先取医学学位，这个头衔便随学位落到行医的人身上，后来反成了他们的专称。库中 dict（拉丁语 dicere 说出话来）只管话出了口，与本根不同源也不同事：本根管的是话进了对方心里，让人从不知道变成知道",
+      "core_concept": "to make another person know a thing / 把一件事教进别人心里，使他知道",
+      "core_image": "一个人把不懂的地方讲到对面点头，那人转头就能讲给第三个人",
+      "english_definition": "to teach, to make known, to show by proof",
+      "word_ids": [
+        "doctor",
+        "doctorate",
+        "document",
+        "documentary"
+      ]
+    },
+    {
+      "id": "typos",
+      "root": "typos",
+      "variants": [
+        "typ",
+        "typo"
+      ],
+      "origin": "希腊语 typos（敲打出来的印记、据此翻制的模子）来自 typtein（敲打），经拉丁语 typus 入英语；那个印既是被打出来的痕，也是拿来复制的范，同一个范按下去多少次，出来的样子都一样。库中 premere（拉丁语押、按那个动作）说的是施力本身，与本根不同源：本根说的是留下来的那个形",
+      "core_concept": "the mark beaten in, and the mould that repeats it / 敲出来的那个印，以及照它翻出一模一样的范",
+      "core_image": "硬料上敲出一个印，拿它去按，按一次和按一百次出来的样子一样",
+      "english_definition": "a mark made by striking; a mould that reproduces one form",
+      "word_ids": [
+        "stereotype",
+        "type",
+        "typical",
+        "typist"
+      ]
     }
   ]
 }

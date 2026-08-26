@@ -123189,6 +123189,380 @@
         "have sympathy for sb —— 同情某人的处境",
         "in sympathy with sth —— 与某种看法或做法一致"
       ]
+    },
+    {
+      "id": "microphone",
+      "word": "microphone",
+      "pos": "noun",
+      "phonetic": "/ˈmaɪkrəfəʊn/",
+      "decomposable": "root",
+      "root_ids": [
+        "phone-sound"
+      ],
+      "root_logic": "micro-（希腊语 mikros 小）+ phone（声音）→ 把小得听不见的动静接过来，放到全场都听得见",
+      "origin": "英语按希腊语成分合成：micro-（mikros 小）+ -phone（phone 声音），十七世纪先指助听的小号筒，一八七七年起指今天这种拾音器",
+      "native_definition": "a device that picks up sound and makes it louder or records it",
+      "core_concept": "a small thing that makes sound big – 把小声音变大的那件小东西",
+      "core_image": "台上那人对着网罩一说话，最后一排也听得一清二楚",
+      "chinese": [
+        "麦克风",
+        "话筒"
+      ],
+      "examples": [
+        "He tapped the microphone before he began.",
+        "Please speak into the microphone clearly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "麦克风：把细小的动静接过来放大，让远处也听得见",
+        "话筒：手里或架上那一头，人对着它说，声音从别处出来"
+      ]
+    },
+    {
+      "id": "telephone",
+      "word": "telephone",
+      "pos": "noun / verb",
+      "phonetic": "/ˈtelɪfəʊn/",
+      "decomposable": "root",
+      "root_ids": [
+        "phone-sound"
+      ],
+      "root_logic": "tele-（希腊语 tele 远）+ phone（声音）→ 远处的动静送到耳边",
+      "origin": "英语按希腊语成分合成：tele-（tele 远）+ -phone（phone 声音），一八三五年前后先用于远距传声的装置，一八七六年后专指贝尔那一种",
+      "native_definition": "an instrument that carries speech between people far apart",
+      "core_concept": "voice brought in from far away – 把远处的声音接到眼前",
+      "core_image": "桌上那台机子铃一响，拿起听筒，隔着几百里的人就在耳边说话",
+      "chinese": [
+        "电话",
+        "打电话"
+      ],
+      "examples": [
+        "The telephone rang three times before dawn.",
+        "She telephoned her mother from the station."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "电话：一条线把远处的动静接过来的那台机子",
+        "打电话：拿它去找人，接通了就等于人在耳边"
+      ]
+    },
+    {
+      "id": "symphony",
+      "word": "symphony",
+      "pos": "noun",
+      "phonetic": "/ˈsɪmfəni/",
+      "decomposable": "root",
+      "root_ids": [
+        "phone-sound"
+      ],
+      "root_logic": "sym-（syn 一同）+ phon（声音）+ -y（名词）→ 许多声音一同响，合成一片",
+      "origin": "希腊语 symphonia（多个声音合在一处响）由 syn（一同）加 phone（声音），经拉丁语 symphonia、古法语 symphonie 入英语；十七世纪起专指多件乐器同奏的大型曲",
+      "native_definition": "a long piece of music for a full orchestra, or a pleasing combination of things",
+      "core_concept": "many sounds going off as one – 许多声音一同响成一个",
+      "core_image": "几十把琴同时起弓，各拉一个音，听上去却是一整片声音",
+      "chinese": [
+        "交响乐",
+        "和谐一致"
+      ],
+      "examples": [
+        "The orchestra played a symphony by Brahms.",
+        "The garden was a symphony of colour."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "交响乐：一大群乐器各出一个音，凑成一片整的",
+        "和谐一致：不限于声音，多样东西摆到一处也能像同奏一样合得上"
+      ]
+    },
+    {
+      "id": "phone",
+      "word": "phone",
+      "pos": "noun / verb",
+      "phonetic": "/fəʊn/",
+      "decomposable": "root",
+      "root_ids": [
+        "phone-sound"
+      ],
+      "root_logic": "phone（声音）→ telephone 掐掉「远」只留「声音」这一半，成了日常说法",
+      "origin": "英语 phone 是 telephone（tele 远＋phone 声音）的截短式，一八八零年代起通行；语言学上另有直取希腊语 phone（声音）的用法，指一个语音单位",
+      "native_definition": "a device you use to speak with someone at a distance, or to call someone with it",
+      "core_concept": "the sound half of telephone, kept for daily use – telephone 只留下「声音」那一半的日常说法",
+      "core_image": "兜里一震，摸出来贴到耳朵上说了声喂，那头立刻应了",
+      "chinese": [
+        "电话",
+        "手机",
+        "打电话"
+      ],
+      "examples": [
+        "My phone died in the middle of the call.",
+        "I will phone you as soon as I arrive."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "电话：那条线路和那台机子本身",
+        "手机：同一件东西做成能揣在兜里的",
+        "打电话：拿它去找人，也就成了动作"
+      ],
+      "collocations": [
+        "on the phone —— 正在通话中，也指电话联系得上",
+        "answer the phone —— 接起来，铃响后拿起听筒"
+      ]
+    },
+    {
+      "id": "doctor",
+      "word": "doctor",
+      "pos": "noun",
+      "phonetic": "/ˈdɒktə/",
+      "decomposable": "root",
+      "root_ids": [
+        "docere"
+      ],
+      "root_logic": "doct（docere 教）+ -or（做这事的人）→ 够资格开讲的人 → 拿到学位的学者 → 学位在手才准动手治病的那种人",
+      "origin": "拉丁语 doctor（教师）← docere（教），过去分词 doctus；中世纪大学的 doctor 指有学位、够资格开讲的学者，行医须先取医学学位，这个头衔便随学位落到行医的人身上，十四世纪起成了他们的常称",
+      "native_definition": "a person qualified to treat sick people, or someone holding the highest university degree",
+      "core_concept": "one licensed to teach, hence one who knows – 有资格开讲的人，也就是学问到家的人",
+      "core_image": "墙上挂着一纸学位证书，证书底下的人穿白大褂，把听诊器按在你胸口",
+      "chinese": [
+        "医生",
+        "博士"
+      ],
+      "examples": [
+        "You should see a doctor about that cough.",
+        "She became a doctor of philosophy last year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "医生：学位到手才准动手治病的那种人，头衔是从学位来的",
+        "博士：学位本身的持有者，本义是够资格开讲"
+      ]
+    },
+    {
+      "id": "doctorate",
+      "word": "doctorate",
+      "pos": "noun",
+      "phonetic": "/ˈdɒktərət/",
+      "decomposable": "root",
+      "root_ids": [
+        "docere"
+      ],
+      "root_logic": "doct（docere 教）+ -or（人）+ -ate（身份、职位）→ 够资格开讲的那个身份",
+      "origin": "中世纪拉丁语 doctoratus（doctor 的身份）← doctor（教师）← 拉丁语 docere（教）",
+      "native_definition": "the highest degree given by a university",
+      "core_concept": "the standing that lets you teach it – 拿到手就够资格开讲这门学问的那个身份",
+      "core_image": "答辩完签下最后一个名字，从坐在下面听的那一头，换到站在台上讲的这一头",
+      "chinese": [
+        "博士学位"
+      ],
+      "examples": [
+        "He finished his doctorate in three years.",
+        "She holds a doctorate in medieval history."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "document",
+      "word": "document",
+      "pos": "noun / verb",
+      "phonetic": "/ˈdɒkjumənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "docere"
+      ],
+      "root_logic": "docu（docere 教、使人知道）+ -ment（东西）→ 拿来让人明白一件事的凭据",
+      "origin": "拉丁语 documentum（用来教人明白的凭据、例证）← docere（教），经古法语 document 入英语，先表教训与凭证，十八世纪起专表纸面凭据",
+      "native_definition": "a paper or file that records information, or to record something in detail",
+      "core_concept": "something produced to make a fact known – 拿出来就能让人明白某事的那样东西",
+      "core_image": "从抽屉里抽出一叠纸，边角盖着红印，一页页摊开给人看",
+      "chinese": [
+        "文件",
+        "文档",
+        "记录"
+      ],
+      "examples": [
+        "Please sign the document before you leave.",
+        "They documented every step of the process."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "文件：能拿出来给人看、说明一件事的纸",
+        "文档：同一样东西存在机器里的形态",
+        "记录：把过程一条条写下来，日后拿得出凭据"
+      ]
+    },
+    {
+      "id": "documentary",
+      "word": "documentary",
+      "pos": "noun / adjective",
+      "phonetic": "/ˌdɒkjuˈmentri/",
+      "decomposable": "root",
+      "root_ids": [
+        "docere"
+      ],
+      "root_logic": "document（凭据）+ -ary（属于…的）→ 全靠凭据搭起来的那种片子",
+      "origin": "英语 documentary 由 document（← 拉丁语 documentum 凭据 ← docere 教）加 -ary，本作形容词表「凭据性的」，一九二零年代起用作名词，指全用实拍素材做的片子",
+      "native_definition": "a film or programme giving facts about real events, or based on written evidence",
+      "core_concept": "built out of things that can be produced as proof – 整件东西全由拿得出的凭据搭成",
+      "core_image": "镜头跟着渔船拍了三个月，不配一句解说，每个画面都能指出是哪天拍的",
+      "chinese": [
+        "纪录片",
+        "纪实的"
+      ],
+      "examples": [
+        "We watched a documentary about deep sea fish.",
+        "The court relied on documentary evidence alone."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "纪录片：不搬演、不虚构，素材全是实拍来的那种片子",
+        "纪实的：泛指靠书面凭据成立的，如法庭上拿得出的那类证据"
+      ],
+      "collocations": [
+        "a documentary on sth —— 关于某题材的那种片子，也可用 about",
+        "documentary evidence —— 拿得出纸面凭据的那种证据"
+      ]
+    },
+    {
+      "id": "type",
+      "word": "type",
+      "pos": "noun / verb",
+      "phonetic": "/taɪp/",
+      "decomposable": "root",
+      "root_ids": [
+        "typos"
+      ],
+      "root_logic": "typ（typos 敲出的印记、模子）→ 同一个范按出来的归作一拨 → 那个范本是刻着反字的小金属块 → 敲那排键就是拿它往纸上按",
+      "origin": "拉丁语 typus（形象、样式）← 希腊语 typos（敲出来的印记、模子）；印刷术起后 type 指刻反字的金属块，一八八八年后由此引出「敲键成字」这一动作义",
+      "native_definition": "a group of people or things sharing the same features, or to write with a keyboard",
+      "core_concept": "one mould, and everything it stamps out alike – 一个范，以及它按出来的一批同样的东西",
+      "core_image": "一小块金属上刻着反着的字，蘸上墨往纸上一按，按多少次都是同一个样子",
+      "chinese": [
+        "类型",
+        "打字",
+        "铅字"
+      ],
+      "examples": [
+        "This type of soil holds water well.",
+        "He typed the address into the search box."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "类型：同一个范出来的算一拨，彼此对得上",
+        "打字：敲键等于拿一块块字往纸上按",
+        "铅字：那个范本身，刻反了字的小金属块"
+      ],
+      "collocations": [
+        "a type of sth —— 某一类的某物，后多接单数名词",
+        "what type of sth —— 问是哪一类，与 what kind of 同用"
+      ]
+    },
+    {
+      "id": "stereotype",
+      "word": "stereotype",
+      "pos": "noun / verb",
+      "phonetic": "/ˈsteriətaɪp/",
+      "decomposable": "root",
+      "root_ids": [
+        "typos"
+      ],
+      "root_logic": "stereo-（希腊语 stereos 硬、固定）+ type（typos 模子）→ 铸死的整块版，怎么按都不变",
+      "origin": "法语 stéréotype 由希腊语 stereos（硬的、立体的）加 typos（模子）合成，本指整版铸死的印版；一九二二年起用于人，指钉住不动的看法",
+      "native_definition": "a fixed and oversimplified idea about a group, or to judge someone by such an idea",
+      "core_concept": "a plate cast solid, printing the same picture every time – 铸死的版，每次按出来都是同一张",
+      "core_image": "整版字铸成一块铁，再也拆不动，之后印一千张，张张一模一样",
+      "chinese": [
+        "刻板印象",
+        "成见"
+      ],
+      "examples": [
+        "The film relies on tired national stereotypes.",
+        "Do not stereotype people by their accent."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "刻板印象：把一群人套进一块铸死的版，个个照同一张印",
+        "成见：版一铸死，新情形进不来，看见了也还按老样子认"
+      ]
+    },
+    {
+      "id": "typical",
+      "word": "typical",
+      "pos": "adjective",
+      "phonetic": "/ˈtɪpɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "typos"
+      ],
+      "root_logic": "typ（typos 模子）+ -ical（…的）→ 跟那个范对得上，拿它当整批的样子",
+      "origin": "中世纪拉丁语 typicalis ← 拉丁语 typicus ← 希腊语 typikos（照模子的）← typos（模子）",
+      "native_definition": "having the qualities you would expect of a whole group",
+      "core_concept": "matching the mould enough to stand for the batch – 跟范对得上，可以拿它代表整批",
+      "core_image": "从一筐苹果里随手摸出一个，说这批就长这样，旁边的人都点头",
+      "chinese": [
+        "典型的",
+        "一贯如此的"
+      ],
+      "examples": [
+        "This is a typical example of his work.",
+        "It is typical of her to arrive early."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "典型的：拿它当样本，整批的样子都在里头",
+        "一贯如此的：某人某物老是这个样子，与预料的分毫不差"
+      ],
+      "collocations": [
+        "typical of sb —— 某人一贯就是这样，多带无奈的口气",
+        "a typical example of sth —— 某物的代表性例子，拿来说明整批"
+      ]
+    },
+    {
+      "id": "typist",
+      "word": "typist",
+      "pos": "noun",
+      "phonetic": "/ˈtaɪpɪst/",
+      "decomposable": "root",
+      "root_ids": [
+        "typos"
+      ],
+      "root_logic": "typ（typos 模子、刻字的金属块）+ -ist（做这一行的人）→ 整天拿字往纸上按的人",
+      "origin": "英语 typist 由 type（← 拉丁语 typus ← 希腊语 typos 模子）加 -ist（从事某行的人）构成，一八八零年代随打字机出现",
+      "native_definition": "a person whose job is to type documents",
+      "core_concept": "one whose trade is pressing letters onto paper – 以把字按到纸上为业的人",
+      "core_image": "十指扑扑扑地敲，眼睛只看稿子不看键，一页纸一刻钟就出来",
+      "chinese": [
+        "打字员"
+      ],
+      "examples": [
+        "The office hired two typists last month.",
+        "She works as a typist in a law firm."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
     }
   ]
 }

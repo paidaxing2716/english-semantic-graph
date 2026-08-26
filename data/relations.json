@@ -11904,6 +11904,78 @@
       "to": "sympathy",
       "type": "root",
       "note": "sym-（一同）+ path（pathos 受、感受）+ -y（名词）→ 落在你身上的那一下，我跟着一起受"
+    },
+    {
+      "from": "phone-sound",
+      "to": "microphone",
+      "type": "root",
+      "note": "micro-（希腊语 mikros 小）+ phone（声音）→ 把小得听不见的动静接过来，放到全场都听得见"
+    },
+    {
+      "from": "phone-sound",
+      "to": "telephone",
+      "type": "root",
+      "note": "tele-（希腊语 tele 远）+ phone（声音）→ 远处的动静送到耳边"
+    },
+    {
+      "from": "phone-sound",
+      "to": "symphony",
+      "type": "root",
+      "note": "sym-（syn 一同）+ phon（声音）+ -y（名词）→ 许多声音一同响，合成一片"
+    },
+    {
+      "from": "phone-sound",
+      "to": "phone",
+      "type": "root",
+      "note": "phone（声音）→ telephone 掐掉「远」只留「声音」这一半，成了日常说法"
+    },
+    {
+      "from": "docere",
+      "to": "doctor",
+      "type": "root",
+      "note": "doct（docere 教）+ -or（做这事的人）→ 够资格开讲的人 → 拿到学位的学者 → 学位在手才准动手治病的那"
+    },
+    {
+      "from": "docere",
+      "to": "doctorate",
+      "type": "root",
+      "note": "doct（docere 教）+ -or（人）+ -ate（身份、职位）→ 够资格开讲的那个身份"
+    },
+    {
+      "from": "docere",
+      "to": "document",
+      "type": "root",
+      "note": "docu（docere 教、使人知道）+ -ment（东西）→ 拿来让人明白一件事的凭据"
+    },
+    {
+      "from": "docere",
+      "to": "documentary",
+      "type": "root",
+      "note": "document（凭据）+ -ary（属于…的）→ 全靠凭据搭起来的那种片子"
+    },
+    {
+      "from": "typos",
+      "to": "type",
+      "type": "root",
+      "note": "typ（typos 敲出的印记、模子）→ 同一个范按出来的归作一拨 → 那个范本是刻着反字的小金属块 → 敲那排键就是拿"
+    },
+    {
+      "from": "typos",
+      "to": "stereotype",
+      "type": "root",
+      "note": "stereo-（希腊语 stereos 硬、固定）+ type（typos 模子）→ 铸死的整块版，怎么按都不变"
+    },
+    {
+      "from": "typos",
+      "to": "typical",
+      "type": "root",
+      "note": "typ（typos 模子）+ -ical（…的）→ 跟那个范对得上，拿它当整批的样子"
+    },
+    {
+      "from": "typos",
+      "to": "typist",
+      "type": "root",
+      "note": "typ（typos 模子、刻字的金属块）+ -ist（做这一行的人）→ 整天拿字往纸上按的人"
     }
   ]
 }

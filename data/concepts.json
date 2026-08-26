@@ -5181,6 +5181,51 @@
         "sympathize",
         "sympathy"
       ]
+    },
+    {
+      "id": "concept-phone-sound-voice",
+      "concept": "sound that carries from a source to an ear",
+      "chinese": "响出的声音",
+      "core_image": "一头响出来的动静，顺着一路传到另一头，那边听得清是谁在说",
+      "root_ids": [
+        "phone-sound"
+      ],
+      "word_ids": [
+        "microphone",
+        "phone",
+        "symphony",
+        "telephone"
+      ]
+    },
+    {
+      "id": "concept-docere-teach",
+      "concept": "to make another person know a thing",
+      "chinese": "使人知道",
+      "core_image": "一个人把不懂的地方讲到对面点头，那人转头就能讲给第三个人",
+      "root_ids": [
+        "docere"
+      ],
+      "word_ids": [
+        "doctor",
+        "doctorate",
+        "document",
+        "documentary"
+      ]
+    },
+    {
+      "id": "concept-typos-stamp",
+      "concept": "the mark beaten in, and the mould that repeats it",
+      "chinese": "印记与模子",
+      "core_image": "硬料上敲出一个印，拿它去按，按一次和按一百次出来的样子一样",
+      "root_ids": [
+        "typos"
+      ],
+      "word_ids": [
+        "stereotype",
+        "type",
+        "typical",
+        "typist"
+      ]
     }
   ]
 }
