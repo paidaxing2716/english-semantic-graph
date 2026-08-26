@@ -47418,6 +47418,314 @@
       "text": "The plan has one minus we should discuss.",
       "source": "AI 生成 · 人工审核",
       "scene": "账单上一行写着 100 减 20，笔尖点在那道短横上，数目往下走"
+    },
+    {
+      "id": "ex-therefore-1",
+      "word_id": "therefore",
+      "text": "The road was closed; we therefore turned back.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前面几行条件一条条摆齐，笔尖落到最后一行，只剩这一个数能填进去"
+    },
+    {
+      "id": "ex-therefore-2",
+      "word_id": "therefore",
+      "text": "She was late and therefore missed the opening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "前面几行条件一条条摆齐，笔尖落到最后一行，只剩这一个数能填进去"
+    },
+    {
+      "id": "ex-thus-1",
+      "word_id": "thus",
+      "text": "Hold the rope thus and pull it tight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把绳头绕两圈再一拉，示范给旁边的人看，说照这个手法来"
+    },
+    {
+      "id": "ex-thus-2",
+      "word_id": "thus",
+      "text": "The talks failed, thus ending the deal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把绳头绕两圈再一拉，示范给旁边的人看，说照这个手法来"
+    },
+    {
+      "id": "ex-otherwise-1",
+      "word_id": "otherwise",
+      "text": "Write it down, otherwise you will forget.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她把伞塞进他包里，说记着带上，不带的话回来时半身都得淋透"
+    },
+    {
+      "id": "ex-otherwise-2",
+      "word_id": "otherwise",
+      "text": "The room was small but otherwise perfectly comfortable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "她把伞塞进他包里，说记着带上，不带的话回来时半身都得淋透"
+    },
+    {
+      "id": "ex-whereas-1",
+      "word_id": "whereas",
+      "text": "He likes crowds, whereas she prefers quiet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张成绩单并排摊在桌上，一张门门九十以上，另一张门门刚过及格线"
+    },
+    {
+      "id": "ex-whereas-2",
+      "word_id": "whereas",
+      "text": "Whereas the north had rain, the south stayed dry.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两张成绩单并排摊在桌上，一张门门九十以上，另一张门门刚过及格线"
+    },
+    {
+      "id": "ex-besides-1",
+      "word_id": "besides",
+      "text": "Besides English, she speaks two other languages.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账单上的项他都点过一遍了，又从口袋里翻出一张小票压上去"
+    },
+    {
+      "id": "ex-besides-2",
+      "word_id": "besides",
+      "text": "It is late, and besides, I am tired.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账单上的项他都点过一遍了，又从口袋里翻出一张小票压上去"
+    },
+    {
+      "id": "ex-furthermore-1",
+      "word_id": "furthermore",
+      "text": "The plan is costly. Furthermore, it is slow.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "论证写满一页，他翻到背面接着往下推，落笔比前面几条更重"
+    },
+    {
+      "id": "ex-furthermore-2",
+      "word_id": "furthermore",
+      "text": "The claim was false and, furthermore, easy to disprove.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "论证写满一页，他翻到背面接着往下推，落笔比前面几条更重"
+    },
+    {
+      "id": "ex-rather-1",
+      "word_id": "rather",
+      "text": "It was rather cold for a swim.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平往一边压下去一格，看得出偏了，可也没到底"
+    },
+    {
+      "id": "ex-rather-2",
+      "word_id": "rather",
+      "text": "I would rather walk than wait here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平往一边压下去一格，看得出偏了，可也没到底"
+    },
+    {
+      "id": "ex-quite-1",
+      "word_id": "quite",
+      "text": "You are quite right about the dates.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本上最后一笔划掉，合上册子，桌上再没有要办的单据"
+    },
+    {
+      "id": "ex-quite-2",
+      "word_id": "quite",
+      "text": "The film was quite good, not brilliant.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "账本上最后一笔划掉，合上册子，桌上再没有要办的单据"
+    },
+    {
+      "id": "ex-somewhat-1",
+      "word_id": "somewhat",
+      "text": "The rules have changed somewhat since then.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "量杯里的水刚过第一道刻度线，离满还差着大半截"
+    },
+    {
+      "id": "ex-somewhat-2",
+      "word_id": "somewhat",
+      "text": "He looked somewhat tired after the flight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "量杯里的水刚过第一道刻度线，离满还差着大半截"
+    },
+    {
+      "id": "ex-scarcely-1",
+      "word_id": "scarcely",
+      "text": "There was scarcely any bread left.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "果园早被人摘过一轮，篮底就剩一只，够不上分给两个人"
+    },
+    {
+      "id": "ex-scarcely-2",
+      "word_id": "scarcely",
+      "text": "He had scarcely sat down when the bell rang.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "果园早被人摘过一轮，篮底就剩一只，够不上分给两个人"
+    },
+    {
+      "id": "ex-utterly-1",
+      "word_id": "utterly",
+      "text": "The plan was utterly useless from the start.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯里的水泼干，倒过来在桌上敲两下，一滴都没滴出来"
+    },
+    {
+      "id": "ex-utterly-2",
+      "word_id": "utterly",
+      "text": "She was utterly exhausted by midnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯里的水泼干，倒过来在桌上敲两下，一滴都没滴出来"
+    },
+    {
+      "id": "ex-altogether-1",
+      "word_id": "altogether",
+      "text": "The trip cost three hundred pounds altogether.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个口袋里的零钱全掏出来堆到一处，最后只报一个数"
+    },
+    {
+      "id": "ex-altogether-2",
+      "word_id": "altogether",
+      "text": "He gave up smoking altogether that winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个口袋里的零钱全掏出来堆到一处，最后只报一个数"
+    },
+    {
+      "id": "ex-somehow-1",
+      "word_id": "somehow",
+      "text": "The cat somehow got into the locked room.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门锁着，猫却蹲在屋里的椅子上，一家人谁也说不出它是从哪儿进来的"
+    },
+    {
+      "id": "ex-somehow-2",
+      "word_id": "somehow",
+      "text": "We must somehow finish this before Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门锁着，猫却蹲在屋里的椅子上，一家人谁也说不出它是从哪儿进来的"
+    },
+    {
+      "id": "ex-though-1",
+      "word_id": "though",
+      "text": "Though it was late, she kept reading.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把凉透的菜吃完，碗一放，末了轻轻补上半句"
+    },
+    {
+      "id": "ex-though-2",
+      "word_id": "though",
+      "text": "The room is small, comfortable though.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把凉透的菜吃完，碗一放，末了轻轻补上半句"
+    },
+    {
+      "id": "ex-while-1",
+      "word_id": "while",
+      "text": "She read a book while the soup cooked.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条车道并行了好一段，白线一侧的车快些，另一侧慢些"
+    },
+    {
+      "id": "ex-while-2",
+      "word_id": "while",
+      "text": "Wait here for a while, please.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条车道并行了好一段，白线一侧的车快些，另一侧慢些"
+    },
+    {
+      "id": "ex-since-1",
+      "word_id": "since",
+      "text": "I have not seen him since Monday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门框上留着小时候划的一道铅笔痕，往上每年再添一道"
+    },
+    {
+      "id": "ex-since-2",
+      "word_id": "since",
+      "text": "Since you are here, help me lift it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门框上留着小时候划的一道铅笔痕，往上每年再添一道"
+    },
+    {
+      "id": "ex-unless-1",
+      "word_id": "unless",
+      "text": "You will fail unless you start now.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一道闩死的门只留一个锁孔，别的钥匙都拧不动，只那一把能开"
+    },
+    {
+      "id": "ex-unless-2",
+      "word_id": "unless",
+      "text": "Unless it rains, we walk to school.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一道闩死的门只留一个锁孔，别的钥匙都拧不动，只那一把能开"
+    },
+    {
+      "id": "ex-whether-1",
+      "word_id": "whether",
+      "text": "I asked whether the shop was open.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手里捏着两张车票，去和不去各算了一遍，还没抽出哪一张"
+    },
+    {
+      "id": "ex-whether-2",
+      "word_id": "whether",
+      "text": "Whether he comes or not, we start.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手里捏着两张车票，去和不去各算了一遍，还没抽出哪一张"
+    },
+    {
+      "id": "ex-yet-1",
+      "word_id": "yet",
+      "text": "She has not finished the report yet.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一队人挨个过了闸口，最后一个仍站在栏杆外，脚没抬起来"
+    },
+    {
+      "id": "ex-yet-2",
+      "word_id": "yet",
+      "text": "The plan is simple yet effective.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一队人挨个过了闸口，最后一个仍站在栏杆外，脚没抬起来"
+    },
+    {
+      "id": "ex-still-1",
+      "word_id": "still",
+      "text": "He is still waiting for the bus.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水面一夜没起纹，那片叶子仍在昨天落下的地方"
+    },
+    {
+      "id": "ex-still-2",
+      "word_id": "still",
+      "text": "Keep still while I take the photo.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水面一夜没起纹，那片叶子仍在昨天落下的地方"
+    },
+    {
+      "id": "ex-despite-1",
+      "word_id": "despite",
+      "text": "They played on despite the heavy rain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨把场地泡软了，哨子照样吹响，球接着踢"
+    },
+    {
+      "id": "ex-despite-2",
+      "word_id": "despite",
+      "text": "She smiled despite losing the match.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨把场地泡软了，哨子照样吹响，球接着踢"
+    },
+    {
+      "id": "ex-whilst-1",
+      "word_id": "whilst",
+      "text": "Whilst in London, he visited the museum.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议记录上写着的那个连词，念出来比平常那个多一个音"
+    },
+    {
+      "id": "ex-whilst-2",
+      "word_id": "whilst",
+      "text": "Some praised it, whilst others said nothing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会议记录上写着的那个连词，念出来比平常那个多一个音"
     }
   ]
 }

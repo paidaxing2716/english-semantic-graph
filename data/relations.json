@@ -10674,6 +10674,12 @@
       "to": "minus",
       "type": "root",
       "note": "拉丁语 minus（更小、更少）直接入英语 → 让数目变小的那个记号 → 减去"
+    },
+    {
+      "from": "spect",
+      "to": "despite",
+      "type": "root",
+      "note": "de-（往下）+ spect（specere 看）→ 往下看一眼就不放在心上，那道拦头的事照旧跨过去"
     }
   ]
 }
