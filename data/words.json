@@ -42158,10 +42158,11 @@
       "word": "agree",
       "pos": "verb",
       "phonetic": "/əˈɡriː/",
-      "decomposable": "germanic",
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "a-（ad- 朝）+ gree（← gratum 合心意）→ 说到对方心意上去，两边就对上了 → 同意",
       "origin": "古法语 agreer（合意）← a gre ← 拉丁语 ad gratum（合心意）",
       "native_definition": "to have the same opinion, or to say yes to something",
       "core_concept": "two things falling on the same spot – 两样东西落在同一个点上",
@@ -120489,6 +120490,1968 @@
         "有民主作风的：说人愿意让旁人开口，不一个人拍板"
       ],
       "recall_hint": "demos（一地之民）+ -cratic（权力）→ 权力在众人手里，人人插得上话"
+    },
+    {
+      "id": "ancestor",
+      "word": "ancestor",
+      "pos": "noun",
+      "phonetic": "/ˈænsestə/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "an-（ante 在前）+ cest（cedere 行走）+ -or（人）→ 走在前头的那个人",
+      "origin": "古法语 ancestre ← 拉丁语 antecessor（走在前面的人）：ante（在前）+ cedere（行走）",
+      "native_definition": "a person in your family who lived long before you",
+      "core_concept": "the one who walked the road before you – 走在你前头那条路上的人",
+      "core_image": "祠堂墙上挂着一排画像，一层比一层旧，最上面那张已经看不清脸",
+      "chinese": [
+        "祖先",
+        "祖宗",
+        "原型"
+      ],
+      "examples": [
+        "His ancestors came from a small fishing village.",
+        "The modern piano has a much simpler ancestor."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "祖先：家系里比你早许多代、走在前头的那些人",
+        "祖宗：同一批人，说的时候带着要祭要敬的意思",
+        "原型：把这个说法搬到器物上，指今天这件东西早先那个样子"
+      ]
+    },
+    {
+      "id": "assault",
+      "word": "assault",
+      "pos": "noun / verb",
+      "phonetic": "/əˈsɔːlt/",
+      "decomposable": "root",
+      "root_ids": [
+        "salire"
+      ],
+      "root_logic": "as-（ad 朝）+ sault（salire 跳）→ 朝人身上猛跳过去",
+      "origin": "古法语 asaut ← 通俗拉丁语 assaltus：ad-（朝）+ saltus（跳，← salire 跳）",
+      "native_definition": "a sudden violent attack on someone or something",
+      "core_concept": "a body flung suddenly at another – 一下子朝对方身上扑过去",
+      "core_image": "他从暗处一跃扑上来，手还没抬起就被撞得后退两步",
+      "chinese": [
+        "袭击",
+        "攻击",
+        "侵犯"
+      ],
+      "examples": [
+        "Two men assaulted him near the station.",
+        "The police reported a serious assault last night."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "袭击：突然扑上去动手，来得快、没有预告",
+        "攻击：同一个动作放大到军队打阵地，也指言语上猛扑过来",
+        "侵犯：扑的对象是人身，指身体上不该有的强行接触"
+      ],
+      "collocations": [
+        "an assault on sb / sth —— 攻击的对象用 on 引出，介词固定",
+        "assault sb —— 作动词直接接宾语，中间不加介词"
+      ]
+    },
+    {
+      "id": "academic",
+      "word": "academic",
+      "pos": "adjective / noun",
+      "phonetic": "/ˌækəˈdemɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 academicus ← 希腊语 Akadēmeia：柏拉图讲学的那片林园，得名于当地英雄 Akadēmos",
+      "native_definition": "relating to study and thinking rather than to practical work",
+      "core_concept": "belonging to the grove where learning is pursued – 属于那片专门做学问的地方",
+      "core_image": "窗边一排书桌，每人对着一叠打印稿改字，走廊尽头贴着讲座海报",
+      "chinese": [
+        "学术的",
+        "学业的",
+        "纯理论的",
+        "大学教师"
+      ],
+      "examples": [
+        "Her academic record is very strong.",
+        "That question is purely academic for now."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "学术的：与研究、著述这一类事情有关",
+        "学业的：与在校读书这件事有关，如成绩和课程",
+        "纯理论的：只在道理上说得通，落不到眼下的实事上",
+        "大学教师：以做学问和授课为职业的那个人"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "accelerate",
+      "word": "accelerate",
+      "pos": "verb",
+      "phonetic": "/əkˈseləreɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 accelerare 的过去分词 acceleratus：ad-（朝）+ celer（快的）——celer 与 celare（藏起来）不同词，勿混",
+      "native_definition": "to move faster, or to make something happen sooner",
+      "core_concept": "pressing a thing toward being quicker – 把一件事往更快的那头推",
+      "core_image": "他把油门踩下去，路边的树往后倒得越来越急，指针一格格往上爬",
+      "chinese": [
+        "加速",
+        "加快",
+        "促进"
+      ],
+      "examples": [
+        "The car accelerated smoothly up the hill.",
+        "Warm weather accelerated the growth of the seeds."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "加速：速度本身一直往上走",
+        "加快：同一件事的节奏变紧，不专指行车",
+        "促进：让一个过程比原本更早到位"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "acquaintance",
+      "word": "acquaintance",
+      "pos": "noun",
+      "phonetic": "/əˈkweɪntəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "ac-（ad 向）+ quaint（cognoscere 认得出）+ -ance（名词后缀）→ 已经认得出这个人的那层关系",
+      "origin": "古法语 acointance ← acointier（使相识）← 通俗拉丁语 accognitare ← 拉丁语 ad-（向）+ cognoscere（认识）",
+      "native_definition": "someone you know slightly, or the state of knowing someone or something",
+      "core_concept": "knowing someone just well enough to recognize them – 只到认得出这一步的关系",
+      "core_image": "名单上这个名字他见过两回，点头打过招呼，再往下问就答不上来了",
+      "chinese": [
+        "熟人",
+        "相识",
+        "了解"
+      ],
+      "examples": [
+        "She is an acquaintance from my old office.",
+        "He has some acquaintance with Japanese cooking."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "熟人：认得出、叫得上名字，但没深到能托付事情",
+        "相识：说的是双方已经认下彼此这件事本身",
+        "了解：把同一层浅浅的认识挪到事物上，知道个大概"
+      ],
+      "collocations": [
+        "make sb's acquaintance —— 与某人结识，多用于正式场合",
+        "have some acquaintance with sth —— 对某事略知一二，程度不深"
+      ]
+    },
+    {
+      "id": "advantage",
+      "word": "advantage",
+      "pos": "noun",
+      "phonetic": "/ədˈvɑːntɪdʒ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 avantage ← avant（在前）← 晚期拉丁语 abante：ab（自）+ ante（前）；英语里的 d 是后人照拉丁语补进去的",
+      "native_definition": "something that puts you in a better position than others",
+      "core_concept": "standing further forward than the rest – 位置比别人靠前那一截",
+      "core_image": "起跑线往前挪了半米，枪一响，他已经在别人前面",
+      "chinese": [
+        "优势",
+        "好处",
+        "有利条件"
+      ],
+      "examples": [
+        "Her height gives her a real advantage.",
+        "We took full advantage of the good weather."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "优势：比别人靠前的那一截，是比较着说的",
+        "好处：这件事带来的那份得利，不一定跟人比",
+        "有利条件：把这份得利说成具体某一项凭借"
+      ],
+      "collocations": [
+        "take advantage of sb / sth —— 利用某物，用在人身上则含占便宜之意",
+        "have an advantage over sb —— 比某人占先，介词固定用 over"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "agreement",
+      "word": "agreement",
+      "pos": "noun",
+      "phonetic": "/əˈɡriːmənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 agrement ← agreer（合意）← a gre ← 拉丁语 ad gratum（合心意）",
+      "native_definition": "a shared decision that two sides accept, or the state of thinking the same",
+      "core_concept": "both sides landing on what suits them – 两边落到同一个都合心意的点上",
+      "core_image": "两人各在纸下方签了名，把纸推到中间，谁都不再提原先那两个数",
+      "chinese": [
+        "协议",
+        "一致",
+        "同意"
+      ],
+      "examples": [
+        "The two sides finally reached an agreement.",
+        "There is wide agreement on this point."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "协议：谈成之后定下来的那份约定，常有文本",
+        "一致：两边看法落在同一处，不必成文",
+        "同意：一方点头接受另一方提出的那件事"
+      ],
+      "collocations": [
+        "reach an agreement with sb —— 与某人达成协议，动词多用 reach",
+        "in agreement with sb / sth —— 与某人某事看法相合，介词用 in"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "alphabet",
+      "word": "alphabet",
+      "pos": "noun",
+      "phonetic": "/ˈælfəbet/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 alphabetum ← 希腊语 alphabētos：把头两个字母 alpha 与 bēta 连读作名，两个字母名更早借自腓尼基语",
+      "native_definition": "the set of letters used to write a language, in a fixed order",
+      "core_concept": "the letters named off in their settled order – 按定好的次序念下来的那排字母",
+      "core_image": "幼儿园墙上贴一长条，二十六个方块从头排到尾，每块一个符号",
+      "chinese": [
+        "字母表",
+        "字母系统"
+      ],
+      "examples": [
+        "The English alphabet has twenty-six letters.",
+        "He learned the Greek alphabet in one week."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "字母表：按固定次序排开的那一整排字母",
+        "字母系统：一种语言用来记音的那套符号本身"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "analogy",
+      "word": "analogy",
+      "pos": "noun",
+      "phonetic": "/əˈnælədʒi/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "ana-（依照）+ logy（logos 条理、比例）→ 两件事照着同一条理来对",
+      "origin": "拉丁语 analogia ← 希腊语 analogia（比例相当）：ana-（依照）+ logos（条理、比例，← legein 说）",
+      "native_definition": "a comparison showing that two things work in the same way",
+      "core_concept": "two things laid out by the same reasoning – 两件事按同一条理摆出来",
+      "core_image": "他把水管里的水流画在纸上，旁边写下电线，两张图的走法一模一样",
+      "chinese": [
+        "类比",
+        "相似",
+        "比方"
+      ],
+      "examples": [
+        "He explained the idea by analogy with water.",
+        "There is a close analogy between the two systems."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "类比：把两件不同的事按同一条理摆在一起讲",
+        "相似：只说两者之间那份对得上的地方",
+        "比方：拿听者熟的那件去说他不熟的这件"
+      ],
+      "collocations": [
+        "by analogy with sth —— 通过与某物类比来说明，介词用 with",
+        "draw an analogy between A and B —— 在两者之间作类比，between 固定"
+      ]
+    },
+    {
+      "id": "arithmetic",
+      "word": "arithmetic",
+      "pos": "noun / adjective",
+      "phonetic": "/əˈrɪθmətɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 arismetique ← 拉丁语 arithmetica ← 希腊语 arithmētikē tekhnē（算数的本事），来自 arithmos（数目）",
+      "native_definition": "working with numbers by adding, subtracting, multiplying and dividing",
+      "core_concept": "handling plain numbers by the four operations – 拿数目按四种算法摆弄出结果",
+      "core_image": "他在收据背面竖着列了三行，一层层往下加，最后画横线写出总数",
+      "chinese": [
+        "算术",
+        "运算",
+        "四则计算"
+      ],
+      "examples": [
+        "His arithmetic is faster than my calculator.",
+        "She made a simple arithmetic mistake here."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "算术：只用加减乘除处理数目的那门基本本事",
+        "运算：具体动手算的那个过程",
+        "四则计算：指加减乘除这四种做法本身"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "assassinate",
+      "word": "assassinate",
+      "pos": "verb",
+      "phonetic": "/əˈsæsɪneɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中世纪拉丁语 assassinus ← 阿拉伯语 ḥashīshiyyīn（吃大麻的人），中世纪尼查里派刺客的绰号；英语按拉丁式加 -ate 成动词",
+      "native_definition": "to kill an important person on purpose, usually for political reasons",
+      "core_concept": "killing a chosen figure by a planned strike – 挑定一个要紧的人，设好局下手",
+      "core_image": "车队刚拐过街角，人群里伸出一只手，一声之后整条街全乱了",
+      "chinese": [
+        "刺杀",
+        "暗杀"
+      ],
+      "examples": [
+        "Someone tried to assassinate the president yesterday.",
+        "The general was assassinated in his own home."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "刺杀：挑定某个要人下手，动作快且是设计好的",
+        "暗杀：同一件事，偏说它藏在暗处、事先不露痕迹"
+      ],
+      "decomposable_note": "借自阿拉伯语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "astronaut",
+      "word": "astronaut",
+      "pos": "noun",
+      "phonetic": "/ˈæstrənɔːt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 20 世纪造词，取希腊语 astron（星）+ nautēs（水手，← naus 船）",
+      "native_definition": "someone trained to travel and work in a spacecraft",
+      "core_concept": "a sailor whose sea is the stars – 把星空当海来跑船的人",
+      "core_image": "他穿着鼓胀的白衣从舱门探出来，脚下没有地，绳子拴在腰上",
+      "chinese": [
+        "宇航员",
+        "航天员"
+      ],
+      "examples": [
+        "Two astronauts walked outside the space station.",
+        "She trained for six years to become an astronaut."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "宇航员：驾着船在星空里走的那种人",
+        "航天员：同一种人，说的是他执行的是飞出大气层的任务"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "atmosphere",
+      "word": "atmosphere",
+      "pos": "noun",
+      "phonetic": "/ˈætməsfɪə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "近代拉丁语 atmosphaera ← 希腊语 atmos（水汽）+ sphaira（球）：包在星球外面那层气",
+      "native_definition": "the layer of gases around a planet, or the feeling a place gives you",
+      "core_concept": "the shell of vapour wrapped round a globe – 裹在球体外头那层气",
+      "core_image": "从高处往下看，地球边上有一圈发蓝的薄壳；屋里灯一暗，人说话都轻了",
+      "chinese": [
+        "大气",
+        "大气层",
+        "气氛",
+        "环境"
+      ],
+      "examples": [
+        "The atmosphere protects us from harmful rays.",
+        "The little restaurant has a warm atmosphere."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大气：裹在星球外面那层气本身",
+        "大气层：把同一层气看成有厚度、分层次的一圈",
+        "气氛：把裹在四周那层东西挪到人身上，指一处地方笼着的那种感觉",
+        "环境：同一层笼罩物说得更泛，指人置身其中的那一片"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "bacterium",
+      "word": "bacterium",
+      "pos": "noun",
+      "phonetic": "/bækˈtɪəriəm/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "近代拉丁语 bacterium ← 希腊语 baktērion（小棍），是 baktēria（棍、杖）的指小形——显微镜下看着像一根根小棍",
+      "native_definition": "a very small living thing with one cell, too small to see without a microscope",
+      "core_concept": "a single rod-shaped living speck – 一根小棍模样的活物",
+      "core_image": "镜筒里一片浅黄，中间浮着许多短短的小棒，一头还在慢慢扭",
+      "chinese": [
+        "细菌"
+      ],
+      "examples": [
+        "This bacterium lives in very hot water.",
+        "Only one bacterium was found in the sample."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "collocations": [
+        "one bacterium / many bacteria —— 单数 bacterium，复数 bacteria，两个词形不可混用"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "above",
+      "word": "above",
+      "pos": "preposition / adverb",
+      "phonetic": "/əˈbʌv/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 abufan：a-（on 在）+ bufan（← be + ufan 上方）← 原始日耳曼语 *ufan（上面）",
+      "native_definition": "at or to a higher place than something else",
+      "core_concept": "at a level higher than the thing named – 在所说那样东西的更高处",
+      "core_image": "头顶的横梁离手指还有一截，跳起来也够不着，梁上落了厚厚的灰",
+      "chinese": [
+        "在上方",
+        "以上",
+        "超过"
+      ],
+      "examples": [
+        "A bright lamp hung above the table.",
+        "Temperatures stayed above zero all week."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在上方：位置比另一样东西高，中间不必挨着",
+        "以上：数量或程度落在某个界之上",
+        "超过：越过某个标准或限度，偏说它过了线"
+      ],
+      "collocations": [
+        "above all —— 最要紧的是，用来引出最看重的那一条",
+        "above sth —— 在其上方且不接触，接触要改用 on",
+        "above average —— 高于一般水平，above 后接标准而非位置"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "advanced",
+      "word": "advanced",
+      "pos": "adjective",
+      "phonetic": "/ədˈvɑːnst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 advance 的过去分词形；advance ← 古法语 avancier ← 通俗拉丁语 abanteare ← 拉丁语 ab ante（从前面）",
+      "native_definition": "at a level that comes after the basic stages, or far on in development",
+      "core_concept": "having been moved on past the earlier stages – 已经从前面几段往后走过了",
+      "core_image": "分班表最后一格写着他的名字，那一格的题他上学期从没见过",
+      "chinese": [
+        "高级的",
+        "先进的",
+        "晚期的"
+      ],
+      "examples": [
+        "She teaches an advanced English class.",
+        "The disease was already at an advanced stage."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "高级的：在学习或分级里排在靠后、更难的那一段",
+        "先进的：在同类中走得更前，别人还没走到",
+        "晚期的：一个过程已经推进到很后面的阶段"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "after",
+      "word": "after",
+      "pos": "preposition / conjunction / adverb",
+      "phonetic": "/ˈɑːftə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 æfter（在…之后）← 原始日耳曼语 *aftar（更靠后）",
+      "native_definition": "later than something, or following behind it",
+      "core_concept": "coming behind in time or in place – 在时间上或位置上排在后头",
+      "core_image": "第一个人走出门，第二个隔了几秒才跟上，脚步声一前一后",
+      "chinese": [
+        "在…之后",
+        "以后",
+        "追赶"
+      ],
+      "examples": [
+        "We left right after the meeting ended.",
+        "The dog ran after the ball happily."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在…之后：一件事排在另一件的后面",
+        "以后：单独作副词，指那个时点往后的时间",
+        "追赶：位置上跟在后头不放，引申为追着要或追着找"
+      ],
+      "collocations": [
+        "after all —— 毕竟，用来补出一条先前被忽略的理由；也表终究还是",
+        "one after another —— 一个接一个，接连不断",
+        "be after sb / sth —— 追着要、追着找，此处不表时间"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "again",
+      "word": "again",
+      "pos": "adverb",
+      "phonetic": "/əˈɡen/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ongēan：on（朝）+ gēan（对面、迎着）← 原始日耳曼语 *gagin（对着）",
+      "native_definition": "one more time, or back to a former state",
+      "core_concept": "going back over the same ground once more – 把同一段再走一遍",
+      "core_image": "他把倒下的木塔一块块摆回去，顺序跟刚才那次一模一样",
+      "chinese": [
+        "再一次",
+        "又",
+        "重新"
+      ],
+      "examples": [
+        "Please read the whole passage again.",
+        "The lights came on again after midnight."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "再一次：同一个动作或情形又来一遍",
+        "又：接在动词前后，表这回是第二次或第多次",
+        "重新：回到起点从头来，含前一次不作数的意思"
+      ],
+      "collocations": [
+        "again and again —— 一遍又一遍，强调反复多次",
+        "now and again —— 偶尔，隔一段时间发生一次",
+        "then again —— 话又说回来，用来引出相反的一面"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "airport",
+      "word": "airport",
+      "pos": "noun",
+      "phonetic": "/ˈeəpɔːt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "20 世纪初英语复合词：air（← 拉丁语 aer ← 希腊语 aēr 气）+ port（← 拉丁语 portus 港口、门道）",
+      "native_definition": "a place where planes take off and land, with buildings for passengers",
+      "core_concept": "a harbour that ships come into by air – 由空中进出的那个港口",
+      "core_image": "一排玻璃门外停着几架大飞机，屋里人拖着箱子看头顶的屏幕",
+      "chinese": [
+        "机场",
+        "航空港"
+      ],
+      "examples": [
+        "We reached the airport two hours early.",
+        "The airport was closed because of heavy snow."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "机场：飞机起降、旅客进出的那一整片地方",
+        "航空港：同一处地方，说的是它像港口那样管着进出"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "amplifier",
+      "word": "amplifier",
+      "pos": "noun",
+      "phonetic": "/ˈæmplɪfaɪə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 amplify + -er；amplify ← 古法语 amplifier ← 拉丁语 amplificare：amplus（宽大的）+ -ficare（使…，构词后缀）",
+      "native_definition": "a piece of equipment that makes sound or an electrical signal stronger",
+      "core_concept": "the box that makes a weak signal large – 把弱信号做大的那个盒子",
+      "core_image": "吉他线插进那个铁盒子，旋钮往右一拧，原先听不清的拨弦声塞满整间屋",
+      "chinese": [
+        "放大器",
+        "扩音器"
+      ],
+      "examples": [
+        "He plugged his guitar into the amplifier.",
+        "The amplifier hummed softly before the show."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "放大器：把送进来的信号做得更强的那个器件",
+        "扩音器：同一个器件，专说它把声音弄得更大"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "analogue",
+      "word": "analogue",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈænəlɒɡ/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "ana-（依照）+ logue（logos 条理）→ 照着同一条理对得上的那一个",
+      "origin": "法语 analogue ← 希腊语 analogos（比例相当的）：ana-（依照）+ logos（条理、比例）",
+      "native_definition": "something that corresponds to another thing, or working by continuously varying signals",
+      "core_concept": "the one that answers to another by the same reasoning – 按同一条理与另一个对得上的那个",
+      "core_image": "另一台机器上有个零件，位置和形状都对得上，换过来照样能转",
+      "chinese": [
+        "类似物",
+        "对应物",
+        "模拟的"
+      ],
+      "examples": [
+        "The English analogue of this word is rare.",
+        "Old analogue recordings still sound warm to him."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "类似物：在别处找到的、与这件东西对得上的那一个",
+        "对应物：强调两边位置一一对上，可以互相顶替",
+        "模拟的：信号随着实物连续变动，不切成一格一格的数字"
+      ]
+    },
+    {
+      "id": "antenna",
+      "word": "antenna",
+      "pos": "noun",
+      "phonetic": "/ænˈtenə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 antenna（船上挂帆的横杆），更早词源不明；18 世纪学者借来指昆虫头上那对细杆",
+      "native_definition": "a thin feeler on an insect's head, or a metal rod for receiving signals",
+      "core_concept": "a thin rod put out to pick things up – 探出去接东西的一根细杆",
+      "core_image": "蚂蚁头上两根细丝一直在动，碰到东西就折一下；屋顶那根铁杆也朝天竖着",
+      "chinese": [
+        "触角",
+        "天线"
+      ],
+      "examples": [
+        "The beetle waved its antenna at the light.",
+        "We fixed a new antenna on the roof."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "触角：虫子头上探出去试探周围的那对细杆",
+        "天线：金属做的同一样细杆，探出去接收信号"
+      ],
+      "collocations": [
+        "antennae / antennas —— 虫子那对细杆多用 antennae，接收信号的那种用 antennas"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "appraisal",
+      "word": "appraisal",
+      "pos": "noun",
+      "phonetic": "/əˈpreɪzl/",
+      "decomposable": "root",
+      "root_ids": [
+        "pretium"
+      ],
+      "root_logic": "ap-（ad 朝）+ prais（pretium 价格）+ -al（名词后缀）→ 给一样东西定出它值多少",
+      "origin": "英语 appraise + -al；appraise ← 古法语 aprisier ← 晚期拉丁语 appretiare：ad-（朝）+ pretium（价格、价值）",
+      "native_definition": "a careful judgement of how good or how valuable something is",
+      "core_concept": "putting a figure on what a thing is worth – 给一样东西定出它值多少",
+      "core_image": "他绕着那辆旧车走了两圈，敲敲车门，翻开引擎盖，最后报出一个数",
+      "chinese": [
+        "评估",
+        "估价",
+        "考评"
+      ],
+      "examples": [
+        "The bank asked for an appraisal of the house.",
+        "Her annual appraisal takes place every March."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "评估：把一件事的好坏轻重掂量出来，给个说法",
+        "估价：掂量的结果直接落成钱数",
+        "考评：掂量的对象是人做出来的活儿，定期给个评断"
+      ]
+    },
+    {
+      "id": "automation",
+      "word": "automation",
+      "pos": "noun",
+      "phonetic": "/ˌɔːtəˈmeɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "1948 年英语造词，由 automatic 缩合加 -ion；automatic ← 希腊语 automatos（自己动的）：autos（自己）+ -matos（有意向的）",
+      "native_definition": "the use of machines to do work that people used to do",
+      "core_concept": "letting the machine act of its own accord – 让机器自己动起来干活",
+      "core_image": "车间里原来站十个人的那一排位置空着，传送带自己往前走，机械臂按点落下",
+      "chinese": [
+        "自动化"
+      ],
+      "examples": [
+        "Automation has changed the whole factory.",
+        "Many jobs were lost to automation last year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "aviation",
+      "word": "aviation",
+      "pos": "noun",
+      "phonetic": "/ˌeɪviˈeɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 aviation（1863 年造）← 拉丁语 avis（鸟）+ -ation：像鸟那样飞这回事",
+      "native_definition": "the designing, building and flying of aircraft",
+      "core_concept": "taking to the air the way a bird does – 像鸟那样飞这一整件事",
+      "core_image": "机库里几十人围着一架半开的机身，图纸摊在地上，翅膀还没装上去",
+      "chinese": [
+        "航空",
+        "航空业"
+      ],
+      "examples": [
+        "He spent forty years in civil aviation.",
+        "Aviation fuel prices rose again this month."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "航空：用飞行器在空中飞这件事本身",
+        "航空业：围着飞行器的制造与运营形成的那一行"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "basketball",
+      "word": "basketball",
+      "pos": "noun",
+      "phonetic": "/ˈbɑːskɪtbɔːl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 basket（古法语 basquet，更早词源不明）+ ball（← 原始日耳曼语 *balluz 圆物），1891 年 James Naismith 定下这项运动时命名",
+      "native_definition": "a game in which two teams throw a ball into a high round net",
+      "core_concept": "putting a ball into a raised basket – 把球投进高处那只筐",
+      "core_image": "十个人在木地板上跑来跑去，谁抢到球就往那个高处的铁圈里扔",
+      "chinese": [
+        "篮球",
+        "篮球运动"
+      ],
+      "examples": [
+        "They play basketball every Sunday morning.",
+        "He bought a new basketball for his son."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "篮球：这项运动用的那只球",
+        "篮球运动：把球投进高处筐里的那种比赛本身"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "beforehand",
+      "word": "beforehand",
+      "pos": "adverb",
+      "phonetic": "/bɪˈfɔːhænd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 before + hand；before ← 古英语 beforan：be（在）+ foran（前面）← 原始日耳曼语 *fura（前）",
+      "native_definition": "earlier than a particular event, in preparation for it",
+      "core_concept": "with the work already done ahead of the moment – 事情到跟前之前就先办好了",
+      "core_image": "客人还没到，桌上碗筷已经摆齐，汤在灶上温着",
+      "chinese": [
+        "事先",
+        "预先",
+        "提前"
+      ],
+      "examples": [
+        "Let me know beforehand if you cannot come.",
+        "Everything had been arranged two days beforehand."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "事先：在那件事发生之前的那段时间里",
+        "预先：偏说是有准备地提早做了",
+        "提前：把动作从原定时点往早挪"
+      ],
+      "collocations": [
+        "let sb know beforehand —— 事先通知某人，beforehand 只作副词，后面不接宾语",
+        "two days beforehand —— 提前两天，前面可加时间量"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "believe",
+      "word": "believe",
+      "pos": "verb",
+      "phonetic": "/bɪˈliːv/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 beleven ← 古英语 belȳfan / gelēfan ← 原始日耳曼语 *galaubjan（看重、当真）← 词根 *leubh-（爱、看重），与 love 同支",
+      "native_definition": "to accept that something is true, or to trust someone",
+      "core_concept": "holding a thing to be true because you hold it dear – 把一件事当真、当作可靠的",
+      "core_image": "他说完那件事，对面的人没追问，只点了点头就照着去办了",
+      "chinese": [
+        "相信",
+        "认为",
+        "信任"
+      ],
+      "examples": [
+        "I believe every word she told us.",
+        "Do you believe in second chances?"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "相信：把某事当作真的接下来",
+        "认为：语气放轻，只表个人的判断",
+        "信任：接的对象是人，把他当作靠得住的"
+      ],
+      "collocations": [
+        "believe in sb / sth —— 信任某人或相信其存在与价值，与 believe sth 分工",
+        "believe it or not —— 信不信由你，用来引出出人意料的事",
+        "I believe so —— 我想是的，用来替代重复整个从句"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "beside",
+      "word": "beside",
+      "pos": "preposition",
+      "phonetic": "/bɪˈsaɪd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 be sīdan（在旁边）：be（在）+ sīde（侧、边）← 原始日耳曼语 *sīdō（边）",
+      "native_definition": "next to someone or something",
+      "core_concept": "at the side of the thing named – 在所说那样东西的侧边",
+      "core_image": "两把椅子紧挨着摆，胳膊一伸就碰到对方的袖子",
+      "chinese": [
+        "在旁边",
+        "紧靠"
+      ],
+      "examples": [
+        "She sat beside me during the whole film.",
+        "A tall tree grows beside the old gate."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在旁边：位置就在某人某物的侧面，距离很近",
+        "紧靠：偏说两者之间几乎没有空隙，贴着"
+      ],
+      "collocations": [
+        "beside sb / sth —— 在某人某物旁边，强调侧面紧邻",
+        "beside the point —— 不相干、跑题，不是「在要点旁边」",
+        "besides sth —— 注意分工：beside 表在旁边，besides 表除此以外"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "allege",
+      "word": "allege",
+      "pos": "verb",
+      "phonetic": "/əˈledʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "lex-legis"
+      ],
+      "root_logic": "al-（ad 向着）+ leg（lex 法条、legare 依法举出）→ 向法庭举出一条说法，只是举出，未经证实",
+      "origin": "古法语 alleguer ← 拉丁语 allegare（ad- 向 + legare 依法举出、派遣），与 lex（法条）同支；英语词形另受古法语 eslegier（ex- + litigare 打官司）牵引，义则承 allegare",
+      "native_definition": "to state something as true or as a fact without giving proof",
+      "core_concept": "put forward a claim without proof – 举出一条未经证实的说法",
+      "core_image": "他把一页纸举过头顶，说上面写着凭据，却始终不肯递给旁边的人看",
+      "chinese": [
+        "声称",
+        "断言",
+        "指控"
+      ],
+      "examples": [
+        "The report alleges that officials took bribes.",
+        "She is alleged to have forged the receipts."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "声称：把一件事当成事实说出来，但不出示凭据",
+        "断言：语气笃定，不留余地，正误另说",
+        "指控：把这条说法对着某人举出，指他做过某事"
+      ],
+      "collocations": [
+        "allege that + 从句 —— 声称某事，后接完整从句，不接不定式",
+        "be alleged to do sth —— 据称做过某事，被动式比主动式常见",
+        "alleged sth —— 所谓的某事物，置于名词前表这一说法未经证实"
+      ]
+    },
+    {
+      "id": "appendix",
+      "word": "appendix",
+      "pos": "noun",
+      "phonetic": "/əˈpendɪks/",
+      "decomposable": "root",
+      "root_ids": [
+        "pend"
+      ],
+      "root_logic": "ap-（ad 向着）+ pend（pendere 悬挂）→ 挂在主体上的一小截，本体缺了它照样完整",
+      "origin": "拉丁语 appendix（附加物）← appendere（ad- 向 + pendere 悬挂）",
+      "native_definition": "an extra section at the end of a book, or the small tube attached to the intestine",
+      "core_concept": "a small part hung on the end of the main body – 挂在主体末端的一小截",
+      "core_image": "正文完了还剩十几页，全是表格和原始记录，翻不翻都不影响前面读懂",
+      "chinese": [
+        "附录",
+        "附件",
+        "盲肠"
+      ],
+      "examples": [
+        "The full data appear in the appendix.",
+        "His appendix burst and he needed surgery."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "附录：正文之后另附的材料，供查证而非必读",
+        "附件：不在主体之内、另外挂上的一份东西",
+        "盲肠：肠道上垂着的一小段细管，切掉不妨碍消化"
+      ]
+    },
+    {
+      "id": "agreeable",
+      "word": "agreeable",
+      "pos": "adjective",
+      "phonetic": "/əˈɡriːəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "grat"
+      ],
+      "root_logic": "a-（ad 向着）+ gree（拉丁 gratum 合意的东西）+ -able → 正合对方心意，因而对得上、答得下",
+      "origin": "古法语 agreable ← agreer（合心意）← 通俗拉丁语 *aggratare ← 拉丁语 gratus（受欢迎的、合意的）",
+      "native_definition": "pleasant, or willing to accept a suggestion",
+      "core_concept": "falling in with what pleases – 正落在合心意的那一边",
+      "core_image": "茶温刚好，座位靠窗不晒，对面的人提什么他都点头，一下午过得没一处别扭",
+      "chinese": [
+        "令人愉快的",
+        "宜人的",
+        "欣然同意的"
+      ],
+      "examples": [
+        "We spent an agreeable evening by the fire.",
+        "He was agreeable to the new plan."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "令人愉快的：与人相处让人舒服，不生摩擦",
+        "宜人的：环境温度气候恰好，待着不难受",
+        "欣然同意的：对方的提法正对上自己的意思，痛快答应"
+      ],
+      "collocations": [
+        "be agreeable to sth —— 乐于接受某项提议，介词固定 to",
+        "be agreeable to sb —— 对某人来说可以接受，主语多为方案而非人"
+      ]
+    },
+    {
+      "id": "allowance",
+      "word": "allowance",
+      "pos": "noun",
+      "phonetic": "/əˈlaʊəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "loc"
+      ],
+      "root_logic": "al-（ad 向着）+ low（拉丁 locare 安置、划归）+ -ance → 划到你名下的那一份",
+      "origin": "古法语 aloance ← aloer ← 拉丁语 allocare（ad- 向 + locare 安置、划归）；古法语另有同形的 aloer ← allaudare（ad- + laudare 称许），两支在中古英语里合并，「许可」一义出自后者",
+      "native_definition": "an amount of money or a quantity officially given or permitted",
+      "core_concept": "the share allocated to you – 划归到你名下的那一份",
+      "core_image": "每月一号账上多出一笔固定的数，合同上写明只能有这么多，超出的自己掏",
+      "chinese": [
+        "津贴",
+        "零用钱",
+        "限额",
+        "折让"
+      ],
+      "examples": [
+        "His travel allowance covers taxis and meals.",
+        "The children get a weekly allowance."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "津贴：单位按名目发下的一笔钱，用途有限定",
+        "零用钱：家里定期给的一小笔，随自己花",
+        "限额：规定内可有的数量，行李免费额就是这个",
+        "折让：结算时准许扣掉的一部分"
+      ],
+      "collocations": [
+        "make allowances for sth —— 把某情况考虑进去、予以体谅，固定用复数",
+        "an allowance of sth —— 某物的定量份额，of 后接数量或物"
+      ]
+    },
+    {
+      "id": "arrest",
+      "word": "arrest",
+      "pos": "verb / noun",
+      "phonetic": "/əˈrest/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "ar-（ad 向着）+ rest（拉丁 restare 停住，re- 回 + stare 站立）→ 让人当场站住不许再动",
+      "origin": "古法语 arester ← 通俗拉丁语 *arrestare ← 拉丁语 restare（停下不走，re- 回 + stare 站立）",
+      "native_definition": "to stop someone by legal authority and take them away, or to stop a process",
+      "core_concept": "made to stand still on the spot – 当场被按住不再动",
+      "core_image": "两个人一边一个按住他胳膊，手腕上一声轻响，他就再没往前迈出一步",
+      "chinese": [
+        "逮捕",
+        "拘留",
+        "阻止",
+        "中止"
+      ],
+      "examples": [
+        "Police arrested two men at the airport.",
+        "The drug arrests the growth of tumours."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "逮捕：执法者按住人并带走，凭的是法上的权",
+        "拘留：带走之后先关一段时间，未必已定罪",
+        "阻止：把正在走的过程按住，不让它继续",
+        "中止：势头本在往前，到此停下"
+      ],
+      "collocations": [
+        "under arrest —— 处于被拘押状态，固定不加冠词",
+        "arrest sb for sth —— 因某事逮捕某人，缘由用 for"
+      ]
+    },
+    {
+      "id": "amplify",
+      "word": "amplify",
+      "pos": "verb",
+      "phonetic": "/ˈæmplɪfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "ampli-（拉丁 amplus 宽大）+ -fy（facere 做）→ 做得更宽大：声音、力道、说法都能撑开",
+      "origin": "古法语 amplifier ← 拉丁语 amplificare（amplus 宽大 + facere 做）",
+      "native_definition": "to make something louder, stronger, or more detailed",
+      "core_concept": "made wider and stronger – 做得更宽、更足",
+      "core_image": "旋钮往右一转，原先听不清的呼吸声变得满屋都是，连纸页翻动都清清楚楚",
+      "chinese": [
+        "放大",
+        "增强",
+        "详述"
+      ],
+      "examples": [
+        "The speakers amplify her voice across the field.",
+        "Please amplify that point in your report."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "放大：把信号或声音的量做大，听得见看得清",
+        "增强：使效果或影响更有力，不限于声音",
+        "详述：把话说得更展开，补足细节"
+      ],
+      "collocations": [
+        "amplify on sth —— 就某点进一步展开说明，介词固定 on"
+      ]
+    },
+    {
+      "id": "benefit",
+      "word": "benefit",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbenɪfɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "bene（好）+ fit（facere 做）→ 做下的一件好事，落到谁手上就成了谁的所得",
+      "origin": "古法语 bienfet ← 拉丁语 benefactum（做下的好事）← bene（好）+ facere（做）",
+      "native_definition": "an advantage gained from something, or to gain such an advantage",
+      "core_concept": "a good thing done that lands in your hands – 做下的好事落到自己手里",
+      "core_image": "换了新路线以后，他每天早上多睡二十分钟，车费也比原先省下一半",
+      "chinese": [
+        "好处",
+        "益处",
+        "福利",
+        "受益"
+      ],
+      "examples": [
+        "Both sides gained real benefit from the deal.",
+        "Small farms benefit most from the subsidy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "好处：实实在在得到的便利，能算得出",
+        "益处：对身体或长远有帮助，未必立刻见效",
+        "福利：单位或政府按制度给的待遇",
+        "受益：作动词时指自己成了得好处的一方"
+      ],
+      "collocations": [
+        "benefit from sth —— 从某事中得益，介词固定 from，也可用 by",
+        "be of benefit to sb —— 对某人有益，名词式，比 benefit sb 正式",
+        "for the benefit of sb —— 为了某人的利益，多用于书面"
+      ]
+    },
+    {
+      "id": "actress",
+      "word": "actress",
+      "pos": "noun",
+      "phonetic": "/ˈæktrəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "act（拉丁 agere 驱动、做，过去分词 actus）+ -ress（表女性）→ 在台上做出一个人来的女子",
+      "origin": "英语 actor 加表女性的后缀 -ress 构成，actor ← 拉丁语 actor（做事的人）← agere（驱动、做）",
+      "native_definition": "a woman who performs a part in a play or film",
+      "core_concept": "a woman who acts out a part – 把一个角色做出来的女子",
+      "core_image": "她在台上抖着声念别人的词，散场后擦掉脸上的油彩，又是原来那个人",
+      "chinese": [
+        "女演员"
+      ],
+      "examples": [
+        "The actress won an award for that role.",
+        "Three actresses tried out for the part."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "appliance",
+      "word": "appliance",
+      "pos": "noun",
+      "phonetic": "/əˈplaɪəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "ap-（ad 向着）+ pli（plicare 折叠、贴合）+ -ance → 贴到活儿上去派用场的那件东西",
+      "origin": "英语 apply 加后缀 -ance 构成，apply ← 古法语 aplier ← 拉丁语 applicare（ad- 贴上 + plicare 折叠）",
+      "native_definition": "a machine or device made to do a particular job in the home",
+      "core_concept": "a thing put to a job – 贴到活儿上去用的那件东西",
+      "core_image": "台面上一排插着电的东西，每样只干一件事，烤的只管烤，搅的只管搅",
+      "chinese": [
+        "器具",
+        "家用电器",
+        "装置"
+      ],
+      "examples": [
+        "The kitchen came with all the appliances.",
+        "This appliance must be earthed properly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "器具：为某一件活儿做出来的用具",
+        "家用电器：家里插电用的成套机器",
+        "装置：装上去起某个作用的一套东西"
+      ]
+    },
+    {
+      "id": "audio",
+      "word": "audio",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈɔːdiəʊ/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "audi（audire 听）→ 拉丁语第一人称「我听」，二十世纪初拿来指信号里管耳朵那一路，与管眼睛的 video 相对",
+      "origin": "拉丁语 audio（我听）← audire（听），二十世纪初进入英语作构词成分",
+      "native_definition": "relating to sound that is recorded or transmitted",
+      "core_concept": "the hearing side of a signal – 信号里走耳朵那一路",
+      "core_image": "画面那一格黑着，进度条还在走，说话人的声气一句不落地传出来",
+      "chinese": [
+        "音频的",
+        "声音的",
+        "声音部分"
+      ],
+      "examples": [
+        "The audio on this recording is very clear.",
+        "Check the audio before the lecture starts."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "音频的：与录下或传出的声响有关的",
+        "声音的：设备上专管声响的那一路",
+        "声音部分：一段影像里单独拆出的听觉内容"
+      ]
+    },
+    {
+      "id": "available",
+      "word": "available",
+      "pos": "adjective",
+      "phonetic": "/əˈveɪləbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "valere"
+      ],
+      "root_logic": "a-（ad 向着）+ vail（valere 有力、值）+ -able（可…的）→ 还值当、还使得上，因而拿得到手",
+      "origin": "英语 avail 加后缀 -able 构成，avail ← 古法语 vail-（valoir 值）← 拉丁语 valere（有力、有价值）",
+      "native_definition": "able to be got, used, or seen, or free to meet someone",
+      "core_concept": "there and still good to use – 在手边而且还使得上",
+      "core_image": "售票窗口的灯还亮着，前面没人排队，里头的人抬头看了他一眼",
+      "chinese": [
+        "可用的",
+        "可得到的",
+        "有空的"
+      ],
+      "examples": [
+        "Tickets are still available at the door.",
+        "The doctor is not available until Monday."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "可用的：就在手边，随时能派上用场",
+        "可得到的：按正常途径能拿到，不必特批",
+        "有空的：人腾出了时间，能接待或参加"
+      ],
+      "collocations": [
+        "be available to sb —— 可供某人使用或取得，介词用 to",
+        "be available for sth —— 可用于某场合或某目的，介词用 for"
+      ]
+    },
+    {
+      "id": "abundance",
+      "word": "abundance",
+      "pos": "noun",
+      "phonetic": "/əˈbʌndəns/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 abundance ← 拉丁语 abundantia ← abundare（漫出来，ab- 自…而出 + undare 起浪 ← unda 波浪）",
+      "native_definition": "a very large quantity of something, more than enough",
+      "core_concept": "more than the container can hold – 多到盛不住而漫出来",
+      "core_image": "筐里的桃子堆到边沿还往下滚，摊主又倒进一簸箕，脚边散了一地",
+      "chinese": [
+        "丰富",
+        "大量",
+        "充裕"
+      ],
+      "examples": [
+        "The region has an abundance of clean water.",
+        "Wild flowers grow here in abundance."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "丰富：品类多、分量足，不显紧张",
+        "大量：单论数目就远超所需",
+        "充裕：供得上还有余，用着宽松"
+      ],
+      "collocations": [
+        "in abundance —— 大量地，作状语后置于动词之后"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "academy",
+      "word": "academy",
+      "pos": "noun",
+      "phonetic": "/əˈkædəmi/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 academie ← 拉丁语 academia ← 希腊语 Akademeia：雅典城外的一片林苑，得名于英雄 Akademos，柏拉图在此讲学",
+      "native_definition": "a school for special training, or a society of scholars and artists",
+      "core_concept": "a grove set aside for learning – 专划出来做学问的一处地方",
+      "core_image": "城外一片树林里摆着石凳，年轻人围坐着，老人讲一上午，讲完各自散去",
+      "chinese": [
+        "学院",
+        "研究院",
+        "学会"
+      ],
+      "examples": [
+        "She trained at a naval academy for four years.",
+        "The academy elected him last spring."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "学院：专教某一门本事的学校",
+        "研究院：专做研究的机构",
+        "学会：同行学者结成的团体"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "accumulate",
+      "word": "accumulate",
+      "pos": "verb",
+      "phonetic": "/əˈkjuːmjəleɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 accumulatus（accumulare 的过去分词）← ad-（向着）+ cumulare（堆起）← cumulus（土堆）",
+      "native_definition": "to gather more and more of something over a period of time",
+      "core_concept": "one layer heaped on the last – 一层压一层地堆上去",
+      "core_image": "窗台拐角半年没擦，灰一层压一层，指头一划就现出一道深色的沟",
+      "chinese": [
+        "积累",
+        "积聚",
+        "堆积"
+      ],
+      "examples": [
+        "He accumulated a large debt over two years.",
+        "Dust accumulates behind the radiator."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "积累：一点一点添上去，日子越久越多",
+        "积聚：分散的东西慢慢汇到一处",
+        "堆积：实物摞在一处，占着地方"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "additional",
+      "word": "additional",
+      "pos": "adjective",
+      "phonetic": "/əˈdɪʃənl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 additionalis ← 拉丁语 additio（添进去）← addere（添上，ad- 向着 + -dere 置入）",
+      "native_definition": "extra, beyond what was already there or planned",
+      "core_concept": "one more put onto what is there – 在原有的之上再添一份",
+      "core_image": "六把椅子已经围满了，服务员又从墙边搬来两把塞进缝里，人才坐得下",
+      "chinese": [
+        "额外的",
+        "附加的"
+      ],
+      "examples": [
+        "We need two additional chairs for the table.",
+        "There is no additional charge for delivery."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "额外的：超出原定数目之外又添的",
+        "附加的：本不在主体里，另外挂上的一项"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "aluminum",
+      "word": "aluminum",
+      "pos": "noun",
+      "phonetic": "/əˈluːmɪnəm/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 alumen（明矾）→ alumina（矾土），Davy 1808 年造 alumium，1812 年改作 aluminum，英国后定名 aluminium",
+      "native_definition": "a light silver-white metal that does not rust",
+      "core_concept": "a light metal that keeps its shine – 又轻又不生锈的一种金属",
+      "core_image": "一只锅拎起来轻得不像话，敲一下声音发闷，搁了几年也不见一处锈斑",
+      "chinese": [
+        "铝"
+      ],
+      "examples": [
+        "The frame is made of aluminum tubing.",
+        "Aluminum cans are easy to recycle."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "applaud",
+      "word": "applaud",
+      "pos": "verb",
+      "phonetic": "/əˈplɔːd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 applaudere（ad- 向着 + plaudere 拍打、击掌）",
+      "native_definition": "to clap your hands to show approval, or to praise something publicly",
+      "core_concept": "hands struck together toward someone – 冲着人把两只手拍在一起",
+      "core_image": "最后一个音落下，满屋巴掌拍得响成一片，前排几个人站了起来",
+      "chinese": [
+        "鼓掌",
+        "喝彩",
+        "称赞"
+      ],
+      "examples": [
+        "The audience applauded for a full minute.",
+        "Critics applauded her decision to resign."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "鼓掌：两手相拍，不出声也算",
+        "喝彩：一边拍一边出声叫好",
+        "称赞：公开表示赞许，不必真拍手"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "assimilate",
+      "word": "assimilate",
+      "pos": "verb",
+      "phonetic": "/əˈsɪmɪleɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 assimilatus（assimilare/assimulare 的过去分词）← ad-（向着）+ similis（相像）",
+      "native_definition": "to take something in completely, or to become like the people around you",
+      "core_concept": "made like what surrounds it – 变得和周围的一样",
+      "core_image": "新来的孩子头一天贴着墙站，一个月后口音和玩法跟同学分不出来",
+      "chinese": [
+        "同化",
+        "吸收",
+        "融入"
+      ],
+      "examples": [
+        "Children assimilate new words very fast.",
+        "Immigrants gradually assimilated into local life."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同化：把外来的一方变成和自己一样",
+        "吸收：把外面的东西完全收进来变成自己的",
+        "融入：自己变得与周围无从分辨"
+      ],
+      "collocations": [
+        "assimilate into sth —— 融入某个群体，介词固定 into"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "astronomy",
+      "word": "astronomy",
+      "pos": "noun",
+      "phonetic": "/əˈstrɒnəmi/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 astronomie ← 拉丁语 astronomia ← 希腊语 astron（星）+ nomos（法则）：星体运行所循的规矩",
+      "native_definition": "the scientific study of the stars, planets, and space",
+      "core_concept": "the rules the stars move by – 星体运行所循的规矩",
+      "core_image": "凌晨三点守在镜筒后头，记下那个亮点每夜挪开的角度，一年记满一本",
+      "chinese": [
+        "天文学"
+      ],
+      "examples": [
+        "He studied astronomy at a small college.",
+        "Modern astronomy relies on huge telescopes."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "automatic",
+      "word": "automatic",
+      "pos": "adjective",
+      "phonetic": "/ˌɔːtəˈmætɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 automatos（自行动作的）← autos（自己）+ -matos（与 menos 心意、动念同支），英语加 -ic 构成",
+      "native_definition": "working by itself without a person operating it, or happening as a certain result",
+      "core_concept": "moving of its own accord – 自己就动起来，不用人推",
+      "core_image": "门看见有人走近就自己滑开，人过去了又合上，一整天没谁伸手推过",
+      "chinese": [
+        "自动的",
+        "无意识的",
+        "必然的"
+      ],
+      "examples": [
+        "The gate is automatic and opens at dusk.",
+        "His reaction was almost automatic."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "自动的：机器自行运转，无须人操作",
+        "无意识的：反应快到来不及想，身体自己做了",
+        "必然的：条件一满足就随之而来，不另作决定"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "about",
+      "word": "about",
+      "pos": "preposition / adverb",
+      "phonetic": "/əˈbaʊt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 aboute ← 古英语 onbūtan（on 在 + be 靠 + ūtan 外面）：绕着外圈",
+      "native_definition": "on the subject of something, or approximately, or in many directions",
+      "core_concept": "circling round the outside of something – 绕着一样东西的外圈",
+      "core_image": "一群人围着桌上那张图站成一圈，手指头都点在同一块地方",
+      "chinese": [
+        "关于",
+        "大约",
+        "到处"
+      ],
+      "examples": [
+        "We talked about the plan for an hour.",
+        "There were about fifty people inside."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "关于：话头绕着某件事转，那件事就是内容",
+        "大约：数目在那个数附近打转，不落实",
+        "到处：在四周各处，没有定向"
+      ],
+      "collocations": [
+        "be about to do sth —— 即将做某事，指眼前马上就要发生",
+        "what/how about doing sth —— 提议或征询意见，后接动名词",
+        "be about sth —— 内容是关于某事，主语多为书、片、话"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "afford",
+      "word": "afford",
+      "pos": "verb",
+      "phonetic": "/əˈfɔːd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 geforðian（推向前、办成，ge- 完成 + forðian ← forð 向前），十六世纪拼作 af-，因当时误以为它含拉丁 ad-",
+      "native_definition": "to have enough money or ability for something",
+      "core_concept": "having enough to carry it – 手里够得上这笔担子",
+      "core_image": "他把标价看了三遍，又算了算这月剩下的数，最后把东西放回架子",
+      "chinese": [
+        "买得起",
+        "负担得起",
+        "提供"
+      ],
+      "examples": [
+        "We cannot afford a new car this year.",
+        "The hill affords a fine view of the bay."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "买得起：钱数够，付得出这个价",
+        "负担得起：时间精力或代价担得下来",
+        "提供：把条件或机会拿得出来给人"
+      ],
+      "collocations": [
+        "afford sth —— 负担得起某物，后接名词",
+        "can/could afford to do sth —— 有条件做某事，接不定式而非动名词"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "afternoon",
+      "word": "afternoon",
+      "pos": "noun",
+      "phonetic": "/ˌɑːftəˈnuːn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语复合词 after + noon：after ← 古英语 æfter（在…之后），noon ← 古英语 nōn（正午），nōn 本身借自拉丁语 nona hora（第九个钟点）",
+      "native_definition": "the part of the day between midday and evening",
+      "core_concept": "the stretch of daylight past midday – 正午之后那一段白天",
+      "core_image": "日头过了顶往西斜，阳光横着照进屋，桌腿的影子一寸寸拉长，人开始发困",
+      "chinese": [
+        "下午"
+      ],
+      "examples": [
+        "She sleeps for an hour every afternoon.",
+        "The meeting ran late into the afternoon."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "collocations": [
+        "in the afternoon —— 在下午，泛指时段用 in",
+        "on + 星期 + afternoon —— 指明哪一天的下午时改用 on"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "against",
+      "word": "against",
+      "pos": "preposition",
+      "phonetic": "/əˈɡenst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 agenes（again 加副词性属格 -es）← 古英语 ongegn（on 在 + gegn 正对面），词尾 -t 后来仿 amongst、whilst 加上",
+      "native_definition": "in opposition to something, or touching and pressing on something",
+      "core_concept": "facing straight into something – 正对着一样东西顶上去",
+      "core_image": "风迎面吹来，他身子前倾，压低帽檐，一步一步顶着往前走",
+      "chinese": [
+        "反对",
+        "靠着",
+        "逆着"
+      ],
+      "examples": [
+        "Most members voted against the new rule.",
+        "He leaned his bike against the wall."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "反对：立场正对着对方，不同意",
+        "靠着：身体或物件抵在某个面上",
+        "逆着：与风向水流的来势相对而行"
+      ],
+      "collocations": [
+        "be against sth/doing sth —— 反对某事，接名词或动名词",
+        "lean sth against sth —— 把某物靠在某处，指抵触面",
+        "against the law —— 违法，固定搭配不加冠词"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "alongside",
+      "word": "alongside",
+      "pos": "preposition / adverb",
+      "phonetic": "/əˌlɒŋˈsaɪd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 along + side：along ← 古英语 andlang（and- 正对着 + lang 长），side ← 古英语 sīde（侧面）",
+      "native_definition": "next to and parallel with something, or working together with someone",
+      "core_concept": "lying flush along the side – 长边贴着长边",
+      "core_image": "小船靠上码头，船身和木板边沿贴得齐平，前后都没探出去",
+      "chinese": [
+        "在旁边",
+        "并排",
+        "共同"
+      ],
+      "examples": [
+        "The boat lay alongside the stone quay.",
+        "She worked alongside three other nurses."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在旁边：紧挨着，位置贴边",
+        "并排：两者朝向一致地齐平摆着",
+        "共同：与人肩并肩做同一件事"
+      ],
+      "collocations": [
+        "alongside sth —— 紧靠某物，后直接接名词，不加 of",
+        "work alongside sb —— 与某人共事，强调地位相当"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "another",
+      "word": "another",
+      "pos": "adjective / pronoun",
+      "phonetic": "/əˈnʌðə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语把 an other 连写而成：an（一个）+ other ← 古英语 ōþer（第二个、别的）← 原始日耳曼语 *antharaz",
+      "native_definition": "one more of the same kind, or a different one",
+      "core_concept": "one more, or one other – 同类里再来一个，或换成别的一个",
+      "core_image": "杯子空了，他往桌沿一推，服务员又端来一只一样的搁在原处",
+      "chinese": [
+        "另一个",
+        "再一个",
+        "别的"
+      ],
+      "examples": [
+        "She poured another cup of tea for him.",
+        "That is another matter altogether."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "另一个：同类中并列的第二个",
+        "再一个：数目上又添一个，样式照旧",
+        "别的：性质不同的另一样，不在同一类里"
+      ],
+      "collocations": [
+        "another + 数词 + 复数名词 —— 再…个，如 another two weeks",
+        "one after another —— 一个接一个，指依次不断",
+        "one another —— 彼此，三人以上互相时多用它"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "badminton",
+      "word": "badminton",
+      "pos": "noun",
+      "phonetic": "/ˈbædmɪntən/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "得名于英格兰 Gloucestershire 的 Badminton House（庄园名，源自古英语地名 Badimincgtun：Baduhelm 一族的庄地），1870 年代宾客在此打此球戏",
+      "native_definition": "a game in which players hit a light shuttlecock over a net",
+      "core_concept": "a feathered cork knocked over a net – 插羽毛的软木被拍过网",
+      "core_image": "插着羽毛的软木过网就慢下来，忽然往下坠，接的人拍子探到脚边才够着",
+      "chinese": [
+        "羽毛球"
+      ],
+      "examples": [
+        "They play badminton in the school hall.",
+        "He bought a new badminton racket."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "before",
+      "word": "before",
+      "pos": "preposition / conjunction / adverb",
+      "phonetic": "/bɪˈfɔː/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 beforan（be 在 + foran 前面 ← fore 前）",
+      "native_definition": "earlier than something, or in front of something",
+      "core_concept": "earlier in the line – 在次序上排在前头",
+      "core_image": "名单上他的名字排在那人上头，会还没开他就先进了屋，坐在最靠门的位子",
+      "chinese": [
+        "在…以前",
+        "在…前面",
+        "以前"
+      ],
+      "examples": [
+        "Finish the report before Friday morning.",
+        "He stood before the whole class."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在…以前：时间上排在某事之先",
+        "在…前面：位置上处于某物的正前方",
+        "以前：作副词时指从前，不带宾语"
+      ],
+      "collocations": [
+        "before doing sth —— 在做某事之前，接动名词",
+        "it was not long before... —— 不久就…，从句用过去时",
+        "before long —— 不久以后，作时间状语"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "beginning",
+      "word": "beginning",
+      "pos": "noun",
+      "phonetic": "/bɪˈɡɪnɪŋ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 begin 加 -ing 构成，begin ← 古英语 beginnan（be- 加强 + ginnan 着手）",
+      "native_definition": "the first part or the starting point of something",
+      "core_concept": "the point a thing starts from – 一样东西起头的那一点",
+      "core_image": "书翻开第一页只有一句话，后面三百页全是从这句话生出来的",
+      "chinese": [
+        "开始",
+        "开端",
+        "起初"
+      ],
+      "examples": [
+        "The beginning of the film is very slow.",
+        "From the beginning she knew the risk."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "开始：事情动起来的那一刻",
+        "开端：整段过程最前面的一截，后面由它生出",
+        "起初：回头看时最早的那一段时间"
+      ],
+      "collocations": [
+        "at the beginning of sth —— 在某事的开头，指时间或位置",
+        "from the beginning —— 从一开始，强调自最初起",
+        "in the beginning —— 起初、当初，与后来相对，后不接 of"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "below",
+      "word": "below",
+      "pos": "preposition / adverb",
+      "phonetic": "/bɪˈləʊ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bilooghe（bi 靠 + lowe 低处 ← 古诺斯语 lágr 低）",
+      "native_definition": "at or to a lower level than something",
+      "core_concept": "at a lower level than the thing named – 比所说的那样东西位置更低",
+      "core_image": "水线离甲板还有一尺，从栏杆往下探头，桨叶一半浸在暗处",
+      "chinese": [
+        "在…下面",
+        "低于",
+        "在下文"
+      ],
+      "examples": [
+        "The village lies below the old castle.",
+        "Temperatures fell below zero last night."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在…下面：位置处在某物之下",
+        "低于：数值不到某个界",
+        "在下文：文件里指后面的段落，与上文相对"
+      ],
+      "collocations": [
+        "below zero —— 零度以下，说温度时的固定说法",
+        "see below —— 见下文，文件里指向后面的内容",
+        "below average —— 低于平均水平，与 above average 相对"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "better",
+      "word": "better",
+      "pos": "adjective / adverb",
+      "phonetic": "/ˈbetə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 betera（good 的比较级）← 原始日耳曼语 *batizō ← *bat-（好、有益）",
+      "native_definition": "of higher quality than something else, or in an improved state",
+      "core_concept": "standing higher than the one compared – 比拿来比的那个高出一截",
+      "core_image": "两碗面并排放着，右边那碗汤更清、浇头压得更满，他伸手端了右边的",
+      "chinese": [
+        "更好的",
+        "更好地",
+        "好转的"
+      ],
+      "examples": [
+        "This road is better than the old one.",
+        "She felt better after taking the pills."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "更好的：两者相比质量占上",
+        "更好地：作副词时指做得更到位",
+        "好转的：身体或局面比先前有起色"
+      ],
+      "collocations": [
+        "had better do sth —— 最好做某事，后接动词原形不带 to",
+        "be better off doing sth —— 做某事境况会更好",
+        "know better than to do sth —— 明理而不至于做某事"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     }
   ]
 }

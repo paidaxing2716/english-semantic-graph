@@ -118,10 +118,23 @@ def classify_note(origin):
             if re.search(r"←[^←]{0,14}" + k, o):
                 return NOTE_EARLY_LOAN
         return NOTE_DEFAULT
-    for k, note in NOTE_BORROWED.items():
-        if k in o:
+    # 取**最后一个 ← 之后**那一跳的语言。三次才改对，记下来：
+    #   ① 按字典键序取第一个命中 → 「中世纪拉丁语 X ← 阿拉伯语 Y」判成拉丁（错）
+    #   ② 改取全文最右的命中 → 同一条 origin 末尾又写「英语按拉丁式加 -ate」，
+    #      「拉丁」位置反而更右，还是判成拉丁（错）
+    #   ③ 只看最后一个箭头之后的那一段 —— 那才是词源链的终点
+    # 由 chunk90 的子代理指出 assassinate 这一例。
+    def earliest(seg):
+        """取该段里位置最靠前的语言名——紧跟箭头的那个才是来源。
+        尾段常在末尾又提一次别的语言（assassinate 那条写「英语按拉丁式加 -ate」），
+        按字典键序取会让「拉丁」压过「阿拉伯」，所以必须按出现位置取。"""
+        h = [(seg.index(k), k) for k in NOTE_BORROWED if k in seg]
+        return NOTE_BORROWED[min(h)[1]] if h else None
+    if "←" in o:
+        note = earliest(o.rsplit("←", 1)[-1])
+        if note:
             return note
-    return NOTE_DEFAULT
+    return earliest(o) or NOTE_DEFAULT
 
 
 def split_on(s, sep):

@@ -362,7 +362,8 @@
         "status",
         "statute",
         "superstition",
-        "distant"
+        "distant",
+        "arrest"
       ]
     },
     {
@@ -459,7 +460,9 @@
         "facility",
         "difficult",
         "difficulty",
-        "artificial"
+        "artificial",
+        "amplify",
+        "benefit"
       ]
     },
     {
@@ -527,7 +530,8 @@
         "necessity",
         "succeed",
         "accessory",
-        "cease"
+        "cease",
+        "ancestor"
       ]
     },
     {
@@ -577,7 +581,8 @@
         "pendulum",
         "pension",
         "ponder",
-        "spend"
+        "spend",
+        "appendix"
       ]
     },
     {
@@ -661,7 +666,8 @@
         "ambiguous",
         "activity",
         "agenda",
-        "ambassador"
+        "ambassador",
+        "actress"
       ]
     },
     {
@@ -996,7 +1002,8 @@
         "duplicate",
         "employment",
         "unemployment",
-        "complex"
+        "complex",
+        "appliance"
       ]
     },
     {
@@ -1014,7 +1021,8 @@
         "locate",
         "location",
         "couch",
-        "locomotive"
+        "locomotive",
+        "allowance"
       ]
     },
     {
@@ -1676,14 +1684,16 @@
         "grat"
       ],
       "word_ids": [
+        "agree",
+        "congratulate",
+        "congratulation",
         "disgrace",
         "grace",
         "graceful",
         "gracious",
         "grateful",
-        "congratulate",
-        "congratulation",
-        "gratitude"
+        "gratitude",
+        "agreeable"
       ]
     },
     {
@@ -1699,7 +1709,8 @@
         "precious",
         "price",
         "praise",
-        "prize"
+        "prize",
+        "appraisal"
       ]
     },
     {
@@ -1733,7 +1744,8 @@
       "word_ids": [
         "insult",
         "result",
-        "resultant"
+        "resultant",
+        "assault"
       ]
     },
     {
@@ -2804,7 +2816,8 @@
         "obey",
         "audience",
         "audit",
-        "auditorium"
+        "auditorium",
+        "audio"
       ]
     },
     {
@@ -2818,7 +2831,8 @@
       "word_ids": [
         "prevalent",
         "avail",
-        "prevail"
+        "prevail",
+        "available"
       ]
     },
     {
@@ -3138,7 +3152,8 @@
         "legitimate",
         "loyal",
         "loyalty",
-        "privilege"
+        "privilege",
+        "allege"
       ]
     },
     {
@@ -3325,7 +3340,9 @@
         "apologise",
         "apology",
         "biology",
-        "dialect"
+        "dialect",
+        "analogy",
+        "analogue"
       ]
     },
     {
@@ -4321,7 +4338,8 @@
         "ignore",
         "noble",
         "ignorance",
-        "cognitive"
+        "cognitive",
+        "acquaintance"
       ]
     },
     {

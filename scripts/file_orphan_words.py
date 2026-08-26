@@ -86,6 +86,15 @@ def main():
             by_lemma[lms[0][0]].append(w)
 
     # 词元族凑不到 3 个成员的，按项目规则不值得开根 → 归日耳曼批
+    #
+    # 【这个判据有个致命漏洞，务必看懂】它问的是「该词元族在**未入库**的考研词里
+    # 够不够 3 个」，而真正该问的是「库中是否已有能收它的根」。P.match() 没连上
+    # restare→sta、allocare→loc、amplificare→fac，我就把 arrest/allowance/amplify
+    # 判成「族不足、按孤立词条写」——而 sta 有 43 个成员、fac 有 32 个。
+    # 实测第八十八批 31 词里 9 个被这样误判（29% 假阴性），由 chunk89 的子代理纠正。
+    # P.match() 不只是 45% 假阳性，召回也差。所以：
+    #   → germ 档只是「匹配器没找到根」，不等于「该写成孤立词条」
+    #   → 派发指令必须写明这一点，让代理自己再查一遍库
     for lm, ws in by_lemma.items():
         if len(ws) >= 3:
             for w in ws:

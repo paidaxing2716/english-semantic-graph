@@ -11598,6 +11598,114 @@
       "to": "epidemic",
       "type": "root",
       "note": "epi-（落在上头）+ dem（demos 民众）→ 落到一方百姓身上并铺开的那场病"
+    },
+    {
+      "from": "ced",
+      "to": "ancestor",
+      "type": "root",
+      "note": "an-（ante 在前）+ cest（cedere 行走）+ -or（人）→ 走在前头的那个人"
+    },
+    {
+      "from": "salire",
+      "to": "assault",
+      "type": "root",
+      "note": "as-（ad 朝）+ sault（salire 跳）→ 朝人身上猛跳过去"
+    },
+    {
+      "from": "gnoscere",
+      "to": "acquaintance",
+      "type": "root",
+      "note": "ac-（ad 向）+ quaint（cognoscere 认得出）+ -ance（名词后缀）→ 已经认得出这个人的那层关"
+    },
+    {
+      "from": "logos",
+      "to": "analogy",
+      "type": "root",
+      "note": "ana-（依照）+ logy（logos 条理、比例）→ 两件事照着同一条理来对"
+    },
+    {
+      "from": "logos",
+      "to": "analogue",
+      "type": "root",
+      "note": "ana-（依照）+ logue（logos 条理）→ 照着同一条理对得上的那一个"
+    },
+    {
+      "from": "pretium",
+      "to": "appraisal",
+      "type": "root",
+      "note": "ap-（ad 朝）+ prais（pretium 价格）+ -al（名词后缀）→ 给一样东西定出它值多少"
+    },
+    {
+      "from": "grat",
+      "to": "agree",
+      "type": "root",
+      "note": "a-（ad- 朝）+ gree（← gratum 合心意）→ 说到对方心意上去，两边就对上了 → 同意"
+    },
+    {
+      "from": "lex-legis",
+      "to": "allege",
+      "type": "root",
+      "note": "al-（ad 向着）+ leg（lex 法条、legare 依法举出）→ 向法庭举出一条说法，只是举出，未经证实"
+    },
+    {
+      "from": "pend",
+      "to": "appendix",
+      "type": "root",
+      "note": "ap-（ad 向着）+ pend（pendere 悬挂）→ 挂在主体上的一小截，本体缺了它照样完整"
+    },
+    {
+      "from": "grat",
+      "to": "agreeable",
+      "type": "root",
+      "note": "a-（ad 向着）+ gree（拉丁 gratum 合意的东西）+ -able → 正合对方心意，因而对得上、答得下"
+    },
+    {
+      "from": "loc",
+      "to": "allowance",
+      "type": "root",
+      "note": "al-（ad 向着）+ low（拉丁 locare 安置、划归）+ -ance → 划到你名下的那一份"
+    },
+    {
+      "from": "sta",
+      "to": "arrest",
+      "type": "root",
+      "note": "ar-（ad 向着）+ rest（拉丁 restare 停住，re- 回 + stare 站立）→ 让人当场站住不许再动"
+    },
+    {
+      "from": "fac",
+      "to": "amplify",
+      "type": "root",
+      "note": "ampli-（拉丁 amplus 宽大）+ -fy（facere 做）→ 做得更宽大：声音、力道、说法都能撑开"
+    },
+    {
+      "from": "fac",
+      "to": "benefit",
+      "type": "root",
+      "note": "bene（好）+ fit（facere 做）→ 做下的一件好事，落到谁手上就成了谁的所得"
+    },
+    {
+      "from": "ag",
+      "to": "actress",
+      "type": "root",
+      "note": "act（拉丁 agere 驱动、做，过去分词 actus）+ -ress（表女性）→ 在台上做出一个人来的女子"
+    },
+    {
+      "from": "plic",
+      "to": "appliance",
+      "type": "root",
+      "note": "ap-（ad 向着）+ pli（plicare 折叠、贴合）+ -ance → 贴到活儿上去派用场的那件东西"
+    },
+    {
+      "from": "audire",
+      "to": "audio",
+      "type": "root",
+      "note": "audi（audire 听）→ 拉丁语第一人称「我听」，二十世纪初拿来指信号里管耳朵那一路，与管眼睛的 video 相对"
+    },
+    {
+      "from": "valere",
+      "to": "available",
+      "type": "root",
+      "note": "a-（ad 向着）+ vail（valere 有力、值）+ -able（可…的）→ 还值当、还使得上，因而拿得到手"
     }
   ]
 }

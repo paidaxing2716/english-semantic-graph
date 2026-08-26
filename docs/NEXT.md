@@ -116,6 +116,17 @@ tendere/tener  cors/chorda       humor(umor)/humus   portus/portio   minium/minu
 两个源共享拼写驱动的失败模式，会同时错。这类清单是**「值得派」而非「可免检」**。
 21 组已沉淀进 `scripts/audit_trap_pairs.py`，但它误报率约 10%，只作线索不作判据。
 
+### 2b. 匹配器的假阴性同样危险（29%）
+
+单源匹配的 45% 假阳性已记在上面。但它**召回也差**：第八十八批 31 词里有 9 个
+（29%）被判成「族凑不到 3 员、按孤立词条写」，实际库中早有能收它们的根——
+arrest→sta（43 员）、amplify/benefit→fac（32 员）、allowance→loc、actress→ag、
+appliance→plic、audio→audire、available→valere、agreeable→grat。
+
+根因：判据问的是「该词元族在**未入库**考研词里够不够 3 个」，真正该问的是
+**「库中是否已有能收它的根」**。派发这类清单时必须在指令里写明「档位只表示
+匹配器没找到根，不等于该写成孤立词条，你自己再查一遍库」。
+
 ### 3. 「15 列」这个错位特征已失效
 
 以前 W 行 15 列 = `|` 被打成制表符（本会话发生三次：universal、promote、
