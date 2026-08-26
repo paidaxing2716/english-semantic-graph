@@ -2827,7 +2827,9 @@
       ],
       "word_ids": [
         "humor",
-        "humorous"
+        "humorous",
+        "humid",
+        "humidity"
       ]
     },
     {
@@ -4829,6 +4831,20 @@
         "alter",
         "alternate",
         "alternative"
+      ]
+    },
+    {
+      "id": "concept-humus-ground",
+      "concept": "of the ground, earth-born",
+      "chinese": "属于地面的",
+      "core_image": "脚下一片踩实的黄土，活物都从这里长出来，头也能被按到这么低",
+      "root_ids": [
+        "humus"
+      ],
+      "word_ids": [
+        "human",
+        "humanity",
+        "humiliate"
       ]
     }
   ]

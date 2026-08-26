@@ -110082,9 +110082,11 @@
       "word": "humiliate",
       "pos": "verb",
       "phonetic": "/hjuːˈmɪlieɪt/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "humus"
+      ],
+      "root_logic": "humus（泥土、地面）→ humilis（贴着地面的）+ -ate → 把人按到地面那么低 → 使屈辱",
       "origin": "晚期拉丁语 humiliare（使低下）← humilis（低的，字面「贴着地面的」）← humus（泥土、地面）",
       "native_definition": "to make someone feel ashamed and foolish in front of other people",
       "core_concept": "pressing someone down to the ground – 把人按到贴着地面那么低",
@@ -110105,8 +110107,7 @@
         "羞辱：当众把人踩低",
         "使丢脸：让他在人前抬不起头",
         "使难堪：话说得让人只想找个地方躲"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "locomotive",
@@ -116527,6 +116528,149 @@
         "safeguard sth against / from sth —— 保护某物免受某事损害，两个介词都可用",
         "safeguard against doing sth —— 防范某事发生，作不及物用法",
         "safeguards for sb —— 为某群体设的保障措施，名词后接 for"
+      ]
+    },
+    {
+      "id": "humid",
+      "word": "humid",
+      "pos": "adjective",
+      "phonetic": "/ˈhjuːmɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "humor-moist"
+      ],
+      "root_logic": "hum（umor 湿气，本族的本义）+ -id（形容词尾）→ 处处含着水汽的",
+      "origin": "拉丁语 humidus（含水汽的）← umor（湿气）← 原始印欧语 *wegʷ-（湿）；拼写里的 h- 是后人与 humus（泥土）误联想加上的，两者同形而不同源",
+      "native_definition": "containing a lot of water vapour, so that the air feels damp",
+      "core_concept": "air loaded with water so things stay damp – 空气里水汽多，东西总不干爽",
+      "core_image": "梅雨天进屋，墙纸边角翘起来，衬衫贴在背上，火柴划三根才着",
+      "chinese": [
+        "潮湿的",
+        "湿润的"
+      ],
+      "examples": [
+        "The air in the tropics is hot and humid.",
+        "Mushrooms grow well in a dark humid cellar."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "潮湿的：空气里水汽多，衣物墙壁都不干爽",
+        "湿润的：同一件事说得温和些，指含着水分而不发干，多说皮肤与泥土"
+      ],
+      "collocations": [
+        "hot and humid —— 又热又黏的天气，说气候时两词常连用"
+      ]
+    },
+    {
+      "id": "humidity",
+      "word": "humidity",
+      "pos": "noun",
+      "phonetic": "/hjuːˈmɪdəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "humor-moist"
+      ],
+      "root_logic": "hum（umor 湿气）+ -id（形容词尾）+ -ity（名词）→ 空气里那点水汽有多少",
+      "origin": "拉丁语 humiditas（含水汽的状态）← humidus ← umor（湿气）；h- 同样是与 humus（泥土）误联想的产物，与那一支不同源",
+      "native_definition": "the amount of water vapour in the air",
+      "core_concept": "how much water the air is carrying – 空气里携着多少水汽",
+      "core_image": "墙上那只表的指针一路往右爬，钢琴键发涩，饼干放一夜就咬不脆了",
+      "chinese": [
+        "湿度",
+        "湿气"
+      ],
+      "examples": [
+        "The humidity makes the heat much harder to bear.",
+        "High humidity can damage old books and paintings."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "湿度：可以读数的那个量，仪表上带刻度",
+        "湿气：不说数值时，指空气里那些水汽本身，闷在屋里散不掉"
+      ],
+      "collocations": [
+        "relative humidity —— 相对湿度，气象与空调上的标准指标",
+        "high / low humidity —— 说高低用 high、low，不用 big、small"
+      ]
+    },
+    {
+      "id": "human",
+      "word": "human",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈhjuːmən/",
+      "decomposable": "root",
+      "root_ids": [
+        "humus"
+      ],
+      "root_logic": "hum（humus 泥土、地面）+ -an（属于…的）→ 从地上生出来的那一种，与天上的神相对",
+      "origin": "拉丁语 humanus（属地的、地上生的）← humus（泥土、地面），与 homo（人）同支 ← 原始印欧语 *dhghem-（地）；与 humor 那支（← umor 湿气）同形而不同源，勿混",
+      "native_definition": "of or belonging to people rather than gods or animals, or a person",
+      "core_concept": "born of the earth, not of the sky – 从地里生出来的那一种，不是天上那一种",
+      "core_image": "神像立在高台上，台阶下站着一排光脚的，脚背沾着泥，会老会饿",
+      "chinese": [
+        "人的",
+        "人类",
+        "人性的"
+      ],
+      "examples": [
+        "The human body contains more than two hundred bones.",
+        "No human being can survive without water for long."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "人的：凡属于这一种活物的，身体、声音、错处都算",
+        "人类：把这一种活物整个当一样东西说，与走兽、神明相对",
+        "人性的：这一种活物特有的那些短处与暖意，会出错也会心软"
+      ],
+      "collocations": [
+        "human being(s) —— 指作为个体的那一个，强调是这一种活物而非物件或走兽",
+        "human rights —— 人权，固定用复数",
+        "human nature —— 本性，不加冠词"
+      ]
+    },
+    {
+      "id": "humanity",
+      "word": "humanity",
+      "pos": "noun",
+      "phonetic": "/hjuːˈmænəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "humus"
+      ],
+      "root_logic": "hum（humus 泥土、地面）+ -an（属于…的）+ -ity（名词）→ 地上生的这一种活物的总和，及这一种活物身上该有的那份心",
+      "origin": "拉丁语 humanitas（属人的性情、教养）← humanus（地上生的）← humus（泥土、地面）；与 humor 那支（← umor 湿气）同形而不同源，勿混",
+      "native_definition": "people as a whole, or the kindness that people are expected to show",
+      "core_concept": "all the earth-born ones, and the heart they owe each other – 地上生的这一整群，以及这一群之间该有的那份心",
+      "core_image": "地震后的操场上一排排帐篷亮着灯，陌生人端来热粥，不问姓名",
+      "chinese": [
+        "人类",
+        "人性",
+        "仁慈",
+        "人文学科"
+      ],
+      "examples": [
+        "Nuclear war would threaten the whole of humanity.",
+        "The judge showed humanity in sentencing the young man."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "人类：地上生的这一种活物的总和，说的是整群",
+        "人性：这一群共有的那副心性，与神性、兽性相对",
+        "仁慈：那副心性用在待人上，肯给别的活物留一分余地",
+        "人文学科：研究这一群自身的那些学问，多用复数"
+      ],
+      "collocations": [
+        "crimes against humanity —— 反人类罪，国际法固定说法，against 不可换",
+        "treat sb with humanity —— 以仁慈待人，介词固定用 with",
+        "the humanities —— 人文学科，此义必用复数并带定冠词"
       ]
     }
   ]

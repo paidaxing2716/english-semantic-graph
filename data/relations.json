@@ -10986,6 +10986,36 @@
       "to": "ambition",
       "type": "root",
       "note": "amb-（绕着）+ it（ire 走）+ -ion → 为往上爬挨门绕圈走动 → 野心"
+    },
+    {
+      "from": "humor-moist",
+      "to": "humid",
+      "type": "root",
+      "note": "hum（umor 湿气，本族的本义）+ -id（形容词尾）→ 处处含着水汽的"
+    },
+    {
+      "from": "humor-moist",
+      "to": "humidity",
+      "type": "root",
+      "note": "hum（umor 湿气）+ -id（形容词尾）+ -ity（名词）→ 空气里那点水汽有多少"
+    },
+    {
+      "from": "humus",
+      "to": "human",
+      "type": "root",
+      "note": "hum（humus 泥土、地面）+ -an（属于…的）→ 从地上生出来的那一种，与天上的神相对"
+    },
+    {
+      "from": "humus",
+      "to": "humanity",
+      "type": "root",
+      "note": "hum（humus 泥土、地面）+ -an（属于…的）+ -ity（名词）→ 地上生的这一种活物的总和，及这一种活物身上"
+    },
+    {
+      "from": "humus",
+      "to": "humiliate",
+      "type": "root",
+      "note": "humus（泥土、地面）→ humilis（贴着地面的）+ -ate → 把人按到地面那么低 → 使屈辱"
     }
   ]
 }

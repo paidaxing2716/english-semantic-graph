@@ -48510,6 +48510,62 @@
       "text": "New rules safeguard workers' pay.",
       "source": "AI 生成 · 人工审核",
       "scene": "机器转轴外头罩着一层铁网，手伸不进去，网一拆机器就断电"
+    },
+    {
+      "id": "ex-humid-1",
+      "word_id": "humid",
+      "text": "The air in the tropics is hot and humid.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "梅雨天进屋，墙纸边角翘起来，衬衫贴在背上，火柴划三根才着"
+    },
+    {
+      "id": "ex-humid-2",
+      "word_id": "humid",
+      "text": "Mushrooms grow well in a dark humid cellar.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "梅雨天进屋，墙纸边角翘起来，衬衫贴在背上，火柴划三根才着"
+    },
+    {
+      "id": "ex-humidity-1",
+      "word_id": "humidity",
+      "text": "The humidity makes the heat much harder to bear.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上那只表的指针一路往右爬，钢琴键发涩，饼干放一夜就咬不脆了"
+    },
+    {
+      "id": "ex-humidity-2",
+      "word_id": "humidity",
+      "text": "High humidity can damage old books and paintings.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上那只表的指针一路往右爬，钢琴键发涩，饼干放一夜就咬不脆了"
+    },
+    {
+      "id": "ex-human-1",
+      "word_id": "human",
+      "text": "The human body contains more than two hundred bones.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "神像立在高台上，台阶下站着一排光脚的，脚背沾着泥，会老会饿"
+    },
+    {
+      "id": "ex-human-2",
+      "word_id": "human",
+      "text": "No human being can survive without water for long.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "神像立在高台上，台阶下站着一排光脚的，脚背沾着泥，会老会饿"
+    },
+    {
+      "id": "ex-humanity-1",
+      "word_id": "humanity",
+      "text": "Nuclear war would threaten the whole of humanity.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地震后的操场上一排排帐篷亮着灯，陌生人端来热粥，不问姓名"
+    },
+    {
+      "id": "ex-humanity-2",
+      "word_id": "humanity",
+      "text": "The judge showed humanity in sentencing the young man.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地震后的操场上一排排帐篷亮着灯，陌生人端来热粥，不问姓名"
     }
   ]
 }

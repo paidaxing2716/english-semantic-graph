@@ -3279,13 +3279,15 @@
         "hum",
         "humor"
       ],
-      "origin": "拉丁语 humor（湿气、体液）——体液学说引申出生性与幽默",
+      "origin": "拉丁语 umor（湿气、体液），中世纪拼作 humor——这个 h 是后人与 humus（泥土）误联想加上的，两者不同源：umor 出原始印欧语 *wegʷ-（湿），humus 出 *dhghem-（地）。体液学说由此引申出生性与幽默",
       "core_concept": "the body's moisture and temper / 体液引申出的性情与幽默",
       "core_image": "四杯体液各居其位，平衡了人就开朗",
       "english_definition": "humour, disposition",
       "word_ids": [
         "humor",
-        "humorous"
+        "humorous",
+        "humid",
+        "humidity"
       ]
     },
     {
@@ -5765,6 +5767,23 @@
         "alter",
         "alternate",
         "alternative"
+      ]
+    },
+    {
+      "id": "humus",
+      "root": "humus",
+      "variants": [
+        "human",
+        "humil"
+      ],
+      "origin": "拉丁语 humus（泥土、地面）← 原始印欧语 *dhghem-（地）；humilis 是「贴着地面的」，humanus 与 homo 是「地上生的那种活物」——罗马人拿它与天上的神相对。与 humor 那支（← umor 湿气）同形而不同源，勿混",
+      "core_concept": "of the ground, earth-born / 属于地面的、从土里生出来的",
+      "core_image": "脚下一片踩实的黄土，活物都从这里长出来，头也能被按到这么低",
+      "english_definition": "earth, ground; of the earth, earth-born",
+      "word_ids": [
+        "human",
+        "humanity",
+        "humiliate"
       ]
     }
   ]
