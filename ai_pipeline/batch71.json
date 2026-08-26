@@ -1,0 +1,164 @@
+{
+  "words": [
+    {
+      "id": "take",
+      "word": "take",
+      "pos": "verb",
+      "phonetic": "/teɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语晚期 tacan（抓住、取）← 古诺尔斯语 taka（拿、取）← 原始日耳曼语 *tēkan（抓取），更早词源不明",
+      "native_definition": "to reach for something and move it or yourself away with it",
+      "core_concept": "reaching out, closing your hand, and carrying it off – 伸手合掌，把东西带在身上离开",
+      "core_image": "他伸手从架上拾起那只旧茶杯，一路握在掌心走出屋子",
+      "chinese": [
+        "拿",
+        "带走",
+        "接受",
+        "花费"
+      ],
+      "examples": [
+        "Take these books back to the library.",
+        "It took her three hours to finish."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "拿：手合上去，东西离开原处到自己这一边",
+        "带走：合住之后不松手，人走它也跟着走",
+        "接受：对方递过来的东西、职位、条件，伸手合上就算收下",
+        "花费：时间和钱也这么被拿走，办成一件事得先交出那么多"
+      ],
+      "collocations": [
+        "take on sth/sb —— 承担、接手，也指雇人；on 是把担子搭到自己肩上",
+        "take over sth —— 接管，over 是权责从对方那边整个翻过来落到自己手上",
+        "take up sth —— 开始做一项爱好，也指占去时间或地方；up 是把搁下的东西重新拿起来",
+        "take after sb —— 长相性情像某位长辈，after 是跟在他后头走，把他那一套带下来",
+        "take sth for granted —— 想当然、不当回事，把它当成白送的既成事实，for granted 不可拆"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "set",
+      "word": "set",
+      "pos": "verb",
+      "phonetic": "/set/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 settan（安放、使坐下）← 原始日耳曼语 *satjan，是 *sitjan（坐）的使役形，字面即让某物坐下去",
+      "native_definition": "to put something in a fixed place or state so that it stays there",
+      "core_concept": "making a thing sit still where you put it – 让东西在你安它的地方坐定不动",
+      "core_image": "他把砚台摆到桌角，往下压实，指头松开它也不移半分",
+      "chinese": [
+        "放置",
+        "设立",
+        "使处于",
+        "落下"
+      ],
+      "examples": [
+        "She set the tray down on the table.",
+        "The sun set behind the low grey hills."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "放置：东西被安到一处，坐稳就不再动",
+        "设立：机构、规矩、目标也这么被安下来，从此立在那里",
+        "使处于：把人或物摆进某种状态，如摆进自由、摆进运转",
+        "落下：太阳自己坐了下去，坐到地平线以下"
+      ],
+      "collocations": [
+        "set up sth —— 建立、创办，也指把设备架起来；up 是从无到有把架子竖起来",
+        "set off —— 出发，也指引爆或触发警报；off 是离开原地那一下的猛劲",
+        "set sth aside —— 拨出时间或钱留着，也指暂且不管；aside 是挪到旁边单放一处",
+        "set out to do sth —— 一开始就存心要做成某事，out 是起身往外走的那第一步",
+        "set about doing sth —— 着手做，about 是围着这件事张罗起来，后面只接 doing"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "turn",
+      "word": "turn",
+      "pos": "verb / noun",
+      "phonetic": "/tɜːn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 turnian / tyrnan（旋、绕）← 拉丁语 tornare（在车床上旋削）← tornus（车工的旋刀），借入极早，中古时期又受古法语 torner 加强",
+      "native_definition": "to move something around a fixed point so that it faces another way",
+      "core_concept": "swinging a thing around a fixed point – 让东西绕着一个定点摆过去",
+      "core_image": "他攥住那个圆把手，手腕一拧，门轴吱呀一声，门朝里开了",
+      "chinese": [
+        "转动",
+        "转向",
+        "变成",
+        "轮次"
+      ],
+      "examples": [
+        "Turn the key twice to lock the door.",
+        "The leaves turn red in late October."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "转动：绕着轴走一圈，位置没变朝向变了",
+        "转向：整个身子或车头绕过去，从此往另一边走",
+        "变成：状态也能这么绕过去，绿叶绕到红那一面",
+        "轮次：一圈绕回原处，人也就一个接一个这样排下去"
+      ],
+      "collocations": [
+        "turn out (to be) sth —— 结果是、原来是，out 是转过身把里面那一面朝外亮出来",
+        "turn down sth/sb —— 拒绝，也指把音量旋小；down 是把旋钮往下扳",
+        "turn into sth —— 变成另一样东西，into 是整个转进另一个壳里，与 turn to 分工不同",
+        "turn to sb (for sth) —— 求助于某人，to 是把身子朝他那边转过去",
+        "turn up —— 露面、出现，也指把音量旋大；up 是从没影的地方冒到面上来"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "stand",
+      "word": "stand",
+      "pos": "verb / noun",
+      "phonetic": "/stænd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 standan（立住）← 原始日耳曼语 *standan；与拉丁语 stare 同出原始印欧语 *steh₂-（立），属同源而非派生，故不计入 sta 族",
+      "native_definition": "to be upright on your feet, or to stay where you are without giving way",
+      "core_concept": "keeping your feet planted and not giving way – 两脚扎住，不挪也不让",
+      "core_image": "大风把旁边的人都吹得弯下腰，他两脚扎在原处，衣角乱抖，身子没动",
+      "chinese": [
+        "站立",
+        "忍受",
+        "位于",
+        "立场"
+      ],
+      "examples": [
+        "He stood by the gate for an hour.",
+        "I cannot stand the noise from upstairs."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "站立：脚底扎住地面，人立着不倒",
+        "忍受：外头压过来也不退，扛住那份难受，多用于否定",
+        "位于：房子楼塔也这么扎在一处，说的是它在哪儿",
+        "立场：脚下那块地就是他认的道理，站在哪儿就是主张什么"
+      ],
+      "collocations": [
+        "stand for sth —— 代表、是某词的缩写，for 指它替谁站在那里；也表容忍，多用于否定",
+        "stand out —— 显眼、突出，out 是从排齐的一列里探出来那一截",
+        "stand by sb —— 支持某人不离开，by 是紧挨着他站；单用还表待命",
+        "cannot stand doing sth —— 受不了做某事，几乎只出现在否定与疑问里，后接 doing 或名词",
+        "stand up for sb/sth —— 挺身维护，up 是从坐着到站起来，把立场摆到明面上"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    }
+  ]
+}

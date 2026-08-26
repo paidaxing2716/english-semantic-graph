@@ -97,6 +97,31 @@ NOTE_BORROWED = {
     "俄语": "借自俄语，本项目未为其词族建根，按整体记",
     "日语": "借自日语，本项目未为其词族建根，按整体记",
 }
+NOTE_EARLY_LOAN = "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+GERMANIC_MARK = ("古英语", "原始日耳曼", "中古英语", "古诺斯", "古诺尔斯",
+                 "古高地德", "古撒克逊", "原始西日耳曼")
+
+
+def classify_note(origin):
+    """按 origin 的语源线索给 decomposable_note 分流。
+
+    三档而非两档。此前只分「有日耳曼词形 → 日耳曼核心词」与「有外语词形 → 借词」，
+    漏了第三种：**经古英语传入的早期借词**——origin 形如「古英语 ancor ← 拉丁语
+    ancora」，日耳曼标记在前所以被判成「日耳曼核心词，本身即词根」，而它压根不是
+    日耳曼词。实测库里 65 条属此类（belt ← balteus、cheese ← caseus、candle ←
+    candela、turn ← tornare）。由 chunk76 的子代理写 turn 时指出。
+    判据是 `←` 后面紧跟外语名：日耳曼词形是传入路径，箭头指向的才是终极来源。
+    """
+    o = origin or ""
+    if any(k in o for k in GERMANIC_MARK):
+        for k in NOTE_BORROWED:
+            if re.search(r"←[^←]{0,14}" + k, o):
+                return NOTE_EARLY_LOAN
+        return NOTE_DEFAULT
+    for k, note in NOTE_BORROWED.items():
+        if k in o:
+            return note
+    return NOTE_DEFAULT
 
 
 def split_on(s, sep):
@@ -222,17 +247,7 @@ def build_word(cols, lineno, legacy=False):
         # b 类被写成 a，实测全库积了 578 条错陈述（abandon 古法语、absorb 拉丁语
         # 都写着「日耳曼核心词」），由 chunk56 的子代理指出。按 origin 的语源线索
         # 分流；origin 无线索时仍用默认句（判不了就别猜）。
-        o = origin or ""
-        if any(k in o for k in ("古英语", "原始日耳曼", "中古英语", "古诺斯",
-                                "古高地德", "古撒克逊", "原始西日耳曼")):
-            w["decomposable_note"] = NOTE_DEFAULT
-        else:
-            for k, note in NOTE_BORROWED.items():
-                if k in o:
-                    w["decomposable_note"] = note
-                    break
-            else:
-                w["decomposable_note"] = NOTE_DEFAULT
+        w["decomposable_note"] = classify_note(origin)
 
     # ---- 生成期自检 ----
     for x in zh_list:

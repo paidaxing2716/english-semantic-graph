@@ -47726,6 +47726,62 @@
       "text": "Some praised it, whilst others said nothing.",
       "source": "AI 生成 · 人工审核",
       "scene": "会议记录上写着的那个连词，念出来比平常那个多一个音"
+    },
+    {
+      "id": "ex-take-1",
+      "word_id": "take",
+      "text": "Take these books back to the library.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他伸手从架上拾起那只旧茶杯，一路握在掌心走出屋子"
+    },
+    {
+      "id": "ex-take-2",
+      "word_id": "take",
+      "text": "It took her three hours to finish.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他伸手从架上拾起那只旧茶杯，一路握在掌心走出屋子"
+    },
+    {
+      "id": "ex-set-1",
+      "word_id": "set",
+      "text": "She set the tray down on the table.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把砚台摆到桌角，往下压实，指头松开它也不移半分"
+    },
+    {
+      "id": "ex-set-2",
+      "word_id": "set",
+      "text": "The sun set behind the low grey hills.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把砚台摆到桌角，往下压实，指头松开它也不移半分"
+    },
+    {
+      "id": "ex-turn-1",
+      "word_id": "turn",
+      "text": "Turn the key twice to lock the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他攥住那个圆把手，手腕一拧，门轴吱呀一声，门朝里开了"
+    },
+    {
+      "id": "ex-turn-2",
+      "word_id": "turn",
+      "text": "The leaves turn red in late October.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他攥住那个圆把手，手腕一拧，门轴吱呀一声，门朝里开了"
+    },
+    {
+      "id": "ex-stand-1",
+      "word_id": "stand",
+      "text": "He stood by the gate for an hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大风把旁边的人都吹得弯下腰，他两脚扎在原处，衣角乱抖，身子没动"
+    },
+    {
+      "id": "ex-stand-2",
+      "word_id": "stand",
+      "text": "I cannot stand the noise from upstairs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大风把旁边的人都吹得弯下腰，他两脚扎在原处，衣角乱抖，身子没动"
     }
   ]
 }

@@ -51,11 +51,23 @@ FOREIGN = {
 }
 
 
+EARLY_LOAN = "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+
+
 def classify(origin):
     o = origin or ""
     for k in GERMANIC:
         if k in o:
-            return None                    # 文案本来就对，不动
+            # 第三档：经古英语/中古英语传入的早期借词。origin 形如
+            # 「古英语 ancor ← 拉丁语 ancora」——日耳曼词形只是传入路径，箭头
+            # 指向的才是终极来源，这类不是日耳曼核心词。上一版把它们一律留在
+            # 默认文案里（理由是「古英语那层在前」），那个判断是错的：belt ←
+            # balteus、cheese ← caseus、candle ← candela 都不是日耳曼词。
+            # 由 chunk76 的子代理写 turn 时指出。
+            for f in FOREIGN:
+                if re.search(r"←[^←]{0,14}" + f, o):
+                    return EARLY_LOAN
+            return None                    # 真日耳曼词，文案本来就对
     for k, note in FOREIGN.items():
         if k in o:
             return note
