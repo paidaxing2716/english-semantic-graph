@@ -80,6 +80,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 NOTE_DEFAULT = "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+# 借词用的文案。只陈述「本项目未为它建根」这个事实，不断言「没有词缀」——
+# 很多这类词的 origin 明写着词缀（abound 的 origin 就写「ab-（自）+ unda」），
+# 断言无词缀是用一个新错陈述换掉旧的。真实原因（族不足 3 员／拆了不助记）
+# 不该由脚本替人断定。与 scripts/fix_decomposable_notes.py 的文案保持一致。
+NOTE_BORROWED = {
+    "法语": "经法语入英语的借词，本项目未为其词族建根，按整体记",
+    "拉丁": "拉丁借词，本项目未为其词族建根，按整体记",
+    "希腊": "希腊借词，本项目未为其词族建根，按整体记",
+    "意大利": "借自意大利语，本项目未为其词族建根，按整体记",
+    "西班牙": "借自西班牙语，本项目未为其词族建根，按整体记",
+    "荷兰": "借自荷兰语，本项目未为其词族建根，按整体记",
+    "阿拉伯": "借自阿拉伯语，本项目未为其词族建根，按整体记",
+    "梵语": "借自梵语，本项目未为其词族建根，按整体记",
+    "俄语": "借自俄语，本项目未为其词族建根，按整体记",
+    "日语": "借自日语，本项目未为其词族建根，按整体记",
+}
 
 
 def split_on(s, sep):
@@ -168,7 +184,24 @@ def build_word(cols, lineno, legacy=False):
     if not rid_list:
         # review.py 只在「标为不可拆」时才允许空 root_logic，且此时
         # decomposable_note 必填——两者是一套，不能只填一半。
-        w["decomposable_note"] = NOTE_DEFAULT
+        #
+        # 但「不挂词根」有两种原因，此前一律套用「日耳曼核心词」那句默认文案：
+        #   a) 确实是日耳曼核心词（古英语 ceosan 那类）
+        #   b) 拉丁/法语/希腊借词，只是拆开推不出可学联系、或该族凑不到 3 个成员
+        # b 类被写成 a，实测全库积了 578 条错陈述（abandon 古法语、absorb 拉丁语
+        # 都写着「日耳曼核心词」），由 chunk56 的子代理指出。按 origin 的语源线索
+        # 分流；origin 无线索时仍用默认句（判不了就别猜）。
+        o = origin or ""
+        if any(k in o for k in ("古英语", "原始日耳曼", "中古英语", "古诺斯",
+                                "古高地德", "古撒克逊", "原始西日耳曼")):
+            w["decomposable_note"] = NOTE_DEFAULT
+        else:
+            for k, note in NOTE_BORROWED.items():
+                if k in o:
+                    w["decomposable_note"] = note
+                    break
+            else:
+                w["decomposable_note"] = NOTE_DEFAULT
 
     # ---- 生成期自检 ----
     for x in zh_list:
