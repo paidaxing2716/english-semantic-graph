@@ -80,7 +80,10 @@
         "deform",
         "form",
         "former",
-        "performance"
+        "performance",
+        "format",
+        "formula",
+        "formulate"
       ]
     },
     {
@@ -153,7 +156,9 @@
         "postage",
         "posture",
         "positive",
-        "deposit"
+        "deposit",
+        "postpone",
+        "purpose"
       ]
     },
     {
@@ -185,7 +190,11 @@
         "missile",
         "missionary",
         "intermittent",
-        "promising"
+        "promising",
+        "emit",
+        "committee",
+        "compromise",
+        "promise"
       ]
     },
     {
@@ -226,7 +235,13 @@
         "spectacular",
         "spectrum",
         "despise",
-        "irrespective"
+        "irrespective",
+        "species",
+        "specific",
+        "specimen",
+        "speculate",
+        "suspicion",
+        "suspicious"
       ]
     },
     {
@@ -281,7 +296,9 @@
         "product",
         "productive",
         "reduction",
-        "introduction"
+        "introduction",
+        "reproduce",
+        "semiconductor"
       ]
     },
     {
@@ -308,7 +325,8 @@
         "reporter",
         "importance",
         "porter",
-        "port"
+        "port",
+        "sport"
       ]
     },
     {
@@ -349,7 +367,25 @@
         "stay",
         "cost",
         "costly",
-        "contrast"
+        "contrast",
+        "assist",
+        "consist",
+        "distance",
+        "exist",
+        "existence",
+        "insist",
+        "persist",
+        "substance",
+        "assistance",
+        "assistant",
+        "consistent",
+        "constituent",
+        "estate",
+        "statesman",
+        "statue",
+        "status",
+        "statute",
+        "superstition"
       ]
     },
     {
@@ -376,7 +412,9 @@
         "close",
         "disclose",
         "enclose",
-        "enclosure"
+        "enclosure",
+        "closet",
+        "conclusion"
       ]
     },
     {
@@ -403,7 +441,10 @@
         "tenant",
         "continent",
         "continual",
-        "continuous"
+        "continuous",
+        "maintain",
+        "rein",
+        "retention"
       ]
     },
     {
@@ -445,7 +486,10 @@
         "sufficient",
         "fashion",
         "feasible",
-        "fax"
+        "fax",
+        "affection",
+        "fashionable",
+        "perfection"
       ]
     },
     {
@@ -474,7 +518,15 @@
         "attendant",
         "contend",
         "intensity",
-        "tend"
+        "tend",
+        "attention",
+        "extension",
+        "extent",
+        "intense",
+        "intention",
+        "tense",
+        "tension",
+        "tent"
       ]
     },
     {
@@ -507,7 +559,13 @@
         "recede",
         "precedent",
         "preceding",
-        "concession"
+        "concession",
+        "access",
+        "excess",
+        "excessive",
+        "necessary",
+        "necessitate",
+        "necessity"
       ]
     },
     {
@@ -530,7 +588,10 @@
         "reject",
         "subject",
         "subjective",
-        "adjective"
+        "adjective",
+        "eject",
+        "jet",
+        "objection"
       ]
     },
     {
@@ -551,7 +612,16 @@
         "dependent",
         "expend",
         "expensive",
-        "suspend"
+        "suspend",
+        "expenditure",
+        "expense",
+        "independence",
+        "independent",
+        "indispensable",
+        "pendulum",
+        "pension",
+        "ponder",
+        "spend"
       ]
     },
     {
@@ -582,7 +652,10 @@
         "particle",
         "particular",
         "apart",
-        "apartment"
+        "apartment",
+        "partner",
+        "party",
+        "portion"
       ]
     },
     {
@@ -607,7 +680,9 @@
         "finance",
         "confine",
         "define",
-        "refine"
+        "refine",
+        "financial",
+        "fine"
       ]
     },
     {
@@ -634,7 +709,11 @@
         "exact",
         "exam",
         "interact",
-        "react"
+        "react",
+        "agent",
+        "activate",
+        "agency",
+        "ambiguous"
       ]
     },
     {
@@ -676,7 +755,12 @@
         "contradict",
         "dictate",
         "dictation",
-        "predict"
+        "predict",
+        "dedicate",
+        "index",
+        "indicate",
+        "contradiction",
+        "dictionary"
       ]
     },
     {
@@ -695,7 +779,8 @@
         "conscientious",
         "conscious",
         "science",
-        "scientist"
+        "scientist",
+        "scientific"
       ]
     },
     {
@@ -765,7 +850,8 @@
         "exquisite",
         "question",
         "questionnaire",
-        "acquisition"
+        "acquisition",
+        "acquire"
       ]
     },
     {
@@ -785,7 +871,15 @@
         "directly",
         "director",
         "rectify",
-        "directory"
+        "directory",
+        "dress",
+        "realm",
+        "regime",
+        "region",
+        "reign",
+        "royalty",
+        "direction",
+        "erect"
       ]
     },
     {
@@ -809,7 +903,11 @@
         "mobile",
         "mobilize",
         "moment",
-        "momentum"
+        "momentum",
+        "motivate",
+        "promote",
+        "remote",
+        "remove"
       ]
     },
     {
@@ -833,7 +931,14 @@
         "diverse",
         "inverse",
         "reverse",
-        "divorce"
+        "divorce",
+        "avert",
+        "anniversary",
+        "controversy",
+        "prose",
+        "controversial",
+        "conversion",
+        "diversion"
       ]
     },
     {
@@ -853,7 +958,10 @@
         "expel",
         "propel",
         "repel",
-        "appeal"
+        "appeal",
+        "impulse",
+        "pulse",
+        "push"
       ]
     },
     {
@@ -910,7 +1018,8 @@
         "influence",
         "influential",
         "superfluous",
-        "flu"
+        "flu",
+        "fluid"
       ]
     },
     {
@@ -933,7 +1042,10 @@
         "generous",
         "generalize",
         "generator",
-        "benign"
+        "benign",
+        "gene",
+        "hydrogen",
+        "gender"
       ]
     },
     {
@@ -958,7 +1070,16 @@
         "employee",
         "employer",
         "exploit",
-        "display"
+        "display",
+        "apply",
+        "explicit",
+        "imply",
+        "reply",
+        "multiply",
+        "simple",
+        "duplicate",
+        "employment",
+        "unemployment"
       ]
     },
     {
@@ -976,7 +1097,9 @@
         "local",
         "locality",
         "locate",
-        "location"
+        "location",
+        "couch",
+        "locomotive"
       ]
     },
     {
@@ -1000,7 +1123,12 @@
         "suitable",
         "suite",
         "prosecute",
-        "persecute"
+        "persecute",
+        "execute",
+        "executive",
+        "pursue",
+        "second",
+        "sue"
       ]
     },
     {
@@ -1020,7 +1148,10 @@
         "competition",
         "petition",
         "repetition",
-        "perpetual"
+        "perpetual",
+        "compete",
+        "competitive",
+        "repeat"
       ]
     },
     {
@@ -1061,7 +1192,9 @@
         "excursion",
         "incur",
         "occur",
-        "recur"
+        "recur",
+        "curriculum",
+        "occurrence"
       ]
     },
     {
@@ -1083,7 +1216,8 @@
         "prove",
         "probability",
         "probable",
-        "probe"
+        "probe",
+        "proof"
       ]
     },
     {
@@ -1104,7 +1238,11 @@
         "minister",
         "minor",
         "minority",
-        "menu"
+        "menu",
+        "administration",
+        "minimum",
+        "ministry",
+        "minus"
       ]
     },
     {
@@ -1123,7 +1261,11 @@
         "possess",
         "possession",
         "possibility",
-        "possible"
+        "possible",
+        "potential",
+        "power",
+        "powerful",
+        "possibly"
       ]
     },
     {
@@ -1142,7 +1284,9 @@
         "publication",
         "publicity",
         "publish",
-        "republic"
+        "republic",
+        "pub",
+        "republican"
       ]
     },
     {
@@ -1203,7 +1347,12 @@
         "multiple",
         "supplement",
         "triple",
-        "comply"
+        "comply",
+        "accomplish",
+        "complete",
+        "plentiful",
+        "plenty",
+        "supply"
       ]
     },
     {
@@ -1239,7 +1388,8 @@
         "adequate",
         "equal",
         "equality",
-        "equation"
+        "equation",
+        "equivalent"
       ]
     },
     {
@@ -1257,7 +1407,8 @@
         "claim",
         "exclaim",
         "proclaim",
-        "reclaim"
+        "reclaim",
+        "acclaim"
       ]
     },
     {
@@ -1316,7 +1467,10 @@
         "inspiration",
         "inspire",
         "spiral",
-        "expire"
+        "expire",
+        "aspire",
+        "spirit",
+        "spiritual"
       ]
     },
     {
@@ -1334,7 +1488,9 @@
         "association",
         "sociable",
         "social",
-        "society"
+        "society",
+        "socialism",
+        "sociology"
       ]
     },
     {
@@ -1352,7 +1508,9 @@
         "ascertain",
         "certain",
         "certainly",
-        "certainty"
+        "certainty",
+        "certificate",
+        "certify"
       ]
     },
     {
@@ -1369,7 +1527,8 @@
         "abnormal",
         "norm",
         "normal",
-        "normalization"
+        "normalization",
+        "enormous"
       ]
     },
     {
@@ -1387,7 +1546,8 @@
         "contest",
         "protest",
         "test",
-        "testify"
+        "testify",
+        "testimony"
       ]
     },
     {
@@ -1406,7 +1566,9 @@
         "communicate",
         "communication",
         "communism",
-        "community"
+        "community",
+        "commonwealth",
+        "immune"
       ]
     },
     {
@@ -1428,7 +1590,10 @@
         "progress",
         "progressive",
         "congress",
-        "degree"
+        "degree",
+        "centigrade",
+        "graduate",
+        "undergraduate"
       ]
     },
     {
@@ -1448,7 +1613,9 @@
         "diffuse",
         "fuse",
         "refuse",
-        "futile"
+        "futile",
+        "confusion",
+        "refusal"
       ]
     },
     {
@@ -1565,7 +1732,9 @@
         "national",
         "native",
         "nature",
-        "naive"
+        "naive",
+        "nationality",
+        "natural"
       ]
     },
     {
@@ -1583,7 +1752,8 @@
         "central",
         "centre",
         "concentrate",
-        "concentration"
+        "concentration",
+        "eccentric"
       ]
     },
     {
@@ -1619,7 +1789,8 @@
         "durable",
         "duration",
         "during",
-        "endurance"
+        "endurance",
+        "endure"
       ]
     },
     {
@@ -1639,7 +1810,8 @@
         "dominant",
         "dominate",
         "predominant",
-        "madame"
+        "madame",
+        "dome"
       ]
     },
     {
@@ -1660,7 +1832,9 @@
         "secure",
         "security",
         "ensure",
-        "insure"
+        "insure",
+        "accuracy",
+        "sure"
       ]
     },
     {
@@ -1679,7 +1853,8 @@
         "credible",
         "credit",
         "incredible",
-        "grant"
+        "grant",
+        "credential"
       ]
     },
     {
@@ -1698,7 +1873,10 @@
         "grace",
         "graceful",
         "gracious",
-        "grateful"
+        "grateful",
+        "congratulate",
+        "congratulation",
+        "gratitude"
       ]
     },
     {
@@ -1716,7 +1894,9 @@
       "word_ids": [
         "appreciate",
         "precious",
-        "price"
+        "price",
+        "praise",
+        "prize"
       ]
     },
     {
@@ -1736,7 +1916,10 @@
         "sensation",
         "sense",
         "sensible",
-        "sentence"
+        "sentence",
+        "consensus",
+        "nonsense",
+        "sensitive"
       ]
     },
     {
@@ -1812,7 +1995,8 @@
         "solution",
         "solve",
         "resolution",
-        "resolute"
+        "resolute",
+        "soluble"
       ]
     },
     {
@@ -1831,7 +2015,8 @@
         "conviction",
         "convince",
         "province",
-        "victory"
+        "victory",
+        "convict"
       ]
     },
     {
@@ -1910,7 +2095,9 @@
         "diligent",
         "elite",
         "lecture",
-        "select"
+        "select",
+        "college",
+        "legend"
       ]
     },
     {
@@ -1982,7 +2169,10 @@
         "place",
         "replace",
         "replacement",
-        "displace"
+        "displace",
+        "plate",
+        "plateau",
+        "platform"
       ]
     },
     {
@@ -2020,7 +2210,17 @@
         "invention",
         "inventory",
         "invite",
-        "prevent"
+        "prevent",
+        "convenient",
+        "event",
+        "eventually",
+        "advent",
+        "adventure",
+        "convenience",
+        "convention",
+        "conventional",
+        "intervene",
+        "revenue"
       ]
     },
     {
@@ -2057,7 +2257,8 @@
         "president",
         "residence",
         "resident",
-        "subsidy"
+        "subsidy",
+        "preside"
       ]
     },
     {
@@ -2095,7 +2296,8 @@
         "practical",
         "practically",
         "practise",
-        "practitioner"
+        "practitioner",
+        "practice"
       ]
     },
     {
@@ -2113,7 +2315,8 @@
         "physical",
         "physician",
         "physicist",
-        "physics"
+        "physics",
+        "physiological"
       ]
     },
     {
@@ -2131,7 +2334,10 @@
         "compass",
         "pass",
         "passage",
-        "surpass"
+        "surpass",
+        "pace",
+        "passenger",
+        "passport"
       ]
     },
     {
@@ -2204,7 +2410,9 @@
       "word_ids": [
         "advocate",
         "vocal",
-        "vocation"
+        "vocation",
+        "evoke",
+        "provoke"
       ]
     },
     {
@@ -2220,7 +2428,8 @@
       "word_ids": [
         "disturb",
         "disturbance",
-        "turbine"
+        "turbine",
+        "turbulent"
       ]
     },
     {
@@ -2239,7 +2448,8 @@
         "contribute",
         "distribute",
         "tribute",
-        "contribution"
+        "contribution",
+        "tribe"
       ]
     },
     {
@@ -2256,7 +2466,8 @@
       "word_ids": [
         "distort",
         "retort",
-        "torture"
+        "torture",
+        "torment"
       ]
     },
     {
@@ -2290,7 +2501,8 @@
       "word_ids": [
         "hypothesis",
         "synthesis",
-        "thesis"
+        "thesis",
+        "synthetic"
       ]
     },
     {
@@ -2382,7 +2594,10 @@
         "notable",
         "notify",
         "notion",
-        "notorious"
+        "notorious",
+        "denote",
+        "note",
+        "notebook"
       ]
     },
     {
@@ -2398,7 +2613,9 @@
       "word_ids": [
         "operate",
         "operation",
-        "operational"
+        "operational",
+        "cooperate",
+        "operator"
       ]
     },
     {
@@ -2464,7 +2681,8 @@
       "word_ids": [
         "terrible",
         "terrify",
-        "terror"
+        "terror",
+        "terrific"
       ]
     },
     {
@@ -2481,7 +2699,11 @@
       "word_ids": [
         "abrupt",
         "corrupt",
-        "disrupt"
+        "disrupt",
+        "bankrupt",
+        "erupt",
+        "route",
+        "routine"
       ]
     },
     {
@@ -2513,7 +2735,9 @@
       "word_ids": [
         "affirm",
         "confirm",
-        "firm"
+        "firm",
+        "farm",
+        "farmer"
       ]
     },
     {
@@ -2530,7 +2754,8 @@
       "word_ids": [
         "announce",
         "denounce",
-        "pronounce"
+        "pronounce",
+        "pronunciation"
       ]
     },
     {
@@ -2551,7 +2776,9 @@
         "encourage",
         "accord",
         "accordance",
-        "accordingly"
+        "accordingly",
+        "record",
+        "recorder"
       ]
     },
     {
@@ -2571,7 +2798,8 @@
         "passion",
         "passive",
         "patience",
-        "patient"
+        "patient",
+        "compatible"
       ]
     },
     {
@@ -2608,7 +2836,8 @@
         "appointment",
         "point",
         "punctual",
-        "disappoint"
+        "disappoint",
+        "punch"
       ]
     },
     {
@@ -2676,7 +2905,8 @@
       "word_ids": [
         "clarify",
         "clarity",
-        "declare"
+        "declare",
+        "declaration"
       ]
     },
     {
@@ -2712,7 +2942,9 @@
       "word_ids": [
         "digest",
         "gesture",
-        "suggest"
+        "suggest",
+        "register",
+        "suggestion"
       ]
     },
     {
@@ -2751,7 +2983,9 @@
         "catch",
         "chase",
         "cable",
-        "deceit"
+        "deceit",
+        "cater",
+        "purchase"
       ]
     },
     {
@@ -2770,7 +3004,14 @@
         "envisage",
         "invisible",
         "advisable",
-        "evident"
+        "evident",
+        "envy",
+        "advise",
+        "provide",
+        "provision",
+        "prudent",
+        "revise",
+        "supervise"
       ]
     },
     {
@@ -2789,7 +3030,9 @@
       "word_ids": [
         "precise",
         "concise",
-        "cement"
+        "cement",
+        "decide",
+        "decision"
       ]
     },
     {
@@ -2840,7 +3083,8 @@
         "aggravate",
         "grave",
         "gravity",
-        "grief"
+        "grief",
+        "grieve"
       ]
     },
     {
@@ -2875,7 +3119,8 @@
       "word_ids": [
         "attempt",
         "contempt",
-        "tempt"
+        "tempt",
+        "temptation"
       ]
     },
     {
@@ -2907,7 +3152,10 @@
       "word_ids": [
         "comparable",
         "pair",
-        "repair"
+        "repair",
+        "compare",
+        "comparison",
+        "peer"
       ]
     },
     {
@@ -2922,7 +3170,9 @@
       "core_image": "把散落的纸稿按序叠成一摞",
       "english_definition": "to compile, gather",
       "word_ids": [
-        "compile"
+        "compile",
+        "pile",
+        "pillar"
       ]
     },
     {
@@ -2956,7 +3206,8 @@
       "english_definition": "to be strong, avail, be valid",
       "word_ids": [
         "prevalent",
-        "avail"
+        "avail",
+        "prevail"
       ]
     },
     {
@@ -3022,7 +3273,8 @@
         "hostess",
         "hostile",
         "hospital",
-        "hospitality"
+        "hospitality",
+        "hotel"
       ]
     },
     {
@@ -3040,7 +3292,8 @@
         "concern",
         "concerning",
         "discern",
-        "discreet"
+        "discreet",
+        "discriminate"
       ]
     },
     {
@@ -3057,7 +3310,12 @@
       "word_ids": [
         "lever",
         "levy",
-        "relevant"
+        "relevant",
+        "alleviate",
+        "elevate",
+        "elevator",
+        "relief",
+        "relieve"
       ]
     },
     {
@@ -3074,7 +3332,8 @@
       "word_ids": [
         "music",
         "musical",
-        "musician"
+        "musician",
+        "museum"
       ]
     },
     {
@@ -3091,7 +3350,8 @@
         "art",
         "artist",
         "artistic",
-        "inertia"
+        "inertia",
+        "article"
       ]
     },
     {
@@ -3125,7 +3385,8 @@
       "word_ids": [
         "origin",
         "original",
-        "originate"
+        "originate",
+        "orient"
       ]
     },
     {
@@ -3204,7 +3465,10 @@
       "word_ids": [
         "manage",
         "manner",
-        "manual"
+        "manual",
+        "management",
+        "manager",
+        "maneuver"
       ]
     },
     {
@@ -3221,7 +3485,8 @@
       "word_ids": [
         "space",
         "spaceship",
-        "spacious"
+        "spacious",
+        "spacecraft"
       ]
     },
     {
@@ -3309,7 +3574,13 @@
       "word_ids": [
         "delegate",
         "legacy",
-        "legal"
+        "legal",
+        "colleague",
+        "legislation",
+        "legitimate",
+        "loyal",
+        "loyalty",
+        "privilege"
       ]
     },
     {
@@ -3331,7 +3602,13 @@
         "ally",
         "alliance",
         "alloy",
-        "league"
+        "league",
+        "liable",
+        "oblige",
+        "rally",
+        "reliable",
+        "reliance",
+        "rely"
       ]
     },
     {
@@ -3384,7 +3661,13 @@
         "moderate",
         "modify",
         "modern",
-        "modernization"
+        "modernization",
+        "mode",
+        "model",
+        "modest",
+        "module",
+        "mould",
+        "accommodate"
       ]
     },
     {
@@ -3400,7 +3683,8 @@
       "word_ids": [
         "qualification",
         "qualify",
-        "quality"
+        "quality",
+        "qualitative"
       ]
     },
     {
@@ -3423,7 +3707,8 @@
         "accidental",
         "chance",
         "cheat",
-        "decay"
+        "decay",
+        "coincide"
       ]
     },
     {
@@ -3547,7 +3832,13 @@
       "word_ids": [
         "regard",
         "regarding",
-        "regardless"
+        "regardless",
+        "award",
+        "guard",
+        "reward",
+        "ward",
+        "wardrobe",
+        "disregard"
       ]
     },
     {
@@ -3564,7 +3855,11 @@
       "word_ids": [
         "regular",
         "regulate",
-        "regulation"
+        "regulation",
+        "rail",
+        "railroad",
+        "rule",
+        "ruler"
       ]
     },
     {
@@ -3599,7 +3894,9 @@
       "word_ids": [
         "journal",
         "journalist",
-        "journey"
+        "journey",
+        "dial",
+        "diary"
       ]
     },
     {
@@ -3622,7 +3919,8 @@
         "parameter",
         "thermometer",
         "geometry",
-        "centimetre"
+        "centimetre",
+        "millimeter"
       ]
     },
     {
@@ -3714,7 +4012,8 @@
         "plane",
         "plain",
         "explain",
-        "aeroplane"
+        "aeroplane",
+        "piano"
       ]
     },
     {
@@ -3771,7 +4070,12 @@
         "present",
         "presently",
         "represent",
-        "representative"
+        "representative",
+        "absent",
+        "entity",
+        "essence",
+        "essential",
+        "interest"
       ]
     },
     {
@@ -3787,7 +4091,8 @@
       "english_definition": "to declare publicly, avow",
       "word_ids": [
         "profession",
-        "professor"
+        "professor",
+        "professional"
       ]
     },
     {
@@ -3802,7 +4107,8 @@
       "core_image": "笔尖贴着侧脸的边一路描下去，只留一条轮廓线",
       "english_definition": "thread, line",
       "word_ids": [
-        "profile"
+        "profile",
+        "file"
       ]
     },
     {
@@ -3819,7 +4125,8 @@
       "word_ids": [
         "prosper",
         "prosperity",
-        "prosperous"
+        "prosperous",
+        "desperate"
       ]
     },
     {
@@ -3912,7 +4219,8 @@
         "carriage",
         "carrier",
         "carry",
-        "charge"
+        "charge",
+        "discharge"
       ]
     },
     {
@@ -3991,7 +4299,8 @@
         "camp",
         "campaign",
         "campus",
-        "champion"
+        "champion",
+        "champagne"
       ]
     },
     {
@@ -4010,7 +4319,8 @@
         "circle",
         "circuit",
         "circular",
-        "circus"
+        "circus",
+        "circulate"
       ]
     },
     {
@@ -4028,7 +4338,8 @@
       "word_ids": [
         "battle",
         "combat",
-        "debate"
+        "debate",
+        "battery"
       ]
     },
     {
@@ -4085,7 +4396,8 @@
       "word_ids": [
         "cite",
         "excite",
-        "recite"
+        "recite",
+        "excitement"
       ]
     },
     {
@@ -4103,7 +4415,8 @@
         "climate",
         "climax",
         "clinic",
-        "incline"
+        "incline",
+        "decline"
       ]
     },
     {
@@ -4140,7 +4453,8 @@
       "word_ids": [
         "colonial",
         "colony",
-        "culture"
+        "culture",
+        "cultivate"
       ]
     },
     {
@@ -4198,7 +4512,10 @@
         "database",
         "date",
         "endow",
-        "dose"
+        "dose",
+        "donate",
+        "pardon",
+        "update"
       ],
       "noisy_variants": [
         "dare",
@@ -4260,7 +4577,10 @@
         "count",
         "deputy",
         "discount",
-        "dispute"
+        "dispute",
+        "computer",
+        "counter",
+        "reputation"
       ]
     },
     {
@@ -4390,7 +4710,8 @@
         "judge",
         "jury",
         "justice",
-        "justify"
+        "justify",
+        "just"
       ]
     },
     {
@@ -4448,7 +4769,8 @@
         "defence",
         "defend",
         "fence",
-        "offend"
+        "offend",
+        "offensive"
       ]
     },
     {
@@ -4500,7 +4822,10 @@
       "word_ids": [
         "fable",
         "fabulous",
-        "infant"
+        "infant",
+        "confess",
+        "fame",
+        "famous"
       ]
     },
     {
@@ -4590,7 +4915,9 @@
         "commerce",
         "market",
         "merchant",
-        "mercy"
+        "mercy",
+        "commercial",
+        "merchandise"
       ]
     },
     {
@@ -4629,7 +4956,12 @@
       "english_definition": "middle, midway",
       "word_ids": [
         "means",
-        "meantime"
+        "meantime",
+        "immediate",
+        "intermediate",
+        "meanwhile",
+        "medieval",
+        "medium"
       ]
     },
     {
@@ -4668,7 +5000,9 @@
       "word_ids": [
         "emerge",
         "immerse",
-        "merge"
+        "merge",
+        "emergency",
+        "submerge"
       ]
     },
     {
@@ -4728,7 +5062,8 @@
       "word_ids": [
         "nourish",
         "nurse",
-        "nurture"
+        "nurture",
+        "nursery"
       ]
     },
     {
@@ -4747,6 +5082,623 @@
         "collapse",
         "elapse",
         "lapse"
+      ]
+    },
+    {
+      "id": "unus",
+      "root": "unus",
+      "variants": [
+        "uni",
+        "oun"
+      ],
+      "origin": "拉丁语 unus（一，单独一个）；unio 指「一整个、独头的那颗」，罗马农人拿它称独头蒜，经古法语 oignon 进英语；uncia 是「十二分之一，一个小单位」，派出 ounce",
+      "core_concept": "one thing standing whole and alone / 单独一个，囫囵一整个",
+      "core_image": "一根手指立在桌上，旁边空着，就这一个，再没有第二个",
+      "english_definition": "one, single",
+      "word_ids": [
+        "onion",
+        "ounce",
+        "unanimous",
+        "unify",
+        "union",
+        "unique",
+        "unit",
+        "unite",
+        "unity",
+        "universal",
+        "universe",
+        "university"
+      ]
+    },
+    {
+      "id": "laxare",
+      "root": "laxare",
+      "variants": [
+        "lax",
+        "leas",
+        "lay"
+      ],
+      "origin": "拉丁语 laxare（松开、放开），来自 laxus（松的、不紧的）；经古法语 laissier（撂下不管）与 relaier（放开新犬接替）一支进英语，relais 本指撂下没带走的那部分",
+      "core_concept": "to let the tight go slack / 把绷紧的一放，那股劲就退了",
+      "core_image": "手里攥的绳子一寸寸往外送，绷起的那股劲慢慢没了",
+      "english_definition": "to loosen, let go",
+      "word_ids": [
+        "lease",
+        "relax",
+        "relay",
+        "release",
+        "relish"
+      ]
+    },
+    {
+      "id": "salvus",
+      "root": "salvus",
+      "variants": [
+        "saf",
+        "salv",
+        "salut"
+      ],
+      "origin": "拉丁语 salvus（未受伤的、完好的），与 salus（属格 salutis：安好、健康）同支；salutare 是问一声安好，晚期拉丁语 salvare（使完好）经古法语 sauver 进英语",
+      "core_concept": "whole and unhurt, nothing lost / 囫囵完好，一点没伤没缺",
+      "core_image": "大风过去，屋顶瓦一块没掉，人从门里走出来，身上干干净净",
+      "english_definition": "unharmed, whole",
+      "word_ids": [
+        "safe",
+        "safety",
+        "salute",
+        "salvation",
+        "save"
+      ]
+    },
+    {
+      "id": "insula",
+      "root": "insula",
+      "variants": [
+        "insul",
+        "isl",
+        "isol"
+      ],
+      "origin": "拉丁语 insula（岛）；古法语 isle 进英语成 isle，意大利语 isolato（成了岛的）派出 isolate，paene（几乎）加 insula 指几乎成岛的那块地",
+      "core_concept": "land cut off by water all round / 四面是水，跟别处断开的一块地",
+      "core_image": "一块地四周全是水，船撑走了，剩下的人再没有路通到对岸",
+      "english_definition": "island",
+      "word_ids": [
+        "insulate",
+        "isle",
+        "isolate",
+        "peninsula"
+      ]
+    },
+    {
+      "id": "poena",
+      "root": "poena",
+      "variants": [
+        "pain",
+        "pen",
+        "pun"
+      ],
+      "origin": "拉丁语 poena（罚、赔命的那笔账），借自希腊语 poinē（血债、赎金）；poenalis 派出 penalty，punire（施罚）经古法语 punir 进英语",
+      "core_concept": "the price exacted for a wrong / 做错事被讨回去的那笔账",
+      "core_image": "打碎了别人的东西，被人按住不许走，非得赔上一笔才放行",
+      "english_definition": "penalty, punishment",
+      "word_ids": [
+        "pain",
+        "painful",
+        "penalty",
+        "punish"
+      ]
+    },
+    {
+      "id": "idein",
+      "root": "idein",
+      "variants": [
+        "ide",
+        "idea",
+        "ideo"
+      ],
+      "origin": "希腊语 idein（看见），名词 idea 本指看见时现出的那个形相；柏拉图拿它指事物背后那个完好的样子，故 idealis 是合于那个样子的",
+      "core_concept": "the form a thing shows when seen / 一样东西被看见时现出的那个形",
+      "core_image": "眼睛一扫，那个形状先落进心里，东西搬走了，形状还在",
+      "english_definition": "to see, the form seen",
+      "word_ids": [
+        "idea",
+        "ideal",
+        "ideology"
+      ]
+    },
+    {
+      "id": "primus",
+      "root": "primus",
+      "variants": [
+        "prim",
+        "prem",
+        "princ",
+        "prior"
+      ],
+      "origin": "拉丁语 primus（第一的，序列最前的那个），比较级 prior（在前的、较早的）同出 pri- 一支；princeps（首位者）由 primus 与「占住位次」一支合成，故 prince/principal/principle 同族",
+      "core_concept": "the one standing at the front of the line / 站在序列最前的那一个",
+      "core_image": "一队人排开，最前头那个先动，后面的都照他的位置往下排",
+      "english_definition": "first, foremost, earliest",
+      "word_ids": [
+        "premier",
+        "primary",
+        "prime",
+        "primitive",
+        "prince",
+        "princess",
+        "principal",
+        "principle",
+        "prior",
+        "priority"
+      ]
+    },
+    {
+      "id": "imago",
+      "root": "imago",
+      "variants": [
+        "imag",
+        "imagin"
+      ],
+      "origin": "拉丁语 imago（宾格 imaginem：摹本、相像之物、心里浮出的样子），动词 imaginari 指在心里造出一个样子",
+      "core_concept": "a likeness that stands in for the thing itself / 一个替本物出面的摹样",
+      "core_image": "水面映出岸边的树，一摇就散，可刚才那一下和真树分毫不差",
+      "english_definition": "likeness, picture, to picture in the mind",
+      "word_ids": [
+        "image",
+        "imaginary",
+        "imagination",
+        "imaginative",
+        "imagine"
+      ]
+    },
+    {
+      "id": "reri-ratio",
+      "root": "reri-ratio",
+      "variants": [
+        "rat",
+        "ratio",
+        "reason"
+      ],
+      "origin": "拉丁语 reri（盘算、认定），过去分词 ratus 派出名词 ratio（逐笔算清后得出的账、比数、道理）；古法语 raison 由 rationem 来，故 reason 同族。词根 id 取 reri-ratio，以避与英文单词 ratio 同名",
+      "core_concept": "the account that comes out even after reckoning / 逐笔算平之后得出的那个数",
+      "core_image": "账房把两列数字对齐，一笔笔划掉，剩下的差额就是要报的那一个",
+      "english_definition": "to reckon, calculation, account, reason",
+      "word_ids": [
+        "rate",
+        "ratio",
+        "rational",
+        "reason",
+        "reasonable"
+      ]
+    },
+    {
+      "id": "foris",
+      "root": "foris",
+      "variants": [
+        "for",
+        "fore",
+        "forest",
+        "forum"
+      ],
+      "origin": "拉丁语 foris/foras（在门外、到门外去），与 fores（门扇）同支；forum 本指门外那片敞地，故成集会市集之所；中世纪拉丁语 forestis silva 指圈地之外的林子，故 forest（另有一说来自日耳曼语 furhitha 松林，未有定论）",
+      "core_concept": "outside the door, beyond what is enclosed / 门外，围起来的那圈之外",
+      "core_image": "一道门槛，跨出去就是没人管的那一片，屋里的规矩到此为止",
+      "english_definition": "out of doors, outside",
+      "word_ids": [
+        "foreign",
+        "foreigner",
+        "forest",
+        "forum"
+      ]
+    },
+    {
+      "id": "pax",
+      "root": "pax",
+      "variants": [
+        "pac",
+        "peac",
+        "pay"
+      ],
+      "origin": "拉丁语 pax（宾格 pacem：相争双方摆平后的状态），动词 pacare 意为安抚、摆平；古法语 paier 由 pacare 来，本义是把债主安抚下来，故英语 pay 与 peace 同族",
+      "core_concept": "a dispute put to rest so neither side presses on / 相争摆平，两边都不再往下追",
+      "core_image": "两人各退一步，钱货一交，攥着的手松开，谁也不再提这事",
+      "english_definition": "peace, to appease, to settle",
+      "word_ids": [
+        "pay",
+        "payment",
+        "peace",
+        "peaceful",
+        "repay"
+      ]
+    },
+    {
+      "id": "plus-more",
+      "root": "plus-more",
+      "variants": [
+        "plus",
+        "plur"
+      ],
+      "origin": "拉丁语 plus（更多，multus 的比较级），复数 plures 派出 pluralis（多于一的）；surplus 由古法语 sur-（越过）＋plus 合成。词根 id 加 -more 以避与英文单词 plus 同名；表「填满」的 ple- 一支在拉丁语中已是另一个词，不可并入",
+      "core_concept": "the amount past what was counted / 越过原有数目的那一部分",
+      "core_image": "秤盘上添到刻度还不停，指针又往前挪了一格",
+      "english_definition": "more, additional, beyond the number",
+      "word_ids": [
+        "plural",
+        "plus",
+        "surplus"
+      ]
+    },
+    {
+      "id": "rotula",
+      "root": "rotula",
+      "variants": [
+        "rot",
+        "rol",
+        "roll",
+        "round"
+      ],
+      "origin": "拉丁语 rota（轮子）的指小形 rotula（小轮、小圆片），中世纪拉丁语 rotulus 指卷成筒的羊皮纸卷；rotare（使转）、rotundus（圆的）同出 rota——一片圆的东西滚起来，或一张纸绕着自己卷成筒，是同一个动作",
+      "core_concept": "a little wheel, and anything wound round on itself / 一只小轮子，以及绕着自己卷起来的东西",
+      "core_image": "一张长纸从一头绕起来，卷成一个能在桌上滚的筒",
+      "english_definition": "to roll, to wind into a round",
+      "word_ids": [
+        "control",
+        "enroll",
+        "role",
+        "roll",
+        "rotary",
+        "rotate",
+        "round",
+        "surround"
+      ]
+    },
+    {
+      "id": "radius-ray",
+      "root": "radius-ray",
+      "variants": [
+        "radi",
+        "ray"
+      ],
+      "origin": "拉丁语 radius（细杆、车轮的辐条、光线），radiare 是「射出光来」；辐条从轮心一根根直伸到轮缘，光从一点直射开去，是同一个形。词根 id 加 -ray 后缀，因 radius 本身是本批要收的单词，作 id 会顶掉词根节点（照 campus-field、edere-publish 先例）",
+      "core_concept": "a spoke running straight out from the centre / 从中心直伸出去的一根辐条",
+      "core_image": "车轮的辐条从轴心直直伸到边上，一根接一根排开",
+      "english_definition": "a ray, a spoke; to shine out from a centre",
+      "word_ids": [
+        "radiant",
+        "radiate",
+        "radio",
+        "radioactive",
+        "radius",
+        "ray"
+      ]
+    },
+    {
+      "id": "ekhein",
+      "root": "ekhein",
+      "variants": [
+        "schol",
+        "schem",
+        "epoch"
+      ],
+      "origin": "希腊语 ekhein（拿住、持有，也表「按住不让动」），其不定式词干 skhe- 派出 skholē（从活计里扣下来的闲时，后指讲学之所）、skhēma（事物被持成的样子）、epokhē（被按停的那一刻）；经拉丁语 schola、schema 入英语",
+      "core_concept": "to hold, and to hold a thing still / 持住，并把一样东西按停",
+      "core_image": "手按在一样正动的东西上，它停住了，就那样被拿在手里",
+      "english_definition": "to hold, to hold back, to stop",
+      "word_ids": [
+        "epoch",
+        "scheme",
+        "scholar",
+        "school"
+      ]
+    },
+    {
+      "id": "mille",
+      "root": "mille",
+      "variants": [
+        "mill",
+        "milli",
+        "mile"
+      ],
+      "origin": "拉丁语 mille（一千），复数 milia；mille passuum（一千双步）就是古罗马的一里，英语 mile 由此。milli- 作前缀反过来表「千分之一」，因为一千份里只取一份",
+      "core_concept": "a thousand of a thing / 一千份",
+      "core_image": "一千步走完，路边立一块石头；石头之间那一段路，长短都一样",
+      "english_definition": "a thousand",
+      "word_ids": [
+        "mile",
+        "million",
+        "millionaire"
+      ]
+    },
+    {
+      "id": "honos",
+      "root": "honos",
+      "variants": [
+        "honor",
+        "honest"
+      ],
+      "origin": "拉丁语 honos（后作 honor：众人给的看重、体面），honestus 是「配得上这份看重的」，honorare 是「把这份看重给出去」。词根 id 用古体主格 honos，因 honor 本身是本批要收的单词，作 id 会顶掉词根节点（照 campus-field 先例）",
+      "core_concept": "the regard other people give you / 众人给你的那份看重",
+      "core_image": "他一进门，屋里坐着的人都站了起来",
+      "english_definition": "public regard, esteem",
+      "word_ids": [
+        "honest",
+        "honor",
+        "honorable"
+      ]
+    },
+    {
+      "id": "poiein",
+      "root": "poiein",
+      "variants": [
+        "poe",
+        "poet"
+      ],
+      "origin": "希腊语 poiein（做、造出来）：poiētēs 是「造的人」，poiēma 是「造出来的那件东西」；经拉丁语 poeta / poema 入英语——诗人在希腊人眼里首先是个手艺人，只是他的料是词",
+      "core_concept": "to make, to fashion a thing out of material / 拿料做出一件东西来",
+      "core_image": "他把材料一件件挑好，拼成一样原先没有的东西",
+      "english_definition": "to make, to create",
+      "word_ids": [
+        "poem",
+        "poet",
+        "poetry"
+      ]
+    },
+    {
+      "id": "novus",
+      "root": "novus",
+      "variants": [
+        "nov",
+        "novel"
+      ],
+      "origin": "拉丁语 novus（新的、初次出现的）；指小形 novellus 指新出的小东西，经古法语与意大利语 novella（新故事）入英语；renovare 即 re-＋novus（再变新）",
+      "core_concept": "just come into being, not seen before / 刚出现、此前没见过的",
+      "core_image": "树枝顶端那截嫩芽颜色比别处浅，昨天这里还什么都没有",
+      "english_definition": "new, newly appeared",
+      "word_ids": [
+        "innovation",
+        "novel",
+        "novelty",
+        "renovate"
+      ]
+    },
+    {
+      "id": "calx",
+      "root": "calx",
+      "variants": [
+        "calc",
+        "calcul",
+        "chalk"
+      ],
+      "origin": "拉丁语 calx（属格 calcis：石灰石、石灰）；指小形 calculus 指小石子，罗马人在板上摆石子记数，算术一义由此而来；古英语 cealc 是早期从拉丁语借入的同一词",
+      "core_concept": "a small white stone from burnt lime / 一粒烧石灰得来的白色小石",
+      "core_image": "手心里一把白色小石粒，捏碎搓成粉，指缝间簌簌往下落",
+      "english_definition": "limestone, lime, small pebble",
+      "word_ids": [
+        "calcium",
+        "calculate",
+        "chalk"
+      ]
+    },
+    {
+      "id": "fabrica",
+      "root": "fabrica",
+      "variants": [
+        "fabric",
+        "forge"
+      ],
+      "origin": "拉丁语 fabrica（工坊、手艺活）← faber（匠人）；通俗拉丁语缩作 *faurga，经古法语 forge 入英语，故 forge 与 fabric 同出一词",
+      "core_concept": "a workshop where parts are worked into a whole / 把零件做成整件的那间工坊",
+      "core_image": "棚子底下摆着砧和料，匠人一件件敲打拼接，出来的是原先没有的东西",
+      "english_definition": "workshop, craft, to construct",
+      "word_ids": [
+        "fabric",
+        "fabricate",
+        "forge"
+      ]
+    },
+    {
+      "id": "lacere",
+      "root": "lacere",
+      "variants": [
+        "lic",
+        "lect",
+        "light"
+      ],
+      "origin": "拉丁语 lacere（诱引、勾住），只存于复合词：delicere（引开、逗引）派出 deliciae（乐事）与 delectare（使愉悦）；与 placere（使中意）本是两个不相干的拉丁词，勿混",
+      "core_concept": "to draw someone in by pleasing them / 用好处把人勾过来",
+      "core_image": "厨房飘出一股味道，本来要走的人停下脚，往那边看",
+      "english_definition": "to entice, allure, draw in",
+      "word_ids": [
+        "delicate",
+        "delicious",
+        "delight"
+      ]
+    },
+    {
+      "id": "prehendere",
+      "root": "prehendere",
+      "variants": [
+        "prehend",
+        "prehens",
+        "pris",
+        "prey"
+      ],
+      "origin": "拉丁语 prehendere（伸手抓住），过去分词 prehensus；通俗拉丁语缩作 prendere，入古法语成 prendre（拿、抓），故英语这一支多拼作 pris；praeda（猎获物）是 prae-（在前）加同一个「抓」，即抓到手的那一份",
+      "core_concept": "reaching out and closing the hand on something / 伸手把东西攥进手里",
+      "core_image": "手指合上，攥住的那样东西再挣也挣不脱",
+      "english_definition": "to seize, grasp, take hold of",
+      "word_ids": [
+        "comprehend",
+        "comprise",
+        "enterprise",
+        "prey",
+        "prison",
+        "prisoner",
+        "surprise"
+      ]
+    },
+    {
+      "id": "centum",
+      "root": "centum",
+      "variants": [
+        "cent",
+        "centi"
+      ],
+      "origin": "拉丁语 centum（一百），centuria 是百人编成的一队；法语 cent 入英语后既作钱的百分位，也作构词成分的「百」",
+      "core_concept": "a full count of one hundred / 数满一百的那一整份",
+      "core_image": "一百个格子排满一整版，数到最后一格刚好齐",
+      "english_definition": "one hundred",
+      "word_ids": [
+        "cent",
+        "centigrade",
+        "century",
+        "percent"
+      ]
+    },
+    {
+      "id": "intrare",
+      "root": "intrare",
+      "variants": [
+        "enter",
+        "entr",
+        "entry"
+      ],
+      "origin": "拉丁语 intrare（走进去）← intra（在里面）；古法语作 entrer，故英语这一支拼作 enter/entr",
+      "core_concept": "crossing the threshold from outside to inside / 从外面跨过门槛到里面",
+      "core_image": "一只脚迈过门槛，人从外头到了里头，门在身后合上",
+      "english_definition": "to go in, step inside",
+      "word_ids": [
+        "enter",
+        "entrance",
+        "entry"
+      ]
+    },
+    {
+      "id": "metiri",
+      "root": "metiri",
+      "variants": [
+        "meas",
+        "mens",
+        "mensur"
+      ],
+      "origin": "拉丁语 metiri（量），过去分词 mensus，名词 mensura（量出来的尺寸）；与希腊语 metron 同出印欧语「量」的词根，本项目按拉丁一支另立，照 regula 与 rect 的先例",
+      "core_concept": "laying a standard against a thing to see how much / 拿尺贴上去，看它有多少",
+      "core_image": "卷尺贴着一段东西拉开，停在某一格上，那一格就是它的量",
+      "english_definition": "to measure, mark off a quantity",
+      "word_ids": [
+        "dimension",
+        "immense",
+        "measure"
+      ]
+    },
+    {
+      "id": "pes",
+      "root": "pes",
+      "variants": [
+        "ped",
+        "pedi",
+        "pede"
+      ],
+      "origin": "拉丁语 pes（属格 pedis：脚），形容词 pedalis（脚上的）、pedester（步行的）；expedire 本义把脚从绊索里解出来，故「脚」是这一支的本象",
+      "core_concept": "the foot a body moves on / 人靠它往前走的那只脚",
+      "core_image": "一只脚踩下去，重心压过去，身子跟着往前挪一步",
+      "english_definition": "foot, going on foot",
+      "word_ids": [
+        "expedition",
+        "pedal",
+        "pedestrian"
+      ]
+    },
+    {
+      "id": "nomen",
+      "root": "nomen",
+      "variants": [
+        "nomin",
+        "nomen",
+        "onym"
+      ],
+      "origin": "拉丁语 nomen（属格 nominis：名字、名称），动词 nominare（叫出名字、指名）由此出；希腊语 onoma（名）同出一个更古的词干，故 anonymous 一支也归此族",
+      "core_concept": "the word by which a thing is called / 用来叫出某物的那个词",
+      "core_image": "点名册上念出一串字，被念到的人应一声站起来",
+      "english_definition": "name, to call by name",
+      "word_ids": [
+        "anonymous",
+        "nominal",
+        "nominate",
+        "noun",
+        "pronoun"
+      ]
+    },
+    {
+      "id": "decem",
+      "root": "decem",
+      "variants": [
+        "dec",
+        "decim",
+        "dek"
+      ],
+      "origin": "拉丁语 decem（十），序数 decimus（第十）、duodecim（十二，duo＋decem）皆由此出；希腊语 deka（十）同出一个更古的词干，decade 经 dekas（一批十个）入英语。与 decere（相称，派出 decent）、decipere（诱骗，派出 deceive）不同根，勿混",
+      "core_concept": "a full count of ten / 数满十这一整批",
+      "core_image": "十根手指全数过一遍，正好一把，再数就得从头起",
+      "english_definition": "ten, a set of ten",
+      "word_ids": [
+        "decade",
+        "decimal",
+        "dozen"
+      ]
+    },
+    {
+      "id": "linum",
+      "root": "linum",
+      "variants": [
+        "lin",
+        "line",
+        "linea"
+      ],
+      "origin": "拉丁语 linum（亚麻），linea（亚麻搓成的细绳、拉直的绳）由此出——木匠绷紧一根亚麻绳往板上一弹，留下笔直一痕，故 linea 兼指线条与行列；古英语 lin（亚麻）多认为是早期借自拉丁语 linum。linum 自身更早词源不明，与希腊语 linon 一同多被判为地中海一带的外来词",
+      "core_concept": "a flax cord pulled taut / 一根亚麻绳绷紧后留下的那道直痕",
+      "core_image": "两手把细绳绷紧，往木板上一弹，板面上留下笔直的一道痕",
+      "english_definition": "flax, thread, line",
+      "word_ids": [
+        "line",
+        "linear",
+        "linen",
+        "liner"
+      ]
+    },
+    {
+      "id": "gaudium",
+      "root": "gaudium",
+      "variants": [
+        "gaud",
+        "joy",
+        "joi"
+      ],
+      "origin": "拉丁语 gaudium（喜悦），动词 gaudere（心里高兴）；复数 gaudia 经古法语 joie 入英语作 joy。与 jocus（玩笑，派出 joke、jewel）是两个不同的拉丁词，古法语里 joie 与 joiel 拼写相近而来源两分，勿混",
+      "core_concept": "gladness welling up inside / 心里那股高兴涌上来",
+      "core_image": "消息一听完，嘴角先控制不住，眼睛跟着亮起来",
+      "english_definition": "to be glad, gladness",
+      "word_ids": [
+        "enjoy",
+        "joy",
+        "rejoice"
+      ]
+    },
+    {
+      "id": "navis",
+      "root": "navis",
+      "variants": [
+        "nav",
+        "nau"
+      ],
+      "origin": "拉丁语 navis（船），navalis（船的）与 navigare（navis＋agere：驱船而行）由此出；古法语 navie（一国的船队）入英语作 navy",
+      "core_concept": "a ship, and the water it crosses / 一条船，以及它要渡过的那片水",
+      "core_image": "木壳吃水一半，桅上挂着旗，一队人立在甲板上，前头只有一片开阔的水",
+      "english_definition": "ship, of ships",
+      "word_ids": [
+        "naval",
+        "navigation",
+        "navy"
       ]
     }
   ]

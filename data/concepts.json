@@ -66,7 +66,10 @@
         "deform",
         "form",
         "former",
-        "performance"
+        "performance",
+        "format",
+        "formula",
+        "formulate"
       ]
     },
     {
@@ -129,7 +132,9 @@
         "postage",
         "posture",
         "positive",
-        "deposit"
+        "deposit",
+        "postpone",
+        "purpose"
       ]
     },
     {
@@ -156,7 +161,11 @@
         "missile",
         "missionary",
         "intermittent",
-        "promising"
+        "promising",
+        "emit",
+        "committee",
+        "compromise",
+        "promise"
       ]
     },
     {
@@ -191,7 +200,13 @@
         "spectacular",
         "spectrum",
         "despise",
-        "irrespective"
+        "irrespective",
+        "species",
+        "specific",
+        "specimen",
+        "speculate",
+        "suspicion",
+        "suspicious"
       ]
     },
     {
@@ -238,7 +253,9 @@
         "product",
         "productive",
         "reduction",
-        "introduction"
+        "introduction",
+        "reproduce",
+        "semiconductor"
       ]
     },
     {
@@ -262,7 +279,8 @@
         "reporter",
         "importance",
         "porter",
-        "port"
+        "port",
+        "sport"
       ]
     },
     {
@@ -323,7 +341,25 @@
         "stay",
         "cost",
         "costly",
-        "contrast"
+        "contrast",
+        "assist",
+        "consist",
+        "distance",
+        "exist",
+        "existence",
+        "insist",
+        "persist",
+        "substance",
+        "assistance",
+        "assistant",
+        "consistent",
+        "constituent",
+        "estate",
+        "statesman",
+        "statue",
+        "status",
+        "statute",
+        "superstition"
       ]
     },
     {
@@ -345,7 +381,9 @@
         "close",
         "disclose",
         "enclose",
-        "enclosure"
+        "enclosure",
+        "closet",
+        "conclusion"
       ]
     },
     {
@@ -366,7 +404,10 @@
         "tenant",
         "continent",
         "continual",
-        "continuous"
+        "continuous",
+        "maintain",
+        "rein",
+        "retention"
       ]
     },
     {
@@ -401,7 +442,10 @@
         "sufficient",
         "fashion",
         "feasible",
-        "fax"
+        "fax",
+        "affection",
+        "fashionable",
+        "perfection"
       ]
     },
     {
@@ -424,7 +468,15 @@
         "attendant",
         "contend",
         "intensity",
-        "tend"
+        "tend",
+        "attention",
+        "extension",
+        "extent",
+        "intense",
+        "intention",
+        "tense",
+        "tension",
+        "tent"
       ]
     },
     {
@@ -452,7 +504,13 @@
         "recede",
         "precedent",
         "preceding",
-        "concession"
+        "concession",
+        "access",
+        "excess",
+        "excessive",
+        "necessary",
+        "necessitate",
+        "necessity"
       ]
     },
     {
@@ -472,7 +530,10 @@
         "reject",
         "subject",
         "subjective",
-        "adjective"
+        "adjective",
+        "eject",
+        "jet",
+        "objection"
       ]
     },
     {
@@ -490,7 +551,16 @@
         "dependent",
         "expend",
         "expensive",
-        "suspend"
+        "suspend",
+        "expenditure",
+        "expense",
+        "independence",
+        "independent",
+        "indispensable",
+        "pendulum",
+        "pension",
+        "ponder",
+        "spend"
       ]
     },
     {
@@ -517,7 +587,10 @@
         "particle",
         "particular",
         "apart",
-        "apartment"
+        "apartment",
+        "partner",
+        "party",
+        "portion"
       ]
     },
     {
@@ -539,7 +612,9 @@
         "finance",
         "confine",
         "define",
-        "refine"
+        "refine",
+        "financial",
+        "fine"
       ]
     },
     {
@@ -562,7 +637,11 @@
         "exact",
         "exam",
         "interact",
-        "react"
+        "react",
+        "agent",
+        "activate",
+        "agency",
+        "ambiguous"
       ]
     },
     {
@@ -601,7 +680,12 @@
         "contradict",
         "dictate",
         "dictation",
-        "predict"
+        "predict",
+        "dedicate",
+        "index",
+        "indicate",
+        "contradiction",
+        "dictionary"
       ]
     },
     {
@@ -617,7 +701,8 @@
         "conscientious",
         "conscious",
         "science",
-        "scientist"
+        "scientist",
+        "scientific"
       ]
     },
     {
@@ -677,7 +762,8 @@
         "exquisite",
         "question",
         "questionnaire",
-        "acquisition"
+        "acquisition",
+        "acquire"
       ]
     },
     {
@@ -694,7 +780,15 @@
         "directly",
         "director",
         "rectify",
-        "directory"
+        "directory",
+        "dress",
+        "realm",
+        "regime",
+        "region",
+        "reign",
+        "royalty",
+        "direction",
+        "erect"
       ]
     },
     {
@@ -715,7 +809,11 @@
         "mobile",
         "mobilize",
         "moment",
-        "momentum"
+        "momentum",
+        "motivate",
+        "promote",
+        "remote",
+        "remove"
       ]
     },
     {
@@ -736,7 +834,14 @@
         "diverse",
         "inverse",
         "reverse",
-        "divorce"
+        "divorce",
+        "avert",
+        "anniversary",
+        "controversy",
+        "prose",
+        "controversial",
+        "conversion",
+        "diversion"
       ]
     },
     {
@@ -753,7 +858,10 @@
         "expel",
         "propel",
         "repel",
-        "appeal"
+        "appeal",
+        "impulse",
+        "pulse",
+        "push"
       ]
     },
     {
@@ -802,7 +910,8 @@
         "influence",
         "influential",
         "superfluous",
-        "flu"
+        "flu",
+        "fluid"
       ]
     },
     {
@@ -821,7 +930,10 @@
         "generous",
         "generalize",
         "generator",
-        "benign"
+        "benign",
+        "gene",
+        "hydrogen",
+        "gender"
       ]
     },
     {
@@ -842,7 +954,16 @@
         "employee",
         "employer",
         "exploit",
-        "display"
+        "display",
+        "apply",
+        "explicit",
+        "imply",
+        "reply",
+        "multiply",
+        "simple",
+        "duplicate",
+        "employment",
+        "unemployment"
       ]
     },
     {
@@ -858,7 +979,9 @@
         "local",
         "locality",
         "locate",
-        "location"
+        "location",
+        "couch",
+        "locomotive"
       ]
     },
     {
@@ -879,7 +1002,12 @@
         "suitable",
         "suite",
         "prosecute",
-        "persecute"
+        "persecute",
+        "execute",
+        "executive",
+        "pursue",
+        "second",
+        "sue"
       ]
     },
     {
@@ -896,7 +1024,10 @@
         "competition",
         "petition",
         "repetition",
-        "perpetual"
+        "perpetual",
+        "compete",
+        "competitive",
+        "repeat"
       ]
     },
     {
@@ -929,7 +1060,9 @@
         "excursion",
         "incur",
         "occur",
-        "recur"
+        "recur",
+        "curriculum",
+        "occurrence"
       ]
     },
     {
@@ -948,7 +1081,8 @@
         "prove",
         "probability",
         "probable",
-        "probe"
+        "probe",
+        "proof"
       ]
     },
     {
@@ -965,7 +1099,11 @@
         "minister",
         "minor",
         "minority",
-        "menu"
+        "menu",
+        "administration",
+        "minimum",
+        "ministry",
+        "minus"
       ]
     },
     {
@@ -981,7 +1119,11 @@
         "possess",
         "possession",
         "possibility",
-        "possible"
+        "possible",
+        "potential",
+        "power",
+        "powerful",
+        "possibly"
       ]
     },
     {
@@ -997,7 +1139,9 @@
         "publication",
         "publicity",
         "publish",
-        "republic"
+        "republic",
+        "pub",
+        "republican"
       ]
     },
     {
@@ -1048,7 +1192,12 @@
         "multiple",
         "supplement",
         "triple",
-        "comply"
+        "comply",
+        "accomplish",
+        "complete",
+        "plentiful",
+        "plenty",
+        "supply"
       ]
     },
     {
@@ -1079,7 +1228,8 @@
         "adequate",
         "equal",
         "equality",
-        "equation"
+        "equation",
+        "equivalent"
       ]
     },
     {
@@ -1094,7 +1244,8 @@
         "claim",
         "exclaim",
         "proclaim",
-        "reclaim"
+        "reclaim",
+        "acclaim"
       ]
     },
     {
@@ -1144,7 +1295,10 @@
         "inspiration",
         "inspire",
         "spiral",
-        "expire"
+        "expire",
+        "aspire",
+        "spirit",
+        "spiritual"
       ]
     },
     {
@@ -1160,7 +1314,9 @@
         "association",
         "sociable",
         "social",
-        "society"
+        "society",
+        "socialism",
+        "sociology"
       ]
     },
     {
@@ -1175,7 +1331,9 @@
         "ascertain",
         "certain",
         "certainly",
-        "certainty"
+        "certainty",
+        "certificate",
+        "certify"
       ]
     },
     {
@@ -1190,7 +1348,8 @@
         "abnormal",
         "norm",
         "normal",
-        "normalization"
+        "normalization",
+        "enormous"
       ]
     },
     {
@@ -1205,7 +1364,8 @@
         "contest",
         "protest",
         "test",
-        "testify"
+        "testify",
+        "testimony"
       ]
     },
     {
@@ -1220,7 +1380,9 @@
         "communicate",
         "communication",
         "communism",
-        "community"
+        "community",
+        "commonwealth",
+        "immune"
       ]
     },
     {
@@ -1239,7 +1401,10 @@
         "progress",
         "progressive",
         "congress",
-        "degree"
+        "degree",
+        "centigrade",
+        "graduate",
+        "undergraduate"
       ]
     },
     {
@@ -1255,7 +1420,9 @@
         "diffuse",
         "fuse",
         "refuse",
-        "futile"
+        "futile",
+        "confusion",
+        "refusal"
       ]
     },
     {
@@ -1352,7 +1519,9 @@
         "national",
         "native",
         "nature",
-        "naive"
+        "naive",
+        "nationality",
+        "natural"
       ]
     },
     {
@@ -1367,7 +1536,8 @@
         "central",
         "centre",
         "concentrate",
-        "concentration"
+        "concentration",
+        "eccentric"
       ]
     },
     {
@@ -1397,7 +1567,8 @@
         "durable",
         "duration",
         "during",
-        "endurance"
+        "endurance",
+        "endure"
       ]
     },
     {
@@ -1413,7 +1584,8 @@
         "dominant",
         "dominate",
         "predominant",
-        "madame"
+        "madame",
+        "dome"
       ]
     },
     {
@@ -1431,7 +1603,9 @@
         "secure",
         "security",
         "ensure",
-        "insure"
+        "insure",
+        "accuracy",
+        "sure"
       ]
     },
     {
@@ -1447,7 +1621,8 @@
         "credible",
         "credit",
         "incredible",
-        "grant"
+        "grant",
+        "credential"
       ]
     },
     {
@@ -1463,7 +1638,10 @@
         "grace",
         "graceful",
         "gracious",
-        "grateful"
+        "grateful",
+        "congratulate",
+        "congratulation",
+        "gratitude"
       ]
     },
     {
@@ -1477,7 +1655,9 @@
       "word_ids": [
         "appreciate",
         "precious",
-        "price"
+        "price",
+        "praise",
+        "prize"
       ]
     },
     {
@@ -1494,7 +1674,10 @@
         "sensation",
         "sense",
         "sensible",
-        "sentence"
+        "sentence",
+        "consensus",
+        "nonsense",
+        "sensitive"
       ]
     },
     {
@@ -1556,7 +1739,8 @@
         "solution",
         "solve",
         "resolution",
-        "resolute"
+        "resolute",
+        "soluble"
       ]
     },
     {
@@ -1571,7 +1755,8 @@
         "conviction",
         "convince",
         "province",
-        "victory"
+        "victory",
+        "convict"
       ]
     },
     {
@@ -1637,7 +1822,9 @@
         "diligent",
         "elite",
         "lecture",
-        "select"
+        "select",
+        "college",
+        "legend"
       ]
     },
     {
@@ -1694,7 +1881,10 @@
         "place",
         "replace",
         "replacement",
-        "displace"
+        "displace",
+        "plate",
+        "plateau",
+        "platform"
       ]
     },
     {
@@ -1726,7 +1916,17 @@
         "invention",
         "inventory",
         "invite",
-        "prevent"
+        "prevent",
+        "convenient",
+        "event",
+        "eventually",
+        "advent",
+        "adventure",
+        "convenience",
+        "convention",
+        "conventional",
+        "intervene",
+        "revenue"
       ]
     },
     {
@@ -1756,7 +1956,8 @@
         "president",
         "residence",
         "resident",
-        "subsidy"
+        "subsidy",
+        "preside"
       ]
     },
     {
@@ -1788,7 +1989,8 @@
         "practical",
         "practically",
         "practise",
-        "practitioner"
+        "practitioner",
+        "practice"
       ]
     },
     {
@@ -1803,7 +2005,8 @@
         "physical",
         "physician",
         "physicist",
-        "physics"
+        "physics",
+        "physiological"
       ]
     },
     {
@@ -1818,7 +2021,10 @@
         "compass",
         "pass",
         "passage",
-        "surpass"
+        "surpass",
+        "pace",
+        "passenger",
+        "passport"
       ]
     },
     {
@@ -1879,7 +2085,9 @@
       "word_ids": [
         "advocate",
         "vocal",
-        "vocation"
+        "vocation",
+        "evoke",
+        "provoke"
       ]
     },
     {
@@ -1893,7 +2101,8 @@
       "word_ids": [
         "disturb",
         "disturbance",
-        "turbine"
+        "turbine",
+        "turbulent"
       ]
     },
     {
@@ -1909,7 +2118,8 @@
         "contribute",
         "distribute",
         "tribute",
-        "contribution"
+        "contribution",
+        "tribe"
       ]
     },
     {
@@ -1923,7 +2133,8 @@
       "word_ids": [
         "distort",
         "retort",
-        "torture"
+        "torture",
+        "torment"
       ]
     },
     {
@@ -1951,7 +2162,8 @@
       "word_ids": [
         "hypothesis",
         "synthesis",
-        "thesis"
+        "thesis",
+        "synthetic"
       ]
     },
     {
@@ -2029,7 +2241,10 @@
         "notable",
         "notify",
         "notion",
-        "notorious"
+        "notorious",
+        "denote",
+        "note",
+        "notebook"
       ]
     },
     {
@@ -2043,7 +2258,9 @@
       "word_ids": [
         "operate",
         "operation",
-        "operational"
+        "operational",
+        "cooperate",
+        "operator"
       ]
     },
     {
@@ -2100,7 +2317,8 @@
       "word_ids": [
         "terrible",
         "terrify",
-        "terror"
+        "terror",
+        "terrific"
       ]
     },
     {
@@ -2114,7 +2332,11 @@
       "word_ids": [
         "abrupt",
         "corrupt",
-        "disrupt"
+        "disrupt",
+        "bankrupt",
+        "erupt",
+        "route",
+        "routine"
       ]
     },
     {
@@ -2142,7 +2364,9 @@
       "word_ids": [
         "affirm",
         "confirm",
-        "firm"
+        "firm",
+        "farm",
+        "farmer"
       ]
     },
     {
@@ -2156,7 +2380,8 @@
       "word_ids": [
         "announce",
         "denounce",
-        "pronounce"
+        "pronounce",
+        "pronunciation"
       ]
     },
     {
@@ -2174,7 +2399,9 @@
         "encourage",
         "accord",
         "accordance",
-        "accordingly"
+        "accordingly",
+        "record",
+        "recorder"
       ]
     },
     {
@@ -2191,7 +2418,8 @@
         "passion",
         "passive",
         "patience",
-        "patient"
+        "patient",
+        "compatible"
       ]
     },
     {
@@ -2222,7 +2450,8 @@
         "appointment",
         "point",
         "punctual",
-        "disappoint"
+        "disappoint",
+        "punch"
       ]
     },
     {
@@ -2280,7 +2509,8 @@
       "word_ids": [
         "clarify",
         "clarity",
-        "declare"
+        "declare",
+        "declaration"
       ]
     },
     {
@@ -2309,7 +2539,9 @@
       "word_ids": [
         "digest",
         "gesture",
-        "suggest"
+        "suggest",
+        "register",
+        "suggestion"
       ]
     },
     {
@@ -2340,7 +2572,9 @@
         "catch",
         "chase",
         "cable",
-        "deceit"
+        "deceit",
+        "cater",
+        "purchase"
       ]
     },
     {
@@ -2355,7 +2589,14 @@
         "envisage",
         "invisible",
         "advisable",
-        "evident"
+        "evident",
+        "envy",
+        "advise",
+        "provide",
+        "provision",
+        "prudent",
+        "revise",
+        "supervise"
       ]
     },
     {
@@ -2369,7 +2610,9 @@
       "word_ids": [
         "precise",
         "concise",
-        "cement"
+        "cement",
+        "decide",
+        "decision"
       ]
     },
     {
@@ -2412,7 +2655,8 @@
         "aggravate",
         "grave",
         "gravity",
-        "grief"
+        "grief",
+        "grieve"
       ]
     },
     {
@@ -2441,7 +2685,8 @@
       "word_ids": [
         "attempt",
         "contempt",
-        "tempt"
+        "tempt",
+        "temptation"
       ]
     },
     {
@@ -2467,7 +2712,10 @@
       "word_ids": [
         "comparable",
         "pair",
-        "repair"
+        "repair",
+        "compare",
+        "comparison",
+        "peer"
       ]
     },
     {
@@ -2479,7 +2727,9 @@
         "compilare"
       ],
       "word_ids": [
-        "compile"
+        "compile",
+        "pile",
+        "pillar"
       ]
     },
     {
@@ -2506,7 +2756,8 @@
       ],
       "word_ids": [
         "prevalent",
-        "avail"
+        "avail",
+        "prevail"
       ]
     },
     {
@@ -2561,7 +2812,8 @@
         "hostess",
         "hostile",
         "hospital",
-        "hospitality"
+        "hospitality",
+        "hotel"
       ]
     },
     {
@@ -2576,7 +2828,8 @@
         "concern",
         "concerning",
         "discern",
-        "discreet"
+        "discreet",
+        "discriminate"
       ]
     },
     {
@@ -2590,7 +2843,12 @@
       "word_ids": [
         "lever",
         "levy",
-        "relevant"
+        "relevant",
+        "alleviate",
+        "elevate",
+        "elevator",
+        "relief",
+        "relieve"
       ]
     },
     {
@@ -2604,7 +2862,8 @@
       "word_ids": [
         "music",
         "musical",
-        "musician"
+        "musician",
+        "museum"
       ]
     },
     {
@@ -2619,7 +2878,8 @@
         "art",
         "artist",
         "artistic",
-        "inertia"
+        "inertia",
+        "article"
       ]
     },
     {
@@ -2647,7 +2907,8 @@
       "word_ids": [
         "origin",
         "original",
-        "originate"
+        "originate",
+        "orient"
       ]
     },
     {
@@ -2712,7 +2973,10 @@
       "word_ids": [
         "manage",
         "manner",
-        "manual"
+        "manual",
+        "management",
+        "manager",
+        "maneuver"
       ]
     },
     {
@@ -2726,7 +2990,8 @@
       "word_ids": [
         "space",
         "spaceship",
-        "spacious"
+        "spacious",
+        "spacecraft"
       ]
     },
     {
@@ -2797,7 +3062,13 @@
       "word_ids": [
         "delegate",
         "legacy",
-        "legal"
+        "legal",
+        "colleague",
+        "legislation",
+        "legitimate",
+        "loyal",
+        "loyalty",
+        "privilege"
       ]
     },
     {
@@ -2815,7 +3086,13 @@
         "ally",
         "alliance",
         "alloy",
-        "league"
+        "league",
+        "liable",
+        "oblige",
+        "rally",
+        "reliable",
+        "reliance",
+        "rely"
       ]
     },
     {
@@ -2858,7 +3135,13 @@
         "moderate",
         "modify",
         "modern",
-        "modernization"
+        "modernization",
+        "mode",
+        "model",
+        "modest",
+        "module",
+        "mould",
+        "accommodate"
       ]
     },
     {
@@ -2872,7 +3155,8 @@
       "word_ids": [
         "qualification",
         "qualify",
-        "quality"
+        "quality",
+        "qualitative"
       ]
     },
     {
@@ -2891,7 +3175,8 @@
         "accidental",
         "chance",
         "cheat",
-        "decay"
+        "decay",
+        "coincide"
       ]
     },
     {
@@ -2992,7 +3277,13 @@
       "word_ids": [
         "regard",
         "regarding",
-        "regardless"
+        "regardless",
+        "award",
+        "guard",
+        "reward",
+        "ward",
+        "wardrobe",
+        "disregard"
       ]
     },
     {
@@ -3006,7 +3297,11 @@
       "word_ids": [
         "regular",
         "regulate",
-        "regulation"
+        "regulation",
+        "rail",
+        "railroad",
+        "rule",
+        "ruler"
       ]
     },
     {
@@ -3034,7 +3329,9 @@
       "word_ids": [
         "journal",
         "journalist",
-        "journey"
+        "journey",
+        "dial",
+        "diary"
       ]
     },
     {
@@ -3053,7 +3350,8 @@
         "parameter",
         "thermometer",
         "geometry",
-        "centimetre"
+        "centimetre",
+        "millimeter"
       ]
     },
     {
@@ -3128,7 +3426,8 @@
         "plane",
         "plain",
         "explain",
-        "aeroplane"
+        "aeroplane",
+        "piano"
       ]
     },
     {
@@ -3176,7 +3475,12 @@
         "present",
         "presently",
         "represent",
-        "representative"
+        "representative",
+        "absent",
+        "entity",
+        "essence",
+        "essential",
+        "interest"
       ]
     },
     {
@@ -3189,7 +3493,8 @@
       ],
       "word_ids": [
         "profession",
-        "professor"
+        "professor",
+        "professional"
       ]
     },
     {
@@ -3201,7 +3506,8 @@
         "filum"
       ],
       "word_ids": [
-        "profile"
+        "profile",
+        "file"
       ]
     },
     {
@@ -3215,7 +3521,8 @@
       "word_ids": [
         "prosper",
         "prosperity",
-        "prosperous"
+        "prosperous",
+        "desperate"
       ]
     },
     {
@@ -3290,7 +3597,8 @@
         "carriage",
         "carrier",
         "carry",
-        "charge"
+        "charge",
+        "discharge"
       ]
     },
     {
@@ -3353,7 +3661,8 @@
         "camp",
         "campaign",
         "campus",
-        "champion"
+        "champion",
+        "champagne"
       ]
     },
     {
@@ -3368,7 +3677,8 @@
         "circle",
         "circuit",
         "circular",
-        "circus"
+        "circus",
+        "circulate"
       ]
     },
     {
@@ -3382,7 +3692,8 @@
       "word_ids": [
         "battle",
         "combat",
-        "debate"
+        "debate",
+        "battery"
       ]
     },
     {
@@ -3427,7 +3738,8 @@
       "word_ids": [
         "cite",
         "excite",
-        "recite"
+        "recite",
+        "excitement"
       ]
     },
     {
@@ -3442,7 +3754,8 @@
         "climate",
         "climax",
         "clinic",
-        "incline"
+        "incline",
+        "decline"
       ]
     },
     {
@@ -3471,7 +3784,8 @@
       "word_ids": [
         "colonial",
         "colony",
-        "culture"
+        "culture",
+        "cultivate"
       ]
     },
     {
@@ -3516,7 +3830,10 @@
         "database",
         "date",
         "endow",
-        "dose"
+        "dose",
+        "donate",
+        "pardon",
+        "update"
       ]
     },
     {
@@ -3561,7 +3878,10 @@
         "count",
         "deputy",
         "discount",
-        "dispute"
+        "dispute",
+        "computer",
+        "counter",
+        "reputation"
       ]
     },
     {
@@ -3663,7 +3983,8 @@
         "judge",
         "jury",
         "justice",
-        "justify"
+        "justify",
+        "just"
       ]
     },
     {
@@ -3709,7 +4030,8 @@
         "defence",
         "defend",
         "fence",
-        "offend"
+        "offend",
+        "offensive"
       ]
     },
     {
@@ -3751,7 +4073,10 @@
       "word_ids": [
         "fable",
         "fabulous",
-        "infant"
+        "infant",
+        "confess",
+        "fame",
+        "famous"
       ]
     },
     {
@@ -3822,7 +4147,9 @@
         "commerce",
         "market",
         "merchant",
-        "mercy"
+        "mercy",
+        "commercial",
+        "merchandise"
       ]
     },
     {
@@ -3850,7 +4177,12 @@
       ],
       "word_ids": [
         "means",
-        "meantime"
+        "meantime",
+        "immediate",
+        "intermediate",
+        "meanwhile",
+        "medieval",
+        "medium"
       ]
     },
     {
@@ -3878,7 +4210,9 @@
       "word_ids": [
         "emerge",
         "immerse",
-        "merge"
+        "merge",
+        "emergency",
+        "submerge"
       ]
     },
     {
@@ -3921,7 +4255,8 @@
       "word_ids": [
         "nourish",
         "nurse",
-        "nurture"
+        "nurture",
+        "nursery"
       ]
     },
     {
@@ -3936,6 +4271,501 @@
         "collapse",
         "elapse",
         "lapse"
+      ]
+    },
+    {
+      "id": "concept-unus-one",
+      "concept": "one thing standing whole and alone",
+      "chinese": "独一",
+      "core_image": "一根手指立在桌上，旁边空着，就这一个，再没有第二个",
+      "root_ids": [
+        "unus"
+      ],
+      "word_ids": [
+        "onion",
+        "ounce",
+        "unanimous",
+        "unify",
+        "union",
+        "unique",
+        "unit",
+        "unite",
+        "unity",
+        "universal",
+        "universe",
+        "university"
+      ]
+    },
+    {
+      "id": "concept-laxare-loosen",
+      "concept": "to let the tight go slack",
+      "chinese": "松开",
+      "core_image": "手里攥的绳子一寸寸往外送，绷起的那股劲慢慢没了",
+      "root_ids": [
+        "laxare"
+      ],
+      "word_ids": [
+        "lease",
+        "relax",
+        "relay",
+        "release",
+        "relish"
+      ]
+    },
+    {
+      "id": "concept-salvus-unharmed",
+      "concept": "whole and unhurt, nothing lost",
+      "chinese": "完好无伤",
+      "core_image": "大风过去，屋顶瓦一块没掉，人从门里走出来，身上干干净净",
+      "root_ids": [
+        "salvus"
+      ],
+      "word_ids": [
+        "safe",
+        "safety",
+        "salute",
+        "salvation",
+        "save"
+      ]
+    },
+    {
+      "id": "concept-insula-island",
+      "concept": "land cut off by water all round",
+      "chinese": "四面隔水",
+      "core_image": "一块地四周全是水，船撑走了，剩下的人再没有路通到对岸",
+      "root_ids": [
+        "insula"
+      ],
+      "word_ids": [
+        "insulate",
+        "isle",
+        "isolate",
+        "peninsula"
+      ]
+    },
+    {
+      "id": "concept-poena-penalty",
+      "concept": "the price exacted for a wrong",
+      "chinese": "受罚之苦",
+      "core_image": "打碎了别人的东西，被人按住不许走，非得赔上一笔才放行",
+      "root_ids": [
+        "poena"
+      ],
+      "word_ids": [
+        "pain",
+        "painful",
+        "penalty",
+        "punish"
+      ]
+    },
+    {
+      "id": "concept-idein-form",
+      "concept": "the form a thing shows when seen",
+      "chinese": "所见之形",
+      "core_image": "眼睛一扫，那个形状先落进心里，东西搬走了，形状还在",
+      "root_ids": [
+        "idein"
+      ],
+      "word_ids": [
+        "idea",
+        "ideal",
+        "ideology"
+      ]
+    },
+    {
+      "id": "concept-primus-first",
+      "concept": "the one standing at the front of the line",
+      "chinese": "排在最前",
+      "core_image": "一队人排开，最前头那个先动，后面的都照他的位置往下排",
+      "root_ids": [
+        "primus"
+      ],
+      "word_ids": [
+        "premier",
+        "primary",
+        "prime",
+        "primitive",
+        "prince",
+        "princess",
+        "principal",
+        "principle",
+        "prior",
+        "priority"
+      ]
+    },
+    {
+      "id": "concept-imago-likeness",
+      "concept": "a likeness that stands in for the thing itself",
+      "chinese": "摹出样子",
+      "core_image": "水面映出岸边的树，一摇就散，可刚才那一下和真树分毫不差",
+      "root_ids": [
+        "imago"
+      ],
+      "word_ids": [
+        "image",
+        "imaginary",
+        "imagination",
+        "imaginative",
+        "imagine"
+      ]
+    },
+    {
+      "id": "concept-reri-ratio-reckon",
+      "concept": "the account that comes out even after reckoning",
+      "chinese": "算得清",
+      "core_image": "账房把两列数字对齐，一笔笔划掉，剩下的差额就是要报的那一个",
+      "root_ids": [
+        "reri-ratio"
+      ],
+      "word_ids": [
+        "rate",
+        "ratio",
+        "rational",
+        "reason",
+        "reasonable"
+      ]
+    },
+    {
+      "id": "concept-foris-outdoors",
+      "concept": "outside the door, beyond what is enclosed",
+      "chinese": "门外那片",
+      "core_image": "一道门槛，跨出去就是没人管的那一片，屋里的规矩到此为止",
+      "root_ids": [
+        "foris"
+      ],
+      "word_ids": [
+        "foreign",
+        "foreigner",
+        "forest",
+        "forum"
+      ]
+    },
+    {
+      "id": "concept-pax-settle",
+      "concept": "a dispute put to rest so neither side presses on",
+      "chinese": "摆平相争",
+      "core_image": "两人各退一步，钱货一交，攥着的手松开，谁也不再提这事",
+      "root_ids": [
+        "pax"
+      ],
+      "word_ids": [
+        "pay",
+        "payment",
+        "peace",
+        "peaceful",
+        "repay"
+      ]
+    },
+    {
+      "id": "concept-plus-more-more",
+      "concept": "the amount past what was counted",
+      "chinese": "多出来",
+      "core_image": "秤盘上添到刻度还不停，指针又往前挪了一格",
+      "root_ids": [
+        "plus-more"
+      ],
+      "word_ids": [
+        "plural",
+        "plus",
+        "surplus"
+      ]
+    },
+    {
+      "id": "concept-rotula-roll",
+      "concept": "a little wheel, and anything wound round on itself",
+      "chinese": "卷起滚动",
+      "core_image": "一张长纸从一头绕起来，卷成一个能在桌上滚的筒",
+      "root_ids": [
+        "rotula"
+      ],
+      "word_ids": [
+        "control",
+        "enroll",
+        "role",
+        "roll",
+        "rotary",
+        "rotate",
+        "round",
+        "surround"
+      ]
+    },
+    {
+      "id": "concept-radius-ray-spoke",
+      "concept": "a spoke running straight out from the centre",
+      "chinese": "自心直射",
+      "core_image": "车轮的辐条从轴心直直伸到边上，一根接一根排开",
+      "root_ids": [
+        "radius-ray"
+      ],
+      "word_ids": [
+        "radiant",
+        "radiate",
+        "radio",
+        "radioactive",
+        "radius",
+        "ray"
+      ]
+    },
+    {
+      "id": "concept-ekhein-hold",
+      "concept": "to hold, and to hold a thing still",
+      "chinese": "按住持有",
+      "core_image": "手按在一样正动的东西上，它停住了，就那样被拿在手里",
+      "root_ids": [
+        "ekhein"
+      ],
+      "word_ids": [
+        "epoch",
+        "scheme",
+        "scholar",
+        "school"
+      ]
+    },
+    {
+      "id": "concept-mille-thousand",
+      "concept": "a thousand of a thing",
+      "chinese": "一千",
+      "core_image": "一千步走完，路边立一块石头；石头之间那一段路，长短都一样",
+      "root_ids": [
+        "mille"
+      ],
+      "word_ids": [
+        "mile",
+        "million",
+        "millionaire"
+      ]
+    },
+    {
+      "id": "concept-honos-esteem",
+      "concept": "the regard other people give you",
+      "chinese": "众人看重",
+      "core_image": "他一进门，屋里坐着的人都站了起来",
+      "root_ids": [
+        "honos"
+      ],
+      "word_ids": [
+        "honest",
+        "honor",
+        "honorable"
+      ]
+    },
+    {
+      "id": "concept-poiein-make",
+      "concept": "to make, to fashion a thing out of material",
+      "chinese": "造出来",
+      "core_image": "他把材料一件件挑好，拼成一样原先没有的东西",
+      "root_ids": [
+        "poiein"
+      ],
+      "word_ids": [
+        "poem",
+        "poet",
+        "poetry"
+      ]
+    },
+    {
+      "id": "concept-novus-new",
+      "concept": "just come into being, not seen before",
+      "chinese": "初次出现",
+      "core_image": "树枝顶端那截嫩芽颜色比别处浅，昨天这里还什么都没有",
+      "root_ids": [
+        "novus"
+      ],
+      "word_ids": [
+        "innovation",
+        "novel",
+        "novelty",
+        "renovate"
+      ]
+    },
+    {
+      "id": "concept-calx-pebble",
+      "concept": "a small white stone from burnt lime",
+      "chinese": "白石小粒",
+      "core_image": "手心里一把白色小石粒，捏碎搓成粉，指缝间簌簌往下落",
+      "root_ids": [
+        "calx"
+      ],
+      "word_ids": [
+        "calcium",
+        "calculate",
+        "chalk"
+      ]
+    },
+    {
+      "id": "concept-fabrica-workshop",
+      "concept": "a workshop where parts are worked into a whole",
+      "chinese": "工坊造作",
+      "core_image": "棚子底下摆着砧和料，匠人一件件敲打拼接，出来的是原先没有的东西",
+      "root_ids": [
+        "fabrica"
+      ],
+      "word_ids": [
+        "fabric",
+        "fabricate",
+        "forge"
+      ]
+    },
+    {
+      "id": "concept-lacere-entice",
+      "concept": "to draw someone in by pleasing them",
+      "chinese": "引诱勾住",
+      "core_image": "厨房飘出一股味道，本来要走的人停下脚，往那边看",
+      "root_ids": [
+        "lacere"
+      ],
+      "word_ids": [
+        "delicate",
+        "delicious",
+        "delight"
+      ]
+    },
+    {
+      "id": "concept-prehendere-seize",
+      "concept": "reaching out and closing the hand on something",
+      "chinese": "抓住不放",
+      "core_image": "手指合上，攥住的那样东西再挣也挣不脱",
+      "root_ids": [
+        "prehendere"
+      ],
+      "word_ids": [
+        "comprehend",
+        "comprise",
+        "enterprise",
+        "prey",
+        "prison",
+        "prisoner",
+        "surprise"
+      ]
+    },
+    {
+      "id": "concept-centum-hundred",
+      "concept": "a full count of one hundred",
+      "chinese": "一百",
+      "core_image": "一百个格子排满一整版，数到最后一格刚好齐",
+      "root_ids": [
+        "centum"
+      ],
+      "word_ids": [
+        "cent",
+        "centigrade",
+        "century",
+        "percent"
+      ]
+    },
+    {
+      "id": "concept-intrare-enter",
+      "concept": "crossing the threshold from outside to inside",
+      "chinese": "进到里面",
+      "core_image": "一只脚迈过门槛，人从外头到了里头，门在身后合上",
+      "root_ids": [
+        "intrare"
+      ],
+      "word_ids": [
+        "enter",
+        "entrance",
+        "entry"
+      ]
+    },
+    {
+      "id": "concept-metiri-measure",
+      "concept": "laying a standard against a thing to see how much",
+      "chinese": "量出多少",
+      "core_image": "卷尺贴着一段东西拉开，停在某一格上，那一格就是它的量",
+      "root_ids": [
+        "metiri"
+      ],
+      "word_ids": [
+        "dimension",
+        "immense",
+        "measure"
+      ]
+    },
+    {
+      "id": "concept-pes-foot",
+      "concept": "the foot a body moves on",
+      "chinese": "脚与步行",
+      "core_image": "一只脚踩下去，重心压过去，身子跟着往前挪一步",
+      "root_ids": [
+        "pes"
+      ],
+      "word_ids": [
+        "expedition",
+        "pedal",
+        "pedestrian"
+      ]
+    },
+    {
+      "id": "concept-nomen-name",
+      "concept": "the word by which a thing is called",
+      "chinese": "叫出名字",
+      "core_image": "点名册上念出一串字，被念到的人应一声站起来",
+      "root_ids": [
+        "nomen"
+      ],
+      "word_ids": [
+        "anonymous",
+        "nominal",
+        "nominate",
+        "noun",
+        "pronoun"
+      ]
+    },
+    {
+      "id": "concept-decem-ten",
+      "concept": "a full count of ten",
+      "chinese": "数满十",
+      "core_image": "十根手指全数过一遍，正好一把，再数就得从头起",
+      "root_ids": [
+        "decem"
+      ],
+      "word_ids": [
+        "decade",
+        "decimal",
+        "dozen"
+      ]
+    },
+    {
+      "id": "concept-linum-flax",
+      "concept": "a flax cord pulled taut",
+      "chinese": "拉直的线",
+      "core_image": "两手把细绳绷紧，往木板上一弹，板面上留下笔直的一道痕",
+      "root_ids": [
+        "linum"
+      ],
+      "word_ids": [
+        "line",
+        "linear",
+        "linen",
+        "liner"
+      ]
+    },
+    {
+      "id": "concept-gaudium-gladness",
+      "concept": "gladness welling up inside",
+      "chinese": "心头发亮",
+      "core_image": "消息一听完，嘴角先控制不住，眼睛跟着亮起来",
+      "root_ids": [
+        "gaudium"
+      ],
+      "word_ids": [
+        "enjoy",
+        "joy",
+        "rejoice"
+      ]
+    },
+    {
+      "id": "concept-navis-ship",
+      "concept": "a ship, and the water it crosses",
+      "chinese": "浮水行远",
+      "core_image": "木壳吃水一半，桅上挂着旗，一队人立在甲板上，前头只有一片开阔的水",
+      "root_ids": [
+        "navis"
+      ],
+      "word_ids": [
+        "naval",
+        "navigation",
+        "navy"
       ]
     }
   ]

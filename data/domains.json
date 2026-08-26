@@ -37,7 +37,9 @@
         "damnum",
         "fallere",
         "fatum",
-        "fendere"
+        "fendere",
+        "poena",
+        "lacere"
       ]
     },
     {
@@ -93,7 +95,18 @@
         "densus",
         "discus",
         "frons",
-        "medius"
+        "medius",
+        "unus",
+        "insula",
+        "primus",
+        "foris",
+        "plus-more",
+        "rotula",
+        "mille",
+        "calx",
+        "centum",
+        "metiri",
+        "linum"
       ]
     },
     {
@@ -136,7 +149,11 @@
         "heres",
         "merx",
         "mergere",
-        "labi"
+        "labi",
+        "radius-ray",
+        "intrare",
+        "pes",
+        "navis"
       ]
     },
     {
@@ -199,7 +216,14 @@
         "jocus",
         "mens",
         "gnoscere",
-        "negare"
+        "negare",
+        "idein",
+        "imago",
+        "reri-ratio",
+        "honos",
+        "nomen",
+        "decem",
+        "gaudium"
       ]
     },
     {
@@ -253,7 +277,12 @@
         "kamara",
         "jungere",
         "haerere",
-        "maritus"
+        "maritus",
+        "laxare",
+        "salvus",
+        "pax",
+        "ekhein",
+        "prehendere"
       ]
     },
     {
@@ -292,7 +321,10 @@
         "creare",
         "flos",
         "dran",
-        "nutrire"
+        "nutrire",
+        "poiein",
+        "novus",
+        "fabrica"
       ]
     }
   ]

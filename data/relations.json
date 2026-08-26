@@ -7806,6 +7806,2874 @@
       "to": "select",
       "type": "root",
       "note": "se-（分开）+ legere（拾取）→ 从一堆里分开拾出"
+    },
+    {
+      "from": "unus",
+      "to": "onion",
+      "type": "root",
+      "note": "unus（一）→ unio（独头的一整个）→ 一层层裹成的那一颗"
+    },
+    {
+      "from": "unus",
+      "to": "ounce",
+      "type": "root",
+      "note": "unus（一）→ uncia（十二分之一，一个小单位）→ 秤上最小的那一格"
+    },
+    {
+      "from": "unus",
+      "to": "unanimous",
+      "type": "root",
+      "note": "unus（一）+ animus（心气）→ 众人一条心"
+    },
+    {
+      "from": "unus",
+      "to": "unify",
+      "type": "root",
+      "note": "uni-（unus 一）+ -fy（使成为）→ 使合成一个"
+    },
+    {
+      "from": "unus",
+      "to": "union",
+      "type": "root",
+      "note": "unus（一）→ unio（并成一个）→ 合起来之后的那个整体"
+    },
+    {
+      "from": "unus",
+      "to": "unique",
+      "type": "root",
+      "note": "unus（一）→ unicus（只此一个）→ 独此一份，再无第二"
+    },
+    {
+      "from": "unus",
+      "to": "unit",
+      "type": "root",
+      "note": "unus（一）→ unitas（一个整的）→ 算作一个来数的那一份"
+    },
+    {
+      "from": "unus",
+      "to": "unite",
+      "type": "root",
+      "note": "unus（一）→ unire（使成一个）→ 并到一处成一个"
+    },
+    {
+      "from": "unus",
+      "to": "unity",
+      "type": "root",
+      "note": "unus（一）→ unitas（成为一个的状态）→ 许多份合成一个"
+    },
+    {
+      "from": "unus",
+      "to": "universal",
+      "type": "root",
+      "note": "unus（一）+ versus（转成的）→ universus（合成一整个）→ 一个不落全算在内"
+    },
+    {
+      "from": "unus",
+      "to": "universe",
+      "type": "root",
+      "note": "unus（一）+ versus（转成的）→ universum（合成一整个的那全部）→ 无边无际的那一整个"
+    },
+    {
+      "from": "unus",
+      "to": "university",
+      "type": "root",
+      "note": "unus（一）→ universitas（合成一体的那群人）→ 师生结成的一个整体"
+    },
+    {
+      "from": "laxare",
+      "to": "lease",
+      "type": "root",
+      "note": "laxare（松开）→ laissier（撂下不管）→ 把手里的地方撂给别人用一段"
+    },
+    {
+      "from": "laxare",
+      "to": "relax",
+      "type": "root",
+      "note": "re-（往回）+ lax（laxare 松开）→ 把绷起来的那股劲送回去"
+    },
+    {
+      "from": "laxare",
+      "to": "relay",
+      "type": "root",
+      "note": "re-（接着）+ lay（laxare 放开）→ 放开手里的，交给接手的那一个"
+    },
+    {
+      "from": "laxare",
+      "to": "release",
+      "type": "root",
+      "note": "re-（回）+ lease（laxare 松开）→ 手一松，让它走"
+    },
+    {
+      "from": "laxare",
+      "to": "relish",
+      "type": "root",
+      "note": "laxare（放开）→ relaisser（撂下不带走）→ 咽下之后撂在嘴里的那一点"
+    },
+    {
+      "from": "salvus",
+      "to": "safe",
+      "type": "root",
+      "note": "salvus（完好）→ 古法语 sauf → 没伤着、也碰不着的状态"
+    },
+    {
+      "from": "salvus",
+      "to": "safety",
+      "type": "root",
+      "note": "salvus（完好）→ salvitas（完好的状态）→ 不会伤着的那个状态"
+    },
+    {
+      "from": "salvus",
+      "to": "salute",
+      "type": "root",
+      "note": "salvus（完好）→ salus（安好）→ salutare（问一声安好）→ 抬手道一声安好"
+    },
+    {
+      "from": "salvus",
+      "to": "salvation",
+      "type": "root",
+      "note": "salvus（完好）→ salvare（使完好）→ salvatio（救回这件事）→ 从毁里被拉回完好"
+    },
+    {
+      "from": "salvus",
+      "to": "save",
+      "type": "root",
+      "note": "salvus（完好）→ salvare（使完好）→ 使它保住不损"
+    },
+    {
+      "from": "insula",
+      "to": "insulate",
+      "type": "root",
+      "note": "insula（岛）→ insulatus（做成岛的）→ 四周围断，什么也过不去"
+    },
+    {
+      "from": "insula",
+      "to": "isle",
+      "type": "root",
+      "note": "insula（岛）→ 古法语 isle → 水里那一小块地"
+    },
+    {
+      "from": "insula",
+      "to": "isolate",
+      "type": "root",
+      "note": "insula（岛）→ 意大利语 isolato（成了岛的）→ 把它弄成四面不连的一块"
+    },
+    {
+      "from": "insula",
+      "to": "peninsula",
+      "type": "root",
+      "note": "paene（几乎）+ insula（岛）→ 差一点就成岛的那块地"
+    },
+    {
+      "from": "poena",
+      "to": "pain",
+      "type": "root",
+      "note": "poena（罚、要赔的那笔账）→ 古法语 peine（受的那份罪）→ 身上或心里那一下难受"
+    },
+    {
+      "from": "poena",
+      "to": "painful",
+      "type": "root",
+      "note": "pain（poena 罚出来的那点难受）+ -ful（满是）→ 满是那股难受"
+    },
+    {
+      "from": "poena",
+      "to": "penalty",
+      "type": "root",
+      "note": "poena（罚）→ poenalis（关于罚的）→ 判下来要付的那一笔"
+    },
+    {
+      "from": "poena",
+      "to": "punish",
+      "type": "root",
+      "note": "poena（罚）→ punire（施罚）→ 照那笔账讨回来"
+    },
+    {
+      "from": "dict",
+      "to": "dedicate",
+      "type": "root",
+      "note": "de-（郑重地）+ dic（dicare 宣告）→ 当众说明这一样归谁"
+    },
+    {
+      "from": "dict",
+      "to": "index",
+      "type": "root",
+      "note": "in-（朝着）+ dic（dicare 指明说出）→ 指给你看在哪儿的那样东西"
+    },
+    {
+      "from": "dict",
+      "to": "indicate",
+      "type": "root",
+      "note": "in-（朝着）+ dicare（宣示）→ 朝那一处点明，让人看见"
+    },
+    {
+      "from": "idein",
+      "to": "idea",
+      "type": "root",
+      "note": "idein（看见）→ idea（看见时现出的那个形）→ 心里现出的那个形"
+    },
+    {
+      "from": "idein",
+      "to": "ideal",
+      "type": "root",
+      "note": "idea（心里那个形）+ -al（合于……的）→ 合于心里那个形的"
+    },
+    {
+      "from": "idein",
+      "to": "ideology",
+      "type": "root",
+      "note": "idea（观念）+ -logy（一套条理）→ 一套成系统的观念"
+    },
+    {
+      "from": "passare",
+      "to": "pace",
+      "type": "root",
+      "note": "passare（迈步、经过）→ pas（跨出的一段）→ 跨出的那一步，以及跨得多快"
+    },
+    {
+      "from": "passare",
+      "to": "passenger",
+      "type": "root",
+      "note": "passare（经过）→ passage（通行）→ passagier（过路的那个人）"
+    },
+    {
+      "from": "passare",
+      "to": "passport",
+      "type": "root",
+      "note": "passare（通过）+ port（港口、城门）→ 准你过关口的那份凭据"
+    },
+    {
+      "from": "posse",
+      "to": "potential",
+      "type": "root",
+      "note": "posse（能够）→ potentia（能力）→ potentialis（有那个能而未显出来）"
+    },
+    {
+      "from": "posse",
+      "to": "power",
+      "type": "root",
+      "note": "posse（能够）→ 通俗拉丁语 potere（能）→ 能把事做成的那股劲"
+    },
+    {
+      "from": "posse",
+      "to": "powerful",
+      "type": "root",
+      "note": "power（posse 能成事的那股劲）+ -ful（满是）→ 满是那股能成事的劲"
+    },
+    {
+      "from": "firmare",
+      "to": "farm",
+      "type": "root",
+      "note": "firmare（使固定）→ firma（讲定的固定租额）→ 按固定租金签下的那片地"
+    },
+    {
+      "from": "firmare",
+      "to": "farmer",
+      "type": "root",
+      "note": "firmare（使固定）→ firma（固定租额）→ firmarius（按定额租地耕作的那个人）"
+    },
+    {
+      "from": "ag",
+      "to": "agent",
+      "type": "root",
+      "note": "ag（agere 驱动、做）+ -ent（正在做的那个）→ 替人出面做事的那一个"
+    },
+    {
+      "from": "gravis",
+      "to": "grieve",
+      "type": "root",
+      "note": "gravis（重）→ gravare（压重）→ grever（压得人抬不起来）→ 心上压着那一块"
+    },
+    {
+      "from": "plic",
+      "to": "apply",
+      "type": "root",
+      "note": "ad-（朝、贴上）+ plic（plicare 折叠）→ 把它折贴到那一处上头"
+    },
+    {
+      "from": "vid",
+      "to": "envy",
+      "type": "root",
+      "note": "in-（朝着）+ vid（videre 看）→ invidia 盯着人家看，心里发酸"
+    },
+    {
+      "from": "primus",
+      "to": "premier",
+      "type": "root",
+      "note": "prem（primus 第一）+ -ier → 排在最前的那个 → 首要的；名词化即一国之首"
+    },
+    {
+      "from": "primus",
+      "to": "primary",
+      "type": "root",
+      "note": "prim（primus 第一）+ -ary → 序列或分量上排在最前的 → 最初的、分量最重的"
+    },
+    {
+      "from": "primus",
+      "to": "prime",
+      "type": "root",
+      "note": "prime（primus 第一）→ 同类里排第一等的 → 最好的；用在时段上即一生中最盛的那一段"
+    },
+    {
+      "from": "primus",
+      "to": "primitive",
+      "type": "root",
+      "note": "primit（primus 第一、最早）+ -ive → 停在最早那一段的 → 原始的；器物停在最早形态即粗糙"
+    },
+    {
+      "from": "primus",
+      "to": "prince",
+      "type": "root",
+      "note": "prin（primus 第一）+ -ce（占住位次那一支）→ 占着头一个位置的人 → 王子、亲王"
+    },
+    {
+      "from": "primus",
+      "to": "princess",
+      "type": "root",
+      "note": "princ（primus 第一）+ -ess（女性）→ 占着头一个位置的女子 → 公主、王妃"
+    },
+    {
+      "from": "primus",
+      "to": "principal",
+      "type": "root",
+      "note": "princip（princeps 首位）+ -al → 排在头一位的 → 主要的；学校里排头位的人即校长；一笔款里排头位"
+    },
+    {
+      "from": "primus",
+      "to": "principle",
+      "type": "root",
+      "note": "princip（princeps 首位、开端）+ -le → 摆在最前、别的都由它推出来的那一条 → 原则、原理"
+    },
+    {
+      "from": "primus",
+      "to": "prior",
+      "type": "root",
+      "note": "prior（primus 那一支的比较级：在前的）→ 两者相比更靠前的 → 先前的、优先的"
+    },
+    {
+      "from": "primus",
+      "to": "priority",
+      "type": "root",
+      "note": "prior（在前的）+ -ity → 排在前头这一层身份 → 该先办的那件事"
+    },
+    {
+      "from": "imago",
+      "to": "image",
+      "type": "root",
+      "note": "imag（imago 摹样）+ -e → 与本物相像的那个样子 → 图像；人心里存下的那个样子即形象"
+    },
+    {
+      "from": "imago",
+      "to": "imaginary",
+      "type": "root",
+      "note": "imagin（imago 在心里造样）+ -ary → 只在心里造出来、外面没有的 → 想象的"
+    },
+    {
+      "from": "imago",
+      "to": "imagination",
+      "type": "root",
+      "note": "imagin（在心里造样）+ -ation → 在心里造出样子的这份本事"
+    },
+    {
+      "from": "imago",
+      "to": "imaginative",
+      "type": "root",
+      "note": "imagin（在心里造样）+ -ative → 善于在心里造出样子的"
+    },
+    {
+      "from": "imago",
+      "to": "imagine",
+      "type": "root",
+      "note": "imagin（imago 在心里造样）+ -e → 在心里造出一个样子；造出来的未必真，故也作以为"
+    },
+    {
+      "from": "reri-ratio",
+      "to": "rate",
+      "type": "root",
+      "note": "rat（ratus 算定的）+ -e → 按一定算法定下的那个数；动词即给它定出这个数"
+    },
+    {
+      "from": "reri-ratio",
+      "to": "ratio",
+      "type": "root",
+      "note": "ratio（reri 盘算 → 算出来的账、比数）→ 两个量算出来的那层关系"
+    },
+    {
+      "from": "reri-ratio",
+      "to": "rational",
+      "type": "root",
+      "note": "ration（ratio 算清的道理）+ -al → 按算得清的道理来的"
+    },
+    {
+      "from": "reri-ratio",
+      "to": "reason",
+      "type": "root",
+      "note": "reason（← rationem：算清后得出的道理）→ 说得通的那一条；动词即照这条往下推"
+    },
+    {
+      "from": "reri-ratio",
+      "to": "reasonable",
+      "type": "root",
+      "note": "reason（算得清的道理）+ -able → 经得起算、说得通的；价钱经得起算即不虚高"
+    },
+    {
+      "from": "foris",
+      "to": "foreign",
+      "type": "root",
+      "note": "forein（← foranus 在门外的）→ 门外那一边来的 → 外国的"
+    },
+    {
+      "from": "foris",
+      "to": "foreigner",
+      "type": "root",
+      "note": "foreign（门外来的）+ -er → 从门外那一边来的人"
+    },
+    {
+      "from": "foris",
+      "to": "forest",
+      "type": "root",
+      "note": "forest（← forestis 圈地之外的林子）→ 门外没人管的那一大片树"
+    },
+    {
+      "from": "foris",
+      "to": "forum",
+      "type": "root",
+      "note": "forum（本指门外那片敞地）→ 谁都能进来说话的那块地方"
+    },
+    {
+      "from": "plere",
+      "to": "accomplish",
+      "type": "root",
+      "note": "ac-（ad- 朝向）+ compl（com 全 + ple 填满）+ -ish → 把该填的一处处填满"
+    },
+    {
+      "from": "plere",
+      "to": "complete",
+      "type": "root",
+      "note": "com-（全）+ ple（填满）+ -te → 处处填满、一处不缺；动词即把它填到满"
+    },
+    {
+      "from": "plere",
+      "to": "plentiful",
+      "type": "root",
+      "note": "plenti（plenus 满的）+ -ful → 满到有余的"
+    },
+    {
+      "from": "plere",
+      "to": "plenty",
+      "type": "root",
+      "note": "plen（plenus 满的）+ -ty → 填满之后那个量"
+    },
+    {
+      "from": "cernere",
+      "to": "discriminate",
+      "type": "root",
+      "note": "dis-（分开）+ crimin（discrimen 分界，出自 cern 筛分）+ -ate → 筛开两样，看出界线；"
+    },
+    {
+      "from": "gen",
+      "to": "gene",
+      "type": "root",
+      "note": "gen（生出、种性）→ 把种性一代代传下去的那个单位"
+    },
+    {
+      "from": "gen",
+      "to": "hydrogen",
+      "type": "root",
+      "note": "hydro-（水）+ gen（生出）→ 烧起来生成水的那种气"
+    },
+    {
+      "from": "pax",
+      "to": "pay",
+      "type": "root",
+      "note": "pay（← pacare 安抚、摆平）→ 把债主安抚下来，他就不再追 → 付款；名词即所付的那份"
+    },
+    {
+      "from": "pax",
+      "to": "payment",
+      "type": "root",
+      "note": "pay（pacare 摆平、结清）+ -ment → 结清这件事，或结清时交出的那笔"
+    },
+    {
+      "from": "pax",
+      "to": "repay",
+      "type": "root",
+      "note": "re-（回）+ pay（pacare 结清）→ 往回结清一次 → 偿还；受了好处照样往回结即报答"
+    },
+    {
+      "from": "pax",
+      "to": "peace",
+      "type": "root",
+      "note": "peace（← pacem：相争摆平后的状态）→ 两边都不再往下追的那个局面"
+    },
+    {
+      "from": "pax",
+      "to": "peaceful",
+      "type": "root",
+      "note": "peace（pax 摆平之后）+ -ful → 处在谁也不再往下追的那个状态里"
+    },
+    {
+      "from": "plus-more",
+      "to": "plural",
+      "type": "root",
+      "note": "plur（plures 更多、多于一）+ -al → 数目多于一的 → 复数的"
+    },
+    {
+      "from": "plus-more",
+      "to": "plus",
+      "type": "root",
+      "note": "plus（拉丁语「更多」）→ 在原数之上再添 → 加上；添出来的那一项即优势"
+    },
+    {
+      "from": "plus-more",
+      "to": "surplus",
+      "type": "root",
+      "note": "sur-（越过）+ plus（更多）→ 越过所需之后还多出来的那部分 → 剩余"
+    },
+    {
+      "from": "jac",
+      "to": "eject",
+      "type": "root",
+      "note": "e-（ex- 出）+ ject（jac 投、扔）→ 往外一扔 → 逐出、弹出"
+    },
+    {
+      "from": "jac",
+      "to": "jet",
+      "type": "root",
+      "note": "jet（← jactare 反复投扔）→ 被使劲扔出去的那一道 → 喷流；靠往后扔出气流推进的飞机由此得名"
+    },
+    {
+      "from": "hostis",
+      "to": "hotel",
+      "type": "root",
+      "note": "hostel/hotel（← hospitale 客舍）→ 接下过路人、给他一处睡的地方 → 旅馆"
+    },
+    {
+      "from": "prob",
+      "to": "proof",
+      "type": "root",
+      "note": "proof（← proba：验过之后留下的东西）→ 拿去验，验得住的那个凭据"
+    },
+    {
+      "from": "vocare",
+      "to": "evoke",
+      "type": "root",
+      "note": "e-（ex- 出）+ vok（voc 呼叫）→ 朝里头喊一声，把藏着的叫出来"
+    },
+    {
+      "from": "rotula",
+      "to": "rotate",
+      "type": "root",
+      "note": "rota（轮）→ rotare（使轮转）→ 绕着中心一圈圈走"
+    },
+    {
+      "from": "rotula",
+      "to": "rotary",
+      "type": "root",
+      "note": "rota（轮）→ rotarius（与轮有关的）→ 靠打圈这个动作来干活的"
+    },
+    {
+      "from": "rotula",
+      "to": "roll",
+      "type": "root",
+      "note": "rotula（小轮）→ 古法语 roller（滚）→ 一边翻一边走，或把纸绕成筒"
+    },
+    {
+      "from": "rotula",
+      "to": "role",
+      "type": "root",
+      "note": "rotula（小轮→纸卷）→ 法语 rôle：演员的台词写在那一卷纸上 → 卷上分给他的那一份"
+    },
+    {
+      "from": "rotula",
+      "to": "enroll",
+      "type": "root",
+      "note": "en-（进）+ roll（那一卷名册）→ 名字添进卷里 → 从此在册上有你"
+    },
+    {
+      "from": "rotula",
+      "to": "control",
+      "type": "root",
+      "note": "contra-（对着）+ rotulus（卷册）→ 拿副本对着正册核 → 每一笔都在你手上"
+    },
+    {
+      "from": "rotula",
+      "to": "round",
+      "type": "root",
+      "note": "rota（轮）→ rotundus（像轮子那样的）→ 古法语 roont → 轮子的那个形"
+    },
+    {
+      "from": "rotula",
+      "to": "surround",
+      "type": "root",
+      "note": "sur-（在外面）+ round（圆）→ 在外面合成一圈 → 把里面那个圈在当中"
+    },
+    {
+      "from": "radius-ray",
+      "to": "radius",
+      "type": "root",
+      "note": "radius（辐条）→ 轮心到轮缘那一段 → 中心到边上的那段直距离"
+    },
+    {
+      "from": "radius-ray",
+      "to": "ray",
+      "type": "root",
+      "note": "radius（辐条、光线）→ 古法语 rai → 从一点直伸出去的细细一条"
+    },
+    {
+      "from": "radius-ray",
+      "to": "radiant",
+      "type": "root",
+      "note": "radius（光线）→ radiare（射出光）→ 现在分词 radiantem → 正往外放光的"
+    },
+    {
+      "from": "radius-ray",
+      "to": "radiate",
+      "type": "root",
+      "note": "radius（辐条）→ radiare（如辐条般伸出）→ 从一点朝四周直伸出去"
+    },
+    {
+      "from": "radius-ray",
+      "to": "radio",
+      "type": "root",
+      "note": "radius（光线）→ radio-（以射线传送）→ 信号像光一样射出去，靠它传话的那东西"
+    },
+    {
+      "from": "radius-ray",
+      "to": "radioactive",
+      "type": "root",
+      "note": "radio-（射线，← radius 光线）+ active（在动作）→ 自己不停往外射东西的"
+    },
+    {
+      "from": "plic",
+      "to": "explicit",
+      "type": "root",
+      "note": "ex-（出来）+ plic（折）→ 折着的全摊开 → 没有一处还压在折缝里"
+    },
+    {
+      "from": "plic",
+      "to": "imply",
+      "type": "root",
+      "note": "im-（在里面）+ ply（折）→ 意思折在话里面 → 没说出来却夹带着"
+    },
+    {
+      "from": "plic",
+      "to": "reply",
+      "type": "root",
+      "note": "re-（回）+ ply（折）→ 话顺着来路折回去 → 对方说完，你折回一句"
+    },
+    {
+      "from": "plic",
+      "to": "multiply",
+      "type": "root",
+      "note": "multi-（多）+ ply（折）→ 折了很多层 → 一层翻成许多层"
+    },
+    {
+      "from": "plic",
+      "to": "simple",
+      "type": "root",
+      "note": "sim-（一）+ ple（折）→ simplex：只折一道 → 层数少，一眼看到底"
+    },
+    {
+      "from": "ekhein",
+      "to": "school",
+      "type": "root",
+      "note": "ekhein（持、按住）→ skholē（把活计按下来腾出的闲时）→ 用这段时间讲学的地方"
+    },
+    {
+      "from": "ekhein",
+      "to": "scholar",
+      "type": "root",
+      "note": "skholē（讲学处）→ scholaris（属于讲学处的人）→ 把腾出的时间全花在学问上的人"
+    },
+    {
+      "from": "ekhein",
+      "to": "scheme",
+      "type": "root",
+      "note": "ekhein（持）→ skhēma（被持成的形、格局）→ 事先在纸上定好的那个格局"
+    },
+    {
+      "from": "ekhein",
+      "to": "epoch",
+      "type": "root",
+      "note": "epi-（在上）+ ekhein（按住）→ epokhē（被按停的那一点）→ 从那一点起另算的一段"
+    },
+    {
+      "from": "mille",
+      "to": "mile",
+      "type": "root",
+      "note": "mille passuum（一千双步）→ 古英语 mīl → 一千步那么长的一段路"
+    },
+    {
+      "from": "mille",
+      "to": "million",
+      "type": "root",
+      "note": "mille（一千）+ -one（加大）→ 意大利语 milione：一个「大号的千」→ 一千个千"
+    },
+    {
+      "from": "mille",
+      "to": "millionaire",
+      "type": "root",
+      "note": "million（一千个千）+ -aire（持有者）→ 家当要用这个数来点的人"
+    },
+    {
+      "from": "metron",
+      "to": "millimeter",
+      "type": "root",
+      "note": "milli-（千分之一，← mille 一千）+ metre（米，← metron 量度）→ 一米切成一千格，取其中一格"
+    },
+    {
+      "from": "vert",
+      "to": "avert",
+      "type": "root",
+      "note": "a-（离开）+ vert（转）→ 把脸或事头转开 → 不让它撞上来"
+    },
+    {
+      "from": "vert",
+      "to": "anniversary",
+      "type": "root",
+      "note": "annus（年）+ vers（转）→ 年头转满一圈又落回同一天"
+    },
+    {
+      "from": "vert",
+      "to": "controversy",
+      "type": "root",
+      "note": "contra-（对着）+ vers（转）→ 两边都转过来对着 → 各执一词僵着"
+    },
+    {
+      "from": "vert",
+      "to": "prose",
+      "type": "root",
+      "note": "pro-（向前）+ vers（转）→ prorsus（一路朝前、不折回）→ 写到行末不转回，接着往下走"
+    },
+    {
+      "from": "honos",
+      "to": "honor",
+      "type": "root",
+      "note": "honos（众人给的看重）→ 得着这份看重，或把它给出去"
+    },
+    {
+      "from": "honos",
+      "to": "honest",
+      "type": "root",
+      "note": "honos（体面）+ -estus（配得上的）→ honestus：拿得出去见人的 → 不藏不假"
+    },
+    {
+      "from": "honos",
+      "to": "honorable",
+      "type": "root",
+      "note": "honos（看重）+ -abilis（可…的）→ 值得旁人给出这份看重的"
+    },
+    {
+      "from": "par-equal",
+      "to": "compare",
+      "type": "root",
+      "note": "com-（一起）+ par（相等）→ 把两样摆到同一水平上 → 横着看差在哪"
+    },
+    {
+      "from": "par-equal",
+      "to": "comparison",
+      "type": "root",
+      "note": "com-（一起）+ par（相等）+ -ison（名词）→ 把两样摆平了看这件事"
+    },
+    {
+      "from": "par-equal",
+      "to": "peer",
+      "type": "root",
+      "note": "par（相等）→ 古法语 per（同等的人）→ 与你站在同一层上的人"
+    },
+    {
+      "from": "poiein",
+      "to": "poet",
+      "type": "root",
+      "note": "poiein（造）→ poiētēs（造的人）→ 拿词当料造东西的那个人"
+    },
+    {
+      "from": "poiein",
+      "to": "poem",
+      "type": "root",
+      "note": "poiein（造）→ poiēma（造出来的那件东西）→ 用词造成的那一件成品"
+    },
+    {
+      "from": "poiein",
+      "to": "poetry",
+      "type": "root",
+      "note": "poiein（造）→ poeta（造的人）→ poetria：这门手艺，以及它做出来的全部"
+    },
+    {
+      "from": "cep",
+      "to": "cater",
+      "type": "root",
+      "note": "cep（拿取、接过）→ acater（去买进来）→ 替一场宴席把吃的采买齐 → 备好别人要的"
+    },
+    {
+      "from": "cep",
+      "to": "purchase",
+      "type": "root",
+      "note": "pur-（向前，即 pro）+ chase（追，← capere 拿取）→ 一路追着，把它拿到手 → 花钱买下"
+    },
+    {
+      "from": "compilare",
+      "to": "pile",
+      "type": "root",
+      "note": "pila（柱、垛）→ 一样样往上码，越码越高 → 立着的那一垛"
+    },
+    {
+      "from": "compilare",
+      "to": "pillar",
+      "type": "root",
+      "note": "pila（石柱）→ 古法语 piler → 一根立着顶住上面重量的柱"
+    },
+    {
+      "from": "loc",
+      "to": "couch",
+      "type": "root",
+      "note": "col-（一起）+ loc（地点）→ collocare（安放到位）→ coucher（放躺下）→ 供人躺下的那件家具"
+    },
+    {
+      "from": "publicus",
+      "to": "pub",
+      "type": "root",
+      "note": "publicus（属于众人的）→ public house（对众人开门的屋子）→ 截短成 pub"
+    },
+    {
+      "from": "sta",
+      "to": "assist",
+      "type": "root",
+      "note": "ad-（靠近）+ sist（站立）→ 站到旁边去搭手"
+    },
+    {
+      "from": "sta",
+      "to": "consist",
+      "type": "root",
+      "note": "con-（一起）+ sist（站立）→ 若干成分一起立住成为整体"
+    },
+    {
+      "from": "sta",
+      "to": "distance",
+      "type": "root",
+      "note": "dis-（分开）+ sta（立）→ 两者分开各立一处 → 中间隔出的那一段"
+    },
+    {
+      "from": "sta",
+      "to": "exist",
+      "type": "root",
+      "note": "ex-（出来）+ sist（站立）→ 立出来能被看见 → 是有这么一个"
+    },
+    {
+      "from": "sta",
+      "to": "existence",
+      "type": "root",
+      "note": "exist（立出来）+ -ence → 立在世上这个状态"
+    },
+    {
+      "from": "sta",
+      "to": "insist",
+      "type": "root",
+      "note": "in-（在上）+ sist（站立）→ 死死站在那一点上不挪"
+    },
+    {
+      "from": "sta",
+      "to": "persist",
+      "type": "root",
+      "note": "per-（贯穿到底）+ sist（站立）→ 一路站到底不倒"
+    },
+    {
+      "from": "sta",
+      "to": "substance",
+      "type": "root",
+      "note": "sub-（在下）+ sta（立）→ 立在底下托着表象的那个东西"
+    },
+    {
+      "from": "praeesse",
+      "to": "absent",
+      "type": "root",
+      "note": "ab-（离开）+ sent（esse 在）→ 不在这儿；与 praesens（在眼前）正好一对"
+    },
+    {
+      "from": "praeesse",
+      "to": "entity",
+      "type": "root",
+      "note": "ent（esse 的现在分词 ens：在着的）+ -ity → 在着的那一个，自成一个的东西"
+    },
+    {
+      "from": "praeesse",
+      "to": "essence",
+      "type": "root",
+      "note": "ess（esse 是、在）+ -ence → 一样东西「是它自己」所靠的那一点"
+    },
+    {
+      "from": "praeesse",
+      "to": "essential",
+      "type": "root",
+      "note": "ess（esse 是、在）+ -ential → 关乎它「是不是它」的 → 少了就不成的"
+    },
+    {
+      "from": "praeesse",
+      "to": "interest",
+      "type": "root",
+      "note": "inter-（在两者之间）+ est（esse 在）→ 这事横在我这边，与我有牵连"
+    },
+    {
+      "from": "medius",
+      "to": "immediate",
+      "type": "root",
+      "note": "im-（不）+ medi（medius 中间）+ -ate → 中间不隔任何东西 → 挨着的、当下的"
+    },
+    {
+      "from": "medius",
+      "to": "intermediate",
+      "type": "root",
+      "note": "inter-（在两者之间）+ medi（medius 中间）+ -ate → 正落在两头之间那一档"
+    },
+    {
+      "from": "medius",
+      "to": "meanwhile",
+      "type": "root",
+      "note": "mean（medianus 居中的）+ while（一段时间）→ 夹在两件事之间那段时间里"
+    },
+    {
+      "from": "medius",
+      "to": "medieval",
+      "type": "root",
+      "note": "medi（medius 中间）+ ev（aevum 时代）+ -al → 属于中间那个时代的"
+    },
+    {
+      "from": "medius",
+      "to": "medium",
+      "type": "root",
+      "note": "medium（medius 的中性名词：居中之物）→ 居中那一档；夹在两头之间传东西的那个"
+    },
+    {
+      "from": "wardon",
+      "to": "award",
+      "type": "root",
+      "note": "a-（向）+ ward（wardon 看守、审视）→ 审看过之后把东西递到该得的那个人手上"
+    },
+    {
+      "from": "wardon",
+      "to": "guard",
+      "type": "root",
+      "note": "guard（wardon 看守）→ 眼睛盯住一处不移开，不让人进去"
+    },
+    {
+      "from": "wardon",
+      "to": "reward",
+      "type": "root",
+      "note": "re-（回过来）+ ward（wardon 看顾）→ 看见他做了什么，拿东西回过去"
+    },
+    {
+      "from": "wardon",
+      "to": "ward",
+      "type": "root",
+      "note": "ward（wardon 看守）→ 被看着的那一片地方，或被看着的那个人"
+    },
+    {
+      "from": "wardon",
+      "to": "wardrobe",
+      "type": "root",
+      "note": "ward（wardon 看守）+ robe（衣物）→ 替人看着衣物的那个地方"
+    },
+    {
+      "from": "novus",
+      "to": "innovation",
+      "type": "root",
+      "note": "in-（进入）+ nov（novus 新的）+ -ation → 把新东西弄进原来那一套里"
+    },
+    {
+      "from": "novus",
+      "to": "novel",
+      "type": "root",
+      "note": "novellus（novus 的指小形：新出的小东西）→ 新出的故事；也指从没见过的"
+    },
+    {
+      "from": "novus",
+      "to": "novelty",
+      "type": "root",
+      "note": "novel（novus 新的）+ -ty → 新出这个性质；也指靠这股劲吸引人的小物件"
+    },
+    {
+      "from": "novus",
+      "to": "renovate",
+      "type": "root",
+      "note": "re-（再）+ nov（novus 新的）+ -ate → 把旧的再弄成新的"
+    },
+    {
+      "from": "calx",
+      "to": "calcium",
+      "type": "root",
+      "note": "calc（calx 石灰石）+ -ium（元素名后缀）→ 从石灰里认出来的那种元素"
+    },
+    {
+      "from": "calx",
+      "to": "calculate",
+      "type": "root",
+      "note": "calcul（calculus：calx 的指小形，小石子）+ -ate → 摆石子记数 → 算出来"
+    },
+    {
+      "from": "calx",
+      "to": "chalk",
+      "type": "root",
+      "note": "chalk（古英语 cealc，早期借自 calx 石灰）→ 能划出白痕的那种软白石"
+    },
+    {
+      "from": "fabrica",
+      "to": "fabric",
+      "type": "root",
+      "note": "fabrica（工坊、做出来的东西）→ 坊里织出来的那块料；也指整件的构造"
+    },
+    {
+      "from": "fabrica",
+      "to": "fabricate",
+      "type": "root",
+      "note": "fabric（fabrica 工坊）+ -ate → 在坊里把零件做成整件；也用于凭空做出一件"
+    },
+    {
+      "from": "fabrica",
+      "to": "forge",
+      "type": "root",
+      "note": "forge（fabrica 经通俗拉丁语 *faurga → 打铁棚）→ 在炉上锤成形；锤出来的也可以是假的"
+    },
+    {
+      "from": "lacere",
+      "to": "delicate",
+      "type": "root",
+      "note": "de-（引开）+ lic（lacere 逗引）+ -ate → 被逗着娇养出来的 → 细致而经不起碰"
+    },
+    {
+      "from": "lacere",
+      "to": "delicious",
+      "type": "root",
+      "note": "de-（引开）+ lic（lacere 逗引）+ -ious → 把人勾住的那种味道"
+    },
+    {
+      "from": "lacere",
+      "to": "delight",
+      "type": "root",
+      "note": "de-（引开）+ light（原为 delectare 使愉悦，后拼写被 light 带偏）→ 被逗得心里一亮"
+    },
+    {
+      "from": "pel",
+      "to": "impulse",
+      "type": "root",
+      "note": "im-（往上加）+ puls（pellere 推）→ 从里头推来的那一下"
+    },
+    {
+      "from": "pel",
+      "to": "pulse",
+      "type": "root",
+      "note": "puls（pulsus，pellere 推的过去分词）→ 一下一下推出来的那个跳"
+    },
+    {
+      "from": "pel",
+      "to": "push",
+      "type": "root",
+      "note": "push（← pulsare，pellere 的反复形：一再推）→ 手上加力把东西推开"
+    },
+    {
+      "from": "venire-invent",
+      "to": "convenient",
+      "type": "root",
+      "note": "con-（一起）+ veni（venire 来）+ -ent → 各样条件都来到一处 → 省事"
+    },
+    {
+      "from": "venire-invent",
+      "to": "event",
+      "type": "root",
+      "note": "e-（出来）+ vent（venire 来）→ 来了、出来了 → 发生的那件事"
+    },
+    {
+      "from": "venire-invent",
+      "to": "eventually",
+      "type": "root",
+      "note": "e-（出来）+ vent（venire 来）+ -ual + -ly → 到底还是来出来了 → 最后"
+    },
+    {
+      "from": "pretium",
+      "to": "praise",
+      "type": "root",
+      "note": "prais（pretium 价值）→ 把人做的事估出高价，并说出口"
+    },
+    {
+      "from": "pretium",
+      "to": "prize",
+      "type": "root",
+      "note": "priz（pretium 价值）→ 值这个价的那样东西 → 奖品；动词是把它看得值"
+    },
+    {
+      "from": "mun",
+      "to": "commonwealth",
+      "type": "root",
+      "note": "common（communis 共有的）+ wealth（福祉）→ 大家共有的那份好处 → 结成一体的国家"
+    },
+    {
+      "from": "punktum",
+      "to": "punch",
+      "type": "root",
+      "note": "punch（punctionem ← pungere 刺）→ 一下猛戳出去 → 出拳；也指戳孔的那件工具"
+    },
+    {
+      "from": "prehendere",
+      "to": "comprehend",
+      "type": "root",
+      "note": "com-（一并）+ prehend（prehendere 抓）→ 把整件事一把抓全"
+    },
+    {
+      "from": "prehendere",
+      "to": "comprise",
+      "type": "root",
+      "note": "com-（一并）+ pris（prehendere 抓）→ 一把抓进来的那些就是它的全部"
+    },
+    {
+      "from": "prehendere",
+      "to": "enterprise",
+      "type": "root",
+      "note": "entre-（伸到当中）+ pris（prehendere 抓）→ 伸手把一件难事抓下来"
+    },
+    {
+      "from": "prehendere",
+      "to": "prey",
+      "type": "root",
+      "note": "praeda（抓到手的那一份）与 prehendere 同一个「抓」→ 被抓住的那一方"
+    },
+    {
+      "from": "prehendere",
+      "to": "prison",
+      "type": "root",
+      "note": "pris（prehendere 抓）+ -on → 人被抓住之后关进去的那个地方"
+    },
+    {
+      "from": "prehendere",
+      "to": "prisoner",
+      "type": "root",
+      "note": "pris（prehendere 抓）+ -oner（那个人）→ 被抓住关起来的那个人"
+    },
+    {
+      "from": "prehendere",
+      "to": "surprise",
+      "type": "root",
+      "note": "sur-（从上头）+ pris（prehendere 抓）→ 从头顶上一把抓住，来不及防"
+    },
+    {
+      "from": "lex-legis",
+      "to": "colleague",
+      "type": "root",
+      "note": "col-（一同）+ leg（lex 一支的「依法委派」）→ 依同一道任命派在一处的人"
+    },
+    {
+      "from": "lex-legis",
+      "to": "legislation",
+      "type": "root",
+      "note": "legis（lex 的属格：法条）+ lation（搬来、提出）→ 把法条搬上台面立起来"
+    },
+    {
+      "from": "lex-legis",
+      "to": "legitimate",
+      "type": "root",
+      "note": "legi（lex 法条）+ -timus（合于……的）→ 拿法条一量，量得过去"
+    },
+    {
+      "from": "lex-legis",
+      "to": "loyal",
+      "type": "root",
+      "note": "loial ← legalis（照法条的）← lex（法条）→ 守着当初那道约不改口"
+    },
+    {
+      "from": "lex-legis",
+      "to": "loyalty",
+      "type": "root",
+      "note": "loyal（照法条守约的）+ -ty（那种性质）→ 守约不改口这件事本身"
+    },
+    {
+      "from": "lex-legis",
+      "to": "privilege",
+      "type": "root",
+      "note": "privi（私人的）+ lege（lex 法条）→ 单为一个人写的那道法条"
+    },
+    {
+      "from": "modus",
+      "to": "mode",
+      "type": "root",
+      "note": "modus（量度、限度、办法）→ 定下的那一套做法，照它走就不出界"
+    },
+    {
+      "from": "modus",
+      "to": "model",
+      "type": "root",
+      "note": "modulus（modus 的小尺度）→ 按小一号尺寸做出来的那个样子，照它做大的"
+    },
+    {
+      "from": "modus",
+      "to": "modest",
+      "type": "root",
+      "note": "modestus（守着分寸的）← modus（量度、限度）→ 不越过那条线"
+    },
+    {
+      "from": "modus",
+      "to": "module",
+      "type": "root",
+      "note": "modulus（modus 的小尺度）→ 按统一尺寸做的一小块，块块能对上、能换"
+    },
+    {
+      "from": "modus",
+      "to": "mould",
+      "type": "root",
+      "note": "modulus（modus 的小尺度、样式）→ 一个空壳，浆倒进去凝住就成它的样子"
+    },
+    {
+      "from": "centum",
+      "to": "cent",
+      "type": "root",
+      "note": "centum（一百）→ 一块钱切成一百份，其中的一份"
+    },
+    {
+      "from": "centum",
+      "to": "centigrade",
+      "type": "root",
+      "note": "centum（一百）+ gradus（一级、一步）→ 把冰点到沸点之间切成一百级"
+    },
+    {
+      "from": "gradus",
+      "to": "centigrade",
+      "type": "root",
+      "note": "centum（一百）+ gradus（一级、一步）→ 把冰点到沸点之间切成一百级"
+    },
+    {
+      "from": "centum",
+      "to": "century",
+      "type": "root",
+      "note": "centuria（百人一队）← centum（一百）→ 数满一百的那一段，用在年上"
+    },
+    {
+      "from": "centum",
+      "to": "percent",
+      "type": "root",
+      "note": "per（每）+ centum（一百）→ 每一百里占几"
+    },
+    {
+      "from": "intrare",
+      "to": "enter",
+      "type": "root",
+      "note": "intrare（走进去）← intra（在里面）→ 从外头跨进里头"
+    },
+    {
+      "from": "intrare",
+      "to": "entrance",
+      "type": "root",
+      "note": "entr（intrare 走进去）+ -ance（那处、那件事）→ 进去用的那个口，也指进去这一下"
+    },
+    {
+      "from": "intrare",
+      "to": "entry",
+      "type": "root",
+      "note": "entr（intrare 走进去）+ -y → 进去这一下，也指进去后落下的那一条记录"
+    },
+    {
+      "from": "regula",
+      "to": "rail",
+      "type": "root",
+      "note": "regula（笔直的木尺、准绳）→ 一根直挺挺的长条，横着架起来"
+    },
+    {
+      "from": "regula",
+      "to": "railroad",
+      "type": "root",
+      "note": "rail（regula 直条，即铁轨）+ road（路）→ 用直条铺出来的那条路"
+    },
+    {
+      "from": "regula",
+      "to": "rule",
+      "type": "root",
+      "note": "regula（笔直的木尺、准绳）→ 立一根直的当准，众人照它比齐"
+    },
+    {
+      "from": "regula",
+      "to": "ruler",
+      "type": "root",
+      "note": "rule（regula 准绳）+ -er（那样东西、那个人）→ 那根尺本身，或手里握着准绳的那个"
+    },
+    {
+      "from": "fari",
+      "to": "confess",
+      "type": "root",
+      "note": "con-（彻底）+ fess（fari 一支的 fateri：承认）→ 把压着不说的那句彻底说出口"
+    },
+    {
+      "from": "fari",
+      "to": "fame",
+      "type": "root",
+      "note": "fama（众人传的话）← fari（开口说）→ 众人嘴里都在说的那一份"
+    },
+    {
+      "from": "fari",
+      "to": "famous",
+      "type": "root",
+      "note": "fama（众人传的话）+ -ous（多有的）← fari（开口说）→ 被人说得多的"
+    },
+    {
+      "from": "metiri",
+      "to": "dimension",
+      "type": "root",
+      "note": "di-（分开各向）+ mens（metiri 量）+ -ion → 一个方向上量出来的那个数"
+    },
+    {
+      "from": "metiri",
+      "to": "immense",
+      "type": "root",
+      "note": "im-（不）+ mens（metiri 的过去分词 mensus，量过的）→ 量不出来的那么大"
+    },
+    {
+      "from": "metiri",
+      "to": "measure",
+      "type": "root",
+      "note": "mensura（量出来的尺寸）← metiri（量）→ 拿尺贴上去，读出它有多少"
+    },
+    {
+      "from": "pes",
+      "to": "expedition",
+      "type": "root",
+      "note": "ex-（出来）+ ped（pes 脚）+ -ition → 把脚从绊住的东西里解出来，一队人这才走得成"
+    },
+    {
+      "from": "pes",
+      "to": "pedal",
+      "type": "root",
+      "note": "pedalis（脚上的）← pes（脚）→ 用脚踩的那一块"
+    },
+    {
+      "from": "pes",
+      "to": "pedestrian",
+      "type": "root",
+      "note": "pedester（步行的）← pes（脚）→ 靠脚走的那个人，也指平平无奇像走路一样"
+    },
+    {
+      "from": "mit-miss",
+      "to": "emit",
+      "type": "root",
+      "note": "e-（出去）+ mit（mittere 送）→ 把光、声、气送出去"
+    },
+    {
+      "from": "rect",
+      "to": "dress",
+      "type": "root",
+      "note": "rect（regere 导正、理直）→ 古法语 dresser（把东西摆正、整理停当）→ 把身上的布料理齐 → 穿戴；理"
+    },
+    {
+      "from": "rect",
+      "to": "realm",
+      "type": "root",
+      "note": "rect（regere 统摄、导正）→ 拉丁语 regalis（王的）→ 古法语 reaume → 一个王发号令管得到的"
+    },
+    {
+      "from": "rect",
+      "to": "regime",
+      "type": "root",
+      "note": "rect（regere 导正、治理）+ -men（办法、结果）→ 拉丁语 regimen（治理的那一套办法）→ 掌权的那"
+    },
+    {
+      "from": "rect",
+      "to": "region",
+      "type": "root",
+      "note": "rect（regere 划直、划界）→ 拉丁语 regionem（划出边界的那一片）→ 地面上圈定的一片；也指身上大致的"
+    },
+    {
+      "from": "gerere",
+      "to": "register",
+      "type": "root",
+      "note": "re-（回、逐条）+ gerere（携带、载）→ 拉丁语 regesta（一条条载回来记下的东西）→ 那本册子；作动词是"
+    },
+    {
+      "from": "rect",
+      "to": "reign",
+      "type": "root",
+      "note": "rect（regere 统摄）→ 拉丁语 regnum（王权、王国）→ 古法语 reigne → 坐在发号令的那个位子上"
+    },
+    {
+      "from": "rect",
+      "to": "royalty",
+      "type": "root",
+      "note": "rect（regere 统摄）→ 拉丁语 regalis（王的）→ 古法语 roial ＋ -ty（身份、待遇）→ 属于"
+    },
+    {
+      "from": "ligare",
+      "to": "liable",
+      "type": "root",
+      "note": "lig（ligare 绑）+ -able（能…的）→ 被绑在某事上、脱不开的；也指老被那事缠上"
+    },
+    {
+      "from": "ligare",
+      "to": "oblige",
+      "type": "root",
+      "note": "ob-（朝向、对着）+ lig（ligare 绑）→ 把人朝某事绑住；松一次绳算给人情面"
+    },
+    {
+      "from": "ligare",
+      "to": "rally",
+      "type": "root",
+      "note": "re-（重新）+ al-（ad- 朝）+ li（ligare 绑）→ 法语 rallier（把散开的重新绑回一处）→ 重"
+    },
+    {
+      "from": "ligare",
+      "to": "reliable",
+      "type": "root",
+      "note": "re-（牢牢、反复）+ li（ligare 绑）+ -able（可…的）→ 可以把自己系上去而不会脱的"
+    },
+    {
+      "from": "ligare",
+      "to": "reliance",
+      "type": "root",
+      "note": "rely（把自己系上去）+ -ance（这件事）→ 系上去这件事本身"
+    },
+    {
+      "from": "ligare",
+      "to": "rely",
+      "type": "root",
+      "note": "re-（牢牢）+ ly（ligare 绑）→ 拉丁语 religare（牢牢系住）→ 把自己系到某人某物上"
+    },
+    {
+      "from": "nomen",
+      "to": "anonymous",
+      "type": "root",
+      "note": "an-（无）+ onym（希腊语 onoma 名，与拉丁语 nomen 同一词干）+ -ous → 没有名字挂上去的"
+    },
+    {
+      "from": "nomen",
+      "to": "nominal",
+      "type": "root",
+      "note": "nomin（nomen 名）+ -al（…的）→ 只在名字上如此、里头不作数；小到只够挂个名"
+    },
+    {
+      "from": "nomen",
+      "to": "nominate",
+      "type": "root",
+      "note": "nomin（nomen 名）+ -ate（做…）→ 拉丁语 nominare（叫出名字）→ 把某人的名字报上去"
+    },
+    {
+      "from": "nomen",
+      "to": "noun",
+      "type": "root",
+      "note": "nomen（名）→ 古法语 nom/noun → 语法里专管「叫什么」的那一类词"
+    },
+    {
+      "from": "nomen",
+      "to": "pronoun",
+      "type": "root",
+      "note": "pro-（代替）+ noun（nomen 名）→ 站在名字的位置上替它的那个词"
+    },
+    {
+      "from": "decem",
+      "to": "decade",
+      "type": "root",
+      "note": "dec（decem 十）+ -ade（一批）→ 希腊语 dekas（一批十个）→ 十个年头凑成的那一段"
+    },
+    {
+      "from": "decem",
+      "to": "decimal",
+      "type": "root",
+      "note": "decim（decimus 第十，出自 decem 十）+ -al → 以十为一档往上进；点后按十分之一逐级切下去的那种"
+    },
+    {
+      "from": "decem",
+      "to": "dozen",
+      "type": "root",
+      "note": "拉丁语 duodecim（duo 二＋decem 十）→ 古法语 dozeine → 十再添二，凑成一整批"
+    },
+    {
+      "from": "plic",
+      "to": "duplicate",
+      "type": "root",
+      "note": "du-（duo 二）+ plic（折）+ -ate → 拉丁语 duplicare（折成两层）→ 对折一次，两半一模一样"
+    },
+    {
+      "from": "linum",
+      "to": "line",
+      "type": "root",
+      "note": "linea（亚麻绳绷紧后留下的一道痕）→ 那道痕本身；沿着它排开的人和字也叫它"
+    },
+    {
+      "from": "linum",
+      "to": "linear",
+      "type": "root",
+      "note": "linea（绷紧的绳留下的一道痕）+ -ar（…的）→ 只沿一道痕往前，不分叉不回头"
+    },
+    {
+      "from": "linum",
+      "to": "linen",
+      "type": "root",
+      "note": "lin（linum 亚麻）+ -en（由…做成的）→ 亚麻纤维织出来的那种布，及用它做的家什"
+    },
+    {
+      "from": "linum",
+      "to": "liner",
+      "type": "root",
+      "note": "line（航线，出自 linea 拉直的绳）+ -er（干这个的）→ 固定沿一条路来回跑的那一艘；也指沿内壁铺的那一层"
+    },
+    {
+      "from": "rumpere",
+      "to": "bankrupt",
+      "type": "root",
+      "note": "banca（钱桌）+ rupt（rumpere 打断）→ 钱桌被砸断，账再也摆不上去 → 还不出钱的"
+    },
+    {
+      "from": "rumpere",
+      "to": "erupt",
+      "type": "root",
+      "note": "e-（ex- 出来）+ rupt（rumpere 断裂）→ 封住的地方裂开，里头的东西猛地冲出来"
+    },
+    {
+      "from": "rumpere",
+      "to": "route",
+      "type": "root",
+      "note": "rupta（被打断、硬破开的）→ 通俗拉丁语 rupta via（硬开出来的那条道）→ 一条固定走的路"
+    },
+    {
+      "from": "rumpere",
+      "to": "routine",
+      "type": "root",
+      "note": "route（破开出来的固定一条道）+ -ine → 天天走同一条道，走成了定式"
+    },
+    {
+      "from": "gaudium",
+      "to": "enjoy",
+      "type": "root",
+      "note": "en-（进入）+ joy（gaudium 心里高兴）→ 进到那股高兴里去；也指把某物的好处握在手里"
+    },
+    {
+      "from": "gaudium",
+      "to": "joy",
+      "type": "root",
+      "note": "gaudium（心里高兴）的复数 gaudia → 古法语 joie → 那股劲儿涌上来；也指引起它的那件事"
+    },
+    {
+      "from": "gaudium",
+      "to": "rejoice",
+      "type": "root",
+      "note": "re-（加强）+ joice（gaudium 心里高兴）→ 那股劲儿一直冒到外面，别人也看得见"
+    },
+    {
+      "from": "navis",
+      "to": "naval",
+      "type": "root",
+      "note": "nav（navis 船）+ -al（…的）→ 属于战船的，及操这些船的那支军"
+    },
+    {
+      "from": "navis",
+      "to": "navigation",
+      "type": "root",
+      "note": "nav（navis 船）+ ig（agere 驱动）+ -ation → 拉丁语 navigare（驱船前行）→ 一边把"
+    },
+    {
+      "from": "navis",
+      "to": "navy",
+      "type": "root",
+      "note": "navis（船）→ 古法语 navie（一国的船队）→ 一国的战船连人算作一支；这支人身上那种蓝也随之得名"
+    },
+    {
+      "from": "platea",
+      "to": "plate",
+      "type": "root",
+      "note": "plat（与 platea 同出希腊语 platys：宽而平的一片）+ -e → 扁平的一片，用来盛放；也指蒙在表面的那"
+    },
+    {
+      "from": "platea",
+      "to": "plateau",
+      "type": "root",
+      "note": "plat（与 platea 同出希腊语 platys：宽而平的一片）+ -eau（小、块）→ 高处那一大块平地；引申为曲"
+    },
+    {
+      "from": "platea",
+      "to": "platform",
+      "type": "root",
+      "note": "plat（与 platea 同出希腊语 platys：宽而平的一片）+ form（形状）→ 一块摊平抬高的面；站上去说话"
+    },
+    {
+      "from": "diurnus",
+      "to": "dial",
+      "type": "root",
+      "note": "dialis（一日的，出自 diurnus）→ 把一天的时辰刻成一圈的那个面 → 凡刻着数字的圆面；作动词是照着圆面上的"
+    },
+    {
+      "from": "diurnus",
+      "to": "diary",
+      "type": "root",
+      "note": "diurnus（一日的）→ 拉丁语 diarium（每日的一份、每日所记）→ 按日一条条记下的那本"
+    },
+    {
+      "from": "tain",
+      "to": "maintain",
+      "type": "root",
+      "note": "main（manu，← manus 手）+ tain（tenere 握住）→ 手里一直托着不让它塌；话也一样，攥住不松口"
+    },
+    {
+      "from": "tain",
+      "to": "rein",
+      "type": "root",
+      "note": "re-（往回）+ in（tenere 握住）→ 拉丁语 retinere（往回拉住）→ 手里那两条往回一收就能让马停下的"
+    },
+    {
+      "from": "planus",
+      "to": "piano",
+      "type": "root",
+      "note": "planus（平的、无起伏）→ 意大利语 piano（平缓、柔和）→ pianoforte（柔—强，指这件乐器轻按轻响重"
+    },
+    {
+      "from": "sta",
+      "to": "assistance",
+      "type": "root",
+      "note": "as-（ad- 靠近）+ sist（sistere 立）+ -ance → 站到旁边把力气借出去 → 援助"
+    },
+    {
+      "from": "sta",
+      "to": "assistant",
+      "type": "root",
+      "note": "as-（靠近）+ sist（立）+ -ant（人）→ 站在旁边搭手的那个人 → 助手"
+    },
+    {
+      "from": "sta",
+      "to": "consistent",
+      "type": "root",
+      "note": "con-（一起）+ sist（立）→ 各部分立在一处而互不抵触 → 一致的"
+    },
+    {
+      "from": "sta",
+      "to": "constituent",
+      "type": "root",
+      "note": "con-（一起）+ stitu（statuere 立定）→ 一同立起整体的那一块 → 组成部分"
+    },
+    {
+      "from": "sta",
+      "to": "estate",
+      "type": "root",
+      "note": "estat（status 立住的状态）→ 一个人立身所凭的那份家底 → 地产"
+    },
+    {
+      "from": "sta",
+      "to": "statesman",
+      "type": "root",
+      "note": "state（status 立定的邦国）+ -man → 替一国立住方向的人 → 政治家"
+    },
+    {
+      "from": "sta",
+      "to": "statue",
+      "type": "root",
+      "note": "statu（statuere 立起）+ -e → 被立起来、就那样立着的人形 → 雕像"
+    },
+    {
+      "from": "sta",
+      "to": "status",
+      "type": "root",
+      "note": "status（stare 立住的样子）→ 眼下立在哪一格上 → 地位"
+    },
+    {
+      "from": "sta",
+      "to": "statute",
+      "type": "root",
+      "note": "statut（statuere 立定）→ 被正式立下、从此立在那里的一条 → 法规"
+    },
+    {
+      "from": "sta",
+      "to": "superstition",
+      "type": "root",
+      "note": "super-（在上面）+ stit（stare 立）→ 在道理之上多立出来的一层敬畏 → 迷信"
+    },
+    {
+      "from": "levare",
+      "to": "alleviate",
+      "type": "root",
+      "note": "al-（ad- 朝）+ lev（levare 使变轻）+ -ate → 把压着的分量卸掉一部分 → 减轻"
+    },
+    {
+      "from": "levare",
+      "to": "elevate",
+      "type": "root",
+      "note": "e-（ex- 向上）+ lev（levare 举）+ -ate → 托住往上送 → 举起"
+    },
+    {
+      "from": "levare",
+      "to": "elevator",
+      "type": "root",
+      "note": "e-（向上）+ lev（举）+ -or（做这事的东西）→ 一整天只管把人往上送的那个箱子 → 电梯"
+    },
+    {
+      "from": "levare",
+      "to": "relief",
+      "type": "root",
+      "note": "re-（再）+ lief（levare 使变轻）→ 压着的分量被拿走以后那口气 → 宽慰"
+    },
+    {
+      "from": "levare",
+      "to": "relieve",
+      "type": "root",
+      "note": "re-（再）+ lieve（levare 使变轻）→ 把压着的重新托起来 → 减轻，或干脆自己接过来 → 解除"
+    },
+    {
+      "from": "sequ",
+      "to": "execute",
+      "type": "root",
+      "note": "ex-（彻底）+ ecut（sequi 跟随）→ 跟着一件事走到最后一步 → 执行"
+    },
+    {
+      "from": "sequ",
+      "to": "executive",
+      "type": "root",
+      "note": "ex-（彻底）+ ecut（跟随）+ -ive → 管着把事跟到底的那个人 → 主管"
+    },
+    {
+      "from": "sequ",
+      "to": "pursue",
+      "type": "root",
+      "note": "pur-（pro- 向前）+ sue（sequi 跟随）→ 咬住不放地一路跟下去 → 追赶"
+    },
+    {
+      "from": "sequ",
+      "to": "second",
+      "type": "root",
+      "note": "secundus（sequi 跟随）→ 紧跟在头一个后面的那一个"
+    },
+    {
+      "from": "sequ",
+      "to": "sue",
+      "type": "root",
+      "note": "sue（sequi 跟随）→ 追着一桩说法一路跟进公堂 → 起诉"
+    },
+    {
+      "from": "cors",
+      "to": "record",
+      "type": "root",
+      "note": "re-（回）+ cord（cor 心）→ 把事情送回心里存住 → 记录"
+    },
+    {
+      "from": "cors",
+      "to": "recorder",
+      "type": "root",
+      "note": "re-（回）+ cord（心）+ -er → 替人把事存住的那一个 → 录音机"
+    },
+    {
+      "from": "grat",
+      "to": "congratulate",
+      "type": "root",
+      "note": "con-（一同）+ grat（gratus 令人愉快）+ -ulate → 跟着对方一起高兴，还当面说出来 → 祝贺"
+    },
+    {
+      "from": "grat",
+      "to": "congratulation",
+      "type": "root",
+      "note": "con-（一同）+ grat（令人愉快）+ -ation → 与人同喜时递过去的那句话"
+    },
+    {
+      "from": "grat",
+      "to": "gratitude",
+      "type": "root",
+      "note": "grat（gratus 白送的好意）+ -itude → 把对方那份不要钱的好一直记着 → 感激"
+    },
+    {
+      "from": "sentire",
+      "to": "consensus",
+      "type": "root",
+      "note": "con-（一起）+ sens（sentire 感觉）→ 一屋子人摸到的是同一个点 → 共识"
+    },
+    {
+      "from": "sentire",
+      "to": "nonsense",
+      "type": "root",
+      "note": "non-（不）+ sense（sentire 感觉、理会）→ 声音到了，里头没有可理会的东西 → 胡说"
+    },
+    {
+      "from": "sentire",
+      "to": "sensitive",
+      "type": "root",
+      "note": "sens（sentire 感觉）+ -itive → 别人察觉不到的动静，它也感到 → 敏感的"
+    },
+    {
+      "from": "clud",
+      "to": "closet",
+      "type": "root",
+      "note": "clos（claudere 关）+ -et（小）→ 一扇门关住的那一小块地方 → 壁橱"
+    },
+    {
+      "from": "clud",
+      "to": "conclusion",
+      "type": "root",
+      "note": "con-（一并）+ clus（claudere 关）+ -ion → 把散着的话头收齐，然后关上门 → 结论"
+    },
+    {
+      "from": "curr",
+      "to": "curriculum",
+      "type": "root",
+      "note": "curr（currere 跑）+ -iculum → 学的人得从头跑到尾的那一整圈 → 课程"
+    },
+    {
+      "from": "curr",
+      "to": "occurrence",
+      "type": "root",
+      "note": "oc-（ob- 迎面）+ curr（跑）+ -ence → 迎面跑到眼前来的那一下"
+    },
+    {
+      "from": "fundere",
+      "to": "confusion",
+      "type": "root",
+      "note": "con-（一起）+ fus（fundere 倒）+ -ion → 几样东西倒进一个盆，哪样是哪样都分不出 → 混乱"
+    },
+    {
+      "from": "merx",
+      "to": "commercial",
+      "type": "root",
+      "note": "com-（一起）+ merc（merx 货）+ -ial → 围着货物换手长出来的那一摊事 → 商业的"
+    },
+    {
+      "from": "merx",
+      "to": "merchandise",
+      "type": "root",
+      "note": "merchand（marcheant 贩货的人）+ -ise → 摆出来等人问价的那批东西 → 商品"
+    },
+    {
+      "from": "rect",
+      "to": "direction",
+      "type": "root",
+      "note": "di-（dis- 朝各处）+ rect（regere 引成直线）+ -ion → 把线引向哪一边 → 方向"
+    },
+    {
+      "from": "rect",
+      "to": "erect",
+      "type": "root",
+      "note": "e-（ex- 向上）+ rect（regere 引直）→ 把歪着的引成直的，一直引到立起来 → 竖立"
+    },
+    {
+      "from": "campus-field",
+      "to": "champagne",
+      "type": "root",
+      "note": "champagne（Campania ← campus 平野）→ 拿一片平野的地名当自己的名字 → 只有那儿产的才叫这个"
+    },
+    {
+      "from": "citare",
+      "to": "excitement",
+      "type": "root",
+      "note": "ex-（向外）+ cit（citare 唤起、催动）+ -ment → 被叫起来的那股劲在里头翻腾 → 兴奋"
+    },
+    {
+      "from": "credere",
+      "to": "credential",
+      "type": "root",
+      "note": "cred（credere 相信、托付）+ -ential → 让不认识的人也肯信你的那张纸 → 凭证"
+    },
+    {
+      "from": "gerere",
+      "to": "suggestion",
+      "type": "root",
+      "note": "sug-（sub- 从下）+ gest（gerere 携带）+ -ion → 从下方悄悄带上来、轻轻递给人的那个意思 →"
+    },
+    {
+      "from": "klinein",
+      "to": "decline",
+      "type": "root",
+      "note": "de-（向下）+ cline（clinare 倾斜）→ 顺着斜面往低处走 → 下降；把递来的往旁一偏 → 谢绝"
+    },
+    {
+      "from": "musa",
+      "to": "museum",
+      "type": "root",
+      "note": "mus（Mousa 缪斯）+ -eum（处所）→ 为缪斯那几门技艺留出来的一所屋子 → 博物馆"
+    },
+    {
+      "from": "origo",
+      "to": "orient",
+      "type": "root",
+      "note": "ori（oriri 升起）+ -ent（正在）→ 日头正升起来的那一边，拿它当准头 → 定位"
+    },
+    {
+      "from": "posse",
+      "to": "possibly",
+      "type": "root",
+      "note": "poss（posse 能够）+ -ible + -ly → 落在办得到的范围里，但没说一定 → 可能"
+    },
+    {
+      "from": "qualis",
+      "to": "qualitative",
+      "type": "root",
+      "note": "qual（qualis 何种成色）+ -itative → 问的是哪一种成色，不是有多少 → 定性的"
+    },
+    {
+      "from": "solvere",
+      "to": "soluble",
+      "type": "root",
+      "note": "solu（solvere 解开）+ -ble（可以）→ 放进合适的水里就自己散开 → 可溶的"
+    },
+    {
+      "from": "temptare",
+      "to": "temptation",
+      "type": "root",
+      "note": "tempt（temptare 试探）+ -ation → 有东西伸过来试一试你顶不顶得住 → 诱惑"
+    },
+    {
+      "from": "torquere",
+      "to": "torment",
+      "type": "root",
+      "note": "torm（torquere 拧）+ -ment → 被一圈圈拧紧，还不放开 → 折磨"
+    },
+    {
+      "from": "valere",
+      "to": "prevail",
+      "type": "root",
+      "note": "pre-（prae- 更、在前）+ vail（valere 有力）→ 力气比对方足，最后立住的是这一边 → 占优势"
+    },
+    {
+      "from": "fundere",
+      "to": "refusal",
+      "type": "root",
+      "note": "re-（往回）+ fus（倒）+ -al → 把递来的东西倒回去这件事 → 拒绝"
+    },
+    {
+      "from": "pend",
+      "to": "expenditure",
+      "type": "root",
+      "note": "ex-（出去）+ pend（称量）→ expendere：称出银子付出去 → 付出去的那笔量"
+    },
+    {
+      "from": "pend",
+      "to": "expense",
+      "type": "root",
+      "note": "ex-（出去）+ pens（称量）→ 称出来交出去的那一笔"
+    },
+    {
+      "from": "pend",
+      "to": "independence",
+      "type": "root",
+      "note": "in-（不）+ de-（往下）+ pend（挂）→ 不从别的东西上垂下来"
+    },
+    {
+      "from": "pend",
+      "to": "independent",
+      "type": "root",
+      "note": "in-（不）+ de-（往下）+ pend（挂）→ 不吊在谁身上的"
+    },
+    {
+      "from": "pend",
+      "to": "indispensable",
+      "type": "root",
+      "note": "in-（不）+ dispens（按份称出去、分派，← pendere 称量）+ -able → 这一份免不掉、划不掉"
+    },
+    {
+      "from": "pend",
+      "to": "pendulum",
+      "type": "root",
+      "note": "pend（挂）+ -ulum（小东西）→ pendulus：吊着自己晃的那一件"
+    },
+    {
+      "from": "pend",
+      "to": "pension",
+      "type": "root",
+      "note": "pens（称量）+ -io → pensio：按期称出银子付给你的那一份"
+    },
+    {
+      "from": "pend",
+      "to": "ponder",
+      "type": "root",
+      "note": "pond（重量，← pendere 称量）+ -er → 把事情放到秤上一遍遍称"
+    },
+    {
+      "from": "pend",
+      "to": "spend",
+      "type": "root",
+      "note": "ex-（出）+ pend（称量）→ expendere：称出银子付出去 → 钱和时间都这么一份份付掉"
+    },
+    {
+      "from": "spect",
+      "to": "species",
+      "type": "root",
+      "note": "spec（看）+ -ies → species：看上去的那副样子 → 样子相同的归成一类"
+    },
+    {
+      "from": "spect",
+      "to": "specific",
+      "type": "root",
+      "note": "speci（样子、类，← specere 看）+ -fic（造成）→ 只落在这一类上，不涉别的"
+    },
+    {
+      "from": "spect",
+      "to": "specimen",
+      "type": "root",
+      "note": "spec（看）+ -men（用来做某事的东西）→ 取出来专给人看的那一件"
+    },
+    {
+      "from": "spect",
+      "to": "speculate",
+      "type": "root",
+      "note": "specula（瞭望塔，← specere 看）+ -ate → 站塔上往远处望 → 看不清也先说出个说法"
+    },
+    {
+      "from": "spect",
+      "to": "suspicion",
+      "type": "root",
+      "note": "su-/sub-（从下往上）+ spic（看，← specere）→ suspicere：暗暗从下往上打量 → 心里存下"
+    },
+    {
+      "from": "spect",
+      "to": "suspicious",
+      "type": "root",
+      "note": "sub-（从下）+ spic（看，← specere）+ -ous → 老在暗中打量人的，或引人这么打量的"
+    },
+    {
+      "from": "manus",
+      "to": "management",
+      "type": "root",
+      "note": "man（手，← manus）+ -age + -ment → maneggiare 本是用手驯马 → 把一摊事拿在手里打"
+    },
+    {
+      "from": "manus",
+      "to": "manager",
+      "type": "root",
+      "note": "man（手，← manus）+ -age + -er → 缰绳握在他手里的那个人"
+    },
+    {
+      "from": "manus",
+      "to": "maneuver",
+      "type": "root",
+      "note": "manu（用手，← manus）+ opera（活儿）→ manuopera：手上的活 → 靠手上功夫一寸寸挪"
+    },
+    {
+      "from": "ag",
+      "to": "activate",
+      "type": "root",
+      "note": "act（驱动、做，← agere）+ -ive + -ate → 把停着的东西推成动着的"
+    },
+    {
+      "from": "ag",
+      "to": "agency",
+      "type": "root",
+      "note": "ag（驱动、办事，← agere）+ -ent（正在办的）+ -cy → 替你去动手办事的那一方"
+    },
+    {
+      "from": "ag",
+      "to": "ambiguous",
+      "type": "root",
+      "note": "ambi-（两边）+ ig（驱动，← agere）→ ambigere：往两边都赶 → 两头都说得通"
+    },
+    {
+      "from": "dare-give",
+      "to": "donate",
+      "type": "root",
+      "note": "don（给，← dare）+ -ate → 把东西白交出去，不要回报"
+    },
+    {
+      "from": "dare-give",
+      "to": "pardon",
+      "type": "root",
+      "note": "per-（彻底）+ don（给，← dare）→ perdonare：把该追的整个送掉 → 不再向你追讨"
+    },
+    {
+      "from": "dare-give",
+      "to": "update",
+      "type": "root",
+      "note": "up（往前）+ date（日期，← 拉丁语 data「给出于某日」← dare 给）→ 把日子挪到今天"
+    },
+    {
+      "from": "mit-miss",
+      "to": "committee",
+      "type": "root",
+      "note": "com-（一起）+ mit（送、交，← mittere）+ -ee → 事情被送到手上的那几个人"
+    },
+    {
+      "from": "mit-miss",
+      "to": "compromise",
+      "type": "root",
+      "note": "com-（一起）+ pro-（预先）+ mis（送出，← mittere）→ 双方各把话送出去 → 各让一步"
+    },
+    {
+      "from": "mit-miss",
+      "to": "promise",
+      "type": "root",
+      "note": "pro-（预先）+ mis（送出，← mittere）→ 提前把话送出去，收不回来"
+    },
+    {
+      "from": "spirare",
+      "to": "aspire",
+      "type": "root",
+      "note": "a-/ad-（朝向）+ spire（呼吸，← spirare）→ 朝那个方向使劲喘气 → 心一直往高处"
+    },
+    {
+      "from": "spirare",
+      "to": "spirit",
+      "type": "root",
+      "note": "spir（呼吸，← spirare）+ -itus → spiritus：一口气 → 人活着靠这口气，气也是人的劲头"
+    },
+    {
+      "from": "spirare",
+      "to": "spiritual",
+      "type": "root",
+      "note": "spirit（气、灵，← spirare 呼吸）+ -al → 归于那口气，不归于肉身的"
+    },
+    {
+      "from": "dict",
+      "to": "contradiction",
+      "type": "root",
+      "note": "contra-（对着）+ dict（说，← dicere）+ -ion → 对着人家的话反着说 → 两句话对撞"
+    },
+    {
+      "from": "dict",
+      "to": "dictionary",
+      "type": "root",
+      "note": "dict（说，← dicere）+ -ion（说出来的词）+ -ary（存放处）→ 一条条说法收在一处"
+    },
+    {
+      "from": "gradus",
+      "to": "graduate",
+      "type": "root",
+      "note": "grad（一步、一级，← gradus）+ -ate → 把台阶一级级走到最后那一级"
+    },
+    {
+      "from": "gradus",
+      "to": "undergraduate",
+      "type": "root",
+      "note": "under-（在…之下）+ grad（一级，← gradus）→ 还停在最后那一级之下的人"
+    },
+    {
+      "from": "nasci",
+      "to": "nationality",
+      "type": "root",
+      "note": "nat（出生，← nasci）+ -io（一同生出来的一群）+ -ality → 你生在哪一群人里，就算哪一国的人"
+    },
+    {
+      "from": "nasci",
+      "to": "natural",
+      "type": "root",
+      "note": "nat（出生，← nasci）+ -ura（生成的样子）+ -al → 生来就那样，不是后来做上去的"
+    },
+    {
+      "from": "plic",
+      "to": "employment",
+      "type": "root",
+      "note": "em-/in-（进去）+ ploy（折，← plicare）→ implicare：把人折进事里 → 被用上、有活干"
+    },
+    {
+      "from": "plic",
+      "to": "unemployment",
+      "type": "root",
+      "note": "un-（不）+ em-（进去）+ ploy（折，← plicare）→ 没被折进任何一摊活里"
+    },
+    {
+      "from": "socius",
+      "to": "socialism",
+      "type": "root",
+      "note": "soci（同伴、结伴，← socius）+ -al + -ism → 要紧的东西与同伴共同占有的那一套主张"
+    },
+    {
+      "from": "socius",
+      "to": "sociology",
+      "type": "root",
+      "note": "soci（结伴、人相联，← socius）+ -logia（…之学）→ 研究人怎么结成群的学问"
+    },
+    {
+      "from": "carrus",
+      "to": "discharge",
+      "type": "root",
+      "note": "dis-（去掉）+ charge（装车，← carrus 货车）→ 把装上车的卸回地上"
+    },
+    {
+      "from": "claimare",
+      "to": "acclaim",
+      "type": "root",
+      "note": "ac-/ad-（朝向）+ claim（喊，← clamare）→ 冲着他喊出来 → 众人喊出来的那份好"
+    },
+    {
+      "from": "domus",
+      "to": "dome",
+      "type": "root",
+      "note": "dom（屋、家，← domus）→ 意大利语 duomo：神的屋子、大教堂 → 教堂顶上那个半圆的盖"
+    },
+    {
+      "from": "filum",
+      "to": "file",
+      "type": "root",
+      "note": "fil（线，← filum）→ 法语 filer：把文书一张张串到线上 → 串在一处的那一叠，也指串成的一列"
+    },
+    {
+      "from": "loc",
+      "to": "locomotive",
+      "type": "root",
+      "note": "loco（从某个地点，← locus 地点）+ motivus（能动的）→ 自己能从一处挪到另一处的那台机器"
+    },
+    {
+      "from": "norma",
+      "to": "enormous",
+      "type": "root",
+      "note": "e-/ex-（出）+ norm（角尺，← norma）+ -ous → 大出了那把尺能比的范围"
+    },
+    {
+      "from": "pati",
+      "to": "compatible",
+      "type": "root",
+      "note": "com-（一起）+ pat（承受，← pati）+ -ible → 凑在一处彼此承受得住"
+    },
+    {
+      "from": "prassein",
+      "to": "practice",
+      "type": "root",
+      "note": "pract（做、实行，← prassein）+ -ice → 把想法一遍遍真做出来，做出来的那一套也叫它"
+    },
+    {
+      "from": "quir",
+      "to": "acquire",
+      "type": "root",
+      "note": "ac-/ad-（朝向）+ quir（寻找，← quaerere）→ 朝一样东西找过去，找着了就归自己"
+    },
+    {
+      "from": "spatium",
+      "to": "spacecraft",
+      "type": "root",
+      "note": "space（撑开的距离，← spatium）+ craft（船、器）→ 开进天外那段空处去的船"
+    },
+    {
+      "from": "terrere",
+      "to": "terrific",
+      "type": "root",
+      "note": "terr（吓住，← terrere）+ -fic（造成）→ 原意吓死人的 → 语气翻转，成了大得惊人、好得惊人"
+    },
+    {
+      "from": "vincere",
+      "to": "convict",
+      "type": "root",
+      "note": "con-（彻底）+ vict（战胜，← vincere）→ convincere：在庭上把对方的说法整个压过去 → 罪名"
+    },
+    {
+      "from": "tendere",
+      "to": "attention",
+      "type": "root",
+      "note": "at-/ad-（朝向）+ tent（伸，← tendere）+ -ion → 把心力朝一处伸过去"
+    },
+    {
+      "from": "tendere",
+      "to": "extension",
+      "type": "root",
+      "note": "ex-（往外）+ tens（伸，← tendere）+ -ion → 往外伸出去的那一截"
+    },
+    {
+      "from": "tendere",
+      "to": "extent",
+      "type": "root",
+      "note": "ex-（往外）+ tent（伸，← tendere）→ 一样东西往外伸到哪里为止"
+    },
+    {
+      "from": "tendere",
+      "to": "intense",
+      "type": "root",
+      "note": "in-（朝一点）+ tens（绷，← tendere）→ 力气全绷向一处，不散开"
+    },
+    {
+      "from": "tendere",
+      "to": "intention",
+      "type": "root",
+      "note": "in-（朝向）+ tent（伸，← tendere）+ -ion → 心思先朝那个方向伸出去"
+    },
+    {
+      "from": "tendere",
+      "to": "tense",
+      "type": "root",
+      "note": "tens（绷紧，← tendere 伸展）→ 拉到不能再拉，一碰就弹"
+    },
+    {
+      "from": "tendere",
+      "to": "tension",
+      "type": "root",
+      "note": "tens（拉紧，← tendere）+ -ion → 两头对拉时中间那股劲"
+    },
+    {
+      "from": "tendere",
+      "to": "tent",
+      "type": "root",
+      "note": "tent（撑开，← tendere 伸展）→ tenta：把布撑开绷住 → 撑开来住人的那件布屋"
+    },
+    {
+      "from": "vid",
+      "to": "advise",
+      "type": "root",
+      "note": "a-/ad-（朝向）+ vis（看，← videre）→ 把自己看到的摆到你眼前"
+    },
+    {
+      "from": "vid",
+      "to": "provide",
+      "type": "root",
+      "note": "pro-（预先）+ vid（看，← videre）→ 事先看出会缺什么，先备好摆出来"
+    },
+    {
+      "from": "vid",
+      "to": "provision",
+      "type": "root",
+      "note": "pro-（预先）+ vis（看，← videre）+ -ion → 预先看出来、事先备下的那些东西"
+    },
+    {
+      "from": "vid",
+      "to": "prudent",
+      "type": "root",
+      "note": "prud（← providens 预见的，缩合而来）+ -ent → 事情还没到就先看见，因而不冒进"
+    },
+    {
+      "from": "vid",
+      "to": "revise",
+      "type": "root",
+      "note": "re-（再一次）+ vis（看，← videre）→ 回头再看一遍，看出该改的地方"
+    },
+    {
+      "from": "vid",
+      "to": "supervise",
+      "type": "root",
+      "note": "super-（在上方）+ vis（看，← videre）→ 站在上头看着底下做"
+    },
+    {
+      "from": "mov",
+      "to": "motivate",
+      "type": "root",
+      "note": "mot（推动，← movere）+ -ive（能动的）+ -ate → 在人心里装上一股推力"
+    },
+    {
+      "from": "mov",
+      "to": "promote",
+      "type": "root",
+      "note": "pro-（往前）+ mot（推，← movere）→ 从后面往前推一把"
+    },
+    {
+      "from": "mov",
+      "to": "remote",
+      "type": "root",
+      "note": "re-（往回、离开）+ mot（挪，← movere）→ 被挪开到很远的地方"
+    },
+    {
+      "from": "mov",
+      "to": "remove",
+      "type": "root",
+      "note": "re-（离开）+ mov（挪，← movere）→ 把东西从原处挪走"
+    },
+    {
+      "from": "cadere",
+      "to": "coincide",
+      "type": "root",
+      "note": "co-（一同）+ in-（落到上头）+ cid（落下，← cadere）→ 两件事落到同一个点上"
+    },
+    {
+      "from": "caedere",
+      "to": "decide",
+      "type": "root",
+      "note": "de-（去掉）+ cid（切，← caedere）→ 一刀把纠缠的那头砍断，事情就定了"
+    },
+    {
+      "from": "caedere",
+      "to": "decision",
+      "type": "root",
+      "note": "de-（去掉）+ cis（切，← caedere）+ -ion → 砍断之后留下的那一条"
+    },
+    {
+      "from": "fac",
+      "to": "affection",
+      "type": "root",
+      "note": "af-/ad-（朝向）+ fect（做，← facere）+ -ion → 那个人在你心里做出了一道印子"
+    },
+    {
+      "from": "fac",
+      "to": "fashionable",
+      "type": "root",
+      "note": "fashion（样式，← façon ← factio「做出来的样子」← facere 做）+ -able → 眼下大家"
+    },
+    {
+      "from": "fac",
+      "to": "perfection",
+      "type": "root",
+      "note": "per-（彻底）+ fect（做，← facere）+ -ion → 一路做到底，再没有一处可添可减"
+    },
+    {
+      "from": "notare",
+      "to": "denote",
+      "type": "root",
+      "note": "de-（明确地）+ not（做记号，← notare）→ 用一个记号把那样东西指出来"
+    },
+    {
+      "from": "notare",
+      "to": "note",
+      "type": "root",
+      "note": "nota（记号）→ 在纸上或心里留一个记号，事后照着它把整件事想回来"
+    },
+    {
+      "from": "notare",
+      "to": "notebook",
+      "type": "root",
+      "note": "note（记号、记录，← notare）+ book（本子）→ 专供留记号用的那个本子"
+    },
+    {
+      "from": "vert",
+      "to": "controversial",
+      "type": "root",
+      "note": "contro-（对着）+ vers（转，← vertere）+ -ial → 两边各自转过身来对着对方，谁也不让"
+    },
+    {
+      "from": "vert",
+      "to": "conversion",
+      "type": "root",
+      "note": "con-（彻底）+ vers（转，← vertere）+ -ion → 整个翻过来，成了另一副样子"
+    },
+    {
+      "from": "vert",
+      "to": "diversion",
+      "type": "root",
+      "note": "di-/dis-（岔开）+ vers（转，← vertere）+ -ion → 从原来那条路上转开，岔到别处"
+    },
+    {
+      "from": "duc-duct",
+      "to": "reproduce",
+      "type": "root",
+      "note": "re-（再一次）+ pro-（往前）+ duc（引，← ducere）→ 把同一样东西再引出来一遍"
+    },
+    {
+      "from": "duc-duct",
+      "to": "semiconductor",
+      "type": "root",
+      "note": "semi-（半）+ con-（一路）+ duct（引，← ducere）+ -or → 只肯半路引电过去的那种材料"
+    },
+    {
+      "from": "legere",
+      "to": "college",
+      "type": "root",
+      "note": "col-（一起）+ leg（拣选、择取，← legere）+ -ium → 一批人被挑到一处共事，成了那个团体"
+    },
+    {
+      "from": "legere",
+      "to": "legend",
+      "type": "root",
+      "note": "leg（读，← legere）+ -enda（该被…的）→ 该拿出来念给众人听的那些篇章"
+    },
+    {
+      "from": "operari",
+      "to": "cooperate",
+      "type": "root",
+      "note": "co-（一起）+ oper（劳作，← operari）+ -ate → 几方的力气搭到同一件活上"
+    },
+    {
+      "from": "operari",
+      "to": "operator",
+      "type": "root",
+      "note": "oper（劳作、运转，← operari）+ -ator（做这事的人）→ 让机器或生意转起来的那个人"
+    },
+    {
+      "from": "ponere",
+      "to": "postpone",
+      "type": "root",
+      "note": "post-（在后）+ pon（放，← ponere）→ 把这件事从眼前拿起来，放到后面去"
+    },
+    {
+      "from": "ponere",
+      "to": "purpose",
+      "type": "root",
+      "note": "pur-/por-（往前）+ pose（放，承 ponere 的义）→ 把要达成的那件事放到自己前头"
+    },
+    {
+      "from": "aequus",
+      "to": "equivalent",
+      "type": "root",
+      "note": "aequi（相等，← aequus 两边一样平）+ valent（值、有力，← valere）→ 两边称出来的分量一样平"
+    },
+    {
+      "from": "ars",
+      "to": "article",
+      "type": "root",
+      "note": "artus（关节、接合处，与 ars 同源）+ -culus（小）→ articulus：一个小关节 → 整体上被分开的"
+    },
+    {
+      "from": "centrum",
+      "to": "eccentric",
+      "type": "root",
+      "note": "ec-/ex-（出来）+ centr（圆心，← centrum）+ -ic → 圆心跑出了它该在的位置"
+    },
+    {
+      "from": "clarus",
+      "to": "declaration",
+      "type": "root",
+      "note": "de-（彻底）+ clar（明亮、清楚，← clarus）+ -ation → 把话摆到亮处，人人都看得清"
+    },
+    {
+      "from": "durare",
+      "to": "endure",
+      "type": "root",
+      "note": "en-/in-（使…）+ dur（硬，← durus）→ 硬着不软，一直撑在那里"
+    },
+    {
+      "from": "fluere",
+      "to": "fluid",
+      "type": "root",
+      "note": "flu（流，← fluere）+ -idus（有…性质的）→ 会自己往低处淌、不定形状的那种东西"
+    },
+    {
+      "from": "jac",
+      "to": "objection",
+      "type": "root",
+      "note": "ob-（对着、挡在前）+ ject（投，← jacere）+ -ion → 把话像石头一样扔到对方跟前挡住他"
+    },
+    {
+      "from": "modus",
+      "to": "accommodate",
+      "type": "root",
+      "note": "ac-/ad-（朝向）+ com-（一起）+ mod（量度、尺寸，← modus）+ -ate → 按对方的尺寸把自己这"
+    },
+    {
+      "from": "nuntiare",
+      "to": "pronunciation",
+      "type": "root",
+      "note": "pro-（当众、往前）+ nunci（报信，← nuntiare）+ -ation → 把字音像一则消息那样送到人耳前"
+    },
+    {
+      "from": "physis",
+      "to": "physiological",
+      "type": "root",
+      "note": "physio（天然的本性与运作，← physis）+ -logia（…之学）+ -al → 讲这具身子本来怎么运转的那一"
+    },
+    {
+      "from": "profiteri",
+      "to": "professional",
+      "type": "root",
+      "note": "pro-（在众人前）+ fess（承认、说出，← profiteri）+ -ion + -al → 当众认下这门本事，从"
+    },
+    {
+      "from": "sci",
+      "to": "scientific",
+      "type": "root",
+      "note": "sci（知道、分得清，← scire）+ -entia（所知）+ -ficus（造成…的）→ 造出确知的东西，不是随口说"
+    },
+    {
+      "from": "sperare",
+      "to": "desperate",
+      "type": "root",
+      "note": "de-（去掉、反向）+ sper（盼望，← sperare）+ -ate → 心里那份盼望被抽走，只剩豁出去"
+    },
+    {
+      "from": "testis",
+      "to": "testimony",
+      "type": "root",
+      "note": "testi（见证人，← testis）+ -monium（表事物的后缀）→ 见证人当众说出来的那番话"
+    },
+    {
+      "from": "tribuere",
+      "to": "tribe",
+      "type": "root",
+      "note": "tribus（罗马最初划分出的一支人，与 tribuere 分派同源）→ 从整体里分出来、自成一支的那群人"
+    },
+    {
+      "from": "vocare",
+      "to": "provoke",
+      "type": "root",
+      "note": "pro-（往前、朝外）+ vok（叫，← vocare）→ 冲着人喊，把他心里的反应叫出来"
+    },
+    {
+      "from": "venire-invent",
+      "to": "advent",
+      "type": "root",
+      "note": "ad-（朝、到）+ vent（来）→ 一件大事朝这边过来，已经到了眼前"
+    },
+    {
+      "from": "venire-invent",
+      "to": "adventure",
+      "type": "root",
+      "note": "ad-（朝）+ vent（来）+ -ure → 迎面撞上来的事，事先谁也说不准是什么"
+    },
+    {
+      "from": "venire-invent",
+      "to": "convenience",
+      "type": "root",
+      "note": "con-（一起）+ ven（来）+ -ience → 需要的几样正好凑到一处来"
+    },
+    {
+      "from": "venire-invent",
+      "to": "convention",
+      "type": "root",
+      "note": "con-（一起）+ vent（来）+ -ion → 众人聚到一处，以及聚起来定下的那套东西"
+    },
+    {
+      "from": "venire-invent",
+      "to": "conventional",
+      "type": "root",
+      "note": "con-（一起）+ vent（来）+ -ional → 众人聚起来认下的那一套，照它来的"
+    },
+    {
+      "from": "venire-invent",
+      "to": "intervene",
+      "type": "root",
+      "note": "inter-（在中间）+ vene（来）→ 从两者中间插进来"
+    },
+    {
+      "from": "venire-invent",
+      "to": "revenue",
+      "type": "root",
+      "note": "re-（回）+ venue（来）→ 投出去以后又转回到手里的那一份"
+    },
+    {
+      "from": "ced",
+      "to": "access",
+      "type": "root",
+      "note": "ac-（ad- 的变体，朝向）+ cess（行走）→ 走到跟前去 → 进得去、够得着"
+    },
+    {
+      "from": "ced",
+      "to": "excess",
+      "type": "root",
+      "note": "ex-（出去）+ cess（行走）→ 走到界线外头的那一部分"
+    },
+    {
+      "from": "ced",
+      "to": "excessive",
+      "type": "root",
+      "note": "ex-（出去）+ cess（行走）+ -ive → 已经走过界的"
+    },
+    {
+      "from": "ced",
+      "to": "necessary",
+      "type": "root",
+      "note": "ne-（不）+ cess（让开、退走）+ -ary → 退不开、绕不过去的"
+    },
+    {
+      "from": "ced",
+      "to": "necessitate",
+      "type": "root",
+      "note": "ne-（不）+ cess（让开）+ -itate → 把局面逼到没有别条路可让"
+    },
+    {
+      "from": "ced",
+      "to": "necessity",
+      "type": "root",
+      "note": "ne-（不）+ cess（让开）+ -ity → 退不开的那种处境，也指退不开非要的东西"
+    },
+    {
+      "from": "minus-less",
+      "to": "administration",
+      "type": "root",
+      "note": "ad-（朝向）+ minister（居下承事的人，← minus 更小）+ -ation → 一批人在下面把事务承起来办"
+    },
+    {
+      "from": "minus-less",
+      "to": "minimum",
+      "type": "root",
+      "note": "minimus（最小，minus 一支的最高级）→ 一列量里最靠下的那一个"
+    },
+    {
+      "from": "minus-less",
+      "to": "ministry",
+      "type": "root",
+      "note": "minister（居下承事的人，← minus 更小）+ -y → 承事者所司的那一摊，或他们合成的那个机构"
+    },
+    {
+      "from": "putare",
+      "to": "computer",
+      "type": "root",
+      "note": "com-（合起来）+ put（点算）+ -er → 替人把各项合起来算的那件东西"
+    },
+    {
+      "from": "putare",
+      "to": "counter",
+      "type": "root",
+      "note": "com-（合起来）+ put（点算）→ computare 经古法语 conter（数）→ 点数收钱的那张台子，也指替人"
+    },
+    {
+      "from": "putare",
+      "to": "reputation",
+      "type": "root",
+      "note": "re-（反复）+ put（点算、估量）+ -ation → 众人反复估量之后给出的那个数"
+    },
+    {
+      "from": "forma",
+      "to": "format",
+      "type": "root",
+      "note": "form（形状）+ -at → formatus（被塑成的）→ 定下来的那个式样"
+    },
+    {
+      "from": "forma",
+      "to": "formula",
+      "type": "root",
+      "note": "forma（形状、模子）+ -ula（小）→ 一个小模子，照它套就出同样的东西"
+    },
+    {
+      "from": "forma",
+      "to": "formulate",
+      "type": "root",
+      "note": "formula（小模子、定式）+ -ate → 把散着的想法灌进模子，成一句站得住的话"
+    },
+    {
+      "from": "pet",
+      "to": "compete",
+      "type": "root",
+      "note": "com-（一起）+ pete（追求）→ 几个人一起朝同一样东西扑过去"
+    },
+    {
+      "from": "pet",
+      "to": "competitive",
+      "type": "root",
+      "note": "com-（一起）+ pet（追求）+ -itive → 属于一起抢那一样东西的，或抢得下来的"
+    },
+    {
+      "from": "pet",
+      "to": "repeat",
+      "type": "root",
+      "note": "re-（再一次）+ peat（追求、去取）→ 再去取一遍，同一件事又走一趟"
+    },
+    {
+      "from": "certus",
+      "to": "certificate",
+      "type": "root",
+      "note": "certi（已定的，← certus）+ -ficate（做成）→ 把'已经查定'做成一张纸"
+    },
+    {
+      "from": "certus",
+      "to": "certify",
+      "type": "root",
+      "note": "certi（已定的，← certus）+ -fy（使成为）→ 把还在摇摆的说法弄成定下的"
+    },
+    {
+      "from": "cura",
+      "to": "accuracy",
+      "type": "root",
+      "note": "ac-（ad- 的变体，朝向）+ cur（用心，← cura）+ -acy → 心思用足之后，处处都对得上"
+    },
+    {
+      "from": "cura",
+      "to": "sure",
+      "type": "root",
+      "note": "se-（脱离）+ cure（挂心，← cura）→ securus：心上不必再挂着 → 拿得稳、不再疑"
+    },
+    {
+      "from": "fin",
+      "to": "financial",
+      "type": "root",
+      "note": "fin（终结、结清）+ -ance + -ial → 与把账结到头那一摊有关的"
+    },
+    {
+      "from": "fin",
+      "to": "fine",
+      "type": "root",
+      "note": "fin（终点、界限）→ 做到了头、无可再加的；也指为了结一桩事一次付清的那一笔"
+    },
+    {
+      "from": "mergere",
+      "to": "emergency",
+      "type": "root",
+      "note": "e-（出）+ merg（没入）+ -ency → 本来沉着看不见的事忽然冒出水面，逼你当下就应"
+    },
+    {
+      "from": "mergere",
+      "to": "submerge",
+      "type": "root",
+      "note": "sub-（在下面）+ merge（没入）→ 按到水面以下去，直到看不出来"
+    },
+    {
+      "from": "pars",
+      "to": "partner",
+      "type": "root",
+      "note": "part（份，← pars）+ -ner（parçonier 分得一份的人）→ 与你分同一份的那个人"
+    },
+    {
+      "from": "pars",
+      "to": "party",
+      "type": "root",
+      "note": "part（分开，← pars）+ -y → 从整体分出来的那一伙人，或聚在一处的那一伙"
+    },
+    {
+      "from": "pars",
+      "to": "portion",
+      "type": "root",
+      "note": "portio（份，与 pars 同源）+ -ion → 按份切开后各得的那一块"
+    },
+    {
+      "from": "portus",
+      "to": "sport",
+      "type": "root",
+      "note": "des-（离开）+ port（搬运，← portare）→ desporter：把心思从正事上搬开 → 消遣，后专指比力"
+    },
+    {
+      "from": "battuere",
+      "to": "battery",
+      "type": "root",
+      "note": "bat（击打，← battuere）+ -ery → 一排炮一下接一下地砸；连排成组这层意思后来落到了蓄电装置上"
+    },
+    {
+      "from": "circulus",
+      "to": "circulate",
+      "type": "root",
+      "note": "circul（小环，← circulus）+ -ate → 沿着环走一圈，又回到起点"
+    },
+    {
+      "from": "colere",
+      "to": "cultivate",
+      "type": "root",
+      "note": "cult（耕作、照管，← colere）+ -ivate → 年年翻这块地、照管到它长出东西；本事和关系也这么养"
+    },
+    {
+      "from": "fendere",
+      "to": "offensive",
+      "type": "root",
+      "note": "of-（ob- 的变体，对着）+ fens（击，← -fendere）+ -ive → 一下撞到人身上的，或主动打出去的"
+    },
+    {
+      "from": "gen",
+      "to": "gender",
+      "type": "root",
+      "note": "gen（生、种类）+ -der（← genus 的斜格 gener-）→ 按'生成哪一类'分出来的那一档"
+    },
+    {
+      "from": "jus",
+      "to": "just",
+      "type": "root",
+      "note": "just（合于法的，← jus 法、准）→ 不偏不倚、正对准 → 恰好、刚刚"
+    },
+    {
+      "from": "mun",
+      "to": "immune",
+      "type": "root",
+      "note": "im-（in- 的变体，不）+ mune（公共职役，← munus）→ 不必分担那一份 → 免于，进而指外物侵不进来"
+    },
+    {
+      "from": "nutrire",
+      "to": "nursery",
+      "type": "root",
+      "note": "nurs（喂养、照看，← nutrire）+ -ery（处所）→ 专管把小的喂大的那个地方"
+    },
+    {
+      "from": "plere",
+      "to": "supply",
+      "type": "root",
+      "note": "sup-（sub- 的变体，从下面）+ ply（填满，← plere）→ 从底下把缺的那块添齐"
+    },
+    {
+      "from": "publicus",
+      "to": "republican",
+      "type": "root",
+      "note": "re（res 的变体，事物）+ public（属于众人的，← publicus）+ -an → 主张国事归众人的那一派或"
+    },
+    {
+      "from": "sedere",
+      "to": "preside",
+      "type": "root",
+      "note": "pre-（在前）+ side（坐，← sedere）→ 坐在众人前面那个位子上掌事"
+    },
+    {
+      "from": "tain",
+      "to": "retention",
+      "type": "root",
+      "note": "re-（往回、持续）+ tent（握住，← tenere）+ -ion → 一直攥着不放这件事"
+    },
+    {
+      "from": "tithenai",
+      "to": "synthetic",
+      "type": "root",
+      "note": "syn-（一起）+ thet（放置，← tithenai）+ -ic → 把几样东西放到一处拼成的，不是自己长出来的"
+    },
+    {
+      "from": "turba",
+      "to": "turbulent",
+      "type": "root",
+      "note": "turb（搅乱、旋动，← turba）+ -ulent（多…的）→ 里头一直翻着旋涡，静不下来"
+    },
+    {
+      "from": "wardon",
+      "to": "disregard",
+      "type": "root",
+      "note": "dis-（取消）+ re-（再）+ gard（看守、注目，← *wardon）→ 把那道目光收回去，看也不看"
+    },
+    {
+      "from": "minus-less",
+      "to": "minus",
+      "type": "root",
+      "note": "拉丁语 minus（更小、更少）直接入英语 → 让数目变小的那个记号 → 减去"
     }
   ]
 }
