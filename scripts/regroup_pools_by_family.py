@@ -155,9 +155,32 @@ def main():
     # legere 不同根），子串命中的含义正好相反。带排除措辞的降级为「需核」。
     CONTRAST = ("不同根", "不同源", "不计入", "不合并", "非同", "不属", "而不")
 
+    # 词干 -> 根 id。variants 存的正是该根的各种词干形式（sta 的 variants 含
+    # 'sist'），此前 existing() 只查 root id 与 origin 文本，漏了这一路：
+    # sistere（stare 的重叠现在时）既不等于任何 id、也没写进任何 origin，于是被
+    # 判成「新根候选」并派了出去——那是「已建模误报」的第七次。子代理核出来了
+    # （它发现 8 个成员早已挂在 sta 上、文件里也没有 sistere 的 R 行）。
+    by_variant = {}
+    for r in roots:
+        noisy = {v.lower() for v in (r.get("noisy_variants") or [])}
+        for v in [r.get("root", "")] + list(r.get("variants") or []):
+            for piece in re.split(r"[^A-Za-z]+", v or ""):
+                p = piece.lower()
+                if len(p) >= 3 and p not in noisy:
+                    by_variant.setdefault(p, set()).add(r["id"])
+
     def existing(root):
         if root in rids:
             return ("exact", [root])
+        # 拉丁词元剥词尾后与 variants 比。剥两档：整词尾（sistere→sist）与只剥
+        # 末元音（stare→star、sta）。单剥整词尾时 stare→'st' 只剩 2 字符低于
+        # 阈值，而 sta 的 origin 明写「拉丁语 stare」，会漏。
+        low = root.lower()
+        forms = {re.sub(r"(?:ere|are|ire|ari|eri|us|um|is|o)$", "", low),
+                 re.sub(r"(?:e|a|o|us|um|is)$", "", low), low}
+        for stem in sorted(forms, key=len, reverse=True):
+            if len(stem) >= 3 and stem in by_variant:
+                return ("exact", sorted(by_variant[stem]))
         hits = []
         for rid, o in origins.items():
             for m in re.finditer(r"(?<![a-zA-Z])" + re.escape(root) + r"(?![a-zA-Z])", o):
