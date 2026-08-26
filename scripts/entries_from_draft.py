@@ -279,6 +279,15 @@ def main():
         errs.append(f"{rid}: 词根 id 与单词同名——前端 idMap 会让单词顶掉词根节点，"
                     f"换拉丁原形（如 dare-give）")
 
+    # 反方向同样致命，但此前不查：本批新加的**单词**撞已建好的**词根** id。
+    # 补词批里 new_r 是空集，上面那道门形同不存在，于是 minus（根，挂着
+    # administer/minister/minor 等 6 词）遇上单词 minus 时照样放行——后果与
+    # a)b) 完全一样，且更隐蔽，因为它不需要本批建任何新根。
+    # 由 chunk64 的子代理发现，它扣下了那个词没写。
+    for wid in sorted(batch_w & have_r):
+        errs.append(f"{wid}: 单词与已有词根 id 同名——前端 idMap 会让它顶掉词根 "
+                    f"{wid}，先按 dare→dare-give 的先例给词根改名再补这个词")
+
     for w in words:
         for rid in w["root_ids"]:
             if rid not in all_r:

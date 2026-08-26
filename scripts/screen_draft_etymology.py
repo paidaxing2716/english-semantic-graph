@@ -72,15 +72,58 @@ def main():
     # 长度足够、辨识度高，既覆盖短 id 的根，又不必放宽长度下限。
     lemma_pat = re.compile(r"\b([a-z][a-z]{3,})\b")
     # 这些是 origin 里的中文说明夹带的英文，不是拉丁词元
-    STOP = {"vetted", "note", "pie", "root", "variants"}
-    forms = {}
+    # 后半是拉丁/希腊**前缀**：它们在 origin 里作为构词成分出现（legere-intel 的
+    # origin 写「intelligere：inter- + legere」），抽成键会让任何 inter-/trans-
+    # 开头的词都撞上该根。前缀不承载词根语义，不该做匹配键。
+    STOP = {"vetted", "note", "pie", "root", "variants",
+            "inter", "trans", "circum", "contra", "intro", "super", "supra",
+            "subter", "ante", "post", "prae", "retro", "extra", "infra",
+            "intra", "juxta", "quasi", "ultra", "semi", "multi", "omni",
+            "bene", "male", "vice", "amphi", "anti", "cata", "meta", "para",
+            "peri", "hyper", "hypo", "endo", "exo"}
+
+    # 【排除措辞】origin 是散文，会正当地提到**别的**拉丁词来划清界限：
+    #   profiteri 的 origin 写「与 profile 的 filum（线）一支毫无关系，勿混」
+    #   tangere   的 origin 写「源头与 tenere（握）另有分别」
+    #   jus       的 origin 写「judex 是 jus＋dicere（宣法者）」
+    # 把这些词形抽成匹配键，等于让「写明不同源」反过来制造误报，且是系统性的：
+    # 任何引用 filum / tenere / dicere 的补词都会被报一次。四个子代理各自撞上，
+    # 其中一个为了让门变绿把自己 origin 里的 regere/credere 改写成 rego/credo
+    # ——门在诱导数据往错的方向弯。
+    # 同款过滤 regroup_pools_by_family.py 已有（CONTRAST），这里补 无关/勿混/分别。
+    CONTRAST = ("不同根", "不同源", "不计入", "不合并", "非同", "不属", "而不",
+                "无关", "勿混", "另有分别", "并非同源", "不是同", "两个不同")
+
+    # 语境用**字数窗口**，不按标点分句。试过分句，更差：这些 origin 的否定词
+    # 常与词形隔着逗号或括号（「与 profile 的 filum（线）一支毫无关系」——
+    # filum 在括号前、否定在括号后），分句正好把两者切散，报警从 12 涨到 17。
+    # 窗口取 ±60 字，覆盖实测最远的一例（miniature 那条 31 字）。
+    WIN = 60
+
+    def clause_of(text, pos, end=None):
+        return text[max(0, pos - WIN):(end or pos) + WIN]
+
+    def lemmas_from_origin(origin):
+        """抽词元，但跳过处在排除措辞附近的——那是在说「不是这个」。"""
+        out, dropped = set(), set()
+        for m in lemma_pat.finditer(origin):
+            c = clause_of(origin, m.start(), m.end())
+            (dropped if any(x in c for x in CONTRAST) else out).add(m.group(1))
+        return out, dropped - out
+
+    forms, ignored = {}, {}
     for r in roots:
         cand = {r.get("root", "")} | set(r.get("variants") or [])
-        cand |= set(lemma_pat.findall(r.get("origin", "")))
+        keep, drop = lemmas_from_origin(r.get("origin", ""))
+        cand |= keep
         cand = {c for c in cand
                 if c and len(c) >= a.min_len and c.isalpha() and c not in STOP}
         if cand:
             forms[r["id"]] = cand
+        drop = {c for c in drop if len(c) >= a.min_len and c.isalpha()
+                and c not in STOP}
+        if drop:
+            ignored[r["id"]] = sorted(drop)
 
     members = {}
     for w in words:
@@ -124,12 +167,35 @@ def main():
                 if rid in declared:      # 已挂在这个根上，不是漏挂
                     continue
                 for c in cands:
-                    if c.lower() in origin.lower():
-                        hits.append((Path(f).name, word, rid, c, origin))
-                        break
+                    # 按词边界匹配。纯子串的后果：'edere'（ex+dare 交出）会命中
+                    # cedere / caedere / sedere —— 那是拉丁第二/三变位的 -edere
+                    # 词尾，不是词根。access/excess/necessary 七个词都被这一条
+                    # 误报过。同理 'inter' 是前缀而非承义根。
+                    m = re.search(r"(?<![a-z])" + re.escape(c.lower())
+                                  + r"(?![a-z])", origin.lower())
+                    if not m:
+                        continue
+                    # 草稿自己的 origin 也会有排除措辞：三条真实修正（miniature
+                    # 「与 minus 并非同源」、put「与 putare 无关」、portion
+                    # 「与 portare 无关」）必须写出那个词才说得清为什么不挂它，
+                    # 而写出来就被这道门抓。改对了反而变红，会逼下一个人改回去。
+                    if any(x in clause_of(origin, m.start(), m.end())
+                           for x in CONTRAST):
+                        continue
+                    hits.append((Path(f).name, word, rid, c, origin))
+                    break
                 else:
                     continue
                 break
+
+    # 放宽检查的地方必须自己说出来，否则下一个人无法判断 [OK] 有多少含金量。
+    if ignored:
+        n = sum(len(v) for v in ignored.values())
+        print(f"[info] {n} 个词形处在排除措辞（{'/'.join(CONTRAST[:4])}…）附近，"
+              f"未用作匹配键，涉及 {len(ignored)} 个根：")
+        for rid, forms_ in sorted(ignored.items()):
+            print(f"    {rid}: {', '.join(forms_)}")
+        print()
 
     if not hits:
         print("[OK] 草稿里没有词的 origin 提到已建模词根，全部可按日耳曼型入库")
@@ -142,7 +208,10 @@ def main():
         print(f"      origin: {origin}")
         print(f"      该根现有成员: {members.get(rid, [])}")
         print()
-    print("处理办法：把这些行从 TSV 里删掉，另做一批词根型词条补进对应词根。")
+    # 别照这条建议删行：删掉的可能正是该根的正确成员（filum 族的 file 就是
+    # 这种），而报警本身可能来自别的根 origin 里的子串。先核词源再决定。
+    print("处理办法：逐条核词源。确为漏挂的，把行从 TSV 删掉另做词根型词条；"
+          "属子串假阳性的，在回报里说明，别改数据。")
     return 1
 
 

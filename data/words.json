@@ -39029,11 +39029,9 @@
       "word": "interference",
       "pos": "noun",
       "phonetic": "/ˌɪntəˈfɪərəns/",
-      "decomposable": "root",
-      "root_ids": [
-        "ferre"
-      ],
-      "root_logic": "inter-（在中间）+ fer（带）+ -ence → 把自己插到中间去 → 干扰",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
       "origin": "英语 interference，来自 interfere ← 古法语 s'entreferir（互击）← 拉丁 inter＋ferire",
       "native_definition": "the act of getting involved where one is not wanted; disruption of a signal",
       "core_concept": "something carried in between so the two can no longer meet cleanly – 有东西插进中间，两头就接不干净了",
@@ -39062,7 +39060,8 @@
         "干涉/妨碍：把自己插到中间去搅一脚",
         "干扰：信号里插进杂物、传不干净"
       ],
-      "recall_hint": "inter-（在中间）+ fer（带）→ 插到中间搅一脚"
+      "recall_hint": "inter-（在中间）+ fer（带）→ 插到中间搅一脚",
+      "decomposable_note": "日耳曼核心词处理：ferire（击打）一支库中仅此一词，不足以开根；与 ferre（带、拿去）不同源，勿混"
     },
     {
       "id": "obstruct",
