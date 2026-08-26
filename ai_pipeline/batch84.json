@@ -1,0 +1,466 @@
+{
+  "roots": [
+    {
+      "id": "volvere",
+      "root": "volvere",
+      "variants": [
+        "volv",
+        "volut",
+        "volum"
+      ],
+      "origin": "拉丁语 volvere（卷、转），过去分词 volutus；volumen 本指绕在木轴上卷成一卷的书。同一个动作有两面：往里卷就收成一卷，往外转就摊平铺开，故 in-volvere 是卷进去、e-volvere 是卷开来、re-volvere 是转回原处、volumen 是卷成的那一团。拉丁语 rota（轮子）一支库中已建 rotula 根，roll 与 round 属那边，同表滚转而不同源，勿混；velle（愿意）、voluntas（意愿）出 volunteer 一支，与本根不同源，勿混",
+      "core_concept": "to turn a thing on itself, winding it in or turning it open / 让东西绕着自己转，往里卷成一卷，或往外转开摊平",
+      "core_image": "一长条纸绕着木轴，往一边转就一圈圈裹紧，往另一边转就从头摊开",
+      "english_definition": "to roll, to turn round on itself",
+      "word_ids": [
+        "evolve",
+        "evolution",
+        "involve",
+        "revolution",
+        "revolutionary",
+        "revolve",
+        "volume"
+      ]
+    },
+    {
+      "id": "pathos",
+      "root": "pathos",
+      "variants": [
+        "pathet",
+        "pathy",
+        "sympath"
+      ],
+      "origin": "希腊语 pathos（所受的、感受、苦痛）← paskhein（受、经历），形容词 pathetikos（易被打动的）；sympatheia 是 syn-（一同）加 pathos，指一方受了、另一方跟着一起受。核心在「受」——不是自己动手做，而是事情落到身上，人跟着起变化。英语 path（小路）出古英语 pæþ，与本根不同源，只是拼写相同，勿混。拉丁语 pati（承受）虽常与本根一同追到印欧语 *kwent(h)-，但两支的词形与语义早已分开，库中另有 pati 根，patient、passion 属那一支，本项目不合并",
+      "core_concept": "what happens to you rather than what you do, and the feeling it leaves / 不是你做的而是落到你身上的，以及它在你身上留下的感受",
+      "core_image": "事情不是他做的，是落到他身上的，他脸色跟着变了；对面的人心里也跟着一沉",
+      "english_definition": "to suffer, to undergo what is done to one",
+      "word_ids": [
+        "pathetic",
+        "sympathetic",
+        "sympathize",
+        "sympathy"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-volvere-scroll",
+      "concept": "to turn a thing on itself, winding it in or turning it open",
+      "chinese": "卷起转开",
+      "core_image": "一长条纸绕着木轴，往一边转就一圈圈裹紧，往另一边转就从头摊开",
+      "root_ids": [
+        "volvere"
+      ],
+      "word_ids": [
+        "evolve",
+        "evolution",
+        "involve",
+        "revolution",
+        "revolutionary",
+        "revolve",
+        "volume"
+      ]
+    },
+    {
+      "id": "concept-pathos-undergo",
+      "concept": "what happens to you rather than what you do, and the feeling it leaves",
+      "chinese": "落在身上",
+      "core_image": "事情不是他做的，是落到他身上的，他脸色跟着变了；对面的人心里也跟着一沉",
+      "root_ids": [
+        "pathos"
+      ],
+      "word_ids": [
+        "pathetic",
+        "sympathetic",
+        "sympathize",
+        "sympathy"
+      ]
+    }
+  ],
+  "domain_add": {
+    "domain-shape": [
+      "volvere"
+    ],
+    "domain-perceive": [
+      "pathos"
+    ]
+  },
+  "words": [
+    {
+      "id": "evolve",
+      "word": "evolve",
+      "pos": "verb",
+      "phonetic": "/ɪˈvɒlv/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "e-（向外）+ volv（volvere 卷）→ 把卷着的一卷往外转开，一段段摊出来",
+      "origin": "拉丁语 evolvere：ex-（向外）+ volvere（卷、转），本指把书卷转开来读；十七世纪英语先表「展开」，十九世纪生物学取其「由前一形逐步转出后一形」一义",
+      "native_definition": "to develop gradually from an earlier form into a fuller one",
+      "core_concept": "to be turned open a coil at a time – 一圈一圈转开，后一段由前一段带出来",
+      "core_image": "卷轴一圈圈转开，越往后摊出来的那段花样越比前头繁复",
+      "chinese": [
+        "进化",
+        "演变",
+        "逐步形成"
+      ],
+      "examples": [
+        "Birds evolved from a group of small hunting dinosaurs.",
+        "Her rough sketches evolved into a finished design."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "进化：生物沿着同一条卷轴往下摊，后一段的样子由前一段带出来",
+        "演变：不是换掉，是接着往下转，前头的痕迹还留在上面",
+        "逐步形成：一次只转开一圈，摊够了才成现在这个样子"
+      ],
+      "collocations": [
+        "evolve into sth —— 逐步变成某样东西",
+        "evolve from sth —— 由某样东西一步步转出来"
+      ]
+    },
+    {
+      "id": "evolution",
+      "word": "evolution",
+      "pos": "noun",
+      "phonetic": "/ˌiːvəˈluːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "e-（向外）+ volut（volvere 卷的完成形）+ -ion（名词）→ 把一卷转开的那个过程",
+      "origin": "拉丁语 evolutio（把书卷转开）← evolvere（ex- 向外 + volvere 卷）；英语十七世纪指「展开」，达尔文之后成为生物学术语",
+      "native_definition": "the gradual process by which forms develop out of earlier ones",
+      "core_concept": "the unrolling of a thing out of its earlier turns – 从前面那几圈里一段段转出来的过程",
+      "core_image": "同一条卷轴从头摊到尾，前一段的纹样还看得见，只是越往后越不一样",
+      "chinese": [
+        "进化",
+        "演变",
+        "发展过程"
+      ],
+      "examples": [
+        "The theory of evolution explains how species change.",
+        "We traced the evolution of the alphabet over centuries."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "进化：物种沿这条卷轴一段段摊开，后一段从前一段来",
+        "演变：说的是转开这件事本身，不是某一次的结果",
+        "发展过程：整卷从头到尾摊开的那一路，不是其中某一格"
+      ]
+    },
+    {
+      "id": "involve",
+      "word": "involve",
+      "pos": "verb",
+      "phonetic": "/ɪnˈvɒlv/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "in-（进去）+ volv（volvere 卷）→ 卷进那一卷里，要拿它出来得把整卷拆开",
+      "origin": "拉丁语 involvere：in-（进去）+ volvere（卷、转），本指用布一圈圈把东西裹住",
+      "native_definition": "to have something as a necessary part, or to draw a person into an affair",
+      "core_concept": "rolled in with the rest, so it cannot be taken out alone – 和别的东西卷在一处，单拿不出来",
+      "core_image": "一样东西被裹进卷起来的布里，想单拿它出来，就得把整卷从头拆开",
+      "chinese": [
+        "包含",
+        "牵涉",
+        "使参与"
+      ],
+      "examples": [
+        "The new job involves travelling abroad every month.",
+        "Three cars were involved in the crash last night."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "包含：那一样已经卷在里头，是这一卷的一部分",
+        "牵涉：人被卷进事里，想抽身得先把整件事拆开",
+        "使参与：把人往卷里带一带，他就在里头了"
+      ],
+      "collocations": [
+        "be involved in sth —— 参与某事，或被牵连进某事",
+        "involve doing sth —— 必然包含做某事这一环"
+      ]
+    },
+    {
+      "id": "revolution",
+      "word": "revolution",
+      "pos": "noun",
+      "phonetic": "/ˌrevəˈluːʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "re-（回）+ volut（volvere 转的完成形）+ -ion（名词）→ 转满一整圈回到原处，底下那面翻到上头",
+      "origin": "晚期拉丁语 revolutio（转回原处）← revolvere（re- 回 + volvere 转）；本是天文学语，指天体绕一周回到起点，十七世纪起转指政权被整个翻过来",
+      "native_definition": "one complete turn around a centre, or a complete overturning of a system",
+      "core_concept": "one full turn that brings the underside up – 转满一圈，原先在下的那面翻到上面",
+      "core_image": "轮子转满一圈又回到那个记号，可这一圈过去，压在底下的一面翻到了上头",
+      "chinese": [
+        "革命",
+        "巨变",
+        "旋转"
+      ],
+      "examples": [
+        "The revolution swept the old king from power.",
+        "Each revolution of the wheel pulls the belt round."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "革命：整个秩序转过一圈，上下颠倒，原先在下的到了上头",
+        "巨变：不是改一处，是整盘转过去，转完已不是原来那个样子",
+        "旋转：字面那一层，绕着中心转满一整圈"
+      ]
+    },
+    {
+      "id": "revolutionary",
+      "word": "revolutionary",
+      "pos": "adjective / noun",
+      "phonetic": "/ˌrevəˈluːʃənri/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "re-（回）+ volut（volvere 转）+ -ionary（属于…的）→ 属于那一整圈翻转的，或推着它转的人",
+      "origin": "法语 révolutionnaire ← 拉丁语 revolutio（转回原处 ← revolvere）；一七八九年前后随法国政局造出，先指与那场翻转有关的，后引申指做法上彻底翻新的",
+      "native_definition": "bringing or supporting a complete change, or a person who works for one",
+      "core_concept": "belonging to the full turn-over – 属于把底面翻到上面那一整圈的",
+      "core_image": "他手里那张图纸不是改一处，是要把整间厂的做法从底下翻上来",
+      "chinese": [
+        "革命的",
+        "革命者",
+        "彻底创新的"
+      ],
+      "examples": [
+        "The engine was a revolutionary design in its day.",
+        "He spent twenty years as a revolutionary in exile."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "革命的：与那一整圈翻转有关的，说的是性质",
+        "革命者：推着那一圈转的人，说的是人",
+        "彻底创新的：同样是从底下翻上来，只是翻的是做法而非政局"
+      ]
+    },
+    {
+      "id": "revolve",
+      "word": "revolve",
+      "pos": "verb",
+      "phonetic": "/rɪˈvɒlv/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "re-（回）+ volv（volvere 转）→ 绕着一处转，转过去还回到起点",
+      "origin": "拉丁语 revolvere：re-（回）+ volvere（卷、转），本指把书卷往回转、重读一遍",
+      "native_definition": "to turn in a circle around a central point",
+      "core_concept": "to keep turning back to the same centre – 一直绕着同一处转，怎么转都不离那一点",
+      "core_image": "门绕着中间那根轴转，推它半圈还是回到那根轴上",
+      "chinese": [
+        "旋转",
+        "公转",
+        "围绕"
+      ],
+      "examples": [
+        "The earth revolves around the sun once a year.",
+        "Their whole talk revolved around money that evening."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "旋转：物体绕着自己那根轴一圈圈转",
+        "公转：绕的是外头另一个中心，绕一周回到起点",
+        "围绕：话题或人事绕着某一处转，离不开它"
+      ],
+      "collocations": [
+        "revolve around sth —— 绕某物转，或话题总围着它"
+      ]
+    },
+    {
+      "id": "volume",
+      "word": "volume",
+      "pos": "noun",
+      "phonetic": "/ˈvɒljuːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "volvere"
+      ],
+      "root_logic": "volum（volvere 卷 → volumen 卷成一卷的书）→ 卷起来的那一团，以及这一团有多大",
+      "origin": "拉丁语 volumen（卷起来的东西，尤指书卷）← volvere（卷、转）；古书是一长条纸卷在木轴上，一卷即一册，英语先取「卷、册」义，后由「一卷占多大一团」引出量的一层",
+      "native_definition": "one book of a set, or how much space, sound or quantity there is",
+      "core_concept": "how much there is once it is rolled together – 卷成一团之后，这一团有多少",
+      "core_image": "一长条纸绕着木轴卷起来，卷得越厚，这一团占住的地方越大",
+      "chinese": [
+        "卷",
+        "体积",
+        "音量",
+        "总量"
+      ],
+      "examples": [
+        "She pulled the third volume off the shelf.",
+        "Turn the volume down, the baby is asleep."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "卷：古书一长条卷在轴上，一卷就是一册，拿下来是一团",
+        "体积：那一团撑开、占住了多少地方",
+        "音量：把「有多大一团」这个问法搬到声音上，旋钮往上拧，耳朵里那一团就更胀",
+        "总量：不看单件，只看堆到一起有多大一团"
+      ]
+    },
+    {
+      "id": "pathetic",
+      "word": "pathetic",
+      "pos": "adjective",
+      "phonetic": "/pəˈθetɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "pathos"
+      ],
+      "root_logic": "pathet（pathos 所受、感受）+ -ic（…的）→ 能把人心里那一下勾出来的",
+      "origin": "希腊语 pathetikos（易被打动的）← pathos（所受的、感受、苦痛）；十六世纪英语先表「动人的」，十九世纪起多带轻蔑，转指弱得让人只能摇头",
+      "native_definition": "causing pity, or so weak and poor that it draws contempt",
+      "core_concept": "it pulls a feeling out of whoever looks at it – 谁看见都被它拽出一点情绪",
+      "core_image": "湿透的小狗缩在门口发抖，看它的人心里先一揪，再看又只想摇头",
+      "chinese": [
+        "可怜的",
+        "可悲的",
+        "差劲的"
+      ],
+      "examples": [
+        "The wet dog gave a pathetic little whine.",
+        "His excuse for missing the meeting was pathetic."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "可怜的：看见的人心里被拽了一下，先起的是怜",
+        "可悲的：拽出来的那一下更沉，落在处境上",
+        "差劲的：同样拽出一下，但拽出的是不屑，弱到不值一说"
+      ]
+    },
+    {
+      "id": "sympathetic",
+      "word": "sympathetic",
+      "pos": "adjective",
+      "phonetic": "/ˌsɪmpəˈθetɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "pathos"
+      ],
+      "root_logic": "sym-（一同）+ pathet（pathos 受、感受）+ -ic（…的）→ 肯跟着一起受的",
+      "origin": "希腊语 sympathetikos ← sympatheia（syn- 一同 + pathos 所受的）；十七世纪英语先表「相互感应的」，后多指人对人",
+      "native_definition": "showing that you share and understand another's feelings, or in favour of something",
+      "core_concept": "leaning the same way as the one who took the blow – 身子朝着受了那一下的人偏过去",
+      "core_image": "她一句话没劝，把椅子挪过来坐下听他说，眉头跟着他一起皱",
+      "chinese": [
+        "同情的",
+        "有同感的",
+        "赞同的"
+      ],
+      "examples": [
+        "The nurse stayed patient and sympathetic all evening.",
+        "He is sympathetic to our plan but wants figures."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同情的：眉头跟着对面那人皱，是把他受的那一下接过来一点",
+        "有同感的：两边被同一件事拨动，说的是感受相通",
+        "赞同的：既然偏向他那一边，对他的说法自然也点头"
+      ],
+      "collocations": [
+        "be sympathetic to sth —— 赞同或支持某种主张",
+        "be sympathetic towards sb —— 对某人抱着体谅"
+      ]
+    },
+    {
+      "id": "sympathize",
+      "word": "sympathize",
+      "pos": "verb",
+      "phonetic": "/ˈsɪmpəθaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "pathos"
+      ],
+      "root_logic": "sym-（一同）+ path（pathos 受、感受）+ -ize（去做）→ 主动挪过去，跟着一起受",
+      "origin": "法语 sympathiser ← 希腊语 sympatheia（syn- 一同 + pathos 所受的）",
+      "native_definition": "to share or express understanding of another's feelings, or to agree with them",
+      "core_concept": "to step under the same weight as the other – 挪到同一副担子底下站着",
+      "core_image": "他听完点头，说自己去年也这么熬过一段，说着肩膀往前倾了倾",
+      "chinese": [
+        "同情",
+        "体谅",
+        "赞同"
+      ],
+      "examples": [
+        "I sympathize with anyone who works two jobs.",
+        "We all sympathized when we heard her news."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同情：主动把别人受的那一下接到自己身上",
+        "体谅：接过来之后不催不怪，知道他为什么这样",
+        "赞同：站到他那一副担子底下，也就是站到他那一边"
+      ],
+      "collocations": [
+        "sympathize with sb —— 同情某人，或体谅其处境"
+      ]
+    },
+    {
+      "id": "sympathy",
+      "word": "sympathy",
+      "pos": "noun",
+      "phonetic": "/ˈsɪmpəθi/",
+      "decomposable": "root",
+      "root_ids": [
+        "pathos"
+      ],
+      "root_logic": "sym-（一同）+ path（pathos 受、感受）+ -y（名词）→ 落在你身上的那一下，我跟着一起受",
+      "origin": "希腊语 sympatheia：syn-（一同）+ pathos（所受的、感受），本指两物一齐感应；经拉丁语 sympathia 入英语",
+      "native_definition": "the sharing of another's pain, or agreement with a view or side",
+      "core_concept": "feeling the same blow that fell on another – 落在别人身上的那一下，自己这边也感到了",
+      "core_image": "他讲到一半停住，对面那人喉咙也跟着堵了一下，谁都没开口",
+      "chinese": [
+        "同情",
+        "共鸣",
+        "赞同"
+      ],
+      "examples": [
+        "She sent a short letter of sympathy to his family.",
+        "I have no sympathy with that line of argument."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同情：别人受的那一下，自己身上也过了一遍",
+        "共鸣：两边同时被同一件事拨动，像两根弦一起响",
+        "赞同：跟着一起受的那一边，自然站到他那一边去"
+      ],
+      "collocations": [
+        "have sympathy for sb —— 同情某人的处境",
+        "in sympathy with sth —— 与某种看法或做法一致"
+      ]
+    }
+  ]
+}

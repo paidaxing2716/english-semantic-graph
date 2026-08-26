@@ -5148,6 +5148,39 @@
         "automation",
         "autonomy"
       ]
+    },
+    {
+      "id": "concept-volvere-scroll",
+      "concept": "to turn a thing on itself, winding it in or turning it open",
+      "chinese": "卷起转开",
+      "core_image": "一长条纸绕着木轴，往一边转就一圈圈裹紧，往另一边转就从头摊开",
+      "root_ids": [
+        "volvere"
+      ],
+      "word_ids": [
+        "evolution",
+        "evolve",
+        "involve",
+        "revolution",
+        "revolutionary",
+        "revolve",
+        "volume"
+      ]
+    },
+    {
+      "id": "concept-pathos-undergo",
+      "concept": "what happens to you rather than what you do, and the feeling it leaves",
+      "chinese": "落在身上",
+      "core_image": "事情不是他做的，是落到他身上的，他脸色跟着变了；对面的人心里也跟着一沉",
+      "root_ids": [
+        "pathos"
+      ],
+      "word_ids": [
+        "pathetic",
+        "sympathetic",
+        "sympathize",
+        "sympathy"
+      ]
     }
   ]
 }

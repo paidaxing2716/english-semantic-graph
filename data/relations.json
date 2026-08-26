@@ -11838,6 +11838,72 @@
       "to": "astronomy",
       "type": "root",
       "note": "astro（astron 星）+ -nomy（nomos 法度）→ 星辰循的那套规矩"
+    },
+    {
+      "from": "volvere",
+      "to": "evolve",
+      "type": "root",
+      "note": "e-（向外）+ volv（volvere 卷）→ 把卷着的一卷往外转开，一段段摊出来"
+    },
+    {
+      "from": "volvere",
+      "to": "evolution",
+      "type": "root",
+      "note": "e-（向外）+ volut（volvere 卷的完成形）+ -ion（名词）→ 把一卷转开的那个过程"
+    },
+    {
+      "from": "volvere",
+      "to": "involve",
+      "type": "root",
+      "note": "in-（进去）+ volv（volvere 卷）→ 卷进那一卷里，要拿它出来得把整卷拆开"
+    },
+    {
+      "from": "volvere",
+      "to": "revolution",
+      "type": "root",
+      "note": "re-（回）+ volut（volvere 转的完成形）+ -ion（名词）→ 转满一整圈回到原处，底下那面翻到上头"
+    },
+    {
+      "from": "volvere",
+      "to": "revolutionary",
+      "type": "root",
+      "note": "re-（回）+ volut（volvere 转）+ -ionary（属于…的）→ 属于那一整圈翻转的，或推着它转的人"
+    },
+    {
+      "from": "volvere",
+      "to": "revolve",
+      "type": "root",
+      "note": "re-（回）+ volv（volvere 转）→ 绕着一处转，转过去还回到起点"
+    },
+    {
+      "from": "volvere",
+      "to": "volume",
+      "type": "root",
+      "note": "volum（volvere 卷 → volumen 卷成一卷的书）→ 卷起来的那一团，以及这一团有多大"
+    },
+    {
+      "from": "pathos",
+      "to": "pathetic",
+      "type": "root",
+      "note": "pathet（pathos 所受、感受）+ -ic（…的）→ 能把人心里那一下勾出来的"
+    },
+    {
+      "from": "pathos",
+      "to": "sympathetic",
+      "type": "root",
+      "note": "sym-（一同）+ pathet（pathos 受、感受）+ -ic（…的）→ 肯跟着一起受的"
+    },
+    {
+      "from": "pathos",
+      "to": "sympathize",
+      "type": "root",
+      "note": "sym-（一同）+ path（pathos 受、感受）+ -ize（去做）→ 主动挪过去，跟着一起受"
+    },
+    {
+      "from": "pathos",
+      "to": "sympathy",
+      "type": "root",
+      "note": "sym-（一同）+ path（pathos 受、感受）+ -y（名词）→ 落在你身上的那一下，我跟着一起受"
     }
   ]
 }

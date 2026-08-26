@@ -6150,6 +6150,47 @@
         "automation",
         "autonomy"
       ]
+    },
+    {
+      "id": "volvere",
+      "root": "volvere",
+      "variants": [
+        "volv",
+        "volut",
+        "volum"
+      ],
+      "origin": "拉丁语 volvere（卷、转），过去分词 volutus；volumen 本指绕在木轴上卷成一卷的书。同一个动作有两面：往里卷就收成一卷，往外转就摊平铺开，故 in-volvere 是卷进去、e-volvere 是卷开来、re-volvere 是转回原处、volumen 是卷成的那一团。拉丁语 rota（轮子）一支库中已建 rotula 根，roll 与 round 属那边，同表滚转而不同源，勿混；velle（愿意）、voluntas（意愿）出 volunteer 一支，与本根不同源，勿混",
+      "core_concept": "to turn a thing on itself, winding it in or turning it open / 让东西绕着自己转，往里卷成一卷，或往外转开摊平",
+      "core_image": "一长条纸绕着木轴，往一边转就一圈圈裹紧，往另一边转就从头摊开",
+      "english_definition": "to roll, to turn round on itself",
+      "word_ids": [
+        "evolution",
+        "evolve",
+        "involve",
+        "revolution",
+        "revolutionary",
+        "revolve",
+        "volume"
+      ]
+    },
+    {
+      "id": "pathos",
+      "root": "pathos",
+      "variants": [
+        "pathet",
+        "pathy",
+        "sympath"
+      ],
+      "origin": "希腊语 pathos（所受的、感受、苦痛）← paskhein（受、经历），形容词 pathetikos（易被打动的）；sympatheia 是 syn-（一同）加 pathos，指一方受了、另一方跟着一起受。核心在「受」——不是自己动手做，而是事情落到身上，人跟着起变化。英语 path（小路）出古英语 pæþ，与本根不同源，只是拼写相同，勿混。拉丁语 pati（承受）虽常与本根一同追到印欧语 *kwent(h)-，但两支的词形与语义早已分开，库中另有 pati 根，patient、passion 属那一支，本项目不合并",
+      "core_concept": "what happens to you rather than what you do, and the feeling it leaves / 不是你做的而是落到你身上的，以及它在你身上留下的感受",
+      "core_image": "事情不是他做的，是落到他身上的，他脸色跟着变了；对面的人心里也跟着一沉",
+      "english_definition": "to suffer, to undergo what is done to one",
+      "word_ids": [
+        "pathetic",
+        "sympathetic",
+        "sympathize",
+        "sympathy"
+      ]
     }
   ]
 }
