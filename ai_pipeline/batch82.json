@@ -1,0 +1,233 @@
+{
+  "roots": [
+    {
+      "id": "similis",
+      "root": "similis",
+      "variants": [
+        "simil",
+        "simul",
+        "sembl"
+      ],
+      "origin": "拉丁语 similis（相像的、同一类的），副词 simul（一道、同一刻）出同一个词干 *sem-（一、同一个）；simulare（做出一个像真的东西）由 similis 派生。ad-＋simul 一支经通俗拉丁语 assimulare 出古法语 assembler，故 assemble／assembly 表聚到一处；ad-＋similis 一支出 assimilare，故 assimilate 表化成同一样东西。与 simplex（sim-＋plicare 只折一折）不同支，simple 一族不在此列",
+      "core_concept": "counted as one and the same, whether one kind or one moment / 当成同一个来算，或是同一类，或是同一刻",
+      "core_image": "两样东西并排一比，纹路对得上，几乎看不出是两样；一群人挤到同一处、同一刻抬手，看上去也像只有一个",
+      "english_definition": "alike, of the same kind; at the same time, together",
+      "word_ids": [
+        "similar",
+        "simulate",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "astron",
+      "root": "astron",
+      "variants": [
+        "astro",
+        "aster"
+      ],
+      "origin": "希腊语 astron（星），经拉丁语 astrum 借入；astronomia 是 astron 加 nomos（法则），指星体运行所循的规矩。意大利语 disastro 是 dis-（坏、不吉）加 astro，本指星象不吉——古人以星位定人间吉凶，星位摆坏了，底下的人就跟着出事，故这一支到英语表祸事。拉丁语 sidus（星）同义而不同源，库中已另建 sidus 根，consider／desire 属那一支",
+      "core_concept": "the lights fixed overhead, whose places were read as good or bad fortune / 头顶那些定在原处的光点，位置摆得好坏被当成人间的吉凶",
+      "core_image": "夜里那几点光钉在天上，位置对了心里就踏实；哪天位置摆歪了，底下的人跟着倒霉",
+      "english_definition": "star; the position of the stars read as an omen",
+      "word_ids": [
+        "disaster",
+        "disastrous"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-similis-same",
+      "concept": "counted as one and the same, whether one kind or one moment",
+      "chinese": "算作同一个",
+      "core_image": "两样东西并排一比，纹路对得上，几乎看不出是两样；一群人挤到同一处、同一刻抬手，看上去也像只有一个",
+      "root_ids": [
+        "similis"
+      ],
+      "word_ids": [
+        "similar",
+        "simulate",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "concept-astron-star",
+      "concept": "the lights fixed overhead, whose places were read as good or bad fortune",
+      "chinese": "星位吉凶",
+      "core_image": "夜里那几点光钉在天上，位置对了心里就踏实；哪天位置摆歪了，底下的人跟着倒霉",
+      "root_ids": [
+        "astron"
+      ],
+      "word_ids": [
+        "disaster",
+        "disastrous"
+      ]
+    }
+  ],
+  "domain_add": {
+    "domain-perceive": [
+      "similis",
+      "astron"
+    ]
+  },
+  "words": [
+    {
+      "id": "similar",
+      "word": "similar",
+      "pos": "adjective",
+      "phonetic": "/ˈsɪmɪlə/",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "simil（similis 相像）+ -ar（…的）→ 摆到一起看是同一类的",
+      "origin": "拉丁语 similis（相像的、同一类的），经中世纪拉丁语 similaris 与法语入英语",
+      "native_definition": "alike in appearance or character but not exactly the same",
+      "core_concept": "alike enough to be counted one kind – 像到可以算作同一类",
+      "core_image": "两只杯子并排放着，高矮花色几乎一样，只有杯口一处磕痕不同",
+      "chinese": [
+        "相似的",
+        "类似的",
+        "差不多的"
+      ],
+      "examples": [
+        "The two houses have similar layouts.",
+        "Her handwriting is similar to mine."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "相似的：摆在一起看，大处对得上",
+        "类似的：不是同一样东西，但归得进同一类",
+        "差不多的：细处有出入，但不值得计较"
+      ],
+      "collocations": [
+        "be similar to sth —— 与某物相像，比较对象跟在后面",
+        "similar in sth —— 在某一方面相像"
+      ]
+    },
+    {
+      "id": "simulate",
+      "word": "simulate",
+      "pos": "verb",
+      "phonetic": "/ˈsɪmjuleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "simul（similis 相像）+ -ate（使…）→ 做出一个像真的东西来",
+      "origin": "拉丁语 simulare（做得像、装作）的过去分词 simulatus ← similis（相像的）",
+      "native_definition": "to make something behave or look like the real thing, or to pretend",
+      "core_concept": "making a thing that behaves like the real one – 造出一个举动跟真东西一样的东西",
+      "core_image": "舱里屏幕上云层翻滚，座椅跟着一颠一颠，人握着杆手心出汗，其实一步没离地",
+      "chinese": [
+        "模拟",
+        "假装",
+        "模仿"
+      ],
+      "examples": [
+        "The program can simulate real driving conditions.",
+        "He simulated illness to avoid the meeting."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "模拟：造出一套会动会应的替身，拿它顶替真场面",
+        "假装：把神色装成另一副，里头并没有那回事",
+        "模仿：照着一样东西的样子做，只求外面看着像"
+      ]
+    },
+    {
+      "id": "simultaneous",
+      "word": "simultaneous",
+      "pos": "adjective",
+      "phonetic": "/ˌsɪmlˈteɪniəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "simul（一道、同一刻）+ -aneous（…的）→ 两件事落在同一刻上",
+      "origin": "中世纪拉丁语 simultaneus ← 拉丁语 simul（同时、一道），与 similis（相像的）同一词干",
+      "native_definition": "happening or done at exactly the same time",
+      "core_concept": "falling on the very same moment – 落在同一刻上",
+      "core_image": "两只表的秒针一齐跳，讲话人一开口，耳机里另一种声音跟着就出来，中间不隔",
+      "chinese": [
+        "同时的",
+        "同步的"
+      ],
+      "examples": [
+        "The two events were almost simultaneous.",
+        "She gave a simultaneous translation of his speech."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同时的：两件事的发生点重在一处，前后不差",
+        "同步的：不止起点重合，整个过程都咬着走"
+      ]
+    },
+    {
+      "id": "disaster",
+      "word": "disaster",
+      "pos": "noun",
+      "phonetic": "/dɪˈzɑːstə/",
+      "decomposable": "root",
+      "root_ids": [
+        "astron"
+      ],
+      "root_logic": "dis-（不吉、坏）+ aster（astron 星）→ 星位摆坏了，底下跟着出事",
+      "origin": "中古法语 désastre ← 意大利语 disastro：dis-（不吉）+ astro（星）← 拉丁语 astrum ← 希腊语 astron（星），本指星象不吉",
+      "native_definition": "a sudden event that causes great damage or loss",
+      "core_concept": "ruin coming down as if the stars sat wrong – 像星位摆错了一样，祸事落到头上",
+      "core_image": "洪水退去后村口一片狼藉，屋瓦散在泥里，人蹲着一件件往外扒",
+      "chinese": [
+        "灾难",
+        "惨败"
+      ],
+      "examples": [
+        "The flood was the worst disaster in years.",
+        "The whole trip turned into a disaster."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灾难：突然砸下来的大事，一片人跟着受损",
+        "惨败：不涉天灾，只是一件事从头到尾办得一塌糊涂"
+      ]
+    },
+    {
+      "id": "disastrous",
+      "word": "disastrous",
+      "pos": "adjective",
+      "phonetic": "/dɪˈzɑːstrəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "astron"
+      ],
+      "root_logic": "dis-（不吉）+ astro（astron 星）+ -ous（带…性质的）→ 坏到像星位摆错了才会有的结果",
+      "origin": "法语 désastreux ← 意大利语 disastroso ← disastro（星象不吉）← 拉丁语 astrum ← 希腊语 astron（星）",
+      "native_definition": "causing great harm, or ending very badly",
+      "core_concept": "as bad an outcome as the stars could bring – 结果坏到像星位摆错了才有的样子",
+      "core_image": "财报念到一半没人接话，价格一路往下砸，第二天门口贴出停业的纸",
+      "chinese": [
+        "灾难性的",
+        "极糟的"
+      ],
+      "examples": [
+        "The decision proved disastrous for the company.",
+        "Their first attempt was a disastrous failure."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灾难性的：后果重到把人和局面一起压垮",
+        "极糟的：不到成灾的地步，但已坏到没有更坏"
+      ]
+    }
+  ]
+}

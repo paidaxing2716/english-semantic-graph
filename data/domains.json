@@ -39,7 +39,8 @@
         "fatum",
         "fendere",
         "poena",
-        "lacere"
+        "lacere",
+        "plaudere"
       ]
     },
     {
@@ -110,7 +111,8 @@
         "unus",
         "humus",
         "dividere",
-        "minere"
+        "minere",
+        "sphaira"
       ]
     },
     {
@@ -231,7 +233,9 @@
         "decem",
         "gaudium",
         "stinguere",
-        "demos"
+        "demos",
+        "similis",
+        "astron"
       ]
     },
     {
@@ -300,43 +304,44 @@
       "core_image": "一双手对材料动作，把它做成、做坏、或做到彻底",
       "description": "以'做'为核心的词根。前缀决定这个动作的方向与程度——朝谁做、做到什么份上、做漏了还是做全了。",
       "root_ids": [
-        "fac",
         "ag",
-        "stru",
-        "quir",
-        "gen",
-        "plic",
-        "pet",
-        "texere",
-        "posse",
-        "plere",
-        "organon",
-        "optare",
-        "nasci",
-        "venire-invent",
-        "prassein",
-        "oikonomia",
-        "tithenai",
-        "mekhane",
-        "operari",
-        "augere-auctor",
-        "crescere",
         "ars",
-        "pingere",
-        "planta",
-        "instaurare",
+        "augere-auctor",
+        "autos",
         "colere",
         "creare",
-        "flos",
+        "crescere",
         "dran",
-        "nutrire",
-        "poiein",
-        "novus",
         "fabrica",
-        "parare",
-        "servire",
+        "fac",
+        "flos",
+        "gen",
+        "instaurare",
+        "mekhane",
+        "nasci",
+        "novus",
+        "nutrire",
+        "oikonomia",
+        "operari",
+        "optare",
+        "organon",
         "panis",
-        "tekton"
+        "parare",
+        "pet",
+        "pingere",
+        "planta",
+        "plere",
+        "plic",
+        "poiein",
+        "posse",
+        "prassein",
+        "quir",
+        "servire",
+        "stru",
+        "tekton",
+        "texere",
+        "tithenai",
+        "venire-invent"
       ]
     }
   ]

@@ -4304,10 +4304,10 @@
       "note": "auth（使产生）+ -or（人）→ 使作品产生的人 → 作者"
     },
     {
-      "from": "augere-auctor",
+      "from": "autos",
       "to": "authentic",
       "type": "root",
-      "note": "auth（源头可靠）→ 出自可信源头的、非伪造的"
+      "note": "autos（自己）+ hentes（做事的人）→ 出自本人之手的 → 未经伪造的"
     },
     {
       "from": "augere-auctor",
@@ -11706,6 +11706,138 @@
       "to": "available",
       "type": "root",
       "note": "a-（ad 向着）+ vail（valere 有力、值）+ -able（可…的）→ 还值当、还使得上，因而拿得到手"
+    },
+    {
+      "from": "similis",
+      "to": "similar",
+      "type": "root",
+      "note": "simil（similis 相像）+ -ar（…的）→ 摆到一起看是同一类的"
+    },
+    {
+      "from": "similis",
+      "to": "simulate",
+      "type": "root",
+      "note": "simul（similis 相像）+ -ate（使…）→ 做出一个像真的东西来"
+    },
+    {
+      "from": "similis",
+      "to": "simultaneous",
+      "type": "root",
+      "note": "simul（一道、同一刻）+ -aneous（…的）→ 两件事落在同一刻上"
+    },
+    {
+      "from": "astron",
+      "to": "disaster",
+      "type": "root",
+      "note": "dis-（不吉、坏）+ aster（astron 星）→ 星位摆坏了，底下跟着出事"
+    },
+    {
+      "from": "astron",
+      "to": "disastrous",
+      "type": "root",
+      "note": "dis-（不吉）+ astro（astron 星）+ -ous（带…性质的）→ 坏到像星位摆错了才会有的结果"
+    },
+    {
+      "from": "plaudere",
+      "to": "plausible",
+      "type": "root",
+      "note": "plaus（plaudere 拍手）+ -ible（可以的）→ 值得为它拍两下手的 → 听着站得住"
+    },
+    {
+      "from": "plaudere",
+      "to": "explode",
+      "type": "root",
+      "note": "ex-（向外）+ plod（plaudere 拍手）→ 一片掌声把台上的人轰出去 → 朝外轰开"
+    },
+    {
+      "from": "plaudere",
+      "to": "explosion",
+      "type": "root",
+      "note": "ex-（向外）+ plos（plaudere 拍手）+ -ion（名词）→ 朝外轰出去那一下"
+    },
+    {
+      "from": "plaudere",
+      "to": "explosive",
+      "type": "root",
+      "note": "ex-（向外）+ plos（plaudere 拍手）+ -ive（易于…的）→ 一碰就朝外掀开的"
+    },
+    {
+      "from": "sphaira",
+      "to": "sphere",
+      "type": "root",
+      "note": "spher（sphaira 球）→ 朝哪个方向看都一样圆的形体 → 由这层壳圈出的一份"
+    },
+    {
+      "from": "sphaira",
+      "to": "hemisphere",
+      "type": "root",
+      "note": "hemi-（一半）+ spher（sphaira 球）→ 整个圆球切成两份中的一份"
+    },
+    {
+      "from": "plaudere",
+      "to": "applaud",
+      "type": "root",
+      "note": "ap-（ad- 朝）+ plaud（plaudere 拍手）→ 朝着台上把两掌拍响"
+    },
+    {
+      "from": "plaudere",
+      "to": "applause",
+      "type": "root",
+      "note": "ap-（ad- 朝）+ plaus（plaudere 拍手）+ -e → 朝台上拍出来的那一片响"
+    },
+    {
+      "from": "sphaira",
+      "to": "atmosphere",
+      "type": "root",
+      "note": "atmo-（气）+ sphere（← sphaira 球）→ 罩在这颗球外头那层气"
+    },
+    {
+      "from": "autos",
+      "to": "auto",
+      "type": "root",
+      "note": "autos（自己）→ 不用人推自己就走的那种车"
+    },
+    {
+      "from": "autos",
+      "to": "automatic",
+      "type": "root",
+      "note": "autos（自己）+ -matic（动）→ 不用人管自己就动的"
+    },
+    {
+      "from": "autos",
+      "to": "automation",
+      "type": "root",
+      "note": "autos（自己）+ -mation（动、运作）→ 让整套活计自己转起来"
+    },
+    {
+      "from": "autos",
+      "to": "autonomy",
+      "type": "root",
+      "note": "autos（自己）+ nomos（法度）→ 规矩由自己定 → 自治；与 oikonomia 共用 nomos 而不共用 oikos，按单根体例归本根"
+    },
+    {
+      "from": "similis",
+      "to": "assemble",
+      "type": "root",
+      "note": "as-（ad- 向）+ sembl（← simul 一同）→ 把散着的聚到同一处"
+    },
+    {
+      "from": "similis",
+      "to": "assembly",
+      "type": "root",
+      "note": "as-（ad- 向）+ sembl（← simul 一同）+ -y → 聚到一处的那一场或那群人"
+    },
+    {
+      "from": "astron",
+      "to": "astronaut",
+      "type": "root",
+      "note": "astro（astron 星）+ naut（nautes 水手）→ 在星海里行船的人"
+    },
+    {
+      "from": "astron",
+      "to": "astronomy",
+      "type": "root",
+      "note": "astro（astron 星）+ -nomy（nomos 法度）→ 星辰循的那套规矩"
     }
   ]
 }

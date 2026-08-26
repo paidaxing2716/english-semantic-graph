@@ -2555,7 +2555,6 @@
       "word_ids": [
         "augment",
         "august",
-        "authentic",
         "author",
         "authority",
         "auction",
@@ -5070,6 +5069,84 @@
         "democracy",
         "democratic",
         "epidemic"
+      ]
+    },
+    {
+      "id": "concept-similis-same",
+      "concept": "counted as one and the same, whether one kind or one moment",
+      "chinese": "算作同一个",
+      "core_image": "两样东西并排一比，纹路对得上，几乎看不出是两样；一群人挤到同一处、同一刻抬手，看上去也像只有一个",
+      "root_ids": [
+        "similis"
+      ],
+      "word_ids": [
+        "assemble",
+        "assembly",
+        "similar",
+        "simulate",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "concept-astron-star",
+      "concept": "the lights fixed overhead, whose places were read as good or bad fortune",
+      "chinese": "星位吉凶",
+      "core_image": "夜里那几点光钉在天上，位置对了心里就踏实；哪天位置摆歪了，底下的人跟着倒霉",
+      "root_ids": [
+        "astron"
+      ],
+      "word_ids": [
+        "astronaut",
+        "astronomy",
+        "disaster",
+        "disastrous"
+      ]
+    },
+    {
+      "id": "concept-plaudere-clap",
+      "concept": "hands struck together till the noise drives someone out",
+      "chinese": "两掌相击",
+      "core_image": "满屋巴掌拍成一片响，声浪在中间鼓成一股往外掀，把台上那人推出门去",
+      "root_ids": [
+        "plaudere"
+      ],
+      "word_ids": [
+        "applaud",
+        "applause",
+        "explode",
+        "explosion",
+        "explosive",
+        "plausible"
+      ]
+    },
+    {
+      "id": "concept-sphaira-ball",
+      "concept": "a body equally round in every direction",
+      "chinese": "圆球",
+      "core_image": "一颗玻璃弹子在掌心滚，怎么转都是那个圆；锯开成两只碗，外头再罩一层薄壳",
+      "root_ids": [
+        "sphaira"
+      ],
+      "word_ids": [
+        "atmosphere",
+        "hemisphere",
+        "sphere"
+      ]
+    },
+    {
+      "id": "concept-autos-self",
+      "concept": "acting from itself",
+      "chinese": "出自自身",
+      "core_image": "没人推、没人下令，它自己就动起来",
+      "root_ids": [
+        "autos"
+      ],
+      "word_ids": [
+        "authentic",
+        "auto",
+        "automatic",
+        "automation",
+        "autonomy"
       ]
     }
   ]

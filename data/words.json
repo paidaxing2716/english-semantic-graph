@@ -27792,9 +27792,9 @@
       "phonetic": "/ɔːˈθentɪk/",
       "decomposable": "root",
       "root_ids": [
-        "augere-auctor"
+        "autos"
       ],
-      "root_logic": "auth（源头可靠）→ 出自可信源头的、非伪造的",
+      "root_logic": "autos（自己）+ hentes（做事的人）→ 出自本人之手的 → 未经伪造的",
       "origin": "希腊语 authentikos（原始的、可信的），经拉丁语 authenticus 入英语",
       "native_definition": "real, genuine, and not a copy or fake",
       "core_concept": "traceable to the true origin, not an imitation – 能追溯到真实源头、非仿制",
@@ -43963,10 +43963,11 @@
       "word": "applause",
       "pos": "noun",
       "phonetic": "/əˈplɔːz/",
-      "decomposable": "germanic",
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ap-（ad- 朝）+ plaus（plaudere 拍手）+ -e → 朝台上拍出来的那一片响",
       "origin": "拉丁语 applausus ← applaudere（ad- 向 + plaudere 拍手）",
       "native_definition": "the sound made by many people clapping together",
       "core_concept": "hundreds of palms hitting each other at the same moment – 几百只手掌同一刻互相拍在一起",
@@ -44671,10 +44672,11 @@
       "word": "assemble",
       "pos": "verb",
       "phonetic": "/əˈsembl/",
-      "decomposable": "germanic",
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "as-（ad- 向）+ sembl（← simul 一同）→ 把散着的聚到同一处",
       "origin": "古法语 assembler（聚到一处）← 通俗拉丁语 *assimulare ← ad-（向）+ simul（一同）",
       "native_definition": "to come together, or to put parts together into a whole",
       "core_concept": "separate pieces brought together until they make one thing – 散着的一件件凑到一处，成了一整个",
@@ -44701,10 +44703,11 @@
       "word": "assembly",
       "pos": "noun",
       "phonetic": "/əˈsembli/",
-      "decomposable": "germanic",
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "as-（ad- 向）+ sembl（← simul 一同）+ -y → 聚到一处的那一场或那群人",
       "origin": "古法语 assemblee（集会）← assembler（聚到一处）← 拉丁语 ad-（向）+ simul（一同）",
       "native_definition": "a group gathered in one place, or the act of putting parts together",
       "core_concept": "the hall where the scattered ones sit down together – 散着的人坐进同一个厅里",
@@ -45125,10 +45128,11 @@
       "word": "auto",
       "pos": "noun",
       "phonetic": "/ˈɔːtəʊ/",
-      "decomposable": "germanic",
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "autos"
+      ],
+      "root_logic": "autos（自己）→ 不用人推自己就走的那种车",
       "origin": "英语截短自 automobile，auto- 出自希腊语 autos（自己）",
       "native_definition": "a car, or something that works by itself",
       "core_concept": "the four-wheeled box that moves under its own power – 四个轮子的铁盒，靠自己动起来",
@@ -45154,10 +45158,11 @@
       "word": "autonomy",
       "pos": "noun",
       "phonetic": "/ɔːˈtɒnəmi/",
-      "decomposable": "germanic",
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "autos"
+      ],
+      "root_logic": "autos（自己）+ nomos（法度）→ 规矩由自己定 → 自治；与 oikonomia 共用 nomos 而不共用 oikos，按单根体例归本根",
       "origin": "希腊语 autonomia（自立法度）← autos（自己）+ nomos（法）",
       "native_definition": "the right to govern or decide for oneself",
       "core_concept": "making your own rules with no one across the water to answer to – 自己定自己的规矩，别人插不上手",
@@ -120859,9 +120864,11 @@
       "word": "astronaut",
       "pos": "noun",
       "phonetic": "/ˈæstrənɔːt/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "astron"
+      ],
+      "root_logic": "astro（astron 星）+ naut（nautes 水手）→ 在星海里行船的人",
       "origin": "英语 20 世纪造词，取希腊语 astron（星）+ nautēs（水手，← naus 船）",
       "native_definition": "someone trained to travel and work in a spacecraft",
       "core_concept": "a sailor whose sea is the stars – 把星空当海来跑船的人",
@@ -120880,17 +120887,18 @@
       "semantic_expansions": [
         "宇航员：驾着船在星空里走的那种人",
         "航天员：同一种人，说的是他执行的是飞出大气层的任务"
-      ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "atmosphere",
       "word": "atmosphere",
       "pos": "noun",
       "phonetic": "/ˈætməsfɪə/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "sphaira"
+      ],
+      "root_logic": "atmo-（气）+ sphere（← sphaira 球）→ 罩在这颗球外头那层气",
       "origin": "近代拉丁语 atmosphaera ← 希腊语 atmos（水汽）+ sphaira（球）：包在星球外面那层气",
       "native_definition": "the layer of gases around a planet, or the feeling a place gives you",
       "core_concept": "the shell of vapour wrapped round a globe – 裹在球体外头那层气",
@@ -120913,8 +120921,7 @@
         "大气层：把同一层气看成有厚度、分层次的一圈",
         "气氛：把裹在四周那层东西挪到人身上，指一处地方笼着的那种感觉",
         "环境：同一层笼罩物说得更泛，指人置身其中的那一片"
-      ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "bacterium",
@@ -121242,9 +121249,11 @@
       "word": "automation",
       "pos": "noun",
       "phonetic": "/ˌɔːtəˈmeɪʃn/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "autos"
+      ],
+      "root_logic": "autos（自己）+ -mation（动、运作）→ 让整套活计自己转起来",
       "origin": "1948 年英语造词，由 automatic 缩合加 -ion；automatic ← 希腊语 automatos（自己动的）：autos（自己）+ -matos（有意向的）",
       "native_definition": "the use of machines to do work that people used to do",
       "core_concept": "letting the machine act of its own accord – 让机器自己动起来干活",
@@ -121259,8 +121268,7 @@
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      "semantic_expansions": []
     },
     {
       "id": "aviation",
@@ -121961,9 +121969,11 @@
       "word": "applaud",
       "pos": "verb",
       "phonetic": "/əˈplɔːd/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ap-（ad- 朝）+ plaud（plaudere 拍手）→ 朝着台上把两掌拍响",
       "origin": "拉丁语 applaudere（ad- 向着 + plaudere 拍打、击掌）",
       "native_definition": "to clap your hands to show approval, or to praise something publicly",
       "core_concept": "hands struck together toward someone – 冲着人把两只手拍在一起",
@@ -121984,8 +121994,7 @@
         "鼓掌：两手相拍，不出声也算",
         "喝彩：一边拍一边出声叫好",
         "称赞：公开表示赞许，不必真拍手"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "assimilate",
@@ -122026,9 +122035,11 @@
       "word": "astronomy",
       "pos": "noun",
       "phonetic": "/əˈstrɒnəmi/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "astron"
+      ],
+      "root_logic": "astro（astron 星）+ -nomy（nomos 法度）→ 星辰循的那套规矩",
       "origin": "古法语 astronomie ← 拉丁语 astronomia ← 希腊语 astron（星）+ nomos（法则）：星体运行所循的规矩",
       "native_definition": "the scientific study of the stars, planets, and space",
       "core_concept": "the rules the stars move by – 星体运行所循的规矩",
@@ -122043,17 +122054,18 @@
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      "semantic_expansions": []
     },
     {
       "id": "automatic",
       "word": "automatic",
       "pos": "adjective",
       "phonetic": "/ˌɔːtəˈmætɪk/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "autos"
+      ],
+      "root_logic": "autos（自己）+ -matic（动）→ 不用人管自己就动的",
       "origin": "希腊语 automatos（自行动作的）← autos（自己）+ -matos（与 menos 心意、动念同支），英语加 -ic 构成",
       "native_definition": "working by itself without a person operating it, or happening as a certain result",
       "core_concept": "moving of its own accord – 自己就动起来，不用人推",
@@ -122074,8 +122086,7 @@
         "自动的：机器自行运转，无须人操作",
         "无意识的：反应快到来不及想，身体自己做了",
         "必然的：条件一满足就随之而来，不另作决定"
-      ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "about",
@@ -122452,6 +122463,354 @@
         "know better than to do sth —— 明理而不至于做某事"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "similar",
+      "word": "similar",
+      "pos": "adjective",
+      "phonetic": "/ˈsɪmɪlə/",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "simil（similis 相像）+ -ar（…的）→ 摆到一起看是同一类的",
+      "origin": "拉丁语 similis（相像的、同一类的），经中世纪拉丁语 similaris 与法语入英语",
+      "native_definition": "alike in appearance or character but not exactly the same",
+      "core_concept": "alike enough to be counted one kind – 像到可以算作同一类",
+      "core_image": "两只杯子并排放着，高矮花色几乎一样，只有杯口一处磕痕不同",
+      "chinese": [
+        "相似的",
+        "类似的",
+        "差不多的"
+      ],
+      "examples": [
+        "The two houses have similar layouts.",
+        "Her handwriting is similar to mine."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "相似的：摆在一起看，大处对得上",
+        "类似的：不是同一样东西，但归得进同一类",
+        "差不多的：细处有出入，但不值得计较"
+      ],
+      "collocations": [
+        "be similar to sth —— 与某物相像，比较对象跟在后面",
+        "similar in sth —— 在某一方面相像"
+      ]
+    },
+    {
+      "id": "simulate",
+      "word": "simulate",
+      "pos": "verb",
+      "phonetic": "/ˈsɪmjuleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "simul（similis 相像）+ -ate（使…）→ 做出一个像真的东西来",
+      "origin": "拉丁语 simulare（做得像、装作）的过去分词 simulatus ← similis（相像的）",
+      "native_definition": "to make something behave or look like the real thing, or to pretend",
+      "core_concept": "making a thing that behaves like the real one – 造出一个举动跟真东西一样的东西",
+      "core_image": "舱里屏幕上云层翻滚，座椅跟着一颠一颠，人握着杆手心出汗，其实一步没离地",
+      "chinese": [
+        "模拟",
+        "假装",
+        "模仿"
+      ],
+      "examples": [
+        "The program can simulate real driving conditions.",
+        "He simulated illness to avoid the meeting."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "模拟：造出一套会动会应的替身，拿它顶替真场面",
+        "假装：把神色装成另一副，里头并没有那回事",
+        "模仿：照着一样东西的样子做，只求外面看着像"
+      ]
+    },
+    {
+      "id": "simultaneous",
+      "word": "simultaneous",
+      "pos": "adjective",
+      "phonetic": "/ˌsɪmlˈteɪniəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "simul（一道、同一刻）+ -aneous（…的）→ 两件事落在同一刻上",
+      "origin": "中世纪拉丁语 simultaneus ← 拉丁语 simul（同时、一道），与 similis（相像的）同一词干",
+      "native_definition": "happening or done at exactly the same time",
+      "core_concept": "falling on the very same moment – 落在同一刻上",
+      "core_image": "两只表的秒针一齐跳，讲话人一开口，耳机里另一种声音跟着就出来，中间不隔",
+      "chinese": [
+        "同时的",
+        "同步的"
+      ],
+      "examples": [
+        "The two events were almost simultaneous.",
+        "She gave a simultaneous translation of his speech."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同时的：两件事的发生点重在一处，前后不差",
+        "同步的：不止起点重合，整个过程都咬着走"
+      ]
+    },
+    {
+      "id": "disaster",
+      "word": "disaster",
+      "pos": "noun",
+      "phonetic": "/dɪˈzɑːstə/",
+      "decomposable": "root",
+      "root_ids": [
+        "astron"
+      ],
+      "root_logic": "dis-（不吉、坏）+ aster（astron 星）→ 星位摆坏了，底下跟着出事",
+      "origin": "中古法语 désastre ← 意大利语 disastro：dis-（不吉）+ astro（星）← 拉丁语 astrum ← 希腊语 astron（星），本指星象不吉",
+      "native_definition": "a sudden event that causes great damage or loss",
+      "core_concept": "ruin coming down as if the stars sat wrong – 像星位摆错了一样，祸事落到头上",
+      "core_image": "洪水退去后村口一片狼藉，屋瓦散在泥里，人蹲着一件件往外扒",
+      "chinese": [
+        "灾难",
+        "惨败"
+      ],
+      "examples": [
+        "The flood was the worst disaster in years.",
+        "The whole trip turned into a disaster."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灾难：突然砸下来的大事，一片人跟着受损",
+        "惨败：不涉天灾，只是一件事从头到尾办得一塌糊涂"
+      ]
+    },
+    {
+      "id": "disastrous",
+      "word": "disastrous",
+      "pos": "adjective",
+      "phonetic": "/dɪˈzɑːstrəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "astron"
+      ],
+      "root_logic": "dis-（不吉）+ astro（astron 星）+ -ous（带…性质的）→ 坏到像星位摆错了才会有的结果",
+      "origin": "法语 désastreux ← 意大利语 disastroso ← disastro（星象不吉）← 拉丁语 astrum ← 希腊语 astron（星）",
+      "native_definition": "causing great harm, or ending very badly",
+      "core_concept": "as bad an outcome as the stars could bring – 结果坏到像星位摆错了才有的样子",
+      "core_image": "财报念到一半没人接话，价格一路往下砸，第二天门口贴出停业的纸",
+      "chinese": [
+        "灾难性的",
+        "极糟的"
+      ],
+      "examples": [
+        "The decision proved disastrous for the company.",
+        "Their first attempt was a disastrous failure."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灾难性的：后果重到把人和局面一起压垮",
+        "极糟的：不到成灾的地步，但已坏到没有更坏"
+      ]
+    },
+    {
+      "id": "plausible",
+      "word": "plausible",
+      "pos": "adjective",
+      "phonetic": "/ˈplɔːzəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "plaus（plaudere 拍手）+ -ible（可以的）→ 值得为它拍两下手的 → 听着站得住",
+      "origin": "拉丁语 plausibilis（值得鼓掌的）← plaudere 的过去分词 plausus；十六世纪入英语时本义仍是「值得称许的」，后转指「听起来过得去的」",
+      "native_definition": "seeming reasonable or probably true, though perhaps not certain",
+      "core_concept": "worth a couple of claps, so it passes – 听着值得拍两下手，于是就先被放过去了",
+      "core_image": "他把来龙去脉讲得很顺，在座的都点了头，可账上那笔钱还是对不上",
+      "chinese": [
+        "似乎合理的",
+        "说得过去的",
+        "貌似可信的"
+      ],
+      "examples": [
+        "He gave a plausible excuse for arriving so late.",
+        "Her story sounds plausible but the dates do not match."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "似乎合理的：值得拍手 → 听着像那么回事，先站得住",
+        "说得过去的：拍手是当场的认可，不等于查证过，所以只是过得去",
+        "貌似可信的：只在「听着」这一层成立，往下追可能就散了"
+      ]
+    },
+    {
+      "id": "explode",
+      "word": "explode",
+      "pos": "verb",
+      "phonetic": "/ɪkˈspləʊd/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ex-（向外）+ plod（plaudere 拍手）→ 一片掌声把台上的人轰出去 → 朝外轰开",
+      "origin": "拉丁语 explodere：ex-（向外）+ plaudere（拍手），本指罗马剧场里观众鼓掌喝倒彩把演员赶下台；十六世纪英语借来指「斥退、驳倒」，十七世纪转为「猛然朝外裂开」",
+      "native_definition": "to burst apart with force and noise, or to increase very suddenly",
+      "core_concept": "a clap so loud it throws the thing outward – 响到把里头的东西整个掀到外面",
+      "core_image": "铁桶从中缝豁开，气浪把碎片甩到墙上，隔了半秒声音才追上来",
+      "chinese": [
+        "爆炸",
+        "爆发",
+        "激增"
+      ],
+      "examples": [
+        "The old boiler exploded and shattered every window nearby.",
+        "Demand for electric cars has exploded in recent years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爆炸：外壳兜不住里头的力，一下朝各个方向掀开",
+        "爆发：情绪或事件憋到某一点，像那一下掀开，只是掀出来的是人声",
+        "激增：数字沿同一条曲线朝外冲，短时间内蹿到平时到不了的高处"
+      ]
+    },
+    {
+      "id": "explosion",
+      "word": "explosion",
+      "pos": "noun",
+      "phonetic": "/ɪkˈspləʊʒn/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ex-（向外）+ plos（plaudere 拍手）+ -ion（名词）→ 朝外轰出去那一下",
+      "origin": "拉丁语 explosio ← explodere（ex- 向外 + plaudere 拍手），本指剧场里把演员轰下台的那阵响；英语取的是它后起的「猛然朝外裂开」一义",
+      "native_definition": "a violent bursting outward, or a sudden sharp rise in number",
+      "core_concept": "the single moment everything inside is thrown out – 里头的东西被一齐掀到外面那一瞬",
+      "core_image": "远处腾起一团火球，脚下的玻璃先震落，声音隔一拍才砸到耳朵上",
+      "chinese": [
+        "爆炸",
+        "爆炸声",
+        "激增"
+      ],
+      "examples": [
+        "The explosion blew out windows along the whole street.",
+        "Africa has seen an explosion in mobile phone use."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爆炸：壳裂开，力量朝四面推出去的那一下",
+        "爆炸声：那股力推着空气一路撞过来，人先看见后听见",
+        "激增：曲线在很短一段里朝上冲，形状与那一下掀开是同一个"
+      ]
+    },
+    {
+      "id": "explosive",
+      "word": "explosive",
+      "pos": "adjective / noun",
+      "phonetic": "/ɪkˈspləʊsɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ex-（向外）+ plos（plaudere 拍手）+ -ive（易于…的）→ 一碰就朝外掀开的",
+      "origin": "拉丁语 explodere（ex- 向外 + plaudere 拍手）的分词干加 -ivus；先指「易猛然裂开的」，后名词化指这类东西",
+      "native_definition": "able to burst apart violently, or a substance made to do so",
+      "core_concept": "holding a burst inside, needing only a touch – 里头压着那一下掀开，只等谁碰它",
+      "core_image": "一小块灰泥色的东西封在铁盒里，插着两根细线，谁走过都放轻脚步",
+      "chinese": [
+        "爆炸性的",
+        "一触即发的",
+        "炸药"
+      ],
+      "examples": [
+        "Police found explosive material inside the abandoned van.",
+        "The report makes several explosive claims about the mayor."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "炸药：造出来专供那一下掀开用的东西",
+        "爆炸性的：具备朝外掀开的本事，还没掀",
+        "一触即发的：局面憋到只差一碰，与引线搭在药上是同一个形状"
+      ]
+    },
+    {
+      "id": "sphere",
+      "word": "sphere",
+      "pos": "noun",
+      "phonetic": "/sfɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "sphaira"
+      ],
+      "root_logic": "spher（sphaira 球）→ 朝哪个方向看都一样圆的形体 → 由这层壳圈出的一份",
+      "origin": "希腊语 sphaira（球）经拉丁语 sphaera、古法语 espere 入英语；古代天文把日月星辰安在一层层套着的球壳上，故引申指各自管着的那一层",
+      "native_definition": "a perfectly round body, or a marked-off area of activity",
+      "core_concept": "round the same amount in every direction – 各个方向都圆得一样的那个形体",
+      "core_image": "一颗钢珠在桌面上滚，怎么转都还是那个轮廓；各人只管自己那一圈的事",
+      "chinese": [
+        "球体",
+        "范围",
+        "领域"
+      ],
+      "examples": [
+        "The earth is not a perfect sphere at all.",
+        "That question lies outside my sphere of work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "球体：本义，从任何角度看都是同一个圆",
+        "范围：球壳把里外分开，边界之内算这一份",
+        "领域：某人某学科各占一层壳，互不相扰"
+      ]
+    },
+    {
+      "id": "hemisphere",
+      "word": "hemisphere",
+      "pos": "noun",
+      "phonetic": "/ˈhemɪsfɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "sphaira"
+      ],
+      "root_logic": "hemi-（一半）+ spher（sphaira 球）→ 整个圆球切成两份中的一份",
+      "origin": "拉丁语 hemisphaerium ← 希腊语 hemisphairion：hemi-（半）+ sphaira（球）",
+      "native_definition": "one half of a globe, or one of the two halves of the brain",
+      "core_concept": "a globe cut clean through the middle – 一个圆球从正中切开后的一份",
+      "core_image": "地球仪沿赤道锯开，剩下那块倒扣着像只碗；脑子沿中缝也这么分左右",
+      "chinese": [
+        "半球",
+        "大脑半球"
+      ],
+      "examples": [
+        "Australia lies in the southern hemisphere of the world.",
+        "The left hemisphere controls speech in most people."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "半球：地球被赤道或某条经线分开后的那一份",
+        "大脑半球：脑子沿中缝分成的左右两块，各管半边身体"
+      ]
     }
   ]
 }

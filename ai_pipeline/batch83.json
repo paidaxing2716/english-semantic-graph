@@ -1,0 +1,270 @@
+{
+  "roots": [
+    {
+      "id": "plaudere",
+      "root": "plaudere",
+      "variants": [
+        "plaud",
+        "plaus",
+        "plod",
+        "plos"
+      ],
+      "origin": "拉丁语 plaudere（两掌相击、拍打出声），过去分词 plausus；复合词 explodere = ex-（向外）+ plaudere，本指罗马剧场里观众鼓掌喝倒彩把演员轰下台；plangere（拍胸哀号，出 complain）也表拍打，但那是另一个拉丁词，勿混",
+      "core_concept": "hands struck together till the noise drives someone out / 两掌相击，响到把人赶出去",
+      "core_image": "满屋巴掌拍成一片响，声浪在中间鼓成一股往外掀，把台上那人推出门去",
+      "english_definition": "to clap, to strike the palms together",
+      "word_ids": [
+        "plausible",
+        "explode",
+        "explosion",
+        "explosive"
+      ]
+    },
+    {
+      "id": "sphaira",
+      "root": "sphaira",
+      "variants": [
+        "spher",
+        "sphaer"
+      ],
+      "origin": "希腊语 sphaira（球、皮球），经拉丁语 sphaera 入英语；古代天文把日月星辰安在一层层套着的球壳上，atmos（水汽）+ sphaira 就是裹在星球外头那层气的壳",
+      "core_concept": "a body equally round in every direction / 朝哪个方向看都一样圆的形体",
+      "core_image": "一颗玻璃弹子在掌心滚，怎么转都是那个圆；锯开成两只碗，外头再罩一层薄壳",
+      "english_definition": "a ball, a globe",
+      "word_ids": [
+        "sphere",
+        "hemisphere"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-plaudere-clap",
+      "concept": "hands struck together till the noise drives someone out",
+      "chinese": "两掌相击",
+      "core_image": "满屋巴掌拍成一片响，声浪在中间鼓成一股往外掀，把台上那人推出门去",
+      "root_ids": [
+        "plaudere"
+      ],
+      "word_ids": [
+        "plausible",
+        "explode",
+        "explosion",
+        "explosive"
+      ]
+    },
+    {
+      "id": "concept-sphaira-ball",
+      "concept": "a body equally round in every direction",
+      "chinese": "圆球",
+      "core_image": "一颗玻璃弹子在掌心滚，怎么转都是那个圆；锯开成两只碗，外头再罩一层薄壳",
+      "root_ids": [
+        "sphaira"
+      ],
+      "word_ids": [
+        "sphere",
+        "hemisphere"
+      ]
+    }
+  ],
+  "domain_add": {
+    "domain-force": [
+      "plaudere"
+    ],
+    "domain-shape": [
+      "sphaira"
+    ]
+  },
+  "words": [
+    {
+      "id": "plausible",
+      "word": "plausible",
+      "pos": "adjective",
+      "phonetic": "/ˈplɔːzəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "plaus（plaudere 拍手）+ -ible（可以的）→ 值得为它拍两下手的 → 听着站得住",
+      "origin": "拉丁语 plausibilis（值得鼓掌的）← plaudere 的过去分词 plausus；十六世纪入英语时本义仍是「值得称许的」，后转指「听起来过得去的」",
+      "native_definition": "seeming reasonable or probably true, though perhaps not certain",
+      "core_concept": "worth a couple of claps, so it passes – 听着值得拍两下手，于是就先被放过去了",
+      "core_image": "他把来龙去脉讲得很顺，在座的都点了头，可账上那笔钱还是对不上",
+      "chinese": [
+        "似乎合理的",
+        "说得过去的",
+        "貌似可信的"
+      ],
+      "examples": [
+        "He gave a plausible excuse for arriving so late.",
+        "Her story sounds plausible but the dates do not match."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "似乎合理的：值得拍手 → 听着像那么回事，先站得住",
+        "说得过去的：拍手是当场的认可，不等于查证过，所以只是过得去",
+        "貌似可信的：只在「听着」这一层成立，往下追可能就散了"
+      ]
+    },
+    {
+      "id": "explode",
+      "word": "explode",
+      "pos": "verb",
+      "phonetic": "/ɪkˈspləʊd/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ex-（向外）+ plod（plaudere 拍手）→ 一片掌声把台上的人轰出去 → 朝外轰开",
+      "origin": "拉丁语 explodere：ex-（向外）+ plaudere（拍手），本指罗马剧场里观众鼓掌喝倒彩把演员赶下台；十六世纪英语借来指「斥退、驳倒」，十七世纪转为「猛然朝外裂开」",
+      "native_definition": "to burst apart with force and noise, or to increase very suddenly",
+      "core_concept": "a clap so loud it throws the thing outward – 响到把里头的东西整个掀到外面",
+      "core_image": "铁桶从中缝豁开，气浪把碎片甩到墙上，隔了半秒声音才追上来",
+      "chinese": [
+        "爆炸",
+        "爆发",
+        "激增"
+      ],
+      "examples": [
+        "The old boiler exploded and shattered every window nearby.",
+        "Demand for electric cars has exploded in recent years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爆炸：外壳兜不住里头的力，一下朝各个方向掀开",
+        "爆发：情绪或事件憋到某一点，像那一下掀开，只是掀出来的是人声",
+        "激增：数字沿同一条曲线朝外冲，短时间内蹿到平时到不了的高处"
+      ]
+    },
+    {
+      "id": "explosion",
+      "word": "explosion",
+      "pos": "noun",
+      "phonetic": "/ɪkˈspləʊʒn/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ex-（向外）+ plos（plaudere 拍手）+ -ion（名词）→ 朝外轰出去那一下",
+      "origin": "拉丁语 explosio ← explodere（ex- 向外 + plaudere 拍手），本指剧场里把演员轰下台的那阵响；英语取的是它后起的「猛然朝外裂开」一义",
+      "native_definition": "a violent bursting outward, or a sudden sharp rise in number",
+      "core_concept": "the single moment everything inside is thrown out – 里头的东西被一齐掀到外面那一瞬",
+      "core_image": "远处腾起一团火球，脚下的玻璃先震落，声音隔一拍才砸到耳朵上",
+      "chinese": [
+        "爆炸",
+        "爆炸声",
+        "激增"
+      ],
+      "examples": [
+        "The explosion blew out windows along the whole street.",
+        "Africa has seen an explosion in mobile phone use."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "爆炸：壳裂开，力量朝四面推出去的那一下",
+        "爆炸声：那股力推着空气一路撞过来，人先看见后听见",
+        "激增：曲线在很短一段里朝上冲，形状与那一下掀开是同一个"
+      ]
+    },
+    {
+      "id": "explosive",
+      "word": "explosive",
+      "pos": "adjective / noun",
+      "phonetic": "/ɪkˈspləʊsɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "plaudere"
+      ],
+      "root_logic": "ex-（向外）+ plos（plaudere 拍手）+ -ive（易于…的）→ 一碰就朝外掀开的",
+      "origin": "拉丁语 explodere（ex- 向外 + plaudere 拍手）的分词干加 -ivus；先指「易猛然裂开的」，后名词化指这类东西",
+      "native_definition": "able to burst apart violently, or a substance made to do so",
+      "core_concept": "holding a burst inside, needing only a touch – 里头压着那一下掀开，只等谁碰它",
+      "core_image": "一小块灰泥色的东西封在铁盒里，插着两根细线，谁走过都放轻脚步",
+      "chinese": [
+        "爆炸性的",
+        "一触即发的",
+        "炸药"
+      ],
+      "examples": [
+        "Police found explosive material inside the abandoned van.",
+        "The report makes several explosive claims about the mayor."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "炸药：造出来专供那一下掀开用的东西",
+        "爆炸性的：具备朝外掀开的本事，还没掀",
+        "一触即发的：局面憋到只差一碰，与引线搭在药上是同一个形状"
+      ]
+    },
+    {
+      "id": "sphere",
+      "word": "sphere",
+      "pos": "noun",
+      "phonetic": "/sfɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "sphaira"
+      ],
+      "root_logic": "spher（sphaira 球）→ 朝哪个方向看都一样圆的形体 → 由这层壳圈出的一份",
+      "origin": "希腊语 sphaira（球）经拉丁语 sphaera、古法语 espere 入英语；古代天文把日月星辰安在一层层套着的球壳上，故引申指各自管着的那一层",
+      "native_definition": "a perfectly round body, or a marked-off area of activity",
+      "core_concept": "round the same amount in every direction – 各个方向都圆得一样的那个形体",
+      "core_image": "一颗钢珠在桌面上滚，怎么转都还是那个轮廓；各人只管自己那一圈的事",
+      "chinese": [
+        "球体",
+        "范围",
+        "领域"
+      ],
+      "examples": [
+        "The earth is not a perfect sphere at all.",
+        "That question lies outside my sphere of work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "球体：本义，从任何角度看都是同一个圆",
+        "范围：球壳把里外分开，边界之内算这一份",
+        "领域：某人某学科各占一层壳，互不相扰"
+      ]
+    },
+    {
+      "id": "hemisphere",
+      "word": "hemisphere",
+      "pos": "noun",
+      "phonetic": "/ˈhemɪsfɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "sphaira"
+      ],
+      "root_logic": "hemi-（一半）+ spher（sphaira 球）→ 整个圆球切成两份中的一份",
+      "origin": "拉丁语 hemisphaerium ← 希腊语 hemisphairion：hemi-（半）+ sphaira（球）",
+      "native_definition": "one half of a globe, or one of the two halves of the brain",
+      "core_concept": "a globe cut clean through the middle – 一个圆球从正中切开后的一份",
+      "core_image": "地球仪沿赤道锯开，剩下那块倒扣着像只碗；脑子沿中缝也这么分左右",
+      "chinese": [
+        "半球",
+        "大脑半球"
+      ],
+      "examples": [
+        "Australia lies in the southern hemisphere of the world.",
+        "The left hemisphere controls speech in most people."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "半球：地球被赤道或某条经线分开后的那一份",
+        "大脑半球：脑子沿中缝分成的左右两块，各管半边身体"
+      ]
+    }
+  ]
+}

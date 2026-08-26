@@ -43,6 +43,10 @@ ATTACH = {
     "architect": ("tekton", "archi-（为首）+ tect（tekton 匠人）→ 一群匠人里领头拿主张的那个"),
     "architecture": ("tekton", "archi-（为首）+ tect（tekton 匠人）+ -ure → 领头匠人立起来的那套法式"),
     "epidemic": ("demos", "epi-（落在上头）+ dem（demos 民众）→ 落到一方百姓身上并铺开的那场病"),
+    # ---- 第八十一批（chunk91）建的 2 个根 ----
+    "applaud": ("plaudere", "ap-（ad- 朝）+ plaud（plaudere 拍手）→ 朝着台上把两掌拍响"),
+    "applause": ("plaudere", "ap-（ad- 朝）+ plaus（plaudere 拍手）+ -e → 朝台上拍出来的那一片响"),
+    "atmosphere": ("sphaira", "atmo-（气）+ sphere（← sphaira 球）→ 罩在这颗球外头那层气"),
 }
 
 

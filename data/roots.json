@@ -2948,7 +2948,6 @@
       "word_ids": [
         "augment",
         "august",
-        "authentic",
         "author",
         "authority",
         "auction",
@@ -6049,6 +6048,103 @@
         "democracy",
         "democratic",
         "epidemic"
+      ]
+    },
+    {
+      "id": "similis",
+      "root": "similis",
+      "variants": [
+        "simil",
+        "simul",
+        "sembl"
+      ],
+      "origin": "拉丁语 similis（相像的、同一类的），副词 simul（一道、同一刻）出同一个词干 *sem-（一、同一个）；simulare（做出一个像真的东西）由 similis 派生。ad-＋simul 一支经通俗拉丁语 assimulare 出古法语 assembler，故 assemble／assembly 表聚到一处；ad-＋similis 一支出 assimilare，故 assimilate 表化成同一样东西。与 simplex（sim-＋plicare 只折一折）不同支，simple 一族不在此列",
+      "core_concept": "counted as one and the same, whether one kind or one moment / 当成同一个来算，或是同一类，或是同一刻",
+      "core_image": "两样东西并排一比，纹路对得上，几乎看不出是两样；一群人挤到同一处、同一刻抬手，看上去也像只有一个",
+      "english_definition": "alike, of the same kind; at the same time, together",
+      "word_ids": [
+        "assemble",
+        "assembly",
+        "similar",
+        "simulate",
+        "simultaneous"
+      ]
+    },
+    {
+      "id": "astron",
+      "root": "astron",
+      "variants": [
+        "astro",
+        "aster"
+      ],
+      "origin": "希腊语 astron（星），经拉丁语 astrum 借入；astronomia 是 astron 加 nomos（法则），指星体运行所循的规矩。意大利语 disastro 是 dis-（坏、不吉）加 astro，本指星象不吉——古人以星位定人间吉凶，星位摆坏了，底下的人就跟着出事，故这一支到英语表祸事。拉丁语 sidus（星）同义而不同源，库中已另建 sidus 根，consider／desire 属那一支",
+      "core_concept": "the lights fixed overhead, whose places were read as good or bad fortune / 头顶那些定在原处的光点，位置摆得好坏被当成人间的吉凶",
+      "core_image": "夜里那几点光钉在天上，位置对了心里就踏实；哪天位置摆歪了，底下的人跟着倒霉",
+      "english_definition": "star; the position of the stars read as an omen",
+      "word_ids": [
+        "astronaut",
+        "astronomy",
+        "disaster",
+        "disastrous"
+      ]
+    },
+    {
+      "id": "plaudere",
+      "root": "plaudere",
+      "variants": [
+        "plaud",
+        "plaus",
+        "plod",
+        "plos"
+      ],
+      "origin": "拉丁语 plaudere（两掌相击、拍打出声），过去分词 plausus；复合词 explodere = ex-（向外）+ plaudere，本指罗马剧场里观众鼓掌喝倒彩把演员轰下台；plangere（拍胸哀号，出 complain）也表拍打，但那是另一个拉丁词，勿混",
+      "core_concept": "hands struck together till the noise drives someone out / 两掌相击，响到把人赶出去",
+      "core_image": "满屋巴掌拍成一片响，声浪在中间鼓成一股往外掀，把台上那人推出门去",
+      "english_definition": "to clap, to strike the palms together",
+      "word_ids": [
+        "applaud",
+        "applause",
+        "explode",
+        "explosion",
+        "explosive",
+        "plausible"
+      ]
+    },
+    {
+      "id": "sphaira",
+      "root": "sphaira",
+      "variants": [
+        "spher",
+        "sphaer"
+      ],
+      "origin": "希腊语 sphaira（球、皮球），经拉丁语 sphaera 入英语；古代天文把日月星辰安在一层层套着的球壳上，atmos（水汽）+ sphaira 就是裹在星球外头那层气的壳",
+      "core_concept": "a body equally round in every direction / 朝哪个方向看都一样圆的形体",
+      "core_image": "一颗玻璃弹子在掌心滚，怎么转都是那个圆；锯开成两只碗，外头再罩一层薄壳",
+      "english_definition": "a ball, a globe",
+      "word_ids": [
+        "atmosphere",
+        "hemisphere",
+        "sphere"
+      ]
+    },
+    {
+      "id": "autos",
+      "root": "autos",
+      "variants": [
+        "autos",
+        "autom",
+        "auton"
+      ],
+      "origin": "希腊语 autos（自己、自身）；authentikos ← authentes（autos + hentes 做事的人），与拉丁 auctor / augere 无关，只是到英语都拼成 auth-；autonomia = autos + nomos，与 oikonomia 共用 nomos 而不共用 oikos",
+      "core_concept": "acting from itself, needing no push or order from outside / 动力和规矩都出在自己身上",
+      "core_image": "没人推、没人下令，它自己就动起来，连该守的规矩也是自己定下的",
+      "english_definition": "self, of oneself",
+      "word_ids": [
+        "authentic",
+        "auto",
+        "automatic",
+        "automation",
+        "autonomy"
       ]
     }
   ]
