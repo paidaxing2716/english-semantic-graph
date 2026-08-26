@@ -42,6 +42,29 @@ Repo: `C:/Users/86134/.claude-ctf-workspace/english-semantic-graph`
 | 12 | concept — `english phrase – 中文解释`，用短破折号 `–` |
 | 13 | expansions — `|` 分隔，逐条说明某义项如何从核心画面推出。列 10 有 2 个以上义项时**必填** |
 | 14 | hint — recall_hint。多数留空；**当列 6 里中文义项出现 3 次及以上时必填**，写一条不点名义项的推导。脚本会替你判要不要填 |
+| 15 | collocations — 常用搭配，`\|` 分隔，每条写 `型式 —— 中文说明`。**虚词、连接词、程度副词必填**（见下），实词留空 |
+
+### 第 15 列 collocations —— 什么时候必填
+
+虚词的难点不在词义而在**用法**：`rather than`（而不是）与 `rather cold`（有点冷）
+是两个不同的东西，只给「宁愿／有点」这两个中文义项，学的人照样不会用。所以这三类
+词必须写搭配：
+
+- **连接副词**：however / nevertheless / therefore / thus / whereas / otherwise
+- **程度副词**：rather / quite / somewhat / fairly / hardly / barely
+- **虚词与从属连词**：though / while / since / unless / whether / yet / still
+
+每条格式 `型式 —— 中文说明`，型式里用 `sth` / `sb` / `doing` / `that` 标占位：
+
+```
+rather than doing sth —— 而不是做某事，两者取前舍后
+would rather do sth —— 宁愿做某事，表主观取舍
+rather + adj —— 有点、相当，程度偏中上但不到 very
+```
+
+写 2–4 条，覆盖该词最常考的型式。**只写型式本身站得住的搭配**，别把普通例句
+改写成搭配充数——`however hard he tried` 是型式（however + adj/adv + 主谓），
+`however the plan is slow` 不是。
 
 ## R 行 —— 10 列
 

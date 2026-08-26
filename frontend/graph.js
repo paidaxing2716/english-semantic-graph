@@ -247,6 +247,7 @@
         antonyms: w.antonyms,
         related: w.related,
         expansions: w.semantic_expansions,
+        collocations: w.collocations,
         roots: w.root_ids,
         synonymGroup: w.synonym_group,
         synonymNote: w.synonym_note,
@@ -993,6 +994,19 @@
         : "";
       if (expansions) {
         html += `<div class="detail-block"><h3>语义扩展</h3><ul>${expansions}</ul></div>`;
+      }
+
+      // 常用搭配：虚词的难点在用法不在词义（rather than 与 rather cold 是两回事）。
+      // 型式与中文说明分开排，型式用 code 标出来便于扫读。
+      if (d.collocations && d.collocations.length) {
+        const items = d.collocations.map((c) => {
+          const i = c.indexOf("——");
+          if (i < 0) return `<li>${escapeHtml(c)}</li>`;
+          const pat = c.slice(0, i).trim();
+          const note = c.slice(i + 2).trim();
+          return `<li><code>${escapeHtml(pat)}</code> ${escapeHtml(note)}</li>`;
+        }).join("");
+        html += `<div class="detail-block"><h3>常用搭配</h3><ul>${items}</ul></div>`;
       }
 
       // 近义词组（概念层中转）

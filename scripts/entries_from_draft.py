@@ -74,6 +74,7 @@
 """
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -153,17 +154,44 @@ def build_word(cols, lineno, legacy=False):
         rid_s, logic = "", ""
         hint = ""
     else:
-        if len(cols) != 14:
+        # 14 列是旧格式，15 列是加了 collocations 的新格式，两者都收。
+        # 【为什么这里要格外小心】此前「15 列」正是那个缺陷的特征：expansions 或
+        # examples 里的 `|` 被误打成制表符，整行多出一列而两道门都放行，只有
+        # awk -F'\t' 'NF!=14' 看得出来——本会话发生过三次（universal、promote、
+        # accommodate）。现在 15 列合法了，那个特征就失效了，所以改用内容判别：
+        # 真的第 15 列只放搭配（含 `——` 或为空），而错位挤出来的那一列是被截断的
+        # 义项说明或例句片段。判反了会让错位重新变成静默失效。
+        if len(cols) == 14:
+            (_, word, pos, ph, rid_s, logic, origin, native, image, zh, ex,
+             concept, exps, hint) = [c.strip() for c in cols]
+            colloc = ""
+        elif len(cols) == 15:
+            (_, word, pos, ph, rid_s, logic, origin, native, image, zh, ex,
+             concept, exps, hint, colloc) = [c.strip() for c in cols]
+            if colloc and "——" not in colloc:
+                raise ValueError(
+                    f"第 {lineno} 行第 15 列不像搭配（缺 '——'）："
+                    f"{colloc[:40]!r}。若这是 expansions/examples 里的 `|` 被误打成"
+                    f"制表符挤出来的，改回 `|`；搭配格式是 `型式 —— 中文说明`")
+            # 第 15 列为空也不能免检：错位可能把原本为空的 hint 挤到第 15 位，
+            # 于是空的第 15 列「看起来合法」，而义项说明被挤进了 hint 列。
+            # hint 是一条不点名义项的推导，绝不会长成「甲：…」这种义项条目式。
+            if not colloc and re.match(r"^[^：:]{1,8}[：:]", hint):
+                raise ValueError(
+                    f"第 {lineno} 行第 14 列（hint）像义项说明而非回想提示："
+                    f"{hint[:40]!r}，且第 15 列为空——多半是 expansions 里的 `|` "
+                    f"被误打成制表符，整行往后错了一位。改回 `|`")
+        else:
             raise ValueError(
-                f"第 {lineno} 行 W 标签有 {len(cols)} 列，规格要求 14 列"
-                f"（root_ids/root_logic/expansions/hint 可为空，但制表符不能省）")
-        (_, word, pos, ph, rid_s, logic, origin, native, image, zh, ex,
-         concept, exps, hint) = [c.strip() for c in cols]
+                f"第 {lineno} 行 W 标签有 {len(cols)} 列，规格要求 14 或 15 列"
+                f"（root_ids/root_logic/expansions/hint/collocations 可为空，"
+                f"但制表符不能省）")
 
     zh_list = split_on(zh, "/")
     ex_list = split_on(ex, "|")
     exp_list = split_on(exps, "|")
     rid_list = split_on(rid_s, "/")
+    colloc_list = split_on(colloc, "|")
 
     w = {
         "id": word, "word": word, "pos": pos, "phonetic": ph,
@@ -179,6 +207,9 @@ def build_word(cols, lineno, legacy=False):
         "synonyms": [], "antonyms": [], "related": [],
         "semantic_expansions": exp_list,
     }
+    # 可选字段，只在有内容时写——避免给三千多个实词凭空加一个空数组
+    if colloc_list:
+        w["collocations"] = colloc_list
     if hint:
         w["recall_hint"] = hint
     if not rid_list:
