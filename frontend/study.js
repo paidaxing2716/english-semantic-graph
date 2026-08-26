@@ -236,7 +236,10 @@
       maskAnswer(w.core_image, w),
       maskAnswer(w.recall_hint || w.root_logic, w),
       maskAnswer(rootNames, w),
-      w.pos,
+      // pos 也要过遮罩：noun 这个词的词性就是 "noun"，直接拼接等于把答案
+      // 印在题面上。全库目前只此一例，但缺陷是通用的——凡词性名本身也是词条
+      // 的（noun / verb / adjective…）都会中。
+      maskAnswer(w.pos, w),
     ].join(" ");
   };
 

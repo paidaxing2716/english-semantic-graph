@@ -27,6 +27,7 @@
 """
 import argparse
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,9 +69,78 @@ def as_list(o, k):
     return o if isinstance(o, list) else o.get(k, [])
 
 
+def scan(words, roots):
+    """扫全部 germanic 词条，找 origin 指向某个已建模词根的——即本该入族的浮点。
+
+    此前本脚本**没有扫描环节**，只套用上面那份手写的 MOVE 字典。那些早已应用完，
+    所以 --dry-run 输出「共 0 词」而 docstring 却说「重扫大约 5/6 是子串噪声」——
+    那次「反向扫 763 个 germanic 词条」是当初某个代理临时写代码手扫的，从未沉淀
+    进脚本。照 docs/NEXT.md 的指引跑它，会看到 0 词 + 自检全绿，以为这轮没有孤词，
+    而一次扫描都没发生。本函数补上它。
+
+    只输出候选，不自动改：实测约 5/6 是子串噪声，必须逐个核词源再往 MOVE 里加。
+    """
+    # 每个根可用来匹配的拉丁/希腊词形：id、root、variants，加 origin 的首个词元。
+    # 不整段抓 origin——那是散文，会正当地提到别的拉丁词作对比（dare-give 的
+    # origin 写着「trans＋dare 交付」），整段抓会让 trans 变成它的键。
+    # 【只能用拉丁/希腊词形做键，不能用 variants】variants 存的是**英语**词干：
+    # lacere 的 variants 含 'light'、linum 含 'line'、foris 含 'fore'、rotula 含
+    # 'round'。拿它们匹配英语 origin 文本，任何含 light/line 的复合词都会撞上——
+    # 实测 laser、daylight、airline、headline、forward 全是这么误报的。
+    # 键只取：根 id（本就是拉丁原形）+ origin 里的拉丁词元。
+    forms = {}
+    for r in roots:
+        cand = {r["id"]}
+        # origin 开头那一串才是该根的拉丁词元（「拉丁语 densus（稠的）」→ densus），
+        # 整段抓会把散文里作对比的别的拉丁词也收进来。
+        for m in re.finditer(r"[A-Za-zÀ-ɏ]{4,}", r.get("origin", "")[:40]):
+            cand.add(m.group(0))
+        cand -= set(r.get("noisy_variants") or [])
+        # 英语词形不作键：与该根任一 variant 完全相同的短英语词剔掉
+        eng = {v.lower() for v in (r.get("variants") or []) if v.isascii()}
+        # 拉丁/希腊前缀不承载词根语义。legere-intel 的 origin 写「intelligere：
+        # inter- + legere」，抽 inter 做键会让任何 inter- 词撞上它。
+        PREFIX = {"inter", "trans", "circum", "contra", "intro", "super",
+                  "supra", "subter", "ante", "post", "prae", "retro", "extra",
+                  "infra", "intra", "juxta", "quasi", "ultra", "semi", "multi",
+                  "omni", "bene", "male", "vice", "amphi", "anti", "cata",
+                  "meta", "para", "peri", "hyper", "hypo", "endo", "exo"}
+        forms[r["id"]] = {c.lower() for c in cand
+                          if c and len(c) >= 5 and c.lower() not in eng
+                          and c.lower() not in PREFIX}
+
+    # origin 里「与 X 不同源」这类排除措辞附近的词形不算命中——写明不同源反而
+    # 被当成证据，是同一个坑的第三次（screen_draft_etymology 与 regroup 都栽过）。
+    CONTRAST = ("不同根", "不同源", "不计入", "不合并", "非同", "不属", "而不",
+                "无关", "勿混", "另有分别", "并非同源", "不是同", "两个不同")
+
+    out = []
+    for w in words:
+        if w.get("root_ids"):
+            continue                          # 已挂根
+        origin = (w.get("origin") or "").lower()
+        if not origin:
+            continue
+        for rid, cands in forms.items():
+            hit = next((c for c in cands
+                        if re.search(r"(?<![a-z])" + re.escape(c) + r"(?![a-z])",
+                                     origin)), None)
+            if not hit:
+                continue
+            m = re.search(r"(?<![a-z])" + re.escape(hit) + r"(?![a-z])", origin)
+            win = origin[max(0, m.start() - 60):m.end() + 60]
+            if any(x in win for x in CONTRAST):
+                continue
+            out.append((w["id"], rid, hit, w.get("origin", "")))
+            break
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--scan", action="store_true",
+                    help="扫 germanic 词条找本该入族的浮点，只报候选不改数据")
     a = ap.parse_args()
 
     wf = load("words.json")
@@ -81,6 +151,18 @@ def main():
     concepts = as_list(cf, "concepts")
     rf = load("relations.json")
     rels = as_list(rf, "relations")
+
+    if a.scan:
+        hits = scan(words, roots)
+        n_g = sum(1 for w in words if not w.get("root_ids"))
+        print(f"扫 {n_g} 个 germanic 词条，{len(hits)} 个 origin 指向已建模词根：\n")
+        for wid, rid, form, origin in hits:
+            print(f"  {wid:16} → {rid:16} （origin 里的 {form!r}）")
+            print(f"      {origin[:96]}")
+        print(f"\n共 {len(hits)} 个候选。**约 5/6 是子串噪声**，逐个核词源，"
+              f"真命中的往 MOVE 字典里加一条（累积记录，脚本幂等），再跑一次不带 "
+              f"--scan 的本脚本。")
+        return 0
 
     rids = {r["id"] for r in roots}
     bad = [rid for _, (rid, _) in MOVE.items() if rid not in rids]
