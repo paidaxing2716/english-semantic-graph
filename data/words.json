@@ -13810,11 +13810,9 @@
       "word": "deliberate",
       "pos": "adjective",
       "phonetic": "/dɪˈlɪbərət/",
-      "decomposable": "root",
-      "root_ids": [
-        "liber"
-      ],
-      "root_logic": "de-（彻底）+ liber（此处取 libra 天平义，称量）+ -ate → 彻底称量过才做的 → 深思熟虑的、故意的",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
       "recall_hint": "de-（彻底）+ libra（天平、称量）+ -ate → 在心里彻底称量过之后才做的；所以既指从容不迫，也指并非无心",
       "origin": "拉丁语 deliberare：de-（彻底）+ librare（称量）← libra（天平）",
       "native_definition": "done on purpose after thinking, or slow and careful",
@@ -13844,7 +13842,8 @@
       "semantic_expansions": [
         "故意的：称量过才做，不是无心",
         "深思熟虑的/从容的：因为在称量，所以不急。同一个'心里过了秤'，一个说动机一个说节奏"
-      ]
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记（libra 天平一支库中仅此一词，且与 liber 自由不同源）"
     },
     {
       "id": "close",
@@ -16369,9 +16368,9 @@
       "phonetic": "/ˌɪntərˈnæʃnl/",
       "decomposable": "root",
       "root_ids": [
-        "ternus"
+        "nasci"
       ],
-      "root_logic": "inter-（之间）+ national（国家的）→ 在国与国之间的 → 国际的",
+      "root_logic": "inter-（之间）+ nation（← natio 国族，nasci 生出的一支族群）→ 在生出来的各族之间往来的 → 国际的",
       "origin": "拉丁语 inter-（之间）+ natio（国族）← nasci（出生）",
       "native_definition": "involving two or more countries",
       "core_concept": "in the space between nations – 处在国与国之间",
@@ -16408,9 +16407,9 @@
       "phonetic": "/ˈɔːltərneɪt/",
       "decomposable": "root",
       "root_ids": [
-        "ternus"
+        "alter-other"
       ],
-      "root_logic": "alter（另一个）+ -nate → 在这一个与另一个之间来回换 → 交替",
+      "root_logic": "alter（两者中的另一个）+ -ate → 换到另一个上去，再换回来 → 交替",
       "origin": "拉丁语 alternare：alter（两者中的另一个）",
       "native_definition": "to happen or be used in turn, one after the other",
       "core_concept": "swapping between this one and the other – 在这个与另一个之间轮换",

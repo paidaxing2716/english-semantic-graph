@@ -2204,12 +2204,6 @@
       "note": "liber（自由的）+ -ate（使成为）→ 使之不再受束缚 → 解放"
     },
     {
-      "from": "liber",
-      "to": "deliberate",
-      "type": "root",
-      "note": "de-（彻底）+ liber（此处取 libra 天平义，称量）+ -ate → 彻底称量过才做的 → 深思熟虑的、故意"
-    },
-    {
       "from": "clud",
       "to": "close",
       "type": "root",
@@ -2564,16 +2558,16 @@
       "note": "ex-（外）+ ternal（属于那一侧的）→ 属于界线以外的 → 外部的"
     },
     {
-      "from": "ternus",
+      "from": "nasci",
       "to": "international",
       "type": "root",
-      "note": "inter-（之间）+ national（国家的）→ 在国与国之间的 → 国际的"
+      "note": "inter-（之间）+ nation（← natio 国族，nasci 生出的一支族群）→ 在生出来的各族之间往来的 → 国际的"
     },
     {
-      "from": "ternus",
+      "from": "alter-other",
       "to": "alternate",
       "type": "root",
-      "note": "alter（另一个）+ -nate → 在这一个与另一个之间来回换 → 交替"
+      "note": "alter（两者中的另一个）+ -ate → 换到另一个上去，再换回来 → 交替"
     },
     {
       "from": "apparere",
@@ -10680,6 +10674,18 @@
       "to": "despite",
       "type": "root",
       "note": "de-（往下）+ spect（specere 看）→ 往下看一眼就不放在心上，那道拦头的事照旧跨过去"
+    },
+    {
+      "from": "alter-other",
+      "to": "alter",
+      "type": "root",
+      "note": "alter 出自 alter"
+    },
+    {
+      "from": "alter-other",
+      "to": "alternative",
+      "type": "root",
+      "note": "alternative 出自 alter"
     }
   ]
 }

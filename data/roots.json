@@ -1424,7 +1424,6 @@
       "core_image": "绳子从手腕上解开落地，手可以随意动了",
       "english_definition": "free, unbound",
       "word_ids": [
-        "deliberate",
         "liberal",
         "liberate",
         "liberty",
@@ -1693,10 +1692,8 @@
       "core_image": "一道墙把空间分成两半，人只能在一侧",
       "english_definition": "inner or outer",
       "word_ids": [
-        "alternate",
         "external",
-        "internal",
-        "international"
+        "internal"
       ]
     },
     {
@@ -1729,13 +1726,14 @@
       "core_image": "新生儿被抱起来，从此算作这家的人",
       "english_definition": "to be born",
       "word_ids": [
+        "international",
+        "naive",
         "nation",
         "national",
-        "native",
-        "nature",
-        "naive",
         "nationality",
-        "natural"
+        "native",
+        "natural",
+        "nature"
       ]
     },
     {
@@ -5700,6 +5698,23 @@
         "naval",
         "navigation",
         "navy"
+      ]
+    },
+    {
+      "id": "alter-other",
+      "root": "alter",
+      "variants": [
+        "alter",
+        "altern"
+      ],
+      "origin": "拉丁语 alter（两者中的另一个）；alternare 表「在两者间来回换」",
+      "core_concept": "the other one of two / 两个当中的那另一个",
+      "core_image": "两只碗轮换着用，端起这只就放下那只，手上始终只有一只",
+      "english_definition": "the other of two, every second one",
+      "word_ids": [
+        "alter",
+        "alternate",
+        "alternative"
       ]
     }
   ]

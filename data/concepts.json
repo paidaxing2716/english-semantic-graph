@@ -1258,7 +1258,6 @@
         "liber"
       ],
       "word_ids": [
-        "deliberate",
         "liberal",
         "liberate",
         "liberty",
@@ -1487,10 +1486,8 @@
         "ternus"
       ],
       "word_ids": [
-        "alternate",
         "external",
-        "internal",
-        "international"
+        "internal"
       ]
     },
     {
@@ -1516,13 +1513,14 @@
         "nasci"
       ],
       "word_ids": [
+        "international",
+        "naive",
         "nation",
         "national",
-        "native",
-        "nature",
-        "naive",
         "nationality",
-        "natural"
+        "native",
+        "natural",
+        "nature"
       ]
     },
     {
@@ -4767,6 +4765,20 @@
         "naval",
         "navigation",
         "navy"
+      ]
+    },
+    {
+      "id": "concept-alter-other",
+      "concept": "the other one of two",
+      "chinese": "两者中的另一个",
+      "core_image": "两只碗轮换着用，端起这只就放下那只",
+      "root_ids": [
+        "alter-other"
+      ],
+      "word_ids": [
+        "alter",
+        "alternate",
+        "alternative"
       ]
     }
   ]
