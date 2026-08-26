@@ -3210,7 +3210,6 @@
       "word_ids": [
         "comparable",
         "pair",
-        "repair",
         "compare",
         "comparison",
         "peer",
@@ -5832,6 +5831,206 @@
         "human",
         "humanity",
         "humiliate"
+      ]
+    },
+    {
+      "id": "parare",
+      "root": "parare",
+      "variants": [
+        "parare",
+        "parat",
+        "parad",
+        "prepar"
+      ],
+      "origin": "拉丁语 parare（备置、张罗、使就绪），过去分词 paratus；apparare（ad-＋parare）出 apparatus，reparare（re-＋parare 重新备好）是 repair 的来源。与库中 par-equal 所据的 par（相等）同 PIE *per-，但在拉丁已分化为两词，不同源",
+      "core_concept": "getting things set out ready before the moment comes / 趁事情还没到，先把东西一样样摆停当",
+      "core_image": "开场之前，一样样东西摆到该在的位置，各归各位，只等人来",
+      "english_definition": "to make ready, set out in order",
+      "word_ids": [
+        "apparatus",
+        "parade",
+        "preparation",
+        "prepare",
+        "repair",
+        "separate"
+      ]
+    },
+    {
+      "id": "scandere",
+      "root": "scandere",
+      "variants": [
+        "scandere",
+        "scend",
+        "scal"
+      ],
+      "origin": "拉丁语 scandere（攀、登，脚踩着一级级上），名词 scala（梯子）由它派生，故 scale 一支表梯级与刻度；ascendere／descendere／transcendere 分别是往上爬、往下爬、爬过去",
+      "core_concept": "to climb a ladder rung by rung, up or back down / 顺着梯子一级级挪，往上或原路往下",
+      "core_image": "一道梯子搭在墙上，脚一级一级往上挪，也能顺着原路一级级退下",
+      "english_definition": "to climb, mount step by step",
+      "word_ids": [
+        "ascend",
+        "descend",
+        "descendant",
+        "descent",
+        "scale",
+        "transcend"
+      ]
+    },
+    {
+      "id": "servire",
+      "root": "servire",
+      "variants": [
+        "servire",
+        "servi",
+        "servit"
+      ],
+      "origin": "拉丁语 servire（服侍、效力）← servus（仆人）；与库中 serv 所据的 servare（保存、守护）不同根，de Vaan 明确分立，只是到英语两支都拼成 serv- 而难分。法语 servir 一支出 serve／service／dessert（des-＋servir 撤下餐桌后端上的那道）",
+      "core_concept": "to wait on someone, doing what is needed at each moment / 守在旁边，随时替人把该做的做上",
+      "core_image": "一个人站在桌边，随时把该托上的托上来、该撤的撤下去",
+      "english_definition": "to serve, attend upon, be at another's need",
+      "word_ids": [
+        "deserve",
+        "dessert",
+        "servant",
+        "serve",
+        "service"
+      ]
+    },
+    {
+      "id": "mandare",
+      "root": "mandare",
+      "variants": [
+        "mandare",
+        "mand",
+        "mmend"
+      ],
+      "origin": "拉丁语 mandare（交托、下令）：manus（手）＋dare（给），字面是把事交到对方手上；库中 manus 与 dare-give 两根另有其族，本族按单根体例只挂 mandare，不计入那两根。commendare（com-＋mandare 郑重交托）经通俗拉丁语出 command／commend，再派生 recommend",
+      "core_concept": "to put a charge into someone's hands and expect it carried out / 把一件差事交到对方手上，等他照办",
+      "core_image": "一件差事连着话一并交到对方手上，交代完就等他照办",
+      "english_definition": "to hand over a charge, entrust, order",
+      "word_ids": [
+        "command",
+        "commend",
+        "demand",
+        "recommend"
+      ]
+    },
+    {
+      "id": "panis",
+      "root": "panis",
+      "variants": [
+        "panis",
+        "compan"
+      ],
+      "origin": "拉丁语 panis（面包）；晚期拉丁语 companio（com-＋panis：分吃同一块面包的人）经古法语 compaignon 出 companion、compagnie 出 company、acompaignier 出 accompany。与 poena（罚、苦）一支无关，accompany 曾被误判到那里",
+      "core_concept": "people who break one loaf together / 分吃同一块面包的那些人",
+      "core_image": "几个人围着桌子坐下，一块饼掰开分着吃，吃完一道上路",
+      "english_definition": "bread; one who shares bread with another",
+      "word_ids": [
+        "accompany",
+        "companion",
+        "company"
+      ]
+    },
+    {
+      "id": "tekton",
+      "root": "tekton",
+      "variants": [
+        "techn",
+        "tekhn",
+        "tecton"
+      ],
+      "origin": "希腊语 tekton（木匠、动手造东西的人）与 tekhnē（练出来的手艺、门道）同出一源；tekhnikos 是「合手艺的」，arkhitekton 是「匠人之长」。拉丁语 texere（编织）虽出自更古的同一支，两边在希腊语与拉丁语里已分化，库中不合并",
+      "core_concept": "a hand that works material into a made thing / 一双把料做成器物的手",
+      "core_image": "木匠拿凿子在梁上开出一个方口，木头本来是整根的，出来时正好扣住另一根",
+      "english_definition": "to build with skilled hands, to craft",
+      "word_ids": [
+        "architect",
+        "architecture",
+        "technical",
+        "technician",
+        "technique",
+        "technology"
+      ]
+    },
+    {
+      "id": "dividere",
+      "root": "dividere",
+      "variants": [
+        "divid",
+        "divis",
+        "devis"
+      ],
+      "origin": "拉丁语 dividere（切成几份、分开），过去分词 divisus，动名词 dividendum 是「该分下去的那一份」；通俗拉丁语 divisare 经古法语给出 devise 一支。其中的 -videre 表「劈开」，与表看的 videre 不是同一个词，勿混",
+      "core_concept": "one whole cut into separate shares / 一整块切开成分得开的几份",
+      "core_image": "整块东西划一刀成两份，再往下分；难办的事也这么一段段切开，就有了下手处",
+      "english_definition": "to split into parts, to divide up",
+      "word_ids": [
+        "device",
+        "devise",
+        "divide",
+        "dividend",
+        "division",
+        "individual"
+      ]
+    },
+    {
+      "id": "stinguere",
+      "root": "stinguere",
+      "variants": [
+        "stingu",
+        "stinct"
+      ],
+      "origin": "拉丁语 stinguere（用尖头戳、戳灭），与 instigare（催逼）同支；exstinguere 是戳到火星不剩，distinguere 是逐个戳上记号使分得开，instinguere 是从里头戳一下把人催动",
+      "core_concept": "to prick with a point, and so to mark off or put out / 用尖头戳，因而戳出记号或戳灭",
+      "core_image": "针尖往下一戳：戳出记号便分得清，火苗上一戳只剩焦痕，心上那一戳是天生的",
+      "english_definition": "to prick, to mark off or put out by pricking",
+      "word_ids": [
+        "distinct",
+        "distinction",
+        "distinguish",
+        "extinct",
+        "extinguish",
+        "instinct"
+      ]
+    },
+    {
+      "id": "minere",
+      "root": "minere",
+      "variants": [
+        "minent",
+        "mont",
+        "moun",
+        "menac"
+      ],
+      "origin": "拉丁语 -minere（凸出、探出来），只见于复合词 eminere（高出四周）与 prominere（朝前探出）；与 mons（属格 montis，山）同一个词干，minae（城墙上探出的雉堞）与 minari（威吓）亦出此支——探在头顶的东西自然压人",
+      "core_concept": "standing out above the level around it / 从四周的平面上鼓出来、比周围高",
+      "core_image": "平地上鼓起一大块，远远就看见它高过四周；走到跟前抬头，它正压在头顶上",
+      "english_definition": "to jut out, to stand above the surroundings",
+      "word_ids": [
+        "eminent",
+        "menace",
+        "mount",
+        "mountain",
+        "prominent"
+      ]
+    },
+    {
+      "id": "demos",
+      "root": "demos",
+      "variants": [
+        "demos",
+        "democ",
+        "epidem"
+      ],
+      "origin": "希腊语 demos（一个地方的民众、一区之民）；demokratia 是 demos 加 kratos（权力）——事情由这一片人说了算；epidemia 是 epi-（落在其上）加 demos，指落到一地之人头上的东西",
+      "core_concept": "the people of one place taken together / 一个地方的人合起来算",
+      "core_image": "一个区的人都聚到院子里，抬手数过就算定了；一场病也是从这户挨到那户",
+      "english_definition": "the people of a district, the common people",
+      "word_ids": [
+        "democracy",
+        "democratic",
+        "epidemic"
       ]
     }
   ]

@@ -4742,10 +4742,10 @@
       "note": "par（对等）→ 两个对等的东西 → 一对"
     },
     {
-      "from": "par-equal",
+      "from": "parare",
       "to": "repair",
       "type": "root",
-      "note": "re-（再）+ pair（对等/使就绪）→ 重新使恢复到某种状态 → 修理"
+      "note": "re-（重新）+ pair（parare 摆停当）→ 把散掉的重新摆回原样 → 修好"
     },
     {
       "from": "compilare",
@@ -11304,6 +11304,300 @@
       "to": "content",
       "type": "root",
       "note": "con-（一同）+ tent（tenere 握住、容纳）→ 被容在里头的那些；欲望也容在已有之内，就是满足"
+    },
+    {
+      "from": "parare",
+      "to": "prepare",
+      "type": "root",
+      "note": "pre-（prae- 预先）+ pare（parare 备置）→ 事情还没到就先把东西摆停当"
+    },
+    {
+      "from": "parare",
+      "to": "separate",
+      "type": "root",
+      "note": "se-（分开、各自）+ par（parare 备置）→ 各样东西各自摆开，不摆在一堆"
+    },
+    {
+      "from": "parare",
+      "to": "parade",
+      "type": "root",
+      "note": "parad（parare 备齐摆出）+ -e → 把人马备齐了排出来走一趟给人看"
+    },
+    {
+      "from": "parare",
+      "to": "preparation",
+      "type": "root",
+      "note": "pre-（预先）+ par（parare 备置）+ -ation（名词）→ 事先把东西摆停当这件事"
+    },
+    {
+      "from": "scandere",
+      "to": "descend",
+      "type": "root",
+      "note": "de-（往下）+ scend（scandere 攀）→ 顺着梯子一级级往下挪"
+    },
+    {
+      "from": "scandere",
+      "to": "transcend",
+      "type": "root",
+      "note": "trans-（越过）+ scend（scandere 攀）→ 爬过那道界，落到界的另一边"
+    },
+    {
+      "from": "scandere",
+      "to": "scale",
+      "type": "root",
+      "note": "scal（scala 梯子 ← scandere 攀）→ 梯子上等距的一级级 → 既能拿来量长短，也能顺着往上爬"
+    },
+    {
+      "from": "servire",
+      "to": "serve",
+      "type": "root",
+      "note": "serv（servire 服侍）+ -e → 守在旁边随时把该做的做上"
+    },
+    {
+      "from": "servire",
+      "to": "service",
+      "type": "root",
+      "note": "servi（servire 服侍）+ -ce（名词）→ 替人做事这件事，以及做这事的那一套安排"
+    },
+    {
+      "from": "servire",
+      "to": "servant",
+      "type": "root",
+      "note": "serv（servire 服侍）+ -ant（做…的人）→ 守在旁边听用的那个人"
+    },
+    {
+      "from": "mandare",
+      "to": "demand",
+      "type": "root",
+      "note": "de-（彻底、责令）+ mand（mandare 交办）→ 把话交到对方手上，非要他照办"
+    },
+    {
+      "from": "mandare",
+      "to": "recommend",
+      "type": "root",
+      "note": "re-（再、加强）+ com-（郑重）+ mend（mandare 交托）→ 把人或物郑重交到对方手上，说这个可以"
+    },
+    {
+      "from": "panis",
+      "to": "company",
+      "type": "root",
+      "note": "com-（一同）+ pan（panis 面包）+ -y → 分吃同一块面包的那伙人 → 合在一处做事的那伙，也指有人在旁"
+    },
+    {
+      "from": "panis",
+      "to": "companion",
+      "type": "root",
+      "note": "com-（一同）+ pani（panis 面包）+ -on（人）→ 与你分吃同一块面包的那个人"
+    },
+    {
+      "from": "parare",
+      "to": "apparatus",
+      "type": "root",
+      "note": "ap-（ad- 朝）+ par（parare 备好）+ -atus → 为一件事摆出来的那一整套家伙"
+    },
+    {
+      "from": "scandere",
+      "to": "ascend",
+      "type": "root",
+      "note": "a-（ad- 向）+ scend（scandere 攀）→ 顺着梯子一级级往上挪"
+    },
+    {
+      "from": "scandere",
+      "to": "descent",
+      "type": "root",
+      "note": "de-（往下）+ scent（scandere 攀）→ 顺原路一级级退下来；也指血脉往下传的那条线"
+    },
+    {
+      "from": "scandere",
+      "to": "descendant",
+      "type": "root",
+      "note": "de-（往下）+ scend（scandere 攀）+ -ant（人）→ 顺着这道梯子往下传的那一支"
+    },
+    {
+      "from": "servire",
+      "to": "dessert",
+      "type": "root",
+      "note": "des-（撤去）+ sert（servire 伺候、上菜）→ 正餐撤下桌后才端上的那一道"
+    },
+    {
+      "from": "servire",
+      "to": "deserve",
+      "type": "root",
+      "note": "de-（彻底）+ serve（servire 伺候）→ 伺候得够本，换来该得的那份"
+    },
+    {
+      "from": "mandare",
+      "to": "command",
+      "type": "root",
+      "note": "com-（合力）+ mand（mandare 交托）→ 把差事连话一并压到手上，责令照办"
+    },
+    {
+      "from": "mandare",
+      "to": "commend",
+      "type": "root",
+      "note": "com-（郑重）+ mend（mandare 交托）→ 把人或物郑重交到对方手上并担保"
+    },
+    {
+      "from": "panis",
+      "to": "accompany",
+      "type": "root",
+      "note": "ac-（ad- 朝）+ company（← panis 面包）→ 与分饼的那伙人一道上路"
+    },
+    {
+      "from": "tekton",
+      "to": "technique",
+      "type": "root",
+      "note": "techn（tekhnē 练出来的门道）+ -ique（名词后缀）→ 把这件事做成的那一套固定做法"
+    },
+    {
+      "from": "tekton",
+      "to": "technical",
+      "type": "root",
+      "note": "techn（tekhnē 门道）+ -ical（…的）→ 属于某一行门道之内的"
+    },
+    {
+      "from": "tekton",
+      "to": "technology",
+      "type": "root",
+      "note": "techn（tekhnē 门道）+ -logy（成体系的学问）→ 把手上门道整理成一整套学问和器具"
+    },
+    {
+      "from": "tekton",
+      "to": "technician",
+      "type": "root",
+      "note": "techn（tekhnē 门道）+ -ian（做这行的人）→ 手里握着那一行具体门道的人"
+    },
+    {
+      "from": "dividere",
+      "to": "divide",
+      "type": "root",
+      "note": "divid（dividere 切成几份）→ 把整块划开成几份"
+    },
+    {
+      "from": "dividere",
+      "to": "individual",
+      "type": "root",
+      "note": "in-（不）+ dividu（dividere 切开）+ -al → 再切下去就没有了的那一个"
+    },
+    {
+      "from": "dividere",
+      "to": "dividend",
+      "type": "root",
+      "note": "divid（dividere 切成几份）+ -end（该被…的）→ 该分下去的那一笔"
+    },
+    {
+      "from": "stinguere",
+      "to": "extinguish",
+      "type": "root",
+      "note": "ex-（出、尽）+ stingu（stinguere 用尖头戳）+ -ish → 一下下戳到一点火星不剩"
+    },
+    {
+      "from": "stinguere",
+      "to": "instinct",
+      "type": "root",
+      "note": "in-（在里头）+ stinct（stinguere 戳）→ 里头戳的那一下，不等想就动了"
+    },
+    {
+      "from": "stinguere",
+      "to": "extinct",
+      "type": "root",
+      "note": "ex-（出、尽）+ stinct（stinguere 戳）→ 被戳尽了，一支再也接不下去"
+    },
+    {
+      "from": "minere",
+      "to": "prominent",
+      "type": "root",
+      "note": "pro-（朝前）+ minent（minere 凸出）→ 朝前鼓出来，一眼先看见它"
+    },
+    {
+      "from": "minere",
+      "to": "menace",
+      "type": "root",
+      "note": "menac（minae 探在头顶的东西 ← minere 凸出）→ 悬在上头压着人，不敢往下走"
+    },
+    {
+      "from": "demos",
+      "to": "democracy",
+      "type": "root",
+      "note": "demos（一地之民）+ -cracy（kratos 权力）→ 权力落在这一片人手里"
+    },
+    {
+      "from": "demos",
+      "to": "democratic",
+      "type": "root",
+      "note": "demos（一地之民）+ -cratic（kratos 权力）→ 权力在众人手里的，人人都插得上话"
+    },
+    {
+      "from": "dividere",
+      "to": "division",
+      "type": "root",
+      "note": "di-（分开）+ vis（dividere 分）+ -ion → 分出来的那一份或那道界"
+    },
+    {
+      "from": "dividere",
+      "to": "device",
+      "type": "root",
+      "note": "de-（从）+ vice（dividere 分）→ 分着琢磨出来的那个巧法子，落成实物即器械"
+    },
+    {
+      "from": "dividere",
+      "to": "devise",
+      "type": "root",
+      "note": "de-（从）+ vise（dividere 分）→ 把事情拆开来琢磨，想出个法子"
+    },
+    {
+      "from": "stinguere",
+      "to": "distinct",
+      "type": "root",
+      "note": "di-（分开）+ stinct（stinguere 戳）→ 戳出记号所以彼此分得清"
+    },
+    {
+      "from": "stinguere",
+      "to": "distinction",
+      "type": "root",
+      "note": "di-（分开）+ stinct（stinguere 戳）+ -ion → 戳出来的那道分别"
+    },
+    {
+      "from": "stinguere",
+      "to": "distinguish",
+      "type": "root",
+      "note": "di-（分开）+ stingu（stinguere 戳）→ 拿尖头戳出记号，把两样分开"
+    },
+    {
+      "from": "minere",
+      "to": "eminent",
+      "type": "root",
+      "note": "e-（ex- 向外）+ min（minere 凸出）→ 从一片人里鼓出来，高过四周"
+    },
+    {
+      "from": "minere",
+      "to": "mountain",
+      "type": "root",
+      "note": "mount（← minere 凸出的那块地）+ -ain → 从平地鼓起来的那一大块"
+    },
+    {
+      "from": "minere",
+      "to": "mount",
+      "type": "root",
+      "note": "minere（凸出）→ 鼓起来的那块地；登上它即为登、骑"
+    },
+    {
+      "from": "tekton",
+      "to": "architect",
+      "type": "root",
+      "note": "archi-（为首）+ tect（tekton 匠人）→ 一群匠人里领头拿主张的那个"
+    },
+    {
+      "from": "tekton",
+      "to": "architecture",
+      "type": "root",
+      "note": "archi-（为首）+ tect（tekton 匠人）+ -ure → 领头匠人立起来的那套法式"
+    },
+    {
+      "from": "demos",
+      "to": "epidemic",
+      "type": "root",
+      "note": "epi-（落在上头）+ dem（demos 民众）→ 落到一方百姓身上并铺开的那场病"
     }
   ]
 }

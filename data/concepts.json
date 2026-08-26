@@ -2770,7 +2770,6 @@
       "word_ids": [
         "comparable",
         "pair",
-        "repair",
         "compare",
         "comparison",
         "peer",
@@ -4893,6 +4892,166 @@
         "human",
         "humanity",
         "humiliate"
+      ]
+    },
+    {
+      "id": "concept-parare-ready",
+      "concept": "getting things set out ready before the moment comes",
+      "chinese": "置备停当",
+      "core_image": "开场之前，一样样东西摆到该在的位置，各归各位，只等人来",
+      "root_ids": [
+        "parare"
+      ],
+      "word_ids": [
+        "apparatus",
+        "parade",
+        "preparation",
+        "prepare",
+        "repair",
+        "separate"
+      ]
+    },
+    {
+      "id": "concept-scandere-climb",
+      "concept": "to climb a ladder rung by rung, up or back down",
+      "chinese": "逐级攀爬",
+      "core_image": "一道梯子搭在墙上，脚一级一级往上挪，也能顺着原路一级级退下",
+      "root_ids": [
+        "scandere"
+      ],
+      "word_ids": [
+        "ascend",
+        "descend",
+        "descendant",
+        "descent",
+        "scale",
+        "transcend"
+      ]
+    },
+    {
+      "id": "concept-servire-attend",
+      "concept": "to wait on someone, doing what is needed at each moment",
+      "chinese": "在旁伺候",
+      "core_image": "一个人站在桌边，随时把该托上的托上来、该撤的撤下去",
+      "root_ids": [
+        "servire"
+      ],
+      "word_ids": [
+        "deserve",
+        "dessert",
+        "servant",
+        "serve",
+        "service"
+      ]
+    },
+    {
+      "id": "concept-mandare-entrust",
+      "concept": "to put a charge into someone's hands and expect it carried out",
+      "chinese": "交到手上",
+      "core_image": "一件差事连着话一并交到对方手上，交代完就等他照办",
+      "root_ids": [
+        "mandare"
+      ],
+      "word_ids": [
+        "command",
+        "commend",
+        "demand",
+        "recommend"
+      ]
+    },
+    {
+      "id": "concept-panis-bread",
+      "concept": "people who break one loaf together",
+      "chinese": "共食一饼",
+      "core_image": "几个人围着桌子坐下，一块饼掰开分着吃，吃完一道上路",
+      "root_ids": [
+        "panis"
+      ],
+      "word_ids": [
+        "accompany",
+        "companion",
+        "company"
+      ]
+    },
+    {
+      "id": "concept-tekton-craft",
+      "concept": "a hand that works material into a made thing",
+      "chinese": "匠人手艺",
+      "core_image": "木匠拿凿子在梁上开出一个方口，木头本来是整根的，出来时正好扣住另一根",
+      "root_ids": [
+        "tekton"
+      ],
+      "word_ids": [
+        "architect",
+        "architecture",
+        "technical",
+        "technician",
+        "technique",
+        "technology"
+      ]
+    },
+    {
+      "id": "concept-dividere-split",
+      "concept": "one whole cut into separate shares",
+      "chinese": "切成几份",
+      "core_image": "整块东西划一刀成两份，再往下分；难办的事也这么一段段切开，就有了下手处",
+      "root_ids": [
+        "dividere"
+      ],
+      "word_ids": [
+        "device",
+        "devise",
+        "divide",
+        "dividend",
+        "division",
+        "individual"
+      ]
+    },
+    {
+      "id": "concept-stinguere-prick",
+      "concept": "to prick with a point, and so to mark off or put out",
+      "chinese": "针尖一戳",
+      "core_image": "针尖往下一戳：戳出记号便分得清，火苗上一戳只剩焦痕，心上那一戳是天生的",
+      "root_ids": [
+        "stinguere"
+      ],
+      "word_ids": [
+        "distinct",
+        "distinction",
+        "distinguish",
+        "extinct",
+        "extinguish",
+        "instinct"
+      ]
+    },
+    {
+      "id": "concept-minere-jut",
+      "concept": "standing out above the level around it",
+      "chinese": "高出一截",
+      "core_image": "平地上鼓起一大块，远远就看见它高过四周；走到跟前抬头，它正压在头顶上",
+      "root_ids": [
+        "minere"
+      ],
+      "word_ids": [
+        "eminent",
+        "menace",
+        "mount",
+        "mountain",
+        "prominent"
+      ]
+    },
+    {
+      "id": "concept-demos-people",
+      "concept": "the people of one place taken together",
+      "chinese": "一地之人",
+      "core_image": "一个区的人都聚到院子里，抬手数过就算定了；一场病也是从这户挨到那户",
+      "root_ids": [
+        "demos"
+      ],
+      "word_ids": [
+        "democracy",
+        "democratic",
+        "epidemic"
       ]
     }
   ]

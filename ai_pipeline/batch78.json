@@ -1,0 +1,657 @@
+{
+  "roots": [
+    {
+      "id": "tekton",
+      "root": "tekton",
+      "variants": [
+        "techn",
+        "tekhn",
+        "tecton"
+      ],
+      "origin": "希腊语 tekton（木匠、动手造东西的人）与 tekhnē（练出来的手艺、门道）同出一源；tekhnikos 是「合手艺的」，arkhitekton 是「匠人之长」。拉丁语 texere（编织）虽出自更古的同一支，两边在希腊语与拉丁语里已分化，库中不合并",
+      "core_concept": "a hand that works material into a made thing / 一双把料做成器物的手",
+      "core_image": "木匠拿凿子在梁上开出一个方口，木头本来是整根的，出来时正好扣住另一根",
+      "english_definition": "to build with skilled hands, to craft",
+      "word_ids": [
+        "technique",
+        "technical",
+        "technology",
+        "technician"
+      ]
+    },
+    {
+      "id": "dividere",
+      "root": "dividere",
+      "variants": [
+        "divid",
+        "divis",
+        "devis"
+      ],
+      "origin": "拉丁语 dividere（切成几份、分开），过去分词 divisus，动名词 dividendum 是「该分下去的那一份」；通俗拉丁语 divisare 经古法语给出 devise 一支。其中的 -videre 表「劈开」，与表看的 videre 不是同一个词，勿混",
+      "core_concept": "one whole cut into separate shares / 一整块切开成分得开的几份",
+      "core_image": "整块东西划一刀成两份，再往下分；难办的事也这么一段段切开，就有了下手处",
+      "english_definition": "to split into parts, to divide up",
+      "word_ids": [
+        "divide",
+        "individual",
+        "dividend"
+      ]
+    },
+    {
+      "id": "stinguere",
+      "root": "stinguere",
+      "variants": [
+        "stingu",
+        "stinct"
+      ],
+      "origin": "拉丁语 stinguere（用尖头戳、戳灭），与 instigare（催逼）同支；exstinguere 是戳到火星不剩，distinguere 是逐个戳上记号使分得开，instinguere 是从里头戳一下把人催动",
+      "core_concept": "to prick with a point, and so to mark off or put out / 用尖头戳，因而戳出记号或戳灭",
+      "core_image": "针尖往下一戳：戳出记号便分得清，火苗上一戳只剩焦痕，心上那一戳是天生的",
+      "english_definition": "to prick, to mark off or put out by pricking",
+      "word_ids": [
+        "extinguish",
+        "instinct",
+        "extinct"
+      ]
+    },
+    {
+      "id": "minere",
+      "root": "minere",
+      "variants": [
+        "minent",
+        "mont",
+        "moun",
+        "menac"
+      ],
+      "origin": "拉丁语 -minere（凸出、探出来），只见于复合词 eminere（高出四周）与 prominere（朝前探出）；与 mons（属格 montis，山）同一个词干，minae（城墙上探出的雉堞）与 minari（威吓）亦出此支——探在头顶的东西自然压人",
+      "core_concept": "standing out above the level around it / 从四周的平面上鼓出来、比周围高",
+      "core_image": "平地上鼓起一大块，远远就看见它高过四周；走到跟前抬头，它正压在头顶上",
+      "english_definition": "to jut out, to stand above the surroundings",
+      "word_ids": [
+        "prominent",
+        "menace"
+      ]
+    },
+    {
+      "id": "demos",
+      "root": "demos",
+      "variants": [
+        "demos",
+        "democ",
+        "epidem"
+      ],
+      "origin": "希腊语 demos（一个地方的民众、一区之民）；demokratia 是 demos 加 kratos（权力）——事情由这一片人说了算；epidemia 是 epi-（落在其上）加 demos，指落到一地之人头上的东西",
+      "core_concept": "the people of one place taken together / 一个地方的人合起来算",
+      "core_image": "一个区的人都聚到院子里，抬手数过就算定了；一场病也是从这户挨到那户",
+      "english_definition": "the people of a district, the common people",
+      "word_ids": [
+        "democracy",
+        "democratic"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-tekton-craft",
+      "concept": "a hand that works material into a made thing",
+      "chinese": "匠人手艺",
+      "core_image": "木匠拿凿子在梁上开出一个方口，木头本来是整根的，出来时正好扣住另一根",
+      "root_ids": [
+        "tekton"
+      ],
+      "word_ids": [
+        "technique",
+        "technical",
+        "technology",
+        "technician"
+      ]
+    },
+    {
+      "id": "concept-dividere-split",
+      "concept": "one whole cut into separate shares",
+      "chinese": "切成几份",
+      "core_image": "整块东西划一刀成两份，再往下分；难办的事也这么一段段切开，就有了下手处",
+      "root_ids": [
+        "dividere"
+      ],
+      "word_ids": [
+        "divide",
+        "individual",
+        "dividend"
+      ]
+    },
+    {
+      "id": "concept-stinguere-prick",
+      "concept": "to prick with a point, and so to mark off or put out",
+      "chinese": "针尖一戳",
+      "core_image": "针尖往下一戳：戳出记号便分得清，火苗上一戳只剩焦痕，心上那一戳是天生的",
+      "root_ids": [
+        "stinguere"
+      ],
+      "word_ids": [
+        "extinguish",
+        "instinct",
+        "extinct"
+      ]
+    },
+    {
+      "id": "concept-minere-jut",
+      "concept": "standing out above the level around it",
+      "chinese": "高出一截",
+      "core_image": "平地上鼓起一大块，远远就看见它高过四周；走到跟前抬头，它正压在头顶上",
+      "root_ids": [
+        "minere"
+      ],
+      "word_ids": [
+        "prominent",
+        "menace"
+      ]
+    },
+    {
+      "id": "concept-demos-people",
+      "concept": "the people of one place taken together",
+      "chinese": "一地之人",
+      "core_image": "一个区的人都聚到院子里，抬手数过就算定了；一场病也是从这户挨到那户",
+      "root_ids": [
+        "demos"
+      ],
+      "word_ids": [
+        "democracy",
+        "democratic"
+      ]
+    }
+  ],
+  "domain_add": {
+    "domain-make": [
+      "tekton"
+    ],
+    "domain-shape": [
+      "dividere",
+      "minere"
+    ],
+    "domain-perceive": [
+      "stinguere",
+      "demos"
+    ]
+  },
+  "words": [
+    {
+      "id": "technique",
+      "word": "technique",
+      "pos": "noun",
+      "phonetic": "/tekˈniːk/",
+      "decomposable": "root",
+      "root_ids": [
+        "tekton"
+      ],
+      "root_logic": "techn（tekhnē 练出来的门道）+ -ique（名词后缀）→ 把这件事做成的那一套固定做法",
+      "origin": "法语 technique ← 希腊语 tekhnikos（合手艺的）← tekhnē（练出来的门道）",
+      "native_definition": "a particular way of doing something skilfully",
+      "core_concept": "a settled way of getting the thing made – 把东西做成的那一套固定做法",
+      "core_image": "同一把刀，他握的角度和下刀的次序每回都不变，切出来每片一样厚",
+      "chinese": [
+        "技巧",
+        "技法",
+        "手法"
+      ],
+      "examples": [
+        "She has perfect technique in the water.",
+        "He learned the technique from an old carpenter."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "技巧：手上练出来、每回都能做得一样准的那份本事",
+        "技法：一门手艺里定下来的步骤和讲究",
+        "手法：同一套做法用到不算手艺的事情上"
+      ],
+      "recall_hint": "techn（练出的门道）+ -ique → 把这件事做成的那一套固定动作"
+    },
+    {
+      "id": "technical",
+      "word": "technical",
+      "pos": "adjective",
+      "phonetic": "/ˈteknɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "tekton"
+      ],
+      "root_logic": "techn（tekhnē 门道）+ -ical（…的）→ 属于某一行门道之内的",
+      "origin": "希腊语 tekhnikos（合手艺的）← tekhnē（练出来的门道），英语加 -al 构成形容词",
+      "native_definition": "relating to the practical skills or knowledge of a particular subject",
+      "core_concept": "belonging inside the know-how of a trade – 属于某一行门道之内的",
+      "core_image": "说明书翻到第三页全是参数和接线图，外行看两行就放下了",
+      "chinese": [
+        "技术的",
+        "专业的"
+      ],
+      "examples": [
+        "The report is full of technical terms.",
+        "We hit a technical problem with the software."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "技术的：与那一行具体门道有关的",
+        "专业的：只有行内人看得懂，外人插不上话"
+      ],
+      "recall_hint": "techn（门道）+ -ical → 属于某一行门道之内，外行进不来"
+    },
+    {
+      "id": "technology",
+      "word": "technology",
+      "pos": "noun",
+      "phonetic": "/tekˈnɒlədʒi/",
+      "decomposable": "root",
+      "root_ids": [
+        "tekton"
+      ],
+      "root_logic": "techn（tekhnē 门道）+ -logy（成体系的学问）→ 把手上门道整理成一整套学问和器具",
+      "origin": "希腊语 tekhnologia（把手艺讲成条理）← tekhnē（练出来的门道）+ -logia（成体系的学问）",
+      "native_definition": "the use of scientific knowledge to make equipment and methods for practical work",
+      "core_concept": "craft know-how worked up into a system – 把手上门道整理成一整套学问和器具",
+      "core_image": "一屋子设备连成一条线，按下按钮，原先要十个人干的活自己走完了",
+      "chinese": [
+        "技术",
+        "科技",
+        "工艺"
+      ],
+      "examples": [
+        "New technology has changed how we work.",
+        "The factory uses the latest technology."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "技术：整理成体系、照着就能用的那套门道",
+        "科技：这套门道与科学知识合在一处说",
+        "工艺：一处生产里定下来的那串具体做法"
+      ],
+      "recall_hint": "techn（门道）+ -logy（成体系的学问）→ 手上门道理成一整套学问和器具"
+    },
+    {
+      "id": "technician",
+      "word": "technician",
+      "pos": "noun",
+      "phonetic": "/tekˈnɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tekton"
+      ],
+      "root_logic": "techn（tekhnē 门道）+ -ian（做这行的人）→ 手里握着那一行具体门道的人",
+      "origin": "英语 technic ← 希腊语 tekhnikos（合手艺的）← tekhnē（练出来的门道），加 -ian 表做这行的人",
+      "native_definition": "someone trained to work with particular equipment or in a particular field",
+      "core_concept": "the person who holds the trade know-how – 手里握着那一行具体门道的人",
+      "core_image": "机器停了，来的人蹲下拧开面板，摸两下就说出该换哪个件",
+      "chinese": [
+        "技术员",
+        "技师"
+      ],
+      "examples": [
+        "A technician came to fix the printer.",
+        "She works as a lab technician."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "技术员：真正上手干这行活的那个人",
+        "技师：同一种人，偏说他资历深、手更熟"
+      ],
+      "recall_hint": "techn（门道）+ -ian（做这行的人）→ 手里握着那一行具体门道的人"
+    },
+    {
+      "id": "divide",
+      "word": "divide",
+      "pos": "verb",
+      "phonetic": "/dɪˈvaɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "dividere"
+      ],
+      "root_logic": "divid（dividere 切成几份）→ 把整块划开成几份",
+      "origin": "拉丁语 dividere（切成几份、分开），过去分词 divisus，经中古英语入现代英语",
+      "native_definition": "to separate something into parts, or to share something out",
+      "core_concept": "cutting one whole into separate shares – 把一整块切成分得开的几份",
+      "core_image": "他拿刀在饼上划了三道，四个人各拿走一块",
+      "chinese": [
+        "分开",
+        "划分",
+        "分配",
+        "除以"
+      ],
+      "examples": [
+        "We divided the cake into eight pieces.",
+        "The river divides the town in two."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "分开：一样东西成了两样或几样",
+        "划分：在整块上定出界线，各归各处",
+        "分配：把切下来的几份发到各人手上",
+        "除以：算术里把一个数照份切匀"
+      ],
+      "collocations": [
+        "divide sth into sth —— 把某物分成若干份",
+        "divide sth between/among sb —— 在若干人之间分派某物",
+        "be divided on sth —— 在某事上各执一边"
+      ],
+      "recall_hint": "divid（切开）→ 把整块划成几份，各归各处"
+    },
+    {
+      "id": "individual",
+      "word": "individual",
+      "pos": "adjective / noun",
+      "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "dividere"
+      ],
+      "root_logic": "in-（不）+ dividu（dividere 切开）+ -al → 再切下去就没有了的那一个",
+      "origin": "拉丁语 individuus（切不下去的）：in-（不）+ dividere（切成几份）；英语后转指单独的一个人",
+      "native_definition": "single and separate; also a single person",
+      "core_concept": "the one that cannot be cut any further – 再切下去就没有了的那一个",
+      "core_image": "队伍散开后，每人手里一张写着自己名字的表，谁也不能替谁填",
+      "chinese": [
+        "个人的",
+        "单独的",
+        "个体"
+      ],
+      "examples": [
+        "Each individual receives a separate copy.",
+        "We looked at individual cases one by one."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "个人的：只属于这一个人，不属于那一群",
+        "单独的：一个一个地算，不整批地算",
+        "个体：切到不能再切的那一个本身"
+      ],
+      "recall_hint": "in-（不）+ dividu（切开）+ -al → 再切下去就没有了的那一个"
+    },
+    {
+      "id": "dividend",
+      "word": "dividend",
+      "pos": "noun",
+      "phonetic": "/ˈdɪvɪdend/",
+      "decomposable": "root",
+      "root_ids": [
+        "dividere"
+      ],
+      "root_logic": "divid（dividere 切成几份）+ -end（该被…的）→ 该分下去的那一笔",
+      "origin": "拉丁语 dividendum（该分下去之物），dividere（切成几份）的动名词",
+      "native_definition": "a part of a company profits paid to the people who own its shares",
+      "core_concept": "the sum marked out to be divided up – 划出来准备分下去的那一笔",
+      "core_image": "年底结账，账上多出来的钱按各人持股照比例打进户头",
+      "chinese": [
+        "股息",
+        "红利",
+        "被除数"
+      ],
+      "examples": [
+        "The company paid a small dividend this year.",
+        "Shareholders expect a higher dividend next quarter."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "股息：按持股定期分到手的那一份",
+        "红利：赚得多时额外再分出来的那一笔",
+        "被除数：算术里等着被切匀的那个数"
+      ],
+      "recall_hint": "divid（切开）+ -end（该被…的）→ 划出来该分下去的那一笔"
+    },
+    {
+      "id": "extinguish",
+      "word": "extinguish",
+      "pos": "verb",
+      "phonetic": "/ɪkˈstɪŋɡwɪʃ/",
+      "decomposable": "root",
+      "root_ids": [
+        "stinguere"
+      ],
+      "root_logic": "ex-（出、尽）+ stingu（stinguere 用尖头戳）+ -ish → 一下下戳到一点火星不剩",
+      "origin": "拉丁语 exstinguere（戳到不剩）：ex-（出、尽）+ stinguere（用尖头戳、戳灭），英语按法语式加 -ish",
+      "native_definition": "to make a fire or light stop burning, or to end something completely",
+      "core_concept": "pricked down until no spark is left – 戳到一点火星也不剩",
+      "core_image": "他用湿布往炭上一压，红点先暗下一片，抬手时只剩一缕白气",
+      "chinese": [
+        "扑灭",
+        "熄灭",
+        "消灭"
+      ],
+      "examples": [
+        "Firefighters extinguished the blaze within an hour.",
+        "She extinguished the candle before leaving."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "扑灭：正烧着的火被压下去",
+        "熄灭：灯烛上那一点亮被按掉",
+        "消灭：念头或指望也这样被按到不剩"
+      ],
+      "recall_hint": "ex-（尽）+ stingu（戳）→ 一下下戳到一点火星也不剩"
+    },
+    {
+      "id": "instinct",
+      "word": "instinct",
+      "pos": "noun",
+      "phonetic": "/ˈɪnstɪŋkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stinguere"
+      ],
+      "root_logic": "in-（在里头）+ stinct（stinguere 戳）→ 里头戳的那一下，不等想就动了",
+      "origin": "拉丁语 instinctus（受催动），instinguere 的过去分词：in-（在里头）+ stinguere（用尖头戳、催逼）",
+      "native_definition": "a natural tendency to behave in a certain way without having to learn it",
+      "core_concept": "a prick from inside that moves you before thought – 里头戳的那一下，比想还快",
+      "core_image": "杯子刚从桌沿滑下去，手已经伸出去接住了，脑子还没转过来",
+      "chinese": [
+        "本能",
+        "天性",
+        "直觉"
+      ],
+      "examples": [
+        "Birds build nests by instinct alone.",
+        "Her first instinct was to run away."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "本能：不用学就会的那种反应",
+        "天性：生下来就扎在里头的那种脾性",
+        "直觉：不经推理、当下就冒出来的那个判断"
+      ],
+      "collocations": [
+        "by instinct —— 出于本能地，不经思考",
+        "have an instinct for sth —— 对某事有天生的感觉",
+        "sb's first instinct is to do sth —— 某人的第一反应是做某事"
+      ],
+      "recall_hint": "in-（在里头）+ stinct（戳）→ 里头戳的那一下，比想还快"
+    },
+    {
+      "id": "extinct",
+      "word": "extinct",
+      "pos": "adjective",
+      "phonetic": "/ɪkˈstɪŋkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "stinguere"
+      ],
+      "root_logic": "ex-（出、尽）+ stinct（stinguere 戳）→ 被戳尽了，一支再也接不下去",
+      "origin": "拉丁语 exstinctus，exstinguere（戳到不剩）的过去分词：ex-（尽）+ stinguere（用尖头戳、戳灭）",
+      "native_definition": "no longer existing as a species, or no longer active",
+      "core_concept": "pricked out with nothing left burning – 戳尽了，一支接不下去",
+      "core_image": "馆里玻璃柜摆着一副骨架，标签写着最后一次见到它是哪一年",
+      "chinese": [
+        "灭绝的",
+        "绝种的",
+        "不再活动的"
+      ],
+      "examples": [
+        "That bird became extinct fifty years ago.",
+        "The volcano has been extinct for centuries."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灭绝的：一支活物到某一年就断了",
+        "绝种的：同一件事，偏说没有后代留下",
+        "不再活动的：火山那样，里头那点火早已按掉"
+      ],
+      "collocations": [
+        "become extinct —— 灭绝、绝种，最常用",
+        "an extinct volcano —— 死火山，固定说法"
+      ],
+      "recall_hint": "ex-（尽）+ stinct（戳）→ 戳尽了，那一支再也接不下去"
+    },
+    {
+      "id": "prominent",
+      "word": "prominent",
+      "pos": "adjective",
+      "phonetic": "/ˈprɒmɪnənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "minere"
+      ],
+      "root_logic": "pro-（朝前）+ minent（minere 凸出）→ 朝前鼓出来，一眼先看见它",
+      "origin": "拉丁语 prominens，prominere（朝前探出）的现在分词：pro-（朝前）+ -minere（凸出、探出来）",
+      "native_definition": "important and well known, or easily seen because it sticks out",
+      "core_concept": "jutting forward so it is seen first – 朝前鼓出来，一眼先看见",
+      "core_image": "一块板上的钉子都齐平，只有一颗头冒出来半分，袖子过去就被挂住",
+      "chinese": [
+        "突出的",
+        "显著的",
+        "杰出的"
+      ],
+      "examples": [
+        "He played a prominent part in the reform.",
+        "A prominent sign hung above the door."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "突出的：位置上真的鼓出来，摸得到",
+        "显著的：因为鼓出来，远处一眼也认得出",
+        "杰出的：人在同行里也这样高出一截"
+      ],
+      "collocations": [
+        "play a prominent part/role in sth —— 在某事中起重要作用",
+        "a prominent figure —— 知名人物"
+      ],
+      "recall_hint": "pro-（朝前）+ minent（凸出）→ 朝前鼓出来，一眼先看见它"
+    },
+    {
+      "id": "menace",
+      "word": "menace",
+      "pos": "noun / verb",
+      "phonetic": "/ˈmenəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "minere"
+      ],
+      "root_logic": "menac（minae 探在头顶的东西 ← minere 凸出）→ 悬在上头压着人，不敢往下走",
+      "origin": "古法语 menace ← 通俗拉丁语 minacia ← 拉丁语 minae（城墙上探出的雉堞，转指威吓），与 -minere（凸出）同支",
+      "native_definition": "something or someone likely to cause harm; to threaten someone",
+      "core_concept": "something jutting overhead that presses on you – 探在头顶上、压着人的那样东西",
+      "core_image": "站在崖底往上看，一块岩石探出头顶，缝里还落着碎屑，人不由得加快脚步",
+      "chinese": [
+        "威胁",
+        "恐吓",
+        "危险的人"
+      ],
+      "examples": [
+        "Drunk drivers are a menace to everyone.",
+        "He menaced the boy with a stick."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "威胁：悬在上头、随时可能落下来的那件事",
+        "危险的人：把这种悬着的东西说成一个人",
+        "恐吓：作动词，把这份压力朝人压过去"
+      ],
+      "collocations": [
+        "a menace to sb/sth —— 对某人某物构成祸害",
+        "menace sb with sth —— 用某物恐吓某人"
+      ],
+      "recall_hint": "menac（探在头顶）→ 悬在上头压着人，不敢往下走"
+    },
+    {
+      "id": "democracy",
+      "word": "democracy",
+      "pos": "noun",
+      "phonetic": "/dɪˈmɒkrəsi/",
+      "decomposable": "root",
+      "root_ids": [
+        "demos"
+      ],
+      "root_logic": "demos（一地之民）+ -cracy（kratos 权力）→ 权力落在这一片人手里",
+      "origin": "希腊语 demokratia：demos（一个地方的民众）+ kratos（权力），经法语 démocratie 入英语",
+      "native_definition": "a system in which people choose their government by voting",
+      "core_concept": "power held in the hands of the people – 权力落在众人手里，不在一个人手里",
+      "core_image": "全村人聚在院子里，抬手的一个个数过，哪边多就照哪边办",
+      "chinese": [
+        "民主",
+        "民主制度"
+      ],
+      "examples": [
+        "Democracy depends on free and fair elections.",
+        "The country returned to democracy after ten years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "民主：事情由众人一起表决定下来这件事",
+        "民主制度：把这种定法固定成一整套安排"
+      ],
+      "recall_hint": "demos（一地之民）+ -cracy（权力）→ 权力落在这一片人手里，不在一个人手里"
+    },
+    {
+      "id": "democratic",
+      "word": "democratic",
+      "pos": "adjective",
+      "phonetic": "/ˌdeməˈkrætɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "demos"
+      ],
+      "root_logic": "demos（一地之民）+ -cratic（kratos 权力）→ 权力在众人手里的，人人都插得上话",
+      "origin": "希腊语 demokratikos ← demokratia：demos（一个地方的民众）+ kratos（权力），经法语 démocratique 入英语",
+      "native_definition": "based on the principle that all members have an equal say",
+      "core_concept": "run by the say of all, not of one – 由众人说了算，不由一个人说了算",
+      "core_image": "会上谁想说话抬手就行，主持的人等所有人讲完才落笔",
+      "chinese": [
+        "民主的",
+        "有民主作风的"
+      ],
+      "examples": [
+        "They held a democratic vote on the issue.",
+        "She has a very democratic management style."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "民主的：由众人一起表决定下来的",
+        "有民主作风的：说人愿意让旁人开口，不一个人拍板"
+      ],
+      "recall_hint": "demos（一地之民）+ -cratic（权力）→ 权力在众人手里，人人插得上话"
+    }
+  ]
+}

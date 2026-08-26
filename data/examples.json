@@ -49798,6 +49798,398 @@
       "text": "She seemed quite content with the result.",
       "source": "AI 生成 · 人工审核",
       "scene": "箱子一开，里头的东西一样样摆到桌上；摆完的人靠回椅背，不再翻别处"
+    },
+    {
+      "id": "ex-prepare-1",
+      "word_id": "prepare",
+      "text": "She stayed up late to prepare tomorrow's lesson.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "客人还没进门，碗筷已摆好，锅里的水正冒着气"
+    },
+    {
+      "id": "ex-prepare-2",
+      "word_id": "prepare",
+      "text": "The cook prepared a simple soup for us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "客人还没进门，碗筷已摆好，锅里的水正冒着气"
+    },
+    {
+      "id": "ex-separate-1",
+      "word_id": "separate",
+      "text": "Please separate the red socks from the white ones.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "洗好的衣服按深浅摊在两只筐里，中间空出一条缝"
+    },
+    {
+      "id": "ex-separate-2",
+      "word_id": "separate",
+      "text": "They sleep in separate rooms now.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "洗好的衣服按深浅摊在两只筐里，中间空出一条缝"
+    },
+    {
+      "id": "ex-parade-1",
+      "word_id": "parade",
+      "text": "Thousands lined the street to watch the parade.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长街两边挤满人，队伍排着整齐的行列从眼前走过"
+    },
+    {
+      "id": "ex-parade-2",
+      "word_id": "parade",
+      "text": "He paraded his new watch around the office.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长街两边挤满人，队伍排着整齐的行列从眼前走过"
+    },
+    {
+      "id": "ex-preparation-1",
+      "word_id": "preparation",
+      "text": "Months of preparation went into the concert.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "演出前一晚的后台，箱子里的道具一件件对着单子清点"
+    },
+    {
+      "id": "ex-preparation-2",
+      "word_id": "preparation",
+      "text": "The pharmacist mixed a preparation for her cough.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "演出前一晚的后台，箱子里的道具一件件对着单子清点"
+    },
+    {
+      "id": "ex-descend-1",
+      "word_id": "descend",
+      "text": "The plane began to descend through thick cloud.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚探到下一级横木，一级一级从梯顶挪到地面"
+    },
+    {
+      "id": "ex-descend-2",
+      "word_id": "descend",
+      "text": "She descends from a family of shipbuilders.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "脚探到下一级横木，一级一级从梯顶挪到地面"
+    },
+    {
+      "id": "ex-transcend-1",
+      "word_id": "transcend",
+      "text": "Great music transcends language and borders.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙头上的人翻身落到另一边，墙已经不再拦着他"
+    },
+    {
+      "id": "ex-transcend-2",
+      "word_id": "transcend",
+      "text": "Her work transcends the usual limits of the form.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙头上的人翻身落到另一边，墙已经不再拦着他"
+    },
+    {
+      "id": "ex-scale-1",
+      "word_id": "scale",
+      "text": "The project grew in scale every year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上钉着一条木尺，横线一道道等距排开，越往上数字越大"
+    },
+    {
+      "id": "ex-scale-2",
+      "word_id": "scale",
+      "text": "Rescuers scaled the cliff before dark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上钉着一条木尺，横线一道道等距排开，越往上数字越大"
+    },
+    {
+      "id": "ex-serve-1",
+      "word_id": "serve",
+      "text": "The waiter served us within five minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侍者托着盘子绕到桌边，把菜放下，转身去添水"
+    },
+    {
+      "id": "ex-serve-2",
+      "word_id": "serve",
+      "text": "This box can serve as a table.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "侍者托着盘子绕到桌边，把菜放下，转身去添水"
+    },
+    {
+      "id": "ex-service-1",
+      "word_id": "service",
+      "text": "The hotel offers excellent service to guests.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台后的人接过单子，问清要什么，几分钟后把东西递出来"
+    },
+    {
+      "id": "ex-service-2",
+      "word_id": "service",
+      "text": "The car is due for a service.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台后的人接过单子，问清要什么，几分钟后把东西递出来"
+    },
+    {
+      "id": "ex-servant-1",
+      "word_id": "servant",
+      "text": "The servant brought tea into the study.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门边站着一个人，主人一抬手就上前，不抬手就一直站着"
+    },
+    {
+      "id": "ex-servant-2",
+      "word_id": "servant",
+      "text": "Civil servants must follow strict rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门边站着一个人，主人一抬手就上前，不抬手就一直站着"
+    },
+    {
+      "id": "ex-demand-1",
+      "word_id": "demand",
+      "text": "The workers demanded better pay and shorter hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手把纸条按在柜台上，手指压着不放，等对面点头"
+    },
+    {
+      "id": "ex-demand-2",
+      "word_id": "demand",
+      "text": "Demand for cheap flights rose sharply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手把纸条按在柜台上，手指压着不放，等对面点头"
+    },
+    {
+      "id": "ex-recommend-1",
+      "word_id": "recommend",
+      "text": "I recommend this book to every beginner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人把名片按到朋友手里，说这家你去，出了事找我"
+    },
+    {
+      "id": "ex-recommend-2",
+      "word_id": "recommend",
+      "text": "The doctor recommended that he rest for a week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人把名片按到朋友手里，说这家你去，出了事找我"
+    },
+    {
+      "id": "ex-company-1",
+      "word_id": "company",
+      "text": "She runs a small printing company.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个人合租一间铺面，共用一个招牌，晚上还一起吃饭"
+    },
+    {
+      "id": "ex-company-2",
+      "word_id": "company",
+      "text": "I enjoyed her company on the long drive.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几个人合租一间铺面，共用一个招牌，晚上还一起吃饭"
+    },
+    {
+      "id": "ex-companion-1",
+      "word_id": "companion",
+      "text": "His dog was his only companion that winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长途车上邻座那人陪你说了一路话，下车时分了半块饼给你"
+    },
+    {
+      "id": "ex-companion-2",
+      "word_id": "companion",
+      "text": "She was a cheerful companion on the trip.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长途车上邻座那人陪你说了一路话，下车时分了半块饼给你"
+    },
+    {
+      "id": "ex-technique-1",
+      "word_id": "technique",
+      "text": "She has perfect technique in the water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一把刀，他握的角度和下刀的次序每回都不变，切出来每片一样厚"
+    },
+    {
+      "id": "ex-technique-2",
+      "word_id": "technique",
+      "text": "He learned the technique from an old carpenter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一把刀，他握的角度和下刀的次序每回都不变，切出来每片一样厚"
+    },
+    {
+      "id": "ex-technical-1",
+      "word_id": "technical",
+      "text": "The report is full of technical terms.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说明书翻到第三页全是参数和接线图，外行看两行就放下了"
+    },
+    {
+      "id": "ex-technical-2",
+      "word_id": "technical",
+      "text": "We hit a technical problem with the software.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说明书翻到第三页全是参数和接线图，外行看两行就放下了"
+    },
+    {
+      "id": "ex-technology-1",
+      "word_id": "technology",
+      "text": "New technology has changed how we work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一屋子设备连成一条线，按下按钮，原先要十个人干的活自己走完了"
+    },
+    {
+      "id": "ex-technology-2",
+      "word_id": "technology",
+      "text": "The factory uses the latest technology.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一屋子设备连成一条线，按下按钮，原先要十个人干的活自己走完了"
+    },
+    {
+      "id": "ex-technician-1",
+      "word_id": "technician",
+      "text": "A technician came to fix the printer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器停了，来的人蹲下拧开面板，摸两下就说出该换哪个件"
+    },
+    {
+      "id": "ex-technician-2",
+      "word_id": "technician",
+      "text": "She works as a lab technician.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "机器停了，来的人蹲下拧开面板，摸两下就说出该换哪个件"
+    },
+    {
+      "id": "ex-divide-1",
+      "word_id": "divide",
+      "text": "We divided the cake into eight pieces.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他拿刀在饼上划了三道，四个人各拿走一块"
+    },
+    {
+      "id": "ex-divide-2",
+      "word_id": "divide",
+      "text": "The river divides the town in two.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他拿刀在饼上划了三道，四个人各拿走一块"
+    },
+    {
+      "id": "ex-individual-1",
+      "word_id": "individual",
+      "text": "Each individual receives a separate copy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍散开后，每人手里一张写着自己名字的表，谁也不能替谁填"
+    },
+    {
+      "id": "ex-individual-2",
+      "word_id": "individual",
+      "text": "We looked at individual cases one by one.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍散开后，每人手里一张写着自己名字的表，谁也不能替谁填"
+    },
+    {
+      "id": "ex-dividend-1",
+      "word_id": "dividend",
+      "text": "The company paid a small dividend this year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "年底结账，账上多出来的钱按各人持股照比例打进户头"
+    },
+    {
+      "id": "ex-dividend-2",
+      "word_id": "dividend",
+      "text": "Shareholders expect a higher dividend next quarter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "年底结账，账上多出来的钱按各人持股照比例打进户头"
+    },
+    {
+      "id": "ex-extinguish-1",
+      "word_id": "extinguish",
+      "text": "Firefighters extinguished the blaze within an hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他用湿布往炭上一压，红点先暗下一片，抬手时只剩一缕白气"
+    },
+    {
+      "id": "ex-extinguish-2",
+      "word_id": "extinguish",
+      "text": "She extinguished the candle before leaving.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他用湿布往炭上一压，红点先暗下一片，抬手时只剩一缕白气"
+    },
+    {
+      "id": "ex-instinct-1",
+      "word_id": "instinct",
+      "text": "Birds build nests by instinct alone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯子刚从桌沿滑下去，手已经伸出去接住了，脑子还没转过来"
+    },
+    {
+      "id": "ex-instinct-2",
+      "word_id": "instinct",
+      "text": "Her first instinct was to run away.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "杯子刚从桌沿滑下去，手已经伸出去接住了，脑子还没转过来"
+    },
+    {
+      "id": "ex-extinct-1",
+      "word_id": "extinct",
+      "text": "That bird became extinct fifty years ago.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "馆里玻璃柜摆着一副骨架，标签写着最后一次见到它是哪一年"
+    },
+    {
+      "id": "ex-extinct-2",
+      "word_id": "extinct",
+      "text": "The volcano has been extinct for centuries.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "馆里玻璃柜摆着一副骨架，标签写着最后一次见到它是哪一年"
+    },
+    {
+      "id": "ex-prominent-1",
+      "word_id": "prominent",
+      "text": "He played a prominent part in the reform.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块板上的钉子都齐平，只有一颗头冒出来半分，袖子过去就被挂住"
+    },
+    {
+      "id": "ex-prominent-2",
+      "word_id": "prominent",
+      "text": "A prominent sign hung above the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块板上的钉子都齐平，只有一颗头冒出来半分，袖子过去就被挂住"
+    },
+    {
+      "id": "ex-menace-1",
+      "word_id": "menace",
+      "text": "Drunk drivers are a menace to everyone.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在崖底往上看，一块岩石探出头顶，缝里还落着碎屑，人不由得加快脚步"
+    },
+    {
+      "id": "ex-menace-2",
+      "word_id": "menace",
+      "text": "He menaced the boy with a stick.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在崖底往上看，一块岩石探出头顶，缝里还落着碎屑，人不由得加快脚步"
+    },
+    {
+      "id": "ex-democracy-1",
+      "word_id": "democracy",
+      "text": "Democracy depends on free and fair elections.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全村人聚在院子里，抬手的一个个数过，哪边多就照哪边办"
+    },
+    {
+      "id": "ex-democracy-2",
+      "word_id": "democracy",
+      "text": "The country returned to democracy after ten years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全村人聚在院子里，抬手的一个个数过，哪边多就照哪边办"
+    },
+    {
+      "id": "ex-democratic-1",
+      "word_id": "democratic",
+      "text": "They held a democratic vote on the issue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会上谁想说话抬手就行，主持的人等所有人讲完才落笔"
+    },
+    {
+      "id": "ex-democratic-2",
+      "word_id": "democratic",
+      "text": "She has a very democratic management style.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "会上谁想说话抬手就行，主持的人等所有人讲完才落笔"
     }
   ]
 }
