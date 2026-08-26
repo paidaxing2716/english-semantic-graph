@@ -10686,6 +10686,306 @@
       "to": "alternative",
       "type": "root",
       "note": "alternative 出自 alter"
+    },
+    {
+      "from": "ire",
+      "to": "commence",
+      "type": "root",
+      "note": "com-（一同）+ mence（initiare ← initium ← in＋ire 行走）→ 一同迈进第一步"
+    },
+    {
+      "from": "ire",
+      "to": "initiative",
+      "type": "root",
+      "note": "init（initium 迈进的第一步 ← in＋ire 行走）+ -ive（名词）→ 不等人催，自己迈的那一步"
+    },
+    {
+      "from": "ire",
+      "to": "perish",
+      "type": "root",
+      "note": "per-（彻底、到尽头）+ ish（ire 行走）→ 一路走到头，走没了"
+    },
+    {
+      "from": "ire",
+      "to": "transition",
+      "type": "root",
+      "note": "trans-（横过）+ it（ire 行走）+ -ion（名词）→ 从这一边走到那一边的那一段"
+    },
+    {
+      "from": "cura",
+      "to": "assurance",
+      "type": "root",
+      "note": "as-（ad- 去）+ sur（securus 无忧 ← se 脱离＋cura 忧心）+ -ance（名词）→ 把对方心"
+    },
+    {
+      "from": "cura",
+      "to": "curiosity",
+      "type": "root",
+      "note": "curios（curiosus 心思放在上头的 ← cura 关切）+ -ity（名词）→ 心思一直搭在某事上，非要弄清"
+    },
+    {
+      "from": "cura",
+      "to": "reassure",
+      "type": "root",
+      "note": "re-（再一次）+ assure（把忧撤掉 ← se 脱离＋cura 忧心）→ 再把对方悬着的那份心放下来"
+    },
+    {
+      "from": "sedere",
+      "to": "assess",
+      "type": "root",
+      "note": "as-（ad- 靠过去）+ sess（sedere 坐）→ 坐到审案人旁边替他定出数目"
+    },
+    {
+      "from": "sedere",
+      "to": "obsession",
+      "type": "root",
+      "note": "ob-（对面、围住）+ sess（sedere 坐）+ -ion（名词）→ 围城的兵在城外坐定不走，念头也这么围着人"
+    },
+    {
+      "from": "sedere",
+      "to": "session",
+      "type": "root",
+      "note": "sess（sedere 坐）+ -ion（名词）→ 众人坐下来的那一段时间"
+    },
+    {
+      "from": "dict",
+      "to": "indication",
+      "type": "root",
+      "note": "in-（朝着）+ dic（dicare 宣示，与 dicere 说本是一词）+ -ation（名词）→ 朝那处指出来说给"
+    },
+    {
+      "from": "dict",
+      "to": "indicative",
+      "type": "root",
+      "note": "in-（朝着）+ dic（dicare 宣示）+ -ative（…的）→ 能把那处指出来的"
+    },
+    {
+      "from": "fac",
+      "to": "facilitate",
+      "type": "root",
+      "note": "facil（facilis 易做的 ← facere 做）+ -itate（使…）→ 让这件事做起来变容易"
+    },
+    {
+      "from": "fac",
+      "to": "facility",
+      "type": "root",
+      "note": "facil（facilis 易做的 ← facere 做）+ -ity（名词）→ 做起来容易这件事，及为省力而备下的场所"
+    },
+    {
+      "from": "via",
+      "to": "deviate",
+      "type": "root",
+      "note": "de-（离开）+ via（路）+ -ate（动词）→ 从原来那条路上岔出去"
+    },
+    {
+      "from": "via",
+      "to": "trivial",
+      "type": "root",
+      "note": "tri-（三）+ vi（via 路）+ -al（…的）→ 三条路交汇的那个口子，人人都打那儿过 → 谁都见惯的"
+    },
+    {
+      "from": "caedere",
+      "to": "precision",
+      "type": "root",
+      "note": "pre-（预先）+ cis（caedere 切）+ -ion（名词）→ 预先切定，多的那截都削掉，只留正好那么多"
+    },
+    {
+      "from": "ced",
+      "to": "succeed",
+      "type": "root",
+      "note": "suc-（sub- 紧接着）+ ceed（cedere 行走）→ 紧跟在前面那人后头走上去"
+    },
+    {
+      "from": "ferre",
+      "to": "differentiate",
+      "type": "root",
+      "note": "dif-（分开）+ fer（ferre 带）+ -entiate（使成…）→ 各自带向不同方向，两样东西的分别就显出来了"
+    },
+    {
+      "from": "habere",
+      "to": "exhibition",
+      "type": "root",
+      "note": "ex-（向外）+ hibit（habere 持有）+ -ion（名词）→ 把攥在手里的东西拿出来给人看的那一场"
+    },
+    {
+      "from": "minus-less",
+      "to": "minute",
+      "type": "root",
+      "note": "minut（minutus 被弄小的 ← minuere 使变小）→ 从整块上切下来的一小份 → 一小时被切成的那六十份"
+    },
+    {
+      "from": "mov",
+      "to": "move",
+      "type": "root",
+      "note": "mov 是这一族的光杆词干，别的成员都在它前头加了词缀（re- 挪走、pro- 往前推、e- 心里被触动）；过去分词 m"
+    },
+    {
+      "from": "origo",
+      "to": "orientation",
+      "type": "root",
+      "note": "orient（oriens 日头正升起的那一边 ← oriri 升起）+ -ation（名词）→ 拿日出那一边当准头，把"
+    },
+    {
+      "from": "putare",
+      "to": "accountant",
+      "type": "root",
+      "note": "ac-（ad- 去）+ count（computare 合算 ← com＋putare 清点）+ -ant（做事的人）→"
+    },
+    {
+      "from": "vid",
+      "to": "evidence",
+      "type": "root",
+      "note": "e-（ex- 向外）+ vid（videre 看）+ -ence（名词）→ 明摆在外、一看就见的那些东西"
+    },
+    {
+      "from": "ag",
+      "to": "activity",
+      "type": "root",
+      "note": "act（做、驱动，← agere）+ -ive + -ity → 正被驱动着做的那些事"
+    },
+    {
+      "from": "ag",
+      "to": "agenda",
+      "type": "root",
+      "note": "ag（做、驱动，← agere）+ -enda（该被…的）→ agenda：该做的那些事 → 按次序排好的一张待办清单"
+    },
+    {
+      "from": "ag",
+      "to": "ambassador",
+      "type": "root",
+      "note": "amb-（四处）+ ass（← ambactus 受派奔走的人，与 act 同出 agere 一支）+ -or → 被派"
+    },
+    {
+      "from": "ire",
+      "to": "ambitious",
+      "type": "root",
+      "note": "amb-（绕着、四处）+ it（走，← ire）+ -ious → ambire：绕着一圈一圈走去拉票 → 为往上爬肯多"
+    },
+    {
+      "from": "tain",
+      "to": "continue",
+      "type": "root",
+      "note": "con-（一起）+ tin（握住，← tenere）+ -ue → continuus：前后接在一起不断 → 手不松，事"
+    },
+    {
+      "from": "tain",
+      "to": "entertain",
+      "type": "root",
+      "note": "enter-（其间，← inter）+ tain（握住，← tenere）→ entretenir：把人留在身边不让走 "
+    },
+    {
+      "from": "tain",
+      "to": "entertainment",
+      "type": "root",
+      "note": "enter-（其间）+ tain（握住，← tenere）+ -ment（事、物）→ 把人留住不让走的那一套东西"
+    },
+    {
+      "from": "tain",
+      "to": "maintenance",
+      "type": "root",
+      "note": "main（手，← manus）+ ten（握住，← tenere）+ -ance → manutenere：手一直垫在下"
+    },
+    {
+      "from": "stru",
+      "to": "industrial",
+      "type": "root",
+      "note": "indu-（在里头）+ stri（堆叠、建造，← struere）+ -al → 在厂房里成批垒造东西的那一类"
+    },
+    {
+      "from": "stru",
+      "to": "industrialize",
+      "type": "root",
+      "note": "indu-（在里头）+ stri（堆叠、建造，← struere）+ -al + -ize（使成为）→ 使一个地方变成成"
+    },
+    {
+      "from": "stru",
+      "to": "industry",
+      "type": "root",
+      "note": "indu-（在里头）+ stri（堆叠、建造，← struere）+ -y → industria：闷头在里头一层层垒 "
+    },
+    {
+      "from": "experiri",
+      "to": "expert",
+      "type": "root",
+      "note": "ex-（出来）+ pert（试过的，← peritus / experiri）→ expertus：试过、验过的 → 试"
+    },
+    {
+      "from": "experiri",
+      "to": "expertise",
+      "type": "root",
+      "note": "ex-（出来）+ pert（试过的，← peritus / experiri）+ -ise → 亲身试出来、别处搬不动的"
+    },
+    {
+      "from": "sequ",
+      "to": "pursuit",
+      "type": "root",
+      "note": "pur-（向前，← pro-）+ suit（跟随，← sequi）→ prosequi：咬住不放一路跟下去 → 追赶这件"
+    },
+    {
+      "from": "sequ",
+      "to": "secondary",
+      "type": "root",
+      "note": "secund（跟着来的，← secundus，与 sequi 同出「跟随」一支）+ -ary → 排在头一个后面那一档的"
+    },
+    {
+      "from": "ars",
+      "to": "articulate",
+      "type": "root",
+      "note": "artic（小关节，← articulus ← artus 关节，与 ars 同源）+ -ate → 在关节处一节节断开"
+    },
+    {
+      "from": "battuere",
+      "to": "abatement",
+      "type": "root",
+      "note": "a-（朝向、往下，← ad-）+ bate（打，← battuere）+ -ment → 一下往下打，把势头打低下去 →"
+    },
+    {
+      "from": "duc-duct",
+      "to": "education",
+      "type": "root",
+      "note": "e-（向外）+ duc（引导，← ducere / educare）+ -ation → 把人从蒙昧里牵出来，一路带着往"
+    },
+    {
+      "from": "gnoscere",
+      "to": "ignorance",
+      "type": "root",
+      "note": "i-（不，← in-）+ gnor（认得出，← gnoscere）+ -ance → 面对面也认不出这是什么 → 不晓得"
+    },
+    {
+      "from": "kyklos",
+      "to": "encyclopedia",
+      "type": "root",
+      "note": "en-（在…里）+ cycl（圆圈、一整圈，← kyklos）+ paideia（教养）→ 在整个圆圈里的学问 → 一圈"
+    },
+    {
+      "from": "modus",
+      "to": "accommodation",
+      "type": "root",
+      "note": "ac-（朝向，← ad-）+ com-（一起）+ mod（量度、尺寸，← modus）+ -ation → 按对方的尺寸"
+    },
+    {
+      "from": "oikonomia",
+      "to": "ecology",
+      "type": "root",
+      "note": "eco（家、住处，← 希腊语 oikos，即 oikonomia 的前半）+ -logy（讲清条理的学问）→ 讲清生物住"
+    },
+    {
+      "from": "platea",
+      "to": "commonplace",
+      "type": "root",
+      "note": "common（共有的）+ place（那块地方，← platea 宽街）→ 谁都能去的那块公共场地 → 谁都能说的那句话"
+    },
+    {
+      "from": "salvus",
+      "to": "safeguard",
+      "type": "root",
+      "note": "safe（完好，← salvus）+ guard（看守，与英语 guard 同出法兰克语 *wardon 一支）→ sa"
+    },
+    {
+      "from": "ire",
+      "to": "ambition",
+      "type": "root",
+      "note": "amb-（绕着）+ it（ire 走）+ -ion → 为往上爬挨门绕圈走动 → 野心"
     }
   ]
 }

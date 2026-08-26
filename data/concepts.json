@@ -256,7 +256,8 @@
         "reduction",
         "introduction",
         "reproduce",
-        "semiconductor"
+        "semiconductor",
+        "education"
       ]
     },
     {
@@ -408,7 +409,11 @@
         "continuous",
         "maintain",
         "rein",
-        "retention"
+        "retention",
+        "continue",
+        "entertain",
+        "entertainment",
+        "maintenance"
       ]
     },
     {
@@ -446,7 +451,9 @@
         "fax",
         "affection",
         "fashionable",
-        "perfection"
+        "perfection",
+        "facilitate",
+        "facility"
       ]
     },
     {
@@ -511,7 +518,8 @@
         "excessive",
         "necessary",
         "necessitate",
-        "necessity"
+        "necessity",
+        "succeed"
       ]
     },
     {
@@ -642,7 +650,10 @@
         "agent",
         "activate",
         "agency",
-        "ambiguous"
+        "ambiguous",
+        "activity",
+        "agenda",
+        "ambassador"
       ]
     },
     {
@@ -665,7 +676,10 @@
         "structure",
         "obstruct",
         "obstruction",
-        "infrastructure"
+        "infrastructure",
+        "industrial",
+        "industrialize",
+        "industry"
       ]
     },
     {
@@ -686,7 +700,9 @@
         "index",
         "indicate",
         "contradiction",
-        "dictionary"
+        "dictionary",
+        "indication",
+        "indicative"
       ]
     },
     {
@@ -814,7 +830,8 @@
         "motivate",
         "promote",
         "remote",
-        "remove"
+        "remove",
+        "move"
       ]
     },
     {
@@ -1008,7 +1025,9 @@
         "executive",
         "pursue",
         "second",
-        "sue"
+        "sue",
+        "pursuit",
+        "secondary"
       ]
     },
     {
@@ -1104,7 +1123,8 @@
         "administration",
         "minimum",
         "ministry",
-        "minus"
+        "minus",
+        "minute"
       ]
     },
     {
@@ -1604,7 +1624,10 @@
         "ensure",
         "insure",
         "accuracy",
-        "sure"
+        "sure",
+        "assurance",
+        "curiosity",
+        "reassure"
       ]
     },
     {
@@ -1865,7 +1888,8 @@
         "preferable",
         "reference",
         "conference",
-        "circumference"
+        "circumference",
+        "differentiate"
       ]
     },
     {
@@ -1883,7 +1907,8 @@
         "displace",
         "plate",
         "plateau",
-        "platform"
+        "platform",
+        "commonplace"
       ]
     },
     {
@@ -1956,7 +1981,10 @@
         "residence",
         "resident",
         "subsidy",
-        "preside"
+        "preside",
+        "assess",
+        "obsession",
+        "session"
       ]
     },
     {
@@ -2070,7 +2098,8 @@
         "economic",
         "economical",
         "economics",
-        "economy"
+        "economy",
+        "ecology"
       ]
     },
     {
@@ -2595,7 +2624,8 @@
         "provision",
         "prudent",
         "revise",
-        "supervise"
+        "supervise",
+        "evidence"
       ]
     },
     {
@@ -2611,7 +2641,8 @@
         "concise",
         "cement",
         "decide",
-        "decision"
+        "decision",
+        "precision"
       ]
     },
     {
@@ -2769,7 +2800,9 @@
       ],
       "word_ids": [
         "previous",
-        "obvious"
+        "obvious",
+        "deviate",
+        "trivial"
       ]
     },
     {
@@ -2878,7 +2911,8 @@
         "artist",
         "artistic",
         "inertia",
-        "article"
+        "article",
+        "articulate"
       ]
     },
     {
@@ -2907,7 +2941,8 @@
         "origin",
         "original",
         "originate",
-        "orient"
+        "orient",
+        "orientation"
       ]
     },
     {
@@ -2958,7 +2993,8 @@
         "disable",
         "due",
         "duty",
-        "endeavor"
+        "endeavor",
+        "exhibition"
       ]
     },
     {
@@ -3140,7 +3176,8 @@
         "modest",
         "module",
         "mould",
-        "accommodate"
+        "accommodate",
+        "accommodation"
       ]
     },
     {
@@ -3189,7 +3226,8 @@
       "word_ids": [
         "bicycle",
         "cycle",
-        "recycle"
+        "recycle",
+        "encyclopedia"
       ]
     },
     {
@@ -3408,7 +3446,9 @@
       "word_ids": [
         "experience",
         "experiment",
-        "experimental"
+        "experimental",
+        "expert",
+        "expertise"
       ]
     },
     {
@@ -3692,7 +3732,8 @@
         "battle",
         "combat",
         "debate",
-        "battery"
+        "battery",
+        "abatement"
       ]
     },
     {
@@ -3880,7 +3921,8 @@
         "dispute",
         "computer",
         "counter",
-        "reputation"
+        "reputation",
+        "accountant"
       ]
     },
     {
@@ -3995,10 +4037,16 @@
         "ire"
       ],
       "word_ids": [
+        "ambition",
+        "ambitious",
+        "commence",
         "exit",
         "initial",
         "initiate",
-        "issue"
+        "initiative",
+        "issue",
+        "perish",
+        "transition"
       ]
     },
     {
@@ -4226,7 +4274,8 @@
         "acquaint",
         "ignorant",
         "ignore",
-        "noble"
+        "noble",
+        "ignorance"
       ]
     },
     {
@@ -4324,7 +4373,8 @@
         "safety",
         "salute",
         "salvation",
-        "save"
+        "save",
+        "safeguard"
       ]
     },
     {

@@ -1,0 +1,863 @@
+{
+  "words": [
+    {
+      "id": "activity",
+      "word": "activity",
+      "pos": "noun",
+      "phonetic": "/ækˈtɪvəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "act（做、驱动，← agere）+ -ive + -ity → 正被驱动着做的那些事",
+      "origin": "中古法语 activité ← 中世纪拉丁语 activitas ← activus（在动的）← agere（驱动、做）",
+      "native_definition": "something that people do, or the state of being busy and moving",
+      "core_concept": "things being driven along, and the stir they make – 被推着动起来的那些事，以及动出来的那份热闹",
+      "core_image": "放学后的操场上，跳绳的、追球的、搬桌子的，没有一处是静的",
+      "chinese": [
+        "活动",
+        "活跃",
+        "活力"
+      ],
+      "examples": [
+        "The children took part in after-school activities.",
+        "There was little activity on the streets at dawn."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "活动：一件件被推动起来的事，有人正在做",
+        "活跃：处处都在动，停不下来的那种状态",
+        "活力：把这份动劲本身当成一样东西来说"
+      ]
+    },
+    {
+      "id": "agenda",
+      "word": "agenda",
+      "pos": "noun",
+      "phonetic": "/əˈdʒendə/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "ag（做、驱动，← agere）+ -enda（该被…的）→ agenda：该做的那些事 → 按次序排好的一张待办清单",
+      "origin": "拉丁语 agenda（该做之事），agendus（agere 的将来被动分词）的中性复数",
+      "native_definition": "a list of items to be dealt with at a meeting, or the aims someone is quietly pushing",
+      "core_concept": "the things that must get done, set out in order – 必须办的那些事，按次序列成一条条",
+      "core_image": "会议桌上每人面前压着一张纸，从一到七列着今天要过的条目",
+      "chinese": [
+        "议程",
+        "议事日程",
+        "目标"
+      ],
+      "examples": [
+        "The first item on the agenda is the budget.",
+        "Critics said the report had a political agenda."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "议程：会上要过的条目，一条压一条排着",
+        "议事日程：把那张单子当成整场会的安排来说",
+        "目标：没写在纸上、却一直在背后推着走的那件事"
+      ],
+      "collocations": [
+        "on the agenda —— 在待议事项之列，介词固定用 on",
+        "hidden agenda —— 不明说的用心，固定说法，多带贬义",
+        "set the agenda —— 定调、主导议题走向，动词搭配固定"
+      ]
+    },
+    {
+      "id": "ambassador",
+      "word": "ambassador",
+      "pos": "noun",
+      "phonetic": "/æmˈbæsədə/",
+      "decomposable": "root",
+      "root_ids": [
+        "ag"
+      ],
+      "root_logic": "amb-（四处）+ ass（← ambactus 受派奔走的人，与 act 同出 agere 一支）+ -or → 被派出去四处奔走替人开口的那个人",
+      "origin": "古法语 ambassateur ← 拉丁语 ambactus（受派办事的仆从）← 凯尔特语 *ambaktos：*ambhi（四处）＋ *ag-（驱动、奔走），与 act 同源",
+      "native_definition": "an official who represents his or her country in another country",
+      "core_concept": "one sent running about to speak for another – 被派出去四处奔走、替另一方开口的人",
+      "core_image": "一个人拿着国书住进别国的宅子，说的每句话都算派他来的那一方说的",
+      "chinese": [
+        "大使",
+        "代表"
+      ],
+      "examples": [
+        "She was appointed ambassador to Japan.",
+        "He became an ambassador for children's rights."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大使：受派驻在别国，说话代表派他来的那一方",
+        "代表：不带官职也一样，替某项事业出面说话的人"
+      ]
+    },
+    {
+      "id": "ambitious",
+      "word": "ambitious",
+      "pos": "adjective",
+      "phonetic": "/æmˈbɪʃəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "ire"
+      ],
+      "root_logic": "amb-（绕着、四处）+ it（走，← ire）+ -ious → ambire：绕着一圈一圈走去拉票 → 为往上爬肯多走这些路的",
+      "origin": "拉丁语 ambitiosus ← ambitio（四处奔走拉票）← ambire：amb-（绕着）＋ ire（走）；与 agere（驱动）一支非同源，故不入 ag 族",
+      "native_definition": "wanting success or power very much, or needing a lot of effort to achieve",
+      "core_concept": "walking the whole round to get to the top – 为爬到高处，肯把那一整圈路走下来",
+      "core_image": "候选人一条街一条街挨门去敲，鞋底磨薄了也不肯少走一家",
+      "chinese": [
+        "有雄心的",
+        "野心大的",
+        "宏大的"
+      ],
+      "examples": [
+        "She is ambitious and works late every night.",
+        "The plan was too ambitious for one year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "有雄心的：肯为往上走多跑那些路的人",
+        "野心大的：想要的超过分内那一份，语气偏贬",
+        "宏大的：摊子铺得大，要走的路也就长"
+      ]
+    },
+    {
+      "id": "ambulance",
+      "word": "ambulance",
+      "pos": "noun",
+      "phonetic": "/ˈæmbjələns/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 ambulance ← 17 世纪短语 hôpital ambulant（会走动的医院）← 拉丁语 ambulare（走动）：ambi-（四处）＋一支表「游走」的原始意大利语词干；与 agere、ire 两支均非同源，故不入 ag 族",
+      "native_definition": "a vehicle for taking sick or injured people to hospital",
+      "core_concept": "a hospital that comes to you on wheels – 装着轮子、自己走到你跟前的那间医院",
+      "core_image": "蓝灯在车顶转着，车从堵死的路中间挤出一条缝，一路呜呜地开走",
+      "chinese": [
+        "救护车"
+      ],
+      "examples": [
+        "Someone called an ambulance right away.",
+        "The ambulance took him to the nearest hospital."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "continue",
+      "word": "continue",
+      "pos": "verb",
+      "phonetic": "/kənˈtɪnjuː/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（一起）+ tin（握住，← tenere）+ -ue → continuus：前后接在一起不断 → 手不松，事就一路接下去",
+      "origin": "古法语 continuer ← 拉丁语 continuare（接续不断）← continuus（相接的）← continere：com-（一起）＋ tenere（握住）",
+      "native_definition": "to keep happening or doing something without stopping",
+      "core_concept": "keeping hold so the line never breaks – 一直握着不松手，那条线就不断",
+      "core_image": "讲话被人打断，他等那人说完，从断掉的那半句往下接",
+      "chinese": [
+        "继续",
+        "持续",
+        "延伸"
+      ],
+      "examples": [
+        "Prices continued to rise all year.",
+        "The road continues for another five miles."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "继续：断掉的地方重新接上，往下做",
+        "持续：从头到尾没松手，一直是那样",
+        "延伸：路和线也这么接下去，接到更远处"
+      ],
+      "collocations": [
+        "continue to do sth —— 接着做，含重新起头或换一件事接着做的意味",
+        "continue doing sth —— 接着做，强调同一件事一直没停；多数场合与 to do 可换用",
+        "continue with sth —— 接着做原来那件事，后接名词",
+        "to be continued —— 未完待续，用于连载的固定说法"
+      ]
+    },
+    {
+      "id": "entertain",
+      "word": "entertain",
+      "pos": "verb",
+      "phonetic": "/ˌentəˈteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "enter-（其间，← inter）+ tain（握住，← tenere）→ entretenir：把人留在身边不让走 → 陪着逗着，让他乐意待下去",
+      "origin": "古法语 entretenir（维持、扶持）：entre-（← inter 其间）＋ tenir（← tenere 握住）",
+      "native_definition": "to keep people amused or interested, or to have guests and give them food",
+      "core_concept": "holding someone there and keeping them glad – 把人留住，还让他乐意留着",
+      "core_image": "客人坐了一晚也没起身，主人手上一直有话有茶递上来",
+      "chinese": [
+        "使快乐",
+        "招待",
+        "心里存有"
+      ],
+      "examples": [
+        "The clown entertained the children for an hour.",
+        "They often entertain friends at home."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "使快乐：留住的同时得让他不闷，才留得住",
+        "招待：把客人留下来，管吃管喝",
+        "心里存有：念头也能这么被留住不放，如存着某种想法"
+      ],
+      "collocations": [
+        "entertain sb with sth —— 用某样东西逗某人开心，with 后接手段",
+        "entertain guests / clients —— 招待客人或客户，此义后多不带其他成分",
+        "entertain an idea / a thought —— 心里存着某个念头，正式用法，不表娱乐"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "word": "entertainment",
+      "pos": "noun",
+      "phonetic": "/ˌentəˈteɪnmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "enter-（其间）+ tain（握住，← tenere）+ -ment（事、物）→ 把人留住不让走的那一套东西",
+      "origin": "古法语 entretenement（维持、供养）← entretenir：entre-（← inter）＋ tenir（← tenere 握住）",
+      "native_definition": "films, music, shows and other things that people enjoy watching or doing",
+      "core_concept": "what keeps a crowd in their seats – 让满场的人留在座位上的那些东西",
+      "core_image": "台上一个节目接一个节目，台下几百人两小时没有一个起身",
+      "chinese": [
+        "娱乐",
+        "娱乐活动",
+        "招待"
+      ],
+      "examples": [
+        "The city offers plenty of evening entertainment.",
+        "The show was pure entertainment from start to finish."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "娱乐：能把人留住的那份乐子",
+        "娱乐活动：具体一场一场的节目和玩法",
+        "招待：把客人留下来款待的那一套，语体偏正式"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "word": "maintenance",
+      "pos": "noun",
+      "phonetic": "/ˈmeɪntənəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "main（手，← manus）+ ten（握住，← tenere）+ -ance → manutenere：手一直垫在下面托着 → 托着不让它塌下去的那些活儿",
+      "origin": "古法语 maintenance ← maintenir ← 中世纪拉丁语 manutenere：manu（← manus 手）＋ tenere（握住）",
+      "native_definition": "the work of keeping something in good condition, or money paid to support someone",
+      "core_concept": "a hand kept under it so it never sags – 手一直垫在下面，东西就塌不下来",
+      "core_image": "电梯每季度停一天，两个人拆开盖板，换掉磨薄的钢缆，上油再合上",
+      "chinese": [
+        "维护",
+        "保养",
+        "抚养费"
+      ],
+      "examples": [
+        "The bridge needs regular maintenance.",
+        "He pays maintenance for his two children."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "维护：一直有人托着，东西才保持能用",
+        "保养：定期擦洗上油，把磨损补回去",
+        "抚养费：钱也这么按月递过去，把人的日子托住"
+      ]
+    },
+    {
+      "id": "industrial",
+      "word": "industrial",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈdʌstriəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "indu-（在里头）+ stri（堆叠、建造，← struere）+ -al → 在厂房里成批垒造东西的那一类",
+      "origin": "法语 industriel ← 拉丁语 industria（勤劳、经营）← industrius，古形 indostruus：indu-（在里头）＋ struere（堆叠、建造）",
+      "native_definition": "relating to factories and the making of goods in large quantities",
+      "core_concept": "where things get stacked out in batches – 东西成批垒出来的那个地方",
+      "core_image": "河湾那一侧一排厂房连着，烟囱冒白汽，铁皮屋顶下机器整天不停",
+      "chinese": [
+        "工业的",
+        "产业的"
+      ],
+      "examples": [
+        "The city has a long industrial history.",
+        "Industrial output fell for a third month."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "工业的：与厂房、机器、成批制造有关",
+        "产业的：把某一行的整套生产当一个部门来说"
+      ]
+    },
+    {
+      "id": "industrialize",
+      "word": "industrialize",
+      "pos": "verb",
+      "phonetic": "/ɪnˈdʌstriəlaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "indu-（在里头）+ stri（堆叠、建造，← struere）+ -al + -ize（使成为）→ 使一个地方变成成批垒造东西的地方",
+      "origin": "industrial（工业的）加动词后缀 -ize；词源同 industry ← 拉丁语 industria ← indostruus：indu-（在里头）＋ struere（堆叠、建造）",
+      "native_definition": "to develop factories and large-scale production in a country or area",
+      "core_concept": "turning a place into one that stacks goods out – 把一个地方变成成批垒造东西的地方",
+      "core_image": "十年前是稻田的那一片，如今厂房一间接一间，货车沿新修的路一趟趟出去",
+      "chinese": [
+        "使工业化",
+        "实现工业化"
+      ],
+      "examples": [
+        "The country industrialized rapidly after the war.",
+        "They plan to industrialize the whole valley."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "使工业化：外力推着一个地方往那边变",
+        "实现工业化：那地方自己走完了这一变"
+      ]
+    },
+    {
+      "id": "industry",
+      "word": "industry",
+      "pos": "noun",
+      "phonetic": "/ˈɪndəstri/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "indu-（在里头）+ stri（堆叠、建造，← struere）+ -y → industria：闷头在里头一层层垒 → 成批造东西的那一行，也指闷头垒的那份劲头",
+      "origin": "拉丁语 industria（勤劳、经营）← industrius，古形 indostruus：indu-（在里头）＋ struere（堆叠、建造）",
+      "native_definition": "the making of goods in factories, a particular branch of trade, or hard steady work",
+      "core_concept": "steady stacking, and the trades built on it – 闷头一层层垒，垒出来的那些行当",
+      "core_image": "车间里流水线一天转到晚，成品箱在库门口垒到两人高",
+      "chinese": [
+        "工业",
+        "行业",
+        "勤劳"
+      ],
+      "examples": [
+        "The steel industry employs thousands here.",
+        "He owes his success to sheer industry."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "工业：成批垒造货物的那一大类生产",
+        "行业：某一门生意的整套生产，如旅游那一行",
+        "勤劳：垒得住、不歇手的那份劲头本身"
+      ]
+    },
+    {
+      "id": "expert",
+      "word": "expert",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈekspɜːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "experiri"
+      ],
+      "root_logic": "ex-（出来）+ pert（试过的，← peritus / experiri）→ expertus：试过、验过的 → 试的次数够多，一搭手就有数的那个人",
+      "origin": "古法语 expert ← 拉丁语 expertus（试过的、验过的），experiri（亲身试验）的过去分词：ex-（出来）＋ peritus（试过的）",
+      "native_definition": "a person with special skill or knowledge got from long practice",
+      "core_concept": "tried it so often that one touch tells – 试过太多回，一搭手就知道",
+      "core_image": "机器一响他不看图纸，手往机壳上一搭就说是哪个轴承在磨",
+      "chinese": [
+        "专家",
+        "熟练的",
+        "内行的"
+      ],
+      "examples": [
+        "You should ask an expert about the wiring.",
+        "She is expert at handling difficult clients."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "专家：试得够多，被人拿去问的那个人",
+        "熟练的：手上过关，做起来不打滞",
+        "内行的：门道摸透了，一眼看出深浅"
+      ],
+      "collocations": [
+        "be an expert on / in sth —— 某领域的专家，on 多指专题、in 多指学科门类",
+        "be expert at doing sth —— 擅长做某事，此处介词固定用 at",
+        "expert advice / opinion —— 专业意见，作定语时不加 -ed"
+      ]
+    },
+    {
+      "id": "expertise",
+      "word": "expertise",
+      "pos": "noun",
+      "phonetic": "/ˌekspɜːˈtiːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "experiri"
+      ],
+      "root_logic": "ex-（出来）+ pert（试过的，← peritus / experiri）+ -ise → 亲身试出来、别处搬不动的那点本事",
+      "origin": "法语 expertise（鉴定、专家评估）← expert ← 拉丁语 expertus（试过的），experiri（亲身试验）的过去分词",
+      "native_definition": "special skill or knowledge in a particular field, gained by doing it",
+      "core_concept": "the know-how that only doing it leaves behind – 只有亲手做过才留下来的那点门道",
+      "core_image": "那台旧机器只有他拧得开，先松哪颗螺栓是他自己试出来的，说不清也教不快",
+      "chinese": [
+        "专长",
+        "专业知识",
+        "专门技能"
+      ],
+      "examples": [
+        "We lack the expertise to repair it ourselves.",
+        "Her expertise in tax law is widely known."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "专长：别人没有、只你手上有的那一门",
+        "专业知识：这一行里成体系的那套内行知识",
+        "专门技能：具体做得出来的那份手上功夫"
+      ],
+      "collocations": [
+        "expertise in sth —— 在某方面的专长，介词固定用 in",
+        "have / lack expertise —— 有或缺乏专长，本身不可数，不加 -s",
+        "technical / professional expertise —— 技术或专业方面的专长，常见定语搭配"
+      ]
+    },
+    {
+      "id": "pursuit",
+      "word": "pursuit",
+      "pos": "noun",
+      "phonetic": "/pəˈsjuːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "pur-（向前，← pro-）+ suit（跟随，← sequi）→ prosequi：咬住不放一路跟下去 → 追赶这件事，也指常年跟着不放的那件事",
+      "origin": "古法语 porsuite（追寻）← porsivre ← 通俗拉丁语 *prosequare ← 拉丁语 prosequi：pro-（向前）＋ sequi（跟随）",
+      "native_definition": "the act of chasing someone, or an activity you give your time to",
+      "core_concept": "staying right behind it and not dropping off – 贴在后面跟着，一直不掉队",
+      "core_image": "警车贴在那辆车尾后头三条街，弯拐得再急也没掉出视线",
+      "chinese": [
+        "追赶",
+        "追求",
+        "消遣"
+      ],
+      "examples": [
+        "The police car gave up the pursuit at the bridge.",
+        "Painting was the pursuit of his later years."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "追赶：贴在对方脚后跟上，不让他跑掉",
+        "追求：把一样看不见的东西也当成要跟住的目标",
+        "消遣：常年跟着不放的那件事，跟着跟着成了爱做的"
+      ],
+      "collocations": [
+        "in pursuit of sth —— 为追求某物，后多接 happiness / knowledge 等抽象名词",
+        "in hot pursuit (of sb) —— 紧追不舍，hot 在此固定，不可换词",
+        "the pursuit of sth —— 对某事的追求，作主语时用定冠词"
+      ]
+    },
+    {
+      "id": "secondary",
+      "word": "secondary",
+      "pos": "adjective",
+      "phonetic": "/ˈsekəndri/",
+      "decomposable": "root",
+      "root_ids": [
+        "sequ"
+      ],
+      "root_logic": "secund（跟着来的，← secundus，与 sequi 同出「跟随」一支）+ -ary → 排在头一个后面那一档的",
+      "origin": "拉丁语 secundarius（属第二等的）← secundus（跟着来的、下一个），与 sequi（跟随）同出原始印欧语 *sekw-（跟随）",
+      "native_definition": "less important than the main thing, or coming second in order or stage",
+      "core_concept": "the one that falls in behind the first – 排在头一个后头那一位",
+      "core_image": "表格上第一栏填完才轮到第二栏，那一栏留白也照样能交上去",
+      "chinese": [
+        "次要的",
+        "第二的",
+        "中等教育的"
+      ],
+      "examples": [
+        "Cost is secondary to safety here.",
+        "She teaches at a secondary school."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "次要的：排在后头，可以先放一放",
+        "第二的：次序上就是跟在第一之后那一个",
+        "中等教育的：小学之后接着上的那一段学制"
+      ],
+      "collocations": [
+        "be secondary to sth —— 从属于、不及某事重要，介词固定用 to",
+        "secondary school / education —— 中学、中等教育，英式固定说法",
+        "of secondary importance —— 次要的，作后置定语或表语"
+      ]
+    },
+    {
+      "id": "articulate",
+      "word": "articulate",
+      "pos": "verb / adjective",
+      "phonetic": "/ɑːˈtɪkjuleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "ars"
+      ],
+      "root_logic": "artic（小关节，← articulus ← artus 关节，与 ars 同源）+ -ate → 在关节处一节节断开 → 把话按节断清楚地说出",
+      "origin": "拉丁语 articulatus（分成节的、说得清的），articulare 的过去分词 ← articulus（小关节），是 artus（关节、接合）的指小形，与 ars（手上的门道）同出原始印欧语 *ar-（拼合）",
+      "native_definition": "to express something clearly in words, or able to speak clearly and fluently",
+      "core_concept": "broken at the joints so every piece shows – 在关节处断开，一节一节都看得见",
+      "core_image": "他把一长句拆成几段说，每段之间停一下，听的人一句也没漏",
+      "chinese": [
+        "清楚表达",
+        "口齿清楚的",
+        "有关节的"
+      ],
+      "examples": [
+        "She articulated her doubts point by point.",
+        "He is the most articulate speaker in the group."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "清楚表达：把要说的拆成节，一节一节摆出来",
+        "口齿清楚的：说话时节与节断得开，字字听得清",
+        "有关节的：本义，像虫肢和骨头那样一节接一节"
+      ]
+    },
+    {
+      "id": "abatement",
+      "word": "abatement",
+      "pos": "noun",
+      "phonetic": "/əˈbeɪtmənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "battuere"
+      ],
+      "root_logic": "a-（朝向、往下，← ad-）+ bate（打，← battuere）+ -ment → 一下往下打，把势头打低下去 → 减下去这件事",
+      "origin": "古法语 abatement（打倒、削减）← abatre ← 通俗拉丁语 *abbatere：ad（朝向）＋ battuere（击打）",
+      "native_definition": "a reduction in the amount or degree of something, often used in law and tax",
+      "core_concept": "beaten down notch by notch – 一下下往下打，势头一层层落",
+      "core_image": "夜里十一点后工地那阵打桩声一层层压下去，最后只剩风声",
+      "chinese": [
+        "减少",
+        "减轻",
+        "减免"
+      ],
+      "examples": [
+        "The city ordered the abatement of night noise.",
+        "There was no abatement in the storm."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "减少：数量被打下去一截",
+        "减轻：程度压低了，没那么难受了",
+        "减免：税费和罚款也这么被打掉一部分"
+      ]
+    },
+    {
+      "id": "carpenter",
+      "word": "carpenter",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːpəntə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "盎格鲁法语 carpenter ← 晚期拉丁语 carpentarius（造车的工匠）← carpentum（双轮车），借自高卢语 *carpentom；carpentum 与 carrus 是两个不同的高卢词各自借入拉丁语，非派生关系，且「治木」这层义到中世纪拉丁语才有，与车无涉，故不入 carrus 族",
+      "native_definition": "a person who makes and repairs things made of wood",
+      "core_concept": "one who fits worked timber together – 把削好的木料对上咬住的那个人",
+      "core_image": "刨花一卷卷落在脚边，他把两块料对上，凿出的槽严丝合缝地咬住",
+      "chinese": [
+        "木匠",
+        "木工"
+      ],
+      "examples": [
+        "The carpenter built us a new set of shelves.",
+        "He trained as a carpenter after leaving school."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "木匠：干这门活的那个人",
+        "木工：也指这门手艺本身，如学木工"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "education",
+      "word": "education",
+      "pos": "noun",
+      "phonetic": "/ˌedʒuˈkeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "duc-duct"
+      ],
+      "root_logic": "e-（向外）+ duc（引导，← ducere / educare）+ -ation → 把人从蒙昧里牵出来，一路带着往前走",
+      "origin": "法语 éducation ← 拉丁语 educatio（养育、教导）← educare（养育、教导），与 educere（e-（向外）＋ ducere（引导））同支",
+      "native_definition": "the process of teaching and learning, or the training a person has received",
+      "core_concept": "being led out and taken forward – 被牵出来，一路带着往前走",
+      "core_image": "老师走在前面，一班人跟着，路每往前一段，他们看见的就多一点",
+      "chinese": [
+        "教育",
+        "教养",
+        "学历"
+      ],
+      "examples": [
+        "She works in higher education.",
+        "His education was interrupted by the war."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "教育：牵着人往前走的整个过程",
+        "教养：被牵着走过一遍后留在身上的举止",
+        "学历：被牵着走了多远，落成纸面上的那一条"
+      ]
+    },
+    {
+      "id": "ignorance",
+      "word": "ignorance",
+      "pos": "noun",
+      "phonetic": "/ˈɪɡnərəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "i-（不，← in-）+ gnor（认得出，← gnoscere）+ -ance → 面对面也认不出这是什么 → 不晓得的那个状态",
+      "origin": "古法语 ignorance ← 拉丁语 ignorantia ← ignorare（认不出、不理）：in-（不）＋ gnoscere（认识）",
+      "native_definition": "the state of not knowing about something",
+      "core_concept": "standing before a thing and not knowing it – 东西就在面前，认不出那是什么",
+      "core_image": "那件东西就摆在他手边，他从旁边走过去好几趟，没往那儿看一眼",
+      "chinese": [
+        "无知",
+        "不知道",
+        "愚昧"
+      ],
+      "examples": [
+        "He acted out of sheer ignorance of the rules.",
+        "She was kept in ignorance of the plan."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "无知：该知道的东西一概认不出",
+        "不知道：具体某件事没进到他耳朵里",
+        "愚昧：认不出的地方多且长久，成了一种状态"
+      ],
+      "collocations": [
+        "ignorance of sth —— 对某事的不知，介词固定用 of",
+        "keep sb in ignorance (of sth) —— 让某人一直不知情，动词搭配固定",
+        "out of ignorance —— 出于无知，说明做那件事的缘由",
+        "ignorance is bliss —— 不知道反而省心，成句谚语"
+      ]
+    },
+    {
+      "id": "encyclopedia",
+      "word": "encyclopedia",
+      "pos": "noun",
+      "phonetic": "/ɪnˌsaɪkləˈpiːdiə/",
+      "decomposable": "root",
+      "root_ids": [
+        "kyklos"
+      ],
+      "root_logic": "en-（在…里）+ cycl（圆圈、一整圈，← kyklos）+ paideia（教养）→ 在整个圆圈里的学问 → 一圈转下来，各门各类都收进去的那套书",
+      "origin": "现代拉丁语 encyclopaedia（约 1500 年）← 希腊语短语 enkyklios paideia（周遍的教养）：en（在…里）＋ kyklos（圆圈）＋ paideia（教养），拉丁作者误当一个词读",
+      "native_definition": "a book or set of books giving information on many subjects, usually in alphabetical order",
+      "core_concept": "learning that comes round the full circle – 转满一整圈、各门各类都收进来的学问",
+      "core_image": "书架上一排同样厚的深绿封面，书脊上印着 A 到 Z，随手抽一本都能查着东西",
+      "chinese": [
+        "百科全书",
+        "大全"
+      ],
+      "examples": [
+        "He looked the word up in an old encyclopedia.",
+        "The site works like an online encyclopedia."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "百科全书：各科都收，一圈转下来无所不含的那套书",
+        "大全：某一门里收得齐全的那种，如园艺大全"
+      ]
+    },
+    {
+      "id": "accommodation",
+      "word": "accommodation",
+      "pos": "noun",
+      "phonetic": "/əˌkɒməˈdeɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "modus"
+      ],
+      "root_logic": "ac-（朝向，← ad-）+ com-（一起）+ mod（量度、尺寸，← modus）+ -ation → 按对方的尺寸把自己这边配上 → 配得合适的那个安排",
+      "origin": "拉丁语 accommodatio（调适、配合）← accommodare：ad（朝向）＋ commodus（合尺度的）← com（一起）＋ modus（量度、尺寸）",
+      "native_definition": "a place to live or stay, or the act of adjusting to fit something else",
+      "core_concept": "fitted to the measure of what it must hold – 按要装的那个量配出来的",
+      "core_image": "三个人来住，屋里就摆三张床、三个柜，多一张也塞不下，少一张不够用",
+      "chinese": [
+        "住处",
+        "住宿",
+        "迁就"
+      ],
+      "examples": [
+        "The rent includes accommodation and meals.",
+        "They reached an accommodation with the union."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "住处：按人数配好的那个地方",
+        "住宿：住下这件事本身，英式多不可数",
+        "迁就：把自己这边改一改，配上对方的尺寸"
+      ]
+    },
+    {
+      "id": "ecology",
+      "word": "ecology",
+      "pos": "noun",
+      "phonetic": "/iˈkɒlədʒi/",
+      "decomposable": "root",
+      "root_ids": [
+        "oikonomia"
+      ],
+      "root_logic": "eco（家、住处，← 希腊语 oikos，即 oikonomia 的前半）+ -logy（讲清条理的学问）→ 讲清生物住在哪儿、跟周围怎么相处的那门学问",
+      "origin": "仿德语 Ökologie（海克尔 1866 年造）← 希腊语 oikos（家、住处）＋ -logia（…之学）；economy 与它同出 oikos 这一支",
+      "native_definition": "the study of the relations between living things and their surroundings",
+      "core_concept": "the household that living things keep together – 生物合住的那一处，各自占一个位置",
+      "core_image": "一池子水里，鱼吃虫、虫吃草、螺清底泥，鸟落下来叼走一条，少哪一样池子都变样",
+      "chinese": [
+        "生态学",
+        "生态"
+      ],
+      "examples": [
+        "She studies the ecology of coastal wetlands.",
+        "Building the dam changed the river's ecology."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "生态学：研究这一处怎么相处的那门学问",
+        "生态：那一处相互牵着的关系本身"
+      ]
+    },
+    {
+      "id": "commonplace",
+      "word": "commonplace",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈkɒmənpleɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "platea"
+      ],
+      "root_logic": "common（共有的）+ place（那块地方，← platea 宽街）→ 谁都能去的那块公共场地 → 谁都能说的那句话 → 说得太多、不新鲜了",
+      "origin": "十六世纪按拉丁语短语 locus communis 逐词直译而成；其中 place 这一半在英语里出自 platea（宽街）而不在 locus 那一支，locus communis 本又译自希腊语 koinos topos（公共论题）",
+      "native_definition": "very ordinary and not interesting, or a remark that has been made too often",
+      "core_concept": "the open ground that everyone walks across – 谁都从上面走过去的那块空地",
+      "core_image": "那句话在会上被三个人说过，第四个人再说，底下已经没人抬头",
+      "chinese": [
+        "平常的",
+        "老一套的",
+        "陈词滥调"
+      ],
+      "examples": [
+        "Mobile payment is now commonplace here.",
+        "His speech was full of tired commonplaces."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "平常的：处处都有，见着不觉新鲜",
+        "老一套的：那话被说过太多回，听着没劲",
+        "陈词滥调：作名词，指那种被说滥了的话本身"
+      ]
+    },
+    {
+      "id": "safeguard",
+      "word": "safeguard",
+      "pos": "noun / verb",
+      "phonetic": "/ˈseɪfɡɑːd/",
+      "decomposable": "root",
+      "root_ids": [
+        "salvus"
+      ],
+      "root_logic": "safe（完好，← salvus）+ guard（看守，与英语 guard 同出法兰克语 *wardon 一支）→ sauve garde：派人看着，让它一直完好",
+      "origin": "古法语 sauve garde（安全看护）：sauve（← 拉丁语 salvus 完好的）＋ garde（看守，与英语 guard 同出法兰克语 *wardon）",
+      "native_definition": "something that protects against harm or loss, or to protect something",
+      "core_concept": "posted to watch over it and keep it whole – 派人看着，让它一直完好无损",
+      "core_image": "机器转轴外头罩着一层铁网，手伸不进去，网一拆机器就断电",
+      "chinese": [
+        "保障措施",
+        "防护装置",
+        "保护"
+      ],
+      "examples": [
+        "The law provides safeguards for tenants.",
+        "New rules safeguard workers' pay."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "保障措施：事先立下的规矩，防着损失发生",
+        "防护装置：实物的那层罩子，拦住危险",
+        "保护：作动词，看着它，别让它出事"
+      ],
+      "collocations": [
+        "safeguard sth against / from sth —— 保护某物免受某事损害，两个介词都可用",
+        "safeguard against doing sth —— 防范某事发生，作不及物用法",
+        "safeguards for sb —— 为某群体设的保障措施，名词后接 for"
+      ]
+    }
+  ]
+}

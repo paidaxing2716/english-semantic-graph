@@ -299,7 +299,8 @@
         "reduction",
         "introduction",
         "reproduce",
-        "semiconductor"
+        "semiconductor",
+        "education"
       ]
     },
     {
@@ -445,7 +446,11 @@
         "continuous",
         "maintain",
         "rein",
-        "retention"
+        "retention",
+        "continue",
+        "entertain",
+        "entertainment",
+        "maintenance"
       ]
     },
     {
@@ -490,7 +495,9 @@
         "fax",
         "affection",
         "fashionable",
-        "perfection"
+        "perfection",
+        "facilitate",
+        "facility"
       ]
     },
     {
@@ -566,7 +573,8 @@
         "excessive",
         "necessary",
         "necessitate",
-        "necessity"
+        "necessity",
+        "succeed"
       ]
     },
     {
@@ -714,7 +722,10 @@
         "agent",
         "activate",
         "agency",
-        "ambiguous"
+        "ambiguous",
+        "activity",
+        "agenda",
+        "ambassador"
       ]
     },
     {
@@ -737,7 +748,10 @@
         "structure",
         "obstruct",
         "obstruction",
-        "infrastructure"
+        "infrastructure",
+        "industrial",
+        "industrialize",
+        "industry"
       ]
     },
     {
@@ -761,7 +775,9 @@
         "index",
         "indicate",
         "contradiction",
-        "dictionary"
+        "dictionary",
+        "indication",
+        "indicative"
       ]
     },
     {
@@ -908,7 +924,8 @@
         "motivate",
         "promote",
         "remote",
-        "remove"
+        "remove",
+        "move"
       ]
     },
     {
@@ -1129,7 +1146,9 @@
         "executive",
         "pursue",
         "second",
-        "sue"
+        "sue",
+        "pursuit",
+        "secondary"
       ]
     },
     {
@@ -1243,7 +1262,8 @@
         "administration",
         "minimum",
         "ministry",
-        "minus"
+        "minus",
+        "minute"
       ]
     },
     {
@@ -1833,7 +1853,10 @@
         "ensure",
         "insure",
         "accuracy",
-        "sure"
+        "sure",
+        "assurance",
+        "curiosity",
+        "reassure"
       ]
     },
     {
@@ -2146,7 +2169,8 @@
         "preferable",
         "reference",
         "conference",
-        "circumference"
+        "circumference",
+        "differentiate"
       ],
       "noisy_variants": [
         "lat"
@@ -2171,7 +2195,8 @@
         "displace",
         "plate",
         "plateau",
-        "platform"
+        "platform",
+        "commonplace"
       ]
     },
     {
@@ -2257,7 +2282,10 @@
         "residence",
         "resident",
         "subsidy",
-        "preside"
+        "preside",
+        "assess",
+        "obsession",
+        "session"
       ]
     },
     {
@@ -2392,7 +2420,8 @@
         "economic",
         "economical",
         "economics",
-        "economy"
+        "economy",
+        "ecology"
       ]
     },
     {
@@ -3010,7 +3039,8 @@
         "provision",
         "prudent",
         "revise",
-        "supervise"
+        "supervise",
+        "evidence"
       ]
     },
     {
@@ -3031,7 +3061,8 @@
         "concise",
         "cement",
         "decide",
-        "decision"
+        "decision",
+        "precision"
       ]
     },
     {
@@ -3222,7 +3253,9 @@
       "english_definition": "way, road, path",
       "word_ids": [
         "previous",
-        "obvious"
+        "obvious",
+        "deviate",
+        "trivial"
       ]
     },
     {
@@ -3350,7 +3383,8 @@
         "artist",
         "artistic",
         "inertia",
-        "article"
+        "article",
+        "articulate"
       ]
     },
     {
@@ -3385,7 +3419,8 @@
         "origin",
         "original",
         "originate",
-        "orient"
+        "orient",
+        "orientation"
       ]
     },
     {
@@ -3446,7 +3481,8 @@
         "disable",
         "due",
         "duty",
-        "endeavor"
+        "endeavor",
+        "exhibition"
       ]
     },
     {
@@ -3666,7 +3702,8 @@
         "modest",
         "module",
         "mould",
-        "accommodate"
+        "accommodate",
+        "accommodation"
       ]
     },
     {
@@ -3724,7 +3761,8 @@
       "word_ids": [
         "bicycle",
         "cycle",
-        "recycle"
+        "recycle",
+        "encyclopedia"
       ]
     },
     {
@@ -3990,7 +4028,9 @@
       "word_ids": [
         "experience",
         "experiment",
-        "experimental"
+        "experimental",
+        "expert",
+        "expertise"
       ]
     },
     {
@@ -4338,7 +4378,8 @@
         "battle",
         "combat",
         "debate",
-        "battery"
+        "battery",
+        "abatement"
       ]
     },
     {
@@ -4579,7 +4620,8 @@
         "dispute",
         "computer",
         "counter",
-        "reputation"
+        "reputation",
+        "accountant"
       ]
     },
     {
@@ -4726,10 +4768,16 @@
       "core_image": "门槛一跨，脚已经落在门外那一侧",
       "english_definition": "to go",
       "word_ids": [
+        "ambition",
+        "ambitious",
+        "commence",
         "exit",
         "initial",
         "initiate",
-        "issue"
+        "initiative",
+        "issue",
+        "perish",
+        "transition"
       ]
     },
     {
@@ -5021,7 +5069,8 @@
         "acquaint",
         "ignorant",
         "ignore",
-        "noble"
+        "noble",
+        "ignorance"
       ],
       "noisy_variants": [
         "nor"
@@ -5146,7 +5195,8 @@
         "safety",
         "salute",
         "salvation",
-        "save"
+        "save",
+        "safeguard"
       ]
     },
     {
@@ -5690,7 +5740,7 @@
         "nav",
         "nau"
       ],
-      "origin": "拉丁语 navis（船），navalis（船的）与 navigare（navis＋agere：驱船而行）由此出；古法语 navie（一国的船队）入英语作 navy",
+      "origin": "拉丁语 navis（船），navalis（船的）与 navigare（navis 加表驱动的 agere 构成，驱船而行；agere 自成一根，不计入本族）由此出；古法语 navie（一国的船队）入英语作 navy",
       "core_concept": "a ship, and the water it crosses / 一条船，以及它要渡过的那片水",
       "core_image": "木壳吃水一半，桅上挂着旗，一队人立在甲板上，前头只有一片开阔的水",
       "english_definition": "ship, of ships",
