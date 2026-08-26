@@ -116672,6 +116672,2851 @@
         "treat sb with humanity —— 以仁慈待人，介词固定用 with",
         "the humanities —— 人文学科，此义必用复数并带定冠词"
       ]
+    },
+    {
+      "id": "anticipate",
+      "word": "anticipate",
+      "pos": "verb",
+      "phonetic": "/ænˈtɪsɪpeɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "anti-（ante- 在前）+ cip（capere 拿）→ 提前把它拿到手",
+      "origin": "拉丁语 anticipare（先取），过去分词 anticipatus ← ante-（在前）+ capere（拿住）",
+      "native_definition": "to expect something and get ready for it before it happens",
+      "core_concept": "taking hold of it before it arrives – 在它到来之前先拿到手",
+      "core_image": "客人还没到，桌上的碗筷已经摆好了",
+      "chinese": [
+        "预料",
+        "预期",
+        "提前应对"
+      ],
+      "examples": [
+        "We anticipate a rise in prices next year.",
+        "She anticipated my question and answered first."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "预料：事情还没来，心里先把它拿住",
+        "预期：把先拿住的那件事当成会来的来算",
+        "提前应对：既已先拿到手，就先动手安排"
+      ],
+      "recall_hint": "anti-（在前）+ cip（拿）→ 先一步把它拿到手"
+    },
+    {
+      "id": "capacity",
+      "word": "capacity",
+      "pos": "noun",
+      "phonetic": "/kəˈpæsəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "cap（capere 容纳、拿）+ -acity（能…的性质）→ 装得下多少的那个量",
+      "origin": "拉丁语 capacitas ← capax（装得下的）← capere（拿住、容纳）",
+      "native_definition": "the amount something can hold, or the ability to do something",
+      "core_concept": "how much it can hold – 它能装下多少",
+      "core_image": "量杯上刻着一道线，水到那道线就不能再加了",
+      "chinese": [
+        "容量",
+        "能力",
+        "生产力"
+      ],
+      "examples": [
+        "The tank has a capacity of forty litres.",
+        "She has a great capacity for hard work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "容量：容器装得下的那个量",
+        "能力：一个人装得下多少事，即办得成多少",
+        "生产力：一处厂房在一段时间里装得下多少产出"
+      ],
+      "recall_hint": "cap（容纳）+ -acity → 装得下多少的那个量"
+    },
+    {
+      "id": "audience",
+      "word": "audience",
+      "pos": "noun",
+      "phonetic": "/ˈɔːdiəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "audi（audire 听）+ -ence（名词）→ 在场听的那一群人",
+      "origin": "拉丁语 audientia（倾听）← audire（听）",
+      "native_definition": "the people who listen to or watch something",
+      "core_concept": "the gathered listeners – 聚在一处接收的那些人",
+      "core_image": "台下几百张脸都朝着一个方向，灯一暗就没人说话了",
+      "chinese": [
+        "听众",
+        "观众",
+        "读者群"
+      ],
+      "examples": [
+        "The audience clapped for a full minute.",
+        "This magazine has a young audience."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "听众：来听的那一群",
+        "观众：同一群人，改成看",
+        "读者群：不在场，但同样是接收的那一群"
+      ],
+      "recall_hint": "audi（听）+ -ence → 聚在一处接收的那一群人"
+    },
+    {
+      "id": "audit",
+      "word": "audit",
+      "pos": "noun / verb",
+      "phonetic": "/ˈɔːdɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "audi（audire 听）+ -t（过去分词）→ 当众念账、一条条听过 → 核查账目",
+      "origin": "拉丁语 auditus（一场听审）← audire（听）；旧时核账要把账目当众念出来",
+      "native_definition": "an official examination of accounts; to carry out such an examination",
+      "core_concept": "accounts read aloud and checked line by line – 账目一条条念出来听过",
+      "core_image": "账本摊开，一条条念出来，桌那头的人拿笔逐条对",
+      "chinese": [
+        "审计",
+        "查账",
+        "旁听"
+      ],
+      "examples": [
+        "The company failed its annual audit.",
+        "He audits the course without taking exams."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "审计：把账目一条条过一遍这件事",
+        "查账：具体逐条核对的那个动作",
+        "旁听：只坐着听，不算成绩"
+      ],
+      "recall_hint": "audi（听）+ -t → 当众念出、一条条听过并核对"
+    },
+    {
+      "id": "auditorium",
+      "word": "auditorium",
+      "pos": "noun",
+      "phonetic": "/ˌɔːdɪˈtɔːriəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "audire"
+      ],
+      "root_logic": "audit（audire 听）+ -orium（场所）→ 专为听而造的那个场所",
+      "origin": "拉丁语 auditorium（听讲之所）← audire（听）",
+      "native_definition": "the part of a building where people sit to listen or watch",
+      "core_concept": "the room built for listening – 专为听而造的那间屋子",
+      "core_image": "一排排座位顺着坡往上升，最后一排也听得清台上的话",
+      "chinese": [
+        "礼堂",
+        "观众席"
+      ],
+      "examples": [
+        "The auditorium seats eight hundred people.",
+        "We waited in the auditorium until seven."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "礼堂：整座为听讲而造的屋子",
+        "观众席：屋里坐着听的那一片座位"
+      ],
+      "recall_hint": "audit（听）+ -orium（场所）→ 为听而造的那处地方"
+    },
+    {
+      "id": "case",
+      "word": "case",
+      "pos": "noun",
+      "phonetic": "/keɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "cas（cadere 落）→ 落到眼前的那一桩事",
+      "origin": "古法语 cas ← 拉丁语 casus（落下来的事）← cadere（落下）；表箱盒的 case 出自 capsa，与此不同源",
+      "native_definition": "a particular situation or instance, also a matter dealt with by a court",
+      "core_concept": "what has fallen out in this instance – 落到眼前的这一桩",
+      "core_image": "门诊记录一页一页翻过，这一页写的是这一个人的经过",
+      "chinese": [
+        "情况",
+        "事例",
+        "案件"
+      ],
+      "examples": [
+        "In that case we should leave early.",
+        "The police closed the case last week."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "情况：事情落成的那个样子",
+        "事例：单独拿出来看的那一桩",
+        "案件：落到法庭上的那一桩"
+      ],
+      "collocations": [
+        "in case sth happens —— 万一发生某事，用来作预防",
+        "in any case —— 无论如何，转折后收束",
+        "in the case of sth —— 就某事而言，限定范围"
+      ],
+      "recall_hint": "cas（落）→ 落到眼前、要单独处理的这一桩"
+    },
+    {
+      "id": "casual",
+      "word": "casual",
+      "pos": "adjective",
+      "phonetic": "/ˈkæʒuəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "cas（cadere 落）+ -al → 碰巧落下来的 → 偶然的，进而不当正事对待的",
+      "origin": "中古英语 casuel ← 古法语 casuel ← 晚期拉丁语 casualis（碰巧的）← casus ← cadere（落下）",
+      "native_definition": "not planned or formal; relaxed in manner or dress",
+      "core_concept": "however it happens to fall – 碰巧落成什么样就什么样",
+      "core_image": "他穿着家里那件旧毛衣就来了，谁也没打领带",
+      "chinese": [
+        "随意的",
+        "偶然的",
+        "临时的"
+      ],
+      "examples": [
+        "He wore casual clothes to the office.",
+        "It was only a casual remark."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "偶然的：碰巧落下来、没安排过的",
+        "随意的：不当正事对待，怎么方便怎么来",
+        "临时的：只这一回落到手上，不算长期"
+      ],
+      "recall_hint": "cas（落）+ -al → 碰巧落成的样子，不刻意"
+    },
+    {
+      "id": "difficult",
+      "word": "difficult",
+      "pos": "adjective",
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "dif-（dis- 不）+ ficult（facilis 易做的 ← facere 做）→ 不容易做成的",
+      "origin": "拉丁语 difficilis：dis-（不）+ facilis（易做的）← facere（做）；英语 difficult 由 difficulty 反推而成",
+      "native_definition": "not easy to do, understand, or deal with",
+      "core_concept": "not easy to get done – 做不成、推不动",
+      "core_image": "螺丝拧到一半就不动了，换了三把扳手还是转不过去",
+      "chinese": [
+        "困难的",
+        "难对付的"
+      ],
+      "examples": [
+        "This question is difficult for beginners.",
+        "He can be difficult to please."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "困难的：事情做不成、推不动",
+        "难对付的：人也一样推不动，不好伺候"
+      ],
+      "recall_hint": "dif-（不）+ ficult（易做）→ 不易做成"
+    },
+    {
+      "id": "difficulty",
+      "word": "difficulty",
+      "pos": "noun",
+      "phonetic": "/ˈdɪfɪkəlti/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "dif-（不）+ ficul（facilis 易做 ← facere 做）+ -ty（名词）→ 做不成这件事本身",
+      "origin": "拉丁语 difficultas ← difficilis：dis-（不）+ facilis（易做的）← facere（做）",
+      "native_definition": "the state of being hard to do, or a problem that makes something hard",
+      "core_concept": "the thing that makes it not easy to do – 使事情做不成的那一处",
+      "core_image": "路上横着一块石头，车过不去，人围着它想办法",
+      "chinese": [
+        "困难",
+        "难题",
+        "困境"
+      ],
+      "examples": [
+        "She solved the problem without difficulty.",
+        "They ran into serious financial difficulties."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "困难：做不成这件事的状态",
+        "难题：具体挡在那里的那一件",
+        "困境：一时出不来的处境"
+      ],
+      "recall_hint": "dif-（不）+ ficul（易做）+ -ty → 做不成的状态，或挡路的那一件"
+    },
+    {
+      "id": "course",
+      "word": "course",
+      "pos": "noun",
+      "phonetic": "/kɔːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "curr"
+      ],
+      "root_logic": "cours（currere 跑）→ 一路跑过去画出的那条线",
+      "origin": "古法语 cors ← 拉丁语 cursus（跑动、路程）← currere（跑）",
+      "native_definition": "a route or direction; a series of lessons; the way something develops",
+      "core_concept": "the line something runs along – 一路跑下来的那条线",
+      "core_image": "河道在地图上拐了个大弯，水只能顺着这条线走",
+      "chinese": [
+        "路线",
+        "过程",
+        "课程"
+      ],
+      "examples": [
+        "The river changed its course after the flood.",
+        "She signed up for a summer course."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "路线：跑过去所走的那条线",
+        "过程：事情顺着时间跑过的那一段",
+        "课程：一门课按次序排下来的那一串"
+      ],
+      "collocations": [
+        "of course —— 当然，认作理所当然",
+        "in the course of sth —— 在某事进行的过程中",
+        "a course in sth —— 某科目的课"
+      ],
+      "recall_hint": "cours（跑）→ 一路跑下来画出的那条线"
+    },
+    {
+      "id": "discourse",
+      "word": "discourse",
+      "pos": "noun / verb",
+      "phonetic": "/ˈdɪskɔːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "curr"
+      ],
+      "root_logic": "dis-（来回、四处）+ course（currere 跑）→ 话头来回跑动",
+      "origin": "拉丁语 discursus（来回奔走）← discurrere：dis-（四处）+ currere（跑）；中世纪起转指话头往来",
+      "native_definition": "serious talk or writing on a subject",
+      "core_concept": "talk running back and forth – 话头来回跑动",
+      "core_image": "两人隔着桌子来回搭话，一句接一句，谁也没停",
+      "chinese": [
+        "交谈",
+        "论述",
+        "话语"
+      ],
+      "examples": [
+        "Her discourse on climate lasted an hour.",
+        "They discoursed on politics all evening."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "交谈：话在两人之间来回跑",
+        "论述：话头顺一个题目一路跑下去",
+        "话语：跑出来的那一串话本身"
+      ],
+      "recall_hint": "dis-（来回）+ course（跑）→ 话头来回跑动的那一串"
+    },
+    {
+      "id": "comprehension",
+      "word": "comprehension",
+      "pos": "noun",
+      "phonetic": "/ˌkɒmprɪˈhenʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "prehendere"
+      ],
+      "root_logic": "com-（一并）+ prehens（prehendere 抓）+ -ion → 把整件事一把抓全的那份本事",
+      "origin": "拉丁语 comprehensio ← comprehendere：com-（一并）+ prehendere（抓住）",
+      "native_definition": "the ability to understand something fully",
+      "core_concept": "getting the whole of it into one grasp – 把整件事一把抓全",
+      "core_image": "读第三遍时，前后几句忽然扣在一起，心里亮了",
+      "chinese": [
+        "理解力",
+        "领悟"
+      ],
+      "examples": [
+        "The test measures reading comprehension.",
+        "This is quite beyond my comprehension."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "理解力：能一把抓全的那份本事",
+        "领悟：抓住那一下的感觉"
+      ],
+      "recall_hint": "com-（一并）+ prehens（抓）+ -ion → 一把抓全的那份本事"
+    },
+    {
+      "id": "comprehensive",
+      "word": "comprehensive",
+      "pos": "adjective",
+      "phonetic": "/ˌkɒmprɪˈhensɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "prehendere"
+      ],
+      "root_logic": "com-（一并）+ prehens（prehendere 抓）+ -ive → 一把抓全的，没有漏下的",
+      "origin": "晚期拉丁语 comprehensivus ← comprehendere：com-（一并）+ prehendere（抓住）",
+      "native_definition": "including everything or nearly everything",
+      "core_concept": "taking in the whole of it – 一把抓全，不漏",
+      "core_image": "一张网撒下去，池子里连最小的鱼也没漏",
+      "chinese": [
+        "全面的",
+        "综合的"
+      ],
+      "examples": [
+        "The report gives a comprehensive account.",
+        "She took a comprehensive medical exam."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "全面的：各处都抓到，没有漏下的",
+        "综合的：把分开的几处一并抓进同一处"
+      ],
+      "recall_hint": "com-（一并）+ prehens（抓）+ -ive → 抓得全、没漏下的"
+    },
+    {
+      "id": "despair",
+      "word": "despair",
+      "pos": "noun / verb",
+      "phonetic": "/dɪˈspeə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "sperare"
+      ],
+      "root_logic": "de-（去掉）+ spair（sperare 盼望）→ 把所盼的全撤掉",
+      "origin": "古法语 desespeir ← 拉丁语 desperare：de-（去掉）+ sperare（盼望）",
+      "native_definition": "the feeling of having lost all hope; to lose all hope",
+      "core_concept": "hope taken away – 所盼的被撤空",
+      "core_image": "电话响了七次都没人接，他把听筒放下，坐在门口不动了",
+      "chinese": [
+        "绝望",
+        "失望"
+      ],
+      "examples": [
+        "She gave up the search in despair.",
+        "He despaired of ever finding work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "绝望：所盼的全撤掉，一点不剩",
+        "失望：盼的落了空，程度轻些"
+      ],
+      "collocations": [
+        "in despair —— 绝望地，多作状语",
+        "despair of doing sth —— 对做成某事不再抱指望"
+      ],
+      "recall_hint": "de-（去掉）+ spair（盼望）→ 所盼被撤空"
+    },
+    {
+      "id": "agriculture",
+      "word": "agriculture",
+      "pos": "noun",
+      "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "colere"
+      ],
+      "root_logic": "agri（ager 田）+ culture（colere 照管到长出东西）→ 照管田地使它长出收成",
+      "origin": "拉丁语 agricultura ← agri cultura（田地的照管）：ager（田）+ cultura ← colere（耕作、住下照管）",
+      "native_definition": "the practice of farming and growing crops",
+      "core_concept": "tending the land until it yields – 照管一块地直到它长出东西",
+      "core_image": "一垄一垄的地翻过、浇过，秋天贴地割下一茬",
+      "chinese": [
+        "农业",
+        "耕作"
+      ],
+      "examples": [
+        "Agriculture employs most people in that region.",
+        "Modern agriculture depends heavily on machines."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "农业：靠照管田地取得收成这一行",
+        "耕作：翻地、浇水、照管那一套具体的活"
+      ],
+      "recall_hint": "agri（田）+ culture（照管到长出）→ 照管田地取收成"
+    },
+    {
+      "id": "concert",
+      "word": "concert",
+      "pos": "noun",
+      "phonetic": "/ˈkɒnsət/",
+      "decomposable": "root",
+      "root_ids": [
+        "certus"
+      ],
+      "root_logic": "con-（一并）+ cert（certare 较量、争出定论 ← certus 已定）→ 各方定到同一个准上",
+      "origin": "意大利语 concerto（合奏、和谐）← 拉丁语 concertare：com-（一并）+ certare（较量、争出定论）← certus（已定的）",
+      "native_definition": "a public musical performance, or agreement in action",
+      "core_concept": "parties settled onto one and the same measure – 各方定到同一个准上",
+      "core_image": "台上十几件乐器，指挥手一落，全体同时进同一个拍子",
+      "chinese": [
+        "音乐会",
+        "演奏会",
+        "协同"
+      ],
+      "examples": [
+        "They played at a concert last night.",
+        "The two states acted in concert."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "协同：各方定到同一个准上一起动",
+        "音乐会：许多人定在同一个拍子上奏出来的那一场",
+        "演奏会：同一场事，偏说奏这件事本身"
+      ],
+      "collocations": [
+        "in concert with sb —— 与某人协同一致地行动"
+      ],
+      "recall_hint": "con-（一并）+ cert（争出定论）→ 定到同一个准上"
+    },
+    {
+      "id": "clause",
+      "word": "clause",
+      "pos": "noun",
+      "phonetic": "/klɔːz/",
+      "decomposable": "root",
+      "root_ids": [
+        "clud"
+      ],
+      "root_logic": "claus（claudere 关闭）+ -e → 合上口、自成一段的那一截",
+      "origin": "中世纪拉丁语 clausa（一段合上的话）← 拉丁语 claudere（关闭、封住）",
+      "native_definition": "a part of a sentence with its own verb; a section of a legal document",
+      "core_concept": "a stretch closed off into one unit – 合上口、自成一段的那一截",
+      "core_image": "合同上第三行到第五行用括号圈住，单成一段，签字只认这一圈",
+      "chinese": [
+        "从句",
+        "条款"
+      ],
+      "examples": [
+        "This clause explains who pays the fee.",
+        "The long sentence has two clauses."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "从句：句子里自成一段、有自己动词的那一截",
+        "条款：文件里单独合成一条的那一款"
+      ],
+      "recall_hint": "claus（关闭）+ -e → 合上口自成一段的那一截"
+    },
+    {
+      "id": "concrete",
+      "word": "concrete",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈkɒŋkriːt/",
+      "decomposable": "root",
+      "root_ids": [
+        "crescere"
+      ],
+      "root_logic": "con-（一并）+ crete（crescere 生长）→ 长到一起、凝成实的一块",
+      "origin": "拉丁语 concretus（长在一起、凝固的），concrescere 的过去分词：com-（一并）+ crescere（生长）",
+      "native_definition": "solid and real rather than general; also a hard building material",
+      "core_concept": "grown together into one solid mass – 长到一起、凝成一整块",
+      "core_image": "灰浆倒进模子，第二天用锤子敲，声音是实的",
+      "chinese": [
+        "具体的",
+        "混凝土"
+      ],
+      "examples": [
+        "Give me a concrete example, please.",
+        "The path is made of concrete."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "具体的：凝成一块摸得着的，不是散着的空话",
+        "混凝土：真凝成一块的那种建材"
+      ],
+      "recall_hint": "con-（一并）+ crete（生长）→ 长到一起凝成实的一块"
+    },
+    {
+      "id": "condition",
+      "word": "condition",
+      "pos": "noun / verb",
+      "phonetic": "/kənˈdɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "dict"
+      ],
+      "root_logic": "con-（一并）+ dit（dicere 说）+ -ion → 双方一并说定的那一条",
+      "origin": "拉丁语 condicio（说定的事项）← condicere：com-（一并）+ dicere（说）",
+      "native_definition": "something required before another thing can happen; also the state something is in",
+      "core_concept": "the point spoken and settled between parties – 双方一并说定的那一条",
+      "core_image": "两人把话说定，写在纸上按了手印，事情才照这张纸走",
+      "chinese": [
+        "条件",
+        "状况",
+        "条款"
+      ],
+      "examples": [
+        "The old car is in good condition.",
+        "They agreed on one condition only."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "条件：事先说定、要先满足的那一条",
+        "条款：写进文件的那一条",
+        "状况：一件东西眼下所处的样子，即事先说定的那些点如今落成什么样"
+      ],
+      "collocations": [
+        "on condition that + 从句 —— 条件是，引出前提",
+        "on no condition —— 决不，置于句首要倒装"
+      ],
+      "recall_hint": "con-（一并）+ dit（说）+ -ion → 一并说定的那一条"
+    },
+    {
+      "id": "artificial",
+      "word": "artificial",
+      "pos": "adjective",
+      "phonetic": "/ˌɑːtɪˈfɪʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "arti（ars 手艺）+ fic（facere 做）+ -ial → 靠手艺做出来的，不是自己长的",
+      "origin": "拉丁语 artificialis ← artificium ← artifex（匠人）：ars（手艺）+ -fex（做的人）← facere（做）",
+      "native_definition": "made by people rather than occurring in nature",
+      "core_concept": "made by craft, not grown of itself – 手艺做出来的，不是自己长的",
+      "core_image": "花瓶里的那束花一年了还没谢，凑近看花瓣是布的",
+      "chinese": [
+        "人造的",
+        "假的",
+        "做作的"
+      ],
+      "examples": [
+        "The lake is entirely artificial.",
+        "Her smile looked artificial to me."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "人造的：人靠手艺做出来的",
+        "假的：做出来充作真的那一种",
+        "做作的：神情也是做出来的，不自然"
+      ],
+      "recall_hint": "arti（手艺）+ fic（做）→ 靠手艺做出来，不是自然长的"
+    },
+    {
+      "id": "cognitive",
+      "word": "cognitive",
+      "pos": "adjective",
+      "phonetic": "/ˈkɒɡnətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "co-（com- 完全）+ gnit（gnoscere 认得出）+ -ive → 与认得出这是什么有关的",
+      "origin": "中世纪拉丁语 cognitivus ← 拉丁语 cognitus（认得的），cognoscere 的过去分词：com-（完全）+ gnoscere（认下来）",
+      "native_definition": "relating to thinking, knowing, and understanding",
+      "core_concept": "to do with coming to know a thing – 与认得出这是什么有关",
+      "core_image": "孩子把三角块对着孔转了两下，忽然找准了角度塞进去",
+      "chinese": [
+        "认知的",
+        "认识的"
+      ],
+      "examples": [
+        "Poor sleep affects cognitive performance badly.",
+        "The test measures basic cognitive skills."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "认知的：与辨认、知道这一过程有关",
+        "认识的：偏指获得知识那一面"
+      ],
+      "recall_hint": "co-（完全）+ gnit（认得出）+ -ive → 与认得出这是什么有关"
+    },
+    {
+      "id": "depict",
+      "word": "depict",
+      "pos": "verb",
+      "phonetic": "/dɪˈpɪkt/",
+      "decomposable": "root",
+      "root_ids": [
+        "pingere"
+      ],
+      "root_logic": "de-（彻底）+ pict（pingere 涂色）→ 一笔笔敷上去，把那样东西现出来",
+      "origin": "拉丁语 depictus，depingere 的过去分词：de-（彻底）+ pingere（涂画）",
+      "native_definition": "to show or describe something in words or pictures",
+      "core_concept": "laying colour on until the thing shows – 一笔笔敷上去，把那样东西现出来",
+      "core_image": "他在纸上把那条街一笔笔画出来，连门口的台阶都对得上",
+      "chinese": [
+        "描绘",
+        "描写"
+      ],
+      "examples": [
+        "The painting depicts a winter market.",
+        "The novel depicts life after the war."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "描绘：用画把它现出来",
+        "描写：改用文字，一样是一笔笔现出来"
+      ],
+      "recall_hint": "de-（彻底）+ pict（涂色）→ 一笔笔敷上去把它现出来"
+    },
+    {
+      "id": "appropriate",
+      "word": "appropriate",
+      "pos": "adjective / verb",
+      "phonetic": "/əˈprəʊpriət/",
+      "decomposable": "root",
+      "root_ids": [
+        "proprius"
+      ],
+      "root_logic": "ap-（ad- 朝）+ propri（proprius 专属的）+ -ate → 对上这一处专该有的那一种；作动词则是划归专有",
+      "origin": "晚期拉丁语 appropriatus ← appropriare：ad-（朝）+ proprius（自己的、专属的）",
+      "native_definition": "suitable for a situation; also to take something for one own use",
+      "core_concept": "matched to what this case properly calls for – 对上这一处专该有的那一种",
+      "core_image": "婚礼上他换了那身深色衣服，前一件太花，对不上场面",
+      "chinese": [
+        "适当的",
+        "挪用",
+        "拨给"
+      ],
+      "examples": [
+        "That remark was not appropriate here.",
+        "The council appropriated funds for repairs."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "适当的：对上这场合专该有的那一种",
+        "挪用：把公家的东西划成自己专有的",
+        "拨给：把款项划归某一处专用"
+      ],
+      "recall_hint": "ap-（朝）+ propri（专属）+ -ate → 对上这处专该有的，或划归专有"
+    },
+    {
+      "id": "conquer",
+      "word": "conquer",
+      "pos": "verb",
+      "phonetic": "/ˈkɒŋkə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "quir"
+      ],
+      "root_logic": "con-（完全）+ quer（quaerere 寻求）→ 一路追索到底并把它拿下",
+      "origin": "古法语 conquerre ← 通俗拉丁语 conquaerere ← 拉丁语 conquirere：com-（完全）+ quaerere（寻求、搜求）",
+      "native_definition": "to take control of a place or people by force",
+      "core_concept": "seeking pressed all the way to taking control – 追索到底，把它拿到手里",
+      "core_image": "城门开了，旗子换成另一面，街上的人照新规矩过日子",
+      "chinese": [
+        "征服",
+        "攻克",
+        "克服"
+      ],
+      "examples": [
+        "Rome conquered most of the region.",
+        "She conquered her fear of water."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "征服：追索到底，把地方或人拿下",
+        "攻克：偏说攻下那一处的动作",
+        "克服：把困难当成要拿下的对象，一样追到底"
+      ],
+      "recall_hint": "con-（完全）+ quer（寻求）→ 追索到底并拿下"
+    },
+    {
+      "id": "distress",
+      "word": "distress",
+      "pos": "noun / verb",
+      "phonetic": "/dɪˈstres/",
+      "decomposable": "root",
+      "root_ids": [
+        "stringere"
+      ],
+      "root_logic": "di-（dis- 分开）+ stress（stringere 拉紧）→ 从两边往外扯紧，绞得动不了",
+      "origin": "古法语 destresse ← 通俗拉丁语 districtia ← 拉丁语 districtus，distringere 的过去分词：dis-（分开）+ stringere（拉紧）",
+      "native_definition": "great pain or worry; also serious trouble or danger",
+      "core_concept": "drawn tight from both sides until it hurts – 从两边扯紧，绞得难受",
+      "core_image": "绳子从两头往外拉，中间那段越收越细，人喘不上气",
+      "chinese": [
+        "痛苦",
+        "忧虑",
+        "困境"
+      ],
+      "examples": [
+        "The news caused her great distress.",
+        "A ship in distress sent up signals."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "痛苦：被绞紧那一下的感觉",
+        "忧虑：心里一直被拉着，松不开",
+        "困境：被绞在中间、出不来的处境"
+      ],
+      "collocations": [
+        "in distress —— 处于危难中，常说船只或人"
+      ],
+      "recall_hint": "di-（分开）+ stress（拉紧）→ 从两边扯紧、绞得出不来"
+    },
+    {
+      "id": "cash",
+      "word": "cash",
+      "pos": "noun / verb",
+      "phonetic": "/kæʃ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 caisse（钱箱）← 意大利语 cassa ← 拉丁语 capsa（箱、钱柜）；本项目未为 capsa 一支建根",
+      "native_definition": "money in the form of notes and coins",
+      "core_concept": "the money kept in the box – 箱格里放着的那些钱",
+      "core_image": "抽屉一拉开，里面按面值分格摆着一叠叠纸票和硬币",
+      "chinese": [
+        "现金",
+        "兑现"
+      ],
+      "examples": [
+        "He paid the whole bill in cash.",
+        "She cashed the cheque this morning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "现金：钱箱里放着的、当场付得出的那些",
+        "兑现：把票据换成箱里那种钱"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cup",
+      "word": "cup",
+      "pos": "noun",
+      "phonetic": "/kʌp/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cuppe ← 晚期拉丁语 cuppa（杯）；与表拿住的 capere 一支不同源",
+      "native_definition": "a small open container for drinking from",
+      "core_concept": "a small vessel held by its ear – 带一只耳、握着喝的小容器",
+      "core_image": "一只带耳的小容器，倒满热水后握着耳朵才不烫手",
+      "chinese": [
+        "杯子",
+        "一杯的量",
+        "奖杯"
+      ],
+      "examples": [
+        "She drank two cups of tea.",
+        "The team lifted the cup again."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "杯子：带耳的小容器本身",
+        "一杯的量：这容器装满时的那个量",
+        "奖杯：做成这形状、赢来摆着的那一只"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "adjacent",
+      "word": "adjacent",
+      "pos": "adjective",
+      "phonetic": "/əˈdʒeɪsnt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 adiacens，adiacere 的现在分词：ad-（朝）+ iacere（躺、卧）；此躺卧义的 iacere 与库中 jac 所据的投掷一支另有分别",
+      "native_definition": "next to or very near something else",
+      "core_concept": "lying right beside it – 就躺在它旁边",
+      "core_image": "两块地中间只隔一道矮墙，站在墙头能同时踩到两边",
+      "chinese": [
+        "邻近的",
+        "毗连的"
+      ],
+      "examples": [
+        "Their farm is adjacent to ours.",
+        "We booked two adjacent rooms."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "邻近的：位置就在旁边，不必挨着",
+        "毗连的：两边贴在一起、边界相接"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "adolescent",
+      "word": "adolescent",
+      "pos": "noun / adjective",
+      "phonetic": "/ˌædəˈlesnt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 adolescens，adolescere（长大成人）的现在分词：ad-（朝）+ alescere（得到养育）← alere（养育）",
+      "native_definition": "a young person developing from a child into an adult",
+      "core_concept": "one still growing toward full size – 还在往成人长的那个阶段",
+      "core_image": "校服袖子短了一截，说话时嗓音忽高忽低",
+      "chinese": [
+        "青少年",
+        "青春期的"
+      ],
+      "examples": [
+        "Adolescents need more sleep than adults.",
+        "He has an adolescent son."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "青少年：处在这一阶段的人",
+        "青春期的：形容这一阶段本身的样子"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "descent",
+      "word": "descent",
+      "pos": "noun",
+      "phonetic": "/dɪˈsent/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 descente ← descendre（下来）← 拉丁语 descendere：de-（向下）+ scandere（攀）",
+      "native_definition": "the act of going down, or a person family origins",
+      "core_concept": "coming down along a line – 顺着一条线往下来",
+      "core_image": "飞机开始压低，耳朵发闷，窗外的房子越来越大",
+      "chinese": [
+        "下降",
+        "斜坡",
+        "血统"
+      ],
+      "examples": [
+        "The plane began its descent to land.",
+        "She is of Irish descent."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "下降：位置顺线往下走",
+        "斜坡：往下走的那一面地",
+        "血统：顺着家系一代代往下传的那条线"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "command",
+      "word": "command",
+      "pos": "noun / verb",
+      "phonetic": "/kəˈmɑːnd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 comander ← 通俗拉丁语 commandare ← 拉丁语 commendare：com-（加强）+ mandare（托付、交办）",
+      "native_definition": "an order given with authority; to give such an order",
+      "core_concept": "a charge laid on someone to carry out – 把事交办下去，对方必得照办",
+      "core_image": "一句话落下，队列里几十个人同时抬脚，没人问为什么",
+      "chinese": [
+        "命令",
+        "指挥",
+        "掌握"
+      ],
+      "examples": [
+        "The captain gave a sharp command.",
+        "She commands three hundred soldiers."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "命令：交办下去、必须照办的那句话",
+        "指挥：一直这样交办、统领全局",
+        "掌握：对一门本事像对部下那样使得动"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "commend",
+      "word": "commend",
+      "pos": "verb",
+      "phonetic": "/kəˈmend/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 commendare：com-（加强）+ mandare（托付）；与 command 出自同一个词的两支",
+      "native_definition": "to praise someone formally, or to entrust something to someone",
+      "core_concept": "entrusting a thing, and so speaking well of it – 把它交托出去，因而替它说好话",
+      "core_image": "名单念到他时多说了一句，全场的手都停下来看他",
+      "chinese": [
+        "赞扬",
+        "推荐",
+        "托付"
+      ],
+      "examples": [
+        "The judge commended her for honesty.",
+        "He commended the child to her care."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "托付：把人或事交到别人手上",
+        "推荐：把人交托给用人的一方，说他可用",
+        "赞扬：当众替他说好话"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "eminent",
+      "word": "eminent",
+      "pos": "adjective",
+      "phonetic": "/ˈemɪnənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 eminens，eminere（凸出、高过四周）的现在分词：ex-（出）+ -minere（凸起，与 mons 山同支）",
+      "native_definition": "famous and respected within a particular field",
+      "core_concept": "standing out above the rest – 从一片里凸出来、高过旁人",
+      "core_image": "一群人站在坡上，只有一个人的头明显高出旁人一截",
+      "chinese": [
+        "杰出的",
+        "著名的"
+      ],
+      "examples": [
+        "She is an eminent heart surgeon.",
+        "He holds an eminent position there."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "杰出的：本事高出同行一截",
+        "著名的：因为高出，远处也看得见"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "device",
+      "word": "device",
+      "pos": "noun",
+      "phonetic": "/dɪˈvaɪs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 devis ← 通俗拉丁语 divisare ← 拉丁语 dividere（分开）；本义是把一件事分成可办的几步的那个法子",
+      "native_definition": "a piece of equipment made for a particular purpose",
+      "core_concept": "the way a task is divided into workable parts – 把事分成可办的几部分的那个法子",
+      "core_image": "巴掌大的一个盒子，按一下就替人量出体温",
+      "chinese": [
+        "装置",
+        "设备",
+        "手段"
+      ],
+      "examples": [
+        "This device measures air quality well.",
+        "He used every device to delay us."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "装置：按这法子做出来的那件小东西",
+        "设备：成套、固定装好的那一批",
+        "手段：为达成目的分步安排出来的那个法子"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "devise",
+      "word": "devise",
+      "pos": "verb",
+      "phonetic": "/dɪˈvaɪz/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 deviser（分派、安排）← 通俗拉丁语 divisare ← 拉丁语 dividere（分开）",
+      "native_definition": "to plan or invent something by careful thought",
+      "core_concept": "planning by dividing the whole into parts – 把整件事分开来安排",
+      "core_image": "他把大问题拆成三小块，各配一张纸，办法就出来了",
+      "chinese": [
+        "想出",
+        "设计",
+        "筹划"
+      ],
+      "examples": [
+        "They devised a cheaper way to build.",
+        "She devised a test for new drivers."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "想出：把难处分开来看，法子就现出来",
+        "设计：把法子排成图纸或方案",
+        "筹划：分步安排、一步步落实"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "division",
+      "word": "division",
+      "pos": "noun",
+      "phonetic": "/dɪˈvɪʒn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 divisio ← dividere（分开）的过去分词 divisus",
+      "native_definition": "the act of splitting into parts, or one of those parts",
+      "core_concept": "the splitting, and each piece it makes – 分开这件事，以及分出的每一块",
+      "core_image": "一块蛋糕切成四份，刀痕清清楚楚，谁也不多拿",
+      "chinese": [
+        "划分",
+        "部门",
+        "分歧"
+      ],
+      "examples": [
+        "The division of land caused long arguments.",
+        "She works in the sales division."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "划分：把整块分成几份这件事",
+        "部门：机构里分出来的一块",
+        "分歧：人也被分成几边，各站一处"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "disperse",
+      "word": "disperse",
+      "pos": "verb",
+      "phonetic": "/dɪˈspɜːs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 dispersus，dispergere 的过去分词：dis-（四散）+ spargere（撒、播）",
+      "native_definition": "to scatter in different directions, or make something scatter",
+      "core_concept": "thrown out so it lands all over – 撒出去，四处落开",
+      "core_image": "一把谷子扬出去，风一吹落得满地都是，捡不回来",
+      "chinese": [
+        "分散",
+        "驱散",
+        "散布"
+      ],
+      "examples": [
+        "Police dispersed the crowd within minutes.",
+        "Seeds disperse easily in strong wind."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "分散：原来聚在一处的各自散开",
+        "驱散：外力使聚着的散开",
+        "散布：把东西撒得各处都有"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "apparatus",
+      "word": "apparatus",
+      "pos": "noun",
+      "phonetic": "/ˌæpəˈreɪtəs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 apparatus（备齐的器具）← apparare：ad-（朝）+ parare（备妥）",
+      "native_definition": "a set of equipment used for a particular purpose",
+      "core_concept": "everything got ready for the job – 为这件事备齐的那一整套",
+      "core_image": "实验台上玻璃管、夹子、酒精灯照顺序摆好，一开火就能用",
+      "chinese": [
+        "器械",
+        "设备",
+        "机构"
+      ],
+      "examples": [
+        "The lab bought new breathing apparatus.",
+        "The state apparatus works very slowly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "器械：备齐待用的那些具体家伙",
+        "设备：成套装好、供长期用的那一批",
+        "机构：一套备齐、各就各位的人事安排"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "epidemic",
+      "word": "epidemic",
+      "pos": "noun / adjective",
+      "phonetic": "/ˌepɪˈdemɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 epidemia（落到民众头上的病）：epi-（在其上）+ demos（民众）",
+      "native_definition": "a disease spreading quickly among many people",
+      "core_concept": "something come down upon a whole population – 落到整片人头上的那种东西",
+      "core_image": "一周之内，同一条街上三十户人家都发起烧来",
+      "chinese": [
+        "流行病",
+        "流行的"
+      ],
+      "examples": [
+        "The epidemic spread through six villages.",
+        "Smoking was once an epidemic habit."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "流行病：落到一整片人头上的病",
+        "流行的：泛指某事在人群中这样铺开"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "dissipate",
+      "word": "dissipate",
+      "pos": "verb",
+      "phonetic": "/ˈdɪsɪpeɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 dissipatus，dissipare 的过去分词：dis-（四散）+ supare（抛撒）",
+      "native_definition": "to gradually disappear, or to waste something",
+      "core_concept": "flung apart until nothing holds together – 抛撒开去，散到不成一处",
+      "core_image": "烟从杯口升上去，越飘越薄，抬头时天花板已经看不见它",
+      "chinese": [
+        "消散",
+        "挥霍"
+      ],
+      "examples": [
+        "The morning fog dissipated by noon.",
+        "He dissipated his savings in a year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "消散：聚着的东西散开、渐渐没了",
+        "挥霍：把钱财像抛撒一样散掉"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "must",
+      "word": "must",
+      "pos": "verb",
+      "phonetic": "/mʌst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mōste，情态动词 mōtan（可以、得以）的过去式；中古英语起改作现在时用",
+      "native_definition": "used to say that something is necessary or very likely",
+      "core_concept": "no way around it – 绕不开，只能这样",
+      "core_image": "表针指着七点，外套还搭在椅背上，他抓起来就往门口走",
+      "chinese": [
+        "必须",
+        "务必",
+        "一定"
+      ],
+      "examples": [
+        "You must show your ticket here.",
+        "She must be waiting outside now."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "必须：事情绕不开，非做不可",
+        "务必：把这种绕不开当叮嘱说出来",
+        "一定：改说推断，别的可能都被排掉"
+      ],
+      "collocations": [
+        "must do sth —— 必须做某事，说义务或强要求",
+        "must have done sth —— 一定已经做过，对过去的推断",
+        "mustn't do sth —— 禁止做某事，不表「不必」",
+        "must be doing sth —— 想必正在做，对此刻的推断"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "dessert",
+      "word": "dessert",
+      "pos": "noun",
+      "phonetic": "/dɪˈzɜːt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 dessert ← desservir（撤下餐桌）：des-（撤去）+ servir（伺候上菜）；与库中 serv 所据的 servare（保存）不同源",
+      "native_definition": "sweet food eaten at the end of a meal",
+      "core_concept": "what comes after the table is cleared – 桌子撤过之后端上来的那一道",
+      "core_image": "主菜的盘子撤走了，桌上换上一小碟冰凉的甜东西",
+      "chinese": [
+        "甜点",
+        "餐后甜食"
+      ],
+      "examples": [
+        "We had ice cream for dessert.",
+        "She skipped dessert to stay slim."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "甜点：撤过桌后端上的那一小碟",
+        "餐后甜食：同一样东西，强调它在饭后那个位置"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "contemplate",
+      "word": "contemplate",
+      "pos": "verb",
+      "phonetic": "/ˈkɒntəmpleɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 contemplari（划出一片天地凝视）的过去分词 contemplatus：com-（加强）+ templum（占卜时划出的观测区）",
+      "native_definition": "to think about something carefully for a long time",
+      "core_concept": "marking off a space and gazing into it – 划出一片来，久久盯着看",
+      "core_image": "他在窗前站了很久，眼睛盯着院里那棵树，一句话没说",
+      "chinese": [
+        "沉思",
+        "考虑",
+        "打算"
+      ],
+      "examples": [
+        "She contemplated the offer for days.",
+        "He sat contemplating the empty road."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "沉思：把注意力圈在一处久久地看",
+        "考虑：这样看着一件事的利弊",
+        "打算：看过之后有了要做的念头"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "aesthetic",
+      "word": "aesthetic",
+      "pos": "adjective / noun",
+      "phonetic": "/iːsˈθetɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "德语 ästhetisch ← 希腊语 aisthetikos（感觉得到的）← aisthanesthai（感知）",
+      "native_definition": "concerned with beauty and the appreciation of beauty",
+      "core_concept": "to do with what the senses find pleasing – 与感官觉得好看这件事有关",
+      "core_image": "两张桌子摆法一样，只有一张让人想多看两眼，说不出为什么",
+      "chinese": [
+        "审美的",
+        "美学的",
+        "美感"
+      ],
+      "examples": [
+        "The building has real aesthetic value.",
+        "Her aesthetic differs sharply from mine."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "审美的：与判断好看不好看有关",
+        "美学的：把这种判断当成一门学问",
+        "美感：看着舒服的那种感觉本身"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cap",
+      "word": "cap",
+      "pos": "noun",
+      "phonetic": "/kæp/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 cæppe（头巾、带帽斗篷）← 晚期拉丁语 cappa（带帽斗篷）；cappa 更早词源不明，或为 capitulare（头饰）的截短，无定论，故不属 caput 族",
+      "native_definition": "a soft close-fitting head covering, or a small lid that closes the end of something",
+      "core_concept": "a covering that fits over the top – 扣在顶上的那一层",
+      "core_image": "一片软布贴着头顶扣下来，前面伸出小檐挡太阳；瓶口那个小圆盖也这么扣上",
+      "chinese": [
+        "帽子",
+        "盖子",
+        "上限"
+      ],
+      "examples": [
+        "He wore a blue cap to keep off the sun.",
+        "Screw the cap back on the bottle tightly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "帽子：扣在头顶的那块软布，前面常带檐",
+        "盖子：同一个动作用在瓶口罐口，扣上去把开口封住",
+        "上限：把数目扣在一个高度上，再往上就不许走了"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "cape",
+      "word": "cape",
+      "pos": "noun",
+      "phonetic": "/keɪp/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "cap（caput 头、伸出的顶端）→ 陆地伸进海里的那个头",
+      "origin": "古法语 cap（岬、头）← 拉丁语 caput（头、居首之处）；另一义「披在肩上的那件」来自晚期拉丁语 cappa（带帽斗篷），与 caput 是两个不同的词",
+      "native_definition": "a piece of land that sticks out into the sea, or a sleeveless outer garment hanging from the shoulders",
+      "core_concept": "land jutting out like a head – 像头一样探出去的陆地",
+      "core_image": "海图上那一块陆地直直探进水里，浪从三面绕过它的尖端",
+      "chinese": [
+        "海角",
+        "岬",
+        "斗篷"
+      ],
+      "examples": [
+        "The ship rounded the cape before dawn.",
+        "She fastened a black cape over her shoulders."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "海角：陆地探进海里的那一段尖端",
+        "岬：同一处地形的书面说法，测绘与航海图上常用",
+        "斗篷：另一支词源，指从肩上垂下来的无袖外衣"
+      ]
+    },
+    {
+      "id": "captain",
+      "word": "captain",
+      "pos": "noun",
+      "phonetic": "/ˈkæptɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "capt（caput 头）+ -ain（人）→ 一群人里领头的那个",
+      "origin": "古法语 capitain ← 晚期拉丁语 capitaneus（为首的）← 拉丁语 caput（头、居首之处）",
+      "native_definition": "the person in charge of a ship, aircraft, or team",
+      "core_concept": "the one at the head of a group – 站在一群人最前头的那个",
+      "core_image": "甲板最高处站着一个人，别人都等他抬手，船头往哪边转由他一句话定",
+      "chinese": [
+        "船长",
+        "队长",
+        "上尉"
+      ],
+      "examples": [
+        "The captain ordered the crew to lower the sails.",
+        "She was made captain of the school team."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "船长：船上说话最后算数的那个人",
+        "队长：把这个位置搬到球队里，带头的那一个",
+        "上尉：军中的一级职衔，管着一队人"
+      ]
+    },
+    {
+      "id": "chapter",
+      "word": "chapter",
+      "pos": "noun",
+      "phonetic": "/ˈtʃæptə/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "chapt（capitulum 小头 ← caput 头）+ -er → 一本书里分出来的一个小头",
+      "origin": "古法语 chapitre ← 晚期拉丁语 capitulum（小标题，字面「小头」）← 拉丁语 caput（头）",
+      "native_definition": "one of the main divided parts of a book",
+      "core_concept": "a section headed off on its own – 单独起一个头的那一段",
+      "core_image": "翻到新的一页，上头单起一行印着大一号的数字，底下的字才接着往下走",
+      "chinese": [
+        "章",
+        "章节",
+        "时期"
+      ],
+      "examples": [
+        "I read the first three chapters last night.",
+        "This opens a new chapter in her life."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "章：书里划出来的一大段，各自起头",
+        "章节：同一样东西的合称，说文本结构时用",
+        "时期：把书的分段挪到人生上，一段有头有尾的日子"
+      ]
+    },
+    {
+      "id": "contact",
+      "word": "contact",
+      "pos": "noun / verb",
+      "phonetic": "/ˈkɒntækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tangere"
+      ],
+      "root_logic": "con-（一同）+ tact（tangere 触）→ 两样东西挨到一处",
+      "origin": "拉丁语 contactus（碰到）← contingere：com-（一同）+ tangere（触、碰到）",
+      "native_definition": "the state of touching, or communication between people",
+      "core_concept": "two things brought to touch – 两样东西碰到一处",
+      "core_image": "两根铜线的头搭到一处，灯就亮了；一分开，灯又灭掉",
+      "chinese": [
+        "接触",
+        "联系",
+        "联系人"
+      ],
+      "examples": [
+        "The two wires must not come into contact.",
+        "I lost contact with him after school."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "接触：实实在在挨上，中间没有隔开的那点距离",
+        "联系：把这个挨上搬到人身上，消息能通到对方",
+        "联系人：能替你通上话的那个人，名单里的一条"
+      ],
+      "collocations": [
+        "come into contact with sth —— 与某物接触上，强调碰上的那一刻",
+        "keep / lose contact with sb —— 与某人保持、失去联系，介词固定用 with",
+        "make contact with sb —— 与某人建立联系，重在把线接通"
+      ]
+    },
+    {
+      "id": "distinct",
+      "word": "distinct",
+      "pos": "adjective",
+      "phonetic": "/dɪˈstɪŋkt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 distinctus ← distinguere：dis-（分开）+ stinguere（刺、扎）→ 用扎点的办法把界分开；与 tangere（触）无关，本项目未为 stinguere 族建根",
+      "native_definition": "clearly different from something else, or easy to see and hear",
+      "core_concept": "marked off so the border shows – 界被划开，分得出彼此",
+      "core_image": "两块布并排摆着，一块偏灰一块偏蓝，隔着两米也不会拿错",
+      "chinese": [
+        "不同的",
+        "明显的",
+        "清晰的"
+      ],
+      "examples": [
+        "These two species are quite distinct.",
+        "We heard a distinct knock at the door."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "不同的：两样东西之间有一道界，不会混作一谈",
+        "明显的：那道界够清楚，一眼就看得出",
+        "清晰的：说声音与轮廓时，边缘不含糊"
+      ],
+      "collocations": [
+        "be distinct from sth —— 与某物不同，介词用 from，不用 with",
+        "as distinct from sth —— 区别于某物，用来把两者摆开对照"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "distinction",
+      "word": "distinction",
+      "pos": "noun",
+      "phonetic": "/dɪˈstɪŋkʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 distinctio（划分、区别）← distinguere：dis-（分开）+ stinguere（刺、扎）；与 tangere（触）无关，本项目未为 stinguere 族建根",
+      "native_definition": "a clear difference between things, or special honour given for excellence",
+      "core_concept": "the line drawn between two things – 在两样东西之间划出的那道界",
+      "core_image": "两只碗摆在桌上，讲的人指着说这只与那只不是一路，界在哪儿他划得出来",
+      "chinese": [
+        "区别",
+        "差别",
+        "荣誉"
+      ],
+      "examples": [
+        "There is a clear distinction between the two terms.",
+        "He graduated with distinction last summer."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "区别：两样东西之间的那道界本身",
+        "差别：同一道界说得松一点，指彼此不一样的地方",
+        "荣誉：被单独划出来的那一份，指高出一般的评价"
+      ],
+      "collocations": [
+        "make / draw a distinction between A and B —— 在两者之间作出区分，between 后接两项",
+        "with distinction —— 以优异成绩、表现出色，学位与军功上都这么说"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "distinguish",
+      "word": "distinguish",
+      "pos": "verb",
+      "phonetic": "/dɪˈstɪŋɡwɪʃ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 distinguere：dis-（分开）+ stinguere（刺、扎）→ 用扎点的办法把界分开；与 tangere（触）无关，本项目未为 stinguere 族建根",
+      "native_definition": "to recognize the difference between things, or to make oneself notable",
+      "core_concept": "picking apart what looks alike – 把看着一样的挑开",
+      "core_image": "把两枚硬币凑到灯下翻来翻去，边齿差半道，假的那枚被挑到一边",
+      "chinese": [
+        "区分",
+        "辨别",
+        "使出众"
+      ],
+      "examples": [
+        "Can you distinguish butter from margarine?",
+        "He distinguished himself in the final match."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "区分：在两样相似的东西之间把界找出来",
+        "辨别：偏在感官上，看出听出哪个是哪个",
+        "使出众：把自己从一群人里挑出来，做到别人记得住"
+      ],
+      "collocations": [
+        "distinguish A from B —— 把 A 与 B 区分开，from 后是被撇开的那一项",
+        "distinguish between A and B —— 在两者之间加以区别，between 后接两项",
+        "distinguish oneself —— 使自己出众，宾语必须是反身代词"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "collection",
+      "word": "collection",
+      "pos": "noun",
+      "phonetic": "/kəˈlekʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "legere"
+      ],
+      "root_logic": "col-（一同）+ lect（legere 拾取、挑选）+ -ion → 一件件挑起来收拢到一处",
+      "origin": "拉丁语 collectio（收拢）← colligere：com-（一同）+ legere（拾取、挑选）",
+      "native_definition": "a group of things gathered together, or the act of gathering them",
+      "core_concept": "things picked up one by one into one place – 一件件捡拢到一处的那些东西",
+      "core_image": "玻璃柜里一排小盒，每个底下贴张标签，写着哪一年从哪儿捡回来的",
+      "chinese": [
+        "收藏品",
+        "收集",
+        "募捐"
+      ],
+      "examples": [
+        "His stamp collection fills three albums.",
+        "Rubbish collection happens every Tuesday."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "收藏品：捡拢起来摆在一处的那批东西",
+        "收集：这个捡拢的动作本身，也指定期上门取走",
+        "募捐：把各人手里的钱一份份收拢，凑成一笔"
+      ]
+    },
+    {
+      "id": "complex",
+      "word": "complex",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈkɒmpleks/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "com-（一同）+ plex（plectere 编织，与 plicare 折叠同支）→ 多根线绞到一处，拆不开",
+      "origin": "拉丁语 complexus（缠绕在一起）← complecti：com-（一同）+ plectere（编、绞）；plectere 与 plicare（折叠）同出一支，本项目并入 plic 根，与 legere（拾取）无关",
+      "native_definition": "made of many connected parts and therefore hard to understand, or a group of joined buildings",
+      "core_concept": "many strands twisted into one – 多股绞成一团，牵一处动全身",
+      "core_image": "一把线头绞在一起，拽哪一根都牵动别的几根，想抽出一根得先看清它绕过谁",
+      "chinese": [
+        "复杂的",
+        "综合体",
+        "情结"
+      ],
+      "examples": [
+        "The tax rules are far too complex.",
+        "They built a large sports complex nearby."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "复杂的：里头的部分互相牵连，看不到头绪",
+        "综合体：几处连在一起合用的建筑，当一整片算",
+        "情结：心里几样情绪绞在一处，解不开的那一团"
+      ]
+    },
+    {
+      "id": "dialect",
+      "word": "dialect",
+      "pos": "noun",
+      "phonetic": "/ˈdaɪəlekt/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "dia-（来回、之间）+ lect（legein 说，logos 同支）→ 一地人来回对着说的那套话",
+      "origin": "希腊语 dialektos（说话的方式）← dialegesthai：dia-（来回）+ legein（说）；希腊语 legein 与拉丁语 legere（拾取）虽同出印欧一源，本项目不合并，legein 一支归 logos",
+      "native_definition": "a form of a language spoken in one area or by one group",
+      "core_concept": "the way one place speaks among itself – 一处地方自己人之间那套说法",
+      "core_image": "隔着一道山，同一样青菜两边叫出来是两个音，外人听着能懂七成",
+      "chinese": [
+        "方言",
+        "土话"
+      ],
+      "examples": [
+        "She still speaks the dialect of her village.",
+        "Many local dialects are slowly dying out."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "方言：一地或一群人自己用的那套语音与说法",
+        "土话：同一样东西说得随口些，偏指与通用话拉开距离的那部分"
+      ]
+    },
+    {
+      "id": "artery",
+      "word": "artery",
+      "pos": "noun",
+      "phonetic": "/ˈɑːtəri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 arteria ← 希腊语 arteria（气管，也指动脉）；或与 aeirein（举起）相关，更早词源不明，与拉丁语的对照级构词法无关",
+      "native_definition": "a thick tube carrying blood away from the heart, or a main route for traffic",
+      "core_concept": "a thick tube feeding outward from the centre – 从中心往外送的那根粗管",
+      "core_image": "剖面上那根管壁厚得能立住，血从心口这头一鼓一鼓往外送，越往前分得越细",
+      "chinese": [
+        "动脉",
+        "干道"
+      ],
+      "examples": [
+        "The surgeon repaired a damaged artery.",
+        "This road is the city's main artery."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "动脉：把血从心口往外送的那种厚壁血管",
+        "干道：把同一个走向搬到城里，车流从这条主路往各处分"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "characterize",
+      "word": "characterize",
+      "pos": "verb",
+      "phonetic": "/ˈkærəktəraɪz/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 kharakterizein（以特征标出）← kharakter（刻下的印记）← kharassein（刻、划）← kharax（尖桩）；kharax 更早词源不明，与拉丁语的对照级构词法无关",
+      "native_definition": "to describe the typical qualities of someone or something, or to be typical of it",
+      "core_concept": "cutting the mark that tells a thing apart – 划下那道认得出它的记号",
+      "core_image": "尖头在软泥上划三道，别人一见这三道就知道是谁家的记号",
+      "chinese": [
+        "描述",
+        "表现为",
+        "是…的特征"
+      ],
+      "examples": [
+        "How would you characterize his early work?",
+        "Heavy rain characterizes the summer here."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "描述：把一样东西身上认得出的那几点说出来",
+        "表现为：把话头转过来，说这东西显出的正是那几点",
+        "是…的特征：那道记号本身就代表这样东西"
+      ],
+      "collocations": [
+        "be characterized by sth —— 以某特征为标志，被动式把被描述的那样东西作主语"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "comparative",
+      "word": "comparative",
+      "pos": "adjective / noun",
+      "phonetic": "/kəmˈpærətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "par-equal"
+      ],
+      "root_logic": "com-（一同）+ par（par 相等）+ -ative → 把两样摆到一处比高下",
+      "origin": "拉丁语 comparativus ← comparare：com-（一同）+ par（相等、对等）→ 使两者对等摆开来看；与拉丁语的对照级构词法只是碰巧都表「相比」",
+      "native_definition": "measured by comparing with something else, or the form of an adjective showing more",
+      "core_concept": "judged only by setting two side by side – 两样并排摆开才断得出的",
+      "core_image": "两只苹果并排放在秤盘两边，指针偏向哪边才说得出哪个沉",
+      "chinese": [
+        "比较的",
+        "相对的",
+        "比较级"
+      ],
+      "examples": [
+        "They live in comparative comfort now.",
+        "The comparative of good is better."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "比较的：结论要靠两样摆到一处才得出",
+        "相对的：不是绝对如此，是与别的一比才这么说",
+        "比较级：语法上表示「更…」的那个形式"
+      ]
+    },
+    {
+      "id": "equip",
+      "word": "equip",
+      "pos": "verb",
+      "phonetic": "/ɪˈkwɪp/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 esquiper（备船、装载）← 古诺斯语 skipa（安排、把船配齐）← skip（船）；拼写像拉丁语 aequus（相等）而与之无关",
+      "native_definition": "to supply someone or something with the things needed for a purpose",
+      "core_concept": "fitting out a ship with all it needs – 把船该带的一样样配齐",
+      "core_image": "出海前往甲板上一样样搬：缆绳、水桶、干粮，各归各位，少一样就不开船",
+      "chinese": [
+        "装备",
+        "配备",
+        "使有能力"
+      ],
+      "examples": [
+        "The lab is equipped with new microscopes.",
+        "Training equips them to handle emergencies."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "装备：把该有的东西一件件配上去",
+        "配备：同一个动作说得平实些，指按用处给足家当",
+        "使有能力：把配齐的东西换成本事，人被配上了应付某事的底子"
+      ],
+      "collocations": [
+        "be equipped with sth —— 配备有某物，介词固定用 with",
+        "equip sb to do sth —— 使某人有能力做某事，接不定式"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "equipment",
+      "word": "equipment",
+      "pos": "noun",
+      "phonetic": "/ɪˈkwɪpmənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 equip + -ment；equip ← 古法语 esquiper（备船）← 古诺斯语 skipa（安排、把船配齐）；与拉丁语 aequus（相等）无关",
+      "native_definition": "the things needed for a particular purpose, taken together",
+      "core_concept": "the fitted-out set a job needs – 一件事该配齐的那一套家当",
+      "core_image": "墙上挂钩一排排挂着安全帽、护目镜、卷尺，取走一件就空出一个钩",
+      "chinese": [
+        "设备",
+        "装备",
+        "器材"
+      ],
+      "examples": [
+        "The kitchen equipment is all new.",
+        "Climbers must check their equipment carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "设备：为某个用处备下的成套东西，多指较大件",
+        "装备：随身带走的那一套，人身上背着的",
+        "器材：某项活动专用的那些件，体育与摄影上常这么说"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "auction",
+      "word": "auction",
+      "pos": "noun / verb",
+      "phonetic": "/ˈɔːkʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "augere-auctor"
+      ],
+      "root_logic": "auct（auctus，augere 增长的过去分词）+ -ion → 价一层层往上加的那场买卖",
+      "origin": "拉丁语 auctio（增加、拍卖）← auctus，augere（增长、使兴旺）的过去分词",
+      "native_definition": "a public sale where things go to whoever offers the most",
+      "core_concept": "a sale where the price keeps climbing – 价一路往上加的那场买卖",
+      "core_image": "台上举起一只花瓶，底下的手一轮轮抬起来，报出的数一次比一次高",
+      "chinese": [
+        "拍卖",
+        "拍卖会"
+      ],
+      "examples": [
+        "The painting was sold at auction last week.",
+        "They plan to auction the old furniture."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "拍卖：出价一层层往上加，最后归叫得最高的那个人",
+        "拍卖会：这件事办成一场，有场地有时间的那一次"
+      ],
+      "collocations": [
+        "at auction —— 在拍卖会上，不加冠词",
+        "auction sth off —— 把某物拍卖掉，off 表处理干净"
+      ]
+    },
+    {
+      "id": "auxiliary",
+      "word": "auxiliary",
+      "pos": "adjective / noun",
+      "phonetic": "/ɔːɡˈzɪliəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "augere-auctor"
+      ],
+      "root_logic": "auxil（auxilium 援助，与 auctus、augere 增长同支）+ -ary → 添上去的那份力",
+      "origin": "拉丁语 auxiliaris（辅助的）← auxilium（援助）；auxilium 与 auctus 相关，同出 augere（增长、使兴旺）那一支——援手就是加上去的那份力量",
+      "native_definition": "giving extra help or support, or a person or thing that does so",
+      "core_concept": "the added strength that backs the main one – 添在主力旁边帮着使劲的那份力",
+      "core_image": "医院墙角那台备用发电机平时不出声，主电一停就接上，灯只暗了半秒",
+      "chinese": [
+        "辅助的",
+        "备用的",
+        "助手"
+      ],
+      "examples": [
+        "The ship has an auxiliary engine.",
+        "Nursing auxiliaries help on the wards."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "辅助的：不当主力，添在旁边帮着使劲",
+        "备用的：平时闲着，主力停了才顶上",
+        "助手：干这件事的那个人，跟着主事的做"
+      ]
+    },
+    {
+      "id": "accessory",
+      "word": "accessory",
+      "pos": "noun / adjective",
+      "phonetic": "/əkˈsesəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "ac-（朝向）+ cess（cedere 行走、让出）+ -ory → 跟着走到主件旁边的那样东西",
+      "origin": "拉丁语 accessorius（附加的）← accedere：ad-（朝向）+ cedere（行走）→ 走到旁边添上的",
+      "native_definition": "an extra thing added to something more important, or someone who helps in a crime",
+      "core_concept": "what walks up alongside the main thing – 走到主件旁边添上的那样",
+      "core_image": "车买好了，销售又推来一摞：脚垫、挂钩、遮阳板，装不装车都能开",
+      "chinese": [
+        "配件",
+        "饰品",
+        "从犯"
+      ],
+      "examples": [
+        "The camera comes with several accessories.",
+        "He was charged as an accessory to the robbery."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "配件：添在主件旁边的零件，缺了主件照用",
+        "饰品：添在衣着上的那些小件，帽子围巾之类",
+        "从犯：跟在主犯旁边搭手的那个人"
+      ],
+      "collocations": [
+        "accessory to sth —— 某罪的从犯，法律用语，介词固定用 to"
+      ]
+    },
+    {
+      "id": "cease",
+      "word": "cease",
+      "pos": "verb",
+      "phonetic": "/siːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "ced"
+      ],
+      "root_logic": "cease（cessare ← cedere 行走、让出）→ 往后让开，不再往前走",
+      "origin": "古法语 cesser ← 拉丁语 cessare（停下、松劲）← cedere（行走、让出）",
+      "native_definition": "to stop happening or to stop doing something",
+      "core_concept": "drawing back until the motion stops – 往后退开，动作到此为止",
+      "core_image": "机器的响声一层层退下去，最后一下轻响之后，车间里只剩风扇的余音",
+      "chinese": [
+        "停止",
+        "终止"
+      ],
+      "examples": [
+        "The rain ceased before dawn.",
+        "The company ceased trading last year."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "停止：正在走的事往回收，收到不再进行",
+        "终止：偏在正式场合，一项安排到此不再延续"
+      ],
+      "collocations": [
+        "cease to do sth —— 不再做某事，接不定式偏正式",
+        "cease doing sth —— 停止做某事，接动名词，与不定式相近",
+        "without cease —— 不停地，固定短语，不加冠词"
+      ]
+    },
+    {
+      "id": "crisis",
+      "word": "crisis",
+      "pos": "noun",
+      "phonetic": "/ˈkraɪsɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "crit"
+      ],
+      "root_logic": "cris（krinein 判别、裁断）+ -is → 到了非判出一个结果不可的那一刻",
+      "origin": "希腊语 krisis（决断、转折）← krinein（判别、裁断）；医学上原指病势到了定生死的那一天",
+      "native_definition": "a time of great difficulty or danger when decisions must be made",
+      "core_concept": "the moment a thing must be decided one way or the other – 非判出个结果不可的那一刻",
+      "core_image": "病床边的曲线一路爬到最高那一格，医生盯着表说过了今晚就好办",
+      "chinese": [
+        "危机",
+        "紧要关头"
+      ],
+      "examples": [
+        "The country faces a serious economic crisis.",
+        "She stayed calm throughout the crisis."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "危机：事情坏到得马上决断的那一段",
+        "紧要关头：同一时刻不带凶险色彩的说法，指转折就在这里"
+      ]
+    },
+    {
+      "id": "crisp",
+      "word": "crisp",
+      "pos": "adjective",
+      "phonetic": "/krɪsp/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 crisp（卷的、皱的）← 拉丁语 crispus（卷曲、起皱）；与希腊语 krinein（判别）无关，本项目未为 crispus 族建根",
+      "native_definition": "hard and dry so that it breaks with a sharp sound, or fresh and sharply clear",
+      "core_concept": "dry enough to snap with a clean sound – 干到一掰就脆响着断开",
+      "core_image": "咬下去咔一声断在齿间，碎渣掉到盘子上还听得见响",
+      "chinese": [
+        "脆的",
+        "清新的",
+        "干脆的"
+      ],
+      "examples": [
+        "The pastry was light and crisp.",
+        "We walked out into the crisp morning air."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "脆的：一咬一掰就断，断口干净有声",
+        "清新的：把这份干爽挪到空气上，凉而不潮",
+        "干脆的：说话办事像那声断响，短而利落，不拖"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "discipline",
+      "word": "discipline",
+      "pos": "noun / verb",
+      "phonetic": "/ˈdɪsɪplɪn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 disciplina（教导、所学的门道）← discipulus（学生）；discipulus 更早词源两说、无定论，与 discus（圆盘）无关",
+      "native_definition": "training that makes people obey rules, or a branch of knowledge",
+      "core_concept": "the order that has to hold for learning to happen – 要教得进去，先得有的那套规矩",
+      "core_image": "操场上一排人，哨子一响脚同时落地，慢半拍的那个被叫出来单独再走一趟",
+      "chinese": [
+        "纪律",
+        "学科",
+        "训练"
+      ],
+      "examples": [
+        "The school is known for strict discipline.",
+        "Physics and chemistry are separate disciplines."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "纪律：一群人守着的那套规矩，不守就受管",
+        "学科：教与学分出来的一个门类",
+        "训练：把规矩加到人身上的那个过程，也指管束"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "discrepancy",
+      "word": "discrepancy",
+      "pos": "noun",
+      "phonetic": "/dɪsˈkrepənsi/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 discrepantia（不一致）← discrepare：dis-（分开）+ crepare（响、作声）→ 两处响出来的音不一样；与 discus（圆盘）无关，本项目未为 crepare 族建根",
+      "native_definition": "a difference between two things that should be the same",
+      "core_concept": "two things sounding different when they should match – 本该一致的两处，响出来不是一个音",
+      "core_image": "两份账并排摊开，同一栏的数差着三百，抄的人签名都在，看不出谁写错",
+      "chinese": [
+        "差异",
+        "不一致"
+      ],
+      "examples": [
+        "There is a discrepancy between the two reports.",
+        "Auditors found several discrepancies in the accounts."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "差异：本该对上的两处对不上，差出来的那一点",
+        "不一致：说的是这个状态本身，两边彼此不合"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "conservative",
+      "word": "conservative",
+      "pos": "adjective / noun",
+      "phonetic": "/kənˈsɜːvətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "serv"
+      ],
+      "root_logic": "con-（彻底）+ serv（servare 保存、守护）+ -ative → 一心把原样守住的",
+      "origin": "拉丁语 conservare：com-（彻底）+ servare（保存、守护）→ 完完整整守住不变",
+      "native_definition": "preferring things to stay as they are, or deliberately low in an estimate",
+      "core_concept": "keeping a thing exactly as it was – 把东西照原样守住",
+      "core_image": "家具还是祖父那批，墙纸旧了只补不换，客人提议改动，主人摇头说这样就好",
+      "chinese": [
+        "保守的",
+        "守旧的",
+        "保守估计的"
+      ],
+      "examples": [
+        "He holds fairly conservative views on education.",
+        "That is a conservative estimate of the cost."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "保守的：倾向留住现状，不愿变动",
+        "守旧的：同一个倾向说得重些，偏指抱着老办法不放",
+        "保守估计的：数报得往低往稳，宁可说少不说多"
+      ]
+    },
+    {
+      "id": "deserve",
+      "word": "deserve",
+      "pos": "verb",
+      "phonetic": "/dɪˈzɜːv/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 deservir ← 拉丁语 deservire：de-（彻底）+ servire（服侍、效力）；servire 与 servare（保存、守护）不同根，本项目未为 servire 族建根",
+      "native_definition": "to have earned something because of what one has done",
+      "core_concept": "having served enough that it is owed to you – 出的力够了，这份就该归你",
+      "core_image": "一场雨里搬完最后一箱，工头把热汤递过来，在场的谁都不觉得这碗多余",
+      "chinese": [
+        "值得",
+        "应得"
+      ],
+      "examples": [
+        "She deserves a break after that week.",
+        "Those children deserve better treatment."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "值得：拿这个人做的事一衡量，配得上这个待遇",
+        "应得：语气更硬，指这份本来就该给他，好坏都算"
+      ],
+      "collocations": [
+        "deserve to do sth —— 应该得到某种结果，接不定式",
+        "deserve better —— 值得更好的对待，比较级后不接 than"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "architect",
+      "word": "architect",
+      "pos": "noun",
+      "phonetic": "/ˈɑːkɪtekt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 arkhitekton（总匠人）：arkhi-（为首）+ tekton（木工、建造者）；tekton 与拉丁语 texere（编织）同出一源而语义已分，与 tegere（遮盖）无关",
+      "native_definition": "a person who designs buildings and oversees their construction",
+      "core_concept": "the chief builder who plans the whole thing – 通盘拿主意的那个头道匠人",
+      "core_image": "图纸铺满整张桌子，铅笔在窗的位置改了三遍，工地上的人等这一张定了才动土",
+      "chinese": [
+        "建筑师",
+        "设计者",
+        "缔造者"
+      ],
+      "examples": [
+        "The architect showed us the revised plans.",
+        "She is the architect of the new policy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "建筑师：画房子并管着盖起来的那个人",
+        "设计者：把同一件事挪到别的物件上，通盘拿主意的人",
+        "缔造者：抽象的事也这么说，某件大事是他一手筹起来的"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "architecture",
+      "word": "architecture",
+      "pos": "noun",
+      "phonetic": "/ˈɑːkɪtektʃə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 architectura ← architectus ← 希腊语 arkhitekton（总匠人）：arkhi-（为首）+ tekton（建造者）；tekton 与拉丁语 texere（编织）同出一源而语义已分，与 tegere（遮盖）无关",
+      "native_definition": "the art of designing buildings, or the way a complex system is put together",
+      "core_concept": "how a whole thing is planned and put together – 一整样东西通盘怎么筹怎么搭",
+      "core_image": "站在广场中间抬头转一圈，柱子的间距、窗的高低、屋顶的坡度合成一套讲究",
+      "chinese": [
+        "建筑学",
+        "建筑风格",
+        "架构"
+      ],
+      "examples": [
+        "She studied architecture for five years.",
+        "The building shows classical Greek architecture."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "建筑学：画房子这门学问与手艺",
+        "建筑风格：一时一地房子的那套做法与样貌",
+        "架构：把这套讲究挪到无形的东西上，系统内部怎么搭起来"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "caress",
+      "word": "caress",
+      "pos": "verb / noun",
+      "phonetic": "/kəˈres/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 caresse ← 意大利语 carezza（亲昵的举动）← caro ← 拉丁语 carus（亲爱的、宝贵的）；与 carrus（货车）无关，本项目未为 carus 族建根",
+      "native_definition": "to touch someone gently and lovingly, or such a touch",
+      "core_concept": "a touch light enough to show it is dear – 轻到只为表明这人宝贵的那种碰",
+      "core_image": "手掌贴着婴儿的头顶来回移，慢得没把那层绒毛压下去",
+      "chinese": [
+        "抚摸",
+        "爱抚"
+      ],
+      "examples": [
+        "She caressed the sleeping child's cheek.",
+        "He remembered her gentle caress."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "抚摸：手贴上去慢慢移动，力道极轻",
+        "爱抚：同一个动作说出里头那份亲近，重在心意"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "clear",
+      "word": "clear",
+      "pos": "adjective / verb",
+      "phonetic": "/klɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "clarus"
+      ],
+      "root_logic": "clear（clarus 明亮、清澈）→ 亮到什么都挡不住视线",
+      "origin": "古法语 cler ← 拉丁语 clarus（明亮、清澈、响亮）",
+      "native_definition": "easy to see, hear, or understand, or to remove things that are in the way",
+      "core_concept": "bright enough that nothing blocks the view – 亮到什么都挡不住看",
+      "core_image": "雨停后水面静下来，底上的石子一颗颗数得出；桌上杂物一收，木纹也露出来",
+      "chinese": [
+        "清楚的",
+        "晴朗的",
+        "清除"
+      ],
+      "examples": [
+        "The water was so clear we saw the bottom.",
+        "Please clear the table before dinner."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "清楚的：中间没有遮挡，看得听得懂得都不费劲",
+        "晴朗的：说天时，云散开亮堂堂",
+        "清除：把挡着的东西搬走，让那处重新透亮"
+      ],
+      "collocations": [
+        "make it clear that... —— 把某事讲明白，用 it 作形式宾语接从句",
+        "be clear about sth —— 对某事清楚明白，介词用 about",
+        "clear sth up —— 收拾干净，也指把疑问弄清楚"
+      ]
+    },
+    {
+      "id": "curb",
+      "word": "curb",
+      "pos": "verb / noun",
+      "phonetic": "/kɜːb/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 courbe（弯的）← 拉丁语 curvus（弯的）← curvare（使弯）；本指扣在马下颌的那条弯带，与 cor/cordis（心）无关",
+      "native_definition": "to keep something within limits, or the raised stone edge of a pavement",
+      "core_concept": "bending a thing back to hold it in – 往回弯着带住，不许它往前冲",
+      "core_image": "缰绳往回一带，马头被弯着压低，急步收成了慢步",
+      "chinese": [
+        "控制",
+        "抑制",
+        "路缘"
+      ],
+      "examples": [
+        "The city tried to curb traffic noise.",
+        "He parked with two wheels on the curb."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "控制：把势头往回带住，不让它涨出去",
+        "抑制：同一个动作说得重些，偏指压着不许发作",
+        "路缘：人行道边那道凸起的石边，把车挡在外头"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "descendant",
+      "word": "descendant",
+      "pos": "noun",
+      "phonetic": "/dɪˈsendənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 descendant ← 拉丁语 descendere：de-（往下）+ scandere（攀、登）→ 顺着往下走的那一支；与 densus（稠密）无关，本项目未为 scandere 族建根",
+      "native_definition": "a person related to someone who lived a long time ago",
+      "core_concept": "the one further down the line – 顺着那条线往下数出来的那个",
+      "core_image": "族谱纸上一条线从最上那个名字往下分岔，最底下那一格写着还在世的人",
+      "chinese": [
+        "后代",
+        "子孙",
+        "后裔"
+      ],
+      "examples": [
+        "She is a descendant of a famous painter.",
+        "Their descendants still farm the same land."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "后代：从某人往下数出来的人，一代代接着",
+        "子孙：日常说法，指自家往下这几代人",
+        "后裔：偏书面，多用在追到很久以前那个源头时"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "domain",
+      "word": "domain",
+      "pos": "noun",
+      "phonetic": "/dəˈmeɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "domus"
+      ],
+      "root_logic": "domain（dominium 产业 ← dominus 家主 ← domus 家）→ 当家人管得着的那一片",
+      "origin": "法语 domaine ← 中世纪拉丁语 domanium ← 拉丁语 dominium（产业、支配权）← dominus（家主）← domus（家、房屋）",
+      "native_definition": "an area of knowledge or activity, or land owned and controlled by someone",
+      "core_concept": "the stretch one master's word covers – 一个当家的说话管得到的那一片",
+      "core_image": "庄园的界石一路插到河边，界内的田、林、磨坊都听主人一句话",
+      "chinese": [
+        "领域",
+        "范围",
+        "领地"
+      ],
+      "examples": [
+        "That question falls outside my domain.",
+        "The whole valley was once his domain."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "领域：某人某学问管得着的那一块，说知识与行当",
+        "范围：同一块地界说得抽象些，指界内界外",
+        "领地：实实在在的那片地，归谁所有归谁管"
+      ]
+    },
+    {
+      "id": "affiliate",
+      "word": "affiliate",
+      "pos": "verb / noun",
+      "phonetic": "/əˈfɪlieɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中世纪拉丁语 affiliare（收为养子）：ad-（朝向）+ filius（儿子）；与 filum（线）无关，本项目未为 filius 族建根",
+      "native_definition": "to join a smaller organization to a larger one, or a group so joined",
+      "core_concept": "taken in as a son of a bigger house – 被大门户收进来当自家子弟",
+      "core_image": "小诊所门口换了新牌子，名字底下多出一行小字，写着归哪家大医院",
+      "chinese": [
+        "使隶属",
+        "加入",
+        "分支机构"
+      ],
+      "examples": [
+        "The clinic is affiliated with the city hospital.",
+        "Our local branch is an affiliate of the union."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "使隶属：把小的一方挂到大的一方名下",
+        "加入：从小的一方说，进到那个大组织里去",
+        "分支机构：这样挂上去的那个单位本身"
+      ],
+      "collocations": [
+        "be affiliated with / to sth —— 隶属于某机构，两个介词都通行"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "diagram",
+      "word": "diagram",
+      "pos": "noun",
+      "phonetic": "/ˈdaɪəɡræm/",
+      "decomposable": "root",
+      "root_ids": [
+        "graphein"
+      ],
+      "root_logic": "dia-（贯通）+ gram（graphein 刻写、描画）→ 把一件事的来龙去脉画通",
+      "origin": "希腊语 diagramma（画出来的图形）← diagraphein：dia-（贯通）+ graphein（刻写、描画）",
+      "native_definition": "a simple drawing that shows how parts relate or how something works",
+      "core_concept": "lines drawn to show how parts connect – 用线把各部分怎么连的画出来",
+      "core_image": "黑板上几个方框连着箭头，字只写了标签，看的人顺着箭头就知道先后",
+      "chinese": [
+        "图表",
+        "图解",
+        "示意图"
+      ],
+      "examples": [
+        "The teacher drew a diagram on the board.",
+        "Follow the diagram to assemble the shelf."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "图表：画出来说明关系的那张图",
+        "图解：偏在讲解上，拿图代替一段话",
+        "示意图：不求画准，只把走向与关系交代清楚的那种"
+      ]
+    },
+    {
+      "id": "entrepreneur",
+      "word": "entrepreneur",
+      "pos": "noun",
+      "phonetic": "/ˌɒntrəprəˈnɜː/",
+      "decomposable": "root",
+      "root_ids": [
+        "prehendere"
+      ],
+      "root_logic": "entre-（之间）+ pren（prehendere 抓住）+ -eur（人）→ 从中间把事揽到自己手里的人",
+      "origin": "法语 entrepreneur ← entreprendre（承揽）：entre-（之间，← 拉丁语 inter）+ prendre（拿、抓，← 拉丁语 prehendere）；承义的是「抓住」这一支，不是 intrare（走进）",
+      "native_definition": "a person who sets up a business and takes on its risks",
+      "core_concept": "the one who reaches in and takes the venture in hand – 伸手把这摊事揽到自己手里的人",
+      "core_image": "租下空铺面的那个人自己签了合同，货款先垫上，赔了也是他兜着",
+      "chinese": [
+        "企业家",
+        "创业者"
+      ],
+      "examples": [
+        "The young entrepreneur opened three shops.",
+        "Tax breaks are meant to encourage entrepreneurs."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "企业家：自己张罗一门生意、担着盈亏的那个人",
+        "创业者：偏在起头那一段，从无到有把摊子撑起来的人"
+      ]
+    },
+    {
+      "id": "collaborate",
+      "word": "collaborate",
+      "pos": "verb",
+      "phonetic": "/kəˈlæbəreɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 collaborare：com-（一同）+ laborare（劳作）← labor（劳苦）；与 labi（滑落）无关，本项目未为 laborare 族建根",
+      "native_definition": "to work together with someone, or to help an enemy occupying one's country",
+      "core_concept": "putting labour in together on one thing – 同一件事上一起出力",
+      "core_image": "两个人对着同一张图纸，一个画一个改，桌上只有一杯凉了的茶",
+      "chinese": [
+        "合作",
+        "协作",
+        "通敌"
+      ],
+      "examples": [
+        "The two labs collaborated on the vaccine.",
+        "He was accused of collaborating with the enemy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "合作：几方把力气使到同一件事上",
+        "协作：偏指分工的那种合作，各做一段还得对得上",
+        "通敌：这份力气使到敌方那边去，战时的说法"
+      ],
+      "collocations": [
+        "collaborate with sb on sth —— 与某人合作做某事，两个介词各管一头"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "apparent",
+      "word": "apparent",
+      "pos": "adjective",
+      "phonetic": "/əˈpærənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "apparere"
+      ],
+      "root_logic": "ap-（朝向）+ par（parere 露出、显现）+ -ent → 已经露到面上的",
+      "origin": "拉丁语 apparentem ← apparere：ad-（朝向）+ parere（露出、显现）；与 par（相等）那一支不同",
+      "native_definition": "easy to see or understand, or seeming true without necessarily being so",
+      "core_concept": "already showing on the surface – 已经显到面上来的",
+      "core_image": "雾一散，对岸的塔尖先露出来，谁都不用指认；可露出的那一截未必是全塔",
+      "chinese": [
+        "明显的",
+        "表面上的",
+        "看似的"
+      ],
+      "examples": [
+        "It was apparent that she had been crying.",
+        "His apparent calm hid real anger."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "明显的：露得够清楚，不用人指点就看出来",
+        "表面上的：只露出来这一层，里头的未必如此",
+        "看似的：话说得留了余地，显出来是这样而已"
+      ]
+    },
+    {
+      "id": "accompany",
+      "word": "accompany",
+      "pos": "verb",
+      "phonetic": "/əˈkʌmpəni/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 acompaignier（结伴）← compaign ← 晚期拉丁语 companio（同吃一块面包的人）：com-（一同）+ panis（面包）；与 poena（罚）无关，本项目未为 panis 族建根",
+      "native_definition": "to go somewhere with someone, or to happen at the same time as something",
+      "core_concept": "sharing the road as one shares bread – 像分一块面包那样一路同行",
+      "core_image": "出门时另一个人跟着下楼，一路走在半步之后，到门口才分开",
+      "chinese": [
+        "陪同",
+        "伴随",
+        "伴奏"
+      ],
+      "examples": [
+        "Her brother accompanied her to the station.",
+        "Thunder accompanied the heavy rain."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "陪同：跟着某人一起去，人陪着人",
+        "伴随：两件事一起出现，一样跟着另一样来",
+        "伴奏：唱的人在前，弹的人跟着托住"
+      ],
+      "collocations": [
+        "be accompanied by sb / sth —— 由某人陪同、伴有某物，被动式用 by"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "encounter",
+      "word": "encounter",
+      "pos": "verb / noun",
+      "phonetic": "/ɪnˈkaʊntə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 encontrer（迎面遇上）← 晚期拉丁语 incontra（在对面）：in-（在）+ contra（对面、相对）；与 putare（点算）无关，contra 是前缀性成分，本项目未为其建根",
+      "native_definition": "to meet someone or something unexpectedly, especially a difficulty",
+      "core_concept": "coming face to face with what is opposite – 迎面撞上对面来的那一样",
+      "core_image": "转过山道那一刻，对面来的人也刚抬头，两边都停住了脚",
+      "chinese": [
+        "遇到",
+        "遭遇",
+        "相遇"
+      ],
+      "examples": [
+        "We encountered heavy traffic on the way.",
+        "Their first encounter was purely by chance."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "遇到：没预备就碰上了，人与事都可以",
+        "遭遇：碰上的是麻烦，语气偏重",
+        "相遇：两边彼此碰上，不带好坏"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "address",
+      "word": "address",
+      "pos": "noun / verb",
+      "phonetic": "/əˈdres/",
+      "decomposable": "root",
+      "root_ids": [
+        "rect"
+      ],
+      "root_logic": "ad-（朝向）+ dress（directus 直的 ← regere 使直）→ 冲着那一处直送过去",
+      "origin": "古法语 adrecier（对直、指向）← 通俗拉丁语 *addirectiare：ad-（朝向）+ directus（直的）← dirigere ← regere（引导、使直）；dress 同出这一支",
+      "native_definition": "the details of where someone lives, or to speak to or deal with something directly",
+      "core_concept": "aiming straight at the one place – 对直了冲着那一处去",
+      "core_image": "信封中间那几行字把送信的人一路引到门牌下，一步没绕",
+      "chinese": [
+        "地址",
+        "演讲",
+        "处理",
+        "称呼"
+      ],
+      "examples": [
+        "Write your address on the back of the form.",
+        "The report addresses three main problems."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "地址：把人一路引到那一处的那几行字",
+        "演讲：把话直冲着底下的人送出去，正式场合的那一篇",
+        "处理：力气直对着问题本身使，不绕开",
+        "称呼：对准那个人，叫出该叫的那个名分"
+      ],
+      "collocations": [
+        "address a problem / an issue —— 着手处理某问题，宾语是问题本身",
+        "address sb as sth —— 以某称呼称呼某人，as 后接称谓"
+      ]
+    },
+    {
+      "id": "distant",
+      "word": "distant",
+      "pos": "adjective",
+      "phonetic": "/ˈdɪstənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "dis-（分开）+ stant（stare 站立）→ 各站一边，中间空着一段",
+      "origin": "拉丁语 distantem ← distare：dis-（分开）+ stare（站立）→ 站开着，隔着一段",
+      "native_definition": "far away in space or time, or not friendly in manner",
+      "core_concept": "standing apart with a gap between – 两处各站一边，中间隔着一段",
+      "core_image": "山那头的灯只有一小点，中间黑着一大片；对面那人点头也只点了半下",
+      "chinese": [
+        "遥远的",
+        "久远的",
+        "冷淡的"
+      ],
+      "examples": [
+        "We could see a distant light on the hill.",
+        "He gave me a distant nod."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "遥远的：地方隔得开，中间那段路长",
+        "久远的：把这段隔开挪到时间上，事情离现在很远",
+        "冷淡的：人与人之间也隔着一段，不亲近"
+      ]
+    },
+    {
+      "id": "destroy",
+      "word": "destroy",
+      "pos": "verb",
+      "phonetic": "/dɪˈstrɔɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "stru"
+      ],
+      "root_logic": "de-（反向）+ stroy（struere 堆叠、建造）→ 把垒起来的一层层拆回去",
+      "origin": "古法语 destruire ← 拉丁语 destruere：de-（反向）+ struere（堆叠、建造）",
+      "native_definition": "to damage something so badly that it no longer exists or works",
+      "core_concept": "taking a built thing back down layer by layer – 把垒起来的一层层拆回去",
+      "core_image": "墙从上头一层层塌下去，砖散在地上，原来的形状再拼不回来",
+      "chinese": [
+        "破坏",
+        "摧毁",
+        "毁灭"
+      ],
+      "examples": [
+        "The fire destroyed most of the building.",
+        "Careless words can destroy a friendship."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "破坏：把成形的东西弄坏，功能失效",
+        "摧毁：力度更大，整个垮下来",
+        "毁灭：连存在都没了，抽象的东西也这么说"
+      ]
+    },
+    {
+      "id": "content",
+      "word": "content",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈkɒntent/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "con-（一同）+ tent（tenere 握住、容纳）→ 被容在里头的那些；欲望也容在已有之内，就是满足",
+      "origin": "拉丁语 contentum（所容之物）与 contentus（满足的），同出 continere：com-（一同）+ tenere（握住、容纳）；与 tendere（伸展）不同根",
+      "native_definition": "the things inside something, or satisfied with what one has",
+      "core_concept": "what is held inside, and wanting no more than that – 里头容着的那些，也不再往外要",
+      "core_image": "箱子一开，里头的东西一样样摆到桌上；摆完的人靠回椅背，不再翻别处",
+      "chinese": [
+        "内容",
+        "目录",
+        "满足的"
+      ],
+      "examples": [
+        "Please check the contents of the box.",
+        "She seemed quite content with the result."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "内容：容在里头的那些东西，实物与文章都算",
+        "目录：书前头把各章容着什么列出来的那几页",
+        "满足的：想要的都容在手里这些之内，不往外求"
+      ],
+      "collocations": [
+        "be content with sth —— 对某物感到满足，介词用 with",
+        "be content to do sth —— 甘于做某事，接不定式",
+        "table of contents —— 目录，固定用复数"
+      ]
     }
   ]
 }

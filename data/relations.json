@@ -11016,6 +11016,294 @@
       "to": "humiliate",
       "type": "root",
       "note": "humus（泥土、地面）→ humilis（贴着地面的）+ -ate → 把人按到地面那么低 → 使屈辱"
+    },
+    {
+      "from": "cep",
+      "to": "anticipate",
+      "type": "root",
+      "note": "anti-（ante- 在前）+ cip（capere 拿）→ 提前把它拿到手"
+    },
+    {
+      "from": "cep",
+      "to": "capacity",
+      "type": "root",
+      "note": "cap（capere 容纳、拿）+ -acity（能…的性质）→ 装得下多少的那个量"
+    },
+    {
+      "from": "audire",
+      "to": "audience",
+      "type": "root",
+      "note": "audi（audire 听）+ -ence（名词）→ 在场听的那一群人"
+    },
+    {
+      "from": "audire",
+      "to": "audit",
+      "type": "root",
+      "note": "audi（audire 听）+ -t（过去分词）→ 当众念账、一条条听过 → 核查账目"
+    },
+    {
+      "from": "audire",
+      "to": "auditorium",
+      "type": "root",
+      "note": "audit（audire 听）+ -orium（场所）→ 专为听而造的那个场所"
+    },
+    {
+      "from": "cadere",
+      "to": "case",
+      "type": "root",
+      "note": "cas（cadere 落）→ 落到眼前的那一桩事"
+    },
+    {
+      "from": "cadere",
+      "to": "casual",
+      "type": "root",
+      "note": "cas（cadere 落）+ -al → 碰巧落下来的 → 偶然的，进而不当正事对待的"
+    },
+    {
+      "from": "fac",
+      "to": "difficult",
+      "type": "root",
+      "note": "dif-（dis- 不）+ ficult（facilis 易做的 ← facere 做）→ 不容易做成的"
+    },
+    {
+      "from": "fac",
+      "to": "difficulty",
+      "type": "root",
+      "note": "dif-（不）+ ficul（facilis 易做 ← facere 做）+ -ty（名词）→ 做不成这件事本身"
+    },
+    {
+      "from": "curr",
+      "to": "course",
+      "type": "root",
+      "note": "cours（currere 跑）→ 一路跑过去画出的那条线"
+    },
+    {
+      "from": "curr",
+      "to": "discourse",
+      "type": "root",
+      "note": "dis-（来回、四处）+ course（currere 跑）→ 话头来回跑动"
+    },
+    {
+      "from": "prehendere",
+      "to": "comprehension",
+      "type": "root",
+      "note": "com-（一并）+ prehens（prehendere 抓）+ -ion → 把整件事一把抓全的那份本事"
+    },
+    {
+      "from": "prehendere",
+      "to": "comprehensive",
+      "type": "root",
+      "note": "com-（一并）+ prehens（prehendere 抓）+ -ive → 一把抓全的，没有漏下的"
+    },
+    {
+      "from": "sperare",
+      "to": "despair",
+      "type": "root",
+      "note": "de-（去掉）+ spair（sperare 盼望）→ 把所盼的全撤掉"
+    },
+    {
+      "from": "colere",
+      "to": "agriculture",
+      "type": "root",
+      "note": "agri（ager 田）+ culture（colere 照管到长出东西）→ 照管田地使它长出收成"
+    },
+    {
+      "from": "certus",
+      "to": "concert",
+      "type": "root",
+      "note": "con-（一并）+ cert（certare 较量、争出定论 ← certus 已定）→ 各方定到同一个准上"
+    },
+    {
+      "from": "clud",
+      "to": "clause",
+      "type": "root",
+      "note": "claus（claudere 关闭）+ -e → 合上口、自成一段的那一截"
+    },
+    {
+      "from": "crescere",
+      "to": "concrete",
+      "type": "root",
+      "note": "con-（一并）+ crete（crescere 生长）→ 长到一起、凝成实的一块"
+    },
+    {
+      "from": "dict",
+      "to": "condition",
+      "type": "root",
+      "note": "con-（一并）+ dit（dicere 说）+ -ion → 双方一并说定的那一条"
+    },
+    {
+      "from": "fac",
+      "to": "artificial",
+      "type": "root",
+      "note": "arti（ars 手艺）+ fic（facere 做）+ -ial → 靠手艺做出来的，不是自己长的"
+    },
+    {
+      "from": "gnoscere",
+      "to": "cognitive",
+      "type": "root",
+      "note": "co-（com- 完全）+ gnit（gnoscere 认得出）+ -ive → 与认得出这是什么有关的"
+    },
+    {
+      "from": "pingere",
+      "to": "depict",
+      "type": "root",
+      "note": "de-（彻底）+ pict（pingere 涂色）→ 一笔笔敷上去，把那样东西现出来"
+    },
+    {
+      "from": "proprius",
+      "to": "appropriate",
+      "type": "root",
+      "note": "ap-（ad- 朝）+ propri（proprius 专属的）+ -ate → 对上这一处专该有的那一种；作动词则是划"
+    },
+    {
+      "from": "quir",
+      "to": "conquer",
+      "type": "root",
+      "note": "con-（完全）+ quer（quaerere 寻求）→ 一路追索到底并把它拿下"
+    },
+    {
+      "from": "stringere",
+      "to": "distress",
+      "type": "root",
+      "note": "di-（dis- 分开）+ stress（stringere 拉紧）→ 从两边往外扯紧，绞得动不了"
+    },
+    {
+      "from": "caput",
+      "to": "cape",
+      "type": "root",
+      "note": "cap（caput 头、伸出的顶端）→ 陆地伸进海里的那个头"
+    },
+    {
+      "from": "caput",
+      "to": "captain",
+      "type": "root",
+      "note": "capt（caput 头）+ -ain（人）→ 一群人里领头的那个"
+    },
+    {
+      "from": "caput",
+      "to": "chapter",
+      "type": "root",
+      "note": "chapt（capitulum 小头 ← caput 头）+ -er → 一本书里分出来的一个小头"
+    },
+    {
+      "from": "tangere",
+      "to": "contact",
+      "type": "root",
+      "note": "con-（一同）+ tact（tangere 触）→ 两样东西挨到一处"
+    },
+    {
+      "from": "legere",
+      "to": "collection",
+      "type": "root",
+      "note": "col-（一同）+ lect（legere 拾取、挑选）+ -ion → 一件件挑起来收拢到一处"
+    },
+    {
+      "from": "plic",
+      "to": "complex",
+      "type": "root",
+      "note": "com-（一同）+ plex（plectere 编织，与 plicare 折叠同支）→ 多根线绞到一处，拆不开"
+    },
+    {
+      "from": "logos",
+      "to": "dialect",
+      "type": "root",
+      "note": "dia-（来回、之间）+ lect（legein 说，logos 同支）→ 一地人来回对着说的那套话"
+    },
+    {
+      "from": "par-equal",
+      "to": "comparative",
+      "type": "root",
+      "note": "com-（一同）+ par（par 相等）+ -ative → 把两样摆到一处比高下"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "auction",
+      "type": "root",
+      "note": "auct（auctus，augere 增长的过去分词）+ -ion → 价一层层往上加的那场买卖"
+    },
+    {
+      "from": "augere-auctor",
+      "to": "auxiliary",
+      "type": "root",
+      "note": "auxil（auxilium 援助，与 auctus、augere 增长同支）+ -ary → 添上去的那份力"
+    },
+    {
+      "from": "ced",
+      "to": "accessory",
+      "type": "root",
+      "note": "ac-（朝向）+ cess（cedere 行走、让出）+ -ory → 跟着走到主件旁边的那样东西"
+    },
+    {
+      "from": "ced",
+      "to": "cease",
+      "type": "root",
+      "note": "cease（cessare ← cedere 行走、让出）→ 往后让开，不再往前走"
+    },
+    {
+      "from": "crit",
+      "to": "crisis",
+      "type": "root",
+      "note": "cris（krinein 判别、裁断）+ -is → 到了非判出一个结果不可的那一刻"
+    },
+    {
+      "from": "serv",
+      "to": "conservative",
+      "type": "root",
+      "note": "con-（彻底）+ serv（servare 保存、守护）+ -ative → 一心把原样守住的"
+    },
+    {
+      "from": "clarus",
+      "to": "clear",
+      "type": "root",
+      "note": "clear（clarus 明亮、清澈）→ 亮到什么都挡不住视线"
+    },
+    {
+      "from": "domus",
+      "to": "domain",
+      "type": "root",
+      "note": "domain（dominium 产业 ← dominus 家主 ← domus 家）→ 当家人管得着的那一片"
+    },
+    {
+      "from": "graphein",
+      "to": "diagram",
+      "type": "root",
+      "note": "dia-（贯通）+ gram（graphein 刻写、描画）→ 把一件事的来龙去脉画通"
+    },
+    {
+      "from": "prehendere",
+      "to": "entrepreneur",
+      "type": "root",
+      "note": "entre-（之间）+ pren（prehendere 抓住）+ -eur（人）→ 从中间把事揽到自己手里的人"
+    },
+    {
+      "from": "apparere",
+      "to": "apparent",
+      "type": "root",
+      "note": "ap-（朝向）+ par（parere 露出、显现）+ -ent → 已经露到面上的"
+    },
+    {
+      "from": "rect",
+      "to": "address",
+      "type": "root",
+      "note": "ad-（朝向）+ dress（directus 直的 ← regere 使直）→ 冲着那一处直送过去"
+    },
+    {
+      "from": "sta",
+      "to": "distant",
+      "type": "root",
+      "note": "dis-（分开）+ stant（stare 站立）→ 各站一边，中间空着一段"
+    },
+    {
+      "from": "stru",
+      "to": "destroy",
+      "type": "root",
+      "note": "de-（反向）+ stroy（struere 堆叠、建造）→ 把垒起来的一层层拆回去"
+    },
+    {
+      "from": "tain",
+      "to": "content",
+      "type": "root",
+      "note": "con-（一同）+ tent（tenere 握住、容纳）→ 被容在里头的那些；欲望也容在已有之内，就是满足"
     }
   ]
 }

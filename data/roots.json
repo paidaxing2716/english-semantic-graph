@@ -387,7 +387,8 @@
         "statue",
         "status",
         "statute",
-        "superstition"
+        "superstition",
+        "distant"
       ]
     },
     {
@@ -416,7 +417,8 @@
         "enclose",
         "enclosure",
         "closet",
-        "conclusion"
+        "conclusion",
+        "clause"
       ]
     },
     {
@@ -450,7 +452,8 @@
         "continue",
         "entertain",
         "entertainment",
-        "maintenance"
+        "maintenance",
+        "content"
       ]
     },
     {
@@ -497,7 +500,10 @@
         "fashionable",
         "perfection",
         "facilitate",
-        "facility"
+        "facility",
+        "difficult",
+        "difficulty",
+        "artificial"
       ]
     },
     {
@@ -574,7 +580,9 @@
         "necessary",
         "necessitate",
         "necessity",
-        "succeed"
+        "succeed",
+        "accessory",
+        "cease"
       ]
     },
     {
@@ -751,7 +759,8 @@
         "infrastructure",
         "industrial",
         "industrialize",
-        "industry"
+        "industry",
+        "destroy"
       ]
     },
     {
@@ -777,7 +786,8 @@
         "contradiction",
         "dictionary",
         "indication",
-        "indicative"
+        "indicative",
+        "condition"
       ]
     },
     {
@@ -816,7 +826,8 @@
         "critic",
         "critical",
         "criticism",
-        "criticize"
+        "criticize",
+        "crisis"
       ]
     },
     {
@@ -868,7 +879,8 @@
         "question",
         "questionnaire",
         "acquisition",
-        "acquire"
+        "acquire",
+        "conquer"
       ]
     },
     {
@@ -896,7 +908,8 @@
         "reign",
         "royalty",
         "direction",
-        "erect"
+        "erect",
+        "address"
       ]
     },
     {
@@ -996,7 +1009,8 @@
         "conservation",
         "preserve",
         "reservation",
-        "reserve"
+        "reserve",
+        "conservative"
       ]
     },
     {
@@ -1097,7 +1111,8 @@
         "simple",
         "duplicate",
         "employment",
-        "unemployment"
+        "unemployment",
+        "complex"
       ]
     },
     {
@@ -1214,7 +1229,9 @@
         "occur",
         "recur",
         "curriculum",
-        "occurrence"
+        "occurrence",
+        "course",
+        "discourse"
       ]
     },
     {
@@ -1530,7 +1547,8 @@
         "certainly",
         "certainty",
         "certificate",
-        "certify"
+        "certify",
+        "concert"
       ]
     },
     {
@@ -1731,7 +1749,8 @@
       "word_ids": [
         "appear",
         "appearance",
-        "disappear"
+        "disappear",
+        "apparent"
       ]
     },
     {
@@ -1830,7 +1849,8 @@
         "dominate",
         "predominant",
         "madame",
-        "dome"
+        "dome",
+        "domain"
       ]
     },
     {
@@ -2119,7 +2139,8 @@
         "lecture",
         "select",
         "college",
-        "legend"
+        "legend",
+        "collection"
       ]
     },
     {
@@ -2605,7 +2626,8 @@
         "bibliography",
         "geography",
         "telegraph",
-        "glamor"
+        "glamor",
+        "diagram"
       ]
     },
     {
@@ -2916,7 +2938,9 @@
         "august",
         "authentic",
         "author",
-        "authority"
+        "authority",
+        "auction",
+        "auxiliary"
       ]
     },
     {
@@ -2934,7 +2958,8 @@
         "clarify",
         "clarity",
         "declare",
-        "declaration"
+        "declaration",
+        "clear"
       ]
     },
     {
@@ -2953,7 +2978,8 @@
         "decrease",
         "increase",
         "increasingly",
-        "crew"
+        "crew",
+        "concrete"
       ]
     },
     {
@@ -3013,7 +3039,9 @@
         "cable",
         "deceit",
         "cater",
-        "purchase"
+        "purchase",
+        "anticipate",
+        "capacity"
       ]
     },
     {
@@ -3185,7 +3213,8 @@
         "repair",
         "compare",
         "comparison",
-        "peer"
+        "peer",
+        "comparative"
       ]
     },
     {
@@ -3220,7 +3249,10 @@
       "word_ids": [
         "obedience",
         "obedient",
-        "obey"
+        "obey",
+        "audience",
+        "audit",
+        "auditorium"
       ]
     },
     {
@@ -3545,7 +3577,8 @@
         "strict",
         "restrict",
         "district",
-        "restraint"
+        "restraint",
+        "distress"
       ]
     },
     {
@@ -3579,7 +3612,8 @@
       "core_image": "指尖向上伸，最后一寸终于搭上了崖沿",
       "english_definition": "to touch, reach",
       "word_ids": [
-        "attain"
+        "attain",
+        "contact"
       ]
     },
     {
@@ -3662,7 +3696,8 @@
       "english_definition": "one's own, particular",
       "word_ids": [
         "proper",
-        "property"
+        "property",
+        "appropriate"
       ]
     },
     {
@@ -3746,7 +3781,9 @@
         "chance",
         "cheat",
         "decay",
-        "coincide"
+        "coincide",
+        "case",
+        "casual"
       ]
     },
     {
@@ -3836,7 +3873,8 @@
       "word_ids": [
         "apologise",
         "apology",
-        "biology"
+        "biology",
+        "dialect"
       ]
     },
     {
@@ -4013,7 +4051,8 @@
       "word_ids": [
         "paint",
         "painter",
-        "painting"
+        "painting",
+        "depict"
       ]
     },
     {
@@ -4167,7 +4206,8 @@
         "prosper",
         "prosperity",
         "prosperous",
-        "desperate"
+        "desperate",
+        "despair"
       ]
     },
     {
@@ -4421,7 +4461,10 @@
         "cattle",
         "chef",
         "chief",
-        "mischief"
+        "mischief",
+        "cape",
+        "captain",
+        "chapter"
       ]
     },
     {
@@ -4496,7 +4539,8 @@
         "colonial",
         "colony",
         "culture",
-        "cultivate"
+        "cultivate",
+        "agriculture"
       ]
     },
     {
@@ -5072,7 +5116,8 @@
         "ignorant",
         "ignore",
         "noble",
-        "ignorance"
+        "ignorance",
+        "cognitive"
       ],
       "noisy_variants": [
         "nor"
@@ -5585,7 +5630,10 @@
         "prey",
         "prison",
         "prisoner",
-        "surprise"
+        "surprise",
+        "comprehension",
+        "comprehensive",
+        "entrepreneur"
       ]
     },
     {
