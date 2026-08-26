@@ -50413,6 +50413,14 @@
         "打破/弄坏：整的变成好几块",
         "中断：本来连着的过程被切断",
         "休息：把连着干的活切开一段"
+      ],
+      "collocations": [
+        "break down —— 出故障、崩溃，也指谈判破裂，down 是整体垮下去不再运转；break sth down 是把它拆成小项",
+        "break out —— 战争、火灾、疫情突然爆发，out 是从压住的地方猛冲出来，主语是事不是人",
+        "break up —— 分手、解散，也指学期结束，up 是把原本整块的拆散成各自",
+        "break into sth —— 破门闯入，也指突然开始，如 break into laughter，into 是硬挤进里面去",
+        "break through sth —— 突破挡路的阻碍，through 是从那层里穿透过去；名词 breakthrough 是重大进展",
+        "break the rules / break one's promise —— 违反规定、不守承诺，把已成形的约定敲碎"
       ]
     },
     {
@@ -51360,6 +51368,14 @@
       "semantic_expansions": [
         "带来/拿来：把东西挪到这边来",
         "引起：把一件事的后果也一并挪到眼前"
+      ],
+      "collocations": [
+        "bring about sth —— 导致、使发生，about 是把局面整个转过来",
+        "bring up sb —— 抚养长大；bring up sth 是提出话题，都是从下面往上带",
+        "bring in sth —— 引进、带来收入，in 是从外面往里带进来",
+        "bring down sth —— 使下降、打倒，down 是把它从高处压下来",
+        "bring out sth —— 使显出、推出新产品，out 是把里面的东西带到外面",
+        "bring sth to light —— 使真相公开，light 是把暗处的东西端到亮处"
       ]
     },
     {
@@ -54177,7 +54193,14 @@
         "搬运/携带：把东西带着走",
         "载运：车船同样把货带着走"
       ],
-      "recall_hint": "carrus（货车）→ carriare（用车运）→ 带着走"
+      "recall_hint": "carrus（货车）→ carriare（用车运）→ 带着走",
+      "collocations": [
+        "carry out sth —— 执行到底，也指进行实验或调查，out 是把它一路带到完成",
+        "carry on (with) sth / carry on doing sth —— 继续下去，on 是不中断地接着往前带",
+        "be/get carried away —— 忘乎所以、激动得失了分寸，away 是被情绪带离原地",
+        "carry sb/sth through sth —— 支撑某人渡过难关，也指把难事做成，through 是扛着它一路穿到另一头",
+        "carry weight —— 有分量、说话有影响力，话本身带着重量压得住人"
+      ]
     },
     {
       "id": "carriage",
@@ -55925,6 +55948,14 @@
         "叫/呼喊：嗓子放出去，让远处的人听见",
         "打电话：声音改走线路送到人耳边",
         "称作：用一个名字把人或物点出来"
+      ],
+      "collocations": [
+        "call off sth —— 取消已安排好的事，off 是把它从日程上摘下来",
+        "call for sth —— 需要、要求，也指公开呼吁，for 引出所指向的那一样；call for sb 是去接人",
+        "call on sb to do sth —— 号召某人做某事，也表拜访某人，on 是把话头落到那个人身上",
+        "call sth into question —— 对某事提出质疑，把它拽进被问的位置",
+        "call up sb / call sb up —— 打电话给某人，也指征召入伍；宾语是代词时放中间，call him up",
+        "call in sb —— 把专家或警察请进来处理，in 是从外面叫进场"
       ]
     },
     {
@@ -57354,6 +57385,14 @@
         "来/到达：从远处一路挪到你跟前",
         "出现：本来没有的东西挪进了眼前",
         "变成：一个状态一路走到了另一个状态"
+      ],
+      "collocations": [
+        "come across sth —— 偶然碰上、无意中发现，across 是路线交叉，不是刻意去找",
+        "come up with sth —— 想出办法或答案，把它从底下捧到台面上，三个词不可分",
+        "come about —— 发生、如何造成，about 是局面转到眼前，主语是事不是人",
+        "come to do sth —— 逐渐变得、终于做到；come doing sth 是边来边做，两者不同",
+        "come into effect —— 开始生效，into 是进入生效那个状态",
+        "come true —— 成真，此处 come 作系动词接形容词，不用被动"
       ]
     },
     {
@@ -57841,6 +57880,14 @@
         "切/剪：刃进去把整个分成两份",
         "削减：像削掉一块那样把数目弄小",
         "伤口：刃在身上留下的那道口子"
+      ],
+      "collocations": [
+        "cut down on sth —— 减少某物的用量，一步步压下来；cut back on 同义，多指开支和规模",
+        "cut off sth/sb —— 切断水电或供应，也指打断话头和断绝往来，off 是把连着的那条线剪脱",
+        "cut out sth —— 剪下来，也指戒掉某个习惯，out 是从整块里挖走不再留",
+        "cut in —— 插话，也指车突然插进车道，in 是从旁边硬挤进队列",
+        "cut short sth —— 提前中止，把原定的长度剪掉一截",
+        "a cut in sth / tax cuts —— 削减，此处是名词，砍下去的那一刀"
       ]
     },
     {
@@ -65185,6 +65232,14 @@
         "跌倒：人自己站不住，身子下去了",
         "下降：数目像东西那样往低处走",
         "秋天：叶子成片往下掉的那一季"
+      ],
+      "collocations": [
+        "fall through —— 计划落空，through 是从缝里漏下去、没托住",
+        "fall behind sb/sth —— 落在后头，进度或水平不如人，也指拖欠款项",
+        "fall apart —— 散掉，也指关系或体系崩解，各片脱开不再连在一处",
+        "fall back on sth —— 退一步依靠备用的办法，back 是往后退到还托得住的那一层",
+        "fall short of sth —— 达不到标准或预期，落点短了一截没够到线",
+        "fall + adj —— 落进某状态，此处是系动词，如 fall asleep / fall ill，状态是自己陷进去的"
       ]
     },
     {
@@ -70944,6 +70999,14 @@
         "变得：人或物挪到另一个状态里，跟挪到另一个地方一样",
         "到达：身子本身够到了那个地点",
         "明白：意思够到了脑子里，抓住了"
+      ],
+      "collocations": [
+        "get over sth —— 克服、从打击或病中恢复，over 是从上方翻过去，难处留在身后",
+        "get used to doing sth —— 习惯于做某事，to 是介词，后面只能接名词或 doing",
+        "get rid of sth —— 摆脱、除掉，rid 表清空，of 引出被清走的那一份",
+        "get through sth —— 熬过、办完，也指电话接通，through 是从一头穿到另一头",
+        "get sth across to sb —— 把意思讲明白，让对方听懂，across 是把话从我这边渡到他那边",
+        "get along with sb —— 与人相处得来，也表事情有进展，along 是并肩沿同一条路走"
       ]
     },
     {
@@ -71130,6 +71193,14 @@
         "交出：本来攥着不放，现在松手让出去",
         "让步：把自己占的那点余地让出去",
         "举办：把一场活动给出去，办给别人看"
+      ],
+      "collocations": [
+        "give in to sb/sth —— 让步、屈服，in 是自己往里收，抵抗撤掉",
+        "give up doing sth —— 放弃做某事，只接 doing 不接 to do，up 是举手把它交出去",
+        "give away sth —— 送掉、扔掉，也指泄露秘密，away 是让它脱手离开自己",
+        "give out sth —— 分发，也指用尽、失灵，out 是往四处散出去直到没了",
+        "give rise to sth —— 引起、导致，后面接名词不接从句",
+        "give way to sb/sth —— 让路、被取代，也指塌掉，把自己占的位置腾出来"
       ]
     },
     {
@@ -75516,6 +75587,14 @@
         "持有：股票职位这些也算攥在手里，名下有它",
         "容纳：容器把里头的东西攥住，装得下这么多",
         "举行：把一场活动攥在手里办起来，按时开场"
+      ],
+      "collocations": [
+        "hold up sth/sb —— 耽误、拖住，也指持械抢劫，up 是拦在半空不让往下走",
+        "hold back sth/sb —— 阻止、拉住，也指隐瞒不说出来，back 是往回拽住不放出去",
+        "hold on to sth —— 抓紧不放，也表保住不丢，on 是让手一直附在上面",
+        "hold on —— 稍等、别挂电话，也表坚持住，on 是停在原状态不动",
+        "get/take hold of sb/sth —— 抓住某物、联系上某人，hold 此处是名词，一把能握住的量",
+        "hold a meeting / be held —— 举行会议或活动，主语是活动时用被动 be held"
       ]
     },
     {
@@ -78207,6 +78286,14 @@
         "保持：让状态一直不变，不断掉",
         "保存：把东西留在手里不散不丢",
         "饲养：把牲口留在身边一直养着"
+      ],
+      "collocations": [
+        "keep up with sb/sth —— 跟上、不落后，up 是把自己抬到与对方齐平并一直保持住",
+        "keep sb from doing sth —— 阻止某人做某事，from 不可省，把人从那件事上隔开",
+        "keep on doing sth —— 一直做下去，on 是一段接一段续上不断；只接 doing 不接 to do",
+        "keep in touch with sb —— 保持联络，让接触一直连着不断线",
+        "keep track of sth —— 掌握某事的动向，track 是脚印，一路跟着记下不丢",
+        "keep + adj —— 保持某状态，此处是系动词，如 keep quiet / keep still，状态不许掉回去"
       ]
     },
     {
@@ -83439,6 +83526,14 @@
         "看：眼睛主动朝一处去",
         "显得：外表送进别人眼里是那个样子",
         "寻找：目光在一片地方来回扫，想找出那样东西"
+      ],
+      "collocations": [
+        "look after sb/sth —— 照顾，after 是眼睛一直跟在后面不离开",
+        "look forward to doing sth —— 盼着做某事，to 是介词，后面必接动名词，不能接动词原形",
+        "look into sth —— 调查、深究，into 是把视线探进内部去查",
+        "look up sth / look sth up —— 查字典或资料，up 是把词条从底下翻上来；宾语是代词时只能放中间，look it up",
+        "look down on sb —— 轻视，视线从高处压下去；look up to sb 是敬重，把人摆在高处仰视",
+        "look + adj —— 看上去如何，此处是系动词，接形容词不接副词，说 look tired 不说 look tiredly"
       ]
     },
     {
@@ -84448,6 +84543,14 @@
         "制作：把材料拼出来、成为一件成品",
         "使得：让某个情况出现，等于把它造出来",
         "牌子：造这东西的那家在成品上留的名号"
+      ],
+      "collocations": [
+        "make sb do sth —— 使某人做某事，主动态不带 to，改被动要还原成 be made to do sth",
+        "make up sth —— 编造，也表构成一个整体，up 是从无到有把料堆成形",
+        "make up for sth —— 弥补亏欠的那一份，把缺口填到齐",
+        "make out sth —— 勉强看清、听清，out 是从模糊里把轮廓拉出来",
+        "make sense of sth —— 弄懂；单说 make sense 是讲得通，两者都不用被动",
+        "make the most of sth —— 充分利用，把手上这点条件用到尽"
       ]
     },
     {
@@ -91971,7 +92074,15 @@
         "走：离开此处，重点在人不在了",
         "变得：情况从一种状态挪到另一种，如渐渐坏掉"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "go through sth —— 经历、仔细过一遍，through 是从头穿到尾一处不漏",
+        "go over sth —— 复查、复习，视线从上方来回扫过",
+        "go off —— 爆炸、闹钟响，也指食物变质，off 是从原来的状态脱开",
+        "go on doing sth —— 继续做同一件事；go on to do sth 是接着做另一件",
+        "go by —— 时间过去；go by sth 是依照某个标准来判断",
+        "go in for sth —— 爱好、参加，for 引出所投向的那一样"
+      ]
     },
     {
       "id": "happen",
@@ -97619,7 +97730,15 @@
         "运转：机器一直动着不停",
         "经营：一摊事由你看着，让它一直转下去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "run into sb/sth —— 偶然碰上某人、也指撞上或遇上麻烦，不是刻意去找；run across sth 同此义，into 是走着走着正撞进对方的路线",
+        "run out of sth —— 把某物用完，主语是人；run out 的主语是东西本身，如 The money ran out，两者不可混",
+        "run over sb/sth —— 车从身上轧过去，也指把稿子快速过一遍，over 是从上方整个掠过",
+        "run a company / run a business —— 经营、管理，让整个摊子持续转起来，此处与跑无关",
+        "in the long run —— 从长远看，把时间拉成一条长跑道，run 此处是名词",
+        "run for president —— 竞选某职位，for 引出所奔向的那个位子"
+      ]
     },
     {
       "id": "rural",
@@ -112617,7 +112736,15 @@
         "使处于：把人或事弄到某种境地，如置于险境",
         "表述：把想法安放成话，轻重全在怎么摆"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "put off sth / put off doing sth —— 推迟，off 是把它从当前时点挪开",
+        "put up with sb/sth —— 忍受，三个词是一体的，宾语只能放最后",
+        "put up sth —— 搭起、张贴，也指留宿某人，up 是把东西立起来",
+        "put forward sth —— 提出建议或方案，把它推到众人面前",
+        "put out sth —— 熄灭火或灯，也表发布，out 是让火从燃着的状态退出去",
+        "put sth into practice —— 付诸实施，把想法放进实做里"
+      ]
     },
     {
       "id": "reputation",
