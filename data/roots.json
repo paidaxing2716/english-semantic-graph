@@ -2174,7 +2174,8 @@
         "face",
         "interface",
         "preface",
-        "surface"
+        "surface",
+        "superficial"
       ]
     },
     {
@@ -6281,6 +6282,41 @@
         "sole",
         "solitary",
         "solo"
+      ]
+    },
+    {
+      "id": "persona",
+      "root": "persona",
+      "variants": [
+        "personn"
+      ],
+      "origin": "拉丁语 persona（演员戴的面具），本是从伊特鲁里亚语借来的剧场用语；义序是面具 → 面具所代表的那个角色 → 扮这角色的那一个，故本族的「人」是从台上那张面具一路让下来的。晚期拉丁语 personalis（属于某个角色的）派出 personal，法语 personnel（按角色编成的）派出 personnel。旧时把它讲成 per（穿过）加 sonare（响），说声音从面具口穿出，今已不取，与本族义序无关",
+      "core_concept": "the mask a player wears, hence the part it stands for / 台上戴的那张面具，以及它所代表的那个角色",
+      "core_image": "台上戴着面具的那位，戏散了摘下来，底下另有一张脸",
+      "english_definition": "a mask worn on stage; the part it stands for; the one who wears it",
+      "word_ids": [
+        "person",
+        "personal",
+        "personality",
+        "personnel"
+      ]
+    },
+    {
+      "id": "superus",
+      "root": "superus",
+      "variants": [
+        "superi",
+        "suprem"
+      ],
+      "origin": "拉丁语 superus（上面的、更高的），比较级 superior（更上的）、最高级 supremus（最上的）；superbus 本指「自居其上的」，故 superb 由傲然一义转出。要紧处在于本根是个形容词，承载「高过其余」这个义；而 super- 只是标位置的前缀、不承载词义，库中 supervise 那类以 super 开头的词，承义的都在别的根上。库中 summa（顶端、总数）另立一根，不合并",
+      "core_concept": "higher than the rest, and highest of all / 高过其余的那一层，直到最上的那一层",
+      "core_image": "两样并排比高低，这一样的顶明显在上头，再往上没有了",
+      "english_definition": "higher than others, above the rest; at the highest point",
+      "word_ids": [
+        "superb",
+        "superior",
+        "superiority",
+        "supreme"
       ]
     }
   ]

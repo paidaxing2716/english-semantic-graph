@@ -51618,6 +51618,146 @@
       "text": "A solitary lamp burned in the hallway.",
       "source": "AI 生成 · 人工审核",
       "scene": "整片沙滩上一串脚印，从这头走到那头，没有第二串与它并行"
+    },
+    {
+      "id": "ex-person-1",
+      "word_id": "person",
+      "text": "Only one person was waiting at the gate.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "戏散了，台上那位摘下面具走下来，就是眼前站着的这一个"
+    },
+    {
+      "id": "ex-person-2",
+      "word_id": "person",
+      "text": "She is a very private person by nature.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "戏散了，台上那位摘下面具走下来，就是眼前站着的这一个"
+    },
+    {
+      "id": "ex-personal-1",
+      "word_id": "personal",
+      "text": "These are my personal belongings, not the company's.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉上贴着一个名字，钥匙只有一把，别处的手拉不开也不该去拉"
+    },
+    {
+      "id": "ex-personal-2",
+      "word_id": "personal",
+      "text": "The manager gave the matter his personal attention.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉上贴着一个名字，钥匙只有一把，别处的手拉不开也不该去拉"
+    },
+    {
+      "id": "ex-personality-1",
+      "word_id": "personality",
+      "text": "He has a warm and easy-going personality.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排面具挂在墙上，眉眼嘴角各拧着不同的劲，隔几步就认得出哪张是哪张"
+    },
+    {
+      "id": "ex-personality-2",
+      "word_id": "personality",
+      "text": "Several television personalities attended the opening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排面具挂在墙上，眉眼嘴角各拧着不同的劲，隔几步就认得出哪张是哪张"
+    },
+    {
+      "id": "ex-personnel-1",
+      "word_id": "personnel",
+      "text": "All military personnel must carry identification.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "编制表上一格一个位置，谁顶哪一格写得清楚，空一格就得补上"
+    },
+    {
+      "id": "ex-personnel-2",
+      "word_id": "personnel",
+      "text": "Ask personnel about your contract before signing it.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "编制表上一格一个位置，谁顶哪一格写得清楚，空一格就得补上"
+    },
+    {
+      "id": "ex-superb-1",
+      "word_id": "superb",
+      "text": "The orchestra gave a superb performance last night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一座石阶大殿立在坡顶，走近了才知檐口比周围屋脊高出一大截"
+    },
+    {
+      "id": "ex-superb-2",
+      "word_id": "superb",
+      "text": "We had a superb view from the balcony.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一座石阶大殿立在坡顶，走近了才知檐口比周围屋脊高出一大截"
+    },
+    {
+      "id": "ex-superior-1",
+      "word_id": "superior",
+      "text": "This model is superior to the older one.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块布并排摊着，手一摸就分出哪块该摆进上头那一档"
+    },
+    {
+      "id": "ex-superior-2",
+      "word_id": "superior",
+      "text": "He reported the delay to his superior.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块布并排摊着，手一摸就分出哪块该摆进上头那一档"
+    },
+    {
+      "id": "ex-superiority-1",
+      "word_id": "superiority",
+      "text": "Air superiority decided the outcome of the campaign.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "记分牌上那一栏一直挂在前头，到终场也没让另一栏追上来"
+    },
+    {
+      "id": "ex-superiority-2",
+      "word_id": "superiority",
+      "text": "She spoke with an irritating air of superiority.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "记分牌上那一栏一直挂在前头，到终场也没让另一栏追上来"
+    },
+    {
+      "id": "ex-supreme-1",
+      "word_id": "supreme",
+      "text": "The Supreme Court heard the case in March.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶一级级踩到顶，再抬脚已无处可落，风只从底下往上吹"
+    },
+    {
+      "id": "ex-supreme-2",
+      "word_id": "supreme",
+      "text": "He made the supreme sacrifice for his crew.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台阶一级级踩到顶，再抬脚已无处可落，风只从底下往上吹"
+    },
+    {
+      "id": "ex-solar-1",
+      "word_id": "solar",
+      "text": "A total solar eclipse crossed the northern coast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋顶铺一片深蓝的板子，白天晒得发烫，天黑了屋里的灯照旧亮着"
+    },
+    {
+      "id": "ex-solar-2",
+      "word_id": "solar",
+      "text": "They installed solar panels on the school roof.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屋顶铺一片深蓝的板子，白天晒得发烫，天黑了屋里的灯照旧亮着"
+    },
+    {
+      "id": "ex-superficial-1",
+      "word_id": "superficial",
+      "text": "The injuries were superficial and healed within days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车门上那道白痕，指甲一刮就没了，底下漆还是原来那个色"
+    },
+    {
+      "id": "ex-superficial-2",
+      "word_id": "superficial",
+      "text": "His grasp of the subject is rather superficial.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车门上那道白痕，指甲一刮就没了，底下漆还是原来那个色"
     }
   ]
 }

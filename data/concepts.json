@@ -1894,7 +1894,8 @@
         "face",
         "interface",
         "preface",
-        "surface"
+        "surface",
+        "superficial"
       ]
     },
     {
@@ -5255,6 +5256,36 @@
         "sole",
         "solitary",
         "solo"
+      ]
+    },
+    {
+      "id": "concept-persona-mask",
+      "concept": "the mask a player wears, hence the part it stands for",
+      "chinese": "戏里的面具",
+      "core_image": "台上戴着面具的那位，戏散了摘下来，底下另有一张脸",
+      "root_ids": [
+        "persona"
+      ],
+      "word_ids": [
+        "person",
+        "personal",
+        "personality",
+        "personnel"
+      ]
+    },
+    {
+      "id": "concept-superus-above",
+      "concept": "higher than the rest, and highest of all",
+      "chinese": "高过其余",
+      "core_image": "两样并排比高低，这一样的顶明显在上头，再往上没有了",
+      "root_ids": [
+        "superus"
+      ],
+      "word_ids": [
+        "superb",
+        "superior",
+        "superiority",
+        "supreme"
       ]
     }
   ]

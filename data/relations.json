@@ -12024,6 +12024,60 @@
       "to": "solitary",
       "type": "root",
       "note": "solus（单独）+ -arius（属于…的）→ 独自一个进行，或整片里只有这一个"
+    },
+    {
+      "from": "persona",
+      "to": "person",
+      "type": "root",
+      "note": "person（persona 面具→所扮的角色）→ 戏散场摘下面具，底下站着的那一个"
+    },
+    {
+      "from": "persona",
+      "to": "personal",
+      "type": "root",
+      "note": "person（persona 面具）+ -al（属于…的）→ 只属于这一张面具，别的那张挨不上"
+    },
+    {
+      "from": "persona",
+      "to": "personality",
+      "type": "root",
+      "note": "person（persona 面具）+ -al + -ity（性质）→ 这张面具本身的那副模样，别的面具没有"
+    },
+    {
+      "from": "persona",
+      "to": "personnel",
+      "type": "root",
+      "note": "personn（persona 面具→角色）+ -el（属于…的）→ 按角色一格一格编成的那一班"
+    },
+    {
+      "from": "superus",
+      "to": "superb",
+      "type": "root",
+      "note": "superb（superus 更高的，superbus 自居其上的）→ 摆出高过众人的架势，看着确实压得住"
+    },
+    {
+      "from": "superus",
+      "to": "superior",
+      "type": "root",
+      "note": "superior（superus 更高的，比较级）→ 两样并排，这一样落在上面那一格"
+    },
+    {
+      "from": "superus",
+      "to": "superiority",
+      "type": "root",
+      "note": "superior（superus 的比较级，更上的）+ -ity（状态）→ 落在上面那一格这件事本身"
+    },
+    {
+      "from": "superus",
+      "to": "supreme",
+      "type": "root",
+      "note": "supreme（superus 更高的，最高级 supremus）→ 一路往上到顶，上面再没有一格"
+    },
+    {
+      "from": "facies",
+      "to": "superficial",
+      "type": "root",
+      "note": "super-（上）+ fici（facies 面）+ -al（属于…的）→ 只在朝外那一面上，往里没有"
     }
   ]
 }

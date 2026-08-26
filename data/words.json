@@ -123826,6 +123826,321 @@
         "仅有的：整片范围里只数得出这一个",
         "独来独往的：习惯如此的人，也用它形容性情"
       ]
+    },
+    {
+      "id": "person",
+      "word": "person",
+      "pos": "noun",
+      "phonetic": "/ˈpɜːsn/",
+      "decomposable": "root",
+      "root_ids": [
+        "persona"
+      ],
+      "root_logic": "person（persona 面具→所扮的角色）→ 戏散场摘下面具，底下站着的那一个",
+      "origin": "拉丁语 persona（演员戴的面具，进而指所扮的角色）经古法语 persone 入中古英语，指单个的活体",
+      "native_definition": "a single human being, considered as one individual",
+      "core_concept": "the one left when the mask comes off – 面具摘下后剩下的那一个",
+      "core_image": "戏散了，台上那位摘下面具走下来，就是眼前站着的这一个",
+      "chinese": [
+        "人",
+        "人物",
+        "人称"
+      ],
+      "examples": [
+        "Only one person was waiting at the gate.",
+        "She is a very private person by nature."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "人：面具底下那个活的个体，一个就是一个",
+        "人物：还戴着面具的时候，戏单上列的那一个角色",
+        "人称：说话时占的那个位置，第一位、第二位、第三位各是一格"
+      ]
+    },
+    {
+      "id": "personal",
+      "word": "personal",
+      "pos": "adjective",
+      "phonetic": "/ˈpɜːsənl/",
+      "decomposable": "root",
+      "root_ids": [
+        "persona"
+      ],
+      "root_logic": "person（persona 面具）+ -al（属于…的）→ 只属于这一张面具，别的那张挨不上",
+      "origin": "晚期拉丁语 personalis（属于某个角色的）← persona（面具、所扮的角色），经古法语 personel 入英语",
+      "native_definition": "belonging to or done by one particular individual, not shared",
+      "core_concept": "tied to one mask only – 只系在一张面具上，不与别的共用",
+      "core_image": "抽屉上贴着一个名字，钥匙只有一把，别处的手拉不开也不该去拉",
+      "chinese": [
+        "个人的",
+        "亲自的",
+        "私人的"
+      ],
+      "examples": [
+        "These are my personal belongings, not the company's.",
+        "The manager gave the matter his personal attention."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "个人的：这一张面具名下的，不属于旁的那几张",
+        "亲自的：这张面具自己到场，没有派替身来顶",
+        "私人的：面具背面那一侧，本不朝外给人看"
+      ]
+    },
+    {
+      "id": "personality",
+      "word": "personality",
+      "pos": "noun",
+      "phonetic": "/ˌpɜːsəˈnæləti/",
+      "decomposable": "root",
+      "root_ids": [
+        "persona"
+      ],
+      "root_logic": "person（persona 面具）+ -al + -ity（性质）→ 这张面具本身的那副模样，别的面具没有",
+      "origin": "中世纪拉丁语 personalitas ← personalis（属于某个角色的）← persona（面具、所扮的角色），经古法语入英语",
+      "native_definition": "the set of qualities that makes one individual different from another",
+      "core_concept": "the look worn into one mask – 一张面具上定下来的那副样子",
+      "core_image": "一排面具挂在墙上，眉眼嘴角各拧着不同的劲，隔几步就认得出哪张是哪张",
+      "chinese": [
+        "性格",
+        "个性",
+        "名人"
+      ],
+      "examples": [
+        "He has a warm and easy-going personality.",
+        "Several television personalities attended the opening."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "性格：这张面具定下来的那副脾性，遇事总照这个来",
+        "个性：与旁的面具比对时最不一样的那几处",
+        "名人：那张面具自己出了名，不必报名字也认得出"
+      ]
+    },
+    {
+      "id": "personnel",
+      "word": "personnel",
+      "pos": "noun",
+      "phonetic": "/ˌpɜːsəˈnel/",
+      "decomposable": "root",
+      "root_ids": [
+        "persona"
+      ],
+      "root_logic": "personn（persona 面具→角色）+ -el（属于…的）→ 按角色一格一格编成的那一班",
+      "origin": "法语 personnel（按职务编成的人手）← 拉丁语 personalis ← persona（面具、所扮的角色），十九世纪初经军中用语入英语",
+      "native_definition": "the whole body of people employed in an organisation, or the department that handles them",
+      "core_concept": "a body set out by parts to play – 按角色编好的那一班人手",
+      "core_image": "编制表上一格一个位置，谁顶哪一格写得清楚，空一格就得补上",
+      "chinese": [
+        "全体人员",
+        "人事部门"
+      ],
+      "examples": [
+        "All military personnel must carry identification.",
+        "Ask personnel about your contract before signing it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "全体人员：一格一个填满的那一整班，说的是整体不是某一个",
+        "人事部门：管这张编制表的那一处，谁进哪格由它排"
+      ]
+    },
+    {
+      "id": "superb",
+      "word": "superb",
+      "pos": "adjective",
+      "phonetic": "/suːˈpɜːb/",
+      "decomposable": "root",
+      "root_ids": [
+        "superus"
+      ],
+      "root_logic": "superb（superus 更高的，superbus 自居其上的）→ 摆出高过众人的架势，看着确实压得住",
+      "origin": "拉丁语 superbus（自居其上的、傲然的）← superus（上面的、更高的），十六世纪入英语先表气派宏大，再由「傲然」转指出色到压过一众",
+      "native_definition": "so good or grand that it stands well above the rest",
+      "core_concept": "standing a head above the rest – 比周围高出一头，气派也在那儿",
+      "core_image": "一座石阶大殿立在坡顶，走近了才知檐口比周围屋脊高出一大截",
+      "chinese": [
+        "极好的",
+        "宏伟的"
+      ],
+      "examples": [
+        "The orchestra gave a superb performance last night.",
+        "We had a superb view from the balcony."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "极好的：好到从一众里拔出来，不是勉强及格那种好",
+        "宏伟的：本义那一层，体量与气派实实在在高过四周"
+      ]
+    },
+    {
+      "id": "superior",
+      "word": "superior",
+      "pos": "adjective / noun",
+      "phonetic": "/suːˈpɪəriə(r)/",
+      "decomposable": "root",
+      "root_ids": [
+        "superus"
+      ],
+      "root_logic": "superior（superus 更高的，比较级）→ 两样并排，这一样落在上面那一格",
+      "origin": "拉丁语 superior（更上的），superus（上面的、更高的）的比较级，十四世纪经古法语入英语",
+      "native_definition": "higher in quality, rank, or position than another",
+      "core_concept": "set in the higher of two slots – 两者相比时占上面那一格",
+      "core_image": "两块布并排摊着，手一摸就分出哪块该摆进上头那一档",
+      "chinese": [
+        "更好的",
+        "上级",
+        "优越的"
+      ],
+      "examples": [
+        "This model is superior to the older one.",
+        "He reported the delay to his superior."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "更好的：比出来的，参照物就摆在旁边",
+        "上级：位置上高一格的那个人，命令由那格往下走",
+        "优越的：自己觉着在上头，语气里带出俯视"
+      ],
+      "collocations": [
+        "be superior to sth —— 优于某物，用 to 不用 than",
+        "be superior in sth —— 在某方面胜出，点明比的是哪一项"
+      ]
+    },
+    {
+      "id": "superiority",
+      "word": "superiority",
+      "pos": "noun",
+      "phonetic": "/suːˌpɪəriˈɒrəti/",
+      "decomposable": "root",
+      "root_ids": [
+        "superus"
+      ],
+      "root_logic": "superior（superus 的比较级，更上的）+ -ity（状态）→ 落在上面那一格这件事本身",
+      "origin": "中世纪拉丁语 superioritas ← 拉丁语 superior（更上的，superus 的比较级）",
+      "native_definition": "the state of being higher or better than another",
+      "core_concept": "the standing of being in the higher slot – 占着上面那一格的状态",
+      "core_image": "记分牌上那一栏一直挂在前头，到终场也没让另一栏追上来",
+      "chinese": [
+        "优越",
+        "优势"
+      ],
+      "examples": [
+        "Air superiority decided the outcome of the campaign.",
+        "She spoke with an irritating air of superiority."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "优越：自居上头的那种感觉，多落在语气与姿态上",
+        "优势：实打实高出的那一截，可以数出来、用得上"
+      ]
+    },
+    {
+      "id": "supreme",
+      "word": "supreme",
+      "pos": "adjective",
+      "phonetic": "/suːˈpriːm/",
+      "decomposable": "root",
+      "root_ids": [
+        "superus"
+      ],
+      "root_logic": "supreme（superus 更高的，最高级 supremus）→ 一路往上到顶，上面再没有一格",
+      "origin": "拉丁语 supremus（最上的），superus（上面的、更高的）的最高级，十六世纪入英语",
+      "native_definition": "highest in rank, power, or degree, with nothing above it",
+      "core_concept": "at the top step, none above – 踩到最后一级，上面没有了",
+      "core_image": "台阶一级级踩到顶，再抬脚已无处可落，风只从底下往上吹",
+      "chinese": [
+        "最高的",
+        "至上的",
+        "极度的"
+      ],
+      "examples": [
+        "The Supreme Court heard the case in March.",
+        "He made the supreme sacrifice for his crew."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "最高的：位阶上到顶的那一级，判了就没处再往上告",
+        "至上的：地位上没有更高的，别的都得往它下面排",
+        "极度的：程度也到顶，再往上没有更重的说法"
+      ]
+    },
+    {
+      "id": "solar",
+      "word": "solar",
+      "pos": "adjective",
+      "phonetic": "/ˈsəʊlə(r)/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 solaris（属于日轮的）← sol（太阳），十五世纪入英语；拉丁语 solus（单独的，出 sole、solitary 一支）与 sol 不同源，勿混",
+      "native_definition": "having to do with the sun, its light, or its heat",
+      "core_concept": "belonging to the great light overhead – 属于头顶那颗恒星的",
+      "core_image": "屋顶铺一片深蓝的板子，白天晒得发烫，天黑了屋里的灯照旧亮着",
+      "chinese": [
+        "太阳的",
+        "太阳能的"
+      ],
+      "examples": [
+        "A total solar eclipse crossed the northern coast.",
+        "They installed solar panels on the school roof."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "太阳的：与那颗恒星本身有关，说位置、说轨道、说它被遮住",
+        "太阳能的：说的是从它那儿取来的热与电，落在器具上"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "superficial",
+      "word": "superficial",
+      "pos": "adjective",
+      "phonetic": "/ˌsuːpəˈfɪʃl/",
+      "decomposable": "root",
+      "root_ids": [
+        "facies"
+      ],
+      "root_logic": "super-（上）+ fici（facies 面）+ -al（属于…的）→ 只在朝外那一面上，往里没有",
+      "origin": "晚期拉丁语 superficialis ← superficies（上面那一层面）：super（上）+ facies（面、外貌）；承义的是 facies 这一支，super 只标位置",
+      "native_definition": "existing only at or near the surface, not going deep",
+      "core_concept": "only on the outward face – 只到朝外那一面为止",
+      "core_image": "车门上那道白痕，指甲一刮就没了，底下漆还是原来那个色",
+      "chinese": [
+        "表面的",
+        "肤浅的",
+        "表层的"
+      ],
+      "examples": [
+        "The injuries were superficial and healed within days.",
+        "His grasp of the subject is rather superficial."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "表面的：只在朝外那一面上，说的是位置",
+        "肤浅的：同一层意思挪到人身上，看过一眼就以为懂了",
+        "表层的：物体最外那一薄层，底下另有内里"
+      ]
     }
   ]
 }
