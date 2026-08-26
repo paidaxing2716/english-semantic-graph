@@ -1808,31 +1808,31 @@
       "note": "improve（使变好）+ -ment（结果）→ 变好这件事，或变好的那一处 → 改进"
     },
     {
-      "from": "minus",
+      "from": "minus-less",
       "to": "minor",
       "type": "root",
       "note": "minus（更小）的比较级形 minor → 两者相比更小的那个 → 次要的"
     },
     {
-      "from": "minus",
+      "from": "minus-less",
       "to": "minority",
       "type": "root",
       "note": "minor（更小的）+ -ity（名词）→ 数目更小的那一部分 → 少数"
     },
     {
-      "from": "minus",
+      "from": "minus-less",
       "to": "diminish",
       "type": "root",
       "note": "di-（往下、脱离）+ min（变小）+ -ish（动词）→ 一路变得更小 → 减少"
     },
     {
-      "from": "minus",
+      "from": "minus-less",
       "to": "minister",
       "type": "root",
       "note": "min（更小、居下）+ -ister（人）→ 原指居下服事的人，后指受君主之命理政者 → 大臣、部长"
     },
     {
-      "from": "minus",
+      "from": "minus-less",
       "to": "administer",
       "type": "root",
       "note": "ad-（朝向）+ minister（承事者）→ 去为某事承担事务 → 管理"
@@ -7778,7 +7778,7 @@
       "note": "mēkhanē（装置）→ 几件零件配起来，通上力就替人做活"
     },
     {
-      "from": "minus",
+      "from": "minus-less",
       "to": "menu",
       "type": "root",
       "note": "minutus（弄小了的）← minus（更小）→ 把整桌拆成一条条细列出来"

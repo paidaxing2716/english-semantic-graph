@@ -11228,7 +11228,7 @@
       "phonetic": "/ˈmaɪnər/",
       "decomposable": "root",
       "root_ids": [
-        "minus"
+        "minus-less"
       ],
       "root_logic": "minus（更小）的比较级形 minor → 两者相比更小的那个 → 次要的",
       "origin": "拉丁语 minor：minus（更小）的比较级",
@@ -11269,7 +11269,7 @@
       "phonetic": "/maɪˈnɔːrəti/",
       "decomposable": "root",
       "root_ids": [
-        "minus"
+        "minus-less"
       ],
       "root_logic": "minor（更小的）+ -ity（名词）→ 数目更小的那一部分 → 少数",
       "origin": "拉丁语 minoritas：minor（更小）",
@@ -11307,7 +11307,7 @@
       "phonetic": "/dɪˈmɪnɪʃ/",
       "decomposable": "root",
       "root_ids": [
-        "minus"
+        "minus-less"
       ],
       "root_logic": "di-（往下、脱离）+ min（变小）+ -ish（动词）→ 一路变得更小 → 减少",
       "origin": "拉丁语 diminuere：de-（往下）+ minuere（使变小）",
@@ -11348,7 +11348,7 @@
       "phonetic": "/ˈmɪnɪstər/",
       "decomposable": "root",
       "root_ids": [
-        "minus"
+        "minus-less"
       ],
       "root_logic": "min（更小、居下）+ -ister（人）→ 原指居下服事的人，后指受君主之命理政者 → 大臣、部长",
       "recall_hint": "min（居下、次一等）+ -ister → 原指居下服事的人；后来成为受命理政的那个职位",
@@ -11387,7 +11387,7 @@
       "phonetic": "/ədˈmɪnɪstər/",
       "decomposable": "root",
       "root_ids": [
-        "minus"
+        "minus-less"
       ],
       "root_logic": "ad-（朝向）+ minister（承事者）→ 去为某事承担事务 → 管理",
       "origin": "拉丁语 administrare：ad-（朝向）+ ministrare（服事）← minister（仆从）",
@@ -90296,7 +90296,7 @@
       "phonetic": "/ˈmenjuː/",
       "decomposable": "root",
       "root_ids": [
-        "minus"
+        "minus-less"
       ],
       "root_logic": "minutus（弄小了的）← minus（更小）→ 把整桌拆成一条条细列出来",
       "origin": "法语 menu（详细清单）← 形容词 menu（细小的）← 拉丁语 minutus（弄小的）← minus（更小）",
