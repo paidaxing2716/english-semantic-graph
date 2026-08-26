@@ -6467,6 +6467,11 @@
       "semantic_expansions": [
         "最终/最后：位置上处在尽头",
         "终于：强调走到尽头前经历了漫长过程。同一个'尽头'，一个说位置一个带情绪"
+      ],
+      "collocations": [
+        "Finally, + 主句 —— 句首加逗号，引出列举的最后一项，与 first 和 second 呼应",
+        "finally arrived/agreed/decided —— 终于，插在主语与实义动词之间，带熬过一段漫长过程的情绪",
+        "at last / in the end —— 三者分工：finally 兼列举与终于，at last 只带如释重负，in the end 只说最后结果"
       ]
     },
     {
@@ -11967,6 +11972,12 @@
       "semantic_expansions": [
         "真正地/确实：按实际情形来说",
         "很（加强语气）：由'确实如此'虚化成的程度副词。同一个'实在'，一个说事实一个只剩语气"
+      ],
+      "collocations": [
+        "really + adj/adv —— 很、非常，口语里最常用的加强说法，与 very 同档，强于 quite ≈ rather",
+        "really + like/want/need sth —— 确实、真的，放在实义动词前加强肯定",
+        "don't really + do sth —— 不太、不怎么，否定被削弱；换成 really don't 就成了强否定，语序定轻重",
+        "not really —— 其实不、不算是，单独作答时比 no 留余地"
       ]
     },
     {
@@ -14590,6 +14601,12 @@
       ],
       "semantic_expansions": [
         "除…之外与除外：都是'被从整体里抓出去的那一项'，中文一个作介词一个作动词"
+      ],
+      "collocations": [
+        "except + n/pron —— 把它排除在外不算，与 besides（一并算上）方向相反",
+        "except for + n —— 整体成立只有这一处例外，多用于挑毛病",
+        "except that + 从句 —— 要接从句时用这个壳，也说 except when/where",
+        "cannot do anything except do sth —— 否定句里接动词原形，等于只能"
       ]
     },
     {
@@ -14791,6 +14808,12 @@
       "semantic_expansions": [
         "确实/无疑：以不留疑问的方式陈述",
         "当然（应答）：不必犹豫就答应。同一个'不容摇摆'，一个用于陈述一个用于应答"
+      ],
+      "collocations": [
+        "will/would certainly + do sth —— 一定会，插在助动词与实义动词之间，是它最常见的位置",
+        "Certainly. / Certainly not. —— 应答用法，当然可以与当然不行成对，比 yes 与 no 正式而有礼",
+        "almost certainly —— 几乎可以肯定，把断言收回一点余地，书面里比单用 certainly 更稳",
+        "Certainly, + 主句, but ... —— 句首先认下一层再用 but 转开，议论里常见的让步壳"
       ]
     },
     {
@@ -17160,6 +17183,12 @@
       ],
       "semantic_expansions": [
         "在…期间与在…过程中：都是'在某事撑着的那一段之内'，中文按侧重时间还是过程分了两个词"
+      ],
+      "collocations": [
+        "during the war/meeting —— 后接有起止的时段名词，回答什么时候发生",
+        "for two hours, not during two hours —— 问持续多久用 for 接时长，during 不接数量时长",
+        "during one's stay/visit —— 在某人逗留期间，所有格加事件名词",
+        "at some point during sth —— 在某段过程中的某一刻，把时点放进时段里"
       ]
     },
     {
@@ -22353,6 +22382,12 @@
       "semantic_expansions": [
         "实际上/实用地：按现实行动而不是抽象说法判断",
         "几乎：实际效果已经接近完整状态，只差极小一步"
+      ],
+      "collocations": [
+        "practically + adj —— 几乎、差不多，如 practically empty；不落在 somewhat < fairly < quite ≈ rather < very 这把尺上，而是越过 very 逼近满值，只差一步到 completely",
+        "practically all/every/everyone —— 几乎全部，修饰整体量词时与 almost 可换",
+        "Practically speaking, + 主句 —— 句首插入语，实际说来，此处回到实用这一义，不表程度",
+        "practically impossible —— 兼两层：实际上做不到，以及差一点就不可能，靠上下文分"
       ]
     },
     {
@@ -31123,7 +31158,12 @@
       "semantic_expansions": [
         "关于/有关：就所牵涉的那一桩而言"
       ],
-      "recall_hint": "concern（牵涉）+ -ing → 就所牵涉的那桩而言"
+      "recall_hint": "concern（牵涉）+ -ing → 就所牵涉的那桩而言",
+      "collocations": [
+        "concerning + n —— 关于，正式语域，多见于公文与学术，日常说 about",
+        "matters/questions concerning sth —— 与…有关的事项，后置修饰前面的名词",
+        "a concerning trend —— 也作形容词表令人担忧，与介词义不相干"
+      ]
     },
     {
       "id": "discern",
@@ -34155,7 +34195,12 @@
       "semantic_expansions": [
         "主要地/大部分/多半：占着整体大头的那一边"
       ],
-      "recall_hint": "large（大部分）+ -ly → 占着大头地"
+      "recall_hint": "large（大部分）+ -ly → 占着大头地",
+      "collocations": [
+        "largely ignored/unchanged/responsible —— 大体上、主要是，接过去分词或形容词是它最常见的位置",
+        "largely due to / largely because of sth —— 主要由于，用来指出占大头的那个原因",
+        "largely a matter of sth —— 主要是某一方面的事，把整件事归到一头上；与 mostly 的分工是它论比重、mostly 论件数与次数"
+      ]
     },
     {
       "id": "major",
@@ -34799,7 +34844,13 @@
       "semantic_expansions": [
         "关于/至于：目光正对着的那一桩事"
       ],
-      "recall_hint": "regard（投目）+ -ing → 目光所对着的那件事"
+      "recall_hint": "regard（投目）+ -ing → 目光所对着的那件事",
+      "collocations": [
+        "regarding + n —— 关于、至于，书面正式，常用来引出信函话题",
+        "with/in regard to sth —— 同义的短语形式，公文里更常见",
+        "as regards sth —— 同义，注意 regards 带 s 且后面不加 to",
+        "regarding vs concerning —— 两者用法几乎相同，都限书面，前者中性、后者略硬"
+      ]
     },
     {
       "id": "regardless",
@@ -34837,7 +34888,13 @@
         "不顾/不管：目光不往那边转",
         "无论如何：不管那边有什么，照样进行"
       ],
-      "recall_hint": "regard（投目留意）+ -less（无）→ 不往那边看，照样走"
+      "recall_hint": "regard（投目留意）+ -less（无）→ 不往那边看，照样走",
+      "collocations": [
+        "regardless of + n/doing —— 不管、无论，后接名词或动名词，不能直接接从句",
+        "主句 + regardless —— 副词单用置于句末，表照样进行，后面不接宾语",
+        "regardless of whether + 从句 —— 要接从句时得加 whether 或 what 这层壳",
+        "irregardless —— 非标准形式，正式写作里一律用 regardless"
+      ]
     },
     {
       "id": "regular",
@@ -36332,7 +36389,12 @@
         "目前：就眼下这一刻而言",
         "不久/很快：刚过眼下这一刻就到"
       ],
-      "recall_hint": "present（当下）+ -ly → 就眼下这一刻，或刚过这一刻"
+      "recall_hint": "present（当下）+ -ly → 就眼下这一刻，或刚过这一刻",
+      "collocations": [
+        "be presently + doing sth —— 目前正在，与进行时连用是美式常用的那一义",
+        "will + do sth + presently —— 不久就会，与将来时连用是英式旧义，位置多在句末",
+        "Presently, + 主句 —— 句首时是英式叙述里的过了一会儿，与 soon 同义"
+      ]
     },
     {
       "id": "profession",
@@ -37350,7 +37412,13 @@
         "分开/相隔：各份各占一边",
         "除外：把那一份单撇出去不算"
       ],
-      "recall_hint": "a-（朝）+ part（份）→ 各归各份、分处两边"
+      "recall_hint": "a-（朝）+ part（份）→ 各归各份、分处两边",
+      "collocations": [
+        "apart from sth —— 除…之外，双向：既能撇开不算，也能表除此还有；美式说法是 aside from",
+        "tell A and B apart —— 分辨两者，固定搭配，此处不能换成 aside",
+        "fall apart / take sth apart —— 散掉、拆开，此处是分成各片",
+        "ten metres apart / two years apart —— 相隔，接在量度之后说距离或时差"
+      ]
     },
     {
       "id": "apartment",
@@ -40936,6 +41004,12 @@
       "semantic_expansions": [
         "在船上/在车上：人已在载具里头，随它一起动",
         "上船：从岸上跨进去那一步"
+      ],
+      "collocations": [
+        "aboard a ship/plane/train —— 在船上、机上、车上，作介词时带宾语",
+        "go/come/climb aboard —— 上船、登机，作副词时后面不带宾语",
+        "All aboard! —— 请上车、请登船，站台与码头上的招呼",
+        "welcome sb aboard —— 欢迎登乘，也用来比喻欢迎加入团队"
       ]
     },
     {
@@ -41025,6 +41099,12 @@
       "semantic_expansions": [
         "在国外/到国外：人越出本国界线之外",
         "广泛地：铺得开、散到远处"
+      ],
+      "collocations": [
+        "go/travel/live abroad —— 出国、在国外，前面不加介词，不说 go to abroad",
+        "from abroad —— 来自国外，是能与它连用的基本介词",
+        "study/work abroad —— 留学、在国外工作，固定说法",
+        "spread abroad —— 广为流传，书面旧义，此处不指国外"
       ]
     },
     {
@@ -41451,6 +41531,12 @@
       "semantic_expansions": [
         "横过/穿过：从一侧越到另一侧",
         "在对面：隔着中间那道，位于另一头"
+      ],
+      "collocations": [
+        "across sth —— 从一侧横越到对面，路线与被越过的东西交叉",
+        "come/run across sth —— 偶然碰上、无意中发现，不是刻意去找",
+        "get sth across to sb —— 把意思讲明白，让对方听懂",
+        "across the board —— 全面地、一律，各类各档都算在内"
       ]
     },
     {
@@ -42126,6 +42212,12 @@
       "semantic_expansions": [
         "在前面/向前：位置或行进上处在最前一段",
         "提前：时间上比别人先到那一段"
+      ],
+      "collocations": [
+        "ahead of sth/sb —— 在…前面，位置或时间上先于它",
+        "ahead of schedule / ahead of time —— 提前，两者都是固定搭配",
+        "go ahead —— 动手吧、往前推进，也用来许可对方开始",
+        "look ahead / plan ahead —— 往前看、提前打算，把眼光放到后面的时间上"
       ]
     },
     {
@@ -42638,6 +42730,12 @@
       "semantic_expansions": [
         "沿着/顺着：贴着长东西的边走，不离开它",
         "向前：只剩这一条长东西时，走就是往那头去"
+      ],
+      "collocations": [
+        "along sth —— 沿着河流、道路这类线状物前行，与它同向而不穿过",
+        "along with sb/sth —— 连同、一起，附带的那一份放在 with 后",
+        "get along with sb —— 与人相处得来，也表事情有进展",
+        "all along —— 从一开始就一直如此，强调整段时间没变"
       ]
     },
     {
@@ -42724,6 +42822,12 @@
       "semantic_expansions": [
         "也/同样：已有一份，再来一份一模一样的",
         "而且：把新添的那份接在前面那句后头"
+      ],
+      "collocations": [
+        "主语 + also + verb —— 位置在实义动词之前、be 动词和助动词之后",
+        "be/have + also + done —— 有助动词时插在助动词后面，如 has also been asked",
+        "..., too / ... as well —— 与 also 同义但位置不同，这两个放句末，also 一般不放句末",
+        "not only... but also... —— 不但而且，but also 后的成分要与 not only 后对等"
       ]
     },
     {
@@ -42752,6 +42856,12 @@
       "related": [],
       "semantic_expansions": [
         "虽然/尽管：鞋都湿透这件事摆在那儿，动作还是照做"
+      ],
+      "collocations": [
+        "Although + 从句, 主句 —— 虽然，句首让步；主句前不能再加 but 或 yet，中文虽然…但是…直译即错",
+        "主句, although + 从句 —— 让步从句后置，语气上像补充说明",
+        "although + adj/doing —— 主语与主句一致时可省主语和 be，如 although tired",
+        "..., though —— 同义的 though 可置句末表不过，although 不能这样用"
       ]
     },
     {
@@ -42811,6 +42921,12 @@
       "semantic_expansions": [
         "总是/一直：每次推门都吱那一声，回回不落",
         "永远：把这条回回不落的规矩拉到看不见头"
+      ],
+      "collocations": [
+        "be always + doing sth —— 老是在做，与进行时连用表抱怨或不耐，不是单说频率",
+        "always + do sth —— 总是，位置在实义动词之前、be 与助动词之后",
+        "as always —— 像往常一样，作插入语，多用逗号隔开",
+        "not always —— 并不总是，部分否定，不等于从不"
       ]
     },
     {
@@ -42987,6 +43103,12 @@
       "semantic_expansions": [
         "在…之中：四面被围住，只剩一顶帽子露在外面",
         "在…期间：一片乱声把人裹在里面的那段时候"
+      ],
+      "collocations": [
+        "amid + uncountable/abstract n —— 后接不可数或抽象名词，如 amid uncertainty",
+        "amid growing concern/criticism —— 在越来越强的某种气氛之中，新闻里的背景交代",
+        "amid the ruins/crowd —— 也可接集合名词，此时近似 in the middle of",
+        "amid vs among —— 前者衬托抽象背景，后者点明夹在一群可数的东西里"
       ]
     },
     {
@@ -43016,6 +43138,12 @@
       "semantic_expansions": [
         "在…之中：左右前后都是别人，自己是这群里的一个",
         "在…之间：三个以上的东西围着，说不清挨着哪一个"
+      ],
+      "collocations": [
+        "among + plural n —— 后接可数复数或集体名词，三者以上才用",
+        "divide/share sth among sb —— 在三人以上之间分摊，只两方时用 between",
+        "among the most + adj —— 属于最…之列，避开 the most 独此一个的说法",
+        "popular among sb —— 在某群人当中受欢迎，指群体内部"
       ]
     },
     {
@@ -43667,6 +43795,11 @@
       "semantic_expansions": [
         "无论如何/不管怎样：不看条件如何，这件事照样成",
         "随随便便地：过程不挑方式，怎么弄成的都行"
+      ],
+      "collocations": [
+        "Anyhow, + 主句 —— 无论如何，句首加逗号，与 anyway 同义而更偏口语",
+        "..., anyhow —— 置于句末表反正，语气比 anyway 随意",
+        "do sth anyhow —— 随随便便地做，只有 anyhow 有这个义，anyway 没有"
       ]
     },
     {
@@ -43756,6 +43889,12 @@
         "无论如何：条件怎么变都照旧的那一下",
         "反正：说来说去结果一样，索性照旧",
         "不管怎样：把前头的话搁下，接着做"
+      ],
+      "collocations": [
+        "..., anyway —— 反正、不管怎样，多置句末，口语常用",
+        "Anyway, + 主句 —— 句首加逗号，用来转回正题或结束话题",
+        "in any way —— 分写的 any way 是名词短语，意思是以任何方式，与副词 anyway 不同",
+        "anyways —— 口语变体，正式书面语里不用"
       ]
     },
     {
@@ -44156,6 +44295,12 @@
         "围绕：贴着一整圈走的那个动作",
         "四周：那一圈所占的位置",
         "大约：数字上画个圈，不咬死某一点"
+      ],
+      "collocations": [
+        "around sth —— 绕某物一圈或散在其四周，也表绕开障碍",
+        "around 30 people / around 1990 —— 大约，估个数，与 about 同义",
+        "show sb around sth —— 带某人四处看看",
+        "the other way around —— 恰好相反，把两者的位置对调"
       ]
     },
     {
@@ -45271,6 +45416,12 @@
         "离开：从这儿往外走的那一下",
         "在远处：走完之后停在够不着的地方",
         "不在：该有人的位置空着，人已在别处"
+      ],
+      "collocations": [
+        "get away with sth —— 做了坏事没被追究，away 在此表脱身",
+        "two miles away / a week away —— 相隔多远、还差多久，接在量度之后",
+        "right away / straight away —— 立刻，两者等值，前者美式后者英式",
+        "give/throw/put sth away —— 送掉、扔掉、收起来，都是让它脱手离开自己"
       ]
     },
     {
@@ -45606,6 +45757,12 @@
         "很糟地：钉歪了、站不稳那种做法",
         "严重地：坏到影响整件事",
         "非常：把程度这一头单拿出来用"
+      ],
+      "collocations": [
+        "do badly / be badly made —— 很糟地，说做得不好或表现差，此义还能加 very 成 very badly",
+        "need/want/miss sth badly —— 非常想要，此义只落在动词或宾语之后，挪到动词前就不通",
+        "badly injured / badly damaged / badly needed —— 严重地，接过去分词时程度顶到 very 之上，不在 somewhat < fairly < quite ≈ rather < very 的中段",
+        "badly off —— 境况差、手头紧，与 well off 成对，此处不表程度"
       ]
     },
     {
@@ -46340,6 +46497,12 @@
         "勉强：踮到脚跟离地才够着的那种程度",
         "仅仅：只剩这么一点、多的没有",
         "几乎不：差一点就完全不成立"
+      ],
+      "collocations": [
+        "barely enough / barely visible —— 勉强够、勉强看得见，barely 独有的侧重是刚够到线，再差一点就不成立",
+        "barely escape / barely manage to do sth —— 勉强逃过、勉强办成，事情成了但只差一点就没成",
+        "barely any / barely ever —— 几乎没有、几乎从不，本身即否定，句中不再加 not；与 hardly 同档，scarcely 是同档里更书面的那个",
+        "can barely hear/see sth —— 简直听不见，程度落在 somewhat 之下且已越过否定线，不占 somewhat < fairly < quite ≈ rather < very 这把尺上任何一格"
       ]
     },
     {
@@ -47071,7 +47234,13 @@
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": []
+      "semantic_expansions": [],
+      "collocations": [
+        "主句 + because + 从句 —— 因为，后接完整主谓，直接回答 why",
+        "because of + n/doing —— 后接名词或动名词，不能接从句，这是 because 最常错的一处",
+        "Because + 从句, 主句 —— 原因前置时用逗号隔开，主句前不能再加 so",
+        "Just because + 从句 + doesn't mean + 从句 —— 不能因为…就…，用来否掉一个推论"
+      ]
     },
     {
       "id": "become",
@@ -47390,6 +47559,12 @@
         "在后面：位置落在某物之后",
         "落后：进度掉在该到的点后头",
         "背后：被前面遮住、看不见的那一侧"
+      ],
+      "collocations": [
+        "behind sth —— 在…后面，前面的东西把视线挡住了",
+        "fall/lag behind sb —— 落在后头，进度或水平不如人",
+        "be behind sth —— 是背后的推手或起因，人本身不露面",
+        "behind schedule —— 落后于原定时间，比计划晚"
       ]
     },
     {
@@ -47665,6 +47840,12 @@
         "在下面：位置落在某物之下",
         "低于：程度上比某处更低",
         "不值得：低到不配拿来相提"
+      ],
+      "collocations": [
+        "beneath sth —— 在…正下方，书面语，日常多用 under",
+        "beneath one's dignity —— 有失身份、不值得去做",
+        "beneath the surface —— 表面之下，指没显露出来的实情",
+        "from beneath sth —— 自下方而来，标明来处"
       ]
     },
     {
@@ -47841,6 +48022,12 @@
         "在那边：位置落在那道边之外",
         "超出：数量或程度过了那条线",
         "除…之外：划出的范围之外还剩下的"
+      ],
+      "collocations": [
+        "beyond doubt/question —— 毫无疑问，不容再争",
+        "beyond one's control —— 非某人力所能及，责任不在他",
+        "beyond repair/recognition —— 修不好了、认不出来了，坏到无法回头",
+        "go beyond sth —— 超出某个界限或范围"
       ]
     },
     {
@@ -61928,6 +62115,12 @@
         "向下：位置从高变低",
         "沿着…往下：顺着路、河这类线往低处走",
         "低落的：心情像位置那样往下掉了一截"
+      ],
+      "collocations": [
+        "down sth —— 顺着…往下或往前，接 street/river 时并不含高低",
+        "cut down on sth —— 减少某物的用量，一步步压下来",
+        "let sb down —— 使某人失望，没兑现他的指望",
+        "feel/be down —— 情绪低落，此处作形容词"
       ]
     },
     {
@@ -61959,6 +62152,11 @@
         "市中心：城里店铺和写字楼扎堆的那一片",
         "在市中心：人往那一片去，或事情发生在那儿",
         "商业区的：形容位于那一片的东西"
+      ],
+      "collocations": [
+        "go/drive downtown —— 去市中心，作副词时前面不加介词，不说 go to downtown",
+        "downtown Chicago / a downtown office —— 作定语，直接修饰城市名或地点",
+        "city centre / in town —— 英式多用这两说，downtown 是美式说法"
       ]
     },
     {
@@ -63749,6 +63947,12 @@
       "semantic_expansions": [
         "其他的/别的：不是眼前这个，指向旁边那份",
         "否则：不选这条，就落到另一条路上"
+      ],
+      "collocations": [
+        "something/anything/nothing + else —— 别的东西，else 必须后置，不能说 else something",
+        "who/what/where + else —— 还有谁、还有什么，疑问词后紧跟 else",
+        "or else —— 否则、不然，引出不照做的后果，等于 otherwise",
+        "someone else's —— 所有格加在 else 后面，不说 someone's else"
       ]
     },
     {
@@ -64429,6 +64633,12 @@
         "曾经：整段时间里有过那么一次",
         "永远：从头到尾每一点都算上",
         "究竟：把问句的范围推到极处"
+      ],
+      "collocations": [
+        "Have you ever + done sth —— 有没有过这么一次，疑问句与完成时连用是它最常见的位置",
+        "hardly/never/seldom + ever —— 与否定词连用加强，hardly ever 是几乎从不",
+        "busier/better than ever —— 比以往任何时候都更，跟在比较级后把参照拉到整段时间",
+        "the best/worst + n + ever —— 有史以来最，跟在最高级后把范围推到极处"
       ]
     },
     {
@@ -68886,6 +69096,12 @@
       "semantic_expansions": [
         "永远/永久地：时间上不给它划终点",
         "老是：一件事反复到像不会停，中文借这个词说烦"
+      ],
+      "collocations": [
+        "last/stay forever —— 永远持续下去，接在动词后表时间不划终点",
+        "be forever + doing sth —— 老是在做，与进行时连用表抱怨，与 always 同一用法",
+        "forever and ever —— 永永远远，口语与童话里的加强说法",
+        "take forever to do sth —— 花了老半天，夸张说法，实际只是很久"
       ]
     },
     {
@@ -69998,6 +70214,13 @@
         "进一步：程度上比原先又深一层",
         "额外的：在原有那些之上再多出来的",
         "促进：推着一件事越过它现在的位置"
+      ],
+      "collocations": [
+        "further information / further details —— 更多的、额外的，接名词表在已有之外再加",
+        "walk farther / walk further —— 讲实际距离两词都行而 farther 更稳；抽象的进一步只能用 further",
+        "discuss sth further / look into sth further —— 进一步，放在动词或宾语之后表再深一层",
+        "further sth —— 作动词表促进，如 further one's career",
+        "until further notice —— 到另行通知为止，公文里的固定说法"
       ]
     },
     {
@@ -74624,6 +74847,12 @@
         "因此：前面那些已经摆好，结论只能从这儿出来",
         "所以：同一件事，口语和书面都常这么接",
         "从此：从这个时刻往后算，指时间上的起点"
+      ],
+      "collocations": [
+        "Hence, + 主句 —— 句首加逗号引出结论，比 so 正式",
+        "...; hence, + 主句 —— 它是副词不是连词，两个句子之间要用句号或分号，It broke, hence we left 不合规范",
+        "hence + n/doing —— 因此就有了，后面可只接名词或分词而不带主谓，如 hence the delay",
+        "two weeks hence —— 从现在起两周之后，此处表时间，语域偏古雅"
       ]
     },
     {
@@ -74870,6 +75099,12 @@
         "非常：程度往上顶得远，就是很",
         "高度地：书面里说程度深，多用这个",
         "高地位地：评价或位置都被抬得很上"
+      ],
+      "collocations": [
+        "highly likely/unlikely/probable —— 很可能，程度与 very 同档，但 highly 只搭得上有限的一批词，不像 very 那样通配",
+        "highly recommended / highly respected / highly trained —— 接过去分词是它最常见的位置，书面里比 very 稳",
+        "speak/think highly of sb —— 高度评价某人，固定搭配，此处不能换成 high",
+        "fly high / aim high —— 空间上的高只能用 high，highly 只管程度，两词不通用"
       ]
     },
     {
@@ -75180,6 +75415,12 @@
         "迄今：从过去一路数到眼下这一刻",
         "到目前为止：同一个意思，说得更直白",
         "此前：只指这一刻之前的那一段"
+      ],
+      "collocations": [
+        "sth has hitherto been + adj —— 到目前为止一直是，多配现在完成时，语域是正式书面",
+        "hitherto unknown / hitherto unpublished —— 此前不为人知的，接过去分词作定语，学术与新闻常见",
+        "Hitherto, + 主句 —— 句首加逗号交代到此为止的情形，后文多接转折说此后不同",
+        "so far / until now —— 日常里用这两说，hitherto 只出现在正式书面语"
       ]
     },
     {
@@ -76021,6 +76262,12 @@
         "然而：前后两句意思相反，用它接住",
         "不管怎样：任凭情况如何，结论照旧",
         "无论多么：不管程度到哪一步，都还是那样"
+      ],
+      "collocations": [
+        "However, + 主句 —— 句首加逗号，独立引出转折，书面正式",
+        "...; however, + 主句 —— 它是副词不是连词，与前句之间只能用句号或分号；It rained, however we went 是错的，要写成 It rained. However, we went",
+        "however + adj/adv + 从句 —— 无论多么，此处表让步，与转折义无关，如 however hard he tried",
+        "however much/many —— 不管多少，后接完整主谓，是量上的让步"
       ]
     },
     {
@@ -76730,6 +76977,12 @@
         "确实：承认对方说的正是这样",
         "的确：同一个意思，语气再加一分",
         "其实：接着补出实情，可能与前面听着不同"
+      ],
+      "collocations": [
+        "Indeed, + 主句 —— 句首加逗号，进一步确认或补强上文",
+        "very + adj/adv + indeed —— 置于句末加强 very 的程度，如 thank you very much indeed",
+        "be + indeed + adj —— 插在 be 动词之后确认事实，语气比单说 be 重",
+        "if indeed + 从句 —— 如果真是那样，对前提本身留一分怀疑"
       ]
     },
     {
@@ -77125,6 +77378,12 @@
         "代替：把原来那个换下来，自己顶上",
         "反而：预料的没发生，出来的是另一样",
         "而不是：两者只挑后一个，前一个作废"
+      ],
+      "collocations": [
+        "主句 + instead —— 副词，最常置句末，也可置句首加逗号，后面不能再接宾语",
+        "instead of + n/doing —— 介词短语，后接名词或动名词，不能接从句",
+        "A instead of B —— 用 A 不用 B，被舍弃的那个放在 of 后面",
+        "instead of me/him —— of 后面用宾格代词，不用主格"
       ]
     },
     {
@@ -82178,6 +82437,12 @@
         "免得：做这一步就是为了不让那事出现",
         "以免：提前避开可能的麻烦",
         "唯恐：心里怕那事发生，所以格外小心"
+      ],
+      "collocations": [
+        "lest sb should do sth —— 免得某人做某事，从句用 should 加动词原形，是虚拟语气的完整形",
+        "lest sb do sth —— should 省掉后动词仍留原形，第三人称也不加 s，如 lest he forget",
+        "lest anyone think that + 从句 —— 唯恐有人这么想，写作里用来预先挡下误解",
+        "for fear that + 从句 —— 日常里用这一说，lest 只出现在正式书面语"
       ]
     },
     {
@@ -82455,6 +82720,12 @@
         "像：拿来跟另一样比，形貌对得上",
         "喜欢：心里觉得这样东西对自己合得来",
         "类似的：性质上跟那一类挨得近"
+      ],
+      "collocations": [
+        "like + n/pron —— 介词，像、如同，后面只接名词或代词，不接从句",
+        "look/sound/feel like + n —— 看上去、听起来像，要接从句得换成 as if",
+        "like doing sth vs would like to do sth —— 前者是一贯的爱好，后者是此刻的意愿，更客气",
+        "nothing like sth —— 完全不像，也表远不及，语气重于 not like"
       ]
     },
     {
@@ -82517,6 +82788,12 @@
         "同样地：方式跟刚才那个一致",
         "也：前面成立，这一项跟着成立",
         "照样：不改花样，原样再做一次"
+      ],
+      "collocations": [
+        "Likewise, + 主句 —— 句首加逗号，表上文所说同样适用于此",
+        "...; likewise, + 主句 —— 它是副词不是连词，两个句子只能用句号或分号隔开，不能只用逗号",
+        "do likewise —— 照样做、跟着这么做，此时作方式状语",
+        "Likewise. —— 口语里单说一句，表我也一样"
       ]
     },
     {
@@ -86045,6 +86322,11 @@
         "而且：顺着上文再加一层同向的话",
         "此外：前面说的之外还有别的一项",
         "再者：把新的一条接在已说过的后面"
+      ],
+      "collocations": [
+        "Moreover, + 主句 —— 句首加逗号，正式书面语中最常见的位置",
+        "...; moreover, + 主句 —— 它是副词不是连词，前面只能用句号或分号，只用逗号连起两个句子是错的",
+        "..., moreover, ... —— 插在句中用双逗号隔开，语气比句首缓"
       ]
     },
     {
@@ -86221,6 +86503,11 @@
         "主要地：占分量最重的那部分是这样",
         "大多：数一数，多数都归这一边",
         "通常：多数时候都如此，偶尔才有例外"
+      ],
+      "collocations": [
+        "be mostly + n/adj —— 大多是，数得出的成员里多数归这一边，此处不换 largely",
+        "mostly + do sth —— 通常、多半这么做，说的是次数上的多数，largely 没有这个用法",
+        "mostly cloudy/sunny —— 天气预报的固定说法，以多云或晴为主"
       ]
     },
     {
@@ -86699,6 +86986,11 @@
         "即：前面提过的东西，这就把它点明",
         "也就是：换成确切的说法再讲一遍",
         "具体来说：从笼统的话落到具体那一项"
+      ],
+      "collocations": [
+        "..., namely + n —— 即、也就是，前面用逗号或破折号，后接上文所指的具体项",
+        "n, namely A and B —— 先总说数目或范畴，再用 namely 把成员一一点明",
+        "that is + n/从句 —— 与 namely 近义但更宽，后面还能接一个句子，namely 一般只跟名词性成分"
       ]
     },
     {
@@ -86939,6 +87231,12 @@
         "几乎：只差最后一点点就成了",
         "差不多：与那个数或那个样子相去很小",
         "将近：数量或时间快够到某个刻度"
+      ],
+      "collocations": [
+        "nearly two hours / nearly 300 people —— 将近，接数量时表快够到那个刻度",
+        "nearly + adj —— 几乎、差不多，如 nearly empty；不占 somewhat < fairly < quite ≈ rather < very 这把尺上的格，而是越过 very 逼近满值，只差一步没到 completely",
+        "not nearly enough / not nearly as adj as sth —— 远远不够、远不如，此时不表几乎而是把差距拉大",
+        "nearly all / almost none —— 全量一侧两词都换得，否定量词一侧只能用 almost，nearly none 与 nearly no one 都不地道"
       ]
     },
     {
@@ -87924,6 +88222,12 @@
         "如今：拿从前作比，说眼下这个时候",
         "现在：单指当下这个时间点",
         "这些年：把当下摊成一段时间来说"
+      ],
+      "collocations": [
+        "Nowadays, + 主句 —— 句首加逗号，拿从前作比说眼下，是它最常见的位置",
+        "people nowadays do sth —— 只与一般现在时连用，说的是眼下这段的常态，配过去时就不通",
+        "主句 + nowadays —— 也可放在句末，句中位置少见",
+        "these days —— 口语里多用这一说，nowadays 更常出现在书面与考题里"
       ]
     },
     {
@@ -87955,6 +88259,12 @@
         "无处：找遍各处都挑不出那个地方",
         "哪里都不：动作没有可去的方向",
         "毫无进展：事情走不出去，等于原地没动"
+      ],
+      "collocations": [
+        "nowhere near + adj/n —— 远远不、差得远，如 nowhere near ready",
+        "Nowhere is this clearer than in sth —— 句首倒装，主语与助动词要颠倒，学术写作里常见",
+        "get nowhere / lead nowhere —— 毫无进展、没有结果",
+        "sth is nowhere to be found —— 哪儿都找不到，后接不定式被动"
       ]
     },
     {
@@ -88429,6 +88739,12 @@
       "semantic_expansions": [
         "到…上面：动作结束时人或物停在某个面上",
         "察觉：be onto somebody 里指看出对方在干什么"
+      ],
+      "collocations": [
+        "onto sth —— 从外面移到某物表面并停在上面，含落点",
+        "get onto sth —— 登上车船，也表转到某个话题",
+        "be onto sb/sth —— 察觉某人的把戏，或摸到了点门道",
+        "hold/hang onto sth —— 抓紧不放，也表保住不丢"
       ]
     },
     {
@@ -90472,7 +90788,13 @@
         "之后：同一层意思，紧接着前文",
         "随后：紧跟着发生，间隔很短"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "主句 + afterward —— 后来、之后，副词置于句末最常见，后面不接宾语",
+        "afterwards —— 英式多加 -s，美式多用 afterward，两者意思相同",
+        "soon/shortly afterward —— 不久之后，前面加程度词指明间隔长短",
+        "after + n/从句 —— after 是介词或连词，必须带成分；afterward 是副词单用，不能说 afterward the meeting"
+      ]
     },
     {
       "id": "ample",
@@ -90621,7 +90943,13 @@
         "到一边：动作上挪开，让出地方",
         "旁白：戏里压低声音说给一个人或观众听的话"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "set/put sth aside —— 把某物放到一边，也指专门留出时间或钱",
+        "aside from sth —— 等于 apart from，除…之外，美式里更常用",
+        "step aside / move aside —— 让开，引申为让出位置",
+        "say sth as an aside —— 作名词，压低声音说的一句，戏里的旁白"
+      ]
     },
     {
       "id": "awkward",
@@ -91453,7 +91781,13 @@
         "前面的：位置在靠前那一头的",
         "转发：把信件往下一处递过去，用作动词"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "look forward to doing sth —— 盼着做某事，to 是介词，后面必接动名词，不能接动词原形",
+        "put forward sth —— 提出建议或方案，把它推到众人面前",
+        "forward sth to sb —— 转发给某人，此处作动词",
+        "come forward —— 主动站出来提供消息或认领"
+      ]
     },
     {
       "id": "fraud",
@@ -91571,7 +91905,13 @@
         "自：同样指起点，多用在时间上",
         "来自：指出人或物出发的那一处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "from A to B —— 从一端到另一端，地点、时间、范围两头都可用",
+        "prevent/stop/keep sb from doing sth —— 阻止某人做某事，keep 与 prevent 后的 from 不可省",
+        "suffer from sth —— 受某种病痛或困扰折磨，长期承受而非一时",
+        "be different from sth —— 与…不同，英式固定用 from"
+      ]
     },
     {
       "id": "ghost",
@@ -92076,7 +92416,13 @@
         "以后：从现在往后的某个时候",
         "较晚的：两者相比时间上靠后的那个"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "two days later / three years later —— 过了多久，接在量度之后，多配过去时",
+        "later on —— 后来、以后，口语里比单用 later 松一些",
+        "sooner or later —— 迟早，固定搭配",
+        "the latter —— 拼写相近而义不同，指两者中的后一个；later 只说时间在后"
+      ]
     },
     {
       "id": "latin",
@@ -92552,7 +92898,13 @@
         "曾经：那一回落在过去，如今不再",
         "一旦：把那一回当条件，一发生就如何"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "Once + 从句, 主句 —— 一旦、一…就…，作连词，从句用现在时表将来，不用 will",
+        "once a week / twice a month —— 一次、两次，表频率，此处是副词",
+        "once + adj/n —— 曾经、一度，作定语放在名词前，如 the once famous hotel",
+        "at once —— 立刻，也可表同时；for once 则是就这一次"
+      ]
     },
     {
       "id": "outer",
@@ -100258,6 +100610,12 @@
       "semantic_expansions": [
         "加上：把一个数添到另一个数上",
         "优势：额外多出来的那一项，算起来对你有利"
+      ],
+      "collocations": [
+        "A plus B —— 加上，算式与清单里都用，谓语看前一项",
+        "plus + n/doing —— 而且还有，口语里追加一条",
+        "a plus —— 作名词，一个优势或加分项",
+        "plus or minus 5% —— 正负、上下浮动，给出误差范围"
       ]
     },
     {
@@ -107882,6 +108240,12 @@
       "semantic_expansions": [
         "可能/也许：办得到，只是不保证会这样",
         "尽可能：把办得到的这个范围一直用到边上"
+      ],
+      "collocations": [
+        "cannot possibly + do sth —— 绝不可能，与否定连用是加强语气，不是对可能的否定",
+        "as soon as sb possibly can —— 尽快，把办得到的范围用到边上，此处 possibly 修饰 can",
+        "may/might possibly + do sth —— 或许会，与情态动词叠用把断言再放软一层",
+        "How could sb possibly do sth —— 疑问句里加强，表怎么可能"
       ]
     },
     {
@@ -113341,6 +113705,12 @@
       "related": [],
       "semantic_expansions": [
         "介词义「减去」是本义：拉丁语 minus 就是「更少」；名词义「不利之处」由「负号那一侧」引申，指一件事在账面上往下拉的那一项；形容词义「负的」直接取算术符号本身"
+      ],
+      "collocations": [
+        "five minus two —— 减去，介词义，用在两个数之间",
+        "minus five degrees / minus ten —— 零下、负的，说温度与负值",
+        "minus sign —— 负号、减号，此处作定语指符号本身",
+        "the pluses and minuses of sth —— 好处与不利之处，作名词时多用复数，与 plus 成对"
       ]
     },
     {
