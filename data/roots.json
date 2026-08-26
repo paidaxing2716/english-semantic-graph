@@ -14,11 +14,12 @@
       "core_image": "一个清晰可见的轮廓，能被辨认出来的形状",
       "english_definition": "shape, form, figure",
       "word_ids": [
-        "figure",
+        "configuration",
         "configure",
-        "figurative",
         "disfigure",
-        "figment"
+        "figment",
+        "figurative",
+        "figure"
       ]
     },
     {
@@ -755,18 +756,21 @@
       "english_definition": "to build, to arrange in layers",
       "word_ids": [
         "construct",
+        "construction",
+        "destroy",
+        "destruction",
         "destructive",
-        "instruct",
-        "instrument",
-        "instrumental",
-        "structure",
-        "obstruct",
-        "obstruction",
-        "infrastructure",
         "industrial",
         "industrialize",
         "industry",
-        "destroy"
+        "infrastructure",
+        "instruct",
+        "instruction",
+        "instrument",
+        "instrumental",
+        "obstruct",
+        "obstruction",
+        "structure"
       ]
     },
     {

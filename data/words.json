@@ -106680,9 +106680,11 @@
       "word": "alter",
       "pos": "verb",
       "phonetic": "/ˈɔːltə/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "alter-other"
+      ],
+      "root_logic": "alter（两者中的另一个）→ 换成另一个 → 改动",
       "origin": "中世纪拉丁语 alterare（使成为另一个）← 拉丁语 alter（两者中的另一个）",
       "native_definition": "to change something, or to become different",
       "core_concept": "make it into the other one – 把它弄成另一个样",
@@ -106703,17 +106705,18 @@
         "整体变成另一个样 → 改变",
         "只动其中一处 → 改动",
         "专指改衣服的尺寸 → 改衣服"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "alternative",
       "word": "alternative",
       "pos": "noun / adjective",
       "phonetic": "/ɔːlˈtɜːnətɪv/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "alter-other"
+      ],
+      "root_logic": "alter（另一个）+ -native → 另一个可选的那一个 → 替代方案",
       "origin": "法语 alternatif ← 中世纪拉丁语 alternativus ← 拉丁语 alternare（轮着来），出自 alter（两者中的另一个）",
       "native_definition": "another possibility that can be chosen instead",
       "core_concept": "the other one you could take instead – 你本可以走的那另一条",
@@ -106734,8 +106737,7 @@
         "可以换着走的那一条 → 替代方案",
         "作形容词即可换的 → 可选的",
         "不走众人那条 → 另类的"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "dial",

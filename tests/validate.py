@@ -356,6 +356,40 @@ def main():
     else:
         print("[INFO] Q9 概念反向引用完整")
 
+    # --- Q13：词根与单词的引用必须双向一致 ---
+    # Q9 只查了「概念是否收齐该根下的词」这一路，词根 ↔ 单词之间从来没查过。
+    # 后果是单边引用能一路绿灯躺在库里：实测发现 6 处——
+    #   alter-other.word_ids 列了 alter/alternative，那两个词 root_ids 却是空的
+    #   （建根时 word_ids 一次写了三员，只改了 alternate 的 root_ids）
+    #   configuration→figur、construction/destruction/instruction→stru 是反方向：
+    #   词挂着根，根的 word_ids 不收它
+    # 两种都让前端按哪一侧取数就得到哪一侧的结果，词族显示残缺而没有任何报错。
+    wmap = {w["id"]: w for w in words}
+    rmap = {r["id"]: r for r in roots}
+    desync = []
+    for r in roots:
+        for wid in (r.get("word_ids") or []):
+            w = wmap.get(wid)
+            if w is None:
+                desync.append(f"根 {r['id']}.word_ids 列了不存在的词 {wid}")
+            elif r["id"] not in (w.get("root_ids") or []):
+                desync.append(f"根 {r['id']}.word_ids 列了 {wid}，但该词 "
+                              f"root_ids={w.get('root_ids')}")
+    for w in words:
+        for rid in (w.get("root_ids") or []):
+            r = rmap.get(rid)
+            if r is None:
+                desync.append(f"词 {w['id']} 挂了不存在的根 {rid}")
+            elif w["id"] not in (r.get("word_ids") or []):
+                desync.append(f"词 {w['id']} 挂了 {rid}，但该根的 word_ids 不收它")
+    if desync:
+        print(f"[FAIL] 词根与单词引用单边 (Q13): {len(desync)} 处")
+        for m in desync[:20]:
+            print(f"        {m}")
+        ok = False
+    else:
+        print("[INFO] Q13 词根↔单词引用双向一致")
+
     # --- 关系类型 & 端点 ---
     for rel in relations:
         if rel["type"] not in VALID_RELATION_TYPES:
