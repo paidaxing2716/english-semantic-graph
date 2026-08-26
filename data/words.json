@@ -123563,6 +123563,269 @@
       "antonyms": [],
       "related": [],
       "semantic_expansions": []
+    },
+    {
+      "id": "satisfy",
+      "word": "satisfy",
+      "pos": "verb",
+      "phonetic": "/ˈsætɪsfaɪ/",
+      "decomposable": "root",
+      "root_ids": [
+        "satis"
+      ],
+      "root_logic": "satis（够）+ fy（facere 做）→ 做到够为止，对方那一头才算填平",
+      "origin": "拉丁语 satisfacere（做到够）：satis（够）+ facere（做），经古法语 satisfier 入英语",
+      "native_definition": "to give someone enough of what they want or need",
+      "core_concept": "topping a want up until it is level – 把对方的需求添到齐平那条线",
+      "core_image": "客人碗里的汤一勺勺添到齐口，他放下勺子说不用再加了",
+      "chinese": [
+        "满足",
+        "使满意",
+        "符合"
+      ],
+      "examples": [
+        "Nothing I did could satisfy my strict boss.",
+        "This design satisfies all the safety rules."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "满足/使满意：需求那一头被添到齐口，人就不再往上要了",
+        "符合：条件先设了一条线，量添到那条线上就算过"
+      ],
+      "collocations": [
+        "satisfy a condition/requirement —— 符合某项条件，宾语是标准而不是人",
+        "be satisfied with sth —— 对某事觉得够了，过去分词作形容词"
+      ]
+    },
+    {
+      "id": "satisfaction",
+      "word": "satisfaction",
+      "pos": "noun",
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "satis"
+      ],
+      "root_logic": "satis（够）+ fact（facere 做）+ -ion → 做到够之后落下来的那口气",
+      "origin": "拉丁语 satisfactio（做到够这件事）← satisfacere，经古法语入英语",
+      "native_definition": "the good feeling that comes from getting enough of what one wanted",
+      "core_concept": "the settled feeling that enough has been reached – 到够了之后落定的那口气",
+      "core_image": "他把最后一颗螺丝拧紧，退开两步看了一会儿，长长吐出一口气",
+      "chinese": [
+        "满意",
+        "满足感",
+        "称心的事"
+      ],
+      "examples": [
+        "She smiled with quiet satisfaction at the result.",
+        "The repair gave him little satisfaction."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "满意/满足感：添到齐口之后心里落定的那一下",
+        "称心的事：把带来那口气的具体事物也叫这个名"
+      ],
+      "collocations": [
+        "to sb's satisfaction —— 做到让某人认可的程度，多用于结果验收",
+        "with satisfaction —— 带着那口气做某个动作，常修饰 smile 或 nod"
+      ]
+    },
+    {
+      "id": "satisfactory",
+      "word": "satisfactory",
+      "pos": "adjective",
+      "phonetic": "/ˌsætɪsˈfæktəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "satis"
+      ],
+      "root_logic": "satis（够）+ fact（做）+ -ory → 做到了够这条线，刚好过关",
+      "origin": "晚期拉丁语 satisfactorius ← satisfacere（做到够）",
+      "native_definition": "good enough for the purpose, though not more than that",
+      "core_concept": "just over the line of enough and no higher – 刚过够这条线，再往上没有了",
+      "core_image": "验收单上打了勾，写着可以交付，没有一句夸奖的话",
+      "chinese": [
+        "令人满意的",
+        "尚可的",
+        "合格的"
+      ],
+      "examples": [
+        "Her work was satisfactory but not outstanding.",
+        "We need a satisfactory answer before Friday."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "合格的：量正好落在那条线上，够了就放行",
+        "尚可的：够是够了但并不多出来，所以这话听着不算夸奖，只是不挑毛病",
+        "令人满意的：正式场合里说对方那一头已被填平"
+      ]
+    },
+    {
+      "id": "saturate",
+      "word": "saturate",
+      "pos": "verb",
+      "phonetic": "/ˈsætʃəreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "satis"
+      ],
+      "root_logic": "satur（吃饱的）+ -ate → 灌到再也吃不进去",
+      "origin": "拉丁语 saturare（灌到饱）← satur（吃饱的），与 satis（够）同支",
+      "native_definition": "to fill something completely so that no more can be taken in",
+      "core_concept": "filled to the point where no more goes in – 灌到再也进不去一点",
+      "core_image": "毛巾按进水里，提起来水直往下滴，再泡也吸不进一点",
+      "chinese": [
+        "浸透",
+        "使饱和",
+        "充满"
+      ],
+      "examples": [
+        "Heavy rain saturated the soil overnight.",
+        "Ads have saturated the local market."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "浸透：液体把纤维之间的空隙全占了",
+        "使饱和：加进去的量到了上限，多加也不再溶",
+        "充满：市场或空气被占到没有余地，也借这个词"
+      ]
+    },
+    {
+      "id": "sole",
+      "word": "sole",
+      "pos": "adjective",
+      "phonetic": "/səʊl/",
+      "decomposable": "root",
+      "root_ids": [
+        "solus"
+      ],
+      "root_logic": "solus（单独）→ 只此一个，数下来就它一个",
+      "origin": "拉丁语 solus（单独的、唯一的），经古法语 sol 入英语；同形的 sole（鞋底、鳎鱼）来自拉丁语 solea（鞋底），与本词不同源",
+      "native_definition": "being the only one of its kind in a situation",
+      "core_concept": "the only one left when the rest are gone – 数下来只此一个，旁边是空的",
+      "core_image": "名单上原有二十个名字，划到最后只剩一行没被划掉",
+      "chinese": [
+        "唯一的",
+        "仅有的",
+        "单独的"
+      ],
+      "examples": [
+        "He was the sole survivor of the crash.",
+        "She has sole responsibility for the accounts."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "唯一的/仅有的：清点之后只剩这一个",
+        "单独的：权利或责任只落在一方身上，没有第二方分担"
+      ],
+      "collocations": [
+        "sole responsibility/purpose/survivor —— 唯一的，直接放在名词前，一般不作表语",
+        "the sole + n + of sth —— 某个范围里仅有的那一个"
+      ]
+    },
+    {
+      "id": "solo",
+      "word": "solo",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈsəʊləʊ/",
+      "decomposable": "root",
+      "root_ids": [
+        "solus"
+      ],
+      "root_logic": "solus（单独）→ 一个人唱或奏，别人都停下",
+      "origin": "意大利语 solo（单独的）← 拉丁语 solus，先用作乐谱标记，后进英语",
+      "native_definition": "a piece of music performed by one person alone",
+      "core_concept": "one performer left sounding while the rest stop – 全体停下，只剩一个人在响",
+      "core_image": "乐队全体收声，只有一把小提琴还在拉，灯只打在她身上",
+      "chinese": [
+        "独奏",
+        "独唱",
+        "单独的"
+      ],
+      "examples": [
+        "She played a long violin solo tonight.",
+        "He made his first solo flight last week."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "独奏/独唱：乐队里只剩一个人在发声",
+        "单独的：飞行或攀登只有一人上，也借这个词"
+      ]
+    },
+    {
+      "id": "desolate",
+      "word": "desolate",
+      "pos": "adjective",
+      "phonetic": "/ˈdesələt/",
+      "decomposable": "root",
+      "root_ids": [
+        "solus"
+      ],
+      "root_logic": "de-（彻底）+ sol（solus 单独）+ -ate → 被弄成孤零零的一片，人都不在了",
+      "origin": "拉丁语 desolatus ← desolare：de-（彻底）+ solare（使之孤零）← solus（单独的）",
+      "native_definition": "empty of people and comfort, so that it feels bleak",
+      "core_concept": "made utterly alone until nothing warm is left – 被弄到彻底剩下自己，一点热气都没有",
+      "core_image": "风刮过一片空地，几堵断墙立着，路上连一个脚印都没有",
+      "chinese": [
+        "荒凉的",
+        "无人的",
+        "凄凉的"
+      ],
+      "examples": [
+        "They crossed a desolate stretch of moorland.",
+        "The empty house looked desolate in winter."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "荒凉的/无人的：地方被弄空，剩下的只有它自己",
+        "凄凉的：同一种空落感移到心上，说人的处境"
+      ]
+    },
+    {
+      "id": "solitary",
+      "word": "solitary",
+      "pos": "adjective",
+      "phonetic": "/ˈsɒlɪtri/",
+      "decomposable": "root",
+      "root_ids": [
+        "solus"
+      ],
+      "root_logic": "solus（单独）+ -arius（属于…的）→ 独自一个进行，或整片里只有这一个",
+      "origin": "拉丁语 solitarius（独处的）← solus（单独的）",
+      "native_definition": "done alone, or being the only one there",
+      "core_concept": "going about it with no one else along – 从头到尾只有一个，旁边没有伴",
+      "core_image": "整片沙滩上一串脚印，从这头走到那头，没有第二串与它并行",
+      "chinese": [
+        "独自的",
+        "仅有的",
+        "独来独往的"
+      ],
+      "examples": [
+        "He took a solitary walk along the shore.",
+        "A solitary lamp burned in the hallway."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "独自的：动作自始至终只有一个人在做",
+        "仅有的：整片范围里只数得出这一个",
+        "独来独往的：习惯如此的人，也用它形容性情"
+      ]
     }
   ]
 }

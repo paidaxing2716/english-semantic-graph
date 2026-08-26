@@ -11976,6 +11976,54 @@
       "to": "typist",
       "type": "root",
       "note": "typ（typos 模子、刻字的金属块）+ -ist（做这一行的人）→ 整天拿字往纸上按的人"
+    },
+    {
+      "from": "satis",
+      "to": "satisfy",
+      "type": "root",
+      "note": "satis（够）+ fy（facere 做）→ 做到够为止，对方那一头才算填平"
+    },
+    {
+      "from": "satis",
+      "to": "satisfaction",
+      "type": "root",
+      "note": "satis（够）+ fact（facere 做）+ -ion → 做到够之后落下来的那口气"
+    },
+    {
+      "from": "satis",
+      "to": "satisfactory",
+      "type": "root",
+      "note": "satis（够）+ fact（做）+ -ory → 做到了够这条线，刚好过关"
+    },
+    {
+      "from": "satis",
+      "to": "saturate",
+      "type": "root",
+      "note": "satur（吃饱的）+ -ate → 灌到再也吃不进去"
+    },
+    {
+      "from": "solus",
+      "to": "sole",
+      "type": "root",
+      "note": "solus（单独）→ 只此一个，数下来就它一个"
+    },
+    {
+      "from": "solus",
+      "to": "solo",
+      "type": "root",
+      "note": "solus（单独）→ 一个人唱或奏，别人都停下"
+    },
+    {
+      "from": "solus",
+      "to": "desolate",
+      "type": "root",
+      "note": "de-（彻底）+ sol（solus 单独）+ -ate → 被弄成孤零零的一片，人都不在了"
+    },
+    {
+      "from": "solus",
+      "to": "solitary",
+      "type": "root",
+      "note": "solus（单独）+ -arius（属于…的）→ 独自一个进行，或整片里只有这一个"
     }
   ]
 }

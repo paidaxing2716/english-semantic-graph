@@ -5226,6 +5226,36 @@
         "typical",
         "typist"
       ]
+    },
+    {
+      "id": "concept-satis-enough",
+      "concept": "enough, and not a drop past it",
+      "chinese": "加到够",
+      "core_image": "往碗里一勺勺加，加到与碗口齐平就停手，再加就溢出去",
+      "root_ids": [
+        "satis"
+      ],
+      "word_ids": [
+        "satisfaction",
+        "satisfactory",
+        "satisfy",
+        "saturate"
+      ]
+    },
+    {
+      "id": "concept-solus-alone",
+      "concept": "one thing standing with nothing else beside it",
+      "chinese": "只此一个",
+      "core_image": "一张长桌只坐着一个人，其余椅子全空着，屋里没有第二个声音",
+      "root_ids": [
+        "solus"
+      ],
+      "word_ids": [
+        "desolate",
+        "sole",
+        "solitary",
+        "solo"
+      ]
     }
   ]
 }

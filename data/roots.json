@@ -6246,6 +6246,42 @@
         "typical",
         "typist"
       ]
+    },
+    {
+      "id": "satis",
+      "root": "satis",
+      "variants": [
+        "satis",
+        "satur"
+      ],
+      "origin": "拉丁语 satis（够了、足量），形容词 satur（吃饱的）、动词 satiare（使之够）同支；satisfacere = satis + facere（做到够），承义的是 satis。satira（杂盘、杂咏）是另一支，satire 不属本族",
+      "core_concept": "enough, and not a drop past it / 到够为止，不再多添",
+      "core_image": "往碗里一勺勺加，加到与碗口齐平就停手，再加就溢出去",
+      "english_definition": "enough, sated, full to the point of no more",
+      "word_ids": [
+        "satisfaction",
+        "satisfactory",
+        "satisfy",
+        "saturate"
+      ]
+    },
+    {
+      "id": "solus",
+      "root": "solus",
+      "variants": [
+        "solit",
+        "desol"
+      ],
+      "origin": "拉丁语 solus（单独的、唯一的），派生 solitarius（独处的）、solare（使之孤零），desolare = de-（彻底）+ solare。拉丁语另有 sol（太阳），与本根不同源，solar 属太阳那一支，勿混；库中 solvere（解开）、solidus（结实的）也各是别的来路，与 solus 无关",
+      "core_concept": "one thing standing with nothing else beside it / 只此一个，旁边再没有别的",
+      "core_image": "一张长桌只坐着一个人，其余椅子全空着，屋里没有第二个声音",
+      "english_definition": "alone, only, by itself",
+      "word_ids": [
+        "desolate",
+        "sole",
+        "solitary",
+        "solo"
+      ]
     }
   ]
 }
