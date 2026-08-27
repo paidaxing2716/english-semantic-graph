@@ -5301,6 +5301,34 @@
         "superiority",
         "supreme"
       ]
+    },
+    {
+      "id": "concept-charassein-engrave",
+      "concept": "a mark cut in, too deep to rub out",
+      "chinese": "刻下的印记",
+      "core_image": "刀尖在木板上划下几道，木屑翻起，痕嵌进纹理里，谁看都认得出是哪一块",
+      "root_ids": [
+        "charassein"
+      ],
+      "word_ids": [
+        "character",
+        "characteristic",
+        "characterize"
+      ]
+    },
+    {
+      "id": "concept-carus-dear",
+      "concept": "holding something dear enough to handle it gently",
+      "chinese": "看得贵重",
+      "core_image": "一件旧物拿在手里，指头不敢用力，放下时还垫了一层软布",
+      "root_ids": [
+        "carus"
+      ],
+      "word_ids": [
+        "caress",
+        "charity",
+        "cherish"
+      ]
     }
   ]
 }

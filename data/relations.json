@@ -12162,6 +12162,42 @@
       "to": "complicated",
       "type": "root",
       "note": "com-（一起）+ plic（plicare 折叠）+ -ated → 好几层折在一起，抖不开也数不清"
+    },
+    {
+      "from": "charassein",
+      "to": "character",
+      "type": "root",
+      "note": "charact（charassein 刻）+ -er → 刻下来的那个印记 → 一个人身上改不动的那些"
+    },
+    {
+      "from": "charassein",
+      "to": "characteristic",
+      "type": "root",
+      "note": "charact（charassein 刻）+ -istic → 属于那个刻痕的 → 一眼认得出的特点"
+    },
+    {
+      "from": "charassein",
+      "to": "characterize",
+      "type": "root",
+      "note": "charact（charassein 刻）+ -ize → 拿刻痕把它标出来 → 描述其特征"
+    },
+    {
+      "from": "carus",
+      "to": "caress",
+      "type": "root",
+      "note": "cares（← carezza ← carus 亲爱）→ 把人当贵重物件那样碰 → 轻抚"
+    },
+    {
+      "from": "carus",
+      "to": "charity",
+      "type": "root",
+      "note": "char（carus 亲爱、贵重）+ -ity → 把别人看得贵重这份心 → 施予、慈善"
+    },
+    {
+      "from": "carus",
+      "to": "cherish",
+      "type": "root",
+      "note": "cher（← chier ← carus 亲爱）+ -ish → 当贵重东西那样对待 → 珍爱"
     }
   ]
 }

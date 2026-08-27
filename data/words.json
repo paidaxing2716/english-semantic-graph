@@ -118506,9 +118506,11 @@
       "word": "characterize",
       "pos": "verb",
       "phonetic": "/ˈkærəktəraɪz/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "charassein"
+      ],
+      "root_logic": "charact（charassein 刻）+ -ize → 拿刻痕把它标出来 → 描述其特征",
       "origin": "希腊语 kharakterizein（以特征标出）← kharakter（刻下的印记）← kharassein（刻、划）← kharax（尖桩）；kharax 更早词源不明，与拉丁语的对照级构词法无关",
       "native_definition": "to describe the typical qualities of someone or something, or to be typical of it",
       "core_concept": "cutting the mark that tells a thing apart – 划下那道认得出它的记号",
@@ -118532,8 +118534,7 @@
       ],
       "collocations": [
         "be characterized by sth —— 以某特征为标志，被动式把被描述的那样东西作主语"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "comparative",
@@ -119025,10 +119026,12 @@
       "word": "caress",
       "pos": "verb / noun",
       "phonetic": "/kəˈres/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
-      "origin": "法语 caresse ← 意大利语 carezza（亲昵的举动）← caro ← 拉丁语 carus（亲爱的、宝贵的）；与 carrus（货车）无关，本项目未为 carus 族建根",
+      "decomposable": "root",
+      "root_ids": [
+        "carus"
+      ],
+      "root_logic": "cares（← carezza ← carus 亲爱）→ 把人当贵重物件那样碰 → 轻抚",
+      "origin": "法语 caresse ← 意大利语 carezza（亲昵的举动）← caro ← 拉丁语 carus（亲爱的、宝贵的）；与 carrus（货车）无关",
       "native_definition": "to touch someone gently and lovingly, or such a touch",
       "core_concept": "a touch light enough to show it is dear – 轻到只为表明这人宝贵的那种碰",
       "core_image": "手掌贴着婴儿的头顶来回移，慢得没把那层绒毛压下去",
@@ -119046,8 +119049,7 @@
       "semantic_expansions": [
         "抚摸：手贴上去慢慢移动，力道极轻",
         "爱抚：同一个动作说出里头那份亲近，重在心意"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "clear",
@@ -124617,9 +124619,11 @@
       "word": "character",
       "pos": "noun",
       "phonetic": "/ˈkærəktə/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "charassein"
+      ],
+      "root_logic": "charact（charassein 刻）+ -er → 刻下来的那个印记 → 一个人身上改不动的那些",
       "origin": "希腊语 kharaktēr（刻下的印记、烙印）← kharassein（刻、划）；kharax（尖桩）更早词源不明",
       "native_definition": "the qualities that make someone or something what it is; also a person in a story, or a written sign",
       "core_concept": "a mark cut in so deep it cannot be rubbed off – 刻进去擦不掉的那道痕",
@@ -124642,18 +124646,19 @@
         "角色：戏里书里被刻画出来的那一个人",
         "字符：写下来的那一个记号，字母或汉字",
         "特征：一样东西身上认得出它的那道印记"
-      ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "charity",
       "word": "charity",
       "pos": "noun",
       "phonetic": "/ˈtʃærəti/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
-      "origin": "古法语 charite ← 拉丁语 caritas（珍视、亲爱之情）← carus（亲爱的、宝贵的）；本项目未为 carus 族建根",
+      "decomposable": "root",
+      "root_ids": [
+        "carus"
+      ],
+      "root_logic": "char（carus 亲爱、贵重）+ -ity → 把别人看得贵重这份心 → 施予、慈善",
+      "origin": "古法语 charite ← 拉丁语 caritas（珍视、亲爱之情）← carus（亲爱的、宝贵的）",
       "native_definition": "kindness in giving help to people in need, or an organization that does this",
       "core_concept": "treating another as dear enough to give to – 把别人看得亲，才拿得出手",
       "core_image": "门口的纸箱里堆着旧毛衣和罐头，谁放的都没写名字，晚上就被搬走了",
@@ -124675,8 +124680,7 @@
         "善款：拿出去的那笔钱物本身",
         "慈善机构：专做这件事的那个组织",
         "施舍：具体那个给出去的动作，带一点上下之分"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "chemistry",
@@ -125182,9 +125186,11 @@
       "word": "cherish",
       "pos": "verb",
       "phonetic": "/ˈtʃerɪʃ/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "carus"
+      ],
+      "root_logic": "cher（← chier ← carus 亲爱）+ -ish → 当贵重东西那样对待 → 珍爱",
       "origin": "古法语 cherir（珍爱）← chier（亲爱的）← 拉丁语 carus（亲爱的、贵重的）；与 carrus（四轮货车）不同源，勿混",
       "native_definition": "to hold someone or something dear and look after them carefully",
       "core_concept": "holding a thing dear enough to guard it – 拿它当贵重的，看着护着",
@@ -125205,8 +125211,7 @@
         "珍爱：把人或物看得贵重，肯花心思待它",
         "珍藏：贵重到要收起来，不轻易拿出",
         "怀有：心里长久揣着一个念头或愿望"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "border",
@@ -125541,9 +125546,11 @@
       "word": "characteristic",
       "pos": "noun / adjective",
       "phonetic": "/ˌkærəktəˈrɪstɪk/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "charassein"
+      ],
+      "root_logic": "charact（charassein 刻）+ -istic → 属于那个刻痕的 → 一眼认得出的特点",
       "origin": "希腊语 charaktēristikos ← charaktēr（打上的印记）← charassein（刻、划）",
       "native_definition": "a feature that belongs to someone or something and helps you identify them",
       "core_concept": "the mark cut in that tells one from another – 刻上去的那道印，凭它认出是谁",
@@ -125564,8 +125571,7 @@
         "特征：能把这一个从同类里认出来的那一点",
         "特有的：只在它身上出现，别处没有",
         "典型的：与它一贯的样子对得上"
-      ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "chemist",

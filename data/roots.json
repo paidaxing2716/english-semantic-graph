@@ -6335,6 +6335,42 @@
         "superiority",
         "supreme"
       ]
+    },
+    {
+      "id": "charassein",
+      "root": "charassein",
+      "variants": [
+        "charact",
+        "charakt",
+        "charass"
+      ],
+      "origin": "希腊语 kharassein（刻、划）→ kharakter（刻下的印记、烙印）；kharax（尖桩）更早词源不明。刻痕一旦嵌进去便改不动，故由「印记」转出「性格、特征」",
+      "core_concept": "a mark cut in, too deep to rub out / 刻进去的那道痕，擦不掉也改不动",
+      "core_image": "刀尖在木板上划下几道，木屑翻起，痕嵌进纹理里，谁看都认得出是哪一块",
+      "english_definition": "to engrave, to cut a mark; hence a distinctive stamp",
+      "word_ids": [
+        "character",
+        "characteristic",
+        "characterize"
+      ]
+    },
+    {
+      "id": "carus",
+      "root": "carus",
+      "variants": [
+        "char",
+        "cher",
+        "cares"
+      ],
+      "origin": "拉丁语 carus（亲爱的、贵重的）→ caritas（珍视之情）；经古法语 chier / cherir 与意大利语 caro / carezza 入英语。与库中 carrus（四轮货车，借自高卢语）**不同源**，勿混",
+      "core_concept": "holding something dear enough to handle it gently / 看得贵重，于是手上就轻",
+      "core_image": "一件旧物拿在手里，指头不敢用力，放下时还垫了一层软布",
+      "english_definition": "dear, precious; costly",
+      "word_ids": [
+        "caress",
+        "charity",
+        "cherish"
+      ]
     }
   ]
 }
