@@ -99,7 +99,11 @@ def main():
     CONTRAST = ("不同根", "不同源", "不计入", "不合并", "非同", "不属", "而不",
                 "无关", "勿混", "另有分别", "并非同源", "不是同", "两个不同",
                 "已分化", "而分支不同", "不同支", "承义的是", "不是 ", "语义已分",
-                "不在此列", "另有分立")
+                # 「异源」补的是**同形异源**这个写法：库中 tense 的 origin 写着
+                # 「表『时态』的 tense 另出拉丁语 tempus，同形异源」，处理完全正确，
+                # 但「同形异源」里没有「不同源」三字连排，旧表匹配不到，于是一条
+                # 写对了的词源说明反而被报成漏挂。
+                "异源", "不在此列", "另有分立")
 
     # 语境用**字数窗口**，不按标点分句。试过分句，更差：这些 origin 的否定词
     # 常与词形隔着逗号或括号（「与 profile 的 filum（线）一支毫无关系」——
@@ -118,11 +122,50 @@ def main():
             (dropped if any(x in c for x in CONTRAST) else out).add(m.group(1))
         return out, dropped - out
 
-    forms, ignored = {}, {}
+    # 【别根的自有标识不做本根的键】
+    # 根的 origin 会正当地写出构词成分，而那个成分本身常常就是另一个根：
+    #     intelligere 的 origin 写「inter-（之间）+ legere（挑选）」
+    #     fortuna     的 origin 写「fortis（强）→ fortuna」
+    #     mandare     的 origin 写「manus（手）+ dare」
+    # 于是 legere / fortis / manus 成了**前者**的键，任何 origin 提到它们的词都被
+    # 报成「应挂前者」。实测全库 23 处这样的泄漏，正是本会话反复出现又被逐条判成
+    # 假阳性的那批警告的成因：force → fortuna、fireplace → placere、
+    # lesson → intelligere 全部出自此处。
+    #
+    # 判据：一个拉丁词形若已经是**另一个根的 id 或 root 字段**，它就属于那个根，
+    # 不该同时充当「origin 里提到它的根」的键。那个根自己会用它匹配，召回不丢。
+    #
+    # 只过滤 origin 抽出来的键，**不动 id / root / variants**——全库有 25 个变体
+    # 被多个根有意同时声明（`leg` 同属 legere 与 lex-legis 是刻意分立），
+    # 那类冲突由 noisy_variants 处理，不该在这里一刀切掉。
+    #
+    # 「自有标识」除了 id 与 root 字段，还必须算上**本根 origin 里的首个拉丁词元**。
+    # 全库约三分之一的根按族里可见的英语词干命名（fac / rect / dict / plic / pend /
+    # spect，见 draft-spec 的命名一节），它们的拉丁原形只出现在自己的 origin 里。
+    # 不算这一层的话，jus 的 origin 写「judex 是 jus＋dicere」时，dicere 仍会成为
+    # jus 的键，而 dicere 真正的归属是 id 为 `dict` 的那个根——condition 正确挂在
+    # dict 上，却被报成该挂 jus。取首个而非全部，理由与 probe_etymology_coverage
+    # 的 root_keys 相同：origin 是散文，首个之后提到的往往正是别的根。
+    owned = set()
+    for r in roots:
+        marks = [r["id"], r.get("root", "")]
+        head = re.search(r"[A-Za-z][A-Za-z]{3,}", r.get("origin", "") or "")
+        if head:
+            marks.append(head.group(0))
+        for x in marks:
+            for piece in re.split(r"[^A-Za-z]+", x or ""):
+                if len(piece) >= a.min_len:
+                    owned.add(piece.lower())
+
+    forms, ignored, borrowed = {}, {}, {}
     for r in roots:
         cand = {r.get("root", "")} | set(r.get("variants") or [])
         keep, drop = lemmas_from_origin(r.get("origin", ""))
-        cand |= keep
+        mine = {x.lower() for x in cand if x}
+        steal = {c for c in keep if c.lower() in owned and c.lower() not in mine}
+        if steal:
+            borrowed[r["id"]] = sorted(steal)
+        cand |= (keep - steal)
         cand = {c for c in cand
                 if c and len(c) >= a.min_len and c.isalpha() and c not in STOP}
         if cand:
@@ -196,6 +239,13 @@ def main():
                 break
 
     # 放宽检查的地方必须自己说出来，否则下一个人无法判断 [OK] 有多少含金量。
+    if borrowed:
+        n = sum(len(v) for v in borrowed.values())
+        print(f"[info] {n} 个词形是别根的自有标识，未用作本根的键"
+              f"（归属那个根，由它自己匹配），涉及 {len(borrowed)} 个根：")
+        for rid, fs in sorted(borrowed.items()):
+            print(f"    {rid} 的 origin 提到 {', '.join(fs)}")
+        print()
     if ignored:
         n = sum(len(v) for v in ignored.values())
         print(f"[info] {n} 个词形处在排除措辞（{'/'.join(CONTRAST[:4])}…）附近，"
