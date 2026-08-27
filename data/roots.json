@@ -1125,7 +1125,8 @@
         "employment",
         "unemployment",
         "complex",
-        "appliance"
+        "appliance",
+        "complicated"
       ]
     },
     {
@@ -1620,7 +1621,8 @@
         "communism",
         "community",
         "commonwealth",
-        "immune"
+        "immune",
+        "common"
       ]
     },
     {
@@ -2404,7 +2406,8 @@
         "surpass",
         "pace",
         "passenger",
-        "passport"
+        "passport",
+        "bypass"
       ]
     },
     {
@@ -3036,30 +3039,34 @@
       "core_image": "手探出去，把飞来的球一把接住握住",
       "english_definition": "to take, to grasp, to receive",
       "word_ids": [
+        "accept",
         "acceptable",
         "acceptance",
+        "anticipate",
+        "cable",
+        "capable",
+        "capacity",
+        "capsule",
+        "captive",
+        "capture",
+        "cash",
+        "cashier",
+        "catch",
+        "cater",
+        "chase",
+        "conceive",
+        "concept",
+        "deceit",
+        "deceive",
+        "except",
         "exception",
         "exceptional",
-        "reception",
-        "concept",
-        "except",
-        "receipt",
-        "susceptible",
-        "accept",
-        "receive",
-        "deceive",
-        "conceive",
         "perceive",
-        "capture",
-        "captive",
-        "catch",
-        "chase",
-        "cable",
-        "deceit",
-        "cater",
         "purchase",
-        "anticipate",
-        "capacity"
+        "receipt",
+        "receive",
+        "reception",
+        "susceptible"
       ]
     },
     {
@@ -3806,7 +3813,9 @@
         "decay",
         "coincide",
         "case",
-        "casual"
+        "casual",
+        "casualty",
+        "coincidence"
       ]
     },
     {
@@ -3899,7 +3908,8 @@
         "biology",
         "dialect",
         "analogy",
-        "analogue"
+        "analogue",
+        "catalog"
       ]
     },
     {
@@ -4489,7 +4499,9 @@
         "mischief",
         "cape",
         "captain",
-        "chapter"
+        "chapter",
+        "capital",
+        "capitalism"
       ]
     },
     {

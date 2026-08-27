@@ -117518,10 +117518,12 @@
       "word": "cash",
       "pos": "noun / verb",
       "phonetic": "/kæʃ/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
-      "origin": "法语 caisse（钱箱）← 意大利语 cassa ← 拉丁语 capsa（箱、钱柜）；本项目未为 capsa 一支建根",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "cash（← caisse 钱箱 ← capsa 匣 ← capere 抓住、盛住）→ 装在匣里随手取用的那些钱",
+      "origin": "法语 caisse（钱箱）← 意大利语 cassa ← 拉丁语 capsa（箱、钱柜）；capsa 出 capere（抓住、盛住），故归 cep 一族，与 capsule、cashier 同支",
       "native_definition": "money in the form of notes and coins",
       "core_concept": "the money kept in the box – 箱格里放着的那些钱",
       "core_image": "抽屉一拉开，里面按面值分格摆着一叠叠纸票和硬币",
@@ -117539,8 +117541,7 @@
       "semantic_expansions": [
         "现金：钱箱里放着的、当场付得出的那些",
         "兑现：把票据换成箱里那种钱"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "cup",
@@ -124208,6 +124209,1843 @@
       "collocations": [
         "abstinence from sth —— 戒除某物，介词固定用 from",
         "total / complete abstinence —— 完全戒除，常与 maintain 连用"
+      ]
+    },
+    {
+      "id": "castle",
+      "word": "castle",
+      "pos": "noun",
+      "phonetic": "/ˈkɑːsl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古北法语 castel ← 拉丁语 castellum（castrum 营垒的指小形，小堡）；本词与希腊语 astron（星）无关，只是拼写里含 astr",
+      "native_definition": "a large strong building with thick walls, built long ago for defence",
+      "core_concept": "a walled stronghold cut off from the land around it – 一圈墙把里头和外头切开的据点",
+      "core_image": "石墙厚得能站人，窗只开一道竖缝，铁皮包的大门底下压着一条护河",
+      "chinese": [
+        "城堡",
+        "堡垒"
+      ],
+      "examples": [
+        "The old castle stands on a cliff above the river.",
+        "We walked along the castle walls until sunset."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "城堡：厚墙围起来的那座旧宅子，主人住在里头",
+        "堡垒：着眼于它挡得住外面的人，攻不进来"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cereal",
+      "word": "cereal",
+      "pos": "noun",
+      "phonetic": "/ˈsɪəriəl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 cerealis（属于谷物女神 Ceres 的），Ceres 是罗马掌五谷的女神；与 crescere（生长）不同源，只是都以 c-r 开头",
+      "native_definition": "a plant grown for its grain, or a breakfast food made from such grain",
+      "core_concept": "the grain the harvest god gives – 收成之神名下的那些籽实",
+      "core_image": "麻袋口一松，金黄的小颗粒哗地滑出来，手插进去凉、抓一把从指缝漏干净",
+      "chinese": [
+        "谷物",
+        "谷类作物",
+        "麦片"
+      ],
+      "examples": [
+        "Wheat and rice are the main cereal crops here.",
+        "He eats cereal with cold milk every morning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "谷物：田里收上来的那些籽实本身",
+        "谷类作物：着眼于地里种的那类庄稼",
+        "麦片：把籽实压成薄片装盒，早上冲奶吃的那种"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "common",
+      "word": "common",
+      "pos": "adjective",
+      "phonetic": "/ˈkɒmən/",
+      "decomposable": "root",
+      "root_ids": [
+        "mun"
+      ],
+      "root_logic": "com-（一起）+ mun（munus 职责、份子）→ 这一份是众人共摊的，所以人人都有、处处都见",
+      "origin": "古法语 comun ← 拉丁语 communis（共有的）：com-（一起）+ munus（职责、赠予）",
+      "native_definition": "happening often, or shared by all the members of a group",
+      "core_concept": "a share that falls to everyone alike – 一份摊到每个人头上的东西",
+      "core_image": "街上十个人有七个穿同一款外套，看到第三个时已经不再回头了",
+      "chinese": [
+        "常见的",
+        "共同的",
+        "普通的",
+        "公共的"
+      ],
+      "examples": [
+        "Colds are very common in the winter months.",
+        "They soon found some common ground to work from."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "常见的：碰上的次数多，见惯了就不觉得特别",
+        "共同的：几方各占一份、合在一起的那样东西",
+        "普通的：跟大多数一个样，没有出格处",
+        "公共的：不归某一个人，归这一片人一起用"
+      ]
+    },
+    {
+      "id": "brilliant",
+      "word": "brilliant",
+      "pos": "adjective",
+      "phonetic": "/ˈbrɪliənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 brillant（brillier 发亮的现在分词）← 意大利语 brillare（闪耀）；一说出自通俗拉丁语 *berillare（像绿柱石那样闪），词形是拟构的，更早词源不明",
+      "native_definition": "shining very brightly, or extremely clever and impressive",
+      "core_concept": "throwing off light too strong to look straight at – 亮到不能直视地射出来",
+      "core_image": "一排水晶灯全开，光刺得人先眯一下眼，地板上晃着一片碎白点",
+      "chinese": [
+        "灿烂的",
+        "耀眼的",
+        "才华出众的",
+        "极好的"
+      ],
+      "examples": [
+        "The hall was lit by brilliant chandeliers.",
+        "She gave a brilliant answer to a hard question."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灿烂的：光又多又满，铺开一片",
+        "耀眼的：亮得扎人，眼睛得躲一下",
+        "才华出众的：人的本事像那束光一样压过旁人",
+        "极好的：口语里一句夸，好得挑不出话说"
+      ],
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "butter",
+      "word": "butter",
+      "pos": "noun",
+      "phonetic": "/ˈbʌtə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 butere ← 拉丁语 butyrum ← 希腊语 boutyron：bous（牛）+ tyros（乳酪）",
+      "native_definition": "a soft yellow fat made from cream, spread on bread or used in cooking",
+      "core_concept": "the fat churned out of cow's cream – 从牛乳里搅出来的那层脂",
+      "core_image": "一小片淡黄的方块搁在刚出炉的面包上，边缘先塌下去，化成一层亮的",
+      "chinese": [
+        "黄油",
+        "牛油",
+        "涂黄油"
+      ],
+      "examples": [
+        "She spread butter thickly on the warm toast.",
+        "Melt the butter in a pan over low heat."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "黄油：从奶里搅出来的那块淡黄的脂",
+        "牛油：同一样东西，强调它出自牛乳",
+        "涂黄油：把它抹到面包上，作动词用"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "calorie",
+      "word": "calorie",
+      "pos": "noun",
+      "phonetic": "/ˈkæləri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 calorie ← 拉丁语 calor（热）← calere（发热、变暖）",
+      "native_definition": "a unit for measuring the energy that food gives you",
+      "core_concept": "one measured step of heat – 量热量时数的那一格",
+      "core_image": "包装背面印着一格小表，每一百克后面跟一个数字，越大越让人犹豫",
+      "chinese": [
+        "卡路里",
+        "热量单位"
+      ],
+      "examples": [
+        "This small cake has about two hundred calories.",
+        "She counts calories before every meal."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "卡路里：量食物能给多少劲的那个单位",
+        "热量单位：不点具体数值时，泛指这套量法"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "capable",
+      "word": "capable",
+      "pos": "adjective",
+      "phonetic": "/ˈkeɪpəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "cap（capere 抓取、容纳）+ -able（能够）→ 装得下这件事，也就接得住、办得成",
+      "origin": "晚期拉丁语 capabilis（容得下的）← 拉丁语 capere（抓取、容纳）",
+      "native_definition": "having the ability or the qualities needed to do something",
+      "core_concept": "roomy enough to take the thing on – 容得下这件事，所以接得住",
+      "core_image": "别人都推给下一个人的那摊事，他伸手接过去，第二天就摊在桌上做完了",
+      "chinese": [
+        "有能力的",
+        "能胜任的",
+        "可能做出某事的"
+      ],
+      "examples": [
+        "She is quite capable of running the whole team.",
+        "This old engine is still capable of hard work."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "有能力的：本身具备做成这件事的本事",
+        "能胜任的：对着某个具体位置说，他接得住",
+        "可能做出某事的：也用于坏事，说他做得出来"
+      ]
+    },
+    {
+      "id": "capsule",
+      "word": "capsule",
+      "pos": "noun",
+      "phonetic": "/ˈkæpsjuːl/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "caps（capsa 箱、匣 ← capere 容纳）+ -ule（指小）→ 一只小到能吞下的匣子，把东西封在里头",
+      "origin": "拉丁语 capsula（小匣）是 capsa（箱、匣）的指小形 ← capere（容纳、装）",
+      "native_definition": "a small container, especially one holding a dose of medicine",
+      "core_concept": "a small box that holds a thing shut inside – 一只把东西关在里头的小匣",
+      "core_image": "两截透明的壳对扣上，里头白粉晃得见，落进温水就化开一层",
+      "chinese": [
+        "胶囊",
+        "太空舱",
+        "小容器"
+      ],
+      "examples": [
+        "He swallowed the capsule with a glass of water.",
+        "The capsule landed safely in the ocean."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "胶囊：装一次药量的那只小壳，吞下去化开",
+        "太空舱：把人封在里头带上天的那一节",
+        "小容器：泛指这类合起来能封住东西的小壳"
+      ]
+    },
+    {
+      "id": "cashier",
+      "word": "cashier",
+      "pos": "noun",
+      "phonetic": "/kæˈʃɪə/",
+      "decomposable": "root",
+      "root_ids": [
+        "cep"
+      ],
+      "root_logic": "caisse（钱箱 ← capsa 匣 ← capere 容纳）+ -ier（人）→ 看着那只钱箱的那个人",
+      "origin": "法语 caissier（管钱箱的人）← caisse（钱箱）← 意大利语 cassa ← 拉丁语 capsa（匣、钱柜）；另一个表「开革」的动词 cashier 出自中古荷兰语 casseren ← 拉丁语 cassus（空的），与本词同形而不同源",
+      "native_definition": "a person whose job is to receive and pay out money in a shop or bank",
+      "core_concept": "the one who keeps the money box – 守着那只钱箱的人",
+      "core_image": "柜台后那人一手接过钞票塞进抽屉，一手把找零和小票一起推出来",
+      "chinese": [
+        "收银员",
+        "出纳员"
+      ],
+      "examples": [
+        "The cashier handed me the receipt and my change.",
+        "She works as a cashier at the corner shop."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "收银员：店里柜台后收钱找零的那位",
+        "出纳员：银行或单位里经手现钱出入的那位"
+      ]
+    },
+    {
+      "id": "catastrophe",
+      "word": "catastrophe",
+      "pos": "noun",
+      "phonetic": "/kəˈtæstrəfi/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 katastrophē（翻转、突变）：kata-（向下）+ strephein（转）；本项目未为 strephein 一支建根",
+      "native_definition": "a sudden event that causes great damage or suffering",
+      "core_concept": "the whole thing turned upside down at once – 整局一下翻了个底朝天",
+      "core_image": "海水退开又立起来压回岸上，一条街的房顶在几分钟里全不见了",
+      "chinese": [
+        "灾难",
+        "大祸",
+        "惨败"
+      ],
+      "examples": [
+        "The flood was a catastrophe for the whole valley.",
+        "One bad decision turned the plan into a catastrophe."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "灾难：突然砸下来、损失大到收不住的那桩事",
+        "大祸：着眼于它落到某人某家头上",
+        "惨败：把这个翻覆用在事情结果上，败得彻底"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cathedral",
+      "word": "cathedral",
+      "pos": "noun",
+      "phonetic": "/kəˈθiːdrəl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中世纪拉丁语 cathedralis（有主教座位的）← cathedra（座椅）← 希腊语 kathedra：kata-（向下）+ hedra（座）",
+      "native_definition": "the main church of a district, where a bishop has his seat",
+      "core_concept": "the church that holds the bishop's chair – 摆着主教那把椅子的那座教堂",
+      "core_image": "两排石柱直往上收，顶看不到头，彩玻璃把光切成一地碎片，说话有回音",
+      "chinese": [
+        "大教堂",
+        "主教座堂"
+      ],
+      "examples": [
+        "The cathedral took nearly two hundred years to build.",
+        "We heard an organ playing inside the cathedral."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大教堂：一片地方里最大最正的那座教堂",
+        "主教座堂：点明它的身份，主教的位子设在这里"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "celebrate",
+      "word": "celebrate",
+      "pos": "verb",
+      "phonetic": "/ˈselɪbreɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 celebrare（人聚得多、传得广、称颂）← celeber（人来人往的、有名的）",
+      "native_definition": "to do something enjoyable to mark a happy event or an achievement",
+      "core_concept": "a crowd gathering to make much of one day – 一群人聚过来，把这一天做大",
+      "core_image": "屋里挤满人，杯子举起来碰到一处，桌上的蜡烛被一口气全吹灭",
+      "chinese": [
+        "庆祝",
+        "庆贺",
+        "颂扬"
+      ],
+      "examples": [
+        "They celebrated her birthday with a long dinner.",
+        "The whole town celebrated the end of the war."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "庆祝：为某件好事聚起来热闹一场",
+        "庆贺：着眼于对着某人道喜这一层",
+        "颂扬：把这份声势用在称赞上，广为称说"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cemetery",
+      "word": "cemetery",
+      "pos": "noun",
+      "phonetic": "/ˈsemətri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 coemeterium ← 希腊语 koimētērion（安睡之处）← koiman（使入睡）",
+      "native_definition": "a piece of ground where dead people are buried",
+      "core_concept": "the place where the dead are laid to sleep – 把逝者安置下来长睡的那片地",
+      "core_image": "山坡上一排排石板顺坡下去，草修得齐，有几块前头摆着新花",
+      "chinese": [
+        "墓地",
+        "公墓"
+      ],
+      "examples": [
+        "The old cemetery lies behind the village church.",
+        "We visit the cemetery every spring to clean the stones."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "墓地：埋葬逝者的那片地，可大可小",
+        "公墓：着眼于它是一片地方公用的，成排成片"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "character",
+      "word": "character",
+      "pos": "noun",
+      "phonetic": "/ˈkærəktə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 kharaktēr（刻下的印记、烙印）← kharassein（刻、划）；kharax（尖桩）更早词源不明",
+      "native_definition": "the qualities that make someone or something what it is; also a person in a story, or a written sign",
+      "core_concept": "a mark cut in so deep it cannot be rubbed off – 刻进去擦不掉的那道痕",
+      "core_image": "刀尖在木板上刻下一道，木屑翻起来，痕嵌进纹理里，擦不掉也改不动",
+      "chinese": [
+        "性格",
+        "角色",
+        "字符",
+        "特征"
+      ],
+      "examples": [
+        "He has a quiet but very firm character.",
+        "Each character in the novel speaks differently."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "性格：一个人身上刻定了的那套脾性，不易改",
+        "角色：戏里书里被刻画出来的那一个人",
+        "字符：写下来的那一个记号，字母或汉字",
+        "特征：一样东西身上认得出它的那道印记"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "charity",
+      "word": "charity",
+      "pos": "noun",
+      "phonetic": "/ˈtʃærəti/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 charite ← 拉丁语 caritas（珍视、亲爱之情）← carus（亲爱的、宝贵的）；本项目未为 carus 族建根",
+      "native_definition": "kindness in giving help to people in need, or an organization that does this",
+      "core_concept": "treating another as dear enough to give to – 把别人看得亲，才拿得出手",
+      "core_image": "门口的纸箱里堆着旧毛衣和罐头，谁放的都没写名字，晚上就被搬走了",
+      "chinese": [
+        "慈善",
+        "善款",
+        "慈善机构",
+        "施舍"
+      ],
+      "examples": [
+        "She gives money to charity every month.",
+        "The concert raised a lot for a local charity."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "慈善：出于把人放在心上而助人的那份心意",
+        "善款：拿出去的那笔钱物本身",
+        "慈善机构：专做这件事的那个组织",
+        "施舍：具体那个给出去的动作，带一点上下之分"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "chemistry",
+      "word": "chemistry",
+      "pos": "noun",
+      "phonetic": "/ˈkemɪstri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中世纪拉丁语 alchimista（炼金者）← 阿拉伯语 al-kīmiyā（炼金术）；al-kīmiyā 更早词源不明，一说出自希腊语 khēmeia",
+      "native_definition": "the science of what substances are made of and how they change",
+      "core_concept": "the craft of turning one substance into another – 把一样东西变成另一样的那门手艺",
+      "core_image": "两管清水倒到一处，忽然涌起白沫，玻璃壁上糊了一层雾，管子发烫",
+      "chinese": [
+        "化学",
+        "化学性质",
+        "融洽投合"
+      ],
+      "examples": [
+        "She teaches chemistry at a secondary school.",
+        "The two actors had obvious chemistry on stage."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "化学：研究物质由什么组成、怎样变的那门学科",
+        "化学性质：某样东西在这方面的表现",
+        "融洽投合：两人一碰就来电，借那个「一遇就变」说人"
+      ],
+      "decomposable_note": "借自阿拉伯语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "coalition",
+      "word": "coalition",
+      "pos": "noun",
+      "phonetic": "/ˌkəʊəˈlɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 coalitus（coalescere 的过去分词）：co-（一起）+ alescere（得到养育而长大）← alere（养育）；本项目未为 alere 族建根",
+      "native_definition": "a temporary union of parties or groups formed for a shared purpose",
+      "core_concept": "separate growths knit into one body – 各自长着的几支合长成一体",
+      "core_image": "三面旗子并排插在桌上，各方分坐两边签了字，签完又各回自己那间屋",
+      "chinese": [
+        "联盟",
+        "联合政府",
+        "联合体"
+      ],
+      "examples": [
+        "The two parties formed a coalition after the election.",
+        "A wide coalition of groups opposed the new law."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "联盟：几方为一件事暂时合到一处",
+        "联合政府：这种合作专用在组阁上",
+        "联合体：泛指合起来的那个整体"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "collision",
+      "word": "collision",
+      "pos": "noun",
+      "phonetic": "/kəˈlɪʒn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 collisio ← 拉丁语 collidere（撞在一起）：com-（一起）+ laedere（撞伤、损伤）；本项目未为 laedere 族建根",
+      "native_definition": "an accident in which two moving things hit each other",
+      "core_concept": "two moving things struck into each other – 两个动着的东西撞到一处",
+      "core_image": "两车迎头顶上，前盖拱起来，碎玻璃撒开一地，喇叭卡着响不停",
+      "chinese": [
+        "碰撞",
+        "相撞",
+        "冲突"
+      ],
+      "examples": [
+        "The collision damaged both cars badly.",
+        "Two ships narrowly avoided a collision in the fog."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "碰撞：两样动着的东西实实在在撞上",
+        "相撞：着眼于事故这一桩，车船飞机常用",
+        "冲突：把这个撞法用在主张和利益上"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "bitter",
+      "word": "bitter",
+      "pos": "adjective",
+      "phonetic": "/ˈbɪtə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 biter（咬人的、辛辣的）← 原始日耳曼语 *bitraz ← *bītan（咬）",
+      "native_definition": "having a sharp unpleasant taste; also full of anger or resentment",
+      "core_concept": "a taste that bites and holds on to the tongue – 咬住舌头不放的那种味",
+      "core_image": "药汁一沾舌根，脸就皱起来，咽下去半天嘴里还发涩，喝水也压不住",
+      "chinese": [
+        "苦的",
+        "苦涩的",
+        "怨恨的",
+        "严寒的"
+      ],
+      "examples": [
+        "This coffee is far too bitter for me.",
+        "He was still bitter about losing the job."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "苦的：舌根被咬住那样的味道",
+        "苦涩的：这味道用在经历上，回想起来不好受",
+        "怨恨的：心里存着那股咬人的劲，对人不放过",
+        "严寒的：风冷得像咬在脸上"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "breakfast",
+      "word": "breakfast",
+      "pos": "noun",
+      "phonetic": "/ˈbrekfəst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 brekefast，由 break（打断）+ fast（禁食）合成：一夜不吃，这一顿把它断开",
+      "native_definition": "the first meal of the day, eaten in the morning",
+      "core_concept": "the meal that breaks a night of not eating – 把一夜空腹断开的那一顿",
+      "core_image": "天刚亮，桌上一碗粥两个蛋，昨晚到现在肚里一直空着，第一口下去才暖过来",
+      "chinese": [
+        "早餐"
+      ],
+      "examples": [
+        "We had breakfast on the balcony this morning.",
+        "He skipped breakfast and left in a hurry."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "broadcast",
+      "word": "broadcast",
+      "pos": "verb / noun",
+      "phonetic": "/ˈbrɔːdkɑːst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语自身合成：broad（宽的）+ cast（抛撒 ← 古诺斯语 kasta 投掷）；本义是撒种时把籽扬开一大片",
+      "native_definition": "to send out a programme by radio or television; also the programme itself",
+      "core_concept": "flinging a thing wide so it falls everywhere – 一扬手撒得满地都是",
+      "core_image": "手一扬，籽粒扇形铺开落满整块地，没有一处特意瞄准，哪儿都落了几颗",
+      "chinese": [
+        "广播",
+        "播送",
+        "播放节目",
+        "散布"
+      ],
+      "examples": [
+        "The match will be broadcast live tonight.",
+        "She listened to the morning broadcast on the radio."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "广播：把节目往四面送出去，谁都收得到",
+        "播送：着眼于送出这个动作本身",
+        "播放节目：那一段被送出去的东西",
+        "散布：把消息也这样扬开去，人尽皆知"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "bypass",
+      "word": "bypass",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbaɪpɑːs/",
+      "decomposable": "root",
+      "root_ids": [
+        "passare"
+      ],
+      "root_logic": "by-（在旁边）+ pass（passare 迈步经过）→ 不进城中心，贴着边走过去",
+      "origin": "英语自身合成：by-（在旁）+ pass（经过）← 古法语 passer ← 晚期拉丁语 passare（迈步、经过）",
+      "native_definition": "a road that goes around a town; also to avoid something by going around it",
+      "core_concept": "going past along the side instead of through – 不穿过去，从旁边过",
+      "core_image": "车流在城外画出一道弧，红灯和窄巷都留在弧里头，二十分钟后接回原路",
+      "chinese": [
+        "绕行公路",
+        "绕过",
+        "回避",
+        "旁路"
+      ],
+      "examples": [
+        "The new bypass keeps lorries out of the village.",
+        "He bypassed the manager and went straight to her."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "绕行公路：城外那条绕开中心的路",
+        "绕过：从旁边过去，不进那个地方",
+        "回避：把该经的环节从旁绕开，不走它",
+        "旁路：医学与工程里另接的一条通道"
+      ]
+    },
+    {
+      "id": "cast",
+      "word": "cast",
+      "pos": "verb / noun",
+      "phonetic": "/kɑːst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 casten ← 古诺斯语 kasta（投、抛）",
+      "native_definition": "to throw something with force; also to pour hot metal into a mould, or to choose actors",
+      "core_concept": "sending a thing out of the hand in one motion – 一下子把东西从手里送出去",
+      "core_image": "手臂往后一沉再甩出去，线在空中划一道弧，铅坠啪一声砸进水面",
+      "chinese": [
+        "投掷",
+        "浇铸",
+        "选派角色",
+        "投射"
+      ],
+      "examples": [
+        "He cast the net far out into the river.",
+        "The statue was cast in solid bronze."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "投掷：使力把东西甩出去",
+        "浇铸：把熔化的金属倒进模子，等它成形",
+        "选派角色：把演员一个个派到角色上，像分投出去",
+        "投射：光和影也这么被送出去，落在别处"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "cautious",
+      "word": "cautious",
+      "pos": "adjective",
+      "phonetic": "/ˈkɔːʃəs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 cautus（cavere 提防、留意 的过去分词）+ 英语 -ous；本项目未为 cavere 族建根",
+      "native_definition": "careful to avoid danger or mistakes",
+      "core_concept": "keeping watch for what could go wrong – 眼睛盯着可能出岔子的地方",
+      "core_image": "他先用脚尖点了点冰面，听有没有裂声，才把另一只脚慢慢移过去",
+      "chinese": [
+        "谨慎的",
+        "小心的"
+      ],
+      "examples": [
+        "She gave a cautious answer to the question.",
+        "Be cautious when you drive on wet roads."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "谨慎的：动手前先掂量，不冒进",
+        "小心的：具体那个动作放轻放慢，怕出错"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "chemical",
+      "word": "chemical",
+      "pos": "adjective / noun",
+      "phonetic": "/ˈkemɪkl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 chemic + -al；chemic ← 中世纪拉丁语 alchimista（炼金者）← 阿拉伯语 al-kīmiyā（炼金术）",
+      "native_definition": "relating to substances and the way they react; also a substance used in or made by such a reaction",
+      "core_concept": "belonging to the craft that turns substances – 属于那门改造物质的手艺",
+      "core_image": "架上一排棕瓶，标签上只有一串式子没有名字，拧开盖鼻子先辣一下",
+      "chinese": [
+        "化学的",
+        "化学品",
+        "化学制剂"
+      ],
+      "examples": [
+        "The factory dumped chemical waste into the river.",
+        "Water is a simple chemical compound."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "化学的：与物质组成和变化这门学问有关",
+        "化学品：那门手艺里用的或造出的那些东西",
+        "化学制剂：配好待用的那一份，多指工农业用料"
+      ],
+      "decomposable_note": "借自阿拉伯语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "clash",
+      "word": "clash",
+      "pos": "verb / noun",
+      "phonetic": "/klæʃ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语内部的拟声词，模仿硬物相击那一声，与 crash、clang 同类；更早词源不明",
+      "native_definition": "to hit together with a loud noise, or to disagree strongly",
+      "core_concept": "hard things meeting with a ringing noise – 硬碰硬，撞出一声响",
+      "core_image": "两片铜盘迎面撞上，一声脆响震得人耳里发麻，余音还在梁上打转",
+      "chinese": [
+        "碰撞",
+        "冲突",
+        "不协调"
+      ],
+      "examples": [
+        "The two armies clashed at dawn.",
+        "Those two colours clash badly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "碰撞：两样硬东西实撞，带响",
+        "冲突：人和主张对上，也是这么硬碰",
+        "不协调：颜色声音摆在一起互相刺，看着别扭"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "clever",
+      "word": "clever",
+      "pos": "adjective",
+      "phonetic": "/ˈklevə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 cliver（手上麻利、善抓），一说与古弗里斯语 klüfer（灵巧）相关；更早词源不明",
+      "native_definition": "quick at learning and understanding, or skilful with the hands",
+      "core_concept": "hands and mind that catch on at once – 手和脑一下就接上了",
+      "core_image": "别人还在翻说明书，他把零件颠倒过来一试就装上了，动作快得看不清",
+      "chinese": [
+        "聪明的",
+        "巧妙的",
+        "灵巧的"
+      ],
+      "examples": [
+        "She is clever at picking up new languages.",
+        "That was a clever way to open the jar."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "聪明的：学得快、想得通，说人的脑子",
+        "巧妙的：说办法本身取巧，绕开了难处",
+        "灵巧的：说手上麻利，做细活不费劲"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "clothes",
+      "word": "clothes",
+      "pos": "noun",
+      "phonetic": "/kləʊðz/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clāþas 是 clāþ（布、一块织物）的复数 ← 原始日耳曼语 *klaithaz",
+      "native_definition": "the things people wear to cover their bodies",
+      "core_concept": "the woven pieces put on the body – 披到身上的那些织物",
+      "core_image": "椅背上叠着几件洗过的，袖子翻好，领口压出一道折，还带点晒过的味道",
+      "chinese": [
+        "衣服",
+        "服装"
+      ],
+      "examples": [
+        "Put your dirty clothes in the basket.",
+        "She bought new clothes for the trip."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "衣服：日常穿在身上的那些东西",
+        "服装：整套地说，着眼于样式和场合"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "coarse",
+      "word": "coarse",
+      "pos": "adjective",
+      "phonetic": "/kɔːs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 cors（寻常的、粗使的），一说是 cours（course 常规、常道）的形容词用法；那条链上语义已分，本词只余「粗」这一头",
+      "native_definition": "rough in texture, or rude and unrefined in manner",
+      "core_concept": "a surface too rough and thick to feel smooth – 粗得摸上去挂手的那种面",
+      "core_image": "麻布贴在颈上磨得发红，手掌一抹能刮到线头，砂纸似的一层",
+      "chinese": [
+        "粗糙的",
+        "粗的",
+        "粗鲁的"
+      ],
+      "examples": [
+        "The sack was made of coarse brown cloth.",
+        "He apologized for his coarse language."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "粗糙的：表面不平不细，摸着挂手",
+        "粗的：颗粒或纤维本身大，如粗砂粗盐",
+        "粗鲁的：把这个手感移到言行上，不讲分寸"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "capital",
+      "word": "capital",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈkæpɪtl/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "capit（caput 头）+ -al（属于…的）→ 居于头位的那一个",
+      "origin": "拉丁语 capitalis（居首的、关乎头的）← caput（头）；一国之首、一笔居首的钱、一行字里领头的字形，都从「头」分出",
+      "native_definition": "the chief city of a country, money used to produce more money, or a large form of a letter",
+      "core_concept": "the one that stands at the head of the rest – 处在头位的那一个",
+      "core_image": "地图上众多圆点里只有一个标着五角星，名单最上面一行也留给它",
+      "chinese": [
+        "首都",
+        "资本",
+        "大写字母",
+        "主要的"
+      ],
+      "examples": [
+        "Paris is the capital of France.",
+        "They raised capital for the new factory."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "首都：一国众多城市里排在头位的那座",
+        "资本：一笔钱被摆在头位，用来生出更多钱",
+        "大写字母：一行字里个头最大、领头的那种字形",
+        "主要的：同类之中最要紧、排第一的"
+      ]
+    },
+    {
+      "id": "casualty",
+      "word": "casualty",
+      "pos": "noun",
+      "phonetic": "/ˈkæʒuəlti/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "casual（casus 落下来的事）+ -ty（名词后缀）→ 事情落下来时被压在下面的那个人",
+      "origin": "中世纪拉丁语 casualitas（偶然事件）← 拉丁语 casualis ← casus（落下、意外）← cadere（落下）",
+      "native_definition": "a person killed or injured in an accident, a disaster, or a war",
+      "core_concept": "the one the falling event came down on – 落下来的那件事压到的人",
+      "core_image": "爆炸过后统计名单一行行拉长，每行后面写着送去哪家医院",
+      "chinese": [
+        "伤亡者",
+        "伤亡人数",
+        "事故受害者"
+      ],
+      "examples": [
+        "The bomb caused over thirty casualties.",
+        "Both sides suffered heavy casualties that winter."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "伤亡者：事情砸下来时正好在下面的那个人",
+        "伤亡人数：把压到的人数出来，一行一个",
+        "事故受害者：不限战场，任何落下来的意外都算"
+      ]
+    },
+    {
+      "id": "cherish",
+      "word": "cherish",
+      "pos": "verb",
+      "phonetic": "/ˈtʃerɪʃ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 cherir（珍爱）← chier（亲爱的）← 拉丁语 carus（亲爱的、贵重的）；与 carrus（四轮货车）不同源，勿混",
+      "native_definition": "to hold someone or something dear and look after them carefully",
+      "core_concept": "holding a thing dear enough to guard it – 拿它当贵重的，看着护着",
+      "core_image": "一张旧照片夹在书里，边角磨白了还用软布垫着，搬几次家都没丢",
+      "chinese": [
+        "珍爱",
+        "珍藏",
+        "怀有"
+      ],
+      "examples": [
+        "She cherished the letters from her mother.",
+        "We cherish the memory of that summer."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "珍爱：把人或物看得贵重，肯花心思待它",
+        "珍藏：贵重到要收起来，不轻易拿出",
+        "怀有：心里长久揣着一个念头或愿望"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "border",
+      "word": "border",
+      "pos": "noun / verb",
+      "phonetic": "/ˈbɔːdə(r)/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 bordure ← 古法语 bordeure（边饰）← bord（边、船舷）← 法兰克语 *bord（板、边），与古英语 bord（板）同支",
+      "native_definition": "the line where one country or area ends and the next begins",
+      "core_concept": "the edge where one thing stops and the next starts – 一样东西到头、下一样开头的那条边",
+      "core_image": "两国之间一道白线横过公路，一侧车牌全换了颜色，护照要拿出来",
+      "chinese": [
+        "边界",
+        "边缘",
+        "镶边",
+        "毗邻"
+      ],
+      "examples": [
+        "They crossed the border at dawn.",
+        "France borders Spain in the south."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "边界：两片地之间划出来的那条线，过线要验证件",
+        "边缘：一块布或一页纸最外的一圈",
+        "镶边：沿最外一圈加上的一道装饰",
+        "毗邻：两块地共用那条线，也就是挨着"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "bureaucracy",
+      "word": "bureaucracy",
+      "pos": "noun",
+      "phonetic": "/bjʊəˈrɒkrəsi/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 bureaucratie：bureau（写字台、办公室）← 古法语 burel（铺台面的粗毛呢）← 晚期拉丁语 burra（粗毛）；后半 -cratie ← 希腊语 kratos（权力），与 demos（民众）一支不同根",
+      "native_definition": "a system of government or management run by many officials following fixed rules",
+      "core_concept": "power that sits with the desks and their rules – 权力落在一排写字台和它们的规矩上",
+      "core_image": "一份申请在七张写字台之间挨个盖章，少一个红印就退回重来",
+      "chinese": [
+        "官僚机构",
+        "官僚作风",
+        "繁琐程序"
+      ],
+      "examples": [
+        "The bureaucracy delayed his visa for months.",
+        "She complained about hospital bureaucracy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "官僚机构：一层层办公桌搭起来的那套管事班子",
+        "官僚作风：办事只认规矩不认事，推来推去",
+        "繁琐程序：一道章接一道章，走完要很久"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cafeteria",
+      "word": "cafeteria",
+      "pos": "noun",
+      "phonetic": "/ˌkæfəˈtɪəriə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "美洲西班牙语 cafetería（卖咖啡的铺子）← café ← 法语 café ← 意大利语 caffè ← 土耳其语 kahve ← 阿拉伯语 qahwa（咖啡）",
+      "native_definition": "a restaurant where you collect your own food at a counter and carry it to a table",
+      "core_concept": "a place where you fetch your own tray – 自己端着盘子取食的地方",
+      "core_image": "端着托盘沿柜台一路挪，看中哪样自己夹，末端结账再找位子坐",
+      "chinese": [
+        "自助餐厅",
+        "食堂"
+      ],
+      "examples": [
+        "We ate lunch in the school cafeteria.",
+        "The hospital cafeteria closes at eight."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "自助餐厅：吃的摊在柜台上，取多少自己拿",
+        "食堂：机关学校里供人吃饭的那间大屋"
+      ],
+      "decomposable_note": "借自阿拉伯语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "candidate",
+      "word": "candidate",
+      "pos": "noun",
+      "phonetic": "/ˈkændɪdət/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 candidatus（穿白袍的人）← candidus（雪白的）← candere（发白光）；罗马求官的人穿白托加站到人前",
+      "native_definition": "a person who is trying to be chosen for a job, a position, or a prize",
+      "core_concept": "the one standing out in white to be picked – 穿得雪白站出来等人挑的那个",
+      "core_image": "一群人穿着刚漂过的白袍站在广场上，谁都想让人一眼先看见自己",
+      "chinese": [
+        "候选人",
+        "候补者",
+        "应试者"
+      ],
+      "examples": [
+        "Three candidates are running for mayor.",
+        "Each candidate gave a short speech."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "候选人：站出来让众人挑的那一个",
+        "候补者：名字排在单子上，等位子腾出来",
+        "应试者：来受考、听人挑选的人"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "capitalism",
+      "word": "capitalism",
+      "pos": "noun",
+      "phonetic": "/ˈkæpɪtəlɪzəm/",
+      "decomposable": "root",
+      "root_ids": [
+        "caput"
+      ],
+      "root_logic": "capital（caput 头 → 居首的那笔钱）+ -ism（一套体制）→ 以那笔钱为轴心转起来的体制",
+      "origin": "英语 capital 加 -ism，十九世纪中期造词；capital ← 拉丁语 capitalis ← caput（头）",
+      "native_definition": "an economic system in which businesses and property are privately owned and run for profit",
+      "core_concept": "a system built around privately held money that must grow – 以私人手里那笔钱的增长为轴的体制",
+      "core_image": "工厂、店铺、田地都记在私人名下，谁投的钱多谁说话，年底看账上多出多少",
+      "chinese": [
+        "资本主义"
+      ],
+      "examples": [
+        "Capitalism rewards those who take business risks.",
+        "He wrote a long critique of capitalism."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": []
+    },
+    {
+      "id": "carpet",
+      "word": "carpet",
+      "pos": "noun / verb",
+      "phonetic": "/ˈkɑːpɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 carpite ← 中世纪拉丁语 carpita（拆绒织成的厚呢）← 拉丁语 carpere（拉扯、梳绒）",
+      "native_definition": "a thick woven covering for a floor",
+      "core_concept": "pulled wool woven thick and spread on the floor – 拆下来的绒毛织厚了摊在地上",
+      "core_image": "整间屋子的地板被一层厚绒遮住，光脚踩下去陷半分，脚步声也闷了",
+      "chinese": [
+        "地毯",
+        "铺满"
+      ],
+      "examples": [
+        "They laid a new carpet in the hall.",
+        "Fallen leaves carpeted the whole path."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "地毯：铺在地板上的那层厚绒织物",
+        "铺满：像那层绒一样把地面整片盖住"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cassette",
+      "word": "cassette",
+      "pos": "noun",
+      "phonetic": "/kəˈset/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 cassette（小盒）← 古法语 casse（箱）← 拉丁语 capsa（箱、匣）；本项目未为 capsa 一支建根",
+      "native_definition": "a small flat plastic case holding magnetic tape for recording sound or pictures",
+      "core_concept": "a little box with the tape wound inside – 一只小盒，带子绕在里头",
+      "core_image": "巴掌大的塑料扁盒，两个齿轮中间绷着一条褐色带子，按下去就转",
+      "chinese": [
+        "盒式磁带",
+        "小盒"
+      ],
+      "examples": [
+        "He still keeps a box of cassettes.",
+        "She pushed the cassette into the player."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "盒式磁带：把磁带装进小盒，整盒取放",
+        "小盒：原义就是一只盛东西的小匣"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "category",
+      "word": "category",
+      "pos": "noun",
+      "phonetic": "/ˈkætəɡəri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 categoria ← 希腊语 katēgoria（指称、断言）← katēgorein：kata-（对着）＋ agorein（在集会上发言）",
+      "native_definition": "a group of people or things that share the same features",
+      "core_concept": "one name called out over a whole group – 对着一群东西叫出的那个名目",
+      "core_image": "报名表按项目分成几摞，每摞里的人条件相似，新来的先看归哪摞",
+      "chinese": [
+        "类别",
+        "范畴"
+      ],
+      "examples": [
+        "Books are shelved by category here.",
+        "This film won in three categories."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "类别：按共同特征分出来的那一摞",
+        "范畴：讨论时框定的一个大类"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "caution",
+      "word": "caution",
+      "pos": "noun / verb",
+      "phonetic": "/ˈkɔːʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 cautio（提防、担保）← cavere（当心、警惕），过去分词 cautus",
+      "native_definition": "great care taken to avoid danger or mistakes, or to warn someone about them",
+      "core_concept": "watching out before the step goes down – 落脚之前先看清",
+      "core_image": "脚下是薄冰，每一步先用鞋尖压一压，听见响就把脚收回来",
+      "chinese": [
+        "谨慎",
+        "小心",
+        "警告"
+      ],
+      "examples": [
+        "Handle the glass with great caution.",
+        "Police cautioned him about his speed."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "谨慎：动作之前先掂量，宁慢不错",
+        "小心：留着一分注意力在危险那头",
+        "警告：把该提防的地方指给别人"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "celebrity",
+      "word": "celebrity",
+      "pos": "noun",
+      "phonetic": "/səˈlebrəti/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 celebritas（人多、盛况、声名）← celeber（人来人往的、众口传说的）",
+      "native_definition": "a famous person, or the state of being famous",
+      "core_concept": "the crowd that gathers where a name is known – 名字一出口就有人围过来",
+      "core_image": "一个人刚下车，四周举起的手机把他围成一圈，谁都叫得出他是谁",
+      "chinese": [
+        "名人",
+        "名声"
+      ],
+      "examples": [
+        "The party was full of celebrities.",
+        "He never wanted this kind of celebrity."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "名人：走到哪里都被围住认出的那个",
+        "名声：名字被许多人念着的那种状态"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "challenge",
+      "word": "challenge",
+      "pos": "noun / verb",
+      "phonetic": "/ˈtʃælɪndʒ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 chalenge（指控、争辩）← 拉丁语 calumnia（诬告、刁难）← calvi（欺骗）",
+      "native_definition": "something difficult that tests your ability, or to question or invite someone to compete",
+      "core_concept": "a claim thrown at you that must be answered – 有人把一句话丢过来，你得应下",
+      "core_image": "有人当面把话丢过来要你接住，接了就得拿出真本事，退一步也被看见",
+      "chinese": [
+        "挑战",
+        "质疑",
+        "艰难任务"
+      ],
+      "examples": [
+        "The new job was a real challenge.",
+        "She challenged his version of events."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "挑战：被人当面叫住，要你比一比",
+        "质疑：把对方的说法当场提出来问",
+        "艰难任务：难度顶在前头，得使足力气"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "characteristic",
+      "word": "characteristic",
+      "pos": "noun / adjective",
+      "phonetic": "/ˌkærəktəˈrɪstɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 charaktēristikos ← charaktēr（打上的印记）← charassein（刻、划）",
+      "native_definition": "a feature that belongs to someone or something and helps you identify them",
+      "core_concept": "the mark cut in that tells one from another – 刻上去的那道印，凭它认出是谁",
+      "core_image": "一枚印子按在陶坯上，凹痕的形状旁人仿不出，一看就知出自谁手",
+      "chinese": [
+        "特征",
+        "特有的",
+        "典型的"
+      ],
+      "examples": [
+        "Patience is a characteristic of good teachers.",
+        "He answered with characteristic calm."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "特征：能把这一个从同类里认出来的那一点",
+        "特有的：只在它身上出现，别处没有",
+        "典型的：与它一贯的样子对得上"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "chemist",
+      "word": "chemist",
+      "pos": "noun",
+      "phonetic": "/ˈkemɪst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 chimiste ← 中世纪拉丁语 alchimista（炼金术士）← 阿拉伯语 al-kīmiyā（炼金之术）",
+      "native_definition": "a scientist who studies substances and how they react, or a shop selling medicines",
+      "core_concept": "one who works at how substances turn into others – 专门摆弄物质变化的人",
+      "core_image": "台面上一排玻璃器皿，两种清水倒在一起忽然变绿，他低头记下时刻",
+      "chinese": [
+        "化学家",
+        "药剂师",
+        "药店"
+      ],
+      "examples": [
+        "The chemist tested the water sample.",
+        "Buy the tablets at the chemist."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "化学家：研究物质怎样相互变化的人",
+        "药剂师：按方子配药的人",
+        "药店：英式说法里也指卖药的那间铺子"
+      ],
+      "decomposable_note": "借自阿拉伯语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "chocolate",
+      "word": "chocolate",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɒklət/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "西班牙语 chocolate ← 纳瓦特尔语 xocolātl（可可豆做的饮料）",
+      "native_definition": "a sweet brown food made from cacao beans",
+      "core_concept": "ground cacao pressed into a dark block – 可可磨碎压成的深褐块",
+      "core_image": "一块深褐的方砖捏在手里就发软，掰断时脆响，入口先苦后甜",
+      "chinese": [
+        "巧克力",
+        "巧克力色"
+      ],
+      "examples": [
+        "She ate a whole bar of chocolate.",
+        "He wore a chocolate brown coat."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "巧克力：可可豆磨浆加糖压成的那种甜食",
+        "巧克力色：那块砖的颜色，深而偏红的褐"
+      ],
+      "decomposable_note": "借自西班牙语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "coincidence",
+      "word": "coincidence",
+      "pos": "noun",
+      "phonetic": "/kəʊˈɪnsɪdəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "cadere"
+      ],
+      "root_logic": "co-（一同）+ in-（落到上头）+ cid（cadere 落下）+ -ence → 两件事同时落到一个点上",
+      "origin": "中世纪拉丁语 coincidere：co-（一同）＋ incidere（落到某处上头）← cadere（落下）",
+      "native_definition": "the chance happening of two things at the same time or place",
+      "core_concept": "two things falling on the same point – 两件事落在同一个点上",
+      "core_image": "两人在异国同一节车厢里碰上，谁都没约，票是各自买的",
+      "chinese": [
+        "巧合",
+        "同时发生"
+      ],
+      "examples": [
+        "Meeting you here is a strange coincidence.",
+        "By coincidence we chose the same hotel."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "巧合：两件不相干的事恰好落到一处",
+        "同时发生：两者在同一刻一起落下"
+      ]
+    },
+    {
+      "id": "combination",
+      "word": "combination",
+      "pos": "noun",
+      "phonetic": "/ˌkɒmbɪˈneɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 combinatio ← combinare：com-（一同）＋ bini（两个两个地）；本项目未为 bini 一支建根",
+      "native_definition": "a joining of two or more things, or the result of joining them",
+      "core_concept": "two taken two by two into one – 两个两个地凑到一处",
+      "core_image": "两股细线搓成一股，谁也拆不开；锁上三个数字按对次序才弹开",
+      "chinese": [
+        "结合",
+        "组合",
+        "密码"
+      ],
+      "examples": [
+        "The dish is a combination of spices.",
+        "He forgot the combination to the safe."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "结合：两样东西并到一处成一样",
+        "组合：几件按某种搭配摆在一起",
+        "密码：几个数字按定好的次序凑成一串"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "between",
+      "word": "between",
+      "pos": "preposition / adverb",
+      "phonetic": "/bɪˈtwiːn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 betwēonum：be（在）＋ tweonum（成双的）← 原始日耳曼语 *twihna（两个一组）",
+      "native_definition": "in the space, time, or range that separates two people or things",
+      "core_concept": "in the gap that two things leave – 落在两者留出的那段空当里",
+      "core_image": "两棵树中间拉一根绳，晾的衣服全挂在这一段，两头各系一个结",
+      "chinese": [
+        "在…之间",
+        "介于"
+      ],
+      "examples": [
+        "The shop sits between a bank and a cafe.",
+        "Choose between tea and coffee."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "在…之间：位置或时间落在两者当中",
+        "介于：性质、程度处在两者中间"
+      ],
+      "collocations": [
+        "between A and B —— 在两者之间，两端都要点明，不能只说一头",
+        "between you and me —— 你我之间说说，表示别外传",
+        "in between —— 夹在中间，可单用作副词",
+        "between 与 among —— between 用于分得清的两个或几个，among 用于混作一片的一群"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "breakdown",
+      "word": "breakdown",
+      "pos": "noun",
+      "phonetic": "/ˈbreɪkdaʊn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 break（古英语 brecan 折断）＋ down（古英语 dūne 向下）复合，十九世纪成词",
+      "native_definition": "a failure of a machine, a relationship, or health, or a division of something into parts",
+      "core_concept": "something giving way and coming apart – 一样东西撑不住，散开了",
+      "core_image": "货车停在路肩不动了，机盖掀开冒白气；另一张纸上把总数拆成一条条",
+      "chinese": [
+        "故障",
+        "崩溃",
+        "分项细目"
+      ],
+      "examples": [
+        "The car had a breakdown on the motorway.",
+        "Give me a breakdown of the costs."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "故障：机器撑不住，当场停下",
+        "崩溃：人的身体或关系散了架",
+        "分项细目：把整块拆成一条一条摆开"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "briefcase",
+      "word": "briefcase",
+      "pos": "noun",
+      "phonetic": "/ˈbriːfkeɪs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 brief（文书）＋ case（箱）复合；brief ← 拉丁语 brevis（短的、简短文书），case ← 拉丁语 capsa（箱），本项目未为这两支建根",
+      "native_definition": "a flat stiff case with a handle, used for carrying documents",
+      "core_concept": "a stiff flat box for carrying papers – 装文书的硬扁箱",
+      "core_image": "一只扁而硬的皮箱提在手里，扣子一按弹开，里面竖着几叠纸",
+      "chinese": [
+        "公文包"
+      ],
+      "examples": [
+        "He snapped his briefcase shut.",
+        "She carried a black leather briefcase."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "butterfly",
+      "word": "butterfly",
+      "pos": "noun",
+      "phonetic": "/ˈbʌtəflaɪ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 buttorflēoge：buttor（黄油）＋ flēoge（飞虫）；何以得名无定论，一说其粪色如黄油",
+      "native_definition": "an insect with large coloured wings that flies by day",
+      "core_concept": "wide patterned wings opening and closing in daylight – 白天里一开一合的两片花翅",
+      "core_image": "两片带斑纹的薄翅在花上一开一合，落下时几乎不压弯花瓣",
+      "chinese": [
+        "蝴蝶",
+        "蝶泳"
+      ],
+      "examples": [
+        "A butterfly landed on her wrist.",
+        "He swims butterfly better than freestyle."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "蝴蝶：白天飞的那种宽翅带斑纹的虫",
+        "蝶泳：两臂同时向后划，像那对翅膀开合的泳姿"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "cart",
+      "word": "cart",
+      "pos": "noun / verb",
+      "phonetic": "/kɑːt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 cart ← 古诺斯语 kartr（两轮车），取代了古英语 cræt；与拉丁语 carrus（四轮货车）无关",
+      "native_definition": "a small vehicle with wheels for carrying goods, pushed or pulled",
+      "core_concept": "a wheeled board you push or pull yourself – 装了轮子的板，靠人推拉",
+      "core_image": "两个木轮架着一块板，装满土豆后要弯腰使劲推，石子路上咯咯响",
+      "chinese": [
+        "手推车",
+        "大车",
+        "用车运"
+      ],
+      "examples": [
+        "He pushed the cart up the hill.",
+        "They carted the bricks to the site."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "手推车：靠人推着走的小车",
+        "大车：牲口拉的两轮货车",
+        "用车运：把东西装上车拉走"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "catalog",
+      "word": "catalog",
+      "pos": "noun / verb",
+      "phonetic": "/ˈkætəlɒɡ/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "cata-（往下）+ log（logos 说、逐条列举）→ 一条一条往下说，说成一份单子",
+      "origin": "希腊语 katalogos（清单）← katalegein：kata-（往下）＋ legein（说、逐条列举）",
+      "native_definition": "a complete list of items, often with descriptions, or to make such a list",
+      "core_concept": "saying items down one by one into a list – 一条一条往下报，报成一份单子",
+      "core_image": "一本厚册子，每页十几条，每条配一张小图和一个编号，翻到哪页都对得上",
+      "chinese": [
+        "目录",
+        "产品名录",
+        "编入目录"
+      ],
+      "examples": [
+        "She ordered the coat from a catalog.",
+        "They catalogued every book in the room."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "目录：按次序列出的条目单",
+        "产品名录：卖家把货一条条列出来的册子",
+        "编入目录：把一样东西加进那份单子里"
+      ]
+    },
+    {
+      "id": "chairman",
+      "word": "chairman",
+      "pos": "noun",
+      "phonetic": "/ˈtʃeəmən/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 chair（座椅）＋ man（人）复合；chair ← 古法语 chaiere ← 拉丁语 cathedra ← 希腊语 kathedra：kata-（向下）＋ hedra（座）",
+      "native_definition": "the person who leads a meeting or heads a company's board",
+      "core_concept": "the one who holds the seat at the head – 坐在头把座椅上的那个人",
+      "core_image": "长桌一头那把带扶手的椅子只留给一个人，他一敲桌面全场就静下来",
+      "chinese": [
+        "主席",
+        "董事长",
+        "会议主持人"
+      ],
+      "examples": [
+        "The chairman opened the meeting at nine.",
+        "She was elected chairman last spring."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "主席：占着头把座椅、说话定调的人",
+        "董事长：公司董事会里坐那把椅子的",
+        "会议主持人：负责让会按次序走下去的人"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "cheque",
+      "word": "cheque",
+      "pos": "noun",
+      "phonetic": "/tʃek/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 check 的英式拼法，受法语 chèque 影响 ← 古法语 eschec（棋局上的将）← 阿拉伯语 šāh ← 波斯语 šāh（王）；核对以防篡改一义出自「将住」那一截",
+      "native_definition": "a printed form on which you write an amount to be paid from your bank account",
+      "core_concept": "a slip that stops money and sends it on – 一张纸条把账上的钱截住，转给别人",
+      "core_image": "一张印好格线的纸条，填上数目签个名撕下来，对方拿去银行才取到钱",
+      "chinese": [
+        "支票"
+      ],
+      "examples": [
+        "He wrote a cheque for two hundred pounds.",
+        "The cheque bounced last Friday."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "clasp",
+      "word": "clasp",
+      "pos": "noun / verb",
+      "phonetic": "/klɑːsp/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 claspe（金属搭扣），或为 clapse 的音位换位，与古英语 clyppan（抱紧）一支有关；更早词源不明",
+      "native_definition": "a small fastening that holds two parts together, or to hold something tightly",
+      "core_concept": "two parts biting shut and not letting go – 两边咬住就不松",
+      "core_image": "项链两端那个小铁件咔一声咬住，扳不开；也像手指把硬币攥进掌心",
+      "chinese": [
+        "扣子",
+        "紧握",
+        "搂抱"
+      ],
+      "examples": [
+        "The clasp on her necklace broke.",
+        "He clasped her hand tightly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "扣子：把两头咬合住的小金属件",
+        "紧握：手指合上不放松",
+        "搂抱：两臂像那副扣件一样合住人"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "clockwise",
+      "word": "clockwise",
+      "pos": "adverb / adjective",
+      "phonetic": "/ˈklɒkwaɪz/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 clock（钟）＋ -wise（古英语 wīse 方式）；clock ← 中古荷兰语 clocke ← 中世纪拉丁语 clocca（钟、铃）",
+      "native_definition": "in the direction that the hands of a clock move",
+      "core_concept": "following the way the hands go round – 跟着钟面指针转的那个方向",
+      "core_image": "旋盖时手腕从上往右压，跟着表面那根长针走的方向，反过来就松了",
+      "chinese": [
+        "顺时针方向",
+        "顺时针的"
+      ],
+      "examples": [
+        "Turn the lid clockwise to close it.",
+        "The dancers moved clockwise around the fire."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "顺时针方向：与钟面指针一致的那个转向",
+        "顺时针的：形容按那个方向转的动作"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "cluster",
+      "word": "cluster",
+      "pos": "noun / verb",
+      "phonetic": "/ˈklʌstə(r)/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 clyster（一簇、一串）← 原始日耳曼语中与 clot（凝块）同支的词干",
+      "native_definition": "a small close group of things or people of the same kind",
+      "core_concept": "things bunched tight on one stem – 挤在一根梗上的那一把",
+      "core_image": "葡萄一颗挨一颗挤在同一根梗上，摘的时候整把拎起来，谁也不单独掉",
+      "chinese": [
+        "簇",
+        "群",
+        "聚集"
+      ],
+      "examples": [
+        "A cluster of houses stood by the river.",
+        "Reporters clustered around the entrance."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "簇：同类的东西紧挨成一小把",
+        "群：几个人或物凑在一小片地方",
+        "聚集：往一处挤拢的那个动作"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "complicated",
+      "word": "complicated",
+      "pos": "adjective",
+      "phonetic": "/ˈkɒmplɪkeɪtɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "com-（一起）+ plic（plicare 折叠）+ -ated → 好几层折在一起，抖不开也数不清",
+      "origin": "拉丁语 complicatus（折叠起来的）← complicare：com-（一起）＋ plicare（折叠）",
+      "native_definition": "made of many connected parts and therefore hard to understand or deal with",
+      "core_concept": "folded over on itself many times – 自己折了好几层在一起",
+      "core_image": "一团耳机线在口袋里绕成一坨，抽哪一头都带起另外三处结",
+      "chinese": [
+        "复杂的",
+        "难处理的"
+      ],
+      "examples": [
+        "The rules are far too complicated.",
+        "This makes my job more complicated."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "复杂的：层层折叠，一眼看不到底",
+        "难处理的：折在一起，牵一处动全身"
       ]
     }
   ]

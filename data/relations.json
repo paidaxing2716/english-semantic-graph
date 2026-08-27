@@ -12090,6 +12090,78 @@
       "to": "abstinence",
       "type": "root",
       "note": "abs-（撇开）+ tin（tenere 握住，复合词里元音弱化）+ -ence → 长期把手收着不去碰这件事"
+    },
+    {
+      "from": "mun",
+      "to": "common",
+      "type": "root",
+      "note": "com-（一起）+ mun（munus 职责、份子）→ 这一份是众人共摊的，所以人人都有、处处都见"
+    },
+    {
+      "from": "cep",
+      "to": "capable",
+      "type": "root",
+      "note": "cap（capere 抓取、容纳）+ -able（能够）→ 装得下这件事，也就接得住、办得成"
+    },
+    {
+      "from": "cep",
+      "to": "capsule",
+      "type": "root",
+      "note": "caps（capsa 箱、匣 ← capere 容纳）+ -ule（指小）→ 一只小到能吞下的匣子，把东西封在里头"
+    },
+    {
+      "from": "cep",
+      "to": "cashier",
+      "type": "root",
+      "note": "caisse（钱箱 ← capsa 匣 ← capere 容纳）+ -ier（人）→ 看着那只钱箱的那个人"
+    },
+    {
+      "from": "passare",
+      "to": "bypass",
+      "type": "root",
+      "note": "by-（在旁边）+ pass（passare 迈步经过）→ 不进城中心，贴着边走过去"
+    },
+    {
+      "from": "cep",
+      "to": "cash",
+      "type": "root",
+      "note": "cash（← caisse 钱箱 ← capsa 匣 ← capere 抓住、盛住）→ 装在匣里随手取用的那些钱"
+    },
+    {
+      "from": "caput",
+      "to": "capital",
+      "type": "root",
+      "note": "capit（caput 头）+ -al（属于…的）→ 居于头位的那一个"
+    },
+    {
+      "from": "cadere",
+      "to": "casualty",
+      "type": "root",
+      "note": "casual（casus 落下来的事）+ -ty（名词后缀）→ 事情落下来时被压在下面的那个人"
+    },
+    {
+      "from": "caput",
+      "to": "capitalism",
+      "type": "root",
+      "note": "capital（caput 头 → 居首的那笔钱）+ -ism（一套体制）→ 以那笔钱为轴心转起来的体制"
+    },
+    {
+      "from": "cadere",
+      "to": "coincidence",
+      "type": "root",
+      "note": "co-（一同）+ in-（落到上头）+ cid（cadere 落下）+ -ence → 两件事同时落到一个点上"
+    },
+    {
+      "from": "logos",
+      "to": "catalog",
+      "type": "root",
+      "note": "cata-（往下）+ log（logos 说、逐条列举）→ 一条一条往下说，说成一份单子"
+    },
+    {
+      "from": "plic",
+      "to": "complicated",
+      "type": "root",
+      "note": "com-（一起）+ plic（plicare 折叠）+ -ated → 好几层折在一起，抖不开也数不清"
     }
   ]
 }
