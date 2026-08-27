@@ -169,6 +169,14 @@ def main():
         eng = (engra.get(lw) or "").strip().lower()
         by_engra = var2root.get(eng, "") if eng else ""
 
+        # A 档的意思是「库里有个根可能收得下它」，所以猜出来的名字**必须是库内
+        # 真实存在的根 id**。首轮切完 chunk107 时不是这样：match() 只保证返回评分
+        # 最高的键，不保证那个键属于某个真实的根，于是 imitari / migrare / stallum
+        # 这种「库里根本没有的根」也被写成 A 档。代理花了力气去核 10 个不存在的
+        # 归属，正是我这一整轮在消灭的那类「输出绿色但什么都没发生」。
+        by_lemma = by_lemma if by_lemma in rids else ""
+        by_engra = by_engra if by_engra in rids else ""
+
         if by_lemma and by_engra and by_lemma == by_engra:
             tier, guess = "A", by_lemma
         elif by_lemma or by_engra:

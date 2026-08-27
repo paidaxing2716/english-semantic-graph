@@ -12696,6 +12696,90 @@
       "to": "insurance",
       "type": "root",
       "note": "in-（使）+ sur（securus 不必再挂心）+ -ance → 先出一笔钱把后顾之忧买掉，落成一纸约据"
+    },
+    {
+      "from": "gen",
+      "to": "homogeneous",
+      "type": "root",
+      "note": "homo-（希腊语 homos 相同）+ gen（gen 生出的那一类）+ -eous → 通体出自同一类，随处取一点都"
+    },
+    {
+      "from": "imperare",
+      "to": "imperial",
+      "type": "root",
+      "note": "imperi（imperare 下令统辖）+ -al（…的）→ 属于那一道号令所及的整片地方"
+    },
+    {
+      "from": "plic",
+      "to": "implicit",
+      "type": "root",
+      "note": "im-（in- 在里面）+ plic（plic 折）→ 意思折在里面没摊开，看的人自己去展"
+    },
+    {
+      "from": "gen",
+      "to": "ingenious",
+      "type": "root",
+      "note": "in-（生来就在里头）+ gen（gen 生出）+ -ious → 一落生就带着的那份心思，别人学不来"
+    },
+    {
+      "from": "jus",
+      "to": "injure",
+      "type": "root",
+      "note": "in-（不）+ jur（jus 法、准）→ 不照那把准来对待人 → 落到他身上的实际损伤"
+    },
+    {
+      "from": "jus",
+      "to": "injury",
+      "type": "root",
+      "note": "in-（不）+ jur（jus 法、准）+ -y → 不照那把准来对待人，落在身上的那处结果"
+    },
+    {
+      "from": "sta",
+      "to": "instance",
+      "type": "root",
+      "note": "in-（就在近处）+ stance（sta 站立）→ 就站在眼前的那一个，随手举得出来"
+    },
+    {
+      "from": "tangere",
+      "to": "intact",
+      "type": "root",
+      "note": "in-（不）+ tact（tangere 触碰）→ 一根手指也没碰过，所以一处不缺"
+    },
+    {
+      "from": "valere",
+      "to": "invalid",
+      "type": "root",
+      "note": "in-（不）+ val（valere 有力、有效）→ 没有那股顶得住的劲 → 拿出去不管用"
+    },
+    {
+      "from": "valere",
+      "to": "invaluable",
+      "type": "root",
+      "note": "in-（不能）+ valu（valere 估值）+ -able（可…的）→ 估不出价来，不是不值，而是贵得没法标价"
+    },
+    {
+      "from": "imperare",
+      "to": "imperative",
+      "type": "root",
+      "note": "imperat（imperare 下令）+ -ive（带…性质的）→ 带着号令的性质，不容商量"
+    },
+    {
+      "from": "gradus",
+      "to": "ingredient",
+      "type": "root",
+      "note": "in-（进去）+ gredi（gradus 走）+ -ent（…的东西）→ 一样样走进锅里的东西"
+    },
+    {
+      "from": "posse",
+      "to": "horsepower",
+      "type": "root",
+      "note": "horse（马）+ power（posse 能成事的那股劲）→ 一匹马拉得动的那份力气，拿它做机器出力的尺子"
+    },
+    {
+      "from": "praeesse",
+      "to": "interesting",
+      "type": "root",
+      "note": "inter-（在两者之间）+ est（esse 在）+ -ing → 这事横在我这边、与我有牵连，所以我上心"
     }
   ]
 }

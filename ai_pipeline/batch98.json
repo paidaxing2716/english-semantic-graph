@@ -1,0 +1,992 @@
+{
+  "roots": [
+    {
+      "id": "imperare",
+      "root": "imperare",
+      "variants": [
+        "imperi",
+        "imperat"
+      ],
+      "origin": "拉丁语 imperare（下令、统辖）：名词 imperium 是号令之权，imperator 是发号令的统帅；它虽由「朝着」与「张罗备置」两截构成，但拉丁语里承义的一直是下令这一支",
+      "core_concept": "to give orders and hold sway / 发号令、统辖",
+      "core_image": "一个人抬手说了一句，底下几千人跟着动，声音传到最远的边镇",
+      "english_definition": "to command, to rule over",
+      "word_ids": [
+        "imperial",
+        "imperative"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "concept-imperare-command",
+      "concept": "to give orders and hold sway",
+      "chinese": "发号施令",
+      "core_image": "一个人抬手说了一句，底下几千人跟着动，声音传到最远的边镇",
+      "root_ids": [
+        "imperare"
+      ],
+      "word_ids": [
+        "imperial",
+        "imperative"
+      ]
+    }
+  ],
+  "domain_add": {
+    "domain-force": [
+      "imperare"
+    ]
+  },
+  "words": [
+    {
+      "id": "homogeneous",
+      "word": "homogeneous",
+      "pos": "adjective",
+      "phonetic": "/ˌhɒməˈdʒiːniəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "gen"
+      ],
+      "root_logic": "homo-（希腊语 homos 相同）+ gen（gen 生出的那一类）+ -eous → 通体出自同一类，随处取一点都一样",
+      "origin": "希腊语 homogenes（同一类的），由 homos（相同）与 genos（种、类）构成，经晚期拉丁语 homogeneus 入英语",
+      "native_definition": "made up of parts that are all of the same kind",
+      "core_concept": "all of one and the same kind – 通体是同一类东西",
+      "core_image": "一桶漆搅到底，随便舀一勺出来，颜色都跟别处一个样",
+      "chinese": [
+        "同类的",
+        "成分均匀的",
+        "同质的"
+      ],
+      "examples": [
+        "The class is a homogeneous group of beginners.",
+        "Stir it until the mixture looks homogeneous."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "同类的：一群东西同出一类，彼此没有分别",
+        "成分均匀的：混过之后处处一个样，不分层",
+        "同质的：说人群、社会也用它，指内部差别小"
+      ]
+    },
+    {
+      "id": "imperial",
+      "word": "imperial",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈpɪəriəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "imperare"
+      ],
+      "root_logic": "imperi（imperare 下令统辖）+ -al（…的）→ 属于那一道号令所及的整片地方",
+      "origin": "古法语 imperial ← 拉丁语 imperialis ← imperium（号令之权）← imperare（下令、统辖）",
+      "native_definition": "belonging to an empire or to the ruler of an empire",
+      "core_concept": "under one ruler's command – 归同一道号令管着的",
+      "core_image": "地图上一大片涂成同一个颜色，京城发出的一句话，半年后传到最远的边镇",
+      "chinese": [
+        "帝国的",
+        "皇帝的",
+        "宏伟的"
+      ],
+      "examples": [
+        "The imperial army marched into the city.",
+        "They built an imperial palace of stone."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "帝国的：那道号令铺得到的整片地方",
+        "皇帝的：发这道号令的那个人自己的",
+        "宏伟的：气派大得像那套排场，多说建筑与做派"
+      ]
+    },
+    {
+      "id": "implicit",
+      "word": "implicit",
+      "pos": "adjective",
+      "phonetic": "/ɪmˈplɪsɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "plic"
+      ],
+      "root_logic": "im-（in- 在里面）+ plic（plic 折）→ 意思折在里面没摊开，看的人自己去展",
+      "origin": "拉丁语 implicitus ← implicare（缠进、卷进去）← in-（进）+ plicare（折叠）",
+      "native_definition": "suggested without being said directly, or complete and unquestioning",
+      "core_concept": "folded in rather than spread out – 折在里头没摊开",
+      "core_image": "合同上没写这一条，可两边都照它办事，谁也没提过",
+      "chinese": [
+        "含而不露的",
+        "暗含的",
+        "绝对的"
+      ],
+      "examples": [
+        "There was an implicit threat in his tone.",
+        "She has implicit trust in her sister."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "含而不露的：话里折着一层，没说出口",
+        "暗含的：前提与条件也这样折着，不另写明",
+        "绝对的：信任折得严实到不留缝，即毫无保留"
+      ]
+    },
+    {
+      "id": "ingenious",
+      "word": "ingenious",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈdʒiːniəs/",
+      "decomposable": "root",
+      "root_ids": [
+        "gen"
+      ],
+      "root_logic": "in-（生来就在里头）+ gen（gen 生出）+ -ious → 一落生就带着的那份心思，别人学不来",
+      "origin": "拉丁语 ingeniosus ← ingenium（天生的才具）← in-（在内）+ gignere（生出）",
+      "native_definition": "very clever at inventing things or at finding new ways to solve problems",
+      "core_concept": "born with a turn of mind others lack – 生来带着别人没有的那份巧劲",
+      "core_image": "他拿一根弯铁丝和一段皮筋做出了开锁的家伙，旁人只会干瞪眼",
+      "chinese": [
+        "有巧思的",
+        "精巧的",
+        "善于发明的"
+      ],
+      "examples": [
+        "She found an ingenious way to fix it.",
+        "The lock has an ingenious design."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "有巧思的：脑子里生来带着这份灵活",
+        "精巧的：这份心思做出来的东西也这么叫",
+        "善于发明的：专把这份劲使在造新东西上"
+      ]
+    },
+    {
+      "id": "injure",
+      "word": "injure",
+      "pos": "verb",
+      "phonetic": "/ˈɪndʒə/",
+      "decomposable": "root",
+      "root_ids": [
+        "jus"
+      ],
+      "root_logic": "in-（不）+ jur（jus 法、准）→ 不照那把准来对待人 → 落到他身上的实际损伤",
+      "origin": "中古英语 injurien ← 古法语 injurier ← 拉丁语 injuria（不法加于人的事）← in-（不）+ jus（属格 juris：法、权利）",
+      "native_definition": "to cause physical harm to a person or damage to something",
+      "core_concept": "harm done to someone against what is right – 不按准来待人，落下的那份损伤",
+      "core_image": "工地上钢管砸下来，他左腿一软跪倒，裤子那块渗出血",
+      "chinese": [
+        "伤害",
+        "损害",
+        "使受伤"
+      ],
+      "examples": [
+        "Two workers were injured in the blast.",
+        "Smoking injures your lungs slowly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "使受伤：身上真被弄伤了",
+        "伤害：名誉、感情也这样被弄坏",
+        "损害：不限于人，利益与器物受损也用它"
+      ]
+    },
+    {
+      "id": "injury",
+      "word": "injury",
+      "pos": "noun",
+      "phonetic": "/ˈɪndʒəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "jus"
+      ],
+      "root_logic": "in-（不）+ jur（jus 法、准）+ -y → 不照那把准来对待人，落在身上的那处结果",
+      "origin": "中古英语 injurie ← 古法语 injurie ← 拉丁语 injuria（不法加于人的事）← in-（不）+ jus（属格 juris：法、权利）",
+      "native_definition": "physical harm done to a person, or damage done to something",
+      "core_concept": "the harm left on someone by a wrong – 不按准来待人之后留下的那处",
+      "core_image": "手腕缠着白纱吊在胸前，医生纸上写着三周内不许用力",
+      "chinese": [
+        "伤",
+        "损伤",
+        "伤害"
+      ],
+      "examples": [
+        "He missed the season with a knee injury.",
+        "The crash caused injury to five people."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "伤：身上那一处实在的破口或断处",
+        "损伤：程度轻重不论，身上或物上留下的坏处",
+        "伤害：名誉、感情上留下的那种，看不见但在"
+      ]
+    },
+    {
+      "id": "instance",
+      "word": "instance",
+      "pos": "noun",
+      "phonetic": "/ˈɪnstəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "sta"
+      ],
+      "root_logic": "in-（就在近处）+ stance（sta 站立）→ 就站在眼前的那一个，随手举得出来",
+      "origin": "古法语 instance ← 拉丁语 instantia（迫近、当前的事）← instare（立于其上、逼近）",
+      "native_definition": "a single case of something happening, used as an example",
+      "core_concept": "the one standing right in front of you – 就立在眼前那一个",
+      "core_image": "他随手一指桌上那张罚单，说规矩就是这么定的，满屋子人立刻不吭声了",
+      "chinese": [
+        "例子",
+        "实例",
+        "场合"
+      ],
+      "examples": [
+        "This is a clear instance of bad design.",
+        "In most instances the drug works well."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "例子：说事时顺手举出来的那一个",
+        "实例：真发生过的那一件，不是设想",
+        "场合：某一次具体的情形，多用复数"
+      ],
+      "collocations": [
+        "for instance —— 例如，句中插入用来引出一个例子",
+        "in this instance —— 就这一次而言，指眼下这个具体情形"
+      ]
+    },
+    {
+      "id": "intact",
+      "word": "intact",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈtækt/",
+      "decomposable": "root",
+      "root_ids": [
+        "tangere"
+      ],
+      "root_logic": "in-（不）+ tact（tangere 触碰）→ 一根手指也没碰过，所以一处不缺",
+      "origin": "拉丁语 intactus（未经碰触的）← in-（不）+ tactus（碰过的，tangere 的过去分词）",
+      "native_definition": "not damaged and with no part missing",
+      "core_concept": "never touched, so nothing is missing – 没被碰过，所以一处不缺",
+      "core_image": "包裹在雨里泡了一夜，封条还压得严实，里头瓷杯连一道细纹都没有",
+      "chinese": [
+        "完好无损的",
+        "未受损的",
+        "原封的"
+      ],
+      "examples": [
+        "The vase arrived intact after the long trip.",
+        "His reputation remained intact after the trial."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "完好无损的：整件东西一处没坏",
+        "未受损的：名誉、体系受了冲击仍旧没坏",
+        "原封的：封着没动过，里头一样不少"
+      ]
+    },
+    {
+      "id": "invalid",
+      "word": "invalid",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈvælɪd/",
+      "decomposable": "root",
+      "root_ids": [
+        "valere"
+      ],
+      "root_logic": "in-（不）+ val（valere 有力、有效）→ 没有那股顶得住的劲 → 拿出去不管用",
+      "origin": "拉丁语 invalidus（不强健的、无力的）← in-（不）+ validus（强健的）← valere（强壮、有效力）",
+      "native_definition": "not legally or officially acceptable, or not based on sound reasoning",
+      "core_concept": "having no force to hold up – 没有撑得住的那股劲",
+      "core_image": "票面日期是上个月的，闸口刷了三遍都红灯，人被拦在外面",
+      "chinese": [
+        "无效的",
+        "作废的",
+        "站不住的"
+      ],
+      "examples": [
+        "Your ticket is invalid after that date.",
+        "His argument rests on an invalid claim."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "无效的：拿出去不管用，机器和规矩都不认",
+        "作废的：本来管用，过期或撤销后不作数了",
+        "站不住的：说推理与论据，一推就塌"
+      ]
+    },
+    {
+      "id": "invaluable",
+      "word": "invaluable",
+      "pos": "adjective",
+      "phonetic": "/ɪnˈvæljuəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "valere"
+      ],
+      "root_logic": "in-（不能）+ valu（valere 估值）+ -able（可…的）→ 估不出价来，不是不值，而是贵得没法标价",
+      "origin": "英语 valuable 加否定前缀 in- 构成；value ← 古法语 value ← 拉丁语 valere（有力、值）",
+      "native_definition": "extremely useful or precious, beyond any price you could put on it",
+      "core_concept": "worth more than any price set on it – 值到没法给它标一个价",
+      "core_image": "老木匠留下的那本手记，几代人照着它做活，出多少钱他都不撒手",
+      "chinese": [
+        "极宝贵的",
+        "无价的"
+      ],
+      "examples": [
+        "Her advice was invaluable to the team.",
+        "The old maps are invaluable to historians."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "极宝贵的：用处大得离不了",
+        "无价的：贵到标不出价，注意不是不值钱"
+      ]
+    },
+    {
+      "id": "hierarchy",
+      "word": "hierarchy",
+      "pos": "noun",
+      "phonetic": "/ˈhaɪərɑːki/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 ierarchie ← 中世纪拉丁语 hierarchia ← 希腊语 hierarkhia（司祭的统辖），由 hieros（神圣的）与 arkhein（统辖）构成",
+      "native_definition": "a system in which people or things are ranked one above another",
+      "core_concept": "ranks set one above another – 一层压一层地排定名次",
+      "core_image": "一张纸上画着树，最上头一个框，往下分两层，每个框只对上头一个人负责",
+      "chinese": [
+        "等级制度",
+        "层级",
+        "统治集团"
+      ],
+      "examples": [
+        "She rose quickly in the company hierarchy.",
+        "The files are stored in a strict hierarchy."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "等级制度：人按高低排定，上管下的那套做法",
+        "层级：不指人，指结构上的一层层，如文件夹",
+        "统治集团：处在最上那几层的那些人"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "horizon",
+      "word": "horizon",
+      "pos": "noun",
+      "phonetic": "/həˈraɪzn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 orizon ← 拉丁语 horizon ← 希腊语 horizōn（划界的那道圈），出自 horizein（划界）、horos（界）",
+      "native_definition": "the line at which the earth and the sky appear to meet",
+      "core_concept": "the line that marks how far you can see – 划出你能看到多远的那道界",
+      "core_image": "船一直往外开，最后只剩桅尖露在那条直线上，再看一眼就没了",
+      "chinese": [
+        "地平线",
+        "眼界",
+        "范围"
+      ],
+      "examples": [
+        "The sun sank below the horizon at seven.",
+        "Travel broadens a young person's horizons."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "地平线：天和地相接的那道界",
+        "眼界：见识也有这么一道界，多用复数",
+        "范围：谈论与打算所及的那一圈"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "horizontal",
+      "word": "horizontal",
+      "pos": "adjective",
+      "phonetic": "/ˌhɒrɪˈzɒntl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 horizontal ← 拉丁语 horizon（划界的圈）← 希腊语 horizōn（划界的那道圈），出自 horizein（划界）",
+      "native_definition": "flat and going from side to side, at a right angle to a vertical line",
+      "core_concept": "lying flat along the line where earth meets sky – 顺着天地相接那道线躺平",
+      "core_image": "水泥地上弹了一道墨线，小球放上去停着不动，两头一样高",
+      "chinese": [
+        "水平的",
+        "横的"
+      ],
+      "examples": [
+        "Draw a horizontal line across the page.",
+        "The bars are horizontal, not upright."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "水平的：与那道界平行，不倾斜",
+        "横的：方向上左右走，与竖着相对"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "hurricane",
+      "word": "hurricane",
+      "pos": "noun",
+      "phonetic": "/ˈhʌrɪkən/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "西班牙语 huracán ← 加勒比泰诺语 hurakán（风暴之神）",
+      "native_definition": "a violent storm with very strong circling winds, especially in the Atlantic",
+      "core_concept": "a whirling storm that tears things loose – 打着旋、把东西都撕下来的风暴",
+      "core_image": "屋顶铁皮整张揭起来飞走，船被浪推上街，风声像有人拖着钢板过路",
+      "chinese": [
+        "飓风",
+        "暴风"
+      ],
+      "examples": [
+        "The hurricane destroyed hundreds of homes.",
+        "They boarded the windows before the hurricane."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "飓风：大西洋上那种成旋的强风，有等级",
+        "暴风：泛指来势极凶的大风，不限地域"
+      ],
+      "decomposable_note": "借自西班牙语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "illustration",
+      "word": "illustration",
+      "pos": "noun",
+      "phonetic": "/ˌɪləˈstreɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 illustratio（照明、显示）← illustrare（照亮、使显明）← in-（在上）+ lustrare（照）",
+      "native_definition": "a picture in a book, or an example that makes something clear",
+      "core_concept": "light thrown on a thing so it can be seen – 打上一道光，让人看清那样东西",
+      "core_image": "书页上配着一张剖开的图，箭头标到每一处，文字讲不清的地方一看就明白",
+      "chinese": [
+        "插图",
+        "说明",
+        "例证"
+      ],
+      "examples": [
+        "The book has fifty colour illustrations.",
+        "This case is a good illustration of the rule."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "插图：印在书里的那张图",
+        "说明：把道理照亮的那番讲解",
+        "例证：拿一件具体事去照亮抽象的道理"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "imperative",
+      "word": "imperative",
+      "pos": "adjective / noun",
+      "phonetic": "/ɪmˈperətɪv/",
+      "decomposable": "root",
+      "root_ids": [
+        "imperare"
+      ],
+      "root_logic": "imperat（imperare 下令）+ -ive（带…性质的）→ 带着号令的性质，不容商量",
+      "origin": "拉丁语 imperativus（命令式的）← imperare（下令、统辖）",
+      "native_definition": "extremely urgent and necessary, or the verb form used to give orders",
+      "core_concept": "carrying the force of an order – 带着号令的那股不容商量",
+      "core_image": "他把话说得极短，没有一句留出回话的空，听的人只能照做",
+      "chinese": [
+        "紧急必需的",
+        "命令式的",
+        "必要之事"
+      ],
+      "examples": [
+        "It is imperative that we leave at once.",
+        "Use the imperative to give instructions."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "紧急必需的：非做不可，语气近乎命令",
+        "命令式的：语法上专用来下令的那个式",
+        "必要之事：作名词，摆在面前不得不办的那一桩"
+      ]
+    },
+    {
+      "id": "incorporate",
+      "word": "incorporate",
+      "pos": "verb",
+      "phonetic": "/ɪnˈkɔːpəreɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 incorporare（并成一体）← in-（进入）+ corpus（属格 corporis：身体）；本项目未为该族建根",
+      "native_definition": "to include something as part of a larger whole",
+      "core_concept": "taken into one body – 收进同一个身子里",
+      "core_image": "改稿时把别人提的三条意见揉进正文，读下来看不出是后加的",
+      "chinese": [
+        "并入",
+        "纳入",
+        "包含"
+      ],
+      "examples": [
+        "We incorporated his ideas into the plan.",
+        "The new law incorporates several old rules."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "并入：把外面的东西收进这个整体",
+        "纳入：条款、意见被收进来成为其中一条",
+        "包含：结果上就成了它的一部分，看不出接缝"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "ingredient",
+      "word": "ingredient",
+      "pos": "noun",
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "decomposable": "root",
+      "root_ids": [
+        "gradus"
+      ],
+      "root_logic": "in-（进去）+ gredi（gradus 走）+ -ent（…的东西）→ 一样样走进锅里的东西",
+      "origin": "拉丁语 ingrediens（走进去的）← ingredi（走进去）← in-（进）+ gradi（走）",
+      "native_definition": "any of the things that are combined to make a mixture or a dish",
+      "core_concept": "what walks into the mixture – 走进这一锅里的那一样",
+      "core_image": "台面上摊着面粉、糖、蛋和一小碟盐，一样样往盆里加",
+      "chinese": [
+        "成分",
+        "原料",
+        "要素"
+      ],
+      "examples": [
+        "Mix all the dry ingredients in a bowl.",
+        "Patience is a key ingredient of success."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "原料：做菜做东西时投进去的那一样",
+        "成分：成品里含着的那一样，可以拆着说",
+        "要素：抽象的事也这样凑成，如成功的要素"
+      ]
+    },
+    {
+      "id": "intimate",
+      "word": "intimate",
+      "pos": "adjective",
+      "phonetic": "/ˈɪntɪmət/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 intimus（最里面的），intus（在内）的最高级；晚期拉丁语 intimare 表「使深知」，与 timidus（胆怯）那一支无关",
+      "native_definition": "very close in friendship, or private and personal",
+      "core_concept": "as far in as one can get – 一直到最里面那一层",
+      "core_image": "两人坐在灯下压着声音说话，讲的是没跟别人提过的那些事",
+      "chinese": [
+        "亲密的",
+        "私密的",
+        "详尽的"
+      ],
+      "examples": [
+        "They have been intimate friends for years.",
+        "He shared his most intimate thoughts."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "亲密的：交情深到进得了最里面那一层",
+        "私密的：只在最里头，不给外人看",
+        "详尽的：知道得到了里层，细处都清楚"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "intimidate",
+      "word": "intimidate",
+      "pos": "verb",
+      "phonetic": "/ɪnˈtɪmɪdeɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中世纪拉丁语 intimidare（使胆怯）← in-（使）+ timidus（胆怯的）← timere（怕）；与 intimate 所本的 intimus（最里面的）不同源",
+      "native_definition": "to frighten someone, especially in order to make them do what you want",
+      "core_concept": "making someone go timid – 把人逼到发怯",
+      "core_image": "他一句话不说，只把椅子拖近半步，站着俯下身来看着对方",
+      "chinese": [
+        "恐吓",
+        "威胁",
+        "使胆怯"
+      ],
+      "examples": [
+        "They tried to intimidate the witness.",
+        "His size intimidates people at first."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "恐吓：明着来，要人怕",
+        "威胁：带着后果的压迫，逼人照办",
+        "使胆怯：不必开口，气势就让人退了半步"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "intuition",
+      "word": "intuition",
+      "pos": "noun",
+      "phonetic": "/ˌɪntjuˈɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "晚期拉丁语 intuitio（凝视、直观）← intueri（往里看）← in-（向内）+ tueri（看、守望）",
+      "native_definition": "the ability to know something without being told and without reasoning it out",
+      "core_concept": "seeing a thing inwardly all at once – 不经中间步骤，往里一看就见着了",
+      "core_image": "面试才聊两句，她心里已经定了不要这个人，讲不出是哪句话让她这么想",
+      "chinese": [
+        "直觉",
+        "直观"
+      ],
+      "examples": [
+        "She trusted her intuition and said no.",
+        "Good doctors rely partly on intuition."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "直觉：没有推导就有的那个判断",
+        "直观：不借中间步骤地直接看见，多用于说方法"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "harassment",
+      "word": "harassment",
+      "pos": "noun",
+      "phonetic": "/ˈhærəsmənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 harassement ← harasser（骚扰、使疲于奔命）← 古法语 harer（放狗驱赶），更早词源不明",
+      "native_definition": "repeated behaviour meant to trouble, threaten or annoy someone",
+      "core_concept": "being driven at again and again – 一遍遍地被撵着不放",
+      "core_image": "电话一天来七通，下楼买菜也有人跟着，事情不大但没一天清静",
+      "chinese": [
+        "骚扰",
+        "烦扰",
+        "侵扰"
+      ],
+      "examples": [
+        "She reported the harassment to her manager.",
+        "New rules aim to stop online harassment."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "骚扰：一次次找上来，让人不得安宁",
+        "烦扰：程度轻些，搅得人心烦",
+        "侵扰：带上侵犯的意味，如性骚扰"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "have",
+      "word": "have",
+      "pos": "verb",
+      "phonetic": "/hæv/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 habban（持有、拿住）← 原始日耳曼语 *habjaną",
+      "native_definition": "to own or hold something, to experience something, or to make something happen",
+      "core_concept": "the thing is in your hands – 那样东西就在你手上",
+      "core_image": "钥匙攥在他手里，口袋里还多一串，门开不开由他一句话",
+      "chinese": [
+        "有",
+        "持有",
+        "经历",
+        "使"
+      ],
+      "examples": [
+        "They have three children and a dog.",
+        "We had a long talk about it."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "有：东西归你，在你手上",
+        "持有：正拿着、正掌着，强调握在手里",
+        "经历：一段事也这样落在你身上",
+        "使：安排别人去做，事情由你手里发出"
+      ],
+      "collocations": [
+        "have sth done —— 让别人把某事做了，重点在结果不在谁做",
+        "have to do sth —— 不得不做，压力来自外部",
+        "have sb do sth —— 使唤某人做某事，主使者是你",
+        "have been doing sth —— 一直在做，动作从过去接到现在"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "horsepower",
+      "word": "horsepower",
+      "pos": "noun",
+      "phonetic": "/ˈhɔːspaʊə/",
+      "decomposable": "root",
+      "root_ids": [
+        "posse"
+      ],
+      "root_logic": "horse（马）+ power（posse 能成事的那股劲）→ 一匹马拉得动的那份力气，拿它做机器出力的尺子",
+      "origin": "英语复合词 horse（古英语 hors，马）+ power；power ← 通俗拉丁语 potere ← 拉丁语 posse（能够）",
+      "native_definition": "a unit for measuring the power of an engine",
+      "core_concept": "as much pull as one horse can give – 一匹马能出的那份劲",
+      "core_image": "说明书上标着一个数，意思是这台机器出的劲相当于多少匹畜生一起拉",
+      "chinese": [
+        "马力",
+        "功率"
+      ],
+      "examples": [
+        "This engine develops 200 horsepower.",
+        "The tractor has plenty of horsepower."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "马力：量发动机出力的那个单位",
+        "功率：泛指出力的大小，口语里这么说"
+      ]
+    },
+    {
+      "id": "household",
+      "word": "household",
+      "pos": "noun / adjective",
+      "phonetic": "/ˈhaʊshəʊld/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 houshold，由 hous（古英语 hūs，房子）与 hold（古英语 healdan 持守 → 掌管的那一摊）复合",
+      "native_definition": "all the people living together in one house, or relating to the home",
+      "core_concept": "all that is held together under one roof – 一个屋顶下掌在一处的那一摊",
+      "core_image": "一个屋顶下五口人，一口锅一本账，水电柴米都从这一份里出",
+      "chinese": [
+        "家庭",
+        "一家人",
+        "家用的"
+      ],
+      "examples": [
+        "The average household spends more on food.",
+        "She buys household goods in bulk."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "家庭：住在一起、账算在一处的这一户",
+        "一家人：这户里的那些人本身",
+        "家用的：作形容词，归这一摊日常用的"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "how",
+      "word": "how",
+      "pos": "adverb",
+      "phonetic": "/haʊ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 hū（以何方式）← 原始日耳曼语 *hwō，与 who、what 同出一个疑问词干",
+      "native_definition": "in what way, by what means, or to what degree",
+      "core_concept": "asking in what way or to what degree – 问的是走哪条路、到哪个份上",
+      "core_image": "他把螺丝拆下来举到灯下，问的是它当初怎么装上去的",
+      "chinese": [
+        "怎样",
+        "多么",
+        "如何"
+      ],
+      "examples": [
+        "Show me how you opened the locked door.",
+        "I forgot how cold it gets here."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "怎样：问方式与路数，最常用",
+        "多么：接形容词表程度，多在感叹句里",
+        "如何：问情况与状态，语气偏正式"
+      ],
+      "collocations": [
+        "how + adj/adv —— 多么…，问程度或作感叹，后面接主谓",
+        "how about doing sth —— …怎么样，用来提议或征询",
+        "how come + 主谓 —— 怎么会，口语里问原因，不倒装",
+        "know how to do sth —— 懂得怎么做，指方法上的会"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "hunger",
+      "word": "hunger",
+      "pos": "noun / verb",
+      "phonetic": "/ˈhʌŋɡə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 hungor ← 原始日耳曼语 *hungruz",
+      "native_definition": "the uncomfortable feeling caused by lack of food, or a strong wish for something",
+      "core_concept": "an empty place pulling to be filled – 空着的那处一直在拉扯",
+      "core_image": "下午三点还没吃上饭，胃里空得发紧，闻见楼下油烟就走不动路",
+      "chinese": [
+        "饥饿",
+        "渴望",
+        "渴求"
+      ],
+      "examples": [
+        "Many children still die of hunger.",
+        "He hungered for a word of praise."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "饥饿：肚子空着的那种难受",
+        "渴望：名声、爱也这样空着拉扯人",
+        "渴求：作动词，为那样东西一直空着等着"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "illustrate",
+      "word": "illustrate",
+      "pos": "verb",
+      "phonetic": "/ˈɪləstreɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 illustrare（照亮、使显明）← in-（在上）+ lustrare（照）",
+      "native_definition": "to make something clear by giving examples, or to add pictures to a book",
+      "core_concept": "throwing light on a thing so it shows – 打一道光过去，让它显出来",
+      "core_image": "他在白板上画了三个圈两条线，绕了半天的道理一下就看清了",
+      "chinese": [
+        "说明",
+        "举例说明",
+        "为…配图"
+      ],
+      "examples": [
+        "Let me illustrate this with an example.",
+        "She illustrates children's books for a living."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "举例说明：拿具体的事去照亮抽象的话",
+        "说明：泛指把事情讲得让人看清",
+        "为…配图：给书页配上图，也是照亮文字"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "interesting",
+      "word": "interesting",
+      "pos": "adjective",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "decomposable": "root",
+      "root_ids": [
+        "praeesse"
+      ],
+      "root_logic": "inter-（在两者之间）+ est（esse 在）+ -ing → 这事横在我这边、与我有牵连，所以我上心",
+      "origin": "英语 interest 加 -ing 构成；interest ← 古法语 interest ← 拉丁语 interest（interesse：夹在中间、有关系）",
+      "native_definition": "holding your attention because it seems worth knowing about",
+      "core_concept": "having a hold on you, so you attend to it – 与你搭上了牵连，你便上心",
+      "core_image": "他讲的那段旧事，屋里人本来各干各的，后来都停下手看着他",
+      "chinese": [
+        "有趣的",
+        "引人注意的",
+        "耐人寻味的"
+      ],
+      "examples": [
+        "That was an interesting talk on birds.",
+        "She made an interesting point about cost."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "有趣的：跟我搭上了关系，愿意听下去",
+        "引人注意的：把旁人的注意力拉过来",
+        "耐人寻味的：说法、现象值得多想一层"
+      ]
+    },
+    {
+      "id": "internet",
+      "word": "internet",
+      "pos": "noun",
+      "phonetic": "/ˈɪntənet/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "二十世纪新造词，由 international（国际的）与 network（网络）缩合而成，1974 年起用于指互联的计算机网络",
+      "native_definition": "the worldwide system of connected computer networks",
+      "core_concept": "networks of the whole world joined into one – 各国的网连成同一张",
+      "core_image": "一根线插进墙上的口子，屏幕上就调得出地球另一头的一间图书馆",
+      "chinese": [
+        "互联网",
+        "因特网"
+      ],
+      "examples": [
+        "She looks everything up on the internet.",
+        "The internet was down all morning."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "互联网：连成一张的那整套网",
+        "因特网：同一样东西的音译叫法，偏正式"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    }
+  ]
+}

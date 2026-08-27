@@ -368,7 +368,8 @@
         "arrest",
         "destiny",
         "destination",
-        "establishment"
+        "establishment",
+        "instance"
       ]
     },
     {
@@ -995,7 +996,9 @@
         "germ",
         "gently",
         "gentle",
-        "gentleman"
+        "gentleman",
+        "homogeneous",
+        "ingenious"
       ]
     },
     {
@@ -1028,7 +1031,8 @@
         "unemployment",
         "complex",
         "appliance",
-        "complicated"
+        "complicated",
+        "implicit"
       ]
     },
     {
@@ -1196,7 +1200,8 @@
         "potential",
         "power",
         "powerful",
-        "possibly"
+        "possibly",
+        "horsepower"
       ]
     },
     {
@@ -1480,7 +1485,8 @@
         "degree",
         "centigrade",
         "graduate",
-        "undergraduate"
+        "undergraduate",
+        "ingredient"
       ]
     },
     {
@@ -2887,7 +2893,9 @@
         "avail",
         "prevail",
         "available",
-        "evaluate"
+        "evaluate",
+        "invalid",
+        "invaluable"
       ]
     },
     {
@@ -3177,7 +3185,8 @@
       "word_ids": [
         "attain",
         "contact",
-        "contaminate"
+        "contaminate",
+        "intact"
       ]
     },
     {
@@ -3640,7 +3649,8 @@
         "entity",
         "essence",
         "essential",
-        "interest"
+        "interest",
+        "interesting"
       ]
     },
     {
@@ -4160,7 +4170,9 @@
         "jury",
         "justice",
         "justify",
-        "just"
+        "just",
+        "injure",
+        "injury"
       ]
     },
     {
@@ -5499,6 +5511,19 @@
         "install",
         "installation",
         "installment"
+      ]
+    },
+    {
+      "id": "concept-imperare-command",
+      "concept": "to give orders and hold sway",
+      "chinese": "发号施令",
+      "core_image": "一个人抬手说了一句，底下几千人跟着动，声音传到最远的边镇",
+      "root_ids": [
+        "imperare"
+      ],
+      "word_ids": [
+        "imperative",
+        "imperial"
       ]
     }
   ]
