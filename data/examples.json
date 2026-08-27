@@ -53900,6 +53900,412 @@
       "text": "Smoke filled the whole kitchen in seconds.",
       "source": "AI 生成 · 人工审核",
       "scene": "水从龙头下来，桶里的水面一点点往上走，最后齐到桶口那道边"
+    },
+    {
+      "id": "ex-enforce-1",
+      "word_id": "enforce",
+      "text": "Police enforce the speed limit here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口立起一块牌子，旁边站着人，谁想绕过去都被拦下来"
+    },
+    {
+      "id": "ex-enforce-2",
+      "word_id": "enforce",
+      "text": "The court will enforce the agreement.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "路口立起一块牌子，旁边站着人，谁想绕过去都被拦下来"
+    },
+    {
+      "id": "ex-faculty-1",
+      "word_id": "faculty",
+      "text": "She has a faculty for languages.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一门手艺的人聚在一栋楼里，各自都有一手拿得出的真本事"
+    },
+    {
+      "id": "ex-faculty-2",
+      "word_id": "faculty",
+      "text": "The faculty voted against the proposal.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一门手艺的人聚在一栋楼里，各自都有一手拿得出的真本事"
+    },
+    {
+      "id": "ex-eternal-1",
+      "word_id": "eternal",
+      "text": "They swore eternal friendship that summer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刻在石头上的字，风吹了几百年还在那儿，一笔没缺"
+    },
+    {
+      "id": "ex-eternal-2",
+      "word_id": "eternal",
+      "text": "The city holds an eternal flame.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "刻在石头上的字，风吹了几百年还在那儿，一笔没缺"
+    },
+    {
+      "id": "ex-feminine-1",
+      "word_id": "feminine",
+      "text": "She has a soft feminine voice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "衣料软软垂下来，线条一路圆过去，没有一处是硬角"
+    },
+    {
+      "id": "ex-feminine-2",
+      "word_id": "feminine",
+      "text": "In French, the noun is feminine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "衣料软软垂下来，线条一路圆过去，没有一处是硬角"
+    },
+    {
+      "id": "ex-energy-1",
+      "word_id": "energy",
+      "text": "Solar panels turn sunlight into energy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锅底火苗一直顶着，水在里头翻个不停，一夜没歇"
+    },
+    {
+      "id": "ex-energy-2",
+      "word_id": "energy",
+      "text": "The children still had energy at midnight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "锅底火苗一直顶着，水在里头翻个不停，一夜没歇"
+    },
+    {
+      "id": "ex-engine-1",
+      "word_id": "engine",
+      "text": "The engine stalled halfway up the hill.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁壳子里活塞上下捣着，油送进去，轮轴就转起来"
+    },
+    {
+      "id": "ex-engine-2",
+      "word_id": "engine",
+      "text": "Mechanics rebuilt the old engine last winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "铁壳子里活塞上下捣着，油送进去，轮轴就转起来"
+    },
+    {
+      "id": "ex-enthusiastic-1",
+      "word_id": "enthusiastic",
+      "text": "The crowd gave an enthusiastic welcome.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "讲到一半人已站起来，手比划得比嘴还快，眼睛发亮"
+    },
+    {
+      "id": "ex-enthusiastic-2",
+      "word_id": "enthusiastic",
+      "text": "He is enthusiastic about learning Chinese.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "讲到一半人已站起来，手比划得比嘴还快，眼睛发亮"
+    },
+    {
+      "id": "ex-episode-1",
+      "word_id": "episode",
+      "text": "The final episode airs on Sunday night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "连着播的片子今晚只放一段，看完停住，下一段要等明天"
+    },
+    {
+      "id": "ex-episode-2",
+      "word_id": "episode",
+      "text": "That episode of his life stayed hidden.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "连着播的片子今晚只放一段，看完停住，下一段要等明天"
+    },
+    {
+      "id": "ex-escape-1",
+      "word_id": "escape",
+      "text": "Two prisoners escaped during the night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "外套被人一把抓住，肩膀一缩，人从袖子里滑了出去"
+    },
+    {
+      "id": "ex-escape-2",
+      "word_id": "escape",
+      "text": "She planned her escape for weeks.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "外套被人一把抓住，肩膀一缩，人从袖子里滑了出去"
+    },
+    {
+      "id": "ex-establishment-1",
+      "word_id": "establishment",
+      "text": "The establishment of the fund took years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牌子钉上墙，门开了，桌椅摆定，从此天天照点开门"
+    },
+    {
+      "id": "ex-establishment-2",
+      "word_id": "establishment",
+      "text": "He works at a small printing establishment.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牌子钉上墙，门开了，桌椅摆定，从此天天照点开门"
+    },
+    {
+      "id": "ex-evacuate-1",
+      "word_id": "evacuate",
+      "text": "Police evacuated the building after the alarm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "警报一响，楼里的人一层层往外走，最后只剩空椅子"
+    },
+    {
+      "id": "ex-evacuate-2",
+      "word_id": "evacuate",
+      "text": "Residents were told to evacuate immediately.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "警报一响，楼里的人一层层往外走，最后只剩空椅子"
+    },
+    {
+      "id": "ex-examine-1",
+      "word_id": "examine",
+      "text": "The doctor examined her injured knee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一件件举到灯下翻过来看，指甲刮一下，再放到另一堆"
+    },
+    {
+      "id": "ex-examine-2",
+      "word_id": "examine",
+      "text": "Examine the contract before you sign.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一件件举到灯下翻过来看，指甲刮一下，再放到另一堆"
+    },
+    {
+      "id": "ex-excellent-1",
+      "word_id": "excellent",
+      "text": "Her spoken English is excellent.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排苗里有一株高出一头，叶子也比旁边的厚"
+    },
+    {
+      "id": "ex-excellent-2",
+      "word_id": "excellent",
+      "text": "The hotel served an excellent breakfast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排苗里有一株高出一头，叶子也比旁边的厚"
+    },
+    {
+      "id": "ex-exemplify-1",
+      "word_id": "exemplify",
+      "text": "This case exemplifies the wider problem.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从整筐里挑出一个举到眼前，说剩下的都跟这个一样"
+    },
+    {
+      "id": "ex-exemplify-2",
+      "word_id": "exemplify",
+      "text": "Her work exemplifies careful research.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从整筐里挑出一个举到眼前，说剩下的都跟这个一样"
+    },
+    {
+      "id": "ex-exercise-1",
+      "word_id": "exercise",
+      "text": "Daily exercise keeps the heart strong.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牲口从栏里赶出来，绕着场子一圈圈遛，出了汗才停"
+    },
+    {
+      "id": "ex-exercise-2",
+      "word_id": "exercise",
+      "text": "She exercised her right to vote.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牲口从栏里赶出来，绕着场子一圈圈遛，出了汗才停"
+    },
+    {
+      "id": "ex-expansion-1",
+      "word_id": "expansion",
+      "text": "The company announced its overseas expansion.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "折起来的地图在桌上摊开，边缘一直推到桌沿外头"
+    },
+    {
+      "id": "ex-expansion-2",
+      "word_id": "expansion",
+      "text": "Heat causes expansion of the metal rail.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "折起来的地图在桌上摊开，边缘一直推到桌沿外头"
+    },
+    {
+      "id": "ex-extreme-1",
+      "word_id": "extreme",
+      "text": "He holds extreme views on taxation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在悬崖最外那道边上，脚尖前面已经没有地了"
+    },
+    {
+      "id": "ex-extreme-2",
+      "word_id": "extreme",
+      "text": "They survived extreme cold in the mountains.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在悬崖最外那道边上，脚尖前面已经没有地了"
+    },
+    {
+      "id": "ex-famine-1",
+      "word_id": "famine",
+      "text": "Drought brought famine to the region.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地裂着缝，谷仓底扫得见木板，村口的锅倒扣着"
+    },
+    {
+      "id": "ex-famine-2",
+      "word_id": "famine",
+      "text": "Aid arrived too late to stop famine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地裂着缝，谷仓底扫得见木板，村口的锅倒扣着"
+    },
+    {
+      "id": "ex-fascinate-1",
+      "word_id": "fascinate",
+      "text": "Snakes fascinate my younger brother.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "眼睛黏在那件东西上，旁边有人叫也没听见"
+    },
+    {
+      "id": "ex-fascinate-2",
+      "word_id": "fascinate",
+      "text": "The old maps fascinated her for hours.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "眼睛黏在那件东西上，旁边有人叫也没听见"
+    },
+    {
+      "id": "ex-fiction-1",
+      "word_id": "fiction",
+      "text": "She writes fiction set in Victorian London.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空手在空气里捏出一个人，讲得有鼻子有眼，松手什么都不剩"
+    },
+    {
+      "id": "ex-fiction-2",
+      "word_id": "fiction",
+      "text": "That story is pure fiction.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "空手在空气里捏出一个人，讲得有鼻子有眼，松手什么都不剩"
+    },
+    {
+      "id": "ex-empirical-1",
+      "word_id": "empirical",
+      "text": "The claim needs empirical support.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "不查书，先架起仪器读三天的数，纸上记满了才开口"
+    },
+    {
+      "id": "ex-empirical-2",
+      "word_id": "empirical",
+      "text": "Their method is strictly empirical.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "不查书，先架起仪器读三天的数，纸上记满了才开口"
+    },
+    {
+      "id": "ex-equator-1",
+      "word_id": "equator",
+      "text": "Singapore lies close to the equator.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地球仪腰上一圈刻线，上下两半正好一样大"
+    },
+    {
+      "id": "ex-equator-2",
+      "word_id": "equator",
+      "text": "Temperatures rise as you near the equator.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地球仪腰上一圈刻线，上下两半正好一样大"
+    },
+    {
+      "id": "ex-especially-1",
+      "word_id": "especially",
+      "text": "I love fruit, especially ripe mangoes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整排里有一格被手指点住，说的就是这一格，别的先放着"
+    },
+    {
+      "id": "ex-especially-2",
+      "word_id": "especially",
+      "text": "The road is dangerous, especially at night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一整排里有一格被手指点住，说的就是这一格，别的先放着"
+    },
+    {
+      "id": "ex-evaluate-1",
+      "word_id": "evaluate",
+      "text": "We must evaluate the risks first.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "东西掂在手里上下颠两下，心里给它记一个数"
+    },
+    {
+      "id": "ex-evaluate-2",
+      "word_id": "evaluate",
+      "text": "Teachers evaluate each student twice a year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "东西掂在手里上下颠两下，心里给它记一个数"
+    },
+    {
+      "id": "ex-everything-1",
+      "word_id": "everything",
+      "text": "He packed everything into one small bag.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摊开的东西一样没少，连纸角上的别针都在里头"
+    },
+    {
+      "id": "ex-everything-2",
+      "word_id": "everything",
+      "text": "Everything depends on tomorrow's weather.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摊开的东西一样没少，连纸角上的别针都在里头"
+    },
+    {
+      "id": "ex-exceedingly-1",
+      "word_id": "exceedingly",
+      "text": "The exam was exceedingly difficult.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位早漫过警戒刻度，还在一格一格往上爬"
+    },
+    {
+      "id": "ex-exceedingly-2",
+      "word_id": "exceedingly",
+      "text": "She was exceedingly kind to us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水位早漫过警戒刻度，还在一格一格往上爬"
+    },
+    {
+      "id": "ex-extra-1",
+      "word_id": "extra",
+      "text": "We need an extra chair here.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "碗里盛好了又添一勺，勺子是从锅边另拿的"
+    },
+    {
+      "id": "ex-extra-2",
+      "word_id": "extra",
+      "text": "The hotel charges extra for breakfast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "碗里盛好了又添一勺，勺子是从锅边另拿的"
+    },
+    {
+      "id": "ex-ferry-1",
+      "word_id": "ferry",
+      "text": "We took the ferry across the strait.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条平底船在两岸之间来回，甲板上停着车和人"
+    },
+    {
+      "id": "ex-ferry-2",
+      "word_id": "ferry",
+      "text": "Buses ferry workers to the site daily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一条平底船在两岸之间来回，甲板上停着车和人"
+    },
+    {
+      "id": "ex-fight-1",
+      "word_id": "fight",
+      "text": "The two boys fought behind the shed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人扭在一起，拳头往对方身上落，谁也不肯先松手"
+    },
+    {
+      "id": "ex-fight-2",
+      "word_id": "fight",
+      "text": "She fought hard for equal pay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人扭在一起，拳头往对方身上落，谁也不肯先松手"
     }
   ]
 }

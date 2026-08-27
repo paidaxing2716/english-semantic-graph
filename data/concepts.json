@@ -15,7 +15,8 @@
         "figurative",
         "disfigure",
         "configuration",
-        "figment"
+        "figment",
+        "fiction"
       ]
     },
     {
@@ -207,7 +208,8 @@
         "speculate",
         "suspicion",
         "suspicious",
-        "despite"
+        "despite",
+        "especially"
       ]
     },
     {
@@ -365,7 +367,8 @@
         "distant",
         "arrest",
         "destiny",
-        "destination"
+        "destination",
+        "establishment"
       ]
     },
     {
@@ -467,7 +470,8 @@
         "artificial",
         "amplify",
         "benefit",
-        "deficit"
+        "deficit",
+        "faculty"
       ]
     },
     {
@@ -536,7 +540,8 @@
         "succeed",
         "accessory",
         "cease",
-        "ancestor"
+        "ancestor",
+        "exceedingly"
       ]
     },
     {
@@ -672,7 +677,8 @@
         "activity",
         "agenda",
         "ambassador",
-        "actress"
+        "actress",
+        "examine"
       ]
     },
     {
@@ -1287,7 +1293,8 @@
         "equal",
         "equality",
         "equation",
-        "equivalent"
+        "equivalent",
+        "equator"
       ]
     },
     {
@@ -1546,7 +1553,9 @@
       ],
       "word_ids": [
         "external",
-        "internal"
+        "internal",
+        "extreme",
+        "extra"
       ]
     },
     {
@@ -2724,7 +2733,8 @@
       "word_ids": [
         "comfort",
         "comfortable",
-        "effort"
+        "effort",
+        "enforce"
       ]
     },
     {
@@ -2861,7 +2871,8 @@
         "prevalent",
         "avail",
         "prevail",
-        "available"
+        "available",
+        "evaluate"
       ]
     },
     {
@@ -5411,6 +5422,18 @@
       "word_ids": [
         "example",
         "exempt"
+      ]
+    },
+    {
+      "id": "concept-hodos-way",
+      "concept": "a way along which one travels",
+      "chinese": "一条路",
+      "core_image": "脚下一条路伸出去，顺着它走才到得了，中途插进来的也算一段",
+      "root_ids": [
+        "hodos"
+      ],
+      "word_ids": [
+        "episode"
       ]
     }
   ]

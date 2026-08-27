@@ -12432,6 +12432,78 @@
       "to": "fertilizer",
       "type": "root",
       "note": "fert（ferre 带出、生养）+ -ilize（使能够）+ -er（那样东西）→ 撒下去让地能多生出东西的那样东西"
+    },
+    {
+      "from": "fortis",
+      "to": "enforce",
+      "type": "root",
+      "note": "en-（使成为）+ force（fortis 强力）→ 在规矩背后加上一股力 → 使它落到实处"
+    },
+    {
+      "from": "fac",
+      "to": "faculty",
+      "type": "root",
+      "note": "fac（做）→ facilis（做得来的）→ facultas（做得来的本事）→ 一手拿得出的本事；校中掌某门本事的那批"
+    },
+    {
+      "from": "hodos",
+      "to": "episode",
+      "type": "root",
+      "note": "epi-（另加）+ eis（进入）+ od（hodos 路）→ 正路之外另插进来的那一段"
+    },
+    {
+      "from": "sta",
+      "to": "establishment",
+      "type": "root",
+      "note": "sta（站立）→ stabilis（站得稳的）→ establish（使站稳）+ -ment（结果）→ 立起来并且站住了"
+    },
+    {
+      "from": "ag",
+      "to": "examine",
+      "type": "root",
+      "note": "ex-（出）+ ag（驱动）→ exigere（赶出来、称量）→ examen（天平的指针）→ 一样样称过，看针停在哪里"
+    },
+    {
+      "from": "ternus",
+      "to": "extreme",
+      "type": "root",
+      "note": "ex-（外）+ ter（方位：那一侧）→ extremus（最外那一头）→ 到边到顶，再往前没有地方了"
+    },
+    {
+      "from": "figur",
+      "to": "fiction",
+      "type": "root",
+      "note": "fic（捏塑）→ fictio（捏出来的东西）→ 手捏出来的一套，现实里找不到对应"
+    },
+    {
+      "from": "aequus",
+      "to": "equator",
+      "type": "root",
+      "note": "aequ（平、相等）+ -ator（做那事的）→ 把昼夜分得一样长的那条线"
+    },
+    {
+      "from": "spect",
+      "to": "especially",
+      "type": "root",
+      "note": "spec（看）→ species（一眼看去的种类）→ especial（自成一类的）+ -ly → 把这一项单独挑出来说"
+    },
+    {
+      "from": "valere",
+      "to": "evaluate",
+      "type": "root",
+      "note": "e-（出）+ val（valere 有力、值）→ 把它值多少掂出来"
+    },
+    {
+      "from": "ced",
+      "to": "exceedingly",
+      "type": "root",
+      "note": "ex-（出、越过）+ ceed（行走）+ -ingly → 走出划定那条线之外的程度"
+    },
+    {
+      "from": "ternus",
+      "to": "extra",
+      "type": "root",
+      "note": "ex-（外）+ ter（方位：那一侧）→ extra（在界线之外）→ 定数之外另添的"
     }
   ]
 }

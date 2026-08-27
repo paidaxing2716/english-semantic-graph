@@ -19,7 +19,8 @@
         "disfigure",
         "figment",
         "figurative",
-        "figure"
+        "figure",
+        "fiction"
       ]
     },
     {
@@ -243,7 +244,8 @@
         "speculate",
         "suspicion",
         "suspicious",
-        "despite"
+        "despite",
+        "especially"
       ]
     },
     {
@@ -392,7 +394,8 @@
         "distant",
         "arrest",
         "destiny",
-        "destination"
+        "destination",
+        "establishment"
       ]
     },
     {
@@ -512,7 +515,8 @@
         "artificial",
         "amplify",
         "benefit",
-        "deficit"
+        "deficit",
+        "faculty"
       ]
     },
     {
@@ -592,7 +596,8 @@
         "succeed",
         "accessory",
         "cease",
-        "ancestor"
+        "ancestor",
+        "exceedingly"
       ]
     },
     {
@@ -745,7 +750,8 @@
         "activity",
         "agenda",
         "ambassador",
-        "actress"
+        "actress",
+        "examine"
       ]
     },
     {
@@ -1451,7 +1457,8 @@
         "equal",
         "equality",
         "equation",
-        "equivalent"
+        "equivalent",
+        "equator"
       ]
     },
     {
@@ -1756,7 +1763,9 @@
       "english_definition": "inner or outer",
       "word_ids": [
         "external",
-        "internal"
+        "internal",
+        "extreme",
+        "extra"
       ]
     },
     {
@@ -3151,7 +3160,8 @@
       "word_ids": [
         "comfort",
         "comfortable",
-        "effort"
+        "effort",
+        "enforce"
       ]
     },
     {
@@ -3315,7 +3325,8 @@
         "prevalent",
         "avail",
         "prevail",
-        "available"
+        "available",
+        "evaluate"
       ]
     },
     {
@@ -6462,6 +6473,23 @@
       "word_ids": [
         "example",
         "exempt"
+      ]
+    },
+    {
+      "id": "hodos",
+      "root": "hodos",
+      "variants": [
+        "od"
+      ],
+      "origin": "希腊语 hodos（路、走法）；epeisodion 是 epi-（另加）+ eis（进入）+ hodos，指正戏之外另插进来的一段；methodos（追着走的那条路）、periodos（绕一圈走回来）同出此支",
+      "core_concept": "a way along which one travels / 一条走的路",
+      "core_image": "脚下一条路伸出去，顺着它走才到得了，中途插进来的也算一段",
+      "english_definition": "a way, a road, a course of travel",
+      "word_ids": [
+        "episode"
+      ],
+      "noisy_variants": [
+        "od"
       ]
     }
   ]
