@@ -12504,6 +12504,60 @@
       "to": "extra",
       "type": "root",
       "note": "ex-（外）+ ter（方位：那一侧）→ extra（在界线之外）→ 定数之外另添的"
+    },
+    {
+      "from": "fluere",
+      "to": "fluctuate",
+      "type": "root",
+      "note": "fluc（fluere 流动）+ -ate → fluctus 是流动堆起的浪 → 面上一处鼓起一处塌下，高低不定"
+    },
+    {
+      "from": "fundus",
+      "to": "fundamental",
+      "type": "root",
+      "note": "fund（底）+ -mental → fundamentum 是垫在最下面的那一层 → 抽掉一块，上头整片跟着垮"
+    },
+    {
+      "from": "gen",
+      "to": "genius",
+      "type": "root",
+      "note": "gen（生出）→ genius 本指随人一同生下来的守护灵 → 一出生就带着、后天补不齐的那一份"
+    },
+    {
+      "from": "frangere",
+      "to": "fraction",
+      "type": "root",
+      "note": "fract（frangere 打断）+ -ion → 从整块上断下来的那一小块"
+    },
+    {
+      "from": "frangere",
+      "to": "fragile",
+      "type": "root",
+      "note": "frag（frangere 打断）+ -ile（容易…的）→ 一点力就断"
+    },
+    {
+      "from": "gen",
+      "to": "genetic",
+      "type": "root",
+      "note": "gen（生出）→ 希腊语 genesis（生成、起头）→ genetikos → 上一代生下一代时带过去的那一份"
+    },
+    {
+      "from": "gen",
+      "to": "genuine",
+      "type": "root",
+      "note": "gen（生出）→ genuinus（天生如此的）→ 生下来就是这个，不是后头装出来的"
+    },
+    {
+      "from": "gen",
+      "to": "germ",
+      "type": "root",
+      "note": "gen（生出）→ 拉丁语 germen（刚冒出的芽）→ 一点点小东西，整株都从它长出来"
+    },
+    {
+      "from": "gen",
+      "to": "gently",
+      "type": "root",
+      "note": "gen（生出）→ 拉丁语 gens（族、出身）→ gentilis（同族的、出身好的）→ gentil（举止不粗）→ g"
     }
   ]
 }

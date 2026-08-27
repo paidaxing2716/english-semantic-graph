@@ -962,7 +962,8 @@
         "influential",
         "superfluous",
         "flu",
-        "fluid"
+        "fluid",
+        "fluctuate"
       ]
     },
     {
@@ -986,7 +987,12 @@
         "hydrogen",
         "gender",
         "engineer",
-        "engineering"
+        "engineering",
+        "genius",
+        "genetic",
+        "genuine",
+        "germ",
+        "gently"
       ]
     },
     {
@@ -5434,6 +5440,31 @@
       ],
       "word_ids": [
         "episode"
+      ]
+    },
+    {
+      "id": "concept-frangere-shatter",
+      "concept": "to break a whole into pieces",
+      "chinese": "掰成碎块",
+      "core_image": "一块石板从中间裂开，断口毛糙，碎屑落了一地",
+      "root_ids": [
+        "frangere"
+      ],
+      "word_ids": [
+        "fraction",
+        "fragile"
+      ]
+    },
+    {
+      "id": "concept-fundus-bottom",
+      "concept": "the bottom layer a thing rests on",
+      "chinese": "垫在底下",
+      "core_image": "墙还没砌，先在地上铺一层石头，往下踩不动了才开始往上垒",
+      "root_ids": [
+        "fundus"
+      ],
+      "word_ids": [
+        "fundamental"
       ]
     }
   ]

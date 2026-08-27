@@ -54306,6 +54306,440 @@
       "text": "She fought hard for equal pay.",
       "source": "AI 生成 · 人工审核",
       "scene": "两个人扭在一起，拳头往对方身上落，谁也不肯先松手"
+    },
+    {
+      "id": "ex-fit-1",
+      "word_id": "fit",
+      "text": "These shoes fit me perfectly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉板往槽里一推，四边正好挨上，推到底不晃也不卡"
+    },
+    {
+      "id": "ex-fit-2",
+      "word_id": "fit",
+      "text": "He keeps fit by swimming daily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "抽屉板往槽里一推，四边正好挨上，推到底不晃也不卡"
+    },
+    {
+      "id": "ex-fluctuate-1",
+      "word_id": "fluctuate",
+      "text": "Oil prices fluctuate from week to week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "湖面被风推着，这边刚鼓起来，旁边就塌下去，没有一刻是平的"
+    },
+    {
+      "id": "ex-fluctuate-2",
+      "word_id": "fluctuate",
+      "text": "Her mood fluctuated all through the winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "湖面被风推着，这边刚鼓起来，旁边就塌下去，没有一刻是平的"
+    },
+    {
+      "id": "ex-formidable-1",
+      "word_id": "formidable",
+      "text": "She was a formidable opponent in court.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那人一站起来把门框占满了，屋里说话的都停了"
+    },
+    {
+      "id": "ex-formidable-2",
+      "word_id": "formidable",
+      "text": "They face a formidable task this year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "那人一站起来把门框占满了，屋里说话的都停了"
+    },
+    {
+      "id": "ex-fountain-1",
+      "word_id": "fountain",
+      "text": "Children ran around the fountain in the square.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从池子中央直直冲上去，到了顶散成一片，落回来砸得石沿全是点子"
+    },
+    {
+      "id": "ex-fountain-2",
+      "word_id": "fountain",
+      "text": "The village drinks from a mountain fountain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从池子中央直直冲上去，到了顶散成一片，落回来砸得石沿全是点子"
+    },
+    {
+      "id": "ex-fundamental-1",
+      "word_id": "fundamental",
+      "text": "Reading is a fundamental skill for children.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把楼扒到只剩底下那层石头，抽走一块，上面整片跟着塌"
+    },
+    {
+      "id": "ex-fundamental-2",
+      "word_id": "fundamental",
+      "text": "Learn the fundamentals before you improvise.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "把楼扒到只剩底下那层石头，抽走一块，上面整片跟着塌"
+    },
+    {
+      "id": "ex-genius-1",
+      "word_id": "genius",
+      "text": "Mozart showed his genius as a small child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "谱子第一次翻开，手按下去就是对的，旁边练了十年的还差一截"
+    },
+    {
+      "id": "ex-genius-2",
+      "word_id": "genius",
+      "text": "She has a genius for solving puzzles.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "谱子第一次翻开，手按下去就是对的，旁边练了十年的还差一截"
+    },
+    {
+      "id": "ex-filter-1",
+      "word_id": "filter",
+      "text": "Change the water filter every three months.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "漏斗里垫一层毡，水一滴一滴渗下去，渣子全留在毡面上"
+    },
+    {
+      "id": "ex-filter-2",
+      "word_id": "filter",
+      "text": "The app filters out unwanted messages.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "漏斗里垫一层毡，水一滴一滴渗下去，渣子全留在毡面上"
+    },
+    {
+      "id": "ex-fraction-1",
+      "word_id": "fraction",
+      "text": "Only a fraction of the crowd stayed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整张饼掰下一角，剩下的还摊在盘里，一眼看得出掰走的少"
+    },
+    {
+      "id": "ex-fraction-2",
+      "word_id": "fraction",
+      "text": "Add these two fractions together.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整张饼掰下一角，剩下的还摊在盘里，一眼看得出掰走的少"
+    },
+    {
+      "id": "ex-fragile-1",
+      "word_id": "fragile",
+      "text": "Handle those glasses, they are fragile.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "纸箱侧面画着朝上的箭头，工人两手托着底，脚下走得极慢"
+    },
+    {
+      "id": "ex-fragile-2",
+      "word_id": "fragile",
+      "text": "The peace agreement remains fragile.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "纸箱侧面画着朝上的箭头，工人两手托着底，脚下走得极慢"
+    },
+    {
+      "id": "ex-frequency-1",
+      "word_id": "frequency",
+      "text": "The frequency of storms has risen sharply.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一格里的划痕挤成一片，隔壁那格只有零星两三道"
+    },
+    {
+      "id": "ex-frequency-2",
+      "word_id": "frequency",
+      "text": "Trains run with great frequency at rush hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一格里的划痕挤成一片，隔壁那格只有零星两三道"
+    },
+    {
+      "id": "ex-frustrate-1",
+      "word_id": "frustrate",
+      "text": "Bad weather frustrated our travel plans.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙插进去转了半圈就卡住，来回拧了十几次，锁还是没开"
+    },
+    {
+      "id": "ex-frustrate-2",
+      "word_id": "frustrate",
+      "text": "It frustrates me when nobody answers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钥匙插进去转了半圈就卡住，来回拧了十几次，锁还是没开"
+    },
+    {
+      "id": "ex-genetic-1",
+      "word_id": "genetic",
+      "text": "The disease has a clear genetic cause.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "父子俩眉心那道竖纹长在同一处，隔了三十年一模一样"
+    },
+    {
+      "id": "ex-genetic-2",
+      "word_id": "genetic",
+      "text": "Scientists study genetic changes in rice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "父子俩眉心那道竖纹长在同一处，隔了三十年一模一样"
+    },
+    {
+      "id": "ex-genuine-1",
+      "word_id": "genuine",
+      "text": "This bag is genuine leather.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银器底上那个戳记是压进去的，指甲刮不掉；仿的一擦就花了"
+    },
+    {
+      "id": "ex-genuine-2",
+      "word_id": "genuine",
+      "text": "He showed genuine concern for her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银器底上那个戳记是压进去的，指甲刮不掉；仿的一擦就花了"
+    },
+    {
+      "id": "ex-germ-1",
+      "word_id": "germ",
+      "text": "Wash your hands to kill germs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "麦粒剖开，尖头上那一点白的，整株都从这一点长出来"
+    },
+    {
+      "id": "ex-germ-2",
+      "word_id": "germ",
+      "text": "That trip was the germ of her novel.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "麦粒剖开，尖头上那一点白的，整株都从这一点长出来"
+    },
+    {
+      "id": "ex-guarantee-1",
+      "word_id": "guarantee",
+      "text": "The shop offers a two-year guarantee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "合同末尾多签一个人的名字，将来出岔子先找他"
+    },
+    {
+      "id": "ex-guarantee-2",
+      "word_id": "guarantee",
+      "text": "I guarantee you will enjoy this book.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "合同末尾多签一个人的名字，将来出岔子先找他"
+    },
+    {
+      "id": "ex-hamper-1",
+      "word_id": "hamper",
+      "text": "Heavy snow hampered the rescue team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "泥浆没到膝盖，每抬一步都得先把脚从里头拔出来"
+    },
+    {
+      "id": "ex-hamper-2",
+      "word_id": "hamper",
+      "text": "She packed a hamper for the picnic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "泥浆没到膝盖，每抬一步都得先把脚从里头拔出来"
+    },
+    {
+      "id": "ex-film-1",
+      "word_id": "film",
+      "text": "A film of dust covered the shelf.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牛奶放凉，表面结出一层皮，勺子一挑整片提起来"
+    },
+    {
+      "id": "ex-film-2",
+      "word_id": "film",
+      "text": "They filmed the scene at dawn.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "牛奶放凉，表面结出一层皮，勺子一挑整片提起来"
+    },
+    {
+      "id": "ex-finding-1",
+      "word_id": "finding",
+      "text": "The findings were published last month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻了三个月的记录，最后在纸上写下一行，底下签名盖章"
+    },
+    {
+      "id": "ex-finding-2",
+      "word_id": "finding",
+      "text": "The court announced its finding today.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "翻了三个月的记录，最后在纸上写下一行，底下签名盖章"
+    },
+    {
+      "id": "ex-fireman-1",
+      "word_id": "fireman",
+      "text": "The fireman carried the child down the ladder.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "头盔压到眉毛，抱着水带往冒烟的门里冲，身后水管一路绷直"
+    },
+    {
+      "id": "ex-fireman-2",
+      "word_id": "fireman",
+      "text": "The fireman shovelled coal all night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "头盔压到眉毛，抱着水带往冒烟的门里冲，身后水管一路绷直"
+    },
+    {
+      "id": "ex-fisherman-1",
+      "word_id": "fisherman",
+      "text": "The fisherman mended his nets on the beach.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天没亮网就从船舷放下去，人坐在船尾盯着水面，一动不动"
+    },
+    {
+      "id": "ex-fisherman-2",
+      "word_id": "fisherman",
+      "text": "My uncle is a keen fisherman.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天没亮网就从船舷放下去，人坐在船尾盯着水面，一动不动"
+    },
+    {
+      "id": "ex-flatter-1",
+      "word_id": "flatter",
+      "text": "He flattered the boss at every meeting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话的人手贴着对方袖子一路顺下去，句句都挑对方爱听的说"
+    },
+    {
+      "id": "ex-flatter-2",
+      "word_id": "flatter",
+      "text": "That dress really flatters her.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "说话的人手贴着对方袖子一路顺下去，句句都挑对方爱听的说"
+    },
+    {
+      "id": "ex-forecast-1",
+      "word_id": "forecast",
+      "text": "The forecast says rain for the weekend.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上画着几条弧线往东移，旁边标着明天这一片落多少雨"
+    },
+    {
+      "id": "ex-forecast-2",
+      "word_id": "forecast",
+      "text": "Analysts forecast slower growth next year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上画着几条弧线往东移，旁边标着明天这一片落多少雨"
+    },
+    {
+      "id": "ex-forth-1",
+      "word_id": "forth",
+      "text": "He stepped forth from the shadows.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门开出一条缝，人从里头走出来，脚步没往回收"
+    },
+    {
+      "id": "ex-forth-2",
+      "word_id": "forth",
+      "text": "From that day forth she never wrote.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "门开出一条缝，人从里头走出来，脚步没往回收"
+    },
+    {
+      "id": "ex-forty-1",
+      "word_id": "forty",
+      "text": "She turns forty next month.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排排十个一数，数到第四排刚好数完，手指停在那里"
+    },
+    {
+      "id": "ex-forty-2",
+      "word_id": "forty",
+      "text": "Forty people signed the letter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排排十个一数，数到第四排刚好数完，手指停在那里"
+    },
+    {
+      "id": "ex-framework-1",
+      "word_id": "framework",
+      "text": "Workers bolted the steel framework together.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钢管一根根接起来立成骨架，墙板还没上，风从缝里穿过去"
+    },
+    {
+      "id": "ex-framework-2",
+      "word_id": "framework",
+      "text": "We need a legal framework for this.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钢管一根根接起来立成骨架，墙板还没上，风从缝里穿过去"
+    },
+    {
+      "id": "ex-fuss-1",
+      "word_id": "fuss",
+      "text": "Don't make a fuss over a small stain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只杯子放歪了，半屋子人被叫过来围着看，手一直挥个不停"
+    },
+    {
+      "id": "ex-fuss-2",
+      "word_id": "fuss",
+      "text": "She fussed about the seating all evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只杯子放歪了，半屋子人被叫过来围着看，手一直挥个不停"
+    },
+    {
+      "id": "ex-gently-1",
+      "word_id": "gently",
+      "text": "Gently place the eggs in the basket.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指尖托着蛋壳往窝里放，手指一点点松开，全程没有声音"
+    },
+    {
+      "id": "ex-gently-2",
+      "word_id": "gently",
+      "text": "The path slopes gently down to the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指尖托着蛋壳往窝里放，手指一点点松开，全程没有声音"
+    },
+    {
+      "id": "ex-gramme-1",
+      "word_id": "gramme",
+      "text": "This letter weighs only ten grammes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平右盘只搁一枚最小的砝码，指针才刚偏过刻度一格"
+    },
+    {
+      "id": "ex-gramme-2",
+      "word_id": "gramme",
+      "text": "Add fifty grammes of butter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平右盘只搁一枚最小的砝码，指针才刚偏过刻度一格"
+    },
+    {
+      "id": "ex-greenhouse-1",
+      "word_id": "greenhouse",
+      "text": "Tomatoes ripen early in the greenhouse.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玻璃上挂满水汽，外头一层白霜，里头的苗还在往上抽"
+    },
+    {
+      "id": "ex-greenhouse-2",
+      "word_id": "greenhouse",
+      "text": "He built a small greenhouse behind the shed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玻璃上挂满水汽，外头一层白霜，里头的苗还在往上抽"
+    },
+    {
+      "id": "ex-guideline-1",
+      "word_id": "guideline",
+      "text": "The department issued new safety guidelines.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地上先弹出一条白线，后面的人踩着线走，脚不越出去"
+    },
+    {
+      "id": "ex-guideline-2",
+      "word_id": "guideline",
+      "text": "Follow the guidelines when writing the report.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地上先弹出一条白线，后面的人踩着线走，脚不越出去"
+    },
+    {
+      "id": "ex-handicap-1",
+      "word_id": "handicap",
+      "text": "Poor eyesight was a serious handicap for him.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑得最快的那匹马腰上加了铅块，别的照常起跑，到终点几乎并头"
+    },
+    {
+      "id": "ex-handicap-2",
+      "word_id": "handicap",
+      "text": "The rules handicap the strongest team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "跑得最快的那匹马腰上加了铅块，别的照常起跑，到终点几乎并头"
     }
   ]
 }

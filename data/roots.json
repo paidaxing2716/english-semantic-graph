@@ -1074,7 +1074,8 @@
         "influential",
         "superfluous",
         "flu",
-        "fluid"
+        "fluid",
+        "fluctuate"
       ]
     },
     {
@@ -1102,7 +1103,12 @@
         "hydrogen",
         "gender",
         "engineer",
-        "engineering"
+        "engineering",
+        "genius",
+        "genetic",
+        "genuine",
+        "germ",
+        "gently"
       ]
     },
     {
@@ -1674,7 +1680,7 @@
         "fuse",
         "fund"
       ],
-      "origin": "拉丁语 fundere（倒出、浇注）",
+      "origin": "拉丁语 fundere（倒出、浇注）。**fund 已标 noisy**：fundus（底、地基）另立一根收 fund/foundation/fundamental，本根只有 refund 拼作 fund-，拿它反查必然误配",
       "core_concept": "to pour out / 倒出去、化开",
       "core_image": "一壶水倒进盆里，水面立刻铺满整个盆底",
       "english_definition": "to pour, to melt together",
@@ -1686,6 +1692,9 @@
         "futile",
         "confusion",
         "refusal"
+      ],
+      "noisy_variants": [
+        "fund"
       ]
     },
     {
@@ -6490,6 +6499,37 @@
       ],
       "noisy_variants": [
         "od"
+      ]
+    },
+    {
+      "id": "frangere",
+      "root": "frangere",
+      "variants": [
+        "frag",
+        "fract"
+      ],
+      "origin": "拉丁语 frangere（把整块打断、砸碎），过去分词 fractus → fractio（掰断这件事）、fragilis（一碰就断的）、fragmentum（掰下来的那一块）；库中 fragrant 出自 fragrare（散出气味），与本根不同源，只是字母相含",
+      "core_concept": "to break a whole into pieces / 把整块弄断成几块",
+      "core_image": "一块石板从中间裂开，断口毛糙，碎屑落了一地",
+      "english_definition": "to break, to shatter into pieces",
+      "word_ids": [
+        "fraction",
+        "fragile"
+      ]
+    },
+    {
+      "id": "fundus",
+      "root": "fundus",
+      "variants": [
+        "fund",
+        "found"
+      ],
+      "origin": "拉丁语 fundus（底、地基、田产的底子），动词 fundare（给它垫上底、奠基）、fundamentum（垫在下面的那一层）、profundus（往底下深去的）同出此支；库中另有一个拼写相近的拉丁词根，义为倒出、浇注，与本根不同源，勿混",
+      "core_concept": "the bottom layer a thing rests on / 压在最下面、托住上头的那一层",
+      "core_image": "墙还没砌，先在地上铺一层石头，往下踩不动了才开始往上垒",
+      "english_definition": "bottom, base, foundation",
+      "word_ids": [
+        "fundamental"
       ]
     }
   ]
