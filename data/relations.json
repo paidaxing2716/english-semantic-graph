@@ -12780,6 +12780,36 @@
       "to": "interesting",
       "type": "root",
       "note": "inter-（在两者之间）+ est（esse 在）+ -ing → 这事横在我这边、与我有牵连，所以我上心"
+    },
+    {
+      "from": "jus",
+      "to": "judicial",
+      "type": "root",
+      "note": "judic（jus 法、准 → judex 宣法的人）+ -ial（属…的）→ 归那套宣法程序管着的"
+    },
+    {
+      "from": "legere",
+      "to": "lesson",
+      "type": "root",
+      "note": "less（legere 的读义，经 lectio 一段诵读）+ -on → 一次念下来、听进去的那一段"
+    },
+    {
+      "from": "littera",
+      "to": "letter",
+      "type": "root",
+      "note": "lett（littera 字母、文字）+ -er → 一个个写下来的记号；攒成一整张寄出去的也叫它"
+    },
+    {
+      "from": "ligare",
+      "to": "liability",
+      "type": "root",
+      "note": "li（ligare 捆住）+ -able（能…的）+ -ity（名词）→ 被绳系在某事上脱不开的那个状态"
+    },
+    {
+      "from": "jus",
+      "to": "judgement",
+      "type": "root",
+      "note": "judge（jus 法、准 → judex 宣法的人）+ -ment（名词）→ 依那把准比过之后落下的那句话"
     }
   ]
 }
