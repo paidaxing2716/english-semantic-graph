@@ -74,12 +74,22 @@ rather + adj —— 有点、相当，程度偏中上但不到 very
 改写成搭配充数——`however hard he tried` 是型式（however + adj/adv + 主谓），
 `however the plan is slow` 不是。
 
+### 命名与 variants 的两条实测提示
+
+- **别拿另一个根的 id 当自己的 variant。** `tangere` 曾把 `tain` 列进 variants，
+  而 `tain` 本身是一个根（tenere 握住，20 员）——反查时 1 个真命中对 20 个假命中。
+  这类情况标进 `noisy_variants`（工具默认跳过），而不是删掉：`attain` 确实拼作
+  -tain 且确实属 tangere，那个事实要留着。
+- 全库有 25 个 variant 被多个根同时声明。有的是**有意的**（`leg` 同属 `legere` 与
+  `lex-legis`，项目刻意分立两根），有的是**该标 noisy 的**。新建根时拿 variants 去
+  比一遍现有根，撞了就判是哪一种。
+
 ## R 行 —— 10 列
 
 | 列 | 内容 |
 |---|---|
 | 1 | `R` |
-| 2 | root_id — **拉丁语原形**，如 `jungere`。不得与任何单词同名（见下方硬规则） |
+| 2 | root_id — 拉丁/希腊原形优先，如 `jungere`；但**族里可见的英语词干同样可用**（`pend`/`spect`/`tain`/`fac` 就是这么命名的，约三分之一的根如此）。选哪个看「学的人在成员词里看得见哪个」。不得与任何单词同名（见下方硬规则） |
 | 3 | variants — 词形变体，`/` 分隔，如 `join/junct/jug`；无则留空 |
 | 4 | origin — 词源，要写清「本象」，如 `拉丁语 jungere（把两物套到一处），过去分词 junctus；jugum（牛轭）同根——两头牛套进同一副轭` |
 | 5 | core_concept — `english phrase / 中文`，用斜杠 |

@@ -3626,13 +3626,16 @@
         "tact",
         "ting"
       ],
-      "origin": "拉丁语 tangere（触、碰到），过去分词 tactus；attingere（ad＋tangere）表「伸手够到」，经古法语 ataindre 成英语 attain。英语拼作 -tain 是后来与 contain/obtain 类推所致，源头与 tenere（握）另有分别",
+      "origin": "拉丁语 tangere（触、碰到），过去分词 tactus；attingere（ad＋tangere）表「伸手够到」，经古法语 ataindre 成英语 attain。英语拼作 -tain 是后来与 contain/obtain 类推所致，源头与 tenere（握）另有分别。**tain 已标 noisy**：本根只有 attain 一个 -tain 词，而库中 tain 根（tenere 握住）有 20 个，拿它反查必然误配",
       "core_concept": "to reach far enough to touch a thing / 伸出去，刚好碰到那一点",
       "core_image": "指尖向上伸，最后一寸终于搭上了崖沿",
       "english_definition": "to touch, reach",
       "word_ids": [
         "attain",
         "contact"
+      ],
+      "noisy_variants": [
+        "tain"
       ]
     },
     {
