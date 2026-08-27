@@ -1,0 +1,425 @@
+# -*- coding: utf-8 -*-
+"""按列表 join 生成 drafts/g_chunk107.tsv —— 不用 Write，尾列制表符才留得住。
+
+W 行 15 列，R 行 10 列。落盘前跑内容自检（image 字数与义项泄露、例句词数、
+列数、root_ids/root_logic 配对、与词库及词根 id 双向撞名）。
+本片新建一个根：stallum（install 一族，与库中 sta 不同源）。
+"""
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "drafts" / "g_chunk107.tsv"
+
+R = []
+W = []
+
+
+def r(rid, variants, origin, cc, image, edef, slug, czh, dom):
+    R.append(["R", rid, variants, origin, cc, image, edef, slug, czh, dom])
+
+
+def w(word, pos, ph, rids, logic, origin, native, image, zh, ex, concept,
+      exps, hint="", colloc=""):
+    W.append(["W", word, pos, ph, rids, logic, origin, native, image, zh, ex,
+              concept, exps, hint, colloc])
+
+
+# ---------------- 新建词根 ----------------
+r("stallum", "stall",
+  "中世纪拉丁语 stallum（座位、摊位、畜栏里隔出的一格）借自法兰克语／古高地德语 *stal（位置、棚位），英语 stall 同出这一支；古法语 installer 与盎格鲁-法语 estaler 皆由此。与库中 sta 一族不同源，那一族讲的是站立",
+  "a place marked off and assigned to one thing / 划出来专归某一样占的那个位子",
+  "马棚里一格一格隔开，每匹马认自己那一格，进去就站定不再挪",
+  "to set into an assigned place; a stall, a fixed seat",
+  "place", "安进位子", "domain-shape")
+
+# ---------------- A 档 ----------------
+w("hypocrisy", "noun", "/hɪˈpɒkrəsi/", "", "",
+  "古法语 ypocrisie ← 晚期拉丁语 hypocrisis ← 希腊语 hupokrisis，由 hupo（在下）与 krinesthai（在面具后应答、扮演）合成；承义的是扮演这一支，不是库中 crit 那个判别一义",
+  "the pretence of having moral standards that one's own behaviour does not meet",
+  "台上讲着戒烟的道理，散场后他躲到楼梯间点了一支",
+  "伪善/虚伪/言行不一",
+  "He was accused of hypocrisy over the tax issue.|Their silence now smells of pure hypocrisy.",
+  "saying one thing while doing another – 嘴上一套，做的是另一套",
+  "伪善：好听的道德话说在前头，自己并不照做|虚伪：整个人的姿态都是装的，不止一句话|言行不一：说的与做的对不上，这是它最实在的样子")
+
+w("incentive", "noun", "/ɪnˈsentɪv/", "", "",
+  "晚期拉丁语 incentivum（起头的那个调子）← incinere（吹响、起个调），由 in-（进入）与 canere（歌唱、吹奏）合成；库中未为 canere 一支建根",
+  "something that encourages a person to work harder or act in a certain way",
+  "老板宣布这个月多卖十台就加一份钱，几个人立刻直起腰",
+  "激励/动机/刺激",
+  "Tax breaks give firms an incentive to hire.|She had little incentive to finish the work.",
+  "what sets someone moving – 让人动起来的那个由头",
+  "激励：外面给出的那个由头，推着人往前|动机：这个由头落到心里，成了他做事的原因|刺激：用在市场和行业上，指拨一下让它活动起来")
+
+w("inferior", "adjective / noun", "/ɪnˈfɪəriə/", "", "",
+  "拉丁语 inferior（更低的）← inferus（下面的）加比较级 -ior；与库中 ferre 一族无关，-fer- 在此不是承义成分，也不含 -terior 那套对照级构词",
+  "lower in rank, quality or importance than something else",
+  "两块布并排一比，右边那块摸着薄，纹路也糙，价钱只有一半",
+  "较差的/下级的/下属",
+  "This copy is inferior to the original.|He never treated his staff as inferiors.",
+  "standing lower when the two are compared – 两个一比，位置在下的那个",
+  "较差的：质量上比出来低的那一个|下级的：位次上比出来低的那一层|下属：作名词，指位次在下的那个人")
+
+w("intercourse", "noun", "/ˈɪntəkɔːs/", "curr",
+  "inter-（两者之间）+ course（currere 跑）→ 话与事在双方之间来回跑动",
+  "古法语 entrecours ← 晚期拉丁语 intercursus（在两者之间跑动）← intercurrere，由 inter-（之间）与 currere（跑）合成",
+  "communication or dealings between people, or physical sexual contact",
+  "两个村子之间那条路上，挑担的、送信的整天两头对着走",
+  "交往/往来/性交",
+  "Trade intercourse between the two ports grew.|The book avoids all mention of intercourse.",
+  "running to and fro between two sides – 在双方之间来回跑动",
+  "交往：人与人之间来回走动、来回说话|往来：书面些的说法，多指国与国、地与地之间|性交：两个身体之间最贴近的那种来回，英语里的专称")
+
+w("interim", "adjective / noun", "/ˈɪntərɪm/", "", "",
+  "拉丁语 interim（在这中间、暂且），由 inter（在…之间）加副词尾 -im 构成；inter- 只是前缀、不承载词义，故本词不归入任何词根",
+  "intended to last only until something permanent is arranged",
+  "老校长走了，新的还没定，先由教务主任坐那把椅子三个月",
+  "临时的/过渡的/间歇",
+  "An interim manager will run the office.|In the interim, keep the old rules.",
+  "filling the gap between two settled states – 两个定局之间那段空当",
+  "临时的：只管这段空当，到期就换掉|过渡的：这段空当是从旧的走到新的那一程|间歇：作名词，指中间空出来的那一段时间")
+
+w("interpret", "verb", "/ɪnˈtɜːprɪt/", "", "",
+  "古法语 enterpreter ← 拉丁语 interpretari（居间说合）← 拉丁语 interpres（站在两方中间的人），其后半来历无定论，与库中 pretium 一族不合并",
+  "to explain the meaning of something, or to translate what someone says",
+  "两人各说各的话，中间那个先听一句，转过头用另一种话说一遍",
+  "解释/理解/口译",
+  "Lawyers interpret this old rule in two ways.|She interpreted for the visiting delegation.",
+  "standing between and making the sense pass – 站在中间把意思递过去",
+  "解释：把不明白的说法讲成明白的|理解：同一句话，各人把它接成不同的意思|口译：站在两种语言之间当场转述")
+
+w("interview", "noun / verb", "/ˈɪntəvjuː/", "vid",
+  "inter-（彼此之间）+ view（videre 看）→ 两人隔桌相对而看，一问一答",
+  "中古法语 entrevue ← s'entrevoir（彼此相看），由 entre-（之间）与 voir（看）合成，voir 出自拉丁语 videre",
+  "a formal meeting where someone is asked questions, or to hold such a meeting",
+  "一张桌子两把椅子，对面的人一边问一边在纸上记，他坐直了答",
+  "面试/采访/面谈",
+  "She has an interview on Monday morning.|The reporter interviewed three of the workers.",
+  "two sitting face to face for questions – 两人相对而坐，一问一答",
+  "面试：为定用不用你而设的那一场对坐|采访：记者对坐着问，为的是把话写出去|面谈：不为选拔也不为发表，就是坐下来谈一次")
+
+w("intricate", "adjective", "/ˈɪntrɪkət/", "", "",
+  "拉丁语 intricatus ← intricare（缠住、绕乱），由 in-（进入）与 tricae（缠人的琐事、乱麻）合成；库中未为 tricae 一支建根",
+  "having many small parts or details arranged in a complicated way",
+  "一小块木雕上镂着十几层花纹，绕来绕去分不清哪根接哪根",
+  "复杂的/错综的/精细的",
+  "The lock has an intricate inner mechanism.|She wove an intricate pattern of leaves.",
+  "so tangled that the parts are hard to follow – 绕得太密，一根根跟不下来",
+  "复杂的：部件多、绕得密，看不到头|错综的：几路线索互相穿插，分不出主次|精细的：这种绕法是手艺，密而不乱")
+
+w("intrigue", "noun / verb", "/ɪnˈtriːɡ/", "", "",
+  "法语 intrigue ← 意大利语 intrigo ← intrigare ← 拉丁语 intricare（缠住、绕乱）；与 intricate 同出一源，库中未为这一支建根",
+  "a secret plan to do something bad, or to make someone very interested",
+  "三个人在走廊尽头低声排一件事，见人过来就散开，各自笑一下",
+  "阴谋/密谋/引起兴趣",
+  "The court was full of plots and intrigue.|His silence intrigued everyone at the table.",
+  "a tangle woven out of sight – 背地里绕出来的一团",
+  "阴谋：暗地里绕出来的那一套安排|密谋：作动词，几个人凑在一处绕这套安排|引起兴趣：绕得不明不白，反倒把人的心勾住")
+
+w("intrinsic", "adjective", "/ɪnˈtrɪnsɪk/", "", "",
+  "古法语 intrinseque ← 晚期拉丁语 intrinsecus（在里面的），由 intra（在内）与 secus（沿着、随着）合成；承义的是 intra 这一半，库中 secare 与跟随那一族都不收它",
+  "belonging to the basic nature of something rather than added from outside",
+  "玉不上漆也温润，把它扔进河里捞出来，那份质地还在",
+  "固有的/内在的/本质的",
+  "Danger is intrinsic to this kind of work.|The stone has intrinsic value, not just style.",
+  "sitting inside from the start, not added on – 一开始就在里头，不是外加的",
+  "固有的：本来就带着，不是后来添的|内在的：位置在里头，从外面看不见|本质的：去掉外面那些，剩下的还是它")
+
+# ---------------- B 档 ----------------
+w("helicopter", "noun", "/ˈhelɪkɒptə/", "", "",
+  "法语 hélicoptère（1861 年造词），由希腊语 helix（螺旋）与 pteron（翅膀）合成；库中未为这两支建根",
+  "an aircraft lifted by long blades that spin above it",
+  "头顶几片长叶子转成一个圆盘，机身原地离地，草被压得往四面倒",
+  "直升机",
+  "A helicopter landed on the hospital roof.|They reached the island by helicopter.",
+  "lifted by a spinning wing overhead – 靠头顶那片旋转的翼抬起来",
+  "")
+
+w("heroin", "noun", "/ˈherəʊɪn/", "heros",
+  "hero（受传颂的勇士）+ -in（药物名后缀）→ 药厂取名时说用了它的人自觉了得",
+  "德语 Heroin（1898 年拜耳公司的商品名）← 希腊语 hērōs（勇士）加药物后缀 -in；与 heroine 只差一个字母，来历同源而所指天差地别",
+  "a strongly addictive drug made from morphine",
+  "一小包白粉在灯下称重，用过的人说那一刻自己无所不能，随后停不下",
+  "海洛因",
+  "Police seized two kilos of heroin.|He spent five years addicted to heroin.",
+  "the drug named for the swagger it gives – 因用后那股了得劲而得名的药",
+  "")
+
+w("illuminate", "verb", "/ɪˈluːmɪneɪt/", "", "",
+  "拉丁语 illuminatus ← illuminare（照亮），由 in-（进入）与 lumen（光）合成；库中未为 lumen 一支建根",
+  "to light something up, or to make a subject easier to understand",
+  "一盏灯打在墙上的图上，原先看不清的线条一下全显出来",
+  "照亮/阐明/启发",
+  "Floodlights illuminate the whole front wall.|Her notes illuminate a difficult passage.",
+  "letting light in so a thing can be seen – 让光进去，东西才看得见",
+  "照亮：光打进去，形状显出来|阐明：道理也这样被照出来，原先含混的变清楚|启发：光落到人身上，他自己就看明白了")
+
+w("imitate", "verb", "/ˈɪmɪteɪt/", "imago",
+  "imit（imitari 照着摹样做，与 imago 摹本同支）+ -ate → 拿本物当样子，照它做出一个",
+  "拉丁语 imitor / imitari（照样做、摹仿），与 imago（摹本、相像之物）同出一支",
+  "to copy the way someone speaks or behaves, or to make a likeness of something",
+  "他把老师走路时那个小停顿学下来，同学一看就知道说的是谁",
+  "模仿/仿造/效法",
+  "Children imitate the adults around them.|This plastic imitates real leather closely.",
+  "making one that follows the model – 照着样子做出一个",
+  "模仿：把别人的样子学过来，声音、动作都算|仿造：照原物做一个假的，为的是像|效法：把别人的做法当样子学，不带贬义")
+
+w("imitation", "noun / adjective", "/ˌɪmɪˈteɪʃn/", "imago",
+  "imitat（imitari 照样做，与 imago 摹本同支）+ -ion → 照样做这件事，或照样做出来的那个东西",
+  "古法语 imitacion ← 拉丁语 imitatio ← imitari（照样做）；与 imitate 是同一个词，只是 Wiktionary 分录了 imitor 与 imitacion 两个词形",
+  "the act of copying something, or a copy made to resemble the real thing",
+  "柜台上摆着两只表，左边贵得多，右边看着一样但拿起来轻",
+  "模仿/仿制品/仿造的",
+  "Her imitation of the teacher made us laugh.|This bag is a cheap imitation.",
+  "a copy set beside the model – 照样子做出来放在旁边的那个",
+  "模仿：照样做这件事本身|仿制品：照样做出来的那个东西，与真品对着摆|仿造的：作定语，说明它是照真的做的，不是真的")
+
+w("immigrant", "noun / adjective", "/ˈɪmɪɡrənt/", "", "",
+  "拉丁语 immigrans（迁进来的，现在分词），由 in-（进入）与 migrare（迁移）合成；库中未为 migrare 一支建根，emigrate 也还是孤立词条",
+  "a person who comes to live permanently in another country",
+  "他拎着两只箱子走出机场，手里那张纸上盖着新国家的章",
+  "移民/外来移民的",
+  "Many immigrants settled near the harbour.|The city has a large immigrant population.",
+  "one who has moved in to stay – 迁进来长住的那个人",
+  "移民：从别国迁进来长住的那个人|外来移民的：作定语，说明人或社群是这样迁进来的")
+
+w("inevitable", "adjective", "/ɪnˈevɪtəbl/", "", "",
+  "拉丁语 inevitabilis（躲不开的），由 in-（不）与 evitare（避开）合成，evitare 出自 vitare（回避）；vitare 与 vita（生命）不同源，库中未为它建根",
+  "certain to happen and impossible to prevent",
+  "河水已经漫过第一级台阶，谁都看得出下一级也守不住",
+  "不可避免的/必然的",
+  "A second delay now looks inevitable.|War seemed inevitable by that summer.",
+  "no way left to step aside from it – 已经没有侧身让开的余地",
+  "不可避免的：想躲也没有路可躲|必然的：不只躲不开，还一定会来")
+
+w("inflation", "noun", "/ɪnˈfleɪʃn/", "", "",
+  "拉丁语 inflatio（吹胀）← inflare，由 in-（进入）与 flare（吹）合成；库中未为 flare 一支建根",
+  "a general rise in prices, or the act of filling something with air",
+  "去年五块的一碗面今年要七块，钱包厚度没变，能买的东西少了",
+  "通货膨胀/膨胀/充气",
+  "Inflation rose to six percent last year.|The inflation of the balloon took minutes.",
+  "blown up bigger without more substance – 吹得更大，里头并没多出东西",
+  "通货膨胀：钱这一头被吹大了，东西还是那么多|膨胀：泛指被吹得变大，数字与说法都能这样|充气：本义，把气打进去让它鼓起来")
+
+w("install", "verb", "/ɪnˈstɔːl/", "stallum",
+  "in-（进入）+ stall（stallum 位子）→ 把东西送进它该占的那个位子，固定住",
+  "古法语 installer ← 中世纪拉丁语 installare，由 in-（进入）与 stallum（座位、摊位）合成",
+  "to fix equipment in place so it can be used, or to put someone formally into a post",
+  "师傅把新机器抬进预留的方框，四角对上螺孔，逐个拧紧",
+  "安装/任命/使就位",
+  "They installed a new boiler last week.|She was installed as chair in May.",
+  "setting a thing into the place kept for it – 把东西送进留给它的那个位子",
+  "安装：机器、软件被放进该在的位置并固定|任命：人也这样被放进一个位子，多带仪式|使就位：泛指把某物某人安顿到位")
+
+w("installation", "noun", "/ˌɪnstəˈleɪʃn/", "stallum",
+  "install（送进位子）+ -ation → 送进位子这件事，以及事后立在那儿的那一套",
+  "古法语 installation ← 中世纪拉丁语 installatio ← installare（送进位子）",
+  "the act of putting equipment in place, the equipment itself, or a work of art set up in a space",
+  "车间里一整套管子和阀门已经架好，墙上贴着当天验收的单子",
+  "安装/装置/就职/装置艺术",
+  "The installation of the system took days.|A large installation filled the gallery floor.",
+  "the setting in place, and what stands there after – 送进位子这件事，以及事后立着的东西",
+  "安装：把设备送进位子这个过程|装置：送进位子后立在那儿的那一整套东西|就职：人被送进位子的那一场仪式|装置艺术：在展厅里搭起来的一整件作品，同一个道理")
+
+w("installment", "noun", "/ɪnˈstɔːlmənt/", "stallum",
+  "in-（进入）+ stall（stallum 位子）+ -ment → 一次只把一份安到位，安满为止",
+  "盎格鲁-法语 estalement（分期安排）← estaler（安放到位）← estal（位子），与 install 同出中世纪拉丁语 stallum 那一支",
+  "one of several parts in which something is paid or published over time",
+  "买冰箱不用一次付清，每月十号从卡里划走一份，划满十二次",
+  "分期付款/一期/连载的一集",
+  "He pays for the car in monthly installments.|The next installment appears on Friday.",
+  "one portion set in place at a time – 一次只安上去一份",
+  "分期付款：钱一份份安到位，直到付满|一期：整件事被切成几份，这是其中一份|连载的一集：故事也这样一份份放出来，一次一集")
+
+# ---------------- C 档 ----------------
+w("handkerchief", "noun", "/ˈhæŋkətʃɪf/", "caput/cov",
+  "hand（手）+ ker（cooperire 盖住）+ chief（caput 头）→ 本是盖头的那块布，后来改拿在手上",
+  "由 hand 与 kerchief 复合；kerchief ← 古法语 cuevrechief，由 couvrir（盖）与 chief（头）合成，本指盖头的布",
+  "a small square of cloth used for wiping the nose or face",
+  "一块巴掌大的方布，叠成四折塞在裤兜，掏出来擦一下额头",
+  "手帕/手绢",
+  "He wiped his brow with a handkerchief.|She kept a clean handkerchief in her sleeve.",
+  "the head cloth now carried in the hand – 原本盖头、如今拿在手里的那块布",
+  "手帕：随身带着擦脸擦手的那块方布|手绢：同一样东西，口语里的叫法")
+
+w("handwriting", "noun", "/ˈhændraɪtɪŋ/", "", "",
+  "由古英语 hand（手）与 writing 复合；write 出自古英语 wrītan（刻、划）← 原始日耳曼语 *wrītan",
+  "writing done with a pen or pencil, or a person's particular style of it",
+  "同一句话两个人抄下来，一个笔画立着，一个连成一片斜的",
+  "字迹/笔迹/书写",
+  "I cannot read his handwriting at all.|The note was in her own handwriting.",
+  "marks left by the moving hand – 手动起来留下的那些痕",
+  "字迹：某个人写出来的那副模样|笔迹：同一样东西，用在辨认是谁写的时候|书写：用手写字这个行为本身，与打印相对")
+
+w("headmaster", "noun", "/ˌhedˈmɑːstə/", "maior",
+  "head（居首）+ master（magister，出自 magis 更大的那一支）→ 一群教书人里位次更高的那一位",
+  "由 head（古英语 hēafod，头）与 master 复合；master ← 古英语 mægester ← 拉丁语 magister（师傅、掌事者），由 magis（更多、更大）派生",
+  "a man who is the head teacher of a school",
+  "全校集会时站在台阶最上那级说话的那个人，别的老师站在他两侧",
+  "校长/男校长",
+  "The headmaster called his parents that evening.|She replaced the retiring headmaster in September.",
+  "the greater one among the teachers – 教书人里居上的那一位",
+  "校长：一所学校里位次最高的那位|男校长：英式用法里专指男性，女性作 headmistress")
+
+w("headquarters", "noun", "/ˌhedˈkwɔːtəz/", "quartus",
+  "head（居首）+ quarters（quartus 划出的那一块地方，引申为驻地）→ 众驻地里居首的那一处",
+  "由 head 与 quarters 复合；quarters（驻地）出自 quarter，本指均分成四份里的一份，引申为划给人住的那一块",
+  "the main office from which an organization is controlled",
+  "一栋挂着总旗的楼，各地的电话都往这里打，命令从这里发出去",
+  "总部/司令部",
+  "The company moved its headquarters to Leeds.|Orders came straight from headquarters that night.",
+  "the chief one among the quarters – 众驻地里居首的那一处",
+  "总部：一家机构的事都由这一处定|司令部：军队里的那一处，发号令的地方")
+
+w("housewife", "noun", "/ˈhaʊswaɪf/", "", "",
+  "中古英语 huswif，由古英语 hūs（房屋）与 wīf（女子、妻子）复合",
+  "a married woman who works at home for her family instead of at a job",
+  "上午买菜下午晾衣，锅里炖着晚饭，她一整天没出过这个门",
+  "家庭妇女/主妇",
+  "She was a housewife for twenty years.|Many housewives went back to work then.",
+  "the woman whose work is the house – 活儿全在这所房子里的那个女人",
+  "家庭妇女：不外出上班、在家操持的已婚女子|主妇：同一角色，中性些的说法，也指一家的女主人")
+
+w("housework", "noun", "/ˈhaʊswɜːk/", "", "",
+  "由古英语 hūs（房屋）与 weorc（活计）复合",
+  "the cleaning, cooking and washing that has to be done in a home",
+  "地要拖，碗要洗，衣服堆在盆里，做完一样又冒出下一样",
+  "家务",
+  "They share the housework every week.|Housework takes her three hours a day.",
+  "the work the house keeps asking for – 这所房子不断要人做的那些活",
+  "")
+
+w("inside", "preposition / noun / adjective", "/ˌɪnˈsaɪd/", "", "",
+  "中古英语 in side，由古英语 in（在内）与 sīde（边、面）复合",
+  "in or into the inner part of something",
+  "箱盖一掀，四壁围住的那一小块空处塞着几封旧信",
+  "在…里面/内部/内侧的",
+  "The keys are inside the brown bag.|He painted the inside of the door.",
+  "on the inner side of a boundary – 界线里头那一边",
+  "在…里面：作介词，指位置落在界线以内|内部：作名词，指围住的那一块本身|内侧的：作定语，说明是靠里那一面的",
+  "",
+  "inside sth —— 在某物之内，也表在某段时间之内，如 inside a week|inside out —— 里朝外，又引申为彻底地，know sth inside out|the inside of sth —— 某物的内部，作名词用时要带 the")
+
+w("insurance", "noun", "/ɪnˈʃʊərəns/", "cura",
+  "in-（使）+ sur（securus 不必再挂心）+ -ance → 先出一笔钱把后顾之忧买掉，落成一纸约据",
+  "由 insure 加 -ance 构成；insure 与 ensure 同出古法语 enseurer ← seur（无忧的）← 拉丁语 securus，由 se-（脱离）与 cura（挂心）合成",
+  "an arrangement in which you pay a company and it pays your costs if something goes wrong",
+  "每年交一笔钱换一纸约据，车真撞坏了修钱由公司出",
+  "保险/保险费/保障",
+  "Her car insurance costs more this year.|Keep the receipt as insurance against loss.",
+  "paid so the worry need not be carried – 花钱把担心交出去",
+  "保险：出钱买下的那份约据，出事由对方赔|保险费：为这份约据每期交的那笔钱|保障：泛指用来防万一的那层东西，不限于钱")
+
+w("into", "preposition", "/ˈɪntuː/", "", "",
+  "古英语 intō，由 in（在内）与 tō（向）合成，本是连写的两个词",
+  "to a position inside or in contact with something",
+  "硬币从指间落下，穿过瓶口，掉在瓶底叮的一声",
+  "进入/到…里/变成",
+  "She poured the milk into a glass.|The rain turned into snow by evening.",
+  "moving from outside to a place within – 从外头进到里头",
+  "进入：从外面移到里面这个动作|到…里：作介词点出终点在某物内部|变成：一样东西转过去成了另一样，也用它",
+  "",
+  "be into sth —— 对某事很感兴趣，口语常用|turn / change into sth —— 变成某物，强调变化后的结果|look into sth —— 调查某事，目光进到里头去|divide sth into … —— 把某物分成几份，后面接份数")
+
+# ---------------- 落盘前自检 ----------------
+CJK = re.compile(r"[一-鿿]")
+errs = []
+roots = json.loads((ROOT / "data" / "roots.json").read_text(encoding="utf-8"))["roots"]
+rids = {r_["id"] for r_ in roots}
+libwords = {x["word"] for x in
+            json.loads((ROOT / "data" / "words.json").read_text(encoding="utf-8"))["words"]}
+newr = {row[1] for row in R}
+allr = rids | newr
+
+src = (ROOT / "drafts" / "g_chunk107.txt").read_text(encoding="utf-8")
+expected = [l.split("\t")[0].strip() for l in src.splitlines()
+            if l.strip() and not l.startswith("#")]
+got = [row[1] for row in W]
+if expected != got:
+    errs.append("词表不匹配 缺=%s 多=%s" % (sorted(set(expected) - set(got)),
+                                            sorted(set(got) - set(expected))))
+
+for row in R:
+    if len(row) != 10:
+        errs.append("R %s: %d 列" % (row[1], len(row)))
+        continue
+    rid, variants, origin, cc, image, edef, slug, czh, dom = row[1:]
+    if rid in rids:
+        errs.append("R %s: 词根已存在" % rid)
+    if rid in libwords:
+        errs.append("R %s: 与词库单词同名" % rid)
+    if "/" not in cc:
+        errs.append("R %s: core_concept 缺斜杠" % rid)
+    if not slug.replace("-", "").isalpha() or slug != slug.lower():
+        errs.append("R %s: slug %s" % (rid, slug))
+    if not (2 <= len(CJK.findall(czh)) <= 5):
+        errs.append("R %s: concept_zh %s 字数越界" % (rid, czh))
+    # 变体反查：这个变体会不会把别族的词吸过来
+    for v in [x.strip() for x in variants.split("/") if x.strip()]:
+        pull = sorted(x for x in libwords if v in x)
+        if pull:
+            errs.append("R %s: 变体 %s 会吸到库内词 %s，考虑标 noisy" % (rid, v, pull))
+
+for row in W:
+    if len(row) != 15:
+        errs.append("%s: %d 列" % (row[1], len(row)))
+        continue
+    (word, pos, ph, rid, logic, origin, native, image, zh, ex, concept,
+     exps, hint, colloc) = row[1:]
+    n = len(CJK.findall(image))
+    if not (15 <= n <= 35):
+        errs.append("%s: image %d 字，须 15-35" % (word, n))
+    zl = [x.strip() for x in zh.split("/") if x.strip()]
+    if not (1 <= len(zl) <= 4):
+        errs.append("%s: 义项 %d 个" % (word, len(zl)))
+    for x in zl:
+        if len(x) >= 2 and x in image:
+            errs.append("%s: image 含义项 %s" % (word, x))
+    exl = [x.strip() for x in ex.split("|") if x.strip()]
+    if len(exl) != 2:
+        errs.append("%s: 例句 %d 条" % (word, len(exl)))
+    for e in exl:
+        c = len(e.split())
+        if not (5 <= c <= 12):
+            errs.append("%s: 例句 %d 词 -> %s" % (word, c, e))
+        if not e.endswith("."):
+            errs.append("%s: 例句无句号 -> %s" % (word, e))
+    if len(zl) >= 2 and not exps:
+        errs.append("%s: %d 义项无 expansions" % (word, len(zl)))
+    if len(zl) >= 2 and len([x for x in exps.split("|") if x.strip()]) < len(zl):
+        errs.append("%s: expansions 条数少于义项数" % word)
+    if bool(rid) != bool(logic):
+        errs.append("%s: root_ids 与 root_logic 不配对" % word)
+    for x in [y.strip() for y in rid.split("/") if y.strip()]:
+        if x not in allr:
+            errs.append("%s: 根 %s 不存在" % (word, x))
+    if rid:
+        blanks = sum(logic.count(x) for x in zl if len(x) >= 2)
+        if blanks >= 3 and not hint:
+            errs.append("%s: root_logic 含 %d 处义项，须填 hint" % (word, blanks))
+    if not (ph.startswith("/") and ph.endswith("/")):
+        errs.append("%s: 音标 %s" % (word, ph))
+    if "–" not in concept:
+        errs.append("%s: concept 缺短破折号" % word)
+    if word in libwords:
+        errs.append("%s: 已在词库" % word)
+    if word in allr:
+        errs.append("%s: 与词根 id 同名" % word)
+    if colloc and "——" not in colloc:
+        errs.append("%s: colloc 缺分隔" % word)
+    if any("\t" in c or "\n" in c for c in row):
+        errs.append("%s: 字段内含制表符或换行" % word)
+
+if errs:
+    print("[BUILD-FAIL]")
+    for e in errs:
+        print("   ", e)
+    raise SystemExit(1)
+
+lines = ["\t".join(row) for row in R + W]
+OUT.write_text("\n".join(lines) + "\n", newline="\n", encoding="utf-8")
+nr = sum(1 for row in W if row[4])
+print("[BUILD-OK] %d 行（R %d / W %d），词根型 %d，孤立型 %d"
+      % (len(R) + len(W), len(R), len(W), nr, len(W) - nr))

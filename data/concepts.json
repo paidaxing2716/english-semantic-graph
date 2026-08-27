@@ -944,7 +944,8 @@
         "discovery",
         "recover",
         "recovery",
-        "uncover"
+        "uncover",
+        "handkerchief"
       ]
     },
     {
@@ -1132,7 +1133,8 @@
         "occurrence",
         "course",
         "discourse",
-        "corridor"
+        "corridor",
+        "intercourse"
       ]
     },
     {
@@ -1687,7 +1689,8 @@
         "sure",
         "assurance",
         "curiosity",
-        "reassure"
+        "reassure",
+        "insurance"
       ]
     },
     {
@@ -2711,7 +2714,8 @@
         "prudent",
         "revise",
         "supervise",
-        "evidence"
+        "evidence",
+        "interview"
       ]
     },
     {
@@ -3366,7 +3370,8 @@
         "majority",
         "magnify",
         "maximum",
-        "mayor"
+        "mayor",
+        "headmaster"
       ]
     },
     {
@@ -3466,7 +3471,8 @@
       "word_ids": [
         "hero",
         "heroic",
-        "heroine"
+        "heroine",
+        "heroin"
       ]
     },
     {
@@ -3691,7 +3697,8 @@
       "word_ids": [
         "quart",
         "quarter",
-        "quarterly"
+        "quarterly",
+        "headquarters"
       ]
     },
     {
@@ -3886,7 +3893,8 @@
         "captain",
         "chapter",
         "capital",
-        "capitalism"
+        "capitalism",
+        "handkerchief"
       ]
     },
     {
@@ -4584,7 +4592,9 @@
         "imaginary",
         "imagination",
         "imaginative",
-        "imagine"
+        "imagine",
+        "imitate",
+        "imitation"
       ]
     },
     {
@@ -5475,6 +5485,20 @@
         "foundation",
         "fund",
         "fundamental"
+      ]
+    },
+    {
+      "id": "concept-stallum-place",
+      "concept": "a place marked off and assigned to one thing",
+      "chinese": "安进位子",
+      "core_image": "马棚里一格一格隔开，每匹马认自己那一格，进去就站定不再挪",
+      "root_ids": [
+        "stallum"
+      ],
+      "word_ids": [
+        "install",
+        "installation",
+        "installment"
       ]
     }
   ]

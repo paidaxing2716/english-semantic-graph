@@ -55146,6 +55146,426 @@
       "text": "The hamburger was too salty to finish.",
       "source": "AI 生成 · 人工审核",
       "scene": "两片圆面包夹住一块压扁的煎肉，中间还塞了生菜和一片番茄"
+    },
+    {
+      "id": "ex-hypocrisy-1",
+      "word_id": "hypocrisy",
+      "text": "He was accused of hypocrisy over the tax issue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上讲着戒烟的道理，散场后他躲到楼梯间点了一支"
+    },
+    {
+      "id": "ex-hypocrisy-2",
+      "word_id": "hypocrisy",
+      "text": "Their silence now smells of pure hypocrisy.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "台上讲着戒烟的道理，散场后他躲到楼梯间点了一支"
+    },
+    {
+      "id": "ex-incentive-1",
+      "word_id": "incentive",
+      "text": "Tax breaks give firms an incentive to hire.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老板宣布这个月多卖十台就加一份钱，几个人立刻直起腰"
+    },
+    {
+      "id": "ex-incentive-2",
+      "word_id": "incentive",
+      "text": "She had little incentive to finish the work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老板宣布这个月多卖十台就加一份钱，几个人立刻直起腰"
+    },
+    {
+      "id": "ex-inferior-1",
+      "word_id": "inferior",
+      "text": "This copy is inferior to the original.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块布并排一比，右边那块摸着薄，纹路也糙，价钱只有一半"
+    },
+    {
+      "id": "ex-inferior-2",
+      "word_id": "inferior",
+      "text": "He never treated his staff as inferiors.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两块布并排一比，右边那块摸着薄，纹路也糙，价钱只有一半"
+    },
+    {
+      "id": "ex-intercourse-1",
+      "word_id": "intercourse",
+      "text": "Trade intercourse between the two ports grew.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个村子之间那条路上，挑担的、送信的整天两头对着走"
+    },
+    {
+      "id": "ex-intercourse-2",
+      "word_id": "intercourse",
+      "text": "The book avoids all mention of intercourse.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个村子之间那条路上，挑担的、送信的整天两头对着走"
+    },
+    {
+      "id": "ex-interim-1",
+      "word_id": "interim",
+      "text": "An interim manager will run the office.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老校长走了，新的还没定，先由教务主任坐那把椅子三个月"
+    },
+    {
+      "id": "ex-interim-2",
+      "word_id": "interim",
+      "text": "In the interim, keep the old rules.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "老校长走了，新的还没定，先由教务主任坐那把椅子三个月"
+    },
+    {
+      "id": "ex-interpret-1",
+      "word_id": "interpret",
+      "text": "Lawyers interpret this old rule in two ways.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人各说各的话，中间那个先听一句，转过头用另一种话说一遍"
+    },
+    {
+      "id": "ex-interpret-2",
+      "word_id": "interpret",
+      "text": "She interpreted for the visiting delegation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两人各说各的话，中间那个先听一句，转过头用另一种话说一遍"
+    },
+    {
+      "id": "ex-interview-1",
+      "word_id": "interview",
+      "text": "She has an interview on Monday morning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张桌子两把椅子，对面的人一边问一边在纸上记，他坐直了答"
+    },
+    {
+      "id": "ex-interview-2",
+      "word_id": "interview",
+      "text": "The reporter interviewed three of the workers.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张桌子两把椅子，对面的人一边问一边在纸上记，他坐直了答"
+    },
+    {
+      "id": "ex-intricate-1",
+      "word_id": "intricate",
+      "text": "The lock has an intricate inner mechanism.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块木雕上镂着十几层花纹，绕来绕去分不清哪根接哪根"
+    },
+    {
+      "id": "ex-intricate-2",
+      "word_id": "intricate",
+      "text": "She wove an intricate pattern of leaves.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小块木雕上镂着十几层花纹，绕来绕去分不清哪根接哪根"
+    },
+    {
+      "id": "ex-intrigue-1",
+      "word_id": "intrigue",
+      "text": "The court was full of plots and intrigue.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三个人在走廊尽头低声排一件事，见人过来就散开，各自笑一下"
+    },
+    {
+      "id": "ex-intrigue-2",
+      "word_id": "intrigue",
+      "text": "His silence intrigued everyone at the table.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "三个人在走廊尽头低声排一件事，见人过来就散开，各自笑一下"
+    },
+    {
+      "id": "ex-intrinsic-1",
+      "word_id": "intrinsic",
+      "text": "Danger is intrinsic to this kind of work.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玉不上漆也温润，把它扔进河里捞出来，那份质地还在"
+    },
+    {
+      "id": "ex-intrinsic-2",
+      "word_id": "intrinsic",
+      "text": "The stone has intrinsic value, not just style.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "玉不上漆也温润，把它扔进河里捞出来，那份质地还在"
+    },
+    {
+      "id": "ex-helicopter-1",
+      "word_id": "helicopter",
+      "text": "A helicopter landed on the hospital roof.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "头顶几片长叶子转成一个圆盘，机身原地离地，草被压得往四面倒"
+    },
+    {
+      "id": "ex-helicopter-2",
+      "word_id": "helicopter",
+      "text": "They reached the island by helicopter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "头顶几片长叶子转成一个圆盘，机身原地离地，草被压得往四面倒"
+    },
+    {
+      "id": "ex-heroin-1",
+      "word_id": "heroin",
+      "text": "Police seized two kilos of heroin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小包白粉在灯下称重，用过的人说那一刻自己无所不能，随后停不下"
+    },
+    {
+      "id": "ex-heroin-2",
+      "word_id": "heroin",
+      "text": "He spent five years addicted to heroin.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一小包白粉在灯下称重，用过的人说那一刻自己无所不能，随后停不下"
+    },
+    {
+      "id": "ex-illuminate-1",
+      "word_id": "illuminate",
+      "text": "Floodlights illuminate the whole front wall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一盏灯打在墙上的图上，原先看不清的线条一下全显出来"
+    },
+    {
+      "id": "ex-illuminate-2",
+      "word_id": "illuminate",
+      "text": "Her notes illuminate a difficult passage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一盏灯打在墙上的图上，原先看不清的线条一下全显出来"
+    },
+    {
+      "id": "ex-imitate-1",
+      "word_id": "imitate",
+      "text": "Children imitate the adults around them.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把老师走路时那个小停顿学下来，同学一看就知道说的是谁"
+    },
+    {
+      "id": "ex-imitate-2",
+      "word_id": "imitate",
+      "text": "This plastic imitates real leather closely.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他把老师走路时那个小停顿学下来，同学一看就知道说的是谁"
+    },
+    {
+      "id": "ex-imitation-1",
+      "word_id": "imitation",
+      "text": "Her imitation of the teacher made us laugh.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上摆着两只表，左边贵得多，右边看着一样但拿起来轻"
+    },
+    {
+      "id": "ex-imitation-2",
+      "word_id": "imitation",
+      "text": "This bag is a cheap imitation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "柜台上摆着两只表，左边贵得多，右边看着一样但拿起来轻"
+    },
+    {
+      "id": "ex-immigrant-1",
+      "word_id": "immigrant",
+      "text": "Many immigrants settled near the harbour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他拎着两只箱子走出机场，手里那张纸上盖着新国家的章"
+    },
+    {
+      "id": "ex-immigrant-2",
+      "word_id": "immigrant",
+      "text": "The city has a large immigrant population.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他拎着两只箱子走出机场，手里那张纸上盖着新国家的章"
+    },
+    {
+      "id": "ex-inevitable-1",
+      "word_id": "inevitable",
+      "text": "A second delay now looks inevitable.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河水已经漫过第一级台阶，谁都看得出下一级也守不住"
+    },
+    {
+      "id": "ex-inevitable-2",
+      "word_id": "inevitable",
+      "text": "War seemed inevitable by that summer.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "河水已经漫过第一级台阶，谁都看得出下一级也守不住"
+    },
+    {
+      "id": "ex-inflation-1",
+      "word_id": "inflation",
+      "text": "Inflation rose to six percent last year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "去年五块的一碗面今年要七块，钱包厚度没变，能买的东西少了"
+    },
+    {
+      "id": "ex-inflation-2",
+      "word_id": "inflation",
+      "text": "The inflation of the balloon took minutes.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "去年五块的一碗面今年要七块，钱包厚度没变，能买的东西少了"
+    },
+    {
+      "id": "ex-install-1",
+      "word_id": "install",
+      "text": "They installed a new boiler last week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "师傅把新机器抬进预留的方框，四角对上螺孔，逐个拧紧"
+    },
+    {
+      "id": "ex-install-2",
+      "word_id": "install",
+      "text": "She was installed as chair in May.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "师傅把新机器抬进预留的方框，四角对上螺孔，逐个拧紧"
+    },
+    {
+      "id": "ex-installation-1",
+      "word_id": "installation",
+      "text": "The installation of the system took days.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车间里一整套管子和阀门已经架好，墙上贴着当天验收的单子"
+    },
+    {
+      "id": "ex-installation-2",
+      "word_id": "installation",
+      "text": "A large installation filled the gallery floor.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "车间里一整套管子和阀门已经架好，墙上贴着当天验收的单子"
+    },
+    {
+      "id": "ex-installment-1",
+      "word_id": "installment",
+      "text": "He pays for the car in monthly installments.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "买冰箱不用一次付清，每月十号从卡里划走一份，划满十二次"
+    },
+    {
+      "id": "ex-installment-2",
+      "word_id": "installment",
+      "text": "The next installment appears on Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "买冰箱不用一次付清，每月十号从卡里划走一份，划满十二次"
+    },
+    {
+      "id": "ex-handkerchief-1",
+      "word_id": "handkerchief",
+      "text": "He wiped his brow with a handkerchief.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块巴掌大的方布，叠成四折塞在裤兜，掏出来擦一下额头"
+    },
+    {
+      "id": "ex-handkerchief-2",
+      "word_id": "handkerchief",
+      "text": "She kept a clean handkerchief in her sleeve.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一块巴掌大的方布，叠成四折塞在裤兜，掏出来擦一下额头"
+    },
+    {
+      "id": "ex-handwriting-1",
+      "word_id": "handwriting",
+      "text": "I cannot read his handwriting at all.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一句话两个人抄下来，一个笔画立着，一个连成一片斜的"
+    },
+    {
+      "id": "ex-handwriting-2",
+      "word_id": "handwriting",
+      "text": "The note was in her own handwriting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一句话两个人抄下来，一个笔画立着，一个连成一片斜的"
+    },
+    {
+      "id": "ex-headmaster-1",
+      "word_id": "headmaster",
+      "text": "The headmaster called his parents that evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全校集会时站在台阶最上那级说话的那个人，别的老师站在他两侧"
+    },
+    {
+      "id": "ex-headmaster-2",
+      "word_id": "headmaster",
+      "text": "She replaced the retiring headmaster in September.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "全校集会时站在台阶最上那级说话的那个人，别的老师站在他两侧"
+    },
+    {
+      "id": "ex-headquarters-1",
+      "word_id": "headquarters",
+      "text": "The company moved its headquarters to Leeds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋挂着总旗的楼，各地的电话都往这里打，命令从这里发出去"
+    },
+    {
+      "id": "ex-headquarters-2",
+      "word_id": "headquarters",
+      "text": "Orders came straight from headquarters that night.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一栋挂着总旗的楼，各地的电话都往这里打，命令从这里发出去"
+    },
+    {
+      "id": "ex-housewife-1",
+      "word_id": "housewife",
+      "text": "She was a housewife for twenty years.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "上午买菜下午晾衣，锅里炖着晚饭，她一整天没出过这个门"
+    },
+    {
+      "id": "ex-housewife-2",
+      "word_id": "housewife",
+      "text": "Many housewives went back to work then.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "上午买菜下午晾衣，锅里炖着晚饭，她一整天没出过这个门"
+    },
+    {
+      "id": "ex-housework-1",
+      "word_id": "housework",
+      "text": "They share the housework every week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地要拖，碗要洗，衣服堆在盆里，做完一样又冒出下一样"
+    },
+    {
+      "id": "ex-housework-2",
+      "word_id": "housework",
+      "text": "Housework takes her three hours a day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地要拖，碗要洗，衣服堆在盆里，做完一样又冒出下一样"
+    },
+    {
+      "id": "ex-inside-1",
+      "word_id": "inside",
+      "text": "The keys are inside the brown bag.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箱盖一掀，四壁围住的那一小块空处塞着几封旧信"
+    },
+    {
+      "id": "ex-inside-2",
+      "word_id": "inside",
+      "text": "He painted the inside of the door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "箱盖一掀，四壁围住的那一小块空处塞着几封旧信"
+    },
+    {
+      "id": "ex-insurance-1",
+      "word_id": "insurance",
+      "text": "Her car insurance costs more this year.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每年交一笔钱换一纸约据，车真撞坏了修钱由公司出"
+    },
+    {
+      "id": "ex-insurance-2",
+      "word_id": "insurance",
+      "text": "Keep the receipt as insurance against loss.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "每年交一笔钱换一纸约据，车真撞坏了修钱由公司出"
+    },
+    {
+      "id": "ex-into-1",
+      "word_id": "into",
+      "text": "She poured the milk into a glass.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "硬币从指间落下，穿过瓶口，掉在瓶底叮的一声"
+    },
+    {
+      "id": "ex-into-2",
+      "word_id": "into",
+      "text": "The rain turned into snow by evening.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "硬币从指间落下，穿过瓶口，掉在瓶底叮的一声"
     }
   ]
 }

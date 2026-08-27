@@ -1053,7 +1053,8 @@
         "discovery",
         "recover",
         "recovery",
-        "uncover"
+        "uncover",
+        "handkerchief"
       ]
     },
     {
@@ -1268,7 +1269,8 @@
         "occurrence",
         "course",
         "discourse",
-        "corridor"
+        "corridor",
+        "intercourse"
       ]
     },
     {
@@ -1923,7 +1925,8 @@
         "sure",
         "assurance",
         "curiosity",
-        "reassure"
+        "reassure",
+        "insurance"
       ]
     },
     {
@@ -3133,7 +3136,8 @@
         "prudent",
         "revise",
         "supervise",
-        "evidence"
+        "evidence",
+        "interview"
       ]
     },
     {
@@ -3917,7 +3921,8 @@
         "majority",
         "magnify",
         "maximum",
-        "mayor"
+        "mayor",
+        "headmaster"
       ]
     },
     {
@@ -4037,7 +4042,8 @@
       "word_ids": [
         "hero",
         "heroic",
-        "heroine"
+        "heroine",
+        "heroin"
       ]
     },
     {
@@ -4308,7 +4314,8 @@
       "word_ids": [
         "quart",
         "quarter",
-        "quarterly"
+        "quarterly",
+        "headquarters"
       ]
     },
     {
@@ -4551,7 +4558,8 @@
         "captain",
         "chapter",
         "capital",
-        "capitalism"
+        "capitalism",
+        "handkerchief"
       ]
     },
     {
@@ -5436,7 +5444,9 @@
         "imaginary",
         "imagination",
         "imaginative",
-        "imagine"
+        "imagine",
+        "imitate",
+        "imitation"
       ]
     },
     {
@@ -6540,6 +6550,22 @@
         "foundation",
         "fund",
         "fundamental"
+      ]
+    },
+    {
+      "id": "stallum",
+      "root": "stallum",
+      "variants": [
+        "stall"
+      ],
+      "origin": "中世纪拉丁语 stallum（座位、摊位、畜栏里隔出的一格）借自法兰克语／古高地德语 *stal（位置、棚位），英语 stall 同出这一支；古法语 installer 与盎格鲁-法语 estaler 皆由此。与库中 sta 一族不同源，那一族讲的是站立",
+      "core_concept": "a place marked off and assigned to one thing / 划出来专归某一样占的那个位子",
+      "core_image": "马棚里一格一格隔开，每匹马认自己那一格，进去就站定不再挪",
+      "english_definition": "to set into an assigned place; a stall, a fixed seat",
+      "word_ids": [
+        "install",
+        "installation",
+        "installment"
       ]
     }
   ]

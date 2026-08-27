@@ -12618,6 +12618,84 @@
       "to": "fragment",
       "type": "root",
       "note": "frag（frangere 碎、断）+ -ment → 打碎之后剩下的那一块"
+    },
+    {
+      "from": "curr",
+      "to": "intercourse",
+      "type": "root",
+      "note": "inter-（两者之间）+ course（currere 跑）→ 话与事在双方之间来回跑动"
+    },
+    {
+      "from": "vid",
+      "to": "interview",
+      "type": "root",
+      "note": "inter-（彼此之间）+ view（videre 看）→ 两人隔桌相对而看，一问一答"
+    },
+    {
+      "from": "heros",
+      "to": "heroin",
+      "type": "root",
+      "note": "hero（受传颂的勇士）+ -in（药物名后缀）→ 药厂取名时说用了它的人自觉了得"
+    },
+    {
+      "from": "imago",
+      "to": "imitate",
+      "type": "root",
+      "note": "imit（imitari 照着摹样做，与 imago 摹本同支）+ -ate → 拿本物当样子，照它做出一个"
+    },
+    {
+      "from": "imago",
+      "to": "imitation",
+      "type": "root",
+      "note": "imitat（imitari 照样做，与 imago 摹本同支）+ -ion → 照样做这件事，或照样做出来的那个东西"
+    },
+    {
+      "from": "stallum",
+      "to": "install",
+      "type": "root",
+      "note": "in-（进入）+ stall（stallum 位子）→ 把东西送进它该占的那个位子，固定住"
+    },
+    {
+      "from": "stallum",
+      "to": "installation",
+      "type": "root",
+      "note": "install（送进位子）+ -ation → 送进位子这件事，以及事后立在那儿的那一套"
+    },
+    {
+      "from": "stallum",
+      "to": "installment",
+      "type": "root",
+      "note": "in-（进入）+ stall（stallum 位子）+ -ment → 一次只把一份安到位，安满为止"
+    },
+    {
+      "from": "caput",
+      "to": "handkerchief",
+      "type": "root",
+      "note": "hand（手）+ ker（cooperire 盖住）+ chief（caput 头）→ 本是盖头的那块布，后来改拿在手上"
+    },
+    {
+      "from": "cov",
+      "to": "handkerchief",
+      "type": "root",
+      "note": "hand（手）+ ker（cooperire 盖住）+ chief（caput 头）→ 本是盖头的那块布，后来改拿在手上"
+    },
+    {
+      "from": "maior",
+      "to": "headmaster",
+      "type": "root",
+      "note": "head（居首）+ master（magister，出自 magis 更大的那一支）→ 一群教书人里位次更高的那一位"
+    },
+    {
+      "from": "quartus",
+      "to": "headquarters",
+      "type": "root",
+      "note": "head（居首）+ quarters（quartus 划出的那一块地方，引申为驻地）→ 众驻地里居首的那一处"
+    },
+    {
+      "from": "cura",
+      "to": "insurance",
+      "type": "root",
+      "note": "in-（使）+ sur（securus 不必再挂心）+ -ance → 先出一笔钱把后顾之忧买掉，落成一纸约据"
     }
   ]
 }
