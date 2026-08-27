@@ -992,7 +992,9 @@
         "genetic",
         "genuine",
         "germ",
-        "gently"
+        "gently",
+        "gentle",
+        "gentleman"
       ]
     },
     {
@@ -1976,7 +1978,8 @@
         "plate",
         "plateau",
         "platform",
-        "commonplace"
+        "commonplace",
+        "fireplace"
       ]
     },
     {
@@ -2324,7 +2327,8 @@
         "geography",
         "telegraph",
         "glamor",
-        "diagram"
+        "diagram",
+        "grammar"
       ]
     },
     {
@@ -2740,7 +2744,8 @@
         "comfort",
         "comfortable",
         "effort",
-        "enforce"
+        "enforce",
+        "force"
       ]
     },
     {
@@ -3394,7 +3399,8 @@
         "analogy",
         "analogue",
         "catalog",
-        "dialog"
+        "dialog",
+        "geology"
       ]
     },
     {
@@ -5452,7 +5458,9 @@
       ],
       "word_ids": [
         "fraction",
-        "fragile"
+        "fracture",
+        "fragile",
+        "fragment"
       ]
     },
     {
@@ -5464,6 +5472,8 @@
         "fundus"
       ],
       "word_ids": [
+        "foundation",
+        "fund",
         "fundamental"
       ]
     }

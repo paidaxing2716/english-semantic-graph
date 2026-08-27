@@ -12558,6 +12558,66 @@
       "to": "gently",
       "type": "root",
       "note": "gen（生出）→ 拉丁语 gens（族、出身）→ gentilis（同族的、出身好的）→ gentil（举止不粗）→ g"
+    },
+    {
+      "from": "fortis",
+      "to": "force",
+      "type": "root",
+      "note": "forc（fortis 强壮、有力）→ 使对面松动的那股劲；把这股劲压在人身上 → 逼着他动"
+    },
+    {
+      "from": "graphein",
+      "to": "grammar",
+      "type": "root",
+      "note": "gram（graphein 刻写）→ 写下来的一行字 → 关于字怎么摆的学问"
+    },
+    {
+      "from": "gen",
+      "to": "gentle",
+      "type": "root",
+      "note": "gentil（gentilis 同一族的、出身好的）← gens 与 genus 同支 → 出身好 → 举止有教养 → "
+    },
+    {
+      "from": "logos",
+      "to": "geology",
+      "type": "root",
+      "note": "geo-（希腊语 ge 大地）+ -logy（logos 话里的条理）→ 把大地的构成讲出条理的那门学问"
+    },
+    {
+      "from": "platea",
+      "to": "fireplace",
+      "type": "root",
+      "note": "fire（火）+ place（platea 东西落定的位置）→ 屋里专门留给火的那块位置"
+    },
+    {
+      "from": "gen",
+      "to": "gentleman",
+      "type": "root",
+      "note": "gentle（gentilis 出身好的）+ man（人）→ 出身好的男人 → 举止得体的男人"
+    },
+    {
+      "from": "fundus",
+      "to": "foundation",
+      "type": "root",
+      "note": "found（fundus 底、地基）+ -ation → 往下铺实的那一层，房子与说法都从它起"
+    },
+    {
+      "from": "fundus",
+      "to": "fund",
+      "type": "root",
+      "note": "fundus（底、田产）→ 垫在底下托着事情办下去的那笔"
+    },
+    {
+      "from": "frangere",
+      "to": "fracture",
+      "type": "root",
+      "note": "fract（frangere 碎、断）+ -ure → 断开的那道口子"
+    },
+    {
+      "from": "frangere",
+      "to": "fragment",
+      "type": "root",
+      "note": "frag（frangere 碎、断）+ -ment → 打碎之后剩下的那一块"
     }
   ]
 }

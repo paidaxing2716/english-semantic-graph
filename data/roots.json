@@ -1108,7 +1108,9 @@
         "genetic",
         "genuine",
         "germ",
-        "gently"
+        "gently",
+        "gentle",
+        "gentleman"
       ]
     },
     {
@@ -2271,7 +2273,8 @@
         "plate",
         "plateau",
         "platform",
-        "commonplace"
+        "commonplace",
+        "fireplace"
       ]
     },
     {
@@ -2682,7 +2685,8 @@
         "geography",
         "telegraph",
         "glamor",
-        "diagram"
+        "diagram",
+        "grammar"
       ]
     },
     {
@@ -3170,7 +3174,8 @@
         "comfort",
         "comfortable",
         "effort",
-        "enforce"
+        "enforce",
+        "force"
       ]
     },
     {
@@ -3952,7 +3957,8 @@
         "analogy",
         "analogue",
         "catalog",
-        "dialog"
+        "dialog",
+        "geology"
       ]
     },
     {
@@ -6514,7 +6520,9 @@
       "english_definition": "to break, to shatter into pieces",
       "word_ids": [
         "fraction",
-        "fragile"
+        "fracture",
+        "fragile",
+        "fragment"
       ]
     },
     {
@@ -6529,6 +6537,8 @@
       "core_image": "墙还没砌，先在地上铺一层石头，往下踩不动了才开始往上垒",
       "english_definition": "bottom, base, foundation",
       "word_ids": [
+        "foundation",
+        "fund",
         "fundamental"
       ]
     }
