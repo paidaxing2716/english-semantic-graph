@@ -12330,6 +12330,108 @@
       "to": "cautious",
       "type": "root",
       "note": "caut（cavere 提防）+ -ious → 一直盯着可能出岔子的地方 → 谨慎的"
+    },
+    {
+      "from": "luere-lavare",
+      "to": "dilute",
+      "type": "root",
+      "note": "di-（分开）+ lute（luere 冲洗）→ 掺水把它冲淡 → 稀释"
+    },
+    {
+      "from": "luere-lavare",
+      "to": "laundry",
+      "type": "root",
+      "note": "laund（← lavanderie ← lavare 洗）+ -ry（处所、活计）→ 要洗的那一堆，或洗它的地方"
+    },
+    {
+      "from": "luere-lavare",
+      "to": "lavatory",
+      "type": "root",
+      "note": "lavat（lavare 洗）+ -ory（处所）→ 供人洗手的那间屋"
+    },
+    {
+      "from": "gen",
+      "to": "engineer",
+      "type": "root",
+      "note": "en-（in- 在里头）+ gine（gen 生）+ -eer（做这行的人）→ 天生的那份巧思，做成器械，造器械的就是这"
+    },
+    {
+      "from": "gerere",
+      "to": "exaggerate",
+      "type": "root",
+      "note": "ex-（彻底）+ agger（土堆，出自 aggerere：ad-＋gerere 搬到一处）+ -ate → 一趟趟往上"
+    },
+    {
+      "from": "ferre",
+      "to": "fertile",
+      "type": "root",
+      "note": "fert（ferre 带出、生养）+ -ile（能够）→ 能一茬茬把东西生出来的"
+    },
+    {
+      "from": "rect",
+      "to": "escort",
+      "type": "root",
+      "note": "es-（ex- 出来）+ cort（corrigere ← regere 引直、带正）→ 一路把人引着走、护着走的那个"
+    },
+    {
+      "from": "aestimare",
+      "to": "estimate",
+      "type": "root",
+      "note": "estimat（aestimare 估价、定出值多少）+ -e → 不上秤先给它定一个数"
+    },
+    {
+      "from": "emere",
+      "to": "example",
+      "type": "root",
+      "note": "ex-（出来）+ ampl（exemplum ← eximere：ex-＋emere 取出去）→ 从一堆里取出来给人看的"
+    },
+    {
+      "from": "emere",
+      "to": "exempt",
+      "type": "root",
+      "note": "ex-（出去）+ empt（emere 取，过去分词 emptus）→ 被从名单里取出去，那条规矩管不着他"
+    },
+    {
+      "from": "phainein",
+      "to": "fantastic",
+      "type": "root",
+      "note": "phan（phainein 使显现）+ -tastic → 只在心里现出来的那个影，因而离奇，后转指好得不像真的"
+    },
+    {
+      "from": "phainein",
+      "to": "emphasize",
+      "type": "root",
+      "note": "em-（en- 在内）+ phas（phainein 显现）+ -ize → 把某一处特意显出来给人看见"
+    },
+    {
+      "from": "gen",
+      "to": "engineering",
+      "type": "root",
+      "note": "en-（in- 在里头）+ gine（gen 生）+ -eering → 把天生的巧思用成一门造器械的手艺"
+    },
+    {
+      "from": "scandere",
+      "to": "escalate",
+      "type": "root",
+      "note": "e-（ex- 出来）+ scal（scala 梯子 ← scandere 攀登）+ -ate → 一级级往上爬，只上不下"
+    },
+    {
+      "from": "aestimare",
+      "to": "esteem",
+      "type": "root",
+      "note": "esteem（aestimare 估价、定分量）→ 把这个人的分量估得高"
+    },
+    {
+      "from": "citare",
+      "to": "exciting",
+      "type": "root",
+      "note": "ex-（向外）+ cit（citare 唤起、催动）+ -ing → 把原本静着的那股劲唤起来，让人坐不住"
+    },
+    {
+      "from": "ferre",
+      "to": "fertilizer",
+      "type": "root",
+      "note": "fert（ferre 带出、生养）+ -ilize（使能够）+ -er（那样东西）→ 撒下去让地能多生出东西的那样东西"
     }
   ]
 }

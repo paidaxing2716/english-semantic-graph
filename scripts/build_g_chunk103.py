@@ -1,0 +1,511 @@
+#!/usr/bin/env python3
+"""生成 drafts/g_chunk103.tsv。
+
+不用 Write 工具直接落盘：尾列（hint / collocations）留空的行会被规范化掉
+行尾制表符，15 列静默变 13 列，而两道门都可能放行。按列表 join 后
+write_text(newline='\n')，并在此处断言列数。
+"""
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "drafts" / "g_chunk103.tsv"
+
+# R 行：10 列 —— R, root_id, variants, origin, core_concept, core_image,
+#                english_def, concept_slug, concept_zh, domain
+ROOTS = [
+    [
+        "R", "aestimare", "estimat/esteem",
+        "拉丁语 aestimare（估价、定出值多少）；经古法语 estimer 一路出 estimate（把量算出来），"
+        "另一路出 esteem（把人的分量看高），二者是同源双式；古法语 aesmer 又出 aim",
+        "to set a value on a thing / 给一样东西定出分量",
+        "东西拿在手里颠一颠，心里给它标上一个数",
+        "to value, appraise, reckon the worth of",
+        "worth", "定出分量", "domain-perceive",
+    ],
+    [
+        "R", "emere", "",
+        "拉丁语 emere（取、拿，后转指买），过去分词 emptus；eximere（ex-＋emere 取出去）派出 "
+        "exempt 与 exemplum（取出来作样子的那一个），后者经古法语出 example 与 sample。"
+        "库中 sumere（sub-＋emere）按拉丁动词各自立根，与本根另有分立",
+        "to take a thing out of the lot / 从一堆里把一样取出来",
+        "手伸进一堆东西里，捏住一样抽出来，剩下的还在原处",
+        "to take, take out, buy",
+        "take", "取出一样", "domain-hold",
+    ],
+]
+
+# W 行：15 列 —— W, word, pos, phonetic, root_ids, root_logic, origin, native,
+#                image(9), zh(10), examples(11), concept(12), expansions(13),
+#                hint(14), collocations(15)
+WORDS = [
+    # ---- A 档核过：empire 退回、federation 退回，engineer/exaggerate/fertile 成立 ----
+    [
+        "W", "empire", "noun", "/ˈempaɪə/", "", "",
+        "古法语 empire ← 拉丁语 imperium（号令之权）← imperare（下令、统辖）：in-（向）+ parare"
+        "（备置）；承义的是下令统辖这一支，不是备置，故未挂 parare，与库中 emperor 同一处理",
+        "a large group of territories or peoples ruled by a single supreme authority",
+        "一张地图上十几块颜色不同的地界，箭头全指向中间那一座城",
+        "帝国/帝位/大企业集团",
+        "The empire stretched from the sea to the mountains.|She built a publishing empire from one shop.",
+        "many lands answering to one voice – 许多地方听同一个声音发号令",
+        "帝国：许多地方被一个至高权力收在一起，令出一处|帝位：坐在那个至高位置上的身份|"
+        "大企业集团：一人或一家把一大摊生意攥在手里，结构与前者同理",
+        "", "",
+    ],
+    [
+        "W", "engineer", "noun / verb", "/ˌendʒɪˈnɪə/", "gen",
+        "en-（in- 在里头）+ gine（gen 生）+ -eer（做这行的人）→ 天生的那份巧思，做成器械，"
+        "造器械的就是这行人",
+        "古法语 engigneor ← 晚期拉丁语 ingeniare ← 拉丁语 ingenium（天生的才具、巧思）："
+        "in-（在里头）+ gignere（生）；ingenium 到晚期拉丁语才转指攻城器械，engine 由此",
+        "a person trained to design, build, or maintain machines and structures",
+        "图纸上几根线，最后变成一根压得住卡车的钢梁架在河上",
+        "工程师/技师/策划",
+        "The engineer checked every bolt on the bridge.|They engineered the whole deal in one week.",
+        "the inborn knack turned into built things – 生在里头的巧思做成实物",
+        "工程师：把图纸上的东西真造出来的那个人|技师：管着机器、让它一直转得动的人|"
+        "策划：像装机器一样把事一环环安排上，用在人事上带贬义",
+        "", "",
+    ],
+    [
+        "W", "exaggerate", "verb", "/ɪɡˈzædʒəreɪt/", "gerere",
+        "ex-（彻底）+ agger（土堆，出自 aggerere：ad-＋gerere 搬到一处）+ -ate → 一趟趟往上堆，"
+        "堆得比实有的高",
+        "拉丁语 exaggeratus ← exaggerare（堆高、放大）：ex-（彻底）+ aggerare（堆积）← agger"
+        "（土堆）← aggerere（ad-＋gerere 搬拢来）；英语先有「堆起来」义，1560 年代才转指说过头",
+        "to represent something as larger or more extreme than it really is",
+        "一筐土倒上去还嫌矮，又添两筐，堆头比原来那个坑挖出的土多出一半",
+        "夸大/夸张/言过其实",
+        "He tends to exaggerate the size of his catch.|Do not exaggerate the danger of the trip.",
+        "piling it higher than what is really there – 堆得比实有的高",
+        "夸大：把事情的分量往上添，添到超出实情|夸张：为了效果故意加码，听的人也知道有水分|"
+        "言过其实：说出来的比实际撑得住的多",
+        "", "",
+    ],
+    [
+        "W", "federation", "noun", "/ˌfedəˈreɪʃn/", "", "",
+        "拉丁语 foederatio ← foederare（结盟）← foedus（属格 foederis：盟约）；foedus 与 fides"
+        "（信任）虽同追到印欧语 *bheidh-，在拉丁已分化为两词，不同源，故不挂 fidere；"
+        "与 ex＋dare（交出）一支也无关",
+        "a union of states or organizations that keep some powers of their own",
+        "几家各自盖了章，章盖在同一张纸上，往后对外只认这一张",
+        "联邦/联合会/结盟",
+        "The federation includes twelve independent states.|A new federation of unions was formed.",
+        "separate parties bound by one covenant – 各方被同一份约绑到一起",
+        "联邦：各邦留着自己的权，对外却当一个整体行动|联合会：同类团体立约合成的一个组织|"
+        "结盟：立约把彼此绑上的那个动作",
+        "", "",
+    ],
+    [
+        "W", "fertile", "adjective", "/ˈfɜːtaɪl/", "ferre",
+        "fert（ferre 带出、生养）+ -ile（能够）→ 能一茬茬把东西生出来的",
+        "拉丁语 fertilis（多产的）← ferre（带、生养）；注意与拉丁语 ferire（击打）不同源，"
+        "拼写相近而已",
+        "able to produce a lot of crops, young, or ideas",
+        "土捏在手里松散发黑，种子撒下去第五天就顶出一排绿芽",
+        "肥沃的/多产的/富于创造力的",
+        "The valley has deep fertile soil.|She went through a fertile period of writing.",
+        "able to bring forth crop after crop – 能一茬接一茬地生出东西",
+        "肥沃的：地力足，种什么都出得好|多产的：一茬接一茬地出，产量高|"
+        "富于创造力的：脑子里点子一个接一个冒出来，与地里出产同理",
+        "", "",
+    ],
+
+    # ---- B 档：核出 escort/estimate/example/exempt/fantastic 五个漏挂 ----
+    [
+        "W", "energetic", "adjective", "/ˌenəˈdʒetɪk/", "", "",
+        "希腊语 energetikos（能干活的）← energeia（在动的力）：en-（在内）+ ergon（活儿）；"
+        "本项目未为 ergon 一支建根，该族在词表内只有 energy 一词相伴",
+        "having or showing a lot of physical or mental force",
+        "早上六点跑完一圈回来，进门还能一口气把桌子搬到墙边",
+        "精力充沛的/积极的",
+        "The energetic child never sat still.|She gave an energetic speech to the crowd.",
+        "force at work inside, showing on the outside – 里头有劲在动，外头看得出来",
+        "精力充沛的：身上力气用不完，做完一件还想做下一件|积极的：做事时劲头明显，肯往前顶",
+        "", "",
+    ],
+    [
+        "W", "engagement", "noun", "/ɪnˈɡeɪdʒmənt/", "", "",
+        "古法语 engagier（押上、许下）：en-＋gage（抵押物）← 法兰克语 *wadi（保证物），日耳曼源；"
+        "与库中 engage 同一处理",
+        "a formal promise or arrangement, or a period of active involvement",
+        "戒指套上手指，日子写进本子，两边都知道这话收不回来了",
+        "订婚/约定/交战/参与",
+        "They announced their engagement last spring.|He had an engagement at three that day.",
+        "a pledge laid down that cannot be pulled back – 押下去就抽不回的那句话",
+        "订婚：把婚约先押下，众人都知道|约定：定好的那一次会面或安排|"
+        "交战：两支队伍咬上了，抽不开身|参与：把自己投进去，不是站在旁边看",
+        "", "",
+    ],
+    [
+        "W", "enthusiasm", "noun", "/ɪnˈθjuːziæzəm/", "", "",
+        "法语 enthousiasme ← 希腊语 enthousiasmos（神灵附身的激动）← entheos：en-（在内）+ theos"
+        "（神）；本项目未为 theos 一支建根。英语 theory 出希腊语 theorein（观看），与 theos 不同源",
+        "a strong feeling of excitement and eagerness about something",
+        "一说起这件事眼睛就亮，手上比划起来，椅子都坐不住",
+        "热情/热忱/极大兴趣",
+        "She spoke about the plan with great enthusiasm.|His enthusiasm for cooking never faded.",
+        "a larger force moving in you from inside – 身体里像住进一股更大的劲头",
+        "热情：整个人为某事烧起来|热忱：这股劲一直朝一个方向使，不是一时冲动|"
+        "极大兴趣：被某样东西攫住，一说起来就停不下",
+        "", "",
+    ],
+    [
+        "W", "environment", "noun", "/ɪnˈvaɪrənmənt/", "", "",
+        "法语 environnement ← environner（围住）← environ（在周围）：en-（在内）+ viron（一圈）"
+        "← virer（转）；virer 更早词源不明",
+        "the surroundings and conditions in which a person or thing exists",
+        "站在原地转一圈，看见的树、墙、路面和空气里的味道全算在里头",
+        "环境/自然环境",
+        "Children need a safe environment to grow in.|We must protect the environment from waste.",
+        "the full circle of what stands around you – 绕着你转一圈所见的全部",
+        "环境：人或物身处其中的那一圈条件|自然环境：这一圈里属于山水草木空气的那部分",
+        "", "",
+    ],
+    [
+        "W", "erroneous", "adjective", "/ɪˈrəʊniəs/", "", "",
+        "拉丁语 erroneus（走岔的）← errare（走岔、游荡）；本项目未为 errare 一支建根，"
+        "该族在词表内只有 error 相伴，与库中 error 同一处理",
+        "based on a mistake and therefore not correct",
+        "照着记下的门牌号找过去，站在门口才发现整条街都走岔了",
+        "错误的/不正确的",
+        "The report was based on erroneous data.|He drew an erroneous conclusion from one case.",
+        "having wandered off the right road – 从对的那条路上岔开了",
+        "错误的：结论或说法本身岔了，站不住|不正确的：与事实对不上，需要改过来",
+        "", "",
+    ],
+    [
+        "W", "escort", "noun / verb", "/ˈeskɔːt/", "rect",
+        "es-（ex- 出来）+ cort（corrigere ← regere 引直、带正）→ 一路把人引着走、护着走的那个",
+        "法语 escorte ← 意大利语 scorta（引路）← scorgere（引导）← 通俗拉丁语 *excorrigere："
+        "ex-（出来）+ corrigere（com-＋regere 引直）；承义的是引导这一支，与库中 regula"
+        "（木尺、准绳）那一支不同支",
+        "a person or vehicle that accompanies another to protect or guide it",
+        "两辆车一前一后夹着中间那辆，路口先停下来看一眼才让它过",
+        "护送/护送队/陪同",
+        "Two police cars escorted the truck to the border.|She arrived under a heavy escort.",
+        "one who leads another straight through – 一路引着别人走过去的那个",
+        "护送：一路跟着把人或物带到地方，防着出事|护送队：干这件事的那一队人马|"
+        "陪同：出于礼数陪着走一段，不为安全",
+        "", "",
+    ],
+    [
+        "W", "estimate", "noun / verb", "/ˈestɪmeɪt/", "aestimare",
+        "estimat（aestimare 估价、定出值多少）+ -e → 不上秤先给它定一个数",
+        "拉丁语 aestimatus ← aestimare（估价、定值）；经古法语 estimer 入英语，与 esteem 同源双式",
+        "to judge roughly the size, value, or cost of something",
+        "手按在木箱上往上提半寸就放下，嘴里报出一个数，没上秤",
+        "估计/估算/报价",
+        "He estimated the crowd at two thousand people.|The builder gave us an estimate on Friday.",
+        "putting a number on a thing without measuring it – 不量就给它标一个数",
+        "估计：不精确的量，凭经验说个大概|估算：拿数字往下算一个近似结果|"
+        "报价：把要花多少钱先定出来写给对方",
+        "", "",
+    ],
+    [
+        "W", "evaporate", "verb", "/ɪˈvæpəreɪt/", "", "",
+        "拉丁语 evaporatus ← evaporare：ex-（出去）+ vapor（水汽）；本项目未为 vapor 一支建根，"
+        "该族在词表内只此一词",
+        "to change from a liquid into a gas, or to fade away gradually",
+        "一滴水落在烧热的铁板上，边缘往里缩，几秒后那块印子也没了",
+        "蒸发/消失",
+        "The puddle evaporated within an hour.|His confidence evaporated before the interview.",
+        "going off into the air until nothing is left – 化成气跑掉，原处什么也不剩",
+        "蒸发：液体变成气跑掉|消失：本来有的东西一点点没了，与前者同一个走法",
+        "", "",
+    ],
+    [
+        "W", "example", "noun", "/ɪɡˈzɑːmpl/", "emere",
+        "ex-（出来）+ ampl（exemplum ← eximere：ex-＋emere 取出去）→ 从一堆里取出来给人看的那一个",
+        "古法语 example ← 拉丁语 exemplum（取出来作样子的那一个）← eximere（取出去）："
+        "ex-＋emere（取）；与 exempt、sample 同出一源",
+        "a thing taken from a group to show what the rest are like",
+        "从一筐橘子里拿出一个剥开，说整筐都是这个甜度",
+        "例子/榜样/实例",
+        "She gave three examples to make her point.|He set a good example for the team.",
+        "one taken out of the lot to stand for all – 从一堆里取一个出来代表全体",
+        "例子：拿出来说明道理的那一个|榜样：拿出来给人照着做的那一个|"
+        "实例：真发生过、可以指着说的那一件",
+        "", "",
+    ],
+    [
+        "W", "excerpt", "noun / verb", "/ˈeksɜːpt/", "", "",
+        "拉丁语 excerptus ← excerpere（摘出来）：ex-（出来）+ carpere（摘、拉扯）；本项目未为 "
+        "carpere 一支建根，与库中 carpet 同一处理",
+        "a short passage taken from a longer text or piece of music",
+        "整本书里划出半页抄到另一张纸上，前后都断着",
+        "摘录/节选",
+        "The paper printed an excerpt from her diary.|He excerpted two pages for the class.",
+        "a piece plucked out of a longer whole – 从整篇里摘下来的一小块",
+        "摘录：从长文里摘下来的那一段|节选：为某个用途挑出来的一部分，前后不全",
+        "", "",
+    ],
+    [
+        "W", "exempt", "adjective / verb", "/ɪɡˈzempt/", "emere",
+        "ex-（出去）+ empt（emere 取，过去分词 emptus）→ 被从名单里取出去，那条规矩管不着他",
+        "拉丁语 exemptus ← eximere（取出去、免除）：ex-＋emere（取）；与 example 同出一源",
+        "not required to do or pay something that others must",
+        "名单上一排人都得交，他那一行被划出来，笔尖跳过去接着往下走",
+        "免除的/豁免",
+        "Small farms are exempt from the new tax.|The rule exempts children under six.",
+        "taken out from what binds the rest – 从管着别人的那条规矩里取出去",
+        "免除的：不必照办、不必缴的那种身份|豁免：把某人从义务里取出去这个动作",
+        "", "",
+    ],
+    [
+        "W", "expand", "verb", "/ɪkˈspænd/", "", "",
+        "古法语 espaundre ← 拉丁语 expandere（摊开）：ex-（出去）+ pandere（张开、铺开）；"
+        "本项目未为 pandere 一支建根，该族在词表内只有 expansion 相伴",
+        "to become larger, or to make something larger or fuller",
+        "折成八折的地图两手往两边一拉，桌面被它占满，边角垂到地上",
+        "膨胀/扩大/详述",
+        "Metal expands when it is heated.|The company plans to expand into Asia.",
+        "a folded thing opened out to take more room – 折着的东西摊开，占的地方变多",
+        "膨胀：本体自己往外长大|扩大：把范围或规模往外推|"
+        "详述：把说得简略的地方一条条铺开讲全",
+        "", "",
+    ],
+    [
+        "W", "extravagant", "adjective", "/ɪkˈstrævəɡənt/", "", "",
+        "中世纪拉丁语 extravagans（走出界外的）：extra-（越出）+ vagari（游荡）；本项目未为 "
+        "vagari 一支建根，该族在词表内只此一词",
+        "spending or costing much more than is necessary or reasonable",
+        "八个人点了十六道菜，最后剩下大半原样端走，还添了两瓶没开的酒",
+        "挥霍的/奢华的/过分的",
+        "He was extravagant with money after the win.|They held an extravagant wedding by the lake.",
+        "wandering out past where the line was drawn – 越过该有的界线往外走",
+        "挥霍的：钱流出去没个数|奢华的：用的东西远超需要的档次|过分的：言行超出常理该有的度",
+        "", "",
+    ],
+    [
+        "W", "faint", "adjective / verb", "/feɪnt/", "", "",
+        "古法语 faint（装的、装死的）← feindre ← 拉丁语 fingere（捏塑、假造）；本项目未为 fingere "
+        "一支建根，该族在词表内只有 fiction 相伴",
+        "very weak, unclear, or to lose consciousness briefly",
+        "远处一声铃，得屏住呼吸才听得出；那人脸色发白，膝一软往下滑",
+        "微弱的/昏倒/模糊的",
+        "There was a faint smell of smoke.|She fainted in the crowded hall.",
+        "so weak it can barely hold – 弱到几乎撑不住",
+        "微弱的：声音、光线弱到几乎抓不住|昏倒：人撑不住了，一下失去知觉|"
+        "模糊的：轮廓淡得看不清，与前者同一个弱法",
+        "", "",
+    ],
+    [
+        "W", "fantastic", "adjective", "/fænˈtæstɪk/", "phainein",
+        "phan（phainein 使显现）+ -tastic → 只在心里现出来的那个影，因而离奇，后转指好得不像真的",
+        "古法语 fantastique ← 晚期拉丁语 phantasticus ← 希腊语 phantastikos（能想象的）← phantazein"
+        "（使显现）← phainein（使显现）；与库中 fantasy、fancy 同出此支",
+        "extremely good, or strange and hard to believe",
+        "闭上眼就看见会飞的鱼和倒着长的树，睁眼一看窗外什么都没有",
+        "极好的/离奇的/幻想的",
+        "The food at that place was fantastic.|He told a fantastic story about a talking dog.",
+        "showing only in the mind, not outside – 只在心里现出来，外头并没有",
+        "极好的：好到不像真的，日常用得最多|离奇的：离常理太远，听着像编的|"
+        "幻想的：只存在于想象里的",
+        "", "",
+    ],
+    [
+        "W", "festival", "noun", "/ˈfestɪvl/", "", "",
+        "古法语 festival ← 拉丁语 festivalis ← festivus ← festum（节庆的日子）；本项目未为 festum "
+        "一支建根，与库中 feast 同一处理",
+        "a day or period of celebration, often with music and public events",
+        "街口挂起一长串彩旗，店铺都关了门，人比平日多出三倍",
+        "节日/节庆/艺术节",
+        "The village holds a music festival each June.|Shops close during the spring festival.",
+        "a day set apart when ordinary work stops – 定下来的那一天，平日的活都停下",
+        "节日：定期到来、大家一起过的那一天|节庆：那几天里的热闹场面|"
+        "艺术节：为某一门类专设的一段集中活动",
+        "", "",
+    ],
+
+    # ---- C 档：10 个里 6 个判错语系（emphasize/engineering/escalate/esteem/
+    #      exciting/fertilizer 均为拉丁或希腊源），只有 4 个真是日耳曼型 ----
+    [
+        "W", "emphasize", "verb", "/ˈemfəsaɪz/", "phainein",
+        "em-（en- 在内）+ phas（phainein 显现）+ -ize → 把某一处特意显出来给人看见",
+        "英语 emphasis（← 希腊语 emphasis：en-＋phainein 使显现）加 -ize 构成，与库中 emphasis 同根",
+        "to give special importance to something in speech or writing",
+        "念到那句话时放慢下来，手指在纸上那一行底下重划一道",
+        "强调/着重",
+        "She emphasized the need for more time.|He emphasized every word of the warning.",
+        "making one part stand out into view – 让其中一处特意露出来",
+        "强调：把某一点说重，让人别漏掉|着重：分配力气时偏向这一处",
+        "", "",
+    ],
+    [
+        "W", "engineering", "noun", "/ˌendʒɪˈnɪərɪŋ/", "gen",
+        "en-（in- 在里头）+ gine（gen 生）+ -eering → 把天生的巧思用成一门造器械的手艺",
+        "英语 engineer 加 -ing 构成 ← 拉丁语 ingenium（天生的才具）：in-（在里头）+ gignere（生）",
+        "the work of designing and building machines, structures, and systems",
+        "一张剖面图旁边压着计算纸，纸上每根梁承多少重都写着数",
+        "工程/工程学/工程技术",
+        "He studied engineering at a small college.|The tunnel was a feat of engineering.",
+        "the craft of making the inborn knack into structures – 把巧思做成实物的那门手艺",
+        "工程：按图把大件东西造起来的整件事|工程学：研究怎么造的那门学问|"
+        "工程技术：真动手时用的那套办法",
+        "", "",
+    ],
+    [
+        "W", "escalate", "verb", "/ˈeskəleɪt/", "scandere",
+        "e-（ex- 出来）+ scal（scala 梯子 ← scandere 攀登）+ -ate → 一级级往上爬，只上不下",
+        "由 escalator（1900 年 Otis 公司商名，取自 escalade）反推而成 ← 法语 escalade ← 意大利语 "
+        "scalata ← scala（梯子）；scala 与拉丁语 scandere（攀登）相关，与库中 scale 同支",
+        "to become or make something more serious or intense step by step",
+        "先是拍桌子，接着摔杯子，第三天两家门口各站了七八个人",
+        "升级/逐步加剧/上涨",
+        "The quarrel escalated into a street fight.|Costs escalated after the delay.",
+        "climbing rung by rung with no step back – 一级级往上，没有退回那一步",
+        "升级：事态往更严重的一级去|逐步加剧：一点点加重，不是一下爆开|"
+        "上涨：数目一级级往上走",
+        "", "",
+    ],
+    [
+        "W", "esteem", "noun / verb", "/ɪˈstiːm/", "aestimare",
+        "esteem（aestimare 估价、定分量）→ 把这个人的分量估得高",
+        "古法语 estimer ← 拉丁语 aestimare（估价）；十六世纪起专指把人看高，与 estimate 同源双式",
+        "respect and admiration for someone, or to regard someone highly",
+        "他一进屋，屋里几个人都站起来，把靠里的位子腾给他",
+        "尊重/敬重/看重",
+        "She is held in high esteem by her students.|We esteem him for his honesty.",
+        "reckoning a person's worth as high – 把这个人的分量估到高处",
+        "尊重：把对方的分量摆在自己之上|敬重：不光认他的分量，还仰着头看|"
+        "看重：认定他有分量，愿意为他费力",
+        "", "",
+    ],
+    [
+        "W", "everybody", "pronoun", "/ˈevribɒdi/", "", "",
+        "中古英语 every body 的合成：every（← 古英语 æfre ǣlc 每一个）+ body（← 古英语 bodig 躯干），"
+        "日耳曼复合词，与库中 nobody 同一构法",
+        "every person in a group, with no one left out",
+        "点名单点到最后一行，每个名字后面都画了勾，没有空着的",
+        "每个人/人人",
+        "Everybody in the room stood up at once.|Everybody knows the shop closes at six.",
+        "every single one counted in – 一个一个数过来，谁也不落下",
+        "每个人：逐个算，一个不漏|人人：不必逐个点，泛指所有人",
+        "", "",
+    ],
+    [
+        "W", "everywhere", "adverb", "/ˈevriweə/", "", "",
+        "中古英语 every where 的合成：every（← 古英语 æfre ǣlc）+ where（← 古英语 hwǣr 何处），"
+        "日耳曼复合词，与库中 anywhere 同一构法",
+        "in or to all places",
+        "同一张海报贴在车站的柱子上、闸机旁、电梯里，抬头就撞见一张",
+        "处处/到处",
+        "There was dust everywhere in the old house.|She looked everywhere for her keys.",
+        "in each place, none skipped – 每一处都算上，没有跳过的",
+        "处处：着眼于每一个地方都有|到处：着眼于走动之中处处碰见",
+        "", "",
+    ],
+    [
+        "W", "exciting", "adjective", "/ɪkˈsaɪtɪŋ/", "citare",
+        "ex-（向外）+ cit（citare 唤起、催动）+ -ing → 把原本静着的那股劲唤起来，让人坐不住",
+        "英语 excite（← 拉丁语 excitare：ex-＋citare 唤起）加 -ing 构成，与库中 excite、excitement 同根",
+        "causing strong interest and a lively happy feeling",
+        "比分追平那一刻，看台上前排的人全站起来，手里的杯子都忘了",
+        "令人兴奋的/刺激的",
+        "The last ten minutes were really exciting.|They planned an exciting trip to the coast.",
+        "rousing a force that was lying still – 把本来不动的那股劲唤起来",
+        "令人兴奋的：让人心跳加快、想动起来|刺激的：那股劲来得猛，带点冒险味道",
+        "", "",
+    ],
+    [
+        "W", "farther", "adverb / adjective", "/ˈfɑːðə/", "", "",
+        "中古英语 ferther，是 further 的变体，受 far 的词形牵引而成 ← 古英语 furðor（更向前）"
+        "← 原始日耳曼语 *furþera-；与库中 further 同源",
+        "at or to a greater distance",
+        "同一条路上，从这块路牌走到下一块，回头看车已经缩成一个点",
+        "更远地/更远的",
+        "We walked farther than we had planned.|The farther bank was hidden by fog.",
+        "more forward along the same line – 顺着同一条线更往前一段",
+        "更远地：作副词，走得比原先更远|更远的：作形容词，两者之中离得远的那一个",
+        "", "",
+    ],
+    [
+        "W", "fertilizer", "noun", "/ˈfɜːtəlaɪzə/", "ferre",
+        "fert（ferre 带出、生养）+ -ilize（使能够）+ -er（那样东西）→ 撒下去让地能多生出东西的那样东西",
+        "英语 fertile（← 拉丁语 fertilis ← ferre 带、生养）加 -ize、-er 构成，与库中 transfer、offer 同根",
+        "a substance added to soil to help plants grow better",
+        "一把灰白颗粒顺着犁沟撒下去，两周后那一行苗比旁边高出半个手掌",
+        "肥料/化肥",
+        "The farmer spread fertilizer over the field.|Too much fertilizer can harm the soil.",
+        "what is put in so the ground brings forth more – 添进地里让它多生出东西的那样东西",
+        "肥料：添进土里帮着长的东西，可以是天然的|化肥：工厂做出来的那种，成分是配好的",
+        "", "",
+    ],
+    [
+        "W", "fill", "verb", "/fɪl/", "", "",
+        "古英语 fyllan（使满）← 原始日耳曼语 *fullijan ← *fullaz（满的）；与库中 full 同源。"
+        "拉丁语 plere（填满）虽同追到印欧语 *pele-，两支在各自语言内早已分开，本项目另有 plere 根，"
+        "不合并",
+        "to make something full, or to become full",
+        "水从龙头下来，桶里的水面一点点往上走，最后齐到桶口那道边",
+        "填满/装满/占满",
+        "She filled the glass with cold water.|Smoke filled the whole kitchen in seconds.",
+        "adding until no more will go in – 一直添到再添不进去",
+        "填满：把缺口、空隙补上，不留空|装满：往容器里放到齐口|"
+        "占满：人或物把整个空间挤住，不剩地方",
+        "", "",
+    ],
+]
+
+
+def check():
+    """本地断言。两道门查不到的三样：image 字数、例句词数、列数。"""
+    bad = []
+    for r in ROOTS:
+        if len(r) != 10:
+            bad.append(f"R {r[1]}: {len(r)} 列")
+    for w in WORDS:
+        if len(w) != 15:
+            bad.append(f"W {w[1]}: {len(w)} 列")
+            continue
+        word, rid, logic, image, zh, ex = w[1], w[4], w[5], w[8], w[9], w[10]
+        if not 15 <= len(image) <= 35:
+            bad.append(f"{word}: image {len(image)} 字（要 15-35）")
+        for z in [x for x in zh.split("/") if x.strip()]:
+            if len(z) >= 2 and z in image:
+                bad.append(f"{word}: image 含义项「{z}」")
+        exs = [x.strip() for x in ex.split("|") if x.strip()]
+        if len(exs) != 2:
+            bad.append(f"{word}: 例句 {len(exs)} 条")
+        for e in exs:
+            n = len(e.rstrip(".").split())
+            if not 5 <= n <= 12:
+                bad.append(f"{word}: 例句 {n} 词「{e}」")
+            if not e.endswith("."):
+                bad.append(f"{word}: 例句缺句号「{e}」")
+        if rid and not logic:
+            bad.append(f"{word}: 有根无 root_logic")
+        if not rid and logic:
+            bad.append(f"{word}: 无根却有 root_logic")
+        if rid:
+            n = sum(logic.count(z) for z in zh.split("/") if len(z.strip()) >= 2)
+            if n >= 3 and not w[13]:
+                bad.append(f"{word}: root_logic 含 {n} 处义项，hint 必填")
+        for c in w:
+            if "\t" in c or "\n" in c:
+                bad.append(f"{word}: 字段内含制表符或换行")
+    return bad
+
+
+def main():
+    bad = check()
+    if bad:
+        print("[本地断言 FAIL]")
+        for b in bad:
+            print("   ", b)
+        return 1
+    rows = ["\t".join(r) for r in ROOTS] + ["\t".join(w) for w in WORDS]
+    for i, r in enumerate(rows):
+        n = len(r.split("\t"))
+        want = 10 if r.startswith("R\t") else 15
+        assert n == want, f"第 {i+1} 行 {n} 列，应 {want}"
+    OUT.write_text("\n".join(rows) + "\n", encoding="utf-8", newline="\n")
+    print(f"[本地断言 OK] 写入 {OUT.name}："
+          f"{len(ROOTS)} 个 R 行 + {len(WORDS)} 个 W 行"
+          f"（挂根 {sum(1 for w in WORDS if w[4])} / 孤立 {sum(1 for w in WORDS if not w[4])}）")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

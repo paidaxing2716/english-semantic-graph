@@ -924,7 +924,8 @@
         "royalty",
         "direction",
         "erect",
-        "address"
+        "address",
+        "escort"
       ]
     },
     {
@@ -1093,7 +1094,9 @@
         "benign",
         "gene",
         "hydrogen",
-        "gender"
+        "gender",
+        "engineer",
+        "engineering"
       ]
     },
     {
@@ -2222,7 +2225,9 @@
         "reference",
         "conference",
         "circumference",
-        "differentiate"
+        "differentiate",
+        "fertile",
+        "fertilizer"
       ],
       "noisy_variants": [
         "lat"
@@ -3031,7 +3036,8 @@
         "gesture",
         "suggest",
         "register",
-        "suggestion"
+        "suggestion",
+        "exaggerate"
       ]
     },
     {
@@ -4537,7 +4543,8 @@
         "cite",
         "excite",
         "recite",
-        "excitement"
+        "excitement",
+        "exciting"
       ]
     },
     {
@@ -4796,7 +4803,9 @@
       "word_ids": [
         "emphasis",
         "fancy",
-        "fantasy"
+        "fantasy",
+        "fantastic",
+        "emphasize"
       ]
     },
     {
@@ -5931,7 +5940,8 @@
         "descendant",
         "descent",
         "scale",
-        "transcend"
+        "transcend",
+        "escalate"
       ]
     },
     {
@@ -6405,6 +6415,53 @@
         "caution",
         "cautious",
         "precaution"
+      ]
+    },
+    {
+      "id": "luere-lavare",
+      "root": "luere / lavare",
+      "variants": [
+        "lut",
+        "lav",
+        "laund"
+      ],
+      "origin": "拉丁语 luere（冲、洗去）与 lavare（洗），同出原始印欧语 *lewh₃-（洗）；英语里 -lut- 与 lav- 两个词干都看得见。与库中 solvere（解开）不同源，勿混",
+      "core_concept": "water carrying something away / 拿水把东西冲走",
+      "core_image": "一瓢水浇下去，脏东西跟着水往下走，剩下的颜色淡了一层",
+      "english_definition": "to wash, to rinse away",
+      "word_ids": [
+        "dilute",
+        "laundry",
+        "lavatory"
+      ]
+    },
+    {
+      "id": "aestimare",
+      "root": "aestimare",
+      "variants": [
+        "estimat",
+        "esteem"
+      ],
+      "origin": "拉丁语 aestimare（估价、定出值多少）；经古法语 estimer 一路出 estimate（把量算出来），另一路出 esteem（把人的分量看高），二者是同源双式；古法语 aesmer 又出 aim",
+      "core_concept": "to set a value on a thing / 给一样东西定出分量",
+      "core_image": "东西拿在手里颠一颠，心里给它标上一个数",
+      "english_definition": "to value, appraise, reckon the worth of",
+      "word_ids": [
+        "esteem",
+        "estimate"
+      ]
+    },
+    {
+      "id": "emere",
+      "root": "emere",
+      "variants": [],
+      "origin": "拉丁语 emere（取、拿，后转指买），过去分词 emptus；eximere（ex-＋emere 取出去）派出 exempt 与 exemplum（取出来作样子的那一个），后者经古法语出 example 与 sample。库中 sumere（sub-＋emere）按拉丁动词各自立根，与本根另有分立",
+      "core_concept": "to take a thing out of the lot / 从一堆里把一样取出来",
+      "core_image": "手伸进一堆东西里，捏住一样抽出来，剩下的还在原处",
+      "english_definition": "to take, take out, buy",
+      "word_ids": [
+        "example",
+        "exempt"
       ]
     }
   ]

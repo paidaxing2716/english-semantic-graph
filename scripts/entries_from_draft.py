@@ -98,8 +98,19 @@ NOTE_BORROWED = {
     "日语": "借自日语，本项目未为其词族建根，按整体记",
 }
 NOTE_EARLY_LOAN = "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+# 第四档：源头是日耳曼语支、但经罗曼语（多为法语）回流进英语的词。
+# 既不是「日耳曼核心词」（那句暗示古英语直接继承），也不是「法语借词」（源头不在
+# 罗曼语）。engage / engagement / border / garden 这类都属此列。
+NOTE_GERMANIC_VIA_ROMANCE = "源头在日耳曼语支，经法语回流入英语，本项目未为其词族建根"
 GERMANIC_MARK = ("古英语", "原始日耳曼", "中古英语", "古诺斯", "古诺尔斯",
                  "古高地德", "古撒克逊", "原始西日耳曼")
+# 日耳曼语支但不经古英语直接继承的来源
+GERMANIC_OTHER = ("法兰克语", "古法兰克", "哥特语", "古弗里斯兰", "古荷兰",
+                  "中古荷兰", "原始北日耳曼")
+# 否定措辞：origin 里写「非拉丁」「不是希腊语」时，那个语言名是被排除的对象，
+# 不能当来源。此前没防这一条，「日耳曼源，非拉丁」被判成「拉丁借词」——
+# 与原文意思正相反（由 chunk103 的子代理指出）。
+NEGATE = ("非", "不是", "而非", "无关", "不属", "并非")
 
 
 def classify_note(origin):
@@ -113,6 +124,9 @@ def classify_note(origin):
     判据是 `←` 后面紧跟外语名：日耳曼词形是传入路径，箭头指向的才是终极来源。
     """
     o = origin or ""
+    # 日耳曼语支但经罗曼语回流的，单独一档（法兰克语那类）
+    if any(k in o for k in GERMANIC_OTHER)             and not any(k in o for k in GERMANIC_MARK):
+        return NOTE_GERMANIC_VIA_ROMANCE
     if any(k in o for k in GERMANIC_MARK):
         for k in NOTE_BORROWED:
             if re.search(r"←[^←]{0,14}" + k, o):
@@ -127,8 +141,16 @@ def classify_note(origin):
     def earliest(seg):
         """取该段里位置最靠前的语言名——紧跟箭头的那个才是来源。
         尾段常在末尾又提一次别的语言（assassinate 那条写「英语按拉丁式加 -ate」），
-        按字典键序取会让「拉丁」压过「阿拉伯」，所以必须按出现位置取。"""
-        h = [(seg.index(k), k) for k in NOTE_BORROWED if k in seg]
+        按字典键序取会让「拉丁」压过「阿拉伯」，所以必须按出现位置取。
+        被否定措辞紧挨着的语言名跳过（「非拉丁」里的拉丁不是来源）。"""
+        h = []
+        for k in NOTE_BORROWED:
+            i = seg.find(k)
+            if i < 0:
+                continue
+            if any(x in seg[max(0, i - 4):i] for x in NEGATE):
+                continue
+            h.append((i, k))
         return NOTE_BORROWED[min(h)[1]] if h else None
     if "←" in o:
         note = earliest(o.rsplit("←", 1)[-1])

@@ -53466,6 +53466,440 @@
       "text": "The train leaves at eight in the morning.",
       "source": "AI 生成 · 人工审核",
       "scene": "两只手摊开，把两根拇指往里扣住，剩下立着的指头就是这个数"
+    },
+    {
+      "id": "ex-empire-1",
+      "word_id": "empire",
+      "text": "The empire stretched from the sea to the mountains.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张地图上十几块颜色不同的地界，箭头全指向中间那一座城"
+    },
+    {
+      "id": "ex-empire-2",
+      "word_id": "empire",
+      "text": "She built a publishing empire from one shop.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张地图上十几块颜色不同的地界，箭头全指向中间那一座城"
+    },
+    {
+      "id": "ex-engineer-1",
+      "word_id": "engineer",
+      "text": "The engineer checked every bolt on the bridge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上几根线，最后变成一根压得住卡车的钢梁架在河上"
+    },
+    {
+      "id": "ex-engineer-2",
+      "word_id": "engineer",
+      "text": "They engineered the whole deal in one week.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "图纸上几根线，最后变成一根压得住卡车的钢梁架在河上"
+    },
+    {
+      "id": "ex-exaggerate-1",
+      "word_id": "exaggerate",
+      "text": "He tends to exaggerate the size of his catch.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一筐土倒上去还嫌矮，又添两筐，堆头比原来那个坑挖出的土多出一半"
+    },
+    {
+      "id": "ex-exaggerate-2",
+      "word_id": "exaggerate",
+      "text": "Do not exaggerate the danger of the trip.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一筐土倒上去还嫌矮，又添两筐，堆头比原来那个坑挖出的土多出一半"
+    },
+    {
+      "id": "ex-federation-1",
+      "word_id": "federation",
+      "text": "The federation includes twelve independent states.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几家各自盖了章，章盖在同一张纸上，往后对外只认这一张"
+    },
+    {
+      "id": "ex-federation-2",
+      "word_id": "federation",
+      "text": "A new federation of unions was formed.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几家各自盖了章，章盖在同一张纸上，往后对外只认这一张"
+    },
+    {
+      "id": "ex-fertile-1",
+      "word_id": "fertile",
+      "text": "The valley has deep fertile soil.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "土捏在手里松散发黑，种子撒下去第五天就顶出一排绿芽"
+    },
+    {
+      "id": "ex-fertile-2",
+      "word_id": "fertile",
+      "text": "She went through a fertile period of writing.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "土捏在手里松散发黑，种子撒下去第五天就顶出一排绿芽"
+    },
+    {
+      "id": "ex-energetic-1",
+      "word_id": "energetic",
+      "text": "The energetic child never sat still.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "早上六点跑完一圈回来，进门还能一口气把桌子搬到墙边"
+    },
+    {
+      "id": "ex-energetic-2",
+      "word_id": "energetic",
+      "text": "She gave an energetic speech to the crowd.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "早上六点跑完一圈回来，进门还能一口气把桌子搬到墙边"
+    },
+    {
+      "id": "ex-engagement-1",
+      "word_id": "engagement",
+      "text": "They announced their engagement last spring.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "戒指套上手指，日子写进本子，两边都知道这话收不回来了"
+    },
+    {
+      "id": "ex-engagement-2",
+      "word_id": "engagement",
+      "text": "He had an engagement at three that day.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "戒指套上手指，日子写进本子，两边都知道这话收不回来了"
+    },
+    {
+      "id": "ex-enthusiasm-1",
+      "word_id": "enthusiasm",
+      "text": "She spoke about the plan with great enthusiasm.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一说起这件事眼睛就亮，手上比划起来，椅子都坐不住"
+    },
+    {
+      "id": "ex-enthusiasm-2",
+      "word_id": "enthusiasm",
+      "text": "His enthusiasm for cooking never faded.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一说起这件事眼睛就亮，手上比划起来，椅子都坐不住"
+    },
+    {
+      "id": "ex-environment-1",
+      "word_id": "environment",
+      "text": "Children need a safe environment to grow in.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在原地转一圈，看见的树、墙、路面和空气里的味道全算在里头"
+    },
+    {
+      "id": "ex-environment-2",
+      "word_id": "environment",
+      "text": "We must protect the environment from waste.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "站在原地转一圈，看见的树、墙、路面和空气里的味道全算在里头"
+    },
+    {
+      "id": "ex-erroneous-1",
+      "word_id": "erroneous",
+      "text": "The report was based on erroneous data.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照着记下的门牌号找过去，站在门口才发现整条街都走岔了"
+    },
+    {
+      "id": "ex-erroneous-2",
+      "word_id": "erroneous",
+      "text": "He drew an erroneous conclusion from one case.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "照着记下的门牌号找过去，站在门口才发现整条街都走岔了"
+    },
+    {
+      "id": "ex-escort-1",
+      "word_id": "escort",
+      "text": "Two police cars escorted the truck to the border.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两辆车一前一后夹着中间那辆，路口先停下来看一眼才让它过"
+    },
+    {
+      "id": "ex-escort-2",
+      "word_id": "escort",
+      "text": "She arrived under a heavy escort.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两辆车一前一后夹着中间那辆，路口先停下来看一眼才让它过"
+    },
+    {
+      "id": "ex-estimate-1",
+      "word_id": "estimate",
+      "text": "He estimated the crowd at two thousand people.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手按在木箱上往上提半寸就放下，嘴里报出一个数，没上秤"
+    },
+    {
+      "id": "ex-estimate-2",
+      "word_id": "estimate",
+      "text": "The builder gave us an estimate on Friday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手按在木箱上往上提半寸就放下，嘴里报出一个数，没上秤"
+    },
+    {
+      "id": "ex-evaporate-1",
+      "word_id": "evaporate",
+      "text": "The puddle evaporated within an hour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一滴水落在烧热的铁板上，边缘往里缩，几秒后那块印子也没了"
+    },
+    {
+      "id": "ex-evaporate-2",
+      "word_id": "evaporate",
+      "text": "His confidence evaporated before the interview.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一滴水落在烧热的铁板上，边缘往里缩，几秒后那块印子也没了"
+    },
+    {
+      "id": "ex-example-1",
+      "word_id": "example",
+      "text": "She gave three examples to make her point.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一筐橘子里拿出一个剥开，说整筐都是这个甜度"
+    },
+    {
+      "id": "ex-example-2",
+      "word_id": "example",
+      "text": "He set a good example for the team.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "从一筐橘子里拿出一个剥开，说整筐都是这个甜度"
+    },
+    {
+      "id": "ex-excerpt-1",
+      "word_id": "excerpt",
+      "text": "The paper printed an excerpt from her diary.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整本书里划出半页抄到另一张纸上，前后都断着"
+    },
+    {
+      "id": "ex-excerpt-2",
+      "word_id": "excerpt",
+      "text": "He excerpted two pages for the class.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "整本书里划出半页抄到另一张纸上，前后都断着"
+    },
+    {
+      "id": "ex-exempt-1",
+      "word_id": "exempt",
+      "text": "Small farms are exempt from the new tax.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上一排人都得交，他那一行被划出来，笔尖跳过去接着往下走"
+    },
+    {
+      "id": "ex-exempt-2",
+      "word_id": "exempt",
+      "text": "The rule exempts children under six.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "名单上一排人都得交，他那一行被划出来，笔尖跳过去接着往下走"
+    },
+    {
+      "id": "ex-expand-1",
+      "word_id": "expand",
+      "text": "Metal expands when it is heated.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "折成八折的地图两手往两边一拉，桌面被它占满，边角垂到地上"
+    },
+    {
+      "id": "ex-expand-2",
+      "word_id": "expand",
+      "text": "The company plans to expand into Asia.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "折成八折的地图两手往两边一拉，桌面被它占满，边角垂到地上"
+    },
+    {
+      "id": "ex-extravagant-1",
+      "word_id": "extravagant",
+      "text": "He was extravagant with money after the win.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "八个人点了十六道菜，最后剩下大半原样端走，还添了两瓶没开的酒"
+    },
+    {
+      "id": "ex-extravagant-2",
+      "word_id": "extravagant",
+      "text": "They held an extravagant wedding by the lake.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "八个人点了十六道菜，最后剩下大半原样端走，还添了两瓶没开的酒"
+    },
+    {
+      "id": "ex-faint-1",
+      "word_id": "faint",
+      "text": "There was a faint smell of smoke.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "远处一声铃，得屏住呼吸才听得出；那人脸色发白，膝一软往下滑"
+    },
+    {
+      "id": "ex-faint-2",
+      "word_id": "faint",
+      "text": "She fainted in the crowded hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "远处一声铃，得屏住呼吸才听得出；那人脸色发白，膝一软往下滑"
+    },
+    {
+      "id": "ex-fantastic-1",
+      "word_id": "fantastic",
+      "text": "The food at that place was fantastic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闭上眼就看见会飞的鱼和倒着长的树，睁眼一看窗外什么都没有"
+    },
+    {
+      "id": "ex-fantastic-2",
+      "word_id": "fantastic",
+      "text": "He told a fantastic story about a talking dog.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "闭上眼就看见会飞的鱼和倒着长的树，睁眼一看窗外什么都没有"
+    },
+    {
+      "id": "ex-festival-1",
+      "word_id": "festival",
+      "text": "The village holds a music festival each June.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街口挂起一长串彩旗，店铺都关了门，人比平日多出三倍"
+    },
+    {
+      "id": "ex-festival-2",
+      "word_id": "festival",
+      "text": "Shops close during the spring festival.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "街口挂起一长串彩旗，店铺都关了门，人比平日多出三倍"
+    },
+    {
+      "id": "ex-emphasize-1",
+      "word_id": "emphasize",
+      "text": "She emphasized the need for more time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "念到那句话时放慢下来，手指在纸上那一行底下重划一道"
+    },
+    {
+      "id": "ex-emphasize-2",
+      "word_id": "emphasize",
+      "text": "He emphasized every word of the warning.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "念到那句话时放慢下来，手指在纸上那一行底下重划一道"
+    },
+    {
+      "id": "ex-engineering-1",
+      "word_id": "engineering",
+      "text": "He studied engineering at a small college.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张剖面图旁边压着计算纸，纸上每根梁承多少重都写着数"
+    },
+    {
+      "id": "ex-engineering-2",
+      "word_id": "engineering",
+      "text": "The tunnel was a feat of engineering.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张剖面图旁边压着计算纸，纸上每根梁承多少重都写着数"
+    },
+    {
+      "id": "ex-escalate-1",
+      "word_id": "escalate",
+      "text": "The quarrel escalated into a street fight.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "先是拍桌子，接着摔杯子，第三天两家门口各站了七八个人"
+    },
+    {
+      "id": "ex-escalate-2",
+      "word_id": "escalate",
+      "text": "Costs escalated after the delay.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "先是拍桌子，接着摔杯子，第三天两家门口各站了七八个人"
+    },
+    {
+      "id": "ex-esteem-1",
+      "word_id": "esteem",
+      "text": "She is held in high esteem by her students.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一进屋，屋里几个人都站起来，把靠里的位子腾给他"
+    },
+    {
+      "id": "ex-esteem-2",
+      "word_id": "esteem",
+      "text": "We esteem him for his honesty.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "他一进屋，屋里几个人都站起来，把靠里的位子腾给他"
+    },
+    {
+      "id": "ex-everybody-1",
+      "word_id": "everybody",
+      "text": "Everybody in the room stood up at once.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点名单点到最后一行，每个名字后面都画了勾，没有空着的"
+    },
+    {
+      "id": "ex-everybody-2",
+      "word_id": "everybody",
+      "text": "Everybody knows the shop closes at six.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点名单点到最后一行，每个名字后面都画了勾，没有空着的"
+    },
+    {
+      "id": "ex-everywhere-1",
+      "word_id": "everywhere",
+      "text": "There was dust everywhere in the old house.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一张海报贴在车站的柱子上、闸机旁、电梯里，抬头就撞见一张"
+    },
+    {
+      "id": "ex-everywhere-2",
+      "word_id": "everywhere",
+      "text": "She looked everywhere for her keys.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一张海报贴在车站的柱子上、闸机旁、电梯里，抬头就撞见一张"
+    },
+    {
+      "id": "ex-exciting-1",
+      "word_id": "exciting",
+      "text": "The last ten minutes were really exciting.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "比分追平那一刻，看台上前排的人全站起来，手里的杯子都忘了"
+    },
+    {
+      "id": "ex-exciting-2",
+      "word_id": "exciting",
+      "text": "They planned an exciting trip to the coast.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "比分追平那一刻，看台上前排的人全站起来，手里的杯子都忘了"
+    },
+    {
+      "id": "ex-farther-1",
+      "word_id": "farther",
+      "text": "We walked farther than we had planned.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路上，从这块路牌走到下一块，回头看车已经缩成一个点"
+    },
+    {
+      "id": "ex-farther-2",
+      "word_id": "farther",
+      "text": "The farther bank was hidden by fog.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一条路上，从这块路牌走到下一块，回头看车已经缩成一个点"
+    },
+    {
+      "id": "ex-fertilizer-1",
+      "word_id": "fertilizer",
+      "text": "The farmer spread fertilizer over the field.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一把灰白颗粒顺着犁沟撒下去，两周后那一行苗比旁边高出半个手掌"
+    },
+    {
+      "id": "ex-fertilizer-2",
+      "word_id": "fertilizer",
+      "text": "Too much fertilizer can harm the soil.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一把灰白颗粒顺着犁沟撒下去，两周后那一行苗比旁边高出半个手掌"
+    },
+    {
+      "id": "ex-fill-1",
+      "word_id": "fill",
+      "text": "She filled the glass with cold water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从龙头下来，桶里的水面一点点往上走，最后齐到桶口那道边"
+    },
+    {
+      "id": "ex-fill-2",
+      "word_id": "fill",
+      "text": "Smoke filled the whole kitchen in seconds.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "水从龙头下来，桶里的水面一点点往上走，最后齐到桶口那道边"
     }
   ]
 }

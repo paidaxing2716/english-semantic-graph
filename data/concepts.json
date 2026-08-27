@@ -829,7 +829,8 @@
         "royalty",
         "direction",
         "erect",
-        "address"
+        "address",
+        "escort"
       ]
     },
     {
@@ -977,7 +978,9 @@
         "benign",
         "gene",
         "hydrogen",
-        "gender"
+        "gender",
+        "engineer",
+        "engineering"
       ]
     },
     {
@@ -1937,7 +1940,9 @@
         "reference",
         "conference",
         "circumference",
-        "differentiate"
+        "differentiate",
+        "fertile",
+        "fertilizer"
       ]
     },
     {
@@ -2624,7 +2629,8 @@
         "gesture",
         "suggest",
         "register",
-        "suggestion"
+        "suggestion",
+        "exaggerate"
       ]
     },
     {
@@ -3872,7 +3878,8 @@
         "cite",
         "excite",
         "recite",
-        "excitement"
+        "excitement",
+        "exciting"
       ]
     },
     {
@@ -4074,7 +4081,9 @@
       "word_ids": [
         "emphasis",
         "fancy",
-        "fantasy"
+        "fantasy",
+        "fantastic",
+        "emphasize"
       ]
     },
     {
@@ -4976,7 +4985,8 @@
         "descendant",
         "descent",
         "scale",
-        "transcend"
+        "transcend",
+        "escalate"
       ]
     },
     {
@@ -5361,6 +5371,46 @@
         "caution",
         "cautious",
         "precaution"
+      ]
+    },
+    {
+      "id": "concept-luere-wash",
+      "concept": "water carrying something away",
+      "chinese": "拿水冲走",
+      "core_image": "一瓢水浇下去，脏东西跟着水往下走",
+      "root_ids": [
+        "luere-lavare"
+      ],
+      "word_ids": [
+        "dilute",
+        "laundry",
+        "lavatory"
+      ]
+    },
+    {
+      "id": "concept-aestimare-worth",
+      "concept": "to set a value on a thing",
+      "chinese": "定出分量",
+      "core_image": "东西拿在手里颠一颠，心里给它标上一个数",
+      "root_ids": [
+        "aestimare"
+      ],
+      "word_ids": [
+        "esteem",
+        "estimate"
+      ]
+    },
+    {
+      "id": "concept-emere-take",
+      "concept": "to take a thing out of the lot",
+      "chinese": "取出一样",
+      "core_image": "手伸进一堆东西里，捏住一样抽出来，剩下的还在原处",
+      "root_ids": [
+        "emere"
+      ],
+      "word_ids": [
+        "example",
+        "exempt"
       ]
     }
   ]
