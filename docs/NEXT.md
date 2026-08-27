@@ -1,62 +1,117 @@
 # 下一轮做什么
 
-> 写于 2026-08-26，接第六十八～七十批之后（分支 `fix/etymology-gates-and-engra-gaps`，PR #1）。
+> 现状更新于 2026-08-27，第九十九批（chunk109）之后。
+> 分支 `fix/etymology-gates-and-engra-gaps`，PR #1 仍未合。
 > 先读 [HANDOFF.md](HANDOFF.md) 的「先读这一条」，再读本文件末尾「这轮踩实的坑」。
 
 ## 现状（现场数的，不是抄的）
 
 ```
-3403 词 / 271 根 / 273 概念        带 collocations 的词条 85 个
-待办池：germanic_remaining 881 词未入库、latin_remaining 677 词未入库
-已用 chunk 编号：1-36、51-56、61-64、71-75    已合并批次：…65-70
+4023 词 / 308 根                考研表覆盖 3995/5299 = 75.4%
+带 collocations 的词条 232 个    真实待办 1304 词（剔掉不可结构化的 76 个后）
+已用 chunk 编号：1-36、41-56、61-64、71-78、100-111
 ```
 
-**词数一律现场重数**，别引用上面这几个：
+**词数一律现场重数**，别引用上面这几个——这份文件上一版的数字滞后了 600 词，
+照着它做会重复劳动：
 
 ```bash
 python -c "import json;print(len(json.load(open('data/words.json',encoding='utf-8'))['words']))"
 ```
 
-## 第一步：近反义词全库富化
+## 第一步：继续切批补词（当前主线）
 
-现在词根批与日耳曼批都把 synonyms/antonyms 留空（`[]`），全库 3403 词里绝大多数
-是空的。这件事**不要按批零敲**——要补该做一次统一的全库扫描，否则同一组近义词
-分散在不同批次里，写出来的 `synonym_note` 彼此矛盾。
+**切批不要再手写档位清单**，走 `scripts/cut_next_chunks.py`：
 
-注意 Q8 白名单机制：`validate.py` 有一份 1819 词的已核验白名单，新加的近反义词
-若不在白名单里会被挡。先读 `scripts/check_lexicon_gap.py` 弄清登记流程。
+```bash
+python scripts/cut_next_chunks.py --start 112 --n 2 --size 30
+```
 
-## 第二步：日耳曼池 881 词
+它做了四件手写时会漏的事：剔已入库/已派/不可结构化词、族整体不跨片、按
+engra × Wiktionary 双源打档位并摊平到各片、**校验 A 档猜的根真的存在于
+roots.json**（最后这条是补的缺陷，见坑八）。派发指令模板见下面「派发指令
+必须带的话」。
 
-切 6 片 × 60，chunk 编号从 **37** 起（1-36 已用，51-56/61-64/71-75 也已用）。
-拉丁池 677 词同理，两者都要**现场重数**。
+待办 1304 词按 30 词/片、2 片/批算约 **22 批**。池子是字母序，现在推到 `l`–`m`。
+剩余量最大的是 s（443）、t（203）、w（136）、p（131）。
 
-派发流程见 HANDOFF.md「派发流程」一节，规格只看 `docs/draft-spec.md`。
+**并发上限 2 路**（6 路会把中转站打爆，见坑七）。
 
-## 第三步：把 collocations 铺开
+## 第二步：近反义词全库富化（用户明确要求放最后）
 
-第 15 列是这轮新加的（规格见 draft-spec.md「第 15 列 collocations」）。已回填 85 个
-虚词/介词/连接副词。**剩下两类还没有：**
+词根批与日耳曼批都把 synonyms/antonyms 留空（`[]`），全库绝大多数是空的。
+**不要按批零敲**——该做一次统一的全库扫描，否则同一组近义词分散在不同批次里，
+写出来的 `synonym_note` 彼此矛盾。
 
-1. 库里还有约 74 个副词/连词/介词类词条没搭配（137 个候选里筛出 63 个已做完，
-   剩下的评分较低但仍有价值）。用这段筛：
-   ```bash
-   python -c "
-   import json;W=json.load(open('data/words.json',encoding='utf-8'))['words']
-   print([w['id'] for w in W if not w.get('collocations') and any(p in (w.get('pos') or '').lower() for p in ('adverb','conjunction','preposition','pronoun'))][:40])"
-   ```
-2. **高频动词的搭配比虚词更该做**——短语动词量极大，而这 16 个在库的高频动词
-   现在**一条搭配都没有**（实测全为 0）：
-   ```
-   get make put come go give hold bring run look keep break carry call cut fall
-   ```
-   顺带一个缺口：**`take` / `set` / `turn` / `stand` 四个根本不在库**，而它们都在
-   5299 考研词表里。四个都是短语动词的核心词（take on/over/up、set up/off/aside、
-   turn out/down/into、stand for/out/by），缺它们比缺搭配更严重。先补词条再谈搭配。
+注意 Q8 白名单机制：`validate.py` 有一份已核验白名单，新加的近反义词若不在
+白名单里会被挡。先读 `scripts/check_lexicon_gap.py` 弄清登记流程。
+
+## 第三步：collocations 剩下的尾巴
+
+**上一版列的两类都已做完，别再照着做：**
+
+- ~~16 个高频动词一条搭配都没有~~ → 已全部补齐（现场核过，缺口为 0）。
+- ~~`take`/`set`/`turn`/`stand` 不在库~~ → 四个都已入库且都有搭配。
+
+**真正剩下的**（现场重数）：
+
+1. **5 个连接副词缺搭配**：`nevertheless` `henceforth` `consequently`
+   `accordingly` `meanwhile`。这批的价值在**句法位置**（句首还是句中、跟不跟
+   逗号、能不能接从句），不是动词短语那种型式。
+2. **5 个连接副词根本不在库**，而它们都在考研词表里：`thereby` `whereby`
+   `nonetheless` `albeit` `notwithstanding`。这五个的用法坑比缺搭配更值得做：
+   - `thereby` 接 **-ing** 不接从句
+   - `whereby` ＝ by which，**前面必须有名词**
+   - `albeit` **不接完整句**（albeit brief ✓ / albeit it was brief ✗）
+   - `notwithstanding` 是介词，**可前置也可后置**，后置是它独有的
+   先补词条再谈搭配。
+3. 另有 77 个副词/代词类词条无搭配，但多数是反身代词与纯方位副词
+   （`herself`/`everywhere`/`downstairs`），**没有值得教的型式**，不必强凑。
+   筛的时候按「这个词有没有站得住的型式」判，别按词性一刀切。
 
 回填走 `scripts/backfill_collocations.py`（两列 TSV），**不要走
-`entries_from_draft.py`**——那条管道是给新词条用的，遇到已入库的词会拒绝，且会
-重写其余 14 列。
+`entries_from_draft.py`**——那条管道是给新词条用的，遇到已入库的词会拒绝，
+且会重写其余 14 列。
+
+## 派发指令必须带的话
+
+每批派发前我都在重建这份清单，直接抄。缺任何一条都在实测里出过错：
+
+**档位怎么用**——三档的解释，加上「档位是线索不是结论，假阳性 50% 假阴性 30%，
+两个方向都核」，以及「B 档空白 ≠ 库里没有，自己查 roots.json」。
+
+**本批特有的陷阱对**：切完片自己扫一遍 A 档，把明显假的先点出来写进指令。
+实测每片 A 档有三到五成是假的（`log → logos`、`material → ter-comparative`、
+`medical → medius` 这类），点名比让代理从零核省时间，也避免它照抄档位。
+
+**判据优先级**：① 拿库内既有口径判比拿词源直觉判准（举 `danger`→`domus`）
+② 规格第四条，词源链存在 ≠ 能传下可学联系（举 `grammar` 挂 / `gramme` 不挂）
+③ 3 员下限，**成员要连库里已有的一起数** ④ 新根 id 两个方向都不能与单词撞名。
+
+**拉丁近形异源对**（双源一致仍错 7.3%，全是这一类）：
+```
+manus/manere   planus/plangere   ferre/ferire   cadere/caedere
+tendere/tener  liber/libra       servare/servire  humor(umor)/humus
+carus/carrus   tenere/tangere    concilium/consulere   luere-lavare/solvere
+fundus/fundere fames/fama        theos/theorein   secare/sequi
+cors/chorda    portus/portio     minium/minus     mederi/medius
+```
+
+**七条操作规则**：① 不用 Write 写 TSV（尾列制表符留不住），写
+`scripts/build_g_chunkNN.py` 用 list join ② W 行 15 列，**第 9 列是 image、
+第 12 列是 concept**，第 15 列非空须含 `——` ③ 落盘跑
+`awk -F'\t' '$1=="W" && NF!=15'` ④ **origin 里绝不写别的词根的拉丁原形**
+⑤ 加 variants 前反查会不会吸走别族的词，会就进 `noisy_variants`
+⑥ image 不泄露义项中文 ⑦ 孤立型字段名是 `decomposable` 不是 `type`，
+`root_logic` 是必填空串，`decomposable_note` 要分档不能一律套「日耳曼核心词」。
+
+**两片可能撞车时要说明**：同一族的词分到两片（chunk110 的 `master` 与
+chunk111 的 `magistrate` 都是 magister）要写明「只写你片里的，若判断该建根就
+回报由我统一建」，否则两片各建一次就是重复根。
+
+**回报格式**：400 字以内，只报统计 + A 档核不成立的 + B/C 档自己查出能挂根的
+（最有价值）+ 门二逐条判定 + 够 3 员但本片建不了的新根候选 + 库内既有问题
+（只报不改）。别贴 TSV 内容。
 
 ## 关于「覆盖率」这个数怎么算
 
@@ -161,6 +216,25 @@ accommodate）。现在 15 列是合法的 collocations 格式，那个特征没
 6 路并行会把中转站打爆（HTTP 200 空响应），5 个代理同批阵亡。**最多 2 路。**
 另外有一次代理写完文件但回报没送达——文件落盘近两小时后才发现。若文件已停止
 写入且内容完整，可直接验文件，不必等回报。
+
+**同一签名还会打到主对话自己**：本会话有一段时间我的工具调用全部返回空
+（Bash / Read / Grep / Glob 都是，绕过 sandbox 也一样），与派子代理同时发生，
+两个代理的 transcript 是 0 字节。**症状是空结果不是报错**——工具不存在会报
+「未知工具」，被 deny/hook 拦会回一段拦截说明，空返回是上游的事。
+遇到这种：**别反复重试**，也**绝不能把「代理可能会返回什么」当成已收到的回报
+写出来**（我犯过，把没收到的结论写进了回复）。等回报或验文件时间戳。
+
+### 8. 自己新写的门也会有静默失效
+
+`cut_next_chunks.py` 刚写好那一版，A 档的「疑 → X」直接用了 Wiktionary 词元
+映射的结果，**没校验 X 是不是 roots.json 里真实存在的根**。于是 chunk107 整片
+10 个 A 档词指向的全是库里没有的根（imitari / migrare / stallum / vitare…），
+代理花整轮去核 10 个不存在的归属。`rids` 当时已经加载好、就是没用上。
+
+这与本文件上面那六处缺陷是同一类。**新加的判据自己也要过一遍阳性对照**：
+拿已知答案的输入喂进去，看它报不报、报得对不对。改门二那次做了两组对照
+（剥掉 root_ids 的真信号必须仍报出、已挂对根的补词行不该报），才敢说
+「伪报 22 → 2」而不是「把门弄哑了」。
 
 ## 附：这轮的数据来源
 
