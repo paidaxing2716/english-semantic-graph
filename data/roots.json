@@ -390,7 +390,9 @@
         "statute",
         "superstition",
         "distant",
-        "arrest"
+        "arrest",
+        "destiny",
+        "destination"
       ]
     },
     {
@@ -509,7 +511,8 @@
         "difficulty",
         "artificial",
         "amplify",
-        "benefit"
+        "benefit",
+        "deficit"
       ]
     },
     {
@@ -950,7 +953,8 @@
         "promote",
         "remote",
         "remove",
-        "move"
+        "move",
+        "emotion"
       ]
     },
     {
@@ -1246,7 +1250,8 @@
         "curriculum",
         "occurrence",
         "course",
-        "discourse"
+        "discourse",
+        "corridor"
       ]
     },
     {
@@ -1405,7 +1410,8 @@
         "complete",
         "plentiful",
         "plenty",
-        "supply"
+        "supply",
+        "compliment"
       ]
     },
     {
@@ -1866,7 +1872,9 @@
         "predominant",
         "madame",
         "dome",
-        "domain"
+        "domain",
+        "danger",
+        "dangerous"
       ]
     },
     {
@@ -2160,7 +2168,9 @@
         "select",
         "college",
         "legend",
-        "collection"
+        "collection",
+        "elegant",
+        "eligible"
       ]
     },
     {
@@ -2687,7 +2697,8 @@
         "operation",
         "operational",
         "cooperate",
-        "operator"
+        "operator",
+        "cooperative"
       ]
     },
     {
@@ -2721,7 +2732,8 @@
         "coordinate",
         "ordinary",
         "subordinate",
-        "extraordinary"
+        "extraordinary",
+        "coordinates"
       ]
     },
     {
@@ -3115,7 +3127,8 @@
         "cement",
         "decide",
         "decision",
-        "precision"
+        "precision",
+        "decisive"
       ]
     },
     {
@@ -3218,7 +3231,8 @@
       "core_image": "两个人闹僵后又坐回同一张桌前",
       "english_definition": "to reconcile, unite",
       "word_ids": [
-        "reconcile"
+        "reconcile",
+        "council"
       ]
     },
     {
@@ -3313,7 +3327,8 @@
         "previous",
         "obvious",
         "deviate",
-        "trivial"
+        "trivial",
+        "convey"
       ]
     },
     {
@@ -3639,7 +3654,8 @@
       "english_definition": "to touch, reach",
       "word_ids": [
         "attain",
-        "contact"
+        "contact",
+        "contaminate"
       ],
       "noisy_variants": [
         "tain"
@@ -3909,7 +3925,8 @@
         "dialect",
         "analogy",
         "analogue",
-        "catalog"
+        "catalog",
+        "dialog"
       ]
     },
     {
@@ -4277,7 +4294,8 @@
         "consider",
         "considerable",
         "consideration",
-        "desire"
+        "desire",
+        "desirable"
       ]
     },
     {
@@ -4815,7 +4833,8 @@
         "adjoin",
         "join",
         "joint",
-        "junction"
+        "junction",
+        "conjunction"
       ]
     },
     {
@@ -6370,6 +6389,22 @@
         "caress",
         "charity",
         "cherish"
+      ]
+    },
+    {
+      "id": "cavere",
+      "root": "cavere",
+      "variants": [
+        "caut"
+      ],
+      "origin": "拉丁语 cavere（当心、提防、留神看着），过去分词 cautus → 名词 cautio；与 cavus（中空的）及其派生 cave（洞穴）无关，是两个拉丁词，勿混",
+      "core_concept": "to beware, to watch out beforehand / 先提防着、留神看着",
+      "core_image": "脚尖先探一探前面的路面，压一压听有没有响，才把整个身子的重量交上去",
+      "english_definition": "to beware, to guard against beforehand",
+      "word_ids": [
+        "caution",
+        "cautious",
+        "precaution"
       ]
     }
   ]

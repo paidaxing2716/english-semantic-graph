@@ -12198,6 +12198,138 @@
       "to": "cherish",
       "type": "root",
       "note": "cher（← chier ← carus 亲爱）+ -ish → 当贵重东西那样对待 → 珍爱"
+    },
+    {
+      "from": "plere",
+      "to": "compliment",
+      "type": "root",
+      "note": "com-（完全）+ pli（plere 填满）+ -ment（物）→ 把礼数填够的那句话"
+    },
+    {
+      "from": "jungere",
+      "to": "conjunction",
+      "type": "root",
+      "note": "con-（一同）+ junct（jungere 套到一处）+ -ion（事）→ 把两边套在同一副轭里的那一处"
+    },
+    {
+      "from": "tangere",
+      "to": "contaminate",
+      "type": "root",
+      "note": "con-（一同）+ tam（tangere 触）+ -inate（使…）→ 挨上了就跟着变脏"
+    },
+    {
+      "from": "via",
+      "to": "convey",
+      "type": "root",
+      "note": "con-（一同）+ vey（via 路）→ 一路陪着送过去"
+    },
+    {
+      "from": "caedere",
+      "to": "decisive",
+      "type": "root",
+      "note": "de-（去掉）+ cis（caedere 切）+ -ive（有…性质的）→ 一刀切下去，再不回头"
+    },
+    {
+      "from": "sidus",
+      "to": "desirable",
+      "type": "root",
+      "note": "de-（离开）+ sir（sidus 星）+ -able（可…的）→ 值得抬头去望的那一个"
+    },
+    {
+      "from": "sta",
+      "to": "destiny",
+      "type": "root",
+      "note": "de-（彻底）+ stin（sta 立定）+ -y（名词）→ 早就立定在那里、挪不动的那一条"
+    },
+    {
+      "from": "legere",
+      "to": "elegant",
+      "type": "root",
+      "note": "e-（从中）+ leg（legere 挑选）+ -ant（…的）→ 一样样挑出来的，才这么讲究"
+    },
+    {
+      "from": "legere",
+      "to": "eligible",
+      "type": "root",
+      "note": "e-（从中）+ lig（legere 挑选）+ -ible（可…的）→ 可以被从人堆里挑出来的"
+    },
+    {
+      "from": "mov",
+      "to": "emotion",
+      "type": "root",
+      "note": "e-（向外）+ mot（mov 动）+ -ion（事）→ 心里被搅动起来的那一下"
+    },
+    {
+      "from": "ordinare",
+      "to": "coordinates",
+      "type": "root",
+      "note": "co-（一同）+ ordin（ordinare 排成序）+ -ate（使…）→ 两把尺排进同一套次序，交出一个位次"
+    },
+    {
+      "from": "conciliare",
+      "to": "council",
+      "type": "root",
+      "note": "con-（一起）+ cil（concilium 召集到一处）→ 被召到一处议事的那群人"
+    },
+    {
+      "from": "domus",
+      "to": "danger",
+      "type": "root",
+      "note": "domin（dominus 家主、主人）+ -arium（权限）→ 落进别人手里、由他处置"
+    },
+    {
+      "from": "cavere",
+      "to": "precaution",
+      "type": "root",
+      "note": "prae-（预先）+ caut（cavere 当心、留神）→ 事情还没来，先留神着做点什么"
+    },
+    {
+      "from": "curr",
+      "to": "corridor",
+      "type": "root",
+      "note": "corr（currere 跑、来回走）+ -dor（处所）→ 供人来回走动的那条长条地方"
+    },
+    {
+      "from": "domus",
+      "to": "dangerous",
+      "type": "root",
+      "note": "domin（dominus 家主、主人）+ -arium（权限）+ -ous（有…性质的）→ 会把人攥在手里的"
+    },
+    {
+      "from": "fac",
+      "to": "deficit",
+      "type": "root",
+      "note": "de-（缺、去掉）+ fic（facere 做、造）→ 该凑够的没凑够，短了一块"
+    },
+    {
+      "from": "sta",
+      "to": "destination",
+      "type": "root",
+      "note": "de-（定住）+ stin（stare 站定）+ -ation → 出发前就已经定住不动的那个落脚处"
+    },
+    {
+      "from": "operari",
+      "to": "cooperative",
+      "type": "root",
+      "note": "co-（一同）+ oper（operari 劳作、投入工作）+ -ative → 力气往同一处使"
+    },
+    {
+      "from": "logos",
+      "to": "dialog",
+      "type": "root",
+      "note": "dia-（来回、穿过）+ log（logos 话语）→ 话在两个人之间来回过"
+    },
+    {
+      "from": "cavere",
+      "to": "caution",
+      "type": "root",
+      "note": "caut（cavere 提防）+ -ion → 落脚前先看清这件事 → 小心、警告"
+    },
+    {
+      "from": "cavere",
+      "to": "cautious",
+      "type": "root",
+      "note": "caut（cavere 提防）+ -ious → 一直盯着可能出岔子的地方 → 谨慎的"
     }
   ]
 }

@@ -1,0 +1,422 @@
+#!/usr/bin/env python3
+"""生成 drafts/g_chunk101.tsv。
+
+不用 Write 工具落盘：它会吃掉行尾制表符，尾列（hint/collocations）都为空的
+W 行会从 15 列塌成 13 列，而两道门都可能放行。这里按列表 join，
+write_text(..., newline='\n')，并在写前 assert 列数。
+"""
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "drafts" / "g_chunk101.tsv"
+
+ROWS = []
+
+# ---- R 行：cavere（新建根，成员 caution / cautious 已在库中且现为无根孤立词条）----
+ROWS.append([
+    "R", "cavere", "caut",
+    "拉丁语 cavere（当心、提防、留神看着），过去分词 cautus → 名词 cautio；"
+    "与 cavus（中空的）及其派生 cave（洞穴）无关，是两个拉丁词，勿混",
+    "to beware, to watch out beforehand / 先提防着、留神看着",
+    "脚尖先探一探前面的路面，压一压听有没有响，才把整个身子的重量交上去",
+    "to beware, to guard against beforehand",
+    "beware", "先提防着", "domain-perceive",
+])
+
+# ---- A 档 ----
+ROWS.append([
+    "W", "council", "noun", "/ˈkaʊnsəl/", "conciliare",
+    "con-（一起）+ cil（concilium 召集到一处）→ 被召到一处议事的那群人",
+    "古法语 conseil / concile 在英语里混同，本词出拉丁语 concilium（集会、联盟）"
+    "← com-（一起）+ calare（召唤）；与 consulere（商议、求教）不同源，counsel 才属那一支",
+    "a group of people chosen to make decisions or give advice",
+    "长桌两边坐满人，每人面前一份文件，主位敲一下木槌，逐项过一遍",
+    "委员会/议会/理事会",
+    "The city council voted against the new road.|She sits on the student council.",
+    "a body called together to decide – 被召集到一处做决定的一群人",
+    "委员会：为某事被召集起来的一小群人|议会：地方上有决策权的那个机构|"
+    "理事会：一个组织内部定事的常设班子",
+    "", "",
+])
+ROWS.append([
+    "W", "crystal", "noun", "/ˈkrɪstl/", "", "",
+    "古法语 cristal ← 拉丁语 crystallus ← 希腊语 krystallos（冰、水晶）← kryos（霜、冰寒）；"
+    "与希腊语 krinein（判别）无关，不属 crit 一支",
+    "a clear hard mineral that forms in regular flat-sided shapes",
+    "一块透亮的石头，每个面都平，转一下角度就有一道光从里面折出来",
+    "水晶/结晶/晶体",
+    "The cave walls were lined with tiny crystals.|Salt forms crystals as the water dries.",
+    "clear stuff frozen into flat faces – 清透之物长成一个个平面",
+    "水晶：透亮的那种石头本身|结晶：溶液里慢慢长出规整颗粒的过程|"
+    "晶体：内部按规矩排列、外面带平面的那类固体",
+    "", "",
+])
+ROWS.append([
+    "W", "danger", "noun", "/ˈdeɪndʒə/", "domus",
+    "domin（dominus 家主、主人）+ -arium（权限）→ 落进别人手里、由他处置",
+    "古法语 dangier ← 通俗拉丁语 *dominiarium（主人的权力、处置权）← 拉丁语 dominus（家主）",
+    "the possibility that something bad or harmful may happen",
+    "站在窄窄的檐口上，脚下没有东西托着，身子已经不由自己，全看下一步落在哪里",
+    "危险/危害",
+    "The bridge is old and full of danger.|Smoking is a danger to your health.",
+    "being in another's hands, not your own – 落在别人手里，由不得自己",
+    "危险：处境已不受自己掌握，随时可能出事|危害：那股力量真的落到人或物身上",
+    "", "",
+])
+
+# ---- B 档 ----
+ROWS.append([
+    "W", "precaution", "noun", "/prɪˈkɔːʃn/", "cavere",
+    "prae-（预先）+ caut（cavere 当心、留神）→ 事情还没来，先留神着做点什么",
+    "拉丁语 praecautio ← praecavere：prae-（预先）+ cavere（当心、提防）",
+    "something done in advance to stop a possible problem",
+    "出门时天还晴着，包里先塞了一把伞，因为昨夜听见过风声",
+    "预防措施/防范",
+    "Take an umbrella as a precaution.|They locked the door as a precaution.",
+    "acting before the trouble arrives – 麻烦还没到就先动手",
+    "预防措施：为挡住可能的坏事而先做的那件具体的事|防范：整体上先留着的那份戒心",
+    "", "",
+])
+ROWS.append([
+    "W", "conceal", "verb", "/kənˈsiːl/", "", "",
+    "古法语 conceler ← 拉丁语 concelare：com-（彻底）+ celare（藏起）；"
+    "本项目未为 celare 一支建根",
+    "to hide something so that it cannot be seen or found out",
+    "把信塞进地板缝里，又把床单铺平压好，屋里看不出动过的痕迹",
+    "隐藏/隐瞒",
+    "He tried to conceal the letter in his coat.|She could not conceal her surprise.",
+    "putting a thing where eyes cannot reach – 放到眼睛到不了的地方",
+    "隐藏：把实物挪到看不见的地方|隐瞒：把消息或情绪扣住不让人知道",
+    "", "",
+])
+ROWS.append([
+    "W", "connection", "noun", "/kəˈnekʃn/", "", "",
+    "拉丁语 connexio ← connectere：com-（一起）+ nectere（系、缚）；"
+    "本项目未为 nectere 一支建根",
+    "a link between two things, people, or ideas",
+    "两根电线的铜头绞在一处，缠上胶布，灯一下就亮了",
+    "连接/联系/关系",
+    "There is no connection between the two cases.|The train connection was delayed.",
+    "two things tied so one reaches the other – 两头系住，这边能通到那边",
+    "连接：两个东西实际接上了|联系：人与人之间来往的那条线|"
+    "关系：两件事之间说得出的那层牵连",
+    "", "",
+])
+ROWS.append([
+    "W", "contrary", "adjective / noun", "/ˈkɒntrəri/", "", "",
+    "古法语 contraire ← 拉丁语 contrarius ← contra（对面、迎面）；"
+    "contra 是前缀性成分，本项目未为其单独建根",
+    "completely different, or the opposite of something",
+    "两个人背靠背站着，一个往东迈步，另一个同时往西",
+    "相反的/对立的",
+    "His view is contrary to mine.|On the contrary, I enjoyed it.",
+    "facing the other way – 脸朝着另一边",
+    "相反的：方向或说法正好倒过来|对立的：两者不只不同，还互相顶着",
+    "", "",
+])
+ROWS.append([
+    "W", "copper", "noun", "/ˈkɒpə/", "", "",
+    "古英语 coper ← 晚期拉丁语 cuprum ← aes cyprium（塞浦路斯的金属），该岛古时产此矿",
+    "a soft reddish-brown metal that carries heat and electricity well",
+    "一根旧水管刮掉锈，底下是红黄色的亮面，放久了又蒙上一层青绿",
+    "铜/铜币",
+    "The pipes in this house are made of copper.|He paid with a few coppers.",
+    "the red metal that came from that island – 从那座岛上来的红色金属",
+    "铜：那种红黄色的软金属|铜币：用它铸的小面额钱",
+    "", "",
+])
+ROWS.append([
+    "W", "corridor", "noun", "/ˈkɒrɪdɔː/", "curr",
+    "corr（currere 跑、来回走）+ -dor（处所）→ 供人来回走动的那条长条地方",
+    "法语 corridor ← 意大利语 corridore（可供奔走的长条地方）← correre ← 拉丁语 currere（跑）",
+    "a long narrow passage inside a building with doors along the sides",
+    "楼里一条又长又窄的过道，两侧一排门，脚步声在头顶来回响",
+    "走廊/通道",
+    "Her office is at the end of the corridor.|We waited in the corridor outside.",
+    "a long strip made for moving through – 专供人来回走的一条长地方",
+    "走廊：楼里连着各房间的那条长条空间|通道：任何供穿行的狭长路线",
+    "", "",
+])
+ROWS.append([
+    "W", "coupon", "noun", "/ˈkuːpɒn/", "", "",
+    "法语 coupon（剪下的一小片）← couper（剪、切）← 古法语 colp ← 晚期拉丁语 colpus（一击）；"
+    "本项目未为这一支建根",
+    "a small printed piece of paper that gives you a right to something",
+    "报纸角上印着一小块虚线框，沿线剪下来，到店里能抵一部分钱",
+    "优惠券/票证",
+    "She cut out the coupon from the magazine.|This coupon gives you ten percent off.",
+    "a small piece cut off the sheet – 从整张上剪下来的一小片",
+    "优惠券：剪下来能少付钱的那一小片|票证：凭它领取或兑换某物的凭据",
+    "", "",
+])
+ROWS.append([
+    "W", "courtesy", "noun", "/ˈkɜːtəsi/", "", "",
+    "古法语 curteisie ← curteis（合乎庭中体面的）← cort（庭院、宫廷）← 拉丁语 cohortem"
+    "（围起来的院子）；本项目未为这一支建根",
+    "polite behaviour that shows respect for other people",
+    "进门时替后面的人扶住门，等他走过去才松手",
+    "礼貌/礼节",
+    "He held the door open out of courtesy.|She greeted them with great courtesy.",
+    "the manner kept in another's yard – 在别人的场面上该有的样子",
+    "礼貌：待人时那份不抢先、不冒犯的态度|礼节：场面上照例要做的那些具体动作",
+    "", "",
+])
+ROWS.append([
+    "W", "dangerous", "adjective", "/ˈdeɪndʒərəs/", "domus",
+    "domin（dominus 家主、主人）+ -arium（权限）+ -ous（有…性质的）→ 会把人攥在手里的",
+    "古法语 dangereus ← dangier ← 通俗拉丁语 *dominiarium（主人的处置权）← 拉丁语 dominus（家主）",
+    "likely to cause harm or damage to someone",
+    "那段路刚下过雨，路肩上没有护栏，车轮一偏就直接下去了",
+    "危险的",
+    "It is dangerous to swim here alone.|He drove at a dangerous speed.",
+    "able to take you out of your own hands – 能把人从自己手里夺走的",
+    "", "", "",
+])
+ROWS.append([
+    "W", "deficit", "noun", "/ˈdefɪsɪt/", "fac",
+    "de-（缺、去掉）+ fic（facere 做、造）→ 该凑够的没凑够，短了一块",
+    "拉丁语 deficit（它短缺，deficere 的第三人称单数）← deficere：de-（去掉）+ facere（做、造）",
+    "the amount by which money spent is more than money received",
+    "账本最后一行是个负数，进来的钱没盖住出去的钱",
+    "赤字/亏空/逆差",
+    "The company reported a large deficit.|They cut spending to reduce the deficit.",
+    "what was not made up to the mark – 该做够的地方没做够",
+    "赤字：账上出的比进的多，那个差额|亏空：钱或物已经短了一块，补不上|"
+    "逆差：一国对外买进多于卖出的那部分差数",
+    "", "",
+])
+ROWS.append([
+    "W", "deprive", "verb", "/dɪˈpraɪv/", "", "",
+    "中世纪拉丁语 deprivare：de-（彻底）+ privare（夺走、使孤单）← privus（各自的、单个的）；"
+    "本项目未为 privus 一支建根",
+    "to take something away from someone that they need or should have",
+    "原本攥在他手里的东西被人一件件拿走，最后摊开的手心是空的",
+    "剥夺/使丧失",
+    "The new rule deprives them of their rights.|Lack of sleep deprived him of energy.",
+    "pulling away what was someone's own – 把本属于他的那份抽走",
+    "剥夺：把权利或资格从人手里强行取走|使丧失：让人失去某种本有的东西或状态",
+    "", "",
+])
+ROWS.append([
+    "W", "destination", "noun", "/ˌdestɪˈneɪʃn/", "sta",
+    "de-（定住）+ stin（stare 站定）+ -ation → 出发前就已经定住不动的那个落脚处",
+    "拉丁语 destinatio ← destinare（定下、指定）← de- + *stanare ← stare（站立、立定）",
+    "the place that someone or something is going to",
+    "车票上印着一个站名，中途换几趟车都不算，最后停下的就是那一个点",
+    "目的地/终点",
+    "Their destination was a small fishing village.|The parcel reached its destination.",
+    "the point fixed before the journey starts – 出发之前就已经定住的那一点",
+    "目的地：人或物要去的那个地方|终点：一段路程最后停下的位置",
+    "", "",
+])
+ROWS.append([
+    "W", "determine", "verb", "/dɪˈtɜːmɪn/", "", "",
+    "拉丁语 determinare：de-（彻底）+ terminare ← terminus（界石、边界）；"
+    "本项目未为 terminus 一支建根",
+    "to decide something officially, or to find out something exactly",
+    "在地上钉进一根木桩，绳子绕上去拉紧，从此这条边就不再挪动",
+    "决定/确定/查明",
+    "The court will determine who owns the land.|We must determine the cause first.",
+    "driving in the stake that fixes the line – 把界桩钉死，线就定在那里",
+    "决定：正式定下某事怎么办|确定：把原先不明的范围或数值定住|"
+    "查明：把事实弄清楚到不再有疑",
+    "", "",
+])
+ROWS.append([
+    "W", "diplomatic", "adjective", "/ˌdɪpləˈmætɪk/", "", "",
+    "法语 diplomatique ← 拉丁语 diploma（对折的官方文书）← 希腊语 diplōma ← diploun（对折）；"
+    "与库中 plic 所据的 plicare（折叠）同出印欧折叠之义，但希腊与拉丁两支已分化，"
+    "且今义要经 diploma（文书）才转得过来，故未并入",
+    "relating to relations between countries, or skilled at handling people",
+    "两边隔着长桌说话，声音压得低，句子留半截，谁也不把话逼到没有退路",
+    "外交的/圆通的",
+    "The two sides resumed diplomatic talks.|She gave a diplomatic answer to the question.",
+    "carrying the folded letter between states – 拿着对折的文书在两国之间走动",
+    "外交的：与国家之间往来事务有关的|圆通的：说话办事不把人得罪、留着余地的",
+    "", "",
+])
+ROWS.append([
+    "W", "elementary", "adjective", "/ˌelɪˈmentri/", "", "",
+    "拉丁语 elementarius ← elementum（构成万物的基本部分），更早词源不明；"
+    "本项目未为 elementum 一支建根",
+    "at the most basic level, or dealing with the first steps of a subject",
+    "黑板上只留最开头那几个式子，底下写着先把这些背下来",
+    "基本的/初级的",
+    "He made an elementary mistake in the calculation.|She teaches at an elementary school.",
+    "the first pieces a thing is built from – 一样东西最开头的那几块",
+    "基本的：属于最起头、再往下拆不动的那一层|初级的：面向刚入门的人、只讲开头部分的",
+    "", "",
+])
+ROWS.append([
+    "W", "eliminate", "verb", "/ɪˈlɪmɪneɪt/", "", "",
+    "拉丁语 eliminare（赶出门槛外）：ex-（出）+ limen（门槛）；limen（门槛）与库中 limes"
+    "（田界、边界）是两个拉丁名词，语义已分，本项目未合并",
+    "to remove something completely, or to knock someone out of a contest",
+    "名单上一行行划掉，划到最后只剩一个名字",
+    "消除/淘汰/排除",
+    "We must eliminate all errors before printing.|Their team was eliminated in the first round.",
+    "putting it out over the threshold – 推出门槛，不让再进来",
+    "消除：把某种东西彻底去掉|淘汰：在比赛或筛选中把人或物剔出去|"
+    "排除：从考虑范围里把某项拿掉",
+    "", "",
+])
+ROWS.append([
+    "W", "emigrate", "verb", "/ˈemɪɡreɪt/", "", "",
+    "拉丁语 emigratus ← emigrare：ex-（出）+ migrare（迁移）；"
+    "本项目未为 migrare 一支建根",
+    "to leave your own country in order to live in another one",
+    "钥匙交回房东，箱子一只只搬上船，岸上的人越站越小",
+    "移居国外/外迁",
+    "Her parents emigrated to Canada in 1980.|Many young workers emigrate for better pay.",
+    "moving out of where you belonged – 从自己原属的地方迁出去",
+    "移居国外：离开本国到别国长住|外迁：整体上往外搬走这个动作",
+    "", "",
+])
+ROWS.append([
+    "W", "emperor", "noun", "/ˈempərə/", "", "",
+    "古法语 empereor ← 拉丁语 imperator（统帅）← imperare（下令、统辖）："
+    "in-（向）+ parare（备置）；承义的是下令统辖这一支，不是备置，故未挂 parare",
+    "the male ruler of an empire",
+    "台阶最上面坐着一个人，下面几百人跪着，他只抬了一下手指",
+    "皇帝/君主",
+    "The emperor ordered a new palace to be built.|He ruled as emperor for thirty years.",
+    "the one whose word moves everyone – 一句话就能调动所有人的那个人",
+    "皇帝：统辖整个帝国的最高统治者|君主：世袭掌国的那一类统治者",
+    "", "",
+])
+# ---- C 档 ----
+ROWS.append([
+    "W", "cooperative", "adjective / noun", "/kəʊˈɒpərətɪv/", "operari",
+    "co-（一同）+ oper（operari 劳作、投入工作）+ -ative → 力气往同一处使",
+    "中世纪拉丁语 cooperativus ← cooperari：com-（一同）+ operari（劳作）← opus（工作）",
+    "willing to work together with others, or a business owned by its members",
+    "两个人抬同一根木头，一个起身另一个立刻跟上，步子踩在一个点上",
+    "合作的/乐于配合的/合作社",
+    "The witness was very cooperative with the police.|They joined a farmers' cooperative.",
+    "effort put in alongside another – 力气跟别人使在一处",
+    "合作的：愿意与人一同出力的|乐于配合的：别人要做什么就顺着接上的|"
+    "合作社：由社员共同出资共同经营的那种组织",
+    "", "",
+])
+ROWS.append([
+    "W", "could", "verb", "/kʊd/", "", "",
+    "古英语 cūðe（cunnan 知道、会 的过去式）← 原始日耳曼语 *kunnan；"
+    "拼写里的 l 是后人比着 would / should 加进去的，本不发音",
+    "used to say what someone was able to do, or to ask and suggest politely",
+    "年轻时一口气能爬到山顶，如今上两层楼就要停一停",
+    "能/可以/可能",
+    "She could swim before she was four.|Could you pass me the salt?",
+    "the knowing-how that was there then – 那时候手上有的那份本事",
+    "能：过去有这个本事或条件|可以：请求或提议时把话说软一格|"
+    "可能：对眼下或将来的一种不很确定的估计",
+    "同一个词既回头说从前办得到，也用来把话说得客气、把口气留出余地",
+    "could have done sth —— 本来做得到却没做，含惋惜或责怪|"
+    "Could you do sth? —— 请求对方做事，比 can 更客气|"
+    "could hardly do sth —— 几乎做不到，程度贴近否定|"
+    "if... could do sth —— 与现在事实相反的假设，虚拟语气",
+])
+ROWS.append([
+    "W", "countryside", "noun", "/ˈkʌntrisaɪd/", "", "",
+    "英语内部合成：country + side；country ← 古法语 contree ← 通俗拉丁语 contrata"
+    "（对面铺展开的那片地）← 拉丁语 contra（对面）",
+    "land outside towns and cities, with fields, woods, and few buildings",
+    "车窗外一片片田挨着走，中间散着几棵树、几间矮房，很久看不见一个红灯",
+    "乡村/农村",
+    "They bought a small house in the countryside.|We drove through open countryside all day.",
+    "the land spread out over against the town – 跟城相对着铺开的那一片地",
+    "乡村：城外那片以田野林木为主的地方|农村：以种田为生的人聚居的那一带",
+    "", "",
+])
+ROWS.append([
+    "W", "cripple", "verb / noun", "/ˈkrɪpl/", "", "",
+    "古英语 crypel ← 原始日耳曼语 *krupilaz（爬行者）← *kreupan（爬）",
+    "to damage someone or something so badly that it can no longer work properly",
+    "一条腿拖在后面，每走一步都要把身子往旁边甩一下才带得动",
+    "使丧失能力/严重损害",
+    "The accident crippled him for life.|Heavy debts crippled the small company.",
+    "brought down to crawling – 弄到只能爬着走",
+    "使丧失能力：把人的行动或机能弄坏|严重损害：把机构、经济等打到运转不起来",
+    "", "",
+])
+ROWS.append([
+    "W", "curl", "verb / noun", "/kɜːl/", "", "",
+    "中古英语 crulle ← 中古荷兰语 krul（卷曲的）；英语里 r 换了位置成 curl",
+    "to form into a curved or spiral shape, or a piece of hair in that shape",
+    "刨下来的木片自己卷成一圈圈，松手就越缩越紧",
+    "卷曲/卷发",
+    "The paper curled up in the heat.|She has thick black curls.",
+    "turning in upon itself – 自己往里绕成圈",
+    "卷曲：边缘或整体绕成圈的这个动作或状态|卷发：头发天然或做成的那种圈状",
+    "", "",
+])
+ROWS.append([
+    "W", "cyberspace", "noun", "/ˈsaɪbəspeɪs/", "",
+    "",
+    "1982 年英语新造词：cyber-（截自 cybernetics 控制论，与 gubernare 掌舵 一支语义已分，"
+    "今只作构词前缀）+ space；更早可溯希腊语舵手一词，但那层意思今义里已不可见",
+    "the imagined space in which electronic messages and data move",
+    "人坐在椅子上没动，屏幕那头是几千公里外的人，一来一往像面对面",
+    "网络空间/虚拟空间",
+    "Millions of people meet daily in cyberspace.|Crime in cyberspace is hard to trace.",
+    "a place that exists only in the wires – 只存在于线路里的一个地方",
+    "网络空间：电子信息往来所构成的那个场域|虚拟空间：并非实体、只在设备中成立的空间",
+    "", "",
+])
+ROWS.append([
+    "W", "dialog", "noun", "/ˈdaɪəlɒɡ/", "logos",
+    "dia-（来回、穿过）+ log（logos 话语）→ 话在两个人之间来回过",
+    "拉丁语 dialogus ← 希腊语 dialogos ← dialegesthai：dia-（来回）+ legein（说）",
+    "a conversation between two or more people, especially in a book or play",
+    "剧本上一行接一行，左边名字换来换去，两个人一句顶一句地把事说开",
+    "对话/对白",
+    "The novel is full of sharp dialog.|The two sides opened a direct dialog.",
+    "words passing back and forth – 话语在两边来回走",
+    "对话：双方轮着说话，也指正式的会谈|对白：剧本或影片里人物所说的话",
+    "", "",
+])
+ROWS.append([
+    "W", "duck", "noun / verb", "/dʌk/", "", "",
+    "古英语 dūce（潜水的鸟）← *dūcan（俯身、扎入水中）← 原始日耳曼语 *dūkan",
+    "a common water bird with a wide flat beak, or to lower your head quickly",
+    "水面上的鸟一头扎下去，水圈还在晃，它已经从几步远的地方冒出来",
+    "鸭子/低头躲避",
+    "A row of ducks crossed the muddy path.|He ducked as the ball flew past.",
+    "going head-down in one quick dip – 头一低，一下扎下去",
+    "鸭子：那种扁嘴会潜水的水鸟|低头躲避：人把头猛一低让开的动作",
+    "", "",
+])
+ROWS.append([
+    "W", "eastern", "adjective", "/ˈiːstən/", "", "",
+    "古英语 ēasterne：ēast（← 原始日耳曼语 *aust- 日出那边）+ -erne（方位后缀）",
+    "in or from the side of a country or area where the sun comes up",
+    "天刚亮那会儿，光先落在这一侧的山坡上，另一侧还是暗的",
+    "东部的/东方的",
+    "They live on the eastern edge of the city.|Eastern winds brought colder weather.",
+    "the side the light comes from first – 光最先到的那一侧",
+    "东部的：位于某地区靠日出那一侧的|东方的：属于地球上东边那一大片区域的",
+    "", "",
+])
+ROWS.append([
+    "W", "eight", "noun / adjective", "/eɪt/", "", "",
+    "古英语 eahta ← 原始日耳曼语 *ahtōu ← 原始印欧语 *oḱtṓw",
+    "the number 8",
+    "两只手摊开，把两根拇指往里扣住，剩下立着的指头就是这个数",
+    "八",
+    "There are eight chairs around the table.|The train leaves at eight in the morning.",
+    "two hands with the thumbs folded in – 两只手扣起拇指剩下的那些指头",
+    "", "", "",
+])
+
+# ---- 落盘 ----
+for i, row in enumerate(ROWS, 1):
+    tag = row[0]
+    want = 15 if tag == "W" else 10
+    assert len(row) == want, f"第 {i} 条 {tag} 行 {len(row)} 列，应为 {want}：{row[1]}"
+    for c in row:
+        assert "\t" not in c and "\n" not in c, f"第 {i} 条字段内含制表符或换行：{row[1]}"
+
+OUT.write_text("\n".join("\t".join(r) for r in ROWS) + "\n",
+               encoding="utf-8", newline="\n")
+nw = sum(1 for r in ROWS if r[0] == "W")
+nr = sum(1 for r in ROWS if r[0] == "R")
+print(f"[写入] {OUT}：W {nw} 行 / R {nr} 行")
