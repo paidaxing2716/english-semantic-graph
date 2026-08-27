@@ -1,0 +1,38 @@
+{
+  "words": [
+    {
+      "id": "abstain",
+      "word": "abstain",
+      "pos": "verb",
+      "phonetic": "/əbˈsteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "abs-（离开、撇开）+ tain（tenere 握住）→ 把伸出去的手往回握住，不去碰",
+      "origin": "拉丁语 abstinere：abs-（离开）+ tenere（握住）——「把手握回来，不伸向那样东西」",
+      "native_definition": "to choose not to do or take something, especially by deliberate self-restraint",
+      "core_concept": "holding your own hand back from something within reach – 东西就在手边，自己把手握住不伸过去",
+      "core_image": "手已经伸到盘子边上，又收回来攥在膝上，一口没动",
+      "chinese": [
+        "戒除",
+        "弃权"
+      ],
+      "examples": [
+        "He decided to abstain from alcohol completely.",
+        "Three members abstained in the final vote."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "戒除：想要的东西就在手边，手自己收回来不去拿",
+        "弃权：该举手的那一刻手不抬起来，既不赞成也不反对"
+      ],
+      "collocations": [
+        "abstain from sth / doing sth —— 戒除、不做某事，from 不可省",
+        "abstain in a vote —— 投票时弃权，用 in 不用 from"
+      ]
+    }
+  ]
+}

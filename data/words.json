@@ -124141,6 +124141,74 @@
         "肤浅的：同一层意思挪到人身上，看过一眼就以为懂了",
         "表层的：物体最外那一薄层，底下另有内里"
       ]
+    },
+    {
+      "id": "abstain",
+      "word": "abstain",
+      "pos": "verb",
+      "phonetic": "/əbˈsteɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "abs-（离开、撇开）+ tain（tenere 握住）→ 把伸出去的手往回握住，不去碰",
+      "origin": "拉丁语 abstinere：abs-（离开）+ tenere（握住）——「把手握回来，不伸向那样东西」",
+      "native_definition": "to choose not to do or take something, especially by deliberate self-restraint",
+      "core_concept": "holding your own hand back from something within reach – 东西就在手边，自己把手握住不伸过去",
+      "core_image": "手已经伸到盘子边上，又收回来攥在膝上，一口没动",
+      "chinese": [
+        "戒除",
+        "弃权"
+      ],
+      "examples": [
+        "He decided to abstain from alcohol completely.",
+        "Three members abstained in the final vote."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "戒除：想要的东西就在手边，手自己收回来不去拿",
+        "弃权：该举手的那一刻手不抬起来，既不赞成也不反对"
+      ],
+      "collocations": [
+        "abstain from sth / doing sth —— 戒除、不做某事，from 不可省",
+        "abstain in a vote —— 投票时弃权，用 in 不用 from"
+      ]
+    },
+    {
+      "id": "abstinence",
+      "word": "abstinence",
+      "pos": "noun",
+      "phonetic": "/ˈæbstɪnəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "abs-（撇开）+ tin（tenere 握住，复合词里元音弱化）+ -ence → 长期把手收着不去碰这件事",
+      "origin": "拉丁语 abstinentia ← abstinens，是 abstinere（abs- 离开 + tenere 握住）的现在分词",
+      "native_definition": "the practice of deliberately not doing or taking something one wants",
+      "core_concept": "keeping one's hand held back over time – 把手一直收着，不是一次而是一段日子",
+      "core_image": "酒瓶原封摆在柜子上，一层薄灰积了半年，没人动过",
+      "chinese": [
+        "戒除",
+        "节制"
+      ],
+      "examples": [
+        "He has maintained total abstinence for ten years.",
+        "The doctor recommended abstinence from salt."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "戒除：不去碰某样特定的东西，像酒或烟",
+        "节制：泛指管住自己的欲，范围比戒某一物宽"
+      ],
+      "collocations": [
+        "abstinence from sth —— 戒除某物，介词固定用 from",
+        "total / complete abstinence —— 完全戒除，常与 maintain 连用"
+      ]
     }
   ]
 }

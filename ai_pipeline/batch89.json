@@ -1,0 +1,38 @@
+{
+  "words": [
+    {
+      "id": "abstinence",
+      "word": "abstinence",
+      "pos": "noun",
+      "phonetic": "/ˈæbstɪnəns/",
+      "decomposable": "root",
+      "root_ids": [
+        "tain"
+      ],
+      "root_logic": "abs-（撇开）+ tin（tenere 握住，复合词里元音弱化）+ -ence → 长期把手收着不去碰这件事",
+      "origin": "拉丁语 abstinentia ← abstinens，是 abstinere（abs- 离开 + tenere 握住）的现在分词",
+      "native_definition": "the practice of deliberately not doing or taking something one wants",
+      "core_concept": "keeping one's hand held back over time – 把手一直收着，不是一次而是一段日子",
+      "core_image": "酒瓶原封摆在柜子上，一层薄灰积了半年，没人动过",
+      "chinese": [
+        "戒除",
+        "节制"
+      ],
+      "examples": [
+        "He has maintained total abstinence for ten years.",
+        "The doctor recommended abstinence from salt."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "戒除：不去碰某样特定的东西，像酒或烟",
+        "节制：泛指管住自己的欲，范围比戒某一物宽"
+      ],
+      "collocations": [
+        "abstinence from sth —— 戒除某物，介词固定用 from",
+        "total / complete abstinence —— 完全戒除，常与 maintain 连用"
+      ]
+    }
+  ]
+}
