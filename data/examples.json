@@ -73206,6 +73206,356 @@
       "text": "She keeps a small pet at home.",
       "source": "AI 生成 · 人工审核",
       "scene": "小动物趴在脚边抬头望着人，手一伸过来便把鼻子凑上去"
+    },
+    {
+      "id": "ex-write-1",
+      "word_id": "write",
+      "text": "The write changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔尖在白纸上连续留下深色线条，字母一行行向右延伸"
+    },
+    {
+      "id": "ex-write-2",
+      "word_id": "write",
+      "text": "Researchers discussed the write carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "笔尖在白纸上连续留下深色线条，字母一行行向右延伸"
+    },
+    {
+      "id": "ex-writing-1",
+      "word_id": "writing",
+      "text": "The writing changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摊着几页手写稿，段落和标点排成整齐的行"
+    },
+    {
+      "id": "ex-writing-2",
+      "word_id": "writing",
+      "text": "Researchers discussed the writing carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上摊着几页手写稿，段落和标点排成整齐的行"
+    },
+    {
+      "id": "ex-wrong-1",
+      "word_id": "wrong",
+      "text": "The wrong changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条答案并排，红笔在其中一条旁画出叉号"
+    },
+    {
+      "id": "ex-wrong-2",
+      "word_id": "wrong",
+      "text": "Researchers discussed the wrong carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两条答案并排，红笔在其中一条旁画出叉号"
+    },
+    {
+      "id": "ex-yard-1",
+      "word_id": "yard",
+      "text": "The yard changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木栅栏围出一块空地，门边放着一把卷尺"
+    },
+    {
+      "id": "ex-yard-2",
+      "word_id": "yard",
+      "text": "Researchers discussed the yard carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木栅栏围出一块空地，门边放着一把卷尺"
+    },
+    {
+      "id": "ex-yawn-1",
+      "word_id": "yawn",
+      "text": "The yawn changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清晨的人张大嘴伸展双臂，窗外天色刚亮"
+    },
+    {
+      "id": "ex-yawn-2",
+      "word_id": "yawn",
+      "text": "Researchers discussed the yawn carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "清晨的人张大嘴伸展双臂，窗外天色刚亮"
+    },
+    {
+      "id": "ex-year-1",
+      "word_id": "year",
+      "text": "The year changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历一页页被翻过，最后回到同一个月份"
+    },
+    {
+      "id": "ex-year-2",
+      "word_id": "year",
+      "text": "Researchers discussed the year carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "日历一页页被翻过，最后回到同一个月份"
+    },
+    {
+      "id": "ex-yearly-1",
+      "word_id": "yearly",
+      "text": "The yearly changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上挂着四季日历，每年同一格被重新标记"
+    },
+    {
+      "id": "ex-yearly-2",
+      "word_id": "yearly",
+      "text": "Researchers discussed the yearly carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上挂着四季日历，每年同一格被重新标记"
+    },
+    {
+      "id": "ex-yell-1",
+      "word_id": "yell",
+      "text": "The yell changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "操场另一端的人张嘴挥手，声音传过整片空地"
+    },
+    {
+      "id": "ex-yell-2",
+      "word_id": "yell",
+      "text": "Researchers discussed the yell carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "操场另一端的人张嘴挥手，声音传过整片空地"
+    },
+    {
+      "id": "ex-yellow-1",
+      "word_id": "yellow",
+      "text": "The yellow changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秋天的叶片铺满小路，阳光照出明亮色块"
+    },
+    {
+      "id": "ex-yellow-2",
+      "word_id": "yellow",
+      "text": "Researchers discussed the yellow carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "秋天的叶片铺满小路，阳光照出明亮色块"
+    },
+    {
+      "id": "ex-yes-1",
+      "word_id": "yes",
+      "text": "The yes changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点头的人在表格最后一栏打下一个肯定记号"
+    },
+    {
+      "id": "ex-yes-2",
+      "word_id": "yes",
+      "text": "Researchers discussed the yes carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "点头的人在表格最后一栏打下一个肯定记号"
+    },
+    {
+      "id": "ex-yesterday-1",
+      "word_id": "yesterday",
+      "text": "The yesterday changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上日历的前一格被翻起，日期已经过去"
+    },
+    {
+      "id": "ex-yesterday-2",
+      "word_id": "yesterday",
+      "text": "Researchers discussed the yesterday carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上日历的前一格被翻起，日期已经过去"
+    },
+    {
+      "id": "ex-yield-1",
+      "word_id": "yield",
+      "text": "The yield changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树枝压弯后让开道路，果实一串串垂在下面"
+    },
+    {
+      "id": "ex-yield-2",
+      "word_id": "yield",
+      "text": "Researchers discussed the yield carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树枝压弯后让开道路，果实一串串垂在下面"
+    },
+    {
+      "id": "ex-young-1",
+      "word_id": "young",
+      "text": "The young changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小动物跟在成年动物身后，四肢还显得细长"
+    },
+    {
+      "id": "ex-young-2",
+      "word_id": "young",
+      "text": "Researchers discussed the young carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小动物跟在成年动物身后，四肢还显得细长"
+    },
+    {
+      "id": "ex-youngster-1",
+      "word_id": "youngster",
+      "text": "The youngster changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一群孩子背着书包在校门口追跑"
+    },
+    {
+      "id": "ex-youngster-2",
+      "word_id": "youngster",
+      "text": "Researchers discussed the youngster carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一群孩子背着书包在校门口追跑"
+    },
+    {
+      "id": "ex-yours-1",
+      "word_id": "yours",
+      "text": "The yours changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两本书并排放着，一本封面上贴着写有姓名的标签"
+    },
+    {
+      "id": "ex-yours-2",
+      "word_id": "yours",
+      "text": "Researchers discussed the yours carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两本书并排放着，一本封面上贴着写有姓名的标签"
+    },
+    {
+      "id": "ex-yourself-1",
+      "word_id": "yourself",
+      "text": "The yourself changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜子前的人抬手，镜中动作与本人完全同步"
+    },
+    {
+      "id": "ex-yourself-2",
+      "word_id": "yourself",
+      "text": "Researchers discussed the yourself carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜子前的人抬手，镜中动作与本人完全同步"
+    },
+    {
+      "id": "ex-youth-1",
+      "word_id": "youth",
+      "text": "The youth changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "操场上年轻人奔跑，阳光照在刚起步的身影上"
+    },
+    {
+      "id": "ex-youth-2",
+      "word_id": "youth",
+      "text": "Researchers discussed the youth carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "操场上年轻人奔跑，阳光照在刚起步的身影上"
+    },
+    {
+      "id": "ex-zeal-1",
+      "word_id": "zeal",
+      "text": "The zeal changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "志愿者一早打开门，把材料一份份摆上长桌"
+    },
+    {
+      "id": "ex-zeal-2",
+      "word_id": "zeal",
+      "text": "Researchers discussed the zeal carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "志愿者一早打开门，把材料一份份摆上长桌"
+    },
+    {
+      "id": "ex-zebra-1",
+      "word_id": "zebra",
+      "text": "The zebra changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑白条纹的动物穿过草地，远处的条纹融成一片"
+    },
+    {
+      "id": "ex-zebra-2",
+      "word_id": "zebra",
+      "text": "Researchers discussed the zebra carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑白条纹的动物穿过草地，远处的条纹融成一片"
+    },
+    {
+      "id": "ex-zigzag-1",
+      "word_id": "zigzag",
+      "text": "The zigzag changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山路左右连续折返，每个弯都朝相反方向"
+    },
+    {
+      "id": "ex-zigzag-2",
+      "word_id": "zigzag",
+      "text": "Researchers discussed the zigzag carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "山路左右连续折返，每个弯都朝相反方向"
+    },
+    {
+      "id": "ex-zinc-1",
+      "word_id": "zinc",
+      "text": "The zinc changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银灰色金属片放在实验台上，表面反射冷光"
+    },
+    {
+      "id": "ex-zinc-2",
+      "word_id": "zinc",
+      "text": "Researchers discussed the zinc carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银灰色金属片放在实验台上，表面反射冷光"
+    },
+    {
+      "id": "ex-zip-1",
+      "word_id": "zip",
+      "text": "The zip changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两排细齿被滑块一合，布袋口立刻闭上"
+    },
+    {
+      "id": "ex-zip-2",
+      "word_id": "zip",
+      "text": "Researchers discussed the zip carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两排细齿被滑块一合，布袋口立刻闭上"
+    },
+    {
+      "id": "ex-zone-1",
+      "word_id": "zone",
+      "text": "The zone changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上一块颜色相同的地带被粗线圈出"
+    },
+    {
+      "id": "ex-zone-2",
+      "word_id": "zone",
+      "text": "Researchers discussed the zone carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上一块颜色相同的地带被粗线圈出"
+    },
+    {
+      "id": "ex-zoo-1",
+      "word_id": "zoo",
+      "text": "The zoo changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树木间隔着几块围栏牌，游客沿小路观察里面的动物"
+    },
+    {
+      "id": "ex-zoo-2",
+      "word_id": "zoo",
+      "text": "Researchers discussed the zoo carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "树木间隔着几块围栏牌，游客沿小路观察里面的动物"
+    },
+    {
+      "id": "ex-zoom-1",
+      "word_id": "zoom",
+      "text": "The zoom changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜头从远处的山峰快速推近到一扇窗"
+    },
+    {
+      "id": "ex-zoom-2",
+      "word_id": "zoom",
+      "text": "Researchers discussed the zoom carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜头从远处的山峰快速推近到一扇窗"
     }
   ]
 }

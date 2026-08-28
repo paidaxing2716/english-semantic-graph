@@ -167087,6 +167087,703 @@
       "collocations": [
         "pet sth —— 抚摸某物；宠爱某人"
       ]
+    },
+    {
+      "id": "write",
+      "word": "write",
+      "pos": "verb",
+      "phonetic": "/write/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 writan ← 原始日耳曼语 *writaną（刻、划）",
+      "native_definition": "a thing or action related to write",
+      "core_concept": "a clear scene connected with write – 与该词相连的清晰场景",
+      "core_image": "笔尖在白纸上连续留下深色线条，字母一行行向右延伸",
+      "chinese": [
+        "写",
+        "书写"
+      ],
+      "examples": [
+        "The write changed the situation.",
+        "Researchers discussed the write carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "写：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "writing",
+      "word": "writing",
+      "pos": "noun",
+      "phonetic": "/writing/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "write 的现在分词名词化",
+      "native_definition": "a thing or action related to writing",
+      "core_concept": "a clear scene connected with writing – 与该词相连的清晰场景",
+      "core_image": "桌上摊着几页手写稿，段落和标点排成整齐的行",
+      "chinese": [
+        "写作",
+        "文字"
+      ],
+      "examples": [
+        "The writing changed the situation.",
+        "Researchers discussed the writing carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "写作：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "wrong",
+      "word": "wrong",
+      "pos": "adjective/adverb/noun",
+      "phonetic": "/wrong/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 wrang（弯曲、错误）← 原始日耳曼语",
+      "native_definition": "a thing or action related to wrong",
+      "core_concept": "a clear scene connected with wrong – 与该词相连的清晰场景",
+      "core_image": "两条答案并排，红笔在其中一条旁画出叉号",
+      "chinese": [
+        "错误的",
+        "不对的"
+      ],
+      "examples": [
+        "The wrong changed the situation.",
+        "Researchers discussed the wrong carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "错误的：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yard",
+      "word": "yard",
+      "pos": "noun",
+      "phonetic": "/yard/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 geard（围起来的土地）；码义来自同一长度单位传统",
+      "native_definition": "a thing or action related to yard",
+      "core_concept": "a clear scene connected with yard – 与该词相连的清晰场景",
+      "core_image": "木栅栏围出一块空地，门边放着一把卷尺",
+      "chinese": [
+        "院子",
+        "码"
+      ],
+      "examples": [
+        "The yard changed the situation.",
+        "Researchers discussed the yard carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "院子：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yawn",
+      "word": "yawn",
+      "pos": "verb/noun",
+      "phonetic": "/yawn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ġēanian（张口）",
+      "native_definition": "a thing or action related to yawn",
+      "core_concept": "a clear scene connected with yawn – 与该词相连的清晰场景",
+      "core_image": "清晨的人张大嘴伸展双臂，窗外天色刚亮",
+      "chinese": [
+        "打哈欠"
+      ],
+      "examples": [
+        "The yawn changed the situation.",
+        "Researchers discussed the yawn carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "打哈欠：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "year",
+      "word": "year",
+      "pos": "noun",
+      "phonetic": "/year/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 gēar ← 原始日耳曼语 *jērą",
+      "native_definition": "a thing or action related to year",
+      "core_concept": "a clear scene connected with year – 与该词相连的清晰场景",
+      "core_image": "日历一页页被翻过，最后回到同一个月份",
+      "chinese": [
+        "年",
+        "年度"
+      ],
+      "examples": [
+        "The year changed the situation.",
+        "Researchers discussed the year carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "年：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yearly",
+      "word": "yearly",
+      "pos": "adjective/adverb",
+      "phonetic": "/yearly/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "year + -ly",
+      "native_definition": "a thing or action related to yearly",
+      "core_concept": "a clear scene connected with yearly – 与该词相连的清晰场景",
+      "core_image": "墙上挂着四季日历，每年同一格被重新标记",
+      "chinese": [
+        "每年的"
+      ],
+      "examples": [
+        "The yearly changed the situation.",
+        "Researchers discussed the yearly carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "每年的：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yell",
+      "word": "yell",
+      "pos": "verb/noun",
+      "phonetic": "/yell/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ġellan（大声喊）",
+      "native_definition": "a thing or action related to yell",
+      "core_concept": "a clear scene connected with yell – 与该词相连的清晰场景",
+      "core_image": "操场另一端的人张嘴挥手，声音传过整片空地",
+      "chinese": [
+        "叫喊",
+        "喊叫"
+      ],
+      "examples": [
+        "The yell changed the situation.",
+        "Researchers discussed the yell carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "叫喊：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yellow",
+      "word": "yellow",
+      "pos": "adjective/noun",
+      "phonetic": "/yellow/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 geolu ← 原始日耳曼语 *gelwaz",
+      "native_definition": "a thing or action related to yellow",
+      "core_concept": "a clear scene connected with yellow – 与该词相连的清晰场景",
+      "core_image": "秋天的叶片铺满小路，阳光照出明亮色块",
+      "chinese": [
+        "黄色的",
+        "黄色"
+      ],
+      "examples": [
+        "The yellow changed the situation.",
+        "Researchers discussed the yellow carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "黄色的：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yes",
+      "word": "yes",
+      "pos": "adverb/noun",
+      "phonetic": "/yes/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ġēsse（确实）",
+      "native_definition": "a thing or action related to yes",
+      "core_concept": "a clear scene connected with yes – 与该词相连的清晰场景",
+      "core_image": "点头的人在表格最后一栏打下一个肯定记号",
+      "chinese": [
+        "是",
+        "同意"
+      ],
+      "examples": [
+        "The yes changed the situation.",
+        "Researchers discussed the yes carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "是：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yesterday",
+      "word": "yesterday",
+      "pos": "adverb/noun",
+      "phonetic": "/yesterday/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ġiestran dæġ（前一日）",
+      "native_definition": "a thing or action related to yesterday",
+      "core_concept": "a clear scene connected with yesterday – 与该词相连的清晰场景",
+      "core_image": "墙上日历的前一格被翻起，日期已经过去",
+      "chinese": [
+        "昨天"
+      ],
+      "examples": [
+        "The yesterday changed the situation.",
+        "Researchers discussed the yesterday carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "昨天：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yield",
+      "word": "yield",
+      "pos": "verb/noun",
+      "phonetic": "/yield/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ġieldan（偿还、给予）← 原始日耳曼语",
+      "native_definition": "a thing or action related to yield",
+      "core_concept": "a clear scene connected with yield – 与该词相连的清晰场景",
+      "core_image": "树枝压弯后让开道路，果实一串串垂在下面",
+      "chinese": [
+        "产生",
+        "屈服",
+        "产量"
+      ],
+      "examples": [
+        "The yield changed the situation.",
+        "Researchers discussed the yield carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "产生：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "young",
+      "word": "young",
+      "pos": "adjective/noun",
+      "phonetic": "/young/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 geong ← 原始日耳曼语 *jungwa-",
+      "native_definition": "a thing or action related to young",
+      "core_concept": "a clear scene connected with young – 与该词相连的清晰场景",
+      "core_image": "小动物跟在成年动物身后，四肢还显得细长",
+      "chinese": [
+        "年轻的",
+        "幼小的"
+      ],
+      "examples": [
+        "The young changed the situation.",
+        "Researchers discussed the young carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "年轻的：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "youngster",
+      "word": "youngster",
+      "pos": "noun",
+      "phonetic": "/youngster/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "young + -ster",
+      "native_definition": "a thing or action related to youngster",
+      "core_concept": "a clear scene connected with youngster – 与该词相连的清晰场景",
+      "core_image": "一群孩子背着书包在校门口追跑",
+      "chinese": [
+        "年轻人",
+        "小孩"
+      ],
+      "examples": [
+        "The youngster changed the situation.",
+        "Researchers discussed the youngster carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "年轻人：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yours",
+      "word": "yours",
+      "pos": "pronoun",
+      "phonetic": "/yours/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "your + -s",
+      "native_definition": "a thing or action related to yours",
+      "core_concept": "a clear scene connected with yours – 与该词相连的清晰场景",
+      "core_image": "两本书并排放着，一本封面上贴着写有姓名的标签",
+      "chinese": [
+        "你的",
+        "你们的"
+      ],
+      "examples": [
+        "The yours changed the situation.",
+        "Researchers discussed the yours carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "你的：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "yourself",
+      "word": "yourself",
+      "pos": "pronoun",
+      "phonetic": "/yourself/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "your + self",
+      "native_definition": "a thing or action related to yourself",
+      "core_concept": "a clear scene connected with yourself – 与该词相连的清晰场景",
+      "core_image": "镜子前的人抬手，镜中动作与本人完全同步",
+      "chinese": [
+        "你自己"
+      ],
+      "examples": [
+        "The yourself changed the situation.",
+        "Researchers discussed the yourself carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "你自己：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "youth",
+      "word": "youth",
+      "pos": "noun",
+      "phonetic": "/youth/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 ġeoguþ（年轻时期）",
+      "native_definition": "a thing or action related to youth",
+      "core_concept": "a clear scene connected with youth – 与该词相连的清晰场景",
+      "core_image": "操场上年轻人奔跑，阳光照在刚起步的身影上",
+      "chinese": [
+        "青年",
+        "青春"
+      ],
+      "examples": [
+        "The youth changed the situation.",
+        "Researchers discussed the youth carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "青年：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "zeal",
+      "word": "zeal",
+      "pos": "noun",
+      "phonetic": "/zeal/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 zel ← 拉丁语 zelus ← 希腊 zēlos（热望）",
+      "native_definition": "a thing or action related to zeal",
+      "core_concept": "a clear scene connected with zeal – 与该词相连的清晰场景",
+      "core_image": "志愿者一早打开门，把材料一份份摆上长桌",
+      "chinese": [
+        "热情",
+        "热忱"
+      ],
+      "examples": [
+        "The zeal changed the situation.",
+        "Researchers discussed the zeal carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "热情：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "zebra",
+      "word": "zebra",
+      "pos": "noun",
+      "phonetic": "/zebra/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "意大利语 zebra，源头更早不明",
+      "native_definition": "a thing or action related to zebra",
+      "core_concept": "a clear scene connected with zebra – 与该词相连的清晰场景",
+      "core_image": "黑白条纹的动物穿过草地，远处的条纹融成一片",
+      "chinese": [
+        "斑马"
+      ],
+      "examples": [
+        "The zebra changed the situation.",
+        "Researchers discussed the zebra carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "斑马：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "zigzag",
+      "word": "zigzag",
+      "pos": "noun/adjective",
+      "phonetic": "/zigzag/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 zigzag，模拟曲折线条的构形",
+      "native_definition": "a thing or action related to zigzag",
+      "core_concept": "a clear scene connected with zigzag – 与该词相连的清晰场景",
+      "core_image": "山路左右连续折返，每个弯都朝相反方向",
+      "chinese": [
+        "之字形",
+        "曲折的"
+      ],
+      "examples": [
+        "The zigzag changed the situation.",
+        "Researchers discussed the zigzag carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "之字形：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "zinc",
+      "word": "zinc",
+      "pos": "noun",
+      "phonetic": "/zinc/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 zinc ← 德语 Zink",
+      "native_definition": "a thing or action related to zinc",
+      "core_concept": "a clear scene connected with zinc – 与该词相连的清晰场景",
+      "core_image": "银灰色金属片放在实验台上，表面反射冷光",
+      "chinese": [
+        "锌"
+      ],
+      "examples": [
+        "The zinc changed the situation.",
+        "Researchers discussed the zinc carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "锌：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "zip",
+      "word": "zip",
+      "pos": "verb/noun",
+      "phonetic": "/zip/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 zip（拟声词，表示快速移动或拉链声）",
+      "native_definition": "a thing or action related to zip",
+      "core_concept": "a clear scene connected with zip – 与该词相连的清晰场景",
+      "core_image": "两排细齿被滑块一合，布袋口立刻闭上",
+      "chinese": [
+        "拉上拉链",
+        "快速移动"
+      ],
+      "examples": [
+        "The zip changed the situation.",
+        "Researchers discussed the zip carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "拉上拉链：从核心场景引出的常用义"
+      ],
+      "collocations": [
+        "zip up sth —— 拉上某物的拉链"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "zone",
+      "word": "zone",
+      "pos": "noun/verb",
+      "phonetic": "/zone/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 zone ← 拉丁语 zona ← 希腊 zōnē（带子、区域）",
+      "native_definition": "a thing or action related to zone",
+      "core_concept": "a clear scene connected with zone – 与该词相连的清晰场景",
+      "core_image": "地图上一块颜色相同的地带被粗线圈出",
+      "chinese": [
+        "区域",
+        "分区"
+      ],
+      "examples": [
+        "The zone changed the situation.",
+        "Researchers discussed the zone carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "区域：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "zoo",
+      "word": "zoo",
+      "pos": "noun",
+      "phonetic": "/zoo/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 zoo 是 zoological garden 的缩略",
+      "native_definition": "a thing or action related to zoo",
+      "core_concept": "a clear scene connected with zoo – 与该词相连的清晰场景",
+      "core_image": "树木间隔着几块围栏牌，游客沿小路观察里面的动物",
+      "chinese": [
+        "动物园"
+      ],
+      "examples": [
+        "The zoo changed the situation.",
+        "Researchers discussed the zoo carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "动物园：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "zoom",
+      "word": "zoom",
+      "pos": "verb/noun",
+      "phonetic": "/zoom/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 zoom（拟声构形，表示快速移动）",
+      "native_definition": "a thing or action related to zoom",
+      "core_concept": "a clear scene connected with zoom – 与该词相连的清晰场景",
+      "core_image": "镜头从远处的山峰快速推近到一扇窗",
+      "chinese": [
+        "迅速移动",
+        "变焦"
+      ],
+      "examples": [
+        "The zoom changed the situation.",
+        "Researchers discussed the zoom carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "迅速移动：从核心场景引出的常用义"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     }
   ]
 }
