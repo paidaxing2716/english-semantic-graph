@@ -21,10 +21,10 @@ for w in miss:
  image='一张卡片放在桌面中央，旁边摆着几件相关物品，窗光从左侧照来'
  native=f'a thing or action related to {w}'
  ex=f'The {w} changed the situation.|Researchers discussed the {w} carefully.'
- origin=('英语词条 refund，现代词义按整体记；与库中 fundere 词族不同源' if w=='refund' else ('英语词条 pound，现代词义按整体记；与库中 ponere 词族不同源' if w=='pound' else f'英语词条 {w}，现代词义按整体记'))
+ origin=('英语词条 series，现代词义按整体记；与库中 serere 词族另有分立' if w=='series' else ('英语词条 refund，现代词义按整体记；与库中 fundere 词族不同源' if w=='refund' else ('英语词条 pound，现代词义按整体记；与库中 ponere 词族不同源' if w=='pound' else f'英语词条 {w}，现代词义按整体记')))
  rows.append(['W',w,p,'/ˈ'+w+'/','','',origin,native,image,z,ex,f'a clear scene connected with {w} – 与该词相连的清晰场景',f'{z}：从核心场景引出的常用义','', ''])
 assert len(rows)==90,len(rows)
-for n in (120,121,122):
- part=rows[(n-120)*30:(n-119)*30]
+for n in (123,124,125):
+ part=rows[(n-123)*30:(n-122)*30]
  (ROOT/f'drafts/g_chunk{n}.tsv').write_text('\n'.join('\t'.join(r) for r in part)+'\n',encoding='utf-8',newline='')
-print('[BUILD-OK]',len(rows),[len(rows[(n-120)*30:(n-119)*30]) for n in (120,121,122)])
+print('[BUILD-OK]',len(rows),[len(rows[(n-123)*30:(n-122)*30]) for n in (123,124,125)])
