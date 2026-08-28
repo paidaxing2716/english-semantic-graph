@@ -196,7 +196,8 @@
         "emit",
         "committee",
         "compromise",
-        "promise"
+        "promise",
+        "message"
       ]
     },
     {
@@ -3491,7 +3492,8 @@
         "music",
         "musical",
         "musician",
-        "museum"
+        "museum",
+        "mosaic"
       ]
     },
     {
@@ -3629,7 +3631,8 @@
         "manual",
         "management",
         "manager",
-        "maneuver"
+        "maneuver",
+        "manipulate"
       ]
     },
     {
@@ -3725,7 +3728,9 @@
       "core_image": "一块完好的板子被磕出缺口，往后每次用都差一点",
       "english_definition": "worse, to worsen",
       "word_ids": [
-        "impair"
+        "impair",
+        "miserable",
+        "misery"
       ]
     },
     {
@@ -3813,7 +3818,8 @@
       "word_ids": [
         "deteriorate",
         "exterior",
-        "interior"
+        "interior",
+        "lottery"
       ]
     },
     {
@@ -6544,7 +6550,8 @@
       "core_image": "脚下一条路伸出去，顺着它走才到得了，中途插进来的也算一段",
       "english_definition": "a way, a road, a course of travel",
       "word_ids": [
-        "episode"
+        "episode",
+        "method"
       ],
       "noisy_variants": [
         "od"
