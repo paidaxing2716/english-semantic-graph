@@ -166,7 +166,8 @@
         "emit",
         "committee",
         "compromise",
-        "promise"
+        "promise",
+        "message"
       ]
     },
     {
@@ -3014,7 +3015,8 @@
         "music",
         "musical",
         "musician",
-        "museum"
+        "museum",
+        "mosaic"
       ]
     },
     {
@@ -3130,7 +3132,8 @@
         "manual",
         "management",
         "manager",
-        "maneuver"
+        "maneuver",
+        "manipulate"
       ]
     },
     {
@@ -3206,7 +3209,9 @@
         "peior"
       ],
       "word_ids": [
-        "impair"
+        "impair",
+        "miserable",
+        "misery"
       ]
     },
     {
@@ -3280,7 +3285,8 @@
       "word_ids": [
         "deteriorate",
         "exterior",
-        "interior"
+        "interior",
+        "lottery"
       ]
     },
     {
@@ -5488,7 +5494,8 @@
         "hodos"
       ],
       "word_ids": [
-        "episode"
+        "episode",
+        "method"
       ]
     },
     {

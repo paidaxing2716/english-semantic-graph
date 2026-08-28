@@ -56826,6 +56826,426 @@
       "text": "The plant is the mother of several varieties.",
       "source": "AI 生成 · 人工审核",
       "scene": "婴儿蜷在怀里，手指紧紧抓住衣襟"
+    },
+    {
+      "id": "ex-lottery-1",
+      "word_id": "lottery",
+      "text": "The lottery changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "透明盒里滚着许多编号球，一只球被机器随机吹到出口"
+    },
+    {
+      "id": "ex-lottery-2",
+      "word_id": "lottery",
+      "text": "Researchers discussed the lottery carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "透明盒里滚着许多编号球，一只球被机器随机吹到出口"
+    },
+    {
+      "id": "ex-main-1",
+      "word_id": "main",
+      "text": "The main changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张地图上最粗的一条道路穿过中央，其他小路都接向它"
+    },
+    {
+      "id": "ex-main-2",
+      "word_id": "main",
+      "text": "Researchers discussed the main carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一张地图上最粗的一条道路穿过中央，其他小路都接向它"
+    },
+    {
+      "id": "ex-man-1",
+      "word_id": "man",
+      "text": "The man changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人站在门口，肩膀和手的轮廓清楚可见"
+    },
+    {
+      "id": "ex-man-2",
+      "word_id": "man",
+      "text": "Researchers discussed the man carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人站在门口，肩膀和手的轮廓清楚可见"
+    },
+    {
+      "id": "ex-manifest-1",
+      "word_id": "manifest",
+      "text": "The manifest changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾散开后山脊完整显露，先前藏着的轮廓全看见了"
+    },
+    {
+      "id": "ex-manifest-2",
+      "word_id": "manifest",
+      "text": "Researchers discussed the manifest carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾散开后山脊完整显露，先前藏着的轮廓全看见了"
+    },
+    {
+      "id": "ex-manipulate-1",
+      "word_id": "manipulate",
+      "text": "The engineer manipulated the controls carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指拨动一排细小旋钮，机器的指针随之改变"
+    },
+    {
+      "id": "ex-manipulate-2",
+      "word_id": "manipulate",
+      "text": "She learned to manipulate the material.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手指拨动一排细小旋钮，机器的指针随之改变"
+    },
+    {
+      "id": "ex-material-1",
+      "word_id": "material",
+      "text": "The material changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木板、布料和金属片整齐放在工作台上等待加工"
+    },
+    {
+      "id": "ex-material-2",
+      "word_id": "material",
+      "text": "Researchers discussed the material carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "木板、布料和金属片整齐放在工作台上等待加工"
+    },
+    {
+      "id": "ex-matter-1",
+      "word_id": "matter",
+      "text": "The matter changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上散着几张文件，旁边放着一块可称量的固体"
+    },
+    {
+      "id": "ex-matter-2",
+      "word_id": "matter",
+      "text": "Researchers discussed the matter carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上散着几张文件，旁边放着一块可称量的固体"
+    },
+    {
+      "id": "ex-mercury-1",
+      "word_id": "mercury",
+      "text": "The mercury changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银色液滴在玻璃管中上下滑动，随着温度改变位置"
+    },
+    {
+      "id": "ex-mercury-2",
+      "word_id": "mercury",
+      "text": "Researchers discussed the mercury carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "银色液滴在玻璃管中上下滑动，随着温度改变位置"
+    },
+    {
+      "id": "ex-message-1",
+      "word_id": "message",
+      "text": "The message changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手机屏幕亮起一行新文字，发送箭头指向远处的人"
+    },
+    {
+      "id": "ex-message-2",
+      "word_id": "message",
+      "text": "Researchers discussed the message carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手机屏幕亮起一行新文字，发送箭头指向远处的人"
+    },
+    {
+      "id": "ex-miserable-1",
+      "word_id": "miserable",
+      "text": "The miserable changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨水从破屋顶滴下，角落里的人缩着肩膀没有干处"
+    },
+    {
+      "id": "ex-miserable-2",
+      "word_id": "miserable",
+      "text": "Researchers discussed the miserable carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雨水从破屋顶滴下，角落里的人缩着肩膀没有干处"
+    },
+    {
+      "id": "ex-misery-1",
+      "word_id": "misery",
+      "text": "The misery changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "寒冷房间里一盏灯快要熄灭，身影抱膝坐在地上"
+    },
+    {
+      "id": "ex-misery-2",
+      "word_id": "misery",
+      "text": "Researchers discussed the misery carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "寒冷房间里一盏灯快要熄灭，身影抱膝坐在地上"
+    },
+    {
+      "id": "ex-monster-1",
+      "word_id": "monster",
+      "text": "The monster changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "阴影里伸出两只巨大爪子，墙上的轮廓远超人的大小"
+    },
+    {
+      "id": "ex-monster-2",
+      "word_id": "monster",
+      "text": "Researchers discussed the monster carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "阴影里伸出两只巨大爪子，墙上的轮廓远超人的大小"
+    },
+    {
+      "id": "ex-mosaic-1",
+      "word_id": "mosaic",
+      "text": "The mosaic changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多不同颜色的小石片嵌进墙面，拼成一幅完整图案"
+    },
+    {
+      "id": "ex-mosaic-2",
+      "word_id": "mosaic",
+      "text": "Researchers discussed the mosaic carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多不同颜色的小石片嵌进墙面，拼成一幅完整图案"
+    },
+    {
+      "id": "ex-lubricate-1",
+      "word_id": "lubricate",
+      "text": "The lubricate changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "齿轮咬合处滴入一滴油，金属声立刻变得顺滑"
+    },
+    {
+      "id": "ex-lubricate-2",
+      "word_id": "lubricate",
+      "text": "Researchers discussed the lubricate carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "齿轮咬合处滴入一滴油，金属声立刻变得顺滑"
+    },
+    {
+      "id": "ex-magistrate-1",
+      "word_id": "magistrate",
+      "text": "The magistrate changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭高台后的人翻开卷宗，宣读地方条例"
+    },
+    {
+      "id": "ex-magistrate-2",
+      "word_id": "magistrate",
+      "text": "Researchers discussed the magistrate carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "法庭高台后的人翻开卷宗，宣读地方条例"
+    },
+    {
+      "id": "ex-masculine-1",
+      "word_id": "masculine",
+      "text": "The masculine changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "词典页上一个符号标在名词旁，表示阳性类别"
+    },
+    {
+      "id": "ex-masculine-2",
+      "word_id": "masculine",
+      "text": "Researchers discussed the masculine carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "词典页上一个符号标在名词旁，表示阳性类别"
+    },
+    {
+      "id": "ex-mathematical-1",
+      "word_id": "mathematical",
+      "text": "The mathematical changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上排列着数字、括号和几何线条，每一步都可计算"
+    },
+    {
+      "id": "ex-mathematical-2",
+      "word_id": "mathematical",
+      "text": "Researchers discussed the mathematical carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上排列着数字、括号和几何线条，每一步都可计算"
+    },
+    {
+      "id": "ex-method-1",
+      "word_id": "method",
+      "text": "The method changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地面上铺着一串脚印，脚印从起点清楚地通到终点"
+    },
+    {
+      "id": "ex-method-2",
+      "word_id": "method",
+      "text": "Researchers discussed the method carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地面上铺着一串脚印，脚印从起点清楚地通到终点"
+    },
+    {
+      "id": "ex-microscope-1",
+      "word_id": "microscope",
+      "text": "The microscope changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜筒下的叶片被放大成清晰的细胞网格"
+    },
+    {
+      "id": "ex-microscope-2",
+      "word_id": "microscope",
+      "text": "Researchers discussed the microscope carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "镜筒下的叶片被放大成清晰的细胞网格"
+    },
+    {
+      "id": "ex-monitor-1",
+      "word_id": "monitor",
+      "text": "The monitor changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屏幕上的曲线持续跳动，护士每隔几分钟记录一次"
+    },
+    {
+      "id": "ex-monitor-2",
+      "word_id": "monitor",
+      "text": "Researchers discussed the monitor carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "屏幕上的曲线持续跳动，护士每隔几分钟记录一次"
+    },
+    {
+      "id": "ex-monument-1",
+      "word_id": "monument",
+      "text": "The monument changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石碑立在广场中央，底座刻着一段日期和名字"
+    },
+    {
+      "id": "ex-monument-2",
+      "word_id": "monument",
+      "text": "Researchers discussed the monument carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "石碑立在广场中央，底座刻着一段日期和名字"
+    },
+    {
+      "id": "ex-mister-1",
+      "word_id": "mister",
+      "text": "The mister changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信封上姓名前印着 Mr.，收信人一眼知道称呼"
+    },
+    {
+      "id": "ex-mister-2",
+      "word_id": "mister",
+      "text": "Researchers discussed the mister carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "信封上姓名前印着 Mr.，收信人一眼知道称呼"
+    },
+    {
+      "id": "ex-machinery-1",
+      "word_id": "machinery",
+      "text": "The machinery changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厂房里许多齿轮、皮带和轴一起转动"
+    },
+    {
+      "id": "ex-machinery-2",
+      "word_id": "machinery",
+      "text": "Researchers discussed the machinery carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厂房里许多齿轮、皮带和轴一起转动"
+    },
+    {
+      "id": "ex-mainland-1",
+      "word_id": "mainland",
+      "text": "The mainland changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "渡船驶离小岛，远处大片连续陆地铺到地平线"
+    },
+    {
+      "id": "ex-mainland-2",
+      "word_id": "mainland",
+      "text": "Researchers discussed the mainland carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "渡船驶离小岛，远处大片连续陆地铺到地平线"
+    },
+    {
+      "id": "ex-masterpiece-1",
+      "word_id": "masterpiece",
+      "text": "The masterpiece changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画廊中央一幅画被单独打光，观众在前面停步"
+    },
+    {
+      "id": "ex-masterpiece-2",
+      "word_id": "masterpiece",
+      "text": "Researchers discussed the masterpiece carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "画廊中央一幅画被单独打光，观众在前面停步"
+    },
+    {
+      "id": "ex-meeting-1",
+      "word_id": "meeting",
+      "text": "The meeting changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长桌两侧的人同时坐下，桌中央放着议程"
+    },
+    {
+      "id": "ex-meeting-2",
+      "word_id": "meeting",
+      "text": "Researchers discussed the meeting carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长桌两侧的人同时坐下，桌中央放着议程"
+    },
+    {
+      "id": "ex-mistake-1",
+      "word_id": "mistake",
+      "text": "The mistake changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "算盘上一颗珠子拨错一格，后面的总数全偏了"
+    },
+    {
+      "id": "ex-mistake-2",
+      "word_id": "mistake",
+      "text": "Researchers discussed the mistake carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "算盘上一颗珠子拨错一格，后面的总数全偏了"
+    },
+    {
+      "id": "ex-misunderstand-1",
+      "word_id": "misunderstand",
+      "text": "The misunderstand changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人隔着嘈杂车站说话，气泡里的句子完全对不上"
+    },
+    {
+      "id": "ex-misunderstand-2",
+      "word_id": "misunderstand",
+      "text": "Researchers discussed the misunderstand carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两个人隔着嘈杂车站说话，气泡里的句子完全对不上"
+    },
+    {
+      "id": "ex-most-1",
+      "word_id": "most",
+      "text": "The most changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排柱子从低到高排列，最后一根高出所有其他柱子"
+    },
+    {
+      "id": "ex-most-2",
+      "word_id": "most",
+      "text": "Researchers discussed the most carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排柱子从低到高排列，最后一根高出所有其他柱子"
+    },
+    {
+      "id": "ex-motel-1",
+      "word_id": "motel",
+      "text": "The motel changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "汽车停在房门外，房间门直接朝向停车位"
+    },
+    {
+      "id": "ex-motel-2",
+      "word_id": "motel",
+      "text": "Researchers discussed the motel carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "汽车停在房门外，房间门直接朝向停车位"
     }
   ]
 }

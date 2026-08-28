@@ -12936,6 +12936,48 @@
       "to": "emigrate",
       "type": "root",
       "note": "e-（ex- 离开）+ migr（migrare 迁移）+ -ate → 从原处迁出去"
+    },
+    {
+      "from": "ter-comparative",
+      "to": "lottery",
+      "type": "root",
+      "note": "lot（lot 一份）+ -tery → 从许多份中抽一份"
+    },
+    {
+      "from": "manus",
+      "to": "manipulate",
+      "type": "root",
+      "note": "manipul（manus 手）+ -ate → 用手把小部件摆布到想要的位置"
+    },
+    {
+      "from": "mit-miss",
+      "to": "message",
+      "type": "root",
+      "note": "mess（mittere 派出）+ -age → 被送出去的话"
+    },
+    {
+      "from": "peior",
+      "to": "miserable",
+      "type": "root",
+      "note": "miser（miser 可怜）+ -able → 落到更坏的处境"
+    },
+    {
+      "from": "peior",
+      "to": "misery",
+      "type": "root",
+      "note": "miser（miser 可怜）+ -y → 更坏的处境"
+    },
+    {
+      "from": "musa",
+      "to": "mosaic",
+      "type": "root",
+      "note": "mosa（musa 缪斯）+ -ic → 缪斯艺术做成的拼图"
+    },
+    {
+      "from": "hodos",
+      "to": "method",
+      "type": "root",
+      "note": "met-（追随）+ hod（hodos 道路）→ 沿一条路走到结果"
     }
   ]
 }

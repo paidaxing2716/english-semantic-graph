@@ -135282,6 +135282,865 @@
         "母体：产生其他事物的源头"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "lottery",
+      "word": "lottery",
+      "pos": "noun",
+      "phonetic": "/ˈlɒtəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "ter-comparative"
+      ],
+      "root_logic": "lot（lot 一份）+ -tery → 从许多份中抽一份",
+      "origin": "英语 lottery ← 中古法语 loterie（抽签）",
+      "native_definition": "a game in which numbered tickets are drawn for prizes",
+      "core_concept": "a lot selected from a group – 从一堆里抽出的一份",
+      "core_image": "透明盒里滚着许多编号球，一只球被机器随机吹到出口",
+      "chinese": [
+        "彩票",
+        "抽签"
+      ],
+      "examples": [
+        "The lottery changed the situation.",
+        "Researchers discussed the lottery carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "彩票：购买号码等待抽取的票",
+        "抽签：随机选出一项"
+      ]
+    },
+    {
+      "id": "main",
+      "word": "main",
+      "pos": "adjective",
+      "phonetic": "/meɪn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mægn（力量、主要的）← 原始日耳曼语 *maginą",
+      "native_definition": "most important or largest",
+      "core_concept": "the largest path at the centre – 位于中心的最大通道",
+      "core_image": "一张地图上最粗的一条道路穿过中央，其他小路都接向它",
+      "chinese": [
+        "主要的",
+        "最重要的"
+      ],
+      "examples": [
+        "The main changed the situation.",
+        "Researchers discussed the main carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "主要的：最重要的部分"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "man",
+      "word": "man",
+      "pos": "noun",
+      "phonetic": "/mæn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mann ← 原始日耳曼语 *mann-（人）",
+      "native_definition": "an adult human male",
+      "core_concept": "a human figure in the world – 世界中的一个人",
+      "core_image": "一个人站在门口，肩膀和手的轮廓清楚可见",
+      "chinese": [
+        "男人",
+        "人类"
+      ],
+      "examples": [
+        "The man changed the situation.",
+        "Researchers discussed the man carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "男人：成年男性",
+        "人类：泛指人"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "manifest",
+      "word": "manifest",
+      "pos": "adjective/verb",
+      "phonetic": "/ˈmænɪfest/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 manifestus（显然、摸得着）；与 manus（手）不并入",
+      "native_definition": "clear or show clearly",
+      "core_concept": "made plain before the eyes – 在眼前变得清楚",
+      "core_image": "雾散开后山脊完整显露，先前藏着的轮廓全看见了",
+      "chinese": [
+        "明显的",
+        "表明"
+      ],
+      "examples": [
+        "The manifest changed the situation.",
+        "Researchers discussed the manifest carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "明显的：容易看出的",
+        "表明：把内在内容显示出来"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "manipulate",
+      "word": "manipulate",
+      "pos": "verb",
+      "phonetic": "/məˈnɪpjuleɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "manus"
+      ],
+      "root_logic": "manipul（manus 手）+ -ate → 用手把小部件摆布到想要的位置",
+      "origin": "拉丁语 manipulare ← manipulus（一把、手中的一束）← manus（手）",
+      "native_definition": "control or influence skilfully",
+      "core_concept": "control by handling small parts – 用手处理小部件来控制",
+      "core_image": "手指拨动一排细小旋钮，机器的指针随之改变",
+      "chinese": [
+        "操纵",
+        "巧妙处理"
+      ],
+      "examples": [
+        "The engineer manipulated the controls carefully.",
+        "She learned to manipulate the material."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "操纵：暗中影响人或事",
+        "处理：熟练操作材料"
+      ]
+    },
+    {
+      "id": "material",
+      "word": "material",
+      "pos": "noun/adjective",
+      "phonetic": "/məˈtɪəriəl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 materia（木料、材料）；与 mater（母亲）不并入",
+      "native_definition": "the substance from which something is made",
+      "core_concept": "substance ready to be shaped – 等待加工的物质",
+      "core_image": "木板、布料和金属片整齐放在工作台上等待加工",
+      "chinese": [
+        "材料",
+        "物质的"
+      ],
+      "examples": [
+        "The material changed the situation.",
+        "Researchers discussed the material carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "材料：制造物品的原料",
+        "物质的：属于实体材料的"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "matter",
+      "word": "matter",
+      "pos": "noun/verb",
+      "phonetic": "/ˈmætə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 matere ← 古法语 matiere ← 拉丁语 materia（材料、事情）",
+      "native_definition": "physical substance or a subject of concern",
+      "core_concept": "a substance or subject set before attention – 摆到眼前的物质或问题",
+      "core_image": "桌上散着几张文件，旁边放着一块可称量的固体",
+      "chinese": [
+        "事情",
+        "物质",
+        "要紧"
+      ],
+      "examples": [
+        "The matter changed the situation.",
+        "Researchers discussed the matter carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "事情：需要处理的主题",
+        "物质：占据空间的东西",
+        "要紧：值得关注"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "mercury",
+      "word": "mercury",
+      "pos": "noun",
+      "phonetic": "/ˈmɜːkjəri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 mercure ← 拉丁语 Mercurius（神名及行星名）；与 merx（货物）不同源",
+      "native_definition": "a chemical element that is liquid at room temperature",
+      "core_concept": "a bright liquid that moves in a tube – 在管中移动的亮液体",
+      "core_image": "银色液滴在玻璃管中上下滑动，随着温度改变位置",
+      "chinese": [
+        "汞",
+        "水银"
+      ],
+      "examples": [
+        "The mercury changed the situation.",
+        "Researchers discussed the mercury carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "汞：化学元素",
+        "水银：温度计中的汞"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "message",
+      "word": "message",
+      "pos": "noun",
+      "phonetic": "/ˈmesɪdʒ/",
+      "decomposable": "root",
+      "root_ids": [
+        "mit-miss"
+      ],
+      "root_logic": "mess（mittere 派出）+ -age → 被送出去的话",
+      "origin": "古法语 message ← 拉丁语 missus（送出的东西）← mittere（送、派出）",
+      "native_definition": "a piece of information sent to someone",
+      "core_concept": "words sent from one person to another – 从一人送到另一人的话",
+      "core_image": "手机屏幕亮起一行新文字，发送箭头指向远处的人",
+      "chinese": [
+        "消息",
+        "信息"
+      ],
+      "examples": [
+        "The message changed the situation.",
+        "Researchers discussed the message carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "消息：传递给人的内容",
+        "信息：需要理解的资料"
+      ]
+    },
+    {
+      "id": "miserable",
+      "word": "miserable",
+      "pos": "adjective",
+      "phonetic": "/ˈmɪzərəbl/",
+      "decomposable": "root",
+      "root_ids": [
+        "peior"
+      ],
+      "root_logic": "miser（miser 可怜）+ -able → 落到更坏的处境",
+      "origin": "拉丁语 miserabilis ← miser（可怜的）；与 mit-miss 不同源",
+      "native_definition": "very unhappy or uncomfortable",
+      "core_concept": "left in a state that invites pity – 落到令人同情的状态",
+      "core_image": "雨水从破屋顶滴下，角落里的人缩着肩膀没有干处",
+      "chinese": [
+        "悲惨的",
+        "痛苦的"
+      ],
+      "examples": [
+        "The miserable changed the situation.",
+        "Researchers discussed the miserable carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "悲惨的：处境很糟",
+        "痛苦的：感到极不舒服"
+      ]
+    },
+    {
+      "id": "misery",
+      "word": "misery",
+      "pos": "noun",
+      "phonetic": "/ˈmɪzəri/",
+      "decomposable": "root",
+      "root_ids": [
+        "peior"
+      ],
+      "root_logic": "miser（miser 可怜）+ -y → 更坏的处境",
+      "origin": "拉丁语 miseria ← miser（可怜的）；与 mit-miss 不同源",
+      "native_definition": "great suffering or unhappiness",
+      "core_concept": "a condition made worse than ordinary hardship – 比普通困苦更坏的状态",
+      "core_image": "寒冷房间里一盏灯快要熄灭，身影抱膝坐在地上",
+      "chinese": [
+        "痛苦",
+        "悲惨"
+      ],
+      "examples": [
+        "The misery changed the situation.",
+        "Researchers discussed the misery carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "痛苦：身心承受的苦难"
+      ]
+    },
+    {
+      "id": "monster",
+      "word": "monster",
+      "pos": "noun",
+      "phonetic": "/ˈmɒnstə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 monstre ← 拉丁语 monstrum（异常征兆、怪物）；与 musa 不同源",
+      "native_definition": "an imaginary frightening creature or cruel person",
+      "core_concept": "a form so abnormal that it frightens – 形状异常到令人害怕",
+      "core_image": "阴影里伸出两只巨大爪子，墙上的轮廓远超人的大小",
+      "chinese": [
+        "怪物",
+        "恶人"
+      ],
+      "examples": [
+        "The monster changed the situation.",
+        "Researchers discussed the monster carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "怪物：想象中的可怕生物",
+        "恶人：残酷的人"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mosaic",
+      "word": "mosaic",
+      "pos": "noun",
+      "phonetic": "/məʊˈzeɪɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "musa"
+      ],
+      "root_logic": "mosa（musa 缪斯）+ -ic → 缪斯艺术做成的拼图",
+      "origin": "法语 mosaïque ← 拉丁语 musaicum（缪斯的）；与 musa 词根有关",
+      "native_definition": "a picture made from many small pieces",
+      "core_concept": "a whole image assembled from small pieces – 小片拼成的整体图像",
+      "core_image": "许多不同颜色的小石片嵌进墙面，拼成一幅完整图案",
+      "chinese": [
+        "马赛克",
+        "镶嵌画"
+      ],
+      "examples": [
+        "The mosaic changed the situation.",
+        "Researchers discussed the mosaic carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "马赛克：小片材料拼出的图案"
+      ]
+    },
+    {
+      "id": "lubricate",
+      "word": "lubricate",
+      "pos": "verb",
+      "phonetic": "/ˈluːbrɪkeɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 lubricare（使滑）；lubricus（滑的）",
+      "native_definition": "apply oil to reduce friction",
+      "core_concept": "make a surface slide more easily – 让表面更容易滑动",
+      "core_image": "齿轮咬合处滴入一滴油，金属声立刻变得顺滑",
+      "chinese": [
+        "润滑"
+      ],
+      "examples": [
+        "The lubricate changed the situation.",
+        "Researchers discussed the lubricate carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "润滑：加油减少摩擦"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "magistrate",
+      "word": "magistrate",
+      "pos": "noun",
+      "phonetic": "/ˈmædʒɪstreɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 magistratus（官职）← magister（主管）；本族暂按整体记",
+      "native_definition": "a civil officer who administers the law",
+      "core_concept": "an official entrusted with public authority – 被托付公共权力的官员",
+      "core_image": "法庭高台后的人翻开卷宗，宣读地方条例",
+      "chinese": [
+        "地方行政官",
+        "治安官"
+      ],
+      "examples": [
+        "The magistrate changed the situation.",
+        "Researchers discussed the magistrate carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "治安官：处理地方司法事务的官员"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "masculine",
+      "word": "masculine",
+      "pos": "adjective/noun",
+      "phonetic": "/ˈmæskjəlɪn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 masculin ← 拉丁语 masculinus（男性的）← masculus",
+      "native_definition": "having qualities traditionally associated with men",
+      "core_concept": "belonging to the male category – 属于男性类别",
+      "core_image": "词典页上一个符号标在名词旁，表示阳性类别",
+      "chinese": [
+        "男性的",
+        "阳性的"
+      ],
+      "examples": [
+        "The masculine changed the situation.",
+        "Researchers discussed the masculine carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "男性的：与男性相关",
+        "阳性的：语法类别"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mathematical",
+      "word": "mathematical",
+      "pos": "adjective",
+      "phonetic": "/ˌmæθəˈmætɪkl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 mathematicus ← 希腊语 mathēmatikos（学习、数学的）",
+      "native_definition": "relating to mathematics",
+      "core_concept": "made precise by numbers and formal rules – 由数字和规则确定",
+      "core_image": "黑板上排列着数字、括号和几何线条，每一步都可计算",
+      "chinese": [
+        "数学的"
+      ],
+      "examples": [
+        "The mathematical changed the situation.",
+        "Researchers discussed the mathematical carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "数学的：关于数学方法或计算"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "method",
+      "word": "method",
+      "pos": "noun",
+      "phonetic": "/ˈmeθəd/",
+      "decomposable": "root",
+      "root_ids": [
+        "hodos"
+      ],
+      "root_logic": "met-（追随）+ hod（hodos 道路）→ 沿一条路走到结果",
+      "origin": "古法语 methode ← 拉丁语 methodus ← 希腊语 methodos（追随一条路）",
+      "native_definition": "a particular way of doing something",
+      "core_concept": "a route followed to reach a result – 通往结果的一条路",
+      "core_image": "地面上铺着一串脚印，脚印从起点清楚地通到终点",
+      "chinese": [
+        "方法",
+        "条理"
+      ],
+      "examples": [
+        "The method changed the situation.",
+        "Researchers discussed the method carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "方法：做事的步骤",
+        "条理：有次序的路径"
+      ]
+    },
+    {
+      "id": "microscope",
+      "word": "microscope",
+      "pos": "noun",
+      "phonetic": "/ˈmaɪkrəskəʊp/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 microscope ← 希腊 mikros（小）+ skopein（观察）",
+      "native_definition": "an instrument for viewing very small objects",
+      "core_concept": "a device that makes tiny details visible – 使微小细节可见的装置",
+      "core_image": "镜筒下的叶片被放大成清晰的细胞网格",
+      "chinese": [
+        "显微镜"
+      ],
+      "examples": [
+        "The microscope changed the situation.",
+        "Researchers discussed the microscope carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "显微镜：观察微小物体的仪器"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "monitor",
+      "word": "monitor",
+      "pos": "noun/verb",
+      "phonetic": "/ˈmɒnɪtə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 monitor（提醒者、监督者）← monere（提醒）；族群待补，暂按整体记",
+      "native_definition": "watch and check something over time",
+      "core_concept": "a watcher that keeps checking a changing state – 持续检查变化状态的观察者",
+      "core_image": "屏幕上的曲线持续跳动，护士每隔几分钟记录一次",
+      "chinese": [
+        "监视器",
+        "监测"
+      ],
+      "examples": [
+        "The monitor changed the situation.",
+        "Researchers discussed the monitor carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "监视器：显示状态的设备",
+        "监测：持续观察记录"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "monument",
+      "word": "monument",
+      "pos": "noun",
+      "phonetic": "/ˈmɒnjʊmənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 monumentum（纪念物）← monere（提醒）；词义链需单独记",
+      "native_definition": "a structure built to remember a person or event",
+      "core_concept": "a lasting object that keeps the past before the eyes – 让过去长久留在眼前的物件",
+      "core_image": "石碑立在广场中央，底座刻着一段日期和名字",
+      "chinese": [
+        "纪念碑",
+        "遗迹"
+      ],
+      "examples": [
+        "The monument changed the situation.",
+        "Researchers discussed the monument carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "纪念碑：为记住人或事而建的建筑"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mister",
+      "word": "mister",
+      "pos": "noun",
+      "phonetic": "/ˈmɪstə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 mister ← master",
+      "native_definition": "a title used before a man’s name",
+      "core_concept": "a respectful title before a man’s name – 放在男子姓名前的称呼",
+      "core_image": "信封上姓名前印着 Mr.，收信人一眼知道称呼",
+      "chinese": [
+        "先生"
+      ],
+      "examples": [
+        "The mister changed the situation.",
+        "Researchers discussed the mister carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "先生：对男性的礼貌称呼"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "machinery",
+      "word": "machinery",
+      "pos": "noun",
+      "phonetic": "/məˈʃiːnəri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "法语 machinerie ← machine",
+      "native_definition": "machines collectively or their parts",
+      "core_concept": "many working mechanisms forming one system – 许多机构组成的系统",
+      "core_image": "厂房里许多齿轮、皮带和轴一起转动",
+      "chinese": [
+        "机器",
+        "机械装置"
+      ],
+      "examples": [
+        "The machinery changed the situation.",
+        "Researchers discussed the machinery carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "机器：共同工作的机械设备"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mainland",
+      "word": "mainland",
+      "pos": "noun",
+      "phonetic": "/ˈmeɪnlænd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 main + land；与 manus（手）不同源",
+      "native_definition": "the principal landmass of a region",
+      "core_concept": "the greater continuous land opposite an island – 与岛相对的大片陆地",
+      "core_image": "渡船驶离小岛，远处大片连续陆地铺到地平线",
+      "chinese": [
+        "大陆",
+        "本土"
+      ],
+      "examples": [
+        "The mainland changed the situation.",
+        "Researchers discussed the mainland carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大陆：连续的主要陆地"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "masterpiece",
+      "word": "masterpiece",
+      "pos": "noun",
+      "phonetic": "/ˈmɑːstəpiːs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 master + piece",
+      "native_definition": "a work of outstanding skill",
+      "core_concept": "a piece made with exceptional mastery – 技艺极高的一件作品",
+      "core_image": "画廊中央一幅画被单独打光，观众在前面停步",
+      "chinese": [
+        "杰作"
+      ],
+      "examples": [
+        "The masterpiece changed the situation.",
+        "Researchers discussed the masterpiece carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "杰作：最出色的作品"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "meeting",
+      "word": "meeting",
+      "pos": "noun",
+      "phonetic": "/ˈmiːtɪŋ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mētan（相遇）← 原始日耳曼语",
+      "native_definition": "an occasion when people come together",
+      "core_concept": "people coming together at one time – 人在同一时间聚到一起",
+      "core_image": "长桌两侧的人同时坐下，桌中央放着议程",
+      "chinese": [
+        "会议",
+        "会面"
+      ],
+      "examples": [
+        "The meeting changed the situation.",
+        "Researchers discussed the meeting carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "会议：为讨论而聚集",
+        "会面：人与人相遇"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "mistake",
+      "word": "mistake",
+      "pos": "noun/verb",
+      "phonetic": "/mɪˈsteɪk/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古诺尔斯语 mistaka（误取、误解）",
+      "native_definition": "an action or judgement that is wrong",
+      "core_concept": "a choice that sends the result off course – 使结果偏离轨道的选择",
+      "core_image": "算盘上一颗珠子拨错一格，后面的总数全偏了",
+      "chinese": [
+        "错误",
+        "弄错"
+      ],
+      "examples": [
+        "The mistake changed the situation.",
+        "Researchers discussed the mistake carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "错误：不正确的行动或判断",
+        "弄错：作出错误判断"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "misunderstand",
+      "word": "misunderstand",
+      "pos": "verb",
+      "phonetic": "/ˌmɪsʌndəˈstænd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 mis- + understand",
+      "native_definition": "interpret something incorrectly",
+      "core_concept": "take another person’s meaning in the wrong way – 把他人的意思理解错",
+      "core_image": "两个人隔着嘈杂车站说话，气泡里的句子完全对不上",
+      "chinese": [
+        "误解",
+        "误会"
+      ],
+      "examples": [
+        "The misunderstand changed the situation.",
+        "Researchers discussed the misunderstand carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "误解：错误理解意思"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "most",
+      "word": "most",
+      "pos": "adjective/adverb",
+      "phonetic": "/məʊst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mǣst ← 原始日耳曼语 *maistaz",
+      "native_definition": "the greatest amount or degree",
+      "core_concept": "the highest point in a comparison – 比较中最高的一点",
+      "core_image": "一排柱子从低到高排列，最后一根高出所有其他柱子",
+      "chinese": [
+        "最多",
+        "最"
+      ],
+      "examples": [
+        "The most changed the situation.",
+        "Researchers discussed the most carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "最多：数量最大",
+        "最：程度最高"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "motel",
+      "word": "motel",
+      "pos": "noun",
+      "phonetic": "/məʊˈtel/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 motel，motor + hotel 的缩合",
+      "native_definition": "a hotel for motorists, usually near a road",
+      "core_concept": "rooms arranged beside a road for travellers by car – 路边给驾车者的房间",
+      "core_image": "汽车停在房门外，房间门直接朝向停车位",
+      "chinese": [
+        "汽车旅馆"
+      ],
+      "examples": [
+        "The motel changed the situation.",
+        "Researchers discussed the motel carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "汽车旅馆：方便停车的旅馆"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     }
   ]
 }
