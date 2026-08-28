@@ -6230,6 +6230,10 @@
       ],
       "semantic_expansions": [
         "部分地与在一定程度上：都是'只到某个程度、没有全部'，中文两种说法对应同一个界限感"
+      ],
+      "collocations": [
+        "partly because clause —— 部分因为……",
+        "partly due to sth —— 部分由于……"
       ]
     },
     {
@@ -10331,6 +10335,10 @@
       ],
       "semantic_expansions": [
         "因此与结果：都是'作为跟着来的那一步'，中文一个作连词一个作名词"
+      ],
+      "collocations": [
+        "consequently, S + V —— 因此，表示前句导致后句",
+        "consequently + clause —— 结果是"
       ]
     },
     {
@@ -28668,7 +28676,11 @@
       "semantic_expansions": [
         "相应：照一致的标准去办"
       ],
-      "recall_hint": "according（一致）+ -ly → 与之相应"
+      "recall_hint": "according（一致）+ -ly → 与之相应",
+      "collocations": [
+        "accordingly, S + V —— 因此，依据前述情况",
+        "act accordingly —— 按情况采取相应行动"
+      ]
     },
     {
       "id": "defeat",
@@ -42670,6 +42682,10 @@
       "related": [],
       "semantic_expansions": [
         "几乎/差不多：水线顶到杯口，就差最后那一滴"
+      ],
+      "collocations": [
+        "almost all sth —— 几乎所有",
+        "almost never —— 几乎从不"
       ]
     },
     {
@@ -63761,6 +63777,10 @@
       "semantic_expansions": [
         "任一/两者之一：两样里挑出的那一样，哪样都行",
         "也：否定句里跟着说另一样同样如此"
+      ],
+      "collocations": [
+        "either A or B —— A 或 B",
+        "either of sth —— 两者之一"
       ]
     },
     {
@@ -64625,6 +64645,10 @@
         "均匀的：分布上没有哪处多出来",
         "偶数的：能两两配平的数",
         "甚至：把话推到连这个也算上"
+      ],
+      "collocations": [
+        "even if clause —— 即使",
+        "even though clause —— 尽管"
       ]
     },
     {
@@ -65176,6 +65200,10 @@
       "semantic_expansions": [
         "相当：程度到了中上，可离很好还差一截",
         "公正地：办事时拿同一把尺，不给谁开口子"
+      ],
+      "collocations": [
+        "fairly + adjective —— 相当……",
+        "fairly well —— 还算好地"
       ]
     },
     {
@@ -73732,6 +73760,10 @@
       "semantic_expansions": [
         "几乎不：有那么一丝，但少得可以不算",
         "简直不：强调那点程度根本不够"
+      ],
+      "collocations": [
+        "hardly ever —— 几乎从不",
+        "hardly had sb done when —— 刚……就……"
       ]
     },
     {
@@ -82853,6 +82885,10 @@
         "可能的：照眼下的样子看，八成会成",
         "很可能：把把握说得更足一层",
         "有希望的：够格、看着能成的那种"
+      ],
+      "collocations": [
+        "be likely to do sth —— 很可能做某事",
+        "it is likely that clause —— 很可能……"
       ]
     },
     {
@@ -85474,6 +85510,10 @@
       "semantic_expansions": [
         "仅仅：把范围收到最小的那一点",
         "只是：说明事情就这么简单，没有更多"
+      ],
+      "collocations": [
+        "merely because clause —— 仅仅因为……",
+        "merely a/an + noun —— 只不过是……"
       ]
     },
     {
@@ -87554,6 +87594,10 @@
       "semantic_expansions": [
         "两者都不：给出的两样里没有一样成立",
         "也不：接在前一个否定后面，把否定延到这一边"
+      ],
+      "collocations": [
+        "neither A nor B —— 既不 A 也不 B",
+        "neither of sth —— 两者都不"
       ]
     },
     {
@@ -92240,7 +92284,10 @@
         "从此以后：以眼下这一刻为起点的往后时间",
         "今后：同一段时间，多用在正式的告示里"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "henceforth —— 从今以后"
+      ]
     },
     {
       "id": "hi",
@@ -92902,7 +92949,11 @@
         "尽管如此：承认上文成立，下文照旧",
         "然而：转折更轻，只标明两句方向相反"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "nevertheless, S + V —— 然而，尽管前面如此",
+        "nevertheless + adjective —— 尽管如此仍然"
+      ]
     },
     {
       "id": "nightmare",
@@ -103012,6 +103063,10 @@
       "semantic_expansions": [
         "同时：两件事占着同一段时间",
         "与此同时：说完这头，另一头在同一段时间里也在动"
+      ],
+      "collocations": [
+        "meanwhile, S + V —— 与此同时",
+        "in the meantime —— 在此期间"
       ]
     },
     {
@@ -136594,7 +136649,11 @@
         "notwithstanding sth —— 尽管某事",
         "notwithstanding that 从句 —— 虽然某事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "notwithstanding sth —— 尽管某事",
+        "notwithstanding that clause —— 虽然某事"
+      ]
     },
     {
       "id": "northeast",
@@ -158276,7 +158335,10 @@
       "semantic_expansions": [
         "thereafter：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "thereafter —— 此后，从那以后"
+      ]
     },
     {
       "id": "thereby",
@@ -158303,7 +158365,10 @@
       "semantic_expansions": [
         "thereby：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "thereby doing sth —— 从而做某事"
+      ]
     },
     {
       "id": "thermal",
