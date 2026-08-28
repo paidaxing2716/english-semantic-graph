@@ -8397,6 +8397,10 @@
       "semantic_expansions": [
         "直接地：中间不经过别人别物",
         "立即：中间不隔时间。同一个'中间不隔'，一个隔的是空间一个是时间"
+      ],
+      "collocations": [
+        "directly related to sth —— 与某事直接相关",
+        "go directly to sth —— 直接去某处"
       ]
     },
     {
@@ -19499,6 +19503,10 @@
       "semantic_expansions": [
         "字面上地：照字写的那样，不转义",
         "确实地（口语强调）：真的就是这样。同一个'照字面'，一个说释义一个作强调"
+      ],
+      "collocations": [
+        "literally mean sth —— 字面意思是某事",
+        "take sth literally —— 按字面理解某事"
       ]
     },
     {
@@ -28105,7 +28113,11 @@
       "semantic_expansions": [
         "越来越/日益：程度随生长不断加大"
       ],
-      "recall_hint": "increase（增多）+ -ingly → 越来越多地"
+      "recall_hint": "increase（增多）+ -ingly → 越来越多地",
+      "collocations": [
+        "increasingly important —— 越来越重要",
+        "increasingly difficult —— 越来越困难"
+      ]
     },
     {
       "id": "gesture",
@@ -33976,7 +33988,11 @@
         "顺便说：顺着话头旁落下来的一句",
         "偶然地：不是安排好、恰巧落下的"
       ],
-      "recall_hint": "incidental（顺带落下）+ -ly → 顺着旁边落下一句"
+      "recall_hint": "incidental（顺带落下）+ -ly → 顺着旁边落下一句",
+      "collocations": [
+        "incidentally, S + V —— 顺便说一句",
+        "incidentally mentioned —— 顺带提到"
+      ]
     },
     {
       "id": "cycle",
@@ -42132,6 +42148,10 @@
       "related": [],
       "semantic_expansions": [
         "以前/之前：从当下往回退那么一段的时间点"
+      ],
+      "collocations": [
+        "three years ago —— 三年前",
+        "long ago —— 很久以前"
       ]
     },
     {
@@ -42595,6 +42615,10 @@
       "semantic_expansions": [
         "相像的：并排一比，几乎挑不出差别",
         "相似地：两边做法一个路子，看不出谁学谁"
+      ],
+      "collocations": [
+        "look alike —— 看起来相像",
+        "treat sb alike —— 同等对待某人"
       ]
     },
     {
@@ -42716,6 +42740,10 @@
       "semantic_expansions": [
         "独自的/单独：一层楼只剩自己这一盏灯",
         "仅仅：把范围缩到只剩这一个，别的都不算"
+      ],
+      "collocations": [
+        "leave sb alone —— 不打扰某人",
+        "alone in sth —— 独自处于某事中"
       ]
     },
     {
@@ -42780,6 +42808,10 @@
       "related": [],
       "semantic_expansions": [
         "出声地/大声地：从只在心里到整屋都听见，就差张嘴这一步"
+      ],
+      "collocations": [
+        "read aloud —— 大声朗读",
+        "say sth aloud —— 把某事说出来"
       ]
     },
     {
@@ -42808,6 +42840,10 @@
       "related": [],
       "semantic_expansions": [
         "已经/早已：进门时碗筷都收好了，那一步在你之前就完了"
+      ],
+      "collocations": [
+        "already done —— 已经做完",
+        "have already done sth —— 已经做过某事"
       ]
     },
     {
@@ -43941,6 +43977,10 @@
       "semantic_expansions": [
         "任何地方：落在哪一处都算的那种说法",
         "无论何处：同一个不限定，用在方向和去处上"
+      ],
+      "collocations": [
+        "anywhere else —— 其他任何地方",
+        "go anywhere —— 去任何地方"
       ]
     },
     {
@@ -44621,6 +44661,10 @@
       "semantic_expansions": [
         "上岸：从水里挪到干地上那一下",
         "在岸上：挪过去以后待着的那个位置"
+      ],
+      "collocations": [
+        "come ashore —— 上岸",
+        "wash ashore —— 冲上岸"
       ]
     },
     {
@@ -45658,6 +45702,10 @@
         "背部：肩骨之间那一面身体",
         "后面：把这一面挪到别的东西上，成了朝后那侧",
         "返回：朝这一面对着的方向走回去"
+      ],
+      "collocations": [
+        "back and forth —— 来回地",
+        "go back to sth —— 回到某事"
       ]
     },
     {
@@ -47900,6 +47948,10 @@
         "最好的：一堆里挑到最后剩下的那个",
         "最好地：做得比其余任何时候都到位",
         "最擅长的：在这件事上比别的事都拿手"
+      ],
+      "collocations": [
+        "do one's best —— 尽最大努力",
+        "at best —— 充其量"
       ]
     },
     {
@@ -57971,6 +58023,10 @@
       "semantic_expansions": [
         "每天的/每日：一天来一次，不落空",
         "日常的：天天照着来，成了不用想的事"
+      ],
+      "collocations": [
+        "daily life —— 日常生活",
+        "on a daily basis —— 每天"
       ]
     },
     {
@@ -63325,6 +63381,10 @@
         "早的：在该发生的时刻之前",
         "提前的：把时间往前挪了一截",
         "初期的：一段过程刚开头的那一截"
+      ],
+      "collocations": [
+        "early in the morning —— 一大早",
+        "at an early stage —— 在早期阶段"
       ]
     },
     {
@@ -64337,6 +64397,10 @@
       "semantic_expansions": [
         "足够的：正好到那条线",
         "充分地：程度到了可以做某事"
+      ],
+      "collocations": [
+        "enough to do sth —— 足够做某事",
+        "more than enough —— 远远足够"
       ]
     },
     {
@@ -65400,6 +65464,10 @@
         "远的：中间隔的距离长",
         "遥远的：长到几乎连不上",
         "远远地：程度上也拉开很大一段"
+      ],
+      "collocations": [
+        "far from sth —— 远非某事",
+        "so far —— 到目前为止"
       ]
     },
     {
@@ -65490,6 +65558,10 @@
         "牢固的：卡得紧，怎么拽都不松",
         "快的：紧跟着不落下，就成了速度高",
         "迅速地：动作一下接一下，中间不留空"
+      ],
+      "collocations": [
+        "fast asleep —— 熟睡",
+        "hold fast —— 紧紧抓住"
       ]
     },
     {
@@ -69156,6 +69228,9 @@
         "最前的：位置上没有谁比它更靠前",
         "首要的：一堆事里先办、最要紧的那件",
         "首先：说话时把这一条摆在最前面"
+      ],
+      "collocations": [
+        "first and foremost —— 首先也是最重要的"
       ]
     },
     {
@@ -73700,6 +73775,10 @@
         "硬的：受力不变形，也划不出印子",
         "困难的：像硬东西一样推不动，办不下来",
         "努力地：把劲用到最足，像对着硬东西使力"
+      ],
+      "collocations": [
+        "hard to do sth —— 难以做某事",
+        "work hard —— 努力工作"
       ]
     },
     {
@@ -75147,6 +75226,10 @@
         "高的：从底往上量，顶得远",
         "高处的：位置在别的东西上头",
         "程度大的：价格温度这些也能往上顶，顶得远就这么说"
+      ],
+      "collocations": [
+        "highly likely —— 很可能",
+        "high above sth —— 高高在某物上方"
       ]
     },
     {
@@ -75826,6 +75909,10 @@
         "住处：只说人住在哪儿，不带那份归属",
         "家乡：生长的那一片，比一间屋子大",
         "回家：朝那处走，也就是往回去"
+      ],
+      "collocations": [
+        "go home —— 回家",
+        "at home —— 在家"
       ]
     },
     {
@@ -77279,6 +77366,10 @@
         "内陆的：四面不挨海的那一片",
         "内地的：从边境或港口往里数的地方",
         "向内陆：动作方向朝着离海更远处"
+      ],
+      "collocations": [
+        "move inland —— 向内陆移动",
+        "inland from sth —— 在某物的内陆"
       ]
     },
     {
@@ -82259,6 +82350,10 @@
         "最少的：数量上没有比它更小的",
         "最小的：程度或分量上垫底的那一份",
         "最不：几项相比里最够不上的那一项"
+      ],
+      "collocations": [
+        "at least —— 至少",
+        "not least —— 尤其"
       ]
     },
     {
@@ -82534,6 +82629,10 @@
         "较少的：数量上比先前那份小",
         "更少：两边相比减掉更多的那边",
         "不那么：程度上往回收一点"
+      ],
+      "collocations": [
+        "less than sth —— 少于某物",
+        "no less than sth —— 不少于某物"
       ]
     },
     {
@@ -84013,6 +84112,10 @@
         "低的：位置或数值靠着底下那一端",
         "矮的：物体本身从地面量起来不高",
         "低声的：声音压到贴着底，刚够听见"
+      ],
+      "collocations": [
+        "low on sth —— 某物不足",
+        "lie low —— 暂时隐蔽"
       ]
     },
     {
@@ -85175,6 +85278,10 @@
       "semantic_expansions": [
         "也许：事情有这个可能，但不敢定",
         "或许：同样留着两头的说法，语气更缓"
+      ],
+      "collocations": [
+        "maybe later —— 也许稍后",
+        "maybe because clause —— 也许因为……"
       ]
     },
     {
@@ -87323,6 +87430,10 @@
         "近的：两者之间的距离很小",
         "靠近：往距离更小的方向移动",
         "接近：在时间或程度上快要够上"
+      ],
+      "collocations": [
+        "near to sth —— 接近某物",
+        "nowhere near sth —— 远未达到某物"
       ]
     },
     {
@@ -87352,6 +87463,10 @@
       "semantic_expansions": [
         "附近的：位置离这儿只有很短一段",
         "在附近：事情发生在离这儿不远的地方"
+      ],
+      "collocations": [
+        "nearby shops —— 附近的商店",
+        "live nearby —— 住在附近"
       ]
     },
     {
@@ -87840,6 +87955,10 @@
       "semantic_expansions": [
         "从不：过去到现在一次也没有过",
         "绝不：对将来把可能性完全堵死"
+      ],
+      "collocations": [
+        "never before —— 从未有过",
+        "never again —— 再也不"
       ]
     },
     {
@@ -93038,7 +93157,11 @@
         "常常：次数多、间隔短",
         "经常：同一意思，更偏书面与习惯性"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "often used —— 经常使用",
+        "more often than not —— 通常"
+      ]
     },
     {
       "id": "once",
@@ -93133,7 +93256,11 @@
         "向外的：方向上离开中心往外",
         "表面的：只在外面这一层看得到，里头未必如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "outward appearance —— 外表",
+        "move outward —— 向外移动"
+      ]
     },
     {
       "id": "oval",
@@ -93220,7 +93347,11 @@
         "一夜之间：变化快到只隔一晚",
         "通宵的：整夜不断，着眼于持续"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "overnight stay —— 过夜停留",
+        "change overnight —— 一夜之间改变"
+      ]
     },
     {
       "id": "owe",
@@ -95517,7 +95648,11 @@
         "敏捷的：身手或反应跟得上，不只是时间短",
         "很快：作副词用，说动作发生得急"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "quick to do sth —— 很快做某事",
+        "quick and easy —— 快速而简单"
+      ]
     },
     {
       "id": "race",
@@ -96815,7 +96950,11 @@
         "右边的：身体离心脏远的那一侧，古时视为顺手的一侧",
         "权利：正当该得的那一份"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "right away —— 立即",
+        "right to do sth —— 有权做某事"
+      ]
     },
     {
       "id": "rigid",
@@ -130507,7 +130646,11 @@
         "此后：时间上从那一刻往后。三义共享「从原处往外往前」，两义说地方，一义说时间"
       ],
       "recall_hint": "back and forth —— 来回、往复，两头之间反复移动|and so forth —— 等等，列举未尽时收尾，与 and so on 同用|from that day / time forth —— 从那时起，往后一直如此，书面语|bring / put forth sth —— 提出、生出，把原本收着的拿到外面来",
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "back and forth —— 来回地",
+        "set forth sth —— 阐述某事"
+      ]
     },
     {
       "id": "forty",
@@ -130627,7 +130770,11 @@
         "温和地：待人不带火气",
         "缓缓地：坡度或变化不陡。三义共享「不使力、慢着来」，分别落在手上、态度上与坡度上"
       ],
-      "recall_hint": "gen（生出）→ gens（族、出身）→ 出身好的人举止不粗 → 出手时不把力道加上去"
+      "recall_hint": "gen（生出）→ gens（族、出身）→ 出身好的人举止不粗 → 出手时不把力道加上去",
+      "collocations": [
+        "gently touch sth —— 轻轻触碰某物",
+        "handle sth gently —— 轻柔地处理某物"
+      ]
     },
     {
       "id": "gramme",
@@ -167235,7 +167382,11 @@
       "semantic_expansions": [
         "错误的：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "go wrong —— 出错",
+        "wrong with sth —— 某物出了问题"
+      ]
     },
     {
       "id": "yard",
@@ -167345,7 +167496,11 @@
       "semantic_expansions": [
         "每年的：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "yearly report —— 年度报告",
+        "once yearly —— 每年一次"
+      ]
     },
     {
       "id": "yell",
@@ -167429,7 +167584,11 @@
       "semantic_expansions": [
         "是：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "say yes to sth —— 同意某事",
+        "yes or no —— 是或不是"
+      ]
     },
     {
       "id": "yesterday",
@@ -167456,7 +167615,11 @@
       "semantic_expansions": [
         "昨天：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "yesterday morning —— 昨天早晨",
+        "the day before yesterday —— 前天"
+      ]
     },
     {
       "id": "yield",
