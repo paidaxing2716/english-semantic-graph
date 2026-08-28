@@ -23,10 +23,10 @@ for w in miss:
  image='一张卡片放在桌面中央，旁边摆着几件相关物品，窗光从左侧照来'
  native=f'a thing or action related to {w}'
  ex=f'The {w} changed the situation.|Researchers discussed the {w} carefully.'
- origin=('英语词条 stall，现代词义按整体记；与库中 stallum 根同源，改为补挂' if w=='stall' else f'英语词条 {w}，现代词义按整体记')
+ origin=('英语词条 string，现代词义按整体记；与库中 stringere 词族另有分立' if w=='string' else ('英语词条 tail，现代词义按整体记；与库中 taillier 词族另有分立' if w=='tail' else f'英语词条 {w}，现代词义按整体记'))
  rows.append(['W',w,p,'/ˈ'+w+'/',rid,logic,origin,native,image,z,ex,f'a clear scene connected with {w} – 与该词相连的清晰场景',f'{z}：从核心场景引出的常用义','', ''])
 assert len(rows)==90,len(rows)
-for n in (132,133,134):
- part=rows[(n-132)*30:(n-131)*30]
+for n in (135,136,137):
+ part=rows[(n-135)*30:(n-134)*30]
  (ROOT/f'drafts/g_chunk{n}.tsv').write_text('\n'.join('\t'.join(r) for r in part)+'\n',encoding='utf-8',newline='')
-print('[BUILD-OK]',len(rows),[len(rows[(n-132)*30:(n-131)*30]) for n in (132,133,134)])
+print('[BUILD-OK]',len(rows),[len(rows[(n-135)*30:(n-134)*30]) for n in (135,136,137)])
