@@ -5086,7 +5086,7 @@
     {
       "id": "ex-certainly-2",
       "word_id": "certainly",
-      "text": "\"May I sit here?\" \"Certainly.\"",
+      "text": "\"May I sit here?\" \"Certainly.\".",
       "source": "AI 生成 · 人工审核",
       "scene": "对方话没说完就已经点头了"
     },
@@ -10140,7 +10140,7 @@
     {
       "id": "ex-accordance-2",
       "word_id": "accordance",
-      "text": "in accordance with the law",
+      "text": "in accordance with the law.",
       "source": "AI 生成 · 人工审核",
       "scene": "照着图纸一比一施工，每一个尺寸都对得上图纸"
     },
@@ -73556,6 +73556,174 @@
       "text": "Researchers discussed the zoom carefully.",
       "source": "AI 生成 · 人工审核",
       "scene": "镜头从远处的山峰快速推近到一扇窗"
+    },
+    {
+      "id": "ex-figurative-2",
+      "word_id": "figurative",
+      "text": "The phrase is figurative, not literal.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-disfigure-2",
+      "word_id": "disfigure",
+      "text": "The accident disfigured the old statue.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-configuration-2",
+      "word_id": "configuration",
+      "text": "Change the configuration before restarting.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-compress-2",
+      "word_id": "compress",
+      "text": "The tool can compress large images quickly.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-formal-2",
+      "word_id": "formal",
+      "text": "He wore formal clothes to the ceremony.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-inform-2",
+      "word_id": "inform",
+      "text": "We will inform you of the final decision.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-transform-2",
+      "word_id": "transform",
+      "text": "Rain transformed the dry valley into a lake.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-reform-2",
+      "word_id": "reform",
+      "text": "The bill aims to reform the tax system.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-attract-2",
+      "word_id": "attract",
+      "text": "Bright flowers attract bees in spring.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-distract-2",
+      "word_id": "distract",
+      "text": "Loud music can distract tired drivers.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-tractor-2",
+      "word_id": "tractor",
+      "text": "The tractor pulled the trailer uphill.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-oppose-2",
+      "word_id": "oppose",
+      "text": "Local groups oppose the proposed highway.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-mission-2",
+      "word_id": "mission",
+      "text": "The spacecraft completed its mission safely.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-inspect-2",
+      "word_id": "inspect",
+      "text": "Please inspect the equipment before use.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-prospect-2",
+      "word_id": "prospect",
+      "text": "The job offers good prospects for promotion.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-spectator-2",
+      "word_id": "spectator",
+      "text": "Every spectator received a printed ticket.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-expect-2",
+      "word_id": "expect",
+      "text": "We expect the package tomorrow morning.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-describe-2",
+      "word_id": "describe",
+      "text": "Words cannot describe the beautiful view.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-prescribe-2",
+      "word_id": "prescribe",
+      "text": "The doctor prescribed rest and plenty of water.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-manuscript-2",
+      "word_id": "manuscript",
+      "text": "Her manuscript was accepted by the publisher.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-educate-2",
+      "word_id": "educate",
+      "text": "Good schools educate students for independent life.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-reduce-2",
+      "word_id": "reduce",
+      "text": "Turning off lights can reduce energy use.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-import-2",
+      "word_id": "import",
+      "text": "The country imports coffee from several regions.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-export-2",
+      "word_id": "export",
+      "text": "The company exports machines across Asia.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-transport-2",
+      "word_id": "transport",
+      "text": "Buses transport workers to the factory.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-portable-2",
+      "word_id": "portable",
+      "text": "This portable charger fits in my pocket.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-select-2",
+      "word_id": "select",
+      "text": "The committee selected three finalists.",
+      "source": "审计修复"
+    },
+    {
+      "id": "ex-state-2",
+      "word_id": "state",
+      "text": "Please state your reasons clearly.",
+      "source": "审计修复"
     }
   ]
 }
