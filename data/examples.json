@@ -56406,6 +56406,426 @@
       "text": "Each student gets a locker key.",
       "source": "AI 生成 · 人工审核",
       "scene": "更衣室墙上一排窄铁柜，各挂一把小锁，运动服和鞋都塞在自己那一格里"
+    },
+    {
+      "id": "ex-log-1",
+      "word_id": "log",
+      "text": "The captain kept a daily log.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌边摊着一本值班簿，每次发生的事按时间添上一行"
+    },
+    {
+      "id": "ex-log-2",
+      "word_id": "log",
+      "text": "A log floated down the river.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌边摊着一本值班簿，每次发生的事按时间添上一行"
+    },
+    {
+      "id": "ex-logic-1",
+      "word_id": "logic",
+      "text": "Her argument has sound logic.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几块木牌首尾相接，前一块的缺口正好接住后一块"
+    },
+    {
+      "id": "ex-logic-2",
+      "word_id": "logic",
+      "text": "There is no logic in doing it twice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "几块木牌首尾相接，前一块的缺口正好接住后一块"
+    },
+    {
+      "id": "ex-logical-1",
+      "word_id": "logical",
+      "text": "That is the most logical explanation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排箭头从一个小牌指向下一个，没有倒退或跳格"
+    },
+    {
+      "id": "ex-logical-2",
+      "word_id": "logical",
+      "text": "She made a logical decision.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一排箭头从一个小牌指向下一个，没有倒退或跳格"
+    },
+    {
+      "id": "ex-magnificent-1",
+      "word_id": "magnificent",
+      "text": "The palace has a magnificent hall.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大厅穹顶铺满金箔，阳光一照整面墙都在发亮"
+    },
+    {
+      "id": "ex-magnificent-2",
+      "word_id": "magnificent",
+      "text": "She gave a magnificent performance.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大厅穹顶铺满金箔，阳光一照整面墙都在发亮"
+    },
+    {
+      "id": "ex-longitude-1",
+      "word_id": "longitude",
+      "text": "The map shows the island’s longitude.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上从北到南画满弧线，船的位置落在其中一条上"
+    },
+    {
+      "id": "ex-longitude-2",
+      "word_id": "longitude",
+      "text": "Longitude is measured east or west.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "地图上从北到南画满弧线，船的位置落在其中一条上"
+    },
+    {
+      "id": "ex-magnitude-1",
+      "word_id": "magnitude",
+      "text": "The magnitude of the task surprised us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一把尺子量三件物体，刻度一格格向更大处延伸"
+    },
+    {
+      "id": "ex-magnitude-2",
+      "word_id": "magnitude",
+      "text": "Scientists measured the earthquake’s magnitude.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一把尺子量三件物体，刻度一格格向更大处延伸"
+    },
+    {
+      "id": "ex-malignant-1",
+      "word_id": "malignant",
+      "text": "The scan revealed a malignant tumour.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "显微镜下的细胞挤成不规则团块，边缘不断侵入旁边"
+    },
+    {
+      "id": "ex-malignant-2",
+      "word_id": "malignant",
+      "text": "He made a malignant remark.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "显微镜下的细胞挤成不规则团块，边缘不断侵入旁边"
+    },
+    {
+      "id": "ex-master-1",
+      "word_id": "master",
+      "text": "The master opened the locked door.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手握着整串钥匙，房间里的人都等他决定"
+    },
+    {
+      "id": "ex-master-2",
+      "word_id": "master",
+      "text": "She became a master of the craft.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只手握着整串钥匙，房间里的人都等他决定"
+    },
+    {
+      "id": "ex-medical-1",
+      "word_id": "medical",
+      "text": "She needs medical advice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白大褂口袋里装着听诊器，医生俯身检查病人的呼吸"
+    },
+    {
+      "id": "ex-medical-2",
+      "word_id": "medical",
+      "text": "The medical team arrived quickly.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白大褂口袋里装着听诊器，医生俯身检查病人的呼吸"
+    },
+    {
+      "id": "ex-medicine-1",
+      "word_id": "medicine",
+      "text": "The doctor prescribed new medicine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棕色药瓶立在床头，量匙里盛着一小口液体"
+    },
+    {
+      "id": "ex-medicine-2",
+      "word_id": "medicine",
+      "text": "This medicine relieved her pain.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "棕色药瓶立在床头，量匙里盛着一小口液体"
+    },
+    {
+      "id": "ex-meditate-1",
+      "word_id": "meditate",
+      "text": "She meditates for ten minutes daily.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人坐在安静房间中央，呼吸缓慢，桌上问题被一遍遍翻看"
+    },
+    {
+      "id": "ex-meditate-2",
+      "word_id": "meditate",
+      "text": "He meditated on the difficult choice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "人坐在安静房间中央，呼吸缓慢，桌上问题被一遍遍翻看"
+    },
+    {
+      "id": "ex-meditation-1",
+      "word_id": "meditation",
+      "text": "Meditation helped her sleep.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗边坐着一个人，眼睛闭着，窗外的声音逐渐退到远处"
+    },
+    {
+      "id": "ex-meditation-2",
+      "word_id": "meditation",
+      "text": "He found peace through meditation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗边坐着一个人，眼睛闭着，窗外的声音逐渐退到远处"
+    },
+    {
+      "id": "ex-memo-1",
+      "word_id": "memo",
+      "text": "I left a memo on your desk.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "办公桌角压着一张便签，几行字提醒明早要办的事"
+    },
+    {
+      "id": "ex-memo-2",
+      "word_id": "memo",
+      "text": "The manager sent a memo to staff.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "办公桌角压着一张便签，几行字提醒明早要办的事"
+    },
+    {
+      "id": "ex-mine-1",
+      "word_id": "mine",
+      "text": "Workers mine coal underground.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑暗坑道里灯光照着岩壁，工人把一块石头从层层土里取出"
+    },
+    {
+      "id": "ex-mine-2",
+      "word_id": "mine",
+      "text": "That book is mine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑暗坑道里灯光照着岩壁，工人把一块石头从层层土里取出"
+    },
+    {
+      "id": "ex-mineral-1",
+      "word_id": "mineral",
+      "text": "The soil contains useful minerals.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "岩石剖面露出几条不同颜色的晶脉，镐尖敲下一小块"
+    },
+    {
+      "id": "ex-mineral-2",
+      "word_id": "mineral",
+      "text": "Iron is an important mineral.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "岩石剖面露出几条不同颜色的晶脉，镐尖敲下一小块"
+    },
+    {
+      "id": "ex-minimize-1",
+      "word_id": "minimize",
+      "text": "We must minimize unnecessary costs.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一团纸被反复压进小盒，空隙越来越少"
+    },
+    {
+      "id": "ex-minimize-2",
+      "word_id": "minimize",
+      "text": "The design minimizes heat loss.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一团纸被反复压进小盒，空隙越来越少"
+    },
+    {
+      "id": "ex-movie-1",
+      "word_id": "movie",
+      "text": "We watched a movie after dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白幕上一格格光影快速更换，人物仿佛真的从左走到右"
+    },
+    {
+      "id": "ex-movie-2",
+      "word_id": "movie",
+      "text": "The movie tells a moving story.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白幕上一格格光影快速更换，人物仿佛真的从左走到右"
+    },
+    {
+      "id": "ex-member-1",
+      "word_id": "member",
+      "text": "She is a member of the committee.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆桌旁每个座位都放着一张写有名字的卡片"
+    },
+    {
+      "id": "ex-member-2",
+      "word_id": "member",
+      "text": "The leg is a key member of the machine.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "圆桌旁每个座位都放着一张写有名字的卡片"
+    },
+    {
+      "id": "ex-messenger-1",
+      "word_id": "messenger",
+      "text": "The messenger arrived before noon.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人夹着信封穿过院子，把信交到另一双手里"
+    },
+    {
+      "id": "ex-messenger-2",
+      "word_id": "messenger",
+      "text": "A messenger brought the news.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一个人夹着信封穿过院子，把信交到另一双手里"
+    },
+    {
+      "id": "ex-migrate-1",
+      "word_id": "migrate",
+      "text": "Many birds migrate south in winter.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "候鸟排成一条线越过海岸，旧巢在身后越来越远"
+    },
+    {
+      "id": "ex-migrate-2",
+      "word_id": "migrate",
+      "text": "Workers migrate to the cities.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "候鸟排成一条线越过海岸，旧巢在身后越来越远"
+    },
+    {
+      "id": "ex-mistress-1",
+      "word_id": "mistress",
+      "text": "The mistress of the house greeted us.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一位女士站在宅邸门口，手里握着整串钥匙"
+    },
+    {
+      "id": "ex-mistress-2",
+      "word_id": "mistress",
+      "text": "He was accused of having a mistress.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一位女士站在宅邸门口，手里握着整串钥匙"
+    },
+    {
+      "id": "ex-multitude-1",
+      "word_id": "multitude",
+      "text": "A multitude of fans filled the stadium.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场上密密麻麻站满人，远处只看见一片移动的颜色"
+    },
+    {
+      "id": "ex-multitude-2",
+      "word_id": "multitude",
+      "text": "A multitude of problems remained.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "广场上密密麻麻站满人，远处只看见一片移动的颜色"
+    },
+    {
+      "id": "ex-loudspeaker-1",
+      "word_id": "loudspeaker",
+      "text": "The announcement came through a loudspeaker.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑色喇叭架在台边，声波一圈圈扩到最后一排"
+    },
+    {
+      "id": "ex-loudspeaker-2",
+      "word_id": "loudspeaker",
+      "text": "A loudspeaker stood beside the stage.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑色喇叭架在台边，声波一圈圈扩到最后一排"
+    },
+    {
+      "id": "ex-mankind-1",
+      "word_id": "mankind",
+      "text": "The invention changed mankind.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多不同年龄的人围着一张地球仪，手都伸向同一片陆地"
+    },
+    {
+      "id": "ex-mankind-2",
+      "word_id": "mankind",
+      "text": "Mankind faces a shared challenge.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "许多不同年龄的人围着一张地球仪，手都伸向同一片陆地"
+    },
+    {
+      "id": "ex-many-1",
+      "word_id": "many",
+      "text": "Many students joined the club.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只篮子里塞满同样的小球，数也数不完"
+    },
+    {
+      "id": "ex-many-2",
+      "word_id": "many",
+      "text": "How many books did you read?",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一只篮子里塞满同样的小球，数也数不完"
+    },
+    {
+      "id": "ex-mingle-1",
+      "word_id": "mingle",
+      "text": "Oil will not mingle with water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两杯不同颜色的液体倒进同一只玻璃杯，边界慢慢消失"
+    },
+    {
+      "id": "ex-mingle-2",
+      "word_id": "mingle",
+      "text": "Guests mingled after dinner.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两杯不同颜色的液体倒进同一只玻璃杯，边界慢慢消失"
+    },
+    {
+      "id": "ex-missing-1",
+      "word_id": "missing",
+      "text": "One page is missing from the book.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上的相框留着一个空钉子，原来的照片不见了"
+    },
+    {
+      "id": "ex-missing-2",
+      "word_id": "missing",
+      "text": "The police searched for the missing child.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "墙上的相框留着一个空钉子，原来的照片不见了"
+    },
+    {
+      "id": "ex-monotonous-1",
+      "word_id": "monotonous",
+      "text": "The lecture became monotonous.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "传送带不停吐出完全相同的盒子，机器声一拍不变"
+    },
+    {
+      "id": "ex-monotonous-2",
+      "word_id": "monotonous",
+      "text": "He spoke in a monotonous voice.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "传送带不停吐出完全相同的盒子，机器声一拍不变"
+    },
+    {
+      "id": "ex-more-1",
+      "word_id": "more",
+      "text": "We need more time.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一只杯子又被添了一勺，液面继续往上升"
+    },
+    {
+      "id": "ex-more-2",
+      "word_id": "more",
+      "text": "She asked for more water.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "同一只杯子又被添了一勺，液面继续往上升"
+    },
+    {
+      "id": "ex-mother-1",
+      "word_id": "mother",
+      "text": "Her mother called yesterday.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "婴儿蜷在怀里，手指紧紧抓住衣襟"
+    },
+    {
+      "id": "ex-mother-2",
+      "word_id": "mother",
+      "text": "The plant is the mother of several varieties.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "婴儿蜷在怀里，手指紧紧抓住衣襟"
     }
   ]
 }

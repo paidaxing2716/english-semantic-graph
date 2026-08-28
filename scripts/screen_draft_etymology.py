@@ -80,7 +80,14 @@ def main():
             "subter", "ante", "post", "prae", "retro", "extra", "infra",
             "intra", "juxta", "quasi", "ultra", "semi", "multi", "omni",
             "bene", "male", "vice", "amphi", "anti", "cata", "meta", "para",
-            "peri", "hyper", "hypo", "endo", "exo"}
+            "peri", "hyper", "hypo", "endo", "exo",
+            # 三四字母的古典前缀。原先只挡长前缀，是因为短的本来就被长度下限
+            # 顺带挡住了；给根自己声明的词形放宽下限后（见下方 declared），
+            # 它们会现形：`per` 是 experiri 的变体，一放宽就命中 perfect /
+            # perform / perceive / percent / perspective 五个 per- 开头的词，
+            # 而承义的根本不是它。前缀不承载词根语义，一律不做键。
+            "per", "par", "pro", "pre", "sub", "sur", "dis", "dif", "con",
+            "com", "col", "cor", "obs", "abs", "des", "ses"}
 
     # 【排除措辞】origin 是散文，会正当地提到**别的**拉丁词来划清界限：
     #   profiteri 的 origin 写「与 profile 的 filum（线）一支毫无关系，勿混」
@@ -165,9 +172,27 @@ def main():
         steal = {c for c in keep if c.lower() in owned and c.lower() not in mine}
         if steal:
             borrowed[r["id"]] = sorted(steal)
-        cand |= (keep - steal)
-        cand = {c for c in cand
-                if c and len(c) >= a.min_len and c.isalpha() and c not in STOP}
+        # 长度下限只该管**从 origin 散文里抽出来的**词元——那里噪声大。根**自己
+        # 声明的** id / root / variants 不是噪声，是刻意选定的标识，可以放宽，
+        # 但**放宽到 4 而不是 3**。这个界是量出来的，不是估的：
+        #
+        #   下限 3：4 个失明的根全部现形，但 chunk109 的伪报从 0 涨到 4，全是
+        #           日耳曼词的古英语词形与拉丁词干同形——leg（古诺尔斯 leggr）撞
+        #           legere、loc（古英语 loc 门闩）撞 loc（locus）、man 撞 manus、
+        #           stan 撞 sta。真实批次里孤立词占多数，这类撞得最凶。
+        #   下限 4：cura（13 员，最大的那个失明根）现形，上面四个 3 字母的撞名
+        #           全部避开。res / via（各 5 员）仍失明，改法在数据侧——给它们的
+        #           origin 补一个 ≥5 字母的同族词形（curare 那种），不在这里放宽。
+        #
+        # 只按控制样本调这个数会调错：400 个已挂根的词里短词干撞名很少，
+        # 真实批次里到处都是。
+        declared = {c for c in ({r["id"], r.get("root", "")}
+                                | set(r.get("variants") or []))
+                    if c and len(c) >= 4 and c.isalpha() and c not in STOP}
+        declared -= {c for c in (r.get("noisy_variants") or [])}
+        harvested = {c for c in (keep - steal)
+                     if len(c) >= a.min_len and c.isalpha() and c not in STOP}
+        cand = declared | harvested
         if cand:
             forms[r["id"]] = cand
         drop = {c for c in drop if len(c) >= a.min_len and c.isalpha()
