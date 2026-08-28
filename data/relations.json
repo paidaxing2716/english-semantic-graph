@@ -12810,6 +12810,30 @@
       "to": "judgement",
       "type": "root",
       "note": "judge（jus 法、准 → judex 宣法的人）+ -ment（名词）→ 依那把准比过之后落下的那句话"
+    },
+    {
+      "from": "imperare",
+      "to": "empire",
+      "type": "root",
+      "note": "emp（← imperium 号令之权）-ire → 号令所能统辖的那一整片"
+    },
+    {
+      "from": "imperare",
+      "to": "emperor",
+      "type": "root",
+      "note": "emper（← imperator 发号令的统帅）+ -or（人）→ 发号令的那个人"
+    },
+    {
+      "from": "emere",
+      "to": "exemplify",
+      "type": "root",
+      "note": "exempl（← exemplum 从整批取出的那一件）+ -ify（使）→ 把取出的那一件摆出来替整批说话"
+    },
+    {
+      "from": "similis",
+      "to": "assimilate",
+      "type": "root",
+      "note": "as-（ad- 朝着）+ simil（similis 相像）+ -ate → 朝着周围变得同一样"
     }
   ]
 }

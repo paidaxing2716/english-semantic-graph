@@ -6169,6 +6169,7 @@
       "word_ids": [
         "assemble",
         "assembly",
+        "assimilate",
         "similar",
         "simulate",
         "simultaneous"
@@ -6514,6 +6515,7 @@
       "english_definition": "to take, take out, buy",
       "word_ids": [
         "example",
+        "exemplify",
         "exempt"
       ]
     },
@@ -6597,6 +6599,8 @@
       "core_image": "一个人抬手说了一句，底下几千人跟着动，声音传到最远的边镇",
       "english_definition": "to command, to rule over",
       "word_ids": [
+        "emperor",
+        "empire",
         "imperative",
         "imperial"
       ]

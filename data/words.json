@@ -122008,9 +122008,11 @@
       "word": "assimilate",
       "pos": "verb",
       "phonetic": "/əˈsɪmɪleɪt/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "similis"
+      ],
+      "root_logic": "as-（ad- 朝着）+ simil（similis 相像）+ -ate → 朝着周围变得同一样",
       "origin": "拉丁语 assimilatus（assimilare/assimulare 的过去分词）← ad-（向着）+ similis（相像）",
       "native_definition": "to take something in completely, or to become like the people around you",
       "core_concept": "made like what surrounds it – 变得和周围的一样",
@@ -122034,8 +122036,7 @@
       ],
       "collocations": [
         "assimilate into sth —— 融入某个群体，介词固定 into"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "astronomy",
@@ -127533,9 +127534,11 @@
       "word": "emperor",
       "pos": "noun",
       "phonetic": "/ˈempərə/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "imperare"
+      ],
+      "root_logic": "emper（← imperator 发号令的统帅）+ -or（人）→ 发号令的那个人",
       "origin": "古法语 empereor ← 拉丁语 imperator（统帅）← imperare（下令、统辖）：in-（向）+ parare（备置）；承义的是下令统辖这一支，不是备置，故未挂 parare",
       "native_definition": "the male ruler of an empire",
       "core_concept": "the one whose word moves everyone – 一句话就能调动所有人的那个人",
@@ -127554,8 +127557,7 @@
       "semantic_expansions": [
         "皇帝：统辖整个帝国的最高统治者",
         "君主：世袭掌国的那一类统治者"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "cooperative",
@@ -127861,9 +127863,11 @@
       "word": "empire",
       "pos": "noun",
       "phonetic": "/ˈempaɪə/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "imperare"
+      ],
+      "root_logic": "emp（← imperium 号令之权）-ire → 号令所能统辖的那一整片",
       "origin": "古法语 empire ← 拉丁语 imperium（号令之权）← imperare（下令、统辖）：in-（向）+ parare（备置）；承义的是下令统辖这一支，不是备置，故未挂 parare，与库中 emperor 同一处理",
       "native_definition": "a large group of territories or peoples ruled by a single supreme authority",
       "core_concept": "many lands answering to one voice – 许多地方听同一个声音发号令",
@@ -127884,8 +127888,7 @@
         "帝国：许多地方被一个至高权力收在一起，令出一处",
         "帝位：坐在那个至高位置上的身份",
         "大企业集团：一人或一家把一大摊生意攥在手里，结构与前者同理"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "engineer",
@@ -129224,9 +129227,11 @@
       "word": "exemplify",
       "pos": "verb",
       "phonetic": "/ɪɡˈzemplɪfaɪ/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "emere"
+      ],
+      "root_logic": "exempl（← exemplum 从整批取出的那一件）+ -ify（使）→ 把取出的那一件摆出来替整批说话",
       "origin": "中世纪拉丁语 exemplificare ← 拉丁语 exemplum（从整批里取出的一件）← eximere：ex-（出）+ emere（取）",
       "native_definition": "to be a typical example of something, or to show something by example",
       "core_concept": "holding one out of the batch to stand for all – 从整批里取一件出来替其余说话",
@@ -129244,8 +129249,7 @@
       "related": [],
       "semantic_expansions": [
         "例证与举例说明：都是「取一件出来替整批说话」，中文一个偏它本身，一个偏这个做法"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "exercise",

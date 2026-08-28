@@ -47,6 +47,16 @@ ATTACH = {
     "applaud": ("plaudere", "ap-（ad- 朝）+ plaud（plaudere 拍手）→ 朝着台上把两掌拍响"),
     "applause": ("plaudere", "ap-（ad- 朝）+ plaus（plaudere 拍手）+ -e → 朝台上拍出来的那一片响"),
     "atmosphere": ("sphaira", "atmo-（气）+ sphere（← sphaira 球）→ 罩在这颗球外头那层气"),
+    # ---- 三处小挂接：根已建好，但这几个词先入库成了孤立词条 ----
+    # empire/emperor 自己的 origin 写着「承义的是下令统辖这一支，不是备置，故未挂
+    # parare」——那句等于说这一支该有自己的根（imperare），现在有了。
+    "empire": ("imperare", "emp（← imperium 号令之权）-ire → 号令所能统辖的那一整片"),
+    "emperor": ("imperare", "emper（← imperator 发号令的统帅）+ -or（人）→ 发号令的那个人"),
+    # exemplify ← exemplum（从整批里取出的一件）← eximere ← emere（取）；
+    # 根的 origin 已明写这条链和 exemplum 这一支。
+    "exemplify": ("emere", "exempl（← exemplum 从整批取出的那一件）+ -ify（使）→ 把取出的那一件摆出来替整批说话"),
+    # similis 的 origin 明写「ad-＋similis 一支出 assimilare」。
+    "assimilate": ("similis", "as-（ad- 朝着）+ simil（similis 相像）+ -ate → 朝着周围变得同一样"),
 }
 
 
