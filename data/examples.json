@@ -57246,6 +57246,426 @@
       "text": "Researchers discussed the motel carefully.",
       "source": "AI 生成 · 人工审核",
       "scene": "汽车停在房门外，房间门直接朝向停车位"
+    },
+    {
+      "id": "ex-mind-1",
+      "word_id": "mind",
+      "text": "The mind changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一盏灯照着书页，人的注意力停在其中一行"
+    },
+    {
+      "id": "ex-mind-2",
+      "word_id": "mind",
+      "text": "Researchers discussed the mind carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一盏灯照着书页，人的注意力停在其中一行"
+    },
+    {
+      "id": "ex-municipal-1",
+      "word_id": "municipal",
+      "text": "The municipal changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "市政厅门前挂着城市徽章，工作人员处理本地事务"
+    },
+    {
+      "id": "ex-municipal-2",
+      "word_id": "municipal",
+      "text": "Researchers discussed the municipal carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "市政厅门前挂着城市徽章，工作人员处理本地事务"
+    },
+    {
+      "id": "ex-muscle-1",
+      "word_id": "muscle",
+      "text": "The muscle changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手臂弯曲时皮肤下的线条隆起又放松"
+    },
+    {
+      "id": "ex-muscle-2",
+      "word_id": "muscle",
+      "text": "Researchers discussed the muscle carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手臂弯曲时皮肤下的线条隆起又放松"
+    },
+    {
+      "id": "ex-muscular-1",
+      "word_id": "muscular",
+      "text": "The muscular changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "运动员抬起重物，肩背轮廓在衣服下清楚凸起"
+    },
+    {
+      "id": "ex-muscular-2",
+      "word_id": "muscular",
+      "text": "Researchers discussed the muscular carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "运动员抬起重物，肩背轮廓在衣服下清楚凸起"
+    },
+    {
+      "id": "ex-mushroom-1",
+      "word_id": "mushroom",
+      "text": "The mushroom changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "潮湿树根旁一夜冒出几顶圆伞，颜色深浅各不相同"
+    },
+    {
+      "id": "ex-mushroom-2",
+      "word_id": "mushroom",
+      "text": "Researchers discussed the mushroom carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "潮湿树根旁一夜冒出几顶圆伞，颜色深浅各不相同"
+    },
+    {
+      "id": "ex-mutter-1",
+      "word_id": "mutter",
+      "text": "The mutter changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "嘴唇动着但旁边的人听不清"
+    },
+    {
+      "id": "ex-mutter-2",
+      "word_id": "mutter",
+      "text": "Researchers discussed the mutter carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "嘴唇动着但旁边的人听不清"
+    },
+    {
+      "id": "ex-mysterious-1",
+      "word_id": "mysterious",
+      "text": "The mysterious changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾中的房门半掩，门后只有一线看不清的灯光"
+    },
+    {
+      "id": "ex-mysterious-2",
+      "word_id": "mysterious",
+      "text": "Researchers discussed the mysterious carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "雾中的房门半掩，门后只有一线看不清的灯光"
+    },
+    {
+      "id": "ex-mystery-1",
+      "word_id": "mystery",
+      "text": "The mystery changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上只有一把钥匙和一张没有署名的纸条"
+    },
+    {
+      "id": "ex-mystery-2",
+      "word_id": "mystery",
+      "text": "Researchers discussed the mystery carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "桌上只有一把钥匙和一张没有署名的纸条"
+    },
+    {
+      "id": "ex-narrative-1",
+      "word_id": "narrative",
+      "text": "The narrative changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一串卡片按时间排开，每张接着下一张讲完一段经历"
+    },
+    {
+      "id": "ex-narrative-2",
+      "word_id": "narrative",
+      "text": "Researchers discussed the narrative carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "一串卡片按时间排开，每张接着下一张讲完一段经历"
+    },
+    {
+      "id": "ex-neglect-1",
+      "word_id": "neglect",
+      "text": "The neglect changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "花盆放在窗角，土已干裂，叶子垂下却没人浇水"
+    },
+    {
+      "id": "ex-neglect-2",
+      "word_id": "neglect",
+      "text": "Researchers discussed the neglect carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "花盆放在窗角，土已干裂，叶子垂下却没人浇水"
+    },
+    {
+      "id": "ex-negligible-1",
+      "word_id": "negligible",
+      "text": "The negligible changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平两边放着物体，新增的那粒尘土几乎不改变指针"
+    },
+    {
+      "id": "ex-negligible-2",
+      "word_id": "negligible",
+      "text": "Researchers discussed the negligible carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "天平两边放着物体，新增的那粒尘土几乎不改变指针"
+    },
+    {
+      "id": "ex-negotiate-1",
+      "word_id": "negotiate",
+      "text": "The negotiate changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长桌两边的人交换文件，最后把笔同时放在一份协议上"
+    },
+    {
+      "id": "ex-negotiate-2",
+      "word_id": "negotiate",
+      "text": "Researchers discussed the negotiate carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "长桌两边的人交换文件，最后把笔同时放在一份协议上"
+    },
+    {
+      "id": "ex-newspaper-1",
+      "word_id": "newspaper",
+      "text": "The newspaper changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "早餐桌上摊开一张大纸，标题和照片排成多栏"
+    },
+    {
+      "id": "ex-newspaper-2",
+      "word_id": "newspaper",
+      "text": "Researchers discussed the newspaper carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "早餐桌上摊开一张大纸，标题和照片排成多栏"
+    },
+    {
+      "id": "ex-next-1",
+      "word_id": "next",
+      "text": "The next changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍里一个人紧挨着前一个，轮到他时向前一步"
+    },
+    {
+      "id": "ex-next-2",
+      "word_id": "next",
+      "text": "Researchers discussed the next carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "队伍里一个人紧挨着前一个，轮到他时向前一步"
+    },
+    {
+      "id": "ex-nor-1",
+      "word_id": "nor",
+      "text": "The nor changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两盏灯都熄着，门口的牌子写着两个选择都不成立"
+    },
+    {
+      "id": "ex-nor-2",
+      "word_id": "nor",
+      "text": "Researchers discussed the nor carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "两盏灯都熄着，门口的牌子写着两个选择都不成立"
+    },
+    {
+      "id": "ex-notwithstanding-1",
+      "word_id": "notwithstanding",
+      "text": "The notwithstanding changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大雨打在伞面上，行人仍沿原路往前走"
+    },
+    {
+      "id": "ex-notwithstanding-2",
+      "word_id": "notwithstanding",
+      "text": "Researchers discussed the notwithstanding carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "大雨打在伞面上，行人仍沿原路往前走"
+    },
+    {
+      "id": "ex-northeast-1",
+      "word_id": "northeast",
+      "text": "The northeast changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指南针的指针停在北和东之间的斜角"
+    },
+    {
+      "id": "ex-northeast-2",
+      "word_id": "northeast",
+      "text": "Researchers discussed the northeast carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指南针的指针停在北和东之间的斜角"
+    },
+    {
+      "id": "ex-northwest-1",
+      "word_id": "northwest",
+      "text": "The northwest changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指南针的指针停在北和西之间的斜角"
+    },
+    {
+      "id": "ex-northwest-2",
+      "word_id": "northwest",
+      "text": "Researchers discussed the northwest carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "指南针的指针停在北和西之间的斜角"
+    },
+    {
+      "id": "ex-nothing-1",
+      "word_id": "nothing",
+      "text": "The nothing changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "打开的盒子里空空的，连一张纸片也没有"
+    },
+    {
+      "id": "ex-nothing-2",
+      "word_id": "nothing",
+      "text": "Researchers discussed the nothing carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "打开的盒子里空空的，连一张纸片也没有"
+    },
+    {
+      "id": "ex-notice-1",
+      "word_id": "notice",
+      "text": "The notice changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗边的人抬头，立刻看到玻璃上的一道新裂纹"
+    },
+    {
+      "id": "ex-notice-2",
+      "word_id": "notice",
+      "text": "Researchers discussed the notice carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "窗边的人抬头，立刻看到玻璃上的一道新裂纹"
+    },
+    {
+      "id": "ex-noticeable-1",
+      "word_id": "noticeable",
+      "text": "The noticeable changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白墙上的一块深色污迹远远就能看见"
+    },
+    {
+      "id": "ex-noticeable-2",
+      "word_id": "noticeable",
+      "text": "Researchers discussed the noticeable carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "白墙上的一块深色污迹远远就能看见"
+    },
+    {
+      "id": "ex-now-1",
+      "word_id": "now",
+      "text": "The now changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钟面上的秒针正指着最上方，正在发生的事没有过去"
+    },
+    {
+      "id": "ex-now-2",
+      "word_id": "now",
+      "text": "Researchers discussed the now carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "钟面上的秒针正指着最上方，正在发生的事没有过去"
+    },
+    {
+      "id": "ex-nuclear-1",
+      "word_id": "nuclear",
+      "text": "The nuclear changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剖开的圆形结构中央有一个密实的小点，周围层层环绕"
+    },
+    {
+      "id": "ex-nuclear-2",
+      "word_id": "nuclear",
+      "text": "Researchers discussed the nuclear carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "剖开的圆形结构中央有一个密实的小点，周围层层环绕"
+    },
+    {
+      "id": "ex-numb-1",
+      "word_id": "numb",
+      "text": "The numb changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手在雪水里泡久后，指尖被轻轻捏也没有反应"
+    },
+    {
+      "id": "ex-numb-2",
+      "word_id": "numb",
+      "text": "Researchers discussed the numb carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "手在雪水里泡久后，指尖被轻轻捏也没有反应"
+    },
+    {
+      "id": "ex-number-1",
+      "word_id": "number",
+      "text": "The number changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上排列着一串符号，每个符号对应一组物体"
+    },
+    {
+      "id": "ex-number-2",
+      "word_id": "number",
+      "text": "Researchers discussed the number carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "黑板上排列着一串符号，每个符号对应一组物体"
+    },
+    {
+      "id": "ex-nutrition-1",
+      "word_id": "nutrition",
+      "text": "The nutrition changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "餐盘里的食物经过消化示意图，箭头指向身体各处"
+    },
+    {
+      "id": "ex-nutrition-2",
+      "word_id": "nutrition",
+      "text": "Researchers discussed the nutrition carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "餐盘里的食物经过消化示意图，箭头指向身体各处"
+    },
+    {
+      "id": "ex-obscure-1",
+      "word_id": "obscure",
+      "text": "The obscure changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厚雾遮住山谷，远处的路只剩看不清的轮廓"
+    },
+    {
+      "id": "ex-obscure-2",
+      "word_id": "obscure",
+      "text": "Researchers discussed the obscure carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "厚雾遮住山谷，远处的路只剩看不清的轮廓"
+    },
+    {
+      "id": "ex-observation-1",
+      "word_id": "observation",
+      "text": "The observation changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "研究员透过玻璃逐项记录实验装置的变化"
+    },
+    {
+      "id": "ex-observation-2",
+      "word_id": "observation",
+      "text": "Researchers discussed the observation carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "研究员透过玻璃逐项记录实验装置的变化"
+    },
+    {
+      "id": "ex-observe-1",
+      "word_id": "observe",
+      "text": "The observe changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "望远镜对准远处鸟巢，记录者一动不动地记下每次动作"
+    },
+    {
+      "id": "ex-observe-2",
+      "word_id": "observe",
+      "text": "Researchers discussed the observe carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "望远镜对准远处鸟巢，记录者一动不动地记下每次动作"
+    },
+    {
+      "id": "ex-obstacle-1",
+      "word_id": "obstacle",
+      "text": "The obstacle changed the situation.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小路中央横着倒木，行人只能停下寻找绕行处"
+    },
+    {
+      "id": "ex-obstacle-2",
+      "word_id": "obstacle",
+      "text": "Researchers discussed the obstacle carefully.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小路中央横着倒木，行人只能停下寻找绕行处"
     }
   ]
 }

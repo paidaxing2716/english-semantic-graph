@@ -12978,6 +12978,24 @@
       "to": "method",
       "type": "root",
       "note": "met-（追随）+ hod（hodos 道路）→ 沿一条路走到结果"
+    },
+    {
+      "from": "gnoscere",
+      "to": "notice",
+      "type": "root",
+      "note": "not（noscere 知道）+ -ice → 被意识捕捉到"
+    },
+    {
+      "from": "numerus",
+      "to": "number",
+      "type": "root",
+      "note": "numer（numerus 数）→ 用来计数和识别的标记"
+    },
+    {
+      "from": "nutrire",
+      "to": "nutrition",
+      "type": "root",
+      "note": "nutr（nutrire 滋养）+ -ition → 被身体吸收的滋养"
     }
   ]
 }

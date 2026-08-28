@@ -136141,6 +136141,870 @@
         "汽车旅馆：方便停车的旅馆"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "mind",
+      "word": "mind",
+      "pos": "noun/verb",
+      "phonetic": "/maɪnd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 gemynd（记忆、心智）← 原始日耳曼语 *ga-mundiz；与 mens（心）不同源",
+      "native_definition": "the part of a person that thinks and remembers",
+      "core_concept": "the inner place where thoughts are held – 收纳念头的内在处所",
+      "core_image": "一盏灯照着书页，人的注意力停在其中一行",
+      "chinese": [
+        "头脑",
+        "心思",
+        "介意"
+      ],
+      "examples": [
+        "The mind changed the situation.",
+        "Researchers discussed the mind carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "头脑：思考与记忆的能力",
+        "介意：把某事放在心上"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "municipal",
+      "word": "municipal",
+      "pos": "adjective",
+      "phonetic": "/mjuːˈnɪsɪpl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 municipalis（市政的）← municipium（自治市）；与 mun（公共服务）词族分立",
+      "native_definition": "relating to a town or its local government",
+      "core_concept": "belonging to a self-governing town – 属于自治城镇的",
+      "core_image": "市政厅门前挂着城市徽章，工作人员处理本地事务",
+      "chinese": [
+        "市政的",
+        "地方政府的"
+      ],
+      "examples": [
+        "The municipal changed the situation.",
+        "Researchers discussed the municipal carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "市政的：与城市地方政府有关"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "muscle",
+      "word": "muscle",
+      "pos": "noun",
+      "phonetic": "/ˈmʌsl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 muscle ← 拉丁语 musculus（小老鼠、小肌肉）← mus（老鼠）；词源链不传可学联系",
+      "native_definition": "a body tissue that produces movement",
+      "core_concept": "tissue that tightens to move the body – 收紧以带动身体的组织",
+      "core_image": "手臂弯曲时皮肤下的线条隆起又放松",
+      "chinese": [
+        "肌肉"
+      ],
+      "examples": [
+        "The muscle changed the situation.",
+        "Researchers discussed the muscle carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "肌肉：收缩产生动作的身体组织"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "muscular",
+      "word": "muscular",
+      "pos": "adjective",
+      "phonetic": "/ˈmʌskjələ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 muscularis（肌肉的）← musculus；与 musa（缪斯）不同源",
+      "native_definition": "having well-developed muscles",
+      "core_concept": "built with visibly strong muscle – 肌肉轮廓明显强健",
+      "core_image": "运动员抬起重物，肩背轮廓在衣服下清楚凸起",
+      "chinese": [
+        "肌肉发达的",
+        "强壮的"
+      ],
+      "examples": [
+        "The muscular changed the situation.",
+        "Researchers discussed the muscular carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "肌肉发达的：肌肉很强",
+        "强壮的：体格有力"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mushroom",
+      "word": "mushroom",
+      "pos": "noun",
+      "phonetic": "/ˈmʌʃruːm/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 mousseron；英语 mushroom，词源更早不明",
+      "native_definition": "a fungus with a rounded cap and stem",
+      "core_concept": "a rounded growth rising from the ground – 从地面长出的圆顶物",
+      "core_image": "潮湿树根旁一夜冒出几顶圆伞，颜色深浅各不相同",
+      "chinese": [
+        "蘑菇"
+      ],
+      "examples": [
+        "The mushroom changed the situation.",
+        "Researchers discussed the mushroom carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "蘑菇：有菌盖和菌柄的真菌"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mutter",
+      "word": "mutter",
+      "pos": "verb/noun",
+      "phonetic": "/ˈmʌtə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 muteren（低声说）；拟声起源",
+      "native_definition": "speak in a low voice that is difficult to hear",
+      "core_concept": "words released too softly for clear hearing – 声音太低而听不清的话",
+      "core_image": "嘴唇动着但旁边的人听不清",
+      "chinese": [
+        "咕哝",
+        "喃喃自语"
+      ],
+      "examples": [
+        "The mutter changed the situation.",
+        "Researchers discussed the mutter carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "咕哝：低声不清楚地说"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "mysterious",
+      "word": "mysterious",
+      "pos": "adjective",
+      "phonetic": "/mɪˈstɪəriəs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 misterie ← 拉丁 mysterium ← 希腊 mystērion（秘密仪式）",
+      "native_definition": "difficult to understand or explain",
+      "core_concept": "kept beyond ordinary understanding – 藏在通常理解之外",
+      "core_image": "雾中的房门半掩，门后只有一线看不清的灯光",
+      "chinese": [
+        "神秘的",
+        "难以解释的"
+      ],
+      "examples": [
+        "The mysterious changed the situation.",
+        "Researchers discussed the mysterious carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "神秘的：难以解释或看透"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "mystery",
+      "word": "mystery",
+      "pos": "noun",
+      "phonetic": "/ˈmɪstəri/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 mystere ← 拉丁 mysterium ← 希腊 mystērion（秘密仪式）",
+      "native_definition": "something difficult to explain or understand",
+      "core_concept": "a matter whose answer remains hidden – 答案仍藏着的事情",
+      "core_image": "桌上只有一把钥匙和一张没有署名的纸条",
+      "chinese": [
+        "谜",
+        "神秘事物"
+      ],
+      "examples": [
+        "The mystery changed the situation.",
+        "Researchers discussed the mystery carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "谜：尚未解开的疑问",
+        "神秘事物：难以理解的事情"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "narrative",
+      "word": "narrative",
+      "pos": "noun/adjective",
+      "phonetic": "/ˈnærətɪv/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 narrativus ← narrare（讲述）",
+      "native_definition": "a spoken or written account of connected events",
+      "core_concept": "events connected and told in sequence – 按次序连起来讲的事件",
+      "core_image": "一串卡片按时间排开，每张接着下一张讲完一段经历",
+      "chinese": [
+        "叙述",
+        "故事"
+      ],
+      "examples": [
+        "The narrative changed the situation.",
+        "Researchers discussed the narrative carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "叙述：对事件的连贯讲述",
+        "故事：讲出的事件线"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "neglect",
+      "word": "neglect",
+      "pos": "verb/noun",
+      "phonetic": "/nɪˈɡlekt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 neglegere（不理会、疏忽）← nec + legere；与库中 legere 一族的「拾取、挑选」另有分立",
+      "native_definition": "fail to give proper care or attention",
+      "core_concept": "leaving a duty unattended – 把应照料的事搁在一边",
+      "core_image": "花盆放在窗角，土已干裂，叶子垂下却没人浇水",
+      "chinese": [
+        "忽视",
+        "疏忽"
+      ],
+      "examples": [
+        "The neglect changed the situation.",
+        "Researchers discussed the neglect carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "忽视：不注意应处理的事",
+        "疏忽：没有尽到照料义务"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "negligible",
+      "word": "negligible",
+      "pos": "adjective",
+      "phonetic": "/ˈneɡlɪdʒəbl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 negligi（不理会）← neglegere；与 legere（拾取）这一支不同源",
+      "native_definition": "so small or unimportant that it can be ignored",
+      "core_concept": "too slight to affect the result – 轻到不影响结果",
+      "core_image": "天平两边放着物体，新增的那粒尘土几乎不改变指针",
+      "chinese": [
+        "微不足道的",
+        "可忽略的"
+      ],
+      "examples": [
+        "The negligible changed the situation.",
+        "Researchers discussed the negligible carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "微不足道的：数量或影响极小"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "negotiate",
+      "word": "negotiate",
+      "pos": "verb",
+      "phonetic": "/nɪˈɡəʊʃieɪt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 negotiari（做生意、处理事务）← negotium（事务）",
+      "native_definition": "try to reach an agreement by discussion",
+      "core_concept": "work through terms until both sides can agree – 逐条处理条件达成一致",
+      "core_image": "长桌两边的人交换文件，最后把笔同时放在一份协议上",
+      "chinese": [
+        "谈判",
+        "协商"
+      ],
+      "examples": [
+        "The negotiate changed the situation.",
+        "Researchers discussed the negotiate carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "谈判：通过讨论达成协议",
+        "协商：共同处理条件"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "newspaper",
+      "word": "newspaper",
+      "pos": "noun",
+      "phonetic": "/ˈnjuːzˌpeɪpə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 news + paper",
+      "native_definition": "a printed publication containing current events",
+      "core_concept": "printed pages carrying recent public information – 印着近期公共消息的纸页",
+      "core_image": "早餐桌上摊开一张大纸，标题和照片排成多栏",
+      "chinese": [
+        "报纸"
+      ],
+      "examples": [
+        "The newspaper changed the situation.",
+        "Researchers discussed the newspaper carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "报纸：定期刊登新闻的出版物"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "next",
+      "word": "next",
+      "pos": "adjective/adverb",
+      "phonetic": "/nekst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 niehst（最近的）← 原始日耳曼语 *nēhwistaz",
+      "native_definition": "following immediately in time or order",
+      "core_concept": "the one immediately following – 紧跟在后面的那一个",
+      "core_image": "队伍里一个人紧挨着前一个，轮到他时向前一步",
+      "chinese": [
+        "下一个",
+        "紧接着"
+      ],
+      "examples": [
+        "The next changed the situation.",
+        "Researchers discussed the next carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "下一个：顺序紧接的一项",
+        "紧接着：时间或位置相邻"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "nor",
+      "word": "nor",
+      "pos": "conjunction",
+      "phonetic": "/nɔː/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 nor（ne + or）",
+      "native_definition": "used to introduce a further negative statement",
+      "core_concept": "a second negative joined to the first – 接在第一个否定后面的第二个否定",
+      "core_image": "两盏灯都熄着，门口的牌子写着两个选择都不成立",
+      "chinese": [
+        "也不",
+        "也没有"
+      ],
+      "examples": [
+        "The nor changed the situation.",
+        "Researchers discussed the nor carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "nor + 助动词 + 主语 —— 前句否定后补充另一项也不成立"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "notwithstanding",
+      "word": "notwithstanding",
+      "pos": "preposition/conjunction",
+      "phonetic": "/ˌnɒtwɪðˈstændɪŋ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 not + withstanding（站在对面）；现代复合结构",
+      "native_definition": "in spite of something",
+      "core_concept": "a fact present but not stopping what follows – 情况存在却没拦住后事",
+      "core_image": "大雨打在伞面上，行人仍沿原路往前走",
+      "chinese": [
+        "尽管",
+        "虽然"
+      ],
+      "examples": [
+        "The notwithstanding changed the situation.",
+        "Researchers discussed the notwithstanding carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "notwithstanding sth —— 尽管某事",
+        "notwithstanding that 从句 —— 虽然某事"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "northeast",
+      "word": "northeast",
+      "pos": "noun/adjective",
+      "phonetic": "/ˌnɔːθˈiːst/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 north + east",
+      "native_definition": "the direction midway between north and east",
+      "core_concept": "the diagonal direction between north and east – 北与东之间的斜向",
+      "core_image": "指南针的指针停在北和东之间的斜角",
+      "chinese": [
+        "东北",
+        "东北的"
+      ],
+      "examples": [
+        "The northeast changed the situation.",
+        "Researchers discussed the northeast carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "东北：方向或地区"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "northwest",
+      "word": "northwest",
+      "pos": "noun/adjective",
+      "phonetic": "/ˌnɔːθˈwest/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 north + west",
+      "native_definition": "the direction midway between north and west",
+      "core_concept": "the diagonal direction between north and west – 北与西之间的斜向",
+      "core_image": "指南针的指针停在北和西之间的斜角",
+      "chinese": [
+        "西北",
+        "西北的"
+      ],
+      "examples": [
+        "The northwest changed the situation.",
+        "Researchers discussed the northwest carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "西北：方向或地区"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "nothing",
+      "word": "nothing",
+      "pos": "pronoun",
+      "phonetic": "/ˈnʌθɪŋ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 nān þing（没有东西）",
+      "native_definition": "not anything; no single thing",
+      "core_concept": "an empty set with no item in it – 集合里没有任何一项",
+      "core_image": "打开的盒子里空空的，连一张纸片也没有",
+      "chinese": [
+        "什么也没有",
+        "无"
+      ],
+      "examples": [
+        "The nothing changed the situation.",
+        "Researchers discussed the nothing carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "什么也没有：不存在任何东西"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "notice",
+      "word": "notice",
+      "pos": "noun/verb",
+      "phonetic": "/ˈnəʊtɪs/",
+      "decomposable": "root",
+      "root_ids": [
+        "gnoscere"
+      ],
+      "root_logic": "not（noscere 知道）+ -ice → 被意识捕捉到",
+      "origin": "古法语 notice ← 拉丁语 notitia（知道、认识）← noscere；与 gnoscere 根的现有成员同源，直接补挂",
+      "native_definition": "become aware of something through seeing or hearing",
+      "core_concept": "a detail brought into awareness – 被意识捕捉到的细节",
+      "core_image": "窗边的人抬头，立刻看到玻璃上的一道新裂纹",
+      "chinese": [
+        "注意",
+        "通知"
+      ],
+      "examples": [
+        "The notice changed the situation.",
+        "Researchers discussed the notice carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "注意：察觉某事",
+        "通知：让别人知道的消息"
+      ]
+    },
+    {
+      "id": "noticeable",
+      "word": "noticeable",
+      "pos": "adjective",
+      "phonetic": "/ˈnəʊtɪsəbl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语 noticeable ← notice ← 拉丁 notitia（知道）",
+      "native_definition": "easy to see or recognize",
+      "core_concept": "clear enough to attract attention – 清楚到会吸引注意",
+      "core_image": "白墙上的一块深色污迹远远就能看见",
+      "chinese": [
+        "明显的",
+        "显著的"
+      ],
+      "examples": [
+        "The noticeable changed the situation.",
+        "Researchers discussed the noticeable carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "明显的：容易被察觉",
+        "显著的：差异较大"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "now",
+      "word": "now",
+      "pos": "adverb/noun",
+      "phonetic": "/naʊ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 nū ← 原始日耳曼语 *nu",
+      "native_definition": "at the present time",
+      "core_concept": "the point of time being lived – 正在经历的这一刻",
+      "core_image": "钟面上的秒针正指着最上方，正在发生的事没有过去",
+      "chinese": [
+        "现在",
+        "目前"
+      ],
+      "examples": [
+        "The now changed the situation.",
+        "Researchers discussed the now carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "现在：此刻",
+        "目前：当前阶段"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "nuclear",
+      "word": "nuclear",
+      "pos": "adjective",
+      "phonetic": "/ˈnjuːkliə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 nuclearis（核心的）← nucleus（小核）；与 nucleus 词族暂未建根",
+      "native_definition": "relating to the nucleus of an atom or cell",
+      "core_concept": "belonging to a dense central core – 属于致密中心的",
+      "core_image": "剖开的圆形结构中央有一个密实的小点，周围层层环绕",
+      "chinese": [
+        "核的",
+        "原子能的"
+      ],
+      "examples": [
+        "The nuclear changed the situation.",
+        "Researchers discussed the nuclear carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "核的：关于原子或细胞中心",
+        "原子能的：利用原子核能量"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "numb",
+      "word": "numb",
+      "pos": "adjective/verb",
+      "phonetic": "/nʌm/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 numen（取走感觉）← 原始日耳曼语 *nemaną",
+      "native_definition": "unable to feel normally",
+      "core_concept": "feeling temporarily taken away – 感觉暂时被拿走",
+      "core_image": "手在雪水里泡久后，指尖被轻轻捏也没有反应",
+      "chinese": [
+        "麻木的",
+        "使麻木"
+      ],
+      "examples": [
+        "The numb changed the situation.",
+        "Researchers discussed the numb carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "麻木的：感觉减弱",
+        "使麻木：使失去感觉"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "number",
+      "word": "number",
+      "pos": "noun/verb",
+      "phonetic": "/ˈnʌmbə/",
+      "decomposable": "root",
+      "root_ids": [
+        "numerus"
+      ],
+      "root_logic": "numer（numerus 数）→ 用来计数和识别的标记",
+      "origin": "拉丁 numerus（数、数量）；与库中 numerus 根同源，当前直接按现有根补挂",
+      "native_definition": "a word or symbol expressing a quantity",
+      "core_concept": "a mark used to count or identify – 用来计数或识别的标记",
+      "core_image": "黑板上排列着一串符号，每个符号对应一组物体",
+      "chinese": [
+        "数字",
+        "数量",
+        "编号"
+      ],
+      "examples": [
+        "The number changed the situation.",
+        "Researchers discussed the number carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "数字：表示数量的符号",
+        "数量：可计数的多少",
+        "编号：识别顺序"
+      ]
+    },
+    {
+      "id": "nutrition",
+      "word": "nutrition",
+      "pos": "noun",
+      "phonetic": "/njuːˈtrɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "nutrire"
+      ],
+      "root_logic": "nutr（nutrire 滋养）+ -ition → 被身体吸收的滋养",
+      "origin": "拉丁语 nutritio（滋养）← nutrire（喂养、滋养）",
+      "native_definition": "the process of obtaining food needed for health",
+      "core_concept": "food taken in and used to sustain life – 摄入并维持生命的食物",
+      "core_image": "餐盘里的食物经过消化示意图，箭头指向身体各处",
+      "chinese": [
+        "营养",
+        "营养学"
+      ],
+      "examples": [
+        "The nutrition changed the situation.",
+        "Researchers discussed the nutrition carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "营养：维持健康所需的养分",
+        "营养学：研究养分的学科"
+      ]
+    },
+    {
+      "id": "obscure",
+      "word": "obscure",
+      "pos": "adjective/verb",
+      "phonetic": "/əbˈskjʊə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 obscurus（黑暗、隐蔽）；族群不足，暂按整体记",
+      "native_definition": "not well known or difficult to understand",
+      "core_concept": "hidden from clear view – 藏在清楚视线之外",
+      "core_image": "厚雾遮住山谷，远处的路只剩看不清的轮廓",
+      "chinese": [
+        "模糊的",
+        "鲜为人知的",
+        "使模糊"
+      ],
+      "examples": [
+        "The obscure changed the situation.",
+        "Researchers discussed the obscure carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "模糊的：不清楚",
+        "鲜为人知的：很少被人知道",
+        "使模糊：遮住清晰轮廓"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "observation",
+      "word": "observation",
+      "pos": "noun",
+      "phonetic": "/ˌɒbzəˈveɪʃn/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 observatio ← observare（观察、留意）",
+      "native_definition": "the act of watching carefully or a comment based on it",
+      "core_concept": "careful watching turned into a record – 仔细观看后留下的记录",
+      "core_image": "研究员透过玻璃逐项记录实验装置的变化",
+      "chinese": [
+        "观察",
+        "观察结果"
+      ],
+      "examples": [
+        "The observation changed the situation.",
+        "Researchers discussed the observation carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "观察：认真察看",
+        "观察结果：从察看得到的结论"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "observe",
+      "word": "observe",
+      "pos": "verb",
+      "phonetic": "/əbˈzɜːv/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 observare（注意、观察）← ob- + servare；本项目暂不建 servare 根",
+      "native_definition": "watch carefully and notice what happens",
+      "core_concept": "keep watch and mark what is seen – 守着并记下所见",
+      "core_image": "望远镜对准远处鸟巢，记录者一动不动地记下每次动作",
+      "chinese": [
+        "观察",
+        "遵守"
+      ],
+      "examples": [
+        "The observe changed the situation.",
+        "Researchers discussed the observe carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "观察：仔细看",
+        "遵守：按要求照做"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "obstacle",
+      "word": "obstacle",
+      "pos": "noun",
+      "phonetic": "/ˈɒbstəkl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古法语 obstacle ← 拉丁 obstaculum（挡住之物）← obstare（站在前面）",
+      "native_definition": "something that blocks progress or movement",
+      "core_concept": "something standing across the path – 横在路上的东西",
+      "core_image": "小路中央横着倒木，行人只能停下寻找绕行处",
+      "chinese": [
+        "障碍",
+        "阻碍"
+      ],
+      "examples": [
+        "The obstacle changed the situation.",
+        "Researchers discussed the obstacle carefully."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "障碍：挡住前进的事物",
+        "阻碍：使进展变慢"
+      ],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     }
   ]
 }
