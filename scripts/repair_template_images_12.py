@@ -1,0 +1,99 @@
+import json
+from pathlib import Path
+p=Path('data/words.json');d=json.loads(p.read_text(encoding='utf-8'));wm={w['id']:w for w in d['words']}
+# Three batches: concrete, word-specific scenes; no definitions in the image field.
+S='''toy:彩色小车放在地毯上，孩子推动它绕过积木搭成的弯道
+trace:铅笔沿着半透明纸下的线条移动，纸面留下清楚轮廓
+track:铁轨从站台向远处延伸，车辆的轮子沿两条钢线前进
+trade:两个人在柜台两侧交换货物和钱，账本记录下这次交接
+trademark:商品包装角落印着独特图案，顾客据此认出生产者
+traffic:十字路口的车辆在红绿灯控制下排成几条流动的线
+tragic:舞台灯光落在空椅子上，观众安静面对无法挽回的结局
+trail:泥地上连续留下脚印，向树林深处弯曲延伸
+train:长列车沿铁轨驶过，车厢一节接一节连接在一起
+training:教练反复示范动作，运动员在场边一遍遍练习
+trait:几个人的照片并排放着，其中一项相同特征被圈出
+tram:有轨电车沿城市街道的轨道行驶，站台乘客准备上车
+tramp:鞋底重重踩过泥路，行走者背着包连续向前
+transaction:柜台前钱和商品同时从一方交到另一方
+transient:雨后路面上的水痕只停留片刻，阳光一出便迅速消失
+transistor:电路板上排列着小元件，电流经过其中一个后被控制
+translation:两种语言的文本左右对照，句子逐行转换
+transparent:玻璃板立在窗前，阳光和窗外景物都能穿过来
+trap:箱门半掩，食物放在里面，踏板一动门便落下
+trash:清洁工把破纸箱和空瓶装进分类垃圾桶
+travel:行李箱沿车站地面滚动，旅客朝远处的月台走去
+treasure:旧地图指向地下石室，打开箱盖后露出金属和宝石
+tree:粗树干从土里向上分出树枝，树冠铺在头顶
+tremble:玻璃杯中的水面细微颤动，桌子受到轻微震动
+tremendous:巨大的浪头越过堤岸，岸边的人抬头仰望
+trench:地面挖出一条又深又窄的沟，工人沿沟底铺管道
+trend:图表上的线连续向上，几个日期的数值朝同一方向变化
+trial:法庭上证人依次发言，法官翻看桌上的证据
+triangle:三条直线首尾相连，围出三个角和一块内部空间
+trick:手帕下藏着一个物件，表演者掀开后观众才发现机关
+trifle:大盘旁只放一小块甜点，显得轻巧而不重要
+trigger:手指扣动装置，弹簧释放后机器突然启动
+trim:剪刀沿灌木边缘剪去多余枝叶，使轮廓整齐
+trip:脚尖碰到地面凸起，行走者向前踉跄一步
+triumph:队伍举起奖杯绕场一周，观众站起欢呼
+ trolley:购物车沿超市过道前进，篮筐里放着几件物品
+troop:一队士兵沿道路整齐行进，旗帜在队伍前方
+ tropic:地图上靠近赤道的纬线被标出，阳光直射这一带
+ tropical:椰树和大片绿叶围着海岸，空气温暖而潮湿
+trouble:机器卡在半途不动，维修人员打开外壳寻找故障
+troublesome:漏水的管道反复堵塞，工人一整天都在处理它
+trousers:两条裤腿从腰部垂下，脚踝处各有一个开口
+truck:货车停在仓库门口，装卸工把箱子搬入车厢
+true:尺子和校准线重合，指针停在准确的位置
+trumpet:铜管乐器在乐手唇边发出响亮长音
+trunk:大树底部的粗干向上支撑整片树冠
+trust:孩子把钥匙交给朋友保管，相信对方不会弄丢
+truth:几份证据指向同一个事实，调查员把结论写在记录上
+try:手伸向高处的按钮，第一次没够到仍继续向上
+ tub:大木桶里装着水，桶沿比人的膝盖还高
+tube:细长管道连接两端，液体沿内部通道流动
+tuck:手指把毯子边缘塞进床垫下，布料被固定住
+tug:两个人向相反方向拉绳，绳结在中间绷紧
+tuition:老师在小组旁解释题目，学生逐步理解难点
+tumble:箱子从台阶滚下，里面的物品在各面之间翻转
+tumour:医学图像中出现一团不规则组织，医生在边缘做标记
+tune:乐手转动旋钮，让乐器音高与音叉一致
+tunnel:道路从山体内部穿过，车灯照亮前方黑暗通道
+turkey:农场围栏里一只大鸟展开尾羽，旁边散着谷粒
+turnover:柜台交班时文件和钥匙交到下一位工作人员手中
+tutor:老师坐在学生旁边，逐题讲解练习本上的难点
+twice:钟声响了两次，墙上的记录表留下两个记号
+twin:两张几乎相同的婴儿照片并排放在相框里
+twinkle:远处的灯光一明一暗，像在黑夜中细小闪烁
+twist:两手把毛巾向相反方向拧，水滴从纤维间挤出
+two:桌上并排放着两个相同的杯子，数量一眼可数
+typewriter:手指敲击机械键盘，纸张从滚筒后逐字出现
+typhoon:海面上黑云旋转，强风把椰树向一侧压弯
+ugly:裂开的塑像放在展台上，比例和表面都显得不协调
+ultimate:比赛只剩最后一关，终点旗帜立在最远处
+ultraviolet:紫外灯照过白纸，肉眼看不见的标记显出荧光
+umbrella:雨点落在撑开的伞面，沿伞骨汇成水线
+uncle:家庭聚会中一位年长男子把礼物递给孩子
+under:球从桌面滚到桌子下方，只能弯腰伸手寻找
+underestimate:报告把桥的承重能力写得过低，工程师重新计算
+undergo:病人躺进检查设备，身体接受一系列测试
+underground:地面下挖出车站，列车从建筑物下方驶过
+underlie:地表岩层下面还有一层更古老的岩石
+underline:铅笔在句子下方画出一条直线，标记出关键文字
+underlying:地毯被掀开，下面的木板支撑着整个房间
+undermine:水流从墙基下冲走泥土，表面看不出内部已空
+underneath:盒子翻过来，底面藏着一张折好的纸条
+understand:听者把几张线索按顺序拼好，终于点头明白
+understanding:两个人共同看着图纸，确认彼此对安排的意思一致
+undertake:工人签下工程单，接过材料后开始承担这项工作
+undo:手指反向拉开绳结，已经系紧的结逐步松开
+uneasy:房间里传来不明声响，等候者坐立不安地看向门口
+unexpected:打开普通纸箱后，里面突然出现一件完全没预料的物品
+unfold:折叠的地图被双手一层层打开，隐藏的路线显现出来
+unlike:两只杯子并排放着，形状和颜色明显不一样'''
+M=dict(x.split(':',1) for x in S.splitlines() if ':' in x)
+M={k.strip():v for k,v in M.items()}
+assert len(M)==90 and set(M)<=set(wm)
+for k,v in M.items():wm[k]['core_image']=v
+p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('[OK]',len(M))
