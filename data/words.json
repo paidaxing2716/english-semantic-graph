@@ -127505,9 +127505,11 @@
       "word": "emigrate",
       "pos": "verb",
       "phonetic": "/ˈemɪɡreɪt/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "migrare"
+      ],
+      "root_logic": "e-（ex- 离开）+ migr（migrare 迁移）+ -ate → 从原处迁出去",
       "origin": "拉丁语 emigratus ← emigrare：ex-（出）+ migrare（迁移）；本项目未为 migrare 一支建根",
       "native_definition": "to leave your own country in order to live in another one",
       "core_concept": "moving out of where you belonged – 从自己原属的地方迁出去",
@@ -127526,8 +127528,7 @@
       "semantic_expansions": [
         "移居国外：离开本国到别国长住",
         "外迁：整体上往外搬走这个动作"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "emperor",
@@ -132044,9 +132045,11 @@
       "word": "immigrant",
       "pos": "noun / adjective",
       "phonetic": "/ˈɪmɪɡrənt/",
-      "decomposable": "germanic",
-      "root_ids": [],
-      "root_logic": "",
+      "decomposable": "root",
+      "root_ids": [
+        "migrare"
+      ],
+      "root_logic": "im-（in- 进入）+ migr（migrare 迁移）+ -ant → 迁进来的人",
       "origin": "拉丁语 immigrans（迁进来的，现在分词），由 in-（进入）与 migrare（迁移）合成；库中未为 migrare 一支建根，emigrate 也还是孤立词条",
       "native_definition": "a person who comes to live permanently in another country",
       "core_concept": "one who has moved in to stay – 迁进来长住的那个人",
@@ -132065,8 +132068,7 @@
       "semantic_expansions": [
         "移民：从别国迁进来长住的那个人",
         "外来移民的：作定语，说明人或社群是这样迁进来的"
-      ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      ]
     },
     {
       "id": "inevitable",

@@ -57,6 +57,9 @@ ATTACH = {
     "exemplify": ("emere", "exempl（← exemplum 从整批取出的那一件）+ -ify（使）→ 把取出的那一件摆出来替整批说话"),
     # similis 的 origin 明写「ad-＋similis 一支出 assimilare」。
     "assimilate": ("similis", "as-（ad- 朝着）+ simil（similis 相像）+ -ate → 朝着周围变得同一样"),
+    # migrare 根建好后回收先前入库的孤立词；origin 本身已写明 in-/ex- + migrare。
+    "immigrant": ("migrare", "im-（in- 进入）+ migr（migrare 迁移）+ -ant → 迁进来的人"),
+    "emigrate": ("migrare", "e-（ex- 离开）+ migr（migrare 迁移）+ -ate → 从原处迁出去"),
 }
 
 

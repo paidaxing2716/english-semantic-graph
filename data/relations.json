@@ -12924,6 +12924,18 @@
       "to": "migrate",
       "type": "root",
       "note": "mig（migrare 迁移）+ -ate → 从一处迁到另一处"
+    },
+    {
+      "from": "migrare",
+      "to": "immigrant",
+      "type": "root",
+      "note": "im-（in- 进入）+ migr（migrare 迁移）+ -ant → 迁进来的人"
+    },
+    {
+      "from": "migrare",
+      "to": "emigrate",
+      "type": "root",
+      "note": "e-（ex- 离开）+ migr（migrare 迁移）+ -ate → 从原处迁出去"
     }
   ]
 }
