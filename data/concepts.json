@@ -472,7 +472,8 @@
         "amplify",
         "benefit",
         "deficit",
-        "faculty"
+        "faculty",
+        "magnificent"
       ]
     },
     {
@@ -864,7 +865,8 @@
         "remote",
         "remove",
         "move",
-        "emotion"
+        "emotion",
+        "movie"
       ]
     },
     {
@@ -1180,7 +1182,10 @@
         "minimum",
         "ministry",
         "minus",
-        "minute"
+        "minute",
+        "mine",
+        "mineral",
+        "minimize"
       ]
     },
     {
@@ -2303,7 +2308,8 @@
       "word_ids": [
         "commemorate",
         "memorial",
-        "memory"
+        "memory",
+        "memo"
       ]
     },
     {
@@ -3383,7 +3389,8 @@
         "magnify",
         "maximum",
         "mayor",
-        "headmaster"
+        "headmaster",
+        "master"
       ]
     },
     {
@@ -3417,7 +3424,10 @@
         "analogue",
         "catalog",
         "dialog",
-        "geology"
+        "geology",
+        "log",
+        "logic",
+        "logical"
       ]
     },
     {
@@ -4381,7 +4391,11 @@
         "intermediate",
         "meanwhile",
         "medieval",
-        "medium"
+        "medium",
+        "medical",
+        "medicine",
+        "meditate",
+        "meditation"
       ]
     },
     {
@@ -5533,6 +5547,18 @@
         "empire",
         "imperative",
         "imperial"
+      ]
+    },
+    {
+      "id": "concept-migrare-move",
+      "concept": "to move from one place to another",
+      "chinese": "迁移",
+      "core_image": "一群候鸟沿海岸线飞行，旧栖地在身后，新栖地在前方",
+      "root_ids": [
+        "migrare"
+      ],
+      "word_ids": [
+        "migrate"
       ]
     }
   ]

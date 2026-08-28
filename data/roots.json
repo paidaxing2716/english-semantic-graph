@@ -517,7 +517,8 @@
         "amplify",
         "benefit",
         "deficit",
-        "faculty"
+        "faculty",
+        "magnificent"
       ]
     },
     {
@@ -962,7 +963,8 @@
         "remote",
         "remove",
         "move",
-        "emotion"
+        "emotion",
+        "movie"
       ]
     },
     {
@@ -1323,7 +1325,10 @@
         "minimum",
         "ministry",
         "minus",
-        "minute"
+        "minute",
+        "mine",
+        "mineral",
+        "minimize"
       ]
     },
     {
@@ -2655,7 +2660,8 @@
       "word_ids": [
         "commemorate",
         "memorial",
-        "memory"
+        "memory",
+        "memo"
       ]
     },
     {
@@ -3934,7 +3940,8 @@
         "magnify",
         "maximum",
         "mayor",
-        "headmaster"
+        "headmaster",
+        "master"
       ]
     },
     {
@@ -3975,7 +3982,10 @@
         "analogue",
         "catalog",
         "dialog",
-        "geology"
+        "geology",
+        "log",
+        "logic",
+        "logical"
       ]
     },
     {
@@ -5170,7 +5180,11 @@
         "intermediate",
         "meanwhile",
         "medieval",
-        "medium"
+        "medium",
+        "medical",
+        "medicine",
+        "meditate",
+        "meditation"
       ]
     },
     {
@@ -6603,6 +6617,20 @@
         "empire",
         "imperative",
         "imperial"
+      ]
+    },
+    {
+      "id": "migrare",
+      "root": "migrare",
+      "variants": [
+        "migr"
+      ],
+      "origin": "拉丁语 migrare（迁移、搬动）；in-migrare 迁入，ex-migrare 迁出",
+      "core_concept": "to move from one place to another / 从一处迁到另一处",
+      "core_image": "一群候鸟沿海岸线飞行，旧栖地在身后，新栖地在前方",
+      "english_definition": "to move from one place to another",
+      "word_ids": [
+        "migrate"
       ]
     }
   ]

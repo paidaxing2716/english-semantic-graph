@@ -134398,6 +134398,888 @@
         "储物柜：学校健身房里长期归你用的那一格"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "log",
+      "word": "log",
+      "pos": "noun",
+      "phonetic": "/lɒɡ/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "log（logos 条理、话语）→ 把事情记成一段有条理的话",
+      "origin": "英语 log ← 希腊语 logos（话语、记录）",
+      "native_definition": "a written record of events or a thick piece of wood",
+      "core_concept": "a line set down in an ordered record – 按次序留下的一行",
+      "core_image": "桌边摊着一本值班簿，每次发生的事按时间添上一行",
+      "chinese": [
+        "日志",
+        "记录",
+        "原木"
+      ],
+      "examples": [
+        "The captain kept a daily log.",
+        "A log floated down the river."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "日志：按时间记下发生的事",
+        "原木：一段被锯下的树干，形状像一截记录的条目"
+      ]
+    },
+    {
+      "id": "logic",
+      "word": "logic",
+      "pos": "noun",
+      "phonetic": "/ˈlɒdʒɪk/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "logic（logos 条理）→ 让每一步都接得上前一步",
+      "origin": "英语 logic ← 古法语 logique ← 希腊语 logikē（推理之学）",
+      "native_definition": "a way of reasoning in which each step follows the last",
+      "core_concept": "steps that hold together – 前后相扣的推理",
+      "core_image": "几块木牌首尾相接，前一块的缺口正好接住后一块",
+      "chinese": [
+        "逻辑",
+        "推理"
+      ],
+      "examples": [
+        "Her argument has sound logic.",
+        "There is no logic in doing it twice."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "逻辑：每一步都由前一步推出",
+        "推理：按这种相扣的次序思考"
+      ]
+    },
+    {
+      "id": "logical",
+      "word": "logical",
+      "pos": "adjective",
+      "phonetic": "/ˈlɒdʒɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "logos"
+      ],
+      "root_logic": "logic（logos 条理）+ -al → 属于有条理推理的",
+      "origin": "英语 logical ← logic ← 希腊语 logos（话语、条理）",
+      "native_definition": "following a clear and sensible line of reasoning",
+      "core_concept": "ordered enough to follow – 次序清楚，跟得上",
+      "core_image": "一排箭头从一个小牌指向下一个，没有倒退或跳格",
+      "chinese": [
+        "合乎逻辑的",
+        "合理的"
+      ],
+      "examples": [
+        "That is the most logical explanation.",
+        "She made a logical decision."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "合乎逻辑的：前后关系清楚",
+        "合理的：选择能由已知情况推出"
+      ]
+    },
+    {
+      "id": "magnificent",
+      "word": "magnificent",
+      "pos": "adjective",
+      "phonetic": "/mæɡˈnɪfɪsnt/",
+      "decomposable": "root",
+      "root_ids": [
+        "fac"
+      ],
+      "root_logic": "magn（maior 大）+ fic（facere 做）+ -ent → 做得大而显眼",
+      "origin": "英语 magnificent ← 拉丁语 magnificus（做得伟大的）",
+      "native_definition": "extremely impressive, beautiful, or grand",
+      "core_concept": "made so grand that it commands the eye – 做得大到夺走目光",
+      "core_image": "大厅穹顶铺满金箔，阳光一照整面墙都在发亮",
+      "chinese": [
+        "壮丽的",
+        "宏伟的",
+        "极好的"
+      ],
+      "examples": [
+        "The palace has a magnificent hall.",
+        "She gave a magnificent performance."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "壮丽的：建筑或景象铺陈得极大",
+        "极好的：表现好到让人称赞"
+      ]
+    },
+    {
+      "id": "longitude",
+      "word": "longitude",
+      "pos": "noun",
+      "phonetic": "/ˈlɒndʒɪtjuːd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 longitude（长度、经度）；借入英语",
+      "native_definition": "the angular distance east or west of a meridian",
+      "core_concept": "a position measured along the globe – 沿球面标出的位置",
+      "core_image": "地图上从北到南画满弧线，船的位置落在其中一条上",
+      "chinese": [
+        "经度"
+      ],
+      "examples": [
+        "The map shows the island’s longitude.",
+        "Longitude is measured east or west."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "经度：从本初子午线向东或向西量的位置"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "magnitude",
+      "word": "magnitude",
+      "pos": "noun",
+      "phonetic": "/ˈmæɡnɪtjuːd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 magnitudo（大小、重要性）；本项目暂不并入已有的「更大」词族",
+      "native_definition": "greatness in size, importance, or intensity",
+      "core_concept": "the scale by which something is judged – 衡量大小强弱的尺度",
+      "core_image": "同一把尺子量三件物体，刻度一格格向更大处延伸",
+      "chinese": [
+        "大小",
+        "重要性",
+        "震级"
+      ],
+      "examples": [
+        "The magnitude of the task surprised us.",
+        "Scientists measured the earthquake’s magnitude."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大小：物体或数量的尺度",
+        "震级：地震强度的等级"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "malignant",
+      "word": "malignant",
+      "pos": "adjective",
+      "phonetic": "/məˈlɪɡnənt/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 malignus（恶意、有害的）← malus；与 peior（更坏）支不同源",
+      "native_definition": "having a harmful or destructive effect",
+      "core_concept": "harm that spreads into what surrounds it – 有害力量向周围侵入",
+      "core_image": "显微镜下的细胞挤成不规则团块，边缘不断侵入旁边",
+      "chinese": [
+        "恶性的",
+        "恶意的"
+      ],
+      "examples": [
+        "The scan revealed a malignant tumour.",
+        "He made a malignant remark."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "恶性的：疾病会侵入扩散",
+        "恶意的：话语带着伤人的意图"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "master",
+      "word": "master",
+      "pos": "noun",
+      "phonetic": "/ˈmɑːstə/",
+      "decomposable": "root",
+      "root_ids": [
+        "maior"
+      ],
+      "root_logic": "magis（maior 更大）+ -ter → 更大的那一个，掌握全局的人",
+      "origin": "古英语 mægister ← 拉丁语 magister（主管、教师），与 maior（更大的）同源",
+      "native_definition": "a person with authority or great skill",
+      "core_concept": "the one greater in rank or skill – 地位或本领更高的那一个",
+      "core_image": "一只手握着整串钥匙，房间里的人都等他决定",
+      "chinese": [
+        "主人",
+        "大师",
+        "掌握"
+      ],
+      "examples": [
+        "The master opened the locked door.",
+        "She became a master of the craft."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "主人：掌管一处的人",
+        "大师：技艺高到别人来学习的人"
+      ]
+    },
+    {
+      "id": "medical",
+      "word": "medical",
+      "pos": "adjective",
+      "phonetic": "/ˈmedɪkl/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "medi（medius 中间）+ -ical → 处理身体中间状态的",
+      "origin": "拉丁语 medicalis ← medicus（医治的），与 mederi（治疗）相关",
+      "native_definition": "relating to medicine or the treatment of illness",
+      "core_concept": "concerning the care of the body – 关于照料身体的",
+      "core_image": "白大褂口袋里装着听诊器，医生俯身检查病人的呼吸",
+      "chinese": [
+        "医学的",
+        "医疗的"
+      ],
+      "examples": [
+        "She needs medical advice.",
+        "The medical team arrived quickly."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "医学的：属于医学知识",
+        "医疗的：用于诊断或治疗"
+      ]
+    },
+    {
+      "id": "medicine",
+      "word": "medicine",
+      "pos": "noun",
+      "phonetic": "/ˈmedsən/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "medi（medius 中间）→ 在病痛与康复之间施加的处理",
+      "origin": "拉丁语 medicina（医术、药物）← medicus（医治的）",
+      "native_definition": "the science or practice of treating illness, or a drug",
+      "core_concept": "a treatment placed between illness and recovery – 介于病痛与康复之间的处理",
+      "core_image": "棕色药瓶立在床头，量匙里盛着一小口液体",
+      "chinese": [
+        "医学",
+        "药物"
+      ],
+      "examples": [
+        "The doctor prescribed new medicine.",
+        "This medicine relieved her pain."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "医学：治疗疾病的学问",
+        "药物：服下以改善病情的东西"
+      ]
+    },
+    {
+      "id": "meditate",
+      "word": "meditate",
+      "pos": "verb",
+      "phonetic": "/ˈmedɪteɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "medit（medius 中间）→ 把心放在事情中间反复看",
+      "origin": "拉丁语 meditari（思量、默想），与 mederi 同源词族",
+      "native_definition": "think deeply and focus one’s mind for a time",
+      "core_concept": "hold the mind steadily on one point – 心稳稳停在一点上",
+      "core_image": "人坐在安静房间中央，呼吸缓慢，桌上问题被一遍遍翻看",
+      "chinese": [
+        "沉思",
+        "冥想"
+      ],
+      "examples": [
+        "She meditates for ten minutes daily.",
+        "He meditated on the difficult choice."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "沉思：反复思考问题",
+        "冥想：安静集中注意力"
+      ]
+    },
+    {
+      "id": "meditation",
+      "word": "meditation",
+      "pos": "noun",
+      "phonetic": "/ˌmedɪˈteɪʃn/",
+      "decomposable": "root",
+      "root_ids": [
+        "medius"
+      ],
+      "root_logic": "meditat（medius 中间）+ -ion → 心停在中间反复观看的过程",
+      "origin": "拉丁语 meditatio（思考、默想）← meditari",
+      "native_definition": "the practice of focusing the mind deeply",
+      "core_concept": "a sustained inward focus – 持续向内集中的状态",
+      "core_image": "窗边坐着一个人，眼睛闭着，窗外的声音逐渐退到远处",
+      "chinese": [
+        "冥想",
+        "沉思"
+      ],
+      "examples": [
+        "Meditation helped her sleep.",
+        "He found peace through meditation."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "冥想：集中注意力的练习",
+        "沉思：对一个问题长时间思量"
+      ]
+    },
+    {
+      "id": "memo",
+      "word": "memo",
+      "pos": "noun",
+      "phonetic": "/ˈmeməʊ/",
+      "decomposable": "root",
+      "root_ids": [
+        "memor"
+      ],
+      "root_logic": "memor（memor 记得）→ 留给自己的一小张记忆纸",
+      "origin": "英语 memo 是 memorandum 的缩略，源自拉丁 memorandum（应记之事）← memor",
+      "native_definition": "a short written message used in an organization",
+      "core_concept": "words kept so a matter is not forgotten – 留下文字免得忘记",
+      "core_image": "办公桌角压着一张便签，几行字提醒明早要办的事",
+      "chinese": [
+        "备忘录",
+        "便笺"
+      ],
+      "examples": [
+        "I left a memo on your desk.",
+        "The manager sent a memo to staff."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "备忘录：组织内部传达事项的短文"
+      ]
+    },
+    {
+      "id": "mine",
+      "word": "mine",
+      "pos": "verb/noun",
+      "phonetic": "/maɪn/",
+      "decomposable": "root",
+      "root_ids": [
+        "minus-less"
+      ],
+      "root_logic": "min（minus 少）→ 从地下取出属于自己的那一份",
+      "origin": "古英语 min；动词 mine（开采）来自中古英语 mine ← 古法语 mine（矿坑），与拉丁 minus 近形不同源",
+      "native_definition": "extract minerals from the ground; a place or device containing them",
+      "core_concept": "take something out from a hidden place – 从藏着的地方取出东西",
+      "core_image": "黑暗坑道里灯光照着岩壁，工人把一块石头从层层土里取出",
+      "chinese": [
+        "开采",
+        "矿井",
+        "我的"
+      ],
+      "examples": [
+        "Workers mine coal underground.",
+        "That book is mine."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "开采：从地下取矿物",
+        "mine 作代词：表示属于说话人的东西"
+      ]
+    },
+    {
+      "id": "mineral",
+      "word": "mineral",
+      "pos": "noun",
+      "phonetic": "/ˈmɪnərəl/",
+      "decomposable": "root",
+      "root_ids": [
+        "minus-less"
+      ],
+      "root_logic": "min（minus 少）→ 从大块岩石里取出的细小成分",
+      "origin": "中古英语 mineral ← 古法语 minéral ← 拉丁语 mineralis（矿物的）",
+      "native_definition": "a natural substance found in rocks or soil",
+      "core_concept": "a distinct substance taken from the earth – 从土地里分出的物质",
+      "core_image": "岩石剖面露出几条不同颜色的晶脉，镐尖敲下一小块",
+      "chinese": [
+        "矿物"
+      ],
+      "examples": [
+        "The soil contains useful minerals.",
+        "Iron is an important mineral."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "矿物：自然形成的无机物"
+      ]
+    },
+    {
+      "id": "minimize",
+      "word": "minimize",
+      "pos": "verb",
+      "phonetic": "/ˈmɪnɪmaɪz/",
+      "decomposable": "root",
+      "root_ids": [
+        "minus-less"
+      ],
+      "root_logic": "mini（minus 少）+ -ize → 把量压到尽可能小",
+      "origin": "英语 minimize ← minimum ← 拉丁 minimus（最小的）← minor/minus",
+      "native_definition": "reduce something to the smallest possible amount",
+      "core_concept": "press the amount down toward the least – 把数量压向最少",
+      "core_image": "一团纸被反复压进小盒，空隙越来越少",
+      "chinese": [
+        "使最小化",
+        "降低"
+      ],
+      "examples": [
+        "We must minimize unnecessary costs.",
+        "The design minimizes heat loss."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "使最小化：减到可能的最低程度",
+        "降低：让损失或影响变小"
+      ]
+    },
+    {
+      "id": "movie",
+      "word": "movie",
+      "pos": "noun",
+      "phonetic": "/ˈmuːvi/",
+      "decomposable": "root",
+      "root_ids": [
+        "mov"
+      ],
+      "root_logic": "mov（movere 移动）→ 连续移动的画面被投到幕上",
+      "origin": "英语 movie 是 moving picture 的缩略形式；moving ← move ← 拉丁语 movere（移动）；与 paint 一族无关",
+      "native_definition": "a film shown in a cinema or on a screen",
+      "core_concept": "moving pictures arranged into a story – 连续移动的画面组成故事",
+      "core_image": "白幕上一格格光影快速更换，人物仿佛真的从左走到右",
+      "chinese": [
+        "电影",
+        "影片"
+      ],
+      "examples": [
+        "We watched a movie after dinner.",
+        "The movie tells a moving story."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "电影：在屏幕上连续播放的影像故事"
+      ]
+    },
+    {
+      "id": "member",
+      "word": "member",
+      "pos": "noun",
+      "phonetic": "/ˈmembə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 membrum（肢体、部分）；本项目尚未建其词族根",
+      "native_definition": "a person or thing belonging to a group",
+      "core_concept": "one part counted within a whole – 被整体数进去的一部分",
+      "core_image": "圆桌旁每个座位都放着一张写有名字的卡片",
+      "chinese": [
+        "成员",
+        "部件",
+        "肢体"
+      ],
+      "examples": [
+        "She is a member of the committee.",
+        "The leg is a key member of the machine."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "成员：属于团体的人",
+        "部件：机器中承担作用的一部分"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "messenger",
+      "word": "messenger",
+      "pos": "noun",
+      "phonetic": "/ˈmesɪndʒə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 messenger ← message + -er",
+      "native_definition": "a person who carries a message",
+      "core_concept": "one who carries words from one place to another – 把话带过去的人",
+      "core_image": "一个人夹着信封穿过院子，把信交到另一双手里",
+      "chinese": [
+        "信使",
+        "送信人"
+      ],
+      "examples": [
+        "The messenger arrived before noon.",
+        "A messenger brought the news."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "信使：替别人传递消息的人"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "migrate",
+      "word": "migrate",
+      "pos": "verb",
+      "phonetic": "/maɪˈɡreɪt/",
+      "decomposable": "root",
+      "root_ids": [
+        "migrare"
+      ],
+      "root_logic": "mig（migrare 迁移）+ -ate → 从一处迁到另一处",
+      "origin": "拉丁语 migrare（迁移）；英语 migrate 由此借入",
+      "native_definition": "move from one region or habitat to another",
+      "core_concept": "move camp to another place – 把栖身处搬到另一处",
+      "core_image": "候鸟排成一条线越过海岸，旧巢在身后越来越远",
+      "chinese": [
+        "迁徙",
+        "迁移"
+      ],
+      "examples": [
+        "Many birds migrate south in winter.",
+        "Workers migrate to the cities."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "迁徙：动物随季节换栖息地",
+        "迁移：人群或系统换到另一地"
+      ]
+    },
+    {
+      "id": "mistress",
+      "word": "mistress",
+      "pos": "noun",
+      "phonetic": "/ˈmɪstrəs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "中古英语 maistresse ← 古法语 maistresse（女主人、女教师）",
+      "native_definition": "a woman in a position of authority or a man’s extramarital partner",
+      "core_concept": "a woman holding a household or private relationship role – 掌着一处位置的女人",
+      "core_image": "一位女士站在宅邸门口，手里握着整串钥匙",
+      "chinese": [
+        "女主人",
+        "情妇"
+      ],
+      "examples": [
+        "The mistress of the house greeted us.",
+        "He was accused of having a mistress."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "女主人：管理一所房屋的女性",
+        "情妇：婚外的亲密伴侣"
+      ],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+    },
+    {
+      "id": "multitude",
+      "word": "multitude",
+      "pos": "noun",
+      "phonetic": "/ˈmʌltɪtjuːd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "拉丁语 multitudo（众多）← multus（多）；与库中 plus-more 根不同根，暂按整体记",
+      "native_definition": "a very large number of people or things",
+      "core_concept": "many counted together as one crowd – 许多被看成一片",
+      "core_image": "广场上密密麻麻站满人，远处只看见一片移动的颜色",
+      "chinese": [
+        "大量",
+        "众多的人"
+      ],
+      "examples": [
+        "A multitude of fans filled the stadium.",
+        "A multitude of problems remained."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "大量：数量很多",
+        "众多的人：聚成一片的人群"
+      ],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "loudspeaker",
+      "word": "loudspeaker",
+      "pos": "noun",
+      "phonetic": "/ˌlaʊdˈspiːkə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "英语复合词 loud + speaker",
+      "native_definition": "an apparatus that makes sound louder",
+      "core_concept": "a voice projected across a space – 把声音推到远处",
+      "core_image": "黑色喇叭架在台边，声波一圈圈扩到最后一排",
+      "chinese": [
+        "扬声器",
+        "扩音器"
+      ],
+      "examples": [
+        "The announcement came through a loudspeaker.",
+        "A loudspeaker stood beside the stage."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "扬声器：把电信号变成较大声音的装置"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "mankind",
+      "word": "mankind",
+      "pos": "noun",
+      "phonetic": "/mænˈkaɪnd/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mann + kind，英语复合词",
+      "native_definition": "the human race",
+      "core_concept": "all people viewed as one kind – 所有人合成的一类",
+      "core_image": "许多不同年龄的人围着一张地球仪，手都伸向同一片陆地",
+      "chinese": [
+        "人类"
+      ],
+      "examples": [
+        "The invention changed mankind.",
+        "Mankind faces a shared challenge."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "人类：全体人的总称"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "many",
+      "word": "many",
+      "pos": "noun/pronoun",
+      "phonetic": "/ˈmeni/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 manig ← 原始日耳曼语 *managaz",
+      "native_definition": "a large number of people or things",
+      "core_concept": "a count extending well beyond a few – 数量远超过几个",
+      "core_image": "一只篮子里塞满同样的小球，数也数不完",
+      "chinese": [
+        "许多",
+        "很多"
+      ],
+      "examples": [
+        "Many students joined the club.",
+        "How many books did you read?"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "许多：数量较大",
+        "many + 复数名词：询问或说明数量"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "mingle",
+      "word": "mingle",
+      "pos": "verb",
+      "phonetic": "/ˈmɪŋɡl/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mengian ← 原始日耳曼语 *mangjaną",
+      "native_definition": "mix or combine with something else",
+      "core_concept": "separate streams losing their boundaries – 分开的东西失去边界",
+      "core_image": "两杯不同颜色的液体倒进同一只玻璃杯，边界慢慢消失",
+      "chinese": [
+        "混合",
+        "交往"
+      ],
+      "examples": [
+        "Oil will not mingle with water.",
+        "Guests mingled after dinner."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "混合：物质彼此掺在一起",
+        "交往：人群中来回交谈"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "missing",
+      "word": "missing",
+      "pos": "adjective",
+      "phonetic": "/ˈmɪsɪŋ/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 missan（错过、失去）",
+      "native_definition": "not present or unable to be found",
+      "core_concept": "an expected place left empty – 应在的位置空了",
+      "core_image": "墙上的相框留着一个空钉子，原来的照片不见了",
+      "chinese": [
+        "缺失的",
+        "失踪的"
+      ],
+      "examples": [
+        "One page is missing from the book.",
+        "The police searched for the missing child."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "缺失的：物件或部分不在",
+        "失踪的：人找不到了"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "monotonous",
+      "word": "monotonous",
+      "pos": "adjective",
+      "phonetic": "/məˈnɒtənəs/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "希腊语 monotonos（单一音调的），经拉丁语入英语",
+      "native_definition": "never changing in tone or pattern and therefore boring",
+      "core_concept": "one unbroken note repeated – 一个音调反复不变",
+      "core_image": "传送带不停吐出完全相同的盒子，机器声一拍不变",
+      "chinese": [
+        "单调的"
+      ],
+      "examples": [
+        "The lecture became monotonous.",
+        "He spoke in a monotonous voice."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "单调的：声音或活动缺少变化"
+      ],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
+    },
+    {
+      "id": "more",
+      "word": "more",
+      "pos": "noun/adverb",
+      "phonetic": "/mɔː/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 māra ← 原始日耳曼语 *maizô",
+      "native_definition": "a greater amount or degree",
+      "core_concept": "an amount added beyond what is there – 在已有基础上再加",
+      "core_image": "同一只杯子又被添了一勺，液面继续往上升",
+      "chinese": [
+        "更多",
+        "更"
+      ],
+      "examples": [
+        "We need more time.",
+        "She asked for more water."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "more + noun：数量增加",
+        "more + adjective：程度增加"
+      ],
+      "collocations": [
+        "more than sth —— 多于某物"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "mother",
+      "word": "mother",
+      "pos": "noun",
+      "phonetic": "/ˈmʌðə/",
+      "decomposable": "germanic",
+      "root_ids": [],
+      "root_logic": "",
+      "origin": "古英语 mōdor ← 原始日耳曼语 *mōdēr",
+      "native_definition": "a female parent",
+      "core_concept": "the source that gives life or origin – 给予生命或源头的那一个",
+      "core_image": "婴儿蜷在怀里，手指紧紧抓住衣襟",
+      "chinese": [
+        "母亲",
+        "母体"
+      ],
+      "examples": [
+        "Her mother called yesterday.",
+        "The plant is the mother of several varieties."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "母亲：生育或养育孩子的女性",
+        "母体：产生其他事物的源头"
+      ],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     }
   ]
 }

@@ -12834,6 +12834,96 @@
       "to": "assimilate",
       "type": "root",
       "note": "as-（ad- 朝着）+ simil（similis 相像）+ -ate → 朝着周围变得同一样"
+    },
+    {
+      "from": "logos",
+      "to": "log",
+      "type": "root",
+      "note": "log（logos 条理、话语）→ 把事情记成一段有条理的话"
+    },
+    {
+      "from": "logos",
+      "to": "logic",
+      "type": "root",
+      "note": "logic（logos 条理）→ 让每一步都接得上前一步"
+    },
+    {
+      "from": "logos",
+      "to": "logical",
+      "type": "root",
+      "note": "logic（logos 条理）+ -al → 属于有条理推理的"
+    },
+    {
+      "from": "fac",
+      "to": "magnificent",
+      "type": "root",
+      "note": "magn（maior 大）+ fic（facere 做）+ -ent → 做得大而显眼"
+    },
+    {
+      "from": "maior",
+      "to": "master",
+      "type": "root",
+      "note": "magis（maior 更大）+ -ter → 更大的那一个，掌握全局的人"
+    },
+    {
+      "from": "medius",
+      "to": "medical",
+      "type": "root",
+      "note": "medi（medius 中间）+ -ical → 处理身体中间状态的"
+    },
+    {
+      "from": "medius",
+      "to": "medicine",
+      "type": "root",
+      "note": "medi（medius 中间）→ 在病痛与康复之间施加的处理"
+    },
+    {
+      "from": "medius",
+      "to": "meditate",
+      "type": "root",
+      "note": "medit（medius 中间）→ 把心放在事情中间反复看"
+    },
+    {
+      "from": "medius",
+      "to": "meditation",
+      "type": "root",
+      "note": "meditat（medius 中间）+ -ion → 心停在中间反复观看的过程"
+    },
+    {
+      "from": "memor",
+      "to": "memo",
+      "type": "root",
+      "note": "memor（memor 记得）→ 留给自己的一小张记忆纸"
+    },
+    {
+      "from": "minus-less",
+      "to": "mine",
+      "type": "root",
+      "note": "min（minus 少）→ 从地下取出属于自己的那一份"
+    },
+    {
+      "from": "minus-less",
+      "to": "mineral",
+      "type": "root",
+      "note": "min（minus 少）→ 从大块岩石里取出的细小成分"
+    },
+    {
+      "from": "minus-less",
+      "to": "minimize",
+      "type": "root",
+      "note": "mini（minus 少）+ -ize → 把量压到尽可能小"
+    },
+    {
+      "from": "mov",
+      "to": "movie",
+      "type": "root",
+      "note": "mov（movere 移动）→ 连续移动的画面被投到幕上"
+    },
+    {
+      "from": "migrare",
+      "to": "migrate",
+      "type": "root",
+      "note": "mig（migrare 迁移）+ -ate → 从一处迁到另一处"
     }
   ]
 }
