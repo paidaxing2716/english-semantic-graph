@@ -60,6 +60,7 @@ ATTACH = {
     # migrare 根建好后回收先前入库的孤立词；origin 本身已写明 in-/ex- + migrare。
     "immigrant": ("migrare", "im-（in- 进入）+ migr（migrare 迁移）+ -ant → 迁进来的人"),
     "emigrate": ("migrare", "e-（ex- 离开）+ migr（migrare 迁移）+ -ate → 从原处迁出去"),
+    "pet": ("pet-seek", "pet（petere 追求）→ 主动向某人讨取关注或抚爱"),
 }
 
 

@@ -73192,6 +73192,20 @@
       "text": "Researchers discussed the wrist carefully.",
       "source": "AI 生成 · 人工审核",
       "scene": "一张卡片放在桌面中央，旁边摆着几件相关物品，窗光从左侧照来"
+    },
+    {
+      "id": "ex-pet-1",
+      "word_id": "pet",
+      "text": "The child gently petted the dog.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小动物趴在脚边抬头望着人，手一伸过来便把鼻子凑上去"
+    },
+    {
+      "id": "ex-pet-2",
+      "word_id": "pet",
+      "text": "She keeps a small pet at home.",
+      "source": "AI 生成 · 人工审核",
+      "scene": "小动物趴在脚边抬头望着人，手一伸过来便把鼻子凑上去"
     }
   ]
 }

@@ -1091,7 +1091,7 @@
       "chinese": "追求、索取",
       "core_image": "伸手朝一样东西扑过去，非要拿到手",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "word_ids": [
         "appetite",
@@ -1102,7 +1102,8 @@
         "perpetual",
         "compete",
         "competitive",
-        "repeat"
+        "repeat",
+        "pet"
       ]
     },
     {

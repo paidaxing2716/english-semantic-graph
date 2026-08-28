@@ -10415,7 +10415,7 @@
       "phonetic": "/ˈæpɪtaɪt/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "ap-（ad- 的变体，朝向）+ pet（追求）+ -ite → 朝着食物扑过去的那股劲 → 食欲",
       "origin": "拉丁语 appetitus：ad-（朝向）+ petere（追求）",
@@ -10454,7 +10454,7 @@
       "phonetic": "/ˌkɑːmpəˈtɪʃn/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "com-（一起）+ pet（追求）+ -ition → 几个人一起追同一样东西 → 竞争",
       "origin": "拉丁语 competitio：com-（一起）+ petere（追求）",
@@ -10491,7 +10491,7 @@
       "phonetic": "/ˈkɑːmpətənt/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "com-（一起、相称）+ pet（追求）+ -ent → 能力与所求相称的 → 有能力的",
       "origin": "拉丁语 competens：com-（一起）+ petere（追求）——原意'相称、够格'",
@@ -10530,7 +10530,7 @@
       "phonetic": "/pəˈtɪʃn/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "pet（索求）+ -ition（名词）→ 正式提出的索求，通常联名 → 请愿书",
       "origin": "拉丁语 petitio：petere（索求）",
@@ -10569,7 +10569,7 @@
       "phonetic": "/ˌrepəˈtɪʃn/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "re-（再一次）+ pet（追求、去取）+ -ition → 再去取一遍 → 重复",
       "origin": "拉丁语 repetitio：re-（再）+ petere（追求、取）",
@@ -25758,7 +25758,7 @@
       "phonetic": "/pəˈpetʃuəl/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "per-（贯穿）+ pet（追求）+ -ual → 一直向前追着不停，没有终止",
       "origin": "拉丁语 perpetuus（连续的），可能与 per＋petere 相关",
@@ -112891,7 +112891,7 @@
       "phonetic": "/kəmˈpiːt/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "com-（一起）+ pete（追求）→ 几个人一起朝同一样东西扑过去",
       "origin": "拉丁语 competere（一同追求、相争）：com-（一起）＋petere（追求、索求）",
@@ -112921,7 +112921,7 @@
       "phonetic": "/kəmˈpetətɪv/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "com-（一起）+ pet（追求）+ -itive → 属于一起抢那一样东西的，或抢得下来的",
       "origin": "拉丁语 competitus（competere 的过去分词）← competere：com-（一起）＋petere（追求）",
@@ -112953,7 +112953,7 @@
       "phonetic": "/rɪˈpiːt/",
       "decomposable": "root",
       "root_ids": [
-        "pet"
+        "pet-seek"
       ],
       "root_logic": "re-（再一次）+ peat（追求、去取）→ 再去取一遍，同一件事又走一趟",
       "origin": "古法语 repeter（重说、重做）← 拉丁语 repetere：re-（再）＋petere（追求、取）",
@@ -167052,6 +167052,41 @@
         "wrist：从核心场景引出的常用义"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+    },
+    {
+      "id": "pet",
+      "word": "pet",
+      "pos": "noun / verb",
+      "phonetic": "/pet/",
+      "decomposable": "root",
+      "root_ids": [
+        "pet-seek"
+      ],
+      "root_logic": "pet（petere 追求）→ 主动向某人讨取关注或抚爱",
+      "origin": "拉丁语 petere（追求、索求）；经古法语进入英语",
+      "native_definition": "a domestic animal kept for companionship; to stroke or indulge it",
+      "core_concept": "a creature or person actively sought and cherished – 主动追求并珍惜的对象",
+      "core_image": "小动物趴在脚边抬头望着人，手一伸过来便把鼻子凑上去",
+      "chinese": [
+        "宠物",
+        "抚摸",
+        "宠爱"
+      ],
+      "examples": [
+        "The child gently petted the dog.",
+        "She keeps a small pet at home."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "related": [],
+      "semantic_expansions": [
+        "宠物：供人陪伴的动物",
+        "抚摸：用手轻轻触碰动物",
+        "宠爱：过分满足某人的要求"
+      ],
+      "collocations": [
+        "pet sth —— 抚摸某物；宠爱某人"
+      ]
     }
   ]
 }

@@ -1682,31 +1682,31 @@
       "note": "con-（一起）+ secut（sequ 的变体，跟随）+ -ive → 一个紧跟一个不断开的 → 连续的"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "appetite",
       "type": "root",
       "note": "ap-（ad- 的变体，朝向）+ pet（追求）+ -ite → 朝着食物扑过去的那股劲 → 食欲"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "competition",
       "type": "root",
       "note": "com-（一起）+ pet（追求）+ -ition → 几个人一起追同一样东西 → 竞争"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "competent",
       "type": "root",
       "note": "com-（一起、相称）+ pet（追求）+ -ent → 能力与所求相称的 → 有能力的"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "petition",
       "type": "root",
       "note": "pet（索求）+ -ition（名词）→ 正式提出的索求，通常联名 → 请愿书"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "repetition",
       "type": "root",
       "note": "re-（再一次）+ pet（追求、去取）+ -ition → 再去取一遍 → 重复"
@@ -3986,7 +3986,7 @@
       "note": "counter-（对应、对照）+ part（部分）→ 与某部分相对称的对应部分"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "perpetual",
       "type": "root",
       "note": "per-（贯穿）+ pet（追求）+ -ual → 一直向前追着不停，没有终止"
@@ -10484,19 +10484,19 @@
       "note": "formula（小模子、定式）+ -ate → 把散着的想法灌进模子，成一句站得住的话"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "compete",
       "type": "root",
       "note": "com-（一起）+ pete（追求）→ 几个人一起朝同一样东西扑过去"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "competitive",
       "type": "root",
       "note": "com-（一起）+ pet（追求）+ -itive → 属于一起抢那一样东西的，或抢得下来的"
     },
     {
-      "from": "pet",
+      "from": "pet-seek",
       "to": "repeat",
       "type": "root",
       "note": "re-（再一次）+ peat（追求、去取）→ 再去取一遍，同一件事又走一趟"
@@ -13002,6 +13002,12 @@
       "to": "stall",
       "type": "root",
       "note": "stall（stallum 划定的位置）→ 安置牲畜的固定一格"
+    },
+    {
+      "from": "pet-seek",
+      "to": "pet",
+      "type": "root",
+      "note": "pet（petere 追求）→ 主动向某人讨取关注或抚爱"
     }
   ]
 }

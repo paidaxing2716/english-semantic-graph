@@ -1211,7 +1211,7 @@
       ]
     },
     {
-      "id": "pet",
+      "id": "pet-seek",
       "root": "pet",
       "variants": [
         "pet",
@@ -1230,7 +1230,8 @@
         "perpetual",
         "compete",
         "competitive",
-        "repeat"
+        "repeat",
+        "pet"
       ]
     },
     {
