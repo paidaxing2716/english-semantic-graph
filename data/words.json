@@ -58815,6 +58815,10 @@
         "深的：面到底之间距离很大",
         "深深地：程度像往下探得很远",
         "深奥的：话或书像井一样，一眼看不到底"
+      ],
+      "collocations": [
+        "deep into sth —— 深入某事",
+        "deep in thought —— 陷入沉思"
       ]
     },
     {
@@ -73346,6 +73350,10 @@
         "一半：整个东西平分后的那一块",
         "半个：数量上是完整一个的那么一块",
         "部分地：程度只到了两块中的一块，没到底"
+      ],
+      "collocations": [
+        "half of sth —— 某物的一半",
+        "half as much —— 一半那么多"
       ]
     },
     {
@@ -77027,6 +77035,10 @@
         "有病的：身体出了毛病，撑不起来",
         "坏的：情形往差的那面走，如运气名声",
         "恶意的：心里存着要害人的那一层"
+      ],
+      "collocations": [
+        "fall ill —— 生病",
+        "speak ill of sb —— 说某人的坏话"
       ]
     },
     {
@@ -82445,6 +82457,10 @@
         "左边的：位置在那一侧的",
         "左侧：那一侧本身，作方位名词",
         "向左：动作朝那一侧去"
+      ],
+      "collocations": [
+        "be left with sth —— 留下某物",
+        "left behind —— 被落下"
       ]
     },
     {
@@ -86428,6 +86444,10 @@
         "每月的：按月出现、周期固定的",
         "按月：以月为单位结算或发放",
         "月刊：每月出一期的那种刊物"
+      ],
+      "collocations": [
+        "monthly report —— 月度报告",
+        "paid monthly —— 按月支付"
       ]
     },
     {
@@ -91317,7 +91337,11 @@
         "落后的：发展跟不上，停在后头",
         "倒退的：本来往前，现在反着走"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "step backward —— 向后退",
+        "backward and forward —— 来回地"
+      ]
     },
     {
       "id": "beautiful",
@@ -91727,7 +91751,11 @@
         "向下的：方向朝着低处那一头",
         "下降的：数值或位置一路走低"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "move downward —— 向下移动",
+        "downward trend —— 下降趋势"
+      ]
     },
     {
       "id": "drum",
@@ -92671,7 +92699,11 @@
         "晚的：时间上靠后，如夜里很靠后的时候",
         "已故的：人已不在世，如提到某位故去的长辈"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "late for sth —— 某事迟到",
+        "of late —— 最近"
+      ]
     },
     {
       "id": "later",
@@ -93008,7 +93040,11 @@
         "很：程度上的大，用来加强后面的词",
         "非常：程度再进一步的说法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "much better —— 好得多",
+        "not much —— 不太多"
+      ]
     },
     {
       "id": "neighborhood",
@@ -104015,6 +104051,10 @@
       "semantic_expansions": [
         "最终：一路到最后才出来的那个结果",
         "终于：等了许久之后它出来了"
+      ],
+      "collocations": [
+        "eventually become sth —— 最终变成某物",
+        "eventually, S + V —— 最后"
       ]
     },
     {
@@ -113728,6 +113768,10 @@
         "恰好：不多不少，正对上那个点",
         "仅仅：只到这个限，再没有别的",
         "公正的：依准而断，不偏向任何一边"
+      ],
+      "collocations": [
+        "just as —— 正如",
+        "just about —— 大约，差不多"
       ]
     },
     {
@@ -126190,7 +126234,11 @@
         "顺时针方向：与钟面指针一致的那个转向",
         "顺时针的：形容按那个方向转的动作"
       ],
-      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀",
+      "collocations": [
+        "turn clockwise —— 顺时针转",
+        "clockwise direction —— 顺时针方向"
+      ]
     },
     {
       "id": "cluster",
@@ -127041,7 +127089,11 @@
         "楼下：底下那一层，就在台阶下头",
         "往楼下：动作朝下面那一层去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "go downstairs —— 下楼",
+        "downstairs room —— 楼下的房间"
+      ]
     },
     {
       "id": "earthquake",
@@ -127126,7 +127178,11 @@
         "在别处：人或物不在眼下这个地方",
         "到别处：动作朝另一个地方去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "go elsewhere —— 去别处",
+        "elsewhere in sth —— 某物的其他地方"
+      ]
     },
     {
       "id": "council",
@@ -128885,7 +128941,11 @@
         "处处：着眼于每一个地方都有",
         "到处：着眼于走动之中处处碰见"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "everywhere else —— 其他各处",
+        "be found everywhere —— 到处都能找到"
+      ]
     },
     {
       "id": "exciting",
@@ -128944,7 +129004,11 @@
         "更远地：作副词，走得比原先更远",
         "更远的：作形容词，两者之中离得远的那一个"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "farther away —— 更远",
+        "go farther —— 走得更远"
+      ]
     },
     {
       "id": "fertilizer",
@@ -136315,7 +136379,11 @@
         "最多：数量最大",
         "最：程度最高"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "most of sth —— 某物的大部分",
+        "at most —— 至多"
+      ]
     },
     {
       "id": "motel",
@@ -136739,7 +136807,11 @@
         "下一个：顺序紧接的一项",
         "紧接着：时间或位置相邻"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "next to sth —— 紧挨某物",
+        "next time —— 下次"
+      ]
     },
     {
       "id": "nor",
@@ -136767,7 +136839,11 @@
       "semantic_expansions": [
         "nor + 助动词 + 主语 —— 前句否定后补充另一项也不成立"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "neither A nor B —— 既不 A 也不 B",
+        "nor do I —— 我也不"
+      ]
     },
     {
       "id": "notwithstanding",
@@ -136972,7 +137048,11 @@
         "现在：此刻",
         "目前：当前阶段"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "now that clause —— 既然……",
+        "from now on —— 从现在起"
+      ]
     },
     {
       "id": "nuclear",
@@ -138024,7 +138104,11 @@
         "在外面：从核心场景引出的常用义",
         "外部：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "outside sth —— 在某物外面",
+        "outside of sth —— 除某物之外"
+      ]
     },
     {
       "id": "outstanding",
@@ -138990,7 +139074,11 @@
       "semantic_expansions": [
         "过去：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "past midnight —— 过了午夜",
+        "in the past —— 在过去"
+      ]
     },
     {
       "id": "paste",
@@ -141598,7 +141686,11 @@
       "semantic_expansions": [
         "大概：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "presumably because clause —— 大概因为……",
+        "presumably true —— 大概是真的"
+      ]
     },
     {
       "id": "pretty",
@@ -142766,7 +142858,11 @@
       "semantic_expansions": [
         "很少：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "rarely ever —— 几乎从不",
+        "rarely seen —— 很少见到"
+      ]
     },
     {
       "id": "reader",
@@ -142820,7 +142916,11 @@
       "semantic_expansions": [
         "容易地：从核心场景引出的常用义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "readily available —— 随时可得到",
+        "readily understand —— 容易理解"
+      ]
     },
     {
       "id": "reading",
