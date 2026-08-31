@@ -92,11 +92,14 @@ def main():
     idx = {w["id"]: w for w in db["words"]}
 
     # 已被占用的英文释义 → 词。用于拦近义词撞车。
-    native_taken = {}
+    native_taken, concept_taken = {}, {}
     for w in db["words"]:
         nd = (w.get("native_definition") or "").strip()
         if nd and not audit.is_template_native(nd):
             native_taken.setdefault(nd, w["id"])
+        cc = (w.get("core_concept") or "").strip()
+        if cc and not audit.is_template_concept(cc):
+            concept_taken.setdefault(cc, w["id"])
 
     rows, errs = [], []
     for f in a.tsv:
@@ -147,6 +150,13 @@ def main():
         if nd and nd in native_taken and native_taken[nd] != word:
             errs.append(f"{name}:{n} {word} 英文释义与 {native_taken[nd]} 完全相同，"
                         f"须写出区别：{nd}")
+        # core_concept 同理。只查释义不够——shortly 与 soon 的释义各不相同，
+        # 却都被我写成「after only a short interval」这同一句概念，落盘后才由
+        # duplicates 报出来。
+        cc = c[5].strip()
+        if cc and cc in concept_taken and concept_taken[cc] != word:
+            errs.append(f"{name}:{n} {word} 核心概念与 {concept_taken[cc]} 完全相同，"
+                        f"须写出区别：{cc}")
         # 中文字段里混进英文单词：写的时候顺手打了英文（实测 sacred 的「与religion
         # 仪典有关的」、silly 的「缺乏judgment 的」两次）。第 4、7 列是纯中文说明，
         # 允许出现的拉丁字母只有词源里那种斜体词形，而这两列本不该有词形。

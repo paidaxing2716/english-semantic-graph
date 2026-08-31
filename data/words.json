@@ -151631,30 +151631,31 @@
     {
       "id": "sob",
       "word": "sob",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/sɒb/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sob，现代词义按整体记",
-      "native_definition": "a thing or action related to sob",
-      "core_concept": "a clear scene connected with sob – 与该词相连的清晰场景",
+      "origin": "中古英语 sobben，或出中古低地德语 sabben（流涎）",
+      "native_definition": "to cry with short catches of breath",
+      "core_concept": "crying that catches the breath in bursts – 哭时气息一顿一顿地断开",
       "core_image": "人坐在床边，肩膀一抽一抽，眼泪落在手背上",
       "chinese": [
-        "sob"
+        "抽泣",
+        "呜咽"
       ],
       "examples": [
-        "The sob changed the situation.",
-        "Researchers discussed the sob carefully."
+        "She sobbed quietly into her sleeve.",
+        "A sob broke the long silence."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sob：从核心场景引出的常用义"
+        "抽泣：一抽一抽地低声哭",
+        "呜咽：低而断续的哭声"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sober",
@@ -151664,25 +151665,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sober，现代词义按整体记",
-      "native_definition": "a thing or action related to sober",
-      "core_concept": "a clear scene connected with sober – 与该词相连的清晰场景",
+      "origin": "中古英语 sober ← 古法语 sobre ← 拉丁语 sōbrius，由 se-（无）＋ ebrius（醉）构成",
+      "native_definition": "not affected by alcohol, or serious in manner",
+      "core_concept": "without drink and therefore steady – 不带酒意因而稳得住",
       "core_image": "宴会散场后，他放下酒杯，神情清醒地查看账单",
       "chinese": [
-        "sober"
+        "未醉的",
+        "冷静的"
       ],
       "examples": [
-        "The sober changed the situation.",
-        "Researchers discussed the sober carefully."
+        "He stayed sober all evening.",
+        "She gave a sober assessment of the risk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sober：从核心场景引出的常用义"
+        "未醉的：没有受酒影响",
+        "冷静的：不激动而能持平判断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "soccer",
@@ -151692,25 +151694,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soccer，现代词义按整体记",
-      "native_definition": "a thing or action related to soccer",
-      "core_concept": "a clear scene connected with soccer – 与该词相连的清晰场景",
+      "origin": "英式英语，为 association football 的缩略——assoc. 加牛津式后缀 -er 而成，1888 年见于记载",
+      "native_definition": "a game played by two teams kicking a round ball",
+      "core_concept": "the kicking game played under association rules – 按协会规则踢的那种球赛",
       "core_image": "球员在草地上追逐足球，球门网在远处张开",
       "chinese": [
-        "soccer"
+        "足球运动"
       ],
       "examples": [
-        "The soccer changed the situation.",
-        "Researchers discussed the soccer carefully."
+        "They play soccer every Sunday morning.",
+        "Soccer draws the largest crowds here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "soccer：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sock",
@@ -151720,25 +151719,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sock，现代词义按整体记",
-      "native_definition": "a thing or action related to sock",
-      "core_concept": "a clear scene connected with sock – 与该词相连的清晰场景",
+      "origin": "古英语 socc（轻便鞋），由日耳曼语支借自拉丁语 soccus ← 希腊语 sykchos（一种鞋）",
+      "native_definition": "a knitted covering for the foot worn inside a shoe",
+      "core_concept": "the soft covering drawn over the foot – 套在脚上的软质织物",
       "core_image": "脚踝套进柔软织物，鞋子再从外面包住脚",
       "chinese": [
-        "sock"
+        "短袜",
+        "袜子"
       ],
       "examples": [
-        "The sock changed the situation.",
-        "Researchers discussed the sock carefully."
+        "He pulled on a pair of wool socks.",
+        "One sock had a hole in it."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sock：从核心场景引出的常用义"
+        "短袜：长度到踝或小腿的袜",
+        "袜子：泛指套在脚上的织物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "soda",
@@ -151748,25 +151748,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soda，现代词义按整体记",
-      "native_definition": "a thing or action related to soda",
-      "core_concept": "a clear scene connected with soda – 与该词相连的清晰场景",
+      "origin": "借自意大利语 soda",
+      "native_definition": "a fizzy drink, or a sodium compound used in cleaning",
+      "core_concept": "the bubbling water and the salt that makes it – 起泡的水以及产生它的那种碱盐",
       "core_image": "玻璃杯里的气泡不断上升，冰块在液面轻轻碰撞",
       "chinese": [
-        "soda"
+        "苏打水",
+        "苏打"
       ],
       "examples": [
-        "The soda changed the situation.",
-        "Researchers discussed the soda carefully."
+        "She ordered a glass of soda.",
+        "Add baking soda to the mixture."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soda：从核心场景引出的常用义"
+        "苏打水：含气泡的饮料",
+        "苏打：碳酸钠一类的化合物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sofa",
@@ -151776,25 +151777,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sofa，现代词义按整体记",
-      "native_definition": "a thing or action related to sofa",
-      "core_concept": "a clear scene connected with sofa – 与该词相连的清晰场景",
+      "origin": "借自法语 sofa，更早出阿拉伯语 ṣuffa（铺了毯垫的石砌长座）",
+      "native_definition": "a long soft seat for two or more people",
+      "core_concept": "a long cushioned seat for several people – 供数人同坐的加垫长座",
       "core_image": "客厅里一张软垫长椅靠墙摆着，靠垫整齐放在一边",
       "chinese": [
-        "sofa"
+        "沙发"
       ],
       "examples": [
-        "The sofa changed the situation.",
-        "Researchers discussed the sofa carefully."
+        "They sat together on the old sofa.",
+        "The sofa takes up half the room."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sofa：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "soft",
@@ -151804,25 +151802,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soft，现代词义按整体记",
-      "native_definition": "a thing or action related to soft",
-      "core_concept": "a clear scene connected with soft – 与该词相连的清晰场景",
+      "origin": "古英语 sōfte（原作 sēfte）← 原始西日耳曼语 *samftī（平、缓、柔）← 原始印欧语 *sem-（一、整）",
+      "native_definition": "yielding easily to pressure, or gentle",
+      "core_concept": "giving way easily instead of resisting – 受压就让、不硬抗",
       "core_image": "羽毛落在掌心，手指轻轻一按便陷进去",
       "chinese": [
-        "soft"
+        "柔软的",
+        "轻柔的"
       ],
       "examples": [
-        "The soft changed the situation.",
-        "Researchers discussed the soft carefully."
+        "The cushion feels very soft.",
+        "She spoke in a soft voice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soft：从核心场景引出的常用义"
+        "柔软的：一按就凹不坚硬",
+        "轻柔的：力度或声音都很轻"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "software",
@@ -151832,25 +151831,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 software，现代词义按整体记",
-      "native_definition": "a thing or action related to software",
-      "core_concept": "a clear scene connected with software – 与该词相连的清晰场景",
+      "origin": "由 soft ＋ -ware 构成，与 hardware 相对，1958 年由 John Tukey 造出",
+      "native_definition": "the programs that tell a computer what to do",
+      "core_concept": "the instructions as against the machine itself – 相对机器本身而言的那套指令",
       "core_image": "电脑屏幕上的程序窗口接受指令，机器按步骤运行",
       "chinese": [
-        "software"
+        "软件"
       ],
       "examples": [
-        "The software changed the situation.",
-        "Researchers discussed the software carefully."
+        "The software updates itself each night.",
+        "They wrote the software in six months."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "software：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "soil",
@@ -151860,25 +151856,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soil，现代词义按整体记",
-      "native_definition": "a thing or action related to soil",
-      "core_concept": "a clear scene connected with soil – 与该词相连的清晰场景",
+      "origin": "中古英语 soile，部分出盎格鲁诺曼语 soyl ← 拉丁语 solium（座）被误认作 solum（地面）；部分出古英语 sol（泥）",
+      "native_definition": "the top layer of earth in which plants grow",
+      "core_concept": "the layer of ground that plants root in – 供植物扎根的那层地面",
       "core_image": "种子埋在深色泥土里，根系向下伸展",
       "chinese": [
-        "soil"
+        "土壤",
+        "耕土"
       ],
       "examples": [
-        "The soil changed the situation.",
-        "Researchers discussed the soil carefully."
+        "Rich soil covers the valley floor.",
+        "Test the soil before planting."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soil：从核心场景引出的常用义"
+        "土壤：地表可供耕种的一层",
+        "耕土：经耕作的表层土"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "soldier",
@@ -151888,25 +151885,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soldier，现代词义按整体记",
-      "native_definition": "a thing or action related to soldier",
-      "core_concept": "a clear scene connected with soldier – 与该词相连的清晰场景",
+      "origin": "中古英语 soudeour ← 古法语 soudier（雇兵）← 中世纪拉丁语 soldarius，源自晚期拉丁语 solidus（一种钱币）——即受饷者",
+      "native_definition": "a member of an army",
+      "core_concept": "one who serves for pay in an army – 领饷从军的人",
       "core_image": "士兵列队穿过操场，肩上背着装备",
       "chinese": [
-        "soldier"
+        "军人",
+        "战士"
       ],
       "examples": [
-        "The soldier changed the situation.",
-        "Researchers discussed the soldier carefully."
+        "The soldier saluted and stepped back.",
+        "Two soldiers guarded the gate."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soldier：从核心场景引出的常用义"
+        "军人：在军队服役的人",
+        "战士：参加战斗的成员"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "solemn",
@@ -151916,25 +151914,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 solemn，现代词义按整体记",
-      "native_definition": "a thing or action related to solemn",
-      "core_concept": "a clear scene connected with solemn – 与该词相连的清晰场景",
+      "origin": "中古英语 solempne ← 古法语 solempne ← 晚期拉丁语 sōlempnis（拉丁语 sollemnis 的变体，庄严的、每年举行的）",
+      "native_definition": "formal and serious in manner",
+      "core_concept": "carried out with formal gravity – 以正式而庄重的方式进行",
       "core_image": "大厅里的人收起笑容，安静等待重要仪式开始",
       "chinese": [
-        "solemn"
+        "庄严的",
+        "郑重的"
       ],
       "examples": [
-        "The solemn changed the situation.",
-        "Researchers discussed the solemn carefully."
+        "The ceremony was slow and solemn.",
+        "He made a solemn promise that day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "solemn：从核心场景引出的常用义"
+        "庄严的：场面肃穆令人敬重",
+        "郑重的：态度认真不轻率"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "somebody",
@@ -151944,25 +151943,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 somebody，现代词义按整体记",
-      "native_definition": "a thing or action related to somebody",
-      "core_concept": "a clear scene connected with somebody – 与该词相连的清晰场景",
+      "origin": "中古英语 sum body，由 some ＋ body 复合而成",
+      "native_definition": "a person whose identity is not stated",
+      "core_concept": "a person taken as unspecified – 不指明是谁的那个人",
       "core_image": "门外传来脚步声，一个不知名的人影停在灯下",
       "chinese": [
-        "somebody"
+        "某人"
       ],
       "examples": [
-        "The somebody changed the situation.",
-        "Researchers discussed the somebody carefully."
+        "Somebody left a note on the door.",
+        "Ask somebody who knows the way."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "somebody：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "someone",
@@ -151972,25 +151968,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 someone，现代词义按整体记",
-      "native_definition": "a thing or action related to someone",
-      "core_concept": "a clear scene connected with someone – 与该词相连的清晰场景",
+      "origin": "中古英语 sum on，由 some ＋ one 复合而成",
+      "native_definition": "one person, not named or not known",
+      "core_concept": "one person among many, left unnamed – 众人之中未点名的一个",
       "core_image": "人群中有一个人举手，其他人的面孔都藏在阴影里",
       "chinese": [
-        "someone"
+        "有人",
+        "某个人"
       ],
       "examples": [
-        "The someone changed the situation.",
-        "Researchers discussed the someone carefully."
+        "Someone called while you were out.",
+        "I need someone to help here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "someone：从核心场景引出的常用义"
+        "有人：存在某个人做了某事",
+        "某个人：指某一位而不明说是谁"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "something",
@@ -152000,25 +151997,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 something，现代词义按整体记",
-      "native_definition": "a thing or action related to something",
-      "core_concept": "a clear scene connected with something – 与该词相连的清晰场景",
+      "origin": "中古英语 somþyng ← 古英语 sum þing，由 some ＋ thing 复合而成",
+      "native_definition": "a thing that is not named or known",
+      "core_concept": "a thing taken as unspecified – 不指明是什么的那个东西",
       "core_image": "空盒子里忽然出现一样物品，手指指向它",
       "chinese": [
-        "something"
+        "某物",
+        "某事"
       ],
       "examples": [
-        "The something changed the situation.",
-        "Researchers discussed the something carefully."
+        "Something fell behind the cupboard.",
+        "She wants something warm to drink."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "something：从核心场景引出的常用义"
+        "某物：不点名的一件东西",
+        "某事：不点名的一件事情"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sometime",
@@ -152028,25 +152026,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sometime，现代词义按整体记",
-      "native_definition": "a thing or action related to sometime",
-      "core_concept": "a clear scene connected with sometime – 与该词相连的清晰场景",
+      "origin": "中古英语 somtyme，由 some ＋ time 构成",
+      "native_definition": "at an unstated point in time",
+      "core_concept": "at a point in time left unfixed – 落在某个未定的时点上",
       "core_image": "日历上未来某个日期被轻轻圈出，但没有写明哪一天",
       "chinese": [
-        "sometime"
+        "某时",
+        "改天"
       ],
       "examples": [
-        "The sometime changed the situation.",
-        "Researchers discussed the sometime carefully."
+        "Come and see us sometime next week.",
+        "The letter arrived sometime in May."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sometime：从核心场景引出的常用义"
+        "某时：未指明的某个时候",
+        "改天：另择一个日子"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sometimes",
@@ -152056,25 +152055,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sometimes，现代词义按整体记",
-      "native_definition": "a thing or action related to sometimes",
-      "core_concept": "a clear scene connected with sometimes – 与该词相连的清晰场景",
+      "origin": "中古英语 sumtymes，由 sometime ＋ -s 构成",
+      "native_definition": "on some occasions but not always",
+      "core_concept": "on scattered occasions rather than all – 只在个别时候而非一直",
       "core_image": "日历的大多数日期空白，只有间隔几天留下标记",
       "chinese": [
-        "sometimes"
+        "有时",
+        "间或"
       ],
       "examples": [
-        "The sometimes changed the situation.",
-        "Researchers discussed the sometimes carefully."
+        "Sometimes he walks to work.",
+        "The machine sometimes stops without warning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sometimes：从核心场景引出的常用义"
+        "有时：偶尔发生",
+        "间或：隔一段出现一次"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "somewhere",
@@ -152084,53 +152084,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 somewhere，现代词义按整体记",
-      "native_definition": "a thing or action related to somewhere",
-      "core_concept": "a clear scene connected with somewhere – 与该词相连的清晰场景",
+      "origin": "由 some ＋ where 复合而成",
+      "native_definition": "in or to a place that is not named",
+      "core_concept": "at a place left unspecified – 落在某个未点明的地点",
       "core_image": "地图上没有标名的一处地点被插上一面小旗",
       "chinese": [
-        "somewhere"
+        "某处",
+        "在某地"
       ],
       "examples": [
-        "The somewhere changed the situation.",
-        "Researchers discussed the somewhere carefully."
+        "She left her keys somewhere upstairs.",
+        "We should meet somewhere quieter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "somewhere：从核心场景引出的常用义"
+        "某处：不指明的某个地方",
+        "在某地：处在某个未说明的位置"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "son",
       "word": "son",
       "pos": "noun",
-      "phonetic": "/ˈson/",
+      "phonetic": "/sʌn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 son，现代词义按整体记",
-      "native_definition": "a thing or action related to son",
-      "core_concept": "a clear scene connected with son – 与该词相连的清晰场景",
+      "origin": "古英语 sunu ← 原始西日耳曼语 *sunu ← 原始日耳曼语 *sunuz ← 原始印欧语 *suHnús，出 *sewH-（生育）",
+      "native_definition": "a male child of a parent",
+      "core_concept": "the male one born to a parent – 所生的男性子女",
       "core_image": "父亲和儿子并肩走在小路上，身高和步伐各不相同",
       "chinese": [
-        "son"
+        "子嗣",
+        "男性后代"
       ],
       "examples": [
-        "The son changed the situation.",
-        "Researchers discussed the son carefully."
+        "Their eldest son studies abroad now.",
+        "He named his son after his father."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "son：从核心场景引出的常用义"
+        "子嗣：所生的男性子女",
+        "男性后代：血脉上属下一代的男性"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "song",
@@ -152140,25 +152142,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 song，现代词义按整体记",
-      "native_definition": "a thing or action related to song",
-      "core_concept": "a clear scene connected with song – 与该词相连的清晰场景",
+      "origin": "古英语 sang ← 原始西日耳曼语 *sangu ← 原始日耳曼语 *sangwaz（歌唱）← 原始印欧语 *sengʷʰ-（唱）",
+      "native_definition": "a short piece of music with words to be sung",
+      "core_concept": "words set to a tune for singing – 配上曲调供人唱的词",
       "core_image": "乐谱上的音符连成一行，歌手随着旋律开口",
       "chinese": [
-        "song"
+        "歌曲",
+        "歌唱"
       ],
       "examples": [
-        "The song changed the situation.",
-        "Researchers discussed the song carefully."
+        "She wrote the song in one evening.",
+        "Everyone joined in the last song."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "song：从核心场景引出的常用义"
+        "歌曲：可唱的一首乐曲",
+        "歌唱：唱这个行为"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "soon",
@@ -152168,53 +152171,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soon，现代词义按整体记",
-      "native_definition": "a thing or action related to soon",
-      "core_concept": "a clear scene connected with soon – 与该词相连的清晰场景",
+      "origin": "古英语 sōna（立即）← 原始西日耳曼语 *sān ← 原始日耳曼语 *sēna",
+      "native_definition": "before long and without much delay",
+      "core_concept": "close ahead in time – 时间上就在前头不远",
       "core_image": "钟面上的指针快要到约定时刻，等待不会持续太久",
       "chinese": [
-        "soon"
+        "不久",
+        "很快"
       ],
       "examples": [
-        "The soon changed the situation.",
-        "Researchers discussed the soon carefully."
+        "The bus should arrive soon.",
+        "He soon realised his mistake."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soon：从核心场景引出的常用义"
+        "不久：过不了多长时间",
+        "很快：短时间内就"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sophisticated",
       "word": "sophisticated",
       "pos": "adjective",
-      "phonetic": "/ˈsophisticated/",
+      "phonetic": "/səˈfɪstɪkeɪtɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sophisticated，现代词义按整体记",
-      "native_definition": "a thing or action related to sophisticated",
-      "core_concept": "a clear scene connected with sophisticated – 与该词相连的清晰场景",
+      "origin": "1601 年前后始见于英语 ← 中世纪拉丁语 sophisticatus",
+      "native_definition": "highly developed and complex, or worldly-wise",
+      "core_concept": "refined through much working over – 经反复琢磨而变得考究",
       "core_image": "精密仪器的许多部件彼此配合，操作面板没有多余按键",
       "chinese": [
-        "sophisticated"
+        "精巧的",
+        "老练的"
       ],
       "examples": [
-        "The sophisticated changed the situation.",
-        "Researchers discussed the sophisticated carefully."
+        "The lab uses sophisticated equipment.",
+        "She has a sophisticated taste in music."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sophisticated：从核心场景引出的常用义"
+        "精巧的：结构复杂而做得精细",
+        "老练的：见识多而不生涩"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sore",
@@ -152224,25 +152229,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sore，现代词义按整体记",
-      "native_definition": "a thing or action related to sore",
-      "core_concept": "a clear scene connected with sore – 与该词相连的清晰场景",
+      "origin": "古英语 sār（痛、伤）← 原始西日耳曼语 *sair ← 原始日耳曼语 *sairaz",
+      "native_definition": "painful when touched or moved",
+      "core_concept": "hurting when pressed – 一碰就痛",
       "core_image": "手臂一碰就痛，皮肤下有一处红肿的地方",
       "chinese": [
-        "sore"
+        "疼痛的",
+        "发炎的"
       ],
       "examples": [
-        "The sore changed the situation.",
-        "Researchers discussed the sore carefully."
+        "My shoulder felt sore all week.",
+        "He had a sore throat by evening."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sore：从核心场景引出的常用义"
+        "疼痛的：受触即感到痛",
+        "发炎的：局部红肿而痛"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sorrow",
@@ -152252,25 +152258,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sorrow，现代词义按整体记",
-      "native_definition": "a thing or action related to sorrow",
-      "core_concept": "a clear scene connected with sorrow – 与该词相连的清晰场景",
+      "origin": "古英语 sorg（忧、愁）← 原始西日耳曼语 *sorgu ← 原始日耳曼语 *surgō ← 原始印欧语 *swergʰ-（忧、病）",
+      "native_definition": "deep sadness caused by loss",
+      "core_concept": "the heavy grief that settles after loss – 失去之后沉下来的深切哀痛",
       "core_image": "窗边的人读完信后低下头，手里的纸慢慢垂下",
       "chinese": [
-        "sorrow"
+        "悲伤",
+        "哀愁"
       ],
       "examples": [
-        "The sorrow changed the situation.",
-        "Researchers discussed the sorrow carefully."
+        "She spoke of her sorrow quietly.",
+        "Sorrow filled the small church."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sorrow：从核心场景引出的常用义"
+        "悲伤：因失去而深感痛苦",
+        "哀愁：绵长而低沉的忧伤"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sorry",
@@ -152280,53 +152287,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sorry，现代词义按整体记",
-      "native_definition": "a thing or action related to sorry",
-      "core_concept": "a clear scene connected with sorry – 与该词相连的清晰场景",
+      "origin": "古英语 sāriġ（悲伤的）← 原始西日耳曼语 *sairag ← 原始日耳曼语 *sairagaz，由 sore ＋ -y 构成；与 sorrow 形近义近而并非同源",
+      "native_definition": "feeling regret about something one has done",
+      "core_concept": "feeling the sting of having done wrong – 因做错而心里发痛",
       "core_image": "打碎东西的人弯腰道歉，目光停在地面的碎片上",
       "chinese": [
-        "sorry"
+        "抱歉的",
+        "难过的"
       ],
       "examples": [
-        "The sorry changed the situation.",
-        "Researchers discussed the sorry carefully."
+        "She was sorry about the delay.",
+        "I feel sorry for the whole family."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sorry：从核心场景引出的常用义"
+        "抱歉的：为自己的过失感到不安",
+        "难过的：为某事感到不好受"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sort",
       "word": "sort",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/sɔːt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sort，现代词义按整体记",
-      "native_definition": "a thing or action related to sort",
-      "core_concept": "a clear scene connected with sort – 与该词相连的清晰场景",
+      "origin": "中古英语 sort ← 古法语 sorte（类、种）← 拉丁语 sortem，为 sors（签、份、类）的宾格",
+      "native_definition": "a group of things sharing a quality, or to arrange into groups",
+      "core_concept": "a share of the whole set apart by kind – 按类分出来的一份",
       "core_image": "桌上的物品按颜色和大小分别放进几个盒子",
       "chinese": [
-        "sort"
+        "种类",
+        "分类"
       ],
       "examples": [
-        "The sort changed the situation.",
-        "Researchers discussed the sort carefully."
+        "What sort of music do you like.",
+        "She sorted the papers by date."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sort：从核心场景引出的常用义"
+        "种类：性质相同的一批",
+        "分类：按类别把东西分开"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "soul",
@@ -152336,53 +152345,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soul，现代词义按整体记",
-      "native_definition": "a thing or action related to soul",
-      "core_concept": "a clear scene connected with soul – 与该词相连的清晰场景",
+      "origin": "古英语 sāwol ← 原始西日耳曼语 *saiwalu ← 原始日耳曼语 *saiwalō，更早词源未定",
+      "native_definition": "the spiritual part of a person believed to live on",
+      "core_concept": "the part held to outlast the body – 被认为在身体之外仍存续的那部分",
       "core_image": "教堂空座上留着一本打开的书，烛光照着安静的空间",
       "chinese": [
-        "soul"
+        "灵魂",
+        "心魂"
       ],
       "examples": [
-        "The soul changed the situation.",
-        "Researchers discussed the soul carefully."
+        "They prayed for the souls of the dead.",
+        "The music has real soul."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soul：从核心场景引出的常用义"
+        "灵魂：被认为独立于肉体的精神本体",
+        "心魂：内心深处的情感与精神"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sound",
       "word": "sound",
-      "pos": "adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˈsaʊnd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sound，现代词义按整体记",
-      "native_definition": "a thing or action related to sound",
-      "core_concept": "a clear scene connected with sound – 与该词相连的清晰场景",
+      "origin": "「声音」一支 ← 中古英语 soun ← 古法语 son ← 拉丁语 sonus（声）；同形的「健全」另出古英语 sund",
+      "native_definition": "what can be heard, or in good condition",
+      "core_concept": "what travels to the ear – 传到耳朵里的那个东西",
       "core_image": "鼓槌敲下后，空气中传出清楚而有节奏的振动",
       "chinese": [
-        "sound"
+        "声音",
+        "健全的"
       ],
       "examples": [
-        "The sound changed the situation.",
-        "Researchers discussed the sound carefully."
+        "A faint sound came from below.",
+        "The old bridge is still sound."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sound：从核心场景引出的常用义"
+        "声音：耳朵能听到的振动",
+        "健全的：状况良好没有毛病"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "soup",
@@ -152392,25 +152403,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soup，现代词义按整体记",
-      "native_definition": "a thing or action related to soup",
-      "core_concept": "a clear scene connected with soup – 与该词相连的清晰场景",
+      "origin": "中古英语 soupe ← 古法语 soupe ← 晚期拉丁语 suppa（浸汤的面包）← 原始日耳曼语 *supô",
+      "native_definition": "a liquid food made by boiling ingredients in water",
+      "core_concept": "liquid food that bread was once dipped in – 早先用来蘸面包的那种汤汁",
       "core_image": "热汤盛在深碗里，蒸汽从表面一缕缕升起",
       "chinese": [
-        "soup"
+        "汤",
+        "羹汤"
       ],
       "examples": [
-        "The soup changed the situation.",
-        "Researchers discussed the soup carefully."
+        "She made soup from the leftover bones.",
+        "The soup was too hot to drink."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soup：从核心场景引出的常用义"
+        "汤：煮出的液体食物",
+        "羹汤：较稠的汤食"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sour",
@@ -152420,25 +152432,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sour，现代词义按整体记",
-      "native_definition": "a thing or action related to sour",
-      "core_concept": "a clear scene connected with sour – 与该词相连的清晰场景",
+      "origin": "古英语 sūr ← 原始西日耳曼语 *sūr ← 原始日耳曼语 *sūraz ← 原始印欧语 *súHros",
+      "native_definition": "having a sharp taste like lemon or vinegar",
+      "core_concept": "sharp on the tongue – 在舌上发出尖锐的刺激",
       "core_image": "柠檬汁碰到舌尖，吃东西的人立刻皱起眉",
       "chinese": [
-        "sour"
+        "酸的",
+        "发酸的"
       ],
       "examples": [
-        "The sour changed the situation.",
-        "Researchers discussed the sour carefully."
+        "The apples tasted rather sour.",
+        "Milk turns sour in warm weather."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sour：从核心场景引出的常用义"
+        "酸的：味道带酸味",
+        "发酸的：因变质而转酸"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "source",
@@ -152448,25 +152461,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 source，现代词义按整体记",
-      "native_definition": "a thing or action related to source",
-      "core_concept": "a clear scene connected with source – 与该词相连的清晰场景",
+      "origin": "中古英语 sours ← 古法语 sorse，为 sordre（涌起）的过去分词 ← 拉丁语 surgere（升起），由 sub（自下）＋ regere（引）构成",
+      "native_definition": "the place or thing from which something comes",
+      "core_concept": "the point where something rises up – 某物涌起来的那一点",
       "core_image": "山脚泉水从岩石缝里流出，沿小沟向下汇聚",
       "chinese": [
-        "source"
+        "源头",
+        "来源"
       ],
       "examples": [
-        "The source changed the situation.",
-        "Researchers discussed the source carefully."
+        "They traced the river to its source.",
+        "Name the source of your figures."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "source：从核心场景引出的常用义"
+        "源头：河流或事物开始的地方",
+        "来源：某物或某信息的出处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "south",
