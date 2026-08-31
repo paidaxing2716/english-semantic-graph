@@ -4,7 +4,7 @@
     python scripts/backfill_stub_content.py drafts/sb_chunk01.tsv --dry-run
     python scripts/backfill_stub_content.py drafts/sb_chunk01.tsv
 
-输入是 9 列 TSV，**列数必须精确等于 9**（空列前面的制表符不能省）：
+输入是 10 列 TSV，**列数必须精确等于 10**（空列前面的制表符不能省）：
 
     1 word        小写，必须已在库且带 stub 标记
     2 origin      中文词源一句。照 drafts/.etym_cache/ 的真实词源写，不许编词形
@@ -15,9 +15,17 @@
     7 expansions  | 分隔，逐条说明某义项如何从核心画面推出。zh 有 2 个以上时必填
     8 image       **仅当该词的 core_image 仍是模板时才填**，否则留空表示不动
     9 phonetic    **仅当切片标了「是拼写套斜杠」时才填**，否则留空表示不动
+    10 pos        **仅当现有 pos 判错时才填**，否则留空表示不动
 
-第 8、9 列都是「留空即不动」。加第 9 列是因为 91 词的音标仍是生成器的占位串
-（重音歧义与同形异读两道门有意挡下没自动写），这些必须由人补，得有个入口。
+第 8、9、10 列都是「留空即不动」。
+
+加第 9 列是因为 91 词的音标仍是生成器的占位串（重音歧义与同形异读两道门有意挡下
+没自动写），这些必须由人补。
+
+加第 10 列是因为 extract_phonetic_pos 的「取首个词性标题」规则实测 95.2% 准，
+反过来说约 5% 是错的：people 被改成 verb（应为 noun）、topic 与 submarine 被改成
+adjective、soon 被改成 adjective（应为 adverb）。写内容时本来就要读该词的词源与
+义项，顺手判一下 pos 比另开一轮审计省事。
 
 【为什么不走 entries_from_draft.py】那条是给新词条的，遇到已入库的词会报
 「已在词库中，勿重复入库」并拒绝。这里恰恰只改已入库词条的若干字段。
@@ -40,10 +48,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-NCOL = 9
+NCOL = 10
 # 库内 4114 条真音标只用这些字符（extract_phonetic_pos.LIB_CHARSET 同一套）。
 # 卡住这个集合是为了拦窄式记音与美式符号，让新写的音标与全库一致。
 PHONETIC_CHARSET = set("()./abdefghijklmnoprstuvwz·æðŋɑɒɔəɜɡɪʃʊʌʒˈˌːθ")
+# 与 validate.py 的 VALID_POS 同一套；多词性写 'noun / verb'（带空格，库内 885 条如此）
+VALID_POS = {"noun", "verb", "adjective", "adverb", "preposition",
+             "conjunction", "pronoun", "interjection"}
+# classify_note 只在「← 后紧跟外语名」时判借词。origin 提到外语却没让箭头带出来，
+# 就会静默落回「日耳曼核心词」默认档。这个坑实测连栽三次（optical、paralyze、
+# periodical），靠记性挡不住，改成门。
+FOREIGN = ("法语", "拉丁", "希腊", "意大利", "西班牙", "荷兰", "阿拉伯", "梵语", "俄语", "日语")
+# 外语名出现在这些措辞里时不是来源，不该带箭头——bird「非拉丁借词」、brain 的希腊语
+# 是远亲、flock 提拉丁只为区分同形异源，库内 25 条属此类，一律放行。
+HEDGE = ("可能", "一说", "或与", "或出", "或来自", "非", "不是", "而非", "无关",
+         "不属", "并非", "远亲", "同类", "未定", "不明", "为区分", "另一个")
 
 
 def load(name):
@@ -103,6 +122,10 @@ def main():
                 errs.append(f"{name}:{n} {word} 例句未以句号结束：{s[:30]}")
             if not 5 <= len(s.rstrip(".").split()) <= 20:
                 errs.append(f"{name}:{n} {word} 例句词数 {len(s.split())} 越界：{s[:30]}")
+        note = entries.classify_note(c[1].strip())
+        if note == entries.NOTE_DEFAULT and any(f in c[1] for f in FOREIGN)                 and not any(h in c[1] for h in HEDGE):
+            errs.append(f"{name}:{n} {word} origin 提到外语却判成「日耳曼核心词」，"
+                        f"多半是漏了 ← 箭头：{c[1][:46]}")
         if len(zh) > 1 and not c[6].strip():
             errs.append(f"{name}:{n} {word} zh 有 {len(zh)} 个义项，expansions 必填")
         if "–" not in c[5]:
@@ -123,6 +146,13 @@ def main():
                 errs.append(f"{name}:{n} {word} 音标含库外字符 {''.join(sorted(bad))}：{ph_new}")
         elif ph_fake:
             errs.append(f"{name}:{n} {word} 音标是占位串，第 9 列必填")
+        pos_new = c[9].strip()
+        if pos_new:
+            parts = [x.strip() for x in pos_new.split("/") if x.strip()]
+            if not parts or any(x not in VALID_POS for x in parts):
+                errs.append(f"{name}:{n} {word} pos 不在允许集合：{pos_new}")
+            if pos_new == (w.get("pos") or ""):
+                errs.append(f"{name}:{n} {word} pos 与原值相同，第 10 列不该填")
 
     if errs:
         print(f"[FAIL] {len(errs)} 处问题，未写入：", file=sys.stderr)
@@ -147,6 +177,8 @@ def main():
             w["core_image"] = c[7].strip()
         if c[8].strip():
             w["phonetic"] = c[8].strip()
+        if c[9].strip():
+            w["pos"] = " / ".join(x.strip() for x in c[9].split("/") if x.strip())
         w["decomposable_note"] = entries.classify_note(w["origin"])
         # examples.json 与 words.json 各存一份，只改一边会让审计报数不一致
         for i, e in enumerate(ex_by_word.get(word, [])[:2]):

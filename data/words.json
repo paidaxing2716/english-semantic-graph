@@ -139047,31 +139047,31 @@
     {
       "id": "park",
       "word": "park",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/pɑːk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 park，现代词义按整体记",
-      "native_definition": "a thing or action related to park",
-      "core_concept": "a clear scene connected with park – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 park ← 古法语 parc（畜栏）← 中世纪拉丁语 parcus ← 法兰克语 *parruk（围栏）",
+      "native_definition": "an enclosed public area of grass and trees, or to leave a vehicle somewhere",
+      "core_concept": "an enclosed space set aside – 圈出来专作某用的一片地",
+      "core_image": "围起来的一片草地上有长椅和树，入口栏杆边排着几辆车",
       "chinese": [
-        "停车",
-        "公园"
+        "公园",
+        "停车"
       ],
       "examples": [
-        "The park changed the situation.",
-        "Researchers discussed the park carefully."
+        "Children play in the park every afternoon.",
+        "He parked the van behind the shop."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "停车/公园：从核心场景引出的常用义"
+        "公园：围起来供人游憩的绿地",
+        "停车：把车放进圈出的位置"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "parliament",
@@ -139081,85 +139081,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 parliament，现代词义按整体记",
-      "native_definition": "a thing or action related to parliament",
-      "core_concept": "a clear scene connected with parliament – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 parlement ← 古法语 parlement（商议、集会），由 parler（说话）＋ -ment 构成；另经盎格鲁诺曼语 parliament 一并传入",
+      "native_definition": "the elected assembly that makes the laws of a country",
+      "core_concept": "an assembly that meets to speak and decide – 聚起来商议并作决定的会体",
+      "core_image": "半圆形阶梯座席上众人举手表决，中央有人执槌",
       "chinese": [
         "议会"
       ],
       "examples": [
-        "The parliament changed the situation.",
-        "Researchers discussed the parliament carefully."
+        "Parliament votes on the bill next week.",
+        "She was elected to parliament last spring."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "议会：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "past",
       "word": "past",
-      "pos": "adverb",
+      "pos": "noun / preposition",
       "phonetic": "/pɑːst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 past，现代词义按整体记",
-      "native_definition": "a thing or action related to past",
-      "core_concept": "a clear scene connected with past – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 passed，是 passen（经过）的过去分词 ← 古法语 passer ← 俗拉丁语 *passāre",
+      "native_definition": "the time before now, or by the side of something",
+      "core_concept": "what has already gone by – 已经过去了的那一段",
+      "core_image": "日历一叠已撕下的页散在桌角，墙上只剩当月那张",
       "chinese": [
-        "过去"
+        "过去",
+        "经过"
       ],
       "examples": [
-        "The past changed the situation.",
-        "Researchers discussed the past carefully."
+        "She rarely talks about the past.",
+        "He walked past without a word."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "过去：从核心场景引出的常用义"
+        "过去：已流逝的那段时间",
+        "经过：从某物旁边通过"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀",
       "collocations": [
         "past midnight —— 过了午夜",
         "in the past —— 在过去"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "paste",
       "word": "paste",
       "pos": "verb",
-      "phonetic": "/ˈpaste/",
+      "phonetic": "/peɪst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 paste，现代词义按整体记",
-      "native_definition": "a thing or action related to paste",
-      "core_concept": "a clear scene connected with paste – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 paste ← 古法语 paste ← 晚期拉丁语 pasta ← 希腊语 pasta（撒盐的大麦糊）",
+      "native_definition": "a soft moist mixture, or to stick something onto a surface",
+      "core_concept": "a soft mixture used to stick – 用来粘合的软糊",
+      "core_image": "白色黏稠物从管口挤出，抹在纸背后压上墙面",
       "chinese": [
-        "粘贴"
+        "粘贴",
+        "糊状物"
       ],
       "examples": [
-        "The paste changed the situation.",
-        "Researchers discussed the paste carefully."
+        "She spread paste along the paper edge.",
+        "Copy the text and paste it here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "粘贴：从核心场景引出的常用义"
+        "粘贴：靠糊状物把一物贴到另一物上",
+        "糊状物：软而黏的混合物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pastime",
@@ -139169,25 +139168,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pastime，现代词义按整体记",
-      "native_definition": "a thing or action related to pastime",
-      "core_concept": "a clear scene connected with pastime – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "早期作 passtime／pass-time，来自中古英语 passe tyme，仿 ← 中古法语 passetemps 而造",
+      "native_definition": "an activity done regularly for enjoyment",
+      "core_concept": "something done to pass the time pleasantly – 用来把时间打发过去的事",
+      "core_image": "桌上摊着拼图，旁边茶杯已凉，窗外天色渐暗",
       "chinese": [
         "消遣"
       ],
       "examples": [
-        "The pastime changed the situation.",
-        "Researchers discussed the pastime carefully."
+        "Fishing remains his favourite pastime.",
+        "Chess was a common pastime then."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "消遣：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pasture",
@@ -139197,25 +139193,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pasture，现代词义按整体记",
-      "native_definition": "a thing or action related to pasture",
-      "core_concept": "a clear scene connected with pasture – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pasture ← 古法语 pasture ← 晚期拉丁语 pāstūra（牧放），源自拉丁语 pāscere（放牧）",
+      "native_definition": "land covered with grass where animals feed",
+      "core_concept": "grassland where animals are put to feed – 供牲畜取食的草地",
+      "core_image": "缓坡上牛群低头吃草，木栅栏一直延到山脚",
       "chinese": [
         "牧场"
       ],
       "examples": [
-        "The pasture changed the situation.",
-        "Researchers discussed the pasture carefully."
+        "Cattle grazed in the upper pasture.",
+        "They moved the sheep to fresh pasture."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "牧场：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pat",
@@ -139225,25 +139218,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pat，现代词义按整体记",
-      "native_definition": "a thing or action related to pat",
-      "core_concept": "a clear scene connected with pat – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pat（一击）← 古英语 plætt（响亮的一掌），中间的 l 脱落；← 原始日耳曼语 *plat-（击打）",
+      "native_definition": "to touch someone lightly with a flat hand",
+      "core_concept": "a light flat touch – 用平掌轻轻一触",
+      "core_image": "手掌张平，在肩上轻轻落下两下就抬起",
       "chinese": [
         "轻拍"
       ],
       "examples": [
-        "The pat changed the situation.",
-        "Researchers discussed the pat carefully."
+        "She patted the dog on its head.",
+        "He gave the boy a friendly pat."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "轻拍：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "patch",
@@ -139253,25 +139243,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 patch，现代词义按整体记",
-      "native_definition": "a thing or action related to patch",
-      "core_concept": "a clear scene connected with patch – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pacche，词源不明；或为更早 placche（布块）的变体 ← 古英语 *plæċċ（斑点、块）",
+      "native_definition": "a small piece of cloth used to cover a hole, or a small area",
+      "core_concept": "a small piece covering or marking an area – 盖住或标出一小片的那块东西",
+      "core_image": "破洞上缝着一块颜色略深的布，针脚绕成方形",
       "chinese": [
-        "补丁"
+        "补丁",
+        "小块地"
       ],
       "examples": [
-        "The patch changed the situation.",
-        "Researchers discussed the patch carefully."
+        "She sewed a patch onto the sleeve.",
+        "A patch of ice covered the path."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "补丁：从核心场景引出的常用义"
+        "补丁：缝上去盖住破处的布块",
+        "小块地：地面上一小片区域"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "patent",
@@ -139281,25 +139272,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 patent，现代词义按整体记",
-      "native_definition": "a thing or action related to patent",
-      "core_concept": "a clear scene connected with patent – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 patent（授予权利的文书），是 lettre patent（公开文书）的截短 ← 中古法语 patente ← 拉丁语 patēns（敞开的）",
+      "native_definition": "an official right to be the only one making a new invention",
+      "core_concept": "an open letter granting an exclusive right – 公开颁发的独占权文书",
+      "core_image": "盖章文件上画着装置图样，右下角写着编号与日期",
       "chinese": [
         "专利"
       ],
       "examples": [
-        "The patent changed the situation.",
-        "Researchers discussed the patent carefully."
+        "They filed a patent for the new valve.",
+        "The patent expires in three years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "专利：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "path",
@@ -139309,25 +139297,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 path，现代词义按整体记",
-      "native_definition": "a thing or action related to path",
-      "core_concept": "a clear scene connected with path – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "古英语 pæþ（小径）← 原始西日耳曼语 *paþ ← 原始日耳曼语 *paþaz",
+      "native_definition": "a narrow way made for walking",
+      "core_concept": "a narrow way worn by passing – 走出来的一条窄道",
+      "core_image": "林间被踩出一条窄窄的土带，两侧草长得高",
       "chinese": [
-        "道路"
+        "道路",
+        "路径"
       ],
       "examples": [
-        "The path changed the situation.",
-        "Researchers discussed the path carefully."
+        "A narrow path led down to the river.",
+        "They followed the path through the woods."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "道路：从核心场景引出的常用义"
+        "道路：供人行走的窄道",
+        "路径：从一处到另一处所循的走法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "patriotic",
@@ -139337,25 +139326,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 patriotic，现代词义按整体记",
-      "native_definition": "a thing or action related to patriotic",
-      "core_concept": "a clear scene connected with patriotic – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "法语 patriotique ← 晚期拉丁语 patriōticus ← 希腊语 patriōtikos，源自 patriōtēs（同乡、同胞）",
+      "native_definition": "showing strong devotion to the homeland",
+      "core_concept": "devoted to the land one belongs to – 对本土怀有深切感情的",
+      "core_image": "人群在旗下齐声唱着同一首曲子，手按在胸前",
       "chinese": [
         "爱国的"
       ],
       "examples": [
-        "The patriotic changed the situation.",
-        "Researchers discussed the patriotic carefully."
+        "Patriotic songs filled the crowded square.",
+        "He wrote a patriotic poem for the day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "爱国的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "patrol",
@@ -139365,25 +139351,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 patrol，现代词义按整体记",
-      "native_definition": "a thing or action related to patrol",
-      "core_concept": "a clear scene connected with patrol – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自法语 patrouille ← 古法语 patouiller（在水里踩踏），源自 patte（脚掌）← 俗拉丁语 *patta ← 法兰克语 *patta",
+      "native_definition": "a regular walk or drive around an area to watch it",
+      "core_concept": "walking a fixed round to keep watch – 沿固定路线走动查看",
+      "core_image": "两名值守者沿围墙走同一条路线，手电扫过角落",
       "chinese": [
         "巡逻"
       ],
       "examples": [
-        "The patrol changed the situation.",
-        "Researchers discussed the patrol carefully."
+        "Guards patrol the perimeter every two hours.",
+        "A patrol passed the gate at midnight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "巡逻：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "源头在日耳曼语支，经法语回流入英语，本项目未为其词族建根"
     },
     {
       "id": "patron",
@@ -139393,25 +139376,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 patron，现代词义按整体记",
-      "native_definition": "a thing or action related to patron",
-      "core_concept": "a clear scene connected with patron – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 patroun ← 古法语 patron ← 拉丁语 patrōnus（保护人），源自 pater（父亲）",
+      "native_definition": "a person who gives money to support an activity, or a regular customer",
+      "core_concept": "one who stands over something as protector – 像父辈那样护持某事的人",
+      "core_image": "出资者站在画作旁，铜牌上刻着他的名字",
       "chinese": [
-        "赞助人"
+        "赞助人",
+        "顾客"
       ],
       "examples": [
-        "The patron changed the situation.",
-        "Researchers discussed the patron carefully."
+        "A wealthy patron funded the whole exhibition.",
+        "Regular patrons get a small discount."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "赞助人：从核心场景引出的常用义"
+        "赞助人：出钱护持某项事业的人",
+        "顾客：常来照顾生意的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pattern",
@@ -139421,25 +139405,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pattern，现代词义按整体记",
-      "native_definition": "a thing or action related to pattern",
-      "core_concept": "a clear scene connected with pattern – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "早期作 patten／paterne，来自中古英语 patron（样板）← 古法语 patron ← 中世纪拉丁语 patrōnus",
+      "native_definition": "a repeated arrangement, or a model to be copied",
+      "core_concept": "an arrangement that repeats or serves as a model – 反复出现或供照做的排布",
+      "core_image": "布面上同一组花样每隔一段就重复一次",
       "chinese": [
-        "模式"
+        "模式",
+        "图案"
       ],
       "examples": [
-        "The pattern changed the situation.",
-        "Researchers discussed the pattern carefully."
+        "The tiles form a simple repeating pattern.",
+        "Her sleep pattern changed after the move."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "模式：从核心场景引出的常用义"
+        "模式：反复出现的固定样式",
+        "图案：布面或器物上的花样排布"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pavement",
@@ -139449,25 +139434,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pavement，现代词义按整体记",
-      "native_definition": "a thing or action related to pavement",
-      "core_concept": "a clear scene connected with pavement – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pament ← 盎格鲁诺曼语 pavement ← 拉丁语 pavīmentum（夯实的地面），源自 pavīre（夯、踏实）",
+      "native_definition": "a paved path at the side of a road",
+      "core_concept": "a beaten flat surface for walking – 夯平铺硬供人走的面",
+      "core_image": "街边铺着方砖的窄条，与车道之间有一道石沿",
       "chinese": [
         "人行道"
       ],
       "examples": [
-        "The pavement changed the situation.",
-        "Researchers discussed the pavement carefully."
+        "They walked along the narrow pavement.",
+        "Rain pooled on the uneven pavement."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "人行道：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "peanut",
@@ -139477,25 +139459,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 peanut，现代词义按整体记",
-      "native_definition": "a thing or action related to peanut",
-      "core_concept": "a clear scene connected with peanut – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 pea（豌豆）＋ nut（坚果）复合而成，可能是 pinda 一词的俗解",
+      "native_definition": "a small oily seed that grows in a shell underground",
+      "core_concept": "an underground seed in a brittle shell – 长在地下、外裹脆壳的籽实",
+      "core_image": "带纹路的浅褐硬壳一掰两半，里面躺着两粒红皮仁",
       "chinese": [
         "花生"
       ],
       "examples": [
-        "The peanut changed the situation.",
-        "Researchers discussed the peanut carefully."
+        "He shelled peanuts while watching the game.",
+        "This sauce contains crushed peanuts."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "花生：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "peasant",
@@ -139505,25 +139484,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 peasant，现代词义按整体记",
-      "native_definition": "a thing or action related to peasant",
-      "core_concept": "a clear scene connected with peasant – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 paissaunt ← 盎格鲁诺曼语 paisant ← 古法语 païsan（乡下人），源自 païs（地方）← 拉丁语 pāgus（乡野）",
+      "native_definition": "a poor farmer who works a small piece of land",
+      "core_concept": "a poor worker of the countryside – 乡野间耕作的贫苦人",
+      "core_image": "粗布衣的人弯腰在田垄间除草，草帽压得很低",
       "chinese": [
         "农民"
       ],
       "examples": [
-        "The peasant changed the situation.",
-        "Researchers discussed the peasant carefully."
+        "Peasants carried grain to the market.",
+        "A peasant family farmed this hillside."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "农民：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pebble",
@@ -139533,25 +139509,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pebble，现代词义按整体记",
-      "native_definition": "a thing or action related to pebble",
-      "core_concept": "a clear scene connected with pebble – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pibel ← 古英语 papolstān（卵石），前一半 *papol 来源不明",
+      "native_definition": "a small smooth stone found on a beach or riverbed",
+      "core_concept": "a small stone rounded by water – 被水磨圆的小石",
+      "core_image": "河床上一层圆滑的小石子，被水冲得没有棱角",
       "chinese": [
         "鹅卵石"
       ],
       "examples": [
-        "The pebble changed the situation.",
-        "Researchers discussed the pebble carefully."
+        "She picked up a smooth grey pebble.",
+        "Pebbles crunched under our heavy boots."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "鹅卵石：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "peculiar",
@@ -139561,25 +139534,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 peculiar，现代词义按整体记",
-      "native_definition": "a thing or action related to peculiar",
-      "core_concept": "a clear scene connected with peculiar – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "拉丁语 pecūliāris（属于私产的）← pecūlium（私产）← pecus（牲畜）",
+      "native_definition": "strange or unusual, or belonging only to one thing",
+      "core_concept": "set apart from all the rest – 与其余明显分开的",
+      "core_image": "一排相同的杯子里有一只形状明显不同，被单独摆出",
       "chinese": [
-        "奇怪的"
+        "奇怪的",
+        "独有的"
       ],
       "examples": [
-        "The peculiar changed the situation.",
-        "Researchers discussed the peculiar carefully."
+        "There was a peculiar smell in the hall.",
+        "This custom is peculiar to that village."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "奇怪的：从核心场景引出的常用义"
+        "奇怪的：与常见的明显不同",
+        "独有的：只属于某一方而非旁的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "pencil",
@@ -139589,25 +139563,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pencil，现代词义按整体记",
-      "native_definition": "a thing or action related to pencil",
-      "core_concept": "a clear scene connected with pencil – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "盎格鲁诺曼语与古法语 pincil（细画笔）← 拉丁语 pēnicillum，为 pēniculus（小刷）的指小形",
+      "native_definition": "a thin stick used for writing or drawing",
+      "core_concept": "a thin stick that leaves a grey mark – 能留下灰痕的细杆",
+      "core_image": "木杆中央嵌着灰黑细芯，一端削出锥形尖",
       "chinese": [
         "铅笔"
       ],
       "examples": [
-        "The pencil changed the situation.",
-        "Researchers discussed the pencil carefully."
+        "He sharpened his pencil before the test.",
+        "Draw the line in pencil first."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "铅笔：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "penetrate",
@@ -139617,53 +139588,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 penetrate，现代词义按整体记",
-      "native_definition": "a thing or action related to penetrate",
-      "core_concept": "a clear scene connected with penetrate – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "拉丁语 penētrātus，为 penētrō（置于内、刺入）的过去分词，与 penes（在内）有关",
+      "native_definition": "to go into or through something",
+      "core_concept": "to get inside and pass through – 进到里面并穿过去",
+      "core_image": "钉尖穿过木板从另一面露出一截",
       "chinese": [
-        "穿透"
+        "穿透",
+        "渗入"
       ],
       "examples": [
-        "The penetrate changed the situation.",
-        "Researchers discussed the penetrate carefully."
+        "The needle penetrated the thick fabric.",
+        "Light barely penetrates the dense canopy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "穿透：从核心场景引出的常用义"
+        "穿透：从一面贯穿到另一面",
+        "渗入：慢慢进到内部"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "people",
       "word": "people",
-      "pos": "verb",
+      "pos": "noun",
       "phonetic": "/ˈpiː.pəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 people，现代词义按整体记",
-      "native_definition": "a thing or action related to people",
-      "core_concept": "a clear scene connected with people – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 puple ← 盎格鲁诺曼语 people ← 古法语 pueple ← 拉丁语 populus（民众）",
+      "native_definition": "human beings in general, or the members of a nation",
+      "core_concept": "human beings taken together – 合起来看的众人",
+      "core_image": "广场上密密站着许多身影，衣着各不相同",
       "chinese": [
-        "人们"
+        "人们",
+        "民族"
       ],
       "examples": [
-        "The people changed the situation.",
-        "Researchers discussed the people carefully."
+        "Many people waited outside the hall.",
+        "The people chose a new leader."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "人们：从核心场景引出的常用义"
+        "人们：泛指许多人",
+        "民族：同属一国或一族的全体"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pepper",
@@ -139673,25 +139646,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pepper，现代词义按整体记",
-      "native_definition": "a thing or action related to pepper",
-      "core_concept": "a clear scene connected with pepper – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "古英语 piper ← 拉丁语 piper ← 希腊语 peperi，更早来自印度语言（梵语 pippali 长胡椒）",
+      "native_definition": "a hot-tasting powder made from dried berries",
+      "core_concept": "a pungent spice ground from dried berries – 干果磨成的辛辣香料",
+      "core_image": "小磨旋转，深色颗粒碎成粉末落在菜面上",
       "chinese": [
         "胡椒"
       ],
       "examples": [
-        "The pepper changed the situation.",
-        "Researchers discussed the pepper carefully."
+        "She added salt and pepper to the soup.",
+        "Black pepper grows on climbing vines."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "胡椒：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "per",
@@ -139701,26 +139671,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 per，现代词义按整体记",
-      "native_definition": "a thing or action related to per",
-      "core_concept": "a clear scene connected with per – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "拉丁语 per（穿过、在…期间）← 原始印欧语 *per",
+      "native_definition": "for each one of something",
+      "core_concept": "taken for each single unit – 按每一个单位计",
+      "core_image": "价目牌上写着单位重量与对应的一个数字",
       "chinese": [
         "每",
-        "每个"
+        "每一"
       ],
       "examples": [
-        "The per changed the situation.",
-        "Researchers discussed the per carefully."
+        "The rate is ten pounds per hour.",
+        "Output rose per worker this quarter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "每/每个：从核心场景引出的常用义"
+        "每：按单个计算",
+        "每一：逐个地分摊到各个"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "percentage",
@@ -139730,25 +139700,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 percentage，现代词义按整体记",
-      "native_definition": "a thing or action related to percentage",
-      "core_concept": "a clear scene connected with percentage – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 percent ＋ -age 构成；percent ← 拉丁语 per centum（每一百）",
+      "native_definition": "an amount expressed as a part of one hundred",
+      "core_concept": "a share reckoned against one hundred – 以一百为底算出的份额",
+      "core_image": "圆饼被分成一百小格，其中一块被涂上颜色",
       "chinese": [
         "百分比"
       ],
       "examples": [
-        "The percentage changed the situation.",
-        "Researchers discussed the percentage carefully."
+        "A small percentage of seeds never sprout.",
+        "The percentage rose by three points."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "百分比：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "perfume",
@@ -139758,53 +139725,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 perfume，现代词义按整体记",
-      "native_definition": "a thing or action related to perfume",
-      "core_concept": "a clear scene connected with perfume – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自中古法语 parfum／perfum（熏香）",
+      "native_definition": "a liquid with a sweet smell worn on the skin, or a pleasant smell",
+      "core_concept": "a scent carried through the air – 在空气里散开的气味",
+      "core_image": "小玻璃瓶按下喷头，细雾散开后气味留在手腕",
       "chinese": [
-        "香水"
+        "香水",
+        "香味"
       ],
       "examples": [
-        "The perfume changed the situation.",
-        "Researchers discussed the perfume carefully."
+        "She wore a light perfume that evening.",
+        "The perfume of cut grass filled the yard."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "香水：从核心场景引出的常用义"
+        "香水：涂在身上的芳香液体",
+        "香味：好闻的气味本身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "perhaps",
       "word": "perhaps",
       "pos": "adverb",
-      "phonetic": "/ˈperhaps/",
+      "phonetic": "/pəˈhæps/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 perhaps，现代词义按整体记",
-      "native_definition": "a thing or action related to perhaps",
-      "core_concept": "a clear scene connected with perhaps – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 perhappes，由 per-（凭）＋ hap（机遇）＋ -s 构成，仿 perchance 而成",
+      "native_definition": "used to say that something is possible but not certain",
+      "core_concept": "possible as it may chance – 也许如此，凭机遇而定",
+      "core_image": "说话的人摊开手，眉头一动没有给出定论",
       "chinese": [
         "也许"
       ],
       "examples": [
-        "The perhaps changed the situation.",
-        "Researchers discussed the perhaps carefully."
+        "Perhaps she forgot about the meeting.",
+        "We could leave early, perhaps at noon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "也许：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "period",
@@ -139814,53 +139779,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 period，现代词义按整体记",
-      "native_definition": "a thing or action related to period",
-      "core_concept": "a clear scene connected with period – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 periode ← 中古法语 periode ← 中世纪拉丁语 periodus ← 希腊语 periodos（绕行一周），由 peri-（环绕）＋ hodos（路）构成",
+      "native_definition": "a length of time, or the dot ending a sentence",
+      "core_concept": "a stretch that comes round and closes – 走完一圈合上的一段",
+      "core_image": "时间轴上一段被两条竖线夹出，末端点着一个小圆点",
       "chinese": [
-        "时期"
+        "时期",
+        "句号"
       ],
       "examples": [
-        "The period changed the situation.",
-        "Researchers discussed the period carefully."
+        "The building stood empty for a long period.",
+        "Add a period at the end."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "时期：从核心场景引出的常用义"
+        "时期：有起止的一段时间",
+        "句号：把句子合上的那个点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "periodical",
       "word": "periodical",
-      "pos": "adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˌpɪəriˈɒdɪkl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 periodical，现代词义按整体记",
-      "native_definition": "a thing or action related to periodical",
-      "core_concept": "a clear scene connected with periodical – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 period ＋ -ical 构成；period ← 希腊语 periodos（绕行一周）",
+      "native_definition": "a magazine that comes out at regular intervals",
+      "core_concept": "something appearing at regular intervals – 按固定间隔出现的",
+      "core_image": "书架上同一刊名的册子按月份排开，封面只改期号",
       "chinese": [
-        "期刊"
+        "期刊",
+        "周期性的"
       ],
       "examples": [
-        "The periodical changed the situation.",
-        "Researchers discussed the periodical carefully."
+        "The library keeps back issues of each periodical.",
+        "She subscribes to two scientific periodicals."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "期刊：从核心场景引出的常用义"
+        "期刊：按期出版的刊物",
+        "周期性的：每隔固定时段就出现一次"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "permeate",
@@ -139870,25 +139837,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 permeate，现代词义按整体记",
-      "native_definition": "a thing or action related to permeate",
-      "core_concept": "a clear scene connected with permeate – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "拉丁语 permeātus，为 permeō（穿行而过）的过去分词，由 per-（穿过）＋ meāre（行走）构成",
+      "native_definition": "to spread through every part of something",
+      "core_concept": "to pass right through every part – 穿行进每一处",
+      "core_image": "一滴墨落进清水，颜色慢慢铺满整个杯子",
       "chinese": [
-        "渗透"
+        "渗透",
+        "弥漫"
       ],
       "examples": [
-        "The permeate changed the situation.",
-        "Researchers discussed the permeate carefully."
+        "The smell permeated the entire building.",
+        "New ideas permeated the whole department."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "渗透：从核心场景引出的常用义"
+        "渗透：一点点进入并布满内部",
+        "弥漫：气味或气氛充满整个空间"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "perplex",
@@ -144940,7 +144908,7 @@
     {
       "id": "roundabout",
       "word": "roundabout",
-      "pos": "adjective",
+      "pos": "noun",
       "phonetic": "/ˈraʊndəˌbaʊt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -147012,7 +146980,7 @@
     {
       "id": "self",
       "word": "self",
-      "pos": "pronoun",
+      "pos": "noun",
       "phonetic": "/ˈself/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -148832,7 +148800,7 @@
     {
       "id": "shot",
       "word": "shot",
-      "pos": "adjective",
+      "pos": "noun",
       "phonetic": "/ʃɒt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -149252,7 +149220,7 @@
     {
       "id": "sideways",
       "word": "sideways",
-      "pos": "adjective",
+      "pos": "adverb",
       "phonetic": "/ˈsaɪdweɪz/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -151128,7 +151096,7 @@
     {
       "id": "smart",
       "word": "smart",
-      "pos": "verb",
+      "pos": "adjective",
       "phonetic": "/smɑːt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -152220,7 +152188,7 @@
     {
       "id": "soon",
       "word": "soon",
-      "pos": "adjective",
+      "pos": "adverb",
       "phonetic": "/suːn/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -155413,7 +155381,7 @@
     {
       "id": "stranger",
       "word": "stranger",
-      "pos": "adjective",
+      "pos": "noun",
       "phonetic": "/ˈstreɪndʒə(r)/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -156393,7 +156361,7 @@
     {
       "id": "submarine",
       "word": "submarine",
-      "pos": "adjective",
+      "pos": "noun",
       "phonetic": "/ˈsubmarine/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -161327,7 +161295,7 @@
     {
       "id": "topic",
       "word": "topic",
-      "pos": "adjective",
+      "pos": "noun",
       "phonetic": "/ˈtɒpɪk/",
       "decomposable": "germanic",
       "root_ids": [],
