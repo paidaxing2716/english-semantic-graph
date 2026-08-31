@@ -138990,7 +138990,7 @@
       "id": "parcel",
       "word": "parcel",
       "pos": "noun",
-      "phonetic": "/ˈpɑrsəl/",
+      "phonetic": "/ˈpɑːsəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -149070,25 +149070,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shy，现代词义按整体记",
-      "native_definition": "a thing or action related to shy",
-      "core_concept": "a clear scene connected with shy – 与该词相连的清晰场景",
+      "origin": "古英语 sċēoh（怯）← 原始西日耳曼语 *skeuh ← 原始日耳曼语 *skeuhaz",
+      "native_definition": "nervous about meeting or talking to others",
+      "core_concept": "drawing back from being noticed – 怕被注意而往后缩",
       "core_image": "人站在人群边缘低着头，不敢主动走到中央",
       "chinese": [
-        "shy"
+        "羞怯的",
+        "畏缩的"
       ],
       "examples": [
-        "The shy changed the situation.",
-        "Researchers discussed the shy carefully."
+        "She was too shy to speak up.",
+        "The shy child hid behind her mother."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shy：从核心场景引出的常用义"
+        "羞怯的：见人就拘束不敢开口",
+        "畏缩的：遇事往后退不敢上前"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sick",
@@ -149098,25 +149099,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sick，现代词义按整体记",
-      "native_definition": "a thing or action related to sick",
-      "core_concept": "a clear scene connected with sick – 与该词相连的清晰场景",
+      "origin": "古英语 sēoc（病）← 原始西日耳曼语 *seuk ← 原始日耳曼语 *seukaz ← 原始印欧语 *sewg-（受苦）",
+      "native_definition": "not well in body, or wanting to vomit",
+      "core_concept": "out of sound health – 身体不在健全状态",
       "core_image": "病床上的人额头贴着冷毛巾，旁边放着药杯",
       "chinese": [
-        "sick"
+        "生病的",
+        "恶心的"
       ],
       "examples": [
-        "The sick changed the situation.",
-        "Researchers discussed the sick carefully."
+        "He stayed home sick for three days.",
+        "The smell made her feel sick."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sick：从核心场景引出的常用义"
+        "生病的：身体患病不适",
+        "恶心的：想要呕吐的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "side",
@@ -149126,25 +149128,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 side，现代词义按整体记",
-      "native_definition": "a thing or action related to side",
-      "core_concept": "a clear scene connected with side – 与该词相连的清晰场景",
+      "origin": "古英语 sīde（侧、胁）← 原始日耳曼语 *sīdǭ，或出原始印欧语 *seh₁-（长）",
+      "native_definition": "one of the surfaces or edges of something, or one of two opposing groups",
+      "core_concept": "one face or party as against another – 相对而言的这一面或这一方",
       "core_image": "盒子的一面朝向镜头，另一面隐藏在转角后",
       "chinese": [
-        "side"
+        "侧面",
+        "一方"
       ],
       "examples": [
-        "The side changed the situation.",
-        "Researchers discussed the side carefully."
+        "Write your name on the other side.",
+        "Both sides agreed to talk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "side：从核心场景引出的常用义"
+        "侧面：物体的一个面或边",
+        "一方：对立双方中的一边"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sideways",
@@ -149154,25 +149157,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sideways，现代词义按整体记",
-      "native_definition": "a thing or action related to sideways",
-      "core_concept": "a clear scene connected with sideways – 与该词相连的清晰场景",
+      "origin": "由 side ＋ -ways 构成",
+      "native_definition": "towards or from one side",
+      "core_concept": "along the side rather than straight ahead – 沿侧面而非朝正前",
       "core_image": "螃蟹沿沙地横着移动，身体并不朝前方",
       "chinese": [
-        "sideways"
+        "向侧面",
+        "侧向"
       ],
       "examples": [
-        "The sideways changed the situation.",
-        "Researchers discussed the sideways carefully."
+        "The crab moved sideways across the sand.",
+        "He glanced sideways at her."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sideways：从核心场景引出的常用义"
+        "向侧面：朝旁边的方向",
+        "侧向：从侧面来或去的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "siege",
@@ -149182,53 +149186,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 siege，现代词义按整体记",
-      "native_definition": "a thing or action related to siege",
-      "core_concept": "a clear scene connected with siege – 与该词相连的清晰场景",
+      "origin": "中古英语 sege ← 古法语 siege ← 俗拉丁语 *sēdicum ← 拉丁语 sēdēs（座）",
+      "native_definition": "the surrounding of a place to force it to surrender",
+      "core_concept": "sitting down around a place until it yields – 在一处四周坐守到它屈服",
       "core_image": "城墙外搭满帐篷，里面的人守着关闭的城门",
       "chinese": [
-        "siege"
+        "围攻",
+        "包围"
       ],
       "examples": [
-        "The siege changed the situation.",
-        "Researchers discussed the siege carefully."
+        "The siege lasted almost two years.",
+        "Troops laid siege to the fort."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "siege：从核心场景引出的常用义"
+        "围攻：围住并进攻",
+        "包围：四面合拢困住"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sigh",
       "word": "sigh",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/saɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sigh，现代词义按整体记",
-      "native_definition": "a thing or action related to sigh",
-      "core_concept": "a clear scene connected with sigh – 与该词相连的清晰场景",
+      "origin": "中古英语 sighen，由 siken 的过去式 sighte 反构而成 ← 古英语 sīcan",
+      "native_definition": "to let out a long breath showing tiredness or relief",
+      "core_concept": "letting the breath out long and audibly – 长长把气放出来",
       "core_image": "人放下信后长长呼出一口气，肩膀慢慢落下",
       "chinese": [
-        "sigh"
+        "叹气",
+        "叹息"
       ],
       "examples": [
-        "The sigh changed the situation.",
-        "Researchers discussed the sigh carefully."
+        "She sighed and closed the book.",
+        "A long sigh escaped him."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sigh：从核心场景引出的常用义"
+        "叹气：出声地长长呼气",
+        "叹息：因感慨而叹"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sight",
@@ -149238,53 +149244,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sight，现代词义按整体记",
-      "native_definition": "a thing or action related to sight",
-      "core_concept": "a clear scene connected with sight – 与该词相连的清晰场景",
+      "origin": "古英语 sihþ（所见）← 原始西日耳曼语 *sihti，由 see ＋ -th 构成",
+      "native_definition": "the ability to see, or something seen",
+      "core_concept": "the faculty of seeing and what it takes in – 看的能力以及所看到的东西",
       "core_image": "山顶上视线越过树林，远处湖面清楚可见",
       "chinese": [
-        "sight"
+        "视力",
+        "景象"
       ],
       "examples": [
-        "The sight changed the situation.",
-        "Researchers discussed the sight carefully."
+        "His sight weakened with age.",
+        "The valley was a wonderful sight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sight：从核心场景引出的常用义"
+        "视力：眼睛看的能力",
+        "景象：眼前呈现的画面"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sightseeing",
       "word": "sightseeing",
       "pos": "noun",
-      "phonetic": "/ˈsightseeing/",
+      "phonetic": "/ˈsaɪtsiːɪŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sightseeing，现代词义按整体记",
-      "native_definition": "a thing or action related to sightseeing",
-      "core_concept": "a clear scene connected with sightseeing – 与该词相连的清晰场景",
+      "origin": "由 sight ＋ seeing 复合而成",
+      "native_definition": "visiting places of interest as a tourist",
+      "core_concept": "going about to look at what is worth seeing – 四处去看值得看的东西",
       "core_image": "游客举着相机沿古建筑之间的小路缓慢行走",
       "chinese": [
-        "sightseeing"
+        "观光"
       ],
       "examples": [
-        "The sightseeing changed the situation.",
-        "Researchers discussed the sightseeing carefully."
+        "They spent the day sightseeing in Rome.",
+        "Sightseeing buses leave every hour."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sightseeing：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "silence",
@@ -149294,25 +149298,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 silence，现代词义按整体记",
-      "native_definition": "a thing or action related to silence",
-      "core_concept": "a clear scene connected with silence – 与该词相连的清晰场景",
+      "origin": "中古英语 silence ← 古法语 silence ← 拉丁语 silentium，源自 silēre（沉默）",
+      "native_definition": "complete absence of sound, or refusal to speak",
+      "core_concept": "the state of no sound being made – 没有声音发出的状态",
       "core_image": "空教室里没有人说话，只听见墙上时钟的滴答声",
       "chinese": [
-        "silence"
+        "寂静",
+        "沉默"
       ],
       "examples": [
-        "The silence changed the situation.",
-        "Researchers discussed the silence carefully."
+        "A long silence followed the question.",
+        "She kept silence about the matter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "silence：从核心场景引出的常用义"
+        "寂静：周围没有声响",
+        "沉默：不说话不表态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "silent",
@@ -149322,25 +149327,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 silent，现代词义按整体记",
-      "native_definition": "a thing or action related to silent",
-      "core_concept": "a clear scene connected with silent – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 silēns，为 silēre（沉默）的现在分词 ← 原始印欧语 *seyl-（静）",
+      "native_definition": "making no sound, or choosing not to speak",
+      "core_concept": "giving out no sound – 不发出声音的",
       "core_image": "手机屏幕亮着但没有声音，房间里的人安静等待",
       "chinese": [
-        "silent"
+        "无声的",
+        "沉默的"
       ],
       "examples": [
-        "The silent changed the situation.",
-        "Researchers discussed the silent carefully."
+        "The room went completely silent.",
+        "He remained silent throughout the meeting."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "silent：从核心场景引出的常用义"
+        "无声的：不产生声响",
+        "沉默的：有意不出声"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "silicon",
@@ -149350,25 +149356,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 silicon，现代词义按整体记",
-      "native_definition": "a thing or action related to silicon",
-      "core_concept": "a clear scene connected with silicon – 与该词相连的清晰场景",
+      "origin": "由 silicium ＋ -on 构成；silicium ← 拉丁语 silex（燧石、硅石），-on 取自 carbon",
+      "native_definition": "a chemical element used in glass and computer chips",
+      "core_concept": "the element drawn from flint-like rock – 从燧石类岩石里提取的元素",
       "core_image": "晶圆在无尘室的托盘上闪着灰蓝色光泽",
       "chinese": [
-        "silicon"
+        "硅"
       ],
       "examples": [
-        "The silicon changed the situation.",
-        "Researchers discussed the silicon carefully."
+        "Silicon is used in most computer chips.",
+        "The plant refines silicon for panels."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "silicon：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "silk",
@@ -149378,25 +149381,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 silk，现代词义按整体记",
-      "native_definition": "a thing or action related to silk",
-      "core_concept": "a clear scene connected with silk – 与该词相连的清晰场景",
+      "origin": "古英语 seoloc，直接来源未定，或经波罗的海商路传入 ← 晚期拉丁语 sēricus ← 希腊语 sērikos，更早出东方语言",
+      "native_definition": "a fine soft cloth made from threads spun by silkworms",
+      "core_concept": "the fine thread spun by a worm – 由蚕吐出的细纤维",
       "core_image": "细长纤维从蚕茧抽出，织成轻薄发亮的布料",
       "chinese": [
-        "silk"
+        "丝",
+        "丝绸"
       ],
       "examples": [
-        "The silk changed the situation.",
-        "Researchers discussed the silk carefully."
+        "She wore a scarf of pure silk.",
+        "Silk feels cool against the skin."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "silk：从核心场景引出的常用义"
+        "丝：蚕吐出的细纤维",
+        "丝绸：用它织成的织物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "silly",
@@ -149406,25 +149410,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 silly，现代词义按整体记",
-      "native_definition": "a thing or action related to silly",
-      "core_concept": "a clear scene connected with silly – 与该词相连的清晰场景",
+      "origin": "古英语 sǣliġ（幸运的）← 原始西日耳曼语 *sālīg；词义由「幸运」→「无辜」→「天真」→「愚蠢」",
+      "native_definition": "showing a lack of good sense in a harmless way",
+      "core_concept": "lacking sense without meaning harm – 没脑筋但无恶意",
       "core_image": "大雨里有人举着漏水的纸伞，旁人忍不住发笑",
       "chinese": [
-        "silly"
+        "傻的",
+        "愚蠢的"
       ],
       "examples": [
-        "The silly changed the situation.",
-        "Researchers discussed the silly carefully."
+        "That was a silly mistake to make.",
+        "He asked a silly question."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "silly：从核心场景引出的常用义"
+        "傻的：反应或做法不聪明",
+        "愚蠢的：明显缺乏见识的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "silver",
@@ -149434,25 +149439,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 silver，现代词义按整体记",
-      "native_definition": "a thing or action related to silver",
-      "core_concept": "a clear scene connected with silver – 与该词相连的清晰场景",
+      "origin": "古英语 seolfor ← 原始西日耳曼语 *silubr ← 原始日耳曼语 *silubrą，更早词源不明",
+      "native_definition": "a shiny white metal used for coins and jewellery",
+      "core_concept": "the bright white metal prized since antiquity – 自古珍视的亮白金属",
       "core_image": "银色餐具摆在深色桌布上，边缘反射冷白光",
       "chinese": [
-        "silver"
+        "银",
+        "白银"
       ],
       "examples": [
-        "The silver changed the situation.",
-        "Researchers discussed the silver carefully."
+        "The spoons are made of silver.",
+        "Silver tarnishes if left in air."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "silver：从核心场景引出的常用义"
+        "银：一种贵金属元素",
+        "白银：作为货币或材料的银"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "simplicity",
@@ -149462,25 +149468,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 simplicity，现代词义按整体记",
-      "native_definition": "a thing or action related to simplicity",
-      "core_concept": "a clear scene connected with simplicity – 与该词相连的清晰场景",
+      "origin": "中古英语 simplicite ← 古法语 simplicite ← 拉丁语 simplicitās，源自 simplex（单一）",
+      "native_definition": "the quality of being easy to understand or free of extras",
+      "core_concept": "being of one fold with nothing added – 一层到底、不加附饰",
       "core_image": "白墙前只放一把椅子，空间里没有多余装饰",
       "chinese": [
-        "simplicity"
+        "简单",
+        "朴素"
       ],
       "examples": [
-        "The simplicity changed the situation.",
-        "Researchers discussed the simplicity carefully."
+        "The design wins through sheer simplicity.",
+        "She admired the simplicity of the room."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "simplicity：从核心场景引出的常用义"
+        "简单：不复杂容易把握",
+        "朴素：不加修饰而自然"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "simplify",
@@ -149490,25 +149497,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 simplify，现代词义按整体记",
-      "native_definition": "a thing or action related to simplify",
-      "core_concept": "a clear scene connected with simplify – 与该词相连的清晰场景",
+      "origin": "法语 simplifier，相当于 simple ＋ -ify",
+      "native_definition": "to make something easier to do or understand",
+      "core_concept": "reducing something to fewer folds – 把层次减到更少",
       "core_image": "复杂地图被擦去支线，只留下通向目的地的主路",
       "chinese": [
-        "simplify"
+        "简化"
       ],
       "examples": [
-        "The simplify changed the situation.",
-        "Researchers discussed the simplify carefully."
+        "They simplified the whole application process.",
+        "Try to simplify the second paragraph."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "simplify：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "simply",
@@ -149518,53 +149522,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 simply，现代词义按整体记",
-      "native_definition": "a thing or action related to simply",
-      "core_concept": "a clear scene connected with simply – 与该词相连的清晰场景",
+      "origin": "中古英语 symply，由 simple ＋ -ly 构成",
+      "native_definition": "in a plain way, or merely",
+      "core_concept": "in a plain manner with nothing added – 不加旁枝地",
       "core_image": "桌上的说明只用几步就把操作讲清楚",
       "chinese": [
-        "simply"
+        "简单地",
+        "仅仅"
       ],
       "examples": [
-        "The simply changed the situation.",
-        "Researchers discussed the simply carefully."
+        "She explained it simply and clearly.",
+        "I simply forgot to call."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "simply：从核心场景引出的常用义"
+        "简单地：以不复杂的方式",
+        "仅仅：只不过如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sin",
       "word": "sin",
       "pos": "noun",
-      "phonetic": "/ˈsin/",
+      "phonetic": "/sɪn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sin，现代词义按整体记",
-      "native_definition": "a thing or action related to sin",
-      "core_concept": "a clear scene connected with sin – 与该词相连的清晰场景",
+      "origin": "古英语 synn ← 原始西日耳曼语 *sunnju ← 原始日耳曼语 *sundijō ← 原始印欧语 *h₁es-（是）——本义近「确有其事的罪责」",
+      "native_definition": "an act that breaks a religious law",
+      "core_concept": "a guilt truly incurred against a law – 对律法确实犯下的过错",
       "core_image": "教堂的彩窗投下红光，忏悔者低头跪在长椅边",
       "chinese": [
-        "sin"
+        "罪过",
+        "罪孽"
       ],
       "examples": [
-        "The sin changed the situation.",
-        "Researchers discussed the sin carefully."
+        "He confessed his sins to the priest.",
+        "Greed was considered a sin."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sin：从核心场景引出的常用义"
+        "罪过：违犯教规的行为",
+        "罪孽：所积下的罪责"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sincere",
@@ -149574,53 +149580,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sincere，现代词义按整体记",
-      "native_definition": "a thing or action related to sincere",
-      "core_concept": "a clear scene connected with sincere – 与该词相连的清晰场景",
+      "origin": "借自中古法语 sincere ← 拉丁语 sincērus（纯真），由 *sem-（一同）＋ *ḱer-（生长）构成",
+      "native_definition": "saying what one really feels",
+      "core_concept": "grown of one piece with no pretence – 一体长成、不掺假",
       "core_image": "说话者直视对方，双手平放在桌上没有任何遮掩",
       "chinese": [
-        "sincere"
+        "真诚的",
+        "诚挚的"
       ],
       "examples": [
-        "The sincere changed the situation.",
-        "Researchers discussed the sincere carefully."
+        "She gave a sincere apology.",
+        "His thanks sounded entirely sincere."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sincere：从核心场景引出的常用义"
+        "真诚的：所说与所想一致",
+        "诚挚的：情意深切而不虚"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sing",
       "word": "sing",
       "pos": "verb",
-      "phonetic": "/ˈsɪŋɡ/",
+      "phonetic": "/sɪŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sing，现代词义按整体记",
-      "native_definition": "a thing or action related to sing",
-      "core_concept": "a clear scene connected with sing – 与该词相连的清晰场景",
+      "origin": "古英语 singan ← 原始西日耳曼语 *singwan ← 原始日耳曼语 *singwaną ← 原始印欧语 *sengʷʰ-（吟、唱）",
+      "native_definition": "to make musical sounds with the voice",
+      "core_concept": "shaping the voice into music – 把嗓音发成乐音",
       "core_image": "歌手面对麦克风张口，乐谱上的音符随之响起",
       "chinese": [
-        "sing"
+        "唱",
+        "歌唱"
       ],
       "examples": [
-        "The sing changed the situation.",
-        "Researchers discussed the sing carefully."
+        "She sang two songs at the wedding.",
+        "Birds sing loudest at dawn."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sing：从核心场景引出的常用义"
+        "唱：用嗓音发出乐音",
+        "歌唱：以歌曲形式演唱"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "single",
@@ -149630,25 +149638,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 single，现代词义按整体记",
-      "native_definition": "a thing or action related to single",
-      "core_concept": "a clear scene connected with single – 与该词相连的清晰场景",
+      "origin": "中古英语 single ← 古法语 sengle ← 拉丁语 singulus（单个），出原始印欧语 *sem-（一）",
+      "native_definition": "only one, or not married",
+      "core_concept": "standing as one and one only – 只作一个、别无第二",
       "core_image": "一只杯子独自放在桌面中央，周围没有第二只",
       "chinese": [
-        "single"
+        "单个的",
+        "单身的"
       ],
       "examples": [
-        "The single changed the situation.",
-        "Researchers discussed the single carefully."
+        "Not a single seat was empty.",
+        "She has stayed single by choice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "single：从核心场景引出的常用义"
+        "单个的：仅有一个",
+        "单身的：未婚或无配偶"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "singular",
@@ -149658,81 +149667,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 singular，现代词义按整体记",
-      "native_definition": "a thing or action related to singular",
-      "core_concept": "a clear scene connected with singular – 与该词相连的清晰场景",
+      "origin": "中古英语 singuler ← 古法语 ← 拉丁语 singulāris（同类中独一），源自 singulus（单个）",
+      "native_definition": "referring to one in grammar, or unusually notable",
+      "core_concept": "alone of its kind – 同类里只此一个",
       "core_image": "显微镜下有一个格外独特的细胞，与周围明显不同",
       "chinese": [
-        "singular"
+        "单数的",
+        "非凡的"
       ],
       "examples": [
-        "The singular changed the situation.",
-        "Researchers discussed the singular carefully."
+        "Use the singular form after each.",
+        "She showed singular courage that day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "singular：从核心场景引出的常用义"
+        "单数的：语法上指一个",
+        "非凡的：突出得与众不同"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sink",
       "word": "sink",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/ˈsɪŋk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sink，现代词义按整体记",
-      "native_definition": "a thing or action related to sink",
-      "core_concept": "a clear scene connected with sink – 与该词相连的清晰场景",
+      "origin": "古英语 sincan ← 原始西日耳曼语 *sinkwan ← 原始日耳曼语 *sinkwaną ← 原始印欧语 *sengʷ-（落下）",
+      "native_definition": "to go down below the surface of a liquid",
+      "core_concept": "going down through and under – 一路往下没进去",
       "core_image": "石块落入池底，水面最后一圈波纹慢慢消失",
       "chinese": [
-        "sink"
+        "下沉",
+        "沉没"
       ],
       "examples": [
-        "The sink changed the situation.",
-        "Researchers discussed the sink carefully."
+        "The stone sank straight to the bottom.",
+        "Two ships sank in the storm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sink：从核心场景引出的常用义"
+        "下沉：向下移动进入下方",
+        "沉没：整体没入水下"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sip",
       "word": "sip",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/sɪp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sip，现代词义按整体记",
-      "native_definition": "a thing or action related to sip",
-      "core_concept": "a clear scene connected with sip – 与该词相连的清晰场景",
+      "origin": "中古英语 sippen，来源未定；或为 suppen（饮）的变体，或出古英语 sipian（渗、浸）",
+      "native_definition": "to drink a very small amount at a time",
+      "core_concept": "taking liquid in a little at a time – 一次只把液体取进一点",
       "core_image": "人端起杯子只喝一小口，随后把杯子放回桌面",
       "chinese": [
-        "sip"
+        "小口喝",
+        "啜饮"
       ],
       "examples": [
-        "The sip changed the situation.",
-        "Researchers discussed the sip carefully."
+        "She sipped her tea very slowly.",
+        "He took one sip and stopped."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sip：从核心场景引出的常用义"
+        "小口喝：每次只喝很少",
+        "啜饮：细细品着喝"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sir",
@@ -149742,25 +149754,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sir，现代词义按整体记",
-      "native_definition": "a thing or action related to sir",
-      "core_concept": "a clear scene connected with sir – 与该词相连的清晰场景",
+      "origin": "中古英语 sir，为 sire 的非重读形 ← 古法语 sire（主人）← 拉丁语 senior（较年长的），源自 senex（年老）",
+      "native_definition": "a polite way of addressing a man",
+      "core_concept": "the respectful form for an elder or superior – 对长者或上位者的敬称",
       "core_image": "来访者在门口微微点头，用尊称向年长者问候",
       "chinese": [
-        "sir"
+        "先生",
+        "阁下"
       ],
       "examples": [
-        "The sir changed the situation.",
-        "Researchers discussed the sir carefully."
+        "Good morning, sir, may I help you.",
+        "He addressed the officer as sir."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sir：从核心场景引出的常用义"
+        "先生：对男子的礼貌称呼",
+        "阁下：对有身分者的敬称"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "siren",
@@ -149770,25 +149783,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 siren，现代词义按整体记",
-      "native_definition": "a thing or action related to siren",
-      "core_concept": "a clear scene connected with siren – 与该词相连的清晰场景",
+      "origin": "中古英语 siren ← 古法语 sereine 与拉丁语 Sīrēn ← 希腊语 Seirēn（以歌声诱人的海妖）",
+      "native_definition": "a device that makes a loud warning sound",
+      "core_concept": "a sound that carries far and pulls attention – 传得远、把注意力拉过去的声音",
       "core_image": "远处警车顶灯闪烁，尖锐声音沿街道传来",
       "chinese": [
-        "siren"
+        "警笛",
+        "汽笛"
       ],
       "examples": [
-        "The siren changed the situation.",
-        "Researchers discussed the siren carefully."
+        "A siren wailed somewhere behind us.",
+        "The factory siren sounded at noon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "siren：从核心场景引出的常用义"
+        "警笛：警车或消防车的报警声器",
+        "汽笛：船只或工厂发声的号笛"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sister",
@@ -149798,25 +149812,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sister，现代词义按整体记",
-      "native_definition": "a thing or action related to sister",
-      "core_concept": "a clear scene connected with sister – 与该词相连的清晰场景",
+      "origin": "中古英语 suster ← 古英语 sweostor ← 原始日耳曼语 *swestēr ← 原始印欧语 *swésōr；今拼法的 i 受古诺尔斯语 systir 影响",
+      "native_definition": "a girl or woman with the same parents as another",
+      "core_concept": "a female born of the same parents – 同父母所生的女性",
       "core_image": "两个相似年龄的女孩在餐桌边分享一本书",
       "chinese": [
-        "sister"
+        "姐妹",
+        "姐姐"
       ],
       "examples": [
-        "The sister changed the situation.",
-        "Researchers discussed the sister carefully."
+        "Her sister lives in another city.",
+        "The two sisters look alike."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sister：从核心场景引出的常用义"
+        "姐妹：同父母所生的女性亲属",
+        "姐姐：年长于自己的那一位"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sit",
@@ -149826,25 +149841,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sit，现代词义按整体记",
-      "native_definition": "a thing or action related to sit",
-      "core_concept": "a clear scene connected with sit – 与该词相连的清晰场景",
+      "origin": "古英语 sittan ← 原始西日耳曼语 *sittjan ← 原始日耳曼语 *sitjaną ← 原始印欧语 *sed-（坐）",
+      "native_definition": "to rest with the body upright on a support",
+      "core_concept": "resting the body with weight on the seat – 把体重落在座上歇着",
       "core_image": "人弯膝坐到椅子上，背部靠向椅背",
       "chinese": [
-        "sit"
+        "坐",
+        "就座"
       ],
       "examples": [
-        "The sit changed the situation.",
-        "Researchers discussed the sit carefully."
+        "They sat on the low stone wall.",
+        "Please sit near the front."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sit：从核心场景引出的常用义"
+        "坐：身体落在座位上",
+        "就座：入座这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "site",
@@ -149854,25 +149870,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 site，现代词义按整体记",
-      "native_definition": "a thing or action related to site",
-      "core_concept": "a clear scene connected with site – 与该词相连的清晰场景",
+      "origin": "中古英语 site ← 盎格鲁诺曼语 site ← 拉丁语 situs（位置），源自 sinere（放置）",
+      "native_definition": "a place where something is or will be built",
+      "core_concept": "the spot where something is set down – 某物被安放的那个位置",
       "core_image": "施工围栏圈出一块空地，工程牌立在入口处",
       "chinese": [
-        "site"
+        "地点",
+        "工地"
       ],
       "examples": [
-        "The site changed the situation.",
-        "Researchers discussed the site carefully."
+        "They chose a site near the river.",
+        "The site opens to visitors soon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "site：从核心场景引出的常用义"
+        "地点：某事所在的位置",
+        "工地：正在施工的场地"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "situated",
@@ -149882,25 +149899,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 situated，现代词义按整体记",
-      "native_definition": "a thing or action related to situated",
-      "core_concept": "a clear scene connected with situated – 与该词相连的清晰场景",
+      "origin": "由 situate ＋ -ed 构成；situate ← 中世纪拉丁语 situātus，源自拉丁语 situs（位置）",
+      "native_definition": "placed in a particular position",
+      "core_concept": "set in a particular place – 被安置在某个位置上",
       "core_image": "小屋坐落在山脚河边，地图上准确标出位置",
       "chinese": [
-        "situated"
+        "位于",
+        "所在的"
       ],
       "examples": [
-        "The situated changed the situation.",
-        "Researchers discussed the situated carefully."
+        "The house is situated beside a lake.",
+        "Their office is situated downtown."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "situated：从核心场景引出的常用义"
+        "位于：处在某个地点",
+        "所在的：处于该位置的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "situation",
@@ -154835,7 +154853,7 @@
       "id": "sting",
       "word": "sting",
       "pos": "noun",
-      "phonetic": "/ˈstɪŋɡ/",
+      "phonetic": "/stɪŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -168762,7 +168780,7 @@
       "id": "young",
       "word": "young",
       "pos": "adjective/noun",
-      "phonetic": "/jʊŋɡ/",
+      "phonetic": "/jʌŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",

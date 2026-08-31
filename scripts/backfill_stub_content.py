@@ -147,6 +147,13 @@ def main():
         if nd and nd in native_taken and native_taken[nd] != word:
             errs.append(f"{name}:{n} {word} 英文释义与 {native_taken[nd]} 完全相同，"
                         f"须写出区别：{nd}")
+        # 中文字段里混进英文单词：写的时候顺手打了英文（实测 sacred 的「与religion
+        # 仪典有关的」、silly 的「缺乏judgment 的」两次）。第 4、7 列是纯中文说明，
+        # 允许出现的拉丁字母只有词源里那种斜体词形，而这两列本不该有词形。
+        for col, label in ((3, "中文义项"), (6, "语义展开")):
+            m = re.search(r"[A-Za-z]{4,}", c[col])
+            if m:
+                errs.append(f"{name}:{n} {word} {label}里混进英文「{m.group()}」")
         if "–" not in c[5]:
             errs.append(f"{name}:{n} {word} concept 缺短破折号 –")
         if c[7].strip() and (w.get("core_image") or "").strip() not in audit.TEMPLATE_IMAGES:
