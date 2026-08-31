@@ -42,10 +42,13 @@ LIB_CHARSET = set("()./abdefghijklmnoprstuvwz·æðŋɑɒɔəɜɡɪʃʊʌʒˈˌ�
 NOTATION_MAP = {"ɹ": "r", "ɛ": "e", "ʰ": "", "ʲ": ""}
 # SSB 把非儿化的 -er 词尾记成长弱音 əː（teacher /ˈtiːtʃəː/），库内一律写 ə。
 # 同一读音的两种记法，折算掉。实测只影响 5 条，全是 -er 施事名词。
-# ɛː 是 SSB 记 SQUARE 元音的写法（rare 记作 /ɹɛː/），字符映射先把 ɛ 折成 e，于是变成
-# eː——而 eː 不是英式音位，库内 4114 条一条都没有。必须再折成 eə（库内写法：rare
-# /reə/）。不加这条会写出 /ˈreːli/ /seːl/ /ˈsʌm.weː/ 这种既非 SSB 也非 RP 的杂形。
-NOTATION_SEQ = (("əː", "ə"), ("eː", "eə"))
+NOTATION_SEQ = (("əː", "ə"),)
+# ɛ→e 那条折算只对短 ɛ 成立（bed 的 /bɛd/ 库内写 /bed/）。ɛː 不行：SSB 用同一个 ɛː
+# 同时记两个不同的英式元音——share /ʃɛː/ 是 SQUARE（RP 作 eə），而 sir /sɛː/、
+# search /sɛːtʃ/、skirt /skɛːt/ 是 NURSE（RP 作 ɜː）。折成任何一个都会把另一批写错，
+# 所以整条拒收。实测待办占位词里 29 个有 ɛː 候选，**29 个全都另有合法候选**，
+# 拒收零代价。折算后仍含 eː 的一律按此处理（Wiktionary 也直接写 /ʃeː/ /skeːt/）。
+REJECT_SEQ = ("eː",)
 # 真方言标记，绝不映射。ɚ/ɝ 是美式儿化元音、ʉ 苏格兰与澳洲、ɐ 澳洲与加拿大、
 # ʈ ɖ ɻ 印度英语卷舌、ʍ 苏格兰 wh-、ɵ ø 加拿大。把它们折成英式等于伪造读音，
 # 宁可整条拒收、留给人工或联网补。
@@ -112,6 +115,9 @@ def pick_ipa(section):
                 if not (token.startswith("/") and token.endswith("/") and len(token) > 2):
                     continue
                 token = normalize_ipa(token)
+                if any(x in token for x in REJECT_SEQ):
+                    rejected = True
+                    continue
                 if set(token) - LIB_CHARSET:
                     rejected = True  # 剩下的是真方言标记，见 NOTATION_MAP 上方注释
                     continue
