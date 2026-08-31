@@ -141452,25 +141452,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 preach，现代词义按整体记",
-      "native_definition": "a thing or action related to preach",
-      "core_concept": "a clear scene connected with preach – 与该词相连的清晰场景",
+      "origin": "中古英语 prechen ← 古法语 prëechier ← 拉丁语 praedicāre（公开宣告），由 prae-（在前）＋ dicāre（宣告）构成",
+      "native_definition": "to give a religious talk to a group",
+      "core_concept": "proclaiming a message before listeners – 在众人面前宣讲主张",
       "core_image": "讲台上的人翻开经书，台下的人抬头专心听讲",
       "chinese": [
-        "布道"
+        "布道",
+        "宣讲"
       ],
       "examples": [
-        "The preach changed the situation.",
-        "Researchers discussed the preach carefully."
+        "The minister preached for twenty minutes.",
+        "He preached patience to the young players."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "布道：从核心场景引出的常用义"
+        "布道：讲述教义",
+        "宣讲：反复向人陈说某种主张"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "predecessor",
@@ -141480,25 +141481,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 predecessor，现代词义按整体记",
-      "native_definition": "a thing or action related to predecessor",
-      "core_concept": "a clear scene connected with predecessor – 与该词相连的清晰场景",
+      "origin": "中古英语 predecessour ← 古法语 predecesseor ← 晚期拉丁语 praedēcessor，由 prae-（在前）＋ dēcessor（去职者，出 dēcēdere 离去）构成",
+      "native_definition": "the person who held a job before someone else",
+      "core_concept": "the one who stepped down before – 在前一步退下的那个人",
       "core_image": "新任者站在旧办公桌旁，墙上还挂着上一任的照片",
       "chinese": [
         "前任"
       ],
       "examples": [
-        "The predecessor changed the situation.",
-        "Researchers discussed the predecessor carefully."
+        "Her predecessor left detailed notes behind.",
+        "The new model outsells its predecessor."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "前任：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pregnant",
@@ -141508,25 +141506,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pregnant，现代词义按整体记",
-      "native_definition": "a thing or action related to pregnant",
-      "core_concept": "a clear scene connected with pregnant – 与该词相连的清晰场景",
+      "origin": "中古英语 preignant ← 古法语 preignant 及其来源 ← 拉丁语 praegnāns，由 prae-（在前）＋ *gnāscī（nāscī 出生的古体）构成",
+      "native_definition": "carrying a developing baby in the body",
+      "core_concept": "carrying new life before birth – 出生之前已怀着新生命",
       "core_image": "检查屏幕显示一个小小轮廓，准父母握住彼此的手",
       "chinese": [
         "怀孕的"
       ],
       "examples": [
-        "The pregnant changed the situation.",
-        "Researchers discussed the pregnant carefully."
+        "She was pregnant with her second child.",
+        "The pregnant cat slept all afternoon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "怀孕的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "prejudice",
@@ -141536,25 +141531,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prejudice，现代词义按整体记",
-      "native_definition": "a thing or action related to prejudice",
-      "core_concept": "a clear scene connected with prejudice – 与该词相连的清晰场景",
+      "origin": "中古英语 prejudice ← 古法语 prejudice ← 拉丁语 praeiūdicium（先行的判断或损害），由 prae-（在前）＋ iūdicium（判断）构成",
+      "native_definition": "an unfair opinion formed before knowing the facts",
+      "core_concept": "a judgment made before the evidence – 在证据之前就下的判断",
       "core_image": "两扇门贴着不同标签，来人尚未了解就先被挡在一边",
       "chinese": [
         "偏见"
       ],
       "examples": [
-        "The prejudice changed the situation.",
-        "Researchers discussed the prejudice carefully."
+        "Prejudice against outsiders remained strong there.",
+        "He judged the case without prejudice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "偏见：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "preliminary",
@@ -141564,83 +141556,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 preliminary，现代词义按整体记",
-      "native_definition": "a thing or action related to preliminary",
-      "core_concept": "a clear scene connected with preliminary – 与该词相连的清晰场景",
+      "origin": "借自新拉丁语 praelīmināris，由 prae-（在前）＋ līmen（门槛）＋ -āris 构成",
+      "native_definition": "coming before the main part of something",
+      "core_concept": "standing before the threshold – 还在门槛之前的那一步",
       "core_image": "正式比赛前，运动员在空场上做最后一轮热身",
       "chinese": [
-        "初步的"
+        "初步的",
+        "预备的"
       ],
       "examples": [
-        "The preliminary changed the situation.",
-        "Researchers discussed the preliminary carefully."
+        "Preliminary results arrive later this week.",
+        "She lost in the preliminary round."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "初步的：从核心场景引出的常用义"
+        "初步的：正式阶段之前的",
+        "预备的：为正式进行做准备的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "premise",
       "word": "premise",
       "pos": "noun",
-      "phonetic": "/ˈpremise/",
+      "phonetic": "/ˈpremɪs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 premise，现代词义按整体记",
-      "native_definition": "a thing or action related to premise",
-      "core_concept": "a clear scene connected with premise – 与该词相连的清晰场景",
+      "origin": "中古英语 premisse ← 古法语 premisse ← 中世纪拉丁语 premissa（置于前者），为 praemittere（先送出）的阴性过去分词，由 prae-（在前）＋ mittere（送）构成；「房屋」一义出自产权人误读地契中该词的法律用法",
+      "native_definition": "a statement taken as true to build an argument on, or a building and its land",
+      "core_concept": "something set in place before the rest – 先放在前面作为依据的东西",
       "core_image": "地契和钥匙放在桌上，屋主指向房子的边界",
       "chinese": [
         "前提",
         "房屋"
       ],
       "examples": [
-        "The premise changed the situation.",
-        "Researchers discussed the premise carefully."
+        "The whole plan rests on one premise.",
+        "Smoking is banned on these premises."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "前提/房屋：从核心场景引出的常用义"
+        "前提：推论所依据的先设主张",
+        "房屋：连地界一并算的房产"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "premium",
       "word": "premium",
-      "pos": "adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˈpriː.miː.əm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 premium，现代词义按整体记",
-      "native_definition": "a thing or action related to premium",
-      "core_concept": "a clear scene connected with premium – 与该词相连的清晰场景",
+      "origin": "拉丁语 praemium（奖赏）",
+      "native_definition": "an extra payment, or of very high quality",
+      "core_concept": "a prize paid over and above – 额外付出或额外优等的",
       "core_image": "两件商品并排摆放，其中一件包装更精致、价格更高",
       "chinese": [
         "保险费",
         "优质的"
       ],
       "examples": [
-        "The premium changed the situation.",
-        "Researchers discussed the premium carefully."
+        "The insurance premium rose again this year.",
+        "They sell premium coffee beans here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "保险费/优质的：从核心场景引出的常用义"
+        "保险费：为保险按期缴付的钱",
+        "优质的：品质高于一般的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "prestige",
@@ -141650,25 +141643,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prestige，现代词义按整体记",
-      "native_definition": "a thing or action related to prestige",
-      "core_concept": "a clear scene connected with prestige – 与该词相连的清晰场景",
+      "origin": "借自法语 prestige（幻术、魅力）← 拉丁语 praestīgium（障眼法）",
+      "native_definition": "respect that comes from high standing",
+      "core_concept": "standing that dazzles onlookers – 令旁观者仰视的地位",
       "core_image": "颁奖台中央的奖杯被灯光照亮，观众起身鼓掌",
       "chinese": [
         "声望"
       ],
       "examples": [
-        "The prestige changed the situation.",
-        "Researchers discussed the prestige carefully."
+        "The award added to her prestige.",
+        "The school lost prestige after the scandal."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "声望：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "presumably",
@@ -141678,58 +141668,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 presumably，现代词义按整体记",
-      "native_definition": "a thing or action related to presumably",
-      "core_concept": "a clear scene connected with presumably – 与该词相连的清晰场景",
+      "origin": "由 presumable ＋ -ly 构成；presume ← 古法语 presumer ← 拉丁语 praesūmere（先取、先设）",
+      "native_definition": "used to say something is likely though not certain",
+      "core_concept": "taken as so before it is proved – 未经证实就先当作如此",
       "core_image": "桌上的线索都指向同一个答案，人们据此作出推断",
       "chinese": [
         "大概"
       ],
       "examples": [
-        "The presumably changed the situation.",
-        "Researchers discussed the presumably carefully."
+        "Presumably they left before the storm.",
+        "He is presumably still at work."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "大概：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记",
       "collocations": [
         "presumably because clause —— 大概因为……",
         "presumably true —— 大概是真的"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "pretty",
       "word": "pretty",
-      "pos": "adjective",
+      "pos": "adjective / adverb",
       "phonetic": "/ˈprɪt.i/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pretty，现代词义按整体记",
-      "native_definition": "a thing or action related to pretty",
-      "core_concept": "a clear scene connected with pretty – 与该词相连的清晰场景",
+      "origin": "中古英语 prety ← 古英语 prættiġ（狡巧的）← 原始日耳曼语 *prattugaz（好夸、机巧）",
+      "native_definition": "pleasant to look at, or to a fair degree",
+      "core_concept": "pleasing in a neat small way – 小巧而讨人喜欢的",
       "core_image": "窗台上的小花颜色柔和，旁边的人停下来微笑",
       "chinese": [
         "漂亮的",
         "相当"
       ],
       "examples": [
-        "The pretty changed the situation.",
-        "Researchers discussed the pretty carefully."
+        "She wore a pretty blue dress.",
+        "The room was pretty cold last night."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "漂亮的/相当：从核心场景引出的常用义"
+        "漂亮的：看着讨人喜欢",
+        "相当：程度上不小但未到极点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "priest",
@@ -141739,25 +141726,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 priest，现代词义按整体记",
-      "native_definition": "a thing or action related to priest",
-      "core_concept": "a clear scene connected with priest – 与该词相连的清晰场景",
+      "origin": "中古英语 prest ← 古英语 prēost ← 晚期拉丁语 presbyter ← 希腊语 presbyteros（年长者）",
+      "native_definition": "a person who leads religious services",
+      "core_concept": "an elder set over worship – 主持礼拜的长者",
       "core_image": "穿长袍的人站在祭坛前，手里捧着一本打开的书",
       "chinese": [
-        "牧师"
+        "牧师",
+        "司铎"
       ],
       "examples": [
-        "The priest changed the situation.",
-        "Researchers discussed the priest carefully."
+        "The priest blessed the small congregation.",
+        "A young priest took over the parish."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "牧师：从核心场景引出的常用义"
+        "牧师：主持宗教仪式的人",
+        "司铎：天主教中受职的神职人员"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "privacy",
@@ -141767,25 +141755,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 privacy，现代词义按整体记",
-      "native_definition": "a thing or action related to privacy",
-      "core_concept": "a clear scene connected with privacy – 与该词相连的清晰场景",
+      "origin": "由 private ＋ -acy 构成；private ← 拉丁语 prīvātus（分开的、私有的）",
+      "native_definition": "the state of being free from being watched",
+      "core_concept": "being set apart from public view – 与众人视线分开的状态",
       "core_image": "窗帘拉紧后，房间里的谈话不再传到走廊",
       "chinese": [
         "隐私"
       ],
       "examples": [
-        "The privacy changed the situation.",
-        "Researchers discussed the privacy carefully."
+        "Everyone here values their own privacy.",
+        "The high wall gives them privacy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "隐私：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "private",
@@ -141795,25 +141780,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 private，现代词义按整体记",
-      "native_definition": "a thing or action related to private",
-      "core_concept": "a clear scene connected with private – 与该词相连的清晰场景",
+      "origin": "中古英语 privat ← 拉丁语 prīvātus（被分开的、私有的），为 prīvāre（使分离）的过去分词，源自 prīvus（自有的）",
+      "native_definition": "belonging to one person and not open to others",
+      "core_concept": "set apart for oneself alone – 分出来专属自己的",
       "core_image": "一扇写着姓名的门关着，陌生人不能随意进入",
       "chinese": [
-        "私人的"
+        "私人的",
+        "私下的"
       ],
       "examples": [
-        "The private changed the situation.",
-        "Researchers discussed the private carefully."
+        "This is a private road.",
+        "They had a private conversation upstairs."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "私人的：从核心场景引出的常用义"
+        "私人的：属于个人而非公众的",
+        "私下的：不公开进行的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "problem",
@@ -141823,25 +141809,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 problem，现代词义按整体记",
-      "native_definition": "a thing or action related to problem",
-      "core_concept": "a clear scene connected with problem – 与该词相连的清晰场景",
+      "origin": "中古英语 probleme ← 中古法语 probleme ← 拉丁语 problēma ← 希腊语 problēma（抛在前面的东西、障碍），由 pro-（在前）＋ ballein（抛）构成",
+      "native_definition": "something difficult that needs to be dealt with",
+      "core_concept": "something thrown in the way – 抛在路上挡住去处的东西",
       "core_image": "桌上的齿轮卡住不转，工程师拿着工具寻找原因",
       "chinese": [
-        "问题"
+        "问题",
+        "难题"
       ],
       "examples": [
-        "The problem changed the situation.",
-        "Researchers discussed the problem carefully."
+        "We solved the problem within an hour.",
+        "Traffic is a growing problem here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "问题：从核心场景引出的常用义"
+        "问题：待解决的困难事",
+        "难题：特别不好解的问题"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "productivity",
@@ -141851,25 +141838,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 productivity，现代词义按整体记",
-      "native_definition": "a thing or action related to productivity",
-      "core_concept": "a clear scene connected with productivity – 与该词相连的清晰场景",
+      "origin": "由 productive ＋ -ity 构成；produce ← 拉丁语 prōdūcere（引出），由 prō-（向前）＋ dūcere（引）构成",
+      "native_definition": "the rate at which work or goods are produced",
+      "core_concept": "how much is brought forth per effort – 每份投入引出多少产出",
       "core_image": "同一排机器持续运转，传送带上的成品越来越多",
       "chinese": [
         "生产率"
       ],
       "examples": [
-        "The productivity changed the situation.",
-        "Researchers discussed the productivity carefully."
+        "Productivity rose after the new training.",
+        "The plant measures productivity every month."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "生产率：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "profit",
@@ -141879,25 +141863,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 profit，现代词义按整体记",
-      "native_definition": "a thing or action related to profit",
-      "core_concept": "a clear scene connected with profit – 与该词相连的清晰场景",
+      "origin": "中古英语 profit ← 古法语 profit ← 拉丁语 prōfectus（进展、增益），源自 prōficere（前进、有益）",
+      "native_definition": "money gained after costs are taken away",
+      "core_concept": "what is carried forward after costs – 扣去成本后向前留下的",
       "core_image": "账本两栏之间留下余额，收入超过了支出",
       "chinese": [
-        "利润"
+        "利润",
+        "获益"
       ],
       "examples": [
-        "The profit changed the situation.",
-        "Researchers discussed the profit carefully."
+        "The shop made a small profit.",
+        "Both sides profited from the deal."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "利润：从核心场景引出的常用义"
+        "利润：收入减去成本剩下的钱",
+        "获益：从某事中得到好处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "profitable",
@@ -141907,25 +141892,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 profitable，现代词义按整体记",
-      "native_definition": "a thing or action related to profitable",
-      "core_concept": "a clear scene connected with profitable – 与该词相连的清晰场景",
+      "origin": "古法语 profitable，由 profit ＋ -able 构成",
+      "native_definition": "bringing in more money than it costs",
+      "core_concept": "yielding more than it takes – 所得多于所费的",
       "core_image": "田地收成装满货车，卖出后留下了可观的余额",
       "chinese": [
         "有利可图的"
       ],
       "examples": [
-        "The profitable changed the situation.",
-        "Researchers discussed the profitable carefully."
+        "The route proved highly profitable.",
+        "It is not profitable at this price."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "有利可图的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "profound",
@@ -141935,25 +141917,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 profound，现代词义按整体记",
-      "native_definition": "a thing or action related to profound",
-      "core_concept": "a clear scene connected with profound – 与该词相连的清晰场景",
+      "origin": "中古英语 profound ← 古法语 profont ← 拉丁语 profundus（深的），由 prō- ＋ fundus（底）构成",
+      "native_definition": "very great, or showing deep understanding",
+      "core_concept": "reaching far down to the bottom – 一直探到底的",
       "core_image": "井口向下望去看不见底，声音落下很久才传回来",
       "chinese": [
-        "深刻的"
+        "深刻的",
+        "深远的"
       ],
       "examples": [
-        "The profound changed the situation.",
-        "Researchers discussed the profound carefully."
+        "Her speech had a profound effect.",
+        "He showed profound respect for tradition."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "深刻的：从核心场景引出的常用义"
+        "深刻的：见识或感受达到深处",
+        "深远的：影响伸得很远"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "programme",
@@ -141963,26 +141946,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 programme，现代词义按整体记",
-      "native_definition": "a thing or action related to programme",
-      "core_concept": "a clear scene connected with programme – 与该词相连的清晰场景",
+      "origin": "借自法语 programme ← 晚期拉丁语 programma ← 希腊语 programma（公开张示的文告），由 pro-（在前）＋ graphein（写）构成",
+      "native_definition": "a plan of what will be done, or a broadcast item",
+      "core_concept": "a notice written up beforehand – 事先写明的安排",
       "core_image": "墙上的时间表把活动按顺序排成一列",
       "chinese": [
         "计划",
         "节目"
       ],
       "examples": [
-        "The programme changed the situation.",
-        "Researchers discussed the programme carefully."
+        "The programme runs for six weeks.",
+        "We watched a programme about volcanoes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "计划/节目：从核心场景引出的常用义"
+        "计划：事先排定的做法",
+        "节目：广播或演出中的一段"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "prolong",
@@ -141992,54 +141975,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prolong，现代词义按整体记",
-      "native_definition": "a thing or action related to prolong",
-      "core_concept": "a clear scene connected with prolong – 与该词相连的清晰场景",
+      "origin": "古法语 prolonguer ← 拉丁语 prōlongāre，由 prō-（向前）＋ longus（长）构成",
+      "native_definition": "to make something last longer",
+      "core_concept": "drawing something out to greater length – 把某事往长处拉开",
       "core_image": "道路施工把原定的终点向远处推开",
       "chinese": [
         "延长"
       ],
       "examples": [
-        "The prolong changed the situation.",
-        "Researchers discussed the prolong carefully."
+        "They prolonged the meeting by an hour.",
+        "Rain prolonged the harvest that year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "延长：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "prompt",
       "word": "prompt",
-      "pos": "verb",
+      "pos": "adjective / verb",
       "phonetic": "/prɒmpt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prompt，现代词义按整体记",
-      "native_definition": "a thing or action related to prompt",
-      "core_concept": "a clear scene connected with prompt – 与该词相连的清晰场景",
+      "origin": "中古英语 prompte ← 中古法语 prompt 及其来源 ← 拉丁语 prōmptus（现成的、显见的），为 prōmere（取出）的过去分词，由 prō-（向前）＋ emere（取）构成",
+      "native_definition": "quick and without delay, or to make someone act",
+      "core_concept": "ready at hand and brought forth at once – 现成可取、随即拿出",
       "core_image": "铃声一响，工作人员立刻起身处理眼前的请求",
       "chinese": [
         "迅速的",
         "提示"
       ],
       "examples": [
-        "The prompt changed the situation.",
-        "Researchers discussed the prompt carefully."
+        "She sent a prompt reply that morning.",
+        "The noise prompted him to look up."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "迅速的/提示：从核心场景引出的常用义"
+        "迅速的：不拖延就做到",
+        "提示：给出线索使人接着做"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "propaganda",
@@ -142049,25 +142029,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 propaganda，现代词义按整体记",
-      "native_definition": "a thing or action related to propaganda",
-      "core_concept": "a clear scene connected with propaganda – 与该词相连的清晰场景",
+      "origin": "借自新拉丁语 prōpāganda，出自 Congregātiō dē Prōpāgandā Fidē（1622 年设立的传教机构），为拉丁语 prōpāgāre（繁衍、传布）的动形词",
+      "native_definition": "information spread to make people accept a view",
+      "core_concept": "things put out to be spread abroad – 放出去广为传布的东西",
       "core_image": "街角贴满统一口号的海报，行人反复看到同一套说法",
       "chinese": [
         "宣传"
       ],
       "examples": [
-        "The propaganda changed the situation.",
-        "Researchers discussed the propaganda carefully."
+        "Wartime propaganda filled every newspaper.",
+        "They dismissed the report as propaganda."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "宣传：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "prophet",
@@ -142077,25 +142054,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prophet，现代词义按整体记",
-      "native_definition": "a thing or action related to prophet",
-      "core_concept": "a clear scene connected with prophet – 与该词相连的清晰场景",
+      "origin": "中古英语 prophete ← 盎格鲁诺曼语 prophete ← 拉丁语 prophēta ← 希腊语 prophētēs（代神发言者），由 pro-（在前）＋ phēmi（说）构成",
+      "native_definition": "a person believed to speak messages from a god",
+      "core_concept": "one who speaks out before others – 代为发言、预先说出的人",
       "core_image": "一位预言者指向远方的天空，听众安静等待将来",
       "chinese": [
         "先知"
       ],
       "examples": [
-        "The prophet changed the situation.",
-        "Researchers discussed the prophet carefully."
+        "The prophet warned of coming famine.",
+        "Followers wrote down what the prophet said."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "先知：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "protein",
@@ -142105,25 +142079,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 protein，现代词义按整体记",
-      "native_definition": "a thing or action related to protein",
-      "core_concept": "a clear scene connected with protein – 与该词相连的清晰场景",
+      "origin": "借自法语 protéine 与德语 Protein，二者均据希腊语 prōteios（首要的）造出，源自 prōtos（第一）",
+      "native_definition": "a substance in food needed for growth",
+      "core_concept": "the first-rank matter of living tissue – 生命组织里居首的物质",
       "core_image": "实验室的模型由一串折叠的分子链组成",
       "chinese": [
         "蛋白质"
       ],
       "examples": [
-        "The protein changed the situation.",
-        "Researchers discussed the protein carefully."
+        "Beans provide protein without much fat.",
+        "The diet lacks protein and iron."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "蛋白质：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "prototype",
@@ -142133,25 +142104,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prototype，现代词义按整体记",
-      "native_definition": "a thing or action related to prototype",
-      "core_concept": "a clear scene connected with prototype – 与该词相连的清晰场景",
+      "origin": "法语 prototype 或晚期拉丁语 prototypon ← 希腊语 prōtotypos（原初样式），由 prōto-（最初）＋ typos（打出的印记）构成",
+      "native_definition": "the first version of something, made to test it",
+      "core_concept": "the first form others are struck from – 后来者据以打出的最初样式",
       "core_image": "工作台上摆着第一个样机，工程师围着它检查细节",
       "chinese": [
-        "原型"
+        "原型",
+        "雏形"
       ],
       "examples": [
-        "The prototype changed the situation.",
-        "Researchers discussed the prototype carefully."
+        "Engineers tested the prototype last month.",
+        "The prototype failed on its first run."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "原型：从核心场景引出的常用义"
+        "原型：最初的那一版式样",
+        "雏形：初具轮廓的最早形态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "psychiatry",
@@ -142161,25 +142133,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 psychiatry，现代词义按整体记",
-      "native_definition": "a thing or action related to psychiatry",
-      "core_concept": "a clear scene connected with psychiatry – 与该词相连的清晰场景",
+      "origin": "借自法语 psychiatrie，由希腊语 psychē（心魂）＋ iatreia（医治）构成",
+      "native_definition": "the branch of medicine treating mental illness",
+      "core_concept": "the healing of the mind – 对心魂的医治",
       "core_image": "诊室里医生和来访者面对面交谈，桌上放着记录本",
       "chinese": [
         "精神病学"
       ],
       "examples": [
-        "The psychiatry changed the situation.",
-        "Researchers discussed the psychiatry carefully."
+        "She trained in psychiatry for six years.",
+        "Psychiatry relies partly on careful listening."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "精神病学：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "psychology",
@@ -142189,25 +142158,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 psychology，现代词义按整体记",
-      "native_definition": "a thing or action related to psychology",
-      "core_concept": "a clear scene connected with psychology – 与该词相连的清晰场景",
+      "origin": "借自法语 psychologie ← 文艺复兴拉丁语 psychologia，由希腊语 psychē（心魂）＋ -logia（学）构成",
+      "native_definition": "the study of the mind and behaviour",
+      "core_concept": "the study of the mind – 关于心魂的学问",
       "core_image": "几张图卡摆在桌上，研究者记录人的选择和反应",
       "chinese": [
         "心理学"
       ],
       "examples": [
-        "The psychology changed the situation.",
-        "Researchers discussed the psychology carefully."
+        "He read psychology at university.",
+        "Psychology explains part of the choice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "心理学：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "puppet",
@@ -142217,25 +142183,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 puppet，现代词义按整体记",
-      "native_definition": "a thing or action related to puppet",
-      "core_concept": "a clear scene connected with puppet – 与该词相连的清晰场景",
+      "origin": "中古英语 popet ← 中古法语 poupette，为 poupée（玩偶）的指小形 ← 拉丁语 pupa（女娃、玩偶）",
+      "native_definition": "a small figure moved by strings or hands",
+      "core_concept": "a little doll worked from outside – 由外力操弄的小玩偶",
       "core_image": "细线悬在舞台上方，手指一动，下面的布制身影便抬起手臂",
       "chinese": [
-        "木偶"
+        "木偶",
+        "傀儡"
       ],
       "examples": [
-        "The puppet changed the situation.",
-        "Researchers discussed the puppet carefully."
+        "The puppet danced above the small stage.",
+        "Critics called the leader a puppet."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "木偶：从核心场景引出的常用义"
+        "木偶：靠线或手操纵的小人形",
+        "傀儡：被人操控而无自主的一方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "purify",
@@ -142245,25 +142212,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 purify，现代词义按整体记",
-      "native_definition": "a thing or action related to purify",
-      "core_concept": "a clear scene connected with purify – 与该词相连的清晰场景",
+      "origin": "中古英语 purifien ← 古法语 purifier ← 拉丁语 pūrificāre，源自 pūrus（洁净）",
+      "native_definition": "to remove harmful or unwanted matter",
+      "core_concept": "making something clean throughout – 把杂质去尽使之洁净",
       "core_image": "浑水流过层层滤网，出口处变得清澈",
       "chinese": [
         "净化"
       ],
       "examples": [
-        "The purify changed the situation.",
-        "Researchers discussed the purify carefully."
+        "Filters purify the water before use.",
+        "They purify the oil in two stages."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "净化：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "purple",
@@ -142273,25 +142237,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 purple，现代词义按整体记",
-      "native_definition": "a thing or action related to purple",
-      "core_concept": "a clear scene connected with purple – 与该词相连的清晰场景",
+      "origin": "中古英语 purple ← 古英语 purpul ← 拉丁语 purpura（紫染料、紫贝）← 希腊语 porphyra（紫贝）",
+      "native_definition": "a colour between red and blue",
+      "core_concept": "the dye once taken from sea shells – 早先取自海贝的那种染色",
       "core_image": "一块深色布料铺在白墙旁，色彩对比格外明显",
       "chinese": [
         "紫色"
       ],
       "examples": [
-        "The purple changed the situation.",
-        "Researchers discussed the purple carefully."
+        "She painted the door deep purple.",
+        "Purple flowers lined the garden path."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "紫色：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "puzzle",
