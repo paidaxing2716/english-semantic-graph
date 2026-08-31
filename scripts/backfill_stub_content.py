@@ -91,6 +91,13 @@ def main():
     exdb = json.loads(ep.read_text(encoding="utf-8"))
     idx = {w["id"]: w for w in db["words"]}
 
+    # 已被占用的英文释义 → 词。用于拦近义词撞车。
+    native_taken = {}
+    for w in db["words"]:
+        nd = (w.get("native_definition") or "").strip()
+        if nd and not audit.is_template_native(nd):
+            native_taken.setdefault(nd, w["id"])
+
     rows, errs = [], []
     for f in a.tsv:
         for n, line in enumerate(Path(f).read_text(encoding="utf-8").splitlines(), 1):
@@ -133,6 +140,13 @@ def main():
                         f"多半是漏了 ← 箭头：{c[1][:46]}")
         if len(zh) > 1 and not c[6].strip():
             errs.append(f"{name}:{n} {word} zh 有 {len(zh)} 个义项，expansions 必填")
+        # 近义词最容易被写成同一句释义。库内已有 amaze|astonish、bare|naked、
+        # gigantic|huge、ponder|contemplate 四对撞车，本轮又新造了 perplex|bewilder
+        # 与 seldom|rarely 两对。撞车说明这一条没把两个词区分开，等于白写。
+        nd = c[2].strip()
+        if nd and nd in native_taken and native_taken[nd] != word:
+            errs.append(f"{name}:{n} {word} 英文释义与 {native_taken[nd]} 完全相同，"
+                        f"须写出区别：{nd}")
         if "–" not in c[5]:
             errs.append(f"{name}:{n} {word} concept 缺短破折号 –")
         if c[7].strip() and (w.get("core_image") or "").strip() not in audit.TEMPLATE_IMAGES:

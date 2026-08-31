@@ -139867,7 +139867,7 @@
       "root_ids": [],
       "root_logic": "",
       "origin": "经古法语传入 ← 拉丁语 perplexus（缠住的、混乱的），由 per-（彻底）＋ plexus（编织，plectere 的过去分词）构成",
-      "native_definition": "to confuse someone completely",
+      "native_definition": "to puzzle someone so that they cannot think clearly",
       "core_concept": "tangled so thoroughly that no way shows – 缠得彻底以致找不到出路",
       "core_image": "一团线绕成死结，找不到线头在哪",
       "chinese": [
@@ -146503,30 +146503,31 @@
     {
       "id": "search",
       "word": "search",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/sɜːtʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 search，现代词义按整体记",
-      "native_definition": "a thing or action related to search",
-      "core_concept": "a clear scene connected with search – 与该词相连的清晰场景",
+      "origin": "中古英语 serchen ← 古法语 cerchier ← 晚期拉丁语 circāre（绕行寻找），源自 circus（圈）",
+      "native_definition": "to look carefully in order to find something",
+      "core_concept": "going round and round a place to find something – 绕着一处反复找",
       "core_image": "手电光扫过抽屉和架子，寻找者逐格查看里面的东西",
       "chinese": [
-        "search"
+        "搜寻",
+        "搜查"
       ],
       "examples": [
-        "The search changed the situation.",
-        "Researchers discussed the search carefully."
+        "They searched the whole house twice.",
+        "The search lasted until midnight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "search：从核心场景引出的常用义"
+        "搜寻：为找到某物而仔细查看",
+        "搜查：为查获而正式检查"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "seaside",
@@ -146536,53 +146537,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seaside，现代词义按整体记",
-      "native_definition": "a thing or action related to seaside",
-      "core_concept": "a clear scene connected with seaside – 与该词相连的清晰场景",
+      "origin": "中古英语 see-syde，由 sea ＋ side 复合而成",
+      "native_definition": "the land beside the sea, especially as a holiday place",
+      "core_concept": "the land lying along the sea – 沿着海的那一侧陆地",
       "core_image": "沙滩外是一片开阔水面，浪花不断冲上湿沙",
       "chinese": [
-        "seaside"
+        "海边",
+        "海滨"
       ],
       "examples": [
-        "The seaside changed the situation.",
-        "Researchers discussed the seaside carefully."
+        "They spent August at the seaside.",
+        "A small seaside town lies north."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seaside：从核心场景引出的常用义"
+        "海边：紧靠海的一带",
+        "海滨：可供游憩的滨海地区"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "season",
       "word": "season",
       "pos": "noun",
-      "phonetic": "/ˈseason/",
+      "phonetic": "/ˈsiːzn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 season，现代词义按整体记",
-      "native_definition": "a thing or action related to season",
-      "core_concept": "a clear scene connected with season – 与该词相连的清晰场景",
+      "origin": "中古英语 sesoun ← 古法语 seson（播种时节）← 拉丁语 satiō（播种），源自 serere（播）",
+      "native_definition": "one of the four divisions of the year, or a suitable time",
+      "core_concept": "the stretch of the year fit for a task – 一年中适合某事的那一段",
       "core_image": "树木从绿叶到落叶再到新芽，天气随时间轮换",
       "chinese": [
-        "season"
+        "季节",
+        "时节"
       ],
       "examples": [
-        "The season changed the situation.",
-        "Researchers discussed the season carefully."
+        "Spring is my favourite season here.",
+        "Mangoes are cheap in season."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "season：从核心场景引出的常用义"
+        "季节：一年四分之一的时段",
+        "时节：适合某事的时候"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "seat",
@@ -146592,53 +146595,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seat，现代词义按整体记",
-      "native_definition": "a thing or action related to seat",
-      "core_concept": "a clear scene connected with seat – 与该词相连的清晰场景",
+      "origin": "古英语 sǣte ← 原始日耳曼语 *sētiją ← 原始印欧语 *sed-（坐）",
+      "native_definition": "a place made for sitting, or a place in an assembly",
+      "core_concept": "a place set aside for sitting – 留出来供人坐的位置",
       "core_image": "剧场一排座椅中留着一个空位，观众依次坐下",
       "chinese": [
-        "seat"
+        "座位",
+        "席位"
       ],
       "examples": [
-        "The seat changed the situation.",
-        "Researchers discussed the seat carefully."
+        "She took the seat by the window.",
+        "The party lost twelve seats."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seat：从核心场景引出的常用义"
+        "座位：供人坐下的地方",
+        "席位：议会或团体中的名额"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "secret",
       "word": "secret",
-      "pos": "noun",
+      "pos": "noun / adjective",
       "phonetic": "/ˈsiː.krɪt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 secret，现代词义按整体记",
-      "native_definition": "a thing or action related to secret",
-      "core_concept": "a clear scene connected with secret – 与该词相连的清晰场景",
+      "origin": "中古英语 secret ← 古法语 secret ← 拉丁语 sēcrētus（分开的、隐藏的），为 sēcernere（分出）的过去分词",
+      "native_definition": "something kept from others, or kept from others",
+      "core_concept": "set apart from common knowledge – 从众人所知里分出去藏起来",
       "core_image": "上锁的抽屉藏在柜子深处，只有持钥匙的人知道",
       "chinese": [
-        "secret"
+        "秘密",
+        "秘密的"
       ],
       "examples": [
-        "The secret changed the situation.",
-        "Researchers discussed the secret carefully."
+        "She kept the secret for years.",
+        "They held a secret meeting upstairs."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "secret：从核心场景引出的常用义"
+        "秘密：不让别人知道的事",
+        "秘密的：不公开进行的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "secretary",
@@ -146648,25 +146653,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 secretary，现代词义按整体记",
-      "native_definition": "a thing or action related to secretary",
-      "core_concept": "a clear scene connected with secretary – 与该词相连的清晰场景",
+      "origin": "中世纪拉丁语 secrētārius（受托掌管秘密者）← 拉丁语 secrētus（隐秘的），源自 secernere（分出）",
+      "native_definition": "a person who handles letters and records for an office",
+      "core_concept": "one trusted with private papers – 被托付机要文书的人",
       "core_image": "办公桌前的人整理文件并记录会议内容",
       "chinese": [
-        "secretary"
+        "秘书",
+        "书记"
       ],
       "examples": [
-        "The secretary changed the situation.",
-        "Researchers discussed the secretary carefully."
+        "The secretary typed the whole report.",
+        "He works as a company secretary."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "secretary：从核心场景引出的常用义"
+        "秘书：办理文书事务的职员",
+        "书记：担任记录与文书的职务"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "see",
@@ -146676,25 +146682,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 see，现代词义按整体记",
-      "native_definition": "a thing or action related to see",
-      "core_concept": "a clear scene connected with see – 与该词相连的清晰场景",
+      "origin": "古英语 sēon ← 原始西日耳曼语 *sehwan ← 原始日耳曼语 *sehwaną",
+      "native_definition": "to notice with the eyes, or to understand",
+      "core_concept": "taking something in through the eyes – 用眼把东西接进来",
       "core_image": "窗前的人抬头看见远处山脊和移动的云",
       "chinese": [
-        "see"
+        "见到",
+        "明白"
       ],
       "examples": [
-        "The see changed the situation.",
-        "Researchers discussed the see carefully."
+        "I saw her cross the street.",
+        "Now I see what you mean."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "see：从核心场景引出的常用义"
+        "见到：用眼睛觉察到",
+        "明白：在心里看清道理"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "seek",
@@ -146704,25 +146711,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seek，现代词义按整体记",
-      "native_definition": "a thing or action related to seek",
-      "core_concept": "a clear scene connected with seek – 与该词相连的清晰场景",
+      "origin": "古英语 sēċan ← 原始西日耳曼语 *sōkijan ← 原始日耳曼语 *sōkijaną",
+      "native_definition": "to try to find or obtain something",
+      "core_concept": "following a trace towards what one wants – 循着线索去取所要的",
       "core_image": "探险者沿着脚印走进树林，寻找隐藏的目标",
       "chinese": [
-        "seek"
+        "寻求",
+        "追求"
       ],
       "examples": [
-        "The seek changed the situation.",
-        "Researchers discussed the seek carefully."
+        "They sought shelter from the rain.",
+        "She seeks advice before deciding."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seek：从核心场景引出的常用义"
+        "寻求：设法找到或得到",
+        "追求：持续努力以求达到"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "seem",
@@ -146732,53 +146740,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seem，现代词义按整体记",
-      "native_definition": "a thing or action related to seem",
-      "core_concept": "a clear scene connected with seem – 与该词相连的清晰场景",
+      "origin": "中古英语 semen ← 古诺尔斯语 sœma（合宜、相称）← 原始日耳曼语 *sōmijaną（合一、相配）",
+      "native_definition": "to give the impression of being something",
+      "core_concept": "fitting an impression without being confirmed – 与印象相合但未经确认",
       "core_image": "远处的灯看起来像一颗星，走近后才发现是窗户",
       "chinese": [
-        "seem"
+        "似乎",
+        "显得"
       ],
       "examples": [
-        "The seem changed the situation.",
-        "Researchers discussed the seem carefully."
+        "He seems tired this morning.",
+        "The plan seemed simple at first."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seem：从核心场景引出的常用义"
+        "似乎：从表面看像是",
+        "显得：呈现出某种样子"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "segregate",
       "word": "segregate",
-      "pos": "adjective",
+      "pos": "verb",
       "phonetic": "/ˈseɡrəɡət/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 segregate，现代词义按整体记",
-      "native_definition": "a thing or action related to segregate",
-      "core_concept": "a clear scene connected with segregate – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 sēgregātus，为 sēgregāre（分离）的过去分词，由 sē-（分开）＋ grex（群）构成",
+      "native_definition": "to keep one group apart from another",
+      "core_concept": "setting one part away from the flock – 把一部分从群里分出去",
       "core_image": "不同颜色的球被分别放进两只箱子，彼此不再混在一起",
       "chinese": [
-        "segregate"
+        "隔离",
+        "分开"
       ],
       "examples": [
-        "The segregate changed the situation.",
-        "Researchers discussed the segregate carefully."
+        "The school no longer segregates pupils.",
+        "Waste is segregated before collection."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "segregate：从核心场景引出的常用义"
+        "隔离：使两方彼此不接触",
+        "分开：把混在一起的分成几份"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "seize",
@@ -146788,25 +146798,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seize，现代词义按整体记",
-      "native_definition": "a thing or action related to seize",
-      "core_concept": "a clear scene connected with seize – 与该词相连的清晰场景",
+      "origin": "中古英语 seisen ← 古法语 seisir（占有）← 早期中世纪拉丁语 sacīre（提出主张）← 法兰克语 *sakjan（提起诉讼）",
+      "native_definition": "to take hold of something suddenly and firmly",
+      "core_concept": "laying claim to something by taking it – 一把拿下以主张所有",
       "core_image": "手突然抓住桌边滑落的钥匙，不让它掉进缝里",
       "chinese": [
-        "seize"
+        "抓取",
+        "夺取"
       ],
       "examples": [
-        "The seize changed the situation.",
-        "Researchers discussed the seize carefully."
+        "He seized the rope with both hands.",
+        "Troops seized the bridge at dawn."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seize：从核心场景引出的常用义"
+        "抓取：突然用力握住",
+        "夺取：以强力取得"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "seldom",
@@ -146816,25 +146827,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seldom，现代词义按整体记",
-      "native_definition": "a thing or action related to seldom",
-      "core_concept": "a clear scene connected with seldom – 与该词相连的清晰场景",
+      "origin": "中古英语 seldom ← 古英语 seldan ← 原始西日耳曼语 *seldanā ← 原始日耳曼语 *seldanē",
+      "native_definition": "on very few occasions",
+      "core_concept": "happening at long intervals – 隔很久才发生一次",
       "core_image": "日历上绝大多数日期空白，只有很少几格留下记号",
       "chinese": [
-        "seldom"
+        "难得",
+        "不常"
       ],
       "examples": [
-        "The seldom changed the situation.",
-        "Researchers discussed the seldom carefully."
+        "He seldom speaks at meetings.",
+        "Such chances come along very seldom."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seldom：从核心场景引出的常用义"
+        "难得：不容易遇到",
+        "不常：发生的次数少"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "selection",
@@ -146844,53 +146856,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 selection，现代词义按整体记",
-      "native_definition": "a thing or action related to selection",
-      "core_concept": "a clear scene connected with selection – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 sēlēctiō（挑出），源自 sēligere（挑选），由 sē-（分开）＋ legere（拣取）构成",
+      "native_definition": "the act of choosing, or a group of chosen things",
+      "core_concept": "picking some out and setting them apart – 挑出一部分另放一边",
       "core_image": "货架上的物品被逐一比较，最后几件被挑到篮子里",
       "chinese": [
-        "selection"
+        "选择",
+        "精选品"
       ],
       "examples": [
-        "The selection changed the situation.",
-        "Researchers discussed the selection carefully."
+        "Her selection surprised the committee.",
+        "The shop offers a wide selection."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "selection：从核心场景引出的常用义"
+        "选择：挑选这个行为",
+        "精选品：挑出来的那一批"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "self",
       "word": "self",
       "pos": "noun",
-      "phonetic": "/ˈself/",
+      "phonetic": "/self/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 self，现代词义按整体记",
-      "native_definition": "a thing or action related to self",
-      "core_concept": "a clear scene connected with self – 与该词相连的清晰场景",
+      "origin": "古英语 self／seolf ← 原始日耳曼语 *selbaz ← 原始印欧语 *selbʰ-（自身的）",
+      "native_definition": "a person as the subject of their own thoughts",
+      "core_concept": "the person considered as their own subject – 把人当作自身的那个主体",
       "core_image": "镜子前的人指向自己的胸口，确认谈论的对象",
       "chinese": [
-        "self"
+        "自我",
+        "本人"
       ],
       "examples": [
-        "The self changed the situation.",
-        "Researchers discussed the self carefully."
+        "She wrote about her younger self.",
+        "He seems his old self again."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "self：从核心场景引出的常用义"
+        "自我：作为思考主体的自身",
+        "本人：所说的就是那个人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "selfish",
@@ -146900,25 +146914,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 selfish，现代词义按整体记",
-      "native_definition": "a thing or action related to selfish",
-      "core_concept": "a clear scene connected with selfish – 与该词相连的清晰场景",
+      "origin": "由 self ＋ -ish 构成",
+      "native_definition": "caring only about oneself and not others",
+      "core_concept": "turned only towards oneself – 只朝自身一面转的",
       "core_image": "桌上的人把最后一块食物拉到自己面前，不肯分给别人",
       "chinese": [
-        "selfish"
+        "自私的"
       ],
       "examples": [
-        "The selfish changed the situation.",
-        "Researchers discussed the selfish carefully."
+        "That was a selfish thing to do.",
+        "He is too selfish to share."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "selfish：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sell",
@@ -146928,25 +146939,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sell，现代词义按整体记",
-      "native_definition": "a thing or action related to sell",
-      "core_concept": "a clear scene connected with sell – 与该词相连的清晰场景",
+      "origin": "古英语 sellan（交出、售出）← 原始西日耳曼语 *salljan ← 原始日耳曼语 *saljaną",
+      "native_definition": "to give something in exchange for money",
+      "core_concept": "handing something over for money – 把东西交出去换钱",
       "core_image": "柜台上的商品交到顾客手中，钱被放进收银盒",
       "chinese": [
-        "sell"
+        "卖",
+        "出售"
       ],
       "examples": [
-        "The sell changed the situation.",
-        "Researchers discussed the sell carefully."
+        "They sell fresh bread every morning.",
+        "He sold the car last week."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sell：从核心场景引出的常用义"
+        "卖：把东西给出以换取钱",
+        "出售：正式对外发售"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "semester",
@@ -146956,25 +146968,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 semester，现代词义按整体记",
-      "native_definition": "a thing or action related to semester",
-      "core_concept": "a clear scene connected with semester – 与该词相连的清晰场景",
+      "origin": "借自德语 Semester ← 新拉丁语 sēmestris（历时六个月），由 sex（六）＋ mēnsis（月）构成",
+      "native_definition": "one of two divisions of an academic year",
+      "core_concept": "a six-month stretch of study – 学业上以半年为一段的时段",
       "core_image": "学校日历被划成上下两段，每段有考试和假期",
       "chinese": [
-        "semester"
+        "学期"
       ],
       "examples": [
-        "The semester changed the situation.",
-        "Researchers discussed the semester carefully."
+        "The semester ends in early June.",
+        "She takes four courses this semester."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "semester：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "seminar",
@@ -146984,25 +146993,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 seminar，现代词义按整体记",
-      "native_definition": "a thing or action related to seminar",
-      "core_concept": "a clear scene connected with seminar – 与该词相连的清晰场景",
+      "origin": "借自德语 Seminar ← 拉丁语 sēminārium（苗圃），源自 sēmen（种子）",
+      "native_definition": "a small class where a topic is discussed",
+      "core_concept": "a nursery bed where ideas are raised – 培育想法的苗床",
       "core_image": "一小圈学生围着桌子讨论，导师在白板上写字",
       "chinese": [
-        "seminar"
+        "研讨会",
+        "专题课"
       ],
       "examples": [
-        "The seminar changed the situation.",
-        "Researchers discussed the seminar carefully."
+        "The seminar meets every Thursday afternoon.",
+        "She led a seminar on trade."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "seminar：从核心场景引出的常用义"
+        "研讨会：围绕专题讨论的聚会",
+        "专题课：小班研讨形式的课"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "senate",
@@ -147012,25 +147022,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 senate，现代词义按整体记",
-      "native_definition": "a thing or action related to senate",
-      "core_concept": "a clear scene connected with senate – 与该词相连的清晰场景",
+      "origin": "中古英语 senat ← 古法语 senat ← 拉丁语 senātus（长老会议），源自 senex（年老）",
+      "native_definition": "the upper house of a law-making body",
+      "core_concept": "a council of elders – 由年长者组成的议事会",
       "core_image": "圆厅里的代表依次发言，桌上放着公共议案",
       "chinese": [
-        "senate"
+        "参议院",
+        "元老院"
       ],
       "examples": [
-        "The senate changed the situation.",
-        "Researchers discussed the senate carefully."
+        "The senate voted late that night.",
+        "A senate committee reviewed the bill."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "senate：从核心场景引出的常用义"
+        "参议院：两院制中的上院",
+        "元老院：古罗马的最高议事机构"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "senator",
@@ -147040,25 +147051,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 senator，现代词义按整体记",
-      "native_definition": "a thing or action related to senator",
-      "core_concept": "a clear scene connected with senator – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 senātor，源自 senex（年老），相当于 senate ＋ -or",
+      "native_definition": "a member of a senate",
+      "core_concept": "one who sits in the council of elders – 在长老议事会中有席位的人",
       "core_image": "议会席位上的代表举手发言，其他人记录意见",
       "chinese": [
-        "senator"
+        "参议员"
       ],
       "examples": [
-        "The senator changed the situation.",
-        "Researchers discussed the senator carefully."
+        "The senator spoke for twenty minutes.",
+        "Two senators opposed the change."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "senator：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "send",
@@ -147068,53 +147076,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 send，现代词义按整体记",
-      "native_definition": "a thing or action related to send",
-      "core_concept": "a clear scene connected with send – 与该词相连的清晰场景",
+      "origin": "古英语 sendan ← 原始西日耳曼语 *sandijan ← 原始日耳曼语 *sandijaną",
+      "native_definition": "to cause something to go to another place",
+      "core_concept": "causing something to travel away – 使某物离开此处前往别处",
       "core_image": "信封从一双手递到另一双手，随后被带往远处",
       "chinese": [
-        "send"
+        "送出",
+        "寄"
       ],
       "examples": [
-        "The send changed the situation.",
-        "Researchers discussed the send carefully."
+        "She sent the letter on Monday.",
+        "Please send someone to help us."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "send：从核心场景引出的常用义"
+        "送出：使某物离开此处发往别处",
+        "寄：通过邮递发出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "senior",
       "word": "senior",
-      "pos": "adjective",
+      "pos": "adjective / noun",
       "phonetic": "/ˈsiːnjə(r)/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 senior，现代词义按整体记",
-      "native_definition": "a thing or action related to senior",
-      "core_concept": "a clear scene connected with senior – 与该词相连的清晰场景",
+      "origin": "中古英语 senior ← 拉丁语 senior（较年长的），为 senex（年老）的比较级",
+      "native_definition": "older or higher in rank, or a person of higher rank",
+      "core_concept": "standing higher by age or rank – 在年岁或职级上居上的",
       "core_image": "队伍中年资最长的人站在前排，其他人向其请教",
       "chinese": [
-        "senior"
+        "年长的",
+        "上级"
       ],
       "examples": [
-        "The senior changed the situation.",
-        "Researchers discussed the senior carefully."
+        "She is senior to me by two years.",
+        "Seniors met before the others arrived."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "senior：从核心场景引出的常用义"
+        "年长的：年纪或资历较大",
+        "上级：职级较高的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sentiment",
@@ -147124,53 +147134,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sentiment，现代词义按整体记",
-      "native_definition": "a thing or action related to sentiment",
-      "core_concept": "a clear scene connected with sentiment – 与该词相连的清晰场景",
+      "origin": "古法语 sentement ← 拉丁语 sentimentum，源自 sentīre（感觉）",
+      "native_definition": "a feeling or opinion about something",
+      "core_concept": "what one feels rather than reasons out – 由感受而非推理得出的东西",
       "core_image": "一封信的字句让读者露出温柔或忧伤的表情",
       "chinese": [
-        "sentiment"
+        "情感",
+        "意见"
       ],
       "examples": [
-        "The sentiment changed the situation.",
-        "Researchers discussed the sentiment carefully."
+        "The letter expressed real sentiment.",
+        "Public sentiment turned against the plan."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sentiment：从核心场景引出的常用义"
+        "情感：心里生出的感受",
+        "意见：由此形成的看法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "september",
       "word": "september",
       "pos": "noun",
-      "phonetic": "/ˈseptember/",
+      "phonetic": "/sepˈtembə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 september，现代词义按整体记",
-      "native_definition": "a thing or action related to september",
-      "core_concept": "a clear scene connected with september – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 September，源自 septem（七）——罗马旧历以三月为岁首，故为第七个月",
+      "native_definition": "the ninth month of the year",
+      "core_concept": "once the seventh month of the year – 旧历里排第七的那个月",
       "core_image": "日历翻到夏末秋初的那一页，天气开始转凉",
       "chinese": [
-        "september"
+        "九月"
       ],
       "examples": [
-        "The september changed the situation.",
-        "Researchers discussed the september carefully."
+        "The term starts in early september.",
+        "September brought cooler evenings this year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "september：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "serial",
@@ -147180,25 +147188,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 serial，现代词义按整体记",
-      "native_definition": "a thing or action related to serial",
-      "core_concept": "a clear scene connected with serial – 与该词相连的清晰场景",
+      "origin": "由 series ＋ -al 构成，仿拉丁语 seriālis；series ← 拉丁语 seriēs（接连）",
+      "native_definition": "arranged in a sequence, or a story told in parts",
+      "core_concept": "coming one after another in line – 一个接一个排下来的",
       "core_image": "工厂连续编号的产品沿传送带逐个经过",
       "chinese": [
-        "serial"
+        "顺序的",
+        "连载"
       ],
       "examples": [
-        "The serial changed the situation.",
-        "Researchers discussed the serial carefully."
+        "Each part carries a serial number.",
+        "The radio serial ran for years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "serial：从核心场景引出的常用义"
+        "顺序的：按先后次序排列的",
+        "连载：分次刊出的作品"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "series",
@@ -147208,25 +147217,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 series，现代词义按整体记",
-      "native_definition": "a thing or action related to series",
-      "core_concept": "a clear scene connected with series – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 seriēs，源自 serere（接连、串起）",
+      "native_definition": "a number of similar things coming one after another",
+      "core_concept": "things strung together in a row – 串成一行的一批东西",
       "core_image": "墙上挂着一排同主题的照片，顺序从第一张延续到最后",
       "chinese": [
-        "series"
+        "系列",
+        "连续"
       ],
       "examples": [
-        "The series changed the situation.",
-        "Researchers discussed the series carefully."
+        "The museum owns a series of prints.",
+        "A series of delays followed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "series：从核心场景引出的常用义"
+        "系列：同类事物成组的一批",
+        "连续：一个接一个不间断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "serious",
@@ -147236,25 +147246,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 serious，现代词义按整体记",
-      "native_definition": "a thing or action related to serious",
-      "core_concept": "a clear scene connected with serious – 与该词相连的清晰场景",
+      "origin": "中古英语 seryows ← 古法语 serieux ← 中世纪拉丁语 sēriōsus，为拉丁语 sērius（郑重）的扩展形",
+      "native_definition": "not joking, or giving cause for concern",
+      "core_concept": "weighty enough to demand attention – 重到必须当真对待",
       "core_image": "房间里的人收起笑容，专注听一项重要决定",
       "chinese": [
-        "serious"
+        "严肃的",
+        "严重的"
       ],
       "examples": [
-        "The serious changed the situation.",
-        "Researchers discussed the serious carefully."
+        "He gave me a serious look.",
+        "The injury proved more serious."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "serious：从核心场景引出的常用义"
+        "严肃的：认真不轻率",
+        "严重的：后果重大令人担心"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "setback",
@@ -147264,25 +147275,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 setback，现代词义按整体记",
-      "native_definition": "a thing or action related to setback",
-      "core_concept": "a clear scene connected with setback – 与该词相连的清晰场景",
+      "origin": "由动词短语 set back 转成名词",
+      "native_definition": "a problem that delays or reverses progress",
+      "core_concept": "being pushed back from where one had got – 从已到之处被推回去",
       "core_image": "刚搭好的桥被暴雨冲坏，工程进度被迫退回",
       "chinese": [
-        "setback"
+        "挫折",
+        "倒退"
       ],
       "examples": [
-        "The setback changed the situation.",
-        "Researchers discussed the setback carefully."
+        "The storm was a serious setback.",
+        "They met one setback after another."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "setback：从核心场景引出的常用义"
+        "挫折：使进展受阻的打击",
+        "倒退：进度退回到先前状态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "setting",
@@ -147292,25 +147304,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 setting，现代词义按整体记",
-      "native_definition": "a thing or action related to setting",
-      "core_concept": "a clear scene connected with setting – 与该词相连的清晰场景",
+      "origin": "由 set ＋ -ing 构成",
+      "native_definition": "the place and conditions in which something happens",
+      "core_concept": "the frame within which something is placed – 某事被安放进去的那个框架",
       "core_image": "舞台上的布景、灯光和道具共同构成故事发生的地方",
       "chinese": [
-        "setting"
+        "环境",
+        "背景"
       ],
       "examples": [
-        "The setting changed the situation.",
-        "Researchers discussed the setting carefully."
+        "The novel has a rural setting.",
+        "Adjust the setting before printing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "setting：从核心场景引出的常用义"
+        "环境：事情发生的场所与条件",
+        "背景：故事所设定的时地"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "settle",
@@ -147320,25 +147333,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 settle，现代词义按整体记",
-      "native_definition": "a thing or action related to settle",
-      "core_concept": "a clear scene connected with settle – 与该词相连的清晰场景",
+      "origin": "古英语 setlan（安置、使坐定）与 sahtlian（调停）两支合流，前者出 setl（座）",
+      "native_definition": "to come to rest, or to bring a matter to an end",
+      "core_concept": "coming to rest in a fixed place – 落定在一个不再动的位置",
       "core_image": "浑水中的颗粒慢慢沉到底部，水面逐渐清亮",
       "chinese": [
-        "settle"
+        "沉降",
+        "解决"
       ],
       "examples": [
-        "The settle changed the situation.",
-        "Researchers discussed the settle carefully."
+        "Dust settled on the empty shelves.",
+        "They settled the dispute quietly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "settle：从核心场景引出的常用义"
+        "沉降：颗粒或物体落到底部",
+        "解决：把纠纷或问题了结"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "settlement",
