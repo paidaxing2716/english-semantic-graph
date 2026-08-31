@@ -138190,32 +138190,33 @@
       "id": "overall",
       "word": "overall",
       "pos": "adjective",
-      "phonetic": "/ˈoverall/",
+      "phonetic": "/ˈəʊvərɔːl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overall，现代词义按整体记",
-      "native_definition": "a thing or action related to overall",
-      "core_concept": "a clear scene connected with overall – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overall ← 古英语 ofer eall（遍及全部），由 over ＋ all 复合而成",
+      "native_definition": "taking everything into account",
+      "core_concept": "covering the whole rather than a part – 罩住全体而非局部",
+      "core_image": "一张图表把全年各月的柱子一并框进同一个方框里",
       "chinese": [
-        "总的"
+        "总的",
+        "整体的"
       ],
       "examples": [
-        "The overall changed the situation.",
-        "Researchers discussed the overall carefully."
+        "The overall cost came to nine hundred pounds.",
+        "Her overall performance improved during the term."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "总的：从核心场景引出的常用义"
+        "总的：把各部分合起来算",
+        "整体的：着眼于全体而非单项"
       ],
       "collocations": [
         "overall effect —— 总体效果"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overcoat",
@@ -138225,25 +138226,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overcoat，现代词义按整体记",
-      "native_definition": "a thing or action related to overcoat",
-      "core_concept": "a clear scene connected with overcoat – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 over- ＋ coat 构成",
+      "native_definition": "a long warm coat worn over other clothes",
+      "core_concept": "a coat worn over the rest – 套在其余衣服外面的那件",
+      "core_image": "门口衣钩上挂着一件长及膝下的厚外衣，里面还套着西装",
       "chinese": [
         "大衣"
       ],
       "examples": [
-        "The overcoat changed the situation.",
-        "Researchers discussed the overcoat carefully."
+        "He buttoned his overcoat before going outside.",
+        "A heavy overcoat hung beside the door."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "大衣：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overcome",
@@ -138253,199 +138251,202 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overcome，现代词义按整体记",
-      "native_definition": "a thing or action related to overcome",
-      "core_concept": "a clear scene connected with overcome – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overcomen ← 古英语 ofercuman，由 over- ＋ come 构成",
+      "native_definition": "to succeed in dealing with a difficulty",
+      "core_concept": "to come over an obstacle and past it – 翻过阻碍并越过去",
+      "core_image": "登山者翻过挡路的巨石，继续朝上走",
       "chinese": [
-        "克服"
+        "克服",
+        "战胜"
       ],
       "examples": [
-        "The overcome changed the situation.",
-        "Researchers discussed the overcome carefully."
+        "She overcame her fear of deep water.",
+        "They overcame every obstacle on the route."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "克服：从核心场景引出的常用义"
+        "克服：把挡路的困难越过去",
+        "战胜：压过对手取得上风"
       ],
       "collocations": [
         "overcome difficulties —— 克服困难"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overflow",
       "word": "overflow",
       "pos": "verb",
-      "phonetic": "/ˈoverflow/",
+      "phonetic": "/ˌəʊvəˈfləʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overflow，现代词义按整体记",
-      "native_definition": "a thing or action related to overflow",
-      "core_concept": "a clear scene connected with overflow – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overflowen ← 古英语 oferflōwan，由 over- ＋ flow 构成",
+      "native_definition": "to flow over the edge of a container",
+      "core_concept": "to flow beyond the edge that holds it – 越过容器边缘流出去",
+      "core_image": "水从盆沿一直漫到地面，盆里还在不停注水",
       "chinese": [
-        "溢出"
+        "溢出",
+        "漫出"
       ],
       "examples": [
-        "The overflow changed the situation.",
-        "Researchers discussed the overflow carefully."
+        "The river overflowed after three days of rain.",
+        "Milk overflowed the pan onto the stove."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "溢出：从核心场景引出的常用义"
+        "溢出：液体越过边沿流出",
+        "漫出：向四周铺开流出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overhead",
       "word": "overhead",
       "pos": "adjective",
-      "phonetic": "/ˈoverhead/",
+      "phonetic": "/ˈəʊvəhed/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overhead，现代词义按整体记",
-      "native_definition": "a thing or action related to overhead",
-      "core_concept": "a clear scene connected with overhead – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 owerheved ← 古英语 oferhēafod，由 over- ＋ head 构成",
+      "native_definition": "situated above the level of the head",
+      "core_concept": "positioned above the head – 位置高过头部",
+      "core_image": "车间天花板下方悬着一根横梁，工人从下面走过",
       "chinese": [
-        "头顶的"
+        "头顶的",
+        "高架的"
       ],
       "examples": [
-        "The overhead changed the situation.",
-        "Researchers discussed the overhead carefully."
+        "An overhead cable crossed the narrow street.",
+        "The overhead lights flickered twice tonight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "头顶的：从核心场景引出的常用义"
+        "头顶的：正在头的上方",
+        "高架的：架在高处越过下方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overhear",
       "word": "overhear",
       "pos": "verb",
-      "phonetic": "/ˈoverhear/",
+      "phonetic": "/ˌəʊvəˈhɪə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overhear，现代词义按整体记",
-      "native_definition": "a thing or action related to overhear",
-      "core_concept": "a clear scene connected with overhear – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overheren ← 古英语 oferhīeran，由 over- ＋ hear 构成",
+      "native_definition": "to hear something said without being meant to",
+      "core_concept": "to catch words that travel over to you – 话越过来被你接到",
+      "core_image": "隔间那侧的谈话传过挡板，这边的人停下笔",
       "chinese": [
         "无意听到"
       ],
       "examples": [
-        "The overhear changed the situation.",
-        "Researchers discussed the overhear carefully."
+        "I overheard them planning a surprise party.",
+        "She overheard part of the phone call."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "无意听到：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overlap",
       "word": "overlap",
       "pos": "verb",
-      "phonetic": "/ˈoverlap/",
+      "phonetic": "/ˌəʊvəˈlæp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overlap，现代词义按整体记",
-      "native_definition": "a thing or action related to overlap",
-      "core_concept": "a clear scene connected with overlap – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 over ＋ lap 构成",
+      "native_definition": "to cover part of the same area as something else",
+      "core_concept": "to lie partly over another – 一部分压在另一物上",
+      "core_image": "两张纸边缘压在一起，压住的那条带子颜色更深",
       "chinese": [
-        "重叠"
+        "重叠",
+        "部分相同"
       ],
       "examples": [
-        "The overlap changed the situation.",
-        "Researchers discussed the overlap carefully."
+        "The two schedules overlap on Tuesday morning.",
+        "Their duties overlap in several areas."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "重叠：从核心场景引出的常用义"
+        "重叠：两者有一段压在一起",
+        "部分相同：范围有一块彼此共用"
       ],
       "collocations": [
         "overlap with sth —— 与某物重叠"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overlook",
       "word": "overlook",
       "pos": "verb",
-      "phonetic": "/ˈoverlook/",
+      "phonetic": "/ˌəʊvəˈlʊk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overlook，现代词义按整体记",
-      "native_definition": "a thing or action related to overlook",
-      "core_concept": "a clear scene connected with overlook – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overloken，由 over ＋ look 构成",
+      "native_definition": "to fail to notice something, or to have a view over a place",
+      "core_concept": "to look over something without taking it in – 目光越过而没接住",
+      "core_image": "检查者视线扫过表格，掠过中间那一栏没停",
       "chinese": [
-        "忽视"
+        "忽视",
+        "俯瞰"
       ],
       "examples": [
-        "The overlook changed the situation.",
-        "Researchers discussed the overlook carefully."
+        "He overlooked one line in the contract.",
+        "Our window overlooks the whole valley."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "忽视：从核心场景引出的常用义"
+        "忽视：目光越过去没看进眼里",
+        "俯瞰：从高处往下把整片看在眼里"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overpass",
       "word": "overpass",
       "pos": "noun",
-      "phonetic": "/ˈoverpass/",
+      "phonetic": "/ˈəʊvəpɑːs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overpass，现代词义按整体记",
-      "native_definition": "a thing or action related to overpass",
-      "core_concept": "a clear scene connected with overpass – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 over- ＋ pass 构成",
+      "native_definition": "a road or bridge that crosses above another road",
+      "core_concept": "a way that passes over another – 从另一条路上方跨过的通道",
+      "core_image": "一条车道从另一条车道上方横跨过去，两层车流互不相碰",
       "chinese": [
-        "立交桥"
+        "立交桥",
+        "天桥"
       ],
       "examples": [
-        "The overpass changed the situation.",
-        "Researchers discussed the overpass carefully."
+        "Traffic crawled beneath the concrete overpass.",
+        "They built an overpass near the station."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "立交桥：从核心场景引出的常用义"
+        "立交桥：上下分层交叉的桥",
+        "天桥：架高供跨越的桥"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overseas",
@@ -138455,84 +138456,87 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overseas，现代词义按整体记",
-      "native_definition": "a thing or action related to overseas",
-      "core_concept": "a clear scene connected with overseas – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由更早的 oversea ＋ -s 构成",
+      "native_definition": "in or from a country across the sea",
+      "core_concept": "on the far side of the sea – 在海的另一侧",
+      "core_image": "货箱贴着远方港口的标签，吊车正把它移上远洋船",
       "chinese": [
-        "海外的"
+        "海外的",
+        "在国外"
       ],
       "examples": [
-        "The overseas changed the situation.",
-        "Researchers discussed the overseas carefully."
+        "She spent three years working overseas.",
+        "Overseas orders rose sharply last quarter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "海外的：从核心场景引出的常用义"
+        "海外的：来自或位于海那边的",
+        "在国外：身处本国之外"
       ],
       "collocations": [
         "go overseas —— 去海外"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overtake",
       "word": "overtake",
       "pos": "verb",
-      "phonetic": "/ˈovertake/",
+      "phonetic": "/ˌəʊvəˈteɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overtake，现代词义按整体记",
-      "native_definition": "a thing or action related to overtake",
-      "core_concept": "a clear scene connected with overtake – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overtaken，替换了更早的 overnimen ← 古英语 oferniman（突然逮住），由 over ＋ take 构成",
+      "native_definition": "to catch up with and pass someone ahead",
+      "core_concept": "to come up level and then get past – 追平之后再越到前面",
+      "core_image": "后面的车驶到并排位置，随后驶到前方",
       "chinese": [
-        "超过"
+        "超过",
+        "赶上"
       ],
       "examples": [
-        "The overtake changed the situation.",
-        "Researchers discussed the overtake carefully."
+        "A lorry overtook us on the hill.",
+        "China overtook them in total output."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "超过：从核心场景引出的常用义"
+        "超过：越到前面去",
+        "赶上：追到与之并齐"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overthrow",
       "word": "overthrow",
       "pos": "verb",
-      "phonetic": "/ˈoverthrow/",
+      "phonetic": "/ˌəʊvəˈθrəʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overthrow，现代词义按整体记",
-      "native_definition": "a thing or action related to overthrow",
-      "core_concept": "a clear scene connected with overthrow – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overthrowen，由 over ＋ throw 构成",
+      "native_definition": "to remove a ruler or government by force",
+      "core_concept": "to throw something over from its position – 把立着的东西掀倒",
+      "core_image": "广场上的立像被绳索拉倒，底座空了出来",
       "chinese": [
-        "推翻"
+        "推翻",
+        "颠覆"
       ],
       "examples": [
-        "The overthrow changed the situation.",
-        "Researchers discussed the overthrow carefully."
+        "Rebels overthrew the government within a week.",
+        "The regime was overthrown that same winter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "推翻：从核心场景引出的常用义"
+        "推翻：把当权者从位置上掀下来",
+        "颠覆：从根本上把既有秩序掀翻"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overtime",
@@ -138542,53 +138546,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overtime，现代词义按整体记",
-      "native_definition": "a thing or action related to overtime",
-      "core_concept": "a clear scene connected with overtime – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 over- ＋ time 构成",
+      "native_definition": "extra hours worked beyond the normal schedule",
+      "core_concept": "hours running beyond the set time – 超出规定时段的那部分时间",
+      "core_image": "办公楼只剩一间亮灯，墙上钟已过下班点两小时",
       "chinese": [
-        "加班"
+        "加班",
+        "超时"
       ],
       "examples": [
-        "The overtime changed the situation.",
-        "Researchers discussed the overtime carefully."
+        "He worked overtime three nights this week.",
+        "Overtime pay was added to her wages."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "加班：从核心场景引出的常用义"
+        "加班：在规定时段之外继续做",
+        "超时：越过了限定的时长"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overturn",
       "word": "overturn",
       "pos": "verb",
-      "phonetic": "/ˈoverturn/",
+      "phonetic": "/ˌəʊvəˈtɜːn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overturn，现代词义按整体记",
-      "native_definition": "a thing or action related to overturn",
-      "core_concept": "a clear scene connected with overturn – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overturnen，由 over ＋ turn 构成",
+      "native_definition": "to turn something upside down, or to reverse a decision",
+      "core_concept": "to turn something over from its position – 把原来的朝向整个翻过来",
+      "core_image": "小船底朝上浮在水面，桨浮在旁边",
       "chinese": [
-        "翻转"
+        "翻转",
+        "撤销"
       ],
       "examples": [
-        "The overturn changed the situation.",
-        "Researchers discussed the overturn carefully."
+        "The boat overturned in rough water.",
+        "A higher court overturned the earlier ruling."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "翻转：从核心场景引出的常用义"
+        "翻转：把物体上下颠倒过来",
+        "撤销：把先前的决定整个翻掉"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overwhelm",
@@ -138598,25 +138604,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overwhelm，现代词义按整体记",
-      "native_definition": "a thing or action related to overwhelm",
-      "core_concept": "a clear scene connected with overwhelm – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 overwhelmen，由 over ＋ whelm 构成",
+      "native_definition": "to affect someone so strongly that they cannot cope",
+      "core_concept": "to cover something completely by force – 整个盖住、压过去",
+      "core_image": "巨浪从头顶盖下来，小船整个没进水里",
       "chinese": [
-        "压倒"
+        "压倒",
+        "使不知所措"
       ],
       "examples": [
-        "The overwhelm changed the situation.",
-        "Researchers discussed the overwhelm carefully."
+        "The team was overwhelmed by the news.",
+        "Requests overwhelmed the small support desk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "压倒：从核心场景引出的常用义"
+        "压倒：力量上完全盖过对方",
+        "使不知所措：多到让人应付不来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "overwhelming",
@@ -138626,25 +138633,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 overwhelming，现代词义按整体记",
-      "native_definition": "a thing or action related to overwhelming",
-      "core_concept": "a clear scene connected with overwhelming – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 overwhelm ＋ -ing 构成",
+      "native_definition": "so great that it cannot be resisted",
+      "core_concept": "too great in force to be resisted – 力量大到无法抵挡",
+      "core_image": "计票板上一侧的条几乎填满整栏，另一侧只剩一小截",
       "chinese": [
-        "压倒性的"
+        "压倒性的",
+        "难以抗拒的"
       ],
       "examples": [
-        "The overwhelming changed the situation.",
-        "Researchers discussed the overwhelming carefully."
+        "The proposal passed by an overwhelming majority.",
+        "She felt an overwhelming urge to leave."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "压倒性的：从核心场景引出的常用义"
+        "压倒性的：数量或力量上完全占优",
+        "难以抗拒的：强到让人挡不住"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "own",
@@ -138654,25 +138662,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 own，现代词义按整体记",
-      "native_definition": "a thing or action related to own",
-      "core_concept": "a clear scene connected with own – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "古英语 āgen（自己的），本为 āgan 的过去分词 ← 原始日耳曼语 *aiganaz ← 原始印欧语 *h₂eyḱ-（持有）",
+      "native_definition": "to have something as a possession",
+      "core_concept": "holding something as what belongs to oneself – 把某物作为自身所属持有",
+      "core_image": "房产证上写着一个名字，钥匙就在那人手里",
       "chinese": [
-        "拥有"
+        "拥有",
+        "自己的"
       ],
       "examples": [
-        "The own changed the situation.",
-        "Researchers discussed the own carefully."
+        "They own two small shops in town.",
+        "She wrote the letter in her own hand."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "拥有：从核心场景引出的常用义"
+        "拥有：某物归自己所有",
+        "自己的：属于本人而非他人的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "paddle",
@@ -138682,25 +138691,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 paddle，现代词义按整体记",
-      "native_definition": "a thing or action related to paddle",
-      "core_concept": "a clear scene connected with paddle – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 padell（小铲）← 中世纪拉丁语 padela，更早词源不明；另一支「拍水」义 16 世纪起见于记载",
+      "native_definition": "a short oar used with both hands, or to move a boat with it",
+      "core_concept": "a short blade pushed through water – 在水里推动的短叶片",
+      "core_image": "双手握着一根短柄板叶，交替在水里向后推",
       "chinese": [
-        "桨"
+        "桨",
+        "划水"
       ],
       "examples": [
-        "The paddle changed the situation.",
-        "Researchers discussed the paddle carefully."
+        "He dipped the paddle into the water.",
+        "They paddled across the lake at dawn."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "桨：从核心场景引出的常用义"
+        "桨：手持的短柄板叶",
+        "划水：用它推水使船前行"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "page",
@@ -138710,25 +138720,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 page，现代词义按整体记",
-      "native_definition": "a thing or action related to page",
-      "core_concept": "a clear scene connected with page – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自中古法语 page ← 拉丁语 pāgina（书页）；另有「侍童」一义 ← 古法语 page，或经意大利语 paggio ← 中世纪拉丁语 pagius（仆人）",
+      "native_definition": "one side of a sheet in a book or magazine",
+      "core_concept": "one sheet face in a bound set – 装订成册中的一个纸面",
+      "core_image": "手指捏住纸的右下角，抬起后露出下面一张",
       "chinese": [
-        "页"
+        "页",
+        "网页"
       ],
       "examples": [
-        "The page changed the situation.",
-        "Researchers discussed the page carefully."
+        "Turn to page ninety in your book.",
+        "The page loaded slowly on my phone."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "页：从核心场景引出的常用义"
+        "页：书刊里的一个纸面",
+        "网页：屏幕上相当于一页的一屏内容"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "palace",
@@ -138738,25 +138749,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 palace，现代词义按整体记",
-      "native_definition": "a thing or action related to palace",
-      "core_concept": "a clear scene connected with palace – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 paleys ← 古法语 palais ← 拉丁语 palātium，得名于罗马七丘之一的帕拉丁丘，共和国贵族与后来的皇帝在那里营建华宅",
+      "native_definition": "a large grand house where a ruler lives",
+      "core_concept": "the grand residence of a ruler – 统治者的宏大居所",
+      "core_image": "石阶尽头是高大列柱与镀金门扇，卫兵分立两侧",
       "chinese": [
         "宫殿"
       ],
       "examples": [
-        "The palace changed the situation.",
-        "Researchers discussed the palace carefully."
+        "Tourists queued outside the royal palace.",
+        "The palace gates opened at nine."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "宫殿：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pamphlet",
@@ -138766,25 +138774,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pamphlet，现代词义按整体记",
-      "native_definition": "a thing or action related to pamphlet",
-      "core_concept": "a clear scene connected with pamphlet – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pamflet／pamphilet ← 中古法语 Pamphilet，是 12 世纪拉丁语情诗 Pamphilus, seu de amore 的俗称；该诗以薄册广为流传，遂以此名指称整类薄册",
+      "native_definition": "a small thin book giving information or arguing a case",
+      "core_concept": "a thin unbound booklet for spreading a message – 用来散发主张的薄册子",
+      "core_image": "几十张薄纸对折订在一起，有人在路口一张张递给过路人",
       "chinese": [
         "小册子"
       ],
       "examples": [
-        "The pamphlet changed the situation.",
-        "Researchers discussed the pamphlet carefully."
+        "Volunteers handed out pamphlets outside the station.",
+        "The pamphlet explained the new rules clearly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "小册子：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "panorama",
@@ -138794,25 +138799,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 panorama，现代词义按整体记",
-      "native_definition": "a thing or action related to panorama",
-      "core_concept": "a clear scene connected with panorama – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 pan-（全）＋ 希腊语 horama（所见景象）构成，1792 年由画家 Robert Barker 造出",
+      "native_definition": "a wide unbroken view of a large area",
+      "core_concept": "everything visible in one sweep – 一眼扫过所能见的全部",
+      "core_image": "站在山脊上转身一周，四面的山谷连成不断的一条",
       "chinese": [
         "全景"
       ],
       "examples": [
-        "The panorama changed the situation.",
-        "Researchers discussed the panorama carefully."
+        "The hilltop offers a stunning panorama.",
+        "A panorama of the city covered one wall."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "全景：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "parachute",
@@ -138822,25 +138824,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 parachute，现代词义按整体记",
-      "native_definition": "a thing or action related to parachute",
-      "core_concept": "a clear scene connected with parachute – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自法语 parachute，由 para-（防）＋ chute（下落）构成",
+      "native_definition": "a large piece of cloth that slows a fall through the air",
+      "core_concept": "cloth spread to check a fall – 张开布面拦住下落",
+      "core_image": "一大片圆形布面在空中张满，下方吊着一个人缓缓下沉",
       "chinese": [
         "降落伞"
       ],
       "examples": [
-        "The parachute changed the situation.",
-        "Researchers discussed the parachute carefully."
+        "His parachute opened just above the trees.",
+        "They packed each parachute with great care."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "降落伞：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "paradigm",
@@ -138850,25 +138849,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 paradigm，现代词义按整体记",
-      "native_definition": "a thing or action related to paradigm",
-      "core_concept": "a clear scene connected with paradigm – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 paradygme ← 晚期拉丁语 paradīgma ← 希腊语 paradeigma（示范、样式），由 para-（旁）＋ deiknumi（指示）构成",
+      "native_definition": "a typical example or pattern that others follow",
+      "core_concept": "a pattern held up beside others to copy – 摆在旁边供比照的样式",
+      "core_image": "墙上挂着一张标准样张，下面几张都照它的格式排",
       "chinese": [
-        "范例"
+        "范例",
+        "范式"
       ],
       "examples": [
-        "The paradigm changed the situation.",
-        "Researchers discussed the paradigm carefully."
+        "This case became a paradigm for later studies.",
+        "The discovery shifted the whole paradigm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "范例：从核心场景引出的常用义"
+        "范例：拿来当榜样的那一个",
+        "范式：一整套通行的做法框架"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "paradox",
@@ -138878,25 +138878,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 paradox，现代词义按整体记",
-      "native_definition": "a thing or action related to paradox",
-      "core_concept": "a clear scene connected with paradox – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自中古法语 paradoxe ← 拉丁语 paradoxum ← 希腊语 paradoxos（出乎意料的），由 para-（背离）＋ doxa（公认看法）构成",
+      "native_definition": "a statement that seems to contradict itself yet may be true",
+      "core_concept": "a claim running against accepted sense – 与公认道理相抵的说法",
+      "core_image": "一张纸上两行字各自成立，却指向相反的结论",
       "chinese": [
-        "悖论"
+        "悖论",
+        "矛盾之说"
       ],
       "examples": [
-        "The paradox changed the situation.",
-        "Researchers discussed the paradox carefully."
+        "The result presents an interesting paradox.",
+        "He enjoyed pointing out this old paradox."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "悖论：从核心场景引出的常用义"
+        "悖论：自身推出相反结论的论断",
+        "矛盾之说：听着说不通却未必错的说法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "parallel",
@@ -138906,25 +138907,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 parallel，现代词义按整体记",
-      "native_definition": "a thing or action related to parallel",
-      "core_concept": "a clear scene connected with parallel – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自中古法语 parallèle 与拉丁语 parallēlus ← 希腊语 parallēlos，由 para-（旁）＋ allēlos（彼此）构成",
+      "native_definition": "running side by side at a constant distance",
+      "core_concept": "side by side without ever meeting – 并排延伸而永不相交",
+      "core_image": "铁轨两条钢条一直向远处延伸，间距始终不变",
       "chinese": [
-        "平行"
+        "平行的",
+        "类似的"
       ],
       "examples": [
-        "The parallel changed the situation.",
-        "Researchers discussed the parallel carefully."
+        "The two roads run parallel for miles.",
+        "Their careers followed parallel paths."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "平行：从核心场景引出的常用义"
+        "平行的：两线间距不变永不相交",
+        "类似的：两事走势彼此对应"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "paralyze",
@@ -138934,25 +138936,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 paralyze，现代词义按整体记",
-      "native_definition": "a thing or action related to paralyze",
-      "core_concept": "a clear scene connected with paralyze – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "部分借自法语 paralyser，部分由 paralysie ＋ -ize 在英语内部构成；paralysie ← 古法语 ← 希腊语 paralusis（一侧松脱）",
+      "native_definition": "to make someone unable to move, or to bring activity to a stop",
+      "core_concept": "to take away the power to move – 使失去活动能力",
+      "core_image": "电闸一拉，整条流水线的机械同时停住不动",
       "chinese": [
-        "使瘫痪"
+        "使瘫痪",
+        "使停顿"
       ],
       "examples": [
-        "The paralyze changed the situation.",
-        "Researchers discussed the paralyze carefully."
+        "The injury paralyzed his left arm.",
+        "A strike paralyzed the city transport system."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "使瘫痪：从核心场景引出的常用义"
+        "使瘫痪：让身体失去活动能力",
+        "使停顿：让运转中的事整个停住"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "parasite",
@@ -138962,25 +138965,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 parasite，现代词义按整体记",
-      "native_definition": "a thing or action related to parasite",
-      "core_concept": "a clear scene connected with parasite – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古法语 parasite ← 拉丁语 parasitus ← 希腊语 parasitos（在别人桌边吃饭的人），由 para-（旁）＋ sitos（食物）构成",
+      "native_definition": "an organism that lives on another and takes its food",
+      "core_concept": "a feeder living beside its host – 靠在宿主旁边取食的生物",
+      "core_image": "细小生物附在叶片背面，从叶脉里抽取汁液",
       "chinese": [
-        "寄生虫"
+        "寄生虫",
+        "寄生物"
       ],
       "examples": [
-        "The parasite changed the situation.",
-        "Researchers discussed the parasite carefully."
+        "The parasite weakens its host over time.",
+        "Doctors treated the patient for intestinal parasites."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "寄生虫：从核心场景引出的常用义"
+        "寄生虫：附在他体上取食的动物",
+        "寄生物：泛指靠他体存活的生物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "parcel",
@@ -138990,25 +138994,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 parcel，现代词义按整体记",
-      "native_definition": "a thing or action related to parcel",
-      "core_concept": "a clear scene connected with parcel – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 parcel ← 古法语 parcelle（小块、小部分）← 晚期拉丁语 particella，为拉丁语 particula（小粒）的指小形，更上一层是 pars（部分）",
+      "native_definition": "something wrapped in paper for sending or carrying",
+      "core_concept": "a small part wrapped up as one – 包成一件的小块东西",
+      "core_image": "牛皮纸裹住方形物件，四角用麻绳十字捆牢",
       "chinese": [
-        "包裹"
+        "包裹",
+        "小块"
       ],
       "examples": [
-        "The parcel changed the situation.",
-        "Researchers discussed the parcel carefully."
+        "The parcel arrived two days late.",
+        "She signed for a heavy parcel."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "包裹：从核心场景引出的常用义"
+        "包裹：包扎起来待寄送的一件",
+        "小块：从整体分出的一小部分"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "parent",
@@ -139018,25 +139023,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 parent，现代词义按整体记",
-      "native_definition": "a thing or action related to parent",
-      "core_concept": "a clear scene connected with parent – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 parent ← 盎格鲁诺曼语与中古法语 parent ← 拉丁语 parēns（生育者），为 parere（生育）的现在分词",
+      "native_definition": "a mother or father of a child",
+      "core_concept": "the one who brings forth offspring – 生出下一代的那一方",
+      "core_image": "成年人牵着孩子的手走在前面，孩子仰头看他",
       "chinese": [
-        "父母"
+        "父母",
+        "亲代"
       ],
       "examples": [
-        "The parent changed the situation.",
-        "Researchers discussed the parent carefully."
+        "Both parents attended the school meeting.",
+        "Each parent received a printed report."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "父母：从核心场景引出的常用义"
+        "父母：生育并养育子女的人",
+        "亲代：生物学上产生下一代的那一代"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "park",
