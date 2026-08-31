@@ -18,7 +18,40 @@ DATA = ROOT / "data"
 VALID_POS = {"noun", "verb", "adjective", "adverb", "adj", "adv", "preposition", "conjunction", "pronoun", "interjection"}
 TEMPLATE_EX = re.compile(r"^The (\w+) changed the situation\.\|Researchers discussed the \1 carefully\.$")
 TEMPLATE_NATIVE = re.compile(r"^a thing or action related to \w+$")
-TEMPLATE_IMAGE = "一张卡片放在桌面中央，旁边摆着几件相关物品，窗光从左侧照来"
+TEMPLATE_NATIVE_2 = "relating to the meaning described by the word"
+# 两代批量生成器各用过一个固定画面串。只留一个会让另一代恒不报——08-28 的报告
+# 就因为常量还是第一代的串，89 条第二代模板画面一条没报出来。
+TEMPLATE_IMAGES = (
+    "一张卡片放在桌面中央，旁边摆着几件相关物品，窗光从左侧照来",
+    "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+)
+TEMPLATE_CONCEPT_SUB = "clear scene connected with"
+TEMPLATE_CONCEPT_2 = "a clear situation associated with the word – 与词义相连的清晰场景"
+TEMPLATE_SEM_SUB = "从核心场景引出的常用义"
+ASCII_WORD = re.compile(r"^[a-zA-Z][a-zA-Z\s'-]*$")
+# 英语 IPA 里不会出现的正字法特征。用来区分「拼写冒充音标」与碰巧同形的真音标
+# （/net/ /help/ /bed/ 都是合法 IPA，不能因为等于拼写就判假）。
+NON_IPA_SPELLING = re.compile(r"[cqxy]|sh|ch|th|ph|wh|ck|oo|ee|ea|ou|ay|ai|oa|igh|ss|ll|tt|pp|mm|nn|gg|ff|dd|bb|rr")
+
+
+def is_template_native(value):
+    v = (value or "").strip()
+    return bool(TEMPLATE_NATIVE.match(v)) or v == TEMPLATE_NATIVE_2
+
+
+def is_template_concept(value):
+    v = (value or "").strip()
+    return TEMPLATE_CONCEPT_SUB in v or v == TEMPLATE_CONCEPT_2
+
+
+def is_stub(w):
+    """批量生成器留下的占位词条：模板例句与模板释义同时命中才算。
+
+    只命中一项不算——真实词条可能撞上通用释义，也可能例句偶然同形。两项同时
+    命中是 build_g_chunk* 那个生成器的签名，实测 1134 条，与手工核对一致。
+    """
+    ex = [str(x) for x in (w.get("examples") or [])]
+    return bool(ex) and bool(TEMPLATE_EX.match("|".join(ex))) and is_template_native(w.get("native_definition"))
 
 def load(name, key):
     obj = json.loads((DATA / name).read_text(encoding="utf-8"))
@@ -78,12 +111,26 @@ def main():
     # 例句模板不是「含有该词」就算问题；这里只报精确的通用模板。
         if TEMPLATE_EX.match("|".join(ex)):
             add(suspicious, wid, "examples", "疑似通用模板例句")
-        if TEMPLATE_NATIVE.match(w.get("native_definition") or ""):
+        if is_template_native(w.get("native_definition")):
             add(suspicious, wid, "native_definition", "疑似通用模板释义")
-        if image == TEMPLATE_IMAGE:
+        if image in TEMPLATE_IMAGES:
             add(suspicious, wid, "core_image", "疑似通用模板画面")
-        if "clear scene connected with" in (w.get("core_concept") or ""):
+        if is_template_concept(w.get("core_concept")):
             add(suspicious, wid, "core_concept", "疑似通用模板概念")
+        se = [str(x) for x in (w.get("semantic_expansions") or [])]
+        if se and all(TEMPLATE_SEM_SUB in x for x in se):
+            add(suspicious, wid, "semantic_expansions", "疑似通用模板语义展开")
+        # 假音标：生成器写的是 '/ˈ'+word+'/'。分两级——精确签名零假阳性；无重音符的
+        # /word/ 变体要靠正字法排除，因为 /net/ /help/ /bed/ 这类是合法 IPA。
+        ph = str(w.get("phonetic") or "").strip()
+        bare = ph.strip("/")
+        if ph == "/ˈ" + wid + "/":
+            add(suspicious, wid, "phonetic", "音标是拼写套斜杠（生成器签名）", ph)
+        elif bare == wid and NON_IPA_SPELLING.search(wid):
+            add(suspicious, wid, "phonetic", "音标含 IPA 不可能的正字法，疑似拼写冒充", ph)
+        # 中文义项全是 ASCII 词：生成器 zh.get(w, w) 的静默回退，等于没有中文释义。
+        if zh and all(ASCII_WORD.match(x) for x in zh):
+            add(suspicious, wid, "chinese", "中文义项是英文词，疑似生成器回退", "/".join(zh)[:60])
         if w.get("collocations"):
             for c in w["collocations"]:
                 if "——" not in c:
@@ -145,24 +192,47 @@ def main():
                 add(critical, d.get("id", ""), "root_ids", "语义域引用不存在词根", rid)
 
     # 风险排序：把异常密集、模板命中、词根型、抽象词排在前面。
+    # 占位词条单独成表，不进 risk_rank——它们每条稳定命中六七项模板判据，混进来会把
+    # 5248 词里的 5174 词都染成「有风险」，排序就丧失筛选力（08-28 报告即如此）。
+    # 它们缺什么是已知的，要的是逐词补内容，不是再排一次序。
+    stub_ids = {w["id"] for w in words if is_stub(w)}
+    critical_keys = {(x[0], x[1], x[2], x[3]) for x in critical}
     risk = collections.Counter()
     for word, field, claim, detail in critical + suspicious + dup:
-        risk[word] += 10 if (word, field, claim, detail) in critical else 3
+        if word in stub_ids:
+            continue
+        risk[word] += 10 if (word, field, claim, detail) in critical_keys else 3
+    # 加权只在「已有报警」的词之间分次序。此前对全库无条件加权，于是有词根或多义的
+    # 词凭静态属性就得 1-2 分进榜，3516 条报警栏全空——榜单等于把库抄了一遍。
     for w in words:
+        if w["id"] in stub_ids or not risk[w["id"]]:
+            continue
         score = risk[w["id"]]
         if w.get("root_ids"): score += 1
         if len(w.get("chinese") or []) > 1: score += 1
         if any(x in (w.get("pos") or "") for x in ("adverb", "preposition", "conjunction")): score += 2
-        if score:
-            risk[w["id"]] = score
-    rank = [(wid, score, "; ".join(f"{f}:{c}" for x, f, c, d in critical + suspicious + dup if x == wid)[:500]) for wid, score in risk.most_common()]
+        risk[w["id"]] = score
+    detail_by_word = collections.defaultdict(list)
+    for x, f, c, d in critical + suspicious + dup:
+        detail_by_word[x].append(f"{f}:{c}")
+    # 只保留真实词条 id：dup 的键是 "a|b|c" 复合串，混进排序会虚增风险词数。
+    # score > 0 是必须的：Counter 读取会把键建出来并置 0，否则那些词会跟着进榜。
+    rank = [(wid, score, "; ".join(detail_by_word[wid])[:500])
+            for wid, score in risk.most_common() if wid in word_ids and score > 0]
+    stub_rows = [(w["id"], w.get("pos") or "", "占位词条：模板例句＋模板释义",
+                  "画面已补" if (w.get("core_image") or "").strip() not in TEMPLATE_IMAGES else "画面仍为模板")
+                 for w in words if w["id"] in stub_ids]
 
     tsv(out / "critical.tsv", critical)
     tsv(out / "suspicious.tsv", suspicious)
     tsv(out / "duplicates.tsv", dup)
     tsv(out / "risk_rank.tsv", rank)
-    summary = {"words": len(words), "roots": len(roots), "concepts": len(concepts), "relations": len(relations),
-               "critical": len(critical), "suspicious": len(suspicious), "duplicates": len(dup), "risk_words": len(rank)}
+    tsv(out / "stubs.tsv", stub_rows)
+    usable = len(words) - len(stub_ids)
+    summary = {"words": len(words), "usable": usable, "stubs": len(stub_ids),
+               "roots": len(roots), "concepts": len(concepts), "relations": len(relations),
+               "critical": len(critical), "suspicious": len(suspicious), "duplicates": len(dup),
+               "risk_words": len(rank)}
     (out / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False))
     return 1 if critical else 0
