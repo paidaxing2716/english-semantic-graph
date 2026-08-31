@@ -62,7 +62,9 @@
   // ---------- 回想模式 ----------
   function buildRecallQueue() {
     // 只用 root 型：其余词没有词根推导可给，出题信息不足
-    return shuffle(words.filter((w) => w.decomposable === "root" && w.core_image));
+    // 排除 stub：占位词条的释义、中文、例句都是模板，揭示面板会显示
+    // 「a thing or action related to stall」并把 stall 当成中文义项——一张坏卡。
+    return shuffle(words.filter((w) => w.decomposable === "root" && w.core_image && !w.stub));
   }
 
   function renderRecall() {
@@ -115,7 +117,7 @@
     const out = [];
     for (const r of roots) {
       const fam = words.filter(
-        (w) => w.decomposable === "root" && (w.root_ids || []).includes(r.id)
+        (w) => w.decomposable === "root" && !w.stub && (w.root_ids || []).includes(r.id)
       );
       if (fam.length >= 4) out.push({ root: r, family: shuffle(fam).slice(0, 6) });
     }
