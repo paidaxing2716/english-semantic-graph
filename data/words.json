@@ -140654,25 +140654,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 playground，现代词义按整体记",
-      "native_definition": "a thing or action related to playground",
-      "core_concept": "a clear scene connected with playground – 与该词相连的清晰场景",
+      "origin": "由 play ＋ ground 复合而成",
+      "native_definition": "an outdoor area with equipment for children to play on",
+      "core_concept": "ground set aside for play – 专门留出来玩的场地",
       "core_image": "孩子们在秋千、滑梯和沙坑之间跑来跑去，鞋印铺满地面",
       "chinese": [
+        "游乐场",
         "操场"
       ],
       "examples": [
-        "The playground changed the situation.",
-        "Researchers discussed the playground carefully."
+        "Children ran across the playground at noon.",
+        "The school built a new playground."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "操场：从核心场景引出的常用义"
+        "游乐场：装了游具供玩耍的场地",
+        "操场：学校里供活动的空地"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "plea",
@@ -140682,25 +140683,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plea，现代词义按整体记",
-      "native_definition": "a thing or action related to plea",
-      "core_concept": "a clear scene connected with plea – 与该词相连的清晰场景",
+      "origin": "中古英语 ple ← 古法语 plait／plaid ← 中世纪拉丁语 placitum（裁定、诉求），为 placitus（合意的，placere 过去分词）的中性形",
+      "native_definition": "an urgent request, or a statement made in court",
+      "core_concept": "an appeal put forward for a favourable answer – 提出来求对方允准的请求",
       "core_image": "一个人双手合十站在门前，抬头等待对方答应",
       "chinese": [
-        "恳求"
+        "恳求",
+        "抗辩"
       ],
       "examples": [
-        "The plea changed the situation.",
-        "Researchers discussed the plea carefully."
+        "She ignored his plea for more time.",
+        "The defendant entered a plea of guilty."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "恳求：从核心场景引出的常用义"
+        "恳求：急切提出的请求",
+        "抗辩：在法庭上提出的主张"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "plead",
@@ -140710,26 +140712,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plead，现代词义按整体记",
-      "native_definition": "a thing or action related to plead",
-      "core_concept": "a clear scene connected with plead – 与该词相连的清晰场景",
+      "origin": "中古英语 pleden ← 古法语 plaider（申辩）← 中世纪拉丁语 placitum，为 placere（使满意）的过去分词中性形",
+      "native_definition": "to ask for something urgently, or to argue a case in court",
+      "core_concept": "putting a request or case before a judge – 向裁断者陈情或申辩",
       "core_image": "律师站在法庭中央，向法官陈述理由并请求改变决定",
       "chinese": [
         "恳求",
         "辩护"
       ],
       "examples": [
-        "The plead changed the situation.",
-        "Researchers discussed the plead carefully."
+        "He pleaded with them to wait.",
+        "The lawyer pleaded her case carefully."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "恳求/辩护：从核心场景引出的常用义"
+        "恳求：急切求人允准",
+        "辩护：在法庭上为一方申辩"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pledge",
@@ -140739,26 +140741,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pledge，现代词义按整体记",
-      "native_definition": "a thing or action related to pledge",
-      "core_concept": "a clear scene connected with pledge – 与该词相连的清晰场景",
+      "origin": "中古英语 plege ← 盎格鲁诺曼语 plege ← 古法语 plege ← 中世纪拉丁语 plevium，源自法兰克语 *plehan（担保）",
+      "native_definition": "a formal promise, or to promise something formally",
+      "core_concept": "something put forward to guarantee a promise – 拿出来为承诺作保的东西",
       "core_image": "两个人在桌边交换写好名字的纸，随后郑重握手",
       "chinese": [
         "保证",
         "抵押"
       ],
       "examples": [
-        "The pledge changed the situation.",
-        "Researchers discussed the pledge carefully."
+        "They pledged support for the new plan.",
+        "He pledged his watch for the loan."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "保证/抵押：从核心场景引出的常用义"
+        "保证：郑重许下的承诺",
+        "抵押：交出物件作为担保"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "plight",
@@ -140768,25 +140770,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plight，现代词义按整体记",
-      "native_definition": "a thing or action related to plight",
-      "core_concept": "a clear scene connected with plight – 与该词相连的清晰场景",
+      "origin": "中古英语 plit（褶、窘况），由古英语 pliht（危险）与盎格鲁诺曼语 plit（褶、状况）合流；后者 ← 古法语 pleit ← 拉丁语 plicitum（折叠）",
+      "native_definition": "a difficult and unhappy situation",
+      "core_concept": "a bad fold one is caught in – 陷进去的一道难解处境",
       "core_image": "漏雨的屋檐下只剩一张椅子，行李和积水挤在脚边",
       "chinese": [
         "困境"
       ],
       "examples": [
-        "The plight changed the situation.",
-        "Researchers discussed the plight carefully."
+        "Neighbours ignored the family plight for years.",
+        "Reports described the plight of refugees."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "困境：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "plough",
@@ -140796,25 +140795,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plough，现代词义按整体记",
-      "native_definition": "a thing or action related to plough",
-      "core_concept": "a clear scene connected with plough – 与该词相连的清晰场景",
+      "origin": "中古英语 plouh ← 古英语 plōh（一犁之地）与古诺尔斯语 plógr（犁具），同出原始日耳曼语 *plōgaz",
+      "native_definition": "a farm tool that cuts and turns over soil",
+      "core_concept": "a blade that cuts and turns the soil – 切开并翻起土的刃具",
       "core_image": "铁犁切开田土，身后的泥垄一道道翻向两侧",
       "chinese": [
-        "犁地"
+        "犁地",
+        "耕作"
       ],
       "examples": [
-        "The plough changed the situation.",
-        "Researchers discussed the plough carefully."
+        "Farmers plough these fields each spring.",
+        "The plough turned the heavy clay."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "犁地：从核心场景引出的常用义"
+        "犁地：用犁翻开土地",
+        "耕作：整地播种这一整套活"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "plumber",
@@ -140824,25 +140824,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plumber，现代词义按整体记",
-      "native_definition": "a thing or action related to plumber",
-      "core_concept": "a clear scene connected with plumber – 与该词相连的清晰场景",
+      "origin": "中古英语 plumber ← 古法语 plummier ← 拉丁语 plumbārius，源自 plumbum（铅）",
+      "native_definition": "a person who fits and repairs water pipes",
+      "core_concept": "a worker who once shaped lead pipes – 早先以铅制管的匠人",
       "core_image": "工具箱摊在水槽下，扳手正拧紧一段漏水的管道",
       "chinese": [
         "水管工"
       ],
       "examples": [
-        "The plumber changed the situation.",
-        "Researchers discussed the plumber carefully."
+        "The plumber replaced a cracked pipe.",
+        "We called a plumber that same evening."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "水管工：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "plunge",
@@ -140852,26 +140849,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plunge，现代词义按整体记",
-      "native_definition": "a thing or action related to plunge",
-      "core_concept": "a clear scene connected with plunge – 与该词相连的清晰场景",
+      "origin": "中古英语 plungen ← 古法语 plongier ← 晚期拉丁语 *plumbicō（抛下铅锤），源自 plumbum（铅）",
+      "native_definition": "to fall or dive suddenly, or to drop sharply",
+      "core_concept": "dropping like a lead weight let go – 像铅锤脱手一样直落",
       "core_image": "跳水者从高台直落水面，四周的空气迅速被甩在身后",
       "chinese": [
         "投入",
         "骤降"
       ],
       "examples": [
-        "The plunge changed the situation.",
-        "Researchers discussed the plunge carefully."
+        "He plunged into the cold river.",
+        "Share prices plunged after the report."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "投入/骤降：从核心场景引出的常用义"
+        "投入：整个人猛地进入某处",
+        "骤降：数值急剧往下掉"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pneumonia",
@@ -140881,54 +140878,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pneumonia，现代词义按整体记",
-      "native_definition": "a thing or action related to pneumonia",
-      "core_concept": "a clear scene connected with pneumonia – 与该词相连的清晰场景",
+      "origin": "希腊语 pneumonia（肺病），由 pneumōn（肺）＋ -ia 构成",
+      "native_definition": "a serious illness in which the lungs become inflamed",
+      "core_concept": "an inflamed condition of the lungs – 肺部发炎的病症",
       "core_image": "病房里的人呼吸急促，胸前贴着监测电极",
       "chinese": [
         "肺炎"
       ],
       "examples": [
-        "The pneumonia changed the situation.",
-        "Researchers discussed the pneumonia carefully."
+        "She caught pneumonia during the cold spell.",
+        "Pneumonia kept him in hospital for weeks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "肺炎：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "poison",
       "word": "poison",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈpɔɪ.zən/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 poison，现代词义按整体记",
-      "native_definition": "a thing or action related to poison",
-      "core_concept": "a clear scene connected with poison – 与该词相连的清晰场景",
+      "origin": "中古英语 poysoun ← 古法语 poison ← 拉丁语 pōtiōnem（饮剂），源自 pōtāre（喝）",
+      "native_definition": "a substance that harms or kills, or to give such a substance",
+      "core_concept": "a draught that harms instead of nourishing – 喝下去害人而非养人的东西",
       "core_image": "瓶口贴着骷髅标志，几滴液体落进隔离的玻璃杯",
       "chinese": [
         "毒物",
         "毒害"
       ],
       "examples": [
-        "The poison changed the situation.",
-        "Researchers discussed the poison carefully."
+        "Rat poison was kept in the shed.",
+        "Waste poisoned the river for years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "毒物/毒害：从核心场景引出的常用义"
+        "毒物：能致害的物质",
+        "毒害：施加毒物使受损"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "poisonous",
@@ -140938,25 +140932,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 poisonous，现代词义按整体记",
-      "native_definition": "a thing or action related to poisonous",
-      "core_concept": "a clear scene connected with poisonous – 与该词相连的清晰场景",
+      "origin": "中古英语 poisounous，由 poison ＋ -ous 构成；poison ← 古法语 poison ← 拉丁语 pōtiōnem（饮剂）",
+      "native_definition": "containing a substance that can harm or kill",
+      "core_concept": "carrying something that harms if taken in – 含有摄入即害人的东西",
       "core_image": "鲜艳的浆果挂在灌木上，旁边立着警示牌",
       "chinese": [
         "有毒的"
       ],
       "examples": [
-        "The poisonous changed the situation.",
-        "Researchers discussed the poisonous carefully."
+        "Some berries here are highly poisonous.",
+        "The snake is poisonous but shy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "有毒的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "polish",
@@ -140966,26 +140957,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 polish，现代词义按整体记",
-      "native_definition": "a thing or action related to polish",
-      "core_concept": "a clear scene connected with polish – 与该词相连的清晰场景",
+      "origin": "中古英语 polishen ← 古法语 polir（磨光）← 拉丁语 polīre（磨平、磨亮）",
+      "native_definition": "to rub a surface until it shines",
+      "core_concept": "rubbing a surface smooth until it shines – 磨平磨到反光",
       "core_image": "布团反复擦过铜盘，暗淡表面逐渐映出灯光",
       "chinese": [
         "擦亮",
-        "波兰的"
+        "光泽"
       ],
       "examples": [
-        "The polish changed the situation.",
-        "Researchers discussed the polish carefully."
+        "He polished the brass until it shone.",
+        "The table lost its polish over time."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "擦亮/波兰的：从核心场景引出的常用义"
+        "擦亮：反复摩擦使表面发亮",
+        "光泽：磨出来的那层亮"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "polite",
@@ -140995,25 +140986,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 polite，现代词义按整体记",
-      "native_definition": "a thing or action related to polite",
-      "core_concept": "a clear scene connected with polite – 与该词相连的清晰场景",
+      "origin": "拉丁语 polītus（磨光的），为 polīre（磨光）的过去分词",
+      "native_definition": "showing good manners towards others",
+      "core_concept": "smoothed down in manner – 举止被磨得平顺的",
       "core_image": "客人站在门边侧身让路，先等年长者走进房间",
       "chinese": [
         "礼貌的"
       ],
       "examples": [
-        "The polite changed the situation.",
-        "Researchers discussed the polite carefully."
+        "She gave a polite but firm refusal.",
+        "Polite guests waited to be seated."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "礼貌的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "pollute",
@@ -141023,25 +141011,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pollute，现代词义按整体记",
-      "native_definition": "a thing or action related to pollute",
-      "core_concept": "a clear scene connected with pollute – 与该词相连的清晰场景",
+      "origin": "中古英语 polluten ← 拉丁语 pollūtum，为 polluere（弄污）的过去分词",
+      "native_definition": "to make air, water or land dirty and harmful",
+      "core_concept": "making something foul that was clean – 把洁净之物弄污",
       "core_image": "黑烟从烟囱飘向河面，水边的鱼群开始躲开",
       "chinese": [
         "污染"
       ],
       "examples": [
-        "The pollute changed the situation.",
-        "Researchers discussed the pollute carefully."
+        "Factories polluted the river for decades.",
+        "Smoke polluted the air near the plant."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "污染：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pollution",
@@ -141051,25 +141036,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pollution，现代词义按整体记",
-      "native_definition": "a thing or action related to pollution",
-      "core_concept": "a clear scene connected with pollution – 与该词相连的清晰场景",
+      "origin": "中古英语 pollucioun ← 中古法语 pollution ← 后古典拉丁语 pollūtiō（污染），源自 polluere（弄污）",
+      "native_definition": "harmful dirt or waste in air, water or land",
+      "core_concept": "the state of having been made foul – 被弄污之后的状态",
       "core_image": "河岸漂着塑料瓶，灰色泡沫聚在排水口",
       "chinese": [
         "污染"
       ],
       "examples": [
-        "The pollution changed the situation.",
-        "Researchers discussed the pollution carefully."
+        "Air pollution rose sharply that winter.",
+        "New rules aim to cut pollution."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "污染：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pond",
@@ -141079,25 +141061,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pond，现代词义按整体记",
-      "native_definition": "a thing or action related to pond",
-      "core_concept": "a clear scene connected with pond – 与该词相连的清晰场景",
+      "origin": "中古英语 pond／ponde ← 古英语 *pond（围合处），为 *pund 的变体",
+      "native_definition": "a small area of still water",
+      "core_concept": "a small enclosed body of still water – 围出来的一小片静水",
       "core_image": "树林低处围着一圈静水，荷叶贴着水面展开",
       "chinese": [
         "池塘"
       ],
       "examples": [
-        "The pond changed the situation.",
-        "Researchers discussed the pond carefully."
+        "Ducks swam across the small pond.",
+        "The pond froze over last January."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "池塘：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "popular",
@@ -141107,25 +141086,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 popular，现代词义按整体记",
-      "native_definition": "a thing or action related to popular",
-      "core_concept": "a clear scene connected with popular – 与该词相连的清晰场景",
+      "origin": "中古英语 populer ← 古法语 populaire ← 拉丁语 populāris，源自 populus（民众）",
+      "native_definition": "liked or used by many people",
+      "core_concept": "belonging to or favoured by the many – 属于众人或为众人所喜的",
       "core_image": "广场入口排起长队，大家都朝同一个摊位走去",
       "chinese": [
-        "流行的"
+        "流行的",
+        "受欢迎的"
       ],
       "examples": [
-        "The popular changed the situation.",
-        "Researchers discussed the popular carefully."
+        "That song became popular very quickly.",
+        "Cycling is popular in this city."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "流行的：从核心场景引出的常用义"
+        "流行的：许多人都在用或在做的",
+        "受欢迎的：为众人所喜爱的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "population",
@@ -141135,53 +141115,47 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 population，现代词义按整体记",
-      "native_definition": "a thing or action related to population",
-      "core_concept": "a clear scene connected with population – 与该词相连的清晰场景",
+      "origin": "借自晚期拉丁语 populatio（民众、群体）← 拉丁语 populus（民众）",
+      "native_definition": "all the people living in a place",
+      "core_concept": "the whole body of people in a place – 一地全体居民",
       "core_image": "地图上的小点密密麻麻聚在沿海城市周围",
       "chinese": [
         "人口"
       ],
       "examples": [
-        "The population changed the situation.",
-        "Researchers discussed the population carefully."
+        "The population doubled within thirty years.",
+        "Half the population lives near the coast."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "人口：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "porcelain",
       "word": "porcelain",
-      "pos": "adjective",
+      "pos": "noun",
       "phonetic": "/ˈpɔːsəlɪn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 porcelain，现代词义按整体记",
-      "native_definition": "a thing or action related to porcelain",
-      "core_concept": "a clear scene connected with porcelain – 与该词相连的清晰场景",
+      "origin": "借自中古法语 porcelaine（宝螺；瓷）← 古意大利语 porcellana ← 意大利语 porcello（小猪）；瓷因形似宝螺壳得名",
+      "native_definition": "a hard white material used for fine cups and plates",
+      "core_concept": "a hard white clay fired thin – 烧得薄而白硬的陶",
       "core_image": "薄白杯子放在软布上，边缘透着细细的光",
       "chinese": [
         "瓷器"
       ],
       "examples": [
-        "The porcelain changed the situation.",
-        "Researchers discussed the porcelain carefully."
+        "The shop sells hand-painted porcelain plates.",
+        "Porcelain chips easily if it falls."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "瓷器：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "portrait",
@@ -141191,25 +141165,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 portrait，现代词义按整体记",
-      "native_definition": "a thing or action related to portrait",
-      "core_concept": "a clear scene connected with portrait – 与该词相连的清晰场景",
+      "origin": "中古法语 portraict，为 portraire（描画）过去分词的名词用法 ← 拉丁语 prōtrahere，由 prō-（向前）＋ trahere（拉）构成",
+      "native_definition": "a painting or photograph showing a person",
+      "core_concept": "features drawn forth onto a surface – 把面容拉到画面上定住",
       "core_image": "画布上的脸部轮廓和眼神被一笔笔固定下来",
       "chinese": [
         "肖像"
       ],
       "examples": [
-        "The portrait changed the situation.",
-        "Researchers discussed the portrait carefully."
+        "A portrait of the founder hung there.",
+        "She painted his portrait in one afternoon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "肖像：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "portray",
@@ -141219,53 +141190,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 portray，现代词义按整体记",
-      "native_definition": "a thing or action related to portray",
-      "core_concept": "a clear scene connected with portray – 与该词相连的清晰场景",
+      "origin": "中古英语 portray ← 中古法语 portraire（描画）← 拉丁语 prōtrahere，由 prō-（向前）＋ trahere（拉）构成",
+      "native_definition": "to show or describe someone in a particular way",
+      "core_concept": "drawing someone forth in image or words – 用画面或言语把人拉出来呈现",
       "core_image": "演员站在布景前，用姿态重现画中人物的神情",
       "chinese": [
-        "描绘"
+        "描绘",
+        "扮演"
       ],
       "examples": [
-        "The portray changed the situation.",
-        "Researchers discussed the portray carefully."
+        "The novel portrays village life vividly.",
+        "He portrayed a young soldier on stage."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "描绘：从核心场景引出的常用义"
+        "描绘：用笔墨或言语呈现出来",
+        "扮演：以自身重现某个人物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "poster",
       "word": "poster",
       "pos": "noun",
-      "phonetic": "/ˈposter/",
+      "phonetic": "/ˈpəʊstə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 poster，现代词义按整体记",
-      "native_definition": "a thing or action related to poster",
-      "core_concept": "a clear scene connected with poster – 与该词相连的清晰场景",
+      "origin": "由 post（张贴）＋ -er 构成；post 一支 ← 拉丁语 postis（柱、桩）",
+      "native_definition": "a large printed sheet put up on a wall",
+      "core_concept": "a sheet put up on a post or wall – 贴在柱上或墙上的大张纸",
       "core_image": "墙上贴着一张大幅彩纸，日期和醒目的图案吸引路人",
       "chinese": [
         "海报"
       ],
       "examples": [
-        "The poster changed the situation.",
-        "Researchers discussed the poster carefully."
+        "A poster advertised the coming concert.",
+        "They pinned posters along the corridor."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "海报：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "postman",
@@ -141275,25 +141244,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 postman，现代词义按整体记",
-      "native_definition": "a thing or action related to postman",
-      "core_concept": "a clear scene connected with postman – 与该词相连的清晰场景",
+      "origin": "由 post（邮政）＋ man 构成；post 一支 ← 中古法语 poste ← 意大利语 posta（驿站）",
+      "native_definition": "a person whose job is delivering letters",
+      "core_concept": "the man who carries the post round – 挨户送邮件的人",
       "core_image": "邮差背着帆布袋沿街走，把信件逐户投入信箱",
       "chinese": [
         "邮递员"
       ],
       "examples": [
-        "The postman changed the situation.",
-        "Researchers discussed the postman carefully."
+        "The postman comes before nine each morning.",
+        "Our postman knows every house here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "邮递员：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "pot",
@@ -141303,26 +141269,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pot，现代词义按整体记",
-      "native_definition": "a thing or action related to pot",
-      "core_concept": "a clear scene connected with pot – 与该词相连的清晰场景",
+      "origin": "中古英语 pot ← 古英语 pott 与古法语 pot（后者出法兰克语 *pott），同出原始日耳曼语 *puttaz",
+      "native_definition": "a deep round container used for cooking or holding things",
+      "core_concept": "a deep round vessel – 一只深而圆的容器",
       "core_image": "炉火上的陶罐咕嘟作响，蒸汽从盖边一缕缕冒出",
       "chinese": [
         "锅",
         "罐"
       ],
       "examples": [
-        "The pot changed the situation.",
-        "Researchers discussed the pot carefully."
+        "She stirred the soup in a large pot.",
+        "Plant the seeds in a clay pot."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "锅/罐：从核心场景引出的常用义"
+        "锅：架在火上煮东西的器皿",
+        "罐：盛放东西的圆筒容器"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "potato",
@@ -141332,25 +141298,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 potato，现代词义按整体记",
-      "native_definition": "a thing or action related to potato",
-      "core_concept": "a clear scene connected with potato – 与该词相连的清晰场景",
+      "origin": "借自西班牙语 patata ← 泰诺语 batata（甘薯）",
+      "native_definition": "a round starchy vegetable that grows underground",
+      "core_concept": "a starchy tuber dug from the ground – 从地里挖出的淀粉块茎",
       "core_image": "刚挖出的块茎沾满泥土，堆在木筐里等待清洗",
       "chinese": [
         "土豆"
       ],
       "examples": [
-        "The potato changed the situation.",
-        "Researchers discussed the potato carefully."
+        "He peeled potatoes for the evening meal.",
+        "Potatoes grow well in this soil."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "土豆：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "借自西班牙语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "poultry",
@@ -141360,54 +141323,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 poultry，现代词义按整体记",
-      "native_definition": "a thing or action related to poultry",
-      "core_concept": "a clear scene connected with poultry – 与该词相连的清晰场景",
+      "origin": "中古英语 pultrie ← 古法语 pouleterie，源自 poulet（小鸡），为 poule（母鸡）的指小形 ← 拉丁语 pullus（雏）",
+      "native_definition": "birds such as hens and ducks kept for eggs and meat",
+      "core_concept": "farm birds kept for eggs and meat – 为蛋和肉而养的家养禽鸟",
       "core_image": "院子里的鸡鸭围着食槽啄食，羽毛在阳光下移动",
       "chinese": [
         "家禽"
       ],
       "examples": [
-        "The poultry changed the situation.",
-        "Researchers discussed the poultry carefully."
+        "The farm raises poultry and sheep.",
+        "Poultry prices fell after the harvest."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "家禽：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pound",
       "word": "pound",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈpaʊnd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pound，现代词义按整体记",
-      "native_definition": "a thing or action related to pound",
-      "core_concept": "a clear scene connected with pound – 与该词相连的清晰场景",
+      "origin": "中古英语 pound ← 古英语 pund（重量单位）← 拉丁语 pondō（按重量），源自 pondus（重量）——日耳曼语支的早期借入",
+      "native_definition": "a unit of weight or money, or to hit something repeatedly",
+      "core_concept": "a fixed weight, and the beating that measures it – 定量的重，以及捶打这个动作",
       "core_image": "铁锤连续落下，木桩一点点陷进坚实的地面",
       "chinese": [
         "磅",
         "敲打"
       ],
       "examples": [
-        "The pound changed the situation.",
-        "Researchers discussed the pound carefully."
+        "The parcel weighs about three pounds.",
+        "Waves pounded the rocks all night."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "磅/敲打：从核心场景引出的常用义"
+        "磅：固定的重量或货币单位",
+        "敲打：连续用力击打"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "poverty",
@@ -141417,25 +141377,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 poverty，现代词义按整体记",
-      "native_definition": "a thing or action related to poverty",
-      "core_concept": "a clear scene connected with poverty – 与该词相连的清晰场景",
+      "origin": "中古英语 poverte ← 古法语 poverté ← 拉丁语 paupertās，由 pauper（贫穷）＋ -tas 构成",
+      "native_definition": "the state of being very poor",
+      "core_concept": "the state of having far too little – 所有太少的那种境况",
       "core_image": "狭小房间里只有一张旧床，窗缝透进冷风",
       "chinese": [
         "贫困"
       ],
       "examples": [
-        "The poverty changed the situation.",
-        "Researchers discussed the poverty carefully."
+        "Many families still live in poverty.",
+        "The scheme aims to reduce poverty."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "贫困：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "powder",
@@ -141445,53 +141402,47 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 powder，现代词义按整体记",
-      "native_definition": "a thing or action related to powder",
-      "core_concept": "a clear scene connected with powder – 与该词相连的清晰场景",
+      "origin": "中古英语 poudre ← 古法语 poudre ← 拉丁语 pulverem，为 pulvis（尘、粉）的宾格",
+      "native_definition": "a dry substance made of very fine loose grains",
+      "core_concept": "matter broken down to fine dust – 被碎成细尘的物质",
       "core_image": "研钵中的固体被杵头磨成细白颗粒",
       "chinese": [
         "粉末"
       ],
       "examples": [
-        "The powder changed the situation.",
-        "Researchers discussed the powder carefully."
+        "Mix the powder with warm water.",
+        "A fine powder covered the shelf."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "粉末：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "prayer",
       "word": "prayer",
       "pos": "noun",
-      "phonetic": "/ˈprayer/",
+      "phonetic": "/preə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 prayer，现代词义按整体记",
-      "native_definition": "a thing or action related to prayer",
-      "core_concept": "a clear scene connected with prayer – 与该词相连的清晰场景",
+      "origin": "中古英语 preiere ← 古法语 preiere ← 早期中世纪拉丁语 precāria，源自 prex／precem（祈求）",
+      "native_definition": "words spoken to a god, or the act of speaking them",
+      "core_concept": "words put forward as an entreaty – 作为祈求说出的话",
       "core_image": "礼拜堂里的人低头合掌，烛火在安静的空气中轻轻摇动",
       "chinese": [
         "祈祷"
       ],
       "examples": [
-        "The prayer changed the situation.",
-        "Researchers discussed the prayer carefully."
+        "She said a short prayer before leaving.",
+        "The prayer lasted only a minute."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "祈祷：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "preach",
