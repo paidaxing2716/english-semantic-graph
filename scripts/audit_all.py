@@ -125,6 +125,9 @@ def main():
         ph = str(w.get("phonetic") or "").strip()
         bare = ph.strip("/")
         if ph == "/ˈ" + wid + "/":
+            # 这条判据不是零假阳性：self 的真 IPA 恰好就是 /ˈself/，与生成器格式撞车。
+            # 单音节且拼写等于音位串的词都有这个风险（net/bed/help 那类因无重音符躲过）。
+            # 报出来仍是对的——无法从值本身区分，人核一眼即可。
             add(suspicious, wid, "phonetic", "音标是拼写套斜杠（生成器签名）", ph)
         elif bare == wid and NON_IPA_SPELLING.search(wid):
             add(suspicious, wid, "phonetic", "音标含 IPA 不可能的正字法，疑似拼写冒充", ph)

@@ -142,20 +142,30 @@ def stress_syllable(ipa):
     return len(re.findall(rf"[{VOWELS}]+", ipa[:i]))
 
 
-def pick_pos(section):
-    """只取主词性，不取罕用义与屈折形式。
+POS_HEADING = re.compile(
+    r"^====?\s*(Noun|Verb|Adjective|Adverb|Preposition|Conjunction|Pronoun|Interjection)\s*====?$", re.M)
+INFLECTION = re.compile(r"\{\{(head\|en\|[^}]*\bform\b|infl of|inflection of|plural of|en-past|en-third)")
 
-    Wiktionary 会把边缘义项也立成词性标题，全收进来是在制造错误而非补全：
-    occasion 的 Verb 是「to cause」这种古旧用法、optical 的 Noun 带 {{lb|en|film}}
-    是电影业行话、outing 的 Verb 其实是 {{infl of|en|out}} 屈折形式不是独立词性。
-    库内这批词的 pos 要么本就正确（build 脚本手写的那几组），要么被默认成 noun；
-    取首个词性标题足以纠正默认值，而不会引入罕用义。真需要双词性的留给内容轮。
+
+def pick_pos(section):
+    """取首个词性标题，跳过屈折形式段。
+
+    拿库内 2248 条单词性真词条当标注集实测：**首个标题 95.2%，义项数最多 93.0%**，
+    两者都错 2.3%。义项数那条看着更有道理（overlook 的 Noun 只 1 个义项却排在 8 个
+    义项的 Verb 前），我先拿 19 个词试出 17/19 比 11/19 好，但那批样本偏拉丁词——
+    换到全库就翻盘了：常见日耳曼词的名词段义项累积多，义项数会把 shake / show /
+    sink / slip / self 全判成 noun。**小样本上的胜负不作数，这类判据一律拿全库标注集
+    量。**
+
+    Wiktionary 也会把边缘义项立成标题（occasion 的 Verb 是「to cause」这种古旧用法、
+    optical 的 Noun 带 {{lb|en|film}} 是电影业行话），但只取首个就自然避开了。
+    屈折形式必须显式排除：outing 的 Verb 其实是 {{infl of|en|out}}，不是独立词性。
     """
-    for m in re.finditer(r"^====?\s*(Noun|Verb|Adjective|Adverb|Preposition|Conjunction|Pronoun|Interjection)"
-                         r"\s*====?\n(.{0,200})", section, re.M | re.S):
-        body = m.group(2)
-        if re.search(r"\{\{(head\|en\|[^}]*\bform\b|infl of|inflection of|plural of|en-past|en-third)", body):
-            continue  # 屈折形式，不是独立词性
+    heads = list(POS_HEADING.finditer(section))
+    for i, m in enumerate(heads):
+        body = section[m.end(): heads[i + 1].start() if i + 1 < len(heads) else len(section)]
+        if INFLECTION.search(body[:200]):
+            continue
         return POS_MAP[m.group(1)]
     return ""
 
