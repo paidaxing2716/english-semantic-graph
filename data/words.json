@@ -95759,7 +95759,7 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "中古荷兰语 rec（架子、拉开的框），与 recken（拉开、抻）相关，原始日耳曼语一支表「伸开」",
+      "origin": "中古英语 rakke ← 中古荷兰语 rec（架子、拉开的框），与 recken（拉开、抻）相关",
       "native_definition": "a frame with bars for holding or hanging things",
       "core_concept": "bars spread apart to hold things – 撑开的几根条，把东西架住",
       "core_image": "几根横木隔着空档搭成一层层，盘子立在缝里，互不挨着",
@@ -95780,7 +95780,7 @@
         "搁架：同一样东西，专指搁放用的",
         "折磨：旧刑具把人往两头抻开，故引申为把人拉扯得难受"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "racket",
@@ -149928,25 +149928,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 situation，现代词义按整体记",
-      "native_definition": "a thing or action related to situation",
-      "core_concept": "a clear scene connected with situation – 与该词相连的清晰场景",
+      "origin": "中古英语 situacioun ← 中古法语 situation ← 中世纪拉丁语 situatio，源自 situare（安置）← 拉丁语 situs（位置）",
+      "native_definition": "the set of conditions existing at a particular time",
+      "core_concept": "how things stand as placed at the moment – 当下各事所处的位置关系",
       "core_image": "会议桌上摊着当前数据，所有人围绕眼前局面讨论",
       "chinese": [
-        "situation"
+        "情况",
+        "局势"
       ],
       "examples": [
-        "The situation changed the situation.",
-        "Researchers discussed the situation carefully."
+        "The situation improved after the talks.",
+        "She explained the whole situation calmly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "situation：从核心场景引出的常用义"
+        "情况：眼下的实际状态",
+        "局势：多方力量对比形成的态势"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "size",
@@ -149956,25 +149957,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 size，现代词义按整体记",
-      "native_definition": "a thing or action related to size",
-      "core_concept": "a clear scene connected with size – 与该词相连的清晰场景",
+      "origin": "中古英语 syse ← 古法语 sise，为 assise（定额）的截头形，源自 asseoir（坐定）← 拉丁语 assidēre，由 ad-（向）＋ sedēre（坐）构成",
+      "native_definition": "how large or small something is",
+      "core_concept": "the fixed measure something falls under – 某物所归属的那个定量",
       "core_image": "几只箱子从小到大排成一列，标签显示不同尺度",
       "chinese": [
-        "size"
+        "大小",
+        "尺码"
       ],
       "examples": [
-        "The size changed the situation.",
-        "Researchers discussed the size carefully."
+        "The two rooms are the same size.",
+        "What size shoes do you wear."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "size：从核心场景引出的常用义"
+        "大小：体积或规模的量度",
+        "尺码：衣物鞋帽的规格号"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "skate",
@@ -149984,25 +149986,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skate，现代词义按整体记",
-      "native_definition": "a thing or action related to skate",
-      "core_concept": "a clear scene connected with skate – 与该词相连的清晰场景",
+      "origin": "由荷兰语 schaats 反构而成 ← 中古荷兰语 schāetse ← 诺曼法语 escache（高跷、支架）← 法兰克语 *skakkjā",
+      "native_definition": "a boot with a blade for moving on ice",
+      "core_concept": "a blade strapped on to glide over ice – 绑上去在冰面滑行的刃具",
       "core_image": "冰刀划过结冰水面，身后留下弯曲的细痕",
       "chinese": [
-        "skate"
+        "冰鞋",
+        "滑冰"
       ],
       "examples": [
-        "The skate changed the situation.",
-        "Researchers discussed the skate carefully."
+        "She laced her skates by the rink.",
+        "They skate on the lake each winter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skate：从核心场景引出的常用义"
+        "冰鞋：装有冰刀的鞋",
+        "滑冰：穿它在冰上行进"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "源头在日耳曼语支，经法语回流入英语，本项目未为其词族建根"
     },
     {
       "id": "skeleton",
@@ -150012,25 +150015,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skeleton，现代词义按整体记",
-      "native_definition": "a thing or action related to skeleton",
-      "core_concept": "a clear scene connected with skeleton – 与该词相连的清晰场景",
+      "origin": "借自新拉丁语 sceleton ← 希腊语 skeletos（干枯的、干尸），源自 skellein（使干）",
+      "native_definition": "the framework of bones supporting a body",
+      "core_concept": "the dried frame that holds a body up – 撑起身体的那副干硬架子",
       "core_image": "骨架模型站在教室角落，关节和脊柱清晰可见",
       "chinese": [
-        "skeleton"
+        "骨骼",
+        "框架"
       ],
       "examples": [
-        "The skeleton changed the situation.",
-        "Researchers discussed the skeleton carefully."
+        "The museum displays a whale skeleton.",
+        "He sketched the skeleton of the plan."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skeleton：从核心场景引出的常用义"
+        "骨骼：全身骨头构成的支架",
+        "框架：事物最基本的支撑结构"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "skeptical",
@@ -150040,53 +150044,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skeptical，现代词义按整体记",
-      "native_definition": "a thing or action related to skeptical",
-      "core_concept": "a clear scene connected with skeptical – 与该词相连的清晰场景",
+      "origin": "由拉丁语 scepticus ＋ -al 构成",
+      "native_definition": "not easily convinced and inclined to question",
+      "core_concept": "holding back belief until shown – 未见明证就先不信",
       "core_image": "听众皱着眉看证据，暂时没有点头相信",
       "chinese": [
-        "skeptical"
+        "怀疑的",
+        "存疑的"
       ],
       "examples": [
-        "The skeptical changed the situation.",
-        "Researchers discussed the skeptical carefully."
+        "Doctors remain skeptical about the claim.",
+        "He gave me a skeptical look."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skeptical：从核心场景引出的常用义"
+        "怀疑的：倾向于不轻信",
+        "存疑的：暂且保留判断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sketch",
       "word": "sketch",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈsketʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sketch，现代词义按整体记",
-      "native_definition": "a thing or action related to sketch",
-      "core_concept": "a clear scene connected with sketch – 与该词相连的清晰场景",
+      "origin": "借自荷兰语 schets 或德语 Skizze ← 意大利语 schizzo ← 拉丁语 schedium ← 希腊语 schedios（临时做成的）",
+      "native_definition": "a rough drawing, or to draw roughly",
+      "core_concept": "something thrown down on the spot – 当场随手作出的东西",
       "core_image": "铅笔在纸上快速勾出几条轮廓线，细节还未填满",
       "chinese": [
-        "sketch"
+        "素描",
+        "草图"
       ],
       "examples": [
-        "The sketch changed the situation.",
-        "Researchers discussed the sketch carefully."
+        "He made a quick sketch of the bridge.",
+        "She sketched the outline in pencil."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sketch：从核心场景引出的常用义"
+        "素描：以线条为主的写生画",
+        "草图：粗略勾出的示意图"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "ski",
@@ -150096,25 +150102,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ski，现代词义按整体记",
-      "native_definition": "a thing or action related to ski",
-      "core_concept": "a clear scene connected with ski – 与该词相连的清晰场景",
+      "origin": "挪威语 ski ← 古诺尔斯语 skíð（木条、雪鞋）← 原始日耳曼语 *skīdą ← 原始印欧语 *skey-（切、劈）",
+      "native_definition": "a long narrow board fastened to a boot for moving on snow",
+      "core_concept": "a long split board strapped under the foot – 绑在脚下的长条木板",
       "core_image": "滑雪者沿雪坡向下滑行，双杖在身后撑开",
       "chinese": [
-        "ski"
+        "滑雪板",
+        "雪橇"
       ],
       "examples": [
-        "The ski changed the situation.",
-        "Researchers discussed the ski carefully."
+        "He waxed his skis before the run.",
+        "They ski every winter in Austria."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ski：从核心场景引出的常用义"
+        "滑雪板：踩在脚下滑行的长板",
+        "雪橇：在雪面滑行的器具"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skill",
@@ -150124,25 +150131,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skill，现代词义按整体记",
-      "native_definition": "a thing or action related to skill",
-      "core_concept": "a clear scene connected with skill – 与该词相连的清晰场景",
+      "origin": "中古英语 skill ← 古诺尔斯语 skil（分辨、见识）← 原始日耳曼语 *skilją（区分）← 原始印欧语 *(s)kelH-（劈）",
+      "native_definition": "the ability to do something well through practice",
+      "core_concept": "the power to tell fine differences and act on them – 能分辨细处并照做的本事",
       "core_image": "木匠用工具完成精细榫接，旁人看出熟练程度",
       "chinese": [
-        "skill"
+        "技能",
+        "技巧"
       ],
       "examples": [
-        "The skill changed the situation.",
-        "Researchers discussed the skill carefully."
+        "Reading maps is a useful skill.",
+        "The job needs real technical skill."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skill：从核心场景引出的常用义"
+        "技能：经练习获得的做事能力",
+        "技巧：做事时具体的巧妙手法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skilled",
@@ -150152,25 +150160,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skilled，现代词义按整体记",
-      "native_definition": "a thing or action related to skilled",
-      "core_concept": "a clear scene connected with skilled – 与该词相连的清晰场景",
+      "origin": "由 skill ＋ -ed 构成",
+      "native_definition": "having training and experience in a particular job",
+      "core_concept": "trained enough to do the work well – 练到足以把活做好",
       "core_image": "工匠不看图纸也能把细小零件装到准确位置",
       "chinese": [
-        "skilled"
+        "熟练的",
+        "有技术的"
       ],
       "examples": [
-        "The skilled changed the situation.",
-        "Researchers discussed the skilled carefully."
+        "They hired three skilled workers.",
+        "Skilled labour costs more here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skilled：从核心场景引出的常用义"
+        "熟练的：做得多因而做得顺",
+        "有技术的：受过专门训练的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skillful",
@@ -150180,25 +150189,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skillful，现代词义按整体记",
-      "native_definition": "a thing or action related to skillful",
-      "core_concept": "a clear scene connected with skillful – 与该词相连的清晰场景",
+      "origin": "中古英语 skilful，由 skill ＋ -ful 构成",
+      "native_definition": "showing great ability in doing something",
+      "core_concept": "full of skill in the doing – 做的时候满是本事",
       "core_image": "手指在琴键上迅速移动，复杂旋律依然清楚",
       "chinese": [
-        "skillful"
+        "娴熟的",
+        "巧妙的"
       ],
       "examples": [
-        "The skillful changed the situation.",
-        "Researchers discussed the skillful carefully."
+        "She is a skillful pianist.",
+        "That was a skillful piece of work."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skillful：从核心场景引出的常用义"
+        "娴熟的：做得又快又稳",
+        "巧妙的：办法高明不落笨拙"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skim",
@@ -150208,25 +150218,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skim，现代词义按整体记",
-      "native_definition": "a thing or action related to skim",
-      "core_concept": "a clear scene connected with skim – 与该词相连的清晰场景",
+      "origin": "中古英语 skemen，为 scumen 的变体 ← 古法语 escumer（去沫），源自 escume（沫）← 法兰克语 *skūm",
+      "native_definition": "to move lightly over a surface, or to read quickly",
+      "core_concept": "passing along the very top of something – 只沿着最表层过去",
       "core_image": "石子贴着水面掠过，跳起几次后沉下去",
       "chinese": [
-        "skim"
+        "擦过",
+        "略读"
       ],
       "examples": [
-        "The skim changed the situation.",
-        "Researchers discussed the skim carefully."
+        "A bird skimmed the water and rose.",
+        "He skimmed the report in minutes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skim：从核心场景引出的常用义"
+        "擦过：贴着表面轻轻掠行",
+        "略读：只看大意不细读"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "skin",
@@ -150236,25 +150247,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skin，现代词义按整体记",
-      "native_definition": "a thing or action related to skin",
-      "core_concept": "a clear scene connected with skin – 与该词相连的清晰场景",
+      "origin": "中古英语 skyn ← 古英语 scinn ← 古诺尔斯语 skinn（兽皮）← 原始日耳曼语 *skinþą",
+      "native_definition": "the outer covering of a person or animal",
+      "core_concept": "the layer that splits off as a covering – 可剥下来的那层外覆",
       "core_image": "手背最外层覆盖着柔软表皮，碰到冷水会起小疙瘩",
       "chinese": [
-        "skin"
+        "皮肤",
+        "外皮"
       ],
       "examples": [
-        "The skin changed the situation.",
-        "Researchers discussed the skin carefully."
+        "Cold wind dried her skin.",
+        "Remove the skin before cooking."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skin：从核心场景引出的常用义"
+        "皮肤：人或动物体表的组织",
+        "外皮：果实或物体的外层"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skip",
@@ -150264,25 +150276,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skip，现代词义按整体记",
-      "native_definition": "a thing or action related to skip",
-      "core_concept": "a clear scene connected with skip – 与该词相连的清晰场景",
+      "origin": "中古英语 skippen，出北日耳曼语支 ← 原始日耳曼语 *skupjaną",
+      "native_definition": "to move with light jumps, or to leave something out",
+      "core_concept": "passing over something with a light hop – 轻轻一跃从上面过去",
       "core_image": "孩子越过地上的水洼，脚步没有落进中间",
       "chinese": [
-        "skip"
+        "跳过",
+        "略去"
       ],
       "examples": [
-        "The skip changed the situation.",
-        "Researchers discussed the skip carefully."
+        "The child skipped along the path.",
+        "You may skip the second question."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skip：从核心场景引出的常用义"
+        "跳过：越过而不落在中间",
+        "略去：有意不做或不提"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skirt",
@@ -150292,25 +150305,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skirt，现代词义按整体记",
-      "native_definition": "a thing or action related to skirt",
-      "core_concept": "a clear scene connected with skirt – 与该词相连的清晰场景",
+      "origin": "中古英语 skyrte ← 古诺尔斯语 skyrta ← 原始日耳曼语 *skurtijǭ（围裙、裙），源自 *skurtaz（短）；与 shirt 同源",
+      "native_definition": "a garment hanging from the waist",
+      "core_concept": "the short cloth hung from the waist – 从腰上垂下的短幅布",
       "core_image": "布料从腰间垂到膝边，走动时边缘轻轻摆动",
       "chinese": [
-        "skirt"
+        "裙子",
+        "外围"
       ],
       "examples": [
-        "The skirt changed the situation.",
-        "Researchers discussed the skirt carefully."
+        "She wore a long grey skirt.",
+        "The road skirts the old town."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skirt：从核心场景引出的常用义"
+        "裙子：自腰部垂下的下装",
+        "外围：绕过边缘的一带"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skull",
@@ -150320,25 +150334,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skull，现代词义按整体记",
-      "native_definition": "a thing or action related to skull",
-      "core_concept": "a clear scene connected with skull – 与该词相连的清晰场景",
+      "origin": "中古英语 sculle，或出古诺尔斯语 skalli（秃头、颅骨）的方言形 ← 原始日耳曼语 *skallô",
+      "native_definition": "the bony framework of the head",
+      "core_concept": "the hard shell that encloses the brain – 包住脑的那层硬壳",
       "core_image": "头骨模型放在实验桌上，眼窝和牙槽清晰可见",
       "chinese": [
-        "skull"
+        "颅骨",
+        "头盖骨"
       ],
       "examples": [
-        "The skull changed the situation.",
-        "Researchers discussed the skull carefully."
+        "The blow cracked his skull.",
+        "Archaeologists found a broken skull."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "skull：从核心场景引出的常用义"
+        "颅骨：头部的骨架",
+        "头盖骨：颅顶那部分骨"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sky",
@@ -150348,25 +150363,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sky，现代词义按整体记",
-      "native_definition": "a thing or action related to sky",
-      "core_concept": "a clear scene connected with sky – 与该词相连的清晰场景",
+      "origin": "中古英语 sky（天、云）← 古诺尔斯语 ský（云）← 原始日耳曼语 *skiwją ← 原始印欧语 *(s)kewH-（遮、掩）",
+      "native_definition": "the space above the earth seen from below",
+      "core_concept": "the cover spread overhead – 铺在头顶上的那层遮盖",
       "core_image": "抬头看见蓝色穹顶，云层缓慢从头顶飘过",
       "chinese": [
-        "sky"
+        "天空"
       ],
       "examples": [
-        "The sky changed the situation.",
-        "Researchers discussed the sky carefully."
+        "The sky cleared before evening.",
+        "Stars filled the whole night sky."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sky：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "skyscraper",
@@ -150376,53 +150388,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 skyscraper，现代词义按整体记",
-      "native_definition": "a thing or action related to skyscraper",
-      "core_concept": "a clear scene connected with skyscraper – 与该词相连的清晰场景",
+      "origin": "由 sky ＋ scraper 复合而成，1880 年代起用于指美国城市的钢框高楼",
+      "native_definition": "a very tall building of many floors",
+      "core_concept": "a building tall enough to scrape the sky – 高到像刮着天的楼",
       "core_image": "玻璃高楼直插云层，底下行人显得很小",
       "chinese": [
-        "skyscraper"
+        "摩天楼"
       ],
       "examples": [
-        "The skyscraper changed the situation.",
-        "Researchers discussed the skyscraper carefully."
+        "The skyscraper has ninety floors.",
+        "Skyscrapers line the whole waterfront."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "skyscraper：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slack",
       "word": "slack",
-      "pos": "noun",
+      "pos": "adjective / noun",
       "phonetic": "/slæk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slack，现代词义按整体记",
-      "native_definition": "a thing or action related to slack",
-      "core_concept": "a clear scene connected with slack – 与该词相连的清晰场景",
+      "origin": "古英语 slæc（松）← 原始日耳曼语 *slakaz",
+      "native_definition": "loose rather than tight, or the loose part of a rope",
+      "core_concept": "not drawn tight – 没有被拉紧的状态",
       "core_image": "绳子没有拉紧，中央垂下一段松弛的弧线",
       "chinese": [
-        "slack"
+        "松垮的",
+        "余量"
       ],
       "examples": [
-        "The slack changed the situation.",
-        "Researchers discussed the slack carefully."
+        "The rope hung slack between the posts.",
+        "Pull in the slack before tying."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slack：从核心场景引出的常用义"
+        "松垮的：不紧不挺的",
+        "余量：多出来未用上的那部分"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slam",
@@ -150432,53 +150442,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slam，现代词义按整体记",
-      "native_definition": "a thing or action related to slam",
-      "core_concept": "a clear scene connected with slam – 与该词相连的清晰场景",
+      "origin": "中古英语 *slammen（未见记载），出斯堪的纳维亚语源 ← 古诺尔斯语 slæma（挥击）",
+      "native_definition": "to shut something with great force and noise",
+      "core_concept": "bringing something shut with force – 用力使之合上",
       "core_image": "门被猛力推到门框上，声音在走廊里回响",
       "chinese": [
-        "slam"
+        "猛关",
+        "砰地关上"
       ],
       "examples": [
-        "The slam changed the situation.",
-        "Researchers discussed the slam carefully."
+        "He slammed the door and left.",
+        "She slammed the book onto the desk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slam：从核心场景引出的常用义"
+        "猛关：用力关闭发出响声",
+        "砰地关上：伴随撞击声地闭合"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slap",
       "word": "slap",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/slæp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slap，现代词义按整体记",
-      "native_definition": "a thing or action related to slap",
-      "core_concept": "a clear scene connected with slap – 与该词相连的清晰场景",
+      "origin": "中古英语 slappen，来源不明，或为拟声",
+      "native_definition": "to hit with the flat of the hand",
+      "core_concept": "striking with the open palm – 用张开的手掌打",
       "core_image": "手掌快速拍在桌面，旁边的纸张震得跳起",
       "chinese": [
-        "slap"
+        "掌击",
+        "拍打"
       ],
       "examples": [
-        "The slap changed the situation.",
-        "Researchers discussed the slap carefully."
+        "She slapped her palm on the table.",
+        "He gave the horse a light slap."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slap：从核心场景引出的常用义"
+        "掌击：用手掌用力打",
+        "拍打：反复轻打"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slaughter",
@@ -150488,25 +150500,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slaughter，现代词义按整体记",
-      "native_definition": "a thing or action related to slaughter",
-      "core_concept": "a clear scene connected with slaughter – 与该词相连的清晰场景",
+      "origin": "中古英语 slaughter ← 古诺尔斯语 *slahtr ← 原始日耳曼语 *slahtrą，源自 *slahaną（击打）",
+      "native_definition": "the killing of animals for food, or mass killing",
+      "core_concept": "killing carried out on a large scale – 成批进行的杀戮",
       "core_image": "屠宰场外的运输车停下，工作人员把动物赶入围栏",
       "chinese": [
-        "slaughter"
+        "宰杀",
+        "屠杀"
       ],
       "examples": [
-        "The slaughter changed the situation.",
-        "Researchers discussed the slaughter carefully."
+        "The plant handles the slaughter of cattle.",
+        "Reports described the slaughter of civilians."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slaughter：从核心场景引出的常用义"
+        "宰杀：为取肉而杀牲畜",
+        "屠杀：大规模杀害人命"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slave",
@@ -150516,53 +150529,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slave，现代词义按整体记",
-      "native_definition": "a thing or action related to slave",
-      "core_concept": "a clear scene connected with slave – 与该词相连的清晰场景",
+      "origin": "中古英语 sclave ← 古法语 esclave ← 中世纪拉丁语 sclavus ← 晚期拉丁语 Sclavus（斯拉夫人）——中世纪斯拉夫人常被掠为奴",
+      "native_definition": "a person owned by another and forced to work",
+      "core_concept": "a person held as another property – 被当作他人所属而役使的人",
       "core_image": "历史展柜里陈列着锁链和被迫劳动者的记录",
       "chinese": [
-        "slave"
+        "奴隶"
       ],
       "examples": [
-        "The slave changed the situation.",
-        "Researchers discussed the slave carefully."
+        "The law freed every slave that year.",
+        "Slaves built much of the city."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "slave：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sleep",
       "word": "sleep",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/sliːp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sleep，现代词义按整体记",
-      "native_definition": "a thing or action related to sleep",
-      "core_concept": "a clear scene connected with sleep – 与该词相连的清晰场景",
+      "origin": "古英语 slēpan ← 原始西日耳曼语 *slāpan ← 原始日耳曼语 *slēpaną",
+      "native_definition": "to rest with the eyes closed and the mind inactive",
+      "core_concept": "resting with awareness switched off – 意识关闭下的休息",
       "core_image": "夜灯熄灭后，床上的人呼吸平稳地闭着眼",
       "chinese": [
-        "sleep"
+        "睡觉",
+        "睡眠"
       ],
       "examples": [
-        "The sleep changed the situation.",
-        "Researchers discussed the sleep carefully."
+        "He slept for nearly ten hours.",
+        "Lack of sleep affects concentration."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sleep：从核心场景引出的常用义"
+        "睡觉：进入睡眠这个动作",
+        "睡眠：睡着的那个状态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sleeve",
@@ -150572,25 +150583,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sleeve，现代词义按整体记",
-      "native_definition": "a thing or action related to sleeve",
-      "core_concept": "a clear scene connected with sleeve – 与该词相连的清晰场景",
+      "origin": "中古英语 sleve ← 古英语 slīefe（袖）",
+      "native_definition": "the part of a garment covering the arm",
+      "core_concept": "the tube of cloth that the arm goes into – 手臂穿进去的那节布筒",
       "core_image": "衬衫的布管从肩膀延伸到手腕，袖口露在外面",
       "chinese": [
-        "sleeve"
+        "袖子",
+        "套筒"
       ],
       "examples": [
-        "The sleeve changed the situation.",
-        "Researchers discussed the sleeve carefully."
+        "He rolled up his sleeves and began.",
+        "The sleeve protects the cable."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sleeve：从核心场景引出的常用义"
+        "袖子：衣服上包住手臂的部分",
+        "套筒：套在外面的筒状件"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slender",
@@ -150600,81 +150612,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slender，现代词义按整体记",
-      "native_definition": "a thing or action related to slender",
-      "core_concept": "a clear scene connected with slender – 与该词相连的清晰场景",
+      "origin": "中古英语 slendre ← 古法语 esclendre（细、瘦）← 中古荷兰语 slinder（细长）← 原始日耳曼语 *slindraz（滑的）",
+      "native_definition": "thin in a graceful and attractive way",
+      "core_concept": "thin in a way that looks graceful – 细而显得好看",
       "core_image": "细长树干向上伸展，风吹时轻轻弯动",
       "chinese": [
-        "slender"
+        "苗条的",
+        "纤细的"
       ],
       "examples": [
-        "The slender changed the situation.",
-        "Researchers discussed the slender carefully."
+        "She had long slender fingers.",
+        "A slender tree stood by the gate."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slender：从核心场景引出的常用义"
+        "苗条的：身形细而匀称",
+        "纤细的：形体细长而不粗"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "slice",
       "word": "slice",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/slaɪs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slice，现代词义按整体记",
-      "native_definition": "a thing or action related to slice",
-      "core_concept": "a clear scene connected with slice – 与该词相连的清晰场景",
+      "origin": "中古英语 sclise ← 古法语 esclice（劈下的一片），源自 esclicier（劈开）← 法兰克语 *slitjan",
+      "native_definition": "a thin flat piece cut from something larger",
+      "core_concept": "a thin flat piece split off the whole – 从整体劈下的薄平一片",
       "core_image": "刀从面包中间切下薄薄一片，截面平整",
       "chinese": [
-        "slice"
+        "薄片",
+        "切片"
       ],
       "examples": [
-        "The slice changed the situation.",
-        "Researchers discussed the slice carefully."
+        "He cut a slice of cold meat.",
+        "She sliced the tomatoes very thin."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slice：从核心场景引出的常用义"
+        "薄片：切下来的一薄块",
+        "切片：把整体切成片这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "slide",
       "word": "slide",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/ˈslaɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slide，现代词义按整体记",
-      "native_definition": "a thing or action related to slide",
-      "core_concept": "a clear scene connected with slide – 与该词相连的清晰场景",
+      "origin": "古英语 slīdan ← 原始西日耳曼语 *slīdan ← 原始日耳曼语 *slīdaną ← 原始印欧语 *sleydʰ-（滑）",
+      "native_definition": "to move smoothly along a surface",
+      "core_concept": "moving along without lifting off – 贴着表面不离开地移动",
       "core_image": "孩子从高处滑梯向下滑，最后落到沙地上",
       "chinese": [
-        "slide"
+        "滑动",
+        "滑落"
       ],
       "examples": [
-        "The slide changed the situation.",
-        "Researchers discussed the slide carefully."
+        "The drawer slides out very easily.",
+        "Prices slid further that quarter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slide：从核心场景引出的常用义"
+        "滑动：贴着面平顺移动",
+        "滑落：脱手或失稳后往下溜"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slight",
@@ -150684,25 +150699,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slight，现代词义按整体记",
-      "native_definition": "a thing or action related to slight",
-      "core_concept": "a clear scene connected with slight – 与该词相连的清晰场景",
+      "origin": "中古英语 slight（劣、轻微）← 古英语 sliht（平滑）← 原始日耳曼语 *slihtaz",
+      "native_definition": "very small in amount and hardly noticeable",
+      "core_concept": "so small as to barely register – 小到几乎察觉不到",
       "core_image": "纸张边缘只有一条几乎看不见的小折痕",
       "chinese": [
-        "slight"
+        "轻微的",
+        "细小的"
       ],
       "examples": [
-        "The slight changed the situation.",
-        "Researchers discussed the slight carefully."
+        "There was a slight delay this morning.",
+        "She felt a slight pain here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slight：从核心场景引出的常用义"
+        "轻微的：程度很低",
+        "细小的：尺寸或数量极小"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slim",
@@ -150712,53 +150728,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slim，现代词义按整体记",
-      "native_definition": "a thing or action related to slim",
-      "core_concept": "a clear scene connected with slim – 与该词相连的清晰场景",
+      "origin": "借自荷兰语 slim（坏、狡），与低地德语 slim 同源；词义由「歪、狡」转为「轻微」，在英语里再转为「细瘦」",
+      "native_definition": "narrow in build, or barely sufficient",
+      "core_concept": "narrow enough to leave little to spare – 窄到几乎没有余裕",
       "core_image": "衣架上的衣服腰部收窄，整体线条轻而细",
       "chinese": [
-        "slim"
+        "纤瘦的",
+        "微小的"
       ],
       "examples": [
-        "The slim changed the situation.",
-        "Researchers discussed the slim carefully."
+        "He stayed slim well into old age.",
+        "They had only a slim chance."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slim：从核心场景引出的常用义"
+        "纤瘦的：身形窄而不胖",
+        "微小的：数量或可能性极低"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自荷兰语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "slip",
       "word": "slip",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/ˈslɪp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slip，现代词义按整体记",
-      "native_definition": "a thing or action related to slip",
-      "core_concept": "a clear scene connected with slip – 与该词相连的清晰场景",
+      "origin": "中古英语 slippen，或出中古低地德语 slippen ← 原始西日耳曼语 *slippjan ← 原始日耳曼语 *slipjaną（滑行）",
+      "native_definition": "to lose your footing, or a small mistake",
+      "core_concept": "losing hold and sliding away – 抓不住而滑脱出去",
       "core_image": "脚踩到湿地面微微打滑，身体向前失去平衡",
       "chinese": [
-        "slip"
+        "滑倒",
+        "失误"
       ],
       "examples": [
-        "The slip changed the situation.",
-        "Researchers discussed the slip carefully."
+        "She slipped on the wet floor.",
+        "One slip cost them the match."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slip：从核心场景引出的常用义"
+        "滑倒：脚下打滑而倒下",
+        "失误：一时不慎出的小错"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slipper",
