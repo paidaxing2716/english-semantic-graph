@@ -150786,25 +150786,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slipper，现代词义按整体记",
-      "native_definition": "a thing or action related to slipper",
-      "core_concept": "a clear scene connected with slipper – 与该词相连的清晰场景",
+      "origin": "中古英语 slypper，由 slip ＋ -er 构成",
+      "native_definition": "a light soft shoe worn indoors",
+      "core_concept": "the shoe the foot slips easily into – 脚一滑就能进去的那种鞋",
       "core_image": "床边放着一双软鞋，脚一伸便能套进去",
       "chinese": [
-        "slipper"
+        "拖鞋",
+        "便鞋"
       ],
       "examples": [
-        "The slipper changed the situation.",
-        "Researchers discussed the slipper carefully."
+        "She kicked off her slippers by the bed.",
+        "One slipper had gone missing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slipper：从核心场景引出的常用义"
+        "拖鞋：室内穿的轻便无带鞋",
+        "便鞋：柔软好穿的日常鞋"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slippery",
@@ -150814,25 +150815,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slippery，现代词义按整体记",
-      "native_definition": "a thing or action related to slippery",
-      "core_concept": "a clear scene connected with slippery – 与该词相连的清晰场景",
+      "origin": "中古英语 slipperie，为 slipper（滑的）加 -y 的扩展形 ← 古英语 slipor ← 原始日耳曼语 *slipraz（滑）",
+      "native_definition": "hard to stand on or hold because of a smooth wet surface",
+      "core_concept": "so smooth that grip is lost – 光到抓不住、站不稳",
       "core_image": "雨水覆盖石阶，鞋底踩上去容易向旁边滑动",
       "chinese": [
-        "slippery"
+        "滑的",
+        "易滑的"
       ],
       "examples": [
-        "The slippery changed the situation.",
-        "Researchers discussed the slippery carefully."
+        "The wet steps were dangerously slippery.",
+        "Fish are slippery to hold."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slippery：从核心场景引出的常用义"
+        "滑的：表面不易附着",
+        "易滑的：容易让人打滑的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slit",
@@ -150842,25 +150844,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slit，现代词义按整体记",
-      "native_definition": "a thing or action related to slit",
-      "core_concept": "a clear scene connected with slit – 与该词相连的清晰场景",
+      "origin": "中古英语 slitten ← 古英语 slītan ← 原始日耳曼语 *slītaną（撕开）← 原始印欧语 *(s)leyd-（撕、裂）",
+      "native_definition": "a long narrow cut or opening",
+      "core_concept": "a long narrow opening torn or cut – 撕开或切开的一道细长口",
       "core_image": "厚纸中央被划开一条窄缝，光从里面透出",
       "chinese": [
-        "slit"
+        "狭缝",
+        "切口"
       ],
       "examples": [
-        "The slit changed the situation.",
-        "Researchers discussed the slit carefully."
+        "Light came through a slit in the curtain.",
+        "He slit the envelope open."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slit：从核心场景引出的常用义"
+        "狭缝：细长的开口",
+        "切口：刀划出的口子"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slogan",
@@ -150870,25 +150873,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slogan，现代词义按整体记",
-      "native_definition": "a thing or action related to slogan",
-      "core_concept": "a clear scene connected with slogan – 与该词相连的清晰场景",
+      "origin": "早期作 slughorn（战吼）← 苏格兰盖尔语 sluagh-ghairm，由古爱尔兰语 slóg（军旅）＋ gairm（呼喊）构成",
+      "native_definition": "a short phrase used to promote an idea or product",
+      "core_concept": "a short cry raised to rally people – 为号召众人而喊出的短句",
       "core_image": "游行队伍举着写有短句的牌子，口号不断重复",
       "chinese": [
-        "slogan"
+        "标语",
+        "宣传语"
       ],
       "examples": [
-        "The slogan changed the situation.",
-        "Researchers discussed the slogan carefully."
+        "The slogan appeared on every poster.",
+        "They chanted the same slogan again."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slogan：从核心场景引出的常用义"
+        "标语：写出来的简短号召",
+        "宣传语：为推广而用的短句"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自盖尔语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "slope",
@@ -150898,25 +150902,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slope，现代词义按整体记",
-      "native_definition": "a thing or action related to slope",
-      "core_concept": "a clear scene connected with slope – 与该词相连的清晰场景",
+      "origin": "由 aslope（斜着）截头而成",
+      "native_definition": "a surface with one end higher than the other",
+      "core_concept": "a surface tilted from level – 与水平面成角的一片面",
       "core_image": "山路从高处斜着向下延伸，球顺坡滚动",
       "chinese": [
-        "slope"
+        "坡",
+        "倾斜"
       ],
       "examples": [
-        "The slope changed the situation.",
-        "Researchers discussed the slope carefully."
+        "The ball rolled down the grassy slope.",
+        "The roof slopes towards the back."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slope：从核心场景引出的常用义"
+        "坡：地面倾斜的一段",
+        "倾斜：偏离水平的状态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slot",
@@ -150926,25 +150931,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slot，现代词义按整体记",
-      "native_definition": "a thing or action related to slot",
-      "core_concept": "a clear scene connected with slot – 与该词相连的清晰场景",
+      "origin": "中古英语 slot ← 古法语 esclot，或出古诺尔斯语 slóð（辙迹）",
+      "native_definition": "a narrow opening for putting something in, or a position in a schedule",
+      "core_concept": "a narrow gap that something fits into – 让东西正好嵌进去的窄口",
       "core_image": "机器面板上留着一道细槽，卡片只能从那里插入",
       "chinese": [
-        "slot"
+        "狭槽",
+        "位次"
       ],
       "examples": [
-        "The slot changed the situation.",
-        "Researchers discussed the slot carefully."
+        "Put the coin in the slot.",
+        "She got an early slot on the programme."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slot：从核心场景引出的常用义"
+        "狭槽：细长的插入口",
+        "位次：安排表上的一个位置"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "slow",
@@ -150954,25 +150960,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slow，现代词义按整体记",
-      "native_definition": "a thing or action related to slow",
-      "core_concept": "a clear scene connected with slow – 与该词相连的清晰场景",
+      "origin": "古英语 slāw（迟钝、缓）← 原始西日耳曼语 *slaiw ← 原始日耳曼语 *slaiwaz",
+      "native_definition": "moving or happening at low speed",
+      "core_concept": "taking a long time to cover ground – 走同样的路要用更久",
       "core_image": "蜗牛沿叶片缓慢爬行，身后留下细亮痕迹",
       "chinese": [
-        "slow"
+        "慢的",
+        "迟缓的"
       ],
       "examples": [
-        "The slow changed the situation.",
-        "Researchers discussed the slow carefully."
+        "Traffic was slow all morning.",
+        "He is slow to make decisions."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slow：从核心场景引出的常用义"
+        "慢的：速度低",
+        "迟缓的：反应或进展不快"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "slum",
@@ -150982,25 +150989,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 slum，现代词义按整体记",
-      "native_definition": "a thing or action related to slum",
-      "core_concept": "a clear scene connected with slum – 与该词相连的清晰场景",
+      "origin": "1812 年起见于记载，原为俚语指「后间」，来源不明",
+      "native_definition": "a poor crowded area of a city with bad housing",
+      "core_concept": "a crowded quarter of poor housing – 住房简陋而拥挤的一片街区",
       "core_image": "密集旧房挤在狭窄巷道两侧，电线交错在头顶",
       "chinese": [
-        "slum"
+        "贫民区",
+        "棚户区"
       ],
       "examples": [
-        "The slum changed the situation.",
-        "Researchers discussed the slum carefully."
+        "Families lived in the slum for years.",
+        "The city cleared the old slum."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "slum：从核心场景引出的常用义"
+        "贫民区：城中贫困住户聚居处",
+        "棚户区：以简易房搭成的居住区"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sly",
@@ -151010,25 +151018,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sly，现代词义按整体记",
-      "native_definition": "a thing or action related to sly",
-      "core_concept": "a clear scene connected with sly – 与该词相连的清晰场景",
+      "origin": "中古英语 sly ← 古诺尔斯语 slǿgr（狡、机巧）← 原始日耳曼语 *slōgiz",
+      "native_definition": "clever at deceiving people in a quiet way",
+      "core_concept": "clever in a way kept out of sight – 机巧而不露在明处",
       "core_image": "孩子假装看向别处，手却悄悄伸向糖盒",
       "chinese": [
-        "sly"
+        "狡猾的",
+        "偷偷的"
       ],
       "examples": [
-        "The sly changed the situation.",
-        "Researchers discussed the sly carefully."
+        "He gave a sly glance at the door.",
+        "The fox is famously sly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sly：从核心场景引出的常用义"
+        "狡猾的：善用心计不老实",
+        "偷偷的：不让人察觉地进行"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "small",
@@ -151038,25 +151047,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 small，现代词义按整体记",
-      "native_definition": "a thing or action related to small",
-      "core_concept": "a clear scene connected with small – 与该词相连的清晰场景",
+      "origin": "古英语 smæl（窄、细）← 原始西日耳曼语 *smal ← 原始日耳曼语 *smalaz",
+      "native_definition": "not large in size or amount",
+      "core_concept": "taking up little room or measure – 占的地方或量都不多",
       "core_image": "大箱子旁放着一个很小的盒子，尺寸差距明显",
       "chinese": [
-        "small"
+        "细小的",
+        "少量的"
       ],
       "examples": [
-        "The small changed the situation.",
-        "Researchers discussed the small carefully."
+        "They live in a small flat.",
+        "Only a small number replied."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "small：从核心场景引出的常用义"
+        "细小的：体积或规模不大",
+        "少量的：数量不多"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smart",
@@ -151066,109 +151076,113 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smart，现代词义按整体记",
-      "native_definition": "a thing or action related to smart",
-      "core_concept": "a clear scene connected with smart – 与该词相连的清晰场景",
+      "origin": "古英语 smeart（刺痛的）← 原始西日耳曼语 *smart ← 原始日耳曼语 *smartaz（疼）← 原始印欧语 *(s)merd-（咬、刺）；「聪明」义由「刺得利」引申",
+      "native_definition": "quick to learn and understand, or neat in appearance",
+      "core_concept": "sharp enough to sting – 利到能刺人",
       "core_image": "学生很快解出难题，老师露出赞许表情",
       "chinese": [
-        "smart"
+        "聪明的",
+        "时髦的"
       ],
       "examples": [
-        "The smart changed the situation.",
-        "Researchers discussed the smart carefully."
+        "She is the smartest student here.",
+        "He wore a smart dark suit."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smart：从核心场景引出的常用义"
+        "聪明的：理解快、脑子灵",
+        "时髦的：装束齐整入时"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smash",
       "word": "smash",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/smæʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smash，现代词义按整体记",
-      "native_definition": "a thing or action related to smash",
-      "core_concept": "a clear scene connected with smash – 与该词相连的清晰场景",
+      "origin": "来源不明，或为拟声",
+      "native_definition": "to break something violently into pieces",
+      "core_concept": "breaking something apart with force – 用力使之裂成碎块",
       "core_image": "花瓶撞到地面后裂成许多碎片，水洒了一地",
       "chinese": [
-        "smash"
+        "打碎",
+        "猛撞"
       ],
       "examples": [
-        "The smash changed the situation.",
-        "Researchers discussed the smash carefully."
+        "He smashed the glass on the floor.",
+        "The car smashed into a wall."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smash：从核心场景引出的常用义"
+        "打碎：使物体破成碎片",
+        "猛撞：以大力撞上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smell",
       "word": "smell",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/smel/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smell，现代词义按整体记",
-      "native_definition": "a thing or action related to smell",
-      "core_concept": "a clear scene connected with smell – 与该词相连的清晰场景",
+      "origin": "中古英语 smellen ← 古英语 *smyllan ← 原始西日耳曼语 *smallijan（燃、冒烟）← 原始印欧语 *smel-（燃、熏）",
+      "native_definition": "to notice something through the nose, or a quality noticed that way",
+      "core_concept": "taking something in through the nose – 用鼻子把东西接进来",
       "core_image": "烤面包的气味从厨房飘出，路过的人停下来闻",
       "chinese": [
-        "smell"
+        "闻到",
+        "味道"
       ],
       "examples": [
-        "The smell changed the situation.",
-        "Researchers discussed the smell carefully."
+        "I can smell fresh bread.",
+        "The room had a strange smell."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smell：从核心场景引出的常用义"
+        "闻到：用鼻子察觉到",
+        "味道：被鼻子察觉的那种性质"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smile",
       "word": "smile",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/ˈsmaɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smile，现代词义按整体记",
-      "native_definition": "a thing or action related to smile",
-      "core_concept": "a clear scene connected with smile – 与该词相连的清晰场景",
+      "origin": "中古英语 smilen ← 中古低地德语 *smîlen ← 古高地德语 smielēn ← 原始日耳曼语 *smilāną ← 原始印欧语 *smey-（笑、喜）",
+      "native_definition": "to turn the mouth upward to show pleasure",
+      "core_concept": "turning the mouth up to show gladness – 把嘴角向上以示欢喜",
       "core_image": "嘴角向上弯起，眼角也出现轻微皱纹",
       "chinese": [
-        "smile"
+        "微笑",
+        "笑容"
       ],
       "examples": [
-        "The smile changed the situation.",
-        "Researchers discussed the smile carefully."
+        "She smiled at the old photograph.",
+        "A faint smile crossed his face."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smile：从核心场景引出的常用义"
+        "微笑：不出声地笑",
+        "笑容：脸上呈现的笑的样子"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smog",
@@ -151178,53 +151192,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smog，现代词义按整体记",
-      "native_definition": "a thing or action related to smog",
-      "core_concept": "a clear scene connected with smog – 与该词相连的清晰场景",
+      "origin": "由 smoke ＋ fog 混合而成",
+      "native_definition": "a mixture of smoke and fog hanging over a city",
+      "core_concept": "smoke and fog settled together – 烟与雾混在一起沉着不散",
       "core_image": "城市上空罩着灰黄雾层，远处楼房轮廓变淡",
       "chinese": [
-        "smog"
+        "烟雾"
       ],
       "examples": [
-        "The smog changed the situation.",
-        "Researchers discussed the smog carefully."
+        "Smog covered the city for three days.",
+        "Heavy smog closed several schools."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "smog：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smoke",
       "word": "smoke",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/sməʊk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smoke，现代词义按整体记",
-      "native_definition": "a thing or action related to smoke",
-      "core_concept": "a clear scene connected with smoke – 与该词相连的清晰场景",
+      "origin": "古英语 smoca ← 原始日耳曼语 *smukōną ← 原始印欧语 *(s)mewg-（冒烟）",
+      "native_definition": "the grey gas given off by something burning",
+      "core_concept": "the grey stream given off by fire – 火所放出的灰色气流",
       "core_image": "火堆上方升起一缕灰白气体，随风向一侧飘",
       "chinese": [
-        "smoke"
+        "烟",
+        "抽烟"
       ],
       "examples": [
-        "The smoke changed the situation.",
-        "Researchers discussed the smoke carefully."
+        "Smoke rose from the small chimney.",
+        "He gave up smoking last year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smoke：从核心场景引出的常用义"
+        "烟：燃烧产生的灰白气体",
+        "抽烟：吸食烟草这件事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smooth",
@@ -151234,25 +151246,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smooth，现代词义按整体记",
-      "native_definition": "a thing or action related to smooth",
-      "core_concept": "a clear scene connected with smooth – 与该词相连的清晰场景",
+      "origin": "中古英语 smothe ← 古英语 smēþe ← 原始西日耳曼语 *smanþī，更早词源不明",
+      "native_definition": "having an even surface with no bumps",
+      "core_concept": "even all over with nothing standing up – 通体齐平、没有凸起",
       "core_image": "手掌滑过磨亮的石面，没有碰到任何凸起",
       "chinese": [
-        "smooth"
+        "平滑的",
+        "顺畅的"
       ],
       "examples": [
-        "The smooth changed the situation.",
-        "Researchers discussed the smooth carefully."
+        "The table has a smooth wooden top.",
+        "The change went smoothly enough."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smooth：从核心场景引出的常用义"
+        "平滑的：表面无凸凹",
+        "顺畅的：进行中没有阻碍"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "smuggle",
@@ -151262,25 +151275,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 smuggle，现代词义按整体记",
-      "native_definition": "a thing or action related to smuggle",
-      "core_concept": "a clear scene connected with smuggle – 与该词相连的清晰场景",
+      "origin": "早期作 smuckle，借自荷兰语 smokkelen 或低地德语 smuggeln（潜运）",
+      "native_definition": "to move goods illegally into or out of a country",
+      "core_concept": "moving something across by keeping it hidden – 藏起来运过界去",
       "core_image": "货物藏在行李夹层里，检查人员还没发现",
       "chinese": [
-        "smuggle"
+        "走私",
+        "偷运"
       ],
       "examples": [
-        "The smuggle changed the situation.",
-        "Researchers discussed the smuggle carefully."
+        "They smuggled the goods across the border.",
+        "Someone smuggled a note inside."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "smuggle：从核心场景引出的常用义"
+        "走私：非法运货进出关境",
+        "偷运：暗中把东西运过去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自荷兰语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "snack",
@@ -151290,25 +151304,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 snack，现代词义按整体记",
-      "native_definition": "a thing or action related to snack",
-      "core_concept": "a clear scene connected with snack – 与该词相连的清晰场景",
+      "origin": "借自荷兰语 snacken（咬、吃一点）",
+      "native_definition": "a small amount of food eaten between meals",
+      "core_concept": "a small bite taken between meals – 正餐之间吃的一小口",
       "core_image": "两餐之间有人从包里拿出一小块饼干",
       "chinese": [
-        "snack"
+        "小吃",
+        "零食"
       ],
       "examples": [
-        "The snack changed the situation.",
-        "Researchers discussed the snack carefully."
+        "She packed a snack for the journey.",
+        "We stopped for a quick snack."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "snack：从核心场景引出的常用义"
+        "小吃：分量小的简便食物",
+        "零食：正餐之外随手吃的东西"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自荷兰语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "snake",
@@ -151318,53 +151333,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 snake，现代词义按整体记",
-      "native_definition": "a thing or action related to snake",
-      "core_concept": "a clear scene connected with snake – 与该词相连的清晰场景",
+      "origin": "古英语 snaca ← 原始西日耳曼语 *snakō（爬行者），源自 *snakan（爬、滑）",
+      "native_definition": "a long thin reptile with no legs",
+      "core_concept": "the legless crawler that slides along – 无足而贴地滑行的爬虫",
       "core_image": "细长身体贴着草地弯曲前进，鳞片在阳光下闪动",
       "chinese": [
-        "snake"
+        "蛇"
       ],
       "examples": [
-        "The snake changed the situation.",
-        "Researchers discussed the snake carefully."
+        "A snake crossed the warm path.",
+        "Some snakes hunt at night."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "snake：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "snap",
       "word": "snap",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/snæp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 snap，现代词义按整体记",
-      "native_definition": "a thing or action related to snap",
-      "core_concept": "a clear scene connected with snap – 与该词相连的清晰场景",
+      "origin": "借自荷兰语或低地德语 snappen（咬、抓）",
+      "native_definition": "to break with a sharp sound, or such a sound",
+      "core_concept": "breaking with one sharp report – 一声脆响之间断开",
       "core_image": "树枝被用力折断，发出短促清脆的声音",
       "chinese": [
-        "snap"
+        "啪一声断",
+        "猛地咬住"
       ],
       "examples": [
-        "The snap changed the situation.",
-        "Researchers discussed the snap carefully."
+        "The dry branch snapped underfoot.",
+        "We heard the snap of a lock."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "snap：从核心场景引出的常用义"
+        "啪一声断：一下断开并发出脆响",
+        "猛地咬住：突然合口咬上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自荷兰语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "snatch",
@@ -151374,53 +151387,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 snatch，现代词义按整体记",
-      "native_definition": "a thing or action related to snatch",
-      "core_concept": "a clear scene connected with snatch – 与该词相连的清晰场景",
+      "origin": "中古英语 snacchen ← 古英语 *snæċċan ← 原始西日耳曼语 *snakkjan ← 原始日耳曼语 *snakjaną",
+      "native_definition": "to take something quickly and roughly",
+      "core_concept": "taking something away with one quick grab – 一把抓走",
       "core_image": "风吹走帽子时，旁边的人伸手一把抓住",
       "chinese": [
-        "snatch"
+        "夺过",
+        "抢夺"
       ],
       "examples": [
-        "The snatch changed the situation.",
-        "Researchers discussed the snatch carefully."
+        "He snatched the letter from her hand.",
+        "A gull snatched the bread away."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "snatch：从核心场景引出的常用义"
+        "夺过：迅速取走对方手上的东西",
+        "抢夺：以强力取得"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sneak",
       "word": "sneak",
-      "pos": "noun",
+      "pos": "verb",
       "phonetic": "/sniːk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sneak，现代词义按整体记",
-      "native_definition": "a thing or action related to sneak",
-      "core_concept": "a clear scene connected with sneak – 与该词相连的清晰场景",
+      "origin": "或出中古英语 sniken（爬、匍匐）← 古英语 snīcan ← 原始日耳曼语 *snīkaną，拟声起源",
+      "native_definition": "to move quietly so as not to be seen",
+      "core_concept": "moving low and quiet to avoid notice – 低身轻步避人察觉",
       "core_image": "人贴着墙边轻轻走过，不让房间里的人听见",
       "chinese": [
-        "sneak"
+        "潜行",
+        "偷偷做"
       ],
       "examples": [
-        "The sneak changed the situation.",
-        "Researchers discussed the sneak carefully."
+        "He sneaked past the sleeping guard.",
+        "She sneaked a look at the answers."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sneak：从核心场景引出的常用义"
+        "潜行：不出声地移动",
+        "偷偷做：暗中进行不让人知"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sneeze",
@@ -151430,25 +151445,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sneeze，现代词义按整体记",
-      "native_definition": "a thing or action related to sneeze",
-      "core_concept": "a clear scene connected with sneeze – 与该词相连的清晰场景",
+      "origin": "中古英语 snesen，为更早 fnesen 的变体 ← 古英语 fnēosan（喷鼻）← 原始日耳曼语 *fneusaną ← 原始印欧语 *pnew-（呼气）",
+      "native_definition": "to blow air suddenly out of the nose",
+      "core_concept": "air forced suddenly out through the nose – 气猛地从鼻腔冲出",
       "core_image": "花粉飘进鼻子后，人突然低头打了一个喷嚏",
       "chinese": [
-        "sneeze"
+        "打喷嚏"
       ],
       "examples": [
-        "The sneeze changed the situation.",
-        "Researchers discussed the sneeze carefully."
+        "Dust made her sneeze three times.",
+        "He sneezed into his elbow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sneeze：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sniff",
@@ -151458,25 +151470,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sniff，现代词义按整体记",
-      "native_definition": "a thing or action related to sniff",
-      "core_concept": "a clear scene connected with sniff – 与该词相连的清晰场景",
+      "origin": "中古英语 sniffen，拟声起源",
+      "native_definition": "to take air in through the nose to smell something",
+      "core_concept": "drawing air in through the nose – 把空气从鼻子吸进去",
       "core_image": "小狗把鼻子贴近地面，沿着气味慢慢移动",
       "chinese": [
-        "sniff"
+        "嗅",
+        "吸气"
       ],
       "examples": [
-        "The sniff changed the situation.",
-        "Researchers discussed the sniff carefully."
+        "The dog sniffed at the closed door.",
+        "She sniffed the milk carefully."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sniff：从核心场景引出的常用义"
+        "嗅：用鼻子辨气味",
+        "吸气：把气吸进鼻腔"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "snow",
@@ -151486,25 +151499,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 snow，现代词义按整体记",
-      "native_definition": "a thing or action related to snow",
-      "core_concept": "a clear scene connected with snow – 与该词相连的清晰场景",
+      "origin": "古英语 snāw ← 原始西日耳曼语 *snaiw ← 原始日耳曼语 *snaiwaz ← 原始印欧语 *snóygʷʰos",
+      "native_definition": "frozen water falling from the sky in white flakes",
+      "core_concept": "frozen water coming down in white flakes – 结冰的水以白片落下",
       "core_image": "白色晶体覆盖屋顶和树枝，脚印留在小路上",
       "chinese": [
-        "snow"
+        "雪",
+        "下雪"
       ],
       "examples": [
-        "The snow changed the situation.",
-        "Researchers discussed the snow carefully."
+        "Snow covered the fields overnight.",
+        "It snowed heavily all weekend."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "snow：从核心场景引出的常用义"
+        "雪：从空中降下的白色结晶",
+        "下雪：降雪这个过程"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "snowstorm",
@@ -151514,25 +151528,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 snowstorm，现代词义按整体记",
-      "native_definition": "a thing or action related to snowstorm",
-      "core_concept": "a clear scene connected with snowstorm – 与该词相连的清晰场景",
+      "origin": "由 snow ＋ storm 复合而成",
+      "native_definition": "a storm with heavy falling snow and strong wind",
+      "core_concept": "a storm driving heavy snow before it – 卷着大雪的风暴",
       "core_image": "强风卷着大片雪花横扫街道，能见度很低",
       "chinese": [
-        "snowstorm"
+        "暴风雪"
       ],
       "examples": [
-        "The snowstorm changed the situation.",
-        "Researchers discussed the snowstorm carefully."
+        "A snowstorm closed the mountain road.",
+        "They waited out the snowstorm indoors."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "snowstorm：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "soak",
@@ -151542,25 +151553,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soak，现代词义按整体记",
-      "native_definition": "a thing or action related to soak",
-      "core_concept": "a clear scene connected with soak – 与该词相连的清晰场景",
+      "origin": "古英语 socian（浸、泡）← 原始日耳曼语 *sukōną，为 *sūkaną（吸）的使动形",
+      "native_definition": "to leave something in liquid until it is wet through",
+      "core_concept": "letting liquid work all the way in – 让液体一直渗进去",
       "core_image": "衣服浸在水桶里，布料吸满水后变得沉重",
       "chinese": [
-        "soak"
+        "浸泡",
+        "吸透"
       ],
       "examples": [
-        "The soak changed the situation.",
-        "Researchers discussed the soak carefully."
+        "Soak the beans in cold water overnight.",
+        "Rain soaked through his coat."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soak：从核心场景引出的常用义"
+        "浸泡：放在液体里泡着",
+        "吸透：液体渗遍整个物体"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "soap",
@@ -151570,25 +151582,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soap，现代词义按整体记",
-      "native_definition": "a thing or action related to soap",
-      "core_concept": "a clear scene connected with soap – 与该词相连的清晰场景",
+      "origin": "古英语 sāpe ← 原始西日耳曼语 *saipā ← 原始日耳曼语 *saipǭ ← 原始印欧语 *seyb-（滴、渗）",
+      "native_definition": "a substance used with water for washing",
+      "core_concept": "the substance that lifts dirt with water – 与水同用能带走污垢的东西",
       "core_image": "手掌搓出白色泡沫，水流冲走表面的污渍",
       "chinese": [
-        "soap"
+        "肥皂"
       ],
       "examples": [
-        "The soap changed the situation.",
-        "Researchers discussed the soap carefully."
+        "She washed her hands with soap.",
+        "The soap left a faint scent."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "soap：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "soar",
@@ -151598,25 +151607,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 soar，现代词义按整体记",
-      "native_definition": "a thing or action related to soar",
-      "core_concept": "a clear scene connected with soar – 与该词相连的清晰场景",
+      "origin": "中古英语 soren ← 古法语 essorer（升空）← 俗拉丁语 *exaurare，由拉丁语 ex（出）＋ aura（气、微风）构成",
+      "native_definition": "to rise or fly high in the air, or to increase sharply",
+      "core_concept": "rising high on the air – 借着气流升到高处",
       "core_image": "鹰张开翅膀借上升气流，越过山坡后继续升高",
       "chinese": [
-        "soar"
+        "翱翔",
+        "猛增"
       ],
       "examples": [
-        "The soar changed the situation.",
-        "Researchers discussed the soar carefully."
+        "An eagle soared above the ridge.",
+        "Fuel prices soared that winter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "soar：从核心场景引出的常用义"
+        "翱翔：展翅在高空盘旋",
+        "猛增：数值急剧上升"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sob",
