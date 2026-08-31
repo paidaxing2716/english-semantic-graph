@@ -39,7 +39,7 @@ python scripts/audit_all.py           # summary.json 也带 usable / stubs
 | examples | 1134 | 全是 `The X changed the situation.` |
 | semantic_expansions | 1134 | 全是「从核心场景引出的常用义」 |
 | chinese | 901 | 生成器 `zh.get(w,w)` 回退成英文词本身 |
-| phonetic | 348 | 其中 288 条缺 Wiktionary 缓存 |
+| phonetic | 91 | 机器能补的已补完，剩下的见第二步 |
 | core_image | 89 | overall→plaster 段，从未派过 |
 
 清单直接取 `audit/stubs.tsv`（跑一次 `audit_all.py` 生成），或
@@ -51,17 +51,22 @@ python scripts/audit_all.py           # summary.json 也带 usable / stubs
 
 **别用生成器批量填**——这一轮的问题就是这么来的。见「这轮踩实的坑」第一条。
 
-## 第二步：补那 288 条缺缓存的音标
+## 第二步：音标已做完，剩 91 条要人工
 
-抓取函数在 `scripts/probe_etymology_coverage.py` 里（`API` + 50 词一批 + 0.2s 间隔），
-但**那个脚本只抓有 `root_ids` 的词**，占位词条是无根 germanic，直接跑它抓不到。
-需要写个薄包装复用它的抓取段，把 288 个词喂进去，再跑：
+08-31 已补抓 283 个缺失缓存（`scripts/fetch_stub_wikitext.py`）并二次写回，
+假音标 1109 → 91。**剩下的 91 条别再喂脚本**，它们是两道门有意挡下的：
 
-```bash
-python scripts/extract_phonetic_pos.py --apply
-```
+| 原因 | 条数 | 为什么不能自动写 |
+|---|---|---|
+| 同形异读 | 35 | 多个 Pronunciation 段，取首个会取错词源支 |
+| 重音歧义 | 35 | 名动异重，取错支等于把重音教反 |
+| 无 IPA | 11 | Wiktionary 该词条没给音标 |
+| 窄式记音 | 7 | 只有方言变体（`ɚ ɝ ʉ ɐ` 那类），折成英式等于伪造 |
+| 无 English 段 | 2 | `september` / `thursday`，Wiktionary 收的是首字母大写形 |
 
-抽取器的四道门已经调好（见坑三），补上缓存就能直接写回。
+清单跑 `python scripts/extract_phonetic_pos.py`（不加 `--apply`），
+看 `drafts/phonetic_pos.tsv` 的 `note` 列。重音歧义那 35 条的 note 里带
+`重音歧义(候选之一 …)`，人只需判该取哪一支。
 
 ## 第三步：collocations 的尾巴
 
@@ -263,7 +268,7 @@ Grep / Glob 都是，绕过 sandbox 也一样），与派子代理同时发生�
 覆盖 5299 考研词表的 73.1%）。**只取「词→根」这个事实，未取其 mnemonic 文本**——
 仓库虽 MIT 但内容疑似源自出版物。
 
-Wiktionary 缓存 3592 个 wikitext 在 `drafts/.etym_cache/`（gitignored，重跑不请求
-网络）。测量脚本 `scripts/probe_etymology_coverage.py`：拿库里已挂根的词当标注集，
+Wiktionary 缓存 3880 个 wikitext 在 `drafts/.etym_cache/`（gitignored，重跑不请求
+网络）。缺词补抓走 `scripts/fetch_stub_wikitext.py`。测量脚本 `scripts/probe_etymology_coverage.py`：拿库里已挂根的词当标注集，
 top1 与库一致 82.6%，有词元的词里 92.9%，判错仅 0.6%，其余是合并/拆分根造成的
 多候选歧义——**那类歧义恰恰是你自己的教学决策，机器替不了**。
