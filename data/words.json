@@ -148224,53 +148224,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shield，现代词义按整体记",
-      "native_definition": "a thing or action related to shield",
-      "core_concept": "a clear scene connected with shield – 与该词相连的清晰场景",
+      "origin": "古英语 scield ← 原始西日耳曼语 *skeldu ← 原始日耳曼语 *skelduz ← 原始印欧语 *(s)kelH-（切、劈）",
+      "native_definition": "a broad piece of armour held to block blows",
+      "core_concept": "a broad plate held up to take the blow – 举起来承接打击的一块宽板",
       "core_image": "金属圆盾挡在身前，飞来的小石子撞在盾面上",
       "chinese": [
-        "shield"
+        "盾牌",
+        "保护"
       ],
       "examples": [
-        "The shield changed the situation.",
-        "Researchers discussed the shield carefully."
+        "He raised his shield against the arrows.",
+        "Trees shield the garden from wind."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shield：从核心场景引出的常用义"
+        "盾牌：手持挡击的防具",
+        "保护：挡在前面使不受害"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shift",
       "word": "shift",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈʃɪft/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shift，现代词义按整体记",
-      "native_definition": "a thing or action related to shift",
-      "core_concept": "a clear scene connected with shift – 与该词相连的清晰场景",
+      "origin": "古英语 sċiftan（分开、安排）← 原始西日耳曼语 *skiftijan ← 原始日耳曼语 *skiftijaną",
+      "native_definition": "a change of position, or a work period",
+      "core_concept": "moving something over to another place or slot – 把东西挪到另一位置或另一段",
       "core_image": "传送带上的箱子被向旁边推开一个位置",
       "chinese": [
-        "shift"
+        "转移",
+        "班次"
       ],
       "examples": [
-        "The shift changed the situation.",
-        "Researchers discussed the shift carefully."
+        "There was a slow shift in opinion.",
+        "She works the night shift."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shift：从核心场景引出的常用义"
+        "转移：位置或重心挪动",
+        "班次：轮流上工的一段时间"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shilling",
@@ -148280,25 +148282,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shilling，现代词义按整体记",
-      "native_definition": "a thing or action related to shilling",
-      "core_concept": "a clear scene connected with shilling – 与该词相连的清晰场景",
+      "origin": "古英语 sċilling ← 原始西日耳曼语 *skilling ← 原始日耳曼语 *skillingaz",
+      "native_definition": "a former British coin worth twelve old pence",
+      "core_concept": "the old coin worth a twentieth of a pound – 旧制中值一镑二十分之一的硬币",
       "core_image": "旧钱币放在掌心，边缘刻着年代和图案",
       "chinese": [
-        "shilling"
+        "先令"
       ],
       "examples": [
-        "The shilling changed the situation.",
-        "Researchers discussed the shilling carefully."
+        "The book cost only a few shillings.",
+        "He kept an old shilling for luck."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shilling：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shine",
@@ -148308,25 +148307,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shine，现代词义按整体记",
-      "native_definition": "a thing or action related to shine",
-      "core_concept": "a clear scene connected with shine – 与该词相连的清晰场景",
+      "origin": "古英语 sċīnan ← 原始西日耳曼语 *skīnan ← 原始日耳曼语 *skīnaną",
+      "native_definition": "to give out or reflect bright light",
+      "core_concept": "giving off or throwing back light – 发出或反回光",
       "core_image": "擦亮的铜盘迎着阳光，表面反射出一片亮光",
       "chinese": [
-        "shine"
+        "发光",
+        "照耀"
       ],
       "examples": [
-        "The shine changed the situation.",
-        "Researchers discussed the shine carefully."
+        "The sun shone all afternoon.",
+        "He shined his boots before leaving."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shine：从核心场景引出的常用义"
+        "发光：自身放出光",
+        "照耀：光照到某处使之明亮"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "ship",
@@ -148336,25 +148336,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ship，现代词义按整体记",
-      "native_definition": "a thing or action related to ship",
-      "core_concept": "a clear scene connected with ship – 与该词相连的清晰场景",
+      "origin": "古英语 sċip ← 原始西日耳曼语 *skip ← 原始日耳曼语 *skipą（船、槽）",
+      "native_definition": "a large boat for carrying people or goods by sea",
+      "core_concept": "a large vessel that crosses water – 渡水而行的大型舟具",
       "core_image": "大型船只离开港口，桅杆和帆在水面渐远",
       "chinese": [
-        "ship"
+        "船",
+        "运送"
       ],
       "examples": [
-        "The ship changed the situation.",
-        "Researchers discussed the ship carefully."
+        "The ship left port at dawn.",
+        "They ship goods to twelve countries."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ship：从核心场景引出的常用义"
+        "船：航行于水上的大型舟具",
+        "运送：用船或其它方式发运"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shipment",
@@ -148364,25 +148365,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shipment，现代词义按整体记",
-      "native_definition": "a thing or action related to shipment",
-      "core_concept": "a clear scene connected with shipment – 与该词相连的清晰场景",
+      "origin": "由 ship ＋ -ment 构成",
+      "native_definition": "a load of goods sent together",
+      "core_concept": "a batch sent off as one consignment – 作为一批发出去的货",
       "core_image": "仓库工人把一批封好的箱子装上货车",
       "chinese": [
-        "shipment"
+        "货运",
+        "装运"
       ],
       "examples": [
-        "The shipment changed the situation.",
-        "Researchers discussed the shipment carefully."
+        "The shipment arrived three days late.",
+        "They packed the shipment overnight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shipment：从核心场景引出的常用义"
+        "货运：整批发出的货物",
+        "装运：把货装上并发出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shirt",
@@ -148392,53 +148394,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shirt，现代词义按整体记",
-      "native_definition": "a thing or action related to shirt",
-      "core_concept": "a clear scene connected with shirt – 与该词相连的清晰场景",
+      "origin": "古英语 sċyrte（短衣）← 原始西日耳曼语 *skurtijā ← 原始日耳曼语 *skurtaz（短）← 原始印欧语 *(s)ker-（切断）；与 skirt 同源",
+      "native_definition": "a garment for the upper body with a collar and sleeves",
+      "core_concept": "the short upper garment cut to the body – 依身裁短的上装",
       "core_image": "衣架上挂着一件有领上衣，袖子自然垂下",
       "chinese": [
-        "shirt"
+        "衬衫"
       ],
       "examples": [
-        "The shirt changed the situation.",
-        "Researchers discussed the shirt carefully."
+        "He ironed a white shirt for the interview.",
+        "Her shirt had short sleeves."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shirt：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shock",
       "word": "shock",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ʃɒk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shock，现代词义按整体记",
-      "native_definition": "a thing or action related to shock",
-      "core_concept": "a clear scene connected with shock – 与该词相连的清晰场景",
+      "origin": "中古荷兰语 schokken（推、震）或中古法语 choquer（碰撞）← 古荷兰语 *skokkan ← 原始日耳曼语 *skukkaną（摇动）",
+      "native_definition": "a sudden upsetting event, or a violent impact",
+      "core_concept": "a sudden jolt that unsettles – 猛然一撞使人或物失稳",
       "core_image": "突然的巨响使房间里的人同时后退",
       "chinese": [
-        "shock"
+        "震惊",
+        "冲击"
       ],
       "examples": [
-        "The shock changed the situation.",
-        "Researchers discussed the shock carefully."
+        "The news came as a real shock.",
+        "The blast shocked windows across town."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shock：从核心场景引出的常用义"
+        "震惊：突发之事使人心神大动",
+        "冲击：猛烈撞击或影响"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "shoe",
@@ -148448,25 +148448,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shoe，现代词义按整体记",
-      "native_definition": "a thing or action related to shoe",
-      "core_concept": "a clear scene connected with shoe – 与该词相连的清晰场景",
+      "origin": "古英语 sċōh ← 原始西日耳曼语 *skōh ← 原始日耳曼语 *skōhaz，更早词源未定",
+      "native_definition": "an outer covering for the foot",
+      "core_concept": "the firm covering worn on the foot – 穿在脚上的硬质外覆",
       "core_image": "脚穿进鞋里，鞋带在脚背上交叉系紧",
       "chinese": [
-        "shoe"
+        "鞋"
       ],
       "examples": [
-        "The shoe changed the situation.",
-        "Researchers discussed the shoe carefully."
+        "He tied his left shoe again.",
+        "These shoes pinch my toes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shoe：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shoot",
@@ -148476,53 +148473,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shoot，现代词义按整体记",
-      "native_definition": "a thing or action related to shoot",
-      "core_concept": "a clear scene connected with shoot – 与该词相连的清晰场景",
+      "origin": "古英语 scēotan ← 原始西日耳曼语 *skeutan ← 原始日耳曼语 *skeutaną ← 原始印欧语 *(s)kewd-（射、抛）",
+      "native_definition": "to fire a weapon or send something out fast",
+      "core_concept": "sending something out fast and straight – 使某物又快又直地射出去",
       "core_image": "箭从弓弦飞出，穿过靶心附近的空气",
       "chinese": [
-        "shoot"
+        "射击",
+        "发射"
       ],
       "examples": [
-        "The shoot changed the situation.",
-        "Researchers discussed the shoot carefully."
+        "He shot twice and missed both times.",
+        "Rockets shoot upward at great speed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shoot：从核心场景引出的常用义"
+        "射击：用武器发射弹丸",
+        "发射：把物体高速送出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shop",
       "word": "shop",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ʃɒp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shop，现代词义按整体记",
-      "native_definition": "a thing or action related to shop",
-      "core_concept": "a clear scene connected with shop – 与该词相连的清晰场景",
+      "origin": "古英语 sċoppa（棚、摊）← 原始日耳曼语 *skupp-（仓、棚）",
+      "native_definition": "a place where goods are sold, or to buy goods",
+      "core_concept": "a booth set up to sell from – 搭起来卖东西的摊铺",
       "core_image": "货架两侧摆满商品，顾客拿着篮子挑选",
       "chinese": [
-        "shop"
+        "商店",
+        "购物"
       ],
       "examples": [
-        "The shop changed the situation.",
-        "Researchers discussed the shop carefully."
+        "The shop opens at nine each morning.",
+        "We shop for food on Saturdays."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shop：从核心场景引出的常用义"
+        "商店：出售商品的场所",
+        "购物：去买东西这件事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shopkeeper",
@@ -148532,25 +148531,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shopkeeper，现代词义按整体记",
-      "native_definition": "a thing or action related to shopkeeper",
-      "core_concept": "a clear scene connected with shopkeeper – 与该词相连的清晰场景",
+      "origin": "由 shop ＋ keeper 复合而成",
+      "native_definition": "a person who owns or manages a small shop",
+      "core_concept": "the one who keeps the shop – 看守并经营店铺的人",
       "core_image": "柜台后的人清点货物并与顾客交接钱款",
       "chinese": [
-        "shopkeeper"
+        "店主"
       ],
       "examples": [
-        "The shopkeeper changed the situation.",
-        "Researchers discussed the shopkeeper carefully."
+        "The shopkeeper knew every regular customer.",
+        "A shopkeeper locked up at six."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shopkeeper：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shore",
@@ -148560,25 +148556,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shore，现代词义按整体记",
-      "native_definition": "a thing or action related to shore",
-      "core_concept": "a clear scene connected with shore – 与该词相连的清晰场景",
+      "origin": "中古英语 schore ← 古英语 *sċora ← 原始日耳曼语 *skurô（崖、多石的岸）",
+      "native_definition": "the land along the edge of a sea or lake",
+      "core_concept": "the land where water stops – 水止于此的那条陆边",
       "core_image": "小船靠近陆地边缘，船底擦过浅水和湿沙",
       "chinese": [
-        "shore"
+        "海岸",
+        "岸边"
       ],
       "examples": [
-        "The shore changed the situation.",
-        "Researchers discussed the shore carefully."
+        "They walked along the rocky shore.",
+        "The boat reached shore before dark."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shore：从核心场景引出的常用义"
+        "海岸：海与陆相接的一带",
+        "岸边：水体边缘的陆地"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "short",
@@ -148588,25 +148585,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 short，现代词义按整体记",
-      "native_definition": "a thing or action related to short",
-      "core_concept": "a clear scene connected with short – 与该词相连的清晰场景",
+      "origin": "古英语 sċeort ← 原始西日耳曼语 *skurt ← 原始日耳曼语 *skurtaz ← 原始印欧语 *(s)ker-（切）；与 shirt、skirt 同源",
+      "native_definition": "measuring little from end to end, or lasting little time",
+      "core_concept": "cut off before reaching far – 还没伸远就被截住",
       "core_image": "两根木棍并排，一根明显没有伸到另一根那么远",
       "chinese": [
-        "short"
+        "短的",
+        "矮的"
       ],
       "examples": [
-        "The short changed the situation.",
-        "Researchers discussed the short carefully."
+        "He gave a short answer.",
+        "The film is quite short."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "short：从核心场景引出的常用义"
+        "短的：长度或时段小",
+        "矮的：高度不大"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shortage",
@@ -148616,25 +148614,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shortage，现代词义按整体记",
-      "native_definition": "a thing or action related to shortage",
-      "core_concept": "a clear scene connected with shortage – 与该词相连的清晰场景",
+      "origin": "由 short ＋ -age 构成",
+      "native_definition": "a situation in which there is not enough of something",
+      "core_concept": "the state of falling short of what is needed – 距所需还差一截的状态",
       "core_image": "空货架前仍有人排队，剩余物品远远不够分配",
       "chinese": [
-        "shortage"
+        "短缺",
+        "不足"
       ],
       "examples": [
-        "The shortage changed the situation.",
-        "Researchers discussed the shortage carefully."
+        "A water shortage hit the region.",
+        "There is no shortage of ideas."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shortage：从核心场景引出的常用义"
+        "短缺：供应少于需要",
+        "不足：数量或程度未达要求"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shortcoming",
@@ -148644,25 +148643,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shortcoming，现代词义按整体记",
-      "native_definition": "a thing or action related to shortcoming",
-      "core_concept": "a clear scene connected with shortcoming – 与该词相连的清晰场景",
+      "origin": "由 short ＋ coming 复合而成",
+      "native_definition": "a fault that makes something less than adequate",
+      "core_concept": "where something comes up short – 某处没够上标准",
       "core_image": "检查表上有一项被圈出，其他部分合格却仍需改进",
       "chinese": [
-        "shortcoming"
+        "缺点",
+        "短处"
       ],
       "examples": [
-        "The shortcoming changed the situation.",
-        "Researchers discussed the shortcoming carefully."
+        "The plan has one serious shortcoming.",
+        "He admitted his own shortcomings."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shortcoming：从核心场景引出的常用义"
+        "缺点：不足之处",
+        "短处：相对薄弱的方面"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shorthand",
@@ -148672,53 +148672,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shorthand，现代词义按整体记",
-      "native_definition": "a thing or action related to shorthand",
-      "core_concept": "a clear scene connected with shorthand – 与该词相连的清晰场景",
+      "origin": "由 short ＋ hand（书写笔迹）复合而成",
+      "native_definition": "a quick way of writing using symbols",
+      "core_concept": "a shortened hand for writing fast – 为快写而缩省的笔法",
       "core_image": "长句被压缩成几笔符号，记录者快速写完",
       "chinese": [
-        "shorthand"
+        "速记"
       ],
       "examples": [
-        "The shorthand changed the situation.",
-        "Researchers discussed the shorthand carefully."
+        "She took the minutes in shorthand.",
+        "Shorthand saved reporters much time."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shorthand：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shortly",
       "word": "shortly",
       "pos": "adverb",
-      "phonetic": "/ˈʃɔrtli/",
+      "phonetic": "/ˈʃɔːtli/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shortly，现代词义按整体记",
-      "native_definition": "a thing or action related to shortly",
-      "core_concept": "a clear scene connected with shortly – 与该词相连的清晰场景",
+      "origin": "古英语 sċortlīċe，由 short ＋ -ly 构成",
+      "native_definition": "in a short time from now",
+      "core_concept": "after only a short interval – 只隔很短一段之后",
       "core_image": "会议刚结束不久，工作人员已经离开房间",
       "chinese": [
-        "shortly"
+        "很快",
+        "随即"
       ],
       "examples": [
-        "The shortly changed the situation.",
-        "Researchers discussed the shortly carefully."
+        "The train will arrive shortly.",
+        "She left shortly after the call."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shortly：从核心场景引出的常用义"
+        "很快：不需多久就会发生",
+        "随即：紧跟着就"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shot",
@@ -148728,25 +148726,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shot，现代词义按整体记",
-      "native_definition": "a thing or action related to shot",
-      "core_concept": "a clear scene connected with shot – 与该词相连的清晰场景",
+      "origin": "古英语 sċeot ← 原始日耳曼语 *skutą，与 shoot 同支",
+      "native_definition": "the firing of a gun, or an attempt",
+      "core_concept": "one discharge sent out – 射出去的那一发",
       "core_image": "靶纸中央留下一个清晰圆孔，旁边散着弹壳",
       "chinese": [
-        "shot"
+        "射击",
+        "一枪"
       ],
       "examples": [
-        "The shot changed the situation.",
-        "Researchers discussed the shot carefully."
+        "A single shot broke the silence.",
+        "He had one shot at the title."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shot：从核心场景引出的常用义"
+        "射击：开枪这个动作",
+        "一枪：单次发射或单次尝试"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shoulder",
@@ -148756,137 +148755,142 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shoulder，现代词义按整体记",
-      "native_definition": "a thing or action related to shoulder",
-      "core_concept": "a clear scene connected with shoulder – 与该词相连的清晰场景",
+      "origin": "古英语 sċuldor ← 原始西日耳曼语 *skuldru，更早词源未定",
+      "native_definition": "the joint where the arm meets the body",
+      "core_concept": "where the arm joins the trunk – 手臂与躯干相接之处",
       "core_image": "背包带跨过肩膀，重量从上臂传到身体",
       "chinese": [
-        "shoulder"
+        "肩",
+        "肩部"
       ],
       "examples": [
-        "The shoulder changed the situation.",
-        "Researchers discussed the shoulder carefully."
+        "She tapped him on the shoulder.",
+        "He carried the sack on one shoulder."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shoulder：从核心场景引出的常用义"
+        "肩：上臂与躯干连接的部位",
+        "肩部：该部位所在的一带"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shout",
       "word": "shout",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/ʃaʊt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shout，现代词义按整体记",
-      "native_definition": "a thing or action related to shout",
-      "core_concept": "a clear scene connected with shout – 与该词相连的清晰场景",
+      "origin": "中古英语 shouten，更早词源不明；或与 shoot 有关，或出古诺尔斯语 skúta（讥斥）",
+      "native_definition": "to say something very loudly",
+      "core_concept": "sending the voice out with force – 用力把声音送出去",
       "core_image": "山谷里一声喊叫传开，远处的人回头回应",
       "chinese": [
-        "shout"
+        "呼喊",
+        "大叫"
       ],
       "examples": [
-        "The shout changed the situation.",
-        "Researchers discussed the shout carefully."
+        "He shouted across the crowded room.",
+        "A shout came from the yard."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shout：从核心场景引出的常用义"
+        "呼喊：放开嗓子叫",
+        "大叫：高声叫出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shove",
       "word": "shove",
       "pos": "verb",
-      "phonetic": "/ˈshove/",
+      "phonetic": "/ʃʌv/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shove，现代词义按整体记",
-      "native_definition": "a thing or action related to shove",
-      "core_concept": "a clear scene connected with shove – 与该词相连的清晰场景",
+      "origin": "古英语 sċūfan ← 原始西日耳曼语 *skeuban ← 原始日耳曼语 *skeubaną",
+      "native_definition": "to push someone or something roughly",
+      "core_concept": "pushing with sudden force – 突然使力往前顶",
       "core_image": "人群中有人用手掌猛推箱子，使它沿地面滑开",
       "chinese": [
-        "shove"
+        "推搡",
+        "挤"
       ],
       "examples": [
-        "The shove changed the situation.",
-        "Researchers discussed the shove carefully."
+        "He shoved the door with his shoulder.",
+        "Someone shoved me from behind."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shove：从核心场景引出的常用义"
+        "推搡：粗暴地推来推去",
+        "挤：用身体挤开"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "show",
       "word": "show",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/ʃəʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 show，现代词义按整体记",
-      "native_definition": "a thing or action related to show",
-      "core_concept": "a clear scene connected with show – 与该词相连的清晰场景",
+      "origin": "古英语 scēawian（看、展示）← 原始西日耳曼语 *skauwōn ← 原始日耳曼语 *skawwōną（看）",
+      "native_definition": "to let something be seen, or a public performance",
+      "core_concept": "putting something where it can be seen – 把东西放到可被看见的位置",
       "core_image": "幕布向两侧拉开，舞台上的物品呈现在观众面前",
       "chinese": [
-        "show"
+        "展示",
+        "演出"
       ],
       "examples": [
-        "The show changed the situation.",
-        "Researchers discussed the show carefully."
+        "She showed us the old photographs.",
+        "The show runs until December."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "show：从核心场景引出的常用义"
+        "展示：使人看到",
+        "演出：面向观众的表演"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shower",
       "word": "shower",
       "pos": "noun",
-      "phonetic": "/ˈshower/",
+      "phonetic": "/ˈʃaʊə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shower，现代词义按整体记",
-      "native_definition": "a thing or action related to shower",
-      "core_concept": "a clear scene connected with shower – 与该词相连的清晰场景",
+      "origin": "古英语 sċūr ← 原始西日耳曼语 *skūru ← 原始日耳曼语 *skūrō（骤雨）",
+      "native_definition": "a short fall of rain, or a wash under falling water",
+      "core_concept": "water coming down in a brief burst – 短时间落下的一阵水",
       "core_image": "水流从喷头落下，人在下面冲洗身上的泡沫",
       "chinese": [
-        "shower"
+        "淋浴",
+        "阵雨"
       ],
       "examples": [
-        "The shower changed the situation.",
-        "Researchers discussed the shower carefully."
+        "A shower passed over the valley.",
+        "He takes a shower before work."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shower：从核心场景引出的常用义"
+        "淋浴：站在落水下冲洗",
+        "阵雨：下一阵就停的雨"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shrewd",
@@ -148896,25 +148900,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shrewd，现代词义按整体记",
-      "native_definition": "a thing or action related to shrewd",
-      "core_concept": "a clear scene connected with shrewd – 与该词相连的清晰场景",
+      "origin": "中古英语 schrewed（邪恶的），出 schrewe（恶人）← 古英语 sċrēawa；16 世纪起转为「机敏」义，17 世纪渐成褒义",
+      "native_definition": "able to judge people and situations quickly and well",
+      "core_concept": "quick to see through to what matters – 一眼看穿要害",
       "core_image": "谈判桌边的人迅速看出对方的真正意图",
       "chinese": [
-        "shrewd"
+        "精明的",
+        "老练的"
       ],
       "examples": [
-        "The shrewd changed the situation.",
-        "Researchers discussed the shrewd carefully."
+        "She made a shrewd guess about it.",
+        "He is a shrewd negotiator."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shrewd：从核心场景引出的常用义"
+        "精明的：判断快而准",
+        "老练的：因历练而不易被蒙"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shrink",
@@ -148924,53 +148929,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shrink，现代词义按整体记",
-      "native_definition": "a thing or action related to shrink",
-      "core_concept": "a clear scene connected with shrink – 与该词相连的清晰场景",
+      "origin": "古英语 sċrincan ← 原始日耳曼语 *skrinkwaną",
+      "native_definition": "to become smaller in size or amount",
+      "core_concept": "drawing in so as to take less room – 往里收使占的地方变少",
       "core_image": "湿毛衣晒干后尺寸变小，袖口缩到手腕上方",
       "chinese": [
-        "shrink"
+        "收缩",
+        "缩小"
       ],
       "examples": [
-        "The shrink changed the situation.",
-        "Researchers discussed the shrink carefully."
+        "Wool shrinks in very hot water.",
+        "The market shrank by a fifth."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shrink：从核心场景引出的常用义"
+        "收缩：体积或长度变小",
+        "缩小：数量或规模减少"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shrug",
       "word": "shrug",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/ˈʃrʌɡ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shrug，现代词义按整体记",
-      "native_definition": "a thing or action related to shrug",
-      "core_concept": "a clear scene connected with shrug – 与该词相连的清晰场景",
+      "origin": "中古英语 schruggen，或出北日耳曼语支，与丹麦语 skrugge（弯身）同类",
+      "native_definition": "to raise the shoulders to show doubt or indifference",
+      "core_concept": "lifting the shoulders instead of answering – 抬肩代替作答",
       "core_image": "被问到的人抬起双肩，随后又无奈放下",
       "chinese": [
-        "shrug"
+        "耸肩"
       ],
       "examples": [
-        "The shrug changed the situation.",
-        "Researchers discussed the shrug carefully."
+        "She shrugged and walked away.",
+        "He gave a small shrug."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shrug：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shut",
@@ -148980,25 +148983,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shut，现代词义按整体记",
-      "native_definition": "a thing or action related to shut",
-      "core_concept": "a clear scene connected with shut – 与该词相连的清晰场景",
+      "origin": "古英语 sċyttan（拉上门闩）← 原始西日耳曼语 *skuttjan ← 原始日耳曼语 *skutjaną",
+      "native_definition": "to move something into a closed position",
+      "core_concept": "bringing a bolt or leaf across an opening – 把闩或扇挪过来堵住口",
       "core_image": "门被推到门框里，门缝完全消失",
       "chinese": [
-        "shut"
+        "关闭",
+        "合上"
       ],
       "examples": [
-        "The shut changed the situation.",
-        "Researchers discussed the shut carefully."
+        "Please shut the gate behind you.",
+        "The shop shuts at seven."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shut：从核心场景引出的常用义"
+        "关闭：使不再开着",
+        "合上：把两面并到一起"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shutter",
@@ -149008,25 +149012,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shutter，现代词义按整体记",
-      "native_definition": "a thing or action related to shutter",
-      "core_concept": "a clear scene connected with shutter – 与该词相连的清晰场景",
+      "origin": "由 shut ＋ -er 构成",
+      "native_definition": "a hinged cover for a window, or the part of a camera that opens",
+      "core_concept": "the cover that shuts an opening – 把开口关上的那块盖",
       "core_image": "窗上的木板合拢，把室内外的光线隔开",
       "chinese": [
-        "shutter"
+        "百叶窗",
+        "快门"
       ],
       "examples": [
-        "The shutter changed the situation.",
-        "Researchers discussed the shutter carefully."
+        "They closed the shutters before the storm.",
+        "The camera shutter clicked just once."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shutter：从核心场景引出的常用义"
+        "百叶窗：窗外可开合的板",
+        "快门：相机上控制曝光的开合件"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shuttle",
@@ -149036,25 +149041,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shuttle，现代词义按整体记",
-      "native_definition": "a thing or action related to shuttle",
-      "core_concept": "a clear scene connected with shuttle – 与该词相连的清晰场景",
+      "origin": "古英语 sċytel（梭、箭）与 sċyttel（门闩）两支合流 ← 原始日耳曼语 *skutilaz；1338 年起指织机上的梭，取其在经线间「被射过去」之意",
+      "native_definition": "a vehicle running back and forth over a short route",
+      "core_concept": "something shot back and forth along a fixed path – 沿固定路线来回被送过去的东西",
       "core_image": "小巴在机场和航站楼之间来回行驶，乘客从一端上下车",
       "chinese": [
-        "shuttle"
+        "穿梭班车",
+        "梭子"
       ],
       "examples": [
-        "The shuttle changed the situation.",
-        "Researchers discussed the shuttle carefully."
+        "A shuttle runs between the two terminals.",
+        "The weaver threw the shuttle across."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shuttle：从核心场景引出的常用义"
+        "穿梭班车：两点间往复的车",
+        "梭子：织机上牵纬线来回穿的器件"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shy",
