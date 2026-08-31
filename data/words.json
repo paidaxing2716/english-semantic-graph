@@ -144800,25 +144800,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rubber，现代词义按整体记",
-      "native_definition": "a thing or action related to rubber",
-      "core_concept": "a clear scene connected with rubber – 与该词相连的清晰场景",
+      "origin": "由 rub（擦）＋ -er 构成；「橡胶」一义源自它能当擦子用，取代了早先的 caoutchouc",
+      "native_definition": "an elastic material that stretches and springs back",
+      "core_concept": "the stuff that rubs marks away and springs back – 能擦掉痕迹又弹回原形的材料",
       "core_image": "黑色材料被拉长又弹回，手指松开后恢复原形",
       "chinese": [
-        "rubber"
+        "橡胶",
+        "橡皮"
       ],
       "examples": [
-        "The rubber changed the situation.",
-        "Researchers discussed the rubber carefully."
+        "The tyres are made of hard rubber.",
+        "She erased the line with a rubber."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rubber：从核心场景引出的常用义"
+        "橡胶：有弹性的工业材料",
+        "橡皮：用来擦掉铅笔痕的小块"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "rubbish",
@@ -144828,25 +144829,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rubbish，现代词义按整体记",
-      "native_definition": "a thing or action related to rubbish",
-      "core_concept": "a clear scene connected with rubbish – 与该词相连的清晰场景",
+      "origin": "中古英语 robous（废料、碎砖），更早词源不明；或与盎格鲁诺曼语 rubous 有关",
+      "native_definition": "waste material to be thrown away, or nonsense",
+      "core_concept": "what is thrown out as worthless – 当作无用而丢出去的东西",
       "core_image": "清洁车旁堆着破纸箱和空瓶，工作人员把它们装入车厢",
       "chinese": [
-        "rubbish"
+        "垃圾",
+        "废话"
       ],
       "examples": [
-        "The rubbish changed the situation.",
-        "Researchers discussed the rubbish carefully."
+        "They put the rubbish out on Tuesday.",
+        "He dismissed the claim as rubbish."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rubbish：从核心场景引出的常用义"
+        "垃圾：丢弃的废弃物",
+        "废话：毫无价值的言论"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "rumor",
@@ -144856,81 +144858,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rumor，现代词义按整体记",
-      "native_definition": "a thing or action related to rumor",
-      "core_concept": "a clear scene connected with rumor – 与该词相连的清晰场景",
+      "origin": "中古英语 rumour ← 古法语 rumeur ← 拉丁语 rūmor（众口相传）",
+      "native_definition": "a story passed between people without proof",
+      "core_concept": "common talk passed from mouth to mouth – 众口相传而未经证实的话",
       "core_image": "走廊里几个人压低声音交谈，消息从一双耳朵传到另一双",
       "chinese": [
-        "rumor"
+        "谣言",
+        "传闻"
       ],
       "examples": [
-        "The rumor changed the situation.",
-        "Researchers discussed the rumor carefully."
+        "A rumor spread through the office quickly.",
+        "Do not repeat that rumor."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rumor：从核心场景引出的常用义"
+        "谣言：无根据且多为不实的传言",
+        "传闻：辗转听来的说法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sacred",
       "word": "sacred",
       "pos": "adjective",
-      "phonetic": "/ˈsacred/",
+      "phonetic": "/ˈseɪkrɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sacred，现代词义按整体记",
-      "native_definition": "a thing or action related to sacred",
-      "core_concept": "a clear scene connected with sacred – 与该词相连的清晰场景",
+      "origin": "中古英语 sacred，为 sacren（使成圣）的过去分词；sacre ← 古法语 sacrer ← 拉丁语 sacrāre（奉为神圣）",
+      "native_definition": "connected with a god and treated with great respect",
+      "core_concept": "set apart and given over to a god – 分出来奉给神的",
       "core_image": "石殿中央的器物被单独遮挡，参观者只能在边线外观看",
       "chinese": [
-        "sacred"
+        "神圣的",
+        "宗教的"
       ],
       "examples": [
-        "The sacred changed the situation.",
-        "Researchers discussed the sacred carefully."
+        "This grove is sacred to the villagers.",
+        "They sang sacred music that evening."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sacred：从核心场景引出的常用义"
+        "神圣的：不可侵犯、须敬重的",
+        "宗教的：与教门仪典有关的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sacrifice",
       "word": "sacrifice",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈsæk.rɪ.faɪs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sacrifice，现代词义按整体记",
-      "native_definition": "a thing or action related to sacrifice",
-      "core_concept": "a clear scene connected with sacrifice – 与该词相连的清晰场景",
+      "origin": "中古英语 sacrifice ← 古法语 sacrifice ← 拉丁语 sacrificium，由 sacrum（圣物）＋ facere（做）构成",
+      "native_definition": "something given up for a purpose, or to give it up",
+      "core_concept": "making something over to a higher end – 把东西交出去成就更高的目的",
       "core_image": "祭坛前的人把最珍贵的一件物品放下，转身离开",
       "chinese": [
-        "sacrifice"
+        "牺牲",
+        "祭品"
       ],
       "examples": [
-        "The sacrifice changed the situation.",
-        "Researchers discussed the sacrifice carefully."
+        "She made real sacrifices for her family.",
+        "They sacrificed a lamb at dawn."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sacrifice：从核心场景引出的常用义"
+        "牺牲：为某目的而舍弃所重视的",
+        "祭品：献给神的那件东西"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "saddle",
@@ -144940,53 +144945,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 saddle，现代词义按整体记",
-      "native_definition": "a thing or action related to saddle",
-      "core_concept": "a clear scene connected with saddle – 与该词相连的清晰场景",
+      "origin": "古英语 sadol ← 原始西日耳曼语 *sadul ← 原始日耳曼语 *sadulaz，更早或与 *sed-（坐）有关",
+      "native_definition": "a seat fastened on the back of a horse or bicycle",
+      "core_concept": "a seat strapped on for riding – 绑上去供人骑坐的座具",
       "core_image": "马背上固定着皮制坐垫，骑手握住缰绳跨上去",
       "chinese": [
-        "saddle"
+        "马鞍"
       ],
       "examples": [
-        "The saddle changed the situation.",
-        "Researchers discussed the saddle carefully."
+        "He tightened the saddle before mounting.",
+        "The saddle needs new leather."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "saddle：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sail",
       "word": "sail",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/seɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sail，现代词义按整体记",
-      "native_definition": "a thing or action related to sail",
-      "core_concept": "a clear scene connected with sail – 与该词相连的清晰场景",
+      "origin": "古英语 seġl ← 原始西日耳曼语 *segl ← 原始日耳曼语 *seglą",
+      "native_definition": "a large sheet of cloth that catches wind to move a boat",
+      "core_concept": "cloth spread to catch the wind – 张开来受风的布",
       "core_image": "白帆在海面鼓起，船身顺着风向远离岸边",
       "chinese": [
-        "sail"
+        "帆",
+        "航行"
       ],
       "examples": [
-        "The sail changed the situation.",
-        "Researchers discussed the sail carefully."
+        "The wind filled the white sail.",
+        "They sailed south for three days."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sail：从核心场景引出的常用义"
+        "帆：船上受风的布篷",
+        "航行：靠船在水上行进"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sailor",
@@ -144996,53 +144999,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sailor，现代词义按整体记",
-      "native_definition": "a thing or action related to sailor",
-      "core_concept": "a clear scene connected with sailor – 与该词相连的清晰场景",
+      "origin": "早期 sailer 的变体 ← 中古英语 sailer，由 sail ＋ -or 构成",
+      "native_definition": "a person who works on a ship",
+      "core_concept": "one whose work is sailing – 以行船为业的人",
       "core_image": "水手在甲板上收紧绳索，远处海浪连续拍打船舷",
       "chinese": [
-        "sailor"
+        "海员",
+        "船员"
       ],
       "examples": [
-        "The sailor changed the situation.",
-        "Researchers discussed the sailor carefully."
+        "The sailor coiled the heavy rope.",
+        "Two sailors stayed aboard overnight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sailor：从核心场景引出的常用义"
+        "海员：在海船上工作的人",
+        "船员：船上任职的成员"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "saint",
       "word": "saint",
       "pos": "noun",
-      "phonetic": "/sən(t)/",
+      "phonetic": "/seɪnt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 saint，现代词义按整体记",
-      "native_definition": "a thing or action related to saint",
-      "core_concept": "a clear scene connected with saint – 与该词相连的清晰场景",
+      "origin": "中古英语 saint ← 古法语 saint（并与古英语 sanct 合流）← 拉丁语 sānctus（受奉为圣的），为 sancīre（使神圣）的过去分词",
+      "native_definition": "a person recognized by a church as very holy",
+      "core_concept": "one set apart as holy – 被分出来称为圣的人",
       "core_image": "彩色玻璃投下光斑，墙边画像前放着一束鲜花",
       "chinese": [
-        "saint"
+        "圣人",
+        "圣徒"
       ],
       "examples": [
-        "The saint changed the situation.",
-        "Researchers discussed the saint carefully."
+        "The church is named after a saint.",
+        "Pilgrims prayed before the saint image."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "saint：从核心场景引出的常用义"
+        "圣人：德行极高受尊崇的人",
+        "圣徒：教会正式册封的圣者"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sake",
@@ -145052,53 +145057,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sake，现代词义按整体记",
-      "native_definition": "a thing or action related to sake",
-      "core_concept": "a clear scene connected with sake – 与该词相连的清晰场景",
+      "origin": "古英语 sacu（讼争、事由）← 原始西日耳曼语 *saku ← 原始日耳曼语 *sakō（事端、指控）",
+      "native_definition": "the purpose or benefit for which something is done",
+      "core_concept": "the cause on whose account one acts – 据以行事的那个由头",
       "core_image": "礼物被放在桌上，主人说明自己这样做的缘由",
       "chinese": [
-        "sake"
+        "缘故",
+        "利益"
       ],
       "examples": [
-        "The sake changed the situation.",
-        "Researchers discussed the sake carefully."
+        "He agreed for the sake of peace.",
+        "Do it for your own sake."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sake：从核心场景引出的常用义"
+        "缘故：做某事所据的理由",
+        "利益：所要顾及的好处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "salad",
       "word": "salad",
       "pos": "noun",
-      "phonetic": "/ˈsalad/",
+      "phonetic": "/ˈsæləd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 salad，现代词义按整体记",
-      "native_definition": "a thing or action related to salad",
-      "core_concept": "a clear scene connected with salad – 与该词相连的清晰场景",
+      "origin": "中古英语 salade ← 古法语 salade ← 北意大利语 salada ← 俗拉丁语 *salāta，源自拉丁语 sal（盐）；罗马时代的菜蔬以盐水或油醋调味",
+      "native_definition": "a cold dish of raw vegetables mixed together",
+      "core_concept": "greens dressed with salt and oil – 用盐与油醋拌过的生菜",
       "core_image": "木碗里混着叶片、番茄和薄片，叉子搅动不同颜色",
       "chinese": [
-        "salad"
+        "色拉",
+        "凉拌菜"
       ],
       "examples": [
-        "The salad changed the situation.",
-        "Researchers discussed the salad carefully."
+        "She made a salad with fresh leaves.",
+        "The salad came with warm bread."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "salad：从核心场景引出的常用义"
+        "色拉：生菜拌调味汁的冷盘",
+        "凉拌菜：不加热拌成的菜"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "salary",
@@ -145108,25 +145115,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 salary，现代词义按整体记",
-      "native_definition": "a thing or action related to salary",
-      "core_concept": "a clear scene connected with salary – 与该词相连的清晰场景",
+      "origin": "中古英语 salarie ← 古法语 salaire ← 拉丁语 salārium（工钱），为形容词 salārius（与盐有关的）的中性形，源自 sal（盐）",
+      "native_definition": "a fixed amount of money paid regularly for work",
+      "core_concept": "the regular payment once reckoned in salt – 定期支付的报酬，早先与盐相关",
       "core_image": "月底账单旁放着一张固定金额的转账通知",
       "chinese": [
-        "salary"
+        "薪水",
+        "工资"
       ],
       "examples": [
-        "The salary changed the situation.",
-        "Researchers discussed the salary carefully."
+        "Her salary rose by five percent.",
+        "They pay the salary on the last day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "salary：从核心场景引出的常用义"
+        "薪水：按月领取的固定报酬",
+        "工资：为劳动所得的报酬"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sale",
@@ -145136,53 +145144,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sale，现代词义按整体记",
-      "native_definition": "a thing or action related to sale",
-      "core_concept": "a clear scene connected with sale – 与该词相连的清晰场景",
+      "origin": "古英语 sala（卖出）← 古诺尔斯语 sala ← 原始日耳曼语 *salō（交付）",
+      "native_definition": "the act of selling something, or a period of reduced prices",
+      "core_concept": "handing goods over for money – 把货交出去换钱",
       "core_image": "商店橱窗贴出醒目标记，顾客在货架间挑选物品",
       "chinese": [
-        "sale"
+        "出售",
+        "减价"
       ],
       "examples": [
-        "The sale changed the situation.",
-        "Researchers discussed the sale carefully."
+        "The sale of the house took months.",
+        "Winter coats are on sale now."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sale：从核心场景引出的常用义"
+        "出售：把东西卖出去",
+        "减价：降价促销的时段"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "salesman",
       "word": "salesman",
       "pos": "noun",
-      "phonetic": "/ˈsalesman/",
+      "phonetic": "/ˈseɪlzmən/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 salesman，现代词义按整体记",
-      "native_definition": "a thing or action related to salesman",
-      "core_concept": "a clear scene connected with salesman – 与该词相连的清晰场景",
+      "origin": "由 sales ＋ man 构成",
+      "native_definition": "a man whose job is selling goods",
+      "core_concept": "the man who does the selling – 专管卖货的人",
       "core_image": "店员拿着样品走向顾客，逐项介绍商品的特点",
       "chinese": [
-        "salesman"
+        "售货员",
+        "推销员"
       ],
       "examples": [
-        "The salesman changed the situation.",
-        "Researchers discussed the salesman carefully."
+        "The salesman explained each model carefully.",
+        "A salesman called about insurance."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "salesman：从核心场景引出的常用义"
+        "售货员：在店里卖货的人",
+        "推销员：上门或外出促销的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "salt",
@@ -145192,25 +145202,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 salt，现代词义按整体记",
-      "native_definition": "a thing or action related to salt",
-      "core_concept": "a clear scene connected with salt – 与该词相连的清晰场景",
+      "origin": "古英语 sealt ← 原始西日耳曼语 *salt ← 原始日耳曼语 *saltą ← 原始印欧语 *sḗh₂l",
+      "native_definition": "a white substance used to season and preserve food",
+      "core_concept": "the white grain that seasons and keeps food – 用来调味并保存食物的白色颗粒",
       "core_image": "白色晶粒从小罐撒入汤锅，蒸汽带起熟悉的香味",
       "chinese": [
-        "salt"
+        "盐"
       ],
       "examples": [
-        "The salt changed the situation.",
-        "Researchers discussed the salt carefully."
+        "Add a little salt to the water.",
+        "Salt was once traded like money."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "salt：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "same",
@@ -145220,25 +145227,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 same，现代词义按整体记",
-      "native_definition": "a thing or action related to same",
-      "core_concept": "a clear scene connected with same – 与该词相连的清晰场景",
+      "origin": "中古英语 same ← 古诺尔斯语 samr 与古英语 same，同出原始日耳曼语 *samaz",
+      "native_definition": "not different from another thing or person",
+      "core_concept": "not differing from the other – 与另一个没有分别",
       "core_image": "两只杯子并排摆着，形状和刻纹完全相同",
       "chinese": [
-        "same"
+        "相同的",
+        "同一的"
       ],
       "examples": [
-        "The same changed the situation.",
-        "Researchers discussed the same carefully."
+        "They arrived on the same train.",
+        "Both cups have the same shape."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "same：从核心场景引出的常用义"
+        "相同的：彼此之间没有差别",
+        "同一的：指的就是那一个"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sample",
@@ -145248,53 +145256,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sample，现代词义按整体记",
-      "native_definition": "a thing or action related to sample",
-      "core_concept": "a clear scene connected with sample – 与该词相连的清晰场景",
+      "origin": "中古英语 saumple ← 古法语 essample（例子）← 拉丁语 exemplum",
+      "native_definition": "a small part taken to show what the whole is like",
+      "core_concept": "a small part standing for the whole – 取一小份代表整体",
       "core_image": "大箱货物中抽出一件放到检验台，贴上编号",
       "chinese": [
-        "sample"
+        "样品",
+        "抽样"
       ],
       "examples": [
-        "The sample changed the situation.",
-        "Researchers discussed the sample carefully."
+        "They tested a sample from each batch.",
+        "The survey sampled two hundred households."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sample：从核心场景引出的常用义"
+        "样品：取出供检验或展示的一件",
+        "抽样：从整体中抽取部分来考察"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sanction",
       "word": "sanction",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈsæŋkʃən/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sanction，现代词义按整体记",
-      "native_definition": "a thing or action related to sanction",
-      "core_concept": "a clear scene connected with sanction – 与该词相连的清晰场景",
+      "origin": "中古法语 sanction ← 拉丁语 sānctiō（确立、制裁），源自 sancīre（使有效）",
+      "native_definition": "official permission, or a penalty imposed on a country",
+      "core_concept": "making something binding, whether by allowing or punishing – 使某事具有约束力，或准或罚",
       "core_image": "文件盖上正式印章，工作人员据此批准或限制一项行动",
       "chinese": [
-        "sanction"
+        "认可",
+        "制裁"
       ],
       "examples": [
-        "The sanction changed the situation.",
-        "Researchers discussed the sanction carefully."
+        "The plan needs official sanction first.",
+        "Trade sanctions hurt both sides."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sanction：从核心场景引出的常用义"
+        "认可：正式许可使其有效",
+        "制裁：施加惩罚性措施"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sand",
@@ -145304,25 +145314,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sand，现代词义按整体记",
-      "native_definition": "a thing or action related to sand",
-      "core_concept": "a clear scene connected with sand – 与该词相连的清晰场景",
+      "origin": "古英语 sand ← 原始西日耳曼语 *samd ← 原始日耳曼语 *samdaz",
+      "native_definition": "tiny loose grains of worn rock found on beaches",
+      "core_concept": "rock worn down into loose grains – 岩石磨成的松散颗粒",
       "core_image": "细小颗粒从指缝不断落下，鞋边积成一小片浅色地面",
       "chinese": [
-        "sand"
+        "沙子"
       ],
       "examples": [
-        "The sand changed the situation.",
-        "Researchers discussed the sand carefully."
+        "Sand filled his shoes at the beach.",
+        "Waves smoothed the wet sand."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sand：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sandwich",
@@ -145332,25 +145339,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sandwich，现代词义按整体记",
-      "native_definition": "a thing or action related to sandwich",
-      "core_concept": "a clear scene connected with sandwich – 与该词相连的清晰场景",
+      "origin": "取自据传的发明者 Sandwich 伯爵之名",
+      "native_definition": "two slices of bread with a filling between them",
+      "core_concept": "a filling held between two slices – 夹在两片之间的一份吃食",
       "core_image": "两片面包夹住中间馅料，刀从中央切开",
       "chinese": [
-        "sandwich"
+        "三明治"
       ],
       "examples": [
-        "The sandwich changed the situation.",
-        "Researchers discussed the sandwich carefully."
+        "He packed a sandwich for the trip.",
+        "She cut the sandwich in half."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sandwich：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sane",
@@ -145360,25 +145364,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sane，现代词义按整体记",
-      "native_definition": "a thing or action related to sane",
-      "core_concept": "a clear scene connected with sane – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 sānus（健全的）",
+      "native_definition": "having a healthy mind, or showing good judgment",
+      "core_concept": "sound in mind – 心智健全的",
       "core_image": "医生和来访者平静交谈，桌上的计划写得清清楚楚",
       "chinese": [
-        "sane"
+        "神志正常的",
+        "明智的"
       ],
       "examples": [
-        "The sane changed the situation.",
-        "Researchers discussed the sane carefully."
+        "The doctor found him entirely sane.",
+        "That was the only sane choice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sane：从核心场景引出的常用义"
+        "神志正常的：精神健全没有失常",
+        "明智的：判断稳妥合理"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sarcastic",
@@ -145388,25 +145393,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sarcastic，现代词义按整体记",
-      "native_definition": "a thing or action related to sarcastic",
-      "core_concept": "a clear scene connected with sarcastic – 与该词相连的清晰场景",
+      "origin": "由 sarcasm ＋ -astic 构成，或借自法语 sarcastique ← 晚期拉丁语 sarcasmus ← 希腊语 sarkasmos，源自 sarx（肉）",
+      "native_definition": "saying the opposite of what is meant in order to mock",
+      "core_concept": "words that tear at someone under a smile – 笑着说出的、割人的话",
       "core_image": "说话者微笑着拍手，听者的表情却逐渐僵住",
       "chinese": [
-        "sarcastic"
+        "讽刺的",
+        "尖刻的"
       ],
       "examples": [
-        "The sarcastic changed the situation.",
-        "Researchers discussed the sarcastic carefully."
+        "His sarcastic reply annoyed everyone.",
+        "She made a sarcastic remark about it."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sarcastic：从核心场景引出的常用义"
+        "讽刺的：反话相讥",
+        "尖刻的：言辞锋利伤人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "satellite",
@@ -145416,25 +145422,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 satellite，现代词义按整体记",
-      "native_definition": "a thing or action related to satellite",
-      "core_concept": "a clear scene connected with satellite – 与该词相连的清晰场景",
+      "origin": "中古法语 satellite ← 拉丁语 satelles（侍从），更早或出伊特鲁里亚语",
+      "native_definition": "an object that moves around a planet, natural or man-made",
+      "core_concept": "an attendant body kept in orbit around another – 随行绕另一物运转的天体",
       "core_image": "夜空中的小光点沿固定轨道绕着更大的球体移动",
       "chinese": [
-        "satellite"
+        "卫星"
       ],
       "examples": [
-        "The satellite changed the situation.",
-        "Researchers discussed the satellite carefully."
+        "The satellite circles the earth twice daily.",
+        "A satellite relays the signal."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "satellite：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "satire",
@@ -145444,25 +145447,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 satire，现代词义按整体记",
-      "native_definition": "a thing or action related to satire",
-      "core_concept": "a clear scene connected with satire – 与该词相连的清晰场景",
+      "origin": "中古法语 satire ← 拉丁语 satira，更早作 satura，出自 lanx satura（满盘杂陈）",
+      "native_definition": "writing that uses humour to expose faults",
+      "core_concept": "a mixed dish of mockery served up – 杂陈成盘的嘲弄",
       "core_image": "舞台上的演员夸张模仿官员动作，台下观众会意发笑",
       "chinese": [
-        "satire"
+        "讽刺作品",
+        "讥讽"
       ],
       "examples": [
-        "The satire changed the situation.",
-        "Researchers discussed the satire carefully."
+        "The play is a sharp satire.",
+        "His column relies on satire."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "satire：从核心场景引出的常用义"
+        "讽刺作品：以嘲弄揭露弊病的作品",
+        "讥讽：出言挖苦"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sauce",
@@ -145472,25 +145476,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sauce，现代词义按整体记",
-      "native_definition": "a thing or action related to sauce",
-      "core_concept": "a clear scene connected with sauce – 与该词相连的清晰场景",
+      "origin": "中古英语 sauce ← 古法语 sause ← 俗拉丁语 *salsa，为拉丁语 salsus（加了盐的）的阴性名词化，源自 sal（盐）",
+      "native_definition": "a thick liquid served with food to add flavour",
+      "core_concept": "a salted liquid poured over food – 淋在食物上的加味液体",
       "core_image": "小勺把浓稠液体淋在盘面，红色线条绕过食物边缘",
       "chinese": [
-        "sauce"
+        "酱汁",
+        "调味汁"
       ],
       "examples": [
-        "The sauce changed the situation.",
-        "Researchers discussed the sauce carefully."
+        "Pour the sauce over the noodles.",
+        "This sauce contains no dairy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sauce：从核心场景引出的常用义"
+        "酱汁：浓稠的佐餐液体",
+        "调味汁：用来加味的汁水"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "saucer",
@@ -145500,25 +145505,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 saucer，现代词义按整体记",
-      "native_definition": "a thing or action related to saucer",
-      "core_concept": "a clear scene connected with saucer – 与该词相连的清晰场景",
+      "origin": "中古英语 saucer ← 古法语 saussier（盛酱器）",
+      "native_definition": "a small shallow dish that a cup stands on",
+      "core_concept": "the little dish that once held sauce – 早先用来盛酱的小盘",
       "core_image": "杯子稳稳放在浅盘中央，盘沿挡住溅出的液滴",
       "chinese": [
-        "saucer"
+        "茶碟",
+        "托碟"
       ],
       "examples": [
-        "The saucer changed the situation.",
-        "Researchers discussed the saucer carefully."
+        "She set the cup on its saucer.",
+        "A saucer caught the spilled tea."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "saucer：从核心场景引出的常用义"
+        "茶碟：垫在茶杯下的小盘",
+        "托碟：承托杯具的浅盘"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sausage",
@@ -145528,25 +145534,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sausage，现代词义按整体记",
-      "native_definition": "a thing or action related to sausage",
-      "core_concept": "a clear scene connected with sausage – 与该词相连的清晰场景",
+      "origin": "中古英语 sawsiche ← 盎格鲁诺曼语 sausiche ← 晚期拉丁语 salsīcia，为 salsīcius（用盐调味的）的阴性形，源自拉丁语 salsus（加盐的）",
+      "native_definition": "chopped meat packed into a thin tube of skin",
+      "core_concept": "salted meat packed into a casing – 用盐调味后灌进肠衣的肉",
       "core_image": "肉馅被灌进长肠衣，厨师把它分成一节一节",
       "chinese": [
-        "sausage"
+        "香肠"
       ],
       "examples": [
-        "The sausage changed the situation.",
-        "Researchers discussed the sausage carefully."
+        "He fried two sausages for breakfast.",
+        "The sausage split while cooking."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sausage：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "savage",
@@ -145556,53 +145559,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 savage，现代词义按整体记",
-      "native_definition": "a thing or action related to savage",
-      "core_concept": "a clear scene connected with savage – 与该词相连的清晰场景",
+      "origin": "中古英语 savage ← 古法语 sauvage（野生的）← 晚期拉丁语 salvāticus，为拉丁语 silvāticus（林中的）的变体，源自 silva（森林）",
+      "native_definition": "fierce and violent, or very harsh",
+      "core_concept": "wild as something out of the woods – 像林中之物那样未经驯服",
       "core_image": "森林边的人紧握长矛，远处的野兽发出低沉吼声",
       "chinese": [
-        "savage"
+        "野蛮的",
+        "凶猛的"
       ],
       "examples": [
-        "The savage changed the situation.",
-        "Researchers discussed the savage carefully."
+        "The dog gave a savage bark.",
+        "Critics were savage about the film."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "savage：从核心场景引出的常用义"
+        "野蛮的：粗野残酷不讲情理",
+        "凶猛的：攻击性强而猛烈"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "saw",
       "word": "saw",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/sɔː/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 saw，现代词义按整体记",
-      "native_definition": "a thing or action related to saw",
-      "core_concept": "a clear scene connected with saw – 与该词相连的清晰场景",
+      "origin": "古英语 saga／sagu（锯）← 原始西日耳曼语 *sagu ← 原始日耳曼语 *sagô ← 原始印欧语 *sek-（切）",
+      "native_definition": "a tool with a toothed blade for cutting wood",
+      "core_concept": "a toothed blade that cuts by drawing back and forth – 靠来回拉动切割的齿刃",
       "core_image": "锯齿沿木板来回移动，细屑落在地面形成一条线",
       "chinese": [
-        "saw"
+        "锯",
+        "锯开"
       ],
       "examples": [
-        "The saw changed the situation.",
-        "Researchers discussed the saw carefully."
+        "He cut the plank with a saw.",
+        "They sawed the branch into logs."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "saw：从核心场景引出的常用义"
+        "锯：带齿的切割工具",
+        "锯开：用锯把东西切断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "say",
@@ -145612,25 +145617,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 say，现代词义按整体记",
-      "native_definition": "a thing or action related to say",
-      "core_concept": "a clear scene connected with say – 与该词相连的清晰场景",
+      "origin": "古英语 seċġan ← 原始西日耳曼语 *saggjan ← 原始日耳曼语 *sagjaną",
+      "native_definition": "to speak words aloud",
+      "core_concept": "putting thought out in spoken words – 把想法用话说出去",
       "core_image": "发言者站到麦克风前，台下的人转头听清每一句",
       "chinese": [
-        "say"
+        "说",
+        "讲述"
       ],
       "examples": [
-        "The say changed the situation.",
-        "Researchers discussed the say carefully."
+        "She said nothing for a while.",
+        "He says the same thing daily."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "say：从核心场景引出的常用义"
+        "说：把话讲出来",
+        "讲述：把事情叙说一遍"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "scan",
