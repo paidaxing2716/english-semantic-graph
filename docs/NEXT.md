@@ -1,81 +1,99 @@
 # 下一轮做什么
 
-> 现状更新于 2026-08-27，第九十九批（chunk109）之后。
-> 分支 `fix/etymology-gates-and-engra-gaps`，PR #1 仍未合。
+> 现状更新于 2026-08-31。分支 `fix/etymology-gates-and-engra-gaps`，PR #1 仍未合。
 > 先读 [HANDOFF.md](HANDOFF.md) 的「先读这一条」，再读本文件末尾「这轮踩实的坑」。
 
-## 现状（现场数的，不是抄的）
+## 现状（现场数的）
 
 ```
-4023 词 / 308 根                考研表覆盖 3995/5299 = 75.4%
-带 collocations 的词条 232 个    真实待办 1304 词（剔掉不可结构化的 76 个后）
-已用 chunk 编号：1-36、41-56、61-64、71-78、100-111
+5248 词条 / 309 根 / 311 概念 / 2168 关系 / 10536 例句
+  ├─ 4114 可用
+  └─ 1134 占位（stub: true）
+
+考研词表 5299 词形
+  名义覆盖 5219  98.5%      ← 别只报这个
+  真实覆盖 4085  77.1%      ← 剔掉占位词条
+  可结构化 4075  78.2%      ← 再剔掉 a/he/it/and 这类功能词
+  无条目     80             按项目规则本就不建条
 ```
 
-**词数一律现场重数**，别引用上面这几个——这份文件上一版的数字滞后了 600 词，
-照着它做会重复劳动：
+**这三个数不要手算，跑脚本**，它同时报三个口径并列出占位词条的字段缺口：
 
 ```bash
-python -c "import json;print(len(json.load(open('data/words.json',encoding='utf-8'))['words']))"
+python scripts/mark_stubs.py          # 只报
+python scripts/audit_all.py           # summary.json 也带 usable / stubs
 ```
 
-## 第一步：继续切批补词（当前主线）
+已用 chunk 编号 130 个，最大 149。
 
-**切批不要再手写档位清单**，走 `scripts/cut_next_chunks.py`：
+## 第一步：补占位词条的内容字段（当前主线）
+
+2026-08-28 有一次批量生成，用 `build_g_chunk*.py` 把考研词表尾段（s/t/w/y/z 段为主）
+灌成了 1134 条占位词条，只有结构合法。**覆盖率 98.5% 里有 21.4 个百分点是这批。**
+音标、词性已在 08-31 离线补完，剩下的必须逐词写：
+
+| 字段 | 待补 | 说明 |
+|---|---|---|
+| native_definition | 1134 | 全是 `a thing or action related to X` |
+| core_concept | 1134 | 全是 `a clear scene connected with X` |
+| examples | 1134 | 全是 `The X changed the situation.` |
+| semantic_expansions | 1134 | 全是「从核心场景引出的常用义」 |
+| chinese | 901 | 生成器 `zh.get(w,w)` 回退成英文词本身 |
+| phonetic | 348 | 其中 288 条缺 Wiktionary 缓存 |
+| core_image | 89 | overall→plaster 段，从未派过 |
+
+清单直接取 `audit/stubs.tsv`（跑一次 `audit_all.py` 生成），或
+`python -c "import json;print('\n'.join(w['id'] for w in json.load(open('data/words.json',encoding='utf-8'))['words'] if w.get('stub')))"`。
+
+这批好在几乎全是日耳曼型（1133/1134），**不用判词根归属**，比前面 4000 词那轮轻。
+按 30 词/片、2 路并发算约 38 批。派发指令见下面「派发指令必须带的话」，但词根归属
+那几条可以省掉。
+
+**别用生成器批量填**——这一轮的问题就是这么来的。见「这轮踩实的坑」第一条。
+
+## 第二步：补那 288 条缺缓存的音标
+
+抓取函数在 `scripts/probe_etymology_coverage.py` 里（`API` + 50 词一批 + 0.2s 间隔），
+但**那个脚本只抓有 `root_ids` 的词**，占位词条是无根 germanic，直接跑它抓不到。
+需要写个薄包装复用它的抓取段，把 288 个词喂进去，再跑：
 
 ```bash
-python scripts/cut_next_chunks.py --start 112 --n 2 --size 30
+python scripts/extract_phonetic_pos.py --apply
 ```
 
-它做了四件手写时会漏的事：剔已入库/已派/不可结构化词、族整体不跨片、按
-engra × Wiktionary 双源打档位并摊平到各片、**校验 A 档猜的根真的存在于
-roots.json**（最后这条是补的缺陷，见坑八）。派发指令模板见下面「派发指令
-必须带的话」。
+抽取器的四道门已经调好（见坑三），补上缓存就能直接写回。
 
-待办 1304 词按 30 词/片、2 片/批算约 **22 批**。池子是字母序，现在推到 `l`–`m`。
-剩余量最大的是 s（443）、t（203）、w（136）、p（131）。
+## 第三步：collocations 的尾巴
 
-**并发上限 2 路**（6 路会把中转站打爆，见坑七）。
+现有 328 条带 collocations（306 条在可用词条上）。老文档列的两类都已做完，
+**真正剩下的**：
 
-## 第二步：近反义词全库富化（用户明确要求放最后）
-
-词根批与日耳曼批都把 synonyms/antonyms 留空（`[]`），全库绝大多数是空的。
-**不要按批零敲**——该做一次统一的全库扫描，否则同一组近义词分散在不同批次里，
-写出来的 `synonym_note` 彼此矛盾。
-
-注意 Q8 白名单机制：`validate.py` 有一份已核验白名单，新加的近反义词若不在
-白名单里会被挡。先读 `scripts/check_lexicon_gap.py` 弄清登记流程。
-
-## 第三步：collocations 剩下的尾巴
-
-**上一版列的两类都已做完，别再照着做：**
-
-- ~~16 个高频动词一条搭配都没有~~ → 已全部补齐（现场核过，缺口为 0）。
-- ~~`take`/`set`/`turn`/`stand` 不在库~~ → 四个都已入库且都有搭配。
-
-**真正剩下的**（现场重数）：
-
-1. **5 个连接副词缺搭配**：`nevertheless` `henceforth` `consequently`
-   `accordingly` `meanwhile`。这批的价值在**句法位置**（句首还是句中、跟不跟
-   逗号、能不能接从句），不是动词短语那种型式。
-2. **5 个连接副词根本不在库**，而它们都在考研词表里：`thereby` `whereby`
-   `nonetheless` `albeit` `notwithstanding`。这五个的用法坑比缺搭配更值得做：
-   - `thereby` 接 **-ing** 不接从句
-   - `whereby` ＝ by which，**前面必须有名词**
-   - `albeit` **不接完整句**（albeit brief ✓ / albeit it was brief ✗）
-   - `notwithstanding` 是介词，**可前置也可后置**，后置是它独有的
-   先补词条再谈搭配。
-3. 另有 77 个副词/代词类词条无搭配，但多数是反身代词与纯方位副词
-   （`herself`/`everywhere`/`downstairs`），**没有值得教的型式**，不必强凑。
-   筛的时候按「这个词有没有站得住的型式」判，别按词性一刀切。
+- `whereby` `nonetheless` `albeit` **三个词不在库**，且都在考研词表里。
+  用法坑比缺搭配更值得做：`whereby` ＝ by which，前面必须有名词；
+  `albeit` 不接完整句（albeit brief ✓ / albeit it was brief ✗）。先补词条再谈搭配。
+- `thereby` 在库但是占位词条，会被第一步一起处理。它接 **-ing** 不接从句。
+- 另有一批副词/代词类无搭配，多数是反身代词与纯方位副词（`herself`/`everywhere`/
+  `downstairs`），**没有值得教的型式**，不必强凑。按「这个词有没有站得住的型式」判，
+  别按词性一刀切。
 
 回填走 `scripts/backfill_collocations.py`（两列 TSV），**不要走
 `entries_from_draft.py`**——那条管道是给新词条用的，遇到已入库的词会拒绝，
 且会重写其余 14 列。
 
+## 第四步：近反义词（用户明确要求放最后）
+
+可用词条里 1227 条有 synonyms、663 条有 antonyms，占位词条 0 条。
+**不要按批零敲**——该做一次统一的全库扫描，否则同一组近义词分散在不同批次里，
+写出来的 `synonym_note` 彼此矛盾。
+
+注意 Q8 白名单机制：`validate.py` 有一份已核验白名单（`data/lexicon.json`，
+1819 词），新加的近反义词若不在白名单里会被挡。先读 `scripts/check_lexicon_gap.py`
+弄清登记流程。
+
 ## 派发指令必须带的话
 
-每批派发前我都在重建这份清单，直接抄。缺任何一条都在实测里出过错：
+每批派发前都在重建这份清单，直接抄。缺任何一条都在实测里出过错。补占位词条内容的
+那批（第一步）不涉及词根归属，档位与近形异源两节可以省。
 
 **档位怎么用**——三档的解释，加上「档位是线索不是结论，假阳性 50% 假阴性 30%，
 两个方向都核」，以及「B 档空白 ≠ 库里没有，自己查 roots.json」。
@@ -105,93 +123,111 @@ cors/chorda    portus/portio     minium/minus     mederi/medius
 ⑥ image 不泄露义项中文 ⑦ 孤立型字段名是 `decomposable` 不是 `type`，
 `root_logic` 是必填空串，`decomposable_note` 要分档不能一律套「日耳曼核心词」。
 
-**两片可能撞车时要说明**：同一族的词分到两片（chunk110 的 `master` 与
-chunk111 的 `magistrate` 都是 magister）要写明「只写你片里的，若判断该建根就
+**两片可能撞车时要说明**：同一族的词分到两片要写明「只写你片里的，若判断该建根就
 回报由我统一建」，否则两片各建一次就是重复根。
 
 **回报格式**：400 字以内，只报统计 + A 档核不成立的 + B/C 档自己查出能挂根的
 （最有价值）+ 门二逐条判定 + 够 3 员但本片建不了的新根候选 + 库内既有问题
 （只报不改）。别贴 TSV 内容。
 
-## 关于「覆盖率」这个数怎么算
-
-`data/english_reference.json`（5299 词形）**同时是两样东西**：考研词表，以及
-近反义词的自动核验白名单（它的 `purpose` 字段写的是后者）。拿它直接算覆盖率会
-得出「36.3% 未入库」这种数，但那 1922 个里混着 `a` / `he` / `it` / `in` / `and`
-这类功能词——它们没有画面也没有词族，按项目自己的规则本就不建词条。
-
-**所以别把「5299 减去已入库」当待办数。** 要算真实覆盖率得先剔掉不可结构化的部分，
-`docs/roadmap.md` v1.0 一节做过这个分析（结论是「考研词表中可结构化的部分」），
-接手前先读那一节，别自己重算一遍得出个虚高的缺口。
-
 ## 顺带可做
 
-- `admire` 可凑 `mirari` 族（miracle/mirror 已入库）、`cage`/`cave` 可凑 `cavea` 族。
-  两族都因「凑不到 3 个成员」被写成日耳曼型，现在够数了，但要回改已入库条目。
-  chunk54 的子代理点出的。
-- `alternate` 挂在 `ternus`（externus/internus）下，而它自己的 root_logic 写着
-  「alter（另一个）+ -nate」——看着是错挂。chunk56 的子代理点出的，未核实。
-- `amount` 的 origin 写着「拉丁语 ad montem」却以 germanic 入库，同类问题。
-- 83 条 `decomposable_note` 用默认文案但 origin 无任何语源线索，需逐条查证才能
-  分流（这轮只改了 origin 有明确线索的 578 条）。
+- `admire` 可凑 `mirari` 族（`miracle`/`mirror` 已入库，三个都还是 germanic 型）、
+  `cage`/`cave` 可凑 `cavea` 族。两族都因「凑不到 3 个成员」被写成日耳曼型，
+  现在够数了，但要回改已入库条目。
+- `amount` 的 origin 写着「拉丁语 ad montem」却以 germanic 入库。
+- **1123 条非占位词条的 `decomposable_note` 用默认文案**（另有 1123 条在占位词条上，
+  会随第一步处理）。需逐条查证才能分流，origin 有明确线索的 578 条上一轮已改。
+- `validate.py` 的 Q2 警告 7 条 `root_logic` 含「就是」式简单推导，待人工复核：
+  `nature` `cattle` `comprise` `content` `type` `engineer` `genuine`。
+- 老文档说 `alternate` 错挂 `ternus`——**已不成立**，现在挂的是 `alter-other`，正确。
 
 ## 别做
 
+- 别用生成器批量填内容字段（这一轮的 1134 条占位词条就是这么来的）
 - 别手写 `build_batchNN.py`（1141 字节/词 vs 走 TSV 的 19）
-- 别整读 `data/words.json`（3.4 MB ≈ 80 万 token），用 `python -c` 取字段
+- 别整读 `data/words.json`（6.0 MB），用 `python -c` 取字段
 - 别自动归族（拼写聚类判不出词族，已踩过多次）
 - 别在代理还在写的时候读它的文件（会读到半成品快照）
 - 别按池子文件的**行数**当待办数——文件里混着已入库的词，要 `not in ids` 过一遍
 - **别只看 `git status` 判断某批做过没有**——`drafts/` 在 .gitignore 里，git 查不到
-  痕迹。这轮因此重派了一整轮 6 个代理，做的是上次会话已完成的活。**看文件时间戳。**
+  痕迹。曾因此重派一整轮 6 个代理做已完成的活。**看文件时间戳。**
 
 ## 这轮踩实的坑
 
-### 1. 六处「输出绿色但什么都没发生」的缺陷
+### 1. 批量生成器把覆盖率虚推了 21 个百分点
 
-| 位置 | 缺陷 | 已修 |
-|---|---|---|
-| `entries_from_draft` | 撞名门只查「新根撞已有词」，补词批 `new_r` 为空集时形同不存在 | ✅ 加 `batch_w & have_r` |
-| `screen_draft_etymology` | 把根 origin 里「与 X 无关」的 X 抽成匹配键，写明不同源反而制造误报 | ✅ 排除措辞过滤 + 词边界 + 前缀不做键，报警 25→10 |
-| `regroup_pools_by_family` | `existing()` 只查 id 与 origin，漏查 variants | ✅ 建 variants 索引 |
-| `migrate_germanic_to_root` | **压根没有扫描环节**，只套用手写字典，`--dry-run` 恒输出「共 0 词」 | ✅ 加 `--scan` |
-| `entries_from_draft` | 只要没挂根就套「日耳曼核心词」文案，578 条借词被写成日耳曼词 | ✅ 按 origin 分流 |
-| `frontend/study.js` | `recallPrompt` 把 `w.pos` 直接拼进题面，`noun` 的词性就是 noun → 泄题 | ✅ pos 也过 maskAnswer |
+08-28 为补完考研词表，主对话自己写了 `build_g_chunk*.py`（不经子代理）灌进 1193 条
+空壳。`validate.py` 全绿、`critical` 为 0、覆盖率报 98.5%，**真实可用只有 77.1%**。
+核心几行：
 
-### 2. 双源一致 ≠ 独立验证
-
-engra 词根库与 Wiktionary 交叉出的「一致」档，四片 219 词里子代理仍逐词核出
-**16 个真错（7.3%）**，全是拉丁近形异源：
-
-```
-manus/manere   planus/plangere   ferre/ferire   cadere/caedere
-tendere/tener  cors/chorda       humor(umor)/humus   portus/portio   minium/minus
+```python
+image='一张卡片放在桌面中央，旁边摆着几件相关物品，窗光从左侧照来'   # 固定串
+native=f'a thing or action related to {w}'                        # 模板
+ex=f'The {w} changed the situation.|Researchers discussed the {w} carefully.'
+z=zh.get(w,w)                          # ← 查不到就拿英文词当中文释义，901 条
+rows.append(['W',w,p,'/ˈ'+w+'/', ...]) # ← 音标 = 拼写套斜杠，1109 条
 ```
 
-两个源共享拼写驱动的失败模式，会同时错。这类清单是**「值得派」而非「可免检」**。
-21 组已沉淀进 `scripts/audit_trap_pairs.py`，但它误报率约 10%，只作线索不作判据。
+后续 15 个「重写模板化核心画面」提交只修了 `core_image` 一个字段，其余五项原样留着，
+所以那批提交看着做了很多、实际只动了七分之一。
 
-### 2b. 匹配器的假阴性同样危险（29%）
+**教训不是「别用生成器」而是「静默回退必须报警」**——`zh.get(w,w)` 那种默认值回退
+不留任何痕迹，是最难发现的一类。
 
-单源匹配的 45% 假阳性已记在上面。但它**召回也差**：第八十八批 31 词里有 9 个
-（29%）被判成「族凑不到 3 员、按孤立词条写」，实际库中早有能收它们的根——
-arrest→sta（43 员）、amplify/benefit→fac（32 员）、allowance→loc、actress→ag、
-appliance→plic、audio→audire、available→valere、agreeable→grat。
+### 2. 审计自己也会瞎
 
-根因：判据问的是「该词元族在**未入库**考研词里够不够 3 个」，真正该问的是
-**「库中是否已有能收它的根」**。派发这类清单时必须在指令里写明「档位只表示
-匹配器没找到根，不等于该写成孤立词条，你自己再查一遍库」。
+`audit_all.py` 的 `TEMPLATE_IMAGE` 常量停在第一代生成器的画面串上，第二代换了串之后
+那 89 条模板画面**一条没报出来**，是靠字段无关的重复值检查才露出来的。已改成元组容纳
+两代，并补了假音标、中文=英文、模板语义展开三条判据。
 
-### 3. 「15 列」这个错位特征已失效
+风险排序当时对全库无条件静态加权（有词根 +1、多义 +1），**3516 条报警栏全空**，
+5174/5248 词都算「有风险」，榜单等于把库抄一遍。已改成加权只在有报警的词之间分次序，
+占位词条另出 `stubs.tsv`。`risk_words` 5174 → 344。
 
-以前 W 行 15 列 = `|` 被打成制表符（本会话发生三次：universal、promote、
-accommodate）。现在 15 列是合法的 collocations 格式，那个特征没了。门改成内容
-判别：第 15 列非空须含 `——`；**为空时也不能免检**——错位可能把原本为空的 hint
-挤到第 15 位，于是空列「看起来合法」而义项说明被挤进 hint 列。
+**新加的判据自己也要过阳性对照**：拿已知答案喂进去，看报不报、报得对不对。
+这一条与上一版坑八（`cut_next_chunks.py` 的 A 档不校验根是否存在）是同一类。
 
-自己检查仍用 `awk -F'\t' '$1=="W" && NF!=15'`（新批）或 `NF!=14`（旧批）。
+### 3. 音标抽取的四道门都是踩出来的
 
-### 4. 改多处同步的字段要数清有几处
+`extract_phonetic_pos.py` 从 `drafts/.etym_cache/` 抽 IPA，每道门都对应一次实测失败：
+
+- **无标注 IPA 必须排在显式 UK 之后**。Wiktionary 顶端那条不带 `a=` 的往往是美式：
+  `only` 首条是 `/ˈoʊn.li/`，英式 `/ˈəʊn.li/` 反而嵌在 `a=UK` 里。
+- **窄式记音先剥组合变音符再校验字符集**。直接拒收会挡掉正确项而放行错误项——
+  `out` 的 RP 是 `/ˈäʊ̯t/` 被挡后，唯一通过字符集的是 `a=Pittsburgh` 的 `/ˈaːt/`。
+  `ɹ→r`、`ɛ→e`、`əː→ə` 是记法差异可折算；`ɚ ɝ ʉ ɐ ʈ ɻ ʍ` 是真方言标记，整条拒收。
+- **重音歧义不写**（22 条）。名动异重词取错支等于把重音教反：`compress` 库内是动词
+  `/kəmˈpres/`，Wiktionary 首条是名词 `/ˈkɒmpres/`。判据**数音节不数音段**，否则
+  `ourselves` 的 `/aʊəˈselvz/` 与 `/ɑːˈselvz/` 会误判成歧义（只是 our 的拼法不同）。
+- **同形异读不写**（27 条）。多个 Pronunciation 段说明各词源支读音不同：`paste` 会抽成
+  `/ˈpæsteɪ/`（英语是 `/peɪst/`）、`spread` 抽成 `/spriːd/`、`shower` 抽到「展示者」。
+
+### 4. 库内音标本身是混合口径，别拿它当唯一判准
+
+`probe_phonetic_accuracy.py` 拿库内 2410 条已知音标反查抽取器：完全一致 40.7%、
+记法差异内一致 22.8%、口径差异内一致 15.9%、重音位置不同 0.5%、其余 20.1%。
+
+**「与库内不一致」不等于抽错**——库自己就不自洽：儿化 309 条对非儿化 295 条，
+`oʊ` 30 条对 `əʊ` 223 条，且**按词族成簇**（`compose`/`expose`/`propose`/`oppose`
+整族用美式 `oʊ`）。不同批次用了不同口径。20.1% 残差主要是弱元音 ə/ɪ 交替与 yod
+有无这类合法变体。
+
+新写的音标一律按英式 RP（`/lɒt/` `/ˈdɒktə/` `/bɜːd/` 那一路），但**别去统一存量**，
+那是另一个决定，得先问用户。
+
+### 5. 词性不能照抄 Wiktionary 的首个标题
+
+Wiktionary 按词源顺序排词性不按频次，且会把边缘义项也立成标题：
+`occasion` 的 Verb 是「to cause」这种古旧用法、`optical` 的 Noun 带 `{{lb|en|film}}`
+是电影业行话、`outing` 的 Verb 其实是 `{{infl of|en|out}}` 屈折形式不是独立词性。
+全收进来是在制造错误。
+
+现在只改生成器的默认值 `noun`，原值是别的词性就保留（30 条）——那些是 build 脚本
+手写的三组硬编码集合，按主用法选过，比抽取可靠。`overlook`/`overflow` 若照抄
+Wiktionary 会被改成 noun，而动词才是主用法。
+
+### 6. 改多处同步的字段要数清有几处
 
 改词根 id 要同步**五处**：`roots.id`、`words.root_ids`、`concepts.root_ids`、
 `relations.from/to`、**`domains.root_ids`**。漏第五处时 `validate.py` 报
@@ -200,49 +236,34 @@ accommodate）。现在 15 列是合法的 collocations 格式，那个特征没
 日耳曼型词条的字段名是 **`decomposable`** 不是 `type`，且 `root_logic` 是必填的
 **空串**而非删除。写错会报「缺少必填字段」+ Q11。
 
-### 5. 出错就回退到基线重跑，别在改坏的状态上叠加
+`stub` 是独立字段，不要塞进 `decomposable`——占位与可拆性是正交的两个维度，
+一个占位词条同样可以是 germanic 或 root 型（`stall` 就是唯一那个 root 型占位词条）。
 
-这轮改错两次（上面两条），两次都 `git checkout -- data/` 回基线后用改正版重跑。
-`data/` 每次改动前先确认 `git status --short data/` 是干净的。
+### 7. 出错就回退到基线重跑，别在改坏的状态上叠加
 
-### 6. 写派发指令前先查库
+`data/` 每次改动前先确认 `git status --short data/` 是干净的，出错 `git checkout --
+data/` 回基线后用改正版重跑。
 
-给 chunk75 的指令里要求写 `once`（实际已分在 chunk74，重复派发）、`latter` 与
-`farther`（两个都不在库）。子代理以输入文件为准并把对照写进 `later`/`further`
-名下，处理是对的。**指令里提到的词，先确认它在哪、在不在库。**
-
-### 7. 中转站并发上限
+### 8. 中转站并发上限
 
 6 路并行会把中转站打爆（HTTP 200 空响应），5 个代理同批阵亡。**最多 2 路。**
 另外有一次代理写完文件但回报没送达——文件落盘近两小时后才发现。若文件已停止
 写入且内容完整，可直接验文件，不必等回报。
 
-**同一签名还会打到主对话自己**：本会话有一段时间我的工具调用全部返回空
-（Bash / Read / Grep / Glob 都是，绕过 sandbox 也一样），与派子代理同时发生，
-两个代理的 transcript 是 0 字节。**症状是空结果不是报错**——工具不存在会报
-「未知工具」，被 deny/hook 拦会回一段拦截说明，空返回是上游的事。
-遇到这种：**别反复重试**，也**绝不能把「代理可能会返回什么」当成已收到的回报
-写出来**（我犯过，把没收到的结论写进了回复）。等回报或验文件时间戳。
+**同一签名还会打到主对话自己**：曾有一段时间工具调用全部返回空（Bash / Read /
+Grep / Glob 都是，绕过 sandbox 也一样），与派子代理同时发生。**症状是空结果不是
+报错**——工具不存在会报「未知工具」，被 deny/hook 拦会回一段拦截说明，空返回是
+上游的事。遇到这种：**别反复重试**，也**绝不能把「代理可能会返回什么」当成已收到
+的回报写出来**（犯过两次：一次把没收到的子代理结论写进回复，一次把根本没做的
+编辑写成做过并编出了 NameError 与「权限墙」）。等回报或验文件时间戳。
 
-### 8. 自己新写的门也会有静默失效
-
-`cut_next_chunks.py` 刚写好那一版，A 档的「疑 → X」直接用了 Wiktionary 词元
-映射的结果，**没校验 X 是不是 roots.json 里真实存在的根**。于是 chunk107 整片
-10 个 A 档词指向的全是库里没有的根（imitari / migrare / stallum / vitare…），
-代理花整轮去核 10 个不存在的归属。`rids` 当时已经加载好、就是没用上。
-
-这与本文件上面那六处缺陷是同一类。**新加的判据自己也要过一遍阳性对照**：
-拿已知答案的输入喂进去，看它报不报、报得对不对。改门二那次做了两组对照
-（剥掉 root_ids 的真信号必须仍报出、已挂对根的补词行不该报），才敢说
-「伪报 22 → 2」而不是「把门弄哑了」。
-
-## 附：这轮的数据来源
+## 附：数据来源
 
 词根归属线索取自 [eslsoft/engra](https://github.com/eslsoft/engra)（MIT，2191 个词根，
 覆盖 5299 考研词表的 73.1%）。**只取「词→根」这个事实，未取其 mnemonic 文本**——
 仓库虽 MIT 但内容疑似源自出版物。
 
-Wiktionary 缓存 2265 个 wikitext 在 `drafts/.etym_cache/`（gitignored，重跑不请求
+Wiktionary 缓存 3592 个 wikitext 在 `drafts/.etym_cache/`（gitignored，重跑不请求
 网络）。测量脚本 `scripts/probe_etymology_coverage.py`：拿库里已挂根的词当标注集，
 top1 与库一致 82.6%，有词元的词里 92.9%，判错仅 0.6%，其余是合并/拆分根造成的
 多候选歧义——**那类歧义恰恰是你自己的教学决策，机器替不了**。
