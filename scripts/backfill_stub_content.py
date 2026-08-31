@@ -55,6 +55,8 @@ PHONETIC_CHARSET = set("()./abdefghijklmnoprstuvwz·æðŋɑɒɔəɜɡɪʃʊʌʒ
 # 与 validate.py 的 VALID_POS 同一套；多词性写 'noun / verb'（带空格，库内 885 条如此）
 VALID_POS = {"noun", "verb", "adjective", "adverb", "preposition",
              "conjunction", "pronoun", "interjection"}
+# 与 audit_all.NON_IPA_SPELLING 同一套：英语 IPA 里不会出现的正字法特征
+NON_IPA_SPELLING = re.compile(r"[cqxy]|sh|ch|th|ph|wh|ck|oo|ee|ea|ou|ay|ai|oa|igh|ss|ll|tt|pp|mm|nn|gg|ff|dd|bb|rr")
 # classify_note 只在「← 后紧跟外语名」时判借词。origin 提到外语却没让箭头带出来，
 # 就会静默落回「日耳曼核心词」默认档。这个坑实测连栽三次（optical、paralyze、
 # periodical），靠记性挡不住，改成门。
@@ -139,8 +141,12 @@ def main():
                 errs.append(f"{name}:{n} {word} 音标已是真音标，第 9 列不该填")
             if not (ph_new.startswith("/") and ph_new.endswith("/") and len(ph_new) > 2):
                 errs.append(f"{name}:{n} {word} 音标须用斜杠包裹：{ph_new}")
-            if ph_new in ("/ˈ" + word + "/", "/" + word + "/"):
-                errs.append(f"{name}:{n} {word} 音标仍是拼写套斜杠：{ph_new}")
+            # 「与原值相同」是这里唯一可靠的判据：原值本就是占位串，填回同一个值等于
+            # 没改。不能靠「等于拼写」来判——单音节词的正确音标本来就可能等于拼写，
+            # /rest/ /net/ /bed/ /help/ /step/ 都对，库内有 28 条这样的真音标，
+            # 按拼写判会把正确答案挡回去（rest 那条实测被拦过）。
+            if ph_new == (w.get("phonetic") or ""):
+                errs.append(f"{name}:{n} {word} 第 9 列与原值相同，等于没改：{ph_new}")
             bad = set(ph_new) - PHONETIC_CHARSET
             if bad:
                 errs.append(f"{name}:{n} {word} 音标含库外字符 {''.join(sorted(bad))}：{ph_new}")

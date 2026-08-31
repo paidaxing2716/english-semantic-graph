@@ -143933,30 +143933,31 @@
     {
       "id": "reproach",
       "word": "reproach",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/rɪˈprəʊtʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 reproach，现代词义按整体记",
-      "native_definition": "a thing or action related to reproach",
-      "core_concept": "a clear scene connected with reproach – 与该词相连的清晰场景",
+      "origin": "中古英语 reprochen ← 古法语 reprochier（责怪）",
+      "native_definition": "to express disapproval of someone, or such blame itself",
+      "core_concept": "holding a fault up before someone – 把过失举到人面前",
       "core_image": "母亲指着打碎的花瓶，孩子低着头站在旁边不敢回答",
       "chinese": [
-        "reproach"
+        "责备",
+        "指责"
       ],
       "examples": [
-        "The reproach changed the situation.",
-        "Researchers discussed the reproach carefully."
+        "She reproached him for arriving late.",
+        "His look carried silent reproach."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "reproach：从核心场景引出的常用义"
+        "责备：因过失而当面说不是",
+        "指责：明确指出对方错处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "reptile",
@@ -143966,81 +143967,80 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 reptile，现代词义按整体记",
-      "native_definition": "a thing or action related to reptile",
-      "core_concept": "a clear scene connected with reptile – 与该词相连的清晰场景",
+      "origin": "中古英语 reptil ← 古法语 reptile ← 晚期拉丁语 rēptile，为 reptilis（爬行的）的中性形 ← 拉丁语 rēpere（爬）",
+      "native_definition": "a cold-blooded animal with scales, such as a snake or lizard",
+      "core_concept": "a scaled creature that creeps along – 覆鳞而贴地行进的生物",
       "core_image": "鳞片覆盖的动物贴着暖石缓慢爬行，尾巴拖过沙地",
       "chinese": [
-        "reptile"
+        "爬行动物"
       ],
       "examples": [
-        "The reptile changed the situation.",
-        "Researchers discussed the reptile carefully."
+        "This reptile basks on warm rocks.",
+        "Snakes and lizards are reptiles."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "reptile：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "rescue",
       "word": "rescue",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/ˈres.kjuː/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rescue，现代词义按整体记",
-      "native_definition": "a thing or action related to rescue",
-      "core_concept": "a clear scene connected with rescue – 与该词相连的清晰场景",
+      "origin": "中古英语 rescouen ← 古法语 rescoure ← 拉丁语 re-（回）＋ excutere（摇出、驱出），后者由 ex（出）＋ quatere（摇）构成",
+      "native_definition": "to save someone from danger, or such an act",
+      "core_concept": "shaking someone free of danger – 把人从险境里抖脱出来",
       "core_image": "救援绳从直升机垂下，水面上的人伸手抓住绳圈",
       "chinese": [
-        "rescue"
+        "营救",
+        "解救"
       ],
       "examples": [
-        "The rescue changed the situation.",
-        "Researchers discussed the rescue carefully."
+        "Lifeboats rescued four sailors that night.",
+        "The rescue took nearly six hours."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rescue：从核心场景引出的常用义"
+        "营救：出动人力把人救出",
+        "解救：使摆脱困境或束缚"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "research",
       "word": "research",
-      "pos": "noun",
-      "phonetic": "/ˈresearch/",
+      "pos": "noun / verb",
+      "phonetic": "/rɪˈsɜːtʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 research，现代词义按整体记",
-      "native_definition": "a thing or action related to research",
-      "core_concept": "a clear scene connected with research – 与该词相连的清晰场景",
+      "origin": "近代早期 ← 法语 rechercher（细查）← 古法语 recerchier（寻找），相当于 re-（再）＋ search",
+      "native_definition": "careful study to discover new facts",
+      "core_concept": "searching again and again into something – 反复往里搜寻",
       "core_image": "实验员在白板上记录数据，桌面摆着编号样本",
       "chinese": [
-        "research"
+        "研究",
+        "调查"
       ],
       "examples": [
-        "The research changed the situation.",
-        "Researchers discussed the research carefully."
+        "Her research changed the whole field.",
+        "They research rare diseases here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "research：从核心场景引出的常用义"
+        "研究：系统探求新知",
+        "调查：为弄清事实而查问"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "resemblance",
@@ -144050,25 +144050,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 resemblance，现代词义按整体记",
-      "native_definition": "a thing or action related to resemblance",
-      "core_concept": "a clear scene connected with resemblance – 与该词相连的清晰场景",
+      "origin": "借自盎格鲁诺曼语 resemblance ← 古法语 ressemblance，由 resemble ＋ -ance 构成",
+      "native_definition": "the state of looking like something else",
+      "core_concept": "the degree of seeming alike – 看上去相像的程度",
       "core_image": "两张脸的照片并排放着，眉眼轮廓几乎对应",
       "chinese": [
-        "resemblance"
+        "相似",
+        "相似之处"
       ],
       "examples": [
-        "The resemblance changed the situation.",
-        "Researchers discussed the resemblance carefully."
+        "The resemblance between them is striking.",
+        "I see little resemblance here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "resemblance：从核心场景引出的常用义"
+        "相似：整体上看着像",
+        "相似之处：具体某一处相像"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "resemble",
@@ -144078,25 +144079,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 resemble，现代词义按整体记",
-      "native_definition": "a thing or action related to resemble",
-      "core_concept": "a clear scene connected with resemble – 与该词相连的清晰场景",
+      "origin": "中古英语 resemblen ← 古法语 ressembler，由 re-（加强）＋ sembler（看似）构成",
+      "native_definition": "to look or be like someone or something",
+      "core_concept": "seeming the same as another – 显得与另一个一样",
       "core_image": "旧照片中的孩子和如今的母亲站在一起，面孔轮廓相近",
       "chinese": [
-        "resemble"
+        "像",
+        "类似于"
       ],
       "examples": [
-        "The resemble changed the situation.",
-        "Researchers discussed the resemble carefully."
+        "She resembles her grandmother closely.",
+        "The copy resembles the original exactly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "resemble：从核心场景引出的常用义"
+        "像：外形上跟某人某物相近",
+        "类似于：性质或情形与之相近"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "reservoir",
@@ -144106,109 +144108,113 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 reservoir，现代词义按整体记",
-      "native_definition": "a thing or action related to reservoir",
-      "core_concept": "a clear scene connected with reservoir – 与该词相连的清晰场景",
+      "origin": "借自法语 réservoir（贮存处），源自 réserver（保留）",
+      "native_definition": "a large lake built to store water",
+      "core_concept": "a place where something is kept in store – 把东西存起来的处所",
       "core_image": "山谷筑起高坝，背后的水面一直延伸到远处",
       "chinese": [
-        "reservoir"
+        "水库",
+        "蓄积"
       ],
       "examples": [
-        "The reservoir changed the situation.",
-        "Researchers discussed the reservoir carefully."
+        "The reservoir supplies the whole city.",
+        "Rain refilled the reservoir by May."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "reservoir：从核心场景引出的常用义"
+        "水库：拦蓄水的人工湖",
+        "蓄积：储存起来的大量某物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "resort",
       "word": "resort",
-      "pos": "noun",
-      "phonetic": "/ˈresort/",
+      "pos": "noun / verb",
+      "phonetic": "/rɪˈzɔːt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 resort，现代词义按整体记",
-      "native_definition": "a thing or action related to resort",
-      "core_concept": "a clear scene connected with resort – 与该词相连的清晰场景",
+      "origin": "中古英语 resorten ← 古法语 resortir（退回、求助），由 sortir（出去）反构而成",
+      "native_definition": "a place people go to for holidays, or to turn to something for help",
+      "core_concept": "falling back on something – 退回来倚靠某处",
       "core_image": "旅馆外摆着遮阳伞和躺椅，游客沿海边小路散步",
       "chinese": [
-        "resort"
+        "度假地",
+        "求助于"
       ],
       "examples": [
-        "The resort changed the situation.",
-        "Researchers discussed the resort carefully."
+        "The seaside resort fills up every August.",
+        "They resorted to legal action."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "resort：从核心场景引出的常用义"
+        "度假地：供人休假游玩的地方",
+        "求助于：别无办法时转而依靠"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "resource",
       "word": "resource",
       "pos": "noun",
-      "phonetic": "/ˈresource/",
+      "phonetic": "/rɪˈzɔːs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 resource，现代词义按整体记",
-      "native_definition": "a thing or action related to resource",
-      "core_concept": "a clear scene connected with resource – 与该词相连的清晰场景",
+      "origin": "借自中古法语 ressource ← 古法语 resource（泉源），源自 resourdre ← 拉丁语 resurgere（再涌起）",
+      "native_definition": "a supply of something useful that can be drawn on",
+      "core_concept": "a spring that rises again when drawn on – 取用后仍会再涌起的泉源",
       "core_image": "矿区仓库里分类堆放着木材、金属和燃料",
       "chinese": [
-        "resource"
+        "资源",
+        "财力"
       ],
       "examples": [
-        "The resource changed the situation.",
-        "Researchers discussed the resource carefully."
+        "Water is a scarce resource here.",
+        "The company lacks the resources to expand."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "resource：从核心场景引出的常用义"
+        "资源：可供取用的自然或人力储备",
+        "财力：可动用的钱物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "rest",
       "word": "rest",
-      "pos": "noun",
-      "phonetic": "/ˈrest/",
+      "pos": "noun / verb",
+      "phonetic": "/rest/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rest，现代词义按整体记",
-      "native_definition": "a thing or action related to rest",
-      "core_concept": "a clear scene connected with rest – 与该词相连的清晰场景",
+      "origin": "古英语 ræst ← 原始西日耳曼语 *rastu ← 原始日耳曼语 *rastō，更早词源不明",
+      "native_definition": "a period of not working, or the part that is left",
+      "core_concept": "a pause in effort, and what stays over – 停下的那一段，以及留下的那一份",
       "core_image": "长途行走的人把背包放下，在树荫下靠着石头坐下",
       "chinese": [
-        "rest"
+        "休息",
+        "其余"
       ],
       "examples": [
-        "The rest changed the situation.",
-        "Researchers discussed the rest carefully."
+        "She took a short rest under the tree.",
+        "The rest of the group went ahead."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rest：从核心场景引出的常用义"
+        "休息：停下活动以恢复",
+        "其余：剩下的那一部分"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "restaurant",
@@ -144218,53 +144224,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 restaurant，现代词义按整体记",
-      "native_definition": "a thing or action related to restaurant",
-      "core_concept": "a clear scene connected with restaurant – 与该词相连的清晰场景",
+      "origin": "借自法语 restaurant，为 restaurer（恢复）的现在分词 ← 拉丁语 restaurāre（修复）；得名于最初店家所售的「恢复元气」的汤",
+      "native_definition": "a place where meals are cooked and served to customers",
+      "core_concept": "a place serving food that restores you – 供应能补回元气的饭食之处",
       "core_image": "厨房窗口不断端出热盘，门厅里的客人依次入座",
       "chinese": [
-        "restaurant"
+        "餐馆"
       ],
       "examples": [
-        "The restaurant changed the situation.",
-        "Researchers discussed the restaurant carefully."
+        "They opened a small restaurant downtown.",
+        "The restaurant closes at eleven."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "restaurant：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "retire",
       "word": "retire",
       "pos": "verb",
-      "phonetic": "/ˈretire/",
+      "phonetic": "/rɪˈtaɪə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 retire，现代词义按整体记",
-      "native_definition": "a thing or action related to retire",
-      "core_concept": "a clear scene connected with retire – 与该词相连的清晰场景",
+      "origin": "中古法语 retirer（拉回）← 古法语 retirer，由 re-（回）＋ tirer（拉）构成",
+      "native_definition": "to stop working at the end of a career, or to withdraw",
+      "core_concept": "drawing oneself back out of the field – 把自己从场上拉回去",
       "core_image": "老工人把工具挂回墙上，最后一次走出车间",
       "chinese": [
-        "retire"
+        "退休",
+        "退出"
       ],
       "examples": [
-        "The retire changed the situation.",
-        "Researchers discussed the retire carefully."
+        "He retired after forty years there.",
+        "She retired to her room early."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "retire：从核心场景引出的常用义"
+        "退休：到年限后不再工作",
+        "退出：从某处或某活动中撤离"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "retrieve",
@@ -144274,81 +144278,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 retrieve，现代词义按整体记",
-      "native_definition": "a thing or action related to retrieve",
-      "core_concept": "a clear scene connected with retrieve – 与该词相连的清晰场景",
+      "origin": "中古英语 retreve ← 古法语 retrover（重新找到）的词干，由 re-（再）＋ trover（找到）构成",
+      "native_definition": "to bring something back, or to find stored information",
+      "core_concept": "finding again and bringing back – 重新找到并带回来",
       "core_image": "小狗从草丛里叼回飞盘，沿原路跑到主人脚边",
       "chinese": [
-        "retrieve"
+        "取回",
+        "检索"
       ],
       "examples": [
-        "The retrieve changed the situation.",
-        "Researchers discussed the retrieve carefully."
+        "The dog retrieved the ball at once.",
+        "Users can retrieve old files easily."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "retrieve：从核心场景引出的常用义"
+        "取回：把东西拿回原处或手中",
+        "检索：从存储中查出所需信息"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "return",
       "word": "return",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/rɪˈtɜːn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 return，现代词义按整体记",
-      "native_definition": "a thing or action related to return",
-      "core_concept": "a clear scene connected with return – 与该词相连的清晰场景",
+      "origin": "中古英语 returnen ← 古法语 retourner ← 中世纪拉丁语 retornāre（转回），由 re-（回）＋ tornāre（转）构成",
+      "native_definition": "to come or go back, or to give something back",
+      "core_concept": "turning back the way one came – 沿原路转回去",
       "core_image": "火车沿着熟悉的站台驶回，等候的人向前一步",
       "chinese": [
-        "return"
+        "返回",
+        "归还"
       ],
       "examples": [
-        "The return changed the situation.",
-        "Researchers discussed the return carefully."
+        "They returned home before the storm.",
+        "Please return the book by Friday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "return：从核心场景引出的常用义"
+        "返回：回到原来的地方",
+        "归还：把借来的东西交回"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "reveal",
       "word": "reveal",
-      "pos": "noun",
+      "pos": "verb",
       "phonetic": "/rɪˈviːl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 reveal，现代词义按整体记",
-      "native_definition": "a thing or action related to reveal",
-      "core_concept": "a clear scene connected with reveal – 与该词相连的清晰场景",
+      "origin": "中古英语 revelen ← 古法语 reveler ← 拉丁语 revēlāre（揭去覆盖），由 re-（去掉）＋ vēlāre（覆盖，出 vēlum 幕布）构成",
+      "native_definition": "to make something known or visible",
+      "core_concept": "taking the veil off something – 把幕布从上面揭掉",
       "core_image": "厚布帘被两只手从中间拉开，后面的画面露出来",
       "chinese": [
-        "reveal"
+        "揭示",
+        "显露"
       ],
       "examples": [
-        "The reveal changed the situation.",
-        "Researchers discussed the reveal carefully."
+        "The report revealed serious safety faults.",
+        "Fog lifted and revealed the coast."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "reveal：从核心场景引出的常用义"
+        "揭示：把隐藏的情况公开出来",
+        "显露：使原本看不见的呈现出来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "revelation",
@@ -144358,25 +144365,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 revelation，现代词义按整体记",
-      "native_definition": "a thing or action related to revelation",
-      "core_concept": "a clear scene connected with revelation – 与该词相连的清晰场景",
+      "origin": "中古英语 revelacioun ← 古法语 revelacion ← 拉丁语 revēlātiō（揭露），源自 revēlāre（揭去覆盖）",
+      "native_definition": "a surprising fact made known, or the act of making it known",
+      "core_concept": "what comes to light once the cover is off – 幕布揭开后显出的事",
       "core_image": "暗室里突然亮灯，墙上的隐藏地图完整显现",
       "chinese": [
-        "revelation"
+        "启示",
+        "揭露"
       ],
       "examples": [
-        "The revelation changed the situation.",
-        "Researchers discussed the revelation carefully."
+        "The letter contained a real revelation.",
+        "His account was a revelation to us."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "revelation：从核心场景引出的常用义"
+        "启示：忽然明白过来的道理",
+        "揭露：把隐情公开这件事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "revenge",
@@ -144386,53 +144394,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 revenge，现代词义按整体记",
-      "native_definition": "a thing or action related to revenge",
-      "core_concept": "a clear scene connected with revenge – 与该词相连的清晰场景",
+      "origin": "借自中古法语 revenge，源自 revenger ← 古法语 revengier，与 vengier 同支 ← 拉丁语 vindicāre（索偿、报复）",
+      "native_definition": "harm done to someone in return for harm they caused",
+      "core_concept": "claiming back the harm one suffered – 把所受的损害索讨回来",
       "core_image": "被抢走的物品放回桌面，失主盯着归还它的人",
       "chinese": [
-        "revenge"
+        "报复",
+        "复仇"
       ],
       "examples": [
-        "The revenge changed the situation.",
-        "Researchers discussed the revenge carefully."
+        "He took revenge for the insult.",
+        "Revenge solved nothing in the end."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "revenge：从核心场景引出的常用义"
+        "报复：以害还害",
+        "复仇：为旧怨而施加报复"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "review",
       "word": "review",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/rɪˈvjuː/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 review，现代词义按整体记",
-      "native_definition": "a thing or action related to review",
-      "core_concept": "a clear scene connected with review – 与该词相连的清晰场景",
+      "origin": "中古英语 revewe ← 古法语 reveue，为 reveoir（再看）的过去分词阴性形 ← 拉丁语 revidēre，由 re-（再）＋ vidēre（看）构成",
+      "native_definition": "a written judgment of a work, or to look over something again",
+      "core_concept": "looking at something over again – 把东西再看一遍",
       "core_image": "编辑用铅笔逐行标注稿件，页边留下密集批注",
       "chinese": [
-        "review"
+        "评论",
+        "复查"
       ],
       "examples": [
-        "The review changed the situation.",
-        "Researchers discussed the review carefully."
+        "The book got excellent reviews everywhere.",
+        "Please review these figures before Monday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "review：从核心场景引出的常用义"
+        "评论：审阅后写出的评价",
+        "复查：重新查看一遍"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "revive",
@@ -144442,25 +144452,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 revive，现代词义按整体记",
-      "native_definition": "a thing or action related to revive",
-      "core_concept": "a clear scene connected with revive – 与该词相连的清晰场景",
+      "origin": "中古英语 reviven ← 古法语 revivre ← 拉丁语 revīvere（再活），由 re-（再）＋ vīvere（活）构成",
+      "native_definition": "to come back to life or strength, or to bring something back",
+      "core_concept": "coming to life once more – 重新活起来",
       "core_image": "昏暗的炉火添入木柴后重新亮起，屋里渐渐有了光",
       "chinese": [
-        "revive"
+        "复苏",
+        "使复兴"
       ],
       "examples": [
-        "The revive changed the situation.",
-        "Researchers discussed the revive carefully."
+        "Warm tea revived him within minutes.",
+        "The company revived an old design."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "revive：从核心场景引出的常用义"
+        "复苏：从衰弱或停顿中恢复",
+        "使复兴：让已衰落的重新兴起"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "revolt",
@@ -144470,25 +144481,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 revolt，现代词义按整体记",
-      "native_definition": "a thing or action related to revolt",
-      "core_concept": "a clear scene connected with revolt – 与该词相连的清晰场景",
+      "origin": "借自法语 révolter ← 意大利语 rivoltare（翻转），与拉丁语 revolvere（滚回）同支",
+      "native_definition": "to rise up against authority, or such an uprising",
+      "core_concept": "turning right over against a ruler – 对当权者整个翻过来",
       "core_image": "城门外的人群举起旗帜，拒绝再执行旧命令",
       "chinese": [
-        "revolt"
+        "起义",
+        "反抗"
       ],
       "examples": [
-        "The revolt changed the situation.",
-        "Researchers discussed the revolt carefully."
+        "The soldiers revolted against their officers.",
+        "The revolt spread through the province."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "revolt：从核心场景引出的常用义"
+        "起义：武装反抗当权者",
+        "反抗：拒不服从并对抗"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "rhythm",
@@ -144498,25 +144510,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rhythm，现代词义按整体记",
-      "native_definition": "a thing or action related to rhythm",
-      "core_concept": "a clear scene connected with rhythm – 与该词相连的清晰场景",
+      "origin": "1557 年起见于记载 ← 拉丁语 rhythmus ← 希腊语 rhythmos（有度的流动），源自 rhein（流）",
+      "native_definition": "a regular repeated pattern of sound or movement",
+      "core_concept": "a measured flow that returns evenly – 均匀回还的流动",
       "core_image": "鼓手均匀敲击，舞者的脚步每隔相同时间落地",
       "chinese": [
-        "rhythm"
+        "节奏",
+        "韵律"
       ],
       "examples": [
-        "The rhythm changed the situation.",
-        "Researchers discussed the rhythm carefully."
+        "The drummer kept a steady rhythm.",
+        "Her breathing settled into a slow rhythm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rhythm：从核心场景引出的常用义"
+        "节奏：声音或动作的规律起伏",
+        "韵律：诗文或乐句中的声调格式"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "ribbon",
@@ -144526,25 +144539,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ribbon，现代词义按整体记",
-      "native_definition": "a thing or action related to ribbon",
-      "core_concept": "a clear scene connected with ribbon – 与该词相连的清晰场景",
+      "origin": "中古英语 riban ← 古法语 riban／ruban，更早词源不明；后一半或与 band 同源",
+      "native_definition": "a long narrow strip of cloth used for tying or decoration",
+      "core_concept": "a long narrow strip for binding – 用来系束的细长条",
       "core_image": "细长彩带绕过礼盒，末端打成一个整齐的结",
       "chinese": [
-        "ribbon"
+        "丝带",
+        "缎带"
       ],
       "examples": [
-        "The ribbon changed the situation.",
-        "Researchers discussed the ribbon carefully."
+        "She tied the box with red ribbon.",
+        "A ribbon marked her place in the book."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ribbon：从核心场景引出的常用义"
+        "丝带：细长的织物条",
+        "缎带：面上带光泽的丝带"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "riddle",
@@ -144554,25 +144568,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 riddle，现代词义按整体记",
-      "native_definition": "a thing or action related to riddle",
-      "core_concept": "a clear scene connected with riddle – 与该词相连的清晰场景",
+      "origin": "古英语 rǣdels（谜、揣度）← 原始西日耳曼语 *rādislī，由 rede（劝告、揣度）＋ -le 构成",
+      "native_definition": "a question worded so that the answer is hard to guess",
+      "core_concept": "a question set to be guessed at – 出来让人去猜的问题",
       "core_image": "盒盖上刻着几句提示，桌边的人反复寻找答案",
       "chinese": [
-        "riddle"
+        "谜语",
+        "难题"
       ],
       "examples": [
-        "The riddle changed the situation.",
-        "Researchers discussed the riddle carefully."
+        "He asked the children an old riddle.",
+        "Her silence remained a riddle."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "riddle：从核心场景引出的常用义"
+        "谜语：故意绕着说的猜题",
+        "难题：一时想不通的问题"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "ridiculous",
@@ -144582,25 +144597,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ridiculous，现代词义按整体记",
-      "native_definition": "a thing or action related to ridiculous",
-      "core_concept": "a clear scene connected with ridiculous – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 rīdiculus（可笑的），源自 rīdēre（笑）",
+      "native_definition": "so silly that it deserves laughter",
+      "core_concept": "inviting laughter by being absurd – 荒谬得引人发笑",
       "core_image": "严肃会议上有人戴着滑稽帽子，所有人忍不住侧目",
       "chinese": [
-        "ridiculous"
+        "荒唐的",
+        "可笑的"
       ],
       "examples": [
-        "The ridiculous changed the situation.",
-        "Researchers discussed the ridiculous carefully."
+        "The excuse sounded completely ridiculous.",
+        "He wore a ridiculous hat that day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ridiculous：从核心场景引出的常用义"
+        "荒唐的：不合情理到离谱",
+        "可笑的：让人忍不住要笑"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "rigorous",
@@ -144610,53 +144626,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rigorous，现代词义按整体记",
-      "native_definition": "a thing or action related to rigorous",
-      "core_concept": "a clear scene connected with rigorous – 与该词相连的清晰场景",
+      "origin": "中古英语 rigorous ← 中古法语与盎格鲁诺曼语 rigoreus ← 晚期拉丁语 rigōrōsus（僵硬、不通融）",
+      "native_definition": "very careful and following strict rules",
+      "core_concept": "held stiff to the rule with no give – 硬照规矩来、不留余地",
       "core_image": "实验记录逐项核对，任何一个小数点都不放过",
       "chinese": [
-        "rigorous"
+        "严格的",
+        "严密的"
       ],
       "examples": [
-        "The rigorous changed the situation.",
-        "Researchers discussed the rigorous carefully."
+        "The tests follow rigorous safety standards.",
+        "She kept rigorous notes throughout."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "rigorous：从核心场景引出的常用义"
+        "严格的：一丝不放松地照标准来",
+        "严密的：环节紧扣没有漏洞"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "ritual",
       "word": "ritual",
-      "pos": "adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˈrɪtʃ.u.əl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ritual，现代词义按整体记",
-      "native_definition": "a thing or action related to ritual",
-      "core_concept": "a clear scene connected with ritual – 与该词相连的清晰场景",
+      "origin": "拉丁语 rītuālis，由 rītus（礼）＋ -ālis 构成",
+      "native_definition": "a set of actions always done the same way, or relating to such actions",
+      "core_concept": "a fixed order of acts repeated as a rite – 按礼制固定下来的一套动作",
       "core_image": "每天清晨同一盏灯按固定顺序点亮，物品依次摆好",
       "chinese": [
-        "ritual"
+        "仪式",
+        "仪式性的"
       ],
       "examples": [
-        "The ritual changed the situation.",
-        "Researchers discussed the ritual carefully."
+        "The morning ritual never changes here.",
+        "They performed the ritual in silence."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ritual：从核心场景引出的常用义"
+        "仪式：按固定次序进行的一套举动",
+        "仪式性的：属于这类举动的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "robust",
@@ -144666,81 +144684,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 robust，现代词义按整体记",
-      "native_definition": "a thing or action related to robust",
-      "core_concept": "a clear scene connected with robust – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 rōbustus（坚实如橡木），源自 rōbur（橡木、力）",
+      "native_definition": "strong and not easily damaged",
+      "core_concept": "as tough as oak – 像橡木那样结实",
       "core_image": "粗壮的桥墩经受洪水冲击，表面仍没有裂纹",
       "chinese": [
-        "robust"
+        "强健的",
+        "坚固的"
       ],
       "examples": [
-        "The robust changed the situation.",
-        "Researchers discussed the robust carefully."
+        "The bridge has a robust steel frame.",
+        "She stayed robust well into old age."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "robust：从核心场景引出的常用义"
+        "强健的：身体或体质结实",
+        "坚固的：结构耐得住冲击"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "romance",
       "word": "romance",
       "pos": "noun",
-      "phonetic": "/ˈromance/",
+      "phonetic": "/rəʊˈmæns/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 romance，现代词义按整体记",
-      "native_definition": "a thing or action related to romance",
-      "core_concept": "a clear scene connected with romance – 与该词相连的清晰场景",
+      "origin": "中古英语 romauns ← 古法语 romanz（法兰西白话，与拉丁语相对）← 中世纪拉丁语 rōmānicē（用罗马话），源自 rōmānus（罗马的）",
+      "native_definition": "a love affair, or a story of adventure and love",
+      "core_concept": "a tale told in the common tongue – 用白话讲出的故事",
       "core_image": "两个人在黄昏长椅上交换信件，旁边放着一束花",
       "chinese": [
-        "romance"
+        "恋情",
+        "传奇故事"
       ],
       "examples": [
-        "The romance changed the situation.",
-        "Researchers discussed the romance carefully."
+        "Their romance began one summer evening.",
+        "He writes historical romances now."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "romance：从核心场景引出的常用义"
+        "恋情：两人之间的爱情",
+        "传奇故事：讲爱情与冒险的叙事作品"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "romantic",
       "word": "romantic",
       "pos": "adjective",
-      "phonetic": "/ˈromantic/",
+      "phonetic": "/rəʊˈmæntɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 romantic，现代词义按整体记",
-      "native_definition": "a thing or action related to romantic",
-      "core_concept": "a clear scene connected with romantic – 与该词相连的清晰场景",
+      "origin": "由 romant ＋ -ic 构成，或借自晚期拉丁语 romanticus（具传奇作品气质的）",
+      "native_definition": "connected with love, or suited to expressing love",
+      "core_concept": "in the manner of a love tale – 带着爱情故事那种情味的",
       "core_image": "烛光沿餐桌排开，两只酒杯在柔和灯影中相碰",
       "chinese": [
-        "romantic"
+        "浪漫的",
+        "爱情的"
       ],
       "examples": [
-        "The romantic changed the situation.",
-        "Researchers discussed the romantic carefully."
+        "They planned a romantic dinner together.",
+        "The film tells a romantic story."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "romantic：从核心场景引出的常用义"
+        "浪漫的：富于情致而不拘实际",
+        "爱情的：与男女情爱有关的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "roundabout",
@@ -144750,25 +144771,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 roundabout，现代词义按整体记",
-      "native_definition": "a thing or action related to roundabout",
-      "core_concept": "a clear scene connected with roundabout – 与该词相连的清晰场景",
+      "origin": "由 round ＋ about 复合而成，20 世纪初起见于记载",
+      "native_definition": "a circular road junction where traffic goes one way around",
+      "core_concept": "a way that goes around instead of straight – 绕着走而不直穿的路径",
       "core_image": "几条道路围着中央花坛环行，车辆依次从不同出口驶出",
       "chinese": [
-        "roundabout"
+        "环形交叉路",
+        "迂回的"
       ],
       "examples": [
-        "The roundabout changed the situation.",
-        "Researchers discussed the roundabout carefully."
+        "Take the second exit at the roundabout.",
+        "He gave a roundabout explanation."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "roundabout：从核心场景引出的常用义"
+        "环形交叉路：车辆绕中心岛依次驶出的路口",
+        "迂回的：不直截了当而绕着来的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "rubber",
