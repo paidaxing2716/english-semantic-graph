@@ -152490,53 +152490,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 south，现代词义按整体记",
-      "native_definition": "a thing or action related to south",
-      "core_concept": "a clear scene connected with south – 与该词相连的清晰场景",
+      "origin": "古英语 sūþ ← 原始西日耳曼语 *sunþr ← 原始日耳曼语 *sunþrą ← 原始印欧语 *sóh₂wl̥（日）",
+      "native_definition": "the direction opposite north",
+      "core_concept": "the direction where the sun stands highest – 日头最高的那一侧",
       "core_image": "指南针指针稳定指向地图下方的方向",
       "chinese": [
-        "south"
+        "南",
+        "南方"
       ],
       "examples": [
-        "The south changed the situation.",
-        "Researchers discussed the south carefully."
+        "They drove south for two hours.",
+        "The window faces south all day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "south：从核心场景引出的常用义"
+        "南：四个基本方位之一",
+        "南方：位于南边的那一片地区"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "southeast",
       "word": "southeast",
       "pos": "noun",
-      "phonetic": "/sawˈθɪjst/",
+      "phonetic": "/ˌsaʊθˈiːst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 southeast，现代词义按整体记",
-      "native_definition": "a thing or action related to southeast",
-      "core_concept": "a clear scene connected with southeast – 与该词相连的清晰场景",
+      "origin": "古英语 sūþēast，由 south ＋ east 复合而成",
+      "native_definition": "the direction midway between south and east",
+      "core_concept": "the point midway between two named directions – 两个方位之间的正中一点",
       "core_image": "指南针停在南方与东方之间的斜角",
       "chinese": [
-        "southeast"
+        "东南"
       ],
       "examples": [
-        "The southeast changed the situation.",
-        "Researchers discussed the southeast carefully."
+        "The storm moved off to the southeast.",
+        "Their farm lies southeast of town."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "southeast：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "southern",
@@ -152546,25 +152544,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 southern，现代词义按整体记",
-      "native_definition": "a thing or action related to southern",
-      "core_concept": "a clear scene connected with southern – 与该词相连的清晰场景",
+      "origin": "古英语 sūþerne ← 原始日耳曼语 *sunþrōnijaz，由 south ＋ -ern 构成",
+      "native_definition": "belonging to or coming from the south",
+      "core_concept": "belonging to the sunward side – 属于向日那一侧的",
       "core_image": "海岸地图下方的城市沐浴在强烈阳光中",
       "chinese": [
-        "southern"
+        "南方的",
+        "南部的"
       ],
       "examples": [
-        "The southern changed the situation.",
-        "Researchers discussed the southern carefully."
+        "Southern winters are much milder.",
+        "She grew up in a southern port."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "southern：从核心场景引出的常用义"
+        "南方的：位于或来自南边的",
+        "南部的：属于某地南半部的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "southwest",
@@ -152574,81 +152573,80 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 southwest，现代词义按整体记",
-      "native_definition": "a thing or action related to southwest",
-      "core_concept": "a clear scene connected with southwest – 与该词相连的清晰场景",
+      "origin": "古英语 sūþwest，由 south ＋ west 复合而成",
+      "native_definition": "the direction midway between south and west",
+      "core_concept": "the point midway between the other two – 另两个方位之间的正中一点",
       "core_image": "指南针停在南方与西方之间的斜角",
       "chinese": [
-        "southwest"
+        "西南"
       ],
       "examples": [
-        "The southwest changed the situation.",
-        "Researchers discussed the southwest carefully."
+        "Rain came in from the southwest.",
+        "The road bends southwest after the bridge."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "southwest：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sovereign",
       "word": "sovereign",
-      "pos": "adjective",
+      "pos": "adjective / noun",
       "phonetic": "/ˈsɒv.rɪn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sovereign，现代词义按整体记",
-      "native_definition": "a thing or action related to sovereign",
-      "core_concept": "a clear scene connected with sovereign – 与该词相连的清晰场景",
+      "origin": "中古英语 sovereyn ← 古法语 soverain ← 俗拉丁语 *superānus ← 拉丁语 super（在上）；拼法受 reign 的俗解影响",
+      "native_definition": "having supreme authority, or a ruler with such authority",
+      "core_concept": "standing above all others in authority – 权柄在众人之上",
       "core_image": "王冠放在王座上，周围没有更高的权力标志",
       "chinese": [
-        "sovereign"
+        "至高的",
+        "君主"
       ],
       "examples": [
-        "The sovereign changed the situation.",
-        "Researchers discussed the sovereign carefully."
+        "Parliament remains the sovereign body here.",
+        "The sovereign opened the session."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sovereign：从核心场景引出的常用义"
+        "至高的：没有更高权力在其上",
+        "君主：掌握最高权力的统治者"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sow",
       "word": "sow",
-      "pos": "noun",
-      "phonetic": "/ˈsow/",
+      "pos": "verb",
+      "phonetic": "/səʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sow，现代词义按整体记",
-      "native_definition": "a thing or action related to sow",
-      "core_concept": "a clear scene connected with sow – 与该词相连的清晰场景",
+      "origin": "「播种」一支 ← 古英语 sāwan ← 原始日耳曼语 *sēaną ← 原始印欧语 *seh₁-（播）；同形的「母猪」另出古英语 sugu",
+      "native_definition": "to put seed into the ground so that it grows",
+      "core_concept": "putting seed into the ground – 把种子放进地里",
       "core_image": "农夫把种子一粒粒埋进翻松的土里",
       "chinese": [
-        "sow"
+        "播种",
+        "撒播"
       ],
       "examples": [
-        "The sow changed the situation.",
-        "Researchers discussed the sow carefully."
+        "They sow wheat here every spring.",
+        "Doubt was sown among the members."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sow：从核心场景引出的常用义"
+        "播种：把种子种到地里",
+        "撒播：把种子或说法散开"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spade",
@@ -152658,81 +152656,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spade，现代词义按整体记",
-      "native_definition": "a thing or action related to spade",
-      "core_concept": "a clear scene connected with spade – 与该词相连的清晰场景",
+      "origin": "古英语 spadu（铲）← 原始日耳曼语 *spadô",
+      "native_definition": "a tool with a flat blade for digging",
+      "core_concept": "a flat blade pushed into the ground – 压进地里的平刃",
       "core_image": "铁铲插入泥土，手柄被双手向下压",
       "chinese": [
-        "spade"
+        "铲子",
+        "黑桃"
       ],
       "examples": [
-        "The spade changed the situation.",
-        "Researchers discussed the spade carefully."
+        "He leaned on his spade and rested.",
+        "She played the ace of spades."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spade：从核心场景引出的常用义"
+        "铲子：挖土用的平刃工具",
+        "黑桃：扑克牌四种花色之一"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "span",
       "word": "span",
-      "pos": "noun",
-      "phonetic": "/ˈspan/",
+      "pos": "noun / verb",
+      "phonetic": "/spæn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 span，现代词义按整体记",
-      "native_definition": "a thing or action related to span",
-      "core_concept": "a clear scene connected with span – 与该词相连的清晰场景",
+      "origin": "古英语 spann ← 原始日耳曼语 *spannō（一掌之宽）← 原始印欧语 *(s)pend-（张开）",
+      "native_definition": "the full extent from one end to the other",
+      "core_concept": "the reach stretched from end to end – 从一端张到另一端的那段距离",
       "core_image": "桥从这一岸横跨到另一岸，长度被标在两端之间",
       "chinese": [
-        "span"
+        "跨度",
+        "延续期"
       ],
       "examples": [
-        "The span changed the situation.",
-        "Researchers discussed the span carefully."
+        "The bridge has a span of thirty metres.",
+        "His career spanned four decades."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "span：从核心场景引出的常用义"
+        "跨度：两端之间的距离",
+        "延续期：从头到尾的一段时间"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spare",
       "word": "spare",
-      "pos": "adjective",
+      "pos": "adjective / verb",
       "phonetic": "/speə(r)/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spare，现代词义按整体记",
-      "native_definition": "a thing or action related to spare",
-      "core_concept": "a clear scene connected with spare – 与该词相连的清晰场景",
+      "origin": "古英语 spær（节省的、稀少的）← 原始日耳曼语 *sparaz ← 原始印欧语 *sph₁rós",
+      "native_definition": "kept in reserve for later use, or to give from what one has",
+      "core_concept": "held back rather than used up – 留着没有用掉的",
       "core_image": "工具箱里留着一件备用零件，当前没有装到机器上",
       "chinese": [
-        "spare"
+        "多余的",
+        "腾出"
       ],
       "examples": [
-        "The spare changed the situation.",
-        "Researchers discussed the spare carefully."
+        "Keep a spare key in the drawer.",
+        "Can you spare a few minutes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spare：从核心场景引出的常用义"
+        "多余的：额外留存未派用途的",
+        "腾出：从自己所有中让出一部分"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spark",
@@ -152742,53 +152743,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spark，现代词义按整体记",
-      "native_definition": "a thing or action related to spark",
-      "core_concept": "a clear scene connected with spark – 与该词相连的清晰场景",
+      "origin": "古英语 spearca ← 原始西日耳曼语 *sparkō，或出原始日耳曼语 *sparkaz（活跃的）← 原始印欧语 *sperg-（撒、洒）",
+      "native_definition": "a tiny piece of burning material thrown out",
+      "core_concept": "a tiny burning bit thrown off – 迸出来的一小点燃着的东西",
       "core_image": "两根金属碰撞，黑暗中突然跳出一个亮点",
       "chinese": [
-        "spark"
+        "火花",
+        "火星"
       ],
       "examples": [
-        "The spark changed the situation.",
-        "Researchers discussed the spark carefully."
+        "A spark set the dry grass alight.",
+        "Sparks flew from the grinding wheel."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spark：从核心场景引出的常用义"
+        "火花：迸射的细小亮点",
+        "火星：燃着的极小颗粒"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sparkle",
       "word": "sparkle",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/ˈspɑː.kəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sparkle，现代词义按整体记",
-      "native_definition": "a thing or action related to sparkle",
-      "core_concept": "a clear scene connected with sparkle – 与该词相连的清晰场景",
+      "origin": "中古英语 sparkel，由 spark ＋ -le（指小与反复后缀）构成",
+      "native_definition": "to give off quick bright flashes, as light on water does",
+      "core_concept": "giving off many tiny flashes – 不断发出许多细小的闪亮",
       "core_image": "阳光照到水面，许多细小亮点随波闪动",
       "chinese": [
-        "sparkle"
+        "闪耀",
+        "闪光"
       ],
       "examples": [
-        "The sparkle changed the situation.",
-        "Researchers discussed the sparkle carefully."
+        "Dew sparkled on the morning grass.",
+        "Her eyes sparkled with amusement."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sparkle：从核心场景引出的常用义"
+        "闪耀：连续放出耀眼的光",
+        "闪光：短暂而反复的亮点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "speak",
@@ -152798,25 +152801,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 speak，现代词义按整体记",
-      "native_definition": "a thing or action related to speak",
-      "core_concept": "a clear scene connected with speak – 与该词相连的清晰场景",
+      "origin": "古英语 specan ← 更早的 sprecan ← 原始西日耳曼语 *sprekan ← 原始日耳曼语 *sprekaną ← 原始印欧语 *spreg-（发声）",
+      "native_definition": "to use the voice to express thoughts",
+      "core_concept": "putting thought into voiced words – 把想法化成出声的话",
       "core_image": "发言者靠近麦克风，声音传到房间每个角落",
       "chinese": [
-        "speak"
+        "说话",
+        "演讲"
       ],
       "examples": [
-        "The speak changed the situation.",
-        "Researchers discussed the speak carefully."
+        "She spoke to him after the meeting.",
+        "He speaks three languages fluently."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "speak：从核心场景引出的常用义"
+        "说话：用言语表达",
+        "演讲：面向众人作正式发言"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "speaker",
@@ -152826,25 +152830,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 speaker，现代词义按整体记",
-      "native_definition": "a thing or action related to speaker",
-      "core_concept": "a clear scene connected with speaker – 与该词相连的清晰场景",
+      "origin": "中古英语 speker，为古英语 spreca（说话者）换后缀而成，相当于 speak ＋ -er",
+      "native_definition": "a device that produces sound, or a person giving a talk",
+      "core_concept": "what or who sends the voice out – 把声音送出去的那个人或物",
       "core_image": "讲台旁的音箱把人的声音送到最后一排",
       "chinese": [
-        "speaker"
+        "扬声器",
+        "演讲者"
       ],
       "examples": [
-        "The speaker changed the situation.",
-        "Researchers discussed the speaker carefully."
+        "One speaker crackled during the concert.",
+        "The main speaker arrived late."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "speaker：从核心场景引出的常用义"
+        "扬声器：把电信号变成声音的器件",
+        "演讲者：向众人发言的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spear",
@@ -152854,25 +152859,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spear，现代词义按整体记",
-      "native_definition": "a thing or action related to spear",
-      "core_concept": "a clear scene connected with spear – 与该词相连的清晰场景",
+      "origin": "古英语 spere ← 原始西日耳曼语 *speru ← 原始日耳曼语 *speru ← 原始印欧语 *sperH-",
+      "native_definition": "a weapon with a long shaft and a pointed head",
+      "core_concept": "a long shaft ending in a point – 一端收成尖的长杆",
       "core_image": "长矛尖端指向前方，猎人在草丛边保持姿势",
       "chinese": [
-        "spear"
+        "矛",
+        "长枪"
       ],
       "examples": [
-        "The spear changed the situation.",
-        "Researchers discussed the spear carefully."
+        "He threw the spear at the target.",
+        "Fishermen once used spears here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spear：从核心场景引出的常用义"
+        "矛：带尖头的长柄兵器",
+        "长枪：同类的长杆刺击兵器"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "speech",
@@ -152882,25 +152888,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 speech，现代词义按整体记",
-      "native_definition": "a thing or action related to speech",
-      "core_concept": "a clear scene connected with speech – 与该词相连的清晰场景",
+      "origin": "古英语 spǣċ／sprǣċ ← 原始西日耳曼语 *sprāku ← 原始印欧语 *spreg-（发声）",
+      "native_definition": "a formal talk given to an audience, or the power of speaking",
+      "core_concept": "the act and faculty of putting words out – 说出话来这件事以及这项能力",
       "core_image": "讲台上的人连续说话，听众低头记录要点",
       "chinese": [
-        "speech"
+        "演说",
+        "言语"
       ],
       "examples": [
-        "The speech changed the situation.",
-        "Researchers discussed the speech carefully."
+        "His speech lasted twenty minutes.",
+        "The illness affected her speech."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "speech：从核心场景引出的常用义"
+        "演说：对众人所作的正式讲话",
+        "言语：说话这项能力或所说的话"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "speed",
@@ -152910,53 +152917,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 speed，现代词义按整体记",
-      "native_definition": "a thing or action related to speed",
-      "core_concept": "a clear scene connected with speed – 与该词相连的清晰场景",
+      "origin": "古英语 spēd（顺遂、成功）← 原始西日耳曼语 *spōdi ← 原始日耳曼语 *spōaną（顺利）← 原始印欧语 *speh₁-（顺遂）",
+      "native_definition": "the rate at which something moves",
+      "core_concept": "how fast ground is covered – 单位时间里走过多少路",
       "core_image": "车轮加快转动，路边的景物迅速向后退",
       "chinese": [
-        "speed"
+        "速度",
+        "快速"
       ],
       "examples": [
-        "The speed changed the situation.",
-        "Researchers discussed the speed carefully."
+        "The car picked up speed on the hill.",
+        "They worked at great speed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "speed：从核心场景引出的常用义"
+        "速度：移动的快慢程度",
+        "快速：速度高这个性质"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spell",
       "word": "spell",
-      "pos": "noun",
+      "pos": "verb",
       "phonetic": "/spel/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spell，现代词义按整体记",
-      "native_definition": "a thing or action related to spell",
-      "core_concept": "a clear scene connected with spell – 与该词相连的清晰场景",
+      "origin": "「拼写」一支 ← 中古英语 spellen ← 盎格鲁诺曼语 espeler ← 法兰克语 *spelōn，与本族古英语 spellian（讲述）合流；同形的「咒语」出古英语 spell（消息、故事）",
+      "native_definition": "to name or write the letters of a word in order",
+      "core_concept": "naming the letters one after another – 把字母按次序一个个说出或写下",
       "core_image": "孩子把字母逐个写下，组成一个完整单词",
       "chinese": [
-        "spell"
+        "拼写",
+        "拼出"
       ],
       "examples": [
-        "The spell changed the situation.",
-        "Researchers discussed the spell carefully."
+        "She spelled her surname for him.",
+        "How do you spell that word."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spell：从核心场景引出的常用义"
+        "拼写：按字母顺序写出词",
+        "拼出：把词的字母逐个说出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spelling",
@@ -152966,25 +152975,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spelling，现代词义按整体记",
-      "native_definition": "a thing or action related to spelling",
-      "core_concept": "a clear scene connected with spelling – 与该词相连的清晰场景",
+      "origin": "15 世纪起见于记载，由 spell ＋ -ing 构成",
+      "native_definition": "the way letters are arranged to form a word",
+      "core_concept": "the settled order of a word letters – 一个词字母排定的次序",
       "core_image": "练习本上同一个单词被写了几遍，字母顺序逐一核对",
       "chinese": [
-        "spelling"
+        "拼法",
+        "拼写法"
       ],
       "examples": [
-        "The spelling changed the situation.",
-        "Researchers discussed the spelling carefully."
+        "The spelling of that word varies.",
+        "Check the spelling before printing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spelling：从核心场景引出的常用义"
+        "拼法：某个词的字母写法",
+        "拼写法：一套拼写规则"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spicy",
@@ -152994,25 +153004,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spicy，现代词义按整体记",
-      "native_definition": "a thing or action related to spicy",
-      "core_concept": "a clear scene connected with spicy – 与该词相连的清晰场景",
+      "origin": "16 世纪起见于记载，由 spice ＋ -y 构成",
+      "native_definition": "strongly flavoured with hot spices",
+      "core_concept": "carrying the sharp bite of spice – 带着香料那股辣劲",
       "core_image": "红色调料落进锅里，尝汤的人马上扇动舌头",
       "chinese": [
-        "spicy"
+        "辛辣的",
+        "加了香料的"
       ],
       "examples": [
-        "The spicy changed the situation.",
-        "Researchers discussed the spicy carefully."
+        "The soup was too spicy for me.",
+        "They serve spicy noodles here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spicy：从核心场景引出的常用义"
+        "辛辣的：味道刺激发辣",
+        "加了香料的：调入香料而味浓"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spider",
@@ -153022,25 +153033,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spider，现代词义按整体记",
-      "native_definition": "a thing or action related to spider",
-      "core_concept": "a clear scene connected with spider – 与该词相连的清晰场景",
+      "origin": "中古英语 spiþre ← 古英语 spīþra ← 原始西日耳曼语 *spinþrijō，源自原始日耳曼语 *spinnaną（纺）",
+      "native_definition": "a small eight-legged creature that spins webs",
+      "core_concept": "the eight-legged creature that spins – 会纺丝结网的八足小动物",
       "core_image": "蜘蛛沿网的细线移动，八条腿在中心附近交替",
       "chinese": [
-        "spider"
+        "蛛",
+        "蛛形动物"
       ],
       "examples": [
-        "The spider changed the situation.",
-        "Researchers discussed the spider carefully."
+        "A spider had spun a web overnight.",
+        "Most spiders are harmless to people."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spider：从核心场景引出的常用义"
+        "蛛：会结网的八足小动物",
+        "蛛形动物：包含蜘蛛蝎子的一类节肢动物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spill",
@@ -153050,25 +153062,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spill，现代词义按整体记",
-      "native_definition": "a thing or action related to spill",
-      "core_concept": "a clear scene connected with spill – 与该词相连的清晰场景",
+      "origin": "古英语 spillan（毁、糟蹋）← 原始西日耳曼语 *spilþijan ← 原始日耳曼语 *spilþijaną ← 原始印欧语 *(s)pel-（裂开）",
+      "native_definition": "to let liquid run out of a container by accident",
+      "core_concept": "letting liquid escape over the edge – 让液体越过边沿跑出去",
       "core_image": "杯子倾倒，液体越过边缘流到桌面",
       "chinese": [
-        "spill"
+        "溢出",
+        "洒出"
       ],
       "examples": [
-        "The spill changed the situation.",
-        "Researchers discussed the spill carefully."
+        "He spilled coffee on the report.",
+        "Oil spilled into the harbour."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spill：从核心场景引出的常用义"
+        "溢出：液体从容器里流出",
+        "洒出：不小心把液体泼出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spin",
@@ -153078,25 +153091,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spin，现代词义按整体记",
-      "native_definition": "a thing or action related to spin",
-      "core_concept": "a clear scene connected with spin – 与该词相连的清晰场景",
+      "origin": "古英语 spinnan ← 原始日耳曼语 *spinnaną ← 原始印欧语 *(s)penh₁-",
+      "native_definition": "to turn round quickly, or to make thread from fibre",
+      "core_concept": "turning quickly about a centre – 绕中心快速打转",
       "core_image": "陀螺在桌面中央快速转动，彩色边缘变成圆环",
       "chinese": [
-        "spin"
+        "旋转",
+        "纺线"
       ],
       "examples": [
-        "The spin changed the situation.",
-        "Researchers discussed the spin carefully."
+        "The wheel spun for several seconds.",
+        "She spins wool into yarn."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spin：从核心场景引出的常用义"
+        "旋转：绕轴快速转动",
+        "纺线：把纤维捻成线"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spine",
@@ -153106,53 +153120,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spine，现代词义按整体记",
-      "native_definition": "a thing or action related to spine",
-      "core_concept": "a clear scene connected with spine – 与该词相连的清晰场景",
+      "origin": "中古英语 spyne ← 古法语 espine ← 拉丁语 spīna（刺、脊骨）",
+      "native_definition": "the line of bones down the back, or a sharp point on a plant",
+      "core_concept": "the row of bones running down the back – 沿背部排成一列的骨头",
       "core_image": "骨架背部中央一节节骨头排列成支柱",
       "chinese": [
-        "spine"
+        "脊柱",
+        "书脊"
       ],
       "examples": [
-        "The spine changed the situation.",
-        "Researchers discussed the spine carefully."
+        "She injured her spine in the fall.",
+        "The title runs down the spine."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spine：从核心场景引出的常用义"
+        "脊柱：背部由脊椎骨连成的支柱",
+        "书脊：书籍装订的那一侧"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "spit",
       "word": "spit",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/spɪt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spit，现代词义按整体记",
-      "native_definition": "a thing or action related to spit",
-      "core_concept": "a clear scene connected with spit – 与该词相连的清晰场景",
+      "origin": "「吐」一支 ← 古英语 spittan（吐），拟声起源；同形的「烤肉铁签」另出古英语 spitu",
+      "native_definition": "to force liquid out of the mouth",
+      "core_concept": "forcing something out through the lips – 从唇间用力送出去",
       "core_image": "人把嘴里的东西吐到地面，随后擦去嘴角",
       "chinese": [
-        "spit"
+        "吐出",
+        "唾液"
       ],
       "examples": [
-        "The spit changed the situation.",
-        "Researchers discussed the spit carefully."
+        "He spat the bitter seed onto the ground.",
+        "A drop of spit hit the page."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spit：从核心场景引出的常用义"
+        "吐出：把口中之物送出口外",
+        "唾液：口中分泌的液体"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "spite",
@@ -153162,53 +153178,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spite，现代词义按整体记",
-      "native_definition": "a thing or action related to spite",
-      "core_concept": "a clear scene connected with spite – 与该词相连的清晰场景",
+      "origin": "中古英语 spit，为 despit 的截头形 ← 古法语 despit ← 拉丁语 dēspectum（俯视、轻蔑），源自 dēspicere（鄙视）",
+      "native_definition": "a wish to hurt or annoy someone deliberately",
+      "core_concept": "the ill will felt from looking down on another – 出于轻蔑而生的害人之心",
       "core_image": "被拒绝的人故意弄坏对方的安排，以此发泄不满",
       "chinese": [
-        "spite"
+        "恶意",
+        "怨恨"
       ],
       "examples": [
-        "The spite changed the situation.",
-        "Researchers discussed the spite carefully."
+        "She said it out of pure spite.",
+        "Old spite kept the two apart."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spite：从核心场景引出的常用义"
+        "恶意：故意想害人的心思",
+        "怨恨：积存下来的不满与敌意"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "splash",
       "word": "splash",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/splæʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 splash，现代词义按整体记",
-      "native_definition": "a thing or action related to splash",
-      "core_concept": "a clear scene connected with splash – 与该词相连的清晰场景",
+      "origin": "或为 plash 的变体，加了词首 s-",
+      "native_definition": "to make liquid fly about in drops",
+      "core_concept": "sending liquid flying in drops – 使液体成滴四散飞开",
       "core_image": "水滴从靴边四散飞起，落在裤脚和地面上",
       "chinese": [
-        "splash"
+        "飞溅",
+        "泼洒"
       ],
       "examples": [
-        "The splash changed the situation.",
-        "Researchers discussed the splash carefully."
+        "Rain splashed against the dark window.",
+        "Children splashed in the shallow pool."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "splash：从核心场景引出的常用义"
+        "飞溅：液体四散射出",
+        "泼洒：把液体大片洒出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "splendid",
@@ -153218,25 +153236,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 splendid，现代词义按整体记",
-      "native_definition": "a thing or action related to splendid",
-      "core_concept": "a clear scene connected with splendid – 与该词相连的清晰场景",
+      "origin": "拉丁语 splendidus，由 splendēre（发光）＋ -idus 构成",
+      "native_definition": "very impressive in appearance, or extremely good",
+      "core_concept": "shining bright enough to impress – 亮到令人赞叹",
       "core_image": "大厅的灯光照在金色穹顶上，整座建筑显得格外华美",
       "chinese": [
-        "splendid"
+        "壮丽的",
+        "极好的"
       ],
       "examples": [
-        "The splendid changed the situation.",
-        "Researchers discussed the splendid carefully."
+        "The hall looked splendid in candlelight.",
+        "That is a splendid idea."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "splendid：从核心场景引出的常用义"
+        "壮丽的：宏伟华美令人赞叹",
+        "极好的：程度上非常好"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "split",
@@ -153246,25 +153265,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 split，现代词义按整体记",
-      "native_definition": "a thing or action related to split",
-      "core_concept": "a clear scene connected with split – 与该词相连的清晰场景",
+      "origin": "借自荷兰语与低地德语 splitten（劈开），1567 年前后起见于英语",
+      "native_definition": "to break or divide along a line",
+      "core_concept": "breaking apart along a line – 沿一条线分成两边",
       "core_image": "木板沿中线裂开，两半向相反方向分离",
       "chinese": [
-        "split"
+        "劈开",
+        "分裂"
       ],
       "examples": [
-        "The split changed the situation.",
-        "Researchers discussed the split carefully."
+        "He split the log with one blow.",
+        "The party split over the issue."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "split：从核心场景引出的常用义"
+        "劈开：用力沿纹路分开",
+        "分裂：整体分成对立的几部分"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自荷兰语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "spoil",
@@ -153274,53 +153294,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spoil，现代词义按整体记",
-      "native_definition": "a thing or action related to spoil",
-      "core_concept": "a clear scene connected with spoil – 与该词相连的清晰场景",
+      "origin": "中古英语 spoilen ← 古法语 espoillier ← 拉丁语 spoliāre（掠夺、毁坏）",
+      "native_definition": "to become unfit to use, or to ruin something",
+      "core_concept": "being stripped of what made it good – 好处被剥去而不再可用",
       "core_image": "食物放久后表面变色，气味也不再新鲜",
       "chinese": [
-        "spoil"
+        "变质",
+        "损坏"
       ],
       "examples": [
-        "The spoil changed the situation.",
-        "Researchers discussed the spoil carefully."
+        "Milk spoils quickly in this heat.",
+        "Rain spoiled the whole afternoon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "spoil：从核心场景引出的常用义"
+        "变质：食物等因久放而不能用",
+        "损坏：使某物失去应有的好处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "spokesman",
       "word": "spokesman",
       "pos": "noun",
-      "phonetic": "/ˈspokesman/",
+      "phonetic": "/ˈspəʊksmən/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 spokesman，现代词义按整体记",
-      "native_definition": "a thing or action related to spokesman",
-      "core_concept": "a clear scene connected with spokesman – 与该词相连的清晰场景",
+      "origin": "由 spoke（speak 的过去分词）＋ -s- ＋ man 构成",
+      "native_definition": "a man who speaks officially for a group",
+      "core_concept": "the man who speaks on behalf of others – 代众人出面说话的人",
       "core_image": "发言人站到麦克风前，代表整个组织回答提问",
       "chinese": [
-        "spokesman"
+        "代言人"
       ],
       "examples": [
-        "The spokesman changed the situation.",
-        "Researchers discussed the spokesman carefully."
+        "A spokesman denied the whole report.",
+        "The spokesman read a short statement."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "spokesman：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sponge",
