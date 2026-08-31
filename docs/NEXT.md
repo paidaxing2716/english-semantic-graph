@@ -1,19 +1,20 @@
 # 下一轮做什么
 
-> 现状更新于 2026-08-31。分支 `fix/etymology-gates-and-engra-gaps`，PR #1 仍未合。
+> 现状更新于 2026-08-31，第 17 片占位回填之后。
+> 分支 `fix/etymology-gates-and-engra-gaps`，PR #1 仍未合。
 > 先读 [HANDOFF.md](HANDOFF.md) 的「先读这一条」，再读本文件末尾「这轮踩实的坑」。
 
 ## 现状（现场数的）
 
 ```
 5248 词条 / 309 根 / 311 概念 / 2168 关系 / 10536 例句
-  ├─ 4114 可用
-  └─ 1134 占位（stub: true）
+  ├─ 4624 可用
+  └─  624 占位（stub: true）
 
 考研词表 5299 词形
   名义覆盖 5219  98.5%      ← 别只报这个
-  真实覆盖 4085  77.1%      ← 剔掉占位词条
-  可结构化 4075  78.2%      ← 再剔掉 a/he/it/and 这类功能词
+  真实覆盖 4595  86.7%      ← 剔掉占位词条
+  可结构化 4585  88.0%      ← 再剔掉 a/he/it/and 这类功能词
   无条目     80             按项目规则本就不建条
 ```
 
@@ -24,49 +25,84 @@ python scripts/mark_stubs.py          # 只报
 python scripts/audit_all.py           # summary.json 也带 usable / stubs
 ```
 
-已用 chunk 编号 130 个，最大 149。
+占位回填已用切片编号 1–17（`drafts/sb_chunk01–17`），下一片是 18。
+旧管道（补新词）的 chunk 编号用到 149，两套编号互不相干。
 
 ## 第一步：补占位词条的内容字段（当前主线）
 
 2026-08-28 有一次批量生成，用 `build_g_chunk*.py` 把考研词表尾段（s/t/w/y/z 段为主）
-灌成了 1134 条占位词条，只有结构合法。**覆盖率 98.5% 里有 21.4 个百分点是这批。**
-音标、词性已在 08-31 离线补完，剩下的必须逐词写：
+灌成了 1134 条占位词条，只有结构合法。音标、词性已离线补完，08-31 起逐片补内容，
+已完成 17 片 510 词。**剩 624 词，缺口如下：**
 
 | 字段 | 待补 | 说明 |
 |---|---|---|
-| native_definition | 1134 | 全是 `a thing or action related to X` |
-| core_concept | 1134 | 全是 `a clear scene connected with X` |
-| examples | 1134 | 全是 `The X changed the situation.` |
-| semantic_expansions | 1134 | 全是「从核心场景引出的常用义」 |
-| chinese | 901 | 生成器 `zh.get(w,w)` 回退成英文词本身 |
-| phonetic | 91 | 机器能补的已补完，剩下的见第二步 |
-| core_image | 89 | overall→plaster 段，从未派过 |
+| native_definition | 624 | 全是 `a thing or action related to X` |
+| core_concept | 624 | 全是 `a clear scene connected with X` |
+| examples | 624 | 全是 `The X changed the situation.` |
+| semantic_expansions | 624 | 全是「从核心场景引出的常用义」 |
+| chinese | 599 | 生成器 `zh.get(w,w)` 回退成英文词本身 |
+| phonetic | 49 | 重音歧义与同形异读两道门有意挡下的，须人写 |
+| core_image | 0 | 已全部补完 |
 
-清单直接取 `audit/stubs.tsv`（跑一次 `audit_all.py` 生成），或
-`python -c "import json;print('\n'.join(w['id'] for w in json.load(open('data/words.json',encoding='utf-8'))['words'] if w.get('stub')))"`。
+### 三个脚本＋一份规格
 
-这批好在几乎全是日耳曼型（1133/1134），**不用判词根归属**，比前面 4000 词那轮轻。
-按 30 词/片、2 路并发算约 38 批。派发指令见下面「派发指令必须带的话」，但词根归属
-那几条可以省掉。
+```bash
+python scripts/cut_stub_batches.py --start 18 --n 2 --size 30   # 切片
+# 逐词写 drafts/sb_chunk18.tsv（10 列，见 docs/stub-backfill-spec.md）
+python scripts/backfill_stub_content.py drafts/sb_chunk18.tsv --dry-run
+python scripts/backfill_stub_content.py drafts/sb_chunk18.tsv
+python tests/validate.py && python scripts/audit_all.py
+```
 
-**别用生成器批量填**——这一轮的问题就是这么来的。见「这轮踩实的坑」第一条。
+- `cut_stub_batches.py` 给每词附上 pos／phonetic／现有画面／**Wiktionary Etymology 的
+  原始 wikitext**。附原文而不是清洗过的：清洗会丢词形，`{{inh|en|enm|pamphilet}}`
+  按第二个参数抽会得到语言码 `enm` 而不是词 `pamphilet`，写的人无从察觉。
+- `backfill_stub_content.py` 只改带 `stub` 标记的词条，顺带按新 origin 重判
+  `decomposable_note`、同步 `data/examples.json`、补齐后摘掉 `stub`。
+- `docs/stub-backfill-spec.md` 是唯一规格。
 
-## 第二步：音标已做完，剩 91 条要人工
+### 别派子代理
 
-08-31 已补抓 283 个缺失缓存（`scripts/fetch_stub_wikitext.py`）并二次写回，
-假音标 1109 → 91。**剩下的 91 条别再喂脚本**，它们是两道门有意挡下的：
+试过两次，两个代理都以 `403 Failed to authenticate` 终止，零产出。并发只开了 2 路
+（项目上限），不是并发问题，是认证层。**不要反复重试**，改由主对话自己写。
+一片 30 词约需 2–3 次写入调用。
 
-| 原因 | 条数 | 为什么不能自动写 |
-|---|---|---|
-| 同形异读 | 35 | 多个 Pronunciation 段，取首个会取错词源支 |
-| 重音歧义 | 35 | 名动异重，取错支等于把重音教反 |
-| 无 IPA | 11 | Wiktionary 该词条没给音标 |
-| 窄式记音 | 7 | 只有方言变体（`ɚ ɝ ʉ ɐ` 那类），折成英式等于伪造 |
-| 无 English 段 | 2 | `september` / `thursday`，Wiktionary 收的是首字母大写形 |
+### 十道门（都是踩出来才加的）
 
-清单跑 `python scripts/extract_phonetic_pos.py`（不加 `--apply`），
-看 `drafts/phonetic_pos.tsv` 的 `note` 列。重音歧义那 35 条的 note 里带
-`重音歧义(候选之一 …)`，人只需判该取哪一支。
+列数须精确 10 ｜ 画面不得含中文义项 ｜ 例句正好 2 句 ｜ 例句 5–20 词 ｜
+concept 须含短破折号 `–` ｜ zh 有 2 个以上义项时 expansions 必填 ｜
+音标方向（该填不填、不该填却填、填回原值）｜ pos 须在允许集合且不得与原值相同 ｜
+origin 漏 `←` 箭头 ｜ 英文释义不得与库内既有词条重复 ｜ 中文列不得混进英文单词
+
+命中率最高的是**例句词数**（5 次）与**画面含义项**（4 次），两者都是我写的时候
+想当然。写之前逐条做这三件事能把拦截降到零（第 13 片零拦截）：
+**逐字比对新中文与现有画面**（不是逐词——`slide` 的「向下滑」含「下滑」、
+`snap` 的「折断」都是部分重合）、**逐条确认借词的箭头串通**、**逐句数例句词数**。
+
+## 第二步：音标已做完，剩 49 条要人工
+
+08-31 已补抓 283 个缺失缓存（`scripts/fetch_stub_wikitext.py`）并两轮写回，
+假音标 1109 → 49。**剩下的别再喂脚本**，它们是两道门有意挡下的：
+同形异读（多个 Pronunciation 段，取首个会取错词源支）与重音歧义（名动异重，
+取错支等于把重音教反）。清单跑 `python scripts/extract_phonetic_pos.py`（不加
+`--apply`），看 `drafts/phonetic_pos.tsv` 的 `note` 列。
+
+### 另有一类音标没有入口：「有值但值不对」
+
+假音标那道门只认 `'/ˈ'+拼写+'/'` 这一种签名。**格式合法但读音错的，判据抓不到**，
+只能靠写内容时顺眼发现。已找出 10 条，成因各异：
+
+```
+rarely    /ˈreːli/    sale /seːl/    somewhere /ˈsʌm.weː/   ← 抽取器把 ɛː 折成 eː，造出不存在的音位
+saint     /sən(t)/                                          ← 弱读形当了词条音标
+shortly   /ˈʃɔrtli/   parcel /ˈpɑrsəl/                      ← 美式儿化写法，与库内非儿化口径不符
+sing      /ˈsɪŋɡ/     sting /ˈstɪŋɡ/   young /jʊŋɡ/         ← 词尾多写 ɡ（ŋ 已含鼻音）
+```
+
+**两次扫这类问题都是「先扫出一批，多数其实是对的」**：`ɛː` 那次 29 条候选全都另有
+合法替代；`ŋɡ` 那次 16 条里 14 条合法（`finger` `language` `hungry` `jungle` 的
+ŋɡ 在元音前，英语确实读两个音，只有词尾的 ŋɡ 不合法）。**判据要收紧到能区分合法与
+非法的那个位置，否则批量「修」就是批量制造错误。**
 
 ## 第三步：collocations 的尾巴
 
@@ -261,6 +297,42 @@ Grep / Glob 都是，绕过 sandbox 也一样），与派子代理同时发生�
 上游的事。遇到这种：**别反复重试**，也**绝不能把「代理可能会返回什么」当成已收到
 的回报写出来**（犯过两次：一次把没收到的子代理结论写进回复，一次把根本没做的
 编辑写成做过并编出了 NameError 与「权限墙」）。等回报或验文件时间戳。
+
+### 9. classify_note 有三条没写在文档里的路径
+
+`entries_from_draft.classify_note()` 按 origin 的文字判 `decomposable_note`，
+**所以 origin 的措辞会决定另一个字段的分档**。三条实测路径：
+
+1. **是借词就必须写 `←` 箭头。** 分流器只在「箭头后紧跟外语名」时才判借词。
+   origin 里同时出现日耳曼词形与外语名却没有箭头，会静默落回默认档。栽过四次：
+   `optical`（纯词缀式 origin 不含语言名）、`paralyze`、`periodical`、`pound`、`saint`。
+2. **提到「原始日耳曼语」会强制走日耳曼分支**，该分支要求箭头紧跟外语名才判借词。
+   于是晚期的同语系借词（荷兰语、低地德语）**要在「词源链完整」与「note 正确」
+   之间选一个**：`slim` `snack` `snap` `smuggle` 都得省掉原始日耳曼语那一跳才判对。
+   `smile` 反过来保留了那一跳，判成日耳曼核心词——它是日耳曼语内部借词，这档接得住。
+3. **语言键清单缺项会让两处判据同时瞎。** `slogan` ← 苏格兰盖尔语，而 NOTE_BORROWED
+   与「漏箭头」门用的是同一份语言清单，都没有盖尔语，于是既判错又不报警。
+   已补 `盖尔`／`爱尔兰` 两键。清单里仍没有德语——`smile` 那类靠日耳曼档兜住。
+
+反过来，**外语名出现在「可能／一说／或与／非／远亲／同源」这类措辞里时不写箭头是对的**
+——分流器正是靠没有箭头来判定那不是来源。库内 bird / brain / howl / flock 都属此类。
+`scream` 曾因「与中古荷兰语…同源」被误拦，已把「同源」「同族」加进门的豁免词。
+
+顺这些模式扫全库另修两条既有错：`rack`（中古荷兰语借词判成日耳曼核心词）、
+`nerve`／`harness`／`jolly`（外语名开头无箭头，判成日耳曼核心词，只报未改）。
+
+### 10. 我自己新加的门也会挡住正确输入
+
+两次：切片脚本让写的人「照抄 phonetic」，而 91 词的音标本身就是占位串；
+音标门判「新值等于拼写就拒」，而 `rest` 的真音标就是 `/rest/`（库内有 28 条这样的
+真音标）。后者改用「与原值比对」才对——**判据要挑不依赖被检查对象表面形态的那一个。**
+
+### 11. 近义词最容易被写成同一句释义
+
+`seldom` 与 `rarely` 都写成 `not often`、`perplex` 与 `bewilder` 都写成
+`to confuse someone completely`。撞车说明那一条没把两个词区分开，等于白写。
+已加释义查重门（只挡新写的；库内原有 amaze|astonish、bare|naked、gigantic|huge、
+ponder|contemplate 四对不追溯）。
 
 ## 附：数据来源
 
