@@ -139866,25 +139866,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 perplex，现代词义按整体记",
-      "native_definition": "a thing or action related to perplex",
-      "core_concept": "a clear scene connected with perplex – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "经古法语传入 ← 拉丁语 perplexus（缠住的、混乱的），由 per-（彻底）＋ plexus（编织，plectere 的过去分词）构成",
+      "native_definition": "to confuse someone completely",
+      "core_concept": "tangled so thoroughly that no way shows – 缠得彻底以致找不到出路",
+      "core_image": "一团线绕成死结，找不到线头在哪",
       "chinese": [
         "使困惑"
       ],
       "examples": [
-        "The perplex changed the situation.",
-        "Researchers discussed the perplex carefully."
+        "The instructions perplexed even the engineers.",
+        "Her sudden answer perplexed the whole panel."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "使困惑：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "persevere",
@@ -139894,25 +139891,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 persevere，现代词义按整体记",
-      "native_definition": "a thing or action related to persevere",
-      "core_concept": "a clear scene connected with persevere – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 perseveren ← 古法语 perseverer ← 拉丁语 persevērāre（一直坚定下去），由 per-（贯穿）＋ sevērus（严正）构成",
+      "native_definition": "to keep trying despite difficulty",
+      "core_concept": "keeping strict at it all the way through – 一路严正地做下去",
+      "core_image": "攀爬者反复滑落，每次都重新抓住同一处岩缝",
       "chinese": [
         "坚持"
       ],
       "examples": [
-        "The persevere changed the situation.",
-        "Researchers discussed the persevere carefully."
+        "She persevered until the machine finally worked.",
+        "They persevered through two failed attempts."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "坚持：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "persuade",
@@ -139922,28 +139916,25 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 persuade，现代词义按整体记",
-      "native_definition": "a thing or action related to persuade",
-      "core_concept": "a clear scene connected with persuade – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "拉丁语 persuādēre（劝服），由 per-（彻底）＋ suādēre（劝告）构成",
+      "native_definition": "to make someone agree by giving reasons",
+      "core_concept": "bringing someone all the way round by advice – 靠劝说把人整个说过来",
+      "core_image": "两人隔桌对坐，一方摆出三张纸后另一方点头",
       "chinese": [
         "说服"
       ],
       "examples": [
-        "The persuade changed the situation.",
-        "Researchers discussed the persuade carefully."
+        "He persuaded them to change the plan.",
+        "Nothing could persuade her to stay longer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "说服：从核心场景引出的常用义"
-      ],
+      "semantic_expansions": [],
       "collocations": [
         "persuade sb to do sth —— 说服某人做某事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "persuasion",
@@ -139953,28 +139944,29 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 persuasion，现代词义按整体记",
-      "native_definition": "a thing or action related to persuasion",
-      "core_concept": "a clear scene connected with persuasion – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "法语 persuasion 及其来源 ← 拉丁语 persuāsiō，源自 persuādēre（劝服），由 per-（彻底）＋ suādēre（劝告）构成",
+      "native_definition": "the act of making someone agree, or a firm belief",
+      "core_concept": "bringing another round to a view – 把人引到某个看法上",
+      "core_image": "一方讲完后，对面原本摇头的人改成了点头",
       "chinese": [
-        "说服"
+        "说服",
+        "信念"
       ],
       "examples": [
-        "The persuasion changed the situation.",
-        "Researchers discussed the persuasion carefully."
+        "It took gentle persuasion to change his mind.",
+        "People of every persuasion attended the talk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "说服：从核心场景引出的常用义"
+        "说服：把人劝到接受某主张",
+        "信念：被说服后持定的看法"
       ],
       "collocations": [
         "by persuasion —— 通过劝说"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "pessimistic",
@@ -139984,25 +139976,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pessimistic，现代词义按整体记",
-      "native_definition": "a thing or action related to pessimistic",
-      "core_concept": "a clear scene connected with pessimistic – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "由 pessimist ＋ -ic 构成；pessimist ← 法语 pessimiste，由拉丁语 pessimus（最坏的）造出",
+      "native_definition": "expecting bad things to happen",
+      "core_concept": "expecting the worse outcome – 倾向于认定会有坏结果",
+      "core_image": "天边只余一线亮，行人却已收起伞往回走",
       "chinese": [
         "悲观的"
       ],
       "examples": [
-        "The pessimistic changed the situation.",
-        "Researchers discussed the pessimistic carefully."
+        "He remained pessimistic about the outcome.",
+        "Analysts gave a pessimistic forecast that morning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "悲观的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "petrol",
@@ -140012,25 +140001,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 petrol，现代词义按整体记",
-      "native_definition": "a thing or action related to petrol",
-      "core_concept": "a clear scene connected with petrol – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自法语 (essence de) pétrole ← 中世纪拉丁语 petroleum ← 希腊语 petrelaion（石中之油），由 petra（石）＋ elaion（油）构成",
+      "native_definition": "liquid fuel used in car engines",
+      "core_concept": "oil drawn from rock and burnt as fuel – 从石里取出的油，用作燃料",
+      "core_image": "加油枪插进车侧开口，表盘数字不断跳动",
       "chinese": [
         "汽油"
       ],
       "examples": [
-        "The petrol changed the situation.",
-        "Researchers discussed the petrol carefully."
+        "The car needs petrol before we leave.",
+        "Petrol prices rose again this week."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "汽油：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "petroleum",
@@ -140040,25 +140026,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 petroleum，现代词义按整体记",
-      "native_definition": "a thing or action related to petroleum",
-      "core_concept": "a clear scene connected with petroleum – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自中世纪拉丁语 petroleum ← 希腊语 petrelaion（石中之油），由 petra（石）＋ elaion（油）构成",
+      "native_definition": "thick oil taken from under the ground",
+      "core_concept": "oil lying under rock – 埋在岩层下的油",
+      "core_image": "钻塔下黑褐色黏液顺管道涌出，装进圆罐",
       "chinese": [
         "石油"
       ],
       "examples": [
-        "The petroleum changed the situation.",
-        "Researchers discussed the petroleum carefully."
+        "Petroleum is refined into several different fuels.",
+        "The region exports petroleum and gas."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "石油：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "petty",
@@ -140068,25 +140051,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 petty，现代词义按整体记",
-      "native_definition": "a thing or action related to petty",
-      "core_concept": "a clear scene connected with petty – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 peti／pety（小的）← 古法语 petit（小），另经盎格鲁诺曼语传入；拟声起源",
+      "native_definition": "small and not important",
+      "core_concept": "small enough not to matter – 小到不值一提",
+      "core_image": "桌上一堆碎纸屑被人反复挑出来议论",
       "chinese": [
-        "琐碎的"
+        "琐碎的",
+        "小的"
       ],
       "examples": [
-        "The petty changed the situation.",
-        "Researchers discussed the petty carefully."
+        "He complained about petty details again.",
+        "Petty rules slowed the whole process."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "琐碎的：从核心场景引出的常用义"
+        "琐碎的：小而无关紧要",
+        "小的：规模或数额都不大"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pharmacy",
@@ -140096,25 +140080,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pharmacy，现代词义按整体记",
-      "native_definition": "a thing or action related to pharmacy",
-      "core_concept": "a clear scene connected with pharmacy – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pharmacy ← 中古法语 pharmacie ← 中世纪拉丁语 pharmacia ← 希腊语 pharmakeia（用药），源自 pharmakon（药、咒物）",
+      "native_definition": "a shop where medicines are prepared and sold",
+      "core_concept": "the place where remedies are made up – 配制并售出药物的处所",
+      "core_image": "白柜台后是一排贴标签的小瓶，绿十字灯亮着",
       "chinese": [
         "药房"
       ],
       "examples": [
-        "The pharmacy changed the situation.",
-        "Researchers discussed the pharmacy carefully."
+        "She collected the tablets from the pharmacy.",
+        "The pharmacy closes at six each evening."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "药房：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "phase",
@@ -140124,25 +140105,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 phase，现代词义按整体记",
-      "native_definition": "a thing or action related to phase",
-      "core_concept": "a clear scene connected with phase – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自新拉丁语 phasis ← 希腊语 phasis（显现的样子），与 phainein（显现）同支",
+      "native_definition": "one distinct stage in a process of change",
+      "core_concept": "one shown stage among several – 依次显现的其中一段",
+      "core_image": "月相图上四个不同亮法依次排开，各占一格",
       "chinese": [
         "阶段"
       ],
       "examples": [
-        "The phase changed the situation.",
-        "Researchers discussed the phase carefully."
+        "The project entered its final phase.",
+        "This phase lasts about three weeks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "阶段：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "phenomenon",
@@ -140152,25 +140130,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 phenomenon，现代词义按整体记",
-      "native_definition": "a thing or action related to phenomenon",
-      "core_concept": "a clear scene connected with phenomenon – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "晚期拉丁语 phaenomenon（显现之物）← 希腊语 phainomenon，为 phainein（显现）的中性现在分词",
+      "native_definition": "something that happens and can be observed",
+      "core_concept": "a thing that shows itself to view – 自行显现出来供人看见的事",
+      "core_image": "观测者记下天上反复出现的那道光带",
       "chinese": [
         "现象"
       ],
       "examples": [
-        "The phenomenon changed the situation.",
-        "Researchers discussed the phenomenon carefully."
+        "Scientists still cannot explain this phenomenon.",
+        "The phenomenon appears only in cold weather."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "现象：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "philosopher",
@@ -140180,25 +140155,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 philosopher，现代词义按整体记",
-      "native_definition": "a thing or action related to philosopher",
-      "core_concept": "a clear scene connected with philosopher – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 philosophre ← 中古法语 philosophe ← 拉丁语 philosophus ← 希腊语 philosophos（爱智慧者），由 philos（爱）＋ sophos（智）构成",
+      "native_definition": "a person who studies the nature of knowledge and existence",
+      "core_concept": "one who loves wisdom – 爱智慧的人",
+      "core_image": "石廊下有人来回踱步，边走边同随行者辩问",
       "chinese": [
         "哲学家"
       ],
       "examples": [
-        "The philosopher changed the situation.",
-        "Researchers discussed the philosopher carefully."
+        "The philosopher questioned every common assumption.",
+        "Students read that philosopher every term."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "哲学家：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "philosophy",
@@ -140208,25 +140180,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 philosophy，现代词义按整体记",
-      "native_definition": "a thing or action related to philosophy",
-      "core_concept": "a clear scene connected with philosophy – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 philosophie ← 古法语 philosophie ← 拉丁语 philosophia ← 希腊语 philosophia，由 philos（爱）＋ sophia（智慧）构成",
+      "native_definition": "the study of basic questions about knowledge and existence, or a set of beliefs",
+      "core_concept": "the love and pursuit of wisdom – 对智慧的爱与追求",
+      "core_image": "一页页写满追问的稿纸摊开，没有一条结论被圈出",
       "chinese": [
-        "哲学"
+        "哲学",
+        "人生观"
       ],
       "examples": [
-        "The philosophy changed the situation.",
-        "Researchers discussed the philosophy carefully."
+        "She studied philosophy for four years.",
+        "His philosophy is to keep things simple."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "哲学：从核心场景引出的常用义"
+        "哲学：追问知识与存在根本问题的学问",
+        "人生观：一个人持定的一套看法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "photo",
@@ -140236,25 +140209,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 photo，现代词义按整体记",
-      "native_definition": "a thing or action related to photo",
-      "core_concept": "a clear scene connected with photo – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "photograph 的截短形；photo- ← 希腊语 phōs（光）",
+      "native_definition": "a picture made with a camera",
+      "core_concept": "an image written by light – 用光留下的图像",
+      "core_image": "相纸上定住了一个瞬间，边缘留着白框",
       "chinese": [
         "照片"
       ],
       "examples": [
-        "The photo changed the situation.",
-        "Researchers discussed the photo carefully."
+        "She showed us a photo of her garden.",
+        "He took several photos of the bridge."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "照片：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "phrase",
@@ -140264,25 +140234,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 phrase，现代词义按整体记",
-      "native_definition": "a thing or action related to phrase",
-      "core_concept": "a clear scene connected with phrase – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自晚期拉丁语 phrasis（措辞）← 希腊语 phrasis（表达方式），源自 phrazein（说出）",
+      "native_definition": "a small group of words used together",
+      "core_concept": "a small group of words taken as one – 当成一体用的一小组词",
+      "core_image": "一句话里有几个词被下划线连成一小组",
       "chinese": [
-        "短语"
+        "短语",
+        "说法"
       ],
       "examples": [
-        "The phrase changed the situation.",
-        "Researchers discussed the phrase carefully."
+        "This phrase appears twice on the page.",
+        "He repeated the same phrase all evening."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "短语：从核心场景引出的常用义"
+        "短语：合起来用的几个词",
+        "说法：某种特定的措辞方式"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "picnic",
@@ -140292,25 +140263,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 picnic，现代词义按整体记",
-      "native_definition": "a thing or action related to picnic",
-      "core_concept": "a clear scene connected with picnic – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自法语 pique-nique",
+      "native_definition": "a meal eaten outdoors away from home",
+      "core_concept": "a meal carried out and eaten outdoors – 带出去在野地吃的一餐",
+      "core_image": "草地铺开一块方格布，篮子里取出面包与水果",
       "chinese": [
         "野餐"
       ],
       "examples": [
-        "The picnic changed the situation.",
-        "Researchers discussed the picnic carefully."
+        "They had a picnic beside the lake.",
+        "Rain ruined our picnic that afternoon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "野餐：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "picture",
@@ -140320,25 +140288,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 picture，现代词义按整体记",
-      "native_definition": "a thing or action related to picture",
-      "core_concept": "a clear scene connected with picture – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 picture ← 拉丁语 pictūra（绘画），源自 pingere（画）",
+      "native_definition": "a drawing, painting or photograph of something",
+      "core_concept": "a painted or captured likeness – 画出或摄下的形象",
+      "core_image": "木框里嵌着一幅上了色的平面图样，挂在墙上",
       "chinese": [
-        "图画"
+        "图画",
+        "照片"
       ],
       "examples": [
-        "The picture changed the situation.",
-        "Researchers discussed the picture carefully."
+        "A picture of the harbour hung there.",
+        "She drew a picture of her house."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "图画：从核心场景引出的常用义"
+        "图画：画出来的形象",
+        "照片：用相机摄下的形象"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pierce",
@@ -140348,25 +140317,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pierce，现代词义按整体记",
-      "native_definition": "a thing or action related to pierce",
-      "core_concept": "a clear scene connected with pierce – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 perce ← 古法语 percier ← 俗拉丁语 *pertūsiō ← 拉丁语 pertundere（凿穿），由 per-（穿过）＋ tundere（捶打）构成",
+      "native_definition": "to make a hole through something with a sharp point",
+      "core_concept": "to drive a point right through – 用尖端一直捅过去",
+      "core_image": "尖锥压进皮革，另一面顶出一个圆孔",
       "chinese": [
         "刺穿"
       ],
       "examples": [
-        "The pierce changed the situation.",
-        "Researchers discussed the pierce carefully."
+        "The nail pierced the thin metal sheet.",
+        "A splinter pierced his left palm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "刺穿：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pig",
@@ -140376,25 +140342,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pig，现代词义按整体记",
-      "native_definition": "a thing or action related to pig",
-      "core_concept": "a clear scene connected with pig – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pigge（幼猪）← 古英语 *picga，或为原始西日耳曼语 *pūk（猪）的指小形",
+      "native_definition": "a farm animal with a broad snout kept for meat",
+      "core_concept": "a broad-snouted animal raised for meat – 用宽扁鼻拱食、为肉而养的家畜",
+      "core_image": "圈里的动物用扁平鼻子拱开泥土找食",
       "chinese": [
         "猪"
       ],
       "examples": [
-        "The pig changed the situation.",
-        "Researchers discussed the pig carefully."
+        "The farmer keeps twelve pigs here.",
+        "Pigs rooted through the muddy pen."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "猪：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "pigeon",
@@ -140404,25 +140367,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pigeon，现代词义按整体记",
-      "native_definition": "a thing or action related to pigeon",
-      "core_concept": "a clear scene connected with pigeon – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pygeoun ← 古法语 pyjon ← 晚期拉丁语 pīpiōnem（雏啼之鸟），源自 pīpiāre（啾鸣），拟声起源",
+      "native_definition": "a common grey bird often seen in towns",
+      "core_concept": "a grey town bird named from its cheeping – 因啾声得名的灰色城居鸟",
+      "core_image": "广场石板上一群灰鸟点头啄食，颈羽泛着紫绿",
       "chinese": [
         "鸽子"
       ],
       "examples": [
-        "The pigeon changed the situation.",
-        "Researchers discussed the pigeon carefully."
+        "Pigeons gathered around the fountain again.",
+        "A pigeon landed on the window ledge."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "鸽子：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pilgrim",
@@ -140432,25 +140392,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pilgrim，现代词义按整体记",
-      "native_definition": "a thing or action related to pilgrim",
-      "core_concept": "a clear scene connected with pilgrim – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pilegrim ← 古英语 pilegrīm ← 古法语 pelegrin ← 拉丁语 peregrīnus（外来者）",
+      "native_definition": "a person who travels to a holy place",
+      "core_concept": "a traveller from afar to a sacred place – 远道前往圣地的人",
+      "core_image": "背着行囊的人沿石阶一步步上山，手里握着杖",
       "chinese": [
         "朝圣者"
       ],
       "examples": [
-        "The pilgrim changed the situation.",
-        "Researchers discussed the pilgrim carefully."
+        "Pilgrims walked the last mile barefoot.",
+        "Each pilgrim carried very little baggage."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "朝圣者：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pillow",
@@ -140460,25 +140417,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pillow，现代词义按整体记",
-      "native_definition": "a thing or action related to pillow",
-      "core_concept": "a clear scene connected with pillow – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pilwe ← 古英语 pyle ← 原始西日耳曼语 *pulwī ← 拉丁语 pulvīnus（软垫），与 pulvis（尘）有关",
+      "native_definition": "a cloth bag filled with soft material for the head",
+      "core_concept": "a soft-filled bag to rest the head – 填软物供托头的布袋",
+      "core_image": "床头放着一只鼓起的布袋，中间被压出凹痕",
       "chinese": [
         "枕头"
       ],
       "examples": [
-        "The pillow changed the situation.",
-        "Researchers discussed the pillow carefully."
+        "He fluffed the pillow before lying down.",
+        "She put a pillow behind her back."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "枕头：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pioneer",
@@ -140488,25 +140442,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pioneer，现代词义按整体记",
-      "native_definition": "a thing or action related to pioneer",
-      "core_concept": "a clear scene connected with pioneer – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自中古法语 pionnier（原指开路的步兵）← 古法语 peonier，源自 peon（步兵）",
+      "native_definition": "one of the first people to do or explore something",
+      "core_concept": "the one who goes first and opens the way – 走在最前头开出路的人",
+      "core_image": "荒野里第一行脚印通向远处，后面还没有别的痕迹",
       "chinese": [
         "先驱"
       ],
       "examples": [
-        "The pioneer changed the situation.",
-        "Researchers discussed the pioneer carefully."
+        "She was a pioneer in this field.",
+        "Pioneers cleared the land by hand."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "先驱：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "pirate",
@@ -140516,25 +140467,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pirate，现代词义按整体记",
-      "native_definition": "a thing or action related to pirate",
-      "core_concept": "a clear scene connected with pirate – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pirate ← 古法语 pirate ← 拉丁语 pīrāta ← 希腊语 peiratēs（袭掠者），源自 peira（尝试、图谋）",
+      "native_definition": "someone who attacks and robs ships at sea",
+      "core_concept": "one who raids ships at sea – 在海上袭掠船只的人",
+      "core_image": "帆船靠上另一条船，蒙面者攀绳翻过船舷",
       "chinese": [
         "海盗"
       ],
       "examples": [
-        "The pirate changed the situation.",
-        "Researchers discussed the pirate carefully."
+        "Pirates seized the cargo near the coast.",
+        "The film is about a young pirate."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "海盗：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "pistol",
@@ -140544,25 +140492,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pistol，现代词义按整体记",
-      "native_definition": "a thing or action related to pistol",
-      "core_concept": "a clear scene connected with pistol – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 pistolet ← 中古法语 pistolet／pistole（小型火器）；更上一层未定，一说经中古高地德语出自捷克语 píšťala（管、笛）",
+      "native_definition": "a small gun held in one hand",
+      "core_concept": "a short firearm fired from the hand – 单手持握的短管火器",
+      "core_image": "掌中握着短管金属器械，扳机护圈套着手指",
       "chinese": [
         "手枪"
       ],
       "examples": [
-        "The pistol changed the situation.",
-        "Researchers discussed the pistol carefully."
+        "The officer kept a pistol in his belt.",
+        "He locked the pistol in a drawer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "手枪：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "piston",
@@ -140572,25 +140517,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 piston，现代词义按整体记",
-      "native_definition": "a thing or action related to piston",
-      "core_concept": "a clear scene connected with piston – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "借自法语 piston",
+      "native_definition": "a part that slides up and down inside a cylinder",
+      "core_concept": "a disc driven back and forth in a tube – 在筒内往复推移的圆盘",
+      "core_image": "圆柱筒内一块圆盘上下往复，带动一根连杆",
       "chinese": [
         "活塞"
       ],
       "examples": [
-        "The piston changed the situation.",
-        "Researchers discussed the piston carefully."
+        "The piston moves faster at high speed.",
+        "Engineers replaced a worn piston yesterday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "活塞：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "plague",
@@ -140600,25 +140542,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plague，现代词义按整体记",
-      "native_definition": "a thing or action related to plague",
-      "core_concept": "a clear scene connected with plague – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 plage ← 古法语 plage ← 拉丁语 plāga（打击、创伤），源自 plangere（击打）",
+      "native_definition": "a deadly disease that spreads widely, or a great trouble",
+      "core_concept": "a blow that falls on many at once – 一下打到许多人身上的祸患",
+      "core_image": "街上门户紧闭，墙上画着记号，运车缓慢驶过",
       "chinese": [
-        "瘟疫"
+        "瘟疫",
+        "灾祸"
       ],
       "examples": [
-        "The plague changed the situation.",
-        "Researchers discussed the plague carefully."
+        "The plague killed thousands in one year.",
+        "Locusts became a plague that summer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "瘟疫：从核心场景引出的常用义"
+        "瘟疫：大范围传开的致命疾病",
+        "灾祸：像重击一样落下的大麻烦"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "planet",
@@ -140628,25 +140571,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 planet，现代词义按整体记",
-      "native_definition": "a thing or action related to planet",
-      "core_concept": "a clear scene connected with planet – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 planete ← 古法语 planete ← 拉丁语 planēta ← 希腊语 planētēs（游走者），源自 planasthai（漫游）",
+      "native_definition": "a large body in space that moves around a star",
+      "core_concept": "a wandering light among fixed stars – 在固定星群中游走的亮点",
+      "core_image": "星图上几个亮点位置逐夜移动，其余始终不变",
       "chinese": [
         "行星"
       ],
       "examples": [
-        "The planet changed the situation.",
-        "Researchers discussed the planet carefully."
+        "Each planet follows its own orbit.",
+        "Astronomers found a planet beyond Neptune."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "行星：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "plaster",
@@ -140656,53 +140596,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plaster，现代词义按整体记",
-      "native_definition": "a thing or action related to plaster",
-      "core_concept": "a clear scene connected with plaster – 与该词相连的清晰场景",
-      "core_image": "木桌上摆着一件物品，旁边留着一条空白路径，窗光从左侧照来",
+      "origin": "中古英语 plaster ← 古英语 plaster ← 晚期拉丁语 plastrum，为古典拉丁语 emplastrum（膏药、敷布）的缩略",
+      "native_definition": "a paste that hardens on walls, or a small dressing for a cut",
+      "core_concept": "a paste laid on a surface to set – 敷在表面并会硬结的糊",
+      "core_image": "白色粉末兑水成糊，抹上墙面后逐渐硬成平整一层",
       "chinese": [
-        "石膏"
+        "石膏",
+        "膏药"
       ],
       "examples": [
-        "The plaster changed the situation.",
-        "Researchers discussed the plaster carefully."
+        "Workers spread plaster over the brick wall.",
+        "She put a plaster on her finger."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "石膏：从核心场景引出的常用义"
+        "石膏：兑水成糊、干后硬成一层",
+        "膏药：同样敷在表面，只是敷在伤处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "plastic",
       "word": "plastic",
-      "pos": "noun",
+      "pos": "noun / adjective",
       "phonetic": "/ˈplæstɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 plastic，现代词义按整体记",
-      "native_definition": "a thing or action related to plastic",
-      "core_concept": "a clear scene connected with plastic – 与该词相连的清晰场景",
+      "origin": "拉丁语 plasticus（塑造的）← 希腊语 plastikos，源自 plassein（塑、造形）",
+      "native_definition": "a light material that can be shaped, or able to be shaped",
+      "core_concept": "able to be moulded into shape – 可以被塑成形状的",
       "core_image": "透明模具里倒入热浆，冷却后变成轻而硬的彩色物件",
       "chinese": [
-        "塑料"
+        "塑料",
+        "可塑的"
       ],
       "examples": [
-        "The plastic changed the situation.",
-        "Researchers discussed the plastic carefully."
+        "Most bottles here are made of plastic.",
+        "Clay stays plastic while it is damp."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "塑料：从核心场景引出的常用义"
+        "塑料：可塑成形的人造材料",
+        "可塑的：能被塑造改变形状的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "playground",
