@@ -1,0 +1,170 @@
+#!/usr/bin/env python3
+"""把子代理起草的内容字段回填进占位词条。
+
+    python scripts/backfill_stub_content.py drafts/sb_chunk01.tsv --dry-run
+    python scripts/backfill_stub_content.py drafts/sb_chunk01.tsv
+
+输入是 9 列 TSV，**列数必须精确等于 9**（空列前面的制表符不能省）：
+
+    1 word        小写，必须已在库且带 stub 标记
+    2 origin      中文词源一句。照 drafts/.etym_cache/ 的真实词源写，不许编词形
+    3 native      英文释义一句，小写开头，末尾不加句号
+    4 zh          中文义项，/ 分隔，1–4 个，最常用在前
+    5 examples    两句英文，| 分隔，各 5–12 词，句末句号
+    6 concept     `english phrase – 中文解释`，短破折号 –
+    7 expansions  | 分隔，逐条说明某义项如何从核心画面推出。zh 有 2 个以上时必填
+    8 image       **仅当该词的 core_image 仍是模板时才填**，否则留空表示不动
+    9 phonetic    **仅当切片标了「是拼写套斜杠」时才填**，否则留空表示不动
+
+第 8、9 列都是「留空即不动」。加第 9 列是因为 91 词的音标仍是生成器的占位串
+（重音歧义与同形异读两道门有意挡下没自动写），这些必须由人补，得有个入口。
+
+【为什么不走 entries_from_draft.py】那条是给新词条的，遇到已入库的词会报
+「已在词库中，勿重复入库」并拒绝。这里恰恰只改已入库词条的若干字段。
+
+【为什么不走 backfill_collocations.py】那条只写 collocations 一个字段。
+
+写完会做三件事：
+  - 用 entries_from_draft.classify_note() 按新 origin 重新判 decomposable_note。
+    原值全是「日耳曼核心词」——那是生成器一律套的，而这批里有大量法语/拉丁借词
+    （pamphlet ← 法语 pamphilet、plaster ← 拉丁 emplastrum）。不重判就是错标。
+  - 同步 data/examples.json（那边另存 10536 条，含 1193 对模板例句）。
+  - 该词的模板字段全部补齐后摘掉 stub 标记。补一半的保留标记，便于续做。
+"""
+import argparse
+import importlib.util
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+NCOL = 9
+# 库内 4114 条真音标只用这些字符（extract_phonetic_pos.LIB_CHARSET 同一套）。
+# 卡住这个集合是为了拦窄式记音与美式符号，让新写的音标与全库一致。
+PHONETIC_CHARSET = set("()./abdefghijklmnoprstuvwz·æðŋɑɒɔəɜɡɪʃʊʌʒˈˌːθ")
+
+
+def load(name):
+    spec = importlib.util.spec_from_file_location(name, ROOT / "scripts" / f"{name}.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("tsv", nargs="+")
+    ap.add_argument("--dry-run", action="store_true")
+    a = ap.parse_args()
+
+    audit = load("audit_all")
+    entries = load("entries_from_draft")
+
+    wp, ep = DATA / "words.json", DATA / "examples.json"
+    db = json.loads(wp.read_text(encoding="utf-8"))
+    exdb = json.loads(ep.read_text(encoding="utf-8"))
+    idx = {w["id"]: w for w in db["words"]}
+
+    rows, errs = [], []
+    for f in a.tsv:
+        for n, line in enumerate(Path(f).read_text(encoding="utf-8").splitlines(), 1):
+            if not line.strip() or line.lstrip().startswith("#"):
+                continue
+            c = line.rstrip("\n").split("\t")
+            if len(c) != NCOL:
+                errs.append(f"{Path(f).name}:{n} 列数 {len(c)} ≠ {NCOL}")
+                continue
+            word = c[0].strip()
+            w = idx.get(word)
+            if not w:
+                errs.append(f"{Path(f).name}:{n} {word} 不在库")
+                continue
+            if not w.get("stub"):
+                errs.append(f"{Path(f).name}:{n} {word} 不是占位词条，拒绝改写")
+                continue
+            rows.append((Path(f).name, n, word, c))
+
+    for name, n, word, c in rows:
+        w = idx[word]
+        zh = [x.strip() for x in c[3].split("/") if x.strip()]
+        ex = [x.strip() for x in c[4].split("|") if x.strip()]
+        image = c[7].strip() or (w.get("core_image") or "")
+        # image 不得含 zh 里长度≥2 的义项：学习者看画面时词与中文都被遮住，
+        # 点名义项等于自泄答案。这道门与 audit_all 的 critical 判据一致。
+        for t in zh:
+            if len(t) >= 2 and t in image:
+                errs.append(f"{name}:{n} {word} 画面含中文义项「{t}」")
+        if len(ex) != 2:
+            errs.append(f"{name}:{n} {word} 例句 {len(ex)} 句，须 2 句")
+        for s in ex:
+            if not s.endswith((".", "!", "?")):
+                errs.append(f"{name}:{n} {word} 例句未以句号结束：{s[:30]}")
+            if not 5 <= len(s.rstrip(".").split()) <= 20:
+                errs.append(f"{name}:{n} {word} 例句词数 {len(s.split())} 越界：{s[:30]}")
+        if len(zh) > 1 and not c[6].strip():
+            errs.append(f"{name}:{n} {word} zh 有 {len(zh)} 个义项，expansions 必填")
+        if "–" not in c[5]:
+            errs.append(f"{name}:{n} {word} concept 缺短破折号 –")
+        if c[7].strip() and (w.get("core_image") or "").strip() not in audit.TEMPLATE_IMAGES:
+            errs.append(f"{name}:{n} {word} core_image 已是真画面，第 8 列不该填")
+        ph_new = c[8].strip()
+        ph_fake = (w.get("phonetic") or "") == "/ˈ" + word + "/"
+        if ph_new:
+            if not ph_fake:
+                errs.append(f"{name}:{n} {word} 音标已是真音标，第 9 列不该填")
+            if not (ph_new.startswith("/") and ph_new.endswith("/") and len(ph_new) > 2):
+                errs.append(f"{name}:{n} {word} 音标须用斜杠包裹：{ph_new}")
+            if ph_new in ("/ˈ" + word + "/", "/" + word + "/"):
+                errs.append(f"{name}:{n} {word} 音标仍是拼写套斜杠：{ph_new}")
+            bad = set(ph_new) - PHONETIC_CHARSET
+            if bad:
+                errs.append(f"{name}:{n} {word} 音标含库外字符 {''.join(sorted(bad))}：{ph_new}")
+        elif ph_fake:
+            errs.append(f"{name}:{n} {word} 音标是占位串，第 9 列必填")
+
+    if errs:
+        print(f"[FAIL] {len(errs)} 处问题，未写入：", file=sys.stderr)
+        for e in errs[:40]:
+            print("  " + e, file=sys.stderr)
+        return 1
+
+    ex_by_word = {}
+    for e in exdb["examples"]:
+        ex_by_word.setdefault(e["word_id"], []).append(e)
+
+    done = 0
+    for _name, _n, word, c in rows:
+        w = idx[word]
+        w["origin"] = c[1].strip()
+        w["native_definition"] = c[2].strip()
+        w["chinese"] = [x.strip() for x in c[3].split("/") if x.strip()]
+        w["examples"] = [x.strip() for x in c[4].split("|") if x.strip()]
+        w["core_concept"] = c[5].strip()
+        w["semantic_expansions"] = [x.strip() for x in c[6].split("|") if x.strip()]
+        if c[7].strip():
+            w["core_image"] = c[7].strip()
+        if c[8].strip():
+            w["phonetic"] = c[8].strip()
+        w["decomposable_note"] = entries.classify_note(w["origin"])
+        # examples.json 与 words.json 各存一份，只改一边会让审计报数不一致
+        for i, e in enumerate(ex_by_word.get(word, [])[:2]):
+            if i < len(w["examples"]):
+                e["text"] = w["examples"][i]
+        if not audit.is_stub(w) and (w.get("core_image") or "").strip() not in audit.TEMPLATE_IMAGES:
+            w.pop("stub", None)
+            done += 1
+
+    print(f"待写 {len(rows)} 词，其中 {done} 词补齐并摘掉 stub 标记")
+    if a.dry_run:
+        print("[DRY-RUN] 未落盘")
+        return 0
+    wp.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    ep.write_text(json.dumps(exdb, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"[OK] 已写入 {wp.relative_to(ROOT)} 与 {ep.relative_to(ROOT)}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
