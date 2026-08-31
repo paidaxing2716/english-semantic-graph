@@ -147362,25 +147362,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 settlement，现代词义按整体记",
-      "native_definition": "a thing or action related to settlement",
-      "core_concept": "a clear scene connected with settlement – 与该词相连的清晰场景",
+      "origin": "由 settle ＋ -ment 构成",
+      "native_definition": "an agreement ending a dispute, or a place where people have settled",
+      "core_concept": "the state of having come to rest – 落定下来之后的那个状态",
       "core_image": "两方在长桌边交换文件，最后签下解决争议的协议",
       "chinese": [
-        "settlement"
+        "和解",
+        "定居点"
       ],
       "examples": [
-        "The settlement changed the situation.",
-        "Researchers discussed the settlement carefully."
+        "The two sides reached a settlement.",
+        "A small settlement grew beside the river."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "settlement：从核心场景引出的常用义"
+        "和解：把争议了结的协议",
+        "定居点：人们安顿下来形成的聚居地"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "several",
@@ -147390,25 +147391,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 several，现代词义按整体记",
-      "native_definition": "a thing or action related to several",
-      "core_concept": "a clear scene connected with several – 与该词相连的清晰场景",
+      "origin": "盎格鲁诺曼语 several ← 中世纪拉丁语 sēparālis ← 拉丁语 sēpar（分开的）",
+      "native_definition": "more than two but not many",
+      "core_concept": "a small number counted separately – 分开来数的一小批",
       "core_image": "桌面上分散摆着几件而非一件的物品",
       "chinese": [
-        "several"
+        "几个的",
+        "数个"
       ],
       "examples": [
-        "The several changed the situation.",
-        "Researchers discussed the several carefully."
+        "Several people asked the same question.",
+        "He waited several hours for news."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "several：从核心场景引出的常用义"
+        "几个的：数量不止两个但不多",
+        "数个：若干个"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "severe",
@@ -147418,53 +147420,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 severe，现代词义按整体记",
-      "native_definition": "a thing or action related to severe",
-      "core_concept": "a clear scene connected with severe – 与该词相连的清晰场景",
+      "origin": "中古法语 ← 拉丁语 sevērus（严正、庄重）",
+      "native_definition": "very bad in degree, or strict and harsh",
+      "core_concept": "holding to a hard line without softening – 绷得紧、不放松的",
       "core_image": "暴风雪压弯树枝，路上的行人艰难前进",
       "chinese": [
-        "severe"
+        "严重的",
+        "严厉的"
       ],
       "examples": [
-        "The severe changed the situation.",
-        "Researchers discussed the severe carefully."
+        "The storm caused severe damage inland.",
+        "She gave him a severe warning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "severe：从核心场景引出的常用义"
+        "严重的：程度深而后果大",
+        "严厉的：要求苛刻不留情"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sew",
       "word": "sew",
       "pos": "verb",
-      "phonetic": "/ˈsew/",
+      "phonetic": "/səʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sew，现代词义按整体记",
-      "native_definition": "a thing or action related to sew",
-      "core_concept": "a clear scene connected with sew – 与该词相连的清晰场景",
+      "origin": "古英语 siwian ← 原始日耳曼语 *siwjaną ← 原始印欧语 *syewH-（缝）",
+      "native_definition": "to join cloth with a needle and thread",
+      "core_concept": "joining pieces by drawing thread through – 用线穿过把两片连起来",
       "core_image": "针线穿过两层布，细小针脚沿边缘整齐排列",
       "chinese": [
-        "sew"
+        "缝",
+        "缝制"
       ],
       "examples": [
-        "The sew changed the situation.",
-        "Researchers discussed the sew carefully."
+        "She sewed a button on his coat.",
+        "He sews his own curtains."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sew：从核心场景引出的常用义"
+        "缝：用针线把布连上",
+        "缝制：做出衣物等成品"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sex",
@@ -147474,25 +147478,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sex，现代词义按整体记",
-      "native_definition": "a thing or action related to sex",
-      "core_concept": "a clear scene connected with sex – 与该词相连的清晰场景",
+      "origin": "中古英语 sexe ← 古法语 sexe ← 拉丁语 sexus（性别），源自 secāre（切分）——即分成两半",
+      "native_definition": "the division of living things into male and female",
+      "core_concept": "the division of living things into two – 生物被分成的那两类",
       "core_image": "生物学图表把个体分成两种繁殖类别",
       "chinese": [
-        "sex"
+        "性别",
+        "性"
       ],
       "examples": [
-        "The sex changed the situation.",
-        "Researchers discussed the sex carefully."
+        "The form asks for name and sex.",
+        "Sex differences appear early in growth."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sex：从核心场景引出的常用义"
+        "性别：雌雄或男女的分类",
+        "性：与生殖相关的一整套特征"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "shabby",
@@ -147502,25 +147507,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shabby，现代词义按整体记",
-      "native_definition": "a thing or action related to shabby",
-      "core_concept": "a clear scene connected with shabby – 与该词相连的清晰场景",
+      "origin": "由 shab（旧时指结疮的皮肤病）＋ -y 构成",
+      "native_definition": "worn out and looking poorly kept",
+      "core_concept": "worn until the surface breaks up – 磨到表面破损的样子",
       "core_image": "褪色外套的袖口磨破，布面留下许多旧折痕",
       "chinese": [
-        "shabby"
+        "破旧的",
+        "寒酸的"
       ],
       "examples": [
-        "The shabby changed the situation.",
-        "Researchers discussed the shabby carefully."
+        "He wore a shabby brown jacket.",
+        "The office looked shabby and dark."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shabby：从核心场景引出的常用义"
+        "破旧的：用久磨损显得残旧",
+        "寒酸的：因简陋而显得不体面"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shade",
@@ -147530,25 +147536,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shade，现代词义按整体记",
-      "native_definition": "a thing or action related to shade",
-      "core_concept": "a clear scene connected with shade – 与该词相连的清晰场景",
+      "origin": "中古英语 schade ← 古英语 sċeadu（阴影、遮蔽）← 原始日耳曼语 *skaduz；与 shadow 同源",
+      "native_definition": "an area sheltered from direct sunlight, or a degree of colour",
+      "core_concept": "where the light is cut off – 光被挡住的那一片",
       "core_image": "大树投下阴凉的一片，阳光被叶片切成斑驳光点",
       "chinese": [
-        "shade"
+        "阴凉处",
+        "色度"
       ],
       "examples": [
-        "The shade changed the situation.",
-        "Researchers discussed the shade carefully."
+        "They sat in the shade of an oak.",
+        "Choose a lighter shade of blue."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shade：从核心场景引出的常用义"
+        "阴凉处：日光被遮住的地方",
+        "色度：同一颜色深浅的等级"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shadow",
@@ -147558,25 +147565,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shadow，现代词义按整体记",
-      "native_definition": "a thing or action related to shadow",
-      "core_concept": "a clear scene connected with shadow – 与该词相连的清晰场景",
+      "origin": "古英语 sċeaduwe（sċeadu 的斜格形）← 原始西日耳曼语 *skadu ← 原始日耳曼语 *skaduz",
+      "native_definition": "the dark shape cast by something blocking light",
+      "core_concept": "the dark outline a body throws – 物体投出的那个暗形",
       "core_image": "路灯照向行人，身后的黑色轮廓跟着一起移动",
       "chinese": [
-        "shadow"
+        "影子",
+        "阴影"
       ],
       "examples": [
-        "The shadow changed the situation.",
-        "Researchers discussed the shadow carefully."
+        "His shadow stretched across the road.",
+        "The tower cast a long shadow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shadow：从核心场景引出的常用义"
+        "影子：物体挡光投出的暗形",
+        "阴影：光照不到的暗区"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shady",
@@ -147586,25 +147594,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shady，现代词义按整体记",
-      "native_definition": "a thing or action related to shady",
-      "core_concept": "a clear scene connected with shady – 与该词相连的清晰场景",
+      "origin": "由 shade ＋ -y 构成",
+      "native_definition": "giving shelter from the sun, or seeming dishonest",
+      "core_concept": "lying in shade, or keeping out of the light – 处在阴处，或有意避开亮处",
       "core_image": "茂密树冠遮住阳光，长椅落在一片凉暗处",
       "chinese": [
-        "shady"
+        "阴凉的",
+        "可疑的"
       ],
       "examples": [
-        "The shady changed the situation.",
-        "Researchers discussed the shady carefully."
+        "They found a shady spot to rest.",
+        "The deal looked shady from the start."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shady：从核心场景引出的常用义"
+        "阴凉的：有遮荫而不晒",
+        "可疑的：见不得光、令人生疑"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shaft",
@@ -147614,53 +147623,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shaft，现代词义按整体记",
-      "native_definition": "a thing or action related to shaft",
-      "core_concept": "a clear scene connected with shaft – 与该词相连的清晰场景",
+      "origin": "古英语 sċeaft ← 原始西日耳曼语 *skaft ← 原始日耳曼语 *skaftaz ← 原始印欧语 *skeh₂p-（棒、杆）",
+      "native_definition": "a long narrow passage, or the long handle of a tool",
+      "core_concept": "a long straight rod or the space it fits – 一根长直的杆，或与之相当的长空腔",
       "core_image": "长杆从矿井深处直通地面，电梯沿其中上下",
       "chinese": [
-        "shaft"
+        "竖井",
+        "柄"
       ],
       "examples": [
-        "The shaft changed the situation.",
-        "Researchers discussed the shaft carefully."
+        "The lift runs up a narrow shaft.",
+        "He gripped the shaft of the axe."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shaft：从核心场景引出的常用义"
+        "竖井：上下贯通的窄通道",
+        "柄：工具的长杆部分"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shake",
       "word": "shake",
-      "pos": "verb",
+      "pos": "verb / noun",
       "phonetic": "/ˈʃeɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shake，现代词义按整体记",
-      "native_definition": "a thing or action related to shake",
-      "core_concept": "a clear scene connected with shake – 与该词相连的清晰场景",
+      "origin": "古英语 sċeacan ← 原始西日耳曼语 *skakan ← 原始日耳曼语 *skakaną（摇、甩）",
+      "native_definition": "to move something quickly back and forth",
+      "core_concept": "moving something rapidly to and fro – 使某物快速来回移动",
       "core_image": "玻璃杯被快速晃动，液面沿杯壁来回荡",
       "chinese": [
-        "shake"
+        "摇动",
+        "抖动"
       ],
       "examples": [
-        "The shake changed the situation.",
-        "Researchers discussed the shake carefully."
+        "Shake the bottle before opening it.",
+        "Her hands shook from the cold."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shake：从核心场景引出的常用义"
+        "摇动：来回晃动某物",
+        "抖动：细而快地颤动"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shallow",
@@ -147670,53 +147681,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shallow，现代词义按整体记",
-      "native_definition": "a thing or action related to shallow",
-      "core_concept": "a clear scene connected with shallow – 与该词相连的清晰场景",
+      "origin": "中古英语 schalowe，与 schalde（浅）相关 ← 古英语 sċeald ← 原始日耳曼语 *skal-",
+      "native_definition": "not deep, or lacking serious thought",
+      "core_concept": "not reaching far down – 往下探得不远",
       "core_image": "水池很浅，底部石子隔着水面清楚可见",
       "chinese": [
-        "shallow"
+        "浅的",
+        "浅薄的"
       ],
       "examples": [
-        "The shallow changed the situation.",
-        "Researchers discussed the shallow carefully."
+        "Children played in the shallow end.",
+        "His argument struck me as shallow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shallow：从核心场景引出的常用义"
+        "浅的：从表面到底距离小",
+        "浅薄的：思虑不深"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sham",
       "word": "sham",
-      "pos": "adjective",
+      "pos": "adjective / noun",
       "phonetic": "/ˈʃæm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sham，现代词义按整体记",
-      "native_definition": "a thing or action related to sham",
-      "core_concept": "a clear scene connected with sham – 与该词相连的清晰场景",
+      "origin": "或为 shame 的方言形",
+      "native_definition": "not genuine though made to look so, or such a fake",
+      "core_concept": "made to pass for what it is not – 装成另一样东西的仿制",
       "core_image": "展柜里的金属表面看似贵重，轻敲却露出空心",
       "chinese": [
-        "sham"
+        "假的",
+        "赝品"
       ],
       "examples": [
-        "The sham changed the situation.",
-        "Researchers discussed the sham carefully."
+        "The box had a sham lock on it.",
+        "The whole scheme was a sham."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sham：从核心场景引出的常用义"
+        "假的：貌似真品而实非",
+        "赝品：冒充真货的伪造物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shame",
@@ -147726,109 +147739,113 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shame，现代词义按整体记",
-      "native_definition": "a thing or action related to shame",
-      "core_concept": "a clear scene connected with shame – 与该词相连的清晰场景",
+      "origin": "古英语 sċamu ← 原始西日耳曼语 *skamu ← 原始日耳曼语 *skamō",
+      "native_definition": "a painful feeling caused by having done wrong",
+      "core_concept": "the sting felt at one own wrongdoing – 因自身过失而生的刺痛感",
       "core_image": "孩子站在被打翻的花盆旁，脸颊发热地低下头",
       "chinese": [
-        "shame"
+        "羞耻",
+        "憾事"
       ],
       "examples": [
-        "The shame changed the situation.",
-        "Researchers discussed the shame carefully."
+        "He hung his head in shame.",
+        "It is a shame you cannot come."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shame：从核心场景引出的常用义"
+        "羞耻：因过错而生的难堪",
+        "憾事：令人觉得可惜的事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shampoo",
       "word": "shampoo",
       "pos": "noun",
-      "phonetic": "/ˈshampoo/",
+      "phonetic": "/ʃæmˈpuː/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shampoo，现代词义按整体记",
-      "native_definition": "a thing or action related to shampoo",
-      "core_concept": "a clear scene connected with shampoo – 与该词相连的清晰场景",
+      "origin": "借自印地语 चाँपो（chāṁpo），为 चाँपना（按、揉）的命令式，18 世纪中期传入",
+      "native_definition": "a liquid soap used for washing hair",
+      "core_concept": "the wash worked into the hair by kneading – 揉进头发里洗的那种液体",
       "core_image": "水流冲过头发，泡沫在发丝间堆起又被洗掉",
       "chinese": [
-        "shampoo"
+        "洗发液",
+        "洗头"
       ],
       "examples": [
-        "The shampoo changed the situation.",
-        "Researchers discussed the shampoo carefully."
+        "She poured shampoo into her palm.",
+        "He shampoos his hair every morning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shampoo：从核心场景引出的常用义"
+        "洗发液：洗头用的液体皂",
+        "洗头：用它清洗头发"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shape",
       "word": "shape",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈʃeɪp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shape，现代词义按整体记",
-      "native_definition": "a thing or action related to shape",
-      "core_concept": "a clear scene connected with shape – 与该词相连的清晰场景",
+      "origin": "古英语 ġesceap（形、造物）← 原始日耳曼语 *skapą，或出原始印欧语 *(s)kep-（切、劈）",
+      "native_definition": "the outward form of something, or to give form to it",
+      "core_concept": "the outline a thing takes – 一物所呈的外廓",
       "core_image": "黏土在手指间被捏成圆柱，边缘逐渐定型",
       "chinese": [
-        "shape"
+        "形状",
+        "塑造"
       ],
       "examples": [
-        "The shape changed the situation.",
-        "Researchers discussed the shape carefully."
+        "The lake has an unusual shape.",
+        "She shaped the dough into rolls."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shape：从核心场景引出的常用义"
+        "形状：物体外形的样式",
+        "塑造：把材料做出形状"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "share",
       "word": "share",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ʃeə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 share，现代词义按整体记",
-      "native_definition": "a thing or action related to share",
-      "core_concept": "a clear scene connected with share – 与该词相连的清晰场景",
+      "origin": "古英语 sċearu（切分、份）← 原始西日耳曼语 *skaru ← 原始日耳曼语 *skarō（划分）← 原始印欧语 *(s)ker-（切）",
+      "native_definition": "a part belonging to one person, or to divide with others",
+      "core_concept": "a part cut off for one holder – 切给某一方的那一份",
       "core_image": "一块蛋糕被切成几份，盘子分别递给桌边的人",
       "chinese": [
-        "share"
+        "份额",
+        "分享"
       ],
       "examples": [
-        "The share changed the situation.",
-        "Researchers discussed the share carefully."
+        "Each partner takes an equal share.",
+        "They shared the last apple."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "share：从核心场景引出的常用义"
+        "份额：分给某人的那一部分",
+        "分享：把一物分给他人共用"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shark",
@@ -147838,25 +147855,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shark，现代词义按整体记",
-      "native_definition": "a thing or action related to shark",
-      "core_concept": "a clear scene connected with shark – 与该词相连的清晰场景",
+      "origin": "中古英语 shark（1442 年用以指一种鱼），来源不明；或出德语一支表「无赖」的 shark 的语义扩展",
+      "native_definition": "a large sea fish with sharp teeth",
+      "core_concept": "the large toothed fish that hunts at sea – 海中猎食的大型利齿鱼",
       "core_image": "灰色鱼鳍切过海面，身体在水下迅速转弯",
       "chinese": [
-        "shark"
+        "鲨鱼"
       ],
       "examples": [
-        "The shark changed the situation.",
-        "Researchers discussed the shark carefully."
+        "A shark circled the small boat.",
+        "Sharks rarely attack in these waters."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "shark：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sharp",
@@ -147866,25 +147880,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sharp，现代词义按整体记",
-      "native_definition": "a thing or action related to sharp",
-      "core_concept": "a clear scene connected with sharp – 与该词相连的清晰场景",
+      "origin": "古英语 sċearp ← 原始西日耳曼语 *skarp ← 原始日耳曼语 *skarpaz ← 原始印欧语 *(s)ker-（切）",
+      "native_definition": "having an edge that cuts easily, or quick to notice",
+      "core_concept": "coming to a fine cutting edge – 收成能切开东西的细边",
       "core_image": "刀刃碰到纸面便留下整齐切口，边缘薄而亮",
       "chinese": [
-        "sharp"
+        "锋利的",
+        "敏锐的"
       ],
       "examples": [
-        "The sharp changed the situation.",
-        "Researchers discussed the sharp carefully."
+        "Use a sharp knife for the skin.",
+        "She has a sharp eye for detail."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sharp：从核心场景引出的常用义"
+        "锋利的：刃口细而易切",
+        "敏锐的：反应快、察觉细"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shatter",
@@ -147894,25 +147909,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shatter，现代词义按整体记",
-      "native_definition": "a thing or action related to shatter",
-      "core_concept": "a clear scene connected with shatter – 与该词相连的清晰场景",
+      "origin": "中古英语 schateren（散开、猛击），为 scateren（撒开）的擦音化形 ← 古英语 scaterian，或为拟声起源",
+      "native_definition": "to break suddenly into many small pieces",
+      "core_concept": "breaking apart and flying outward at once – 一下裂开并向外飞散",
       "core_image": "玻璃杯落到地上，碎片向四周弹开",
       "chinese": [
-        "shatter"
+        "粉碎",
+        "击碎"
       ],
       "examples": [
-        "The shatter changed the situation.",
-        "Researchers discussed the shatter carefully."
+        "The mirror shattered on the tiles.",
+        "One blow shattered the thin pane."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shatter：从核心场景引出的常用义"
+        "粉碎：碎成许多小块",
+        "击碎：用力使之碎裂"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shave",
@@ -147922,25 +147938,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shave，现代词义按整体记",
-      "native_definition": "a thing or action related to shave",
-      "core_concept": "a clear scene connected with shave – 与该词相连的清晰场景",
+      "origin": "古英语 sċafan（刮、削）← 原始西日耳曼语 *skaban ← 原始日耳曼语 *skabaną（刮）",
+      "native_definition": "to cut hair off the skin with a blade",
+      "core_concept": "taking a thin layer off with a blade – 用刃削去薄薄一层",
       "core_image": "刮刀沿下巴移动，短须一片片脱落",
       "chinese": [
-        "shave"
+        "剃",
+        "刮脸"
       ],
       "examples": [
-        "The shave changed the situation.",
-        "Researchers discussed the shave carefully."
+        "He shaves before breakfast each day.",
+        "She shaved the wood down evenly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shave：从核心场景引出的常用义"
+        "剃：用刀把毛发贴皮除去",
+        "刮脸：剃去面部胡须"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shear",
@@ -147950,25 +147967,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shear，现代词义按整体记",
-      "native_definition": "a thing or action related to shear",
-      "core_concept": "a clear scene connected with shear – 与该词相连的清晰场景",
+      "origin": "古英语 sċieran（剪、剃）← 原始西日耳曼语 *skeran ← 原始日耳曼语 *skeraną ← 原始印欧语 *(s)ker-（切）",
+      "native_definition": "to cut wool from a sheep, or to cut with blades",
+      "core_concept": "cutting close with two blades – 用双刃贴着切下",
       "core_image": "剪刀沿羊毛边缘快速移动，厚毛整片被剪下",
       "chinese": [
-        "shear"
+        "剪羊毛",
+        "剪切"
       ],
       "examples": [
-        "The shear changed the situation.",
-        "Researchers discussed the shear carefully."
+        "They shear the flock each spring.",
+        "Metal shears cleanly under pressure."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shear：从核心场景引出的常用义"
+        "剪羊毛：把羊身上的毛剪下",
+        "剪切：用刃具切断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shed",
@@ -147978,25 +147996,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shed，现代词义按整体记",
-      "native_definition": "a thing or action related to shed",
-      "core_concept": "a clear scene connected with shed – 与该词相连的清晰场景",
+      "origin": "古英语 scēadan（分开、划界）← 原始西日耳曼语 *skaiþan ← 原始日耳曼语 *skaiþaną",
+      "native_definition": "to let something fall away naturally",
+      "core_concept": "letting a part separate and drop away – 让一部分分离掉落",
       "core_image": "蛇从旧皮中钻出，透明外壳留在石头旁",
       "chinese": [
-        "shed"
+        "脱落",
+        "流出"
       ],
       "examples": [
-        "The shed changed the situation.",
-        "Researchers discussed the shed carefully."
+        "Trees shed their leaves in autumn.",
+        "She shed tears at the news."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shed：从核心场景引出的常用义"
+        "脱落：外层自然分离掉下",
+        "流出：使液体涌出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sheep",
@@ -148006,25 +148025,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sheep，现代词义按整体记",
-      "native_definition": "a thing or action related to sheep",
-      "core_concept": "a clear scene connected with sheep – 与该词相连的清晰场景",
+      "origin": "中古英语 schep ← 古英语 sċēap ← 原始西日耳曼语 *skāp ← 原始日耳曼语 *skēpą，更早词源不明",
+      "native_definition": "a farm animal kept for wool and meat",
+      "core_concept": "the woolly animal kept in flocks – 成群饲养、身覆羊毛的家畜",
       "core_image": "白色羊群挤在围栏边，牧羊犬从后面赶拢它们",
       "chinese": [
-        "sheep"
+        "绵羊"
       ],
       "examples": [
-        "The sheep changed the situation.",
-        "Researchers discussed the sheep carefully."
+        "The farmer keeps two hundred sheep.",
+        "Sheep grazed on the low hill."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "sheep：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sheer",
@@ -148034,25 +148050,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sheer，现代词义按整体记",
-      "native_definition": "a thing or action related to sheer",
-      "core_concept": "a clear scene connected with sheer – 与该词相连的清晰场景",
+      "origin": "中古英语 shere ← 古英语 sċǣre（纯净、明亮）← 原始日耳曼语 *skairiz",
+      "native_definition": "very steep, or complete and unmixed",
+      "core_concept": "unbroken and without anything else mixed in – 一贯到底、不掺别的",
       "core_image": "峭壁从海面直立上升，几乎没有可以攀爬的斜面",
       "chinese": [
-        "sheer"
+        "陡峭的",
+        "纯粹的"
       ],
       "examples": [
-        "The sheer changed the situation.",
-        "Researchers discussed the sheer carefully."
+        "A sheer cliff rose above them.",
+        "It was sheer luck that saved him."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sheer：从核心场景引出的常用义"
+        "陡峭的：几乎垂直而无缓坡",
+        "纯粹的：完全如此、不含其它"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sheet",
@@ -148062,25 +148079,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sheet，现代词义按整体记",
-      "native_definition": "a thing or action related to sheet",
-      "core_concept": "a clear scene connected with sheet – 与该词相连的清晰场景",
+      "origin": "中古英语 schete，部分出古英语 sċīete（亚麻布片）与 sċēata（角、帆脚）← 原始日耳曼语 *skautaz（角、褶）",
+      "native_definition": "a large flat piece of cloth or paper",
+      "core_concept": "a broad flat piece laid out – 铺开来的一整张平片",
       "core_image": "一整张白布从晾衣绳垂下，风吹得边角摆动",
       "chinese": [
-        "sheet"
+        "床单",
+        "薄片"
       ],
       "examples": [
-        "The sheet changed the situation.",
-        "Researchers discussed the sheet carefully."
+        "She changed the sheets that morning.",
+        "Take a clean sheet of paper."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sheet：从核心场景引出的常用义"
+        "床单：铺床用的大块布",
+        "薄片：纸或金属的一整张"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shelf",
@@ -148090,25 +148108,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shelf，现代词义按整体记",
-      "native_definition": "a thing or action related to shelf",
-      "core_concept": "a clear scene connected with shelf – 与该词相连的清晰场景",
+      "origin": "中古英语 schelfe ← 古英语 sċielfe（架、棚板）← 原始西日耳曼语 *skilfijā ← 原始日耳曼语 *skelfō",
+      "native_definition": "a flat board fixed to a wall for holding things",
+      "core_concept": "a flat board set to hold things up – 固定起来托住东西的平板",
       "core_image": "书架上一层木板托住整排书，书脊朝外排列",
       "chinese": [
-        "shelf"
+        "架子",
+        "搁板"
       ],
       "examples": [
-        "The shelf changed the situation.",
-        "Researchers discussed the shelf carefully."
+        "Put the jars on the top shelf.",
+        "A shelf collapsed under the weight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shelf：从核心场景引出的常用义"
+        "架子：分层放置物品的家具",
+        "搁板：架上的那一层平板"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shell",
@@ -148118,53 +148137,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shell，现代词义按整体记",
-      "native_definition": "a thing or action related to shell",
-      "core_concept": "a clear scene connected with shell – 与该词相连的清晰场景",
+      "origin": "古英语 sċell ← 原始西日耳曼语 *skallju ← 原始日耳曼语 *skaljō（壳、皮）← 原始印欧语 *(s)kelH-（切、剖）",
+      "native_definition": "the hard outer covering of an egg, nut or sea creature",
+      "core_concept": "the hard layer split off from what it covers – 可与所裹之物剖开的硬层",
       "core_image": "海滩上的硬壳包住柔软内里，潮水退去后留在沙上",
       "chinese": [
-        "shell"
+        "壳",
+        "贝壳"
       ],
       "examples": [
-        "The shell changed the situation.",
-        "Researchers discussed the shell carefully."
+        "The egg shell cracked in her hand.",
+        "He collected shells along the shore."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shell：从核心场景引出的常用义"
+        "壳：包在外面的硬层",
+        "贝壳：软体动物留下的硬壳"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shelter",
       "word": "shelter",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈʃeltə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shelter，现代词义按整体记",
-      "native_definition": "a thing or action related to shelter",
-      "core_concept": "a clear scene connected with shelter – 与该词相连的清晰场景",
+      "origin": "中古英语 sheltron（盾墙）← 古英语 sċildtruma，由 sċield（盾）＋ truma（一队兵）构成",
+      "native_definition": "a structure giving protection from weather or danger",
+      "core_concept": "a cover held up against what threatens – 举起来挡住威胁的那层遮盖",
       "core_image": "大雨落下时，几个人挤进屋檐下躲避",
       "chinese": [
-        "shelter"
+        "遮蔽处",
+        "庇护"
       ],
       "examples": [
-        "The shelter changed the situation.",
-        "Researchers discussed the shelter carefully."
+        "They built a shelter from branches.",
+        "The barn sheltered us from the rain."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shelter：从核心场景引出的常用义"
+        "遮蔽处：可躲避风雨的处所",
+        "庇护：给予保护使免受害"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shepherd",
@@ -148174,25 +148195,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 shepherd，现代词义按整体记",
-      "native_definition": "a thing or action related to shepherd",
-      "core_concept": "a clear scene connected with shepherd – 与该词相连的清晰场景",
+      "origin": "中古英语 schepherde ← 古英语 sċēaphierde，由 sċēap（羊）＋ hierde（牧人）复合而成",
+      "native_definition": "a person who looks after sheep",
+      "core_concept": "the one who tends and guides a flock – 看管并引导羊群的人",
       "core_image": "牧羊人站在围栏边，手杖引导羊群走向草地",
       "chinese": [
-        "shepherd"
+        "牧人",
+        "放牧"
       ],
       "examples": [
-        "The shepherd changed the situation.",
-        "Researchers discussed the shepherd carefully."
+        "The shepherd counted the flock at dusk.",
+        "He shepherded the group inside."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "shepherd：从核心场景引出的常用义"
+        "牧人：以看羊为业的人",
+        "放牧：引领畜群到草地取食"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "shield",
