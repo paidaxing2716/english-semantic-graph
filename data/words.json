@@ -142257,31 +142257,31 @@
     {
       "id": "puzzle",
       "word": "puzzle",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈpʌzəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 puzzle，现代词义按整体记",
-      "native_definition": "a thing or action related to puzzle",
-      "core_concept": "a clear scene connected with puzzle – 与该词相连的清晰场景",
+      "origin": "动词义最早见于 16 世纪，来源不明；与中古低地德语 pusseln（摆弄、瞎忙）一类词或属同源",
+      "native_definition": "a game or question that needs thought to solve, or to confuse someone",
+      "core_concept": "something that holds the mind up until solved – 想不通就卡在那儿的东西",
       "core_image": "桌上散着形状各异的拼片，缺口还没有完全补齐",
       "chinese": [
         "谜题",
         "使困惑"
       ],
       "examples": [
-        "The puzzle changed the situation.",
-        "Researchers discussed the puzzle carefully."
+        "The puzzle took her all evening.",
+        "His answer puzzled the whole class."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "谜题/使困惑：从核心场景引出的常用义"
+        "谜题：需要动脑才解得开的题",
+        "使困惑：让人一时想不明白"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "pyramid",
@@ -142291,25 +142291,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 pyramid，现代词义按整体记",
-      "native_definition": "a thing or action related to pyramid",
-      "core_concept": "a clear scene connected with pyramid – 与该词相连的清晰场景",
+      "origin": "法语 pyramide ← 古法语 piramide ← 拉丁语 pyramis ← 希腊语 pyramis；更早或出埃及语 pr-m-ws（塔之高）",
+      "native_definition": "a solid shape with a square base and four triangular sides",
+      "core_concept": "a stack narrowing to a single point – 层层收窄到一个顶点的堆体",
       "core_image": "沙漠中央堆着层层缩小的石阶，顶端指向天空",
       "chinese": [
-        "金字塔"
+        "金字塔",
+        "棱锥"
       ],
       "examples": [
-        "The pyramid changed the situation.",
-        "Researchers discussed the pyramid carefully."
+        "They climbed the great pyramid at dawn.",
+        "Draw a pyramid with a square base."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "金字塔：从核心场景引出的常用义"
+        "金字塔：埃及那类巨型石构",
+        "棱锥：底为多边形、侧面收于一点的几何体"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "quantify",
@@ -142319,25 +142320,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quantify，现代词义按整体记",
-      "native_definition": "a thing or action related to quantify",
-      "core_concept": "a clear scene connected with quantify – 与该词相连的清晰场景",
+      "origin": "中世纪拉丁语 quantifico（定量），由逻辑学家 William Hamilton 引入英语",
+      "native_definition": "to measure or express something as an amount",
+      "core_concept": "putting a how-much on something – 给某物定出一个多少",
       "core_image": "实验员把液体逐份倒入有刻度的量筒",
       "chinese": [
         "量化"
       ],
       "examples": [
-        "The quantify changed the situation.",
-        "Researchers discussed the quantify carefully."
+        "It is hard to quantify the damage.",
+        "Researchers quantified the loss in tonnes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "量化：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "quantitative",
@@ -142347,25 +142345,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quantitative，现代词义按整体记",
-      "native_definition": "a thing or action related to quantitative",
-      "core_concept": "a clear scene connected with quantitative – 与该词相连的清晰场景",
+      "origin": "晚期拉丁语 quantitātīvus，由 quantity ＋ -ative 构成",
+      "native_definition": "relating to amounts that can be measured",
+      "core_concept": "to do with how much rather than what kind – 关乎多少而非性质",
       "core_image": "报告中的数字排成表格，每一项都对应明确数量",
       "chinese": [
-        "数量的"
+        "数量的",
+        "定量的"
       ],
       "examples": [
-        "The quantitative changed the situation.",
-        "Researchers discussed the quantitative carefully."
+        "The study used quantitative methods only.",
+        "They need quantitative data before deciding."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "数量的：从核心场景引出的常用义"
+        "数量的：与数目大小有关",
+        "定量的：靠测得的数值来判断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "quantity",
@@ -142375,53 +142374,47 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quantity，现代词义按整体记",
-      "native_definition": "a thing or action related to quantity",
-      "core_concept": "a clear scene connected with quantity – 与该词相连的清晰场景",
+      "origin": "中古英语 quantite ← 古法语 quantité ← 拉丁语 quantitās，源自 quantus（多少）",
+      "native_definition": "an amount of something that can be counted or measured",
+      "core_concept": "the how-much of something – 某物的多少",
       "core_image": "几个箱子并排码放，标签标出各自装了多少",
       "chinese": [
         "数量"
       ],
       "examples": [
-        "The quantity changed the situation.",
-        "Researchers discussed the quantity carefully."
+        "We ordered a large quantity of paper.",
+        "Quality matters more than quantity here."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "数量：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quarrel",
       "word": "quarrel",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈkwɒr(ə)l/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quarrel，现代词义按整体记",
-      "native_definition": "a thing or action related to quarrel",
-      "core_concept": "a clear scene connected with quarrel – 与该词相连的清晰场景",
+      "origin": "中古英语 querele ← 中古法语 querelle ← 拉丁语 querēla（抱怨、控告），源自 querī（抱怨）",
+      "native_definition": "an angry argument, or to argue angrily",
+      "core_concept": "a complaint pushed into open dispute – 抱怨激成公开的争执",
       "core_image": "两个人隔着桌子指向对方，声音越来越高",
       "chinese": [
         "争吵"
       ],
       "examples": [
-        "The quarrel changed the situation.",
-        "Researchers discussed the quarrel carefully."
+        "The brothers quarrelled over the money.",
+        "Their quarrel lasted several weeks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "争吵：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quartz",
@@ -142431,25 +142424,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quartz，现代词义按整体记",
-      "native_definition": "a thing or action related to quartz",
-      "core_concept": "a clear scene connected with quartz – 与该词相连的清晰场景",
+      "origin": "借自德语 Quarz ← 中古高地德语 quarz／twarc，出自西斯拉夫语（比较波兰语 twardy 硬）",
+      "native_definition": "a hard glassy mineral found in many rocks",
+      "core_concept": "a hard clear mineral grain in rock – 岩石中坚硬透亮的矿粒",
       "core_image": "透明晶体躺在岩石裂缝里，切面反射出细碎亮光",
       "chinese": [
         "石英"
       ],
       "examples": [
-        "The quartz changed the situation.",
-        "Researchers discussed the quartz carefully."
+        "Quartz crystals lined the narrow cave.",
+        "The watch uses a quartz movement."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "石英：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "queer",
@@ -142459,25 +142449,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 queer，现代词义按整体记",
-      "native_definition": "a thing or action related to queer",
-      "core_concept": "a clear scene connected with queer – 与该词相连的清晰场景",
+      "origin": "约 1510 年起见于苏格兰语；通常认为出中古低地德语 queer（斜的）或德语 quer（横斜）← 原始日耳曼语 *þwerhaz",
+      "native_definition": "strange or different from what is expected",
+      "core_concept": "set across the expected line – 与常规走向斜错开的",
       "core_image": "展柜里一件形状出人意料的物品让参观者停步",
       "chinese": [
         "奇怪的"
       ],
       "examples": [
-        "The queer changed the situation.",
-        "Researchers discussed the queer carefully."
+        "A queer noise came from upstairs.",
+        "He had a queer look on his face."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "奇怪的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "quench",
@@ -142487,26 +142474,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quench，现代词义按整体记",
-      "native_definition": "a thing or action related to quench",
-      "core_concept": "a clear scene connected with quench – 与该词相连的清晰场景",
+      "origin": "中古英语 quenchen ← 古英语 cwenċan ← 原始日耳曼语 *kwankijaną",
+      "native_definition": "to put out a fire, or to satisfy thirst",
+      "core_concept": "bringing a burning or craving to an end – 让燃烧或渴求就此止住",
       "core_image": "火苗碰到水流后立刻缩小，最后只剩一缕白烟",
       "chinese": [
         "解渴",
         "熄灭"
       ],
       "examples": [
-        "The quench changed the situation.",
-        "Researchers discussed the quench carefully."
+        "Cold water quenched his thirst quickly.",
+        "Rain quenched the last of the flames."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "解渴/熄灭：从核心场景引出的常用义"
+        "解渴：把渴的感觉压下去",
+        "熄灭：让火停止燃烧"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "queue",
@@ -142516,25 +142503,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 queue，现代词义按整体记",
-      "native_definition": "a thing or action related to queue",
-      "core_concept": "a clear scene connected with queue – 与该词相连的清晰场景",
+      "origin": "中古英语 queue ← 古法语 cöe（尾）← 俗拉丁语 cōda ← 拉丁语 cauda（尾）",
+      "native_definition": "a line of people waiting for something",
+      "core_concept": "people strung out in a tail – 像尾巴一样拖出的一列人",
       "core_image": "售票窗前的人沿栏杆排成一条弯曲的长线",
       "chinese": [
-        "队列"
+        "队列",
+        "排队"
       ],
       "examples": [
-        "The queue changed the situation.",
-        "Researchers discussed the queue carefully."
+        "A long queue formed outside the door.",
+        "We queued for nearly an hour."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "队列：从核心场景引出的常用义"
+        "队列：依次排开的一条线",
+        "排队：加入这条线等候"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quiet",
@@ -142544,25 +142532,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quiet，现代词义按整体记",
-      "native_definition": "a thing or action related to quiet",
-      "core_concept": "a clear scene connected with quiet – 与该词相连的清晰场景",
+      "origin": "中古英语 quiete ← 古法语 quiet ← 拉丁语 quiētus，为 quiēscere（安歇）的过去分词",
+      "native_definition": "making little or no noise",
+      "core_concept": "at rest with little sound – 处在少声的安歇状态",
       "core_image": "图书馆里的人翻页很轻，窗外的雨声清楚可闻",
       "chinese": [
         "安静的"
       ],
       "examples": [
-        "The quiet changed the situation.",
-        "Researchers discussed the quiet carefully."
+        "The street stays quiet after nine.",
+        "She spoke in a quiet voice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "安静的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quilt",
@@ -142572,25 +142557,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quilt，现代词义按整体记",
-      "native_definition": "a thing or action related to quilt",
-      "core_concept": "a clear scene connected with quilt – 与该词相连的清晰场景",
+      "origin": "中古英语 quilte ← 古法语 coilte ← 拉丁语 culcita（垫褥）",
+      "native_definition": "a warm bed cover made of layers stitched together",
+      "core_concept": "layers stitched into one padded cover – 缝合成一整片的夹层盖被",
       "core_image": "许多不同颜色的布块缝在一起，铺成厚实的被面",
       "chinese": [
         "被子"
       ],
       "examples": [
-        "The quilt changed the situation.",
-        "Researchers discussed the quilt carefully."
+        "She spread a quilt over the bed.",
+        "The old quilt kept them warm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "被子：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quit",
@@ -142600,54 +142582,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quit，现代词义按整体记",
-      "native_definition": "a thing or action related to quit",
-      "core_concept": "a clear scene connected with quit – 与该词相连的清晰场景",
+      "origin": "中古英语 quiten ← 古法语 quitter ← 拉丁语 quietus（安歇的、免除的）",
+      "native_definition": "to stop doing something, or to leave a job or place",
+      "core_concept": "releasing oneself and coming to rest – 撂开手让自己歇下来",
       "core_image": "桌边的人放下工具，转身走出正在进行的工作",
       "chinese": [
         "放弃",
         "离开"
       ],
       "examples": [
-        "The quit changed the situation.",
-        "Researchers discussed the quit carefully."
+        "He quit smoking three years ago.",
+        "She quit the company last spring."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "放弃/离开：从核心场景引出的常用义"
+        "放弃：中途停下不再做",
+        "离开：从职位或处所退出"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quiver",
       "word": "quiver",
-      "pos": "noun",
+      "pos": "verb / noun",
       "phonetic": "/ˈkwɪvə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quiver，现代词义按整体记",
-      "native_definition": "a thing or action related to quiver",
-      "core_concept": "a clear scene connected with quiver – 与该词相连的清晰场景",
+      "origin": "中古英语 quiver ← 盎格鲁诺曼语 quivre ← 古荷兰语 cocar（箭筒）← 原始西日耳曼语 *kokar（容器）",
+      "native_definition": "to shake with small rapid movements, or a case for arrows",
+      "core_concept": "a small rapid trembling, and the case that holds arrows – 细密的抖动，以及盛箭的筒",
       "core_image": "弓弦轻轻颤动，箭尖也跟着细微摇摆",
       "chinese": [
-        "颤抖"
+        "颤抖",
+        "箭袋"
       ],
       "examples": [
-        "The quiver changed the situation.",
-        "Researchers discussed the quiver carefully."
+        "Her voice quivered as she spoke.",
+        "He pulled an arrow from the quiver."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "颤抖：从核心场景引出的常用义"
+        "颤抖：细而快地不停抖动",
+        "箭袋：背在身上盛箭的筒"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "quiz",
@@ -142657,25 +142640,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quiz，现代词义按整体记",
-      "native_definition": "a thing or action related to quiz",
-      "core_concept": "a clear scene connected with quiz – 与该词相连的清晰场景",
+      "origin": "1780 年代起见于记载，来源不明；一说出自方言 whiz 的变体，一说原义为「怪人」",
+      "native_definition": "a short test of knowledge, or to question someone",
+      "core_concept": "a quick round of questions – 一轮快问快答",
       "core_image": "教室里每个人面前放着一张小卷，正在逐题作答",
       "chinese": [
-        "测验"
+        "测验",
+        "问答"
       ],
       "examples": [
-        "The quiz changed the situation.",
-        "Researchers discussed the quiz carefully."
+        "The class took a short quiz today.",
+        "Reporters quizzed him about the delay."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "测验：从核心场景引出的常用义"
+        "测验：小规模的知识检查",
+        "问答：连续提问并作答"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "quota",
@@ -142685,25 +142669,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quota，现代词义按整体记",
-      "native_definition": "a thing or action related to quota",
-      "core_concept": "a clear scene connected with quota – 与该词相连的清晰场景",
+      "origin": "拉丁语 quota pars（该占的那一份）中的 quota",
+      "native_definition": "a fixed share or limited number allowed",
+      "core_concept": "the share reckoned as one part – 按份额算定的那一份",
       "core_image": "公告板上画着一个空格，达到规定数额后才能填满",
       "chinese": [
         "配额"
       ],
       "examples": [
-        "The quota changed the situation.",
-        "Researchers discussed the quota carefully."
+        "Each region received a fishing quota.",
+        "They filled the quota by June."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "配额：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "quote",
@@ -142713,25 +142694,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 quote，现代词义按整体记",
-      "native_definition": "a thing or action related to quote",
-      "core_concept": "a clear scene connected with quote – 与该词相连的清晰场景",
+      "origin": "中古英语 quoten ← 古法语 coter ← 中世纪拉丁语 quotāre（标号），源自拉丁语 quotus（第几）",
+      "native_definition": "to repeat words said or written by someone else",
+      "core_concept": "marking out words by number to cite them – 标出号码以便援引",
       "core_image": "书页上有一段文字被引号圈出，旁边标着来源",
       "chinese": [
-        "引用"
+        "引用",
+        "报价"
       ],
       "examples": [
-        "The quote changed the situation.",
-        "Researchers discussed the quote carefully."
+        "She quoted two lines from the poem.",
+        "They quoted a price for the work."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "引用：从核心场景引出的常用义"
+        "引用：照原样重述他人的话",
+        "报价：给出所要的价钱"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "rabbit",
@@ -142741,25 +142723,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rabbit，现代词义按整体记",
-      "native_definition": "a thing or action related to rabbit",
-      "core_concept": "a clear scene connected with rabbit – 与该词相连的清晰场景",
+      "origin": "中古英语 rabet ← 盎格鲁拉丁语 rabettus ← 古法语方言 rabotte，或为中古荷兰语 robbe 的指小形，更早词源不明",
+      "native_definition": "a small animal with long ears that digs burrows",
+      "core_concept": "a long-eared burrowing animal – 长耳、会打洞的小动物",
       "core_image": "草地边一双长耳朵从灌木后探出，随后跳过小路",
       "chinese": [
         "兔子"
       ],
       "examples": [
-        "The rabbit changed the situation.",
-        "Researchers discussed the rabbit carefully."
+        "A rabbit slipped under the wire fence.",
+        "Rabbits dug holes across the lawn."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "兔子：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "racial",
@@ -142769,25 +142748,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 racial，现代词义按整体记",
-      "native_definition": "a thing or action related to racial",
-      "core_concept": "a clear scene connected with racial – 与该词相连的清晰场景",
+      "origin": "由 race ＋ -ial 构成；race 一支 ← 中古法语 race ← 意大利语 razza",
+      "native_definition": "relating to differences between groups of people by descent",
+      "core_concept": "to do with descent groups – 与血统群体有关的",
       "core_image": "地图上的不同群体用不同颜色标注，研究者比较其分布",
       "chinese": [
         "种族的"
       ],
       "examples": [
-        "The racial changed the situation.",
-        "Researchers discussed the racial carefully."
+        "The report examined racial differences carefully.",
+        "Racial equality remains the stated goal."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "种族的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "radical",
@@ -142797,26 +142773,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 radical，现代词义按整体记",
-      "native_definition": "a thing or action related to radical",
-      "core_concept": "a clear scene connected with radical – 与该词相连的清晰场景",
+      "origin": "中古英语 radical ← 拉丁语 rādīcālis（属于根的），源自 rādīx（根）",
+      "native_definition": "relating to the basic nature of something, or favouring extreme change",
+      "core_concept": "reaching down to the root – 一直探到根上的",
       "core_image": "树根从土层深处向四周伸展，牢牢抓住地面",
       "chinese": [
         "根本的",
         "激进的"
       ],
       "examples": [
-        "The radical changed the situation.",
-        "Researchers discussed the radical carefully."
+        "The plan needs a radical rethink.",
+        "Radical groups rejected the compromise."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "根本的/激进的：从核心场景引出的常用义"
+        "根本的：涉及最底层的",
+        "激进的：主张彻底改变的"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "rainbow",
@@ -142826,57 +142802,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rainbow，现代词义按整体记",
-      "native_definition": "a thing or action related to rainbow",
-      "core_concept": "a clear scene connected with rainbow – 与该词相连的清晰场景",
+      "origin": "古英语 reġnboga ← 原始日耳曼语 *regnabugô，由 rain ＋ bow（弧）复合而成",
+      "native_definition": "a curved band of colours seen in the sky after rain",
+      "core_concept": "a rain-made arch of colour – 雨造出的彩色弧",
       "core_image": "雨后的天空横跨着七色弧线，尽头落在远处山后",
       "chinese": [
         "彩虹"
       ],
       "examples": [
-        "The rainbow changed the situation.",
-        "Researchers discussed the rainbow carefully."
+        "A rainbow appeared above the wet field.",
+        "Children pointed at the bright rainbow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "彩虹：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "rarely",
       "word": "rarely",
       "pos": "adverb",
-      "phonetic": "/ˈreːli/",
+      "phonetic": "/ˈreəli/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rarely，现代词义按整体记",
-      "native_definition": "a thing or action related to rarely",
-      "core_concept": "a clear scene connected with rarely – 与该词相连的清晰场景",
+      "origin": "由 rare ＋ -ly 构成；rare ← 古法语 rare ← 拉丁语 rārus（稀疏）",
+      "native_definition": "not often",
+      "core_concept": "happening at thin intervals – 出现得稀疏",
       "core_image": "日历上大多数日期空白，只有极少几天画着标记",
       "chinese": [
         "很少"
       ],
       "examples": [
-        "The rarely changed the situation.",
-        "Researchers discussed the rarely carefully."
+        "He rarely leaves the house now.",
+        "Snow rarely falls in this valley."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "很少：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记",
       "collocations": [
         "rarely ever —— 几乎从不",
         "rarely seen —— 很少见到"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "reader",
@@ -142886,25 +142856,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 reader，现代词义按整体记",
-      "native_definition": "a thing or action related to reader",
-      "core_concept": "a clear scene connected with reader – 与该词相连的清晰场景",
+      "origin": "古英语 rēdere（读者、占卜者）← 原始西日耳曼语 *rādāri，由 read ＋ -er 构成",
+      "native_definition": "a person who reads",
+      "core_concept": "the one who takes in written words – 把字读进去的那个人",
       "core_image": "有人坐在窗边翻页，手指沿着纸上的行字移动",
       "chinese": [
         "读者"
       ],
       "examples": [
-        "The reader changed the situation.",
-        "Researchers discussed the reader carefully."
+        "The magazine has thousands of readers.",
+        "Every reader received the same notice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "读者：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "readily",
@@ -142914,29 +142881,30 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 readily，现代词义按整体记",
-      "native_definition": "a thing or action related to readily",
-      "core_concept": "a clear scene connected with readily – 与该词相连的清晰场景",
+      "origin": "中古英语 redily，由 ready ＋ -ly 构成",
+      "native_definition": "quickly and without difficulty",
+      "core_concept": "in a state already prepared to go – 已经备好随时可动的样子",
       "core_image": "柜台上的材料已分门别类，伸手便能取到所需那份",
       "chinese": [
-        "容易地"
+        "容易地",
+        "乐意地"
       ],
       "examples": [
-        "The readily changed the situation.",
-        "Researchers discussed the readily carefully."
+        "The parts are readily available here.",
+        "She readily agreed to the change."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "容易地：从核心场景引出的常用义"
+        "容易地：不费力就能做到",
+        "乐意地：不推托就答应"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
       "collocations": [
         "readily available —— 随时可得到",
         "readily understand —— 容易理解"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "reading",
@@ -142946,25 +142914,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 reading，现代词义按整体记",
-      "native_definition": "a thing or action related to reading",
-      "core_concept": "a clear scene connected with reading – 与该词相连的清晰场景",
+      "origin": "古英语 rǣding（阅读），由 read ＋ -ing 构成",
+      "native_definition": "the activity of looking at and understanding written words",
+      "core_concept": "taking in what is written – 把写下的东西读进去",
       "core_image": "台灯照着摊开的书页，读者逐行停下来理解",
       "chinese": [
-        "阅读"
+        "阅读",
+        "读数"
       ],
       "examples": [
-        "The reading changed the situation.",
-        "Researchers discussed the reading carefully."
+        "Reading before bed helps him sleep.",
+        "The meter reading rose again."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "阅读：从核心场景引出的常用义"
+        "阅读：看并理解文字",
+        "读数：仪表上读出的数值"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "rebellion",
@@ -142974,54 +142943,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 rebellion，现代词义按整体记",
-      "native_definition": "a thing or action related to rebellion",
-      "core_concept": "a clear scene connected with rebellion – 与该词相连的清晰场景",
+      "origin": "中古英语 rebellioun ← 古法语 rebellion ← 拉丁语 rebelliō，源自 rebellāre（再兴战）",
+      "native_definition": "an organized attempt to remove a government by force",
+      "core_concept": "taking up arms again against a ruler – 再度对当权者动兵",
       "core_image": "广场上人群举起不同旗帜，队伍拒绝听从旧命令",
       "chinese": [
         "叛乱"
       ],
       "examples": [
-        "The rebellion changed the situation.",
-        "Researchers discussed the rebellion carefully."
+        "The rebellion spread to three provinces.",
+        "Troops crushed the rebellion within days."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "叛乱：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "recall",
       "word": "recall",
       "pos": "verb",
-      "phonetic": "/ˈrecall/",
+      "phonetic": "/rɪˈkɔːl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 recall，现代词义按整体记",
-      "native_definition": "a thing or action related to recall",
-      "core_concept": "a clear scene connected with recall – 与该词相连的清晰场景",
+      "origin": "由 re-（再）＋ call 构成，或仿拉丁语 revocāre 与法语 rappeler 而造",
+      "native_definition": "to remember something, or to order something to be returned",
+      "core_concept": "calling something back to hand or mind – 把东西或记忆叫回来",
       "core_image": "仓库管理员逐件核对清单，把已发出的箱子叫回",
       "chinese": [
         "召回",
         "回忆"
       ],
       "examples": [
-        "The recall changed the situation.",
-        "Researchers discussed the recall carefully."
+        "She could not recall his name.",
+        "The maker recalled thousands of cars."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "召回/回忆：从核心场景引出的常用义"
+        "召回：命令已发出的东西返回",
+        "回忆：把过去的事叫回脑中"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "recent",
@@ -143031,25 +142997,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 recent，现代词义按整体记",
-      "native_definition": "a thing or action related to recent",
-      "core_concept": "a clear scene connected with recent – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 recēns（新近的）",
+      "native_definition": "happening or made a short time ago",
+      "core_concept": "only lately come about – 刚不久才发生的",
       "core_image": "日历最靠近今天的一格被圈出，墨迹还很新",
       "chinese": [
         "最近的"
       ],
       "examples": [
-        "The recent changed the situation.",
-        "Researchers discussed the recent carefully."
+        "Recent changes improved the whole service.",
+        "His recent letter arrived only yesterday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "最近的：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "recipe",
@@ -143059,25 +143022,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 recipe，现代词义按整体记",
-      "native_definition": "a thing or action related to recipe",
-      "core_concept": "a clear scene connected with recipe – 与该词相连的清晰场景",
+      "origin": "借自中古法语 récipé ← 拉丁语 recipe（取用吧），为 recipere（取、收）的第二人称单数命令式",
+      "native_definition": "a set of instructions for cooking a dish",
+      "core_concept": "an instruction that begins take this much – 以「取多少」开头的一份说明",
       "core_image": "厨房台面上摆着原料和步骤清单，厨师按顺序准备",
       "chinese": [
-        "recipe"
+        "食谱",
+        "配方"
       ],
       "examples": [
-        "The recipe changed the situation.",
-        "Researchers discussed the recipe carefully."
+        "She followed the recipe exactly this time.",
+        "The recipe needs four large eggs."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "recipe：从核心场景引出的常用义"
+        "食谱：做某道菜的步骤说明",
+        "配方：配制某物的成分与比例"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "recipient",
@@ -143087,25 +143051,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 recipient，现代词义按整体记",
-      "native_definition": "a thing or action related to recipient",
-      "core_concept": "a clear scene connected with recipient – 与该词相连的清晰场景",
+      "origin": "借自中古法语 récipient ← 拉丁语 recipiēns，为 recipere（收受）的现在分词",
+      "native_definition": "a person who receives something",
+      "core_concept": "the one who takes what is given – 把送来之物接过去的人",
       "core_image": "包裹上的收件人姓名写在正面，快递员把它递到对方手中",
       "chinese": [
-        "recipient"
+        "接受者",
+        "受领人"
       ],
       "examples": [
-        "The recipient changed the situation.",
-        "Researchers discussed the recipient carefully."
+        "Each recipient signed for the parcel.",
+        "The recipient of the prize spoke briefly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "recipient：从核心场景引出的常用义"
+        "接受者：收下某物的一方",
+        "受领人：正式领取的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "reciprocal",
@@ -145127,7 +145092,7 @@
       "id": "sale",
       "word": "sale",
       "pos": "noun",
-      "phonetic": "/seːl/",
+      "phonetic": "/seɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -151959,7 +151924,7 @@
       "id": "somewhere",
       "word": "somewhere",
       "pos": "adverb",
-      "phonetic": "/ˈsʌm.weː/",
+      "phonetic": "/ˈsʌmweə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
