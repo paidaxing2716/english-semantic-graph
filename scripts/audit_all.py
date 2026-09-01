@@ -33,6 +33,41 @@ ASCII_WORD = re.compile(r"^[a-zA-Z][a-zA-Z\s'-]*$")
 # （/net/ /help/ /bed/ 都是合法 IPA，不能因为等于拼写就判假）。
 NON_IPA_SPELLING = re.compile(r"[cqxy]|sh|ch|th|ph|wh|ck|oo|ee|ea|ou|ay|ai|oa|igh|ss|ll|tt|pp|mm|nn|gg|ff|dd|bb|rr")
 
+# ── 音标记法判据 ────────────────────────────────────────────────────────────
+# 下面五条查的都是「字符全在库内 46 字符集内、但音写错了」这一类。字符集那道门
+# （backfill_stub_content.PHONETIC_CHARSET）只保证用的字符对，保不了音对，所以
+# 这类错误此前从未被任何检查报出。2026-09 一轮人工排查按这五条查出约 60 条真错。
+#
+# 每条都在全库 5248 条上验过假阳性，注释里记的是当时的命中数。
+
+# ① th- 开头的词首音必须是 θ 或 ð。实测唯一命中 thin /ˈfɪn/——θ 写成了 f，
+#    那是 fin 不是 thin。零假阳性。
+TH_ONSET_OK = ("θ", "ð")
+
+# ② 裸 a 只该出现在 aɪ / aʊ 两个双元音里，单独出现应为 æ。实测命中 5 条，其中
+#    4 条真错（tram /tram/、transient、understanding、wax /waks/），1 条假阳性是
+#    minute 的括号注释「(adj.)」里的 a——故排除含括号的音标。
+BARE_A = re.compile(r"a(?![ɪʊ])")
+
+# ③ 规格明文写「用 əʊ 不用 oʊ」。实测命中 31 条全是真错（compose、social、
+#    motor…），零假阳性。
+# ④ 裸 ʊ（前不接 a/ə/j、后不接 ə）多数应为 ʌ。不带白名单实测报 70 条，其中
+#    12 条真错、58 条是 book/foot/good/wolf 那类真读 FOOT 元音的词。FOOT 元音
+#    在英语里拼作 oo / oul 或少数 u 的不规则词，后者是一个封闭小类，列在下面。
+#    后向否定要跨过右括号：sculpture /ˈskʌlptj(ʊ)ə/ 的 ʊ 属于 tjʊə，中间隔着 ')'。
+#    前向否定还要排除 o：oʊ 已由判据 ③ 报出，否则同一个错会报两条。
+BARE_UPSILON = re.compile(r"(?<![aəjo])ʊ(?!\)?ə)")
+#    白名单还须收 o 拼写的 FOOT 词：wolf / woman 拼写里没有 u，靠拼写规则挡不住。
+FOOT_U_WORDS = frozenset("""put push pull full bull bush butcher sugar pudding cushion
+bulletin bullet bully buffet input output outlook fulfill bosom
+wolf wolves woman women""".split())
+
+# ⑤ 括号可选音：(ə)/(ɪ) 标可省音节是合法的（squirrel /ˈskwɪ.r(ə)l/，库内 18 条）；
+#    (r) 标连读 r 也是合法的牛津系非儿化记法（库内 119 条）——但仅限词末，词内
+#    (r) 后面紧跟辅音时那个 r 在任何语境都读不出来。(ː) 则一律非法，长音不可选。
+#    实测按此查出 8 条位置错的 (r) 与 2 条 (ː)。
+INNER_R = re.compile(r"\(r\)(?=[ˈˌ]?[bdfɡhjklmnprstvwzðŋʃʒθ])")
+
 
 def is_template_native(value):
     v = (value or "").strip()
@@ -131,6 +166,22 @@ def main():
             add(suspicious, wid, "phonetic", "音标是拼写套斜杠（生成器签名）", ph)
         elif bare == wid and NON_IPA_SPELLING.search(wid):
             add(suspicious, wid, "phonetic", "音标含 IPA 不可能的正字法，疑似拼写冒充", ph)
+        # 五条记法判据。只对已是真音标的跑——占位串上面已单独报过，不重复计数。
+        if ph and ph != "/ˈ" + wid + "/":
+            core = bare.lstrip("ˈˌ")
+            if wid.startswith("th") and not core.startswith(TH_ONSET_OK):
+                add(critical, wid, "phonetic", "th- 开头而首音既非 θ 也非 ð", ph)
+            if "(" not in ph and BARE_A.search(ph):
+                add(critical, wid, "phonetic", "裸 a 只该出现在 aɪ/aʊ 里，单独出现应为 æ", ph)
+            if "oʊ" in ph:
+                add(critical, wid, "phonetic", "用了美式 oʊ，英式约定是 əʊ", ph)
+            if BARE_UPSILON.search(ph) and wid not in FOOT_U_WORDS \
+                    and "oo" not in wid and "oul" not in wid and not wid.endswith("ful"):
+                add(suspicious, wid, "phonetic", "裸 ʊ 须核对是否应为 ʌ", ph)
+            if INNER_R.search(ph):
+                add(critical, wid, "phonetic", "词内 (r) 后接辅音，该 r 永不读出", ph)
+            if "(ː)" in ph:
+                add(critical, wid, "phonetic", "长音符不是可选音，(ː) 应作 ː", ph)
         # 中文义项全是 ASCII 词：生成器 zh.get(w, w) 的静默回退，等于没有中文释义。
         if zh and all(ASCII_WORD.match(x) for x in zh):
             add(suspicious, wid, "chinese", "中文义项是英文词，疑似生成器回退", "/".join(zh)[:60])
