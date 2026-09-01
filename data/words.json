@@ -160588,53 +160588,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 throw，现代词义按整体记",
-      "native_definition": "a thing or action related to throw",
-      "core_concept": "a clear scene connected with throw – 与该词相连的清晰场景",
+      "origin": "中古英语 throwen ← 古英语 þrāwan（扭、转）← 原始日耳曼语 *þrēaną（拧、转）← 原始印欧语 *terh₁-（搓、拧）；本义是拧，后转为掷",
+      "native_definition": "to send something through the air with a movement of the arm",
+      "core_concept": "sending something flying by a sweep of the arm – 手臂一挥，把东西送上天飞出去",
       "core_image": "手臂向前挥动，球越过草地飞向远处",
       "chinese": [
-        "throw"
+        "扔",
+        "投掷",
+        "抛"
       ],
       "examples": [
-        "The throw changed the situation.",
-        "Researchers discussed the throw carefully."
+        "He threw the ball across the yard.",
+        "She threw her coat onto the bed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "throw：从核心场景引出的常用义"
+        "扔：随手抛出",
+        "投掷：使力掷向目标，多见于比赛",
+        "抛：轻轻送出，多带弧线"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "thrust",
       "word": "thrust",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/θrʊst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 thrust，现代词义按整体记",
-      "native_definition": "a thing or action related to thrust",
-      "core_concept": "a clear scene connected with thrust – 与该词相连的清晰场景",
+      "origin": "中古英语 þristen ← 古诺尔斯语 þrysta（挤、压）← 原始日耳曼语 *þrustijaną，或出自原始印欧语 *trewd-（挤、压）",
+      "native_definition": "to push something suddenly and hard",
+      "core_concept": "one sudden hard push in a single direction – 朝一个方向猛地一推",
       "core_image": "肩膀猛地向前顶，重箱子沿地面移动",
       "chinese": [
-        "thrust"
+        "猛推",
+        "推力",
+        "塞进"
       ],
       "examples": [
-        "The thrust changed the situation.",
-        "Researchers discussed the thrust carefully."
+        "He thrust the door open with his shoulder.",
+        "The engine gives enormous thrust."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "thrust：从核心场景引出的常用义"
+        "猛推：一下用力推出",
+        "推力：这一推所产生的力",
+        "塞进：把东西硬推入窄处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "thumb",
@@ -160644,25 +160650,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 thumb，现代词义按整体记",
-      "native_definition": "a thing or action related to thumb",
-      "core_concept": "a clear scene connected with thumb – 与该词相连的清晰场景",
+      "origin": "中古英语 thombe ← 古英语 þūma ← 原始日耳曼语 *þūmô ← 原始印欧语 *tum-（长大、变粗），本义是「粗的那根」",
+      "native_definition": "the short thick finger set apart from the other four",
+      "core_concept": "the short thick digit that works against the other four – 又短又粗、能与其余四指相对的那根",
       "core_image": "手掌旁最粗短的指头按住纸张边缘",
       "chinese": [
-        "thumb"
+        "拇指"
       ],
       "examples": [
-        "The thumb changed the situation.",
-        "Researchers discussed the thumb carefully."
+        "He pressed the clay flat with his thumb.",
+        "She hurt her thumb closing the door."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "thumb：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "thunder",
@@ -160672,81 +160675,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 thunder，现代词义按整体记",
-      "native_definition": "a thing or action related to thunder",
-      "core_concept": "a clear scene connected with thunder – 与该词相连的清晰场景",
+      "origin": "中古英语 thunder ← 古英语 þunor ← 原始日耳曼语 *þunraz ← 原始印欧语 *(s)tenh₂-（轰响）；与 stun、astonish 同支",
+      "native_definition": "the loud noise that follows lightning",
+      "core_concept": "the deep roar that comes after the flash – 闪光过后传来的那阵低沉巨响",
       "core_image": "乌云后传来低沉巨响，窗玻璃轻轻震动",
       "chinese": [
-        "thunder"
+        "雷",
+        "雷声",
+        "轰响"
       ],
       "examples": [
-        "The thunder changed the situation.",
-        "Researchers discussed the thunder carefully."
+        "Thunder rolled across the valley.",
+        "We heard thunder long before the rain."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "thunder：从核心场景引出的常用义"
+        "雷：这种天象",
+        "雷声：它发出的那个声响",
+        "轰响：把这种声音用到别的巨响上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "thursday",
       "word": "thursday",
       "pos": "noun",
-      "phonetic": "/ˈthursday/",
+      "phonetic": "/ˈθɜːzdeɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 thursday，现代词义按整体记",
-      "native_definition": "a thing or action related to thursday",
-      "core_concept": "a clear scene connected with thursday – 与该词相连的清晰场景",
+      "origin": "古英语 Þunresdæġ（雷神之日），仿拉丁语 dies Iovis（朱庇特之日）而造；Þunor 即北欧雷神 Thor",
+      "native_definition": "the fourth day of the working week, after Wednesday",
+      "core_concept": "the day named after the god of thunder – 以雷神命名的那一天",
       "core_image": "一周日历中标记 Thursday 的那一格被圈出",
       "chinese": [
-        "thursday"
+        "星期四"
       ],
       "examples": [
-        "The thursday changed the situation.",
-        "Researchers discussed the thursday carefully."
+        "The meeting is on Thursday.",
+        "She flies out next Thursday morning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "thursday：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tick",
       "word": "tick",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/tɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tick，现代词义按整体记",
-      "native_definition": "a thing or action related to tick",
-      "core_concept": "a clear scene connected with tick – 与该词相连的清晰场景",
+      "origin": "中古英语 tek（轻触、轻敲）← 古英语 *ticcian（轻碰）← 原始西日耳曼语 *tikkōn（轻触）；「蜱」是另一支，← 古英语 ticia",
+      "native_definition": "a short light sound made by a clock, or a small mark showing something is correct",
+      "core_concept": "one short light contact, heard or drawn – 短而轻的一下，听见的或画下的",
       "core_image": "时钟指针向前跳一格，机械声短促清晰",
       "chinese": [
-        "tick"
+        "嘀嗒",
+        "勾号",
+        "蜱虫"
       ],
       "examples": [
-        "The tick changed the situation.",
-        "Researchers discussed the tick carefully."
+        "The clock ticked in the empty hall.",
+        "Put a tick beside each finished item."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tick：从核心场景引出的常用义"
+        "嘀嗒：钟表走动发出的那一声",
+        "勾号：纸上打的那一小笔，表示对",
+        "蜱虫：另一支同形异源的词，指那种吸血小虫"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "ticket",
@@ -160756,25 +160762,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ticket，现代词义按整体记",
-      "native_definition": "a thing or action related to ticket",
-      "core_concept": "a clear scene connected with ticket – 与该词相连的清晰场景",
+      "origin": "借自中古法语 etiquet／estiquette（票据、标签）← 古法语 estechier（贴、插）← 法兰克语 *stikkjan（刺、插）；与 etiquette 同源",
+      "native_definition": "a printed piece of paper showing you have paid or may enter",
+      "core_concept": "a slip that proves a right to enter or ride – 一张纸片，凭它证明有权进场或乘坐",
       "core_image": "纸票上印着座位号，检票员在入口处撕下一角",
       "chinese": [
-        "ticket"
+        "票",
+        "入场券",
+        "罚单"
       ],
       "examples": [
-        "The ticket changed the situation.",
-        "Researchers discussed the ticket carefully."
+        "He bought two tickets for the concert.",
+        "She got a parking ticket on Friday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ticket：从核心场景引出的常用义"
+        "票：付过钱的凭证",
+        "入场券：专指凭它进场的那种",
+        "罚单：交警贴的那张纸，形制相同而用途相反"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "源头在日耳曼语支，经法语回流入英语，本项目未为其词族建根"
     },
     {
       "id": "tide",
@@ -160784,25 +160793,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tide，现代词义按整体记",
-      "native_definition": "a thing or action related to tide",
-      "core_concept": "a clear scene connected with tide – 与该词相连的清晰场景",
+      "origin": "中古英语 tyde ← 古英语 tīd（时候、时节）← 原始日耳曼语 *tīdiz；与 time 同支，本指定时而来之事，后专指潮水",
+      "native_definition": "the regular rise and fall of the sea",
+      "core_concept": "the sea's regular rise and fall, coming on its own clock – 海水按自己的钟涨落",
       "core_image": "海水沿岸线涨高，沙滩上的湿痕向陆地推进",
       "chinese": [
-        "tide"
+        "潮",
+        "潮水",
+        "趋势"
       ],
       "examples": [
-        "The tide changed the situation.",
-        "Researchers discussed the tide carefully."
+        "The tide comes in twice a day.",
+        "The tide of opinion turned against him."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tide：从核心场景引出的常用义"
+        "潮：这种涨落现象",
+        "潮水：涨落中那股水本身",
+        "趋势：把「按时涨落、势不可挡」用到人心与局面上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tidy",
@@ -160812,53 +160824,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tidy，现代词义按整体记",
-      "native_definition": "a thing or action related to tidy",
-      "core_concept": "a clear scene connected with tidy – 与该词相连的清晰场景",
+      "origin": "中古英语 tidy（合时的、应季的），即 tide（时候）＋ 形容词后缀 -y；词义由「合时」转为「整齐」",
+      "native_definition": "arranged neatly, with everything in place",
+      "core_concept": "everything put where it belongs – 每样东西都在该在的位置上",
       "core_image": "桌面上的纸笔按类别排列，所有东西都回到固定位置",
       "chinese": [
-        "tidy"
+        "整齐的",
+        "收拾干净的"
       ],
       "examples": [
-        "The tidy changed the situation.",
-        "Researchers discussed the tidy carefully."
+        "Her desk is always tidy.",
+        "Please keep the kitchen tidy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tidy：从核心场景引出的常用义"
+        "整齐的：摆放有序，看着不乱",
+        "收拾干净的：经人整理过之后的那种状态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tie",
       "word": "tie",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/taɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tie，现代词义按整体记",
-      "native_definition": "a thing or action related to tie",
-      "core_concept": "a clear scene connected with tie – 与该词相连的清晰场景",
+      "origin": "中古英语 teye（绳、链）← 古英语 tēag ← 原始日耳曼语 *taugō ← 原始印欧语 *dewk-（牵、拉）",
+      "native_definition": "to fasten something with string or rope, or a strip of cloth worn at the neck",
+      "core_concept": "drawing two ends together and fixing them – 把两头拉到一处并固定住",
       "core_image": "两根绳子的末端交叉打结，拉紧后固定住",
       "chinese": [
-        "tie"
+        "系紧",
+        "领带",
+        "平局"
       ],
       "examples": [
-        "The tie changed the situation.",
-        "Researchers discussed the tie carefully."
+        "Tie the parcel with strong string.",
+        "The match ended in a tie."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tie：从核心场景引出的常用义"
+        "系紧：把两端拉紧扣住",
+        "领带：颈前那条布，本身就靠打结固定",
+        "平局：两方比分被「拉平」，如同两头系到一处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tiger",
@@ -160868,25 +160884,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tiger，现代词义按整体记",
-      "native_definition": "a thing or action related to tiger",
-      "core_concept": "a clear scene connected with tiger – 与该词相连的清晰场景",
+      "origin": "中古英语 tygre，部分承古英语 tigras，部分 ← 盎格鲁诺曼语 tigre ← 拉丁语 tigris ← 希腊语 tigris ← 伊朗语支",
+      "native_definition": "a large wild cat with orange fur and black stripes",
+      "core_concept": "a large striped cat that hunts alone – 身有条纹、独来独往的大型猫科猛兽",
       "core_image": "条纹动物伏在草丛里，黄色眼睛盯着前方",
       "chinese": [
-        "tiger"
+        "虎",
+        "老虎"
       ],
       "examples": [
-        "The tiger changed the situation.",
-        "Researchers discussed the tiger carefully."
+        "A tiger crossed the clearing at dusk.",
+        "Tigers hunt alone, not in packs."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tiger：从核心场景引出的常用义"
+        "虎：书面或复合词里的说法",
+        "老虎：日常口语的叫法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tight",
@@ -160896,25 +160913,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tight，现代词义按整体记",
-      "native_definition": "a thing or action related to tight",
-      "core_concept": "a clear scene connected with tight – 与该词相连的清晰场景",
+      "origin": "中古英语 tight，为 thight 的变体 ← 古英语 *þīht ← 原始日耳曼语 *þinhtaz ← 原始印欧语 *tenkt-（密、紧）← *ten-（拉伸）",
+      "native_definition": "fixed or pulled so firmly that there is no slack",
+      "core_concept": "drawn so taut that nothing can slip – 拉到绷住，一点也滑不动",
       "core_image": "鞋带被拉到很紧，结头贴着鞋面不松开",
       "chinese": [
-        "tight"
+        "紧的",
+        "密合的",
+        "拮据的"
       ],
       "examples": [
-        "The tight changed the situation.",
-        "Researchers discussed the tight carefully."
+        "The knot was too tight to undo.",
+        "Money has been tight since the move."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tight：从核心场景引出的常用义"
+        "紧的：拉住绷住，没有松余",
+        "密合的：接缝合得严，不透气不漏水",
+        "拮据的：手头的钱绷得紧，动不了"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tile",
@@ -160924,25 +160944,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tile，现代词义按整体记",
-      "native_definition": "a thing or action related to tile",
-      "core_concept": "a clear scene connected with tile – 与该词相连的清晰场景",
+      "origin": "中古英语 tile ← 古英语 tiġele（瓦、砖）← 原始日耳曼语 *tigulǭ ← 拉丁语 tegula（瓦）← 原始印欧语 *(s)teg-（覆盖）",
+      "native_definition": "a thin flat piece of baked clay or stone used to cover a surface",
+      "core_concept": "a thin flat slab laid alongside others to cover a surface – 一片片挨着铺开，把表面盖住的薄板",
       "core_image": "许多方形薄片整齐铺在地面，边缘互相对齐",
       "chinese": [
-        "tile"
+        "瓷砖",
+        "瓦片"
       ],
       "examples": [
-        "The tile changed the situation.",
-        "Researchers discussed the tile carefully."
+        "They laid white tiles in the bathroom.",
+        "A tile slipped off the roof."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tile：从核心场景引出的常用义"
+        "瓷砖：铺墙铺地的那种",
+        "瓦片：盖屋顶的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "till",
@@ -160952,25 +160973,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 till，现代词义按整体记",
-      "native_definition": "a thing or action related to till",
-      "core_concept": "a clear scene connected with till – 与该词相连的清晰场景",
-      "core_image": "农夫用犁翻开田土，播种前反复处理表层",
+      "origin": "中古英语 til ← 北部古英语 til，与古诺尔斯语 til（到、直到）同出原始日耳曼语 *til（向、到）；并非 until 的缩写，反倒是 until 由它加前缀而来",
+      "native_definition": "up to the time that",
+      "core_concept": "marking the point in time where something stops – 标出一件事到哪一刻为止",
+      "core_image": "车站的牌子写着从早六点开到夜十一点，指针没走到那一格就还在营业",
       "chinese": [
-        "till"
+        "直到",
+        "在…之前"
       ],
       "examples": [
-        "The till changed the situation.",
-        "Researchers discussed the till carefully."
+        "We waited till the rain stopped.",
+        "The shop stays open till eleven."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "till：从核心场景引出的常用义"
+        "直到：持续到那一刻",
+        "在…之前：从反面说同一条界，那之前一直如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tilt",
@@ -160980,25 +161002,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tilt，现代词义按整体记",
-      "native_definition": "a thing or action related to tilt",
-      "core_concept": "a clear scene connected with tilt – 与该词相连的清晰场景",
+      "origin": "中古英语 tilte ← 古英语 *tieltan（摇晃不稳），与形容词 tealt（不稳的）相关 ← 原始印欧语 *del-（摇、犹疑）",
+      "native_definition": "to move into a sloping position",
+      "core_concept": "leaning off level so one end sits higher – 偏离水平，一端翘起来",
       "core_image": "桌面一端被垫高，玻璃球沿斜面滚向低处",
       "chinese": [
-        "tilt"
+        "倾斜",
+        "使歪",
+        "偏向"
       ],
       "examples": [
-        "The tilt changed the situation.",
-        "Researchers discussed the tilt carefully."
+        "He tilted the jug to pour.",
+        "The whole table tilts to one side."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tilt：从核心场景引出的常用义"
+        "倾斜：整体偏离水平",
+        "使歪：让它偏到一边去",
+        "偏向：把这份倾斜用到态度上，指偏袒一方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "timber",
@@ -161008,25 +161033,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 timber，现代词义按整体记",
-      "native_definition": "a thing or action related to timber",
-      "core_concept": "a clear scene connected with timber – 与该词相连的清晰场景",
+      "origin": "中古英语 tymber ← 古英语 timber ← 原始日耳曼语 *timrą（建材、房屋）← 原始印欧语 *dem-（造、建）；与德语 Zimmer（房间）同源",
+      "native_definition": "wood prepared for building or making things",
+      "core_concept": "wood cut and kept for building with – 锯好存着、专供营造用的木头",
       "core_image": "锯下的粗木梁平码在木材堆里，截面露出年轮",
       "chinese": [
-        "timber"
+        "原木",
+        "木料"
       ],
       "examples": [
-        "The timber changed the situation.",
-        "Researchers discussed the timber carefully."
+        "The barn is built of oak timber.",
+        "They stacked the timber to dry."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "timber：从核心场景引出的常用义"
+        "原木：锯下来还没细加工的整段",
+        "木料：加工好、备用于制作的那些木头"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "time",
@@ -161036,25 +161062,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 time，现代词义按整体记",
-      "native_definition": "a thing or action related to time",
-      "core_concept": "a clear scene connected with time – 与该词相连的清晰场景",
+      "origin": "中古英语 tyme ← 古英语 tīma（时候、时节）← 原始日耳曼语 *tīmô ← 原始印欧语 *deh₂y-（分开）；与 tide 同支，与拉丁语 tempus 无关",
+      "native_definition": "what is measured in hours, days, and years",
+      "core_concept": "the stretch in which one thing follows another – 一件接一件发生所占的那段长度",
       "core_image": "钟面上的指针从一个刻度移动到下一个",
       "chinese": [
-        "time"
+        "时间",
+        "时候",
+        "次"
       ],
       "examples": [
-        "The time changed the situation.",
-        "Researchers discussed the time carefully."
+        "We have plenty of time before the train.",
+        "I have seen it three times."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "time：从核心场景引出的常用义"
+        "时间：可以计量的那种延续",
+        "时候：其中某一个点",
+        "次：同一事发生的第几回，把延续切成段来数"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "timely",
@@ -161064,25 +161093,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 timely，现代词义按整体记",
-      "native_definition": "a thing or action related to timely",
-      "core_concept": "a clear scene connected with timely – 与该词相连的清晰场景",
+      "origin": "中古英语 timely ← 古英语 tīmlīċe（及时地），即 time ＋ 形容词后缀 -ly",
+      "native_definition": "happening at just the right moment",
+      "core_concept": "arriving at the moment when it still helps – 赶在还来得及起作用的那一刻到",
       "core_image": "救援车在最后期限前抵达，刚好没有错过时机",
       "chinese": [
-        "timely"
+        "及时的",
+        "适时的"
       ],
       "examples": [
-        "The timely changed the situation.",
-        "Researchers discussed the timely carefully."
+        "Her timely warning saved the crop.",
+        "He made a timely exit before the argument."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "timely：从核心场景引出的常用义"
+        "及时的：不迟，赶上了要紧的关口",
+        "适时的：时机选得正合适"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "timid",
@@ -161092,25 +161122,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 timid，现代词义按整体记",
-      "native_definition": "a thing or action related to timid",
-      "core_concept": "a clear scene connected with timid – 与该词相连的清晰场景",
+      "origin": "源自中古法语 timide ← 拉丁语 timidus（畏怯的）← timeō（怕）",
+      "native_definition": "lacking courage, easily frightened",
+      "core_concept": "holding back because fear comes first – 怕在前头，所以缩着不敢上",
       "core_image": "小鹿躲在树后，只把半张脸露出来观察人群",
       "chinese": [
-        "timid"
+        "胆小的",
+        "羞怯的"
       ],
       "examples": [
-        "The timid changed the situation.",
-        "Researchers discussed the timid carefully."
+        "The timid child hid behind her mother.",
+        "He gave a timid knock at the door."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "timid：从核心场景引出的常用义"
+        "胆小的：遇事就怕，不敢动",
+        "羞怯的：怕的是人前露面，故显拘谨"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tin",
@@ -161120,25 +161151,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tin，现代词义按整体记",
-      "native_definition": "a thing or action related to tin",
-      "core_concept": "a clear scene connected with tin – 与该词相连的清晰场景",
+      "origin": "中古英语 tin ← 古英语 tin ← 原始西日耳曼语 *tin ← 原始日耳曼语 *tiną（锡）",
+      "native_definition": "a soft silvery metal, or a sealed metal container for food",
+      "core_concept": "a soft light metal, and the sealed box made from it – 一种软而轻的金属，以及用它做的密封盒",
       "core_image": "轻薄金属盒打开后，里面装着几颗糖",
       "chinese": [
-        "tin"
+        "锡",
+        "罐头盒"
       ],
       "examples": [
-        "The tin changed the situation.",
-        "Researchers discussed the tin carefully."
+        "The roof is covered with sheets of tin.",
+        "Open a tin of beans for lunch."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tin：从核心场景引出的常用义"
+        "锡：那种金属本身",
+        "罐头盒：用镀锡薄铁做的密封容器"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tiny",
@@ -161148,53 +161180,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tiny，现代词义按整体记",
-      "native_definition": "a thing or action related to tiny",
-      "core_concept": "a clear scene connected with tiny – 与该词相连的清晰场景",
+      "origin": "中古英语 tine／tyne（极小的）＋ -y，更早词源不明",
+      "native_definition": "extremely small",
+      "core_concept": "so small that it is easy to overlook – 小到很容易看漏",
       "core_image": "针尖旁放着一粒极小的种子，必须靠近才能看见",
       "chinese": [
-        "tiny"
+        "微小的",
+        "细小的"
       ],
       "examples": [
-        "The tiny changed the situation.",
-        "Researchers discussed the tiny carefully."
+        "A tiny crack ran across the glass.",
+        "She found a tiny shell in the sand."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tiny：从核心场景引出的常用义"
+        "微小的：小得几乎不占分量",
+        "细小的：既小又细，多形容线状或颗状之物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tip",
       "word": "tip",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/tɪp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tip，现代词义按整体记",
-      "native_definition": "a thing or action related to tip",
-      "core_concept": "a clear scene connected with tip – 与该词相连的清晰场景",
+      "origin": "中古英语 tip（末端），更早词源不明，或与 top 远亲；「小费」义另出，17 世纪始见",
+      "native_definition": "the pointed end of something, or a small extra payment",
+      "core_concept": "the very end of something, or a little extra passed over – 一件东西最末那一点，或额外递过去的一点",
       "core_image": "杯子倾斜到边缘，第一滴液体从尖端落下",
       "chinese": [
-        "tip"
+        "末梢",
+        "小费",
+        "提示"
       ],
       "examples": [
-        "The tip changed the situation.",
-        "Researchers discussed the tip carefully."
+        "He touched the wire with the tip of a pencil.",
+        "She left a generous tip."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tip：从核心场景引出的常用义"
+        "末梢：最末那一小段",
+        "小费：额外多给的一点钱",
+        "提示：额外给出的一点信息"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tire",
@@ -161204,25 +161240,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tire，现代词义按整体记",
-      "native_definition": "a thing or action related to tire",
-      "core_concept": "a clear scene connected with tire – 与该词相连的清晰场景",
-      "core_image": "汽车轮胎沿路面转动，橡胶表面留下细微痕迹",
+      "origin": "中古英语 tiren ← 古英语 tēorian（力竭、疲乏），更早词源不明；或出自原始西日耳曼语 *teuʀōn（停歇）",
+      "native_definition": "to make or become weak from effort",
+      "core_concept": "using up strength until little is left – 把力气耗到剩得不多",
+      "core_image": "连着搬了三小时箱子，他坐在台阶上抬不起手臂",
       "chinese": [
-        "tire"
+        "使疲倦",
+        "疲乏",
+        "厌倦"
       ],
       "examples": [
-        "The tire changed the situation.",
-        "Researchers discussed the tire carefully."
+        "The long climb tired us all.",
+        "He never tires of telling that story."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tire：从核心场景引出的常用义"
+        "使疲倦：让对方力气耗掉",
+        "疲乏：自己力气耗尽的那种状态",
+        "厌倦：耗掉的不是体力而是兴致"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tiresome",
@@ -161232,25 +161271,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tiresome，现代词义按整体记",
-      "native_definition": "a thing or action related to tiresome",
-      "core_concept": "a clear scene connected with tiresome – 与该词相连的清晰场景",
+      "origin": "由 tire ＋ 形容词后缀 -some 构成；tire 一支 ← 古英语 tēorian（力竭）",
+      "native_definition": "making one feel impatient or worn out",
+      "core_concept": "going on until patience or strength runs out – 一直持续到人的耐性或力气耗光",
       "core_image": "同一项工作重复了一整天，工人揉着眼睛打哈欠",
       "chinese": [
-        "tiresome"
+        "令人厌烦的",
+        "累人的"
       ],
       "examples": [
-        "The tiresome changed the situation.",
-        "Researchers discussed the tiresome carefully."
+        "His constant questions grew tiresome.",
+        "Filling in these forms is tiresome work."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tiresome：从核心场景引出的常用义"
+        "令人厌烦的：耗掉的是耐性",
+        "累人的：耗掉的是体力"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tissue",
@@ -161260,25 +161300,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tissue，现代词义按整体记",
-      "native_definition": "a thing or action related to tissue",
-      "core_concept": "a clear scene connected with tissue – 与该词相连的清晰场景",
+      "origin": "中古英语 tissu ← 古法语 tissu（织成的），是 tistre（编织）的过去分词 ← 拉丁语 texō（织）",
+      "native_definition": "thin soft paper, or the material that living cells form in a body",
+      "core_concept": "something woven fine and thin, whether of paper or of cells – 织得又薄又细的东西，纸的或细胞的",
       "core_image": "柔软纸巾从盒口抽出，轻轻擦过桌面水迹",
       "chinese": [
-        "tissue"
+        "组织",
+        "薄纸"
       ],
       "examples": [
-        "The tissue changed the situation.",
-        "Researchers discussed the tissue carefully."
+        "She dabbed her eyes with a tissue.",
+        "The scan shows damaged tissue."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tissue：从核心场景引出的常用义"
+        "组织：生物体内同类细胞织成的那一层",
+        "薄纸：又软又薄、抽一张就用的那种纸"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "title",
@@ -161288,25 +161329,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 title，现代词义按整体记",
-      "native_definition": "a thing or action related to title",
-      "core_concept": "a clear scene connected with title – 与该词相连的清晰场景",
+      "origin": "中古英语 title ← 古英语 titul ← 拉丁语 titulus（题铭、名号）",
+      "native_definition": "the name of a book or film, or a word showing rank",
+      "core_concept": "the name put at the head to say what or who this is – 摆在最前的那个名，说明这是什么或是谁",
       "core_image": "书封上方印着醒目的标题，读者据此知道主题",
       "chinese": [
-        "title"
+        "题名",
+        "头衔",
+        "所有权"
       ],
       "examples": [
-        "The title changed the situation.",
-        "Researchers discussed the title carefully."
+        "The title of the book is misleading.",
+        "She holds the title of chief engineer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "title：从核心场景引出的常用义"
+        "题名：书或影片开头那个名字",
+        "头衔：人名前后表明身份的那个称号",
+        "所有权：法律上写在名下的那份权利"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "toast",
@@ -161316,25 +161360,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toast，现代词义按整体记",
-      "native_definition": "a thing or action related to toast",
-      "core_concept": "a clear scene connected with toast – 与该词相连的清晰场景",
+      "origin": "中古英语 tost ← 动词 tosten ← 古法语 toster（烤、炙）← 晚期拉丁语 tostare ← 拉丁语 torreō（烘、烤）；「祝酒」义 1674 年始见",
+      "native_definition": "bread browned by heat, or words said before drinking together",
+      "core_concept": "bread browned by heat, and the words raised over a glass – 面包受热烤黄，以及举杯时说的那番话",
       "core_image": "面包片在烤架中变成金黄色，边缘微微发脆",
       "chinese": [
-        "toast"
+        "吐司",
+        "烤面包",
+        "祝酒"
       ],
       "examples": [
-        "The toast changed the situation.",
-        "Researchers discussed the toast carefully."
+        "He had toast and jam for breakfast.",
+        "They drank a toast to the couple."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toast：从核心场景引出的常用义"
+        "吐司：切片烤过的面包",
+        "烤面包：把面包烤黄这个做法及成品",
+        "祝酒：举杯前说的那番话，旧时杯中放烤面包片增味，故得此名"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tobacco",
@@ -161344,25 +161391,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tobacco，现代词义按整体记",
-      "native_definition": "a thing or action related to tobacco",
-      "core_concept": "a clear scene connected with tobacco – 与该词相连的清晰场景",
+      "origin": "1588 年始见，借自西班牙语 tabaco，或出自阿拉伯语 tubbaq，或出自加勒比土语（如 tabago，指吸烟的管子）",
+      "native_definition": "the dried leaves used in cigarettes and pipes",
+      "core_concept": "dried leaves prepared to be smoked – 晾干后备着吸用的那种叶子",
       "core_image": "干燥叶片装在罐中，旁边放着卷烟纸",
       "chinese": [
-        "tobacco"
+        "烟草",
+        "烟叶"
       ],
       "examples": [
-        "The tobacco changed the situation.",
-        "Researchers discussed the tobacco carefully."
+        "He rolled tobacco into a thin paper.",
+        "The shop no longer sells tobacco."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tobacco：从核心场景引出的常用义"
+        "烟草：这种作物及其制品的通称",
+        "烟叶：具体那些晾好的叶片"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自西班牙语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "today",
@@ -161372,25 +161420,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 today，现代词义按整体记",
-      "native_definition": "a thing or action related to today",
-      "core_concept": "a clear scene connected with today – 与该词相连的清晰场景",
+      "origin": "中古英语 today ← 古英语 tō dæġe（在这一日），即 to ＋ day",
+      "native_definition": "on this present day, or at the present period",
+      "core_concept": "the day one is now in – 说话时正处在的这一天",
       "core_image": "日历上当前日期被圈出，桌上的钟指向此刻",
       "chinese": [
-        "today"
+        "今天",
+        "如今"
       ],
       "examples": [
-        "The today changed the situation.",
-        "Researchers discussed the today carefully."
+        "I have three lessons today.",
+        "Today most people carry a phone."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "today：从核心场景引出的常用义"
+        "今天：眼下这一日",
+        "如今：把这一天放宽成当今这个时代"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "toe",
@@ -161400,25 +161449,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toe，现代词义按整体记",
-      "native_definition": "a thing or action related to toe",
-      "core_concept": "a clear scene connected with toe – 与该词相连的清晰场景",
-      "core_image": "鞋尖露出脚趾，走路时先触到地面",
+      "origin": "中古英语 to ← 古英语 tā ← 原始日耳曼语 *taihwǭ ← 原始印欧语 *deyḱ-（指出）",
+      "native_definition": "one of the five parts at the end of the foot",
+      "core_concept": "one of the five short parts at the front of the foot – 脚前端那五个小节中的一个",
+      "core_image": "鞋尖破了个口，走路时最前头那几个小节先碰到地面",
       "chinese": [
-        "toe"
+        "脚趾",
+        "足尖"
       ],
       "examples": [
-        "The toe changed the situation.",
-        "Researchers discussed the toe carefully."
+        "He stubbed his toe on the step.",
+        "She stood on her toes to reach it."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toe：从核心场景引出的常用义"
+        "脚趾：脚前端那几节的通称",
+        "足尖：整只脚最前那一处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "together",
