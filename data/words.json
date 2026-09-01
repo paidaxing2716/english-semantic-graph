@@ -155190,25 +155190,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stocking，现代词义按整体记",
-      "native_definition": "a thing or action related to stocking",
-      "core_concept": "a clear scene connected with stocking – 与该词相连的清晰场景",
+      "origin": "由 stock（此处指套在腿上的筒状物）＋ -ing 构成；stock 一支 ← 古英语 stocc（树干、桩）← 原始日耳曼语 *stukkaz",
+      "native_definition": "a close-fitting covering for the foot and leg, worn under clothes",
+      "core_concept": "a soft tube pulled up over the leg – 套在腿上的一截软筒",
       "core_image": "长袜从脚踝一直套到膝下，挂在晾衣架上",
       "chinese": [
-        "stocking"
+        "长筒袜",
+        "丝袜"
       ],
       "examples": [
-        "The stocking changed the situation.",
-        "Researchers discussed the stocking carefully."
+        "She tore a stocking on the chair leg.",
+        "He hung a stocking by the fireplace."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stocking：从核心场景引出的常用义"
+        "长筒袜：从脚一直套到膝上的那种",
+        "丝袜：同一形制，用极薄的料子织成"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stomach",
@@ -155218,25 +155219,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stomach，现代词义按整体记",
-      "native_definition": "a thing or action related to stomach",
-      "core_concept": "a clear scene connected with stomach – 与该词相连的清晰场景",
+      "origin": "中古英语 stomak ← 古法语 estomac ← 拉丁语 stomachus ← 希腊语 stomachos（食道、口部）← stoma（口）",
+      "native_definition": "the organ inside the body where food is broken down after being swallowed",
+      "core_concept": "the pouch where swallowed food is broken down – 咽下去的东西在这个囊里被化开",
       "core_image": "食物沿管道进入腹部的囊状器官，那里正在消化",
       "chinese": [
-        "stomach"
+        "胃",
+        "胃部",
+        "忍受"
       ],
       "examples": [
-        "The stomach changed the situation.",
-        "Researchers discussed the stomach carefully."
+        "He complained of pain in his stomach.",
+        "I cannot stomach his rudeness any longer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stomach：从核心场景引出的常用义"
+        "胃：食物进去后被化开的那个器官",
+        "胃部：连着周围一片说，指位置",
+        "忍受：把「能装得下、化得开」用到难堪之事上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "stone",
@@ -155246,25 +155250,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stone，现代词义按整体记",
-      "native_definition": "a thing or action related to stone",
-      "core_concept": "a clear scene connected with stone – 与该词相连的清晰场景",
+      "origin": "中古英语 ston ← 古英语 stān ← 原始日耳曼语 *stainaz（石）← 原始印欧语 *steyh₂-（变硬）",
+      "native_definition": "a hard solid piece of rock",
+      "core_concept": "a hard lump that keeps its shape under force – 受力也不变形的硬块",
       "core_image": "河床上的硬石被水流磨得圆滑，彼此挤在一起",
       "chinese": [
-        "stone"
+        "石头",
+        "宝石",
+        "果核"
       ],
       "examples": [
-        "The stone changed the situation.",
-        "Researchers discussed the stone carefully."
+        "He threw a stone into the pond.",
+        "The ring holds a deep green stone."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stone：从核心场景引出的常用义"
+        "石头：山石水石那种硬块",
+        "宝石：切磨过的硬块，看重的是色与光",
+        "果核：果肉中间那块硬的，硬度上与石相类"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stool",
@@ -155274,53 +155281,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stool，现代词义按整体记",
-      "native_definition": "a thing or action related to stool",
-      "core_concept": "a clear scene connected with stool – 与该词相连的清晰场景",
+      "origin": "中古英语 stool ← 古英语 stōl（椅、座）← 原始日耳曼语 *stōlaz（椅）← 原始印欧语 *steh₂-（站立）",
+      "native_definition": "a seat with legs but no back or arms",
+      "core_concept": "a seat that holds you up and nothing more – 只托住人、别的都不给的座位",
       "core_image": "柜台旁放着一张没有靠背的高凳",
       "chinese": [
-        "stool"
+        "凳子",
+        "矮凳"
       ],
       "examples": [
-        "The stool changed the situation.",
-        "Researchers discussed the stool carefully."
+        "He sat on a stool at the bar.",
+        "Pull up a stool and join us."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stool：从核心场景引出的常用义"
+        "凳子：有腿无靠背的座位",
+        "矮凳：同类中矮的那种，多供垫脚或矮坐"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stoop",
       "word": "stoop",
-      "pos": "noun",
+      "pos": "verb",
       "phonetic": "/stuːp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stoop，现代词义按整体记",
-      "native_definition": "a thing or action related to stoop",
-      "core_concept": "a clear scene connected with stoop – 与该词相连的清晰场景",
+      "origin": "中古英语 stoupen ← 古英语 stūpian（俯身、弯下）← 原始日耳曼语 *stūpōną ← 原始印欧语 *(s)tewb-（顶、撞）",
+      "native_definition": "to bend the upper body forward and down",
+      "core_concept": "to bring the upper body down toward the ground – 把上身朝地面压下去",
       "core_image": "人弯下上身从地面捡起掉落的钥匙",
       "chinese": [
-        "stoop"
+        "弯身",
+        "俯身",
+        "屈就"
       ],
       "examples": [
-        "The stoop changed the situation.",
-        "Researchers discussed the stoop carefully."
+        "She stooped to pick up the coin.",
+        "He would never stoop to cheating."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stoop：从核心场景引出的常用义"
+        "弯身：腰背向前下方折",
+        "俯身：同一动作，多为看清或取物",
+        "屈就：把身子放低这层用到身份上，指自降身份（同形的「门廊」是另一支，借自荷兰语，与此无关）"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stop",
@@ -155330,25 +155341,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stop，现代词义按整体记",
-      "native_definition": "a thing or action related to stop",
-      "core_concept": "a clear scene connected with stop – 与该词相连的清晰场景",
+      "origin": "中古英语 stoppen ← 古英语 stoppian（塞住、堵住）← 原始日耳曼语 *stuppōną（塞住）← 原始印欧语 *(s)tewp-（顶、塞）",
+      "native_definition": "to no longer move or continue",
+      "core_concept": "to bring motion to an end, or plug it up – 让动着的止住，本义是把口堵上",
       "core_image": "红灯亮起，车辆在白线前逐渐停住",
       "chinese": [
-        "stop"
+        "停下",
+        "停止",
+        "阻止"
       ],
       "examples": [
-        "The stop changed the situation.",
-        "Researchers discussed the stop carefully."
+        "The bus stopped at the corner.",
+        "Nothing could stop him from trying again."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stop：从核心场景引出的常用义"
+        "停下：动着的东西不再动",
+        "停止：把「不再继续」用到行为与过程上",
+        "阻止：不让对方动起来，本义堵住正在这一层"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "storey",
@@ -155358,25 +155372,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 storey，现代词义按整体记",
-      "native_definition": "a thing or action related to storey",
-      "core_concept": "a clear scene connected with storey – 与该词相连的清晰场景",
+      "origin": "中古英语 story ← 中世纪拉丁语 historia（叙事、饰带）← 希腊语 historia；中世纪教堂常在每层外墙做叙事饰带，遂以此指楼层",
+      "native_definition": "one of the levels of a building",
+      "core_concept": "one horizontal level in a building's stack – 建筑上下叠起来的其中一层",
       "core_image": "建筑剖面显示楼板一层层叠在屋顶下",
       "chinese": [
-        "storey"
+        "层",
+        "楼层"
       ],
       "examples": [
-        "The storey changed the situation.",
-        "Researchers discussed the storey carefully."
+        "The house has three storeys.",
+        "Her office is on the top storey."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "storey：从核心场景引出的常用义"
+        "层：上下相叠中的一个",
+        "楼层：连着楼房一起说，指第几层"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "storm",
@@ -155386,25 +155401,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 storm，现代词义按整体记",
-      "native_definition": "a thing or action related to storm",
-      "core_concept": "a clear scene connected with storm – 与该词相连的清晰场景",
+      "origin": "中古英语 storm ← 古英语 storm（暴风、猛攻）← 原始日耳曼语 *sturmaz（风暴）← 原始印欧语 *(s)twerH-（搅动、驱赶）；与 stir 同源",
+      "native_definition": "violent weather with strong wind and usually rain or snow",
+      "core_concept": "air thrown into violence that hits everything at once – 天气搅到发狂，一下扑到所有东西上",
       "core_image": "乌云压低天空，强风把树枝向同一方向吹弯",
       "chinese": [
-        "storm"
+        "暴风雨",
+        "风暴",
+        "猛攻"
       ],
       "examples": [
-        "The storm changed the situation.",
-        "Researchers discussed the storm carefully."
+        "The storm tore branches from the trees.",
+        "Troops stormed the castle gate."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "storm：从核心场景引出的常用义"
+        "暴风雨：狂风加急雨的天气",
+        "风暴：不限雨雪，泛指这类猛烈天气",
+        "猛攻：把「一下扑上来」用到攻打上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "story",
@@ -155414,25 +155432,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 story，现代词义按整体记",
-      "native_definition": "a thing or action related to story",
-      "core_concept": "a clear scene connected with story – 与该词相连的清晰场景",
+      "origin": "中古英语 storie ← 盎格鲁诺曼语 estorie ← 拉丁语 historia ← 希腊语 historia（考究所得的学问）；与 history、storey 同源",
+      "native_definition": "an account of events, real or made up, told in order",
+      "core_concept": "events told one after another so they make a whole – 一件接一件讲下来，连成一整段",
       "core_image": "书页按顺序讲述一个人从起点到结尾的经历",
       "chinese": [
-        "story"
+        "故事",
+        "情节",
+        "报道"
       ],
       "examples": [
-        "The story changed the situation.",
-        "Researchers discussed the story carefully."
+        "She read the children a bedtime story.",
+        "The paper ran a story on the flood."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "story：从核心场景引出的常用义"
+        "故事：讲出来的一段经历，真假不论",
+        "情节：这段经历里事件的先后与因果",
+        "报道：把真实之事按这种讲法写出来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "stove",
@@ -155442,25 +155463,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stove，现代词义按整体记",
-      "native_definition": "a thing or action related to stove",
-      "core_concept": "a clear scene connected with stove – 与该词相连的清晰场景",
+      "origin": "借自中古荷兰语／中古低地德语 stove（暖房、浴室）← 原始西日耳曼语 *stubu（烧热的屋子），更早词源不明",
+      "native_definition": "a piece of equipment that gives heat for cooking or for warming a room",
+      "core_concept": "an enclosed fire that gives out steady heat – 把火围在里面，稳稳往外放热",
       "core_image": "炉灶上的锅正加热，火焰从金属底部升起",
       "chinese": [
-        "stove"
+        "炉子",
+        "火炉",
+        "灶"
       ],
       "examples": [
-        "The stove changed the situation.",
-        "Researchers discussed the stove carefully."
+        "She put the kettle on the stove.",
+        "A wood stove heated the whole cabin."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stove：从核心场景引出的常用义"
+        "炉子：烧火取暖或做饭的那件器具",
+        "火炉：偏重取暖那一用",
+        "灶：偏重做饭那一用"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "straight",
@@ -155470,25 +155494,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 straight，现代词义按整体记",
-      "native_definition": "a thing or action related to straight",
-      "core_concept": "a clear scene connected with straight – 与该词相连的清晰场景",
+      "origin": "中古英语 streight，是 strecchen（拉伸）的过去分词 ← 古英语 streċċan（拉伸）← 原始西日耳曼语 *strakkjan（拉直）",
+      "native_definition": "going in one direction without a bend or curve",
+      "core_concept": "pulled taut so no bend is left – 拉紧到一点弯都不剩",
       "core_image": "绳子从起点拉到终点，中间没有任何弯折",
       "chinese": [
-        "straight"
+        "直的",
+        "坦率的",
+        "连续的"
       ],
       "examples": [
-        "The straight changed the situation.",
-        "Researchers discussed the straight carefully."
+        "Draw a straight line down the page.",
+        "Give me a straight answer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "straight：从核心场景引出的常用义"
+        "直的：形状上没有弯折",
+        "坦率的：话不绕弯，直接说到点上",
+        "连续的：中间不断开，如连赢三场"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "straightforward",
@@ -155498,25 +155525,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 straightforward，现代词义按整体记",
-      "native_definition": "a thing or action related to straightforward",
-      "core_concept": "a clear scene connected with straightforward – 与该词相连的清晰场景",
+      "origin": "由 straight ＋ forward 复合而成；straight 一支 ← 古英语 streċċan（拉伸）的过去分词",
+      "native_definition": "easy to understand or do, with nothing hidden or complicated",
+      "core_concept": "going right ahead with nothing in the way – 一路朝前，中间不设弯绕",
       "core_image": "地图上的路线只有一条直路，沿途没有岔口",
       "chinese": [
-        "straightforward"
+        "直截了当的",
+        "简单明了的"
       ],
       "examples": [
-        "The straightforward changed the situation.",
-        "Researchers discussed the straightforward carefully."
+        "The instructions were straightforward enough.",
+        "He gave a straightforward account of the night."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "straightforward：从核心场景引出的常用义"
+        "直截了当的：说话做事不铺垫、不迂回",
+        "简单明了的：事情本身没有复杂处，一看就懂"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "strange",
@@ -155526,25 +155554,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strange，现代词义按整体记",
-      "native_definition": "a thing or action related to strange",
-      "core_concept": "a clear scene connected with strange – 与该词相连的清晰场景",
+      "origin": "中古英语 straunge ← 古法语 estrange ← 拉丁语 extraneus（外面的）← extra（外部）",
+      "native_definition": "unusual or unfamiliar in a way that is hard to explain",
+      "core_concept": "coming from outside what one knows – 来自自己所知之外",
       "core_image": "熟悉街道中央出现一件从未见过的物品",
       "chinese": [
-        "strange"
+        "奇怪的",
+        "陌生的",
+        "不寻常的"
       ],
       "examples": [
-        "The strange changed the situation.",
-        "Researchers discussed the strange carefully."
+        "A strange noise came from the attic.",
+        "The town felt strange after ten years away."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strange：从核心场景引出的常用义"
+        "奇怪的：与常理不合，说不上来哪里不对",
+        "陌生的：不在自己熟悉的范围内",
+        "不寻常的：出现的频率与常态不符"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "stranger",
@@ -155554,25 +155585,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stranger，现代词义按整体记",
-      "native_definition": "a thing or action related to stranger",
-      "core_concept": "a clear scene connected with stranger – 与该词相连的清晰场景",
-      "core_image": "陌生人站在门口，屋里的人不认识这张脸",
+      "origin": "中古英语 straunger ← 古法语 estrangier（外来的）← estrange ← 拉丁语 extraneus（外面的）← extra（外部）",
+      "native_definition": "someone you do not know",
+      "core_concept": "a person from outside the circle one knows – 自己所识之外的那个人",
+      "core_image": "门口站着一张从没见过的脸，屋里的人想不起在哪儿打过交道",
       "chinese": [
-        "stranger"
+        "陌生人",
+        "外来者"
       ],
       "examples": [
-        "The stranger changed the situation.",
-        "Researchers discussed the stranger carefully."
+        "Do not open the door to strangers.",
+        "In this village a stranger is noticed at once."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stranger：从核心场景引出的常用义"
+        "陌生人：没打过交道、认不出的人",
+        "外来者：来自本地之外的人，重点在来处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "strap",
@@ -155582,25 +155614,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strap，现代词义按整体记",
-      "native_definition": "a thing or action related to strap",
-      "core_concept": "a clear scene connected with strap – 与该词相连的清晰场景",
+      "origin": "英语 strap 是 strope（挽具上的环）的变体 ← 古英语 stropp（带、皮条）与古法语 estrope ← 拉丁语 stroppus ← 希腊语 strophos（绳）← strepho（扭、拧）",
+      "native_definition": "a narrow band of leather or cloth used to fasten or carry something",
+      "core_concept": "a narrow band drawn tight to hold something in place – 收紧后把东西固定住的一条窄带",
       "core_image": "皮带穿过扣环，把箱子紧紧固定住",
       "chinese": [
-        "strap"
+        "带子",
+        "绑带",
+        "捆扎"
       ],
       "examples": [
-        "The strap changed the situation.",
-        "Researchers discussed the strap carefully."
+        "The bag hung from a leather strap.",
+        "Strap the load down before you drive."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strap：从核心场景引出的常用义"
+        "带子：狭长柔韧的一条",
+        "绑带：专用来收紧固定的那种",
+        "捆扎：把这条带收紧固定这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "strategy",
@@ -155610,25 +155645,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strategy，现代词义按整体记",
-      "native_definition": "a thing or action related to strategy",
-      "core_concept": "a clear scene connected with strategy – 与该词相连的清晰场景",
+      "origin": "源自拉丁语 strategia ← 希腊语 strategia（将帅之职、统帅术）← strategos（将军）← stratos（军队）＋ ago（率领）",
+      "native_definition": "a general plan made to reach a goal over time",
+      "core_concept": "a plan that decides the whole course before the moves – 先定下全局走法，再落每一步",
       "core_image": "棋盘旁摊着几步计划，棋手先标出下一轮路线",
       "chinese": [
-        "strategy"
+        "战略",
+        "策略",
+        "谋划"
       ],
       "examples": [
-        "The strategy changed the situation.",
-        "Researchers discussed the strategy carefully."
+        "The company changed its pricing strategy.",
+        "We need a strategy for the next election."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strategy：从核心场景引出的常用义"
+        "战略：全局层面的长远打算",
+        "策略：为达成某事采用的具体路数",
+        "谋划：拟定这套打算这个过程"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "straw",
@@ -155638,25 +155676,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 straw，现代词义按整体记",
-      "native_definition": "a thing or action related to straw",
-      "core_concept": "a clear scene connected with straw – 与该词相连的清晰场景",
+      "origin": "中古英语 straw ← 古英语 strēaw ← 原始日耳曼语 *strawą（撒开之物、秸秆）← 原始印欧语 *strew-（铺撒）",
+      "native_definition": "the dried stalks of grain, or a thin tube for drinking",
+      "core_concept": "a dry hollow stalk left after the grain is taken – 谷粒收走后剩下的那截干空茎",
       "core_image": "细管插进饮料杯，液体沿管道被吸入口中",
       "chinese": [
-        "straw"
+        "稻草",
+        "麦秆",
+        "吸管"
       ],
       "examples": [
-        "The straw changed the situation.",
-        "Researchers discussed the straw carefully."
+        "The barn floor was covered with straw.",
+        "She drank the juice through a straw."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "straw：从核心场景引出的常用义"
+        "稻草：稻子脱粒后剩的干茎",
+        "麦秆：麦子脱粒后剩的干茎",
+        "吸管：形状与那截空茎一样，故借其名"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "strawberry",
@@ -155666,25 +155707,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strawberry，现代词义按整体记",
-      "native_definition": "a thing or action related to strawberry",
-      "core_concept": "a clear scene connected with strawberry – 与该词相连的清晰场景",
+      "origin": "中古英语 strawberie ← 古英语 strēawberġe，即 straw ＋ berry；得名或因野生植株靠草秆状匍匐茎蔓生，或因旧时采摘时把果子串在草秆上",
+      "native_definition": "a small soft red fruit with tiny seeds on its surface",
+      "core_concept": "a soft red fruit that carries its seeds outside – 红软的果子，籽长在外面",
       "core_image": "红色果实躲在叶片下，表面布满细小籽粒",
       "chinese": [
-        "strawberry"
+        "草莓"
       ],
       "examples": [
-        "The strawberry changed the situation.",
-        "Researchers discussed the strawberry carefully."
+        "We picked strawberries all morning.",
+        "She made a strawberry tart for dessert."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "strawberry：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stream",
@@ -155694,25 +155732,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stream，现代词义按整体记",
-      "native_definition": "a thing or action related to stream",
-      "core_concept": "a clear scene connected with stream – 与该词相连的清晰场景",
+      "origin": "中古英语 streem ← 古英语 strēam ← 原始日耳曼语 *straumaz（水流）← 原始印欧语 *srew-（流动）",
+      "native_definition": "a small narrow river, or a continuous flow of something",
+      "core_concept": "water moving steadily along one course – 顺着一条路不断流下去的水",
       "core_image": "清水沿浅沟持续流动，绕过石块汇向低处",
       "chinese": [
-        "stream"
+        "小溪",
+        "水流",
+        "一连串"
       ],
       "examples": [
-        "The stream changed the situation.",
-        "Researchers discussed the stream carefully."
+        "A stream ran behind the cottage.",
+        "A stream of visitors arrived all afternoon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stream：从核心场景引出的常用义"
+        "小溪：窄而浅的活水",
+        "水流：流动着的那股水本身",
+        "一连串：把「不断流过」用到人或事上，接连不停"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "streamline",
@@ -155722,25 +155763,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 streamline，现代词义按整体记",
-      "native_definition": "a thing or action related to streamline",
-      "core_concept": "a clear scene connected with streamline – 与该词相连的清晰场景",
+      "origin": "由 stream ＋ line 构成；stream 一支 ← 古英语 strēam（水流）← 原始日耳曼语 *straumaz",
+      "native_definition": "to shape something so that it moves through air or water with least resistance, or to make a system simpler",
+      "core_concept": "shaped so that what flows past meets no obstruction – 削到让流过的东西碰不上阻挡",
       "core_image": "机器外壳被削去多余凸起，空气沿光滑表面流过",
       "chinese": [
-        "streamline"
+        "流线型",
+        "精简",
+        "使顺畅"
       ],
       "examples": [
-        "The streamline changed the situation.",
-        "Researchers discussed the streamline carefully."
+        "The new train has a streamlined nose.",
+        "They streamlined the approval process."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "streamline：从核心场景引出的常用义"
+        "流线型：外形削得平顺，阻力最小",
+        "精简：把流程上多余的凸起去掉",
+        "使顺畅：去掉阻挡后，过程走得不再卡顿"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "street",
@@ -155750,25 +155794,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 street，现代词义按整体记",
-      "native_definition": "a thing or action related to street",
-      "core_concept": "a clear scene connected with street – 与该词相连的清晰场景",
+      "origin": "中古英语 strete ← 古英语 strēt ← 晚期拉丁语 (via) strata（铺过的路）← sternō（铺开、摊开）；经原始西日耳曼语 *strātu 早期传入",
+      "native_definition": "a public road in a town with buildings along it",
+      "core_concept": "a paved way with buildings standing along both sides – 铺过的路，两侧立着房屋",
       "core_image": "两排房屋之间铺着道路，行人沿路向前",
       "chinese": [
-        "street"
+        "街道",
+        "马路"
       ],
       "examples": [
-        "The street changed the situation.",
-        "Researchers discussed the street carefully."
+        "They live on a quiet street.",
+        "Cross the street at the lights."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "street：从核心场景引出的常用义"
+        "街道：城镇中两侧有房的路",
+        "马路：同一条路，偏重供车通行那一面"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "strength",
@@ -155778,25 +155823,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strength，现代词义按整体记",
-      "native_definition": "a thing or action related to strength",
-      "core_concept": "a clear scene connected with strength – 与该词相连的清晰场景",
+      "origin": "中古英语 strengthe ← 古英语 strengþu ← 原始西日耳曼语 *strangiþu，即 strong ＋ 抽象名词后缀 -th",
+      "native_definition": "the quality of being physically powerful or hard to break",
+      "core_concept": "how much force something can put out or take – 能发出多大力，或能受住多大力",
       "core_image": "粗绳承受重物的拉力，纤维仍然没有断裂",
       "chinese": [
-        "strength"
+        "力量",
+        "强度",
+        "长处"
       ],
       "examples": [
-        "The strength changed the situation.",
-        "Researchers discussed the strength carefully."
+        "He lacked the strength to lift the crate.",
+        "Test the strength of the rope first."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strength：从核心场景引出的常用义"
+        "力量：能发出的力有多大",
+        "强度：能承住多少而不坏",
+        "长处：把「强的那一面」用到人的能力上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "strengthen",
@@ -155806,25 +155854,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strengthen，现代词义按整体记",
-      "native_definition": "a thing or action related to strengthen",
-      "core_concept": "a clear scene connected with strengthen – 与该词相连的清晰场景",
+      "origin": "由 strength ＋ -en 构成；中古英语已有 strengthen（12 世纪），-en 原是不定式词尾，后被重解为使动后缀",
+      "native_definition": "to make something stronger or more able to hold up",
+      "core_concept": "to add to what something can put out or take – 给它加上更多能发的力或能受的力",
       "core_image": "桥墩外加了一层钢板，结构承重能力变强",
       "chinese": [
-        "strengthen"
+        "加强",
+        "增强",
+        "巩固"
       ],
       "examples": [
-        "The strengthen changed the situation.",
-        "Researchers discussed the strengthen carefully."
+        "Steel plates strengthened the old bridge.",
+        "Regular exercise strengthens the heart muscle."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strengthen：从核心场景引出的常用义"
+        "加强：从外面添上一层，使更能承受",
+        "增强：使原有的能力变大",
+        "巩固：把已得的稳住，不让退回去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "strenuous",
@@ -155834,25 +155885,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strenuous，现代词义按整体记",
-      "native_definition": "a thing or action related to strenuous",
-      "core_concept": "a clear scene connected with strenuous – 与该词相连的清晰场景",
+      "origin": "源自拉丁语 strenuus（敏捷的、奋发的）",
+      "native_definition": "needing great effort and energy",
+      "core_concept": "taking so much effort that it drains you – 费的力大到把人耗空",
       "core_image": "登山者连续攀爬陡坡，汗水浸透了衣服",
       "chinese": [
-        "strenuous"
+        "费力的",
+        "奋力的",
+        "紧张的"
       ],
       "examples": [
-        "The strenuous changed the situation.",
-        "Researchers discussed the strenuous carefully."
+        "Avoid strenuous exercise for a week.",
+        "They made strenuous efforts to reach an agreement."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strenuous：从核心场景引出的常用义"
+        "费力的：做起来耗力气",
+        "奋力的：把力气全使出来的那种",
+        "紧张的：耗得紧、松不下来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "stress",
@@ -155862,25 +155916,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stress，现代词义按整体记",
-      "native_definition": "a thing or action related to stress",
-      "core_concept": "a clear scene connected with stress – 与该词相连的清晰场景",
+      "origin": "中古英语 stresse，截自 destresse ← 古法语 destrecier ← 拉丁语 distringō（拉扯开）；并与另一支 estrece（狭窄）← 拉丁语 strictus（窄的）合流",
+      "native_definition": "the force pressing on something, or the strain a person feels under pressure",
+      "core_concept": "a force bearing down that shows up as strain – 压上来的力，显出来就是受不住的样子",
       "core_image": "重物压在薄梁中央，受力处出现明显弯曲",
       "chinese": [
-        "stress"
+        "压力",
+        "重音",
+        "强调"
       ],
       "examples": [
-        "The stress changed the situation.",
-        "Researchers discussed the stress carefully."
+        "The beam bent under the stress.",
+        "He has been under a lot of stress at work."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stress：从核心场景引出的常用义"
+        "压力：物体或人身上承的那份力",
+        "重音：读音上加重的那一处，同是把力落上去",
+        "强调：把话里的力落在某一点上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "stretch",
@@ -155890,25 +155947,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stretch，现代词义按整体记",
-      "native_definition": "a thing or action related to stretch",
-      "core_concept": "a clear scene connected with stretch – 与该词相连的清晰场景",
+      "origin": "中古英语 strecchen ← 古英语 streċċan（拉长、伸展）← 原始西日耳曼语 *strakkjan（拉紧）← 原始印欧语 *(s)treg-（僵、挺）",
+      "native_definition": "to pull something so it becomes longer or wider",
+      "core_concept": "to draw something out so it takes up more length – 把它抽长，占的长度变多",
       "core_image": "橡皮带被两只手向相反方向拉长",
       "chinese": [
-        "stretch"
+        "伸展",
+        "展开",
+        "一段"
       ],
       "examples": [
-        "The stretch changed the situation.",
-        "Researchers discussed the stretch carefully."
+        "She stretched her arms above her head.",
+        "The road stretches for twenty miles."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stretch：从核心场景引出的常用义"
+        "伸展：把肢体或物件抽长",
+        "展开：从收着的状态铺到更大范围",
+        "一段：抽长后所占的那一截，如一段路"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stride",
@@ -155918,25 +155978,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stride，现代词义按整体记",
-      "native_definition": "a thing or action related to stride",
-      "core_concept": "a clear scene connected with stride – 与该词相连的清晰场景",
+      "origin": "中古英语 striden ← 古英语 strīdan（跨步）← 原始西日耳曼语 *strīdan ← 原始日耳曼语 *strīdaną",
+      "native_definition": "to walk with long steps",
+      "core_concept": "walking with each step reaching further than usual – 每一步都比平常伸得远",
       "core_image": "行人迈出很大一步，脚印间距明显超过平常",
       "chinese": [
-        "stride"
+        "大步走",
+        "迈步",
+        "进展"
       ],
       "examples": [
-        "The stride changed the situation.",
-        "Researchers discussed the stride carefully."
+        "He strode across the room without a word.",
+        "The company has made great strides this year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stride：从核心场景引出的常用义"
+        "大步走：步子拉得开，走得快",
+        "迈步：单看跨出去的那一步",
+        "进展：把「一步跨得远」用到事情的推进上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "strife",
@@ -155946,25 +156009,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strife，现代词义按整体记",
-      "native_definition": "a thing or action related to strife",
-      "core_concept": "a clear scene connected with strife – 与该词相连的清晰场景",
+      "origin": "中古英语 strif ← 古法语 estrif ← estriver（争斗）← 法兰克语 *strīban（争）",
+      "native_definition": "angry disagreement between people or groups",
+      "core_concept": "two sides pushing against each other without yielding – 两边互相顶着，谁也不退",
       "core_image": "两队隔着栅栏互相推搡，谁也不肯后退",
       "chinese": [
-        "strife"
+        "争斗",
+        "冲突",
+        "纷争"
       ],
       "examples": [
-        "The strife changed the situation.",
-        "Researchers discussed the strife carefully."
+        "Years of strife divided the two families.",
+        "The region has known little but strife."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strife：从核心场景引出的常用义"
+        "争斗：双方动起手来相争",
+        "冲突：两边利益或主张顶上了",
+        "纷争：争的头绪多而乱，一时理不开"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "strike",
@@ -155974,25 +156040,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 strike，现代词义按整体记",
-      "native_definition": "a thing or action related to strike",
-      "core_concept": "a clear scene connected with strike – 与该词相连的清晰场景",
+      "origin": "中古英语 stryken ← 古英语 strīcan ← 原始西日耳曼语 *strīkan ← 原始印欧语 *streyg-（抚、擦、压）",
+      "native_definition": "to hit something with force",
+      "core_concept": "to bring one thing hard against another – 让一物重重碰上另一物",
       "core_image": "锤子落下击中金属片，瞬间发出清脆声响",
       "chinese": [
-        "strike"
+        "打击",
+        "撞击",
+        "罢工"
       ],
       "examples": [
-        "The strike changed the situation.",
-        "Researchers discussed the strike carefully."
+        "The hammer struck the nail squarely.",
+        "Workers voted to strike for higher pay."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "strike：从核心场景引出的常用义"
+        "打击：用力打上去",
+        "撞击：两物相碰的那一下",
+        "罢工：工人集体停手，如同对雇主打出的一击"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "striking",
@@ -156002,25 +156071,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 striking，现代词义按整体记",
-      "native_definition": "a thing or action related to striking",
-      "core_concept": "a clear scene connected with striking – 与该词相连的清晰场景",
+      "origin": "由 strike ＋ -ing 构成，取「一下打中人眼」之意；strike 一支 ← 古英语 strīcan（抚、擦、击）",
+      "native_definition": "so noticeable that it draws attention at once",
+      "core_concept": "standing out so sharply that the eye is caught at once – 跳出来得厉害，眼睛一下就被抓住",
       "core_image": "整齐队列中一件鲜红物品格外醒目，所有人都转头看",
       "chinese": [
-        "striking"
+        "醒目的",
+        "显著的",
+        "引人注目的"
       ],
       "examples": [
-        "The striking changed the situation.",
-        "Researchers discussed the striking carefully."
+        "She wore a striking red coat.",
+        "There is a striking difference between the two drafts."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "striking：从核心场景引出的常用义"
+        "醒目的：在周围里格外扎眼",
+        "显著的：差别或特点大到不容忽视",
+        "引人注目的：使旁人不由自主看过来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "string",
