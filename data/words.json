@@ -88392,6 +88392,12 @@
       "semantic_expansions": [
         "一个也没有：数得出的东西里挑不出一个",
         "毫无：整体上一点都不占，不论多少"
+      ],
+      "collocations": [
+        "none of + plural noun + is/are —— 无一…（正式文体用单数动词）",
+        "none other than —— 正是…本人",
+        "none the wiser —— 仍然不明白",
+        "second to none —— 首屈一指"
       ]
     },
     {
@@ -136988,7 +136994,13 @@
       "semantic_expansions": [
         "什么也没有：不存在任何东西"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "nothing but + noun —— 只不过是",
+        "have nothing to do with —— 与…无关",
+        "nothing of the kind —— 完全不是那样",
+        "for nothing —— 白费；免费"
+      ]
     },
     {
       "id": "notice",
@@ -139690,7 +139702,13 @@
         "每：按单个计算",
         "每一：逐个地分摊到各个"
       ],
-      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记",
+      "collocations": [
+        "per annum —— 每年（书面、常用于金额）",
+        "per capita —— 按人均",
+        "per cent —— 百分之（英式分写，美式 percent）",
+        "as per + noun —— 按照…（as per your request）"
+      ]
     },
     {
       "id": "percentage",
@@ -146846,7 +146864,12 @@
         "难得：不容易遇到",
         "不常：发生的次数少"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "seldom + do sth —— 不常做某事",
+        "seldom had/did + subject —— 置句首时主谓倒装：Seldom had he seen such a thing.",
+        "seldom, if ever —— 即便有也极少"
+      ]
     },
     {
       "id": "selection",
@@ -148716,7 +148739,12 @@
         "很快：不需多久就会发生",
         "随即：紧跟着就"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "shortly after/before —— 不久之后／之前",
+        "shortly afterwards —— 随即",
+        "reply shortly —— 简短地答（另一义，语气生硬）"
+      ]
     },
     {
       "id": "shot",
@@ -149541,7 +149569,12 @@
         "简单地：以不复杂的方式",
         "仅仅：只不过如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "simply because + clause —— 只是因为",
+        "not simply + noun —— 不仅仅是",
+        "put simply —— 简单说来"
+      ]
     },
     {
       "id": "sin",
@@ -152045,7 +152078,11 @@
         "某时：未指明的某个时候",
         "改天：另择一个日子"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "sometime + next week/soon —— 某个时候（单词连写，指不确定的时点）",
+        "sometime + former title —— 一度担任…的（sometime chairman；与 sometimes 有时、some time 一段时间三者有别）"
+      ]
     },
     {
       "id": "sometimes",
@@ -152074,7 +152111,11 @@
         "有时：偶尔发生",
         "间或：隔一段出现一次"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "sometimes + present tense —— 有时（谈习惯，位置灵活）",
+        "sometimes A, sometimes B —— 有时…有时…（注意与 sometime 某时、some time 一段时间三者有别）"
+      ]
     },
     {
       "id": "somewhere",
@@ -160547,7 +160588,13 @@
         "通过：借某条路或某种手段达成",
         "自始至终：从头贯到尾，不中断"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "go through sth —— 经历；仔细查阅",
+        "get through sth —— 完成；通过（考试）",
+        "through and through —— 彻头彻尾",
+        "be through with sth —— 与…了结"
+      ]
     },
     {
       "id": "throughout",
@@ -160578,7 +160625,12 @@
         "贯穿：从这头到那头连成一条",
         "始终：时间上从头到尾都如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "throughout the year —— 全年（不加 a/the 之外的限定）",
+        "throughout the world —— 全世界",
+        "throughout + noun phrase —— 贯穿整个…（throughout his career）"
+      ]
     },
     {
       "id": "throw",
@@ -160992,7 +161044,12 @@
         "直到：持续到那一刻",
         "在…之前：从反面说同一条界，那之前一直如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "till now —— 到现在为止",
+        "from morning till night —— 从早到晚",
+        "wait till + clause —— 等到…时（不与 not 连用作倒装，那是 until 的型式）"
+      ]
     },
     {
       "id": "tilt",
@@ -161826,7 +161883,13 @@
         "太：超过合适的程度",
         "过于：程度上越过了界"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "too + adj + to do —— 太…以致不能",
+        "too much/many + noun —— 过多的",
+        "only too + adj —— 实在太…（只太乐意 only too glad）",
+        "all too + adj —— 未免太…"
+      ]
     },
     {
       "id": "tooth",
@@ -162219,7 +162282,12 @@
         "接近：时间或数量上快到某点",
         "对于：把这个「朝向」用到态度上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "attitude toward sb/sth —— 对…的态度",
+        "move toward sth —— 朝…推进",
+        "toward the end of —— 接近…末尾（英式多作 towards）"
+      ]
     },
     {
       "id": "towel",
@@ -164529,7 +164597,14 @@
         "低于：数量或年龄不到那个数",
         "在…之中：处在某种状态或管辖之下"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "under way —— 在进行中（不是 on the way）",
+        "under pressure —— 承受压力",
+        "under control —— 在控制之下",
+        "under consideration —— 在考虑中",
+        "under the circumstances —— 在这种情况下"
+      ]
     },
     {
       "id": "underestimate",
@@ -165090,7 +165165,12 @@
         "直到：一直持续到那一刻",
         "在…之前：从反面说同一条界"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "not until + clause/time —— 直到…才；置句首时主句倒装：Not until dusk did they arrive.",
+        "until further notice —— 在另行通知之前",
+        "up until now —— 直到现在"
+      ]
     },
     {
       "id": "unusual",
@@ -167111,7 +167191,13 @@
         "充分地：程度够足，如「充分知情」",
         "井：打到地下取水的那个洞，是同形异源的另一支"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "as well as + noun/-ing —— 除…之外还",
+        "well aware of sth —— 很清楚某事",
+        "may/might as well do —— 不妨做",
+        "well worth doing —— 很值得做"
+      ]
     },
     {
       "id": "west",
@@ -167341,7 +167427,11 @@
         "每当：每一次那种情形出现时",
         "无论何时：不限定在哪个时刻"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "whenever + clause —— 每当；无论何时（引导时间或让步从句）",
+        "whenever possible —— 只要有可能就"
+      ]
     },
     {
       "id": "wherever",
@@ -167370,7 +167460,11 @@
         "无论哪里：不限定在哪个地方",
         "凡所在之处：所到的每一处都如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "wherever + clause —— 无论在哪里（引导让步从句）",
+        "wherever possible —— 只要可能就"
+      ]
     },
     {
       "id": "whichever",
@@ -168451,7 +168545,13 @@
         "在…之内：处在某个范围里",
         "不超过：时间或数量不越过那条界"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
+      "collocations": [
+        "within reach —— 够得到的范围内",
+        "within sight —— 视野之内",
+        "within + time span —— 在…之内完成（within two weeks）",
+        "within reason —— 在合理范围内"
+      ]
     },
     {
       "id": "without",
@@ -168482,7 +168582,14 @@
         "不带：随身未携某物",
         "不经：未经过某个步骤或许可"
       ],
-      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀",
+      "collocations": [
+        "without doubt —— 毫无疑问",
+        "without fail —— 必定、务必",
+        "without delay —— 立即",
+        "do without sth —— 没有…也行",
+        "without so much as + -ing —— 甚至连…都没有"
+      ]
     },
     {
       "id": "withstand",

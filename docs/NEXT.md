@@ -149,13 +149,25 @@ origin 漏 `←` 箭头 ｜ 英文释义与核心概念均不得与库内既有�
 现有 328 条带 collocations（306 条在可用词条上）。老文档列的两类都已做完，
 **真正剩下的**：
 
-- `whereby` `nonetheless` `albeit` **三个词不在库**，且都在考研词表里。
-  用法坑比缺搭配更值得做：`whereby` ＝ by which，前面必须有名词；
-  `albeit` 不接完整句（albeit brief ✓ / albeit it was brief ✗）。先补词条再谈搭配。
-- `thereby` 已在第 27 片回填完，不再是占位词条。它接 **-ing** 不接从句，搭配待补。
-- 另有一批副词/代词类无搭配，多数是反身代词与纯方位副词（`herself`/`everywhere`/
-  `downstairs`），**没有值得教的型式**，不必强凑。按「这个词有没有站得住的型式」判，
-  别按词性一刀切。
+**词表覆盖已做完**，别再按「补缺口」的名义找活。词表 5299 词形里缺 80 条，
+逐条看过：全是功能词（a/and/be/he/of/to）、数词（five/ten/twenty/thousand/zero）
+与 4 个词组（according to / ice-cream / so-called / well-known），正是项目规则
+本就不建条的那一类。
+
+**老文档一处事实错误已改**：它写「`whereby` `nonetheless` `albeit` 三个词不在库，
+且都在考研词表里」——前半对，后半错，这三个词压根不在 `english_reference.json` 里。
+建它们属于额外扩充而非补缺口，做不做是取舍问题，别当待办。
+
+功能词那一路 09-01 已收尾：介词 41/41、连词 12/12 全带搭配，副词剩 14 条。
+剩下的 14 条副词是 `today` `tomorrow` `tonight` `twice` `sideways` `somewhere`
+`soon` `perhaps` `weekly` `wholly` `why` `together` `underneath` `up`——
+**逐条看过，没有值得教的型式**，不必强凑（`up` 的型式在短语动词上，该挂到动词头上
+而不是挂给 `up` 本身）。按「这个词有没有站得住的型式」判，别按词性一刀切。
+
+**真正剩下的是名词与动词**：1099 个动词、924 个形容词、2840 个名词无搭配。这是
+新的一大块，不是尾巴——前几轮有意只做副词/介词/连词，因为那几类的型式是学习者
+猜不出来的主要内容。要不要铺到动词形容词上（`inform sb of sth`、`attract sth to`
+这类确实高价值），是范围决策，先问用户。
 
 回填走 `scripts/backfill_collocations.py`（两列 TSV），**不要走
 `entries_from_draft.py`**——那条管道是给新词条用的，遇到已入库的词会拒绝，
