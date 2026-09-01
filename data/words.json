@@ -154270,53 +154270,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stamp，现代词义按整体记",
-      "native_definition": "a thing or action related to stamp",
-      "core_concept": "a clear scene connected with stamp – 与该词相连的清晰场景",
+      "origin": "中古英语 stampen（捣、砸）← 古英语 stempan（捣碎）← 原始日耳曼语 *stampōną（踩踏、击打）← 原始印欧语 *stemb-（踏下去）",
+      "native_definition": "a small piece of paper stuck on mail to show that postage has been paid",
+      "core_concept": "a hard press downward that leaves a mark – 重重压下去、留下印记",
       "core_image": "橡皮印章蘸上印泥，重重压在文件角落",
       "chinese": [
-        "stamp"
+        "邮票",
+        "图章",
+        "踩踏"
       ],
       "examples": [
-        "The stamp changed the situation.",
-        "Researchers discussed the stamp carefully."
+        "He stuck a stamp on the envelope.",
+        "She stamped her foot in anger."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stamp：从核心场景引出的常用义"
+        "邮票：盖过戳才算付过邮资，那一小片纸因此得名",
+        "图章：压下去留印的那件工具",
+        "踩踏：脚重重压向地面，还是同一个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "standard",
       "word": "standard",
-      "pos": "adjective",
+      "pos": "adjective / noun",
       "phonetic": "/ˈstændəd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 standard，现代词义按整体记",
-      "native_definition": "a thing or action related to standard",
-      "core_concept": "a clear scene connected with standard – 与该词相连的清晰场景",
+      "origin": "英语 standard ← 古法语 estandart（集合地、军旗）← 法兰克语 *standahard（站得稳）",
+      "native_definition": "agreed as the usual level or quality that others are measured against",
+      "core_concept": "taken as the fixed measure everyone is held to – 拿来当尺度、人人照它比的那一档",
       "core_image": "阅兵场上所有旗杆高度一致，队伍按同一尺度排列",
       "chinese": [
-        "standard"
+        "标准的",
+        "标准",
+        "规格"
       ],
       "examples": [
-        "The standard changed the situation.",
-        "Researchers discussed the standard carefully."
+        "This is standard practice in most hospitals.",
+        "The room comes with standard equipment."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "standard：从核心场景引出的常用义"
+        "标准的：符合公认那一档的",
+        "标准：那把公认的尺度本身",
+        "规格：把尺度落到具体数值与形制上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "源头在日耳曼语支，经法语回流入英语，本项目未为其词族建根"
     },
     {
       "id": "standpoint",
@@ -154326,25 +154332,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 standpoint，现代词义按整体记",
-      "native_definition": "a thing or action related to standpoint",
-      "core_concept": "a clear scene connected with standpoint – 与该词相连的清晰场景",
+      "origin": "由 stand ＋ point 复合而成，仿译德语 Standpunkt（站立点）",
+      "native_definition": "the position from which someone looks at a matter",
+      "core_concept": "the spot you stand on that decides what you see – 你所站的那一处，决定你看见什么",
       "core_image": "两个人站在地图两侧，从各自位置观察同一条路线",
       "chinese": [
-        "standpoint"
+        "立场",
+        "观点"
       ],
       "examples": [
-        "The standpoint changed the situation.",
-        "Researchers discussed the standpoint carefully."
+        "From a legal standpoint, the contract is void.",
+        "Consider it from the buyer's standpoint."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "standpoint：从核心场景引出的常用义"
+        "立场：人所站的位置，引申为所持的态度",
+        "观点：从那个位置看出去所得的看法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "staple",
@@ -154354,25 +154361,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 staple，现代词义按整体记",
-      "native_definition": "a thing or action related to staple",
-      "core_concept": "a clear scene connected with staple – 与该词相连的清晰场景",
+      "origin": "中古英语 stapel ← 古英语 stapol（柱、桩）← 原始日耳曼语 *stapulaz（柱）；「大宗商品」义另出一支，经古法语 estaple（集市）与晚期拉丁语 stapula 传入，与此同源",
+      "native_definition": "a small u-shaped metal fastener pushed through paper and bent flat behind",
+      "core_concept": "the piece that pins things together, or the one good a place lives on – 把东西钉住的那件，或一地赖以为生的那一宗",
       "core_image": "金属钉脚穿过几张纸，背面弯折后把纸固定住",
       "chinese": [
-        "staple"
+        "订书钉",
+        "主要产品",
+        "主食"
       ],
       "examples": [
-        "The staple changed the situation.",
-        "Researchers discussed the staple carefully."
+        "The report was held together by two staples.",
+        "Rice is a staple in much of Asia."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "staple：从核心场景引出的常用义"
+        "订书钉：穿过纸再弯折，把纸扣在一起",
+        "主要产品：一地贸易所倚的大宗，如同支住局面的那根柱",
+        "主食：饮食里当主的那一宗，同一层意思落到吃上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "star",
@@ -154382,25 +154392,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 star，现代词义按整体记",
-      "native_definition": "a thing or action related to star",
-      "core_concept": "a clear scene connected with star – 与该词相连的清晰场景",
+      "origin": "中古英语 sterre ← 古英语 steorra ← 原始日耳曼语 *sternô ← 原始印欧语 *h₂stḗr（星）",
+      "native_definition": "a huge ball of burning gas that appears as a point of light in the night sky",
+      "core_concept": "a self-shining point that stands out in the dark – 自身发光、在暗处格外显眼的一点",
       "core_image": "夜空中一点明亮光体在其他暗点之间清楚可见",
       "chinese": [
-        "star"
+        "恒星",
+        "明星",
+        "星形"
       ],
       "examples": [
-        "The star changed the situation.",
-        "Researchers discussed the star carefully."
+        "Thousands of stars appeared once the clouds cleared.",
+        "She became a film star at nineteen."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "star：从核心场景引出的常用义"
+        "恒星：天上自身发光的那类天体",
+        "明星：人群里最显眼的那个，借光亮作比",
+        "星形：照那一点的画法画成的五角形"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stare",
@@ -154410,25 +154423,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stare，现代词义按整体记",
-      "native_definition": "a thing or action related to stare",
-      "core_concept": "a clear scene connected with stare – 与该词相连的清晰场景",
+      "origin": "中古英语 staren ← 古英语 starian（凝视）← 原始日耳曼语 *starjaną（僵住、发直）← 原始印欧语 *ster-（硬、僵）",
+      "native_definition": "to look at something for a long time without moving the eyes",
+      "core_concept": "to hold the gaze pinned on one thing – 把目光钉在一处不移开",
       "core_image": "人站在窗前长时间盯着远处，眼睛几乎不眨",
       "chinese": [
-        "stare"
+        "凝视",
+        "瞪视",
+        "注视不动"
       ],
       "examples": [
-        "The stare changed the situation.",
-        "Researchers discussed the stare carefully."
+        "He stared at the screen without blinking.",
+        "Passers-by stared at her bright hat."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stare：从核心场景引出的常用义"
+        "凝视：目光定住，久看一处",
+        "瞪视：同样定住，但带着不满或敌意",
+        "注视不动：强调眼珠几乎不转这一点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "start",
@@ -154438,25 +154454,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 start，现代词义按整体记",
-      "native_definition": "a thing or action related to start",
-      "core_concept": "a clear scene connected with start – 与该词相连的清晰场景",
+      "origin": "中古英语 sterten（猛然跃起、冲出）← 古英语 styrtan（跳起）← 原始西日耳曼语 *sturtijan（使惊动）← 原始印欧语 *(s)ter-（僵、硬）",
+      "native_definition": "the point or moment at which something begins",
+      "core_concept": "the sudden move out of standing still – 从静止里猛然动起来的那一下",
       "core_image": "发令声响起，赛跑者同时从起点冲出",
       "chinese": [
-        "start"
+        "开始",
+        "出发点",
+        "惊跳"
       ],
       "examples": [
-        "The start changed the situation.",
-        "Researchers discussed the start carefully."
+        "The race had a false start.",
+        "He woke with a start at midnight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "start：从核心场景引出的常用义"
+        "开始：事情由不动转为动的那一刻",
+        "出发点：动起来的那个位置",
+        "惊跳：受惊时身子猛一动，本义正在这一跳上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "startle",
@@ -154466,25 +154485,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 startle，现代词义按整体记",
-      "native_definition": "a thing or action related to startle",
-      "core_concept": "a clear scene connected with startle – 与该词相连的清晰场景",
+      "origin": "中古英语 startlen（急奔、绊跌）← 古英语 steartlian（踢腾、挣动），即 start ＋ 反复体后缀 -le",
+      "native_definition": "to make someone move or jump suddenly from surprise",
+      "core_concept": "to give someone a jolt that makes the body move – 惊得对方身子猛动一下",
       "core_image": "门后突然传出巨响，等候者肩膀猛地抬起",
       "chinese": [
-        "startle"
+        "惊动",
+        "使吓一跳"
       ],
       "examples": [
-        "The startle changed the situation.",
-        "Researchers discussed the startle carefully."
+        "A loud bang startled the sleeping dog.",
+        "Sorry, I did not mean to startle you."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "startle：从核心场景引出的常用义"
+        "惊动：使人受惊而有所动作",
+        "使吓一跳：强调那一下突然且短促"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "starve",
@@ -154494,25 +154514,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 starve，现代词义按整体记",
-      "native_definition": "a thing or action related to starve",
-      "core_concept": "a clear scene connected with starve – 与该词相连的清晰场景",
+      "origin": "中古英语 sterven（死去）← 古英语 steorfan（死）← 原始日耳曼语 *sterbaną（僵住而死）← 原始印欧语 *(s)terp-（失力、发麻）；后专指因断粮而死",
+      "native_definition": "to suffer or die from having no food",
+      "core_concept": "to be worn down toward death by having nothing to eat – 因无可吃而一步步耗下去",
       "core_image": "空碗放在桌上几天，孩子疲惫地望向厨房",
       "chinese": [
-        "starve"
+        "饿死",
+        "挨饿",
+        "极度缺乏"
       ],
       "examples": [
-        "The starve changed the situation.",
-        "Researchers discussed the starve carefully."
+        "Thousands starved during the long drought.",
+        "The plants were starved of light."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "starve：从核心场景引出的常用义"
+        "饿死：耗到尽头那一步",
+        "挨饿：还在耗着、尚未到尽头",
+        "极度缺乏：把断粮推广到断任何必需之物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steady",
@@ -154522,25 +154545,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steady，现代词义按整体记",
-      "native_definition": "a thing or action related to steady",
-      "core_concept": "a clear scene connected with steady – 与该词相连的清晰场景",
+      "origin": "中古英语 stedy，或续古英语 stæþþiġ（稳固的），即 stead（位置）＋ 形容词后缀 -y",
+      "native_definition": "firmly fixed, or moving at an even rate without sudden change",
+      "core_concept": "keeping the same position or pace throughout – 位置或速度全程不变",
       "core_image": "桥梁经受风吹仍保持平稳，水面下的支柱没有晃动",
       "chinese": [
-        "steady"
+        "稳的",
+        "稳步的",
+        "持续不变的"
       ],
       "examples": [
-        "The steady changed the situation.",
-        "Researchers discussed the steady carefully."
+        "Hold the ladder steady while I climb.",
+        "Sales showed steady growth all year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steady：从核心场景引出的常用义"
+        "稳的：不摇不晃，位置守得住",
+        "稳步的：动是动，但速度不忽快忽慢",
+        "持续不变的：把这份不变拉长到整段时间"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steak",
@@ -154550,25 +154576,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steak，现代词义按整体记",
-      "native_definition": "a thing or action related to steak",
-      "core_concept": "a clear scene connected with steak – 与该词相连的清晰场景",
+      "origin": "中古英语 steike ← 古诺尔斯语 steik（烤肉，指串在棍上烤的那块）",
+      "native_definition": "a thick flat piece of meat or fish cut for grilling or frying",
+      "core_concept": "a thick slab of meat cut to go on the fire – 切得厚、专拿去上火的一块肉",
       "core_image": "厚肉片在烤架上变色，夹子把它翻到另一面",
       "chinese": [
-        "steak"
+        "牛排",
+        "肉排"
       ],
       "examples": [
-        "The steak changed the situation.",
-        "Researchers discussed the steak carefully."
+        "He ordered his steak rare.",
+        "Grill the steaks for four minutes each side."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steak：从核心场景引出的常用义"
+        "牛排：这种切法最常用于牛肉",
+        "肉排：同样切法用在别的肉上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steal",
@@ -154578,25 +154605,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steal，现代词义按整体记",
-      "native_definition": "a thing or action related to steal",
-      "core_concept": "a clear scene connected with steal – 与该词相连的清晰场景",
+      "origin": "中古英语 stelen ← 古英语 stelan（偷）← 原始日耳曼语 *stelaną（偷）；哥特语 stilan 与之同族",
+      "native_definition": "to take something that belongs to another without permission",
+      "core_concept": "to take what is not yours while unseen – 趁人不见，把不属于自己的拿走",
       "core_image": "手从桌面悄悄拿走钱包，主人没有察觉",
       "chinese": [
-        "steal"
+        "偷",
+        "窃取",
+        "暗中做"
       ],
       "examples": [
-        "The steal changed the situation.",
-        "Researchers discussed the steal carefully."
+        "Someone stole my bicycle from the yard.",
+        "He stole a glance at the clock."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steal：从核心场景引出的常用义"
+        "偷：擅自取走他人之物",
+        "窃取：取的多是无形之物，如资料或名声",
+        "暗中做：只取「不让人看见」这一面，如悄悄溜走"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steam",
@@ -154606,25 +154636,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steam，现代词义按整体记",
-      "native_definition": "a thing or action related to steam",
-      "core_concept": "a clear scene connected with steam – 与该词相连的清晰场景",
+      "origin": "中古英语 steem ← 古英语 stēam（蒸汽、热气）← 原始日耳曼语 *staumaz（汽、气）← 原始印欧语 *dʰewh₂-（腾起、冒烟）",
+      "native_definition": "the hot gas that water turns into when it boils",
+      "core_concept": "water turned by heat into hot gas – 水受热化成的热气",
       "core_image": "热水上方升起白雾，沿窗玻璃凝成小水珠",
       "chinese": [
-        "steam"
+        "蒸汽",
+        "水汽",
+        "蒸"
       ],
       "examples": [
-        "The steam changed the situation.",
-        "Researchers discussed the steam carefully."
+        "Steam rose from the boiling kettle.",
+        "The mirror was covered in steam."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steam：从核心场景引出的常用义"
+        "蒸汽：水沸后化成的气",
+        "水汽：同是水化的气，更淡，可见为白雾",
+        "蒸：用这种热气把食物做熟这个做法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steamer",
@@ -154634,25 +154667,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steamer，现代词义按整体记",
-      "native_definition": "a thing or action related to steamer",
-      "core_concept": "a clear scene connected with steamer – 与该词相连的清晰场景",
+      "origin": "由 steam ＋ -er 构成；steam 一支 ← 古英语 stēam（蒸汽）← 原始日耳曼语 *staumaz（汽）",
+      "native_definition": "a ship driven by steam power, or a pot that cooks food over boiling water",
+      "core_concept": "a thing that runs on steam or cooks by it – 靠蒸汽跑，或靠蒸汽把东西做熟",
       "core_image": "船舶从港口驶出，烟囱向后吐出一缕白汽",
       "chinese": [
-        "steamer"
+        "汽船",
+        "蒸锅",
+        "蒸笼"
       ],
       "examples": [
-        "The steamer changed the situation.",
-        "Researchers discussed the steamer carefully."
+        "The old steamer crossed the lake twice daily.",
+        "Cook the fish in a bamboo steamer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steamer：从核心场景引出的常用义"
+        "汽船：以蒸汽机为动力的船",
+        "蒸锅：靠水沸后的气把食物做熟的锅",
+        "蒸笼：同样靠气加热，只是编成一层层的笼"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steel",
@@ -154662,25 +154698,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steel，现代词义按整体记",
-      "native_definition": "a thing or action related to steel",
-      "core_concept": "a clear scene connected with steel – 与该词相连的清晰场景",
+      "origin": "中古英语 stele ← 古英语 stīele ← 原始西日耳曼语 *stahlī（钢制之物）← 原始印欧语 *stak-（立定、坚固）",
+      "native_definition": "a hard strong metal made from iron mixed with carbon",
+      "core_concept": "iron worked hard enough to carry a great load – 把铁炼到能承重的硬度",
       "core_image": "银灰色梁柱支撑着厂房屋顶，表面坚硬平直",
       "chinese": [
-        "steel"
+        "钢",
+        "钢铁",
+        "使坚强"
       ],
       "examples": [
-        "The steel changed the situation.",
-        "Researchers discussed the steel carefully."
+        "The bridge is built of steel and concrete.",
+        "He steeled himself for bad news."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steel：从核心场景引出的常用义"
+        "钢：铁加碳炼硬后的那种金属",
+        "钢铁：连着铁一起说的通称，多用于工业",
+        "使坚强：把「炼硬」这层用到人心上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steep",
@@ -154690,25 +154729,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steep，现代词义按整体记",
-      "native_definition": "a thing or action related to steep",
-      "core_concept": "a clear scene connected with steep – 与该词相连的清晰场景",
+      "origin": "中古英语 steep ← 古英语 stēap（高的）← 原始日耳曼语 *staupaz ← 原始印欧语 *(s)tewp-（顶起、戳出）；「昂贵」义 1856 年始见于美国英语",
+      "native_definition": "rising or falling sharply rather than gradually",
+      "core_concept": "slanting so sharply that climbing it takes effort – 倾斜得厉害，要上去很费力",
       "core_image": "山坡突然向上抬起，登山者必须抓住绳索",
       "chinese": [
-        "steep"
+        "陡的",
+        "急剧的",
+        "过高的"
       ],
       "examples": [
-        "The steep changed the situation.",
-        "Researchers discussed the steep carefully."
+        "The path grew steep near the summit.",
+        "Prices rose at a steep rate."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steep：从核心场景引出的常用义"
+        "陡的：坡面立起来，不是缓缓抬升",
+        "急剧的：把陡坡的形状用在曲线上，涨落都快",
+        "过高的：价钱像坡一样立起来，故称高得离谱"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steer",
@@ -154718,25 +154760,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steer，现代词义按整体记",
-      "native_definition": "a thing or action related to steer",
-      "core_concept": "a clear scene connected with steer – 与该词相连的清晰场景",
+      "origin": "中古英语 steeren ← 古英语 stēoran（掌舵、导航）← 原始日耳曼语 *stiurijaną（掌舵）",
+      "native_definition": "to control the direction in which a vehicle or boat moves",
+      "core_concept": "to hold something on the course you want – 把行进的东西按住在你要的方向上",
       "core_image": "驾驶者转动方向盘，车辆沿弯曲道路改变方向",
       "chinese": [
-        "steer"
+        "掌舵",
+        "引导",
+        "操控方向"
       ],
       "examples": [
-        "The steer changed the situation.",
-        "Researchers discussed the steer carefully."
+        "She steered the boat towards the shore.",
+        "He steered the talk away from money."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steer：从核心场景引出的常用义"
+        "掌舵：手在舵上，本义即此",
+        "引导：把方向从船挪到话题或人身上",
+        "操控方向：强调不断微调、不让偏离"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stem",
@@ -154746,25 +154791,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stem，现代词义按整体记",
-      "native_definition": "a thing or action related to stem",
-      "core_concept": "a clear scene connected with stem – 与该词相连的清晰场景",
+      "origin": "中古英语 stem ← 古英语 stemn（茎、干）← 原始日耳曼语 *stamniz（茎、树干）← 原始印欧语 *steh₂-（站立）",
+      "native_definition": "the main upright part of a plant that supports leaves and flowers",
+      "core_concept": "the upright part that holds the rest up – 立着的那一段，别的都由它托住",
       "core_image": "花茎从土中直立向上，顶端托着一朵花",
       "chinese": [
-        "stem"
+        "茎",
+        "柄",
+        "源于"
       ],
       "examples": [
-        "The stem changed the situation.",
-        "Researchers discussed the stem carefully."
+        "Cut the stem at an angle before watering.",
+        "Most complaints stem from poor service."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stem：从核心场景引出的常用义"
+        "茎：草木立着托住叶与花的那一段",
+        "柄：器物上供手握、也起支托作用的那一段",
+        "源于：把「由它长出」这层用到因果上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "step",
@@ -154774,25 +154822,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 step，现代词义按整体记",
-      "native_definition": "a thing or action related to step",
-      "core_concept": "a clear scene connected with step – 与该词相连的清晰场景",
+      "origin": "中古英语 steppen ← 古英语 steppan（迈步、行进）← 原始日耳曼语 *stapjaną（迈步）← 原始印欧语 *stebʰ-（支撑、踩踏）",
+      "native_definition": "one movement of the foot in walking, or one level in a series",
+      "core_concept": "one unit of advance from where you now are – 从当下位置往前推进的一个单位",
       "core_image": "脚从一级石阶抬起，落到紧接着的下一级",
       "chinese": [
-        "step"
+        "一步",
+        "台阶",
+        "步骤"
       ],
       "examples": [
-        "The step changed the situation.",
-        "Researchers discussed the step carefully."
+        "He took a step back from the edge.",
+        "Follow these steps in order."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "step：从核心场景引出的常用义"
+        "一步：脚抬起落下走过的那一段",
+        "台阶：脚一次踏上去的那一级",
+        "步骤：把「一步」用到过程上，一次做一段"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stereo",
@@ -154802,25 +154853,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stereo，现代词义按整体记",
-      "native_definition": "a thing or action related to stereo",
-      "core_concept": "a clear scene connected with stereo – 与该词相连的清晰场景",
+      "origin": "截自 stereophonic／stereoscope，词头 stereo- ← 希腊语 stereos（立体的、实心的）",
+      "native_definition": "sound sent through two or more separate channels so that it seems to come from different places",
+      "core_concept": "sound split across channels so it gains depth – 分成几路送出，听起来就有了纵深",
       "core_image": "两只音箱分列房间两侧，音乐从左右同时传来",
       "chinese": [
-        "stereo"
+        "立体声",
+        "立体声音响"
       ],
       "examples": [
-        "The stereo changed the situation.",
-        "Researchers discussed the stereo carefully."
+        "The album sounds better in stereo.",
+        "He bought a second-hand stereo."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stereo：从核心场景引出的常用义"
+        "立体声：左右分路播出、能听出方位的声音",
+        "立体声音响：播放这种声音的整套设备"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "stern",
@@ -154830,25 +154882,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stern，现代词义按整体记",
-      "native_definition": "a thing or action related to stern",
-      "core_concept": "a clear scene connected with stern – 与该词相连的清晰场景",
-      "core_image": "船尾在浪后上下起伏，旗帜固定在最后一端",
+      "origin": "中古英语 stern ← 古英语 styrne（严厉的、峻急的）← 原始日耳曼语 *sturnijaz（愤怒的、震惊的）← 原始印欧语 *ster-（硬、僵）",
+      "native_definition": "serious and severe in manner, showing no willingness to bend",
+      "core_concept": "holding a hard line without softening – 板着不松口，不留通融的余地",
+      "core_image": "老师合上点名册，眉头压低不带笑意，教室里没人敢再说话",
       "chinese": [
-        "stern"
+        "严厉的",
+        "严格的",
+        "不容商量的"
       ],
       "examples": [
-        "The stern changed the situation.",
-        "Researchers discussed the stern carefully."
+        "The judge gave him a stern warning.",
+        "Her stern look silenced the room."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stern：从核心场景引出的常用义"
+        "严厉的：态度硬，声色不缓",
+        "严格的：把这份硬落到规矩上，一分不让",
+        "不容商量的：硬到连开口余地都不给（同形的「船尾」是另一支词，源自古诺尔斯语「掌舵」，与此无关）"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "steward",
@@ -154858,25 +154913,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 steward，现代词义按整体记",
-      "native_definition": "a thing or action related to steward",
-      "core_concept": "a clear scene connected with steward – 与该词相连的清晰场景",
+      "origin": "中古英语 steward ← 古英语 stiġweard，由 stiġ（厅、屋）＋ weard（看守）合成，本义是看管家宅的人",
+      "native_definition": "a person who looks after property or serves passengers on a ship or plane",
+      "core_concept": "one put in charge of looking after what belongs to another – 受托看管别人的产业或客人",
       "core_image": "工作人员在车厢里检查座位和乘客需要的物品",
       "chinese": [
-        "steward"
+        "乘务员",
+        "管家",
+        "管理者"
       ],
       "examples": [
-        "The steward changed the situation.",
-        "Researchers discussed the steward carefully."
+        "The steward brought blankets to the passengers.",
+        "He served as steward of the estate for years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "steward：从核心场景引出的常用义"
+        "乘务员：船机上照看乘客的人",
+        "管家：看管宅院与家产的人，本义在此",
+        "管理者：把「受托看管」抽出来，用于任何托管之事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stick",
@@ -154886,25 +154944,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stick，现代词义按整体记",
-      "native_definition": "a thing or action related to stick",
-      "core_concept": "a clear scene connected with stick – 与该词相连的清晰场景",
+      "origin": "中古英语 stikke（枝、棍）← 古英语 sticca（棍、枝）← 原始日耳曼语 *stikkô（棍、杆）← 原始印欧语 *(s)teyg-（刺、扎）；「粘住」义出自同根的 stician（刺入而留住）",
+      "native_definition": "a thin piece of wood, or to become fixed to a surface",
+      "core_concept": "a thin shaft, or the state of being lodged fast – 细长的一根，或扎住不动的状态",
       "core_image": "细木棍插进湿泥，拔出时带起一小块土",
       "chinese": [
-        "stick"
+        "棍",
+        "枝条",
+        "粘住"
       ],
       "examples": [
-        "The stick changed the situation.",
-        "Researchers discussed the stick carefully."
+        "He picked up a stick to draw in the sand.",
+        "The stamp would not stick to the envelope."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stick：从核心场景引出的常用义"
+        "棍：削下或折下的细长一根",
+        "枝条：树上还没折下来的那种细长部分",
+        "粘住：从「扎进去就留在那儿」推来，指贴住不掉"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sticky",
@@ -154914,25 +154975,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sticky，现代词义按整体记",
-      "native_definition": "a thing or action related to sticky",
-      "core_concept": "a clear scene connected with sticky – 与该词相连的清晰场景",
+      "origin": "由 stick ＋ -y 构成；stick 一支 ← 古英语 sticca（棍）与 stician（刺入而留住）← 原始印欧语 *(s)teyg-（刺、扎）",
+      "native_definition": "tending to hold onto whatever it touches",
+      "core_concept": "holding fast to whatever touches it – 碰上什么就抓住不放",
       "core_image": "糖浆沾在手指上，触碰其他东西时会拉出细丝",
       "chinese": [
-        "sticky"
+        "黏的",
+        "难对付的"
       ],
       "examples": [
-        "The sticky changed the situation.",
-        "Researchers discussed the sticky carefully."
+        "The table was sticky with spilt juice.",
+        "We are in a sticky situation."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sticky：从核心场景引出的常用义"
+        "黏的：触到就粘上，不易分开",
+        "难对付的：局面像黏上手一样脱不开身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stiff",
@@ -154942,25 +155004,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stiff，现代词义按整体记",
-      "native_definition": "a thing or action related to stiff",
-      "core_concept": "a clear scene connected with stiff – 与该词相连的清晰场景",
+      "origin": "中古英语 stif ← 古英语 stīf ← 原始日耳曼语 *stīfaz ← 原始印欧语 *steypós（硬、挺）；按常规演变本该读 /staɪf/，今读 /stɪf/ 或出自 stiffly 一类复合词中的元音缩短",
+      "native_definition": "hard to bend or move out of shape",
+      "core_concept": "resisting any attempt to bend it – 想让它弯，它不肯",
       "core_image": "冻硬的布料无法弯曲，衣架撑着它保持直线",
       "chinese": [
-        "stiff"
+        "僵直的",
+        "不易弯折的",
+        "生硬的"
       ],
       "examples": [
-        "The stiff changed the situation.",
-        "Researchers discussed the stiff carefully."
+        "The new boots felt stiff at first.",
+        "His neck was stiff after the long drive."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stiff：从核心场景引出的常用义"
+        "僵直的：关节或身体不肯屈",
+        "不易弯折的：材料本身抗弯",
+        "生硬的：把这份不肯通融用到举止与措辞上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stimulate",
@@ -154970,25 +155035,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stimulate，现代词义按整体记",
-      "native_definition": "a thing or action related to stimulate",
-      "core_concept": "a clear scene connected with stimulate – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 stimulatus，是 stimulō（驱赶、用刺棒催）的完成被动分词 ← stimulus（刺棒）",
+      "native_definition": "to make something more active or make someone more interested",
+      "core_concept": "a prod from outside that rouses something into action – 从外面戳一下，使对方活跃起来",
       "core_image": "轻微电流接通后，实验装置的指针开始活跃摆动",
       "chinese": [
-        "stimulate"
+        "刺激",
+        "激发",
+        "促进"
       ],
       "examples": [
-        "The stimulate changed the situation.",
-        "Researchers discussed the stimulate carefully."
+        "Coffee stimulates the nervous system.",
+        "The prize stimulated fresh interest in the field."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stimulate：从核心场景引出的常用义"
+        "刺激：外来的一戳，使反应起来",
+        "激发：把原本不显的兴致或潜力戳出来",
+        "促进：这一戳落在进程上，使推进得更快"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "sting",
@@ -154998,25 +155066,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sting，现代词义按整体记",
-      "native_definition": "a thing or action related to sting",
-      "core_concept": "a clear scene connected with sting – 与该词相连的清晰场景",
+      "origin": "中古英语 sting ← 古英语 sting（刺、扎出的伤）← 原始日耳曼语 *stingaz；动词一支 ← 古英语 stingan（刺）← 原始日耳曼语 *stinganą",
+      "native_definition": "a sharp pain caused by a pointed part of an insect or plant piercing the skin",
+      "core_concept": "a pointed jab that leaves a burning pain – 尖端扎一下，留下火辣的痛",
       "core_image": "蜜蜂尾端的刺碰到皮肤，留下一个小红点",
       "chinese": [
-        "sting"
+        "刺",
+        "刺痛",
+        "蜇"
       ],
       "examples": [
-        "The sting changed the situation.",
-        "Researchers discussed the sting carefully."
+        "A bee sting swelled up within minutes.",
+        "The cold wind stung his cheeks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sting：从核心场景引出的常用义"
+        "刺：昆虫或植物身上那根尖端",
+        "刺痛：被扎后那种又尖又辣的痛感",
+        "蜇：把这一扎当动作说，多用于虫"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stir",
@@ -155026,25 +155097,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stir，现代词义按整体记",
-      "native_definition": "a thing or action related to stir",
-      "core_concept": "a clear scene connected with stir – 与该词相连的清晰场景",
+      "origin": "中古英语 stiren ← 古英语 styrian（动、搅、扰）← 原始日耳曼语 *sturiz（骚动、喧扰）",
+      "native_definition": "to move a liquid around with a spoon so its parts mix",
+      "core_concept": "to set the parts of something moving so they mix – 让里面各部分动起来，混到一处",
       "core_image": "勺子在锅里绕圈搅动，液体和配料混在一起",
       "chinese": [
-        "stir"
+        "搅拌",
+        "搅匀",
+        "激起"
       ],
       "examples": [
-        "The stir changed the situation.",
-        "Researchers discussed the stir carefully."
+        "Stir the soup before you taste it.",
+        "His speech stirred the whole crowd."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stir：从核心场景引出的常用义"
+        "搅拌：用器具带着液体绕圈",
+        "搅匀：搅到各部分再分不出来",
+        "激起：把「使动起来」用到人心与情绪上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stitch",
@@ -155054,25 +155128,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stitch，现代词义按整体记",
-      "native_definition": "a thing or action related to stitch",
-      "core_concept": "a clear scene connected with stitch – 与该词相连的清晰场景",
+      "origin": "中古英语 stiche ← 古英语 stiċe（刺、扎，及扎出的痛）← 原始日耳曼语 *stikiz（刺、缝迹）← 原始印欧语 *(s)teyg-（刺、扎）",
+      "native_definition": "one pass of a threaded needle through cloth",
+      "core_concept": "one pass of the needle in and out again – 针进去再出来的这一趟",
       "core_image": "针线穿过布面，连续小针脚把裂口合拢",
       "chinese": [
-        "stitch"
+        "缝线",
+        "一针",
+        "缝合"
       ],
       "examples": [
-        "The stitch changed the situation.",
-        "Researchers discussed the stitch carefully."
+        "The wound needed six stitches.",
+        "She sewed the hem with tiny stitches."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stitch：从核心场景引出的常用义"
+        "缝线：留在布上的那一道线迹",
+        "一针：针进出一次算一针，用作计量",
+        "缝合：把这些针连起来，把裂口合到一起"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stock",
@@ -155082,25 +155159,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 stock，现代词义按整体记",
-      "native_definition": "a thing or action related to stock",
-      "core_concept": "a clear scene connected with stock – 与该词相连的清晰场景",
+      "origin": "中古英语 stok ← 古英语 stocc（树干、木桩）← 原始日耳曼语 *stukkaz（树干）；「存货」义或出自刻记账目的对分木签（tally stick）之用法",
+      "native_definition": "the goods a shop keeps on hand for sale",
+      "core_concept": "the standing supply a business rests on – 一桩生意赖以立住的那批存底",
       "core_image": "仓库货架上按类别堆着待售箱子",
       "chinese": [
-        "stock"
+        "存货",
+        "股票",
+        "家畜"
       ],
       "examples": [
-        "The stock changed the situation.",
-        "Researchers discussed the stock carefully."
+        "The shop is out of stock until Monday.",
+        "He owns stock in three companies."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "stock：从核心场景引出的常用义"
+        "存货：待售的那批货，如同支起铺面的那根干",
+        "股票：把公司的本钱分成份，持有一份就占一份",
+        "家畜：农家的活存底，同样是赖以立住的本"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "stocking",
