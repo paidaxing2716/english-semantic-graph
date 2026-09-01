@@ -1,7 +1,9 @@
 # 下一轮做什么
 
 > 现状更新于 2026-09-01，占位回填清零之后。
-> 分支 `fix/etymology-gates-and-engra-gaps`，PR #1 仍未合。
+> 分支 `main`——09-01 起只有这一条。PR #1 早在 08-26 已 MERGED（文档此前一直写着
+> 「仍未合」，是过期信息），其分支与临时的 chore/stub-backfill-complete 均已删除，
+> 因为内容 100% 在 main 里（`git rev-list --count origin/main..<branch>` 为 0）。
 > 先读 [HANDOFF.md](HANDOFF.md) 的「先读这一条」，再读本文件末尾「这轮踩实的坑」。
 
 ## 现状（现场数的）
