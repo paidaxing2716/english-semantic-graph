@@ -162371,86 +162371,95 @@
     {
       "id": "trace",
       "word": "trace",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/treɪs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trace，现代词义按整体记",
-      "native_definition": "a thing or action related to trace",
-      "core_concept": "a clear scene connected with trace – 与该词相连的清晰场景",
+      "origin": "中古英语 trace ← 古法语 trace（轮廓、踪迹）← 动词 tracer ← 通俗拉丁语 *tractiare ← 拉丁语 trahere（拉、拖）",
+      "native_definition": "a mark or sign left behind by something",
+      "core_concept": "the faint mark left where something passed – 某物经过后留下的那点淡痕",
       "core_image": "铅笔沿着半透明纸下的线条移动，纸面留下清楚轮廓",
       "chinese": [
-        "trace"
+        "痕迹",
+        "微量",
+        "描摹"
       ],
       "examples": [
-        "The trace changed the situation.",
-        "Researchers discussed the trace carefully."
+        "The car left traces of oil on the drive.",
+        "Traces of poison were found in the cup."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trace：从核心场景引出的常用义"
+        "痕迹：留下的那点印子",
+        "微量：少到只剩痕迹的分量",
+        "描摹：照着底下的线条画一遍，把痕迹复制出来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "track",
       "word": "track",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtræk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 track，现代词义按整体记",
-      "native_definition": "a thing or action related to track",
-      "core_concept": "a clear scene connected with track – 与该词相连的清晰场景",
+      "origin": "中古英语 trak ← 古法语 trac（马蹄印、踪迹），或出自日耳曼来源（古诺尔斯语 traðk 踩出的路，或中古荷兰语 trec 线、列）",
+      "native_definition": "a mark or path made by repeated passing, or a rail line",
+      "core_concept": "the line left or laid down for something to travel along – 供东西沿着走的那条线，踩出来的或铺出来的",
       "core_image": "铁轨从站台向远处延伸，车辆的轮子沿两条钢线前进",
       "chinese": [
-        "track"
+        "轨道",
+        "足迹",
+        "追踪"
       ],
       "examples": [
-        "The track changed the situation.",
-        "Researchers discussed the track carefully."
+        "Deer tracks crossed the muddy path.",
+        "The train left the track near the bend."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "track：从核心场景引出的常用义"
+        "轨道：铺好供车行的那两条钢线",
+        "足迹：反复走出来的印子或小路",
+        "追踪：顺着这些印子跟下去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "trade",
       "word": "trade",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/treɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trade，现代词义按整体记",
-      "native_definition": "a thing or action related to trade",
-      "core_concept": "a clear scene connected with trade – 与该词相连的清晰场景",
+      "origin": "中古英语 trade（路径、行迹），由汉萨商人带入英语 ← 中古低地德语 trade（辙、路）← 原始日耳曼语 *tradō（路）← 原始印欧语 *dreh₂-（踏、走）",
+      "native_definition": "the buying and selling of goods, or a skilled occupation",
+      "core_concept": "goods and skills passing along a beaten path between people – 沿着走熟的路在人与人之间过手的货物与手艺",
       "core_image": "两个人在柜台两侧交换货物和钱，账本记录下这次交接",
       "chinese": [
-        "trade"
+        "贸易",
+        "交易",
+        "行业"
       ],
       "examples": [
-        "The trade changed the situation.",
-        "Researchers discussed the trade carefully."
+        "Trade between the two ports grew fast.",
+        "He learned the trade from his father."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trade：从核心场景引出的常用义"
+        "贸易：地区或国家之间的买卖",
+        "交易：单笔的买卖行为",
+        "行业：靠一门手艺谋生的那一行"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "trademark",
@@ -162460,25 +162469,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trademark，现代词义按整体记",
-      "native_definition": "a thing or action related to trademark",
-      "core_concept": "a clear scene connected with trademark – 与该词相连的清晰场景",
+      "origin": "由 trade（行业）＋ mark（标记）复合而成；trade 一支 ← 中古低地德语 trade（辙、路）",
+      "native_definition": "a name or symbol legally registered to identify a product",
+      "core_concept": "the mark that says whose goods these are – 说明这批货出自谁家的那个标记",
       "core_image": "商品包装角落印着独特图案，顾客据此认出生产者",
       "chinese": [
-        "trademark"
+        "商标",
+        "标志性特征"
       ],
       "examples": [
-        "The trademark changed the situation.",
-        "Researchers discussed the trademark carefully."
+        "The logo is a registered trademark.",
+        "That laugh is his trademark."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trademark：从核心场景引出的常用义"
+        "商标：注册在案、专属某家的标记",
+        "标志性特征：某人独有、一见即知的那一点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "traffic",
@@ -162488,25 +162498,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 traffic，现代词义按整体记",
-      "native_definition": "a thing or action related to traffic",
-      "core_concept": "a clear scene connected with traffic – 与该词相连的清晰场景",
+      "origin": "借自中古法语 trafique ← 意大利语 traffico ← trafficare（经商、贩运），更早词源不明",
+      "native_definition": "the vehicles moving along a road, or the movement of goods",
+      "core_concept": "things and people in motion along a route – 沿一条路线动着的车与人",
       "core_image": "十字路口的车辆在红绿灯控制下排成几条流动的线",
       "chinese": [
-        "traffic"
+        "交通",
+        "车流",
+        "运输量"
       ],
       "examples": [
-        "The traffic changed the situation.",
-        "Researchers discussed the traffic carefully."
+        "Traffic crawled along the ring road.",
+        "Air traffic doubled in ten years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "traffic：从核心场景引出的常用义"
+        "交通：路上通行这件事及其状况",
+        "车流：路面上成股移动的车辆",
+        "运输量：一段时间里运送的总量"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tragic",
@@ -162516,81 +162529,88 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tragic，现代词义按整体记",
-      "native_definition": "a thing or action related to tragic",
-      "core_concept": "a clear scene connected with tragic – 与该词相连的清晰场景",
+      "origin": "源自希腊语 tragikos（与悲剧有关的）← tragos（公山羊），因多利亚戏剧中的羊人角色而得名",
+      "native_definition": "very sad, involving loss that cannot be undone",
+      "core_concept": "ending in loss that nothing can put right – 结局是无法挽回的损失",
       "core_image": "舞台灯光落在空椅子上，观众安静面对无法挽回的结局",
       "chinese": [
-        "tragic"
+        "悲惨的",
+        "悲剧的"
       ],
       "examples": [
-        "The tragic changed the situation.",
-        "Researchers discussed the tragic carefully."
+        "The accident had a tragic outcome.",
+        "She wrote a tragic love story."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tragic：从核心场景引出的常用义"
+        "悲惨的：遭遇之惨令人不忍",
+        "悲剧的：属于戏剧那一类，结局注定不好"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "trail",
       "word": "trail",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/treɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trail，现代词义按整体记",
-      "native_definition": "a thing or action related to trail",
-      "core_concept": "a clear scene connected with trail – 与该词相连的清晰场景",
+      "origin": "中古英语 trailen ← 古法语 trailler（拖曳、循迹追踪）← 通俗拉丁语 *tragulare（拖）← 拉丁语 tragula（拖网）",
+      "native_definition": "to drag along behind, or a path worn by passing",
+      "core_concept": "something dragging behind, and the line it leaves – 拖在后面的东西，以及它留下的那条线",
       "core_image": "泥地上连续留下脚印，向树林深处弯曲延伸",
       "chinese": [
-        "trail"
+        "拖曳",
+        "尾随",
+        "小径"
       ],
       "examples": [
-        "The trail changed the situation.",
-        "Researchers discussed the trail carefully."
+        "Her scarf trailed in the mud.",
+        "We followed a narrow trail uphill."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trail：从核心场景引出的常用义"
+        "拖曳：让东西在身后拖着走",
+        "尾随：跟在后面不远处",
+        "小径：走出来的那条窄路"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "train",
       "word": "train",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtreɪn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 train，现代词义按整体记",
-      "native_definition": "a thing or action related to train",
-      "core_concept": "a clear scene connected with train – 与该词相连的清晰场景",
+      "origin": "中古英语 trayne ← 古法语 train（拖出的一长串）← traïner（拖、拉）← 通俗拉丁语 *traginare ← 拉丁语 trahō（拉）",
+      "native_definition": "a line of railway carriages pulled along, or to teach by practice",
+      "core_concept": "a long line drawn along behind, or the drilling that draws out a skill – 被拖着走的一长串，或把本事一点点拉出来的操练",
       "core_image": "长列车沿铁轨驶过，车厢一节接一节连接在一起",
       "chinese": [
-        "train"
+        "火车",
+        "一列",
+        "训练"
       ],
       "examples": [
-        "The train changed the situation.",
-        "Researchers discussed the train carefully."
+        "We caught the last train home.",
+        "She trains horses for a living."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "train：从核心场景引出的常用义"
+        "火车：车厢连成一串在轨上被拉着走",
+        "一列：泛指连成长串的那一队",
+        "训练：把人的本事反复拉练出来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "training",
@@ -162600,109 +162620,115 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 training，现代词义按整体记",
-      "native_definition": "a thing or action related to training",
-      "core_concept": "a clear scene connected with training – 与该词相连的清晰场景",
+      "origin": "由 train ＋ -ing 构成；train 一支 ← 古法语 traïner（拖、拉）← 拉丁语 trahō（拉）",
+      "native_definition": "the process of learning a skill by practice",
+      "core_concept": "repeated practice that draws a skill into shape – 反复操练，把本事一点点带成形",
       "core_image": "教练反复示范动作，运动员在场边一遍遍练习",
       "chinese": [
-        "training"
+        "训练",
+        "培训"
       ],
       "examples": [
-        "The training changed the situation.",
-        "Researchers discussed the training carefully."
+        "He is in training for the marathon.",
+        "The job includes six weeks of training."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "training：从核心场景引出的常用义"
+        "训练：靠反复练习养成本事",
+        "培训：有组织地教授某项技能"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "trait",
       "word": "trait",
       "pos": "noun",
-      "phonetic": "/treɪ/",
+      "phonetic": "/treɪt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trait，现代词义按整体记",
-      "native_definition": "a thing or action related to trait",
-      "core_concept": "a clear scene connected with trait – 与该词相连的清晰场景",
+      "origin": "借自中古法语 trait（线条、特征）← 拉丁语 tractus（拉出的一道）← trahō（拉）；与 tract 同源",
+      "native_definition": "a particular quality in someone's character",
+      "core_concept": "one line of character that marks a person out – 把一个人划出来的那一道性格线条",
       "core_image": "几个人的照片并排放着，其中一项相同特征被圈出",
       "chinese": [
-        "trait"
+        "特点",
+        "特质"
       ],
       "examples": [
-        "The trait changed the situation.",
-        "Researchers discussed the trait carefully."
+        "Patience is his best trait.",
+        "The two brothers share several traits."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trait：从核心场景引出的常用义"
+        "特点：与旁人不同的那一处",
+        "特质：性格里稳定不变的那种性质"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tram",
       "word": "tram",
       "pos": "noun",
-      "phonetic": "/tram/",
+      "phonetic": "/træm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tram，现代词义按整体记",
-      "native_definition": "a thing or action related to tram",
-      "core_concept": "a clear scene connected with tram – 与该词相连的清晰场景",
-      "core_image": "有轨电车沿城市街道的轨道行驶，站台乘客准备上车",
+      "origin": "16 世纪初借自苏格兰语，或 ← 低地德语 traam（车辕、横木）← 原始日耳曼语 *drum（木片）← 原始印欧语 *térmn̥（桩、界）",
+      "native_definition": "a passenger vehicle that runs on rails along city streets",
+      "core_concept": "a street vehicle that runs on rails instead of steering – 走在街面钢轨上、不靠打方向的载客车",
+      "core_image": "车厢贴着街面的两条钢线走，到站台就停下让人上下，不用司机打方向",
       "chinese": [
-        "tram"
+        "电车",
+        "有轨车"
       ],
       "examples": [
-        "The tram changed the situation.",
-        "Researchers discussed the tram carefully."
+        "She takes the tram to work.",
+        "The tram stops outside the museum."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tram：从核心场景引出的常用义"
+        "电车：城里那种沿轨行驶的车",
+        "有轨车：强调它靠轨道定向这一点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tramp",
       "word": "tramp",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtræmp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tramp，现代词义按整体记",
-      "native_definition": "a thing or action related to tramp",
-      "core_concept": "a clear scene connected with tramp – 与该词相连的清晰场景",
+      "origin": "中古英语 trampen（重步走）← 中古低地德语 trampen（跺、踩）← 原始西日耳曼语 *trampan（踏）；与 trap 或相关",
+      "native_definition": "to walk with heavy steps, or a person who wanders without a home",
+      "core_concept": "walking with the whole weight coming down each step – 每一步都把整个体重压下去地走",
       "core_image": "鞋底重重踩过泥路，行走者背着包连续向前",
       "chinese": [
-        "tramp"
+        "重步走",
+        "长途跋涉",
+        "流浪者"
       ],
       "examples": [
-        "The tramp changed the situation.",
-        "Researchers discussed the tramp carefully."
+        "They tramped through the snow for hours.",
+        "A tramp slept under the bridge."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tramp：从核心场景引出的常用义"
+        "重步走：脚落得重，声响明显",
+        "长途跋涉：这样走很长的路",
+        "流浪者：靠两条腿到处走、无定居的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "transaction",
@@ -162712,81 +162738,80 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 transaction，现代词义按整体记",
-      "native_definition": "a thing or action related to transaction",
-      "core_concept": "a clear scene connected with transaction – 与该词相连的清晰场景",
+      "origin": "借自中古法语 transaction ← 古法语 transaccion ← 晚期拉丁语 transactio ← trans-（越过）＋ agō（做、办）",
+      "native_definition": "a single piece of business in which something is exchanged",
+      "core_concept": "one complete passing of something between two sides – 东西在两方之间过手的完整一回",
       "core_image": "柜台前钱和商品同时从一方交到另一方",
       "chinese": [
-        "transaction"
+        "交易",
+        "事务处理"
       ],
       "examples": [
-        "The transaction changed the situation.",
-        "Researchers discussed the transaction carefully."
+        "Each transaction is logged automatically.",
+        "The transaction took only a minute."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "transaction：从核心场景引出的常用义"
+        "交易：一次买卖或交换",
+        "事务处理：系统里完成的一笔操作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "transient",
       "word": "transient",
       "pos": "adjective",
-      "phonetic": "/ˈtran.zi.ənt/",
+      "phonetic": "/ˈtrænziənt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 transient，现代词义按整体记",
-      "native_definition": "a thing or action related to transient",
-      "core_concept": "a clear scene connected with transient – 与该词相连的清晰场景",
+      "origin": "借自晚期拉丁语 transient-，是 transeo（走过、经过）的现在分词词干 ← trans-（越过）＋ eo（走）",
+      "native_definition": "lasting only a short time",
+      "core_concept": "passing through without staying – 只是过一下，不停留",
       "core_image": "雨后路面上的水痕只停留片刻，阳光一出便迅速消失",
       "chinese": [
-        "transient"
+        "短暂的",
+        "瞬时的"
       ],
       "examples": [
-        "The transient changed the situation.",
-        "Researchers discussed the transient carefully."
+        "The effect proved transient and soon wore off.",
+        "Transient guests filled the hotel each summer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "transient：从核心场景引出的常用义"
+        "短暂的：持续的时间很短",
+        "瞬时的：只在一瞬存在"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "transistor",
       "word": "transistor",
       "pos": "noun",
-      "phonetic": "/ˈtransistor/",
+      "phonetic": "/trænˈzɪstə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 transistor，现代词义按整体记",
-      "native_definition": "a thing or action related to transistor",
-      "core_concept": "a clear scene connected with transistor – 与该词相连的清晰场景",
+      "origin": "由 transfer（转移）与 resistor（电阻器）混合而成，1947 年由工程师 John Robinson Pierce 所造",
+      "native_definition": "a small device that controls the flow of current in a circuit",
+      "core_concept": "a small part that lets a weak current govern a strong one – 一个小元件，让弱电流管住强电流",
       "core_image": "电路板上排列着小元件，电流经过其中一个后被控制",
       "chinese": [
-        "transistor"
+        "晶体管"
       ],
       "examples": [
-        "The transistor changed the situation.",
-        "Researchers discussed the transistor carefully."
+        "The radio uses only six transistors.",
+        "A faulty transistor caused the fault."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "transistor：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "translation",
@@ -162796,81 +162821,86 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 translation，现代词义按整体记",
-      "native_definition": "a thing or action related to translation",
-      "core_concept": "a clear scene connected with translation – 与该词相连的清晰场景",
+      "origin": "中古英语 translacioun ← 盎格鲁诺曼语 translacioun ← 拉丁语 translatio ← transferō（搬过去）的完成词干；取代了古英语 wending",
+      "native_definition": "the act of putting words from one language into another",
+      "core_concept": "carrying a meaning across from one language into another – 把意思从一种语言搬到另一种",
       "core_image": "两种语言的文本左右对照，句子逐行转换",
       "chinese": [
-        "translation"
+        "翻译",
+        "译文"
       ],
       "examples": [
-        "The translation changed the situation.",
-        "Researchers discussed the translation carefully."
+        "Her translation reads better than the original.",
+        "The book awaits translation into Chinese."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "translation：从核心场景引出的常用义"
+        "翻译：转换语言这件事",
+        "译文：转换出来的那份文字"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "transparent",
       "word": "transparent",
       "pos": "adjective",
-      "phonetic": "/ˈtransparent/",
+      "phonetic": "/trænsˈpærənt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 transparent，现代词义按整体记",
-      "native_definition": "a thing or action related to transparent",
-      "core_concept": "a clear scene connected with transparent – 与该词相连的清晰场景",
+      "origin": "借自中世纪拉丁语 transparens（透光的），是 transpareō 的现在分词，由 trans-（穿过）＋ pareō（显现）构成",
+      "native_definition": "letting light through so that things behind can be seen",
+      "core_concept": "letting what is behind it show right through – 后面的东西能一眼看穿过来",
       "core_image": "玻璃板立在窗前，阳光和窗外景物都能穿过来",
       "chinese": [
-        "transparent"
+        "透明的",
+        "显而易见的"
       ],
       "examples": [
-        "The transparent changed the situation.",
-        "Researchers discussed the transparent carefully."
+        "The bottle is made of transparent plastic.",
+        "His motives were transparent to everyone."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "transparent：从核心场景引出的常用义"
+        "透明的：光与景物都能穿过",
+        "显而易见的：用意藏不住，一看就明白"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "trap",
       "word": "trap",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/træp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trap，现代词义按整体记",
-      "native_definition": "a thing or action related to trap",
-      "core_concept": "a clear scene connected with trap – 与该词相连的清晰场景",
+      "origin": "中古英语 trappe ← 古英语 træppe（罗网）← 原始西日耳曼语 *trappjā ← *trappjan（踏）← 原始印欧语 *drebʰ-（踏、绊）",
+      "native_definition": "a device for catching animals, or a plan to catch someone out",
+      "core_concept": "something set so that whoever steps on it is caught – 布下的机关，谁踏上谁被扣住",
       "core_image": "箱门半掩，食物放在里面，踏板一动门便落下",
       "chinese": [
-        "trap"
+        "陷阱",
+        "圈套",
+        "困住"
       ],
       "examples": [
-        "The trap changed the situation.",
-        "Researchers discussed the trap carefully."
+        "He set a trap for the rats.",
+        "The question was a trap."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trap：从核心场景引出的常用义"
+        "陷阱：捕兽的那种机关",
+        "圈套：为使人上当而设的局",
+        "困住：使对方脱不了身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "trash",
@@ -162880,25 +162910,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trash，现代词义按整体记",
-      "native_definition": "a thing or action related to trash",
-      "core_concept": "a clear scene connected with trash – 与该词相连的清晰场景",
-      "core_image": "清洁工把破纸箱和空瓶装进分类垃圾桶",
+      "origin": "中古英语 trasch，或为方言词 ← 古诺尔斯语 tros（碎屑、落叶枯枝），更早词源不明；或与原始日耳曼语 *þrakjaz（污物）相关",
+      "native_definition": "things thrown away as worthless",
+      "core_concept": "what is left over and thrown away – 剩下来、被扔掉的那些东西",
+      "core_image": "清洁工把破纸箱和空瓶一并扫进桶里，等着运走烧掉",
       "chinese": [
-        "trash"
+        "垃圾",
+        "废物"
       ],
       "examples": [
-        "The trash changed the situation.",
-        "Researchers discussed the trash carefully."
+        "Put the trash out before eight.",
+        "That film is complete trash."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trash：从核心场景引出的常用义"
+        "垃圾：丢弃之物的通称",
+        "废物：一无用处的东西，也用来骂人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "travel",
@@ -162908,53 +162939,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 travel，现代词义按整体记",
-      "native_definition": "a thing or action related to travel",
-      "core_concept": "a clear scene connected with travel – 与该词相连的清晰场景",
+      "origin": "中古英语 travelen（艰苦跋涉）← 中古苏格兰语 travailen（劳作、行旅）← 古法语 travailler（受苦、劳累）；与 travail 同源",
+      "native_definition": "to go from one place to another, especially a distant one",
+      "core_concept": "moving oneself across a distance – 让自己越过一段距离",
       "core_image": "行李箱沿车站地面滚动，旅客朝远处的月台走去",
       "chinese": [
-        "travel"
+        "旅行",
+        "行进",
+        "传播"
       ],
       "examples": [
-        "The travel changed the situation.",
-        "Researchers discussed the travel carefully."
+        "They travel to Spain every summer.",
+        "Sound travels faster in water."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "travel：从核心场景引出的常用义"
+        "旅行：为游历或办事而远行",
+        "行进：单指从一处移到另一处",
+        "传播：把这种移动用到声、光、消息上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "treasure",
       "word": "treasure",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtreʒər/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 treasure，现代词义按整体记",
-      "native_definition": "a thing or action related to treasure",
-      "core_concept": "a clear scene connected with treasure – 与该词相连的清晰场景",
+      "origin": "中古英语 tresour ← 古法语 tresor（库藏）← 拉丁语 thesaurus ← 希腊语 thesauros（藏宝之屋）；取代了古英语 goldhord",
+      "native_definition": "valuable things collected and kept, or to value highly",
+      "core_concept": "things worth keeping safe, and the keeping of them – 值得收好的东西，以及收着它这件事",
       "core_image": "旧地图指向地下石室，打开箱盖后露出金属和宝石",
       "chinese": [
-        "treasure"
+        "财宝",
+        "珍宝",
+        "珍视"
       ],
       "examples": [
-        "The treasure changed the situation.",
-        "Researchers discussed the treasure carefully."
+        "Divers found treasure in the wreck.",
+        "She treasures her grandmother's ring."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "treasure：从核心场景引出的常用义"
+        "财宝：金银珠玉那类值钱之物",
+        "珍宝：其中格外珍贵的",
+        "珍视：把某物当宝贝一样看重"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tree",
@@ -162964,25 +163001,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tree，现代词义按整体记",
-      "native_definition": "a thing or action related to tree",
-      "core_concept": "a clear scene connected with tree – 与该词相连的清晰场景",
+      "origin": "中古英语 tre ← 古英语 trēow（树、木）← 原始日耳曼语 *trewą（树）← 原始印欧语 *dóru（树）；与 tar、true 同支",
+      "native_definition": "a tall plant with a woody trunk and branches",
+      "core_concept": "a tall plant whose woody trunk holds up spreading branches – 高大植物，木质干托着铺开的枝",
       "core_image": "粗树干从土里向上分出树枝，树冠铺在头顶",
       "chinese": [
-        "tree"
+        "树",
+        "树木"
       ],
       "examples": [
-        "The tree changed the situation.",
-        "Researchers discussed the tree carefully."
+        "An oak tree shaded the whole yard.",
+        "They planted trees along the road."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tree：从核心场景引出的常用义"
+        "树：单株的那种植物",
+        "树木：成片或泛指时的说法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tremble",
@@ -162992,25 +163030,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tremble，现代词义按整体记",
-      "native_definition": "a thing or action related to tremble",
-      "core_concept": "a clear scene connected with tremble – 与该词相连的清晰场景",
+      "origin": "中古英语 tremblen ← 古法语 trembler ← 晚期拉丁语 tremulare ← 拉丁语 tremō（发抖）← 原始印欧语 *trem-（抖）",
+      "native_definition": "to shake slightly and without control",
+      "core_concept": "shaking in small quick movements one cannot stop – 一下一下小而快地抖，止不住",
       "core_image": "玻璃杯中的水面细微颤动，桌子受到轻微震动",
       "chinese": [
-        "tremble"
+        "颤抖",
+        "发抖",
+        "微微震动"
       ],
       "examples": [
-        "The tremble changed the situation.",
-        "Researchers discussed the tremble carefully."
+        "His hands trembled as he signed.",
+        "The floor trembled when the lorry passed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tremble：从核心场景引出的常用义"
+        "颤抖：因怕或冷而抖",
+        "发抖：同义，更口语",
+        "微微震动：物体受扰而轻抖"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tremendous",
@@ -163020,25 +163061,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tremendous，现代词义按整体记",
-      "native_definition": "a thing or action related to tremendous",
-      "core_concept": "a clear scene connected with tremendous – 与该词相连的清晰场景",
+      "origin": "由拉丁语 tremendus（可怕的，tremō「发抖」的动形词）＋ -ous 构成；本义是「令人发抖的」",
+      "native_definition": "extremely large, or extremely good",
+      "core_concept": "so great that it once meant fearsome – 大到本义就是「让人发抖」",
       "core_image": "巨大的浪头越过堤岸，岸边的人抬头仰望",
       "chinese": [
-        "tremendous"
+        "极大的",
+        "惊人的",
+        "极好的"
       ],
       "examples": [
-        "The tremendous changed the situation.",
-        "Researchers discussed the tremendous carefully."
+        "The explosion made a tremendous noise.",
+        "She did a tremendous job."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tremendous：从核心场景引出的常用义"
+        "极大的：规模或程度远超寻常",
+        "惊人的：大到令人吃惊，本义正是「让人发抖」",
+        "极好的：口语里转为褒义，指好得出奇"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "trench",
@@ -163048,25 +163092,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trench，现代词义按整体记",
-      "native_definition": "a thing or action related to trench",
-      "core_concept": "a clear scene connected with trench – 与该词相连的清晰场景",
+      "origin": "中古英语借自古法语 trenche（切口、壕沟）← trenchier（切）；与 tranche 同源",
+      "native_definition": "a long narrow hole dug in the ground",
+      "core_concept": "a long narrow cut made down into the ground – 向地下切出的一道又长又窄的口",
       "core_image": "地面挖出一条又深又窄的沟，工人沿沟底铺管道",
       "chinese": [
-        "trench"
+        "沟",
+        "战壕"
       ],
       "examples": [
-        "The trench changed the situation.",
-        "Researchers discussed the trench carefully."
+        "Workers dug a trench for the pipe.",
+        "Soldiers sheltered in the trench."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trench：从核心场景引出的常用义"
+        "沟：挖出来的那道长窄凹槽",
+        "战壕：战时供人藏身的那种沟"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "trend",
@@ -163076,25 +163121,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trend，现代词义按整体记",
-      "native_definition": "a thing or action related to trend",
-      "core_concept": "a clear scene connected with trend – 与该词相连的清晰场景",
+      "origin": "中古英语 trenden（转动、滚转）← 古英语 trendan（转、绕）← 原始西日耳曼语 *trandijan（转）；与 trundle 同支",
+      "native_definition": "the general direction in which something is changing",
+      "core_concept": "the way things keep turning over time – 一段时间里事情持续转向的那个方向",
       "core_image": "图表上的线连续向上，几个日期的数值朝同一方向变化",
       "chinese": [
-        "trend"
+        "趋势",
+        "走向",
+        "潮流"
       ],
       "examples": [
-        "The trend changed the situation.",
-        "Researchers discussed the trend carefully."
+        "The trend in prices is upward.",
+        "Short hair is the current trend."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trend：从核心场景引出的常用义"
+        "趋势：变化所朝的大方向",
+        "走向：具体的走法与去向",
+        "潮流：一时流行的那个方向"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "trial",
@@ -163104,25 +163152,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trial，现代词义按整体记",
-      "native_definition": "a thing or action related to trial",
-      "core_concept": "a clear scene connected with trial – 与该词相连的清晰场景",
+      "origin": "中古英语 trial ← 盎格鲁诺曼语 trial ← 古法语 trier（挑选、甄别）＋ -al；与 try 同支",
+      "native_definition": "a formal examination in court, or a test of something",
+      "core_concept": "putting something to the test to sort out its worth – 把事物拿来试，以定其是非好坏",
       "core_image": "法庭上证人依次发言，法官翻看桌上的证据",
       "chinese": [
-        "trial"
+        "审判",
+        "试验",
+        "尝试"
       ],
       "examples": [
-        "The trial changed the situation.",
-        "Researchers discussed the trial carefully."
+        "The trial lasted three weeks.",
+        "We ran a trial before the launch."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trial：从核心场景引出的常用义"
+        "审判：法庭上审断是非",
+        "试验：先小规模试一次看结果",
+        "尝试：试着做一回"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "triangle",
@@ -163132,81 +163183,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 triangle，现代词义按整体记",
-      "native_definition": "a thing or action related to triangle",
-      "core_concept": "a clear scene connected with triangle – 与该词相连的清晰场景",
+      "origin": "中古英语 triangle ← 古法语 triangle ← 拉丁语 triangulum，由 trēs（三）＋ angulus（角）构成",
+      "native_definition": "a flat shape with three straight sides and three angles",
+      "core_concept": "a closed shape made by three straight sides – 三条直边围成的封闭形状",
       "core_image": "三条直线首尾相连，围出三个角和一块内部空间",
       "chinese": [
-        "triangle"
+        "三角形"
       ],
       "examples": [
-        "The triangle changed the situation.",
-        "Researchers discussed the triangle carefully."
+        "Draw a triangle with equal sides.",
+        "The sign is shaped like a triangle."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "triangle：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "trick",
       "word": "trick",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtrɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trick，现代词义按整体记",
-      "native_definition": "a thing or action related to trick",
-      "core_concept": "a clear scene connected with trick – 与该词相连的清晰场景",
+      "origin": "中古英语 trikke ← 诺曼法语 trique，与古法语 trichier（欺骗）同支；或出自中古高地德语 trechen（施诈），更早词源不明",
+      "native_definition": "a clever act meant to deceive or to entertain",
+      "core_concept": "a clever move that works because it is not seen through – 靠对方没看穿才成立的那一手",
       "core_image": "手帕下藏着一个物件，表演者掀开后观众才发现机关",
       "chinese": [
-        "trick"
+        "戏法",
+        "花招",
+        "欺骗"
       ],
       "examples": [
-        "The trick changed the situation.",
-        "Researchers discussed the trick carefully."
+        "He showed the children a card trick.",
+        "She saw through his tricks at once."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trick：从核心场景引出的常用义"
+        "戏法：为逗人看的那种巧技",
+        "花招：为占便宜使的那种手段",
+        "欺骗：使人上当这个行为"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "trifle",
       "word": "trifle",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtraɪfəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 trifle，现代词义按整体记",
-      "native_definition": "a thing or action related to trifle",
-      "core_concept": "a clear scene connected with trifle – 与该词相连的清晰场景",
+      "origin": "中古英语 trifle ← 古法语 trufle（嘲弄），是 truffe（欺哄）的变体，更早词源不明",
+      "native_definition": "something of very little importance",
+      "core_concept": "a thing too small to be worth weighing – 小到不值得称量的东西",
       "core_image": "大盘旁只放一小块甜点，显得轻巧而不重要",
       "chinese": [
-        "trifle"
+        "琐事",
+        "少量",
+        "轻视"
       ],
       "examples": [
-        "The trifle changed the situation.",
-        "Researchers discussed the trifle carefully."
+        "They quarrelled over a trifle.",
+        "Do not trifle with his patience."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "trifle：从核心场景引出的常用义"
+        "琐事：不值一提的小事",
+        "少量：微不足道的一点分量",
+        "轻视：把某事当琐事对待"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "trigger",
@@ -164668,7 +164722,7 @@
       "id": "understanding",
       "word": "understanding",
       "pos": "noun",
-      "phonetic": "/ʌndəˈstandɪŋ/",
+      "phonetic": "/ˌʌndəˈstændɪŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -166152,7 +166206,7 @@
       "id": "wax",
       "word": "wax",
       "pos": "noun",
-      "phonetic": "/waks/",
+      "phonetic": "/wæks/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
