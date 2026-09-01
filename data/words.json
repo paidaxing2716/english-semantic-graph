@@ -874,7 +874,7 @@
       ],
       "pos": "verb",
       "root_logic": "com-（一起）+ pose（放置）→ 把部分放到一起 → 组成/创作",
-      "phonetic": "/kəmˈpoʊz/",
+      "phonetic": "/kəmˈpəʊz/",
       "decomposable": "root"
     },
     {
@@ -918,7 +918,7 @@
       ],
       "pos": "verb",
       "root_logic": "ex-（向外）+ pose（放置）→ 放到外面 → 暴露/揭露",
-      "phonetic": "/ɪkˈspoʊz/",
+      "phonetic": "/ɪkˈspəʊz/",
       "decomposable": "root"
     },
     {
@@ -959,7 +959,7 @@
       ],
       "pos": "verb",
       "root_logic": "pro-（向前）+ pose（放置）→ 把想法放到前面 → 提议",
-      "phonetic": "/prəˈpoʊz/",
+      "phonetic": "/prəˈpəʊz/",
       "decomposable": "root",
       "recall_hint": "pro-（向前）+ pose（放置）→ 把想法推到众人面前"
     },
@@ -999,7 +999,7 @@
       ],
       "pos": "verb",
       "root_logic": "op-（对着）+ pose（放置）→ 放到对立面 → 反对",
-      "phonetic": "/əˈpoʊz/",
+      "phonetic": "/əˈpəʊz/",
       "decomposable": "root"
     },
     {
@@ -2206,7 +2206,7 @@
       "id": "impose",
       "word": "impose",
       "pos": "verb",
-      "phonetic": "/ɪmˈpoʊz/",
+      "phonetic": "/ɪmˈpəʊz/",
       "root_ids": [
         "ponere"
       ],
@@ -2375,7 +2375,7 @@
       "id": "omit",
       "word": "omit",
       "pos": "verb",
-      "phonetic": "/oʊˈmɪt/",
+      "phonetic": "/əʊˈmɪt/",
       "root_ids": [
         "mit-miss"
       ],
@@ -3062,7 +3062,7 @@
       "id": "dispose",
       "word": "dispose",
       "pos": "verb",
-      "phonetic": "/dɪˈspoʊz/",
+      "phonetic": "/dɪˈspəʊz/",
       "root_ids": [
         "ponere"
       ],
@@ -3104,7 +3104,7 @@
       "id": "suppose",
       "word": "suppose",
       "pos": "verb",
-      "phonetic": "/səˈpoʊz/",
+      "phonetic": "/səˈpəʊz/",
       "root_ids": [
         "ponere"
       ],
@@ -3435,7 +3435,7 @@
       "id": "proposal",
       "word": "proposal",
       "pos": "noun",
-      "phonetic": "/prəˈpoʊzl/",
+      "phonetic": "/prəˈpəʊzl/",
       "root_ids": [
         "ponere"
       ],
@@ -8548,7 +8548,7 @@
       "id": "motion",
       "word": "motion",
       "pos": "noun",
-      "phonetic": "/ˈmoʊʃn/",
+      "phonetic": "/ˈməʊʃn/",
       "decomposable": "root",
       "root_ids": [
         "mov"
@@ -8590,7 +8590,7 @@
       "id": "motive",
       "word": "motive",
       "pos": "noun",
-      "phonetic": "/ˈmoʊtɪv/",
+      "phonetic": "/ˈməʊtɪv/",
       "decomposable": "root",
       "root_ids": [
         "mov"
@@ -8627,7 +8627,7 @@
       "id": "motor",
       "word": "motor",
       "pos": "noun",
-      "phonetic": "/ˈmoʊtər/",
+      "phonetic": "/ˈməʊtə/",
       "decomposable": "root",
       "root_ids": [
         "mov"
@@ -10063,7 +10063,7 @@
       "id": "locate",
       "word": "locate",
       "pos": "verb",
-      "phonetic": "/ˈloʊkeɪt/",
+      "phonetic": "/ˈləʊkeɪt/",
       "decomposable": "root",
       "root_ids": [
         "loc"
@@ -10103,7 +10103,7 @@
       "id": "location",
       "word": "location",
       "pos": "noun",
-      "phonetic": "/loʊˈkeɪʃn/",
+      "phonetic": "/ləʊˈkeɪʃn/",
       "decomposable": "root",
       "root_ids": [
         "loc"
@@ -10142,7 +10142,7 @@
       "id": "local",
       "word": "local",
       "pos": "adjective",
-      "phonetic": "/ˈloʊkl/",
+      "phonetic": "/ˈləʊkl/",
       "decomposable": "root",
       "root_ids": [
         "loc"
@@ -10183,7 +10183,7 @@
       "id": "locality",
       "word": "locality",
       "pos": "noun",
-      "phonetic": "/loʊˈkæləti/",
+      "phonetic": "/ləʊˈkæləti/",
       "decomposable": "root",
       "root_ids": [
         "loc"
@@ -12654,7 +12654,7 @@
       "id": "pose",
       "word": "pose",
       "pos": "verb",
-      "phonetic": "/poʊz/",
+      "phonetic": "/pəʊz/",
       "decomposable": "root",
       "root_ids": [
         "ponere"
@@ -12696,7 +12696,7 @@
       "id": "opponent",
       "word": "opponent",
       "pos": "noun",
-      "phonetic": "/əˈpoʊnənt/",
+      "phonetic": "/əˈpəʊnənt/",
       "decomposable": "root",
       "root_ids": [
         "ponere"
@@ -12777,7 +12777,7 @@
       "id": "component",
       "word": "component",
       "pos": "noun",
-      "phonetic": "/kəmˈpoʊnənt/",
+      "phonetic": "/kəmˈpəʊnənt/",
       "decomposable": "root",
       "root_ids": [
         "ponere"
@@ -12894,7 +12894,7 @@
       "id": "disposal",
       "word": "disposal",
       "pos": "noun",
-      "phonetic": "/dɪˈspoʊzl/",
+      "phonetic": "/dɪˈspəʊzl/",
       "decomposable": "root",
       "root_ids": [
         "ponere"
@@ -12973,7 +12973,7 @@
       "id": "exposure",
       "word": "exposure",
       "pos": "noun",
-      "phonetic": "/ɪkˈspoʊʒər/",
+      "phonetic": "/ɪkˈspəʊʒə/",
       "decomposable": "root",
       "root_ids": [
         "ponere"
@@ -13889,7 +13889,7 @@
       "id": "close",
       "word": "close",
       "pos": "verb",
-      "phonetic": "/kloʊz/",
+      "phonetic": "/kləʊz/",
       "decomposable": "root",
       "root_ids": [
         "clud"
@@ -13934,7 +13934,7 @@
       "id": "disclose",
       "word": "disclose",
       "pos": "verb",
-      "phonetic": "/dɪsˈkloʊz/",
+      "phonetic": "/dɪsˈkləʊz/",
       "decomposable": "root",
       "root_ids": [
         "clud"
@@ -13975,7 +13975,7 @@
       "id": "enclose",
       "word": "enclose",
       "pos": "verb",
-      "phonetic": "/ɪnˈkloʊz/",
+      "phonetic": "/ɪnˈkləʊz/",
       "decomposable": "root",
       "root_ids": [
         "clud"
@@ -14014,7 +14014,7 @@
       "id": "enclosure",
       "word": "enclosure",
       "pos": "noun",
-      "phonetic": "/ɪnˈkloʊʒər/",
+      "phonetic": "/ɪnˈkləʊʒə/",
       "decomposable": "root",
       "root_ids": [
         "clud"
@@ -14408,7 +14408,7 @@
       "id": "sociable",
       "word": "sociable",
       "pos": "adjective",
-      "phonetic": "/ˈsoʊʃəbl/",
+      "phonetic": "/ˈsəʊʃəbl/",
       "decomposable": "root",
       "root_ids": [
         "socius"
@@ -14447,7 +14447,7 @@
       "id": "associate",
       "word": "associate",
       "pos": "verb",
-      "phonetic": "/əˈsoʊʃieɪt/",
+      "phonetic": "/əˈsəʊʃieɪt/",
       "decomposable": "root",
       "root_ids": [
         "socius"
@@ -14488,7 +14488,7 @@
       "id": "association",
       "word": "association",
       "pos": "noun",
-      "phonetic": "/əˌsoʊsiˈeɪʃn/",
+      "phonetic": "/əˌsəʊsiˈeɪʃn/",
       "decomposable": "root",
       "root_ids": [
         "socius"
@@ -14528,7 +14528,7 @@
       "id": "social",
       "word": "social",
       "pos": "adjective",
-      "phonetic": "/ˈsoʊʃl/",
+      "phonetic": "/ˈsəʊʃl/",
       "decomposable": "root",
       "root_ids": [
         "socius"
@@ -17193,7 +17193,7 @@
       "id": "during",
       "word": "during",
       "pos": "preposition",
-      "phonetic": "/ˈdʊrɪŋ/",
+      "phonetic": "/ˈdjʊərɪŋ/",
       "decomposable": "root",
       "root_ids": [
         "durare"
@@ -28919,7 +28919,7 @@
       "id": "probe",
       "word": "probe",
       "pos": "noun / verb",
-      "phonetic": "/proʊb/",
+      "phonetic": "/prəʊb/",
       "decomposable": "root",
       "root_ids": [
         "prob"
@@ -140022,7 +140022,7 @@
       "id": "petroleum",
       "word": "petroleum",
       "pos": "noun",
-      "phonetic": "/pəˈtroʊliəm/",
+      "phonetic": "/pəˈtrəʊliəm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -148979,7 +148979,7 @@
       "id": "shut",
       "word": "shut",
       "pos": "verb",
-      "phonetic": "/ʃʊt/",
+      "phonetic": "/ʃʌt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -150330,7 +150330,7 @@
       "id": "skull",
       "word": "skull",
       "pos": "noun",
-      "phonetic": "/skʊl/",
+      "phonetic": "/skʌl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -156493,7 +156493,7 @@
       "id": "stumble",
       "word": "stumble",
       "pos": "verb",
-      "phonetic": "/ˈstʊmbəl/",
+      "phonetic": "/ˈstʌmbəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -156524,7 +156524,7 @@
       "id": "stun",
       "word": "stun",
       "pos": "verb",
-      "phonetic": "/stʊn/",
+      "phonetic": "/stʌn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -157060,7 +157060,7 @@
       "id": "sun",
       "word": "sun",
       "pos": "noun",
-      "phonetic": "/sʊn/",
+      "phonetic": "/sʌn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -160615,7 +160615,7 @@
       "id": "thrust",
       "word": "thrust",
       "pos": "noun / verb",
-      "phonetic": "/θrʊst/",
+      "phonetic": "/θrʌst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -161416,7 +161416,7 @@
       "id": "today",
       "word": "today",
       "pos": "adverb",
-      "phonetic": "/tʊˈdeɪ/",
+      "phonetic": "/təˈdeɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -161474,7 +161474,7 @@
       "id": "together",
       "word": "together",
       "pos": "adverb",
-      "phonetic": "/tʊˈɡeð.ə/",
+      "phonetic": "/təˈɡeðə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -163490,7 +163490,7 @@
       "id": "trouble",
       "word": "trouble",
       "pos": "noun",
-      "phonetic": "/ˈtʃrʌbəl/",
+      "phonetic": "/ˈtrʌbəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -163686,7 +163686,7 @@
       "id": "trust",
       "word": "trust",
       "pos": "noun",
-      "phonetic": "/trʊst/",
+      "phonetic": "/trʌst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -163770,7 +163770,7 @@
       "id": "tub",
       "word": "tub",
       "pos": "noun",
-      "phonetic": "/tʊb/",
+      "phonetic": "/tʌb/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -163798,7 +163798,7 @@
       "id": "tube",
       "word": "tube",
       "pos": "noun",
-      "phonetic": "/tuːb/",
+      "phonetic": "/tjuːb/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -163826,7 +163826,7 @@
       "id": "tuck",
       "word": "tuck",
       "pos": "verb",
-      "phonetic": "/tʊk/",
+      "phonetic": "/tʌk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -163910,7 +163910,7 @@
       "id": "tumble",
       "word": "tumble",
       "pos": "noun",
-      "phonetic": "/ˈtʊmbl/",
+      "phonetic": "/ˈtʌmbl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
