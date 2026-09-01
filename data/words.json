@@ -16482,7 +16482,7 @@
       "id": "appear",
       "word": "appear",
       "pos": "verb",
-      "phonetic": "/əˈpɪr/",
+      "phonetic": "/əˈpɪə/",
       "decomposable": "root",
       "root_ids": [
         "apparere"
@@ -16523,7 +16523,7 @@
       "id": "appearance",
       "word": "appearance",
       "pos": "noun",
-      "phonetic": "/əˈpɪrəns/",
+      "phonetic": "/əˈpɪərəns/",
       "decomposable": "root",
       "root_ids": [
         "apparere"
@@ -16562,7 +16562,7 @@
       "id": "disappear",
       "word": "disappear",
       "pos": "verb",
-      "phonetic": "/ˌdɪsəˈpɪr/",
+      "phonetic": "/ˌdɪsəˈpɪə/",
       "decomposable": "root",
       "root_ids": [
         "apparere"
@@ -30340,7 +30340,7 @@
       "id": "pair",
       "word": "pair",
       "pos": "noun / verb",
-      "phonetic": "/per/",
+      "phonetic": "/peə/",
       "decomposable": "root",
       "root_ids": [
         "par-equal"
@@ -30376,7 +30376,7 @@
       "id": "repair",
       "word": "repair",
       "pos": "verb / noun",
-      "phonetic": "/rɪˈper/",
+      "phonetic": "/rɪˈpeə/",
       "decomposable": "root",
       "root_ids": [
         "parare"
