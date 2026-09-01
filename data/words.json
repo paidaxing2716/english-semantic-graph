@@ -157892,81 +157892,90 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swim，现代词义按整体记",
-      "native_definition": "a thing or action related to swim",
-      "core_concept": "a clear scene connected with swim – 与该词相连的清晰场景",
+      "origin": "中古英语 swymmen ← 古英语 swimman（游、浮）← 原始日耳曼语 *swimmaną（游）← 原始印欧语 *swem-（晃动、移动、游）",
+      "native_definition": "to move through water using the arms and legs",
+      "core_concept": "moving oneself through water without touching bottom – 不着底，靠自身动作在水里前进",
       "core_image": "手臂划过泳池，身体在水面连续向前",
       "chinese": [
-        "swim"
+        "游泳",
+        "游",
+        "漂浮"
       ],
       "examples": [
-        "The swim changed the situation.",
-        "Researchers discussed the swim carefully."
+        "She swims twice a week.",
+        "The dog swam to the far bank."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swim：从核心场景引出的常用义"
+        "游泳：把这件事当运动说",
+        "游：单指在水中行进这个动作",
+        "漂浮：不使力也能停在水面这一层"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swing",
       "word": "swing",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈswɪŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swing，现代词义按整体记",
-      "native_definition": "a thing or action related to swing",
-      "core_concept": "a clear scene connected with swing – 与该词相连的清晰场景",
+      "origin": "中古英语 swyngen ← 古英语 swingan（挥、甩）← 原始日耳曼语 *swinganą ← 原始印欧语 *sweng-（弯、挥）",
+      "native_definition": "to move back and forth while hanging from a fixed point",
+      "core_concept": "hanging from one point and travelling in an arc – 一端固定，另一端划着弧来回走",
       "core_image": "秋千从一侧荡到另一侧，绳子在横梁下摆动",
       "chinese": [
-        "swing"
+        "摇荡",
+        "挥动",
+        "转变"
       ],
       "examples": [
-        "The swing changed the situation.",
-        "Researchers discussed the swing carefully."
+        "The gate swung open in the wind.",
+        "He swung the axe over his shoulder."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swing：从核心场景引出的常用义"
+        "摇荡：吊着的东西来回划弧",
+        "挥动：手臂或器物划出同样的弧",
+        "转变：立场像挂着的东西那样倒向另一边"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "switch",
       "word": "switch",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/swɪtʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 switch，现代词义按整体记",
-      "native_definition": "a thing or action related to switch",
-      "core_concept": "a clear scene connected with switch – 与该词相连的清晰场景",
+      "origin": "英语 switch 或借自中古荷兰语 swijch（细枝），1592 年前后始见；「扳动装置」义 1797 年始见，本指矿车木轨上可转动的活轨",
+      "native_definition": "a device for turning something on or off, or a change from one thing to another",
+      "core_concept": "a small movement that sends things down another path – 一个小动作，把去向换到另一条路上",
       "core_image": "铁路道岔被扳到另一侧，列车改变前进路线",
       "chinese": [
-        "switch"
+        "开关",
+        "转换",
+        "调换"
       ],
       "examples": [
-        "The switch changed the situation.",
-        "Researchers discussed the switch carefully."
+        "He flicked the switch and the room went dark.",
+        "They made a switch to cheaper suppliers."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "switch：从核心场景引出的常用义"
+        "开关：扳一下就通断电流的装置",
+        "转换：从一种状态改到另一种",
+        "调换：把两者的位置对换"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "源头在日耳曼语支，经法语回流入英语，本项目未为其词族建根"
     },
     {
       "id": "sword",
@@ -157976,25 +157985,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sword，现代词义按整体记",
-      "native_definition": "a thing or action related to sword",
-      "core_concept": "a clear scene connected with sword – 与该词相连的清晰场景",
+      "origin": "中古英语 sword ← 古英语 sweord ← 原始日耳曼语 *swerdą（剑），或出自原始印欧语 *seh₂w-（锐利）",
+      "native_definition": "a weapon with a long metal blade and a handle",
+      "core_concept": "a long blade held by a hilt, made for cutting and thrusting – 带柄的长刃，用来劈与刺",
       "core_image": "金属长刃挂在墙上，灯光沿刃口反射",
       "chinese": [
-        "sword"
+        "剑",
+        "刀剑"
       ],
       "examples": [
-        "The sword changed the situation.",
-        "Researchers discussed the sword carefully."
+        "He drew his sword from its sheath.",
+        "The museum displays medieval swords."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sword：从核心场景引出的常用义"
+        "剑：两面开刃的那种长兵",
+        "刀剑：连着刀一起说的通称"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "symbol",
@@ -158004,25 +158014,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 symbol，现代词义按整体记",
-      "native_definition": "a thing or action related to symbol",
-      "core_concept": "a clear scene connected with symbol – 与该词相连的清晰场景",
+      "origin": "借自法语 symbole ← 拉丁语 symbolum（记号、凭信）← 希腊语 symbolon（借以推知之物），由 syn-（一同）＋ ballo（投、放）构成，本指两半合验的凭证",
+      "native_definition": "a mark or thing that stands for something else",
+      "core_concept": "one thing put in place of another to point at it – 拿一物代另一物，用来指认它",
       "core_image": "旗帜中央画着一个图案，代表某个组织",
       "chinese": [
-        "symbol"
+        "符号",
+        "象征",
+        "标志"
       ],
       "examples": [
-        "The symbol changed the situation.",
-        "Researchers discussed the symbol carefully."
+        "The dove is a symbol of peace.",
+        "Each element has a chemical symbol."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "symbol：从核心场景引出的常用义"
+        "符号：约定用来代表某物的记号",
+        "象征：所代表的是抽象之义，如和平",
+        "标志：代表某个组织或身份的那个记号"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "symposium",
@@ -158032,25 +158045,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 symposium，现代词义按整体记",
-      "native_definition": "a thing or action related to symposium",
-      "core_concept": "a clear scene connected with symposium – 与该词相连的清晰场景",
+      "origin": "借自拉丁语 symposium ← 希腊语 symposion（宴饮聚会），由 syn-（一同）＋ pino（饮）构成，古希腊人在酒会上论学",
+      "native_definition": "a formal meeting at which experts discuss a particular subject",
+      "core_concept": "a gathering held so that specialists can talk one subject through – 专为把一个题目谈透而聚的会",
       "core_image": "学者围坐长桌轮流发言，桌上摆着研究资料",
       "chinese": [
-        "symposium"
+        "专题研讨会",
+        "座谈会"
       ],
       "examples": [
-        "The symposium changed the situation.",
-        "Researchers discussed the symposium carefully."
+        "She presented a paper at the symposium.",
+        "The symposium ran for three days."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "symposium：从核心场景引出的常用义"
+        "专题研讨会：围绕一个题目、有备而来的会",
+        "座谈会：形式更松，与会者轮流发言"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "symptom",
@@ -158060,25 +158074,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 symptom，现代词义按整体记",
-      "native_definition": "a thing or action related to symptom",
-      "core_concept": "a clear scene connected with symptom – 与该词相连的清晰场景",
+      "origin": "中古英语 sinthoma ← 中世纪拉丁语 sinthoma ← 晚期拉丁语 symptoma ← 希腊语 symptoma（一同落下之事），由 syn-（一同）＋ pipto（落下）构成",
+      "native_definition": "a sign of illness that a patient notices or shows",
+      "core_concept": "an outward sign that comes along with the illness itself – 随病一同出现、显在外面的那个迹象",
       "core_image": "病人记录体温和咳嗽变化，医生在表格上圈出异常",
       "chinese": [
-        "symptom"
+        "症状",
+        "征兆"
       ],
       "examples": [
-        "The symptom changed the situation.",
-        "Researchers discussed the symptom carefully."
+        "A high fever is the first symptom.",
+        "Ignoring early symptoms can be risky."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "symptom：从核心场景引出的常用义"
+        "症状：病在身上显出的表现",
+        "征兆：把这层推广开，指任何事将发的先兆"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "syndrome",
@@ -158088,25 +158103,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 syndrome，现代词义按整体记",
-      "native_definition": "a thing or action related to syndrome",
-      "core_concept": "a clear scene connected with syndrome – 与该词相连的清晰场景",
+      "origin": "借自新拉丁语 syndrome ← 希腊语 syndrome（一同奔集），由 syn-（一同）＋ dromos（跑）构成",
+      "native_definition": "a set of symptoms that regularly occur together",
+      "core_concept": "several signs that keep turning up together, so they are named as one – 几个迹象总是一齐来，于是合起来给一个名",
       "core_image": "几种症状同时出现，医生把它们归在同一组",
       "chinese": [
-        "syndrome"
+        "综合症",
+        "一组并发表现"
       ],
       "examples": [
-        "The syndrome changed the situation.",
-        "Researchers discussed the syndrome carefully."
+        "Doctors named the syndrome after him.",
+        "The syndrome affects sleep and appetite."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "syndrome：从核心场景引出的常用义"
+        "综合症：作为病名的那一组表现",
+        "一组并发表现：强调它们同时出现这一点"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "system",
@@ -158116,25 +158132,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 system，现代词义按整体记",
-      "native_definition": "a thing or action related to system",
-      "core_concept": "a clear scene connected with system – 与该词相连的清晰场景",
+      "origin": "部分借自中古法语 systeme，部分直接取自晚期拉丁语 systema ← 希腊语 systema（组织起来的整体），由 syn-（一同）＋ histemi（立）构成",
+      "native_definition": "a set of connected parts that work together as a whole",
+      "core_concept": "parts joined so that they act as one working whole – 各部分接在一起，合成一个能运转的整体",
       "core_image": "许多齿轮和管道彼此连接，依次完成一项工作",
       "chinese": [
-        "system"
+        "系统",
+        "体系",
+        "制度"
       ],
       "examples": [
-        "The system changed the situation.",
-        "Researchers discussed the system carefully."
+        "The heating system broke down last night.",
+        "He knows the legal system well."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "system：从核心场景引出的常用义"
+        "系统：各部件相连、协同运转的那一整套",
+        "体系：把这层用到知识或理论上",
+        "制度：把它用到人事的规程上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "systematic",
@@ -158144,25 +158163,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 systematic，现代词义按整体记",
-      "native_definition": "a thing or action related to systematic",
-      "core_concept": "a clear scene connected with systematic – 与该词相连的清晰场景",
+      "origin": "借自晚期拉丁语 systematicus ← 通用希腊语 systematikos ← systema（组织起来的整体）＋ 形容词后缀 -ikos",
+      "native_definition": "done according to a fixed plan or method, step by step",
+      "core_concept": "following a set order instead of going at random – 照定好的次序来，不东一下西一下",
       "core_image": "文件按编号和步骤排列，每一项都被逐格检查",
       "chinese": [
-        "systematic"
+        "系统的",
+        "有条理的"
       ],
       "examples": [
-        "The systematic changed the situation.",
-        "Researchers discussed the systematic carefully."
+        "They made a systematic search of the building.",
+        "Her notes are systematic and easy to follow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "systematic：从核心场景引出的常用义"
+        "系统的：按整体规划逐项推进",
+        "有条理的：条目分明，先后清楚"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "table",
@@ -158172,25 +158192,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 table，现代词义按整体记",
-      "native_definition": "a thing or action related to table",
-      "core_concept": "a clear scene connected with table – 与该词相连的清晰场景",
+      "origin": "中古英语 table ← 古英语 tabule ← 拉丁语 tabula（板、木牌、图表），经日耳曼语支早期借入；「家具」一义另经古法语 table 传入",
+      "native_definition": "a piece of furniture with a flat top on legs, or facts arranged in rows",
+      "core_concept": "a flat board held up so things can be set out on it – 撑起来的一块平板，东西摊在上面",
       "core_image": "四条腿托住平面桌板，杯子和书整齐放在上面",
       "chinese": [
-        "table"
+        "桌子",
+        "表格",
+        "搁置"
       ],
       "examples": [
-        "The table changed the situation.",
-        "Researchers discussed the table carefully."
+        "They sat around the kitchen table.",
+        "The table shows rainfall by month."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "table：从核心场景引出的常用义"
+        "桌子：那件家具本身",
+        "表格：把数字摊在平面上按行列排开，同是一块平板",
+        "搁置：把议案先放到台面上不议，引申为暂缓"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tablet",
@@ -158200,53 +158223,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tablet，现代词义按整体记",
-      "native_definition": "a thing or action related to tablet",
-      "core_concept": "a clear scene connected with tablet – 与该词相连的清晰场景",
+      "origin": "中古英语 tablet ← 古法语 tablete，是 table（板）的指小形 ← 拉丁语 tabula（板）",
+      "native_definition": "a small flat piece of medicine, or a flat portable computer",
+      "core_concept": "a small flat slab you hold in the hand – 手里拿得住的一小块平板",
       "core_image": "一块薄屏幕躺在手中，手指在表面滑动",
       "chinese": [
-        "tablet"
+        "药片",
+        "平板电脑",
+        "石板"
       ],
       "examples": [
-        "The tablet changed the situation.",
-        "Researchers discussed the tablet carefully."
+        "Take one tablet after each meal.",
+        "She reads the news on her tablet."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tablet：从核心场景引出的常用义"
+        "药片：压成扁片的药",
+        "平板电脑：整机就是一块可握的平板",
+        "石板：古时刻字用的那种小平板"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tackle",
       "word": "tackle",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈtækəl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tackle，现代词义按整体记",
-      "native_definition": "a thing or action related to tackle",
-      "core_concept": "a clear scene connected with tackle – 与该词相连的清晰场景",
+      "origin": "中古英语 takel（索具、装备）← 中古荷兰语／中古低地德语 takel（船上索具），或与 taken（抓、取）相关",
+      "native_definition": "to deal with a difficult task, or to bring down an opponent in sport",
+      "core_concept": "getting a firm hold on something in order to deal with it – 先抓住，然后处置",
       "core_image": "球员扑向持球者，把对方稳稳拦住",
       "chinese": [
-        "tackle"
+        "应对",
+        "擒抱",
+        "器具"
       ],
       "examples": [
-        "The tackle changed the situation.",
-        "Researchers discussed the tackle carefully."
+        "She tackled the problem head on.",
+        "He tackled the striker just outside the box."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tackle：从核心场景引出的常用义"
+        "应对：把难题抓在手里去办",
+        "擒抱：球场上抱住对手使其停下",
+        "器具：本义是船上那套索具，泛指成套家伙"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tactic",
@@ -158256,25 +158285,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tactic，现代词义按整体记",
-      "native_definition": "a thing or action related to tactic",
-      "core_concept": "a clear scene connected with tactic – 与该词相连的清晰场景",
+      "origin": "借自新拉丁语 tactica ← 希腊语 taktikos（善于排布的）← tasso（排列、部署）",
+      "native_definition": "a particular method used to achieve something in the short term",
+      "core_concept": "the particular move chosen to gain an advantage now – 为眼下取胜而选定的那一手",
       "core_image": "棋手在棋盘旁标出下一步和应对路线",
       "chinese": [
-        "tactic"
+        "战术",
+        "策略"
       ],
       "examples": [
-        "The tactic changed the situation.",
-        "Researchers discussed the tactic carefully."
+        "Changing tactics won them the match.",
+        "Delay is a common negotiating tactic."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tactic：从核心场景引出的常用义"
+        "战术：具体一仗一局里的打法",
+        "策略：泛指为达目的采用的路数"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tag",
@@ -158284,53 +158314,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tag，现代词义按整体记",
-      "native_definition": "a thing or action related to tag",
-      "core_concept": "a clear scene connected with tag – 与该词相连的清晰场景",
+      "origin": "中古英语 tagge（衣物上垂下的小片），或出自北日耳曼语支；比较挪威语 tagg（尖、刺）、瑞典语 tagg（刺）",
+      "native_definition": "a small piece of paper or cloth attached to something to give information",
+      "core_concept": "a small piece fixed on to tell you what a thing is – 挂上去的一小片，用来说明这东西是什么",
       "core_image": "衣服边缘缝着小标签，上面写着尺码和价格",
       "chinese": [
-        "tag"
+        "吊牌",
+        "标记",
+        "附注"
       ],
       "examples": [
-        "The tag changed the situation.",
-        "Researchers discussed the tag carefully."
+        "The price tag was still on the coat.",
+        "Each file is tagged with a date."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tag：从核心场景引出的常用义"
+        "吊牌：挂在商品上写着价钱尺码的那片",
+        "标记：给东西加上可辨认的记号",
+        "附注：在原有内容后添上的一小段说明"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tail",
       "word": "tail",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈteɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tail，现代词义按整体记",
-      "native_definition": "a thing or action related to tail",
-      "core_concept": "a clear scene connected with tail – 与该词相连的清晰场景",
-      "core_image": "动物转身时尾巴在身后扫过草地",
+      "origin": "中古英语 tail ← 古英语 tæġl ← 原始日耳曼语 *taglą（毛、尾毛）← 原始印欧语 *doḱ-（尾上的毛）",
+      "native_definition": "the part of an animal that sticks out at the back end",
+      "core_concept": "the part that trails at the back end – 拖在最后端的那一截",
+      "core_image": "动物一转身，身后那条毛茸茸的长条就扫过草面",
       "chinese": [
-        "tail"
+        "尾部",
+        "末端",
+        "跟踪"
       ],
       "examples": [
-        "The tail changed the situation.",
-        "Researchers discussed the tail carefully."
+        "The cat's tail twitched once.",
+        "Police tailed the van for an hour."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tail：从核心场景引出的常用义"
+        "尾部：动物身后伸出的那一段",
+        "末端：把这层用到物件上，指最后那一头",
+        "跟踪：一直缀在人后面，像尾巴那样甩不掉"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tale",
@@ -158340,25 +158376,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tale，现代词义按整体记",
-      "native_definition": "a thing or action related to tale",
-      "core_concept": "a clear scene connected with tale – 与该词相连的清晰场景",
+      "origin": "中古英语 tale ← 古英语 talu（叙述、计数）← 原始日耳曼语 *talō（计算、数目）← 原始印欧语 *del-（数、算）；与 tell、talk 同支",
+      "native_definition": "a story, especially one that is old or made up",
+      "core_concept": "a story told from one person to the next – 一个人讲给另一个人、这样传下来的故事",
       "core_image": "书页按时间讲完一段人物经历，最后合上书",
       "chinese": [
-        "tale"
+        "故事",
+        "传说"
       ],
       "examples": [
-        "The tale changed the situation.",
-        "Researchers discussed the tale carefully."
+        "He told us a tale of shipwreck.",
+        "Local tales say the well never dries."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tale：从核心场景引出的常用义"
+        "故事：讲出来的一段情事",
+        "传说：口耳相传、年头已久的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "talent",
@@ -158368,25 +158405,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 talent，现代词义按整体记",
-      "native_definition": "a thing or action related to talent",
-      "core_concept": "a clear scene connected with talent – 与该词相连的清晰场景",
+      "origin": "中古英语 talent ← 古英语 talente，借自拉丁语 talentum（希腊的一种重量与钱币单位）← 希腊语 talanton（天平、一定的重量）；「天资」义出自圣经银子的比喻",
+      "native_definition": "a natural ability to do something well",
+      "core_concept": "an ability one is born with rather than taught – 生来就有、不是学来的那份能力",
       "core_image": "孩子在舞台上演奏，观众听出与众不同的天分",
       "chinese": [
-        "talent"
+        "才能",
+        "天赋",
+        "人才"
       ],
       "examples": [
-        "The talent changed the situation.",
-        "Researchers discussed the talent carefully."
+        "She has a real talent for languages.",
+        "The team is short of young talent."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "talent：从核心场景引出的常用义"
+        "才能：能做好某事的本事",
+        "天赋：强调这本事得自天生",
+        "人才：把这份本事落到具体的人身上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "talk",
@@ -158396,25 +158436,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 talk，现代词义按整体记",
-      "native_definition": "a thing or action related to talk",
-      "core_concept": "a clear scene connected with talk – 与该词相连的清晰场景",
+      "origin": "中古英语 talken ← 古英语 *tealcian（谈、闲话）← 原始日耳曼语 *talkōną（说、闲谈），是 *talōną（数、述）的反复体；与 tell 同支",
+      "native_definition": "to say things to someone as part of a conversation",
+      "core_concept": "putting words back and forth between people – 话在人与人之间来回递",
       "core_image": "两个人隔着桌子轮流说话，彼此认真听着",
       "chinese": [
-        "talk"
+        "交谈",
+        "谈论",
+        "演讲"
       ],
       "examples": [
-        "The talk changed the situation.",
-        "Researchers discussed the talk carefully."
+        "They talked for an hour about the plan.",
+        "He gave a talk on bird migration."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "talk：从核心场景引出的常用义"
+        "交谈：两人以上互相说与听",
+        "谈论：把话题落到某一件事上",
+        "演讲：一人对众人成段地说"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tall",
@@ -158424,81 +158467,88 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tall，现代词义按整体记",
-      "native_definition": "a thing or action related to tall",
-      "core_concept": "a clear scene connected with tall – 与该词相连的清晰场景",
+      "origin": "中古英语 tal（体面的、出色的）← 古英语 ġetæl（敏捷的、有把握的）← 原始日耳曼语 *talaz ← 原始印欧语 *del-（数、量）；词义几经转折才落到「高」上",
+      "native_definition": "having greater than average height",
+      "core_concept": "measuring more from bottom to top than most – 从下到上量起来比多数都长",
       "core_image": "高塔从低矮房屋之间向上伸出",
       "chinese": [
-        "tall"
+        "高的",
+        "个子高的"
       ],
       "examples": [
-        "The tall changed the situation.",
-        "Researchers discussed the tall carefully."
+        "He is tall enough to reach the shelf.",
+        "A tall hedge hid the garden."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tall：从核心场景引出的常用义"
+        "高的：物体的竖向尺寸大",
+        "个子高的：专说人的身高"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tame",
       "word": "tame",
-      "pos": "adjective",
+      "pos": "adjective / verb",
       "phonetic": "/teɪm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tame，现代词义按整体记",
-      "native_definition": "a thing or action related to tame",
-      "core_concept": "a clear scene connected with tame – 与该词相连的清晰场景",
+      "origin": "中古英语 tame ← 古英语 tam（已驯的）← 原始日耳曼语 *tamaz（被带进家中的）← 原始印欧语 *demh₂-（驯服、制服）",
+      "native_definition": "no longer wild, used to being near people",
+      "core_concept": "brought in close enough to people to stop fearing them – 与人处得够近，不再怕人",
       "core_image": "饲养者伸手靠近，原本警惕的动物安静下来",
       "chinese": [
-        "tame"
+        "驯服的",
+        "温顺的",
+        "使驯化"
       ],
       "examples": [
-        "The tame changed the situation.",
-        "Researchers discussed the tame carefully."
+        "The deer here are surprisingly tame.",
+        "It took months to tame the young horse."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tame：从核心场景引出的常用义"
+        "驯服的：野性已去，肯听人摆布",
+        "温顺的：性子和顺，不抵触",
+        "使驯化：把野的变成这样这个过程"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tan",
       "word": "tan",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/tæn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tan，现代词义按整体记",
-      "native_definition": "a thing or action related to tan",
-      "core_concept": "a clear scene connected with tan – 与该词相连的清晰场景",
+      "origin": "中古英语 tan ← 古法语 tan（鞣皮用的树皮）← 高卢语 *tannos（青槠），更早词源不明；动词「鞣制」← 古英语晚期 tannian ← 拉丁语 tannare",
+      "native_definition": "to become brown from the sun, or the brown colour this gives",
+      "core_concept": "turning a hide or skin brown and tough – 把皮变成褐色、也变得更韧",
       "core_image": "皮肤在日光下逐渐变深，手腕表带下仍留着浅色",
       "chinese": [
-        "tan"
+        "晒黑",
+        "棕褐色",
+        "鞣制"
       ],
       "examples": [
-        "The tan changed the situation.",
-        "Researchers discussed the tan carefully."
+        "His arms tanned quickly in the sun.",
+        "The workshop tans hides by hand."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tan：从核心场景引出的常用义"
+        "晒黑：日光把皮肤晒成褐色",
+        "棕褐色：那种颜色本身",
+        "鞣制：用树皮汁把生皮做成革，本义在此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tangle",
@@ -158508,25 +158558,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tangle，现代词义按整体记",
-      "native_definition": "a thing or action related to tangle",
-      "core_concept": "a clear scene connected with tangle – 与该词相连的清晰场景",
+      "origin": "中古英语 tanglen，或出自北日耳曼语支；比较瑞典语 taggla（弄乱）、古诺尔斯语 þang（海藻，纠成一团者）",
+      "native_definition": "to twist together into a confused mass",
+      "core_concept": "strands crossing each other until no end can be found – 几条互相穿绕，找不出哪是头",
       "core_image": "几根耳机线互相缠住，手指难以找到其中一端",
       "chinese": [
-        "tangle"
+        "缠结",
+        "纠缠",
+        "乱成一团"
       ],
       "examples": [
-        "The tangle changed the situation.",
-        "Researchers discussed the tangle carefully."
+        "The wires tangled behind the desk.",
+        "Do not get tangled in their dispute."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tangle：从核心场景引出的常用义"
+        "缠结：几股绞在一起解不开",
+        "纠缠：把这层用到人事上，脱不了身",
+        "乱成一团：强调结果的杂乱"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tank",
@@ -158536,25 +158589,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tank，现代词义按整体记",
-      "native_definition": "a thing or action related to tank",
-      "core_concept": "a clear scene connected with tank – 与该词相连的清晰场景",
+      "origin": "借自葡萄牙语 tanque（水池、盛液容器）← 印度语言，或古吉拉特语 tanki（蓄水池）；「装甲车」义 1915 年造，当时为掩其用途谎称是运水容器",
+      "native_definition": "a large container for liquid or gas, or an armoured fighting vehicle",
+      "core_concept": "a large closed container that holds what would otherwise run out – 大而封闭的容器，装住本会流走的东西",
       "core_image": "厚壁容器里装满液体，顶部留着检修口",
       "chinese": [
-        "tank"
+        "储罐",
+        "水箱",
+        "坦克"
       ],
       "examples": [
-        "The tank changed the situation.",
-        "Researchers discussed the tank carefully."
+        "The water tank holds two thousand litres.",
+        "Tanks rolled across the open ground."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tank：从核心场景引出的常用义"
+        "储罐：装液体或气体的大容器",
+        "水箱：专装水的那种",
+        "坦克：一战时为掩护其真用途，谎称是运水容器，名字就留下了"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tanker",
@@ -158564,53 +158620,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tanker，现代词义按整体记",
-      "native_definition": "a thing or action related to tanker",
-      "core_concept": "a clear scene connected with tanker – 与该词相连的清晰场景",
+      "origin": "由 tank ＋ -er 构成；tank 一支 ← 葡萄牙语 tanque（水池）← 印度语言",
+      "native_definition": "a ship, lorry, or aircraft built to carry liquid in bulk",
+      "core_concept": "a vehicle whose body is one large container for liquid – 车身或船身本身就是一个装液体的大容器",
       "core_image": "大型船舱运载液体，沿港口缓慢靠岸",
       "chinese": [
-        "tanker"
+        "油轮",
+        "罐车"
       ],
       "examples": [
-        "The tanker changed the situation.",
-        "Researchers discussed the tanker carefully."
+        "The tanker docked at the oil terminal.",
+        "A milk tanker collects from each farm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tanker：从核心场景引出的常用义"
+        "油轮：运原油或油品的那种船",
+        "罐车：陆上运液体的那种车"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tap",
       "word": "tap",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/tæp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tap，现代词义按整体记",
-      "native_definition": "a thing or action related to tap",
-      "core_concept": "a clear scene connected with tap – 与该词相连的清晰场景",
+      "origin": "中古英语 tappe（放液的塞、龙头）← 古英语 tæppa ← 原始日耳曼语 *tappô（塞子、尖木）；动词「轻击」义另出，为拟声",
+      "native_definition": "to strike something lightly, or a device that controls the flow of liquid",
+      "core_concept": "a light knock, or the plug that lets liquid out – 轻轻一击，或放液体出来的那个塞",
       "core_image": "手指轻敲玻璃，里面的人转头回应",
       "chinese": [
-        "tap"
+        "叩击",
+        "龙头",
+        "开发利用"
       ],
       "examples": [
-        "The tap changed the situation.",
-        "Researchers discussed the tap carefully."
+        "She tapped twice on the window.",
+        "Turn off the tap before you leave."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tap：从核心场景引出的常用义"
+        "叩击：手指或器物轻碰一下",
+        "龙头：控制水流出的那件装置，本义即塞子",
+        "开发利用：把封着的资源放出来用，如同开塞放液"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tape",
@@ -158620,25 +158680,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tape，现代词义按整体记",
-      "native_definition": "a thing or action related to tape",
-      "core_concept": "a clear scene connected with tape – 与该词相连的清晰场景",
-      "core_image": "胶带从卷轴上拉出，贴住纸箱接缝",
+      "origin": "中古英语 tape ← 古英语 tæppe（带、条），更早词源不明；或与古弗里斯兰语 tapia（拉、扯）相关",
+      "native_definition": "a long narrow strip of material, often sticky or used for recording",
+      "core_concept": "a long narrow strip wound on a roll – 卷在轴上的一条长窄带",
+      "core_image": "一条黏面的窄带从卷轴上拉出，压在纸箱接缝上就揭不下来了",
       "chinese": [
-        "tape"
+        "胶带",
+        "磁带",
+        "卷尺"
       ],
       "examples": [
-        "The tape changed the situation.",
-        "Researchers discussed the tape carefully."
+        "He sealed the box with tape.",
+        "The interview is on tape."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tape：从核心场景引出的常用义"
+        "胶带：一面带黏胶的那种",
+        "磁带：可录声音影像的那种",
+        "卷尺：印着刻度、可卷起的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tar",
@@ -158648,25 +158711,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tar，现代词义按整体记",
-      "native_definition": "a thing or action related to tar",
-      "core_concept": "a clear scene connected with tar – 与该词相连的清晰场景",
+      "origin": "中古英语 ter ← 古英语 teoru ← 原始日耳曼语 *terwą ← 原始印欧语 *dóru（树），本指从松木熬出的黑稠汁；与 tree 同源",
+      "native_definition": "a thick black sticky substance made from wood or coal, used on roads",
+      "core_concept": "a thick black liquid that sets hard and seals what it covers – 又黑又稠的液体，干后结硬把底下封住",
       "core_image": "黑色黏稠材料铺在路面，鞋底不能靠近",
       "chinese": [
-        "tar"
+        "焦油",
+        "柏油"
       ],
       "examples": [
-        "The tar changed the situation.",
-        "Researchers discussed the tar carefully."
+        "Fresh tar covered the new road.",
+        "Tar stuck to the soles of his boots."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tar：从核心场景引出的常用义"
+        "焦油：木材或煤干馏得出的那种黑稠液",
+        "柏油：铺路用的那种，同物而偏重用途"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "target",
@@ -158676,25 +158740,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 target，现代词义按整体记",
-      "native_definition": "a thing or action related to target",
-      "core_concept": "a clear scene connected with target – 与该词相连的清晰场景",
+      "origin": "中古法语 targette，是 targe（小盾）的指小形 ← 古法语 ← 法兰克语 *targa（圆盾）← 原始日耳曼语 *targǭ（边缘）",
+      "native_definition": "the thing aimed at, or a result one is trying to reach",
+      "core_concept": "the one thing all the aiming is directed at – 所有瞄准都对着的那一处",
       "core_image": "靶心中央画着圆环，箭头落在内圈",
       "chinese": [
-        "target"
+        "目标",
+        "靶子",
+        "对象"
       ],
       "examples": [
-        "The target changed the situation.",
-        "Researchers discussed the target carefully."
+        "The arrow struck the target dead centre.",
+        "We met our sales target for the year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "target：从核心场景引出的常用义"
+        "目标：要达到的那个结果",
+        "靶子：射击瞄准的那块板，本义是小盾",
+        "对象：动作或政策所指向的那一方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tariff",
@@ -158704,25 +158771,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tariff，现代词义按整体记",
-      "native_definition": "a thing or action related to tariff",
-      "core_concept": "a clear scene connected with tariff – 与该词相连的清晰场景",
+      "origin": "源自意大利语 tariffa（税则表）← 阿拉伯语 taʿrif（告知、说明），1592 年始见于英语",
+      "native_definition": "a tax on goods coming into a country, or a published list of charges",
+      "core_concept": "a published schedule saying what each item costs to bring in or use – 公布出来的一份表，写明每项收多少",
       "core_image": "海关文件列出不同货物对应的收费标准",
       "chinese": [
-        "tariff"
+        "关税",
+        "价目表"
       ],
       "examples": [
-        "The tariff changed the situation.",
-        "Researchers discussed the tariff carefully."
+        "The government raised tariffs on steel.",
+        "Check the tariff before you call abroad."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tariff：从核心场景引出的常用义"
+        "关税：货物进境时按表征收的税",
+        "价目表：把各项收费逐条列出的那份表"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自阿拉伯语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "task",
