@@ -138600,7 +138600,7 @@
       "id": "overwhelm",
       "word": "overwhelm",
       "pos": "verb",
-      "phonetic": "/ˌəʊ.vəˈ(h)welm/",
+      "phonetic": "/ˌəʊvəˈwelm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -166802,53 +166802,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weekday，现代词义按整体记",
-      "native_definition": "a thing or action related to weekday",
-      "core_concept": "a clear scene connected with weekday – 与该词相连的清晰场景",
+      "origin": "中古英语 wykeday ← 古英语 wicdæġ ← 原始日耳曼语 *wikadagaz，即 week ＋ day",
+      "native_definition": "any day of the week other than Saturday and Sunday",
+      "core_concept": "one of the days when ordinary business goes on – 照常办事的那几天里的一天",
       "core_image": "日历中的工作日被标出，周末两格留在另一种颜色",
       "chinese": [
-        "weekday"
+        "平日",
+        "上班日"
       ],
       "examples": [
-        "The weekday changed the situation.",
-        "Researchers discussed the weekday carefully."
+        "The museum is quieter on a weekday.",
+        "Buses run more often on weekdays."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weekday：从核心场景引出的常用义"
+        "平日：与周末相对的那几天",
+        "上班日：其中要去上班的那几天"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weekend",
       "word": "weekend",
       "pos": "noun",
-      "phonetic": "/ˈweekend/",
+      "phonetic": "/ˌwiːkˈend/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weekend，现代词义按整体记",
-      "native_definition": "a thing or action related to weekend",
-      "core_concept": "a clear scene connected with weekend – 与该词相连的清晰场景",
+      "origin": "由 week ＋ end 复合而成；原为英格兰北部方言，19 世纪末进入通用语",
+      "native_definition": "Saturday and Sunday, when most people do not work",
+      "core_concept": "the pair of days at the end of the week when work stops – 一周末尾停工的那两天",
       "core_image": "日历最后两格没有工作安排，家人准备出门",
       "chinese": [
-        "weekend"
+        "周末"
       ],
       "examples": [
-        "The weekend changed the situation.",
-        "Researchers discussed the weekend carefully."
+        "We drove to the coast for the weekend.",
+        "She works most weekends at the shop."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "weekend：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weekly",
@@ -166858,25 +166856,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weekly，现代词义按整体记",
-      "native_definition": "a thing or action related to weekly",
-      "core_concept": "a clear scene connected with weekly – 与该词相连的清晰场景",
+      "origin": "中古英语 wykely，即 week ＋ 副词或形容词后缀 -ly",
+      "native_definition": "happening once every week",
+      "core_concept": "coming round once in each seven-day turn – 每七天一轮里出现一次",
       "core_image": "墙上计划表每七天重复一次同样的检查",
       "chinese": [
-        "weekly"
+        "每周",
+        "每周一次"
       ],
       "examples": [
-        "The weekly changed the situation.",
-        "Researchers discussed the weekly carefully."
+        "The magazine appears weekly on Thursdays.",
+        "They hold a weekly meeting every Monday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weekly：从核心场景引出的常用义"
+        "每周：以周为间隔",
+        "每周一次：明说频率是一周一回"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weep",
@@ -166886,25 +166885,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weep，现代词义按整体记",
-      "native_definition": "a thing or action related to weep",
-      "core_concept": "a clear scene connected with weep – 与该词相连的清晰场景",
+      "origin": "中古英语 wepen ← 古英语 wēpan（哭、哀叹）← 原始日耳曼语 *wōpijaną（哭）← 原始印欧语 *weh₂b-（呼、诉）",
+      "native_definition": "to cry, letting tears fall",
+      "core_concept": "crying with tears coming down – 出声或不出声地哭，泪水往下落",
       "core_image": "人低头流泪，泪水沿脸颊落在衣襟上",
       "chinese": [
-        "weep"
+        "哭泣",
+        "落泪"
       ],
       "examples": [
-        "The weep changed the situation.",
-        "Researchers discussed the weep carefully."
+        "She wept when she heard the news.",
+        "He wept openly at the graveside."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weep：从核心场景引出的常用义"
+        "哭泣：出于悲痛而哭",
+        "落泪：眼泪流下来这件事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weigh",
@@ -166914,25 +166914,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weigh，现代词义按整体记",
-      "native_definition": "a thing or action related to weigh",
-      "core_concept": "a clear scene connected with weigh – 与该词相连的清晰场景",
+      "origin": "中古英语 weyen ← 古英语 wegan（搬动、称）← 原始日耳曼语 *weganą（移动、承载、称）← 原始印欧语 *weǵʰ-（运送）；与 wagon、way 同源",
+      "native_definition": "to find out how heavy something is, or to consider carefully",
+      "core_concept": "putting something on the scale to see how much it comes to – 放到秤上，看它有多少",
       "core_image": "物品放上秤盘，指针向对应刻度移动",
       "chinese": [
-        "weigh"
+        "称重",
+        "权衡"
       ],
       "examples": [
-        "The weigh changed the situation.",
-        "Researchers discussed the weigh carefully."
+        "He weighed the parcel at the post office.",
+        "She weighed the risks before agreeing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weigh：从核心场景引出的常用义"
+        "称重：量出物体有多重",
+        "权衡：把利弊放到心里的秤上比一比"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weight",
@@ -166942,25 +166943,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weight，现代词义按整体记",
-      "native_definition": "a thing or action related to weight",
-      "core_concept": "a clear scene connected with weight – 与该词相连的清晰场景",
+      "origin": "中古英语 weight ← 古英语 ġewiht ← 原始日耳曼语 *wihtiz ← 原始印欧语 *weǵʰ-（运送、拉）；即 weigh ＋ 抽象名词后缀 -t",
+      "native_definition": "how heavy something is, or a piece of metal used on scales",
+      "core_concept": "how much a thing presses down – 一件东西向下压的程度",
       "core_image": "秤盘上的金属块向下压，数字显示它的重量",
       "chinese": [
-        "weight"
+        "分量",
+        "砝码",
+        "负担"
       ],
       "examples": [
-        "The weight changed the situation.",
-        "Researchers discussed the weight carefully."
+        "What is the weight of this case?",
+        "He lifted weights every morning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weight：从核心场景引出的常用义"
+        "分量：物体轻重的程度",
+        "砝码：秤上用来比对的那块金属",
+        "负担：把这份下压用到心事或责任上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weird",
@@ -166970,81 +166974,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weird，现代词义按整体记",
-      "native_definition": "a thing or action related to weird",
-      "core_concept": "a clear scene connected with weird – 与该词相连的清晰场景",
+      "origin": "中古英语 werde ← 古英语 wyrd（命运）← 原始日耳曼语 *wurdiz ← 原始印欧语 *wert-（转）；16 世纪已废，由莎士比亚以 Weird Sisters（命运三女神）之名重新带回",
+      "native_definition": "strange in a way that feels uncanny or unsettling",
+      "core_concept": "strange enough to leave one uneasy – 怪得让人心里发毛",
       "core_image": "普通房间里摆着一件形状怪异的家具，让人停步观看",
       "chinese": [
-        "weird"
+        "古怪的",
+        "离奇的"
       ],
       "examples": [
-        "The weird changed the situation.",
-        "Researchers discussed the weird carefully."
+        "A weird noise came from the loft.",
+        "That was a weird thing to say."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weird：从核心场景引出的常用义"
+        "古怪的：与常态不合，让人费解",
+        "离奇的：奇到近乎不可思议"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "welcome",
       "word": "welcome",
-      "pos": "adjective",
+      "pos": "adjective / verb",
       "phonetic": "/ˈwel.kəm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 welcome，现代词义按整体记",
-      "native_definition": "a thing or action related to welcome",
-      "core_concept": "a clear scene connected with welcome – 与该词相连的清晰场景",
+      "origin": "中古英语 welcome ← 古英语 wilcuma（受欢迎的客人）← 原始日耳曼语 *wiljakwemô（如愿而来的人），即 will（愿）＋ come（来者）；后因第二成分的「客」义失落，wil- 受副词 well 影响改作 wel-",
+      "native_definition": "gladly received, or to greet someone gladly",
+      "core_concept": "received as someone whose coming was wished for – 被当作正盼着他来的人接待",
       "core_image": "门口的人微笑侧身，把新来者引进温暖的房间",
       "chinese": [
-        "welcome"
+        "受欢迎的",
+        "欢迎"
       ],
       "examples": [
-        "The welcome changed the situation.",
-        "Researchers discussed the welcome carefully."
+        "You are always welcome here.",
+        "They welcomed us at the door."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "welcome：从核心场景引出的常用义"
+        "受欢迎的：来了让人高兴的",
+        "欢迎：把这份高兴表示出来这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weld",
       "word": "weld",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/weld/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weld，现代词义按整体记",
-      "native_definition": "a thing or action related to weld",
-      "core_concept": "a clear scene connected with weld – 与该词相连的清晰场景",
+      "origin": "英语 weld 是 well（沸、涌）的变体，或受其过去分词 welled 影响；与丹麦语 vælde、瑞典语 välla（沸腾、锻接）同族",
+      "native_definition": "to join pieces of metal by heating them until they fuse",
+      "core_concept": "joining metal by melting the edges into one – 把金属边缘熔到一起，合成一体",
       "core_image": "两块金属边缘被高温熔在一起，接缝处留下亮痕",
       "chinese": [
-        "weld"
+        "焊接",
+        "焊缝"
       ],
       "examples": [
-        "The weld changed the situation.",
-        "Researchers discussed the weld carefully."
+        "They welded the frame in place.",
+        "A crack appeared along the weld."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weld：从核心场景引出的常用义"
+        "焊接：把金属熔合到一起这个工艺",
+        "焊缝：熔合处留下的那道痕"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "welfare",
@@ -167054,25 +167061,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 welfare，现代词义按整体记",
-      "native_definition": "a thing or action related to welfare",
-      "core_concept": "a clear scene connected with welfare – 与该词相连的清晰场景",
+      "origin": "中古英语 welefare，或出自古英语短语 wel faran（过得好）；即 well ＋ fare。「社会救助」义 1904 年始见",
+      "native_definition": "the health and comfort of people, or help given by the state",
+      "core_concept": "how well people are doing, and the help that keeps them so – 人过得好不好，以及维持这份好的援助",
       "core_image": "工作人员把食物和毯子递给需要帮助的人",
       "chinese": [
-        "welfare"
+        "福利",
+        "安康"
       ],
       "examples": [
-        "The welfare changed the situation.",
-        "Researchers discussed the welfare carefully."
+        "The scheme looks after the welfare of staff.",
+        "She lived on welfare for two years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "welfare：从核心场景引出的常用义"
+        "福利：为保障生活而提供的待遇或救助",
+        "安康：身心状况良好这件事"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "well",
@@ -167082,25 +167090,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 well，现代词义按整体记",
-      "native_definition": "a thing or action related to well",
-      "core_concept": "a clear scene connected with well – 与该词相连的清晰场景",
+      "origin": "副词 ← 中古英语 wel ← 古英语 wel（好、充分）← 原始日耳曼语 *wela（如愿地）← 原始印欧语 *welh₁-（愿、要）；名词「井」是另一支，← 古英语 wielle（泉）",
+      "native_definition": "in a good or satisfactory way, or a hole dug for water",
+      "core_concept": "as one would wish it to be – 事情如人所愿的那个样子",
       "core_image": "地下水从砌好的井口被提到地面，桶沿还在滴水",
       "chinese": [
-        "well"
+        "好",
+        "充分地",
+        "井"
       ],
       "examples": [
-        "The well changed the situation.",
-        "Researchers discussed the well carefully."
+        "She sings well for her age.",
+        "They drew water from the well."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "well：从核心场景引出的常用义"
+        "好：合乎期望地，做得到位",
+        "充分地：程度够足，如「充分知情」",
+        "井：打到地下取水的那个洞，是同形异源的另一支"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "west",
@@ -167110,25 +167121,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 west，现代词义按整体记",
-      "native_definition": "a thing or action related to west",
-      "core_concept": "a clear scene connected with west – 与该词相连的清晰场景",
+      "origin": "中古英语 west ← 古英语 west ← 原始日耳曼语 *westrą ← 原始印欧语 *wek⁽ʷ⁾speros（傍晚），因日落方向而得名",
+      "native_definition": "the direction in which the sun goes down",
+      "core_concept": "the side of the sky where the sun goes down – 太阳落下去的那一边",
       "core_image": "夕阳落在地图左侧，指南针指向相应方向",
       "chinese": [
-        "west"
+        "西",
+        "西方"
       ],
       "examples": [
-        "The west changed the situation.",
-        "Researchers discussed the west carefully."
+        "The road runs west from here.",
+        "Storms come in from the west."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "west：从核心场景引出的常用义"
+        "西：四方之一",
+        "西方：那一侧的地带或阵营"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "western",
@@ -167138,53 +167150,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 western，现代词义按整体记",
-      "native_definition": "a thing or action related to western",
-      "core_concept": "a clear scene connected with western – 与该词相连的清晰场景",
+      "origin": "中古英语 westerne ← 古英语 westerne ← 原始日耳曼语 *westrōnijaz，即 west ＋ -ern",
+      "native_definition": "situated in or coming from the west",
+      "core_concept": "belonging to the side where the sun sets – 属于日落那一侧的",
       "core_image": "地图左边的地区被标出，海风从那一侧吹来",
       "chinese": [
-        "western"
+        "西面的",
+        "西部的"
       ],
       "examples": [
-        "The western changed the situation.",
-        "Researchers discussed the western carefully."
+        "The western slope gets less sun.",
+        "A western wind brought rain."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "western：从核心场景引出的常用义"
+        "西面的：位置在西",
+        "西部的：属于某地西边那一片"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wet",
       "word": "wet",
-      "pos": "adjective",
+      "pos": "adjective / verb",
       "phonetic": "/wet/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wet，现代词义按整体记",
-      "native_definition": "a thing or action related to wet",
-      "core_concept": "a clear scene connected with wet – 与该词相连的清晰场景",
+      "origin": "中古英语 wet，是 weten（弄湿）的过去分词 ← 古英语 wǣtan（弄湿）← 原始日耳曼语 *wētijaną ← 原始印欧语 *wed-（水、湿）；与 water 同源",
+      "native_definition": "covered or soaked with liquid",
+      "core_concept": "having taken up liquid so it is no longer dry – 吸了液体，不再是干的",
       "core_image": "雨水浸透袖口，布料贴在手臂上变得沉重",
       "chinese": [
-        "wet"
+        "湿的",
+        "潮的",
+        "淋湿"
       ],
       "examples": [
-        "The wet changed the situation.",
-        "Researchers discussed the wet carefully."
+        "His shoes were wet through.",
+        "Rain wet the whole field."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wet：从核心场景引出的常用义"
+        "湿的：表面或内里带着水",
+        "潮的：湿的程度轻，带着水气",
+        "淋湿：使某物变湿这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whale",
@@ -167194,25 +167210,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whale，现代词义按整体记",
-      "native_definition": "a thing or action related to whale",
-      "core_concept": "a clear scene connected with whale – 与该词相连的清晰场景",
+      "origin": "中古英语 whal ← 古英语 hwæl ← 原始日耳曼语 *hwalaz（鲸）← 原始印欧语 *(s)kʷálos（一种大鱼）",
+      "native_definition": "a very large sea animal that breathes air",
+      "core_concept": "a huge sea animal that must surface to breathe – 极大的海中动物，得浮上来呼吸",
       "core_image": "巨大身影在海面下移动，背部浮出后喷起水柱",
       "chinese": [
-        "whale"
+        "鲸"
       ],
       "examples": [
-        "The whale changed the situation.",
-        "Researchers discussed the whale carefully."
+        "A whale surfaced beside the boat.",
+        "Whales migrate along this coast."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "whale：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whatever",
@@ -167222,25 +167235,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whatever，现代词义按整体记",
-      "native_definition": "a thing or action related to whatever",
-      "core_concept": "a clear scene connected with whatever – 与该词相连的清晰场景",
+      "origin": "中古英语 whatever，即 what ＋ -ever",
+      "native_definition": "anything at all, no matter what",
+      "core_concept": "any one of them, the choice making no difference – 其中任意一个，选哪个都不影响",
       "core_image": "桌上摆着几种物品，选择哪一件都不会改变安排",
       "chinese": [
-        "whatever"
+        "无论什么",
+        "任何"
       ],
       "examples": [
-        "The whatever changed the situation.",
-        "Researchers discussed the whatever carefully."
+        "Take whatever you need from the shelf.",
+        "Whatever happens, try to stay calm."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whatever：从核心场景引出的常用义"
+        "无论什么：不限于哪一样",
+        "任何：泛指全体中的任一"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wheat",
@@ -167250,25 +167264,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wheat，现代词义按整体记",
-      "native_definition": "a thing or action related to wheat",
-      "core_concept": "a clear scene connected with wheat – 与该词相连的清晰场景",
+      "origin": "中古英语 whete ← 古英语 hwǣte ← 原始西日耳曼语 *hwaitī ← 原始日耳曼语 *hwaitijaz ← *hwītaz（白），因磨出的粉色白而得名",
+      "native_definition": "the grain used to make flour and bread",
+      "core_concept": "the grain ground into the flour most bread is made from – 磨成面粉、多数面包所用的那种谷物",
       "core_image": "成熟麦穗在田里成片弯曲，金黄色籽粒藏在穗壳中",
       "chinese": [
-        "wheat"
+        "小麦",
+        "麦子"
       ],
       "examples": [
-        "The wheat changed the situation.",
-        "Researchers discussed the wheat carefully."
+        "The wheat ripens in late July.",
+        "Bread is made from wheat flour."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wheat：从核心场景引出的常用义"
+        "小麦：这种作物的正式名称",
+        "麦子：日常说法，泛指其籽粒"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wheel",
@@ -167278,25 +167293,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wheel，现代词义按整体记",
-      "native_definition": "a thing or action related to wheel",
-      "core_concept": "a clear scene connected with wheel – 与该词相连的清晰场景",
+      "origin": "中古英语 whel ← 古英语 hwēol ← 原始日耳曼语 *hwehwlą ← 原始印欧语 *kʷekʷlóm，是 *kʷel-（转）的重叠形，字面「不停转的那个东西」",
+      "native_definition": "a round object that turns on an axle",
+      "core_concept": "a round thing that turns on a centre so a load can roll – 绕中心转动的圆件，使载重可以滚着走",
       "core_image": "圆轮绕中心轴旋转，车身因此沿道路向前",
       "chinese": [
-        "wheel"
+        "轮子",
+        "方向盘"
       ],
       "examples": [
-        "The wheel changed the situation.",
-        "Researchers discussed the wheel carefully."
+        "One wheel came off the trolley.",
+        "He gripped the wheel with both hands."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wheel：从核心场景引出的常用义"
+        "轮子：车上转动的那个圆件",
+        "方向盘：司机手握、用来转向的那个轮"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whenever",
@@ -167306,25 +167322,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whenever，现代词义按整体记",
-      "native_definition": "a thing or action related to whenever",
-      "core_concept": "a clear scene connected with whenever – 与该词相连的清晰场景",
+      "origin": "中古英语 whan evere，即 when ＋ -ever",
+      "native_definition": "at any time that, or every time that",
+      "core_concept": "at any time it happens, without exception – 只要发生，任何一次都算",
       "core_image": "时间表上无论哪一次铃响，门都会自动打开",
       "chinese": [
-        "whenever"
+        "每当",
+        "无论何时"
       ],
       "examples": [
-        "The whenever changed the situation.",
-        "Researchers discussed the whenever carefully."
+        "Come round whenever you like.",
+        "Whenever it rains, the road floods."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whenever：从核心场景引出的常用义"
+        "每当：每一次那种情形出现时",
+        "无论何时：不限定在哪个时刻"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wherever",
@@ -167334,109 +167351,113 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wherever，现代词义按整体记",
-      "native_definition": "a thing or action related to wherever",
-      "core_concept": "a clear scene connected with wherever – 与该词相连的清晰场景",
+      "origin": "由 where ＋ -ever 构成；where 一支 ← 古英语 hwǣr（何处）← 原始日耳曼语 *hwar",
+      "native_definition": "in or to any place that",
+      "core_concept": "in any place at all, the place making no difference – 任何地方都算，在哪儿不影响",
       "core_image": "地图上任意一处地点都可插入标记，路线随后改变",
       "chinese": [
-        "wherever"
+        "无论哪里",
+        "凡所在之处"
       ],
       "examples": [
-        "The wherever changed the situation.",
-        "Researchers discussed the wherever carefully."
+        "Sit wherever you like in the hall.",
+        "Wherever she goes, the dog follows."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wherever：从核心场景引出的常用义"
+        "无论哪里：不限定在哪个地方",
+        "凡所在之处：所到的每一处都如此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whichever",
       "word": "whichever",
       "pos": "pronoun",
-      "phonetic": "/ˈwhichever/",
+      "phonetic": "/wɪtʃˈevə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whichever，现代词义按整体记",
-      "native_definition": "a thing or action related to whichever",
-      "core_concept": "a clear scene connected with whichever – 与该词相连的清晰场景",
+      "origin": "由 which ＋ -ever 构成；which 一支 ← 古英语 hwilc（哪一个）← 原始日耳曼语 *hwilīkaz",
+      "native_definition": "any one of a set, no matter which",
+      "core_concept": "any one out of the set, the choice making no difference – 那一组里任取一个，选哪个都行",
       "core_image": "两条路线都画在地图上，旅客选哪一条都能到达",
       "chinese": [
-        "whichever"
+        "无论哪个"
       ],
       "examples": [
-        "The whichever changed the situation.",
-        "Researchers discussed the whichever carefully."
+        "Take whichever seat you prefer.",
+        "Whichever route you choose is fine."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "whichever：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whip",
       "word": "whip",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɪp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whip，现代词义按整体记",
-      "native_definition": "a thing or action related to whip",
-      "core_concept": "a clear scene connected with whip – 与该词相连的清晰场景",
+      "origin": "中古英语 whippen ← 中古荷兰语 wippen（摆动、跳）与中古低地德语 wippen（快速动）← 原始日耳曼语 *wippōną（来回动）← 原始印欧语 *weyp-（摇、甩）；wh- 是模拟鞭响的写法",
+      "native_definition": "a long thin strip used for striking, or to beat cream stiff",
+      "core_concept": "a long flexible strip swung to strike – 甩出去打人的那条长软带",
       "core_image": "长条皮鞭在空中划过，末端发出清脆声响",
       "chinese": [
-        "whip"
+        "鞭子",
+        "抽打",
+        "搅打"
       ],
       "examples": [
-        "The whip changed the situation.",
-        "Researchers discussed the whip carefully."
+        "He cracked the whip above the horses.",
+        "Whip the cream until it thickens."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whip：从核心场景引出的常用义"
+        "鞭子：那件甩打之物",
+        "抽打：用它击打这个动作",
+        "搅打：把奶油之类快速搅到发起，动作也是这么甩"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "whirl",
       "word": "whirl",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/wɜːl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whirl，现代词义按整体记",
-      "native_definition": "a thing or action related to whirl",
-      "core_concept": "a clear scene connected with whirl – 与该词相连的清晰场景",
+      "origin": "中古英语 whirlen，缩自 *whirvelen，或 ← 古英语 *hwyrflian（hweorfan「转」的反复体）← 原始日耳曼语 *hwerbaną（转）；或 ← 古诺尔斯语 hvirfla（打转）",
+      "native_definition": "to turn round and round very fast",
+      "core_concept": "turning about a centre fast enough to blur – 绕着中心转得快到看不清",
       "core_image": "落叶被旋风卷起，在空中绕中心快速转圈",
       "chinese": [
-        "whirl"
+        "旋转",
+        "急转",
+        "头晕"
       ],
       "examples": [
-        "The whirl changed the situation.",
-        "Researchers discussed the whirl carefully."
+        "Leaves whirled up in the wind.",
+        "Her mind whirled with questions."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whirl：从核心场景引出的常用义"
+        "旋转：绕中心不停转动",
+        "急转：转得又快又猛",
+        "头晕：脑子里像在打转"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whisky",
@@ -167446,109 +167467,111 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whisky，现代词义按整体记",
-      "native_definition": "a thing or action related to whisky",
-      "core_concept": "a clear scene connected with whisky – 与该词相连的清晰场景",
+      "origin": "英语 whisky 是 usque 的变体，截自 usquebaugh ← 苏格兰盖尔语 uisge-beatha（生命之水），是中世纪拉丁语 aqua vitae 的仿译",
+      "native_definition": "a strong alcoholic drink made from grain",
+      "core_concept": "a strong spirit distilled from grain and aged in wood – 用谷物蒸出、在木桶里存过的烈酒",
       "core_image": "琥珀色液体盛在玻璃杯中，灯光穿过杯壁",
       "chinese": [
-        "whisky"
+        "威士忌"
       ],
       "examples": [
-        "The whisky changed the situation.",
-        "Researchers discussed the whisky carefully."
+        "He poured two glasses of whisky.",
+        "The whisky had aged twelve years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "whisky：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "借自盖尔语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "whisper",
       "word": "whisper",
-      "pos": "noun",
-      "phonetic": "/ˈ(h)wɪspə/",
+      "pos": "noun / verb",
+      "phonetic": "/ˈwɪspə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whisper，现代词义按整体记",
-      "native_definition": "a thing or action related to whisper",
-      "core_concept": "a clear scene connected with whisper – 与该词相连的清晰场景",
+      "origin": "中古英语 whisperen ← 古英语 hwisprian（低语）← 原始日耳曼语 *hwisprōną（嘶、低语）← 原始印欧语 *ḱwey-（嘶、吹）；与 whistle 同支",
+      "native_definition": "to speak very quietly, using breath rather than voice",
+      "core_concept": "speaking on breath alone so only the nearest can hear – 只用气不用声，近处的人才听得见",
       "core_image": "两个人靠近耳边说话，声音低到旁人听不清",
       "chinese": [
-        "whisper"
+        "低声说",
+        "耳语"
       ],
       "examples": [
-        "The whisper changed the situation.",
-        "Researchers discussed the whisper carefully."
+        "She whispered something in his ear.",
+        "Do not whisper during the exam."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whisper：从核心场景引出的常用义"
+        "低声说：把声音压到很小",
+        "耳语：贴着耳朵说，旁人听不到"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whistle",
       "word": "whistle",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɪs(ə)l/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whistle，现代词义按整体记",
-      "native_definition": "a thing or action related to whistle",
-      "core_concept": "a clear scene connected with whistle – 与该词相连的清晰场景",
+      "origin": "中古英语 whistel ← 古英语 hwistle ← 动词 hwistlan（吹哨）← 原始日耳曼语 *hwistlōną（发出嘶声）",
+      "native_definition": "a high sound made by blowing, or the object used to make it",
+      "core_concept": "a high thin sound forced out through a narrow opening – 气流从窄口挤出所发的又高又细的音",
       "core_image": "嘴唇吹出尖锐长音，远处的人听到后转身",
       "chinese": [
-        "whistle"
+        "哨声",
+        "口哨",
+        "吹哨"
       ],
       "examples": [
-        "The whistle changed the situation.",
-        "Researchers discussed the whistle carefully."
+        "The referee blew his whistle.",
+        "He whistled a tune as he walked."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whistle：从核心场景引出的常用义"
+        "哨声：吹出来的那个高音",
+        "口哨：用嘴唇吹出的那种",
+        "吹哨：发出这种声音这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "white",
       "word": "white",
-      "pos": "adjective",
+      "pos": "adjective / noun",
       "phonetic": "/ˈwaɪt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 white，现代词义按整体记",
-      "native_definition": "a thing or action related to white",
-      "core_concept": "a clear scene connected with white – 与该词相连的清晰场景",
+      "origin": "中古英语 whit ← 古英语 hwīt ← 原始日耳曼语 *hwītaz ← 原始印欧语 *ḱweydós，是 *ḱweytós（明亮、发光）的变体",
+      "native_definition": "of the colour of snow or milk",
+      "core_concept": "the colour that gives back all light and holds none – 把所有光都反回去、自己不留的那种颜色",
       "core_image": "白布在阳光下展开，表面几乎不带其他颜色",
       "chinese": [
-        "white"
+        "白的",
+        "白色"
       ],
       "examples": [
-        "The white changed the situation.",
-        "Researchers discussed the white carefully."
+        "She wore a plain white shirt.",
+        "Paint the ceiling white before you move in."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "white：从核心场景引出的常用义"
+        "白的：形容颜色如雪如乳",
+        "白色：那种颜色本身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whoever",
@@ -167558,25 +167581,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whoever，现代词义按整体记",
-      "native_definition": "a thing or action related to whoever",
-      "core_concept": "a clear scene connected with whoever – 与该词相连的清晰场景",
+      "origin": "中古英语 whoever，即 who ＋ -ever",
+      "native_definition": "any person that, no matter who",
+      "core_concept": "any person at all, the identity making no difference – 任何人都算，是谁并不影响",
       "core_image": "门口站着一个人，无论是谁都可进来领取号码",
       "chinese": [
-        "whoever"
+        "无论谁",
+        "凡是…的人"
       ],
       "examples": [
-        "The whoever changed the situation.",
-        "Researchers discussed the whoever carefully."
+        "Whoever finds it should hand it in.",
+        "Ask whoever is on duty."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whoever：从核心场景引出的常用义"
+        "无论谁：不限定是哪个人",
+        "凡是…的人：符合那个条件的每一个人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "whole",
@@ -167586,25 +167610,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 whole，现代词义按整体记",
-      "native_definition": "a thing or action related to whole",
-      "core_concept": "a clear scene connected with whole – 与该词相连的清晰场景",
+      "origin": "中古英语 whol ← 古英语 hāl（完好的、健全的）← 原始日耳曼语 *hailaz ← 原始印欧语 *kéh₂ilos（健全、完整）；wh- 拼写是 1400 年前后西南方言里衍生的",
+      "native_definition": "complete, with no part missing",
+      "core_concept": "having every part still there, nothing broken off – 各部分都在，没掉没缺",
       "core_image": "碎片被重新拼在一起，原来的物品恢复完整",
       "chinese": [
-        "whole"
+        "整个的",
+        "全部的"
       ],
       "examples": [
-        "The whole changed the situation.",
-        "Researchers discussed the whole carefully."
+        "He ate the whole loaf.",
+        "The whole team turned up."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "whole：从核心场景引出的常用义"
+        "整个的：作为一体、未被分割",
+        "全部的：范围上一个不落"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wholesome",
@@ -167614,25 +167639,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wholesome，现代词义按整体记",
-      "native_definition": "a thing or action related to wholesome",
-      "core_concept": "a clear scene connected with wholesome – 与该词相连的清晰场景",
+      "origin": "英语早期作 holesome ← 中古英语 holsom ← 古英语 *hālsum ← 原始日耳曼语 *hailasamaz，即 whole ＋ 形容词后缀 -some",
+      "native_definition": "good for the health, or morally sound",
+      "core_concept": "doing good rather than harm to body or character – 对身体或品性有益而无损",
       "core_image": "新鲜食物和清洁空气让身体感到舒适而有益",
       "chinese": [
-        "wholesome"
+        "有益健康的",
+        "正派的"
       ],
       "examples": [
-        "The wholesome changed the situation.",
-        "Researchers discussed the wholesome carefully."
+        "They ate simple, wholesome food.",
+        "The film is wholesome family fare."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wholesome：从核心场景引出的常用义"
+        "有益健康的：吃了用了对身体好",
+        "正派的：内容或为人端正，无不良处"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wholly",
