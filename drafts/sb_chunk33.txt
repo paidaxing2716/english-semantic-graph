@@ -1,0 +1,182 @@
+# 第 33 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk33.tsv
+
+## unload
+pos: verb    phonetic: /ʌnˈləʊd/
+现有画面: 卡车停在仓库门口，工人把一箱箱货物搬下车
+现有中文: unload   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|un-|load|text=+|tree=1}}
+
+## until
+pos: preposition    phonetic: /ˈuntil/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 时间轴上的标记一直延伸到另一个事件发生的时刻
+现有中文: until   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|vntil}}, {{m|enm|until}}, {{m|enm|untill}}, {{m|enm|ontil}}, {{m|enm|ontill}}, perhaps representing a northern variant of {{cog|enm|unto}} (see Modern English {{m|en|unto}}). {{surf|+pre|en|un|t1=against; toward; up to|till}}.
+
+## unusual
+pos: adjective    phonetic: /ʌnˈjuːʒ(u)əl/
+现有画面: 整齐排列的物品中有一件形状和颜色都格外不同
+现有中文: unusual   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|un-|usual|text=+|tree=1}}
+
+## up
+pos: adverb    phonetic: /ʌp/
+现有画面: 气球从地面向屋顶升起，位置越来越高
+现有中文: up   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=above|:inh|enm:up|tree=1}} From {{inh|en|enm|up}}, {{m|enm|op}}, {{m|enm|oup}}, from {{inh|en|ang|upp}}, {{m|ang|up}}, {{m|ang|ūp|t=up}}, from {{inh|en|gmw-pro|*upp}}, {{m|gmw-pro|*ūp}}, from {{inh|en|gem-pro|*upp}}, {{m|gem-pro|*eup|t=up}}. Cognate with {{cog|stq|ap|t=up}}, {{cog|fy|op|t=up}}, {{cog|nl|op|t=up}}, {{cog|nds-de|up}}, {{m|nds-de|op|t=up}}, {{cog|de|auf|t=up}}, {{cog|da|op|t=up}}, {{cog|sv|upp|t=up}}, {{cog|is|upp|t=up}}, {{cog|got|𐌹𐌿𐍀|t=up}}.
+
+## voice
+pos: noun    phonetic: /vɔɪs/
+现有画面: 麦克风前的人说话，音箱把声音传到房间各处
+现有中文: voice   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=sound|:inh|enm:voys}} {{dercat|en|itc-pro|ine-pro}} From {{inh|en|enm|voice}}, {{m|enm|voys}}, {{m|enm|vois}}, borrowed from {{der|en|xno|[[voiz]], [[voys]], [[voice]]}}, {{der|en|fro|[[vois]], [[voiz]]}} (Modern {{cog|fr|voix}}), from {{der|en|la|vōcem}}, accusative form of {{m|la|vōx|t=voice}}. Cognate with {{cog|sa|वाच्}}, {{cog|grc|ὄψ}}, {{cog|fa|آواز|tr=âvâz}}. Displaced native {{cog|enm|steven|t=voice}} (from {{cog|ang|stefn}} (see {{l|en|steven}})), {{cog|ang|hlēoþor#Noun}}, {{cog|ang|woþ#Noun_2}}, and {{cog|ang|reord#Noun}}. Compare {{m|en|advocate}}, {{m|en|advowson}}, {{m|en|avouch}}, {{m|en|convoke}}, {{m|en|vocal}}, {{m|en|vouch}}, {{m|en|vowel}}. {{doublet|en|vox}…（已截断）
+
+## void
+pos: adjective    phonetic: /vɔɪd/
+现有画面: 盒子中央留着一块完全空白的空间，四周没有任何物品
+现有中文: void   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₁weh₂-}} From {{inh|en|enm|voide}}, {{m|enm|voyde}}, from {{der|en|fro|vuit}}, {{m|fro|voide}}, {{m|fro|vuide}} (modern {{m|fr|vide}}), in turn from {{der|en|la-vul|*vocitum}}, ultimately from {{der|en|la|vacuus}}.  ┃  Alteration of {{m|en|voidee}}.
+
+## volcano
+pos: noun    phonetic: /vɒlˈkeɪ.nəʊ/
+现有画面: 山口喷出灰烟和红热岩浆，地面在脚下震动
+现有中文: volcano   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=mountain|:bor|it:vulcano}} From {{bor|en|it|vulcano}}, from {{m|it|Vulcano|t=a small volcanic island in the [[Tyrrhenian Sea]]}}, from {{der|en|la|Vulcānus|t=[[Vulcan]], the Roman god of fire and metalworking}}. {{doublet|en|bolcane|Vulcan}}.
+
+## volleyball
+pos: noun    phonetic: /ˈvɒlibɔ(ː)l/
+现有画面: 球越过球网，另一队跃起伸手把它挡回
+现有中文: volleyball   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*gʷelH-|id=throw}} {{ety|en|:af|volley|ball|tree=1}} From {{af|en|volley|ball}}. In 1895, in Holyoke, Massachusetts, William G. Morgan created a new game called Mintonette, a name derived from the game of badminton. After an observer, Alfred Halstead, noticed the volleying nature of the game at its first exhibition match in 1896, played at the International YMCA Training School (now called Springfield College), the game quickly became known as volleyball (it was originally spelled as two words: "volley ball") {{rfv-etym|en}}
+
+## volt
+pos: noun    phonetic: /vəʊlt/
+现有画面: 电表上的刻度显示两点之间的电势差
+现有中文: volt   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{named-after|en|Alessandro Volta|nat=Italian|occ=physicist|wplink=Alessandro Volta}}. For the surname, see {{der|en|it|Volta}}.  ┃  From {{der|en|fr|volte}}.
+
+## voltage
+pos: noun    phonetic: /ˈvəʊltɪdʒ/
+现有画面: 电路两端接通后，仪表指针在对应刻度停住
+现有中文: voltage   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{suffix|en|volt|age}}, ultimately derived from the name of [[w:Alessandro Volta|Alessandro Volta]], inventor of the modern battery.
+
+## voluntary
+pos: adjective    phonetic: /ˈvoluntary/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 报名表旁没有强制标记，人们主动举手参加
+现有中文: voluntary   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:voluntarie}} {{root|en|ine-pro|*welh₁-}} From {{inh|en|enm|voluntarie}}, from {{der|en|fro|volontaire}}, from {{der|en|la|voluntārius||willing, of free will}}, from {{m|la|voluntās||will, choice, desire}}, from {{m|la|volēns}}, present participle of {{m|la|volo||to will}}. Displaced native {{ncog|ang|selfwille|lit=self-willed}}.
+
+## volunteer
+pos: noun    phonetic: /ˌvɒl(ə)nˈtɪə/
+现有画面: 穿着背心的人主动拿起工具，走向需要帮助的队伍
+现有中文: volunteer   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*welh₁-}} {{bor+|en|frm|voluntaire}}, from {{der|en|la|voluntārius|t=willing, voluntary}}; or from {{af|en|voluntary|-eer}}.
+
+## vote
+pos: noun    phonetic: /vəʊt/
+现有画面: 投票者把纸片放进密封箱，工作人员随后清点
+现有中文: vote   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:der|la:vōtum|tree=1}} From {{der|en|la|vōtum}}, a form of {{m|la|voveō|t=to vow}} (cognate with {{cog|grc|εὔχομαι|t=to vow}}), from {{der|en|ine-pro|*h₁wegʷʰ-|t=to promise, to vow}}. {{doublet|en|vow}}.
+
+## vowel
+pos: noun    phonetic: /ˈvaʊ.əl/
+现有画面: 字母表中几个字母被圈出，发音时气流畅通通过
+现有中文: vowel   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*wekʷ-}} From {{inh|en|enm|vowel}}, from {{der|en|fro|vouel}}, a variant of {{m|fro|voyeul}} (whence {{cog|fr|voyelle}}), from {{der|en|la|vōcālis||voiced}}, itself a [[:semantic loan|semantic loan]] of {{noncog|grc-koi|φωνῆεν}}. {{doublet|en|vocal|vocalis}}.
+
+## voyage
+pos: noun    phonetic: /ˈvɔɪ.ɪdʒ/
+现有画面: 船离开港口，航线在海图上向远方延伸
+现有中文: voyage   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:viage}} From {{inh|en|enm|viage}}, borrowed from {{der|en|xno|viage}} and {{der|en|fro|voiage}}, from {{der|en|la|viaticum}}. The modern spelling is under the influence of Modern {{der|en|fr|voyage}}. {{doublet|en|viaticum}}.
+
+## vulgar
+pos: adjective    phonetic: /ˈvʌl.ɡə/
+现有画面: 公共场合有人大声喧哗，旁边的人皱眉避开
+现有中文: vulgar   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|vulgare}}, from {{der|en|la|vulgāris}}, from {{m|la|volgus}}, {{m|la|vulgus||mob; common folk}}, from {{der|en|ine-pro|*welH-}}. Compare {{cog|cy|gwala||plenty, sufficiency}}, {{cog|grc|ἁλία||assembly}}, {{m|grc|εἰλέω||to compress}}, {{cog|sla-pro|*valъ}}.
+
+## vulnerable
+pos: adjective    phonetic: /ˈvʌln(ə)rəbl/
+现有画面: 薄玻璃罩在风暴中摇晃，边缘出现细小裂纹
+现有中文: vulnerable   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*welh₃-}} From {{bor|en|la-lat|vulnerābilis||injurious, wounding}}, from {{der|en|la|vulnerō||to wound}}.
+
+## wage
+pos: noun    phonetic: /weɪdʒ/
+现有画面: 月底工人收到固定金额，账单旁标着发放日期
+现有中文: wage   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:wage}} {{root|en|ine-pro|*wedʰ-}} From {{der|en|enm|wage}}, from {{der|en|xno|wage}}, from {{der|en|fro-nor|wage}}, a northern variant of {{der|en|fro|gauge}}, {{m|fro|guage}} (whence modern French {{m|fr|gage}}), {{der|en|la-med|wadium}}, from {{der|en|frk|*wadi|*waddī}} (cognate with {{cog|ang|wedd}}), from {{der|en|gem-pro|*wadją||pledge}}, from {{der|en|ine-pro|*wedʰ-||to pledge, redeem a pledge}}. Akin to {{cog|non|veðja||to pledge}}, {{cog|got|𐍅𐌰𐌳𐌹}}, {{cog|nl|wedde}}. Compare also the doublet {{m|en|gage}}. More at {{m|en|wed}}.  ┃  From {{inh|en|enm|wagen||to pledge}}, from {{der|en|xno|-}}, {{der|en|fro-nor|wagier}}, a northern variant of {{der|en|fro|guagier}} …（已截断）
+
+## wagon
+pos: noun    phonetic: /ˈwæɡən/
+现有画面: 四轮车沿泥路颠簸前进，车厢里装着木箱
+现有中文: wagon   ← 是英文词本身，需重写
+词源(Wiktionary 原文): , [[Saxony-Anhalt]], [[Germany]], in 1955 }} {{root|en|ine-pro|*weǵʰ-}} {{bor+|en|dum|wagen}}, from {{der|en|odt|*wagan}}, from {{der|en|gmw-pro|*wagn}}, from {{der|en|gem-pro|*wagnaz||wagon}}, from {{der|en|ine-pro|*weǵʰ-||to transport}}. Generally displaced native cognate {{m|en|wain}}, from {{ncog|ang|wæġn}}, of which it is a doublet. Related also to {{m|en|way}}, {{m|en|weigh}}. Sense 8 (“woman of loose morals; obnoxious woman”) is probably a derogatory and jocular reference to a woman being “[[ride#Verb|ridden]]”, that is, [[mount#Verb|mounted]] for the purpose of [[sexual intercourse]]. The verb is derived from the noun.
+
+## waist
+pos: noun    phonetic: /weɪst/
+现有画面: 腰带绕过身体中部，扣环正好固定在腹前
+现有中文: waist   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₂weg-}} {{inh+|en|enm|wast|t=waist|id=waist}}, probably from {{inh|en|ang|*wæst}}, {{m|ang|*wǣst}}, {{m|ang|*weaxt}}, {{m|ang|*wæhst}}, from {{inh|en|gmw-pro|*wahstu}}, from {{inh|en|gem-pro|*wahstuz||t=growth, development, stature, build}}, from {{der|en|ine-pro|*h₂weks-|t=to multiply, increase}}. Cognate with {{cog|enm|wacste|t=growth, increase, might, power}}, {{cog|gmh|wahst||growth}}, {{cog|da|vækst||growth}}, {{cog|sv|växt||growth, development, size}}, {{cog|is|vöxtur||growth}}, {{cog|got|𐍅𐌰𐌷𐍃𐍄𐌿𐍃||growth}}. Related to {{cog|ang|weaxan||to grow, increase}}. More at {{l|en|wax}}.
+
+## wait
+pos: verb    phonetic: /weɪt/
+现有画面: 车站长椅上的人盯着钟面，列车迟迟没有进站
+现有中文: wait   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*weǵ-}} From {{inh|en|enm|waiten}}, from {{der|en|xno|waiter}}, {{m|fro|waitier}} (compare {{cog|fr|guetter}} from {{cog|fro|gaitier}}, {{m|fro|guaitier}}), from {{der|en|frk|*wahtwēn|t=to watch, guard}}, derivative of {{der|en|frk|*wahtu|t=guard, watch}}, from {{der|en|gem-pro|*wahtwō|t=guard, watch}}, from {{der|en|ine-pro|*weǵ-|t=to be fresh, cheerful, awake}}. Cognate with {{cog|goh|wahtēn||to watch, guard}}, {{cog|nds-de|wachten||to wait}}, {{cog|nl|wachten||to wait, expect}}, {{cog|fr|guetter||to watch out for}}, {{cog|stq|wachtje||to wait}}, {{cog|fy|wachtsje|t=to wait}}, {{cog|frr|wachtjen||to stand, stay put}}. More at {{l|en|watch}}. In some senses, merged or infl…（已截断）
+
+## waiter
+pos: noun    phonetic: /ˈweɪtə/
+现有画面: 服务员端着托盘穿过餐桌之间，把饮料放到客人面前
+现有中文: waiter   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*weǵ-}} From late 14th century {{der|en|enm|waiter}}, {{m|enm|wayter|t=attendant, watchman}}. {{surf|en|wait|-er}}. Sense of "servant who waits at tables" is from late 15th century, originally in reference to household servants; in reference to inns, eating houses, etc., it is attested from 1660s. Feminine form {{m|en|waitress}} first recorded 1834. The London Stock Exchange sense harks back to the early days of trading in coffee-shops.
+
+## waitress
+pos: noun    phonetic: /ˈweɪ.trɪs/
+现有画面: 服务员在餐厅桌间记录点单，随后端来热盘
+现有中文: waitress   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|waiter|-ess|text=+|tree=1}}
+
+## wake
+pos: verb    phonetic: /ˈweɪk/
+现有画面: 天亮后床上的人睁开眼，窗帘缝里透进晨光
+现有中文: wake   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*weǵ-}} A merger of two verbs of related/similar form and meaning: * {{inh|en|enm|waken}}, {{inh|en|ang|wacan}}, from {{inh|en|gmw-pro|*wakan}}, from {{inh|en|gem-pro|*wakaną}}. * {{inh|en|enm|wakien}}, {{inh|en|ang|wacian}}, from {{inh|en|gmw-pro|*wakēn}}, from {{inh|en|gem-pro|*wakāną}}.  ┃  From {{inh|en|enm|wake}}, from {{inh|en|ang|wacu}}, from {{inh|en|gem-pro|*wakō}}, related to the verb {{m|gem-pro|*wakjaną}}.  ┃  Probably from {{bor|en|gml|-}} or {{der|en|dum|wake}}, from or akin to {{der|en|non|vǫk|t=a hole in the ice}} ( > {{cog|da|våge}}, {{cog|is|vök}}), from {{der|en|gem-pro|*wakwō|t=wetness}}, from {{der|en|ine-pro|*wegʷ-|t=moist, wet}}.
+
+## waken
+pos: verb    phonetic: /ˈweɪkən/
+现有画面: 闹钟响起，熟睡者坐起并拉开床边窗帘
+现有中文: waken   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*weǵ-}} From {{inh|en|enm|waknen}}, from {{inh|en|ang|wæcnan}}, from {{inh|en|gem-pro|*waknaną}}.
+
+## walk
+pos: verb    phonetic: /wɔːk/
+现有画面: 脚步沿人行道一左一右向前，影子跟在身后
+现有中文: walk   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*welH-}} From {{inh|en|enm|walk}}, {{m|enm|walke}}, {{m|enm|walken}}, {{m|enm|walkyn}}, {{m|enm|wolken|t=to roll, toss, or turn; to walk; to move; to be living; to beat or full; to perform}}, a conflation of {{inh|en|ang|wealcan|t=to move around; to revolve; to roll; to fluctuate; to discuss}} ({{m|ang|ġewealcan|t=to go, traverse; to roll}}) and {{inh|en|ang|wealcian|t=to curl, roll up, twist; to wrinkle}}; both from {{inh|en|gmw-pro|*walkan}}, from {{inh|en|gem-pro|*walkaną|t=to roll, toss, turn, wind; to walk, wander, wend; to full, trample}}, {{m|gem-pro|*walkōną|t=to roll about; to full}}, from {{der|en|ine-pro|*walg-|t=to twist, turn, move}}. {{col-top|2|cog}} Cognate …（已截断）
+
+## wall
+pos: noun    phonetic: /wɔːl/
+现有画面: 砖块一层层砌起，把花园和街道隔开
+现有中文: wall   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=rampart|:inh|enm:wal}} From {{inh|en|enm|wal}}, from {{inh|en|ang|weall|t=wall, dike, earthwork, rampart, dam, rocky shore, cliff}}, from {{inh|en|gmw-pro|*wall|t=wall, rampart, entrenchment}}, from {{der|en|la|vallum|t=wall, rampart, entrenchment, palisade}}, from {{der|en|ine-pro|*welH-|t=to turn, wind, roll}}. Perhaps conflated with {{m|en|waw|t=a wall within a house or dwelling, a room partition}}, from {{noncog|enm|wawe}}, from {{noncog|ang|wāg}}, {{m|ang|wāh|t=an interior wall, divider}}, see {{l|en|waw}}. Cognate with {{cog|frr|wal|t=wall}}, {{cog|stq|Waal|t=wall, rampart, mound}}, {{cog|nl|wal|t=wall, rampart, embankment}}, {{cog|de|Wall|t=rampart, mound, embankment}},…（已截断）
+
+## wallet
+pos: noun    phonetic: /ˈwɒl.ɪt/
+现有画面: 皮夹打开后露出几张卡片和折好的纸币
+现有中文: wallet   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|walet||a bag, knapsack}}, of uncertain origin. Possibly from an assumed {{der|en|fro-nor|*walet||a roll; bag; a knapsack}}, from {{der|en|gem-pro|*wal-||to roll}}. More at {{m|en|walk}}, {{m|en|well}}, {{m|en|wallow}}.
+
+## wander
+pos: verb    phonetic: /ˈwɒndə/
+现有画面: 没有固定路线的人沿小路转弯，脚印散向不同方向
+现有中文: wander   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|wandren}}, from {{inh|en|ang|wandrian|t=to wander, roam, fly around, hover; change; stray, err}}, from {{inh|en|gmw-pro|*wandarōn|t=to wander}}, from {{af|nocat=1|gmw-pro|*wandōn|t1=to turn, change|*-rōn|pos2=frequentative suffix}}. Cognate with {{cog|sco|wander|t=to wander}}, {{cog|de|wandern|t=to wander, roam, hike, migrate}}, {{cog|nl|wandelen|t=to wander, roam, hike, migrate}}, {{cog|da|vandre|t=to wander, roam, hike, migrate}}, {{cog|sv|vandra|t=to wander, hike}}.
+
+## want
+pos: verb    phonetic: /ˈwant/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 橱窗里的物品隔着玻璃吸引目光，手却够不到
+现有中文: want   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|wanten||to lack, to need}}, from {{der|en|non|vanta||to lack}}, from {{der|en|gem-pro|*wanatōną||to be wanting, lack}}, from {{m|gem-pro|*wanô||lack, deficiency}}, from {{der|en|ine-pro|*h₁weh₂-||empty}}. Cognate with {{cog|gmh|wan||not full, empty}}, {{cog|dum|wan||empty, poor}}, {{cog|ang|wana||want, lack, absence, deficiency}}, {{cog|la|vanus||empty}}. See {{l|en|wan}}, {{l|en|wan-}}. {{root|en|ine-pro|*h₁weh₂-}}  ┃  From {{inh|en|enm|wont|t=mole}}, from {{inh|en|ang|wand}}, {{m|ang|wond}}, from {{inh|en|gem-pro|*wanduz}}.

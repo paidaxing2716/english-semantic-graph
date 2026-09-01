@@ -1,0 +1,182 @@
+# 第 12 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk12.tsv
+
+## search
+pos: noun    phonetic: /sɜːtʃ/
+现有画面: 手电光扫过抽屉和架子，寻找者逐格查看里面的东西
+现有中文: search   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:serchen|tree=+}} {{inh+|en|enm|serchen}}, borrowed from {{der|en|xno|sercher}}, {{der|en|fro|cerchier}}, from {{der|en|la-lat|circō,|,circāre|to circle; go around; search for}}, from {{m|la|circus}}. Unrelated to {{noncog|de|suchen}}, which is cognate with {{noncog|en|seek}}.
+
+## seaside
+pos: noun    phonetic: /ˌsiːˈsaɪd/
+现有画面: 沙滩外是一片开阔水面，浪花不断冲上湿沙
+现有中文: seaside   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|see-syde}}, {{m|enm|sey-syde}}, {{m|enm|see syde}}, {{m|enm|se side}}, equivalent to {{compound|en|sea|side}}. Compare ''[[waterside]]''.
+
+## season
+pos: noun    phonetic: /ˈseason/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 树木从绿叶到落叶再到新芽，天气随时间轮换
+现有中文: season   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*seh₁-|id=sow}} From {{inh|en|enm|sesoun|sesoun, seson|time of the year}}, from {{der|en|fro|seson|seson, saison|time of sowing, seeding}}, from {{der|en|la|satiō||act of sowing, planting}} from {{m|la|satum}}, past participle of {{m|la|serō||to sow, plant}} from {{der|en|ine-pro|*seh₁-||to sow, plant}}. Akin to {{cog|ang|sāwan||to sow}}, {{m|ang|sǣd||seed}}. {{doublet|en|saison}}. Displaced native {{cog|enm|sele||season}} (from {{cog|ang|sǣl||season, time, occasion}}), {{cog|enm|tide||season, time of year}} (from {{cog|ang|tīd||time, period, yeartide, season}}).  ┃  {{ety|en|:bor|fr:assaisonner|text=+|tree=1}}
+
+## seat
+pos: noun    phonetic: /siːt/
+现有画面: 剧场一排座椅中留着一个空位，观众依次坐下
+现有中文: seat   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*sed-}} From {{inh|en|enm|sete}}, from {{inh|en|ang|sǣte}}, possibly from (or simply cognate with) {{der|en|non|sæti|t=seat}}, both from {{der|en|gem-pro|*sētiją|t=seat}}, from {{der|en|ine-pro|*sed-|t=to sit}}; compare {{cog|ang|set|t=seat}}. {{senseno|en|site|uc=1}} (“location or site”) is probably derived from {{inh|en|ang|sǣte|t=house}}, which is related to {{cog|goh|sāza|t=sedan, seat, domicile}}. {{col-top|2|cog}} * {{cog|dum|gesaete}} * {{cog|goh|gisazi}} (modern {{cog|de|Gesäß}}) {{col-bottom}}
+
+## secret
+pos: noun    phonetic: /ˈsiː.krɪt/
+现有画面: 上锁的抽屉藏在柜子深处，只有持钥匙的人知道
+现有中文: secret   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*krey-}} The noun is from {{inh|en|enm|secret}}, from {{der|en|la|sēcrētum}}. {{doublet|en|secretum}}. {{displaced|ang|dēagolnes||a secret}}. The verb is from the noun.  ┃  From {{inh|en|enm|secrette}}, from {{der|en|fro|secret}}, from {{der|en|la|sēcrētus||separated, hidden}}, from ptp of {{m|la|sēcernō||separate, to set aside, sunder out}}, from {{m|la|cernō}}, from {{der|en|ine-pro|*krey-}}. {{displaced|ang|dēagol||secret}}.
+
+## secretary
+pos: noun    phonetic: /ˈsek.rə.tə.ri/
+现有画面: 办公桌前的人整理文件并记录会议内容
+现有中文: secretary   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*krey-}} From {{der|en|la-med|-}} {{m|la|secrētārius||one entrusted with secrets}}, from {{der|en|la|secrētus||private, secret}}, past participle of {{m|la|secerno|secernere|to separate, set apart}}, from {{m|la|se-||apart}} + {{m|la|cerno|cernere|to separate}}.
+
+## see
+pos: verb    phonetic: /siː/
+现有画面: 窗前的人抬头看见远处山脊和移动的云
+现有中文: see   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymid|en|from PIE root for seeing or noticing}} {{root|en|ine-pro|*sekʷ-|id=see}} From {{inh|en|enm|seen}}, from {{inh|en|ang|sēon||to see, look, behold, perceive, observe, discern, understand, know}}, from {{inh|en|gmw-pro|*sehwan}}, from {{inh|en|gem-pro|*sehwaną|t=to see}}, from {{der|en|ine-pro|*sekʷ-|t=to see, notice|id=see}}. {{sno|en|refer to|pos=false|cap=1}} is a {{calque|en|la|vidē||see&nbsp;(thou)|pos={{2nd}} person singular imperative|nocap=1}}, which was also {{lg|borrowed}} into academic English (see {{l|en|vide|id=see consult}}) as well as {{l|pt|vide|Portuguese|id=see}}. {{col-top|2|cog}} Cognate with {{cog|sco|see}}, {{m|sco|sei|t=to see}}, {{cog|yol|sau}}, {{m|yol|ze}}, …（已截断）
+
+## seek
+pos: verb    phonetic: /ˈsiːk/
+现有画面: 探险者沿着脚印走进树林，寻找隐藏的目标
+现有中文: seek   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*seh₂g-}} From {{inh|en|enm|seke}}, {{m|enm|seken}}, from {{inh|en|ang|sēċan}}, {{m|ang|sēċean}}, {{m|ang|sœ̄ċan}}, from {{inh|en|gmw-pro|*sōkijan}}, from {{inh|en|gem-pro|*sōkijaną|t=to seek}}, from {{der|en|ine-pro|*séh₂gyeti|t=to seek out}}, from {{m|ine-pro|*seh₂g-|t=to follow, trace}}. {{col-top|2|cog}} Cognate with {{cog|yol|zeek|t=to seek}}, {{cog|frr|schük}}, {{m|frr|sjuk}}, {{m|frr|säke|t=to search, seek}}, {{cog|stq|säike|t=to search, seek}}, {{cog|fy|sykje|t=to seek}}, {{cog|gsw|sueche}}, {{m|gsw|süeche|t=to search, seek}}, {{cog|bar|suacha}}, {{m|bar|suachn|t=to search}}, {{cog|gmw-cfr|söke|t=to search}}, {{cog|cim|züuchan|t=to seek}}, {{cog|nl|zoeken|t=to seek}…（已截断）
+
+## seem
+pos: verb    phonetic: /ˈsiːm/
+现有画面: 远处的灯看起来像一颗星，走近后才发现是窗户
+现有中文: seem   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*sem-}} From {{inh|en|enm|semen|t=to seem, befit, be becoming}}, from {{der|en|non|sœma|t=to conform to, beseem, befit}}, from {{der|en|gem-pro|*sōmijaną|t=to unite, fit}}, from {{der|en|ine-pro|*sem-|t=one; whole}}. Cognate with {{cog|sco|seme|t=to be fitting; beseem}}, {{cog|da|sømme|t=to beseem}}, {{cog|gmq-osw|søma}}, {{cog|fo|søma|t=to be proper}}. Related also to {{cog|non|sómi|t=honour}} ( > archaic {{cog|da|somme|t=decent comportment}}), {{cog|non|sœmr|t=fitting, seemly}}, {{cog|ang|sēman|t=to reconcile, bring an agreement}}, {{cog|ang|sōm||agreement}}.
+
+## segregate
+pos: adjective    phonetic: /ˈseɡrəɡət/
+现有画面: 不同颜色的球被分别放进两只箱子，彼此不再混在一起
+现有中文: segregate   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:bor|la:sēgregātus|tree=1}} From {{uder|en|la|sēgregātus}}, perfect passive participle of {{m|la|sēgregō||to separate}}, from {{m|la|sē-||apart}} + {{m|la|gregō||to flock or group}}, from {{m|la|grex||flock}}. Compare {{m|en|gregarious}}, {{m|en|aggregate}}.
+
+## seize
+pos: verb    phonetic: /ˈsiːz/
+现有画面: 手突然抓住桌边滑落的钥匙，不让它掉进缝里
+现有中文: seize   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Earlier {{m|en|seise}}, from {{inh|en|enm|seisen}}, {{m|enm|sesen}}, {{m|enm|saisen}}, from {{der|en|fro|seisir||to take possession of; invest (person, court)}}, from {{der|en|la-eme|sacio|sacīre|to lay claim to, appropriate}} (8th century) in the phrase {{m|la||ad propriam sacire}}, from Old Low {{der|en|frk|*sakjan||to sue, bring legal action}}, from {{inh|en|gem-pro|*sakjaną}}, {{m|gem-pro|*sakōną}} (compare {{cog|ang|sacian||to strive, brawl}}), from {{der|en|gem-pro|*sakaną}} (compare {{cog|osx|sakan||to accuse}}, {{cog|goh|sahhan||to bicker, quarrel, rebuke}}, {{cog|ang|sacan||to quarrel, claim by law, accuse}}. Cognate to {{m|en|sake}} and {{cog|la|sāgiō||to perceive acutely}}.
+
+## seldom
+pos: adverb    phonetic: /ˈseldəm/
+现有画面: 日历上绝大多数日期空白，只有很少几格留下记号
+现有中文: seldom   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From late {{inh|en|enm|seldom}}, alteration of earlier {{m|enm|selden}} by analogy with adverbial datives such as {{m|en|whilom}}, from {{inh|en|ang|seldan||seldom}}, from {{inh|en|gmw-pro|*seldanā}}, from {{inh|en|gem-pro|*seldanē}}. Cognate with {{cog|stq|säilden|t=seldom}}, {{cog|fy|selden}}, {{m|fy|komselden|t=rare, seldom}}, {{cog|nl|zelden}}, {{cog|de|selten}}, {{cog|da|sjælden}}, {{cog|nb|sjelden}}, {{cog|nn|sjeldan}}, {{cog|sv|sällan}}, {{cog|fo|sjáldan}}, {{cog|is|sjaldan}}. More at {{l|en|seld}} and {{l|en|selly}}.
+
+## selection
+pos: noun    phonetic: /səˈlekʃən/
+现有画面: 货架上的物品被逐一比较，最后几件被挑到篮子里
+现有中文: selection   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{lbor|en|la|sēlēctiō||the act of choosing out, selection}}, from {{m|la|sēligō||choose out, select}}, from {{m|la|sē-||apart}} + {{m|la|legō||gather, select}}. Equivalent to {{suf|en|select|ion}}.
+
+## self
+pos: noun    phonetic: /ˈself/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 镜子前的人指向自己的胸口，确认谈论的对象
+现有中文: self   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:self|tree=1}} From {{inh|en|enm|salve}}, {{m|enm|self}}, {{m|enm|silf}}, from {{inh|en|ang|self}}, {{m|ang|seolf}}, {{m|ang|sylf}}, from {{inh|en|gem-pro|*selbaz}}, from {{inh|en|ine-pro|*selbʰ-|t=one's own}}. {{col-top|2|cog}} Cognates with {{cog|stq|sälven}}, {{m|stq|säärm}}, {{m|stq|sääuwen|t=oneself}}, {{cog|fy|sels|t=oneself}}, {{cog|bar|söbe|t=identical, same}}, {{m|bar|söber|t=self}}, {{cog|nl|zelf|t=myself, oneself}}, {{cog|de|selber|t=self}}, {{m|de|selbst|t=by oneself}}, {{cog|lb|selwer|t=self}}, {{cog|yi|זעלב|t=same}}, {{cog|da|selv|t=self}}, {{cog|ovd|siuov|t=self}}, {{cog|fo|sjálvur|t=self}}, {{cog|is|sjálfur|t=self}}, {{cog|nb|selv}}, {{cog|nn|sjølv}}, {{cog|s…（已截断）
+
+## selfish
+pos: adjective    phonetic: /ˈsel.fɪʃ/
+现有画面: 桌上的人把最后一块食物拉到自己面前，不肯分给别人
+现有中文: selfish   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{suffix|en|self|-ish}}. Compare {{cog|da|selvisk||selfish}}, {{cog|sv|självisk||selfish}}.
+
+## sell
+pos: verb    phonetic: /sel/
+现有画面: 柜台上的商品交到顾客手中，钱被放进收银盒
+现有中文: sell   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*selh₁-}} From {{inh|en|enm|sellen}}, from {{inh|en|ang|sellan||give; give up for money}}, from {{inh|en|gmw-pro|*salljan}}, from {{inh|en|gem-pro|*saljaną}}, from {{der|en|ine-pro|*selh₁-}}. {{col-top|2|cog}} Cognate with {{cog|sco|sell|t=to sell}}, {{cog|da|sælge|t=to sell}}, {{cog|nb|selge|t=to sell}}, {{cog|nn|selja}}, {{m|nn|selje|t=to sell}}, {{cog|sv|sälja|t=to sell}}, {{cog|fo,is|selja||t=to sell}}, {{cog|got|𐍃𐌰𐌻𐌾𐌰𐌽|t=to pay tribute, make an offer}}. {{col-bottom}}  ┃  From {{bor|en|fr|selle}}, from {{der|en|la|sella}}.  ┃  From Old Saxon [[seill]] or Old Norse [[seil]]. Cognate with {{cog|nl|zeel||rope}}, {{cog|de|Seil||rope}}.
+
+## semester
+pos: noun    phonetic: /sɪˈmestə/
+现有画面: 学校日历被划成上下两段，每段有考试和假期
+现有中文: semester   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{bor|en|de|Semester}}, from {{der|en|la-new|sēmestris|t=lasting six months}}, from {{m|la|sex||six}} + {{m|la|mēnsis||month}}.
+
+## seminar
+pos: noun    phonetic: /ˈsemɪnɑː/
+现有画面: 一小圈学生围着桌子讨论，导师在白板上写字
+现有中文: seminar   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*seh₁-|id=sow}} From {{bor|en|de|Seminar}}, from {{der|en|la|sēminārium}}, from {{m|la|sēmen||seed}}. Compare {{m|en|seminary}}.
+
+## senate
+pos: noun    phonetic: /ˈsenɪt/
+现有画面: 圆厅里的代表依次发言，桌上放着公共议案
+现有中文: senate   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{word|en|ine|sénos}} From {{inh|en|enm|senat}}, from {{der|en|fro|senat}}, from {{der|en|la|senātus||council of elders; a senate}}, from {{m|la|senex||old}}.
+
+## senator
+pos: noun    phonetic: /ˈsen.ə.tə/
+现有画面: 议会席位上的代表举手发言，其他人记录意见
+现有中文: senator   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{bor|en|la|senātor}}, ultimately from {{m|la|senex||old}}, equivalent to {{af|en|senate|-or}}.
+
+## send
+pos: verb    phonetic: /send/
+现有画面: 信封从一双手递到另一双手，随后被带往远处
+现有中文: send   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=go}} {{root|en|ine-pro|*sent- (go)}} From {{inh|en|enm|senden}}, from {{inh|en|ang|sendan|t=to send, cause to go}}, from {{inh|en|gmw-pro|*sandijan}}, from {{inh|en|gem-pro|*sandijaną}}, from {{inh|en|ine-pro||*sont-eye-ti|t=to cause to go}}, causative of {{m|ine-pro|*sent-|t=to walk, travel}}. The noun derives from the verb. {{col-top|2|cog}} Cognate with {{cog|stq|seende|t=to send}}, {{cog|nl|zenden|t=to send}}, {{cog|de|senden|t=to send}}, {{cog|da,nb|sende|t=to send}}, {{cog|fo,is,nn|senda|t=to send}}, {{cog|sv|sända|t=to send}}. Related also to {{cog|ang|sand}}, {{m|ang|sond|t=a sending, mission, message}}. See also [[sith]]. {{col-bottom}}
+
+## senior
+pos: adjective    phonetic: /ˈsiːnjə(r)/
+现有画面: 队伍中年资最长的人站在前排，其他人向其请教
+现有中文: senior   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{word|en|ine|sénos}} From {{inh|en|enm|senior}}, from {{der|en|la|senior||older}}, comparative form of {{m|la|senex||old}}; see {{m|en|senate}}. {{doublet|en|seigneur|seignior|senhor|señor|senyor|signore|sir|sire}}.
+
+## sentiment
+pos: noun    phonetic: /ˈsen.tɪ.mənt/
+现有画面: 一封信的字句让读者露出温柔或忧伤的表情
+现有中文: sentiment   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*sent-|id=perceive}} {{etymon|en|:der|fro:sentement>|tree=1}} From {{der|en|fro|sentement}}, from {{der|en|la|sentimentum}}.
+
+## september
+pos: noun    phonetic: /ˈseptember/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 日历翻到夏末秋初的那一页，天气开始转凉
+现有中文: september   ← 是英文词本身，需重写
+词源(Wiktionary 原文): （Wiktionary 无 Etymology 段，按通行词典写，无定论就写「更早词源不明」）
+
+## serial
+pos: adjective    phonetic: /ˈsɪə.rɪ.əl/
+现有画面: 工厂连续编号的产品沿传送带逐个经过
+现有中文: serial   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Formed as {{suffix|en|series|al}}, on model of {{der|en|la|seriālis}}, from {{m|la|seriēs}} + {{m|la|-ālis}}. Cognate to {{cog|it|seriale}}. First use appears c. 1823. See cite below.
+
+## series
+pos: noun    phonetic: /ˈsɪə.riːz/
+现有画面: 墙上挂着一排同主题的照片，顺序从第一张延续到最后
+现有中文: series   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:bor|la:seriēs|tree=1}} Attested from the 1610s; {{bor+|nocap=1|en|la|seriēs}}, from {{m|la|sero|serere|t=to join together, bind}}, ultimately from {{der|en|ine-pro|*ser-|t=to bind, put together, to line up|id=bind}}. Related to {{m|en|desert}}, {{m|en|insert}}, {{m|en|sermon}}, and {{m|en|sorcerer}}.
+
+## serious
+pos: adjective    phonetic: /ˈsɪə.ri.əs/
+现有画面: 房间里的人收起笑容，专注听一项重要决定
+现有中文: serious   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:seryows>>>|tree=1}} From {{inh|en|enm|seryows}}, from {{der|en|fro|serieux}}, from {{der|en|la-med|sēriōsus}}, an extension of {{der|en|la|sērius||grave, earnest, serious}}, possibly ultimately from {{der|en|ine-pro|*swer-||heavy}}. (If this root is correct, cognate with {{cog|de|schwer||heavy, difficult, severe}}, {{cog|ang|swǣr||heavy, grave, grievous}}. More at [[swear#Etymology_3|swear]], {{l|en|sweer}}. However, see {{l|la|sērius}} for an alternative derivation of the Latin.)
+
+## setback
+pos: noun    phonetic: /ˈsetbæk/
+现有画面: 刚搭好的桥被暴雨冲坏，工程进度被迫退回
+现有中文: setback   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{deverbal|en|set back}}. Compare {{m|en|drawback}}.
+
+## setting
+pos: noun    phonetic: /ˈsetɪŋ/
+现有画面: 舞台上的布景、灯光和道具共同构成故事发生的地方
+现有中文: setting   ← 是英文词本身，需重写
+词源(Wiktionary 原文): （Wiktionary 无 Etymology 段，按通行词典写，无定论就写「更早词源不明」）
+
+## settle
+pos: verb    phonetic: /ˈse.təl/
+现有画面: 浑水中的颗粒慢慢沉到底部，水面逐渐清亮
+现有中文: settle   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From a merger of two verbs: * {{inh|en|enm|setlen}}, from {{inh|en|ang|setlan|t=to settle, seat, put to rest}}, from {{der|en|ang|setl||seat}} (compare {{cog|nl|zetelen||to be established, settle}}) and * {{inh|en|enm|sahtlen}}, {{m|enm|seihtlen|t=to reconcile, calm, subside}}, from {{inh|en|ang|sahtlian}}, {{m|ang|ġesehtlian|t=to reconcile}}, from {{der|en|ang|saht}}, {{m|ang|seht|t=settlement, agreement, reconciliation, peace}} (see {{m|en|saught}}, {{m|en|-le}}). {{m+|de|siedeln|t=to settle}} is related to the former of the two verbs, but is not an immediate cognate of either of them.  ┃  {{root|en|ine-pro|*sed-}} From {{inh|en|enm|settle}}, {{m|enm|setle}}, {{m|enm|setel}}, {{m|enm|setil…（已截断）

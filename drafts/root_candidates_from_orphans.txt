@@ -1,0 +1,12 @@
+# 由 chunk85 的子代理在核 44 个漏网词时浮出的候选新根。
+# 每个都够 3 个成员开根，而库里几乎全空——这些是词族缺口，不是个别漏词。
+# 数字是「考研表内成员数 / 其中已入库数」，现场用脚本重数过。
+dividere	7/1	divide division device devise individual dividend divorce
+parare	6/1	prepare separate parade apparatus repair preparation
+scandere	5/1	ascend descend descent transcend scale
+servire	5/0	serve service servant dessert deserve
+minere	5/2	eminent prominent menace mountain mount
+mandare	4/0	command commend demand recommend
+demos	3/0	epidemic democracy democratic
+# 另有 capsa（cash/case 的箱柜义）成员不足，暂不建。
+# 注意：建根时 root_id 不得与任何单词同名（两个方向都不行）。

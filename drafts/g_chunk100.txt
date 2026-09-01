@@ -1,0 +1,38 @@
+# 档位是**线索不是结论**。这份分档只用了 Wiktionary 单源匹配，实测假阳性 45%、
+# 假阴性 29%（把该挂根的判成孤立）。逐词核，两个方向都要核。
+## A 档：疑可挂库中已有词根 —— 核对成立按补词写（第 5 列填根 id）；
+##       不成立就退回 B/C 规则，并在回报里说明
+castle	# 词元 castrum	疑 → astron
+cereal	# 词元 cerealis	疑 → crescere
+common	# 词元 comun	疑 → mun
+## B 档：拉丁/希腊借词，但匹配器没找到对应根
+##       **注意：没找到 ≠ 没有。** 先自己拿词元去查一遍 data/roots.json 的
+##       id/variants/origin；真没有才按孤立词条写（第 5、6 列留空），
+##       且 origin 必须写真实拉丁/希腊来源，不许编造古英语词形
+brilliant	# 词元 brillant	疑 → 
+butter	# 词元 butyrum	疑 → 
+calorie	# 词元 calorie	疑 → 
+capable	# 词元 capable	疑 → 
+capsule	# 词元 capsule	疑 → 
+cashier	# 词元 casser	疑 → 
+catastrophe	# 词元 καταστροφη	疑 → 
+cathedral	# 词元 cathedralis	疑 → 
+celebrate	# 词元 celebro	疑 → 
+cemetery	# 词元 cimitiere	疑 → 
+character	# 词元 caractere	疑 → 
+charity	# 词元 charite	疑 → 
+chemistry	# 词元 alchimista	疑 → 
+coalition	# 词元 coalition	疑 → 
+collision	# 词元 collision	疑 → 
+## C 档：查不到拉丁/希腊词元，按日耳曼型写
+bitter
+breakfast
+broadcast
+bypass
+cast
+cautious
+chemical
+clash
+clever
+clothes
+coarse

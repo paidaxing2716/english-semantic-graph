@@ -1,0 +1,182 @@
+# 第 19 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk19.tsv
+
+## south
+pos: noun    phonetic: /ˈsaʊθ/
+现有画面: 指南针指针稳定指向地图下方的方向
+现有中文: south   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:south|tree=+|id=_south}} From {{inh|en|enm|south}}, from {{inh|en|ang|sūþ}}, from {{inh|en|gmw-pro|*sunþr|t=southern}}, from {{inh|en|gem-pro|*sunþrą|t=south}}, from {{inh|en|ine-pro|*sóh₂wl̥|t=sun}}. {{col-top|2|cog}} Cognate with {{cog|sco|sooth|t=south}}, {{cog|yol|zouth|t=south}}, {{cog|frr|sööd}}, {{m|frr|Süđ}}, {{m|frr|süüd|t=south}}, {{cog|stq|Sude}}, {{m|stq|Suud|t=south}}, {{cog|fy|súd|t=south}}, {{cog|nl|zuid|t=south}}, {{cog|de|Süd|t=south}}, {{cog|da|syd|t=south}}, {{cog|fo,is|suður|t=south}}, {{cog|nb|syd}}, {{m|nb|sør|t=south}}, {{cog|nn|sør|t=south}}, {{cog|sv|syd}}, {{m|sv|söder|t=south}}; also with {{cog|ga|súil|t=eye}}, {{cog|kw|howl|t=sun}}, {{cog|gv|s…（已截断）
+
+## southeast
+pos: noun    phonetic: /sawˈθɪjst/
+现有画面: 指南针停在南方与东方之间的斜角
+现有中文: southeast   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|southest}}, from {{inh|en|ang|sūþēast}}, equivalent to {{compound|en|south|east}}.
+
+## southern
+pos: adjective    phonetic: /ˈsʌðən/
+现有画面: 海岸地图下方的城市沐浴在强烈阳光中
+现有中文: southern   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|enm|southerne}}, {{m|enm|sothern}}, {{m|enm|sutherne}}, from {{der|en|ang|sūþerne||southern, southerly, coming from the south; of southern make}}, from {{der|en|gem-pro|*sunþrōnijaz||southern}}, from {{der|en|ine-pro||*sh₂un-}}, {{m|ine-pro||*sh₂wen-}}, [[w:r/n-stem|r/n-stem]] alternation of {{m|ine-pro|*sóh₂wl̥|t=sun}}. Cognate with {{cog|sco|southron}}, {{m|sco|sudron||southern}}, {{cog|ofs|sūthern}}, {{m|ofs|sūdern||southern}}, {{cog|gml|sūdern||southern}}, {{cog|gmh|sundern||southern}}, {{cog|is|suðrænn||southern, tropical}}. {{surf|en|south|-ern}}.
+
+## southwest
+pos: noun    phonetic: /saʊθˈwest/
+现有画面: 指南针停在南方与西方之间的斜角
+现有中文: southwest   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|southwest}}, {{m|enm|southewest}}, from {{inh|en|ang|sūþwest}} and {{m|ang|sūþanwestan}}, equivalent to {{compound|en|south|west}}. Cognate with {{cog|fy|súdwest}}, {{cog|nl|zuidwest}}, {{cog|de|Südwesten}}, {{cog|da|sydvest}}, {{cog|sv|sydväst}}.
+
+## sovereign
+pos: adjective    phonetic: /ˈsɒv.rɪn/
+现有画面: 王冠放在王座上，周围没有更高的权力标志
+现有中文: sovereign   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|sovereyn}}, from {{der|en|fro|soverain}} (whence also modern {{cog|fr|souverain}}), from {{der|en|la-vul|*superānus}} (compare {{cog|it|sovrano}}, {{cog|es|soberano}}) from {{der|en|la|super||above}}. Spelling influenced by folk-etymology association with {{m|en|reign}}. {{doublet|en|soprano}}, from the same Latin root via Italian. {{doublet|en|souverain}}. See also {{m|en|suzerain}}, {{m|en|foreign}}.
+
+## sow
+pos: noun    phonetic: /ˈsow/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 农夫把种子一粒粒埋进翻松的土里
+现有中文: sow   ← 是英文词本身，需重写
+词源(Wiktionary 原文): [[File:Sow and five piglets.jpg|right|thumb|A '''sow''' ({{sno|en|female pig|pos=0}}) with her young.]] {{ety|en|id=female pig|:inh|enm:sowe|tree=1}} From {{inh|en|enm|sowe}}, from {{inh|en|ang|sugu}}, from {{inh|en|gmw-pro|*sugu}}, from {{inh|en|gem-pro|*sugō}}, probably from {{inh|en|ine-pro||*su(H)kéh₂}}, from {{m|ine-pro|*suH-|t=pig}}. See also {{cog|fy|sûch}}, {{cog|nl|zeug}}, {{cog|nds|Söög}}, {{cog|de|Sau}}, {{cog|sv|sugga}}, {{cog|no|sugge}}; also {{cog|cy|hwch||pig}}, {{cog|sa|सूकर|tr=sūkará||swine, boar}}; also {{cog|da|so}}, {{cog|de|Sau}}, {{cog|la|sūs}}, {{cog|txb|suwo}}, {{cog|grc|ὗς}}, {{cog|sq|thi}}, {{cog|ae|𐬵𐬏|tr=hū||boar}}. See also {{m|en|swine}}. {{doublet|en|soor}}.  ┃ …（已截断）
+
+## spade
+pos: noun    phonetic: /speɪd/
+现有画面: 铁铲插入泥土，手柄被双手向下压
+现有中文: spade   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|spade}}, from {{inh|en|ang|spada}}, {{m|ang|spade}}, {{m|ang|spadu|t=spade}}, from {{inh|en|gem-pro|*spadô}}. {{doublet|en|spatha|spathe|épée}}.  ┃  Probably from {{bor|en|it|spade}}, plural of {{m|it|spada|t=the ace of spades|lit=sword, spade}}, from earlier ''*spata'', from {{der|en|la|spatha}}, from {{der|en|grc|σπᾰ́θη}}. Cognate with Etymology 1. So called for the shape, though what the shape was exactly meant to represent has been debated.
+
+## span
+pos: noun    phonetic: /ˈspan/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 桥从这一岸横跨到另一岸，长度被标在两端之间
+现有中文: span   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=noun|:inh|enm:spanne|tree=1}} From {{inh|en|enm|spanne}}, from {{inh|en|ang|spann}}, from {{inh|en|gem-pro|*spannō|t=span, handbreadth}}, from {{der|en|ine-pro|*(s)pend-|t=to stretch}}. Cognate with {{cog|nl|span}}, {{m|nl|spanne}}, {{cog|de|Spanne}}. The sense “pair of horses” is probably from {{cog|ang|ġespan}}, {{m|ang|ġespann|t=a joining; a fastening together; clasp; yoke}}, from {{inh|en|gmw-pro}}. Cognate with {{cog|nl|gespan}}, {{cog|de|Gespann}}.  ┃  From {{inh|en|enm|spannen}}, from {{inh|en|ang|spannan}}, from {{inh|en|gem-pro|*spannaną|t=to stretch, span}}. Cognate with {{cog|de|spannen}}, {{cog|nl|spannen}}.  ┃  From {{inh|en|enm|span}}, from {{inh|en|ang|spann}}, …（已截断）
+
+## spare
+pos: adjective    phonetic: /speə(r)/
+现有画面: 工具箱里留着一件备用零件，当前没有装到机器上
+现有中文: spare   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|spare}}, {{m|enm|spar}}, from {{inh|en|ang|spær||sparing, scant}}, from {{inh|en|gem-pro|*sparaz}}, from {{inh|en|ine-pro|*sph₁rós}}, from the root {{l|ine-pro|*speh₁-}}. Compare {{cog|nl|spaarzaam|spaar(zaam)}}, {{cog|de|sparsam|spar(sam)}} and {{m|de|spärlich|spär(lich)}}, {{cog|sv|sparsam|spar(sam)}}, {{cog|is|sparr||sparing}}; also {{cog|la|prosperus|(pro)sperus|t=lucky}}, {{cog|cu|споръ|t=plentiful}}, {{cog|sq|shperr|t=earn money}}, {{cog|fa|سپار|tr=sepâr|t=entrust; deposit}}, {{cog|grc|σπαρνός|t=rare}}, {{cog|sa|स्फिर|tr=sphirá|t=thick}}.  ┃  From {{der|en|enm|sparen}}, {{m|enm|sparien}}, from {{der|en|ang|sparian||to spare, show mercy to, refrain from injuring or des…（已截断）
+
+## spark
+pos: noun    phonetic: /ˈspɑːk/
+现有画面: 两根金属碰撞，黑暗中突然跳出一个亮点
+现有中文: spark   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=particle|:inh|enm:sparke|tree=1}} From {{inh|en|enm|sparke}}, {{m|enm|sperke}}, from {{inh|en|ang|spearca}}, from {{inh|en|gmw-pro|*sparkō}} (compare {{cog|stq|Spoorke}}, {{cog|fy|spark}}, {{cog|nl|spark}}, {{cog|nds-de|Sparke}}, {{cog|de|Sparke}}), perhaps from {{der|en|gem-pro|*sparkaz|t=lively, energetic}}, from {{der|en|ine-pro|*sperg-||to strew, sprinkle}} (compare {{cog|br|erc’h||snow}}, {{cog|la|spargō||to scatter, spread}}, {{m|la|sparsus||scattered}}, {{cog|lt|sprógti||to germinate}}, {{cog|grc|σπαργάω||to swell}}, {{cog|ae|𐬟𐬭𐬀𐬯𐬞𐬀𐬭𐬈𐬔𐬀|t=branch, twig}}, {{cog|sa|पर्जन्य||rain, rain god}}).  ┃  Probably Scandinavian, akin to {{cog|non|sparkr||sprightly}}.
+
+## sparkle
+pos: noun    phonetic: /ˈspɑː.kəl/
+现有画面: 阳光照到水面，许多细小亮点随波闪动
+现有中文: sparkle   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|sparkel}}, {{m|enm|sparkle}}, {{m|enm|sparcle}}, equivalent to {{suf|en|spark|le|pos2=diminutive suffix}}. In some modern uses deverbal from etymology 2 below.  ┃  From {{inh|en|enm|sparklen}}, {{m|enm|sperclen}}, equivalent to {{suf|en|spark|le|pos2=frequentative verb}}. Cognate with {{cog|fy|sparkelje|t=to sparkle}}, {{cog|nl|sparkelen|t=to sparkle}}.
+
+## speak
+pos: verb    phonetic: /spiːk/
+现有画面: 发言者靠近麦克风，声音传到房间每个角落
+现有中文: speak   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|speke}}, {{m|enm|speken|t=to speak}}, from {{inh|en|ang|specan|t=to speak}}. This is usually taken to be an irregular alteration of earlier {{m|ang|sprecan}}, {{m|ang|spreocan|t=to speak}}, from {{inh|en|gmw-pro|*sprekan}}, from {{inh|en|gem-pro|*sprekaną|t=to speak, make a sound}}, from {{der|en|ine-pro|*spreg-|t=to make a sound, utter, speak}}. Finding this proposed loss of ''r'' from the stable cluster ''spr'' unparalleled, Hill instead sets up a different root, {{inh|en|gmw-pro|*spekan||to negotiate}} from {{inh|en|ine-pro|*bʰeh₂g-|*bʰégʾ-e-|t=to distribute}} with *''s''-mobile, which collapsed in meaning with *''sprekan'' ("to speak" < "to crackle, prattle") and so cam…（已截断）
+
+## speaker
+pos: noun    phonetic: /ˈspiːkə/
+现有画面: 讲台旁的音箱把人的声音送到最后一排
+现有中文: speaker   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:spekere|tree=+}} From {{inh|en|enm|speker}}, {{m|enm|spekere}}, an alteration (with change of suffix) of {{der|en|ang|speca}}, {{m|ang|spreca|t=speaker}}, from {{der|en|gem-pro|*sprekô|t=speaker}}, equivalent to {{affix|en|speak|-er|id2=agent noun}}. Compare {{cog|stq|Spreeker|t=speaker}}, {{cog|fy|sprekker|t=speaker}}, {{cog|nl|spreker|t=speaker}}, {{cog|nds-de|Spreker|t=speaker}}, {{cog|de|Sprecher|t=speaker}}.
+
+## spear
+pos: noun    phonetic: /spɪə(r)/
+现有画面: 长矛尖端指向前方，猎人在草丛边保持姿势
+现有中文: spear   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|spere}}, {{m|enm|sperre}}, {{m|enm|spear}}, from {{inh|en|ang|spere}}, from {{inh|en|gmw-pro|*speru}}, from {{inh|en|gem-pro|*speru}}, from {{der|en|ine-pro|*sperH-}}. {{col-top|2|cog}} See also {{cog|fy|spear}}, {{cog|nl|speer}}, {{cog|de|Speer}}, {{cog|non|spjǫr}}, {{m|gem-pro|*sparrô}}, {{cog|dum|sparre||rafter}}, {{cog|non|sparri||spar, rafter}}, {{m|non|sperra||rafter, beam}}; also {{cog|la|sparus||short spear}}, {{cog|sq|ferrë||thorn, thornbush}}. {{col-bottom}}  ┃  Alteration of {{m|en|spire}}, from {{inh|en|enm|spyre}}, {{m|enm|spier}}, {{m|enm|spir}}, from {{inh|en|ang|spīr|t=stalk of a plant, shoot, blade}}. More at {{m|en|spire}}.
+
+## speech
+pos: noun    phonetic: /spiːtʃ/
+现有画面: 讲台上的人连续说话，听众低头记录要点
+现有中文: speech   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:speche>>>|tree=1}} From {{inh|en|enm|speche}}, from {{inh|en|ang|spǣċ}}, {{m|ang|sprǣċ||speech, discourse, language}}, from {{inh|en|gmw-pro|*sprāku||speech, language}}, from {{der|en|ine-pro|*spereg-}}, {{m|ine-pro|*spreg-||to make a sound}}. Cognate with {{cog|nl|spraak||speech}}, {{cog|de|Sprache||language, speech}}. More at {{l|en|speak}}.
+
+## speed
+pos: noun    phonetic: /spiːd/
+现有画面: 车轮加快转动，路边的景物迅速向后退
+现有中文: speed   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*speh₁-}} From {{inh|en|enm|sped||prosperity, good luck, quickness, success}}, from {{inh|en|ang|spēd||success}}, from {{inh|en|gmw-pro|*spōdi||prosperity, success}}, from {{der|en|gmw-pro|*spōan}}, from {{der|en|gem-pro|*spōaną||to prosper, succeed, be happy}}, from {{der|en|ine-pro|*speh₁-||to prosper, turn out well}}. Cognate with {{cog|sco|spede}}, {{m|sco|speid||success, quickness, speed}}, {{cog|nl|spoed||haste; speed}}, {{cog|nds-de|Spood||haste; speed; eagerness; success}}, {{cog|de|Sput||progress, acceleration, haste}}. Related also to {{cog|ang|spōwan||to be successful, succeed}}, {{cog|sq|shpejt||to speed, to hurry}} and {{cog|ru|спеши́ть||to hurry}}, {{cog|la|sp…（已截断）
+
+## spell
+pos: noun    phonetic: /spel/
+现有画面: 孩子把字母逐个写下，组成一个完整单词
+现有中文: spell   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)pel-}} From {{inh|en|enm|spell}}, {{m|enm|spel}}, from {{inh|en|ang|spell|t=news, story}}, from {{inh|en|gem-pro|*spellą|t=speech, account, tale}}, from {{der|en|ine-pro|*(s)pel-|t=to tell}} or from {{der|en|ine-pro|*bʰel-|t=to speak, to sound}} with the [[s-mobile]] prefix. Cognate with dialectal {{cog|de|Spill}}, {{cog|is|spjall|t=discussion, talk}}, {{m|is|spjalla|t=to discuss, to talk}}, {{m|is|guðspjall|t=gospel}} and {{cog|sq|fjalë|t=word}}.  ┃  From {{inh|en|enm|spellen}}, from {{der|en|xno|espeler}}, {{m|fro|espeleir}}, {{der|en|fro|espeller}}, {{m|fro|espeler}} (compare Modern {{cog|fr|épeler}}), from {{der|en|frk|*spelōn}}, merged with native {{inh|en|ang|spel…（已截断）
+
+## spelling
+pos: noun    phonetic: /ˈspel.ɪŋ/
+现有画面: 练习本上同一个单词被写了几遍，字母顺序逐一核对
+现有中文: spelling   ← 是英文词本身，需重写
+词源(Wiktionary 原文): 1400s, from {{affix|en|spell|pos1=verb|-ing}}.
+
+## spicy
+pos: adjective    phonetic: /ˈspaɪsi/
+现有画面: 红色调料落进锅里，尝汤的人马上扇动舌头
+现有中文: spicy   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|spice|-y|text=+|tree=1|etydate=16th century}}
+
+## spider
+pos: noun    phonetic: /ˈspaɪdə/
+现有画面: 蜘蛛沿网的细线移动，八条腿在中心附近交替
+现有中文: spider   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)penh₁-}} {{inh+|en|enm|spiþre}}, {{m|enm|spydyr}}, {{m|enm|spider}}, {{m|enm|spiþer}}, from {{inh|en|ang|spīþra|t=spider}}, from {{inh|en|gmw-pro|*spinþrijō}}, from {{der|en|gem-pro|*spinnaną||to spin}}. Mostly displaced {{l|en|attercop|t=spider, unpleasant person}}, now a dialectal term. Compare typologically {{m+|sla-pro|*mězgyrь}} (whence {{m+|ru|мизги́рь}}) (akin to {{m+|lv|mežģīt}}), {{m+|tr|örümcek}} (akin to {{m|tr|örmek}}). [[File:Brachypelma edit.jpg|thumb|A '''spider''' ({{senseno|en|Q1357}}).]] [[File:Hilfsqueue_(erhöht).png|thumb|Snooker '''spider''' ({{senseno|en|snooker}}).]] [[File:19th_century_cast_iron_spider.jpg|thumb|'''Spider''' skillet ({{senseno|en…（已截断）
+
+## spill
+pos: verb    phonetic: /spɪl/
+现有画面: 杯子倾倒，液体越过边缘流到桌面
+现有中文: spill   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|enm|spillen}}, from {{der|en|ang|spillan}}, {{m|ang|spildan||to kill, destroy, waste}}, from {{der|en|gmw-pro|*spilþijan}}, from {{der|en|gem-pro|*spilþijaną||to spoil, kill, murder}}, from {{der|en|ine-pro|*(s)pel-||to sunder, split, rend, tear}}. Cognate with {{cog|nl|spillen||to use needlessly, waste}}, {{cog|fr|gaspiller}} {{gloss|"to waste, squander" < Germanic}}, {{cog|bar|spillen||to split, cleave, splinter}}, {{cog|da|spilde||to spill, waste}}, {{cog|sv|spilla||to spill, waste}}, {{cog|is|spilla||to contaminate, spoil}}. See also {{m|en|spool}}.
+
+## spin
+pos: verb    phonetic: /spɪn/
+现有画面: 陀螺在桌面中央快速转动，彩色边缘变成圆环
+现有中文: spin   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|id=rotate|:inh|enm:spinnen}} From {{inh|en|enm|spinnen}}, from {{inh|en|ang|spinnan}}, from {{inh|en|gem-pro|*spinnaną}}, from {{inh|en|ine-pro|*(s)penh₁-}}. {{col-top|2|cog}} Cognate with {{cog|nl|-}}, {{cog|de|spinnen|t=to spin}}, {{cog|lb|spannen|t=to spin}}, {{cog|yi|שפּינען|t=spin}}, {{cog|da|spinde|t=to spin}}, {{cog|fo|-}}, {{cog|is|-}} and {{cog|sv|spinna|t=to spin}}, {{cog|nb|-}}, {{cog|nn|spinne|t=to spin}}, {{cog|got|𐍃𐍀𐌹𐌽𐌽𐌰𐌽|t=to spin}}. {{col-bottom}}  ┃  {{ety|en|id=nautical|:clipping|spinnaker|tree=+|text=+}}  ┃  {{ety|en|id=special interest|:clipping|special interest}} {{clipping|en|special interest}}.
+
+## spine
+pos: noun    phonetic: /spaɪn/
+现有画面: 骨架背部中央一节节骨头排列成支柱
+现有中文: spine   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*spey-}} From late {{inh|en|enm|spyne}}, from {{der|en|fro|espine}} ({{cog|fr|épine}}) or its source, {{der|en|la|spīna||a thorn; a prickle, spine; the backbone}}. {{dbt|en|spina}}.
+
+## spit
+pos: noun    phonetic: /spɪt/
+现有画面: 人把嘴里的东西吐到地面，随后擦去嘴角
+现有中文: spit   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*speyd-|*spey-}} The noun is from {{inh|en|enm|spit}}, {{m|enm|spite}}, {{m|enm|spete}}, {{m|enm|spette}}, {{m|enm|spyte}}, {{m|enm|spytte|t=rod on which meat is cooked; rod used as a torture instrument; short spear; point of a spear; spine in the fin of a fish; pointed object; dagger symbol; land projecting into the sea}}, from {{inh|en|ang|spitu|t=rod on which meat is cooked; spit}}, from {{inh|en|gem-pro|*spitō|t=rod; skewer; spike}}, {{m|gem-pro|*spituz|t=rod on which meat is cooked; stick}}, from {{der|en|ine-pro|*speyd-}}, {{m|ine-pro|*spey-|t=sharp; sharp stick}}. The English word is cognate with {{cog|nl|spit}}, {{cog|nds|Spitt|t=pike, spear; spike; skewer; spit}}, …（已截断）
+
+## spite
+pos: noun    phonetic: /spaɪt/
+现有画面: 被拒绝的人故意弄坏对方的安排，以此发泄不满
+现有中文: spite   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*speḱ-}} From {{inh|en|enm|spit}}, a shortening of {{m|enm|despit}} (whence {{m|en|despite}}), from {{der|en|fro|despit}}, from {{der|en|la|dēspectum|t=looking down on}}, from {{der|en|la|dēspiciō|t=to look down, despise}}. Compare also {{cog|frr|spīt}}, {{m|frr|spīd|t=regret}}, {{cog|stq|Spiet|t=regret, remorse}}, {{cog|fy|spyt|t=regret}}, {{cog|nl|spijt|t=regret, remorse}}, {{cog|nds-de|Spiet|t=anger, regret, remorse}}, {{cog|de|Spiet|t=annoyance, vexation}}, {{cog|sv|spit|t=insult, outrage, annoyance}}, {{cog|no|spit|t=insult, outrage, annoyance}}.  ┃  {{rfe|en}}
+
+## splash
+pos: noun    phonetic: /splæʃ/
+现有画面: 水滴从靴边四散飞起，落在裤脚和地面上
+现有中文: splash   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Probably an alteration of {{m|en|plash}} (compare {{m|en|spatter}}, {{m|en|spill}} for the initial ''s-'').
+
+## splendid
+pos: adjective    phonetic: /ˈsplendɪd/
+现有画面: 大厅的灯光照在金色穹顶上，整座建筑显得格外华美
+现有中文: splendid   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:uder|la:splendidus|tree=1}} From {{uder|en|la|splendidus}}, from {{suffix|la|splendere|idus|t1=to shine|t2=adjective forming suffix|nocat=1}}.
+
+## split
+pos: verb    phonetic: /splɪt/
+现有画面: 木板沿中线裂开，两半向相反方向分离
+现有中文: split   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Attested since about 1567, from {{bor|en|dum|splitten||to split}} and/or {{bor|en|gml|splitten||to split}}, both ultimately from {{der|en|gmw-pro|*splittjan}}, an intensive form of {{der|en|gmw-pro|*splītan|t=to split}}, from {{der|en|gem-pro|*splītaną}} (whence {{cog|da|splitte}}, {{cog|nds|splieten}}, {{cog|de|spleißen}}), from {{der|en|ine-pro|*(s)pley-||to split, splice}}. Compare {{cog|enm|ysplett|t=split|pos=past participle of {{m|enm|splatten|t=to split}}}}, {{cog|ang|speld||splinter}}, {{cog|goh|spaltan||to split}}, {{cog|mga|slis|id=shavings|t=splinter}}, {{cog|lt|spaliai||flax sheaves}}, {{cog|cs|půl||half}}, {{cog|cu|расплитати|рас-плитати|to cleave, split}}.
+
+## spoil
+pos: verb    phonetic: /spɔɪl/
+现有画面: 食物放久后表面变色，气味也不再新鲜
+现有中文: spoil   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:spoilen>|tree=1}} From {{inh|en|enm|spoilen}}, {{m|enm|spuylen}}, borrowed from {{der|en|fro|espoillier}}, {{m|fro|espollier}}, {{m|fro|espuler}}, from {{der|en|la|spoliō|spoliō, spoliāre|t=pillage, ruin, spoil}}.
+
+## spokesman
+pos: noun    phonetic: /ˈspokesman/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 发言人站到麦克风前，代表整个组织回答提问
+现有中文: spokesman   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{af|en|spoke|-s-|man|t1=past participle of {{m|en|speak}}}}.

@@ -1,0 +1,35 @@
+# 档位是**线索不是结论**。分档只用 Wiktionary 单源匹配，实测假阳性约 50%、
+# 假阴性约 30%（把该挂根的判成孤立）。两个方向都要核。
+## A 档：疑可挂库中已有词根 —— 核对成立按补词写；不成立退回 B/C 并说明
+enforce	# 词元 enforcier	疑 → fortis
+eternal	# 词元 eternal	疑 → ternus
+faculty	# 词元 faculte	疑 → colere
+feminine	# 词元 feminin,feminine	疑 → minus-less
+## B 档：拉丁/希腊借词，但匹配器没找到根
+##       **没找到 ≠ 没有**：自己拿词元查 roots.json 的 id/variants/origin
+energy	# 词元 energie	疑 → 
+engine	# 词元 engine	疑 → 
+enthusiastic	# 词元 ενθουσιαστικος	疑 → 
+episode	# 词元 episode	疑 → 
+escape	# 词元 eschaper	疑 → 
+establishment	# 词元 establissement	疑 → 
+evacuate	# 词元 evacuo	疑 → 
+examine	# 词元 examiner	疑 → 
+excellent	# 词元 excellent	疑 → 
+exemplify	# 词元 exemplifier	疑 → 
+exercise	# 词元 exercise	疑 → 
+expansion	# 词元 expansio	疑 → 
+extreme	# 词元 extreme	疑 → 
+famine	# 词元 famine	疑 → 
+fascinate	# 词元 fascino	疑 → 
+fiction	# 词元 ficcion	疑 → 
+## C 档：查不到拉丁/希腊词元 —— 按日耳曼型写，但**也可能判错语系**
+empirical
+equator
+especially
+evaluate
+everything
+exceedingly
+extra
+ferry
+fight

@@ -1,0 +1,40 @@
+# 档位是**线索不是结论**。这份分档只用了 Wiktionary 单源匹配，实测假阳性 45%、
+# 假阴性 29%（把该挂根的判成孤立）。逐词核，两个方向都要核。
+## A 档：疑可挂库中已有词根 —— 核对成立按补词写（第 5 列填根 id）；
+##       不成立就退回 B/C 规则，并在回报里说明
+capital	# 词元 capital	疑 → caput
+casualty	# 词元 casuel	疑 → cadere
+cherish	# 词元 cherir	疑 → carrus
+## B 档：拉丁/希腊借词，但匹配器没找到对应根
+##       **注意：没找到 ≠ 没有。** 先自己拿词元去查一遍 data/roots.json 的
+##       id/variants/origin；真没有才按孤立词条写（第 5、6 列留空），
+##       且 origin 必须写真实拉丁/希腊来源，不许编造古英语词形
+border	# 词元 bordeure	疑 → 
+bureaucracy	# 词元 bureaucratie	疑 → 
+cafeteria	# 词元 cafetera	疑 → 
+candidate	# 词元 candidatus	疑 → 
+capitalism	# 词元 capitalisme	疑 → 
+carpet	# 词元 carpite	疑 → 
+cassette	# 词元 cassette	疑 → 
+category	# 词元 categorie	疑 → 
+caution	# 词元 caution	疑 → 
+celebrity	# 词元 celebrite	疑 → 
+challenge	# 词元 chalenge	疑 → 
+characteristic	# 词元 χαρακτηριστικος	疑 → 
+chemist	# 词元 chimiste	疑 → 
+chocolate	# 词元 chocolate	疑 → 
+coincidence	# 词元 coincidence	疑 → 
+combination	# 词元 combination	疑 → 
+## C 档：查不到拉丁/希腊词元，按日耳曼型写
+between
+breakdown
+briefcase
+butterfly
+cart
+catalog
+chairman
+cheque
+clasp
+clockwise
+cluster
+complicated

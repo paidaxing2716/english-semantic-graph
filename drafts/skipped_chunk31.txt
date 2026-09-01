@@ -1,0 +1,31 @@
+acid	acer（拉丁语 acidus 酸的 ← acere 发酸 ← acer 尖锐的、辛辣的，同支还有 acutus 尖的。该族在词表内有 acid/acute/eager 三词——eager ← 古法语 aigre ← acer，本义「劲头尖利」，同在本批 chunk31 内。库中 acute 现按日耳曼型写、root_ids 为空，可回收接进本根）
+agent	ag（已建模词根 ag，其 origin 即写「拉丁语 agere 驱动、做」；agent ← 拉丁语 agens/agentis，agere 的现在分词，本义「正在动手的那个」。该根现有成员 act/action/active/actor/actual/exact/react/interact/agitate/embassy/essay/exam 十二个，属补词而非新根）
+alter	alter（拉丁语 alter 两者中的另一个 → 晚期拉丁语 alterare 使成另一个样子。该族在词表内有 alter/alternative/alternate 三词。注意库中 alternate 现挂在 ternus 根下（origin 写 externus/internus ← 方位词根 ter），而 alternate ← alternare ← alternus ← alter，与 externus/internus 不同支，上报时需定夺是把 alternate 移出 ternus 并入 alter，还是维持现状）
+apply	plic（已建模词根 plic，其 origin 即写「拉丁语 plicare 折叠」；apply ← 古法语 aplier ← 拉丁语 applicare ＝ ad-（贴向）＋plicare，本义「把一物贴折到另一物上」。该根现有成员 application/applicable/complicate/complication/implication/employ/employee/employer/exploit/display 十个，唯独缺 apply 本身，属补词而非新根）
+avert	vert（已建模词根 vert，其 origin 即写「拉丁语 vertere 转、翻」；avert ＝ ab-（离开）＋vertere，本义「把脸转开」。该根现有成员 convert/divert/invert/conversation/advertise/adverse/diverse/inverse/reverse/divorce 十个，属补词而非新根）
+award	wardon（已建模词根 wardon，其 origin 即写「法兰克语 *wardon 守望、看顾」；award ← 盎格鲁法语 awarder ＝ a-＋warder（看守、审视），本义「审看之后判定」，判决义与奖项义都由此出。该根现有成员 regard/regarding/regardless 三个，词表内可补 award/reward/ward/guard/wardrobe，属补词而非新根）
+brace	bracchium（拉丁语 bracchium 上臂 ← 希腊语 brakhion；brace ← 古法语 brace「两臂张开的幅度」，故引申为撑住、箍紧。该族在词表内有 brace/embrace/bracket 三词——embrace ＝ em-＋brace「揽进两臂」，bracket ← 西班牙语 bragueta 经同支。库中 embrace/bracket 现按日耳曼型写、root_ids 为空，可回收）
+cater	cep（已建模词根 cep，其 origin 即写「拉丁语 capere 抓取、拿住、接收」；cater ← 中古英语 catour ← 盎格鲁法语 acatour（采买人）← 晚期拉丁语 accaptare ＝ ad-＋captare ← capere，本义「替人把吃的取来」。该根现有二十个成员含 capture/catch/chase/purchase 一路，属补词而非新根）
+cause	causa（拉丁语 causa 缘由、案由，法庭上指诉讼案由 → 派出 accusare ＝ ad-＋causa「把案由推到某人头上」、excusare ＝ ex-＋causa「把案由从某人身上撤掉」。该族在词表内有 cause/because/accuse/excuse 四词。库中 because/accuse 现按日耳曼型写、root_ids 为空，可回收接进本根）
+cent	centum（拉丁语 centum 一百 → centuria 百人队 / 百年，percentum「按百计」。该族在词表内有 cent/century/percent/centigrade/centimetre 五词，cent 本义「一元的百分之一」。库中 centimetre 现挂在 metron 根下，可加挂本根）
+chalk	calx（古英语 cealc ← 拉丁语 calx，属格 calcis：石灰石、小石子。该族在词表内有 chalk/calcium/calculate 三词——calcium 是取自 calx 的现代造词，calculate ← calculare ← calculus「计数用的小石子」，「拿小石子记数」正是可学的本象）
+commonwealth	mun（已建模词根 mun，其 origin 即写「拉丁语 communis 共有的 ← com-＋munus 职责、赠予」；commonwealth ＝ common（← 古法语 comun ← communis）＋wealth（日耳曼源），本义「共有的福祉」，承载词义的前半是 communis。该根现有成员 communicate/communication/community/communism 四个，缺 common 本身。注意本词是拉丁＋日耳曼的混合合成词，是否收进本根请人工定夺）
+cook	coquere（拉丁语 coquere 煮、烤，名词 coquus 厨子；古英语 cōc 即借自 coquus。该族在词表内有 cook/kitchen/biscuit 三词——kitchen ← 古英语 cycene ← 通俗拉丁语 cocina ← coquina「煮东西的地方」，biscuit ← 古法语 bescuit ← bis coctus「烤过两遍」。库中 biscuit 现按日耳曼型写、root_ids 为空，可回收）
+couch	loc（已建模词根 loc，其 origin 即写「拉丁语 locus 地点、位置」；couch ← 古法语 couche ← coucher（放平躺下）← 拉丁语 collocare ＝ com-＋locare「把身子安置到一处」。该根现有成员 locate/location/local/locality/allocate 五个，属补词而非新根。注意本词的语义链比同族其他词多绕一节——要经 collocare「安放下来」才接到「躺卧的家具」，是否满足「知道词根就能推出词义」请人工定夺）
+crime	crimen（拉丁语 crimen 指控、罪名。该族在词表内有 crime/criminal/discriminate 三词——discriminate ← discriminare ← discrimen ← crimen，本义「分辨开」。注意 crimen 与库中已建模的 cernere（筛开、分辨，origin 写「拉丁语 cernere 筛、分开、看出分别」）同出原始印欧语 *krei-，上报时需定夺是并入 cernere 还是另立 crimen——与 chunk30 里 noble 该并入 notare 还是另立 noscere 属同一类问题）
+delight	lacere（拉丁语 delectare 使高兴 ← delicere ＝ de-＋lacere（引诱、勾住），同支还有 delicatus 娇嫩讨喜的。该族在词表内有 delight/delicious/delicate 三词。注意 delight 的英语拼写里那个 gh 是十六世纪仿 light 硬加的，与「光」无关，不要按 light 一支处理）
+deny	negare（拉丁语 negare 否认、说不 → denegare ＝ de-＋negare，承载词义的是 negare。该族在词表内有 deny/denial/negative 三词。本根在 chunk29 已由 negative 一词上报过，此处是同族补词，勿重复建根）
+dial	diurnus（已建模词根 diurnus，其 origin 即写「拉丁语 diurnus 一日的，来自 dies 日」；dial ← 中世纪拉丁语 diale ← dies，本指日晷的盘面，看的是一天里日影走到哪儿。该根现有成员 journal/journalist/journey 三个，词表内可补 dial/diary，属补词而非新根）
+diary	diurnus（同上一根；diary ← 拉丁语 diarium（每日的口粮、每日的记事）← dies。与库中 journal 同义而分走拉丁、法语两路，正适合做该根下的双路例）
+dozen	decem（拉丁语 duodecim 十二 ＝ duo（二）＋decem（十）；dozen ← 古法语 dozeine。「二加十」这一层本身就是可学的推导。该族在词表内有 dozen/decade/decimal 三词经 decem 一支；另有 duplicate/doubt 经 duo 一支，但 duplicate 承载词义的是 plicare（属已建模的 plic 根）、doubt ← dubitare「两头拿不定」。上报时需定夺是建 decem 还是 duodecim）
+dress	rect（已建模词根 rect，其 origin 即写「拉丁语 regere / rectus 引导、使直」；dress ← 古法语 dresser（弄直、整理、备好）← 通俗拉丁语 *directiare ← directus ← regere。「把东西弄正、拾整齐」正是 dress a wound / well-dressed 一路义的来处。该根现有成员 correct/direct/directly/director/rectify/directory 六个，词表内还可补 address，属补词而非新根）
+eager	acer（同 acid 一根，见本文件第一条；eager ← 古法语 aigre（尖的、酸的）← 拉丁语 acer，「劲头尖利、扑上去」即由此。词表内该族共 acid/acute/eager 三词，acid 与本词同在 chunk31）
+emit	mit-miss（已建模词根 mit-miss，其 origin 即写「拉丁语 mittere 送、派遣、发出」；emit ＝ ex-（出）＋mittere，本义「往外送出」。该根现有十六个成员含 omit/admit/submit 一路，属补词而非新根）
+enemy	amicus（拉丁语 inimicus ＝ in-（不）＋amicus（朋友）← amare（爱）；enemy ← 古法语 enemi。该族在词表内有 enemy/amateur/amiable 三词——amateur ← 法语 amateur ← 拉丁语 amator「爱好者」，amiable ← 晚期拉丁语 amicabilis ← amicus。库中 amateur/amiable 现按日耳曼型写、root_ids 为空，可回收。上报时需定夺根形取 amare 还是 amicus）
+enjoy	gaudium（拉丁语 gaudium 欢喜 ← gaudere 欢喜；enjoy ← 古法语 enjoier ＝ en-（进入）＋joie（← gaudium）。该族在词表内有 enjoy/joy/rejoice 三词——rejoice ← 古法语 rejoir ＝ re-＋joir。「进到喜里」与「再喜一回」都从同一本象推得）
+enter	intrare（拉丁语 intrare 进到里面 ← intra（在内）；enter ← 古法语 entrer。该族在词表内有 enter/entry/entrance 三词，entry ← 古法语 entree、entrance ← entrer＋-ance。注意这三词是同一词干在英语里的形态变体，不是跨族联系，够不够格单开一个根请人工定夺；另注意 interior/internal/interval 只是把 inter- 当前缀用，按规格第一条不计入本族，且库中已分别挂在 ter-comparative / ternus 根下）
+entry	intrare（同上一根；entry ← 古法语 entree ← entrer ← intrare，本指「进去这个动作」，后转指进去用的那个口子与登进册子的那一条）
+envy	vid（已建模词根 vid，其 origin 即写「拉丁语 videre 看、看见」；envy ← 古法语 envie ← 拉丁语 invidia ← invidere ＝ in-（朝着）＋videre，本义「盯着别人的好处看」——罗马人认为妒忌是用眼睛伤人。该根现有成员 invisible/advisable/envisage/evident 四个，属补词而非新根）
+epoch	ekhein（希腊语 epokhē（停住、定点）← epi-（在上）＋ekhein（持、держ住）；epoch 经中世纪拉丁语 epocha 入英语，本指纪年时钉下的那个定点。该族在词表内有 epoch/scheme/school/scholar 四词——scheme ← 希腊语 skhēma（持成的形状）、school/scholar ← skholē（本义「从劳作里持住的闲暇」）。注意本族的共同点偏抽象（「持住」到「时代」「学校」都要绕一道），是否满足规格第四条的「知道词根就能推出词义」请人工定夺；另注意 schedule 不属本族，它 ← 希腊语 skhida（劈开的木片）← skhizein，是另一根）
+event	venire-invent（已建模词根 venire-invent，其 origin 即写「拉丁语 invenire：in-＋venire 来」；event ← 拉丁语 eventus ← evenire ＝ ex-（出）＋venire，本义「出来的那件事」。该根现有成员 invent/invention/inventory/invite/prevent/avenue 六个，词表内还可补 eventually/convenient，属补词而非新根）
+evoke	vocare（已建模词根 vocare，其 origin 即写「拉丁语 vocare 呼叫、召唤，来自 vox 声音」；evoke ← 拉丁语 evocare ＝ ex-（出）＋vocare，本义「把它叫出来」。该根现有成员 advocate/vocal/vocation 三个，属补词而非新根）

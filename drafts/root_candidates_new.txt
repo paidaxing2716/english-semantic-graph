@@ -1,0 +1,681 @@
+# 新根候选 —— 该 engra 标签下无任何已入库成员，且考研词 >=3
+# 只保留「多数成员查得到拉丁/希腊祖先」的标签；其余是按语素/拼写聚的，已剔除
+# 格式：# engra标签 <TAB> 考研词数 <TAB> 最常见词元  然后逐词列出
+
+# 保留 109 个标签，剔除 66 个非词源标签
+
+# mon	8 考研词	demonstratus/monetaire/muneie
+demonstrate	demonstratus/demonstro
+monetary	monetaire/monetarius/moneta	（Wiktionary 映射到已有根 tempus，可能不必新建）
+money	muneie/moneta
+monitor	monitor/monitus/monere
+monopoly	monopolium/μονοπωλιον/μονος
+monster	monstre/mostre/moustre	（Wiktionary 映射到已有根 musa，可能不必新建）
+monument	monument/monumentum/monere
+summon	somoundre/sumundre/summoneo	（Wiktionary 映射到已有根 summa，可能不必新建）
+
+# head	7 考研词	capus
+ahead	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+forehead	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+head	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+heading	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+headline	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+headquarters	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+overhead	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+
+# volu	7 考研词	evolutio/evolvo/involver
+evolution	evolutio/evolutus/evolvo
+evolve	evolvo/volvo
+involve	involver/envoudre/involvere
+revolution	revolucion/revolvo
+revolutionary	revolutionnaire
+revolve	revolver/revolvo/volvo
+volume	volume/volumen/volvo
+
+# par	6 考研词	apparatus/parade/parent
+apparatus	apparatus	（Wiktionary 映射到已有根 apparere，可能不必新建）
+parade	parade/parer/parata	（Wiktionary 映射到已有根 apparere，可能不必新建）
+parent	parent/parentem/parens	（Wiktionary 映射到已有根 apparere，可能不必新建）
+preparation	preparacion/praeparatio	（Wiktionary 映射到已有根 apparere，可能不必新建）
+prepare	preparer/praeparo/paro	（Wiktionary 映射到已有根 apparere，可能不必新建）
+separate	separatus/separo	（Wiktionary 映射到已有根 apparere，可能不必新建）
+
+# lin	6 考研词	ligne/linearis
+line	ligne/linea/ligner
+linear	linearis/linea/-aris
+liner	ligne/linea/ligner
+outline	ligne/linea/ligner
+streamline	ligne/linea/ligner
+underline	ligne/linea/ligner
+
+# uni	6 考研词	union/unique/unitus
+unify	
+union	union/unus
+unique	unique/unicus
+unit	
+unite	unitus/unio
+unity	unite/unitas/unus
+
+# riv	5 考研词	arrivaille/ariver/deriver
+arrival	arrivaille/arriver
+arrive	ariver/ripa
+derive	deriver/derivo/rivus
+rival	rivalis
+river	riviere/riparius/ripa
+
+# long	5 考研词	long/prolonguer
+along	
+alongside	
+belong	long/longus
+long	long/longus
+prolong	prolonguer/porloignier/prolongo
+
+# path	5 考研词	pathetique/sympatheticus/συμπαθεια
+path	
+pathetic	pathetique/patheticus/παθητικος	（Wiktionary 映射到已有根 tithenai，可能不必新建）
+sympathetic	sympatheticus	（Wiktionary 映射到已有根 tithenai，可能不必新建）
+sympathize	
+sympathy	συμπαθεια
+
+# cas	5 考研词	casuel/casus/occasion
+case	casus/cado/capsa	（Wiktionary 映射到已有根 cadere，可能不必新建）
+casual	casuel/cadere	（Wiktionary 映射到已有根 cadere，可能不必新建）
+casualty	casuel/casualitas/casus	（Wiktionary 映射到已有根 cadere，可能不必新建）
+occasion	occasion/occasiun/occasio	（Wiktionary 映射到已有根 cadere，可能不必新建）
+occasional	occasionalis/ocasionel
+
+# pris	5 考研词	compris/entreprise/prison
+comprise	compris/comprendre/comprehendere
+enterprise	entreprise/entreprendre/entre
+prison	prison/prehensionem/prehensio
+prisoner	prisonier
+surprise	surprise/sorprendre/prendre
+
+# imag	5 考研词	image/imaginarius/imaginacion
+image	image/imago/imitari
+imaginary	imaginarius/imago/imaginaire
+imagination	imaginacion/ymaginacion/imaginatio
+imaginative	imaginatif/imaginativus
+imagine	imaginer/imaginor/imaginem
+
+# scend	5 考研词	ascendre/descendere/descendens
+ascend	ascendre/ascendo/scando
+descend	descendere/descendre/descendo
+descendant	descendens/descendo/scando	（Wiktionary 映射到已有根 densus，可能不必新建）
+descent	descente/descendre	（Wiktionary 映射到已有根 centrum，可能不必新建）
+transcend	transcender/transcendo/scando
+
+# hous	4 考研词	mies
+house	mies/meis/maisun
+household	
+housing	mies/meis/maisun
+warehouse	mies/meis/maisun
+
+# phon	4 考研词	φωνη/simphonie/telephone
+microphone	φωνη
+phone	φωνη
+symphony	simphonie/symphonia/συμφωνια
+telephone	telephone/τηλε/φωνη
+
+# eas	4 考研词	eise/desese
+disease	desese/desaise/aise
+ease	eise/aise/asio
+easy	eise/aisie/aisier
+uneasy	eise/aisie/aisier
+
+# nam	4 考研词	name/surnum
+name	name
+namely	name
+nickname	
+surname	surnum/surnoun/nomen
+
+# sit	4 考研词	site/situation
+sit	
+site	site/situs/[[sino
+situated	
+situation	situation/situatio/situare
+
+# doc	4 考研词	doctour/doctoratus/document
+doctor	doctour/doctor/doceo
+doctorate	doctoratus
+document	document/documentum
+documentary	documentaire/document/documentum
+
+# wait	4 考研词	waitier/waiter
+await	waitier
+wait	waiter/waitier/guaitier
+waiter	
+waitress	
+
+# cap	4 考研词	caput/eschaper
+cap	caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+cape	caput/cape	（Wiktionary 映射到已有根 caput，可能不必新建）
+escape	eschaper/echapper
+handicap	
+
+# mark	4 考研词	remarquer/remarquable
+mark	
+remark	remarquer/marquer
+remarkable	remarquable
+trademark	
+
+# pan	4 考研词	acompagner/compaignon/compaignie
+accompany	acompagner/compaing/compaignon
+companion	compaignon/companio
+company	compaignie/compagnie/compagnon
+pan	patina/πατανη	（Wiktionary 映射到已有根 pati，可能不必新建）
+
+# prin	4 考研词	prince/princesse/principal
+prince	prince/princeps
+princess	princesse	（Wiktionary 映射到已有根 ced，可能不必新建）
+principal	principal/principalis
+principle	principe/principium/princeps
+
+# typ	4 考研词	typus/typicus
+stereotype	typus/τυπος/τυπτω
+type	typus/τυπος/τυπτω
+typical	typicus/τυπικος/τυπος
+typist	typus/τυπος/τυπτω
+
+# serv	4 考研词	deservir/servant/servir
+deserve	deservir/deservio/servio	（Wiktionary 映射到已有根 serv，可能不必新建）
+servant	servant/servir	（Wiktionary 映射到已有根 serv，可能不必新建）
+serve	servir/servio/servus	（Wiktionary 映射到已有根 serv，可能不必新建）
+service	servise/servir/servitium	（Wiktionary 映射到已有根 serv，可能不必新建）
+
+# reign	4 考研词	forain/reignier/soverain
+foreign	forain/foras/foris
+foreigner	forain/foras/foris
+reign	reignier/regno/regnum
+sovereign	soverain
+
+# audi	4 考研词	audience/audio/auditorium
+audience	audience/audientia/audiens	（Wiktionary 映射到已有根 audire，可能不必新建）
+audio	
+audit	audio	（Wiktionary 映射到已有根 audire，可能不必新建）
+auditorium	auditorium/auditorius	（Wiktionary 映射到已有根 audire，可能不必新建）
+
+# nov	4 考研词	innovacion/novel/novelte
+innovation	innovacion/innovo
+novel	novel/nouvel/nouveau
+novelty	novelte/nouveaute/novel
+renovate	renovatus/renovo
+
+# ward	4 考研词	awarder/reward
+award	awarder/wardare/guardare	（Wiktionary 映射到已有根 wardon，可能不必新建）
+reward	reward/regard/rewarder	（Wiktionary 映射到已有根 wardon，可能不必新建）
+steward	
+ward	
+
+# sat	4 考研词	satisfaccion/satisfactoire/satisfier
+satisfaction	satisfaccion/satisfactio
+satisfactory	satisfactoire/satisfactus/satisfacio
+satisfy	satisfier/satisfiier/satisfacio	（Wiktionary 映射到已有根 fac，可能不必新建）
+saturate	saturatus/saturo/satur
+
+# sim	4 考研词	assimulatus/similaire/simulo
+assimilate	assimulatus/assimulo/simulo
+similar	similaire/similaris/similis
+simulate	simulo/similis/simulatus
+simultaneous	simultaneus/simultim/simul
+
+# ound	4 考研词	abonder/habundance/abundant
+abound	abonder/abunder/abundo
+abundance	habundance/abondance/abundantia
+abundant	abundant/abondant/abundans
+surround	souronder/undo/suronder
+
+# dic	4 考研词	dedicatus/indico/indication
+dedicate	dedicatus/dedico	（Wiktionary 映射到已有根 dict，可能不必新建）
+indicate	indico/dico	（Wiktionary 映射到已有根 dict，可能不必新建）
+indication	indication/indicatio/indico	（Wiktionary 映射到已有根 dict，可能不必新建）
+indicative	indicatif/indicativus
+
+# stinct	4 考研词	destincter/distinction/extinctus
+distinct	destincter/distinctus/distinguere	（Wiktionary 映射到已有根 tangere，可能不必新建）
+distinction	distinction/distinctio/distinguo	（Wiktionary 映射到已有根 tangere，可能不必新建）
+extinct	extinctus/exstinctus/extinguo	（Wiktionary 映射到已有根 tangere，可能不必新建）
+instinct	instinctus/instinguo/stinguo	（Wiktionary 映射到已有根 tangere，可能不必新建）
+
+# gen	4 考研词	γενεα/γενετικος/homogeneus
+gene	γενεα/γιγνομαι
+genetic	γενετικος/γιγνομαι
+homogeneous	homogeneus/ομογενης/ομος
+ingenious	ingenieux/engenious/ingeniosus	（Wiktionary 映射到已有根 gen，可能不必新建）
+
+# sol	4 考研词	desolatus/solaris/soul
+desolate	desolatus/desolo
+solar	solaris/solarium
+sole	soul/solus/sole
+solo	solus
+
+# super	4 考研词	superbus/superiour/superiorite
+superb	superbus
+superior	superiour/superior
+superiority	superiorite/superioritas/superior
+supreme	suppreme/supreme/supremus	（Wiktionary 映射到已有根 premere，可能不必新建）
+
+# worth	4 考研词	vertere
+worship	
+worth	vertere	（Wiktionary 映射到已有根 vert，可能不必新建）
+worthwhile	vertere	（Wiktionary 映射到已有根 vert，可能不必新建）
+worthy	vertere	（Wiktionary 映射到已有根 vert，可能不必新建）
+
+# sem	4 考研词	assembler/asemblee/resemblance
+assemble	assembler/assimulo/similis
+assembly	asemblee
+resemblance	resemblance
+resemble	resembler/ressembler/sembler
+
+# or	3 考研词	adorer/aurum
+adore	adorer/aorer/adoro
+or	aurum
+oral	
+
+# person	3 考研词	parsone/personel/personalitas
+person	parsone/persoun/persona	（Wiktionary 映射到已有根 pars，可能不必新建）
+personal	personel/personal/personell
+personality	personalitas
+
+# draw	3 考研词	traho
+draw	traho	（Wiktionary 映射到已有根 tract，可能不必新建）
+drawing	traho	（Wiktionary 映射到已有根 tract，可能不必新建）
+withdraw	traho	（Wiktionary 映射到已有根 tract，可能不必新建）
+
+# cup	3 考研词	cupa/occupacion/occuper
+cup	cupa/coupe	（Wiktionary 映射到已有根 cep，可能不必新建）
+occupation	occupacion/occupation/occupatio	（Wiktionary 映射到已有根 cep，可能不必新建）
+occupy	occuper/occupo/capio	（Wiktionary 映射到已有根 cep，可能不必新建）
+
+# joy	3 考研词	enjoier/joie/resjoir
+enjoy	enjoier/anjoier/enjoer
+joy	joie/gaudium/gaudere
+rejoice	resjoir
+
+# saf	3 考研词	sauf/sauvegarde/sauvete
+safe	sauf/saulf/salf
+safeguard	sauvegarde/salve/garde	（Wiktionary 映射到已有根 wardon，可能不必新建）
+safety	sauvete/salvetet/salvitas
+
+# ol	3 考研词	aboliss/adolescent
+abolish	aboliss/abolir/aboleo
+adolescent	adolescent/adolescentem/adolescens	（Wiktionary 映射到已有根 centrum，可能不必新建）
+old	
+
+# sal	3 考研词	salade/salarie/saltus
+salad	salade/salada/salare	（Wiktionary 映射到已有根 salire，可能不必新建）
+salary	salarie/salaire/salarium
+salt	saltus
+
+# pay	3 考研词	paiier/paiement/repaier
+pay	paiier/pacare/paco	（Wiktionary 映射到已有根 peior，可能不必新建）
+payment	paiement
+repay	repaier/paiier/paco
+
+# past	3 考研词	paste/pasture
+past	
+paste	paste/pate/παστα	（Wiktionary 映射到已有根 pati，可能不必新建）
+pasture	pasture
+
+# milli	3 考研词	billion/milion/millionnaire
+billion	billion
+million	milion/millon/mille
+millionaire	millionnaire
+
+# rat	3 考研词	ratus/rate/rationel
+rat	ratus/rato
+rate	rate/rata/ratus
+rational	rationel/rational/rationalis
+
+# rap	3 考研词	rapio/rapide
+rap	
+rape	rapio/rape/raper
+rapid	rapide/rapidus
+
+# gree	3 考研词	agreer/agreable/agrement
+agree	agreer/a gre/gratus	（Wiktionary 映射到已有根 grat，可能不必新建）
+agreeable	agreable
+agreement	agrement/agreement
+
+# chem	3 考研词	chimiste/alchimista
+chemical	
+chemist	chimiste/chimista/alchimista
+chemistry	alchimista/χυμεια/χυμα
+
+# enter	3 考研词	entrer/entrance/entree
+enter	entrer
+entrance	entrance
+entry	entree/entrer
+
+# mir	3 考研词	admirer/miracle/mireor
+admire	admirer/admiror/miror
+miracle	miracle/miraculum/miror
+mirror	mireor/mirer/miror
+
+# mount	3 考研词	amonter/mons/montaigne
+amount	amonter/amont/amunt
+mount	mons/emineo/monter
+mountain	montaigne/mons
+
+# add	3 考研词	addo/adition/additionalis
+add	addo
+addition	adition/additionem/additio
+additional	additionalis
+
+# turn	3 考研词	υπερ/returner/torner
+overturn	υπερ
+return	returner/retourner/retorner
+turn	torner/tornare/tornus
+
+# guid	3 考研词	guide
+guidance	guide/guider
+guide	guide/guider
+guideline	guide/guider
+
+# tact	3 考研词	contactus/intact/τακτικος
+contact	contactus/contingo/tango	（Wiktionary 映射到已有根 tangere，可能不必新建）
+intact	intact/intactus	（Wiktionary 映射到已有根 tangere，可能不必新建）
+tactic	τακτικος/τασσω
+
+# di	3 考研词	dyal/diarius/diete
+dial	dyal/dialis/dies
+diary	diarius/dies
+diet	diete/dieta/diaeta
+
+# gin	3 考研词	enginour/engine
+engine	engine/engin/ingigno
+engineer	enginour/engigneour/engigneor	（Wiktionary 映射到已有根 gen，可能不必新建）
+engineering	enginour/engigneour/engigneor	（Wiktionary 映射到已有根 gen，可能不必新建）
+
+# thea	3 考研词	theatre/theoreticus/theorie
+theater	theatre/theatrum/θεατρον
+theoretical	theoreticus
+theory	theorie
+
+# sin	3 考研词	sons/sengle/singularis
+sin	sons
+single	sengle/saingle/sangle
+singular	singularis/singulus
+
+# pack	3 考研词	paccagium/pacquet
+pack	
+package	paccagium/pacquage
+packet	pacquet
+
+# war	3 考研词	werra/warrant
+aware	
+war	werra
+warrant	warrant/warand/guarant
+
+# fit	3 考研词	figo/profit/profitable
+fit	figo	（Wiktionary 映射到已有根 figur，可能不必新建）
+profit	profit/profectus/proficio	（Wiktionary 映射到已有根 fac，可能不必新建）
+profitable	profitable	（Wiktionary 映射到已有根 profiteri，可能不必新建）
+
+# low	3 考研词	alouer/alouance
+allow	alouer/aloer/allouer	（Wiktionary 映射到已有根 loc，可能不必新建）
+allowance	alouance
+low	
+
+# med	3 考研词	immediat/intermedio/medius
+immediate	immediat/mediatus/medio	（Wiktionary 映射到已有根 medius，可能不必新建）
+intermediate	intermedio	（Wiktionary 映射到已有根 medius，可能不必新建）
+medium	medius	（Wiktionary 映射到已有根 medius，可能不必新建）
+
+# mine	3 考研词	mine/mineral
+mine	mine	（Wiktionary 映射到已有根 minus，可能不必新建）
+mineral	mineral/minerale/minera	（Wiktionary 映射到已有根 minus，可能不必新建）
+undermine	mine	（Wiktionary 映射到已有根 minus，可能不必新建）
+
+# ped	3 考研词	expedition/pedalis
+expedition	expedition/expeditio	（Wiktionary 映射到已有根 edere-publish，可能不必新建）
+pedal	pedalis
+pedestrian	
+
+# migr	3 考研词	emigratus/immigrans/migro
+emigrate	emigratus/emigro/migro
+immigrant	immigrans/immigro
+migrate	migro
+
+# quant	3 考研词	quantifico/quantite
+quantify	quantifico/quantus
+quantitative	
+quantity	quantite/quantitas/quantus
+
+# character	3 考研词	caractere/χαρακτηριστικος/characterizo
+character	caractere/character/χαρακτηρ
+characteristic	χαρακτηριστικος/χαρακτηριζω/χαρακτηρ
+characterize	characterizo/χαρακτηριζω/χαρακτηρ	（Wiktionary 映射到已有根 ter-comparative，可能不必新建）
+
+# poet	3 考研词	poeme/poete/poeterie
+poem	poeme/poema/ποιημα
+poet	poete/poeta/ποιητης
+poetry	poeterie/poetrie/poetria	（Wiktionary 映射到已有根 ter-comparative，可能不必新建）
+
+# mend	3 考研词	comender/amender/recommender
+commend	comender/commendo/mando	（Wiktionary 映射到已有根 manus，可能不必新建）
+mend	amender/emendare/emendo
+recommend	recommender/commendo
+
+# rol(l)	3 考研词	contrerole/enroller/roeler
+control	contrerole/contrarotulus/rotulus
+enroll	enroller
+roll	roeler/roller/roler
+
+# flat	3 考研词	plat/flaour/inflation
+flat	plat/flatir
+flavor	flaour/flator
+inflation	inflation/inflatio/inflatus
+
+# stall	3 考研词	installer/installation/estaler
+install	installer/installo/stallum
+installation	installation/installatio
+stall	estaler
+
+# fund	3 考研词	fundus/fundamentum/refondre
+fund	fundus	（Wiktionary 映射到已有根 fundere，可能不必新建）
+fundamental	fundamentum/fundo/fundus	（Wiktionary 映射到已有根 fundere，可能不必新建）
+refund	refondre/refonder/refunder	（Wiktionary 映射到已有根 fundere，可能不必新建）
+
+# cogn	3 考研词	cognitivus/recognicion/reconoistre
+cognitive	cognitivus/cognitus/cognosco	（Wiktionary 映射到已有根 gnoscere，可能不必新建）
+recognition	recognicion/recognition/recognitionem	（Wiktionary 映射到已有根 gnoscere，可能不必新建）
+recognize	reconoistre/recognosco/recognizare	（Wiktionary 映射到已有根 gnoscere，可能不必新建）
+
+# spher	3 考研词	ατμος/hemisphaerium/sphere
+atmosphere	ατμος/σφαιρα
+hemisphere	hemisphaerium/ημισφαιριον/σφαιρα	（Wiktionary 映射到已有根 haerere，可能不必新建）
+sphere	sphere/sphaera/σφαιρα	（Wiktionary 映射到已有根 haerere，可能不必新建）
+
+# plod	3 考研词	explodo/explosion/explosus
+explode	explodo/[[explodo/plaudere
+explosion	explosion/explosionis/explosio
+explosive	explosus/explodo
+
+# gag	3 考研词	engagier/engagement/mortgage
+engage	engagier/gage
+engagement	engagement
+mortgage	mortgage/morgage/[[mort]] [[gage]]
+
+# hon	3 考研词	honeste/honour/honorable
+honest	honeste/honestus/honor
+honor	honour/honur/honor	（Wiktionary 映射到已有根 nutrire，可能不必新建）
+honorable	honorable/honurable/honorabilis
+
+# gent	3 考研词	gentil
+gentle	gentil/gentilis/gens
+gentleman	gentil/gentilis/gens
+gently	gentil/gentilis/gens
+
+# priv	3 考研词	privatus/depriver
+deprive	depriver/deprivo/privo
+privacy	privatus/privo/privus
+private	privatus/privo/privus
+
+# spit	3 考研词	despit
+despite	despit/despectum/despicio	（Wiktionary 映射到已有根 spect，可能不必新建）
+spit	
+spite	despit/despectum/despicio	（Wiktionary 映射到已有根 spect，可能不必新建）
+
+# termin	3 考研词	determiner/terminus/termino
+determine	determiner/determino/termino
+terminal	terminus
+terminate	termino/terminus
+
+# sting	3 考研词	distinguer/extinguo
+distinguish	distinguer/distinguo/stinguo	（Wiktionary 映射到已有根 tangere，可能不必新建）
+extinguish	extinguo/stinguo	（Wiktionary 映射到已有根 tangere，可能不必新建）
+sting	
+
+# forc	3 考研词	enforcier/force
+enforce	enforcier/fortis	（Wiktionary 映射到已有根 fortis，可能不必新建）
+force	force/fortis/forcier	（Wiktionary 映射到已有根 fortis，可能不必新建）
+reinforce	
+
+# bin	3 考研词	combination/combiner
+bin	
+combination	combination
+combine	combiner/[[binus
+
+# thus	3 考研词	enthousiasme/ενθουσιαστικος
+enthusiasm	enthousiasme/ενθουσιασμος/θεος
+enthusiastic	ενθουσιαστικος/ενθουσιασμος/ενθουσιαζω
+thus	
+
+# ma	3 考研词	magister/capus
+headmaster	capus/caput	（Wiktionary 映射到已有根 caput，可能不必新建）
+master	magister/magnus/-ester	（Wiktionary 映射到已有根 minus，可能不必新建）
+masterpiece	magister/magnus/-ester	（Wiktionary 映射到已有根 minus，可能不必新建）
+
+# mat	3 考研词	-icus
+automatic	-icus/αυτοματον/αυτοματος
+automation	-icus/αυτοματον/αυτοματος
+mat	
+
+# caut	3 考研词	caution/precaution
+caution	caution/cautio/cautus
+cautious	caution/cautio/cautus
+precaution	precaution/praecautio/praecavere
+
+# flect	3 考研词	flexible/reflect/reflection,reflexion
+flexible	flexible/flexibilis/flecto	（Wiktionary 映射到已有根 legere，可能不必新建）
+reflect	reflect/reflecto/flecto	（Wiktionary 映射到已有根 legere，可能不必新建）
+reflection	reflection,reflexion/reflecto	（Wiktionary 映射到已有根 legere，可能不必新建）
+
+# nav	3 考研词	naval/navigation/navie
+naval	naval/[[navalis
+navigation	navigation/navigationem/navigatio
+navy	navie/navigia/navigium
+
+# ton	3 考研词	tonne/tonus
+monotonous	
+ton	tonne/tonus
+tone	tonus/τονος/τεινω
+
+# ang	3 考研词	angle/rectus/triangle
+angle	angle/angulus
+rectangle	rectus/angulus	（Wiktionary 映射到已有根 rect，可能不必新建）
+triangle	triangle/triangulum/triangulus
+
+# sen	3 考研词	senat/senator/senior
+senate	senat/senatus/senex	（Wiktionary 映射到已有根 nasci，可能不必新建）
+senator	senator/senex
+senior	senior/senex
+
+# rag	3 考研词	outrage/rage
+outrage	outrage/oultrage/oultragier
+rag	
+rage	rage/rabies/rager
+
+# viv	3 考研词	supervivo/reviver
+revive	reviver/revivre/revivere
+survival	supervivo/survivre/vivere
+survive	supervivo/survivre/vivere
+
+# prim	3 考研词	primus/prime/primitif
+primary	primus/-arius/primer	（Wiktionary 映射到已有根 premere，可能不必新建）
+prime	prime/primus/prismos
+primitive	primitif/primitivus/primus
+
+# rod	3 考研词	corroder/erosion
+corrode	corroder/[[corrodo
+erosion	erosion/erosio/erodo
+rod	
+
+# prehend	3 考研词	comprehendere/comprehension/comprehensif
+comprehend	comprehendere/prehendere
+comprehension	comprehension/comprehensio
+comprehensive	comprehensif/comprehendo
+
+# rot	3 考研词	rotarius/roto
+rot	
+rotary	rotarius/rota
+rotate	roto/rota
+
+# ---- 剔除的非词源标签（过半成员查不到拉丁/希腊祖先）----
+# self	10 词	仅 0 个有词源
+# day	9 词	仅 1 个有词源
+# where	8 词	仅 0 个有词源
+# stand	8 词	仅 2 个有词源
+# gl	7 词	仅 1 个有词源
+# way	7 词	仅 0 个有词源
+# like	7 词	仅 0 个有词源
+# mo	7 词	仅 2 个有词源
+# one	6 词	仅 1 个有词源
+# body	6 词	仅 0 个有词源
+# side	6 词	仅 0 个有词源
+# out	6 词	仅 1 个有词源
+# good	5 词	仅 1 个有词源
+# thing	5 词	仅 0 个有词源
+# hand	5 词	仅 1 个有词源
+# set	5 词	仅 1 个有词源
+# cloth	4 词	仅 0 个有词源
+# hard	4 词	仅 0 个有词源
+# sun	4 词	仅 1 个有词源
+# come	4 词	仅 1 个有词源
+# night	4 词	仅 1 个有词源
+# lov	4 词	仅 0 个有词源
+# new	4 词	仅 0 个有词源
+# there	4 词	仅 0 个有词源
+# speak	4 词	仅 0 个有词源
+# tak	4 词	仅 0 个有词源
+# die	4 词	仅 1 个有词源
+# tim	4 词	仅 0 个有词源
+# bad	4 词	仅 0 个有词源
+# ever	4 词	仅 0 个有词源
+# east	4 词	仅 0 个有词源
+# west	4 词	仅 0 个有词源
+# liv	4 词	仅 0 个有词源
+# fiv- = -fif	3 词	仅 0 个有词源
+# late	3 词	仅 0 个有词源
+# work	3 词	仅 0 个有词源
+# know	3 词	仅 1 个有词源
+# go	3 词	仅 0 个有词源
+# down	3 词	仅 0 个有词源
+# think	3 词	仅 0 个有词源
+# learn	3 词	仅 0 个有词源
+# see	3 词	仅 1 个有词源
+# hear	3 词	仅 0 个有词源
+# gather	3 词	仅 0 个有词源
+# little	3 词	仅 0 个有词源
+# read	3 词	仅 0 个有词源
+# youn	3 词	仅 0 个有词源
+# break	3 词	仅 0 个有词源
+# week	3 词	仅 0 个有词源
+# near	3 词	仅 0 个有词源
+# heal	3 词	仅 0 个有词源
+# hold	3 词	仅 0 个有词源
+# full- = -fill	3 词	仅 1 个有词源
+# shut	3 词	仅 0 个有词源
+# own	3 词	仅 0 个有词源
+# lead	3 词	仅 0 个有词源
+# bit	3 词	仅 0 个有词源
+# cast	3 词	仅 0 个有词源
+# land	3 词	仅 1 个有词源
+# slip	3 词	仅 0 个有词源
+# ground	3 词	仅 0 个有词源
+# skill	3 词	仅 0 个有词源
+# fare	3 词	仅 1 个有词源
+# rid	3 词	仅 1 个有词源
+# ampl	3 词	仅 1 个有词源
+# hen	3 词	仅 0 个有词源

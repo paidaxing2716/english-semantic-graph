@@ -1,0 +1,182 @@
+# 第 11 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk11.tsv
+
+## scan
+pos: verb    phonetic: /skæn/
+现有画面: 医生把胶片从头到尾放在灯箱前逐段查看
+现有中文: scan   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:scanne|tree=1}} From late {{inh|en|enm|scanne|t=to mark off verse to show metrical structure}}, from earlier {{m|enm|scanden}}, from {{der|en|la-lat||scandere|t=to scan verse}}, from Classical {{m+|la|scandō|t=to climb, rise, mount}}, from {{der|en|ine-pro|*skend-||to jump, dart, climb, scale, scan}}.
+
+## scandal
+pos: noun    phonetic: /ˈskændəl/
+现有画面: 报纸头版刊出震动公众的消息，办公室里的人纷纷议论
+现有中文: scandal   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|frm|scandale||indignation caused by misconduct or defamatory speech}}, from {{der|en|la-ecc|scandalum||that on which one trips, cause of offense|lit=stumbling block}}, from {{der|en|grc|σκάνδαλον||a trap laid for an enemy, a cause of moral stumbling}}, from {{der|en|ine-pro|*skand-||to jump}}. Cognate with {{cog|la|scandō||to climb}}. First attested from {{cog|fro-nor|escandle}}, but the modern word is a reborrowing. Doublet, via {{cog|fro|esclandre}}, of {{doublet|en|slander|notext=1}}. Sense evolution from "cause of stumbling, that which causes one to sin, stumbling block" to "discredit to reputation, that which brings shame, thing of disgrace" is possibly due to early influe…（已截断）
+
+## scar
+pos: noun    phonetic: /skɑː(r)/
+现有画面: 旧伤痕横在皮肤上，边缘颜色比周围更深
+现有中文: scar   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{dercat|en|qsb-grc}} From {{inh|en|enm|scar}}, {{m|enm|scarre}}, a conflation of {{der|en|fro|escare|t=scab}} (from {{der|en|la-lat|eschara}}, from {{der|en|grc|ἐσχάρα||scab left from a burn}}, and thus a {{doublet|en|eschar|nocap=1}}) and {{der|en|enm|skar|t=incision, cut, fissure}} (from {{der|en|non|skarð||notch, chink, gap}}, from {{der|en|gem-pro|*skardaz||gap, cut, fragment}}). Akin to {{cog|non|skor||notch, score}}, {{cog|ang|sċeard||gap, cut, notch}}. More at [[shard]]. Displaced native {{ncog|ang|dolg}}, {{m|ang|dolgswæþ}}, and {{m|ang|wundswaþu|t=scar}}. Not related to {{m|en|scarify}}.  ┃  From {{inh|en|enm|scarre}}, {{m|enm|skarr}}, {{m|enm|skerre}}, {{m|enm|sker}}, a borrowing …（已截断）
+
+## scarce
+pos: adjective    phonetic: /ˈskeəs/
+现有画面: 货架只剩最后几件物品，排队的人还在增加
+现有中文: scarce   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*kerp-}} From {{inh|en|enm|scars}}, {{m|enm|scarse}}, from {{der|en|fro-nor|scars}}, {{m|fro|escars}} {{gloss|"sparing, niggard, parsimonious, miserly, poor"; > French {{m|fr|échars}}, {{cog|la-med|scarsus||diminished, reduced}}}}, of uncertain origin. One theory is that it derives originally from a {{der|en|la-lat|*scarpsus}}, {{m|la|*excarpsus}}, a participle form of {{m|la|*excarpere||take out}}, from {{der|en|la|ex-}} + {{m|la|carpere}}; yet the sense evolution is difficult to trace. Compare {{cog|dum|schaers||scarce}}, {{cog|dum|schaers||a pair of shears, plowshare}}, {{m|dum|scheeren||to shear}}. The standard pronunciation having the {{IPAchar|/ɛə(ɹ)/}} vowel instead …（已截断）
+
+## scare
+pos: noun    phonetic: /skeə/
+现有画面: 黑暗灌木突然晃动，路上的人停下并后退一步
+现有中文: scare   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|sker}}, {{m|enm|skere|t=terror, fright}}, from the verb {{der|en|enm|skerren|t=to frighten}} (see below).  ┃  From {{inh|en|enm|scaren}}, {{m|enm|skaren}}, {{m|enm|scarren}}, {{m|enm|skeren}}, {{m|enm|skerren}}, from {{der|en|non|skirra|t=to frighten; to shrink away from, shun; to prevent, avert}}, from {{der|en|gem-pro|*skirzijaną|t=to shoo, scare off}}, from {{der|en|ine-pro|*(s)ker-|t=to swing, jump, move}}. Related to {{cog|non|skjarr|t=timid, shy, afraid of}}. Cognate with {{cog|sco|skar|t=wild, timid, shy}}, dialectal {{cog|nn|skjerra}}, dialectal {{cog|sv|skjarra}} and possibly {{cog|xcl|ցիռ||wild ass}}.
+
+## scarf
+pos: noun    phonetic: /skɑːf/
+现有画面: 长条织物绕过脖子两圈，末端垂在外套前面
+现有中文: scarf   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Probably from {{der|en|fro-nor|escarpe}} (compare {{cog|fro|escharpe||pilgrim's purse suspended from the neck}}, which see). The verb is derived from the noun. {{dbt|en|scrip}}.  ┃  [[File:NotchedScarfJoint.png|thumb|A '''scarf''' joint]] [[File:Sewing-machine-needles-types.jpg|thumb|Sewing machine needles with scarf shown on right]] Of uncertain origin. Possibly from {{der|en|non|skarfr}}, derivative of {{m|non|skera||to cut}}.  ┃  Generally thought to be a variant, attested since the 1950s, of {{m|en|scoff||eat (quickly)}} (of which {{m|en|scorf}} is another attested variant), itself a variant of {{m|en|scaff}}. Sometimes alternatively suggested to be a dialectal survival of {{inh|en|ang|s…（已截断）
+
+## scatter
+pos: verb    phonetic: /ˈskætə/
+现有画面: 风把桌上的纸片吹向四面八方，原来的纸堆散开
+现有中文: scatter   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|scateren}}, {{m|enm|skateren}}, also {{m|enm|schateren}}, * probably a variant of {{m|en|shatter}}, which is {{onomatopoeic|en|title=imitative}}; * or from {{inh|en|ang|*sceaterian}}, probably akin to a dialect of {{der|en|non|-}}, possibly ultimately related to {{der|en|ine-pro|*skey-||to cut, split, shatter}}. Compare {{cog|dum|scheteren||to scatter}}, {{cog|nds|schateren}}, {{cog|nl|schateren||to burst out laughing}}; and is apparently remotely akin to {{cog|grc|σκεδάννυμι||scatter, disperse}}. and {{cog|txb|kät-||to scatter, sow seeds}}. {{doublet|en|shatter}}.
+
+## scene
+pos: noun    phonetic: /siːn/
+现有画面: 舞台布景固定在灯光下，演员从侧幕走进中央
+现有中文: scene   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From Late {{inh|en|enm|scene}}, from {{der|en|frm|scene}}, borrowed from {{der|en|la|scaena|sc(a)ena}}, from {{der|en|grc|σκηνή||scene, stage}}. {{doublet|en|scena|skene}}.
+
+## scenery
+pos: noun    phonetic: /ˈsiːnəri/
+现有画面: 列车窗口外连续出现山坡、河流和村庄的景色
+现有中文: scenery   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Earlier {{m|en|scenary}}, from {{af|en|scene|-ary}}, but now remodelled as {{af|en|scene|-ery}}.
+
+## scent
+pos: noun    phonetic: /sent/
+现有画面: 花瓶旁飘来清淡气味，靠近的人停下来闻了一下
+现有中文: scent   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*sent-|id=perceive}} From {{inh|en|enm|sent|pos=noun}} and {{m|enm|senten|pos=verb}}, from {{der|en|fro|sentir|t=to feel, perceive, smell, sense}}, from {{der|en|la|sentiō|sentiō, sentīre|t=to feel, sense}}. Ultimately from {{der|en|ine-pro|*sent-|t=to feel}}, and thus related to {{cog|stq|Sin|t=sense}}, {{cog|fy|sin|t=sense}}, {{cog|nl|zin|t=sense, meaning}}, {{cog|nds|Sinn|t=sense}}, {{cog|lb|Sënn|t=sense, perception}}, {{cog|de|Sinn|t=sense}}. The ''-c-'' appeared in the 17th century, possibly by influence of {{m|en|ascent}}, {{m|en|descent}}, etc., or by influence of {{m|en|science}}.
+
+## schedule
+pos: noun    phonetic: /ˈʃedʒuːl/
+现有画面: 墙上的时间表列出每个活动的开始和结束时刻
+现有中文: schedule   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{inh+|en|enm|cedule}}, from {{der|en|frm|cedule}} (whence {{cog|fr|cédule}}), from {{der|en|fro|cedule}}, from {{der|en|la-lat|schedula||papyrus strip}}, diminutive of {{der|en|la|scheda}}, from {{der|en|grc|σχέδη||papyrus leaf}}, from {{der|en|grk-pro|*skʰíďďō}}, from {{der|en|ine-pro||*skid-yé-ti}}, from {{m|ine-pro|*skeyd-||to divide, split}}. {{doublet|en|cedula|cedule}}. This word was historically pronounced {{IPAchar|/ˈsɛdjuːl/|/ˈsɛdʒuːl/}}; the pronunciations with {{IPAchar|/ʃ/}} and {{IPAchar|/sk/}} are due to the [[spelling pronunciation|spelling]] (the latter may have been reinforced by learned influence); compare {{m|en|schism}}.
+
+## scholarship
+pos: noun    phonetic: /ˈskɒləʃɪp/
+现有画面: 书桌上摊着录取通知和资助文件，学生松了一口气
+现有中文: scholarship   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|scholar|-ship|text=+|tree=1}}
+
+## scissors
+pos: noun    phonetic: /ˈsɪzəz/
+现有画面: 两片金属刃绕着轴交错，纸条从中间整齐分开
+现有中文: scissors   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|sisours}} (attested since 1350–1400), from {{der|en|fro|[[cisoir]]s}}, from {{der|en|la-lat|cīsōria}}, plural of {{m|la|cīsōrium||cutting tool}}; from {{der|en|la|-}} word root {{m|la||-cīsus}} (compare {{m|en|excise}}) or {{m|la|caesus}}, past participle of {{m|la|caedō||to cut}}. Partially displaced native {{ncog|ang|sċēara||scissors, shears}}, whence {{m|en|shears}}. {{doublet|en|chisel}}. The current spelling, from the 16th century, is due to association with {{der|en|la-med|scissor||tailor}}, from {{der|en|la|-}} carrying the meaning “carver, cutter”, from {{m|la|scindō|t=to split}}. {{rfv-etym|en}}
+
+## scold
+pos: noun    phonetic: /ˈskəʊld/
+现有画面: 家长皱眉指向墙上的破损处，孩子站在门边听着
+现有中文: scold   ← 是英文词本身，需重写
+词源(Wiktionary 原文): The noun is from {{inh|en|enm|scold|scold(e)}}, {{m|enm|skald|skald(e)}}, first attested in the 12th or 13th century (as {{m|enm|scold}}, {{m|enm|scolde}}, {{m|enm|skolde}}, {{m|enm|skald}}). The verb is from {{inh|en|enm|scolden}}, first attested in the late 1300s. Most dictionaries derive the verb from the noun and say the noun is probably from {{der|en|non|skald|t=poet}} (cognate with {{cog|is|skáld|t=poet, scop}}), as [[skald]]s sometimes wrote insulting poems, though another view is that the Norse and English words are cognate to each other and to {{cog|goh|skeltan}} (whence Modern {{cog|de|schelten|t=to scold, chide}}), {{cog|odt|skeldan}} (whence Modern {{cog|nl|schelden|t=to scold, b…（已截断）
+
+## scope
+pos: noun    phonetic: /skəʊp/
+现有画面: 望远镜镜筒指向远山，观察者调节旋钮扩大视野
+现有中文: scope   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*speḱ-}} {{etymon|en|id=aim|:der|it:scopo|tree=1}} From {{der|en|it|scopo||purpose}}, from {{der|en|la|scopus||target}}, from {{der|en|grc|σκοπός}}, from {{m|grc|σκέπτομαι}}, from {{der|en|ine-pro|*speḱ-}}. Etymologically related to {{m|en|skeptic}} and {{m|en|spectrum}}.  ┃  {{etymon|en|id=bundle|:der|la:scopa|tree=1|text=+}}
+
+## score
+pos: noun    phonetic: /skɔː/
+现有画面: 记分板上的数字随着进球立刻改变
+现有中文: score   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:score|tree=1}} From {{inh|en|enm|score}}, {{m|enm|skore}}, {{m|enm|schore}}, from {{inh|en|ang|scoru||notch; tally; score}}, from {{der|en|non|skor}}, from {{der|en|gem-pro|*skurō||incision; tear; rift}}, which is related to {{m|gem-pro|*skeraną||to cut}}, ultimately from {{der|en|ine-pro|*(s)ker-||cut}}. Cognate with {{cog|is|skora}}, {{cog|sv|skåra}}, {{cog|da|skår}}. Related to {{m|en|shear}}. For the sense “twenty”: The mark on a tally made by [[drover|drovers]] for every twenty beasts passing through a [[tollgate]].
+
+## scorn
+pos: verb    phonetic: /skɔːn/
+现有画面: 人群冷冷看着被拒绝者，没有人伸手相助
+现有中文: scorn   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Verb from {{der|en|enm|scornen}}, {{m|enm|schornen}}, alteration of {{der|en|fro|escharnir}}, from {{der|en|la-vul|*escarnire}}, from {{der|en|gmw-pro|*skarnijan}}, possibly from {{der|en|gem-pro|*skeraną|t=to shear}} (from {{der|en|ine-pro|*(s)ker-|t=to cut}}), or possibly related to {{m|gem-pro|*skarną|t=dung, filth}} (from {{der|en|ine-pro|*(s)ḱerd-}}, {{m|ine-pro|*(s)ḱer-|t=dung, manure, filth}}). Noun from {{der|en|fro|escarn}} (cognate with {{cog|pt|escárnio}}, {{cog|es|escarnio}} and {{cog|it|scherno}}). Cognate with {{cog|gmh|schern|t=joke, mockery, scorn}}, {{cog|ang|sċeriċġe|sċierniċġe|t=female entertainer, juggler, actress}}.
+
+## scout
+pos: noun    phonetic: /ˈskaʊt/
+现有画面: 侦察员蹲在高地后观察远处道路，手里握着望远镜
+现有中文: scout   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|enm|scout}}, {{m|enm|scoult}}, from {{der|en|fro|escoute||action of listening}}, verbal noun from {{m|fro|escouter||to listen, heed}}, from {{der|en|la|auscultō||to listen}}. The verb comes from the noun.  ┃  Of {{der|en|gmq}} origin. Compare {{cog|non|skúta|skúta, skúti|taunt}}, {{cog|enm|scoute|t=a wretch, rascal, rogue}}; thus may be related to {{cog|en|shout}}.  ┃  From {{inh|en|enm|scoute}}, {{m|enm|skoute}} (also {{m|enm|schoute}}, {{m|enm|shoute}}, {{m|enm|schuyt}}), from {{der|en|gml|schûte}} or {{der|en|dum|schute}}; or possibly from {{der|en|non|skúta|t=a small craft or cutter}}. Compare {{m|en|shout||flat-bottomed boat}}, {{m|en|schuit}}.  ┃  {{unc|en}}. The ''Dictio…（已截断）
+
+## scramble
+pos: verb    phonetic: /ˈskræmbl/
+现有画面: 几个人同时伸手抢散落的纸片，顺序完全乱了
+现有中文: scramble   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Origin {{unc|en|nocap=1}}. Perhaps from earlier dialectal {{m|en||scramble}}, {{m|en|scrammel|t=to collect or rake together with the hands}}, from {{af|en|scramb|t1=to pull or scrape together with the hands|-le|id2=frequentative|pos2=frequentative suffix}} (compare {{cog|nl|schrammen|t=to graze, brush, scratch}}); or alternatively from a nasalised form of {{m|en|scrabble|t=to scrape or scratch quickly}}.
+
+## scrap
+pos: noun    phonetic: /ˈskræp/
+现有画面: 金属加工后留下的小片被扫到角落的箱子里
+现有中文: scrap   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|enm|scrappe}}, from {{der|en|non|skrap}}, from {{m|non|skrapa||to scrape, scratch}}, from {{der|en|gem-pro|*skrapōną}}, {{m|gem-pro|*skrepaną||to scrape, scratch}}, from {{der|en|ine-pro|*skreb-}}, {{m|ine-pro|*skrep-||to engrave}}. Cf. {{cog|sv|skräp||garbage}}.  ┃  Perhaps from the obsolete colloquial meaning "sinister plot, scheme, villainy", or a dialectal variant of {{m|en|scrape}}.
+
+## scrape
+pos: verb    phonetic: /skreɪp/
+现有画面: 铲片沿地面刮过，泥土和碎屑聚成一条窄堆
+现有中文: scrape   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|scrapen}}, from {{der|en|non|skrapa|t=to scrape, scratch}} and {{inh|en|ang|scrapian|t=to scrape, scratch}}, both from {{inh|en|gem-pro|*skrapōną}}, {{m|gem-pro|*skrepaną|t=to scrape, scratch}}, from {{der|en|ine-pro|*skrebʰ-|t=to engrave}}. Cognate with {{cog|nl|schrapen|t=to scrape}}, {{m|nl|schrappen|t=to strike through; to cancel; to scrap}}, {{m|nl|schrabben|t=to scratch}}, {{cog|de|schrappen|t=to scrape}}, {{cog|da|skrabe|t=to scrape}}, {{cog|is|skrapa|t=to scrape}}, {{cog|wa|screper|t=to scrape}}, {{cog|la|scribō|t=dig with a pen, draw, write}}.
+
+## scratch
+pos: verb    phonetic: /skrætʃ/
+现有画面: 树皮上留下几道新鲜浅痕，旁边还挂着断掉的细枝
+现有中文: scratch   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|scracchen}}, of {{unc|en|nocap=1}} origin. Potentially a blend of {{der|en|enm|scratten|t=to scratch}} and {{m|enm|cracchen|t=to scratch}}. More at {{m|en|scrat}} and {{m|en|cratch}}. Compare {{ncog|ang|scrama}}, {{ncog|non|skråma}}, {{ncog|de|Schramme||scratch}}, which may be related.
+
+## scream
+pos: noun    phonetic: /skriːm/
+现有画面: 突然的巨响后，人群中传出一声尖利喊叫
+现有中文: scream   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{inh+|en|enm|scremen}}, borrowed from or cognate with {{der|en|dum|scremen||to yell; shout}} and {{der|en|non|skræma||to terrify; scare}}; compare {{cog|vls|schreemen}}, {{cog|zea|schreême||to shout; yell; cry}}, {{cog|sv|skrämma||to spook; frighten}}, {{cog|da|skræmme||to scare}}, {{cog|fy|skrieme||to weep}}. Compare also {{cog|sv|skräna||to yell; shout; howl}}, {{cog|nl|schreien||to cry; weep}}, {{cog|de|schreien||to scream}}. Related to [[shriek]], [[skrike]].
+
+## screen
+pos: noun    phonetic: /ˈskriːn/
+现有画面: 白色幕布挡在投影灯前，影像从后面显现出来
+现有中文: screen   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)ker-|id=cut}} From {{inh|en|enm|scren}}, {{m|enm|screne||windscreen, firescreen}}, from {{der|en|xno|escren||firescreen, the tester of a bed}}, {{der|en|fro|escren}}, {{m|fro|escrein}}, {{m|fro|escran}} (modern {{cog|fr|écran||screen}}), from {{der|en|dum|scherm}}, from {{der|en|odt|skirm}}, from {{der|en|gmw-pro|*skirmi}}, from {{der|en|gem-pro|*skirmiz||fur, shelter, covering, screen}}, from {{der|en|ine-pro|*(s)ker-||to cut, divide}}. Cognate with {{cog|nl|scherm||screen}}, {{cog|de|Schirm||screen}}. {{doublet|en|scherm}}. An alternative etymology derives {{cog|fro|escren}}, {{m|fro|escran}} from {{der|en|odt|*scranc|t=barrier}} (compare {{cog|dum|schranc}}, {{m|dum|…（已截断）
+
+## screw
+pos: noun    phonetic: /ˈskruː/
+现有画面: 螺纹沿金属杆旋转，螺丝刀把它拧进木板
+现有中文: screw   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:scrue|tree=1}} From {{inh|en|enm|screw}}, {{m|enm|scrue|t=screw}}; apparently, despite the difference in meaning, from {{der|en|fro|escroue|t=nut, cylindrical socket, screwhole}}, from {{der|en|la|scrōfa||female pig}} through comparison with the corkscrew shape of a pig's penis. There is also the {{cog|fro|escruve|t=screw}}, from {{der|en|odt|*scrūva}} {{gloss|"screw"; whence {{cog|dum|schruyve|t=screw}}}}, which probably influenced or conflated with the aforementioned, resulting in the Middle English word. {{col-top|2|more on the etymology of ''screw''}} Old French {{m|fro|escroue}} (whence {{cog|la-med|scrofa||nut, screwhole}}), is believed to be an adaptation of {{der|en…（已截断）
+
+## scrutiny
+pos: noun    phonetic: /ˈskruː.tɪ.ni/
+现有画面: 放大镜下的文件被逐字检查，任何细节都被记录
+现有中文: scrutiny   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|scrutiny}}, from {{der|en|la-med|scrūtinium||a search, an inquiry}}, from {{der|en|la-vul|scrūtor||to search or examine thoroughly}}, from {{der|en|la-lat|scrūta||rubbish, broken trash}}, from an extension of {{der|en|ine-pro|*(s)ker-||to cut|id=cut}}.
+
+## sculpture
+pos: noun    phonetic: /ˈskʌlptj(ʊ)ə/
+现有画面: 石块经过凿子反复敲击，逐渐显出人体轮廓
+现有中文: sculpture   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|sculpture}}, from {{der|en|fro|sculpture}}, from {{der|en|la|sculptūra||sculpture}}, from {{m|la|sculpō||to cut out, to carve in stone}}.
+
+## sea
+pos: noun    phonetic: /siː/
+现有画面: 海岸外的水面一直铺到地平线，浪花连续拍岸
+现有中文: sea   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{inh+|en|enm|see}}, from {{inh|en|ang|sǣ}}, from {{inh|en|gmw-pro|*saiwi||body of water}}, from {{inh|en|gem-pro|*saiwiz}}, itself either: * {{der+|en|ine-pro|*sh₂ey-|*sh₂ey-wo-|to be fierce, afflict}}. Related to {{cog|la|saevus||wild, fierce}}, {{cog|txb|saiwe||itch}}{{,}} and {{cog|lv|sievs}}, {{m|lv|sīvs||sharp, biting}}. More at {{m|en|sore}}. * {{der+|en|gem-pro|*sīhwaną||to percolate, filter}}, from {{der|en|ine-pro|*seykʷ-}}. {{col-top|2|cog}} Cognate with {{cog|yol|zea}}, {{m|yol|zee|t=sea}}, {{cog|frr|See}}, {{m|frr|sia}}, {{m|frr|siie|t=sea; lake}}, {{cog|stq|See}}, {{m|stq|Säi|t=sea}}, {{cog|fy|see|t=sea}}, {{cog|cim,mhn|sea|t=lake}}, {{cog|nl|zee|t=sea}}, {{cog|de,nds-de|See|t=…（已截断）
+
+## seal
+pos: noun    phonetic: /siːl/
+现有画面: 蜡液滴在信封封口，印章压下后留下清晰图案
+现有中文: seal   ← 是英文词本身，需重写
+词源(Wiktionary 原文): [[File:Hydrurga leptonyx.JPG|thumb|A seal ({{senseno|en|Q3192954}}) (in this instance, a [[leopard seal]])]] From {{inh|en|enm|sel|id=pinniped}}, from an inflectional form of {{inh|en|ang|seolh}}, from {{inh|en|gmw-pro|*selh}}, from {{inh|en|gem-pro|*selhaz}} (compare {{cog|sco|selch}},''[[selkie]]'', {{cog|frr|selich}}, {{cog|dum|seel}}, {{m|dum|zēle}}, {{cog|goh|selah}}, {{cog|da|sæl}}, {{cog|gml|sale}}, {{cog|is|selur}}), either from {{der|en|ine-pro|*selk-|t=to pull}} (compare dialectal {{cog|en|sullow|t=plough}}) or from early {{der|en|urj-fin-pro||*šülkeš}} (later {{m|urj-fin-pro|*hülgeh}}, compare dialectal {{cog|fi|hylki}}, standard {{m|fi|hylje}}, {{cog|et|hüljes}}).  ┃  [[File:Coll…（已截断）
+
+## seam
+pos: noun    phonetic: /ˈsiːm/
+现有画面: 两块布沿边缘缝在一起，针线在接缝处一上一下穿过
+现有中文: seam   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*syewH-}} From {{inh|en|enm|seem}}, {{m|enm|seme}}, from {{inh|en|ang|sēam|t=seam}}, from {{inh|en|gmw-pro|*saum}}, from {{inh|en|gem-pro|*saumaz|t=that which is sewn}}. Cognate with {{cog|nl|zoom||t=hem, edge}}, {{cog|de|Saum||t=hem, edge}}, {{cog|da,nb|søm||t=seam}}, {{cog|nn|saum||t=seam}}, {{cog|sv|söm||t=seam}}.  ┃  From the noun {{m|en|seam}}.  ┃  From {{inh|en|ang|sēam||a burden}}, from {{der|en|la|sagma||saddle}}.  ┃  From {{inh|en|enm|seym||grease}}, from {{der|en|fro|saim||fat}}. Compare {{cog|fr|saindoux||lard}}.

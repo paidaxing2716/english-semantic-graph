@@ -2,8 +2,15 @@
 .superpowers/
 
 __pycache__/
-# 子代理起草的中间产物，不入库；规格见 docs/draft-spec.md
+# 子代理起草的中间产物；规格见 docs/draft-spec.md
 # 注释必须单独一行——行尾 # 不是注释，会被当成模式的一部分，规则静默失效
 drafts/
+# 但切片输入与回填 TSV 要入库：它们是「哪一批做过」的唯一账本。
+# drafts/ 整目录被忽略时 git 查不到痕迹，曾因此重派一整轮 6 个代理做已完成的活
+# （见 docs/NEXT.md「别做」一节）。缓存仍不入库——.etym_cache 有 68 MB 且可重建。
+!drafts/
+!drafts/*.tsv
+!drafts/*.txt
+drafts/.etym_cache/
 # 全库静态审计报告（本地生成，可随时重建）
 audit/

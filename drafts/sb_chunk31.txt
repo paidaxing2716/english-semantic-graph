@@ -1,0 +1,182 @@
+# 第 31 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk31.tsv
+
+## trigger
+pos: noun    phonetic: /ˈtrɪɡə/
+现有画面: 手指扣动装置，弹簧释放后机器突然启动
+现有中文: trigger   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Originally {{m|en|tricker}}, from {{bor|en|nl|trekker|pos=noun, as in {{m|en||drawer-pull}}, {{m|en||bell-pull}}|t=pull}}, from {{der|en|nl|trekken|t=to drag, draw, pull}}.
+
+## trim
+pos: verb    phonetic: /ˈtrɪm/
+现有画面: 剪刀沿灌木边缘剪去多余枝叶，使轮廓整齐
+现有中文: trim   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|trimen}}, {{m|enm|trymen}}, {{m|enm|trumen|trümen}}, from {{inh|en|ang|trymman|t=to make firm; strengthen}}, from {{inh|en|gmw-pro|*trummjan}}, from {{inh|en|gem-pro|*trumjaną|t=to make fast; strengthen}}, from {{der|en|gem-pro|*trumaz|t=firm; strong; sound}}.
+
+## trip
+pos: noun    phonetic: /trɪp/
+现有画面: 脚尖碰到地面凸起，行走者向前踉跄一步
+现有中文: trip   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|enm|trippen||tread or step lightly and nimbly, skip, dance}}, perhaps from {{der|en|fro|triper||to hop or dance around, strike with the feet}}, from a {{der|en|frk|-}} source; or alternatively from {{der|en|dum|trippen|t=to skip, trip, hop, stamp, trample}} (> Modern {{cog|nl|trippelen||to toddle, patter, trip}}). Akin to {{cog|gml|trippen}} ( > {{cog|da|trippe||to trip}}, {{cog|sv|trippa||to mince, trip}}), {{cog|fy|tripje||to toddle, trip}}, {{cog|de|trippeln||to scurry}}, {{cog|ang|treppan||to trample, tread}}. Related also to {{l|en|trap}}, {{l|en|tramp}}.  ┃  From {{inh|en|enm|tryppe}}, from {{der|en|fro|trippe}}. Possibly related to [[troop]].
+
+## triumph
+pos: noun    phonetic: /ˈtraɪʌmf/
+现有画面: 队伍举起奖杯绕场一周，观众站起欢呼
+现有中文: triumph   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{dercat|en|itc-ola|ett|qsb-grc}} From {{inh|en|enm|-}}, borrowed from {{der|en|fro|triomphe|triumphe}}, from {{der|en|la|triumphus||triumphal procession}}, ultimately from {{der|en|grc|θρίαμβος||thriambus}}. {{doublet|en|thriambus|trump}}.  ┃  From {{uder|en|la|triumphō}}.
+
+## trolley
+pos: noun    phonetic: /ˈtrolley/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 购物车沿超市过道前进，篮筐里放着几件物品
+现有中文: trolley   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Early 19th century (1823) meaning "cart", of dialectal origin (Suffolk), probably from {{af|en|troll|t1=to trundle, roll|-ey|id2=diminutive|pos2=diminutive ending}}.
+
+## troop
+pos: noun    phonetic: /truːp/
+现有画面: 一队士兵沿道路整齐行进，旗帜在队伍前方
+现有中文: troop   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*treb-}} Attested in English since 1545, from {{der|en|fr|troupe}}, from {{back-form|fr|troupeau|nocat=1}}, from {{der|en|frm|trope}}, {{m|frm|troupe}}, from {{der|en|fro|trope}}, {{m|fro|trupe}}, of unknown origin. Compare {{cog|la-eme|troppus}}. {{doublet|en|troupe}}, and possibly also of {{doublet|en|thorp|dorp|trip|notext=1}}. Cognate with {{cog|de|Dorf|t=village}}.
+
+## tropic
+pos: noun    phonetic: /ˈtrɒpɪk/
+现有画面: 地图上靠近赤道的纬线被标出，阳光直射这一带
+现有中文: tropic   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*trep-}} From {{der|en|la-lat|tropicus|t=of or pertaining to the solstice, as a noun, one of the tropics}}, from {{der|en|grc|τροπικός|t=of or pertaining to a turn or change; or the solstice; or a trope or figure; tropic; tropical; etc.}}, from {{m|grc|τροπή|t=turn; solstice; trope}}.
+
+## tropical
+pos: adjective    phonetic: /ˈtrɒp.ɪ.kəl/
+现有画面: 椰树和大片绿叶围着海岸，空气温暖而潮湿
+现有中文: tropical   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|tropic|-al|text=+|tree=1}}
+
+## trouble
+pos: noun    phonetic: /ˈtʃrʌbəl/
+现有画面: 机器卡在半途不动，维修人员打开外壳寻找故障
+现有中文: trouble   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Verb is from {{inh|en|enm|troublen}}, {{m|enm|trouble}}, borrowed from {{der|en|fro|troubler}}, {{m|fro|trobler}}, {{m|fro|trubler}}, metathetic variants of {{m|fro|tourbler}}, {{m|fro|torbler}}, {{m|fro|turbler}}, from {{der|en|la-vul|*turbulō}}, from {{der|en|la|turbula||disorderly group, a little crowd or people}}, diminutive of {{m|la|turba||stir; crowd}}. The noun is from {{inh|en|enm|trouble}}, {{m|enm|troble}}, from {{der|en|fro|troble}}, from the verb.
+
+## troublesome
+pos: adjective    phonetic: /ˈtrʌbəlsəm/
+现有画面: 漏水的管道反复堵塞，工人一整天都在处理它
+现有中文: troublesome   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{suffix|en|trouble|some|pos=adjective}}.
+
+## trousers
+pos: noun    phonetic: /ˈtraʊzəz/
+现有画面: 两条裤腿从腰部垂下，脚踝处各有一个开口
+现有中文: trousers   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Attested since the 1610s, from the earlier form ''trouzes'' (attested since the 1580s), extended from ''trouse'' (1570s), with plural ending typical of things in pairs, from {{der|en|mga|triubus|t=close-fitting shorts}}, from {{der|en|sga|tribus}}, of {{unc|en|title=uncertain}} origin. The unexplained intrusive second ''-r-'' is perhaps due to the influence of {{m|en|drawers}}. {{doublet|en|trews|t1=trousers}}. Old Irish ''tribus'' is probably a borrowing of {{der|en|xno|tribuz}}, {{m|xno|trebuz}}, from {{der|en|fro|trebus}}, from {{der|en|pro|trebucs}}, {{m|pro|trabucs}}, from {{der|en|la-lat|trabrugi}}, {{m|la|tribuces}}, {{m|la|tubruci|t=leg-coverings}}, from an early {{der|en|gem|-}} lan…（已截断）
+
+## truck
+pos: noun    phonetic: /trʌk/
+现有画面: 货车停在仓库门口，装卸工把箱子搬入车厢
+现有中文: truck   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:from|id=motor vehicle|truckle|tree=1}} Perhaps a shortening of {{m|en|truckle}}, related to {{der|en|la|trochus|t=iron hoop, wheel}} from {{der|en|grc|τροχός}}.  ┃  {{etymid|en|dialectal verb}} From {{inh|en|enm|truken}}, {{m|enm|troken}}, {{m|enm|trukien}}, from {{inh|en|ang|trucian|t=to fail, run short, deceive, disappoint}}, from {{inh|en|gmw-pro|*trokōn|t=to fail, miss, lack}}, from {{der|en|ine-pro|*derew-}}, {{m|ine-pro|*derwu-|t=to tear, wrap, reap}}, from {{der|en|ine-pro|*der-|t=to flay, split}}. Cognate with {{cog|gml|troggelen|t=to cheat, deceive, swindle}}, {{cog|nl|troggelen|t=to extort}}, {{cog|de|-}} dialectal {{m|de|truggeln|t=to flatter, fawn}}.  ┃  From dialectal …（已截断）
+
+## true
+pos: adjective    phonetic: /truː/
+现有画面: 尺子和校准线重合，指针停在准确的位置
+现有中文: true   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|id=factual|:inh|enm:trewe|tree=1}} From {{inh|en|enm|treowe}}, {{m|enm|trew}}, {{m|enm|trewe}}, {{m|enm|triwe}}, {{m|enm|true}}, {{m|enm|trwe}}, from {{inh|en|ang|trēowe}}, {{m|ang|trīewe|t=faithful, true}}, from {{inh|en|gem-pro|*triwwiz|t=faithful, true}}, from pre-Germanic *''drewh₂yos'', from {{der|en|ine-pro|*drew-|*drewH-|t=firm, hard, true}}. {{col-top|2|cog}} Cognate with {{cog|stq|trjou|t=honest}}, {{cog|gsw|trüüw|t=loyal}}, {{cog|nl|trouw|t=loyal, true}}, {{cog|de|treu|t=loyal, true}}, {{cog|lb|trei|t=loyal}}, {{cog|da|tryg|t=safe, secure}}, {{cog|fo,is|tryggur|t=faithful, loyal; safe}}, {{cog|nb,nn,sv|trygg|t=safe, secure}}, {{cog|got|𐍄𐍂𐌹𐌲𐌲𐍅𐍃|t=true; faithful, loyal}}; al…（已截断）
+
+## trumpet
+pos: noun    phonetic: /ˈtrʌmpɪt/
+现有画面: 铜管乐器在乐手唇边发出响亮长音
+现有中文: trumpet   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|trumpet}}, {{m|enm|trumpette}}, {{m|enm|trompette||trumpet}}, from {{der|en|fro|trompette||trumpet}}, diminutive of {{m|fro|trompe||horn, trump, trumpet}}, from {{der|en|frk|*trumpa}}, {{m|gmw-pro|*trumba||trumpet}}, ultimately {{onomatopoeic|en|title=imitative}}. Cognate with {{cog|goh|trumpa}}, {{m|goh|trumba||horn, trumpet}}, {{cog|dum|tromme||drum}}, {{cog|gml|trumme||drum}}, {{cog|non|trumba|t=pipe; trumpet}}. More at {{l|en|drum}}. Displaced native {{m+|en|beme}}, from {{m+|enm|beme}}, from {{ncog|ang|bīeme}}.
+
+## trunk
+pos: noun    phonetic: /trʌŋk/
+现有画面: 大树底部的粗干向上支撑整片树冠
+现有中文: trunk   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*twerḱ-}} From {{inh|en|enm|tronke}}, {{m|enm|trunke}}, from {{der|en|fro|tronc|t=alms box, tree trunk, headless body}}, from {{der|en|la|truncus|t=a stock, lopped tree trunk}}, from {{m|la|truncus|t=cut off, maimed, mutilated}}. For the verb, compare {{cog|fr|tronquer}}, and see {{m|en|truncate}}. {{doublet|en|truncus|tronk}}.
+
+## trust
+pos: noun    phonetic: /trʊst/
+现有画面: 孩子把钥匙交给朋友保管，相信对方不会弄丢
+现有中文: trust   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|trust|trust, trost|t=trust, protection}}. Long considered a borrowing from {{cog|non|traust|t=confidence, help, protection}}, from {{cog|gem-pro|*traustą}}, but the root vocalism is incompatible, so ''trust'' has come to be considered a reflex of an unattested {{inh|en|ang|*trust}}, from a rare zero-grade Proto-Germanic variant of the same root also attested in {{cog|gmh|getrüste|t=host}}. Ultimately from {{der|en|ine-pro|*deru-|t=be firm, hard, solid}}. {{col-top|2|cog}} Cognate with {{cog|stq|Traast|t=comfort, solace}}, {{cog|fy|treast|t=comfort, consolation, solace}}, {{cog|nl|troost|t=comfort, consolation}}, {{cog|de|Trost|t=comfort, consolation}}, {{cog|nds|Troost|t=co…（已截断）
+
+## truth
+pos: noun    phonetic: /truːθ/
+现有画面: 几份证据指向同一个事实，调查员把结论写在记录上
+现有中文: truth   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:trouthe|tree=1|text=++}} {{surf|en|true|-th}}. {{doublet|en|troth}}. Cognate with {{cog|no|trygd||trustworthiness, security, insurance}}, {{cog|is|tryggð||loyalty, fidelity}}.
+
+## try
+pos: verb    phonetic: /traɪ/
+现有画面: 手伸向高处的按钮，第一次没够到仍继续向上
+现有中文: try   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|trien|t=to separate out, sift, choose, select, evaluate, try a legal case}}, from {{der|en|xno|trier}}, {{m|xno|triher}}, {{m|xno|triere|t=to divide, separate, choose, select, prove, determine, try a case}}, {{der|en|fro|trier|t=to choose, pick out or separate from others, sift, cull}}, of {{unc|en|nocap=1}} origin. Cognate with {{cog|oc|triar|t=to choose, sort, scrutinise, peel}}, {{cog|ca|triar|t=to pick, choose, decide}}. Suggested to be derived from {{der|en|la-lat|*trītō|*trītāre|t=to crush, grind, trample, wear out}}, itself derived from {{cog|la-cla|trītus|t=rubbed, worn down, pulverised}}, the past participle of {{m|la|tero|terō, terere|t=to rub, wear down, trample}…（已截断）
+
+## tub
+pos: noun    phonetic: /tʊb/
+现有画面: 大木桶里装着水，桶沿比人的膝盖还高
+现有中文: tub   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|tubbe}}, {{m|enm|tobbe}}, from {{der|en|dum|tubbe}} or {{der|en|gml|tubbe}}, {{m|gml|tobbe}}, further etymology unknown. Considered to be unrelated to {{m|en|tube}}.
+
+## tube
+pos: noun    phonetic: /tuːb/
+现有画面: 细长管道连接两端，液体沿内部通道流动
+现有中文: tube   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:der|frm:tube}} From {{der|en|frm|tube}}, from {{der|en|la|tubus|t=tube, pipe}}, related to {{m|la|tuba||long trumpet; war-trumpet}}, of obscure ultimate origin, but possibly connected to {{m|la|tībia||shinbone, reed-pipe}}; see there. {{doublet|en|tubus}}.
+
+## tuck
+pos: verb    phonetic: /tʊk/
+现有画面: 手指把毯子边缘塞进床垫下，布料被固定住
+现有中文: tuck   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*dewk-}} From {{inh|en|enm|tuken}}, {{m|enm|touken|t=to torment, to stretch (cloth)}}, from {{inh|en|ang|tūcian|t=to torment, vex}} and {{der|en|dum|tucken|t=to tuck}}, both from {{der|en|gem-pro|*teuh-}}, {{m|gem-pro|*teug-|t=to draw, pull}} (compare also {{m|gem-pro|*tukkōną}}), from {{der|en|ine-pro|*dewk-|t=to pull}}. Akin to {{cog|goh|zucchen|t=to snatch, tug}}, {{m|goh|zuchôn|t=to jerk}}, {{cog|nds-de|tuken|t=to tug, pluck, grab and pull towards}}, {{cog|ang|tēon|t=to draw, pull, train}}. {{doublet|en|touch}}.  ┃  From {{uder|en|fro|estoc||rapier}}, from {{uder|en|it|stocco||a truncheon, a short sword}}. {{doublet|en|estoc}}.  ┃  Compare {{m|en|tocsin}}.
+
+## tug
+pos: verb    phonetic: /ˈtʌɡ/
+现有画面: 两个人向相反方向拉绳，绳结在中间绷紧
+现有中文: tug   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*dewk-}} From {{inh|en|enm|tuggen}}, from {{inh|en|ang|togian|t=to tow}}, from {{inh|en|gmw-pro|*togōn}}, from {{inh|en|gem-pro|*tugōną|t=to draw, pull}}, from {{der|en|ine-pro|*dewk-|t=to draw, pull; to lead}}. {{col-top|2|cog}} Cognate with {{cog|de|zögern|t=to hesitate, pause}}, {{cog|fo,is|toga|t=to pull}}, {{cog|fr|touer|t=to tow, tug a ship}}; also {{cog|cy|dwyn|t=to steal; to take; to bring to}}, {{cog|la|dūcō|t=to conduct, guide, lead; to take; to draw, pull; to consider, think; to prolong; to march; to forge}}, {{cog|grc|δαδύσσομαι|t=to be distracted}}, {{cog|sq|nduk|t=to pluck out, pull out, tear}}, {{cog|ckb|دۆشین|t=to milk}}, {{cog|kmr|dotin}}, {{m|kmr|doşîn}}, …（已截断）
+
+## tuition
+pos: noun    phonetic: /tjuːˈɪʃən/
+现有画面: 老师在小组旁解释题目，学生逐步理解难点
+现有中文: tuition   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|xno|tuycioun}}, from {{der|en|fro|tuicion}}, from {{der|en|la|tuitiō|t=guard, protection, defense}}, from {{m|la|tuēri|t=to watch, guard, see, observe}}. Compare {{m|en|intuition}}, {{m|en|tutor}}.
+
+## tumble
+pos: noun    phonetic: /ˈtʊmbl/
+现有画面: 箱子从台阶滚下，里面的物品在各面之间翻转
+现有中文: tumble   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:tumblen<t:to fall over and over again, tumble|tree=1}} From {{inh|en|enm|tumblen|t=to fall over and over again, tumble}}, frequentative of {{der|en|enm|tumben|t=to fall, leap, dance}}, from {{der|en|ang|tumbian}}, from {{der|en|gmw-pro|*tūmōn|*tumbōn, tūmōn}}, from {{der|en|gem-pro|*tūmōną|*tumbōną, tūmōną|t=to turn, rotate}}. Cognate with {{cog|dum|tumelen}} (whence {{cog|nl|tuimelen}}), {{cog|gml|tumelen}}, {{m|gml|tummelen}}, {{cog|de|taumeln}}, {{cog|da|tumle}}, {{cog|sv|tumla}}, {{m|sc|tumbla|t=to tumble}}, {{cog|fo|tumla}}, {{m|fo|tumbla|t=to walk heavily and noisily, stagger}}.
+
+## tumour
+pos: noun    phonetic: /ˈtumour/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 医学图像中出现一团不规则组织，医生在边缘做标记
+现有中文: tumour   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|tumour}}, from {{der|en|fro|tumour}}, from {{der|en|la|tumor|t=swelling}}, from {{m|la|tumeō|t=bulge, swell|pos=verb}}, from {{der|en|ine-pro|*tewh₂-|t=to swell}}. Related to {{cog|en|thumb}}.
+
+## tune
+pos: noun    phonetic: /tjuːn/
+现有画面: 乐手转动旋钮，让乐器音高与音叉一致
+现有中文: tune   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*ten-}} From {{inh|en|enm|tune}}, an unexplained variant of {{m|en|tone}}, from {{der|en|fro|ton}}, from {{der|en|la|tonus}}, from {{der|en|grc|τόνος|t=a tone}}. {{doublet|en|tone|ton|tonus}}.
+
+## tunnel
+pos: noun    phonetic: /ˈtʌn(ə)l/
+现有画面: 道路从山体内部穿过，车灯照亮前方黑暗通道
+现有中文: tunnel   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|frm|tonnelle||net}} or {{m|frm|tonel||cask}}, diminutive of {{der|en|fro|tonne||cask}}, a word of uncertain origin and affiliation. Related to {{cog|ang|tunne||tun; cask; barrel}}. More at {{m|en|tun}}.
+
+## turkey
+pos: noun    phonetic: /ˈtɜːki/
+现有画面: 农场围栏里一只大鸟展开尾羽，旁边散着谷粒
+现有中文: turkey   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:from|Turkey}} ) ''({{senseno|en|Q26844}})''. }} {{clipping|en|turkeycock|turkey-cock}} and {{m|en|turkey-hen}}, originally denoting the [[guinea fowl]], an African bird that was first imported to Europe through [[Turkey]], but there is some controversy over the origin. The word was then transferred to the superficially similar North American bird {{taxfmt|Meleagris gallopavo|species}}.
+
+## turnover
+pos: noun    phonetic: /ˈturnover/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 柜台交班时文件和钥匙交到下一位工作人员手中
+现有中文: turnover   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:deverbal|turn over|text=+|tree=1}}
+
+## tutor
+pos: noun    phonetic: /ˈtjuːtə/
+现有画面: 老师坐在学生旁边，逐题讲解练习本上的难点
+现有中文: tutor   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|tutour}}, from {{der|en|fro|tuteur}} ({{cog|fr|tuteur}}), from {{der|en|la|tūtor||a watcher, protector, guardian}}, from {{m|la|tueor|t=protect}}; see [[tuition]].  ┃  {{ellipsis|en|alt=Demonic tutor}}, name of an early ''{{w|Magic: The Gathering}}'' card with this effect.

@@ -1,0 +1,37 @@
+# 档位是线索不是结论，**逐词核词源**。单源匹配（只有 Wiktionary、无第二源
+# 交叉）实测噪声率约 45%。
+## A 档：疑可挂库中已有词根 —— 核对成立就按补词写（第 5 列填根 id），
+##       核不成立就按下面 B/C 档的规则处理，并在回报里说明
+ancestor	# 词元 ancestre	疑 → ced
+assault	# 词元 assaut	疑 → salire
+## B 档：拉丁/希腊借词，但词族在考研词表内凑不到 3 个成员
+##       写孤立词条（第 5、6 列留空），origin 必须写真实拉丁/希腊来源，
+##       **不许编造古英语词形**；确实无定论就写「更早词源不明」
+academic	# 词元 academicus
+accelerate	# 词元 acceleratus
+acquaintance	# 词元 aquaintaunce
+advantage	# 词元 avantage
+agreement	# 词元 agrement
+alphabet	# 词元 αλφαβητος
+analogy	# 词元 analogia
+arithmetic	# 词元 arismetique
+assassinate	# 词元 assassiner
+astronaut	# 词元 αστρον
+atmosphere	# 词元 ατμος
+bacterium	# 词元 βακτηριον
+## C 档：查不到拉丁/希腊词元，按日耳曼型写
+above
+advanced
+after
+again
+airport
+amplifier
+analogue
+antenna
+appraisal
+automation
+aviation
+basketball
+beforehand
+believe
+beside

@@ -1,0 +1,39 @@
+# 档位是**线索不是结论**。分档只用了 Wiktionary 单源匹配，实测假阳性 45%、
+# 假阴性 30%（把该挂根的判成孤立）。两个方向都要核。
+## A 档：疑可挂库中已有词根 —— 核对成立按补词写（第 5 列填根 id）；
+##       不成立退回 B/C 规则，并在回报里说明
+council	# 词元 conseil	疑 → consulere
+crystal	# 词元 crystallus	疑 → crit
+danger	# 词元 dangier	疑 → domus
+## B 档：拉丁/希腊借词，但匹配器没找到对应根
+##       **没找到 ≠ 没有**：先自己拿词元查一遍 roots.json 的 id/variants/origin，
+##       真没有才按孤立词条写（第 5、6 列留空），origin 必须写真实来源
+precaution	# 词元 precaution	疑 → 
+conceal	# 词元 conceler	疑 → 
+connection	# 词元 connexionem	疑 → 
+contrary	# 词元 contraire	疑 → 
+copper	# 词元 [[aes]] [[cyprium]]	疑 → 
+corridor	# 词元 corridor	疑 → 
+coupon	# 词元 coupon	疑 → 
+courtesy	# 词元 curtesie	疑 → 
+dangerous	# 词元 dangereus	疑 → 
+deficit	# 词元 deficit	疑 → 
+deprive	# 词元 depriver	疑 → 
+destination	# 词元 destinatio	疑 → 
+determine	# 词元 determiner	疑 → 
+diplomatic	# 词元 diplomatique	疑 → 
+elementary	# 词元 elementarius	疑 → 
+eliminate	# 词元 elimino	疑 → 
+emigrate	# 词元 emigratus	疑 → 
+emperor	# 词元 empereor	疑 → 
+## C 档：查不到拉丁/希腊词元，按日耳曼型写。**注意也可能判错语系**
+cooperative
+could
+countryside
+cripple
+curl
+cyberspace
+dialog
+duck
+eastern
+eight

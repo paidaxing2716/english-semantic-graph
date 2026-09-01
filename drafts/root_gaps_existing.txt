@@ -1,0 +1,674 @@
+# 现有根缺失的考研词 —— engra × Wiktionary 双源交叉验证
+# 档位：AGREE=两源一致可直接派 / ENGRA_ONLY=需核 / NO_ETYM=非词源分组，建议剔除
+# 格式：根id <TAB> 档位 <TAB> 词 <TAB> Wiktionary 词元
+
+# sta	现有 24 词	缺 16 词
+sta	AGREE	assist	assister/assisto
+sta	AGREE	assistance	assistance/assistentia/assisto
+sta	AGREE	assistant	assistant/assister
+sta	AGREE	consist	consister/consisto/sisto
+sta	AGREE	consistent	consistens/consisto/sisto
+sta	AGREE	constituent	constituens/constituo/statuo
+sta	AGREE	estate	estat/etat/status
+sta	AGREE	exist	exister/exsisto/sisto
+sta	AGREE	existence	existence/existens/exsisto
+sta	AGREE	insist	insister/insisto
+sta	AGREE	persist	persister/persisto/sisto
+sta	AGREE	statesman	estat/status
+sta	AGREE	statue	statue/statua/statuo
+sta	AGREE	status	status
+sta	AGREE	statute	statut/statutus/statuo
+sta	AGREE	superstition	superstition/superstitio/supersto
+
+# venire-invent	现有 6 词	缺 11 词
+venire-invent	AGREE	advent	adventus
+venire-invent	AGREE	adventure	aventure/advenio/aventurer
+venire-invent	AGREE	convenience	convenientia/conveniens/convenire
+venire-invent	AGREE	convenient	conveniens/convenio
+venire-invent	AGREE	convention	convention/conventio/convenio
+venire-invent	AGREE	conventional	convention/conventio/convenio
+venire-invent	AGREE	event	event/eventus/evenio
+venire-invent	NO_ETYM	eventually	
+venire-invent	AGREE	intervene	intervenio
+venire-invent	ENGRA_ONLY	invitation	invitatio
+venire-invent	AGREE	revenue	revenue/revenu/revenir
+
+# ag	现有 12 词	缺 10 词
+ag	AGREE	activate	actif/activus
+ag	ENGRA_ONLY	activity	activite/activitas
+ag	AGREE	agency	agentia/agens/agere
+ag	ENGRA_ONLY	agenda	agendus
+ag	ENGRA_ONLY	agent	agens
+ag	ENGRA_ONLY	ambassador	ambassadeur
+ag	AGREE	ambiguous	ambiguus/ambigere/ambi
+ag	ENGRA_ONLY	ambitious	ambitieus/ambitiosus/ambitio
+ag	ENGRA_ONLY	ambulance	ambulance/hopital ambulant/-ance
+ag	ENGRA_ONLY	say	εννεπω/saie/saga
+
+# pend	现有 7 词	缺 9 词
+pend	AGREE	expenditure	expenditus/expendo
+pend	AGREE	expense	expense/espense/expendo
+pend	AGREE	independence	independance
+pend	AGREE	independent	dependant/dependre/dependens
+pend	AGREE	indispensable	indispensabilis
+pend	AGREE	pendulum	pendulus
+pend	AGREE	pension	pencione/pencion/pensio
+pend	AGREE	ponder	ponderer/ponderare/pondus
+pend	AGREE	spend	expendere
+
+# tendere	现有 12 词	缺 9 词
+tendere	AGREE	attention	attentio/attendo/attentus
+tendere	AGREE	extension	estension/extensio
+tendere	AGREE	extent	extente/estente/estendre
+tendere	AGREE	intense	intense/intensus/intendo
+tendere	AGREE	intention	entencion/intentio
+tendere	AGREE	tender	tendre/tener
+tendere	AGREE	tense	tens/tempus/tensus
+tendere	AGREE	tension	tension/tensio
+tendere	AGREE	tent	tente/tentus/tendere
+
+# vert	现有 10 词	缺 8 词
+vert	AGREE	avert	avertir/averto/verto
+vert	AGREE	controversial	controversialis/controversia/-alis
+vert	AGREE	controversy	controversie/controversia/controversus
+vert	AGREE	conversion	conversion/conversio/converto
+vert	AGREE	diversion	diversio/diverto
+vert	AGREE	universal	universal/universalis
+vert	AGREE	universe	univers/universum/universus
+vert	AGREE	university	universite/universitei/universitas
+
+# plere	现有 6 词	缺 8 词
+plere	AGREE	complete	complet/completus/compleo
+plere	ENGRA_ONLY	diplomatic	diplomatique
+plere	AGREE	multiply	multiplier/multiplico/plico
+plere	ENGRA_ONLY	simple	simple/simplex/duplex
+plere	ENGRA_ONLY	simplicity	simplicite/simplicitas/simplex
+plere	ENGRA_ONLY	simplify	simplifier
+plere	ENGRA_ONLY	simply	simple/simplex/duplex
+plere	AGREE	supply	soupleer/souploier/suppleo
+
+# spect	现有 24 词	缺 8 词
+spect	NO_ETYM	especially	
+spect	AGREE	species	species/specio/-ies
+spect	AGREE	specific	specifique/species
+spect	AGREE	specimen	specimen/specio
+spect	AGREE	speculate	speculor/specula/specio
+spect	AGREE	suspicion	suspicio/suspicere/specere
+spect	AGREE	suspicious	sospecious/suspiciosus/suspitiosus
+spect	NO_ETYM	unexpected	
+
+# ced	现有 17 词	缺 8 词
+ced	AGREE	access	acces/accessus/accedo
+ced	NO_ETYM	exceedingly	
+ced	AGREE	excess	exces/excessus/excedere
+ced	AGREE	excessive	excessif/excessivus
+ced	AGREE	necessary	necessaire/necessarius/necesse
+ced	AGREE	necessitate	necessitatus/necessito/necessitas
+ced	AGREE	necessity	necessite/necessitas/necesse
+ced	ENGRA_ONLY	succeed	succeder/succedo
+
+# sequ	现有 10 词	缺 7 词
+sequ	AGREE	execute	executer/exsecutus/sequor
+sequ	AGREE	executive	executif/executivus/exsequi
+sequ	AGREE	pursue	pursure/poursuire/prosequor
+sequ	ENGRA_ONLY	pursuit	poursuite/porsuir
+sequ	AGREE	second	second/seond/secundus
+sequ	ENGRA_ONLY	secondary	secundarius/secundus/-arius
+sequ	AGREE	sue	suer/siwer/sivre
+
+# minus	现有 6 词	缺 7 词
+minus	AGREE	administration	administration/administratio/administrare
+minus	AGREE	miniature	miniatura/miniare/minio
+minus	NO_ETYM	minimize	
+minus	AGREE	minimum	minimum/minimus
+minus	AGREE	ministry	menistere/ministerium
+minus	AGREE	minus	minus/minor/parvus
+minus	ENGRA_ONLY	minute	minute/minuta/minutus
+
+# vid	现有 4 词	缺 7 词
+vid	AGREE	advise	viso/aviser/avis
+vid	ENGRA_ONLY	evidence	evidentia/evidens
+vid	AGREE	provide	provideo
+vid	AGREE	provision	provision/provisio/provideo
+vid	AGREE	prudent	prudent/prudens/providens
+vid	AGREE	revise	reviser/reviso/viso
+vid	AGREE	supervise	supervidere/videre
+
+# lex-legis	现有 3 词	缺 7 词
+lex-legis	ENGRA_ONLY	allege	alleguer/aleger/esligier
+lex-legis	AGREE	college	college/collegium
+lex-legis	NO_ETYM	leg	
+lex-legis	AGREE	legend	legende/legenda/legendus
+lex-legis	NO_ETYM	legislation	
+lex-legis	ENGRA_ONLY	legitimate	legitimatus/legitimo/legitimus
+lex-legis	ENGRA_ONLY	privilege	privilege/privilegium/privus
+
+# tain	现有 10 词	缺 7 词
+tain	ENGRA_ONLY	continue	continuer/continuo
+tain	ENGRA_ONLY	entertain	entretenir/entre/tenir
+tain	ENGRA_ONLY	entertainment	entretenement
+tain	ENGRA_ONLY	maintain	maintenir/manus/teneo
+tain	ENGRA_ONLY	maintenance	maintenance/maintenir
+tain	AGREE	retention	retentio/retentus/retineo
+tain	NO_ETYM	tin	
+
+# manus	现有 3 词	缺 6 词
+manus	NO_ETYM	man	
+manus	AGREE	management	manege/manus/-izo
+manus	AGREE	manager	manege/manus/-izo
+manus	AGREE	maneuver	manœuvre/manouvrer/manovre
+manus	NO_ETYM	manipulate	
+manus	AGREE	permanent	permanent/permanens/permaneo
+
+# mov	现有 10 词	缺 6 词
+mov	AGREE	motivate	motif/motivus
+mov	ENGRA_ONLY	move	moveir/mouver/mouvoir
+mov	NO_ETYM	movie	
+mov	AGREE	promote	promotus/promoveo
+mov	AGREE	remote	remot/remote/remotus
+mov	AGREE	remove	remover/removoir/removeir
+
+# ire	现有 4 词	缺 6 词
+ire	ENGRA_ONLY	arbitrary	arbitrarius/arbiter
+ire	ENGRA_ONLY	commence	comencier/initio
+ire	ENGRA_ONLY	initiative	initiative/initiativus/initium
+ire	NO_ETYM	it	
+ire	ENGRA_ONLY	perish	perir/pereo
+ire	ENGRA_ONLY	transition	transition/transitio
+
+# cadere	现有 8 词	缺 6 词
+cadere	AGREE	coincide	coincider/coincido/incido
+cadere	ENGRA_ONLY	coincidence	coincidence
+cadere	AGREE	decide	decider/decidere/decido
+cadere	AGREE	decision	decisio/decisionis/decido
+cadere	ENGRA_ONLY	decisive	decisif
+cadere	ENGRA_ONLY	suicide	suicidium/suicida
+
+# modus	现有 5 词	缺 6 词
+modus	AGREE	accommodate	accommodatus/accommodo/commodo
+modus	ENGRA_ONLY	accommodation	accommodation/accommodatio/accommodo
+modus	AGREE	mode	mode/modus
+modus	AGREE	model	modelle/modulus/modus
+modus	ENGRA_ONLY	modest	modeste/modestus
+modus	AGREE	module	module/modulus/modus
+
+# cura	现有 7 词	缺 6 词
+cura	AGREE	accuracy	accuratus
+cura	ENGRA_ONLY	assurance	asseurance/asseurer
+cura	ENGRA_ONLY	curiosity	curiousete/curiositatem/curiositas
+cura	NO_ETYM	insurance	
+cura	ENGRA_ONLY	reassure	rasseurer/asseurer
+cura	AGREE	sure	seur/securus/cura
+
+# logos	现有 3 词	缺 6 词
+logos	NO_ETYM	analogue	
+logos	ENGRA_ONLY	analogy	analogia/αναλογια/λογος
+logos	NO_ETYM	catalog	
+logos	ENGRA_ONLY	log	loggum
+logos	ENGRA_ONLY	logic	logicus/λογικος/logike
+logos	ENGRA_ONLY	logical	logicus/λογικος/logike
+
+# fac	现有 24 词	缺 5 词
+fac	AGREE	affection	affection/affectionem/affectio
+fac	ENGRA_ONLY	facilitate	faciliter/facilis
+fac	ENGRA_ONLY	facility	facilite/facilitas
+fac	AGREE	fashionable	fechoun/fazon/facon
+fac	AGREE	perfection	perfection/perfectio
+
+# putare	现有 6 词	缺 5 词
+putare	ENGRA_ONLY	accountant	acuntant
+putare	AGREE	computer	computer/computo
+putare	AGREE	counter	conteor/comptoir/computatorium
+putare	AGREE	put	pute
+putare	AGREE	reputation	reputacion,reputacioun/reputation/reputatio
+
+# levare	现有 3 词	缺 5 词
+levare	AGREE	alleviate	allevio
+levare	AGREE	elevate	elevatus/elevo/levo
+levare	AGREE	elevator	elevatus/elevo/levo
+levare	AGREE	relief	relief/relever/relevo
+levare	AGREE	relieve	relever/relieve/relevo
+
+# valere	现有 2 词	缺 5 词
+valere	NO_ETYM	available	
+valere	NO_ETYM	evaluate	
+valere	ENGRA_ONLY	invalid	invalide/invalidus/validus
+valere	NO_ETYM	invaluable	
+valere	AGREE	prevail	prevaler/praevaleo/valeo
+
+# jus	现有 4 词	缺 5 词
+jus	ENGRA_ONLY	injure	injurie/iniuria
+jus	ENGRA_ONLY	injury	injurie/iniuria
+jus	ENGRA_ONLY	judicial	iudicialis
+jus	AGREE	just	juste/iustus/iuxta
+jus	ENGRA_ONLY	prejudice	prejudice/praeiudicium/iudicium
+
+# humor-moist	现有 2 词	缺 5 词
+humor-moist	ENGRA_ONLY	human	humain/umain/humanus
+humor-moist	ENGRA_ONLY	humanity	humanite/humanitas
+humor-moist	ENGRA_ONLY	humid	humide/humidus
+humor-moist	ENGRA_ONLY	humidity	humidite/humiditas/umidus
+humor-moist	AGREE	humiliate	humilio/humilis/humus
+
+# ligare	现有 7 词	缺 5 词
+ligare	AGREE	oblige	obligier/obliger/obligo
+ligare	AGREE	rally	rallier/ralier/ligare
+ligare	AGREE	reliable	relier/religo/ligo
+ligare	AGREE	reliance	relier/religo/ligo
+ligare	AGREE	rely	relier/religo/ligo
+
+# pet	现有 6 词	缺 4 词
+pet	AGREE	compete	competer/competo/peto
+pet	AGREE	competitive	competitus/competere
+pet	NO_ETYM	pet	
+pet	AGREE	repeat	repeter/repeto/peto
+
+# notare	现有 4 词	缺 4 词
+notare	AGREE	denote	denoter/denotare/notare
+notare	NO_ETYM	not	
+notare	AGREE	note	note/nota
+notare	AGREE	notebook	note/nota
+
+# posse	现有 5 词	缺 4 词
+posse	ENGRA_ONLY	assess	assesser/assessare/assessus
+posse	ENGRA_ONLY	obsession	obsessio/obsidere
+posse	AGREE	possibly	possible/possibilis/possum
+posse	ENGRA_ONLY	session	session/sessio/sedeo
+
+# forma	现有 13 词	缺 4 词
+forma	AGREE	format	format/formatus/formo
+forma	AGREE	formula	formula/forma
+forma	AGREE	formulate	formula/forma
+forma	AGREE	platform	plateforme/plate/plat
+
+# operari	现有 3 词	缺 4 词
+operari	AGREE	cooperate	operatus/operor
+operari	NO_ETYM	cooperative	
+operari	NO_ETYM	opera	
+operari	AGREE	operator	operator/operor
+
+# mit-miss	现有 16 词	缺 4 词
+mit-miss	AGREE	committee	commite/commettre/committere
+mit-miss	AGREE	compromise	compromis/compromissus/compromittere
+mit-miss	AGREE	emit	emitto
+mit-miss	AGREE	promise	promesse/promissa/promissum
+
+# plic	现有 10 词	缺 4 词
+plic	NO_ETYM	complicated	
+plic	AGREE	employment	employer/empleier/implico
+plic	AGREE	explicit	explicitus/explicatus/[[explicitus]] [[est]] [[liber]]
+plic	AGREE	unemployment	employer/empleier/implico
+
+# duc-duct	现有 15 词	缺 4 词
+duc-duct	ENGRA_ONLY	education	educatio/educo
+duc-duct	NO_ETYM	productivity	
+duc-duct	AGREE	reproduce	produco/duco
+duc-duct	AGREE	semiconductor	conduitor/conductor
+
+# portus	现有 13 词	缺 3 词
+portus	AGREE	passport	passeport
+portus	AGREE	portion	porcion/portio/pars
+portus	AGREE	sport	desporter/portare/deportare
+
+# dare-give	现有 5 词	缺 3 词
+dare-give	AGREE	donate	dono
+dare-give	AGREE	pardon	pardoner/dono
+dare-give	AGREE	update	date/datil/datille
+
+# ponere	现有 26 词	缺 3 词
+ponere	ENGRA_ONLY	poster	postis/poste/posta
+ponere	AGREE	postpone	postpono/pono
+ponere	AGREE	purpose	purposer/poser/pono
+
+# stru	现有 9 词	缺 3 词
+stru	ENGRA_ONLY	industrial	industriel
+stru	ENGRA_ONLY	industrialize	industrialiser
+stru	ENGRA_ONLY	industry	industrie/industria/industrius
+
+# cors	现有 7 词	缺 3 词
+cors	AGREE	cord	corde/chorda/χορδη
+cors	AGREE	record	record/recorder/recordor
+cors	AGREE	recorder	recordour/recordeor/recordator
+
+# grat	现有 5 词	缺 3 词
+grat	AGREE	congratulate	congratulor/gratus
+grat	AGREE	congratulation	congratulation/congratulatio/congratulor
+grat	AGREE	gratitude	gratitude/gratitudo/gratus
+
+# maior	现有 6 词	缺 3 词
+maior	ENGRA_ONLY	magnificent	magnificent/magnificentior/magnificus
+maior	ENGRA_ONLY	magnitude	magnitudo
+maior	NO_ETYM	may	
+
+# experiri	现有 3 词	缺 3 词
+experiri	ENGRA_ONLY	expert	espert/expertus/experitus
+experiri	ENGRA_ONLY	expertise	expertise
+experiri	NO_ETYM	per	
+
+# sentire	现有 6 词	缺 3 词
+sentire	AGREE	consensus	consensus/consentio
+sentire	AGREE	nonsense	[[sens]], [[sen]], [[san]]/sensus/sentio
+sentire	AGREE	sensitive	sensitif/sensitivus
+
+# spirare	现有 5 词	缺 3 词
+spirare	AGREE	aspire	aspirer/aspiro
+spirare	AGREE	spirit	espirit/spiritus/respire
+spirare	AGREE	spiritual	spirituel/spiritus
+
+# pars	现有 16 词	缺 2 词
+pars	AGREE	partner	parconier/parconneour/parcon
+pars	AGREE	party	partie/partir/partire
+
+# citare	现有 3 词	缺 2 词
+citare	AGREE	excitement	excitement
+citare	NO_ETYM	exciting	
+
+# ferre	现有 17 词	缺 2 词
+ferre	ENGRA_ONLY	differentiate	differentia
+ferre	AGREE	interfere	entreferir/entre/ferir
+
+# clud	现有 11 词	缺 2 词
+clud	AGREE	closet	closet/clausum
+clud	AGREE	conclusion	conclusion/conclusio/concludo
+
+# carrus	现有 7 词	缺 2 词
+carrus	ENGRA_ONLY	carpenter	carpenter/carpentarius/carpentum
+carrus	AGREE	discharge	deschargier
+
+# jac	现有 9 词	缺 2 词
+jac	AGREE	eject	ejecter/eiectus/eicio
+jac	AGREE	objection	objection/objeccion/obiectio
+
+# fin	现有 11 词	缺 2 词
+fin	AGREE	financial	finance/finer/finis
+fin	AGREE	fine	finio/finis/fine
+
+# dict	现有 5 词	缺 2 词
+dict	AGREE	contradiction	contradiction/contradictio/contradico
+dict	AGREE	dictionary	dictionarium/dictionarius/dictio
+
+# bainein	现有 6 词	缺 2 词
+bainein	ENGRA_ONLY	basketball	baler/baller
+bainein	ENGRA_ONLY	volleyball	baler/baller
+
+# nasci	现有 5 词	缺 2 词
+nasci	AGREE	nationality	nationalite/natio
+nasci	AGREE	natural	natural/naturel/naturalis
+
+# battuere	现有 3 词	缺 2 词
+battuere	ENGRA_ONLY	abatement	abatre/-ment
+battuere	AGREE	battery	batterie/baterie/batre
+
+# gradus	现有 8 词	缺 2 词
+gradus	AGREE	graduate	graduatus/graduo/gradus
+gradus	AGREE	undergraduate	graduatus/graduo/gradus
+
+# ars	现有 4 词	缺 2 词
+ars	AGREE	article	article/articulus/artus
+ars	ENGRA_ONLY	articulate	articulo
+
+# vocare	现有 3 词	缺 2 词
+vocare	AGREE	evoke	evoquer/evoco/voco
+vocare	AGREE	provoke	provoquer/provocare
+
+# certus	现有 4 词	缺 2 词
+certus	AGREE	certificate	certificat/certificatum/certifico
+certus	AGREE	certify	certefier
+
+# rect	现有 6 词	缺 2 词
+rect	AGREE	direction	direccion/directio
+rect	AGREE	erect	erectus/erigo/rego
+
+# regula	现有 3 词	缺 2 词
+regula	ENGRA_ONLY	regime	regime/regimen
+regula	ENGRA_ONLY	region	regiun/regio/rego
+
+# merx	现有 4 词	缺 2 词
+merx	AGREE	commercial	commercial/commercium
+merx	AGREE	merchandise	marchaundise/marcheandise/marcheant
+
+# planus	现有 6 词	缺 2 词
+planus	AGREE	complain	complaindre/complangere/plangere
+planus	AGREE	complaint	compleint/compleindre/planctus
+
+# rumpere	现有 3 词	缺 2 词
+rumpere	ENGRA_ONLY	bankrupt	banca/rotto
+rumpere	AGREE	erupt	eruptus/erumpo/rumpo
+
+# fundere	现有 5 词	缺 2 词
+fundere	AGREE	confusion	confusion/confusio
+fundere	AGREE	refusal	refuse/refuser/refuto
+
+# curr	现有 6 词	缺 2 词
+curr	AGREE	curriculum	curro
+curr	AGREE	occurrence	occurrence/occurrentia
+
+# profiteri	现有 2 词	缺 2 词
+profiteri	ENGRA_ONLY	confess	confesser/confessus/confiteor
+profiteri	AGREE	professional	professioun/profession/professio
+
+# gen	现有 8 词	缺 2 词
+gen	AGREE	gender	gendre/genus/gendrer
+gen	ENGRA_ONLY	pregnant	preignant/pregnant/prenant
+
+# mergere	现有 3 词	缺 2 词
+mergere	AGREE	emergency	emergens/emergentia/emergo
+mergere	AGREE	submerge	mergere
+
+# socius	现有 5 词	缺 2 词
+socius	AGREE	socialism	socialisme
+socius	AGREE	sociology	sociologie/socius/-λογια
+
+# sidus	现有 4 词	缺 2 词
+sidus	ENGRA_ONLY	desirable	desirable
+sidus	ENGRA_ONLY	sir	sire/senior/senex
+
+# aequus	现有 4 词	缺 2 词
+aequus	NO_ETYM	equator	
+aequus	AGREE	equivalent	aequivalentem/aequivalens/aequivaleo
+
+# origo	现有 3 词	缺 2 词
+origo	AGREE	orient	orient/oriente/oriens
+origo	ENGRA_ONLY	orientation	orientation
+
+# via	现有 2 词	缺 2 词
+via	ENGRA_ONLY	deviate	devio
+via	ENGRA_ONLY	trivial	trivialis/trivium
+
+# gnoscere	现有 4 词	缺 2 词
+gnoscere	ENGRA_ONLY	acquaintance	aquaintaunce/aqueintance/acointance
+gnoscere	ENGRA_ONLY	ignorance	ignorance/ignorantia
+
+# ternus	现有 4 词	缺 2 词
+ternus	AGREE	alter	alterer/altero/alter
+ternus	AGREE	alternative	alternatif/alternativus/alterno
+
+# pel	现有 6 词	缺 2 词
+pel	AGREE	impulse	impulser/impulsus
+pel	AGREE	pulse	puls/pous/pouls
+
+# musa	现有 3 词	缺 1 词
+musa	AGREE	museum	museum/μουσειον/μουσα
+
+# hostis	现有 6 词	缺 1 词
+hostis	AGREE	hotel	hotel/hostel/ostel
+
+# testis	现有 4 词	缺 1 词
+testis	AGREE	testimony	testimonie/testimonium
+
+# platea	现有 4 词	缺 1 词
+platea	ENGRA_ONLY	commonplace	locus communis/κοινος τοπος
+
+# prassein	现有 4 词	缺 1 词
+prassein	AGREE	practice	pratiser/practiquer/practicare
+
+# haerere	现有 5 词	缺 1 词
+haerere	NO_ETYM	her	
+
+# filum	现有 1 词	缺 1 词
+filum	AGREE	file	filum/file/filer
+
+# circulus	现有 4 词	缺 1 词
+circulus	AGREE	circulate	circulor/circulus
+
+# metron	现有 8 词	缺 1 词
+metron	AGREE	millimeter	millimetre
+
+# physis	现有 4 词	缺 1 词
+physis	AGREE	physiological	physiologicus
+
+# sci	现有 5 词	缺 1 词
+sci	AGREE	scientific	scientifique/scientificus
+
+# centrum	现有 4 词	缺 1 词
+centrum	AGREE	eccentric	excentrique/eccentricus/εκκεντρος
+
+# graphein	现有 8 词	缺 1 词
+graphein	ENGRA_ONLY	geology	-logia/-λογια
+
+# sedere	现有 4 词	缺 1 词
+sedere	AGREE	preside	presider/praesideo/sedeo
+
+# mekhane	现有 4 词	缺 1 词
+mekhane	ENGRA_ONLY	machinery	machine/machina
+
+# memor	现有 3 词	缺 1 词
+memor	NO_ETYM	memo	
+
+# kyklos	现有 3 词	缺 1 词
+kyklos	ENGRA_ONLY	encyclopedia	εγκυκλιος/παιδεια
+
+# campus-field	现有 4 词	缺 1 词
+campus-field	AGREE	champagne	champagne/campania remensis/campaneus
+
+# nutrire	现有 3 词	缺 1 词
+nutrire	AGREE	nursery	norricerie/nourricerie/norrice
+
+# spatium	现有 3 词	缺 1 词
+spatium	AGREE	spacecraft	space/espace/espas
+
+# terrere	现有 3 词	缺 1 词
+terrere	AGREE	terrific	terrifique/terrificus/terreo
+
+# norma	现有 4 词	缺 1 词
+norma	AGREE	enormous	enormis/norma
+
+# negare	现有 3 词	缺 1 词
+negare	ENGRA_ONLY	negotiate	negotior/negotium/otium
+
+# durare	现有 4 词	缺 1 词
+durare	AGREE	endure	endurer/induro
+
+# habere	现有 11 词	缺 1 词
+habere	ENGRA_ONLY	exhibition	exhibicion
+
+# mun	现有 4 词	缺 1 词
+mun	AGREE	immune	immun/immunis/munus
+
+# nuntiare	现有 3 词	缺 1 词
+nuntiare	AGREE	pronunciation	prononciation/pronunciation/pronuntiatio
+
+# colere	现有 3 词	缺 1 词
+colere	AGREE	cultivate	cultivatus/cultivo/cultivus
+
+# figur	现有 5 词	缺 1 词
+figur	ENGRA_ONLY	fiction	ficcion/fictio/fingo
+
+# pati	现有 6 词	缺 1 词
+pati	AGREE	compatible	compatible/compatibilis/pati
+
+# fluere	现有 6 词	缺 1 词
+fluere	AGREE	fluid	fluidus/fluo
+
+# quir	现有 11 词	缺 1 词
+quir	AGREE	acquire	aquerre/acquiro/quaero
+
+# compilare	现有 1 词	缺 1 词
+compilare	AGREE	pile	pile/pila#pillar-pier-latin/pilum
+
+# credere	现有 5 词	缺 1 词
+credere	AGREE	credential	credentialis/credentia
+
+# temptare	现有 3 词	缺 1 词
+temptare	AGREE	temptation	temptacion/temptatio
+
+# fendere	现有 4 词	缺 1 词
+fendere	AGREE	offensive	offensif/offendre/defensif
+
+# loc	现有 5 词	缺 1 词
+loc	AGREE	locomotive	locomotif/loco/locus
+
+# qualis	现有 3 词	缺 1 词
+qualis	AGREE	qualitative	qualitativus
+
+# klinein	现有 4 词	缺 1 词
+klinein	AGREE	decline	decliner
+
+# taillier	现有 4 词	缺 1 词
+taillier	NO_ETYM	tail	
+
+# oikonomia	现有 4 词	缺 1 词
+oikonomia	ENGRA_ONLY	ecology	οικος/-λογια
+
+# clarus	现有 3 词	缺 1 词
+clarus	AGREE	declaration	declaration/declarationem/declaratio
+
+# solvere	现有 7 词	缺 1 词
+solvere	AGREE	soluble	soluble/solvo
+
+# publicus	现有 5 词	缺 1 词
+publicus	AGREE	republican	republicain
+
+# gerere	现有 3 词	缺 1 词
+gerere	AGREE	suggestion	suggestioun/sugestiun/suggestio
+
+# wardon	现有 3 词	缺 1 词
+wardon	AGREE	disregard	reguard/regarder/reguarder
+
+# tribuere	现有 5 词	缺 1 词
+tribuere	AGREE	tribe	tribu/tribus
+
+# phainein	现有 3 词	缺 1 词
+phainein	NO_ETYM	emphasize	
+
+# claimare	现有 4 词	缺 1 词
+claimare	AGREE	acclaim	acclamo/clamo
+
+# turba	现有 3 词	缺 1 词
+turba	AGREE	turbulent	turbulent/turbulentus/turba
+
+# cep	现有 20 词	缺 1 词
+cep	ENGRA_ONLY	purchase	purchacer/chacier
+
+# domus	现有 5 词	缺 1 词
+domus	AGREE	dome	dome/domme/duomo
+
+# gravis	现有 4 词	缺 1 词
+gravis	AGREE	grieve	grever/gravo/gravis
+
+# tradere	现有 4 词	缺 1 词
+tradere	AGREE	tray	trair/trado
+
+# conciliare	现有 1 词	缺 1 词
+conciliare	ENGRA_ONLY	council	conseil/consilium/consulo
+
+# jungere	现有 4 词	缺 1 词
+jungere	ENGRA_ONLY	conjunction	conjonction/coniunctio/coniungere
+
+# sperare	现有 3 词	缺 1 词
+sperare	AGREE	desperate	desperatus/despero
+
+# vincere	现有 4 词	缺 1 词
+vincere	AGREE	convict	convicter/convictus/convinco
+
+# caedere	现有 3 词	缺 1 词
+caedere	ENGRA_ONLY	precision	precision
+
+# tithenai	现有 3 词	缺 1 词
+tithenai	AGREE	synthetic	synthetique/συνθετικος
+
+# optare	现有 4 词	缺 1 词
+optare	NO_ETYM	optical	
+
+# torquere	现有 3 词	缺 1 词
+torquere	AGREE	torment	torment/tormentum/torquere

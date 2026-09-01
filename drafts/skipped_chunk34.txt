@@ -1,0 +1,15 @@
+pay	pacare（古法语 paier ← 拉丁语 pacare「使平息」← pax 和平：付钱本义是「把债主安抚下来」。该族在词表内有 peace/peaceful/pay/payment 四词。注意 pact/compact/impact 虽与 pax 同出 PIE *pag-，但库中已按 pangere「钉入、缔结」单独建模，不计入本族成员）
+peace	pax（古法语 pais ← 拉丁语 pax，属格 pacis：和平、和约。该族在词表内有 peace/peaceful/pay/payment 四词，pacify 不在词表内）
+peaceful	pax（peace ＋ -ful，同上一族；承载词义的是 pax 本身）
+pedal	pes（拉丁语 pes，属格 pedis：脚 → pedalis「属于脚的」。该族在词表内有 pedal/pedestrian/expedition 三词，expedition ＝ ex-＋ped-「把脚从绊索里解出来」承载的正是 ped-。库中尚无此根，roots.json 里没有 origin 提到 pedis/pedalis 的根，需新建）
+peer	par（已建模词根 par-equal，其 origin 即写「拉丁语 par 相等的、对等的」；peer 常用义「同辈、同等地位的人」← 古法语 per ← 拉丁语 par。该根现有成员 comparable/pair/repair 三个，词表内可补 peer/compare/comparison。注意 peer 另有「凝视」一义，词源不明，与本族无关）
+piano	planus（已建模词根 planus，其 origin 即写「拉丁语 planus 平的、无起伏的」；piano ← 意大利语 piano「平、柔和」← planus，pianoforte 即「柔—强」。该根现有成员 plan/plane/explanation/plain/explain/aeroplane 六个。提醒上报人：planus「平」到「钢琴」这一步语义已断，若并入本族需另写一条不靠「平」的推导，或考虑仍按孤立词条处理）
+pile	pila（拉丁语 pila：柱、墩、堆 → 古法语 pile「堆」。该族在词表内有 pile/pillar/compile 三词。库中已有 compilare 根，其 origin 写「拉丁语 compilare 堆在一起 ← pila 柱、堆」，现仅 compile 一个成员——上报时宜把 compilare 提升为 pila，或把 pile/pillar 并入。注意 pill ← pilula ← pila「球」是同形的另一个拉丁词，不属本族）
+plate	platea（已建模词根 platea，其 origin 即写「拉丁语 platea 宽街、场地 ← 希腊语 plateia 宽阔的路」，同支的希腊语 platys 表「扁平、宽」；plate ← 古法语 plate「扁平物」← 中世纪拉丁语 plata。该根现有成员 place/replace/replacement/displace 四个，词表内可补 plate/platform/plateau）
+plentiful	plenus（已建模词根 plere，其 origin 即写「拉丁语 plere / plenus 填满、满的」；plenty ← 古法语 plenté ← 晚期拉丁语 plenitas ← plenus。该根现有成员 complement/supplement/implement/multiple/triple/comply 六个，词表内可补 plenty/plentiful/complete/accomplish）
+plus	plus（拉丁语 plus「更多」，multus 的比较级；pluralis ← plus 派出 plural。该族在词表内有 plus/surplus/plural 三词，surplus ＝ super＋plus「超出之外的那些」。与已建模的 plere/plenus 同出 PIE *pele-，但拉丁阶段 plus 与 plenus 已是两个词，上报时需定夺是并入 plere 还是另立 plus）
+poem	poiein（希腊语 poiein「做、造」→ poiēma「造出来的东西」→ 诗；经拉丁语 poema、古法语 poeme 入英语。该族在词表内有 poem/poet/poetry 三词。库中尚无此根）
+poet	poiein（希腊语 poiētēs「制作者、作诗的人」← poiein；同 poem 一族，词表内共三词）
+power	posse（已建模词根 posse，其 origin 即写「拉丁语 posse 能够 / potis 有力的」；power ← 古法语 poeir ← 通俗拉丁语 potere ← posse。该根现有成员 possible/impossible/possibility/possess/possession 五个，词表内可补 power/powerful/potential）
+powerful	posse（power ＋ -ful，同上一族；承载词义的是 potere/posse）
+prey	prehendere（古法语 preie ← 拉丁语 praeda「猎获物」← *prai-heda ← prae＋hendere「先一步抓住」，承载词义的是 hend-/prehendere「抓住」。该族在词表内有 prey/comprehend/comprise/enterprise/prison/prisoner/surprise 七词。库中尚无 prehendere 根，注意 cep（capere）是另一支，勿并）

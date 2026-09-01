@@ -1,0 +1,182 @@
+# 第 5 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk05.tsv
+
+## playground
+pos: noun    phonetic: /ˈpleɪɡraʊnd/
+现有画面: 孩子们在秋千、滑梯和沙坑之间跑来跑去，鞋印铺满地面
+现有中文: 操场
+词源(Wiktionary 原文): From {{com|en|play|ground}}. Compare {{cog|enm|playstede|t=playground}} from {{cog|ang|pleġstede}}.
+
+## plea
+pos: noun    phonetic: /pliː/
+现有画面: 一个人双手合十站在门前，抬头等待对方答应
+现有中文: 恳求
+词源(Wiktionary 原文): From {{inh|en|enm|ple}}, from {{der|en|fro|plait}}, {{m|fro|plaid}}, from {{der|en|la-med|placitum||a decree, sentence, suit, plea, etc., {{uder|en|la|-}} an opinion, determination, prescription, order; literally, that which is pleasing, pleasure}}, neuter of {{m|la|placitus}}, past participle of {{m|la|placere||to please}}. Cognate with {{cog|es|pleito||lawsuit, suit}}. {{doublet|en|placit}}. See also {{m|en|please}}, {{m|en|pleasure}}.
+
+## plead
+pos: verb    phonetic: /pliːd/
+现有画面: 律师站在法庭中央，向法官陈述理由并请求改变决定
+现有中文: 恳求/辩护
+词源(Wiktionary 原文): From {{inh|en|enm|pleden}}, {{m|enm|plaiden}}, from {{der|en|fro|plaider||to plead, offer a plea}}, from {{m|fro|plait}}, from {{der|en|la-med|placitum||a decree, sentence, suit, plea, etc.", in Classical {{der|en|la|-}}, "an opinion, determination, prescription, order; literally, that which is pleasing, pleasure}}, neuter of {{m|la|placitus}}, past participle of {{m|la|placeō||to please}}. Cognate with {{cog|es|pleitear||to litigate, take to court}}.
+
+## pledge
+pos: verb    phonetic: /pledʒ/
+现有画面: 两个人在桌边交换写好名字的纸，随后郑重握手
+现有中文: 保证/抵押
+词源(Wiktionary 原文): From {{inh|en|enm|plege}}, from {{der|en|xno|plege}}, from {{der|en|fro|plege}} (Modern {{cog|fr|pleige}}) from {{der|en|la-med|plevium}}, {{m|la|plebium}}, from {{m|la|plebiō||to pledge}}, from {{der|en|frk|*plehan||to pledge; to support; to guarantee}}. Akin to {{cog|goh|pflegan||to take care of, be accustomed to}}, {{cog|osx|plegan||to vouch for}}, {{cog|ang|plēon||to risk, endanger}}. More at {{l|en|plight}}.
+
+## plight
+pos: noun    phonetic: /plaɪt/
+现有画面: 漏雨的屋檐下只剩一张椅子，行李和积水挤在脚边
+现有中文: 困境
+词源(Wiktionary 原文): From {{inh|en|enm|plit||fold, wrinkle, bad situation}}, conflation of {{inh|en|enm|plight|pliht, plight|risky promise, peril}} (from {{inh|en|ang|pliht|}} "danger, risk"; see Etymology&nbsp;2) and {{der|en|xno|plit|plit, plyte|fold, condition}}, from {{der|en|fro|pleit||condition, manner of folding}} (from {{der|en|la-vul|*plictum}}, from {{der|en|la|plicitum||fold}}).  ┃  From {{inh|en|enm|plight||risk, danger}}, from {{inh|en|ang|pliht||peril, risk, danger, damage, plight}}, from {{inh|en|gmw-pro|*plihti||care, responsibility, duty}}. A suffixed form of the root represented by Old English {{m|ang|pleoh||risk, danger, hurt, peril"; ''also'' "responsibility}} and {{m|ang|plēon||to endanger, …（已截断）
+
+## plough
+pos: verb    phonetic: /plaʊ/
+现有画面: 铁犁切开田土，身后的泥垄一道道翻向两侧
+现有中文: 犁地
+词源(Wiktionary 原文): From {{inh|en|enm|plouh}}, {{m|enm|plow}}, {{m|enm|plugh|plugh(e)}}, {{m|enm|plough|plough(e)}}, {{m|enm|plouw}}, from {{inh|en|ang|plōh||hide of land, ploughland}} and {{der|en|non|plógr||plough (the implement)}}, both from {{inh|en|gem-pro|*plōgaz}}, {{m|gem-pro|*plōguz||plough}}. Cognate with {{cog|sco|pleuch|pleuch, plou}}, {{cog|frr|plog}}, {{cog|fy|ploech}}, {{cog|nds|Ploog}}, {{cog|nl|ploeg}}, {{cog|ru|плуг}}, {{cog|de|Pflug}}, {{cog|da|plov}}, {{cog|nb,nn,sv|plog}}, {{cog|is|plógur}}. Replaced {{cog|ang|sulh||plough, furrow}}; see [[sullow]].
+
+## plumber
+pos: noun    phonetic: /ˈplʌm.ə/
+现有画面: 工具箱摊在水槽下，扳手正拧紧一段漏水的管道
+现有中文: 水管工
+词源(Wiktionary 原文): From {{inh|en|enm|plumber}}, from {{der|en|fro|plummier}} (French {{m|fr|plombier}}); from {{der|en|la|plumbārius}}, from {{m|la|plumbum||lead or lead shot}}. The verb sense “to [[botch]]” is perhaps from the negative stereotype of the occupation.
+
+## plunge
+pos: verb    phonetic: /plʌndʒ/
+现有画面: 跳水者从高台直落水面，四周的空气迅速被甩在身后
+现有中文: 投入/骤降
+词源(Wiktionary 原文): From {{inh|en|enm|plungen}}, {{m|enm|ploungen}}, {{der|en|xno|plungier}}, from {{der|en|fro|plongier}}, (Modern French {{m|fr|plonger}}), from unattested {{der|en|la-lat|-}} frequentative {{m|la|*plumbicō||to throw a leaded line}}, from {{m|la|plumbum||lead}}. Compare {{m|en|plumb}}, {{m|en|plounce}}.  ┃  {{back-formation|en|plunger}}.
+
+## pneumonia
+pos: noun    phonetic: /njuˈməʊniə/
+现有画面: 病房里的人呼吸急促，胸前贴着监测电极
+现有中文: 肺炎
+词源(Wiktionary 原文): {{root|en|ine-pro|*plew-}} From {{uder|en|grc|πνευμονία||lung disease}}, from {{m|grc|πνεύμων||lung}} + {{m|grc|-ία}}.
+
+## poison
+pos: verb    phonetic: /ˈpɔɪ.zən/
+现有画面: 瓶口贴着骷髅标志，几滴液体落进隔离的玻璃杯
+现有中文: 毒物/毒害
+词源(Wiktionary 原文): {{root|en|ine-pro|*peh₃-}} From {{inh|en|enm|poysoun}}, {{m|enm|poyson}}, {{m|enm|pusoun}}, from {{der|en|fro|poison}}, {{m|fro|poisun}}, from {{der|en|la|pōtio|pōtiōnem|t=drink, a draught, a poisonous draught, a potion}}, from {{m|la|pōtō|t=to drink}}. See also {{m|en|potion}} and {{m|en|potable}} (from the same root). Mostly displaced native {{noncog|ang|ātor}} and ''{{l|ang|lybb}}''. See more at {{m|en|atter}}.
+
+## poisonous
+pos: adjective    phonetic: /ˈpɔɪzənəs/
+现有画面: 鲜艳的浆果挂在灌木上，旁边立着警示牌
+现有中文: 有毒的
+词源(Wiktionary 原文): From {{inh|en|enm|poisounous}}, {{m|enm|poysonouse}}. {{surf|+suf|en|poison|ous}}.
+
+## polish
+pos: verb    phonetic: /ˈpɒl.ɪʃ/
+现有画面: 布团反复擦过铜盘，暗淡表面逐渐映出灯光
+现有中文: 擦亮/波兰的
+词源(Wiktionary 原文): {{root|en|ine-pro|*pel- (beat)}} From {{inh|en|enm|polishen}}, from {{der|en|fro|-}} ''poliss-'', stem of some of the conjugated forms of {{m|fro|polir}}, from {{der|en|la|polio|polīre|to polish, make smooth}}, from {{der|en|ine-pro|*pelh₂-||to drive, strike, thrust}}, from the notion of fulling cloth.
+
+## polite
+pos: adjective    phonetic: /pəˈlaɪt/
+现有画面: 客人站在门边侧身让路，先等年长者走进房间
+现有中文: 礼貌的
+词源(Wiktionary 原文): {{root|en|ine-pro|*pel- (beat)}} From {{uder|en|la|polītus||polished}}, past participle of {{m|la|poliō||to polish, smooth}}; see {{m|en|polish}}.
+
+## pollute
+pos: verb    phonetic: /pəˈluːt/
+现有画面: 黑烟从烟囱飘向河面，水边的鱼群开始躲开
+现有中文: 污染
+词源(Wiktionary 原文): From {{inh|en|enm|polluten|}}, borrowed from {{der|en|la|pollūtum|}}, from {{m|la|pollūtus||no longer virgin", "unchaste}}, perfect passive participle of {{m|la|polluō||soil", "defile", "dishonor}}.
+
+## pollution
+pos: noun    phonetic: /pəˈljuːʃən/
+现有画面: 河岸漂着塑料瓶，灰色泡沫聚在排水口
+现有中文: 污染
+词源(Wiktionary 原文): From {{inh|en|enm|pollucioun}}, {{m|enm|pollucion|t=desecration, impurity}}, from {{der|en|xno|pollutiun}}, {{der|en|frm|pollution}}, {{m|frm|pollucion}}, and their source, post-classical {{der|en|la|pollūtiō||defilement, desecration; nocturnal emission}} (4th century), from the participial stem of {{m|la|polluō||to soil, defile, contaminate}}, from {{m|la|por-||before}} + {{m|la|-luō|t=to smear}}, related to {{m|la|lutum||mud}} and {{m|la|luēs||filth}}. Compare {{cog|grc|λῦμα|t=filth, dirt, disgrace}} and {{m|grc|λῦμαξ|t=rubbish, refuse}}, {{cog|sga|loth|t=mud, dirt}}, {{cog|lt|lutynas|t=pool, puddle}}. {{surf|en|pollute|-ion}}.
+
+## pond
+pos: noun    phonetic: /pɒnd/
+现有画面: 树林低处围着一圈静水，荷叶贴着水面展开
+现有中文: 池塘
+词源(Wiktionary 原文): From {{inh|en|enm|pond}}, {{m|enm|ponde|t=pond, pool}}, probably from {{inh|en|ang|*pond}}, {{m|ang|*pand}} (attested in placenames), a variant of {{m|ang|*pund|t=enclosure}}. {{doublet|en|pound|id1=enclosure}}.  ┃  {{clipping|en|ponder}}.
+
+## popular
+pos: adjective    phonetic: /ˈpɒp.jʊ.lə/
+现有画面: 广场入口排起长队，大家都朝同一个摊位走去
+现有中文: 流行的
+词源(Wiktionary 原文): {{ety|en|:inh|enm:populer|text=++|tree=1}}
+
+## population
+pos: noun    phonetic: /ˌpɒp.jʊˈleɪ.ʃən/
+现有画面: 地图上的小点密密麻麻聚在沿海城市周围
+现有中文: 人口
+词源(Wiktionary 原文): {{bor+|en|la-lat|populatio||a people, multitude}}, as if a noun of action from Classical {{der|en|la|populus}}, equivalent to {{af|en|populate|-ion}}. {{dbt|en|poblacion}}.
+
+## porcelain
+pos: adjective    phonetic: /ˈpɔːsəlɪn/
+现有画面: 薄白杯子放在软布上，边缘透着细细的光
+现有中文: 瓷器
+词源(Wiktionary 原文): {{bor+|en|frm|porcelaine|t=cowrie, wampum; china, chinaware}}, from {{der|en|roa-oit|porcellana|t=cowrie; china, chinaware}}, from {{der|en|it|porcello||piglet}}. The material was so called because of its resemblance to the shell of the cowrie. Why the cowrie was named with a word meaning “piglet” is unclear.
+
+## portrait
+pos: noun    phonetic: /ˈpɔːtreɪt/
+现有画面: 画布上的脸部轮廓和眼神被一笔笔固定下来
+现有中文: 肖像
+词源(Wiktionary 原文): From {{der|en|frm|portraict}}, {{m|frm|pourtraict}}, nominal use of the past participle of {{m|frm|portraire||portray}}, from {{der|en|la|prōtrahō}} (< {{m|la|prō-}} + {{m|la|trahō}}). Compare typologically {{m+|en|drawing}}.
+
+## portray
+pos: verb    phonetic: /pɔːˈtreɪ/
+现有画面: 演员站在布景前，用姿态重现画中人物的神情
+现有中文: 描绘
+词源(Wiktionary 原文): From {{inh|en|enm|portray}}, from {{der|en|frm|portraire}}.
+
+## poster
+pos: noun    phonetic: /ˈposter/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 墙上贴着一张大幅彩纸，日期和醒目的图案吸引路人
+现有中文: 海报
+词源(Wiktionary 原文): {{ety|en|:af|post|-er|text=+|tree=1}}  ┃  From {{suffix|en|post|er}}, from {{m|en|post||travel, dispatch}}.
+
+## postman
+pos: noun    phonetic: /ˈpəʊs(t)mən/
+现有画面: 邮差背着帆布袋沿街走，把信件逐户投入信箱
+现有中文: 邮递员
+词源(Wiktionary 原文): {{ety|en|:af|post|-man|text=+|tree=1}}
+
+## pot
+pos: noun    phonetic: /pɒt/
+现有画面: 炉火上的陶罐咕嘟作响，蒸汽从盖边一缕缕冒出
+现有中文: 锅/罐
+词源(Wiktionary 原文): {{etymon|en|id=vessel|:inh|enm:pot|tree=1}} From {{inh|en|enm|pot}}, {{m|enm|potte}}, from {{inh|en|ang|pott||pot}} and {{der|en|fro|pot|t=pot}} (probably from {{der|en|frk|*pott}}); both Old English and Frankish from {{inh|en|gem-pro|*puttaz||pot}}, from {{inh|en|ine-pro|*budnós||a type of vessel}}. Cognate with {{cog|stq|Pot||pot}}, {{cog|nl|pot||pot}}, {{cog|nds-de|Pott||pot}}, {{cog|de|Pott||pot}}, {{cog|sv|potta||chamber pot}}, {{cog|is|pottur||tub, pot}}, {{cog|xcl|պոյտն||pot, earthen pot}}. Also, {{cog|non|pottr||pot, tub, basin}}. The sense of ''ruin'' or ''deterioration'' was originally a general allusion to "being chopped up and tossed in a (normally fiery) pot, like a piece of mea…（已截断）
+
+## potato
+pos: noun    phonetic: /pəˈteɪ.təʊ/
+现有画面: 刚挖出的块茎沾满泥土，堆在木筐里等待清洗
+现有中文: 土豆
+词源(Wiktionary 原文): {{bor+|en|es|patata}}, itself borrowed from {{der|en|tnq|batata||[[sweet potato]]}}. {{doublet|en|batata}}.
+
+## poultry
+pos: noun    phonetic: /ˈpɒltri/
+现有画面: 院子里的鸡鸭围着食槽啄食，羽毛在阳光下移动
+现有中文: 家禽
+词源(Wiktionary 原文): {{ety|en|:inh|enm:pultrie}} From {{inh|en|enm|pultrie}}, from {{der|en|fro|pouleterie}}, from {{m|fro|poulet}}, diminutive of {{m|fr|poule||hen}}, from {{der|en|la|pullus||chick}}. {{surf|en|poult|-ry}}. For the development of Middle English {{IPAchar|/u/}} to modern {{IPAchar|/oʊ/|/əʊ/}} before {{IPAchar|/lt/|/ld/|/ln/}}, compare {{m|en|boult}}, {{m|en|boulder}}, {{m|en|colter}}/{{m|en|coulter}}, {{m|en|poultice}}, {{m|en|shoulder}}, {{m|en|won't}}.
+
+## pound
+pos: verb    phonetic: /ˈpaʊnd/
+现有画面: 铁锤连续落下，木桩一点点陷进坚实的地面
+现有中文: 磅/敲打
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)pend-}} From {{inh|en|enm|pound}}, from {{inh|en|ang|pund||a pound, weight}}, from {{inh|en|gmw-pro|*pund}}, from {{inh|en|gem-pro|*pundą||pound, weight}}, an early borrowing from {{der|en|la|pondō||by weight}}, ablative form of {{m|la|pondus||weight}}, from {{der|en|ine-pro|*(s)pend-||to pull, stretch}}. Cognate with {{cog|nl|pond}}, {{cog|de|Pfund}}, {{cog|da,fo,is,nb,nn,sv|pund}}. {{doublet|en|funt|pfund|pood|punt}}.  ┃  {{etymid|en|enclosure}}From {{inh|en|enm|pounde}}, {{m|enm|ponde}}, {{m|enm|pund}}, from {{inh|en|ang|*pund|t=an enclosure}}. Related to {{cog|ang|pyndan|t=to enclose, shut up, dam, impound}}. Compare also {{cog|ang|pynd|t=a [[cistern]], lake}}.  ┃  …（已截断）
+
+## poverty
+pos: noun    phonetic: /ˈpɒvəti/
+现有画面: 狭小房间里只有一张旧床，窗缝透进冷风
+现有中文: 贫困
+词源(Wiktionary 原文): {{root|en|ine-pro|*peh₂w-}} From {{inh|en|enm|poverte}}, from {{der|en|fro|poverté|}} (Modern French {{m|fr|pauvreté}}), from {{der|en|la|paupertās}}, from {{m|la|pauper||poor}} + {{m|la|-tas||noun of state suffix}}. Cognates include {{m|en|pauper}}, {{m|en|poor}}.
+
+## powder
+pos: noun    phonetic: /ˈpaʊ.də(r)/
+现有画面: 研钵中的固体被杵头磨成细白颗粒
+现有中文: 粉末
+词源(Wiktionary 原文): From {{inh|en|enm|poudre}}, {{m|enm|pouder}}, {{m|enm|pouldre}}, borrowed from {{der|en|fro|poudre}}, {{m|fro|poldre}}, {{m|fro|puldre}}, from {{der|en|la|pulverem}}, accusative singular of {{der|en|la|pulvis||dust, powder}}. {{doublet|en|pulver}}. Compare {{m|en|pollen|t=fine flour}}, {{m|en|polverine}}, {{m|en|pulverize}}.
+
+## prayer
+pos: noun    phonetic: /ˈprayer/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 礼拜堂里的人低头合掌，烛火在安静的空气中轻轻摇动
+现有中文: 祈祷
+词源(Wiktionary 原文): {{root|en|ine-pro|*preḱ-}} From {{inh|en|enm|preiere}}, from {{der|en|fro|preiere}}, from {{der|en|la-eme|precāria}}, derived from {{der|en|la|prex|precem}}. Displaced native {{ncog|ang|ġebed}} (whence modern {{ncog|en|bead}}).  ┃  {{etymid|en|prays}} {{affix|en|pray|-er|id2=agent noun}}.

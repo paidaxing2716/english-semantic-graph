@@ -1,0 +1,146 @@
+# 本文件的归属全部是「疑」——匹配噪声高（实测 cash→cep、cup→cep、
+# command→manus、artery→ter-comparative 都是假的），派发时必须逐词核词源。
+# 由 scripts/file_orphan_words.py 生成；这些词此前不在任何池子里。
+# caput	4 词	疑补词——同名根已存在（caput），现有 6 词
+cap
+cape
+captain
+chapter
+# cep	4 词	疑补词——同名根已存在（cep），现有 22 词
+anticipate
+capacity
+cash
+cup
+# tangere	4 词	疑补词——同名根已存在（tangere），现有 1 词
+contact
+distinct
+distinction
+distinguish
+# audire	3 词	疑补词——同名根已存在（audire），现有 3 词
+audience
+audit
+auditorium
+# centrum	3 词	疑补词——同名根已存在（centrum），现有 5 词
+adjacent
+adolescent
+descent
+# legere	3 词	疑补词——同名根已存在（legere），现有 9 词
+collection
+complex
+dialect
+# manus	3 词	疑补词——同名根已存在（manus），现有 6 词
+command
+commend
+eminent
+# ter-comparative	3 词	疑补词——同名根已存在（ter-comparative），现有 3 词
+artery
+characterize
+comparative
+# vid	3 词	疑补词——同名根已存在（vid），现有 12 词
+device
+devise
+division
+# aequus	2 词	疑补词——同名根已存在（aequus），现有 5 词
+equip
+equipment
+# augere-auctor	2 词	疑补词——同名根已存在（augere-auctor），现有 5 词
+auction
+auxiliary
+# cadere	2 词	疑补词——同名根已存在（cadere），现有 9 词
+case
+casual
+# ced	2 词	疑补词——同名根已存在（ced），现有 24 词
+accessory
+cease
+# colere	2 词	疑补词——同名根已存在（colere），现有 4 词
+difficult
+difficulty
+# crit	2 词	疑补词——同名根已存在（crit），现有 5 词
+crisis
+crisp
+# curr	2 词	疑补词——同名根已存在（curr），现有 8 词
+course
+discourse
+# discus	2 词	疑补词——同名根已存在（discus），现有 3 词
+discipline
+discrepancy
+# prehendere	2 词	疑补词——同名根已存在（prehendere），现有 7 词
+comprehension
+comprehensive
+# serv	2 词	疑补词——同名根已存在（serv），现有 4 词
+conservative
+deserve
+# sperare	2 词	疑补词——同名根已存在（sperare），现有 4 词
+despair
+disperse
+# tegere	2 词	疑补词——同名根已存在（tegere），现有 4 词
+architect
+architecture
+# ag	1 词	疑补词——同名根已存在（ag），现有 19 词
+agriculture
+# apparere	1 词	疑补词——同名根已存在（apparere），现有 3 词
+apparatus
+# carrus	1 词	疑补词——同名根已存在（carrus），现有 8 词
+caress
+# certus	1 词	疑补词——同名根已存在（certus），现有 6 词
+concert
+# clarus	1 词	疑补词——同名根已存在（clarus），现有 4 词
+clear
+# clud	1 词	疑补词——同名根已存在（clud），现有 13 词
+clause
+# cors	1 词	疑补词——同名根已存在（cors），现有 9 词
+curb
+# crescere	1 词	疑补词——同名根已存在（crescere），现有 4 词
+concrete
+# densus	1 词	疑补词——同名根已存在（densus），现有 3 词
+descendant
+# dict	1 词	疑补词——同名根已存在（dict），现有 12 词
+condition
+# domus	1 词	疑补词——同名根已存在（domus），现有 6 词
+domain
+# fac	1 词	疑补词——同名根已存在（fac），现有 29 词
+artificial
+# filum	1 词	疑补词——同名根已存在（filum），现有 2 词
+affiliate
+# gnoscere	1 词	疑补词——同名根已存在（gnoscere），现有 5 词
+cognitive
+# graphein	1 词	疑补词——同名根已存在（graphein），现有 8 词
+diagram
+# identus	1 词	疑补词——同名根已存在（identus），现有 4 词
+epidemic
+# intrare	1 词	疑补词——同名根已存在（intrare），现有 3 词
+entrepreneur
+# ire	1 词	疑补词——同名根已存在（ire），现有 10 词
+dissipate
+# labi	1 词	疑补词——同名根已存在（labi），现有 3 词
+collaborate
+# musa	1 词	疑补词——同名根已存在（musa），现有 4 词
+must
+# par-equal	1 词	疑补词——同名根已存在（par-equal），现有 6 词
+apparent
+# pingere	1 词	疑补词——同名根已存在（pingere），现有 3 词
+depict
+# poena	1 词	疑补词——同名根已存在（poena），现有 4 词
+accompany
+# proprius	1 词	疑补词——同名根已存在（proprius），现有 2 词
+appropriate
+# putare	1 词	疑补词——同名根已存在（putare），现有 10 词
+encounter
+# quir	1 词	疑补词——同名根已存在（quir），现有 12 词
+conquer
+# rect	1 词	疑补词——同名根已存在（rect），现有 14 词
+address
+# serere	1 词	疑补词——同名根已存在（serere），现有 4 词
+dessert
+# sta	1 词	疑补词——同名根已存在（sta），现有 42 词
+distant
+# stringere	1 词	疑补词——同名根已存在（stringere），现有 7 词
+distress
+# stru	1 词	疑补词——同名根已存在（stru），现有 12 词
+destroy
+# tempus	1 词	疑补词——同名根已存在（tempus），现有 4 词
+contemplate
+# tendere	1 词	疑补词——同名根已存在（tendere），现有 20 词
+content
+# tithenai	1 词	疑补词——同名根已存在（tithenai），现有 4 词
+aesthetic

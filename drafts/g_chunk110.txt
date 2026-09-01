@@ -1,0 +1,34 @@
+# 档位是**线索不是结论**。单源匹配实测假阳性约 50%、假阴性约 30%。两个方向都核。
+## A 档：疑可挂现有根 —— 核对成立按补词写；不成立退回 B/C 并说明
+log	# 词元 loggum	疑 → logos
+logic	# 词元 logicus	疑 → logos
+logical	# 词元 —	疑 → logos
+magnificent	# 词元 magnificent	疑 → fac
+master	# 词元 magister	疑 → minus-less
+medical	# 词元 medical	疑 → medius
+medicine	# 词元 medicine	疑 → medius
+meditate	# 词元 meditor	疑 → edere-publish
+meditation	# 词元 meditacion	疑 → edere-publish
+memo	# 词元 —	疑 → memor
+mine	# 词元 mine	疑 → minus-less
+mineral	# 词元 mineral	疑 → minus-less
+minimize	# 词元 —	疑 → minus-less
+movie	# 词元 —	疑 → mov
+## B 档：借词但匹配器没找到根 —— **没找到 ≠ 没有**，自己查 roots.json
+longitude	# 词元 longitude	疑 → 
+magnitude	# 词元 magnitudo	疑 → 
+malignant	# 词元 malignant	疑 → 
+member	# 词元 membre	疑 → 
+messenger	# 词元 messanger	疑 → 
+migrate	# 词元 migro	疑 → 
+mistress	# 词元 maistresse	疑 → 
+multitude	# 词元 multitude	疑 → 
+## C 档：查不到古典词元 —— 多为孤立/日耳曼型，但仍自己判
+loudspeaker	# 词元 —	疑 → 
+mankind	# 词元 —	疑 → 
+many	# 词元 —	疑 → 
+mingle	# 词元 —	疑 → 
+missing	# 词元 —	疑 → 
+monotonous	# 词元 —	疑 → 
+more	# 词元 —	疑 → 
+mother	# 词元 —	疑 → 

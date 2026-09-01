@@ -1,0 +1,25 @@
+mayor	maior（已建模词根 maior，其 origin 即写「拉丁语 maior，magnus 的比较级」；mayor ← 古法语 maire ← 拉丁语 maior「更大的」，本义「城里较大的那个人」。该族在词表内有 mayor/major/majority/majesty/maximum/master 六词，后两个走 magnus 最高级与 magister，按规格属同支不另开根。库中 maior 根现有 majesty/major/majority 三个成员，本词属补词而非新根）
+means	medius（中古英语 mene ← 古法语 meien ← 晚期拉丁语 medianus ← 拉丁语 medius「中间的」，本义「居中之物」，故为「借以达到目的的中介」。该族在词表内有 means/medium/immediate/intermediate/medieval 五词，middle 是日耳曼同源词不计入。库中尚无 medius 根，需新建）
+menu	minus（已建模词根 minus，其 origin 即写「拉丁语 minus / minor」；menu ← 法语 menu「细目」← 拉丁语 minutus「细小的」← minuere「减小」，本义「一份细列出来的单子」。该族在词表内有 menu/minute/minus/minimum/diminish/miniature 六词，库中 minus 根现有 administer/diminish/minister/minor/minority 五个成员，本词属补词而非新根）
+mercy	merx（古法语 merci ← 拉丁语 merces「报酬、赏赐」← merx「货物」；教会拉丁语里转指天赐的恩赏，故为怜悯、宽免。该族在词表内有 mercy/merchant/merchandise/commerce/commercial/market 六词。库中尚无 merx 根，需新建。提请注意：mercy 与其余五词的语义联系最弱，若并入，root_logic 需交代「不索取应得的报偿即是宽免」这一步，否则会成为该族里讲不出联系的一个）
+merge	mergere（拉丁语 mergere「浸入、没入」，故为沉没、合并入一处。该族在词表内有 merge/emerge/emergency/submerge/immerse 五词。库中尚无 mergere 根，需新建）
+mess	mit-miss（已建模词根 mit-miss，其 origin 即写「拉丁语 mittere（送、派遣、发出）」；mess ← 古法语 mes「一道菜」← 晚期拉丁语 missum「端上桌的一道」← mittere「放、送」。该族在词表内成员众多，库中 mit-miss 根现有 admit/commit/permit/transmit/mission/omit/submit/dismiss 等十六个成员。但按规格第四条：知道 mittere 推不出「一团乱」，词义是经「混在一盘里的杂食」漂过来的，语义联系已断。建议不要并入 mit-miss，按日耳曼型单写，本行只作上报，由你定夺）
+mile	mille（古英语 mīl ← 拉丁语 mīlia passuum「一千步」← mille「千」。该族在词表内有 mile/million/millionaire/millimeter 四词。库中尚无 mille 根，需新建）
+mob	mov（已建模词根 mov，其 origin 即写「拉丁语 movere（移动、推动）」；mob 是拉丁短语 mobile vulgus「易动的群众」的缩略，承载词义的是 mobilis ← movere。该族在词表内有 mob/mobile/move/movement/remove/motion/motor 七词，库中 mov 根现有 motion/motive/motor/movement/removal 五个成员，本词属补词而非新根）
+mould	modus（已建模词根 modus，其 origin 里已写 modulus「小尺度」；mould「模子」← 古法语 modle ← 拉丁语 modulus ← modus「量度、限度」，本义「定形用的尺度」。该族在词表内有 mould/mode/model/modern/moderate/modest/modify/module 八词，本词属补词而非新根。同形异源提醒：mould 的另一义「霉」← 中古英语 mowlde，是日耳曼源，与 modus 无关，入库时只能按「模子」一义挂根，霉那一义须在词条里另行交代）
+mount	mons（古法语 monter ← 通俗拉丁语 montare ← 拉丁语 mons / montem「山」，本义「上山」，故为登上、装上。该族在词表内有 mount/mountain/amount 三词，surmount/paramount 不在词表内。库中尚无 mons 根，需新建）
+naive	nasci（已建模词根 nasci，其 origin 即写「拉丁语 nasci / natus（出生）」；naive ← 法语 naïve ← 拉丁语 nativus「天生的」← nasci，本义「还是生下来那个样子」。该族在词表内有 naive/native/nation/nature/natural 五词，库中 nasci 根现有 nation/national/native/nature 四个成员，本词属补词而非新根）
+naval	navis（拉丁语 navalis「船的」← navis「船」。该族在词表内有 naval/navy/navigation 三词。库中尚无 navis 根，需新建）
+navy	navis（古法语 navie「船队」← 通俗拉丁语 navia ← 拉丁语 navis；同 naval 一族，词表内共三词）
+nice	sci（已建模词根 sci，其 origin 即写「拉丁语 scire（知道、分辨）」；nice ← 古法语 nice「愚蠢的」← 拉丁语 nescius「不知道的」＝ ne 不＋scire 知，承载词义的是 scire。库中 sci 根现有 science/scientist/conscious/conscience/conscientious 五个成员。但按规格第四条：词义经「无知→挑剔→讲究→好」一路漂移，知道 scire 推不出今义。建议不要并入 sci，按日耳曼型单写，本行只作上报，由你定夺）
+noble	noscere（拉丁语 nobilis ＝ gnō-（← noscere 认识、知道，古体 gnoscere）＋-bilis，本义「可被认得的、有名望的」，承载词义的是 gnō- 而非 bonus。该族在词表内有 noble/notable/note/notice/notion/notorious/recognize/recognition/ignore/ignorant/ignorance/acquaint/acquaintance/diagnose 十四词。定夺点：库中已建模的 notare 是 nota 名词一支「做记号」，noble 属 noscere 动词一支，需决定并入 notare 还是另立 noscere。chunk30 已同样上报过本词）
+noun	nomen（古法语 nom ← 拉丁语 nomen「名字、名称」，语法术语 nomen 即名词。该族在词表内有 noun/pronoun/nominate/nominal/anonymous 五词，其中 anonymous 走希腊语 onoma 一支，与拉丁 nomen 同源。库中尚无 nomen 根，需新建。chunk30 已同样上报过本词）
+novel	novus（拉丁语 novus「新的」→ 指小形 novellus「新出的」；小说一义经意大利语 novella「新奇故事」入英语。该族在词表内有 novel/novelty/innovation/renovate 四词，renew 是 re-＋日耳曼语 new 不计入。库中尚无 novus 根，需新建。chunk30 已同样上报过本词）
+nurse	nutrire（古法语 norrice ← 晚期拉丁语 nutricia ← nutrix「乳母」← nutrire「喂养、哺育」。该族在词表内有 nurse/nourish/nurture/nutrition/nursery 五词。库中尚无 nutrire 根，需新建。chunk30 已同样上报过本词）
+obey	audire（已建模词根 audire，其 origin 即写「拉丁语 audire（听）」；obey ← 古法语 obeir ← 拉丁语 oboedire ＝ ob-（朝着）＋audire，本义「侧耳听命」。该族在词表内有 obey/obedient/obedience/audience/audio/audit/auditorium 七词，库中 audire 根现只有 obedience/obedient 两个成员，本词属补词而非新根。chunk30 已同样上报过本词）
+onion	unus（古法语 oignon ← 拉丁语 unio「大颗独粒的珍珠、洋葱」← unus「一」，取抱成独独一个球之义。该族在词表内有 onion/ounce/union/unit/unite/unity/unique/uniform/unify/universe/universal/university/unanimous 十三词。库中尚无 unus 根，需新建；注意 mun 根的 origin 里含 munus，与 unus 只是拼写相含，不是同支。chunk30 已同样上报过本词）
+ounce	unus（古法语 unce ← 拉丁语 uncia「十二分之一」，一磅的十二分之一，同源的 inch 是一英尺的十二分之一 ← unus；同 onion 一族，词表内共十三词。chunk30 已同样上报过本词）
+pace	passare（已建模词根 passare，其 origin 即写「晚期拉丁语 passare（迈步、经过），与拉丁语 passus（步）相关」；pace ← 古法语 pas ← 拉丁语 passus「跨出的一步」。该族在词表内有 pace/pass/passage/passenger/passport/compass/surpass 七词，库中 passare 根现有 compass/pass/passage/surpass 四个成员，本词属补词而非新根。同形异源提醒：库中 pati 根的过去分词也是 passus，但那一支是「承受」，与迈步无关，勿挂错）
+pain	poena（古法语 peine ← 拉丁语 poena「罚金、惩罚」← 希腊语 poine；「疼」由「受罚」而来。该族在词表内有 pain/painful/penalty/punish 四词，punish ← punire ← poena。库中尚无 poena 根，需新建；注意勿与已建模的 pend「拉丁语 pendere（悬挂、称量）」混为一支，penalty 的 pen- 出 poena 不出 pendere）
+painful	poena（pain 加 -ful；同上一族，词表内共四词）
+pant	phainein（已建模词根 phainein，其 origin 即写「希腊语 phainein（使显现、露出来）；phantasia 表心里现出的影」；pant ← 古法语 pantaisier「喘不上气」← 通俗拉丁语 pantasiare「被噩梦压住」← 希腊语 phantasia。库中 phainein 根现有 emphasis/fantasy/fancy 三个成员。但按规格第四条：知道 phainein 推不出「喘」，这一义是由「梦中窒闷」而来，语义联系已断。建议不要并入 phainein，按日耳曼型单写，本行只作上报，由你定夺）

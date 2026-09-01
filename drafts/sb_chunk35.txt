@@ -1,0 +1,182 @@
+# 第 35 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk35.tsv
+
+## weekday
+pos: noun    phonetic: /ˈwiːkdeɪ/
+现有画面: 日历中的工作日被标出，周末两格留在另一种颜色
+现有中文: weekday   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{inh+|en|enm|wykeday}}, from {{inh|en|ang|wicdæġ|t=weekday}}, from {{inh|en|gmw-pro|*wikadag}}, from {{inh|en|gem-pro|*wikadagaz|t=weekday}}. {{surf|+com+|en|week|day}}. Compare {{cog|fy|wikedei|t=weekday}}, {{cog|nl|weekdag|t=weekday}}, {{cog|nds-de|Wekendag|t=weekday}}, {{cog|de|Wochentag|t=weekday}}, {{cog|da|ugedag|t=weekday}}, {{cog|sv|veckodag|t=weekday}}, {{cog|no|ukedag|t=weekday}}, {{cog|fo|vikudagur|t=weekday}}, {{cog|is|vikudagur|t=weekday}}.
+
+## weekend
+pos: noun    phonetic: /ˈweekend/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 日历最后两格没有工作安排，家人准备出门
+现有中文: weekend   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{compound|en|week|end}}. Originally a Northern England regionalism (see 1903 quotation), in more general use from late 19th century. Compare {{cog|stq|Wiekeneende|t=weekend}}, {{cog|fy|wykein|t=weekend}}, {{cog|nl|weekeinde|t=weekend}}, {{cog|nds-de|Wekenenn|t=weekend}}, {{cog|de|Wochenende|t=weekend}}.
+
+## weekly
+pos: adverb    phonetic: /ˈwiːk.li/
+现有画面: 墙上计划表每七天重复一次同样的检查
+现有中文: weekly   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|wykely|pos=adverb}}, equivalent to {{af|en|week|-ly|id2=adverbial|pos2=adverbial suffix}} or {{af|en|week|-ly|id2=adjectival|pos2=adjectival suffix}}. Compare {{cog|nl|wekelijks||weekly}}, {{cog|de|wöchentlich||weekly}}, {{cog|da|ugentlig||weekly}}, {{cog|no|ukentlig||weekly}}, {{cog|is|vikulega||weekly}}, {{cog|sv|veckovis||weekly}}.
+
+## weep
+pos: verb    phonetic: /ˈwiːp/
+现有画面: 人低头流泪，泪水沿脸颊落在衣襟上
+现有中文: weep   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|wepen|id=to weep}}, from {{inh|en|ang|wēpan||to weep, complain, bewail, mourn over, deplore}}, from {{inh|en|gmw-pro|*wōpijan}}, from {{inh|en|gem-pro|*wōpijaną||to weep}}, from {{der|en|ine-pro|*weh₂b-||to call, cry, complain}}. Cognate with {{cog|sco|weep||to weep}}, {{cog|stq|wapia||to cry, complain}}, {{cog|is|æpa||to yell, shout}}, {{cog|sla-pro|*vъpiti||to weep}}.  ┃  {{onom|en|title=Imitative}} of its cry.
+
+## weigh
+pos: verb    phonetic: /weɪ/
+现有画面: 物品放上秤盘，指针向对应刻度移动
+现有中文: weigh   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:weyen}} {{root|en|ine-pro|*weǵʰ-}} From {{inh|en|enm|weyen}}, from {{inh|en|ang|wegan}}, from {{inh|en|gmw-pro|*wegan}}, from {{inh|en|gem-pro|*weganą||to move, carry, weigh}}, from {{inh|en|ine-pro|*wéǵʰeti}}, from {{m|ine-pro|*weǵʰ-||to bring, transport}}. {{col-top|2|cog}} Cognate with {{cog|sco|wey}}, {{m|sco|wee}}, {{cog|nl|wegen}}, {{cog|de|wiegen}}, {{m|de|wägen}}, {{cog|da|veje}}, {{cog|nb|veie}}, {{cog|nn|vega}}. {{doublet|en|wedge|wagon|way|vector}}. {{col-bottom}}
+
+## weight
+pos: noun    phonetic: /weɪt/
+现有画面: 秤盘上的金属块向下压，数字显示它的重量
+现有中文: weight   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*weǵʰ-}} From {{inh|en|enm|weight}}, {{m|enm|weiȝte}}, {{m|enm|weght}}, {{m|enm|wight}}, from {{inh|en|ang|wiht}}, {{m|ang|ġewiht||weight}}, from {{inh|en|gem-pro|*wihtiz}} {{gloss|"weight"; compare {{m|gem-pro|*weganą||to move}}}}, from {{inh|en|ine-pro|*weǵʰ-||to move; pull; draw; drive}}. Equivalent to {{suffix|en|weigh|t|id2=th|pos2=abstract nominal suffix}}. Cognate with {{cog|sco|wecht}}, {{m|sco|weicht||weight}}, {{cog|stq|Wächte||scale}}, {{m|stq|Gewicht||weight}}, {{cog|fy|gewicht||weight}}, {{cog|nl|gewicht||weight}}, {{cog|nds-de|Wicht}}, {{m|nds-de|Gewicht||weight}}, {{cog|de|Wucht|t=massiveness, force}}, {{m|de|Gewicht||weight}}.
+
+## weird
+pos: adjective    phonetic: /ˈwɪəd/
+现有画面: 普通房间里摆着一件形状怪异的家具，让人停步观看
+现有中文: weird   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*wert-}} From {{der|en|enm|werde}}, {{m|enm|wierde}}, {{m|enm|wirde}}, {{m|enm|wyrede}}, {{m|enm|wurde}}, from {{der|en|ang|wyrd||fate}}, from {{der|en|gmw-pro|*wurdi}}, from {{der|en|gem-pro|*wurdiz}}, from {{der|en|ine-pro|*wert-||to turn, wind}}. Cognate with {{cog|is|urður||fate}}. Related to {{cog|ang|weorþan||to become}}; more at {{l|en|worth#Etymology_2|pos=verb}}. {{doublet|en|wyrd}}, a reborrowing of the original sense and spelling. Obsolete by the 16th century in English, it was reintroduced by Shakespeare, who borrowed {{bor|en|gmw-msc|weird}} as {{m|en||weyward}} in the name of the ''Weyward Sisters'' (later respelt as ''Weird Sisters''), meaning “{{w|Sisters of…（已截断）
+
+## welcome
+pos: adjective    phonetic: /ˈwel.kəm/
+现有画面: 门口的人微笑侧身，把新来者引进温暖的房间
+现有中文: welcome   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:welcome|tree=+}} From {{inh|en|enm|welcome}}, {{m|enm|wolcume}}, {{m|enm|wulcume}}, {{m|enm|wilcume}}, from {{inh|en|ang|wilcuma}} {{gloss|“a wished-for guest”; compare also {{m|ang|wilcume||welcome!|pos=interjection}}}}, from {{inh|en|gmw-pro|*willjakwemō}}, from {{inh|en|gem-pro|*wiljakwemô|t=a wished-for arrival or guest}}, possibly from {{m|gem-pro|*wiljakwemaną|t=to be welcome}}, equivalent to {{com|en|will|t1=desire|come|t2=comer, arrival}}. The component ''wil-'' was replaced by ''wel-'' when the sense “guest” of the second component was no longer understood, likely under influence from the adverb {{m|en|well}}. {{col-top|2|cog}} Cognate with {{cog|sco|walcome}}, {{c…（已截断）
+
+## weld
+pos: noun    phonetic: /weld/
+现有画面: 两块金属边缘被高温熔在一起，接缝处留下亮痕
+现有中文: weld   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|welde}}, {{m|enm|wolde}}, from {{inh|en|ang|*weald}}, {{m|ang|weard}}, variant form of {{m|ang|wād}}, {{inh|en|gmw-pro|*waiʀd}}, from {{inh|en|gem-pro|*waizdaz}}. Alternatively reborrowed from or contaminated by {{der|en|xno|wold}}, {{m|fro|wolde}} (compare {{cog|fro|guaide}}). {{doublet|en|woad}}. {{cog|nl|wouw}} is derived from the same basic form with ''-l-''.  ┃  [[File:SMAW.welding.af.ncs.jpg|thumb|right|A person welding]] Alteration of {{m|en|well||boil, rise}}, probably influenced by the past participle, {{m|en|welled|}}. Compare cognate {{cog|da|vælde}}, {{cog|sv|välla|t=boil, rise → to forge weld}}.  ┃  From {{inh|en|ang|weald}} (sense 2).
+
+## welfare
+pos: noun    phonetic: /ˈwelˌfeə/
+现有画面: 工作人员把食物和毯子递给需要帮助的人
+现有中文: welfare   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|welefare}}, probably from the {{der|en|ang|-}} phrase {{m|ang|wel faran|t=to fare well, get along successfully, prosper}} (cognate with {{cog|dum|welvare|t=welfare}}, {{cog|gml|wolvare|t=welfare}}, {{cog|gmh|wolvar}}, {{m|gmh|wolfar|t=welfare}}). Equivalent to {{af|en|well|fare}}. Compare also {{cog|fy|wolfeart}}, {{cog|nl|welvaart}}, {{cog|de|Wohlfahrt}}, {{cog|non|velferð}} (whence {{cog|sv|välfärd|t=welfare}}). The first recorded use in the sense of "social concern for the well-being of children, the unemployed, etc." is from 1904 and in the sense of "organized effort to provide for maintenance of members of a group" from 1918.
+
+## well
+pos: adverb    phonetic: /ˈwel/
+现有画面: 地下水从砌好的井口被提到地面，桶沿还在滴水
+现有中文: well   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|wel}}, {{m|enm|wal}}, {{m|enm|wol}}, {{m|enm|wele}}, from {{inh|en|ang|wel|t=well, abundantly, very, very easily, very much, fully, quite, nearly}}, from {{inh|en|gem-pro|*wela}}, {{m|gem-pro|*wala|t=well|lit=as wished, as desired}}, from {{der|en|ine-pro|*welh₁-|t=wish, desire}}. {{col-top|2|cog}} Cognate with {{cog|yol|vella}}, {{m|yol|waal}}, {{m|yol|wel}}, {{m|yol|well}}, {{m|yol|wull|t=well}}, {{cog|cim|boll}}, {{m|cim|bóol|t=well}}, {{cog|nl|wel|t=well}}, {{cog|de|wohl}}, {{m|de|wol}}, {{m|de|woll|t=well}}, {{cog|da,is,nb,nn|vel|t=well}}, {{cog|fo|væl|t=well}}, {{cog|sv|väl}}, {{m|sv|waͤl|t=well}}, {{cog|got|𐍅𐌰𐌹𐌻𐌰|t=well}}. Related to {{l|en|will}}. {{col-bottom}}  ┃ …（已截断）
+
+## west
+pos: noun    phonetic: /west/
+现有画面: 夕阳落在地图左侧，指南针指向相应方向
+现有中文: west   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:west}} {{PIE word|en|wek⁽ʷ⁾speros}} From {{inh|en|enm|west}}, from {{inh|en|ang|west}}, from {{inh|en|gmw-pro|*westr|t=western}}, from {{inh|en|gem-pro|*westrą|t=west}}, from {{inh|en|gem-pro|*westraz|t=west}}, from {{inh|en|ine-pro|*wek⁽ʷ⁾speros|t=evening}}. {{col-top|2|cog}} Cognate with {{cog|sco|wast|t=west}}, {{cog|frr|waast}}, {{m|frr|weest}}, {{m|frr|wäst|t=west}}, {{cog|stq|Wääste|t=west}}, {{cog|fy,nl|west|t=west}}, {{cog|de|West|t=west}}, {{cog|da,nb,nn|vest|t=west}}, {{cog|fo,is|vestur|t=west}}, {{cog|sv|väst}}, {{m|sv|väster|t=west}}; also with {{cog|ga|feascar}}, {{m|ga|feasgar|t=evening; vespers}}, {{cog|kw|gorthugher|t=evening}}, {{cog|gv|fastyr|t=afternoon, …（已截断）
+
+## western
+pos: adjective    phonetic: /ˈwestən/
+现有画面: 地图左边的地区被标出，海风从那一侧吹来
+现有中文: western   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|westerne}}, from {{inh|en|ang|westerne}}, from {{inh|en|gem-pro|*westrōnijaz}}. {{surf|en|west|-ern}}.
+
+## wet
+pos: adjective    phonetic: /wet/
+现有画面: 雨水浸透袖口，布料贴在手臂上变得沉重
+现有中文: wet   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:af|enm:wet}} {{root|en|ine-pro|*wed-}} From {{inh|en|enm|wet||wet, moistened}}, {{m|enm|wett}}, {{m|enm|wette}}, past participle of {{der|en|enm|weten||to wet}}, from {{der|en|ang|wǣtan||to wet, moisten, water}}, from {{der|en|gmw-pro|*wātijan}}, from {{der|en|gem-pro|*wētijaną||to wet, make wet}}, from {{der|en|ine-pro|*wed-||water, wet}} (also the source of {{m|en|water}}). Cognate with {{cog|sco|weit}}, {{m|sco|wete||to wet}}, {{cog|stq|wäitje||to wet; drench}}, {{cog|is|væta||to wet}}. Compare also {{cog|enm|weet||wet}}, from {{cog|ang|wǣt||wet, moist, rainy}}, from {{cog|gmw-pro|*wāt}}, from {{cog|gem-pro|*wētaz||wet, moist}}, related to {{cog|sco|weit}}, {{m|sco|weet}}, {{…（已截断）
+
+## whale
+pos: noun    phonetic: /ˈweɪl/
+现有画面: 巨大身影在海面下移动，背部浮出后喷起水柱
+现有中文: whale   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:whal|tree=1}} From {{inh|en|enm|whal}}, {{m|enm|whale}}, from {{inh|en|ang|hwæl||whale}}, from {{inh|en|gmw-pro|*hwal}}, from {{inh|en|gem-pro|*hwalaz||whale}} (compare {{cog|de|Wal}}, {{cog|sv|val}}, {{cog|da,nb|hval}}, {{cog|nn|kval}}; compare also {{cog|nl|walvis}}, {{cog|fy|walfisk}}, from {{inh|en|ine-pro|*(s)kʷálos||[[sheatfish]]}} (compare {{cog|de|Wels}}, {{cog|la|squalus||big sea fish}}, {{cog|prg|kalis}}, {{cog|grc|ἄσπαλος}}, {{cog|ae|𐬐𐬀𐬭𐬀||kind of fish}}).  ┃  {{unc|en}}. Perhaps a variant of {{m|en|wale}} influenced by {{m|en|whack}}, {{m|en|whap}}, etc.
+
+## whatever
+pos: noun    phonetic: /wɒtˈev.ə/
+现有画面: 桌上摆着几种物品，选择哪一件都不会改变安排
+现有中文: whatever   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whatever}}. {{surf|en|what|-ever}}.
+
+## wheat
+pos: noun    phonetic: /ˈwiːt/
+现有画面: 成熟麦穗在田里成片弯曲，金黄色籽粒藏在穗壳中
+现有中文: wheat   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whete}}, from {{inh|en|ang|hwǣte}}, from {{inh|en|gmw-pro|*hwaitī}}, from {{inh|en|gem-pro|*hwaitijaz}} (compare {{cog|fy|weet}}, {{cog|nl|weit}}, {{cog|nds|Weten}}, {{cog|de|Weizen}}, {{cog|da|hvede}}, {{cog|sv|vete}}, {{cog|nb|hvete}}, {{cog|nn|kveite}}, {{cog|fo,is|hveiti}}), from {{m|gem-pro|*hwītaz||white}}. More at {{m|en|white}}.
+
+## wheel
+pos: noun    phonetic: /ˈwiːl/
+现有画面: 圆轮绕中心轴旋转，车身因此沿道路向前
+现有中文: wheel   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:whel|tree=1}} From {{inh|en|enm|whel}}, from {{inh|en|ang|hwēol}}, from {{inh|en|gmw-pro|*hwehwl}}, from {{inh|en|gem-pro|*hwehwlą}}, {{m|gem-pro|*hweulō}}, from {{inh|en|ine-pro|*kʷekʷlóm}}, {{m|ine-pro|*kʷékʷlos}}, {{m|ine-pro|*kʷékʷléh₂}}, reduplication of {{m|ine-pro|*kʷel-||to turn}} and a suffix (literally "(the thing that) turns and turns"). See also {{cog|fy|tsjil}}, {{cog|nl|wiel}}, {{cog|da,nb,nn,sv|hjul}}; also {{cog|txb|kokale||cart, wagon}}, {{cog|grc|κύκλος||cycle, wheel}}, {{cog|ae|𐬗𐬀𐬑𐬭𐬀}}, {{cog|sa|चक्र|tr=cakrá}}; and {{cog|la|colō||to till, cultivate}}, {{cog|xto|-}} and {{cog|txb|käl-|t=to bear; bring}}, {{cog|grc|πέλω||to come into existence, become}}…（已截断）
+
+## whenever
+pos: conjunction    phonetic: /wəˈnevə/
+现有画面: 时间表上无论哪一次铃响，门都会自动打开
+现有中文: whenever   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whan evere}}, {{m|enm|whanne ever}}, {{m|enm|whanne evere}}, {{m|enm|whener}}, {{m|enm|when ever}}; equivalent to {{affix|en|when|-ever}}.
+
+## wherever
+pos: adverb    phonetic: /weəˈrevə/
+现有画面: 地图上任意一处地点都可插入标记，路线随后改变
+现有中文: wherever   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|where|ever|tree=1}} From {{affix|en|where|-ever}}.
+
+## whichever
+pos: pronoun    phonetic: /ˈwhichever/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 两条路线都画在地图上，旅客选哪一条都能到达
+现有中文: whichever   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{m|enm|whiche ever}}, {{m|enm|whiche evere}}, {{m|enm|which ever}}, {{m|enm|which evere}}; equivalent to {{affix|en|which|-ever}}.
+
+## whip
+pos: noun    phonetic: /ˈwɪp/
+现有画面: 长条皮鞭在空中划过，末端发出清脆声响
+现有中文: whip   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whippen}}, {{m|enm|wippen|t=to flap violently}}, from {{der|en|dum|wippen|t=to swing, leap, dance, oscillate}} and {{der|en|gml|wippen|t=to move quickly}}, from {{der|en|gem-pro|*wippōną|t=to move back and forth}}, ultimately from {{der|en|ine-pro|*weyp-|t=to shake; to swing}}. (See Swedish {{m|sv|vippa}} and Danish {{m|da|vippe|t=to shake}}). The unetymological ''wh-'' is probably expressive of the sound of a whip; compare the same development in {{m|en|whisk}} and onomatopoeias such as {{m|en|whack}} and {{m|en|whoosh}}. The political senses are from {{m|en|whipper-in|t=huntsman who keeps the hounds from wandering}}, from 18th-century hunting terminology.
+
+## whirl
+pos: verb    phonetic: /wɜːl/
+现有画面: 落叶被旋风卷起，在空中绕中心快速转圈
+现有中文: whirl   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whirlen}}, contracted from earlier {{m|enm|*whirvelen}}, {{m|enm|*whervelen}}, possibly from {{inh|en|ang|*hwyrflian}}, {{m|ang|*hweorflian}} (attested in {{m|ang|hwirflung}}, {{m|ang|hwerflung|t=change, vicissitude}}), frequentative form of {{der|en|ang|hweorfan|t=to turn}}, itself from {{inh|en|gmw-pro|*hwerban}}, from {{inh|en|gem-pro|*hwerbaną|t=to turn}}; or perhaps from {{der|en|non|hvirfla|t=to go round, spin}}. Cognate with {{cog|nl|wervelen||to whirl, swirl}}, {{cog|de|wirbeln||to whirl, swirl}}, {{cog|da|hvirvle||to whirl}}, {{cog|sv|virvla}} (older spelling {{m|sv|hvirfla}}), {{cog|sq|vorbull||a whirl}}. Related to {{m|en|whirr}} and {{m|en|wharve}}.  ┃  From {{i…（已截断）
+
+## whisky
+pos: noun    phonetic: /ˈwɪski/
+现有画面: 琥珀色液体盛在玻璃杯中，灯光穿过杯壁
+现有中文: whisky   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|id=alcohol|usque}} Variant of {{m|en|usque}}, abbreviation of {{m|en|usquebaugh}} (compare [[obsolete]] {{m|en|whiskybae}}), from {{der|en|gd|uisge-beatha||[[water of life]]}}, [[calque]] of {{der|en|la-med|aqua vitae}}. Compare {{m|en|akvavit}}, {{m|en|aquavit}}, {{m|en|aqua vitae}}, {{m|en|eau de vie}}, and {{m|en|water of life}} from the same source.  ┃  {{ety|en|id=carriage|:af|whisk|-y|text=+|tree=1}}
+
+## whisper
+pos: noun    phonetic: /ˈ(h)wɪspə/
+现有画面: 两个人靠近耳边说话，声音低到旁人听不清
+现有中文: whisper   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whisperen}}, from {{inh|en|ang|hwisprian||to mutter, murmur, whisper}}, from {{inh|en|gmw-pro|*hwisprōn}}, from {{inh|en|gem-pro|*hwisprōną||to hiss, whistle, whisper}}, from {{der|en|ine-pro|*ḱweys-}}, {{m|ine-pro|*ḱwey-||to hiss, whistle, whisper}}. Cognate with {{cog|nl|wisperen||to whisper}}, {{cog|de|wispern||to mumble, whisper}}. Related also to {{cog|da|hviske||to whisper}}, {{cog|is|hvískra||to whisper}}, {{cog|nb|hviske}}, {{m|nb|kviskre||to whisper}}, {{cog|nn|kviskre}}, {{m|nn|kviskra||to whisper}}, {{cog|sv|viska||to whisper}}. More at {{cog|en|whistle}}.
+
+## whistle
+pos: noun    phonetic: /ˈwɪs(ə)l/
+现有画面: 嘴唇吹出尖锐长音，远处的人听到后转身
+现有中文: whistle   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whistel}}, {{m|enm|whistil}}, {{m|enm|whistle}}, from {{inh|en|ang|hwistle}}, from the verb (see below).  ┃  From {{inh|en|enm|whistlen}}, from {{inh|en|ang|hwistlan}}, {{m|ang|hwistlian|t=to whistle}}, from {{inh|en|gmw-pro|*hwistlōn}}, from {{inh|en|gem-pro|*hwistlōną|t=to make a hissing sound}}. Cognate with {{cog|sv|vissla|t=to whistle}}, {{cog|is|hvísla|t=to whisper}}, {{cog|ru|свистеть|t=to whistle}}.
+
+## white
+pos: adjective    phonetic: /ˈwaɪt/
+现有画面: 白布在阳光下展开，表面几乎不带其他颜色
+现有中文: white   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:whit}} {{inh+|en|enm|whit}}, {{m|enm|hwit}}, from {{inh|en|ang|hwīt}}, from {{inh|en|gmw-pro|*hwīt}}, from {{inh|en|gem-pro|*hwītaz}}, from {{inh|en|ine-pro|*ḱweydós}}, a byform of {{m|ine-pro|*ḱweytós|t=bright; shine}}. {{col-top|2|cog}} * {{cog|fy|wyt}} * {{cog|nl|wit}} * {{cog|de|weiß}} * {{cog|de|weiss}} * {{cog|nb|hvit}} * {{cog|nn|kvit}} * {{cog|sv|vit}} * {{cog|da|hvid}} * {{cog|lt|šviẽsti|t=to gleam}}, {{m|lt|šviesa|t=light}} * {{cog|cu|свѣтъ|t=light}}, {{m|cu|свѣтьлъ|t=clear, bright}} * {{cog|fa|سفید|t=white|tr=sefid}}, {{cog|fa|سپید|t=white|tr=sepid}} * {{cog|ae|𐬯𐬞𐬀𐬉𐬙𐬀|tr=spaēta|t=white}} * {{cog|sa|श्वेत|t=white, bright|tr=śvetá}} {{col-bottom}}
+
+## whoever
+pos: pronoun    phonetic: /huˈevə/
+现有画面: 门口站着一个人，无论是谁都可进来领取号码
+现有中文: whoever   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|whoever}}. {{surf|en|who|-ever}}.
+
+## whole
+pos: adjective    phonetic: /həʊl/
+现有画面: 碎片被重新拼在一起，原来的物品恢复完整
+现有中文: whole   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:hol|tree=1}} From {{inh|en|enm|whol}}, {{m|enm|hol|id=whole}}, {{m|enm|hole||healthy, unhurt, whole}}, from {{inh|en|ang|hāl||healthy, safe}}, from {{inh|en|gmw-pro|*hail}}, from {{inh|en|gem-pro|*hailaz||whole, safe, sound}}, from {{inh|en|ine-pro|*kéh₂ilos||healthy, whole}}. The spelling with ''wh-'', attested since ca. 1400, represents an excrescent {{IPAchar|/w/}}, which developed in words with initial {{IPAchar|/(h)ɔː/|/(h)oː/}} in southwestern dialects of {{m+|enm|-}}. While this pronunciation did not establish itself in the standard language (except in {{m|en|one}}), the spelling survived in {{m|en||whole}} and {{m|en|whore}}, in the former case likely reinforced …（已截断）
+
+## wholesome
+pos: adjective    phonetic: /ˈhəʊl.səm/
+现有画面: 新鲜食物和清洁空气让身体感到舒适而有益
+现有中文: wholesome   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From earlier {{m|en|holesome}}, from {{inh|en|enm|holsom}}, {{m|enm|holsum}}, {{m|enm|helsum}}, {{m|enm|halsum}}, from {{inh|en|ang|*hālsum}}, {{m|ang|*hǣlsum}}, from {{inh|en|gmw-pro|*hailasam}}, from {{inh|en|gem-pro|*hailasamaz}}, equivalent to {{suffix|en|whole|some|pos=adjective}} or {{suffix|en|hale|t1=healthy|some|pos=adjective}}. Cognate with {{cog|stq|heelsoam}}, {{cog|nl|heilzaam}}, {{cog|nds-de|heelsaam}}, {{cog|de|heilsam}}, {{cog|is|heilsamur}}, {{cog|nn|helsesam}}, {{cog|sv|hälsosam||wholesome}}.

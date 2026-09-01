@@ -1,0 +1,182 @@
+# 第 7 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk07.tsv
+
+## puzzle
+pos: noun    phonetic: /ˈpʌzəl/
+现有画面: 桌上散着形状各异的拼片，缺口还没有完全补齐
+现有中文: 谜题/使困惑
+词源(Wiktionary 原文): [[File:Set of various puzzles.jpg|thumb|Various puzzles ''({{senseno|en|game}})'' intended as [[pastime#Noun|pastimes]].]] The {{lg|verb}}, of {{unc|en|nocap=1}} origin, is attested first. Apparently cognate with {{cog|sco|pousle}}, {{m|sco|pouzle}}, {{m|sco|poozle|t=to trifle; poke or potter around aimlessly; search about with uncertainty}}, {{cog|stq|puzelje|t=to work hard and continuously}}, {{cog|fy|peuzelje|t=to trifle, work slowly; eat slowly and daintifully, snack}}, {{cog|nl|peuzelen|t=to perform insignificant work, dawdle; pick at, eat with relish in small pieces, snack}}, {{cog|nds-de|pusseln|t=to tinker, fiddle; trifle}} and {{m|nds-de|pöseln|t=to work hard, toil; to slave away; s…（已截断）
+
+## pyramid
+pos: noun    phonetic: /ˈpɪr.ə.mɪd/
+现有画面: 沙漠中央堆着层层缩小的石阶，顶端指向天空
+现有中文: 金字塔
+词源(Wiktionary 原文): From {{der|en|fr|pyramide}}, from {{der|en|fro|piramide}}, from {{der|en|la|pyramis|pȳramis, pȳramidis}}, from {{der|en|grc|πῡραμίς}}, possibly from {{m|grc|πῡρός||wheat}} + {{m|grc|ἀμάω||reap}} or from {{der|en|egy|pr-m-ws||height of a pyramid}}, from {{m|egy|prj|pr|(one that) comes forth}} + {{m|egy|m||from}} + {{m|egy|ws||height}}. Schenkel and K. Lang proposed hypothetical {{cog|cop|*ⲡⲓⲣⲁⲙ}} or {{m|cop|*ⲫⲣⲁⲙ}} derived from {{cog|egy|mr}} via metathesis as a source of {{m|grc|πῡραμίς}} while Schenkel also suggested it being the source of {{cog|ar|هَرَم}} although the latter is considered far-fetched by Takacs.
+
+## quantify
+pos: verb    phonetic: /ˈkwɒn.tɪˌfaɪ/
+现有画面: 实验员把液体逐份倒入有刻度的量筒
+现有中文: 量化
+词源(Wiktionary 原文): {{ety|en|:der|la-med:quantificō>|tree=1}} From {{der|en|la-med|quantifico}} (introduced by [[w:Sir William Hamilton, 9th Baronet|Sir William Hamilton]] in [[logic]]).
+
+## quantitative
+pos: adjective    phonetic: /ˈkwɒntɪtətɪv/
+现有画面: 报告中的数字排成表格，每一项都对应明确数量
+现有中文: 数量的
+词源(Wiktionary 原文): From {{der|en|la-lat|quantitātīvus}}. {{surf|en|quantity|-ative}}.
+
+## quantity
+pos: noun    phonetic: /ˈkwɒn.tɪ.ti/
+现有画面: 几个箱子并排码放，标签标出各自装了多少
+现有中文: 数量
+词源(Wiktionary 原文): {{root|en|ine-pro|*kʷ-}} From {{inh|en|enm|quantite}}, from {{der|en|fro|quantité}}, from {{der|en|la|quantitās||quantity}}, from {{m|la|quantus||how much}}.
+
+## quarrel
+pos: verb    phonetic: /ˈkwɒr(ə)l/
+现有画面: 两个人隔着桌子指向对方，声音越来越高
+现有中文: 争吵
+词源(Wiktionary 原文): {{root|en|ine-pro|*ḱwes-}} From {{inh|en|enm|querele|t=altercation, dispute; argument, debate; armed combat; trial by combat; basis for dispute, complaint; claim, legal suit; a lament; illness}}{{nb...|(Late Middle English) quarel, quarele, quarell, quarelle, quarrell, qvarel, qwarel, qwarell, (Middle English) quarrel, querel, querell, querelle, querile, queryle, qwerell, qwerelle|otherforms=1}}, from {{der|en|xno|querele}}{{nb...|querel, querelle, queril|otherforms=1}} and {{der|en|frm|querele}}, {{m|frm|querelle|t=altercation, dispute; basis for dispute; side in a dispute; complaint; accusation; legal suit; lament; problem}} (modern {{cog|fr|querelle}}), and from their {{glossary|etymon}} …（已截断）
+
+## quartz
+pos: noun    phonetic: /k(w)ɔːts/
+现有画面: 透明晶体躺在岩石裂缝里，切面反射出细碎亮光
+现有中文: 石英
+词源(Wiktionary 原文): From {{bor|en|de|Quarz}}, from {{uder|en|gmh|-}} (Central East German) {{m|gmh|quarz}}, {{m|gmh|twarc}}, from a {{uder|en|zlw|-}} language [compare {{cog|pl|twardy||hard}}, {{cog|cs|tvrdý||hard}}], from {{der|en|sla-pro|*tvьrdъ}} ultimately from {{der|en|ine-pro|*twerH-|t=to enclose, grab}}.
+
+## queer
+pos: adjective    phonetic: /kwɪə/
+现有画面: 展柜里一件形状出人意料的物品让参观者停步
+现有中文: 奇怪的
+词源(Wiktionary 原文): {{root|en|ine-pro|*terkʷ-}} Attested since about 1510, at first in {{bor|en|sco|-}}. Usually taken to be from {{der|en|gml|-}} (Brunswick [[dialect]]) {{m|gml|queer|t=oblique, off-centre}} or the related {{cog|de|quer|t=diagonal}}, from {{der|en|osx|thwerh}}, from {{der|en|gmw-pro|*þwerh}}, from {{der|en|gem-pro|*þwerhaz}}, from {{der|en|ine-pro|*terkʷ-|t=to turn, twist, wind}}; compare {{cog|la|torqueō}}, and see more at {{m|en|thwart}}. The ''OED'' argues against this due to the semantic differences and the date at which the word appears in Scots. Began to be used to describe gay people in the late 1800s; see usage notes for more.
+
+## quench
+pos: verb    phonetic: /kwentʃ/
+现有画面: 火苗碰到水流后立刻缩小，最后只剩一缕白烟
+现有中文: 解渴/熄灭
+词源(Wiktionary 原文): From {{inh|en|enm|quenchen}}, from {{inh|en|ang|cwenċan}}, from {{inh|en|gem-pro|*kwankijaną}}.
+
+## queue
+pos: noun    phonetic: /kjuː/
+现有画面: 售票窗前的人沿栏杆排成一条弯曲的长线
+现有中文: 队列
+词源(Wiktionary 原文): From {{inh|en|enm|queue}}, {{m|enm|quew}}, {{m|enm|qwew}}, {{m|enm|couwe}}, from {{der|en|xno|queue}}, {{m|fro|keu}} and {{der|en|fro|cöe}}, {{m|fro|cue}}, {{m|fro|coe|gloss=tail}}, from {{der|en|la-vul|cōda}}, from {{der|en|la|cauda}}. See also {{cog|frm|queu}}, {{m|en|cueue}}. {{doublet|en|coda|cola}}.
+
+## quiet
+pos: adjective    phonetic: /ˈkwaɪ.ət/
+现有画面: 图书馆里的人翻页很轻，窗外的雨声清楚可闻
+现有中文: 安静的
+词源(Wiktionary 原文): {{ety|en|:inh|enm:quiete>>>|:root|ine-pro:*kʷyeh₁-}} From {{inh|en|enm|quiete}}, from {{der|en|fro|quiet|pos=adjective}} and {{m|fro|quiete|pos=noun}}, from {{der|en|la|quiētus}}, past participle of {{m|la|quiesco|quiēscere|to keep quiet, rest}}, ultimately from {{der|en|ine-pro|*kʷyeh₁-||rest}}. {{doublet|en|coy|quit|quite|quietus}}. Largely displaced native {{noncog|en|still}} in the sense of "with little or no sound".
+
+## quilt
+pos: noun    phonetic: /ˈkwɪlt/
+现有画面: 许多不同颜色的布块缝在一起，铺成厚实的被面
+现有中文: 被子
+词源(Wiktionary 原文): {{inh+|en|enm|quilte}}, {{m|enm|quylte}}, from {{der|en|xno|quilte}} and {{der|en|fro|coilte}}, {{m|fro|cuilte}} (compare {{cog|fr|couette}}), from {{der|en|la|culcita}}. {{doublet|en|quoit}}.
+
+## quit
+pos: verb    phonetic: /kwɪt/
+现有画面: 桌边的人放下工具，转身走出正在进行的工作
+现有中文: 放弃/离开
+词源(Wiktionary 原文): {{ety|en|:inh|enm:quiten>|id=leave}} {{root|en|ine-pro|*kʷyeh₁-}} From {{inh|en|enm|quiten}}, {{m|enm|quyten}}, from {{der|en|xno|quitter}}, {{der|en|fro|quitter}}, from {{m|fro|quitte||acquitted, quit}}, ultimately from {{der|en|la|quietus}}, which itself derives from {{der|en|ine-pro||*kʷyéh₁-ti-s}}, from {{m|ine-pro|*kʷyeh₁-|t=to rest}}. {{doublet|en|coy|quite|quiet|quietus}}. Compare {{cog|nl|kwijten||to quit}}, {{cog|nds-de|quitten||to quit}}, {{cog|de|quitten}}, {{m|de|quittieren}}, {{cog|da|kvitte}}, {{cog|sv|qvitta}}, {{m|sv|kvitta||to quit, leave, set off}}, {{cog|is|kvitta}}.  ┃  {{etymid|en|bird}} Probably of {{onomatopoeic|en|title=imitative}} origin.
+
+## quiver
+pos: noun    phonetic: /ˈkwɪvə/
+现有画面: 弓弦轻轻颤动，箭尖也跟着细微摇摆
+现有中文: 颤抖
+词源(Wiktionary 原文): From {{inh|en|enm|quiver}}, from {{der|en|xno|quivre}}, from {{cog|odt|cocar|cocare}} (source of {{cog|nl|koker}}, and cognate to {{cog|ang|cocer||quiver, case}}), from {{der|en|gmw-pro|*kokar||container}}, said to be from {{der|en|xhc|-}}, possibly from {{der|en|xgn-pro|*kökexür|t=leather vessel for liquids}}; see there for more. Replaced early modern {{doublet|en|cocker|notext=1}}, the inherited reflex of that West Germanic word. The mathematical sense originated as {{semantic loan|en|de|Köcher|notext=1}} in a 1972 paper by {{w|Pierre Gabriel}}; it was likely chosen because a quiver contains arrows, while a digraph contains directed edges (also called "arrows").  ┃  From {{inh|en|enm|quive…（已截断）
+
+## quiz
+pos: noun    phonetic: /kwɪz/
+现有画面: 教室里每个人面前放着一张小卷，正在逐题作答
+现有中文: 测验
+词源(Wiktionary 原文): Attested since the 1780s, of {{unk|en|nocap=y}} origin. * The ''Century Dictionary'' suggests it was originally applied to a popular toy, from a dialectal variant of {{m|en|whiz}}. * The ''Random House Dictionary'' suggests the original sense was "odd person" (circa 1780). * Others suggest the meaning "hoax" was original (1796), shifting to the meaning "interrogate" (1847) under the influence of ''[[question]]'' and ''[[inquisitive]]''. * Some say without evidence it was invented by a late-18th-century Dublin theatre proprietor who [[bet]] he could add a new nonsense [[word]] to the English language; he had the word painted on walls all over the city, and the morning after, everyone was talk…（已截断）
+
+## quota
+pos: noun    phonetic: /ˈkwəʊ.tə/
+现有画面: 公告板上画着一个空格，达到规定数额后才能填满
+现有中文: 配额
+词源(Wiktionary 原文): From {{der|en|la|quota pars}}; see {{der|en|la|quota}}.
+
+## quote
+pos: verb    phonetic: /kwəʊt/
+现有画面: 书页上有一段文字被引号圈出，旁边标着来源
+现有中文: 引用
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:quoten>>>>>|tree=1}} From {{inh|en|enm|quoten}}, {{m|enm|coten|t=to mark (a book) with chapter numbers or marginal references}}, from {{der|en|fro|coter}}, from {{der|en|la-med|quotāre|t=to distinguish by numbers, number chapters}}, itself from {{der|en|la|quotus|t=which, what number (in sequence)}}, from {{m|la|quot||how many}} and related to {{m|la|quis||who}}. The sense developed via “to give as a reference, to cite as an authority” to “to copy out exact words” (since 1680); the business sense “to state the price of a commodity” (1866) revives the etymological meaning. The noun, in the sense of “quotation,” is attested from 1885; see also [[#Usage notes|usage note]], …（已截断）
+
+## rabbit
+pos: noun    phonetic: /ˈræbɪt/
+现有画面: 草地边一双长耳朵从灌木后探出，随后跳过小路
+现有中文: 兔子
+词源(Wiktionary 原文): {{inh+|en|enm|rabet}}, {{m|enm|rabette}}, from Anglo-{{der|en|la|rabettus}}, from dialectal {{der|en|fro|rabotte}}, probably a diminutive of {{der|en|dum|-}} or {{der|en|vls|robbe|t=rabbit, seal}}, of {{unc|en|nocap=1}} origin; possibly some {{onomatopoeic|en|title=imitative}} verb, maybe {{m|dum|robben}}, {{m|gml|rubben|t=to rub}} is used here to allude to a characteristic of the animal. See {{m|en|rub}}. Related forms include {{cog|frm|rabouillet|t=baby rabbit}} and in {{cog|fr|rabot|t=plane}}), coming via {{cog|wa|-}} {{der|en|fro|-}} (reflected nowadays as {{cog|wa|robète|t=rabbit}}), from {{der|en|dum|robbe}} {{gl|"rabbit; seal"; whence Modern {{cog|nl|rob|t=rabbit", also "seal}}}}; als…（已截断）
+
+## racial
+pos: adjective    phonetic: /ˈreɪʃəl/
+现有画面: 地图上的不同群体用不同颜色标注，研究者比较其分布
+现有中文: 种族的
+词源(Wiktionary 原文): {{ety|en|:af|race|-ial|text=+|tree=1}}
+
+## radical
+pos: adjective    phonetic: /ˈrædɪkəl/
+现有画面: 树根从土层深处向四周伸展，牢牢抓住地面
+现有中文: 根本的/激进的
+词源(Wiktionary 原文): {{PIE word|en|wréh₂ds}} {{inh+|en|enm|radical}}, from {{der|en|la|rādīcālis|t=of or pertaining to the root, having roots, radical}}. Compare {{m|en|grassroots}}.
+
+## rainbow
+pos: noun    phonetic: /ˈreɪnbəʊ/
+现有画面: 雨后的天空横跨着七色弧线，尽头落在远处山后
+现有中文: 彩虹
+词源(Wiktionary 原文): {{root|en|ine-pro|*bʰewgʰ-}} From {{inh|en|enm|reynbowe}}, {{m|enm|raynbowe}}, from {{inh|en|ang|reġnboga|t=rainbow}}, from {{inh|en|gmw-pro|*regnabogō}}, from {{inh|en|gem-pro|*regnabugô|t=rainbow}}, equivalent to {{com|en|rain|bow|t2=arch}}. Cognate with {{cog|fy|reinbôge|t=rainbow}}, {{cog|nl|regenboog|t=rainbow}}, {{cog|de|Regenbogen|t=rainbow}}, {{cog|da|regnbue|t=rainbow}}, {{cog|sv|regnbåge|t=rainbow}}, {{cog|is|regnbogi|t=rainbow}}.
+
+## rarely
+pos: adverb    phonetic: /ˈreːli/
+现有画面: 日历上大多数日期空白，只有极少几天画着标记
+现有中文: 很少
+词源(Wiktionary 原文): {{ety|en|:af|rare|-ly|text=+|tree=1}}
+
+## reader
+pos: noun    phonetic: /ˈriː.də/
+现有画面: 有人坐在窗边翻页，手指沿着纸上的行字移动
+现有中文: 读者
+词源(Wiktionary 原文): From {{inh|en|enm|reder}}, {{m|enm|redar}}, {{m|enm|redere}}, {{m|enm|redare}}, from {{inh|en|ang|rēdere}}, {{m|ang|rǣdere|t=a reader; scholar; diviner}}, from {{inh|en|gmw-pro|*rādāri}}, equivalent to {{af|en|read|-er|id2=agent noun}}. Cognate with {{cog|stq|Räider|t=advisor}}, {{cog|nl|rader|t=advisor}}, {{cog|de|Rater|t=advisor}}.
+
+## readily
+pos: adverb    phonetic: /ˈredɪli/
+现有画面: 柜台上的材料已分门别类，伸手便能取到所需那份
+现有中文: 容易地
+词源(Wiktionary 原文): From {{inh|en|enm|redily}}, {{m|enm|rediliche}}. {{surf|+suf|en|ready|ly|id2=adverbial|alt1=read(i)}}.
+
+## reading
+pos: noun    phonetic: /ˈriːdɪŋ/
+现有画面: 台灯照着摊开的书页，读者逐行停下来理解
+现有中文: 阅读
+词源(Wiktionary 原文): From {{inh|en|enm|reding}}, {{m|enm|redyng}}, {{m|enm|redand}}, from {{inh|en|ang|rǣdende}}, present participle of {{m|ang|rǣdan|t=to read}}, equivalent to {{suf|en|read|-ing|id2=participial}}.  ┃  From {{inh|en|enm|reding}}, {{m|enm|redynge}}, {{m|enm|redunge}}, from {{inh|en|ang|rǣding|t=reading}}, equivalent to {{suf|en|read|-ing|id2=gerund noun}}.
+
+## rebellion
+pos: noun    phonetic: /rɪˈbel.i.ən/
+现有画面: 广场上人群举起不同旗帜，队伍拒绝听从旧命令
+现有中文: 叛乱
+词源(Wiktionary 原文): From {{inh|en|enm|rebellioun}}, {{m|enm|rebellion}}, from {{der|en|fro|rebellion}}, from {{der|en|la|rebelliō}}. Equivalent for {{suf|en|rebel|ion}}.
+
+## recall
+pos: verb    phonetic: /ˈrecall/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 仓库管理员逐件核对清单，把已发出的箱子叫回
+现有中文: 召回/回忆
+词源(Wiktionary 原文): From {{af|en|re-|call}}, probably modelled on {{ncog|la|revocāre}}, {{ncog|fr|rappeler}}, {{m+|en|withcall}}.
+
+## recent
+pos: adjective    phonetic: /ˈriː.sənt/
+现有画面: 日历最靠近今天的一格被圈出，墨迹还很新
+现有中文: 最近的
+词源(Wiktionary 原文): {{bor+|en|la|recēns}} (genitive {{m|la|recentis}}).
+
+## recipe
+pos: noun    phonetic: /ˈres.ɪ.pi/
+现有画面: 厨房台面上摆着原料和步骤清单，厨师按顺序准备
+现有中文: recipe   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*keh₂p-}} Borrowed from {{bor|en|frm|récipé}}, from {{der|en|la|recipe}}, second person singular imperative of {{der|en|la|recipiō||receive}}.
+
+## recipient
+pos: noun    phonetic: /rəˈsɪp.i.ənt/
+现有画面: 包裹上的收件人姓名写在正面，快递员把它递到对方手中
+现有中文: recipient   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*keh₂p-}} Borrowed from {{bor|en|frm|récipient}}, from {{der|en|la|recipiēns}}, present participle of {{m|la|recipiō||to receive}}.

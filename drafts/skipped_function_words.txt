@@ -1,0 +1,127 @@
+# 【这份表已部分过期，别当硬排除规则用】
+# 它是早期某批「判为功能词、暂不建词条」的记录，共 113 词，无判据说明。
+# 现状：其中 14 个**已经入库**——
+#   about, above, after, again, against, another, before, below, between, could, eight, just, must, second
+# 其中 9 个是本会话第七十至九十二批加的，我切批时不知道这份表存在，无意中推翻了它。
+#
+# 但那个推翻是合理的：这份表做在 collocations（第 15 列）字段存在**之前**。
+# 介词与连接副词有真实可教的搭配——about / between / before / against 各自都写了
+# 型式（如 be about to do、between A and B），收进来比留在表外有用。
+# 反过来，纯数词（eight / five / nine）与最基础的代词冠词（a / the / it）确实没有
+# 画面也没有词族，不该建词条。
+#
+# 所以判据应该是「有没有可教的搭配或画面」，不是「是不是功能词」。
+# 下次切批前拿这份表比一遍：命中的词先问这一句，再决定收不收。
+a
+about
+above
+after
+again
+against
+all
+and
+another
+any
+at
+be
+before
+being
+below
+between
+both
+but
+by
+can
+could
+do
+each
+eight
+everything
+few
+first
+five
+for
+four
+have
+he
+her
+here
+him
+his
+how
+in
+into
+it
+its
+just
+last
+may
+me
+might
+more
+most
+must
+next
+nine
+no
+nor
+not
+nothing
+now
+of
+off
+on
+one
+only
+or
+other
+our
+out
+over
+own
+same
+second
+seven
+shall
+she
+should
+six
+so
+some
+someone
+something
+such
+ten
+than
+thank
+that
+their
+them
+then
+there
+these
+they
+third
+this
+those
+three
+through
+to
+too
+two
+under
+up
+we
+what
+when
+where
+which
+who
+whom
+whose
+why
+will
+would
+yes
+you
+your

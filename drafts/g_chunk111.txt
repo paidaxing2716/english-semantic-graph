@@ -1,0 +1,34 @@
+# 档位是**线索不是结论**。单源匹配实测假阳性约 50%、假阴性约 30%。两个方向都核。
+## A 档：疑可挂现有根 —— 核对成立按补词写；不成立退回 B/C 并说明
+lottery	# 词元 lotteria	疑 → ter-comparative
+main	# 词元 main	疑 → manus
+man	# 词元 —	疑 → manus
+manifest	# 词元 manifestus	疑 → manus
+manipulate	# 词元 —	疑 → manus
+material	# 词元 materia	疑 → ter-comparative
+matter	# 词元 materie	疑 → ter-comparative
+mercury	# 词元 mercurius	疑 → merx
+message	# 词元 message	疑 → mit-miss
+mind	# 词元 —	疑 → mens
+miserable	# 词元 miserabilis	疑 → mit-miss
+misery	# 词元 miserie	疑 → mit-miss
+monster	# 词元 monstre	疑 → musa
+mosaic	# 词元 mosaique	疑 → musa
+## B 档：借词但匹配器没找到根 —— **没找到 ≠ 没有**，自己查 roots.json
+lubricate	# 词元 lubricatus	疑 → 
+magistrate	# 词元 magistratus	疑 → 
+masculine	# 词元 masculin	疑 → 
+mathematical	# 词元 mathematicalis	疑 → 
+method	# 词元 methode	疑 → 
+microscope	# 词元 microscopio	疑 → 
+monitor	# 词元 monitor	疑 → 
+monument	# 词元 monument	疑 → 
+## C 档：查不到古典词元 —— 多为孤立/日耳曼型，但仍自己判
+machinery	# 词元 —	疑 → 
+mainland	# 词元 —	疑 → 
+masterpiece	# 词元 —	疑 → 
+meeting	# 词元 —	疑 → 
+mistake	# 词元 —	疑 → 
+misunderstand	# 词元 —	疑 → 
+most	# 词元 —	疑 → 
+motel	# 词元 —	疑 → 

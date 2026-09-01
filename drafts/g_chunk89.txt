@@ -1,0 +1,39 @@
+# 档位是线索不是结论，**逐词核词源**。单源匹配（只有 Wiktionary、无第二源
+# 交叉）实测噪声率约 45%。
+## A 档：疑可挂库中已有词根 —— 核对成立就按补词写（第 5 列填根 id），
+##       核不成立就按下面 B/C 档的规则处理，并在回报里说明
+allege	# 词元 alleguer	疑 → levare
+appendix	# 词元 appendix	疑 → pend
+## B 档：拉丁/希腊借词，但词族在考研词表内凑不到 3 个成员
+##       写孤立词条（第 5、6 列留空），origin 必须写真实拉丁/希腊来源，
+##       **不许编造古英语词形**；确实无定论就写「更早词源不明」
+abundance	# 词元 habundance
+academy	# 词元 ακαδημια
+accumulate	# 词元 accumulatus
+additional	# 词元 additionalis
+agreeable	# 词元 agreable
+allowance	# 词元 alouance
+aluminum	# 词元 alumium
+applaud	# 词元 applaudere
+arrest	# 词元 areste
+assimilate	# 词元 assimulatus
+astronomy	# 词元 astronomie
+automatic	# 词元 -icus
+benefit	# 词元 benfet
+## C 档：查不到拉丁/希腊词元，按日耳曼型写
+about
+actress
+afford
+afternoon
+against
+alongside
+amplify
+another
+appliance
+audio
+available
+badminton
+before
+beginning
+below
+better

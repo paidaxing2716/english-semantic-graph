@@ -1,0 +1,37 @@
+# 档位是**线索不是结论**。分档只用了 Wiktionary 单源匹配，实测假阳性 45%、
+# 假阴性 30%（把该挂根的判成孤立）。两个方向都要核。
+## A 档：疑可挂库中已有词根 —— 核对成立按补词写（第 5 列填根 id）；
+##       不成立退回 B/C 规则，并在回报里说明
+coward	# 词元 coart	疑 → ars
+curtain	# 词元 cortine	疑 → tain
+## B 档：拉丁/希腊借词，但匹配器没找到对应根
+##       **没找到 ≠ 没有**：先自己拿词元查一遍 roots.json 的 id/variants/origin，
+##       真没有才按孤立词条写（第 5、6 列留空），origin 必须写真实来源
+compliment	# 词元 compliment	疑 → 
+conjunction	# 词元 conjonction	疑 → 
+contaminate	# 词元 contaminatus	疑 → 
+convey	# 词元 conveier	疑 → 
+corporation	# 词元 corporatus	疑 → 
+couple	# 词元 couple	疑 → 
+court	# 词元 cort	疑 → 
+curve	# 词元 curvus	疑 → 
+decisive	# 词元 decisif	疑 → 
+demonstrate	# 词元 demonstratus	疑 → 
+desirable	# 词元 desirable	疑 → 
+destiny	# 词元 destinee	疑 → 
+dilute	# 词元 dilutus	疑 → 
+elegant	# 词元 elegant	疑 → 
+eligible	# 词元 eligible	疑 → 
+embarrass	# 词元 embarrasser	疑 → 
+emotion	# 词元 emotion	疑 → 
+## C 档：查不到拉丁/希腊词元，按日耳曼型写。**注意也可能判错语系**
+coordinates
+country
+courtyard
+cupboard
+curse
+diagnose
+downstairs
+earthquake
+edible
+elsewhere

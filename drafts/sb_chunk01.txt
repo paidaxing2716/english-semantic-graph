@@ -1,0 +1,182 @@
+# 第 1 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk01.tsv
+
+## occasion
+pos: noun    phonetic: /əˈkeɪʒən/
+现有画面: 宴会厅门口挂着日期牌，宾客按约定时间陆续走进
+现有中文: 场合/时机
+词源(Wiktionary 原文): {{root|en|ine-pro|*ḱh₂d-}} From {{inh|en|enm|occasioun}}, from {{der|en|frm|occasion}}, from {{der|en|fro|occasiun}}, from {{der|en|la|occāsiō|occāsiōnem}}, noun of action from perfect passive participle {{m|la|occāsus}}, from verb {{m|la|occidō}}, from prefix {{m|la|ob-||down", "away}} + verb {{m|la|cadō||fall}}.
+
+## occasional
+pos: adjective    phonetic: /əˈkeɪʒ(ə)nəl/
+现有画面: 日历上大多数日期空着，只有零星几天画了小点
+现有中文: 偶尔的/临时的
+词源(Wiktionary 原文): From {{inh|en|enm|occasyonal}}, from {{der|en|la-med|occāsiōnālis}} and {{der|en|fro|ocasionel}}. {{surf|en|occasion|-al}}.
+
+## occupation
+pos: noun    phonetic: /ˌɒkjʊˈpeɪʃən/
+现有画面: 一张桌子前有人整天处理同一类工作
+现有中文: 职业/占领/占用
+词源(Wiktionary 原文): {{root|en|ine-pro|*kap-|id=seize}} From {{inh|en|enm|occupacioun}}, borrowed from {{der|en|frm|occupacion}}, {{m|frm|occupation}}, from {{der|en|la|occupātiō}}, {{m|la|occupātiōnis}}, from {{m|la|occupo|occupō|occupy, seize}}, ultimately from {{der|en|ine-pro|*kap-|id=seize||to seize, grab}}. {{surf|en|occupy|-ation}}.
+
+## occupy
+pos: verb    phonetic: /ˈɒkjʊpaɪ/
+现有画面: 箱子塞满架子，原本空出的格子被占住
+现有中文: 占据/使忙碌
+词源(Wiktionary 原文): {{root|en|ine-pro|*kap-|id=seize}} From {{inh|en|enm|occupien}}, {{m|enm|occupyen}}, borrowed from {{der|en|fro|occuper}}, from {{der|en|la|occupō|occupāre|t=to take possession of, seize, occupy, take up, employ}}, from {{m|la|ob||to, on}} + {{m|la|capiō||to take}}, ultimately from {{der|en|ine-pro|*kap-||to seize, grab}}. {{doublet|en|occupate}}, now obsolete.
+
+## off
+pos: adverb/preposition/adjective    phonetic: /ɒf/
+现有画面: 机器指示灯熄灭，开关拨到了旁边
+现有中文: 离开/关闭/不工作
+词源(Wiktionary 原文): {{ety|en|:inh|enm:of|tree=+}} From {{inh|en|enm|of}}, from {{inh|en|ang|of}}, {{m|ang|af}}, {{m|ang|æf|t=from, off, away}}, from {{inh|en|gmw-pro|*ab}}, from {{inh|en|gem-pro|*ab|t=from}}, from {{inh|en|ine-pro|*h₂epo|t=from, off, back}}. {{doublet|en|of}}. {{col-top|2|cog}} Cognate with {{cog|sco|aff|t=away, off}}, {{cog|stq|oawe}}, {{m|stq|ou|t=from}}, {{cog|fy|ôf|t=away, off}}, {{cog|nl|af|t=from, off}}, {{cog|de|ab|t=from, off}}, {{cog|nds-de|-}}, {{cog|lb|of|t=off}}, {{cog|yi|אָפּ|t=off}}, {{cog|da|-}}, {{cog|is|af|t=from, off}}, {{cog|fo|-}}, {{cog|nb|-}} and {{cog|nn|av|t=off}}, {{cog|sv|af}}, {{m|sv|av|t=off}}, {{cog|got|𐌰𐍆|t=of, from}}; and with {{cog|la|ab|t=of, from, by}}, {{cog|g…（已截断）
+
+## office
+pos: noun    phonetic: /ˈɒf.ɪs/
+现有画面: 房间里摆着桌子、文件柜和一台亮着的电脑
+现有中文: 办公室/职务
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₃ep-}} From {{inh|en|enm|office}}, from {{der|en|fro|office}}, from {{der|en|la|officium||[[personal]], [[official]], or [[moral]] [[duty]]; [[official]] [[position]]; [[function]]; [[ceremony]], ''[[especially|esp.]]'' [[last rites]]}}, contracted from {{m|la|opificium||[[construction]]: the [[act]] of [[building]] or the [[thing]] [[built]]}}, from {{m|la|opifex||[[doer]] of [[work]], [[craftsman]]}} + {{m|la|-ium||[[-y]]|pos=forming actions}}, from {{m|la|opus|op-|work}} + {{m|la|-i-|pos=connective}} + {{m|la|-fex|pos=combining form of {{m|la|faciō||to do, to make}}}}. In the religious sense, Displaced native {{noncog|ang|hād}}. The computing sense is a {{gentrade|en|t…（已截断）
+
+## officer
+pos: noun    phonetic: /ˈɒf.ɪ.sə/
+现有画面: 制服人员站在柜台后核对一叠证件
+现有中文: 官员/军官
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₃ep-}} From {{inh|en|enm|officer}}, from {{der|en|xno|officer}}, {{m|fro|officier}}, from {{der|en|fro|officer}}, {{der|en|la-lat|officiarius|t=official}}, from {{der|en|la|officium|t=office}} + {{m|la|-ārius|t=-er}}. {{surf|en|office|-er|id2=occupation}}.
+
+## official
+pos: adjective/noun    phonetic: /əˈfɪʃəl/
+现有画面: 盖着印章的文件放在玻璃柜中
+现有中文: 官方的/官员
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₃ep-}} From {{inh|en|enm|official}}, from {{der|en|fro|official}}, from {{der|en|la|officiālis}}, from {{der|en|la|officium||duty, service}}, {{surf|en|office|-ial|nocap=1}}.
+
+## offspring
+pos: noun    phonetic: /ˈɒfsprɪŋ/
+现有画面: 大鸟带着几只小鸟跟在树枝间跳跃
+现有中文: 后代/子女
+词源(Wiktionary 原文): From {{inh|en|enm|ofspring}}, from {{inh|en|ang|ofspring|t=offspring, descendants, posterity}}, equivalent to {{pre|en|off|spring}}. Compare {{cog|is|afspringur|t=offspring}}. More at {{m|en|off}}, {{m|en|spring}}.
+
+## only
+pos: adverb/adjective    phonetic: /ˈəʊn.li/
+现有画面: 一排物品中只留下中间那一个
+现有中文: 仅仅/唯一的
+词源(Wiktionary 原文): From {{inh|en|enm|oonly}}, {{m|enm|only}}, from {{inh|en|ang|ānlīċ}}, {{m|ang|ǣnlīċ|t=only; singular; solitary}}, from {{inh|en|gem-pro|*ainalīkaz}}. Cognate with obsolete {{cog|nl|eenlijk}}, {{cog|de|ähnlich|t=similar}}, {{cog|non|álíkr}}, {{cog|sv|enlig||unified}}. {{surf|+suf|en|one|ly|alt1=on(e)|id2=adjectival}}. * Regarding the different phonological development of ''only'' and ''one'', see the note in {{m|en|one}}.
+
+## opera
+pos: noun    phonetic: /ˈɒp.ə.rə/
+现有画面: 舞台上乐队演奏，演员在灯光下放声歌唱
+现有中文: 歌剧
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₃ep-}} [[File:Palais Garnier.jpg|thumb|right|upright=1.36|Opéra Garnier in Paris]] Borrowed from {{bor-lite|en|it|opera}}. {{doublet|en|oeuvre|opus|ure}}.  ┃  From {{bor-lite|en|la|opera}}, plural of {{m-lite|la|opus}}.
+
+## opportunity
+pos: noun    phonetic: /ˌɒp.əˈtjuː.nɪ.tɪ/
+现有画面: 门缝忽然打开，一束光照到面前的路
+现有中文: 机会
+词源(Wiktionary 原文): {{root|en|ine-pro|*per- (fare)}} From {{af|en|opportune|-ity}}, from {{uder|en|frm|opportunité}}, from {{uder|en|la|opportūnitās}}.
+
+## optical
+pos: adjective    phonetic: /ˈɒptɪkəl/
+现有画面: 镜片把远处的灯收成清晰的小点
+现有中文: 视觉的/光学的
+词源(Wiktionary 原文): {{ety|en|:af|optic|-al|text=+|tree=1}}
+
+## optimistic
+pos: adjective    phonetic: /ˌɒptɪˈmɪstɪk/
+现有画面: 乌云后露出一线亮天，行人仍朝前走
+现有中文: 乐观的
+词源(Wiktionary 原文): {{ety|en|:af|optimist|-ic|text=+|tree=1}}
+
+## optimum
+pos: noun/adjective    phonetic: /ˈɒptɪməm/
+现有画面: 刻度表上的指针停在绿色中央区域
+现有中文: 最佳的/最佳状态
+词源(Wiktionary 原文): From {{bor|en|la-new|-}}, neuter of {{der|en|la|optimus|t=best, very good}}, from the root in {{m|la|ops|t=work}} or {{m|la|omnis|t=all}}.
+
+## orchestra
+pos: noun    phonetic: /ˈɔː.kɪs.trə/
+现有画面: 舞台前方坐满乐手，弓弦和铜管排列整齐
+现有中文: 管弦乐队
+词源(Wiktionary 原文): {{ety|en|id=group of musicians|:bor|la:orchēstra|text=++}}
+
+## other
+pos: adjective/pronoun    phonetic: /ˈʌðə/
+现有画面: 两件物品并排，一件被手指移到另一边
+现有中文: 其他的/另一个
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:other|tree=1}} From {{inh|en|enm|other}}, from {{inh|en|ang|ōþer||other, second}}, from {{inh|en|gmw-pro|*ą̄þar}}, {{m|gmw-pro|*anþar}}, from {{inh|en|gem-pro|*anþeraz||other, second}}, from {{inh|en|ine-pro|*h₂énteros||other}}. Cognate with {{cog|sco|uther}}, {{m|sco|ither||other}}, {{cog|ofs|oþer|ōther}}, {{gloss|"other"; > {{cog|frr|ouder}}, {{m|frr|öler}}, {{m|frr|üđer}}, {{cog|stq|uur}}, {{cog|fy|oar}}}}, {{cog|osx|ōthar}}, {{gloss|"other"; > {{cog|nds|anner}}}}, {{cog|odt|āthar}}, {{gloss|"other"; > {{cog|af|ander}}, {{cog|nl|ander}}}}, {{cog|goh|andar}}, {{gloss|"other"; > {{cog|cim|andar}}, {{cog|de|ander}}, {{m|de|anderer}}, {{cog|lb|aner}}, {{cog|mhn|ònder}}, {…（已截断）
+
+## ourselves
+pos: pronoun    phonetic: /aʊəˈselvz/
+现有画面: 镜子里的人和镜前的人同时抬起手
+现有中文: 我们自己
+词源(Wiktionary 原文): Morphologically {{suffix|en|our|selves}}.
+
+## out
+pos: adverb/preposition/adjective    phonetic: /ˈaʊt/
+现有画面: 门朝走廊打开，脚步跨过门槛
+现有中文: 向外/在外
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:oute|tree=1}} From {{inh|en|enm|out}}, {{m|enm|oute}}, from a combination of {{inh|en|ang|ūt||out|pos=preposition & adverb}}, from {{inh|en|gmw-pro|*ūt}}, from {{inh|en|gem-pro|*ūt||out}}; and {{inh|en|ang|ūte||outside; without|pos=adverb}}, from {{inh|en|gem-pro|*ūtai||out; outside}}; both from {{inh|en|ine-pro|*úd||upwards, away}}. {{col-top|2|cog}} Cognate with {{cog|sco|oot|t=out}}, {{cog|yol|out}}, {{m|yol|outh}}, {{m|yol|udh}}, {{m|yol|ut}}, {{m|yol|uth|t=out}}, {{cog|frr|üt}}, {{m|frr|ütj|t=out}}, {{cog|stq|uut|t=out of}}, {{cog|fy|út|t=out}}, {{cog|cim|aus}}, {{m|cim|auz|t=out, outwards}}, {{cog|nl|uit|t=out}}, {{cog|de,lb|aus|t=out}}, {{cog|yi|אויס|t=over, finis…（已截断）
+
+## outfit
+pos: noun/verb    phonetic: /ˈaʊtfɪt/
+现有画面: 衣架上挂着成套衣服和配套鞋帽
+现有中文: 装备/全套服装
+词源(Wiktionary 原文): Variant of earlier {{m|en|out-fit}}, from {{m|en|fit out}}. Equivalent to {{prefix|en|out-|fit}}.
+
+## outing
+pos: noun    phonetic: /ˈaʊtɪŋ/
+现有画面: 几个人背着小包沿林间小路走
+现有中文: 短途出游
+词源(Wiktionary 原文): {{ety|en|:af|out|-ing}} From {{suffix|en|out|ing}}. Compare {{noncog|ang|yting}} ("outing, journey").
+
+## outlet
+pos: noun    phonetic: /ˈaʊtlet/
+现有画面: 墙上插座旁接着电线，另一侧摆着待售商品
+现有中文: 出口/专卖店
+词源(Wiktionary 原文): From {{inh|en|enm|outlete}}, {{m|enm|outeleate}}, {{m|enm|ut-lete}}, derived from {{der|en|enm|outleten|t=to allow, let out, emit}}, equivalent to {{af|en|out-|let}}. Compare {{cog|fy|útlit|t=outlet}}, {{cog|nl|uitlaat|t=outlet}}, {{cog|de|Auslass|t=outlet}}.
+
+## outline
+pos: noun/verb    phonetic: /ˈaʊtlaɪn/
+现有画面: 纸上只画出山的外框，内部没有填色
+现有中文: 轮廓/概述
+词源(Wiktionary 原文): From {{compound|en|out|line}}.
+
+## outlook
+pos: noun    phonetic: /ˈoutlook/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 窗户正对远处山谷，视线一直延伸到天边
+现有中文: 观点/前景
+词源(Wiktionary 原文): {{ety|en|:af|out-|look|text=+|tree=1}}  ┃  {{etymid|en|appearance}} From {{com|en|out|look}}. Perhaps influenced by {{ncog|zh|外表|lit=outside + surface|tr=-}} and {{ncog|en|look|t=appearance}}. Same etymology as {{cog|yue|-}} {{m|zh|outlook}}.
+
+## output
+pos: noun/verb    phonetic: /ˈaʊtpʊt/
+现有画面: 机器一端不断吐出整齐的成品
+现有中文: 产出/输出
+词源(Wiktionary 原文): From {{compound|en|out|put|q2=verb}}; nominalisation of {{m|en|put out}}.
+
+## outrage
+pos: noun/verb    phonetic: /ˈaʊt.reɪdʒ/
+现有画面: 人群看到不公的公告后握紧拳头
+现有中文: 愤怒/激怒
+词源(Wiktionary 原文): From {{inh|en|enm|outrage}}, from {{der|en|fro|outrage}}, {{m|fro|oultrage||excess}}, from {{der|en|la-vul|*ultrāticum}} ("a going beyond"), derived from {{der|en|la|ultrā||beyond}}. Later reanalysed as {{af|en|out-|rage}}, whence the contemporary pronunciation, though neither of these are etymologically related. The verb is from {{inh|en|enm|outragen}}, from {{der|en|fro|oultragier}}.
+
+## outset
+pos: noun    phonetic: /ˈaʊtset/
+现有画面: 棋盘上第一枚棋子刚从起点移开
+现有中文: 开始
+词源(Wiktionary 原文): From {{pre|en|out|set#Verb}}, replacing earlier {{m|en|outsetting}}.  ┃  From {{pre|en|out|set}}.
+
+## outside
+pos: preposition/adverb/adjective/noun    phonetic: /ˈoutside/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 屋内的人隔着窗户看见外面的雨
+现有中文: 在外面/外部
+词源(Wiktionary 原文): {{ety|en|:af|out|side|text=+|tree=1}}
+
+## outstanding
+pos: adjective    phonetic: /ˌaʊtˈstæn.dɪŋ/
+现有画面: 一根高柱从平齐的屋顶线向上突出
+现有中文: 杰出的/未解决的
+词源(Wiktionary 原文): From {{m|en|outstand}}, equivalent to {{pre|en|out|standing}} or {{suf|en|outstand|ing}}.
+
+## over
+pos: preposition/adverb/adjective    phonetic: /ˈəʊ.və/
+现有画面: 小球越过木栏落到另一侧
+现有中文: 在上方/结束
+词源(Wiktionary 原文): {{etymon|en|id=above|:inh|enm:over|tree=1}} From {{inh|en|enm|over}}, from {{inh|en|ang|ofer}}, {{m|ang|ofor}}, {{m|ang|ouer}}, from {{inh|en|gmw-pro|*obar}}, from {{inh|en|gem-pro|*uber|t=over}}, from {{inh|en|ine-pro|*upér|t=above; over}}. {{col-top|2|cog}} Cognate with {{cog|sco|ower|t=over}}, {{cog|yol|oer}}, {{m|yol|ower}}, {{m|yol|owr|t=over}}, {{cog|stq|uur|t=over}}, {{cog|fy|oer|t=over, across}}, {{cog|cim|übar|t=over}}, {{cog|nl|over|t=over}}, {{cog|de|ober}}, {{m|de|über}}, {{m|de|ueber|t=over, above}}, {{cog|li|euver}}, {{m|li|övver|t=over}}, {{cog|nds|över}}, {{m|nds|üöver|t=over}}, {{cog|lb|iwwer|t=over}}, {{cog|mhn|iber|t=over}}, {{cog|yi|איבער|t=over}}, {{cog|da,nb|over|t=over…（已截断）

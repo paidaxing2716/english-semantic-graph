@@ -1,0 +1,23 @@
+# 词根批 65：已手写完 merx / maritus / medius 三族（在 build_batch65.py 里），
+# 下面是剩余 6 族 + 19 个补词。补词的根都已建模，只写 W 行、第 5 列填该根 id。
+#
+# 剩余 6 族（要写 R 行建根 + W 行成员）
+mens	mental mention comment
+mergere	merge emerge immerse
+gnoscere	ignore ignorant noble
+negare	deny denial negative
+nutrire	nurse nourish nurture
+labi	lapse elapse collapse
+#
+# 19 个补词（只写 W 行，根已存在）
+mov	mob mobile mobilize moment momentum
+maior	magnify maximum mayor
+audire	obey
+caput	mischief
+domus	madame
+fendere	offend
+ligare	league
+mekhane	machine
+minus	menu
+nasci	naive
+via	obvious

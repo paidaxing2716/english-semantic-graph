@@ -1,0 +1,14 @@
+# 本批建 2 个新根 + 2 个特殊处理，共 10 词，库中都还没有。
+# persona	4 词	新根：拉丁语 persona（戏里的面具 → 角色 → 人）
+person
+personal
+personality
+personnel
+# superus	4 词	新根：拉丁语 superus（上面的、更高的），superior 是它的比较级、supremus 是最高级；superbus 本指「自居其上的」。**这是形容词词根，不是前缀 super-**——前缀不承载词义，本根承载「高过其余」
+superb
+superior
+superiority
+supreme
+# 特殊处理：以下 2 词不建新根，理由见各行
+solar	# 归孤立词条（第 5、6 列留空）。拉丁 sol（太阳）在考研词表内只此一词（parasol 不在表内），不足 3 员不开根。origin 须写明 sol（太阳）与 solus（单独）不同源、勿混——那样第二道门的 CONTRAST 会认得
+superficial	# 挂库中已有的 facies 根（现有 face/interface/preface/surface）。superficialis = super（上）+ facies（面），**承义的是「面」不是「上」**，故第 5 列填 facies，不要挂 superus

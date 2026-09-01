@@ -1,0 +1,146 @@
+# 第 38 片 —— 占位词条内容回填，共 24 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk38.tsv
+
+## writing
+pos: noun    phonetic: /ˈraɪtɪŋ/
+现有画面: 桌上摊着几页手写稿，段落和标点排成整齐的行
+现有中文: 写作/文字
+词源(Wiktionary 原文): From {{inh|en|enm|writing}}, {{m|enm|writyng}}, {{m|enm|wryting}}, {{m|enm|wrytyng}}, from {{inh|en|ang|wrīting|t=writing}}, equivalent to {{suf|en|write|ing|id2=gerund noun}}.  ┃  From {{inh|en|enm|writinge}}, {{m|enm|wrytynge}}, {{m|enm|writende}}, {{m|enm|writand}}, from {{inh|en|ang|wrītende}}, present participle of {{der|en|ang|wrītan|t=to scratch, carve, write}}, equivalent to {{af|en|write|-ing|id2=participial}}.
+
+## wrong
+pos: adjective/adverb/noun    phonetic: /ˈrɒŋ/
+现有画面: 两条答案并排，红笔在其中一条旁画出叉号
+现有中文: 错误的/不对的
+词源(Wiktionary 原文): {{ety|en|tree=1|:inh|enm:wrong}} From {{inh|en|enm|wrong}}, from {{inh|en|ang|wrang|id=wrong|t=wrong, twisted, uneven}}, from {{der|en|non|rangr}}, {{m|non|vrangr|t=crooked, wrong}}, from {{der|en|gem-pro|*wrangaz|t=crooked, twisted, turned awry}}, from {{der|en|ine-pro|*werḱ-}}, {{m|ine-pro|*wrengʰ-|t=to twist, weave, tie together}}, from {{m|ine-pro|*wer-|t=to turn, bend}}. Cognate with {{cog|sco|wrang|t=wrong}}, {{cog|da|vrang|t=wrong, crooked}}, {{cog|sv|vrång|t=perverse, distorted}}, {{cog|is|rangur|t=wrong}}, {{cog|nn|rang|t=wrong}}, {{cog|nl|wrang|t=bitter, sour}} and the first element in the mythic {{cog|ofs|-}} city of {{m|ofs|Rungholt|t=crooked wood}}. More at {{m|en|wring}}.
+
+## yard
+pos: noun    phonetic: /ˈjɑːd/
+现有画面: 木栅栏围出一块空地，门边放着一把卷尺
+现有中文: 院子/码
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:yerd|id=enclosure|tree=1}} From {{inh|en|enm|yerd}}, {{m|enm|yard}}, {{m|enm|ȝerd}}, {{m|enm|ȝeard}}, from {{inh|en|ang|ġeard|t=yard, garden, fence, enclosure}}, from {{inh|en|gmw-pro|*gard}}, from {{inh|en|gem-pro|*gardaz|t=enclosure, yard}}, from {{inh|en|ine-pro|*gʰórdʰos}}, from {{der|en|ine-pro|*gʰerdʰ-|t=to enclose}}. See also {{cog|frr|guard}}, {{m|frr|Guart|t=garden, yard}}, {{cog|nl|gaard}}, {{m|nl|gaarde|t=garden, yard}}, {{cog|de|Garten|t=garden, yard}}, {{cog|da|-}}, {{cog|sv|gård|t=farm, estate, land; court, yard}}, {{cog|fo|-}}, {{cog|is|garður|t=garden; fence}}, {{cog|nrn|gart|t=farm}}, {{cog|nb|-}}, {{cog|nn|gard}}, {{m|nn|gård|t=farm; townhouse}}, {{cog|…（已截断）
+
+## yawn
+pos: verb/noun    phonetic: /jɔːn/
+现有画面: 清晨的人张大嘴伸展双臂，窗外天色刚亮
+现有中文: 打哈欠
+词源(Wiktionary 原文): Partly from {{inh|en|enm|yanen}}, {{m|enm|yonen}}, {{m|enm|yenen|t=to yawn}}, from {{inh|en|ang|ġinian|ġeonian}}, {{m|ang|ġinian|t=to yawn, gape}}, from {{inh|en|gmw-pro|*ginōn}}, from {{inh|en|gem-pro|*ginōną|t=to yawn}}; and partly from {{inh|en|enm|gonen|t=to gape, yawn}}, from {{inh|en|ang|gānian|t=to yawn, gape}}, from {{inh|en|gmw-pro|*gainōn}}, from {{inh|en|gem-pro|*gainōną|t=to yawn, gape}}; both from {{der|en|ine-pro|*ǵʰi-}}, {{m|ine-pro|*ǵʰeyh₁-|t=to yawn, gape}}. Cognate with {{cog|frr|jåne|t=to yawn}}, {{cog|stq|jaanje}}, {{m|stq|joanje|t=to yawn}}, {{cog|dum|genen}}, {{m|dum|ghenen|t=to yawn}}, {{cog|nds-de|jahnen|t=to yawn}}, {{cog|de|gähnen|t=to yawn, gape}}, dialectal {{cog|…（已截断）
+
+## year
+pos: noun    phonetic: /jɪə/
+现有画面: 日历一页页被翻过，最后回到同一个月份
+现有中文: 年/年度
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:yeer|tree=1}} {{root|en|ine-pro|*(H)yeh₁-}} From {{inh|en|enm|yeer}}, {{m|enm|yere}}, from {{inh|en|ang|ġēar||year}}, from {{inh|en|gmw-pro|*jār}}, from {{inh|en|gem-pro|*jērą||year}}, from {{inh|en|ine-pro|*yóh₁r̥|t=year, spring}}. {{dbt|en|hora|hour}}. {{col-top|2|cog}} Cognate with {{cog|sco|year|t=year}}, {{cog|frr|djooar}}, {{m|frr|iir}}, {{m|frr|Jaar}}, {{m|frr|jeer}}, {{m|frr|juar}}, {{m|frr|jäär|t=year}}, {{cog|stq|Jíer|t=year}}, {{cog|fy|jier|t=year}}, {{cog|bar|Joahr}}, {{m|bar|Jåar}}, {{m|bar|Jåhr|t=year}}, {{cog|cim|djar}}, {{m|cim|jaar|t=year}}, {{cog|nl|jaar|t=year}}, {{cog|de|Jahr|t=year}}, {{cog|li|jaor}}, {{m|li|Johr}}, {{m|li|Joër|t=year}}, {{cog|nds|Jo…（已截断）
+
+## yearly
+pos: adjective/adverb    phonetic: /ˈjɪəli/
+现有画面: 墙上挂着四季日历，每年同一格被重新标记
+现有中文: 每年的
+词源(Wiktionary 原文): From {{inh|en|enm|yeerly}}, {{m|enm|yerely}}, from {{inh|en|ang|ġēarlīċ}}, {{m|ang|ġērlīċ||yearly, of the year, annual}}, equivalent to {{af|en|year|-ly|id2=adjectival|pos2=adjectival suffix}} or {{af|en|-ly|id1=adverbial|pos1=adverbial suffix}}. Cognate with {{cog|sco|yerelie||yearly}}, {{cog|stq|jierelk||yearly}}, {{cog|fy|jierliks||yearly}}, {{cog|nl|jaarlijks||yearly}}, {{cog|af|jaarliks||yearly}}, {{cog|de|jährlich||yearly}}, {{cog|da|årlig||yearly}}, {{cog|nb|årlig||yearly}}, {{cog|nn|årleg||yearly}}, {{cog|sv|årlig||yearly}}, {{cog|is|árlegur||yearly}}.
+
+## yell
+pos: verb/noun    phonetic: /jel/
+现有画面: 操场另一端的人张嘴挥手，声音传过整片空地
+现有中文: 叫喊/喊叫
+词源(Wiktionary 原文): {{tea room|en|y=2026|m=April|fragment=Revisiting yell at|regarding the deletion of [[yell at]]}} {{root|en|ine-pro|*gʰel-}} From {{inh|en|enm|ȝellen}}, {{m|enm|yellen}}, from {{inh|en|ang|ġiellan}}, from {{inh|en|gem-pro|*gellaną}}. Cognate with {{cog|stq|gälje|t=to yell}}, {{cog|nl|gillen|t=to yell}}, {{cog|nds-de|gellen|t=to yell}}, {{cog|de|gellen|t=to yell}}.  ┃  Borrowed from {{bor|en|sco|yeld||ceasing to give milk}}.
+
+## yellow
+pos: adjective/noun    phonetic: /ˈjeləʊ/
+现有画面: 秋天的叶片铺满小路，阳光照出明亮色块
+现有中文: 黄色的/黄色
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:yelow}} {{root|en|ine-pro|*ǵʰelh₃-}} From {{inh|en|enm|yelow|yelwe, yelou}}, from {{inh|en|ang|ġeolwe}}, oblique form of {{inh|en|ang|ġeolu}}, from {{inh|en|gmw-pro|*gelu}}, from {{inh|en|gem-pro|*gelwaz}}, from {{inh|en|ine-pro|*ǵʰelh₃wós}}, from {{m|ine-pro|*ǵʰelh₃-||green, yellow}}. Cognate with {{cog|sco|yella||yellow}}, {{cog|frr|gööl}}, {{m|frr|güül||yellow}}, {{cog|stq|jeel|t=yellow}}, {{cog|fy|giel|t=yellow}}, {{cog|cim|gel}}, {{m|cim|ghéel||yellow}}, {{cog|nl|geel||yellow}}, {{cog|nds-nl|gael}}, {{m|nds-nl|gel||yellow}}, {{cog|de|gelb}}, {{m|de|gehl||yellow}}, {{cog|nds-de|gel}}, {{m|nds-de|geel}}, {{m|nds-de|gęl}}, {{m|nds-de|gäl||yellow}}, {{cog|lb|giel||yello…（已截断）
+
+## yes
+pos: adverb/noun    phonetic: /jes/
+现有画面: 点头的人在表格最后一栏打下一个肯定记号
+现有中文: 是/同意
+词源(Wiktionary 原文): From {{inh|en|enm|yes}}, from {{inh|en|ang|ġīese|t=by all means, of course, yes}}, derived from the same root as {{m|en|yea}}. Compare {{cog|fo|júsá|t=yes, indeed, certainly}}.
+
+## yesterday
+pos: adverb/noun    phonetic: /ˈjestədeɪ/
+现有画面: 墙上日历的前一格被翻起，日期已经过去
+现有中文: 昨天
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:yesterday}} From {{inh|en|enm|yesterday}}, {{m|enm|yisterday}}, {{m|enm|ȝesterdai}}, {{m|enm|ȝisterdai}}, from {{inh|en|ang|ġiestrandæġ}}, {{m|ang|ġister dæġ}}, {{m|ang|ġestor dæġ}}, {{m|ang|ġeostran dæġ|t=yesterday}}, {{surf|+pre|en|yester|day|nocap=1}}. Cognate with {{cog|sco|yisterday}}, {{m|sco|yesterday|t=yesterday}}, {{cog|stq|jässendeeg}}, {{m|stq|järsendeges|t=yesterday|pos=adverb}}, {{cog|fy|justerdei|t=yesterday}}, {{cog|nl|gisterdag|t=yesterday}}, dialectal {{cog|de|gestertag|t=yesterday}}, {{cog|sv|gårdag|t=yesterday}}, {{cog|got|𐌲𐌹𐍃𐍄𐍂𐌰𐌳𐌰𐌲𐌹𐍃|t=tomorrow|pos=adverb}}. Compare further {{cog|nl|gisteren|t=yesterday}}, {{cog|de|gestern|t=yesterday}}.
+
+## yield
+pos: verb/noun    phonetic: /jiːld/
+现有画面: 树枝压弯后让开道路，果实一串串垂在下面
+现有中文: 产生/屈服/产量
+词源(Wiktionary 原文): {{root|en|ine-pro|*gʰeldʰ-}} From {{inh|en|enm|yielden}}, {{m|enm|yelden}}, {{m|enm|ȝelden||to yield, pay}}, from {{inh|en|ang|ġieldan||to pay}}, from {{inh|en|gmw-pro|*geldan||to pay}}, from {{inh|en|gem-pro|*geldaną||to pay}}, from {{der|en|ine-pro|*gʰeldʰ-||to pay}}. {{dbt|en|geld}}. The noun is from {{inh|en|enm|ȝeld||tax, payment}}, from {{inh|en|ang|ġield||payment}}, from {{inh|en|gmw-pro|*geld||payment}}, from {{inh|en|gem-pro|*geldą||reward, gift, money}}, from {{der|en|ine-pro|*gʰeldʰ-||to pay}}. {{col-top|2|cog}} Cognate with {{cog|sco|yield||to yield}}, {{cog|frr|jilden||to pay}}, {{cog|stq|jäilde||to be valid, matter, count, be worth}}, {{cog|fy|jilde||to pay}}, {{cog|nds|gellen}…（已截断）
+
+## young
+pos: adjective/noun    phonetic: /jʌŋ/
+现有画面: 小动物跟在成年动物身后，四肢还显得细长
+现有中文: 年轻的/幼小的
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₂ey-|id=life}} Inherited from {{inh|en|enm|yong}}, {{m|enm|yonge}}, from {{inh|en|ang|ġeong}}, from {{inh|en|gmw-pro|*jung}}, from {{inh|en|gem-pro|*jungaz}}, from {{inh|en|ine-pro|*h₂yuHn̥ḱós}}, from {{m|ine-pro|*h₂yuh₁en-|t=young}}. {{col-top|2|cog}} Cognate with {{cog|gsw|jung}}, {{m|gsw|jungu}}, {{m|gsw|junhs}}, {{m|gsw|jungà}}, {{m|gsw|jòng|t=young}}, {{cog|bar|junk|t=young}}, {{cog|gmw-cfr|-}}, {{cog|lb|jonk|t=young}}, {{cog|cim|djung}}, {{m|cim|jung}}, {{m|cim|junk|t=young}}, {{cog|nl|jong|t=young}}, {{cog|de|-}}, {{cog|nds-de|-}}, {{cog|mhn|-}} and {{cog|wym|jung|t=young}}, {{cog|li|jong}}, {{m|li|jonk|t=young}}, {{cog|yi|יונג|t=young}}, {{cog|da|-}}, {{cog|nb|-}}…（已截断）
+
+## youngster
+pos: noun    phonetic: /ˈjʌŋstə/
+现有画面: 一群孩子背着书包在校门口追跑
+现有中文: 年轻人/小孩
+词源(Wiktionary 原文): From {{af|en|young|-ster}}. Attested from the early 17th century.
+
+## yours
+pos: pronoun    phonetic: /jɔːz/
+现有画面: 两本书并排放着，一本封面上贴着写有姓名的标签
+现有中文: 你的/你们的
+词源(Wiktionary 原文): From {{inh|en|enm|youres}}, {{m|enm|ȝoures}}, attested since the 1300s. Equivalent to {{af|en|your|-s}} (compare {{m|en|-'s}}); formed by analogy to {{m|en|his}}. Displaced {{m|en|yourn}} in standard speech.
+
+## yourself
+pos: pronoun    phonetic: /jəˈself/
+现有画面: 镜子前的人抬手，镜中动作与本人完全同步
+现有中文: 你自己
+词源(Wiktionary 原文): From {{inh|en|enm|yourself}}, equivalent to {{suffix|en|your|-self}}.
+
+## youth
+pos: noun    phonetic: /juːθ/
+现有画面: 操场上年轻人奔跑，阳光照在刚起步的身影上
+现有中文: 青年/青春
+词源(Wiktionary 原文): From {{inh|en|enm|youthe}}, {{m|enm|youghte}}, {{m|enm|ȝouþe}}, from {{inh|en|ang|ġeoguþ|t=the state of being young; youth}}, from {{inh|en|gmw-pro|*juwunþa}}, from {{der|en|gem-pro|*jugunþō}}, {{m|gem-pro|*jugunþiz|t=youth}}, corresponding to {{af|en|young|-th|id2=abstract nominal|pos2=abstract nominal suffix}}. Cognate with {{cog|stq|Juugd}}, {{cog|fy|jeugd}}, {{cog|nl|jeugd}}, {{cog|nds-de|Jöögd}}, {{cog|de|Jugend}}.
+
+## zeal
+pos: noun    phonetic: /ziːl/
+现有画面: 志愿者一早打开门，把材料一份份摆上长桌
+现有中文: 热情/热忱
+词源(Wiktionary 原文): {{ety|en|:inh|enm:zele}} From {{inh|en|enm|zele}}, from {{der|en|fro|zel}}, from {{der|en|la-lat|zēlus}}, from {{der|en|grc|ζῆλος||zeal, jealousy}}, from {{der|en|ine-pro|*yeh₂-|t=to search}}. Related to {{m|en|jealous}}.  ┃  {{rfe|en}}
+
+## zebra
+pos: noun    phonetic: /ˈziː.brə/
+现有画面: 黑白条纹的动物穿过草地，远处的条纹融成一片
+现有中文: 斑马
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₁eḱ-|*ǵʰwer-}} {{dercat|en|itc-pro}} {{etydate|1600}}. Borrowed from {{bor|en|it|zebra}}, from {{der|en|pt|zebra}}, {{m|pt|zebro|t=zebra}}, from {{der|en|roa-opt|enzebro}}, {{m|roa-opt|ezebra}}, {{m|roa-opt|azebra|t=wild ass}}, from earlier {{m|roa-opt|cebrario}} (882), {{m|roa-opt|ezebrario}} (897), from {{der|en|la-vul|*eciferus}}, from {{der|en|la|equiferus|t=wild horse}} (Pliny), from {{m|la|equus|t=horse}} + {{m|la|ferus||wild}}. {{rfv-etym|en}} While the word was traditionally pronounced with a long vowel in the first syllable in standard English, during the twentieth century a vowel shift occurred in regions of England, with the shortening of the first vowel. This …（已截断）
+
+## zigzag
+pos: noun/adjective    phonetic: /ˈzɪɡ.zæɡ/
+现有画面: 山路左右连续折返，每个弯都朝相反方向
+现有中文: 之字形/曲折的
+词源(Wiktionary 原文): Attested from 1712. Borrowed from {{bor|en|fr|zigzag}} (attested from 1662), possibly from a {{der|en|gem}} source via {{uder|en|wa|ziczac}} (although {{cog|de|Zickzack}} is attested only from 1703). Also, possibly from the shape of the letter [[Z]], which appears twice in the word. Sense “drunk” from the zigzag movements of a drunk person.
+
+## zinc
+pos: noun    phonetic: /ˈzɪŋk/
+现有画面: 银灰色金属片放在实验台上，表面反射冷光
+现有中文: 锌
+词源(Wiktionary 原文): {{etymon|en|id=metal|:bor|de:Zink|tree=1}} {{bor+|en|de|Zink}}, related to {{m|de|Zinke|t=point, prong}}, from {{der|en|gmh|zinke}}, from {{der|en|goh|zinko|t=prong, tine}}, allied to {{m|goh|zint|t=a jag, point}}, from {{der|en|gem-pro|*tindaz|t=prong, pinnacle}}, from {{der|en|ine-pro|*h₃dónts|t=tooth, projection}}. Cognate with {{cog|ang|tind|t=tine, prong}}, {{cog|gml|tinde}}, {{cog|is|tindur|t=spike, tooth of a rake or harrow, pinnacle, peak, battlement}}. See also {{cog|nl|tinne|t=battlement}}, {{cog|de|Zinne|t=pinnacle, battlement}}, {{cog|da|tinde|t=pinnacle, battlement}}, {{cog|sv|tinne|t=tooth of a rake}}, More at {{m|en|tine}}. {{doublet|en|zincum}}.
+
+## zip
+pos: verb/noun    phonetic: /zɪp/
+现有画面: 两排细齿被滑块一合，布袋口立刻闭上
+现有中文: 拉上拉链/快速移动
+词源(Wiktionary 原文): {{onom|en}}.
+
+## zone
+pos: noun/verb    phonetic: /zəʊn/
+现有画面: 地图上一块颜色相同的地带被粗线圈出
+现有中文: 区域/分区
+词源(Wiktionary 原文): From {{der|en|la|zōna}}, from {{der|en|grc|ζώνη||[[girdle]], [[belt]]}}.
+
+## zoo
+pos: noun    phonetic: /zuː/
+现有画面: 树木间隔着几块围栏牌，游客沿小路观察里面的动物
+现有中文: 动物园
+词源(Wiktionary 原文): {{clip|en|zoological garden,zoological park}}, now the usual form. See {{m|en|zoology}}. * {{senseno|en|zoophile|uc=1}} is a {{clip|en|zoophile,zoophilia|nocap=1}}.
+
+## zoom
+pos: verb/noun    phonetic: /zuːm/
+现有画面: 镜头从远处的山峰快速推近到一扇窗
+现有中文: 迅速移动/变焦
+词源(Wiktionary 原文): {{unc|en}}. The verb was first attested c. 1892, as a noun in 1918 and as an interjection in 1942. Apparently related to {{cog|sco|soom|t=to buzz, hum}}, dialectal English and {{m+|sco|soom}}, {{m|en|swoom}}, {{m|sco|sweem|t=to spin or twirl at high speed}}. Compare also dialectal {{m+|en|sweem|t=to swoon, become dizzy or faint}}.  ┃  A [[genericization]] of the trademark {{m|en|Zoom}}, a video teleconferencing software.

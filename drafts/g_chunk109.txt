@@ -1,0 +1,34 @@
+# 档位是**线索不是结论**。单源匹配实测假阳性约 50%、假阴性约 30%。两个方向都核。
+## A 档：疑可挂现有根 —— 核对成立按补词写；不成立退回 B/C 并说明
+judicial	# 词元 iudicialis	疑 → jus
+lantern	# 词元 lanterne	疑 → cernere
+latent	# 词元 latent	疑 → tendere
+leg	# 词元 —	疑 → legere
+lesson	# 词元 lecon	疑 → legere
+letter	# 词元 letre	疑 → littera
+level	# 词元 livel	疑 → liber
+liability	# 词元 —	疑 → ligare
+library	# 词元 librarie	疑 → liber
+light	# 词元 —	疑 → lacere
+litter	# 词元 litere	疑 → littera
+## B 档：借词但匹配器没找到根 —— **没找到 ≠ 没有**，自己查 roots.json
+investigate	# 词元 investigatio	疑 → 
+invitation	# 词元 invitatio	疑 → 
+jacket	# 词元 jacquet	疑 → 
+latitude	# 词元 latitude	疑 → 
+linguistic	# 词元 lingua	疑 → 
+## C 档：查不到古典词元 —— 多为孤立/日耳曼型，但仍自己判
+investment	# 词元 —	疑 → 
+inward	# 词元 —	疑 → 
+judgement	# 词元 —	疑 → 
+landlord	# 词元 —	疑 → 
+last	# 词元 —	疑 → 
+lately	# 词元 —	疑 → 
+lateral	# 词元 —	疑 → 
+latter	# 词元 —	疑 → 
+layman	# 词元 —	疑 → 
+librarian	# 词元 —	疑 → 
+linger	# 词元 —	疑 → 
+little	# 词元 —	疑 → 
+lock	# 词元 —	疑 → 
+locker	# 词元 —	疑 → 

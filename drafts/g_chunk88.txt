@@ -1,0 +1,70 @@
+# 第八十八批 —— 60 词，分三档，**档位是线索不是结论，逐词核**
+# 单源匹配（只有 Wiktionary，无第二源交叉）的实测噪声率约 45%，务必自己核词源。
+
+## A 档：疑可挂库中已有词根（4 词）——核对了就按补词写，第 5 列填根 id
+allege	# 词元 alleguer	疑 → levare
+ancestor	# 词元 ancestre	疑 → ced
+appendix	# 词元 appendix	疑 → pend
+assault	# 词元 assaut	疑 → salire
+
+## B 档：拉丁/希腊借词，但词族在考研词表内凑不到 3 个成员（25 词）
+# 按孤立词条写（第 5、6 列留空），但 origin 必须写真实的拉丁/希腊来源，
+# **不许编造古英语词形**。拼装脚本会据 origin 自动给出「借词」而非「日耳曼核心词」的 note。
+abundance	# 词元 habundance
+academic	# 词元 academicus
+academy	# 词元 ακαδημια
+accelerate	# 词元 acceleratus
+accumulate	# 词元 accumulatus
+acquaintance	# 词元 aquaintaunce
+additional	# 词元 additionalis
+advantage	# 词元 avantage
+agreeable	# 词元 agreable
+agreement	# 词元 agrement
+allowance	# 词元 alouance
+alphabet	# 词元 αλφαβητος
+aluminum	# 词元 alumium
+analogy	# 词元 analogia
+applaud	# 词元 applaudere
+arithmetic	# 词元 arismetique
+arrest	# 词元 areste
+assassinate	# 词元 assassiner
+assimilate	# 词元 assimulatus
+astronaut	# 词元 αστρον
+astronomy	# 词元 astronomie
+atmosphere	# 词元 ατμος
+automatic	# 词元 -icus
+bacterium	# 词元 βακτηριον
+benefit	# 词元 benfet
+
+## C 档：查不到拉丁/希腊词元，按日耳曼型写（31 词）
+about
+above
+actress
+advanced
+afford
+after
+afternoon
+again
+against
+airport
+alongside
+amplifier
+amplify
+analogue
+another
+antenna
+appliance
+appraisal
+audio
+automation
+available
+aviation
+badminton
+basketball
+before
+beforehand
+beginning
+believe
+below
+beside
+better

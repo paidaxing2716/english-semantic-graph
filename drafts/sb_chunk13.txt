@@ -1,0 +1,182 @@
+# 第 13 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk13.tsv
+
+## settlement
+pos: noun    phonetic: /ˈse.təl.mənt/
+现有画面: 两方在长桌边交换文件，最后签下解决争议的协议
+现有中文: settlement   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|settle|-ment|text=+|tree=1}}
+
+## several
+pos: adjective    phonetic: /ˈsev.(ə.)rəl/
+现有画面: 桌面上分散摆着几件而非一件的物品
+现有中文: several   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|xno|-}} {{m|fro|several}}, from {{der|en|la-med|-}} {{m|la|sēparālis}}, from {{der|en|la|sēpar||separate}}. {{surf|en|sever|-al}}. Not related to {{m|en|severe}} or {{m|en|seven}}.
+
+## severe
+pos: adjective    phonetic: /sɪˈvɪə/
+现有画面: 暴风雪压弯树枝，路上的行人艰难前进
+现有中文: severe   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*seǵʰ-}} From {{uder|en|frm|-}}, from {{der|en|la|severus|t=severe, serious, grave in demeanor}}.
+
+## sew
+pos: verb    phonetic: /ˈsew/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 针线穿过两层布，细小针脚沿边缘整齐排列
+现有中文: sew   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*syewH-}} From {{inh|en|enm|sewen}}, {{m|enm|sowen}}, from {{inh|en|ang|siwian}}, {{m|ang|seowian}}, {{m|ang|seowan|t=to sew, mend, patch, knit together, link, unite}}, from {{inh|en|gem-pro|*siwjaną|t=to sew}}, from {{der|en|ine-pro|*syewH-|t=to sew}}. Cognate with {{cog|sco|sew}}, {{cog|frr|saie}}, {{m|frr|sei}}, {{cog|stq|säie}}, {{cog|da,nb,nn,sv|sy}}, and, more distantly, {{cog|pl|szyć}}, {{cog|ru|шить}}, {{cog|la|suō}}, {{cog|sa|सीव्यति|tr=sī́vyati}}. Related to {{l|en|seam}}.  ┃  {{back-formation|en|sewer||a drain}}.  ┃  From {{inh|en|enm|sew|t=broth}}, from {{inh|en|ang|sēaw|t=sap, juice}}, from {{inh|en|gmw-pro|*sauw}}.
+
+## sex
+pos: noun    phonetic: /ˈseks/
+现有画面: 生物学图表把个体分成两种繁殖类别
+现有中文: sex   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*sek-}} {{ety|en|id=reproductive category|:inh|enm:sexe>>>|tree=1}} From {{inh|en|enm|sexe|t=sex [distinction between male and female] and gender}}, from {{der|en|fro|sexe|t=genitals; gender}}, from {{der|en|la|sexus|t=gender; gender traits; males or females; genitals}}, from {{der|en|itc-pro|*seksus}}, from {{der|en|ine-pro|*séksus}}, from {{m|ine-pro|*sek-|t=to cut, cut off, sever}}, thus meaning "section, division" (into male and female). Displaced native {{noncog|ang|hād||sex, gender}}. Usage for {{m|en|women}} influenced by {{cog|frm|sexe|le sexe|t=women}} (attested in 1580). Usage for ''third'' and additional sexes calqued from {{cog|fr|troisième sexe}}, referring to …（已截断）
+
+## shabby
+pos: adjective    phonetic: /ˈʃæbi/
+现有画面: 褪色外套的袖口磨破，布面留下许多旧折痕
+现有中文: shabby   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*skabʰ-}} The {{glossary|adjective}} is derived from {{affix|en|shab|t1=(''obsolete except UK, dialectal'') scaly skin disease; skin disease of sheep; crust forming over wound, scab|-y|pos2={{glossary|suffix}} meaning ‘having the quality of’ forming adjectives|id2=adjectival}}. The {{glossary|verb}} is derived from the adjective. {{col-top|2|cog}} * {{cog|nl|schabbig|t=poor, needy, shabby}} * {{cog|gmh|schebic}} (modern {{cog|de|schäbig|t=shabby}}) * {{cog|gml|schabbich|t=miserable}} (modern {{cog|nds|schabbig}}, {{m|nds|schäbbig}}) * {{cog|sco|shabby|t=in poor health, ill}} * {{cog|sv|sjabbig|t=shabby, mangy, scruffy}}, {{m|sv|skabbig|t=scabby}} {{col-bottom}}
+
+## shade
+pos: noun    phonetic: /ʃeɪd/
+现有画面: 大树投下阴凉的一片，阳光被叶片切成斑驳光点
+现有中文: shade   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|id=noun|:inh|enm:schade|tree=1|text=++}} {{doublet|en|shadow}}. Cognate with {{cog|grc|σκότος}} (whence {{m+|en|scoto-}}) and {{m|grc|σκιά}} (whence {{m+|en|scia-}}, and uncertainly via {{m|grc|σκίουρος}} {{m+|en|squirrel}}).  ┃  {{ety|en|id=shield|:inh|enm:schaden>>|tree=1|text=++}}
+
+## shadow
+pos: noun    phonetic: /ˈʃædəʊ/
+现有画面: 路灯照向行人，身后的黑色轮廓跟着一起移动
+现有中文: shadow   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)ḱeh₃-}} From {{inh|en|enm|schadowe}}, {{m|enm|schadewe}}, {{m|enm|schadwe}} (also {{m|enm|schade}} > {{l|en|shade}}), from {{inh|en|ang|sċeaduwe}}, {{m|ang|sċeadwe}}, oblique form of {{m|ang|sċeadu|t=shadow, shade; darkness; protection}}, from {{inh|en|gmw-pro|*skadu}}, from {{inh|en|gem-pro|*skaduz||shade, shadow}}, from {{der|en|ine-pro|*(s)ḱeh₃-||darkness}}. {{dbt|en|shade}}. {{col-top|2|cog}} Cognate with {{cog|sco|shedda|t=shadow}}, {{cog|stq|Skaad}}, {{m|stq|Skade|t=shade, shadow}}, {{cog|fy|skaad}}, {{m|fy|skâd|t=shade, shadow}}, {{cog|gmw-cfr,li|Schatte|t=shadow}}, {{cog|nl|schade}}, {{m|nl|schaduw|t=shadow}}, {{cog|de|Schatten|t=shade, shadow}}, {{cog|nds-de|Sc…（已截断）
+
+## shady
+pos: adjective    phonetic: /ˈʃeɪdi/
+现有画面: 茂密树冠遮住阳光，长椅落在一片凉暗处
+现有中文: shady   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{af|en|shade|-y|id2=adjectival}}. Compare {{cog|stq|skaadich}}, {{m|stq|skaddich||shady}}, {{cog|de|schattig||shady}}.
+
+## shaft
+pos: noun    phonetic: /ˈʃɑːft/
+现有画面: 长杆从矿井深处直通地面，电梯沿其中上下
+现有中文: shaft   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)kep-}} From {{inh|en|enm|chafte}}, {{m|enm|saft}}, {{m|enm|scaft}}, {{m|enm|schaft}}, {{m|enm|schafte}}, {{m|enm|scheft}}, {{m|enm|shaffet}}, {{m|enm|shaft}}, from {{inh|en|ang|sċeaft}}, from {{inh|en|gmw-pro|*skaft}}, from {{inh|en|gem-pro|*skaftaz|t=shaft}}, from {{inh|en|ine-pro|*skeh₂p-|t=club, rod, shaft, staff}}. {{col-top|2|cog}} Cognate with {{cog|nl|schacht|t=shaft}}, {{cog|de|Schaft|t=shaft}}, {{cog|nds|Schacht}}, {{m|nds|Skacht|t=shaft; cane, stick; beating}}, {{cog|da,is,nb,nn,sv|skaft|t=handle; stem; shaft}}; also {{cog|la|scapus|t=stalk, stem; shaft}}, {{cog|el|σκήπτρο|t=sceptre}}, {{cog|sq|shkop|t=staff, stick}}, {{cog|be|кап'ё|t=spear}}, {{cog|bg|ко́пие|…（已截断）
+
+## shake
+pos: verb    phonetic: /ˈʃeɪk/
+现有画面: 玻璃杯被快速晃动，液面沿杯壁来回荡
+现有中文: shake   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:schaken|tree=+}} From {{inh|en|enm|schaken}}, from {{inh|en|ang|sċeacan}}, {{m|ang|sċacan|t=to shake}}, from {{inh|en|gmw-pro|*skakan}}, from {{inh|en|gem-pro|*skakaną|t=to shake, swing, escape}}, from {{der|en|ine-pro|*(s)keg-}}, {{m|ine-pro|*(s)kek-|t=to jump, move}}. Cognate with {{cog|sco|schake}}, {{m|sco|schack|t=to shake}}, {{cog|fy|schaekje|t=to shake}}, {{cog|nl|schaken|t=to elope, make clean, shake}}, {{cog|nds|schaken|t=to move, shift, push, shake}} and {{m|nds|schacken|t=to shake, shock}}, {{cog|non|skaka|t=to shake}}, {{cog|nn|skaka|t=to shake}}, {{cog|sv|skaka|t=to shake}}, {{cog|da|skage|t=to shake}}, {{cog|nl|schokken|t=to shake, shock}}, {{cog|ru|скака́ть|t…（已截断）
+
+## shallow
+pos: adjective    phonetic: /ˈʃæləʊ/
+现有画面: 水池很浅，底部石子隔着水面清楚可见
+现有中文: shallow   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)kelh₁-}} From {{inh|en|enm|schalowe|t=not deep, shallow}}; apparently related to {{cog|enm|schalde}}, {{m|enm|schold}}, {{m|enm|scheld}}, {{m|enm|schealde|t=shallow}}, from {{cog|ang|sċeald|t=shallow}}, from {{der|en|gem-pro|*skal-}}, from {{der|en|ine-pro|*(s)kelh₁-|t=to parch, dry out}}. Related to {{cog|nds|Scholl|t=shallow water}}. See also {{l|en|shoal}}.
+
+## sham
+pos: adjective    phonetic: /ˈʃæm/
+现有画面: 展柜里的金属表面看似贵重，轻敲却露出空心
+现有中文: sham   ← 是英文词本身，需重写
+词源(Wiktionary 原文): Probably a dialectal form of {{m|en|shame}}. Alternatively, sham is a term that is used to describe the bottom thick base of a glass, usually a wine or stem glass, where the stem meets the bulbous shape bowl. Glass manufacturers would increase the "sham" to deceive customers into thinking a glass holds more than it actually does. For example, a manufacturer would mold a 12oz glass with a larger "sham" in the base to reduce the volume of the glasses to fit 10-11oz of liquid. By increasing the bulge in the base, usually where the stem meets the glass, it is almost impossible to visually distinguish the difference. This gives the illusion the glass size is the same as any another 12oz glass, bu…（已截断）
+
+## shame
+pos: noun    phonetic: /ˈʃeɪm/
+现有画面: 孩子站在被打翻的花盆旁，脸颊发热地低下头
+现有中文: shame   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=noun|:inh|enm:schame|tree=1}} From {{inh|en|enm|schame}}, from {{inh|en|ang|sċamu}}, from {{inh|en|gmw-pro|*skamu}}, from {{inh|en|gem-pro|*skamō}}. {{col-top|2|cog}} *{{cog|de|Scham||shame}} *{{cog|nds-de|Schaam||shame, shamefacedness}} *{{cog|da|-}}, {{cog|nb|-}}, {{cog|nn|-}}, {{cog|sv|skam||shame}} *{{cog|fo|skomm||shame, dishonour}} *{{cog|is|skömm||shame}} *{{cog|got|𐍃𐌺𐌰𐌼𐌰||shame}}. {{col-bottom}}  ┃  From {{inh|en|enm|schamen}}, from {{inh|en|ang|sċamian}}, from {{inh|en|gmw-pro|*skamēn}}, from {{inh|en|gem-pro|*skamāną}}. {{col-top|2|cog}} *{{cog|nl|schamen||to be ashamed}} *{{cog|de|schämen||to be ashamed or embarrassed, bashful}} *{{cog|da|-}}, {{cog|nb|skamme||to be…（已截断）
+
+## shampoo
+pos: noun    phonetic: /ˈshampoo/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 水流冲过头发，泡沫在发丝间堆起又被洗掉
+现有中文: shampoo   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{bor|en|hi|चाँपो}} / {{m|hi|चांपो}}, {{glossary|imperative}} form of {{m|hi|चाँपना}} / {{m|hi|चांपना||to press, knead}}, mid {{C.|18}}
+
+## shape
+pos: noun    phonetic: /ˈʃeɪp/
+现有画面: 黏土在手指间被捏成圆柱，边缘逐渐定型
+现有中文: shape   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)kep-}} {{ety|en|:inh|enm:schap|tree=1}} From {{inh|en|enm|schap}}, {{m|enm|schape}}, from {{inh|en|ang|ġesceap||shape, form, created being, creature, creation, dispensation, fate, condition, sex, gender, genitalia}}, from {{inh|en|gmw-pro|*ga-}} + {{m|gmw-pro|*skap}}, from {{inh|en|gem-pro|*ga-}} + {{m|gem-pro|*skapą||shape, nature, condition}}, possibly from {{der|en|ine-pro|*(s)kep-||to split, cut}}. The verb is from {{inh|en|enm|shapen}}, {{m|enm|schapen}}, from {{inh|en|ang|scieppan||to shape, form, make, create, assign, arrange, destine, order, adjudge}}, from {{inh|en|gmw-pro|*skappjan}}, from {{inh|en|gem-pro|*skapjaną||to create}}, from the noun. The noun is cog…（已截断）
+
+## share
+pos: noun    phonetic: /ʃeə/
+现有画面: 一块蛋糕被切成几份，盘子分别递给桌边的人
+现有中文: share   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=portion|:inh|enm:schare|tree=1}} From {{inh|en|enm|schare}}, {{m|enm|schere}}, from {{inh|en|ang|sċearu||a cutting, shaving, a shearing, tonsure, part, division, share}}, from {{inh|en|gmw-pro|*skaru}}, from {{inh|en|gem-pro|*skarō||a division, detachment}}, from {{der|en|ine-pro|*(s)ker-||to cut, divide}}. Cognate with {{cog|stq|skar}}, {{m|stq|sker||a share in a communal pasture}}, {{cog|nl|schare||share in property}}, {{cog|de|Schar||band, troop, party, company}}, {{cog|is|skor||department}}. Compare {{l|en|shard}}, {{l|en|shear}}. {{doublet|en|eschel}}.  ┃  {{etymon|en|id=agriculture}} From {{inh|en|enm|schar}}, {{m|enm|schare}}, from {{inh|en|ang|sċear}}, {{m|ang|sċær||pl…（已截断）
+
+## shark
+pos: noun    phonetic: /ʃɑːk/
+现有画面: 灰色鱼鳍切过海面，身体在水下迅速转弯
+现有中文: shark   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|shark}} (used by {{w|Thomas Beckington}} in 1442 to refer to a kind of fish), of {{unc|en|nocap=1}} origin. Most likely from a semantic extension of the {{der|en|de|-}}-derived {{m|en||shark|scoundrel}}, see [[shark#Etymology 2|below]]. The fish was originally called a {{m|en|dogfish}} or {{m|en|haye}} in English and Middle English. Its name in Old English is unknown, although some uses of the word {{m|ang|hranfisċ|}} that do not appear to carry the sense of "{{l|en|whale}}" may have been referencing it. {{col-top|2|alternative theories}} Some older dictionaries derived the word from {{cog|la|carcharias|c(h)archarias}}, {{m|la|carcharus|c(h)acharus}} (from {{cog|grc|-}}), b…（已截断）
+
+## sharp
+pos: adjective    phonetic: /ʃɑːp/
+现有画面: 刀刃碰到纸面便留下整齐切口，边缘薄而亮
+现有中文: sharp   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)ker- (cut)}} From {{inh|en|enm|scharp}}, from {{inh|en|ang|sċearp}}, from {{inh|en|gmw-pro|*skarp}}, from {{inh|en|gem-pro|*skarpaz}}, from {{inh|en|ine-pro|*(s)kerb-}}, from {{m|ine-pro|*(s)ker-|t=to cut}}. Cognate with {{cog|fy|skerp}}, {{cog|nds|scherp}}, {{m|nds|scharp}}, {{m|nds|schaarp}}, {{cog|nl|scherp}}, {{cog|de|scharf}}, {{cog|da|skarp}}. Compare {{cog|ga|cearb|t=keen; cutting}}, {{cog|la|acerbus|t=tart, bitter}}, Tocharian B {{m|xtb|kärpye|t=rough}}, Latvian {{m|lt|skârbs|t=sharp, rough}}, Russian {{m|ru|щерба|t=notch}}, Polish {{m|pl|szczerba|t=gap, dent, jag, chip, nick, notch}}, Albanian {{m|sq|harb|t=rudeness}}. More at {{l|en|shear}}.
+
+## shatter
+pos: verb    phonetic: /ˈʃætə/
+现有画面: 玻璃杯落到地上，碎片向四周弹开
+现有中文: shatter   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|schateren|t=to scatter, dash}}, an assibilated form of {{cog|enm|scateren}} {{gloss|"to scatter"; see {{l|en|scatter}}}}, from {{inh|en|ang|scaterian}}, from {{der|en|gem-pro|*skat-|t=to smash, scatter}}, perhaps ultimately {{onomatopoeic|en|title=imitative}}. Cognate with {{cog|nl|schateren|t=to burst out laughing}}, {{cog|nds|schateren}}, {{cog|sq|shkatërroj|t=to destroy, devastate}}. {{doublet|en|scatter}}.
+
+## shave
+pos: verb    phonetic: /ˈʃeɪv/
+现有画面: 刮刀沿下巴移动，短须一片片脱落
+现有中文: shave   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{inh+|en|enm|shaven}}, {{m|enm|schaven}}, from {{inh|en|ang|sċafan|t=to shave, scrape, shred, polish}}, from {{inh|en|gmw-pro|*skaban}}, from {{inh|en|gem-pro|*skabaną|t=to scrape}}, from {{der|en|ine-pro|*skabʰ-|t=to cut, split, form, carve}}. Cognate with {{cog|fy|skave}}, {{cog|nl|schaven}}, {{cog|nds|schaven}}, {{cog|de|schaben}}, {{cog|da|skave}}, {{cog|nn|skava}}, {{cog|sv|skava|}}, {{cog|is|skafa}}, {{cog|got|𐍃𐌺𐌰𐌱𐌰𐌽}}, all roughly “to scrape, chafe, shave, plane, remove the outer lay of”.  ┃  From {{inh|en|enm|shave}}, from {{inh|en|ang|sceafa}}, from {{inh|en|gem-pro|*skabô}}.
+
+## shear
+pos: verb    phonetic: /ʃɪə/
+现有画面: 剪刀沿羊毛边缘快速移动，厚毛整片被剪下
+现有中文: shear   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:scheren|tree=1}} From {{inh|en|enm|sheren}}, {{m|enm|scheren}}, from {{inh|en|ang|sċieran||to shear; to shave}}, from {{inh|en|gmw-pro|*skeran}}, from {{inh|en|gem-pro|*skeraną}}, from {{der|en|ine-pro|*(s)ker-|t=to cut}}. Cognate with {{cog|fy|skarre}}, {{cog|nds,nl,de|scheren}}, {{cog|da|skære}}, {{cog|nb|skjære}}, {{cog|nn|skjera}}, {{cog|sv|skära}}, {{cog|fo,is|skera}}, (borrowed from Germanic) {{cog|fi|keritä|id=shear}}; and {{qualifier|from Indo-European}} with {{cog|bsh|ċarë́-|t=to chop}}, {{cog|grc|κείρω||to cut off}}, {{cog|la|caro||flesh}}, {{cog|sq|shqerr||to tear, cut}}, {{m|sq|harr||to cut, to mow}}, {{cog|lt|skìrti||separate}}, {{cog|cy|ysgar||separate}}. See …（已截断）
+
+## shed
+pos: verb    phonetic: /ʃed/
+现有画面: 蛇从旧皮中钻出，透明外壳留在石头旁
+现有中文: shed   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymid|en|dividing-related}} {{root|en|ine-pro|*skey-}} From {{inh|en|enm|scheden}}, {{m|enm|schede}}, from {{inh|en|ang|scēadan}}, {{m|ang|scādan|t=to separate, divide, part, make a line of separation between; remove from association or companionship; distinguish, discriminate, decide, determine, appoint; shatter, shed; expound; decree; write down; differ}}, from {{inh|en|gmw-pro|*skaiþan}}, from {{inh|en|gem-pro|*skaiþaną}} (compare {{cog|fy|skiede}}, {{cog|nl|-}} and {{cog|de|scheiden}}), from {{der|en|ine-pro|*skeyt-|t=to cut, part, divide, separate}}, from {{m|ine-pro|*skey-}}. See also {{cog|ga|scian|t=knife}}, {{cog|lt|skėsti|t=to spread}}, {{m|lt|skíesti|t=to separate}}, {{cog|cu|ц…（已截断）
+
+## sheep
+pos: noun    phonetic: /ˈʃiːp/
+现有画面: 白色羊群挤在围栏边，牧羊犬从后面赶拢它们
+现有中文: sheep   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:schep|tree=1}} {{inh+|en|enm|schep}}, {{m|enm|schepe}}, from {{inh|en|ang-ang|sċēp}} (West Saxon {{m|ang|sċēap}}), from {{inh|en|gmw-pro|*skāp}}, from {{inh|en|gem-pro|*skēpą}}, of unknown origin. Perhaps from the same {{der|en|xsc|-}} word (compare {{cog|os|цӕу|t=goat}}, {{cog|fa|چپش|t=yearling goat|tr=čapiš}}) which was borrowed into {{cog|sq|-}} as {{m|sq|cjap}}, {{m|sq|sqap|t=buck}} and into Slavic (compare {{cog|pl|cap}}). After Kroonen, ''*skēpą'' is instead from the root of {{cog|gem-pro|*skabaną|t=to scratch}} via {{w|Kluge's law}}. {{col-top|2|cog}} Cognate with {{cog|sco|sheep|t=sheep}}, {{cog|yol|sheep}}, {{m|yol|zheep|t=sheep}}, {{cog|frr|schep}}, {{m|frr|schäip…（已截断）
+
+## sheer
+pos: adjective    phonetic: /ʃɪə/
+现有画面: 峭壁从海面直立上升，几乎没有可以攀爬的斜面
+现有中文: sheer   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|shere}}, {{m|enm|scheere}}, {{m|enm|schere}}, {{m|enm|skere}}, from {{inh|en|ang|sċǣre|t=pure, sheer; shining, clear}}, from {{inh|en|gem-pro|*skairiz}}; supplanted the semantically close {{m|en|shire}} (dialectal), from {{inh|en|enm|schyre}}, {{m|enm|schire}}, {{m|enm|shire}}, {{m|enm|shir}}, from {{inh|en|ang|sċīr|t=clear, bright; brilliant, gleaming, shining, splendid, resplendent; pure}}, beside which existed {{inh|en|enm|skyr}}, from {{der|en|non|skírr|t=pure, bright, clear}}, both from {{inh|en|gem-pro|*skīriz|t=pure, sheer}}, from {{der|en|ine-pro|*(s)ḱeh₁y-|t=luster, gloss, shadow}}. Cognate with {{cog|da|skær}}, {{cog|de|schier|t=sheer}}, {{cog|nds-de|schier|t=shee…（已截断）
+
+## sheet
+pos: noun    phonetic: /ʃiːt/
+现有画面: 一整张白布从晾衣绳垂下，风吹得边角摆动
+现有中文: sheet   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{der|en|enm|schete}}; partly from {{der|en|ang|sċīete||a sheet, a piece of linen cloth}}; partly from {{der|en|ang|sċēata||a corner, angle; the lower corner of a sail, sheet}}; and {{der|en|ang|sċēat||a corner, angle}}; all from {{der|en|gem-pro|*skautijǭ}}, {{m|gem-pro|*skautaz||corner, wedge, lap}}, from {{der|en|ine-pro|*(s)kewd-||to throw, shoot, pursue, rush}}. Cognate with {{cog|frr|skut||the fold of a garment, lap, coattail}}, {{cog|fy|skoat||sheet; sail; lap}}, {{cog|nl|schoot||the fold of a garment, lap, sheet}}, {{cog|nds-de|Schote||a line from the foot of a sail}}, {{cog|de|Schoß||the fold of a garment, lap}}, {{cog|da|skød||lap, skirt}}, {{cog|is|skaut||the corner of a clot…（已截断）
+
+## shelf
+pos: noun    phonetic: /ʃelf/
+现有画面: 书架上一层木板托住整排书，书脊朝外排列
+现有中文: shelf   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:schelfe|tree=1}} From {{inh|en|enm|schelfe}}, probably from {{inh|en|ang|sċielfe|sċylfe}}, {{m|ang|sċielfe|sċilfe|t=shelf, ledge, deck of a ship}}, from {{inh|en|gmw-pro|*skilfijā}}, from {{der|en|gem-pro|*skelfō|t=shelf, ledge, cliff}}, from {{der|en|ine-pro|*(s)kelH-|t=to cut}}, distantly related to {{m|en|sculpt}}, {{m|en|carve}} and {{m|en|shell}}. Cognate with {{cog|nl|schelf|t=hay loft, haystack}}, {{cog|nds-de|Schelf|t=haystack}}, {{cog|non|skjalf|t=bench}}.  ┃  Of obscure origin; evidently identical to {{cog|enm|shelp|t=sandbar in a river}}, but the sound shift is unexpected. ''Shelp'' might be from {{cog|ang|scylp|t=crag}} or {{cog|dum||schelp-}}.
+
+## shell
+pos: noun    phonetic: /ʃel/
+现有画面: 海滩上的硬壳包住柔软内里，潮水退去后留在沙上
+现有中文: shell   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:schelle>|tree=1}} From {{inh|en|enm|schelle}}, from {{inh|en|ang|sċel}}, {{m|ang|sċell}}, {{m|ang|sċiell}}, {{m|ang|sċil}}, {{m|ang|sċill}}, {{m|ang|sċyl}}, {{m|ang|sċyll}}, from {{inh|en|gmw-pro|*skallju}}, from {{inh|en|gem-pro|*skaljō|t=shell; husk; rind; peel}}, from {{der|en|ine-pro|*(s)kelH-|t=to cut; to separate, split}}. {{col-top|2|cog}} Cognate with {{cog|nl|schil|t=bark, rind, skin; crust; shell; slice}}, {{cog|da|skæl|t=scale; dandruff}}, {{cog|fo,is|skel|t=shell}}, {{cog|nb|skjell|t=shell; scale}}, {{cog|nn|skjel|t=shell; bivalve; scale; carapace}}, {{cog|got|𐍃𐌺𐌰𐌻𐌾𐌰|t=brick, tile}}, {{cog|fr|écaille|t=scale; shell}}, {{cog|fur|scae|t=scale}}, {{cog|it|scagli…（已截断）
+
+## shelter
+pos: noun    phonetic: /ˈʃeltə/
+现有画面: 大雨落下时，几个人挤进屋檐下躲避
+现有中文: shelter   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|sheltron}}, {{m|enm|sheldtrume|t=roof or wall formed by locked shields}}, from {{inh|en|ang|sċildtruma}}, {{m|ang|sċyldtruma|t=a phalanx, company (of troops), a tortoise, a covering, shed, shelter|lit=shield-troop}}, from {{m|ang|sċyld}}, {{m|ang|sċield|t=shield}} + {{m|ang|truma|t=a troop of soldiers}}. Cognate with {{cog|sco|schilthrum}}, {{m|sco|schiltrum}}. More at {{m|en|shield}}, and {{cog|ang|trymman|t=to strengthen}}, from {{m|ang|trum|t=strong, firm}} at {{l|en|trim}}. Doublet of [[sheltron]] (a kind of military formation), which is the more conservative of the two.
+
+## shepherd
+pos: noun    phonetic: /ˈʃepəd/
+现有画面: 牧羊人站在围栏边，手杖引导羊群走向草地
+现有中文: shepherd   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|schepherde}}, from {{inh|en|ang|sċēaphierde}}, a compound of {{m|ang|sċēap|t=sheep}} and {{m|ang|hierde|t=herdsman}}, equivalent to modern {{af|en|sheep|herd|t2=herder}}.

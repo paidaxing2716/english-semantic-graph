@@ -1,0 +1,32 @@
+# 不足 3 员的词根 —— 已核，按规格不算违规，故保留不撤
+#
+# 规格第 156 行的原文是「一族凑不到 3 个成员词的，**不值得单开一个根**」——
+# 那是**建根时**的判据，不是要求已有根维持 3 员。撤掉这些根会丢掉真实的词源信息
+# （impair 的 root_logic 解释 peior 比较级，对学的人有用），所以记录为例外。
+#
+# 每条注明为什么补不上，都逐个核过词源，**别再拿形近词往里塞**：
+#
+# ternus 2 员（external / internal）
+#   2026-08-26 从 4 员跌下来：alternate 迁去 alter-other、international 迁去 nasci，
+#   两处迁移都词源正确。extern / intern 不在考研词表。
+#   eternal 看似能补，实为 aeternus ← aevum（时代），与 externus/internus 不同源。
+#
+# tangere 2 员（attain / contact）
+#   intact ← intactus = in- + tactus ← tangere，**真能补，在 latin_remaining 池中**，
+#   下一批拉丁批写到它就能凑满 3 员。
+#   tactic 看似能补，实为希腊 taktikos ← tasso（排列），与拉丁 tangere 无关。
+#
+# filum 2 员（profile / file）
+#   filter 实为 filtrum（毛毡），不是 filum（线）。
+#   affiliate 实为 filius（儿子），不是 filum——chunk84 的子代理已核。
+#   filament 不在考研词表。
+#
+# peior 1 员（impair）
+#   pessimistic 在池中，但 Wiktionary 只给到 pessimist + -ic，未直连 peior/pessimus，
+#   要挂需另查 pessimus 与 peior 是否同支（都出 PIE *ped- 但需确认）。
+#
+# conciliare 1 员（reconcile）
+#   council 看似能补，实为 consilium ← consulo（商议），与 concilium（集会）是两个词。
+#
+# hum-onomatopoeia 1 员（hum）
+#   拟声词根，本身就不该有族。humble 实为 humus（泥土）一支，已在 humus 根下。

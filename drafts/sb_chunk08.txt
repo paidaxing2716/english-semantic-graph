@@ -1,0 +1,182 @@
+# 第 8 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk08.tsv
+
+## reciprocal
+pos: adjective    phonetic: /rɪˈsɪprək(ə)l/
+现有画面: 两个人轮流把球传给对方，每次动作都得到回应
+现有中文: reciprocal   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:der|la:reciprocus}} From {{der|en|la|reciprocus}}, possibly from a phrase such as {{m|la|reque proque||back and forth, [[to and fro]]}}, from {{m|la|re-||back}}, {{m|la|prō||forwards}} and {{m|la|-que||and}}.
+
+## recognition
+pos: noun    phonetic: /ˌrekəɡˈnɪʃ(ə)n/
+现有画面: 领奖台上的人听到名字后走上前，观众认出并鼓掌
+现有中文: recognition   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*ǵneh₃-}} {{inh+|en|enm|recognicion}}, from {{der|en|frm|recognicion}}, {{m|frm|recognition}} and its etymon {{der|en|la|recognitiōnem}} (accusative of {{m|la|recognitiō}}), from {{m|la|recognitus}}, past participle of {{m|la|recognōscō|recognōscere}}.
+
+## recognize
+pos: verb    phonetic: /ˈrek.əɡ.naɪz/
+现有画面: 街角的人抬头看清来者，马上认出那张熟悉的脸
+现有中文: recognize   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*ǵneh₃-}} Borrowed from {{bor|en|frm|reconoistre}}, from {{der|en|fro|reconoistre}}, from {{der|en|la|recognosco|recognoscere}}, first attested in the 16th century. Displaced native {{cog|en|acknow|t=to recognize, perceive as}}, compare {{cog|de|erkennen}} and {{cog|sv|erkänna}}. Latin had rare {{m|la|recognizare||to try by jury}}.  ┃  {{ety|en|:af|re-|cognize|text=+|tree=1}}
+
+## recollect
+pos: verb    phonetic: /ˈrecollect/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 散落的照片一张张拼回，旧日场景逐渐在脑中恢复
+现有中文: recollect   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*leǵ-}} Borrowed from {{bor|en|la-med|recollectus||remembered, composed}}, from {{der|en|la|recolligo||gather again, recover}}.  ┃  {{ety|en|:af|re-|collect|text=+|tree=1}}
+
+## recreation
+pos: noun    phonetic: /ˈrecreation/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 公园里的人放下工作，在草地和球场上轻松活动
+现有中文: recreation   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|recreacion}}, from {{der|en|frm|recreacion}}, from {{der|en|fro|recreacion}}, from {{der|en|la|recreātiō}}.  ┃  From {{inh|en|enm|recreacion}}; equivalent to {{af|en|re-|creation}}.
+
+## recruit
+pos: noun    phonetic: /rɪˈkruːt/
+现有画面: 新成员站进队伍，教练给他发放制服和编号
+现有中文: recruit   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{uder|en|fr|-}} ''[[recruter]]'' (as a verb).
+
+## rectangle
+pos: noun    phonetic: /ˈrektæŋɡl/
+现有画面: 纸张四条边首尾相接，四个角都是直角
+现有中文: rectangle   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*h₃reǵ-}} Borrowed from {{bor|en|frm|-}}, from {{der|en|fro|-}}, from {{der|en|la-med|-}} or {{der|en|la-lat|rectangulum||right angle}}, from {{der|en|la|rectus||right}} + {{m|la|angulus||an angle}}.
+
+## redundant
+pos: adjective    phonetic: /rɪˈdʌn.dənt/
+现有画面: 仓库里堆着两台完全相同的备用机器，其中一台长期不用
+现有中文: redundant   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*wed-}} From {{bor|en|la|redundāns}}, present participle of {{m|la|redundō||to overflow, redound}}, from {{m|la|red-||again, back}} + {{m|la|undō|t=to surge, flood}}, from {{m|la|unda||a wave}}.
+
+## reflect
+pos: verb    phonetic: /rɪˈflekt/
+现有画面: 阳光照到平静水面，岸边的树影清楚地映回来
+现有中文: reflect   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{uder|en|fro|reflect|reflecter|to bend back, turn back}}, from {{uder|en|la|reflectō||to reflect}}, from {{m|la|re-||again}} + {{m|la|flectō||to bend, to curve}}. Compare {{cog|en|reflex}}.
+
+## reflection
+pos: noun    phonetic: /rɪˈflekʃən/
+现有画面: 镜面里的人影与站在面前的人同时抬手
+现有中文: reflection   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|refleccion,refleccioun,refleccioune,reflection}}, from {{der|en|frm|reflection,reflexion}}, and its source {{der|en|la-lat|reflexiō}}, from the participle stem of {{m|la|reflectō}}. The current spelling is influenced by {{m|en|reflect}}. Equivalent to {{suf|en|reflect|ion}}.
+
+## refrain
+pos: verb    phonetic: /rɪˈfreɪn/
+现有画面: 歌手唱到熟悉的一句时停住，手指示意乐队暂不继续
+现有中文: refrain   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*bʰreg-|*dʰer-}} {{inh+|en|enm|refreynen}}, from {{der|en|xno|refrener}}, {{der|en|fro|refrener}}, from {{der|en|la|refrēnāre}}, from {{af|la|re-|frēnāre|nocat=1}}, from {{m|la|frēnum}}.  ┃  {{etymid|en|noun}} {{root|en|ine-pro|*bʰreg-}} From {{der|en|fr|refrain}}, from the {{der|en|fro|-}} verb {{m|fro|refraindre|t=to break off, repeat}}, from {{der|en|la|re-|t=back, again}} + {{m|la|frangō|t=break}}; compare {{cog|oc|refranhs|t=a refrain}}, {{m|oc|refranher|t=to repeat}}. See {{m|en|refract}} and the verb {{m|en|refrain}}.
+
+## refuge
+pos: noun    phonetic: /ˈrefjuːdʒ/
+现有画面: 风暴来临时，动物钻进岩洞深处躲避风雨
+现有中文: refuge   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*bʰewg-|id=flee}} From {{inh|en|enm|refuge}}, from {{der|en|fro|refuge}}, from {{der|en|la|refugium}}, from {{m|la|re-}} + {{m|la|fugiō||flee}}. {{doublet|en|refugium}}.
+
+## refugee
+pos: noun    phonetic: /ˈrefugee/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 人群背着行李离开受灾的家，沿安全路线向远处走
+现有中文: refugee   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*bʰewg-|id=flee}} From {{der|en|fr|réfugié}}, past participle of {{m|fr|réfugier|gloss=to take refuge, to seek refuge}}, from {{der|en|fro|refuge||hiding place}} from {{der|en|la|refugium||a place of refuge, place to flee back to}}, originally describing French [[Huguenot]]s fleeing religious persecution after the {{w|revocation of the Edict of Nantes}} in 1685. {{senseno|uc=1|en|person seeking refuge}} was "one seeking asylum" until 1914, when it evolved to mean more generally "one fleeing home" (first applied in this sense to civilians in [[Flanders]] heading west to escape fighting in [[World War I]]). {{surf|en|refuge|-ee}}. Displaced native {{ncog|ang|flīema}}.
+
+## refund
+pos: verb    phonetic: /ˈrefund/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 售票处把钱退回顾客手中，原来的票被收回
+现有中文: refund   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*ǵʰewd-}} From {{inh|en|enm|refunden}}, {{m|enm|refounden}}, from {{uder|en|fro|refondre}}, {{m|fro|refonder}}, {{m|fro|refunder||to restore; pay back}}, from {{uder|en|la|refundere}}; prefix {{m|la|re-||re-}} + {{m|la|fundere||to pour}}: compare {{cog|fr|refondre}}, {{m|fr|refonder}}. See {{m|en|fuse||to melt}}, and compare {{m|en|refound||to cast again}}, and {{m|en|refuse}}.
+
+## refute
+pos: verb    phonetic: /rɪˈfjuːt/
+现有画面: 两份证据摆在桌面上，其中一份直接推翻了前面的说法
+现有中文: refute   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{bor|en|la|refūtō|t=refute, repudiate}}.
+
+## regret
+pos: verb    phonetic: /rɪˈɡret/
+现有画面: 夜里的人盯着已经寄出的信，手指反复摩挲空信封
+现有中文: regret   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:regretten>>>>>|tree=1}} From {{inh|en|enm|regretten}}, {{m|enm|regreten}}, from {{der|en|fro|regreter}}, {{m|fro|regrater|t=to lament}}, from {{m|fro|re-|pos=intensive prefix}} + {{m|fro|*greter}}, {{m|fro|*grater|t=to weep}}, from {{der|en|frk|*grātan|t=to weep, mourn, lament}}, from {{der|en|gem-pro|*grētaną|t=to weep}}, from {{der|en|ine-pro|*ǵʰreh₁d-|t=to sound}}; and {{der|en|frk|*greutan|t=to cry, weep}}, from {{der|en|gem-pro|*greutaną|t=to weep, cry}}, from {{der|en|ine-pro|*gʰrewd-|t=to weep, be sad}}, equivalent to {{af|en|re-|greet}}. Cognate with {{cog|goh|grāzan|t=to cry}}, {{cog|ang|grǣtan|t=to weep, greet}}, {{cog|ang|grēotan|t=to weep, lament}}, {{cog|non…（已截断）
+
+## rehearsal
+pos: noun    phonetic: /rɪˈhɜːsl/
+现有画面: 演员在空舞台上反复走位，灯光和台词逐项核对
+现有中文: rehearsal   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|rehercel}}, {{m|enm|rehersail}}, {{m|enm|rehersall}}, from {{m|enm|rehersen}} and apparently partly {{der|en|frm|rehercel}}. {{surf|en|rehearse|-al}}.
+
+## reinforce
+pos: verb    phonetic: /ˌriː.ɪnˈfɔːs/
+现有画面: 桥梁下方加装粗钢梁，承重结构变得更牢
+现有中文: reinforce   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:af|re-|inforce|text=+|tree=1}}
+
+## reluctant
+pos: adjective    phonetic: /rɪˈlʌktənt/
+现有画面: 门口的人握着把手迟迟不进，脚尖仍朝向外面
+现有中文: reluctant   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*lewg-}} {{lbor|en|la|reluctāns}} (whence {{suf|en|-ant}}), present participle of {{m|la|reluctor||to struggle against, oppose, resist}}, from {{m|la|re-||back}} + {{m|la|luctor||to struggle}} (whence {{af|en|re-}}.
+
+## remain
+pos: noun    phonetic: /rɪˈmeɪn/
+现有画面: 搬空的房间里只剩一把椅子和墙上的钟
+现有中文: remain   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*men- (stay)}} From {{inh|en|enm|remainen}}, from {{der|en|fro||remain-}}, stressed stem of {{m|fro|remanoir}}, from {{der|en|la|remaneō}}, {{m|la|maneō}}, from {{der|en|ine-pro|*men-||to stay}}. Displaced native {{cog|enm|beliven|}}, {{m|enm|bliven||to remain}} (from {{cog|ang|belīfan||to remain, stay}}) due to confluence with related {{cog|enm|beleven||to leave behind}}, with which it merged. More at [[beleave]] and [[belive]].
+
+## remainder
+pos: noun    phonetic: /rɪˈmeɪndə/
+现有画面: 一堆物品分走几份后，旁边留下没有取走的部分
+现有中文: remainder   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|remaindre}}, {{m|enm|remeigner}}, from {{der|en|xno|remaindre}}, with infinitive used as noun.
+
+## remains
+pos: noun    phonetic: /rɪˈmeɪnz/
+现有画面: 古老建筑倒塌后，石墙残段仍留在草地上
+现有中文: remains   ← 是英文词本身，需重写
+词源(Wiktionary 原文): （Wiktionary 无 Etymology 段，按通行词典写，无定论就写「更早词源不明」）
+
+## remark
+pos: noun    phonetic: /ˈremark/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 会议中有人举手，说出一句引起大家注意的话
+现有中文: remark   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{bor|en|frm|remarquer}}, from {{der|en|fro|remarquer}}, from {{m|fro|re-||again}} + {{m|fro|marquer||to mark}}, equivalent to {{af|en|re-|t1=again|mark}}.  ┃  {{ety|en|:af|re-|mark|text=+|tree=1}}
+
+## remarkable
+pos: adjective    phonetic: /rɪˈmɑː.kə.bl/
+现有画面: 平静的队列中一个人完成了异常出色的动作，所有人转头观看
+现有中文: remarkable   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{suffix|en|remark|able}}, from {{uder|en|fr|remarquable}}.
+
+## remedy
+pos: noun    phonetic: /ˈremədi/
+现有画面: 破损的管道找到合适零件，水流恢复正常
+现有中文: remedy   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*med-}} From {{inh|en|enm|remedie}}, from {{der|en|fro|*remedie}}, {{m|fro|remede}}, from {{der|en|la|remedium||a remedy, cure}}, from {{m|la|re-||again}} + {{m|la|mederi||to heal}}. {{doublet|en|remeid}}.
+
+## remember
+pos: verb    phonetic: /rɪˈmem.bə/
+现有画面: 抽屉里的旧照片让人想起多年前的那一天
+现有中文: remember   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)mer-|id=remember}} From {{inh|en|enm|remembren}}, from {{der|en|fro|remembrer||to remember}}, from {{der|en|la-lat|rememorari||to remember again}}, from {{m|la|re-}} + {{m|la|memor||mindful}}, from {{der|en|ine-pro|*mer-}}, {{m|ine-pro|*(s)mer-||to think about, be mindful, remember}}. Cognate with {{cog|ang|mimorian}}, {{m|ang|mymerian||to remember, commemorate}}, {{cog|ang|māmorian||to deliberate, plan out, design}}. More at {{l|en|mimmer}} and {{l|en|mammer}}. Compare also dialectical {{noncog|en|umbethink}}. {{col-top|2|etymology note}} The success of the [[Old French]] word was helped by its proximity in sound and meaning to an existing Germanic word: {{cog|ang|mimo…（已截断）
+
+## remind
+pos: verb    phonetic: /rəˈmaɪnd/
+现有画面: 手机在约定时间响起，提示主人别忘记一件事
+现有中文: remind   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*men- (think)}} From mid 17th century, equivalent to {{af|en|re-|mind|t2=to remember}}. Probably suggested by obsolete {{m|en|rememorate}} with the same sense. Displaced {{ncog|ang|myndgian}}.
+
+## remnant
+pos: noun    phonetic: /ˈremnənt/
+现有画面: 布料剪裁后，桌角留下几块窄窄的余料
+现有中文: remnant   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*men- (stay)}} From {{der|en|enm|-}}, contraction of {{m|enm|remenant}}, from {{der|en|xno|remanant}}, present participle of {{m|fro|remaindre}}, from {{der|en|la|remaneō}}.
+
+## render
+pos: verb    phonetic: /ˈren.də/
+现有画面: 电脑把模型转换成带光影的完整画面
+现有中文: render   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*deh₃-}} From {{inh|en|enm|renderen}}, {{m|enm|rendren}}, from {{der|en|fro|rendre||render, give back}}, from {{der|en|la-lat|rendō|rendere}}, from {{der|en|la|reddō|reddere|t=make, give back}}.  ┃  {{ety|en|:af|rend|-er|text=+|tree=1}}
+
+## repertoire
+pos: noun    phonetic: /ˈrep.ə.twɑː/
+现有画面: 舞台后台的曲目单摊开，演员按熟练程度挑选今晚要演的节目
+现有中文: repertoire   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{bor+|en|fr|répertoire}}, from {{der|en|frm|repertoire}}, from {{der|en|la-lat|repertōrium||an inventory, list, repertory}}. {{dbt|en|repertory}}.

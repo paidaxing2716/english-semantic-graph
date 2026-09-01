@@ -1,0 +1,182 @@
+# 第 27 片 —— 占位词条内容回填，共 30 词
+# 读 docs/stub-backfill-spec.md，输出 drafts/sb_chunk27.tsv
+
+## theoretical
+pos: adjective    phonetic: /ˈtheoretical/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 黑板上画着抽象模型，旁边列出尚未实测的假设
+现有中文: theoretical   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|theorothycall}}, probably from {{der|en|la|theōrēticus}} + {{m|enm|-al}}, from {{cog|grc|θεωρητικός}}.
+
+## theory
+pos: noun    phonetic: /ˈθɪə.ri/
+现有画面: 一组图表和箭头解释许多现象之间的关系
+现有中文: theory   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:bor|frm:théorie>|tree=1|text=++}}
+
+## therapy
+pos: noun    phonetic: /ˈθer.ə.pi/
+现有画面: 安静诊室里，来访者和治疗师面对面交谈
+现有中文: therapy   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{dercat|en|qsb-grc|ine-pro}} {{ety|en|:bor|la-new:therapīa|tree=+}} From {{bor|en|la-new|therapīa}}, from {{der|en|grc|θεραπεία||service, medical treatment}}, from {{m|grc|θεραπεύω||to serve, treat medically}} {{suf|grc||-ία|pos2=suffix for forming abstract nouns|nocat=1}}{{cln|en|terms suffixed with -y (abstract noun)}}.
+
+## thereafter
+pos: adverb    phonetic: /ˌðeərˈɑːf.tə(r)/
+现有画面: 时间轴上一个事件之后接着标出连续几个日期
+现有中文: thereafter   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|therafter}}, {{m|enm|theraftir}}, {{m|enm|þerefter}}, {{m|enm|þerafter}}, {{m|enm|þeræfter}}, from {{inh|en|ang|þǣræfter|t=after that; thereafter}}, equivalent to {{compound|en|there|after}}. Cognate with {{cog|stq|deerätter|t=thereafter}}, {{cog|fy|dêrefter|t=behind that; thereafter}}, {{cog|nl|daarachter|t=behind that; thereafter}}, {{cog|nds-de|daarachter|t=behind that}}, {{cog|da|derefter|t=thereafter}}, {{cog|sv|därefter|t=thereafter}}.
+
+## thereby
+pos: adverb    phonetic: /ðeəˈbaɪ/
+现有画面: 按钮被按下后，机器启动并完成后续动作
+现有中文: thereby   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|therby}}, from {{inh|en|ang|ðǣrbig}}, equivalent to {{compound|en|there|by}}. Compare the parallel formation of {{noncog|de|dabei}}.
+
+## thermal
+pos: adjective    phonetic: /ˈθɜːməl/
+现有画面: 保温杯剖面显示内外两层之间隔着保温层
+现有中文: thermal   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*gʷʰer-}} From {{der|en|fr|thermal}}, from {{der|en|la-new|*thermalis}}, from {{der|en|grc|θέρμη||heat}}, from {{der|en|ine-pro|*gʷʰer-||to heat, warm}}.
+
+## thick
+pos: adjective    phonetic: /θɪk/
+现有画面: 厚书的书页堆成高高一叠，侧面明显宽于薄册
+现有中文: thick   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*(s)teg- (pole)}} From {{inh|en|enm|thikke|}}, from {{inh|en|ang|þicce||thick, dense}}, from {{inh|en|gmw-pro|*þikkwī}}, from {{inh|en|gem-pro|*þekuz|t=thick}}, from {{inh|en|ine-pro|*tégus|t=thick}}. {{col-top|2|cog}} Cognate with {{cog|frr|sjok}}, {{m|frr|tjok}}, {{m|frr|tjuk}}, {{m|frr|tschok|t=thick}}, {{cog|stq|tjuk|t=thick}}, {{cog|fy|dik}}, {{m|fy|tuuk|t=thick}}, {{cog|gmw-cfr|deck|t=thick}}, {{cog|cim|dikh}}, {{m|cim|dikhe|t=thick}}, {{cog|nl|dik|t=thick}}, {{cog|de|dick|t=thick}}, {{cog|lb|déck|t=thick}}, {{cog|yi|דיק|t=thick}}, {{cog|da|tyk|t=thick}}, {{cog|ovd|tiokk|t=thick}}, {{cog|fo|tjúkkur|t=thick}}, {{cog|is|þykkur|t=thick}}, {{cog|nb,nn|tjukk}}, {{m|nn|tykk…（已截断）
+
+## thief
+pos: noun    phonetic: /ˈθiːf/
+现有画面: 夜色中有人从窗边拿走物品，留下被拨开的锁
+现有中文: thief   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|thef}}, {{m|enm|theef}}, {{m|enm|þef}}, from {{inh|en|ang|þēof}}, from {{inh|en|gmw-pro|*þeub}}, from {{inh|en|gem-pro|*þeubaz}}. Cognate with {{cog|stq|Tjoof|t=thief}}, {{cog|fy|tsjeaf|t=thief}}, {{cog|nl|dief|t=thief}}, {{cog|nds|Deef}}, {{m|nds|Deev|t=thief}}, {{cog|de|Dieb|t=thief}}, {{cog|da|tyv|t=thief}}, {{cog|sv|tjuv|t=thief}}, {{cog|is|þjófur|t=thief}}.
+
+## thigh
+pos: noun    phonetic: /θaɪ/
+现有画面: 腿部上方的肌肉在运动时收紧，裤料随动作绷起
+现有中文: thigh   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=upper leg|:inh|enm:þigh|tree=1}} [[Image:Gray1238.png|thumb|right|The right '''thigh''' of a human male.]] From {{inh|en|enm|thigh}}, {{m|enm|thegh}}, {{m|enm|thiȝ}}, {{m|enm|theȝhe}}, {{m|enm|þigh}}, {{m|enm|þyȝh}}, from {{inh|en|ang|þēoh}}, {{m|ang|þīoh}}, from {{inh|en|gmw-pro|*þeuh}}, from {{inh|en|gem-pro|*þeuhą}}, from {{inh|en|ine-pro|*tewk-}}. See also {{cog|fy|tsjea}}, {{cog|nl|dij}}, {{cog|gmh|diech}}, {{cog|is|þjó}}; also {{cog|ga|tóin||hind, rump}}, {{cog|lt|táukas||fat}}, {{cog|ru|тук||animal fat}}.
+
+## thin
+pos: adjective    phonetic: /ˈfɪn/
+现有画面: 一张纸的边缘几乎没有厚度，光线从旁边透过
+现有中文: thin   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|thinne}}, {{m|enm|thunne|thünne}}, {{m|enm|thenne}}, from {{inh|en|ang|þynne}}, from {{inh|en|gmw-pro|*þunnī}}, from {{inh|en|gem-pro|*þunnuz|t=thin}} &ndash; compare {{m|gem-pro|*þanjaną||to stretch, spread out}} &ndash; from {{inh|en|ine-pro|*ténh₂us||thin}}, from {{m|ine-pro|*ten-||to stretch}}. Cognate with {{cog|de|dünn}}, {{cog|nl|dun}}, {{cog|fy|tin}}, {{cog|is|þunnur}}, {{cog|da|tynd}}, {{cog|sv|tunn}}, {{cog|la|tenuis}}, {{cog|ga|tanaí}}, {{cog|cy|tenau}}, {{cog|lv|tievs}}, {{cog|pl|cienki}}, {{cog|ru|тонкий}}, {{cog|sa|तनु|tr=tanú||thin}}, {{cog|fa|تنگ|tr=tang|t=narrow}}. {{doublet|en|tenuis}}. Also related to {{m|en|tenuous}}.
+
+## thing
+pos: noun    phonetic: /θɪŋ/
+现有画面: 桌上摆着一个无法立即命名的物件，手指指向它
+现有中文: thing   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:thing|tree=1}} From {{inh|en|enm|thing}}, from {{inh|en|ang|þing}}, from {{inh|en|gmw-pro|*þing}}, from {{inh|en|gem-pro|*þingą}}. Cognate with {{cog|stq|Ding|t=thing}}, {{cog|fy|ting}}, {{m|fy|ding|t=thing}}, {{cog|nl|ding|t=thing}}, {{cog|nds-de|Ding|t=thing}}, {{cog|de|Ding|t=thing}}, {{cog|da,nb,nn,sv|ting|t=thing}}, {{cog|fo|ting|t=parliament, assembly}}, {{cog|is|þing|t=congress, assembly}}, {{cog|sco|hing|t=thing}}. The word originally meant "assembly", then came to mean a specific issue discussed at such an assembly, and ultimately came to mean most broadly "an object". Compare {{noncog|la|rēs}}, also meaning "legal matter", and same transition from {{noncog|la|c…（已截断）
+
+## think
+pos: verb    phonetic: /ˈθɪŋk/
+现有画面: 人托着下巴看向窗外，脑中反复排列几个可能答案
+现有中文: think   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|id=ponder|:inh|enm:thinken|tree=1}} From {{inh|en|enm|thinken}}, {{m|enm|thynken}}, {{m|enm|thenken}}, {{m|enm|thenchen}}, from {{inh|en|ang|þenċan}}, from {{inh|en|gmw-pro|*þankijan}}, from {{inh|en|gem-pro|*þankijaną||to think}}, from {{der|en|ine-pro|*teng-||to think, feel, know|id=think}}. Cognate with {{cog|sco|think}}, {{m|sco|thynk||to think}}, {{cog|frr|teenk}}, {{m|frr|taanke}}, {{m|frr|tanke}}, {{m|frr|tånke||to think}}, {{cog|stq|toanke||to think}}, {{cog|fy|tinke||to think}}, {{cog|nl|denken|}}, {{m|nl|dinken||to think}}, {{cog|af|dink||to think}}, {{cog|nds|denken|}}, {{m|nds|dinken||to think}}, {{cog|de|denken||to think}}, {{cog|da|tænke||to think}}, {{cog|sv|tänka|…（已截断）
+
+## thirst
+pos: noun    phonetic: /θɜːst/
+现有画面: 长途行走后的人盯着水壶，嘴唇因干燥而发白
+现有中文: thirst   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:thirst|tree=1}} From {{inh|en|enm|thirst,thurst}}, from {{inh|en|ang|þurst}}, from {{inh|en|gmw-pro|*þurstu}}, from {{inh|en|gem-pro|*þurstuz}}, from {{der|en|ine-pro|*ters-||dry}}. Germanic cognates include {{cog|goh|thurst}}, {{cog|gmh|durst}}, {{cog|de|Durst}}, {{cog|osx|thurst}}, {{cog|odt|thursti}}, {{cog|dum|dorst}}, {{m|dum|dorste}}, {{cog|nl|dorst}}, {{cog|non|þorsti}} ({{cog|sv|törst}}, {{cog|is|þorsti}}, {{cog|fo|tosti}}, {{cog|da,nb|tørst}}, {{cog|nn|tørste}}). Indo-European cognates include {{cog|grc|τέρσομαι}}, {{cog|sq|djersë||sweat}}, {{cog|sa|तृष्णा|t=desire; thirst}}, {{cog|sa|तृष्यति|tr=tṛ́ṣyati|sc=Deva}}, {{cog|la|terra}}, {{cog|la|torridus}}.
+
+## thirsty
+pos: adjective    phonetic: /ˈθɜːs.ti/
+现有画面: 运动者打开水瓶，连续喝下几大口清水
+现有中文: thirsty   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|thirsty}}, from {{inh|en|ang|þurstiġ}}, from {{inh|en|gmw-pro|*þurstug}}. Equivalent to {{af|en|thirst|-y|id2=adjectival}}. Cognate with {{cog|nl|dorstig}}, {{cog|de|durstig}}.
+
+## thirteen
+pos: noun    phonetic: /ˈthirteen/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 黑板上从一数到十三，最后一个数字被圈出
+现有中文: thirteen   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|thirttene}}, variant (through metathesis) of {{m|enm|thrittene}}, from {{inh|en|ang|þrēotīene}}, from {{inh|en|gem-pro|*þritehun}}, compound of {{m|gem-pro|*þrīz|t=three}} + {{m|gem-pro|*tehun|t=teen}}. Cognate with {{cog|fy|trettjin}}, {{cog|nl|dertien}}, {{cog|de|dreizehn}}, {{cog|da|tretten}}. Equivalent to {{af|en|three|-teen}}.
+
+## thorn
+pos: noun    phonetic: /θɔːn/
+现有画面: 玫瑰茎上长着尖刺，手指靠近时立刻停下
+现有中文: thorn   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|thorn}}, {{m|enm|þorn}}, from {{inh|en|ang|þorn}}, from {{inh|en|gmw-pro|*þorn}}, from {{inh|en|gem-pro|*þurnaz}}, from {{inh|en|ine-pro|*tr̥nós}}, from {{m|ine-pro|*(s)ter-||stiff}}. {{col-top|2|cog}} Near cognates include {{cog|fy|toarn}}, {{cog|nds|Doorn}}, {{cog|nl|doorn}}, {{cog|de|Dorn}}, {{cog|da|-}} and {{cog|no|-}} {{m|nb|torn}}, {{cog|sv|torn}}, {{m|sv|törne}}, {{cog|got|𐌸𐌰𐌿𐍂𐌽𐌿𐍃}}. Further cognates include {{cog|cu|трънъ||thorn}}, {{cog|ru|тёрн}}, {{cog|pl|cierń}}, {{cog|bsh|taňi}}, {{m|bsh|tai|t=thorn}}, {{cog|sa|तृण|tr=tṛ́ṇa|t=grass}}. {{col-bottom}}
+
+## thorough
+pos: adjective    phonetic: /ˈthorough/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 检查员打开箱子底部，逐层查看每个隐藏角落
+现有中文: thorough   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*terh₂-}} From {{inh|en|enm|thoruȝ}}, {{m|enm|þoruȝ}}, from {{inh|en|ang|þuruh}}, a byform of {{inh|en|ang|þurh}}, whence comes {{cog|en|through}}. The adjective derives from the preposition and adverb. The word developed a syllabic form in cases where the word was fully stressed: when it was used as an adverb, adjective, or noun, and less commonly when used as a preposition.
+
+## thought
+pos: noun    phonetic: /θɔːt/
+现有画面: 纸上写着一个念头，旁边还有几次修改留下的痕迹
+现有中文: thought   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{etymon|en|:inh|enm:thought|tree=1}} {{root|en|ine-pro|*teng-|id=think}} From {{inh|en|enm|thought}}, {{m|enm|ithoȝt}}, from {{inh|en|ang|þōht}}, {{m|ang|ġeþōht}}, from {{inh|en|gmw-pro|*þą̄ht}}, from {{inh|en|gem-pro|*þanhtaz}}, {{m|gem-pro|*gaþanhtą||thought}}, from {{der|en|ine-pro|*teng-||to think}}. Cognate with {{cog|sco|thocht||thought}}, {{cog|stq|Toacht||thought}}, {{cog|fy|oandacht|dacht|attention, regard, thought}}, {{cog|nl|gedachte||thought}}, {{cog|de|Andacht|Andacht|reverence, devotion, prayer}}, {{cog|is|þóttur||thought}}. Related to [[thank]], [[think]].
+
+## thoughtful
+pos: adjective    phonetic: /ˈθɔːtfəl/
+现有画面: 人把外套递给受冷的同伴，先注意到对方的需要
+现有中文: thoughtful   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|thoȝtful}}, {{m|enm|thohtful}}, equivalent to {{suffix|en|thought|ful|pos=adjective}}. Compare {{cog|nl|gedachtenvol}}, {{cog|sv|tankfull}}.
+
+## thread
+pos: noun    phonetic: /ˈθred/
+现有画面: 细线穿过针眼，沿着布面形成连续路线
+现有中文: thread   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*terh₁-}} From {{inh|en|enm|thred}}, {{m|enm|þred}}, {{m|enm|threed}}, from {{inh|en|ang|þrǣd}}, from {{inh|en|gem-pro|*þrēduz}}, from {{inh|en|ine-pro||*treh₁-tu-s}}, from {{m|ine-pro|*terh₁-|t=rub, twist}}. {{col-top|2|cog}} Cognate with {{cog|yol|dreade|t=thread}}, {{cog|stq|Träid|t=thread, wire}}, {{cog|cim|draat|t=string, thread}}, {{cog|nl|draad|t=thread, wire}}, {{cog|de|Draht|t=thread, wire}}, {{cog|lb|Drot|t=wire}}, {{cog|da|-}}, {{cog|nb|-}}, {{cog|nn|-}} and {{cog|sv|tråd|t=thread, wire}}, {{cog|fo|tráður|t=thread}}, {{cog|is|þráður|t=thread}}. Non-Germanic cognates include {{cog|sq|dredh|t=twist, turn}}. More at {{m|en|throw}}. {{col-bottom}}
+
+## threat
+pos: noun    phonetic: /θret/
+现有画面: 门下塞进一张警告纸条，收信人紧张地看向门外
+现有中文: threat   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|threte}}, {{m|enm|thret}}, {{m|enm|thrat}}, {{m|enm|thræt}}, {{m|enm|threat}}, from {{inh|en|ang|þrēat||crowd, swarm, troop, army, press; pressure, trouble, calamity, oppression, force, violence, threat}}, from {{inh|en|gem-pro|*þrautaz}}, closely tied to {{cog|gem-pro|*þrautą||displeasure, complaint, grievance, labour, toil}}, from {{der|en|ine-pro|*trewd-||to squeeze, push, press}}. Cognate with {{cog|sco|thret, threte, threit||threat}}, {{cog|gmh|drōz||annoyance, disgust, horror, terror, fright}}, {{cog|gml|drōt||threat, menace, danger}}, {{cog|fo|treyt||struggle, labour, distress}}, {{cog|is|þraut|t=struggle, labour, distress}}, {{cog|be|-}}, {{cog|bg|-}}, {{cog|mk|-}},…（已截断）
+
+## threaten
+pos: verb    phonetic: /ˈθret.n/
+现有画面: 乌云压向农田，农夫望着可能被毁的庄稼
+现有中文: threaten   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*trewd-}} From {{inh|en|enm|thretenen}}, from {{inh|en|ang|þrēatnian|t=to urge, force, compel}}, equivalent to {{suf|en|threat|-en|id2=inchoative}}.
+
+## three
+pos: noun    phonetic: /θriː/
+现有画面: 三只杯子并排放在桌上，数量清楚可数
+现有中文: three   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:thre}} From {{inh|en|enm|thre}}, {{m|enm|threo}}, {{m|enm|thrie}}, {{m|enm|thri}}, from {{inh|en|ang|þrī}}, from {{inh|en|gmw-pro|*þrīʀ}}, from {{inh|en|gem-pro|*þrīz}}, from {{inh|en|ine-pro|*tréyes}}. {{doublet|en|tres|trey}}. Cognate with {{cog|de|drei}}, {{cog|sq|tre}}, {{cog|hy|երեք}}, {{cog|la|trēs}}, {{cog|lv|trīs}}, {{cog|lt|trỹs}}, {{cog|el|τρεῖς}}, {{cog|cu|трьѥ}}, and others.
+
+## threshold
+pos: noun    phonetic: /ˈθreʃəʊld/
+现有画面: 门框下方有一道横木，脚步跨过它便进入房间
+现有中文: threshold   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|enm|threschwolde}}, {{m|enm|threscholde}}, from {{inh|en|ang|þresċold|þresċold, þerxold, þrexwold|doorsill, entryway}}, from {{inh|en|gem-pro|*þreskudlaz}}, {{m|gem-pro|*þreskūþlijaz}}, {{m|gem-pro|*þreskwaþluz}}, from {{der|en|gem-pro|*þreskaną}}, {{m|gem-pro|*þreskwaną|t=to thresh, (originally) to tread}}, from {{der|en|ine-pro|*terh₁-|t=to rub, turn}}. Cognate with {{cog|nds|Drüssel|t=threshold}}, dialectal {{cog|de|Drischaufel}}, {{m|de|Drissufle}}, {{m|de|Trüschübel|t=threshold}}, {{cognate|da|tærskel|t=threshold}}, {{cognate|nb|terskel|t=threshold}}, {{cognate|nn|treskald|t=threshold}}, {{cog|sv|tröskel|t=threshold}}, dialectal {{cog|sv|träskvald|t=threshold}}, {{cog|is|þ…（已截断）
+
+## thrift
+pos: noun    phonetic: /ˈθrɪft/
+现有画面: 购物者比较价格后只买必需品，把零钱收回钱包
+现有中文: thrift   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*terp-}} From {{inh|en|enm|thrift}}, {{m|enm|thryfte}}, {{m|enm|þrift}}, from {{der|en|non|þrift||thriving condition, prosperity}}. Equivalent to {{suffix|en|thrive|t|id2=th}}.
+
+## thrill
+pos: verb    phonetic: /θrɪl/
+现有画面: 过山车从高处突然俯冲，乘客抓紧安全杆
+现有中文: thrill   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|ang|þȳrlian|t=to pierce}}, derived from {{m|ang|þȳrel||hole}} (archaic English {{m|en|thirl#Noun}}). {{doublet|en|thirl#Verb|pos1=verb}}.  ┃  {{blend|en|thread|pos1=v|drill|pos2=v}}.
+
+## thrive
+pos: verb    phonetic: /θrajv/
+现有画面: 获得阳光和水分后，盆栽长出新叶并向上伸展
+现有中文: thrive   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*terp-}} From {{inh|en|enm|thryven}}, {{m|enm|thriven}}, from {{der|en|non|þrífa||to seize, grasp, take hold, prosper}}, from {{der|en|gem-pro|*þrībaną||to seize, prosper}}, from {{der|en|ine-pro|*trep-}}, {{m|ine-pro|*terp-||to satisfy, enjoy}}. Cognate with {{cog|sv|trivas}}, {{cog|da|trives}}, {{cog|nb|trives}}.
+
+## throne
+pos: noun    phonetic: /θrəʊn/
+现有画面: 高台中央摆着王座，台阶下的人保持距离
+现有中文: throne   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{ety|en|:inh|enm:trone}} {{root|en|ine-pro|*dʰer-}} {{inh+|en|enm|trone|id=throne}}, from {{der|en|fro|trone}}, from {{der|en|la|thronus}}, from {{der|en|grc|θρόνος|t=a seat, chair}}. Superseded earlier {{m|en|seld|t=seat, throne}}.
+
+## through
+pos: preposition    phonetic: /ˈthrough/   ← 【是拼写套斜杠，不是音标，需你写英式 IPA】
+现有画面: 小球从管道一端滚入，从另一端穿出
+现有中文: through   ← 是英文词本身，需重写
+词源(Wiktionary 原文): {{root|en|ine-pro|*terh₂-}} From {{inh|en|enm|thrugh}}, {{m|enm|thruch}}, {{m|enm|thruh}}, [[metathetic]] variants of {{m|enm|thurgh}}, {{m|enm|thurh}}, from {{inh|en|ang|þurh}}, from {{inh|en|gem-pro|*þurhw||through}}, from {{inh|en|ine-pro|*tr̥h₂kʷe}}, suffixed zero-grade from {{m|ine-pro|*terh₂-||to pass through}} + {{m|ine-pro|*-kʷe||and}}. {{col-top|2|cog}} Cognate with {{cog|frr|döör||through}}, {{cog|stq|truch||through}}, {{cog|fy|troch||through}}, {{cog|nl|door||through}}, {{cog|de|durch||through}}, {{cog|lb|duerch||through}}, {{cog|vls|deur||through}}, {{cog|yi|דורך||through}}, {{cog|got|𐌸𐌰𐌹𐍂𐌷||through}}, {{cog|la|trans||across, over, through}}, {{cog|sq|tërthor||through, around}}, …（已截断）
+
+## throughout
+pos: preposition    phonetic: /θruːˈaʊt/
+现有画面: 灯光从大厅入口一直照到最里面的房间
+现有中文: throughout   ← 是英文词本身，需重写
+词源(Wiktionary 原文): From {{inh|en|ang|þurh}} {{m|ang|ūt}}, equivalent to {{com|en|through|out}}. Compare {{cog|de|durchaus|t=all the way, fully, absolutely}}.

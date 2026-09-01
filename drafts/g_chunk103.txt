@@ -1,0 +1,37 @@
+# 档位是**线索不是结论**。分档只用 Wiktionary 单源匹配，实测假阳性约 50%、
+# 假阴性约 30%（把该挂根的判成孤立）。两个方向都要核。
+## A 档：疑可挂库中已有词根 —— 核对成立按补词写；不成立退回 B/C 并说明
+empire	# 词元 empire	疑 → par-equal
+engineer	# 词元 enginour	疑 → gen
+exaggerate	# 词元 exaggero	疑 → gerere
+federation	# 词元 foederare	疑 → edere-publish
+fertile	# 词元 fertile	疑 → ferre
+## B 档：拉丁/希腊借词，但匹配器没找到根
+##       **没找到 ≠ 没有**：自己拿词元查 roots.json 的 id/variants/origin
+energetic	# 词元 ενεργητικος	疑 → 
+engagement	# 词元 engagement	疑 → 
+enthusiasm	# 词元 enthousiasme	疑 → 
+environment	# 词元 environnement	疑 → 
+erroneous	# 词元 erroneux	疑 → 
+escort	# 词元 escorte	疑 → 
+estimate	# 词元 aestimo	疑 → 
+evaporate	# 词元 evaporo	疑 → 
+example	# 词元 example	疑 → 
+excerpt	# 词元 excerptus	疑 → 
+exempt	# 词元 exempt	疑 → 
+expand	# 词元 espaundre	疑 → 
+extravagant	# 词元 extravagant	疑 → 
+faint	# 词元 faint	疑 → 
+fantastic	# 词元 fantastique	疑 → 
+festival	# 词元 festival	疑 → 
+## C 档：查不到拉丁/希腊词元 —— 按日耳曼型写，但**也可能判错语系**
+emphasize
+engineering
+escalate
+esteem
+everybody
+everywhere
+exciting
+farther
+fertilizer
+fill
