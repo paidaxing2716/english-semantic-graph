@@ -136,7 +136,7 @@ def main():
         for i, sentence in enumerate(ex):
             if not isinstance(sentence, str) or not sentence.rstrip().endswith((".", "!", "?", "。", "！", "？")):
                 add(critical, wid, f"examples[{i}]", "例句未以句号结束")
-            if isinstance(sentence, str) and not (5 <= len(sentence.rstrip(".").split()) <= 20):
+            if isinstance(sentence, str) and not (4 <= len(sentence.rstrip(".").split()) <= 20):
                 add(suspicious, wid, f"examples[{i}]", "例句词数异常", str(len(sentence.rstrip(".").split())))
         zh = [x.strip() for x in (w.get("chinese") or []) if x.strip()]
         image = w.get("core_image") or ""

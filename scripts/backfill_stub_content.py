@@ -139,7 +139,12 @@ def main():
         for s in ex:
             if not s.endswith((".", "!", "?")):
                 errs.append(f"{name}:{n} {word} 例句未以句号结束：{s[:30]}")
-            if not 5 <= len(s.rstrip(".").split()) <= 20:
+            # 下限 4 而非 5：库内 10536 句里 4 词的有 258 句（2.5%），且全都自然
+            # （Measles is highly infectious. / Time eases grief.）。定 5 时这道门在
+            # 已有数据上报 268 条假警，还逼我在第 35–36 片给 withhold / within /
+            # whatever 那批凑了十二处填充状语——那批词的自然例句本来就是 4 词。
+            # 3 词的仅 10 句，仍拦，那个长度已难看出用法。
+            if not 4 <= len(s.rstrip(".").split()) <= 20:
                 errs.append(f"{name}:{n} {word} 例句词数 {len(s.split())} 越界：{s[:30]}")
         note = entries.classify_note(c[1].strip())
         if note == entries.NOTE_DEFAULT and any(f in c[1] for f in FOREIGN)                 and not any(h in c[1] for h in HEDGE):
