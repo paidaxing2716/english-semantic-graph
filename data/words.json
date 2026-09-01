@@ -167668,25 +167668,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wholly，现代词义按整体记",
-      "native_definition": "a thing or action related to wholly",
-      "core_concept": "a clear scene connected with wholly – 与该词相连的清晰场景",
+      "origin": "中古英语 holly ← holeliche，即 whole ＋ 副词后缀 -ly；与 holy 同形而异源",
+      "native_definition": "completely, with nothing left out",
+      "core_concept": "to the full extent, leaving no part out – 到尽处，一点不剩",
       "core_image": "篮子里的物品已经全部取出，里面没有留下任何东西",
       "chinese": [
-        "wholly"
+        "完全地",
+        "全部地"
       ],
       "examples": [
-        "The wholly changed the situation.",
-        "Researchers discussed the wholly carefully."
+        "The claim is wholly without basis.",
+        "She was wholly responsible for the design."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wholly：从核心场景引出的常用义"
+        "完全地：程度上到顶",
+        "全部地：范围上一个不落"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "why",
@@ -167696,53 +167697,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 why，现代词义按整体记",
-      "native_definition": "a thing or action related to why",
-      "core_concept": "a clear scene connected with why – 与该词相连的清晰场景",
+      "origin": "中古英语 why ← 古英语 hwȳ ← 原始日耳曼语 *hwī（凭什么）← 原始印欧语 *kʷey，是 *kʷís（谁）的工具格",
+      "native_definition": "for what reason",
+      "core_concept": "asking what stands behind a thing – 追问一件事背后是什么",
       "core_image": "黑板上写着一个问题，旁边画出箭头追问事情的原因",
       "chinese": [
-        "why"
+        "为什么",
+        "为何"
       ],
       "examples": [
-        "The why changed the situation.",
-        "Researchers discussed the why carefully."
+        "Why did you change your mind?",
+        "He never explained why he left."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "why：从核心场景引出的常用义"
+        "为什么：口语里问缘由",
+        "为何：书面说法，义同"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wicked",
       "word": "wicked",
       "pos": "adjective",
-      "phonetic": "/ˈwicked/",
+      "phonetic": "/ˈwɪkɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wicked，现代词义按整体记",
-      "native_definition": "a thing or action related to wicked",
-      "core_concept": "a clear scene connected with wicked – 与该词相连的清晰场景",
+      "origin": "中古英语 wicked，是 wikke（邪恶的）的变体，更早词源不明；或出自古英语 wiċċa（术士）的形容词用法",
+      "native_definition": "morally bad, or deliberately cruel",
+      "core_concept": "bad on purpose, taking pleasure in harm – 存心为恶，且以害人为乐",
       "core_image": "故事中的人物故意破坏别人的计划，脸上带着恶意笑容",
       "chinese": [
-        "wicked"
+        "邪恶的",
+        "恶毒的"
       ],
       "examples": [
-        "The wicked changed the situation.",
-        "Researchers discussed the wicked carefully."
+        "The story has a wicked stepmother.",
+        "That was a wicked thing to do."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wicked：从核心场景引出的常用义"
+        "邪恶的：品性上坏",
+        "恶毒的：出手狠，专拣要害"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wide",
@@ -167752,53 +167755,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wide，现代词义按整体记",
-      "native_definition": "a thing or action related to wide",
-      "core_concept": "a clear scene connected with wide – 与该词相连的清晰场景",
+      "origin": "中古英语 wid ← 古英语 wīd（宽的、辽阔的）← 原始日耳曼语 *wīdaz ← 原始印欧语 *h₁weydʰh₁-（分开）",
+      "native_definition": "measuring a lot from side to side",
+      "core_concept": "measuring much from one side across to the other – 从一边量到另一边距离大",
       "core_image": "河流两岸相距很远，船在中间仍看不见另一边细节",
       "chinese": [
-        "wide"
+        "宽的",
+        "广阔的"
       ],
       "examples": [
-        "The wide changed the situation.",
-        "Researchers discussed the wide carefully."
+        "The river is wide at this point.",
+        "She has wide experience in teaching."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wide：从核心场景引出的常用义"
+        "宽的：横向尺寸大",
+        "广阔的：范围铺得开，多形容地或经验"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "widespread",
       "word": "widespread",
       "pos": "adjective",
-      "phonetic": "/ˈwidespread/",
+      "phonetic": "/ˈwaɪdspred/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 widespread，现代词义按整体记",
-      "native_definition": "a thing or action related to widespread",
-      "core_concept": "a clear scene connected with widespread – 与该词相连的清晰场景",
+      "origin": "由 wide ＋ spread 复合而成；wide 一支 ← 古英语 wīd（宽的）← 原始日耳曼语 *wīdaz",
+      "native_definition": "found or happening over a large area",
+      "core_concept": "reaching across a large area rather than one spot – 铺开到一大片，不止一处",
       "core_image": "地图上许多地区同时被涂上同一种颜色，范围不断扩大",
       "chinese": [
-        "widespread"
+        "普遍的",
+        "分布广的"
       ],
       "examples": [
-        "The widespread changed the situation.",
-        "Researchers discussed the widespread carefully."
+        "There is widespread support for the plan.",
+        "Flooding was widespread that winter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "widespread：从核心场景引出的常用义"
+        "普遍的：到处都有，不是个别",
+        "分布广的：所占的地域范围大"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "widow",
@@ -167808,25 +167813,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 widow，现代词义按整体记",
-      "native_definition": "a thing or action related to widow",
-      "core_concept": "a clear scene connected with widow – 与该词相连的清晰场景",
+      "origin": "中古英语 widwe ← 古英语 widuwe ← 原始日耳曼语 *widuwǭ ← 原始印欧语 *h₁widʰéwh₂（寡妇），或出自 *weydʰ-（分开）",
+      "native_definition": "a woman whose husband has died",
+      "core_concept": "a woman left alone by her husband's death – 因丈夫亡故而独自一人的女性",
       "core_image": "葬礼后的人独自坐在空椅上，手里握着已故伴侣的照片",
       "chinese": [
-        "widow"
+        "寡妇",
+        "遗孀"
       ],
       "examples": [
-        "The widow changed the situation.",
-        "Researchers discussed the widow carefully."
+        "The widow sold the farm that autumn.",
+        "She was left a widow at thirty."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "widow：从核心场景引出的常用义"
+        "寡妇：日常说法",
+        "遗孀：偏书面，多用于正式场合"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "width",
@@ -167836,25 +167842,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 width，现代词义按整体记",
-      "native_definition": "a thing or action related to width",
-      "core_concept": "a clear scene connected with width – 与该词相连的清晰场景",
+      "origin": "由 wide ＋ 抽象名词后缀 -th 构成，16 世纪末始见；此前用 wideness",
+      "native_definition": "the distance from one side of something to the other",
+      "core_concept": "how far it is from one side across to the other – 从这一边到那一边有多远",
       "core_image": "尺子横放在箱子两侧，刻度显示两边之间的距离",
       "chinese": [
-        "width"
+        "宽度",
+        "幅宽"
       ],
       "examples": [
-        "The width changed the situation.",
-        "Researchers discussed the width carefully."
+        "Measure the width of the doorway.",
+        "The cloth comes in two widths."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "width：从核心场景引出的常用义"
+        "宽度：横向的那个尺寸",
+        "幅宽：布料等成卷之物的横向宽度"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wife",
@@ -167864,25 +167871,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wife，现代词义按整体记",
-      "native_definition": "a thing or action related to wife",
-      "core_concept": "a clear scene connected with wife – 与该词相连的清晰场景",
+      "origin": "中古英语 wyf ← 古英语 wīf（女子、妻）← 原始西日耳曼语 *wīb ← 原始日耳曼语 *wībą（女子）",
+      "native_definition": "the woman a man is married to",
+      "core_concept": "the woman joined to a man in marriage – 因婚姻与男方结成一对的那位女性",
       "core_image": "婚礼照片中的女性站在伴侣身边，手指戴着戒指",
       "chinese": [
-        "wife"
+        "妻子",
+        "太太"
       ],
       "examples": [
-        "The wife changed the situation.",
-        "Researchers discussed the wife carefully."
+        "His wife teaches at the school.",
+        "She met his wife at the party."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wife：从核心场景引出的常用义"
+        "妻子：正式称法",
+        "太太：口语里对已婚女性的称呼"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wild",
@@ -167892,25 +167900,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wild，现代词义按整体记",
-      "native_definition": "a thing or action related to wild",
-      "core_concept": "a clear scene connected with wild – 与该词相连的清晰场景",
+      "origin": "中古英语 wilde ← 古英语 wilde ← 原始西日耳曼语 *wilþī ← 原始日耳曼语 *wilþijaz（野的）",
+      "native_definition": "living or growing in nature, not tamed or cultivated",
+      "core_concept": "living outside human keeping, and behaving so – 不在人的管束之内，行事也就没了约束",
       "core_image": "未驯服的动物在森林边缘保持距离，不肯靠近人群",
       "chinese": [
-        "wild"
+        "野生的",
+        "荒芜的",
+        "狂暴的"
       ],
       "examples": [
-        "The wild changed the situation.",
-        "Researchers discussed the wild carefully."
+        "Wild deer graze on the hillside.",
+        "The crowd went wild at the final whistle."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wild：从核心场景引出的常用义"
+        "野生的：自然生长、未经驯养",
+        "荒芜的：土地无人耕作而任其自生",
+        "狂暴的：不受约束到近乎失控"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "willing",
@@ -167920,25 +167931,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 willing，现代词义按整体记",
-      "native_definition": "a thing or action related to willing",
-      "core_concept": "a clear scene connected with willing – 与该词相连的清晰场景",
+      "origin": "古英语 willende，是 willan（愿、要）的现在分词；即 will ＋ -ing",
+      "native_definition": "ready to do something without being forced",
+      "core_concept": "ready to act because one chooses to – 出于自己愿意而肯动手",
       "core_image": "志愿者主动举手，随后拿起工具加入工作",
       "chinese": [
-        "willing"
+        "愿意的",
+        "乐意的"
       ],
       "examples": [
-        "The willing changed the situation.",
-        "Researchers discussed the willing carefully."
+        "She is willing to work weekends.",
+        "We need willing hands for the move."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "willing：从核心场景引出的常用义"
+        "愿意的：肯做，不推拒",
+        "乐意的：不但肯做，还高兴去做"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "win",
@@ -167948,53 +167960,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 win，现代词义按整体记",
-      "native_definition": "a thing or action related to win",
-      "core_concept": "a clear scene connected with win – 与该词相连的清晰场景",
+      "origin": "中古英语 winnen ← 古英语 winnan（劳作、争斗）← 原始日耳曼语 *winnaną（争、得）← 原始印欧语 *wenh₁-（求、欲）",
+      "native_definition": "to come first in a contest, or to gain something by effort",
+      "core_concept": "coming out ahead after a struggle – 争过一场之后落在前头",
       "core_image": "终点线前的人冲过彩带，观众举起奖杯欢呼",
       "chinese": [
-        "win"
+        "赢",
+        "获胜",
+        "赢得"
       ],
       "examples": [
-        "The win changed the situation.",
-        "Researchers discussed the win carefully."
+        "They won by two goals.",
+        "She won a place at the college."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "win：从核心场景引出的常用义"
+        "赢：在比赛或较量中占先",
+        "获胜：正式说法，义同",
+        "赢得：靠努力取得某物或某种评价"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wind",
       "word": "wind",
       "pos": "noun",
-      "phonetic": "/ˈwind/",
+      "phonetic": "/wɪnd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wind，现代词义按整体记",
-      "native_definition": "a thing or action related to wind",
-      "core_concept": "a clear scene connected with wind – 与该词相连的清晰场景",
+      "origin": "中古英语 wynd ← 古英语 wind ← 原始日耳曼语 *windaz ← 原始印欧语 *h₂wéh₁n̥tos（风），出自 *h₂weh₁-（吹）的现在分词",
+      "native_definition": "air moving across the land or sea",
+      "core_concept": "air on the move, felt but not seen – 流动着的空气，看不见但感觉得到",
       "core_image": "树叶被看不见的气流吹向同一侧，窗帘随之摆动",
       "chinese": [
-        "wind"
+        "风",
+        "风力"
       ],
       "examples": [
-        "The wind changed the situation.",
-        "Researchers discussed the wind carefully."
+        "A cold wind blew off the sea.",
+        "The wind dropped after midnight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wind：从核心场景引出的常用义"
+        "风：流动的空气",
+        "风力：它所带的那份力量"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "window",
@@ -168004,25 +168020,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 window，现代词义按整体记",
-      "native_definition": "a thing or action related to window",
-      "core_concept": "a clear scene connected with window – 与该词相连的清晰场景",
+      "origin": "中古英语 wyndowe ← 古诺尔斯语 vindauga（字面「风眼」），即 wind ＋ eye；取代了古英语 ēagþȳrel（眼洞）",
+      "native_definition": "an opening in a wall fitted with glass",
+      "core_concept": "an opening in a wall that lets in light and air – 墙上开的口，让光和空气进来",
       "core_image": "墙上开着一块方形空处，玻璃让室内看见外面的树",
       "chinese": [
-        "window"
+        "窗",
+        "窗户"
       ],
       "examples": [
-        "The window changed the situation.",
-        "Researchers discussed the window carefully."
+        "Open the window to let air in.",
+        "Rain streaked the window all night."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "window：从核心场景引出的常用义"
+        "窗：那个开口及其框架",
+        "窗户：日常说法，义同"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wine",
@@ -168032,25 +168049,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wine，现代词义按整体记",
-      "native_definition": "a thing or action related to wine",
-      "core_concept": "a clear scene connected with wine – 与该词相连的清晰场景",
+      "origin": "中古英语 wyn ← 古英语 wīn ← 原始日耳曼语 *wīną ← 原始印欧语 *wóyh₁nom（酒）；一说经拉丁语 vīnum 转入，两说未定",
+      "native_definition": "an alcoholic drink made from grapes",
+      "core_concept": "a drink made by letting grape juice ferment – 让葡萄汁发酵而成的饮品",
       "core_image": "深色液体在玻璃杯中轻轻旋转，杯底留着一圈颜色",
       "chinese": [
-        "wine"
+        "葡萄酒",
+        "酒"
       ],
       "examples": [
-        "The wine changed the situation.",
-        "Researchers discussed the wine carefully."
+        "He opened a bottle of red wine.",
+        "The wine had turned to vinegar."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wine：从核心场景引出的常用义"
+        "葡萄酒：以葡萄酿成的那种酒",
+        "酒：泛指时的简称"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wing",
@@ -168060,53 +168078,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wing，现代词义按整体记",
-      "native_definition": "a thing or action related to wing",
-      "core_concept": "a clear scene connected with wing – 与该词相连的清晰场景",
-      "core_image": "鸟张开一侧翅膀，羽毛从身体边缘向外展开",
+      "origin": "中古英语 winge ← 古诺尔斯语 vængr（翼）← 原始日耳曼语 *wēingijaz ← 原始印欧语 *h₂weh₁-（吹）；与 wind 同支，取代了本土词 fither",
+      "native_definition": "one of the parts a bird or plane uses to fly",
+      "core_concept": "the part pressed against air to lift the body – 压向空气、把身体托起来的那一部分",
+      "core_image": "鸟把身体一侧那片羽毛张开，往下一压就离了地面",
       "chinese": [
-        "wing"
+        "翅膀",
+        "机翼"
       ],
       "examples": [
-        "The wing changed the situation.",
-        "Researchers discussed the wing carefully."
+        "The bird spread its wings.",
+        "Ice formed along the wing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wing：从核心场景引出的常用义"
+        "翅膀：鸟或虫身上用来飞的那对",
+        "机翼：飞机两侧起同样作用的那两片"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wink",
       "word": "wink",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɪŋk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wink，现代词义按整体记",
-      "native_definition": "a thing or action related to wink",
-      "core_concept": "a clear scene connected with wink – 与该词相连的清晰场景",
+      "origin": "中古英语 wynken ← 古英语 wincian（眨眼、示意）← 原始西日耳曼语 *winkōn（闭眼）← 原始印欧语 *weng-（弯、曲）",
+      "native_definition": "to close and open one eye quickly as a signal",
+      "core_concept": "shutting one eye for an instant to pass a signal – 单眼一闭一睁，把意思递过去",
       "core_image": "人快速闭上一只眼又睁开，旁边的人会意微笑",
       "chinese": [
-        "wink"
+        "眨眼",
+        "示意"
       ],
       "examples": [
-        "The wink changed the situation.",
-        "Researchers discussed the wink carefully."
+        "He winked to show he was joking.",
+        "She gave me a quick wink."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wink：从核心场景引出的常用义"
+        "眨眼：单眼快速开合这个动作",
+        "示意：靠这一下把意思传给对方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "winter",
@@ -168116,25 +168136,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 winter，现代词义按整体记",
-      "native_definition": "a thing or action related to winter",
-      "core_concept": "a clear scene connected with winter – 与该词相连的清晰场景",
+      "origin": "中古英语 winter ← 古英语 winter ← 原始西日耳曼语 *wintru ← 原始日耳曼语 *wintruz（冬）",
+      "native_definition": "the coldest season of the year",
+      "core_concept": "the coldest stretch of the year – 一年里最冷的那一段",
       "core_image": "树枝落尽叶片，地面覆盖薄霜，天空显得冷而灰",
       "chinese": [
-        "winter"
+        "冬天",
+        "冬季"
       ],
       "examples": [
-        "The winter changed the situation.",
-        "Researchers discussed the winter carefully."
+        "They spent the winter indoors.",
+        "Winter comes early in the north."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "winter：从核心场景引出的常用义"
+        "冬天：日常说法，指那段时节",
+        "冬季：把它当四季之一说，多用于书面"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wipe",
@@ -168144,25 +168165,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wipe，现代词义按整体记",
-      "native_definition": "a thing or action related to wipe",
-      "core_concept": "a clear scene connected with wipe – 与该词相连的清晰场景",
+      "origin": "中古英语 wipen ← 古英语 wīpian（擦、抹）← 原始西日耳曼语 *wīpōn ← 原始印欧语 *weyp-（缠、绕）",
+      "native_definition": "to clean or dry a surface by moving cloth across it",
+      "core_concept": "passing cloth across a surface to take what is on it off – 拿布在面上抹过，把上面的东西带走",
       "core_image": "布沿桌面移动，把水痕和灰尘一起擦掉",
       "chinese": [
-        "wipe"
+        "擦",
+        "抹去"
       ],
       "examples": [
-        "The wipe changed the situation.",
-        "Researchers discussed the wipe carefully."
+        "Wipe the table before you set it.",
+        "He wiped the data from the disk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wipe：从核心场景引出的常用义"
+        "擦：用布或手在表面抹过",
+        "抹去：把痕迹或记录去掉"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wire",
@@ -168172,25 +168194,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wire，现代词义按整体记",
-      "native_definition": "a thing or action related to wire",
-      "core_concept": "a clear scene connected with wire – 与该词相连的清晰场景",
+      "origin": "中古英语 wir ← 古英语 wīr（金属丝）← 原始日耳曼语 *wīraz ← 原始印欧语 *weh₁iros（拧成的一股）← *weh₁y-（拧、编）",
+      "native_definition": "a thin thread of metal",
+      "core_concept": "metal drawn out into a long thin thread – 金属被抽成细长的一股",
       "core_image": "细金属线从电池连到灯泡，接通后灯光亮起",
       "chinese": [
-        "wire"
+        "金属丝",
+        "电线"
       ],
       "examples": [
-        "The wire changed the situation.",
-        "Researchers discussed the wire carefully."
+        "Bend the wire into a hook.",
+        "A loose wire caused the fault."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wire：从核心场景引出的常用义"
+        "金属丝：拉成细股的金属",
+        "电线：用来导电的那种，多包着绝缘层"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wisdom",
@@ -168200,25 +168223,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wisdom，现代词义按整体记",
-      "native_definition": "a thing or action related to wisdom",
-      "core_concept": "a clear scene connected with wisdom – 与该词相连的清晰场景",
+      "origin": "中古英语 wisdom ← 古英语 wīsdōm ← 原始日耳曼语 *wīsadōmaz，即 wise ＋ -dom",
+      "native_definition": "good judgement built up from experience",
+      "core_concept": "judgement that experience has made sound – 由阅历磨出来的稳当判断",
       "core_image": "老人翻开厚书，听者安静等待他根据经验给出判断",
       "chinese": [
-        "wisdom"
+        "智慧",
+        "明智"
       ],
       "examples": [
-        "The wisdom changed the situation.",
-        "Researchers discussed the wisdom carefully."
+        "He spoke with the wisdom of long practice.",
+        "They questioned the wisdom of the plan."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wisdom：从核心场景引出的常用义"
+        "智慧：能看透事理的那份能力",
+        "明智：具体某个决定合乎道理"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wise",
@@ -168228,81 +168252,88 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wise，现代词义按整体记",
-      "native_definition": "a thing or action related to wise",
-      "core_concept": "a clear scene connected with wise – 与该词相连的清晰场景",
+      "origin": "中古英语 wys ← 古英语 wīs（明智的）← 原始日耳曼语 *wīsaz（有见识的）← 原始印欧语 *wéydos（所见、所知）← *weyd-（看）",
+      "native_definition": "showing good judgement",
+      "core_concept": "judging well because one has seen much – 见得多，所以判断得准",
       "core_image": "人面对两条路线，查看地图后选择更稳妥的一条",
       "chinese": [
-        "wise"
+        "明智的",
+        "有见识的"
       ],
       "examples": [
-        "The wise changed the situation.",
-        "Researchers discussed the wise carefully."
+        "It was wise to leave early.",
+        "She is wise in the ways of the trade."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wise：从核心场景引出的常用义"
+        "明智的：某个决定合乎道理",
+        "有见识的：识见广，看事透"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wish",
       "word": "wish",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɪʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wish，现代词义按整体记",
-      "native_definition": "a thing or action related to wish",
-      "core_concept": "a clear scene connected with wish – 与该词相连的清晰场景",
+      "origin": "中古英语 wisshen ← 古英语 wȳsċan（愿望）← 原始西日耳曼语 *wunskijan ← 原始日耳曼语 *wunskijaną ← 原始印欧语 *wenh₁-（求、爱）",
+      "native_definition": "to feel that one would like something to happen",
+      "core_concept": "holding in mind something one would like to come true – 心里存着一件盼它成真的事",
       "core_image": "孩子闭上眼吹灭蜡烛，心里想着一个愿望",
       "chinese": [
-        "wish"
+        "希望",
+        "心愿",
+        "但愿"
       ],
       "examples": [
-        "The wish changed the situation.",
-        "Researchers discussed the wish carefully."
+        "I wish I had known sooner.",
+        "She made a wish before blowing out the candles."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wish：从核心场景引出的常用义"
+        "希望：盼着某事发生",
+        "心愿：心里存着的那件事本身",
+        "但愿：明知未必如此仍这么盼"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wit",
       "word": "wit",
       "pos": "noun",
-      "phonetic": "/ˈwit/",
+      "phonetic": "/wɪt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wit，现代词义按整体记",
-      "native_definition": "a thing or action related to wit",
-      "core_concept": "a clear scene connected with wit – 与该词相连的清晰场景",
+      "origin": "中古英语 wit ← 古英语 witt（心智、理解力）← 原始日耳曼语 *witją（知识、理智）← *witaną（知）← 原始印欧语 *weyd-（看）",
+      "native_definition": "quick clever humour, or intelligence",
+      "core_concept": "a mind quick enough to turn things on the spot – 脑子快到能就地把话头翻过来",
       "core_image": "谈话者迅速接住双关话，桌边的人立刻笑出声",
       "chinese": [
-        "wit"
+        "机智",
+        "风趣",
+        "才智"
       ],
       "examples": [
-        "The wit changed the situation.",
-        "Researchers discussed the wit carefully."
+        "His wit kept the table laughing.",
+        "She had the wit to say nothing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wit：从核心场景引出的常用义"
+        "机智：临事反应快、应对得当",
+        "风趣：说话有妙处，逗人发笑",
+        "才智：泛指心智上的能力"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "witch",
@@ -168312,25 +168343,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 witch，现代词义按整体记",
-      "native_definition": "a thing or action related to witch",
-      "core_concept": "a clear scene connected with witch – 与该词相连的清晰场景",
+      "origin": "中古英语 wicche ← 古英语 wiċċe（女术士）与 wiċċa（男术士）← 原始日耳曼语 *wikkōną ← 原始印欧语 *weyk-（祝祭、分开）",
+      "native_definition": "a woman thought to have magic powers",
+      "core_concept": "a woman held to work harm by magic – 被认作以法术作祟的女人",
       "core_image": "故事中的人物戴着尖帽，在锅边搅动冒泡的液体",
       "chinese": [
-        "witch"
+        "女巫",
+        "巫婆"
       ],
       "examples": [
-        "The witch changed the situation.",
-        "Researchers discussed the witch carefully."
+        "The story ends with the witch defeated.",
+        "Villagers accused her of being a witch."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "witch：从核心场景引出的常用义"
+        "女巫：施行巫术的女性",
+        "巫婆：口语说法，多带贬义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "withdraw",
@@ -168340,25 +168372,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 withdraw，现代词义按整体记",
-      "native_definition": "a thing or action related to withdraw",
-      "core_concept": "a clear scene connected with withdraw – 与该词相连的清晰场景",
+      "origin": "中古英语 withdrawen，即 with-（离、退）＋ draw（拉）；draw 一支 ← 古英语 dragan（拉）← 原始印欧语 *dʰregʰ-",
+      "native_definition": "to take something back or move back",
+      "core_concept": "pulling back what had been put forward – 把伸出去的收回来",
       "core_image": "手从抽屉里收回，原本伸出的资金也被取回账户",
       "chinese": [
-        "withdraw"
+        "撤回",
+        "取出",
+        "退出"
       ],
       "examples": [
-        "The withdraw changed the situation.",
-        "Researchers discussed the withdraw carefully."
+        "He withdrew his application the next day.",
+        "She withdrew fifty pounds from the account."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "withdraw：从核心场景引出的常用义"
+        "撤回：把已提出的收回",
+        "取出：把存进去的钱款取回",
+        "退出：从某处或某事中抽身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "withhold",
@@ -168368,25 +168403,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 withhold，现代词义按整体记",
-      "native_definition": "a thing or action related to withhold",
-      "core_concept": "a clear scene connected with withhold – 与该词相连的清晰场景",
+      "origin": "中古英语 withholden，即 with-（相对、逆）＋ hold（持）",
+      "native_definition": "to refuse to give something that is due",
+      "core_concept": "holding back what the other side expects to get – 把对方等着要的按在手里不放",
       "core_image": "发放人员把文件扣在手里，没有交给等待者",
       "chinese": [
-        "withhold"
+        "扣留",
+        "不予给出"
       ],
       "examples": [
-        "The withhold changed the situation.",
-        "Researchers discussed the withhold carefully."
+        "They withheld payment until the work was done.",
+        "He withheld his consent without explanation."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "withhold：从核心场景引出的常用义"
+        "扣留：暂不发放、扣在手里",
+        "不予给出：拒绝给予同意或信息"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "within",
@@ -168396,25 +168432,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 within，现代词义按整体记",
-      "native_definition": "a thing or action related to within",
-      "core_concept": "a clear scene connected with within – 与该词相连的清晰场景",
+      "origin": "中古英语 withinne ← 古英语 wiþinnan，即 with ＋ in",
+      "native_definition": "inside, or not beyond a limit",
+      "core_concept": "inside the bounds of something, not past them – 在某个界限里面，没有越过",
       "core_image": "盒子打开后，物品被发现就在内部空间里",
       "chinese": [
-        "within"
+        "在…之内",
+        "不超过"
       ],
       "examples": [
-        "The within changed the situation.",
-        "Researchers discussed the within carefully."
+        "The keys were within the box all along.",
+        "Finish the report within two weeks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "within：从核心场景引出的常用义"
+        "在…之内：处在某个范围里",
+        "不超过：时间或数量不越过那条界"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "without",
@@ -168424,25 +168461,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 without，现代词义按整体记",
-      "native_definition": "a thing or action related to without",
-      "core_concept": "a clear scene connected with without – 与该词相连的清晰场景",
+      "origin": "中古英语 withoute ← 古英语 wiþūtan（字面「在其外侧」），即 with-＋ out；取代了外来词 saunz（← 古法语 sans）",
+      "native_definition": "not having or not using something",
+      "core_concept": "lacking the thing named – 缺着所说的那个",
       "core_image": "桌上的杯子被拿走，盘边只留下空出的地方",
       "chinese": [
-        "without"
+        "没有",
+        "不带",
+        "不经"
       ],
       "examples": [
-        "The without changed the situation.",
-        "Researchers discussed the without carefully."
+        "He left without saying goodbye to anyone.",
+        "I would like tea without sugar, please."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "without：从核心场景引出的常用义"
+        "没有：不具备某物",
+        "不带：随身未携某物",
+        "不经：未经过某个步骤或许可"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "withstand",
@@ -168452,53 +168492,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 withstand，现代词义按整体记",
-      "native_definition": "a thing or action related to withstand",
-      "core_concept": "a clear scene connected with withstand – 与该词相连的清晰场景",
+      "origin": "中古英语 withstanden ← 古英语 wiþstandan ← 原始西日耳曼语 *wiþistandan（抵住），即 with-（逆）＋ stand（立）",
+      "native_definition": "to hold firm against force or pressure",
+      "core_concept": "standing firm against what pushes at you – 顶着推来的力站住不动",
       "core_image": "堤坝挡住洪水冲击，墙体没有被推倒",
       "chinese": [
-        "withstand"
+        "抵住",
+        "经受"
       ],
       "examples": [
-        "The withstand changed the situation.",
-        "Researchers discussed the withstand carefully."
+        "The wall withstood the flood.",
+        "Few materials withstand that heat."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "withstand：从核心场景引出的常用义"
+        "抵住：把外力挡住不让其得手",
+        "经受：承受下来而不损坏"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "witness",
       "word": "witness",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɪt.nɪs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 witness，现代词义按整体记",
-      "native_definition": "a thing or action related to witness",
-      "core_concept": "a clear scene connected with witness – 与该词相连的清晰场景",
+      "origin": "中古英语 witnesse ← 古英语 ġewitnes，即 wit（知）＋ -ness；wit 一支 ← 原始印欧语 *weyd-（看）",
+      "native_definition": "a person who saw something happen, or to see it",
+      "core_concept": "one who saw it and can say so – 亲眼看见、说得出来的那个人",
       "core_image": "站在路边的人看见事故经过，随后向警察描述",
       "chinese": [
-        "witness"
+        "证人",
+        "目击",
+        "见证"
       ],
       "examples": [
-        "The witness changed the situation.",
-        "Researchers discussed the witness carefully."
+        "Two witnesses came forward the following morning.",
+        "She witnessed the whole accident from her window."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "witness：从核心场景引出的常用义"
+        "证人：能作证的那个人",
+        "目击：亲眼看见这件事",
+        "见证：在场看着某事发生并可为之作证"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wolf",
