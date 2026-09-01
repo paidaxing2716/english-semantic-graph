@@ -157000,29 +157000,30 @@
       "id": "summit",
       "word": "summit",
       "pos": "noun",
-      "phonetic": "/ˈsummit/",
+      "phonetic": "/ˈsʌmɪt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 summit，现代词义按整体记",
-      "native_definition": "a thing or action related to summit",
-      "core_concept": "a clear scene connected with summit – 与该词相连的清晰场景",
+      "origin": "中古英语 somet（头、顶）← 盎格鲁诺曼语 sumet／中古法语 sommet ← 古法语 som（最高处）＋ 指小后缀 -et ← 拉丁语 summum（最高处）",
+      "native_definition": "the highest point of a mountain, or a meeting between heads of state",
+      "core_concept": "the highest point, where nothing stands above – 再往上就没有了的那一点",
       "core_image": "登山者站在山峰最高处，脚下云层铺成白色海面",
       "chinese": [
-        "summit"
+        "顶峰",
+        "峰会"
       ],
       "examples": [
-        "The summit changed the situation.",
-        "Researchers discussed the summit carefully."
+        "They reached the summit just after dawn.",
+        "Leaders met at a summit in Geneva."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "summit：从核心场景引出的常用义"
+        "顶峰：山的最高处",
+        "峰会：与会者是各国最高层，故借这个「最高」"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "summon",
@@ -157032,25 +157033,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 summon，现代词义按整体记",
-      "native_definition": "a thing or action related to summon",
-      "core_concept": "a clear scene connected with summon – 与该词相连的清晰场景",
+      "origin": "中古英语 somoundre ← 盎格鲁诺曼语 somoundre ← 古法语 sumundre ← 拉丁语 summonēre（提醒、传唤），由 sub（在下）＋ monēre（提醒）构成",
+      "native_definition": "to order someone officially to come or appear",
+      "core_concept": "an order that brings someone to you – 一声令下，把人叫到跟前",
       "core_image": "门卫按铃召集工作人员，走廊尽头的人快步赶来",
       "chinese": [
-        "summon"
+        "传唤",
+        "召来",
+        "唤起"
       ],
       "examples": [
-        "The summon changed the situation.",
-        "Researchers discussed the summon carefully."
+        "He was summoned to appear in court.",
+        "She summoned the courage to speak up."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "summon：从核心场景引出的常用义"
+        "传唤：官方要人到场，多用于法庭",
+        "召来：把人叫到自己这里",
+        "唤起：把「叫出来」用在勇气或记忆上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "sun",
@@ -157060,25 +157064,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sun，现代词义按整体记",
-      "native_definition": "a thing or action related to sun",
-      "core_concept": "a clear scene connected with sun – 与该词相连的清晰场景",
+      "origin": "中古英语 sonne ← 古英语 sunne ← 原始日耳曼语 *sunnǭ（太阳）← 原始印欧语 *sóh₂wl̥（太阳）",
+      "native_definition": "the star that gives light and heat to the earth",
+      "core_concept": "the one body whose light and heat reach everything here – 光与热照到这里一切事物的那个天体",
       "core_image": "金色圆盘从地平线升起，光线铺满屋顶和树梢",
       "chinese": [
-        "sun"
+        "太阳",
+        "日光"
       ],
       "examples": [
-        "The sun changed the situation.",
-        "Researchers discussed the sun carefully."
+        "The sun rose behind the hills.",
+        "Sit out of the sun for a while."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sun：从核心场景引出的常用义"
+        "太阳：那个天体本身",
+        "日光：它照下来的那份光与热"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sunrise",
@@ -157088,25 +157093,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sunrise，现代词义按整体记",
-      "native_definition": "a thing or action related to sunrise",
-      "core_concept": "a clear scene connected with sunrise – 与该词相连的清晰场景",
+      "origin": "中古英语 sonne-rys，即 sun ＋ rise；两支均出古英语（sunne 太阳、rīsan 升起）",
+      "native_definition": "the time when the sun first appears in the morning",
+      "core_concept": "the moment the sun's edge clears the horizon – 日轮刚越过地平线那一刻",
       "core_image": "天边由深蓝变成橙红，第一束光越过远山",
       "chinese": [
-        "sunrise"
+        "日出",
+        "黎明"
       ],
       "examples": [
-        "The sunrise changed the situation.",
-        "Researchers discussed the sunrise carefully."
+        "We set off before sunrise.",
+        "The sky turns orange at sunrise."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sunrise：从核心场景引出的常用义"
+        "日出：太阳露出来这件事或这个时刻",
+        "黎明：天开始亮的那一段，稍宽于日出一瞬"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sunset",
@@ -157116,25 +157122,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sunset，现代词义按整体记",
-      "native_definition": "a thing or action related to sunset",
-      "core_concept": "a clear scene connected with sunset – 与该词相连的清晰场景",
+      "origin": "中古英语 son-sett，即 sun ＋ set；1393 年前已见于 Gower 的《情人的忏悔》",
+      "native_definition": "the time when the sun goes down in the evening",
+      "core_concept": "the moment the sun's edge drops below the horizon – 日轮沉到地平线以下那一刻",
       "core_image": "夕阳沉到海面下，天空和云边染成深红",
       "chinese": [
-        "sunset"
+        "日落",
+        "黄昏"
       ],
       "examples": [
-        "The sunset changed the situation.",
-        "Researchers discussed the sunset carefully."
+        "The boat returned at sunset.",
+        "Clouds glowed red after sunset."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sunset：从核心场景引出的常用义"
+        "日落：太阳落下这件事或这个时刻",
+        "黄昏：日落前后天色转暗的那一段"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sunshine",
@@ -157144,25 +157151,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sunshine，现代词义按整体记",
-      "native_definition": "a thing or action related to sunshine",
-      "core_concept": "a clear scene connected with sunshine – 与该词相连的清晰场景",
-      "core_image": "窗帘拉开后，大片阳光落在地板和桌面",
+      "origin": "由 sun ＋ shine 复合而成；1250 年前后已见于中古英语 sunnesine",
+      "native_definition": "the light and warmth that come directly from the sun",
+      "core_concept": "the sun's light falling on things and warming them – 日光落到东西上，同时带来暖意",
+      "core_image": "窗帘一拉开，地板和桌面立刻亮成一片，暖得能感到",
       "chinese": [
-        "sunshine"
+        "阳光",
+        "晴好天气"
       ],
       "examples": [
-        "The sunshine changed the situation.",
-        "Researchers discussed the sunshine carefully."
+        "The children played in the sunshine.",
+        "We had three days of sunshine."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sunshine：从核心场景引出的常用义"
+        "阳光：直接照下来的那份光",
+        "晴好天气：整片天都放晴的那种日子"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "super",
@@ -157172,25 +157180,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 super，现代词义按整体记",
-      "native_definition": "a thing or action related to super",
-      "core_concept": "a clear scene connected with super – 与该词相连的清晰场景",
+      "origin": "截自 super-（在上、超出）← 中古英语 super- ← 拉丁语 super（在上）；与 over、hyper 同源",
+      "native_definition": "very good, or greater than usual",
+      "core_concept": "placed above the ordinary level – 高出一般水准之上",
       "core_image": "红色披风在风中展开，人物站在高处俯看街道",
       "chinese": [
-        "super"
+        "极好的",
+        "超级的"
       ],
       "examples": [
-        "The super changed the situation.",
-        "Researchers discussed the super carefully."
+        "That was a super idea.",
+        "He has super reflexes for his age."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "super：从核心场景引出的常用义"
+        "极好的：好到超出寻常",
+        "超级的：程度或规模比同类都大"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "supermarket",
@@ -157200,53 +157209,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 supermarket，现代词义按整体记",
-      "native_definition": "a thing or action related to supermarket",
-      "core_concept": "a clear scene connected with supermarket – 与该词相连的清晰场景",
+      "origin": "美国英语 1933 年造词，由 super-（超出）＋ market（市场）构成；market 一支 ← 古法语 marchié ← 拉丁语 mercatus",
+      "native_definition": "a large shop selling food and household goods, where customers serve themselves",
+      "core_concept": "a shop so large that customers fetch goods themselves – 铺面大到顾客自己取货",
       "core_image": "推车沿着货架通道前进，顾客比较不同商品",
       "chinese": [
-        "supermarket"
+        "超市",
+        "超级市场"
       ],
       "examples": [
-        "The supermarket changed the situation.",
-        "Researchers discussed the supermarket carefully."
+        "She buys her vegetables at the supermarket.",
+        "The supermarket opens at eight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "supermarket：从核心场景引出的常用义"
+        "超市：日常简称",
+        "超级市场：全称，指这种自助的大型商店"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "supersonic",
       "word": "supersonic",
       "pos": "adjective",
-      "phonetic": "/ˈsupersonic/",
+      "phonetic": "/ˌsuːpəˈsɒnɪk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 supersonic，现代词义按整体记",
-      "native_definition": "a thing or action related to supersonic",
-      "core_concept": "a clear scene connected with supersonic – 与该词相连的清晰场景",
+      "origin": "由 super-（超出）＋ sonic（声音的）构成；sonic 一支 ← 拉丁语 sonus（声音）",
+      "native_definition": "faster than the speed of sound",
+      "core_concept": "moving faster than sound itself travels – 走得比声音本身还快",
       "core_image": "测试飞机冲过跑道，尾部留下尖锐的音爆波纹",
       "chinese": [
-        "supersonic"
+        "超音速的"
       ],
       "examples": [
-        "The supersonic changed the situation.",
-        "Researchers discussed the supersonic carefully."
+        "The jet made a supersonic pass over the field.",
+        "Supersonic travel is very costly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "supersonic：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "supper",
@@ -157256,53 +157263,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 supper，现代词义按整体记",
-      "native_definition": "a thing or action related to supper",
-      "core_concept": "a clear scene connected with supper – 与该词相连的清晰场景",
+      "origin": "中古英语 soper ← 古法语 soper（进晚餐）← sope（汤），本义是喝汤那一餐",
+      "native_definition": "a light evening meal, usually the last of the day",
+      "core_concept": "the last and lighter meal of the day – 一天里最后那顿，且吃得轻",
       "core_image": "夜里餐桌摆好热汤和面包，家人围坐下来",
       "chinese": [
-        "supper"
+        "晚餐",
+        "夜宵"
       ],
       "examples": [
-        "The supper changed the situation.",
-        "Researchers discussed the supper carefully."
+        "We had soup and bread for supper.",
+        "She left a plate of supper on the stove."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "supper：从核心场景引出的常用义"
+        "晚餐：晚上那一餐",
+        "夜宵：更晚、更轻的那一顿"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "surge",
       "word": "surge",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/sɜːdʒ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 surge，现代词义按整体记",
-      "native_definition": "a thing or action related to surge",
-      "core_concept": "a clear scene connected with surge – 与该词相连的清晰场景",
+      "origin": "中古英语 surgen ← 古法语 surgir（升起、涌上）← 拉丁语 surgō（立起、涌起），由 sub（自下）＋ regō（伸直）构成",
+      "native_definition": "a sudden powerful rush forward or upward",
+      "core_concept": "a mass rising and rushing all at once – 一股东西同时抬起来向前扑",
       "core_image": "海水突然越过堤岸，浪头向街道猛地涌来",
       "chinese": [
-        "surge"
+        "激增",
+        "涌动",
+        "猛涨"
       ],
       "examples": [
-        "The surge changed the situation.",
-        "Researchers discussed the surge carefully."
+        "A surge of water broke over the wall.",
+        "There was a surge in demand for masks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "surge：从核心场景引出的常用义"
+        "激增：数量突然大幅抬升",
+        "涌动：水或人群成股地向前挤",
+        "猛涨：价格或水位一下抬高"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "surgeon",
@@ -157312,25 +157323,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 surgeon，现代词义按整体记",
-      "native_definition": "a thing or action related to surgeon",
-      "core_concept": "a clear scene connected with surgeon – 与该词相连的清晰场景",
+      "origin": "中古英语 surgien ← 盎格鲁诺曼语 surgien ← 通俗拉丁语 *chirurgianus ← 拉丁语 chirurgus ← 希腊语 kheirourgos（动手做的人），由 kheir（手）＋ ergon（活儿）构成",
+      "native_definition": "a doctor who treats illness or injury by cutting into the body",
+      "core_concept": "a doctor whose treatment is done with the hands and a blade – 靠手与刀施治的医生",
       "core_image": "手术室里医生戴着手套，器械按顺序摆在托盘上",
       "chinese": [
-        "surgeon"
+        "外科医生"
       ],
       "examples": [
-        "The surgeon changed the situation.",
-        "Researchers discussed the surgeon carefully."
+        "The surgeon explained the risks beforehand.",
+        "She trained as a heart surgeon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "surgeon：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "surgery",
@@ -157340,25 +157348,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 surgery，现代词义按整体记",
-      "native_definition": "a thing or action related to surgery",
-      "core_concept": "a clear scene connected with surgery – 与该词相连的清晰场景",
-      "core_image": "明亮手术灯照着手术台，护士逐项递上器械",
+      "origin": "中古英语 surgerie ← 古法语 surgerie ← 拉丁语 chirurgia ← 希腊语 kheirourgia（手工操作），由 kheir（手）＋ ergon（活儿）构成",
+      "native_definition": "medical treatment in which a doctor cuts into the body",
+      "core_concept": "treatment carried out by cutting into the body – 靠切开身体来施行的治疗",
+      "core_image": "无影灯照着台面，医生下刀切开病处，护士逐件递上器械",
       "chinese": [
-        "surgery"
+        "手术",
+        "外科"
       ],
       "examples": [
-        "The surgery changed the situation.",
-        "Researchers discussed the surgery carefully."
+        "She needs surgery on her knee.",
+        "He works in the surgery department."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "surgery：从核心场景引出的常用义"
+        "手术：具体的那一次切治",
+        "外科：以这种治法为主的医学分支"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "surname",
@@ -157368,25 +157377,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 surname，现代词义按整体记",
-      "native_definition": "a thing or action related to surname",
-      "core_concept": "a clear scene connected with surname – 与该词相连的清晰场景",
-      "core_image": "名单上名字后面统一写着家族姓氏",
+      "origin": "中古英语 surname，部分仿译古法语 surnum（附加之名）← 晚期拉丁语 supernomen，由 super-（在上、附加）＋ nomen（名）构成",
+      "native_definition": "the family name shared by members of a household",
+      "core_concept": "the part of a name that comes from the family, not the person – 名字里承自家族而非属于个人的那一半",
+      "core_image": "名单上每人的名字后面都跟着同一个字，那是随父辈传下来的那半截",
       "chinese": [
-        "surname"
+        "姓氏",
+        "姓"
       ],
       "examples": [
-        "The surname changed the situation.",
-        "Researchers discussed the surname carefully."
+        "Please write your surname in capitals.",
+        "They share a surname but are not related."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "surname：从核心场景引出的常用义"
+        "姓氏：家族传下来的那部分名称",
+        "姓：同义的单字说法，多与「名」对举"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "surrender",
@@ -157396,53 +157406,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 surrender，现代词义按整体记",
-      "native_definition": "a thing or action related to surrender",
-      "core_concept": "a clear scene connected with surrender – 与该词相连的清晰场景",
+      "origin": "中古英语 surrendren ← 古法语 surrendre，由 sur-（在上）＋ rendre（交还）构成；取代了古英语 on hand gān",
+      "native_definition": "to stop fighting and give oneself up to the enemy",
+      "core_concept": "handing yourself or your hold over to the other side – 把自己或手里握着的交到对方手上",
       "core_image": "士兵放下武器举起双手，向对面的队伍走去",
       "chinese": [
-        "surrender"
+        "投降",
+        "放弃",
+        "交出"
       ],
       "examples": [
-        "The surrender changed the situation.",
-        "Researchers discussed the surrender carefully."
+        "The garrison surrendered at dawn.",
+        "He refused to surrender his passport."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "surrender：从核心场景引出的常用义"
+        "投降：停止抵抗，把自己交出去",
+        "放弃：把原本坚持的松开手",
+        "交出：把具体之物移交对方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "survey",
       "word": "survey",
-      "pos": "noun",
-      "phonetic": "/ˈsurvey/",
+      "pos": "noun / verb",
+      "phonetic": "/ˈsɜːveɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 survey，现代词义按整体记",
-      "native_definition": "a thing or action related to survey",
-      "core_concept": "a clear scene connected with survey – 与该词相连的清晰场景",
+      "origin": "中古英语 surveyen ← 古法语 surveer（俯看、监看），由 sur-（在上）＋ veoir（看）构成 ← 拉丁语 vidēre（看）",
+      "native_definition": "a careful examination or measuring of something, or a set of questions put to many people",
+      "core_concept": "looking over the whole of something from above – 从高处把整片看过一遍",
       "core_image": "测量员沿田地插下标杆，逐点记录地形",
       "chinese": [
-        "survey"
+        "调查",
+        "勘测",
+        "概览"
       ],
       "examples": [
-        "The survey changed the situation.",
-        "Researchers discussed the survey carefully."
+        "The survey covered two thousand households.",
+        "Engineers made a survey of the site."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "survey：从核心场景引出的常用义"
+        "调查：逐项问过、记下，得出整体情况",
+        "勘测：对地形逐点实测",
+        "概览：先整体看一遍，不究细节"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "survival",
@@ -157452,25 +157468,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 survival，现代词义按整体记",
-      "native_definition": "a thing or action related to survival",
-      "core_concept": "a clear scene connected with survival – 与该词相连的清晰场景",
+      "origin": "由 survive ＋ -al 构成；survive 一支 ← 古法语 survivre ← 晚期拉丁语 supervivere（活得比…长）",
+      "native_definition": "the state of continuing to live or exist, especially after danger",
+      "core_concept": "still being there after what should have ended it – 该结束的没结束，仍在那里",
       "core_image": "荒野中的人点燃小火，把有限食物分成几份",
       "chinese": [
-        "survival"
+        "生存",
+        "存活",
+        "残存之物"
       ],
       "examples": [
-        "The survival changed the situation.",
-        "Researchers discussed the survival carefully."
+        "Their survival depended on finding water.",
+        "The custom is a survival from medieval times."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "survival：从核心场景引出的常用义"
+        "生存：维持活着这件事",
+        "存活：经过险境仍活下来",
+        "残存之物：旧时留到今天的遗存"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "survive",
@@ -157480,25 +157499,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 survive，现代词义按整体记",
-      "native_definition": "a thing or action related to survive",
-      "core_concept": "a clear scene connected with survive – 与该词相连的清晰场景",
+      "origin": "盎格鲁诺曼语 survivre／古法语 survivre ← 晚期拉丁语 supervivere（活得更久），由 super（在上、超过）＋ vivere（活）构成",
+      "native_definition": "to continue to live or exist after a difficult or dangerous event",
+      "core_concept": "living on past the thing that could have ended you – 越过那件本可要命的事继续活着",
       "core_image": "洪水退去后，树顶的小屋和里面的人仍然完好",
       "chinese": [
-        "survive"
+        "存活",
+        "幸存",
+        "比…活得久"
       ],
       "examples": [
-        "The survive changed the situation.",
-        "Researchers discussed the survive carefully."
+        "Only two passengers survived the crash.",
+        "The tree survived three hard winters."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "survive：从核心场景引出的常用义"
+        "存活：继续活下来",
+        "幸存：在灾祸中未死的那一部分",
+        "比…活得久：本义即「活得超过」，可接对象"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "swallow",
@@ -157508,25 +157530,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swallow，现代词义按整体记",
-      "native_definition": "a thing or action related to swallow",
-      "core_concept": "a clear scene connected with swallow – 与该词相连的清晰场景",
+      "origin": "中古英语 swolwen ← 古英语 swelgan（吞）← 原始日耳曼语 *swelganą（吞、大嚼）← 原始印欧语 *swelk-（咽下）",
+      "native_definition": "to make food or drink go down the throat",
+      "core_concept": "sending something down the throat in one movement – 一动把东西送下喉咙",
       "core_image": "鸟把食物吞下，喉咙处出现一次明显的动作",
       "chinese": [
-        "swallow"
+        "咽下",
+        "吞食",
+        "燕子"
       ],
       "examples": [
-        "The swallow changed the situation.",
-        "Researchers discussed the swallow carefully."
+        "He swallowed the pill with water.",
+        "Swallows nest under the eaves each spring."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swallow：从核心场景引出的常用义"
+        "咽下：把口中之物送进食道",
+        "吞食：整个咽下，不加咀嚼",
+        "燕子：另一支同形异源的词，指那种尾开如叉的小鸟"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swamp",
@@ -157536,25 +157561,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swamp，现代词义按整体记",
-      "native_definition": "a thing or action related to swamp",
-      "core_concept": "a clear scene connected with swamp – 与该词相连的清晰场景",
+      "origin": "英语 swamp 1624 年始见于北美记载，或借自荷兰语 zwamp（沼泽）；与中古低地德语 swamp（海绵、菌）同族，更早词源不明",
+      "native_definition": "an area of low wet ground, often with trees or reeds",
+      "core_concept": "low ground so soaked that water stands on it – 低洼地泡得水停在上面",
       "core_image": "低地积满浑水和泥浆，芦苇从水面间长出",
       "chinese": [
-        "swamp"
+        "沼泽",
+        "湿地",
+        "淹没"
       ],
       "examples": [
-        "The swamp changed the situation.",
-        "Researchers discussed the swamp carefully."
+        "Mosquitoes bred in the swamp behind the house.",
+        "We were swamped with applications."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swamp：从核心场景引出的常用义"
+        "沼泽：积水不去、泥软的低地",
+        "湿地：同类地貌的通称",
+        "淹没：把「水漫上来」用到事务上，指多到应付不过来"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自荷兰语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "swan",
@@ -157564,81 +157592,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swan，现代词义按整体记",
-      "native_definition": "a thing or action related to swan",
-      "core_concept": "a clear scene connected with swan – 与该词相连的清晰场景",
+      "origin": "中古英语 swan ← 古英语 swan ← 原始日耳曼语 *swanaz（天鹅，字面「会鸣的鸟」）← 原始印欧语 *swenh₂-（发声、歌唱）",
+      "native_definition": "a large white water bird with a long neck",
+      "core_concept": "a large white water bird whose neck curves long and high – 颈长而弯的大型白色水鸟",
       "core_image": "白色水鸟划过湖面，长颈弯向翅膀整理羽毛",
       "chinese": [
-        "swan"
+        "天鹅"
       ],
       "examples": [
-        "The swan changed the situation.",
-        "Researchers discussed the swan carefully."
+        "A swan glided across the still water.",
+        "Swans nest by the far bank."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "swan：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swarm",
       "word": "swarm",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/swɔːm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swarm，现代词义按整体记",
-      "native_definition": "a thing or action related to swarm",
-      "core_concept": "a clear scene connected with swarm – 与该词相连的清晰场景",
+      "origin": "中古英语 swarm ← 古英语 swearm（群、众）← 原始日耳曼语 *swarmaz（群）← 原始印欧语 *swer-（嗡鸣）",
+      "native_definition": "a large group of insects or people moving together",
+      "core_concept": "many small things moving as one mass, with a hum – 许多小东西成团一起动，还带着嗡声",
       "core_image": "成群昆虫绕着花丛飞动，空中形成一团黑影",
       "chinese": [
-        "swarm"
+        "一群",
+        "蜂群",
+        "成群涌来"
       ],
       "examples": [
-        "The swarm changed the situation.",
-        "Researchers discussed the swarm carefully."
+        "A swarm of bees settled on the branch.",
+        "Tourists swarmed through the narrow lanes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swarm：从核心场景引出的常用义"
+        "一群：数量多、聚成一团的那批",
+        "蜂群：特指蜜蜂聚成的那团",
+        "成群涌来：把这团东西的移动当动作说"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sway",
       "word": "sway",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈsweɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sway，现代词义按整体记",
-      "native_definition": "a thing or action related to sway",
-      "core_concept": "a clear scene connected with sway – 与该词相连的清晰场景",
+      "origin": "英语 sway 出自早期 swey（倾倒、晃倒）← 中古英语 sweyen ← 古英语 *swǣġan（弯、倾）← 原始日耳曼语 *swaigijaną",
+      "native_definition": "to move slowly from side to side",
+      "core_concept": "leaning to one side and back again without leaving the spot – 不离原处，只往两边来回倾",
       "core_image": "高树在强风中左右摆动，根部仍牢牢抓住土壤",
       "chinese": [
-        "sway"
+        "摇晃",
+        "晃动",
+        "左右影响"
       ],
       "examples": [
-        "The sway changed the situation.",
-        "Researchers discussed the sway carefully."
+        "The branches swayed in the wind.",
+        "His speech swayed several undecided voters."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sway：从核心场景引出的常用义"
+        "摇晃：整体左右来回倾",
+        "晃动：幅度小些的同一动作",
+        "左右影响：把「使之倾向一边」用到人的立场上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swear",
@@ -157648,25 +157679,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swear，现代词义按整体记",
-      "native_definition": "a thing or action related to swear",
-      "core_concept": "a clear scene connected with swear – 与该词相连的清晰场景",
+      "origin": "中古英语 sweren ← 古英语 swerian（起誓、就职宣誓）← 原始日耳曼语 *swarjaną（说、起誓）← 原始印欧语 *swer-（起誓）",
+      "native_definition": "to make a solemn promise, or to use offensive language",
+      "core_concept": "putting words out under a weight one is bound to – 把话说出来，同时把自己压在那句话上",
       "core_image": "宣誓者举起手，在众人面前郑重保证",
       "chinese": [
-        "swear"
+        "发誓",
+        "立誓",
+        "骂脏话"
       ],
       "examples": [
-        "The swear changed the situation.",
-        "Researchers discussed the swear carefully."
+        "He swore to tell the whole truth.",
+        "She swore loudly when the glass broke."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swear：从核心场景引出的常用义"
+        "发誓：郑重许下，自任其责",
+        "立誓：多用于就职或入会这类正式场合",
+        "骂脏话：同一个词的另一层，指出口不敬的话"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sweat",
@@ -157676,25 +157710,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sweat，现代词义按整体记",
-      "native_definition": "a thing or action related to sweat",
-      "core_concept": "a clear scene connected with sweat – 与该词相连的清晰场景",
+      "origin": "中古英语 swete ← 古英语 swāt ← 原始日耳曼语 *swaitą ← 原始印欧语 *sweyd-（出汗）",
+      "native_definition": "the salty liquid that comes out of the skin when hot or working hard",
+      "core_concept": "salty water the skin puts out to cool the body – 皮肤放出的咸水，为的是把身上的热带走",
       "core_image": "额头上的汗珠沿脸颊滑下，运动员用手背擦去",
       "chinese": [
-        "sweat"
+        "汗",
+        "汗水",
+        "出汗"
       ],
       "examples": [
-        "The sweat changed the situation.",
-        "Researchers discussed the sweat carefully."
+        "Sweat ran down his back as he dug.",
+        "She wiped the sweat from her forehead."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sweat：从核心场景引出的常用义"
+        "汗：那种液体本身",
+        "汗水：同义，偏重成滴流下的样子",
+        "出汗：把这件事当动作说"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sweater",
@@ -157704,25 +157741,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sweater，现代词义按整体记",
-      "native_definition": "a thing or action related to sweater",
-      "core_concept": "a clear scene connected with sweater – 与该词相连的清晰场景",
+      "origin": "中古英语 swētere，即 sweat ＋ -er；sweat 一支 ← 古英语 swāt（汗）← 原始日耳曼语 *swaitą",
+      "native_definition": "a warm knitted garment for the upper body",
+      "core_concept": "a knitted garment worn to keep the body warm – 织出来的一件，穿着为的是留住体温",
       "core_image": "厚针织衣服挂在椅背上，袖口垂到座面",
       "chinese": [
-        "sweater"
+        "毛衣",
+        "针织衫"
       ],
       "examples": [
-        "The sweater changed the situation.",
-        "Researchers discussed the sweater carefully."
+        "He pulled a thick sweater over his head.",
+        "That sweater shrank in the wash."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sweater：从核心场景引出的常用义"
+        "毛衣：用毛线织的那种",
+        "针织衫：泛指这类以织法成形的上衣"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sweep",
@@ -157732,25 +157770,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sweep，现代词义按整体记",
-      "native_definition": "a thing or action related to sweep",
-      "core_concept": "a clear scene connected with sweep – 与该词相连的清晰场景",
+      "origin": "中古英语 swepen ← 原始西日耳曼语 *swaipijan（挥、扫，古英语未见记载）← 原始日耳曼语 *swaipijaną",
+      "native_definition": "to clean a floor by pushing dust along with a brush",
+      "core_concept": "pushing something along a surface in one long motion – 沿表面一路推过去，动作长而连贯",
       "core_image": "扫帚从地面推过，把碎屑聚成一条长堆",
       "chinese": [
-        "sweep"
+        "扫",
+        "清除",
+        "掠过"
       ],
       "examples": [
-        "The sweep changed the situation.",
-        "Researchers discussed the sweep carefully."
+        "She swept the kitchen floor.",
+        "Searchlights swept across the water."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sweep：从核心场景引出的常用义"
+        "扫：用帚把碎屑推到一处",
+        "清除：把一片范围内的东西全推走",
+        "掠过：光或视线沿表面一路扫过"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "sweet",
@@ -157760,25 +157801,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 sweet，现代词义按整体记",
-      "native_definition": "a thing or action related to sweet",
-      "core_concept": "a clear scene connected with sweet – 与该词相连的清晰场景",
+      "origin": "中古英语 swete ← 古英语 swēte ← 原始日耳曼语 *swōtuz（甜的）← 原始印欧语 *sweh₂dus（甜的）",
+      "native_definition": "tasting of sugar, or pleasing to the senses",
+      "core_concept": "the taste sugar gives, and anything as pleasing as it – 糖给出的那种味道，以及一切同样悦人的",
       "core_image": "蜂蜜滴在舌尖，品尝者的眉眼立刻放松",
       "chinese": [
-        "sweet"
+        "甜的",
+        "悦人的",
+        "温柔的"
       ],
       "examples": [
-        "The sweet changed the situation.",
-        "Researchers discussed the sweet carefully."
+        "The tea is too sweet for me.",
+        "She has a sweet voice."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "sweet：从核心场景引出的常用义"
+        "甜的：味觉上像糖的",
+        "悦人的：把这份好味挪到声音或气味上",
+        "温柔的：把它用到人的性情与举止上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swell",
@@ -157788,25 +157832,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swell，现代词义按整体记",
-      "native_definition": "a thing or action related to swell",
-      "core_concept": "a clear scene connected with swell – 与该词相连的清晰场景",
+      "origin": "中古英语 swellen ← 古英语 swellan（膨胀）← 原始日耳曼语 *swellaną（涨大），更早词源不明",
+      "native_definition": "to become larger or rounder than before",
+      "core_concept": "growing outward until it takes up more room – 向外长开，占的地方变多",
       "core_image": "雨水进入河道，水面越过岸边逐渐升高",
       "chinese": [
-        "swell"
+        "膨胀",
+        "肿起",
+        "上涨"
       ],
       "examples": [
-        "The swell changed the situation.",
-        "Researchers discussed the swell carefully."
+        "His ankle swelled after the fall.",
+        "The river swelled with melted snow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swell：从核心场景引出的常用义"
+        "膨胀：整体变大变鼓",
+        "肿起：身体某处因伤病而鼓起",
+        "上涨：水位或数量抬高，同是「变大」"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swift",
@@ -157816,25 +157863,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 swift，现代词义按整体记",
-      "native_definition": "a thing or action related to swift",
-      "core_concept": "a clear scene connected with swift – 与该词相连的清晰场景",
+      "origin": "中古英语 swift ← 古英语 swift（快的）← 原始日耳曼语 *swiftaz（快）← 原始印欧语 *(s)weyp-（旋、绕）",
+      "native_definition": "moving or happening very quickly",
+      "core_concept": "covering the distance in very little time – 用极短的时间走完那段距离",
       "core_image": "小鸟贴着水面快速掠过，翅膀几乎看不清",
       "chinese": [
-        "swift"
+        "迅速的",
+        "敏捷的"
       ],
       "examples": [
-        "The swift changed the situation.",
-        "Researchers discussed the swift carefully."
+        "She gave a swift reply.",
+        "The bird made a swift turn over the water."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "swift：从核心场景引出的常用义"
+        "迅速的：事情进行得快",
+        "敏捷的：动作快而利落"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "swim",
