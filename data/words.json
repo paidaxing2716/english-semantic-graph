@@ -139696,7 +139696,7 @@
       "id": "percentage",
       "word": "percentage",
       "pos": "noun",
-      "phonetic": "/pə(r)ˈsentɪdʒ/",
+      "phonetic": "/pəˈsentɪdʒ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -139912,7 +139912,7 @@
       "id": "persuade",
       "word": "persuade",
       "pos": "verb",
-      "phonetic": "/pə(r)ˈsweɪd/",
+      "phonetic": "/pəˈsweɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -148610,7 +148610,7 @@
       "id": "shortage",
       "word": "shortage",
       "pos": "noun",
-      "phonetic": "/ˈʃɔː(r)tɪdʒ/",
+      "phonetic": "/ˈʃɔːtɪdʒ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -155521,7 +155521,7 @@
       "id": "straightforward",
       "word": "straightforward",
       "pos": "adjective",
-      "phonetic": "/ˌstreɪtˈfɔː(r)wə(r)d/",
+      "phonetic": "/ˌstreɪtˈfɔːwəd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -165243,7 +165243,7 @@
       "id": "volleyball",
       "word": "volleyball",
       "pos": "noun",
-      "phonetic": "/ˈvɒlibɔ(ː)l/",
+      "phonetic": "/ˈvɒlibɔːl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -165916,53 +165916,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 war，现代词义按整体记",
-      "native_definition": "a thing or action related to war",
-      "core_concept": "a clear scene connected with war – 与该词相连的清晰场景",
+      "origin": "中古英语 werre ← 晚期古英语 werre ← 诺曼法语 werre（古法语 guerre）← 中世纪拉丁语 werra ← 法兰克语 *werru（混乱、争执）← 原始印欧语 *wers-（搅乱）；逐步取代了古英语 beadu、hild、wīġ 等本土词",
+      "native_definition": "armed fighting between countries or groups",
+      "core_concept": "organized armed fighting between whole sides – 整方与整方之间有组织的武力相攻",
       "core_image": "两支队伍隔着开阔地对峙，远处传来连续声响",
       "chinese": [
-        "war"
+        "战争",
+        "交战"
       ],
       "examples": [
-        "The war changed the situation.",
-        "Researchers discussed the war carefully."
+        "The war lasted four years.",
+        "Two neighbouring states are at war."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "war：从核心场景引出的常用义"
+        "战争：国家或集团间的武力冲突",
+        "交战：正在打这件事的状态"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "warehouse",
       "word": "warehouse",
       "pos": "noun",
-      "phonetic": "/ˈweə(r)haʊs/",
+      "phonetic": "/ˈweəhaʊs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 warehouse，现代词义按整体记",
-      "native_definition": "a thing or action related to warehouse",
-      "core_concept": "a clear scene connected with warehouse – 与该词相连的清晰场景",
+      "origin": "由 ware（货物）＋ house（屋）复合而成；ware 一支 ← 古英语 waru（货物）← 原始日耳曼语 *warō",
+      "native_definition": "a large building where goods are stored",
+      "core_concept": "a large building kept for holding goods until needed – 专用来存货、等要用时再取的大房子",
       "core_image": "高大仓库的货架排成多列，箱子一直堆到屋顶",
       "chinese": [
-        "warehouse"
+        "货栈",
+        "库房"
       ],
       "examples": [
-        "The warehouse changed the situation.",
-        "Researchers discussed the warehouse carefully."
+        "The goods sit in a warehouse near the docks.",
+        "They converted the warehouse into flats."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "warehouse：从核心场景引出的常用义"
+        "货栈：存放待售货物的那种房子",
+        "库房：泛指用于储存的屋室"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "warfare",
@@ -165972,25 +165974,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 warfare，现代词义按整体记",
-      "native_definition": "a thing or action related to warfare",
-      "core_concept": "a clear scene connected with warfare – 与该词相连的清晰场景",
+      "origin": "由 war ＋ fare（行、往）复合而成，或截自中古英语 werre-faringe（出征）",
+      "native_definition": "the activity of fighting a war, or the methods used",
+      "core_concept": "the carrying on of fighting, and how it is carried on – 打仗这件事的进行，以及怎么打",
       "core_image": "地图上的箭头在两方阵地之间移动，补给线不断改变",
       "chinese": [
-        "warfare"
+        "战事",
+        "作战方式"
       ],
       "examples": [
-        "The warfare changed the situation.",
-        "Researchers discussed the warfare carefully."
+        "Trench warfare dominated that conflict.",
+        "They turned to economic warfare instead."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "warfare：从核心场景引出的常用义"
+        "战事：正在进行的战斗活动",
+        "作战方式：所采用的那套打法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "warm",
@@ -166000,25 +166003,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 warm，现代词义按整体记",
-      "native_definition": "a thing or action related to warm",
-      "core_concept": "a clear scene connected with warm – 与该词相连的清晰场景",
+      "origin": "中古英语 warm ← 古英语 wearm ← 原始日耳曼语 *warmaz ← 原始印欧语 *gʷʰer-（热）；与希腊语 thermos 同源",
+      "native_definition": "at a pleasant temperature between cool and hot",
+      "core_concept": "at the temperature that feels comfortable, short of hot – 温度舒适，还没到烫",
       "core_image": "壁炉里的火焰靠近后，手掌逐渐感到舒适热度",
       "chinese": [
-        "warm"
+        "暖的",
+        "温暖的",
+        "热情的"
       ],
       "examples": [
-        "The warm changed the situation.",
-        "Researchers discussed the warm carefully."
+        "Keep the milk warm, not hot.",
+        "She gave us a warm welcome."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "warm：从核心场景引出的常用义"
+        "暖的：温度适中偏高",
+        "温暖的：同义，多形容天气或环境",
+        "热情的：把这份暖用到待人的态度上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "warmth",
@@ -166028,25 +166034,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 warmth，现代词义按整体记",
-      "native_definition": "a thing or action related to warmth",
-      "core_concept": "a clear scene connected with warmth – 与该词相连的清晰场景",
+      "origin": "中古英语 warmth ← 古英语 *wiermþu ← 原始西日耳曼语 *warmiþu，即 warm ＋ 抽象名词后缀 -th",
+      "native_definition": "the state of being warm, or friendly feeling",
+      "core_concept": "the comfortable heat something gives off – 一件东西放出的那份舒适热度",
       "core_image": "阳光落在肩膀上，寒冷的手指慢慢恢复知觉",
       "chinese": [
-        "warmth"
+        "暖意",
+        "温情"
       ],
       "examples": [
-        "The warmth changed the situation.",
-        "Researchers discussed the warmth carefully."
+        "The warmth of the fire filled the room.",
+        "He spoke with real warmth about her."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "warmth：从核心场景引出的常用义"
+        "暖意：可感到的那份温热",
+        "温情：把这份暖用到人与人之间的情意上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "warn",
@@ -166056,53 +166063,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 warn，现代词义按整体记",
-      "native_definition": "a thing or action related to warn",
-      "core_concept": "a clear scene connected with warn – 与该词相连的清晰场景",
+      "origin": "中古英语 warnen ← 古英语 warnian（留意、告诫）← 原始日耳曼语 *warnōną ← 原始印欧语 *wer-（察觉、留心）",
+      "native_definition": "to tell someone about a danger in advance",
+      "core_concept": "telling someone in advance so they can take care – 事先告知，让对方留心",
       "core_image": "警示灯在危险区域入口闪烁，工作人员举手让人停下",
       "chinese": [
-        "warn"
+        "警告",
+        "提醒"
       ],
       "examples": [
-        "The warn changed the situation.",
-        "Researchers discussed the warn carefully."
+        "He warned us about the loose step.",
+        "Signs warn drivers of falling rocks."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "warn：从核心场景引出的常用义"
+        "警告：告知危险，语气重",
+        "提醒：把该留意的事点给对方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "warrant",
       "word": "warrant",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɒrənt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 warrant，现代词义按整体记",
-      "native_definition": "a thing or action related to warrant",
-      "core_concept": "a clear scene connected with warrant – 与该词相连的清晰场景",
+      "origin": "中古英语 warant（庇护、保障）← 盎格鲁诺曼语 warrant ← 古法语 garant（保证、许可）← 法兰克语 *warand，是 *warjan（挡开、阻止）的现在分词",
+      "native_definition": "an official document giving legal authority, or good reason for something",
+      "core_concept": "an official backing that makes an action allowable – 官方给的那份靠背，使某个动作站得住",
       "core_image": "文件盖着正式印章，执法人员据此获准进入房间",
       "chinese": [
-        "warrant"
+        "授权令",
+        "正当理由"
       ],
       "examples": [
-        "The warrant changed the situation.",
-        "Researchers discussed the warrant carefully."
+        "Police obtained a search warrant.",
+        "Her behaviour warrants an inquiry."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "warrant：从核心场景引出的常用义"
+        "授权令：官方签发、许可行事的那份文件",
+        "正当理由：使某事说得过去的那个依据"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "wash",
@@ -166112,109 +166121,119 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wash，现代词义按整体记",
-      "native_definition": "a thing or action related to wash",
-      "core_concept": "a clear scene connected with wash – 与该词相连的清晰场景",
+      "origin": "中古英语 wasshen ← 古英语 wascan（洗）← 原始西日耳曼语 *waskan ← 原始日耳曼语 *waskaną（洗、弄湿）← 原始印欧语 *wed-（水、湿）",
+      "native_definition": "to clean something with water",
+      "core_concept": "cleaning by letting water carry the dirt off – 让水把脏东西带走，从而变干净",
       "core_image": "水流冲过盘子表面，泡沫带着污渍流进下水口",
       "chinese": [
-        "wash"
+        "洗",
+        "清洗",
+        "冲刷"
       ],
       "examples": [
-        "The wash changed the situation.",
-        "Researchers discussed the wash carefully."
+        "Wash your hands before eating.",
+        "Waves washed the sand away."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wash：从核心场景引出的常用义"
+        "洗：用水去污",
+        "清洗：更彻底地洗一遍",
+        "冲刷：水流不断带走表面之物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waste",
       "word": "waste",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈweɪst/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waste，现代词义按整体记",
-      "native_definition": "a thing or action related to waste",
-      "core_concept": "a clear scene connected with waste – 与该词相连的清晰场景",
+      "origin": "中古英语 wast ← 诺曼法语 wast ← 法兰克语 *wōstī（荒芜）← 原始印欧语 *h₁weh₂-（空、荒）",
+      "native_definition": "to use something without good purpose, or unwanted material",
+      "core_concept": "letting something go without being put to use – 让东西白白流失，没用到该用处",
       "core_image": "无人使用的水从破管道持续流走，旁边的土地被浸湿",
       "chinese": [
-        "waste"
+        "浪费",
+        "废弃物",
+        "荒地"
       ],
       "examples": [
-        "The waste changed the situation.",
-        "Researchers discussed the waste carefully."
+        "Do not waste water in summer.",
+        "The factory dumps its waste in the river."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "waste：从核心场景引出的常用义"
+        "浪费：把可用的用掉却没起作用",
+        "废弃物：用剩下、不再要的那些",
+        "荒地：闲着不长东西的那片地"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "watch",
       "word": "watch",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɒtʃ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 watch，现代词义按整体记",
-      "native_definition": "a thing or action related to watch",
-      "core_concept": "a clear scene connected with watch – 与该词相连的清晰场景",
+      "origin": "名词 ← 中古英语 wacche ← 古英语 wæċċe（守夜）；动词 ← 中古英语 wacchen ← 古英语 wæċċan ← 原始日耳曼语 *wakjaną（唤醒、守望）",
+      "native_definition": "to look at something for a time, or a small clock worn on the wrist",
+      "core_concept": "keeping the eyes on something over a stretch of time – 眼睛在一段时间里一直盯着",
       "core_image": "人坐在窗边持续看着街道，手里的钟显示经过的时间",
       "chinese": [
-        "watch"
+        "注视",
+        "手表",
+        "看守"
       ],
       "examples": [
-        "The watch changed the situation.",
-        "Researchers discussed the watch carefully."
+        "They watched the boats leave harbour.",
+        "My watch is two minutes slow."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "watch：从核心场景引出的常用义"
+        "注视：持续看着某处",
+        "手表：戴在腕上报时的那件小钟，本义与守夜同支",
+        "看守：为防出事而盯着"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "water",
       "word": "water",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˈwɔː.tə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 water，现代词义按整体记",
-      "native_definition": "a thing or action related to water",
-      "core_concept": "a clear scene connected with water – 与该词相连的清晰场景",
+      "origin": "中古英语 water ← 古英语 wæter ← 原始日耳曼语 *watōr ← 原始印欧语 *wódr̥（水）",
+      "native_definition": "the clear liquid that falls as rain and fills seas",
+      "core_concept": "the clear liquid all living things need to drink – 一切生物都要喝的那种透明液体",
       "core_image": "透明液体从水龙头流入杯中，液面逐渐升高",
       "chinese": [
-        "water"
+        "水",
+        "浇水"
       ],
       "examples": [
-        "The water changed the situation.",
-        "Researchers discussed the water carefully."
+        "Pour the water into a jug.",
+        "She waters the plants each morning."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "water：从核心场景引出的常用义"
+        "水：那种液体本身",
+        "浇水：把它施到植物根上这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waterfall",
@@ -166224,25 +166243,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waterfall，现代词义按整体记",
-      "native_definition": "a thing or action related to waterfall",
-      "core_concept": "a clear scene connected with waterfall – 与该词相连的清晰场景",
+      "origin": "中古英语 waterfal ← 古英语 wæterġefeall，即 water ＋ fall",
+      "native_definition": "a place where a river drops over a steep edge",
+      "core_concept": "a river dropping straight over a steep edge – 河水从陡边直落下去",
       "core_image": "河水从岩壁边缘垂直落下，在下方溅起白色水雾",
       "chinese": [
-        "waterfall"
+        "瀑布"
       ],
       "examples": [
-        "The waterfall changed the situation.",
-        "Researchers discussed the waterfall carefully."
+        "The waterfall can be heard from the path.",
+        "Mist rose from the foot of the waterfall."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "waterfall：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waterproof",
@@ -166252,25 +166268,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waterproof，现代词义按整体记",
-      "native_definition": "a thing or action related to waterproof",
-      "core_concept": "a clear scene connected with waterproof – 与该词相连的清晰场景",
+      "origin": "由 water ＋ -proof（防…的）构成；proof 一支 ← 古法语 prueve ← 晚期拉丁语 proba（检验）",
+      "native_definition": "not letting water pass through",
+      "core_concept": "made so that water cannot get through – 做得让水过不去",
       "core_image": "雨衣表面的水珠聚成小滴，沿外层滚落而不渗入",
       "chinese": [
-        "waterproof"
+        "防水的",
+        "不透水的"
       ],
       "examples": [
-        "The waterproof changed the situation.",
-        "Researchers discussed the waterproof carefully."
+        "She wore a waterproof jacket.",
+        "The seal keeps the case waterproof."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "waterproof：从核心场景引出的常用义"
+        "防水的：能挡住水，不被浸透",
+        "不透水的：材料本身不让水通过"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "watt",
@@ -166280,81 +166297,86 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 watt，现代词义按整体记",
-      "native_definition": "a thing or action related to watt",
-      "core_concept": "a clear scene connected with watt – 与该词相连的清晰场景",
+      "origin": "以苏格兰工程师 James Watt 之名命名",
+      "native_definition": "the unit used to measure electrical power",
+      "core_concept": "the unit that measures how fast energy is used – 计量能量消耗快慢的那个单位",
       "core_image": "电器标签上标出耗电功率，仪表随开关改变读数",
       "chinese": [
-        "watt"
+        "瓦特",
+        "瓦"
       ],
       "examples": [
-        "The watt changed the situation.",
-        "Researchers discussed the watt carefully."
+        "The bulb uses only nine watts.",
+        "A kettle draws about two thousand watts."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "watt：从核心场景引出的常用义"
+        "瓦特：这个单位的全称",
+        "瓦：日常与标注中的简称"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wave",
       "word": "wave",
-      "pos": "verb",
+      "pos": "noun / verb",
       "phonetic": "/weɪv/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wave，现代词义按整体记",
-      "native_definition": "a thing or action related to wave",
-      "core_concept": "a clear scene connected with wave – 与该词相连的清晰场景",
+      "origin": "中古英语 waven ← 古英语 wafian（摆动、挥）← 原始日耳曼语 *wabōną（摇、荡）← 原始印欧语 *webʰ-（来回动）",
+      "native_definition": "to move the hand to and fro, or a ridge of moving water",
+      "core_concept": "something moving to and fro, rising and falling as it goes – 一件东西来回摆动，边走边起落",
       "core_image": "海面一排水峰向岸边推进，浪尖在阳光下发白",
       "chinese": [
-        "wave"
+        "挥手",
+        "波浪",
+        "起伏"
       ],
       "examples": [
-        "The wave changed the situation.",
-        "Researchers discussed the wave carefully."
+        "She waved from the far platform.",
+        "Waves broke over the sea wall."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wave：从核心场景引出的常用义"
+        "挥手：手来回摆动作招呼",
+        "波浪：水面成排起落的那些峰",
+        "起伏：把这种一起一落用到别的事物上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wax",
       "word": "wax",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/wæks/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wax，现代词义按整体记",
-      "native_definition": "a thing or action related to wax",
-      "core_concept": "a clear scene connected with wax – 与该词相连的清晰场景",
+      "origin": "中古英语 wax ← 古英语 weax ← 原始日耳曼语 *wahsą，或出自原始印欧语 *woḱ-so-",
+      "native_definition": "a soft solid substance that melts easily, used in candles",
+      "core_concept": "a soft solid that turns to liquid with a little heat – 稍一加热就化成液体的软固体",
       "core_image": "蜡块受热融化，液体沿模具内壁缓慢流下",
       "chinese": [
-        "wax"
+        "蜡",
+        "打蜡"
       ],
       "examples": [
-        "The wax changed the situation.",
-        "Researchers discussed the wax carefully."
+        "The candle is made of beeswax.",
+        "He waxed the floor until it shone."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wax：从核心场景引出的常用义"
+        "蜡：那种物质本身",
+        "打蜡：把它涂到表面上这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "way",
@@ -166364,53 +166386,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 way，现代词义按整体记",
-      "native_definition": "a thing or action related to way",
-      "core_concept": "a clear scene connected with way – 与该词相连的清晰场景",
+      "origin": "中古英语 wey ← 古英语 weġ（路）← 原始日耳曼语 *wegaz ← 原始印欧语 *weǵʰ-（走、运）",
+      "native_definition": "a route from one place to another, or a manner of doing something",
+      "core_concept": "the line one follows to get somewhere or get something done – 到某处或办成某事所循的那条线",
       "core_image": "路牌指向两条方向不同的小路，行人选择其中一条",
       "chinese": [
-        "way"
+        "路",
+        "方法",
+        "做法"
       ],
       "examples": [
-        "The way changed the situation.",
-        "Researchers discussed the way carefully."
+        "Ask someone the way to the station.",
+        "There must be a better way to do this."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "way：从核心场景引出的常用义"
+        "路：从此处通往彼处的路线",
+        "方法：办成一件事所循的路子",
+        "做法：具体怎么办的那一套"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weak",
       "word": "weak",
       "pos": "adjective",
-      "phonetic": "/wi(ː)k/",
+      "phonetic": "/wiːk/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weak，现代词义按整体记",
-      "native_definition": "a thing or action related to weak",
-      "core_concept": "a clear scene connected with weak – 与该词相连的清晰场景",
+      "origin": "中古英语 waik，借自古诺尔斯语 veikr（弱的）← 原始日耳曼语 *waikwaz（易弯的、屈从的）← 原始印欧语 *weyg-（弯、转）",
+      "native_definition": "lacking strength, or easily broken",
+      "core_concept": "giving way instead of holding – 一受力就让开，而不是撑住",
       "core_image": "细线承受不了重物，轻轻一拉就断开",
       "chinese": [
-        "weak"
+        "弱的",
+        "不结实的",
+        "淡的"
       ],
       "examples": [
-        "The weak changed the situation.",
-        "Researchers discussed the weak carefully."
+        "He felt weak after the illness.",
+        "This tea is far too weak."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weak：从核心场景引出的常用义"
+        "弱的：力气或程度不足",
+        "不结实的：受力就坏",
+        "淡的：所含成分少，作用不强"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wealth",
@@ -166420,25 +166448,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wealth，现代词义按整体记",
-      "native_definition": "a thing or action related to wealth",
-      "core_concept": "a clear scene connected with wealth – 与该词相连的清晰场景",
+      "origin": "中古英语 welth ← 古英语 *welþu ← 原始西日耳曼语 *waliþu；或为 wele（安康、富足）受 helth、derth 一类 -th 词影响而成 ← 原始印欧语 *wel-（好）",
+      "native_definition": "a large amount of money and possessions",
+      "core_concept": "holdings large enough that one need not want – 家底厚到不必缺什么",
       "core_image": "保险箱里堆着金条、票据和其他贵重物品",
       "chinese": [
-        "wealth"
+        "财富",
+        "丰厚"
       ],
       "examples": [
-        "The wealth changed the situation.",
-        "Researchers discussed the wealth carefully."
+        "The family's wealth came from shipping.",
+        "A wealth of detail fills the report."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wealth：从核心场景引出的常用义"
+        "财富：所拥有的钱与财产",
+        "丰厚：把这份多用到别的事物上，指数量可观"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wealthy",
@@ -166448,25 +166477,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wealthy，现代词义按整体记",
-      "native_definition": "a thing or action related to wealthy",
-      "core_concept": "a clear scene connected with wealthy – 与该词相连的清晰场景",
+      "origin": "中古英语 welthy，即 wealth ＋ 形容词后缀 -y",
+      "native_definition": "having a great deal of money",
+      "core_concept": "holding far more than is needed to live – 手里的远超过生活所需",
       "core_image": "宽敞房屋前停着车辆，主人把贵重物品收进室内",
       "chinese": [
-        "wealthy"
+        "富有的",
+        "富裕的"
       ],
       "examples": [
-        "The wealthy changed the situation.",
-        "Researchers discussed the wealthy carefully."
+        "A wealthy buyer took the whole lot.",
+        "The district is noticeably wealthy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wealthy：从核心场景引出的常用义"
+        "富有的：钱财多",
+        "富裕的：生活宽裕，多形容地区或家庭"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weapon",
@@ -166476,25 +166506,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weapon，现代词义按整体记",
-      "native_definition": "a thing or action related to weapon",
-      "core_concept": "a clear scene connected with weapon – 与该词相连的清晰场景",
+      "origin": "中古英语 wepen ← 古英语 wǣpn ← 原始日耳曼语 *wēpną（兵器），更早词源不明",
+      "native_definition": "a thing made or used for fighting",
+      "core_concept": "a thing taken up in order to strike or defend – 拿起来用于攻或守的那件东西",
       "core_image": "架子上陈列着刀、弓和其他用于防卫的器具",
       "chinese": [
-        "weapon"
+        "武器",
+        "兵器"
       ],
       "examples": [
-        "The weapon changed the situation.",
-        "Researchers discussed the weapon carefully."
+        "Police found no weapon at the scene.",
+        "Words became her only weapon."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weapon：从核心场景引出的常用义"
+        "武器：用于攻防的器械",
+        "兵器：偏指冷兵器那一类"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wear",
@@ -166504,25 +166535,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wear，现代词义按整体记",
-      "native_definition": "a thing or action related to wear",
-      "core_concept": "a clear scene connected with wear – 与该词相连的清晰场景",
+      "origin": "中古英语 weren ← 古英语 werian（穿、覆）← 原始日耳曼语 *wazjaną（穿衣）← 原始印欧语 *wes-（着装）；与拉丁语 vestis 同源",
+      "native_definition": "to have clothes on the body, or to become thinner from use",
+      "core_concept": "having something on the body, or being rubbed thin by use – 把东西着在身上，或因反复使用而变薄",
       "core_image": "衣服肩部因长期使用变薄，边缘出现磨损",
       "chinese": [
-        "wear"
+        "穿着",
+        "戴",
+        "耗损"
       ],
       "examples": [
-        "The wear changed the situation.",
-        "Researchers discussed the wear carefully."
+        "She wore a grey coat.",
+        "The steps have worn smooth over the years."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wear：从核心场景引出的常用义"
+        "穿着：衣服着在身上",
+        "戴：帽子首饰之类着在身上",
+        "耗损：长期摩擦使表面变薄"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weary",
@@ -166532,25 +166566,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weary，现代词义按整体记",
-      "native_definition": "a thing or action related to weary",
-      "core_concept": "a clear scene connected with weary – 与该词相连的清晰场景",
+      "origin": "中古英语 wery ← 古英语 wēriġ（疲乏的）← 原始西日耳曼语 *wōrīg",
+      "native_definition": "very tired, or tired of something",
+      "core_concept": "worn down until neither body nor patience is left – 耗到体力与耐性都不剩",
       "core_image": "长途跋涉的人靠着树干坐下，鞋底和肩膀都沾满尘土",
       "chinese": [
-        "weary"
+        "疲惫的",
+        "厌倦的"
       ],
       "examples": [
-        "The weary changed the situation.",
-        "Researchers discussed the weary carefully."
+        "They arrived weary and hungry.",
+        "She grew weary of his excuses."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weary：从核心场景引出的常用义"
+        "疲惫的：体力耗尽",
+        "厌倦的：耐性耗尽，不想再听再做"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weather",
@@ -166560,25 +166595,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weather，现代词义按整体记",
-      "native_definition": "a thing or action related to weather",
-      "core_concept": "a clear scene connected with weather – 与该词相连的清晰场景",
+      "origin": "中古英语 weder ← 古英语 weder ← 原始日耳曼语 *wedrą ← 原始印欧语 *h₂weh₁-（吹）",
+      "native_definition": "the state of the air at a place and time",
+      "core_concept": "how the air is behaving at a place just now – 某地此刻空气的状况",
       "core_image": "窗外云层、风向和雨势不断变化，仪器记录着气象数据",
       "chinese": [
-        "weather"
+        "天气",
+        "天候"
       ],
       "examples": [
-        "The weather changed the situation.",
-        "Researchers discussed the weather carefully."
+        "The weather turned cold overnight.",
+        "Bad weather delayed the flight."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weather：从核心场景引出的常用义"
+        "天气：眼下的冷暖晴雨",
+        "天候：一段时期内的气候状况"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weave",
@@ -166588,25 +166624,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weave，现代词义按整体记",
-      "native_definition": "a thing or action related to weave",
-      "core_concept": "a clear scene connected with weave – 与该词相连的清晰场景",
+      "origin": "中古英语 weven ← 古英语 wefan（织）← 原始西日耳曼语 *weban ← 原始日耳曼语 *webaną ← 原始印欧语 *webʰ-（编、织）",
+      "native_definition": "to make cloth by crossing threads over and under",
+      "core_concept": "crossing strands over and under until they hold together – 让线一上一下交叉，直到彼此扣住",
       "core_image": "两组线交替穿过织机，逐渐形成一块完整布面",
       "chinese": [
-        "weave"
+        "织",
+        "编",
+        "穿行"
       ],
       "examples": [
-        "The weave changed the situation.",
-        "Researchers discussed the weave carefully."
+        "She weaves cloth on a hand loom.",
+        "He wove between the parked cars."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weave：从核心场景引出的常用义"
+        "织：用织机把线交织成布",
+        "编：用条状物交叉成器",
+        "穿行：在障碍间左右绕过，路线像织线一样交错"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "web",
@@ -166616,25 +166655,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 web，现代词义按整体记",
-      "native_definition": "a thing or action related to web",
-      "core_concept": "a clear scene connected with web – 与该词相连的清晰场景",
+      "origin": "中古英语 web ← 古英语 webb ← 原始日耳曼语 *wabją（织物、网）← *webaną（织）← 原始印欧语 *webʰ-（编、织）",
+      "native_definition": "a net of fine threads made by a spider, or a system of connected things",
+      "core_concept": "fine strands crossing to form a connected net – 细丝交叉成一张彼此相连的网",
       "core_image": "蜘蛛丝从树枝间交错拉开，中心留着细密图案",
       "chinese": [
-        "web"
+        "蛛网",
+        "网状物",
+        "网络"
       ],
       "examples": [
-        "The web changed the situation.",
-        "Researchers discussed the web carefully."
+        "A spider's web hung across the gate.",
+        "The city has a web of narrow lanes."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "web：从核心场景引出的常用义"
+        "蛛网：蜘蛛吐丝结成的那张网",
+        "网状物：形状类似的那种交错结构",
+        "网络：互相连通的整套系统"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wedding",
@@ -166644,81 +166686,84 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wedding，现代词义按整体记",
-      "native_definition": "a thing or action related to wedding",
-      "core_concept": "a clear scene connected with wedding – 与该词相连的清晰场景",
+      "origin": "中古英语 wedding ← 古英语 weddung（订婚、成婚），即 wed ＋ -ing；wed 一支 ← 古英语 weddian（立誓、许配）",
+      "native_definition": "the ceremony at which two people marry",
+      "core_concept": "the ceremony in which two people pledge to each other – 两人彼此立誓的那场仪式",
       "core_image": "礼堂前两个人交换戒指，家人坐在两侧观看",
       "chinese": [
-        "wedding"
+        "婚礼",
+        "结婚典礼"
       ],
       "examples": [
-        "The wedding changed the situation.",
-        "Researchers discussed the wedding carefully."
+        "Their wedding took place in June.",
+        "She wore her mother's wedding dress."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wedding：从核心场景引出的常用义"
+        "婚礼：举行的那场仪式",
+        "结婚典礼：同一场仪式，说得更正式"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wedge",
       "word": "wedge",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/wedʒ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wedge，现代词义按整体记",
-      "native_definition": "a thing or action related to wedge",
-      "core_concept": "a clear scene connected with wedge – 与该词相连的清晰场景",
+      "origin": "中古英语 wegge ← 古英语 weċġ（楔）← 原始西日耳曼语 *wagi ← 原始日耳曼语 *wagjaz",
+      "native_definition": "a piece of wood or metal thick at one end and thin at the other",
+      "core_concept": "a shape thick at one end that forces things apart as it goes in – 一头厚一头薄，插进去就把东西撑开",
       "core_image": "木楔被锤进门缝，狭窄空间被逐渐撑开",
       "chinese": [
-        "wedge"
+        "楔子",
+        "楔入"
       ],
       "examples": [
-        "The wedge changed the situation.",
-        "Researchers discussed the wedge carefully."
+        "He drove a wedge into the crack.",
+        "A car was wedged between two vans."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wedge：从核心场景引出的常用义"
+        "楔子：那件一头厚一头薄的物件",
+        "楔入：把它插进去挤紧这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weed",
       "word": "weed",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/wiːd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 weed，现代词义按整体记",
-      "native_definition": "a thing or action related to weed",
-      "core_concept": "a clear scene connected with weed – 与该词相连的清晰场景",
+      "origin": "中古英语 weed ← 古英语 wēod（野草）← 原始西日耳曼语 *weud",
+      "native_definition": "a wild plant growing where it is not wanted",
+      "core_concept": "a plant growing where nobody planted it – 没人种它，它却长在那里",
       "core_image": "园丁从土里连根拔出杂草，旁边留下松动的泥坑",
       "chinese": [
-        "weed"
+        "野草",
+        "除草"
       ],
       "examples": [
-        "The weed changed the situation.",
-        "Researchers discussed the weed carefully."
+        "Weeds had taken over the beds.",
+        "He spent the morning weeding."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "weed：从核心场景引出的常用义"
+        "野草：不请自来的那些草",
+        "除草：把它们拔掉这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "week",
@@ -166728,25 +166773,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 week，现代词义按整体记",
-      "native_definition": "a thing or action related to week",
-      "core_concept": "a clear scene connected with week – 与该词相连的清晰场景",
+      "origin": "中古英语 wyke ← 古英语 wice ← 原始日耳曼语 *wikǭ（序列、周）← 原始印欧语 *weyk-（弯、转）；与 weak 同支，本义指循环往复",
+      "native_definition": "a period of seven days",
+      "core_concept": "a run of seven days that repeats – 七天一轮、循环往复的那一段",
       "core_image": "日历上连续七格组成一小段周期",
       "chinese": [
-        "week"
+        "周",
+        "星期"
       ],
       "examples": [
-        "The week changed the situation.",
-        "Researchers discussed the week carefully."
+        "He will be away for a week.",
+        "We meet twice a week."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "week：从核心场景引出的常用义"
+        "周：七天为一轮的那个单位",
+        "星期：同义，日常口语多用"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "weekday",
@@ -166920,7 +166966,7 @@
       "id": "weird",
       "word": "weird",
       "pos": "adjective",
-      "phonetic": "/ˈwɪə(r)d/",
+      "phonetic": "/ˈwɪəd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -168964,7 +169010,7 @@
       "id": "worthwhile",
       "word": "worthwhile",
       "pos": "adjective",
-      "phonetic": "/ˌwɜː(r)θˈwaɪl/",
+      "phonetic": "/ˌwɜːθˈwaɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
@@ -169699,7 +169745,7 @@
       "id": "yours",
       "word": "yours",
       "pos": "pronoun",
-      "phonetic": "/jɔː(r)z/",
+      "phonetic": "/jɔːz/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
