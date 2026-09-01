@@ -165040,53 +165040,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 unload，现代词义按整体记",
-      "native_definition": "a thing or action related to unload",
-      "core_concept": "a clear scene connected with unload – 与该词相连的清晰场景",
+      "origin": "由 un-（反向）＋ load（装载）构成；load 一支 ← 古英语 lād（载运、路）← 原始日耳曼语 *laidō",
+      "native_definition": "to take goods off a vehicle",
+      "core_concept": "taking off what was put on – 把装上去的东西再取下来",
       "core_image": "卡车停在仓库门口，工人把一箱箱货物搬下车",
       "chinese": [
-        "unload"
+        "卸货",
+        "卸下",
+        "倒出"
       ],
       "examples": [
-        "The unload changed the situation.",
-        "Researchers discussed the unload carefully."
+        "They unloaded the van in ten minutes.",
+        "He unloaded his worries onto a friend."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "unload：从核心场景引出的常用义"
+        "卸货：把货物从车船上搬下",
+        "卸下：把负载或负担去掉",
+        "倒出：把心里的话一并说给人听"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "until",
       "word": "until",
       "pos": "preposition",
-      "phonetic": "/ˈuntil/",
+      "phonetic": "/ənˈtɪl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 until，现代词义按整体记",
-      "native_definition": "a thing or action related to until",
-      "core_concept": "a clear scene connected with until – 与该词相连的清晰场景",
+      "origin": "中古英语 until，或为 unto 的北部变体；由 un-（朝、至）＋ till（到）构成，till 反倒是它的词根而非缩写",
+      "native_definition": "up to the time that something happens",
+      "core_concept": "marking where a stretch of time stops – 标出一段时间到哪儿为止",
       "core_image": "时间轴上的标记一直延伸到另一个事件发生的时刻",
       "chinese": [
-        "until"
+        "直到",
+        "在…之前"
       ],
       "examples": [
-        "The until changed the situation.",
-        "Researchers discussed the until carefully."
+        "Wait until the light turns green.",
+        "The shop is closed until Monday."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "until：从核心场景引出的常用义"
+        "直到：一直持续到那一刻",
+        "在…之前：从反面说同一条界"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "unusual",
@@ -165096,25 +165100,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 unusual，现代词义按整体记",
-      "native_definition": "a thing or action related to unusual",
-      "core_concept": "a clear scene connected with unusual – 与该词相连的清晰场景",
+      "origin": "由 un-（不）＋ usual（通常的）构成；usual 一支 ← 古法语 usuel ← 拉丁语 usualis ← usus（惯用）",
+      "native_definition": "not what normally happens or is seen",
+      "core_concept": "standing outside what one is used to – 落在人所习惯的范围之外",
       "core_image": "整齐排列的物品中有一件形状和颜色都格外不同",
       "chinese": [
-        "unusual"
+        "不寻常的",
+        "罕见的"
       ],
       "examples": [
-        "The unusual changed the situation.",
-        "Researchers discussed the unusual carefully."
+        "It is unusual for him to be late.",
+        "The coin has an unusual shape."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "unusual：从核心场景引出的常用义"
+        "不寻常的：与平常情况不同",
+        "罕见的：出现的次数极少"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "up",
@@ -165124,81 +165129,90 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 up，现代词义按整体记",
-      "native_definition": "a thing or action related to up",
-      "core_concept": "a clear scene connected with up – 与该词相连的清晰场景",
+      "origin": "中古英语 up ← 古英语 upp ← 原始日耳曼语 *upp（上）",
+      "native_definition": "toward or in a higher position",
+      "core_concept": "in the direction away from the ground – 朝离开地面的那个方向",
       "core_image": "气球从地面向屋顶升起，位置越来越高",
       "chinese": [
-        "up"
+        "向上",
+        "起来",
+        "往高处"
       ],
       "examples": [
-        "The up changed the situation.",
-        "Researchers discussed the up carefully."
+        "The balloon drifted up over the roof.",
+        "Stand up when he comes in."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "up：从核心场景引出的常用义"
+        "向上：动作朝高处进行",
+        "起来：由卧或坐转为立",
+        "往高处：位置移到更高的地方"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "voice",
       "word": "voice",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/vɔɪs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 voice，现代词义按整体记",
-      "native_definition": "a thing or action related to voice",
-      "core_concept": "a clear scene connected with voice – 与该词相连的清晰场景",
+      "origin": "中古英语 voice ← 盎格鲁诺曼语 voiz／古法语 vois ← 拉丁语 vocem（vox「声音」的宾格）；取代了古英语 stefn",
+      "native_definition": "the sound a person makes when speaking or singing",
+      "core_concept": "the sound a person's own throat produces – 人自己喉间发出的那种声音",
       "core_image": "麦克风前的人说话，音箱把声音传到房间各处",
       "chinese": [
-        "voice"
+        "嗓音",
+        "说出",
+        "发言权"
       ],
       "examples": [
-        "The voice changed the situation.",
-        "Researchers discussed the voice carefully."
+        "She has a low, clear voice.",
+        "Workers voiced their concerns at the meeting."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "voice：从核心场景引出的常用义"
+        "嗓音：某人说话唱歌的音色",
+        "说出：把想法用声音表达出来",
+        "发言权：能把意见说出来的那份资格"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "void",
       "word": "void",
-      "pos": "adjective",
+      "pos": "adjective / noun",
       "phonetic": "/vɔɪd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 void，现代词义按整体记",
-      "native_definition": "a thing or action related to void",
-      "core_concept": "a clear scene connected with void – 与该词相连的清晰场景",
+      "origin": "中古英语 voide ← 古法语 vuit／voide ← 通俗拉丁语 *vocitum ← 拉丁语 vacuus（空的）",
+      "native_definition": "empty, or having no legal force",
+      "core_concept": "having nothing in it, so it counts for nothing – 里面什么也没有，因而也不算数",
       "core_image": "盒子中央留着一块完全空白的空间，四周没有任何物品",
       "chinese": [
-        "void"
+        "空的",
+        "无效的",
+        "虚空"
       ],
       "examples": [
-        "The void changed the situation.",
-        "Researchers discussed the void carefully."
+        "The contract is now void.",
+        "He stared into the void beyond the cliff."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "void：从核心场景引出的常用义"
+        "空的：内里没有东西",
+        "无效的：法律上不成立，等于没有",
+        "虚空：什么都没有的那一片"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "volcano",
@@ -165208,25 +165222,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 volcano，现代词义按整体记",
-      "native_definition": "a thing or action related to volcano",
-      "core_concept": "a clear scene connected with volcano – 与该词相连的清晰场景",
+      "origin": "借自意大利语 vulcano ← 地名 Vulcano（第勒尼安海上的火山小岛）← 拉丁语 Vulcanus（罗马火神）",
+      "native_definition": "a mountain with an opening through which hot rock is thrown out",
+      "core_concept": "a mountain with a vent that throws out molten rock – 山上有口，从里面喷出熔岩的那种山",
       "core_image": "山口喷出灰烟和红热岩浆，地面在脚下震动",
       "chinese": [
-        "volcano"
+        "火山"
       ],
       "examples": [
-        "The volcano changed the situation.",
-        "Researchers discussed the volcano carefully."
+        "The volcano erupted without warning.",
+        "Ash from the volcano closed the airport."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "volcano：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "volleyball",
@@ -165236,25 +165247,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 volleyball，现代词义按整体记",
-      "native_definition": "a thing or action related to volleyball",
-      "core_concept": "a clear scene connected with volleyball – 与该词相连的清晰场景",
+      "origin": "由 volley（凌空击球）＋ ball（球）构成；1895 年创制时原名 Mintonette，1896 年因其凌空对击的打法改称 volley ball",
+      "native_definition": "a game in which two teams hit a ball over a high net with their hands",
+      "core_concept": "a game of striking a ball over a net before it lands – 趁球未落地就把它击过网的比赛",
       "core_image": "球越过球网，另一队跃起伸手把它挡回",
       "chinese": [
-        "volleyball"
+        "排球"
       ],
       "examples": [
-        "The volleyball changed the situation.",
-        "Researchers discussed the volleyball carefully."
+        "They play volleyball on the beach.",
+        "She joined the school volleyball team."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "volleyball：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "volt",
@@ -165264,25 +165272,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 volt，现代词义按整体记",
-      "native_definition": "a thing or action related to volt",
-      "core_concept": "a clear scene connected with volt – 与该词相连的清晰场景",
+      "origin": "以意大利物理学家 Alessandro Volta 之名命名；他是现代电池的发明者",
+      "native_definition": "the unit used to measure electrical force",
+      "core_concept": "the unit that measures how hard electricity is pushed – 计量电被推得多用力的那个单位",
       "core_image": "电表上的刻度显示两点之间的电势差",
       "chinese": [
-        "volt"
+        "伏特",
+        "伏"
       ],
       "examples": [
-        "The volt changed the situation.",
-        "Researchers discussed the volt carefully."
+        "The battery supplies twelve volts.",
+        "A shock of several thousand volts is fatal."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "volt：从核心场景引出的常用义"
+        "伏特：这个单位的全称",
+        "伏：日常与标注中的简称"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "voltage",
@@ -165292,109 +165301,111 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 voltage，现代词义按整体记",
-      "native_definition": "a thing or action related to voltage",
-      "core_concept": "a clear scene connected with voltage – 与该词相连的清晰场景",
+      "origin": "由 volt ＋ -age 构成；volt 一支出自意大利物理学家 Alessandro Volta 之名",
+      "native_definition": "the amount of electrical force in a circuit, measured in volts",
+      "core_concept": "how much electrical push there is between two points – 两点之间电被推的力度有多大",
       "core_image": "电路两端接通后，仪表指针在对应刻度停住",
       "chinese": [
-        "voltage"
+        "电压"
       ],
       "examples": [
-        "The voltage changed the situation.",
-        "Researchers discussed the voltage carefully."
+        "Check the voltage before plugging it in.",
+        "High voltage can arc across a gap."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "voltage：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "voluntary",
       "word": "voluntary",
       "pos": "adjective",
-      "phonetic": "/ˈvoluntary/",
+      "phonetic": "/ˈvɒləntri/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 voluntary，现代词义按整体记",
-      "native_definition": "a thing or action related to voluntary",
-      "core_concept": "a clear scene connected with voluntary – 与该词相连的清晰场景",
+      "origin": "中古英语 voluntarie ← 古法语 volontaire ← 拉丁语 voluntarius（出于自愿的）← voluntas（意愿）← volo（愿、要）；取代了古英语 selfwille",
+      "native_definition": "done by choice, not because one is made to",
+      "core_concept": "done because one chose to, with no compulsion – 出于自己选择，没人强迫",
       "core_image": "报名表旁没有强制标记，人们主动举手参加",
       "chinese": [
-        "voluntary"
+        "自愿的",
+        "志愿的"
       ],
       "examples": [
-        "The voluntary changed the situation.",
-        "Researchers discussed the voluntary carefully."
+        "Attendance at the meeting is entirely voluntary.",
+        "She does voluntary work at the clinic."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "voluntary：从核心场景引出的常用义"
+        "自愿的：本人愿意才做",
+        "志愿的：不取报酬、主动去做的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "volunteer",
       "word": "volunteer",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/ˌvɒl(ə)nˈtɪə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 volunteer，现代词义按整体记",
-      "native_definition": "a thing or action related to volunteer",
-      "core_concept": "a clear scene connected with volunteer – 与该词相连的清晰场景",
+      "origin": "借自中古法语 voluntaire ← 拉丁语 voluntarius（自愿的）；或由英语 voluntary ＋ -eer 构成",
+      "native_definition": "a person who offers to do something without being paid",
+      "core_concept": "one who steps forward without being asked or paid – 没人叫、也不要钱就站出来的人",
       "core_image": "穿着背心的人主动拿起工具，走向需要帮助的队伍",
       "chinese": [
-        "volunteer"
+        "志愿者",
+        "自愿参加"
       ],
       "examples": [
-        "The volunteer changed the situation.",
-        "Researchers discussed the volunteer carefully."
+        "Volunteers cleared the riverbank last weekend.",
+        "He volunteered to drive them home."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "volunteer：从核心场景引出的常用义"
+        "志愿者：主动无偿做事的那个人",
+        "自愿参加：主动报名去做这个动作"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "vote",
       "word": "vote",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/vəʊt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 vote，现代词义按整体记",
-      "native_definition": "a thing or action related to vote",
-      "core_concept": "a clear scene connected with vote – 与该词相连的清晰场景",
+      "origin": "源自拉丁语 votum（誓愿、许愿）← voveō（立誓）← 原始印欧语 *h₁wegʷʰ-（许诺、立誓）；与 vow 同源",
+      "native_definition": "a formal choice made in an election or decision",
+      "core_concept": "the single formal choice each person is allowed – 每人被允许表达的那一份正式选择",
       "core_image": "投票者把纸片放进密封箱，工作人员随后清点",
       "chinese": [
-        "vote"
+        "选票",
+        "表决",
+        "投票权"
       ],
       "examples": [
-        "The vote changed the situation.",
-        "Researchers discussed the vote carefully."
+        "Each member has one vote.",
+        "They voted to delay the decision."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "vote：从核心场景引出的常用义"
+        "选票：投出去的那张纸或那一份",
+        "表决：以计票方式作决定",
+        "投票权：有资格投出那一份的权利"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "vowel",
@@ -165404,25 +165415,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 vowel，现代词义按整体记",
-      "native_definition": "a thing or action related to vowel",
-      "core_concept": "a clear scene connected with vowel – 与该词相连的清晰场景",
+      "origin": "中古英语 vowel ← 古法语 vouel ← 拉丁语 vocalis（发声的）← vox（声音）；是希腊语 phoneen 的意译借词",
+      "native_definition": "a speech sound made with the mouth open and air flowing freely",
+      "core_concept": "a sound made with the breath passing out unblocked – 气流不受阻挡地出去所成的音",
       "core_image": "字母表中几个字母被圈出，发音时气流畅通通过",
       "chinese": [
-        "vowel"
+        "元音",
+        "母音"
       ],
       "examples": [
-        "The vowel changed the situation.",
-        "Researchers discussed the vowel carefully."
+        "English has more vowel sounds than letters.",
+        "Stress falls on the second vowel."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "vowel：从核心场景引出的常用义"
+        "元音：语音学上的正式称法",
+        "母音：另一种译法，义同"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "voyage",
@@ -165432,25 +165444,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 voyage，现代词义按整体记",
-      "native_definition": "a thing or action related to voyage",
-      "core_concept": "a clear scene connected with voyage – 与该词相连的清晰场景",
+      "origin": "中古英语 viage ← 盎格鲁诺曼语 viage／古法语 voiage ← 拉丁语 viaticum（旅费、行装）← via（路）；今拼写受现代法语 voyage 影响",
+      "native_definition": "a long journey by sea or in space",
+      "core_concept": "a long journey across water or space – 越过海面或太空的一趟长途",
       "core_image": "船离开港口，航线在海图上向远方延伸",
       "chinese": [
-        "voyage"
+        "航行",
+        "远航"
       ],
       "examples": [
-        "The voyage changed the situation.",
-        "Researchers discussed the voyage carefully."
+        "The voyage took eleven weeks.",
+        "They set out on a voyage to the Arctic."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "voyage：从核心场景引出的常用义"
+        "航行：船或航天器的行进",
+        "远航：路程特别长的那种航行"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "vulgar",
@@ -165460,25 +165473,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 vulgar，现代词义按整体记",
-      "native_definition": "a thing or action related to vulgar",
-      "core_concept": "a clear scene connected with vulgar – 与该词相连的清晰场景",
+      "origin": "中古英语 vulgare ← 拉丁语 vulgaris（属于民众的）← vulgus（民众、群氓）← 原始印欧语 *welH-",
+      "native_definition": "lacking taste or good manners",
+      "core_concept": "coarse in a way that marks it as common – 粗到一看便知不上台面",
       "core_image": "公共场合有人大声喧哗，旁边的人皱眉避开",
       "chinese": [
-        "vulgar"
+        "粗俗的",
+        "庸俗的"
       ],
       "examples": [
-        "The vulgar changed the situation.",
-        "Researchers discussed the vulgar carefully."
+        "He told a vulgar joke at dinner.",
+        "The decoration struck her as vulgar."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "vulgar：从核心场景引出的常用义"
+        "粗俗的：言行不雅",
+        "庸俗的：趣味低下、格调不高"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "vulnerable",
@@ -165488,25 +165502,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 vulnerable，现代词义按整体记",
-      "native_definition": "a thing or action related to vulnerable",
-      "core_concept": "a clear scene connected with vulnerable – 与该词相连的清晰场景",
+      "origin": "借自晚期拉丁语 vulnerabilis（易受伤的）← 拉丁语 vulnerō（使受伤）← vulnus（伤口）",
+      "native_definition": "easily harmed or attacked",
+      "core_concept": "open to being wounded, with little to protect it – 敞着口，没什么护着，容易挨伤",
       "core_image": "薄玻璃罩在风暴中摇晃，边缘出现细小裂纹",
       "chinese": [
-        "vulnerable"
+        "易受伤的",
+        "脆弱的"
       ],
       "examples": [
-        "The vulnerable changed the situation.",
-        "Researchers discussed the vulnerable carefully."
+        "Young plants are vulnerable to frost.",
+        "The system is vulnerable to attack."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "vulnerable：从核心场景引出的常用义"
+        "易受伤的：容易受到损害",
+        "脆弱的：本身经不住外力"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "wage",
@@ -165516,25 +165531,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wage，现代词义按整体记",
-      "native_definition": "a thing or action related to wage",
-      "core_concept": "a clear scene connected with wage – 与该词相连的清晰场景",
+      "origin": "中古英语 wage ← 盎格鲁诺曼语 wage ← 诺曼法语 wage（古法语 gauge 的北部变体）← 法兰克语 *wadi（抵押）← 原始日耳曼语 *wadją（担保）；与 wed 同支",
+      "native_definition": "money paid regularly for work done",
+      "core_concept": "the sum pledged for work and paid at set times – 为劳务许下、按期付出的那笔钱",
       "core_image": "月底工人收到固定金额，账单旁标着发放日期",
       "chinese": [
-        "wage"
+        "工资",
+        "薪水"
       ],
       "examples": [
-        "The wage changed the situation.",
-        "Researchers discussed the wage carefully."
+        "Wages rose by three percent.",
+        "He earns a weekly wage."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wage：从核心场景引出的常用义"
+        "工资：按劳付给的报酬",
+        "薪水：同义，多用于固定发放的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "wagon",
@@ -165544,25 +165560,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wagon，现代词义按整体记",
-      "native_definition": "a thing or action related to wagon",
-      "core_concept": "a clear scene connected with wagon – 与该词相连的清晰场景",
+      "origin": "借自中古荷兰语 wagen ← 原始日耳曼语 *wagnaz（车）← 原始印欧语 *weǵʰ-（运送）；取代了本土同源词 wain",
+      "native_definition": "a vehicle with four wheels for carrying loads",
+      "core_concept": "a four-wheeled body built to carry loads – 四轮的车身，专为载重而造",
       "core_image": "四轮车沿泥路颠簸前进，车厢里装着木箱",
       "chinese": [
-        "wagon"
+        "大车",
+        "货车厢"
       ],
       "examples": [
-        "The wagon changed the situation.",
-        "Researchers discussed the wagon carefully."
+        "A horse pulled the wagon uphill.",
+        "Coal came in open wagons."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wagon：从核心场景引出的常用义"
+        "大车：马拉的那种四轮载货车",
+        "货车厢：火车上装货的那节车厢"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waist",
@@ -165572,25 +165589,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waist，现代词义按整体记",
-      "native_definition": "a thing or action related to waist",
-      "core_concept": "a clear scene connected with waist – 与该词相连的清晰场景",
+      "origin": "中古英语 wast ← 古英语 *wæst ← 原始西日耳曼语 *wahstu ← 原始日耳曼语 *wahstuz（长成、身量）← 原始印欧语 *h₂weks-（增长）；与 wax（渐长）同支",
+      "native_definition": "the narrow part of the body between the ribs and the hips",
+      "core_concept": "the narrow part of the body between ribs and hips – 肋与髋之间收窄的那一段身体",
       "core_image": "腰带绕过身体中部，扣环正好固定在腹前",
       "chinese": [
-        "waist"
+        "腰",
+        "腰部"
       ],
       "examples": [
-        "The waist changed the situation.",
-        "Researchers discussed the waist carefully."
+        "The dress is tight at the waist.",
+        "He measured his waist with a tape."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "waist：从核心场景引出的常用义"
+        "腰：身体中段收细处",
+        "腰部：同一处，说得更正式"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wait",
@@ -165600,25 +165618,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wait，现代词义按整体记",
-      "native_definition": "a thing or action related to wait",
-      "core_concept": "a clear scene connected with wait – 与该词相连的清晰场景",
+      "origin": "中古英语 waiten ← 盎格鲁诺曼语 waiter ← 法兰克语 *wahtwēn（守望）← 原始日耳曼语 *wahtwō（守卫）← 原始印欧语 *weǵ-（清醒、警觉）；与 watch 同支",
+      "native_definition": "to stay where one is until something happens",
+      "core_concept": "staying put because what you need has not come – 该来的还没来，就守在原处不动",
       "core_image": "车站长椅上的人盯着钟面，列车迟迟没有进站",
       "chinese": [
-        "wait"
+        "等",
+        "等候",
+        "等待"
       ],
       "examples": [
-        "The wait changed the situation.",
-        "Researchers discussed the wait carefully."
+        "We waited an hour for the bus.",
+        "Wait here until I call you."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wait：从核心场景引出的常用义"
+        "等：停在原处不走",
+        "等候：语气较正式，多指等人或消息",
+        "等待：把这段停留说得更书面"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waiter",
@@ -165628,25 +165649,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waiter，现代词义按整体记",
-      "native_definition": "a thing or action related to waiter",
-      "core_concept": "a clear scene connected with waiter – 与该词相连的清晰场景",
+      "origin": "14 世纪末的中古英语 waiter（侍从、守望者），即 wait ＋ -er；「餐桌侍者」义 15 世纪末始见",
+      "native_definition": "a man who serves food at tables in a restaurant",
+      "core_concept": "one who stands by the table to serve those eating – 守在桌边伺候进餐的人",
       "core_image": "服务员端着托盘穿过餐桌之间，把饮料放到客人面前",
       "chinese": [
-        "waiter"
+        "男服务员",
+        "侍者"
       ],
       "examples": [
-        "The waiter changed the situation.",
-        "Researchers discussed the waiter carefully."
+        "The waiter brought the menu at once.",
+        "He worked as a waiter that summer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "waiter：从核心场景引出的常用义"
+        "男服务员：餐厅里上菜的那位男性",
+        "侍者：偏书面，不分性别时也用"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waitress",
@@ -165656,25 +165678,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waitress，现代词义按整体记",
-      "native_definition": "a thing or action related to waitress",
-      "core_concept": "a clear scene connected with waitress – 与该词相连的清晰场景",
+      "origin": "由 waiter ＋ 阴性后缀 -ess 构成，1834 年始见记载",
+      "native_definition": "a woman who serves food at tables in a restaurant",
+      "core_concept": "a woman who stands by the table to serve those eating – 守在桌边伺候进餐的女性",
       "core_image": "服务员在餐厅桌间记录点单，随后端来热盘",
       "chinese": [
-        "waitress"
+        "女服务员"
       ],
       "examples": [
-        "The waitress changed the situation.",
-        "Researchers discussed the waitress carefully."
+        "A waitress took their order.",
+        "She trained the new waitresses herself."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "waitress：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wake",
@@ -165684,25 +165703,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wake，现代词义按整体记",
-      "native_definition": "a thing or action related to wake",
-      "core_concept": "a clear scene connected with wake – 与该词相连的清晰场景",
+      "origin": "中古英语 waken ← 古英语 wacan／wacian（醒来、守夜）← 原始日耳曼语 *wakaną ← 原始印欧语 *weǵ-（清醒）",
+      "native_definition": "to stop sleeping, or to make someone stop sleeping",
+      "core_concept": "passing from sleep back into awareness – 从睡里回到有知觉的状态",
       "core_image": "天亮后床上的人睁开眼，窗帘缝里透进晨光",
       "chinese": [
-        "wake"
+        "醒",
+        "唤醒",
+        "醒来"
       ],
       "examples": [
-        "The wake changed the situation.",
-        "Researchers discussed the wake carefully."
+        "She woke before the alarm rang.",
+        "Try not to wake the baby."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wake：从核心场景引出的常用义"
+        "醒：自己不再睡",
+        "唤醒：使别人不再睡",
+        "醒来：强调由睡转醒那一刻"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "waken",
@@ -165712,25 +165734,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 waken，现代词义按整体记",
-      "native_definition": "a thing or action related to waken",
-      "core_concept": "a clear scene connected with waken – 与该词相连的清晰场景",
+      "origin": "中古英语 waknen ← 古英语 wæcnan ← 原始日耳曼语 *waknaną（醒）← 原始印欧语 *weǵ-（清醒）",
+      "native_definition": "to wake, or to rouse someone from sleep",
+      "core_concept": "bringing someone out of sleep – 把人从睡中带出来",
       "core_image": "闹钟响起，熟睡者坐起并拉开床边窗帘",
       "chinese": [
-        "waken"
+        "唤醒",
+        "使苏醒"
       ],
       "examples": [
-        "The waken changed the situation.",
-        "Researchers discussed the waken carefully."
+        "The noise wakened the whole house.",
+        "He wakened slowly and sat up."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "waken：从核心场景引出的常用义"
+        "唤醒：叫某人醒过来",
+        "使苏醒：把昏睡或不振的状态带回清醒"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "walk",
@@ -165740,25 +165763,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 walk，现代词义按整体记",
-      "native_definition": "a thing or action related to walk",
-      "core_concept": "a clear scene connected with walk – 与该词相连的清晰场景",
+      "origin": "中古英语 walken ← 古英语 wealcan（转动、滚）与 wealcian（卷、缠）合流 ← 原始日耳曼语 *walkaną（滚、行走）← 原始印欧语 *walg-（转、动）",
+      "native_definition": "to move along on foot at a normal pace",
+      "core_concept": "moving forward on foot, one leg after the other – 靠两条腿一前一后往前挪",
       "core_image": "脚步沿人行道一左一右向前，影子跟在身后",
       "chinese": [
-        "walk"
+        "走",
+        "步行",
+        "散步"
       ],
       "examples": [
-        "The walk changed the situation.",
-        "Researchers discussed the walk carefully."
+        "They walked home along the canal.",
+        "She walks to work every day."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "walk：从核心场景引出的常用义"
+        "走：用脚行进",
+        "步行：不借车马，全靠两腿",
+        "散步：为舒展而慢走一趟"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wall",
@@ -165768,25 +165794,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wall，现代词义按整体记",
-      "native_definition": "a thing or action related to wall",
-      "core_concept": "a clear scene connected with wall – 与该词相连的清晰场景",
+      "origin": "中古英语 wal ← 古英语 weall（墙、堤、垒）← 原始西日耳曼语 *wall ← 拉丁语 vallum（土垒、栅墙）← 原始印欧语 *welH-（转、卷）",
+      "native_definition": "an upright structure that encloses or divides a space",
+      "core_concept": "an upright barrier that shuts one space off from another – 立起来的一道挡，把一处与另一处隔开",
       "core_image": "砖块一层层砌起，把花园和街道隔开",
       "chinese": [
-        "wall"
+        "墙",
+        "围墙",
+        "壁"
       ],
       "examples": [
-        "The wall changed the situation.",
-        "Researchers discussed the wall carefully."
+        "A brick wall runs along the garden.",
+        "Hang the picture on that wall."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wall：从核心场景引出的常用义"
+        "墙：房屋或院落的那道竖直结构",
+        "围墙：绕着一片地圈起来的那种",
+        "壁：室内的那一面，多用于复合词"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "wallet",
@@ -165796,25 +165825,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wallet，现代词义按整体记",
-      "native_definition": "a thing or action related to wallet",
-      "core_concept": "a clear scene connected with wallet – 与该词相连的清晰场景",
+      "origin": "中古英语 walet（口袋、行囊），更早词源不明；或出自诺曼法语 *walet（卷、袋）← 原始日耳曼语 *wal-（卷）",
+      "native_definition": "a small flat folding case for money and cards",
+      "core_concept": "a small flat case folded over to hold money and cards – 对折的小扁夹，装钱与卡片",
       "core_image": "皮夹打开后露出几张卡片和折好的纸币",
       "chinese": [
-        "wallet"
+        "钱包",
+        "票夹"
       ],
       "examples": [
-        "The wallet changed the situation.",
-        "Researchers discussed the wallet carefully."
+        "He left his wallet in the taxi.",
+        "She kept photographs in her wallet."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wallet：从核心场景引出的常用义"
+        "钱包：装钱和卡的那件小夹",
+        "票夹：专放票证的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wander",
@@ -165824,53 +165854,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 wander，现代词义按整体记",
-      "native_definition": "a thing or action related to wander",
-      "core_concept": "a clear scene connected with wander – 与该词相连的清晰场景",
+      "origin": "中古英语 wandren ← 古英语 wandrian（漫游、飘荡）← 原始西日耳曼语 *wandarōn，即 *wandōn（转）＋ 反复体后缀 -rōn",
+      "native_definition": "to move about without a fixed route or purpose",
+      "core_concept": "moving about with no set route to follow – 没有定好的路线，随处移动",
       "core_image": "没有固定路线的人沿小路转弯，脚印散向不同方向",
       "chinese": [
-        "wander"
+        "漫步",
+        "闲逛",
+        "走神"
       ],
       "examples": [
-        "The wander changed the situation.",
-        "Researchers discussed the wander carefully."
+        "They wandered through the old town.",
+        "His attention wandered during the talk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "wander：从核心场景引出的常用义"
+        "漫步：不赶路地随意走",
+        "闲逛：走着看着，无固定去处",
+        "走神：注意力像人一样游走开去"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "want",
       "word": "want",
       "pos": "verb",
-      "phonetic": "/ˈwant/",
+      "phonetic": "/wɒnt/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 want，现代词义按整体记",
-      "native_definition": "a thing or action related to want",
-      "core_concept": "a clear scene connected with want – 与该词相连的清晰场景",
+      "origin": "中古英语 wanten（缺、需要）← 古诺尔斯语 vanta（缺）← 原始日耳曼语 *wanatōną（缺乏）← *wanô（欠缺）← 原始印欧语 *h₁weh₂-（空）",
+      "native_definition": "to feel that you would like to have something",
+      "core_concept": "feeling the gap where something is missing – 感到有个缺口，那里少了点什么",
       "core_image": "橱窗里的物品隔着玻璃吸引目光，手却够不到",
       "chinese": [
-        "want"
+        "想要",
+        "需要",
+        "缺少"
       ],
       "examples": [
-        "The want changed the situation.",
-        "Researchers discussed the want carefully."
+        "I want a cup of tea.",
+        "The house wants a coat of paint."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "want：从核心场景引出的常用义"
+        "想要：心里希望得到",
+        "需要：客观上少了它不行",
+        "缺少：本义即此，指欠着没有"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "war",
