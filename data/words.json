@@ -161478,25 +161478,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 together，现代词义按整体记",
-      "native_definition": "a thing or action related to together",
-      "core_concept": "a clear scene connected with together – 与该词相连的清晰场景",
+      "origin": "中古英语 togedere ← 古英语 tōgædere（聚到一处），由 tō（到）＋ gædere（相聚）构成 ← 原始印欧语 *gʰedʰ-（合、聚）",
+      "native_definition": "with each other, in one group or at one time",
+      "core_concept": "in one place or one action rather than apart – 合在一处或一个动作里，不各行其是",
       "core_image": "两个人合力抬起长桌，动作同时向同一方向",
       "chinese": [
-        "together"
+        "一起",
+        "共同",
+        "一并"
       ],
       "examples": [
-        "The together changed the situation.",
-        "Researchers discussed the together carefully."
+        "They walked home together after class.",
+        "Mix the flour and butter together."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "together：从核心场景引出的常用义"
+        "一起：同处一地或同做一事",
+        "共同：几方一齐参与",
+        "一并：把几件事合到一处办"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "toilet",
@@ -161506,25 +161509,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toilet，现代词义按整体记",
-      "native_definition": "a thing or action related to toilet",
-      "core_concept": "a clear scene connected with toilet – 与该词相连的清晰场景",
+      "origin": "借自中古法语 toilette，是 toile（布）的指小形；本指理发修面时护衣的布，后引申指梳洗之所，19 世纪末在美国转指便所",
+      "native_definition": "a bowl for waste, or the room containing it",
+      "core_concept": "the fixture and the small room built for relieving oneself – 供人如厕的那件器具与那间小屋",
       "core_image": "卫生间里有洗手池、镜子和独立隔间",
       "chinese": [
-        "toilet"
+        "厕所",
+        "马桶"
       ],
       "examples": [
-        "The toilet changed the situation.",
-        "Researchers discussed the toilet carefully."
+        "The toilet is at the end of the corridor.",
+        "He fixed the leaking toilet."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toilet：从核心场景引出的常用义"
+        "厕所：那间屋子",
+        "马桶：屋里那件承接之物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "token",
@@ -161534,53 +161538,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 token，现代词义按整体记",
-      "native_definition": "a thing or action related to token",
-      "core_concept": "a clear scene connected with token – 与该词相连的清晰场景",
+      "origin": "中古英语 token ← 古英语 tācn（记号、标志）← 原始日耳曼语 *taikną（指示物）← 原始印欧语 *deyḱ-（指出、示明）",
+      "native_definition": "a small object used as a sign or in place of money",
+      "core_concept": "a small thing that stands for a larger claim – 一件小东西，代表一份更大的凭据",
       "core_image": "柜台交出一枚小标记，凭它领取寄存物品",
       "chinese": [
-        "token"
+        "凭证",
+        "象征",
+        "代币"
       ],
       "examples": [
-        "The token changed the situation.",
-        "Researchers discussed the token carefully."
+        "Hand in the token to collect your coat.",
+        "She gave him a ring as a token of trust."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "token：从核心场景引出的常用义"
+        "凭证：凭它主张某项权利",
+        "象征：拿实物代表抽象之义",
+        "代币：在特定场所代替钱用的那种小圆片"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "toll",
       "word": "toll",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/təʊl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toll，现代词义按整体记",
-      "native_definition": "a thing or action related to toll",
-      "core_concept": "a clear scene connected with toll – 与该词相连的清晰场景",
+      "origin": "中古英语 toll ← 古英语 toll（通行税）← 原始日耳曼语 *tullaz（所数之数、账目）← 原始印欧语 *del-（数、算）；与 tell、tale 同支",
+      "native_definition": "a charge for using a road or bridge, or the number lost in a disaster",
+      "core_concept": "a count that must be reckoned before passing – 通过之前须先算清的那笔数",
       "core_image": "道路入口的收费亭拦住车辆，司机递出费用",
       "chinese": [
-        "toll"
+        "通行费",
+        "伤亡人数",
+        "鸣响"
       ],
       "examples": [
-        "The toll changed the situation.",
-        "Researchers discussed the toll carefully."
+        "You pay a toll to cross the bridge.",
+        "The death toll rose to forty."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toll：从核心场景引出的常用义"
+        "通行费：过路过桥要交的钱",
+        "伤亡人数：灾祸中清点出的那个数目",
+        "鸣响：钟一下一下敲，也是在计数"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tomato",
@@ -161590,25 +161600,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tomato，现代词义按整体记",
-      "native_definition": "a thing or action related to tomato",
-      "core_concept": "a clear scene connected with tomato – 与该词相连的清晰场景",
+      "origin": "英语 tomate 的变体，借自西班牙语 tomate ← 纳瓦特尔语 tomatl ← 原始乌托-阿兹特克语 *toma-",
+      "native_definition": "a soft round red fruit eaten in salads and sauces",
+      "core_concept": "a soft round red fruit full of juice and seeds – 又红又软、多汁多籽的圆果",
       "core_image": "红色果实从藤上摘下，切开后露出多汁内部",
       "chinese": [
-        "tomato"
+        "番茄",
+        "西红柿"
       ],
       "examples": [
-        "The tomato changed the situation.",
-        "Researchers discussed the tomato carefully."
+        "She sliced a tomato for the salad.",
+        "These tomatoes ripen late in the season."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tomato：从核心场景引出的常用义"
+        "番茄：书面与市场上的通名",
+        "西红柿：北方口语的叫法"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "借自西班牙语，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tomb",
@@ -161618,25 +161629,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tomb，现代词义按整体记",
-      "native_definition": "a thing or action related to tomb",
-      "core_concept": "a clear scene connected with tomb – 与该词相连的清晰场景",
+      "origin": "中古英语 tombe ← 古法语 tombe ← 拉丁语 tumba ← 希腊语 tymbos（坟丘）← 原始印欧语 *tewh₂-（隆起）；取代了古英语 þrūh",
+      "native_definition": "a place built to hold a dead body",
+      "core_concept": "a built chamber made to hold the dead – 造出来安放遗体的那个室",
       "core_image": "地下石室里摆着石棺，入口刻着名字和年代",
       "chinese": [
-        "tomb"
+        "坟墓",
+        "陵墓"
       ],
       "examples": [
-        "The tomb changed the situation.",
-        "Researchers discussed the tomb carefully."
+        "They found the tomb sealed with stone.",
+        "Flowers lay at the foot of the tomb."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tomb：从核心场景引出的常用义"
+        "坟墓：安葬之处的通称",
+        "陵墓：规模大、多为贵者所建的那种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tomorrow",
@@ -161646,53 +161658,55 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tomorrow，现代词义按整体记",
-      "native_definition": "a thing or action related to tomorrow",
-      "core_concept": "a clear scene connected with tomorrow – 与该词相连的清晰场景",
+      "origin": "中古英语 tomorwe ← 古英语 tō morgne（在早晨），由 tō（在）＋ morgen（早晨）的与格构成",
+      "native_definition": "on the day after today",
+      "core_concept": "the day that comes next after this one – 紧接着这一天的下一天",
       "core_image": "日历上今天右边的一格被圈出，表示即将到来",
       "chinese": [
-        "tomorrow"
+        "明天",
+        "明日"
       ],
       "examples": [
-        "The tomorrow changed the situation.",
-        "Researchers discussed the tomorrow carefully."
+        "We leave for Rome tomorrow.",
+        "Tomorrow will be warmer than today."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tomorrow：从核心场景引出的常用义"
+        "明天：口语说法",
+        "明日：书面说法，义同"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "ton",
       "word": "ton",
       "pos": "noun",
-      "phonetic": "/ˈton/",
+      "phonetic": "/tʌn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 ton，现代词义按整体记",
-      "native_definition": "a thing or action related to ton",
-      "core_concept": "a clear scene connected with ton – 与该词相连的清晰场景",
+      "origin": "英语 ton 是 tun（大桶）的变体，受古法语 tonne（吨）影响；本以一桶酒的重量为准",
+      "native_definition": "a unit of weight equal to about a thousand kilograms",
+      "core_concept": "a large fixed unit of weight, once a caskful – 一个大的定量重量单位，原以一桶为准",
       "core_image": "货运单上标出很大的重量单位，叉车搬运整箱货物",
       "chinese": [
-        "ton"
+        "吨",
+        "大量"
       ],
       "examples": [
-        "The ton changed the situation.",
-        "Researchers discussed the ton carefully."
+        "The lorry carries ten tons of gravel.",
+        "She has tons of work this week."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "ton：从核心场景引出的常用义"
+        "吨：计量重量的那个单位",
+        "大量：口语里借这个大单位说「很多」"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tone",
@@ -161702,25 +161716,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tone，现代词义按整体记",
-      "native_definition": "a thing or action related to tone",
-      "core_concept": "a clear scene connected with tone – 与该词相连的清晰场景",
+      "origin": "中古英语 ton ← 拉丁语 tonus（音、调），或经古法语 ton 传入 ← 希腊语 tonos（张力、音高）← teino（拉伸）",
+      "native_definition": "the quality of a sound, or the way something is said",
+      "core_concept": "the particular quality that marks one sound or shade from another – 使一个声音或色泽区别于另一个的那种性质",
       "core_image": "钢琴敲下一个音，旁边的音叉随之振动",
       "chinese": [
-        "tone"
+        "音调",
+        "语气",
+        "色调"
       ],
       "examples": [
-        "The tone changed the situation.",
-        "Researchers discussed the tone carefully."
+        "She answered in a sharp tone.",
+        "The walls are painted in warm tones."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tone：从核心场景引出的常用义"
+        "音调：声音的高低与性质",
+        "语气：说话时透出的那种态度",
+        "色调：颜色的深浅倾向"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tongue",
@@ -161730,25 +161747,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tongue，现代词义按整体记",
-      "native_definition": "a thing or action related to tongue",
-      "core_concept": "a clear scene connected with tongue – 与该词相连的清晰场景",
+      "origin": "中古英语 tonge ← 古英语 tunge ← 原始日耳曼语 *tungǭ（舌）← 原始印欧语 *dn̥ǵʰwéh₂s（舌）；与拉丁语 lingua 同源",
+      "native_definition": "the soft movable part inside the mouth used for tasting and speaking",
+      "core_concept": "the soft movable organ in the mouth that shapes speech and taste – 口中那块能动的软肉，管说话也管辨味",
       "core_image": "舌头在口腔中移动，帮助人发出清楚声音",
       "chinese": [
-        "tongue"
+        "舌",
+        "语言"
       ],
       "examples": [
-        "The tongue changed the situation.",
-        "Researchers discussed the tongue carefully."
+        "He burned his tongue on the soup.",
+        "She speaks three tongues fluently."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tongue：从核心场景引出的常用义"
+        "舌：口中那个器官",
+        "语言：因说话靠它，故以它代指所说的话"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tonight",
@@ -161758,25 +161776,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tonight，现代词义按整体记",
-      "native_definition": "a thing or action related to tonight",
-      "core_concept": "a clear scene connected with tonight – 与该词相连的清晰场景",
+      "origin": "中古英语 tonyght ← 古英语 tō niht（在这一夜），即 to ＋ night",
+      "native_definition": "during the evening or night of today",
+      "core_concept": "the night of the day one is now in – 眼下这一天的那个夜里",
       "core_image": "窗外天色已暗，桌上日历标着今晚的活动",
       "chinese": [
-        "tonight"
+        "今夜",
+        "今天晚上"
       ],
       "examples": [
-        "The tonight changed the situation.",
-        "Researchers discussed the tonight carefully."
+        "We are eating out tonight.",
+        "Tonight there will be frost."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tonight：从核心场景引出的常用义"
+        "今夜：书面些的说法",
+        "今天晚上：口语说法，义同"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "too",
@@ -161786,25 +161805,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 too，现代词义按整体记",
-      "native_definition": "a thing or action related to too",
-      "core_concept": "a clear scene connected with too – 与该词相连的清晰场景",
+      "origin": "中古英语 to（也、此外）← 古英语 tō（此外、也），是介词 tō 的副词用法",
+      "native_definition": "also, or more than is wanted",
+      "core_concept": "added on beyond what was there, sometimes beyond what suits – 在原有之外再添，添过了就成了过头",
       "core_image": "杯子已经装满，又有人继续往里面添水",
       "chinese": [
-        "too"
+        "也",
+        "太",
+        "过于"
       ],
       "examples": [
-        "The too changed the situation.",
-        "Researchers discussed the too carefully."
+        "She wants to come too.",
+        "The soup is too salty."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "too：从核心场景引出的常用义"
+        "也：在已有的之外再加一个",
+        "太：超过合适的程度",
+        "过于：程度上越过了界"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tooth",
@@ -161814,25 +161836,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tooth，现代词义按整体记",
-      "native_definition": "a thing or action related to tooth",
-      "core_concept": "a clear scene connected with tooth – 与该词相连的清晰场景",
-      "core_image": "牙齿排列在口腔边缘，咬住一小块苹果",
+      "origin": "中古英语 toth ← 古英语 tōþ ← 原始日耳曼语 *tanþs ← 原始印欧语 *h₃dónts（牙）；与拉丁语 dens 同源",
+      "native_definition": "one of the hard white parts in the mouth used for biting",
+      "core_concept": "one of the hard white parts set in the jaw for biting – 长在颌上、用来咬的那种硬白小块",
+      "core_image": "口腔边缘排着一列硬白的小块，咬下去在苹果上留了个缺口",
       "chinese": [
-        "tooth"
+        "牙齿",
+        "牙"
       ],
       "examples": [
-        "The tooth changed the situation.",
-        "Researchers discussed the tooth carefully."
+        "The dentist pulled out a back tooth.",
+        "Brush your teeth before bed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tooth：从核心场景引出的常用义"
+        "牙齿：日常通称",
+        "牙：单字说法，多用于复合词"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "top",
@@ -161842,25 +161865,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 top，现代词义按整体记",
-      "native_definition": "a thing or action related to top",
-      "core_concept": "a clear scene connected with top – 与该词相连的清晰场景",
+      "origin": "中古英语 top ← 古英语 topp（顶、尖、簇）← 原始日耳曼语 *tuppaz（辫、末端），更早词源不明",
+      "native_definition": "the highest part or surface of something",
+      "core_concept": "the part with nothing above it – 上面再没有别的那一部分",
       "core_image": "山顶从云层上方露出，登山者正接近最高处",
       "chinese": [
-        "top"
+        "顶部",
+        "顶端",
+        "首位"
       ],
       "examples": [
-        "The top changed the situation.",
-        "Researchers discussed the top carefully."
+        "Write your name at the top of the page.",
+        "She finished top of her class."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "top：从核心场景引出的常用义"
+        "顶部：整体最上那一片",
+        "顶端：最上那一个点",
+        "首位：排序里最前那一名"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "topic",
@@ -161870,25 +161896,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 topic，现代词义按整体记",
-      "native_definition": "a thing or action related to topic",
-      "core_concept": "a clear scene connected with topic – 与该词相连的清晰场景",
+      "origin": "源自拉丁语 topica ← 希腊语 topikos（与处所有关的、与论题有关的）← topos（处所）",
+      "native_definition": "the subject being talked or written about",
+      "core_concept": "the one matter that the talking keeps to – 说话所围绕的那一件事",
       "core_image": "白板中央写着讨论主题，周围列出相关要点",
       "chinese": [
-        "topic"
+        "话题",
+        "题目"
       ],
       "examples": [
-        "The topic changed the situation.",
-        "Researchers discussed the topic carefully."
+        "They changed the topic quickly.",
+        "Each essay covers one topic."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "topic：从核心场景引出的常用义"
+        "话题：谈话所谈的那件事",
+        "题目：文章或讨论所立的那个题"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "torch",
@@ -161898,25 +161925,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 torch，现代词义按整体记",
-      "native_definition": "a thing or action related to torch",
-      "core_concept": "a clear scene connected with torch – 与该词相连的清晰场景",
-      "core_image": "手电筒光束穿过黑暗，照亮前方一小片路",
+      "origin": "中古英语 torche（大烛、点着的棍）← 古法语 torche（火把、扭成的草束），或出自通俗拉丁语 *torca（扭成之物）← 拉丁语 torqueō（扭、拧）",
+      "native_definition": "a small electric lamp carried in the hand, or a burning stick",
+      "core_concept": "a light one carries in the hand to see by – 手里提着照路的那个光源",
+      "core_image": "一束光从手里的筒子射出，穿过黑暗照亮前方一小片路面",
       "chinese": [
-        "torch"
+        "电筒",
+        "火把"
       ],
       "examples": [
-        "The torch changed the situation.",
-        "Researchers discussed the torch carefully."
+        "Take a torch; the path is unlit.",
+        "Runners carried the torch through the city."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "torch：从核心场景引出的常用义"
+        "电筒：装电池的那种手提灯",
+        "火把：点着的那种，本义在此"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "torrent",
@@ -161926,81 +161954,90 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 torrent，现代词义按整体记",
-      "native_definition": "a thing or action related to torrent",
-      "core_concept": "a clear scene connected with torrent – 与该词相连的清晰场景",
+      "origin": "借自法语 torrent ← 意大利语 torrente ← 拉丁语 torrentem（奔涌的），是 torrēre（烤、灼）的现在分词",
+      "native_definition": "a violent fast-moving stream, or a rush of something",
+      "core_concept": "water moving so fast and full that nothing holds it – 水又急又满，什么也拦不住",
       "core_image": "暴雨形成急流，水从山坡冲下并卷走树枝",
       "chinese": [
-        "torrent"
+        "洪流",
+        "湍流",
+        "连串"
       ],
       "examples": [
-        "The torrent changed the situation.",
-        "Researchers discussed the torrent carefully."
+        "A torrent swept the bridge away.",
+        "He faced a torrent of questions."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "torrent：从核心场景引出的常用义"
+        "洪流：来势极猛的大股水",
+        "湍流：流得急、翻卷不平的水",
+        "连串：把这股势头用到话或事上，一波接一波"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "toss",
       "word": "toss",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/tɒs/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toss，现代词义按整体记",
-      "native_definition": "a thing or action related to toss",
-      "core_concept": "a clear scene connected with toss – 与该词相连的清晰场景",
+      "origin": "中古英语 tossen（颠动、簸扬），更早词源不明；或出自古诺尔斯语，或为 tosen（撕扯）的变体",
+      "native_definition": "to throw something lightly, or to move about restlessly",
+      "core_concept": "sending something up with a light careless movement – 随手往上一送，不使大力",
       "core_image": "硬币被抛到空中，旋转几圈后落回掌心",
       "chinese": [
-        "toss"
+        "抛",
+        "掷",
+        "翻来覆去"
       ],
       "examples": [
-        "The toss changed the situation.",
-        "Researchers discussed the toss carefully."
+        "She tossed the keys onto the table.",
+        "He tossed all night in the heat."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toss：从核心场景引出的常用义"
+        "抛：轻轻往上或往前送出",
+        "掷：使些力气投出去",
+        "翻来覆去：身体不安地来回动，如同被颠着"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "total",
       "word": "total",
-      "pos": "noun",
+      "pos": "noun / adjective",
       "phonetic": "/ˈtəʊ.tl/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 total，现代词义按整体记",
-      "native_definition": "a thing or action related to total",
-      "core_concept": "a clear scene connected with total – 与该词相连的清晰场景",
+      "origin": "中古英语 total ← 古法语 total ← 中世纪拉丁语 totalis ← 拉丁语 totus（全部的），totus 更早词源不明",
+      "native_definition": "the whole amount, or complete and without exception",
+      "core_concept": "the whole taken together, with nothing left out – 全部合起来算，一样不漏",
       "core_image": "表格最后一栏把各项数字相加成一个总数",
       "chinese": [
-        "total"
+        "合计",
+        "总额",
+        "完全的"
       ],
       "examples": [
-        "The total changed the situation.",
-        "Researchers discussed the total carefully."
+        "The total came to ninety pounds.",
+        "It was a total failure."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "total：从核心场景引出的常用义"
+        "合计：各项加起来得出的数",
+        "总额：那个数所代表的金额",
+        "完全的：形容一件事到了彻底的程度"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "touch",
@@ -162010,25 +162047,28 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 touch，现代词义按整体记",
-      "native_definition": "a thing or action related to touch",
-      "core_concept": "a clear scene connected with touch – 与该词相连的清晰场景",
+      "origin": "中古英语 touchen ← 古法语 tochier（触）← 通俗拉丁语 *tuccō（敲、碰）← 法兰克语 *tukkōn（碰、拉）← 原始印欧语 *dewk-（牵、拉）",
+      "native_definition": "to put a hand or finger on something",
+      "core_concept": "bringing one surface into contact with another – 让一个表面与另一个挨上",
       "core_image": "手指轻触屏幕，图标随接触立即改变",
       "chinese": [
-        "touch"
+        "触摸",
+        "碰到",
+        "触动"
       ],
       "examples": [
-        "The touch changed the situation.",
-        "Researchers discussed the touch carefully."
+        "Do not touch the wet paint.",
+        "Her story touched everyone present."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "touch：从核心场景引出的常用义"
+        "触摸：手放上去感觉",
+        "碰到：与某物发生接触",
+        "触动：把这一碰用到人心上，指使人动情"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tough",
@@ -162038,53 +162078,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tough，现代词义按整体记",
-      "native_definition": "a thing or action related to tough",
-      "core_concept": "a clear scene connected with tough – 与该词相连的清晰场景",
+      "origin": "中古英语 tough ← 古英语 tōh（坚韧的、黏的）← 原始日耳曼语 *tanhuz（黏牢的、韧的）← 原始印欧语 *denḱ-（咬）",
+      "native_definition": "hard to break or cut, or hard to bear",
+      "core_concept": "holding together under strain instead of giving way – 受力时抱住不散，不肯让开",
       "core_image": "厚皮革被反复弯折，仍然没有撕裂",
       "chinese": [
-        "tough"
+        "坚韧的",
+        "艰难的",
+        "强硬的"
       ],
       "examples": [
-        "The tough changed the situation.",
-        "Researchers discussed the tough carefully."
+        "The meat was tough and dry.",
+        "They went through a tough winter."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tough：从核心场景引出的常用义"
+        "坚韧的：材料受折不断",
+        "艰难的：处境使人难熬",
+        "强硬的：态度硬，不肯松口"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "tour",
       "word": "tour",
-      "pos": "noun",
+      "pos": "noun / verb",
       "phonetic": "/tɔː(r)/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tour，现代词义按整体记",
-      "native_definition": "a thing or action related to tour",
-      "core_concept": "a clear scene connected with tour – 与该词相连的清晰场景",
+      "origin": "源自古法语 tour／tourn（一圈），出自动词 torner（转）← 拉丁语 tornare（车削、旋转）",
+      "native_definition": "a journey visiting several places and returning",
+      "core_concept": "a round trip that takes in several places and comes back – 绕一圈，走过几处再回来",
       "core_image": "游客沿地图路线参观几处景点后回到入口",
       "chinese": [
-        "tour"
+        "旅行",
+        "巡演",
+        "游览"
       ],
       "examples": [
-        "The tour changed the situation.",
-        "Researchers discussed the tour carefully."
+        "They went on a tour of the lakes.",
+        "The band starts its tour in May."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tour：从核心场景引出的常用义"
+        "旅行：为游览而走的那一趟",
+        "巡演：演出团体逐地演出的那一圈",
+        "游览：到一处逐点看过"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tourist",
@@ -162094,81 +162140,86 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tourist，现代词义按整体记",
-      "native_definition": "a thing or action related to tourist",
-      "core_concept": "a clear scene connected with tourist – 与该词相连的清晰场景",
+      "origin": "由 tour ＋ -ist 构成；tour 一支 ← 古法语 tour（一圈）← 拉丁语 tornare（旋转）",
+      "native_definition": "a person travelling for pleasure",
+      "core_concept": "one who travels to see places for pleasure – 为看景取乐而出行的人",
       "core_image": "游客背着相机站在景点牌前，翻看手中的地图",
       "chinese": [
-        "tourist"
+        "观光者",
+        "旅游者"
       ],
       "examples": [
-        "The tourist changed the situation.",
-        "Researchers discussed the tourist carefully."
+        "Tourists crowded the old square.",
+        "The town lives on tourists in summer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tourist：从核心场景引出的常用义"
+        "观光者：以看景为主的那种旅人",
+        "旅游者：泛指出门游玩的人"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "tow",
       "word": "tow",
       "pos": "verb",
-      "phonetic": "/ˈtow/",
+      "phonetic": "/təʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tow，现代词义按整体记",
-      "native_definition": "a thing or action related to tow",
-      "core_concept": "a clear scene connected with tow – 与该词相连的清晰场景",
+      "origin": "中古英语 towen ← 古英语 togian（拖）← 原始日耳曼语 *tugōną（拉、拽）← 原始印欧语 *dewk-（牵、拉）",
+      "native_definition": "to pull a vehicle along behind another",
+      "core_concept": "pulling something along behind by a rope or bar – 用绳或杆把东西挂在后面拉着走",
       "core_image": "拖车用缆绳拉着抛锚车辆缓慢前进",
       "chinese": [
-        "tow"
+        "拖",
+        "牵引"
       ],
       "examples": [
-        "The tow changed the situation.",
-        "Researchers discussed the tow carefully."
+        "A truck towed the broken car away.",
+        "They towed the barge upriver."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tow：从核心场景引出的常用义"
+        "拖：在后面拉着行进",
+        "牵引：以机械之力拉动，多用于车船"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "toward",
       "word": "toward",
       "pos": "preposition",
-      "phonetic": "/ˈtoward/",
+      "phonetic": "/təˈwɔːd/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toward，现代词义按整体记",
-      "native_definition": "a thing or action related to toward",
-      "core_concept": "a clear scene connected with toward – 与该词相连的清晰场景",
+      "origin": "中古英语 toward ← 古英语 tōweard，即 to ＋ -ward（朝…方向）",
+      "native_definition": "in the direction of, or in relation to",
+      "core_concept": "facing or moving in the direction of something – 面朝或行向某处",
       "core_image": "脚步朝着山谷尽头的灯光逐渐靠近",
       "chinese": [
-        "toward"
+        "朝向",
+        "接近",
+        "对于"
       ],
       "examples": [
-        "The toward changed the situation.",
-        "Researchers discussed the toward carefully."
+        "She walked toward the gate.",
+        "His attitude toward the plan has changed."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toward：从核心场景引出的常用义"
+        "朝向：动作或位置对着某方",
+        "接近：时间或数量上快到某点",
+        "对于：把这个「朝向」用到态度上"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "towel",
@@ -162178,53 +162229,57 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 towel，现代词义按整体记",
-      "native_definition": "a thing or action related to towel",
-      "core_concept": "a clear scene connected with towel – 与该词相连的清晰场景",
+      "origin": "中古英语 towayle ← 古法语 toaille（毛巾）／中世纪拉丁语 toallia ← 法兰克语 *þwahilu（布）← 原始日耳曼语 *þwahaną（洗）",
+      "native_definition": "a piece of cloth used for drying",
+      "core_concept": "a cloth that takes up water from what it wipes – 一块布，把擦过之处的水吸走",
       "core_image": "湿手在布巾上擦过，水分被纤维吸走",
       "chinese": [
-        "towel"
+        "毛巾",
+        "擦手布"
       ],
       "examples": [
-        "The towel changed the situation.",
-        "Researchers discussed the towel carefully."
+        "He dried his hands on a towel.",
+        "Hang the wet towel on the rail."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "towel：从核心场景引出的常用义"
+        "毛巾：日常用来擦身擦手的那种布",
+        "擦手布：专供擦手的那一种"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "tower",
       "word": "tower",
-      "pos": "noun",
-      "phonetic": "/ˈtower/",
+      "pos": "noun / verb",
+      "phonetic": "/ˈtaʊə/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 tower，现代词义按整体记",
-      "native_definition": "a thing or action related to tower",
-      "core_concept": "a clear scene connected with tower – 与该词相连的清晰场景",
+      "origin": "中古英语 tour ← 古英语 tūr 与古法语 tour，两支同出拉丁语 turris（塔）← 希腊语 tyrsis；取代了中古英语 stepel",
+      "native_definition": "a tall narrow building or part of a building",
+      "core_concept": "a structure built far higher than it is wide – 造得远比宽度高的那种建筑",
       "core_image": "高塔从城墙后向上伸展，顶部远高于周围屋顶",
       "chinese": [
-        "tower"
+        "塔",
+        "高楼",
+        "高耸"
       ],
       "examples": [
-        "The tower changed the situation.",
-        "Researchers discussed the tower carefully."
+        "A stone tower stood above the walls.",
+        "Cliffs tower over the beach."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "tower：从核心场景引出的常用义"
+        "塔：独立的那种高耸建筑",
+        "高楼：楼房中特别高的那些",
+        "高耸：把这个形状当动作说，指远高于周围"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "town",
@@ -162234,25 +162289,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 town，现代词义按整体记",
-      "native_definition": "a thing or action related to town",
-      "core_concept": "a clear scene connected with town – 与该词相连的清晰场景",
+      "origin": "中古英语 toun ← 古英语 tūn（围地、庄院）← 原始日耳曼语 *tūną（篱、围地）；德语 Zaun（篱）与之同源",
+      "native_definition": "a place with houses and shops, larger than a village",
+      "core_concept": "a settlement bigger than a village but short of a city – 比村大、够不上城的那种聚居地",
       "core_image": "低矮房屋围着一条主街聚集，远处没有高楼",
       "chinese": [
-        "town"
+        "镇",
+        "城镇"
       ],
       "examples": [
-        "The town changed the situation.",
-        "Researchers discussed the town carefully."
+        "She grew up in a small town.",
+        "The town has one cinema."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "town：从核心场景引出的常用义"
+        "镇：行政或习惯上称镇的那种地方",
+        "城镇：连着城一起说的通称"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "toxic",
@@ -162262,25 +162318,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toxic，现代词义按整体记",
-      "native_definition": "a thing or action related to toxic",
-      "core_concept": "a clear scene connected with toxic – 与该词相连的清晰场景",
+      "origin": "借自法语 toxique ← 晚期拉丁语 toxicus（有毒的）← 拉丁语 toxicum（毒）← 希腊语 toxikon（涂在箭上的毒）← toxon（弓）",
+      "native_definition": "containing poison, or very harmful",
+      "core_concept": "carrying something that harms whatever takes it in – 带着能害人的东西，谁碰上谁受损",
       "core_image": "警示标签贴在容器上，戴手套的人小心地远离液体",
       "chinese": [
-        "toxic"
+        "有毒的",
+        "有害的"
       ],
       "examples": [
-        "The toxic changed the situation.",
-        "Researchers discussed the toxic carefully."
+        "The fumes are highly toxic.",
+        "He left a toxic workplace."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toxic：从核心场景引出的常用义"
+        "有毒的：含毒，入体致害",
+        "有害的：把这层推开，指对人对事都不好"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "toy",
@@ -162290,25 +162347,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语词条 toy，现代词义按整体记",
-      "native_definition": "a thing or action related to toy",
-      "core_concept": "a clear scene connected with toy – 与该词相连的清晰场景",
+      "origin": "中古英语 toye（嬉戏、玩意），或出自中古荷兰语 tuyg（家伙、器具）← 原始日耳曼语 *teugą（所拉之物、器具）← 原始印欧语 *dewk-（拉）",
+      "native_definition": "an object made for children to play with",
+      "core_concept": "a thing made only to be played with – 专为玩而做的东西",
       "core_image": "彩色小车放在地毯上，孩子推动它绕过积木搭成的弯道",
       "chinese": [
-        "toy"
+        "玩具",
+        "玩物"
       ],
       "examples": [
-        "The toy changed the situation.",
-        "Researchers discussed the toy carefully."
+        "The floor was covered with toys.",
+        "He treats the car as a toy."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "toy：从核心场景引出的常用义"
+        "玩具：给孩子玩的那些器物",
+        "玩物：被当作消遣之物的东西，多含贬义"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "trace",
