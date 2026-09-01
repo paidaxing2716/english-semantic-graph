@@ -135086,7 +135086,7 @@
     {
       "id": "mine",
       "word": "mine",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/maɪn/",
       "decomposable": "root",
       "root_ids": [
@@ -135405,7 +135405,7 @@
     {
       "id": "many",
       "word": "many",
-      "pos": "noun/pronoun",
+      "pos": "noun / pronoun",
       "phonetic": "/ˈmeni/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -135519,7 +135519,7 @@
     {
       "id": "more",
       "word": "more",
-      "pos": "noun/adverb",
+      "pos": "noun / adverb",
       "phonetic": "/mɔː/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -135667,7 +135667,7 @@
     {
       "id": "manifest",
       "word": "manifest",
-      "pos": "adjective/verb",
+      "pos": "adjective / verb",
       "phonetic": "/ˈmænɪfest/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -135726,7 +135726,7 @@
     {
       "id": "material",
       "word": "material",
-      "pos": "noun/adjective",
+      "pos": "noun / adjective",
       "phonetic": "/məˈtɪəriəl/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -135755,7 +135755,7 @@
     {
       "id": "matter",
       "word": "matter",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈmætə/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136017,7 +136017,7 @@
     {
       "id": "masculine",
       "word": "masculine",
-      "pos": "adjective/noun",
+      "pos": "adjective / noun",
       "phonetic": "/ˈmæskjəlɪn/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136130,7 +136130,7 @@
     {
       "id": "monitor",
       "word": "monitor",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈmɒnɪtə/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136326,7 +136326,7 @@
     {
       "id": "mistake",
       "word": "mistake",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/mɪˈsteɪk/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136383,7 +136383,7 @@
     {
       "id": "most",
       "word": "most",
-      "pos": "adjective/adverb",
+      "pos": "adjective / adverb",
       "phonetic": "/məʊst/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136443,7 +136443,7 @@
     {
       "id": "mind",
       "word": "mind",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/maɪnd/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136584,7 +136584,7 @@
     {
       "id": "mutter",
       "word": "mutter",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/ˈmʌtə/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136669,7 +136669,7 @@
     {
       "id": "narrative",
       "word": "narrative",
-      "pos": "noun/adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˈnærətɪv/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136698,7 +136698,7 @@
     {
       "id": "neglect",
       "word": "neglect",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/nɪˈɡlekt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136811,7 +136811,7 @@
     {
       "id": "next",
       "word": "next",
-      "pos": "adjective/adverb",
+      "pos": "adjective / adverb",
       "phonetic": "/nekst/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136876,7 +136876,7 @@
     {
       "id": "notwithstanding",
       "word": "notwithstanding",
-      "pos": "preposition/conjunction",
+      "pos": "preposition / conjunction",
       "phonetic": "/ˌnɒtwɪðˈstændɪŋ/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136909,7 +136909,7 @@
     {
       "id": "northeast",
       "word": "northeast",
-      "pos": "noun/adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˌnɔːθˈiːst/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136937,7 +136937,7 @@
     {
       "id": "northwest",
       "word": "northwest",
-      "pos": "noun/adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˌnɔːθˈwest/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -136993,7 +136993,7 @@
     {
       "id": "notice",
       "word": "notice",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈnəʊtɪs/",
       "decomposable": "root",
       "root_ids": [
@@ -137052,7 +137052,7 @@
     {
       "id": "now",
       "word": "now",
-      "pos": "adverb/noun",
+      "pos": "adverb / noun",
       "phonetic": "/naʊ/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137114,7 +137114,7 @@
     {
       "id": "numb",
       "word": "numb",
-      "pos": "adjective/verb",
+      "pos": "adjective / verb",
       "phonetic": "/nʌm/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137143,7 +137143,7 @@
     {
       "id": "number",
       "word": "number",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈnʌmbə/",
       "decomposable": "root",
       "root_ids": [
@@ -137205,7 +137205,7 @@
     {
       "id": "obscure",
       "word": "obscure",
-      "pos": "adjective/verb",
+      "pos": "adjective / verb",
       "phonetic": "/əbˈskjʊə/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137441,7 +137441,7 @@
     {
       "id": "off",
       "word": "off",
-      "pos": "adverb/preposition/adjective",
+      "pos": "adverb / preposition / adjective",
       "phonetic": "/ɒf/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137534,7 +137534,7 @@
     {
       "id": "official",
       "word": "official",
-      "pos": "adjective/noun",
+      "pos": "adjective / noun",
       "phonetic": "/əˈfɪʃəl/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137592,7 +137592,7 @@
     {
       "id": "only",
       "word": "only",
-      "pos": "adverb/adjective",
+      "pos": "adverb / adjective",
       "phonetic": "/ˈəʊn.li/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137729,7 +137729,7 @@
     {
       "id": "optimum",
       "word": "optimum",
-      "pos": "noun/adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˈɒptɪməm/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137783,7 +137783,7 @@
     {
       "id": "other",
       "word": "other",
-      "pos": "adjective/pronoun",
+      "pos": "adjective / pronoun",
       "phonetic": "/ˈʌðə/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137837,7 +137837,7 @@
     {
       "id": "out",
       "word": "out",
-      "pos": "adverb/preposition/adjective",
+      "pos": "adverb / preposition / adjective",
       "phonetic": "/ˈaʊt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137870,7 +137870,7 @@
     {
       "id": "outfit",
       "word": "outfit",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈaʊtfɪt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -137953,7 +137953,7 @@
     {
       "id": "outline",
       "word": "outline",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈaʊtlaɪn/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -138011,7 +138011,7 @@
     {
       "id": "output",
       "word": "output",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈaʊtpʊt/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -138040,7 +138040,7 @@
     {
       "id": "outrage",
       "word": "outrage",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/ˈaʊt.reɪdʒ/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -138094,7 +138094,7 @@
     {
       "id": "outside",
       "word": "outside",
-      "pos": "preposition/adverb/adjective/noun",
+      "pos": "preposition / adverb / adjective / noun",
       "phonetic": "/ˌaʊtˈsaɪd/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -138156,7 +138156,7 @@
     {
       "id": "over",
       "word": "over",
-      "pos": "preposition/adverb/adjective",
+      "pos": "preposition / adverb / adjective",
       "phonetic": "/ˈəʊ.və/",
       "decomposable": "germanic",
       "root_ids": [],
@@ -169475,59 +169475,59 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "write 的现在分词名词化",
-      "native_definition": "a thing or action related to writing",
-      "core_concept": "a clear scene connected with writing – 与该词相连的清晰场景",
+      "origin": "中古英语 writing ← 古英语 wrīting，即 write ＋ 动名词后缀 -ing；write 一支 ← 原始日耳曼语 *wrītaną（刻、划）",
+      "native_definition": "the activity of putting words on paper, or words so put",
+      "core_concept": "the putting down of words, and what is put down – 把话落成字这件事，以及落下的那些字",
       "core_image": "桌上摊着几页手写稿，段落和标点排成整齐的行",
       "chinese": [
         "写作",
         "文字"
       ],
       "examples": [
-        "The writing changed the situation.",
-        "Researchers discussed the writing carefully."
+        "Her writing has improved this term.",
+        "The writing on the label had faded."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "写作：从核心场景引出的常用义"
+        "写作：把文字写出来这项活动",
+        "文字：写下来的那些字迹或篇章"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "wrong",
       "word": "wrong",
-      "pos": "adjective/adverb/noun",
+      "pos": "adjective / adverb / noun",
       "phonetic": "/ˈrɒŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 wrang（弯曲、错误）← 原始日耳曼语",
-      "native_definition": "a thing or action related to wrong",
-      "core_concept": "a clear scene connected with wrong – 与该词相连的清晰场景",
+      "origin": "中古英语 wrong ← 古英语 wrang（弯的、歪的）← 古诺尔斯语 rangr（歪、错）← 原始日耳曼语 *wrangaz（拧歪的）← 原始印欧语 *wer-（转、弯）；与 wring 同支",
+      "native_definition": "not correct, or not in accordance with what is right",
+      "core_concept": "bent away from what is correct – 从正确的那条上歪开了",
       "core_image": "两条答案并排，红笔在其中一条旁画出叉号",
       "chinese": [
         "错误的",
         "不对的"
       ],
       "examples": [
-        "The wrong changed the situation.",
-        "Researchers discussed the wrong carefully."
+        "You have the wrong number.",
+        "It was wrong of him to say that."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "错误的：从核心场景引出的常用义"
+        "错误的：与事实或标准不符",
+        "不对的：做法上不该如此"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
       "collocations": [
         "go wrong —— 出错",
         "wrong with sth —— 某物出了问题"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "yard",
@@ -169537,54 +169537,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 geard（围起来的土地）；码义来自同一长度单位传统",
-      "native_definition": "a thing or action related to yard",
-      "core_concept": "a clear scene connected with yard – 与该词相连的清晰场景",
+      "origin": "中古英语 yerd ← 古英语 ġeard（围地、园）← 原始日耳曼语 *gardaz（围起来的地）← 原始印欧语 *gʰerdʰ-（围）；「码」是另一支，← 古英语 gierd（杆、量尺）",
+      "native_definition": "an enclosed area beside a building, or a unit of length",
+      "core_concept": "a piece of ground fenced off beside a building – 房子旁边圈起来的一块地",
       "core_image": "木栅栏围出一块空地，门边放着一把卷尺",
       "chinese": [
         "院子",
         "码"
       ],
       "examples": [
-        "The yard changed the situation.",
-        "Researchers discussed the yard carefully."
+        "The children play in the back yard.",
+        "The cloth is sold by the yard."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "院子：从核心场景引出的常用义"
+        "院子：屋旁围起来的那块空地",
+        "码：长度单位，原以一根量杆为准，是同形异源的另一支"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "yawn",
       "word": "yawn",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/jɔːn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 ġēanian（张口）",
-      "native_definition": "a thing or action related to yawn",
-      "core_concept": "a clear scene connected with yawn – 与该词相连的清晰场景",
+      "origin": "中古英语 yanen ← 古英语 ġinian（张口）← 原始日耳曼语 *ginōną；并与另一支 gānian 合流 ← 原始印欧语 *ǵʰeyh₁-（张口）",
+      "native_definition": "to open the mouth wide and breathe in, from tiredness",
+      "core_concept": "opening the mouth wide to draw a long breath when tired – 累了便张大嘴长吸一口气",
       "core_image": "清晨的人张大嘴伸展双臂，窗外天色刚亮",
       "chinese": [
         "打哈欠"
       ],
       "examples": [
-        "The yawn changed the situation.",
-        "Researchers discussed the yawn carefully."
+        "He yawned and rubbed his eyes.",
+        "She stifled a yawn during the talk."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "打哈欠：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "year",
@@ -169594,193 +169591,187 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 gēar ← 原始日耳曼语 *jērą",
-      "native_definition": "a thing or action related to year",
-      "core_concept": "a clear scene connected with year – 与该词相连的清晰场景",
+      "origin": "中古英语 yeer ← 古英语 ġēar ← 原始日耳曼语 *jērą ← 原始印欧语 *yóh₁r̥（年、春）",
+      "native_definition": "the period of twelve months, or the time the earth takes to circle the sun",
+      "core_concept": "the full round the earth makes about the sun – 地球绕日走完的那一整圈",
       "core_image": "日历一页页被翻过，最后回到同一个月份",
       "chinese": [
         "年",
         "年度"
       ],
       "examples": [
-        "The year changed the situation.",
-        "Researchers discussed the year carefully."
+        "She has lived here for ten years.",
+        "Sales rose in the second year."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "年：从核心场景引出的常用义"
+        "年：十二个月的那段时间",
+        "年度：作为统计或行政单位的那一年"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "yearly",
       "word": "yearly",
-      "pos": "adjective/adverb",
+      "pos": "adjective / adverb",
       "phonetic": "/ˈjɪəli/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "year + -ly",
-      "native_definition": "a thing or action related to yearly",
-      "core_concept": "a clear scene connected with yearly – 与该词相连的清晰场景",
+      "origin": "中古英语 yeerly ← 古英语 ġēarlīċ，即 year ＋ 形容词或副词后缀 -ly",
+      "native_definition": "happening once every year",
+      "core_concept": "coming round once in each turn of the year – 每一年里出现一次",
       "core_image": "墙上挂着四季日历，每年同一格被重新标记",
       "chinese": [
         "每年的"
       ],
       "examples": [
-        "The yearly changed the situation.",
-        "Researchers discussed the yearly carefully."
+        "They hold a yearly inspection.",
+        "The rent is reviewed yearly."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "每年的：从核心场景引出的常用义"
-      ],
+      "semantic_expansions": [],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
       "collocations": [
         "yearly report —— 年度报告",
         "once yearly —— 每年一次"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "yell",
       "word": "yell",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/jel/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 ġellan（大声喊）",
-      "native_definition": "a thing or action related to yell",
-      "core_concept": "a clear scene connected with yell – 与该词相连的清晰场景",
+      "origin": "中古英语 ȝellen ← 古英语 ġiellan（大叫）← 原始日耳曼语 *gellaną ← 原始印欧语 *gʰel-（喊、鸣）",
+      "native_definition": "to shout loudly, often in anger or excitement",
+      "core_concept": "letting the voice out at full force – 把声音全放出来",
       "core_image": "操场另一端的人张嘴挥手，声音传过整片空地",
       "chinese": [
         "叫喊",
         "喊叫"
       ],
       "examples": [
-        "The yell changed the situation.",
-        "Researchers discussed the yell carefully."
+        "He yelled across the pitch to her.",
+        "A yell came from the far room."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "叫喊：从核心场景引出的常用义"
+        "叫喊：高声喊出",
+        "喊叫：同义，偏重连续地喊"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "yellow",
       "word": "yellow",
-      "pos": "adjective/noun",
+      "pos": "adjective / noun",
       "phonetic": "/ˈjeləʊ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 geolu ← 原始日耳曼语 *gelwaz",
-      "native_definition": "a thing or action related to yellow",
-      "core_concept": "a clear scene connected with yellow – 与该词相连的清晰场景",
+      "origin": "中古英语 yelow ← 古英语 ġeolu ← 原始日耳曼语 *gelwaz ← 原始印欧语 *ǵʰelh₃-（绿、黄）",
+      "native_definition": "of the colour of butter or ripe lemons",
+      "core_concept": "the colour that lies between green and orange – 介于绿与橙之间的那种颜色",
       "core_image": "秋天的叶片铺满小路，阳光照出明亮色块",
       "chinese": [
         "黄色的",
         "黄色"
       ],
       "examples": [
-        "The yellow changed the situation.",
-        "Researchers discussed the yellow carefully."
+        "She painted the door bright yellow.",
+        "Yellow leaves covered the lane."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "黄色的：从核心场景引出的常用义"
+        "黄色的：形容颜色如柠檬如蜂蜜",
+        "黄色：那种颜色本身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "yes",
       "word": "yes",
-      "pos": "adverb/noun",
+      "pos": "adverb / noun",
       "phonetic": "/jes/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 ġēsse（确实）",
-      "native_definition": "a thing or action related to yes",
-      "core_concept": "a clear scene connected with yes – 与该词相连的清晰场景",
+      "origin": "中古英语 yes ← 古英语 ġīese（正是、当然），与 yea 同根",
+      "native_definition": "used to give a positive answer",
+      "core_concept": "the word that grants what was asked – 用来应下所问的那个词",
       "core_image": "点头的人在表格最后一栏打下一个肯定记号",
       "chinese": [
         "是",
         "同意"
       ],
       "examples": [
-        "The yes changed the situation.",
-        "Researchers discussed the yes carefully."
+        "Yes, that is exactly right.",
+        "He gave a firm yes to the offer."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "是：从核心场景引出的常用义"
+        "是：肯定对方所说",
+        "同意：把这份肯定用在意见或请求上"
       ],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
       "collocations": [
         "say yes to sth —— 同意某事",
         "yes or no —— 是或不是"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "yesterday",
       "word": "yesterday",
-      "pos": "adverb/noun",
+      "pos": "adverb / noun",
       "phonetic": "/ˈjestədeɪ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 ġiestran dæġ（前一日）",
-      "native_definition": "a thing or action related to yesterday",
-      "core_concept": "a clear scene connected with yesterday – 与该词相连的清晰场景",
+      "origin": "中古英语 yesterday ← 古英语 ġiestrandæġ，即 yester（昨）＋ day（日）",
+      "native_definition": "on the day before today",
+      "core_concept": "the day that came just before this one – 紧在这一天之前的那一天",
       "core_image": "墙上日历的前一格被翻起，日期已经过去",
       "chinese": [
         "昨天"
       ],
       "examples": [
-        "The yesterday changed the situation.",
-        "Researchers discussed the yesterday carefully."
+        "We met her only yesterday.",
+        "Yesterday was colder than today."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "昨天：从核心场景引出的常用义"
-      ],
+      "semantic_expansions": [],
       "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
       "collocations": [
         "yesterday morning —— 昨天早晨",
         "the day before yesterday —— 前天"
-      ],
-      "stub": true
+      ]
     },
     {
       "id": "yield",
       "word": "yield",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/jiːld/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 ġieldan（偿还、给予）← 原始日耳曼语",
-      "native_definition": "a thing or action related to yield",
-      "core_concept": "a clear scene connected with yield – 与该词相连的清晰场景",
+      "origin": "中古英语 yielden（付、交）← 古英语 ġieldan（偿付）← 原始日耳曼语 *geldaną（付）← 原始印欧语 *gʰeldʰ-（付）",
+      "native_definition": "to produce something, or to stop resisting",
+      "core_concept": "handing over what one has been holding – 把手里守着的交出去",
       "core_image": "树枝压弯后让开道路，果实一串串垂在下面",
       "chinese": [
         "产生",
@@ -169788,46 +169779,47 @@
         "产量"
       ],
       "examples": [
-        "The yield changed the situation.",
-        "Researchers discussed the yield carefully."
+        "The field yields two crops a year.",
+        "He refused to yield to pressure."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "产生：从核心场景引出的常用义"
+        "产生：出产出成果，如同交出所得",
+        "屈服：不再抵抗，把立场交出去",
+        "产量：交出来的那个数量"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "young",
       "word": "young",
-      "pos": "adjective/noun",
+      "pos": "adjective / noun",
       "phonetic": "/jʌŋ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 geong ← 原始日耳曼语 *jungwa-",
-      "native_definition": "a thing or action related to young",
-      "core_concept": "a clear scene connected with young – 与该词相连的清晰场景",
+      "origin": "中古英语 yong ← 古英语 ġeong ← 原始日耳曼语 *jungaz ← 原始印欧语 *h₂yuh₁en-（年少）",
+      "native_definition": "having lived only a short time",
+      "core_concept": "early in the span of a life – 处在一生里靠前的那一段",
       "core_image": "小动物跟在成年动物身后，四肢还显得细长",
       "chinese": [
         "年轻的",
         "幼小的"
       ],
       "examples": [
-        "The young changed the situation.",
-        "Researchers discussed the young carefully."
+        "She looked young for her age.",
+        "The young of the species stay hidden."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "年轻的：从核心场景引出的常用义"
+        "年轻的：人的岁数不大",
+        "幼小的：动植物还未长成"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "youngster",
@@ -169837,26 +169829,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "young + -ster",
-      "native_definition": "a thing or action related to youngster",
-      "core_concept": "a clear scene connected with youngster – 与该词相连的清晰场景",
+      "origin": "由 young ＋ 后缀 -ster 构成，17 世纪初始见；young 一支 ← 古英语 ġeong ← 原始日耳曼语 *jungaz",
+      "native_definition": "a child or young person",
+      "core_concept": "one still in the early part of life – 还处在人生前段的那个人",
       "core_image": "一群孩子背着书包在校门口追跑",
       "chinese": [
         "年轻人",
         "小孩"
       ],
       "examples": [
-        "The youngster changed the situation.",
-        "Researchers discussed the youngster carefully."
+        "The youngsters ran ahead down the path.",
+        "He coaches youngsters at the club."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "年轻人：从核心场景引出的常用义"
+        "年轻人：岁数轻的那些人",
+        "小孩：其中更小的那些"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "yours",
@@ -169866,26 +169858,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "your + -s",
-      "native_definition": "a thing or action related to yours",
-      "core_concept": "a clear scene connected with yours – 与该词相连的清晰场景",
+      "origin": "中古英语 youres，14 世纪起见于记载，即 your ＋ -s，仿 his 的构式而成；取代了标准语中的 yourn",
+      "native_definition": "the one or ones belonging to you",
+      "core_concept": "the thing that belongs to the person addressed – 属于所说话对象的那一份",
       "core_image": "两本书并排放着，一本封面上贴着写有姓名的标签",
       "chinese": [
         "你的",
         "你们的"
       ],
       "examples": [
-        "The yours changed the situation.",
-        "Researchers discussed the yours carefully."
+        "This coat is yours, not mine.",
+        "Our seats are here; yours are behind."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "你的：从核心场景引出的常用义"
+        "你的：归你所有之物",
+        "你们的：归你们几人所有之物"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "yourself",
@@ -169895,25 +169887,22 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "your + self",
-      "native_definition": "a thing or action related to yourself",
-      "core_concept": "a clear scene connected with yourself – 与该词相连的清晰场景",
+      "origin": "中古英语 yourself，即 your ＋ -self；self 一支 ← 古英语 self（自身）← 原始日耳曼语 *selbaz",
+      "native_definition": "used to refer back to the person being addressed",
+      "core_concept": "pointing back at the person just addressed – 回指刚被称呼的那个人",
       "core_image": "镜子前的人抬手，镜中动作与本人完全同步",
       "chinese": [
         "你自己"
       ],
       "examples": [
-        "The yourself changed the situation.",
-        "Researchers discussed the yourself carefully."
+        "Did you cut your hair yourself?",
+        "Help yourself to more bread."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "你自己：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "youth",
@@ -169923,26 +169912,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古英语 ġeoguþ（年轻时期）",
-      "native_definition": "a thing or action related to youth",
-      "core_concept": "a clear scene connected with youth – 与该词相连的清晰场景",
+      "origin": "中古英语 youthe ← 古英语 ġeoguþ（年少之时）← 原始日耳曼语 *jugunþō，即 young ＋ 抽象名词后缀 -th",
+      "native_definition": "the period of being young, or young people as a group",
+      "core_concept": "the early stretch of a life, and those in it – 一生里靠前的那一段，以及处在其中的人",
       "core_image": "操场上年轻人奔跑，阳光照在刚起步的身影上",
       "chinese": [
         "青年",
         "青春"
       ],
       "examples": [
-        "The youth changed the situation.",
-        "Researchers discussed the youth carefully."
+        "He spent his youth at sea.",
+        "The scheme is aimed at local youth."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "青年：从核心场景引出的常用义"
+        "青年：处在这个阶段的人",
+        "青春：这段时期本身"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "zeal",
@@ -169952,26 +169941,26 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "古法语 zel ← 拉丁语 zelus ← 希腊 zēlos（热望）",
-      "native_definition": "a thing or action related to zeal",
-      "core_concept": "a clear scene connected with zeal – 与该词相连的清晰场景",
+      "origin": "中古英语 zele ← 古法语 zel ← 晚期拉丁语 zelus ← 希腊语 zelos（热忱、妒意）← 原始印欧语 *yeh₂-（追求）；与 jealous 同源",
+      "native_definition": "great energy in pursuit of a cause",
+      "core_concept": "energy poured into a cause one believes in – 为自己认定的事一股劲使出去",
       "core_image": "志愿者一早打开门，把材料一份份摆上长桌",
       "chinese": [
         "热情",
         "热忱"
       ],
       "examples": [
-        "The zeal changed the situation.",
-        "Researchers discussed the zeal carefully."
+        "She threw herself into the work with zeal.",
+        "His reforming zeal never faded."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "热情：从核心场景引出的常用义"
+        "热情：对某事怀着强烈的心力",
+        "热忱：同义，偏书面，多用于正式场合"
       ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记",
-      "stub": true
+      "decomposable_note": "早期借词，经古英语或中古英语阶段传入，词形已归化，无可拆的词缀"
     },
     {
       "id": "zebra",
@@ -169981,54 +169970,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "意大利语 zebra，源头更早不明",
-      "native_definition": "a thing or action related to zebra",
-      "core_concept": "a clear scene connected with zebra – 与该词相连的清晰场景",
+      "origin": "1600 年前后借自意大利语 zebra ← 葡萄牙语 zebra ← 古葡萄牙语 azebra（野驴）← 通俗拉丁语 *eciferus ← 拉丁语 equiferus（野马），由 equus（马）＋ ferus（野的）构成",
+      "native_definition": "an African animal like a horse, with black and white stripes",
+      "core_concept": "a horse-like animal marked all over with black and white bands – 形似马、通体黑白相间成条带的兽",
       "core_image": "黑白条纹的动物穿过草地，远处的条纹融成一片",
       "chinese": [
         "斑马"
       ],
       "examples": [
-        "The zebra changed the situation.",
-        "Researchers discussed the zebra carefully."
+        "A herd of zebra crossed the plain.",
+        "No two zebras share the same pattern."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "斑马：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "借自意大利语，本项目未为其词族建根，按整体记",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "拉丁借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "zigzag",
       "word": "zigzag",
-      "pos": "noun/adjective",
+      "pos": "noun / adjective",
       "phonetic": "/ˈzɪɡ.zæɡ/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "法语 zigzag，模拟曲折线条的构形",
-      "native_definition": "a thing or action related to zigzag",
-      "core_concept": "a clear scene connected with zigzag – 与该词相连的清晰场景",
+      "origin": "1712 年始见，借自法语 zigzag（1662 年始见），或出自日耳曼来源经瓦隆语 ziczac 传入；也可能取自字母 Z 的形状",
+      "native_definition": "a line or course that turns sharply left and right in turn",
+      "core_concept": "a course that turns sharply back the other way again and again – 一路反复朝相反方向急折",
       "core_image": "山路左右连续折返，每个弯都朝相反方向",
       "chinese": [
         "之字形",
         "曲折的"
       ],
       "examples": [
-        "The zigzag changed the situation.",
-        "Researchers discussed the zigzag carefully."
+        "The path climbs in a zigzag up the slope.",
+        "He drew a zigzag across the page."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "之字形：从核心场景引出的常用义"
+        "之字形：这种左右折返的形状",
+        "曲折的：形容路线或过程这样折来折去"
       ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记",
-      "stub": true
+      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "zinc",
@@ -170038,86 +170024,83 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "法语 zinc ← 德语 Zink",
-      "native_definition": "a thing or action related to zinc",
-      "core_concept": "a clear scene connected with zinc – 与该词相连的清晰场景",
+      "origin": "借自德语 Zink ← 中古高地德语 zinke（尖、齿）← 原始日耳曼语 *tindaz（尖齿）← 原始印欧语 *h₃dónts（牙、突出物）；因炼出时结成齿状晶而得名",
+      "native_definition": "a bluish-white metal used to coat iron against rust",
+      "core_concept": "a bluish-white metal laid over iron to keep rust off – 覆在铁面上防锈的那种青白色金属",
       "core_image": "银灰色金属片放在实验台上，表面反射冷光",
       "chinese": [
         "锌"
       ],
       "examples": [
-        "The zinc changed the situation.",
-        "Researchers discussed the zinc carefully."
+        "The roof is coated with zinc.",
+        "Zinc protects the steel from rust."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "锌：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "经法语入英语的借词，本项目未为其词族建根，按整体记",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "zip",
       "word": "zip",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/zɪp/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语 zip（拟声词，表示快速移动或拉链声）",
-      "native_definition": "a thing or action related to zip",
-      "core_concept": "a clear scene connected with zip – 与该词相连的清晰场景",
+      "origin": "英语 zip 为拟声词，学那一声轻快的响",
+      "native_definition": "to fasten with a zip, or to move very fast",
+      "core_concept": "a quick movement that closes or passes in one stroke – 一下就合上或掠过的那种快动作",
       "core_image": "两排细齿被滑块一合，布袋口立刻闭上",
       "chinese": [
         "拉上拉链",
         "快速移动"
       ],
       "examples": [
-        "The zip changed the situation.",
-        "Researchers discussed the zip carefully."
+        "He zipped up his jacket and left.",
+        "A car zipped past the junction."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "拉上拉链：从核心场景引出的常用义"
+        "拉上拉链：滑块一推把两排齿合到一起",
+        "快速移动：动作快到只留一声响"
       ],
       "collocations": [
         "zip up sth —— 拉上某物的拉链"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     },
     {
       "id": "zone",
       "word": "zone",
-      "pos": "noun/verb",
+      "pos": "noun / verb",
       "phonetic": "/zəʊn/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "法语 zone ← 拉丁语 zona ← 希腊 zōnē（带子、区域）",
-      "native_definition": "a thing or action related to zone",
-      "core_concept": "a clear scene connected with zone – 与该词相连的清晰场景",
+      "origin": "源自拉丁语 zona（腰带）← 希腊语 zone（束带、腰带），因地带在地图上呈条带状而得名",
+      "native_definition": "an area marked off from those around it by some feature",
+      "core_concept": "a stretch marked off from its surroundings by one shared feature – 因某个共同特征而被从周围划出来的一片",
       "core_image": "地图上一块颜色相同的地带被粗线圈出",
       "chinese": [
         "区域",
         "分区"
       ],
       "examples": [
-        "The zone changed the situation.",
-        "Researchers discussed the zone carefully."
+        "Parking is banned in this zone.",
+        "The council zoned the land for housing."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "区域：从核心场景引出的常用义"
+        "区域：划出来的那一片地方",
+        "分区：把整片按用途划成几块这个动作"
       ],
-      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记",
-      "stub": true
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "zoo",
@@ -170127,54 +170110,51 @@
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语 zoo 是 zoological garden 的缩略",
-      "native_definition": "a thing or action related to zoo",
-      "core_concept": "a clear scene connected with zoo – 与该词相连的清晰场景",
+      "origin": "截自 zoological garden（动物学园）；zoological 一支 ← 希腊语 zoion（动物）＋ logia（学）",
+      "native_definition": "a place where wild animals are kept for people to see",
+      "core_concept": "a place where wild animals are kept so people can see them – 圈养野生动物供人观看的地方",
       "core_image": "树木间隔着几块围栏牌，游客沿小路观察里面的动物",
       "chinese": [
         "动物园"
       ],
       "examples": [
-        "The zoo changed the situation.",
-        "Researchers discussed the zoo carefully."
+        "The zoo opens at nine each day.",
+        "They took the children to the zoo."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
-      "semantic_expansions": [
-        "动物园：从核心场景引出的常用义"
-      ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "semantic_expansions": [],
+      "decomposable_note": "希腊借词，本项目未为其词族建根，按整体记"
     },
     {
       "id": "zoom",
       "word": "zoom",
-      "pos": "verb/noun",
+      "pos": "verb / noun",
       "phonetic": "/zuːm/",
       "decomposable": "germanic",
       "root_ids": [],
       "root_logic": "",
-      "origin": "英语 zoom（拟声构形，表示快速移动）",
-      "native_definition": "a thing or action related to zoom",
-      "core_concept": "a clear scene connected with zoom – 与该词相连的清晰场景",
+      "origin": "英语 zoom 为拟声词，1892 年前后始见，学那一声疾驰的呼响；镜头义 1930 年代由 zoom lens 而来",
+      "native_definition": "to move very fast, or to change a camera's focal length",
+      "core_concept": "moving fast enough to leave only a rushing sound – 快到只剩一声呼响",
       "core_image": "镜头从远处的山峰快速推近到一扇窗",
       "chinese": [
         "迅速移动",
         "变焦"
       ],
       "examples": [
-        "The zoom changed the situation.",
-        "Researchers discussed the zoom carefully."
+        "Motorbikes zoomed along the seafront.",
+        "Zoom in on the top left corner."
       ],
       "synonyms": [],
       "antonyms": [],
       "related": [],
       "semantic_expansions": [
-        "迅速移动：从核心场景引出的常用义"
+        "迅速移动：极快地驶过或掠过",
+        "变焦：把镜头焦距迅速拉近或推远"
       ],
-      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆",
-      "stub": true
+      "decomposable_note": "日耳曼核心词，本身即词根，无拉丁词缀可拆"
     }
   ]
 }
