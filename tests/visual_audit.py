@@ -75,7 +75,7 @@ CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
   const sels = ['header h1','.subtitle','.badge','#search-input','#hint','#legend .legend-item',
                 '.detail-title','.detail-phonetic','.detail-block h3','.detail-definition p',
                 '.detail-block.feature p','.origin-src','.chip','.chip.zh','.detail-examples li',
-                '.speak-btn','footer','.tier-btn'];
+                '.speak-btn','footer','.tier-btn','#study-progress'];
   const out = [];
   for (const s of sels) {
     const el = document.querySelector(s);
@@ -93,35 +93,74 @@ CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
   return out;
 }"""
 
-# 记忆状态的三档颜色。这些元素只在特定状态下出现（tier chip 要揭晓后、
-# 要那个词恰好处在该档），靠主清单的 querySelector 抓不稳。这里把三档
-# 各造一个样本塞进真实容器里量 —— 背景取自实际父级，与真环境一致。
-TIER_CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
-  const hosts = [
-    ['#study-card', 'chip'],
-    ['#detail-content', 'chip'],
-    ['#detail-content', 'tier-btn'],
+# 只在特定状态下才出现的带色文字。主清单靠 querySelector 抓这些不稳
+# ——tier chip 要揭晓后、且那个词恰好处在该档；存储状态要等异步查询回来。
+# 这里给每个 class 造一个样本塞进真实容器再量：背景取自实际父级，
+# 与真环境一致，且不依赖运行时状态，结果是确定的。
+DYNAMIC_CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
+  // [宿主选择器, 标签名, class]。宿主决定背景（bgOf 会往上找），
+  // 所以同一个 class 在学习卡和详情栏里要各量一次。
+  const probes = [
+    ['#study-card',     'span',   'chip tier-1'],
+    ['#study-card',     'span',   'chip tier-2'],
+    ['#study-card',     'span',   'chip tier-3'],
+    ['#detail-content', 'span',   'chip tier-1'],
+    ['#detail-content', 'span',   'chip tier-2'],
+    ['#detail-content', 'span',   'chip tier-3'],
+    ['#detail-content', 'button', 'tier-btn tier-1'],
+    ['#detail-content', 'button', 'tier-btn tier-2'],
+    ['#detail-content', 'button', 'tier-btn tier-3'],
+    ['#study-progress', 'span',   'prog-store ok'],
+    ['#study-progress', 'span',   'prog-store warn'],
+    ['#study-progress', 'span',   'prog-hint'],
+    ['#study-progress', 'button', 'prog-btn'],
+    ['#study-card',     'td',     'fam-word tier-1'],
+    ['#study-card',     'td',     'fam-word tier-2'],
+    ['#study-card',     'td',     'fam-word tier-3'],
+    // 下面这几项是裸文字（自身没有背景），一旦主题的背景没跟着切就会浅压浅
+    // —— 夜间的学习桌曾经正是如此，.fam-word 只有 2.72:1。
+    ['#study-card',     'td',     'fam-word'],
+    ['#study-card',     'td',     'fam-logic'],
+    ['#study-card',     'td',     'fam-zh'],
+    ['#study-card',     'div',    'card-label'],
+    ['#study-card',     'div',    'card-meta'],
+    ['#study-card',     'div',    'card-logic'],
+    ['#study-card',     'div',    'card-hint'],
+    ['#study-card',     'div',    'answer-def'],
+    ['#study-card',     'div',    'answer-ipa'],
+    ['#study-card',     'li',     'answer-ex'],
+    ['#study-progress', 'label',  'prog-toggle'],
+    ['#study-card',     'div',    'card-image'],
+    ['#study-card',     'div',    'answer-zh'],
+    ['#study-card',     'div',    'card-root-concept'],
+    ['#study-card',     'button', 'act'],
+    ['#study-card',     'button', 'act primary'],
   ];
   const out = [];
-  for (const [hostSel, kind] of hosts) {
+  for (const [hostSel, tag, cls] of probes) {
     const host = document.querySelector(hostSel);
-    if (!host) { out.push({sel:`${hostSel} .${kind}`, missing:true}); continue; }
-    const probe = document.createElement('div');
-    host.appendChild(probe);
-    for (let t = 1; t <= 3; t++) {
-      const el = document.createElement(kind === 'tier-btn' ? 'button' : 'span');
-      el.className = (kind === 'tier-btn' ? 'tier-btn' : 'chip') + ' tier-' + t;
-      el.textContent = '状态';
-      probe.appendChild(el);
-      const cs = getComputedStyle(el);
-      const fg = parse(cs.color);
-      const size = parseFloat(cs.fontSize);
-      if (fg) {
-        out.push({sel:`${hostSel} .${kind}.tier-${t}`, size:+size.toFixed(1),
-                  ratio:+ratio(fg, bgOf(el)).toFixed(2), min: size >= 24 ? 3 : 4.5});
-      }
+    if (!host) { out.push({sel:`${hostSel} .${cls}`, missing:true}); continue; }
+    // td 必须挂在 table 里才拿得到该有的样式
+    let holder = document.createElement('div');
+    if (tag === 'td') {
+      holder.innerHTML = '<table class="fam-table"><tbody><tr></tr></tbody></table>';
     }
-    probe.remove();
+    host.appendChild(holder);
+    const parent = tag === 'td' ? holder.querySelector('tr') : holder;
+    const el = document.createElement(tag);
+    el.className = cls;
+    el.textContent = '状态文字';
+    parent.appendChild(el);
+    const cs = getComputedStyle(el);
+    const fg = parse(cs.color);
+    const size = parseFloat(cs.fontSize);
+    const bold = (parseInt(cs.fontWeight,10) || 400) >= 700;
+    if (fg) {
+      out.push({sel:`${hostSel} .${cls}`, size:+size.toFixed(1),
+                ratio:+ratio(fg, bgOf(el)).toFixed(2),
+                min: (size >= 24 || (size >= 18.66 && bold)) ? 3 : 4.5});
+    }
+    holder.remove();
   }
   return out;
 }"""
@@ -480,20 +519,20 @@ def audit(name, page):
     if missing:
         print(f"[WARN] 选择器未渲染（可能是改名或该视口隐藏）：{', '.join(missing)}")
 
-    tiers = page.evaluate(TIER_CONTRAST_JS)
-    tfails = [r for r in tiers if not r.get("missing") and r["ratio"] < r["min"]]
-    tmissing = [r["sel"] for r in tiers if r.get("missing")]
-    if tfails:
+    dyn = page.evaluate(DYNAMIC_CONTRAST_JS)
+    dfails = [r for r in dyn if not r.get("missing") and r["ratio"] < r["min"]]
+    dmissing = [r["sel"] for r in dyn if r.get("missing")]
+    if dfails:
         ok = False
-        print("[FAIL] 记忆状态配色对比度不足：")
-        for r in sorted(tfails, key=lambda x: x["ratio"]):
-            print(f"        {r['sel']:<34} {r['ratio']:>5}:1  (需 {r['min']}, {r['size']}px)")
-    elif tmissing:
+        print("[FAIL] 动态文字对比度不足：")
+        for r in sorted(dfails, key=lambda x: x["ratio"]):
+            print(f"        {r['sel']:<40} {r['ratio']:>5}:1  (需 {r['min']}, {r['size']}px)")
+    elif dmissing:
         ok = False
-        print(f"[FAIL] 记忆状态配色无法检查：宿主元素缺失 {', '.join(tmissing)}")
+        print(f"[FAIL] 动态文字无法检查：宿主元素缺失 {', '.join(dmissing)}")
     else:
-        worst = min(tiers, key=lambda x: x["ratio"])
-        print(f"[PASS] 记忆状态三档配色达标（最低 {worst['ratio']}:1 @ {worst['sel']}）")
+        worst = min(dyn, key=lambda x: x["ratio"])
+        print(f"[PASS] 动态文字配色达标（{len(dyn)} 项，最低 {worst['ratio']}:1 @ {worst['sel']}）")
 
     issues = layout_issues(page)
     if issues:

@@ -50,8 +50,33 @@
    * Chrome 不弹窗（按站点参与度静默判定），但 Firefox 会弹权限框 ——
    * 让一个还没记录任何进度的新访客先看到弹窗是没道理的。
    */
-  let persistState = null;   // null=未申请 true=已持久化 false=被拒绝或不支持
+  let persistState = null;   // null=还不知道 true=已持久化 false=没拿到或不支持
   let persistAsked = false;
+
+  // 只读地问一次当前状态，不触发申请（persisted() 不会弹权限框，persist() 才会）。
+  // 页面一打开就要知道真实状态 —— 否则已有进度的老用户在第一次答题前
+  // 界面只能显示"不知道"。
+  function probePersisted() {
+    try {
+      const s = navigator.storage;
+      if (!s || !s.persisted) { persistState = false; return; }
+      s.persisted().then((ok) => {
+        persistState = !!ok;
+        if (ok) persistAsked = true;   // 已经是持久化的，不必再申请
+        refreshProgressBar();
+      }).catch(() => { persistState = false; });
+    } catch (e) { persistState = false; }
+  }
+
+  // 装成 app 打开时 display-mode 是 standalone。用来区分
+  // "还在浏览器里，建议去装" 和 "已经装了但仍没拿到持久化"。
+  function isInstalled() {
+    try {
+      return window.matchMedia("(display-mode: standalone)").matches
+        || window.matchMedia("(display-mode: fullscreen)").matches
+        || window.navigator.standalone === true;   // iOS 的私有属性
+    } catch (e) { return false; }
+  }
 
   function ensurePersistent() {
     if (persistAsked) return;
@@ -61,7 +86,7 @@
       if (!s || !s.persist || !s.persisted) { persistState = false; return; }
       s.persisted()
         .then((already) => (already ? true : s.persist()))
-        .then((ok) => { persistState = !!ok; })
+        .then((ok) => { persistState = !!ok; refreshProgressBar(); })
         .catch(() => { persistState = false; });
     } catch (e) { persistState = false; }
   }
@@ -93,6 +118,7 @@
   }
 
   loadProgress();
+  probePersisted();
 
   let words = [];
   let roots = [];
@@ -218,11 +244,35 @@
         ${skipMastered() ? "checked" : ""}>跳过已牢固</label>
       <button class="prog-btn" data-act="export" title="${esc(exportHint())}">导出</button>
       <button class="prog-btn" data-act="import">导入</button>
+      ${storeBadge()}
     </div>`;
   }
 
-  // 存储是否受保护，说给用户听。不另开一块 UI —— 挂在导出按钮的 title 上，
-  // 不动布局就不会在 390px 上挤到别的东西（审计查 #study 的横向溢出）。
+  /* 存储状态做成看得见的文字，不是 tooltip。
+   * 手机上长按基本看不到 title，而"我的进度到底保不保得住"恰恰是只有在
+   * 手机真机上才能确认的事 —— 藏在 hover 里等于没有。 */
+  function storeBadge() {
+    if (persistState === null) return "";           // 还没问出来，别闪一下
+    if (persistState === true) {
+      return '<span class="prog-store ok" title="只有你手动清除浏览器数据才会丢失">'
+        + "存储已锁定</span>";
+    }
+    // 没拿到持久化。区分两种情形，给的建议不一样。
+    return isInstalled()
+      ? '<span class="prog-store warn" title="浏览器未授予持久化配额，磁盘紧张时可能回收。请偶尔导出备份。">'
+        + "存储未锁定 · 建议导出备份</span>"
+      : '<span class="prog-store warn" title="菜单里选「添加到手机」装成应用，浏览器通常就会授予持久化配额">'
+        + "存储未锁定 · 可加到主屏幕</span>";
+  }
+
+  // 存储状态是异步问出来的，问到了要把已渲染的进度条换掉。
+  // 只替换 .prog-row 而不重写整个 progEl —— 前面那句"第 N / M 词"是同级文本，
+  // 整片重写会把它一起冲掉。
+  function refreshProgressBar() {
+    const row = progEl.querySelector(".prog-row");
+    if (row) row.outerHTML = progressBar();
+  }
+
   function exportHint() {
     const p = persistState;
     if (p === true) return "进度已持久化：只有你手动清除浏览器数据才会丢失。仍建议偶尔导出备份。";

@@ -851,7 +851,9 @@ main { flex: 1; display: flex; min-height: 0; overflow: hidden; }
   font-size: 12px;
 }
 .prog-row .chip { margin: 0; }
-.prog-hint { color: var(--ink-faint); }
+/* 用 --ink-soft 而非 --ink-faint：进度条落在学习桌底色 #e8e1d3 上，
+   比 --paper 深一档，--ink-faint 在那儿只有 4.27:1 过不了 AA。 */
+.prog-hint { color: var(--ink-soft); }
 .prog-toggle { color: var(--ink-soft); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
 .prog-toggle input { cursor: pointer; }
 .prog-btn {
@@ -865,6 +867,18 @@ main { flex: 1; display: flex; min-height: 0; overflow: hidden; }
   cursor: pointer;
 }
 .prog-btn:hover { border-color: var(--accent); }
+
+/* 存储状态。做成看得见的文字而非 tooltip —— 手机上长按看不到 title，
+   而这条信息恰好只能在真机上确认。
+   警示态用 --ink-soft 而不是 --antonym：后者在 panel-2 背景上只有
+   4.11:1（夜间 4.41），过不了 AA。 */
+.prog-store { flex-basis: 100%; margin-top: 2px; }
+.prog-store.ok { color: var(--tier-2); }
+/* warn 态用深褐（白天 6.58:1 / 夜间 8.14:1）而不是 --ink-soft（4.67:1）。
+   后者过 AA 但在下限，而这一行恰恰是"进度保不保得住"的唯一告知，
+   不该是屏幕上最不显眼的东西。也不用 --antonym：它在 panel-2 上只有 4.11:1。 */
+.prog-store.warn { color: #574a3e; }
+[data-theme="night"] .prog-store.warn { color: #c9bfae; }
 
 .origin-src {
   color: var(--ink-soft);
@@ -1002,7 +1016,9 @@ header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; let
 #theme-toggle { border-radius: 2px; background: #f5efe4; }
 #study { background: #e8e1d3; overflow-y: auto; }
 #study-inner { max-width: 1080px; padding: 38px 30px 64px; margin: 0 auto; }
-#study-progress { font-family: Georgia, "Songti SC", serif; color: #9a5947; text-align: left; border-bottom: 1px solid #c8baa5; padding-bottom: 11px; margin-bottom: 22px; }
+/* 砖红原为 #9a5947，在学习桌底色 #e8e1d3 上只有 4.15:1；压深到 #8a4a38
+   后书桌底 5.18 / 卡片底 6.30，两处都过 AA。 */
+#study-progress { font-family: Georgia, "Songti SC", serif; color: #8a4a38; text-align: left; border-bottom: 1px solid #c8baa5; padding-bottom: 11px; margin-bottom: 22px; }
 #study-card { background: #fbf7ed; border: 1px solid #c8baa5; border-radius: 2px; padding: 42px 48px 36px; box-shadow: 4px 5px 0 rgba(74, 50, 32, .12); position: relative; }
 #study-card::before { content: "FIELD NOTES"; position: absolute; top: 15px; right: 22px; color: #a14f3e; font: 700 10px Georgia, serif; letter-spacing: .16em; transform: rotate(3deg); }
 .card-label { color: #a14f3e; font-family: Georgia, "Songti SC", serif; letter-spacing: .13em; }
@@ -1023,6 +1039,41 @@ header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; let
 [data-theme="night"] .badge { color: #f0c8a8; border-color: #a87860; }
 [data-theme="night"] .subtitle { color: #e0d4c3; border-left-color: #53606d; }
 [data-theme="night"] #hint { color: #f1eadc; background: #222833; padding: 3px 6px; }
+
+/* 学习桌的夜间面。上面那段「C 方案」是顶层块、用字面色写死了浅色底，
+   排在夜间变量之后，所以夜间只有文字跟着变量变浅、背景仍是纸色 ——
+   凡是自身没有背景的文字都会浅压浅。实测 .fam-word 只有 2.72:1、
+   .fam-logic 更低。（.chip 类没中招，因为它自带 background: var(--paper)，
+   夜间会一起变深。）
+   这里把这几层底色补齐，变量驱动的文字随即全部达标（最低 4.89:1）。 */
+[data-theme="night"] body,
+[data-theme="night"] #study { background: var(--paper); }
+[data-theme="night"] #study-card {
+  background: var(--panel);
+  border-color: var(--rule);
+  box-shadow: 4px 5px 0 rgba(0, 0, 0, .34);
+}
+/* 砖红强调色在深底上只有 3.13:1，提亮到 #d99a80（最低 6.26:1） */
+[data-theme="night"] #study-progress { color: #d99a80; border-bottom-color: var(--rule); }
+[data-theme="night"] #study-card::before,
+[data-theme="night"] .card-label { color: #d99a80; }
+[data-theme="night"] .act { background: var(--panel-2); border-color: var(--rule); box-shadow: 2px 2px 0 rgba(0, 0, 0, .3); }
+[data-theme="night"] #theme-toggle { background: var(--panel-2); }
+[data-theme="night"] .fam-table td { border-bottom-color: var(--rule-soft); }
+
+/* 卡片正文与次级文字同样被 C 方案写死成白天色，夜间必须换掉：
+   .card-logic 的 #4b514e 在深底上只有 2.08:1（那是词根推导，卡片的主要内容），
+   .card-meta / .answer-ipa / .answer-ex 的 #766957 是 3.16:1。 */
+[data-theme="night"] .card-logic { color: var(--ink); }
+[data-theme="night"] .card-meta { color: var(--ink-soft); border-color: var(--rule); }
+[data-theme="night"] .answer-ipa,
+[data-theme="night"] .answer-ex { color: var(--ink-soft); }
+[data-theme="night"] .answer-ex { border-left-color: var(--rule); }
+[data-theme="night"] .card-image,
+[data-theme="night"] .answer-def { color: var(--ink); }
+[data-theme="night"] .card-hint { color: var(--ink-soft); }
+[data-theme="night"] .card-root-concept { color: var(--ink-soft); }
+[data-theme="night"] .act { color: var(--ink); }
 
 @media (max-width: 768px) {
   header { padding: 14px 17px; }
