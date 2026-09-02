@@ -72,8 +72,13 @@ CONTRAST_JS = r"""() => {
   return out;
 }"""
 
+# 返回 {issues, checked}。checked 是"这次到底量到了什么"的凭据，调用方据此
+# 判断检查是否真的跑了 —— 见 layout_issues() 里的说明。
 LAYOUT_JS = r"""() => {
   const issues = [];
+  // 注意：display:none 不会传递成后代的 computed display，隐藏祖先下的后代
+  // 自身仍报 display:block。所以这个守卫拦不住"整块被藏起来"的情形，
+  // 只能拦住元素自己被设成 none —— 那种情形由 checked 里的尺寸凭据兜住。
   const vis = s => {
     const el = document.querySelector(s);
     if (!el) return null;
@@ -103,14 +108,20 @@ LAYOUT_JS = r"""() => {
 
   // 节点标签越界：隐藏节点用 opacity:0（非 display:none），必须排除否则误报
   const svg = document.querySelector('#graph');
+  const checked = {graphW: 0, panelW: 0, nodeTexts: 0, skippedZeroWidth: 0};
+  const dp = document.querySelector('#detail-panel');
+  if (dp) checked.panelW = Math.round(dp.getBoundingClientRect().width);
   if (svg) {
     const box = svg.getBoundingClientRect();
+    checked.graphW = Math.round(box.width);
     let clipped = 0, visible = 0, worst = '';
     for (const t of document.querySelectorAll('.node text')) {
       const g = t.closest('.node');
       if (!g || parseFloat(g.getAttribute('opacity') ?? '1') === 0) continue;
       const r = t.getBoundingClientRect();
-      if (r.width === 0) continue;
+      // 宽度为 0 说明量不出来（整块被 display:none 藏了，或字体还没就绪）。
+      // 这类节点不能算"检查过"——数出来交给调用方判断，别让它变成默默的通过。
+      if (r.width === 0) { checked.skippedZeroWidth++; continue; }
       visible++;
       if (r.left < box.left - 2 || r.right > box.right + 2 ||
           r.top < box.top - 2 || r.bottom > box.bottom + 2) {
@@ -118,9 +129,10 @@ LAYOUT_JS = r"""() => {
         if (!worst) worst = t.textContent.trim();
       }
     }
+    checked.nodeTexts = visible;
     if (clipped) issues.push(`${clipped}/${visible} 个可见节点标签超出画布（如「${worst}」）`);
   }
-  return issues;
+  return {issues: issues, checked: checked};
 }"""
 
 # 密度检查：把所有词根展开，看节点是否挤成一团。
@@ -161,6 +173,39 @@ def serve(port):
 class QuietHandler(SimpleHTTPRequestHandler):
     def log_message(self, *args):
         pass
+
+
+def ensure_graph_visible(page):
+    """确保停在「关系地图」模式。
+
+    页面默认落地在回想卡，此时 <main> 是 display:none，图谱、图例、详情栏
+    全都量不出尺寸。所有基于 getBoundingClientRect 的检查会拿到一堆 0，
+    比较自然全部通过 —— 曾经因此让「桌面白天」那一轮的裁切/溢出检查
+    整轮空转。布局类检查开跑前必须先把这一层还原。
+    """
+    if page.evaluate("() => getComputedStyle(document.querySelector('main')).display") == "none":
+        page.click('.mode-btn[data-mode="explore"]')
+        page.wait_for_timeout(900)
+
+
+def layout_issues(page):
+    """跑 LAYOUT_JS，并把"检查没真跑"本身当成问题上报。
+
+    只看 issues 是空的不够 —— 量不到东西时它同样是空的。这里用 checked 里的
+    尺寸凭据反过来确认检查确实执行了：容器有宽度、且真的量过节点标签。
+    """
+    res = page.evaluate(LAYOUT_JS)
+    issues = list(res["issues"])
+    c = res["checked"]
+    if not c["graphW"] or not c["panelW"]:
+        issues.append(
+            f"布局检查未实际执行：#graph 宽 {c['graphW']}px、#detail-panel 宽 "
+            f"{c['panelW']}px —— 容器没有尺寸（页面可能停在学习模式）")
+    elif not c["nodeTexts"]:
+        issues.append(
+            f"裁切检查未实际执行：没有量到任何可见节点标签"
+            f"（{c['skippedZeroWidth']} 个因宽度为 0 被跳过）")
+    return issues
 
 
 def open_sample_word(page):
@@ -339,6 +384,9 @@ def audit(name, page):
     print(f"\n===== {name} =====")
     ok = True
 
+    # 布局检查依赖真实尺寸，先确保图谱那一层没被学习面板盖着
+    ensure_graph_visible(page)
+
     # 语义域标签用独立颜色变量，单独查一次——它只在选中语义域时存在，
     # 放进主清单会因样本流程最后选中单词而误报未渲染
     page.evaluate("""() => {
@@ -391,7 +439,7 @@ def audit(name, page):
     if missing:
         print(f"[WARN] 选择器未渲染（可能是改名或该视口隐藏）：{', '.join(missing)}")
 
-    issues = page.evaluate(LAYOUT_JS)
+    issues = layout_issues(page)
     if issues:
         ok = False
         print("[FAIL] 布局问题：")
@@ -437,7 +485,7 @@ def audit(name, page):
               f"超大 concept 拓扑拥挤，已按决策降级为警告")
     else:
         print(f"[PASS] 全展开后 {d['visible']} 个节点无重叠")
-    clip = page.evaluate(LAYOUT_JS)
+    clip = layout_issues(page)
     if clip:
         ok = False
         print("[FAIL] 全展开后布局问题：")
