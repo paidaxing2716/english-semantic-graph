@@ -574,6 +574,10 @@
     });
     syncSimulationScope(vis);
     refreshScale();
+    // 量本层标签。必须在 refreshScale 之后：radiusOf 依赖它算出的 viewScale。
+    // 也不能塞进 refreshScale——那里缩放变化不足 0.02 会提前返回，
+    // 而切层时新露出来的节点无论缩放变不变都得量一次。
+    measureVisibleLabels();
   }
 
   // 只把可见节点交给力导向。
@@ -697,6 +701,10 @@
   const BASE_R = { domain: 34, root: 27, concept: 20, cluster: 18, word: 13 };
   let viewScale = 1;
 
+  // 单词标签的垂直偏移。纸张索引布局下标签居中压在纸条上，故为 0。
+  // （旧的气泡布局把它挂在圆下方，量边距时要额外让出这段距离。）
+  const WORD_LABEL_DY = 0;
+
   // 缩放系数取"画布尺寸"与"可见节点密度"两者的较小值：
   // 前者管小屏，后者管词库长大后全部展开的情形。
   function computeScale(width, height) {
@@ -725,7 +733,55 @@
     return radiusOf(d) + 14 * viewScale;
   }
 
-  // 可见节点数变化后重算尺寸：半径、碰撞、边界留白、连线距离都要跟着变
+  // 量出可见节点标签的实际半宽/垂直范围，供 clampNodes 的边界约束使用，
+  // 并把纸条 rect 撑到标签宽度。概念节点是中文长标签（如"一个可被辨认的形态"），
+  // 只约束圆心会让标签探出画布。
+  //
+  // 只量可见节点：getComputedTextLength() 要求布局是最新的，量一个就得让浏览器
+  // 把整棵树算一遍。全库 5874 个节点量下来实测 2.7 秒，而任何一层最多只有几十个
+  // 节点在画面上；clampNodes 本来也只处理可见节点，隐藏节点的 padX 量了没人用。
+  //
+  // 注意代价不随节点数线性增长——一次布局刷新就能服务本轮所有读取（实测 16 个
+  // 节点 13.4ms，其中绝大部分是那一次刷新）。所以把读写拆成两趟并不会更快，
+  // 真正省钱的是下面的缓存：同一层重复进入时完全不碰 DOM。
+  function measureVisibleLabels() {
+    if (!nodeSel) return;
+    // 学习模式下 <main> 是 display:none，藏起来的子树量不出文本宽度（恒为 0）。
+    // 此时必须整个跳过：拿 0 去覆盖已量好的值，切回图谱就会看到纸条缩成一条缝、
+    // 且 clampNodes 失去边界依据。切回来时由 resize 钩子补量（见文件末尾）。
+    let boxed = false;
+    try { boxed = svg.node().getBoundingClientRect().width > 0; } catch (e) { boxed = false; }
+    if (!boxed) return;
+
+    // 标签宽度只读一次就缓存到 labelHalfW。文字内容是静态的，字号由 CSS 定，
+    // 只在断点变化时才会变（resize 时清缓存）——所以重复进出同一层不必再读 DOM。
+    // 这一步值得省：读 getComputedTextLength 会强制浏览器把布局算到最新，
+    // 而文档里挂着两万多个 SVG 元素，实测一次就要 13ms。
+    nodeSel.each(function (d) {
+      if (!d.vizVisible || d.labelHalfW != null) return;
+      try {
+        d.labelHalfW = d3.select(this).select("text").node().getComputedTextLength() / 2;
+      } catch (e) { d.labelHalfW = 0; }
+    });
+
+    // 边距和纸条尺寸每次都重算：它们还跟着 viewScale 走（radiusOf），
+    // 而 viewScale 会随可见节点数变化，缓存的只是那次 DOM 读取的结果。
+    nodeSel.each(function (d) {
+      if (!d.vizVisible) return;
+      const halfW = d.labelHalfW || 0;
+      const r = radiusOf(d);
+      const dy = d.type === "word" ? WORD_LABEL_DY : 0;
+      d.padX = Math.max(halfW, r) + 4;
+      d.padTop = r + 4;
+      d.padBottom = Math.max(dy + 8, r) + 4;
+      d3.select(this).select("rect.paper-node")
+        .attr("x", -halfW - 12).attr("width", halfW * 2 + 24)
+        .attr("y", dy - 17);
+    });
+  }
+
+  // 可见节点数变化后重算尺寸：半径、碰撞、连线距离都要跟着变。
+  // 边距不在这里量——它跟可见集合走，由 applyVisibility 统一触发。
   function refreshScale() {
     if (!nodeSel || !simulation) return;
     const prev = viewScale;
@@ -733,16 +789,6 @@
     if (Math.abs(viewScale - prev) < 0.02) return;
 
     nodeSel.select("circle").attr("r", radiusOf);
-    nodeSel.each(function (d) {
-      const t = d3.select(this).select("text");
-      let halfW = 0;
-      try { halfW = t.node().getComputedTextLength() / 2; } catch (e) { halfW = 0; }
-      const r = radiusOf(d);
-      const dy = d.type === "word" ? (viewW < 520 ? 24 : 32) : 0;
-      d.padX = Math.max(halfW, r) + 4;
-      d.padTop = r + 4;
-      d.padBottom = Math.max(dy + 8, r) + 4;
-    });
     const cf = simulation.force("collide");
     if (cf) cf.radius(collideR);
     const lf = simulation.force("link");
@@ -853,27 +899,15 @@
       .attr("height", 36)
       .attr("rx", 1);
 
-    // 单词标签挂在圆下方，偏移量随屏幕收敛，避免小屏触底越界
-    const wordLabelDy = 0;
-    const labelSel = nodeSel
+    nodeSel
       .append("text")
       .text((d) => d.label)
-      .attr("dy", (d) => (d.type === "word" ? wordLabelDy : 0));
+      .attr("dy", (d) => (d.type === "word" ? WORD_LABEL_DY : 0));
 
-    // 量出每个标签的实际半宽/垂直范围，供 tick 里的边界约束使用。
-    // 概念节点是中文长标签（如"一个可被辨认的形态"），只约束圆心会让标签探出画布。
-    labelSel.each(function (d) {
-      let halfW = 0;
-      try { halfW = this.getComputedTextLength() / 2; } catch (e) { halfW = 0; }
-      const r = radiusOf(d);
-      d.padX = Math.max(halfW, r) + 4;
-      const dy = d.type === "word" ? wordLabelDy : 0;
-      d.padTop = r + 4;
-      d.padBottom = Math.max(dy + 8, r) + 4;
-      const rect = d3.select(this.parentNode).select("rect.paper-node");
-      rect.attr("x", -halfW - 12).attr("width", halfW * 2 + 24)
-        .attr("y", d.type === "word" ? wordLabelDy - 17 : -18);
-    });
+    // 标签尺寸不在这里量。getComputedTextLength() 是一次强制回流，
+    // 循环里又紧接着写 rect 属性，读写交替 → 全库 5874 个节点实测 2.7 秒，
+    // 而首屏只有 6 个语义域要显示。测量改由 measureVisibleLabels() 在
+    // applyVisibility() 里只对当前层做（见那里的说明）。
 
     nodeSel.on("click", (event, d) => {
       // 点击即钻取，不再就地展开。父节点马上要从画面上消失，
@@ -1273,6 +1307,12 @@
       simulation.force("center", d3.forceCenter(width / 2, height / 2));
       simulation.force("x", d3.forceX(width / 2).strength(0.06));
       simulation.force("y", d3.forceY(height / 2).strength(0.09));
+      // 从学习模式切回图谱也走这里（study.js 的 setMode 会派发 resize）。
+      // 那期间 <main> 是隐藏的，applyVisibility 里的测量被跳过了，
+      // 现在容器刚恢复尺寸，补量一次再夹边界。
+      // 清缓存：字号在 CSS 断点处会变，跨断点的 resize 后旧宽度不再作数。
+      nodes.forEach((n) => { n.labelHalfW = null; });
+      measureVisibleLabels();
       // 视口变了：把节点夹回新边界并重绘，但不重排布局
       nodes.forEach((n) => { n.fx = null; n.fy = null; });
       clampNodes(viewW, viewH, viewMargin);
