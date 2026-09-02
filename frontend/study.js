@@ -114,12 +114,23 @@
   // 给出词根与核心概念，列出该族各词的"词义"，让人把词与义配对。
   // 检验的是：知道词根含义后，能否靠前缀推出各词分工。
   function buildFamilyQueue() {
+    // 单趟扫词库建 root_id → 成员词 的索引。原来是对每个词根都把整个词库
+    // filter 一遍（309 词根 × 5248 词 = 162 万次），切一次词族模式实测 100ms。
+    const byRoot = new Map();
+    for (const w of words) {
+      if (w.decomposable !== "root" || w.stub) continue;
+      for (const rid of w.root_ids || []) {
+        let fam = byRoot.get(rid);
+        if (!fam) { fam = []; byRoot.set(rid, fam); }
+        fam.push(w);
+      }
+    }
+    // 仍按 roots 的顺序产出，成员也保持词库原序 —— 与旧实现逐词根 filter 等价。
+    // shuffle 内部先 slice 再洗，不会动到索引里的数组。
     const out = [];
     for (const r of roots) {
-      const fam = words.filter(
-        (w) => w.decomposable === "root" && !w.stub && (w.root_ids || []).includes(r.id)
-      );
-      if (fam.length >= 4) out.push({ root: r, family: shuffle(fam).slice(0, 6) });
+      const fam = byRoot.get(r.id);
+      if (fam && fam.length >= 4) out.push({ root: r, family: shuffle(fam).slice(0, 6) });
     }
     return shuffle(out);
   }
