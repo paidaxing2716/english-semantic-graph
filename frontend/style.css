@@ -935,6 +935,7 @@ header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; let
 #hint { color: #554a40; }
 [data-theme="night"] header { background: #191d25; border-bottom-color: #3b4652; }
 [data-theme="night"] header h1 { color: #f1eadc; }
+[data-theme="night"] .badge { color: #f0c8a8; border-color: #a87860; }
 [data-theme="night"] #hint { color: #f1eadc; background: #222833; padding: 3px 6px; }
 
 @media (max-width: 768px) {

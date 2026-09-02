@@ -1186,6 +1186,10 @@
       // keepZoom：此时还没有用户缩放，没必要多播一次过渡动画。
       applyView({ keepZoom: true });
 
+      // 先让 D3 在可见容器中完成首轮测量，再切到 C 方案的默认回想卡。
+      // 若在 buildGraph 前隐藏 main，首次 SVG 尺寸会是 0，之后切回关系地图会裁切标签。
+      document.querySelector('.mode-btn[data-mode="recall"]')?.click();
+
       // 主题切换
       document.getElementById("theme-toggle")?.addEventListener("click", toggleTheme);
       syncThemeButton();
