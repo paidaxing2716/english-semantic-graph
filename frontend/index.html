@@ -4,6 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>English Semantic Graph — 语义回想</title>
+
+  <!-- 装到主屏幕后是独立窗口，且已安装的 PWA 在 Chrome 里更容易拿到
+       持久化存储配额 —— 记忆进度存在 localStorage，磁盘紧张时不希望被回收。
+       菜单里的「添加到主屏幕」自 Chrome 108（移动端）起不再需要 service worker，
+       所以这里只有 manifest。仍需要 fetch handler 的是那个自动弹出的安装提示。 -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#fffaf2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#191d25" media="(prefers-color-scheme: dark)">
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- iOS 不读 manifest 的 display / icons，得靠这几个私有标签。
+       注意 iOS Safari 未安装时会在 7 天无交互后清除 localStorage（ITP），
+       加到主屏幕才豁免 —— 这也是提供 apple-touch-icon 的实际理由。 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="语义图谱">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
   <link rel="stylesheet" href="style.css">
   <script>
     // 提前应用主题，避免首屏闪白

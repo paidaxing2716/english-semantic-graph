@@ -41,9 +41,35 @@
     } catch (e) { /* 存档损坏或 localStorage 不可用：当作没有进度，不要让整页挂掉 */ }
   }
 
+  /* 申请持久化存储。默认的存储是"best-effort"，磁盘紧张时浏览器可以直接
+   * 回收掉；拿到 persistent 之后只有用户手动清除才会消失。
+   * 已安装的 PWA（加到主屏幕）在 Chrome 里几乎总能拿到，这是加 manifest 的
+   * 实际理由之一。
+   *
+   * 故意等到第一次真的要存东西时才申请，而不是一进页面就问：
+   * Chrome 不弹窗（按站点参与度静默判定），但 Firefox 会弹权限框 ——
+   * 让一个还没记录任何进度的新访客先看到弹窗是没道理的。
+   */
+  let persistState = null;   // null=未申请 true=已持久化 false=被拒绝或不支持
+  let persistAsked = false;
+
+  function ensurePersistent() {
+    if (persistAsked) return;
+    persistAsked = true;
+    try {
+      const s = navigator.storage;
+      if (!s || !s.persist || !s.persisted) { persistState = false; return; }
+      s.persisted()
+        .then((already) => (already ? true : s.persist()))
+        .then((ok) => { persistState = !!ok; })
+        .catch(() => { persistState = false; });
+    } catch (e) { persistState = false; }
+  }
+
   function saveProgress() {
     try {
       localStorage.setItem(PROGRESS_KEY, JSON.stringify({ v: 1, s: streaks }));
+      ensurePersistent();
     } catch (e) { /* 隐私模式下不可写，进度仅在本次会话有效 */ }
   }
 
@@ -190,9 +216,18 @@
       ${done ? chips : '<span class="prog-hint">答过的词会记在这里</span>'}
       <label class="prog-toggle"><input type="checkbox" data-act="toggle-skip"
         ${skipMastered() ? "checked" : ""}>跳过已牢固</label>
-      <button class="prog-btn" data-act="export">导出</button>
+      <button class="prog-btn" data-act="export" title="${esc(exportHint())}">导出</button>
       <button class="prog-btn" data-act="import">导入</button>
     </div>`;
+  }
+
+  // 存储是否受保护，说给用户听。不另开一块 UI —— 挂在导出按钮的 title 上，
+  // 不动布局就不会在 390px 上挤到别的东西（审计查 #study 的横向溢出）。
+  function exportHint() {
+    const p = persistState;
+    if (p === true) return "进度已持久化：只有你手动清除浏览器数据才会丢失。仍建议偶尔导出备份。";
+    if (p === false) return "进度是 best-effort 存储：磁盘紧张时可能被浏览器回收。把本站加到主屏幕可提升为持久化。";
+    return "导出进度为 JSON 文件。进度只存在这台浏览器，换设备不会同步。";
   }
 
   // 进度只存在这台浏览器，清缓存就没了 —— 导出是唯一的备份手段
@@ -429,6 +464,9 @@
     },
 
     onChange: function (fn) { if (typeof fn === "function") changeHooks.push(fn); },
+
+    // null=还没申请过 true=已持久化（只有手动清除才会丢） false=best-effort
+    persisted: function () { return persistState; },
 
     // 进度只存在这台浏览器，清缓存就没了。导出是唯一的备份手段。
     exportJSON: function () { return JSON.stringify({ v: 1, s: streaks }, null, 1); },
