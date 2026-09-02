@@ -959,4 +959,6 @@ header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; let
   .card-image { font-size: 21px; }
   .card-logic { font-size: 15px; }
   .answer-word { font-size: 32px; }
+  .node text { font-size: 9px; }
+  .node.root text { font-size: 9px; }
 }

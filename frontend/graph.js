@@ -481,12 +481,12 @@
     const active = nodes.filter((n) => n.vizVisible);
     if (!active.length) return;
     const cols = view.level === "domain" ? Math.min(3, active.length)
-      : view.level === "root" ? Math.min(6, Math.max(2, Math.floor(viewW / 160)))
-      : Math.min(4, Math.max(2, Math.floor(viewW / 190)));
+      : view.level === "root" ? Math.min(6, Math.max(2, Math.floor(viewW / 120)))
+      : Math.min(4, Math.max(2, Math.floor(viewW / 100)));
     const baseRowH = view.level === "domain" ? 132 : 92;
     const colW = viewW / cols;
     const rows = Math.ceil(active.length / cols);
-    const rowH = Math.min(baseRowH, Math.max(42, (viewH - 80) / rows));
+    const rowH = Math.min(baseRowH, Math.max(24, (viewH - 48) / rows));
     const startY = Math.max(58, (viewH - rows * rowH) / 2 + rowH / 2);
     active.forEach((n, i) => {
       n.x = colW * ((i % cols) + 0.5);
