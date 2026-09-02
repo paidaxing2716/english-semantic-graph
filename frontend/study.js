@@ -221,6 +221,8 @@
     study.classList.toggle("hidden", !isStudy);
     document.querySelector("main").classList.toggle("hidden", isStudy);
     document.body.classList.toggle("study-active", isStudy);
+    // 图谱从隐藏的学习面板切回时，容器尺寸刚刚恢复，通知 D3 重新量尺寸。
+    if (!isStudy) window.dispatchEvent(new Event("resize"));
     if (isStudy) startMode(m);
   }
 

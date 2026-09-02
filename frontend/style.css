@@ -933,8 +933,9 @@ header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; let
 .act { border-radius: 2px; background: #fbf7ed; border-color: #c8baa5; box-shadow: 2px 2px 0 rgba(74, 50, 32, .08); }
 .act.primary { background: #1e6b67; border-color: #1e6b67; }
 #hint { color: #554a40; }
+[data-theme="night"] header { background: #191d25; border-bottom-color: #3b4652; }
 [data-theme="night"] header h1 { color: #f1eadc; }
-[data-theme="night"] #hint { color: #d2c5b5; }
+[data-theme="night"] #hint { color: #f1eadc; background: #222833; padding: 3px 6px; }
 
 @media (max-width: 768px) {
   header { padding: 14px 17px; }
