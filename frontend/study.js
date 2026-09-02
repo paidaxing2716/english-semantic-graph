@@ -169,12 +169,13 @@
 
   // ---------- 回想模式 ----------
   function buildRecallQueue() {
-    // 只用 root 型：其余词没有词根推导可给，出题信息不足
+    // root 与 germanic 全量出题（issue #2）：日耳曼词本身就是词根、无法再拆，
+    // 核心画面即题面，推导行对 germanic 词显示提示（见 renderRecall）。
     // 排除 stub：占位词条的释义、中文、例句都是模板，揭示面板会显示
     // 「a thing or action related to stall」并把 stall 当成中文义项——一张坏卡。
-    const pool = words.filter((w) => w.decomposable === "root" && w.core_image && !w.stub);
+    const pool = words.filter((w) => w.core_image && !w.stub);
 
-    // 跳过已牢固的词。队列 2147 词、一轮 50 词要走 43 轮，不过滤的话
+    // 跳过已牢固的词。队列 5248 词、一轮 50 词要走 105 轮，不过滤的话
     // 会反复撞见同一批熟词 —— 这是分层状态的实际用处，颜色只是它的可视化。
     if (!skipMastered()) return shuffle(pool);
     const left = pool.filter((w) => tierOf(w.id) < TIER_MAX);
@@ -200,7 +201,13 @@
     html += `</div>`;
     // recall_hint 是专为本模式写的推导：不点名中文义项，遮罩后仍完整。
     // root_logic 通常以"→ 中文义项"收尾，遮完只剩一串方块，提示不足。
-    html += `<div class="card-logic">${esc(maskAnswer(w.recall_hint || w.root_logic, w))}</div>`;
+    // germanic 词没有这两个字段（设计使然：它本身就是词根），给一句提示
+    // 而不是空行——既解释为什么没有推导，也呼应"日耳曼核心词靠画面记"的主张。
+    const logic = w.recall_hint || w.root_logic;
+    const logicLine = logic
+      ? esc(maskAnswer(logic, w))
+      : (w.decomposable === "germanic" ? "日耳曼核心词，靠画面记" : "");
+    html += `<div class="card-logic">${logicLine}</div>`;
 
     if (revealed) {
       // 当前状态放在揭晓区：此刻正是"我到底记住没有"的判断时点。
