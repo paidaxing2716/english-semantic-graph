@@ -28,21 +28,37 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 # 需要检查对比度的文字元素（覆盖顶栏、画布脚注、详情栏各层级）
-CONTRAST_JS = r"""() => {
+# 颜色解析 / 对比度的公共实现。三处检查共用同一份 —— 曾经各自复制过一遍，
+# 结果修了一处漏两处：parse 不认 color() 记法，把 color-mix 出来的浅背景
+# 当成近黑，.chip.tier-3 因此被误报成 2.66:1（真值 6.5 左右）。
+COLOR_HELPERS_JS = r"""
   function lum(c) {
     const [r,g,b] = c.map(v => { v/=255; return v<=0.03928 ? v/12.92 : Math.pow((v+0.055)/1.055,2.4); });
     return 0.2126*r + 0.7152*g + 0.0722*b;
   }
+  // getComputedStyle 可能返回两种记法：
+  //   rgb(244, 241, 234)                  分量 0~255
+  //   color(srgb 0.88 0.89 0.86)          分量 0~1  ← color-mix() 会走这条
+  // 混着按 0~255 处理会让浅色算成近黑，对比度整个失真。
   function parse(s) {
+    if (!s) return null;
     const m = s.match(/[\d.]+/g);
-    return m ? m.slice(0,3).map(Number) : null;
+    if (!m) return null;
+    const nums = m.slice(0,3).map(Number);
+    return /^\s*color\(/i.test(s) ? nums.map(v => v * 255) : nums;
+  }
+  // 透明判定也不能只认 'rgba(0, 0, 0, 0)' 这个字面量：
+  // color() 记法写成 color(srgb 0 0 0 / 0)，两者都是第 4 个数字才是 alpha。
+  function alphaOf(s) {
+    const m = s && s.match(/[\d.]+/g);
+    return m && m.length >= 4 ? Number(m[3]) : 1;
   }
   function bgOf(el) {
     let n = el;
     while (n && n !== document.documentElement) {
       const c = getComputedStyle(n).backgroundColor;
       const p = parse(c);
-      if (p && !c.includes('rgba(0, 0, 0, 0)')) return p;
+      if (p && alphaOf(c) > 0) return p;
       n = n.parentElement;
     }
     return parse(getComputedStyle(document.body).backgroundColor) || [255,255,255];
@@ -51,10 +67,15 @@ CONTRAST_JS = r"""() => {
     const a = lum(fg), b = lum(bg);
     return (Math.max(a,b)+0.05)/(Math.min(a,b)+0.05);
   }
+"""
+
+CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
+  // 新增文字元素务必加进来。不在清单里 = 对比度从不被检查，
+  // 那正是这套审计最容易被绕开的方式。
   const sels = ['header h1','.subtitle','.badge','#search-input','#hint','#legend .legend-item',
                 '.detail-title','.detail-phonetic','.detail-block h3','.detail-definition p',
                 '.detail-block.feature p','.origin-src','.chip','.chip.zh','.detail-examples li',
-                '.speak-btn','footer'];
+                '.speak-btn','footer','.tier-btn'];
   const out = [];
   for (const s of sels) {
     const el = document.querySelector(s);
@@ -68,6 +89,39 @@ CONTRAST_JS = r"""() => {
     const large = size >= 24 || (size >= 18.66 && bold);   // WCAG 大字定义
     out.push({sel:s, size:+size.toFixed(1), ratio:+ratio(fg,bgOf(el)).toFixed(2),
               min: large ? 3 : 4.5});
+  }
+  return out;
+}"""
+
+# 记忆状态的三档颜色。这些元素只在特定状态下出现（tier chip 要揭晓后、
+# 要那个词恰好处在该档），靠主清单的 querySelector 抓不稳。这里把三档
+# 各造一个样本塞进真实容器里量 —— 背景取自实际父级，与真环境一致。
+TIER_CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
+  const hosts = [
+    ['#study-card', 'chip'],
+    ['#detail-content', 'chip'],
+    ['#detail-content', 'tier-btn'],
+  ];
+  const out = [];
+  for (const [hostSel, kind] of hosts) {
+    const host = document.querySelector(hostSel);
+    if (!host) { out.push({sel:`${hostSel} .${kind}`, missing:true}); continue; }
+    const probe = document.createElement('div');
+    host.appendChild(probe);
+    for (let t = 1; t <= 3; t++) {
+      const el = document.createElement(kind === 'tier-btn' ? 'button' : 'span');
+      el.className = (kind === 'tier-btn' ? 'tier-btn' : 'chip') + ' tier-' + t;
+      el.textContent = '状态';
+      probe.appendChild(el);
+      const cs = getComputedStyle(el);
+      const fg = parse(cs.color);
+      const size = parseFloat(cs.fontSize);
+      if (fg) {
+        out.push({sel:`${hostSel} .${kind}.tier-${t}`, size:+size.toFixed(1),
+                  ratio:+ratio(fg, bgOf(el)).toFixed(2), min: size >= 24 ? 3 : 4.5});
+      }
+    }
+    probe.remove();
   }
   return out;
 }"""
@@ -396,25 +450,12 @@ def audit(name, page):
     page.wait_for_timeout(900)
     dm = [r for r in page.evaluate(CONTRAST_JS)
           if r.get("sel") == ".detail-type.word" and not r.get("missing")]
-    dom_ratio = page.evaluate("""() => {
+    dom_ratio = page.evaluate("""() => {""" + COLOR_HELPERS_JS + """
       const el = document.querySelector('.detail-type.domain');
       if (!el) return null;
-      const cs = getComputedStyle(el);
-      const p = s => { const m = s.match(/[\\d.]+/g); return m ? m.slice(0,3).map(Number) : null; };
-      const lum = c => { const [r,g,b] = c.map(v => { v/=255;
-        return v<=0.03928 ? v/12.92 : Math.pow((v+0.055)/1.055,2.4); });
-        return 0.2126*r + 0.7152*g + 0.0722*b; };
-      let n = el, bg = null;
-      while (n && n !== document.documentElement) {
-        const c = getComputedStyle(n).backgroundColor;
-        const q = p(c);
-        if (q && !c.includes('rgba(0, 0, 0, 0)')) { bg = q; break; }
-        n = n.parentElement;
-      }
-      bg = bg || [255,255,255];
-      const fg = p(cs.color);
-      const a = lum(fg), b2 = lum(bg);
-      return +(((Math.max(a,b2)+0.05)/(Math.min(a,b2)+0.05)).toFixed(2));
+      const fg = parse(getComputedStyle(el).color);
+      if (!fg) return null;
+      return +ratio(fg, bgOf(el)).toFixed(2);
     }""")
     if dom_ratio is None:
         print("[WARN] 语义域标签未渲染，跳过其对比度检查")
@@ -438,6 +479,21 @@ def audit(name, page):
         print("[PASS] 对比度全部达标 WCAG AA")
     if missing:
         print(f"[WARN] 选择器未渲染（可能是改名或该视口隐藏）：{', '.join(missing)}")
+
+    tiers = page.evaluate(TIER_CONTRAST_JS)
+    tfails = [r for r in tiers if not r.get("missing") and r["ratio"] < r["min"]]
+    tmissing = [r["sel"] for r in tiers if r.get("missing")]
+    if tfails:
+        ok = False
+        print("[FAIL] 记忆状态配色对比度不足：")
+        for r in sorted(tfails, key=lambda x: x["ratio"]):
+            print(f"        {r['sel']:<34} {r['ratio']:>5}:1  (需 {r['min']}, {r['size']}px)")
+    elif tmissing:
+        ok = False
+        print(f"[FAIL] 记忆状态配色无法检查：宿主元素缺失 {', '.join(tmissing)}")
+    else:
+        worst = min(tiers, key=lambda x: x["ratio"])
+        print(f"[PASS] 记忆状态三档配色达标（最低 {worst['ratio']}:1 @ {worst['sel']}）")
 
     issues = layout_issues(page)
     if issues:

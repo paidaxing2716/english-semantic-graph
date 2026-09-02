@@ -12,6 +12,62 @@
 
   const MASK = "▢▢▢";
 
+  /* ---------- 记忆进度 ----------
+   * 存的是"连续想起次数"而不是布尔值。布尔标记有个必然会碰到的失效：
+   * 今天标了已背，三周后真忘了，它还是绿的。次数本来就在数（原来算完就丢），
+   * 做成分层几乎不额外花钱，而且「没想起来」归零后颜色会自己退回去，
+   * 反映的是当前状态而不是历史上某一刻的声明。
+   *
+   * 必须走 localStorage，不能进 IndexedDB —— 那边是数据缓存，idbPut 里有
+   * clear()，每次词库更新都会整个清掉，进度会跟着蒸发。
+   *
+   * 词条 id 就是单词本身且全库唯一，所以词库重新生成后进度仍然对得上。
+   * 只存 streak > 0 的词：标了 500 词也就 7KB。
+   */
+  const PROGRESS_KEY = "esg-progress";
+  const FILTER_KEY = "esg-skip-mastered";
+  const TIER_MAX = 3;
+  const TIER_LABEL = ["生词", "眼熟", "已背", "牢固"];
+
+  let streaks = Object.create(null);
+  const changeHooks = [];
+
+  function loadProgress() {
+    try {
+      const raw = localStorage.getItem(PROGRESS_KEY);
+      if (!raw) return;
+      const j = JSON.parse(raw);
+      if (j && j.s && typeof j.s === "object") streaks = Object.assign(Object.create(null), j.s);
+    } catch (e) { /* 存档损坏或 localStorage 不可用：当作没有进度，不要让整页挂掉 */ }
+  }
+
+  function saveProgress() {
+    try {
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify({ v: 1, s: streaks }));
+    } catch (e) { /* 隐私模式下不可写，进度仅在本次会话有效 */ }
+  }
+
+  function tierOf(id) {
+    const n = streaks[id] || 0;
+    return n > TIER_MAX ? TIER_MAX : n;
+  }
+
+  function notifyChange(id) {
+    changeHooks.forEach((fn) => { try { fn(id); } catch (e) { /* 单个订阅者出错不影响其余 */ } });
+  }
+
+  function setStreak(id, n) {
+    if (n > 0) streaks[id] = n; else delete streaks[id];
+    saveProgress();
+    notifyChange(id);
+  }
+
+  function skipMastered() {
+    try { return localStorage.getItem(FILTER_KEY) !== "0"; } catch (e) { return true; }
+  }
+
+  loadProgress();
+
   let words = [];
   let roots = [];
   let mode = "explore";
@@ -64,7 +120,14 @@
     // 只用 root 型：其余词没有词根推导可给，出题信息不足
     // 排除 stub：占位词条的释义、中文、例句都是模板，揭示面板会显示
     // 「a thing or action related to stall」并把 stall 当成中文义项——一张坏卡。
-    return shuffle(words.filter((w) => w.decomposable === "root" && w.core_image && !w.stub));
+    const pool = words.filter((w) => w.decomposable === "root" && w.core_image && !w.stub);
+
+    // 跳过已牢固的词。队列 2147 词、一轮 50 词要走 43 轮，不过滤的话
+    // 会反复撞见同一批熟词 —— 这是分层状态的实际用处，颜色只是它的可视化。
+    if (!skipMastered()) return shuffle(pool);
+    const left = pool.filter((w) => tierOf(w.id) < TIER_MAX);
+    // 全都背牢了就退回全量，否则界面会变成一句"这一轮结束"再无下文
+    return shuffle(left.length ? left : pool);
   }
 
   function renderRecall() {
@@ -88,10 +151,14 @@
     html += `<div class="card-logic">${esc(maskAnswer(w.recall_hint || w.root_logic, w))}</div>`;
 
     if (revealed) {
+      // 当前状态放在揭晓区：此刻正是"我到底记住没有"的判断时点。
+      // 题面上不显示，免得未答就先看到自己的进度而影响自评。
+      const t = tierOf(w.id);
       html += `<div class="card-answer">
         <div class="answer-word">${esc(w.word)}
           <span class="answer-ipa">${esc(w.phonetic || "")}</span>
           <button class="speak-btn" data-word="${esc(w.word)}">◍ 发音</button>
+          <span class="chip tier-${t}">${TIER_LABEL[t]}</span>
         </div>
         <div class="answer-def">${esc(w.native_definition)}</div>
         <div class="answer-zh">${(w.chinese || []).map((c) => `<span class="chip zh">${esc(c)}</span>`).join("")}</div>
@@ -107,8 +174,72 @@
          <button class="act" data-act="skip">跳过</button>`;
 
     progEl.innerHTML = `回想模式 · 第 ${idx + 1} / ${queue.length} 词`
-      + (score.asked ? ` · 已答 ${score.asked}，想起 ${score.self_ok}` : "");
+      + (score.asked ? ` · 已答 ${score.asked}，想起 ${score.self_ok}` : "")
+      + progressBar();
   }
+
+  /* 进度条：各层计数 + 过滤开关 + 导出/导入。
+   * 塞在 #study-progress 里而不是新开一块，是因为视觉审计会查 #study 的
+   * 横向溢出，多一块就多一处要在 390px 上让位的东西。 */
+  function progressBar() {
+    const c = window.ESG.progress.counts();
+    const done = c[1] + c[2] + c[3];
+    const chips = TIER_LABEL.map((lab, t) =>
+      t === 0 ? "" : `<span class="chip tier-${t}">${lab} ${c[t]}</span>`).join("");
+    return `<div class="prog-row">
+      ${done ? chips : '<span class="prog-hint">答过的词会记在这里</span>'}
+      <label class="prog-toggle"><input type="checkbox" data-act="toggle-skip"
+        ${skipMastered() ? "checked" : ""}>跳过已牢固</label>
+      <button class="prog-btn" data-act="export">导出</button>
+      <button class="prog-btn" data-act="import">导入</button>
+    </div>`;
+  }
+
+  // 进度只存在这台浏览器，清缓存就没了 —— 导出是唯一的备份手段
+  function exportProgress() {
+    const blob = new Blob([window.ESG.progress.exportJSON()], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "esg-progress.json";
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  }
+
+  function importProgress() {
+    const inp = document.createElement("input");
+    inp.type = "file";
+    inp.accept = ".json,application/json";
+    inp.addEventListener("change", () => {
+      const f = inp.files && inp.files[0];
+      if (!f) return;
+      const rd = new FileReader();
+      rd.onload = () => {
+        try {
+          const n = window.ESG.progress.importJSON(String(rd.result));
+          startMode(mode); // 队列依赖进度，导入后要重建
+          alert(`已导入 ${n} 个词的进度`);
+        } catch (e) {
+          alert("导入失败：" + e.message);
+        }
+      };
+      rd.readAsText(f);
+    });
+    inp.click();
+  }
+
+  progEl.addEventListener("click", (e) => {
+    const el = e.target.closest("[data-act]");
+    if (!el) return;
+    if (el.dataset.act === "export") exportProgress();
+    else if (el.dataset.act === "import") importProgress();
+  });
+
+  progEl.addEventListener("change", (e) => {
+    const el = e.target.closest('[data-act="toggle-skip"]');
+    if (!el) return;
+    try { localStorage.setItem(FILTER_KEY, el.checked ? "1" : "0"); } catch (err) { /* 不可写就只影响本次 */ }
+    startMode(mode); // 过滤条件变了，队列要重建
+  });
 
   // ---------- 词族模式 ----------
   // 给出词根与核心概念，列出该族各词的"词义"，让人把词与义配对。
@@ -148,8 +279,11 @@
     html += `<table class="fam-table"><tbody>`;
     for (const w of family) {
       const zh = (w.chinese || []).slice(0, 3).join(" / ");
+      // 只在揭晓后按状态着色。未揭晓时单词列必须是纯遮罩 —— 审计会断言
+      // .fam-word 全部匹配 /^▢+$/，着色不影响文本但没必要提前给暗示。
+      const tc = revealed ? ` tier-${tierOf(w.id)}` : "";
       html += `<tr>
-        <td class="fam-word">${revealed ? esc(w.word) : MASK}</td>
+        <td class="fam-word${tc}">${revealed ? esc(w.word) : MASK}</td>
         <td class="fam-logic">${esc(maskAnswer(w.recall_hint || w.root_logic, w))}</td>
         <td class="fam-zh">${revealed ? esc(zh) : ""}</td>
       </tr>`;
@@ -167,7 +301,8 @@
          <button class="act" data-act="skip">跳过</button>`;
 
     progEl.innerHTML = `词族模式 · 第 ${idx + 1} / ${queue.length} 族`
-      + (score.asked ? ` · 已答 ${score.asked}，对上 ${score.self_ok}` : "");
+      + (score.asked ? ` · 已答 ${score.asked}，对上 ${score.self_ok}` : "")
+      + progressBar();
   }
 
   function renderDone() {
@@ -188,6 +323,13 @@
     if (selfOk !== null) {
       score.asked++;
       if (selfOk) score.self_ok++;
+      // 只有回想模式的自评计入单词状态。词族模式一次出 6 个词、只收一个
+      // 「对上了」，它检验的是词根推导能力而不是单个词的记忆，
+      // 混进来会让状态失真。
+      if (mode === "recall") {
+        const w = queue[idx];
+        if (w && w.id) window.ESG.progress.record(w.id, selfOk);
+      }
     }
     idx++;
     revealed = false;
@@ -256,6 +398,54 @@
       // 的（noun / verb / adjective…）都会中。
       maskAnswer(w.pos, w),
     ].join(" ");
+  };
+
+  /* 进度 API。graph.js 用它给词节点上色、在详情面板做手动标记。
+   * 放在 window.ESG 上而不是各自读 localStorage：只有一处负责写盘和广播，
+   * 否则图谱标记完学习卡不知道，得刷新才同步。 */
+  window.ESG.progress = {
+    TIER_LABEL: TIER_LABEL,
+    TIER_MAX: TIER_MAX,
+    tierOf: tierOf,
+    labelOf: function (id) { return TIER_LABEL[tierOf(id)]; },
+
+    // 回想模式的自评落到这里。想起来 +1，没想起来归零。
+    record: function (id, ok) {
+      setStreak(id, ok ? Math.min((streaks[id] || 0) + 1, TIER_MAX) : 0);
+    },
+
+    // 手动标记：生词 → 已背 → 牢固 → 生词。
+    // 不做成两态开关，是为了让"标了但还想再见到"和"标了别再出题"能分开表达。
+    cycle: function (id) {
+      const next = { 0: 2, 1: 2, 2: TIER_MAX, 3: 0 }[tierOf(id)];
+      setStreak(id, next);
+      return tierOf(id);
+    },
+
+    counts: function () {
+      const c = [0, 0, 0, 0];
+      Object.keys(streaks).forEach((id) => { c[tierOf(id)] += 1; });
+      return c;
+    },
+
+    onChange: function (fn) { if (typeof fn === "function") changeHooks.push(fn); },
+
+    // 进度只存在这台浏览器，清缓存就没了。导出是唯一的备份手段。
+    exportJSON: function () { return JSON.stringify({ v: 1, s: streaks }, null, 1); },
+    importJSON: function (text) {
+      const j = JSON.parse(text);
+      if (!j || !j.s || typeof j.s !== "object") throw new Error("格式不对：缺少 s 字段");
+      const clean = Object.create(null);
+      let n = 0;
+      Object.keys(j.s).forEach((k) => {
+        const v = Number(j.s[k]);
+        if (Number.isFinite(v) && v > 0) { clean[k] = Math.min(Math.round(v), TIER_MAX); n += 1; }
+      });
+      streaks = clean;
+      saveProgress();
+      notifyChange(null);
+      return n;
+    },
   };
 
   // 数据由 graph.js 加载后共享，避免重复请求

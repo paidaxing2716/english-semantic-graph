@@ -27,6 +27,14 @@
   --shadow-panel: 0 1px 0 rgba(0, 0, 0, .04);
   --shadow-pop: 0 10px 28px rgba(63, 50, 34, .16);
   --canvas: radial-gradient(ellipse 78% 68% at 50% 44%, var(--paper-raised) 0%, var(--paper) 72%);
+
+  /* 记忆状态 · 眼熟 / 已背 / 牢固。生词不着色——无标记本身就是"还没碰过"。
+     这三个值是按 WCAG AA 反推的：12px 文字需 4.5:1，在 paper / panel /
+     panel-2 三种背景上最低分别 5.01 / 5.44 / 4.67，都留了余量。改色请重算，
+     视觉审计会拦（.chip.tier-* 与 .tier-btn 已进对比度清单）。 */
+  --tier-1: #7d6420;
+  --tier-2: #2c6f4f;
+  --tier-3: #1f5c46;
 }
 
 /* ===== 夜间：夜读档案 ===== */
@@ -50,6 +58,10 @@
 
   --link-line: #4a5361;
   --node-stroke: #14171d;
+  /* 夜间三档最低 7.36:1（panel-2 背景上），同样按 AA 反推 */
+  --tier-1: #d4b369;
+  --tier-2: #74c7a2;
+  --tier-3: #96dbbb;
   --shadow-panel: 0 1px 0 rgba(0, 0, 0, .3);
   --shadow-pop: 0 12px 32px rgba(0, 0, 0, .5);
   --canvas: radial-gradient(ellipse 78% 68% at 50% 44%, var(--paper-raised) 0%, var(--paper) 74%);
@@ -791,6 +803,68 @@ main { flex: 1; display: flex; min-height: 0; overflow: hidden; }
 
 /* 中文表达：输出层，弱化为次级信息 */
 .chip.zh { color: var(--word-color); border-color: color-mix(in srgb, var(--word-color) 38%, transparent); }
+
+/* ===== 记忆状态 ===== */
+/* 生词（tier-0）刻意不给样式：沿用 .chip 的中性外观，"没标记"就是它的表达。 */
+.chip.tier-1 { color: var(--tier-1); border-color: color-mix(in srgb, var(--tier-1) 42%, transparent); }
+.chip.tier-2 { color: var(--tier-2); border-color: color-mix(in srgb, var(--tier-2) 45%, transparent); }
+.chip.tier-3 { color: var(--tier-3); border-color: color-mix(in srgb, var(--tier-3) 52%, transparent);
+  background: color-mix(in srgb, var(--tier-3) 9%, var(--paper)); }
+
+/* 详情面板里的手动标记按钮。背景写死 var(--paper)，与 .chip 一致 ——
+   对比度是按这个背景算的，换背景要重算。 */
+.tier-btn {
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  padding: 3px 9px;
+  margin-left: 7px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  cursor: pointer;
+  vertical-align: middle;
+}
+.tier-btn:hover { border-color: var(--accent); }
+.tier-btn.tier-1 { color: var(--tier-1); border-color: color-mix(in srgb, var(--tier-1) 42%, transparent); }
+.tier-btn.tier-2 { color: var(--tier-2); border-color: color-mix(in srgb, var(--tier-2) 45%, transparent); }
+.tier-btn.tier-3 { color: var(--tier-3); border-color: color-mix(in srgb, var(--tier-3) 52%, transparent); }
+
+/* 图谱：词节点的纸条底色随状态变。只染单词层 —— 词根和语义域不是记忆单位。 */
+.node.word.tier-1 rect.paper-node { fill: color-mix(in srgb, var(--tier-1) 13%, var(--panel)); stroke: var(--tier-1); }
+.node.word.tier-2 rect.paper-node { fill: color-mix(in srgb, var(--tier-2) 15%, var(--panel)); stroke: var(--tier-2); }
+.node.word.tier-3 rect.paper-node { fill: color-mix(in srgb, var(--tier-3) 22%, var(--panel)); stroke: var(--tier-3); stroke-width: 1.6; }
+
+/* 词族表：揭晓后按状态染单词列 */
+.fam-word.tier-1 { color: var(--tier-1); }
+.fam-word.tier-2 { color: var(--tier-2); }
+.fam-word.tier-3 { color: var(--tier-3); }
+
+/* 进度条：各层计数 + 过滤开关 + 导出导入 */
+.prog-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin-top: 9px;
+  font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+}
+.prog-row .chip { margin: 0; }
+.prog-hint { color: var(--ink-faint); }
+.prog-toggle { color: var(--ink-soft); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; }
+.prog-toggle input { cursor: pointer; }
+.prog-btn {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 3px 9px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.prog-btn:hover { border-color: var(--accent); }
 
 .origin-src {
   color: var(--ink-soft);

@@ -601,6 +601,9 @@
     visNodeSel = nodeSel.filter((d) => d.vizVisible);
     visLinkSel = linkSel.filter(linkVisible);
 
+    // 本层刚露出来的词节点可能带着过期的 tier 类（上次可见时的状态），补一次
+    refreshTierClasses();
+
     syncSimulationScope(vis);
     refreshScale();
     // 量本层标签。必须在 refreshScale 之后：radiusOf 依赖它算出的 viewScale。
@@ -715,6 +718,39 @@
       nodeSel.classed("highlighted", false);
       highlightedId = null;
     }, 3000);
+  }
+
+  // ---------- 记忆进度 ----------
+  // 实现在 study.js（它先加载）。这里只读状态给节点上色、并提供手动标记入口。
+  function progress() {
+    return (window.ESG && window.ESG.progress) || null;
+  }
+
+  function tierOf(id) {
+    const p = progress();
+    return p ? p.tierOf(id) : 0;
+  }
+
+  // 单词节点带上 tier-N，纸条底色随记忆状态变。其余层级不着色：
+  // 词根和语义域不是记忆单位，给它们上色只会让"哪些词背过"这件事更难看清。
+  function nodeClass(d) {
+    const base = "node " + d.type;
+    return d.type === "word" ? `${base} tier-${tierOf(d.id)}` : base;
+  }
+
+  // 状态变了就重刷 tier 类。只刷当前层：隐藏节点由 applyVisibility 在露出时补。
+  //
+  // 必须逐个 classed() 而不是 attr("class", nodeClass) —— 后者会整条覆盖
+  // class 属性，把 d3 用 classed() 加的 selected / highlighted 一起抹掉，
+  // 表现为"点了标记按钮，选中框没了"。
+  function refreshTierClasses() {
+    if (!nodeSel) return;
+    const sel = visNodeSel || nodeSel;
+    const p = progress();
+    const maxTier = p ? p.TIER_MAX : 3;
+    for (let t = 0; t <= maxTier; t++) {
+      sel.classed("tier-" + t, (d) => d.type === "word" && tierOf(d.id) === t);
+    }
   }
 
   // ---------- 渲染 ----------
@@ -934,7 +970,7 @@
       .selectAll("g")
       .data(nodes)
       .join("g")
-      .attr("class", (d) => "node " + d.type)
+      .attr("class", nodeClass)
       .call(drag());
 
     // 一律以隐藏状态诞生，随后由 applyVisibility 只点亮本层。
@@ -1070,6 +1106,10 @@
         <span class="detail-type ${d.type}">${typeLabel}</span>
         ${d.phonetic ? `<span class="detail-phonetic">${escapeHtml(d.phonetic)}</span>` : ""}
         ${d.type === "word" ? `<button class="speak-btn" data-word="${escapeHtml(d.label)}" title="点击发音">◍ 发音</button>` : ""}
+        ${d.type === "word" && progress()
+          ? `<button class="tier-btn tier-${tierOf(d.id)}" data-tier-id="${escapeHtml(d.id)}"
+               title="标记记忆状态：生词 → 已背 → 牢固 → 生词">${progress().labelOf(d.id)}</button>`
+          : ""}
       </div>`;
 
     if (d.pos) {
@@ -1285,6 +1325,20 @@
       speakWord(btn.dataset.word);
       return;
     }
+
+    // 手动标记。图谱这一侧没有出题流程，浏览时想直接标一个就走这里；
+    // 主路径仍是回想模式的自评（那边每张卡本来就在问同一件事）。
+    const tb = event.target.closest(".tier-btn");
+    if (tb && tb.dataset.tierId) {
+      const p = progress();
+      if (p) {
+        const t = p.cycle(tb.dataset.tierId);
+        tb.textContent = p.TIER_LABEL[t];
+        tb.className = "tier-btn tier-" + t;
+        refreshTierClasses();
+      }
+      return;
+    }
     const chip = event.target.closest(".chip");
     if (!chip) return;
     const id = chip.textContent.trim();
@@ -1343,6 +1397,9 @@
 
       // 抽屉关闭按钮（手机端）
       d3.select("#drawer-close").on("click", clearSelection);
+
+      // 回想模式记下自评后，切回图谱时颜色要已经是新的
+      if (progress()) progress().onChange(refreshTierClasses);
     } catch (e) {
       detailContent.classed("hidden", false).style("display", "block");
       detailEmpty.style("display", "none");
