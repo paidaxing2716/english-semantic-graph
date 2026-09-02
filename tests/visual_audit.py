@@ -363,7 +363,9 @@ def audit_masking_all(page):
       const wd = await fetch('../data/words.json').then(r => r.json());
       const out = [];
       for (const w of wd.words) {
-        if (w.decomposable !== 'root') continue;
+        // issue #2：回想队列已放开 germanic 词，遮罩扫描必须跟着放开，
+        // 否则 3101 个日耳曼词的题面从此不被检查。stub 不进队列，照旧排除。
+        if (w.stub) continue;
         // 直接取 study.js 真实渲染的题面，测试不再自带一份遮罩实现
         const shown = window.ESG.recallPrompt(w.id);
         if (shown == null) { out.push(w.id + '：取不到题面'); continue; }
