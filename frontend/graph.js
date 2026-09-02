@@ -854,7 +854,7 @@
       .attr("rx", 1);
 
     // 单词标签挂在圆下方，偏移量随屏幕收敛，避免小屏触底越界
-    const wordLabelDy = width < 520 ? 24 : 32;
+    const wordLabelDy = 0;
     const labelSel = nodeSel
       .append("text")
       .text((d) => d.label)
