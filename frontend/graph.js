@@ -353,6 +353,7 @@
     renderNavBar();
     updateLegend();
     updateHint();
+    placeVisibleNodes();
     if (!keepZoom) resetZoom();
     settleLocally();
   }
@@ -469,10 +470,29 @@
   // 需要 34px）。可见节点数量已由语义域分层限住，整体重排代价很小。
   function settleLocally() {
     if (!simulation) return;
-    nodes.forEach((n) => {
-      if (n.vizVisible) { n.fx = null; n.fy = null; }
+    placeVisibleNodes();
+    redraw();
+  }
+
+  // 纸张索引布局：可见节点按层级排成稳定的栏，不再依赖力导向随机漂浮。
+  // 全库仍保留 D3 数据与关系，但屏幕上只呈现当前层的可读纸条。
+  function placeVisibleNodes() {
+    if (!viewW || !viewH || !nodes.length) return;
+    const active = nodes.filter((n) => n.vizVisible);
+    if (!active.length) return;
+    const cols = view.level === "domain" ? Math.min(3, active.length)
+      : view.level === "root" ? Math.min(6, Math.max(2, Math.ceil(Math.sqrt(active.length))))
+      : Math.min(4, Math.max(2, Math.ceil(Math.sqrt(active.length))));
+    const rowH = view.level === "domain" ? 132 : 92;
+    const colW = viewW / cols;
+    const rows = Math.ceil(active.length / cols);
+    const startY = Math.max(58, (viewH - rows * rowH) / 2 + rowH / 2);
+    active.forEach((n, i) => {
+      n.x = colW * ((i % cols) + 0.5);
+      n.y = startY + Math.floor(i / cols) * rowH;
+      n.fx = n.x;
+      n.fy = n.y;
     });
-    simulation.alpha(0.9).alphaTarget(0).restart();
   }
 
   // 把导航状态设到某个词根的词族层
@@ -738,9 +758,9 @@
   function clampNodes(width, height, margin) {
     nodes.forEach((n) => {
       if (!n.vizVisible) return;
-      const px = Math.min(n.padX || margin, width / 2 - 2);
-      const top = Math.min(n.padTop || margin, height / 2 - 2);
-      const bottom = Math.min(n.padBottom || margin, height / 2 - 2);
+      const px = Math.min(n.padX || margin, Math.max(2, width - 2));
+      const top = Math.min(n.padTop || margin, Math.max(2, height - 2));
+      const bottom = Math.min(n.padBottom || margin, Math.max(2, height - 2));
       n.x = Math.max(px, Math.min(width - px, n.x));
       n.y = Math.max(top, Math.min(height - bottom, n.y));
     });
@@ -824,6 +844,14 @@
       .attr("r", radiusOf)
       .attr("class", (d) => d.type);
 
+    nodeSel.insert("rect", "text")
+      .attr("class", "paper-node")
+      .attr("x", -58)
+      .attr("y", -18)
+      .attr("width", 116)
+      .attr("height", 36)
+      .attr("rx", 1);
+
     // 单词标签挂在圆下方，偏移量随屏幕收敛，避免小屏触底越界
     const wordLabelDy = width < 520 ? 24 : 32;
     const labelSel = nodeSel
@@ -841,6 +869,9 @@
       const dy = d.type === "word" ? wordLabelDy : 0;
       d.padTop = r + 4;
       d.padBottom = Math.max(dy + 8, r) + 4;
+      const rect = d3.select(this.parentNode).select("rect.paper-node");
+      rect.attr("x", -halfW - 12).attr("width", halfW * 2 + 24)
+        .attr("y", d.type === "word" ? wordLabelDy - 17 : -18);
     });
 
     nodeSel.on("click", (event, d) => {
@@ -877,7 +908,8 @@
       .force("y", d3.forceY(height / 2).strength(0.09))
       .force("collide", d3.forceCollide().radius(collideR))
       .on("tick", () => {
-        clampNodes(width, height, margin);
+        // 使用当前视口尺寸；切换学习卡/关系地图后，首次闭包尺寸可能已经过期。
+        clampNodes(viewW, viewH, viewMargin);
         redraw();
       })
       // 布局稳定后把所有节点钉住，图谱从此静止：
@@ -885,6 +917,7 @@
       .on("end", pinAll);
 
     applyVisibility();
+    placeVisibleNodes();
   }
 
   // 全量重排：唯一会让所有节点重新排布的入口（双击空白处触发）
