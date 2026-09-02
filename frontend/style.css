@@ -904,3 +904,42 @@ footer code {
   #graph-container { height: calc(100vh - 118px - 40vh); }
   #detail-panel { height: 40vh; }
 }
+
+/* ============ C 方案：纸张学习桌 ============ */
+body { background: #e8e1d3; }
+header { background: #fbf7ed; border-bottom: 2px solid #c8baa5; padding: 18px 30px; }
+header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 22px; letter-spacing: .2px; }
+.subtitle { font-family: Georgia, "Songti SC", serif; color: #766957; }
+.badge { color: #a14f3e; border-color: #d2a899; border-radius: 1px; transform: rotate(-2deg); }
+#mode-switch { border: 0; gap: 5px; overflow: visible; }
+.mode-btn { background: transparent; border: 1px solid transparent; color: #766957; border-radius: 2px; padding: 8px 12px; }
+.mode-btn.active { background: #b85d47; color: #fff9ed; border-color: #a5503d; box-shadow: 2px 2px 0 rgba(74, 50, 32, .15); transform: rotate(-1deg); }
+#theme-toggle { border-radius: 2px; background: #f5efe4; }
+#study { background: #e8e1d3; overflow-y: auto; }
+#study-inner { max-width: 1080px; padding: 38px 30px 64px; margin: 0 auto; }
+#study-progress { font-family: Georgia, "Songti SC", serif; color: #9a5947; text-align: left; border-bottom: 1px solid #c8baa5; padding-bottom: 11px; margin-bottom: 22px; }
+#study-card { background: #fbf7ed; border: 1px solid #c8baa5; border-radius: 2px; padding: 42px 48px 36px; box-shadow: 4px 5px 0 rgba(74, 50, 32, .12); position: relative; }
+#study-card::before { content: "FIELD NOTES"; position: absolute; top: 15px; right: 22px; color: #a14f3e; font: 700 10px Georgia, serif; letter-spacing: .16em; transform: rotate(3deg); }
+.card-label { color: #a14f3e; font-family: Georgia, "Songti SC", serif; letter-spacing: .13em; }
+.card-image { font-family: Georgia, "Songti SC", serif; font-size: 26px; line-height: 1.55; max-width: 760px; }
+.card-meta { font-family: Georgia, "Songti SC", serif; color: #766957; border-color: #d8cdbb; }
+.card-logic { color: #4b514e; font-family: Georgia, "Songti SC", serif; font-size: 17px; }
+.card-answer { border-top: 2px solid #b85d47; }
+.answer-word { font-family: Georgia, "Times New Roman", serif; font-size: 39px; color: #1e6b67; }
+.answer-ipa { color: #766957; }
+.answer-def { font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
+.answer-ex { color: #766957; border-left: 2px solid #c8baa5; padding-left: 18px; }
+#study-actions { justify-content: flex-start; margin-top: 22px; }
+.act { border-radius: 2px; background: #fbf7ed; border-color: #c8baa5; box-shadow: 2px 2px 0 rgba(74, 50, 32, .08); }
+.act.primary { background: #1e6b67; border-color: #1e6b67; }
+
+@media (max-width: 768px) {
+  header { padding: 14px 17px; }
+  .header-tools { width: 100%; margin-left: 0; flex-wrap: wrap; }
+  #search-box { flex: 1 1 180px; width: auto; }
+  #study-inner { padding: 27px 16px 44px; }
+  #study-card { padding: 35px 22px 25px; }
+  .card-image { font-size: 21px; }
+  .card-logic { font-size: 15px; }
+  .answer-word { font-size: 32px; }
+}

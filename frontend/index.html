@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>English Semantic Graph — 英语概念图谱</title>
+  <title>English Semantic Graph — 语义回想</title>
   <link rel="stylesheet" href="style.css">
   <script>
     // 提前应用主题，避免首屏闪白
@@ -23,13 +23,13 @@
   <header>
     <div class="brand">
       <h1>English Semantic Graph</h1>
-      <span class="badge">v0.2.1</span>
+      <span class="badge">v0.3.0 · study desk</span>
     </div>
-    <p class="subtitle">不是背单词软件，而是一个概念认知系统</p>
+    <p class="subtitle">从画面回想单词，再看它如何长成词族</p>
     <div class="header-tools">
       <div id="mode-switch" role="tablist" aria-label="学习模式">
-        <button class="mode-btn active" data-mode="explore" role="tab">探索</button>
-        <button class="mode-btn" data-mode="recall" role="tab">回想</button>
+        <button class="mode-btn" data-mode="explore" role="tab">关系地图</button>
+        <button class="mode-btn active" data-mode="recall" role="tab">回想卡</button>
         <button class="mode-btn" data-mode="family" role="tab">词族</button>
       </div>
       <div id="search-box">
@@ -41,7 +41,7 @@
   </header>
 
   <!-- 学习模式面板：与图谱互斥显示 -->
-  <section id="study" class="hidden">
+  <section id="study">
     <div id="study-inner">
       <div id="study-progress"></div>
       <div id="study-card"></div>
