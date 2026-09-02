@@ -924,7 +924,8 @@
   function restartSimulation() {
     if (!simulation) return;
     unpinAll();
-    simulation.alpha(0.9).alphaTarget(0).restart();
+    placeVisibleNodes();
+    redraw();
   }
 
   function drag() {
