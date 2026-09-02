@@ -561,17 +561,46 @@
 
   function applyVisibility() {
     const vis = visibleNodeIds();
-    nodeSel.attr("opacity", (d) => (d.vizVisible ? 1 : 0))
-      .attr("pointer-events", (d) => (d.vizVisible ? "auto" : "none"));
-    linkSel.attr("opacity", (d) => {
+    const linkVisible = (d) => {
       const s = d.source.id || d.source;
       const t = d.target.id || d.target;
-      return vis.has(s) && vis.has(t) ? 0.5 : 0;
-    }).attr("pointer-events", (d) => {
-      const s = d.source.id || d.source;
-      const t = d.target.id || d.target;
-      return vis.has(s) && vis.has(t) ? "auto" : "none";
+      return vis.has(s) && vis.has(t);
+    };
+
+    // display:none 而不只是 opacity:0 —— 这一条直接决定拖拽手感。
+    // 透明元素仍要参与布局和绘制：全库 26292 个 SVG 元素挂在树上时，拖一个
+    // 节点每帧都触发 50~70ms 的渲染长任务（约 15fps），而 pointermove 的 JS
+    // 处理本身只有 0.2ms —— 代价全在浏览器这边。改成 display:none 后隐藏元素
+    // 退出渲染，实测拖拽期间长任务归零。
+    //
+    // opacity 属性照旧写：三个测试脚本都靠它判定可见性
+    // （smoke_drill.py 的计数、visual_audit.py 的裁切与密度检查）。
+    // 只写状态真的变了的元素。三个属性都由同一个布尔决定，所以一个守卫就够。
+    // 无脑全量写的话，每次切层都要碰 8648 个隐藏元素并触发一次大范围样式重算，
+    // 实测给切层平白加了 20ms —— 而每层的增量其实只有几十个元素。
+    nodeSel.each(function (d) {
+      const show = !!d.vizVisible;
+      if (d.shownState === show) return;
+      d.shownState = show;
+      this.setAttribute("opacity", show ? 1 : 0);
+      this.setAttribute("pointer-events", show ? "auto" : "none");
+      this.style.display = show ? "" : "none";
     });
+    linkSel.each(function (d) {
+      const show = linkVisible(d);
+      if (d.shownState === show) return;
+      d.shownState = show;
+      this.setAttribute("opacity", show ? 0.5 : 0);
+      this.setAttribute("pointer-events", show ? "auto" : "none");
+      this.style.display = show ? "" : "none";
+    });
+    // 缓存本层的子选择集给 redraw 用。必须在这里重算：切层后新露出来的节点
+    // 要立刻进入重绘范围，否则它们的 transform 停在上一次可见时的旧位置。
+    // applyView 的顺序是 applyVisibility → placeVisibleNodes → redraw，
+    // 所以这里更新完，后面写坐标时范围已经是对的。
+    visNodeSel = nodeSel.filter((d) => d.vizVisible);
+    visLinkSel = linkSel.filter(linkVisible);
+
     syncSimulationScope(vis);
     refreshScale();
     // 量本层标签。必须在 refreshScale 之后：radiusOf 依赖它算出的 viewScale。
@@ -691,6 +720,11 @@
   // ---------- 渲染 ----------
   let nodeSel = null;
   let linkSel = null;
+  // 当前层的子选择集。redraw 每帧只写这两个，不碰隐藏元素——
+  // 隐藏节点的坐标写了也看不见，而写属性的代价按元素总数算，不按可见数算。
+  // 由 applyVisibility 在可见集合变化时重算。
+  let visNodeSel = null;
+  let visLinkSel = null;
   let zoomBehavior = null;
   // 画布尺寸与边距：拖拽和 resize 都要用，故提到模块级
   let viewW = 0;
@@ -800,6 +834,16 @@
     }
   }
 
+  // 元素创建后立刻隐藏，并把增量守卫的状态播种成"已隐藏"。
+  // opacity 属性必须一起写死 0：三个测试脚本都用它判可见性，缺了这个属性
+  // getAttribute('opacity') 返回 null，会被当成可见（?? '1' 的默认值）。
+  function hideAtBirth(sel) {
+    sel.attr("opacity", 0)
+      .attr("pointer-events", "none")
+      .style("display", "none")
+      .each((d) => { d.shownState = false; });
+  }
+
   // 把节点夹在画布内（按标签实测尺寸，中文长标签也不会探出去）
   // 只处理可见节点：隐藏节点的位置无意义，大规模下夹紧它们纯属浪费
   function clampNodes(width, height, margin) {
@@ -815,13 +859,20 @@
 
   // 重绘：从 tick 里抽出来，拖拽时直接调用，无需重启力导向
   function redraw() {
-    if (!linkSel || !nodeSel) return;
-    linkSel
+    // 只重绘当前层。全量写一遍是 2793 条连线 + 5874 个节点 = 17046 次属性写入，
+    // 实测每帧 48.6ms（约 20fps），而词层实际只有 16 个节点 3 条连线要动，
+    // 只写可见的是 1.06ms。拖节点时每次 pointermove 都会走这里，差距直接
+    // 反映成手感：拖动帧间隔从 78ms 掉到一帧的量级。
+    // 首帧 applyVisibility 还没跑时退回全量，保证不漏画。
+    const ls = visLinkSel || linkSel;
+    const ns = visNodeSel || nodeSel;
+    if (!ls || !ns) return;
+    ls
       .attr("x1", (d) => d.source.x)
       .attr("y1", (d) => d.source.y)
       .attr("x2", (d) => d.target.x)
       .attr("y2", (d) => d.target.y);
-    nodeSel.attr("transform", (d) => `translate(${d.x},${d.y})`);
+    ns.attr("transform", (d) => `translate(${d.x},${d.y})`);
   }
 
   // 钉住 / 释放：钉住后图谱静止，是"拖一个不动其它"的关键
@@ -885,6 +936,15 @@
       .join("g")
       .attr("class", (d) => "node " + d.type)
       .call(drag());
+
+    // 一律以隐藏状态诞生，随后由 applyVisibility 只点亮本层。
+    // 顺序很要紧：若先可见再改隐藏，浏览器要先给 26292 个元素排一遍版，
+    // 再作废绝大部分——实测首屏长任务多出三四百毫秒。出生即隐藏则
+    // 从头到尾只排本层那几十个。
+    // 同时把 shownState 播种成 false，好让 applyVisibility 的增量守卫
+    // 认得出"只有可见的那几个需要写"。
+    hideAtBirth(linkSel);
+    hideAtBirth(nodeSel);
 
     nodeSel
       .append("circle")
