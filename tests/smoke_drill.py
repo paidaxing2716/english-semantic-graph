@@ -69,6 +69,8 @@ def main(url):
             if page.evaluate("document.querySelectorAll('.node.domain').length") > 0:
                 break
             time.sleep(0.3)
+        # C 方案默认进入回想卡；钻取回归从关系地图入口开始。
+        page.click('.mode-btn[data-mode="explore"]')
         wait_settle(page)
 
         # --- L1 语义域层 ---
