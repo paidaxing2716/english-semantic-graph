@@ -481,11 +481,12 @@
     const active = nodes.filter((n) => n.vizVisible);
     if (!active.length) return;
     const cols = view.level === "domain" ? Math.min(3, active.length)
-      : view.level === "root" ? Math.min(6, Math.max(2, Math.ceil(Math.sqrt(active.length))))
-      : Math.min(4, Math.max(2, Math.ceil(Math.sqrt(active.length))));
-    const rowH = view.level === "domain" ? 132 : 92;
+      : view.level === "root" ? Math.min(6, Math.max(2, Math.floor(viewW / 160)))
+      : Math.min(4, Math.max(2, Math.floor(viewW / 190)));
+    const baseRowH = view.level === "domain" ? 132 : 92;
     const colW = viewW / cols;
     const rows = Math.ceil(active.length / cols);
+    const rowH = Math.min(baseRowH, Math.max(42, (viewH - 80) / rows));
     const startY = Math.max(58, (viewH - rows * rowH) / 2 + rowH / 2);
     active.forEach((n, i) => {
       n.x = colW * ((i % cols) + 0.5);
@@ -909,6 +910,7 @@
       .force("collide", d3.forceCollide().radius(collideR))
       .on("tick", () => {
         // 使用当前视口尺寸；切换学习卡/关系地图后，首次闭包尺寸可能已经过期。
+        placeVisibleNodes();
         clampNodes(viewW, viewH, viewMargin);
         redraw();
       })
