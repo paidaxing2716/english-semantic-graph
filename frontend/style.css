@@ -907,8 +907,8 @@ footer code {
 
 /* ============ C 方案：纸张学习桌 ============ */
 body { background: #e8e1d3; }
-header { background: #fbf7ed; border-bottom: 2px solid #c8baa5; padding: 18px 30px; }
-header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 22px; letter-spacing: .2px; }
+header { background: #fbf7ed; border-bottom: 2px solid #c8baa5; padding: 14px 26px; }
+header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; letter-spacing: .2px; }
 .subtitle { font-family: Georgia, "Songti SC", serif; color: #766957; }
 .badge { color: #a14f3e; border-color: #d2a899; border-radius: 1px; transform: rotate(-2deg); }
 #mode-switch { border: 0; gap: 5px; overflow: visible; }
@@ -932,6 +932,9 @@ header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 22px; let
 #study-actions { justify-content: flex-start; margin-top: 22px; }
 .act { border-radius: 2px; background: #fbf7ed; border-color: #c8baa5; box-shadow: 2px 2px 0 rgba(74, 50, 32, .08); }
 .act.primary { background: #1e6b67; border-color: #1e6b67; }
+#hint { color: #554a40; }
+[data-theme="night"] header h1 { color: #f1eadc; }
+[data-theme="night"] #hint { color: #d2c5b5; }
 
 @media (max-width: 768px) {
   header { padding: 14px 17px; }
