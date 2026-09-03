@@ -114,6 +114,7 @@ DYNAMIC_CONTRAST_JS = r"""() => {""" + COLOR_HELPERS_JS + r"""
     ['#study-progress', 'span',   'prog-store warn'],
     ['#study-progress', 'span',   'prog-hint'],
     ['#study-progress', 'button', 'prog-btn'],
+    ['#study-progress', 'select', 'scope-select'],
     ['#study-card',     'td',     'fam-word tier-1'],
     ['#study-card',     'td',     'fam-word tier-2'],
     ['#study-card',     'td',     'fam-word tier-3'],

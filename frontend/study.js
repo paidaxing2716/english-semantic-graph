@@ -26,6 +26,7 @@
    */
   const PROGRESS_KEY = "esg-progress";
   const FILTER_KEY = "esg-skip-mastered";
+  const SCOPE_KEY = "esg-recall-scope";
   const TIER_MAX = 3;
   const TIER_LABEL = ["生词", "眼熟", "已背", "牢固"];
 
@@ -117,11 +118,128 @@
     try { return localStorage.getItem(FILTER_KEY) !== "0"; } catch (e) { return true; }
   }
 
+  /* ---------- 回想范围选择（issue #3） ----------
+   * 四种范围：全部 / 语义域 / 词根 / 日耳曼核心词（按词性细分）。
+   * 与「跳过已牢固」叠加：先按范围圈定，再按记忆状态过滤。
+   * 持久化在 localStorage，和进度同级——换设备本来也不跟进度，不必同步。
+   */
+  function defaultScope() { return { type: "all", id: null, pos: null }; }
+
+  function loadScope() {
+    try {
+      const raw = localStorage.getItem(SCOPE_KEY);
+      if (!raw) return defaultScope();
+      const j = JSON.parse(raw);
+      if (!j || typeof j !== "object") return defaultScope();
+      const s = { type: j.type, id: j.id || null, pos: j.pos || null };
+      return ["all", "domain", "root", "germanic"].includes(s.type) ? s : defaultScope();
+    } catch (e) { return defaultScope(); }
+  }
+
+  function saveScope(s) {
+    try { localStorage.setItem(SCOPE_KEY, JSON.stringify(s)); } catch (err) { /* 不可写就只影响本次 */ }
+  }
+
+  function setScope(s) {
+    recallScope = s;
+    saveScope(s);
+    startMode(mode); // 范围变了，队列要重建
+  }
+
+  // 词是否落在当前范围内。root 型挂在词根上，germanic 型没有 root_ids，
+  // 于是既不在任何语义域也不在任何词根下——只能靠「日耳曼核心词」档圈住。
+  function inScope(w) {
+    const s = recallScope;
+    if (s.type === "all") return true;
+    if (s.type === "domain") {
+      const dm = domainsById[s.id];
+      return !!dm && (w.root_ids || []).some((rid) => dm.has(rid));
+    }
+    if (s.type === "root") return (w.root_ids || []).includes(s.id);
+    if (s.type === "germanic") {
+      if (w.decomposable !== "germanic") return false;
+      return !s.pos || posTokens(w.pos).includes(s.pos);
+    }
+    return true;
+  }
+
+  function posTokens(p) {
+    return String(p || "").split("/").map((x) => x.trim()).filter(Boolean);
+  }
+
+  // 范围名：进度行与按钮上显示「范围 · 施力」这样的一句话。
+  function scopeName() {
+    const s = recallScope;
+    if (s.type === "all") return "全部";
+    if (s.type === "domain") {
+      const dm = domains.find((d) => d.id === s.id);
+      return dm ? dm.chinese : "语义域";
+    }
+    if (s.type === "root") {
+      const r = roots.find((x) => x.id === s.id);
+      return r ? r.root : "词根";
+    }
+    if (s.type === "germanic") return s.pos ? `日耳曼·${s.pos}` : "日耳曼核心词";
+    return "全部";
+  }
+
+  // 统计：语义域词数、词根词数、日耳曼词词性分布。数据加载后算一次，
+  // 范围选择器里的每个选项显示「名称（N 词）」。
+  let domains = [];
+  let domainsById = Object.create(null);
+  let domainCounts = Object.create(null);
+  let rootCounts = Object.create(null);
+  let germanicPos = [];
+
+  function buildScopeStats() {
+    domainsById = Object.create(null);
+    domainCounts = Object.create(null);
+    rootCounts = Object.create(null);
+    const posSet = new Set();
+    for (const dm of domains) {
+      domainsById[dm.id] = new Set(dm.root_ids || []);
+      domainCounts[dm.id] = 0;
+    }
+    for (const w of words) {
+      if (w.stub || !w.core_image) continue;
+      if (w.decomposable === "germanic") {
+        posTokens(w.pos).forEach((p) => posSet.add(p));
+        continue;
+      }
+      const seen = new Set();
+      for (const rid of w.root_ids || []) {
+        rootCounts[rid] = (rootCounts[rid] || 0) + 1;
+        for (const dm of domains) {
+          if (!seen.has(dm.id) && dm.root_ids.includes(rid)) {
+            seen.add(dm.id);
+            domainCounts[dm.id] += 1;
+          }
+        }
+      }
+    }
+    // 词性选项按出现频率排，常见的在前
+    germanicPos = [...posSet].sort((a, b) => {
+      const ca = words.filter((w) => w.decomposable === "germanic" && posTokens(w.pos).includes(a)).length;
+      const cb = words.filter((w) => w.decomposable === "germanic" && posTokens(w.pos).includes(b)).length;
+      return cb - ca;
+    });
+    // 持久化的范围可能指向已不存在的域/根（数据更新过），静默回退到「全部」，
+    // 否则会出现"选了但永远 0 词"的死状态。
+    const s = recallScope;
+    if (s.type === "domain" && (s.id == null || !domainsById[s.id])) { recallScope = defaultScope(); saveScope(recallScope); }
+    else if (s.type === "root" && (s.id == null || !rootCounts[s.id])) { recallScope = defaultScope(); saveScope(recallScope); }
+    else if (s.type === "germanic" && s.pos && !germanicPos.includes(s.pos)) {
+      recallScope = Object.assign({}, s, { pos: null });
+      saveScope(recallScope);
+    }
+  }
+
   loadProgress();
   probePersisted();
 
   let words = [];
   let roots = [];
+  let recallScope = loadScope();
   let mode = "explore";
   let queue = [];
   let idx = 0;
@@ -173,7 +291,10 @@
     // 核心画面即题面，推导行对 germanic 词显示提示（见 renderRecall）。
     // 排除 stub：占位词条的释义、中文、例句都是模板，揭示面板会显示
     // 「a thing or action related to stall」并把 stall 当成中文义项——一张坏卡。
-    const pool = words.filter((w) => w.core_image && !w.stub);
+    // 范围（issue #3）：先按范围圈定，再与「跳过已牢固」叠加。范围圈不出词
+    // （比如某词根下全是 stub 或没有可用词）时退回全量，和"全牢固退回全量"同理。
+    const scoped = words.filter((w) => w.core_image && !w.stub && inScope(w));
+    const pool = scoped.length ? scoped : words.filter((w) => w.core_image && !w.stub);
 
     // 跳过已牢固的词。队列 5248 词、一轮 50 词要走 105 轮，不过滤的话
     // 会反复撞见同一批熟词 —— 这是分层状态的实际用处，颜色只是它的可视化。
@@ -232,20 +353,22 @@
       : `<button class="act primary" data-act="reveal">显示答案</button>
          <button class="act" data-act="skip">跳过</button>`;
 
-    progEl.innerHTML = `回想模式 · 第 ${idx + 1} / ${queue.length} 词`
+    progEl.innerHTML = `回想模式 · 范围「${esc(scopeName())}」 · 第 ${idx + 1} / ${queue.length} 词`
       + (score.asked ? ` · 已答 ${score.asked}，想起 ${score.self_ok}` : "")
-      + progressBar();
+      + progressBar(true);
   }
 
-  /* 进度条：各层计数 + 过滤开关 + 导出/导入。
+  /* 进度条：各层计数 + 范围选择 + 过滤开关 + 导出/导入。
    * 塞在 #study-progress 里而不是新开一块，是因为视觉审计会查 #study 的
-   * 横向溢出，多一块就多一处要在 390px 上让位的东西。 */
-  function progressBar() {
+   * 横向溢出，多一块就多一处要在 390px 上让位的东西。
+   * showScope 只在回想模式为真：范围是回想队列的口径，词族模式不适用。 */
+  function progressBar(showScope) {
     const c = window.ESG.progress.counts();
     const done = c[1] + c[2] + c[3];
     const chips = TIER_LABEL.map((lab, t) =>
       t === 0 ? "" : `<span class="chip tier-${t}">${lab} ${c[t]}</span>`).join("");
     return `<div class="prog-row">
+      ${showScope ? scopeSelector() : ""}
       ${done ? chips : '<span class="prog-hint">答过的词会记在这里</span>'}
       <label class="prog-toggle"><input type="checkbox" data-act="toggle-skip"
         ${skipMastered() ? "checked" : ""}>跳过已牢固</label>
@@ -253,6 +376,52 @@
       <button class="prog-btn" data-act="import">导入</button>
       ${storeBadge()}
     </div>`;
+  }
+
+  /* 范围选择器：两个原生 select（类型 + 取值），紧凑、可访问，
+   * 在 390px 上靠 .prog-row 的 flex-wrap 换行，不引入自定义下拉的
+   * 定位/层级/溢出问题。取值 select 的内容随类型切换。 */
+  function scopeSelector() {
+    const s = recallScope;
+    const typeOpts = [
+      ["all", "全部"],
+      ["domain", "语义域"],
+      ["root", "词根"],
+      ["germanic", "日耳曼词"],
+    ].map(([v, lab]) =>
+      `<option value="${v}"${s.type === v ? " selected" : ""}>${lab}</option>`).join("");
+
+    let valueOpts = "";
+    if (s.type === "all") {
+      valueOpts = `<option value="">全部 ${words.length} 词</option>`;
+    } else if (s.type === "domain") {
+      valueOpts = domains.map((d) =>
+        `<option value="${esc(d.id)}"${s.id === d.id ? " selected" : ""}>`
+        + `${esc(d.chinese)}（${domainCounts[d.id] || 0} 词）</option>`).join("");
+    } else if (s.type === "root") {
+      valueOpts = roots
+        .filter((r) => rootCounts[r.id])
+        .sort((a, b) => (rootCounts[b.id] || 0) - (rootCounts[a.id] || 0))
+        .map((r) =>
+          `<option value="${esc(r.id)}"${s.id === r.id ? " selected" : ""}>`
+          + `${esc(r.root)}（${rootCounts[r.id]} 词）</option>`).join("");
+    } else if (s.type === "germanic") {
+      valueOpts = `<option value=""${!s.pos ? " selected" : ""}>全部 ${germanicTotal()} 词</option>`
+        + germanicPos.map((p) =>
+          `<option value="${esc(p)}"${s.pos === p ? " selected" : ""}>${esc(p)}</option>`).join("");
+    }
+    const valueSel = s.type === "all"
+      ? ""
+      : `<select class="scope-select" data-act="scope-value" aria-label="范围取值">${valueOpts}</select>`;
+
+    return `<span class="prog-toggle scope-sel">范围
+      <select class="scope-select" data-act="scope-type" aria-label="范围类型">${typeOpts}</select>${valueSel}</span>`;
+  }
+
+  function germanicTotal() {
+    let n = 0;
+    for (const w of words) if (w.decomposable === "germanic" && w.core_image && !w.stub) n++;
+    return n;
   }
 
   /* 存储状态做成看得见的文字，不是 tooltip。
@@ -277,7 +446,8 @@
   // 整片重写会把它一起冲掉。
   function refreshProgressBar() {
     const row = progEl.querySelector(".prog-row");
-    if (row) row.outerHTML = progressBar();
+    // 范围选择器只在回想模式渲染，刷新进度条时要按当前模式恢复
+    if (row) row.outerHTML = progressBar(mode === "recall");
   }
 
   function exportHint() {
@@ -327,6 +497,26 @@
   });
 
   progEl.addEventListener("change", (e) => {
+    const typeEl = e.target.closest('[data-act="scope-type"]');
+    if (typeEl) {
+      const type = typeEl.value;
+      let s = { type, id: null, pos: null };
+      if (type === "domain") s.id = (domains[0] || {}).id || null;
+      else if (type === "root") {
+        const first = roots.find((r) => rootCounts[r.id]);
+        s.id = first ? first.id : null;
+      }
+      setScope(s);
+      return;
+    }
+    const valEl = e.target.closest('[data-act="scope-value"]');
+    if (valEl) {
+      const s = Object.assign({}, recallScope);
+      if (s.type === "domain" || s.type === "root") s.id = valEl.value || null;
+      else if (s.type === "germanic") s.pos = valEl.value || null;
+      setScope(s);
+      return;
+    }
     const el = e.target.closest('[data-act="toggle-skip"]');
     if (!el) return;
     try { localStorage.setItem(FILTER_KEY, el.checked ? "1" : "0"); } catch (err) { /* 不可写就只影响本次 */ }
@@ -394,7 +584,7 @@
 
     progEl.innerHTML = `词族模式 · 第 ${idx + 1} / ${queue.length} 族`
       + (score.asked ? ` · 已答 ${score.asked}，对上 ${score.self_ok}` : "")
-      + progressBar();
+      + progressBar(false);
   }
 
   function renderDone() {
@@ -547,13 +737,17 @@
   window.ESG.initStudy = function (data) {
     words = data.words.words;
     roots = data.roots.roots;
+    domains = (data.domains && data.domains.domains) || [];
+    buildScopeStats();
     document.querySelectorAll(".mode-btn").forEach((b) => {
       b.addEventListener("click", () => setMode(b.dataset.mode));
     });
     // 键盘：空格显示答案 / 回车下一题
     document.addEventListener("keydown", (e) => {
       if (mode === "explore" || !queue.length) return;
-      if (e.target.tagName === "INPUT") return;
+      // INPUT 是跳过开关；SELECT 是范围选择器——聚焦时按空格/回车
+      // 是原生控件操作，不能同时触发学习卡的快捷键
+      if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
       if (e.code === "Space") {
         e.preventDefault();
         if (!revealed) { revealed = true; render(); }

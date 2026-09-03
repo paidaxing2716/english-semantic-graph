@@ -868,6 +868,26 @@ main { flex: 1; display: flex; min-height: 0; overflow: hidden; }
 }
 .prog-btn:hover { border-color: var(--accent); }
 
+/* 范围选择器（issue #3）：双联原生 select，尺寸与 .prog-btn 对齐。
+   select 自带 --paper 背景，bgOf 会以它自身为背景测对比度 ——
+   文字色用 --ink-soft 在纸色上约 4.9:1，过 AA。
+   选择器直接挂 .scope-select 类而非 .scope-sel select：视觉审计的探针
+   会在 #study-progress 里新造一个 select.scope-select 来量对比度，
+   若只写后代选择器，探针样本就量不到本规则。 */
+.scope-select {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 2px 4px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  max-width: 150px;
+  cursor: pointer;
+}
+.scope-select:hover { border-color: var(--accent); }
+.scope-select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
 /* 存储状态。做成看得见的文字而非 tooltip —— 手机上长按看不到 title，
    而这条信息恰好只能在真机上确认。
    警示态用 --ink-soft 而不是 --antonym：后者在 panel-2 背景上只有
