@@ -119,11 +119,12 @@
   }
 
   /* ---------- 回想范围选择（issue #3） ----------
-   * 四种范围：全部 / 语义域 / 词根 / 日耳曼核心词（按词性细分）。
+   * 三种范围：全部 / 语义域（其下可选词根） / 日耳曼核心词（按词性细分）。
+   * 词根不是顶层筛选项：它是选定语义域后的第二级，和图谱钻取模型一致。
    * 与「跳过已牢固」叠加：先按范围圈定，再按记忆状态过滤。
    * 持久化在 localStorage，和进度同级——换设备本来也不跟进度，不必同步。
    */
-  function defaultScope() { return { type: "all", id: null, pos: null }; }
+  function defaultScope() { return { type: "all", domainId: null, rootId: null, pos: null }; }
 
   function loadScope() {
     try {
@@ -131,7 +132,13 @@
       if (!raw) return defaultScope();
       const j = JSON.parse(raw);
       if (!j || typeof j !== "object") return defaultScope();
-      const s = { type: j.type, id: j.id || null, pos: j.pos || null };
+      // 旧版顶层 root 会在数据加载后迁到「该词根所属语义域 + 该词根」。
+      const s = {
+        type: j.type,
+        domainId: j.domainId || (j.type === "domain" ? j.id : null) || null,
+        rootId: j.rootId || (j.type === "root" ? j.id : null) || null,
+        pos: j.pos || null,
+      };
       return ["all", "domain", "root", "germanic"].includes(s.type) ? s : defaultScope();
     } catch (e) { return defaultScope(); }
   }
@@ -152,10 +159,10 @@
     const s = recallScope;
     if (s.type === "all") return true;
     if (s.type === "domain") {
-      const dm = domainsById[s.id];
+      if (s.rootId) return (w.root_ids || []).includes(s.rootId);
+      const dm = domainsById[s.domainId];
       return !!dm && (w.root_ids || []).some((rid) => dm.has(rid));
     }
-    if (s.type === "root") return (w.root_ids || []).includes(s.id);
     if (s.type === "germanic") {
       if (w.decomposable !== "germanic") return false;
       return !s.pos || posTokens(w.pos).includes(s.pos);
@@ -172,12 +179,11 @@
     const s = recallScope;
     if (s.type === "all") return "全部";
     if (s.type === "domain") {
-      const dm = domains.find((d) => d.id === s.id);
-      return dm ? dm.chinese : "语义域";
-    }
-    if (s.type === "root") {
-      const r = roots.find((x) => x.id === s.id);
-      return r ? r.root : "词根";
+      const dm = domains.find((d) => d.id === s.domainId);
+      const domainLabel = dm ? dm.chinese : "语义域";
+      if (!s.rootId) return domainLabel;
+      const r = roots.find((x) => x.id === s.rootId);
+      return r ? `${domainLabel} › ${r.root}` : domainLabel;
     }
     if (s.type === "germanic") return s.pos ? `日耳曼·${s.pos}` : "日耳曼核心词";
     return "全部";
@@ -190,46 +196,75 @@
   let domainCounts = Object.create(null);
   let rootCounts = Object.create(null);
   let germanicPos = [];
+  let germanicPosCounts = Object.create(null);
+  let germanicTotalCount = 0;
+  let rootToDomain = Object.create(null);
 
   function buildScopeStats() {
     domainsById = Object.create(null);
     domainCounts = Object.create(null);
     rootCounts = Object.create(null);
+    germanicPosCounts = Object.create(null);
+    germanicTotalCount = 0;
+    rootToDomain = Object.create(null);
     const posSet = new Set();
     for (const dm of domains) {
       domainsById[dm.id] = new Set(dm.root_ids || []);
       domainCounts[dm.id] = 0;
+      for (const rid of dm.root_ids || []) {
+        if (!rootToDomain[rid]) rootToDomain[rid] = dm.id;
+      }
     }
     for (const w of words) {
       if (w.stub || !w.core_image) continue;
       if (w.decomposable === "germanic") {
-        posTokens(w.pos).forEach((p) => posSet.add(p));
+        germanicTotalCount += 1;
+        posTokens(w.pos).forEach((p) => {
+          posSet.add(p);
+          germanicPosCounts[p] = (germanicPosCounts[p] || 0) + 1;
+        });
         continue;
       }
       const seen = new Set();
       for (const rid of w.root_ids || []) {
         rootCounts[rid] = (rootCounts[rid] || 0) + 1;
-        for (const dm of domains) {
-          if (!seen.has(dm.id) && dm.root_ids.includes(rid)) {
-            seen.add(dm.id);
-            domainCounts[dm.id] += 1;
-          }
+        const did = rootToDomain[rid];
+        if (did && !seen.has(did)) {
+          seen.add(did);
+          domainCounts[did] += 1;
         }
       }
     }
-    // 词性选项按出现频率排，常见的在前
-    germanicPos = [...posSet].sort((a, b) => {
-      const ca = words.filter((w) => w.decomposable === "germanic" && posTokens(w.pos).includes(a)).length;
-      const cb = words.filter((w) => w.decomposable === "germanic" && posTokens(w.pos).includes(b)).length;
-      return cb - ca;
-    });
-    // 持久化的范围可能指向已不存在的域/根（数据更新过），静默回退到「全部」，
-    // 否则会出现"选了但永远 0 词"的死状态。
+    germanicPos = [...posSet].sort((a, b) => (germanicPosCounts[b] || 0) - (germanicPosCounts[a] || 0));
+    migrateScope();
+  }
+
+  function migrateScope() {
     const s = recallScope;
-    if (s.type === "domain" && (s.id == null || !domainsById[s.id])) { recallScope = defaultScope(); saveScope(recallScope); }
-    else if (s.type === "root" && (s.id == null || !rootCounts[s.id])) { recallScope = defaultScope(); saveScope(recallScope); }
-    else if (s.type === "germanic" && s.pos && !germanicPos.includes(s.pos)) {
-      recallScope = Object.assign({}, s, { pos: null });
+    // 旧顶层「词根」迁到「该词根所属语义域 + 该词根」。
+    if (s.type === "root") {
+      const rid = s.rootId;
+      const did = rid ? rootToDomain[rid] : null;
+      recallScope = did && rootCounts[rid]
+        ? { type: "domain", domainId: did, rootId: rid, pos: null }
+        : defaultScope();
+      saveScope(recallScope);
+      return;
+    }
+    if (s.type === "domain") {
+      if (!s.domainId || !domainsById[s.domainId]) {
+        recallScope = defaultScope();
+        saveScope(recallScope);
+        return;
+      }
+      if (s.rootId && (!rootCounts[s.rootId] || !domainsById[s.domainId].has(s.rootId))) {
+        recallScope = { type: "domain", domainId: s.domainId, rootId: null, pos: null };
+        saveScope(recallScope);
+      }
+      return;
+    }
+    if (s.type === "germanic" && s.pos && !germanicPos.includes(s.pos)) {
+      recallScope = { type: "germanic", domainId: null, rootId: null, pos: null };
       saveScope(recallScope);
     }
   }
@@ -378,50 +413,50 @@
     </div>`;
   }
 
-  /* 范围选择器：两个原生 select（类型 + 取值），紧凑、可访问，
-   * 在 390px 上靠 .prog-row 的 flex-wrap 换行，不引入自定义下拉的
-   * 定位/层级/溢出问题。取值 select 的内容随类型切换。 */
+  /* 范围选择器：原生 select 按层级展开。
+   * 语义域：类型 → 域 → 该域下的词根（可空，表示练整个域）
+   * 日耳曼词：类型 → 词性（可空，表示全部日耳曼词）
+   * 在 390px 上靠 .prog-row 的 flex-wrap 换行，不引入自定义下拉。 */
   function scopeSelector() {
     const s = recallScope;
     const typeOpts = [
       ["all", "全部"],
       ["domain", "语义域"],
-      ["root", "词根"],
       ["germanic", "日耳曼词"],
     ].map(([v, lab]) =>
       `<option value="${v}"${s.type === v ? " selected" : ""}>${lab}</option>`).join("");
 
-    let valueOpts = "";
-    if (s.type === "all") {
-      valueOpts = `<option value="">全部 ${words.length} 词</option>`;
-    } else if (s.type === "domain") {
-      valueOpts = domains.map((d) =>
-        `<option value="${esc(d.id)}"${s.id === d.id ? " selected" : ""}>`
-        + `${esc(d.chinese)}（${domainCounts[d.id] || 0} 词）</option>`).join("");
-    } else if (s.type === "root") {
-      valueOpts = roots
-        .filter((r) => rootCounts[r.id])
-        .sort((a, b) => (rootCounts[b.id] || 0) - (rootCounts[a.id] || 0))
-        .map((r) =>
-          `<option value="${esc(r.id)}"${s.id === r.id ? " selected" : ""}>`
-          + `${esc(r.root)}（${rootCounts[r.id]} 词）</option>`).join("");
+    let extra = "";
+    if (s.type === "domain") {
+      extra += `<select class="scope-select" data-act="scope-domain" aria-label="语义域">`
+        + domains.map((d) =>
+          `<option value="${esc(d.id)}"${s.domainId === d.id ? " selected" : ""}>`
+          + `${esc(d.chinese)}（${domainCounts[d.id] || 0} 词）</option>`).join("")
+        + `</select>`;
+      extra += `<select class="scope-select" data-act="scope-root" aria-label="词根">`
+        + `<option value=""${!s.rootId ? " selected" : ""}>整个语义域（${domainCounts[s.domainId] || 0} 词）</option>`
+        + rootsInDomain(s.domainId).map((r) =>
+          `<option value="${esc(r.id)}"${s.rootId === r.id ? " selected" : ""}>`
+          + `${esc(r.root)}（${rootCounts[r.id] || 0} 词）</option>`).join("")
+        + `</select>`;
     } else if (s.type === "germanic") {
-      valueOpts = `<option value=""${!s.pos ? " selected" : ""}>全部 ${germanicTotal()} 词</option>`
+      extra += `<select class="scope-select" data-act="scope-pos" aria-label="词性">`
+        + `<option value=""${!s.pos ? " selected" : ""}>全部 ${germanicTotalCount} 词</option>`
         + germanicPos.map((p) =>
-          `<option value="${esc(p)}"${s.pos === p ? " selected" : ""}>${esc(p)}</option>`).join("");
+          `<option value="${esc(p)}"${s.pos === p ? " selected" : ""}>${esc(p)}（${germanicPosCounts[p] || 0} 词）</option>`).join("")
+        + `</select>`;
     }
-    const valueSel = s.type === "all"
-      ? ""
-      : `<select class="scope-select" data-act="scope-value" aria-label="范围取值">${valueOpts}</select>`;
 
     return `<span class="prog-toggle scope-sel">范围
-      <select class="scope-select" data-act="scope-type" aria-label="范围类型">${typeOpts}</select>${valueSel}</span>`;
+      <select class="scope-select" data-act="scope-type" aria-label="范围类型">${typeOpts}</select>${extra}</span>`;
   }
 
-  function germanicTotal() {
-    let n = 0;
-    for (const w of words) if (w.decomposable === "germanic" && w.core_image && !w.stub) n++;
-    return n;
+  function rootsInDomain(domainId) {
+    const ids = domainsById[domainId];
+    if (!ids) return [];
+    return roots
+      .filter((r) => ids.has(r.id) && rootCounts[r.id])
+      .sort((a, b) => (rootCounts[b.id] || 0) - (rootCounts[a.id] || 0));
   }
 
   /* 存储状态做成看得见的文字，不是 tooltip。
@@ -500,21 +535,33 @@
     const typeEl = e.target.closest('[data-act="scope-type"]');
     if (typeEl) {
       const type = typeEl.value;
-      let s = { type, id: null, pos: null };
-      if (type === "domain") s.id = (domains[0] || {}).id || null;
-      else if (type === "root") {
-        const first = roots.find((r) => rootCounts[r.id]);
-        s.id = first ? first.id : null;
+      if (type === "domain") {
+        setScope({ type, domainId: (domains[0] || {}).id || null, rootId: null, pos: null });
+      } else if (type === "germanic") {
+        setScope({ type, domainId: null, rootId: null, pos: null });
+      } else {
+        setScope(defaultScope());
       }
-      setScope(s);
       return;
     }
-    const valEl = e.target.closest('[data-act="scope-value"]');
-    if (valEl) {
-      const s = Object.assign({}, recallScope);
-      if (s.type === "domain" || s.type === "root") s.id = valEl.value || null;
-      else if (s.type === "germanic") s.pos = valEl.value || null;
-      setScope(s);
+    const domainEl = e.target.closest('[data-act="scope-domain"]');
+    if (domainEl) {
+      setScope({ type: "domain", domainId: domainEl.value || null, rootId: null, pos: null });
+      return;
+    }
+    const rootEl = e.target.closest('[data-act="scope-root"]');
+    if (rootEl) {
+      setScope({
+        type: "domain",
+        domainId: recallScope.domainId,
+        rootId: rootEl.value || null,
+        pos: null,
+      });
+      return;
+    }
+    const posEl = e.target.closest('[data-act="scope-pos"]');
+    if (posEl) {
+      setScope({ type: "germanic", domainId: null, rootId: null, pos: posEl.value || null });
       return;
     }
     const el = e.target.closest('[data-act="toggle-skip"]');

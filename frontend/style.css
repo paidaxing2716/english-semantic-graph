@@ -868,12 +868,12 @@ main { flex: 1; display: flex; min-height: 0; overflow: hidden; }
 }
 .prog-btn:hover { border-color: var(--accent); }
 
-/* 范围选择器（issue #3）：双联原生 select，尺寸与 .prog-btn 对齐。
-   select 自带 --paper 背景，bgOf 会以它自身为背景测对比度 ——
-   文字色用 --ink-soft 在纸色上约 4.9:1，过 AA。
-   选择器直接挂 .scope-select 类而非 .scope-sel select：视觉审计的探针
-   会在 #study-progress 里新造一个 select.scope-select 来量对比度，
-   若只写后代选择器，探针样本就量不到本规则。 */
+/* 范围选择器：层级原生 select，尺寸与 .prog-btn 对齐。
+   语义域档会同时出现「类型 + 域 + 词根」三个控件，390px 上必须能换行；
+   否则第三个 150px 下拉会顶出视口。
+   选择器直接挂 .scope-select 类而非后代选择器：视觉审计的探针
+   会在 #study-progress 里新造一个 select.scope-select 来量对比度。 */
+.scope-sel { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; max-width: 100%; }
 .scope-select {
   font-family: inherit;
   font-size: 12px;
