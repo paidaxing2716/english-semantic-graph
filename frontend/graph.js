@@ -1251,6 +1251,14 @@
     }
 
     detailContent.html(html);
+
+    // 换词后回到顶部。滚动容器是 #detail-panel 本身（不是 #detail-content），
+    // 而这里只换内容，滚动位置会原样留着 —— 上一个词看到哪，新词就从哪开始，
+    // 标题落在视口外。桌面实测残留 507px、手机 905px（几乎整屏）。
+    // 必须放在写入之后：先归零再换内容，新内容的高度会把位置顶回去。
+    // 所有入口（点节点、点 chip、搜索直达）都经过 showDetail，故只此一处。
+    const panel = detailPanel.node();
+    if (panel) panel.scrollTop = 0;
   }
 
   // 点击详情面板中的近义词 chip → 定位到该词

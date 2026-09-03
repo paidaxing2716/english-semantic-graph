@@ -41,6 +41,37 @@ CLICK_FIRST_VISIBLE = """(sel) => {
   return !!el;
 }"""
 
+# 详情面板换词后必须回到顶部。
+# 滚动容器是 #detail-panel 本身（不是 #detail-content），而 showDetail 只换内容，
+# 于是上一个词看到哪、下一个词就从哪开始 —— 新词的标题在视口外，看到的是例句区。
+# 桌面实测残留 507px、手机 905px（几乎整屏）。
+#
+# 断言前先确认面板真的能滚：若 scrollable 为假，scrollTop 恒为 0，
+# 这条检查就变成永真的空转，回归了也发现不了。
+CLICK_NTH_WORD = """(n) => {
+  const ws = [...document.querySelectorAll('.node.word')]
+    .filter((e) => e.getAttribute('opacity') !== '0');
+  if (!ws[n]) return null;
+  ws[n].dispatchEvent(new MouseEvent('click', {bubbles: true}));
+  return true;
+}"""
+
+PANEL_STATE = """() => {
+  const p = document.querySelector('#detail-panel');
+  if (!p) return null;
+  return {
+    top: p.scrollTop,
+    scrollable: p.scrollHeight > p.clientHeight + 2,
+    title: ((document.querySelector('.detail-title') || {}).textContent || '')
+      .trim().split(/\\s+/)[0],
+  };
+}"""
+
+SCROLL_PANEL_BOTTOM = """() => {
+  const p = document.querySelector('#detail-panel');
+  if (p) p.scrollTop = p.scrollHeight;
+}"""
+
 
 def wait_settle(page, ms=2200):
     """等力导向收敛 + 切层的 300ms 缩放过渡跑完。"""
@@ -113,6 +144,26 @@ def main(url):
         # 词根圈没了，当前词根只能靠导航条交代——这是用户明确要的
         check(fails, c["crumbRoot"].strip() != "", "L3 导航条没写当前词根")
         check(fails, c["legend"] > 0, "图例全灭——visual_audit 会因此挂掉")
+
+        # --- 详情面板换词后回到顶部 ---
+        if page.evaluate(CLICK_NTH_WORD, 0):
+            page.wait_for_timeout(600)
+            page.evaluate(SCROLL_PANEL_BOTTOM)
+            page.wait_for_timeout(250)
+            a = page.evaluate(PANEL_STATE)
+            page.evaluate(CLICK_NTH_WORD, 1)
+            page.wait_for_timeout(600)
+            b = page.evaluate(PANEL_STATE)
+            print(f"[详情面板] 滚到底 {a['top']}px（可滚={a['scrollable']}）→ 换词后 {b['top']}px")
+            check(fails, a["scrollable"],
+                  "详情面板不可滚动，这条断言等于空转——换个视口或更长的词条再测")
+            check(fails, a["top"] > 0, "面板没滚动起来，断言前提不成立")
+            check(fails, a["title"] != b["title"],
+                  f"没换词（都是「{a['title']}」），滚动位置检查无意义")
+            check(fails, b["top"] == 0,
+                  f"换词后详情面板仍停在 {b['top']}px，新词的标题在视口外")
+        else:
+            check(fails, False, "L3 没有可点的单词节点，无法验证详情面板滚动位置")
 
         # --- 回退 L3 → L2 ---
         page.click("#nav-back")
